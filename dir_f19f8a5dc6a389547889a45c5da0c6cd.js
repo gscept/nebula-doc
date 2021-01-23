@@ -21,6 +21,9 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
       [ "LockFreeQueue", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],
       [ "Node", "struct_threading_1_1_lock_free_queue_1_1_node.html", "struct_threading_1_1_lock_free_queue_1_1_node" ]
     ] ],
+    [ "mutex.h", "mutex_8h.html", [
+      [ "Mutex", "class_threading_1_1_mutex.html", "class_threading_1_1_mutex" ]
+    ] ],
     [ "objectref.cc", "objectref_8cc.html", "objectref_8cc" ],
     [ "objectref.h", "objectref_8h.html", [
       [ "ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ]

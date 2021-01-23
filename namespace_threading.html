@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('namespace_threading.html',''); initRes
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A mutex object which will assert instead of lock the thread. </p>
 <p>A frame pass prepares a rendering sequence, draws and subpasses must reside within one of these objects.</p>
+<p>A mutex is a MUTual EXecution primitive, used to synchronize memory access across threads.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
 <pre class="fragment">A lock-free queue implements a queue which completely relies on atomic operations.
 
@@ -137,9 +138,9 @@ while (true)
 <p>if (oldTail != nullptr) oldTail-&gt;next = newNode;</p>
 <p>This queue implements two linked lists. One for the resident nodes and one for the free nodes. The free nodes and resident nodes follow identical patterns, howeven the resident nodes will attempt to allocate from the free nodes (and assert that it worked) or return a node to the free list.</p>
 <p>TODO: Add support for ABA - make a new type of node which accompanies the node pointer with an integer allowing for knowing if a node has been modified even if it's state looks identical. For example, we might be <a class="el" href="class_threading_1_1_thread.html">Thread</a> A running an Enqueue operation, and in the CompareAndSwap we assume we wont the race because this-&gt;tail is equivalent to oldTail, BUT! What can also happen is that between where we get oldTail and to the CompareAndSwap (CAS) operation, <a class="el" href="class_threading_1_1_thread.html">Thread</a> B comes in and does Enqueue, Dequeue, leaving us in the same state but with changes having happened. If we instead accompany each node with an atomic counter, and increase it for every time we make a modification, we can safetly do the CAS and know for sure if the node has been tampered with or not.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd>
-<dd>
-(C) 2016-2020 Individual contributors, see AUTHORS file </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
+<p>(C) 2020 Individual contributors, see AUTHORS file</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2016-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -150,6 +151,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_threading_1_1_critical_scope.html">CriticalScope</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_lock_free_queue.html">LockFreeQueue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_mutex.html">Mutex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_object_ref.html">ObjectRef</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A thread-safe reference to a shared object.  <a href="class_threading_1_1_object_ref.html#details">More...</a><br /></td></tr>
@@ -331,7 +334,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_threading.html">Threading</a></li>
 				<li class="footer">
-					Generated on Fri Jan 22 2021 20:15:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 23 2021 17:45:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

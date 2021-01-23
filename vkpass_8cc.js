@@ -15,7 +15,6 @@ var vkpass_8cc =
     [ "PassGetVkRenderPassBeginInfo", "vkpass_8cc.html#afafe9325a69fa346f3139c03b995f1d5", null ],
     [ "PassGetVkViewports", "vkpass_8cc.html#a08dfa7df807436cb43cbd40793b22cf8", null ],
     [ "PassNextSubpass", "vkpass_8cc.html#a819b56658ef3f54626d61bd4762fa38d", null ],
-    [ "PassUpdateResources", "vkpass_8cc.html#af571e5f6b2aefd7eadb05fa72a567886", null ],
     [ "PassWindowResizeCallback", "vkpass_8cc.html#a7eb4dafaf07e6885492a4e8b74234419", null ],
     [ "SetupPass", "vkpass_8cc.html#af96c7800e3a4810d9784429db4ca15e8", null ],
     [ "passAllocator", "vkpass_8cc.html#a8737933eb7ba322b12d126c1b21a0da6", null ]

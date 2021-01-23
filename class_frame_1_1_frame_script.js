@@ -19,7 +19,6 @@ var class_frame_1_1_frame_script =
     [ "RunJobs", "class_frame_1_1_frame_script.html#a1b29f9cbf6bc0d5c55d4b32ddb4ac312", null ],
     [ "SetResourceName", "class_frame_1_1_frame_script.html#a70c93be3eb76cb0b99582c633aae8015", null ],
     [ "Setup", "class_frame_1_1_frame_script.html#ac725278a0e9cbfdc42171ad7f802c4f5", null ],
-    [ "UpdateResources", "class_frame_1_1_frame_script.html#a05e7bd1121a26320e5d8b0fee2809a2f", null ],
     [ "FrameScriptLoader", "class_frame_1_1_frame_script.html#a50c4ad65c87da5708cfe63e4eacb77a0", null ],
     [ "FrameServer", "class_frame_1_1_frame_script.html#a53c8568281360bd589b0d19b8c49c6b5", null ],
     [ "Graphics::View", "class_frame_1_1_frame_script.html#aa7e6fdb49172fd6633ce79c22c8cfbef", null ],

@@ -6,6 +6,7 @@ var dir_9f6a9da6d13be67c57567c19b5bef798 =
     [ "posixinterlocked.h", "posixinterlocked_8h.html", [
       [ "PosixInterlocked", "class_posix_1_1_posix_interlocked.html", "class_posix_1_1_posix_interlocked" ]
     ] ],
+    [ "posixmutex.cc", "posixmutex_8cc.html", null ],
     [ "posixthread.cc", "posixthread_8cc.html", "posixthread_8cc" ],
     [ "posixthread.h", "posixthread_8h.html", "posixthread_8h" ],
     [ "posixthreadbarrier.h", "posixthreadbarrier_8h.html", [

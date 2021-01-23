@@ -106,6 +106,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a31140d23785356bdd7d41fc11ed1ad60"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_linux_1_1_linux_interlocked.html#a31140d23785356bdd7d41fc11ed1ad60">Add</a> (int volatile &amp;var, int add)</td></tr>
 <tr class="memdesc:a31140d23785356bdd7d41fc11ed1ad60"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked add, return previous value  <a href="class_linux_1_1_linux_interlocked.html#a31140d23785356bdd7d41fc11ed1ad60">More...</a><br /></td></tr>
 <tr class="separator:a31140d23785356bdd7d41fc11ed1ad60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f52e8ab53189ae5278d0db38210409"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_linux_1_1_linux_interlocked.html#af4f52e8ab53189ae5278d0db38210409">Or</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:af4f52e8ab53189ae5278d0db38210409"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked or  <a href="class_linux_1_1_linux_interlocked.html#af4f52e8ab53189ae5278d0db38210409">More...</a><br /></td></tr>
+<tr class="separator:af4f52e8ab53189ae5278d0db38210409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b99d252af26d04232f67e03e854e7e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_linux_1_1_linux_interlocked.html#a35b99d252af26d04232f67e03e854e7e">And</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a35b99d252af26d04232f67e03e854e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked and  <a href="class_linux_1_1_linux_interlocked.html#a35b99d252af26d04232f67e03e854e7e">More...</a><br /></td></tr>
+<tr class="separator:a35b99d252af26d04232f67e03e854e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb8a6cf325614a6233a0bbdc126f562"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_linux_1_1_linux_interlocked.html#a9eb8a6cf325614a6233a0bbdc126f562">Xor</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a9eb8a6cf325614a6233a0bbdc126f562"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked xor  <a href="class_linux_1_1_linux_interlocked.html#a9eb8a6cf325614a6233a0bbdc126f562">More...</a><br /></td></tr>
+<tr class="separator:a9eb8a6cf325614a6233a0bbdc126f562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2015b9aef5a550ad8c7c4ad51eb6c309"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_linux_1_1_linux_interlocked.html#a2015b9aef5a550ad8c7c4ad51eb6c309">Exchange</a> (int volatile *dest, int value)</td></tr>
 <tr class="memdesc:a2015b9aef5a550ad8c7c4ad51eb6c309"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <a href="class_linux_1_1_linux_interlocked.html#a2015b9aef5a550ad8c7c4ad51eb6c309">More...</a><br /></td></tr>
 <tr class="separator:a2015b9aef5a550ad8c7c4ad51eb6c309"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +164,44 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>interlocked add, return previous value </p>
+
+</div>
+</div>
+<a id="a35b99d252af26d04232f67e03e854e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b99d252af26d04232f67e03e854e7e">&#9670;&nbsp;</a></span>And()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Linux::LinuxInterlocked::And </td>
+          <td>(</td>
+          <td class="paramtype">int volatile *&#160;</td>
+          <td class="paramname"><em>var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>interlocked and </p>
 
 </div>
 </div>
@@ -378,6 +425,82 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af4f52e8ab53189ae5278d0db38210409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f52e8ab53189ae5278d0db38210409">&#9670;&nbsp;</a></span>Or()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Linux::LinuxInterlocked::Or </td>
+          <td>(</td>
+          <td class="paramtype">int volatile *&#160;</td>
+          <td class="paramname"><em>var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>interlocked or </p>
+
+</div>
+</div>
+<a id="a9eb8a6cf325614a6233a0bbdc126f562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb8a6cf325614a6233a0bbdc126f562">&#9670;&nbsp;</a></span>Xor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Linux::LinuxInterlocked::Xor </td>
+          <td>(</td>
+          <td class="paramtype">int volatile *&#160;</td>
+          <td class="paramname"><em>var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>interlocked xor </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/code/foundation/threading/linux/<a class="el" href="linuxinterlocked_8h_source.html">linuxinterlocked.h</a></li>
 </ul>
@@ -388,7 +511,7 @@ Static Public Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_linux.html">Linux</a></li><li class="navelem"><a class="el" href="class_linux_1_1_linux_interlocked.html">LinuxInterlocked</a></li>
 				<li class="footer">
-					Generated on Fri Jan 22 2021 20:15:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 23 2021 17:45:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

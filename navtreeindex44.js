@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"class_vulkan_1_1_vk_memory_texture_pool.html#a8a87e43efba00ba0feed4979810de345":[9,0,61,12,31],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a8ca2cc1504d0fb858ca244233464bc47":[9,0,61,12,8],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a91004c588ac907bfe6e6f18aada11a61":[9,0,61,12,46],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a919ec66b212252b8391e78623bfb0181":[9,0,61,12,6],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a97317a92b130b86cdcdd20a2c3eab8dc":[9,0,61,12,9],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a995676273fd048562154a5a7b813088d":[9,0,61,12,27],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a9dcf6bb4ad8dcec99157dcccce15ae23":[9,0,61,12,35],
+"class_vulkan_1_1_vk_memory_texture_pool.html#a9f6ca2525a638035b7d41ee88159079e":[9,0,61,12,32],
 "class_vulkan_1_1_vk_memory_texture_pool.html#aa1f2ba089db35db91adf40bcc1dc2457":[9,0,61,12,37],
 "class_vulkan_1_1_vk_memory_texture_pool.html#ab8275e1955ac8bc75b6b461ce33e5e9c":[9,0,61,12,14],
 "class_vulkan_1_1_vk_memory_texture_pool.html#ab95974c798cbb60fa516d1c5dd8f4c29":[9,0,61,12,45],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "class_vulkan_1_1_vk_shape_renderer.html#a80449ad1a5420f8f197a8717bd9f4d9e":[9,0,61,25,32],
 "class_vulkan_1_1_vk_shape_renderer.html#a8aa5c1cb25cdd3fc2fe9401b0f322a21":[9,0,61,25,33],
 "class_vulkan_1_1_vk_shape_renderer.html#a8b850060fe73a4d9fd63fc245e4421b8":[9,0,61,25,14],
-"class_vulkan_1_1_vk_shape_renderer.html#a8eba8f2c038558e656753298d7a67f23":[9,0,61,25,4],
-"class_vulkan_1_1_vk_shape_renderer.html#a8fdee1b7d64b4ba216ad7018e5282e61":[9,0,61,25,27],
-"class_vulkan_1_1_vk_shape_renderer.html#aa00bb29efe2402b790ab66a3f614a116":[9,0,61,25,19],
-"class_vulkan_1_1_vk_shape_renderer.html#aa099463267d4a3cbf45e6e4501303842":[9,0,61,25,15],
-"class_vulkan_1_1_vk_shape_renderer.html#aaa90c9bd9d856837efa96f28fdc660e0":[9,0,61,25,23],
-"class_vulkan_1_1_vk_shape_renderer.html#aace0ac4e68be7764209f50d24f5f3948":[9,0,61,25,44],
-"class_vulkan_1_1_vk_shape_renderer.html#ab0c15cead4e616b39d93144b71ef3010":[9,0,61,25,7],
-"class_vulkan_1_1_vk_shape_renderer.html#ab2e4e1892bfb78a405ad63d538cf905b":[9,0,61,25,12],
-"class_vulkan_1_1_vk_shape_renderer.html#ac214af6e9f7ad4648f487b8039964d85":[9,0,61,25,11]
+"class_vulkan_1_1_vk_shape_renderer.html#a8eba8f2c038558e656753298d7a67f23":[9,0,61,25,4]
 };
