@@ -13,7 +13,6 @@ var dir_2924e8263a703dfffecea8ca347943a8 =
     [ "linuxinterlocked.h", "linuxinterlocked_8h.html", [
       [ "LinuxInterlocked", "class_linux_1_1_linux_interlocked.html", "class_linux_1_1_linux_interlocked" ]
     ] ],
-    [ "linuxmutex.cc", "linuxmutex_8cc.html", null ],
     [ "linuxrendezvous.h", "linuxrendezvous_8h.html", [
       [ "LinuxRendezvous", "class_linux_1_1_linux_rendezvous.html", "class_linux_1_1_linux_rendezvous" ]
     ] ],

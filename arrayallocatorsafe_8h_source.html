@@ -360,19 +360,19 @@ $(document).ready(function(){initNavTree('arrayallocatorsafe_8h_source.html','')
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160; </div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class </span>... TYPES&gt; <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="class_util_1_1_array_allocator_safe.html#a102ea4f01e23c5cf16d551ce51de8082">  357</a></span>&#160;<a class="code" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe&lt;TYPES...&gt;::EnterGet</a>()</div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="class_util_1_1_array_allocator_safe.html#a102ea4f01e23c5cf16d551ce51de8082">  357</a></span>&#160;<a class="code" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe&lt;TYPES...&gt;::EnterGet</a>(<span class="keyword">const</span> ArrayAllocatorAccessBits bits)</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;{</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    this-&gt;sect.Enter();</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    Threading::Interlocked::Increment(this-&gt;locked);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    Threading::Interlocked::Increment(&amp;this-&gt;locked);</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;}</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class </span>... TYPES&gt; <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="class_util_1_1_array_allocator_safe.html#a941fb9bd323f7d64b2f91e1bc7788f44">  367</a></span>&#160;<a class="code" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe&lt;TYPES...&gt;::LeaveGet</a>()</div>
+<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="class_util_1_1_array_allocator_safe.html#a941fb9bd323f7d64b2f91e1bc7788f44">  367</a></span>&#160;<a class="code" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe&lt;TYPES...&gt;::LeaveGet</a>(<span class="keyword">const</span> ArrayAllocatorAccessBits bits)</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;{</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;locked &gt; 0);</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    this-&gt;sect.Leave();</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    Threading::Interlocked::Decrement(this-&gt;locked);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    Threading::Interlocked::Decrement(&amp;this-&gt;locked);</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;}</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -456,7 +456,7 @@ $(document).ready(function(){initNavTree('arrayallocatorsafe_8h_source.html','')
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="arrayallocatorsafe_8h.html">arrayallocatorsafe.h</a></li>
 				<li class="footer">
-					Generated on Sat Jan 23 2021 19:21:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 24 2021 01:46:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,15 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"struct_terrain_1_1_terrain_tri.html":[9,0,56,3],
-"struct_terrain_1_1_terrain_tri.html#a0f13ccbd60bf5b8f342b0cd177354e07":[9,0,56,3,2],
-"struct_terrain_1_1_terrain_tri.html#a90e62e372275291b9345850da1921958":[9,0,56,3,1],
-"struct_terrain_1_1_terrain_tri.html#ad472d56e8bd04c8c4db598ee07b2d558":[9,0,56,3,0],
-"struct_terrain_1_1_terrain_vert.html":[9,0,56,2],
-"struct_terrain_1_1_terrain_vert.html#ab29cbcfe717e4780a95e05e2afac5f5a":[9,0,56,2,2],
-"struct_terrain_1_1_terrain_vert.html#ab90b243512a8cbb815cf577c6ce83e8f":[9,0,56,2,1],
-"struct_terrain_1_1_terrain_vert.html#abda12545d2702472ca83ed717920fa9b":[9,0,56,2,0],
-"struct_terrain_1_1_texture_tile_cache_1_1_node.html":[9,0,56,14,0],
-"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a1c2c02d24f0701b5ca5877389fb611c8":[9,0,56,14,0,2],
 "struct_terrain_1_1_texture_tile_cache_1_1_node.html#a7e5d6180e0f5a728625dc01552dd37a5":[9,0,56,14,0,3],
 "struct_terrain_1_1_texture_tile_cache_1_1_node.html#a88568e30512fce5214f69c1841254339":[9,0,56,14,0,4],
 "struct_terrain_1_1_texture_tile_cache_1_1_node.html#ad109fd7ebdd679d218b9f98cbd016d44":[9,0,56,14,0,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX86 =
 "struct_vulkan_1_1_graphics_device_state.html#ae05475fc8fcf3b6ee839dc3d0dfacf4c":[9,0,61,11,36],
 "struct_vulkan_1_1_graphics_device_state.html#ae381e0e2d68d57219244a51262e26daa":[9,0,61,11,53],
 "struct_vulkan_1_1_graphics_device_state.html#ae3e98e61495b696984180a79572ab300":[9,0,61,11,58],
-"struct_vulkan_1_1_graphics_device_state.html#ae88737803dc0af347e87754edb25b745":[9,0,61,11,1]
+"struct_vulkan_1_1_graphics_device_state.html#ae88737803dc0af347e87754edb25b745":[9,0,61,11,1],
+"struct_vulkan_1_1_graphics_device_state.html#aef3da0610c21def1629622b3a4d52c21":[9,0,61,11,45],
+"struct_vulkan_1_1_graphics_device_state.html#af3790baf231d6bb214c20bb50b6ed789":[9,0,61,11,64],
+"struct_vulkan_1_1_graphics_device_state.html#af94b2bba3c9d50a004b8c7f9fa2b4519":[9,0,61,11,72],
+"struct_vulkan_1_1_graphics_device_state.html#afd771f596417e24f1810ecaeaf20986e":[9,0,61,11,59],
+"struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d":[9,0,61,11,74],
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[9,0,61,11,0],
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#a3165a2ec30eb6d179df644b2f3776602":[9,0,61,11,0,0],
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#a3c6a1d6ba71535ee50bfbff298938174":[9,0,61,11,0,2],
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#a541c1801055bf77d83dd2edfbd942a13":[9,0,61,11,0,1],
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#afa4742c653b9c27c938f569c665b324b":[9,0,61,11,0,3]
 };

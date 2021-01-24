@@ -1,11 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"framesubpassbatch_8cc.html":[10,0,0,5,9,31],
-"framesubpassbatch_8cc.html#a12b2c3bfae1fb5bc3fc4c23df2e0d2f6":[10,0,0,5,9,31,1],
-"framesubpassbatch_8cc.html#aabf7d4ef5f5e11135c0744ed883ea90d":[10,0,0,5,9,31,0],
-"framesubpassbatch_8h.html":[10,0,0,5,9,32],
-"framesubpassbatch_8h_source.html":[10,0,0,5,9,32],
-"framesubpassfullscreeneffect_8cc.html":[10,0,0,5,9,33],
 "framesubpassfullscreeneffect_8h.html":[10,0,0,5,9,34],
 "framesubpassfullscreeneffect_8h_source.html":[10,0,0,5,9,34],
 "framesubpassorderedbatch_8cc.html":[10,0,0,5,9,35],
@@ -249,5 +243,11 @@ var NAVTREEINDEX51 =
 "glfwwindow_8h.html#abdc7e5b7a3c8e4de35355cb263b9e312":[10,0,0,5,5,2,3,19],
 "glfwwindow_8h.html#ac95bdf04f365d7f62a19674a89254c07":[10,0,0,5,5,2,3,5],
 "glfwwindow_8h.html#add8e5342ecc982b18f0ce36f302e3de7":[10,0,0,5,5,2,3,6],
-"glfwwindow_8h.html#afc3800304e300d9eb6241e2efcf44ff1":[10,0,0,5,5,2,3,12]
+"glfwwindow_8h.html#afc3800304e300d9eb6241e2efcf44ff1":[10,0,0,5,5,2,3,12],
+"glfwwindow_8h_source.html":[10,0,0,5,5,2,3],
+"glimltypes_8cc.html":[10,0,0,5,5,4,0],
+"glimltypes_8h.html":[10,0,0,5,5,4,1],
+"glimltypes_8h.html#a3a774e54eec6be53935e13e7955344ab":[10,0,0,5,5,4,1,1],
+"glimltypes_8h_source.html":[10,0,0,5,5,4,1],
+"globallightentityhandler_8cc.html":[10,0,0,5,13,1,1]
 };

@@ -153,9 +153,9 @@ $(document).ready(function(){initNavTree('win32heap_8h_source.html',''); initRes
 <div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_win32_1_1_win32_heap.html#a8e60737eec65d0d325eaecbf6d3ec49a">   96</a></span>&#160;<a class="code" href="class_win32_1_1_win32_heap.html#a8e60737eec65d0d325eaecbf6d3ec49a">Win32Heap::Alloc</a>(<span class="keywordtype">size_t</span> size)</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    Threading::Interlocked::Increment(this-&gt;allocCount);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    Threading::Interlocked::Increment(&amp;this-&gt;allocCount);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="comment">// __HeapAlloc16 will always add 16 bytes for memory alignment padding</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    Threading::Interlocked::Add(this-&gt;allocSize, <span class="keywordtype">int</span>(size + 16));</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    Threading::Interlocked::Add(&amp;this-&gt;allocSize, <span class="keywordtype">int</span>(size + 16));</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span>* ptr = <a class="code" href="namespace_memory.html#ae0d1e4f6ddce5958a79b7e5fb9a21ca4">Memory::__HeapAlloc16</a>(this-&gt;<a class="code" href="class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176">heap</a>, HEAP_GENERATE_EXCEPTIONS, size);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">return</span> ptr;</div>
@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('win32heap_8h_source.html',''); initRes
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">size_t</span> curSize = <a class="code" href="namespace_memory.html#ab70087a05c0020566ed6eb1e48c05b66">Memory::__HeapSize16</a>(this-&gt;<a class="code" href="class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176">heap</a>, 0, ptr);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="comment">// __HeapAlloc16 will always add 16 bytes for memory alignment padding</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    Threading::Interlocked::Add(this-&gt;allocSize, <span class="keywordtype">int</span>(size - curSize + 16));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    Threading::Interlocked::Add(&amp;this-&gt;allocSize, <span class="keywordtype">int</span>(size - curSize + 16));</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">void</span>* newPtr = <a class="code" href="namespace_memory.html#abadaff872cd52ba019c4f3cf1342c981">Memory::__HeapReAlloc16</a>(this-&gt;<a class="code" href="class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176">heap</a>, HEAP_GENERATE_EXCEPTIONS, ptr, size);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">return</span> newPtr;</div>
@@ -181,8 +181,8 @@ $(document).ready(function(){initNavTree('win32heap_8h_source.html',''); initRes
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 != ptr);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordtype">size_t</span> size = <a class="code" href="namespace_memory.html#ab70087a05c0020566ed6eb1e48c05b66">Memory::__HeapSize16</a>(this-&gt;<a class="code" href="class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176">heap</a>, 0, ptr);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    Threading::Interlocked::Add(this-&gt;allocSize, -<span class="keywordtype">int</span>(size));</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    Threading::Interlocked::Decrement(this-&gt;allocCount);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    Threading::Interlocked::Add(&amp;this-&gt;allocSize, -<span class="keywordtype">int</span>(size));</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    Threading::Interlocked::Decrement(&amp;this-&gt;allocCount);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    BOOL success = <a class="code" href="namespace_memory.html#aeb5610ce0fd9a137131c326d1d64d3b1">Memory::__HeapFree16</a>(this-&gt;<a class="code" href="class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176">heap</a>, 0, ptr);</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 != success);</div>
@@ -222,7 +222,7 @@ $(document).ready(function(){initNavTree('win32heap_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="dir_c8faf9e97d351fe1210b8d20f717b9c1.html">win32</a></li><li class="navelem"><a class="el" href="win32heap_8h.html">win32heap.h</a></li>
 				<li class="footer">
-					Generated on Sat Jan 23 2021 19:21:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 24 2021 01:46:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

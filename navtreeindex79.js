@@ -1,15 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a9d24da55830fe96c8d68b67d041b30aa":[9,0,15,6,0,3],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#ae5488db6c42e67cef4142f112d64b6cf":[9,0,15,6,0,12],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af8fab9579e8fdc37b70bbe43ecefcdef":[9,0,15,6,0,7],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af9a3fcf3f43142fc9f255866fc693eeb":[9,0,15,6,0,4],
-"struct_dynui_1_1_imgui_renderer_params.html":[9,0,15,4],
-"struct_dynui_1_1_imgui_renderer_params.html#a55bda40274a331dacf906fac8e977884":[9,0,15,4,0],
-"struct_dynui_1_1_imgui_renderer_params.html#ad1832a01f753ea512420b185bfd797d7":[9,0,15,4,1],
-"struct_dynui_1_1_imgui_texture_id.html":[9,0,15,5],
-"struct_dynui_1_1_imgui_texture_id.html#a222946dd50fb64d75637c6418155d1eb":[9,0,15,5,1],
-"struct_dynui_1_1_imgui_texture_id.html#a2ad2feab6d6d330e170baabc74372ff7":[9,0,15,5,2],
 "struct_dynui_1_1_imgui_texture_id.html#a31b5dbfb9be7f68a0a0d8dd6d1aaaad7":[9,0,15,5,0],
 "struct_fence_create_info.html":[9,0,84],
 "struct_fibers_1_1_fiber_context.html":[9,0,16,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_property_create_info.html":[9,0,21,10],
 "struct_game_1_1_property_create_info.html#a43f0b4662f69ca64d8540e07ebda2fea":[9,0,21,10,0],
 "struct_game_1_1_property_create_info.html#a4b64fa8008b790a9b5008c9d60c94abe":[9,0,21,10,3],
-"struct_game_1_1_property_create_info.html#a959cb3a550b4964cf1a07212d9fc5544":[9,0,21,10,2]
+"struct_game_1_1_property_create_info.html#a959cb3a550b4964cf1a07212d9fc5544":[9,0,21,10,2],
+"struct_game_1_1_property_create_info.html#aa5f15a4e6a4c6f19785c3b8f9f3afecd":[9,0,21,10,1],
+"struct_game_1_1_property_serialization_1_1_serializer.html":[9,0,21,26,0],
+"struct_game_1_1_property_serialization_1_1_serializer.html#a1b9e612390dfc86e0205225a228d2fd3":[9,0,21,26,0,0],
+"struct_game_1_1_property_serialization_1_1_serializer.html#a9dd6d0bb6e09c44889a599c3d016aa54":[9,0,21,26,0,1],
+"struct_game_1_1_time_manager_1_1_state.html":[9,0,21,1,1],
+"struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[9,0,21,1,1,0],
+"struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[9,0,21,1,1,5],
+"struct_game_1_1_time_manager_1_1_state.html#a3448a6a4d9521f2977e35bc939e809df":[9,0,21,1,1,2],
+"struct_game_1_1_time_manager_1_1_state.html#a4e40e51f5d11c6a05b2aef560973b18e":[9,0,21,1,1,1],
+"struct_game_1_1_time_manager_1_1_state.html#a9570e75d69c68ece8d23049976ed8c2d":[9,0,21,1,1,3]
 };

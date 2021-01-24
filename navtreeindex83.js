@@ -1,15 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html#a2fcc55d3a65ee3312bf7e9a480d9d327":[9,0,28,0,11,0],
-"struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html":[9,0,28,0,8],
-"struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html#a889f548906f5d9af09c39fd94c8e25c1":[9,0,28,0,8,0],
-"struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html":[9,0,28,0,7],
-"struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html#a34cb0a6823d1b75068922758662efc98":[9,0,28,0,7,0],
-"struct_im3d_1_1internal_1_1_vec_t.html":[9,0,28,0,4],
-"struct_jobs_1_1_create_job_info.html":[9,0,32,9],
-"struct_jobs_1_1_create_job_info.html#afeab2538e3b94bf2c86f48fcf16ad084":[9,0,32,9,0],
-"struct_jobs_1_1_create_job_port_info.html":[9,0,32,8],
-"struct_jobs_1_1_create_job_port_info.html#a6ac0d12cb6e6b107fbe5860ff68a2115":[9,0,32,8,0],
 "struct_jobs_1_1_create_job_port_info.html#aa5866e7ed4ae0422f123204334325dcc":[9,0,32,8,1],
 "struct_jobs_1_1_create_job_port_info.html#ac0adf83832514db145afeedf43960217":[9,0,32,8,2],
 "struct_jobs_1_1_create_job_port_info.html#ad570491dd8f8da52855a3ed099b9c375":[9,0,32,8,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX83 =
 "struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[9,0,36,13,15],
 "struct_math_1_1quat.html#aaa2bc98ffb4c548ead505efd3261d9a4":[9,0,36,13,16],
 "struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7":[9,0,36,13,10],
-"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[9,0,36,13,2]
+"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[9,0,36,13,2],
+"struct_math_1_1quat.html#ab67cf54268e54bfa7934a3570c7af0ff":[9,0,36,13,20],
+"struct_math_1_1quat.html#abf74f5288260c8742755147f70be99a8":[9,0,36,13,17],
+"struct_math_1_1quat.html#aca8226cc2ce032fae41103fa58dc54db":[9,0,36,13,18],
+"struct_math_1_1uint2.html":[9,0,36,21],
+"struct_math_1_1uint2.html#a0e60469059801dd79337528c7ff552db":[9,0,36,21,1],
+"struct_math_1_1uint2.html#a1711cbdd7a350d074629385d3097f617":[9,0,36,21,0],
+"struct_math_1_1uint2.html#a836c891df9d28d80789deaed37191ce8":[9,0,36,21,2],
+"struct_math_1_1uint3.html":[9,0,36,22],
+"struct_math_1_1uint3.html#a26d3a5b99378da146251e2b526e714fc":[9,0,36,22,3],
+"struct_math_1_1uint3.html#a5316633fd727a24a9eaff295aa9df71a":[9,0,36,22,2]
 };

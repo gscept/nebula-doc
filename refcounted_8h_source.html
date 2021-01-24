@@ -168,14 +168,14 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment"></span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="class_core_1_1_ref_counted.html#a027c56231aa5cc17ec4fc62ebfd687a1">  122</a></span>&#160;<a class="code" href="class_core_1_1_ref_counted.html#a027c56231aa5cc17ec4fc62ebfd687a1">RefCounted::AddRef</a>()</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    Threading::Interlocked::Increment(this-&gt;<a class="code" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    Threading::Interlocked::Increment(&amp;this-&gt;<a class="code" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment"></span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5">  132</a></span>&#160;<a class="code" href="class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5">RefCounted::Release</a>()</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (0 == Threading::Interlocked::Decrement(this-&gt;<a class="code" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>))</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (0 == Threading::Interlocked::Decrement(&amp;this-&gt;<a class="code" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>))</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    {</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <a class="code" href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
@@ -259,7 +259,6 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    </div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    </div>
 <div class="ttc" id="aclass_core_1_1_ref_counted_html"><div class="ttname"><a href="class_core_1_1_ref_counted.html">Core::RefCounted</a></div><div class="ttdoc">The common base class of Nebula.</div><div class="ttdef"><b>Definition:</b> refcounted.h:38</div></div>
 <div class="ttc" id="aclass_core_1_1_ref_counted_html_a027c56231aa5cc17ec4fc62ebfd687a1"><div class="ttname"><a href="class_core_1_1_ref_counted.html#a027c56231aa5cc17ec4fc62ebfd687a1">Core::RefCounted::AddRef</a></div><div class="ttdeci">void AddRef()</div><div class="ttdoc">increment refcount by one</div><div class="ttdef"><b>Definition:</b> refcounted.h:122</div></div>
 <div class="ttc" id="aclass_core_1_1_ref_counted_html_a14dc836b93eb63762debfe24642c377f"><div class="ttname"><a href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">Core::RefCounted::RefCounted</a></div><div class="ttdeci">RefCounted()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition:</b> refcounted.h:107</div></div>
@@ -297,7 +296,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="refcounted_8h.html">refcounted.h</a></li>
 				<li class="footer">
-					Generated on Sat Jan 23 2021 19:21:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 24 2021 01:46:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

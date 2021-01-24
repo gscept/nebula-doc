@@ -4,7 +4,6 @@ var namespace_threading =
     [ "AssertingScope", "struct_threading_1_1_asserting_scope.html", "struct_threading_1_1_asserting_scope" ],
     [ "CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ],
     [ "LockFreeQueue", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],
-    [ "Mutex", "class_threading_1_1_mutex.html", "class_threading_1_1_mutex" ],
     [ "ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ],
     [ "SafeFlag", "class_threading_1_1_safe_flag.html", "class_threading_1_1_safe_flag" ],
     [ "SafePriorityQueue", "class_threading_1_1_safe_priority_queue.html", "class_threading_1_1_safe_priority_queue" ],
