@@ -1,13 +1,20 @@
 var NAVTREEINDEX52 =
 {
+"glfwwindow_8h.html#afc3800304e300d9eb6241e2efcf44ff1":[10,0,0,5,5,2,3,12],
+"glfwwindow_8h_source.html":[10,0,0,5,5,2,3],
+"glimltypes_8cc.html":[10,0,0,5,5,4,0],
+"glimltypes_8h.html":[10,0,0,5,5,4,1],
+"glimltypes_8h.html#a3a774e54eec6be53935e13e7955344ab":[10,0,0,5,5,4,1,1],
+"glimltypes_8h_source.html":[10,0,0,5,5,4,1],
+"globallightentityhandler_8cc.html":[10,0,0,5,13,1,1],
 "globallightentityhandler_8cc.html#a0e497f7aad606308790d0b23fc1402cf":[10,0,0,5,13,1,1,3],
 "globallightentityhandler_8cc.html#a31f0b60d3c486107c998a877b95066a1":[10,0,0,5,13,1,1,0],
 "globallightentityhandler_8cc.html#a93d18adc9a4f0d180c4969010f121f1f":[10,0,0,5,13,1,1,5],
 "globallightentityhandler_8cc.html#a9aa2c589ff2fc14133ad9f6e79f243f5":[10,0,0,5,13,1,1,1],
 "globallightentityhandler_8cc.html#aa2f7a0a03489c26bb337aa5cebe9e98a":[10,0,0,5,13,1,1,4],
 "globallightentityhandler_8cc.html#ad5aa9b42cdde65a1d68f9455a7a60f30":[10,0,0,5,13,1,1,2],
-"globals.html":[10,1,0,0],
 "globals.html":[10,1,0],
+"globals.html":[10,1,0,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX52 =
 "graphicsdevice_8h.html#ac05f9911cec0ff3b79c9da96adf04f6a":[10,0,0,5,5,30,33],
 "graphicsdevice_8h.html#ac80e1eac8af3817b5f1b04d6a2ff7c1d":[10,0,0,5,5,30,74],
 "graphicsdevice_8h.html#acb12b036406413ae87d475073d0c4bb9":[10,0,0,5,5,30,10],
-"graphicsdevice_8h.html#acb40dfb02a6e7faed31b1c1d231f6923":[10,0,0,5,5,30,61],
-"graphicsdevice_8h.html#ad493bff789db61bb88483e0581d6f8bd":[10,0,0,5,5,30,95],
-"graphicsdevice_8h.html#ad55c90cc66956dbdfe9d8ae6e9695532":[10,0,0,5,5,30,43],
-"graphicsdevice_8h.html#adb402120ab24a6ba453a8caf6baa8a24":[10,0,0,5,5,30,107],
-"graphicsdevice_8h.html#adb85204de7ba8c4d4be473e7f8c92650":[10,0,0,5,5,30,25],
-"graphicsdevice_8h.html#adf9cba435a7e072ce5abb1120a54fc50":[10,0,0,5,5,30,89],
-"graphicsdevice_8h.html#ae6379e41dbee3a93be1c65e43ba15014":[10,0,0,5,5,30,87],
-"graphicsdevice_8h.html#ae907ec9de97bd4a1f2fa51039c3904df":[10,0,0,5,5,30,20]
+"graphicsdevice_8h.html#acb40dfb02a6e7faed31b1c1d231f6923":[10,0,0,5,5,30,61]
 };

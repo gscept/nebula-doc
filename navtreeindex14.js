@@ -1,5 +1,10 @@
 var NAVTREEINDEX14 =
 {
+"class_debug_1_1_debug_float.html#ad878bbb02c81f7371ce5704bbbcba3f1":[9,0,13,3,10],
+"class_debug_1_1_debug_handler.html":[9,0,13,4],
+"class_debug_1_1_debug_handler.html#a0ea0562c19027e295cb110c4ec1a75df":[9,0,13,4,7],
+"class_debug_1_1_debug_handler.html#a4c428d4037a37e70349720d97671f772":[9,0,13,4,3],
+"class_debug_1_1_debug_handler.html#a719eda563cff5a8f3430d7d2b310fa98":[9,0,13,4,0],
 "class_debug_1_1_debug_handler.html#a8c8ae3f6fb9da2ba3521c991ae68d628":[9,0,13,4,2],
 "class_debug_1_1_debug_handler.html#ab4bc4ee4976a26048a404c5659ca3cda":[9,0,13,4,5],
 "class_debug_1_1_debug_handler.html#ab9f9a935224ee9423e6e6a2ef48b6167":[9,0,13,4,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX14 =
 "class_dynui_1_1_imgui_input_handler.html#adfab5ddb63a619cbef4cc809eef9cb1b":[9,0,15,7,1],
 "class_dynui_1_1_imgui_input_handler.html#ae62351c5c7d2745f4f055b3fac40b3e8":[9,0,15,7,2],
 "class_dynui_1_1_imgui_r_t_plugin.html":[9,0,15,8],
-"class_dynui_1_1_imgui_r_t_plugin.html#a15285ca9d786d6b52e7ef577d9b720ce":[9,0,15,8,1],
-"class_dynui_1_1_imgui_r_t_plugin.html#a253c0b91606db64a148bd288ed199c4e":[9,0,15,8,0],
-"class_dynui_1_1_imgui_r_t_plugin.html#a4a3076c1ec5e950e4b4af2b03db7e8f3":[9,0,15,8,2],
-"class_dynui_1_1_imgui_r_t_plugin.html#a4eedeb34a66187f9d6e823fc39065814":[9,0,15,8,4],
-"class_dynui_1_1_imgui_r_t_plugin.html#a9f9d32bf43c7ec325ca608fdd3b459f0":[9,0,15,8,5],
-"class_dynui_1_1_imgui_r_t_plugin.html#ad22b586d0ca575cd0a6074306c1d43ee":[9,0,15,8,3]
+"class_dynui_1_1_imgui_r_t_plugin.html#a15285ca9d786d6b52e7ef577d9b720ce":[9,0,15,8,1]
 };

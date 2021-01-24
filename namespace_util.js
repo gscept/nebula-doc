@@ -46,6 +46,12 @@ var namespace_util =
     [ "Pair", "namespace_util.html#afb76d79dd0028154ff80d514ec0a66cc", null ],
     [ "Tuple", "namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a", null ],
     [ "tuple_array_t", "namespace_util.html#a643c93045063004fd71f71b9ab650116", null ],
+    [ "ArrayAllocatorAccessBits", "namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11", [
+      [ "NoBits", "namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3", null ],
+      [ "ReadBit", "namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a", null ],
+      [ "WriteBit", "namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a", null ],
+      [ "ReadWriteBits", "namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd", null ]
+    ] ],
     [ "__ImplementInterfaceSingleton", "namespace_util.html#a3ae1584667288e11bb603d2a97f8f3b5", null ],
     [ "__ImplementSingleton", "namespace_util.html#a34088cd8354fbb1c5ba2201b7b7b766a", null ],
     [ "alloc_for_each_in_tuple", "namespace_util.html#a3cff58ce5395906b4582f60064540e9d", null ],

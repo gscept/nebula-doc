@@ -163,12 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a620a26084d20242715e41638c0d718ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a620a26084d20242715e41638c0d718ca">UpdateSize</a> ()</td></tr>
 <tr class="memdesc:a620a26084d20242715e41638c0d718ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Any reserve and direct array access might mess with the size.  <a href="class_util_1_1_array_allocator_safe.html#a620a26084d20242715e41638c0d718ca">More...</a><br /></td></tr>
 <tr class="separator:a620a26084d20242715e41638c0d718ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a102ea4f01e23c5cf16d551ce51de8082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a102ea4f01e23c5cf16d551ce51de8082">EnterGet</a> ()</td></tr>
-<tr class="memdesc:a102ea4f01e23c5cf16d551ce51de8082"><td class="mdescLeft">&#160;</td><td class="mdescRight">enter thread safe get-mode  <a href="class_util_1_1_array_allocator_safe.html#a102ea4f01e23c5cf16d551ce51de8082">More...</a><br /></td></tr>
-<tr class="separator:a102ea4f01e23c5cf16d551ce51de8082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a941fb9bd323f7d64b2f91e1bc7788f44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a941fb9bd323f7d64b2f91e1bc7788f44">LeaveGet</a> ()</td></tr>
-<tr class="memdesc:a941fb9bd323f7d64b2f91e1bc7788f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">leave thread safe get-mode  <a href="class_util_1_1_array_allocator_safe.html#a941fb9bd323f7d64b2f91e1bc7788f44">More...</a><br /></td></tr>
-<tr class="separator:a941fb9bd323f7d64b2f91e1bc7788f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd203beb973d5611dbf65bd871629fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#abbd203beb973d5611dbf65bd871629fa">EnterGet</a> (const <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a> bits=<a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a>)</td></tr>
+<tr class="memdesc:abbd203beb973d5611dbf65bd871629fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">enter thread safe get-mode  <a href="class_util_1_1_array_allocator_safe.html#abbd203beb973d5611dbf65bd871629fa">More...</a><br /></td></tr>
+<tr class="separator:abbd203beb973d5611dbf65bd871629fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1622addf29f3ceb694321e0b54d2164a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a1622addf29f3ceb694321e0b54d2164a">LeaveGet</a> (const <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a> bits=<a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a>)</td></tr>
+<tr class="memdesc:a1622addf29f3ceb694321e0b54d2164a"><td class="mdescLeft">&#160;</td><td class="mdescRight">leave thread safe get-mode  <a href="class_util_1_1_array_allocator_safe.html#a1622addf29f3ceb694321e0b54d2164a">More...</a><br /></td></tr>
+<tr class="separator:a1622addf29f3ceb694321e0b54d2164a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62db10b1df3e47f265955b158e93ccc4"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
 <tr class="memitem:a62db10b1df3e47f265955b158e93ccc4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a643c93045063004fd71f71b9ab650116">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a62db10b1df3e47f265955b158e93ccc4">GetUnsafe</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> index)</td></tr>
 <tr class="memdesc:a62db10b1df3e47f265955b158e93ccc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get single item unsafe (use with extreme caution)  <a href="class_util_1_1_array_allocator_safe.html#a62db10b1df3e47f265955b158e93ccc4">More...</a><br /></td></tr>
@@ -184,6 +184,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a610243481413beaba7c931b044fa5297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b293d2304c91fc4296b64c65ea07eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a91b293d2304c91fc4296b64c65ea07eb">sect</a></td></tr>
 <tr class="separator:a91b293d2304c91fc4296b64c65ea07eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6922dde59abfab069557f8f187adb005"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a6922dde59abfab069557f8f187adb005">numReaders</a></td></tr>
+<tr class="separator:a6922dde59abfab069557f8f187adb005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3559e4707caddaf3983a99c543cf46d7"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a3559e4707caddaf3983a99c543cf46d7">writer</a></td></tr>
+<tr class="separator:a3559e4707caddaf3983a99c543cf46d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad24e6b271e3942051cb3e8b8be107194"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#ad24e6b271e3942051cb3e8b8be107194">size</a></td></tr>
 <tr class="separator:ad24e6b271e3942051cb3e8b8be107194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0656f1b929b1d6026164fdf6eaa7b4f"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPES &gt;... &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#af0656f1b929b1d6026164fdf6eaa7b4f">objects</a></td></tr>
@@ -355,8 +359,8 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
-<a id="a102ea4f01e23c5cf16d551ce51de8082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a102ea4f01e23c5cf16d551ce51de8082">&#9670;&nbsp;</a></span>EnterGet()</h2>
+<a id="abbd203beb973d5611dbf65bd871629fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbd203beb973d5611dbf65bd871629fa">&#9670;&nbsp;</a></span>EnterGet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +370,8 @@ template&lt;class ... TYPES&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; TYPES &gt;::EnterGet </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a>&#160;</td>
+          <td class="paramname"><em>bits</em> = <code><a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -606,8 +611,8 @@ template&lt;int MEMBER&gt; </div>
 
 </div>
 </div>
-<a id="a941fb9bd323f7d64b2f91e1bc7788f44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a941fb9bd323f7d64b2f91e1bc7788f44">&#9670;&nbsp;</a></span>LeaveGet()</h2>
+<a id="a1622addf29f3ceb694321e0b54d2164a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1622addf29f3ceb694321e0b54d2164a">&#9670;&nbsp;</a></span>LeaveGet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,7 +622,8 @@ template&lt;class ... TYPES&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; TYPES &gt;::LeaveGet </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a>&#160;</td>
+          <td class="paramname"><em>bits</em> = <code><a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -819,6 +825,30 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
+<a id="a6922dde59abfab069557f8f187adb005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6922dde59abfab069557f8f187adb005">&#9670;&nbsp;</a></span>numReaders</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; TYPES &gt;::numReaders</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af0656f1b929b1d6026164fdf6eaa7b4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0656f1b929b1d6026164fdf6eaa7b4f">&#9670;&nbsp;</a></span>objects</h2>
 
@@ -891,6 +921,30 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
+<a id="a3559e4707caddaf3983a99c543cf46d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3559e4707caddaf3983a99c543cf46d7">&#9670;&nbsp;</a></span>writer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; TYPES &gt;::writer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/code/foundation/util/<a class="el" href="arrayallocatorsafe_8h_source.html">arrayallocatorsafe.h</a></li>
 </ul>
@@ -901,7 +955,7 @@ template&lt;class ... TYPES&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe</a></li>
 				<li class="footer">
-					Generated on Sun Jan 24 2021 02:02:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 24 2021 02:09:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

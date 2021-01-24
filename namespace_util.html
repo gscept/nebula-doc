@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('namespace_util.html',''); initResizabl
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Util Namespace Reference</div>  </div>
@@ -237,6 +238,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a643c93045063004fd71f71b9ab650116"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#a643c93045063004fd71f71b9ab650116">tuple_array_t</a> = <a class="el" href="namespace_util.html#a2827363ca08e6877a2389395e69f1d34">get_template_type_t</a>&lt; std::tuple_element_t&lt; MEMBER, std::tuple&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPES &gt;... &gt; &gt;&gt;</td></tr>
 <tr class="memdesc:a643c93045063004fd71f71b9ab650116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get type of contained element in <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> stored in std::tuple.  <a href="namespace_util.html#a643c93045063004fd71f71b9ab650116">More...</a><br /></td></tr>
 <tr class="separator:a643c93045063004fd71f71b9ab650116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa5f9e05670c60ec500f86e42a2d8dc11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a> { <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3">NoBits</a> = 0x0
+, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a">ReadBit</a> = 0x1
+, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a">WriteBit</a> = 0x2
+, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a> = ReadBit | WriteBit
+ }</td></tr>
+<tr class="separator:aa5f9e05670c60ec500f86e42a2d8dc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -461,6 +471,27 @@ template&lt;int MEMBER, class ... TYPES&gt; </div>
 </div><div class="memdoc">
 
 <p>Get type of contained element in <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> stored in std::tuple. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa5f9e05670c60ec500f86e42a2d8dc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f9e05670c60ec500f86e42a2d8dc11">&#9670;&nbsp;</a></span>ArrayAllocatorAccessBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">Util::ArrayAllocatorAccessBits</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3"></a>NoBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a"></a>ReadBit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a"></a>WriteBit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd"></a>ReadWriteBits&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -2129,7 +2160,7 @@ template&lt;typename A , typename B &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li>
 				<li class="footer">
-					Generated on Sun Jan 24 2021 02:02:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 24 2021 02:09:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

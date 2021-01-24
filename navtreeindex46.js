@@ -1,5 +1,12 @@
 var NAVTREEINDEX46 =
 {
+"class_win32_1_1_win32_critical_section.html#a55fdb4ed52784cb79b2ec6f51d8e2d78":[9,0,62,15,4],
+"class_win32_1_1_win32_critical_section.html#a6bfb69ccda881e8474fefc7cf8af9127":[9,0,62,15,15],
+"class_win32_1_1_win32_critical_section.html#a78c26873173918c3125e6567d14795b8":[9,0,62,15,3],
+"class_win32_1_1_win32_critical_section.html#a8e153e578753f7513f1cb7fc357033dd":[9,0,62,15,2],
+"class_win32_1_1_win32_critical_section.html#aa1998d56f1221534045b4b59d23de281":[9,0,62,15,13],
+"class_win32_1_1_win32_critical_section.html#ab36e2299c0e4196d080bba0047c858cf":[9,0,62,15,5],
+"class_win32_1_1_win32_critical_section.html#ab59500322efb9aef37421faa6de66554":[9,0,62,15,14],
 "class_win32_1_1_win32_critical_section.html#ab99a2781a08b754451885ab958e296bb":[9,0,62,15,9],
 "class_win32_1_1_win32_critical_section.html#ac8ba9b3e7d50fe5988f802cff2928922":[9,0,62,15,10],
 "class_win32_1_1_win32_critical_section.html#aeacb6a413fc209ccbb1f5a27f075438a":[9,0,62,15,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX46 =
 "class_win32_1_1_win32_process.html#a049b21ac5fd87f79fc75e761616013bc":[9,0,62,12,9],
 "class_win32_1_1_win32_process.html#a0c062c0abad4a559b93ebfd66482a5ba":[9,0,62,12,3],
 "class_win32_1_1_win32_process.html#a0cac0213e16899125b35a1421ceba05e":[9,0,62,12,8],
-"class_win32_1_1_win32_process.html#a17f86bda11d813efef8792d19486877a":[9,0,62,12,1],
-"class_win32_1_1_win32_process.html#a1a8db4661d7ceb6b246d864669956c1b":[9,0,62,12,11],
-"class_win32_1_1_win32_process.html#a223a4fde9cf111ed8b03a36d18d6ac73":[9,0,62,12,18],
-"class_win32_1_1_win32_process.html#a392c87a0a20810ab8459124a3909a088":[9,0,62,12,14],
-"class_win32_1_1_win32_process.html#a465e69243a9de795abf70828abb8a878":[9,0,62,12,10],
-"class_win32_1_1_win32_process.html#a5b6c943f0926dc61d4fe0fcd18de7fcf":[9,0,62,12,2],
-"class_win32_1_1_win32_process.html#a603fb553f1bdf73e676eb175f2a50584":[9,0,62,12,5],
-"class_win32_1_1_win32_process.html#a607e3ac28f73515e244d3df46273db98":[9,0,62,12,16]
+"class_win32_1_1_win32_process.html#a17f86bda11d813efef8792d19486877a":[9,0,62,12,1]
 };

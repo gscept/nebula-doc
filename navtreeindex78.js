@@ -1,5 +1,17 @@
 var NAVTREEINDEX78 =
 {
+"struct_core_graphics_1_1_query.html#a4057e5f3856d6bd6b93612959ee89af5":[9,0,10,31,2],
+"struct_core_graphics_1_1_query.html#a4f76a0360f5e56e9f1c3c958ca96083b":[9,0,10,31,1],
+"struct_core_graphics_1_1_query.html#a7c8e8dbc273fce950bb610abe8a217aa":[9,0,10,31,0],
+"struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html":[9,0,10,61,0],
+"struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html#aaca18a2a2bfd1b3d33541e1ebb53e7f4":[9,0,10,61,0,2],
+"struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html#ad69115e23f9d0b30dab7aeb804508431":[9,0,10,61,0,1],
+"struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html#ae0841383f083001e0b6a98cb09384d08":[9,0,10,61,0,0],
+"struct_core_graphics_1_1_resource_pipeline_create_info.html":[9,0,10,78],
+"struct_core_graphics_1_1_resource_pipeline_create_info.html#a4eba54cffa325a2ee13fb122dc15d2a7":[9,0,10,78,2],
+"struct_core_graphics_1_1_resource_pipeline_create_info.html#a6cf1d7f3fed148a5800bd200cbdc2c1f":[9,0,10,78,0],
+"struct_core_graphics_1_1_resource_pipeline_create_info.html#aae8baa64ac6097a86f864a52db14d214":[9,0,10,78,1],
+"struct_core_graphics_1_1_resource_pipeline_id.html":[9,0,10,76],
 "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html":[9,0,10,77],
 "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#a2d744cde1eaaee7e5e50f86dc6397377":[9,0,10,77,1],
 "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#ae5141b4572d0c3c88d047425f722f3cd":[9,0,10,77,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX78 =
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a4fae72449e18c181a90637ee174cd7df":[9,0,15,6,0,6],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a50cb04b8f22a0fc36b533e45cab9d1b9":[9,0,15,6,0,13],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a521727057d1aeba5e9b061f3dcc1a15a":[9,0,15,6,0,11],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a67521927ee89c4e35a9e794ca48ec71e":[9,0,15,6,0,5],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a722724cbb3db75473d7676158683db92":[9,0,15,6,0,1],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a98d721d9cf3a81032cd990b5d94d07e2":[9,0,15,6,0,8],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a9d24da55830fe96c8d68b67d041b30aa":[9,0,15,6,0,3],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#ae5488db6c42e67cef4142f112d64b6cf":[9,0,15,6,0,12],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af8fab9579e8fdc37b70bbe43ecefcdef":[9,0,15,6,0,7],
-"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af9a3fcf3f43142fc9f255866fc693eeb":[9,0,15,6,0,4],
-"struct_dynui_1_1_imgui_renderer_params.html":[9,0,15,4],
-"struct_dynui_1_1_imgui_renderer_params.html#a55bda40274a331dacf906fac8e977884":[9,0,15,4,0],
-"struct_dynui_1_1_imgui_renderer_params.html#ad1832a01f753ea512420b185bfd797d7":[9,0,15,4,1],
-"struct_dynui_1_1_imgui_texture_id.html":[9,0,15,5],
-"struct_dynui_1_1_imgui_texture_id.html#a222946dd50fb64d75637c6418155d1eb":[9,0,15,5,1],
-"struct_dynui_1_1_imgui_texture_id.html#a2ad2feab6d6d330e170baabc74372ff7":[9,0,15,5,2]
+"struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a67521927ee89c4e35a9e794ca48ec71e":[9,0,15,6,0,5]
 };
