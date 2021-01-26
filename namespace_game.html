@@ -264,6 +264,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7c8329d15ec0b4722d67a768e27c1eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7c8329d15ec0b4722d67a768e27c1eb3">CreateFilter</a> (<a class="el" href="struct_game_1_1_filter_create_info.html">FilterCreateInfo</a> const  &amp;info)</td></tr>
 <tr class="memdesc:a7c8329d15ec0b4722d67a768e27c1eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a filter.  <a href="namespace_game.html#a7c8329d15ec0b4722d67a768e27c1eb3">More...</a><br /></td></tr>
 <tr class="separator:a7c8329d15ec0b4722d67a768e27c1eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95174757039aa417008ae3178a10be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac95174757039aa417008ae3178a10be2">DestroyFilter</a> (<a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>)</td></tr>
+<tr class="memdesc:ac95174757039aa417008ae3178a10be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a filter.  <a href="namespace_game.html#ac95174757039aa417008ae3178a10be2">More...</a><br /></td></tr>
+<tr class="separator:ac95174757039aa417008ae3178a10be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">CreateProcessor</a> (<a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const  &amp;info)</td></tr>
 <tr class="memdesc:aa528c32078e33be9e4ffc55b09db6ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a processor.  <a href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">More...</a><br /></td></tr>
 <tr class="separator:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,9 +313,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a97cbccee27feaa3184334d6f87d1c527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_instance_id.html">InstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a97cbccee27feaa3184334d6f87d1c527">GetInstanceId</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
 <tr class="memdesc:a97cbccee27feaa3184334d6f87d1c527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instanceid of entity.  <a href="namespace_game.html#a97cbccee27feaa3184334d6f87d1c527">More...</a><br /></td></tr>
 <tr class="separator:a97cbccee27feaa3184334d6f87d1c527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95174757039aa417008ae3178a10be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac95174757039aa417008ae3178a10be2">DestroyFilter</a> (<a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>)</td></tr>
-<tr class="memdesc:ac95174757039aa417008ae3178a10be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a filter.  <a href="namespace_game.html#ac95174757039aa417008ae3178a10be2">More...</a><br /></td></tr>
-<tr class="separator:ac95174757039aa417008ae3178a10be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae602caa409426ab2c9622a2c09a4983c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae602caa409426ab2c9622a2c09a4983c">ID_16_16_NAMED_TYPE</a> (TemplateId, blueprintId, templateId)</td></tr>
 <tr class="separator:ae602caa409426ab2c9622a2c09a4983c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0034b34d272ba9724134e915f84c9ec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0034b34d272ba9724134e915f84c9ec0">__ImplementClass</a> (<a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a>, 'GAFE', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
@@ -871,7 +871,7 @@ Variables</h2></td></tr>
           <td class="memname">void Game::DestroyFilter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>filter</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1523,7 +1523,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Mon Jan 25 2021 20:41:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Jan 26 2021 10:42:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html#adb86ee5af2c1d9b7afb5857f51a45671":[9,0,50,0,1,0],
 "clipstatus_8h.html":[10,0,0,3,11,3],
 "clipstatus_8h_source.html":[10,0,0,3,11,3],
 "cloudcontext_8cc.html":[10,0,0,5,25,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "debugtimer_8h_source.html":[10,0,0,3,2,13],
 "debugui_8cc.html":[10,0,0,4,0,4],
 "debugui_8cc.html#a1d566277e1bc1471d4256f142e524f84":[10,0,0,4,0,4,1],
-"debugui_8cc.html#a65bfab3b3a913500b671e66bbc35affb":[10,0,0,4,0,4,0],
-"debugui_8h.html":[10,0,0,4,0,5]
+"debugui_8cc.html#a65bfab3b3a913500b671e66bbc35affb":[10,0,0,4,0,4,0]
 };

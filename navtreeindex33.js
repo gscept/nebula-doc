@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"class_posix_1_1_posix_settings.html":[9,0,47,11],
 "class_posix_1_1_posix_settings.html#a2e7fd1d5a9db20b597887a8fa6ab1852":[9,0,47,11,4],
 "class_posix_1_1_posix_settings.html#a3a445151bd1cfba73a18003d7d7876ee":[9,0,47,11,0],
 "class_posix_1_1_posix_settings.html#a6c9f0de65c7f07cceedda542fdb3c79c":[9,0,47,11,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "class_ptr.html":[9,0,132],
 "class_ptr.html#a031eac3f8ec305975878bb8517ac62b4":[9,0,132,18],
 "class_ptr.html#a07c931881338884355a1c7cb466dccc1":[9,0,132,0],
-"class_ptr.html#a099339f12ae1e09769f0de5b588264f4":[9,0,132,10],
-"class_ptr.html#a18364f8d8522439166fd350ee1eaca89":[9,0,132,6]
+"class_ptr.html#a099339f12ae1e09769f0de5b588264f4":[9,0,132,10]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"writer_8cc.html#a97d28459a66db3c920254a27606470f2":[10,0,0,0,1,23,0],
 "writer_8h.html":[10,0,0,0,1,24],
 "writer_8h_source.html":[10,0,0,0,1,24],
 "xinputgamepad_8cc.html":[10,0,0,5,11,3,0],

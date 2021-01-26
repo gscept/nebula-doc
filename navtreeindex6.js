@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba33dee03d07cbe55186ce98516c6fde94":[9,0,4,3,6,6],
 "class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba52fcd79ab0bcb5314fe7f8c87dd9d657":[9,0,4,3,6,7],
 "class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba5e85d9e8c237d0e103e034f9e69b11a7":[9,0,4,3,6,2],
 "class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba8cc1ea3650a91d875ac745beab9a07c2":[9,0,4,3,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "class_base_1_1_keyboard_base.html#a58e6c1d1a7cae6cc1e5a1b3712fa9e7d":[9,0,4,12,7],
 "class_base_1_1_keyboard_base.html#a63eb4d53a33e20c4cacd33a60bcf1f4b":[9,0,4,12,4],
 "class_base_1_1_keyboard_base.html#a704b2b05ca2cc845c29bdd100a3f5763":[9,0,4,12,17],
-"class_base_1_1_keyboard_base.html#a714f15cb758c045f3647c00ad4ecfc65":[9,0,4,12,1],
-"class_base_1_1_keyboard_base.html#a9cff956de123606907d3e9cfc43e52d1":[9,0,4,12,19]
+"class_base_1_1_keyboard_base.html#a714f15cb758c045f3647c00ad4ecfc65":[9,0,4,12,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"api_8h.html#a0f061e122abfb2b563a9f2cfc4d4373a":[10,0,0,1,3,2,35],
 "api_8h.html#a1662e5ccb92417291ab5653883de7145":[10,0,0,1,3,2,9],
 "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb":[10,0,0,1,3,2,38],
 "api_8h.html#a27656295bd9a5afb4f479e546be221b9":[10,0,0,1,3,2,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "bit_8h.html#ab41151ea39925673ec5f223a7eacf520":[10,0,0,3,19,8,10],
 "bit_8h.html#abf6f87de2965e1bd5ccf45f48c14ef29":[10,0,0,3,19,8,3],
 "bit_8h.html#ace97aafdb9dec71c7d94958dbaa65d97":[10,0,0,3,19,8,11],
-"bit_8h.html#ad79c549d8ff8d445ac5f1da15fb8fbf1":[10,0,0,3,19,8,1],
-"bit_8h.html#adbcadd541631cff951e1856ea4ae5906":[10,0,0,3,19,8,7]
+"bit_8h.html#ad79c549d8ff8d445ac5f1da15fb8fbf1":[10,0,0,3,19,8,1]
 };

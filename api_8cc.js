@@ -13,6 +13,7 @@ var api_8cc =
     [ "CreateOpBuffer", "api_8cc.html#ac3c61ad73f5a4382961bbad73c961182", null ],
     [ "CreateProcessor", "api_8cc.html#aa528c32078e33be9e4ffc55b09db6ba0", null ],
     [ "CreateProperty", "api_8cc.html#a707bbc5560935318f9169a72b88554ab", null ],
+    [ "DestroyFilter", "api_8cc.html#ac95174757039aa417008ae3178a10be2", null ],
     [ "Dispatch", "api_8cc.html#a2b227a6da60a673d4c9be7762fafe730", null ],
     [ "Execute", "api_8cc.html#affb1a4aed8b1d583af989854ccbe7c34", null ],
     [ "Execute", "api_8cc.html#aafba9fda0870ad108c36f05af3a87f30", null ],
