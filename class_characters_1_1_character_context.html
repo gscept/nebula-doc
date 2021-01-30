@@ -99,7 +99,13 @@ $(document).ready(function(){initNavTree('class_characters_1_1_character_context
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="charactercontext_8h_source.html">charactercontext.h</a>&gt;</code></p>
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Assumes control over the character animation functionalities of a model if it contains a character definition and an animation set. </p>
+<p>Internally, the character context is responsible for dispatching animation jobs, blending animation, and keeping track of the current time playing for each registered entity.</p>
+<p>The character context also handles animation events, which are triggers to play when animation hits a certain time stamp.</p>
+<p>How the context works is like this: Every character has a buffer of samples which is updated every frame. Every character has a set of tracks to play animations on, which can be blended between if requested. Tracks are blended in sequential order. Every character has a list per track of pending animations, which are ticked off whenever the current animation has finished. Animations can be played without enqueueing, which replaces the currently playing animation on that track.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file </dd></dl>
+</div>
 <p>Inherits <a class="el" href="class_graphics_1_1_graphics_context.html">Graphics::GraphicsContext</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -1381,7 +1387,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_characters.html">Characters</a></li><li class="navelem"><a class="el" href="class_characters_1_1_character_context.html">CharacterContext</a></li>
 				<li class="footer">
-					Generated on Sat Jan 30 2021 13:55:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 30 2021 15:37:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

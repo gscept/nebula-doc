@@ -178,7 +178,7 @@ Animation Subsystem</h1>
 <div class="ttc" id="atypes_8h_html_a65f85814a8290f9797005d3b28e7e5fc"><div class="ttname"><a href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> types.h:33</div></div>
 <div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition:</b> types.h:49</div></div>
 <div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition:</b> types.h:48</div></div>
-</div><!-- fragment --><p>This code is taken from <a class="el" href="class_characters_1_1_character_context.html">Characters::CharacterContext</a> and slightly modified to make it simpler. What we are doing is we are setting up a duration, how much time there is between animation ticks, a temporary buffer (called a scratch buffer) to hold intermediate data in the job. We then prepare the job context with all this information, and schedule it to execute. outSamplesPtr will then contain the result of this job when the job is finished.</p>
+</div><!-- fragment --><p>This code is taken from <a class="el" href="class_characters_1_1_character_context.html" title="Assumes control over the character animation functionalities of a model if it contains a character de...">Characters::CharacterContext</a> and slightly modified to make it simpler. What we are doing is we are setting up a duration, how much time there is between animation ticks, a temporary buffer (called a scratch buffer) to hold intermediate data in the job. We then prepare the job context with all this information, and schedule it to execute. outSamplesPtr will then contain the result of this job when the job is finished.</p>
 <p>Using <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html" title="Stores the result of an animation sampling operation, stores samples key values and sample-counts whi...">CoreAnimation::AnimSampleBuffer</a> (which is outSamplesPtr in the above example), we can then figure out how many <a class="el" href="struct_math_1_1vec4.html" title="A 4D vector.">Math::vec4</a> elements we have, such that we can intelligently make decisions about how to use this data to perform transformations. In most cases, a single joint contains 3 <a class="el" href="struct_math_1_1vec4.html" title="A 4D vector.">Math::vec4</a>, because we have a scale, rotation and transformation vector, which when combined will be our final matrix. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -187,7 +187,7 @@ Animation Subsystem</h1>
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Sat Jan 30 2021 13:55:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 30 2021 15:37:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
