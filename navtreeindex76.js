@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"streammeshpool_8h_source.html":[10,0,0,5,5,76],
+"streammodelpool_8cc.html":[10,0,0,5,15,5],
+"streammodelpool_8cc.html#a2deac470faa8d447db436b01655c7bf4":[10,0,0,5,15,5,0],
 "streammodelpool_8cc.html#a326d1f0246b9cee5ee390d5e8e9e022b":[10,0,0,5,15,5,1],
 "streammodelpool_8cc.html#aa45cefe433f91b9450e55ac80e2b0549":[10,0,0,5,15,5,2],
 "streammodelpool_8h.html":[10,0,0,5,15,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "struct_core_graphics_1_1_buffer_create_info.html":[9,0,10,13],
 "struct_core_graphics_1_1_buffer_create_info.html#a1bedacbff2fa158704bfcfa2fb47a9ec":[9,0,10,13,5],
 "struct_core_graphics_1_1_buffer_create_info.html#a2acace368a40d31ad11b5da01e3951bc":[9,0,10,13,1],
-"struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[9,0,10,13,7],
-"struct_core_graphics_1_1_buffer_create_info.html#a4fb6a69f414266686279a406005c4c79":[9,0,10,13,8],
-"struct_core_graphics_1_1_buffer_create_info.html#a74ec13745711be89e0b35bd8b657a52d":[9,0,10,13,4],
-"struct_core_graphics_1_1_buffer_create_info.html#aab774e10144702354bfe757f4345f77e":[9,0,10,13,9]
+"struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[9,0,10,13,7]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"class_net_1_1_std_tcp_client.html#a4be49f399c8e03234b6789e6ffa658ab":[9,0,41,4,16],
+"class_net_1_1_std_tcp_client.html#a528ec0b70cca2bbd063552b0f2e5b0b7":[9,0,41,4,2],
+"class_net_1_1_std_tcp_client.html#a52ad10e928996ec5544c09554e63b75f":[9,0,41,4,4],
 "class_net_1_1_std_tcp_client.html#a68d47b8209f51aab61ae9b678a141a2a":[9,0,41,4,14],
 "class_net_1_1_std_tcp_client.html#a6a133d4ac6ee911d1528b04663c8d5f0":[9,0,41,4,0],
 "class_net_1_1_std_tcp_client.html#a6a133d4ac6ee911d1528b04663c8d5f0a099ecfe0ac0478592a2062921ae332c7":[9,0,41,4,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "class_o_s_x_1_1_sys_func.html":[9,0,42,0],
 "class_o_s_x_1_1_sys_func.html#a1865a95853ea4253cf992b00e126878c":[9,0,42,0,1],
 "class_o_s_x_1_1_sys_func.html#a3d376a74b3efe49d42e1b43de1f320f5":[9,0,42,0,4],
-"class_o_s_x_1_1_sys_func.html#a654e64bd51a9bb691336f90244394a94":[9,0,42,0,8],
-"class_o_s_x_1_1_sys_func.html#a6e417a8ca19c5310880958ae089be32a":[9,0,42,0,9],
-"class_o_s_x_1_1_sys_func.html#a701303f233d8e701031410d697650228":[9,0,42,0,6],
-"class_o_s_x_1_1_sys_func.html#a77ea4b0fb52c555f1d1b564d99ddc798":[9,0,42,0,0]
+"class_o_s_x_1_1_sys_func.html#a654e64bd51a9bb691336f90244394a94":[9,0,42,0,8]
 };

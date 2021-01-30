@@ -179,7 +179,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a>() \</div>
 <div class="line">    __state.Defragment = Defragment;</div>
-<div class="ttc" id="agraphicscontext_8h_html_a3cac5283f38308a752d0ae8335c95845"><div class="ttname"><a href="graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a></div><div class="ttdeci">#define __CreatePluginContext()</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:149</div></div>
+<div class="ttc" id="agraphicscontext_8h_html_a3cac5283f38308a752d0ae8335c95845"><div class="ttname"><a href="graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a></div><div class="ttdeci">#define __CreatePluginContext()</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:98</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -200,7 +200,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    __state.Alloc = <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Alloc</a>; \</div>
 <div class="line">    __state.Dealloc = Dealloc; \</div>
 <div class="line">    __state.currentStage = <a class="code" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80">Graphics::NoStage</a>;</div>
-<div class="ttc" id="anamespace_graphics_html_ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80"><div class="ttname"><a href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80">Graphics::NoStage</a></div><div class="ttdeci">@ NoStage</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:167</div></div>
+<div class="ttc" id="anamespace_graphics_html_ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80"><div class="ttname"><a href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80">Graphics::NoStage</a></div><div class="ttdeci">@ NoStage</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:116</div></div>
 <div class="ttc" id="anamespace_memory_html_a302b8099d0bbcc9bccfd578814e5b4f3"><div class="ttname"><a href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a></div><div class="ttdeci">void * Alloc(HeapType heapType, size_t size, size_t alignment)</div><div class="ttdoc">Allocate a block of memory from one of the global heaps.</div><div class="ttdef"><b>Definition:</b> osxmemory.cc:56</div></div>
 </div><!-- fragment -->
 </div>
@@ -255,9 +255,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="anamespace_game_1_1_time_manager_html_ae1fd57385e5c144532be51e7b2592c79"><div class="ttname"><a href="namespace_game_1_1_time_manager.html#ae1fd57385e5c144532be51e7b2592c79">Game::TimeManager::Destroy</a></div><div class="ttdeci">void Destroy()</div><div class="ttdoc">Destroy the singleton.</div><div class="ttdef"><b>Definition:</b> timemanager.cc:118</div></div>
 <div class="ttc" id="anamespace_graphics_html_ac2d20843571a372465d8dba316e0cc60"><div class="ttname"><a href="namespace_graphics.html#ac2d20843571a372465d8dba316e0cc60">Graphics::RegisterEntity</a></div><div class="ttdeci">static void RegisterEntity(const GraphicsEntityId id)</div><div class="ttdef"><b>Definition:</b> graphicsserver.h:169</div></div>
 <div class="ttc" id="anamespace_graphics_html_ae29c9e9fcf92d0cd5e781c7efffd9b0f"><div class="ttname"><a href="namespace_graphics.html#ae29c9e9fcf92d0cd5e781c7efffd9b0f">Graphics::DeregisterEntity</a></div><div class="ttdeci">static void DeregisterEntity(const GraphicsEntityId id)</div><div class="ttdef"><b>Definition:</b> graphicsserver.h:179</div></div>
-<div class="ttc" id="astruct_graphics_1_1_context_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a></div><div class="ttdef"><b>Definition:</b> graphicscontext.h:218</div></div>
-<div class="ttc" id="astruct_graphics_1_1_graphics_context_function_bundle_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_function_bundle.html">Graphics::GraphicsContextFunctionBundle</a></div><div class="ttdef"><b>Definition:</b> graphicscontext.h:184</div></div>
-<div class="ttc" id="astruct_graphics_1_1_graphics_context_state_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a></div><div class="ttdoc">A graphics context is a resource which holds a contextual representation for a graphics entity.</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:221</div></div>
+<div class="ttc" id="astruct_graphics_1_1_context_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a></div><div class="ttdef"><b>Definition:</b> graphicscontext.h:167</div></div>
+<div class="ttc" id="astruct_graphics_1_1_graphics_context_function_bundle_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_function_bundle.html">Graphics::GraphicsContextFunctionBundle</a></div><div class="ttdef"><b>Definition:</b> graphicscontext.h:133</div></div>
+<div class="ttc" id="astruct_graphics_1_1_graphics_context_state_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a></div><div class="ttdoc">A graphics context is a resource which holds a contextual representation for a graphics entity.</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:170</div></div>
 <div class="ttc" id="astruct_graphics_1_1_graphics_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></div><div class="ttdoc">The graphics entity is only an Id, to which we can attach GraphicsContexts.</div><div class="ttdef"><b>Definition:</b> graphicsentity.h:16</div></div>
 </div><!-- fragment -->
 </div>
@@ -287,7 +287,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="graphicscontext_8h.html#a3d444f7e771b2ab69dec1066eb826356">__ImplementPluginContext</a>(ctx);\</div>
+<div class="line">void ctx::Defragment()\</div>
+<div class="line">{<a class="code" href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">\</a></div>
+<div class="line"><a class="code" href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">    Graphics::GraphicsContext::InternalDefragment</a>(idAllocator, std::forward&lt;Graphics::GraphicsContextState&gt;(__state));\</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_graphics_1_1_graphics_context_html_a07a3787fb69d5d6e5340462ca571dc40"><div class="ttname"><a href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">Graphics::GraphicsContext::InternalDefragment</a></div><div class="ttdeci">static void InternalDefragment(ID_ALLOCATOR &amp;allocator, Graphics::GraphicsContextState &amp;&amp;state)</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:222</div></div>
+<div class="ttc" id="agraphicscontext_8h_html_a3d444f7e771b2ab69dec1066eb826356"><div class="ttname"><a href="graphicscontext_8h.html#a3d444f7e771b2ab69dec1066eb826356">__ImplementPluginContext</a></div><div class="ttdeci">#define __ImplementPluginContext(ctx)</div><div class="ttdef"><b>Definition:</b> graphicscontext.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d444f7e771b2ab69dec1066eb826356"></a>
@@ -315,7 +322,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_9ca153d2197e5a64e112f2977692b41a.html">graphics</a></li><li class="navelem"><a class="el" href="graphicscontext_8h.html">graphicscontext.h</a></li>
 				<li class="footer">
-					Generated on Sat Jan 30 2021 10:06:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 30 2021 11:48:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

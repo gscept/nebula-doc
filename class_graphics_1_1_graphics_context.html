@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_graphics_1_1_graphics_context.ht
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_graphics_1_1_graphics_context-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -103,6 +104,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc96531325e78bc007dd915b13af791b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_context.html#afc96531325e78bc007dd915b13af791b">~GraphicsContext</a> ()</td></tr>
 <tr class="memdesc:afc96531325e78bc007dd915b13af791b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_graphics_1_1_graphics_context.html#afc96531325e78bc007dd915b13af791b">More...</a><br /></td></tr>
 <tr class="separator:afc96531325e78bc007dd915b13af791b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a65329a9d9cd113fce5b7aa4cf839c2aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_context.html#a65329a9d9cd113fce5b7aa4cf839c2aa">InternalRegisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;state)</td></tr>
+<tr class="separator:a65329a9d9cd113fce5b7aa4cf839c2aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58afaea8eafade3c8fed577e7869769c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_context.html#a58afaea8eafade3c8fed577e7869769c">InternalDeregisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;state)</td></tr>
+<tr class="separator:a58afaea8eafade3c8fed577e7869769c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a3787fb69d5d6e5340462ca571dc40"><td class="memTemplParams" colspan="2">template&lt;class ID_ALLOCATOR &gt; </td></tr>
+<tr class="memitem:a07a3787fb69d5d6e5340462ca571dc40"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">InternalDefragment</a> (ID_ALLOCATOR &amp;allocator, <a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;state)</td></tr>
+<tr class="separator:a07a3787fb69d5d6e5340462ca571dc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -156,6 +167,117 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a07a3787fb69d5d6e5340462ca571dc40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a3787fb69d5d6e5340462ca571dc40">&#9670;&nbsp;</a></span>InternalDefragment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ID_ALLOCATOR &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsContext::InternalDefragment </td>
+          <td>(</td>
+          <td class="paramtype">ID_ALLOCATOR &amp;&#160;</td>
+          <td class="paramname"><em>allocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58afaea8eafade3c8fed577e7869769c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58afaea8eafade3c8fed577e7869769c">&#9670;&nbsp;</a></span>InternalDeregisterEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsContext::InternalDeregisterEntity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65329a9d9cd113fce5b7aa4cf839c2aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65329a9d9cd113fce5b7aa4cf839c2aa">&#9670;&nbsp;</a></span>InternalRegisterEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsContext::InternalRegisterEntity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="a462e45ddff02aee1ce75131cbd8baa12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a462e45ddff02aee1ce75131cbd8baa12">&#9670;&nbsp;</a></span>GraphicsServer</h2>
@@ -190,7 +312,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_graphics_1_1_graphics_context.html">GraphicsContext</a></li>
 				<li class="footer">
-					Generated on Sat Jan 30 2021 10:06:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 30 2021 11:48:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

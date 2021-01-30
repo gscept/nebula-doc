@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html#a9aa4c0d97d3818a05b91561a6de72454":[9,0,50,0,1,1],
+"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html#ab9341615f2d8fb5a1e2a1e5f145d909b":[9,0,50,0,1,2],
+"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html#abbdfe4bfae79697352dc59d5061bb24c":[9,0,50,0,1,3],
 "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html#adb86ee5af2c1d9b7afb5857f51a45671":[9,0,50,0,1,0],
 "clipstatus_8h.html":[10,0,0,3,11,3],
 "clipstatus_8h_source.html":[10,0,0,3,11,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "debugtimer_8h.html#aa61617264edcb2d5e0bc0a0094e51930":[10,0,0,3,2,13,2],
 "debugtimer_8h.html#ad8753d403f1bcceb0731489ff2327ea7":[10,0,0,3,2,13,6],
 "debugtimer_8h.html#af30092e2000b54ae0bc7b627d9e24ba6":[10,0,0,3,2,13,3],
-"debugtimer_8h_source.html":[10,0,0,3,2,13],
-"debugui_8cc.html":[10,0,0,4,0,4],
-"debugui_8cc.html#a1d566277e1bc1471d4256f142e524f84":[10,0,0,4,0,4,1],
-"debugui_8cc.html#a65bfab3b3a913500b671e66bbc35affb":[10,0,0,4,0,4,0]
+"debugtimer_8h_source.html":[10,0,0,3,2,13]
 };
