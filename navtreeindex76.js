@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"streammeshpool_8cc.html#a9ef63a8fd09b86ac18f7883b2941bcf0":[10,0,0,5,5,75,0],
+"streammeshpool_8h.html":[10,0,0,5,5,76],
 "streammeshpool_8h_source.html":[10,0,0,5,5,76],
 "streammodelpool_8cc.html":[10,0,0,5,15,5],
 "streammodelpool_8cc.html#a2deac470faa8d447db436b01655c7bf4":[10,0,0,5,15,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "struct_core_graphics_1_1_buffer_copy.html#aab1f8054360f12d7f327d0fb3f823814":[9,0,10,29,1],
 "struct_core_graphics_1_1_buffer_copy.html#adaea14f489be6c3a9dec1fa4434ce8bf":[9,0,10,29,0],
 "struct_core_graphics_1_1_buffer_create_info.html":[9,0,10,13],
-"struct_core_graphics_1_1_buffer_create_info.html#a1bedacbff2fa158704bfcfa2fb47a9ec":[9,0,10,13,5],
-"struct_core_graphics_1_1_buffer_create_info.html#a2acace368a40d31ad11b5da01e3951bc":[9,0,10,13,1],
-"struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[9,0,10,13,7]
+"struct_core_graphics_1_1_buffer_create_info.html#a1bedacbff2fa158704bfcfa2fb47a9ec":[9,0,10,13,5]
 };

@@ -48,6 +48,8 @@ var class_base_1_1_vertex_component_base =
       [ "TexCoord2", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbca5631d0281f1f19b6ea5dd259b78a168b", null ],
       [ "SkinWeights", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbca067699019e9db442f5b3296307f95279", null ],
       [ "SkinJIndices", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbca3f428271f3fe3da505a495047f6251c4", null ],
+      [ "TexCoord3", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbca02bde6dee890145c30573f90e37cee22", null ],
+      [ "TexCoord4", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbcab1a26c27ad9ec3a990f8afb650ad2589", null ],
       [ "Invalid", "class_base_1_1_vertex_component_base.html#a0d430a30f2af98bd304c6e34263b0fbca5185ea1ba1f3aabaeb9558c1812ccb3d", null ]
     ] ],
     [ "StrideType", "class_base_1_1_vertex_component_base.html#ad77376ed4a5b5d40b1ae096386251009", [
