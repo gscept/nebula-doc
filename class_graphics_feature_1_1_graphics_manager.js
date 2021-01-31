@@ -10,5 +10,6 @@ var class_graphics_feature_1_1_graphics_manager =
     [ "InitDestroyModelProcessor", "class_graphics_feature_1_1_graphics_manager.html#ae20f5434b1bbe9ef8a3ed5d5329e8d52", null ],
     [ "InitUpdateModelTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#a814f5f30c6b7a8c3b5c37decf5b2b61c", null ],
     [ "OnBeginFrame", "class_graphics_feature_1_1_graphics_manager.html#a425fff3b6399f7776d301afd96c519c9", null ],
+    [ "OnCleanup", "class_graphics_feature_1_1_graphics_manager.html#aa10ddc5046485a9e1ba74c8fccc5e718", null ],
     [ "pids", "class_graphics_feature_1_1_graphics_manager.html#a388a29064d56513d81cfe399523d35b3", null ]
 ];

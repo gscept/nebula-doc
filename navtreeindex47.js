@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"class_win32_1_1_win32_mini_dump.html#af3c378d0a6c0be87f5942e038e8cbf60":[9,0,62,1,3],
+"class_win32_1_1_win32_mini_dump.html#af958d2bb4d493ed720459fff70e86687":[9,0,62,1,0],
+"class_win32_1_1_win32_mouse.html":[9,0,62,29],
+"class_win32_1_1_win32_mouse.html#a08f4378abf2f43c7a82e741e3338fcc4":[9,0,62,29,2],
 "class_win32_1_1_win32_mouse.html#a2f34b6bde131b16cbd41ba82af8687d7":[9,0,62,29,1],
 "class_win32_1_1_win32_mouse.html#ab79506fefd5d85150ea3c1366f2e72e0":[9,0,62,29,0],
 "class_win32_1_1_win32_process.html":[9,0,62,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "class_x_input_1_1_x_input_game_pad.html#ab627a8005eb37c812b57dfc84b4b13e5":[9,0,63,0,4],
 "class_x_input_1_1_x_input_game_pad.html#ab94aa0b2d105ce6f8f54a5d8bc65d72d":[9,0,63,0,9],
 "class_x_input_1_1_x_input_game_pad.html#ab9ab1693759cef4a52a2b850a62884fe":[9,0,63,0,0],
-"class_x_input_1_1_x_input_game_pad.html#ad2d04e4c25ada1f05af3a5c5651cd3c6":[9,0,63,0,6],
-"classcore.html":[9,0,78],
-"classes.html":[9,1],
-"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html":[9,0,50,0,0],
-"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html#a1a1b4e35e4d8810ff0dd41d747374475":[9,0,50,0,0,3]
+"class_x_input_1_1_x_input_game_pad.html#ad2d04e4c25ada1f05af3a5c5651cd3c6":[9,0,63,0,6]
 };

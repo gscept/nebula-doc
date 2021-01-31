@@ -17,6 +17,7 @@ var class_game_1_1_feature_unit =
     [ "OnRenderDebug", "class_game_1_1_feature_unit.html#a98ef785bd6fecec0e6b967f30a2bc938", null ],
     [ "OnSave", "class_game_1_1_feature_unit.html#abca67e3fc0ccda0dea617a25b99a4f9a", null ],
     [ "OnStart", "class_game_1_1_feature_unit.html#a1899daa7b4f4b5324079ac2a8a7d620d", null ],
+    [ "OnStop", "class_game_1_1_feature_unit.html#ae3f31102816d5e35d3abdcd9d0a80ad7", null ],
     [ "RemoveManager", "class_game_1_1_feature_unit.html#a1ed0444ddcf135dc2323a648a33a56be", null ],
     [ "SetCmdLineArgs", "class_game_1_1_feature_unit.html#a7423e545e04608b4e5c4ba29b4d526d5", null ],
     [ "active", "class_game_1_1_feature_unit.html#a7d76ca893a22cc9a894a0ed0f5db83a4", null ],

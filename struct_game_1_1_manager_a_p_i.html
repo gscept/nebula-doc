@@ -120,6 +120,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a508cc079d9ceeb59e2741caa84d6d25c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#a508cc079d9ceeb59e2741caa84d6d25c">OnSave</a> )() = nullptr</td></tr>
 <tr class="memdesc:a508cc079d9ceeb59e2741caa84d6d25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before saving game state  <a href="struct_game_1_1_manager_a_p_i.html#a508cc079d9ceeb59e2741caa84d6d25c">More...</a><br /></td></tr>
 <tr class="separator:a508cc079d9ceeb59e2741caa84d6d25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb5d725def93e672755129008e4414f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#afcb5d725def93e672755129008e4414f">OnCleanup</a> )() = nullptr</td></tr>
+<tr class="memdesc:afcb5d725def93e672755129008e4414f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before unloading game state  <a href="struct_game_1_1_manager_a_p_i.html#afcb5d725def93e672755129008e4414f">More...</a><br /></td></tr>
+<tr class="separator:afcb5d725def93e672755129008e4414f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e99b1006d46de6d5a9095da4d9b6d8"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#a70e99b1006d46de6d5a9095da4d9b6d8">OnStart</a> )() = nullptr</td></tr>
 <tr class="memdesc:a70e99b1006d46de6d5a9095da4d9b6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">called by Game::Server::Start()  <a href="struct_game_1_1_manager_a_p_i.html#a70e99b1006d46de6d5a9095da4d9b6d8">More...</a><br /></td></tr>
 <tr class="separator:a70e99b1006d46de6d5a9095da4d9b6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +160,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called before frame by the game server </p>
+
+</div>
+</div>
+<a id="afcb5d725def93e672755129008e4414f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb5d725def93e672755129008e4414f">&#9670;&nbsp;</a></span>OnCleanup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Game::ManagerAPI::OnCleanup) () = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>called before unloading game state </p>
 
 </div>
 </div>
@@ -282,7 +301,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_manager_a_p_i.html">ManagerAPI</a></li>
 				<li class="footer">
-					Generated on Sun Jan 31 2021 10:45:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 31 2021 22:23:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

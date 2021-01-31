@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"struct_im3d_1_1_context.html#a39439ce2a1e0f94868e867c576497902":[9,0,28,13,74],
+"struct_im3d_1_1_context.html#a398f8bd8f2c686a7d2967442ba97cba4":[9,0,28,13,85],
+"struct_im3d_1_1_context.html#a3e77673a8cbad86ae2ef9db1cc1ca9ad":[9,0,28,13,54],
+"struct_im3d_1_1_context.html#a401c31d55e16ec3e802a296fe765ae5c":[9,0,28,13,100],
 "struct_im3d_1_1_context.html#a405adfd4834e69a4dd11099d75548782":[9,0,28,13,56],
 "struct_im3d_1_1_context.html#a438fce4dec535aebf4cff1d929f667d0":[9,0,28,13,4],
 "struct_im3d_1_1_context.html#a484b9f6195c3af16cca9f4ca4c2edd93":[9,0,28,13,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "struct_im3d_1_1_vertex_data.html#a6819f53c1d6386d005c5e4766b4b301e":[9,0,28,7,0],
 "struct_im3d_1_1_vertex_data.html#ac422e9cd061bfcd7321f672096bca27e":[9,0,28,7,2],
 "struct_im3d_1_1_vertex_data.html#acc7fb65428dd76cf447b6eb24aa94c20":[9,0,28,7,1],
-"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[9,0,28,7,3],
-"struct_im3d_1_1internal_1_1_composite_t.html":[9,0,28,0,3],
-"struct_im3d_1_1internal_1_1_float_t.html":[9,0,28,0,1],
-"struct_im3d_1_1internal_1_1_int_t.html":[9,0,28,0,2],
-"struct_im3d_1_1internal_1_1_mat_t.html":[9,0,28,0,5]
+"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[9,0,28,7,3]
 };

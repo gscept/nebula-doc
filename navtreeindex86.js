@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"struct_terrain_1_1_terrain_quad.html":[9,0,56,4],
+"struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[9,0,56,4,2],
+"struct_terrain_1_1_terrain_quad.html#ad06e29ea1fbe7f13e04a7ec178dd8d2b":[9,0,56,4,0],
+"struct_terrain_1_1_terrain_quad.html#ad117728b1c290d7e44a147eac26bd5ba":[9,0,56,4,3],
 "struct_terrain_1_1_terrain_quad.html#afd2847fa8488d0a006db60891d80571a":[9,0,56,4,1],
 "struct_terrain_1_1_terrain_setup_settings.html":[9,0,56,6],
 "struct_terrain_1_1_terrain_setup_settings.html#a586ccb2d7be7e4ec885e2fdddc029ebc":[9,0,56,6,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd":[9,0,61,11,41],
 "struct_vulkan_1_1_graphics_device_state.html#ab689ef54aa2ce8fde1603a590d336ca2":[9,0,61,11,35],
 "struct_vulkan_1_1_graphics_device_state.html#ab95a254d75b2523d8a5636becfb742f0":[9,0,61,11,38],
-"struct_vulkan_1_1_graphics_device_state.html#ab97058b8748837d8588337d128c6367b":[9,0,61,11,14],
-"struct_vulkan_1_1_graphics_device_state.html#abbddaf3fdb505a5280c9c68709d15cf2":[9,0,61,11,44],
-"struct_vulkan_1_1_graphics_device_state.html#ac04a711c426290f153e68fa9cd8277ae":[9,0,61,11,10],
-"struct_vulkan_1_1_graphics_device_state.html#ac7fa3ea5a0b3108213766099fb85e773":[9,0,61,11,8],
-"struct_vulkan_1_1_graphics_device_state.html#ac8c9c61f76e8c931ccb28b40178926bb":[9,0,61,11,55]
+"struct_vulkan_1_1_graphics_device_state.html#ab97058b8748837d8588337d128c6367b":[9,0,61,11,14]
 };

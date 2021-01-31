@@ -10,5 +10,6 @@ var class_physics_feature_1_1_physics_manager =
     [ "InitDestroyActorProcessor", "class_physics_feature_1_1_physics_manager.html#af3b9af9b49f57fec16fee04b5437db98", null ],
     [ "InitPollTransformProcessor", "class_physics_feature_1_1_physics_manager.html#a90cefd32de7ce7dc58c8eba6292d31d1", null ],
     [ "OnBeginFrame", "class_physics_feature_1_1_physics_manager.html#a0a1dc39ebbc0ec88ffef9da63ca3b8ab", null ],
+    [ "OnCleanup", "class_physics_feature_1_1_physics_manager.html#a446726073406afb5418b0ba9e2cd3282", null ],
     [ "pids", "class_physics_feature_1_1_physics_manager.html#a4e9c1f5e6e77fc969e97c89e68d52c04", null ]
 ];

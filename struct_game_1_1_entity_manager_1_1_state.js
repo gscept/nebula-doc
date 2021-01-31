@@ -7,7 +7,6 @@ var struct_game_1_1_entity_manager_1_1_state =
     [ "catIndexMap", "struct_game_1_1_entity_manager_1_1_state.html#a3be278159f2ca3639d3caf79537d5f50", null ],
     [ "deallocQueue", "struct_game_1_1_entity_manager_1_1_state.html#a7e62adb0fc05d6508d048ee747efe4f3", null ],
     [ "entityMap", "struct_game_1_1_entity_manager_1_1_state.html#adf8877a77a5b7a4fc228b4421a599983", null ],
-    [ "managedCleanupSet", "struct_game_1_1_entity_manager_1_1_state.html#a004bcce5ac63ea911cfa35918ba3d4c0", null ],
     [ "numEntities", "struct_game_1_1_entity_manager_1_1_state.html#ab0e59e000de3bd63f8979fd175db8d24", null ],
     [ "ownerId", "struct_game_1_1_entity_manager_1_1_state.html#a0415ad690f889e688e85a0132ccca80d", null ],
     [ "pool", "struct_game_1_1_entity_manager_1_1_state.html#a30ed245d6aff9ef89f15500a0ba59487", null ],

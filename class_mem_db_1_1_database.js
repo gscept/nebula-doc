@@ -34,6 +34,7 @@ var class_mem_db_1_1_database =
     [ "MigrateInstances", "class_mem_db_1_1_database.html#a5bf5a7299787f6971aa38e7f504990d6", null ],
     [ "Query", "class_mem_db_1_1_database.html#ae54b26d573e445e204b82e2ac286e2bf", null ],
     [ "Query", "class_mem_db_1_1_database.html#ae384dc8b0186d9c7b300dddbe3de034c", null ],
+    [ "Reset", "class_mem_db_1_1_database.html#a70a5d80ff5188de9acab6ea31e836e67", null ],
     [ "SetToDefault", "class_mem_db_1_1_database.html#a30fd11705776524ce1ca2a17cd04bbd2", null ],
     [ "MAX_NUM_TABLES", "class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514", null ],
     [ "numTables", "class_mem_db_1_1_database.html#a337983489fc545f4ba6bf18171e1a840", null ],
