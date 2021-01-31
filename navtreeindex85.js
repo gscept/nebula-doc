@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"struct_models_1_1_shader_state_node_1_1_instance.html#a70a4721d9ccb52fcef0b558abb50d695":[9,0,40,8,0,13],
+"struct_models_1_1_shader_state_node_1_1_instance.html#a8cd09852941b587f2b71e71b89ec9060":[9,0,40,8,0,8],
 "struct_models_1_1_shader_state_node_1_1_instance.html#a9a9c8c1331987e725fa0aa6a3d440972":[9,0,40,8,0,5],
 "struct_models_1_1_shader_state_node_1_1_instance.html#a9ceb88fb28029d97c03fdbad265be27c":[9,0,40,8,0,11],
 "struct_models_1_1_shader_state_node_1_1_instance.html#aa2da9bb2208c2ef65cbbc6399d4d1980":[9,0,40,8,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "struct_terrain_1_1_terrain_quad.html":[9,0,56,4],
 "struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[9,0,56,4,2],
 "struct_terrain_1_1_terrain_quad.html#ad06e29ea1fbe7f13e04a7ec178dd8d2b":[9,0,56,4,0],
-"struct_terrain_1_1_terrain_quad.html#ad117728b1c290d7e44a147eac26bd5ba":[9,0,56,4,3],
-"struct_terrain_1_1_terrain_quad.html#afd2847fa8488d0a006db60891d80571a":[9,0,56,4,1],
-"struct_terrain_1_1_terrain_setup_settings.html":[9,0,56,6]
+"struct_terrain_1_1_terrain_quad.html#ad117728b1c290d7e44a147eac26bd5ba":[9,0,56,4,3]
 };

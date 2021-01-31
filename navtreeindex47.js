@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"class_win32_1_1_win32_mouse.html#a2f34b6bde131b16cbd41ba82af8687d7":[9,0,62,29,1],
+"class_win32_1_1_win32_mouse.html#ab79506fefd5d85150ea3c1366f2e72e0":[9,0,62,29,0],
 "class_win32_1_1_win32_process.html":[9,0,62,12],
 "class_win32_1_1_win32_process.html#a030cc4a5c70ba23a00e8e9b8e3eabe10":[9,0,62,12,4],
 "class_win32_1_1_win32_process.html#a049b21ac5fd87f79fc75e761616013bc":[9,0,62,12,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classcore.html":[9,0,78],
 "classes.html":[9,1],
 "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html":[9,0,50,0,0],
-"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html#a1a1b4e35e4d8810ff0dd41d747374475":[9,0,50,0,0,3],
-"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html#a544bffc9ad986ca9f0906865609b4fa3":[9,0,50,0,0,0],
-"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html#a58c48208231fb9149b21c20ada24c2f5":[9,0,50,0,0,2]
+"classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html#a1a1b4e35e4d8810ff0dd41d747374475":[9,0,50,0,0,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a8526e0db71dfc21709b1737ff616b41c":[9,0,61,6,0,21],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a88329f30cfecd67a4b5be5e9ee0cc6b1":[9,0,61,6,0,39],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a976fef47a50b1a219b392363f334dbac":[9,0,61,6,0,31],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a9d15473485c434283020574f0e6346ff":[9,0,61,6,0,10],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aa4084468e040229cae2fa6bf2fb75783":[9,0,61,6,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structcompletion__t.html":[9,0,77],
 "structcompletion__t.html#a0ef1fc8b075040dc50cdfb35290a135d":[9,0,77,2],
 "structcompletion__t.html#a91e3fa790d32317d72916f4b054a56bf":[9,0,77,0],
-"structcompletion__t.html#aedca82791cceb67ba38423887ece5176":[9,0,77,1],
-"structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html":[9,0,50,0,3],
-"structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html":[9,0,50,0,2]
+"structcompletion__t.html#aedca82791cceb67ba38423887ece5176":[9,0,77,1]
 };
