@@ -1,6 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"vkpass_8cc.html#adf221bb05f4522f1b951b88dbafda368":[10,0,0,5,5,5,28,6],
 "vkpass_8cc.html#af96c7800e3a4810d9784429db4ca15e8":[10,0,0,5,5,5,28,16],
 "vkpass_8cc.html#afafe9325a69fa346f3139c03b995f1d5":[10,0,0,5,5,5,28,12],
 "vkpass_8h.html":[10,0,0,5,5,5,29],
@@ -249,5 +248,6 @@ var NAVTREEINDEX95 =
 "volumetricfogcontext_8cc.html#a5b95de07d7ff7484616a4b07105287c9":[10,0,0,5,8,0,23],
 "volumetricfogcontext_8cc.html#a62c680e9fd6809caba8a52ee56facb8e":[10,0,0,5,8,0,16],
 "volumetricfogcontext_8cc.html#a6da9b5c05bae7169f6d2e7dc69792ca1":[10,0,0,5,8,0,20],
-"volumetricfogcontext_8cc.html#a7177334b2e4a4b62713e32be604955e7":[10,0,0,5,8,0,19]
+"volumetricfogcontext_8cc.html#a7177334b2e4a4b62713e32be604955e7":[10,0,0,5,8,0,19],
+"volumetricfogcontext_8cc.html#a76108891dc4352082a676f2978ee446d":[10,0,0,5,8,0,0]
 };

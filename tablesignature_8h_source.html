@@ -244,10 +244,10 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span> (offset &lt; this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a>)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keyword">alignas</span>(16) uint64_t partialMask[2] = { 0, 0 };</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        uint64_t bit = pid.id % 128;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        uint64_t <span class="keyword">const</span> bit = pid.id % 128;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        partialMask[bit / 64] |= 1ull &lt;&lt; bit;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        __m128i temp = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordtype">int</span> isSet = !_mm_testz_si128(temp, this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset]);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordtype">int</span> <span class="keyword">const</span> isSet = !_mm_testz_si128(temp, this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset]);</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">return</span> isSet;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160; </div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">  219</a></span>&#160;<a class="code" href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">TableSignature::FlipBit</a>(<a class="code" href="struct_mem_db_1_1_property_id.html">PropertyId</a> pid)</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;{</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">int</span> offset = pid.id / 128;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(offset &lt; this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a>);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(offset &lt; this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a>); <span class="comment">// currently, we can&#39;t flip a bit that is outside the signatures size.</span></div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keyword">alignas</span>(16) uint64_t partialMask[2] = { 0, 0 };</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    uint64_t bit = pid.id % 128;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    partialMask[bit / 64] |= 1ull &lt;&lt; bit;</div>
@@ -386,7 +386,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="tablesignature_8h.html">tablesignature.h</a></li>
 				<li class="footer">
-					Generated on Sun Jan 31 2021 22:22:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 4 2021 21:05:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

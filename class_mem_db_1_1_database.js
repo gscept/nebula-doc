@@ -17,6 +17,7 @@ var class_mem_db_1_1_database =
     [ "DuplicateInstance", "class_mem_db_1_1_database.html#a0e42b9d227c8a2ff2a19888dae524bf6", null ],
     [ "DuplicateInstances", "class_mem_db_1_1_database.html#a93ce068d4b44784d46d7024e4e096410", null ],
     [ "EraseSwapIndex", "class_mem_db_1_1_database.html#acadf60de8fb276b848914fa8fedcf8da", null ],
+    [ "FindTable", "class_mem_db_1_1_database.html#ac5fe02502dc7dd3fd19d3370e63d3a21", null ],
     [ "GetBuffer", "class_mem_db_1_1_database.html#a7d17056400beb1ce3b0df3df72d196b5", null ],
     [ "GetColumnId", "class_mem_db_1_1_database.html#a351170de301a0794d4440e211461a40b", null ],
     [ "GetColumns", "class_mem_db_1_1_database.html#a147cb15ad010ae834fa10445ac6a6f67", null ],

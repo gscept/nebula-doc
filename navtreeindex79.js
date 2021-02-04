@@ -1,6 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"struct_dynui_1_1_imgui_console_1_1_log_entry.html":[9,0,15,0,0],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#a0fb45c5d5c97e24e97b28220c40ff426":[9,0,15,0,0,1],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#adb12118e11005e56d3f2f13e12344f6f":[9,0,15,0,0,0],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html":[9,0,15,6,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_op_1_1_register_property.html#ada366b7551d3112f7062e70d5a8e613c":[9,0,21,0,0,1],
 "struct_game_1_1_processor_create_info.html":[9,0,21,11],
 "struct_game_1_1_processor_create_info.html#a3a0e1f25fda5e7c17cfa183944be49e3":[9,0,21,11,3],
-"struct_game_1_1_processor_create_info.html#a41e6b19b75bad1d22d7fedc12c3fdd7c":[9,0,21,11,10]
+"struct_game_1_1_processor_create_info.html#a41e6b19b75bad1d22d7fedc12c3fdd7c":[9,0,21,11,10],
+"struct_game_1_1_processor_create_info.html#a4b73927314a00f077cf50711b2618733":[9,0,21,11,6]
 };
