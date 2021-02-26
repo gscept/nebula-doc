@@ -29,6 +29,6 @@ var dir_b01bbc06703354ce86ca09ef125e942f =
       [ "_PendingResourceUnload", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_unload.html", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_unload" ],
       [ "_Callbacks", "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html", "struct_resources_1_1_resource_stream_pool_1_1___callbacks" ],
       [ "_LoadMetaData", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data" ],
-      [ "__PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource.html", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource" ]
+      [ "_PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1___placeholder_resource.html", "struct_resources_1_1_resource_stream_pool_1_1___placeholder_resource" ]
     ] ]
 ];

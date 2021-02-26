@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "Resources::ResourceStreamPool::__PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource.html", null ],
     [ "Resources::ResourceStreamPool::_Callbacks", "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html", null ],
     [ "Resources::ResourceStreamPool::_LoadMetaData", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html", null ],
     [ "Resources::ResourceStreamPool::_PendingResourceLoad", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html", null ],
@@ -8,6 +7,7 @@ var hierarchy =
     [ "Resources::ResourceStreamPool::_PendingStreamLod", "struct_resources_1_1_resource_stream_pool_1_1___pending_stream_lod.html", null ],
     [ "Vulkan::VkShaderServer::_PendingView", "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html", null ],
     [ "Vulkan::VkShaderServer::_PendingViewDelete", "struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html", null ],
+    [ "Resources::ResourceStreamPool::_PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1___placeholder_resource.html", null ],
     [ "Clustering::_state", "struct_clustering_1_1__state.html", null ],
     [ "AccessMode", "class_attr_1_1_access_mode.html", null ],
     [ "Physics::Actor", "struct_physics_1_1_actor.html", null ],
@@ -571,9 +571,9 @@ var hierarchy =
     [ "Util::FixedArray< Ptr< Input::GamePad > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resource::State >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceId >", "class_util_1_1_fixed_array.html", null ],
-    [ "Util::FixedArray< Resources::ResourceStreamPool::__PlaceholderResource >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceStreamPool::_LoadMetaData >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceStreamPool::_PendingResourceLoad >", "class_util_1_1_fixed_array.html", null ],
+    [ "Util::FixedArray< Resources::ResourceStreamPool::_PlaceholderResource >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< SizeT >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< SyncState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Terrain::SubTextureUpdateJobOutput >", "class_util_1_1_fixed_array.html", null ],
