@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['bufferqueuesupportflags_23572',['BufferQueueSupportFlags',['../namespace_core_graphics.html#aaecf95f10896b6f1cd4274f1d909e918',1,'CoreGraphics']]],
-  ['bufferusageflags_23573',['BufferUsageFlags',['../namespace_core_graphics.html#a69a2149611f82168dbee3ce5db03cbe5',1,'CoreGraphics']]]
+  ['bufferqueuesupportflags_23596',['BufferQueueSupportFlags',['../namespace_core_graphics.html#aaecf95f10896b6f1cd4274f1d909e918',1,'CoreGraphics']]],
+  ['bufferusageflags_23597',['BufferUsageFlags',['../namespace_core_graphics.html#a69a2149611f82168dbee3ce5db03cbe5',1,'CoreGraphics']]]
 ];

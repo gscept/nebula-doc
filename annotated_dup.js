@@ -861,6 +861,7 @@ var annotated_dup =
       [ "CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ],
       [ "LockFreeQueue", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],
       [ "ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ],
+      [ "ReadWriteLock", "class_threading_1_1_read_write_lock.html", "class_threading_1_1_read_write_lock" ],
       [ "SafeFlag", "class_threading_1_1_safe_flag.html", "class_threading_1_1_safe_flag" ],
       [ "SafePriorityQueue", "class_threading_1_1_safe_priority_queue.html", "class_threading_1_1_safe_priority_queue" ],
       [ "SafeQueue", "class_threading_1_1_safe_queue.html", "class_threading_1_1_safe_queue" ]
