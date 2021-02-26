@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"struct_math_1_1quat.html#a186a3ae66c236cf10f192b99a8d31fc1":[9,0,36,13,4],
+"struct_math_1_1quat.html#a2fce55b556e2fff2fb4006734174de8c":[9,0,36,13,0],
+"struct_math_1_1quat.html#a5288be7caaa02f267843c2d09e5492ad":[9,0,36,13,14],
 "struct_math_1_1quat.html#a558b73e99444357eadaba19fc46a9de8":[9,0,36,13,8],
 "struct_math_1_1quat.html#a5ae44ef56826b092db8b4e54a0fcbf32":[9,0,36,13,9],
 "struct_math_1_1quat.html#a6637e9615bca920e3efe61a05c143372":[9,0,36,13,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "struct_models_1_1_particle_system_node_1_1_instance.html#ad7e7f2f796c754324829df2de475fda3":[9,0,40,6,0,4],
 "struct_models_1_1_particle_system_node_1_1_instance.html#adf0e329f674c34134ae36905ef1f1a6c":[9,0,40,6,0,6],
 "struct_models_1_1_particle_system_node_1_1_instance.html#aff3fff0d0826a526e2783407e5869639":[9,0,40,6,0,3],
-"struct_models_1_1_primitive_node_1_1_instance.html":[9,0,40,7,0],
-"struct_models_1_1_primitive_node_1_1_instance.html#a8ff1bfab9293eec740cbce8cc109783f":[9,0,40,7,0,0],
-"struct_models_1_1_shader_state_node_1_1_instance.html":[9,0,40,8,0],
-"struct_models_1_1_shader_state_node_1_1_instance.html#a1c25b3c8f5368f4b790884726ec4437f":[9,0,40,8,0,12]
+"struct_models_1_1_primitive_node_1_1_instance.html":[9,0,40,7,0]
 };

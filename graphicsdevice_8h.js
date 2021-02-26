@@ -35,7 +35,7 @@ var graphicsdevice_8h =
     [ "EndFrame", "graphicsdevice_8h.html#a8d4b167287edc7696ce7862348786ce7", null ],
     [ "EndPass", "graphicsdevice_8h.html#ac05f9911cec0ff3b79c9da96adf04f6a", null ],
     [ "EndQuery", "graphicsdevice_8h.html#afc81ab052d6121a3473e9c40ebe3d07b", null ],
-    [ "EndSubmission", "graphicsdevice_8h.html#a427c9ddaf415cac18beae5deb86a628d", null ],
+    [ "EndSubmission", "graphicsdevice_8h.html#a27bcd55e977181cbacdb389b90ab982b", null ],
     [ "EndSubpassCommands", "graphicsdevice_8h.html#a275c8e086073904cd14ae794464902e8", null ],
     [ "ExecuteCommands", "graphicsdevice_8h.html#a5aab22ec8ba0877f6592d6dc716ebb23", null ],
     [ "GetBufferedFrameIndex", "graphicsdevice_8h.html#a662198a2db21f4c73693ac378362e2fa", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"entitymanager_8h_source.html":[10,0,0,1,2,0,3],
+"envelopecurve_8cc.html":[10,0,0,5,16,4],
 "envelopecurve_8h.html":[10,0,0,5,16,5],
 "envelopecurve_8h_source.html":[10,0,0,5,16,5],
 "envelopesamplebuffer_8cc.html":[10,0,0,5,16,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "framescriptinspector_8cc.html#a8e6ef26430eb535b233dec680566ebca":[10,0,0,5,6,0,0],
 "framescriptinspector_8cc.html#ab8810382eb190c8981b535426452b7b8":[10,0,0,5,6,0,1],
 "framescriptinspector_8h.html":[10,0,0,5,6,1],
-"framescriptinspector_8h_source.html":[10,0,0,5,6,1],
-"framescriptloader_8cc.html":[10,0,0,5,9,23],
-"framescriptloader_8h.html":[10,0,0,5,9,24]
+"framescriptinspector_8h_source.html":[10,0,0,5,6,1]
 };

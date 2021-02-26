@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"class_net_1_1_socket.html":[9,0,140],
+"class_net_1_1_std_tcp_client.html":[9,0,41,4],
 "class_net_1_1_std_tcp_client.html#a06b42b8faeb45627f3491f541a62cb28":[9,0,41,4,13],
 "class_net_1_1_std_tcp_client.html#a1d1f8cc3d198873591f9a09e4a34ce76":[9,0,41,4,11],
 "class_net_1_1_std_tcp_client.html#a2c39dff43d68c20a5fb1917e36ec3d3b":[9,0,41,4,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a64fe2954b57e1cee2a68451b80ec82cc":[9,0,42,10,6],
 "class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a64fe2954b57e1cee2a68451b80ec82cc":[9,0,42,10,7],
 "class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a660e16a4bc1a2e78f4e3f46722465ea5":[9,0,42,10,10],
-"class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a6d72323c62b8e38fd1c0ec79a50f24d2":[9,0,42,10,1],
-"class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a6d72323c62b8e38fd1c0ec79a50f24d2":[9,0,42,10,3],
-"class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a8952880c3c3e03933af39c86f384253d":[9,0,42,10,8]
+"class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a6d72323c62b8e38fd1c0ec79a50f24d2":[9,0,42,10,1]
 };

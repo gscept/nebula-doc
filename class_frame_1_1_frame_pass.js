@@ -5,7 +5,7 @@ var class_frame_1_1_frame_pass =
     [ "~FramePass", "class_frame_1_1_frame_pass.html#a6c8cf1325fd2d7874ef4b68684487f15", null ],
     [ "AddSubpass", "class_frame_1_1_frame_pass.html#ab167f9d8ed86a44c1a4ec3e67b32a611", null ],
     [ "AllocCompiled", "class_frame_1_1_frame_pass.html#a94d2e8520852af1556746723a1dece75", null ],
-    [ "Build", "class_frame_1_1_frame_pass.html#ac5523982cb5205f9bb7bfdc2d868edf5", null ],
+    [ "Build", "class_frame_1_1_frame_pass.html#a3a527f8cfa2d0b711f4762f3f292a179", null ],
     [ "Discard", "class_frame_1_1_frame_pass.html#a6316aae3a9fcca9d9347cc1d28d1d888", null ],
     [ "GetSubpasses", "class_frame_1_1_frame_pass.html#aab033da7cba6a38f52ec3d7075444680", null ],
     [ "OnWindowResized", "class_frame_1_1_frame_pass.html#a3b2a6b2935f0de28abe612dff7fa3a2b", null ],

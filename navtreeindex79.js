@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_window_id.html":[9,0,10,113],
+"struct_dynui_1_1_imgui_console_1_1_log_entry.html":[9,0,15,0,0],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#a0fb45c5d5c97e24e97b28220c40ff426":[9,0,15,0,0,1],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#adb12118e11005e56d3f2f13e12344f6f":[9,0,15,0,0,0],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html":[9,0,15,6,0],
@@ -122,11 +124,12 @@ var NAVTREEINDEX79 =
 "struct_frame_1_1_frame_plugin_1_1_compiled_impl.html#a61d0ee387fa6b8fa87860fa2888911b5":[9,0,19,10,0,0],
 "struct_frame_1_1_frame_plugin_1_1_compiled_impl.html#afa953964384e144644c8d3439906c20e":[9,0,19,10,0,2],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[9,0,19,14,0],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a62094e061d87f51491dfbfa4902ce17b":[9,0,19,14,0,3],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d":[9,0,19,14,0,1],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a64d937b035ea20e327d82018684f3606":[9,0,19,14,0,0],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a7d03378d02f159abc7c1d10e36d10128":[9,0,19,14,0,2],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ac1d73dcd25a9909da572eb35c5666706":[9,0,19,14,0,4],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ad2573b97db5498a1c1d1824bf6890f1e":[9,0,19,14,0,1],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a7d03378d02f159abc7c1d10e36d10128":[9,0,19,14,0,4],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ab573d59a80423b7c30fa4d4522ec7bd2":[9,0,19,14,0,2],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ac1d73dcd25a9909da572eb35c5666706":[9,0,19,14,0,5],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ad2573b97db5498a1c1d1824bf6890f1e":[9,0,19,14,0,3],
 "struct_frame_1_1_frame_subpass_1_1_compiled_impl.html":[9,0,19,15,0],
 "struct_frame_1_1_frame_subpass_1_1_compiled_impl.html#a4bdb5d179ef0be441bc6d33084e4baf0":[9,0,19,15,0,2],
 "struct_frame_1_1_frame_subpass_1_1_compiled_impl.html#a9106cbd9be29b6c3feb8db1c857b8d27":[9,0,19,15,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_op_1_1_register_property.html#a3611894b2b476c971679724a86fe731d":[9,0,21,0,0,2],
 "struct_game_1_1_op_1_1_register_property.html#a756d0edc7803adcd2790448dc3b429cc":[9,0,21,0,0,0],
 "struct_game_1_1_op_1_1_register_property.html#ada366b7551d3112f7062e70d5a8e613c":[9,0,21,0,0,1],
-"struct_game_1_1_processor_create_info.html":[9,0,21,11],
-"struct_game_1_1_processor_create_info.html#a3a0e1f25fda5e7c17cfa183944be49e3":[9,0,21,11,3],
-"struct_game_1_1_processor_create_info.html#a41e6b19b75bad1d22d7fedc12c3fdd7c":[9,0,21,11,10],
-"struct_game_1_1_processor_create_info.html#a4b73927314a00f077cf50711b2618733":[9,0,21,11,6]
+"struct_game_1_1_processor_create_info.html":[9,0,21,11]
 };

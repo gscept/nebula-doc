@@ -528,7 +528,7 @@ var namespace_core_graphics =
     [ "EndFrame", "namespace_core_graphics.html#a8d4b167287edc7696ce7862348786ce7", null ],
     [ "EndPass", "namespace_core_graphics.html#ac05f9911cec0ff3b79c9da96adf04f6a", null ],
     [ "EndQuery", "namespace_core_graphics.html#afc81ab052d6121a3473e9c40ebe3d07b", null ],
-    [ "EndSubmission", "namespace_core_graphics.html#a427c9ddaf415cac18beae5deb86a628d", null ],
+    [ "EndSubmission", "namespace_core_graphics.html#a27bcd55e977181cbacdb389b90ab982b", null ],
     [ "EndSubpassCommands", "namespace_core_graphics.html#a275c8e086073904cd14ae794464902e8", null ],
     [ "EventHostReset", "namespace_core_graphics.html#a182739cb7cc2c0838eb7594c5c2bff0b", null ],
     [ "EventHostSignal", "namespace_core_graphics.html#aebbcab43adb5409003e1db0330c353de", null ],
