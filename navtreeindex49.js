@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"debugpacket_8h.html":[10,0,0,3,14,6],
+"debugpacket_8h_source.html":[10,0,0,3,14,6],
 "debugpagehandler_8cc.html":[10,0,0,3,2,8],
 "debugpagehandler_8cc.html#aeb4506e975e73ad7c03ebf15ce96a7b2":[10,0,0,3,2,8,0],
 "debugpagehandler_8h.html":[10,0,0,3,2,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "entity_8cc.html":[10,0,0,1,3,5],
 "entity_8h.html":[10,0,0,1,3,6],
 "entity_8h_source.html":[10,0,0,1,3,6],
-"entitymanager_8cc.html":[10,0,0,1,2,0,2],
-"entitymanager_8cc.html#a2ae7f105bd97b13ae7fc785ec8ee8cc1":[10,0,0,1,2,0,2,5],
-"entitymanager_8cc.html#a323cfdd7d220f83f08fe0a9a8e997a9a":[10,0,0,1,2,0,2,6]
+"entitymanager_8cc.html":[10,0,0,1,2,0,2]
 };

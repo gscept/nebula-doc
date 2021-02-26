@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"namespace_terrain.html#a0c940247f2c70f4958252221dde4416f":[8,0,63,74],
+"namespace_terrain.html#a0d2fa016e0280774e5eab88dfa245cca":[8,0,63,71],
 "namespace_terrain.html#a0f53d8e1c1692c3b1dee32f667864cfd":[8,0,63,51],
 "namespace_terrain.html#a148aa60d45e644ccfc71a3f8ce5de616":[8,0,63,105],
 "namespace_terrain.html#a1aae9501cc96f3b3eee7ac664120d6fa":[8,0,63,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4aa46bb63b7d4a4239070a9a2086e6a9d81":[8,0,69,17,3],
 "namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4aa4e0c092395693efaea96cea78bdd01a9":[8,0,69,17,1],
 "namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4aa61d5d5e9866113265e13a81326354144":[8,0,69,17,0],
-"namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4aa917edc5d8251fb87b0b0a21a1a1be9a2":[8,0,69,17,2],
-"namespace_visibility.html#ab0f4d39e1ef7b9e376271c96ab7eb43d":[8,0,69,22],
-"namespace_visibility.html#ac768cf015c50fa52ea8ff874abeb8880":[8,0,69,15]
+"namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4aa917edc5d8251fb87b0b0a21a1a1be9a2":[8,0,69,17,2]
 };

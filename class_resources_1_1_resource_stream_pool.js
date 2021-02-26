@@ -1,5 +1,6 @@
 var class_resources_1_1_resource_stream_pool =
 [
+    [ "__PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource.html", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource" ],
     [ "_Callbacks", "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html", "struct_resources_1_1_resource_stream_pool_1_1___callbacks" ],
     [ "_LoadMetaData", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data" ],
     [ "_PendingResourceLoad", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load" ],
@@ -12,6 +13,7 @@ var class_resources_1_1_resource_stream_pool =
     [ "Discard", "class_resources_1_1_resource_stream_pool.html#a4389cd8f14920e89d1384b49b66a5084", null ],
     [ "DiscardByTag", "class_resources_1_1_resource_stream_pool.html#af7e175d8904c3a2dc501a1ef3200cc83", null ],
     [ "DiscardResource", "class_resources_1_1_resource_stream_pool.html#a2fc19ec048aa6bd6e0fca6f9a5058514", null ],
+    [ "GetPlaceholder", "class_resources_1_1_resource_stream_pool.html#a6838fe3ceeaeefdf8faa4601abaccb3d", null ],
     [ "LoadFallbackResources", "class_resources_1_1_resource_stream_pool.html#a952222864e7bfdb938e656bb6ac3c0db", null ],
     [ "LoadFromStream", "class_resources_1_1_resource_stream_pool.html#ae5a414a9947dad83b3f32009e7def0f5", null ],
     [ "PrepareLoad", "class_resources_1_1_resource_stream_pool.html#a2a66d7a39db6eef9d29b0202e51e39c4", null ],
@@ -38,6 +40,7 @@ var class_resources_1_1_resource_stream_pool =
     [ "pendingUnloads", "class_resources_1_1_resource_stream_pool.html#a08a92eb56261cb3cf5199feba4309538", null ],
     [ "placeholderResourceId", "class_resources_1_1_resource_stream_pool.html#a5a6c2c470c777fac8219c8ae41c9058c", null ],
     [ "placeholderResourceName", "class_resources_1_1_resource_stream_pool.html#a942b547c5efdba0c509eb2747561d915", null ],
+    [ "placeholders", "class_resources_1_1_resource_stream_pool.html#a248c65525d322fab058be52f7bc4c385", null ],
     [ "streamerThread", "class_resources_1_1_resource_stream_pool.html#a07680df08eb397d9fd64ce4a185fdeef", null ],
     [ "streamerThreadName", "class_resources_1_1_resource_stream_pool.html#a7053618fa3e43e04c3afd2afbe1b1131", null ]
 ];

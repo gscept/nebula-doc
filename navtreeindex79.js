@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_texture_id.html":[9,0,10,94],
+"struct_core_graphics_1_1_texture_map_info.html":[9,0,10,95],
 "struct_core_graphics_1_1_texture_map_info.html#a047dbf04a38915df59a4de87b50cd070":[9,0,10,95,2],
 "struct_core_graphics_1_1_texture_map_info.html#a0a66f2e9df63ea3f1442c57a85bb32ee":[9,0,10,95,1],
 "struct_core_graphics_1_1_texture_map_info.html#a0c053e38c5d3b0aa3a6e42f448d9191d":[9,0,10,95,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_entity_manager_1_1_state.html#ab0e59e000de3bd63f8979fd175db8d24":[9,0,21,3,0,7],
 "struct_game_1_1_entity_manager_1_1_state.html#adf8877a77a5b7a4fc228b4421a599983":[9,0,21,3,0,6],
 "struct_game_1_1_entity_manager_1_1_state.html#afaedf21d4c86045e119df999b2782bc1":[9,0,21,3,0,11],
-"struct_game_1_1_entity_manager_1_1_state_1_1_allocate_instance_command.html":[9,0,21,3,0,0],
-"struct_game_1_1_entity_manager_1_1_state_1_1_allocate_instance_command.html#a6b4f9fb2ae4df074f0203e47d12d6e4b":[9,0,21,3,0,0,0],
-"struct_game_1_1_entity_manager_1_1_state_1_1_allocate_instance_command.html#ab5a9850f075f086e70f1e7b9ac466fcd":[9,0,21,3,0,0,1]
+"struct_game_1_1_entity_manager_1_1_state_1_1_allocate_instance_command.html":[9,0,21,3,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"class_toolkit_util_1_1_posix_app_launcher.html":[9,0,127],
+"class_toolkit_util_1_1_win32_process.html":[9,0,177],
 "class_util_1_1_array.html":[9,0,58,0],
 "class_util_1_1_array.html#a0164800d2472f6df9434de4ffc0c81fe":[9,0,58,0,10],
 "class_util_1_1_array.html#a0199c8533b7fc3a11bc6a94ed94f6a2a":[9,0,58,0,50],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "class_util_1_1_blob.html#a4440c9aaff245a6389ac990cf65b61d6":[9,0,58,7,1],
 "class_util_1_1_blob.html#a4a74d2e6fc37a19790e640388dbe495f":[9,0,58,7,27],
 "class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4":[9,0,58,7,37],
-"class_util_1_1_blob.html#a5886ffccfa2df60f66d2c76f00ceb703":[9,0,58,7,10],
-"class_util_1_1_blob.html#a5f86afa2066cacc9b22f9870c969d4b0":[9,0,58,7,34],
-"class_util_1_1_blob.html#a608f4bf20a9a11c8100768b9c90abfac":[9,0,58,7,19]
+"class_util_1_1_blob.html#a5886ffccfa2df60f66d2c76f00ceb703":[9,0,58,7,10]
 };

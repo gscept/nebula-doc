@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Resources::ResourceStreamPool::__PlaceholderResource", "struct_resources_1_1_resource_stream_pool_1_1_____placeholder_resource.html", null ],
     [ "Resources::ResourceStreamPool::_Callbacks", "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html", null ],
     [ "Resources::ResourceStreamPool::_LoadMetaData", "struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html", null ],
     [ "Resources::ResourceStreamPool::_PendingResourceLoad", "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html", null ],
@@ -570,6 +571,7 @@ var hierarchy =
     [ "Util::FixedArray< Ptr< Input::GamePad > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resource::State >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceId >", "class_util_1_1_fixed_array.html", null ],
+    [ "Util::FixedArray< Resources::ResourceStreamPool::__PlaceholderResource >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceStreamPool::_LoadMetaData >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Resources::ResourceStreamPool::_PendingResourceLoad >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< SizeT >", "class_util_1_1_fixed_array.html", null ],

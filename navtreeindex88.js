@@ -1,5 +1,10 @@
 var NAVTREEINDEX88 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html":[9,0,61,5,29],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a288da843dd94c7db1861d5bb4b22cc9e":[9,0,61,5,29,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a2948cc8aa7e42b436db55bfa433ed5d8":[9,0,61,5,29,2],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a2eb8ce2138c52ee344fe0cae098510c8":[9,0,61,5,29,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a33d517c87baa69d7f159983b426bbf67":[9,0,61,5,29,5],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a3e435867b0cb70abdaea371a3269d15f":[9,0,61,5,29,6],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a86accdb16103259765a2ec49cc27bde3":[9,0,61,5,29,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#aaa64be5754c31a765bc8423333dc42f2":[9,0,61,5,29,8],
@@ -244,10 +249,5 @@ var NAVTREEINDEX88 =
 "struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3":[9,0,61,30,13],
 "struct_vulkan_1_1_vk_texture_load_info.html#aa2a94a5b3a04068af6a467c0c1ec12c2":[9,0,61,30,1],
 "struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff":[9,0,61,30,18],
-"struct_vulkan_1_1_vk_texture_load_info.html#acbac5181f3473b95b1850ac6574e4185":[9,0,61,30,14],
-"struct_vulkan_1_1_vk_texture_load_info.html#aceca399765a426fd0d90aa025a2582a8":[9,0,61,30,2],
-"struct_vulkan_1_1_vk_texture_load_info.html#adc70c09c1f5810a742ec0c46f649f9ed":[9,0,61,30,0],
-"struct_vulkan_1_1_vk_texture_load_info.html#ae98b8b5177440f3c236ed742ca01e8e9":[9,0,61,30,3],
-"struct_vulkan_1_1_vk_texture_load_info.html#afa0d61401ea2178451243167c40eb376":[9,0,61,30,6],
-"struct_vulkan_1_1_vk_texture_mapping_info.html":[9,0,61,32]
+"struct_vulkan_1_1_vk_texture_load_info.html#acbac5181f3473b95b1850ac6574e4185":[9,0,61,30,14]
 };
