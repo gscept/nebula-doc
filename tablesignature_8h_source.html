@@ -165,24 +165,24 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keyword">alignas</span>(16) uint64_t partialMask[2] = { 0, 0 };</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">// offsets start at first values offset</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        uint64_t offset = descriptors[0].id / 128;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        uint64_t prevOffset = offset;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        uint64_t <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a> = descriptors[0].id / 128;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        uint64_t prevOffset = <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="struct_mem_db_1_1_property_id.html">PropertyId</a> i : descriptors)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        {</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(i != PropertyId::Invalid());</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            offset = i.id / 128;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">if</span> (offset != prevOffset)</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a> = i.id / 128;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a> != prevOffset)</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            {</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                <span class="comment">// Write value and reset partial mask</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                *(this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a> + prevOffset) = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                prevOffset = offset;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                prevOffset = <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                memset(&amp;partialMask, 0, <span class="keyword">sizeof</span>(partialMask));</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            uint32_t mod = (i.id % 128);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            partialMask[mod / 64] |= 1ull &lt;&lt; mod;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        *(this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a> + offset) = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        *(this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a> + <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>) = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    {</div>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_table_signature.html#afd6cb76b3ae434014d8edc52a16600d5">  149</a></span>&#160;<a class="code" href="class_mem_db_1_1_table_signature.html#a2d59117c81b07f84190289549ec6ab40">TableSignature::TableSignature</a>(<a class="code" href="class_mem_db_1_1_table_signature.html">TableSignature</a> <span class="keyword">const</span>&amp; rhs) :</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    size(rhs.size)</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>(rhs.<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;{</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a> &gt; 0)</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    {</div>
@@ -240,7 +240,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment"></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <span class="keyword">const</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_table_signature.html#a3c9af9e169dd250f4c778f3662c4de0e">  199</a></span>&#160;<a class="code" href="class_mem_db_1_1_table_signature.html#a3c9af9e169dd250f4c778f3662c4de0e">TableSignature::IsSet</a>(<a class="code" href="struct_mem_db_1_1_property_id.html">PropertyId</a> pid)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">int</span> offset = pid.id / 128;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a> = pid.id / 128;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span> (offset &lt; this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a>)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keyword">alignas</span>(16) uint64_t partialMask[2] = { 0, 0 };</div>
@@ -258,13 +258,13 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="comment"></span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
 <div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">  219</a></span>&#160;<a class="code" href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">TableSignature::FlipBit</a>(<a class="code" href="struct_mem_db_1_1_property_id.html">PropertyId</a> pid)</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;{</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">int</span> offset = pid.id / 128;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a> = pid.id / 128;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(offset &lt; this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a29af7e8eac07f32f82f8e8c8eade329d">size</a>); <span class="comment">// currently, we can&#39;t flip a bit that is outside the signatures size.</span></div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keyword">alignas</span>(16) uint64_t partialMask[2] = { 0, 0 };</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    uint64_t bit = pid.id % 128;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    partialMask[bit / 64] |= 1ull &lt;&lt; bit;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    __m128i temp = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset] = _mm_and_si128(this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset], temp);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[<a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>] = _mm_and_si128(this-&gt;<a class="code" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset], temp);</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -373,6 +373,8 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="ttc" id="anamespace_memory_html_a302b8099d0bbcc9bccfd578814e5b4f3"><div class="ttname"><a href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a></div><div class="ttdeci">void * Alloc(HeapType heapType, size_t size, size_t alignment)</div><div class="ttdoc">Allocate a block of memory from one of the global heaps.</div><div class="ttdef"><b>Definition:</b> osxmemory.cc:56</div></div>
 <div class="ttc" id="anamespace_memory_html_a6055e491858cd969e93326d9b3e4b420"><div class="ttname"><a href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a></div><div class="ttdeci">void Free(HeapType heapType, void *ptr)</div><div class="ttdoc">Free a block of memory.</div><div class="ttdef"><b>Definition:</b> osxmemory.cc:136</div></div>
 <div class="ttc" id="anamespace_memory_html_a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71"><div class="ttname"><a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a></div><div class="ttdeci">@ ObjectHeap</div><div class="ttdef"><b>Definition:</b> osxmemoryconfig.h:27</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a8a5b70ae32b02bef6962b3bbd5008067"><div class="ttname"><a href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">PostEffects::offset</a></div><div class="ttdeci">Math::float2 offset</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="apropertyid_8h_html"><div class="ttname"><a href="propertyid_8h.html">propertyid.h</a></div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
@@ -386,7 +388,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="tablesignature_8h.html">tablesignature.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

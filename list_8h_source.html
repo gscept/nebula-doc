@@ -428,12 +428,12 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="line"><a name="l00452"></a><span class="lineno"><a class="line" href="class_util_1_1_list.html#afd6c58a0090a53dc497fde24197f0048">  452</a></span>&#160;<a class="code" href="class_util_1_1_list.html#afd6c58a0090a53dc497fde24197f0048">List&lt;TYPE&gt;::Size</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <a class="code" href="class_util_1_1_list_1_1_iterator.html">Iterator</a> iter;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size = 0;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = 0;</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordflow">for</span> (iter = this-&gt;Begin(); iter != this-&gt;<a class="code" href="namespace_im3d.html#a16976e802214d9f51d2dc5c4b90b68b6">End</a>(); ++iter)</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    {</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        size++;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>++;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    }</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <span class="keywordflow">return</span> size;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>;</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;}</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160; </div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -696,6 +696,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition:</b> debug.h:49</div></div>
 <div class="ttc" id="anamespace_im3d_html_a16976e802214d9f51d2dc5c4b90b68b6"><div class="ttname"><a href="namespace_im3d.html#a16976e802214d9f51d2dc5c4b90b68b6">Im3d::End</a></div><div class="ttdeci">IM3D_API void End()</div><div class="ttdef"><b>Definition:</b> im3d.h:807</div></div>
 <div class="ttc" id="anamespace_memory_html_ad8504a1916282a835f1e16e3912e4c87"><div class="ttname"><a href="namespace_memory.html#ad8504a1916282a835f1e16e3912e4c87">Memory::Clear</a></div><div class="ttdeci">void Clear(void *ptr, size_t numBytes)</div><div class="ttdoc">Overwrite a chunk of memory with 0's.</div><div class="ttdef"><b>Definition:</b> osxmemory.cc:229</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">Tuple helper functions and typedefs.</div><div class="ttdef"><b>Definition:</b> array.h:38</div></div>
 <div class="ttc" id="aosxmemory_8h_html_a300669d394130c8ecfa940a1138f3f77"><div class="ttname"><a href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a></div><div class="ttdeci">#define n_delete(ptr)</div><div class="ttdef"><b>Definition:</b> osxmemory.h:115</div></div>
 <div class="ttc" id="aosxmemory_8h_html_a51c2e4de1ee6fbd34ba914d85503008b"><div class="ttname"><a href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a></div><div class="ttdeci">#define n_new(type)</div><div class="ttdef"><b>Definition:</b> osxmemory.h:113</div></div>
@@ -708,7 +709,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="list_8h.html">list.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -790,6 +790,7 @@ var annotated_dup =
     ] ],
     [ "PostEffects", "namespace_post_effects.html", [
       [ "BloomContext", "class_post_effects_1_1_bloom_context.html", "class_post_effects_1_1_bloom_context" ],
+      [ "HistogramContext", "class_post_effects_1_1_histogram_context.html", "class_post_effects_1_1_histogram_context" ],
       [ "SSAOContext", "class_post_effects_1_1_s_s_a_o_context.html", "class_post_effects_1_1_s_s_a_o_context" ],
       [ "SSRContext", "class_post_effects_1_1_s_s_r_context.html", "class_post_effects_1_1_s_s_r_context" ],
       [ "TonemapContext", "class_post_effects_1_1_tonemap_context.html", "class_post_effects_1_1_tonemap_context" ]

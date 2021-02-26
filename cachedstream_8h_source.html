@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('cachedstream_8h_source.html',''); init
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_i_o_1_1_cached_stream.html#ad9790ced50b4ffcccb237f044fa4806d">Open</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_i_o_1_1_cached_stream.html#a5c4b29990739260bd7fa8ee8285ea1b7">Close</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a> <a class="code" href="class_i_o_1_1_cached_stream.html#a57987ce8a0c90f727640871646a7c26f">Read</a>(<span class="keywordtype">void</span>* ptr, <a class="code" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a> numBytes);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_i_o_1_1_cached_stream.html#a630e53583e69b336b1a51885dad160d7">Seek</a>(<a class="code" href="class_i_o_1_1_stream.html#afae972c99743017844bca86c4bd85f18">Offset</a> offset, <a class="code" href="class_i_o_1_1_stream.html#a0cb62c5f7ee6d4f0a39cbdd14a535f65">SeekOrigin</a> origin);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_i_o_1_1_cached_stream.html#a630e53583e69b336b1a51885dad160d7">Seek</a>(<a class="code" href="class_i_o_1_1_stream.html#afae972c99743017844bca86c4bd85f18">Offset</a> <a class="code" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>, <a class="code" href="class_i_o_1_1_stream.html#a0cb62c5f7ee6d4f0a39cbdd14a535f65">SeekOrigin</a> origin);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_i_o_1_1_cached_stream.html#a6bfed73ca91234df7f11e0f46338dd74">Eof</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="class_i_o_1_1_cached_stream.html#a0617b3e5b6f0906d18f60fa923ee0c35">Map</a>();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="class_i_o_1_1_cached_stream.html#a3f22791c03c049e23023eba8d6825d20">MemoryMap</a>();</div>
@@ -162,6 +162,7 @@ $(document).ready(function(){initNavTree('cachedstream_8h_source.html',''); init
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr&lt; IO::Stream &gt;</a></div></div>
 <div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
 <div class="ttc" id="anamespace_i_o_html"><div class="ttname"><a href="namespace_i_o.html">IO</a></div><div class="ttdoc">Instances of wrapped stream classes.</div><div class="ttdef"><b>Definition:</b> archive.cc:10</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a8a5b70ae32b02bef6962b3bbd5008067"><div class="ttname"><a href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">PostEffects::offset</a></div><div class="ttdeci">Math::float2 offset</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="astream_8h_html"><div class="ttname"><a href="stream_8h.html">stream.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -170,7 +171,7 @@ $(document).ready(function(){initNavTree('cachedstream_8h_source.html',''); init
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_7c169f8df77f58a66e45d7cf19b28cb2.html">io</a></li><li class="navelem"><a class="el" href="dir_64c0b1c975bef3e35e24ab10d638de49.html">cache</a></li><li class="navelem"><a class="el" href="cachedstream_8h.html">cachedstream.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

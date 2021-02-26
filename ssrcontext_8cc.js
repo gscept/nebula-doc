@@ -10,7 +10,7 @@ var ssrcontext_8cc =
     [ "resolveShader", "ssrcontext_8cc.html#a80e7a1143707bddc9e501635e8b5090b", null ],
     [ "resolveTraceBufferSlot", "ssrcontext_8cc.html#ade6d590575d124632de6fac8f560aee1", null ],
     [ "ssrResolveTables", "ssrcontext_8cc.html#a401edc6b9999409d272051166c189acc", null ],
-    [ "ssrState", "ssrcontext_8cc.html#a149b388487d8f120a9735f441cd127bc", null ],
+    [ "ssrState", "ssrcontext_8cc.html#a1cb846e18ef85584418a3c26cce8f5b6", null ],
     [ "ssrTraceTables", "ssrcontext_8cc.html#a2690962794023f994077e5a9d690b880", null ],
     [ "traceBuffer", "ssrcontext_8cc.html#a1a31a21d87272a9e71afe31c5a977a97", null ],
     [ "traceBufferSlot", "ssrcontext_8cc.html#a2db892108c4aef730f396a5a7fd806ff", null ],

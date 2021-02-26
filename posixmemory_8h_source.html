@@ -108,16 +108,16 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"></span>__forceinline <span class="keywordtype">void</span>*</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespace_memory.html#a24993fac616060d0f19f14d43fc27103">   34</a></span>&#160;<a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, <span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespace_memory.html#a24993fac616060d0f19f14d43fc27103">   34</a></span>&#160;<a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, <span class="keywordtype">size_t</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(heapType &lt; <a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span>* allocPtr = 0;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="comment">// XXX: n_assert(0 != Heaps[heapType]);</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">// allocPtr =  HeapAlloc(Heaps[heapType], HEAP_GENERATE_EXCEPTIONS, size);</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        allocPtr = memalign(16,size);        </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        allocPtr = memalign(16,<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);        </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        #if NEBULA_DEBUG</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        explicit_bzero(allocPtr,size);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        explicit_bzero(allocPtr,<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"></span>__forceinline <span class="keywordtype">void</span>*</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<a class="code" href="namespace_memory.html#a66c839285702633f8178be0224273a14">Realloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, <span class="keywordtype">void</span>* ptr, <span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<a class="code" href="namespace_memory.html#a66c839285702633f8178be0224273a14">Realloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, <span class="keywordtype">void</span>* ptr, <span class="keywordtype">size_t</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// XXX: n_assert((heapType &lt; NumHeapTypes) &amp;&amp; (0 != Heaps[heapType]));</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(heapType &lt; <a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>);</div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        SIZE_T oldSize = HeapSize(<a class="code" href="namespace_memory.html#af9280f6da84132a1ac13d132c35cba90">Heaps</a>[heapType], 0, ptr);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// void* allocPtr = HeapReAlloc(Heaps[heapType], HEAP_GENERATE_EXCEPTIONS, ptr, size);</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span>* allocPtr = realloc(ptr, size);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span>* allocPtr = realloc(ptr, <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        SIZE_T newSize = HeapSize(<a class="code" href="namespace_memory.html#af9280f6da84132a1ac13d132c35cba90">Heaps</a>[heapType], 0, allocPtr);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        Threading::Interlocked::Add(<a class="code" href="namespace_memory.html#a1905ca63007c1a28f70bfdd3ad717427">TotalAllocSize</a>, <span class="keywordtype">int</span>(newSize - oldSize));</div>
@@ -158,20 +158,20 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(heapType &lt; <a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">        #if NEBULA_MEMORY_STATS</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            SIZE_T size = 0;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            SIZE_T <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = 0;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">        #endif    </span></div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        {</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="comment">// XXX: n_assert(0 != Heaps[heapType]);</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">            #if NEBULA_MEMORY_STATS</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                size = HeapSize(<a class="code" href="namespace_memory.html#af9280f6da84132a1ac13d132c35cba90">Heaps</a>[heapType], 0, ptr);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = HeapSize(<a class="code" href="namespace_memory.html#af9280f6da84132a1ac13d132c35cba90">Heaps</a>[heapType], 0, ptr);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">            #endif</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="comment">// HeapFree(Heaps[heapType], 0, ptr);</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            free(ptr);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">        #if NEBULA_MEMORY_STATS</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            Threading::Interlocked::Add(<a class="code" href="namespace_memory.html#a1905ca63007c1a28f70bfdd3ad717427">TotalAllocSize</a>, -<span class="keywordtype">int</span>(size));</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            Threading::Interlocked::Add(<a class="code" href="namespace_memory.html#a1905ca63007c1a28f70bfdd3ad717427">TotalAllocSize</a>, -<span class="keywordtype">int</span>(<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>));</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            Threading::Interlocked::Decrement(<a class="code" href="namespace_memory.html#a22db429734eafa34e0a11a9024a97a08">TotalAllocCount</a>);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            Threading::Interlocked::Add(<a class="code" href="namespace_memory.html#a5c716011c35bc95c6462f9289163f748">HeapTypeAllocSize</a>[heapType], -<span class="keywordtype">int</span>(size));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            Threading::Interlocked::Add(<a class="code" href="namespace_memory.html#a5c716011c35bc95c6462f9289163f748">HeapTypeAllocSize</a>[heapType], -<span class="keywordtype">int</span>(<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>));</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            Threading::Interlocked::Decrement(<a class="code" href="namespace_memory.html#a4f05b0dffadc15f46b2db37a2b3c9240">HeapTypeAllocCount</a>[heapType]);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
@@ -313,16 +313,16 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment"></span>__forceinline <span class="keywordtype">void</span>*</div>
-<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="posixmemory_8h.html#a2f8de464c98255a98cb0655fdecd642b">  283</a></span>&#160;__cdecl <span class="keyword">operator</span> <span class="keyword">new</span>(<span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="posixmemory_8h.html#a2f8de464c98255a98cb0655fdecd642b">  283</a></span>&#160;__cdecl <span class="keyword">operator</span> <span class="keyword">new</span>(<span class="keywordtype">size_t</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, size);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"></span>__forceinline <span class="keywordtype">void</span>*</div>
-<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="posixmemory_8h.html#a032bffd0cdbe3a8e4523eae50d99033e">  293</a></span>&#160;__cdecl <span class="keyword">operator</span> <span class="keyword">new</span>[](<span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="posixmemory_8h.html#a032bffd0cdbe3a8e4523eae50d99033e">  293</a></span>&#160;__cdecl <span class="keyword">operator</span> <span class="keyword">new</span>[](<span class="keywordtype">size_t</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;{</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, size);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;}</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -374,6 +374,7 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 <div class="ttc" id="anamespace_memory_html_ad3881f3155d64563b618c89b3ea66a14"><div class="ttname"><a href="namespace_memory.html#ad3881f3155d64563b618c89b3ea66a14">Memory::CopyToGraphicsMemory</a></div><div class="ttdeci">__forceinline void CopyToGraphicsMemory(const void *from, void *to, size_t numBytes)</div><div class="ttdoc">Copy data from a system memory buffer to graphics resource memory.</div><div class="ttdef"><b>Definition:</b> posixmemory.h:165</div></div>
 <div class="ttc" id="anamespace_memory_html_ad8504a1916282a835f1e16e3912e4c87"><div class="ttname"><a href="namespace_memory.html#ad8504a1916282a835f1e16e3912e4c87">Memory::Clear</a></div><div class="ttdeci">void Clear(void *ptr, size_t numBytes)</div><div class="ttdoc">Overwrite a chunk of memory with 0's.</div><div class="ttdef"><b>Definition:</b> osxmemory.cc:229</div></div>
 <div class="ttc" id="anamespace_memory_html_af9280f6da84132a1ac13d132c35cba90"><div class="ttname"><a href="namespace_memory.html#af9280f6da84132a1ac13d132c35cba90">Memory::Heaps</a></div><div class="ttdeci">malloc_zone_t * Heaps[NumHeapTypes]</div><div class="ttdoc">Heap pointers are defined here.</div><div class="ttdef"><b>Definition:</b> osxmemoryconfig.cc:12</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="aposixmemoryconfig_8h_html"><div class="ttname"><a href="posixmemoryconfig_8h.html">posixmemoryconfig.h</a></div><div class="ttdoc">Central config file for memory setup on the Posix platform.</div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
 <div class="ttc" id="astruct_memory_1_1_total_memory_status_html_a43a7974dc36d1e380186435a9a1b5faa"><div class="ttname"><a href="struct_memory_1_1_total_memory_status.html#a43a7974dc36d1e380186435a9a1b5faa">Memory::TotalMemoryStatus::totalVirtual</a></div><div class="ttdeci">unsigned int totalVirtual</div><div class="ttdef"><b>Definition:</b> osxmemory.h:55</div></div>
@@ -387,7 +388,7 @@ $(document).ready(function(){initNavTree('posixmemory_8h_source.html',''); initR
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="dir_80f14fc2f23c119c66a6dd40ada12f99.html">posix</a></li><li class="navelem"><a class="el" href="posixmemory_8h.html">posixmemory.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

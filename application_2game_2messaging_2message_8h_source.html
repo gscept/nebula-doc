@@ -276,8 +276,8 @@ $(document).ready(function(){initNavTree('application_2game_2messaging_2message_
 <div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="class_game_1_1_message.html#a0f948fde0018bd5d5a03cace146378a7">  247</a></span>&#160;<a class="code" href="class_game_1_1_message.html#a0f948fde0018bd5d5a03cace146378a7">Message&lt;MSG, TYPES...&gt;::Send</a>(TYPES ... values)</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;{</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keyword">auto</span> instance = Instance();</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size = instance-&gt;callbacks.Size();</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; size; ++i)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = instance-&gt;callbacks.Size();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; ++i)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="comment">// n_assert(instance-&gt;callbacks.Get&lt;1&gt;(i).GetObject() != nullptr);</span></div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        instance-&gt;callbacks.Get&lt;1&gt;(i)(values...);</div>
@@ -326,12 +326,12 @@ $(document).ready(function(){initNavTree('application_2game_2messaging_2message_
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160; </div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keyword">auto</span>&amp; data = instance-&gt;messageQueues[<a class="code" href="namespace_ids.html#ae7d568c7d188886827c49b06363e48b1">Ids::Index</a>(<span class="keywordtype">id</span>.<span class="keywordtype">id</span>)];</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size = data.Size();</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = data.Size();</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> cidSize = instance-&gt;callbacks.Size();</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> cid = 0; cid &lt; cidSize; ++cid)</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    {</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; size; i++)</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        {</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            instance-&gt;send_expander(data, cid, i);</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        }</div>
@@ -374,8 +374,8 @@ $(document).ready(function(){initNavTree('application_2game_2messaging_2message_
 <div class="line"><a name="l00356"></a><span class="lineno"><a class="line" href="class_game_1_1_message.html#ad4b9ef394af2231f04b3fcf3221523af">  356</a></span>&#160;<a class="code" href="class_game_1_1_message.html#ad4b9ef394af2231f04b3fcf3221523af">Message&lt;MSG, TYPES...&gt;::DeregisterAll</a>()</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;{</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keyword">auto</span> instance = Instance();</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size = instance-&gt;callbacks.Size();</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; size; i++)</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = instance-&gt;callbacks.Size();</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> i = 0; i &lt; <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    {</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        instance-&gt;listenerPool.Deallocate((instance-&gt;callbacks.template Get&lt;0&gt;(i)).id);</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    }</div>
@@ -449,6 +449,7 @@ $(document).ready(function(){initNavTree('application_2game_2messaging_2message_
 <div class="ttc" id="aids_2id_8h_html_a4235c5ac56c4d81970d369dcae60c903"><div class="ttname"><a href="ids_2id_8h.html#a4235c5ac56c4d81970d369dcae60c903">ID_32_TYPE</a></div><div class="ttdeci">#define ID_32_TYPE(x)</div><div class="ttdef"><b>Definition:</b> id.h:16</div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition:</b> blueprintmanager.cc:14</div></div>
 <div class="ttc" id="anamespace_ids_html_ae7d568c7d188886827c49b06363e48b1"><div class="ttname"><a href="namespace_ids.html#ae7d568c7d188886827c49b06363e48b1">Ids::Index</a></div><div class="ttdeci">static Id24 Index(const Id32 id)</div><div class="ttdef"><b>Definition:</b> idgenerationpool.h:71</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="astruct_game_1_1_message_1_1_message_queue_id_html"><div class="ttname"><a href="struct_game_1_1_message_1_1_message_queue_id.html">Game::Message::MessageQueueId</a></div><div class="ttdef"><b>Definition:</b> message.h:84</div></div>
@@ -466,7 +467,7 @@ $(document).ready(function(){initNavTree('application_2game_2messaging_2message_
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="dir_15a045561dd795ec4d91bb333d1eba8d.html">messaging</a></li><li class="navelem"><a class="el" href="application_2game_2messaging_2message_8h.html">message.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

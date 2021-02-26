@@ -10,6 +10,6 @@ var tonemapcontext_8cc =
     [ "program", "tonemapcontext_8cc.html#a1eea4993533625ed5833366ed7180c6c", null ],
     [ "shader", "tonemapcontext_8cc.html#abd2dd6d2ae97960dadcbf363848833f6", null ],
     [ "timevar", "tonemapcontext_8cc.html#aed4734402c78f41a03a6264045e135a7", null ],
-    [ "tonemapState", "tonemapcontext_8cc.html#a8b4b8d512809d4c9519dd8672a8ff9ab", null ],
+    [ "tonemapState", "tonemapcontext_8cc.html#a80e8e826c39899e522e543abefbe2ab6", null ],
     [ "tonemapTable", "tonemapcontext_8cc.html#a548744698a1bfac1e1809d86558aa38f", null ]
 ];

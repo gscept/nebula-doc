@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    hashArray(TABLE_SIZE),</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    bulkDirty(TABLE_SIZE),</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    inBulkAdd(false),</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    size(0)</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>(0)</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;{</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="comment">// empty</span></div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
@@ -247,7 +247,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    hashArray(rhs.hashArray),</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    bulkDirty(rhs.bulkDirty),</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    inBulkAdd(rhs.inBulkAdd),</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    size(rhs.size)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>(rhs.<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;{</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="comment">// empty</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;}</div>
@@ -258,7 +258,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    hashArray(std::move(rhs.hashArray)),</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    bulkDirty(rhs.bulkDirty),</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    inBulkAdd(rhs.inBulkAdd),</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    size(rhs.size)</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>(rhs.<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;{</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    rhs.size = 0;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;}</div>
@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    {</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        this-&gt;hashArray = rhs.<a class="code" href="class_util_1_1_hash_table.html#a6e435c7f9dfb53a75a7385095c67596b">hashArray</a>;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        this-&gt;bulkDirty = rhs.<a class="code" href="class_util_1_1_hash_table.html#a499477574127bc7ee998108de83025b7">bulkDirty</a>;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        this-&gt;size = rhs.<a class="code" href="class_util_1_1_hash_table.html#a5a937f3e527459af2493b54eeee94f4c">size</a>;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = rhs.<a class="code" href="class_util_1_1_hash_table.html#a5a937f3e527459af2493b54eeee94f4c">size</a>;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
@@ -285,7 +285,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    {</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        this-&gt;hashArray = std::move(rhs.hashArray);</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        this-&gt;bulkDirty = rhs.bulkDirty;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        this-&gt;size = rhs.size;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = rhs.size;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        rhs.size = 0;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
@@ -325,7 +325,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
 <div class="line"><a name="l00324"></a><span class="lineno"><a class="line" href="class_util_1_1_hash_table.html#a679b7a7e7adef24aa588682086f12212">  324</a></span>&#160;<a class="code" href="class_util_1_1_hash_table.html#a679b7a7e7adef24aa588682086f12212">HashTable&lt;KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE&gt;::Size</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> this-&gt;size;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -347,7 +347,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    {</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        this-&gt;hashArray[i].Clear();</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    this-&gt;size = 0;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = 0;</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;}</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    {</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        this-&gt;hashArray[i].Reset();</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    }</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    this-&gt;size = 0;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = 0;</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;}</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160; </div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="keywordtype">bool</span></div>
 <div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="class_util_1_1_hash_table.html#a6af17cb14cdf86de4caa637b945fdc5d">  376</a></span>&#160;<a class="code" href="class_util_1_1_hash_table.html#a6af17cb14cdf86de4caa637b945fdc5d">HashTable&lt;KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE&gt;::IsEmpty</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">return</span> (0 == this-&gt;size);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">return</span> (0 == this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;}</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160; </div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -409,7 +409,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        ret = this-&gt;hashArray[hashIndex].InsertSorted(kvp);</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160; </div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    this-&gt;size++;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>++;</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
@@ -491,7 +491,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;{</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="preprocessor">    #if NEBULA_BOUNDSCHECKS</span></div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(!this-&gt;inBulkAdd);</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;size &gt; 0);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> &gt; 0);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    uint32_t hashIndex = GetHashCode&lt;KEYTYPE&gt;(key);</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <a class="code" href="class_util_1_1_array_stack.html">ArrayStack&lt;KeyValuePair&lt;KEYTYPE, VALUETYPE&gt;</a>, STACK_SIZE&gt;&amp; hashElements = this-&gt;hashArray[hashIndex];</div>
@@ -500,7 +500,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a> != hashElementIndex); <span class="comment">// key doesn&#39;t exist</span></div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    hashElements.<a class="code" href="class_util_1_1_array_stack.html#a7ef691cba5741b53bf292aeb632d6d42">EraseIndex</a>(hashElementIndex);</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    this-&gt;size--;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>--;</div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;}</div>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -509,7 +509,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00533"></a><span class="lineno"><a class="line" href="class_util_1_1_hash_table.html#ac42e6f252e4051410d5e0fccbc974ca3">  533</a></span>&#160;<a class="code" href="class_util_1_1_hash_table.html#ac42e6f252e4051410d5e0fccbc974ca3">HashTable&lt;KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE&gt;::EraseIndex</a>(<span class="keyword">const</span> KEYTYPE&amp; key, <span class="keyword">const</span> <a class="code" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;{</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;<span class="preprocessor">#if NEBULA_BOUNDSCHECKS</span></div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;size &gt; 0);</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> &gt; 0);</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    uint32_t hashIndex = GetHashCode&lt;KEYTYPE&gt;(key);</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <a class="code" href="class_util_1_1_array_stack.html">ArrayStack&lt;KeyValuePair&lt;KEYTYPE, VALUETYPE&gt;</a>, STACK_SIZE&gt;&amp; hashElements = this-&gt;hashArray[hashIndex];</div>
@@ -517,7 +517,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a> != index); <span class="comment">// key doesn&#39;t exist</span></div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;    hashElements.<a class="code" href="class_util_1_1_array_stack.html#a7ef691cba5741b53bf292aeb632d6d42">EraseIndex</a>(index);</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    this-&gt;size--;</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>--;</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;}</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160; </div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -525,7 +525,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;<span class="keywordtype">bool</span></div>
 <div class="line"><a name="l00552"></a><span class="lineno"><a class="line" href="class_util_1_1_hash_table.html#ab7ba7a1b06b0faad12c66b5e513c7710">  552</a></span>&#160;<a class="code" href="class_util_1_1_hash_table.html#ab7ba7a1b06b0faad12c66b5e513c7710">HashTable&lt;KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE&gt;::Contains</a>(<span class="keyword">const</span> KEYTYPE&amp; key)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="keywordflow">if</span> (this-&gt;size &gt; 0)</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="keywordflow">if</span> (this-&gt;<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> &gt; 0)</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    {</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        uint32_t hashIndex = GetHashCode&lt;KEYTYPE&gt;(key);</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <a class="code" href="class_util_1_1_array_stack.html">ArrayStack&lt;KeyValuePair&lt;KEYTYPE, VALUETYPE&gt;</a>, STACK_SIZE&gt;&amp; hashElements = this-&gt;hashArray[hashIndex];</div>
@@ -707,6 +707,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 <div class="ttc" id="afixedarray_8h_html"><div class="ttname"><a href="fixedarray_8h.html">fixedarray.h</a></div></div>
 <div class="ttc" id="akeyvaluepair_8h_html"><div class="ttname"><a href="keyvaluepair_8h.html">keyvaluepair.h</a></div></div>
 <div class="ttc" id="anamespace_im3d_html_ae232108477a95ef85b9ad9da9618c850"><div class="ttname"><a href="namespace_im3d.html#ae232108477a95ef85b9ad9da9618c850">Im3d::Key</a></div><div class="ttdeci">Key</div><div class="ttdef"><b>Definition:</b> im3d.h:477</div></div>
+<div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:35</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">Tuple helper functions and typedefs.</div><div class="ttdef"><b>Definition:</b> array.h:38</div></div>
 <div class="ttc" id="ascalar_8h_html"><div class="ttname"><a href="scalar_8h.html">scalar.h</a></div><div class="ttdoc">Nebula's scalar datatype.</div></div>
 <div class="ttc" id="atypes_8h_html_a3e2ae2e8cd04c212563dafc16149995c"><div class="ttname"><a href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a></div><div class="ttdeci">static const int InvalidIndex</div><div class="ttdef"><b>Definition:</b> types.h:54</div></div>
@@ -719,7 +720,7 @@ $(document).ready(function(){initNavTree('hashtable_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="hashtable_8h.html">hashtable.h</a></li>
 				<li class="footer">
-					Generated on Fri Feb 26 2021 10:47:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 26 2021 13:21:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
