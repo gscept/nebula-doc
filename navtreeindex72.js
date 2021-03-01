@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"ptr_8h.html":[10,0,0,3,1,13],
+"ptr_8h_source.html":[10,0,0,3,1,13],
+"pythonserver_8cc.html":[10,0,0,0,6,0,3],
+"pythonserver_8cc.html#a2c27daa28856b01f1dd63550aa1780b9":[10,0,0,0,6,0,3,2],
+"pythonserver_8cc.html#a8a1e02b963f9a1d549759a7be330700a":[10,0,0,0,6,0,3,1],
+"pythonserver_8cc.html#a9f918755b601cf4bffca775992e6fb90":[10,0,0,0,6,0,3,0],
+"pythonserver_8h.html":[10,0,0,0,6,0,4],
+"pythonserver_8h_source.html":[10,0,0,0,6,0,4],
 "quadtree_8h.html":[10,0,0,3,19,31],
 "quadtree_8h_source.html":[10,0,0,3,19,31],
 "quadtreesystem_8cc.html":[10,0,0,5,24,0,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a349de41576db40e07ccf806c4edff001":[10,0,0,5,5,18,25,2],
 "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a429a14021402d42e1831d86f3678a8b9":[10,0,0,5,5,18,25,7],
 "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a933b895dda759e0edfb669a478ccab8f":[10,0,0,5,5,18,25,4],
-"render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aa129c3260889ada080be7322741a22ce":[10,0,0,5,5,18,25,3],
-"render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aca62b07063d9b6bee314bc9926913d29":[10,0,0,5,5,18,25,8],
-"render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1ad60048a0414e229a14b883d760c00f92":[10,0,0,5,5,18,25,5],
-"render_2coregraphics_2config_8h.html#a80e35fb7232a43d8ec75fb706876ace6":[10,0,0,5,5,18,28],
-"render_2coregraphics_2config_8h.html#a8ee51c4a116c475c08ebc09d79a63858":[10,0,0,5,5,18,3],
-"render_2coregraphics_2config_8h.html#a962240abea295adbe80c2ac9d0eece4e":[10,0,0,5,5,18,8],
-"render_2coregraphics_2config_8h.html#ab118b0c24002cd08659264573b8824b5":[10,0,0,5,5,18,2],
-"render_2coregraphics_2config_8h.html#ab5cfe695e6b16268198322103afe7e61":[10,0,0,5,5,18,6],
-"render_2coregraphics_2config_8h.html#ab91289434c2c4de83ad930c0d92932d3":[10,0,0,5,5,18,11]
+"render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aa129c3260889ada080be7322741a22ce":[10,0,0,5,5,18,25,3]
 };

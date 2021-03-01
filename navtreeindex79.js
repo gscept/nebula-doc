@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377":[9,0,10,99,0],
+"struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d":[9,0,10,99,20],
+"struct_core_graphics_1_1_texture_create_info.html#a8cfdb013e2d92f59b3ce72849b99cd25":[9,0,10,99,9],
+"struct_core_graphics_1_1_texture_create_info.html#aac86f4df42cb0f9156a7e09bc4ec19e7":[9,0,10,99,11],
+"struct_core_graphics_1_1_texture_create_info.html#ab9b94c66ec1ab9caafaeb279df28dd41":[9,0,10,99,15],
+"struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259":[9,0,10,99,6],
+"struct_core_graphics_1_1_texture_create_info.html#aca0ef718f7cfa8ceb2ed1e24cdd064ea":[9,0,10,99,10],
+"struct_core_graphics_1_1_texture_create_info.html#aeb9972ff2e181f5e4424bac285ed97bb":[9,0,10,99,12],
 "struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6":[9,0,10,99,1],
 "struct_core_graphics_1_1_texture_create_info_adjusted.html":[9,0,10,100],
 "struct_core_graphics_1_1_texture_create_info_adjusted.html#a06dea615a63bab2363d9d57ef9f4e3e4":[9,0,10,100,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_category.html#a33647549b969b7bc44cbc6d149e6253d":[9,0,21,14,1],
 "struct_game_1_1_category.html#a81bf2be6b1e56587ae50ab2d5835f5d0":[9,0,21,14,0],
 "struct_game_1_1_category.html#ac2e9304a7fc6151c20181f8dcf820bc3":[9,0,21,14,2],
-"struct_game_1_1_category_create_info.html":[9,0,21,15],
-"struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4":[9,0,21,15,0],
-"struct_game_1_1_category_create_info.html#abf7c7853e40868d82744252c7abc7683":[9,0,21,15,1],
-"struct_game_1_1_category_hash.html":[9,0,21,13],
-"struct_game_1_1_category_hash.html#a13135e08a434b533c81504f4db4ec47a":[9,0,21,13,4],
-"struct_game_1_1_category_hash.html#a280c13af286b59d340c5e8191ff562fe":[9,0,21,13,5],
-"struct_game_1_1_category_hash.html#a783610561fe1347805f534f6ddd62d3f":[9,0,21,13,1],
-"struct_game_1_1_category_hash.html#a7bb2f365aa3795c62b6c683c6081bdb0":[9,0,21,13,7],
-"struct_game_1_1_category_hash.html#a7cd6c4c561503582f5ffc95043f2f150":[9,0,21,13,9]
+"struct_game_1_1_category_create_info.html":[9,0,21,15]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"namespace_math.html#a13a8a588954889171fa4737c71752f04":[8,0,39,261],
+"namespace_math.html#a1448640f34330f096cdda3089c9f3a7e":[8,0,39,73],
+"namespace_math.html#a147ea782a66f4079eb02dc80ea4d2e99":[8,0,39,74],
+"namespace_math.html#a149b1a0c5da30db4c59f729b478db844":[8,0,39,297],
 "namespace_math.html#a14ff96a1c7faf0f65281e1b3bb9cc5f5":[8,0,39,84],
 "namespace_math.html#a167fbe6f9ac494964e4cfd6994b7d47e":[8,0,39,75],
 "namespace_math.html#a1792826686222514ef44da958bebe7bc":[8,0,39,157],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "namespace_math.html#af10069fc43b109aaa98814087f3c1178":[8,0,39,46],
 "namespace_math.html#af117fbd60f5cfaab6776a775d81de8ae":[8,0,39,176],
 "namespace_math.html#af1b234b51cca87e1e7a24d94bff4fe3a":[8,0,39,237],
-"namespace_math.html#af247ff82218f51e8e93f6d6a2d87ebc0":[8,0,39,194],
-"namespace_math.html#af26078392670d9eb3bc6bfb843eed313":[8,0,39,250],
-"namespace_math.html#af4878073465cb27592baa0fb77c3bcb8":[8,0,39,95],
-"namespace_math.html#af4e635c7c8a30ccf39f7e9c75d84e739":[8,0,39,290],
-"namespace_math.html#af55964a2bd2ee7f6513cb2bed8fc6f42":[8,0,39,55]
+"namespace_math.html#af247ff82218f51e8e93f6d6a2d87ebc0":[8,0,39,194]
 };

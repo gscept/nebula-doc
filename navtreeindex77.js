@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"struct_core_animation_1_1_anim_sample_mask.html":[9,0,9,7],
+"struct_core_animation_1_1_anim_sample_mask.html#a5ea01b81357ca9a2acce16aecbee7e31":[9,0,9,7,1],
+"struct_core_animation_1_1_anim_sample_mask.html#adaa61b7e6cef24a33f4d852e0eb62f23":[9,0,9,7,0],
+"struct_core_animation_1_1_anim_sample_mask.html#afbd4efb789e88f7140cb7701533e0fc5":[9,0,9,7,2],
+"struct_core_animation_1_1_anim_sample_mix_info.html":[9,0,9,8],
+"struct_core_animation_1_1_anim_sample_mix_info.html#a2a11762b0763dc3dcad82a3e56e07ca3":[9,0,9,8,0],
+"struct_core_animation_1_1_anim_sample_mix_info.html#a883fc8fa08a0aa29bd5266392af6a63a":[9,0,9,8,3],
+"struct_core_animation_1_1_anim_sample_mix_info.html#abf9291e763c551f9c5b929a19aece510":[9,0,9,8,1],
 "struct_core_animation_1_1_anim_sample_mix_info.html#aca787b6a4e2558ab56de55bdc3fe90ed":[9,0,9,8,2],
 "struct_core_animation_1_1_nax2_curve.html":[9,0,9,18],
 "struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[9,0,9,18,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "struct_core_graphics_1_1_image_load_info.html#a2a91b743e4c967d38c2c8fb3e98f15f5":[9,0,10,38,2],
 "struct_core_graphics_1_1_image_load_info.html#a3864244c0c34d016bfdacba662ed2d82":[9,0,10,38,10],
 "struct_core_graphics_1_1_image_load_info.html#a649c84bf6fac607609d25dbffbe9721a":[9,0,10,38,1],
-"struct_core_graphics_1_1_image_load_info.html#a87116cdf151fe097df2d147b4305d282":[9,0,10,38,5],
-"struct_core_graphics_1_1_image_load_info.html#a8cea96e387e3c2c96513068e951f6388":[9,0,10,38,3],
-"struct_core_graphics_1_1_image_load_info.html#a90e1433ee45ce747374104b589fcaec5":[9,0,10,38,9],
-"struct_core_graphics_1_1_image_load_info.html#a9cc552233d2b5329b3569bca206eb850":[9,0,10,38,8],
-"struct_core_graphics_1_1_image_load_info.html#aa2cf39599e735159315125baf04adb60":[9,0,10,38,6],
-"struct_core_graphics_1_1_image_load_info.html#ab4360832a2ade86b1fd3756666aa59af":[9,0,10,38,4],
-"struct_core_graphics_1_1_image_load_info.html#ad3e879eb13afe024dbdbdea509a68513":[9,0,10,38,0],
-"struct_core_graphics_1_1_image_load_info.html#adf89128c6d8f27260e8cdc2e26cc298d":[9,0,10,38,7],
-"struct_core_graphics_1_1_image_subresource_info.html":[9,0,10,5]
+"struct_core_graphics_1_1_image_load_info.html#a87116cdf151fe097df2d147b4305d282":[9,0,10,38,5]
 };

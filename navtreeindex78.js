@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"struct_core_graphics_1_1_image_load_info.html#a8cea96e387e3c2c96513068e951f6388":[9,0,10,38,3],
+"struct_core_graphics_1_1_image_load_info.html#a90e1433ee45ce747374104b589fcaec5":[9,0,10,38,9],
+"struct_core_graphics_1_1_image_load_info.html#a9cc552233d2b5329b3569bca206eb850":[9,0,10,38,8],
+"struct_core_graphics_1_1_image_load_info.html#aa2cf39599e735159315125baf04adb60":[9,0,10,38,6],
+"struct_core_graphics_1_1_image_load_info.html#ab4360832a2ade86b1fd3756666aa59af":[9,0,10,38,4],
+"struct_core_graphics_1_1_image_load_info.html#ad3e879eb13afe024dbdbdea509a68513":[9,0,10,38,0],
+"struct_core_graphics_1_1_image_load_info.html#adf89128c6d8f27260e8cdc2e26cc298d":[9,0,10,38,7],
+"struct_core_graphics_1_1_image_subresource_info.html":[9,0,10,5],
 "struct_core_graphics_1_1_image_subresource_info.html#a0d163b29efe60455de5f8750f95ecca0":[9,0,10,5,6],
 "struct_core_graphics_1_1_image_subresource_info.html#a0eb7c5aac6628d9a09909f414c17ccc6":[9,0,10,5,1],
 "struct_core_graphics_1_1_image_subresource_info.html#a12d412354c74c09671e9fb800cc957e6":[9,0,10,5,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "struct_core_graphics_1_1_texture_create_info.html#a785951e9a8f347185dce0448b752ec2f":[9,0,10,99,4],
 "struct_core_graphics_1_1_texture_create_info.html#a78e58b07c181b16d2462f6ac420f129b":[9,0,10,99,2],
 "struct_core_graphics_1_1_texture_create_info.html#a809640931b4ffc72df7a2954eb929b08":[9,0,10,99,16],
-"struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574":[9,0,10,99,19],
-"struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377":[9,0,10,99,0],
-"struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d":[9,0,10,99,20],
-"struct_core_graphics_1_1_texture_create_info.html#a8cfdb013e2d92f59b3ce72849b99cd25":[9,0,10,99,9],
-"struct_core_graphics_1_1_texture_create_info.html#aac86f4df42cb0f9156a7e09bc4ec19e7":[9,0,10,99,11],
-"struct_core_graphics_1_1_texture_create_info.html#ab9b94c66ec1ab9caafaeb279df28dd41":[9,0,10,99,15],
-"struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259":[9,0,10,99,6],
-"struct_core_graphics_1_1_texture_create_info.html#aca0ef718f7cfa8ceb2ed1e24cdd064ea":[9,0,10,99,10],
-"struct_core_graphics_1_1_texture_create_info.html#aeb9972ff2e181f5e4424bac285ed97bb":[9,0,10,99,12]
+"struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574":[9,0,10,99,19]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"struct_resources_1_1_resource_stream_pool_1_1___callbacks.html#a8a8e785810f3c5de6d837e87723eef11":[9,0,53,7,0,0],
+"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html":[9,0,53,7,1],
+"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html#a4660daa36e59816352c557e828fe7521":[9,0,53,7,1,1],
+"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html#a5e26e490f67472e4514e2f53aef6e7c8":[9,0,53,7,1,0],
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html":[9,0,53,7,2],
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a14c839964846eb29a232fc50ca2df3b8":[9,0,53,7,2,3],
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a2410e0228a329298aa56ed8b7b464113":[9,0,53,7,2,4],
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a24228bf3ecacea762d1adffa1b0062c8":[9,0,53,7,2,0],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a8a54dae31682dc2e25824be9ddbe54f9":[9,0,53,7,2,2],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a8d1aae26297a547f5677d0862349edb0":[9,0,53,7,2,1],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_unload.html":[9,0,53,7,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "struct_visibility_1_1_octree_system_load_info.html#a7991e9e21110415d88038a1fca3a72da":[9,0,60,7,0],
 "struct_visibility_1_1_octree_system_load_info.html#ae5233b80ff694da618acbc5aeebd1ce5":[9,0,60,7,7],
 "struct_visibility_1_1_portal_system_load_info.html":[9,0,60,6],
-"struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[9,0,60,6,0],
-"struct_visibility_1_1_quadtree_system_load_info.html":[9,0,60,8],
-"struct_visibility_1_1_quadtree_system_load_info.html#a1328ae5d35264368022f8ed662767996":[9,0,60,8,4],
-"struct_visibility_1_1_quadtree_system_load_info.html#a63877b4b97022e97985043b2f9dd692e":[9,0,60,8,1],
-"struct_visibility_1_1_quadtree_system_load_info.html#ab8f6063f6626093e3781b8cdae4e4b81":[9,0,60,8,2],
-"struct_visibility_1_1_quadtree_system_load_info.html#acdef5ed3676b7e4a8725dd57a1dcfcf1":[9,0,60,8,5],
-"struct_visibility_1_1_quadtree_system_load_info.html#ad02ac225d4453eb9a7f9cc74f8a11e56":[9,0,60,8,0],
-"struct_visibility_1_1_quadtree_system_load_info.html#af0a8d6cf981a402495bb0073d1e569ce":[9,0,60,8,3],
-"struct_visibility_1_1_visibility_system_1_1_entity.html":[9,0,60,10,0]
+"struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[9,0,60,6,0]
 };

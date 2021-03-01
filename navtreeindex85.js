@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"struct_mem_db_1_1_dataset_1_1_view.html":[9,0,37,1,0],
+"struct_mem_db_1_1_dataset_1_1_view.html#a4c30edaa3742baec8323e46167d3c579":[9,0,37,1,0,0],
+"struct_mem_db_1_1_dataset_1_1_view.html#a5e18d62f5cd3d18d1e6be432fa2ab6d3":[9,0,37,1,0,2],
+"struct_mem_db_1_1_dataset_1_1_view.html#a7f697ef18de58ce48f133045ed464f9c":[9,0,37,1,0,1],
+"struct_mem_db_1_1_property_id.html":[9,0,37,4],
+"struct_mem_db_1_1_table.html":[9,0,37,8],
+"struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d":[9,0,37,8,0],
+"struct_mem_db_1_1_table.html#a3bae9ffb458a8ebcf331bcbb9b73ed41":[9,0,37,8,7],
 "struct_mem_db_1_1_table.html#a5ed8b3fc5f52dd74485b231eb08cb7a1":[9,0,37,8,8],
 "struct_mem_db_1_1_table.html#a7982cd24cd20903bc80ff47ba3381415":[9,0,37,8,3],
 "struct_mem_db_1_1_table.html#a7b4432647603e79800fbc3c2abfd02c5":[9,0,37,8,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "struct_resource_create_info.html#ab56de18b298ad0292d58c02d40bc032b":[9,0,135,2],
 "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html":[9,0,53,7,0],
 "struct_resources_1_1_resource_stream_pool_1_1___callbacks.html#a4cd04eacc18e5f46a94e6dc0eb214fc1":[9,0,53,7,0,2],
-"struct_resources_1_1_resource_stream_pool_1_1___callbacks.html#a6a96c7d8039453955ca7da637f3933b6":[9,0,53,7,0,1],
-"struct_resources_1_1_resource_stream_pool_1_1___callbacks.html#a8a8e785810f3c5de6d837e87723eef11":[9,0,53,7,0,0],
-"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html":[9,0,53,7,1],
-"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html#a4660daa36e59816352c557e828fe7521":[9,0,53,7,1,1],
-"struct_resources_1_1_resource_stream_pool_1_1___load_meta_data.html#a5e26e490f67472e4514e2f53aef6e7c8":[9,0,53,7,1,0],
-"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html":[9,0,53,7,2],
-"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a14c839964846eb29a232fc50ca2df3b8":[9,0,53,7,2,3],
-"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a2410e0228a329298aa56ed8b7b464113":[9,0,53,7,2,4],
-"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a24228bf3ecacea762d1adffa1b0062c8":[9,0,53,7,2,0]
+"struct_resources_1_1_resource_stream_pool_1_1___callbacks.html#a6a96c7d8039453955ca7da637f3933b6":[9,0,53,7,0,1]
 };

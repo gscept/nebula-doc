@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"materialtype_8cc.html":[10,0,0,5,14,4],
+"materialtype_8h.html":[10,0,0,5,14,5],
+"materialtype_8h_source.html":[10,0,0,5,14,5],
+"mayacamerautil_8cc.html":[10,0,0,5,21,4],
 "mayacamerautil_8h.html":[10,0,0,5,21,5],
 "mayacamerautil_8h.html#ade4b616c7902c18881b86e7b9c439264":[10,0,0,5,21,5,1],
 "mayacamerautil_8h_source.html":[10,0,0,5,21,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "namespace_characters.html#a2caacd3d283d7429c08105d610aef90d":[8,0,6,8],
 "namespace_characters.html#a34affec1c456d2bd96ce2d7debe4f2c8":[8,0,6,17],
 "namespace_characters.html#a5f3b2266e4a94154582898eac1a763d1":[8,0,6,15],
-"namespace_characters.html#a7f4600aa78eea3c58590b4e03f0da7ca":[8,0,6,11],
-"namespace_characters.html#a826eefce7e5b4be166ae0bd47f80362e":[8,0,6,21],
-"namespace_characters.html#a82fd6ac18bf2e6200912b671f01fdfc3":[8,0,6,24],
-"namespace_characters.html#a838bbd980615c0dca622792b6a6edbd4":[8,0,6,19],
-"namespace_characters.html#a969705a559fb41ba2b6edd841dbd09f8":[8,0,6,9]
+"namespace_characters.html#a7f4600aa78eea3c58590b4e03f0da7ca":[8,0,6,11]
 };
