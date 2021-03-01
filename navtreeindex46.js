@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"class_win32_1_1_sys_func.html#adac9de075b17277a31dbda95f7c6bf16":[9,0,62,0,4],
+"class_win32_1_1_win32_barrier.html":[9,0,176],
 "class_win32_1_1_win32_calendar_time.html":[9,0,62,21],
 "class_win32_1_1_win32_calendar_time.html#a34dd280bc47e36a488a718b38dd34d4a":[9,0,62,21,3],
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[9,0,62,21,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "class_win32_1_1_win32_ip_address.html#a938c32f8070319c3c9319804d41eefbd":[9,0,62,8,17],
 "class_win32_1_1_win32_ip_address.html#ab46696e098105d8301d1b339462b356d":[9,0,62,8,0],
 "class_win32_1_1_win32_ip_address.html#ac579a629bef5e92b96bf0f9f8519a058":[9,0,62,8,12],
-"class_win32_1_1_win32_ip_address.html#acc69a9d77572896ac5b761ccae2f35fa":[9,0,62,8,6],
-"class_win32_1_1_win32_ip_address.html#ad97c82c591d110768c69fa87296ecd65":[9,0,62,8,11],
-"class_win32_1_1_win32_ip_address.html#af44c5d7206fc4a560543336010f6d2ee":[9,0,62,8,20]
+"class_win32_1_1_win32_ip_address.html#acc69a9d77572896ac5b761ccae2f35fa":[9,0,62,8,6]
 };

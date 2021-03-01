@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6":[9,0,10,99,1],
+"struct_core_graphics_1_1_texture_create_info_adjusted.html":[9,0,10,100],
 "struct_core_graphics_1_1_texture_create_info_adjusted.html#a06dea615a63bab2363d9d57ef9f4e3e4":[9,0,10,100,10],
 "struct_core_graphics_1_1_texture_create_info_adjusted.html#a151318dcf681e5709aeda6fd2ddaa0fa":[9,0,10,100,3],
 "struct_core_graphics_1_1_texture_create_info_adjusted.html#a21dbd6b052759dd647d9bce8c4aca82d":[9,0,10,100,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "struct_game_1_1_category_hash.html#a280c13af286b59d340c5e8191ff562fe":[9,0,21,13,5],
 "struct_game_1_1_category_hash.html#a783610561fe1347805f534f6ddd62d3f":[9,0,21,13,1],
 "struct_game_1_1_category_hash.html#a7bb2f365aa3795c62b6c683c6081bdb0":[9,0,21,13,7],
-"struct_game_1_1_category_hash.html#a7cd6c4c561503582f5ffc95043f2f150":[9,0,21,13,9],
-"struct_game_1_1_category_hash.html#a8c9b6361895e7912802dbaa52d7a688e":[9,0,21,13,0],
-"struct_game_1_1_category_hash.html#a95c6c94b2cc45836cdbc995324943f4a":[9,0,21,13,2]
+"struct_game_1_1_category_hash.html#a7cd6c4c561503582f5ffc95043f2f150":[9,0,21,13,9]
 };

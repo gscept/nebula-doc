@@ -34,6 +34,7 @@ var scalar_8h =
     [ "deg2rad", "scalar_8h.html#a53c9f993c49d74204f1159730d60d1ba", null ],
     [ "divandroundup", "scalar_8h.html#acab47b8a69f2ae34e9f643aa9a0a099a", null ],
     [ "exp", "scalar_8h.html#aa8f936b3622bc3eaf2448651634f326b", null ],
+    [ "exp2", "scalar_8h.html#aaf1d8738a2d8e39fb11c994b1b1c17be", null ],
     [ "fchop", "scalar_8h.html#a45b185959f1c682ea18626a99d096b7b", null ],
     [ "fequal", "scalar_8h.html#a288e5a67a2f93af2897702afb15e4122", null ],
     [ "fgreater", "scalar_8h.html#ae8ab94da4bd8b1f6c9b9854ff759c329", null ],
@@ -66,6 +67,5 @@ var scalar_8h =
     [ "smoothstep", "scalar_8h.html#a9b96a5fde858c583a2ecbf840ea41984", null ],
     [ "sqrt", "scalar_8h.html#a2c18a4e48abee2f788ac9025aead6299", null ],
     [ "tan", "scalar_8h.html#af4e635c7c8a30ccf39f7e9c75d84e739", null ],
-    [ "undenormalize", "scalar_8h.html#a149b1a0c5da30db4c59f729b478db844", null ],
-    [ "LN_2", "scalar_8h.html#aa8ae7629dd6824793e36f7cc73985be2", null ]
+    [ "undenormalize", "scalar_8h.html#a149b1a0c5da30db4c59f729b478db844", null ]
 ];

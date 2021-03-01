@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a8a54dae31682dc2e25824be9ddbe54f9":[9,0,53,7,2,2],
+"struct_resources_1_1_resource_stream_pool_1_1___pending_resource_load.html#a8d1aae26297a547f5677d0862349edb0":[9,0,53,7,2,1],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_unload.html":[9,0,53,7,3],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_resource_unload.html#a91a9608baaf2018e56557b95ca38b80b":[9,0,53,7,3,0],
 "struct_resources_1_1_resource_stream_pool_1_1___pending_stream_lod.html":[9,0,53,7,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "struct_visibility_1_1_quadtree_system_load_info.html#acdef5ed3676b7e4a8725dd57a1dcfcf1":[9,0,60,8,5],
 "struct_visibility_1_1_quadtree_system_load_info.html#ad02ac225d4453eb9a7f9cc74f8a11e56":[9,0,60,8,0],
 "struct_visibility_1_1_quadtree_system_load_info.html#af0a8d6cf981a402495bb0073d1e569ce":[9,0,60,8,3],
-"struct_visibility_1_1_visibility_system_1_1_entity.html":[9,0,60,10,0],
-"struct_visibility_1_1_visibility_system_1_1_entity.html#a17f7b61b8fdde62f91bbb9ef9a27cfc0":[9,0,60,10,0,3],
-"struct_visibility_1_1_visibility_system_1_1_entity.html#a404668c1943cabba1a4d9fdcbf7256ed":[9,0,60,10,0,2]
+"struct_visibility_1_1_visibility_system_1_1_entity.html":[9,0,60,10,0]
 };

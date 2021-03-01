@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"struct_ids_1_1_id.html#a715b258e1887820f99f64c435d4609c0":[9,0,27,0,6],
+"struct_ids_1_1_id.html#a733a524515287117396fca099674ea19":[9,0,27,0,7],
 "struct_ids_1_1_id.html#a805e9878712e4f8c6169fc9b57d9d89d":[9,0,27,0,11],
 "struct_ids_1_1_id.html#a8bb94d58c7df2c91fca1e142c6f1183c":[9,0,27,0,12],
 "struct_ids_1_1_id.html#a98d6c21979592fc173cbb33e409b84fe":[9,0,27,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "struct_im3d_1_1_ray.html#abd7ef0cea37d20745340e57baa76fca7":[9,0,28,15,0],
 "struct_im3d_1_1_ray.html#af545f0d5afc9d31932e0b04a6f88508f":[9,0,28,15,1],
 "struct_im3d_1_1_sphere.html":[9,0,28,17],
-"struct_im3d_1_1_sphere.html#a0a4c892d6bf75a3793b41598d0b9b015":[9,0,28,17,0],
-"struct_im3d_1_1_sphere.html#a4c5e36c092b68c3a99df84c2b0025641":[9,0,28,17,2],
-"struct_im3d_1_1_sphere.html#a6ca7a7ba93e76d393ac8074d165cc247":[9,0,28,17,3]
+"struct_im3d_1_1_sphere.html#a0a4c892d6bf75a3793b41598d0b9b015":[9,0,28,17,0]
 };

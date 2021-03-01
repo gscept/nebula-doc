@@ -87,8 +87,7 @@ $(document).ready(function(){initNavTree('scalar_8h.html',''); initResizable(); 
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">scalar.h File Reference</div>  </div>
 </div><!--header-->
@@ -183,6 +182,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a4096b20b2df2f6eacd050698feffe355"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a4096b20b2df2f6eacd050698feffe355">Math::log2</a> (scalar f)</td></tr>
 <tr class="memdesc:a4096b20b2df2f6eacd050698feffe355"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_math.html#a4096b20b2df2f6eacd050698feffe355" title="log2() function.">log2()</a> function.  <a href="namespace_math.html#a4096b20b2df2f6eacd050698feffe355">More...</a><br /></td></tr>
 <tr class="separator:a4096b20b2df2f6eacd050698feffe355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1d8738a2d8e39fb11c994b1b1c17be"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aaf1d8738a2d8e39fb11c994b1b1c17be">Math::exp2</a> (scalar x)</td></tr>
+<tr class="separator:aaf1d8738a2d8e39fb11c994b1b1c17be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3504e234041a6165ce9a0dec4df96187"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a3504e234041a6165ce9a0dec4df96187">Math::log</a> (scalar x)</td></tr>
+<tr class="memdesc:a3504e234041a6165ce9a0dec4df96187"><td class="mdescLeft">&#160;</td><td class="mdescRight">get logarithm of x  <a href="namespace_math.html#a3504e234041a6165ce9a0dec4df96187">More...</a><br /></td></tr>
+<tr class="separator:a3504e234041a6165ce9a0dec4df96187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8f936b3622bc3eaf2448651634f326b"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa8f936b3622bc3eaf2448651634f326b">Math::exp</a> (scalar x)</td></tr>
 <tr class="separator:aa8f936b3622bc3eaf2448651634f326b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51b938f95c4b2a7badb5a0c3a80afd68"><td class="memItemLeft" align="right" valign="top">__forceinline int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68">Math::frnd</a> (scalar f)</td></tr>
@@ -190,9 +194,6 @@ Functions</h2></td></tr>
 <tr class="separator:a51b938f95c4b2a7badb5a0c3a80afd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fdcb8c1f0eb62c6fba51d2e2272c192"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a7fdcb8c1f0eb62c6fba51d2e2272c192">Math::pow</a> (scalar x, scalar y)</td></tr>
 <tr class="separator:a7fdcb8c1f0eb62c6fba51d2e2272c192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3504e234041a6165ce9a0dec4df96187"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a3504e234041a6165ce9a0dec4df96187">Math::log</a> (scalar x)</td></tr>
-<tr class="memdesc:a3504e234041a6165ce9a0dec4df96187"><td class="mdescLeft">&#160;</td><td class="mdescRight">get logarithm of x  <a href="namespace_math.html#a3504e234041a6165ce9a0dec4df96187">More...</a><br /></td></tr>
-<tr class="separator:a3504e234041a6165ce9a0dec4df96187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a288e5a67a2f93af2897702afb15e4122"><td class="memItemLeft" align="right" valign="top">__forceinline bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a288e5a67a2f93af2897702afb15e4122">Math::fequal</a> (scalar f0, scalar f1, scalar tol)</td></tr>
 <tr class="memdesc:a288e5a67a2f93af2897702afb15e4122"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fuzzy floating point equality check.  <a href="namespace_math.html#a288e5a67a2f93af2897702afb15e4122">More...</a><br /></td></tr>
 <tr class="separator:a288e5a67a2f93af2897702afb15e4122"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,11 +284,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="memItemLeft" align="right" valign="top">__forceinline unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aeaf609a6f7ae59cf94ebe1d6aa5e5640">Math::roundtopow2</a> (unsigned int val)</td></tr>
 <tr class="memdesc:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounds up to next power of 2.  <a href="namespace_math.html#aeaf609a6f7ae59cf94ebe1d6aa5e5640">More...</a><br /></td></tr>
 <tr class="separator:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aa8ae7629dd6824793e36f7cc73985be2"><td class="memItemLeft" align="right" valign="top">const scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa8ae7629dd6824793e36f7cc73985be2">Math::LN_2</a> = 0.693147180559945f</td></tr>
-<tr class="separator:aa8ae7629dd6824793e36f7cc73985be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a88668b3132597c0840450ca21a8ae7b4"></a>
@@ -381,7 +377,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="scalar_8h.html">scalar.h</a></li>
 				<li class="footer">
-					Generated on Sat Feb 27 2021 01:06:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 1 2021 02:14:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

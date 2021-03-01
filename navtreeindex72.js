@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"quadtree_8h.html":[10,0,0,3,19,31],
+"quadtree_8h_source.html":[10,0,0,3,19,31],
 "quadtreesystem_8cc.html":[10,0,0,5,24,0,12],
 "quadtreesystem_8h.html":[10,0,0,5,24,0,13],
 "quadtreesystem_8h.html#a29b6c9fc80332e720048debfa9981fb4":[10,0,0,5,24,0,13,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "render_2coregraphics_2config_8h.html#a962240abea295adbe80c2ac9d0eece4e":[10,0,0,5,5,18,8],
 "render_2coregraphics_2config_8h.html#ab118b0c24002cd08659264573b8824b5":[10,0,0,5,5,18,2],
 "render_2coregraphics_2config_8h.html#ab5cfe695e6b16268198322103afe7e61":[10,0,0,5,5,18,6],
-"render_2coregraphics_2config_8h.html#ab91289434c2c4de83ad930c0d92932d3":[10,0,0,5,5,18,11],
-"render_2coregraphics_2config_8h.html#ac74d4574ff2033c9773db46b8d07ff11":[10,0,0,5,5,18,29],
-"render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0":[10,0,0,5,5,18,17]
+"render_2coregraphics_2config_8h.html#ab91289434c2c4de83ad930c0d92932d3":[10,0,0,5,5,18,11]
 };
