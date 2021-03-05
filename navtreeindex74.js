@@ -1,5 +1,14 @@
 var NAVTREEINDEX74 =
 {
+"sampler_8h.html#a04662a7a5672968559bf1b9122674fe7afefbc7a1908db6beedb0902e3a42425f":[10,0,0,5,5,59,3,4],
+"sampler_8h.html#a0693c58b24ee0bb71ef6b13df9d25917":[10,0,0,5,5,59,8],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656":[10,0,0,5,5,59,4],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a217846ee5ad5de6a33349f1724cb2508":[10,0,0,5,5,59,4,2],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a25b6cb26bec972f235a948bccc08d755":[10,0,0,5,5,59,4,5],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a2f1d86c40b6e6949edf02eb02d17dbcd":[10,0,0,5,5,59,4,1],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a786880ba0464d02d7a8e94682eac1e33":[10,0,0,5,5,59,4,6],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a909ba47fa06fda6f1e5e1ed1845462a5":[10,0,0,5,5,59,4,7],
+"sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656a9634e7dd2e8820e016b7eb25cf3de24f":[10,0,0,5,5,59,4,0],
 "sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656ab36e433ecd0a923151afbb9128a2e9bf":[10,0,0,5,5,59,4,4],
 "sampler_8h.html#a420f8662494773bb0f3d98a5aa3a1656adbb5f0be4ec07ce13a6c57b1b9b6cdee":[10,0,0,5,5,59,4,3],
 "sampler_8h.html#a73b93d326e114bbc8216744dfff973b3":[10,0,0,5,5,59,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX74 =
 "shadersemantics_8h.html#a3a420db4a883e92cd291937529beed42":[10,0,0,5,5,69,31],
 "shadersemantics_8h.html#a3b29386dab1454b671b7f12e6dae4baf":[10,0,0,5,5,69,65],
 "shadersemantics_8h.html#a3c7b36dfe9581ba01451ee1c115827be":[10,0,0,5,5,69,80],
-"shadersemantics_8h.html#a3ccf3daf0deeb332c5b6ae1d5b91f4c1":[10,0,0,5,5,69,28],
-"shadersemantics_8h.html#a3d03d8b730ecabb20cc7321004f15762":[10,0,0,5,5,69,124],
-"shadersemantics_8h.html#a3d7a73f3c8a8a0e8dc569aca1ed1eac2":[10,0,0,5,5,69,1],
-"shadersemantics_8h.html#a3f0ece8bc7993e505177206e1e7a08e3":[10,0,0,5,5,69,115],
-"shadersemantics_8h.html#a4097e95ccd82454a14169365fad8e08c":[10,0,0,5,5,69,90],
-"shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,5,5,69,20],
-"shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,5,5,69,67],
-"shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,5,5,69,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,5,5,69,94],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,5,5,69,93]
+"shadersemantics_8h.html#a3ccf3daf0deeb332c5b6ae1d5b91f4c1":[10,0,0,5,5,69,28]
 };

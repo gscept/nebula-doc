@@ -1,5 +1,15 @@
 var NAVTREEINDEX84 =
 {
+"struct_materials_1_1_material_constant.html#a83c9ebdb6fb7207efb7dd28648669b66":[9,0,35,5,4],
+"struct_materials_1_1_material_constant.html#a8af7942ad0327d0d118978b31df4a799":[9,0,35,5,7],
+"struct_materials_1_1_material_constant.html#a99b6b0829280a51fa16c959cb7ddef6a":[9,0,35,5,3],
+"struct_materials_1_1_material_constant.html#aa287a062985aa6eb23c9a768c5527265":[9,0,35,5,2],
+"struct_materials_1_1_material_constant.html#aa7c45a13360bea553cb818c4ff6797c1":[9,0,35,5,6],
+"struct_materials_1_1_material_info.html":[9,0,35,7],
+"struct_materials_1_1_material_info.html#a6be1fa1ffadd9730837825b65e78ee99":[9,0,35,7,0],
+"struct_materials_1_1_material_texture.html":[9,0,35,4],
+"struct_materials_1_1_material_texture.html#a0e338ffd2cf6f29dd08bb334fd1ba090":[9,0,35,4,1],
+"struct_materials_1_1_material_texture.html#a991811e53ff6a7674b30a8e878f24f08":[9,0,35,4,4],
 "struct_materials_1_1_material_texture.html#a9aeff4f5aa2bf376d7b9c953dde414d4":[9,0,35,4,3],
 "struct_materials_1_1_material_texture.html#ab99964caa56071efde08c8e5ff58fe45":[9,0,35,4,0],
 "struct_materials_1_1_material_texture.html#acbc48058a2ebac4c40c8faa66e5ba1bd":[9,0,35,4,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX84 =
 "struct_math_1_1vec3.html#acf12aaf8a345d8f90ade130f8054e76d":[9,0,36,27,17],
 "struct_math_1_1vec3.html#ad757b319ecdfea6841330be5579e59e0":[9,0,36,27,3],
 "struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c":[9,0,36,27,25],
-"struct_math_1_1vec3.html#af59c6c8270f337b4f6546e816908d488":[9,0,36,27,13],
-"struct_math_1_1vec4.html":[9,0,36,28],
-"struct_math_1_1vec4.html#a0543ec0a3ea09c9847f8dba20942799e":[9,0,36,28,5],
-"struct_math_1_1vec4.html#a0c2a7be147f8be26a9e6dd3cee83ff6c":[9,0,36,28,10],
-"struct_math_1_1vec4.html#a19e6f77df70fcce8020dd09e8023e647":[9,0,36,28,22],
-"struct_math_1_1vec4.html#a1c9142fbc84316fb3ea9f1215046c64d":[9,0,36,28,26],
-"struct_math_1_1vec4.html#a1efee6dffb8c531eedc6061bdf59d2f3":[9,0,36,28,19],
-"struct_math_1_1vec4.html#a1fd61b43b1668308599d74a429fa2b62":[9,0,36,28,32],
-"struct_math_1_1vec4.html#a35dbb3cdf236981db60aeb0412a37723":[9,0,36,28,15],
-"struct_math_1_1vec4.html#a3c8ad5effbd72296de167f078c7fc420":[9,0,36,28,33],
-"struct_math_1_1vec4.html#a514dd2f5b06abc8159337009cf0c57ce":[9,0,36,28,13]
+"struct_math_1_1vec3.html#af59c6c8270f337b4f6546e816908d488":[9,0,36,27,13]
 };

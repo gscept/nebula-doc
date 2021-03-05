@@ -1,5 +1,15 @@
 var NAVTREEINDEX87 =
 {
+"struct_util_1_1_sparse_table_1_1_table_entry.html":[9,0,58,31,0],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[9,0,58,31,0,2],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[9,0,58,31,0,0],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a5195a3343091445840e784cf11a286b0":[9,0,58,31,0,1],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html":[9,0,58,35,0],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a0b73a03b0a579b46b18e2eb5d830685a":[9,0,58,35,0,3],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a6a6da6dc2611b0f8f36e1e2e56aa66c1":[9,0,58,35,0,2],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a71634bf6d669ee43b74e88509cf01341":[9,0,58,35,0,0],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675":[9,0,58,35,0,4],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ae3b5b4d199d1af1931deeaf1ed04ecf3":[9,0,58,35,0,1],
 "struct_util_1_1get__template__type.html":[9,0,58,38],
 "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html":[9,0,58,39],
 "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html#abc9ae2e6acda835dd979668b0c92091a":[9,0,58,39,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX87 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_reset_command.html#ad8216fba264ecfd06a430358b306c89c":[9,0,61,5,5,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html":[9,0,61,5,6],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#a4534a51076854397fadd24fcaa22e4d5":[9,0,61,5,6,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#aaa0ef60380076a2a0c08c7dbbde9d553":[9,0,61,5,6,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#abfe801bed9bda292db5dd50bed99baa7":[9,0,61,5,6,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html":[9,0,61,5,7],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6a4b1e90470515f0b3cc04b99c5c2132":[9,0,61,5,7,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6e3e9417413b562c51b5fd9a24d2c489":[9,0,61,5,7,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a9a29faa77c00c2513adbf22765d15ba8":[9,0,61,5,7,4],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ab1bd8fd31be6c6a3c5a8f251bccf3ce6":[9,0,61,5,7,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[9,0,61,5,7,6],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[9,0,61,5,7,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[9,0,61,5,7,5],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html":[9,0,61,5,8]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#aaa0ef60380076a2a0c08c7dbbde9d553":[9,0,61,5,6,1]
 };

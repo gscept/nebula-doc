@@ -1,5 +1,15 @@
 var NAVTREEINDEX94 =
 {
+"vkgraphicsdevice_8cc.html#abd86829484124c749d3f6e2c6b02bb06":[10,0,0,5,5,5,18,69],
+"vkgraphicsdevice_8cc.html#ac05f9911cec0ff3b79c9da96adf04f6a":[10,0,0,5,5,5,18,36],
+"vkgraphicsdevice_8cc.html#ac3e2165bac2d784b9431a57a6c075f6d":[10,0,0,5,5,5,18,63],
+"vkgraphicsdevice_8cc.html#ac4a93bc3374d5332a037c4c60de74dd4":[10,0,0,5,5,5,18,129],
+"vkgraphicsdevice_8cc.html#ac80e1eac8af3817b5f1b04d6a2ff7c1d":[10,0,0,5,5,5,18,85],
+"vkgraphicsdevice_8cc.html#ac8820489c1d4ddc8aca28742c44ce1fe":[10,0,0,5,5,5,18,134],
+"vkgraphicsdevice_8cc.html#ac923e7f761930d9361b937016b512575":[10,0,0,5,5,5,18,122],
+"vkgraphicsdevice_8cc.html#acb12b036406413ae87d475073d0c4bb9":[10,0,0,5,5,5,18,9],
+"vkgraphicsdevice_8cc.html#ace24a236dceb32ca2108373f4a6b9dfe":[10,0,0,5,5,5,18,133],
+"vkgraphicsdevice_8cc.html#ad255c4e9e049eb423bd5fc2f9416a9e2":[10,0,0,5,5,5,18,60],
 "vkgraphicsdevice_8cc.html#ad39ff8d7ee9acc48e2ab096823811c2d":[10,0,0,5,5,5,18,94],
 "vkgraphicsdevice_8cc.html#ad493bff789db61bb88483e0581d6f8bd":[10,0,0,5,5,5,18,105],
 "vkgraphicsdevice_8cc.html#ad7977af7967bd1c4545d340b2543a845":[10,0,0,5,5,5,18,109],
@@ -239,15 +249,5 @@ var NAVTREEINDEX94 =
 "vkloader_8h.html#a307667e2c3f5fc7805d6fe0ea917ba07":[10,0,0,5,5,5,21,129],
 "vkloader_8h.html#a3340e43afe25e92ee3673155d4766d52":[10,0,0,5,5,5,21,42],
 "vkloader_8h.html#a33ae9231cd84a15eba0c05257114bc26":[10,0,0,5,5,5,21,121],
-"vkloader_8h.html#a33b8ecf52c932f39bc0572c956000685":[10,0,0,5,5,5,21,86],
-"vkloader_8h.html#a341c562e488ebafe3ab659e526bd443f":[10,0,0,5,5,5,21,71],
-"vkloader_8h.html#a3c100526ac7daea29bcada2653bed61c":[10,0,0,5,5,5,21,50],
-"vkloader_8h.html#a3e257ac7e41a61eb38bb7a17bd7eb2fe":[10,0,0,5,5,5,21,76],
-"vkloader_8h.html#a3ec9ca5a376d626cc73956e143b7b250":[10,0,0,5,5,5,21,59],
-"vkloader_8h.html#a40ca5b5e06b1fffe043e85a5062c037b":[10,0,0,5,5,5,21,126],
-"vkloader_8h.html#a43a728e2f3ce405459de21ede566cf56":[10,0,0,5,5,5,21,10],
-"vkloader_8h.html#a45de7fd48ed8832a8c17eb042d96af8d":[10,0,0,5,5,5,21,69],
-"vkloader_8h.html#a47c90be1e6c0e88fa3e1dd0e6746e18d":[10,0,0,5,5,5,21,115],
-"vkloader_8h.html#a4950db023d0e8117e34ef8950ee88169":[10,0,0,5,5,5,21,51],
-"vkloader_8h.html#a497c3914495ba21f0a0a306048639a00":[10,0,0,5,5,5,21,36]
+"vkloader_8h.html#a33b8ecf52c932f39bc0572c956000685":[10,0,0,5,5,5,21,86]
 };

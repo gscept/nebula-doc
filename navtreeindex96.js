@@ -1,5 +1,15 @@
 var NAVTREEINDEX96 =
 {
+"vksemaphore_8cc.html#aaa53208d923f13a69bcd0cef93ccbf70":[10,0,0,5,5,5,40,6],
+"vksemaphore_8cc.html#ace002eb9db88bf295dceb94a7a097c39":[10,0,0,5,5,5,40,0],
+"vksemaphore_8h.html":[10,0,0,5,5,5,41],
+"vksemaphore_8h.html#a9fb2ce4cdadad12035289b084d2b9b89":[10,0,0,5,5,5,41,1],
+"vksemaphore_8h.html#ad54f8dc5d631c9d61e3cceb082a400a0":[10,0,0,5,5,5,41,0],
+"vksemaphore_8h_source.html":[10,0,0,5,5,5,41],
+"vkshader_8cc.html":[10,0,0,5,5,5,42],
+"vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4":[10,0,0,5,5,5,42,2],
+"vkshader_8cc.html#a1ec7b419ad97f9ea165bf3b9af7c93c0":[10,0,0,5,5,5,42,0],
+"vkshader_8cc.html#a68ba96d8d5a0ef5c777c65e84b9e02e0":[10,0,0,5,5,5,42,5],
 "vkshader_8cc.html#a9082a05116971436ae8abc11368f9941":[10,0,0,5,5,5,42,4],
 "vkshader_8cc.html#aa1354632842ea83e3f8e784091715754":[10,0,0,5,5,5,42,3],
 "vkshader_8cc.html#abba45a6f6c8be2526d37940303d941e0":[10,0,0,5,5,5,42,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX96 =
 "win32ipaddress_8h.html":[10,0,0,3,14,3,1],
 "win32ipaddress_8h_source.html":[10,0,0,3,14,3,1],
 "win32memory_8cc.html":[10,0,0,3,12,3,2],
-"win32memory_8cc.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,12,3,2,4],
-"win32memory_8cc.html#a24993fac616060d0f19f14d43fc27103":[10,0,0,3,12,3,2,0],
-"win32memory_8cc.html#a6055e491858cd969e93326d9b3e4b420":[10,0,0,3,12,3,2,3],
-"win32memory_8cc.html#a66c839285702633f8178be0224273a14":[10,0,0,3,12,3,2,6],
-"win32memory_8cc.html#a68089d5b4fe7cce3875d69acd943bcc3":[10,0,0,3,12,3,2,7],
-"win32memory_8cc.html#a7a14be8456d9a48c1c3ff9a221f09900":[10,0,0,3,12,3,2,2],
-"win32memory_8cc.html#a8a78ac480e1496dde67c9605cef959ef":[10,0,0,3,12,3,2,8],
-"win32memory_8cc.html#a99416bac8add00c17d3b011239d7e6eb":[10,0,0,3,12,3,2,5],
-"win32memory_8cc.html#aacd6e0e3d90cc8724a07d52c8f1acb43":[10,0,0,3,12,3,2,1],
-"win32memory_8h.html":[10,0,0,3,12,3,3],
-"win32memory_8h.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,12,3,3,12]
+"win32memory_8cc.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,12,3,2,4]
 };

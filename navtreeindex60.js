@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefaa4ffdcf0dc1f31b9acaf295d75b51d00":[8,0,11,122,15],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefac2ca16d048ec66e04bca283eab048ec2":[8,0,11,122,14],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefada59f32f425a632cf2eac9dbd4d862d3":[8,0,11,122,4],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefadd07a0bcc661bb4d54017d223f63e248":[8,0,11,122,11],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefae4c90d28b61b688f57740effa82de4e6":[8,0,11,122,10],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefaeb3ca4dac3e206977e0b7d998eefcc33":[8,0,11,122,3],
+"namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefaf921729de51c317d20216e61bb12d859":[8,0,11,122,9],
+"namespace_core_graphics.html#a927d2e8f3808c8ecc5aa735f4190f0c4":[8,0,11,532],
+"namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82":[8,0,11,137],
 "namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82a588850164887032c35cfb7da39b79a19":[8,0,11,137,2],
 "namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82a591df90f80b97e58f7ee8ab65d0ac270":[8,0,11,137,4],
 "namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82a7adbef97fc3d4b3b86e900a99d8f8576":[8,0,11,137,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "namespace_core_graphics.html#afc81ab052d6121a3473e9c40ebe3d07b":[8,0,11,280],
 "namespace_core_graphics.html#afd701776510676d10ed7784f494fdc98":[8,0,11,245],
 "namespace_core_graphics.html#afd7d2a5e3c1622da4fda6ab53b9646f1":[8,0,11,442],
-"namespace_core_graphics.html#afe1d8745edb4010c195e865a8d0b90e3":[8,0,11,439],
-"namespace_core_graphics.html#afe20d65b902f713882bfe8f3b8174a96":[8,0,11,248],
-"namespace_core_graphics.html#afe3a6ac5bf0f7a13169172eaed3b1b07":[8,0,11,496],
-"namespace_core_graphics.html#afe598d8fdb91db538e7ef4fe2635c898":[8,0,11,308],
-"namespace_core_graphics.html#afe79c5b8c070439502f327218717a149":[8,0,11,167],
-"namespace_core_graphics.html#afefb63339d4ed9c6c655747d6f6c3b51":[8,0,11,440],
-"namespace_core_graphics.html#aff135cb5485661bc9fea2b4283ecbf8d":[8,0,11,370],
-"namespace_core_graphics.html#aff15dbed1186ff3c92dabda92361aa78":[8,0,11,463],
-"namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c":[8,0,11,333],
-"namespace_core_graphics_1_1_gpu_buffer_types.html":[8,0,11,0]
+"namespace_core_graphics.html#afe1d8745edb4010c195e865a8d0b90e3":[8,0,11,439]
 };

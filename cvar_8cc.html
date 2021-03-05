@@ -112,8 +112,11 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a39c4d7bd171eac5cc54894341cd6b032"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a> (CVarCreateInfo const  &amp;)</td></tr>
-<tr class="memdesc:a39c4d7bd171eac5cc54894341cd6b032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a console variable.  <a href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">More...</a><br /></td></tr>
+<tr class="memdesc:a39c4d7bd171eac5cc54894341cd6b032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create or get a console variable.  <a href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">More...</a><br /></td></tr>
 <tr class="separator:a39c4d7bd171eac5cc54894341cd6b032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da4bad75929bcc214d644973f4a5c87"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a3da4bad75929bcc214d644973f4a5c87">Core::CVarCreate</a> (CVarType type, const char *name, const char *defaultValue)</td></tr>
+<tr class="memdesc:a3da4bad75929bcc214d644973f4a5c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create or get a console variable.  <a href="namespace_core.html#a3da4bad75929bcc214d644973f4a5c87">More...</a><br /></td></tr>
+<tr class="separator:a3da4bad75929bcc214d644973f4a5c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a461f80073b5f7154358700e5b48f3e8c"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a461f80073b5f7154358700e5b48f3e8c">Core::CVarGet</a> (const char *name)</td></tr>
 <tr class="memdesc:a461f80073b5f7154358700e5b48f3e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a console variable.  <a href="namespace_core.html#a461f80073b5f7154358700e5b48f3e8c">More...</a><br /></td></tr>
 <tr class="separator:a461f80073b5f7154358700e5b48f3e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +141,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a9b97e964cf2cd2e00686875b9f1fd7c4">Core::CVarReadString</a> (CVar *)</td></tr>
 <tr class="memdesc:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read string value from cvar.  <a href="namespace_core.html#a9b97e964cf2cd2e00686875b9f1fd7c4">More...</a><br /></td></tr>
 <tr class="separator:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b46a51d4505a9e37f650545725ad3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a16b46a51d4505a9e37f650545725ad3f">Core::CVarModified</a> (CVar *)</td></tr>
+<tr class="memdesc:a16b46a51d4505a9e37f650545725ad3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a <a class="el" href="struct_core_1_1_c_var.html" title="A console variable.">CVar</a> has been modified.  <a href="namespace_core.html#a16b46a51d4505a9e37f650545725ad3f">More...</a><br /></td></tr>
+<tr class="separator:a16b46a51d4505a9e37f650545725ad3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b">Core::CVarSetModified</a> (CVar *, bool)</td></tr>
+<tr class="memdesc:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the modified status of a cvar.  <a href="namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b">More...</a><br /></td></tr>
+<tr class="separator:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -157,7 +166,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="cvar_8cc.html">cvar.cc</a></li>
 				<li class="footer">
-					Generated on Fri Mar 5 2021 17:53:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 5 2021 23:13:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,14 @@
 var NAVTREEINDEX77 =
 {
+"struct_characters_1_1_character_context_1_1_animation_runtime.html#aeda10e59420ba5aabd8bb780efff99c8":[9,0,6,0,0,14],
+"struct_characters_1_1_character_context_1_1_animation_runtime.html#af4733c809632bc1cdc177ad480f6aa13":[9,0,6,0,0,1],
+"struct_characters_1_1_character_context_1_1_animation_runtime.html#afbfccecc563779cf600b0c50de5033fd":[9,0,6,0,0,7],
+"struct_characters_1_1_character_context_1_1_animation_runtime.html#afe4aa8237b0047f62811491f7f66ce66":[9,0,6,0,0,6],
+"struct_characters_1_1_character_context_1_1_animation_tracks.html":[9,0,6,0,1],
+"struct_characters_1_1_character_context_1_1_animation_tracks.html#a156055323e9c565b80cf4f248291fbcf":[9,0,6,0,1,1],
+"struct_characters_1_1_character_context_1_1_animation_tracks.html#abcc791b7f381408ec73b5100fda95d3c":[9,0,6,0,1,0],
+"struct_characters_1_1_character_joint.html":[9,0,6,4],
+"struct_characters_1_1_character_joint.html#a3793d9a96ea55ca660fa3f7a20c4d50e":[9,0,6,4,1],
 "struct_characters_1_1_character_joint.html#a8981f7dc8ecf01fe7fa1b2bd22328887":[9,0,6,4,0],
 "struct_characters_1_1_character_joint.html#ab2d4cdfe5c98925403ba42b547711fc6":[9,0,6,4,2],
 "struct_characters_1_1_character_joint.html#ac2ae2467e01b8f628cc9561b75fa4ccb":[9,0,6,4,4],
@@ -46,8 +55,9 @@ var NAVTREEINDEX77 =
 "struct_clustering_1_1__state.html#ad76db96e8401ab9fd4745cdfcd1e4b4f":[9,0,7,0,11],
 "struct_clustering_1_1__state.html#afecc36f901b42faa820067fd1e2f00f7":[9,0,7,0,4],
 "struct_core_1_1_c_var.html":[9,0,8,2],
-"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[9,0,8,2,1],
-"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[9,0,8,2,0],
+"struct_core_1_1_c_var.html#a0f11ae2892b4231e885b91079ad33d40":[9,0,8,2,0],
+"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[9,0,8,2,2],
+"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[9,0,8,2,1],
 "struct_core_1_1_c_var_create_info.html":[9,0,8,3],
 "struct_core_1_1_c_var_create_info.html#a028ebed532cdd9b27d5ed59535c9c512":[9,0,8,3,0],
 "struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[9,0,8,3,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "struct_core_graphics_1_1_graphics_device_state.html#a2bc3ee3fa7b46c72a622a14fbab4394b":[9,0,10,33,35],
 "struct_core_graphics_1_1_graphics_device_state.html#a3702f8ad72c3db6378e51686c5a674d8":[9,0,10,33,58],
 "struct_core_graphics_1_1_graphics_device_state.html#a3981726be1aa1bd1a8df5a86950f8221":[9,0,10,33,34],
-"struct_core_graphics_1_1_graphics_device_state.html#a3dbdcd406c280f75279b3253d9147589":[9,0,10,33,6],
-"struct_core_graphics_1_1_graphics_device_state.html#a43384b83eb3c69c12b0beedfa82566ee":[9,0,10,33,14],
-"struct_core_graphics_1_1_graphics_device_state.html#a44d463d50cf83dd338fca8c07bfe32dd":[9,0,10,33,7],
-"struct_core_graphics_1_1_graphics_device_state.html#a45bae63865210a3d9a4bbe01905c3d3e":[9,0,10,33,47],
-"struct_core_graphics_1_1_graphics_device_state.html#a4757ed329bab4a65545d3806a21566e2":[9,0,10,33,10],
-"struct_core_graphics_1_1_graphics_device_state.html#a4be2caed70ec7b4cc4977af1b8766e4e":[9,0,10,33,3],
-"struct_core_graphics_1_1_graphics_device_state.html#a525b99888572c1f3a6fbfa07c4e79710":[9,0,10,33,16],
-"struct_core_graphics_1_1_graphics_device_state.html#a54422378743744d8fd8bb8ca87c7800a":[9,0,10,33,32],
-"struct_core_graphics_1_1_graphics_device_state.html#a5758f746425d4cf5ce694271e589b6b3":[9,0,10,33,29],
-"struct_core_graphics_1_1_graphics_device_state.html#a6a8192294f0e97f39d158d7a477b28e1":[9,0,10,33,37],
-"struct_core_graphics_1_1_graphics_device_state.html#a6b98be6fd666809a2664185517930259":[9,0,10,33,20]
+"struct_core_graphics_1_1_graphics_device_state.html#a3dbdcd406c280f75279b3253d9147589":[9,0,10,33,6]
 };

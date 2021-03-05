@@ -1,5 +1,14 @@
 var NAVTREEINDEX61 =
 {
+"namespace_core_graphics.html#afe20d65b902f713882bfe8f3b8174a96":[8,0,11,248],
+"namespace_core_graphics.html#afe3a6ac5bf0f7a13169172eaed3b1b07":[8,0,11,496],
+"namespace_core_graphics.html#afe598d8fdb91db538e7ef4fe2635c898":[8,0,11,308],
+"namespace_core_graphics.html#afe79c5b8c070439502f327218717a149":[8,0,11,167],
+"namespace_core_graphics.html#afefb63339d4ed9c6c655747d6f6c3b51":[8,0,11,440],
+"namespace_core_graphics.html#aff135cb5485661bc9fea2b4283ecbf8d":[8,0,11,370],
+"namespace_core_graphics.html#aff15dbed1186ff3c92dabda92361aa78":[8,0,11,463],
+"namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c":[8,0,11,333],
+"namespace_core_graphics_1_1_gpu_buffer_types.html":[8,0,11,0],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084":[8,0,11,0,3],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[8,0,11,0,3,2],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[8,0,11,0,3,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX61 =
 "namespace_game_1_1_time_manager.html#aafc474ad355ec86c18b44ea8fbe6a900":[8,0,23,1,9],
 "namespace_game_1_1_time_manager.html#ad867406e26580fa1a27caeceb335d4cb":[8,0,23,1,3],
 "namespace_game_1_1_time_manager.html#ae1fd57385e5c144532be51e7b2592c79":[8,0,23,1,4],
-"namespace_gltf.html":[8,0,25],
-"namespace_graphics.html":[8,0,26],
-"namespace_graphics.html#a05c928d3e4d055666fa4a907c1859ddc":[8,0,26,41],
-"namespace_graphics.html#a11a61dfd7f732656a09ecd77b4895486":[8,0,26,24],
-"namespace_graphics.html#a129d53aa58c90a48757ccf145b70cb97":[8,0,26,19],
-"namespace_graphics.html#a1f40e80c6cf2f4c7b7f2d4bdf1f1b306":[8,0,26,23],
-"namespace_graphics.html#a3793cc15add236828da55cd27818d82b":[8,0,26,42],
-"namespace_graphics.html#a3e2ab7341b441a793512f2287ee7c33a":[8,0,26,16],
-"namespace_graphics.html#a453b15b4e216297d28a23f3ba0bdbcb4":[8,0,26,36],
-"namespace_graphics.html#a55c559f3d0f83a15d177c2910c9cf4e3":[8,0,26,20]
+"namespace_gltf.html":[8,0,25]
 };
