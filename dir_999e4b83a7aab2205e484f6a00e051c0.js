@@ -9,6 +9,8 @@ var dir_999e4b83a7aab2205e484f6a00e051c0 =
     [ "coreserver.h", "coreserver_8h.html", [
       [ "CoreServer", "class_core_1_1_core_server.html", "class_core_1_1_core_server" ]
     ] ],
+    [ "cvar.cc", "cvar_8cc.html", "cvar_8cc" ],
+    [ "cvar.h", "cvar_8h.html", "cvar_8h" ],
     [ "debug.cc", "debug_8cc.html", "debug_8cc" ],
     [ "debug.h", "debug_8h.html", "debug_8h" ],
     [ "exithandler.cc", "exithandler_8cc.html", null ],

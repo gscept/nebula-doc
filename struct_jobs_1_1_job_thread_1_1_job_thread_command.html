@@ -96,35 +96,35 @@ $(document).ready(function(){initNavTree('struct_jobs_1_1_job_thread_1_1_job_thr
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac19bb89792900316769083434dbb8330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8f">JobThreadCommandType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#ac19bb89792900316769083434dbb8330">ev</a></td></tr>
 <tr class="separator:ac19bb89792900316769083434dbb8330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36178e68b246f1d7ef724e47cb8311f3"><td class="memItemLeft" >union {</td></tr>
-<tr class="memitem:a03d04b3dcf4741619d111da4b066f4a8"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a245514f4f27c1b018a9ca41f6b4d1039"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a224cd5623988d43e3abe0f363563d22b">slice</a></td></tr>
-<tr class="separator:a245514f4f27c1b018a9ca41f6b4d1039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b1cfe40a4f18cd24d6611844bed16aa"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#acbe79464a96f73b924d7d7d6aed2887a">numSlices</a></td></tr>
-<tr class="separator:a5b1cfe40a4f18cd24d6611844bed16aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af763ed0aa6ff6a02c9163bacf1d3b933"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_context.html">JobContext</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a886d4f66398a87f829b997d29c54cca8">context</a></td></tr>
-<tr class="separator:af763ed0aa6ff6a02c9163bacf1d3b933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614a4bab9bcfe5830b769928cd28532a"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;void(*&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a30daddc0dd64fac86a882c7855982506">JobFunc</a> )(const <a class="el" href="struct_jobs_1_1_job_func_context.html">JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a614a4bab9bcfe5830b769928cd28532a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7cd8ab63daba7c69beb038823089d3"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;const std::function&lt; void()&gt; *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a7aa48c09cd11d1e684689fbb2d2726f8">callback</a></td></tr>
-<tr class="separator:a0c7cd8ab63daba7c69beb038823089d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03d04b3dcf4741619d111da4b066f4a8"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a8c7a63ae12bc8f67ef52115ec642f489">run</a></td></tr>
-<tr class="separator:a03d04b3dcf4741619d111da4b066f4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f72007202e5833f7913fd3778c87fe"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:aed3d54205cb054e133b8586615c036bf"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a790722bf73ce87d7b54b3d49841f0431">ev</a></td></tr>
-<tr class="separator:aed3d54205cb054e133b8586615c036bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d17d6b58823f2aea870075d0ee22b28"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;std::atomic_uint *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a2f071c2811f637c6fc0d334668e0f9dc">completionCounter</a></td></tr>
-<tr class="separator:a4d17d6b58823f2aea870075d0ee22b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14d0f5e3f68bde0f90352c121407456"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;const std::function&lt; void()&gt; *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a7aa48c09cd11d1e684689fbb2d2726f8">callback</a></td></tr>
-<tr class="separator:ad14d0f5e3f68bde0f90352c121407456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f72007202e5833f7913fd3778c87fe"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a85797b3bbf65e0f7cc545d4c98b4592c">sync</a></td></tr>
-<tr class="separator:a69f72007202e5833f7913fd3778c87fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36178e68b246f1d7ef724e47cb8311f3"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a36178e68b246f1d7ef724e47cb8311f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeadc28a510e2d25580dba883dbd63c"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a4f02219f8bc4c97bcf7e084b8fd551d0"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:aa9616adfa013162ce8c04627756785ab"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a224cd5623988d43e3abe0f363563d22b">slice</a></td></tr>
+<tr class="separator:aa9616adfa013162ce8c04627756785ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a3cf34c81c338ca6c30945ab10a1de"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#acbe79464a96f73b924d7d7d6aed2887a">numSlices</a></td></tr>
+<tr class="separator:a81a3cf34c81c338ca6c30945ab10a1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adbf68e5e837c4413d23c772a0a9845"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_context.html">JobContext</a>&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a886d4f66398a87f829b997d29c54cca8">context</a></td></tr>
+<tr class="separator:a9adbf68e5e837c4413d23c772a0a9845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa123154c906287019b59233883ec414a"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;void(*&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a30daddc0dd64fac86a882c7855982506">JobFunc</a> )(const <a class="el" href="struct_jobs_1_1_job_func_context.html">JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:aa123154c906287019b59233883ec414a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4607fd3a2d4a7787de15cd8aa7af5556"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;const std::function&lt; void()&gt; *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a7aa48c09cd11d1e684689fbb2d2726f8">callback</a></td></tr>
+<tr class="separator:a4607fd3a2d4a7787de15cd8aa7af5556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f02219f8bc4c97bcf7e084b8fd551d0"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#aea9eff8b75b1bc5119d6f7201f36cf10">run</a></td></tr>
+<tr class="separator:a4f02219f8bc4c97bcf7e084b8fd551d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3fd574a63d1fea84ad37f9d1364927"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:ab3c95897b9bafddb3febed4cfb562975"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a790722bf73ce87d7b54b3d49841f0431">ev</a></td></tr>
+<tr class="separator:ab3c95897b9bafddb3febed4cfb562975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31393e5099e2e51df446b5404e3cfffb"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;std::atomic_uint *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a2f071c2811f637c6fc0d334668e0f9dc">completionCounter</a></td></tr>
+<tr class="separator:a31393e5099e2e51df446b5404e3cfffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa16cba058a35c97068ce91dbb81586"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;const std::function&lt; void()&gt; *&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a7aa48c09cd11d1e684689fbb2d2726f8">callback</a></td></tr>
+<tr class="separator:abfa16cba058a35c97068ce91dbb81586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3fd574a63d1fea84ad37f9d1364927"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html#adf6141ac93a565186c5d5b15a689da2d">sync</a></td></tr>
+<tr class="separator:a5c3fd574a63d1fea84ad37f9d1364927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeadc28a510e2d25580dba883dbd63c"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:adeeadc28a510e2d25580dba883dbd63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a36178e68b246f1d7ef724e47cb8311f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36178e68b246f1d7ef724e47cb8311f3">&#9670;&nbsp;</a></span></h2>
+<a id="adeeadc28a510e2d25580dba883dbd63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeeadc28a510e2d25580dba883dbd63c">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,8 +235,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c7a63ae12bc8f67ef52115ec642f489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c7a63ae12bc8f67ef52115ec642f489">&#9670;&nbsp;</a></span></h2>
+<a id="aea9eff8b75b1bc5119d6f7201f36cf10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9eff8b75b1bc5119d6f7201f36cf10">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,8 +263,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a85797b3bbf65e0f7cc545d4c98b4592c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85797b3bbf65e0f7cc545d4c98b4592c">&#9670;&nbsp;</a></span></h2>
+<a id="adf6141ac93a565186c5d5b15a689da2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6141ac93a565186c5d5b15a689da2d">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +287,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs.html">Jobs</a></li><li class="navelem"><a class="el" href="class_jobs_1_1_job_thread.html">JobThread</a></li><li class="navelem"><a class="el" href="struct_jobs_1_1_job_thread_1_1_job_thread_command.html">JobThreadCommand</a></li>
 				<li class="footer">
-					Generated on Fri Mar 5 2021 17:52:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 5 2021 17:53:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

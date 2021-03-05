@@ -2,7 +2,7 @@ var bloomcontext_8cc =
 [
     [ "TILE_WIDTH", "bloomcontext_8cc.html#a76108891dc4352082a676f2978ee446d", null ],
     [ "__ImplementPluginContext", "bloomcontext_8cc.html#a1b8bcba7e18c234b3b737842126f3e41", null ],
-    [ "bloomState", "bloomcontext_8cc.html#a0716753469d0eb171f0f6a3040fc0534", null ],
+    [ "bloomState", "bloomcontext_8cc.html#a6a5db5bdda8a8658c282a4c5e0b7eeb1", null ],
     [ "blurImageXSlot", "bloomcontext_8cc.html#ac2346409093becabfcc47cc265d5e3fe", null ],
     [ "blurImageYSlot", "bloomcontext_8cc.html#af4fa0db96010e854231ca729e2fd1294", null ],
     [ "blurredBloom", "bloomcontext_8cc.html#a7691be9defa10aead903173512604bf3", null ],

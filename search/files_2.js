@@ -66,5 +66,7 @@ var searchData=
   ['curlhttpclient_2ecc_14671',['curlhttpclient.cc',['../curlhttpclient_8cc.html',1,'']]],
   ['curlhttpclient_2eh_14672',['curlhttpclient.h',['../curlhttpclient_8h.html',1,'']]],
   ['curvetype_2ecc_14673',['curvetype.cc',['../curvetype_8cc.html',1,'']]],
-  ['curvetype_2eh_14674',['curvetype.h',['../curvetype_8h.html',1,'']]]
+  ['curvetype_2eh_14674',['curvetype.h',['../curvetype_8h.html',1,'']]],
+  ['cvar_2ecc_14675',['cvar.cc',['../cvar_8cc.html',1,'']]],
+  ['cvar_2eh_14676',['cvar.h',['../cvar_8h.html',1,'']]]
 ];

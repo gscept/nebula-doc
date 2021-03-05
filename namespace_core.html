@@ -84,7 +84,9 @@ $(document).ready(function(){initNavTree('namespace_core.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Core Namespace Reference</div>  </div>
 </div><!--header-->
@@ -94,6 +96,14 @@ $(document).ready(function(){initNavTree('namespace_core.html',''); initResizabl
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_core_server.html">CoreServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The central core server object initializes a minimal Nebula runtime environment necessary to boot up the rest of Nebula.  <a href="class_core_1_1_core_server.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_1_1_c_var_value.html">CVarValue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_1_1_c_var.html">CVar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A console variable.  <a href="struct_core_1_1_c_var.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_1_1_c_var_create_info.html">CVarCreateInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a <a class="el" href="struct_core_1_1_c_var.html" title="A console variable.">Core::CVar</a>.  <a href="struct_core_1_1_c_var_create_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_exit_handler.html">ExitHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ExitHandlers are static objects which register themselves automatically once at startup and are called back from the Core::SysFunc::Exit() static method which is called right before a Nebula application exists.  <a href="class_core_1_1_exit_handler.html#details">More...</a><br /></td></tr>
@@ -111,15 +121,84 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nebula's runtime type information for one class.  <a href="class_core_1_1_rtti.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:abb90d3e3d45b14ad8b8a3b4d31ce8eb0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0">CVarType</a> { <a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">CVar_Int</a>
+, <a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">CVar_Float</a>
+, <a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a4418bea7688e9e9a6035b2fdaf41e208">CVar_String</a>
+ }</td></tr>
+<tr class="memdesc:abb90d3e3d45b14ad8b8a3b4d31ce8eb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes the type of a <a class="el" href="struct_core_1_1_c_var.html" title="A console variable.">Core::CVar</a>.  <a href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0">More...</a><br /></td></tr>
+<tr class="separator:abb90d3e3d45b14ad8b8a3b4d31ce8eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0c671025313676e7d965fe0f944f4e20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a0c671025313676e7d965fe0f944f4e20">__ImplementClass</a> (<a class="el" href="class_core_1_1_core_server.html">Core::CoreServer</a>, 'CORS', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a0c671025313676e7d965fe0f944f4e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e6efed1ef2f44b4dae4779a68db208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a83e6efed1ef2f44b4dae4779a68db208">__ImplementSingleton</a> (<a class="el" href="class_core_1_1_core_server.html">Core::CoreServer</a>)</td></tr>
 <tr class="separator:a83e6efed1ef2f44b4dae4779a68db208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c4d7bd171eac5cc54894341cd6b032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">CVarCreate</a> (<a class="el" href="struct_core_1_1_c_var_create_info.html">CVarCreateInfo</a> const  &amp;)</td></tr>
+<tr class="memdesc:a39c4d7bd171eac5cc54894341cd6b032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a console variable.  <a href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">More...</a><br /></td></tr>
+<tr class="separator:a39c4d7bd171eac5cc54894341cd6b032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461f80073b5f7154358700e5b48f3e8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a461f80073b5f7154358700e5b48f3e8c">CVarGet</a> (const char *name)</td></tr>
+<tr class="memdesc:a461f80073b5f7154358700e5b48f3e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a console variable.  <a href="namespace_core.html#a461f80073b5f7154358700e5b48f3e8c">More...</a><br /></td></tr>
+<tr class="separator:a461f80073b5f7154358700e5b48f3e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945433990a558d8e10ed9282a3baab3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a945433990a558d8e10ed9282a3baab3b">CVarParseWrite</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *, const char *value)</td></tr>
+<tr class="memdesc:a945433990a558d8e10ed9282a3baab3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse value from c string and assign to cvar.  <a href="namespace_core.html#a945433990a558d8e10ed9282a3baab3b">More...</a><br /></td></tr>
+<tr class="separator:a945433990a558d8e10ed9282a3baab3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b8e2eb1597b75490e7a82c38a8524a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a">CVarWriteFloat</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *, float value)</td></tr>
+<tr class="memdesc:a07b8e2eb1597b75490e7a82c38a8524a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write float value to cvar.  <a href="namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a">More...</a><br /></td></tr>
+<tr class="separator:a07b8e2eb1597b75490e7a82c38a8524a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd097f816d1999ea559213e6ad49929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a3bd097f816d1999ea559213e6ad49929">CVarWriteInt</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *, int value)</td></tr>
+<tr class="memdesc:a3bd097f816d1999ea559213e6ad49929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write int value to cvar.  <a href="namespace_core.html#a3bd097f816d1999ea559213e6ad49929">More...</a><br /></td></tr>
+<tr class="separator:a3bd097f816d1999ea559213e6ad49929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded8776d18d4246527d8d92e6eef7944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#aded8776d18d4246527d8d92e6eef7944">CVarWriteString</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *, const char *value)</td></tr>
+<tr class="memdesc:aded8776d18d4246527d8d92e6eef7944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write string value to cvar.  <a href="namespace_core.html#aded8776d18d4246527d8d92e6eef7944">More...</a><br /></td></tr>
+<tr class="separator:aded8776d18d4246527d8d92e6eef7944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313583da98c343e508416118ac9d783f"><td class="memItemLeft" align="right" valign="top">int const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a313583da98c343e508416118ac9d783f">CVarReadInt</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *)</td></tr>
+<tr class="memdesc:a313583da98c343e508416118ac9d783f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read int value from cvar.  <a href="namespace_core.html#a313583da98c343e508416118ac9d783f">More...</a><br /></td></tr>
+<tr class="separator:a313583da98c343e508416118ac9d783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c256934c6ab581dd62b00806391b6d2"><td class="memItemLeft" align="right" valign="top">float const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a1c256934c6ab581dd62b00806391b6d2">CVarReadFloat</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *)</td></tr>
+<tr class="memdesc:a1c256934c6ab581dd62b00806391b6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read float value from cvar.  <a href="namespace_core.html#a1c256934c6ab581dd62b00806391b6d2">More...</a><br /></td></tr>
+<tr class="separator:a1c256934c6ab581dd62b00806391b6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a9b97e964cf2cd2e00686875b9f1fd7c4">CVarReadString</a> (<a class="el" href="struct_core_1_1_c_var.html">CVar</a> *)</td></tr>
+<tr class="memdesc:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read string value from cvar.  <a href="namespace_core.html#a9b97e964cf2cd2e00686875b9f1fd7c4">More...</a><br /></td></tr>
+<tr class="separator:a9b97e964cf2cd2e00686875b9f1fd7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e985c7d6ee6ca4f590fb50daad3cb0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a5e985c7d6ee6ca4f590fb50daad3cb0f">__ImplementRootClass</a> (<a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>, 'REFC')</td></tr>
 <tr class="separator:a5e985c7d6ee6ca4f590fb50daad3cb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2bb1d40293785cc3adf9a182e59f1318"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a2bb1d40293785cc3adf9a182e59f1318">MAX_CVARS</a> = 1024</td></tr>
+<tr class="separator:a2bb1d40293785cc3adf9a182e59f1318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b95c93003334b160163af18ca4e263"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a29b95c93003334b160163af18ca4e263">cVarOffset</a> = 0</td></tr>
+<tr class="separator:a29b95c93003334b160163af18ca4e263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00285b01c523b9b68082ea87e24c83f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">CVar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#ab00285b01c523b9b68082ea87e24c83f">cVars</a> [<a class="el" href="namespace_core.html#a2bb1d40293785cc3adf9a182e59f1318">MAX_CVARS</a>]</td></tr>
+<tr class="separator:ab00285b01c523b9b68082ea87e24c83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5432314133baa387959a4d61387d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a>, uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a5f5432314133baa387959a4d61387d9e">cVarTable</a></td></tr>
+<tr class="separator:a5f5432314133baa387959a4d61387d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="abb90d3e3d45b14ad8b8a3b4d31ce8eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb90d3e3d45b14ad8b8a3b4d31ce8eb0">&#9670;&nbsp;</a></span>CVarType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0">Core::CVarType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Denotes the type of a <a class="el" href="struct_core_1_1_c_var.html" title="A console variable.">Core::CVar</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460"></a>CVar_Int&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd"></a>CVar_Float&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abb90d3e3d45b14ad8b8a3b4d31ce8eb0a4418bea7688e9e9a6035b2fdaf41e208"></a>CVar_String&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a0c671025313676e7d965fe0f944f4e20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c671025313676e7d965fe0f944f4e20">&#9670;&nbsp;</a></span>__ImplementClass()</h2>
@@ -201,6 +280,291 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a39c4d7bd171eac5cc54894341cd6b032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c4d7bd171eac5cc54894341cd6b032">&#9670;&nbsp;</a></span>CVarCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> * Core::CVarCreate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var_create_info.html">CVarCreateInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a console variable. </p>
+
+</div>
+</div>
+<a id="a461f80073b5f7154358700e5b48f3e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a461f80073b5f7154358700e5b48f3e8c">&#9670;&nbsp;</a></span>CVarGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> * Core::CVarGet </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a console variable. </p>
+
+</div>
+</div>
+<a id="a945433990a558d8e10ed9282a3baab3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a945433990a558d8e10ed9282a3baab3b">&#9670;&nbsp;</a></span>CVarParseWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::CVarParseWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parse value from c string and assign to cvar. </p>
+
+</div>
+</div>
+<a id="a1c256934c6ab581dd62b00806391b6d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c256934c6ab581dd62b00806391b6d2">&#9670;&nbsp;</a></span>CVarReadFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float const Core::CVarReadFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read float value from cvar. </p>
+
+</div>
+</div>
+<a id="a313583da98c343e508416118ac9d783f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a313583da98c343e508416118ac9d783f">&#9670;&nbsp;</a></span>CVarReadInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int const Core::CVarReadInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read int value from cvar. </p>
+
+</div>
+</div>
+<a id="a9b97e964cf2cd2e00686875b9f1fd7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b97e964cf2cd2e00686875b9f1fd7c4">&#9670;&nbsp;</a></span>CVarReadString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Core::CVarReadString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read string value from cvar. </p>
+
+</div>
+</div>
+<a id="a07b8e2eb1597b75490e7a82c38a8524a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b8e2eb1597b75490e7a82c38a8524a">&#9670;&nbsp;</a></span>CVarWriteFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::CVarWriteFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write float value to cvar. </p>
+
+</div>
+</div>
+<a id="a3bd097f816d1999ea559213e6ad49929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd097f816d1999ea559213e6ad49929">&#9670;&nbsp;</a></span>CVarWriteInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::CVarWriteInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write int value to cvar. </p>
+
+</div>
+</div>
+<a id="aded8776d18d4246527d8d92e6eef7944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded8776d18d4246527d8d92e6eef7944">&#9670;&nbsp;</a></span>CVarWriteString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::CVarWriteString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> *&#160;</td>
+          <td class="paramname"><em>cVar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write string value to cvar. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a29b95c93003334b160163af18ca4e263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b95c93003334b160163af18ca4e263">&#9670;&nbsp;</a></span>cVarOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t Core::cVarOffset = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab00285b01c523b9b68082ea87e24c83f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab00285b01c523b9b68082ea87e24c83f">&#9670;&nbsp;</a></span>cVars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">CVar</a> Core::cVars[<a class="el" href="namespace_core.html#a2bb1d40293785cc3adf9a182e59f1318">MAX_CVARS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f5432314133baa387959a4d61387d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f5432314133baa387959a4d61387d9e">&#9670;&nbsp;</a></span>cVarTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>, uint16_t&gt; Core::cVarTable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bb1d40293785cc3adf9a182e59f1318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bb1d40293785cc3adf9a182e59f1318">&#9670;&nbsp;</a></span>MAX_CVARS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t Core::MAX_CVARS = 1024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -208,7 +572,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core.html">Core</a></li>
 				<li class="footer">
-					Generated on Fri Mar 5 2021 17:52:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 5 2021 17:53:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -40,6 +40,6 @@ var vegetationcontext_8cc =
     [ "vegetationGenerateDrawsShader", "vegetationcontext_8cc.html#afaddaba24d3fca9a125934e0b7c786d4", null ],
     [ "vegetationGrassShader", "vegetationcontext_8cc.html#a6ed093ed62bbc3b585b035d4d8c2e423", null ],
     [ "vegetationMeshShader", "vegetationcontext_8cc.html#a9363ab6740c3e331e9a04a97c88ee0a4", null ],
-    [ "vegetationState", "vegetationcontext_8cc.html#ab44296a1655d6a14d1f3ab3dea075559", null ],
+    [ "vegetationState", "vegetationcontext_8cc.html#aa19af307a5b8761a65a69a32e5d60e20", null ],
     [ "worldSize", "vegetationcontext_8cc.html#a030f0a9fe702fb7215ea85ce2d66e223", null ]
 ];
