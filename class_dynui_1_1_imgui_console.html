@@ -121,6 +121,10 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:adbede0230aaed6288488cf5f7d6dce12"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are all the types of messages that can be printed in the console Depending on the type of the message, they are sorted into different categories by appending a type prefix to the message.  <a href="class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12">More...</a><br /></td></tr>
 <tr class="separator:adbede0230aaed6288488cf5f7d6dce12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4cc6f591937692932afc448a4571b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9">CommandMode</a> { <a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff">Python</a>
+, <a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9a10ea2835e3d4bb84bb39656ae948cd9e">CVar</a>
+ }</td></tr>
+<tr class="separator:a7f4cc6f591937692932afc448a4571b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,6 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab68a755c7433dcffbd136687d0432e5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_console.html#ab68a755c7433dcffbd136687d0432e5e">AppendToLog</a> (const <a class="el" href="struct_dynui_1_1_imgui_console_1_1_log_entry.html">LogEntry</a> &amp;msg)</td></tr>
 <tr class="memdesc:ab68a755c7433dcffbd136687d0432e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">add line to the log  <a href="class_dynui_1_1_imgui_console.html#ab68a755c7433dcffbd136687d0432e5e">More...</a><br /></td></tr>
 <tr class="separator:ab68a755c7433dcffbd136687d0432e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45312d0c7e0c893a1c623ce79d30f45a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_console.html#a45312d0c7e0c893a1c623ce79d30f45a">EvaluateCVar</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; const &amp;splits)</td></tr>
+<tr class="separator:a45312d0c7e0c893a1c623ce79d30f45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
 <tr class="memitem:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">RefCounted</a> ()</td></tr>
 <tr class="memdesc:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">More...</a><br /></td></tr>
@@ -189,6 +195,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6ec1f82f90da09cc06347c1526b154da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabf0da98a27a02ae3b56901748a2ebe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_console.html#aaabf0da98a27a02ae3b56901748a2ebe">previousCommandIndex</a></td></tr>
 <tr class="separator:aaabf0da98a27a02ae3b56901748a2ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77938936faedb6a41473826bcf946618"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9">Dynui::ImguiConsole::CommandMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_console.html#a77938936faedb6a41473826bcf946618">cmdMode</a></td></tr>
+<tr class="separator:a77938936faedb6a41473826bcf946618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -233,6 +241,24 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a7f4cc6f591937692932afc448a4571b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4cc6f591937692932afc448a4571b9">&#9670;&nbsp;</a></span>CommandMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9">Dynui::ImguiConsole::CommandMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff"></a>Python&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7f4cc6f591937692932afc448a4571b9a10ea2835e3d4bb84bb39656ae948cd9e"></a>CVar&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="adbede0230aaed6288488cf5f7d6dce12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbede0230aaed6288488cf5f7d6dce12">&#9670;&nbsp;</a></span>LogMessageType</h2>
 
@@ -402,6 +428,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a45312d0c7e0c893a1c623ce79d30f45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45312d0c7e0c893a1c623ce79d30f45a">&#9670;&nbsp;</a></span>EvaluateCVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Dynui::ImguiConsole::EvaluateCVar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>splits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a514db6375fa4a1d4e1862177766cd979"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a514db6375fa4a1d4e1862177766cd979">&#9670;&nbsp;</a></span>Execute()</h2>
 
@@ -514,6 +558,20 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a77938936faedb6a41473826bcf946618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77938936faedb6a41473826bcf946618">&#9670;&nbsp;</a></span>cmdMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9">Dynui::ImguiConsole::CommandMode</a> Dynui::ImguiConsole::cmdMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7b0a20a973d16d7f7871f22b2a190ae6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b0a20a973d16d7f7871f22b2a190ae6">&#9670;&nbsp;</a></span>command</h2>
 
@@ -729,7 +787,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_dynui.html">Dynui</a></li><li class="navelem"><a class="el" href="class_dynui_1_1_imgui_console.html">ImguiConsole</a></li>
 				<li class="footer">
-					Generated on Sat Mar 6 2021 09:28:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Mar 6 2021 21:46:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

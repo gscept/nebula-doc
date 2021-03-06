@@ -1,6 +1,10 @@
 var class_dynui_1_1_imgui_console =
 [
     [ "LogEntry", "struct_dynui_1_1_imgui_console_1_1_log_entry.html", "struct_dynui_1_1_imgui_console_1_1_log_entry" ],
+    [ "CommandMode", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9", [
+      [ "Python", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff", null ],
+      [ "CVar", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9a10ea2835e3d4bb84bb39656ae948cd9e", null ]
+    ] ],
     [ "LogMessageType", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12", [
       [ "N_MESSAGE", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12a26399f732b3eb5aa0fa32922eb7f8689", null ],
       [ "N_INPUT", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12a22674b798802a46f469e0b98afe38142", null ],
@@ -15,11 +19,13 @@ var class_dynui_1_1_imgui_console =
     [ "__DeclareInterfaceSingleton", "class_dynui_1_1_imgui_console.html#a7e608f9fc3c9109b712087a838ace955", null ],
     [ "AppendToLog", "class_dynui_1_1_imgui_console.html#ab68a755c7433dcffbd136687d0432e5e", null ],
     [ "Discard", "class_dynui_1_1_imgui_console.html#a789583dcb39227744bdbbb0b1877583d", null ],
+    [ "EvaluateCVar", "class_dynui_1_1_imgui_console.html#a45312d0c7e0c893a1c623ce79d30f45a", null ],
     [ "Execute", "class_dynui_1_1_imgui_console.html#a514db6375fa4a1d4e1862177766cd979", null ],
     [ "LogEntryTypeAsCharPtr", "class_dynui_1_1_imgui_console.html#a072c2e7bd093da8baeb3facba3bafda8", null ],
     [ "Render", "class_dynui_1_1_imgui_console.html#a50412990942953ffb873f5ca6369ba59", null ],
     [ "RenderContent", "class_dynui_1_1_imgui_console.html#aba57ffc168b20aa8e5a1d9decb3ce28d", null ],
     [ "Setup", "class_dynui_1_1_imgui_console.html#acc2ba3685798087d8e59392e0d62be4e", null ],
+    [ "cmdMode", "class_dynui_1_1_imgui_console.html#a77938936faedb6a41473826bcf946618", null ],
     [ "command", "class_dynui_1_1_imgui_console.html#a7b0a20a973d16d7f7871f22b2a190ae6", null ],
     [ "consoleBuffer", "class_dynui_1_1_imgui_console.html#a240aa037ee64412b355fd9454b7e4c6c", null ],
     [ "moveScroll", "class_dynui_1_1_imgui_console.html#a526f599cd09076f9ba11f25dab3d6297", null ],

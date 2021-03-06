@@ -147,6 +147,24 @@ Functions</h2></td></tr>
 <tr class="memitem:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b">Core::CVarSetModified</a> (CVar *, bool)</td></tr>
 <tr class="memdesc:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the modified status of a cvar.  <a href="namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b">More...</a><br /></td></tr>
 <tr class="separator:ac43c2b0fd9b6ac676b3558e721b9054b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7cd535d919c9b3e0e915ed15e3f5c47"><td class="memItemLeft" align="right" valign="top">CVarType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#af7cd535d919c9b3e0e915ed15e3f5c47">Core::CVarGetType</a> (CVar *)</td></tr>
+<tr class="memdesc:af7cd535d919c9b3e0e915ed15e3f5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a cvar.  <a href="namespace_core.html#af7cd535d919c9b3e0e915ed15e3f5c47">More...</a><br /></td></tr>
+<tr class="separator:af7cd535d919c9b3e0e915ed15e3f5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22aa335ab5dd2862998ae1d57d800c9e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a22aa335ab5dd2862998ae1d57d800c9e">Core::CVarGetName</a> (CVar *)</td></tr>
+<tr class="memdesc:a22aa335ab5dd2862998ae1d57d800c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the cvars name.  <a href="namespace_core.html#a22aa335ab5dd2862998ae1d57d800c9e">More...</a><br /></td></tr>
+<tr class="separator:a22aa335ab5dd2862998ae1d57d800c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bff44b5e27daf04e1f7f40914ece6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#ad1bff44b5e27daf04e1f7f40914ece6e">Core::CVarNum</a> ()</td></tr>
+<tr class="memdesc:ad1bff44b5e27daf04e1f7f40914ece6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of vars created.  <a href="namespace_core.html#ad1bff44b5e27daf04e1f7f40914ece6e">More...</a><br /></td></tr>
+<tr class="separator:ad1bff44b5e27daf04e1f7f40914ece6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95c11822b648c72c88a506544862d8e"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#ae95c11822b648c72c88a506544862d8e">Core::CVarsBegin</a> ()</td></tr>
+<tr class="memdesc:ae95c11822b648c72c88a506544862d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the first cvar in the array.  <a href="namespace_core.html#ae95c11822b648c72c88a506544862d8e">More...</a><br /></td></tr>
+<tr class="separator:ae95c11822b648c72c88a506544862d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0657dac12efc9bf74d90cd1b865ac8"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#acb0657dac12efc9bf74d90cd1b865ac8">Core::CVarsEnd</a> ()</td></tr>
+<tr class="memdesc:acb0657dac12efc9bf74d90cd1b865ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the address after the last valid cvar in the array.  <a href="namespace_core.html#acb0657dac12efc9bf74d90cd1b865ac8">More...</a><br /></td></tr>
+<tr class="separator:acb0657dac12efc9bf74d90cd1b865ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fb2df2f420ed0a5c5c88a6b3a15a14"><td class="memItemLeft" align="right" valign="top">CVar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core.html#a91fb2df2f420ed0a5c5c88a6b3a15a14">Core::CVarNext</a> (CVar *)</td></tr>
+<tr class="memdesc:a91fb2df2f420ed0a5c5c88a6b3a15a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">increment the iterator  <a href="namespace_core.html#a91fb2df2f420ed0a5c5c88a6b3a15a14">More...</a><br /></td></tr>
+<tr class="separator:a91fb2df2f420ed0a5c5c88a6b3a15a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -166,7 +184,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="cvar_8cc.html">cvar.cc</a></li>
 				<li class="footer">
-					Generated on Sat Mar 6 2021 09:28:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Mar 6 2021 21:46:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
