@@ -117,12 +117,12 @@ $(document).ready(function(){initNavTree('memdb_2dataset_8h_source.html',''); in
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace MemDb</span></div>
-<div class="ttc" id="aclass_mem_db_1_1_database_html"><div class="ttname"><a href="class_mem_db_1_1_database.html">MemDb::Database</a></div><div class="ttdef"><b>Definition:</b> database.h:27</div></div>
+<div class="ttc" id="aclass_mem_db_1_1_database_html"><div class="ttname"><a href="class_mem_db_1_1_database.html">MemDb::Database</a></div><div class="ttdef"><b>Definition:</b> database.h:28</div></div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition:</b> ptr.h:39</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition:</b> array.h:40</div></div>
 <div class="ttc" id="aclass_util_1_1_array_stack_html"><div class="ttname"><a href="class_util_1_1_array_stack.html">Util::ArrayStack&lt; void *, 16 &gt;</a></div></div>
 <div class="ttc" id="aclass_util_1_1_string_html"><div class="ttname"><a href="class_util_1_1_string.html">Util::String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition:</b> string.h:48</div></div>
-<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">MemDb::Database.</div><div class="ttdef"><b>Definition:</b> database.cc:9</div></div>
+<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">MemDb::Database.</div><div class="ttdef"><b>Definition:</b> database.cc:12</div></div>
 <div class="ttc" id="apropertyid_8h_html"><div class="ttname"><a href="propertyid_8h.html">propertyid.h</a></div></div>
 <div class="ttc" id="astruct_mem_db_1_1_dataset_1_1_view_html"><div class="ttname"><a href="struct_mem_db_1_1_dataset_1_1_view.html">MemDb::Dataset::View</a></div><div class="ttdoc">A view into a category table.</div><div class="ttdef"><b>Definition:</b> dataset.h:21</div></div>
 <div class="ttc" id="astruct_mem_db_1_1_dataset_1_1_view_html_a4c30edaa3742baec8323e46167d3c579"><div class="ttname"><a href="struct_mem_db_1_1_dataset_1_1_view.html#a4c30edaa3742baec8323e46167d3c579">MemDb::Dataset::View::buffers</a></div><div class="ttdeci">Util::ArrayStack&lt; void *, 16 &gt; buffers</div><div class="ttdef"><b>Definition:</b> dataset.h:27</div></div>
@@ -131,8 +131,8 @@ $(document).ready(function(){initNavTree('memdb_2dataset_8h_source.html',''); in
 <div class="ttc" id="astruct_mem_db_1_1_dataset_html"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html">MemDb::Dataset</a></div><div class="ttdef"><b>Definition:</b> dataset.h:18</div></div>
 <div class="ttc" id="astruct_mem_db_1_1_dataset_html_a708476b1e1f2aa35693a057d15a4b583"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html#a708476b1e1f2aa35693a057d15a4b583">MemDb::Dataset::tables</a></div><div class="ttdeci">Util::Array&lt; View &gt; tables</div><div class="ttdoc">views into the tables</div><div class="ttdef"><b>Definition:</b> dataset.h:31</div></div>
 <div class="ttc" id="astruct_mem_db_1_1_dataset_html_abd4f1632b1df7f4d75b4a706a9d30c2d"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html#abd4f1632b1df7f4d75b4a706a9d30c2d">MemDb::Dataset::db</a></div><div class="ttdeci">Ptr&lt; Database &gt; db</div><div class="ttdoc">pointer to the database used to construct this set</div><div class="ttdef"><b>Definition:</b> dataset.h:38</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_dataset_html_ac4616d62eb36d7075fa55a663c7c1dba"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html#ac4616d62eb36d7075fa55a663c7c1dba">MemDb::Dataset::Validate</a></div><div class="ttdeci">void Validate()</div><div class="ttdoc">Validate tables and num instances. This ensures valid data, but does not re-query for new tables.</div><div class="ttdef"><b>Definition:</b> database.cc:17</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_table_id_html"><div class="ttname"><a href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a></div><div class="ttdoc">Table identifier.</div><div class="ttdef"><b>Definition:</b> table.h:24</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_dataset_html_ac4616d62eb36d7075fa55a663c7c1dba"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html#ac4616d62eb36d7075fa55a663c7c1dba">MemDb::Dataset::Validate</a></div><div class="ttdeci">void Validate()</div><div class="ttdoc">Validate tables and num instances. This ensures valid data, but does not re-query for new tables.</div><div class="ttdef"><b>Definition:</b> database.cc:20</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_table_id_html"><div class="ttname"><a href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a></div><div class="ttdoc">Table identifier.</div><div class="ttdef"><b>Definition:</b> table.h:25</div></div>
 <div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition:</b> types.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('memdb_2dataset_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="memdb_2dataset_8h.html">dataset.h</a></li>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 12:15:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 14:05:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

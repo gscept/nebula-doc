@@ -38,5 +38,6 @@ var namespace_models =
     [ "ModelNodeInstanceCreator", "namespace_models.html#a8ea4f5801a7a73f6133d718d9556caff", null ],
     [ "ModelNodeInstanceCreator", "namespace_models.html#ad56045b57fdf40620b034e679073ab63", null ],
     [ "ModelNodeInstanceCreator", "namespace_models.html#ab80c3207b37713186c1c49bf211e805e", null ],
-    [ "modelPool", "namespace_models.html#a5f6108f77e692784bf9492bb55995c08", null ]
+    [ "modelPool", "namespace_models.html#a5f6108f77e692784bf9492bb55995c08", null ],
+    [ "setupCompleteQueue", "namespace_models.html#aeb16d485dfcc2dc93c6c6f1333b6ce7b", null ]
 ];

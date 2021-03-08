@@ -121,7 +121,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a902643fb768dd8e334dad1684be829c0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#a902643fb768dd8e334dad1684be829c0">Discard</a> ()</td></tr>
 <tr class="memdesc:a902643fb768dd8e334dad1684be829c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard context  <a href="class_post_effects_1_1_histogram_context.html#a902643fb768dd8e334dad1684be829c0">More...</a><br /></td></tr>
 <tr class="separator:a902643fb768dd8e334dad1684be829c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2070d1e3b7cb63d376107727b5898c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#ad2070d1e3b7cb63d376107727b5898c5">SetWindow</a> (const <a class="el" href="struct_math_1_1float2.html">Math::float2</a> <a class="el" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>, <a class="el" href="struct_math_1_1float2.html">Math::float2</a> <a class="el" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>, int mip)</td></tr>
+<tr class="memitem:ad2070d1e3b7cb63d376107727b5898c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#ad2070d1e3b7cb63d376107727b5898c5">SetWindow</a> (const <a class="el" href="struct_math_1_1float2.html">Math::float2</a> <a class="el" href="namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067">offset</a>, <a class="el" href="struct_math_1_1float2.html">Math::float2</a> <a class="el" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>, int <a class="el" href="namespace_post_effects.html#a411589b433cb5e70aadb5713fab42ada">mip</a>)</td></tr>
 <tr class="memdesc:ad2070d1e3b7cb63d376107727b5898c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set histogram window in relative coordinates and mip of source texture  <a href="class_post_effects_1_1_histogram_context.html#ad2070d1e3b7cb63d376107727b5898c5">More...</a><br /></td></tr>
 <tr class="separator:ad2070d1e3b7cb63d376107727b5898c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23799f4c2431f4b37ac9342d476bcce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#af23799f4c2431f4b37ac9342d476bcce">Setup</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_frame_1_1_frame_script.html">Frame::FrameScript</a> &gt; &amp;script)</td></tr>
@@ -130,6 +130,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f4eed17a6135bb66a4e31a9a4f4a443"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#a4f4eed17a6135bb66a4e31a9a4f4a443">UpdateViewResources</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a4f4eed17a6135bb66a4e31a9a4f4a443"><td class="mdescLeft">&#160;</td><td class="mdescRight">update view resources  <a href="class_post_effects_1_1_histogram_context.html#a4f4eed17a6135bb66a4e31a9a4f4a443">More...</a><br /></td></tr>
 <tr class="separator:a4f4eed17a6135bb66a4e31a9a4f4a443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172eefa4f95011569fb485d76fa00e29"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_histogram_context.html#a172eefa4f95011569fb485d76fa00e29">UpdateConstants</a> ()</td></tr>
+<tr class="separator:a172eefa4f95011569fb485d76fa00e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -410,6 +412,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a172eefa4f95011569fb485d76fa00e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172eefa4f95011569fb485d76fa00e29">&#9670;&nbsp;</a></span>UpdateConstants()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::HistogramContext::UpdateConstants </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4f4eed17a6135bb66a4e31a9a4f4a443"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f4eed17a6135bb66a4e31a9a4f4a443">&#9670;&nbsp;</a></span>UpdateViewResources()</h2>
 
@@ -459,7 +486,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_post_effects.html">PostEffects</a></li><li class="navelem"><a class="el" href="class_post_effects_1_1_histogram_context.html">HistogramContext</a></li>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 12:17:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 14:07:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

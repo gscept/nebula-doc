@@ -84,7 +84,8 @@ $(document).ready(function(){initNavTree('gameserver_8h.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">gameserver.h File Reference</div>  </div>
 </div><!--header-->
@@ -94,8 +95,10 @@ $(document).ready(function(){initNavTree('gameserver_8h.html',''); initResizable
 <code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="featureunit_8h_source.html">game/featureunit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="debugtimer_8h_source.html">debug/debugtimer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="api_8h_source.html">api.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idgenerationpool_8h_source.html">ids/idgenerationpool.h</a>&quot;</code><br />
+<code>#include &quot;basegamefeature/properties/owner.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="api_8h_source.html">api.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="entitypool_8h_source.html">entitypool.h</a>&quot;</code><br />
 </div>
 <p><a href="gameserver_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -104,15 +107,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game server setups and runs the game world.  <a href="class_game_1_1_game_server.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">Game::GameServer::CallbackInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_processor_info.html">Game::GameServer::ProcessorInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_state.html">Game::GameServer::State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains internal state and world management  <a href="struct_game_1_1_game_server_1_1_state.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_game"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html">Game</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a69df18504c439f3171b43c0de6463f02"><td class="memItemLeft" align="right" valign="top">typedef ProcessorCreateInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">Game::ProcessorInfo</a></td></tr>
+<tr class="separator:a69df18504c439f3171b43c0de6463f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -121,7 +128,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="gameserver_8h.html">gameserver.h</a></li>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 12:17:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 14:07:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

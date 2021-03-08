@@ -9,5 +9,6 @@ var class_post_effects_1_1_histogram_context =
     [ "Discard", "class_post_effects_1_1_histogram_context.html#a902643fb768dd8e334dad1684be829c0", null ],
     [ "Setup", "class_post_effects_1_1_histogram_context.html#af23799f4c2431f4b37ac9342d476bcce", null ],
     [ "SetWindow", "class_post_effects_1_1_histogram_context.html#ad2070d1e3b7cb63d376107727b5898c5", null ],
+    [ "UpdateConstants", "class_post_effects_1_1_histogram_context.html#a172eefa4f95011569fb485d76fa00e29", null ],
     [ "UpdateViewResources", "class_post_effects_1_1_histogram_context.html#a4f4eed17a6135bb66a4e31a9a4f4a443", null ]
 ];

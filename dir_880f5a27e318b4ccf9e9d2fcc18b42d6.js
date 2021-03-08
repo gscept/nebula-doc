@@ -7,20 +7,22 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "category.h", "category_8h.html", "category_8h" ],
     [ "entity.cc", "entity_8cc.html", null ],
     [ "entity.h", "entity_8h.html", [
-      [ "CategoryId", "struct_game_1_1_category_id.html", null ],
-      [ "InstanceId", "struct_game_1_1_instance_id.html", null ],
-      [ "Entity", "struct_game_1_1_entity.html", null ]
+      [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ]
+    ] ],
+    [ "entitypool.cc", "entitypool_8cc.html", null ],
+    [ "entitypool.h", "entitypool_8h.html", [
+      [ "EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],
+      [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ],
+      [ "AllocateInstanceCommand", "struct_game_1_1_world_1_1_allocate_instance_command.html", "struct_game_1_1_world_1_1_allocate_instance_command" ],
+      [ "DeallocInstanceCommand", "struct_game_1_1_world_1_1_dealloc_instance_command.html", "struct_game_1_1_world_1_1_dealloc_instance_command" ],
+      [ "CallbackInfo", "struct_game_1_1_world_1_1_callback_info.html", "struct_game_1_1_world_1_1_callback_info" ]
     ] ],
     [ "featureunit.cc", "featureunit_8cc.html", "featureunit_8cc" ],
     [ "featureunit.h", "featureunit_8h.html", [
       [ "FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ]
     ] ],
     [ "gameserver.cc", "gameserver_8cc.html", "gameserver_8cc" ],
-    [ "gameserver.h", "gameserver_8h.html", [
-      [ "GameServer", "class_game_1_1_game_server.html", "class_game_1_1_game_server" ],
-      [ "CallbackInfo", "struct_game_1_1_game_server_1_1_callback_info.html", "struct_game_1_1_game_server_1_1_callback_info" ],
-      [ "ProcessorInfo", "struct_game_1_1_game_server_1_1_processor_info.html", "struct_game_1_1_game_server_1_1_processor_info" ]
-    ] ],
+    [ "gameserver.h", "gameserver_8h.html", "gameserver_8h" ],
     [ "manager.cc", "manager_8cc.html", null ],
     [ "manager.h", "manager_8h.html", [
       [ "ManagerHandle", "struct_game_1_1_manager_handle.html", null ],

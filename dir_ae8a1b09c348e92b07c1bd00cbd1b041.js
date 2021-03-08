@@ -17,12 +17,7 @@ var dir_ae8a1b09c348e92b07c1bd00cbd1b041 =
     [ "propertyid.h", "propertyid_8h.html", [
       [ "PropertyId", "struct_mem_db_1_1_property_id.html", null ]
     ] ],
-    [ "table.h", "memdb_2table_8h.html", [
-      [ "TableId", "struct_mem_db_1_1_table_id.html", null ],
-      [ "ColumnIndex", "struct_mem_db_1_1_column_index.html", null ],
-      [ "TableCreateInfo", "struct_mem_db_1_1_table_create_info.html", "struct_mem_db_1_1_table_create_info" ],
-      [ "Table", "struct_mem_db_1_1_table.html", "struct_mem_db_1_1_table" ]
-    ] ],
+    [ "table.h", "memdb_2table_8h.html", "memdb_2table_8h" ],
     [ "tablesignature.h", "tablesignature_8h.html", [
       [ "TableSignature", "class_mem_db_1_1_table_signature.html", "class_mem_db_1_1_table_signature" ]
     ] ],

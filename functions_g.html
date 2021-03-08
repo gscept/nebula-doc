@@ -140,17 +140,21 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GenerateStackTrace()
 : <a class="el" href="class_win32_1_1_win32_stack_trace.html#a9c4d2f2d2960454ec93ac456b7fd9520">Win32::Win32StackTrace</a>
 </li>
+<li>generation
+: <a class="el" href="struct_game_1_1_entity.html#a98f7d62bc1a00dca19c2feccc0bb10f3">Game::Entity</a>
+</li>
 <li>generations
-: <a class="el" href="class_ids_1_1_id_generation_pool.html#aa5585b67f66ab1befeb2cab4f930ef60">Ids::IdGenerationPool</a>
+: <a class="el" href="class_game_1_1_entity_pool.html#a6f015f327fcdcafcb0f950d030eaadff">Game::EntityPool</a>
+, <a class="el" href="class_ids_1_1_id_generation_pool.html#aa5585b67f66ab1befeb2cab4f930ef60">Ids::IdGenerationPool</a>
 </li>
 <li>generator
 : <a class="el" href="struct_gltf_1_1_asset.html#ac632f289b3b504be8dfd8a270b9d39a6">Gltf::Asset</a>
 </li>
-<li>genericDecalAllocator
-: <a class="el" href="class_decals_1_1_decal_context.html#ab38d3073da57bac5bcf0425bfa322849">Decals::DecalContext</a>
-</li>
 <li>GenericDecalAllocator
 : <a class="el" href="class_decals_1_1_decal_context.html#a8e314fc7de3acaf1ef73e7fb3b46ff2b">Decals::DecalContext</a>
+</li>
+<li>genericDecalAllocator
+: <a class="el" href="class_decals_1_1_decal_context.html#ab38d3073da57bac5bcf0425bfa322849">Decals::DecalContext</a>
 </li>
 <li>GenericLightAllocator
 : <a class="el" href="class_lighting_1_1_light_context.html#abc9c85ff70e2aa10e5a27c522f604266">Lighting::LightContext</a>
@@ -184,7 +188,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="class_util_1_1_array_allocator.html#a793650e9674fc319c3b9dc7cf9282d14">Util::ArrayAllocator&lt; TYPES &gt;</a>
 , <a class="el" href="class_util_1_1_array_allocator_safe.html#aa3a9e91ad7037881a09880fa7a76ea55">Util::ArrayAllocatorSafe&lt; TYPES &gt;</a>
 , <a class="el" href="class_util_1_1_string.html#abc0d13322b8bb7b27348df983b15ba3c">Util::String</a>
-, <a class="el" href="class_util_1_1_variant.html#ad6c98118cfefcbb5dd8f9d8555f0e60d">Util::Variant</a>
+, <a class="el" href="class_util_1_1_variant.html#a578aa4b103a69b1b369a43b2440e8067">Util::Variant</a>
 </li>
 <li>get()
 : <a class="el" href="class_weak_ptr.html#a3a8230e4007d97951fcbe4e6e78ae610">WeakPtr&lt; TYPE &gt;</a>
@@ -356,7 +360,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>GetArray()
 : <a class="el" href="class_util_1_1_array_allocator.html#af7ec1ba6d010074f72f7181df1c56784">Util::ArrayAllocator&lt; TYPES &gt;</a>
-, <a class="el" href="class_util_1_1_array_allocator_safe.html#a283fab4cc27997b4e9208a97e268b96a">Util::ArrayAllocatorSafe&lt; TYPES &gt;</a>
+, <a class="el" href="class_util_1_1_array_allocator_safe.html#a1e1dd741b0c768d91c79e701ccaea7fc">Util::ArrayAllocatorSafe&lt; TYPES &gt;</a>
 </li>
 <li>GetAspect()
 : <a class="el" href="class_graphics_1_1_camera_settings.html#a9be6d1563142219814a86bb8a56363ca">Graphics::CameraSettings</a>
@@ -460,7 +464,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>GetBool()
 : <a class="el" href="class_attr_1_1_attribute.html#a02763fa542115c50ff7f8dbeb5d832b6">Attr::Attribute</a>
-, <a class="el" href="class_attr_1_1_attribute_container.html#ab2a35916e1c5d078068d65eaf8af2418">Attr::AttributeContainer</a>
+, <a class="el" href="class_attr_1_1_attribute_container.html#a762a2206ce65cab5f8a2f38dd9f1fd89">Attr::AttributeContainer</a>
 , <a class="el" href="class_attr_1_1_attribute_table.html#a8d89c50167ff33d314aa329f4aa1a812">Attr::AttributeTable</a>
 , <a class="el" href="class_db_1_1_reader.html#ac5130390ee5d703e8c4024b27bd362de">Db::Reader</a>
 , <a class="el" href="class_i_o_1_1_b_xml_reader.html#a8a814c98f2e4ba4a90b48c41e95f971a">IO::BXmlReader</a>
@@ -547,7 +551,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>GetCategory()
 : <a class="el" href="class_core_animation_1_1_anim_event.html#a978850983703c6e30a4bf37ce5397079">CoreAnimation::AnimEvent</a>
-, <a class="el" href="class_game_1_1_entity_manager.html#a97926e875efae7309234846f0a5c7248">Game::EntityManager</a>
 </li>
 <li>GetCategoryName()
 : <a class="el" href="class_animation_1_1_anim_event_handler_base.html#ae46b410325ef654dcec5bc5c3665628e">Animation::AnimEventHandlerBase</a>
@@ -1629,9 +1632,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="class_posix_1_1_posix_memory_pool.html#a158f5a9c7e6b326d7214dfa1c12dab8f">Posix::PosixMemoryPool</a>
 , <a class="el" href="class_win32_1_1_win32_memory_pool.html#ad5ec3a3583d31bb7280da82f7e220bf5">Win32::Win32MemoryPool</a>
 </li>
-<li>GetNumCategories()
-: <a class="el" href="class_game_1_1_entity_manager.html#a096c62e60edc4a417c3e163176265a7e">Game::EntityManager</a>
-</li>
 <li>GetNumChunks()
 : <a class="el" href="class_util_1_1_string_buffer.html#a2fe91ec6c917c3e768ef7fddaf03a158">Util::StringBuffer</a>
 </li>
@@ -1731,7 +1731,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="class_math_1_1transform44.html#accdc55561f28e86ebd0ddc7f281d854e">Math::transform44</a>
 </li>
 <li>GetOpt()
-: <a class="el" href="class_i_o_1_1_json_reader.html#a2e6f6f69b51ebadaa6d92912bedaf13f">IO::JsonReader</a>
+: <a class="el" href="class_i_o_1_1_json_reader.html#a3123c50e704febc2d0436422d1be548c">IO::JsonReader</a>
 </li>
 <li>GetOptBool()
 : <a class="el" href="class_i_o_1_1_b_xml_reader.html#ae3c9544145e4ed8b098eff3fd0edf75f">IO::BXmlReader</a>
@@ -1883,6 +1883,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="class_o_s_x_1_1_o_s_x_thread.html#a06789ba6499095c21068ccf15e8a0075">OSX::OSXThread</a>
 , <a class="el" href="class_posix_1_1_posix_thread.html#abdc7127d20e4a2b0af15bd6ce20842b3">Posix::PosixThread</a>
 , <a class="el" href="class_win32_1_1_win32_thread.html#a7cec3832d7ae41a48d80073eb5d24bf9">Win32::Win32Thread</a>
+</li>
+<li>GetProcessorInfo()
+: <a class="el" href="class_game_1_1_game_server.html#a5449bf850794b4d5b2a4af0f4d858f9b">Game::GameServer</a>
 </li>
 <li>GetProgram()
 : <a class="el" href="class_vulkan_1_1_vk_shader_pool.html#a24e97cdec6b22f8b87cb05c4a2b056ac">Vulkan::VkShaderPool</a>
@@ -2663,8 +2666,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetWindowTexture()
 : <a class="el" href="class_frame_1_1_frame_server.html#ae227f6f78e05b9a57e7dc4c0790c8356">Frame::FrameServer</a>
 </li>
-<li>GetWorldDimensions()
-: <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#af8a3258d6331c4912b9cb2726c098ca2">BaseGameFeature::BaseGameFeatureUnit</a>
+<li>GetWorld()
+: <a class="el" href="class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763">Game::GameServer</a>
 </li>
 <li>GetXPos()
 : <a class="el" href="class_core_graphics_1_1_display_mode.html#a382c462d9ddb7df5d5825fd655821c67">CoreGraphics::DisplayMode</a>
@@ -2789,11 +2792,11 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GlobalLight_ViewProjTransform
 : <a class="el" href="class_lighting_1_1_light_context.html#a6d1139c770070172326f3893a4a2aa19a9db44fe85d8127b03a4abec54f011df5">Lighting::LightContext</a>
 </li>
-<li>globalLightAllocator
-: <a class="el" href="class_lighting_1_1_light_context.html#a049c63d6ad9246bc9ce1c44abcec4b97">Lighting::LightContext</a>
-</li>
 <li>GlobalLightAllocator
 : <a class="el" href="class_lighting_1_1_light_context.html#aaed90fe428ded920f6c4bef78b16082b">Lighting::LightContext</a>
+</li>
+<li>globalLightAllocator
+: <a class="el" href="class_lighting_1_1_light_context.html#a049c63d6ad9246bc9ce1c44abcec4b97">Lighting::LightContext</a>
 </li>
 <li>globalLightBatch
 : <a class="el" href="class_lighting_1_1_vk_shadow_server.html#ad060229bbd8e54e227c904c594fc9f96">Lighting::VkShadowServer</a>
@@ -2961,24 +2964,22 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>grow
 : <a class="el" href="class_ids_1_1_id_pool.html#aafbcfe93fd34624febc65fa1a03bceb0">Ids::IdPool</a>
 , <a class="el" href="struct_mem_db_1_1_table.html#aacbf04219790c0775a05a8f2e34315e0">MemDb::Table</a>
+, <a class="el" href="class_util_1_1_array.html#aa6c2872f026eade1aeb3d62326ece5e6">Util::Array&lt; TYPE &gt;</a>
 </li>
 <li>Grow()
 : <a class="el" href="class_util_1_1_array.html#a248ca278c07c82c21c6f062a6da27b31">Util::Array&lt; TYPE &gt;</a>
 </li>
 <li>grow
-: <a class="el" href="class_util_1_1_array.html#aa6c2872f026eade1aeb3d62326ece5e6">Util::Array&lt; TYPE &gt;</a>
+: <a class="el" href="class_util_1_1_array_stack.html#a4f3e359e9537f9f7c3b8d12617bdcc9e">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>
 </li>
 <li>Grow()
 : <a class="el" href="class_util_1_1_array_stack.html#abc1aeccad29a8cdaa18e38e64a20d48b">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>
 </li>
 <li>grow
-: <a class="el" href="class_util_1_1_array_stack.html#a4f3e359e9537f9f7c3b8d12617bdcc9e">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>
+: <a class="el" href="class_util_1_1_queue.html#aaea5763e46eb2252c52c3e1bfd41ced5">Util::Queue&lt; TYPE &gt;</a>
 </li>
 <li>Grow()
 : <a class="el" href="class_util_1_1_queue.html#a5e5547ee34c23cc5dcfe7e3859db8dd5">Util::Queue&lt; TYPE &gt;</a>
-</li>
-<li>grow
-: <a class="el" href="class_util_1_1_queue.html#aaea5763e46eb2252c52c3e1bfd41ced5">Util::Queue&lt; TYPE &gt;</a>
 </li>
 <li>GrowIndexBuffer()
 : <a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a4e740a80d4bbc8d55a44c7c4c7938bfd">Vulkan::VkShapeRenderer</a>
@@ -3009,10 +3010,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>guid
 : <a class="el" href="class_core_graphics_1_1_adapter_info.html#aca343942371955ebece8bf37c74834a6">CoreGraphics::AdapterInfo</a>
-, <a class="el" href="class_util_1_1_variant.html#a242cb6863104beb4a7bf15573d2c0300">Util::Variant</a>
 </li>
 <li>Guid
 : <a class="el" href="class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba8e512ace2a765f53c0154ab30880413b">Util::Variant</a>
+</li>
+<li>guid
+: <a class="el" href="class_util_1_1_variant.html#a242cb6863104beb4a7bf15573d2c0300">Util::Variant</a>
 </li>
 <li>GuidArray
 : <a class="el" href="class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba3d16067a3f3ec85ec237abecef47b545">Util::Variant</a>
@@ -3030,7 +3033,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 12:17:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 14:07:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

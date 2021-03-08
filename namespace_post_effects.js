@@ -78,6 +78,8 @@ var namespace_post_effects =
     [ "logMinLuminance", "namespace_post_effects.html#a6b5fdeebcd1eaa927c1da45cd1d6b861", null ],
     [ "luminanceTextureSlot", "namespace_post_effects.html#a0904f4ac9efff5d8b72e2348f341552c", null ],
     [ "maxRadiusPixels", "namespace_post_effects.html#a79d6f493e8bd2ebc1127280cbc506d99", null ],
+    [ "minLuminance", "namespace_post_effects.html#a200a553b887af8250a1d039d5fcd46ce", null ],
+    [ "mip", "namespace_post_effects.html#a411589b433cb5e70aadb5713fab42ada", null ],
     [ "nearZ", "namespace_post_effects.html#af0b1e7f5c9e760b66f1cd15a5f2fd191", null ],
     [ "negInvR2", "namespace_post_effects.html#a9d71e37dfb594aa3801da498bbfb8ed7", null ],
     [ "offset", "namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067", null ],

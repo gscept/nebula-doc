@@ -86,6 +86,8 @@ $(document).ready(function(){initNavTree('class_game_1_1_game_server.html',''); 
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_game_1_1_game_server-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Game::GameServer Class Reference</div>  </div>
@@ -104,9 +106,8 @@ $(document).ready(function(){initNavTree('class_game_1_1_game_server.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_processor_info.html">ProcessorInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_game_server_1_1_state.html">State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains internal state and world management  <a href="struct_game_1_1_game_server_1_1_state.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -119,17 +120,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aa353036973a11e8d170172d01c43b33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fe75523f9d644fda26edcfac213a3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a7fe75523f9d644fda26edcfac213a3fb">gameFeatures</a></td></tr>
 <tr class="separator:a7fe75523f9d644fda26edcfac213a3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4cd700782055ca92af07bfb43bada13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#af4cd700782055ca92af07bfb43bada13">onBeginFrameCallbacks</a></td></tr>
-<tr class="separator:af4cd700782055ca92af07bfb43bada13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e49fa00c99e47a505b9ba5907f4ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#aa7e49fa00c99e47a505b9ba5907f4ae2">onFrameCallbacks</a></td></tr>
-<tr class="separator:aa7e49fa00c99e47a505b9ba5907f4ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf423256bd237ff5a85737972e623ea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#acf423256bd237ff5a85737972e623ea2">onEndFrameCallbacks</a></td></tr>
-<tr class="separator:acf423256bd237ff5a85737972e623ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdaa987a99a6d4f4a917e4f85ccff0a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#abdaa987a99a6d4f4a917e4f85ccff0a1">onLoadCallbacks</a></td></tr>
-<tr class="separator:abdaa987a99a6d4f4a917e4f85ccff0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a718f397feb79283a7dfe3f8885697f54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a718f397feb79283a7dfe3f8885697f54">onSaveCallbacks</a></td></tr>
-<tr class="separator:a718f397feb79283a7dfe3f8885697f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe4af3966eccf766ef063455f37cc1b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_game_server_1_1_processor_info.html">ProcessorInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#abe4af3966eccf766ef063455f37cc1b4">processors</a></td></tr>
+<tr class="memitem:abe4af3966eccf766ef063455f37cc1b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">ProcessorInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#abe4af3966eccf766ef063455f37cc1b4">processors</a></td></tr>
 <tr class="separator:abe4af3966eccf766ef063455f37cc1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a659fe41afeb5ffed2827dba4f524820a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a659fe41afeb5ffed2827dba4f524820a">processorHandlePool</a></td></tr>
 <tr class="separator:a659fe41afeb5ffed2827dba4f524820a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,16 +176,45 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a72cbd53c7974633e0bfa83bde840041a"><td class="mdescLeft">&#160;</td><td class="mdescRight">is feature attached  <a href="class_game_1_1_game_server.html#a72cbd53c7974633e0bfa83bde840041a">More...</a><br /></td></tr>
 <tr class="separator:a72cbd53c7974633e0bfa83bde840041a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a3fb20cb6cc6bb20b9788221620929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a> &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#aa1a3fb20cb6cc6bb20b9788221620929">GetGameFeatures</a> () const</td></tr>
+<tr class="memdesc:aa1a3fb20cb6cc6bb20b9788221620929"><td class="mdescLeft">&#160;</td><td class="mdescRight">access to all attached features units  <a href="class_game_1_1_game_server.html#aa1a3fb20cb6cc6bb20b9788221620929">More...</a><br /></td></tr>
 <tr class="separator:aa1a3fb20cb6cc6bb20b9788221620929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8741912e7435cd8cb8e3443a47042596"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a8741912e7435cd8cb8e3443a47042596">CreateProcessor</a> (<a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const &amp;info)</td></tr>
 <tr class="memdesc:a8741912e7435cd8cb8e3443a47042596"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a processor  <a href="class_game_1_1_game_server.html#a8741912e7435cd8cb8e3443a47042596">More...</a><br /></td></tr>
 <tr class="separator:a8741912e7435cd8cb8e3443a47042596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5449bf850794b4d5b2a4af0f4d858f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">ProcessorInfo</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a5449bf850794b4d5b2a4af0f4d858f9b">GetProcessorInfo</a> (<a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a> handle)</td></tr>
+<tr class="memdesc:a5449bf850794b4d5b2a4af0f4d858f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get info about a processor  <a href="class_game_1_1_game_server.html#a5449bf850794b4d5b2a4af0f4d858f9b">More...</a><br /></td></tr>
+<tr class="separator:a5449bf850794b4d5b2a4af0f4d858f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ea63b62bee34d19971bafeec96509f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a10ea63b62bee34d19971bafeec96509f">SetCmdLineArgs</a> (const <a class="el" href="class_util_1_1_command_line_args.html">Util::CommandLineArgs</a> &amp;a)</td></tr>
 <tr class="memdesc:a10ea63b62bee34d19971bafeec96509f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set command line args  <a href="class_game_1_1_game_server.html#a10ea63b62bee34d19971bafeec96509f">More...</a><br /></td></tr>
 <tr class="separator:a10ea63b62bee34d19971bafeec96509f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3eae27cf145448d0d675a60792411f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_command_line_args.html">Util::CommandLineArgs</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#ad3eae27cf145448d0d675a60792411f0">GetCmdLineArgs</a> () const</td></tr>
 <tr class="memdesc:ad3eae27cf145448d0d675a60792411f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get command line args  <a href="class_game_1_1_game_server.html#ad3eae27cf145448d0d675a60792411f0">More...</a><br /></td></tr>
 <tr class="separator:ad3eae27cf145448d0d675a60792411f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739494620e013546c95d897d0889b0c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a739494620e013546c95d897d0889b0c4">SetupEmptyWorld</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
+<tr class="memdesc:a739494620e013546c95d897d0889b0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup an empty game world  <a href="class_game_1_1_game_server.html#a739494620e013546c95d897d0889b0c4">More...</a><br /></td></tr>
+<tr class="separator:a739494620e013546c95d897d0889b0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a590750dc64658984cb9181f6da11b1ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed">CleanupWorld</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
+<tr class="memdesc:a590750dc64658984cb9181f6da11b1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">cleanup the game world  <a href="class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed">More...</a><br /></td></tr>
+<tr class="separator:a590750dc64658984cb9181f6da11b1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a2dd8428a6a99b1129ae0efb598bf4e80">CreateWorld</a> (<a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;info)</td></tr>
+<tr class="memdesc:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a world. The game server handles all worlds  <a href="class_game_1_1_game_server.html#a2dd8428a6a99b1129ae0efb598bf4e80">More...</a><br /></td></tr>
+<tr class="separator:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763">GetWorld</a> (uint32_t worldHash)</td></tr>
+<tr class="memdesc:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a world by hash  <a href="class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763">More...</a><br /></td></tr>
+<tr class="separator:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4bac315e29f2d866e19d4a4ff28f81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a1c4bac315e29f2d866e19d4a4ff28f81">DestroyWorld</a> (uint32_t worldHash)</td></tr>
+<tr class="memdesc:a1c4bac315e29f2d866e19d4a4ff28f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy a world  <a href="class_game_1_1_game_server.html#a1c4bac315e29f2d866e19d4a4ff28f81">More...</a><br /></td></tr>
+<tr class="separator:a1c4bac315e29f2d866e19d4a4ff28f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a56cfc62d74108784b11adf00aafaf9bc"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_game_1_1_game_server_1_1_state.html">Game::GameServer::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc">state</a></td></tr>
+<tr class="separator:a56cfc62d74108784b11adf00aafaf9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a7b4bcdf992c21ae83363f25df05b1d25">World</a></td></tr>
+<tr class="separator:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -301,6 +321,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a590750dc64658984cb9181f6da11b1ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a590750dc64658984cb9181f6da11b1ed">&#9670;&nbsp;</a></span>CleanupWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::GameServer::CleanupWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
+          <td class="paramname"><em>world</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>cleanup the game world </p>
+<p>Cleanup the game world.</p>
+<p>This should undo the stuff in SetupWorld(). Override this method in a subclass if your app needs different behaviour. </p>
+
+</div>
+</div>
 <a id="aef758018f4678a523ec05c6cd915d107"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef758018f4678a523ec05c6cd915d107">&#9670;&nbsp;</a></span>Close()</h2>
 
@@ -353,6 +403,65 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>create a processor </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>we should handle the registering of the world processors manually </dd></dl>
+
+</div>
+</div>
+<a id="a2dd8428a6a99b1129ae0efb598bf4e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd8428a6a99b1129ae0efb598bf4e80">&#9670;&nbsp;</a></span>CreateWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::GameServer::CreateWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create a world. The game server handles all worlds </p>
+
+</div>
+</div>
+<a id="a1c4bac315e29f2d866e19d4a4ff28f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c4bac315e29f2d866e19d4a4ff28f81">&#9670;&nbsp;</a></span>DestroyWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::GameServer::DestroyWorld </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>worldHash</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destroy a world </p>
+<dl class="section note"><dt>Note</dt><dd>The world index does not get recycled. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>The world index should be recycled. </dd></dl>
 
 </div>
 </div>
@@ -405,6 +514,64 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>access to all attached features units </p>
+
+</div>
+</div>
+<a id="a5449bf850794b4d5b2a4af0f4d858f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5449bf850794b4d5b2a4af0f4d858f9b">&#9670;&nbsp;</a></span>GetProcessorInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">ProcessorInfo</a> const  &amp; Game::GameServer::GetProcessorInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a>&#160;</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get info about a processor </p>
+
+</div>
+</div>
+<a id="af56805c1ebf56ae2e39ff6e7ab78e763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56805c1ebf56ae2e39ff6e7ab78e763">&#9670;&nbsp;</a></span>GetWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::GameServer::GetWorld </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>worldHash</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get a world by hash </p>
 
 </div>
 </div>
@@ -737,6 +904,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a739494620e013546c95d897d0889b0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a739494620e013546c95d897d0889b0c4">&#9670;&nbsp;</a></span>SetupEmptyWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::GameServer::SetupEmptyWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
+          <td class="paramname"><em>world</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>setup an empty game world </p>
+<p>Setup a new, empty world. </p>
+
+</div>
+</div>
 <a id="a6d58e3a3554f14acb1e31c973c291dac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d58e3a3554f14acb1e31c973c291dac">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -788,6 +984,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Stop the game world. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a7b4bcdf992c21ae83363f25df05b1d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4bcdf992c21ae83363f25df05b1d25">&#9670;&nbsp;</a></span>World</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_game_1_1_world.html">World</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -880,116 +1099,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af4cd700782055ca92af07bfb43bada13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4cd700782055ca92af07bfb43bada13">&#9670;&nbsp;</a></span>onBeginFrameCallbacks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a>&gt; Game::GameServer::onBeginFrameCallbacks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acf423256bd237ff5a85737972e623ea2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf423256bd237ff5a85737972e623ea2">&#9670;&nbsp;</a></span>onEndFrameCallbacks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a>&gt; Game::GameServer::onEndFrameCallbacks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7e49fa00c99e47a505b9ba5907f4ae2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e49fa00c99e47a505b9ba5907f4ae2">&#9670;&nbsp;</a></span>onFrameCallbacks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a>&gt; Game::GameServer::onFrameCallbacks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abdaa987a99a6d4f4a917e4f85ccff0a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdaa987a99a6d4f4a917e4f85ccff0a1">&#9670;&nbsp;</a></span>onLoadCallbacks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a>&gt; Game::GameServer::onLoadCallbacks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a718f397feb79283a7dfe3f8885697f54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a718f397feb79283a7dfe3f8885697f54">&#9670;&nbsp;</a></span>onSaveCallbacks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_callback_info.html">CallbackInfo</a>&gt; Game::GameServer::onSaveCallbacks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a659fe41afeb5ffed2827dba4f524820a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a659fe41afeb5ffed2827dba4f524820a">&#9670;&nbsp;</a></span>processorHandlePool</h2>
 
@@ -1022,12 +1131,34 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_game_1_1_game_server_1_1_processor_info.html">ProcessorInfo</a>&gt; Game::GameServer::processors</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">ProcessorInfo</a>&gt; Game::GameServer::processors</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56cfc62d74108784b11adf00aafaf9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56cfc62d74108784b11adf00aafaf9bc">&#9670;&nbsp;</a></span>state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="struct_game_1_1_game_server_1_1_state.html">Game::GameServer::State</a> Game::GameServer::state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1045,7 +1176,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_game_server.html">GameServer</a></li>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 12:17:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 14:07:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

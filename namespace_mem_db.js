@@ -11,5 +11,7 @@ var namespace_mem_db =
     [ "Table", "struct_mem_db_1_1_table.html", "struct_mem_db_1_1_table" ],
     [ "TableSignature", "class_mem_db_1_1_table_signature.html", "class_mem_db_1_1_table_signature" ],
     [ "TypeRegistry", "class_mem_db_1_1_type_registry.html", "class_mem_db_1_1_type_registry" ],
-    [ "__ImplementClass", "namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761", null ]
+    [ "Row", "namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad", null ],
+    [ "__ImplementClass", "namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761", null ],
+    [ "InvalidRow", "namespace_mem_db.html#ae4b399140b264f7ac7f9fd0eda3479d2", null ]
 ];

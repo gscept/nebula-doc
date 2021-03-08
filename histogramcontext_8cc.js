@@ -16,6 +16,8 @@ var histogramcontext_8cc =
     [ "histogramState", "histogramcontext_8cc.html#a89192cfec7658eb730bdb839fc6341be", null ],
     [ "logLuminanceRange", "histogramcontext_8cc.html#aa67de08e3b38d3b5f7d8e54dbdb8abd5", null ],
     [ "logMinLuminance", "histogramcontext_8cc.html#a6b5fdeebcd1eaa927c1da45cd1d6b861", null ],
+    [ "minLuminance", "histogramcontext_8cc.html#a200a553b887af8250a1d039d5fcd46ce", null ],
+    [ "mip", "histogramcontext_8cc.html#a411589b433cb5e70aadb5713fab42ada", null ],
     [ "offset", "histogramcontext_8cc.html#a8a5b70ae32b02bef6962b3bbd5008067", null ],
     [ "previousLum", "histogramcontext_8cc.html#ac7f3e2b5a3ea6420a750bcb911ff05e6", null ],
     [ "size", "histogramcontext_8cc.html#a825e3364318c29cbd82bce236358bcea", null ],
