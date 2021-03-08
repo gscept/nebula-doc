@@ -1,6 +1,5 @@
 var class_models_1_1_model_node =
 [
-    [ "DrawPacket", "struct_models_1_1_model_node_1_1_draw_packet.html", "struct_models_1_1_model_node_1_1_draw_packet" ],
     [ "Instance", "struct_models_1_1_model_node_1_1_instance.html", "struct_models_1_1_model_node_1_1_instance" ],
     [ "ModelNode", "class_models_1_1_model_node.html#ab2e694bd8f070fa1d21749d02d845a98", null ],
     [ "~ModelNode", "class_models_1_1_model_node.html#ad393caf36d4f2b0c453ab88a98bb2c92", null ],

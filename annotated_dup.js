@@ -959,6 +959,7 @@ var annotated_dup =
       [ "VkShaderPool", "class_vulkan_1_1_vk_shader_pool.html", "class_vulkan_1_1_vk_shader_pool" ],
       [ "VkShaderProgramSetupInfo", "struct_vulkan_1_1_vk_shader_program_setup_info.html", "struct_vulkan_1_1_vk_shader_program_setup_info" ],
       [ "VkShaderProgramRuntimeInfo", "struct_vulkan_1_1_vk_shader_program_runtime_info.html", "struct_vulkan_1_1_vk_shader_program_runtime_info" ],
+      [ "VkProgramReflectionInfo", "struct_vulkan_1_1_vk_program_reflection_info.html", "struct_vulkan_1_1_vk_program_reflection_info" ],
       [ "BindlessTexturesContext", "struct_vulkan_1_1_bindless_textures_context.html", "struct_vulkan_1_1_bindless_textures_context" ],
       [ "TickParametersContext", "struct_vulkan_1_1_tick_parameters_context.html", "struct_vulkan_1_1_tick_parameters_context" ],
       [ "VkShaderServer", "class_vulkan_1_1_vk_shader_server.html", "class_vulkan_1_1_vk_shader_server" ],

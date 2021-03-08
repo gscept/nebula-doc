@@ -154,8 +154,8 @@ $(document).ready(function(){initNavTree('ids_2id_8h_source.html',''); initResiz
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#abb68fb5315ee3fcda044d1dcb5878d68">   76</a></span>&#160;<span class="preprocessor">#define ID_32_24_8_NAMED_TYPE(x, id32_name, id24_name, id8_name) struct x { \</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">    Ids::Id32 id32_name : 32;\</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">    Ids::Id24 id24_name : 24;\</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">    Ids::Id8 id8_name: 8;\</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">    Ids::Id32 id24_name : 24;\</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">    Ids::Id32 id8_name: 8;\</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    constexpr x() : id32_name(Ids::InvalidId32), id24_name(Ids::InvalidId24), id8_name(Ids::InvalidId8) {};\</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id32 id32, const Ids::Id24 id24, const Ids::Id8 id8) : id32_name(id32), id24_name(id24), id8_name(id8){} \</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id64 id) : id32_name(Ids::Id::GetHigh(id)), id24_name(Ids::Id::GetBig(Ids::Id::GetLow(id))), id8_name(Ids::Id::GetTiny(Ids::Id::GetLow(id))) {};\</span></div>
@@ -174,8 +174,8 @@ $(document).ready(function(){initNavTree('ids_2id_8h_source.html',''); initResiz
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#a190ddf13b1b686089a85398c1cda5db0">   96</a></span>&#160;<span class="preprocessor">#define ID_32_16_16_NAMED_TYPE(x, id32_name, id16_0_name, id16_1_name) struct x { \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    Ids::Id32 id32_name : 32;\</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    Ids::Id16 id16_0_name : 16;\</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    Ids::Id16 id16_1_name : 16;\</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    Ids::Id32 id16_0_name : 16;\</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    Ids::Id32 id16_1_name : 16;\</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">    constexpr x() : id32_name(Ids::InvalidId32), id16_0_name(Ids::InvalidId16), id16_1_name(Ids::InvalidId16) {};\</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id32 id32_0, const Ids::Id16 id16_0, const Ids::Id16 id16_1) : id32_name(id32_0), id16_0_name(id16_0), id16_1_name(id16_1){} \</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id64 id) : id32_name(Ids::Id::GetHigh(id)), id16_0_name(Ids::Id::GetHigh(Ids::Id::GetLow(id))), id16_1_name(Ids::Id::GetLow(Ids::Id::GetLow(id))) {};\</span></div>
@@ -193,10 +193,10 @@ $(document).ready(function(){initNavTree('ids_2id_8h_source.html',''); initResiz
 <div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#a763482b1ff4eee2e5c5dadf7d3073a69">  114</a></span>&#160;<span class="preprocessor">#define ID_32_16_16_TYPE(x) ID_32_16_16_NAMED_TYPE(x, id32, id16_0, id16_1)</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#aea9bdc82bec7648d12886e39c3ca1fd8">  116</a></span>&#160;<span class="preprocessor">#define ID_24_8_24_8_NAMED_TYPE(x, id24_0_name, id8_0_name, id24_1_name, id8_1_name) struct x { \</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">    Ids::Id24 id24_0_name : 24;\</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">    Ids::Id8 id8_0_name : 8;\</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">    Ids::Id24 id24_1_name : 24;\</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">    Ids::Id8 id8_1_name : 8;\</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">    Ids::Id32 id24_0_name : 24;\</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">    Ids::Id32 id8_0_name : 8;\</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">    Ids::Id32 id24_1_name : 24;\</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">    Ids::Id32 id8_1_name : 8;\</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">    constexpr x() : id24_0_name(Ids::InvalidId24), id8_0_name(Ids::InvalidId8), id24_1_name(Ids::InvalidId24), id8_1_name(Ids::InvalidId8) {};\</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id24 id24_0, const Ids::Id8 id8_0, const Ids::Id24 id24_1, const Ids::Id8 id8_1) : id24_0_name(id24_0), id8_0_name(id8_0), id24_1_name(id24_1), id8_1_name(id8_1) {} \</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id64 id) : id24_0_name(Ids::Id::GetBig(Ids::Id::GetHigh(id))), id8_0_name(Ids::Id::GetTiny(Ids::Id::GetHigh(id))), id24_1_name(Ids::Id::GetBig(Ids::Id::GetLow(id))), id8_1_name(Ids::Id::GetTiny(Ids::Id::GetLow(id))) {};\</span></div>
@@ -234,8 +234,8 @@ $(document).ready(function(){initNavTree('ids_2id_8h_source.html',''); initResiz
 <div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#a73f7073224cd11513bf9845ae5758981">  155</a></span>&#160;<span class="preprocessor">#define ID_32_32_TYPE(x) ID_32_32_NAMED_TYPE(x, id32_0, id32_1)</span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
 <div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="ids_2id_8h.html#a7c1cd4c3a4c37efb4f5c886a0c03a718">  157</a></span>&#160;<span class="preprocessor">#define ID_24_8_NAMED_TYPE(x, id24_name, id8_name) struct x { \</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">    Ids::Id24 id24_name : 24; \</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">    Ids::Id8 id8_name: 8; \</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">    Ids::Id32 id24_name : 24; \</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">    Ids::Id32 id8_name : 8; \</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">    constexpr x() : id24_name(Ids::InvalidId24), id8_name(Ids::InvalidId8) {} \</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id24 id0, const Ids::Id8 id1) : id24_name(id0), id8_name(id1) {} \</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">    constexpr x(const Ids::Id32 id) : id24_name(Ids::Id::GetBig(id)), id8_name(Ids::Id::GetTiny(id)) {};\</span></div>
@@ -464,7 +464,7 @@ $(document).ready(function(){initNavTree('ids_2id_8h_source.html',''); initResiz
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_52640e203a39fe34f872c68b940b4d11.html">ids</a></li><li class="navelem"><a class="el" href="ids_2id_8h.html">id.h</a></li>
 				<li class="footer">
-					Generated on Mon Mar 8 2021 16:01:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 8 2021 21:03:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"class_util_1_1_quad_tree.html#ac926444e8501e70bc6aebeea758be665":[9,0,58,23,13],
 "class_util_1_1_quad_tree.html#ac9c0149437fd1d2cad0e5497749993c5":[9,0,58,23,11],
 "class_util_1_1_quad_tree.html#aebb862401c0e44f9e6fb5f0a5738d225":[9,0,58,23,6],
 "class_util_1_1_quad_tree_1_1_node.html":[9,0,58,23,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "class_util_1_1_string.html#a4c528050f322dbaf326e012349c3cd34":[9,0,58,33,162],
 "class_util_1_1_string.html#a4e5667ea4a891e28508119e7e4c263f0":[9,0,58,33,141],
 "class_util_1_1_string.html#a4f2463a323e85cc7f55c296d21f3b899":[9,0,58,33,109],
-"class_util_1_1_string.html#a509fa71a34a7d1861d5ccade4000927c":[9,0,58,33,54],
-"class_util_1_1_string.html#a51764b3a6dc4ec17dbc5ed1286d0675a":[9,0,58,33,96]
+"class_util_1_1_string.html#a509fa71a34a7d1861d5ccade4000927c":[9,0,58,33,54]
 };

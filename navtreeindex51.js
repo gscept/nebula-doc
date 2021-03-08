@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"foundation.html":[2],
 "foundation_2core_2config_8h.html":[10,0,0,3,1,4],
 "foundation_2core_2config_8h.html#a0a2715aa3fccba315d60d8252f5d03ed":[10,0,0,3,1,4,24],
 "foundation_2core_2config_8h.html#a14e5d2dbf16e33db73dba08502afa44c":[10,0,0,3,1,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "functions_r.html":[9,3,0,18],
 "functions_rela.html":[9,3,6],
 "functions_s.html":[9,3,0,19],
-"functions_t.html":[9,3,0,20],
-"functions_type.html":[9,3,3]
+"functions_t.html":[9,3,0,20]
 };

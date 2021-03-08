@@ -5,7 +5,7 @@ var shader_8cc =
     [ "DestroyShader", "shader_8cc.html#ab51cbce5faa9017eae977a65d25ac310", null ],
     [ "ShaderCreateConstantBuffer", "shader_8cc.html#a298b4066614e8c6ac28f1d43c1a707c9", null ],
     [ "ShaderCreateConstantBuffer", "shader_8cc.html#adee70e38c9c8c3edd9f8313973546f7b", null ],
-    [ "ShaderCreateResourceTable", "shader_8cc.html#a56e5257785dc3c476a9ce3d52a4ee0d9", null ],
+    [ "ShaderCreateResourceTable", "shader_8cc.html#ad6f2f4c1564e01a7a67ab60d8de79f1e", null ],
     [ "ShaderFeatureFromString", "shader_8cc.html#a0f20dcac496c88bf01bed728bcb91317", null ],
     [ "ShaderGet", "shader_8cc.html#a532437faeb16579466fd4d7b6de8167f", null ],
     [ "ShaderGetConstantBinding", "shader_8cc.html#af980acfc27839f6333fbf74d21dbee16", null ],

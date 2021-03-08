@@ -11,7 +11,7 @@ var class_models_1_1_primitive_node =
     [ "Load", "class_models_1_1_primitive_node.html#a6958ecae79adeee629ff6210d9eedbbb", null ],
     [ "Unload", "class_models_1_1_primitive_node.html#ab854dbe1798ee176ce71659f2c27baee", null ],
     [ "StreamModelPool", "class_models_1_1_primitive_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d", null ],
-    [ "primitiveGroupIndex", "class_models_1_1_primitive_node.html#a78da55dda7571f864372fd1b7bbb73fb", null ],
-    [ "primitiveGroupIndexLoaded", "class_models_1_1_primitive_node.html#ad60bee1eb1fe724e8c1ee3b1b1c0ca4c", null ],
+    [ "primitiveGroupIndex", "class_models_1_1_primitive_node.html#a61c1e6b0e5b8d5bae2c48593bd4ccb0d", null ],
+    [ "primitiveGroupIndexLoaded", "class_models_1_1_primitive_node.html#ada1c5f27738fc829c2958a885e79cfd6", null ],
     [ "res", "class_models_1_1_primitive_node.html#a549176031a9986a909a7720071bc774e", null ]
 ];

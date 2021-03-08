@@ -1,5 +1,6 @@
 var struct_vulkan_1_1_vk_shader_program_runtime_info =
 [
+    [ "colorBlendAttachments", "struct_vulkan_1_1_vk_shader_program_runtime_info.html#ade8a13a049f5c20a16b3706af372504f", null ],
     [ "colorBlendInfo", "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a8516ae1e94dce430b75e7c3f40c3269f", null ],
     [ "cs", "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a1ed90d2ec3c83f58d4d1c8e9dbc7d139", null ],
     [ "depthStencilInfo", "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a5de32d365ec848d2c1f4fad3202c1720", null ],

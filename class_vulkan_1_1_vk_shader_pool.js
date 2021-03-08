@@ -2,6 +2,7 @@ var class_vulkan_1_1_vk_shader_pool =
 [
     [ "BufferMapping", "struct_vulkan_1_1_vk_shader_pool_1_1_buffer_mapping.html", "struct_vulkan_1_1_vk_shader_pool_1_1_buffer_mapping" ],
     [ "DescriptorSetBinding", "struct_vulkan_1_1_vk_shader_pool_1_1_descriptor_set_binding.html", "struct_vulkan_1_1_vk_shader_pool_1_1_descriptor_set_binding" ],
+    [ "VkReflectionInfo", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_reflection_info.html", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_reflection_info" ],
     [ "VkShaderRuntimeInfo", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_shader_runtime_info.html", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_shader_runtime_info" ],
     [ "VkShaderSetupInfo", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_shader_setup_info.html", "struct_vulkan_1_1_vk_shader_pool_1_1_vk_shader_setup_info" ],
     [ "ProgramMap", "class_vulkan_1_1_vk_shader_pool.html#a3a29c8e596ae2938ed35cc84b047ddeb", null ],
@@ -13,7 +14,7 @@ var class_vulkan_1_1_vk_shader_pool =
     [ "__ImplementResourceAllocatorTyped", "class_vulkan_1_1_vk_shader_pool.html#aa0ced2e3920511bef3c6d0eaaaac6230", null ],
     [ "CreateConstantBuffer", "class_vulkan_1_1_vk_shader_pool.html#a37f30ad1bd7153520957a9ca1080dec6", null ],
     [ "CreateConstantBuffer", "class_vulkan_1_1_vk_shader_pool.html#a50d731f8993c7e822769f6e3281f88d2", null ],
-    [ "CreateResourceTable", "class_vulkan_1_1_vk_shader_pool.html#a115463fb67d91774c408830ab7ce7e25", null ],
+    [ "CreateResourceTable", "class_vulkan_1_1_vk_shader_pool.html#a6621eb3f3f07ab211d8e0c79edc1151a", null ],
     [ "GetConstantBinding", "class_vulkan_1_1_vk_shader_pool.html#a0ea4f7598b2f865ef487d0280bb517ae", null ],
     [ "GetConstantBinding", "class_vulkan_1_1_vk_shader_pool.html#af525c76e8aa4c415111d3495e8b51e98", null ],
     [ "GetConstantBindingsCount", "class_vulkan_1_1_vk_shader_pool.html#a7d84740b6cd8b741b238e2776f578112", null ],
@@ -30,7 +31,7 @@ var class_vulkan_1_1_vk_shader_pool =
     [ "GetConstantSlot", "class_vulkan_1_1_vk_shader_pool.html#a6d1de8a8eb9c6b3c70e4eff62d934322", null ],
     [ "GetConstantType", "class_vulkan_1_1_vk_shader_pool.html#ade181d43cf611d1f63dd9d7baa64213c", null ],
     [ "GetConstantType", "class_vulkan_1_1_vk_shader_pool.html#a9d808b938dd842aa80b07f102455f38f", null ],
-    [ "GetProgram", "class_vulkan_1_1_vk_shader_pool.html#a24e97cdec6b22f8b87cb05c4a2b056ac", null ],
+    [ "GetProgram", "class_vulkan_1_1_vk_shader_pool.html#a230c593593fd30e8cbff583d6f8af1e8", null ],
     [ "GetProgramName", "class_vulkan_1_1_vk_shader_pool.html#a073824b8a9086f27d931d60b5f111492", null ],
     [ "GetPrograms", "class_vulkan_1_1_vk_shader_pool.html#a927a381c71f8a4c80e6a4c9afcbe63e6", null ],
     [ "GetResourcePipeline", "class_vulkan_1_1_vk_shader_pool.html#a925c6fa8df72cb6f3ddac2defdae1ca8", null ],
@@ -45,6 +46,6 @@ var class_vulkan_1_1_vk_shader_pool =
     [ "VkVertexSignaturePool", "class_vulkan_1_1_vk_shader_pool.html#a7216787590a71a39a6c61289794cb1b5", null ],
     [ "activeMask", "class_vulkan_1_1_vk_shader_pool.html#a4cfb393f07157891ada0811914c26237", null ],
     [ "activeShaderProgram", "class_vulkan_1_1_vk_shader_pool.html#aa9dea2651d62e2bff20f6c9116c36fd7", null ],
-    [ "shaderAlloc", "class_vulkan_1_1_vk_shader_pool.html#ad112f67ca06dab12badc8c299c8dc7b3", null ],
+    [ "shaderAlloc", "class_vulkan_1_1_vk_shader_pool.html#a41c64330702c5d9f1fbf260972b2766c", null ],
     [ "slicedStateMap", "class_vulkan_1_1_vk_shader_pool.html#a286dc3d51a2eccacf8d386ccb62b7b51", null ]
 ];

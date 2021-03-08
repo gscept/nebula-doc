@@ -184,7 +184,7 @@ var namespace_core_graphics =
       [ "TransferQueueSupport", "namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72aacdda5585d605ef393b0ba11d189f761", null ]
     ] ],
     [ "BufferUsageFlag", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712b", [
-      [ "InvalidBufferType", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712bae97458dc428421f432ead21fbcc25b43", null ],
+      [ "InvalidBufferUsage", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712ba4c2148d5c316fa1d08ead25575033e32", null ],
       [ "TransferBufferSource", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712ba30428a5523c0108d894c10ebd8c163ae", null ],
       [ "TransferBufferDestination", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712bacd37d3f821efac33c44047818fd9adc0", null ],
       [ "ConstantBuffer", "namespace_core_graphics.html#a9ee332c41e7404fe6e42769ca6d1712bacccea0a4a93c3b8f5cd1c3fce7543a11", null ],
@@ -667,7 +667,7 @@ var namespace_core_graphics =
     [ "SetVisualizeMipMaps", "namespace_core_graphics.html#a9b2370140cbf06085fa6bb7110ed05cc", null ],
     [ "ShaderCreateConstantBuffer", "namespace_core_graphics.html#a298b4066614e8c6ac28f1d43c1a707c9", null ],
     [ "ShaderCreateConstantBuffer", "namespace_core_graphics.html#adee70e38c9c8c3edd9f8313973546f7b", null ],
-    [ "ShaderCreateResourceTable", "namespace_core_graphics.html#a56e5257785dc3c476a9ce3d52a4ee0d9", null ],
+    [ "ShaderCreateResourceTable", "namespace_core_graphics.html#ad6f2f4c1564e01a7a67ab60d8de79f1e", null ],
     [ "ShaderFeatureFromString", "namespace_core_graphics.html#a0f20dcac496c88bf01bed728bcb91317", null ],
     [ "ShaderGet", "namespace_core_graphics.html#a532437faeb16579466fd4d7b6de8167f", null ],
     [ "ShaderGetConstantBinding", "namespace_core_graphics.html#af980acfc27839f6333fbf74d21dbee16", null ],

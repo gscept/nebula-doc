@@ -17,7 +17,7 @@ var buffer_8h =
       [ "TransferQueueSupport", "buffer_8h.html#aad24b93f2e36b36169fd9b20c3f54b72aacdda5585d605ef393b0ba11d189f761", null ]
     ] ],
     [ "BufferUsageFlag", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712b", [
-      [ "InvalidBufferType", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712bae97458dc428421f432ead21fbcc25b43", null ],
+      [ "InvalidBufferUsage", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba4c2148d5c316fa1d08ead25575033e32", null ],
       [ "TransferBufferSource", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba30428a5523c0108d894c10ebd8c163ae", null ],
       [ "TransferBufferDestination", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712bacd37d3f821efac33c44047818fd9adc0", null ],
       [ "ConstantBuffer", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712bacccea0a4a93c3b8f5cd1c3fce7543a11", null ],

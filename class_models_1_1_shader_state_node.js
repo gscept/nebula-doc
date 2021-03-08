@@ -1,5 +1,6 @@
 var class_models_1_1_shader_state_node =
 [
+    [ "DrawPacket", "struct_models_1_1_shader_state_node_1_1_draw_packet.html", "struct_models_1_1_shader_state_node_1_1_draw_packet" ],
     [ "Instance", "struct_models_1_1_shader_state_node_1_1_instance.html", "struct_models_1_1_shader_state_node_1_1_instance" ],
     [ "ShaderStateNode", "class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7", null ],
     [ "~ShaderStateNode", "class_models_1_1_shader_state_node.html#abab43e23d57abe40e3159294adacdc05", null ],
@@ -12,12 +13,13 @@ var class_models_1_1_shader_state_node =
     [ "Unload", "class_models_1_1_shader_state_node.html#a14968f133eaaadcef387b06cdefa9e42", null ],
     [ "StreamModelPool", "class_models_1_1_shader_state_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d", null ],
     [ "Visibility::VisibilitySortJob", "class_models_1_1_shader_state_node.html#a48596d4c724c70bc46d2a22bf97ea5e7", null ],
-    [ "instancingTransformsIndex", "class_models_1_1_shader_state_node.html#ab499e503dd65b5dd7d386c443f1aed7e", null ],
+    [ "instancingTransformsIndex", "class_models_1_1_shader_state_node.html#afbaf87c332bc2e04710cf9dbc74c5449", null ],
     [ "materialName", "class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3", null ],
     [ "materialType", "class_models_1_1_shader_state_node.html#ad7425f270423c77edd532acac923920c", null ],
-    [ "objectTransformsIndex", "class_models_1_1_shader_state_node.html#a8d5b7b64d2c0aa28f1354d6f549c0a79", null ],
+    [ "NumTables", "class_models_1_1_shader_state_node.html#a4c53e8eb798ae3c0ac4741356b01dbc8", null ],
+    [ "objectTransformsIndex", "class_models_1_1_shader_state_node.html#a20f7cd513d8d031971e5a79496c6d437", null ],
     [ "resourceTable", "class_models_1_1_shader_state_node.html#a509823ea182c82734a86ea7f83548960", null ],
-    [ "skinningTransformsIndex", "class_models_1_1_shader_state_node.html#addfd2858bc4d414141682aae3ddd322f", null ],
+    [ "skinningTransformsIndex", "class_models_1_1_shader_state_node.html#a637b0acfa24b453ed45ea87860e3196b", null ],
     [ "surface", "class_models_1_1_shader_state_node.html#a829f046b20eea0d08d31683babc77895", null ],
     [ "surRes", "class_models_1_1_shader_state_node.html#a794a19d9ace59149bc37e85e1d33039f", null ]
 ];
