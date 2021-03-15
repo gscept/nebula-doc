@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['abortcallback_15872',['AbortCallback',['../class_messaging_1_1_message_callback_handler.html#aaad477bf1889e1bad6c2af7ec65d2a29',1,'Messaging::MessageCallbackHandler']]],
-  ['abortcallbacks_15873',['AbortCallbacks',['../class_messaging_1_1_message_callback_handler.html#a586781ac554c361b4e8b0c6fc76577c5',1,'Messaging::MessageCallbackHandler']]],
-  ['abs_15874',['abs',['../namespace_math.html#ac188c8ab45910789c719366e6dea073b',1,'Math::abs(scalar a)'],['../namespace_math.html#a844741b67f8e188d432dbd968204ea22',1,'Math::abs(double a)'],['../namespace_math.html#a534a16fbca07b343375c49c16170e7c1',1,'Math::abs(int a)'],['../namespace_math.html#ad8cc3c180dc3e4fc28ea3b3047a0b784',1,'Math::abs(const vec3 &amp;v)'],['../namespace_math.html#a27405185294725672a08605aa08b84b3',1,'Math::abs(const vec4 &amp;v)']]],
+  ['abortcallback_15873',['AbortCallback',['../class_messaging_1_1_message_callback_handler.html#aaad477bf1889e1bad6c2af7ec65d2a29',1,'Messaging::MessageCallbackHandler']]],
+  ['abortcallbacks_15874',['AbortCallbacks',['../class_messaging_1_1_message_callback_handler.html#a586781ac554c361b4e8b0c6fc76577c5',1,'Messaging::MessageCallbackHandler']]],
   ['abs_15875',['Abs',['../namespace_im3d.html#a6f79dfc53c412d80e1e7d507cad4cd68',1,'Im3d::Abs(const Vec2 &amp;_v)'],['../namespace_im3d.html#a5f02f31c0380a01abfeb69413393145d',1,'Im3d::Abs(const Vec3 &amp;_v)'],['../namespace_im3d.html#a1d35dc7dfe49f4ea13a0195a46b74925',1,'Im3d::Abs(const Vec4 &amp;_v)']]],
-  ['abs_15876',['abs',['../struct_math_1_1vec2.html#aa8eedfaba5813375d6b990c2a9b1a23b',1,'Math::vec2']]],
+  ['abs_15876',['abs',['../namespace_math.html#ac188c8ab45910789c719366e6dea073b',1,'Math::abs(scalar a)'],['../namespace_math.html#a844741b67f8e188d432dbd968204ea22',1,'Math::abs(double a)'],['../namespace_math.html#a534a16fbca07b343375c49c16170e7c1',1,'Math::abs(int a)'],['../namespace_math.html#ad8cc3c180dc3e4fc28ea3b3047a0b784',1,'Math::abs(const vec3 &amp;v)'],['../namespace_math.html#a27405185294725672a08605aa08b84b3',1,'Math::abs(const vec4 &amp;v)'],['../struct_math_1_1vec2.html#aa8eedfaba5813375d6b990c2a9b1a23b',1,'Math::vec2::abs()']]],
   ['accept_15877',['Accept',['../class_win32_1_1_win32_socket.html#a51c8785dc31a062a7b539614d93d78f0',1,'Win32::Win32Socket::Accept()'],['../class_posix_1_1_posix_socket.html#a0d2a286027dfe86557a9418541a78fb5',1,'Posix::PosixSocket::Accept()']]],
   ['acceptsmessage_15878',['AcceptsMessage',['../class_messaging_1_1_port.html#a8ab25ad3d255a156294d4a7afb431f18',1,'Messaging::Port']]],
   ['accessortypetonebula_15879',['AccessorTypeToNebula',['../gltfreader_8cc.html#a0d3fb9e54f375bd31ddc159b1edd3464',1,'gltfreader.cc']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_nvx3_header.html#a70c640da440042079c97bdbaab454c9f":[9,0,10,50,6],
+"struct_core_graphics_1_1_nvx3_header.html#a7a183b047b451b62d9642ebef9a7307a":[9,0,10,50,3],
 "struct_core_graphics_1_1_nvx3_header.html#a8adc5f1c0738fcb954acded92876e63d":[9,0,10,50,4],
 "struct_core_graphics_1_1_nvx3_header.html#ab0b27b4d2aa0716cd1d751b50f0ecd91":[9,0,10,50,0],
 "struct_core_graphics_1_1_nvx3_header.html#aced74dc4bcf43746f4e13fcf1df23903":[9,0,10,50,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[9,0,10,110,3],
 "struct_core_graphics_1_1_vertex_layout_info.html#a4c160cb239b65d24aee158c828c33c8a":[9,0,10,110,2],
 "struct_core_graphics_1_1_vertex_layout_info.html#a9fcef05a384c66dd3e4429d4d56aec38":[9,0,10,110,1],
-"struct_core_graphics_1_1_window_create_info.html":[9,0,10,114],
-"struct_core_graphics_1_1_window_create_info.html#a03358557b327a7379f007b79a49f1f82":[9,0,10,114,4],
-"struct_core_graphics_1_1_window_create_info.html#a38c9937c0389c7d13aa77f2fea5198a3":[9,0,10,114,5]
+"struct_core_graphics_1_1_window_create_info.html":[9,0,10,114]
 };
