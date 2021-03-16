@@ -122,7 +122,6 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "streamtexturepool.cc", "streamtexturepool_8cc.html", null ],
     [ "streamtexturepool.h", "streamtexturepool_8h.html", null ],
     [ "streamtexturesaver.h", "streamtexturesaver_8h.html", "streamtexturesaver_8h" ],
-    [ "stretchybuffer.cc", "stretchybuffer_8cc.html", null ],
     [ "submissioncontext.cc", "submissioncontext_8cc.html", null ],
     [ "submissioncontext.h", "submissioncontext_8h.html", "submissioncontext_8h" ],
     [ "textelement.cc", "textelement_8cc.html", null ],

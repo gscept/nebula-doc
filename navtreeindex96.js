@@ -1,6 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"vkpass_8cc.html#a7e5395b21fa5b7f01b54d7d3b41aa19c":[10,0,0,5,5,5,28,8],
 "vkpass_8cc.html#a7eb4dafaf07e6885492a4e8b74234419":[10,0,0,5,5,5,28,15],
 "vkpass_8cc.html#a7fa4baafc3d2c6ad440767d63c0fe1a0":[10,0,0,5,5,5,28,10],
 "vkpass_8cc.html#a819b56658ef3f54626d61bd4762fa38d":[10,0,0,5,5,5,28,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX96 =
 "vkvertexsignaturepool_8h_source.html":[10,0,0,5,5,5,73],
 "volumetricfogcontext_8cc.html":[10,0,0,5,8,0],
 "volumetricfogcontext_8cc.html#a0054f7dd5016efa4e33970a03836f750":[10,0,0,5,8,0,4],
-"volumetricfogcontext_8cc.html#a03849d400d04c291daa9443a5bc0ad89":[10,0,0,5,8,0,2]
+"volumetricfogcontext_8cc.html#a03849d400d04c291daa9443a5bc0ad89":[10,0,0,5,8,0,2],
+"volumetricfogcontext_8cc.html#a0817ac657ae13bd15e30a516112edfc2":[10,0,0,5,8,0,26]
 };
