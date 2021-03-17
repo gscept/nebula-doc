@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"class_debug_1_1_console_page_handler.html#a5100bfc400f7674944e566f8b3a20526":[9,0,13,11,2],
 "class_debug_1_1_console_page_handler.html#aa27ea00296d14ce7a3d6bc48e0e6cfdf":[9,0,13,11,4],
 "class_debug_1_1_console_page_handler.html#ab8d84f28e06bc54b7744ac68163f19db":[9,0,13,11,3],
 "class_debug_1_1_console_page_handler.html#ae4aeb3fef33696d2da48ac578790e155":[9,0,13,11,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9":[9,0,15,0,1],
 "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9a10ea2835e3d4bb84bb39656ae948cd9e":[9,0,15,0,1,1],
 "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff":[9,0,15,0,1,0],
-"class_dynui_1_1_imgui_console.html#a90b87662a6b0324ccfd1c00cda3cb633":[9,0,15,0,23],
-"class_dynui_1_1_imgui_console.html#aaabf0da98a27a02ae3b56901748a2ebe":[9,0,15,0,20]
+"class_dynui_1_1_imgui_console.html#a90b87662a6b0324ccfd1c00cda3cb633":[9,0,15,0,23]
 };

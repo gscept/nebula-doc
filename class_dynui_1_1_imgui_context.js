@@ -10,6 +10,7 @@ var class_dynui_1_1_imgui_context =
     [ "ImguiDrawFunction", "class_dynui_1_1_imgui_context.html#a002cf5cf520e9cf613dde31ebdfda44d", null ],
     [ "OnBeforeFrame", "class_dynui_1_1_imgui_context.html#a03e855c78d92325f36152a5ba138eb87", null ],
     [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
+    [ "OnWorkFinished", "class_dynui_1_1_imgui_context.html#ae94b3c78f8247368a547265586f337ce", null ],
     [ "RecoverImGuiContextErrors", "class_dynui_1_1_imgui_context.html#af90a56be8d9abdd6365499d10c686f9b", null ],
     [ "SetRectSize", "class_dynui_1_1_imgui_context.html#aa05aeab643f1f67519ff63f1734e8512", null ],
     [ "state", "class_dynui_1_1_imgui_context.html#ad7b7bf24063d1e7a884de3f0f8142b2e", null ]

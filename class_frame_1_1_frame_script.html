@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1afa260ed0ccd7248e28643dd3802636"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#a1afa260ed0ccd7248e28643dd3802636">AddOp</a> (<a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> *op)</td></tr>
 <tr class="memdesc:a1afa260ed0ccd7248e28643dd3802636"><td class="mdescLeft">&#160;</td><td class="mdescRight">add frame operation  <a href="class_frame_1_1_frame_script.html#a1afa260ed0ccd7248e28643dd3802636">More...</a><br /></td></tr>
 <tr class="separator:a1afa260ed0ccd7248e28643dd3802636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537d9fbcc9808fce7aa9c49f0a6df7eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#a537d9fbcc9808fce7aa9c49f0a6df7eb">GetOp</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;search)</td></tr>
+<tr class="memdesc:a537d9fbcc9808fce7aa9c49f0a6df7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get frame operation, searches hierarchies using /  <a href="class_frame_1_1_frame_script.html#a537d9fbcc9808fce7aa9c49f0a6df7eb">More...</a><br /></td></tr>
+<tr class="separator:a537d9fbcc9808fce7aa9c49f0a6df7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82dbb52e59fa39bc9cf3af985bdcf25e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#a82dbb52e59fa39bc9cf3af985bdcf25e">AddTexture</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex)</td></tr>
 <tr class="memdesc:a82dbb52e59fa39bc9cf3af985bdcf25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">add texture  <a href="class_frame_1_1_frame_script.html#a82dbb52e59fa39bc9cf3af985bdcf25e">More...</a><br /></td></tr>
 <tr class="separator:a82dbb52e59fa39bc9cf3af985bdcf25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +228,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8c75ec07018ef8a96f0c7f3a30561b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff554b00cae68c80931cedf69ac97aad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#aff554b00cae68c80931cedf69ac97aad">ops</a></td></tr>
 <tr class="separator:aff554b00cae68c80931cedf69ac97aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559a2afec0c26c39078193e30174d91f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#a559a2afec0c26c39078193e30174d91f">opsByName</a></td></tr>
+<tr class="separator:a559a2afec0c26c39078193e30174d91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e6de3f475ce6bdaf518613ef6a7f7bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">Frame::FrameOp::Compiled</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#a8e6de3f475ce6bdaf518613ef6a7f7bd">compiled</a></td></tr>
 <tr class="separator:a8e6de3f475ce6bdaf518613ef6a7f7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc1e57fc882a05e1789eb24905f62a0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_id.html">CoreGraphics::BarrierId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_script.html#abc1e57fc882a05e1789eb24905f62a0f">resourceResetBarriers</a></td></tr>
@@ -531,6 +536,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get buffer </p>
+
+</div>
+</div>
+<a id="a537d9fbcc9808fce7aa9c49f0a6df7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537d9fbcc9808fce7aa9c49f0a6df7eb">&#9670;&nbsp;</a></span>GetOp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * Frame::FrameScript::GetOp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>search</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get frame operation, searches hierarchies using / </p>
 
 </div>
 </div>
@@ -1082,6 +1107,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a559a2afec0c26c39078193e30174d91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559a2afec0c26c39078193e30174d91f">&#9670;&nbsp;</a></span>opsByName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a>*&gt; Frame::FrameScript::opsByName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a70d2906b7600e112588dbaf73d93efa8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70d2906b7600e112588dbaf73d93efa8">&#9670;&nbsp;</a></span>resId</h2>
 
@@ -1225,7 +1272,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_frame.html">Frame</a></li><li class="navelem"><a class="el" href="class_frame_1_1_frame_script.html">FrameScript</a></li>
 				<li class="footer">
-					Generated on Wed Mar 17 2021 21:52:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 17 2021 21:59:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

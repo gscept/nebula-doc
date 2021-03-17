@@ -125,6 +125,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed3167093b771b4046bb432ccb746832"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#aed3167093b771b4046bb432ccb746832">GetName</a> () const</td></tr>
 <tr class="memdesc:aed3167093b771b4046bb432ccb746832"><td class="mdescLeft">&#160;</td><td class="mdescRight">get name  <a href="class_frame_1_1_frame_op.html#aed3167093b771b4046bb432ccb746832">More...</a><br /></td></tr>
 <tr class="separator:aed3167093b771b4046bb432ccb746832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191ebce8910309accf4eef71aa6dc57c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a191ebce8910309accf4eef71aa6dc57c">SetEnabled</a> (bool b)</td></tr>
+<tr class="memdesc:a191ebce8910309accf4eef71aa6dc57c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set if operation should be enabled  <a href="class_frame_1_1_frame_op.html#a191ebce8910309accf4eef71aa6dc57c">More...</a><br /></td></tr>
+<tr class="separator:a191ebce8910309accf4eef71aa6dc57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a131bedb98c3eb3ecad70e5e1e6c792ac"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a131bedb98c3eb3ecad70e5e1e6c792ac">GetEnabled</a> () const</td></tr>
+<tr class="memdesc:a131bedb98c3eb3ecad70e5e1e6c792ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">get if operation is enabled  <a href="class_frame_1_1_frame_op.html#a131bedb98c3eb3ecad70e5e1e6c792ac">More...</a><br /></td></tr>
+<tr class="separator:a131bedb98c3eb3ecad70e5e1e6c792ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c235a37c4a88c6ae26ec02c10ece998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a6c235a37c4a88c6ae26ec02c10ece998">AddChild</a> (<a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a> *op)</td></tr>
+<tr class="memdesc:a6c235a37c4a88c6ae26ec02c10ece998"><td class="mdescLeft">&#160;</td><td class="mdescRight">add child operation  <a href="class_frame_1_1_frame_op.html#a6c235a37c4a88c6ae26ec02c10ece998">More...</a><br /></td></tr>
+<tr class="separator:a6c235a37c4a88c6ae26ec02c10ece998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b3430ca7fa3ecb2a97456a3ebac193"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193">GetChildren</a> ()</td></tr>
+<tr class="memdesc:a16b3430ca7fa3ecb2a97456a3ebac193"><td class="mdescLeft">&#160;</td><td class="mdescRight">get children  <a href="class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193">More...</a><br /></td></tr>
+<tr class="separator:a16b3430ca7fa3ecb2a97456a3ebac193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbca0af19a40f03dda0a8298af908bd5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#afbca0af19a40f03dda0a8298af908bd5">OnWindowResized</a> ()</td></tr>
 <tr class="memdesc:afbca0af19a40f03dda0a8298af908bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle display resizing  <a href="class_frame_1_1_frame_op.html#afbca0af19a40f03dda0a8298af908bd5">More...</a><br /></td></tr>
 <tr class="separator:afbca0af19a40f03dda0a8298af908bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,12 +171,18 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a03ec4ae628a8249db6763800eebca7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a12f1a9b528680f9bc963853fc97b73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>, <a class="el" href="namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a">Util::Tuple</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="namespace_core_graphics.html#acf76cb00131d6792c655f3c19b9264ed">CoreGraphics::BarrierAccess</a>, <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>, <a class="el" href="struct_core_graphics_1_1_buffer_subresource_info.html">CoreGraphics::BufferSubresourceInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a8a12f1a9b528680f9bc963853fc97b73">rwBufferDeps</a></td></tr>
 <tr class="separator:a8a12f1a9b528680f9bc963853fc97b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4d95c8644a23505cb656440fd7f7f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a4b4d95c8644a23505cb656440fd7f7f3">children</a></td></tr>
+<tr class="separator:a4b4d95c8644a23505cb656440fd7f7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7adb676d62a912333e65398c49cb3e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a7adb676d62a912333e65398c49cb3e98">childrenByName</a></td></tr>
+<tr class="separator:a7adb676d62a912333e65398c49cb3e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a561d148eae3e7f913d973254a45017"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">Compiled</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a0a561d148eae3e7f913d973254a45017">compiled</a></td></tr>
 <tr class="separator:a0a561d148eae3e7f913d973254a45017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cbedc9477ec38023d0b39aa24020676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a1cbedc9477ec38023d0b39aa24020676">name</a></td></tr>
 <tr class="separator:a1cbedc9477ec38023d0b39aa24020676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7288cd3ed962883d96f531794ed7dfd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a7288cd3ed962883d96f531794ed7dfd2">index</a></td></tr>
 <tr class="separator:a7288cd3ed962883d96f531794ed7dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3161cfb22c9f7af6aa8fda8c9dd6c11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#ad3161cfb22c9f7af6aa8fda8c9dd6c11">enabled</a></td></tr>
+<tr class="separator:ad3161cfb22c9f7af6aa8fda8c9dd6c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -227,6 +245,34 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6c235a37c4a88c6ae26ec02c10ece998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c235a37c4a88c6ae26ec02c10ece998">&#9670;&nbsp;</a></span>AddChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Frame::FrameOp::AddChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a> *&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add child operation </p>
+
+</div>
+</div>
 <a id="a9a0b36660f769fe56ec257399926ecc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a0b36660f769fe56ec257399926ecc2">&#9670;&nbsp;</a></span>AllocCompiled()</h2>
 
@@ -572,6 +618,60 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a16b3430ca7fa3ecb2a97456a3ebac193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b3430ca7fa3ecb2a97456a3ebac193">&#9670;&nbsp;</a></span>GetChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * &gt; &amp; Frame::FrameOp::GetChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get children </p>
+
+</div>
+</div>
+<a id="a131bedb98c3eb3ecad70e5e1e6c792ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a131bedb98c3eb3ecad70e5e1e6c792ac">&#9670;&nbsp;</a></span>GetEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool Frame::FrameOp::GetEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get if operation is enabled </p>
+
+</div>
+</div>
 <a id="aed3167093b771b4046bb432ccb746832"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed3167093b771b4046bb432ccb746832">&#9670;&nbsp;</a></span>GetName()</h2>
 
@@ -625,6 +725,34 @@ Friends</h2></td></tr>
 <p>handle display resizing </p>
 
 <p>Reimplemented in <a class="el" href="class_frame_1_1_frame_subpass_fullscreen_effect.html#afd15af2271058feafd74f12dfa289fdc">Frame::FrameSubpassFullscreenEffect</a>, <a class="el" href="class_frame_1_1_frame_subpass.html#a463efc4177b773f3c16a60c337102dac">Frame::FrameSubpass</a>, and <a class="el" href="class_frame_1_1_frame_pass.html#a3b2a6b2935f0de28abe612dff7fa3a2b">Frame::FramePass</a>.</p>
+
+</div>
+</div>
+<a id="a191ebce8910309accf4eef71aa6dc57c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191ebce8910309accf4eef71aa6dc57c">&#9670;&nbsp;</a></span>SetEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Frame::FrameOp::SetEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set if operation should be enabled </p>
 
 </div>
 </div>
@@ -824,6 +952,50 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4b4d95c8644a23505cb656440fd7f7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b4d95c8644a23505cb656440fd7f7f3">&#9670;&nbsp;</a></span>children</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a>*&gt; Frame::FrameOp::children</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7adb676d62a912333e65398c49cb3e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7adb676d62a912333e65398c49cb3e98">&#9670;&nbsp;</a></span>childrenByName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a>*&gt; Frame::FrameOp::childrenByName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0a561d148eae3e7f913d973254a45017"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a561d148eae3e7f913d973254a45017">&#9670;&nbsp;</a></span>compiled</h2>
 
@@ -857,6 +1029,28 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> Frame::FrameOp::domain</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3161cfb22c9f7af6aa8fda8c9dd6c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3161cfb22c9f7af6aa8fda8c9dd6c11">&#9670;&nbsp;</a></span>enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Frame::FrameOp::enabled</td>
         </tr>
       </table>
   </td>
@@ -989,7 +1183,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_frame.html">Frame</a></li><li class="navelem"><a class="el" href="class_frame_1_1_frame_op.html">FrameOp</a></li>
 				<li class="footer">
-					Generated on Wed Mar 17 2021 21:52:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 17 2021 21:59:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

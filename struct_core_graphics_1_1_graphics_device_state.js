@@ -58,7 +58,6 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "submissionGraphicsCmdPool", "struct_core_graphics_1_1_graphics_device_state.html#ac867d761ea0051d7181644967f112e83", null ],
     [ "submissionTransferCmdPool", "struct_core_graphics_1_1_graphics_device_state.html#afc833faa0e642a3ace3bea6ae7bb7941", null ],
     [ "submissionTransferGraphicsHandoverCmdPool", "struct_core_graphics_1_1_graphics_device_state.html#a70d1ef907c21986ba1b06e7a3008065a", null ],
-    [ "textures", "struct_core_graphics_1_1_graphics_device_state.html#a3702f8ad72c3db6378e51686c5a674d8", null ],
     [ "tickResourceTable", "struct_core_graphics_1_1_graphics_device_state.html#afe6919e5150df78ad1d22ec6accdbeee", null ],
     [ "usePatches", "struct_core_graphics_1_1_graphics_device_state.html#ab1f4136db1092a72655ec9845c93be72", null ],
     [ "visualizeMipMaps", "struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a", null ]

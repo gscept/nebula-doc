@@ -18,7 +18,7 @@ var class_vulkan_1_1_vk_shader_server =
     [ "RegisterTexture", "class_vulkan_1_1_vk_shader_server.html#ad35c12f43f1d0616ddfe14405723451f", null ],
     [ "ReregisterTexture", "class_vulkan_1_1_vk_shader_server.html#a88f560206fd67e86b7b7d92381849d6f", null ],
     [ "SetGlobalEnvironmentTextures", "class_vulkan_1_1_vk_shader_server.html#ab49605385e454fb79e39a5aae9fe50b6", null ],
-    [ "SetupBufferConstants", "class_vulkan_1_1_vk_shader_server.html#a675a975975777e32cd6460096203c3b8", null ],
+    [ "SetupBufferConstants", "class_vulkan_1_1_vk_shader_server.html#a0fd24bb572179ac5a5648e081f000fe9", null ],
     [ "SubmitTextureDescriptorChanges", "class_vulkan_1_1_vk_shader_server.html#a916931a0750117df5e23ae70b0dce3f6", null ],
     [ "UnregisterTexture", "class_vulkan_1_1_vk_shader_server.html#acd956f56f0aa1786b4b24b1844362220", null ],
     [ "UpdateResources", "class_vulkan_1_1_vk_shader_server.html#a837b8c51253a0f8c6026f20f38b4c59e", null ],

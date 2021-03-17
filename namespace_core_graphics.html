@@ -190,7 +190,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_copy.html">BufferCopy</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_create_info.html">GraphicsDeviceCreateInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_graphics.html">Graphics</a> Device is the engine which drives the graphics abstraction layer.  <a href="struct_core_graphics_1_1_graphics_device_create_info.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_graphics.html" title="Implements the shader server used by Vulkan.">Graphics</a> Device is the engine which drives the graphics abstraction layer.  <a href="struct_core_graphics_1_1_graphics_device_create_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_query.html">Query</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1331,12 +1331,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a0143e6263f0e5f2f8e87991e81e51d36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0143e6263f0e5f2f8e87991e81e51d36">UpdateBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buffer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, const void *data, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:a0143e6263f0e5f2f8e87991e81e51d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">update buffer in command buffer  <a href="namespace_core_graphics.html#a0143e6263f0e5f2f8e87991e81e51d36">More...</a><br /></td></tr>
 <tr class="separator:a0143e6263f0e5f2f8e87991e81e51d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0a1fa7777c90616ac56b626418309c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7a0a1fa7777c90616ac56b626418309c">RegisterTexture</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
-<tr class="memdesc:a7a0a1fa7777c90616ac56b626418309c"><td class="mdescLeft">&#160;</td><td class="mdescRight">register texture globally  <a href="namespace_core_graphics.html#a7a0a1fa7777c90616ac56b626418309c">More...</a><br /></td></tr>
-<tr class="separator:a7a0a1fa7777c90616ac56b626418309c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9d1a06163f12ead64ffd5f4c739b3c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#afa9d1a06163f12ead64ffd5f4c739b3c">GetTexture</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
-<tr class="memdesc:afa9d1a06163f12ead64ffd5f4c739b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get globally registered texture  <a href="namespace_core_graphics.html#afa9d1a06163f12ead64ffd5f4c739b3c">More...</a><br /></td></tr>
-<tr class="separator:afa9d1a06163f12ead64ffd5f4c739b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13d8cbdb616a00f76ee620b8bbbbe5e3"><td class="memTemplParams" colspan="2">template&lt;typename OBJECT_ID_TYPE &gt; </td></tr>
 <tr class="memitem:a13d8cbdb616a00f76ee620b8bbbbe5e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a13d8cbdb616a00f76ee620b8bbbbe5e3">ObjectSetName</a> (const OBJECT_ID_TYPE id, const char *name)</td></tr>
 <tr class="memdesc:a13d8cbdb616a00f76ee620b8bbbbe5e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set debug name for object  <a href="namespace_core_graphics.html#a13d8cbdb616a00f76ee620b8bbbbe5e3">More...</a><br /></td></tr>
@@ -7363,26 +7357,6 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="afa9d1a06163f12ead64ffd5f4c739b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa9d1a06163f12ead64ffd5f4c739b3c">&#9670;&nbsp;</a></span>GetTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> CoreGraphics::GetTexture </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get globally registered texture </p>
-
-</div>
-</div>
 <a id="a167ea0e0560d66da98ad2dadc707ede1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a167ea0e0560d66da98ad2dadc707ede1">&#9670;&nbsp;</a></span>GetUsePatches()</h2>
 
@@ -8333,36 +8307,6 @@ template&lt;typename OBJECT_ID_TYPE &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a0a1fa7777c90616ac56b626418309c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a0a1fa7777c90616ac56b626418309c">&#9670;&nbsp;</a></span>RegisterTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreGraphics::RegisterTexture </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>register texture globally </p>
 
 </div>
 </div>
@@ -13443,7 +13387,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Wed Mar 17 2021 21:52:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 17 2021 21:59:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

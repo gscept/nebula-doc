@@ -24,6 +24,7 @@ var class_base_1_1_shader_server_base =
     [ "ResetFeatureBits", "class_base_1_1_shader_server_base.html#a3fc233fdb5d0b3230b305dfcfb58887d", null ],
     [ "SetActiveShader", "class_base_1_1_shader_server_base.html#a22b1f56470729114dbe4b3d93def215d", null ],
     [ "SetFeatureBits", "class_base_1_1_shader_server_base.html#a487d57efe75287e0696e0abb020e4a50", null ],
+    [ "SetupBufferConstants", "class_base_1_1_shader_server_base.html#adee94557ba7ce5a3177724ad92c5da97", null ],
     [ "CoreGraphics::ShaderIdentifier", "class_base_1_1_shader_server_base.html#a88ca62d65596719a4b3dc97aa948a8f9", null ],
     [ "ShaderBase", "class_base_1_1_shader_server_base.html#aa1e6e976c4e34222d5aaa66a4cfa316c", null ],
     [ "activeShader", "class_base_1_1_shader_server_base.html#ad4c731249e5f6566719413d207a58cd1", null ],

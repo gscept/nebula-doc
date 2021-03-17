@@ -7,12 +7,6 @@ var render_2coregraphics_2barrier_8h =
     [ "BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", "struct_core_graphics_1_1_buffer_barrier" ],
     [ "ExecutionBarrier", "struct_core_graphics_1_1_execution_barrier.html", "struct_core_graphics_1_1_execution_barrier" ],
     [ "BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", "struct_core_graphics_1_1_barrier_create_info" ],
-    [ "__BeginEnumString", "render_2coregraphics_2barrier_8h.html#ac342ed82dcba4424944a60080670b81b", null ],
-    [ "__BeginStringEnum", "render_2coregraphics_2barrier_8h.html#a352b246b4a1a19a7d5689fa108446179", null ],
-    [ "__EndEnumString", "render_2coregraphics_2barrier_8h.html#a605f350459f86180e05bb375fe9ea24e", null ],
-    [ "__EndStringEnum", "render_2coregraphics_2barrier_8h.html#a7191b9c57034460318dac1fc59514d30", null ],
-    [ "__EnumString", "render_2coregraphics_2barrier_8h.html#ae1b0b4517bf54006eafb9f36846d6b2c", null ],
-    [ "__StringEnum", "render_2coregraphics_2barrier_8h.html#a0b189bd1ddab40698f497f1432bb4f62", null ],
     [ "BarrierAccess", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264ed", [
       [ "NoAccess", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264eda88a12f09800c497f30b98781952b50f2", null ],
       [ "IndirectRead", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264eda64ed5e77058a0395dfb683a575555f09", null ],

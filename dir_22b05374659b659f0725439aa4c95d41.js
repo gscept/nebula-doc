@@ -15,9 +15,5 @@ var dir_22b05374659b659f0725439aa4c95d41 =
     [ "ssrcontext.cc", "ssrcontext_8cc.html", "ssrcontext_8cc" ],
     [ "ssrcontext.h", "ssrcontext_8h.html", [
       [ "SSRContext", "class_post_effects_1_1_s_s_r_context.html", "class_post_effects_1_1_s_s_r_context" ]
-    ] ],
-    [ "tonemapcontext.cc", "tonemapcontext_8cc.html", "tonemapcontext_8cc" ],
-    [ "tonemapcontext.h", "tonemapcontext_8h.html", [
-      [ "TonemapContext", "class_post_effects_1_1_tonemap_context.html", "class_post_effects_1_1_tonemap_context" ]
     ] ]
 ];

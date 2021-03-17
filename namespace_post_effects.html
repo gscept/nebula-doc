@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('namespace_post_effects.html',''); init
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bloom post effect. </p>
-<p>Tonemapping post effect.</p>
 <p>SSR post effect.</p>
 <p>SSAO post effect.</p>
 <p>Histogram calculates a HDR luminance histogram over the entire image to account for light intensity and color saturation.</p>
@@ -109,8 +108,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_s_s_r_context.html">SSRContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_post_effects_1_1_tonemap_context.html">TonemapContext</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -122,8 +119,6 @@ Functions</h2></td></tr>
 <tr class="separator:a2b89ea5be690ace1c69eeff61a7b9025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb3614691649da130ae8a1afcdb97527"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#adb3614691649da130ae8a1afcdb97527">__ImplementPluginContext</a> (<a class="el" href="class_post_effects_1_1_s_s_r_context.html">PostEffects::SSRContext</a>)</td></tr>
 <tr class="separator:adb3614691649da130ae8a1afcdb97527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5f5f273f22dd12188b2d41f566840e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#adc5f5f273f22dd12188b2d41f566840e">__ImplementPluginContext</a> (<a class="el" href="class_post_effects_1_1_tonemap_context.html">PostEffects::TonemapContext</a>)</td></tr>
-<tr class="separator:adc5f5f273f22dd12188b2d41f566840e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -346,37 +341,10 @@ Variables</h2></td></tr>
 <tr class="separator:aace91f94c099101befedcd79f75c82c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a000da2f5b704510935704b4edf7fa85a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#a000da2f5b704510935704b4edf7fa85a">ssrState</a></td></tr>
 <tr class="separator:a000da2f5b704510935704b4edf7fa85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc3f35779b775321ef6ac2d6d87bced6"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:aecbe2d4eb1bd22597e43cbe44ebe23e3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a852c6bd658fba5fb95ed636d47468a4c">PostEffects::downsample2x2</a></td></tr>
-<tr class="separator:aecbe2d4eb1bd22597e43cbe44ebe23e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28be0d63e2a82c6cd3997aa398322945"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a8722df3e51ae8ecfb48fa805b7112ff5">PostEffects::copy</a></td></tr>
-<tr class="separator:a28be0d63e2a82c6cd3997aa398322945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef36e3e2ed974dc3e0d62129a9b0d90"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#abd2dd6d2ae97960dadcbf363848833f6">PostEffects::shader</a></td></tr>
-<tr class="separator:a9ef36e3e2ed974dc3e0d62129a9b0d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ce2dbecbc392ce3afa08313951b106"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a548744698a1bfac1e1809d86558aa38f">PostEffects::tonemapTable</a></td></tr>
-<tr class="separator:a03ce2dbecbc392ce3afa08313951b106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b366553c132de44a05733f0db8b857b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a9ee85eeab4416987b46b82ce252be4be">PostEffects::constantsSlot</a></td></tr>
-<tr class="separator:a2b366553c132de44a05733f0db8b857b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d35a9a3f49759a222bc1f6eda00c32b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a9a9a38686d7a1a45e4a7753eb8665a88">PostEffects::colorSlot</a></td></tr>
-<tr class="separator:a6d35a9a3f49759a222bc1f6eda00c32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a04dcd57a6b6b68ee8cb5e6e864e4d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a91915beef7d912de82df45a337cbdaf0">PostEffects::prevSlot</a></td></tr>
-<tr class="separator:a23a04dcd57a6b6b68ee8cb5e6e864e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde559361c284315708bcc4b6f43a9f2"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a1eea4993533625ed5833366ed7180c6c">PostEffects::program</a></td></tr>
-<tr class="separator:afde559361c284315708bcc4b6f43a9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea717ddc449af34d34e75f07c1c5c0bb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#aed4734402c78f41a03a6264045e135a7">PostEffects::timevar</a></td></tr>
-<tr class="separator:aea717ddc449af34d34e75f07c1c5c0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72cd569ae3dc6f011a32a3f135fac15"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ad16b264ff9de9ac76abb528886446ac6">PostEffects::constants</a></td></tr>
-<tr class="separator:ac72cd569ae3dc6f011a32a3f135fac15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679712084918ac228778fda96e362772"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a6492fd98b4c3e6ec0472fe9e92934686">PostEffects::colorBuffer</a></td></tr>
-<tr class="separator:a679712084918ac228778fda96e362772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2a57508480f83b938cdec6cef9449a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a9557314444bd754b1649f21b9379ea10">PostEffects::averageLumBuffer</a></td></tr>
-<tr class="separator:a0d2a57508480f83b938cdec6cef9449a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc3f35779b775321ef6ac2d6d87bced6"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#afc3f35779b775321ef6ac2d6d87bced6">tonemapState</a></td></tr>
-<tr class="separator:afc3f35779b775321ef6ac2d6d87bced6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a1b8bcba7e18c234b3b737842126f3e41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8bcba7e18c234b3b737842126f3e41">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8bcba7e18c234b3b737842126f3e41">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +362,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aed34b8776b2f2a1d9d23b1d7c49b90a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed34b8776b2f2a1d9d23b1d7c49b90a0">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed34b8776b2f2a1d9d23b1d7c49b90a0">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +380,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2b89ea5be690ace1c69eeff61a7b9025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b89ea5be690ace1c69eeff61a7b9025">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b89ea5be690ace1c69eeff61a7b9025">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +398,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adb3614691649da130ae8a1afcdb97527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3614691649da130ae8a1afcdb97527">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3614691649da130ae8a1afcdb97527">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,24 +407,6 @@ Variables</h2></td></tr>
           <td class="memname">PostEffects::__ImplementPluginContext </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_post_effects_1_1_s_s_r_context.html">PostEffects::SSRContext</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc5f5f273f22dd12188b2d41f566840e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc5f5f273f22dd12188b2d41f566840e">&#9670;&nbsp;</a></span>__ImplementPluginContext() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PostEffects::__ImplementPluginContext </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_post_effects_1_1_tonemap_context.html">PostEffects::TonemapContext</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -488,20 +438,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> PostEffects::aoResolutionVar</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9557314444bd754b1649f21b9379ea10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9557314444bd754b1649f21b9379ea10">&#9670;&nbsp;</a></span>averageLumBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> PostEffects::averageLumBuffer</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -774,34 +710,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6492fd98b4c3e6ec0472fe9e92934686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6492fd98b4c3e6ec0472fe9e92934686">&#9670;&nbsp;</a></span>colorBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> PostEffects::colorBuffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9a9a38686d7a1a45e4a7753eb8665a88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a9a38686d7a1a45e4a7753eb8665a88">&#9670;&nbsp;</a></span>colorSlot</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> PostEffects::colorSlot</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1b129b7fcf28b3521cc990148217e7fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b129b7fcf28b3521cc990148217e7fc">&#9670;&nbsp;</a></span>colorSourceSlot</h2>
 
@@ -844,20 +752,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8722df3e51ae8ecfb48fa805b7112ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8722df3e51ae8ecfb48fa805b7112ff5">&#9670;&nbsp;</a></span>copy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> PostEffects::copy</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac3c769605aa5ebafe7c5bc5120c8c843"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3c769605aa5ebafe7c5bc5120c8c843">&#9670;&nbsp;</a></span>downsample</h2>
 
@@ -866,20 +760,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float PostEffects::downsample</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a852c6bd658fba5fb95ed636d47468a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a852c6bd658fba5fb95ed636d47468a4c">&#9670;&nbsp;</a></span>downsample2x2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> PostEffects::downsample2x2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1516,34 +1396,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a91915beef7d912de82df45a337cbdaf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91915beef7d912de82df45a337cbdaf0">&#9670;&nbsp;</a></span>prevSlot</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> PostEffects::prevSlot</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1eea4993533625ed5833366ed7180c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eea4993533625ed5833366ed7180c6c">&#9670;&nbsp;</a></span>program</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CoreGraphics::ShaderProgramId PostEffects::program</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae9d825ad30acede95c25039245e1467b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9d825ad30acede95c25039245e1467b">&#9670;&nbsp;</a></span>r</h2>
 
@@ -1684,20 +1536,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abd2dd6d2ae97960dadcbf363848833f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd2dd6d2ae97960dadcbf363848833f6">&#9670;&nbsp;</a></span>shader</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> PostEffects::shader</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a825e3364318c29cbd82bce236358bcea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a825e3364318c29cbd82bce236358bcea">&#9670;&nbsp;</a></span>size</h2>
 
@@ -1832,48 +1670,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> PostEffects::tanAngleBiasVar</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aed4734402c78f41a03a6264045e135a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4734402c78f41a03a6264045e135a7">&#9670;&nbsp;</a></span>timevar</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> PostEffects::timevar</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afc3f35779b775321ef6ac2d6d87bced6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc3f35779b775321ef6ac2d6d87bced6">&#9670;&nbsp;</a></span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct { ... }  PostEffects::tonemapState</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a548744698a1bfac1e1809d86558aa38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a548744698a1bfac1e1809d86558aa38f">&#9670;&nbsp;</a></span>tonemapTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> PostEffects::tonemapTable</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2083,7 +1879,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_post_effects.html">PostEffects</a></li>
 				<li class="footer">
-					Generated on Wed Mar 17 2021 21:52:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 17 2021 21:59:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

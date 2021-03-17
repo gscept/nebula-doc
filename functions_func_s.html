@@ -648,6 +648,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetEmitterAttrs()
 : <a class="el" href="class_models_1_1_particle_system_node.html#af418468e4edef1f426507d79a8f2fecf">Models::ParticleSystemNode</a>
 </li>
+<li>SetEnabled()
+: <a class="el" href="class_frame_1_1_frame_op.html#a191ebce8910309accf4eef71aa6dc57c">Frame::FrameOp</a>
+</li>
 <li>setEnableSorting()
 : <a class="el" href="struct_im3d_1_1_context.html#ae8acb81a3b109fe229c9b59dbf3fff5f">Im3d::Context</a>
 </li>
@@ -704,7 +707,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetFloat()
 : <a class="el" href="class_attr_1_1_attribute.html#ab43994f83359a2548c0880f422fbaa15">Attr::Attribute</a>
 , <a class="el" href="class_attr_1_1_attribute_container.html#abf81e9ecf231bd2f83c5a66a12ee3edd">Attr::AttributeContainer</a>
-, <a class="el" href="class_attr_1_1_attribute_table.html#a26612e9400b30378ca9bd220d2f5b20d">Attr::AttributeTable</a>
+, <a class="el" href="class_attr_1_1_attribute_table.html#ab7b2995fed50926ba219adc0416f87a4">Attr::AttributeTable</a>
 , <a class="el" href="class_db_1_1_writer.html#abb526c747024b406d37814afbf501a71">Db::Writer</a>
 , <a class="el" href="class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045">IO::XmlWriter</a>
 , <a class="el" href="class_particles_1_1_emitter_attrs.html#a214c86a298fcf9e020900c956e75807f">Particles::EmitterAttrs</a>
@@ -870,7 +873,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetInt()
 : <a class="el" href="class_attr_1_1_attribute.html#acbdd9e668f09cf08cd6116f1b969d43a">Attr::Attribute</a>
 , <a class="el" href="class_attr_1_1_attribute_container.html#a22490a95e5d4698f5f4c122357bd46e8">Attr::AttributeContainer</a>
-, <a class="el" href="class_attr_1_1_attribute_table.html#a9e977b15168addd27602ade43d63fd29">Attr::AttributeTable</a>
+, <a class="el" href="class_attr_1_1_attribute_table.html#acf197c8793372b95d21c57a65bca024b">Attr::AttributeTable</a>
 , <a class="el" href="class_db_1_1_writer.html#a3bf122060558b70a8f74f3b3d333064d">Db::Writer</a>
 , <a class="el" href="class_i_o_1_1_xml_writer.html#a6134fb8a727c7410a3bb08d944028310">IO::XmlWriter</a>
 , <a class="el" href="class_particles_1_1_emitter_attrs.html#a117abf61699116d70209262c7be558c2">Particles::EmitterAttrs</a>
@@ -1662,7 +1665,6 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="class_post_effects_1_1_histogram_context.html#af23799f4c2431f4b37ac9342d476bcce">PostEffects::HistogramContext</a>
 , <a class="el" href="class_post_effects_1_1_s_s_a_o_context.html#a749827651b96ae0167c5d4af6b8bf274">PostEffects::SSAOContext</a>
 , <a class="el" href="class_post_effects_1_1_s_s_r_context.html#af834fe961b3357a0cf984e12d595f034">PostEffects::SSRContext</a>
-, <a class="el" href="class_post_effects_1_1_tonemap_context.html#ae9b800d0ece2ff15ef6099787c5991c9">PostEffects::TonemapContext</a>
 , <a class="el" href="class_render_modules_1_1_render_module.html#a49ea69ad489b0b10e2e942100c48c455">RenderModules::RenderModule</a>
 , <a class="el" href="class_render_modules_1_1_r_t_plugin_registry.html#ad725782d475a9287c92c29ac5eb812d1">RenderModules::RTPluginRegistry</a>
 , <a class="el" href="class_render_util_1_1_draw_full_screen_quad.html#a2b722a51e585a764d321be74aaddef9b">RenderUtil::DrawFullScreenQuad</a>
@@ -1708,7 +1710,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_fog_1_1_volumetric_fog_context.html#ab724f3df358bf38a8fb971dc83dc7e21">Fog::VolumetricFogContext</a>
 </li>
 <li>SetupBufferConstants()
-: <a class="el" href="class_vulkan_1_1_vk_shader_server.html#a675a975975777e32cd6460096203c3b8">Vulkan::VkShaderServer</a>
+: <a class="el" href="class_base_1_1_shader_server_base.html#adee94557ba7ce5a3177724ad92c5da97">Base::ShaderServerBase</a>
+, <a class="el" href="class_vulkan_1_1_vk_shader_server.html#a0fd24bb572179ac5a5648e081f000fe9">Vulkan::VkShaderServer</a>
 </li>
 <li>SetupDecalEmissive()
 : <a class="el" href="class_decals_1_1_decal_context.html#ae99250915d103d9fadb0a7413931b4d8">Decals::DecalContext</a>
@@ -2030,27 +2033,23 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>size()
 : <a class="el" href="class_ti_xml_string.html#a483d85103d2a3ba8c0831e205c832f33">TiXmlString</a>
+, <a class="el" href="class_util_1_1_array.html#a859c94480bd680f23431ef1f470c615a">Util::Array&lt; TYPE &gt;</a>
 </li>
 <li>Size()
 : <a class="el" href="class_util_1_1_array.html#adb4efc6c9b96eea51e5a59e0fe03c73a">Util::Array&lt; TYPE &gt;</a>
-</li>
-<li>size()
-: <a class="el" href="class_util_1_1_array.html#a859c94480bd680f23431ef1f470c615a">Util::Array&lt; TYPE &gt;</a>
-</li>
-<li>Size()
-: <a class="el" href="class_util_1_1_array_allocator.html#a235204ce591eebb5047116b6183c7928">Util::ArrayAllocator&lt; TYPES &gt;</a>
+, <a class="el" href="class_util_1_1_array_allocator.html#a235204ce591eebb5047116b6183c7928">Util::ArrayAllocator&lt; TYPES &gt;</a>
 , <a class="el" href="class_util_1_1_array_allocator_safe.html#af9122a528700f88c340d15cfc5e8359f">Util::ArrayAllocatorSafe&lt; TYPES &gt;</a>
 , <a class="el" href="class_util_1_1_array_queue.html#ab738c368931ab0841c6d3eb0650f8099">Util::ArrayQueue&lt; TYPE &gt;</a>
 , <a class="el" href="class_util_1_1_array_stack.html#ae74cee49eca92ea93f4d3f8ffbf791ac">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>
 , <a class="el" href="class_util_1_1_blob.html#ac1b23383a9e5c3da68053f071bd0d0a8">Util::Blob</a>
 , <a class="el" href="class_util_1_1_dictionary.html#a27d60565894fee03bda8440bdac7e394">Util::Dictionary&lt; KEYTYPE, VALUETYPE &gt;</a>
+, <a class="el" href="class_util_1_1_fixed_array.html#a77d2c8ee86df1f86a63644ab71338e22">Util::FixedArray&lt; TYPE &gt;</a>
 </li>
 <li>size()
 : <a class="el" href="class_util_1_1_fixed_array.html#aa7502bbacafcea288c9d905c147865b0">Util::FixedArray&lt; TYPE &gt;</a>
 </li>
 <li>Size()
-: <a class="el" href="class_util_1_1_fixed_array.html#a77d2c8ee86df1f86a63644ab71338e22">Util::FixedArray&lt; TYPE &gt;</a>
-, <a class="el" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool&lt; TYPE &gt;</a>
+: <a class="el" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool&lt; TYPE &gt;</a>
 , <a class="el" href="class_util_1_1_hash_table.html#a679b7a7e7adef24aa588682086f12212">Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;</a>
 , <a class="el" href="class_util_1_1_list.html#afd6c58a0090a53dc497fde24197f0048">Util::List&lt; TYPE &gt;</a>
 , <a class="el" href="class_util_1_1_priority_array.html#ac3c215106e1535d059af542a56c256de">Util::PriorityArray&lt; TYPE &gt;</a>
@@ -2155,7 +2154,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="struct_im3d_1_1_sphere.html#a0a4c892d6bf75a3793b41598d0b9b015">Im3d::Sphere</a>
 </li>
 <li>sphere()
-: <a class="el" href="class_math_1_1sphere.html#aeced751f5eb2c6149cd41540022bb60c">Math::sphere</a>
+: <a class="el" href="class_math_1_1sphere.html#a9909cf090a11eb8e4ab42ccc964fae86">Math::sphere</a>
 </li>
 <li>Split()
 : <a class="el" href="class_i_o_1_1_u_r_i.html#a98d96e6900e51888ed9b90fa2086ebf5">IO::URI</a>
@@ -2477,7 +2476,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Wed Mar 17 2021 21:52:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 17 2021 21:59:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

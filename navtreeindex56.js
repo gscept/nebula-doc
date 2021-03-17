@@ -1,12 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"imguirtplugin_8h_source.html":[10,0,0,0,2,11],
-"index.html":[],
-"index.html":[0],
-"indextype_8h.html":[10,0,0,5,5,35],
-"indextype_8h_source.html":[10,0,0,5,5,35],
-"infinitytype_8cc.html":[10,0,0,5,4,20],
-"infinitytype_8h.html":[10,0,0,5,4,21],
 "infinitytype_8h_source.html":[10,0,0,5,4,21],
 "inputevent_8h.html":[10,0,0,5,11,7],
 "inputevent_8h_source.html":[10,0,0,5,11,7],
@@ -249,5 +242,12 @@ var NAVTREEINDEX56 =
 "linuxbarrier_8h.html":[10,0,0,3,17,2,0],
 "linuxbarrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,17,2,0,0],
 "linuxbarrier_8h_source.html":[10,0,0,3,17,2,0],
-"linuxcompletioncounter_8h.html":[10,0,0,3,17,2,1]
+"linuxcompletioncounter_8h.html":[10,0,0,3,17,2,1],
+"linuxcompletioncounter_8h_source.html":[10,0,0,3,17,2,1],
+"linuxcriticalsection_8h.html":[10,0,0,3,17,2,2],
+"linuxcriticalsection_8h_source.html":[10,0,0,3,17,2,2],
+"linuxevent_8h.html":[10,0,0,3,17,2,3],
+"linuxevent_8h_source.html":[10,0,0,3,17,2,3],
+"linuxfilewatcher_8cc.html":[10,0,0,3,9,5,0],
+"linuxfilewatcher_8h.html":[10,0,0,3,9,5,1]
 };

@@ -793,8 +793,7 @@ var annotated_dup =
       [ "BloomContext", "class_post_effects_1_1_bloom_context.html", "class_post_effects_1_1_bloom_context" ],
       [ "HistogramContext", "class_post_effects_1_1_histogram_context.html", "class_post_effects_1_1_histogram_context" ],
       [ "SSAOContext", "class_post_effects_1_1_s_s_a_o_context.html", "class_post_effects_1_1_s_s_a_o_context" ],
-      [ "SSRContext", "class_post_effects_1_1_s_s_r_context.html", "class_post_effects_1_1_s_s_r_context" ],
-      [ "TonemapContext", "class_post_effects_1_1_tonemap_context.html", "class_post_effects_1_1_tonemap_context" ]
+      [ "SSRContext", "class_post_effects_1_1_s_s_r_context.html", "class_post_effects_1_1_s_s_r_context" ]
     ] ],
     [ "Profiling", "namespace_profiling.html", [
       [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
