@@ -8,6 +8,7 @@ var histogramcontext_8cc =
     [ "downsampleResourceTable", "histogramcontext_8cc.html#a25ffd35ec47a1771892ce18394fee1b2", null ],
     [ "downsampleShader", "histogramcontext_8cc.html#a6d73c4d969e42b8af908d1bd39f6e8a0", null ],
     [ "histogramCategorizeProgram", "histogramcontext_8cc.html#a833b217d8bb1acb3f251be209330ef62", null ],
+    [ "histogramClearCountersBuffer", "histogramcontext_8cc.html#abac3db91ba40acf97f3b11c23532bccd", null ],
     [ "histogramConstants", "histogramcontext_8cc.html#a129c4ff0aefb1699afe4ce600c660aa6", null ],
     [ "histogramCounters", "histogramcontext_8cc.html#ad7eb2d1326a536c1f2d0f48c949f956d", null ],
     [ "histogramReadback", "histogramcontext_8cc.html#add2c320a1029341fc4b265ca920f5ca0", null ],

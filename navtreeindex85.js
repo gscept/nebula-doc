@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"struct_math_1_1vec2.html#a108f2c77335b9a5d050a66aff7ccd6b6":[9,0,36,26,8],
+"struct_math_1_1vec2.html#a235b29ec0ab188b0e4cd178fd6d32c2f":[9,0,36,26,29],
 "struct_math_1_1vec2.html#a23d7aa402335a9aa2a3aa4c98bc07c28":[9,0,36,26,14],
 "struct_math_1_1vec2.html#a273e94855d28cc9ba8e6b526fb57e587":[9,0,36,26,16],
 "struct_math_1_1vec2.html#a30e7ad3032f730d619e652e9e9594caf":[9,0,36,26,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ad8723c8aa598283f492d2a31325235f9":[9,0,43,0,0,3],
 "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html":[9,0,43,0,1],
 "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#a9975c8e5d8ea451e6407501633575abc":[9,0,43,0,1,1],
-"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[9,0,43,0,1,0],
-"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[9,0,43,1,0],
-"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html#a5746e8d4a1f395cd7ae20a0ae32043cb":[9,0,43,1,0,2]
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[9,0,43,0,1,0]
 };

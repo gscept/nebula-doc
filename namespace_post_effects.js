@@ -55,6 +55,7 @@ var namespace_post_effects =
     [ "hbaoY", "namespace_post_effects.html#a096ac2615c3e1604c1b75f65955e8d9b", null ],
     [ "height", "namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5", null ],
     [ "histogramCategorizeProgram", "namespace_post_effects.html#a833b217d8bb1acb3f251be209330ef62", null ],
+    [ "histogramClearCountersBuffer", "namespace_post_effects.html#abac3db91ba40acf97f3b11c23532bccd", null ],
     [ "histogramConstants", "namespace_post_effects.html#a129c4ff0aefb1699afe4ce600c660aa6", null ],
     [ "histogramCounters", "namespace_post_effects.html#ad7eb2d1326a536c1f2d0f48c949f956d", null ],
     [ "histogramReadback", "namespace_post_effects.html#add2c320a1029341fc4b265ca920f5ca0", null ],

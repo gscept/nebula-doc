@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"struct_dynui_1_1_imgui_renderer_params.html#a55bda40274a331dacf906fac8e977884":[9,0,15,4,0],
+"struct_dynui_1_1_imgui_renderer_params.html#ad1832a01f753ea512420b185bfd797d7":[9,0,15,4,1],
 "struct_dynui_1_1_imgui_texture_id.html":[9,0,15,5],
 "struct_dynui_1_1_imgui_texture_id.html#a222946dd50fb64d75637c6418155d1eb":[9,0,15,5,1],
 "struct_dynui_1_1_imgui_texture_id.html#a2ad2feab6d6d330e170baabc74372ff7":[9,0,15,5,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "struct_game_1_1_world_1_1_callback_info.html#a79d021159f62385553be87559abd60c1":[9,0,21,16,1,2],
 "struct_game_1_1_world_1_1_callback_info.html#a7cc91ce2ca0d19c0531c2a9f99e3d220":[9,0,21,16,1,3],
 "struct_game_1_1_world_1_1_callback_info.html#ab5543f3c2f6e276041d7641486457439":[9,0,21,16,1,1],
-"struct_game_1_1_world_1_1_dealloc_instance_command.html":[9,0,21,16,2],
-"struct_game_1_1_world_1_1_dealloc_instance_command.html#aadfca8129e9e7ae9e98c9fa64b08a9b6":[9,0,21,16,2,0],
-"struct_game_1_1_world_create_info.html":[9,0,21,8]
+"struct_game_1_1_world_1_1_dealloc_instance_command.html":[9,0,21,16,2]
 };

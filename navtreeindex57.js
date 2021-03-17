@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"linuxfilewatcher_8h.html":[10,0,0,3,9,5,1],
 "linuxfilewatcher_8h_source.html":[10,0,0,3,9,5,1],
 "linuxinterlocked_8h.html":[10,0,0,3,17,2,4],
 "linuxinterlocked_8h_source.html":[10,0,0,3,17,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "namespace_animation.html#a184abf3537f86f1f75e06f76b23200cd":[8,0,0,7],
 "namespace_animation.html#a5f7584e23233beb3decf66445789f9a7":[8,0,0,10],
 "namespace_animation.html#a6450cd240e798db92aae3c4973e0f3cb":[8,0,0,8],
-"namespace_animation.html#a7513c4990ee583a9cc930e3e51791830":[8,0,0,9],
-"namespace_animation.html#a7770d65efa1d663ff3f82ee2077f0c1c":[8,0,0,12]
+"namespace_animation.html#a7513c4990ee583a9cc930e3e51791830":[8,0,0,9]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_resource_pipeline_create_info.html#a4eba54cffa325a2ee13fb122dc15d2a7":[9,0,10,78,2],
+"struct_core_graphics_1_1_resource_pipeline_create_info.html#a6cf1d7f3fed148a5800bd200cbdc2c1f":[9,0,10,78,0],
 "struct_core_graphics_1_1_resource_pipeline_create_info.html#aae8baa64ac6097a86f864a52db14d214":[9,0,10,78,1],
 "struct_core_graphics_1_1_resource_pipeline_id.html":[9,0,10,76],
 "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html":[9,0,10,77],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#ae5488db6c42e67cef4142f112d64b6cf":[9,0,15,6,0,12],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af8fab9579e8fdc37b70bbe43ecefcdef":[9,0,15,6,0,7],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af9a3fcf3f43142fc9f255866fc693eeb":[9,0,15,6,0,4],
-"struct_dynui_1_1_imgui_renderer_params.html":[9,0,15,4],
-"struct_dynui_1_1_imgui_renderer_params.html#a55bda40274a331dacf906fac8e977884":[9,0,15,4,0],
-"struct_dynui_1_1_imgui_renderer_params.html#ad1832a01f753ea512420b185bfd797d7":[9,0,15,4,1]
+"struct_dynui_1_1_imgui_renderer_params.html":[9,0,15,4]
 };

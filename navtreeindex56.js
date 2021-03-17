@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"infinitytype_8h.html":[10,0,0,5,4,21],
 "infinitytype_8h_source.html":[10,0,0,5,4,21],
 "inputevent_8h.html":[10,0,0,5,11,7],
 "inputevent_8h_source.html":[10,0,0,5,11,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "linuxcriticalsection_8h_source.html":[10,0,0,3,17,2,2],
 "linuxevent_8h.html":[10,0,0,3,17,2,3],
 "linuxevent_8h_source.html":[10,0,0,3,17,2,3],
-"linuxfilewatcher_8cc.html":[10,0,0,3,9,5,0],
-"linuxfilewatcher_8h.html":[10,0,0,3,9,5,1]
+"linuxfilewatcher_8cc.html":[10,0,0,3,9,5,0]
 };
