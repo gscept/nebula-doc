@@ -28,6 +28,8 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
       [ "ManagerHandle", "struct_game_1_1_manager_handle.html", null ],
       [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ]
     ] ],
+    [ "propertyinspection.cc", "propertyinspection_8cc.html", "propertyinspection_8cc" ],
+    [ "propertyinspection.h", "propertyinspection_8h.html", "propertyinspection_8h" ],
     [ "propertyserialization.cc", "propertyserialization_8cc.html", "propertyserialization_8cc" ],
     [ "propertyserialization.h", "propertyserialization_8h.html", [
       [ "PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ],

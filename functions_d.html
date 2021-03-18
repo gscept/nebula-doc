@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="struct_core_graphics_1_1_texture_map_info.html#a0a66f2e9df63ea3f1442c57a85bb32ee">CoreGraphics::TextureMapInfo</a>
 , <a class="el" href="struct_gltf_1_1_buffer.html#afb2b43e2ad3e925dc0b4cd56e53cb385">Gltf::Buffer</a>
 , <a class="el" href="struct_gltf_1_1_image.html#a00c0a978c0c8c81d3a56255113ef1992">Gltf::Image</a>
-, <a class="el" href="struct_im3d_1_1_vector.html#a1d7638798f0670e7c898309d4c635f81">Im3d::Vector&lt; T &gt;</a>
+, <a class="el" href="struct_im3d_1_1_vector.html#abed76e2b2eb6c0e0b2dd24ee7fc4f741">Im3d::Vector&lt; T &gt;</a>
 , <a class="el" href="struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a">IO::EventHandlerData</a>
 , <a class="el" href="struct_jobs_1_1_job_i_o_data.html#a1e0894c34698cbecd2facdeaec9fd940">Jobs::JobIOData</a>
 , <a class="el" href="struct_jobs_1_1_job_uniform_data.html#a18ab7362e3d43a4d780bb2ec40adeea2">Jobs::JobUniformData</a>
@@ -140,13 +140,13 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 </li>
 <li>database
 : <a class="el" href="class_db_1_1_reader.html#a3f7dee476205322ec36ed113fe7ad838">Db::Reader</a>
-, <a class="el" href="class_db_1_1_table.html#ab955d4b4f86b0f953a4f35cb4fc92186">Db::Table</a>
 </li>
 <li>Database
 : <a class="el" href="class_db_1_1_table.html#a6efef52d7a939622bbc934ff6b90ffe0">Db::Table</a>
 </li>
 <li>database
-: <a class="el" href="class_db_1_1_writer.html#a8d2fefe01f011a3110d96db97600a0c2">Db::Writer</a>
+: <a class="el" href="class_db_1_1_table.html#ab955d4b4f86b0f953a4f35cb4fc92186">Db::Table</a>
+, <a class="el" href="class_db_1_1_writer.html#a8d2fefe01f011a3110d96db97600a0c2">Db::Writer</a>
 </li>
 <li>Database()
 : <a class="el" href="class_mem_db_1_1_database.html#af1f4030ccd015c9788d6dc650aaed646">MemDb::Database</a>
@@ -750,6 +750,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 : <a class="el" href="class_attr_1_1_attribute_definition_base.html#a93772a2d20f1061cb624bd8262cc6bcb">Attr::AttributeDefinitionBase</a>
 , <a class="el" href="class_core_1_1_factory.html#afa4d892f2a6cd80d82dfec8464a9e48a">Core::Factory</a>
 , <a class="el" href="class_game_1_1_blueprint_manager.html#a5316364c31fcca0f50e9e34d4e9cf602">Game::BlueprintManager</a>
+, <a class="el" href="class_game_1_1_property_inspection.html#af3cab7355c414e8dce38a277de8db483">Game::PropertyInspection</a>
 , <a class="el" href="class_game_1_1_property_serialization.html#a1d004a127dc863b1b4fecc797a5be8e7">Game::PropertySerialization</a>
 , <a class="el" href="class_graphics_feature_1_1_camera_manager.html#aaafe13534590d962ce7b609283f2fc01">GraphicsFeature::CameraManager</a>
 , <a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a274a88068c84b854c63f6323a3527995">GraphicsFeature::GraphicsManager</a>
@@ -1026,7 +1027,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 </li>
 <li>Dispatch
 : <a class="el" href="class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba3292921bcccae2e86810e5472237d4c5">CoreGraphics::DrawThread</a>
-, <a class="el" href="class_messaging_1_1_static_message_handler.html#a645345c64b22a00f53b056e66a2e75cf">Messaging::StaticMessageHandler</a>
+, <a class="el" href="class_messaging_1_1_static_message_handler.html#aa7edee3549dff8ab2492c7792b85ba50">Messaging::StaticMessageHandler</a>
 </li>
 <li>Dispatcher()
 : <a class="el" href="class_messaging_1_1_dispatcher.html#a82b610cf89a6bfcd613917b85b40aaab">Messaging::Dispatcher</a>
@@ -1178,7 +1179,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 : <a class="el" href="class_frame_1_1_frame_subpass_batch.html#ae784f198850adfeb09768cb895155d82">Frame::FrameSubpassBatch</a>
 </li>
 <li>DrawBox()
-: <a class="el" href="class_im3d_1_1_im3d_context.html#a3ec6950182d8af73a95f0702af3e11c2">Im3d::Im3dContext</a>
+: <a class="el" href="class_im3d_1_1_im3d_context.html#ae8b28872054df43c05ee1ef9ca5253f9">Im3d::Im3dContext</a>
 </li>
 <li>DrawBufferedIndexedPrimitives()
 : <a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#ac214af6e9f7ad4648f487b8039964d85">Vulkan::VkShapeRenderer</a>
@@ -1202,8 +1203,14 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>drawFenceCommands
 : <a class="el" href="class_vulkan_1_1_vk_scheduler.html#a3f164014c2fa3cf1b8d062f322755c1d">Vulkan::VkScheduler</a>
 </li>
+<li>DrawFunc
+: <a class="el" href="class_game_1_1_property_inspection.html#a8a2efd6a1f241157f077a963954fd74d">Game::PropertyInspection</a>
+</li>
 <li>DrawIndexedPrimitives()
 : <a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#ae677173dc08660270359f13242f2eff6">Vulkan::VkShapeRenderer</a>
+</li>
+<li>DrawInspector()
+: <a class="el" href="class_game_1_1_property_inspection.html#a00d7e8830b03f90d58163aa6e8e5298a">Game::PropertyInspection</a>
 </li>
 <li>DrawLine()
 : <a class="el" href="class_im3d_1_1_im3d_context.html#a433ae3843529d0e1cf2d394def9a8181">Im3d::Im3dContext</a>
@@ -1381,7 +1388,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Thu Mar 18 2021 12:50:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Mar 18 2021 13:48:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -389,6 +389,7 @@ var annotated_dup =
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
+      [ "PropertyInspection", "class_game_1_1_property_inspection.html", "class_game_1_1_property_inspection" ],
       [ "PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ]
     ] ],
     [ "GLFW", "namespace_g_l_f_w.html", [

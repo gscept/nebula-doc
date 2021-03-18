@@ -363,10 +363,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>inclusive
 : <a class="el" href="struct_game_1_1_filter_create_info.html#af6587f010f9d4e37003de7eb589985be">Game::FilterCreateInfo</a>
-, <a class="el" href="class_mem_db_1_1_filter_set.html#a5b42c380ef4c259f19e4a987884fa33f">MemDb::FilterSet</a>
 </li>
 <li>Inclusive()
 : <a class="el" href="class_mem_db_1_1_filter_set.html#ac467468899e12fda3a0228ffece87499">MemDb::FilterSet</a>
+</li>
+<li>inclusive
+: <a class="el" href="class_mem_db_1_1_filter_set.html#a5b42c380ef4c259f19e4a987884fa33f">MemDb::FilterSet</a>
 </li>
 <li>inclusiveProperties
 : <a class="el" href="class_mem_db_1_1_filter_set.html#ae5ddf81a19a44fa3ede17aa4200be3e3">MemDb::FilterSet</a>
@@ -660,6 +662,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="class_math_1_1rectangle.html#a52e09330510d82212df3db8973fc003c">Math::rectangle&lt; TYPE &gt;</a>
 , <a class="el" href="class_math_1_1sphere.html#acec101f89690f1896bf6e51a1edb6ce6">Math::sphere</a>
 </li>
+<li>inspectors
+: <a class="el" href="class_game_1_1_property_inspection.html#a17b1b59f9f49fe53e9fc187ab5c691ce">Game::PropertyInspection</a>
+</li>
 <li>Instance()
 : <a class="el" href="class_core_1_1_factory.html#a7929efbcb2e9cb3d47dfa5d3122aa6d6">Core::Factory</a>
 </li>
@@ -668,6 +673,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>Instance()
 : <a class="el" href="class_game_1_1_message.html#afc59c195e531e4f95bcb28cf139226a8">Game::Message&lt; MSG, TYPES &gt;</a>
+, <a class="el" href="class_game_1_1_property_inspection.html#a67526b3e59eb375915e765f90c2bacf4">Game::PropertyInspection</a>
 , <a class="el" href="class_game_1_1_property_serialization.html#a1cf0d6252dd6f11b78a52cbf1cf50bc8">Game::PropertySerialization</a>
 , <a class="el" href="class_mem_db_1_1_type_registry.html#a22ca0dfc0a4e35db8130e6814a116244">MemDb::TypeRegistry</a>
 </li>
@@ -735,7 +741,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="class_models_1_1_shader_state_node.html#afbaf87c332bc2e04710cf9dbc74c5449">Models::ShaderStateNode</a>
 </li>
 <li>Instantiate()
-: <a class="el" href="class_game_1_1_blueprint_manager.html#acad378457e21611f8037be7430468f92">Game::BlueprintManager</a>
+: <a class="el" href="class_game_1_1_blueprint_manager.html#a2a9f0997b15aceb8a1f7ec98724ce6ea">Game::BlueprintManager</a>
 </li>
 <li>Int
 : <a class="el" href="class_base_1_1_vertex_component_base.html#afcc209940e2de35c2d63d09001e15df8a28095e107737b4447153a89e196276b8">Base::VertexComponentBase</a>
@@ -753,11 +759,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>Int64
 : <a class="el" href="class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534ebabd819e0e2727cc363a951d69f547acb1">Util::Variant</a>
 </li>
-<li>intArray
-: <a class="el" href="class_util_1_1_variant.html#ac18dd2383a2c33991194c6682736d7b7">Util::Variant</a>
-</li>
 <li>IntArray
 : <a class="el" href="class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba8b0ec3aaa27b3b0ad322db23d6e95485">Util::Variant</a>
+</li>
+<li>intArray
+: <a class="el" href="class_util_1_1_variant.html#ac18dd2383a2c33991194c6682736d7b7">Util::Variant</a>
 </li>
 <li>IntAttr
 : <a class="el" href="class_particles_1_1_emitter_attrs.html#a7549f3b944ef84c4d98068eafc68d327">Particles::EmitterAttrs</a>
@@ -766,7 +772,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_particles_1_1_emitter_attrs.html#a17acd1d61ade6e2de948e8a01e9c32d7">Particles::EmitterAttrs</a>
 </li>
 <li>IntAttrId()
-: <a class="el" href="class_attr_1_1_int_attr_id.html#aef5c087725d363f09f037d3f80b686dd">Attr::IntAttrId</a>
+: <a class="el" href="class_attr_1_1_int_attr_id.html#a3672545f0403d75ebfe05108b87e1e0d">Attr::IntAttrId</a>
 </li>
 <li>IntegerFrag
 : <a class="el" href="class_db_1_1_sqlite3_table.html#a3f3cdbded09b69cf21a145da6e093683">Db::Sqlite3Table</a>
@@ -1020,15 +1026,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsActive()
 : <a class="el" href="class_animation_1_1_anim_job.html#a0d48f185cc292f83f8bb692f0592ee07">Animation::AnimJob</a>
+, <a class="el" href="class_core_animation_1_1_anim_curve.html#a1a13f7aaf51c1825f0f98f704c85eb4f">CoreAnimation::AnimCurve</a>
 </li>
 <li>isActive
 : <a class="el" href="class_core_animation_1_1_anim_curve.html#a642bde8dacb7aa416459955f29755ede">CoreAnimation::AnimCurve</a>
-</li>
-<li>IsActive()
-: <a class="el" href="class_core_animation_1_1_anim_curve.html#a1a13f7aaf51c1825f0f98f704c85eb4f">CoreAnimation::AnimCurve</a>
-</li>
-<li>isActive
-: <a class="el" href="struct_core_animation_1_1_nax3_curve.html#aef24299a806b2a3a71fab2f6843f47c2">CoreAnimation::Nax3Curve</a>
+, <a class="el" href="struct_core_animation_1_1_nax3_curve.html#aef24299a806b2a3a71fab2f6843f47c2">CoreAnimation::Nax3Curve</a>
 </li>
 <li>IsActive()
 : <a class="el" href="class_game_1_1_feature_unit.html#a69800a7653cbaa2ebeb373281874eb29">Game::FeatureUnit</a>
@@ -1058,11 +1060,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsArray()
 : <a class="el" href="class_i_o_1_1_json_reader.html#a0ebea76e65d47d2542c7082f4467b62e">IO::JsonReader</a>
 </li>
-<li>isAttached
-: <a class="el" href="class_input_1_1_input_handler.html#a6fac766c9a374a97f9d56a817946b989">Input::InputHandler</a>
-</li>
 <li>IsAttached()
 : <a class="el" href="class_input_1_1_input_handler.html#a9659e71748b0b5c53fe348b2bd7b592c">Input::InputHandler</a>
+</li>
+<li>isAttached
+: <a class="el" href="class_input_1_1_input_handler.html#a6fac766c9a374a97f9d56a817946b989">Input::InputHandler</a>
 </li>
 <li>IsAttachedToSequencer()
 : <a class="el" href="class_animation_1_1_anim_job.html#a0e33ecb32722c9f38db3e0bacffe3de8">Animation::AnimJob</a>
@@ -1093,11 +1095,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsCached()
 : <a class="el" href="class_i_o_1_1_stream_cache.html#a4de6721ba3dfdac7b95436f048e53f11">IO::StreamCache</a>
 </li>
-<li>IsCapturing()
-: <a class="el" href="class_input_1_1_input_handler.html#a5185e0c275da0e71eecf365b299f6959">Input::InputHandler</a>
-</li>
 <li>isCapturing
 : <a class="el" href="class_input_1_1_input_handler.html#a975f12d474b2b12b878a445272d4d1bc">Input::InputHandler</a>
+</li>
+<li>IsCapturing()
+: <a class="el" href="class_input_1_1_input_handler.html#a5185e0c275da0e71eecf365b299f6959">Input::InputHandler</a>
 </li>
 <li>IsCommitted()
 : <a class="el" href="class_db_1_1_column.html#a3327bf828782c628f56114aa10dbdcf9">Db::Column</a>
@@ -1155,12 +1157,10 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsDirty()
 : <a class="el" href="class_base_1_1_transform_device_base.html#a54da25045188aa9440c2e9652cc556e4">Base::TransformDeviceBase</a>
+, <a class="el" href="class_db_1_1_filter_set.html#aff15bc24d9226f5d6db9a8a56bb8fba8">Db::FilterSet</a>
 </li>
 <li>isDirty
 : <a class="el" href="class_db_1_1_filter_set.html#a9deb5cf41af9c2c469469f58afcc41cd">Db::FilterSet</a>
-</li>
-<li>IsDirty()
-: <a class="el" href="class_db_1_1_filter_set.html#aff15bc24d9226f5d6db9a8a56bb8fba8">Db::FilterSet</a>
 </li>
 <li>isdirty()
 : <a class="el" href="class_math_1_1transform44.html#a2d5f8ea6371be5a9726859966f4cb2aa">Math::transform44</a>
@@ -1168,12 +1168,14 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>isDirty
 : <a class="el" href="class_math_1_1transform44.html#a72e13e5422632dd965a79f872999b244">Math::transform44</a>
 </li>
+<li>IsDynamic()
+: <a class="el" href="class_attr_1_1_attribute_definition_base.html#a53fdc499322c9900e27f6bfccbeb3588">Attr::AttributeDefinitionBase</a>
+</li>
 <li>isDynamic
 : <a class="el" href="class_attr_1_1_attribute_definition_base.html#a4f6f8cf41bce08dada9bdc13ae935ecd">Attr::AttributeDefinitionBase</a>
 </li>
 <li>IsDynamic()
-: <a class="el" href="class_attr_1_1_attribute_definition_base.html#a53fdc499322c9900e27f6bfccbeb3588">Attr::AttributeDefinitionBase</a>
-, <a class="el" href="class_attr_1_1_attr_id.html#a8b9231461a85b32d94879972dc8e81d1">Attr::AttrId</a>
+: <a class="el" href="class_attr_1_1_attr_id.html#a8b9231461a85b32d94879972dc8e81d1">Attr::AttrId</a>
 </li>
 <li>IsEmpty()
 : <a class="el" href="class_db_1_1_filter_set.html#a8ab669f1fc22d4e408b63ffaca05c25d">Db::FilterSet</a>
@@ -1181,13 +1183,13 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="struct_gltf_1_1_gltf_base.html#a49600065cbb712b530e8063a6cf34f06">Gltf::GltfBase</a>
 , <a class="el" href="struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#aad66e2dedb769c6ed6a89c1199218c34">Gltf::Material::PBRMetallicRoughness</a>
 , <a class="el" href="struct_gltf_1_1_sampler.html#ac4886acd83815bb3fa60bebf8674bcc5">Gltf::Sampler</a>
+, <a class="el" href="class_i_o_1_1_u_r_i.html#a9ea4044247e1de8948bcc9bb5ea6bcab">IO::URI</a>
 </li>
 <li>isEmpty
 : <a class="el" href="class_i_o_1_1_u_r_i.html#a8a8b7f0536d91f139f2601d767898018">IO::URI</a>
 </li>
 <li>IsEmpty()
-: <a class="el" href="class_i_o_1_1_u_r_i.html#a9ea4044247e1de8948bcc9bb5ea6bcab">IO::URI</a>
-, <a class="el" href="class_threading_1_1_lock_free_queue.html#aeb4f223af6edb60dec5ffede4b5c5ea8">Threading::LockFreeQueue&lt; TYPE &gt;</a>
+: <a class="el" href="class_threading_1_1_lock_free_queue.html#aeb4f223af6edb60dec5ffede4b5c5ea8">Threading::LockFreeQueue&lt; TYPE &gt;</a>
 , <a class="el" href="class_threading_1_1_safe_priority_queue.html#a288aa9612c6d3d4a75a92029aa0a9477">Threading::SafePriorityQueue&lt; PRITYPE, TYPE &gt;</a>
 , <a class="el" href="class_threading_1_1_safe_queue.html#a5d302d807e10a45a009e57224fb9905f">Threading::SafeQueue&lt; TYPE &gt;</a>
 , <a class="el" href="class_util_1_1_array.html#a6210e741760d6c23f997912d302b4e10">Util::Array&lt; TYPE &gt;</a>
@@ -1223,11 +1225,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsFull()
 : <a class="el" href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">Util::FixedPool&lt; TYPE &gt;</a>
 </li>
-<li>isFullscreen
-: <a class="el" href="class_base_1_1_display_device_base.html#a7f770ebc2d9db2c88094d46131b55c6f">Base::DisplayDeviceBase</a>
-</li>
 <li>IsFullscreen()
 : <a class="el" href="class_base_1_1_display_device_base.html#ada716d894adde2ebc6a9ef501799ce57">Base::DisplayDeviceBase</a>
+</li>
+<li>isFullscreen
+: <a class="el" href="class_base_1_1_display_device_base.html#a7f770ebc2d9db2c88094d46131b55c6f">Base::DisplayDeviceBase</a>
 </li>
 <li>IsGameDatabaseOpen()
 : <a class="el" href="class_db_1_1_db_server.html#af10a38fa77a99185906925cb890f9a81">Db::DbServer</a>
@@ -1264,12 +1266,10 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>isMapped
 : <a class="el" href="class_i_o_1_1_binary_reader.html#a02f0142e9a7fcd960cae5bd41055422a">IO::BinaryReader</a>
 , <a class="el" href="class_i_o_1_1_binary_writer.html#a0e9236daa9219a6e5563b94ac7fe572a">IO::BinaryWriter</a>
+, <a class="el" href="class_i_o_1_1_stream.html#a3ca8c85ae739b18328100942d0419447">IO::Stream</a>
 </li>
 <li>IsMapped()
 : <a class="el" href="class_i_o_1_1_stream.html#a952a7649fcc803158ff7c64d76ba65c5">IO::Stream</a>
-</li>
-<li>isMapped
-: <a class="el" href="class_i_o_1_1_stream.html#a3ca8c85ae739b18328100942d0419447">IO::Stream</a>
 </li>
 <li>IsMemoryMappingEnabled()
 : <a class="el" href="class_i_o_1_1_binary_reader.html#a0681647b29df2b48947f486b20d2cc85">IO::BinaryReader</a>
@@ -1278,11 +1278,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsMessageQueueValid()
 : <a class="el" href="class_game_1_1_message.html#a8f410ee455908141e589264777fdaad3">Game::Message&lt; MSG, TYPES &gt;</a>
 </li>
-<li>isModified
-: <a class="el" href="class_attr_1_1_attribute_table.html#ab89205ef2506dabfce220698323014b0">Attr::AttributeTable</a>
-</li>
 <li>IsModified()
 : <a class="el" href="class_attr_1_1_attribute_table.html#ac665b2972affeb9ee78904c18474d0b7">Attr::AttributeTable</a>
+</li>
+<li>isModified
+: <a class="el" href="class_attr_1_1_attribute_table.html#ab89205ef2506dabfce220698323014b0">Attr::AttributeTable</a>
 </li>
 <li>IsMounted()
 : <a class="el" href="class_i_o_1_1_archive_file_system_base.html#a0e8e5aa427cd73719eabbf7fb4652630">IO::ArchiveFileSystemBase</a>
@@ -1380,11 +1380,15 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>isOpen
 : <a class="el" href="class_db_1_1_writer.html#a28fe4cba6696753677144ecf006b0eef">Db::Writer</a>
-, <a class="el" href="class_debug_1_1_debug_server.html#a0dea3610059a707a0aeb00dbcc0bcb37">Debug::DebugServer</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_debug_1_1_debug_server.html#ad1564a3e1fb130aa88044387b7182951">Debug::DebugServer</a>
-, <a class="el" href="class_frame_1_1_frame_server.html#ab80864ee01709bb3f01c153d0f54a966">Frame::FrameServer</a>
+</li>
+<li>isOpen
+: <a class="el" href="class_debug_1_1_debug_server.html#a0dea3610059a707a0aeb00dbcc0bcb37">Debug::DebugServer</a>
+</li>
+<li>IsOpen()
+: <a class="el" href="class_frame_1_1_frame_server.html#ab80864ee01709bb3f01c153d0f54a966">Frame::FrameServer</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_frame_1_1_frame_server.html#a1967ef751d9efa7a2597b3d1b65cef4f">Frame::FrameServer</a>
@@ -1396,27 +1400,31 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>isOpen
 : <a class="el" href="class_http_1_1_http_server.html#aaa09e931eaafa56693093471a067a5b6">Http::HttpServer</a>
+, <a class="el" href="class_http_1_1_http_server_proxy.html#ad9451d651440d6ab83ec2895f00ed626">Http::HttpServerProxy</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_http_1_1_http_server_proxy.html#aba4949a18d4b336ea88eba4534793a91">Http::HttpServerProxy</a>
 </li>
 <li>isOpen
-: <a class="el" href="class_http_1_1_http_server_proxy.html#ad9451d651440d6ab83ec2895f00ed626">Http::HttpServerProxy</a>
+: <a class="el" href="class_i_o_1_1_console.html#a0e38916ded149153b189dae128e6cd85">IO::Console</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_i_o_1_1_console.html#aaa080fbb05350731a18a5a941923771e">IO::Console</a>
 </li>
 <li>isOpen
-: <a class="el" href="class_i_o_1_1_console.html#a0e38916ded149153b189dae128e6cd85">IO::Console</a>
-, <a class="el" href="class_i_o_1_1_console_handler.html#a77c565ac46e918250009ea3647dca68f">IO::ConsoleHandler</a>
+: <a class="el" href="class_i_o_1_1_console_handler.html#a77c565ac46e918250009ea3647dca68f">IO::ConsoleHandler</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d">IO::ConsoleHandler</a>
-, <a class="el" href="class_i_o_1_1_stream.html#a4b7c3bba2e45978ce0cfe592d00c0600">IO::Stream</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_i_o_1_1_stream.html#a530edc6cbf03c856c09410873e6e9d4d">IO::Stream</a>
-, <a class="el" href="class_i_o_1_1_stream_reader.html#a60d8606dea7df67bc55f091310e35379">IO::StreamReader</a>
+</li>
+<li>IsOpen()
+: <a class="el" href="class_i_o_1_1_stream.html#a4b7c3bba2e45978ce0cfe592d00c0600">IO::Stream</a>
+</li>
+<li>isOpen
+: <a class="el" href="class_i_o_1_1_stream_reader.html#a60d8606dea7df67bc55f091310e35379">IO::StreamReader</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_i_o_1_1_stream_reader.html#a0ddd321700cdff805f09ba80c89e9993">IO::StreamReader</a>
@@ -1430,43 +1438,43 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>isOpen
 : <a class="el" href="class_lighting_1_1_light_server_base.html#a5a5808d325ef89dc36f6222feea98c54">Lighting::LightServerBase</a>
-, <a class="el" href="class_lighting_1_1_shadow_server_base.html#aa381eeadbb09b3a37fd4c5d811c551af">Lighting::ShadowServerBase</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_lighting_1_1_shadow_server_base.html#a24f4e0830b988d8bb4ff4899af0edb64">Lighting::ShadowServerBase</a>
 </li>
 <li>isOpen
-: <a class="el" href="class_materials_1_1_material_server.html#ad3378381a845c98e5dfcd8242e501a0e">Materials::MaterialServer</a>
+: <a class="el" href="class_lighting_1_1_shadow_server_base.html#aa381eeadbb09b3a37fd4c5d811c551af">Lighting::ShadowServerBase</a>
+, <a class="el" href="class_materials_1_1_material_server.html#ad3378381a845c98e5dfcd8242e501a0e">Materials::MaterialServer</a>
 , <a class="el" href="class_messaging_1_1_async_port.html#a301cf883b3910667a06a9e43d59c0864">Messaging::AsyncPort</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_messaging_1_1_async_port.html#a3211b1d07e1c50510f352b3a3ddee445">Messaging::AsyncPort</a>
-, <a class="el" href="class_messaging_1_1_handler.html#ad952db8daf04d41f51fc3ede6285dba8">Messaging::Handler</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_messaging_1_1_handler.html#ab0cb29be7621a72cfbf4bf9da9d49b7d">Messaging::Handler</a>
 </li>
 <li>IsOpen()
-: <a class="el" href="class_net_1_1_std_tcp_server.html#afad224a00c6797e6fafd55036aa4529b">Net::StdTcpServer</a>
+: <a class="el" href="class_messaging_1_1_handler.html#ad952db8daf04d41f51fc3ede6285dba8">Messaging::Handler</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_net_1_1_std_tcp_server.html#acfdb13064dbd9654b5c4767ef9732e6d">Net::StdTcpServer</a>
 </li>
 <li>IsOpen()
-: <a class="el" href="class_picking_1_1_picking_server.html#aa1da7f6d67cc487385a165bda7bbf6c6">Picking::PickingServer</a>
+: <a class="el" href="class_net_1_1_std_tcp_server.html#afad224a00c6797e6fafd55036aa4529b">Net::StdTcpServer</a>
+, <a class="el" href="class_picking_1_1_picking_server.html#aa1da7f6d67cc487385a165bda7bbf6c6">Picking::PickingServer</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_picking_1_1_picking_server.html#aef973cc2700d8a161df1095104c8dfa1">Picking::PickingServer</a>
 </li>
 <li>IsOpen()
 : <a class="el" href="class_posix_1_1_posix_socket.html#a7aaf8e6ecc8821e62d88487a449302be">Posix::PosixSocket</a>
+, <a class="el" href="class_scripting_1_1_script_server.html#a73c2e847f4f016592dfcb11652ba1434">Scripting::ScriptServer</a>
 </li>
 <li>isOpen
 : <a class="el" href="class_scripting_1_1_script_server.html#a4a4bf46f49bd76f7086c7f5afd5e8866">Scripting::ScriptServer</a>
 </li>
 <li>IsOpen()
-: <a class="el" href="class_scripting_1_1_script_server.html#a73c2e847f4f016592dfcb11652ba1434">Scripting::ScriptServer</a>
-, <a class="el" href="class_win32_1_1_win32_socket.html#a1a3ce02b2c5166c314bd3d28d6b1fd23">Win32::Win32Socket</a>
+: <a class="el" href="class_win32_1_1_win32_socket.html#a1a3ce02b2c5166c314bd3d28d6b1fd23">Win32::Win32Socket</a>
 </li>
 <li>IsOrthogonal()
 : <a class="el" href="class_graphics_1_1_camera_settings.html#ac98181a07b16afd0c780b89e78baad43">Graphics::CameraSettings</a>
@@ -1496,10 +1504,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsQuitRequested()
 : <a class="el" href="class_app_1_1_render_application.html#a82799ec22216dbb031f2251eef994436">App::RenderApplication</a>
-, <a class="el" href="class_base_1_1_input_server_base.html#a929a71cdbfb5322798f884d5ca57cc50">Base::InputServerBase</a>
 </li>
 <li>isQuitRequested
 : <a class="el" href="class_base_1_1_input_server_base.html#a1c12fde627d65caae502dd8a8e30a2d6">Base::InputServerBase</a>
+</li>
+<li>IsQuitRequested()
+: <a class="el" href="class_base_1_1_input_server_base.html#a929a71cdbfb5322798f884d5ca57cc50">Base::InputServerBase</a>
 </li>
 <li>IsRawMode()
 : <a class="el" href="class_core_graphics_1_1_nvx3_stream_reader.html#aeb6db5c15a9e0758b666c9b6711a8632">CoreGraphics::Nvx3StreamReader</a>
@@ -1516,12 +1526,14 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsRowModified()
 : <a class="el" href="class_attr_1_1_attribute_table.html#a7820ed85a3aed16ef039cf347dea6786">Attr::AttributeTable</a>
 </li>
+<li>IsRunning()
+: <a class="el" href="class_base_1_1_process.html#ac40a50605cdd07f2882e3f68ad7ac8be">Base::Process</a>
+</li>
 <li>isRunning
 : <a class="el" href="class_base_1_1_process.html#a75d4998b560d3957dfa2609b45b4332c">Base::Process</a>
 </li>
 <li>IsRunning()
-: <a class="el" href="class_base_1_1_process.html#ac40a50605cdd07f2882e3f68ad7ac8be">Base::Process</a>
-, <a class="el" href="class_linux_1_1_linux_thread.html#a41a84137f966465fec4b1a0588d89b55">Linux::LinuxThread</a>
+: <a class="el" href="class_linux_1_1_linux_thread.html#a41a84137f966465fec4b1a0588d89b55">Linux::LinuxThread</a>
 , <a class="el" href="class_o_s_x_1_1_o_s_x_thread.html#ab8f5ca90d50b7bb5d9f106bff433972a">OSX::OSXThread</a>
 , <a class="el" href="class_posix_1_1_posix_process.html#a6470b3c509551fedeafa4fc31707cdf6">Posix::PosixProcess</a>
 , <a class="el" href="class_posix_1_1_posix_thread.html#a56d751243ad14d333e306a9740fb15de">Posix::PosixThread</a>
@@ -1530,16 +1542,16 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsSet()
 : <a class="el" href="class_mem_db_1_1_table_signature.html#a3c9af9e169dd250f4c778f3662c4de0e">MemDb::TableSignature</a>
-, <a class="el" href="class_util_1_1_bit_field.html#ab3e25e3c5127c40077f76a79d7a0cd87">Util::BitField&lt; NUMBITS &gt;</a>
+, <a class="el" href="class_util_1_1_bit_field.html#ac3bf8f9d5b843ad6addbc8a8f92f22fe">Util::BitField&lt; NUMBITS &gt;</a>
 </li>
 <li>IsSignalOnEnqueueEnabled()
 : <a class="el" href="class_threading_1_1_safe_queue.html#ac3c5995da90c165351d6d6baac7d0972">Threading::SafeQueue&lt; TYPE &gt;</a>
 </li>
-<li>isSingleThreadMode
-: <a class="el" href="class_http_1_1_http_server.html#adf6559233d5bd8d78291aa0033b56211">Http::HttpServer</a>
-</li>
 <li>IsSingleThreadMode()
 : <a class="el" href="class_http_1_1_http_server.html#a021b6c1f6d0a5b508a02f6345a69faf1">Http::HttpServer</a>
+</li>
+<li>isSingleThreadMode
+: <a class="el" href="class_http_1_1_http_server.html#adf6559233d5bd8d78291aa0033b56211">Http::HttpServer</a>
 </li>
 <li>IsSorted()
 : <a class="el" href="class_util_1_1_array.html#a0199c8533b7fc3a11bc6a94ed94f6a2a">Util::Array&lt; TYPE &gt;</a>
@@ -1551,14 +1563,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>isStarted
 : <a class="el" href="class_game_1_1_game_server.html#ad02fdd16801ff93a8d601f123e91aeff">Game::GameServer</a>
 </li>
-<li>isStatic
-: <a class="el" href="class_core_animation_1_1_anim_curve.html#a704d7e56d255563fef9cc3e547202aa8">CoreAnimation::AnimCurve</a>
-</li>
 <li>IsStatic()
 : <a class="el" href="class_core_animation_1_1_anim_curve.html#ab91883d54dc86fa8259aa0bf53c9f7d4">CoreAnimation::AnimCurve</a>
 </li>
 <li>isStatic
-: <a class="el" href="struct_core_animation_1_1_nax3_curve.html#ad9848dc79d34d03a94be8be1d8ac968a">CoreAnimation::Nax3Curve</a>
+: <a class="el" href="class_core_animation_1_1_anim_curve.html#a704d7e56d255563fef9cc3e547202aa8">CoreAnimation::AnimCurve</a>
+, <a class="el" href="struct_core_animation_1_1_nax3_curve.html#ad9848dc79d34d03a94be8be1d8ac968a">CoreAnimation::Nax3Curve</a>
 </li>
 <li>IsStaticDatabaseOpen()
 : <a class="el" href="class_db_1_1_db_server.html#a77dcc9d5fc8a1bd735dd200ca6f26172">Db::DbServer</a>
@@ -1583,26 +1593,26 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_animation_1_1_anim_sequencer.html#a9accc67bf8e4ff21040f4186c2827727">Animation::AnimSequencer</a>
 , <a class="el" href="class_attr_1_1_attr_id.html#abe32bff0470acba26b155e76dea81a3f">Attr::AttrId</a>
 , <a class="el" href="class_audio_1_1_audio_device.html#a7002e195d2fb49a43601740e1e97f159">Audio::AudioDevice</a>
-, <a class="el" href="class_base_1_1_game_content_server_base.html#a98b94dd51ca69f71393b1ed4e2af35ad">Base::GameContentServerBase</a>
 </li>
 <li>isValid
 : <a class="el" href="class_base_1_1_game_content_server_base.html#a7ba8b223a009019e01d7b6918f2c39d0">Base::GameContentServerBase</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_core_animation_1_1_anim_key_buffer.html#a04143e702b2c1fa81434b2bd465a9129">CoreAnimation::AnimKeyBuffer</a>
+: <a class="el" href="class_base_1_1_game_content_server_base.html#a98b94dd51ca69f71393b1ed4e2af35ad">Base::GameContentServerBase</a>
+, <a class="el" href="class_core_animation_1_1_anim_key_buffer.html#a04143e702b2c1fa81434b2bd465a9129">CoreAnimation::AnimKeyBuffer</a>
 , <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html#a6bc2d6305357b8d43a50d58515c535c7">CoreAnimation::AnimSampleBuffer</a>
 , <a class="el" href="class_core_graphics_1_1_render_shape.html#a2664efe372cb70f51399f06e6ac8998d">CoreGraphics::RenderShape</a>
 , <a class="el" href="class_db_1_1_command.html#a443118881f54bc0dee9fba8eeef94e3e">Db::Command</a>
 , <a class="el" href="class_db_1_1_sqlite3_command.html#a7184a5ada071715ec5e2fee3cfd28cb3">Db::Sqlite3Command</a>
 , <a class="el" href="class_debug_1_1_debug_counter.html#a93c04071c207587771493a7e7f460e6f">Debug::DebugCounter</a>
 , <a class="el" href="class_debug_1_1_debug_timer.html#abd69167cc83884f7217461cadd8b6a2c">Debug::DebugTimer</a>
+, <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html#aaa509fb88d65b4dc40597e89694a4420">FrameSync::FrameSyncTimer</a>
 </li>
 <li>isValid
 : <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html#ad5bf037e5bdc1e1e7a20ab553228bd48">FrameSync::FrameSyncTimer</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html#aaa509fb88d65b4dc40597e89694a4420">FrameSync::FrameSyncTimer</a>
-, <a class="el" href="class_game_1_1_entity_pool.html#a5eaa57a79caf12cf91c705ac58ad9d0d">Game::EntityPool</a>
+: <a class="el" href="class_game_1_1_entity_pool.html#a5eaa57a79caf12cf91c705ac58ad9d0d">Game::EntityPool</a>
 , <a class="el" href="class_game_1_1_message.html#a6db5a5a0c97fd7016e591b8db9136407">Game::Message&lt; MSG, TYPES &gt;</a>
 </li>
 <li>isValid
@@ -1618,19 +1628,19 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsValid()
 : <a class="el" href="class_i_o_1_1_archive_base.html#a99281496e1faa89054a882e677e76d44">IO::ArchiveBase</a>
+, <a class="el" href="class_i_o_1_1_archive_file_system_base.html#a5ece12e7fa54999476e66b77aaaed546">IO::ArchiveFileSystemBase</a>
 </li>
 <li>isValid
 : <a class="el" href="class_i_o_1_1_archive_file_system_base.html#a00d93641fe6d832b251888cce4a29a4e">IO::ArchiveFileSystemBase</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_i_o_1_1_archive_file_system_base.html#a5ece12e7fa54999476e66b77aaaed546">IO::ArchiveFileSystemBase</a>
+: <a class="el" href="class_i_o_1_1_assign_registry.html#aac365c7dc98ffad64ca5d5fb2c7c2532">IO::AssignRegistry</a>
 </li>
 <li>isValid
 : <a class="el" href="class_i_o_1_1_assign_registry.html#ae91afc0b248f6f30939691b0973246b3">IO::AssignRegistry</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_i_o_1_1_assign_registry.html#aac365c7dc98ffad64ca5d5fb2c7c2532">IO::AssignRegistry</a>
-, <a class="el" href="class_i_o_1_1_b_xml_loader_util.html#ad1f5fcc447953cc290cbcea134758be0">IO::BXmlLoaderUtil</a>
+: <a class="el" href="class_i_o_1_1_b_xml_loader_util.html#ad1f5fcc447953cc290cbcea134758be0">IO::BXmlLoaderUtil</a>
 , <a class="el" href="class_i_o_1_1_media_type.html#a7210d6f305f501fe1431135a171192c3">IO::MediaType</a>
 , <a class="el" href="class_i_o_1_1_scheme_registry.html#a10c8a4b025181500eda9039d49d169e1">IO::SchemeRegistry</a>
 </li>
@@ -1657,29 +1667,34 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>isValid
 : <a class="el" href="class_posix_1_1_posix_thread_barrier.html#ae67d5bc5062faf1ddbb8e2015f5a8be9">Posix::PosixThreadBarrier</a>
 </li>
+<li>IsValid()
+: <a class="el" href="class_posix_1_1_posix_thread_barrier.html#ab10aa35e36a85c92617b9fe402f924dc">Posix::PosixThreadBarrier</a>
+</li>
 <li>isvalid()
 : <a class="el" href="class_ptr.html#abc6686ef37074618cf5ba51ee69bd264">Ptr&lt; TYPE &gt;</a>
 </li>
-<li>IsValid()
-: <a class="el" href="class_render_modules_1_1_render_module.html#a4e191bed801a3f1f3574df6e1829ff55">RenderModules::RenderModule</a>
-</li>
 <li>isValid
 : <a class="el" href="class_render_modules_1_1_render_module.html#a555c3e05cd1bf4658d171fe3c48d8444">RenderModules::RenderModule</a>
-, <a class="el" href="class_render_modules_1_1_r_t_plugin_registry.html#a50458cbe611e126d18f576792db011e3">RenderModules::RTPluginRegistry</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_render_modules_1_1_r_t_plugin_registry.html#a7a22d598de37b5234ba9c06efef6e683">RenderModules::RTPluginRegistry</a>
+: <a class="el" href="class_render_modules_1_1_render_module.html#a4e191bed801a3f1f3574df6e1829ff55">RenderModules::RenderModule</a>
+, <a class="el" href="class_render_modules_1_1_r_t_plugin_registry.html#a7a22d598de37b5234ba9c06efef6e683">RenderModules::RTPluginRegistry</a>
+</li>
+<li>isValid
+: <a class="el" href="class_render_modules_1_1_r_t_plugin_registry.html#a50458cbe611e126d18f576792db011e3">RenderModules::RTPluginRegistry</a>
+</li>
+<li>IsValid()
+: <a class="el" href="class_render_util_1_1_draw_full_screen_quad.html#a398d9f4378a36ac85b55f3af4201bac4">RenderUtil::DrawFullScreenQuad</a>
 </li>
 <li>isValid
 : <a class="el" href="class_render_util_1_1_draw_full_screen_quad.html#a8b24d9430b79d86c3a89872e53b7c2ea">RenderUtil::DrawFullScreenQuad</a>
 </li>
 <li>IsValid()
-: <a class="el" href="class_render_util_1_1_draw_full_screen_quad.html#a398d9f4378a36ac85b55f3af4201bac4">RenderUtil::DrawFullScreenQuad</a>
-, <a class="el" href="class_threading_1_1_object_ref.html#a273ccb111252501d1c20f0e5ac52c452">Threading::ObjectRef</a>
+: <a class="el" href="class_threading_1_1_object_ref.html#a273ccb111252501d1c20f0e5ac52c452">Threading::ObjectRef</a>
 , <a class="el" href="class_util_1_1_blob.html#a756584d4a980fc61f559fd822630afac">Util::Blob</a>
 , <a class="el" href="class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a00a007a5198b2b20d88cca75cb92aaab">Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;</a>
 , <a class="el" href="class_util_1_1_four_c_c.html#ab712f66628e0c4cc7d3761b7de542990">Util::FourCC</a>
-, <a class="el" href="class_util_1_1_string.html#af4f4b3af5399f58e8ffec92079de65c0">Util::String</a>
+, <a class="el" href="class_util_1_1_string.html#a3b1a5b3f1aa2ce72906a1d92ea69e409">Util::String</a>
 , <a class="el" href="class_util_1_1_string_atom.html#ad5ef685850475e86ea43f1ff7e6ea87a">Util::StringAtom</a>
 , <a class="el" href="class_util_1_1_string_buffer.html#a871b9a47a25aa713c2e3d75c1c6bed32">Util::StringBuffer</a>
 </li>
@@ -1688,10 +1703,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsValid()
 : <a class="el" href="class_win32_1_1_win32_guid.html#a13aa76c465f5575f834024626f705f17">Win32::Win32Guid</a>
-, <a class="el" href="class_win32_1_1_win32_thread_barrier.html#af3e8acf4efe04fb787f9ce07f5a5c8b6">Win32::Win32ThreadBarrier</a>
 </li>
 <li>isValid
 : <a class="el" href="class_win32_1_1_win32_thread_barrier.html#aadcd28dede91efaa27fd3cd31d69ff7f">Win32::Win32ThreadBarrier</a>
+</li>
+<li>IsValid()
+: <a class="el" href="class_win32_1_1_win32_thread_barrier.html#af3e8acf4efe04fb787f9ce07f5a5c8b6">Win32::Win32ThreadBarrier</a>
 </li>
 <li>IsValidBool()
 : <a class="el" href="class_util_1_1_string.html#a2895cc2925c1c4bd90866f68fac686ee">Util::String</a>
@@ -1705,11 +1722,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsValidGraphicsEntity()
 : <a class="el" href="class_graphics_1_1_graphics_server.html#ae06cabcaa05d27d01ec5a96106da2f61">Graphics::GraphicsServer</a>
 </li>
-<li>isValidHttpRequest
-: <a class="el" href="class_http_1_1_http_request_reader.html#a5eb1456d8c22d9a1a5ece3b0ae886e02">Http::HttpRequestReader</a>
-</li>
 <li>IsValidHttpRequest()
 : <a class="el" href="class_http_1_1_http_request_reader.html#a5a194db655fce55ea10b221567a5e94a">Http::HttpRequestReader</a>
+</li>
+<li>isValidHttpRequest
+: <a class="el" href="class_http_1_1_http_request_reader.html#a5eb1456d8c22d9a1a5ece3b0ae886e02">Http::HttpRequestReader</a>
 </li>
 <li>isValidHttpResponse
 : <a class="el" href="class_http_1_1_http_response_reader.html#ae7906e844e49264645d15ded08acee94">Http::HttpResponseReader</a>
@@ -1757,7 +1774,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9a7c53a8e8b838d91078311ac620d9c189">Http::HtmlElement</a>
 </li>
 <li>IterateChildren()
-: <a class="el" href="class_ti_xml_node.html#a6aa00e07b56dc6e4850ad68ed0bdc6cc">TiXmlNode</a>
+: <a class="el" href="class_ti_xml_node.html#a67c3a02b797f08d9a31b2553661257e1">TiXmlNode</a>
 </li>
 <li>iterator
 : <a class="el" href="class_memory_1_1_arena_allocator.html#ac3dc23dc20068609162d1964ec65ce79">Memory::ArenaAllocator&lt; ChunkSize &gt;</a>
@@ -1778,7 +1795,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Thu Mar 18 2021 12:50:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Mar 18 2021 13:48:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
