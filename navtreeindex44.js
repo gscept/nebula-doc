@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"class_visibility_1_1_octree_system.html#adb6c1abb8060292a76ad5a45c801a039":[9,0,60,2,0],
+"class_visibility_1_1_portal_system.html":[9,0,60,3],
+"class_visibility_1_1_portal_system.html#aa747929850d5410b9d36ea0eb29ab96d":[9,0,60,3,1],
+"class_visibility_1_1_portal_system.html#ac4d5cfb7aa67d4043f116d98b94a8365":[9,0,60,3,0],
 "class_visibility_1_1_quadtree_system.html":[9,0,60,4],
 "class_visibility_1_1_quadtree_system.html#a55b4a726fab750e34020772e72b0e41d":[9,0,60,4,0],
 "class_visibility_1_1_quadtree_system.html#aa747929850d5410b9d36ea0eb29ab96d":[9,0,60,4,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "class_vulkan_1_1_vk_shader_pool.html#a3a29c8e596ae2938ed35cc84b047ddeb":[9,0,61,19,5],
 "class_vulkan_1_1_vk_shader_pool.html#a41c64330702c5d9f1fbf260972b2766c":[9,0,61,19,46],
 "class_vulkan_1_1_vk_shader_pool.html#a4cfb393f07157891ada0811914c26237":[9,0,61,19,44],
-"class_vulkan_1_1_vk_shader_pool.html#a50d731f8993c7e822769f6e3281f88d2":[9,0,61,19,13],
-"class_vulkan_1_1_vk_shader_pool.html#a60ad9a3e765300451247411fa7d87a3b":[9,0,61,19,41],
-"class_vulkan_1_1_vk_shader_pool.html#a65bf2db3d013d36e5535df205193c45f":[9,0,61,19,26],
-"class_vulkan_1_1_vk_shader_pool.html#a6621eb3f3f07ab211d8e0c79edc1151a":[9,0,61,19,14],
-"class_vulkan_1_1_vk_shader_pool.html#a6d1de8a8eb9c6b3c70e4eff62d934322":[9,0,61,19,28]
+"class_vulkan_1_1_vk_shader_pool.html#a50d731f8993c7e822769f6e3281f88d2":[9,0,61,19,13]
 };

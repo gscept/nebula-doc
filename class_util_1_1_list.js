@@ -18,6 +18,7 @@ var class_util_1_1_list =
     [ "Find", "class_util_1_1_list.html#a6959715b145b9b83df670a6b96a0c10e", null ],
     [ "Front", "class_util_1_1_list.html#aec5784112e90d713d0ef29e689b48e71", null ],
     [ "IsEmpty", "class_util_1_1_list.html#a17240598cfaaba9a677d29027af55713", null ],
+    [ "Last", "class_util_1_1_list.html#ab812d3e74fb875fa2b9ae9202c325f42", null ],
     [ "operator=", "class_util_1_1_list.html#a0bce219754b293651051ed4943a752da", null ],
     [ "operator=", "class_util_1_1_list.html#a139da26842fee62e3720aa3fda4e9844", null ],
     [ "Remove", "class_util_1_1_list.html#ac36e4cb11ba3884b1c1c8b91ab29cb63", null ],

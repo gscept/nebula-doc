@@ -7,5 +7,6 @@ var class_base_game_feature_1_1_base_game_feature_unit =
     [ "OnFrame", "class_base_game_feature_1_1_base_game_feature_unit.html#adecec1d11b11423eb6a61876311f6ea6", null ],
     [ "OnRenderDebug", "class_base_game_feature_1_1_base_game_feature_unit.html#aa05f0d620adad1f5e262a02c227bef56", null ],
     [ "blueprintManager", "class_base_game_feature_1_1_base_game_feature_unit.html#a99c64d0d2b015c044a6396b42f02d4f2", null ],
+    [ "cl_debug_worlds", "class_base_game_feature_1_1_base_game_feature_unit.html#a69dc436a6acf44f54a7d64c4cab3db2e", null ],
     [ "timeManager", "class_base_game_feature_1_1_base_game_feature_unit.html#ab02124acba1e8f991de68da59f86b5d3", null ]
 ];

@@ -23,6 +23,7 @@ var class_game_1_1_game_server =
     [ "OnFrame", "class_game_1_1_game_server.html#af528d4b157faa735ef9801fe6fe7cffb", null ],
     [ "Open", "class_game_1_1_game_server.html#a6d93113156b6f7feb00cb59058a96e76", null ],
     [ "RemoveGameFeature", "class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902", null ],
+    [ "RenderDebug", "class_game_1_1_game_server.html#adb6ea553bf677d3ac29723a1f5e8208e", null ],
     [ "SetCmdLineArgs", "class_game_1_1_game_server.html#a10ea63b62bee34d19971bafeec96509f", null ],
     [ "SetupEmptyWorld", "class_game_1_1_game_server.html#a739494620e013546c95d897d0889b0c4", null ],
     [ "Start", "class_game_1_1_game_server.html#a6d58e3a3554f14acb1e31c973c291dac", null ],

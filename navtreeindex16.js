@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"class_frame_1_1_frame_pass.html#a7e440217aa55ac504954640a0bf5947f":[9,0,19,9,8],
 "class_frame_1_1_frame_pass.html#a94d2e8520852af1556746723a1dece75":[9,0,19,9,3],
 "class_frame_1_1_frame_pass.html#ab5e0c0ddd4909f271b9e486cfb575a1f":[9,0,19,9,7],
 "class_frame_1_1_frame_plugin.html":[9,0,19,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "class_game_1_1_blueprint_manager.html#affc76e0b2647e1063ac1fbe400a6924c":[9,0,21,2,5],
 "class_game_1_1_entity_pool.html":[9,0,21,15],
 "class_game_1_1_entity_pool.html#a3cfc29a9aab9c586bcca7cf36b9a9abc":[9,0,21,15,0],
-"class_game_1_1_entity_pool.html#a4431c5abdb32e54e09de4dc705b6678d":[9,0,21,15,4],
-"class_game_1_1_entity_pool.html#a4a223b54aa6cce9727c45e4c0bed226d":[9,0,21,15,1]
+"class_game_1_1_entity_pool.html#a4431c5abdb32e54e09de4dc705b6678d":[9,0,21,15,4]
 };

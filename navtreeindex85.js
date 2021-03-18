@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"struct_math_1_1vec2.html":[9,0,36,26],
+"struct_math_1_1vec2.html#a0c653cdcde22bc1c3b506c302708092f":[9,0,36,26,27],
+"struct_math_1_1vec2.html#a102ba3c195ff98656d083503e2987193":[9,0,36,26,28],
+"struct_math_1_1vec2.html#a106a3e9cc5aa29c56c3c12b44af4769a":[9,0,36,26,6],
 "struct_math_1_1vec2.html#a108f2c77335b9a5d050a66aff7ccd6b6":[9,0,36,26,8],
 "struct_math_1_1vec2.html#a235b29ec0ab188b0e4cd178fd6d32c2f":[9,0,36,26,29],
 "struct_math_1_1vec2.html#a23d7aa402335a9aa2a3aa4c98bc07c28":[9,0,36,26,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a8c176dad255431ca83a4daac5e4a6ae8":[9,0,43,0,0,2],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac7a6a5baf2c595f0f490294047018827":[9,0,43,0,0,5],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac90ab1cfe667d08db73d263462e29670":[9,0,43,0,0,0],
-"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#acbf46878efd572a7693fd42043727b2c":[9,0,43,0,0,1],
-"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ad8723c8aa598283f492d2a31325235f9":[9,0,43,0,0,3],
-"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html":[9,0,43,0,1],
-"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#a9975c8e5d8ea451e6407501633575abc":[9,0,43,0,1,1],
-"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[9,0,43,0,1,0]
+"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#acbf46878efd572a7693fd42043727b2c":[9,0,43,0,0,1]
 };

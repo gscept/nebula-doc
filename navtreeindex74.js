@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"resourcetable_8h.html#a0b9c812e014eeafe0544483cd53afcb5":[10,0,0,5,5,58,24],
+"resourcetable_8h.html#a0c10c278793f7d09af0498f6c51eb036":[10,0,0,5,5,58,33],
+"resourcetable_8h.html#a251d161861c9c06b6201fa1737f8e589":[10,0,0,5,5,58,36],
 "resourcetable_8h.html#a38bf1ed30a1707444ad4ce48fb6c9d15":[10,0,0,5,5,58,19],
 "resourcetable_8h.html#a49058c3b2c2d01a79e80638ab519abf8":[10,0,0,5,5,58,18],
 "resourcetable_8h.html#a4a86f0b830a999c6d81b10d7d8e17388":[10,0,0,5,5,58,30],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8ee":[10,0,0,5,5,62,4],
 "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274":[10,0,0,5,5,62,4,2],
 "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397":[10,0,0,5,5,62,4,0],
-"shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69":[10,0,0,5,5,62,4,1],
-"shader_8h.html#ac150ec480ba3a5a62913bd15336e4ead":[10,0,0,5,5,62,35],
-"shader_8h.html#ad6f2f4c1564e01a7a67ab60d8de79f1e":[10,0,0,5,5,62,11],
-"shader_8h.html#adee70e38c9c8c3edd9f8313973546f7b":[10,0,0,5,5,62,10]
+"shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69":[10,0,0,5,5,62,4,1]
 };
