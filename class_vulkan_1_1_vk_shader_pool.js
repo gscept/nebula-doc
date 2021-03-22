@@ -41,7 +41,7 @@ var class_vulkan_1_1_vk_shader_pool =
     [ "LoadFromStream", "class_vulkan_1_1_vk_shader_pool.html#a76c62ff1c0a6a5ca675437c4d66c0d5a", null ],
     [ "ReloadFromStream", "class_vulkan_1_1_vk_shader_pool.html#a120e098a4c24caabdcf4ff178290f7cd", null ],
     [ "Unload", "class_vulkan_1_1_vk_shader_pool.html#ab86f86fa042dbdfd929df2de774635f3", null ],
-    [ "void ::CoreGraphics::SetShaderProgram", "class_vulkan_1_1_vk_shader_pool.html#a60ad9a3e765300451247411fa7d87a3b", null ],
+    [ "void ::CoreGraphics::SetShaderProgram", "class_vulkan_1_1_vk_shader_pool.html#ac5bad4d285571bc1c3e60e0f6ffc7345", null ],
     [ "VkPipelineDatabase", "class_vulkan_1_1_vk_shader_pool.html#a36c800d26c0558499c2f5373afe352d7", null ],
     [ "VkVertexSignaturePool", "class_vulkan_1_1_vk_shader_pool.html#a7216787590a71a39a6c61289794cb1b5", null ],
     [ "activeMask", "class_vulkan_1_1_vk_shader_pool.html#a4cfb393f07157891ada0811914c26237", null ],

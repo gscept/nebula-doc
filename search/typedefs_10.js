@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['scalar_23834',['scalar',['../namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243',1,'Math']]],
-  ['second_23835',['Second',['../class_base_1_1_calendar_time_base.html#a20d9d4a8e1f95d5b75b4c946153ce196',1,'Base::CalendarTimeBase']]],
-  ['serializejsonfunc_23836',['SerializeJsonFunc',['../class_game_1_1_property_serialization.html#a9293abf90d21c91c4d552c86f69d967d',1,'Game::PropertySerialization']]],
-  ['shadowcasterallocator_23837',['ShadowCasterAllocator',['../class_lighting_1_1_light_context.html#ab76e0ad71d9ab6daa1a552c4cf03e058',1,'Lighting::LightContext']]],
-  ['size_23838',['Size',['../class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545',1,'IO::Stream']]],
-  ['size64t_23839',['Size64T',['../types_8h.html#a8f7ff89b06a83637c0d61c08304d40b9',1,'types.h']]],
-  ['size_5ftype_23840',['size_type',['../class_ti_xml_string.html#abeb2c1893a04c17904f7c06546d0b971',1,'TiXmlString']]],
-  ['sizet_23841',['SizeT',['../types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37',1,'types.h']]],
-  ['socket_23842',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
-  ['spotlightallocator_23843',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a0adb0abaa0e95b6377581ad32fbdb301',1,'Lighting::LightContext']]],
-  ['stubtype_23844',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['submissioncontextallocator_23845',['SubmissionContextAllocator',['../namespace_vulkan.html#a5583277fc10a7e425236f022fd196cfb',1,'Vulkan']]]
+  ['scalar_23841',['scalar',['../namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243',1,'Math']]],
+  ['second_23842',['Second',['../class_base_1_1_calendar_time_base.html#a20d9d4a8e1f95d5b75b4c946153ce196',1,'Base::CalendarTimeBase']]],
+  ['serializejsonfunc_23843',['SerializeJsonFunc',['../class_game_1_1_property_serialization.html#a9293abf90d21c91c4d552c86f69d967d',1,'Game::PropertySerialization']]],
+  ['shadowcasterallocator_23844',['ShadowCasterAllocator',['../class_lighting_1_1_light_context.html#ab76e0ad71d9ab6daa1a552c4cf03e058',1,'Lighting::LightContext']]],
+  ['size_23845',['Size',['../class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545',1,'IO::Stream']]],
+  ['size64t_23846',['Size64T',['../types_8h.html#a8f7ff89b06a83637c0d61c08304d40b9',1,'types.h']]],
+  ['size_5ftype_23847',['size_type',['../class_ti_xml_string.html#abeb2c1893a04c17904f7c06546d0b971',1,'TiXmlString']]],
+  ['sizet_23848',['SizeT',['../types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37',1,'types.h']]],
+  ['socket_23849',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
+  ['spotlightallocator_23850',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a0adb0abaa0e95b6377581ad32fbdb301',1,'Lighting::LightContext']]],
+  ['stubtype_23851',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
+  ['submissioncontextallocator_23852',['SubmissionContextAllocator',['../namespace_vulkan.html#a5583277fc10a7e425236f022fd196cfb',1,'Vulkan']]]
 ];

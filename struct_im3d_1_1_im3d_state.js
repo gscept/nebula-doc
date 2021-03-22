@@ -1,6 +1,5 @@
 var struct_im3d_1_1_im3d_state =
 [
-    [ "bufferedVertexData", "struct_im3d_1_1_im3d_state.html#ab21d971dcd1fb4aee098a148299bdcd1", null ],
     [ "cellSize", "struct_im3d_1_1_im3d_state.html#abe9811236c6cebe4d21a1eec53324fec", null ],
     [ "depthLayerId", "struct_im3d_1_1_im3d_state.html#ace7f39f0bf6c138ede4f5986bdc59a57", null ],
     [ "depthLines", "struct_im3d_1_1_im3d_state.html#ad5eb116a8d65ed075cee6f9cf78a57b0", null ],

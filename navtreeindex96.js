@@ -1,6 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"vkpass_8cc.html#adf221bb05f4522f1b951b88dbafda368":[10,0,0,5,5,5,28,6],
 "vkpass_8cc.html#af96c7800e3a4810d9784429db4ca15e8":[10,0,0,5,5,5,28,16],
 "vkpass_8cc.html#afafe9325a69fa346f3139c03b995f1d5":[10,0,0,5,5,5,28,12],
 "vkpass_8h.html":[10,0,0,5,5,5,29],
@@ -112,7 +111,7 @@ var NAVTREEINDEX96 =
 "vkshaderpool_8cc.html":[10,0,0,5,5,5,44],
 "vkshaderpool_8cc.html#a899a4613e291fafd2b116c7756dec277":[10,0,0,5,5,5,44,0],
 "vkshaderpool_8h.html":[10,0,0,5,5,5,45],
-"vkshaderpool_8h.html#aa966a45e98d213a7825077cbb0f9af8e":[10,0,0,5,5,5,45,8],
+"vkshaderpool_8h.html#a1c9e4e270e8c4db8f175494ab2954c0c":[10,0,0,5,5,5,45,8],
 "vkshaderpool_8h_source.html":[10,0,0,5,5,5,45],
 "vkshaderprogram_8cc.html":[10,0,0,5,5,5,46],
 "vkshaderprogram_8cc.html#a12668a20d24d067e0b5d9e43bf2c7c22":[10,0,0,5,5,5,46,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX96 =
 "volumetricfogcontext_8cc.html#a427a2ffd12a5aedd201eb3536a7313bd":[10,0,0,5,8,0,15],
 "volumetricfogcontext_8cc.html#a5b95de07d7ff7484616a4b07105287c9":[10,0,0,5,8,0,23],
 "volumetricfogcontext_8cc.html#a62c680e9fd6809caba8a52ee56facb8e":[10,0,0,5,8,0,16],
-"volumetricfogcontext_8cc.html#a7177334b2e4a4b62713e32be604955e7":[10,0,0,5,8,0,19]
+"volumetricfogcontext_8cc.html#a7177334b2e4a4b62713e32be604955e7":[10,0,0,5,8,0,19],
+"volumetricfogcontext_8cc.html#a76108891dc4352082a676f2978ee446d":[10,0,0,5,8,0,0]
 };

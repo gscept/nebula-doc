@@ -90,7 +90,7 @@ var graphicsdevice_8h =
     [ "SetResourceTable", "graphicsdevice_8h.html#adf9cba435a7e072ce5abb1120a54fc50", null ],
     [ "SetResourceTablePipeline", "graphicsdevice_8h.html#a9ed4b3c170b5d8167fc0156cb95ab68e", null ],
     [ "SetScissorRect", "graphicsdevice_8h.html#aa545c20e412120618e06495c8ef3488d", null ],
-    [ "SetShaderProgram", "graphicsdevice_8h.html#aa966a45e98d213a7825077cbb0f9af8e", null ],
+    [ "SetShaderProgram", "graphicsdevice_8h.html#a1c9e4e270e8c4db8f175494ab2954c0c", null ],
     [ "SetStencilReadMask", "graphicsdevice_8h.html#a20e5220978042fda324c465f31dc1311", null ],
     [ "SetStencilRef", "graphicsdevice_8h.html#a052e01d67abeee31dd4a0b8e929dd748", null ],
     [ "SetStencilWriteMask", "graphicsdevice_8h.html#ad493bff789db61bb88483e0581d6f8bd", null ],

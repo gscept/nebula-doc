@@ -1,6 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions.html#a4eaeae115aaca518a5edddd525767c29":[9,0,61,41,0,0],
 "struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions.html#aa6e7aa31c5da92edf4d330fb3eb0a9b4":[9,0,61,41,0,1],
 "struct_vulkan_1_1_vk_vertex_signature_pool_1_1_bind_info.html":[9,0,61,43,0],
 "struct_vulkan_1_1_vk_vertex_signature_pool_1_1_bind_info.html#a9d7cb036fbbd6cda64a1c7edc4f31962":[9,0,61,43,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX90 =
 "texture_8cc.html#a9730a8817680318688ec1ce5b15b767f":[10,0,0,5,5,86,15],
 "texture_8cc.html#a98034d3e4d2978314972f3ce525e1f3c":[10,0,0,5,5,86,6],
 "texture_8cc.html#a98aa1f70fdfe96125f752519f5d7ff88":[10,0,0,5,5,86,23],
-"texture_8cc.html#aae5aa0ab197f498c75e7e5d958b2cded":[10,0,0,5,5,86,1]
+"texture_8cc.html#aae5aa0ab197f498c75e7e5d958b2cded":[10,0,0,5,5,86,1],
+"texture_8cc.html#aaf89beb264d035b44422e027b9a10387":[10,0,0,5,5,86,28]
 };
