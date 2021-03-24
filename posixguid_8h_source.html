@@ -131,51 +131,43 @@ $(document).ready(function(){initNavTree('posixguid_8h_source.html',''); initRes
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span>*</div>
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a514953481b651d473ad423e3869ed867">   76</a></span>&#160;PosixGuid::operator <span class="keyword">new</span>(<span class="keywordtype">size_t</span> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">    #if NEBULA_OBJECTS_USE_MEMORYPOOL</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> Memory::ObjectPoolAllocator-&gt;Alloc(<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    #else</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#afc38321223285768495097bfcd74a630">   90</a></span>&#160;PosixGuid::operator <span class="keyword">delete</span>(<span class="keywordtype">void</span>* p)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;{</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">    #if NEBULA_OBJECTS_USE_MEMORYPOOL</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> Memory::ObjectPoolAllocator-&gt;Free(p, <span class="keyword">sizeof</span>(Win32Guid));</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">    #else</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, p);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">  103</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>()</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    uuid_clear(this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a0b9d74b078206634327459112f8a465d">  112</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>(<span class="keyword">const</span> <a class="code" href="class_posix_1_1_posix_guid.html">PosixGuid</a>&amp; rhs)</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    uuid_copy(this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>, rhs.<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a8ef22329281c8bace092ba8c9dd96310">  121</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* ptr, <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>((0 != ptr) &amp;&amp; (<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> == <span class="keyword">sizeof</span>(uuid_t)));</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="namespace_memory.html#a1b30970207f199d34ccd289fb784f8c1">Memory::Copy</a>(ptr, &amp;this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>, <span class="keyword">sizeof</span>(uuid_t));</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}; <span class="comment">// namespace Posix</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#afc38321223285768495097bfcd74a630">   86</a></span>&#160;PosixGuid::operator <span class="keyword">delete</span>(<span class="keywordtype">void</span>* p)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a>, p);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">   95</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>()</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    uuid_clear(this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a0b9d74b078206634327459112f8a465d">  104</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>(<span class="keyword">const</span> <a class="code" href="class_posix_1_1_posix_guid.html">PosixGuid</a>&amp; rhs)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    uuid_copy(this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>, rhs.<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment"></span><span class="keyword">inline</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_guid.html#a8ef22329281c8bace092ba8c9dd96310">  113</a></span>&#160;<a class="code" href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">PosixGuid::PosixGuid</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* ptr, <a class="code" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>((0 != ptr) &amp;&amp; (<a class="code" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> == <span class="keyword">sizeof</span>(uuid_t)));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="namespace_memory.html#a1b30970207f199d34ccd289fb784f8c1">Memory::Copy</a>(ptr, &amp;this-&gt;<a class="code" href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">uuid</a>, <span class="keyword">sizeof</span>(uuid_t));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}; <span class="comment">// namespace Posix</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html"><div class="ttname"><a href="class_posix_1_1_posix_guid.html">Posix::PosixGuid</a></div><div class="ttdoc">Posix implementation of the Util::Guid class.</div><div class="ttdef"><b>Definition:</b> posixguid.h:23</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_a065e6348c52b09af3dba40eedc58457a"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a065e6348c52b09af3dba40eedc58457a">Posix::PosixGuid::AsBinary</a></div><div class="ttdeci">SizeT AsBinary(const unsigned char *&amp;outPtr) const</div><div class="ttdoc">get pointer to binary data</div><div class="ttdef"><b>Definition:</b> posixguid.cc:134</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_a110c032db3f2e2f782253d35f66c0d4d"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a110c032db3f2e2f782253d35f66c0d4d">Posix::PosixGuid::operator&gt;</a></div><div class="ttdeci">bool operator&gt;(const PosixGuid &amp;rhs) const</div><div class="ttdoc">greater-then operator</div><div class="ttdef"><b>Definition:</b> posixguid.cc:80</div></div>
@@ -186,7 +178,7 @@ $(document).ready(function(){initNavTree('posixguid_8h_source.html',''); initRes
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_a71c293a632e34592e6578335da181787"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a71c293a632e34592e6578335da181787">Posix::PosixGuid::operator&gt;=</a></div><div class="ttdeci">bool operator&gt;=(const PosixGuid &amp;rhs) const</div><div class="ttdoc">greater-or-equal operator</div><div class="ttdef"><b>Definition:</b> posixguid.cc:90</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_a85977ca517cf8557e531ca2ab0bcda28"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a85977ca517cf8557e531ca2ab0bcda28">Posix::PosixGuid::FromBinary</a></div><div class="ttdeci">static PosixGuid FromBinary(const unsigned char *ptr, SizeT numBytes)</div><div class="ttdoc">construct from binary representation</div><div class="ttdef"><b>Definition:</b> posixguid.cc:157</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_a8c13fab1d87e1a5c485dca7a96fee05b"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a8c13fab1d87e1a5c485dca7a96fee05b">Posix::PosixGuid::operator=</a></div><div class="ttdeci">void operator=(const PosixGuid &amp;rhs)</div><div class="ttdoc">assignement operator</div><div class="ttdef"><b>Definition:</b> posixguid.cc:17</div></div>
-<div class="ttc" id="aclass_posix_1_1_posix_guid_html_a9ac837fdd046c54791c36c709c90d955"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">Posix::PosixGuid::PosixGuid</a></div><div class="ttdeci">PosixGuid()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition:</b> posixguid.h:103</div></div>
+<div class="ttc" id="aclass_posix_1_1_posix_guid_html_a9ac837fdd046c54791c36c709c90d955"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955">Posix::PosixGuid::PosixGuid</a></div><div class="ttdeci">PosixGuid()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition:</b> posixguid.h:95</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_aa1948952d9078cc9057b606e3a85b162"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#aa1948952d9078cc9057b606e3a85b162">Posix::PosixGuid::uuid</a></div><div class="ttdeci">uuid_t uuid</div><div class="ttdef"><b>Definition:</b> posixguid.h:68</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_ab6b9ff71f6691d4e61cca0ff1298a017"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#ab6b9ff71f6691d4e61cca0ff1298a017">Posix::PosixGuid::HashCode</a></div><div class="ttdeci">IndexT HashCode() const</div><div class="ttdoc">get a hash code (compatible with Util::HashTable)</div><div class="ttdef"><b>Definition:</b> posixguid.cc:171</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_guid_html_adf11170a0cb46b16b9a7b70cd34f0954"><div class="ttname"><a href="class_posix_1_1_posix_guid.html#adf11170a0cb46b16b9a7b70cd34f0954">Posix::PosixGuid::operator&lt;=</a></div><div class="ttdeci">bool operator&lt;=(const PosixGuid &amp;rhs) const</div><div class="ttdoc">less-or-equal operator</div><div class="ttdef"><b>Definition:</b> posixguid.cc:70</div></div>
@@ -212,7 +204,7 @@ $(document).ready(function(){initNavTree('posixguid_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="dir_26c6b0791498aed3a05aca6ec6b5145e.html">posix</a></li><li class="navelem"><a class="el" href="posixguid_8h.html">posixguid.h</a></li>
 				<li class="footer">
-					Generated on Tue Mar 23 2021 18:41:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 24 2021 19:25:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

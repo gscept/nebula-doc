@@ -893,6 +893,7 @@ var annotated_dup =
       [ "PriorityArray", "class_util_1_1_priority_array.html", "class_util_1_1_priority_array" ],
       [ "QuadTree", "class_util_1_1_quad_tree.html", "class_util_1_1_quad_tree" ],
       [ "Queue", "class_util_1_1_queue.html", "class_util_1_1_queue" ],
+      [ "RandomUnion", "union_util_1_1_random_union.html", "union_util_1_1_random_union" ],
       [ "RandomNumberTable", "class_util_1_1_random_number_table.html", "class_util_1_1_random_number_table" ],
       [ "RingBuffer", "class_util_1_1_ring_buffer.html", "class_util_1_1_ring_buffer" ],
       [ "Round", "class_util_1_1_round.html", "class_util_1_1_round" ],

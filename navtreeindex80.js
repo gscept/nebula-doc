@@ -1,6 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"struct_core_graphics_1_1_vertex_layout_info.html":[9,0,10,110],
 "struct_core_graphics_1_1_vertex_layout_info.html#a07b21f79c503e1e3d3f4f9611392729c":[9,0,10,110,0],
 "struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[9,0,10,110,3],
 "struct_core_graphics_1_1_vertex_layout_info.html#a4c160cb239b65d24aee158c828c33c8a":[9,0,10,110,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX80 =
 "struct_game_1_1_property_create_info.html":[9,0,21,10],
 "struct_game_1_1_property_create_info.html#a43f0b4662f69ca64d8540e07ebda2fea":[9,0,21,10,0],
 "struct_game_1_1_property_create_info.html#a4b64fa8008b790a9b5008c9d60c94abe":[9,0,21,10,3],
-"struct_game_1_1_property_create_info.html#a959cb3a550b4964cf1a07212d9fc5544":[9,0,21,10,2]
+"struct_game_1_1_property_create_info.html#a959cb3a550b4964cf1a07212d9fc5544":[9,0,21,10,2],
+"struct_game_1_1_property_create_info.html#aa5f15a4e6a4c6f19785c3b8f9f3afecd":[9,0,21,10,1]
 };

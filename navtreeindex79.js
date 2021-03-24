@@ -1,6 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"struct_core_graphics_1_1_nvx3_group.html#a8191ee0ea14236dc3629a90de88d0fb5":[9,0,10,51,2],
 "struct_core_graphics_1_1_nvx3_group.html#ae33e0860e830ced892823e573212d2d8":[9,0,10,51,0],
 "struct_core_graphics_1_1_nvx3_group.html#aeea0b3cc5682e43f46f8280b0bd8c8b4":[9,0,10,51,4],
 "struct_core_graphics_1_1_nvx3_header.html":[9,0,10,50],
@@ -249,5 +248,6 @@ var NAVTREEINDEX79 =
 "struct_core_graphics_1_1_texture_view_id.html":[9,0,10,104],
 "struct_core_graphics_1_1_vertex_layout_create_info.html":[9,0,10,109],
 "struct_core_graphics_1_1_vertex_layout_create_info.html#a3dcfae6664d4c6a0f007cacb1851422f":[9,0,10,109,0],
-"struct_core_graphics_1_1_vertex_layout_id.html":[9,0,10,108]
+"struct_core_graphics_1_1_vertex_layout_id.html":[9,0,10,108],
+"struct_core_graphics_1_1_vertex_layout_info.html":[9,0,10,110]
 };

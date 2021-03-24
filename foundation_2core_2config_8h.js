@@ -19,7 +19,6 @@ var foundation_2core_2config_8h =
     [ "NEBULA_MEMORY_ADVANCED_DEBUGGING", "foundation_2core_2config_8h.html#af20253585e50b0f4a1f07bc74a3cbf02", null ],
     [ "NEBULA_MEMORY_STATS", "foundation_2core_2config_8h.html#a6e22d79a74d96ac7241dba37b04ea135", null ],
     [ "NEBULA_NATIVE_ARCHIVE_SUPPORT", "foundation_2core_2config_8h.html#ac101ca4dd99122b04658bb0058e53b8b", null ],
-    [ "NEBULA_OBJECTS_USE_MEMORYPOOL", "foundation_2core_2config_8h.html#afe394df1c9b316965f38545d2e180dd3", null ],
     [ "NEBULA_THREAD_DEFAULTSTACKSIZE", "foundation_2core_2config_8h.html#a73ece0d5c875ced0242b01c954ee5c9a", null ],
     [ "NEBULA_WINDOW_CLASS", "foundation_2core_2config_8h.html#a2873dea712aa5b4beb580baee62b1463", null ],
     [ "NEBULA_XMLREADER_LEGACY_VECTORS", "foundation_2core_2config_8h.html#aa2a8a1c7f1b9e7e9723fd7a574d6a396", null ],

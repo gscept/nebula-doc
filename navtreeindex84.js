@@ -1,6 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"struct_im3d_1_1internal_1_1_mat_t.html":[9,0,28,0,5],
 "struct_im3d_1_1internal_1_1_scalar_t.html":[9,0,28,0,0],
 "struct_im3d_1_1internal_1_1_type_traits.html":[9,0,28,0,6],
 "struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[9,0,28,0,6,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX84 =
 "struct_math_1_1quat.html#a2fce55b556e2fff2fb4006734174de8c":[9,0,36,13,0],
 "struct_math_1_1quat.html#a5288be7caaa02f267843c2d09e5492ad":[9,0,36,13,14],
 "struct_math_1_1quat.html#a558b73e99444357eadaba19fc46a9de8":[9,0,36,13,8],
-"struct_math_1_1quat.html#a5ae44ef56826b092db8b4e54a0fcbf32":[9,0,36,13,9]
+"struct_math_1_1quat.html#a5ae44ef56826b092db8b4e54a0fcbf32":[9,0,36,13,9],
+"struct_math_1_1quat.html#a6637e9615bca920e3efe61a05c143372":[9,0,36,13,5]
 };

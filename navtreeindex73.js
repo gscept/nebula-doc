@@ -1,6 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"rectangle_8h_source.html":[10,0,0,3,11,19],
 "refcounted_8cc.html":[10,0,0,3,1,16],
 "refcounted_8cc.html#a5e985c7d6ee6ca4f590fb50daad3cb0f":[10,0,0,3,1,16,0],
 "refcounted_8h.html":[10,0,0,3,1,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX73 =
 "resourcememorypool_8h_source.html":[10,0,0,6,0,6],
 "resourcepool_8cc.html":[10,0,0,6,0,7],
 "resourcepool_8cc.html#afd2de15f8922934f7f1619c2ef3f009b":[10,0,0,6,0,7,0],
-"resourcepool_8h.html":[10,0,0,6,0,8]
+"resourcepool_8h.html":[10,0,0,6,0,8],
+"resourcepool_8h.html#a01fc27f67f65302fbf0aa620691733f8":[10,0,0,6,0,8,4]
 };
