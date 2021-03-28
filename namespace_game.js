@@ -12,6 +12,7 @@ var namespace_game =
     [ "FilterCreateInfo", "struct_game_1_1_filter_create_info.html", "struct_game_1_1_filter_create_info" ],
     [ "PropertyCreateInfo", "struct_game_1_1_property_create_info.html", "struct_game_1_1_property_create_info" ],
     [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
+    [ "PropertyDecayBuffer", "struct_game_1_1_property_decay_buffer.html", "struct_game_1_1_property_decay_buffer" ],
     [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
     [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
     [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ],
@@ -55,6 +56,7 @@ var namespace_game =
     [ "AllocateInstance", "namespace_game.html#ac94b3c5ca863efb0eb9108ad3cefe840", null ],
     [ "AllocateInstance", "namespace_game.html#a68055a027b50b228bd270d1d0594e22a", null ],
     [ "AllocateInstance", "namespace_game.html#af9feb138a19d6fe0556bbd2e54a86f57", null ],
+    [ "ClearDecayBuffers", "namespace_game.html#a384d2c2409bb1734913d09b34855819d", null ],
     [ "CreateEntity", "namespace_game.html#a6366dbe2086a2277c6fcac9212a1119e", null ],
     [ "CreateEntityTable", "namespace_game.html#a3f05d2937f25f7f728f98e9de98e932e", null ],
     [ "CreateFilter", "namespace_game.html#a7c8329d15ec0b4722d67a768e27c1eb3", null ],
@@ -72,6 +74,7 @@ var namespace_game =
     [ "Execute", "namespace_game.html#a9152b3f989af2393747a02437329ab0d", null ],
     [ "Execute", "namespace_game.html#ad0523e52b54716fceec43c312d10c6ab", null ],
     [ "GetBlueprintId", "namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
+    [ "GetDecayBuffer", "namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d", null ],
     [ "GetEntityMapping", "namespace_game.html#a6c0eb1f6f961c1806c432ae42be2d4ba", null ],
     [ "GetExclusiveTableMask", "namespace_game.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],
     [ "GetInclusiveTableMask", "namespace_game.html#aa3ad58a396dca9e5057ebf33486a5df8", null ],
@@ -108,5 +111,6 @@ var namespace_game =
     [ "MAX_NUM_CATEGORIES", "namespace_game.html#a22a044ba95689ee39c23bfd5aa643dbb", null ],
     [ "opAllocator", "namespace_game.html#a6790584834c22bd67ecc217cd70622d0", null ],
     [ "opBufferAllocator", "namespace_game.html#a5f8e9ba2e7452294997fc9e0dfa4fb89", null ],
+    [ "propertyDecayTable", "namespace_game.html#aa54a567dddf68635dd774201979493f6", null ],
     [ "viewAllocator", "namespace_game.html#a4b76f7e1774322a32288d6a5caa6c408", null ]
 ];

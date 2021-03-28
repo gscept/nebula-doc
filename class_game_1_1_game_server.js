@@ -28,7 +28,6 @@ var class_game_1_1_game_server =
     [ "SetupEmptyWorld", "class_game_1_1_game_server.html#a739494620e013546c95d897d0889b0c4", null ],
     [ "Start", "class_game_1_1_game_server.html#a6d58e3a3554f14acb1e31c973c291dac", null ],
     [ "Stop", "class_game_1_1_game_server.html#a8ea993f4eeafed24d76e0e2874ab072c", null ],
-    [ "World", "class_game_1_1_game_server.html#a7b4bcdf992c21ae83363f25df05b1d25", null ],
     [ "args", "class_game_1_1_game_server.html#aa353036973a11e8d170172d01c43b33a", null ],
     [ "gameFeatures", "class_game_1_1_game_server.html#a7fe75523f9d644fda26edcfac213a3fb", null ],
     [ "isOpen", "class_game_1_1_game_server.html#aa87b18d33bedc0f5feab9fef329ceac7", null ],

@@ -7,8 +7,8 @@ var class_physics_feature_1_1_physics_manager =
     [ "Create", "class_physics_feature_1_1_physics_manager.html#a11b13e913c4ea162e9f33fc0f491cd38", null ],
     [ "Destroy", "class_physics_feature_1_1_physics_manager.html#aea8e84d65538f2d3b641857bd7c80dba", null ],
     [ "InitCreateActorProcessor", "class_physics_feature_1_1_physics_manager.html#af08943a886dae2180ad34eee6dce9f9b", null ],
-    [ "InitDestroyActorProcessor", "class_physics_feature_1_1_physics_manager.html#af3b9af9b49f57fec16fee04b5437db98", null ],
     [ "InitPollTransformProcessor", "class_physics_feature_1_1_physics_manager.html#a90cefd32de7ce7dc58c8eba6292d31d1", null ],
     [ "OnCleanup", "class_physics_feature_1_1_physics_manager.html#a661203d571bdd4fb20e31d5c2e8d9ddd", null ],
+    [ "OnDecay", "class_physics_feature_1_1_physics_manager.html#ab5c29fb3cf1a3fa1c60189a192721c16", null ],
     [ "pids", "class_physics_feature_1_1_physics_manager.html#a4e9c1f5e6e77fc969e97c89e68d52c04", null ]
 ];

@@ -4,6 +4,7 @@ var struct_game_1_1_manager_a_p_i =
     [ "OnBeginFrame", "struct_game_1_1_manager_a_p_i.html#a143dc8a31f86568aed29c52f238efff4", null ],
     [ "OnCleanup", "struct_game_1_1_manager_a_p_i.html#aabd9300a9f24ac97bb710cb5e4d324cd", null ],
     [ "OnDeactivate", "struct_game_1_1_manager_a_p_i.html#a83655f0c54565a84d8087aa699a5e532", null ],
+    [ "OnDecay", "struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e", null ],
     [ "OnEndFrame", "struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa", null ],
     [ "OnFrame", "struct_game_1_1_manager_a_p_i.html#a213db586e71375078ac76fe4bdd3fb12", null ],
     [ "OnLoad", "struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106", null ],

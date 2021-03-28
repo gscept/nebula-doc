@@ -107,17 +107,18 @@ $(document).ready(function(){initNavTree('manager_8h_source.html',''); initResiz
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a143dc8a31f86568aed29c52f238efff4">   39</a></span>&#160;    void(*<a class="code" href="namespace_game_1_1_time_manager.html#a36ed80cd664ec9ce2e891425be0e97bb">OnBeginFrame</a>)() = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a213db586e71375078ac76fe4bdd3fb12">   41</a></span>&#160;    void(*OnFrame)() = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa">   43</a></span>&#160;    void(*OnEndFrame)() = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106">   45</a></span>&#160;    void(*OnLoad)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a783de79289d5616b85df1c66bff6741c">   47</a></span>&#160;    void(*OnSave)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#aabd9300a9f24ac97bb710cb5e4d324cd">   49</a></span>&#160;    void(*OnCleanup)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#aaf23471e60a7743b4fcfcdb8f1ebb34b">   51</a></span>&#160;    void(*OnStart)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a8923987d7004c14f6b31f057c5f72d08">   53</a></span>&#160;    void(*OnRenderDebug)() = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}; <span class="comment">// namespace Game</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e">   45</a></span>&#160;    void(*OnDecay)() = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106">   47</a></span>&#160;    void(*OnLoad)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a783de79289d5616b85df1c66bff6741c">   49</a></span>&#160;    void(*OnSave)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#aabd9300a9f24ac97bb710cb5e4d324cd">   51</a></span>&#160;    void(*OnCleanup)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#aaf23471e60a7743b4fcfcdb8f1ebb34b">   53</a></span>&#160;    void(*OnStart)(<a class="code" href="class_game_1_1_world.html">World</a>*) = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="struct_game_1_1_manager_a_p_i.html#a8923987d7004c14f6b31f057c5f72d08">   55</a></span>&#160;    void(*OnRenderDebug)() = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}; <span class="comment">// namespace Game</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    </div>
 <div class="ttc" id="aclass_game_1_1_world_html"><div class="ttname"><a href="class_game_1_1_world.html">Game::World</a></div><div class="ttdef"><b>Definition:</b> entitypool.h:46</div></div>
 <div class="ttc" id="aids_2id_8h_html"><div class="ttname"><a href="ids_2id_8h.html">id.h</a></div></div>
 <div class="ttc" id="aids_2id_8h_html_a4235c5ac56c4d81970d369dcae60c903"><div class="ttname"><a href="ids_2id_8h.html#a4235c5ac56c4d81970d369dcae60c903">ID_32_TYPE</a></div><div class="ttdeci">#define ID_32_TYPE(x)</div><div class="ttdef"><b>Definition:</b> id.h:16</div></div>
@@ -133,7 +134,7 @@ $(document).ready(function(){initNavTree('manager_8h_source.html',''); initResiz
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="manager_8h.html">manager.h</a></li>
 				<li class="footer">
-					Generated on Wed Mar 24 2021 19:25:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Mar 28 2021 08:23:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -131,13 +131,13 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ab6af21899c225c999443b48c7b04826c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec0124dfcfa102cb24d26030dc2498bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html#aec0124dfcfa102cb24d26030dc2498bb">InitCreateModelProcessor</a> ()</td></tr>
 <tr class="separator:aec0124dfcfa102cb24d26030dc2498bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae20f5434b1bbe9ef8a3ed5d5329e8d52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html#ae20f5434b1bbe9ef8a3ed5d5329e8d52">InitDestroyModelProcessor</a> ()</td></tr>
-<tr class="separator:ae20f5434b1bbe9ef8a3ed5d5329e8d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a814f5f30c6b7a8c3b5c37decf5b2b61c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a814f5f30c6b7a8c3b5c37decf5b2b61c">InitUpdateModelTransformProcessor</a> ()</td></tr>
 <tr class="separator:a814f5f30c6b7a8c3b5c37decf5b2b61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a33c7f074b04bfe9861ed072915a82610"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a33c7f074b04bfe9861ed072915a82610">OnDecay</a> ()</td></tr>
+<tr class="separator:a33c7f074b04bfe9861ed072915a82610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2db221181da121226751d14b4056010"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html#af2db221181da121226751d14b4056010">OnCleanup</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world)</td></tr>
 <tr class="memdesc:af2db221181da121226751d14b4056010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup all graphics entities.  <a href="class_graphics_feature_1_1_graphics_manager.html#af2db221181da121226751d14b4056010">More...</a><br /></td></tr>
 <tr class="separator:af2db221181da121226751d14b4056010"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,31 +303,6 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae20f5434b1bbe9ef8a3ed5d5329e8d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae20f5434b1bbe9ef8a3ed5d5329e8d52">&#9670;&nbsp;</a></span>InitDestroyModelProcessor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphicsFeature::GraphicsManager::InitDestroyModelProcessor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a814f5f30c6b7a8c3b5c37decf5b2b61c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a814f5f30c6b7a8c3b5c37decf5b2b61c">&#9670;&nbsp;</a></span>InitUpdateModelTransformProcessor()</h2>
 
@@ -381,6 +356,31 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a33c7f074b04bfe9861ed072915a82610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c7f074b04bfe9861ed072915a82610">&#9670;&nbsp;</a></span>OnDecay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsManager::OnDecay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a388a29064d56513d81cfe399523d35b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a388a29064d56513d81cfe399523d35b3">&#9670;&nbsp;</a></span>pids</h2>
@@ -407,7 +407,7 @@ Static Private Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics_feature.html">GraphicsFeature</a></li><li class="navelem"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsManager</a></li>
 				<li class="footer">
-					Generated on Wed Mar 24 2021 19:26:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Mar 28 2021 08:25:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

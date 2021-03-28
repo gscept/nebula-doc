@@ -114,6 +114,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acb0383b4d2cd9178dd8171cd114d47aa"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa">OnEndFrame</a> )() = nullptr</td></tr>
 <tr class="memdesc:acb0383b4d2cd9178dd8171cd114d47aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after frame by the game server  <a href="struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa">More...</a><br /></td></tr>
 <tr class="separator:acb0383b4d2cd9178dd8171cd114d47aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfbc8d3736a35d7a97c2862162e0626e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e">OnDecay</a> )() = nullptr</td></tr>
+<tr class="memdesc:adfbc8d3736a35d7a97c2862162e0626e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before cleaning up managed properties decay buffers  <a href="struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e">More...</a><br /></td></tr>
+<tr class="separator:adfbc8d3736a35d7a97c2862162e0626e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f215d522f8986e00a890a958cd88106"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106">OnLoad</a> )(<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td></tr>
 <tr class="memdesc:a9f215d522f8986e00a890a958cd88106"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after loading game state  <a href="struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106">More...</a><br /></td></tr>
 <tr class="separator:a9f215d522f8986e00a890a958cd88106"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +195,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called when removed from game server </p>
+
+</div>
+</div>
+<a id="adfbc8d3736a35d7a97c2862162e0626e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfbc8d3736a35d7a97c2862162e0626e">&#9670;&nbsp;</a></span>OnDecay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Game::ManagerAPI::OnDecay) () = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>called before cleaning up managed properties decay buffers </p>
 
 </div>
 </div>
@@ -301,7 +320,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_manager_a_p_i.html">ManagerAPI</a></li>
 				<li class="footer">
-					Generated on Wed Mar 24 2021 19:26:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Mar 28 2021 08:25:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

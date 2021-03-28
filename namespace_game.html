@@ -130,6 +130,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_property_decay_buffer.html">PropertyDecayBuffer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a></td></tr>
@@ -348,6 +350,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af3ca2ebb6179f76998273394bd3e78f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">SetProperty</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid, void *value, uint64_t size)</td></tr>
 <tr class="memdesc:af3ca2ebb6179f76998273394bd3e78f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the value of an entity  <a href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">More...</a><br /></td></tr>
 <tr class="separator:af3ca2ebb6179f76998273394bd3e78f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b81611bf25603bbfa4e78958a39b27d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_property_decay_buffer.html">PropertyDecayBuffer</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">GetDecayBuffer</a> (<a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid)</td></tr>
+<tr class="memdesc:a0b81611bf25603bbfa4e78958a39b27d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the decay buffer for a specific property  <a href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">More...</a><br /></td></tr>
+<tr class="separator:a0b81611bf25603bbfa4e78958a39b27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">ClearDecayBuffers</a> ()</td></tr>
+<tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the property decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
+<tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88809311a19aa093021fa29592f8add6"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:a88809311a19aa093021fa29592f8add6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a88809311a19aa093021fa29592f8add6">SetProperty</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> const pid, TYPE value)</td></tr>
 <tr class="memdesc:a88809311a19aa093021fa29592f8add6"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed set a property method.  <a href="namespace_game.html#a88809311a19aa093021fa29592f8add6">More...</a><br /></td></tr>
@@ -393,6 +401,8 @@ Variables</h2></td></tr>
 <tr class="separator:a5f8e9ba2e7452294997fc9e0dfa4fb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6790584834c22bd67ecc217cd70622d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6790584834c22bd67ecc217cd70622d0">opAllocator</a></td></tr>
 <tr class="separator:a6790584834c22bd67ecc217cd70622d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54a567dddf68635dd774201979493f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_game_1_1_property_decay_buffer.html">PropertyDecayBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa54a567dddf68635dd774201979493f6">propertyDecayTable</a></td></tr>
+<tr class="separator:aa54a567dddf68635dd774201979493f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a044ba95689ee39c23bfd5aa643dbb"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a22a044ba95689ee39c23bfd5aa643dbb">MAX_NUM_CATEGORIES</a> = 512</td></tr>
 <tr class="separator:a22a044ba95689ee39c23bfd5aa643dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -891,6 +901,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a384d2c2409bb1734913d09b34855819d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384d2c2409bb1734913d09b34855819d">&#9670;&nbsp;</a></span>ClearDecayBuffers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::ClearDecayBuffers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clear the property decay buffers </p>
+
+</div>
+</div>
 <a id="a6366dbe2086a2277c6fcac9212a1119e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6366dbe2086a2277c6fcac9212a1119e">&#9670;&nbsp;</a></span>CreateEntity()</h2>
 
@@ -1330,6 +1359,26 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a blueprint id by name. </p>
+
+</div>
+</div>
+<a id="a0b81611bf25603bbfa4e78958a39b27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b81611bf25603bbfa4e78958a39b27d">&#9670;&nbsp;</a></span>GetDecayBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_game_1_1_property_decay_buffer.html">PropertyDecayBuffer</a> const Game::GetDecayBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a>&#160;</td>
+          <td class="paramname"><em>pid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the decay buffer for a specific property </p>
 
 </div>
 </div>
@@ -2438,6 +2487,20 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
+<a id="aa54a567dddf68635dd774201979493f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54a567dddf68635dd774201979493f6">&#9670;&nbsp;</a></span>propertyDecayTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_game_1_1_property_decay_buffer.html">PropertyDecayBuffer</a>&gt; Game::propertyDecayTable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4b76f7e1774322a32288d6a5caa6c408"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b76f7e1774322a32288d6a5caa6c408">&#9670;&nbsp;</a></span>viewAllocator</h2>
 
@@ -2467,7 +2530,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Wed Mar 24 2021 19:26:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Mar 28 2021 08:25:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

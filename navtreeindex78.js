@@ -1,5 +1,12 @@
 var NAVTREEINDEX78 =
 {
+"struct_core_graphics_1_1_barrier_create_info.html#a149bb120ceef100676abecad1e325f47":[9,0,10,10,5],
+"struct_core_graphics_1_1_barrier_create_info.html#a240d9b848066d875972398e0a0e340ea":[9,0,10,10,1],
+"struct_core_graphics_1_1_barrier_create_info.html#a39035dc899f426eabf6911c488613529":[9,0,10,10,4],
+"struct_core_graphics_1_1_barrier_create_info.html#a4e9ee8c250be6e26a5e56329f959b448":[9,0,10,10,6],
+"struct_core_graphics_1_1_barrier_create_info.html#a83538fb0d153e208be25c6ee96637ac8":[9,0,10,10,2],
+"struct_core_graphics_1_1_barrier_create_info.html#ac97148307e3e81e529c8555620c6b6cb":[9,0,10,10,3],
+"struct_core_graphics_1_1_barrier_create_info.html#aed9b432ff5bb8ffb536d7354602be8f8":[9,0,10,10,0],
 "struct_core_graphics_1_1_barrier_id.html":[9,0,10,4],
 "struct_core_graphics_1_1_barrier_stack_entry.html":[9,0,10,112],
 "struct_core_graphics_1_1_barrier_stack_entry.html#a06241848792164d04b951e2f591083ee":[9,0,10,112,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX78 =
 "struct_core_graphics_1_1_nvx2_header.html#a33fc85caa31131794fd25be04f1b4208":[9,0,10,41,2],
 "struct_core_graphics_1_1_nvx2_header.html#a468b78b03268f3b06be516e598afb2cd":[9,0,10,41,0],
 "struct_core_graphics_1_1_nvx2_header.html#a5bc9e84e8885c803b5ea169fdfa680ce":[9,0,10,41,4],
-"struct_core_graphics_1_1_nvx2_header.html#a89899b1db137285c203651ca3262b593":[9,0,10,41,3],
-"struct_core_graphics_1_1_nvx2_header.html#ad7a7de7c34075b87869c8c7057b1240c":[9,0,10,41,5],
-"struct_core_graphics_1_1_nvx2_header.html#ade6847ee30cc1df1b9757399aa914ace":[9,0,10,41,1],
-"struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44":[9,0,10,41,6],
-"struct_core_graphics_1_1_nvx3_group.html":[9,0,10,51],
-"struct_core_graphics_1_1_nvx3_group.html#a1982fbf5ae3e5b040197b692a2a176e6":[9,0,10,51,3],
-"struct_core_graphics_1_1_nvx3_group.html#a4677057c5e3f6be784a0dc89473f1f17":[9,0,10,51,1],
-"struct_core_graphics_1_1_nvx3_group.html#a8191ee0ea14236dc3629a90de88d0fb5":[9,0,10,51,2]
+"struct_core_graphics_1_1_nvx2_header.html#a89899b1db137285c203651ca3262b593":[9,0,10,41,3]
 };

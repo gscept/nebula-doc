@@ -1,5 +1,12 @@
 var NAVTREEINDEX79 =
 {
+"struct_core_graphics_1_1_nvx2_header.html#ad7a7de7c34075b87869c8c7057b1240c":[9,0,10,41,5],
+"struct_core_graphics_1_1_nvx2_header.html#ade6847ee30cc1df1b9757399aa914ace":[9,0,10,41,1],
+"struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44":[9,0,10,41,6],
+"struct_core_graphics_1_1_nvx3_group.html":[9,0,10,51],
+"struct_core_graphics_1_1_nvx3_group.html#a1982fbf5ae3e5b040197b692a2a176e6":[9,0,10,51,3],
+"struct_core_graphics_1_1_nvx3_group.html#a4677057c5e3f6be784a0dc89473f1f17":[9,0,10,51,1],
+"struct_core_graphics_1_1_nvx3_group.html#a8191ee0ea14236dc3629a90de88d0fb5":[9,0,10,51,2],
 "struct_core_graphics_1_1_nvx3_group.html#ae33e0860e830ced892823e573212d2d8":[9,0,10,51,0],
 "struct_core_graphics_1_1_nvx3_group.html#aeea0b3cc5682e43f46f8280b0bd8c8b4":[9,0,10,51,4],
 "struct_core_graphics_1_1_nvx3_header.html":[9,0,10,50],
@@ -242,12 +249,5 @@ var NAVTREEINDEX79 =
 "struct_core_graphics_1_1_texture_view_create_info.html#a00ee587280447aac0847066e713d7a4a":[9,0,10,105,5],
 "struct_core_graphics_1_1_texture_view_create_info.html#a2542b77ca7c6701ed6c6e10ebe5d370e":[9,0,10,105,1],
 "struct_core_graphics_1_1_texture_view_create_info.html#a440f968c18219068b17b016e20c2442b":[9,0,10,105,0],
-"struct_core_graphics_1_1_texture_view_create_info.html#a45f03494c411e92d802b6fdc0e8a934d":[9,0,10,105,3],
-"struct_core_graphics_1_1_texture_view_create_info.html#a921a68bd658a31abd19d0921679ebdc9":[9,0,10,105,4],
-"struct_core_graphics_1_1_texture_view_create_info.html#ae1e13b6de8f3684e742004c07143ea6a":[9,0,10,105,2],
-"struct_core_graphics_1_1_texture_view_id.html":[9,0,10,104],
-"struct_core_graphics_1_1_vertex_layout_create_info.html":[9,0,10,109],
-"struct_core_graphics_1_1_vertex_layout_create_info.html#a3dcfae6664d4c6a0f007cacb1851422f":[9,0,10,109,0],
-"struct_core_graphics_1_1_vertex_layout_id.html":[9,0,10,108],
-"struct_core_graphics_1_1_vertex_layout_info.html":[9,0,10,110]
+"struct_core_graphics_1_1_texture_view_create_info.html#a45f03494c411e92d802b6fdc0e8a934d":[9,0,10,105,3]
 };

@@ -8,7 +8,6 @@ var class_game_1_1_world =
     [ "CacheTable", "class_game_1_1_world.html#ac273b89333b57b47d6b4f95ba5912ce3", null ],
     [ "allocQueue", "class_game_1_1_world.html#a49e853d4e21201653dd545546ccdd6c0", null ],
     [ "blueprintCatMap", "class_game_1_1_world.html#a7a8b0396887a5a3cdecc79b07e35f3a9", null ],
-    [ "categoryDecayMap", "class_game_1_1_world.html#a2e020c1dc613de75344e3b70e402f9fc", null ],
     [ "db", "class_game_1_1_world.html#a1cfa2cf6d4b30b8aaed0e8d20e314446", null ],
     [ "deallocQueue", "class_game_1_1_world.html#ad13b7b82c38945edd6daa56d607b6823", null ],
     [ "entityMap", "class_game_1_1_world.html#a641f0d1afc79c634603dbe000829a7ba", null ],

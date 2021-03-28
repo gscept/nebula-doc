@@ -12,6 +12,7 @@ var api_8cc =
     [ "AllocateInstance", "api_8cc.html#ac94b3c5ca863efb0eb9108ad3cefe840", null ],
     [ "AllocateInstance", "api_8cc.html#a68055a027b50b228bd270d1d0594e22a", null ],
     [ "AllocateInstance", "api_8cc.html#af9feb138a19d6fe0556bbd2e54a86f57", null ],
+    [ "ClearDecayBuffers", "api_8cc.html#a384d2c2409bb1734913d09b34855819d", null ],
     [ "CreateEntity", "api_8cc.html#a6366dbe2086a2277c6fcac9212a1119e", null ],
     [ "CreateEntityTable", "api_8cc.html#a3f05d2937f25f7f728f98e9de98e932e", null ],
     [ "CreateFilter", "api_8cc.html#a7c8329d15ec0b4722d67a768e27c1eb3", null ],
@@ -29,6 +30,7 @@ var api_8cc =
     [ "Execute", "api_8cc.html#a9152b3f989af2393747a02437329ab0d", null ],
     [ "Execute", "api_8cc.html#ad0523e52b54716fceec43c312d10c6ab", null ],
     [ "GetBlueprintId", "api_8cc.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
+    [ "GetDecayBuffer", "api_8cc.html#a0b81611bf25603bbfa4e78958a39b27d", null ],
     [ "GetEntityMapping", "api_8cc.html#a6c0eb1f6f961c1806c432ae42be2d4ba", null ],
     [ "GetExclusiveTableMask", "api_8cc.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],
     [ "GetInclusiveTableMask", "api_8cc.html#aa3ad58a396dca9e5057ebf33486a5df8", null ],
@@ -55,5 +57,6 @@ var api_8cc =
     [ "filterAllocator", "api_8cc.html#a98b105c32a536cbdc93e30979f7c9a50", null ],
     [ "opAllocator", "api_8cc.html#a6790584834c22bd67ecc217cd70622d0", null ],
     [ "opBufferAllocator", "api_8cc.html#a5f8e9ba2e7452294997fc9e0dfa4fb89", null ],
+    [ "propertyDecayTable", "api_8cc.html#aa54a567dddf68635dd774201979493f6", null ],
     [ "viewAllocator", "api_8cc.html#a4b76f7e1774322a32288d6a5caa6c408", null ]
 ];

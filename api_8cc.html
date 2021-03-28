@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('api_8cc.html',''); initResizable(); })
 <code>#include &quot;<a class="el" href="arenaallocator_8h_source.html">memory/arenaallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="blueprintmanager_8h_source.html">basegamefeature/managers/blueprintmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="profiling_8h_source.html">profiling/profiling.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fixedarray_8h_source.html">util/fixedarray.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -260,6 +261,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af3ca2ebb6179f76998273394bd3e78f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">Game::SetProperty</a> (World *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid, void *value, uint64_t size)</td></tr>
 <tr class="memdesc:af3ca2ebb6179f76998273394bd3e78f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the value of an entity  <a href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">More...</a><br /></td></tr>
 <tr class="separator:af3ca2ebb6179f76998273394bd3e78f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b81611bf25603bbfa4e78958a39b27d"><td class="memItemLeft" align="right" valign="top">PropertyDecayBuffer const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">Game::GetDecayBuffer</a> (<a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid)</td></tr>
+<tr class="memdesc:a0b81611bf25603bbfa4e78958a39b27d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the decay buffer for a specific property  <a href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">More...</a><br /></td></tr>
+<tr class="separator:a0b81611bf25603bbfa4e78958a39b27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
+<tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the property decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
+<tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -271,6 +278,8 @@ Variables</h2></td></tr>
 <tr class="separator:a5f8e9ba2e7452294997fc9e0dfa4fb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6790584834c22bd67ecc217cd70622d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6790584834c22bd67ecc217cd70622d0">Game::opAllocator</a></td></tr>
 <tr class="separator:a6790584834c22bd67ecc217cd70622d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54a567dddf68635dd774201979493f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; PropertyDecayBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa54a567dddf68635dd774201979493f6">Game::propertyDecayTable</a></td></tr>
+<tr class="separator:aa54a567dddf68635dd774201979493f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +288,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8cc.html">api.cc</a></li>
 				<li class="footer">
-					Generated on Wed Mar 24 2021 19:26:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Mar 28 2021 08:25:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
