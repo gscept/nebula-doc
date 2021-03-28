@@ -23,6 +23,7 @@ var api_8cc =
     [ "DeallocateEntity", "api_8cc.html#a2e853d5c1d88d626c4859e75a6d8e3f9", null ],
     [ "DeallocateInstance", "api_8cc.html#abd350bc9dfcd52768972b89e81d18e7e", null ],
     [ "DeallocateInstance", "api_8cc.html#a00f1dae07d76e6348dd50def3b9331e0", null ],
+    [ "DecayProperty", "api_8cc.html#a12a18712ae384dddf8cc8ae4918c4904", null ],
     [ "Defragment", "api_8cc.html#a14acce8eb72ee89132711fc28228fcf3", null ],
     [ "DeleteEntity", "api_8cc.html#a4edd1d8ef4925af6cbcad9813f248248", null ],
     [ "DestroyFilter", "api_8cc.html#ac95174757039aa417008ae3178a10be2", null ],

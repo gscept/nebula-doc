@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"class_frame_1_1_frame_pass.html":[9,0,19,9],
 "class_frame_1_1_frame_pass.html#a3a527f8cfa2d0b711f4762f3f292a179":[9,0,19,9,4],
 "class_frame_1_1_frame_pass.html#a3b2a6b2935f0de28abe612dff7fa3a2b":[9,0,19,9,6],
 "class_frame_1_1_frame_pass.html#a6316aae3a9fcca9d9347cc1d28d1d888":[9,0,19,9,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "class_game_1_1_blueprint_manager.html#adb59b9739cbcdacc76735283412d2cae":[9,0,21,2,20],
 "class_game_1_1_blueprint_manager.html#adda3de86cffa4d9d3b42adf559c8ec57":[9,0,21,2,14],
 "class_game_1_1_blueprint_manager.html#ae711018327223b55bd31780e23d5d8dd":[9,0,21,2,13],
-"class_game_1_1_blueprint_manager.html#af51f3e0c853e532810f12572676439c6":[9,0,21,2,17],
-"class_game_1_1_blueprint_manager.html#afc517b30e46fd5ba5da45ba90bc54cb7":[9,0,21,2,8]
+"class_game_1_1_blueprint_manager.html#af51f3e0c853e532810f12572676439c6":[9,0,21,2,17]
 };

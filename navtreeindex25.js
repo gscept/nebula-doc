@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"class_legacy_1_1_nvx2_stream_reader.html":[9,0,120],
 "class_legacy_1_1_nvx3_stream_reader.html":[9,0,121],
 "class_lighting_1_1_c_s_m_util.html":[9,0,33,2],
 "class_lighting_1_1_c_s_m_util.html#a00dc5778fba5dbcc3bff550bcbf7572a":[9,0,33,2,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "class_lighting_1_1_vk_light_server.html#ac11f1138d09d0507296e1a820ed1d706":[9,0,33,6,31],
 "class_lighting_1_1_vk_light_server.html#ac2783bedcd7fb8999abb0b5b72804feb":[9,0,33,6,24],
 "class_lighting_1_1_vk_light_server.html#ac598dcfd674bb7922e20350502ce2bde":[9,0,33,6,28],
-"class_lighting_1_1_vk_light_server.html#ac7d55148544b84238f99ef62214d724e":[9,0,33,6,6],
-"class_lighting_1_1_vk_light_server.html#acbd758e97a13b870b9970b1090d3053c":[9,0,33,6,60]
+"class_lighting_1_1_vk_light_server.html#ac7d55148544b84238f99ef62214d724e":[9,0,33,6,6]
 };

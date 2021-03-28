@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"streamanimationpool_8cc.html#a9b9798b1fc8b5d052bbd593a706898d5":[10,0,0,5,4,25,0],
+"streamanimationpool_8h.html":[10,0,0,5,4,26],
 "streamanimationpool_8h_source.html":[10,0,0,5,4,26],
 "streamcache_8cc.html":[10,0,0,3,9,2,4],
 "streamcache_8cc.html#adfd5006b775992f27c399c9789b92f6b":[10,0,0,3,9,2,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "struct_core_graphics_1_1_alloc.html#adaecbcd243a3f29372f7158127156b45":[9,0,10,44,2],
 "struct_core_graphics_1_1_alloc.html#af8d6ff00062586d507623211a9d4b547":[9,0,10,44,1],
 "struct_core_graphics_1_1_alloc_range.html":[9,0,10,45],
-"struct_core_graphics_1_1_alloc_range.html#a6e8882aab60285b88dc9aaaed66c9ad4":[9,0,10,45,1],
-"struct_core_graphics_1_1_alloc_range.html#af5ae529c09b6f97620e8c94f222ced7e":[9,0,10,45,0],
-"struct_core_graphics_1_1_barrier_create_info.html":[9,0,10,10]
+"struct_core_graphics_1_1_alloc_range.html#a6e8882aab60285b88dc9aaaed66c9ad4":[9,0,10,45,1]
 };

@@ -67,6 +67,7 @@ var namespace_game =
     [ "DeallocateEntity", "namespace_game.html#a2e853d5c1d88d626c4859e75a6d8e3f9", null ],
     [ "DeallocateInstance", "namespace_game.html#abd350bc9dfcd52768972b89e81d18e7e", null ],
     [ "DeallocateInstance", "namespace_game.html#a00f1dae07d76e6348dd50def3b9331e0", null ],
+    [ "DecayProperty", "namespace_game.html#a12a18712ae384dddf8cc8ae4918c4904", null ],
     [ "Defragment", "namespace_game.html#a14acce8eb72ee89132711fc28228fcf3", null ],
     [ "DeleteEntity", "namespace_game.html#a4edd1d8ef4925af6cbcad9813f248248", null ],
     [ "DestroyFilter", "namespace_game.html#ac95174757039aa417008ae3178a10be2", null ],

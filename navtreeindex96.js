@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"vkpass_8cc.html#a08dfa7df807436cb43cbd40793b22cf8":[10,0,0,5,5,5,28,13],
+"vkpass_8cc.html#a4118f6653bdd7329fb243d742f448611":[10,0,0,5,5,5,28,2],
 "vkpass_8cc.html#a5ee774d95faec0d25b989825a4961d7b":[10,0,0,5,5,5,28,4],
 "vkpass_8cc.html#a71a740f7332b35c3356911a074be91fe":[10,0,0,5,5,5,28,0],
 "vkpass_8cc.html#a73d0881e447fb7b9549ac1ee64293fb0":[10,0,0,5,5,5,28,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "vkutilities_8h_source.html":[10,0,0,5,5,5,71],
 "vkvertexsignaturepool_8cc.html":[10,0,0,5,5,5,72],
 "vkvertexsignaturepool_8cc.html#ae8369fe2ceeff302e840c2c1ef7616af":[10,0,0,5,5,5,72,0],
-"vkvertexsignaturepool_8h.html":[10,0,0,5,5,5,73],
-"vkvertexsignaturepool_8h.html#a1f98d08e34b3569699d218fdb63be076":[10,0,0,5,5,5,73,3],
-"vkvertexsignaturepool_8h_source.html":[10,0,0,5,5,5,73]
+"vkvertexsignaturepool_8h.html":[10,0,0,5,5,5,73]
 };

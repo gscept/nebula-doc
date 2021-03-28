@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"class_game_1_1_blueprint_manager.html#afc517b30e46fd5ba5da45ba90bc54cb7":[9,0,21,2,8],
 "class_game_1_1_blueprint_manager.html#afd04e6df3ffde70f165815db04ad8db3":[9,0,21,2,19],
 "class_game_1_1_blueprint_manager.html#affc76e0b2647e1063ac1fbe400a6924c":[9,0,21,2,5],
 "class_game_1_1_entity_pool.html":[9,0,21,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "class_graphics_1_1_graphics_server.html#acfc1de5b4e0da7d8bc763a8576d5b3d4":[9,0,24,9,39],
 "class_graphics_1_1_graphics_server.html#ad4d7e3edab5bec92c6eb801299e589e5":[9,0,24,9,47],
 "class_graphics_1_1_graphics_server.html#ad610af44d3bbe14dd1a45aba09738771":[9,0,24,9,14],
-"class_graphics_1_1_graphics_server.html#ad783fe049af50479e7d09591e7cd41ef":[9,0,24,9,10],
-"class_graphics_1_1_graphics_server.html#ad8343222d68c239794cce1d844861ada":[9,0,24,9,4]
+"class_graphics_1_1_graphics_server.html#ad783fe049af50479e7d09591e7cd41ef":[9,0,24,9,10]
 };
