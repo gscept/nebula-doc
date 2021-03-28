@@ -1,5 +1,10 @@
 var NAVTREEINDEX85 =
 {
+"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[9,0,36,11,2],
+"struct_math_1_1point.html#a85cf584d3e0b2b66b2255c9066e722b9":[9,0,36,11,4],
+"struct_math_1_1point.html#a8b405637ddea30b87ed2e75c14ed288b":[9,0,36,11,7],
+"struct_math_1_1point.html#aa04de3183ac910d1e8f4ab7b03b82d7d":[9,0,36,11,0],
+"struct_math_1_1point.html#aab24a9aaead7b2e5230e8960d73522b4":[9,0,36,11,12],
 "struct_math_1_1point.html#abb758daf0a379de7bc2f946ecbac5fdb":[9,0,36,11,8],
 "struct_math_1_1point.html#abf1c5a9a75462959f8d509387c46b480":[9,0,36,11,5],
 "struct_math_1_1point.html#aca2ad88cc7a0e76e625a4b07769362cd":[9,0,36,11,23],
@@ -244,10 +249,5 @@ var NAVTREEINDEX85 =
 "struct_models_1_1_particle_system_node_1_1_instance.html#acdd5c5c1e1f499dd4e6d27e98450ff21a78020bc911f66358901c902419d89bb8":[9,0,40,6,0,0,0],
 "struct_models_1_1_particle_system_node_1_1_instance.html#acdd5c5c1e1f499dd4e6d27e98450ff21aef7477396b97e599382a52842ae95a55":[9,0,40,6,0,0,3],
 "struct_models_1_1_particle_system_node_1_1_instance.html#ad7e7f2f796c754324829df2de475fda3":[9,0,40,6,0,4],
-"struct_models_1_1_particle_system_node_1_1_instance.html#adf0e329f674c34134ae36905ef1f1a6c":[9,0,40,6,0,6],
-"struct_models_1_1_particle_system_node_1_1_instance.html#aff3fff0d0826a526e2783407e5869639":[9,0,40,6,0,3],
-"struct_models_1_1_primitive_node_1_1_instance.html":[9,0,40,7,0],
-"struct_models_1_1_primitive_node_1_1_instance.html#a8ff1bfab9293eec740cbce8cc109783f":[9,0,40,7,0,0],
-"struct_models_1_1_shader_state_node_1_1_draw_packet.html":[9,0,40,8,0],
-"struct_models_1_1_shader_state_node_1_1_draw_packet.html#a05990c4a49ea5b6779743af0331a04e5":[9,0,40,8,0,6]
+"struct_models_1_1_particle_system_node_1_1_instance.html#adf0e329f674c34134ae36905ef1f1a6c":[9,0,40,6,0,6]
 };

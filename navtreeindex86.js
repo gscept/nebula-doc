@@ -1,5 +1,10 @@
 var NAVTREEINDEX86 =
 {
+"struct_models_1_1_particle_system_node_1_1_instance.html#aff3fff0d0826a526e2783407e5869639":[9,0,40,6,0,3],
+"struct_models_1_1_primitive_node_1_1_instance.html":[9,0,40,7,0],
+"struct_models_1_1_primitive_node_1_1_instance.html#a8ff1bfab9293eec740cbce8cc109783f":[9,0,40,7,0,0],
+"struct_models_1_1_shader_state_node_1_1_draw_packet.html":[9,0,40,8,0],
+"struct_models_1_1_shader_state_node_1_1_draw_packet.html#a05990c4a49ea5b6779743af0331a04e5":[9,0,40,8,0,6],
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#a1031d2e6fd998f637abcd64fc33785fa":[9,0,40,8,0,3],
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#a1294c051934682d44c4f6680168fc0b3":[9,0,40,8,0,4],
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#a28042b66e3c8a23f4f1c9ac225e04385":[9,0,40,8,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX86 =
 "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a819ddd65ba5eb27d71d4980e1eea9bbd":[9,0,56,11,1,7],
 "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a837f95a0de83451ed3ee1072c200c1a4":[9,0,56,11,1,18],
 "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a8ac95b0055181b5c557100b735bffa60":[9,0,56,11,1,19],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a8f23e48a279811de66627e061efc1355":[9,0,56,11,1,22],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a905d2aa069440fa2adeebed1c694145f":[9,0,56,11,1,17],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a92b03635a7cb0edd98a5ef2fe28382da":[9,0,56,11,1,11],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a9551f7de11dbfef28d5fe4ed448f4472":[9,0,56,11,1,21],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a990f5cb501a1550c53d90075791b0d75":[9,0,56,11,1,16],
-"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a9a2b1081ebc29a728f44293c661ab22c":[9,0,56,11,1,12]
+"struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a8f23e48a279811de66627e061efc1355":[9,0,56,11,1,22]
 };

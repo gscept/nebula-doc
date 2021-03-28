@@ -7,8 +7,9 @@ var cvar_8h =
       [ "CVar_String", "cvar_8h.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a4418bea7688e9e9a6035b2fdaf41e208", null ]
     ] ],
     [ "CVarCreate", "cvar_8h.html#a39c4d7bd171eac5cc54894341cd6b032", null ],
-    [ "CVarCreate", "cvar_8h.html#a3da4bad75929bcc214d644973f4a5c87", null ],
+    [ "CVarCreate", "cvar_8h.html#a64007334fba5bfd6079e4a2392aecf2b", null ],
     [ "CVarGet", "cvar_8h.html#a461f80073b5f7154358700e5b48f3e8c", null ],
+    [ "CVarGetDescription", "cvar_8h.html#a6746d6947367c8261f14d15c19a49b50", null ],
     [ "CVarGetName", "cvar_8h.html#a22aa335ab5dd2862998ae1d57d800c9e", null ],
     [ "CVarGetType", "cvar_8h.html#af7cd535d919c9b3e0e915ed15e3f5c47", null ],
     [ "CVarModified", "cvar_8h.html#a16b46a51d4505a9e37f650545725ad3f", null ],
