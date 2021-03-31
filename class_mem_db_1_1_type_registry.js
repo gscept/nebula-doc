@@ -5,6 +5,7 @@ var class_mem_db_1_1_type_registry =
     [ "DefaultValue", "class_mem_db_1_1_type_registry.html#ae026e0a3178044f8ffd0bbbce04e083d", null ],
     [ "Destroy", "class_mem_db_1_1_type_registry.html#aea5eb35a6f49297413021239dd70ff0f", null ],
     [ "Flags", "class_mem_db_1_1_type_registry.html#a0a619ec378c97cb89b57f2add779e252", null ],
+    [ "GetAllProperties", "class_mem_db_1_1_type_registry.html#a0dd56241f86e678a42a54164e06684ee", null ],
     [ "GetDescription", "class_mem_db_1_1_type_registry.html#acfb75bf4ffca394ceca7dd212700ce96", null ],
     [ "GetPropertyId", "class_mem_db_1_1_type_registry.html#a1404a01cc10ed659e88c3e52f022eb12", null ],
     [ "Instance", "class_mem_db_1_1_type_registry.html#a22ca0dfc0a4e35db8130e6814a116244", null ],

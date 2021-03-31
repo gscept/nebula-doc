@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"vkmemorytexturepool_8h_source.html":[10,0,0,5,5,5,25],
 "vkmeshpool_8cc.html":[10,0,0,5,5,5,26],
 "vkmeshpool_8cc.html#a53048ebfdef76d0b3a755ff95face895":[10,0,0,5,5,5,26,0],
 "vkmeshpool_8h.html":[10,0,0,5,5,5,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "vktransformdevice_8h_source.html":[10,0,0,5,5,5,67],
 "vktypes_8cc.html":[10,0,0,5,5,5,68],
 "vktypes_8h.html":[10,0,0,5,5,5,69],
-"vktypes_8h_source.html":[10,0,0,5,5,5,69],
-"vkutilities_8cc.html":[10,0,0,5,5,5,70]
+"vktypes_8h_source.html":[10,0,0,5,5,5,69]
 };

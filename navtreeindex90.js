@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"struct_vulkan_1_1_vk_texture_stream_info.html#accac1df245b26fa60c83b9babeb3d212":[9,0,61,34,1],
 "struct_vulkan_1_1_vk_texture_stream_info.html#af0f3c1950bc706fe25406a9f93ad8ace":[9,0,61,34,4],
 "struct_vulkan_1_1_vk_texture_swap_info.html":[9,0,61,36],
 "struct_vulkan_1_1_vk_texture_swap_info.html#a0decb7ba5e4b98a674134e871b53cf2d":[9,0,61,36,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "texture_8cc.html#a5314e024a73c578ffd7f6c7c09e8a78a":[10,0,0,5,5,86,36],
 "texture_8cc.html#a55e561f874eb4ab9cba1b16aa04dde4c":[10,0,0,5,5,86,41],
 "texture_8cc.html#a6261a365b72c9eaff825e9e3c9730f7b":[10,0,0,5,5,86,8],
-"texture_8cc.html#a64e2a01dabd55c8ed509f9f152761124":[10,0,0,5,5,86,37],
-"texture_8cc.html#a681ca42742705b52ab6b70ff516261ee":[10,0,0,5,5,86,34]
+"texture_8cc.html#a64e2a01dabd55c8ed509f9f152761124":[10,0,0,5,5,86,37]
 };

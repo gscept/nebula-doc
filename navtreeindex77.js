@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc":[10,0,0,4,0,11,2,1],
 "streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2":[10,0,0,4,0,11,2,2],
 "streamactorpool_8h_source.html":[10,0,0,4,0,11],
 "streamanimationpool_8cc.html":[10,0,0,5,4,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "struct_core_animation_1_1_nax3_header.html#a46163ca1a90ed386e2ac6ae1a602d800":[9,0,9,12,1],
 "struct_core_animation_1_1_nax3_header.html#ae64e146e49063da35422fa0d6215de83":[9,0,9,12,2],
 "struct_core_graphics_1_1_alloc.html":[9,0,10,44],
-"struct_core_graphics_1_1_alloc.html#a1efa73586878f38c71a04b078a1cab85":[9,0,10,44,3],
-"struct_core_graphics_1_1_alloc.html#a2678370c5e2050decdd1b08e2a22443f":[9,0,10,44,0]
+"struct_core_graphics_1_1_alloc.html#a1efa73586878f38c71a04b078a1cab85":[9,0,10,44,3]
 };

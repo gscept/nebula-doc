@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"struct_vulkan_1_1_graphics_device_state.html#a8b7c4ed69ec80f74160bad65a8181869":[9,0,61,11,31],
 "struct_vulkan_1_1_graphics_device_state.html#a8d97148878301130b0d6c8fa65f57d8a":[9,0,61,11,65],
 "struct_vulkan_1_1_graphics_device_state.html#a91e3a5175b2be8cec698fbb7517b2ca5":[9,0,61,11,49],
 "struct_vulkan_1_1_graphics_device_state.html#a935fd87fbe573880958db5b5fcf3cd3c":[9,0,61,11,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13caeb47eb4a631f7bb2da2f4e53fb34cefe":[9,0,61,6,1,8],
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cafdf74675e6d370bae46059264865c5c5":[9,0,61,6,1,0],
 "struct_vulkan_1_1_vk_deferred_command.html#ad5694030ef63693fe48a78cb199e0a99":[9,0,61,6,6],
-"struct_vulkan_1_1_vk_deferred_command.html#ae0dc18978e86b8a77cd98092c6962cc6":[9,0,61,6,5],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html":[9,0,61,6,0]
+"struct_vulkan_1_1_vk_deferred_command.html#ae0dc18978e86b8a77cd98092c6962cc6":[9,0,61,6,5]
 };

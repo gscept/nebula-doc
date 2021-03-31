@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"shaperendererbase_8h.html":[10,0,0,5,5,0,5],
 "shaperendererbase_8h_source.html":[10,0,0,5,5,0,5],
 "shapes_8cc.html":[10,0,0,4,0,8],
 "shapes_8h.html":[10,0,0,4,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "streamactorpool_8cc.html#a5ff1c49e6e37c1de85a946b0d1ace211":[10,0,0,4,0,10,0],
 "streamactorpool_8h.html":[10,0,0,4,0,11],
 "streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3c":[10,0,0,4,0,11,2],
-"streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393":[10,0,0,4,0,11,2,0],
-"streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc":[10,0,0,4,0,11,2,1]
+"streamactorpool_8h.html#a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393":[10,0,0,4,0,11,2,0]
 };
