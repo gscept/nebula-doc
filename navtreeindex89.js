@@ -1,5 +1,11 @@
 var NAVTREEINDEX89 =
 {
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cae036012aea017ed6a725b2f2bd580f59":[9,0,61,6,1,3],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cae5bb801d5e2664a08776691b56054e92":[9,0,61,6,1,6],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13caeb47eb4a631f7bb2da2f4e53fb34cefe":[9,0,61,6,1,8],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cafdf74675e6d370bae46059264865c5c5":[9,0,61,6,1,0],
+"struct_vulkan_1_1_vk_deferred_command.html#ad5694030ef63693fe48a78cb199e0a99":[9,0,61,6,6],
+"struct_vulkan_1_1_vk_deferred_command.html#ae0dc18978e86b8a77cd98092c6962cc6":[9,0,61,6,5],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html":[9,0,61,6,0],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a0449736edb51629cee33322bc08f60e0":[9,0,61,6,0,24],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a0e8db91b6de44a4203dfd81e5bc8cdd5":[9,0,61,6,0,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX89 =
 "struct_vulkan_1_1_vk_texture_mapping_info.html#ac746c937a81ff45fe32f66ab99ced108":[9,0,61,33,0],
 "struct_vulkan_1_1_vk_texture_runtime_info.html":[9,0,61,32],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a21ced2a42e5991fadfa6f310089d96d0":[9,0,61,32,1],
-"struct_vulkan_1_1_vk_texture_runtime_info.html#a6a476846f068f22a19ef859b9d7f798a":[9,0,61,32,2],
-"struct_vulkan_1_1_vk_texture_runtime_info.html#a96d5295faa6fa42ccf0ef6c25411fc50":[9,0,61,32,0],
-"struct_vulkan_1_1_vk_texture_stream_info.html":[9,0,61,34],
-"struct_vulkan_1_1_vk_texture_stream_info.html#a0b7cf946010040b96761ef3eb4327dcb":[9,0,61,34,5],
-"struct_vulkan_1_1_vk_texture_stream_info.html#a43ddb187d9c287792f81709ba6a00c99":[9,0,61,34,3],
-"struct_vulkan_1_1_vk_texture_stream_info.html#a7e22432fc4168499246741957373c15b":[9,0,61,34,2],
-"struct_vulkan_1_1_vk_texture_stream_info.html#aad619cc0aa24f70bc0f5abce2d9e1301":[9,0,61,34,0]
+"struct_vulkan_1_1_vk_texture_runtime_info.html#a6a476846f068f22a19ef859b9d7f798a":[9,0,61,32,2]
 };

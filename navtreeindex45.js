@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"class_vulkan_1_1_vk_scheduler.html#aeb4154580336b15281fd75ffb100827c":[9,0,61,18,5],
+"class_vulkan_1_1_vk_shader_pool.html":[9,0,61,19],
+"class_vulkan_1_1_vk_shader_pool.html#a073824b8a9086f27d931d60b5f111492":[9,0,61,19,32],
 "class_vulkan_1_1_vk_shader_pool.html#a0acfe119b974e82d32f1a7fb9d7d17d1":[9,0,61,19,21],
 "class_vulkan_1_1_vk_shader_pool.html#a0ea4f7598b2f865ef487d0280bb517ae":[9,0,61,19,15],
 "class_vulkan_1_1_vk_shader_pool.html#a100635e617d6b7720b077f677576dc23":[9,0,61,19,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d":[9,0,61,41,10],
 "class_vulkan_1_1_vk_types.html#a09410037e8cfbe2022103fe75c403b96":[9,0,61,41,1],
 "class_vulkan_1_1_vk_types.html#a09778cc9e7e78f0de30bca40fc06c3a4":[9,0,61,41,13],
-"class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032":[9,0,61,41,21],
-"class_vulkan_1_1_vk_types.html#a22dfa7a3fa4206e081446ad890249fd6":[9,0,61,41,11],
-"class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4":[9,0,61,41,3],
-"class_vulkan_1_1_vk_types.html#a5563d011d12cc9b3d6449631c75afa06":[9,0,61,41,23]
+"class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032":[9,0,61,41,21]
 };

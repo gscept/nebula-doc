@@ -2,6 +2,7 @@ var class_game_1_1_blueprint_manager =
 [
     [ "Blueprint", "struct_game_1_1_blueprint_manager_1_1_blueprint.html", "struct_game_1_1_blueprint_manager_1_1_blueprint" ],
     [ "PropertyEntry", "struct_game_1_1_blueprint_manager_1_1_property_entry.html", "struct_game_1_1_blueprint_manager_1_1_property_entry" ],
+    [ "Template", "struct_game_1_1_blueprint_manager_1_1_template.html", "struct_game_1_1_blueprint_manager_1_1_template" ],
     [ "BlueprintManager", "class_game_1_1_blueprint_manager.html#a51107c1c12024b823259c0cdd4deb239", null ],
     [ "~BlueprintManager", "class_game_1_1_blueprint_manager.html#a656caba767f822db33a1833b8530ca24", null ],
     [ "__DeclareSingleton", "class_game_1_1_blueprint_manager.html#a0e8cb6258ac45a0c66448327a37c9f33", null ],
@@ -10,8 +11,10 @@ var class_game_1_1_blueprint_manager =
     [ "Destroy", "class_game_1_1_blueprint_manager.html#a5316364c31fcca0f50e9e34d4e9cf602", null ],
     [ "GetBlueprintId", "class_game_1_1_blueprint_manager.html#afc517b30e46fd5ba5da45ba90bc54cb7", null ],
     [ "GetTemplateId", "class_game_1_1_blueprint_manager.html#ad63685d3221eff734ea8a8bca6fa8db0", null ],
+    [ "GetTemplateName", "class_game_1_1_blueprint_manager.html#ae9d6b73665d54ae947070f856937fcae", null ],
     [ "Instantiate", "class_game_1_1_blueprint_manager.html#a2a9f0997b15aceb8a1f7ec98724ce6ea", null ],
     [ "Instantiate", "class_game_1_1_blueprint_manager.html#acad378457e21611f8037be7430468f92", null ],
+    [ "ListTemplates", "class_game_1_1_blueprint_manager.html#a5aea5a91c61494c2ebfe211fc93ce06f", null ],
     [ "LoadTemplateFolder", "class_game_1_1_blueprint_manager.html#ac1c74082a56e6ddc7639d37f23b1d18f", null ],
     [ "OnActivate", "class_game_1_1_blueprint_manager.html#ae711018327223b55bd31780e23d5d8dd", null ],
     [ "ParseBlueprint", "class_game_1_1_blueprint_manager.html#adda3de86cffa4d9d3b42adf559c8ec57", null ],
@@ -21,6 +24,8 @@ var class_game_1_1_blueprint_manager =
     [ "blueprintFolder", "class_game_1_1_blueprint_manager.html#a52a9df4d339c676181896092f420bf3e", null ],
     [ "blueprintMap", "class_game_1_1_blueprint_manager.html#afd04e6df3ffde70f165815db04ad8db3", null ],
     [ "blueprints", "class_game_1_1_blueprint_manager.html#adb59b9739cbcdacc76735283412d2cae", null ],
+    [ "templateIdPool", "class_game_1_1_blueprint_manager.html#a51c5be233b9b7ac6807f3545b77d7983", null ],
     [ "templateMap", "class_game_1_1_blueprint_manager.html#a6c61c4eabba48e635ab0b331b29451d7", null ],
+    [ "templates", "class_game_1_1_blueprint_manager.html#a8b14f4728918f64c8351cc5c91e7ba11", null ],
     [ "templatesFolder", "class_game_1_1_blueprint_manager.html#a2770987866c74992f42d4028ed25cc5b", null ]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX56 =
 {
+"imguiconsolehandler_8h.html":[10,0,0,0,2,0,3],
+"imguiconsolehandler_8h_source.html":[10,0,0,0,2,0,3],
+"imguicontext_8cc.html":[10,0,0,0,2,6],
 "imguicontext_8cc.html#a3fa97ee624c7d26bdce33d49f656d617":[10,0,0,0,2,6,1],
 "imguicontext_8cc.html#ac30d999a3f97cb82b19b146cf0b7e5e3":[10,0,0,0,2,6,0],
 "imguicontext_8h.html":[10,0,0,0,2,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX56 =
 "lightprobecontext_8h_source.html":[10,0,0,5,13,10],
 "lightserver_8cc.html":[10,0,0,5,13,11],
 "lightserver_8cc.html#aaf02878f2921f1f030e3259145e39124":[10,0,0,5,13,11,0],
-"lightserver_8h.html":[10,0,0,5,13,12],
-"lightserver_8h_source.html":[10,0,0,5,13,12],
-"lightserverbase_8cc.html":[10,0,0,5,13,0,0],
-"lightserverbase_8cc.html#a27d185b14abf847e96de35caaca89cfc":[10,0,0,5,13,0,0,1]
+"lightserver_8h.html":[10,0,0,5,13,12]
 };

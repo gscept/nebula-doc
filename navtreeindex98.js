@@ -1,5 +1,11 @@
 var NAVTREEINDEX98 =
 {
+"win32threadid_8h.html":[10,0,0,3,17,5,10],
+"win32threadid_8h.html#a5620c6c1016951cd2f56ba670b5412ed":[10,0,0,3,17,5,10,0],
+"win32threadid_8h_source.html":[10,0,0,3,17,5,10],
+"win32timer_8cc.html":[10,0,0,3,18,3,2],
+"win32timer_8h.html":[10,0,0,3,18,3,3],
+"win32timer_8h.html#a55c1887f69298dbcb9bff3b9c3d7cb4f":[10,0,0,3,18,3,3,1],
 "win32timer_8h_source.html":[10,0,0,3,18,3,3],
 "window_8h.html":[10,0,0,5,5,102],
 "window_8h.html#a04e4e0460e1d8d5e00edb5ad545b591e":[10,0,0,5,5,102,12],

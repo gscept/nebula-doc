@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a30a77f2524ab72d70b0633c5ad7ce57e":[9,0,10,56,0,23],
 "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a37d4235bf41d7b128f3f615f9af8d87d":[9,0,10,56,0,21],
 "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a3cea5e97559d2fe234726c3b26440dee":[9,0,10,56,0,15],
 "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a461e763b73451663dce75e4abe3ca188":[9,0,10,56,0,47],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "class_darwin_1_1_darwin_timer.html#ab41675e5db3b5495b6cf301f00bcb886":[9,0,11,2,1],
 "class_darwin_1_1_darwin_timer.html#ac8d286bcf8fbb0b9919e8e9cbc33a774":[9,0,11,2,7],
 "class_darwin_1_1_darwin_timer.html#aeda3eb06db3ab3a481b53975d3db925d":[9,0,11,2,6],
-"class_db2_1_1_sqlite3_filter_set.html":[9,0,141]
+"class_db2_1_1_sqlite3_filter_set.html":[9,0,141],
+"class_db_1_1_column.html":[9,0,12,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"vkmemory_8h_source.html":[10,0,0,5,5,5,23],
+"vkmemorytexturepool_8cc.html":[10,0,0,5,5,5,24],
+"vkmemorytexturepool_8cc.html#a2de630b16ec2c0fdc6fef88395296ac2":[10,0,0,5,5,5,24,1],
+"vkmemorytexturepool_8cc.html#aa8228c3898173b6839327192e5f61151":[10,0,0,5,5,5,24,0],
+"vkmemorytexturepool_8cc.html#af7f656ea311c15b8b8634cc6c38ebfa7":[10,0,0,5,5,5,24,2],
+"vkmemorytexturepool_8h.html":[10,0,0,5,5,5,25],
 "vkmemorytexturepool_8h_source.html":[10,0,0,5,5,5,25],
 "vkmeshpool_8cc.html":[10,0,0,5,5,5,26],
 "vkmeshpool_8cc.html#a53048ebfdef76d0b3a755ff95face895":[10,0,0,5,5,5,26,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "vktextureview_8h.html#aa90ec09f18977a4cdb24e1ef4167e9f5":[10,0,0,5,5,5,65,2],
 "vktextureview_8h_source.html":[10,0,0,5,5,5,65],
 "vktransformdevice_8cc.html":[10,0,0,5,5,5,66],
-"vktransformdevice_8cc.html#a37b98a1df810897a480895877c860f15":[10,0,0,5,5,5,66,1],
-"vktransformdevice_8cc.html#acbab950e3b83f15933ff5b2f80211d58":[10,0,0,5,5,5,66,0],
-"vktransformdevice_8h.html":[10,0,0,5,5,5,67],
-"vktransformdevice_8h_source.html":[10,0,0,5,5,5,67],
-"vktypes_8cc.html":[10,0,0,5,5,5,68],
-"vktypes_8h.html":[10,0,0,5,5,5,69],
-"vktypes_8h_source.html":[10,0,0,5,5,5,69]
+"vktransformdevice_8cc.html#a37b98a1df810897a480895877c860f15":[10,0,0,5,5,5,66,1]
 };

@@ -379,6 +379,7 @@ var annotated_dup =
       [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
       [ "PropertyDecayBuffer", "struct_game_1_1_property_decay_buffer.html", "struct_game_1_1_property_decay_buffer" ],
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
+      [ "TemplateId", "struct_game_1_1_template_id.html", null ],
       [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
       [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ],
       [ "EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],

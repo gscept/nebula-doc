@@ -198,8 +198,7 @@ var NAVTREEINDEX2 =
 "camerasettings_8h_source.html":[10,0,0,5,10,4],
 "category_8cc.html":[10,0,0,1,3,3],
 "category_8h.html":[10,0,0,1,3,4],
-"category_8h.html#ae602caa409426ab2c9622a2c09a4983c":[10,0,0,1,3,4,3],
-"category_8h.html#afb3ae593b72175e2e0bc393e113d7252":[10,0,0,1,3,4,2],
+"category_8h.html#afb3ae593b72175e2e0bc393e113d7252":[10,0,0,1,3,4,3],
 "category_8h_source.html":[10,0,0,1,3,4],
 "char_8h.html":[10,0,0,5,11,4],
 "char_8h.html#a3fc54dbf2698f895d84d1ab729e8a7e8":[10,0,0,5,11,4,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "class_animation_1_1_anim_event_info.html#a75045ce94c3e4a2986da0db7c5ec0ab1":[9,0,0,1,12],
 "class_animation_1_1_anim_event_info.html#a8a4da498f12293304db746dee700573e":[9,0,0,1,0],
 "class_animation_1_1_anim_event_info.html#a96a232b5c098c740416aec5f628ac7b4":[9,0,0,1,2],
-"class_animation_1_1_anim_event_info.html#aa390ed3cc79f0988df039ce5943a5370":[9,0,0,1,1]
+"class_animation_1_1_anim_event_info.html#aa390ed3cc79f0988df039ce5943a5370":[9,0,0,1,1],
+"class_animation_1_1_anim_event_info.html#aae77626d9966fabd249a2ea94b2d2510":[9,0,0,1,13]
 };
