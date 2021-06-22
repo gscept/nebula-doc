@@ -126,6 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f40a1f190bb824a4ce3640be2639931"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#a7f40a1f190bb824a4ce3640be2639931">Add</a> (const T &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
 <tr class="memdesc:a7f40a1f190bb824a4ce3640be2639931"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a value to the current array node  <a href="class_i_o_1_1_json_writer.html#a7f40a1f190bb824a4ce3640be2639931">More...</a><br /></td></tr>
 <tr class="separator:a7f40a1f190bb824a4ce3640be2639931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8caa5566b26462dee02ac3ea473d4f"><td class="memTemplParams" colspan="2">template&lt;unsigned int N&gt; </td></tr>
+<tr class="memitem:afb8caa5566b26462dee02ac3ea473d4f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f">Add</a> (<a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; N &gt; const &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
+<tr class="memdesc:afb8caa5566b26462dee02ac3ea473d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">add bitfield of N size  <a href="class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f">More...</a><br /></td></tr>
+<tr class="separator:afb8caa5566b26462dee02ac3ea473d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557e5225d2a214d5598679531c881b00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#a557e5225d2a214d5598679531c881b00">Add</a> (const char *value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
 <tr class="memdesc:a557e5225d2a214d5598679531c881b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">special handling for const strings  <a href="class_i_o_1_1_json_writer.html#a557e5225d2a214d5598679531c881b00">More...</a><br /></td></tr>
 <tr class="separator:a557e5225d2a214d5598679531c881b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a155d84f132478c9ec10c714df02bfadf"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a155d84f132478c9ec10c714df02bfadf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#a155d84f132478c9ec10c714df02bfadf">Add</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name)</td></tr>
 <tr class="separator:a155d84f132478c9ec10c714df02bfadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7188d1307982a6641f0e358476b461"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a2a7188d1307982a6641f0e358476b461"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#a2a7188d1307982a6641f0e358476b461">Add</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name)</td></tr>
+<tr class="separator:a2a7188d1307982a6641f0e358476b461"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dfa27e654b6eba29d570830667418d5"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a4dfa27e654b6eba29d570830667418d5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_json_writer.html#a4dfa27e654b6eba29d570830667418d5">Add</a> (const bool &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name)</td></tr>
 <tr class="separator:a4dfa27e654b6eba29d570830667418d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,7 +352,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a4dfa27e654b6eba29d570830667418d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dfa27e654b6eba29d570830667418d5">&#9670;&nbsp;</a></span>Add() <span class="overload">[1/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dfa27e654b6eba29d570830667418d5">&#9670;&nbsp;</a></span>Add() <span class="overload">[1/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +382,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ae7f09c2cbcee049e64326239aaed42c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f09c2cbcee049e64326239aaed42c1">&#9670;&nbsp;</a></span>Add() <span class="overload">[2/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f09c2cbcee049e64326239aaed42c1">&#9670;&nbsp;</a></span>Add() <span class="overload">[2/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,7 +412,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a557e5225d2a214d5598679531c881b00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a557e5225d2a214d5598679531c881b00">&#9670;&nbsp;</a></span>Add() <span class="overload">[3/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a557e5225d2a214d5598679531c881b00">&#9670;&nbsp;</a></span>Add() <span class="overload">[3/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +442,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="aa2d9008e5d79de07064cd0d70f7439ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2d9008e5d79de07064cd0d70f7439ac">&#9670;&nbsp;</a></span>Add() <span class="overload">[4/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d9008e5d79de07064cd0d70f7439ac">&#9670;&nbsp;</a></span>Add() <span class="overload">[4/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +472,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="aa5771bdf1fccc2ae9f675e9e379f53d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5771bdf1fccc2ae9f675e9e379f53d1">&#9670;&nbsp;</a></span>Add() <span class="overload">[5/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5771bdf1fccc2ae9f675e9e379f53d1">&#9670;&nbsp;</a></span>Add() <span class="overload">[5/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,7 +502,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ad3e3ca08a50c826e6368a2c505a81656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e3ca08a50c826e6368a2c505a81656">&#9670;&nbsp;</a></span>Add() <span class="overload">[6/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e3ca08a50c826e6368a2c505a81656">&#9670;&nbsp;</a></span>Add() <span class="overload">[6/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,7 +532,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a050dee69c4f5fcb6e571fa085f30394f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a050dee69c4f5fcb6e571fa085f30394f">&#9670;&nbsp;</a></span>Add() <span class="overload">[7/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a050dee69c4f5fcb6e571fa085f30394f">&#9670;&nbsp;</a></span>Add() <span class="overload">[7/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,7 +562,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ad029e1392ebe1e705159b28d1cda03d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad029e1392ebe1e705159b28d1cda03d0">&#9670;&nbsp;</a></span>Add() <span class="overload">[8/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad029e1392ebe1e705159b28d1cda03d0">&#9670;&nbsp;</a></span>Add() <span class="overload">[8/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -585,7 +592,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a86d212b552aae90a8bb775695b5759a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86d212b552aae90a8bb775695b5759a1">&#9670;&nbsp;</a></span>Add() <span class="overload">[9/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d212b552aae90a8bb775695b5759a1">&#9670;&nbsp;</a></span>Add() <span class="overload">[9/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,7 +622,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a8811906b53d732a7be7e1227a261a8cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8811906b53d732a7be7e1227a261a8cd">&#9670;&nbsp;</a></span>Add() <span class="overload">[10/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8811906b53d732a7be7e1227a261a8cd">&#9670;&nbsp;</a></span>Add() <span class="overload">[10/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,7 +652,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a7f40a1f190bb824a4ce3640be2639931"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f40a1f190bb824a4ce3640be2639931">&#9670;&nbsp;</a></span>Add() <span class="overload">[11/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f40a1f190bb824a4ce3640be2639931">&#9670;&nbsp;</a></span>Add() <span class="overload">[11/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +684,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="acf6ead07e6b3fc50bc4ff31416a9fb56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf6ead07e6b3fc50bc4ff31416a9fb56">&#9670;&nbsp;</a></span>Add() <span class="overload">[12/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6ead07e6b3fc50bc4ff31416a9fb56">&#9670;&nbsp;</a></span>Add() <span class="overload">[12/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -707,7 +714,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a344c361363fb0f10c9cbe8b13f535f54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a344c361363fb0f10c9cbe8b13f535f54">&#9670;&nbsp;</a></span>Add() <span class="overload">[13/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a344c361363fb0f10c9cbe8b13f535f54">&#9670;&nbsp;</a></span>Add() <span class="overload">[13/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -737,7 +744,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a97251320448428aed4b2a139f6c2dddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97251320448428aed4b2a139f6c2dddd">&#9670;&nbsp;</a></span>Add() <span class="overload">[14/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a97251320448428aed4b2a139f6c2dddd">&#9670;&nbsp;</a></span>Add() <span class="overload">[14/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,7 +774,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ac3ea921024e9df48bbb290f3a6b3c779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3ea921024e9df48bbb290f3a6b3c779">&#9670;&nbsp;</a></span>Add() <span class="overload">[15/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ea921024e9df48bbb290f3a6b3c779">&#9670;&nbsp;</a></span>Add() <span class="overload">[15/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -796,8 +803,38 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a2a7188d1307982a6641f0e358476b461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7188d1307982a6641f0e358476b461">&#9670;&nbsp;</a></span>Add() <span class="overload">[16/21]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::JsonWriter::Add </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a386fff06061f775d7478b8736d9d5001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a386fff06061f775d7478b8736d9d5001">&#9670;&nbsp;</a></span>Add() <span class="overload">[16/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a386fff06061f775d7478b8736d9d5001">&#9670;&nbsp;</a></span>Add() <span class="overload">[17/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -827,7 +864,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a8186d7cbf1ff80753f0f3a9601805a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8186d7cbf1ff80753f0f3a9601805a91">&#9670;&nbsp;</a></span>Add() <span class="overload">[17/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8186d7cbf1ff80753f0f3a9601805a91">&#9670;&nbsp;</a></span>Add() <span class="overload">[18/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -857,7 +894,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a155d84f132478c9ec10c714df02bfadf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155d84f132478c9ec10c714df02bfadf">&#9670;&nbsp;</a></span>Add() <span class="overload">[18/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a155d84f132478c9ec10c714df02bfadf">&#9670;&nbsp;</a></span>Add() <span class="overload">[19/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -887,7 +924,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a5f800e99ce713a36bb23fbe8db0d5836"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f800e99ce713a36bb23fbe8db0d5836">&#9670;&nbsp;</a></span>Add() <span class="overload">[19/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f800e99ce713a36bb23fbe8db0d5836">&#9670;&nbsp;</a></span>Add() <span class="overload">[20/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -913,6 +950,46 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb8caa5566b26462dee02ac3ea473d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8caa5566b26462dee02ac3ea473d4f">&#9670;&nbsp;</a></span>Add() <span class="overload">[21/21]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::JsonWriter::Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add bitfield of N size </p>
 
 </div>
 </div>
@@ -1113,7 +1190,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_i_o.html">IO</a></li><li class="navelem"><a class="el" href="class_i_o_1_1_json_writer.html">JsonWriter</a></li>
 				<li class="footer">
-					Generated on Mon May 17 2021 19:07:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Jun 22 2021 12:14:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

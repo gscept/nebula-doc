@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"struct_game_1_1_message_listener_id.html":[9,0,21,23],
+"struct_game_1_1_op_1_1_deregister_property.html":[9,0,21,0,1],
 "struct_game_1_1_op_1_1_deregister_property.html#a94970e6cdabe3a03871e7b5e76fdf9c0":[9,0,21,0,1,0],
 "struct_game_1_1_op_1_1_deregister_property.html#af950bf4e4bcb561c649bd1fc23a2e459":[9,0,21,0,1,1],
 "struct_game_1_1_op_1_1_register_property.html":[9,0,21,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "struct_gltf_1_1_node.html#ab0980d10a9f6b0f69b34b19c3b85e48b":[9,0,23,10,12],
 "struct_gltf_1_1_node.html#abc9a4c15c6f28c3d21e66cc4cdbd7983":[9,0,23,10,1],
 "struct_gltf_1_1_node.html#aca582235dddc45b3273a05a0b5488e2c":[9,0,23,10,10],
-"struct_gltf_1_1_node.html#adf98f0b420020977a3ccbed9fbc9b13a":[9,0,23,10,4],
-"struct_gltf_1_1_node.html#ae3f06825d02f19b36c411756177a8b9b":[9,0,23,10,3],
-"struct_gltf_1_1_node.html#ae68e50d2eec386fe7fedab36743b3428":[9,0,23,10,11]
+"struct_gltf_1_1_node.html#adf98f0b420020977a3ccbed9fbc9b13a":[9,0,23,10,4]
 };

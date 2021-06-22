@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"class_lighting_1_1_vk_light_server.html#abb5eeeec45e1c658531bd096a6f087aa":[9,0,33,6,56],
+"class_lighting_1_1_vk_light_server.html#ac11f1138d09d0507296e1a820ed1d706":[9,0,33,6,31],
 "class_lighting_1_1_vk_light_server.html#ac2783bedcd7fb8999abb0b5b72804feb":[9,0,33,6,24],
 "class_lighting_1_1_vk_light_server.html#ac598dcfd674bb7922e20350502ce2bde":[9,0,33,6,28],
 "class_lighting_1_1_vk_light_server.html#ac7d55148544b84238f99ef62214d724e":[9,0,33,6,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "class_materials_1_1_material_type.html#ae76a16dd13865b9c63590aba9b0c19d1":[9,0,35,6,47],
 "class_materials_1_1_material_type.html#aef64efdf2dfdb78a261333c10e3d0f97":[9,0,35,6,7],
 "class_materials_1_1_material_type.html#af482150a03ebe4d295e758113d14ba52":[9,0,35,6,42],
-"class_materials_1_1_material_type.html#afdb6b2c035922800ffbcf1b46b1f7692":[9,0,35,6,28],
-"class_materials_1_1_surface_pool.html":[9,0,35,10],
-"class_materials_1_1_surface_pool.html#a2f76c3bce8d95b50dd49e429e7f5b834":[9,0,35,10,7]
+"class_materials_1_1_material_type.html#afdb6b2c035922800ffbcf1b46b1f7692":[9,0,35,6,28]
 };
