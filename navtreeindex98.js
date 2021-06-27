@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"win32threadbarrier_8h.html":[10,0,0,3,17,5,9],
 "win32threadbarrier_8h_source.html":[10,0,0,3,17,5,9],
 "win32threadid_8h.html":[10,0,0,3,17,5,10],
 "win32threadid_8h.html#a5620c6c1016951cd2f56ba670b5412ed":[10,0,0,3,17,5,10,0],

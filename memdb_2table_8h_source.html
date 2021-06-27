@@ -130,10 +130,10 @@ $(document).ready(function(){initNavTree('memdb_2table_8h_source.html',''); init
 <div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="struct_mem_db_1_1_table.html#a876a422273aa0295be39230009984dca">   69</a></span>&#160;    <a class="code" href="class_util_1_1_array.html">Util::Array&lt;IndexT&gt;</a> <a class="code" href="struct_mem_db_1_1_table.html#a876a422273aa0295be39230009984dca">freeIds</a>;</div>
 <div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="struct_mem_db_1_1_table.html#aa0e7c5482ba76b01fb2086232248e64b">   71</a></span>&#160;    <a class="code" href="class_util_1_1_array.html">Util::Array&lt;PropertyId&gt;</a> <a class="code" href="struct_mem_db_1_1_table.html#aa0e7c5482ba76b01fb2086232248e64b">properties</a>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// TODO:</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// TODO: partition the tables into chunks</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">//struct Partition</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">//{</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">//  static constexpr int     capacity = 4096;  // total capacity (in elements) that the partition can contain</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">//  static constexpr uint    capacity = 4096;  // total capacity (in elements) that the partition can contain</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">//  uint64_t                 version = 0;      // bump the version if you change anything about the partition</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">//  void* buffer = nullptr;                    // contains the data</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">//  Util::BitField&lt;capacity&gt; modified;         // check a bit if the value in the buffer has been modified, and you need to track it</span></div>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('memdb_2table_8h_source.html',''); init
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="memdb_2table_8h.html">table.h</a></li>
 				<li class="footer">
-					Generated on Tue Jun 22 2021 12:13:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jun 27 2021 11:10:18 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

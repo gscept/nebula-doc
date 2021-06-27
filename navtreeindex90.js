@@ -1,6 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"struct_vulkan_1_1_vk_texture_runtime_info.html#a21ced2a42e5991fadfa6f310089d96d0":[9,0,61,32,1],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a6a476846f068f22a19ef859b9d7f798a":[9,0,61,32,2],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a96d5295faa6fa42ccf0ef6c25411fc50":[9,0,61,32,0],
 "struct_vulkan_1_1_vk_texture_stream_info.html":[9,0,61,34],
@@ -93,8 +92,8 @@ var NAVTREEINDEX90 =
 "systeminfobase_8h_source.html":[10,0,0,3,16,0,2],
 "table_8cc.html":[10,0,0,0,1,19],
 "table_8cc.html#a1a1289f24a166239232f63651b62d50a":[10,0,0,0,1,19,0],
-"tablesignature_8h.html":[10,0,0,0,4,7],
-"tablesignature_8h_source.html":[10,0,0,0,4,7],
+"tablesignature_8h.html":[10,0,0,0,5,7],
+"tablesignature_8h_source.html":[10,0,0,0,5,7],
 "tcpclient_8cc.html":[10,0,0,3,14,11],
 "tcpclient_8h.html":[10,0,0,3,14,12],
 "tcpclient_8h_source.html":[10,0,0,3,14,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX90 =
 "texture_8cc.html#a3477512603ed9d60696b1f89e6690139":[10,0,0,5,5,86,3],
 "texture_8cc.html#a34ad84778aedacc66ec5b06084ba4871":[10,0,0,5,5,86,10],
 "texture_8cc.html#a3cbd3cf44e83d10eda0f92a8801566e6":[10,0,0,5,5,86,13],
-"texture_8cc.html#a42953b33a9f1341113d9678071a4bd29":[10,0,0,5,5,86,21]
+"texture_8cc.html#a42953b33a9f1341113d9678071a4bd29":[10,0,0,5,5,86,21],
+"texture_8cc.html#a4453be2ae5bf4627c727439c6be99835":[10,0,0,5,5,86,25]
 };

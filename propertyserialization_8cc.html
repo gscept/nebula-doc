@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('propertyserialization_8cc.html',''); i
 <code>#include &quot;<a class="el" href="propertyserialization_8h_source.html">propertyserialization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="typeregistry_8h_source.html">memdb/typeregistry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="entity_8h_source.html">game/entity.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="graphicsentity_8h_source.html">graphics/graphicsentity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="propertyid_8h_source.html">memdb/propertyid.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -109,12 +108,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a6acb46f8ac6ee7dee90c217f333ac658"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a6acb46f8ac6ee7dee90c217f333ac658"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="propertyserialization_8cc.html#a6acb46f8ac6ee7dee90c217f333ac658">IO::JsonWriter::Add&lt; Game::Entity &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;key)</td></tr>
 <tr class="separator:a6acb46f8ac6ee7dee90c217f333ac658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9521c291feb97bf26643d710c2a8fd4"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ac9521c291feb97bf26643d710c2a8fd4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="propertyserialization_8cc.html#ac9521c291feb97bf26643d710c2a8fd4">IO::JsonReader::Get&lt; Graphics::GraphicsEntityId &gt;</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &amp;entity, const char *key)</td></tr>
-<tr class="separator:ac9521c291feb97bf26643d710c2a8fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140d0e7c701c6142b937fe5475f14d3a"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a140d0e7c701c6142b937fe5475f14d3a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="propertyserialization_8cc.html#a140d0e7c701c6142b937fe5475f14d3a">IO::JsonWriter::Add&lt; Graphics::GraphicsEntityId &gt;</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const &amp;entity, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;key)</td></tr>
-<tr class="separator:a140d0e7c701c6142b937fe5475f14d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae0a6d99b1ac462ebad8b2e012a823dc9"></a>
@@ -129,36 +122,6 @@ template&lt;&gt; </div>
           <td class="memname">void <a class="el" href="class_i_o_1_1_json_reader.html#a9b9cebd7d7a3e375c6bda9c01866384c">IO::JsonReader::Get</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &gt; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac9521c291feb97bf26643d710c2a8fd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9521c291feb97bf26643d710c2a8fd4">&#9670;&nbsp;</a></span>IO::JsonReader::Get&lt; Graphics::GraphicsEntityId &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_i_o_1_1_json_reader.html#a9b9cebd7d7a3e375c6bda9c01866384c">IO::JsonReader::Get</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &amp;&#160;</td>
           <td class="paramname"><em>entity</em>, </td>
         </tr>
         <tr>
@@ -207,36 +170,6 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a140d0e7c701c6142b937fe5475f14d3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a140d0e7c701c6142b937fe5475f14d3a">&#9670;&nbsp;</a></span>IO::JsonWriter::Add&lt; Graphics::GraphicsEntityId &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_i_o_1_1_json_writer.html#a7f40a1f190bb824a4ce3640be2639931">IO::JsonWriter::Add</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -244,7 +177,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="propertyserialization_8cc.html">propertyserialization.cc</a></li>
 				<li class="footer">
-					Generated on Tue Jun 22 2021 12:14:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jun 27 2021 11:11:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

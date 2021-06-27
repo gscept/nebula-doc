@@ -1,5 +1,6 @@
 var struct_game_1_1_time_manager_1_1_state =
 [
+    [ "frameSyncTimer", "struct_game_1_1_time_manager_1_1_state.html#a8918c5442822b5f567ed7294edae3072", null ],
     [ "frameTime", "struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c", null ],
     [ "numTimeSources", "struct_game_1_1_time_manager_1_1_state.html#a4e40e51f5d11c6a05b2aef560973b18e", null ],
     [ "time", "struct_game_1_1_time_manager_1_1_state.html#a3448a6a4d9521f2977e35bc939e809df", null ],
