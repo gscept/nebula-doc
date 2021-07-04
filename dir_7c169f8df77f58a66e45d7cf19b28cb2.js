@@ -80,9 +80,7 @@ var dir_7c169f8df77f58a66e45d7cf19b28cb2 =
       [ "IoServer", "class_i_o_1_1_io_server.html", "class_i_o_1_1_io_server" ]
     ] ],
     [ "jsonreader.cc", "jsonreader_8cc.html", "jsonreader_8cc" ],
-    [ "jsonreader.h", "jsonreader_8h.html", [
-      [ "JsonReader", "class_i_o_1_1_json_reader.html", "class_i_o_1_1_json_reader" ]
-    ] ],
+    [ "jsonreader.h", "jsonreader_8h.html", "jsonreader_8h" ],
     [ "jsonwriter.cc", "jsonwriter_8cc.html", "jsonwriter_8cc" ],
     [ "jsonwriter.h", "jsonwriter_8h.html", [
       [ "JsonWriter", "class_i_o_1_1_json_writer.html", "class_i_o_1_1_json_writer" ]
