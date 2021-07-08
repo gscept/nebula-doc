@@ -1,17 +1,18 @@
 var NAVTREEINDEX71 =
 {
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,12,1,5,0,23],
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,12,1,5,0,10],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,12,1,5,0,35],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,12,1,5,0,7],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,12,1,5,0,18],
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,12,1,5,0,7],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,12,1,5,0,31],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f":[10,0,0,3,12,1,5,0,20],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f":[10,0,0,3,12,1,5,0,33],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,12,1,5,0,13],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,12,1,5,0,26],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,12,1,5,0,2],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,12,1,5,0,15],
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,12,1,5,0,26],
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,12,1,5,0,13],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,12,1,5,0,4],
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,12,1,5,0,15],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,12,1,5,0,28],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b":[10,0,0,3,12,1,5,0,29],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b":[10,0,0,3,12,1,5,0,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "posixconsolehandler_8h_source.html":[10,0,0,3,9,5,3],
 "posixcpu_8h.html":[10,0,0,3,16,3,0],
 "posixcpu_8h.html#a839ffecf61e6805be4ce263ff87f3edf":[10,0,0,3,16,3,0,1],
-"posixcpu_8h_source.html":[10,0,0,3,16,3,0],
-"posixcriticalsection_8h.html":[10,0,0,3,17,4,1]
+"posixcpu_8h_source.html":[10,0,0,3,16,3,0]
 };

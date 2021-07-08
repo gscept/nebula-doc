@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"struct_core_graphics_1_1_texture_create_info.html#a785951e9a8f347185dce0448b752ec2f":[9,0,10,99,4],
+"struct_core_graphics_1_1_texture_create_info.html#a78e58b07c181b16d2462f6ac420f129b":[9,0,10,99,2],
+"struct_core_graphics_1_1_texture_create_info.html#a809640931b4ffc72df7a2954eb929b08":[9,0,10,99,16],
 "struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574":[9,0,10,99,19],
 "struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377":[9,0,10,99,0],
 "struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d":[9,0,10,99,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "struct_game_1_1_blueprint_manager_1_1_property_entry.html":[9,0,21,2,1],
 "struct_game_1_1_blueprint_manager_1_1_property_entry.html#a61e19a50134b0f4d77d34b036170f68b":[9,0,21,2,1,0],
 "struct_game_1_1_blueprint_manager_1_1_template.html":[9,0,21,2,2],
-"struct_game_1_1_blueprint_manager_1_1_template.html#a80e45ec39d6082487e9be1c163298f79":[9,0,21,2,2,1],
-"struct_game_1_1_blueprint_manager_1_1_template.html#a94df97ca7f9765b0058a0f6181c7b9d2":[9,0,21,2,2,2],
-"struct_game_1_1_blueprint_manager_1_1_template.html#adf8cad26512336aed9b19e407c9eedf1":[9,0,21,2,2,0],
-"struct_game_1_1_category_create_info.html":[9,0,21,15]
+"struct_game_1_1_blueprint_manager_1_1_template.html#a80e45ec39d6082487e9be1c163298f79":[9,0,21,2,2,1]
 };
