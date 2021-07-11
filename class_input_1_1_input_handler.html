@@ -171,10 +171,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a6ba33460c62952a3234ef185b0f44632"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the handler is removed from the input server  <a href="class_input_1_1_input_handler.html#a6ba33460c62952a3234ef185b0f44632">More...</a><br /></td></tr>
 <tr class="separator:a6ba33460c62952a3234ef185b0f44632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8c7df8aaa217a5b403de9d988d56db3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_input_1_1_input_handler.html#aa8c7df8aaa217a5b403de9d988d56db3">OnBeginFrame</a> ()</td></tr>
-<tr class="memdesc:aa8c7df8aaa217a5b403de9d988d56db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="namespace_core_graphics.html#a012100f3816044bc446334eab95e2124" title="begin complete frame">InputServer::BeginFrame()</a>  <a href="class_input_1_1_input_handler.html#aa8c7df8aaa217a5b403de9d988d56db3">More...</a><br /></td></tr>
+<tr class="memdesc:aa8c7df8aaa217a5b403de9d988d56db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="class_base_1_1_input_server_base.html#ac2f41ffbef4d0aa50bbae7000edef7a0" title="call before processing window events">InputServer::BeginFrame()</a>  <a href="class_input_1_1_input_handler.html#aa8c7df8aaa217a5b403de9d988d56db3">More...</a><br /></td></tr>
 <tr class="separator:aa8c7df8aaa217a5b403de9d988d56db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a532e7d5660b12efb2b9ad083d75b934c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_input_1_1_input_handler.html#a532e7d5660b12efb2b9ad083d75b934c">OnEndFrame</a> ()</td></tr>
-<tr class="memdesc:a532e7d5660b12efb2b9ad083d75b934c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="namespace_im3d.html#a4eb2a6127ed7178b98deabb457352420">InputServer::EndFrame()</a>;  <a href="class_input_1_1_input_handler.html#a532e7d5660b12efb2b9ad083d75b934c">More...</a><br /></td></tr>
+<tr class="memdesc:a532e7d5660b12efb2b9ad083d75b934c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="class_base_1_1_input_server_base.html#a6b8fa8338f0054e4722aa3c3da75d561" title="call at end of frame">InputServer::EndFrame()</a>;  <a href="class_input_1_1_input_handler.html#a532e7d5660b12efb2b9ad083d75b934c">More...</a><br /></td></tr>
 <tr class="separator:a532e7d5660b12efb2b9ad083d75b934c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fdec1a9adcbee40bd51ae9751fd38ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_input_1_1_input_handler.html#a4fdec1a9adcbee40bd51ae9751fd38ae">OnObtainCapture</a> ()</td></tr>
 <tr class="memdesc:a4fdec1a9adcbee40bd51ae9751fd38ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when input handler obtains capture  <a href="class_input_1_1_input_handler.html#a4fdec1a9adcbee40bd51ae9751fd38ae">More...</a><br /></td></tr>
@@ -432,7 +432,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called when the handler is attached to the input server </p>
 
-<p>Reimplemented in <a class="el" href="class_x_input_1_1_x_input_game_pad.html#a3660053163a587f9f0e5e2c260daf679">XInput::XInputGamePad</a>, <a class="el" href="class_base_1_1_mouse_base.html#ad33b67e42d45962fd5b047081eb1b2c5">Base::MouseBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html#a09a19eb98d5510464897dddbbd6b522c">Base::KeyboardBase</a>, and <a class="el" href="class_base_1_1_game_pad_base.html#aced3279411673afa93c39a7cd862ed5f">Base::GamePadBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_mouse_base.html#ad33b67e42d45962fd5b047081eb1b2c5">Base::MouseBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html#a09a19eb98d5510464897dddbbd6b522c">Base::KeyboardBase</a>, and <a class="el" href="class_base_1_1_game_pad_base.html#aced3279411673afa93c39a7cd862ed5f">Base::GamePadBase</a>.</p>
 
 </div>
 </div>
@@ -459,9 +459,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>called on <a class="el" href="namespace_core_graphics.html#a012100f3816044bc446334eab95e2124" title="begin complete frame">InputServer::BeginFrame()</a> </p>
+<p>called on <a class="el" href="class_base_1_1_input_server_base.html#ac2f41ffbef4d0aa50bbae7000edef7a0" title="call before processing window events">InputServer::BeginFrame()</a> </p>
 
-<p>Reimplemented in <a class="el" href="class_x_input_1_1_x_input_game_pad.html#ab627a8005eb37c812b57dfc84b4b13e5">XInput::XInputGamePad</a>, <a class="el" href="class_base_1_1_mouse_base.html#aca17b91be41a35d7196a9548c77eaed6">Base::MouseBase</a>, and <a class="el" href="class_base_1_1_keyboard_base.html#af8e4477e1c3da913f09772bc7de9f237">Base::KeyboardBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_mouse_base.html#aca17b91be41a35d7196a9548c77eaed6">Base::MouseBase</a>, and <a class="el" href="class_base_1_1_keyboard_base.html#af8e4477e1c3da913f09772bc7de9f237">Base::KeyboardBase</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>called on <a class="el" href="namespace_im3d.html#a4eb2a6127ed7178b98deabb457352420">InputServer::EndFrame()</a>; </p>
+<p>called on <a class="el" href="class_base_1_1_input_server_base.html#a6b8fa8338f0054e4722aa3c3da75d561" title="call at end of frame">InputServer::EndFrame()</a>; </p>
 
 </div>
 </div>
@@ -518,7 +518,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called when an input event should be processed </p>
 
-<p>Reimplemented in <a class="el" href="class_x_input_1_1_x_input_game_pad.html#a05d0acd9702c26ec3cfba406fc305e7b">XInput::XInputGamePad</a>, <a class="el" href="class_base_1_1_mouse_base.html#a1c367f18f5943fecfe64de181bea4a69">Base::MouseBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html#af89792d3978585347987aaab21618d2f">Base::KeyboardBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#ac0f483e5d0c3991b5d2235ebf10a1d19">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html#afd4c565f91ae66102ea5d2630a53bf4f">Im3d::Im3dInputHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_mouse_base.html#a1c367f18f5943fecfe64de181bea4a69">Base::MouseBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html#af89792d3978585347987aaab21618d2f">Base::KeyboardBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#ac0f483e5d0c3991b5d2235ebf10a1d19">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html#afd4c565f91ae66102ea5d2630a53bf4f">Im3d::Im3dInputHandler</a>.</p>
 
 </div>
 </div>
@@ -707,8 +707,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/github/workspace/code/render/input/<a class="el" href="inputhandler_8h_source.html">inputhandler.h</a></li>
-<li>/github/workspace/code/render/input/<a class="el" href="inputhandler_8cc.html">inputhandler.cc</a></li>
+<li>/github/workspace/code/input/input/<a class="el" href="inputhandler_8h_source.html">inputhandler.h</a></li>
+<li>/github/workspace/code/input/input/<a class="el" href="inputhandler_8cc.html">inputhandler.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -717,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_input.html">Input</a></li><li class="navelem"><a class="el" href="class_input_1_1_input_handler.html">InputHandler</a></li>
 				<li class="footer">
-					Generated on Thu Jul 8 2021 18:03:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jul 11 2021 12:44:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -93,6 +93,5 @@ var namespaces_dup =
     [ "Vegetation", "namespace_vegetation.html", "namespace_vegetation" ],
     [ "Visibility", "namespace_visibility.html", "namespace_visibility" ],
     [ "Vulkan", "namespace_vulkan.html", "namespace_vulkan" ],
-    [ "Win32", "namespace_win32.html", "namespace_win32" ],
-    [ "XInput", "namespace_x_input.html", "namespace_x_input" ]
+    [ "Win32", "namespace_win32.html", "namespace_win32" ]
 ];

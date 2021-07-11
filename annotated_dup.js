@@ -74,16 +74,16 @@ var annotated_dup =
       [ "Process", "class_base_1_1_process.html", "class_base_1_1_process" ],
       [ "SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ],
       [ "CalendarTimeBase", "class_base_1_1_calendar_time_base.html", "class_base_1_1_calendar_time_base" ],
+      [ "GamePadBase", "class_base_1_1_game_pad_base.html", "class_base_1_1_game_pad_base" ],
+      [ "InputServerBase", "class_base_1_1_input_server_base.html", "class_base_1_1_input_server_base" ],
+      [ "KeyboardBase", "class_base_1_1_keyboard_base.html", "class_base_1_1_keyboard_base" ],
+      [ "MouseBase", "class_base_1_1_mouse_base.html", "class_base_1_1_mouse_base" ],
       [ "DisplayDeviceBase", "class_base_1_1_display_device_base.html", "class_base_1_1_display_device_base" ],
       [ "ShaderServerBase", "class_base_1_1_shader_server_base.html", "class_base_1_1_shader_server_base" ],
       [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html", "class_base_1_1_shape_renderer_base" ],
       [ "TextRendererBase", "class_base_1_1_text_renderer_base.html", "class_base_1_1_text_renderer_base" ],
       [ "TransformDeviceBase", "class_base_1_1_transform_device_base.html", "class_base_1_1_transform_device_base" ],
       [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ],
-      [ "GamePadBase", "class_base_1_1_game_pad_base.html", "class_base_1_1_game_pad_base" ],
-      [ "InputServerBase", "class_base_1_1_input_server_base.html", "class_base_1_1_input_server_base" ],
-      [ "KeyboardBase", "class_base_1_1_keyboard_base.html", "class_base_1_1_keyboard_base" ],
-      [ "MouseBase", "class_base_1_1_mouse_base.html", "class_base_1_1_mouse_base" ],
       [ "InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", "class_base_1_1_instance_renderer_base" ],
       [ "InstanceServerBase", "class_base_1_1_instance_server_base.html", "class_base_1_1_instance_server_base" ]
     ] ],
@@ -395,10 +395,10 @@ var annotated_dup =
       [ "PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ]
     ] ],
     [ "GLFW", "namespace_g_l_f_w.html", [
+      [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ],
       [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],
       [ "GLFWGraphicsDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler" ],
-      [ "GLFWInputDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler" ],
-      [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ]
+      [ "GLFWInputDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler" ]
     ] ],
     [ "Gltf", "namespace_gltf.html", [
       [ "GltfBase", "struct_gltf_1_1_gltf_base.html", "struct_gltf_1_1_gltf_base" ],
@@ -516,7 +516,9 @@ var annotated_dup =
       [ "InputEvent", "class_input_1_1_input_event.html", "class_input_1_1_input_event" ],
       [ "InputHandler", "class_input_1_1_input_handler.html", "class_input_1_1_input_handler" ],
       [ "InputPriority", "class_input_1_1_input_priority.html", "class_input_1_1_input_priority" ],
+      [ "InputServer", "class_input_1_1_input_server.html", "class_input_1_1_input_server" ],
       [ "Key", "class_input_1_1_key.html", "class_input_1_1_key" ],
+      [ "Mouse", "class_input_1_1_mouse.html", "class_input_1_1_mouse" ],
       [ "MouseButton", "class_input_1_1_mouse_button.html", "class_input_1_1_mouse_button" ]
     ] ],
     [ "Interface", "namespace_interface.html", [
@@ -1014,13 +1016,7 @@ var annotated_dup =
       [ "Win32Guid", "class_win32_1_1_win32_guid.html", "class_win32_1_1_win32_guid" ],
       [ "Win32StringConverter", "class_win32_1_1_win32_string_converter.html", "class_win32_1_1_win32_string_converter" ],
       [ "ParentWindow", "struct_win32_1_1_parent_window.html", "struct_win32_1_1_parent_window" ],
-      [ "Win32DisplayDevice", "class_win32_1_1_win32_display_device.html", "class_win32_1_1_win32_display_device" ],
-      [ "Win32InputDisplayEventHandler", "class_win32_1_1_win32_input_display_event_handler.html", "class_win32_1_1_win32_input_display_event_handler" ],
-      [ "Win32InputServer", "class_win32_1_1_win32_input_server.html", "class_win32_1_1_win32_input_server" ],
-      [ "Win32Mouse", "class_win32_1_1_win32_mouse.html", "class_win32_1_1_win32_mouse" ]
-    ] ],
-    [ "XInput", "namespace_x_input.html", [
-      [ "XInputGamePad", "class_x_input_1_1_x_input_game_pad.html", "class_x_input_1_1_x_input_game_pad" ]
+      [ "Win32DisplayDevice", "class_win32_1_1_win32_display_device.html", "class_win32_1_1_win32_display_device" ]
     ] ],
     [ "AccessMode", "class_attr_1_1_access_mode.html", null ],
     [ "AnimResource", "class_core_animation_1_1_anim_resource.html", null ],
@@ -1060,7 +1056,6 @@ var annotated_dup =
     [ "Im3dContext", "class_im3d_context.html", null ],
     [ "ImguiRenderer", "class_dynui_1_1_imgui_renderer.html", null ],
     [ "ImguiRTPlugin", "class_imgui_1_1_imgui_r_t_plugin.html", null ],
-    [ "InputServer", "class_input_1_1_input_server.html", null ],
     [ "InstanceRenderer", "class_instancing_1_1_instance_renderer.html", null ],
     [ "InstanceRendererBase", "class_instancing_1_1_instance_renderer_base.html", null ],
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
@@ -1076,7 +1071,6 @@ var annotated_dup =
     [ "MemoryPool", "class_memory_1_1_memory_pool.html", null ],
     [ "MemoryTexturePool", "class_core_graphics_1_1_memory_texture_pool.html", null ],
     [ "MiniDump", "class_debug_1_1_mini_dump.html", null ],
-    [ "Mouse", "class_input_1_1_mouse.html", null ],
     [ "NebulaSettings", "class_system_1_1_nebula_settings.html", null ],
     [ "Nvx2StreamReader", "class_legacy_1_1_nvx2_stream_reader.html", null ],
     [ "Nvx3StreamReader", "class_legacy_1_1_nvx3_stream_reader.html", null ],

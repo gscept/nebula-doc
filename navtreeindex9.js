@@ -20,8 +20,8 @@ var NAVTREEINDEX9 =
 "class_core_1_1_rtti.html#aee95edbb7c52e14679431f6211af0479":[9,0,8,8,3],
 "class_core_1_1_rtti.html#af26b3ee1ec06ca39320df79537ffaad6":[9,0,8,8,4],
 "class_core_1_1_rtti.html#aff5493aa054f61c337e466debb54091b":[9,0,8,8,7],
-"class_core_1_1_singleton.html":[9,0,139],
-"class_core_1_1_sys_func.html":[9,0,147],
+"class_core_1_1_singleton.html":[9,0,136],
+"class_core_1_1_sys_func.html":[9,0,144],
 "class_core_animation_1_1_anim_clip.html":[9,0,9,0],
 "class_core_animation_1_1_anim_clip.html#a08fea63ca4b6b70320189312bc9e79bf":[9,0,9,0,23],
 "class_core_animation_1_1_anim_clip.html#a102477711bd166f38413d02e029e1d8a":[9,0,9,0,6],
@@ -124,7 +124,7 @@ var NAVTREEINDEX9 =
 "class_core_animation_1_1_anim_key_buffer.html#a70c67f2d5922386107b55cc2b3540a96":[9,0,9,4,2],
 "class_core_animation_1_1_anim_key_buffer.html#aa5c226836c925eee74b06740faac7909":[9,0,9,4,14],
 "class_core_animation_1_1_anim_key_buffer.html#ac884e4c12d43075fa109b89a5c975062":[9,0,9,4,4],
-"class_core_animation_1_1_anim_resource.html":[9,0,65],
+"class_core_animation_1_1_anim_resource.html":[9,0,64],
 "class_core_animation_1_1_anim_sample_buffer.html":[9,0,9,6],
 "class_core_animation_1_1_anim_sample_buffer.html#a069b18e57084c0dba1de7644ab9ed2bf":[9,0,9,6,2],
 "class_core_animation_1_1_anim_sample_buffer.html#a0bf79299096e90913665b5587f8704ce":[9,0,9,6,3],
@@ -178,7 +178,7 @@ var NAVTREEINDEX9 =
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40ac916a5acc309de1986ef7d6a15ccf11d":[9,0,9,19,0,0],
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcc2ff65955345f53050eb0cb2c502c5":[9,0,9,19,0,4],
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcf087416ba56c23dd69ca94c31e914f":[9,0,9,19,0,1],
-"class_core_animation_1_1_stream_animation_loader.html":[9,0,144],
+"class_core_animation_1_1_stream_animation_loader.html":[9,0,141],
 "class_core_animation_1_1_stream_animation_pool.html":[9,0,9,20],
 "class_core_animation_1_1_stream_animation_pool.html#a303333150d2e8886660c636bb1459ae5":[9,0,9,20,4],
 "class_core_animation_1_1_stream_animation_pool.html#a39ae66184166caa5334afb8ff7ed92ed":[9,0,9,20,8],
@@ -248,6 +248,6 @@ var NAVTREEINDEX9 =
 "class_core_graphics_1_1_batch_group.html#abfb033c63747b8b46a13ea4b7e541a6f":[9,0,10,11,5],
 "class_core_graphics_1_1_batch_group.html#af10727831d80099227a01e165ac405f3":[9,0,10,11,9],
 "class_core_graphics_1_1_batch_group.html#af5da6d96e00a232dff3a4ff898e214cf":[9,0,10,11,3],
-"class_core_graphics_1_1_buffer_setup.html":[9,0,71],
-"class_core_graphics_1_1_display_device.html":[9,0,81]
+"class_core_graphics_1_1_buffer_setup.html":[9,0,70],
+"class_core_graphics_1_1_display_device.html":[9,0,80]
 };

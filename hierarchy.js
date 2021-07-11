@@ -545,8 +545,8 @@ var hierarchy =
     [ "IO::FileWatcherImpl", "class_i_o_1_1_file_watcher_impl.html", null ],
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterCreateInfo", "struct_game_1_1_filter_create_info.html", null ],
-    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
+    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -817,7 +817,6 @@ var hierarchy =
     [ "CoreAnimation::InfinityType", "class_core_animation_1_1_infinity_type.html", null ],
     [ "Input::InputEvent", "class_input_1_1_input_event.html", null ],
     [ "Input::InputPriority", "class_input_1_1_input_priority.html", null ],
-    [ "InputServer", "class_input_1_1_input_server.html", null ],
     [ "Models::ModelNode::Instance", "struct_models_1_1_model_node_1_1_instance.html", [
       [ "Models::TransformNode::Instance", "struct_models_1_1_transform_node_1_1_instance.html", [
         [ "Models::CharacterNode::Instance", "struct_models_1_1_character_node_1_1_instance.html", null ],
@@ -932,7 +931,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "Mouse", "class_input_1_1_mouse.html", null ],
     [ "Input::MouseButton", "class_input_1_1_mouse_button.html", null ],
     [ "RenderUtil::MouseRayUtil", "class_render_util_1_1_mouse_ray_util.html", null ],
     [ "CoreAnimation::Nax2Curve", "struct_core_animation_1_1_nax2_curve.html", null ],
@@ -1133,7 +1131,6 @@ var hierarchy =
     [ "Ptr< Resources::ResourceServer >", "class_ptr.html", null ],
     [ "Ptr< Scripting::ScriptServer >", "class_ptr.html", null ],
     [ "Ptr< Vulkan::VkShaderState::VkDerivativeState >", "class_ptr.html", null ],
-    [ "Ptr< Win32::Win32InputDisplayEventHandler >", "class_ptr.html", null ],
     [ "System::ByteOrder::PunDoubleULL", "union_system_1_1_byte_order_1_1_pun_double_u_l_l.html", null ],
     [ "System::ByteOrder::PunFloatUL", "union_system_1_1_byte_order_1_1_pun_float_u_l.html", null ],
     [ "physx::PxAllocatorCallback", null, [
@@ -1187,8 +1184,9 @@ var hierarchy =
       ] ],
       [ "Base::GameContentServerBase", "class_base_1_1_game_content_server_base.html", null ],
       [ "Base::InputServerBase", "class_base_1_1_input_server_base.html", [
-        [ "GLFW::GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", null ],
-        [ "Win32::Win32InputServer", "class_win32_1_1_win32_input_server.html", null ]
+        [ "GLFW::GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", [
+          [ "Input::InputServer", "class_input_1_1_input_server.html", null ]
+        ] ]
       ] ],
       [ "Base::InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", [
         [ "Vulkan::VkInstanceRenderer", "class_vulkan_1_1_vk_instance_renderer.html", null ]
@@ -1211,9 +1209,7 @@ var hierarchy =
       [ "Core::CoreServer", "class_core_1_1_core_server.html", null ],
       [ "CoreAnimation::AnimKeyBuffer", "class_core_animation_1_1_anim_key_buffer.html", null ],
       [ "CoreGraphics::DisplayEventHandler", "class_core_graphics_1_1_display_event_handler.html", [
-        [ "CoreGraphics::ThreadSafeDisplayEventHandler", "class_core_graphics_1_1_thread_safe_display_event_handler.html", [
-          [ "Win32::Win32InputDisplayEventHandler", "class_win32_1_1_win32_input_display_event_handler.html", null ]
-        ] ],
+        [ "CoreGraphics::ThreadSafeDisplayEventHandler", "class_core_graphics_1_1_thread_safe_display_event_handler.html", null ],
         [ "GLFW::GLFWGraphicsDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler.html", null ],
         [ "GLFW::GLFWInputDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler.html", null ]
       ] ],
@@ -1339,12 +1335,10 @@ var hierarchy =
         [ "Messaging::MessageWriter", "class_messaging_1_1_message_writer.html", null ]
       ] ],
       [ "Input::InputHandler", "class_input_1_1_input_handler.html", [
-        [ "Base::GamePadBase", "class_base_1_1_game_pad_base.html", [
-          [ "XInput::XInputGamePad", "class_x_input_1_1_x_input_game_pad.html", null ]
-        ] ],
+        [ "Base::GamePadBase", "class_base_1_1_game_pad_base.html", null ],
         [ "Base::KeyboardBase", "class_base_1_1_keyboard_base.html", null ],
         [ "Base::MouseBase", "class_base_1_1_mouse_base.html", [
-          [ "Win32::Win32Mouse", "class_win32_1_1_win32_mouse.html", null ]
+          [ "Input::Mouse", "class_input_1_1_mouse.html", null ]
         ] ],
         [ "Dynui::ImguiInputHandler", "class_dynui_1_1_imgui_input_handler.html", null ],
         [ "Im3d::Im3dInputHandler", "class_im3d_1_1_im3d_input_handler.html", null ]
@@ -1815,8 +1809,8 @@ var hierarchy =
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32::Win32Registry", "class_win32_1_1_win32_registry.html", null ],
     [ "Win32::Win32Rendezvous", "class_win32_1_1_win32_rendezvous.html", null ],
-    [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
     [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
+    [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
     [ "Win32::Win32StringConverter", "class_win32_1_1_win32_string_converter.html", null ],
     [ "Win32::Win32ThreadBarrier", "class_win32_1_1_win32_thread_barrier.html", null ],
     [ "Win32::Win32Timer", "class_win32_1_1_win32_timer.html", null ],
