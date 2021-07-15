@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"textelement_8cc.html":[10,0,0,6,5,82],
+"textelement_8h.html":[10,0,0,6,5,83],
 "textelement_8h_source.html":[10,0,0,6,5,83],
 "textreader_8cc.html":[10,0,0,3,9,63],
 "textreader_8cc.html#ae24c407836094514f73db0dd0017c069":[10,0,0,3,9,63,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "transformnode_8h.html":[10,0,0,6,15,0,13],
 "transformnode_8h.html#ab80c3207b37713186c1c49bf211e805e":[10,0,0,6,15,0,13,2],
 "transformnode_8h_source.html":[10,0,0,6,15,0,13],
-"trivialarray_8h.html":[10,0,0,3,19,53],
-"trivialarray_8h_source.html":[10,0,0,3,19,53],
-"tupleutility_8h.html":[10,0,0,3,19,54]
+"trivialarray_8h.html":[10,0,0,3,19,53]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"struct_vulkan_1_1_vk_texture_load_info.html#a0ad2a2e6822a46db9f9202218856932e":[9,0,61,31,20],
+"struct_vulkan_1_1_vk_texture_load_info.html#a0e846a22e7ba7ceb0a0e901b4401b722":[9,0,61,31,15],
 "struct_vulkan_1_1_vk_texture_load_info.html#a174ead6fd92cc13374e48502805f481f":[9,0,61,31,8],
 "struct_vulkan_1_1_vk_texture_load_info.html#a1ab8f47c2c460b1490685dfd296062a5":[9,0,61,31,12],
 "struct_vulkan_1_1_vk_texture_load_info.html#a200f53bedbf2c1fc4f2236f12c4e9990":[9,0,61,31,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "terrainmaterial_8h.html":[10,0,0,6,22,4],
 "terrainmaterial_8h_source.html":[10,0,0,6,22,4],
 "terrainsubtextureupdatejob_8cc.html":[10,0,0,6,22,5],
-"terrainsubtextureupdatejob_8cc.html#a85730c021439bb9aa72766eaf0995679":[10,0,0,6,22,5,0],
-"textelement_8cc.html":[10,0,0,6,5,82],
-"textelement_8h.html":[10,0,0,6,5,83]
+"terrainsubtextureupdatejob_8cc.html#a85730c021439bb9aa72766eaf0995679":[10,0,0,6,22,5,0]
 };

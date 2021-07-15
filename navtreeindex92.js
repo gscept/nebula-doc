@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"trivialarray_8h_source.html":[10,0,0,3,19,53],
+"tupleutility_8h.html":[10,0,0,3,19,54],
 "tupleutility_8h.html#a0b7a31bf982926a6211fe93fd169da5e":[10,0,0,3,19,54,21],
 "tupleutility_8h.html#a0c334f60eb2cdfdf2e9272804e012a34":[10,0,0,3,19,54,26],
 "tupleutility_8h.html#a0cc7f181637b51cb64ae41b54c94990d":[10,0,0,3,19,54,15],
@@ -144,6 +146,7 @@ var NAVTREEINDEX92 =
 "variant_8h_source.html":[10,0,0,3,19,56],
 "vec2_8h.html":[10,0,0,3,11,25],
 "vec2_8h.html#a256751a2f8518137de7263396b8b50d0":[10,0,0,3,11,25,1],
+"vec2_8h.html#a2ccdb4a7be6df5698476973ec490ed9b":[10,0,0,3,11,25,2],
 "vec2_8h_source.html":[10,0,0,3,11,25],
 "vec3_8h.html":[10,0,0,3,11,26],
 "vec3_8h.html#a00909cb7568a115e737fe885e6891e5c":[10,0,0,3,11,26,52],
@@ -246,8 +249,5 @@ var NAVTREEINDEX92 =
 "vec4_8h.html#a905277714c671d4afe77e6653f07e428":[10,0,0,3,11,28,17],
 "vec4_8h.html#a9761b1071ad6b8413cd3d195ba055140":[10,0,0,3,11,28,53],
 "vec4_8h.html#aa01110da0190ec8f41af5565e9f5c63d":[10,0,0,3,11,28,42],
-"vec4_8h.html#aa68fb6e27d452d851dbab24ca21ea895":[10,0,0,3,11,28,45],
-"vec4_8h.html#aaa770d336f5b0fe2060a1b7d494add21":[10,0,0,3,11,28,39],
-"vec4_8h.html#aaab4a35ca7b465f684f45412561bc42f":[10,0,0,3,11,28,64],
-"vec4_8h.html#aaeaeaa0c75275e830b8b032534772c56":[10,0,0,3,11,28,29]
+"vec4_8h.html#aa68fb6e27d452d851dbab24ca21ea895":[10,0,0,3,11,28,45]
 };

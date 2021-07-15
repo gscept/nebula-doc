@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"struct_math_1_1mat4.html#ad879307ca32d0c856d91128a9544ef5e":[9,0,36,6,8],
+"struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043":[9,0,36,6,38],
 "struct_math_1_1mat4.html#ade552cb8ce2346e82c4164146240ffba":[9,0,36,6,20],
 "struct_math_1_1mat4.html#ae860250db7ebf413d3661481583c0056":[9,0,36,6,18],
 "struct_math_1_1mat4.html#aea01b4d24122e411592a2d4944495e47":[9,0,36,6,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "struct_memory_1_1_total_memory_status.html#ab06f85080806490660c5ce8008d9ae2d":[9,0,38,1,1],
 "struct_memory_1_1_total_memory_status.html#ac422bfbe19a0d328e2cb03b3bc100391":[9,0,38,1,0],
 "struct_models_1_1_character_node_1_1_instance.html":[9,0,40,3,0],
-"struct_models_1_1_character_node_1_1_instance.html#a016425948778ca4024eaf56b2a5ce89f":[9,0,40,3,0,6],
-"struct_models_1_1_character_node_1_1_instance.html#a28abaa056f43b0af4ccd85d0e8516518":[9,0,40,3,0,2],
-"struct_models_1_1_character_node_1_1_instance.html#a7321f31dfa3a7f01cb9c462109b984fb":[9,0,40,3,0,4]
+"struct_models_1_1_character_node_1_1_instance.html#a016425948778ca4024eaf56b2a5ce89f":[9,0,40,3,0,6]
 };

@@ -143,6 +143,7 @@ var namespace_math =
     [ "lengthsq", "namespace_math.html#a3fdac8cd996ee6c21293594946e20207", null ],
     [ "lengthsq", "namespace_math.html#a3fa041bd6e133bb33e82103962ca113e", null ],
     [ "lengthsq3", "namespace_math.html#ab421a0efa4bc96f9cdcf6a0b0a594091", null ],
+    [ "lerp", "namespace_math.html#a2ccdb4a7be6df5698476973ec490ed9b", null ],
     [ "lerp", "namespace_math.html#afe854631933ae7a736b3ab9fd4106dc4", null ],
     [ "lerp", "namespace_math.html#ad61fe145c21256d28610f6604167d6a7", null ],
     [ "less", "namespace_math.html#af6b1c02cfb8e98744a20cacfdc83fcdb", null ],
