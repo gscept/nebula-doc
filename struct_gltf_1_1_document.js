@@ -1,7 +1,7 @@
 var struct_gltf_1_1_document =
 [
     [ "Deserialize", "struct_gltf_1_1_document.html#a07f273008cdf3a65d7e6bd0264a933ef", null ],
-    [ "Deserialize", "struct_gltf_1_1_document.html#a634af6dfca16f93fa2cd605fcb8f44a9", null ],
+    [ "Deserialize", "struct_gltf_1_1_document.html#a727633f27f509bb0ed60da6cc1d4b471", null ],
     [ "SerializeBinary", "struct_gltf_1_1_document.html#aeb387521e50e9b0a19736b2916bf667b", null ],
     [ "SerializeText", "struct_gltf_1_1_document.html#a727db04c33b0ac07e8c037da369dd88b", null ],
     [ "accessors", "struct_gltf_1_1_document.html#a35d216c138b74f0d137ec4a0ce978c14", null ],
