@@ -1,7 +1,7 @@
 var render_2coregraphics_2event_8h =
 [
-    [ "EventId", "struct_core_graphics_1_1_event_id.html", null ],
-    [ "EventCreateInfo", "struct_core_graphics_1_1_event_create_info.html", "struct_core_graphics_1_1_event_create_info" ],
+    [ "CoreGraphics::EventId", "struct_core_graphics_1_1_event_id.html", null ],
+    [ "CoreGraphics::EventCreateInfo", "struct_core_graphics_1_1_event_create_info.html", "struct_core_graphics_1_1_event_create_info" ],
     [ "CreateEvent", "render_2coregraphics_2event_8h.html#a2611b8cb0c53721b12c8bfae64e6d700", null ],
     [ "DestroyEvent", "render_2coregraphics_2event_8h.html#ac385480c4735519d920cdc377f960fe1", null ],
     [ "EventHostReset", "render_2coregraphics_2event_8h.html#a182739cb7cc2c0838eb7594c5c2bff0b", null ],

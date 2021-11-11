@@ -18,6 +18,8 @@ var struct_math_1_1vector =
     [ "operator=", "struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750", null ],
     [ "operator=", "struct_math_1_1vector.html#a5947958eba43f69d2925b743cadacc50", null ],
     [ "operator==", "struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7", null ],
+    [ "operator[]", "struct_math_1_1vector.html#a81e4862db0f4697c762246922bc4b0ab", null ],
+    [ "operator[]", "struct_math_1_1vector.html#afaeec3c8af98a662ea03fa089419943f", null ],
     [ "set", "struct_math_1_1vector.html#a92a3ba10d34d42943d288314b83b9a75", null ],
     [ "store", "struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822", null ],
     [ "storeu", "struct_math_1_1vector.html#a663d185dffa0c1d95e2544ed1661e030", null ],

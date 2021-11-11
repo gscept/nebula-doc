@@ -1,6 +1,6 @@
 var vkbarrier_8cc =
 [
-    [ "BarrierStackEntry", "struct_core_graphics_1_1_barrier_stack_entry.html", "struct_core_graphics_1_1_barrier_stack_entry" ],
+    [ "CoreGraphics::BarrierStackEntry", "struct_core_graphics_1_1_barrier_stack_entry.html", "struct_core_graphics_1_1_barrier_stack_entry" ],
     [ "NEBULA_BARRIER_INSERT_MARKER", "vkbarrier_8cc.html#a8e90a25ed6079f4c2a9af768273a776f", null ],
     [ "BarrierInsert", "vkbarrier_8cc.html#a7bf2474aa2cad58f7f0ccea84f3d3d5e", null ],
     [ "BarrierInsert", "vkbarrier_8cc.html#a77eaa2cf703ca7e004ea258a5282bb9f", null ],

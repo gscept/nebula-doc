@@ -1,12 +1,12 @@
 var namespace_vegetation =
 [
-    [ "GrassVertex", "struct_vegetation_1_1_grass_vertex.html", "struct_vegetation_1_1_grass_vertex" ],
     [ "CombinedMeshVertex", "struct_vegetation_1_1_combined_mesh_vertex.html", "struct_vegetation_1_1_combined_mesh_vertex" ],
+    [ "GrassVertex", "struct_vegetation_1_1_grass_vertex.html", "struct_vegetation_1_1_grass_vertex" ],
     [ "VegetationBiomeId", "struct_vegetation_1_1_vegetation_biome_id.html", null ],
-    [ "VegetationSetupSettings", "struct_vegetation_1_1_vegetation_setup_settings.html", "struct_vegetation_1_1_vegetation_setup_settings" ],
+    [ "VegetationContext", "class_vegetation_1_1_vegetation_context.html", "class_vegetation_1_1_vegetation_context" ],
     [ "VegetationGrassSetup", "struct_vegetation_1_1_vegetation_grass_setup.html", "struct_vegetation_1_1_vegetation_grass_setup" ],
     [ "VegetationMeshSetup", "struct_vegetation_1_1_vegetation_mesh_setup.html", "struct_vegetation_1_1_vegetation_mesh_setup" ],
-    [ "VegetationContext", "class_vegetation_1_1_vegetation_context.html", "class_vegetation_1_1_vegetation_context" ],
+    [ "VegetationSetupSettings", "struct_vegetation_1_1_vegetation_setup_settings.html", "struct_vegetation_1_1_vegetation_setup_settings" ],
     [ "__ImplementContext", "namespace_vegetation.html#ae8288a7f53581f0f90e887a719277cd0", null ],
     [ "combinedMeshIbo", "namespace_vegetation.html#a77d36906031117e3d8360ee4090c5604", null ],
     [ "combinedMeshLayout", "namespace_vegetation.html#a6dc69c0a29e45d73b00be5e6ecd991b9", null ],

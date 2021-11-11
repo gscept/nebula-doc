@@ -1,8 +1,8 @@
 var pass_8h =
 [
-    [ "PassId", "struct_core_graphics_1_1_pass_id.html", null ],
-    [ "Subpass", "struct_core_graphics_1_1_subpass.html", "struct_core_graphics_1_1_subpass" ],
-    [ "PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", "struct_core_graphics_1_1_pass_create_info" ],
+    [ "CoreGraphics::PassId", "struct_core_graphics_1_1_pass_id.html", null ],
+    [ "CoreGraphics::Subpass", "struct_core_graphics_1_1_subpass.html", "struct_core_graphics_1_1_subpass" ],
+    [ "CoreGraphics::PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", "struct_core_graphics_1_1_pass_create_info" ],
     [ "AttachmentFlagBits", "pass_8h.html#acfc12b4bdcacc901bf1ffad84213c244", [
       [ "NoFlags", "pass_8h.html#acfc12b4bdcacc901bf1ffad84213c244abdf7f7baecec8138e4b85f027dfefc31", null ],
       [ "Clear", "pass_8h.html#acfc12b4bdcacc901bf1ffad84213c244adc30bc0c7914db5918da4263fce93ad2", null ],

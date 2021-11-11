@@ -1,6 +1,6 @@
 var staticmessagehandler_8h =
 [
-    [ "StaticMessageHandler", "class_messaging_1_1_static_message_handler.html", "class_messaging_1_1_static_message_handler" ],
+    [ "Messaging::StaticMessageHandler", "class_messaging_1_1_static_message_handler.html", "class_messaging_1_1_static_message_handler" ],
     [ "__Dispatch", "staticmessagehandler_8h.html#a612d9bc2d9fd8f6073f326d661216a5f", null ],
     [ "__Dispatcher", "staticmessagehandler_8h.html#a1843b6c0c1f35e7414a7470cb84db976", null ],
     [ "__Handle", "staticmessagehandler_8h.html#a3dc13ee0cf441a3ac9ceb880be1a2d00", null ],

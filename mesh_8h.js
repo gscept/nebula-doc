@@ -1,8 +1,8 @@
 var mesh_8h =
 [
-    [ "MeshId", "struct_core_graphics_1_1_mesh_id.html", null ],
-    [ "MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],
-    [ "Stream", "struct_core_graphics_1_1_mesh_create_info_1_1_stream.html", "struct_core_graphics_1_1_mesh_create_info_1_1_stream" ],
+    [ "CoreGraphics::MeshId", "struct_core_graphics_1_1_mesh_id.html", null ],
+    [ "CoreGraphics::MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],
+    [ "CoreGraphics::MeshCreateInfo::Stream", "struct_core_graphics_1_1_mesh_create_info_1_1_stream.html", "struct_core_graphics_1_1_mesh_create_info_1_1_stream" ],
     [ "CreateMesh", "mesh_8h.html#a905ddecc487f753f7e89fd1ab2759b01", null ],
     [ "DestroyMesh", "mesh_8h.html#a5771bebf3b581511bcc6a8509e95110a", null ],
     [ "MeshBind", "mesh_8h.html#ab25ad818fb984ab86332fa10905b9612", null ],

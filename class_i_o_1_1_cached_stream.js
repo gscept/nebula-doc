@@ -7,7 +7,7 @@ var class_i_o_1_1_cached_stream =
     [ "CanSeek", "class_i_o_1_1_cached_stream.html#a2a6dd761f555160a13804be1cb058989", null ],
     [ "Close", "class_i_o_1_1_cached_stream.html#a5c4b29990739260bd7fa8ee8285ea1b7", null ],
     [ "Eof", "class_i_o_1_1_cached_stream.html#a6bfed73ca91234df7f11e0f46338dd74", null ],
-    [ "GetParentRtti", "class_i_o_1_1_cached_stream.html#a84e1528a86f7ca88136f22c6d63a2f40", null ],
+    [ "GetParentRtti", "class_i_o_1_1_cached_stream.html#a8aa224bb0c43f06422ec4381dd8bd4bd", null ],
     [ "GetPosition", "class_i_o_1_1_cached_stream.html#ae1bb3493c6d1e01a73f79bee24a0e858", null ],
     [ "GetRawPointer", "class_i_o_1_1_cached_stream.html#a7bcd70eec9b9fc40af6c5abd492e116b", null ],
     [ "GetSize", "class_i_o_1_1_cached_stream.html#a73c5f134a18838a0405d0d500bbab142", null ],

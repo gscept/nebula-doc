@@ -1,7 +1,7 @@
 var vegetationcontext_8cc =
 [
-    [ "GrassVertex", "struct_vegetation_1_1_grass_vertex.html", "struct_vegetation_1_1_grass_vertex" ],
-    [ "CombinedMeshVertex", "struct_vegetation_1_1_combined_mesh_vertex.html", "struct_vegetation_1_1_combined_mesh_vertex" ],
+    [ "Vegetation::GrassVertex", "struct_vegetation_1_1_grass_vertex.html", "struct_vegetation_1_1_grass_vertex" ],
+    [ "Vegetation::CombinedMeshVertex", "struct_vegetation_1_1_combined_mesh_vertex.html", "struct_vegetation_1_1_combined_mesh_vertex" ],
     [ "__ImplementContext", "vegetationcontext_8cc.html#ae8288a7f53581f0f90e887a719277cd0", null ],
     [ "combinedMeshIbo", "vegetationcontext_8cc.html#a77d36906031117e3d8360ee4090c5604", null ],
     [ "combinedMeshLayout", "vegetationcontext_8cc.html#a6dc69c0a29e45d73b00be5e6ecd991b9", null ],

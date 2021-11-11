@@ -1,6 +1,6 @@
 var quat_8h =
 [
-    [ "quat", "struct_math_1_1quat.html", "struct_math_1_1quat" ],
+    [ "Math::quat", "struct_math_1_1quat.html", "struct_math_1_1quat" ],
     [ "barycentric", "quat_8h.html#a0db822f437a5f4e68e2a52a804a2faf5", null ],
     [ "conjugate", "quat_8h.html#a3a66e5522b29475e8ec87bdfadcb93ab", null ],
     [ "dot", "quat_8h.html#a1448640f34330f096cdda3089c9f3a7e", null ],

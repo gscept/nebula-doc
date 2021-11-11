@@ -6,6 +6,6 @@ var dir_4b631a347c21c14391093c6ef045e616 =
       [ "StackWalkerToString", "class_stack_walker_to_string.html", "class_stack_walker_to_string" ]
     ] ],
     [ "win32stacktrace.h", "win32stacktrace_8h.html", [
-      [ "Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", "class_win32_1_1_win32_stack_trace" ]
+      [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", "class_win32_1_1_win32_stack_trace" ]
     ] ]
 ];

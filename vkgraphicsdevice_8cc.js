@@ -1,7 +1,7 @@
 var vkgraphicsdevice_8cc =
 [
-    [ "GraphicsDeviceState", "struct_vulkan_1_1_graphics_device_state.html", "struct_vulkan_1_1_graphics_device_state" ],
-    [ "ConstantsRingBuffer", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer" ],
+    [ "Vulkan::GraphicsDeviceState", "struct_vulkan_1_1_graphics_device_state.html", "struct_vulkan_1_1_graphics_device_state" ],
+    [ "Vulkan::GraphicsDeviceState::ConstantsRingBuffer", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer" ],
     [ "PipelineBuildBits", "vkgraphicsdevice_8cc.html#a7cb2047f6879b5ef48e75b893c7ec4bd", [
       [ "NoInfoSet", "vkgraphicsdevice_8cc.html#a7cb2047f6879b5ef48e75b893c7ec4bdaab42fa37451369c1ed3f5984280ca348", null ],
       [ "ShaderInfoSet", "vkgraphicsdevice_8cc.html#a7cb2047f6879b5ef48e75b893c7ec4bda05544e614063a6ae097519242ec50373", null ],

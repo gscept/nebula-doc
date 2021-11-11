@@ -105,7 +105,7 @@ var render_2coregraphics_2config_8h =
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a0fe5b3fb3b7a8d2b40c631ae933b3d31", null ],
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a65db791f4647f05bf849c69a88daec58", null ],
     [ "__ImplementEnumComparisonOperators", "render_2coregraphics_2config_8h.html#a80e35fb7232a43d8ec75fb706876ace6", null ],
-    [ "QueueNameFromQueueType", "render_2coregraphics_2config_8h.html#ac74d4574ff2033c9773db46b8d07ff11", null ],
+    [ "QueueNameFromQueueType", "render_2coregraphics_2config_8h.html#a534908a5c8340dbbbc8b4beda3f7761c", null ],
     [ "QueueTypeFromString", "render_2coregraphics_2config_8h.html#af5ed525892b3570297f4b0caaeba1804", null ],
     [ "ShaderVisibilityFromString", "render_2coregraphics_2config_8h.html#af7462948575ac54c6f492b2cf8d83d16", null ]
 ];

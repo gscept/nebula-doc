@@ -1,7 +1,7 @@
 var class_stack_walker_to_string =
 [
     [ "StackWalkerToString", "class_stack_walker_to_string.html#a702c5b707ca5036450dc943af1234b45", null ],
-    [ "GetTrace", "class_stack_walker_to_string.html#a3cbbd208a1b32dfec8cb185bd626951a", null ],
+    [ "GetTrace", "class_stack_walker_to_string.html#a5dfca6d3b94eb2bb143bcea3a2fc3aaa", null ],
     [ "OnDbgHelpErr", "class_stack_walker_to_string.html#aa4903b641d8931cfa1cccabf6e9ca22e", null ],
     [ "OnLoadModule", "class_stack_walker_to_string.html#ae8a33a584f760185b78b232ceb3a029e", null ],
     [ "OnOutput", "class_stack_walker_to_string.html#a3aba912241529d3e2b847d6da0652c92", null ],

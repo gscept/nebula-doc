@@ -1,6 +1,6 @@
 var point_8h =
 [
-    [ "point", "struct_math_1_1point.html", "struct_math_1_1point" ],
+    [ "Math::point", "struct_math_1_1point.html", "struct_math_1_1point" ],
     [ "dot", "point_8h.html#a47b36d1e857de0d0d30e095c2472cea7", null ],
     [ "dot", "point_8h.html#abbecfd22bc9bea08e94a60025bea1906", null ],
     [ "dot", "point_8h.html#ab4c823896f45ea98084ba5c1fa25f16d", null ],

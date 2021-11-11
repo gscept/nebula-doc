@@ -1,6 +1,6 @@
 var posixmemory_8h =
 [
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
+    [ "Memory::TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "MEMORY_POSIXMEMORY_H", "posixmemory_8h.html#a63ff6e5092040b583339eab8e78d2f63", null ],
     [ "n_delete", "posixmemory_8h.html#a300669d394130c8ecfa940a1138f3f77", null ],
     [ "n_delete_array", "posixmemory_8h.html#a2f4c1f2844efb2ea8057c83f1c9d3f99", null ],
@@ -20,7 +20,7 @@ var posixmemory_8h =
     [ "Move", "posixmemory_8h.html#a1103820d68788c85bbb28a62e05d99e2", null ],
     [ "operator delete", "posixmemory_8h.html#a8f43953b30d0ace75cfb92c2d53a1911", null ],
     [ "operator delete[]", "posixmemory_8h.html#a5aa23dd449b34b6db0f98656d561a9f2", null ],
-    [ "operator new", "posixmemory_8h.html#a2f8de464c98255a98cb0655fdecd642b", null ],
-    [ "operator new[]", "posixmemory_8h.html#a032bffd0cdbe3a8e4523eae50d99033e", null ],
+    [ "operator new", "posixmemory_8h.html#aa513b5f131e3db41c860c4b9cf7c95c7", null ],
+    [ "operator new[]", "posixmemory_8h.html#a1cbdb1b9d888f46db8137d314a6e5b80", null ],
     [ "Realloc", "posixmemory_8h.html#a66c839285702633f8178be0224273a14", null ]
 ];

@@ -1,6 +1,6 @@
 var ids_2id_8h =
 [
-    [ "Id", "struct_ids_1_1_id.html", "struct_ids_1_1_id" ],
+    [ "Ids::Id", "struct_ids_1_1_id.html", "struct_ids_1_1_id" ],
     [ "ID_16_16_NAMED_TYPE", "ids_2id_8h.html#a8489bea7d3e500016ac7880844bcf143", null ],
     [ "ID_16_16_TYPE", "ids_2id_8h.html#aef08394c9e7bbfd40e6fa3585fdc86ad", null ],
     [ "ID_16_TYPE", "ids_2id_8h.html#a32443a9b8baee9883348a631cf5c2f37", null ],

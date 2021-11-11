@@ -13,13 +13,13 @@ var dir_480801a70b9435ca09dddac389e12203 =
     [ "dbfactory.h", "dbfactory_8h.html", "dbfactory_8h" ],
     [ "dbserver.cc", "dbserver_8cc.html", "dbserver_8cc" ],
     [ "dbserver.h", "dbserver_8h.html", [
-      [ "DbServer", "class_db_1_1_db_server.html", "class_db_1_1_db_server" ]
+      [ "Db::DbServer", "class_db_1_1_db_server.html", "class_db_1_1_db_server" ]
     ] ],
     [ "filterset.cc", "filterset_8cc.html", "filterset_8cc" ],
     [ "filterset.h", "db_2filterset_8h.html", "db_2filterset_8h" ],
     [ "reader.cc", "reader_8cc.html", "reader_8cc" ],
     [ "reader.h", "reader_8h.html", [
-      [ "Reader", "class_db_1_1_reader.html", "class_db_1_1_reader" ]
+      [ "Db::Reader", "class_db_1_1_reader.html", "class_db_1_1_reader" ]
     ] ],
     [ "relation.cc", "relation_8cc.html", "relation_8cc" ],
     [ "relation.h", "relation_8h.html", "relation_8h" ],
@@ -29,6 +29,6 @@ var dir_480801a70b9435ca09dddac389e12203 =
     [ "valuetable.h", "valuetable_8h.html", "valuetable_8h" ],
     [ "writer.cc", "writer_8cc.html", "writer_8cc" ],
     [ "writer.h", "writer_8h.html", [
-      [ "Writer", "class_db_1_1_writer.html", "class_db_1_1_writer" ]
+      [ "Db::Writer", "class_db_1_1_writer.html", "class_db_1_1_writer" ]
     ] ]
 ];

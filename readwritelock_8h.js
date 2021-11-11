@@ -1,6 +1,6 @@
 var readwritelock_8h =
 [
-    [ "ReadWriteLock", "class_threading_1_1_read_write_lock.html", "class_threading_1_1_read_write_lock" ],
+    [ "Threading::ReadWriteLock", "class_threading_1_1_read_write_lock.html", "class_threading_1_1_read_write_lock" ],
     [ "RWAccessFlags", "readwritelock_8h.html#abd167aec3b510f86fdd09fd989669636", null ],
     [ "RWAccessFlagBits", "readwritelock_8h.html#a6fa4322a49cdb010e9e5fb5a80e7197f", [
       [ "NoAccess", "readwritelock_8h.html#a6fa4322a49cdb010e9e5fb5a80e7197fad8e737f10bf06746e35d2d0bd77a091a", null ],

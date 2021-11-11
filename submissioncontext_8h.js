@@ -1,7 +1,7 @@
 var submissioncontext_8h =
 [
-    [ "SubmissionContextId", "struct_core_graphics_1_1_submission_context_id.html", null ],
-    [ "SubmissionContextCreateInfo", "struct_core_graphics_1_1_submission_context_create_info.html", "struct_core_graphics_1_1_submission_context_create_info" ],
+    [ "CoreGraphics::SubmissionContextId", "struct_core_graphics_1_1_submission_context_id.html", null ],
+    [ "CoreGraphics::SubmissionContextCreateInfo", "struct_core_graphics_1_1_submission_context_create_info.html", "struct_core_graphics_1_1_submission_context_create_info" ],
     [ "CreateSubmissionContext", "submissioncontext_8h.html#a531e29a37ba82ba8236ecf163d9c9f8e", null ],
     [ "DestroySubmissionContext", "submissioncontext_8h.html#a7be734f943108c60d1cbdb8c1fa8ee8e", null ],
     [ "SubmissionContextClearCommandBuffer", "submissioncontext_8h.html#aeacb52be69fe8541b8511d915dcc589f", null ],

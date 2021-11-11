@@ -1,6 +1,6 @@
 var mat4_8h =
 [
-    [ "mat4", "struct_math_1_1mat4.html", "struct_math_1_1mat4" ],
+    [ "Math::mat4", "struct_math_1_1mat4.html", "struct_math_1_1mat4" ],
     [ "mm_ror_ps", "mat4_8h.html#a093b22c0052e42f3de58064f255d41f8", null ],
     [ "affinetransformation", "mat4_8h.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "decompose", "mat4_8h.html#a592cdd187352d5e8d951b2c1056b5a12", null ],

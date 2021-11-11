@@ -1,7 +1,7 @@
 var sampler_8h =
 [
-    [ "SamplerId", "struct_core_graphics_1_1_sampler_id.html", null ],
-    [ "SamplerCreateInfo", "struct_core_graphics_1_1_sampler_create_info.html", "struct_core_graphics_1_1_sampler_create_info" ],
+    [ "CoreGraphics::SamplerId", "struct_core_graphics_1_1_sampler_id.html", null ],
+    [ "CoreGraphics::SamplerCreateInfo", "struct_core_graphics_1_1_sampler_create_info.html", "struct_core_graphics_1_1_sampler_create_info" ],
     [ "SamplerAddressMode", "sampler_8h.html#a9342f4b3d2df5d0e33c3f83c41b2af82", [
       [ "RepeatAddressMode", "sampler_8h.html#a9342f4b3d2df5d0e33c3f83c41b2af82a7adbef97fc3d4b3b86e900a99d8f8576", null ],
       [ "MirroredRepeatAddressMode", "sampler_8h.html#a9342f4b3d2df5d0e33c3f83c41b2af82aa26cc598524cd23d3f22c18cbb5ecc62", null ],

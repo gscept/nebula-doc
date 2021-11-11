@@ -5,6 +5,6 @@ var dir_529a694dc39aa65383ab43894302ecce =
     [ "PyLogHook.h", "_py_log_hook_8h.html", "_py_log_hook_8h" ],
     [ "pythonserver.cc", "pythonserver_8cc.html", "pythonserver_8cc" ],
     [ "pythonserver.h", "pythonserver_8h.html", [
-      [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ]
+      [ "Scripting::PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ]
     ] ]
 ];

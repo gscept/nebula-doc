@@ -1,6 +1,6 @@
 var sqlite3database_8h =
 [
-    [ "Sqlite3Database", "class_db_1_1_sqlite3_database.html", "class_db_1_1_sqlite3_database" ],
+    [ "Db::Sqlite3Database", "class_db_1_1_sqlite3_database.html", "class_db_1_1_sqlite3_database" ],
     [ "DB_SQLITE3DATABASE_H", "sqlite3database_8h.html#ab465019e713dafa56676d8f22e37d7ad", null ],
     [ "DeclareBlob", "sqlite3database_8h.html#aef8e81865e93304692d59ad69a28d41f", null ],
     [ "DeclareBool", "sqlite3database_8h.html#a62b11ae524c1a4e281d0c596624599c0", null ],

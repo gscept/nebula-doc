@@ -1,8 +1,8 @@
 var shader_8h =
 [
-    [ "ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
-    [ "DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
-    [ "ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", "struct_core_graphics_1_1_shader_create_info" ],
+    [ "CoreGraphics::ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
+    [ "CoreGraphics::DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
+    [ "CoreGraphics::ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", "struct_core_graphics_1_1_shader_create_info" ],
     [ "ShaderConstantType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0e", [
       [ "UnknownVariableType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea29e862b0e756c9b941969e7d9bfd83fd", null ],
       [ "IntVariableType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea8c15fb943cebbcd1a4cf5fc905416d06", null ],

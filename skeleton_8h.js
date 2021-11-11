@@ -1,7 +1,7 @@
 var skeleton_8h =
 [
-    [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
-    [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
+    [ "Characters::SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
+    [ "Characters::CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
     [ "CreateSkeleton", "skeleton_8h.html#aad5922be3e4c9255b9fa48fbd14c41b5", null ],
     [ "DestroySkeleton", "skeleton_8h.html#ad6bbec5c5582bd44ff0825bcdaf6c21a", null ],
     [ "SkeletonGetBindPose", "skeleton_8h.html#a990ce62e6492ef3fd3eac97775523475", null ],

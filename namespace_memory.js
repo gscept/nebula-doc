@@ -1,11 +1,11 @@
 var namespace_memory =
 [
     [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html", "class_memory_1_1_arena_allocator" ],
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ],
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
     [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
     [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
+    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "HeapType", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56", [
       [ "DefaultHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577", null ],
       [ "ObjectHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71", null ],
@@ -120,12 +120,12 @@ var namespace_memory =
       [ "NumHeapTypes", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a", null ],
       [ "InvalidHeapType", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778", null ]
     ] ],
-    [ "__HeapAlignPointerAndWritePadding16", "namespace_memory.html#af928e632a2bdc8dafc7e61d36b5c71c7", null ],
+    [ "__HeapAlignPointerAndWritePadding16", "namespace_memory.html#a79b92aa463a3205dc0a2e7c96f0a40bc", null ],
     [ "__HeapAlloc16", "namespace_memory.html#ae0d1e4f6ddce5958a79b7e5fb9a21ca4", null ],
     [ "__HeapFree16", "namespace_memory.html#aeb5610ce0fd9a137131c326d1d64d3b1", null ],
     [ "__HeapReAlloc16", "namespace_memory.html#abadaff872cd52ba019c4f3cf1342c981", null ],
     [ "__HeapSize16", "namespace_memory.html#ab70087a05c0020566ed6eb1e48c05b66", null ],
-    [ "__HeapUnalignPointer16", "namespace_memory.html#a5a6725e8cb2dd81812cf306010ae8f67", null ],
+    [ "__HeapUnalignPointer16", "namespace_memory.html#a539aa16970df013f09322414ef1c51b0", null ],
     [ "Alloc", "namespace_memory.html#a24993fac616060d0f19f14d43fc27103", null ],
     [ "Alloc", "namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "Clear", "namespace_memory.html#ad8504a1916282a835f1e16e3912e4c87", null ],

@@ -6,14 +6,14 @@ var class_ti_xml_handle =
     [ "Child", "class_ti_xml_handle.html#a32585942abb28e03eea9c5223f38a659", null ],
     [ "ChildElement", "class_ti_xml_handle.html#afccc59d8a0daa8c5d78474fbed430ddb", null ],
     [ "ChildElement", "class_ti_xml_handle.html#a57a639ab0ac99ff9358f675a1b73049a", null ],
-    [ "Element", "class_ti_xml_handle.html#ae9b22d71bf5f69ee5fda28f5ad21f19c", null ],
+    [ "Element", "class_ti_xml_handle.html#ac56814c76757eecc5bd951d3ed710dd2", null ],
     [ "FirstChild", "class_ti_xml_handle.html#afb1b4c0eda970b320dfd262304cc1d04", null ],
     [ "FirstChild", "class_ti_xml_handle.html#a586ebaca4a4d0909db65a765d95d5e59", null ],
     [ "FirstChildElement", "class_ti_xml_handle.html#af0643f8683f3f2b779b8c9d78c67b2c0", null ],
     [ "FirstChildElement", "class_ti_xml_handle.html#a3eaf2d2d4c087cd8a48da261042e75bc", null ],
-    [ "Node", "class_ti_xml_handle.html#aec0e3ea58ff98a45cd13507a02e2ca1e", null ],
+    [ "Node", "class_ti_xml_handle.html#afa2eb82bacfb6e4c3dd5351ce28e5d7a", null ],
     [ "operator=", "class_ti_xml_handle.html#ad8e5dcf6a87882674203157f29f8e4db", null ],
-    [ "Text", "class_ti_xml_handle.html#ad3b502c72059421e4dfcc7bda3c392fe", null ],
-    [ "Unknown", "class_ti_xml_handle.html#a12b32f098c7daa5facbc04e9618262c5", null ],
+    [ "Text", "class_ti_xml_handle.html#a58a9b3e3d710a603038e6e291eb6d580", null ],
+    [ "Unknown", "class_ti_xml_handle.html#aa7a8756af3ac24f0b2d469e500b85824", null ],
     [ "node", "class_ti_xml_handle.html#ac5429de14bb78b16288bac5bf33c6858", null ]
 ];

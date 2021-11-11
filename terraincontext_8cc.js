@@ -1,9 +1,9 @@
 var terraincontext_8cc =
 [
-    [ "PhysicalPageUpdate", "struct_terrain_1_1_physical_page_update.html", "struct_terrain_1_1_physical_page_update" ],
-    [ "TerrainVert", "struct_terrain_1_1_terrain_vert.html", "struct_terrain_1_1_terrain_vert" ],
-    [ "TerrainTri", "struct_terrain_1_1_terrain_tri.html", "struct_terrain_1_1_terrain_tri" ],
-    [ "TerrainQuad", "struct_terrain_1_1_terrain_quad.html", "struct_terrain_1_1_terrain_quad" ],
+    [ "Terrain::PhysicalPageUpdate", "struct_terrain_1_1_physical_page_update.html", "struct_terrain_1_1_physical_page_update" ],
+    [ "Terrain::TerrainVert", "struct_terrain_1_1_terrain_vert.html", "struct_terrain_1_1_terrain_vert" ],
+    [ "Terrain::TerrainTri", "struct_terrain_1_1_terrain_tri.html", "struct_terrain_1_1_terrain_tri" ],
+    [ "Terrain::TerrainQuad", "struct_terrain_1_1_terrain_quad.html", "struct_terrain_1_1_terrain_quad" ],
     [ "__ImplementContext", "terraincontext_8cc.html#ace013dcb2e57a15867b92506c9a557c1", null ],
     [ "IndirectionClear", "terraincontext_8cc.html#a5c4623ba4a51aabb017436b94fbac908", null ],
     [ "IndirectionMoveShiftDown", "terraincontext_8cc.html#adbca203f5bb2268ed3a87ae4d99ccb8a", null ],

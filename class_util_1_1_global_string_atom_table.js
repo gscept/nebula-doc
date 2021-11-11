@@ -6,7 +6,7 @@ var class_util_1_1_global_string_atom_table =
     [ "__DeclareInterfaceSingleton", "class_util_1_1_global_string_atom_table.html#add7ee72379f8edfd9390ef72e5942d4c", null ],
     [ "Add", "class_util_1_1_global_string_atom_table.html#a45a912eec1fc6696f1f82c4926415b25", null ],
     [ "GetDebugInfo", "class_util_1_1_global_string_atom_table.html#aa9654461805cdc780055d6f9157b3ef7", null ],
-    [ "GetGlobalStringBuffer", "class_util_1_1_global_string_atom_table.html#ac7d04b31cd977fde6cc16b4269fac50c", null ],
+    [ "GetGlobalStringBuffer", "class_util_1_1_global_string_atom_table.html#ae4c53c2661eb2ea41f33cb5b77bcf476", null ],
     [ "Lock", "class_util_1_1_global_string_atom_table.html#a5a9c490de5a6b2af3e3509549940fc48", null ],
     [ "Unlock", "class_util_1_1_global_string_atom_table.html#ad8b5ac1ece48b0e6a73fe1fb4b1bce9a", null ],
     [ "StringAtom", "class_util_1_1_global_string_atom_table.html#aca8d97f14d03d35d35e6f25e79b37510", null ],

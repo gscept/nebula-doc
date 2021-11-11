@@ -1,7 +1,7 @@
 var semaphore_8h =
 [
-    [ "SemaphoreId", "struct_core_graphics_1_1_semaphore_id.html", null ],
-    [ "SemaphoreCreateInfo", "struct_core_graphics_1_1_semaphore_create_info.html", "struct_core_graphics_1_1_semaphore_create_info" ],
+    [ "CoreGraphics::SemaphoreId", "struct_core_graphics_1_1_semaphore_id.html", null ],
+    [ "CoreGraphics::SemaphoreCreateInfo", "struct_core_graphics_1_1_semaphore_create_info.html", "struct_core_graphics_1_1_semaphore_create_info" ],
     [ "SemaphoreType", "semaphore_8h.html#add7c6631ce669ff848c73d8d6fb3982f", [
       [ "Binary", "semaphore_8h.html#add7c6631ce669ff848c73d8d6fb3982fa5b5f2ec7081e8e1b5481f70a31174ec3", null ],
       [ "Timeline", "semaphore_8h.html#add7c6631ce669ff848c73d8d6fb3982fac6061129c32f2cb70e9d9caaabb9fabc", null ]

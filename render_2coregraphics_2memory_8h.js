@@ -1,8 +1,8 @@
 var render_2coregraphics_2memory_8h =
 [
-    [ "Alloc", "struct_core_graphics_1_1_alloc.html", "struct_core_graphics_1_1_alloc" ],
-    [ "AllocRange", "struct_core_graphics_1_1_alloc_range.html", "struct_core_graphics_1_1_alloc_range" ],
-    [ "MemoryPool", "struct_core_graphics_1_1_memory_pool.html", "struct_core_graphics_1_1_memory_pool" ],
+    [ "CoreGraphics::Alloc", "struct_core_graphics_1_1_alloc.html", "struct_core_graphics_1_1_alloc" ],
+    [ "CoreGraphics::AllocRange", "struct_core_graphics_1_1_alloc_range.html", "struct_core_graphics_1_1_alloc_range" ],
+    [ "CoreGraphics::MemoryPool", "struct_core_graphics_1_1_memory_pool.html", "struct_core_graphics_1_1_memory_pool" ],
     [ "MemoryPoolType", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06ce", [
       [ "MemoryPool_DeviceLocal", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea1e7dc82bb879c9c04720b80b96fd0a52", null ],
       [ "MemoryPool_HostLocal", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea0831ef2e1a9d9c2f3cb6a7019cfed757", null ],

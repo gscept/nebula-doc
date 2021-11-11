@@ -7,7 +7,7 @@ var class_util_1_1_string_buffer =
     [ "Discard", "class_util_1_1_string_buffer.html#ae6a922593ba4118c137ee545d68e802c", null ],
     [ "GetNumChunks", "class_util_1_1_string_buffer.html#a2fe91ec6c917c3e768ef7fddaf03a158", null ],
     [ "IsValid", "class_util_1_1_string_buffer.html#a871b9a47a25aa713c2e3d75c1c6bed32", null ],
-    [ "NextString", "class_util_1_1_string_buffer.html#ae0fef84812764875ceb948b6cac57786", null ],
+    [ "NextString", "class_util_1_1_string_buffer.html#ac15cf00c98074404d44f25861dd7b1f5", null ],
     [ "Setup", "class_util_1_1_string_buffer.html#ae6586f5f3e4f80130849fc387be06d78", null ],
     [ "chunks", "class_util_1_1_string_buffer.html#a71cc4fa9877e7e3eebe7dc8c490befb8", null ],
     [ "chunkSize", "class_util_1_1_string_buffer.html#a7a73cc873efa33f92ff893bf8003320e", null ],

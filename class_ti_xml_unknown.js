@@ -9,6 +9,6 @@ var class_ti_xml_unknown =
     [ "Parse", "class_ti_xml_unknown.html#aa51c2694e4177b5f0b5429ee5a81b58d", null ],
     [ "Print", "class_ti_xml_unknown.html#a710d8c0ae058c077c3adc17e7651c91b", null ],
     [ "StreamOut", "class_ti_xml_unknown.html#aa84e4963d8325cebeaf5b4e7d885ec3b", null ],
-    [ "ToUnknown", "class_ti_xml_unknown.html#a67c9fd22940e8c47f706a72cdd2e332c", null ],
-    [ "ToUnknown", "class_ti_xml_unknown.html#a0d08dc16fc9ce16140ccaefbc35f6ea6", null ]
+    [ "ToUnknown", "class_ti_xml_unknown.html#a4f0fc52c4d4e2570941c8d537142d71c", null ],
+    [ "ToUnknown", "class_ti_xml_unknown.html#a80820b3dcb5fb333e9865d36aa380198", null ]
 ];

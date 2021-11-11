@@ -16,6 +16,8 @@ var struct_math_1_1point =
     [ "operator=", "struct_math_1_1point.html#a573d50c429ca87c6d5b291f52b704823", null ],
     [ "operator=", "struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2", null ],
     [ "operator==", "struct_math_1_1point.html#a27c2b31c052f5092612a5f6c4ac1e0e8", null ],
+    [ "operator[]", "struct_math_1_1point.html#a4b51713b68dc125ac52b1564f4308c5d", null ],
+    [ "operator[]", "struct_math_1_1point.html#af156cba2ac606d7f1b4f0f5483ad783a", null ],
     [ "set", "struct_math_1_1point.html#a1b68db4ff58de6c95343dc31e258b8f7", null ],
     [ "store", "struct_math_1_1point.html#a6ff59b8c6104eb933bc15afb27671494", null ],
     [ "store3", "struct_math_1_1point.html#a71e56f109d1ca718f8744a96e572c25f", null ],

@@ -2,8 +2,8 @@ var tinyxml_8h =
 [
     [ "TiXmlCursor", "struct_ti_xml_cursor.html", "struct_ti_xml_cursor" ],
     [ "TiXmlBase", "class_ti_xml_base.html", "class_ti_xml_base" ],
-    [ "StringToBuffer", "class_ti_xml_base_1_1_string_to_buffer.html", "class_ti_xml_base_1_1_string_to_buffer" ],
-    [ "Entity", "struct_ti_xml_base_1_1_entity.html", "struct_ti_xml_base_1_1_entity" ],
+    [ "TiXmlBase::StringToBuffer", "class_ti_xml_base_1_1_string_to_buffer.html", "class_ti_xml_base_1_1_string_to_buffer" ],
+    [ "TiXmlBase::Entity", "struct_ti_xml_base_1_1_entity.html", "struct_ti_xml_base_1_1_entity" ],
     [ "TiXmlNode", "class_ti_xml_node.html", "class_ti_xml_node" ],
     [ "TiXmlAttribute", "class_ti_xml_attribute.html", "class_ti_xml_attribute" ],
     [ "TiXmlAttributeSet", "class_ti_xml_attribute_set.html", "class_ti_xml_attribute_set" ],

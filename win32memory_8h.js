@@ -1,6 +1,6 @@
 var win32memory_8h =
 [
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
+    [ "Memory::TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "__MEMORY_CHECKPOINT", "win32memory_8h.html#a5afec4d80443efe3b9ef905a15db205f", null ],
     [ "__MEMORY_VALIDATE", "win32memory_8h.html#a7122d116345856de0b86258e2c8f307a", null ],
     [ "n_delete", "win32memory_8h.html#a300669d394130c8ecfa940a1138f3f77", null ],
@@ -16,9 +16,9 @@ var win32memory_8h =
     [ "IsOverlapping", "win32memory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
     [ "operator delete", "win32memory_8h.html#aefbe21ce567c4e854d9dd3b06a070ea7", null ],
     [ "operator delete[]", "win32memory_8h.html#a0ac4cac16be84d0016d270b1fd50cae9", null ],
-    [ "operator new", "win32memory_8h.html#a5428313c311a094cb906c73fc5440791", null ],
-    [ "operator new", "win32memory_8h.html#a849546d24e5cbe5dca845b13d22bcabd", null ],
-    [ "operator new[]", "win32memory_8h.html#ae4033b8ea6d3772911dea9520a8fbc8c", null ],
-    [ "operator new[]", "win32memory_8h.html#a0c8e31e270fa69f52fc4c81fc88a71e7", null ],
+    [ "operator new", "win32memory_8h.html#af0b016214f09d103f34349bf4b39ada6", null ],
+    [ "operator new", "win32memory_8h.html#a249029285b4083577dc09dcb2116f21d", null ],
+    [ "operator new[]", "win32memory_8h.html#a14517e963e99328b613214e380d4c06c", null ],
+    [ "operator new[]", "win32memory_8h.html#ae05caa1930e8b7ecab1daf8d283944cd", null ],
     [ "Realloc", "win32memory_8h.html#a66c839285702633f8178be0224273a14", null ]
 ];

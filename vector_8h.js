@@ -1,6 +1,6 @@
 var vector_8h =
 [
-    [ "vector", "struct_math_1_1vector.html", "struct_math_1_1vector" ],
+    [ "Math::vector", "struct_math_1_1vector.html", "struct_math_1_1vector" ],
     [ "cross", "vector_8h.html#aeb95ec9d470d86159e565a2b75b0bc99", null ],
     [ "dot", "vector_8h.html#a55c4458eaff08f2cea46b8b7a06a8b93", null ],
     [ "length", "vector_8h.html#a1925387f5c76a38690eb0d1b33c2fb04", null ],

@@ -6,7 +6,7 @@ var class_models_1_1_character_skin_node =
     [ "~CharacterSkinNode", "class_models_1_1_character_skin_node.html#a6e13e0c13878b5b9ba95a41a9710fc8c", null ],
     [ "AddFragment", "class_models_1_1_character_skin_node.html#a13b847046b635f0368bd114c9c3d0d79", null ],
     [ "ApplyNodeState", "class_models_1_1_character_skin_node.html#ab44d07e471849e6a72d281cda3ea607c", null ],
-    [ "CreateInstance", "class_models_1_1_character_skin_node.html#af231b2494dc2ce4658d0f4131dff0b9c", null ],
+    [ "CreateInstance", "class_models_1_1_character_skin_node.html#a61e0d9d4102625247cc0c7424d343e76", null ],
     [ "GetFragmentJointPalette", "class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd", null ],
     [ "GetFragmentPrimGroupIndex", "class_models_1_1_character_skin_node.html#a7da25bfdccebe71bb1bc47e97f90b782", null ],
     [ "GetInstanceSize", "class_models_1_1_character_skin_node.html#ab650473d846e1366c4b45f309aea1f81", null ],

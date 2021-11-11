@@ -1,12 +1,12 @@
 var render_2coregraphics_2barrier_8h =
 [
-    [ "BarrierId", "struct_core_graphics_1_1_barrier_id.html", null ],
-    [ "ImageSubresourceInfo", "struct_core_graphics_1_1_image_subresource_info.html", "struct_core_graphics_1_1_image_subresource_info" ],
-    [ "BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", "struct_core_graphics_1_1_buffer_subresource_info" ],
-    [ "TextureBarrier", "struct_core_graphics_1_1_texture_barrier.html", "struct_core_graphics_1_1_texture_barrier" ],
-    [ "BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", "struct_core_graphics_1_1_buffer_barrier" ],
-    [ "ExecutionBarrier", "struct_core_graphics_1_1_execution_barrier.html", "struct_core_graphics_1_1_execution_barrier" ],
-    [ "BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", "struct_core_graphics_1_1_barrier_create_info" ],
+    [ "CoreGraphics::BarrierId", "struct_core_graphics_1_1_barrier_id.html", null ],
+    [ "CoreGraphics::ImageSubresourceInfo", "struct_core_graphics_1_1_image_subresource_info.html", "struct_core_graphics_1_1_image_subresource_info" ],
+    [ "CoreGraphics::BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", "struct_core_graphics_1_1_buffer_subresource_info" ],
+    [ "CoreGraphics::TextureBarrier", "struct_core_graphics_1_1_texture_barrier.html", "struct_core_graphics_1_1_texture_barrier" ],
+    [ "CoreGraphics::BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", "struct_core_graphics_1_1_buffer_barrier" ],
+    [ "CoreGraphics::ExecutionBarrier", "struct_core_graphics_1_1_execution_barrier.html", "struct_core_graphics_1_1_execution_barrier" ],
+    [ "CoreGraphics::BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", "struct_core_graphics_1_1_barrier_create_info" ],
     [ "BarrierAccess", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264ed", [
       [ "NoAccess", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264eda88a12f09800c497f30b98781952b50f2", null ],
       [ "IndirectRead", "render_2coregraphics_2barrier_8h.html#acf76cb00131d6792c655f3c19b9264eda64ed5e77058a0395dfb683a575555f09", null ],

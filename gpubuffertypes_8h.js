@@ -1,6 +1,6 @@
 var gpubuffertypes_8h =
 [
-    [ "SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags" ],
+    [ "CoreGraphics::GpuBufferTypes::SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags" ],
     [ "Access", "gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7", [
       [ "AccessNone", "gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7afe0d6aef5eee37b1b0a27f205c4442f8", null ],
       [ "AccessWrite", "gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a207b73eb1749b53656c88f1795d197d7", null ],

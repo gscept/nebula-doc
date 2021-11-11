@@ -12,7 +12,7 @@ var struct_im3d_1_1_mat4 =
     [ "getTranslation", "struct_im3d_1_1_mat4.html#a5c646c846da0d6bca38d10747aa0457b", null ],
     [ "operator const float *", "struct_im3d_1_1_mat4.html#a63f26ec2a840c2a9b6d3bbdb5b790793", null ],
     [ "operator float *", "struct_im3d_1_1_mat4.html#ad35bfe8b11c143aeac3c95f646c17770", null ],
-    [ "operator()", "struct_im3d_1_1_mat4.html#a8d723502590e021766905759fb54b191", null ],
+    [ "operator()", "struct_im3d_1_1_mat4.html#a4c3e5d1ba270b1b3a147377de230972a", null ],
     [ "operator()", "struct_im3d_1_1_mat4.html#a75ce1cb7bc6b1fbef4226695d0fd59f7", null ],
     [ "setCol", "struct_im3d_1_1_mat4.html#ace4093cd5cf43810a8f46a64f82a5626", null ],
     [ "setRotation", "struct_im3d_1_1_mat4.html#aeb96ab5c323a92b53b033f5e8eec247d", null ],

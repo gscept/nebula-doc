@@ -8,6 +8,6 @@ var dir_80f14fc2f23c119c66a6dd40ada12f99 =
     [ "posixmemoryconfig.h", "posixmemoryconfig_8h.html", "posixmemoryconfig_8h" ],
     [ "posixmemorypool.cc", "posixmemorypool_8cc.html", null ],
     [ "posixmemorypool.h", "posixmemorypool_8h.html", [
-      [ "PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", "class_posix_1_1_posix_memory_pool" ]
+      [ "Posix::PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", "class_posix_1_1_posix_memory_pool" ]
     ] ]
 ];

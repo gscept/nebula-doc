@@ -1,6 +1,6 @@
 var vec4_8h =
 [
-    [ "vec4", "struct_math_1_1vec4.html", "struct_math_1_1vec4" ],
+    [ "Math::vec4", "struct_math_1_1vec4.html", "struct_math_1_1vec4" ],
     [ "abs", "vec4_8h.html#a27405185294725672a08605aa08b84b3", null ],
     [ "angle", "vec4_8h.html#aeb3eb92f4766e480fc865ee30e5118b6", null ],
     [ "barycentric", "vec4_8h.html#a2f64970644d4ddc707cf5892519a7cb7", null ],

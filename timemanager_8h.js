@@ -1,7 +1,7 @@
 var timemanager_8h =
 [
-    [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
-    [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
+    [ "Game::TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
+    [ "Game::TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
     [ "TIMESOURCE_GAMEPLAY", "timemanager_8h.html#a6bc1d427f74e5df7e1766f6a3a121685", null ],
     [ "TIMESOURCE_INPUT", "timemanager_8h.html#a2b641dae0f9d058b59f20b722e57df06", null ],
     [ "TIMESOURCE_SYSTEM", "timemanager_8h.html#a834c5c9cfc39732cdbdbf3462d80ad70", null ],

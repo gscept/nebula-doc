@@ -14,7 +14,7 @@ var class_game_1_1_message =
     [ "DispatchMessageQueue", "class_game_1_1_message.html#aae875c51ba53f22f5ff7208fb2d07f7a", null ],
     [ "Distribute", "class_game_1_1_message.html#a930b8135992515b013e13fe589f0832c", null ],
     [ "GetMessageQueue", "class_game_1_1_message.html#afb779f1e2abe37596e12a64eff72df14", null ],
-    [ "Instance", "class_game_1_1_message.html#afc59c195e531e4f95bcb28cf139226a8", null ],
+    [ "Instance", "class_game_1_1_message.html#a1dd34ead31b7f75c23714e09e55283df", null ],
     [ "IsMessageQueueValid", "class_game_1_1_message.html#a8f410ee455908141e589264777fdaad3", null ],
     [ "IsValid", "class_game_1_1_message.html#a6db5a5a0c97fd7016e591b8db9136407", null ],
     [ "operator=", "class_game_1_1_message.html#af63e1e1eb740e7bd8fb594c4c8fd6797", null ],

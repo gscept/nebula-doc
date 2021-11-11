@@ -7,21 +7,21 @@ var dir_768ee4f5bc33f9e2fc60f1898cd79fc7 =
     [ "csmutil.h", "csmutil_8h.html", "csmutil_8h" ],
     [ "environmentprobe.cc", "environmentprobe_8cc.html", "environmentprobe_8cc" ],
     [ "environmentprobe.h", "environmentprobe_8h.html", [
-      [ "EnvironmentProbe", "class_lighting_1_1_environment_probe.html", "class_lighting_1_1_environment_probe" ]
+      [ "Lighting::EnvironmentProbe", "class_lighting_1_1_environment_probe.html", "class_lighting_1_1_environment_probe" ]
     ] ],
     [ "lightcontext.cc", "lightcontext_8cc.html", "lightcontext_8cc" ],
     [ "lightcontext.h", "lightcontext_8h.html", [
-      [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ],
-      [ "ConstantBufferSet", "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html", "struct_lighting_1_1_light_context_1_1_constant_buffer_set" ]
+      [ "Lighting::LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ],
+      [ "Lighting::LightContext::ConstantBufferSet", "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html", "struct_lighting_1_1_light_context_1_1_constant_buffer_set" ]
     ] ],
     [ "lightprobecontext.cc", "lightprobecontext_8cc.html", "lightprobecontext_8cc" ],
     [ "lightprobecontext.h", "lightprobecontext_8h.html", [
-      [ "LightProbeContext", "class_graphics_1_1_light_probe_context.html", "class_graphics_1_1_light_probe_context" ]
+      [ "Graphics::LightProbeContext", "class_graphics_1_1_light_probe_context.html", "class_graphics_1_1_light_probe_context" ]
     ] ],
     [ "lightserver.cc", "lightserver_8cc.html", "lightserver_8cc" ],
     [ "lightserver.h", "lightserver_8h.html", null ],
     [ "lighttype.cc", "lighttype_8cc.html", null ],
     [ "lighttype.h", "lighttype_8h.html", [
-      [ "LightType", "class_lighting_1_1_light_type.html", "class_lighting_1_1_light_type" ]
+      [ "Lighting::LightType", "class_lighting_1_1_light_type.html", "class_lighting_1_1_light_type" ]
     ] ]
 ];

@@ -1,11 +1,11 @@
 var graphicsdevice_8h =
 [
-    [ "TextureCopy", "struct_core_graphics_1_1_texture_copy.html", "struct_core_graphics_1_1_texture_copy" ],
-    [ "BufferCopy", "struct_core_graphics_1_1_buffer_copy.html", "struct_core_graphics_1_1_buffer_copy" ],
-    [ "GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", "struct_core_graphics_1_1_graphics_device_create_info" ],
-    [ "Query", "struct_core_graphics_1_1_query.html", "struct_core_graphics_1_1_query" ],
-    [ "DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", "struct_core_graphics_1_1_draw_thread_result" ],
-    [ "GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", "struct_core_graphics_1_1_graphics_device_state" ],
+    [ "CoreGraphics::TextureCopy", "struct_core_graphics_1_1_texture_copy.html", "struct_core_graphics_1_1_texture_copy" ],
+    [ "CoreGraphics::BufferCopy", "struct_core_graphics_1_1_buffer_copy.html", "struct_core_graphics_1_1_buffer_copy" ],
+    [ "CoreGraphics::GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", "struct_core_graphics_1_1_graphics_device_create_info" ],
+    [ "CoreGraphics::Query", "struct_core_graphics_1_1_query.html", "struct_core_graphics_1_1_query" ],
+    [ "CoreGraphics::DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", "struct_core_graphics_1_1_draw_thread_result" ],
+    [ "CoreGraphics::GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", "struct_core_graphics_1_1_graphics_device_state" ],
     [ "AddBackBufferTexture", "graphicsdevice_8h.html#a535da31fa93320f7b3843b50a40c7ec4", null ],
     [ "AllocateComputeConstantBufferMemory", "graphicsdevice_8h.html#a3957259c74a9244c72b5f4677b29ced8", null ],
     [ "AllocateGraphicsConstantBufferMemory", "graphicsdevice_8h.html#af879c77228719f49a648084d3a54d8ce", null ],

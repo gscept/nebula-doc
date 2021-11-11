@@ -14,8 +14,8 @@ var class_ti_xml_text =
     [ "SetCDATA", "class_ti_xml_text.html#acb17ff7c5d09b2c839393445a3de5ea9", null ],
     [ "SetRaw", "class_ti_xml_text.html#a92c9161eda1bbe4568cec2e3ca8821f3", null ],
     [ "StreamOut", "class_ti_xml_text.html#ae6ca1be0e9b470d6fc5ee5f11b7a7a20", null ],
-    [ "ToText", "class_ti_xml_text.html#ae7c3a8fd3e4dbf6c0c4363a943d72f5b", null ],
-    [ "ToText", "class_ti_xml_text.html#af8973cfd4ca00c5d934cb23e8aa0f5d5", null ],
+    [ "ToText", "class_ti_xml_text.html#a2dd0f59f15c53ae11909d9e23571bc11", null ],
+    [ "ToText", "class_ti_xml_text.html#a7516e9c6f4995c7dba811b5fec95e1f9", null ],
     [ "TiXmlElement", "class_ti_xml_text.html#ab6592e32cb9132be517cc12a70564c4b", null ],
     [ "cdata", "class_ti_xml_text.html#a1919a0467daf2cf5d099b225add5b9f1", null ],
     [ "raw", "class_ti_xml_text.html#ae90f227b6ec61e7daf871dcace8070fb", null ]

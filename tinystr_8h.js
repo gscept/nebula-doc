@@ -1,7 +1,7 @@
 var tinystr_8h =
 [
     [ "TiXmlString", "class_ti_xml_string.html", "class_ti_xml_string" ],
-    [ "Rep", "struct_ti_xml_string_1_1_rep.html", "struct_ti_xml_string_1_1_rep" ],
+    [ "TiXmlString::Rep", "struct_ti_xml_string_1_1_rep.html", "struct_ti_xml_string_1_1_rep" ],
     [ "TiXmlOutStream", "class_ti_xml_out_stream.html", "class_ti_xml_out_stream" ],
     [ "TIXML_EXPLICIT", "tinystr_8h.html#ae341476cd6b94ee32e3e93110a759581", null ],
     [ "operator!=", "tinystr_8h.html#aa37ff9329e975d8aae82ede2051ad8b8", null ],

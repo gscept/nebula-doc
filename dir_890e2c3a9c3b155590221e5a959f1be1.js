@@ -9,12 +9,12 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "defaulthttprequesthandler.h", "defaulthttprequesthandler_8h.html", "defaulthttprequesthandler_8h" ],
     [ "httpclient.cc", "httpclient_8cc.html", "httpclient_8cc" ],
     [ "httpclient.h", "httpclient_8h.html", [
-      [ "HttpClient", "class_http_1_1_http_client.html", "class_http_1_1_http_client" ]
+      [ "Http::HttpClient", "class_http_1_1_http_client.html", "class_http_1_1_http_client" ]
     ] ],
     [ "httpclientregistry.cc", "httpclientregistry_8cc.html", "httpclientregistry_8cc" ],
     [ "httpclientregistry.h", "httpclientregistry_8h.html", [
-      [ "HttpClientRegistry", "class_http_1_1_http_client_registry.html", "class_http_1_1_http_client_registry" ],
-      [ "Connection", "struct_http_1_1_http_client_registry_1_1_connection.html", "struct_http_1_1_http_client_registry_1_1_connection" ]
+      [ "Http::HttpClientRegistry", "class_http_1_1_http_client_registry.html", "class_http_1_1_http_client_registry" ],
+      [ "Http::HttpClientRegistry::Connection", "struct_http_1_1_http_client_registry_1_1_connection.html", "struct_http_1_1_http_client_registry_1_1_connection" ]
     ] ],
     [ "httpinterface.cc", "httpinterface_8cc.html", "httpinterface_8cc" ],
     [ "httpinterface.h", "httpinterface_8h.html", "httpinterface_8h" ],
@@ -23,12 +23,12 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "httpmethod.h", "httpmethod_8h.html", "httpmethod_8h" ],
     [ "httpnzstream.cc", "httpnzstream_8cc.html", "httpnzstream_8cc" ],
     [ "httpnzstream.h", "httpnzstream_8h.html", [
-      [ "HttpNzStream", "class_http_1_1_http_nz_stream.html", "class_http_1_1_http_nz_stream" ]
+      [ "Http::HttpNzStream", "class_http_1_1_http_nz_stream.html", "class_http_1_1_http_nz_stream" ]
     ] ],
     [ "httpprotocol.cc", "httpprotocol_8cc.html", "httpprotocol_8cc" ],
     [ "httpprotocol.h", "httpprotocol_8h.html", [
-      [ "AttachRequestHandler", "class_http_1_1_attach_request_handler.html", "class_http_1_1_attach_request_handler" ],
-      [ "RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", "class_http_1_1_remove_request_handler" ]
+      [ "Http::AttachRequestHandler", "class_http_1_1_attach_request_handler.html", "class_http_1_1_attach_request_handler" ],
+      [ "Http::RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", "class_http_1_1_remove_request_handler" ]
     ] ],
     [ "httprequest.cc", "httprequest_8cc.html", "httprequest_8cc" ],
     [ "httprequest.h", "httprequest_8h.html", "httprequest_8h" ],
@@ -38,11 +38,11 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "httprequestreader.h", "httprequestreader_8h.html", "httprequestreader_8h" ],
     [ "httprequestwriter.cc", "httprequestwriter_8cc.html", "httprequestwriter_8cc" ],
     [ "httprequestwriter.h", "httprequestwriter_8h.html", [
-      [ "HttpRequestWriter", "class_http_1_1_http_request_writer.html", "class_http_1_1_http_request_writer" ]
+      [ "Http::HttpRequestWriter", "class_http_1_1_http_request_writer.html", "class_http_1_1_http_request_writer" ]
     ] ],
     [ "httpresponsereader.cc", "httpresponsereader_8cc.html", "httpresponsereader_8cc" ],
     [ "httpresponsereader.h", "httpresponsereader_8h.html", [
-      [ "HttpResponseReader", "class_http_1_1_http_response_reader.html", "class_http_1_1_http_response_reader" ]
+      [ "Http::HttpResponseReader", "class_http_1_1_http_response_reader.html", "class_http_1_1_http_response_reader" ]
     ] ],
     [ "httpresponsewriter.cc", "httpresponsewriter_8cc.html", "httpresponsewriter_8cc" ],
     [ "httpresponsewriter.h", "httpresponsewriter_8h.html", "httpresponsewriter_8h" ],
@@ -54,6 +54,6 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "httpstatus.h", "httpstatus_8h.html", "httpstatus_8h" ],
     [ "httpstream.cc", "httpstream_8cc.html", "httpstream_8cc" ],
     [ "httpstream.h", "httpstream_8h.html", [
-      [ "HttpStream", "class_http_1_1_http_stream.html", "class_http_1_1_http_stream" ]
+      [ "Http::HttpStream", "class_http_1_1_http_stream.html", "class_http_1_1_http_stream" ]
     ] ]
 ];

@@ -10,15 +10,15 @@ var dir_667462bf3902e31e6469e5425fdef989 =
     [ "memorypool.h", "memorypool_8h.html", null ],
     [ "poolarrayallocator.cc", "poolarrayallocator_8cc.html", null ],
     [ "poolarrayallocator.h", "poolarrayallocator_8h.html", [
-      [ "PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ]
+      [ "Memory::PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ]
     ] ],
     [ "rangeallocator.h", "rangeallocator_8h.html", [
-      [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
-      [ "Range", "struct_memory_1_1_range_allocator_1_1_range.html", "struct_memory_1_1_range_allocator_1_1_range" ]
+      [ "Memory::RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
+      [ "Memory::RangeAllocator::Range", "struct_memory_1_1_range_allocator_1_1_range.html", "struct_memory_1_1_range_allocator_1_1_range" ]
     ] ],
     [ "ringallocator.h", "ringallocator_8h.html", [
-      [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
-      [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
-      [ "Interval", "struct_memory_1_1_ring_allocator_1_1_interval.html", "struct_memory_1_1_ring_allocator_1_1_interval" ]
+      [ "Memory::RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
+      [ "Memory::RingAllocator< SYNCPOINTS >", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
+      [ "Memory::RingAllocator< SYNCPOINTS >::Interval", "struct_memory_1_1_ring_allocator_1_1_interval.html", "struct_memory_1_1_ring_allocator_1_1_interval" ]
     ] ]
 ];

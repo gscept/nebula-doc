@@ -1,6 +1,6 @@
 var vkresourcetable_8h =
 [
-    [ "WriteInfo", "union_vulkan_1_1_write_info.html", "union_vulkan_1_1_write_info" ],
+    [ "Vulkan::WriteInfo", "union_vulkan_1_1_write_info.html", "union_vulkan_1_1_write_info" ],
     [ "VkResourcePipelineAllocator", "vkresourcetable_8h.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b", null ],
     [ "VkResourceTableAllocator", "vkresourcetable_8h.html#a77e91f33fcd82b594612407df25e3ec4", null ],
     [ "VkResourceTableLayoutAllocator", "vkresourcetable_8h.html#a497410167e4965f57f71289e58637583", null ],

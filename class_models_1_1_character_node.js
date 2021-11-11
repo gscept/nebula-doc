@@ -4,7 +4,7 @@ var class_models_1_1_character_node =
     [ "SkinList", "struct_models_1_1_character_node_1_1_skin_list.html", "struct_models_1_1_character_node_1_1_skin_list" ],
     [ "CharacterNode", "class_models_1_1_character_node.html#a0c793f2cc66eb8ca074c368034e06389", null ],
     [ "~CharacterNode", "class_models_1_1_character_node.html#a5e5b8b853a450e116bc13d5c0cd2b27d", null ],
-    [ "CreateInstance", "class_models_1_1_character_node.html#aa7d55cb0e9ec65711f171a143a8343d7", null ],
+    [ "CreateInstance", "class_models_1_1_character_node.html#a6b4b833b10ab484d2673fa6f11b251f0", null ],
     [ "Discard", "class_models_1_1_character_node.html#ac9964f9e84ffe575d8a961d57c561ac0", null ],
     [ "GetAnimationResourceId", "class_models_1_1_character_node.html#aee11f23331ef0295d8d254613e536a53", null ],
     [ "GetAnimResource", "class_models_1_1_character_node.html#a0e99a2643264e4d744c4b223f90a9630", null ],

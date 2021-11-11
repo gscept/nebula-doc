@@ -1,7 +1,7 @@
 var model_8h =
 [
-    [ "ModelId", "struct_models_1_1_model_id.html", null ],
-    [ "ModelInstanceId", "struct_models_1_1_model_instance_id.html", null ],
+    [ "Models::ModelId", "struct_models_1_1_model_id.html", null ],
+    [ "Models::ModelInstanceId", "struct_models_1_1_model_instance_id.html", null ],
     [ "MODEL_INSTANCE_MEMORY_CHUNK_SIZE", "model_8h.html#a4fb40a30262fa299170dd5f6fa7fb41d", null ],
     [ "MODEL_MEMORY_CHUNK_SIZE", "model_8h.html#ac6d7804364258137f18638d88b526c0d", null ],
     [ "NodeBits", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120", [

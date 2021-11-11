@@ -1,11 +1,11 @@
 var commandbuffer_8h =
 [
-    [ "CommandBufferPoolId", "struct_core_graphics_1_1_command_buffer_pool_id.html", null ],
-    [ "CommandBufferPoolCreateInfo", "struct_core_graphics_1_1_command_buffer_pool_create_info.html", "struct_core_graphics_1_1_command_buffer_pool_create_info" ],
-    [ "CommandBufferCreateInfo", "struct_core_graphics_1_1_command_buffer_create_info.html", "struct_core_graphics_1_1_command_buffer_create_info" ],
-    [ "CommandBufferBeginInfo", "struct_core_graphics_1_1_command_buffer_begin_info.html", "struct_core_graphics_1_1_command_buffer_begin_info" ],
-    [ "CommandBufferClearInfo", "struct_core_graphics_1_1_command_buffer_clear_info.html", "struct_core_graphics_1_1_command_buffer_clear_info" ],
-    [ "CommandBufferId", "struct_core_graphics_1_1_command_buffer_id.html", null ],
+    [ "CoreGraphics::CommandBufferPoolId", "struct_core_graphics_1_1_command_buffer_pool_id.html", null ],
+    [ "CoreGraphics::CommandBufferPoolCreateInfo", "struct_core_graphics_1_1_command_buffer_pool_create_info.html", "struct_core_graphics_1_1_command_buffer_pool_create_info" ],
+    [ "CoreGraphics::CommandBufferCreateInfo", "struct_core_graphics_1_1_command_buffer_create_info.html", "struct_core_graphics_1_1_command_buffer_create_info" ],
+    [ "CoreGraphics::CommandBufferBeginInfo", "struct_core_graphics_1_1_command_buffer_begin_info.html", "struct_core_graphics_1_1_command_buffer_begin_info" ],
+    [ "CoreGraphics::CommandBufferClearInfo", "struct_core_graphics_1_1_command_buffer_clear_info.html", "struct_core_graphics_1_1_command_buffer_clear_info" ],
+    [ "CoreGraphics::CommandBufferId", "struct_core_graphics_1_1_command_buffer_id.html", null ],
     [ "CommandBufferUsage", "commandbuffer_8h.html#a66327a222d50e64230568e178ccb167c", [
       [ "CommandGfx", "commandbuffer_8h.html#a66327a222d50e64230568e178ccb167ca5a2ab69ec4d25b1a86bb0fc67e14cdbc", null ],
       [ "CommandCompute", "commandbuffer_8h.html#a66327a222d50e64230568e178ccb167ca0f6d93df98d6fa25f976d02542b513a3", null ],

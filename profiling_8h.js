@@ -1,8 +1,8 @@
 var profiling_8h =
 [
-    [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
-    [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ],
-    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
+    [ "Profiling::ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
+    [ "Profiling::ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ],
+    [ "Profiling::ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
     [ "N_COUNTER_DECR", "profiling_8h.html#a3d4e7120ac442b5b4e061a4f88cdd154", null ],
     [ "N_COUNTER_INCR", "profiling_8h.html#a432a56683c81a7794200ca2336a60745", null ],
     [ "N_DECLARE_COUNTER", "profiling_8h.html#a978804f7e1d648af9f2118b8c05e6718", null ],

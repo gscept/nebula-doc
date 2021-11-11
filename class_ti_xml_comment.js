@@ -9,6 +9,6 @@ var class_ti_xml_comment =
     [ "Parse", "class_ti_xml_comment.html#a43bddc18ac057734b41d84653b71d3e0", null ],
     [ "Print", "class_ti_xml_comment.html#a5ec053beced78f1fac68841819eb444a", null ],
     [ "StreamOut", "class_ti_xml_comment.html#a45a8addb25df3bb43d154382f6888bed", null ],
-    [ "ToComment", "class_ti_xml_comment.html#acc7c7e07e13c23f17797d642981511df", null ],
-    [ "ToComment", "class_ti_xml_comment.html#a1032e176d3eb73017ceabc698cac0f16", null ]
+    [ "ToComment", "class_ti_xml_comment.html#ad1a522962d357ed568816f9294f74fe1", null ],
+    [ "ToComment", "class_ti_xml_comment.html#a1ba35041f43548ff9e6d431beea5bd4d", null ]
 ];

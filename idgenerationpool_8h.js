@@ -1,6 +1,6 @@
 var idgenerationpool_8h =
 [
-    [ "IdGenerationPool", "class_ids_1_1_id_generation_pool.html", "class_ids_1_1_id_generation_pool" ],
+    [ "Ids::IdGenerationPool", "class_ids_1_1_id_generation_pool.html", "class_ids_1_1_id_generation_pool" ],
     [ "generation_t", "idgenerationpool_8h.html#a476384ecf2a4f9c60d479a6f535d4cdd", null ],
     [ "CreateId", "idgenerationpool_8h.html#a9c227cc79e4573d3b839e0763d7d1407", null ],
     [ "Generation", "idgenerationpool_8h.html#a1ed46d24891908adedb93748f02bab1f", null ],

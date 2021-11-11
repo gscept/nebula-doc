@@ -1,6 +1,6 @@
 var debugcounter_8h =
 [
-    [ "DebugCounter", "class_debug_1_1_debug_counter.html", "class_debug_1_1_debug_counter" ],
+    [ "Debug::DebugCounter", "class_debug_1_1_debug_counter.html", "class_debug_1_1_debug_counter" ],
     [ "_begin_counter", "debugcounter_8h.html#a221d7e7b6452e8c70ea60df8329f8a0c", null ],
     [ "_begin_counter_noreset", "debugcounter_8h.html#abcdf1f03b44b99986a080346018760b6", null ],
     [ "_declare_counter", "debugcounter_8h.html#a435524f5c6246847ee0073a1d42e05b8", null ],

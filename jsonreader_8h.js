@@ -1,6 +1,6 @@
 var jsonreader_8h =
 [
-    [ "JsonReader", "class_i_o_1_1_json_reader.html", "class_i_o_1_1_json_reader" ],
+    [ "IO::JsonReader", "class_i_o_1_1_json_reader.html", "class_i_o_1_1_json_reader" ],
     [ "JsonReader::Get< Math::int2 >", "jsonreader_8h.html#a135ba51793a0af47b0b515ddd92e0126", null ],
     [ "JsonReader::Get< Math::mat4 >", "jsonreader_8h.html#ac64e39e0b3dce1eb4d00fbb518660cc0", null ],
     [ "JsonReader::Get< Math::vec2 >", "jsonreader_8h.html#a643910afcedf1e6afac78b6f04c3d52a", null ],

@@ -4,7 +4,7 @@ var class_models_1_1_primitive_node =
     [ "PrimitiveNode", "class_models_1_1_primitive_node.html#a6b09e47bad4ea1c489b6aaccada920ec", null ],
     [ "~PrimitiveNode", "class_models_1_1_primitive_node.html#a68c715e695c3b0b954cefb4b2cdf836b", null ],
     [ "ApplyNodeState", "class_models_1_1_primitive_node.html#a3b02ea0988ff597ff2cf3fd9428011eb", null ],
-    [ "CreateInstance", "class_models_1_1_primitive_node.html#a352f75d352f6f5aadc4c13764207e231", null ],
+    [ "CreateInstance", "class_models_1_1_primitive_node.html#a5211da0020a2493c3bc9eda3fb07f808", null ],
     [ "GetInstanceSize", "class_models_1_1_primitive_node.html#a4ee6e0ce42d355bc9881b60814e55528", null ],
     [ "GetMeshId", "class_models_1_1_primitive_node.html#a353332ab250c58f2a10c213d2c057a09", null ],
     [ "GetPrimitiveGroupIndex", "class_models_1_1_primitive_node.html#a0ed8fe4f26dd17f3a7fec1de32b3c553", null ],

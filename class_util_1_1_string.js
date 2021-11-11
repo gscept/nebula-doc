@@ -35,7 +35,7 @@ var class_util_1_1_string =
     [ "AsVec3", "class_util_1_1_string.html#aee2c863307ea04dcbf12ac4fb2ed6f60", null ],
     [ "AsVec4", "class_util_1_1_string.html#a5f9d7568451e1a0eaad53015d0c4ec60", null ],
     [ "BeginsWithString", "class_util_1_1_string.html#aabacde2d46f56a3efcdf56ef6e13be6a", null ],
-    [ "c_str", "class_util_1_1_string.html#a8c205c6eddf68839f338edaf74e6a7bf", null ],
+    [ "c_str", "class_util_1_1_string.html#ad5fa4177aae32925659952ce42dd1576", null ],
     [ "ChangeAssignPrefix", "class_util_1_1_string.html#a58a7744176f2c5fe1fc01213f8c462bb", null ],
     [ "ChangeFileExtension", "class_util_1_1_string.html#a762e26a9f5e7939980c32947e2f5f9e6", null ],
     [ "CheckFileExtension", "class_util_1_1_string.html#a615c64e6becb119e148dcb2e78a5c7ee", null ],

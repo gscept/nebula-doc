@@ -1,8 +1,8 @@
 var filewatcher_8h =
 [
-    [ "WatchEvent", "struct_i_o_1_1_watch_event.html", "struct_i_o_1_1_watch_event" ],
-    [ "EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
-    [ "FileWatcher", "class_i_o_1_1_file_watcher.html", "class_i_o_1_1_file_watcher" ],
+    [ "IO::WatchEvent", "struct_i_o_1_1_watch_event.html", "struct_i_o_1_1_watch_event" ],
+    [ "IO::EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
+    [ "IO::FileWatcher", "class_i_o_1_1_file_watcher.html", "class_i_o_1_1_file_watcher" ],
     [ "WatchDelegate", "filewatcher_8h.html#ae56c747075680acefb7ae169cefdb2ce", null ],
     [ "WatchEventType", "filewatcher_8h.html#acef052ae33a08af8aee1ba3eb7508355", [
       [ "Created", "filewatcher_8h.html#acef052ae33a08af8aee1ba3eb7508355a146e8c7685c01ab61be0565d1bc1894d", null ],

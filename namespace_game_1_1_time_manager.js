@@ -1,7 +1,7 @@
 var namespace_game_1_1_time_manager =
 [
-    [ "TimeSourceState", "struct_game_1_1_time_manager_1_1_time_source_state.html", "struct_game_1_1_time_manager_1_1_time_source_state" ],
     [ "State", "struct_game_1_1_time_manager_1_1_state.html", "struct_game_1_1_time_manager_1_1_state" ],
+    [ "TimeSourceState", "struct_game_1_1_time_manager_1_1_time_source_state.html", "struct_game_1_1_time_manager_1_1_time_source_state" ],
     [ "Create", "namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f", null ],
     [ "CreateTimeSource", "namespace_game_1_1_time_manager.html#ad867406e26580fa1a27caeceb335d4cb", null ],
     [ "Destroy", "namespace_game_1_1_time_manager.html#ae1fd57385e5c144532be51e7b2592c79", null ],

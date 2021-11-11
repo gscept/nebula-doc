@@ -1,6 +1,6 @@
 var attributedefinition_8h =
 [
-    [ "AttributeDefinition", "class_attr_1_1_attribute_definition.html", "class_attr_1_1_attribute_definition" ],
+    [ "Attr::AttributeDefinition< VALUETYPE, TYPE >", "class_attr_1_1_attribute_definition.html", "class_attr_1_1_attribute_definition" ],
     [ "DeclareBlob", "attributedefinition_8h.html#a99d48587f54766269ba297fd8c474d82", null ],
     [ "DeclareBlobArray", "attributedefinition_8h.html#a56e54a87fb35cb99c5f6f882a4286e48", null ],
     [ "DeclareBool", "attributedefinition_8h.html#a8fd2b619948d4504e46e579fb7e00013", null ],

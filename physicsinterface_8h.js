@@ -1,11 +1,11 @@
 var physicsinterface_8h =
 [
-    [ "ActorResourceId", "struct_physics_1_1_actor_resource_id.html", null ],
-    [ "ColliderId", "struct_physics_1_1_collider_id.html", null ],
-    [ "Material", "struct_physics_1_1_material.html", "struct_physics_1_1_material" ],
-    [ "ActorId", "struct_physics_1_1_actor_id.html", "struct_physics_1_1_actor_id" ],
-    [ "Actor", "struct_physics_1_1_actor.html", "struct_physics_1_1_actor" ],
-    [ "Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
+    [ "Physics::ActorResourceId", "struct_physics_1_1_actor_resource_id.html", null ],
+    [ "Physics::ColliderId", "struct_physics_1_1_collider_id.html", null ],
+    [ "Physics::Material", "struct_physics_1_1_material.html", "struct_physics_1_1_material" ],
+    [ "Physics::ActorId", "struct_physics_1_1_actor_id.html", "struct_physics_1_1_actor_id" ],
+    [ "Physics::Actor", "struct_physics_1_1_actor.html", "struct_physics_1_1_actor" ],
+    [ "Physics::Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
     [ "CreateActorInstance", "physicsinterface_8h.html#afd6520d406771134a865d02206f3f0bb", null ],
     [ "CreateMaterial", "physicsinterface_8h.html#a3a827d90b7854e6db24dfed94d036609", null ],
     [ "CreateScene", "physicsinterface_8h.html#ae73f5a76a7de9f0607733be67e604fe8", null ],

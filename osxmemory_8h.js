@@ -1,6 +1,6 @@
 var osxmemory_8h =
 [
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
+    [ "Memory::TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "__MEMORY_CHECKPOINT", "osxmemory_8h.html#a5afec4d80443efe3b9ef905a15db205f", null ],
     [ "__MEMORY_VALIDATE", "osxmemory_8h.html#a7122d116345856de0b86258e2c8f307a", null ],
     [ "n_delete", "osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77", null ],
@@ -17,10 +17,10 @@ var osxmemory_8h =
     [ "IsOverlapping", "osxmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
     [ "operator delete", "osxmemory_8h.html#a86107594327f3a001230df9802cd4422", null ],
     [ "operator delete[]", "osxmemory_8h.html#aaa8d8403dca7d813a59dd1f07728349d", null ],
-    [ "operator new", "osxmemory_8h.html#a205ed048fdf5259c2e8e0cb60ee8f719", null ],
-    [ "operator new", "osxmemory_8h.html#a6873ad9260d041988f6d670bc987dc4e", null ],
-    [ "operator new[]", "osxmemory_8h.html#a63ce4f64887b9307317aee5baae6b18f", null ],
-    [ "operator new[]", "osxmemory_8h.html#a735d482773a1a1a155e8b092644ded4d", null ],
+    [ "operator new", "osxmemory_8h.html#a160dcabc54bbecfc69484678cafadb81", null ],
+    [ "operator new", "osxmemory_8h.html#a33f3de1695b8816fcf5710e3de36ef4e", null ],
+    [ "operator new[]", "osxmemory_8h.html#af2243bb4c2126b7b2b393e06090fbe59", null ],
+    [ "operator new[]", "osxmemory_8h.html#a1649c8c7d5f8b1128df76c167bf93c21", null ],
     [ "Realloc", "osxmemory_8h.html#a66c839285702633f8178be0224273a14", null ],
     [ "HeapTypeAllocCount", "osxmemory_8h.html#a4f05b0dffadc15f46b2db37a2b3c9240", null ],
     [ "HeapTypeAllocSize", "osxmemory_8h.html#a5c716011c35bc95c6462f9289163f748", null ],

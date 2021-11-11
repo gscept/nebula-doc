@@ -38,12 +38,12 @@ var win32memoryconfig_8h =
       [ "NumHeapTypes", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a", null ],
       [ "InvalidHeapType", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778", null ]
     ] ],
-    [ "__HeapAlignPointerAndWritePadding16", "win32memoryconfig_8h.html#af928e632a2bdc8dafc7e61d36b5c71c7", null ],
+    [ "__HeapAlignPointerAndWritePadding16", "win32memoryconfig_8h.html#a79b92aa463a3205dc0a2e7c96f0a40bc", null ],
     [ "__HeapAlloc16", "win32memoryconfig_8h.html#ae0d1e4f6ddce5958a79b7e5fb9a21ca4", null ],
     [ "__HeapFree16", "win32memoryconfig_8h.html#aeb5610ce0fd9a137131c326d1d64d3b1", null ],
     [ "__HeapReAlloc16", "win32memoryconfig_8h.html#abadaff872cd52ba019c4f3cf1342c981", null ],
     [ "__HeapSize16", "win32memoryconfig_8h.html#ab70087a05c0020566ed6eb1e48c05b66", null ],
-    [ "__HeapUnalignPointer16", "win32memoryconfig_8h.html#a5a6725e8cb2dd81812cf306010ae8f67", null ],
+    [ "__HeapUnalignPointer16", "win32memoryconfig_8h.html#a539aa16970df013f09322414ef1c51b0", null ],
     [ "GetHeapTypeName", "win32memoryconfig_8h.html#a779eb7178f1887e9759e90511acd5a05", null ],
     [ "SetupHeaps", "win32memoryconfig_8h.html#ae173ee11e0f1aa1ad9b8603e40ecbd4b", null ]
 ];

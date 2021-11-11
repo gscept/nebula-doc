@@ -1,10 +1,10 @@
 var namespace_characters =
 [
     [ "CharacterContext", "class_characters_1_1_character_context.html", "class_characters_1_1_character_context" ],
+    [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
     [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
     [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
     [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
-    [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
     [ "SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", "struct_characters_1_1_skeleton_job_joint" ],
     [ "StreamSkeletonPool", "class_characters_1_1_stream_skeleton_pool.html", "class_characters_1_1_stream_skeleton_pool" ],
     [ "EnqueueMode", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613", [

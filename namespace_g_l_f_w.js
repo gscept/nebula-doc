@@ -1,9 +1,9 @@
 var namespace_g_l_f_w =
 [
-    [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ],
     [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],
     [ "GLFWGraphicsDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler" ],
     [ "GLFWInputDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_input_display_event_handler" ],
+    [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ],
     [ "__ImplementClass", "namespace_g_l_f_w.html#a64a86b3d4dd0cb4a7e54bbb1827767bd", null ],
     [ "__ImplementClass", "namespace_g_l_f_w.html#a3451569dd3e776ebac7ced92f60efc89", null ],
     [ "__ImplementClass", "namespace_g_l_f_w.html#a1836498e78a357d4b78f2e8ee77cf6e0", null ],

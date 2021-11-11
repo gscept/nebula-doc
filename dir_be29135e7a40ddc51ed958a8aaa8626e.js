@@ -17,13 +17,13 @@ var dir_be29135e7a40ddc51ed958a8aaa8626e =
     [ "quadtreesystemjob.cc", "quadtreesystemjob_8cc.html", "quadtreesystemjob_8cc" ],
     [ "visibilitysystem.cc", "visibilitysystem_8cc.html", null ],
     [ "visibilitysystem.h", "visibilitysystem_8h.html", [
-      [ "BoxSystemLoadInfo", "struct_visibility_1_1_box_system_load_info.html", "struct_visibility_1_1_box_system_load_info" ],
-      [ "PortalSystemLoadInfo", "struct_visibility_1_1_portal_system_load_info.html", "struct_visibility_1_1_portal_system_load_info" ],
-      [ "OctreeSystemLoadInfo", "struct_visibility_1_1_octree_system_load_info.html", "struct_visibility_1_1_octree_system_load_info" ],
-      [ "QuadtreeSystemLoadInfo", "struct_visibility_1_1_quadtree_system_load_info.html", "struct_visibility_1_1_quadtree_system_load_info" ],
-      [ "BruteforceSystemLoadInfo", "struct_visibility_1_1_bruteforce_system_load_info.html", null ],
-      [ "VisibilitySystem", "class_visibility_1_1_visibility_system.html", "class_visibility_1_1_visibility_system" ],
-      [ "Observer", "struct_visibility_1_1_visibility_system_1_1_observer.html", "struct_visibility_1_1_visibility_system_1_1_observer" ],
-      [ "Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", "struct_visibility_1_1_visibility_system_1_1_entity" ]
+      [ "Visibility::BoxSystemLoadInfo", "struct_visibility_1_1_box_system_load_info.html", "struct_visibility_1_1_box_system_load_info" ],
+      [ "Visibility::PortalSystemLoadInfo", "struct_visibility_1_1_portal_system_load_info.html", "struct_visibility_1_1_portal_system_load_info" ],
+      [ "Visibility::OctreeSystemLoadInfo", "struct_visibility_1_1_octree_system_load_info.html", "struct_visibility_1_1_octree_system_load_info" ],
+      [ "Visibility::QuadtreeSystemLoadInfo", "struct_visibility_1_1_quadtree_system_load_info.html", "struct_visibility_1_1_quadtree_system_load_info" ],
+      [ "Visibility::BruteforceSystemLoadInfo", "struct_visibility_1_1_bruteforce_system_load_info.html", null ],
+      [ "Visibility::VisibilitySystem", "class_visibility_1_1_visibility_system.html", "class_visibility_1_1_visibility_system" ],
+      [ "Visibility::VisibilitySystem::Observer", "struct_visibility_1_1_visibility_system_1_1_observer.html", "struct_visibility_1_1_visibility_system_1_1_observer" ],
+      [ "Visibility::VisibilitySystem::Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", "struct_visibility_1_1_visibility_system_1_1_entity" ]
     ] ]
 ];

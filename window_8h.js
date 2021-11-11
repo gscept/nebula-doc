@@ -1,7 +1,7 @@
 var window_8h =
 [
-    [ "WindowId", "struct_core_graphics_1_1_window_id.html", null ],
-    [ "WindowCreateInfo", "struct_core_graphics_1_1_window_create_info.html", "struct_core_graphics_1_1_window_create_info" ],
+    [ "CoreGraphics::WindowId", "struct_core_graphics_1_1_window_id.html", null ],
+    [ "CoreGraphics::WindowCreateInfo", "struct_core_graphics_1_1_window_create_info.html", "struct_core_graphics_1_1_window_create_info" ],
     [ "CreateWindow", "window_8h.html#afe20d65b902f713882bfe8f3b8174a96", null ],
     [ "DestroyWindow", "window_8h.html#abfe4dd377f360ff6334c02cdcbb752cb", null ],
     [ "EmbedWindow", "window_8h.html#a89d6cac8e9d9468d7b7871edce95fb41", null ],

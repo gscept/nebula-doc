@@ -2,9 +2,9 @@ var class_i_o_1_1_copy_file =
 [
     [ "CopyFile", "class_i_o_1_1_copy_file.html#a02e62b68acc923d6d0f1f43c5ee5a43b", null ],
     [ "__DeclareClass", "class_i_o_1_1_copy_file.html#ad6852bacb7e33bebef60628f4d6c8237", null ],
-    [ "GetFromURI", "class_i_o_1_1_copy_file.html#a38ed1b28fd9ef16e39680276609c4b75", null ],
+    [ "GetFromURI", "class_i_o_1_1_copy_file.html#a7499ddba3d7c8aaf2225bea338ecda65", null ],
     [ "GetResult", "class_i_o_1_1_copy_file.html#a26515290e2058fd1218b74089bc57f42", null ],
-    [ "GetToURI", "class_i_o_1_1_copy_file.html#ab67522700f50ba9899f8dc564b83d4c3", null ],
+    [ "GetToURI", "class_i_o_1_1_copy_file.html#a2eb9bf8c8979d62aedb3a9c14942a098", null ],
     [ "SetFromURI", "class_i_o_1_1_copy_file.html#aba2f4b50d80ca9b9c0e25a3b57cd5b21", null ],
     [ "SetResult", "class_i_o_1_1_copy_file.html#a9a355943a3a64cf1fbe99302cf88f006", null ],
     [ "SetToURI", "class_i_o_1_1_copy_file.html#a4ec2d4358d074c3a7c8e708823817c09", null ],

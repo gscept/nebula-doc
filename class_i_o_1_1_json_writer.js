@@ -9,6 +9,7 @@ var class_i_o_1_1_json_writer =
     [ "Add", "class_i_o_1_1_json_writer.html#aa2d9008e5d79de07064cd0d70f7439ac", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#aa5771bdf1fccc2ae9f675e9e379f53d1", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#ad3e3ca08a50c826e6368a2c505a81656", null ],
+    [ "Add", "class_i_o_1_1_json_writer.html#acbb743f7c96362e621bb8bb812cbb160", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a050dee69c4f5fcb6e571fa085f30394f", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#ad029e1392ebe1e705159b28d1cda03d0", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a86d212b552aae90a8bb775695b5759a1", null ],

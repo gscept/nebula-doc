@@ -1,8 +1,8 @@
 var namespace_profiling =
 [
+    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
     [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
     [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ],
-    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
     [ "ProfilingClear", "namespace_profiling.html#a352478be2693c70b157d5152dd25d601", null ],
     [ "ProfilingDecreaseCounter", "namespace_profiling.html#a7ed4a468cc81f8e986ebd8e51c24e485", null ],
     [ "ProfilingGetContexts", "namespace_profiling.html#a6746b2cd8f941288f2b0b2b4ee0258ed", null ],

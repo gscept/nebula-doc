@@ -1,7 +1,7 @@
 var cvar_8cc =
 [
-    [ "CVarValue", "struct_core_1_1_c_var_value.html", "struct_core_1_1_c_var_value" ],
-    [ "CVar", "struct_core_1_1_c_var.html", "struct_core_1_1_c_var" ],
+    [ "Core::CVarValue", "struct_core_1_1_c_var_value.html", "struct_core_1_1_c_var_value" ],
+    [ "Core::CVar", "struct_core_1_1_c_var.html", "struct_core_1_1_c_var" ],
     [ "CVarCreate", "cvar_8cc.html#a39c4d7bd171eac5cc54894341cd6b032", null ],
     [ "CVarCreate", "cvar_8cc.html#a64007334fba5bfd6079e4a2392aecf2b", null ],
     [ "CVarGet", "cvar_8cc.html#a461f80073b5f7154358700e5b48f3e8c", null ],

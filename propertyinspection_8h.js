@@ -1,6 +1,6 @@
 var propertyinspection_8h =
 [
-    [ "PropertyInspection", "class_game_1_1_property_inspection.html", "class_game_1_1_property_inspection" ],
+    [ "Game::PropertyInspection", "class_game_1_1_property_inspection.html", "class_game_1_1_property_inspection" ],
     [ "PropertyDrawFuncT", "propertyinspection_8h.html#a3ae1080292e631d77875e797649a2ad5", null ],
     [ "PropertyDrawFuncT< float >", "propertyinspection_8h.html#a872e73d30fbe8a7d53fa02186c889dda", null ],
     [ "PropertyDrawFuncT< Game::Entity >", "propertyinspection_8h.html#a2337632aa92f9b1cb56229417b50f5b6", null ],

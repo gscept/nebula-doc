@@ -1,6 +1,6 @@
 var plane_8h =
 [
-    [ "plane", "struct_math_1_1plane.html", "struct_math_1_1plane" ],
+    [ "Math::plane", "struct_math_1_1plane.html", "struct_math_1_1plane" ],
     [ "clip", "plane_8h.html#a6c814a471f23def327660b84a0e9bd29", null ],
     [ "dot", "plane_8h.html#a510fbc915472127fe199417d98a04fe4", null ],
     [ "get_normal", "plane_8h.html#ae25ca97d65e13a62c089394ede63291a", null ],

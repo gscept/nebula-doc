@@ -1,6 +1,6 @@
 var cvar_8h =
 [
-    [ "CVarCreateInfo", "struct_core_1_1_c_var_create_info.html", "struct_core_1_1_c_var_create_info" ],
+    [ "Core::CVarCreateInfo", "struct_core_1_1_c_var_create_info.html", "struct_core_1_1_c_var_create_info" ],
     [ "CVarType", "cvar_8h.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0", [
       [ "CVar_Int", "cvar_8h.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460", null ],
       [ "CVar_Float", "cvar_8h.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd", null ],

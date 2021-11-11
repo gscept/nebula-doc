@@ -1,10 +1,10 @@
 var image_8h =
 [
-    [ "ImageId", "struct_core_graphics_1_1_image_id.html", null ],
-    [ "ImageCreateInfoFile", "struct_core_graphics_1_1_image_create_info_file.html", "struct_core_graphics_1_1_image_create_info_file" ],
-    [ "ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", "struct_core_graphics_1_1_image_create_info_data" ],
-    [ "ImageDimensions", "struct_core_graphics_1_1_image_dimensions.html", "struct_core_graphics_1_1_image_dimensions" ],
-    [ "ImageLoadInfo", "struct_core_graphics_1_1_image_load_info.html", "struct_core_graphics_1_1_image_load_info" ],
+    [ "CoreGraphics::ImageId", "struct_core_graphics_1_1_image_id.html", null ],
+    [ "CoreGraphics::ImageCreateInfoFile", "struct_core_graphics_1_1_image_create_info_file.html", "struct_core_graphics_1_1_image_create_info_file" ],
+    [ "CoreGraphics::ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", "struct_core_graphics_1_1_image_create_info_data" ],
+    [ "CoreGraphics::ImageDimensions", "struct_core_graphics_1_1_image_dimensions.html", "struct_core_graphics_1_1_image_dimensions" ],
+    [ "CoreGraphics::ImageLoadInfo", "struct_core_graphics_1_1_image_load_info.html", "struct_core_graphics_1_1_image_load_info" ],
     [ "ImageAllocator", "image_8h.html#a5b91aa8d9d536bc0f7dc97e74061b59d", null ],
     [ "ImageChannelPrimitive", "image_8h.html#a8e938721ff7b2b1538a60163b1760334", [
       [ "Bit8Uint", "image_8h.html#a8e938721ff7b2b1538a60163b1760334a388cd50177f921559ce2cafd2bb301c7", null ],

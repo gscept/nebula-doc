@@ -21,7 +21,7 @@ var class_lighting_1_1_c_s_m_util =
     [ "ComputeFrustumPoints", "class_lighting_1_1_c_s_m_util.html#af6d129d5b9c8035298df90739c08de4c", null ],
     [ "ComputeNearAndFar", "class_lighting_1_1_c_s_m_util.html#ac01d1dd2bdc6303c9c45ea96734817bf", null ],
     [ "GetCameraEntity", "class_lighting_1_1_c_s_m_util.html#a51a3be420d82740601057430bc66f405", null ],
-    [ "GetCascadeCamera", "class_lighting_1_1_c_s_m_util.html#a420cd245d3ffea6bcfd9c7de75149453", null ],
+    [ "GetCascadeCamera", "class_lighting_1_1_c_s_m_util.html#abaf3f30df44f3f3f9f3ff34dbc817977", null ],
     [ "GetCascadeDistances", "class_lighting_1_1_c_s_m_util.html#a86a11b69f01eb4cdd7b26e97991ba633", null ],
     [ "GetCascadeProjectionTransforms", "class_lighting_1_1_c_s_m_util.html#a202adf07c9d9d1d1cbfd548f5022ec6f", null ],
     [ "GetCascadeViewProjection", "class_lighting_1_1_c_s_m_util.html#aab119e43b8cdcd137b760e1946ea7288", null ],
