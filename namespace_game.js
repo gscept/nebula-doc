@@ -1,5 +1,10 @@
 var namespace_game =
 [
+    [ "Internal", "namespace_game_1_1_internal.html", [
+      [ "SetInclusive", "namespace_game_1_1_internal.html#a37ec552c945a490f60974fb83bbbe138", null ],
+      [ "UnrollInclusiveProperties", "namespace_game_1_1_internal.html#afa34a7818e0d5da6617be0375976f22d", null ],
+      [ "update_expander", "namespace_game_1_1_internal.html#a81c56b6251bf3a1c0ea9c4fd0c255bf4", null ]
+    ] ],
     [ "Op", "namespace_game_1_1_op.html", "namespace_game_1_1_op" ],
     [ "TimeManager", "namespace_game_1_1_time_manager.html", "namespace_game_1_1_time_manager" ],
     [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
@@ -34,7 +39,7 @@ var namespace_game =
     [ "Filter", "namespace_game.html#a1662e5ccb92417291ab5653883de7145", null ],
     [ "InclusiveTableMask", "namespace_game.html#a2aa320391917088b2e65f9bba2984a23", null ],
     [ "OpBuffer", "namespace_game.html#a3210076ff42bb92806741300ba14b265", null ],
-    [ "ProcessorFrameCallback", "namespace_game.html#a1641fb8cf39d7e88e745dc9e637a9cf4", null ],
+    [ "ProcessorFrameCallback", "namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2", null ],
     [ "ProcessorHandle", "namespace_game.html#a74b0ad357b08d17f221b65b804193303", null ],
     [ "ProcessorInfo", "namespace_game.html#a69df18504c439f3171b43c0de6463f02", null ],
     [ "PropertyArray", "namespace_game.html#af5722f23777d2c89030c84c5a76294b8", null ],
@@ -105,6 +110,7 @@ var namespace_game =
     [ "Query", "namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
     [ "RegisterProcessors", "namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
+    [ "RegisterUpdateFunction", "namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a", null ],
     [ "ReleaseAllOps", "namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "SetProperty", "namespace_game.html#a88809311a19aa093021fa29592f8add6", null ],

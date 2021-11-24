@@ -34,6 +34,7 @@ var mat4_8h =
     [ "scaling", "mat4_8h.html#ae579d6db1579841ccd57dd7c36b3b767", null ],
     [ "scaling", "mat4_8h.html#a6c79e4bb333a34167d8dd866f9f25564", null ],
     [ "scaling", "mat4_8h.html#acd486d176085fd8c7110428f83821a98", null ],
+    [ "skewsymmetric", "mat4_8h.html#a9d2b600b17f33766e9b360bfd4eb6b63", null ],
     [ "transformation", "mat4_8h.html#aa3336b811691e30c5f74f34c58e97a54", null ],
     [ "translation", "mat4_8h.html#a9aa096dd00d03acd7ef9d27c6ac44d0d", null ],
     [ "translation", "mat4_8h.html#a4d58b8a571fe3d1246601493191bf6c3", null ],

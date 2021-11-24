@@ -14,7 +14,7 @@ var api_8h =
     [ "WORLD_DEFAULT", "api_8h.html#a2facca052e7f70954ea5527e354b742a", null ],
     [ "Filter", "api_8h.html#a1662e5ccb92417291ab5653883de7145", null ],
     [ "OpBuffer", "api_8h.html#a3210076ff42bb92806741300ba14b265", null ],
-    [ "ProcessorFrameCallback", "api_8h.html#a1641fb8cf39d7e88e745dc9e637a9cf4", null ],
+    [ "ProcessorFrameCallback", "api_8h.html#a1b3ee48ba7e537489b84b4131d4fbbc2", null ],
     [ "ProcessorHandle", "api_8h.html#a74b0ad357b08d17f221b65b804193303", null ],
     [ "AccessMode", "api_8h.html#a65d276183efa9f25a5dc430be10c207e", [
       [ "READ", "api_8h.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1", null ],
@@ -70,9 +70,13 @@ var api_8h =
     [ "Query", "api_8h.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "api_8h.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
     [ "RegisterProcessors", "api_8h.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
+    [ "RegisterUpdateFunction", "api_8h.html#ae71a39346e976c4ecd5cdd8081e20a8a", null ],
     [ "ReleaseAllOps", "api_8h.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
+    [ "SetInclusive", "api_8h.html#a37ec552c945a490f60974fb83bbbe138", null ],
     [ "SetProperty", "api_8h.html#a88809311a19aa093021fa29592f8add6", null ],
     [ "SetProperty", "api_8h.html#af3ca2ebb6179f76998273394bd3e78f4", null ],
+    [ "UnrollInclusiveProperties", "api_8h.html#afa34a7818e0d5da6617be0375976f22d", null ],
+    [ "update_expander", "api_8h.html#a81c56b6251bf3a1c0ea9c4fd0c255bf4", null ],
     [ "MAX_NUM_CATEGORIES", "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb", null ]
 ];

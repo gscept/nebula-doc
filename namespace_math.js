@@ -276,6 +276,7 @@ var namespace_math =
     [ "select", "namespace_math.html#a0bfde09bd0984abf9d7998f96623577b", null ],
     [ "sgn", "namespace_math.html#ac09f44188c6d509f6a14cfcc31b1a409", null ],
     [ "sin", "namespace_math.html#adf68f3b185be7b7d1eff1f47b7b91dde", null ],
+    [ "skewsymmetric", "namespace_math.html#a9d2b600b17f33766e9b360bfd4eb6b63", null ],
     [ "slerp", "namespace_math.html#a4888e237383d5fa2f0c694ab75a8627f", null ],
     [ "smoothstep", "namespace_math.html#a9b96a5fde858c583a2ecbf840ea41984", null ],
     [ "splat", "namespace_math.html#a3885784001f8755cf6b52fb80dafa18b", null ],

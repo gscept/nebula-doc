@@ -1,5 +1,14 @@
 var NAVTREEINDEX102 =
 {
+"namespace_base.html#a7c22758adc52e4298a4f4f308bd869fd":[8,0,4,18],
+"namespace_base.html#aa94a8e02161a101a6b21f03bb0762f28":[8,0,4,31],
+"namespace_base.html#ab8a56e07626236531a00e5e96291a71e":[8,0,4,16],
+"namespace_base.html#abf96c9d56f909878a0be8245406008da":[8,0,4,28],
+"namespace_base.html#ad15007e1c7368b08957884a2394e759e":[8,0,4,22],
+"namespace_base.html#ae082d99ad35fb117daa71c074565158d":[8,0,4,20],
+"namespace_base.html#af71fbe1fcfdc0ed1688e45e6a5782a47":[8,0,4,29],
+"namespace_base.html#afb75c20e907e8c20125c079e11c9571e":[8,0,4,17],
+"namespace_base_game_feature.html":[8,0,5],
 "namespace_base_game_feature.html#a48651ab75185bf7432735e71666924ea":[8,0,5,2],
 "namespace_base_game_feature.html#aa871baa711e7f7e229097861d228dc81":[8,0,5,1],
 "namespace_characters.html":[8,0,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX102 =
 "namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a217846ee5ad5de6a33349f1724cb2508":[8,0,11,139,2],
 "namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a25b6cb26bec972f235a948bccc08d755":[8,0,11,139,5],
 "namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a2f1d86c40b6e6949edf02eb02d17dbcd":[8,0,11,139,1],
-"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a786880ba0464d02d7a8e94682eac1e33":[8,0,11,139,6],
-"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a909ba47fa06fda6f1e5e1ed1845462a5":[8,0,11,139,7],
-"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a9634e7dd2e8820e016b7eb25cf3de24f":[8,0,11,139,0],
-"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656ab36e433ecd0a923151afbb9128a2e9bf":[8,0,11,139,4],
-"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656adbb5f0be4ec07ce13a6c57b1b9b6cdee":[8,0,11,139,3],
-"namespace_core_graphics.html#a42953b33a9f1341113d9678071a4bd29":[8,0,11,477],
-"namespace_core_graphics.html#a43391cf72a2a75807c4af2aa44dc1f4a":[8,0,11,182],
-"namespace_core_graphics.html#a4352ed4f576df9dbb30d0271189dd765":[8,0,11,425],
-"namespace_core_graphics.html#a4453be2ae5bf4627c727439c6be99835":[8,0,11,481],
-"namespace_core_graphics.html#a44c7f8335cf6faa543c23814ab5aa4cf":[8,0,11,532]
+"namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656a786880ba0464d02d7a8e94682eac1e33":[8,0,11,139,6]
 };

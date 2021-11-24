@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"class_vulkan_1_1_vk_text_renderer.html#a8378d5b6a51bb8e8a2c5f9870d58aa0e":[9,0,61,32,12],
+"class_vulkan_1_1_vk_text_renderer.html#a83a0562bba0ef45745a6eeda7ee99ed9":[9,0,61,32,3],
+"class_vulkan_1_1_vk_text_renderer.html#a83a0562bba0ef45745a6eeda7ee99ed9":[8,0,70,32,3],
+"class_vulkan_1_1_vk_text_renderer.html#a8f321f5bc3d2485be7ebafbe2cd69306":[9,0,61,32,11],
+"class_vulkan_1_1_vk_text_renderer.html#a8f321f5bc3d2485be7ebafbe2cd69306":[8,0,70,32,11],
+"class_vulkan_1_1_vk_text_renderer.html#aa34b94a337bcf600cc7cd885fce925a5":[9,0,61,32,17],
+"class_vulkan_1_1_vk_text_renderer.html#aa34b94a337bcf600cc7cd885fce925a5":[8,0,70,32,17],
+"class_vulkan_1_1_vk_text_renderer.html#aa669c1ed919af6010417e7b421ef6ce3":[8,0,70,32,1],
 "class_vulkan_1_1_vk_text_renderer.html#aa669c1ed919af6010417e7b421ef6ce3":[9,0,61,32,1],
 "class_vulkan_1_1_vk_text_renderer.html#ab350278bf9aa13033e1aed08ec072a40":[9,0,61,32,18],
 "class_vulkan_1_1_vk_text_renderer.html#ab350278bf9aa13033e1aed08ec072a40":[8,0,70,32,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[8,0,71,2,1],
 "class_win32_1_1_win32_calendar_time.html#a74d6e044ddc97631555a49dd0580dbb6":[9,0,62,2,7],
 "class_win32_1_1_win32_calendar_time.html#a74d6e044ddc97631555a49dd0580dbb6":[8,0,71,2,7],
-"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[8,0,71,2,2],
-"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[9,0,62,2,2],
-"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[8,0,71,2,5],
-"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[9,0,62,2,5],
-"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[8,0,71,2,6],
-"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[9,0,62,2,6],
-"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[9,0,62,2,0],
-"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[8,0,71,2,0],
-"class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[8,0,71,2,4]
+"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[8,0,71,2,2]
 };

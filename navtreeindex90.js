@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"class_win32_1_1_win32_mini_dump.html#aa318e98431ea503528a57adc29ee101c":[9,0,62,16,1],
+"class_win32_1_1_win32_mini_dump.html#af3c378d0a6c0be87f5942e038e8cbf60":[9,0,62,16,3],
+"class_win32_1_1_win32_mini_dump.html#af3c378d0a6c0be87f5942e038e8cbf60":[8,0,71,16,3],
+"class_win32_1_1_win32_mini_dump.html#af958d2bb4d493ed720459fff70e86687":[8,0,71,16,0],
+"class_win32_1_1_win32_mini_dump.html#af958d2bb4d493ed720459fff70e86687":[9,0,62,16,0],
+"class_win32_1_1_win32_process.html":[9,0,62,17],
+"class_win32_1_1_win32_process.html":[8,0,71,17],
+"class_win32_1_1_win32_process.html#a030cc4a5c70ba23a00e8e9b8e3eabe10":[9,0,62,17,4],
 "class_win32_1_1_win32_process.html#a030cc4a5c70ba23a00e8e9b8e3eabe10":[8,0,71,17,4],
 "class_win32_1_1_win32_process.html#a049b21ac5fd87f79fc75e761616013bc":[8,0,71,17,9],
 "class_win32_1_1_win32_process.html#a049b21ac5fd87f79fc75e761616013bc":[9,0,62,17,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "class_win32_1_1_win32_socket.html#a6b7608ea71a84fce4c76ef27ef8882cf":[8,0,71,20,36],
 "class_win32_1_1_win32_socket.html#a72233362f54dbb8dff0e92eb7dd0b368":[9,0,62,20,14],
 "class_win32_1_1_win32_socket.html#a72233362f54dbb8dff0e92eb7dd0b368":[8,0,71,20,14],
-"class_win32_1_1_win32_socket.html#a72e52f48a33d3e5b103884cd3a166fa5":[8,0,71,20,58],
-"class_win32_1_1_win32_socket.html#a72e52f48a33d3e5b103884cd3a166fa5":[9,0,62,20,58],
-"class_win32_1_1_win32_socket.html#a76373e00d4f2d81564843c2011ebc727":[8,0,71,20,48],
-"class_win32_1_1_win32_socket.html#a76373e00d4f2d81564843c2011ebc727":[9,0,62,20,48],
-"class_win32_1_1_win32_socket.html#a81eeb202779c595a1be9d6b69849543f":[8,0,71,20,27],
-"class_win32_1_1_win32_socket.html#a81eeb202779c595a1be9d6b69849543f":[9,0,62,20,27],
-"class_win32_1_1_win32_socket.html#a8d57a94d3e12a3b73deb2dfce37305d1":[8,0,71,20,46],
-"class_win32_1_1_win32_socket.html#a8d57a94d3e12a3b73deb2dfce37305d1":[9,0,62,20,46],
-"class_win32_1_1_win32_socket.html#a90b1ed3e3c04dfdea823cf5af03f1d80":[9,0,62,20,1]
+"class_win32_1_1_win32_socket.html#a72e52f48a33d3e5b103884cd3a166fa5":[8,0,71,20,58]
 };

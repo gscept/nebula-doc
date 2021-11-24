@@ -1,5 +1,13 @@
 var NAVTREEINDEX88 =
 {
+"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[9,0,62,2,2],
+"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[8,0,71,2,5],
+"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[9,0,62,2,5],
+"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[8,0,71,2,6],
+"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[9,0,62,2,6],
+"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[9,0,62,2,0],
+"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[8,0,71,2,0],
+"class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[8,0,71,2,4],
 "class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[9,0,62,2,4],
 "class_win32_1_1_win32_console_handler.html":[8,0,71,3],
 "class_win32_1_1_win32_console_handler.html":[9,0,62,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX88 =
 "class_win32_1_1_win32_f_s_wrapper.html#ac813ee4c1d7ae8ed5fff6c165d2b647f":[8,0,71,10,5],
 "class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[9,0,62,10,21],
 "class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[8,0,71,10,21],
-"class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69":[9,0,62,10,11],
-"class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69":[8,0,71,10,11],
-"class_win32_1_1_win32_f_s_wrapper.html#acd3849aad0f25ec8cc78e8b530ba82b7":[8,0,71,10,9],
-"class_win32_1_1_win32_f_s_wrapper.html#acd3849aad0f25ec8cc78e8b530ba82b7":[9,0,62,10,9],
-"class_win32_1_1_win32_f_s_wrapper.html#ad27abdd157105d19e93db4de3ef90f8d":[8,0,71,10,34],
-"class_win32_1_1_win32_f_s_wrapper.html#ad27abdd157105d19e93db4de3ef90f8d":[9,0,62,10,34],
-"class_win32_1_1_win32_f_s_wrapper.html#ad488bbc2e0113d94728153df00e416ba":[8,0,71,10,16],
-"class_win32_1_1_win32_f_s_wrapper.html#ad488bbc2e0113d94728153df00e416ba":[9,0,62,10,16],
-"class_win32_1_1_win32_f_s_wrapper.html#adfbdf61158f3adae28043b5d7f23a1fe":[8,0,71,10,6]
+"class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69":[9,0,62,10,11]
 };
