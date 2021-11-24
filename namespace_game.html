@@ -371,10 +371,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae310e24923bcd9e81e2f6242b250846d"><td class="memTemplItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae310e24923bcd9e81e2f6242b250846d">GetProperty</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> const pid)</td></tr>
 <tr class="memdesc:ae310e24923bcd9e81e2f6242b250846d"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed get property method  <a href="namespace_game.html#ae310e24923bcd9e81e2f6242b250846d">More...</a><br /></td></tr>
 <tr class="separator:ae310e24923bcd9e81e2f6242b250846d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memTemplParams" colspan="2">template&lt;typename ... TYPES&gt; </td></tr>
-<tr class="memitem:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a">RegisterUpdateFunction</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> &gt; exclusive={})</td></tr>
-<tr class="memdesc:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">register an update function that runs for each entity that fulfill the requirements of the function, and does not have any properties contained in the exclusive set.  <a href="namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a">More...</a><br /></td></tr>
-<tr class="separator:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memTemplParams" colspan="2">template&lt;typename ... TYPES&gt; </td></tr>
+<tr class="memitem:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06">RegisterUpdateFunction</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> &gt; additionalInclusive={}, std::initializer_list&lt; <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> &gt; exclusive={})</td></tr>
+<tr class="memdesc:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">register an update function that runs for each entity that fulfill the requirements of the function, contains any of the additional inclusive propertoes, and does not have any properties contained in the exclusive set.  <a href="namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06">More...</a><br /></td></tr>
+<tr class="separator:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0034b34d272ba9724134e915f84c9ec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0034b34d272ba9724134e915f84c9ec0">__ImplementClass</a> (<a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a>, 'GAFE', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a0034b34d272ba9724134e915f84c9ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d23932cc3378e918db65cf24fec44c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a84d23932cc3378e918db65cf24fec44c">__ImplementClass</a> (<a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a>, 'GMSV', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
@@ -2328,8 +2328,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="ae71a39346e976c4ecd5cdd8081e20a8a" name="ae71a39346e976c4ecd5cdd8081e20a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae71a39346e976c4ecd5cdd8081e20a8a">&#9670;&nbsp;</a></span>RegisterUpdateFunction()</h2>
+<a id="adf0bd978ccaf1f254b0c7d56e33d6a06" name="adf0bd978ccaf1f254b0c7d56e33d6a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf0bd978ccaf1f254b0c7d56e33d6a06">&#9670;&nbsp;</a></span>RegisterUpdateFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2361,6 +2361,12 @@ template&lt;typename ... TYPES&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::initializer_list&lt; <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> &gt;&#160;</td>
+          <td class="paramname"><em>additionalInclusive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a> &gt;&#160;</td>
           <td class="paramname"><em>exclusive</em>&#160;</td>
         </tr>
         <tr>
@@ -2376,7 +2382,7 @@ template&lt;typename ... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>register an update function that runs for each entity that fulfill the requirements of the function, and does not have any properties contained in the exclusive set. </p>
+<p>register an update function that runs for each entity that fulfill the requirements of the function, contains any of the additional inclusive propertoes, and does not have any properties contained in the exclusive set. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>ability to register different event types </dd></dl>
 
 </div>
@@ -2644,7 +2650,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Wed Nov 24 2021 14:33:18 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 24 2021 15:13:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

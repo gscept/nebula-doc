@@ -198,7 +198,7 @@ var searchData=
   ['registerslot_195',['RegisterSlot',['../class_linux_1_1_linux_thread_local_data.html#a32b653d5347b2585ce9e03dc450a4ab9',1,'Linux::LinuxThreadLocalData']]],
   ['registerstreampool_196',['RegisterStreamPool',['../class_resources_1_1_resource_server.html#a1d50609abfd6bab470459a5b2fcacecc',1,'Resources::ResourceServer']]],
   ['registertexture_197',['RegisterTexture',['../class_vulkan_1_1_vk_shader_server.html#ad35c12f43f1d0616ddfe14405723451f',1,'Vulkan::VkShaderServer']]],
-  ['registerupdatefunction_198',['RegisterUpdateFunction',['../namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a',1,'Game']]],
+  ['registerupdatefunction_198',['RegisterUpdateFunction',['../namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06',1,'Game']]],
   ['registerurischeme_199',['RegisterUriScheme',['../class_i_o_1_1_scheme_registry.html#a40b53f4515569f3a852f9abd4a36fcda',1,'IO::SchemeRegistry']]],
   ['registerview_200',['RegisterView',['../class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add',1,'GraphicsFeature::CameraManager']]],
   ['registry_201',['registry',['../class_mem_db_1_1_type_registry.html#a78c6384cb4089eb3b5f3aa293278f95b',1,'MemDb::TypeRegistry']]],

@@ -110,7 +110,7 @@ var namespace_game =
     [ "Query", "namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
     [ "RegisterProcessors", "namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
-    [ "RegisterUpdateFunction", "namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a", null ],
+    [ "RegisterUpdateFunction", "namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06", null ],
     [ "ReleaseAllOps", "namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "SetProperty", "namespace_game.html#a88809311a19aa093021fa29592f8add6", null ],

@@ -70,7 +70,7 @@ var api_8h =
     [ "Query", "api_8h.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "api_8h.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
     [ "RegisterProcessors", "api_8h.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
-    [ "RegisterUpdateFunction", "api_8h.html#ae71a39346e976c4ecd5cdd8081e20a8a", null ],
+    [ "RegisterUpdateFunction", "api_8h.html#adf0bd978ccaf1f254b0c7d56e33d6a06", null ],
     [ "ReleaseAllOps", "api_8h.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "SetInclusive", "api_8h.html#a37ec552c945a490f60974fb83bbbe138", null ],

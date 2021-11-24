@@ -333,10 +333,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
 <tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the property decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
 <tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memTemplParams" colspan="2">template&lt;typename ... TYPES&gt; </td></tr>
-<tr class="memitem:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a">Game::RegisterUpdateFunction</a> (World *, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; PropertyId &gt; exclusive={})</td></tr>
-<tr class="memdesc:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">register an update function that runs for each entity that fulfill the requirements of the function, and does not have any properties contained in the exclusive set.  <a href="namespace_game.html#ae71a39346e976c4ecd5cdd8081e20a8a">More...</a><br /></td></tr>
-<tr class="separator:ae71a39346e976c4ecd5cdd8081e20a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memTemplParams" colspan="2">template&lt;typename ... TYPES&gt; </td></tr>
+<tr class="memitem:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06">Game::RegisterUpdateFunction</a> (World *, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; PropertyId &gt; additionalInclusive={}, std::initializer_list&lt; PropertyId &gt; exclusive={})</td></tr>
+<tr class="memdesc:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">register an update function that runs for each entity that fulfill the requirements of the function, contains any of the additional inclusive propertoes, and does not have any properties contained in the exclusive set.  <a href="namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06">More...</a><br /></td></tr>
+<tr class="separator:adf0bd978ccaf1f254b0c7d56e33d6a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ec552c945a490f60974fb83bbbe138"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
 <tr class="memitem:a37ec552c945a490f60974fb83bbbe138"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a37ec552c945a490f60974fb83bbbe138">Game::Internal::SetInclusive</a> (<a class="el" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a> &amp;filterInfo, size_t const i)</td></tr>
 <tr class="separator:a37ec552c945a490f60974fb83bbbe138"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,7 +374,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8h.html">api.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 24 2021 14:33:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 24 2021 15:13:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
