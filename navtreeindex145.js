@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"struct_vulkan_1_1_vk_pass_runtime_info.html#a52675cdd32ee02644cc0a48cb038b074":[9,0,61,20,1],
 "struct_vulkan_1_1_vk_pass_runtime_info.html#a671f28686fa5747fbbd7e46b059c0bb6":[9,0,61,20,4],
 "struct_vulkan_1_1_vk_pass_runtime_info.html#a671f28686fa5747fbbd7e46b059c0bb6":[8,0,70,20,4],
 "struct_vulkan_1_1_vk_pass_runtime_info.html#aa2406faf27ab887aabff73327f0b5b9b":[9,0,61,20,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ac97d25f383324bbdeab9d45699e852a4":[8,0,70,31,1,4],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ad0e879514a6648f406f589cc351d0c4c":[8,0,70,31,1,1],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ad0e879514a6648f406f589cc351d0c4c":[9,0,61,31,1,1],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html":[9,0,61,32,0],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html":[8,0,70,32,0]
+"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html":[9,0,61,32,0]
 };

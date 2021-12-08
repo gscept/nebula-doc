@@ -1,5 +1,6 @@
 var NAVTREEINDEX112 =
 {
+"namespace_util.html#a2663641470c1ec3e4a9c821e9115e45a":[8,0,67,70],
 "namespace_util.html#a2827363ca08e6877a2389395e69f1d34":[8,0,67,43],
 "namespace_util.html#a2a86c99896c2a818350b124592d5867c":[8,0,67,94],
 "namespace_util.html#a3158c18bad3c53f6b28e106254d1bd99":[8,0,67,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX112 =
 "namespace_vulkan.html#aa49ad167b06db00b1e686a14293dd959":[8,0,70,106],
 "namespace_vulkan.html#aa76704e9ec01dd66fb18531c671d95b7":[8,0,70,134],
 "namespace_vulkan.html#aa7ad4f806312dea1dcc2717102533529":[8,0,70,90],
-"namespace_vulkan.html#aa8228c3898173b6839327192e5f61151":[8,0,70,71],
-"namespace_vulkan.html#aa835139bcbfe3dca555bad143617ea37":[8,0,70,118]
+"namespace_vulkan.html#aa8228c3898173b6839327192e5f61151":[8,0,70,71]
 };

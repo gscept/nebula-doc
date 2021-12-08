@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[8,0,11,0,3,1],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084ae4bf8b84258be913c6fbc1b7a306d73f":[8,0,11,0,3,0],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a6aab867c39446cc5bc75dec8870052f7":[8,0,11,0,1],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a6aab867c39446cc5bc75dec8870052f7a207b73eb1749b53656c88f1795d197d7":[8,0,11,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "namespace_game.html#ae8969ce9a2d196230ee19fb60e71ca7b":[8,0,23,40],
 "namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4":[8,0,23,104],
 "namespace_game.html#af5722f23777d2c89030c84c5a76294b8":[8,0,23,38],
-"namespace_game.html#af9feb138a19d6fe0556bbd2e54a86f57":[8,0,23,51],
-"namespace_game.html#afb3ae593b72175e2e0bc393e113d7252":[8,0,23,39]
+"namespace_game.html#af9feb138a19d6fe0556bbd2e54a86f57":[8,0,23,51]
 };

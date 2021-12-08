@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"struct_im3d_1_1_vec2.html#a66e020a2a6d5dd2adb341a75e16a9526":[8,0,30,18,6],
 "struct_im3d_1_1_vec2.html#a66e020a2a6d5dd2adb341a75e16a9526":[9,0,28,18,6],
 "struct_im3d_1_1_vec2.html#accef2539378f9c74bef5b26da0012e06":[8,0,30,18,4],
 "struct_im3d_1_1_vec2.html#accef2539378f9c74bef5b26da0012e06":[9,0,28,18,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a886d4f66398a87f829b997d29c54cca8":[9,0,32,9,0,2],
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a886d4f66398a87f829b997d29c54cca8":[8,0,35,9,0,2],
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#ac19bb89792900316769083434dbb8330":[9,0,32,9,0,3],
-"struct_jobs_1_1_job_thread_1_1_job_thread_command.html#ac19bb89792900316769083434dbb8330":[8,0,35,9,0,3],
-"struct_jobs_1_1_job_thread_1_1_job_thread_command.html#acbe79464a96f73b924d7d7d6aed2887a":[9,0,32,9,0,6]
+"struct_jobs_1_1_job_thread_1_1_job_thread_command.html#ac19bb89792900316769083434dbb8330":[8,0,35,9,0,3]
 };

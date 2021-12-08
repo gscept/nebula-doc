@@ -1,5 +1,6 @@
 var NAVTREEINDEX153 =
 {
+"vksemaphore_8h_source.html":[10,0,0,6,5,5,41],
 "vkshader_8cc.html":[10,0,0,6,5,5,42],
 "vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4":[10,0,0,6,5,5,42,2],
 "vkshader_8cc.html#a1ec7b419ad97f9ea165bf3b9af7c93c0":[10,0,0,6,5,5,42,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX153 =
 "win32memory_8h.html#a0eec3879696b8c31037f6adbf4508656":[10,0,0,3,12,3,3,7],
 "win32memory_8h.html#a14517e963e99328b613214e380d4c06c":[10,0,0,3,12,3,3,18],
 "win32memory_8h.html#a249029285b4083577dc09dcb2116f21d":[10,0,0,3,12,3,3,17],
-"win32memory_8h.html#a24993fac616060d0f19f14d43fc27103":[10,0,0,3,12,3,3,8],
-"win32memory_8h.html#a2f4c1f2844efb2ea8057c83f1c9d3f99":[10,0,0,3,12,3,3,4]
+"win32memory_8h.html#a24993fac616060d0f19f14d43fc27103":[10,0,0,3,12,3,3,8]
 };

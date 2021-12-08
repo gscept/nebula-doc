@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67ca4a18312b5b75f549d5551e5912ad6ebf":[8,0,25,9,4,1],
 "struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67ca4a18312b5b75f549d5551e5912ad6ebf":[9,0,23,9,4,1],
 "struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67cafaa90538de35640e4b1e31ccf35b6eb5":[8,0,25,9,4,0],
 "struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67cafaa90538de35640e4b1e31ccf35b6eb5":[9,0,23,9,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "struct_gltf_1_1_skin.html#a4804ac5b57ffa996a2ff1b882503da69":[8,0,25,15,3],
 "struct_gltf_1_1_skin.html#a4804ac5b57ffa996a2ff1b882503da69":[9,0,23,15,3],
 "struct_gltf_1_1_skin.html#acfef325019ab668e0b26b09c74994df6":[8,0,25,15,2],
-"struct_gltf_1_1_skin.html#acfef325019ab668e0b26b09c74994df6":[9,0,23,15,2],
-"struct_gltf_1_1_texture.html":[9,0,23,16]
+"struct_gltf_1_1_skin.html#acfef325019ab668e0b26b09c74994df6":[9,0,23,15,2]
 };

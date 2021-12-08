@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"sqlite3database_8h.html":[10,0,0,0,1,0,3],
 "sqlite3database_8h.html#a5a87fe0fe05b73127772316ba386dc7f":[10,0,0,0,1,0,3,8],
 "sqlite3database_8h.html#a62b11ae524c1a4e281d0c596624599c0":[10,0,0,0,1,0,3,3],
 "sqlite3database_8h.html#a77ef0a7e5d6756d5095d25d721f3347a":[10,0,0,0,1,0,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "stringatomtablebase_8h.html":[10,0,0,3,19,50],
 "stringatomtablebase_8h_source.html":[10,0,0,3,19,50],
 "stringattrid_8h.html":[10,0,0,0,0,21],
-"stringattrid_8h_source.html":[10,0,0,0,0,21],
-"stringbuffer_8cc.html":[10,0,0,3,19,51]
+"stringattrid_8h_source.html":[10,0,0,0,0,21]
 };
