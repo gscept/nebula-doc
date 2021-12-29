@@ -2,10 +2,11 @@ var physicsinterface_8cc =
 [
     [ "PHYSX_MEMORY_ALLOCATION_DEBUG", "physicsinterface_8cc.html#aadac1e3946162bbf64e9907be7968ce4", null ],
     [ "PHYSX_THREADS", "physicsinterface_8cc.html#a5f15be9bbb075e18b754c00d35770edb", null ],
-    [ "CreateActorInstance", "physicsinterface_8cc.html#afd6520d406771134a865d02206f3f0bb", null ],
+    [ "CreateActorInstance", "physicsinterface_8cc.html#a4c3e6825bf7dc167bef16d361209ed07", null ],
     [ "CreateMaterial", "physicsinterface_8cc.html#a3a827d90b7854e6db24dfed94d036609", null ],
     [ "CreateScene", "physicsinterface_8cc.html#ae73f5a76a7de9f0607733be67e604fe8", null ],
     [ "DestroyActorInstance", "physicsinterface_8cc.html#ab23ccb60b91a7e41592288f856e68ef2", null ],
+    [ "DestroyScene", "physicsinterface_8cc.html#ab7a3d44ccfd6366c4d4aeafd2aabc0df", null ],
     [ "GetMaterial", "physicsinterface_8cc.html#a7d4b133f6964b0e8a1d0f25e472ccb8a", null ],
     [ "GetNrMaterials", "physicsinterface_8cc.html#a3b0738dc40f8ee43d14b350d394ba542", null ],
     [ "GetScene", "physicsinterface_8cc.html#a06a97b72f4565260a296050f0559b9c2", null ],

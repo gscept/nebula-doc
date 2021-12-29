@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad286ff4628107081f40cf24940e79639"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_actor_pool.html#ad286ff4628107081f40cf24940e79639">Setup</a> ()</td></tr>
 <tr class="memdesc:ad286ff4628107081f40cf24940e79639"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup resource loader, initiates the placeholder and error resources if valid  <a href="class_physics_1_1_stream_actor_pool.html#ad286ff4628107081f40cf24940e79639">More...</a><br /></td></tr>
 <tr class="separator:ad286ff4628107081f40cf24940e79639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a3ab9ce2cdc98d1e301800829e1779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_actor_pool.html#ab3a3ab9ce2cdc98d1e301800829e1779">CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">ActorResourceId</a> id, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;trans, bool dynamic, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene=0)</td></tr>
-<tr class="separator:ab3a3ab9ce2cdc98d1e301800829e1779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdc3abb371985d5686a1eec82fc61d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_actor_pool.html#a7fdc3abb371985d5686a1eec82fc61d8">CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">ActorResourceId</a> id, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;trans, bool dynamic, uint64_t userData, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene=0)</td></tr>
+<tr class="separator:a7fdc3abb371985d5686a1eec82fc61d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ce8b2aae06c0d48fd0d700a246cb435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_actor_pool.html#a6ce8b2aae06c0d48fd0d700a246cb435">DiscardActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
 <tr class="memdesc:a6ce8b2aae06c0d48fd0d700a246cb435"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroys an actor, if the actor was created from a resource it also reduces use count of resource  <a href="class_physics_1_1_stream_actor_pool.html#a6ce8b2aae06c0d48fd0d700a246cb435">More...</a><br /></td></tr>
 <tr class="separator:a6ce8b2aae06c0d48fd0d700a246cb435"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -442,8 +442,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3a3ab9ce2cdc98d1e301800829e1779" name="ab3a3ab9ce2cdc98d1e301800829e1779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3a3ab9ce2cdc98d1e301800829e1779">&#9670;&nbsp;</a></span>CreateActorInstance()</h2>
+<a id="a7fdc3abb371985d5686a1eec82fc61d8" name="a7fdc3abb371985d5686a1eec82fc61d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdc3abb371985d5686a1eec82fc61d8">&#9670;&nbsp;</a></span>CreateActorInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,6 +465,12 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>dynamic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>userData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -648,7 +654,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li><li class="navelem"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a></li>
 				<li class="footer">
-					Generated on Thu Dec 9 2021 07:58:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Dec 29 2021 21:52:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

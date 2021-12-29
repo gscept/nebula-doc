@@ -755,13 +755,11 @@ var annotated_dup =
       [ "ActorResourceId", "struct_physics_1_1_actor_resource_id.html", null ],
       [ "Allocator", "class_physics_1_1_allocator.html", "class_physics_1_1_allocator" ],
       [ "ColliderId", "struct_physics_1_1_collider_id.html", null ],
-      [ "ColliderInfo", "struct_physics_1_1_collider_info.html", "struct_physics_1_1_collider_info" ],
       [ "ErrorCallback", "class_physics_1_1_error_callback.html", "class_physics_1_1_error_callback" ],
       [ "Material", "struct_physics_1_1_material.html", "struct_physics_1_1_material" ],
       [ "PhysxState", "class_physics_1_1_physx_state.html", "class_physics_1_1_physx_state" ],
       [ "Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
       [ "StreamActorPool", "class_physics_1_1_stream_actor_pool.html", "class_physics_1_1_stream_actor_pool" ],
-      [ "StreamColliderPool", "class_physics_1_1_stream_collider_pool.html", "class_physics_1_1_stream_collider_pool" ],
       [ "VisualDebugger", "class_physics_1_1_visual_debugger.html", "class_physics_1_1_visual_debugger" ]
     ] ],
     [ "PhysicsFeature", "namespace_physics_feature.html", [

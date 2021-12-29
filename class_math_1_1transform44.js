@@ -12,6 +12,7 @@ var class_math_1_1transform44 =
     [ "loadu", "class_math_1_1transform44.html#aad6ad24bc10ba0aaa8ffa9db4ff774b6", null ],
     [ "operator==", "class_math_1_1transform44.html#a55e1047084ba72b4d26cf225cb026ae1", null ],
     [ "setoffset", "class_math_1_1transform44.html#a29141581bd373a91096a440e47d3e484", null ],
+    [ "setposition", "class_math_1_1transform44.html#ab228612e9bfcf9e1cb99226f112cdf01", null ],
     [ "setposition", "class_math_1_1transform44.html#a5f8e684beda56d5616ac877f3e85ba23", null ],
     [ "setrotate", "class_math_1_1transform44.html#acd59eeb1c2e558e284ef7ebc40664fd2", null ],
     [ "setrotatepivot", "class_math_1_1transform44.html#ac4d575be2e22114d1c825333644820bd", null ],

@@ -7,13 +7,11 @@ var namespace_physics =
     [ "ActorResourceId", "struct_physics_1_1_actor_resource_id.html", null ],
     [ "Allocator", "class_physics_1_1_allocator.html", "class_physics_1_1_allocator" ],
     [ "ColliderId", "struct_physics_1_1_collider_id.html", null ],
-    [ "ColliderInfo", "struct_physics_1_1_collider_info.html", "struct_physics_1_1_collider_info" ],
     [ "ErrorCallback", "class_physics_1_1_error_callback.html", "class_physics_1_1_error_callback" ],
     [ "Material", "struct_physics_1_1_material.html", "struct_physics_1_1_material" ],
     [ "PhysxState", "class_physics_1_1_physx_state.html", "class_physics_1_1_physx_state" ],
     [ "Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
     [ "StreamActorPool", "class_physics_1_1_stream_actor_pool.html", "class_physics_1_1_stream_actor_pool" ],
-    [ "StreamColliderPool", "class_physics_1_1_stream_collider_pool.html", "class_physics_1_1_stream_collider_pool" ],
     [ "VisualDebugger", "class_physics_1_1_visual_debugger.html", "class_physics_1_1_visual_debugger" ],
     [ "ColliderType", "namespace_physics.html#ab314f5785bbdfd095bec6645da31053c", [
       [ "ColliderSphere", "namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2", null ],
@@ -38,15 +36,15 @@ var namespace_physics =
     ] ],
     [ "PhysicsIdType", "namespace_physics.html#a84683982878b1fb79fdf30ea55833d3c", [
       [ "ActorIdType", "namespace_physics.html#a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393", null ],
-      [ "ColliderIdType", "namespace_physics.html#a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc", null ],
       [ "MeshIdType", "namespace_physics.html#a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2", null ]
     ] ],
     [ "__ImplementInterfaceSingleton", "namespace_physics.html#a0368af9719e96dbc887fb459c19be76b", null ],
-    [ "CreateActorInstance", "namespace_physics.html#afd6520d406771134a865d02206f3f0bb", null ],
+    [ "CreateActorInstance", "namespace_physics.html#a4c3e6825bf7dc167bef16d361209ed07", null ],
     [ "CreateMaterial", "namespace_physics.html#a3a827d90b7854e6db24dfed94d036609", null ],
     [ "CreateMeshFromResource", "namespace_physics.html#ae265583c83772de449325aa336952257", null ],
     [ "CreateScene", "namespace_physics.html#ae73f5a76a7de9f0607733be67e604fe8", null ],
     [ "DestroyActorInstance", "namespace_physics.html#ab23ccb60b91a7e41592288f856e68ef2", null ],
+    [ "DestroyScene", "namespace_physics.html#ab7a3d44ccfd6366c4d4aeafd2aabc0df", null ],
     [ "GetMaterial", "namespace_physics.html#a7d4b133f6964b0e8a1d0f25e472ccb8a", null ],
     [ "GetNrMaterials", "namespace_physics.html#a3b0738dc40f8ee43d14b350d394ba542", null ],
     [ "GetScene", "namespace_physics.html#a06a97b72f4565260a296050f0559b9c2", null ],
@@ -63,6 +61,5 @@ var namespace_physics =
     [ "ShutDown", "namespace_physics.html#a53923e58ea149e8f8e4466431ff849e5", null ],
     [ "Update", "namespace_physics.html#ad5748751ba9e48a61c03652dffa14298", null ],
     [ "actorPool", "namespace_physics.html#a1c7349cf74a45ddd8711ccea28d9cc1a", null ],
-    [ "colliderPool", "namespace_physics.html#ad79a8ead12fdb26c40df96a57ee415fb", null ],
     [ "state", "namespace_physics.html#a5d7e67f29d053fb99802313566779814", null ]
 ];

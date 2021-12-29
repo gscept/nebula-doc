@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('namespace_physics.html',''); initResiz
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Diverse functions for manipulating physics actors. </p>
-<p >Implements a resource loader for physics shapes Can be either primitive shapes or meshes saved in seperate files.</p>
 <p >Implements a resource loader for physics actors.</p>
 <p ><a class="el" href="namespace_physics.html" title="Diverse functions for manipulating physics actors.">Physics</a> shape enums.</p>
 <p >Physics::DebugUI.</p>
@@ -118,8 +117,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_collider_id.html">ColliderId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_collider_info.html">ColliderInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_error_callback.html">ErrorCallback</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_material.html">Material</a></td></tr>
@@ -130,8 +127,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">physx scene classes, foundation and physics are duplicated here for convenience instead of static getters, might be removed later on  <a href="struct_physics_1_1_scene.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_stream_collider_pool.html">StreamColliderPool</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_visual_debugger.html">VisualDebugger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that communicates with the physics visual debugger program.  <a href="class_physics_1_1_visual_debugger.html#details">More...</a><br /></td></tr>
@@ -167,7 +162,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:ab314f5785bbdfd095bec6645da31053c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84683982878b1fb79fdf30ea55833d3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a84683982878b1fb79fdf30ea55833d3c">PhysicsIdType</a> { <a class="el" href="namespace_physics.html#a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393">ActorIdType</a>
-, <a class="el" href="namespace_physics.html#a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc">ColliderIdType</a>
 , <a class="el" href="namespace_physics.html#a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2">MeshIdType</a>
  }</td></tr>
 <tr class="separator:a84683982878b1fb79fdf30ea55833d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +188,8 @@ Functions</h2></td></tr>
 <tr class="separator:a53923e58ea149e8f8e4466431ff849e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae73f5a76a7de9f0607733be67e604fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ae73f5a76a7de9f0607733be67e604fe8">CreateScene</a> ()</td></tr>
 <tr class="separator:ae73f5a76a7de9f0607733be67e604fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a3d44ccfd6366c4d4aeafd2aabc0df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ab7a3d44ccfd6366c4d4aeafd2aabc0df">DestroyScene</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sceneId)</td></tr>
+<tr class="separator:ab7a3d44ccfd6366c4d4aeafd2aabc0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06a97b72f4565260a296050f0559b9c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a06a97b72f4565260a296050f0559b9c2">GetScene</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx)</td></tr>
 <tr class="separator:a06a97b72f4565260a296050f0559b9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a325331d3ad9046ad39aefd9b16c88e9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a325331d3ad9046ad39aefd9b16c88e9b">RenderDebug</a> ()</td></tr>
@@ -214,8 +210,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad5748751ba9e48a61c03652dffa14298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298">Update</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
 <tr class="memdesc:ad5748751ba9e48a61c03652dffa14298"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform simulation step(s)  <a href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298">More...</a><br /></td></tr>
 <tr class="separator:ad5748751ba9e48a61c03652dffa14298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd6520d406771134a865d02206f3f0bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#afd6520d406771134a865d02206f3f0bb">CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">Physics::ActorResourceId</a> id, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;trans, bool dynamic, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="separator:afd6520d406771134a865d02206f3f0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3e6825bf7dc167bef16d361209ed07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a4c3e6825bf7dc167bef16d361209ed07">CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">Physics::ActorResourceId</a> id, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;trans, bool dynamic, uint64_t userData, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
+<tr class="separator:a4c3e6825bf7dc167bef16d361209ed07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab23ccb60b91a7e41592288f856e68ef2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ab23ccb60b91a7e41592288f856e68ef2">DestroyActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> id)</td></tr>
 <tr class="separator:ab23ccb60b91a7e41592288f856e68ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd62c5ad29dab0fbfc5a00d3df0b718"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a1fd62c5ad29dab0fbfc5a00d3df0b718">HandleCollisions</a> ()</td></tr>
@@ -227,8 +223,6 @@ Variables</h2></td></tr>
 <tr class="separator:a5d7e67f29d053fb99802313566779814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7349cf74a45ddd8711ccea28d9cc1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a1c7349cf74a45ddd8711ccea28d9cc1a">actorPool</a> = nullptr</td></tr>
 <tr class="separator:a1c7349cf74a45ddd8711ccea28d9cc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad79a8ead12fdb26c40df96a57ee415fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_1_1_stream_collider_pool.html">StreamColliderPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ad79a8ead12fdb26c40df96a57ee415fb">colliderPool</a> = nullptr</td></tr>
-<tr class="separator:ad79a8ead12fdb26c40df96a57ee415fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ab314f5785bbdfd095bec6645da31053c" name="ab314f5785bbdfd095bec6645da31053c"></a>
@@ -307,7 +301,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393" name="a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393"></a>ActorIdType&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc" name="a84683982878b1fb79fdf30ea55833d3cab4334c2aee6284fd8f53d0b5175b91bc"></a>ColliderIdType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2" name="a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2"></a>MeshIdType&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -332,8 +325,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="afd6520d406771134a865d02206f3f0bb" name="afd6520d406771134a865d02206f3f0bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd6520d406771134a865d02206f3f0bb">&#9670;&nbsp;</a></span>CreateActorInstance()</h2>
+<a id="a4c3e6825bf7dc167bef16d361209ed07" name="a4c3e6825bf7dc167bef16d361209ed07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3e6825bf7dc167bef16d361209ed07">&#9670;&nbsp;</a></span>CreateActorInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,6 +348,12 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>dynamic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>userData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -488,6 +487,24 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7a3d44ccfd6366c4d4aeafd2aabc0df" name="ab7a3d44ccfd6366c4d4aeafd2aabc0df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a3d44ccfd6366c4d4aeafd2aabc0df">&#9670;&nbsp;</a></span>DestroyScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::DestroyScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>sceneId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -781,20 +798,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad79a8ead12fdb26c40df96a57ee415fb" name="ad79a8ead12fdb26c40df96a57ee415fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad79a8ead12fdb26c40df96a57ee415fb">&#9670;&nbsp;</a></span>colliderPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_physics_1_1_stream_collider_pool.html">StreamColliderPool</a> * Physics::colliderPool = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5d7e67f29d053fb99802313566779814" name="a5d7e67f29d053fb99802313566779814"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d7e67f29d053fb99802313566779814">&#9670;&nbsp;</a></span>state</h2>
 
@@ -816,7 +819,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li>
 				<li class="footer">
-					Generated on Thu Dec 9 2021 07:58:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Dec 29 2021 21:52:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
