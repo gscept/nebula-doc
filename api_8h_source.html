@@ -356,14 +356,14 @@ $(document).ready(function(){initNavTree('api_8h_source.html',''); initResizable
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>        <span class="keyword">using</span> <a class="code hl_typedef" href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a> = <span class="keyword">typename</span> std::remove_const&lt;typename std::remove_reference&lt;TYPE&gt;::type&gt;::type;</div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span> </div>
 <div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>        filterInfo.<a class="code hl_variable" href="struct_game_1_1_filter_create_info.html#af6587f010f9d4e37003de7eb589985be">inclusive</a>[i] = UnqualifiedType::ID();</div>
-<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>        filterInfo.<a class="code hl_variable" href="struct_game_1_1_filter_create_info.html#aeb912d236fee9afa253cf1245651f39d">access</a>[i] = std::is_const&lt;std::remove_reference&lt;TYPE&gt;::type&gt;() ? <a class="code hl_enumvalue" href="namespace_game.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1">Game::AccessMode::READ</a> : <a class="code hl_enumvalue" href="namespace_game.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826">Game::AccessMode::WRITE</a>;</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>        filterInfo.<a class="code hl_variable" href="struct_game_1_1_filter_create_info.html#aeb912d236fee9afa253cf1245651f39d">access</a>[i] = std::is_const&lt;typename std::remove_reference&lt;TYPE&gt;::type&gt;() ? <a class="code hl_enumvalue" href="namespace_game.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1">Game::AccessMode::READ</a> : <a class="code hl_enumvalue" href="namespace_game.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826">Game::AccessMode::WRITE</a>;</div>
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>        filterInfo.<a class="code hl_variable" href="struct_game_1_1_filter_create_info.html#a33a1d758e38df19b56aa696984fdfbf1">numInclusive</a>++;</div>
 <div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>    }</div>
 <div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span> </div>
 <div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>...TYPES, std::size_t...Is&gt;</div>
 <div class="line"><a id="l00414" name="l00414"></a><span class="lineno"><a class="line" href="namespace_game_1_1_internal.html#afa34a7818e0d5da6617be0375976f22d">  414</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_game_1_1_internal.html#afa34a7818e0d5da6617be0375976f22d">UnrollInclusiveProperties</a>(<a class="code hl_struct" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a>&amp; filterInfo, std::index_sequence&lt;Is...&gt;)</div>
 <div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>    {</div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>        (<a class="code hl_function" href="namespace_game_1_1_internal.html#a37ec552c945a490f60974fb83bbbe138">SetInclusive</a>&lt;std::tuple_element&lt;Is, std::tuple&lt;TYPES...&gt;&gt;::type&gt;(filterInfo, Is), ...);</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>        (<a class="code hl_function" href="namespace_game_1_1_internal.html#a37ec552c945a490f60974fb83bbbe138">SetInclusive</a>&lt;<span class="keyword">typename</span> std::tuple_element&lt;Is, std::tuple&lt;TYPES...&gt;&gt;::type&gt;(filterInfo, Is), ...);</div>
 <div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>    }</div>
 <div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span> </div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>...TYPES, std::size_t...Is&gt;</div>
@@ -558,7 +558,7 @@ $(document).ready(function(){initNavTree('api_8h_source.html',''); initResizable
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8h.html">api.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 11:53:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Dec 30 2021 14:07:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
