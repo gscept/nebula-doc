@@ -135,14 +135,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a10dcfcd06d6b6f553f80c4e5c2499586"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586">JobAlloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
 <tr class="memdesc:a10dcfcd06d6b6f553f80c4e5c2499586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory and progress memory iterator.  <a href="namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586">More...</a><br /></td></tr>
 <tr class="separator:a10dcfcd06d6b6f553f80c4e5c2499586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
-<tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#a0322ffa1816a2d22e2c0a641e1f529ee">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
-<tr class="memdesc:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch job.  <a href="namespace_jobs2.html#a0322ffa1816a2d22e2c0a641e1f529ee">More...</a><br /></td></tr>
-<tr class="separator:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab27208e726408d55041641050c6c499e"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
-<tr class="memitem:ab27208e726408d55041641050c6c499e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#ab27208e726408d55041641050c6c499e">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
-<tr class="memdesc:ab27208e726408d55041641050c6c499e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch job as a single group (to be run on a single thread)  <a href="namespace_jobs2.html#ab27208e726408d55041641050c6c499e">More...</a><br /></td></tr>
-<tr class="separator:ab27208e726408d55041641050c6c499e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed0db3844c71360126a8a9f9f1e9753"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
 <tr class="memitem:afed0db3844c71360126a8a9f9f1e9753"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const CTX &amp;context)</td></tr>
 <tr class="memdesc:afed0db3844c71360126a8a9f9f1e9753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append job to sequence with an automatic dependency on the previous job.  <a href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">More...</a><br /></td></tr>
@@ -151,6 +143,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d2fef55952e65782c911c87d3e2c4ad"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad">JobAppendSequence</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const CTX &amp;context)</td></tr>
 <tr class="memdesc:a0d2fef55952e65782c911c87d3e2c4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append job to sequence with an automatic dependency on the previous job, to run on a single thread.  <a href="namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad">More...</a><br /></td></tr>
 <tr class="separator:a0d2fef55952e65782c911c87d3e2c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
+<tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#a0322ffa1816a2d22e2c0a641e1f529ee">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
+<tr class="separator:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27208e726408d55041641050c6c499e"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
+<tr class="memitem:ab27208e726408d55041641050c6c499e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#ab27208e726408d55041641050c6c499e">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
+<tr class="separator:ab27208e726408d55041641050c6c499e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -401,8 +399,6 @@ template&lt;typename CTX &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Dispatch job as a single group (to be run on a single thread) </p>
-
 </div>
 </div>
 <a id="a0322ffa1816a2d22e2c0a641e1f529ee" name="a0322ffa1816a2d22e2c0a641e1f529ee"></a>
@@ -462,8 +458,6 @@ template&lt;typename CTX &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Dispatch job. </p>
 
 </div>
 </div>
@@ -595,7 +589,7 @@ template&lt;typename CTX &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs2.html">Jobs2</a></li>
 				<li class="footer">
-					Generated on Sun Jan 23 2022 22:54:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 23:48:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
