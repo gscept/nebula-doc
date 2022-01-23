@@ -1,15 +1,12 @@
 var class_models_1_1_character_node =
 [
-    [ "Instance", "struct_models_1_1_character_node_1_1_instance.html", "struct_models_1_1_character_node_1_1_instance" ],
     [ "SkinList", "struct_models_1_1_character_node_1_1_skin_list.html", "struct_models_1_1_character_node_1_1_skin_list" ],
     [ "CharacterNode", "class_models_1_1_character_node.html#a0c793f2cc66eb8ca074c368034e06389", null ],
     [ "~CharacterNode", "class_models_1_1_character_node.html#a5e5b8b853a450e116bc13d5c0cd2b27d", null ],
-    [ "CreateInstance", "class_models_1_1_character_node.html#a6b4b833b10ab484d2673fa6f11b251f0", null ],
     [ "Discard", "class_models_1_1_character_node.html#ac9964f9e84ffe575d8a961d57c561ac0", null ],
     [ "GetAnimationResourceId", "class_models_1_1_character_node.html#aee11f23331ef0295d8d254613e536a53", null ],
     [ "GetAnimResource", "class_models_1_1_character_node.html#a0e99a2643264e4d744c4b223f90a9630", null ],
     [ "GetImplicitHierarchyActivation", "class_models_1_1_character_node.html#a6e22110df427ae2b3789f4046e611529", null ],
-    [ "GetInstanceSize", "class_models_1_1_character_node.html#a39896f77bc1dd8b02133b9b094295378", null ],
     [ "Load", "class_models_1_1_character_node.html#a9a77d46e3b37e10989402931c1bc68fc", null ],
     [ "OnFinishedLoading", "class_models_1_1_character_node.html#a1ddd7e10f66cea2970f18bbb817d8ecd", null ],
     [ "OnResourcesLoaded", "class_models_1_1_character_node.html#aec9e0bf7ff6215cf9c619ff34b3dd00b", null ],

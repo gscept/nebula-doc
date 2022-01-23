@@ -93,9 +93,11 @@ $(document).ready(function(){initNavTree('namespace_threading.html',''); initRes
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A mutex object which will assert instead of lock the thread. </p>
+<div class="textblock"><p >The <a class="el" href="namespace_jobs2.html">Jobs2</a> system provides a set of threads and a pool of jobs from which threads can pickup work. </p>
 <p >A frame pass prepares a rendering sequence, draws and subpasses must reside within one of these objects.</p>
 <p >A read write lock is a type of thread synchronization primitive which supports for a multiple consumers, single producer pattern.</p>
+<p >A mutex object which will assert instead of lock the thread.</p>
+<p >(C) 2021 Individual contributors, see AUTHORS file</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
 <pre class="fragment">A lock-free queue implements a queue which completely relies on atomic operations.
 
@@ -154,6 +156,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_threading_1_1_critical_scope.html">CriticalScope</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_event_with_manual_reset.html">EventWithManualReset</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_lock_free_queue.html">LockFreeQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_threading_1_1_object_ref.html">ObjectRef</a></td></tr>
@@ -173,6 +177,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a5e1a0a87f18165bfb9f1bd8dbc8da48b"><td class="memItemLeft" align="right" valign="top">typedef volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">AtomicCounter</a></td></tr>
+<tr class="separator:a5e1a0a87f18165bfb9f1bd8dbc8da48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3ee688d0de0946e6d8f66b15736b86"><td class="memItemLeft" align="right" valign="top">typedef pthread_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86">ThreadId</a></td></tr>
 <tr class="separator:a5a3ee688d0de0946e6d8f66b15736b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd167aec3b510f86fdd09fd989669636"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading.html#abd167aec3b510f86fdd09fd989669636">RWAccessFlags</a></td></tr>
@@ -204,6 +210,20 @@ Variables</h2></td></tr>
 <tr class="separator:a5620c6c1016951cd2f56ba670b5412ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a5e1a0a87f18165bfb9f1bd8dbc8da48b" name="a5e1a0a87f18165bfb9f1bd8dbc8da48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e1a0a87f18165bfb9f1bd8dbc8da48b">&#9670;&nbsp;</a></span>AtomicCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef volatile int <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abd167aec3b510f86fdd09fd989669636" name="abd167aec3b510f86fdd09fd989669636"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd167aec3b510f86fdd09fd989669636">&#9670;&nbsp;</a></span>RWAccessFlags</h2>
 
@@ -384,7 +404,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_threading.html">Threading</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

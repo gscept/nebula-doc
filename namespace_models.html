@@ -110,9 +110,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_id.html">ModelId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html">ModelNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,7 +120,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_stream_model_pool.html">StreamModelPool</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_stream_model_cache.html">StreamModelCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_transform_node.html">TransformNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +144,16 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7">HasStateBit</a> = N_BIT(2)
  }</td></tr>
 <tr class="separator:abb3acbc147d8734c70568ad6b95e3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ca55daed3c501c162e90e235ff1e46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> { <br />
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a">NodeInstance_Active</a> = N_BIT(1)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1">NodeInstance_LodActive</a> = N_BIT(2)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248">NodeInstance_AlwaysVisible</a> = N_BIT(3)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a">NodeInstance_Visible</a> = N_BIT(4)
+, <br />
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877">NodeInstance_Moved</a> = N_BIT(5)
+<br />
+ }</td></tr>
+<tr class="separator:a37ca55daed3c501c162e90e235ff1e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -153,37 +163,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">DestroyModel</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id)</td></tr>
 <tr class="memdesc:a2c1aae4f2466c8c4ebf819884f81405b"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard model (resource)  <a href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">More...</a><br /></td></tr>
 <tr class="separator:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e7088971fa6de0797593191226923c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ab6e7088971fa6de0797593191226923c">CreateModelInstance</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> mdl)</td></tr>
-<tr class="memdesc:ab6e7088971fa6de0797593191226923c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model instance  <a href="namespace_models.html#ab6e7088971fa6de0797593191226923c">More...</a><br /></td></tr>
-<tr class="separator:ab6e7088971fa6de0797593191226923c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a1703f3ba0bb7babf97ea5a5866a1e646">DestroyModelInstance</a> (const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a> id)</td></tr>
-<tr class="memdesc:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy model instance  <a href="namespace_models.html#a1703f3ba0bb7babf97ea5a5866a1e646">More...</a><br /></td></tr>
-<tr class="separator:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c6ed83ff3393ad88921c722694b364"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37c6ed83ff3393ad88921c722694b364">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120">NodeBits</a>)</td></tr>
 <tr class="separator:a37c6ed83ff3393ad88921c722694b364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5407681c81e3608dc4c7605c5380d032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a5407681c81e3608dc4c7605c5380d032">__ImplementContext</a> (<a class="el" href="class_models_1_1_model_context.html">ModelContext</a>, <a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">ModelContext::modelContextAllocator</a>)</td></tr>
 <tr class="separator:a5407681c81e3608dc4c7605c5380d032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2d9165e29ae772001849b295a92629f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ac2d9165e29ae772001849b295a92629f">ModelNodeInstanceCreator</a> (<a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a>) inline void <a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a></td></tr>
-<tr class="separator:ac2d9165e29ae772001849b295a92629f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea4f5801a7a73f6133d718d9556caff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a8ea4f5801a7a73f6133d718d9556caff">ModelNodeInstanceCreator</a> (<a class="el" href="class_models_1_1_primitive_node.html">PrimitiveNode</a>) inline void <a class="el" href="class_models_1_1_primitive_node.html">PrimitiveNode</a></td></tr>
-<tr class="separator:a8ea4f5801a7a73f6133d718d9556caff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56045b57fdf40620b034e679073ab63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ad56045b57fdf40620b034e679073ab63">ModelNodeInstanceCreator</a> (<a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a>) inline void <a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a></td></tr>
-<tr class="separator:ad56045b57fdf40620b034e679073ab63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab80c3207b37713186c1c49bf211e805e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ab80c3207b37713186c1c49bf211e805e">ModelNodeInstanceCreator</a> (<a class="el" href="class_models_1_1_transform_node.html">TransformNode</a>) inline void <a class="el" href="class_models_1_1_transform_node.html">TransformNode</a></td></tr>
-<tr class="separator:ab80c3207b37713186c1c49bf211e805e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2deac470faa8d447db436b01655c7bf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a2deac470faa8d447db436b01655c7bf4">__ImplementClass</a> (<a class="el" href="class_models_1_1_stream_model_pool.html">Models::StreamModelPool</a>, 'SMPO', <a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>)</td></tr>
-<tr class="separator:a2deac470faa8d447db436b01655c7bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a326d1f0246b9cee5ee390d5e8e9e022b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a326d1f0246b9cee5ee390d5e8e9e022b">ModelGetNodes</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id)</td></tr>
-<tr class="memdesc:a326d1f0246b9cee5ee390d5e8e9e022b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get node instances  <a href="namespace_models.html#a326d1f0246b9cee5ee390d5e8e9e022b">More...</a><br /></td></tr>
-<tr class="separator:a326d1f0246b9cee5ee390d5e8e9e022b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45cefe433f91b9450e55ac80e2b0549"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#aa45cefe433f91b9450e55ac80e2b0549">ModelInstanceGetNodes</a> (const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a> id)</td></tr>
-<tr class="memdesc:aa45cefe433f91b9450e55ac80e2b0549"><td class="mdescLeft">&#160;</td><td class="mdescRight">get node instances  <a href="namespace_models.html#aa45cefe433f91b9450e55ac80e2b0549">More...</a><br /></td></tr>
-<tr class="separator:aa45cefe433f91b9450e55ac80e2b0549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068a2c073e3cc7a8a20656c055109baf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a068a2c073e3cc7a8a20656c055109baf">ModelRenderableUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a068a2c073e3cc7a8a20656c055109baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0487792a3c3ff3a227fc977eebfcfe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ac0487792a3c3ff3a227fc977eebfcfe8">ModelTransformUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:ac0487792a3c3ff3a227fc977eebfcfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace65293e8a46006c46159f69723caf39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ace65293e8a46006c46159f69723caf39">__ImplementClass</a> (<a class="el" href="class_models_1_1_stream_model_cache.html">Models::StreamModelCache</a>, 'SMPO', <a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>)</td></tr>
+<tr class="separator:ace65293e8a46006c46159f69723caf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a019572bef03d92f59d49fde738ca0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ac8a019572bef03d92f59d49fde738ca0">ModelGetNodes</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id)</td></tr>
+<tr class="memdesc:ac8a019572bef03d92f59d49fde738ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get nodes.  <a href="namespace_models.html#ac8a019572bef03d92f59d49fde738ca0">More...</a><br /></td></tr>
+<tr class="separator:ac8a019572bef03d92f59d49fde738ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5f6108f77e692784bf9492bb55995c08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_models_1_1_stream_model_pool.html">StreamModelPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a5f6108f77e692784bf9492bb55995c08">modelPool</a></td></tr>
-<tr class="separator:a5f6108f77e692784bf9492bb55995c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4737f38ea853d52c5e29e91fffbf2e0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_models_1_1_stream_model_cache.html">StreamModelCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a4737f38ea853d52c5e29e91fffbf2e0b">modelPool</a></td></tr>
+<tr class="separator:a4737f38ea853d52c5e29e91fffbf2e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb16d485dfcc2dc93c6c6f1333b6ce7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_lock_free_queue.html">Threading::LockFreeQueue</a>&lt; std::function&lt; void()&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#aeb16d485dfcc2dc93c6c6f1333b6ce7b">setupCompleteQueue</a></td></tr>
 <tr class="separator:aeb16d485dfcc2dc93c6c6f1333b6ce7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -203,6 +200,27 @@ Variables</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abb3acbc147d8734c70568ad6b95e3120a80c24d1cbc4b00f978a996b0bf084316" name="abb3acbc147d8734c70568ad6b95e3120a80c24d1cbc4b00f978a996b0bf084316"></a>NoBits&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abb3acbc147d8734c70568ad6b95e3120acb6d7c3ca443143ecc97af7aa7813376" name="abb3acbc147d8734c70568ad6b95e3120acb6d7c3ca443143ecc97af7aa7813376"></a>HasTransformBit&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7" name="abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7"></a>HasStateBit&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a37ca55daed3c501c162e90e235ff1e46" name="a37ca55daed3c501c162e90e235ff1e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ca55daed3c501c162e90e235ff1e46">&#9670;&nbsp;</a></span>NodeInstanceFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">Models::NodeInstanceFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a" name="a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a"></a>NodeInstance_Active&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1" name="a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1"></a>NodeInstance_LodActive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248" name="a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248"></a>NodeInstance_AlwaysVisible&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a" name="a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a"></a>NodeInstance_Visible&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877" name="a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877"></a>NodeInstance_Moved&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -231,8 +249,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2deac470faa8d447db436b01655c7bf4" name="a2deac470faa8d447db436b01655c7bf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2deac470faa8d447db436b01655c7bf4">&#9670;&nbsp;</a></span>__ImplementClass()</h2>
+<a id="ace65293e8a46006c46159f69723caf39" name="ace65293e8a46006c46159f69723caf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace65293e8a46006c46159f69723caf39">&#9670;&nbsp;</a></span>__ImplementClass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +258,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">Models::__ImplementClass </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_models_1_1_stream_model_pool.html">Models::StreamModelPool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_models_1_1_stream_model_cache.html">Models::StreamModelCache</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -252,7 +270,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -331,26 +349,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab6e7088971fa6de0797593191226923c" name="ab6e7088971fa6de0797593191226923c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6e7088971fa6de0797593191226923c">&#9670;&nbsp;</a></span>CreateModelInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a> Models::CreateModelInstance </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>&#160;</td>
-          <td class="paramname"><em>mdl</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>create model instance </p>
-
-</div>
-</div>
 <a id="a2c1aae4f2466c8c4ebf819884f81405b" name="a2c1aae4f2466c8c4ebf819884f81405b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c1aae4f2466c8c4ebf819884f81405b">&#9670;&nbsp;</a></span>DestroyModel()</h2>
 
@@ -371,34 +369,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1703f3ba0bb7babf97ea5a5866a1e646" name="a1703f3ba0bb7babf97ea5a5866a1e646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1703f3ba0bb7babf97ea5a5866a1e646">&#9670;&nbsp;</a></span>DestroyModelInstance()</h2>
+<a id="ac8a019572bef03d92f59d49fde738ca0" name="ac8a019572bef03d92f59d49fde738ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8a019572bef03d92f59d49fde738ca0">&#9670;&nbsp;</a></span>ModelGetNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Models::DestroyModelInstance </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>destroy model instance </p>
-
-</div>
-</div>
-<a id="a326d1f0246b9cee5ee390d5e8e9e022b" name="a326d1f0246b9cee5ee390d5e8e9e022b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a326d1f0246b9cee5ee390d5e8e9e022b">&#9670;&nbsp;</a></span>ModelGetNodes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp; Models::ModelGetNodes </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp; Models::ModelGetNodes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -407,41 +385,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>get node instances </p>
+<p>Get nodes. </p>
 
 </div>
 </div>
-<a id="aa45cefe433f91b9450e55ac80e2b0549" name="aa45cefe433f91b9450e55ac80e2b0549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa45cefe433f91b9450e55ac80e2b0549">&#9670;&nbsp;</a></span>ModelInstanceGetNodes()</h2>
+<a id="a068a2c073e3cc7a8a20656c055109baf" name="a068a2c073e3cc7a8a20656c055109baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a068a2c073e3cc7a8a20656c055109baf">&#9670;&nbsp;</a></span>ModelRenderableUpdateJob()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp; Models::ModelInstanceGetNodes </td>
+          <td class="memname">void Models::ModelRenderableUpdateJob </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get node instances </p>
-
-</div>
-</div>
-<a id="ac2d9165e29ae772001849b295a92629f" name="ac2d9165e29ae772001849b295a92629f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2d9165e29ae772001849b295a92629f">&#9670;&nbsp;</a></span>ModelNodeInstanceCreator() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Models::ModelNodeInstanceCreator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -449,53 +407,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ea4f5801a7a73f6133d718d9556caff" name="a8ea4f5801a7a73f6133d718d9556caff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ea4f5801a7a73f6133d718d9556caff">&#9670;&nbsp;</a></span>ModelNodeInstanceCreator() <span class="overload">[2/4]</span></h2>
+<a id="ac0487792a3c3ff3a227fc977eebfcfe8" name="ac0487792a3c3ff3a227fc977eebfcfe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0487792a3c3ff3a227fc977eebfcfe8">&#9670;&nbsp;</a></span>ModelTransformUpdateJob()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Models::ModelNodeInstanceCreator </td>
+          <td class="memname">void Models::ModelTransformUpdateJob </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_models_1_1_primitive_node.html">PrimitiveNode</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad56045b57fdf40620b034e679073ab63" name="ad56045b57fdf40620b034e679073ab63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56045b57fdf40620b034e679073ab63">&#9670;&nbsp;</a></span>ModelNodeInstanceCreator() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Models::ModelNodeInstanceCreator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab80c3207b37713186c1c49bf211e805e" name="ab80c3207b37713186c1c49bf211e805e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab80c3207b37713186c1c49bf211e805e">&#9670;&nbsp;</a></span>ModelNodeInstanceCreator() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Models::ModelNodeInstanceCreator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_models_1_1_transform_node.html">TransformNode</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -504,14 +426,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a5f6108f77e692784bf9492bb55995c08" name="a5f6108f77e692784bf9492bb55995c08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f6108f77e692784bf9492bb55995c08">&#9670;&nbsp;</a></span>modelPool</h2>
+<a id="a4737f38ea853d52c5e29e91fffbf2e0b" name="a4737f38ea853d52c5e29e91fffbf2e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4737f38ea853d52c5e29e91fffbf2e0b">&#9670;&nbsp;</a></span>modelPool</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_models_1_1_stream_model_pool.html">StreamModelPool</a> * Models::modelPool</td>
+          <td class="memname"><a class="el" href="class_models_1_1_stream_model_cache.html">StreamModelCache</a> * Models::modelPool</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -539,7 +461,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

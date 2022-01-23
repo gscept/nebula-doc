@@ -5,7 +5,6 @@ var ssaocontext_8cc =
     [ "INV_LN2", "ssaocontext_8cc.html#a50507e4765774b478d72c5777bad8b23", null ],
     [ "MAX_RADIUS_PIXELS", "ssaocontext_8cc.html#ab7a95011059ae0368dbeee4dec8f9a88", null ],
     [ "SQRT_LN2", "ssaocontext_8cc.html#ada03cc261d3709c384786bfcc370020c", null ],
-    [ "TILE_WIDTH", "ssaocontext_8cc.html#a76108891dc4352082a676f2978ee446d", null ],
     [ "__ImplementPluginContext", "ssaocontext_8cc.html#a2b89ea5be690ace1c69eeff61a7b9025", null ],
     [ "aoResolution", "ssaocontext_8cc.html#a7d60e1e883ff6a079640b3a0e89ba8dd", null ],
     [ "aoResolutionVar", "ssaocontext_8cc.html#ac1a9802328ee5d66e57cff87d3fa73fe", null ],

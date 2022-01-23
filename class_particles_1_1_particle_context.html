@@ -172,9 +172,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e185a4fece32ac18403e7bd7c2a4e74"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a6e185a4fece32ac18403e7bd7c2a4e74">GetParticleVertexLayout</a> ()</td></tr>
 <tr class="memdesc:a6e185a4fece32ac18403e7bd7c2a4e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the shared vertex layout  <a href="class_particles_1_1_particle_context.html#a6e185a4fece32ac18403e7bd7c2a4e74">More...</a><br /></td></tr>
 <tr class="separator:a6e185a4fece32ac18403e7bd7c2a4e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f9ee0ec223eb8b1b7ec284ae33c093b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a6f9ee0ec223eb8b1b7ec284ae33c093b">GetBoundingBox</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:a6f9ee0ec223eb8b1b7ec284ae33c093b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get particle bounding box  <a href="class_particles_1_1_particle_context.html#a6f9ee0ec223eb8b1b7ec284ae33c093b">More...</a><br /></td></tr>
-<tr class="separator:a6f9ee0ec223eb8b1b7ec284ae33c093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affac600aa36ea35cbe30d62d30e70b81"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#affac600aa36ea35cbe30d62d30e70b81">GetParticlePrimitiveGroup</a> ()</td></tr>
+<tr class="memdesc:affac600aa36ea35cbe30d62d30e70b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the shared primitive group  <a href="class_particles_1_1_particle_context.html#affac600aa36ea35cbe30d62d30e70b81">More...</a><br /></td></tr>
+<tr class="separator:affac600aa36ea35cbe30d62d30e70b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d525349a5e4f0d88e4fa3faad92c39"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a08d525349a5e4f0d88e4fa3faad92c39">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:a08d525349a5e4f0d88e4fa3faad92c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug rendering  <a href="class_particles_1_1_particle_context.html#a08d525349a5e4f0d88e4fa3faad92c39">More...</a><br /></td></tr>
 <tr class="separator:a08d525349a5e4f0d88e4fa3faad92c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,17 +183,21 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a654189a239fb09df20091a57ee5109ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a654189a239fb09df20091a57ee5109ab">DefaultEmitterMesh</a></td></tr>
 <tr class="separator:a654189a239fb09df20091a57ee5109ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb27fc5279345d05d29e181b64317df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#afbb27fc5279345d05d29e181b64317df">totalCompletionCounter</a> = 0</td></tr>
+<tr class="separator:afbb27fc5279345d05d29e181b64317df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09fdb758d011abb450f47982bab6ab8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#ac09fdb758d011abb450f47982bab6ab8">totalCompletionEvent</a></td></tr>
+<tr class="separator:ac09fdb758d011abb450f47982bab6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
 <tr class="memitem:a2ac8c308db0d61b58ecfb4d787736519"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_particles_1_1_particle_context.html#a2ac8c308db0d61b58ecfb4d787736519a9459351f916c5e1a4b11740fac8a9727">ParticleSystems</a>
 , <a class="el" href="class_particles_1_1_particle_context.html#a2ac8c308db0d61b58ecfb4d787736519a0e459ed2adc6e975320eee87a3cae8f8">ModelId</a>
 , <a class="el" href="class_particles_1_1_particle_context.html#a2ac8c308db0d61b58ecfb4d787736519a67a08f1a1a334408e504c01ab14c8be6">Runtime</a>
-, <a class="el" href="class_particles_1_1_particle_context.html#a2ac8c308db0d61b58ecfb4d787736519a2aeeb63cb50ea07540df94be3e8b3ab1">BoundingBox</a>
+, <a class="el" href="class_particles_1_1_particle_context.html#a2ac8c308db0d61b58ecfb4d787736519a9b58cced9ef95a73673d3249a1af95fa">ModelContextId</a>
  }</td></tr>
 <tr class="separator:a2ac8c308db0d61b58ecfb4d787736519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1387e2d5f7e7eedf9d4b97ef53d2d7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a> &gt;, <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a>, <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a6d1387e2d5f7e7eedf9d4b97ef53d2d7">ParticleContextAllocator</a></td></tr>
-<tr class="separator:a6d1387e2d5f7e7eedf9d4b97ef53d2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6b77f73c69c3860813edd9d20bfbfb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a> &gt;, <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a>, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb">ParticleContextAllocator</a></td></tr>
+<tr class="separator:afa6b77f73c69c3860813edd9d20bfbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -202,9 +206,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a61d6f4f5ca6aa986d262a7607f2d8f75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a61d6f4f5ca6aa986d262a7607f2d8f75">EmitParticles</a> (<a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a> &amp;rt, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a> &amp;srt, float stepTime)</td></tr>
-<tr class="memdesc:a61d6f4f5ca6aa986d262a7607f2d8f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal function for emitting new particles  <a href="class_particles_1_1_particle_context.html#a61d6f4f5ca6aa986d262a7607f2d8f75">More...</a><br /></td></tr>
-<tr class="separator:a61d6f4f5ca6aa986d262a7607f2d8f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439aa9f6d5969648308b8bc6e2276325"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a439aa9f6d5969648308b8bc6e2276325">EmitParticles</a> (<a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a> &amp;rt, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a> &amp;srt, <a class="el" href="class_models_1_1_particle_system_node.html">Models::ParticleSystemNode</a> *node, float stepTime)</td></tr>
+<tr class="memdesc:a439aa9f6d5969648308b8bc6e2276325"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal function for emitting new particles  <a href="class_particles_1_1_particle_context.html#a439aa9f6d5969648308b8bc6e2276325">More...</a><br /></td></tr>
+<tr class="separator:a439aa9f6d5969648308b8bc6e2276325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34491a5c41172deb8e01e575a1373e73"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a34491a5c41172deb8e01e575a1373e73">EmitParticle</a> (<a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a> &amp;rt, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a> &amp;srt, const <a class="el" href="class_particles_1_1_emitter_attrs.html">Particles::EmitterAttrs</a> &amp;attrs, const <a class="el" href="class_particles_1_1_emitter_mesh.html">Particles::EmitterMesh</a> &amp;mesh, const <a class="el" href="class_particles_1_1_envelope_sample_buffer.html">Particles::EnvelopeSampleBuffer</a> &amp;buffer, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sampleIndex, float initialAge)</td></tr>
 <tr class="memdesc:a34491a5c41172deb8e01e575a1373e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal function for emitting single particle  <a href="class_particles_1_1_particle_context.html#a34491a5c41172deb8e01e575a1373e73">More...</a><br /></td></tr>
 <tr class="separator:a34491a5c41172deb8e01e575a1373e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,14 +224,12 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a59fe7110ee2b1b1aca1f05f9b11c2e48"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_particles_1_1_particle_context.html#a6d1387e2d5f7e7eedf9d4b97ef53d2d7">ParticleContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a59fe7110ee2b1b1aca1f05f9b11c2e48">particleContextAllocator</a></td></tr>
+<tr class="memitem:a59fe7110ee2b1b1aca1f05f9b11c2e48"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb">ParticleContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a59fe7110ee2b1b1aca1f05f9b11c2e48">particleContextAllocator</a></td></tr>
 <tr class="separator:a59fe7110ee2b1b1aca1f05f9b11c2e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a657e780168c28332fc1a2f8ad856ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_jobs_1_1_job_port_id.html">Jobs::JobPortId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a6a657e780168c28332fc1a2f8ad856ea">jobPort</a></td></tr>
-<tr class="separator:a6a657e780168c28332fc1a2f8ad856ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1e3164e2a8f80cf16926bfc522cc11"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_jobs_1_1_job_sync_id.html">Jobs::JobSyncId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a9f1e3164e2a8f80cf16926bfc522cc11">jobSync</a></td></tr>
 <tr class="separator:a9f1e3164e2a8f80cf16926bfc522cc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56de979056c2aadd068efa611c7e6190"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_jobs_1_1_job_id.html">Jobs::JobId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#a56de979056c2aadd068efa611c7e6190">runningJobs</a></td></tr>
-<tr class="separator:a56de979056c2aadd068efa611c7e6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3665e0ae35ff4869e355e6bf8e04bd4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_jobs_1_1_job_id.html">Jobs::JobId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particles_1_1_particle_context.html#ad3665e0ae35ff4869e355e6bf8e04bd4">runningJobs</a></td></tr>
+<tr class="separator:ad3665e0ae35ff4869e355e6bf8e04bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -241,8 +243,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a6d1387e2d5f7e7eedf9d4b97ef53d2d7" name="a6d1387e2d5f7e7eedf9d4b97ef53d2d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d1387e2d5f7e7eedf9d4b97ef53d2d7">&#9670;&nbsp;</a></span>ParticleContextAllocator</h2>
+<a id="afa6b77f73c69c3860813edd9d20bfbfb" name="afa6b77f73c69c3860813edd9d20bfbfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6b77f73c69c3860813edd9d20bfbfb">&#9670;&nbsp;</a></span>ParticleContextAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +253,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a>&gt;, <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a>, <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &gt; <a class="el" href="class_particles_1_1_particle_context.html#a6d1387e2d5f7e7eedf9d4b97ef53d2d7">Particles::ParticleContext::ParticleContextAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_particles_1_1_particle_context_1_1_particle_system_runtime.html">ParticleSystemRuntime</a>&gt;, <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="struct_particles_1_1_particle_context_1_1_particle_runtime.html">ParticleRuntime</a>, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; <a class="el" href="class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb">Particles::ParticleContext::ParticleContextAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -287,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2ac8c308db0d61b58ecfb4d787736519a9459351f916c5e1a4b11740fac8a9727" name="a2ac8c308db0d61b58ecfb4d787736519a9459351f916c5e1a4b11740fac8a9727"></a>ParticleSystems&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2ac8c308db0d61b58ecfb4d787736519a0e459ed2adc6e975320eee87a3cae8f8" name="a2ac8c308db0d61b58ecfb4d787736519a0e459ed2adc6e975320eee87a3cae8f8"></a>ModelId&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2ac8c308db0d61b58ecfb4d787736519a67a08f1a1a334408e504c01ab14c8be6" name="a2ac8c308db0d61b58ecfb4d787736519a67a08f1a1a334408e504c01ab14c8be6"></a>Runtime&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2ac8c308db0d61b58ecfb4d787736519a2aeeb63cb50ea07540df94be3e8b3ab1" name="a2ac8c308db0d61b58ecfb4d787736519a2aeeb63cb50ea07540df94be3e8b3ab1"></a>BoundingBox&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2ac8c308db0d61b58ecfb4d787736519a9b58cced9ef95a73673d3249a1af95fa" name="a2ac8c308db0d61b58ecfb4d787736519a9b58cced9ef95a73673d3249a1af95fa"></a>ModelContextId&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -533,8 +535,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a61d6f4f5ca6aa986d262a7607f2d8f75" name="a61d6f4f5ca6aa986d262a7607f2d8f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61d6f4f5ca6aa986d262a7607f2d8f75">&#9670;&nbsp;</a></span>EmitParticles()</h2>
+<a id="a439aa9f6d5969648308b8bc6e2276325" name="a439aa9f6d5969648308b8bc6e2276325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439aa9f6d5969648308b8bc6e2276325">&#9670;&nbsp;</a></span>EmitParticles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -557,6 +559,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_models_1_1_particle_system_node.html">Models::ParticleSystemNode</a> *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>stepTime</em>&#160;</td>
         </tr>
@@ -574,34 +582,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>internal function for emitting new particles </p>
-
-</div>
-</div>
-<a id="a6f9ee0ec223eb8b1b7ec284ae33c093b" name="a6f9ee0ec223eb8b1b7ec284ae33c093b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f9ee0ec223eb8b1b7ec284ae33c093b">&#9670;&nbsp;</a></span>GetBoundingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_math_1_1bbox.html">Math::bbox</a> Particles::ParticleContext::GetBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get particle bounding box </p>
 
 </div>
 </div>
@@ -629,6 +609,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get the shared particle index buffer </p>
+
+</div>
+</div>
+<a id="affac600aa36ea35cbe30d62d30e70b81" name="affac600aa36ea35cbe30d62d30e70b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affac600aa36ea35cbe30d62d30e70b81">&#9670;&nbsp;</a></span>GetParticlePrimitiveGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> Particles::ParticleContext::GetParticlePrimitiveGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the shared primitive group </p>
 
 </div>
 </div>
@@ -1031,28 +1038,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6a657e780168c28332fc1a2f8ad856ea" name="a6a657e780168c28332fc1a2f8ad856ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a657e780168c28332fc1a2f8ad856ea">&#9670;&nbsp;</a></span>jobPort</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_jobs_1_1_job_port_id.html">Jobs::JobPortId</a> Particles::ParticleContext::jobPort</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9f1e3164e2a8f80cf16926bfc522cc11" name="a9f1e3164e2a8f80cf16926bfc522cc11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f1e3164e2a8f80cf16926bfc522cc11">&#9670;&nbsp;</a></span>jobSync</h2>
 
@@ -1085,7 +1070,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_particles_1_1_particle_context.html#a6d1387e2d5f7e7eedf9d4b97ef53d2d7">ParticleContext::ParticleContextAllocator</a> Particles::ParticleContext::particleContextAllocator</td>
+          <td class="memname"><a class="el" href="class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb">ParticleContext::ParticleContextAllocator</a> Particles::ParticleContext::particleContextAllocator</td>
         </tr>
       </table>
   </td>
@@ -1097,8 +1082,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a56de979056c2aadd068efa611c7e6190" name="a56de979056c2aadd068efa611c7e6190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56de979056c2aadd068efa611c7e6190">&#9670;&nbsp;</a></span>runningJobs</h2>
+<a id="ad3665e0ae35ff4869e355e6bf8e04bd4" name="ad3665e0ae35ff4869e355e6bf8e04bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3665e0ae35ff4869e355e6bf8e04bd4">&#9670;&nbsp;</a></span>runningJobs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1107,12 +1092,56 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_jobs_1_1_job_id.html">Jobs::JobId</a> &gt; Particles::ParticleContext::runningJobs</td>
+          <td class="memname"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt;<a class="el" href="struct_jobs_1_1_job_id.html">Jobs::JobId</a>&gt; Particles::ParticleContext::runningJobs</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbb27fc5279345d05d29e181b64317df" name="afbb27fc5279345d05d29e181b64317df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb27fc5279345d05d29e181b64317df">&#9670;&nbsp;</a></span>totalCompletionCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> Particles::ParticleContext::totalCompletionCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac09fdb758d011abb450f47982bab6ab8" name="ac09fdb758d011abb450f47982bab6ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac09fdb758d011abb450f47982bab6ab8">&#9670;&nbsp;</a></span>totalCompletionEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> Particles::ParticleContext::totalCompletionEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1130,7 +1159,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_particles.html">Particles</a></li><li class="navelem"><a class="el" href="class_particles_1_1_particle_context.html">ParticleContext</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

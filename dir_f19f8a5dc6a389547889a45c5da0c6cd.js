@@ -15,7 +15,9 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
     [ "criticalsection.h", "criticalsection_8h.html", [
       [ "Threading::CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ]
     ] ],
-    [ "event.h", "foundation_2threading_2event_8h.html", null ],
+    [ "event.h", "foundation_2threading_2event_8h.html", [
+      [ "Threading::EventWithManualReset", "class_threading_1_1_event_with_manual_reset.html", "class_threading_1_1_event_with_manual_reset" ]
+    ] ],
     [ "interlocked.h", "interlocked_8h.html", "interlocked_8h" ],
     [ "lockfreequeue.h", "lockfreequeue_8h.html", [
       [ "Threading::LockFreeQueue< TYPE >", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],

@@ -12,7 +12,7 @@ var searchData=
   ['vkfenceallocator_9',['VkFenceAllocator',['../namespace_vulkan.html#a3a17520378c094c967e2ffe6579c1e83',1,'Vulkan']]],
   ['vkpassallocator_10',['VkPassAllocator',['../namespace_vulkan.html#a6510b11c5c340d2013fed7aa9eef18d8',1,'Vulkan']]],
   ['vkresourcepipelineallocator_11',['VkResourcePipelineAllocator',['../namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b',1,'Vulkan']]],
-  ['vkresourcetableallocator_12',['VkResourceTableAllocator',['../namespace_vulkan.html#a77e91f33fcd82b594612407df25e3ec4',1,'Vulkan']]],
+  ['vkresourcetableallocator_12',['VkResourceTableAllocator',['../namespace_vulkan.html#a7d89416068eb19060074fb05ac44c43c',1,'Vulkan']]],
   ['vkresourcetablelayoutallocator_13',['VkResourceTableLayoutAllocator',['../namespace_vulkan.html#a497410167e4965f57f71289e58637583',1,'Vulkan']]],
   ['vksamplerallocator_14',['VkSamplerAllocator',['../namespace_vulkan.html#a20057e123e4f6378663bf41dd4757122',1,'Vulkan']]],
   ['vksemaphoreallocator_15',['VkSemaphoreAllocator',['../namespace_vulkan.html#ad54f8dc5d631c9d61e3cceb082a400a0',1,'Vulkan']]],

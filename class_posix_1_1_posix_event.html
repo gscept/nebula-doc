@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6c854ccfcc5e89543f8f94fb4817053"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#ad6c854ccfcc5e89543f8f94fb4817053">PosixEvent</a> (bool manualReset=false)</td></tr>
 <tr class="memdesc:ad6c854ccfcc5e89543f8f94fb4817053"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_posix_1_1_posix_event.html#ad6c854ccfcc5e89543f8f94fb4817053">More...</a><br /></td></tr>
 <tr class="separator:ad6c854ccfcc5e89543f8f94fb4817053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab213f1f02f182edd553b019e7f3c6185"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#ab213f1f02f182edd553b019e7f3c6185">PosixEvent</a> (<a class="el" href="class_posix_1_1_posix_event.html">PosixEvent</a> &amp;&amp;ev)</td></tr>
+<tr class="memdesc:ab213f1f02f182edd553b019e7f3c6185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="class_posix_1_1_posix_event.html#ab213f1f02f182edd553b019e7f3c6185">More...</a><br /></td></tr>
+<tr class="separator:ab213f1f02f182edd553b019e7f3c6185"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebf69d6b76af0ad03f9d797b82c8dda4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#aebf69d6b76af0ad03f9d797b82c8dda4">~PosixEvent</a> ()</td></tr>
 <tr class="memdesc:aebf69d6b76af0ad03f9d797b82c8dda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_posix_1_1_posix_event.html#aebf69d6b76af0ad03f9d797b82c8dda4">More...</a><br /></td></tr>
 <tr class="separator:aebf69d6b76af0ad03f9d797b82c8dda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,15 +122,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1d00f40f40fb0c2246bbba771a38bec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#aa1d00f40f40fb0c2246bbba771a38bec">Peek</a> () const</td></tr>
 <tr class="memdesc:aa1d00f40f40fb0c2246bbba771a38bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if event is signalled  <a href="class_posix_1_1_posix_event.html#aa1d00f40f40fb0c2246bbba771a38bec">More...</a><br /></td></tr>
 <tr class="separator:aa1d00f40f40fb0c2246bbba771a38bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d5137d596d98d49ea48dc0c33bda0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#a97d5137d596d98d49ea48dc0c33bda0b">IsManual</a> () const</td></tr>
+<tr class="memdesc:a97d5137d596d98d49ea48dc0c33bda0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if event is manually reset.  <a href="class_posix_1_1_posix_event.html#a97d5137d596d98d49ea48dc0c33bda0b">More...</a><br /></td></tr>
+<tr class="separator:a97d5137d596d98d49ea48dc0c33bda0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a97e0a9932b488aba956dff03a5b38c1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#a97e0a9932b488aba956dff03a5b38c1c">manual</a></td></tr>
+<tr class="separator:a97e0a9932b488aba956dff03a5b38c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade6c794cb1aedf5dfbdfddaab95b02b7"><td class="memItemLeft" align="right" valign="top">sem_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_event.html#ade6c794cb1aedf5dfbdfddaab95b02b7">semaphore</a></td></tr>
 <tr class="separator:ade6c794cb1aedf5dfbdfddaab95b02b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6c854ccfcc5e89543f8f94fb4817053" name="ad6c854ccfcc5e89543f8f94fb4817053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6c854ccfcc5e89543f8f94fb4817053">&#9670;&nbsp;</a></span>PosixEvent()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6c854ccfcc5e89543f8f94fb4817053">&#9670;&nbsp;</a></span>PosixEvent() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,6 +160,34 @@ Private Attributes</h2></td></tr>
 
 <p>constructor </p>
 <p >manual reset is not used, since it's only used for win32events </p>
+
+</div>
+</div>
+<a id="ab213f1f02f182edd553b019e7f3c6185" name="ab213f1f02f182edd553b019e7f3c6185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab213f1f02f182edd553b019e7f3c6185">&#9670;&nbsp;</a></span>PosixEvent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Posix::PosixEvent::PosixEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_posix_1_1_posix_event.html">PosixEvent</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor. </p>
 
 </div>
 </div>
@@ -183,6 +219,33 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a97d5137d596d98d49ea48dc0c33bda0b" name="a97d5137d596d98d49ea48dc0c33bda0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d5137d596d98d49ea48dc0c33bda0b">&#9670;&nbsp;</a></span>IsManual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Posix::PosixEvent::IsManual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if event is manually reset. </p>
+
+</div>
+</div>
 <a id="aa1d00f40f40fb0c2246bbba771a38bec" name="aa1d00f40f40fb0c2246bbba771a38bec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1d00f40f40fb0c2246bbba771a38bec">&#9670;&nbsp;</a></span>Peek()</h2>
 
@@ -323,6 +386,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a97e0a9932b488aba956dff03a5b38c1c" name="a97e0a9932b488aba956dff03a5b38c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e0a9932b488aba956dff03a5b38c1c">&#9670;&nbsp;</a></span>manual</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Posix::PosixEvent::manual</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ade6c794cb1aedf5dfbdfddaab95b02b7" name="ade6c794cb1aedf5dfbdfddaab95b02b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade6c794cb1aedf5dfbdfddaab95b02b7">&#9670;&nbsp;</a></span>semaphore</h2>
 
@@ -355,7 +440,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_posix.html">Posix</a></li><li class="navelem"><a class="el" href="class_posix_1_1_posix_event.html">PosixEvent</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

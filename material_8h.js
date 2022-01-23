@@ -1,10 +1,9 @@
 var material_8h =
 [
-    [ "Materials::MaterialTypeId", "struct_materials_1_1_material_type_id.html", null ],
-    [ "Materials::SurfaceId", "struct_materials_1_1_surface_id.html", null ],
-    [ "Materials::SurfaceInstanceId", "struct_materials_1_1_surface_instance_id.html", null ],
-    [ "MaterialApplySurface", "material_8h.html#a0ce36cccb70b0f9f7e359a0d317d7b8d", null ],
-    [ "MaterialApplySurfaceInstance", "material_8h.html#a520550046d25b73a0470d72a38159e4d", null ],
-    [ "MaterialBeginBatch", "material_8h.html#addfdc295d591cb5224ccb61ee52fd38f", null ],
-    [ "MaterialEndBatch", "material_8h.html#a62f19555527ee3a33aaff64ce3cbc71b", null ]
+    [ "Materials::MaterialId", "struct_materials_1_1_material_id.html", null ],
+    [ "Materials::MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
+    [ "MaterialApply", "material_8h.html#a897bf968e4261918368906d197238be9", null ],
+    [ "MaterialInstanceApply", "material_8h.html#aed41ba089e22e3371559b86b5ff49f03", null ],
+    [ "ShaderConfigBeginBatch", "material_8h.html#a7709e1c88f63b27f410c19cabc4643be", null ],
+    [ "ShaderConfigEndBatch", "material_8h.html#ae769045bb9068cb2dc6fbc800cf22106", null ]
 ];

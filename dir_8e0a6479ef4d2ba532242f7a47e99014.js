@@ -64,15 +64,12 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vkloader.h", "vkloader_8h.html", "vkloader_8h" ],
     [ "vkmemory.cc", "vkmemory_8cc.html", "vkmemory_8cc" ],
     [ "vkmemory.h", "vkmemory_8h.html", "vkmemory_8h" ],
+    [ "vkmemorytexturecache.cc", "vkmemorytexturecache_8cc.html", "vkmemorytexturecache_8cc" ],
+    [ "vkmemorytexturecache.h", "vkmemorytexturecache_8h.html", [
+      [ "Vulkan::VkMemoryTextureCache", "class_vulkan_1_1_vk_memory_texture_cache.html", "class_vulkan_1_1_vk_memory_texture_cache" ],
+      [ "Vulkan::VkMemoryTextureCache::VkMemoryTextureInfo", "struct_vulkan_1_1_vk_memory_texture_cache_1_1_vk_memory_texture_info.html", "struct_vulkan_1_1_vk_memory_texture_cache_1_1_vk_memory_texture_info" ]
+    ] ],
     [ "vkmemorytexturepool.cc", "vkmemorytexturepool_8cc.html", "vkmemorytexturepool_8cc" ],
-    [ "vkmemorytexturepool.h", "vkmemorytexturepool_8h.html", [
-      [ "Vulkan::VkMemoryTexturePool", "class_vulkan_1_1_vk_memory_texture_pool.html", "class_vulkan_1_1_vk_memory_texture_pool" ],
-      [ "Vulkan::VkMemoryTexturePool::VkMemoryTextureInfo", "struct_vulkan_1_1_vk_memory_texture_pool_1_1_vk_memory_texture_info.html", "struct_vulkan_1_1_vk_memory_texture_pool_1_1_vk_memory_texture_info" ]
-    ] ],
-    [ "vkmeshpool.cc", "vkmeshpool_8cc.html", "vkmeshpool_8cc" ],
-    [ "vkmeshpool.h", "vkmeshpool_8h.html", [
-      [ "Vulkan::VkMeshPool", "class_vulkan_1_1_vk_mesh_pool.html", "class_vulkan_1_1_vk_mesh_pool" ]
-    ] ],
     [ "vkpass.cc", "vkpass_8cc.html", "vkpass_8cc" ],
     [ "vkpass.h", "vkpass_8h.html", "vkpass_8h" ],
     [ "vkpipelinedatabase.cc", "vkpipelinedatabase_8cc.html", "vkpipelinedatabase_8cc" ],
@@ -99,6 +96,8 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vksemaphore.h", "vksemaphore_8h.html", "vksemaphore_8h" ],
     [ "vkshader.cc", "vkshader_8cc.html", "vkshader_8cc" ],
     [ "vkshader.h", "vkshader_8h.html", "vkshader_8h" ],
+    [ "vkshadercache.cc", "vkshadercache_8cc.html", "vkshadercache_8cc" ],
+    [ "vkshadercache.h", "vkshadercache_8h.html", "vkshadercache_8h" ],
     [ "vkshaderpool.cc", "vkshaderpool_8cc.html", "vkshaderpool_8cc" ],
     [ "vkshaderpool.h", "vkshaderpool_8h.html", "vkshaderpool_8h" ],
     [ "vkshaderprogram.cc", "vkshaderprogram_8cc.html", "vkshaderprogram_8cc" ],
@@ -117,10 +116,11 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
       [ "Vulkan::VkShapeRenderer::IndexedDraws", "struct_vulkan_1_1_vk_shape_renderer_1_1_indexed_draws.html", "struct_vulkan_1_1_vk_shape_renderer_1_1_indexed_draws" ],
       [ "Vulkan::VkShapeRenderer::UnindexedDraws", "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html", "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws" ]
     ] ],
-    [ "vkstreamtexturepool.cc", "vkstreamtexturepool_8cc.html", "vkstreamtexturepool_8cc" ],
-    [ "vkstreamtexturepool.h", "vkstreamtexturepool_8h.html", [
-      [ "Vulkan::VkStreamTexturePool", "class_vulkan_1_1_vk_stream_texture_pool.html", "class_vulkan_1_1_vk_stream_texture_pool" ]
+    [ "vkstreamtexturecache.cc", "vkstreamtexturecache_8cc.html", "vkstreamtexturecache_8cc" ],
+    [ "vkstreamtexturecache.h", "vkstreamtexturecache_8h.html", [
+      [ "Vulkan::VkStreamTextureCache", "class_vulkan_1_1_vk_stream_texture_cache.html", "class_vulkan_1_1_vk_stream_texture_cache" ]
     ] ],
+    [ "vkstreamtexturepool.cc", "vkstreamtexturepool_8cc.html", "vkstreamtexturepool_8cc" ],
     [ "vkstreamtexturesaver.cc", "vkstreamtexturesaver_8cc.html", "vkstreamtexturesaver_8cc" ],
     [ "vkstreamtexturesaver.h", "vkstreamtexturesaver_8h.html", [
       [ "Vulkan::VkStreamTextureSaver", "class_vulkan_1_1_vk_stream_texture_saver.html", "class_vulkan_1_1_vk_stream_texture_saver" ]
@@ -155,6 +155,7 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vkutilities.h", "vkutilities_8h.html", [
       [ "Vulkan::VkUtilities", "class_vulkan_1_1_vk_utilities.html", "class_vulkan_1_1_vk_utilities" ]
     ] ],
-    [ "vkvertexsignaturepool.cc", "vkvertexsignaturepool_8cc.html", "vkvertexsignaturepool_8cc" ],
-    [ "vkvertexsignaturepool.h", "vkvertexsignaturepool_8h.html", "vkvertexsignaturepool_8h" ]
+    [ "vkvertexsignaturecache.cc", "vkvertexsignaturecache_8cc.html", "vkvertexsignaturecache_8cc" ],
+    [ "vkvertexsignaturecache.h", "vkvertexsignaturecache_8h.html", "vkvertexsignaturecache_8h" ],
+    [ "vkvertexsignaturepool.cc", "vkvertexsignaturepool_8cc.html", "vkvertexsignaturepool_8cc" ]
 ];

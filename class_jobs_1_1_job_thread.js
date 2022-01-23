@@ -4,7 +4,8 @@ var class_jobs_1_1_job_thread =
     [ "JobThreadCommandType", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8f", [
       [ "RunJob", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fabf80001318950ccce53e02f62880fff2", null ],
       [ "Signal", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fae503a911f0efa53a6b6873a0e79f6cb2", null ],
-      [ "Wait", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fae958228dbbd8039af6ece585b61da7e1", null ]
+      [ "Wait", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fae958228dbbd8039af6ece585b61da7e1", null ],
+      [ "WaitAndReset", "class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fa60460b44a4e0d983060e77b9d56a542a", null ]
     ] ],
     [ "JobThread", "class_jobs_1_1_job_thread.html#a49baf3e045b1d204fc1e79cd34543649", null ],
     [ "~JobThread", "class_jobs_1_1_job_thread.html#a57841cfecf0d04ad55634b652d6b3693", null ],

@@ -138,15 +138,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a6afff7670e5764fc9fe939d79bacd91f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a6afff7670e5764fc9fe939d79bacd91f">Jobs::DestroyJobSync</a> (const JobSyncId id)</td></tr>
 <tr class="memdesc:a6afff7670e5764fc9fe939d79bacd91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy job sync  <a href="namespace_jobs.html#a6afff7670e5764fc9fe939d79bacd91f">More...</a><br /></td></tr>
 <tr class="separator:a6afff7670e5764fc9fe939d79bacd91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a0842e3b14dfb05dbb2dae57784c7d5a3">Jobs::JobSyncSignal</a> (const JobSyncId id, const JobPortId port)</td></tr>
-<tr class="memdesc:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">put job sync on port  <a href="namespace_jobs.html#a0842e3b14dfb05dbb2dae57784c7d5a3">More...</a><br /></td></tr>
-<tr class="separator:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcdc562d988a436a62fe8bc9522d8721"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#adcdc562d988a436a62fe8bc9522d8721">Jobs::JobSyncHostWait</a> (const JobSyncId id)</td></tr>
-<tr class="memdesc:adcdc562d988a436a62fe8bc9522d8721"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on host side  <a href="namespace_jobs.html#adcdc562d988a436a62fe8bc9522d8721">More...</a><br /></td></tr>
-<tr class="separator:adcdc562d988a436a62fe8bc9522d8721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad281e9182013178a03a7877905f6c8c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ad281e9182013178a03a7877905f6c8c4">Jobs::JobSyncThreadWait</a> (const JobSyncId id, const JobPortId port)</td></tr>
-<tr class="memdesc:ad281e9182013178a03a7877905f6c8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on thread side  <a href="namespace_jobs.html#ad281e9182013178a03a7877905f6c8c4">More...</a><br /></td></tr>
-<tr class="separator:ad281e9182013178a03a7877905f6c8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22d5650f81fd959e4abff910b286ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ae22d5650f81fd959e4abff910b286ee5">Jobs::JobSyncHostReset</a> (const JobSyncId id)</td></tr>
+<tr class="memdesc:ae22d5650f81fd959e4abff910b286ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset job sync on host  <a href="namespace_jobs.html#ae22d5650f81fd959e4abff910b286ee5">More...</a><br /></td></tr>
+<tr class="separator:ae22d5650f81fd959e4abff910b286ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ab1ad9f1ab4512aa465ef5558f9de398f">Jobs::JobSyncHostSignal</a> (const JobSyncId id, bool reset=true)</td></tr>
+<tr class="memdesc:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal job sync on host  <a href="namespace_jobs.html#ab1ad9f1ab4512aa465ef5558f9de398f">More...</a><br /></td></tr>
+<tr class="separator:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade008a0c596909b4554a0ad5da650de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ade008a0c596909b4554a0ad5da650de3">Jobs::JobSyncThreadSignal</a> (const JobSyncId id, const JobPortId port, bool reset=true)</td></tr>
+<tr class="memdesc:ade008a0c596909b4554a0ad5da650de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">put job sync on port, if reset is true, reset prior to signaling  <a href="namespace_jobs.html#ade008a0c596909b4554a0ad5da650de3">More...</a><br /></td></tr>
+<tr class="separator:ade008a0c596909b4554a0ad5da650de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc228417864379fec2f6b28fc4a859b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#abdc228417864379fec2f6b28fc4a859b">Jobs::JobSyncHostWait</a> (const JobSyncId id, bool reset=false)</td></tr>
+<tr class="memdesc:abdc228417864379fec2f6b28fc4a859b"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on host side, if reset is true, resets after waiting  <a href="namespace_jobs.html#abdc228417864379fec2f6b28fc4a859b">More...</a><br /></td></tr>
+<tr class="separator:abdc228417864379fec2f6b28fc4a859b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e6fcd343ac75cd629878ba29b42116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a86e6fcd343ac75cd629878ba29b42116">Jobs::JobSyncThreadWait</a> (const JobSyncId id, const JobPortId port, bool reset=false)</td></tr>
+<tr class="memdesc:a86e6fcd343ac75cd629878ba29b42116"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on thread side, if reset is true, reset after waiting  <a href="namespace_jobs.html#a86e6fcd343ac75cd629878ba29b42116">More...</a><br /></td></tr>
+<tr class="separator:a86e6fcd343ac75cd629878ba29b42116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cddea02e82af7a41ea52894d7eafcd0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a7cddea02e82af7a41ea52894d7eafcd0">Jobs::JobSyncSignaled</a> (const JobSyncId id)</td></tr>
 <tr class="memdesc:a7cddea02e82af7a41ea52894d7eafcd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if sync object has been signaled  <a href="namespace_jobs.html#a7cddea02e82af7a41ea52894d7eafcd0">More...</a><br /></td></tr>
 <tr class="separator:a7cddea02e82af7a41ea52894d7eafcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,7 +175,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_102fcba59b9bdd1b915a2315d54475a8.html">jobs</a></li><li class="navelem"><a class="el" href="jobs_8cc.html">jobs.cc</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

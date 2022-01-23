@@ -2,7 +2,7 @@ var class_characters_1_1_character_context =
 [
     [ "AnimationRuntime", "struct_characters_1_1_character_context_1_1_animation_runtime.html", "struct_characters_1_1_character_context_1_1_animation_runtime" ],
     [ "AnimationTracks", "struct_characters_1_1_character_context_1_1_animation_tracks.html", "struct_characters_1_1_character_context_1_1_animation_tracks" ],
-    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#a527f77b10e1fad44ef079d0bc8f89403", null ],
+    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55", null ],
     [ "LoadState", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb", [
       [ "NoneLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebac15cc1516221b5e23d83322f7bd846e2", null ],
       [ "SkeletonLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebaa18b4161fb3a459e6d98bfbc33e1cd56", null ],
@@ -19,7 +19,6 @@ var class_characters_1_1_character_context =
     [ "GetClipIndex", "class_characters_1_1_character_context.html#a2d4fde28eef44bc280395b36ccbb7e1e", null ],
     [ "GetTime", "class_characters_1_1_character_context.html#afa1c0d3110e51f8420825c2122982a5d", null ],
     [ "IsPlaying", "class_characters_1_1_character_context.html#a0fd619d03392faa6d3ff1bc371c13ef9", null ],
-    [ "OnAfterFrame", "class_characters_1_1_character_context.html#ae5a0a72ab9f55e1f291dff4bd145ae63", null ],
     [ "OnRenderDebug", "class_characters_1_1_character_context.html#a4f663f53b2e618a7126832c4673ea994", null ],
     [ "PauseTrack", "class_characters_1_1_character_context.html#a336af5666d9b60ac4343280ec9c0bdfa", null ],
     [ "PlayClip", "class_characters_1_1_character_context.html#a7875265361b633fe25cf9561a88db96b", null ],
@@ -31,13 +30,13 @@ var class_characters_1_1_character_context =
     [ "StopAllTracks", "class_characters_1_1_character_context.html#aa74e38fe8676fcc89b4050bf663d38d1", null ],
     [ "StopTrack", "class_characters_1_1_character_context.html#a8e56a8ce9e29a0225063fd8724793d88", null ],
     [ "UpdateAnimations", "class_characters_1_1_character_context.html#afdd5d688933e5e7ce92e22c55e241be0", null ],
+    [ "WaitForCharacterJobs", "class_characters_1_1_character_context.html#a98c3e51ac4da5394a05d82e4d60f4619", null ],
     [ "GetAbsoluteStopTime", "class_characters_1_1_character_context.html#a32cbdfefbc40856b67df68c7fcba8475", null ],
     [ "IsExpired", "class_characters_1_1_character_context.html#a42d551a91019c011d168dbf5f51fead1", null ],
     [ "IsInfinite", "class_characters_1_1_character_context.html#ac4e6e53b281c5f1de7d1f59a61a366c7", null ],
     [ "characterContextAllocator", "class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541", null ],
-    [ "jobPort", "class_characters_1_1_character_context.html#ac27958636bb61b629e6f6f56d01709ad", null ],
-    [ "jobSync", "class_characters_1_1_character_context.html#ae904f6f252bcf650a50868272268238d", null ],
     [ "masks", "class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9", null ],
     [ "MaxNumTracks", "class_characters_1_1_character_context.html#ae9496d1464044413ee22950ba04486a5", null ],
-    [ "runningJobs", "class_characters_1_1_character_context.html#a3efb348e9fb309b714a4cf9092f7125f", null ]
+    [ "totalCompletionCounter", "class_characters_1_1_character_context.html#a85a87a981fe70a1ccdd1e3378f6e06e6", null ],
+    [ "totalCompletionEvent", "class_characters_1_1_character_context.html#aec7634dfe7fc07e20d428a60140f4c27", null ]
 ];

@@ -1,4 +1,4 @@
 var vkstreamtexturepool_8cc =
 [
-    [ "__ImplementClass", "vkstreamtexturepool_8cc.html#a6fbd85fe65cfc0829aa2afc10467ae46", null ]
+    [ "__ImplementClass", "vkstreamtexturepool_8cc.html#abfca1ce62fcc70948c269a5dd09159e9", null ]
 ];

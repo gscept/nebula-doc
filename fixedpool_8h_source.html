@@ -195,161 +195,160 @@ $(document).ready(function(){initNavTree('fixedpool_8h_source.html',''); initRes
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a96eb80b0d2eed514a754b055830e9281">  147</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a96eb80b0d2eed514a754b055830e9281">Util::FixedPool&lt;TYPE&gt;::Alloc</a>()</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>{</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(!this-&gt;freeValues.IsEmpty());</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    TYPE elem = this-&gt;freeValues.Front();</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    this-&gt;freeValues.EraseIndex(0);</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    this-&gt;usedValues.Append(elem);</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordflow">return</span> this-&gt;usedValues.Back();</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>}</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">  161</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool&lt;TYPE&gt;::Free</a>(<span class="keyword">const</span> TYPE&amp; elem)</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>{</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx = this-&gt;usedValues.FindIndex(elem);</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(idx != <a class="code hl_variable" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>);</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    this-&gt;usedValues.EraseIndex(idx);</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    this-&gt;freeValues.Append(elem);</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>}</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ab21e5118f417621fc8b9bb847cd0d460">  174</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool&lt;TYPE&gt;::Free</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="class_util_1_1_fixed_pool.html#aff4a01764adbf1af0970e2680d266a56">Iterator</a> iter)</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>{</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    this-&gt;usedValues.Erase(iter);</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    this-&gt;freeValues.Append(&amp;iter);</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>}</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">  185</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool&lt;TYPE&gt;::Size</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>;</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>}</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">  195</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">Util::FixedPool&lt;TYPE&gt;::NumFree</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keywordflow">return</span> this-&gt;freeValues.Size();</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>}</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">  205</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">Util::FixedPool&lt;TYPE&gt;::NumUsed</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordflow">return</span> this-&gt;usedValues.Size();</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>}</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">  215</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">Util::FixedPool&lt;TYPE&gt;::Resize</a>(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> newSize)</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>{</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = newSize;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    this-&gt;usedValues.Clear();</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    this-&gt;freeValues.Clear();</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    this-&gt;freeValues.Reserve(newSize);</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    {</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        this-&gt;freeValues.Append(TYPE());</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <span class="keywordflow">if</span> (this-&gt;setupFunc != <span class="keyword">nullptr</span>) this-&gt;setupFunc(this-&gt;freeValues[i], i);</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    }</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>}</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">  235</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">Util::FixedPool&lt;TYPE&gt;::IsFull</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    <span class="keywordflow">return</span> this-&gt;freeValues.IsEmpty();</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>}</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">  245</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">Util::FixedPool&lt;TYPE&gt;::IsEmpty</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keywordflow">return</span> this-&gt;usedValues.IsEmpty();</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>}</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">  255</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">Util::FixedPool&lt;TYPE&gt;::Clear</a>()</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>{</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    this-&gt;usedValues.Clear();</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    this-&gt;freeValues.Clear();</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    this-&gt;freeValues.Reserve(this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    {</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        this-&gt;freeValues.Append(TYPE());</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        <span class="keywordflow">if</span> (this-&gt;setupFunc != <span class="keyword">nullptr</span>) this-&gt;setupFunc(this-&gt;freeValues[i], i);</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    }</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>}</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">  274</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">Util::FixedPool&lt;TYPE&gt;::Reset</a>()</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>{</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;usedValues.Size(); i++)</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    {</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        this-&gt;freeValues.Append(this-&gt;usedValues[i]);</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    }</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    this-&gt;usedValues.Clear();</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>}</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">  289</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">Util::FixedPool&lt;TYPE&gt;::SetSetupFunc</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(TYPE&amp; val, <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx)&gt;&amp; func)</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>{</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    this-&gt;setupFunc = func;</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>}</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_array.html">Util::Array&lt;TYPE&gt;</a>&amp;</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">  299</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">Util::FixedPool&lt;TYPE&gt;::GetAllocated</a>()</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>{</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    <span class="keywordflow">return</span> this-&gt;usedValues;</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>}</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>}</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    TYPE elem = this-&gt;freeValues.PopFront();</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    this-&gt;usedValues.Append(elem);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keywordflow">return</span> this-&gt;usedValues.Back();</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>}</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">  160</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool&lt;TYPE&gt;::Free</a>(<span class="keyword">const</span> TYPE&amp; elem)</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>{</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx = this-&gt;usedValues.FindIndex(elem);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(idx != <a class="code hl_variable" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>);</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    this-&gt;usedValues.EraseIndex(idx);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    this-&gt;freeValues.Append(elem);</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>}</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ab21e5118f417621fc8b9bb847cd0d460">  173</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool&lt;TYPE&gt;::Free</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="class_util_1_1_fixed_pool.html#aff4a01764adbf1af0970e2680d266a56">Iterator</a> iter)</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>{</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    this-&gt;usedValues.Erase(iter);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    this-&gt;freeValues.Append(&amp;iter);</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>}</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">  184</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool&lt;TYPE&gt;::Size</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>;</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>}</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">  194</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">Util::FixedPool&lt;TYPE&gt;::NumFree</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordflow">return</span> this-&gt;freeValues.Size();</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>}</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">  204</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">Util::FixedPool&lt;TYPE&gt;::NumUsed</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordflow">return</span> this-&gt;usedValues.Size();</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>}</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">  214</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">Util::FixedPool&lt;TYPE&gt;::Resize</a>(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> newSize)</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>{</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a> = newSize;</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    this-&gt;usedValues.Clear();</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    this-&gt;freeValues.Clear();</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    this-&gt;freeValues.Reserve(newSize);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    {</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        this-&gt;freeValues.Append(TYPE());</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keywordflow">if</span> (this-&gt;setupFunc != <span class="keyword">nullptr</span>) this-&gt;setupFunc(this-&gt;freeValues[i], i);</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    }</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>}</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">  234</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">Util::FixedPool&lt;TYPE&gt;::IsFull</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    <span class="keywordflow">return</span> this-&gt;freeValues.IsEmpty();</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>}</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">  244</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">Util::FixedPool&lt;TYPE&gt;::IsEmpty</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    <span class="keywordflow">return</span> this-&gt;usedValues.IsEmpty();</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>}</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">  254</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">Util::FixedPool&lt;TYPE&gt;::Clear</a>()</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>{</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    this-&gt;usedValues.Clear();</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    this-&gt;freeValues.Clear();</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    this-&gt;freeValues.Reserve(this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;<a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; i++)</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        this-&gt;freeValues.Append(TYPE());</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        <span class="keywordflow">if</span> (this-&gt;setupFunc != <span class="keyword">nullptr</span>) this-&gt;setupFunc(this-&gt;freeValues[i], i);</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    }</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>}</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">  273</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">Util::FixedPool&lt;TYPE&gt;::Reset</a>()</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>{</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;usedValues.Size(); i++)</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    {</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        this-&gt;freeValues.Append(this-&gt;usedValues[i]);</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    }</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    this-&gt;usedValues.Clear();</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>}</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">  288</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">Util::FixedPool&lt;TYPE&gt;::SetSetupFunc</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(TYPE&amp; val, <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx)&gt;&amp; func)</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>{</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    this-&gt;setupFunc = func;</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>}</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span><span class="comment"></span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_array.html">Util::Array&lt;TYPE&gt;</a>&amp;</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">  298</a></span><a class="code hl_function" href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">Util::FixedPool&lt;TYPE&gt;::GetAllocated</a>()</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>{</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    <span class="keywordflow">return</span> this-&gt;usedValues;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>}</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>}</div>
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition:</b> array.h:40</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition:</b> fixedarray.h:20</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html"><div class="ttname"><a href="class_util_1_1_fixed_pool.html">Util::FixedPool</a></div><div class="ttdoc">Implements a fixed size pool, from which objects of a specific type can be allocated and freed for re...</div><div class="ttdef"><b>Definition:</b> fixedpool.h:20</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a1f66132d27791b5ffec6744afc110c85"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a1f66132d27791b5ffec6744afc110c85">Util::FixedPool::operator=</a></div><div class="ttdeci">void operator=(const FixedArray&lt; TYPE &gt; &amp;rhs)</div><div class="ttdoc">assignment operator</div><div class="ttdef"><b>Definition:</b> fixedpool.h:123</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a23af237e480378d2d79e9c2fa1031253"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a23af237e480378d2d79e9c2fa1031253">Util::FixedPool::freeValues</a></div><div class="ttdeci">Util::Array&lt; TYPE &gt; freeValues</div><div class="ttdef"><b>Definition:</b> fixedpool.h:71</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a25839c4112b84452869b831e2247a456"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool::Free</a></div><div class="ttdeci">void Free(const TYPE &amp;elem)</div><div class="ttdoc">free element allocated from pool</div><div class="ttdef"><b>Definition:</b> fixedpool.h:161</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a25839c4112b84452869b831e2247a456"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a25839c4112b84452869b831e2247a456">Util::FixedPool::Free</a></div><div class="ttdeci">void Free(const TYPE &amp;elem)</div><div class="ttdoc">free element allocated from pool</div><div class="ttdef"><b>Definition:</b> fixedpool.h:160</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a32abf11e603bf460691d4a4474251545"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a32abf11e603bf460691d4a4474251545">Util::FixedPool::operator[]</a></div><div class="ttdeci">TYPE &amp; operator[](const IndexT elem)</div><div class="ttdoc">access operator</div><div class="ttdef"><b>Definition:</b> fixedpool.h:134</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a57895a7beb8a0f94e9f1522c9c294916"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a57895a7beb8a0f94e9f1522c9c294916">Util::FixedPool::setupFunc</a></div><div class="ttdeci">std::function&lt; void(TYPE &amp;val, IndexT idx)&gt; setupFunc</div><div class="ttdef"><b>Definition:</b> fixedpool.h:69</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a5bbf5e22986e6ef96d50e87f261a259f"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">Util::FixedPool::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdoc">returns true if the pool is empty</div><div class="ttdef"><b>Definition:</b> fixedpool.h:245</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a67737eaf27f079d410f3460c625bf8f5"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">Util::FixedPool::GetAllocated</a></div><div class="ttdeci">const Util::Array&lt; TYPE &gt; &amp; GetAllocated()</div><div class="ttdoc">get allocated values as array</div><div class="ttdef"><b>Definition:</b> fixedpool.h:299</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a5bbf5e22986e6ef96d50e87f261a259f"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a5bbf5e22986e6ef96d50e87f261a259f">Util::FixedPool::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdoc">returns true if the pool is empty</div><div class="ttdef"><b>Definition:</b> fixedpool.h:244</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a67737eaf27f079d410f3460c625bf8f5"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a67737eaf27f079d410f3460c625bf8f5">Util::FixedPool::GetAllocated</a></div><div class="ttdeci">const Util::Array&lt; TYPE &gt; &amp; GetAllocated()</div><div class="ttdoc">get allocated values as array</div><div class="ttdef"><b>Definition:</b> fixedpool.h:298</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a7e385e7ae08638025a52bfd652320477"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a7e385e7ae08638025a52bfd652320477">Util::FixedPool::usedValues</a></div><div class="ttdeci">Util::Array&lt; TYPE &gt; usedValues</div><div class="ttdef"><b>Definition:</b> fixedpool.h:72</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a8b1d720efe9d5fabd500d097532c7c02"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a8b1d720efe9d5fabd500d097532c7c02">Util::FixedPool::FixedPool</a></div><div class="ttdeci">FixedPool()</div><div class="ttdoc">default constructor</div><div class="ttdef"><b>Definition:</b> fixedpool.h:80</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a8d89bd661de170dbe7e88691bb4a61d2"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a8d89bd661de170dbe7e88691bb4a61d2">Util::FixedPool::~FixedPool</a></div><div class="ttdeci">~FixedPool()</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition:</b> fixedpool.h:91</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_a96eb80b0d2eed514a754b055830e9281"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a96eb80b0d2eed514a754b055830e9281">Util::FixedPool::Alloc</a></div><div class="ttdeci">TYPE &amp; Alloc()</div><div class="ttdoc">allocate an element in the pool</div><div class="ttdef"><b>Definition:</b> fixedpool.h:147</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a9ab57c8a54251eacecaeeeab98bce08d"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">Util::FixedPool::NumUsed</a></div><div class="ttdeci">SizeT NumUsed() const</div><div class="ttdoc">get number of used elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:205</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a9d2abed83e9091326e1fab1c41c56fad"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">Util::FixedPool::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">clear all pool values</div><div class="ttdef"><b>Definition:</b> fixedpool.h:255</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_aa8276b9d990d5b68a0b0fd198b769e73"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool::Size</a></div><div class="ttdeci">SizeT Size() const</div><div class="ttdoc">get number of elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:185</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac52e0741973f883f27df9ad3ebaf52c4"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">Util::FixedPool::SetSetupFunc</a></div><div class="ttdeci">void SetSetupFunc(const std::function&lt; void(TYPE &amp;val, IndexT idx)&gt; &amp;func)</div><div class="ttdoc">set optional setup value</div><div class="ttdef"><b>Definition:</b> fixedpool.h:289</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac5bc03feb246f98d549523f266db6b68"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">Util::FixedPool::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">resets all used indices without clearing contents</div><div class="ttdef"><b>Definition:</b> fixedpool.h:274</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a9ab57c8a54251eacecaeeeab98bce08d"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d">Util::FixedPool::NumUsed</a></div><div class="ttdeci">SizeT NumUsed() const</div><div class="ttdoc">get number of used elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:204</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_a9d2abed83e9091326e1fab1c41c56fad"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#a9d2abed83e9091326e1fab1c41c56fad">Util::FixedPool::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">clear all pool values</div><div class="ttdef"><b>Definition:</b> fixedpool.h:254</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_aa8276b9d990d5b68a0b0fd198b769e73"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73">Util::FixedPool::Size</a></div><div class="ttdeci">SizeT Size() const</div><div class="ttdoc">get number of elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:184</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac52e0741973f883f27df9ad3ebaf52c4"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4">Util::FixedPool::SetSetupFunc</a></div><div class="ttdeci">void SetSetupFunc(const std::function&lt; void(TYPE &amp;val, IndexT idx)&gt; &amp;func)</div><div class="ttdoc">set optional setup value</div><div class="ttdef"><b>Definition:</b> fixedpool.h:288</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac5bc03feb246f98d549523f266db6b68"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac5bc03feb246f98d549523f266db6b68">Util::FixedPool::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">resets all used indices without clearing contents</div><div class="ttdef"><b>Definition:</b> fixedpool.h:273</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac6998a61821df8b1e4c08a56f25f6c08"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac6998a61821df8b1e4c08a56f25f6c08">Util::FixedPool::size</a></div><div class="ttdeci">SizeT size</div><div class="ttdef"><b>Definition:</b> fixedpool.h:70</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac99de2b14d1b3b22fd1ef64306a131af"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">Util::FixedPool::Resize</a></div><div class="ttdeci">void Resize(SizeT newSize)</div><div class="ttdoc">reset pool and resize pool</div><div class="ttdef"><b>Definition:</b> fixedpool.h:215</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_acb3644786fb55c6ed3384a3a112f2ff1"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">Util::FixedPool::NumFree</a></div><div class="ttdeci">SizeT NumFree() const</div><div class="ttdoc">get number of free elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:195</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ae39778c47e0a6af67a9df3e77b73fb07"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">Util::FixedPool::IsFull</a></div><div class="ttdeci">bool IsFull() const</div><div class="ttdoc">returns true if no more free values are available</div><div class="ttdef"><b>Definition:</b> fixedpool.h:235</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ac99de2b14d1b3b22fd1ef64306a131af"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ac99de2b14d1b3b22fd1ef64306a131af">Util::FixedPool::Resize</a></div><div class="ttdeci">void Resize(SizeT newSize)</div><div class="ttdoc">reset pool and resize pool</div><div class="ttdef"><b>Definition:</b> fixedpool.h:214</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_acb3644786fb55c6ed3384a3a112f2ff1"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1">Util::FixedPool::NumFree</a></div><div class="ttdeci">SizeT NumFree() const</div><div class="ttdoc">get number of free elements</div><div class="ttdef"><b>Definition:</b> fixedpool.h:194</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_pool_html_ae39778c47e0a6af67a9df3e77b73fb07"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#ae39778c47e0a6af67a9df3e77b73fb07">Util::FixedPool::IsFull</a></div><div class="ttdeci">bool IsFull() const</div><div class="ttdoc">returns true if no more free values are available</div><div class="ttdef"><b>Definition:</b> fixedpool.h:234</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_pool_html_aff4a01764adbf1af0970e2680d266a56"><div class="ttname"><a href="class_util_1_1_fixed_pool.html#aff4a01764adbf1af0970e2680d266a56">Util::FixedPool::Iterator</a></div><div class="ttdeci">TYPE * Iterator</div><div class="ttdoc">define iterator</div><div class="ttdef"><b>Definition:</b> fixedpool.h:23</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition:</b> debug.h:49</div></div>
 <div class="ttc" id="anamespace_post_effects_html_a825e3364318c29cbd82bce236358bcea"><div class="ttname"><a href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">PostEffects::size</a></div><div class="ttdeci">Math::float2 size</div><div class="ttdef"><b>Definition:</b> histogramcontext.cc:39</div></div>
@@ -365,7 +364,7 @@ $(document).ready(function(){initNavTree('fixedpool_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="fixedpool_8h.html">fixedpool.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:32:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:01:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

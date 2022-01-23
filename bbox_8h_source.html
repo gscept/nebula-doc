@@ -540,69 +540,67 @@ $(document).ready(function(){initNavTree('bbox_8h_source.html',''); initResizabl
 <div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
 <div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 2; ++i)</div>
 <div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span>    {</div>
-<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="namespace_math.html#a6c814a471f23def327660b84a0e9bd29">clip</a> = 0;</div>
-<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span> </div>
-<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>        <span class="comment">// transform the x component of 4 points simultaneously </span></div>
-<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>        xs[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[2], pz[i],</div>
-<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
-<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[0], px[i], x_columns[3])));</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span> </div>
-<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>        <span class="comment">// transform the y component of 4 points simultaneously </span></div>
-<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>        ys[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[2], pz[i],</div>
-<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
-<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[0], px[i], y_columns[3])));</div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span> </div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>        <span class="comment">// transform the z component of 4 points simultaneously </span></div>
-<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>        zs[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[2], pz[i],</div>
-<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[0], px[i], z_columns[3])));</div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
-<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>        <span class="comment">// transform the w component of 4 points simultaneously </span></div>
-<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>        ws[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[2], pz[i],</div>
-<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
-<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[0], px[i], w_columns[3])));</div>
-<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span> </div>
-<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>        {</div>
-<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span>            <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> nws = -ws[i];</div>
-<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>            <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> pws = ws[i];</div>
-<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span> </div>
-<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>            <span class="comment">// add all flags together into one big vector of flags for all 4 points</span></div>
-<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>            res1 = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(xs[i], nws), xLeftFlags,</div>
-<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(xs[i], pws), xRightFlags,</div>
-<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(ys[i], nws), yBottomFlags,</div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>                        <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(ys[i], pws), yTopFlags,</div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>                            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(zs[i], nws), zFarFlags,</div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>                                (<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(zs[i], pws) * zNearFlags)</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>                            )</div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>                        )</div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>                    )</div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>                )</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>            );</div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>        }</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span> </div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>        <span class="comment">// read to stack and convert to uint in one swoop</span></div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>        <span class="keyword">alignas</span>(16) <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> res1_u[4];</div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>        __m128i result = _mm_cvttps_epi32(res1.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>);</div>
-<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>        _mm_storeu_si128(<span class="keyword">reinterpret_cast&lt;</span>__m128i*<span class="keyword">&gt;</span>(res1_u), result);</div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span> </div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        <span class="comment">// update flags by or-ing and and-ing all 4 points individually</span></div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>        andFlags &amp;= res1_u[0];</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>        orFlags |= res1_u[0];</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>        andFlags &amp;= res1_u[1];</div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>        orFlags |= res1_u[1];</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>        andFlags &amp;= res1_u[2];</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>        orFlags |= res1_u[2];</div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>        andFlags &amp;= res1_u[3];</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>        orFlags |= res1_u[3];</div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span> </div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    }</div>
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    <span class="keywordflow">if</span> (0 == orFlags)       <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a3a4a4b058665673c2827bf29f9b4725a">ClipStatus::Inside</a>;</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (0 != andFlags) <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a">ClipStatus::Outside</a>;</div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    <span class="keywordflow">else</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a634ecc08efc643c661ba09308fc392d5">ClipStatus::Clipped</a>;</div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>}</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span> </div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>} <span class="comment">// namespace Math</span></div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>        <span class="comment">// transform the x component of 4 points simultaneously </span></div>
+<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>        xs[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[2], pz[i],</div>
+<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
+<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[0], px[i], x_columns[3])));</div>
+<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span> </div>
+<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>        <span class="comment">// transform the y component of 4 points simultaneously </span></div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>        ys[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[2], pz[i],</div>
+<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
+<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[0], px[i], y_columns[3])));</div>
+<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span> </div>
+<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>        <span class="comment">// transform the z component of 4 points simultaneously </span></div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>        zs[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[2], pz[i],</div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
+<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[0], px[i], z_columns[3])));</div>
+<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span> </div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>        <span class="comment">// transform the w component of 4 points simultaneously </span></div>
+<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>        ws[i] = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[2], pz[i],</div>
+<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[1], <a class="code hl_namespace" href="namespacepybind11.html">py</a>[i],</div>
+<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[0], px[i], w_columns[3])));</div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span> </div>
+<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>        {</div>
+<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>            <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> nws = -ws[i];</div>
+<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>            <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> pws = ws[i];</div>
+<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span> </div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>            <span class="comment">// add all flags together into one big vector of flags for all 4 points</span></div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>            res1 = <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(xs[i], nws), xLeftFlags,</div>
+<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(xs[i], pws), xRightFlags,</div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(ys[i], nws), yBottomFlags,</div>
+<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>                        <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(ys[i], pws), yTopFlags,</div>
+<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>                            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(<a class="code hl_function" href="namespace_math.html#a0162ee935624317b3817a2881545e0d3">less</a>(zs[i], nws), zFarFlags,</div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>                                (<a class="code hl_function" href="namespace_math.html#ab4765afc74935eadf20e70454268ec32">greater</a>(zs[i], pws) * zNearFlags)</div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>                            )</div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>                        )</div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>                    )</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>                )</div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>            );</div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>        }</div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span> </div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>        <span class="comment">// read to stack and convert to uint in one swoop</span></div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>        <span class="keyword">alignas</span>(16) <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> res1_u[4];</div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>        __m128i result = _mm_cvttps_epi32(res1.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>);</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>        _mm_storeu_si128(<span class="keyword">reinterpret_cast&lt;</span>__m128i*<span class="keyword">&gt;</span>(res1_u), result);</div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span> </div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>        <span class="comment">// update flags by or-ing and and-ing all 4 points individually</span></div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>        andFlags &amp;= res1_u[0];</div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        orFlags |= res1_u[0];</div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>        andFlags &amp;= res1_u[1];</div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>        orFlags |= res1_u[1];</div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>        andFlags &amp;= res1_u[2];</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>        orFlags |= res1_u[2];</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>        andFlags &amp;= res1_u[3];</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>        orFlags |= res1_u[3];</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span> </div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    }</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="keywordflow">if</span> (0 == orFlags)       <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a3a4a4b058665673c2827bf29f9b4725a">ClipStatus::Inside</a>;</div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (0 != andFlags) <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a">ClipStatus::Outside</a>;</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    <span class="keywordflow">else</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a634ecc08efc643c661ba09308fc392d5">ClipStatus::Clipped</a>;</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>}</div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span> </div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>} <span class="comment">// namespace Math</span></div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
 <div class="ttc" id="aclass_math_1_1_clip_status_html_a1e61b403e4a0c041c5c9a8f07ede10e6"><div class="ttname"><a href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> clipstatus.h:22</div></div>
 <div class="ttc" id="aclass_math_1_1_clip_status_html_a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a"><div class="ttname"><a href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a">Math::ClipStatus::Outside</a></div><div class="ttdeci">@ Outside</div><div class="ttdef"><b>Definition:</b> clipstatus.h:24</div></div>
@@ -690,7 +688,7 @@ $(document).ready(function(){initNavTree('bbox_8h_source.html',''); initResizabl
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="bbox_8h.html">bbox.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:32:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:01:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

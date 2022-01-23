@@ -5,5 +5,5 @@ var animresource_8cc =
     [ "AnimGetClips", "animresource_8cc.html#ae5782df57ab959b75b56cb3661c51ed0", null ],
     [ "CreateAnimation", "animresource_8cc.html#a4b2ca1698b6033bc9efb2913359f2e9c", null ],
     [ "DestroyAnimation", "animresource_8cc.html#a03004dbef5394bed4e6472f46a6d37c9", null ],
-    [ "animPool", "animresource_8cc.html#a929a91cbdc8a640473d6bfe3ab66b5b2", null ]
+    [ "animPool", "animresource_8cc.html#aa26bb1a408c5bd48abeae5a4d701178f", null ]
 ];

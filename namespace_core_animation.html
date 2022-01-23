@@ -149,15 +149,15 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_sample_type.html">SampleType</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes how an animation curve should be sampled.  <a href="class_core_animation_1_1_sample_type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_stream_animation_pool.html">StreamAnimationPool</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_stream_animation_cache.html">StreamAnimationCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aab16d1cedd3a2a954672e37300b698c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#aab16d1cedd3a2a954672e37300b698c6">AnimSampleJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:aab16d1cedd3a2a954672e37300b698c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e7f94c3ffa0bed5a77e2d76a7efbbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ac2e7f94c3ffa0bed5a77e2d76a7efbbc">AnimSampleJobWithMix</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:ac2e7f94c3ffa0bed5a77e2d76a7efbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e619473c2bc48174a51d963be0838bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a3e619473c2bc48174a51d963be0838bb">AnimSampleJob</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
+<tr class="separator:a3e619473c2bc48174a51d963be0838bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b466068b71a1a9af785b997e099a40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a62b466068b71a1a9af785b997e099a40">AnimSampleJobWithMix</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
+<tr class="separator:a62b466068b71a1a9af785b997e099a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c94821f5f5d2abdfbaecd8680f82175"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a1c94821f5f5d2abdfbaecd8680f82175">operator==</a> (const <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &amp;a, const <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &amp;b)</td></tr>
 <tr class="separator:a1c94821f5f5d2abdfbaecd8680f82175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9476ea4aa51a59c6673a38cf43035f06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a9476ea4aa51a59c6673a38cf43035f06">operator!=</a> (const <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &amp;a, const <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &amp;b)</td></tr>
@@ -187,12 +187,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a51e40229e5e2234245d129314521c092"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a51e40229e5e2234245d129314521c092">AnimComputeSlice</a> (const <a class="el" href="struct_core_animation_1_1_anim_resource_id.html">AnimResourceId</a> &amp;id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> clipIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> keyIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &amp;outSliceByteSize, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&amp;ptr)</td></tr>
 <tr class="memdesc:a51e40229e5e2234245d129314521c092"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute key slice pointer and memory size  <a href="namespace_core_animation.html#a51e40229e5e2234245d129314521c092">More...</a><br /></td></tr>
 <tr class="separator:a51e40229e5e2234245d129314521c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f6444961020da7003246c68ec77c2ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a6f6444961020da7003246c68ec77c2ab">AnimSampleStep</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *src0SamplePtr, <a class="el" href="struct_math_1_1vec4.html">vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
-<tr class="separator:a6f6444961020da7003246c68ec77c2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86cb3374fe48d8991b605bdc8195ce3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a86cb3374fe48d8991b605bdc8195ce3b">AnimSampleLinear</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, float sampleWeight, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *src1SamplePtr, <a class="el" href="struct_math_1_1vec4.html">vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
-<tr class="separator:a86cb3374fe48d8991b605bdc8195ce3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab35a3d291c802ff567410aad0b6e213a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ab35a3d291c802ff567410aad0b6e213a">AnimMix</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, const <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">AnimSampleMask</a> *mask, float mixWeight, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *src1SamplePtr, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src0SampleCounts, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src1SampleCounts, <a class="el" href="struct_math_1_1vec4.html">vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
-<tr class="separator:ab35a3d291c802ff567410aad0b6e213a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2a2321537fc3c4c871130665451bce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ad2a2321537fc3c4c871130665451bce1">AnimSampleStep</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:ad2a2321537fc3c4c871130665451bce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d2d07943287d5850a62c6d17b77a6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ae8d2d07943287d5850a62c6d17b77a6e">AnimSampleLinear</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, float sampleWeight, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src1SamplePtr, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:ae8d2d07943287d5850a62c6d17b77a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b28c133dabda92f42db20810e58e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a27b28c133dabda92f42db20810e58e7e">AnimMix</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, const <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">AnimSampleMask</a> *mask, float mixWeight, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src1SamplePtr, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src0SampleCounts, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src1SampleCounts, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:a27b28c133dabda92f42db20810e58e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2aff4e6e4e0edc23678a04570565a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#aa2aff4e6e4e0edc23678a04570565a14">AnimSampleJobFunc</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">JobFuncContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:aa2aff4e6e4e0edc23678a04570565a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">This job function only performs sampling, not mixing.  <a href="namespace_core_animation.html#aa2aff4e6e4e0edc23678a04570565a14">More...</a><br /></td></tr>
 <tr class="separator:aa2aff4e6e4e0edc23678a04570565a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,13 +208,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ae8cce6c910abea2928af3d479fd8b16a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ae8cce6c910abea2928af3d479fd8b16a">AnimJobUtilMix</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> *curves, int numCurves, const Characters::CharacterJointMask *mask, float mixWeight, const <a class="el" href="struct_math_1_1float4.html">float4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1float4.html">float4</a> *src1SamplePtr, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src0SampleCounts, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src1SampleCounts, <a class="el" href="struct_math_1_1float4.html">float4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
 <tr class="memdesc:ae8cce6c910abea2928af3d479fd8b16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mixes 2 source sample buffers into a destination sample buffer using a single lerp-value between 0.0 and 1.0.  <a href="namespace_core_animation.html#ae8cce6c910abea2928af3d479fd8b16a">More...</a><br /></td></tr>
 <tr class="separator:ae8cce6c910abea2928af3d479fd8b16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b9798b1fc8b5d052bbd593a706898d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a9b9798b1fc8b5d052bbd593a706898d5">__ImplementClass</a> (<a class="el" href="class_core_animation_1_1_stream_animation_pool.html">CoreAnimation::StreamAnimationPool</a>, 'SANL', <a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>)</td></tr>
-<tr class="separator:a9b9798b1fc8b5d052bbd593a706898d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23bd6ea68edda861fa86a1c73bc1240c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a23bd6ea68edda861fa86a1c73bc1240c">__ImplementClass</a> (<a class="el" href="class_core_animation_1_1_stream_animation_cache.html">CoreAnimation::StreamAnimationCache</a>, 'SANL', <a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>)</td></tr>
+<tr class="separator:a23bd6ea68edda861fa86a1c73bc1240c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a929a91cbdc8a640473d6bfe3ab66b5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_stream_animation_pool.html">StreamAnimationPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a929a91cbdc8a640473d6bfe3ab66b5b2">animPool</a> = nullptr</td></tr>
-<tr class="separator:a929a91cbdc8a640473d6bfe3ab66b5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa26bb1a408c5bd48abeae5a4d701178f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_stream_animation_cache.html">StreamAnimationCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#aa26bb1a408c5bd48abeae5a4d701178f">animPool</a> = nullptr</td></tr>
+<tr class="separator:aa26bb1a408c5bd48abeae5a4d701178f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5241612fcefb2b75743c5991d8da08fb" name="a5241612fcefb2b75743c5991d8da08fb"></a>
@@ -251,8 +251,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b9798b1fc8b5d052bbd593a706898d5" name="a9b9798b1fc8b5d052bbd593a706898d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b9798b1fc8b5d052bbd593a706898d5">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
+<a id="a23bd6ea68edda861fa86a1c73bc1240c" name="a23bd6ea68edda861fa86a1c73bc1240c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23bd6ea68edda861fa86a1c73bc1240c">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +260,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">CoreAnimation::__ImplementClass </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_core_animation_1_1_stream_animation_pool.html">CoreAnimation::StreamAnimationPool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_core_animation_1_1_stream_animation_cache.html">CoreAnimation::StreamAnimationCache</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -272,7 +272,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -607,8 +607,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab35a3d291c802ff567410aad0b6e213a" name="ab35a3d291c802ff567410aad0b6e213a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab35a3d291c802ff567410aad0b6e213a">&#9670;&nbsp;</a></span>AnimMix()</h2>
+<a id="a27b28c133dabda92f42db20810e58e7e" name="a27b28c133dabda92f42db20810e58e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b28c133dabda92f42db20810e58e7e">&#9670;&nbsp;</a></span>AnimMix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,13 +640,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>src0SamplePtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>src1SamplePtr</em>, </td>
         </tr>
         <tr>
@@ -664,7 +664,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>outSamplePtr</em>, </td>
         </tr>
         <tr>
@@ -683,8 +683,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aab16d1cedd3a2a954672e37300b698c6" name="aab16d1cedd3a2a954672e37300b698c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab16d1cedd3a2a954672e37300b698c6">&#9670;&nbsp;</a></span>AnimSampleJob()</h2>
+<a id="a3e619473c2bc48174a51d963be0838bb" name="a3e619473c2bc48174a51d963be0838bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e619473c2bc48174a51d963be0838bb">&#9670;&nbsp;</a></span>AnimSampleJob()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,9 +692,37 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void CoreAnimation::AnimSampleJob </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>totalJobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>groupIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>invocationOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -722,8 +750,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2e7f94c3ffa0bed5a77e2d76a7efbbc" name="ac2e7f94c3ffa0bed5a77e2d76a7efbbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e7f94c3ffa0bed5a77e2d76a7efbbc">&#9670;&nbsp;</a></span>AnimSampleJobWithMix()</h2>
+<a id="a62b466068b71a1a9af785b997e099a40" name="a62b466068b71a1a9af785b997e099a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b466068b71a1a9af785b997e099a40">&#9670;&nbsp;</a></span>AnimSampleJobWithMix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -731,17 +759,45 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void CoreAnimation::AnimSampleJobWithMix </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>totalJobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>groupIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>invocationOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a86cb3374fe48d8991b605bdc8195ce3b" name="a86cb3374fe48d8991b605bdc8195ce3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86cb3374fe48d8991b605bdc8195ce3b">&#9670;&nbsp;</a></span>AnimSampleLinear()</h2>
+<a id="ae8d2d07943287d5850a62c6d17b77a6e" name="ae8d2d07943287d5850a62c6d17b77a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d2d07943287d5850a62c6d17b77a6e">&#9670;&nbsp;</a></span>AnimSampleLinear()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,25 +823,25 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
           <td class="paramname"><em>velocityScale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>src0SamplePtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>src1SamplePtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>outSamplePtr</em>, </td>
         </tr>
         <tr>
@@ -824,8 +880,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f6444961020da7003246c68ec77c2ab" name="a6f6444961020da7003246c68ec77c2ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f6444961020da7003246c68ec77c2ab">&#9670;&nbsp;</a></span>AnimSampleStep()</h2>
+<a id="ad2a2321537fc3c4c871130665451bce1" name="ad2a2321537fc3c4c871130665451bce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2a2321537fc3c4c871130665451bce1">&#9670;&nbsp;</a></span>AnimSampleStep()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -845,19 +901,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
           <td class="paramname"><em>velocityScale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>src0SamplePtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *&#160;</td>
           <td class="paramname"><em>outSamplePtr</em>, </td>
         </tr>
         <tr>
@@ -1133,14 +1189,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a929a91cbdc8a640473d6bfe3ab66b5b2" name="a929a91cbdc8a640473d6bfe3ab66b5b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a929a91cbdc8a640473d6bfe3ab66b5b2">&#9670;&nbsp;</a></span>animPool</h2>
+<a id="aa26bb1a408c5bd48abeae5a4d701178f" name="aa26bb1a408c5bd48abeae5a4d701178f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa26bb1a408c5bd48abeae5a4d701178f">&#9670;&nbsp;</a></span>animPool</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_core_animation_1_1_stream_animation_pool.html">StreamAnimationPool</a> * CoreAnimation::animPool = nullptr</td>
+          <td class="memname"><a class="el" href="class_core_animation_1_1_stream_animation_cache.html">StreamAnimationCache</a> * CoreAnimation::animPool = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1154,7 +1210,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_animation.html">CoreAnimation</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

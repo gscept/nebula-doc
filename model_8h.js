@@ -1,8 +1,7 @@
 var model_8h =
 [
     [ "Models::ModelId", "struct_models_1_1_model_id.html", null ],
-    [ "Models::ModelInstanceId", "struct_models_1_1_model_instance_id.html", null ],
-    [ "MODEL_INSTANCE_MEMORY_CHUNK_SIZE", "model_8h.html#a4fb40a30262fa299170dd5f6fa7fb41d", null ],
+    [ "Models::NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
     [ "MODEL_MEMORY_CHUNK_SIZE", "model_8h.html#ac6d7804364258137f18638d88b526c0d", null ],
     [ "NodeBits", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120", [
       [ "NoBits", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120a80c24d1cbc4b00f978a996b0bf084316", null ],
@@ -20,7 +19,5 @@ var model_8h =
     ] ],
     [ "__ImplementEnumBitOperators", "model_8h.html#a37c6ed83ff3393ad88921c722694b364", null ],
     [ "CreateModel", "model_8h.html#a1b8205930c5627e5d49360d0814f14f6", null ],
-    [ "CreateModelInstance", "model_8h.html#ab6e7088971fa6de0797593191226923c", null ],
-    [ "DestroyModel", "model_8h.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
-    [ "DestroyModelInstance", "model_8h.html#a1703f3ba0bb7babf97ea5a5866a1e646", null ]
+    [ "DestroyModel", "model_8h.html#a2c1aae4f2466c8c4ebf819884f81405b", null ]
 ];

@@ -9,8 +9,8 @@ var dir_e1bc60578ad017316334836b92aa3f16 =
     [ "skeletonjoint.h", "skeletonjoint_8h.html", [
       [ "Characters::SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", "struct_characters_1_1_skeleton_job_joint" ]
     ] ],
-    [ "streamskeletonpool.cc", "streamskeletonpool_8cc.html", "streamskeletonpool_8cc" ],
-    [ "streamskeletonpool.h", "streamskeletonpool_8h.html", [
-      [ "Characters::StreamSkeletonPool", "class_characters_1_1_stream_skeleton_pool.html", "class_characters_1_1_stream_skeleton_pool" ]
+    [ "streamskeletoncache.cc", "streamskeletoncache_8cc.html", "streamskeletoncache_8cc" ],
+    [ "streamskeletoncache.h", "streamskeletoncache_8h.html", [
+      [ "Characters::StreamSkeletonCache", "class_characters_1_1_stream_skeleton_cache.html", "class_characters_1_1_stream_skeleton_cache" ]
     ] ]
 ];

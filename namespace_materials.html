@@ -92,65 +92,61 @@ $(document).ready(function(){initNavTree('namespace_materials.html',''); initRes
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="namespace_materials.html" title="Materials represent a set of settings and a correlated type, which tells the engine which shader to u...">Materials</a> represent a set of settings and a correlated type, which tells the engine which shader to use and how. </p>
-<p >The material pool provides a chunk allocation source for material types and instances.</p>
-<p >A material type declares the draw steps and associated shaders.</p>
 <p >The material server is the central hub for the material types.</p>
+<p >A material type declares the draw steps and associated shaders.</p>
+<p >The material pool provides a chunk allocation source for material types and instances.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2017-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_constant.html">MaterialConstant</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_material_cache.html">MaterialCache</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_info.html">MaterialInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_material_server.html">MaterialServer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_texture.html">MaterialTexture</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_resource_id.html">MaterialResourceId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_material_type.html">MaterialType</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_type_id.html">MaterialTypeId</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_shader_config_constant.html">ShaderConfigConstant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_surface_id.html">SurfaceId</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html">ShaderConfigServer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_surface_instance_id.html">SurfaceInstanceId</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_surface_pool.html">SurfacePool</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_surface_resource_id.html">SurfaceResourceId</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_surface_runtime.html">SurfaceRuntime</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_shader_config_texture.html">ShaderConfigTexture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:addfdc295d591cb5224ccb61ee52fd38f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#addfdc295d591cb5224ccb61ee52fd38f">MaterialBeginBatch</a> (<a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *type, <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> batch)</td></tr>
-<tr class="memdesc:addfdc295d591cb5224ccb61ee52fd38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin a material batch  <a href="namespace_materials.html#addfdc295d591cb5224ccb61ee52fd38f">More...</a><br /></td></tr>
-<tr class="separator:addfdc295d591cb5224ccb61ee52fd38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce36cccb70b0f9f7e359a0d317d7b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a0ce36cccb70b0f9f7e359a0d317d7b8d">MaterialApplySurface</a> (<a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *type, const <a class="el" href="struct_materials_1_1_surface_id.html">SurfaceId</a> id)</td></tr>
-<tr class="memdesc:a0ce36cccb70b0f9f7e359a0d317d7b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin surface  <a href="namespace_materials.html#a0ce36cccb70b0f9f7e359a0d317d7b8d">More...</a><br /></td></tr>
-<tr class="separator:a0ce36cccb70b0f9f7e359a0d317d7b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a520550046d25b73a0470d72a38159e4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a520550046d25b73a0470d72a38159e4d">MaterialApplySurfaceInstance</a> (<a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *type, const <a class="el" href="struct_materials_1_1_surface_instance_id.html">SurfaceInstanceId</a> id)</td></tr>
-<tr class="memdesc:a520550046d25b73a0470d72a38159e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply instance of surface  <a href="namespace_materials.html#a520550046d25b73a0470d72a38159e4d">More...</a><br /></td></tr>
-<tr class="separator:a520550046d25b73a0470d72a38159e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f19555527ee3a33aaff64ce3cbc71b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a62f19555527ee3a33aaff64ce3cbc71b">MaterialEndBatch</a> (<a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *type)</td></tr>
-<tr class="memdesc:a62f19555527ee3a33aaff64ce3cbc71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a material batch  <a href="namespace_materials.html#a62f19555527ee3a33aaff64ce3cbc71b">More...</a><br /></td></tr>
-<tr class="separator:a62f19555527ee3a33aaff64ce3cbc71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfa4b11553fe461dc0fff96b01a975d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#abfa4b11553fe461dc0fff96b01a975d8">__ImplementClass</a> (<a class="el" href="class_materials_1_1_material_server.html">Materials::MaterialServer</a>, 'MASV', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>) <a class="el" href="win32singleton_8h.html#a60044d7c40c042e675a575c216d94947">__ImplementInterfaceSingleton</a>(Materials</td></tr>
-<tr class="separator:abfa4b11553fe461dc0fff96b01a975d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84d3953016ba6a65569430df30b227b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a84d3953016ba6a65569430df30b227b7">__ImplementClass</a> (<a class="el" href="class_materials_1_1_surface_pool.html">Materials::SurfacePool</a>, 'MAPO', <a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>)</td></tr>
-<tr class="separator:a84d3953016ba6a65569430df30b227b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7709e1c88f63b27f410c19cabc4643be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a7709e1c88f63b27f410c19cabc4643be">ShaderConfigBeginBatch</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *config, <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> batch)</td></tr>
+<tr class="memdesc:a7709e1c88f63b27f410c19cabc4643be"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin a material batch  <a href="namespace_materials.html#a7709e1c88f63b27f410c19cabc4643be">More...</a><br /></td></tr>
+<tr class="separator:a7709e1c88f63b27f410c19cabc4643be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897bf968e4261918368906d197238be9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a897bf968e4261918368906d197238be9">MaterialApply</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *config, const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id)</td></tr>
+<tr class="memdesc:a897bf968e4261918368906d197238be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin surface  <a href="namespace_materials.html#a897bf968e4261918368906d197238be9">More...</a><br /></td></tr>
+<tr class="separator:a897bf968e4261918368906d197238be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed41ba089e22e3371559b86b5ff49f03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#aed41ba089e22e3371559b86b5ff49f03">MaterialInstanceApply</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *config, const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> id)</td></tr>
+<tr class="memdesc:aed41ba089e22e3371559b86b5ff49f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply instance of surface  <a href="namespace_materials.html#aed41ba089e22e3371559b86b5ff49f03">More...</a><br /></td></tr>
+<tr class="separator:aed41ba089e22e3371559b86b5ff49f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae769045bb9068cb2dc6fbc800cf22106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ae769045bb9068cb2dc6fbc800cf22106">ShaderConfigEndBatch</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *config)</td></tr>
+<tr class="memdesc:ae769045bb9068cb2dc6fbc800cf22106"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a material batch  <a href="namespace_materials.html#ae769045bb9068cb2dc6fbc800cf22106">More...</a><br /></td></tr>
+<tr class="separator:ae769045bb9068cb2dc6fbc800cf22106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d85bde948dfeec76d227a1f9f3d4d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a09d85bde948dfeec76d227a1f9f3d4d5">__ImplementClass</a> (<a class="el" href="class_materials_1_1_material_cache.html">Materials::MaterialCache</a>, 'MAPO', <a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>)</td></tr>
+<tr class="separator:a09d85bde948dfeec76d227a1f9f3d4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ed13251436e47c8451b0896fc86e862"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a4ed13251436e47c8451b0896fc86e862">__ImplementClass</a> (<a class="el" href="class_materials_1_1_shader_config_server.html">Materials::ShaderConfigServer</a>, 'MASV', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>) <a class="el" href="win32singleton_8h.html#a60044d7c40c042e675a575c216d94947">__ImplementInterfaceSingleton</a>(Materials</td></tr>
+<tr class="separator:a4ed13251436e47c8451b0896fc86e862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6a95257fcb78e5ed7a007d4b38a0fe88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_surface_pool.html">SurfacePool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a6a95257fcb78e5ed7a007d4b38a0fe88">surfacePool</a> = nullptr</td></tr>
-<tr class="separator:a6a95257fcb78e5ed7a007d4b38a0fe88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2061d394b4cd62da373d10b0f682e684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_material_cache.html">MaterialCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a2061d394b4cd62da373d10b0f682e684">surfacePool</a> = nullptr</td></tr>
+<tr class="separator:a2061d394b4cd62da373d10b0f682e684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="abfa4b11553fe461dc0fff96b01a975d8" name="abfa4b11553fe461dc0fff96b01a975d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfa4b11553fe461dc0fff96b01a975d8">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[1/2]</span></h2>
+<a id="a09d85bde948dfeec76d227a1f9f3d4d5" name="a09d85bde948dfeec76d227a1f9f3d4d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d85bde948dfeec76d227a1f9f3d4d5">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +154,41 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">Materials::__ImplementClass </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_material_server.html">Materials::MaterialServer</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_material_cache.html">Materials::MaterialCache</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'MAPO'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ed13251436e47c8451b0896fc86e862" name="a4ed13251436e47c8451b0896fc86e862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ed13251436e47c8451b0896fc86e862">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Materials::__ImplementClass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_shader_config_server.html">Materials::ShaderConfigServer</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -183,56 +213,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a84d3953016ba6a65569430df30b227b7" name="a84d3953016ba6a65569430df30b227b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84d3953016ba6a65569430df30b227b7">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
+<a id="a897bf968e4261918368906d197238be9" name="a897bf968e4261918368906d197238be9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a897bf968e4261918368906d197238be9">&#9670;&nbsp;</a></span>MaterialApply()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Materials::__ImplementClass </td>
+          <td class="memname">void Materials::MaterialApply </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_surface_pool.html">Materials::SurfacePool</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">'MAPO'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_pool.html">Resources::ResourceStreamPool</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ce36cccb70b0f9f7e359a0d317d7b8d" name="a0ce36cccb70b0f9f7e359a0d317d7b8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce36cccb70b0f9f7e359a0d317d7b8d">&#9670;&nbsp;</a></span>MaterialApplySurface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Materials::MaterialApplySurface </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_materials_1_1_surface_id.html">SurfaceId</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a>&#160;</td>
           <td class="paramname"><em>id</em>&#160;</td>
         </tr>
         <tr>
@@ -247,22 +243,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a520550046d25b73a0470d72a38159e4d" name="a520550046d25b73a0470d72a38159e4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a520550046d25b73a0470d72a38159e4d">&#9670;&nbsp;</a></span>MaterialApplySurfaceInstance()</h2>
+<a id="aed41ba089e22e3371559b86b5ff49f03" name="aed41ba089e22e3371559b86b5ff49f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed41ba089e22e3371559b86b5ff49f03">&#9670;&nbsp;</a></span>MaterialInstanceApply()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Materials::MaterialApplySurfaceInstance </td>
+          <td class="memname">void Materials::MaterialInstanceApply </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_materials_1_1_surface_instance_id.html">SurfaceInstanceId</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>&#160;</td>
           <td class="paramname"><em>id</em>&#160;</td>
         </tr>
         <tr>
@@ -277,17 +273,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="addfdc295d591cb5224ccb61ee52fd38f" name="addfdc295d591cb5224ccb61ee52fd38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addfdc295d591cb5224ccb61ee52fd38f">&#9670;&nbsp;</a></span>MaterialBeginBatch()</h2>
+<a id="a7709e1c88f63b27f410c19cabc4643be" name="a7709e1c88f63b27f410c19cabc4643be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7709e1c88f63b27f410c19cabc4643be">&#9670;&nbsp;</a></span>ShaderConfigBeginBatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Materials::MaterialBeginBatch </td>
+          <td class="memname">bool Materials::ShaderConfigBeginBatch </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -307,17 +303,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a62f19555527ee3a33aaff64ce3cbc71b" name="a62f19555527ee3a33aaff64ce3cbc71b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62f19555527ee3a33aaff64ce3cbc71b">&#9670;&nbsp;</a></span>MaterialEndBatch()</h2>
+<a id="ae769045bb9068cb2dc6fbc800cf22106" name="ae769045bb9068cb2dc6fbc800cf22106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae769045bb9068cb2dc6fbc800cf22106">&#9670;&nbsp;</a></span>ShaderConfigEndBatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Materials::MaterialEndBatch </td>
+          <td class="memname">void Materials::ShaderConfigEndBatch </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_materials_1_1_material_type.html">MaterialType</a> *&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -328,14 +324,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a6a95257fcb78e5ed7a007d4b38a0fe88" name="a6a95257fcb78e5ed7a007d4b38a0fe88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a95257fcb78e5ed7a007d4b38a0fe88">&#9670;&nbsp;</a></span>surfacePool</h2>
+<a id="a2061d394b4cd62da373d10b0f682e684" name="a2061d394b4cd62da373d10b0f682e684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2061d394b4cd62da373d10b0f682e684">&#9670;&nbsp;</a></span>surfacePool</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_materials_1_1_surface_pool.html">SurfacePool</a> * Materials::surfacePool = nullptr</td>
+          <td class="memname"><a class="el" href="class_materials_1_1_material_cache.html">MaterialCache</a> * Materials::surfacePool = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -349,7 +345,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

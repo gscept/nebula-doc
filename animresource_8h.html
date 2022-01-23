@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('animresource_8h.html',''); initResizab
 <div class="textblock"><code>#include &quot;<a class="el" href="resource_8h_source.html">resources/resource.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="animclip_8h_source.html">coreanimation/animclip.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="animkeybuffer_8h_source.html">coreanimation/animkeybuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="animsamplemask_8h_source.html">coreanimation/animsamplemask.h</a>&quot;</code><br />
 </div>
 <p><a href="animresource_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -109,6 +110,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ad2a2321537fc3c4c871130665451bce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ad2a2321537fc3c4c871130665451bce1">CoreAnimation::AnimSampleStep</a> (const AnimCurve *curves, int numCurves, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:ad2a2321537fc3c4c871130665451bce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d2d07943287d5850a62c6d17b77a6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#ae8d2d07943287d5850a62c6d17b77a6e">CoreAnimation::AnimSampleLinear</a> (const AnimCurve *curves, int numCurves, float sampleWeight, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;velocityScale, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src1SamplePtr, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:ae8d2d07943287d5850a62c6d17b77a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b28c133dabda92f42db20810e58e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a27b28c133dabda92f42db20810e58e7e">CoreAnimation::AnimMix</a> (const AnimCurve *curves, int numCurves, const AnimSampleMask *mask, float mixWeight, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src0SamplePtr, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *src1SamplePtr, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src0SampleCounts, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src1SampleCounts, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
+<tr class="separator:a27b28c133dabda92f42db20810e58e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b2ca1698b6033bc9efb2913359f2e9c"><td class="memItemLeft" align="right" valign="top">const AnimResourceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_animation.html#a4b2ca1698b6033bc9efb2913359f2e9c">CoreAnimation::CreateAnimation</a> (const <a class="el" href="struct_resource_create_info.html">ResourceCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a4b2ca1698b6033bc9efb2913359f2e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create animation resource  <a href="namespace_core_animation.html#a4b2ca1698b6033bc9efb2913359f2e9c">More...</a><br /></td></tr>
 <tr class="separator:a4b2ca1698b6033bc9efb2913359f2e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,7 +139,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_6c58477bfd8ecafbb488bbd2493f95bf.html">coreanimation</a></li><li class="navelem"><a class="el" href="animresource_8h.html">animresource.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

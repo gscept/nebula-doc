@@ -48,6 +48,7 @@ var namespaces_dup =
     [ "Interface", "namespace_interface.html", "namespace_interface" ],
     [ "IO", "namespace_i_o.html", "namespace_i_o" ],
     [ "Jobs", "namespace_jobs.html", "namespace_jobs" ],
+    [ "Jobs2", "namespace_jobs2.html", "namespace_jobs2" ],
     [ "Lighting", "namespace_lighting.html", "namespace_lighting" ],
     [ "Linux", "namespace_linux.html", "namespace_linux" ],
     [ "Materials", "namespace_materials.html", "namespace_materials" ],

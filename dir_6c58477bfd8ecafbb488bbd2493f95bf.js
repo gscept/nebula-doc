@@ -47,8 +47,8 @@ var dir_6c58477bfd8ecafbb488bbd2493f95bf =
     [ "sampletype.h", "sampletype_8h.html", [
       [ "CoreAnimation::SampleType", "class_core_animation_1_1_sample_type.html", "class_core_animation_1_1_sample_type" ]
     ] ],
-    [ "streamanimationpool.cc", "streamanimationpool_8cc.html", "streamanimationpool_8cc" ],
-    [ "streamanimationpool.h", "streamanimationpool_8h.html", [
-      [ "CoreAnimation::StreamAnimationPool", "class_core_animation_1_1_stream_animation_pool.html", "class_core_animation_1_1_stream_animation_pool" ]
+    [ "streamanimationcache.cc", "streamanimationcache_8cc.html", "streamanimationcache_8cc" ],
+    [ "streamanimationcache.h", "streamanimationcache_8h.html", [
+      [ "CoreAnimation::StreamAnimationCache", "class_core_animation_1_1_stream_animation_cache.html", "class_core_animation_1_1_stream_animation_cache" ]
     ] ]
 ];

@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('model_8h.html',''); initResizable(); }
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_instance_id.html">Models::ModelInstanceId</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_node_instance_range.html">Models::NodeInstanceRange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -117,8 +117,6 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ac6d7804364258137f18638d88b526c0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="model_8h.html#ac6d7804364258137f18638d88b526c0d">MODEL_MEMORY_CHUNK_SIZE</a>&#160;&#160;&#160;0x1000</td></tr>
 <tr class="separator:ac6d7804364258137f18638d88b526c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb40a30262fa299170dd5f6fa7fb41d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="model_8h.html#a4fb40a30262fa299170dd5f6fa7fb41d">MODEL_INSTANCE_MEMORY_CHUNK_SIZE</a>&#160;&#160;&#160;0x4000</td></tr>
-<tr class="separator:a4fb40a30262fa299170dd5f6fa7fb41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -150,28 +148,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">Models::DestroyModel</a> (const ModelId id)</td></tr>
 <tr class="memdesc:a2c1aae4f2466c8c4ebf819884f81405b"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard model (resource)  <a href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">More...</a><br /></td></tr>
 <tr class="separator:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e7088971fa6de0797593191226923c"><td class="memItemLeft" align="right" valign="top">const ModelInstanceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ab6e7088971fa6de0797593191226923c">Models::CreateModelInstance</a> (const ModelId mdl)</td></tr>
-<tr class="memdesc:ab6e7088971fa6de0797593191226923c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model instance  <a href="namespace_models.html#ab6e7088971fa6de0797593191226923c">More...</a><br /></td></tr>
-<tr class="separator:ab6e7088971fa6de0797593191226923c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a1703f3ba0bb7babf97ea5a5866a1e646">Models::DestroyModelInstance</a> (const ModelInstanceId id)</td></tr>
-<tr class="memdesc:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy model instance  <a href="namespace_models.html#a1703f3ba0bb7babf97ea5a5866a1e646">More...</a><br /></td></tr>
-<tr class="separator:a1703f3ba0bb7babf97ea5a5866a1e646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4fb40a30262fa299170dd5f6fa7fb41d" name="a4fb40a30262fa299170dd5f6fa7fb41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fb40a30262fa299170dd5f6fa7fb41d">&#9670;&nbsp;</a></span>MODEL_INSTANCE_MEMORY_CHUNK_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MODEL_INSTANCE_MEMORY_CHUNK_SIZE&#160;&#160;&#160;0x4000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac6d7804364258137f18638d88b526c0d" name="ac6d7804364258137f18638d88b526c0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6d7804364258137f18638d88b526c0d">&#9670;&nbsp;</a></span>MODEL_MEMORY_CHUNK_SIZE</h2>
 
@@ -193,7 +171,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_d9d30cd1cce06ca19bffd160cc974b62.html">models</a></li><li class="navelem"><a class="el" href="model_8h.html">model.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

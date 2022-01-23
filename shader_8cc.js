@@ -30,5 +30,5 @@ var shader_8cc =
     [ "ShaderGetResourceSlot", "shader_8cc.html#afd7d2a5e3c1622da4fda6ab53b9646f1", null ],
     [ "ShaderGetResourceTableLayout", "shader_8cc.html#aed86a5f967a8dc018ebe208afbbf0a49", null ],
     [ "ShaderProgramGetName", "shader_8cc.html#a594551e24e9f19a8f666b603ed5aca84", null ],
-    [ "shaderPool", "shader_8cc.html#a8422ac1a3e440b74fa511a000196205b", null ]
+    [ "shaderPool", "shader_8cc.html#a831edd868293b7886b3dd322df02c553", null ]
 ];

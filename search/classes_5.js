@@ -19,8 +19,9 @@ var searchData=
   ['eventcreateinfo_16',['EventCreateInfo',['../struct_core_graphics_1_1_event_create_info.html',1,'CoreGraphics']]],
   ['eventhandlerdata_17',['EventHandlerData',['../struct_i_o_1_1_event_handler_data.html',1,'IO']]],
   ['eventid_18',['EventId',['../struct_core_graphics_1_1_event_id.html',1,'CoreGraphics']]],
-  ['excelxmlreader_19',['ExcelXmlReader',['../class_i_o_1_1_excel_xml_reader.html',1,'IO']]],
-  ['executionbarrier_20',['ExecutionBarrier',['../struct_core_graphics_1_1_execution_barrier.html',1,'CoreGraphics']]],
-  ['exithandler_21',['ExitHandler',['../class_core_1_1_exit_handler.html',1,'Core']]],
-  ['extrapolator_22',['Extrapolator',['../class_math_1_1_extrapolator.html',1,'Math']]]
+  ['eventwithmanualreset_19',['EventWithManualReset',['../class_threading_1_1_event_with_manual_reset.html',1,'Threading']]],
+  ['excelxmlreader_20',['ExcelXmlReader',['../class_i_o_1_1_excel_xml_reader.html',1,'IO']]],
+  ['executionbarrier_21',['ExecutionBarrier',['../struct_core_graphics_1_1_execution_barrier.html',1,'CoreGraphics']]],
+  ['exithandler_22',['ExitHandler',['../class_core_1_1_exit_handler.html',1,'Core']]],
+  ['extrapolator_23',['Extrapolator',['../class_math_1_1_extrapolator.html',1,'Math']]]
 ];

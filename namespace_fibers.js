@@ -9,10 +9,10 @@ var namespace_fibers =
     [ "FiberThread", "class_fibers_1_1_fiber_thread.html", "class_fibers_1_1_fiber_thread" ],
     [ "FiberWaitContext", "struct_fibers_1_1_fiber_wait_context.html", "struct_fibers_1_1_fiber_wait_context" ],
     [ "__ImplementClass", "namespace_fibers.html#a3fb65eacfdddd2cbbdbf832e35e8b6f5", null ],
-    [ "Enqueue", "namespace_fibers.html#afbcf82c8702dd9e3349157acd829e005", null ],
+    [ "Enqueue", "namespace_fibers.html#aee4146cc7f1f63da97a4c35b568dfef7", null ],
     [ "FiberFunction", "namespace_fibers.html#a34d84355d10c52b0d06ba2461793746b", null ],
     [ "FiberStartFunction", "namespace_fibers.html#aa779eca3f14814267a9faa1d8a763f6e", null ],
-    [ "Lock", "namespace_fibers.html#a2fc2c8791e31766563d6bbad82271995", null ],
-    [ "Wait", "namespace_fibers.html#a9d0a0b1f72b51fae81097604ff3fa1bb", null ],
+    [ "Lock", "namespace_fibers.html#aa7c25789a54e0cdbde8c6a3516130626", null ],
+    [ "Wait", "namespace_fibers.html#a48081617933f7f14b2bf595585d1a236", null ],
     [ "currentThread", "namespace_fibers.html#a751f468e574ad538b77ede0b3dba697d", null ]
 ];

@@ -18,7 +18,7 @@ var searchData=
   ['statelevel_15',['StateLevel',['../class_vulkan_1_1_vk_pipeline_database.html#ad28910c1ecfecc690f90265d06ae9b14',1,'Vulkan::VkPipelineDatabase']]],
   ['stridetype_16',['StrideType',['../class_base_1_1_vertex_component_base.html#ad77376ed4a5b5d40b1ae096386251009',1,'Base::VertexComponentBase']]],
   ['subtextureupdatestate_17',['SubTextureUpdateState',['../namespace_terrain.html#adbc376225f7b7a972247d971534a7199',1,'Terrain']]],
-  ['surfaceinstancemembers_18',['SurfaceInstanceMembers',['../class_materials_1_1_material_type.html#adab61418ac87d8a59f156ef0c959a7fc',1,'Materials::MaterialType']]],
-  ['surfacemembers_19',['SurfaceMembers',['../class_materials_1_1_material_type.html#a5f3777a9219a42470c61c2b9e8b38501',1,'Materials::MaterialType']]],
+  ['surfaceinstancemembers_18',['SurfaceInstanceMembers',['../class_materials_1_1_shader_config.html#aa0ab4f74cc64a65b4b7375a672e6b626',1,'Materials::ShaderConfig']]],
+  ['surfacemembers_19',['SurfaceMembers',['../class_materials_1_1_shader_config.html#a44a3f8cf7dc4933c92c5efd13bebf045',1,'Materials::ShaderConfig']]],
   ['syncstate_20',['SyncState',['../class_memory_1_1_ring_allocator.html#a5601ff6cfa65a66bcfdeef78acddf255',1,'Memory::RingAllocator']]]
 ];

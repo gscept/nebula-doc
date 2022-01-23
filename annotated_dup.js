@@ -97,7 +97,7 @@ var annotated_dup =
       [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
       [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
       [ "SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", "struct_characters_1_1_skeleton_job_joint" ],
-      [ "StreamSkeletonPool", "class_characters_1_1_stream_skeleton_pool.html", "class_characters_1_1_stream_skeleton_pool" ]
+      [ "StreamSkeletonCache", "class_characters_1_1_stream_skeleton_cache.html", "class_characters_1_1_stream_skeleton_cache" ]
     ] ],
     [ "Clustering", "namespace_clustering.html", [
       [ "_state", "struct_clustering_1_1__state.html", "struct_clustering_1_1__state" ],
@@ -135,7 +135,7 @@ var annotated_dup =
       [ "Nax3Curve", "struct_core_animation_1_1_nax3_curve.html", "struct_core_animation_1_1_nax3_curve" ],
       [ "Nax3Header", "struct_core_animation_1_1_nax3_header.html", "struct_core_animation_1_1_nax3_header" ],
       [ "SampleType", "class_core_animation_1_1_sample_type.html", "class_core_animation_1_1_sample_type" ],
-      [ "StreamAnimationPool", "class_core_animation_1_1_stream_animation_pool.html", "class_core_animation_1_1_stream_animation_pool" ]
+      [ "StreamAnimationCache", "class_core_animation_1_1_stream_animation_cache.html", "class_core_animation_1_1_stream_animation_cache" ]
     ] ],
     [ "CoreGraphics", "namespace_core_graphics.html", [
       [ "GpuBufferTypes", "namespace_core_graphics_1_1_gpu_buffer_types.html", [
@@ -184,7 +184,7 @@ var annotated_dup =
       [ "ImageLoadInfo", "struct_core_graphics_1_1_image_load_info.html", "struct_core_graphics_1_1_image_load_info" ],
       [ "ImageSubresourceInfo", "struct_core_graphics_1_1_image_subresource_info.html", "struct_core_graphics_1_1_image_subresource_info" ],
       [ "IndexType", "class_core_graphics_1_1_index_type.html", "class_core_graphics_1_1_index_type" ],
-      [ "MemoryMeshPool", "class_core_graphics_1_1_memory_mesh_pool.html", "class_core_graphics_1_1_memory_mesh_pool" ],
+      [ "MemoryMeshCache", "class_core_graphics_1_1_memory_mesh_cache.html", "class_core_graphics_1_1_memory_mesh_cache" ],
       [ "MemoryPool", "struct_core_graphics_1_1_memory_pool.html", "struct_core_graphics_1_1_memory_pool" ],
       [ "MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],
       [ "MeshId", "struct_core_graphics_1_1_mesh_id.html", null ],
@@ -229,7 +229,7 @@ var annotated_dup =
       [ "ShaderIdentifier", "class_core_graphics_1_1_shader_identifier.html", "class_core_graphics_1_1_shader_identifier" ],
       [ "SparseBufferCreateInfo", "struct_core_graphics_1_1_sparse_buffer_create_info.html", null ],
       [ "SparseBufferId", "struct_core_graphics_1_1_sparse_buffer_id.html", null ],
-      [ "StreamMeshPool", "class_core_graphics_1_1_stream_mesh_pool.html", "class_core_graphics_1_1_stream_mesh_pool" ],
+      [ "StreamMeshCache", "class_core_graphics_1_1_stream_mesh_cache.html", "class_core_graphics_1_1_stream_mesh_cache" ],
       [ "SubmissionContextCreateInfo", "struct_core_graphics_1_1_submission_context_create_info.html", "struct_core_graphics_1_1_submission_context_create_info" ],
       [ "SubmissionContextId", "struct_core_graphics_1_1_submission_context_id.html", null ],
       [ "Subpass", "struct_core_graphics_1_1_subpass.html", "struct_core_graphics_1_1_subpass" ],
@@ -596,6 +596,13 @@ var annotated_dup =
       [ "JobUniformData", "struct_jobs_1_1_job_uniform_data.html", "struct_jobs_1_1_job_uniform_data" ],
       [ "PrivateMemory", "struct_jobs_1_1_private_memory.html", "struct_jobs_1_1_private_memory" ]
     ] ],
+    [ "Jobs2", "namespace_jobs2.html", [
+      [ "JobContext", "struct_jobs2_1_1_job_context.html", "struct_jobs2_1_1_job_context" ],
+      [ "JobNode", "struct_jobs2_1_1_job_node.html", "struct_jobs2_1_1_job_node" ],
+      [ "Jobs2Context", "struct_jobs2_1_1_jobs2_context.html", "struct_jobs2_1_1_jobs2_context" ],
+      [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
+      [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ]
+    ] ],
     [ "Lighting", "namespace_lighting.html", [
       [ "CSMUtil", "class_lighting_1_1_c_s_m_util.html", "class_lighting_1_1_c_s_m_util" ],
       [ "EnvironmentProbe", "class_lighting_1_1_environment_probe.html", "class_lighting_1_1_environment_probe" ],
@@ -617,17 +624,15 @@ var annotated_dup =
       [ "LinuxThreadLocalPtr", "class_linux_1_1_linux_thread_local_ptr.html", "class_linux_1_1_linux_thread_local_ptr" ]
     ] ],
     [ "Materials", "namespace_materials.html", [
-      [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
+      [ "MaterialCache", "class_materials_1_1_material_cache.html", "class_materials_1_1_material_cache" ],
+      [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
       [ "MaterialInfo", "struct_materials_1_1_material_info.html", "struct_materials_1_1_material_info" ],
-      [ "MaterialServer", "class_materials_1_1_material_server.html", "class_materials_1_1_material_server" ],
-      [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
-      [ "MaterialType", "class_materials_1_1_material_type.html", "class_materials_1_1_material_type" ],
-      [ "MaterialTypeId", "struct_materials_1_1_material_type_id.html", null ],
-      [ "SurfaceId", "struct_materials_1_1_surface_id.html", null ],
-      [ "SurfaceInstanceId", "struct_materials_1_1_surface_instance_id.html", null ],
-      [ "SurfacePool", "class_materials_1_1_surface_pool.html", "class_materials_1_1_surface_pool" ],
-      [ "SurfaceResourceId", "struct_materials_1_1_surface_resource_id.html", null ],
-      [ "SurfaceRuntime", "struct_materials_1_1_surface_runtime.html", "struct_materials_1_1_surface_runtime" ]
+      [ "MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
+      [ "MaterialResourceId", "struct_materials_1_1_material_resource_id.html", null ],
+      [ "ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
+      [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
+      [ "ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ],
+      [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ]
     ] ],
     [ "Math", "namespace_math.html", [
       [ "AngularPFeedbackLoop", "class_math_1_1_angular_p_feedback_loop.html", "class_math_1_1_angular_p_feedback_loop" ],
@@ -704,12 +709,12 @@ var annotated_dup =
       [ "CharacterSkinNode", "class_models_1_1_character_skin_node.html", "class_models_1_1_character_skin_node" ],
       [ "ModelContext", "class_models_1_1_model_context.html", "class_models_1_1_model_context" ],
       [ "ModelId", "struct_models_1_1_model_id.html", null ],
-      [ "ModelInstanceId", "struct_models_1_1_model_instance_id.html", null ],
       [ "ModelNode", "class_models_1_1_model_node.html", "class_models_1_1_model_node" ],
+      [ "NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
       [ "ParticleSystemNode", "class_models_1_1_particle_system_node.html", "class_models_1_1_particle_system_node" ],
       [ "PrimitiveNode", "class_models_1_1_primitive_node.html", "class_models_1_1_primitive_node" ],
       [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
-      [ "StreamModelPool", "class_models_1_1_stream_model_pool.html", "class_models_1_1_stream_model_pool" ],
+      [ "StreamModelCache", "class_models_1_1_stream_model_cache.html", "class_models_1_1_stream_model_cache" ],
       [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]
     ] ],
     [ "Net", "namespace_net.html", [
@@ -743,9 +748,9 @@ var annotated_dup =
       [ "EnvelopeSampleBuffer", "class_particles_1_1_envelope_sample_buffer.html", "class_particles_1_1_envelope_sample_buffer" ],
       [ "Particle", "struct_particles_1_1_particle.html", "struct_particles_1_1_particle" ],
       [ "ParticleContext", "class_particles_1_1_particle_context.html", "class_particles_1_1_particle_context" ],
+      [ "ParticleJobContext", "struct_particles_1_1_particle_job_context.html", "struct_particles_1_1_particle_job_context" ],
       [ "ParticleJobSliceOutputData", "struct_particles_1_1_particle_job_slice_output_data.html", "struct_particles_1_1_particle_job_slice_output_data" ],
-      [ "ParticleJobUniformData", "struct_particles_1_1_particle_job_uniform_data.html", "struct_particles_1_1_particle_job_uniform_data" ],
-      [ "ParticleJobUniformPerJobData", "struct_particles_1_1_particle_job_uniform_per_job_data.html", "struct_particles_1_1_particle_job_uniform_per_job_data" ]
+      [ "ParticleJobUniformData", "struct_particles_1_1_particle_job_uniform_data.html", "struct_particles_1_1_particle_job_uniform_data" ]
     ] ],
     [ "Physics", "namespace_physics.html", [
       [ "Actor", "struct_physics_1_1_actor.html", "struct_physics_1_1_actor" ],
@@ -825,12 +830,12 @@ var annotated_dup =
     ] ],
     [ "Resources", "namespace_resources.html", [
       [ "Resource", "class_resources_1_1_resource.html", "class_resources_1_1_resource" ],
+      [ "ResourceCache", "class_resources_1_1_resource_cache.html", "class_resources_1_1_resource_cache" ],
       [ "ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", "class_resources_1_1_resource_loader_thread" ],
-      [ "ResourceMemoryPool", "class_resources_1_1_resource_memory_pool.html", "class_resources_1_1_resource_memory_pool" ],
-      [ "ResourcePool", "class_resources_1_1_resource_pool.html", "class_resources_1_1_resource_pool" ],
+      [ "ResourceMemoryCache", "class_resources_1_1_resource_memory_cache.html", "class_resources_1_1_resource_memory_cache" ],
       [ "ResourceSaver", "class_resources_1_1_resource_saver.html", "class_resources_1_1_resource_saver" ],
       [ "ResourceServer", "class_resources_1_1_resource_server.html", "class_resources_1_1_resource_server" ],
-      [ "ResourceStreamPool", "class_resources_1_1_resource_stream_pool.html", "class_resources_1_1_resource_stream_pool" ],
+      [ "ResourceStreamCache", "class_resources_1_1_resource_stream_cache.html", "class_resources_1_1_resource_stream_cache" ],
       [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ]
     ] ],
     [ "Scripting", "namespace_scripting.html", [
@@ -862,6 +867,7 @@ var annotated_dup =
       [ "AssertingMutex", "class_threading_1_1_asserting_mutex.html", "class_threading_1_1_asserting_mutex" ],
       [ "AssertingScope", "struct_threading_1_1_asserting_scope.html", "struct_threading_1_1_asserting_scope" ],
       [ "CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ],
+      [ "EventWithManualReset", "class_threading_1_1_event_with_manual_reset.html", "class_threading_1_1_event_with_manual_reset" ],
       [ "LockFreeQueue", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],
       [ "ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ],
       [ "ReadWriteLock", "class_threading_1_1_read_write_lock.html", "class_threading_1_1_read_write_lock" ],
@@ -957,19 +963,18 @@ var annotated_dup =
       [ "VkFenceInfo", "struct_vulkan_1_1_vk_fence_info.html", "struct_vulkan_1_1_vk_fence_info" ],
       [ "VkInstanceRenderer", "class_vulkan_1_1_vk_instance_renderer.html", "class_vulkan_1_1_vk_instance_renderer" ],
       [ "VkInstanceServer", "class_vulkan_1_1_vk_instance_server.html", "class_vulkan_1_1_vk_instance_server" ],
-      [ "VkMemoryTexturePool", "class_vulkan_1_1_vk_memory_texture_pool.html", "class_vulkan_1_1_vk_memory_texture_pool" ],
-      [ "VkMeshPool", "class_vulkan_1_1_vk_mesh_pool.html", "class_vulkan_1_1_vk_mesh_pool" ],
+      [ "VkMemoryTextureCache", "class_vulkan_1_1_vk_memory_texture_cache.html", "class_vulkan_1_1_vk_memory_texture_cache" ],
       [ "VkPassLoadInfo", "struct_vulkan_1_1_vk_pass_load_info.html", "struct_vulkan_1_1_vk_pass_load_info" ],
       [ "VkPassRuntimeInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html", "struct_vulkan_1_1_vk_pass_runtime_info" ],
       [ "VkPipelineDatabase", "class_vulkan_1_1_vk_pipeline_database.html", "class_vulkan_1_1_vk_pipeline_database" ],
       [ "VkProgramReflectionInfo", "struct_vulkan_1_1_vk_program_reflection_info.html", "struct_vulkan_1_1_vk_program_reflection_info" ],
       [ "VkScheduler", "class_vulkan_1_1_vk_scheduler.html", "class_vulkan_1_1_vk_scheduler" ],
-      [ "VkShaderPool", "class_vulkan_1_1_vk_shader_pool.html", "class_vulkan_1_1_vk_shader_pool" ],
+      [ "VkShaderCache", "class_vulkan_1_1_vk_shader_cache.html", "class_vulkan_1_1_vk_shader_cache" ],
       [ "VkShaderProgramRuntimeInfo", "struct_vulkan_1_1_vk_shader_program_runtime_info.html", "struct_vulkan_1_1_vk_shader_program_runtime_info" ],
       [ "VkShaderProgramSetupInfo", "struct_vulkan_1_1_vk_shader_program_setup_info.html", "struct_vulkan_1_1_vk_shader_program_setup_info" ],
       [ "VkShaderServer", "class_vulkan_1_1_vk_shader_server.html", "class_vulkan_1_1_vk_shader_server" ],
       [ "VkShapeRenderer", "class_vulkan_1_1_vk_shape_renderer.html", "class_vulkan_1_1_vk_shape_renderer" ],
-      [ "VkStreamTexturePool", "class_vulkan_1_1_vk_stream_texture_pool.html", "class_vulkan_1_1_vk_stream_texture_pool" ],
+      [ "VkStreamTextureCache", "class_vulkan_1_1_vk_stream_texture_cache.html", "class_vulkan_1_1_vk_stream_texture_cache" ],
       [ "VkStreamTextureSaver", "class_vulkan_1_1_vk_stream_texture_saver.html", "class_vulkan_1_1_vk_stream_texture_saver" ],
       [ "VkSubContextHandler", "class_vulkan_1_1_vk_sub_context_handler.html", "class_vulkan_1_1_vk_sub_context_handler" ],
       [ "VkTextRenderer", "class_vulkan_1_1_vk_text_renderer.html", "class_vulkan_1_1_vk_text_renderer" ],
@@ -984,7 +989,7 @@ var annotated_dup =
       [ "VkTransformDevice", "class_vulkan_1_1_vk_transform_device.html", "class_vulkan_1_1_vk_transform_device" ],
       [ "VkTypes", "class_vulkan_1_1_vk_types.html", "class_vulkan_1_1_vk_types" ],
       [ "VkUtilities", "class_vulkan_1_1_vk_utilities.html", "class_vulkan_1_1_vk_utilities" ],
-      [ "VkVertexSignaturePool", "class_vulkan_1_1_vk_vertex_signature_pool.html", "class_vulkan_1_1_vk_vertex_signature_pool" ],
+      [ "VkVertexSignatureCache", "class_vulkan_1_1_vk_vertex_signature_cache.html", "class_vulkan_1_1_vk_vertex_signature_cache" ],
       [ "WriteInfo", "union_vulkan_1_1_write_info.html", "union_vulkan_1_1_write_info" ]
     ] ],
     [ "Win32", "namespace_win32.html", [
@@ -1067,7 +1072,7 @@ var annotated_dup =
     [ "LinuxThreadId", "class_linux_1_1_linux_thread_id.html", null ],
     [ "MemoryMeshLoader", "class_core_graphics_1_1_memory_mesh_loader.html", null ],
     [ "MemoryPool", "class_memory_1_1_memory_pool.html", null ],
-    [ "MemoryTexturePool", "class_core_graphics_1_1_memory_texture_pool.html", null ],
+    [ "MemoryTextureCache", "class_core_graphics_1_1_memory_texture_cache.html", null ],
     [ "MiniDump", "class_debug_1_1_mini_dump.html", null ],
     [ "NebulaSettings", "class_system_1_1_nebula_settings.html", null ],
     [ "Nvx2StreamReader", "class_legacy_1_1_nvx2_stream_reader.html", null ],
@@ -1124,7 +1129,7 @@ var annotated_dup =
     [ "TransformDevice", "class_core_graphics_1_1_transform_device.html", null ],
     [ "VertexComponent", "class_core_graphics_1_1_vertex_component.html", null ],
     [ "VertexLayoutBase", "class_base_1_1_vertex_layout_base.html", null ],
-    [ "VertexSignaturePool", "class_core_graphics_1_1_vertex_signature_pool.html", null ],
+    [ "VertexSignatureCache", "class_core_graphics_1_1_vertex_signature_cache.html", null ],
     [ "WeakPtr", "class_weak_ptr.html", "class_weak_ptr" ],
     [ "Win32Barrier", "class_win32_1_1_win32_barrier.html", null ],
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],

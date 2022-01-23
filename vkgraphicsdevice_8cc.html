@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('vkgraphicsdevice_8cc.html',''); initRe
 <code>#include &quot;<a class="el" href="vkfence_8h_source.html">vkfence.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktypes_8h_source.html">vktypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkutilities_8h_source.html">vkutilities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="vertexsignaturepool_8h_source.html">coregraphics/vertexsignaturepool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vertexsignaturecache_8h_source.html">coregraphics/vertexsignaturecache.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="glfwwindow_8h_source.html">coregraphics/glfw/glfwwindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vksemaphore_8h_source.html">coregraphics/vk/vksemaphore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vksubmissioncontext_8h_source.html">coregraphics/vk/vksubmissioncontext.h</a>&quot;</code><br />
@@ -350,6 +350,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4904ff0f9bb51d57c2ef50ecc8d023b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a4904ff0f9bb51d57c2ef50ecc8d023b2">CoreGraphics::PushConstants</a> (ShaderPipeline pipeline, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, byte *data)</td></tr>
 <tr class="memdesc:a4904ff0f9bb51d57c2ef50ecc8d023b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">push constants  <a href="namespace_core_graphics.html#a4904ff0f9bb51d57c2ef50ecc8d023b2">More...</a><br /></td></tr>
 <tr class="separator:a4904ff0f9bb51d57c2ef50ecc8d023b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab31b127c1b83d7155cffb2de2c4ace80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab31b127c1b83d7155cffb2de2c4ace80">CoreGraphics::UnlockConstantUpdates</a> ()</td></tr>
+<tr class="memdesc:ab31b127c1b83d7155cffb2de2c4ace80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock constants.  <a href="namespace_core_graphics.html#ab31b127c1b83d7155cffb2de2c4ace80">More...</a><br /></td></tr>
+<tr class="separator:ab31b127c1b83d7155cffb2de2c4ace80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17143d9dca5187c25e697dcd2d94d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af17143d9dca5187c25e697dcd2d94d92">CoreGraphics::LockConstantUpdates</a> ()</td></tr>
+<tr class="memdesc:af17143d9dca5187c25e697dcd2d94d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock constant updates.  <a href="namespace_core_graphics.html#af17143d9dca5187c25e697dcd2d94d92">More...</a><br /></td></tr>
+<tr class="separator:af17143d9dca5187c25e697dcd2d94d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abca4189e1dd20c9c7c9bf25145a55cd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#abca4189e1dd20c9c7c9bf25145a55cd8">CoreGraphics::SetGraphicsConstantsInternal</a> (<a class="el" href="namespace_core_graphics.html#a2e09ccb38db08100bbf64a4378e04d4d">CoreGraphics::GlobalConstantBufferType</a> type, const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
 <tr class="memdesc:abca4189e1dd20c9c7c9bf25145a55cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate range of graphics memory and set data, return offset  <a href="namespace_core_graphics.html#abca4189e1dd20c9c7c9bf25145a55cd8">More...</a><br /></td></tr>
 <tr class="separator:abca4189e1dd20c9c7c9bf25145a55cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -414,11 +420,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a06be1ad70428d8f2ad1f611a51dd8c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">signals an event  <a href="namespace_core_graphics.html#a06be1ad70428d8f2ad1f611a51dd8c9f">More...</a><br /></td></tr>
 <tr class="separator:a06be1ad70428d8f2ad1f611a51dd8c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e8a9fb7de3fc4a6c05c60b021d6746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a41e8a9fb7de3fc4a6c05c60b021d6746">CoreGraphics::Draw</a> ()</td></tr>
-<tr class="memdesc:a41e8a9fb7de3fc4a6c05c60b021d6746"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw current primitives  <a href="namespace_core_graphics.html#a41e8a9fb7de3fc4a6c05c60b021d6746">More...</a><br /></td></tr>
+<tr class="memdesc:a41e8a9fb7de3fc4a6c05c60b021d6746"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw primitives  <a href="namespace_core_graphics.html#a41e8a9fb7de3fc4a6c05c60b021d6746">More...</a><br /></td></tr>
 <tr class="separator:a41e8a9fb7de3fc4a6c05c60b021d6746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a501f53fb8ffd68410607e95b71b2d2dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a501f53fb8ffd68410607e95b71b2d2dd">CoreGraphics::DrawInstanced</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInstances, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> baseInstance)</td></tr>
-<tr class="memdesc:a501f53fb8ffd68410607e95b71b2d2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw indexed, instanced primitives  <a href="namespace_core_graphics.html#a501f53fb8ffd68410607e95b71b2d2dd">More...</a><br /></td></tr>
-<tr class="separator:a501f53fb8ffd68410607e95b71b2d2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ff7b92d337f152ff9e257a36e5f7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a27ff7b92d337f152ff9e257a36e5f7cc">CoreGraphics::Draw</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInstances, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> baseInstance)</td></tr>
+<tr class="memdesc:a27ff7b92d337f152ff9e257a36e5f7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw primitives instanced  <a href="namespace_core_graphics.html#a27ff7b92d337f152ff9e257a36e5f7cc">More...</a><br /></td></tr>
+<tr class="separator:a27ff7b92d337f152ff9e257a36e5f7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a01cff732a3bba19b6662691d7b4837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1a01cff732a3bba19b6662691d7b4837">CoreGraphics::DrawIndirect</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buffer, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferOffset, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> draws, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stride)</td></tr>
 <tr class="memdesc:a1a01cff732a3bba19b6662691d7b4837"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw indirect, draws is the amount of draws in the buffer, and stride is the byte offset between each call  <a href="namespace_core_graphics.html#a1a01cff732a3bba19b6662691d7b4837">More...</a><br /></td></tr>
 <tr class="separator:a1a01cff732a3bba19b6662691d7b4837"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -590,7 +596,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

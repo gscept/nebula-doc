@@ -7,7 +7,7 @@ var class_fibers_1_1_fiber_queue =
     [ "~FiberQueue", "class_fibers_1_1_fiber_queue.html#aa5311f6d04265a8de29ddfdf98fc459f", null ],
     [ "Dequeue", "class_fibers_1_1_fiber_queue.html#ada878c5bcb884ee6c17ca0d091e12c80", null ],
     [ "Discard", "class_fibers_1_1_fiber_queue.html#a557752e55926f74da96a6ef320e93d6f", null ],
-    [ "Enqueue", "class_fibers_1_1_fiber_queue.html#afde4b7ca1ba7cc5aec51015244fdf1ce", null ],
+    [ "Enqueue", "class_fibers_1_1_fiber_queue.html#ac0abf64aa4e0a7e2f53c9f5d44860114", null ],
     [ "Free", "class_fibers_1_1_fiber_queue.html#ae6135d937cda4a93273f282f8ae6d99f", null ],
     [ "Setup", "class_fibers_1_1_fiber_queue.html#ac2c82d4784add95ef12b32b66753dba2", null ],
     [ "Sleep", "class_fibers_1_1_fiber_queue.html#a92e2f1a8ba760b22fcb38a289ea73783", null ],

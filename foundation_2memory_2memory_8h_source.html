@@ -116,16 +116,15 @@ $(document).ready(function(){initNavTree('foundation_2memory_2memory_8h_source.h
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> TYPE&gt;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="foundation_2memory_2memory_8h.html#a0d088b3d997f2847764c0317db714623">   38</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="foundation_2memory_2memory_8h.html#a0d088b3d997f2847764c0317db714623">n_new_array_free</a>(<span class="keywordtype">size_t</span> <a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>, TYPE* buffer)</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_destructible&lt;TYPE&gt;::value)</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    {</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; ++i)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            buffer[i].~TYPE();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code hl_enumvalue" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, (<span class="keywordtype">void</span>*)buffer);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_destructible&lt;TYPE&gt;::value)</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea">size</a>; ++i)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            buffer[i].~TYPE();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_function" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code hl_enumvalue" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, (<span class="keywordtype">void</span>*)buffer);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
 <div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html_a0d088b3d997f2847764c0317db714623"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a0d088b3d997f2847764c0317db714623">n_new_array_free</a></div><div class="ttdeci">void n_new_array_free(size_t size, TYPE *buffer)</div><div class="ttdef"><b>Definition:</b> memory.h:38</div></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html_a40b8dfa3629a9d2d1b9b2386dc3c0c49"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a40b8dfa3629a9d2d1b9b2386dc3c0c49">n_new_array_alloc</a></div><div class="ttdeci">TYPE * n_new_array_alloc(size_t size)</div><div class="ttdef"><b>Definition:</b> memory.h:24</div></div>
@@ -142,7 +141,7 @@ $(document).ready(function(){initNavTree('foundation_2memory_2memory_8h_source.h
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="foundation_2memory_2memory_8h.html">memory.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:32:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:02:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

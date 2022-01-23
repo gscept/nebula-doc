@@ -56,12 +56,12 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     ] ],
     [ "memory.cc", "memory_8cc.html", "memory_8cc" ],
     [ "memory.h", "render_2coregraphics_2memory_8h.html", "render_2coregraphics_2memory_8h" ],
-    [ "memorymeshpool.cc", "memorymeshpool_8cc.html", "memorymeshpool_8cc" ],
-    [ "memorymeshpool.h", "memorymeshpool_8h.html", [
-      [ "CoreGraphics::MemoryMeshPool", "class_core_graphics_1_1_memory_mesh_pool.html", "class_core_graphics_1_1_memory_mesh_pool" ]
+    [ "memorymeshcache.cc", "memorymeshcache_8cc.html", "memorymeshcache_8cc" ],
+    [ "memorymeshcache.h", "memorymeshcache_8h.html", [
+      [ "CoreGraphics::MemoryMeshCache", "class_core_graphics_1_1_memory_mesh_cache.html", "class_core_graphics_1_1_memory_mesh_cache" ]
     ] ],
-    [ "memorytexturepool.cc", "memorytexturepool_8cc.html", null ],
-    [ "memorytexturepool.h", "memorytexturepool_8h.html", null ],
+    [ "memorytexturecache.cc", "memorytexturecache_8cc.html", null ],
+    [ "memorytexturecache.h", "memorytexturecache_8h.html", null ],
     [ "mesh.cc", "mesh_8cc.html", "mesh_8cc" ],
     [ "mesh.h", "mesh_8h.html", "mesh_8h" ],
     [ "nvx3fileformatstructs.h", "nvx3fileformatstructs_8h.html", "nvx3fileformatstructs_8h" ],
@@ -98,6 +98,8 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "semaphore.h", "semaphore_8h.html", "semaphore_8h" ],
     [ "shader.cc", "shader_8cc.html", "shader_8cc" ],
     [ "shader.h", "shader_8h.html", "shader_8h" ],
+    [ "shadercache.cc", "shadercache_8cc.html", null ],
+    [ "shadercache.h", "shadercache_8h.html", null ],
     [ "shaderfeature.cc", "shaderfeature_8cc.html", null ],
     [ "shaderfeature.h", "shaderfeature_8h.html", [
       [ "CoreGraphics::ShaderFeature", "class_core_graphics_1_1_shader_feature.html", "class_core_graphics_1_1_shader_feature" ]
@@ -114,13 +116,13 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "shaperenderer.cc", "shaperenderer_8cc.html", "shaperenderer_8cc" ],
     [ "shaperenderer.h", "shaperenderer_8h.html", null ],
     [ "sparsebuffer.h", "sparsebuffer_8h.html", "sparsebuffer_8h" ],
-    [ "streammeshpool.cc", "streammeshpool_8cc.html", "streammeshpool_8cc" ],
-    [ "streammeshpool.h", "streammeshpool_8h.html", [
-      [ "CoreGraphics::StreamMeshPool", "class_core_graphics_1_1_stream_mesh_pool.html", "class_core_graphics_1_1_stream_mesh_pool" ],
-      [ "CoreGraphics::StreamMeshPool::StreamMeshLoadMetaData", "struct_core_graphics_1_1_stream_mesh_pool_1_1_stream_mesh_load_meta_data.html", "struct_core_graphics_1_1_stream_mesh_pool_1_1_stream_mesh_load_meta_data" ]
+    [ "streammeshcache.cc", "streammeshcache_8cc.html", "streammeshcache_8cc" ],
+    [ "streammeshcache.h", "streammeshcache_8h.html", [
+      [ "CoreGraphics::StreamMeshCache", "class_core_graphics_1_1_stream_mesh_cache.html", "class_core_graphics_1_1_stream_mesh_cache" ],
+      [ "CoreGraphics::StreamMeshCache::StreamMeshLoadMetaData", "struct_core_graphics_1_1_stream_mesh_cache_1_1_stream_mesh_load_meta_data.html", "struct_core_graphics_1_1_stream_mesh_cache_1_1_stream_mesh_load_meta_data" ]
     ] ],
-    [ "streamtexturepool.cc", "streamtexturepool_8cc.html", null ],
-    [ "streamtexturepool.h", "streamtexturepool_8h.html", null ],
+    [ "streamtexturecache.cc", "streamtexturecache_8cc.html", null ],
+    [ "streamtexturecache.h", "streamtexturecache_8h.html", null ],
     [ "streamtexturesaver.h", "streamtexturesaver_8h.html", "streamtexturesaver_8h" ],
     [ "submissioncontext.cc", "submissioncontext_8cc.html", null ],
     [ "submissioncontext.h", "submissioncontext_8h.html", "submissioncontext_8h" ],
@@ -150,7 +152,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "vertexlayoutserver.h", "vertexlayoutserver_8h.html", [
       [ "CoreGraphics::VertexLayoutServer", "class_core_graphics_1_1_vertex_layout_server.html", "class_core_graphics_1_1_vertex_layout_server" ]
     ] ],
-    [ "vertexsignaturepool.cc", "vertexsignaturepool_8cc.html", null ],
-    [ "vertexsignaturepool.h", "vertexsignaturepool_8h.html", null ],
+    [ "vertexsignaturecache.cc", "vertexsignaturecache_8cc.html", null ],
+    [ "vertexsignaturecache.h", "vertexsignaturecache_8h.html", null ],
     [ "window.h", "window_8h.html", "window_8h" ]
 ];

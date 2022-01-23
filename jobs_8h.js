@@ -18,7 +18,7 @@ var jobs_8h =
     [ "N_JOB_INPUT", "jobs_8h.html#a6f895b3abfd7fa7cc05e9f2291091e91", null ],
     [ "N_JOB_OUTPUT", "jobs_8h.html#a205de5ac2a14ebf591d0f1c87a265cfa", null ],
     [ "JobAllocator", "jobs_8h.html#aefe64565cdbf947d5856b071f8b6c348", null ],
-    [ "JobPortAllocator", "jobs_8h.html#aded41a9bf4ec1731c62c8ca23d08e68a", null ],
+    [ "JobPortAllocator", "jobs_8h.html#a7aa9ce09981f3c3c85412784ef91c7d4", null ],
     [ "JobSyncAllocator", "jobs_8h.html#a9b32afec688877624e62c83226c488a5", null ],
     [ "CreateJob", "jobs_8h.html#af1a0500babaf3a835fa53d06dc9ba52e", null ],
     [ "CreateJobPort", "jobs_8h.html#adb1daec4e4d880ba7121fb9fe40b9a69", null ],
@@ -31,10 +31,13 @@ var jobs_8h =
     [ "JobSchedule", "jobs_8h.html#a5310a066f57613ff829ba2d8f150f8fe", null ],
     [ "JobSchedule", "jobs_8h.html#a96f00b4872bd1a2c0dfb4835e72f90e7", null ],
     [ "JobSchedule", "jobs_8h.html#aa221982e386fb56b0ce262a475b369e0", null ],
+    [ "JobSchedule", "jobs_8h.html#a3bf95fd6bd39d325155b4d6b33d240b7", null ],
     [ "JobScheduleSequence", "jobs_8h.html#aacc44e096d05e2cfeb2f4027f7860934", null ],
     [ "JobScheduleSequence", "jobs_8h.html#a42aed0b211384d0ebcf830835f14f3f4", null ],
-    [ "JobSyncHostWait", "jobs_8h.html#adcdc562d988a436a62fe8bc9522d8721", null ],
-    [ "JobSyncSignal", "jobs_8h.html#a0842e3b14dfb05dbb2dae57784c7d5a3", null ],
+    [ "JobSyncHostReset", "jobs_8h.html#ae22d5650f81fd959e4abff910b286ee5", null ],
+    [ "JobSyncHostSignal", "jobs_8h.html#ab1ad9f1ab4512aa465ef5558f9de398f", null ],
+    [ "JobSyncHostWait", "jobs_8h.html#abdc228417864379fec2f6b28fc4a859b", null ],
     [ "JobSyncSignaled", "jobs_8h.html#a7cddea02e82af7a41ea52894d7eafcd0", null ],
-    [ "JobSyncThreadWait", "jobs_8h.html#ad281e9182013178a03a7877905f6c8c4", null ]
+    [ "JobSyncThreadSignal", "jobs_8h.html#ade008a0c596909b4554a0ad5da650de3", null ],
+    [ "JobSyncThreadWait", "jobs_8h.html#a86e6fcd343ac75cd629878ba29b42116", null ]
 ];

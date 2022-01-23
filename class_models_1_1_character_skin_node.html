@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('class_models_1_1_character_skin_node.h
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_models_1_1_character_skin_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Models::CharacterSkinNode Class Reference</div></div>
 </div><!--header-->
@@ -101,8 +102,6 @@ $(document).ready(function(){initNavTree('class_models_1_1_character_skin_node.h
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node_1_1_fragment.html">Fragment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a skin fragment  <a href="class_models_1_1_character_skin_node_1_1_fragment.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_character_skin_node_1_1_instance.html">Instance</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -128,12 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94da31461e5a4af10eb92b6fccb082dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">GetFragmentJointPalette</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fragmentIndex) const</td></tr>
 <tr class="memdesc:a94da31461e5a4af10eb92b6fccb082dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">get joint palette of a fragment  <a href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">More...</a><br /></td></tr>
 <tr class="separator:a94da31461e5a4af10eb92b6fccb082dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e0d9d4102625247cc0c7424d343e76"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">ModelNode::Instance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a61e0d9d4102625247cc0c7424d343e76">CreateInstance</a> (byte **memory, const <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> *<a class="el" href="class_models_1_1_model_node.html#af4fa1677501e01903e5a95c66161a45e">parent</a>) override</td></tr>
-<tr class="memdesc:a61e0d9d4102625247cc0c7424d343e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">create instance  <a href="class_models_1_1_character_skin_node.html#a61e0d9d4102625247cc0c7424d343e76">More...</a><br /></td></tr>
-<tr class="separator:a61e0d9d4102625247cc0c7424d343e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab650473d846e1366c4b45f309aea1f81"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#ab650473d846e1366c4b45f309aea1f81">GetInstanceSize</a> () const</td></tr>
-<tr class="memdesc:ab650473d846e1366c4b45f309aea1f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">get size of instance  <a href="class_models_1_1_character_skin_node.html#ab650473d846e1366c4b45f309aea1f81">More...</a><br /></td></tr>
-<tr class="separator:ab650473d846e1366c4b45f309aea1f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a702cbfbda3a74a307156d527f2a92e10"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a702cbfbda3a74a307156d527f2a92e10">GetApplyNodeFunction</a> () override</td></tr>
+<tr class="memdesc:a702cbfbda3a74a307156d527f2a92e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">get function for applying node state  <a href="class_models_1_1_character_skin_node.html#a702cbfbda3a74a307156d527f2a92e10">More...</a><br /></td></tr>
+<tr class="separator:a702cbfbda3a74a307156d527f2a92e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_models_1_1_primitive_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_models_1_1_primitive_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_models_1_1_primitive_node.html">Models::PrimitiveNode</a></td></tr>
 <tr class="memitem:a6b09e47bad4ea1c489b6aaccada920ec inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a6b09e47bad4ea1c489b6aaccada920ec">PrimitiveNode</a> ()</td></tr>
 <tr class="memdesc:a6b09e47bad4ea1c489b6aaccada920ec inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_models_1_1_primitive_node.html#a6b09e47bad4ea1c489b6aaccada920ec">More...</a><br /></td></tr>
@@ -147,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a353332ab250c58f2a10c213d2c057a09">GetMeshId</a> () const</td></tr>
 <tr class="memdesc:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitives mesh id  <a href="class_models_1_1_primitive_node.html#a353332ab250c58f2a10c213d2c057a09">More...</a><br /></td></tr>
 <tr class="separator:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a6fec77ae7fa9ae0365e08a0c4be9f296">GetApplyNodeFunction</a> ()</td></tr>
+<tr class="memdesc:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get function for applying node state  <a href="class_models_1_1_primitive_node.html#a6fec77ae7fa9ae0365e08a0c4be9f296">More...</a><br /></td></tr>
+<tr class="separator:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
 <tr class="memitem:a58f935eda14c27020fec6f8de2e848a7 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7">ShaderStateNode</a> ()</td></tr>
 <tr class="memdesc:a58f935eda14c27020fec6f8de2e848a7 inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7">More...</a><br /></td></tr>
@@ -154,9 +153,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abab43e23d57abe40e3159294adacdc05 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#abab43e23d57abe40e3159294adacdc05">~ShaderStateNode</a> ()</td></tr>
 <tr class="memdesc:abab43e23d57abe40e3159294adacdc05 inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_models_1_1_shader_state_node.html#abab43e23d57abe40e3159294adacdc05">More...</a><br /></td></tr>
 <tr class="separator:abab43e23d57abe40e3159294adacdc05 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59fbe05ac9380f5dd71692b6531ad729 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_materials_1_1_surface_id.html">Materials::SurfaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a59fbe05ac9380f5dd71692b6531ad729">GetSurface</a> () const</td></tr>
-<tr class="memdesc:a59fbe05ac9380f5dd71692b6531ad729 inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get surface  <a href="class_models_1_1_shader_state_node.html#a59fbe05ac9380f5dd71692b6531ad729">More...</a><br /></td></tr>
-<tr class="separator:a59fbe05ac9380f5dd71692b6531ad729 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17498714eacab2159331a47ec1e63d0d inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a17498714eacab2159331a47ec1e63d0d">GetSurface</a> () const</td></tr>
+<tr class="memdesc:a17498714eacab2159331a47ec1e63d0d inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get surface  <a href="class_models_1_1_shader_state_node.html#a17498714eacab2159331a47ec1e63d0d">More...</a><br /></td></tr>
+<tr class="separator:a17498714eacab2159331a47ec1e63d0d inherit pub_methods_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70597af65434266f7c376874771b4a1 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ac70597af65434266f7c376874771b4a1">SetMaxLOD</a> (const float lod)</td></tr>
 <tr class="memdesc:ac70597af65434266f7c376874771b4a1 inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">trigger an LOD update  <a href="class_models_1_1_shader_state_node.html#ac70597af65434266f7c376874771b4a1">More...</a><br /></td></tr>
 <tr class="separator:ac70597af65434266f7c376874771b4a1 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,9 +191,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#aa045e210f5e8d57eacfade1e5e88eef4">HashCode</a> () const</td></tr>
 <tr class="memdesc:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get hash  <a href="class_models_1_1_model_node.html#aa045e210f5e8d57eacfade1e5e88eef4">More...</a><br /></td></tr>
 <tr class="separator:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a290a4a92fa8b136778066d310d5bf50d inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a290a4a92fa8b136778066d310d5bf50d">ApplyNodeResources</a> ()</td></tr>
-<tr class="memdesc:a290a4a92fa8b136778066d310d5bf50d inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply node-level resources  <a href="class_models_1_1_model_node.html#a290a4a92fa8b136778066d310d5bf50d">More...</a><br /></td></tr>
-<tr class="separator:a290a4a92fa8b136778066d310d5bf50d inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -204,16 +200,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac00aaabd6d4cd687f1b2e359d64b9128"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#ac00aaabd6d4cd687f1b2e359d64b9128">OnFinishedLoading</a> ()</td></tr>
 <tr class="memdesc:ac00aaabd6d4cd687f1b2e359d64b9128"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when loading finished  <a href="class_models_1_1_character_skin_node.html#ac00aaabd6d4cd687f1b2e359d64b9128">More...</a><br /></td></tr>
 <tr class="separator:ac00aaabd6d4cd687f1b2e359d64b9128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab44d07e471849e6a72d281cda3ea607c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#ab44d07e471849e6a72d281cda3ea607c">ApplyNodeState</a> () override</td></tr>
-<tr class="memdesc:ab44d07e471849e6a72d281cda3ea607c"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply state  <a href="class_models_1_1_character_skin_node.html#ab44d07e471849e6a72d281cda3ea607c">More...</a><br /></td></tr>
-<tr class="separator:ab44d07e471849e6a72d281cda3ea607c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_models_1_1_primitive_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_models_1_1_primitive_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_models_1_1_primitive_node.html">Models::PrimitiveNode</a></td></tr>
 <tr class="memitem:ab854dbe1798ee176ce71659f2c27baee inherit pro_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#ab854dbe1798ee176ce71659f2c27baee">Unload</a> () override</td></tr>
 <tr class="memdesc:ab854dbe1798ee176ce71659f2c27baee inherit pro_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload data  <a href="class_models_1_1_primitive_node.html#ab854dbe1798ee176ce71659f2c27baee">More...</a><br /></td></tr>
 <tr class="separator:ab854dbe1798ee176ce71659f2c27baee inherit pro_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b02ea0988ff597ff2cf3fd9428011eb inherit pro_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a3b02ea0988ff597ff2cf3fd9428011eb">ApplyNodeState</a> () override</td></tr>
-<tr class="memdesc:a3b02ea0988ff597ff2cf3fd9428011eb inherit pro_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply state  <a href="class_models_1_1_primitive_node.html#a3b02ea0988ff597ff2cf3fd9428011eb">More...</a><br /></td></tr>
-<tr class="separator:a3b02ea0988ff597ff2cf3fd9428011eb inherit pro_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
 <tr class="memitem:acd896f961f9353884038ebf7a00908f2 inherit pro_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#acd896f961f9353884038ebf7a00908f2">Load</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;fourcc, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;<a class="el" href="class_models_1_1_model_node.html#afd53ccea0fc4f37b14e5926973ad89d4">tag</a>, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_binary_reader.html">IO::BinaryReader</a> &gt; &amp;reader, bool immediate) override</td></tr>
 <tr class="memdesc:acd896f961f9353884038ebf7a00908f2 inherit pro_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">load shader state  <a href="class_models_1_1_shader_state_node.html#acd896f961f9353884038ebf7a00908f2">More...</a><br /></td></tr>
@@ -237,12 +227,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ada1c5f27738fc829c2958a885e79cfd6 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#ada1c5f27738fc829c2958a885e79cfd6">primitiveGroupIndexLoaded</a></td></tr>
 <tr class="separator:ada1c5f27738fc829c2958a885e79cfd6 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
-<tr class="memitem:ad7425f270423c77edd532acac923920c inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_material_type.html">Materials::MaterialType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ad7425f270423c77edd532acac923920c">materialType</a></td></tr>
-<tr class="separator:ad7425f270423c77edd532acac923920c inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a829f046b20eea0d08d31683babc77895 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_surface_id.html">Materials::SurfaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a829f046b20eea0d08d31683babc77895">surface</a></td></tr>
-<tr class="separator:a829f046b20eea0d08d31683babc77895 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794a19d9ace59149bc37e85e1d33039f inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_surface_resource_id.html">Materials::SurfaceResourceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a794a19d9ace59149bc37e85e1d33039f">surRes</a></td></tr>
-<tr class="separator:a794a19d9ace59149bc37e85e1d33039f inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776d60f8e219c4be5b5548939774d592 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_shader_config.html">Materials::ShaderConfig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a776d60f8e219c4be5b5548939774d592">materialType</a></td></tr>
+<tr class="separator:a776d60f8e219c4be5b5548939774d592 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d18bacd67577ab96a1cdb1139624d6 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ab4d18bacd67577ab96a1cdb1139624d6">surface</a></td></tr>
+<tr class="separator:ab4d18bacd67577ab96a1cdb1139624d6 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5b653ea3761f8e220dd4264e7a964b inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_resource_id.html">Materials::MaterialResourceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a2f5b653ea3761f8e220dd4264e7a964b">surRes</a></td></tr>
+<tr class="separator:a2f5b653ea3761f8e220dd4264e7a964b inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae837adeb02e5b42294ccc61427e00ea3 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3">materialName</a></td></tr>
 <tr class="separator:ae837adeb02e5b42294ccc61427e00ea3 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f7cd513d8d031971e5a79496c6d437 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a20f7cd513d8d031971e5a79496c6d437">objectTransformsIndex</a></td></tr>
@@ -293,16 +283,21 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a6529beef595feaef1798eddb38585f87 inherit pro_attribs_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd53ccea0fc4f37b14e5926973ad89d4 inherit pro_attribs_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#afd53ccea0fc4f37b14e5926973ad89d4">tag</a></td></tr>
 <tr class="separator:afd53ccea0fc4f37b14e5926973ad89d4 inherit pro_attribs_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa58c177c4a0db6be3618df835ed3e5d6 inherit pro_attribs_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#aa58c177c4a0db6be3618df835ed3e5d6">hierarchicalInstanceSize</a></td></tr>
-<tr class="separator:aa58c177c4a0db6be3618df835ed3e5d6 inherit pro_attribs_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca350f96f2e7d322b808792833ac19d inherit pro_attribs_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a0ca350f96f2e7d322b808792833ac19d">uniqueId</a></td></tr>
 <tr class="separator:a0ca350f96f2e7d322b808792833ac19d inherit pro_attribs_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a7adc1e27d899837c8ae7d800fe31bf63"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a7adc1e27d899837c8ae7d800fe31bf63">Characters::CharacterContext</a></td></tr>
+<tr class="separator:a7adc1e27d899837c8ae7d800fe31bf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
 <tr class="memitem:a4c53e8eb798ae3c0ac4741356b01dbc8 inherit pub_static_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a4c53e8eb798ae3c0ac4741356b01dbc8">NumTables</a> = 1</td></tr>
 <tr class="separator:a4c53e8eb798ae3c0ac4741356b01dbc8 inherit pub_static_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e876d51a099c74d835d0212897c37f5 inherit pub_static_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a6e876d51a099c74d835d0212897c37f5">NumMaxOffsets</a> = 4</td></tr>
+<tr class="separator:a6e876d51a099c74d835d0212897c37f5 inherit pub_static_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_class_models_1_1_model_node"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_class_models_1_1_model_node')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a></td></tr>
 <tr class="memitem:a4d873b563a8070e7c1f01904f7d4d7c1 inherit pro_static_attribs_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a4d873b563a8070e7c1f01904f7d4d7c1">ModelNodeUniqueIdCounter</a> = 0</td></tr>
 <tr class="separator:a4d873b563a8070e7c1f01904f7d4d7c1 inherit pro_static_attribs_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -385,8 +380,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab44d07e471849e6a72d281cda3ea607c" name="ab44d07e471849e6a72d281cda3ea607c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab44d07e471849e6a72d281cda3ea607c">&#9670;&nbsp;</a></span>ApplyNodeState()</h2>
+<a id="a702cbfbda3a74a307156d527f2a92e10" name="a702cbfbda3a74a307156d527f2a92e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a702cbfbda3a74a307156d527f2a92e10">&#9670;&nbsp;</a></span>GetApplyNodeFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,50 +390,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Models::CharacterSkinNode::ApplyNodeState </td>
+          <td class="memname">std::function&lt; void()&gt; Models::CharacterSkinNode::GetApplyNodeFunction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>apply state </p>
-
-<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a810c8dd0bea7dbc4e70098911fd47e01">Models::ModelNode</a>.</p>
-
-</div>
-</div>
-<a id="a61e0d9d4102625247cc0c7424d343e76" name="a61e0d9d4102625247cc0c7424d343e76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61e0d9d4102625247cc0c7424d343e76">&#9670;&nbsp;</a></span>CreateInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">ModelNode::Instance</a> * Models::CharacterSkinNode::CreateInstance </td>
-          <td>(</td>
-          <td class="paramtype">byte **&#160;</td>
-          <td class="paramname"><em>memory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -448,9 +403,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>create instance </p>
+<p>get function for applying node state </p>
 
-<p>Reimplemented from <a class="el" href="class_models_1_1_primitive_node.html#a5211da0020a2493c3bc9eda3fb07f808">Models::PrimitiveNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a3f2827eb9f73b7e749e029d57c7244cc">Models::ModelNode</a>.</p>
 
 </div>
 </div>
@@ -507,35 +462,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get primitive group index of a fragment </p>
-
-</div>
-</div>
-<a id="ab650473d846e1366c4b45f309aea1f81" name="ab650473d846e1366c4b45f309aea1f81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab650473d846e1366c4b45f309aea1f81">&#9670;&nbsp;</a></span>GetInstanceSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> Models::CharacterSkinNode::GetInstanceSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get size of instance </p>
-
-<p>Reimplemented from <a class="el" href="class_models_1_1_primitive_node.html#a4ee6e0ce42d355bc9881b60814e55528">Models::PrimitiveNode</a>.</p>
 
 </div>
 </div>
@@ -667,6 +593,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a7adc1e27d899837c8ae7d800fe31bf63" name="a7adc1e27d899837c8ae7d800fe31bf63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7adc1e27d899837c8ae7d800fe31bf63">&#9670;&nbsp;</a></span>Characters::CharacterContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_characters_1_1_character_context.html">Characters::CharacterContext</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a9612aa1a47938043a97f3a5d03bb2390" name="a9612aa1a47938043a97f3a5d03bb2390"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9612aa1a47938043a97f3a5d03bb2390">&#9670;&nbsp;</a></span>skinFragments</h2>
@@ -723,7 +672,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_character_skin_node.html">CharacterSkinNode</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

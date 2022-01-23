@@ -2,24 +2,23 @@ var dir_8a73ff51bed2503411b1d33e42562129 =
 [
     [ "material.cc", "material_8cc.html", "material_8cc" ],
     [ "material.h", "material_8h.html", "material_8h" ],
-    [ "materialserver.cc", "materialserver_8cc.html", "materialserver_8cc" ],
-    [ "materialserver.h", "materialserver_8h.html", [
-      [ "Materials::MaterialServer", "class_materials_1_1_material_server.html", "class_materials_1_1_material_server" ]
-    ] ],
-    [ "materialtype.cc", "materialtype_8cc.html", null ],
-    [ "materialtype.h", "materialtype_8h.html", [
-      [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
-      [ "Materials::MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
-      [ "Materials::MaterialType", "class_materials_1_1_material_type.html", "class_materials_1_1_material_type" ],
-      [ "Materials::MaterialType::SurfaceInstanceConstant", "struct_materials_1_1_material_type_1_1_surface_instance_constant.html", "struct_materials_1_1_material_type_1_1_surface_instance_constant" ],
-      [ "Materials::MaterialType::SurfaceConstant", "struct_materials_1_1_material_type_1_1_surface_constant.html", "struct_materials_1_1_material_type_1_1_surface_constant" ],
-      [ "Materials::MaterialType::SurfaceTexture", "struct_materials_1_1_material_type_1_1_surface_texture.html", "struct_materials_1_1_material_type_1_1_surface_texture" ]
-    ] ],
-    [ "surfacepool.cc", "surfacepool_8cc.html", "surfacepool_8cc" ],
-    [ "surfacepool.h", "surfacepool_8h.html", [
+    [ "materialcache.cc", "materialcache_8cc.html", "materialcache_8cc" ],
+    [ "materialcache.h", "materialcache_8h.html", [
       [ "Materials::MaterialInfo", "struct_materials_1_1_material_info.html", "struct_materials_1_1_material_info" ],
-      [ "Materials::SurfaceRuntime", "struct_materials_1_1_surface_runtime.html", "struct_materials_1_1_surface_runtime" ],
-      [ "Materials::SurfaceResourceId", "struct_materials_1_1_surface_resource_id.html", null ],
-      [ "Materials::SurfacePool", "class_materials_1_1_surface_pool.html", "class_materials_1_1_surface_pool" ]
+      [ "Materials::MaterialResourceId", "struct_materials_1_1_material_resource_id.html", null ],
+      [ "Materials::MaterialCache", "class_materials_1_1_material_cache.html", "class_materials_1_1_material_cache" ]
+    ] ],
+    [ "shaderconfig.cc", "shaderconfig_8cc.html", null ],
+    [ "shaderconfig.h", "shaderconfig_8h.html", [
+      [ "Materials::ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],
+      [ "Materials::ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
+      [ "Materials::ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
+      [ "Materials::ShaderConfig::SurfaceInstanceConstant", "struct_materials_1_1_shader_config_1_1_surface_instance_constant.html", "struct_materials_1_1_shader_config_1_1_surface_instance_constant" ],
+      [ "Materials::ShaderConfig::SurfaceConstant", "struct_materials_1_1_shader_config_1_1_surface_constant.html", "struct_materials_1_1_shader_config_1_1_surface_constant" ],
+      [ "Materials::ShaderConfig::SurfaceTexture", "struct_materials_1_1_shader_config_1_1_surface_texture.html", "struct_materials_1_1_shader_config_1_1_surface_texture" ]
+    ] ],
+    [ "shaderconfigserver.cc", "shaderconfigserver_8cc.html", "shaderconfigserver_8cc" ],
+    [ "shaderconfigserver.h", "shaderconfigserver_8h.html", [
+      [ "Materials::ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ]
     ] ]
 ];

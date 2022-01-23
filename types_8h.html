@@ -167,9 +167,20 @@ Functions</h2></td></tr>
 <tr class="separator:ac00d747e0e445fefc313e3bf783badb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb7afe54c4690caf9479b8f6ebe4c7d6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#acb7afe54c4690caf9479b8f6ebe4c7d6">operator&quot;&quot;_MB</a> (const unsigned long long val)</td></tr>
 <tr class="separator:acb7afe54c4690caf9479b8f6ebe4c7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634e6a274e41f16ba8005c7e943d4dc0"><td class="memTemplParams" colspan="2">template&lt;class FLAGS , class BITS &gt; </td></tr>
-<tr class="memitem:a634e6a274e41f16ba8005c7e943d4dc0"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="types_8h.html#a634e6a274e41f16ba8005c7e943d4dc0">CheckBits</a> (const FLAGS flags, const BITS bits)</td></tr>
-<tr class="separator:a634e6a274e41f16ba8005c7e943d4dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeb7b97d540dadc3abe56ce29ab98df0"><td class="memTemplParams" colspan="2">template&lt;class MASK , class BITS &gt; </td></tr>
+<tr class="memitem:aaeb7b97d540dadc3abe56ce29ab98df0"><td class="memTemplItemLeft" align="right" valign="top">constexpr MASK&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="types_8h.html#aaeb7b97d540dadc3abe56ce29ab98df0">SetBits</a> (const MASK mask, const BITS bit)</td></tr>
+<tr class="separator:aaeb7b97d540dadc3abe56ce29ab98df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27da1e5a3e1b2fa04f886780221f43db"><td class="memTemplParams" colspan="2">template&lt;class MASK , class BITS &gt; </td></tr>
+<tr class="memitem:a27da1e5a3e1b2fa04f886780221f43db"><td class="memTemplItemLeft" align="right" valign="top">constexpr MASK&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="types_8h.html#a27da1e5a3e1b2fa04f886780221f43db">UnsetBits</a> (const MASK mask, const BITS bit)</td></tr>
+<tr class="separator:a27da1e5a3e1b2fa04f886780221f43db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bb4e90f82876f231b432e8ed120286"><td class="memTemplParams" colspan="2">template&lt;class FLAGS , class BITS &gt; </td></tr>
+<tr class="memitem:a21bb4e90f82876f231b432e8ed120286"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">AllBits</a> (const FLAGS flags, const BITS bits)</td></tr>
+<tr class="memdesc:a21bb4e90f82876f231b432e8ed120286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if all bits are set in flags.  <a href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">More...</a><br /></td></tr>
+<tr class="separator:a21bb4e90f82876f231b432e8ed120286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a805e0e55585e7fd25eae21f3786987e1"><td class="memTemplParams" colspan="2">template&lt;class FLAGS , class BITS &gt; </td></tr>
+<tr class="memitem:a805e0e55585e7fd25eae21f3786987e1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">AnyBits</a> (const FLAGS flags, const BITS bits)</td></tr>
+<tr class="memdesc:a805e0e55585e7fd25eae21f3786987e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if any bits are set in flags.  <a href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">More...</a><br /></td></tr>
+<tr class="separator:a805e0e55585e7fd25eae21f3786987e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -695,8 +706,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a634e6a274e41f16ba8005c7e943d4dc0" name="a634e6a274e41f16ba8005c7e943d4dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a634e6a274e41f16ba8005c7e943d4dc0">&#9670;&nbsp;</a></span>CheckBits()</h2>
+<a id="a21bb4e90f82876f231b432e8ed120286" name="a21bb4e90f82876f231b432e8ed120286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21bb4e90f82876f231b432e8ed120286">&#9670;&nbsp;</a></span>AllBits()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -707,7 +718,7 @@ template&lt;class FLAGS , class BITS &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr bool CheckBits </td>
+          <td class="memname">constexpr bool AllBits </td>
           <td>(</td>
           <td class="paramtype">const FLAGS&#160;</td>
           <td class="paramname"><em>flags</em>, </td>
@@ -730,6 +741,48 @@ template&lt;class FLAGS , class BITS &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if all bits are set in flags. </p>
+
+</div>
+</div>
+<a id="a805e0e55585e7fd25eae21f3786987e1" name="a805e0e55585e7fd25eae21f3786987e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805e0e55585e7fd25eae21f3786987e1">&#9670;&nbsp;</a></span>AnyBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class FLAGS , class BITS &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool AnyBits </td>
+          <td>(</td>
+          <td class="paramtype">const FLAGS&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BITS&#160;</td>
+          <td class="paramname"><em>bits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if any bits are set in flags. </p>
 
 </div>
 </div>
@@ -785,6 +838,82 @@ template&lt;class FLAGS , class BITS &gt; </div>
 
 </div>
 </div>
+<a id="aaeb7b97d540dadc3abe56ce29ab98df0" name="aaeb7b97d540dadc3abe56ce29ab98df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb7b97d540dadc3abe56ce29ab98df0">&#9670;&nbsp;</a></span>SetBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MASK , class BITS &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr MASK SetBits </td>
+          <td>(</td>
+          <td class="paramtype">const MASK&#160;</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BITS&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27da1e5a3e1b2fa04f886780221f43db" name="a27da1e5a3e1b2fa04f886780221f43db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27da1e5a3e1b2fa04f886780221f43db">&#9670;&nbsp;</a></span>UnsetBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MASK , class BITS &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr MASK UnsetBits </td>
+          <td>(</td>
+          <td class="paramtype">const MASK&#160;</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BITS&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a3e2ae2e8cd04c212563dafc16149995c" name="a3e2ae2e8cd04c212563dafc16149995c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e2ae2e8cd04c212563dafc16149995c">&#9670;&nbsp;</a></span>InvalidIndex</h2>
@@ -815,7 +944,7 @@ template&lt;class FLAGS , class BITS &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="types_8h.html">types.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -134,8 +134,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aded41a9bf4ec1731c62c8ca23d08e68a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_jobs_1_1_job_thread.html">JobThread</a> &gt; &gt;, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_jobs_1_1_job_id.html">JobId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#aded41a9bf4ec1731c62c8ca23d08e68a">JobPortAllocator</a></td></tr>
-<tr class="separator:aded41a9bf4ec1731c62c8ca23d08e68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa9ce09981f3c3c85412784ef91c7d4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_jobs_1_1_job_thread.html">JobThread</a> &gt; &gt;, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a7aa9ce09981f3c3c85412784ef91c7d4">JobPortAllocator</a></td></tr>
+<tr class="separator:a7aa9ce09981f3c3c85412784ef91c7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefe64565cdbf947d5856b071f8b6c348"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_jobs_1_1_create_job_info.html">CreateJobInfo</a>, std::function&lt; void()&gt;, <a class="el" href="struct_jobs_1_1_private_memory.html">PrivateMemory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#aefe64565cdbf947d5856b071f8b6c348">JobAllocator</a></td></tr>
 <tr class="separator:aefe64565cdbf947d5856b071f8b6c348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b32afec688877624e62c83226c488a5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; std::function&lt; void()&gt;, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *, std::atomic_uint *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a9b32afec688877624e62c83226c488a5">JobSyncAllocator</a></td></tr>
@@ -146,7 +146,6 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ad428a6b1f165eb03e49844b26ed7e28b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_jobs.html#ad428a6b1f165eb03e49844b26ed7e28baf37c8f297419438e4d16b9e07d83caab">JobPort_Name</a>
 , <a class="el" href="namespace_jobs.html#ad428a6b1f165eb03e49844b26ed7e28ba9917a7e2d8a77bede0b32730a58ff043">JobPort_Threads</a>
 , <a class="el" href="namespace_jobs.html#ad428a6b1f165eb03e49844b26ed7e28baa8291328ee4ec75cd3679dcefdbdcdab">JobPort_NextThreadIndex</a>
-, <a class="el" href="namespace_jobs.html#ad428a6b1f165eb03e49844b26ed7e28ba40b1b3992cb022bb191d2981d8408c11">JobPort_LastJobId</a>
  }</td></tr>
 <tr class="separator:ad428a6b1f165eb03e49844b26ed7e28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabbf494a63ed8e1f96fc8e41abfae9b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_jobs.html#aabbf494a63ed8e1f96fc8e41abfae9b3a174cddaaf460406f06617ef0f68acaff">Job_CreateInfo</a>
@@ -199,15 +198,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a6afff7670e5764fc9fe939d79bacd91f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a6afff7670e5764fc9fe939d79bacd91f">DestroyJobSync</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id)</td></tr>
 <tr class="memdesc:a6afff7670e5764fc9fe939d79bacd91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy job sync  <a href="namespace_jobs.html#a6afff7670e5764fc9fe939d79bacd91f">More...</a><br /></td></tr>
 <tr class="separator:a6afff7670e5764fc9fe939d79bacd91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a0842e3b14dfb05dbb2dae57784c7d5a3">JobSyncSignal</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> port)</td></tr>
-<tr class="memdesc:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">put job sync on port  <a href="namespace_jobs.html#a0842e3b14dfb05dbb2dae57784c7d5a3">More...</a><br /></td></tr>
-<tr class="separator:a0842e3b14dfb05dbb2dae57784c7d5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcdc562d988a436a62fe8bc9522d8721"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#adcdc562d988a436a62fe8bc9522d8721">JobSyncHostWait</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id)</td></tr>
-<tr class="memdesc:adcdc562d988a436a62fe8bc9522d8721"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on host side  <a href="namespace_jobs.html#adcdc562d988a436a62fe8bc9522d8721">More...</a><br /></td></tr>
-<tr class="separator:adcdc562d988a436a62fe8bc9522d8721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad281e9182013178a03a7877905f6c8c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ad281e9182013178a03a7877905f6c8c4">JobSyncThreadWait</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> port)</td></tr>
-<tr class="memdesc:ad281e9182013178a03a7877905f6c8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on thread side  <a href="namespace_jobs.html#ad281e9182013178a03a7877905f6c8c4">More...</a><br /></td></tr>
-<tr class="separator:ad281e9182013178a03a7877905f6c8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22d5650f81fd959e4abff910b286ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ae22d5650f81fd959e4abff910b286ee5">JobSyncHostReset</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id)</td></tr>
+<tr class="memdesc:ae22d5650f81fd959e4abff910b286ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset job sync on host  <a href="namespace_jobs.html#ae22d5650f81fd959e4abff910b286ee5">More...</a><br /></td></tr>
+<tr class="separator:ae22d5650f81fd959e4abff910b286ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ab1ad9f1ab4512aa465ef5558f9de398f">JobSyncHostSignal</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, bool reset=true)</td></tr>
+<tr class="memdesc:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal job sync on host  <a href="namespace_jobs.html#ab1ad9f1ab4512aa465ef5558f9de398f">More...</a><br /></td></tr>
+<tr class="separator:ab1ad9f1ab4512aa465ef5558f9de398f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade008a0c596909b4554a0ad5da650de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ade008a0c596909b4554a0ad5da650de3">JobSyncThreadSignal</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> port, bool reset=true)</td></tr>
+<tr class="memdesc:ade008a0c596909b4554a0ad5da650de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">put job sync on port, if reset is true, reset prior to signaling  <a href="namespace_jobs.html#ade008a0c596909b4554a0ad5da650de3">More...</a><br /></td></tr>
+<tr class="separator:ade008a0c596909b4554a0ad5da650de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc228417864379fec2f6b28fc4a859b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#abdc228417864379fec2f6b28fc4a859b">JobSyncHostWait</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, bool reset=false)</td></tr>
+<tr class="memdesc:abdc228417864379fec2f6b28fc4a859b"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on host side, if reset is true, resets after waiting  <a href="namespace_jobs.html#abdc228417864379fec2f6b28fc4a859b">More...</a><br /></td></tr>
+<tr class="separator:abdc228417864379fec2f6b28fc4a859b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e6fcd343ac75cd629878ba29b42116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a86e6fcd343ac75cd629878ba29b42116">JobSyncThreadWait</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id, const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> port, bool reset=false)</td></tr>
+<tr class="memdesc:a86e6fcd343ac75cd629878ba29b42116"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for job on thread side, if reset is true, reset after waiting  <a href="namespace_jobs.html#a86e6fcd343ac75cd629878ba29b42116">More...</a><br /></td></tr>
+<tr class="separator:a86e6fcd343ac75cd629878ba29b42116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cddea02e82af7a41ea52894d7eafcd0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a7cddea02e82af7a41ea52894d7eafcd0">JobSyncSignaled</a> (const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a> id)</td></tr>
 <tr class="memdesc:a7cddea02e82af7a41ea52894d7eafcd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if sync object has been signaled  <a href="namespace_jobs.html#a7cddea02e82af7a41ea52894d7eafcd0">More...</a><br /></td></tr>
 <tr class="separator:a7cddea02e82af7a41ea52894d7eafcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,10 +221,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad753b03915d67feb7e8cdd83066966fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#ad753b03915d67feb7e8cdd83066966fb">JobPortBusy</a> (const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> &amp;id)</td></tr>
 <tr class="memdesc:ad753b03915d67feb7e8cdd83066966fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">check to see if port is idle  <a href="namespace_jobs.html#ad753b03915d67feb7e8cdd83066966fb">More...</a><br /></td></tr>
 <tr class="separator:ad753b03915d67feb7e8cdd83066966fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf95fd6bd39d325155b4d6b33d240b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a3bf95fd6bd39d325155b4d6b33d240b7">JobSchedule</a> (const <a class="el" href="struct_jobs_1_1_job_id.html">JobId</a> &amp;job, const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> &amp;port, void *ctx, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const bool cycleThreads=true)</td></tr>
+<tr class="memdesc:a3bf95fd6bd39d325155b4d6b33d240b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">schedule a job with a poiunter as context and a work group size and item count  <a href="namespace_jobs.html#a3bf95fd6bd39d325155b4d6b33d240b7">More...</a><br /></td></tr>
+<tr class="separator:a3bf95fd6bd39d325155b4d6b33d240b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a42105084a38f6c8c23602351797009c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_jobs.html#aded41a9bf4ec1731c62c8ca23d08e68a">JobPortAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a42105084a38f6c8c23602351797009c0">jobPortAllocator</a> (0xFFFF)</td></tr>
+<tr class="memitem:a42105084a38f6c8c23602351797009c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_jobs.html#a7aa9ce09981f3c3c85412784ef91c7d4">JobPortAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#a42105084a38f6c8c23602351797009c0">jobPortAllocator</a> (0xFFFF)</td></tr>
 <tr class="separator:a42105084a38f6c8c23602351797009c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf368e9017b84e796ab5f92857ed1771"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_jobs.html#aefe64565cdbf947d5856b071f8b6c348">JobAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs.html#abf368e9017b84e796ab5f92857ed1771">jobAllocator</a> (0xFFFFFFFF)</td></tr>
 <tr class="separator:abf368e9017b84e796ab5f92857ed1771"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,14 +249,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aded41a9bf4ec1731c62c8ca23d08e68a" name="aded41a9bf4ec1731c62c8ca23d08e68a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aded41a9bf4ec1731c62c8ca23d08e68a">&#9670;&nbsp;</a></span>JobPortAllocator</h2>
+<a id="a7aa9ce09981f3c3c85412784ef91c7d4" name="a7aa9ce09981f3c3c85412784ef91c7d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa9ce09981f3c3c85412784ef91c7d4">&#9670;&nbsp;</a></span>JobPortAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_jobs_1_1_job_thread.html">JobThread</a>&gt; &gt;, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_jobs_1_1_job_id.html">JobId</a> &gt; <a class="el" href="namespace_jobs.html#aded41a9bf4ec1731c62c8ca23d08e68a">Jobs::JobPortAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_jobs_1_1_job_thread.html">JobThread</a>&gt; &gt;, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; <a class="el" href="namespace_jobs.html#a7aa9ce09981f3c3c85412784ef91c7d4">Jobs::JobPortAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,7 +293,6 @@ Variables</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad428a6b1f165eb03e49844b26ed7e28baf37c8f297419438e4d16b9e07d83caab" name="ad428a6b1f165eb03e49844b26ed7e28baf37c8f297419438e4d16b9e07d83caab"></a>JobPort_Name&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad428a6b1f165eb03e49844b26ed7e28ba9917a7e2d8a77bede0b32730a58ff043" name="ad428a6b1f165eb03e49844b26ed7e28ba9917a7e2d8a77bede0b32730a58ff043"></a>JobPort_Threads&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad428a6b1f165eb03e49844b26ed7e28baa8291328ee4ec75cd3679dcefdbdcdab" name="ad428a6b1f165eb03e49844b26ed7e28baa8291328ee4ec75cd3679dcefdbdcdab"></a>JobPort_NextThreadIndex&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad428a6b1f165eb03e49844b26ed7e28ba40b1b3992cb022bb191d2981d8408c11" name="ad428a6b1f165eb03e49844b26ed7e28ba40b1b3992cb022bb191d2981d8408c11"></a>JobPort_LastJobId&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -541,7 +548,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5310a066f57613ff829ba2d8f150f8fe" name="a5310a066f57613ff829ba2d8f150f8fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5310a066f57613ff829ba2d8f150f8fe">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5310a066f57613ff829ba2d8f150f8fe">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +578,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a96f00b4872bd1a2c0dfb4835e72f90e7" name="a96f00b4872bd1a2c0dfb4835e72f90e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96f00b4872bd1a2c0dfb4835e72f90e7">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f00b4872bd1a2c0dfb4835e72f90e7">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,7 +620,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa221982e386fb56b0ce262a475b369e0" name="aa221982e386fb56b0ce262a475b369e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa221982e386fb56b0ce262a475b369e0">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa221982e386fb56b0ce262a475b369e0">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,6 +664,60 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>schedule job with callback when finished </p>
+
+</div>
+</div>
+<a id="a3bf95fd6bd39d325155b4d6b33d240b7" name="a3bf95fd6bd39d325155b4d6b33d240b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf95fd6bd39d325155b4d6b33d240b7">&#9670;&nbsp;</a></span>JobSchedule() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jobs::JobSchedule </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_id.html">JobId</a> &amp;&#160;</td>
+          <td class="paramname"><em>job</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a> &amp;&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>cycleThreads</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>schedule a job with a poiunter as context and a work group size and item count </p>
 
 </div>
 </div>
@@ -738,14 +799,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adcdc562d988a436a62fe8bc9522d8721" name="adcdc562d988a436a62fe8bc9522d8721"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcdc562d988a436a62fe8bc9522d8721">&#9670;&nbsp;</a></span>JobSyncHostWait()</h2>
+<a id="ae22d5650f81fd959e4abff910b286ee5" name="ae22d5650f81fd959e4abff910b286ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22d5650f81fd959e4abff910b286ee5">&#9670;&nbsp;</a></span>JobSyncHostReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Jobs::JobSyncHostWait </td>
+          <td class="memname">void Jobs::JobSyncHostReset </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -754,18 +815,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>wait for job on host side </p>
+<p>reset job sync on host </p>
 
 </div>
 </div>
-<a id="a0842e3b14dfb05dbb2dae57784c7d5a3" name="a0842e3b14dfb05dbb2dae57784c7d5a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0842e3b14dfb05dbb2dae57784c7d5a3">&#9670;&nbsp;</a></span>JobSyncSignal()</h2>
+<a id="ab1ad9f1ab4512aa465ef5558f9de398f" name="ab1ad9f1ab4512aa465ef5558f9de398f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ad9f1ab4512aa465ef5558f9de398f">&#9670;&nbsp;</a></span>JobSyncHostSignal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Jobs::JobSyncSignal </td>
+          <td class="memname">void Jobs::JobSyncHostSignal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
@@ -773,8 +834,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a>&#160;</td>
-          <td class="paramname"><em>port</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -784,7 +845,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>put job sync on port </p>
+<p>signal job sync on host </p>
+
+</div>
+</div>
+<a id="abdc228417864379fec2f6b28fc4a859b" name="abdc228417864379fec2f6b28fc4a859b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc228417864379fec2f6b28fc4a859b">&#9670;&nbsp;</a></span>JobSyncHostWait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jobs::JobSyncHostWait </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>wait for job on host side, if reset is true, resets after waiting </p>
 
 </div>
 </div>
@@ -808,8 +899,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad281e9182013178a03a7877905f6c8c4" name="ad281e9182013178a03a7877905f6c8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad281e9182013178a03a7877905f6c8c4">&#9670;&nbsp;</a></span>JobSyncThreadWait()</h2>
+<a id="ade008a0c596909b4554a0ad5da650de3" name="ade008a0c596909b4554a0ad5da650de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade008a0c596909b4554a0ad5da650de3">&#9670;&nbsp;</a></span>JobSyncThreadSignal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jobs::JobSyncThreadSignal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_sync_id.html">JobSyncId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a>&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>put job sync on port, if reset is true, reset prior to signaling </p>
+
+</div>
+</div>
+<a id="a86e6fcd343ac75cd629878ba29b42116" name="a86e6fcd343ac75cd629878ba29b42116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e6fcd343ac75cd629878ba29b42116">&#9670;&nbsp;</a></span>JobSyncThreadWait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -824,7 +951,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_port_id.html">JobPortId</a>&#160;</td>
-          <td class="paramname"><em>port</em>&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -834,7 +967,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>wait for job on thread side </p>
+<p>wait for job on thread side, if reset is true, reset after waiting </p>
 
 </div>
 </div>
@@ -864,7 +997,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_jobs.html#aded41a9bf4ec1731c62c8ca23d08e68a">JobPortAllocator</a> Jobs::jobPortAllocator </td>
+          <td class="memname"><a class="el" href="namespace_jobs.html#a7aa9ce09981f3c3c85412784ef91c7d4">JobPortAllocator</a> Jobs::jobPortAllocator </td>
           <td>(</td>
           <td class="paramtype">0xFFFF&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -900,7 +1033,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs.html">Jobs</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

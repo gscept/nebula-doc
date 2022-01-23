@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['scrollfunc_0',['ScrollFunc',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#abecd05a27152b1bf18f2415cdc7b1050',1,'GLFW::GLFWDisplayDevice']]],
-  ['shaderbase_1',['ShaderBase',['../class_base_1_1_shader_server_base.html#aa1e6e976c4e34222d5aaa66a4cfa316c',1,'Base::ShaderServerBase']]],
-  ['sqlite3database_2',['Sqlite3Database',['../class_db_1_1_sqlite3_factory.html#ae32060ef5dfe3e7ca7e9bc6bde7ea949',1,'Db::Sqlite3Factory::Sqlite3Database()'],['../class_db_1_1_sqlite3_table.html#ae32060ef5dfe3e7ca7e9bc6bde7ea949',1,'Db::Sqlite3Table::Sqlite3Database()']]],
-  ['sqlite3table_3',['Sqlite3Table',['../class_db_1_1_sqlite3_factory.html#a3c2f4db2ac90ca3869cd3c3436d28ceb',1,'Db::Sqlite3Factory']]],
-  ['streamactorpool_4',['StreamActorPool',['../class_physics_1_1_actor_context.html#aff85409699d4cb9d186084d3f480cc03',1,'Physics::ActorContext']]],
-  ['streammeshpool_5',['StreamMeshPool',['../class_core_graphics_1_1_memory_mesh_pool.html#a811e03549fa2db6c2b0e5e6df569bc9f',1,'CoreGraphics::MemoryMeshPool']]],
-  ['streammodelpool_6',['StreamModelPool',['../class_models_1_1_primitive_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d',1,'Models::PrimitiveNode::StreamModelPool()'],['../class_models_1_1_transform_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d',1,'Models::TransformNode::StreamModelPool()'],['../class_models_1_1_shader_state_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d',1,'Models::ShaderStateNode::StreamModelPool()'],['../class_models_1_1_model_node.html#a5ea6aed1ef107b543cbb2f4ff5d0c17d',1,'Models::ModelNode::StreamModelPool()']]],
-  ['stringatom_7',['StringAtom',['../class_util_1_1_global_string_atom_table.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::GlobalStringAtomTable::StringAtom()'],['../class_util_1_1_local_string_atom_table.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::LocalStringAtomTable::StringAtom()'],['../class_util_1_1_string_atom_table_base.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::StringAtomTableBase::StringAtom()']]],
-  ['surfacepool_8',['SurfacePool',['../class_materials_1_1_material_server.html#a88c1277ff89e92ee5d95fe40287f4d01',1,'Materials::MaterialServer::SurfacePool()'],['../class_materials_1_1_material_type.html#a88c1277ff89e92ee5d95fe40287f4d01',1,'Materials::MaterialType::SurfacePool()']]],
-  ['sysfunc_9',['SysFunc',['../class_posix_1_1_posix_socket.html#a13ebc4e9e2cfc1392d5d0849cd29da7a',1,'Posix::PosixSocket']]]
+  ['reader_0',['Reader',['../class_db_1_1_db_factory.html#a35cb182752752c74a30050705acc3c06',1,'Db::DbFactory']]],
+  ['resizefunc_1',['ResizeFunc',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#afaf3698d197000af66660c4a7fc25e3a',1,'GLFW::GLFWDisplayDevice']]],
+  ['resourcecache_2',['ResourceCache',['../class_resources_1_1_resource.html#a56e8a483ca41b93ad56ef41fd78c6398',1,'Resources::Resource']]],
+  ['resourcecontainer_3',['ResourceContainer',['../class_resources_1_1_resource.html#a1f39a08bf5b69fe48e9f9cd2c7d1f9ee',1,'Resources::Resource']]],
+  ['resourcememorycache_4',['ResourceMemoryCache',['../class_resources_1_1_resource.html#a0b10664f7930a1700855493b6f3bc665',1,'Resources::Resource']]],
+  ['resourceserver_5',['ResourceServer',['../class_resources_1_1_resource.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::Resource::ResourceServer()'],['../class_resources_1_1_resource_cache.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::ResourceCache::ResourceServer()'],['../class_resources_1_1_resource_memory_cache.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::ResourceMemoryCache::ResourceServer()'],['../class_resources_1_1_resource_stream_cache.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::ResourceStreamCache::ResourceServer()']]],
+  ['resourcestreamcache_6',['ResourceStreamCache',['../class_resources_1_1_resource.html#a2179495590c69923d96886d892a2c056',1,'Resources::Resource::ResourceStreamCache()'],['../class_resources_1_1_resource_loader_thread.html#a2179495590c69923d96886d892a2c056',1,'Resources::ResourceLoaderThread::ResourceStreamCache()'],['../class_resources_1_1_resource_server.html#a2179495590c69923d96886d892a2c056',1,'Resources::ResourceServer::ResourceStreamCache()']]]
 ];

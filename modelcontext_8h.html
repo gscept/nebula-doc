@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('modelcontext_8h.html',''); initResizab
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">modelcontext.h File Reference</div></div>
 </div><!--header-->
@@ -93,7 +94,8 @@ $(document).ready(function(){initNavTree('modelcontext_8h.html',''); initResizab
 <div class="textblock"><code>#include &quot;<a class="el" href="graphicscontext_8h_source.html">graphics/graphicscontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceid_8h_source.html">resources/resourceid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="materialserver_8h_source.html">materials/materialserver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resourcetable_8h_source.html">coregraphics/resourcetable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="shaderconfigserver_8h_source.html">materials/shaderconfigserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="model_8h_source.html">model.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="modelnode_8h_source.html">nodes/modelnode.h</a>&quot;</code><br />
 </div>
@@ -102,6 +104,16 @@ $(document).ready(function(){initNavTree('modelcontext_8h.html',''); initResizab
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html">Models::ModelContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_node_instance_state.html">Models::ModelContext::NodeInstanceState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_model_instance.html">Models::ModelContext::ModelInstance</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html">Models::ModelContext::ModelInstance::Transformable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms are only used by the model context to traverse and propagate the transform hierarchy.  <a href="struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html">Models::ModelContext::ModelInstance::Renderable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounding boxes are used by visibility and the states by rendering.  <a href="struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -116,6 +128,19 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_models"><td class="mdescLeft">&#160;</td><td class="mdescRight">A model resource consists of nodes, each of which inhibit some information read from an .n3 file. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a37ca55daed3c501c162e90e235ff1e46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">Models::NodeInstanceFlags</a> { <br />
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a">Models::NodeInstance_Active</a> = N_BIT(1)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1">Models::NodeInstance_LodActive</a> = N_BIT(2)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248">Models::NodeInstance_AlwaysVisible</a> = N_BIT(3)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a">Models::NodeInstance_Visible</a> = N_BIT(4)
+, <br />
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877">Models::NodeInstance_Moved</a> = N_BIT(5)
+<br />
+ }</td></tr>
+<tr class="separator:a37ca55daed3c501c162e90e235ff1e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0c00bcc23906962f0c8c8821dc860830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a0c00bcc23906962f0c8c8821dc860830">Visibility::VisibilitySortJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
@@ -128,7 +153,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_d9d30cd1cce06ca19bffd160cc974b62.html">models</a></li><li class="navelem"><a class="el" href="modelcontext_8h.html">modelcontext.h</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

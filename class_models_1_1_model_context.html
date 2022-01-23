@@ -84,12 +84,14 @@ $(document).ready(function(){initNavTree('class_models_1_1_model_context.html','
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_models_1_1_model_context-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Models::ModelContext Class Reference</div></div>
 </div><!--header-->
@@ -99,6 +101,13 @@ $(document).ready(function(){initNavTree('class_models_1_1_model_context.html','
 
 <p>Inherits <a class="el" href="class_graphics_1_1_graphics_context.html">Graphics::GraphicsContext</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_model_instance.html">ModelInstance</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_context_1_1_node_instance_state.html">NodeInstanceState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aafffb9ddfd69fbef4894de9ec3748205"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aafffb9ddfd69fbef4894de9ec3748205">ModelContext</a> ()</td></tr>
@@ -129,9 +138,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7f882eecb070f9af711ae02ba10f3b0"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#ab7f882eecb070f9af711ae02ba10f3b0">GetModel</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
 <tr class="memdesc:ab7f882eecb070f9af711ae02ba10f3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model  <a href="class_models_1_1_model_context.html#ab7f882eecb070f9af711ae02ba10f3b0">More...</a><br /></td></tr>
 <tr class="separator:ab7f882eecb070f9af711ae02ba10f3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2751fb3e3d3bb9226f06b30025168d"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_instance_id.html">Models::ModelInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aae2751fb3e3d3bb9226f06b30025168d">GetModelInstance</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:aae2751fb3e3d3bb9226f06b30025168d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model instance  <a href="class_models_1_1_model_context.html#aae2751fb3e3d3bb9226f06b30025168d">More...</a><br /></td></tr>
-<tr class="separator:aae2751fb3e3d3bb9226f06b30025168d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76ed639475f7515b0fee0977522ef370"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370">SetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;transform)</td></tr>
 <tr class="memdesc:a76ed639475f7515b0fee0977522ef370"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the transform for a model  <a href="class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370">More...</a><br /></td></tr>
 <tr class="separator:a76ed639475f7515b0fee0977522ef370"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,44 +147,58 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1271eb3d53efb0be17bfbcaed3e77486"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a1271eb3d53efb0be17bfbcaed3e77486">GetTransform</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
 <tr class="memdesc:a1271eb3d53efb0be17bfbcaed3e77486"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the transform for a model  <a href="class_models_1_1_model_context.html#a1271eb3d53efb0be17bfbcaed3e77486">More...</a><br /></td></tr>
 <tr class="separator:a1271eb3d53efb0be17bfbcaed3e77486"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab63c7730ca1d79cc4eb51baeb668050"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aab63c7730ca1d79cc4eb51baeb668050">GetBoundingBox</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:aab63c7730ca1d79cc4eb51baeb668050"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bounding box  <a href="class_models_1_1_model_context.html#aab63c7730ca1d79cc4eb51baeb668050">More...</a><br /></td></tr>
-<tr class="separator:aab63c7730ca1d79cc4eb51baeb668050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a22f35026b95f2b155180caa9eb5e1e"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a1a22f35026b95f2b155180caa9eb5e1e">GetModelNodeInstances</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:a1a22f35026b95f2b155180caa9eb5e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model node instances  <a href="class_models_1_1_model_context.html#a1a22f35026b95f2b155180caa9eb5e1e">More...</a><br /></td></tr>
-<tr class="separator:a1a22f35026b95f2b155180caa9eb5e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7101dea7bb1c1c57b871c4caf9a32463"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a7101dea7bb1c1c57b871c4caf9a32463">GetModelNodeTypes</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:a7101dea7bb1c1c57b871c4caf9a32463"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model node types  <a href="class_models_1_1_model_context.html#a7101dea7bb1c1c57b871c4caf9a32463">More...</a><br /></td></tr>
-<tr class="separator:a7101dea7bb1c1c57b871c4caf9a32463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57ffe6a1457748279c411c2a55f288df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df">UpdateTransforms</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a57ffe6a1457748279c411c2a55f288df"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs before frame is updated  <a href="class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df">More...</a><br /></td></tr>
 <tr class="separator:a57ffe6a1457748279c411c2a55f288df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11a22c8d0d359341e8af9309141cb71"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#af11a22c8d0d359341e8af9309141cb71">UpdateConstants</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:af11a22c8d0d359341e8af9309141cb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs after BeginFrame  <a href="class_models_1_1_model_context.html#af11a22c8d0d359341e8af9309141cb71">More...</a><br /></td></tr>
+<tr class="separator:af11a22c8d0d359341e8af9309141cb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug rendering  <a href="class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa">More...</a><br /></td></tr>
 <tr class="separator:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b4535baa0956829c1c78120c0d47010"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a5b4535baa0956829c1c78120c0d47010">GetModel</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
 <tr class="memdesc:a5b4535baa0956829c1c78120c0d47010"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model  <a href="class_models_1_1_model_context.html#a5b4535baa0956829c1c78120c0d47010">More...</a><br /></td></tr>
 <tr class="separator:a5b4535baa0956829c1c78120c0d47010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a987766d70d45459939041242fd2c3a99"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_instance_id.html">Models::ModelInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a987766d70d45459939041242fd2c3a99">GetModelInstance</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
-<tr class="memdesc:a987766d70d45459939041242fd2c3a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model instance  <a href="class_models_1_1_model_context.html#a987766d70d45459939041242fd2c3a99">More...</a><br /></td></tr>
-<tr class="separator:a987766d70d45459939041242fd2c3a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1484eaa4e43bc36d93363d8f1ab00563"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a1484eaa4e43bc36d93363d8f1ab00563">GetModelNodeInstances</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
-<tr class="memdesc:a1484eaa4e43bc36d93363d8f1ab00563"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model node instances  <a href="class_models_1_1_model_context.html#a1484eaa4e43bc36d93363d8f1ab00563">More...</a><br /></td></tr>
-<tr class="separator:a1484eaa4e43bc36d93363d8f1ab00563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c61b622048d29f295dabd2f0beb3c90"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a4c61b622048d29f295dabd2f0beb3c90">GetModelNodeTypes</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
-<tr class="memdesc:a4c61b622048d29f295dabd2f0beb3c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model node instances  <a href="class_models_1_1_model_context.html#a4c61b622048d29f295dabd2f0beb3c90">More...</a><br /></td></tr>
-<tr class="separator:a4c61b622048d29f295dabd2f0beb3c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec3c22470b581d6d3c9c76b6f346449"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aeec3c22470b581d6d3c9c76b6f346449">GetModelNodeTypes</a> (const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
+<tr class="memdesc:aeec3c22470b581d6d3c9c76b6f346449"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model node instances  <a href="class_models_1_1_model_context.html#aeec3c22470b581d6d3c9c76b6f346449">More...</a><br /></td></tr>
+<tr class="separator:aeec3c22470b581d6d3c9c76b6f346449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99732ad2ffc936aeab1e932a80ee625e"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a99732ad2ffc936aeab1e932a80ee625e">GetModelRenderableRange</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:a99732ad2ffc936aeab1e932a80ee625e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model node instance states.  <a href="class_models_1_1_model_context.html#a99732ad2ffc936aeab1e932a80ee625e">More...</a><br /></td></tr>
+<tr class="separator:a99732ad2ffc936aeab1e932a80ee625e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae2e541d11e23e83f67f4755324c89f7"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aae2e541d11e23e83f67f4755324c89f7">GetModelTransformableRange</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:aae2e541d11e23e83f67f4755324c89f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model node instance transformables.  <a href="class_models_1_1_model_context.html#aae2e541d11e23e83f67f4755324c89f7">More...</a><br /></td></tr>
+<tr class="separator:aae2e541d11e23e83f67f4755324c89f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8c8b50ef1f20162a4830cb3f560b6e"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_context_1_1_node_instance_state.html">NodeInstanceState</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aec8c8b50ef1f20162a4830cb3f560b6e">GetModelRenderableStates</a> ()</td></tr>
+<tr class="memdesc:aec8c8b50ef1f20162a4830cb3f560b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get array to all model node states.  <a href="class_models_1_1_model_context.html#aec8c8b50ef1f20162a4830cb3f560b6e">More...</a><br /></td></tr>
+<tr class="separator:aec8c8b50ef1f20162a4830cb3f560b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedbbf3e260600ac2844bae23e5c680b"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aaedbbf3e260600ac2844bae23e5c680b">GetModelRenderableBoundingBoxes</a> ()</td></tr>
+<tr class="memdesc:aaedbbf3e260600ac2844bae23e5c680b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get array to all model node instace bounding boxes.  <a href="class_models_1_1_model_context.html#aaedbbf3e260600ac2844bae23e5c680b">More...</a><br /></td></tr>
+<tr class="separator:aaedbbf3e260600ac2844bae23e5c680b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee25d4937b4c06fdd2e4c0ef56e7ff7"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a0ee25d4937b4c06fdd2e4c0ef56e7ff7">GetModelRenderableFlags</a> ()</td></tr>
+<tr class="memdesc:a0ee25d4937b4c06fdd2e4c0ef56e7ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get array to all model node instance flags.  <a href="class_models_1_1_model_context.html#a0ee25d4937b4c06fdd2e4c0ef56e7ff7">More...</a><br /></td></tr>
+<tr class="separator:a0ee25d4937b4c06fdd2e4c0ef56e7ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0927921d6f6f751af210f25b5db5b0"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html">ModelInstance::Renderable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a5e0927921d6f6f751af210f25b5db5b0">GetModelRenderables</a> ()</td></tr>
+<tr class="memdesc:a5e0927921d6f6f751af210f25b5db5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get node renderable context.  <a href="class_models_1_1_model_context.html#a5e0927921d6f6f751af210f25b5db5b0">More...</a><br /></td></tr>
+<tr class="separator:a5e0927921d6f6f751af210f25b5db5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad771178425e6e5ed8ccf26e46fc383b"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html">ModelInstance::Transformable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aad771178425e6e5ed8ccf26e46fc383b">GetModelTransformables</a> ()</td></tr>
+<tr class="memdesc:aad771178425e6e5ed8ccf26e46fc383b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get node transformable context.  <a href="class_models_1_1_model_context.html#aad771178425e6e5ed8ccf26e46fc383b">More...</a><br /></td></tr>
+<tr class="separator:aad771178425e6e5ed8ccf26e46fc383b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a509e76c95602c0c814bb499a3d473c79"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_models_1_1_model_context.html#a509e76c95602c0c814bb499a3d473c79a568a87f944987effebdf1c9b01a99aff">Model_Id</a>
-, <a class="el" href="class_models_1_1_model_context.html#a509e76c95602c0c814bb499a3d473c79a627abfae61fdbcbcf0bc10ee80228d69">Model_InstanceId</a>
-, <a class="el" href="class_models_1_1_model_context.html#a509e76c95602c0c814bb499a3d473c79a96b766cd97f317dcf0d074f2a9abc10d">Model_Transform</a>
-, <a class="el" href="class_models_1_1_model_context.html#a509e76c95602c0c814bb499a3d473c79a44662edc539864983c1ffad48c5597dc">Model_Dirty</a>
+<tr class="memitem:a1ae27fa6892ef824ca3d39cc14543e12"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12a568a87f944987effebdf1c9b01a99aff">Model_Id</a>
+, <a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12a301d938e24f7f26f5a6dd215fcb067df">Model_NodeInstanceRoots</a>
+, <a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12aa5dce05d3dd6f752a107d3b9f4cc54b3">Model_NodeInstanceTransform</a>
+, <a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12abfd88735dea5e93bc567b52dc56e1d77">Model_NodeInstanceStates</a>
+, <br />
+&#160;&#160;<a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12a96b766cd97f317dcf0d074f2a9abc10d">Model_Transform</a>
+, <a class="el" href="class_models_1_1_model_context.html#a1ae27fa6892ef824ca3d39cc14543e12a44662edc539864983c1ffad48c5597dc">Model_Dirty</a>
+<br />
  }</td></tr>
-<tr class="separator:a509e76c95602c0c814bb499a3d473c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0af2a1a1e933560e1cf5eb3a3b677e48"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>, <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a0af2a1a1e933560e1cf5eb3a3b677e48">ModelContextAllocator</a></td></tr>
-<tr class="separator:a0af2a1a1e933560e1cf5eb3a3b677e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1ae27fa6892ef824ca3d39cc14543e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278a866dd7c677d93b98225a30782a5b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> &gt;, <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a>, <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b">ModelContextAllocator</a></td></tr>
+<tr class="separator:a278a866dd7c677d93b98225a30782a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -196,8 +216,23 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae2126922f5ae32fe69c073e1cef146d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_models_1_1_model_context.html#a0af2a1a1e933560e1cf5eb3a3b677e48">ModelContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">modelContextAllocator</a></td></tr>
+<tr class="memitem:aa16abddf9fe159d4fddfff707511069b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_models_1_1_model_context_1_1_model_instance.html">ModelInstance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b">nodeInstances</a></td></tr>
+<tr class="separator:aa16abddf9fe159d4fddfff707511069b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2126922f5ae32fe69c073e1cef146d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b">ModelContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">modelContextAllocator</a></td></tr>
 <tr class="separator:ae2126922f5ae32fe69c073e1cef146d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f61d30afb46f40ab0e45981af02e971"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_jobs_1_1_job_sync_id.html">Jobs::JobSyncId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a1f61d30afb46f40ab0e45981af02e971">jobInternalSync</a></td></tr>
+<tr class="separator:a1f61d30afb46f40ab0e45981af02e971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05a01958f88aeba085f88fba8b11194"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_jobs_1_1_job_sync_id.html">Jobs::JobSyncId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#af05a01958f88aeba085f88fba8b11194">jobHostSync</a></td></tr>
+<tr class="separator:af05a01958f88aeba085f88fba8b11194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a509a5aab5489f1b0775e002d97e178f5"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a509a5aab5489f1b0775e002d97e178f5">VisibilityContext</a></td></tr>
+<tr class="separator:a509a5aab5489f1b0775e002d97e178f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857aff960847b6625d422fc474ed3bef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a857aff960847b6625d422fc474ed3bef">ModelRenderableUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a857aff960847b6625d422fc474ed3bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd292ae8bf9790aad21fac9fe585f0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a8cd292ae8bf9790aad21fac9fe585f0a">ModelTransformUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a8cd292ae8bf9790aad21fac9fe585f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -211,8 +246,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a0af2a1a1e933560e1cf5eb3a3b677e48" name="a0af2a1a1e933560e1cf5eb3a3b677e48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0af2a1a1e933560e1cf5eb3a3b677e48">&#9670;&nbsp;</a></span>ModelContextAllocator</h2>
+<a id="a278a866dd7c677d93b98225a30782a5b" name="a278a866dd7c677d93b98225a30782a5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278a866dd7c677d93b98225a30782a5b">&#9670;&nbsp;</a></span>ModelContextAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +256,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>, <a class="el" href="struct_models_1_1_model_instance_id.html">ModelInstanceId</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, bool &gt; <a class="el" href="class_models_1_1_model_context.html#a0af2a1a1e933560e1cf5eb3a3b677e48">Models::ModelContext::ModelContextAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a>&gt;, <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a>, <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, bool &gt; <a class="el" href="class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b">Models::ModelContext::ModelContextAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -234,8 +269,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a509e76c95602c0c814bb499a3d473c79" name="a509e76c95602c0c814bb499a3d473c79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a509e76c95602c0c814bb499a3d473c79">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="a1ae27fa6892ef824ca3d39cc14543e12" name="a1ae27fa6892ef824ca3d39cc14543e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae27fa6892ef824ca3d39cc14543e12">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,10 +289,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a509e76c95602c0c814bb499a3d473c79a568a87f944987effebdf1c9b01a99aff" name="a509e76c95602c0c814bb499a3d473c79a568a87f944987effebdf1c9b01a99aff"></a>Model_Id&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a509e76c95602c0c814bb499a3d473c79a627abfae61fdbcbcf0bc10ee80228d69" name="a509e76c95602c0c814bb499a3d473c79a627abfae61fdbcbcf0bc10ee80228d69"></a>Model_InstanceId&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a509e76c95602c0c814bb499a3d473c79a96b766cd97f317dcf0d074f2a9abc10d" name="a509e76c95602c0c814bb499a3d473c79a96b766cd97f317dcf0d074f2a9abc10d"></a>Model_Transform&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a509e76c95602c0c814bb499a3d473c79a44662edc539864983c1ffad48c5597dc" name="a509e76c95602c0c814bb499a3d473c79a44662edc539864983c1ffad48c5597dc"></a>Model_Dirty&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12a568a87f944987effebdf1c9b01a99aff" name="a1ae27fa6892ef824ca3d39cc14543e12a568a87f944987effebdf1c9b01a99aff"></a>Model_Id&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12a301d938e24f7f26f5a6dd215fcb067df" name="a1ae27fa6892ef824ca3d39cc14543e12a301d938e24f7f26f5a6dd215fcb067df"></a>Model_NodeInstanceRoots&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12aa5dce05d3dd6f752a107d3b9f4cc54b3" name="a1ae27fa6892ef824ca3d39cc14543e12aa5dce05d3dd6f752a107d3b9f4cc54b3"></a>Model_NodeInstanceTransform&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12abfd88735dea5e93bc567b52dc56e1d77" name="a1ae27fa6892ef824ca3d39cc14543e12abfd88735dea5e93bc567b52dc56e1d77"></a>Model_NodeInstanceStates&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12a96b766cd97f317dcf0d074f2a9abc10d" name="a1ae27fa6892ef824ca3d39cc14543e12a96b766cd97f317dcf0d074f2a9abc10d"></a>Model_Transform&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ae27fa6892ef824ca3d39cc14543e12a44662edc539864983c1ffad48c5597dc" name="a1ae27fa6892ef824ca3d39cc14543e12a44662edc539864983c1ffad48c5597dc"></a>Model_Dirty&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -467,34 +504,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aab63c7730ca1d79cc4eb51baeb668050" name="aab63c7730ca1d79cc4eb51baeb668050"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab63c7730ca1d79cc4eb51baeb668050">&#9670;&nbsp;</a></span>GetBoundingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_math_1_1bbox.html">Math::bbox</a> Models::ModelContext::GetBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get the bounding box </p>
-
-</div>
-</div>
 <a id="a5b4535baa0956829c1c78120c0d47010" name="a5b4535baa0956829c1c78120c0d47010"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b4535baa0956829c1c78120c0d47010">&#9670;&nbsp;</a></span>GetModel() <span class="overload">[1/2]</span></h2>
 
@@ -551,8 +560,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a987766d70d45459939041242fd2c3a99" name="a987766d70d45459939041242fd2c3a99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a987766d70d45459939041242fd2c3a99">&#9670;&nbsp;</a></span>GetModelInstance() <span class="overload">[1/2]</span></h2>
+<a id="aeec3c22470b581d6d3c9c76b6f346449" name="aeec3c22470b581d6d3c9c76b6f346449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec3c22470b581d6d3c9c76b6f346449">&#9670;&nbsp;</a></span>GetModelNodeTypes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,63 +570,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_models_1_1_model_instance_id.html">Models::ModelInstanceId</a> Models::ModelContext::GetModelInstance </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get model instance </p>
-
-</div>
-</div>
-<a id="aae2751fb3e3d3bb9226f06b30025168d" name="aae2751fb3e3d3bb9226f06b30025168d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae2751fb3e3d3bb9226f06b30025168d">&#9670;&nbsp;</a></span>GetModelInstance() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_models_1_1_model_instance_id.html">Models::ModelInstanceId</a> Models::ModelContext::GetModelInstance </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get model instance </p>
-
-</div>
-</div>
-<a id="a1484eaa4e43bc36d93363d8f1ab00563" name="a1484eaa4e43bc36d93363d8f1ab00563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1484eaa4e43bc36d93363d8f1ab00563">&#9670;&nbsp;</a></span>GetModelNodeInstances() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp; Models::ModelContext::GetModelNodeInstances </td>
+          <td class="memname">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp; Models::ModelContext::GetModelNodeTypes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -635,8 +588,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a22f35026b95f2b155180caa9eb5e1e" name="a1a22f35026b95f2b155180caa9eb5e1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a22f35026b95f2b155180caa9eb5e1e">&#9670;&nbsp;</a></span>GetModelNodeInstances() <span class="overload">[2/2]</span></h2>
+<a id="aaedbbf3e260600ac2844bae23e5c680b" name="aaedbbf3e260600ac2844bae23e5c680b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedbbf3e260600ac2844bae23e5c680b">&#9670;&nbsp;</a></span>GetModelRenderableBoundingBoxes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,7 +598,61 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_node_1_1_instance.html">Models::ModelNode::Instance</a> * &gt; &amp; Models::ModelContext::GetModelNodeInstances </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &gt; &amp; Models::ModelContext::GetModelRenderableBoundingBoxes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get array to all model node instace bounding boxes. </p>
+
+</div>
+</div>
+<a id="a0ee25d4937b4c06fdd2e4c0ef56e7ff7" name="a0ee25d4937b4c06fdd2e4c0ef56e7ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee25d4937b4c06fdd2e4c0ef56e7ff7">&#9670;&nbsp;</a></span>GetModelRenderableFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> &gt; &amp; Models::ModelContext::GetModelRenderableFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get array to all model node instance flags. </p>
+
+</div>
+</div>
+<a id="a99732ad2ffc936aeab1e932a80ee625e" name="a99732ad2ffc936aeab1e932a80ee625e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99732ad2ffc936aeab1e932a80ee625e">&#9670;&nbsp;</a></span>GetModelRenderableRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_models_1_1_node_instance_range.html">Models::NodeInstanceRange</a> &amp; Models::ModelContext::GetModelRenderableRange </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -659,12 +666,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get model node instances </p>
+<p>Get model node instance states. </p>
 
 </div>
 </div>
-<a id="a4c61b622048d29f295dabd2f0beb3c90" name="a4c61b622048d29f295dabd2f0beb3c90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c61b622048d29f295dabd2f0beb3c90">&#9670;&nbsp;</a></span>GetModelNodeTypes() <span class="overload">[1/2]</span></h2>
+<a id="a5e0927921d6f6f751af210f25b5db5b0" name="a5e0927921d6f6f751af210f25b5db5b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0927921d6f6f751af210f25b5db5b0">&#9670;&nbsp;</a></span>GetModelRenderables()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,10 +680,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp; Models::ModelContext::GetModelNodeTypes </td>
+          <td class="memname">const <a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html">ModelContext::ModelInstance::Renderable</a> &amp; Models::ModelContext::GetModelRenderables </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -687,12 +693,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get model node instances </p>
+<p>Get node renderable context. </p>
 
 </div>
 </div>
-<a id="a7101dea7bb1c1c57b871c4caf9a32463" name="a7101dea7bb1c1c57b871c4caf9a32463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7101dea7bb1c1c57b871c4caf9a32463">&#9670;&nbsp;</a></span>GetModelNodeTypes() <span class="overload">[2/2]</span></h2>
+<a id="aec8c8b50ef1f20162a4830cb3f560b6e" name="aec8c8b50ef1f20162a4830cb3f560b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8c8b50ef1f20162a4830cb3f560b6e">&#9670;&nbsp;</a></span>GetModelRenderableStates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -701,7 +707,34 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_models.html#af6d870409eb928dcad15db9ca58a3790">Models::NodeType</a> &gt; &amp; Models::ModelContext::GetModelNodeTypes </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_models_1_1_model_context_1_1_node_instance_state.html">ModelContext::NodeInstanceState</a> &gt; &amp; Models::ModelContext::GetModelRenderableStates </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get array to all model node states. </p>
+
+</div>
+</div>
+<a id="aae2e541d11e23e83f67f4755324c89f7" name="aae2e541d11e23e83f67f4755324c89f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae2e541d11e23e83f67f4755324c89f7">&#9670;&nbsp;</a></span>GetModelTransformableRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a> &amp; Models::ModelContext::GetModelTransformableRange </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -715,7 +748,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get model node types </p>
+<p>Get model node instance transformables. </p>
+
+</div>
+</div>
+<a id="aad771178425e6e5ed8ccf26e46fc383b" name="aad771178425e6e5ed8ccf26e46fc383b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad771178425e6e5ed8ccf26e46fc383b">&#9670;&nbsp;</a></span>GetModelTransformables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html">ModelContext::ModelInstance::Transformable</a> &amp; Models::ModelContext::GetModelTransformables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get node transformable context. </p>
 
 </div>
 </div>
@@ -891,6 +951,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af11a22c8d0d359341e8af9309141cb71" name="af11a22c8d0d359341e8af9309141cb71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af11a22c8d0d359341e8af9309141cb71">&#9670;&nbsp;</a></span>UpdateConstants()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::ModelContext::UpdateConstants </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>runs after BeginFrame </p>
+
+</div>
+</div>
 <a id="a57ffe6a1457748279c411c2a55f288df" name="a57ffe6a1457748279c411c2a55f288df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57ffe6a1457748279c411c2a55f288df">&#9670;&nbsp;</a></span>UpdateTransforms()</h2>
 
@@ -920,7 +1008,126 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a857aff960847b6625d422fc474ed3bef" name="a857aff960847b6625d422fc474ed3bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857aff960847b6625d422fc474ed3bef">&#9670;&nbsp;</a></span>ModelRenderableUpdateJob</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelRenderableUpdateJob </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cd292ae8bf9790aad21fac9fe585f0a" name="a8cd292ae8bf9790aad21fac9fe585f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd292ae8bf9790aad21fac9fe585f0a">&#9670;&nbsp;</a></span>ModelTransformUpdateJob</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModelTransformUpdateJob </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a509a5aab5489f1b0775e002d97e178f5" name="a509a5aab5489f1b0775e002d97e178f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509a5aab5489f1b0775e002d97e178f5">&#9670;&nbsp;</a></span>VisibilityContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class VisibilityContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af05a01958f88aeba085f88fba8b11194" name="af05a01958f88aeba085f88fba8b11194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af05a01958f88aeba085f88fba8b11194">&#9670;&nbsp;</a></span>jobHostSync</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_jobs_1_1_job_sync_id.html">Jobs::JobSyncId</a> Models::ModelContext::jobHostSync</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f61d30afb46f40ab0e45981af02e971" name="a1f61d30afb46f40ab0e45981af02e971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f61d30afb46f40ab0e45981af02e971">&#9670;&nbsp;</a></span>jobInternalSync</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_jobs_1_1_job_sync_id.html">Jobs::JobSyncId</a> Models::ModelContext::jobInternalSync</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae2126922f5ae32fe69c073e1cef146d3" name="ae2126922f5ae32fe69c073e1cef146d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2126922f5ae32fe69c073e1cef146d3">&#9670;&nbsp;</a></span>modelContextAllocator</h2>
 
@@ -931,7 +1138,29 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_models_1_1_model_context.html#a0af2a1a1e933560e1cf5eb3a3b677e48">ModelContext::ModelContextAllocator</a> Models::ModelContext::modelContextAllocator</td>
+          <td class="memname"><a class="el" href="class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b">ModelContext::ModelContextAllocator</a> Models::ModelContext::modelContextAllocator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa16abddf9fe159d4fddfff707511069b" name="aa16abddf9fe159d4fddfff707511069b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa16abddf9fe159d4fddfff707511069b">&#9670;&nbsp;</a></span>nodeInstances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_models_1_1_model_context_1_1_model_instance.html">ModelContext::ModelInstance</a> Models::ModelContext::nodeInstances</td>
         </tr>
       </table>
   </td>
@@ -954,7 +1183,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_model_context.html">ModelContext</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

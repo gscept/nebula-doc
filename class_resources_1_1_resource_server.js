@@ -22,7 +22,7 @@ var class_resources_1_1_resource_server =
     [ "HasPendingResources", "class_resources_1_1_resource_server.html#ab5eced425c79eb82b06162c0b85ee426", null ],
     [ "HasResource", "class_resources_1_1_resource_server.html#a6adf1a2dcc8b0ed21f2c3d4193a1bab6", null ],
     [ "LoadDefaultResources", "class_resources_1_1_resource_server.html#ac094cde9351173e2733a2a4782dd565e", null ],
-    [ "LoadFromMemory", "class_resources_1_1_resource_server.html#a4622fb363c2fbe6f27bb25fe0ccddcb5", null ],
+    [ "LoadFromMemory", "class_resources_1_1_resource_server.html#a62331a5dc1c135395812f46481d153a2", null ],
     [ "Open", "class_resources_1_1_resource_server.html#a30f2114f40617d661466a7d7d242d4d7", null ],
     [ "RegisterMemoryPool", "class_resources_1_1_resource_server.html#adf1af98a9d6d8261948643956b03835b", null ],
     [ "RegisterStreamPool", "class_resources_1_1_resource_server.html#a1d50609abfd6bab470459a5b2fcacecc", null ],
@@ -31,11 +31,11 @@ var class_resources_1_1_resource_server =
     [ "SetMaxLOD", "class_resources_1_1_resource_server.html#a73907272fe63914df15a3599a391c857", null ],
     [ "Update", "class_resources_1_1_resource_server.html#afb9e7b92a49469d46cc6d42f241b4ee9", null ],
     [ "WaitForLoaderThread", "class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602", null ],
-    [ "ResourceStreamPool", "class_resources_1_1_resource_server.html#ad2ae6090a12be2315ef13760ba2f89eb", null ],
+    [ "ResourceStreamCache", "class_resources_1_1_resource_server.html#a2179495590c69923d96886d892a2c056", null ],
     [ "extensionMap", "class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db", null ],
     [ "loaderThread", "class_resources_1_1_resource_server.html#a60bcfec99f6e7907a75274ca51fcfb25", null ],
     [ "open", "class_resources_1_1_resource_server.html#af103757f0bbaed7eb5474be356bc2f49", null ],
-    [ "pools", "class_resources_1_1_resource_server.html#a67189d8a50071845a37f8fdfdc90cc53", null ],
+    [ "pools", "class_resources_1_1_resource_server.html#a622eace5cdb0b055b004f9f2ea9be3f7", null ],
     [ "typeMap", "class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936", null ],
     [ "UniquePoolCounter", "class_resources_1_1_resource_server.html#aac79e030258d041589896f7493be54e6", null ]
 ];

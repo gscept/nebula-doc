@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ziparchive_0',['ZipArchive',['../class_i_o_1_1_zip_dir_entry.html#ab753f20188551f2384d38d68be6637e2',1,'IO::ZipDirEntry::ZipArchive()'],['../class_i_o_1_1_zip_file_entry.html#ab753f20188551f2384d38d68be6637e2',1,'IO::ZipFileEntry::ZipArchive()']]],
-  ['zipfilestream_1',['ZipFileStream',['../class_i_o_1_1_zip_archive.html#a95fe78b1cf2ff528fbeb9bbe10dfd1cc',1,'IO::ZipArchive']]],
-  ['zipfilesystem_2',['ZipFileSystem',['../class_i_o_1_1_zip_archive.html#ab107ae4397ca300ce7cfb1c031f92afc',1,'IO::ZipArchive']]]
+  ['win32ipaddress_0',['Win32IpAddress',['../class_win32_1_1_win32_socket.html#ad481c296180efbddfa17c6da6f60895f',1,'Win32::Win32Socket']]],
+  ['win32socket_1',['Win32Socket',['../class_win32_1_1_win32_ip_address.html#a4b28f81b2d1c066f7261a4b1ec94804d',1,'Win32::Win32IpAddress']]],
+  ['writer_2',['Writer',['../class_db_1_1_db_factory.html#ab699d593c3b9dee1ed8d700a93d70700',1,'Db::DbFactory::Writer()'],['../class_db_1_1_table.html#ab699d593c3b9dee1ed8d700a93d70700',1,'Db::Table::Writer()']]]
 ];

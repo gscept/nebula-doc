@@ -1,9 +1,11 @@
 var class_visibility_1_1_observer_context =
 [
+    [ "VisibilityBatchCommand", "struct_visibility_1_1_observer_context_1_1_visibility_batch_command.html", "struct_visibility_1_1_observer_context_1_1_visibility_batch_command" ],
     [ "VisibilityDrawCommand", "struct_visibility_1_1_observer_context_1_1_visibility_draw_command.html", "struct_visibility_1_1_observer_context_1_1_visibility_draw_command" ],
     [ "VisibilityDrawList", "struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html", "struct_visibility_1_1_observer_context_1_1_visibility_draw_list" ],
+    [ "VisibilityModelCommand", "struct_visibility_1_1_observer_context_1_1_visibility_model_command.html", "struct_visibility_1_1_observer_context_1_1_visibility_model_command" ],
     [ "ModelAllocId", "class_visibility_1_1_observer_context.html#a2826542dcf2bbe0eab6ce6f2f26fd534", null ],
-    [ "ObserverAllocator", "class_visibility_1_1_observer_context.html#a7f810102693fc3394b86866e14d1dd5c", null ],
+    [ "ObserverAllocator", "class_visibility_1_1_observer_context.html#abd7f299718251c203ed43b87cca801ea", null ],
     [ "VisibilityResultArray", "class_visibility_1_1_observer_context.html#a02c2e0dab20ecdae6b4a088c3f7f62de", null ],
     [ "__DeclareContext", "class_visibility_1_1_observer_context.html#a2767d302bd5c61d6df3b2fd020c7d7bc", null ],
     [ "Alloc", "class_visibility_1_1_observer_context.html#a3eb34557887055f9dea1f2b7279e5219", null ],
@@ -27,7 +29,6 @@ var class_visibility_1_1_observer_context =
     [ "jobInternalSync", "class_visibility_1_1_observer_context.html#acfc683f44641523b5154b601dd59cb89", null ],
     [ "jobInternalSync2", "class_visibility_1_1_observer_context.html#a5e9c8bed9cc87843cb9d6125dd839c96", null ],
     [ "jobInternalSync3", "class_visibility_1_1_observer_context.html#a0d101790bc437670bbec666a13059235", null ],
-    [ "jobPort", "class_visibility_1_1_observer_context.html#aeab679627ee0bdf8461feac85044a218", null ],
     [ "observerAllocator", "class_visibility_1_1_observer_context.html#af7df75d0d2d251df1852c3a40120228c", null ],
     [ "runningJobs", "class_visibility_1_1_observer_context.html#aaa9b9df2c734d0376e659734ad28c5d9", null ],
     [ "systems", "class_visibility_1_1_observer_context.html#a3b63176bdbd8f445014bd2d692a5459c", null ]

@@ -83,12 +83,12 @@ $(document).ready(function(){initNavTree('_threading.html',''); initResizable();
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title"><a class="el" href="namespace_threading.html" title="A mutex object which will assert instead of lock the thread.">Threading</a> </div></div>
+  <div class="headertitle"><div class="title"><a class="el" href="namespace_threading.html" title="The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.">Threading</a> </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="NebulaThreading"></a>
 The Threading Library</h1>
-<p ><a class="el" href="namespace_threading.html" title="A mutex object which will assert instead of lock the thread.">Threading</a> contains classes wrapping OS-specifics when it comes to threads and synchronization. To create a thread with a specific function, one must overload <a class="el" href="class_threading_1_1_thread.html">Threading::Thread</a> and implement the DoWork method. Threads also have a built-in event, which can be signaled when a thread receives work, and will otherwise wait for this event to be signaled while there is nothing to do.</p>
+<p ><a class="el" href="namespace_threading.html" title="The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.">Threading</a> contains classes wrapping OS-specifics when it comes to threads and synchronization. To create a thread with a specific function, one must overload <a class="el" href="class_threading_1_1_thread.html">Threading::Thread</a> and implement the DoWork method. Threads also have a built-in event, which can be signaled when a thread receives work, and will otherwise wait for this event to be signaled while there is nothing to do.</p>
 <p >The threading library also contains some synchronization, specifically, interlocked which is used to operate on integers atomically (that is, only one operation can happen on the integer at any one time), critical sections which is akin to a region of code which should be mutex'ed, rendezvous which is a meeting point for two threads to avoid thread dependency, and two specialized container classes, <a class="el" href="class_threading_1_1_safe_priority_queue.html" title="A thread-safe priority-sorted queue which protects itself with critical sections.">Threading::SafePriorityQueue</a> and <a class="el" href="class_threading_1_1_safe_queue.html" title="Thread-safe version of Util::Queue.">Threading::SafeQueue</a>, which can be used to thread safetly pass work to a thread.</p>
 <p >The way work is defined is completely up to the programmer, there is no built-in system for defining work. If one wants to have a look at how threads are used, one can have a peak at </p>
 </div></div><!-- contents -->
@@ -99,7 +99,7 @@ The Threading Library</h1>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

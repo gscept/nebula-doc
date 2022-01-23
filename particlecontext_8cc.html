@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('particlecontext_8cc.html',''); initRes
 <code>#include &quot;<a class="el" href="envelopesamplebuffer_8h_source.html">particles/envelopesamplebuffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cameracontext_8h_source.html">graphics/cameracontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="view_8h_source.html">graphics/view.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="particle_8h_source.html">particle.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -111,9 +112,9 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1db36c23bd8d5a3c6e7c7d8291674732"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_particles.html#a1db36c23bd8d5a3c6e7c7d8291674732">Particles::__ImplementContext</a> (<a class="el" href="class_particles_1_1_particle_context.html">ParticleContext</a>, ParticleContext::particleContextAllocator)</td></tr>
 <tr class="separator:a1db36c23bd8d5a3c6e7c7d8291674732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e711fad3a1e5ae93dbce002711465f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_particles.html#a62e711fad3a1e5ae93dbce002711465f">Particles::ParticleStepJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:a62e711fad3a1e5ae93dbce002711465f"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: JobStepAndVlist does the same as JobStep, but it also generates the vertex list.  <a href="namespace_particles.html#a62e711fad3a1e5ae93dbce002711465f">More...</a><br /></td></tr>
-<tr class="separator:a62e711fad3a1e5ae93dbce002711465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25292140df89ba68be7e72a9d3676abf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_particles.html#a25292140df89ba68be7e72a9d3676abf">Particles::JobStep</a> (const ParticleJobUniformData *perSystemUniforms, const float stepTime, unsigned int numParticles, const Particle *particles_input, Particle *particles_output, ParticleJobSliceOutputData *sliceOutput)</td></tr>
+<tr class="memdesc:a25292140df89ba68be7e72a9d3676abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">update particle system step  <a href="namespace_particles.html#a25292140df89ba68be7e72a9d3676abf">More...</a><br /></td></tr>
+<tr class="separator:a25292140df89ba68be7e72a9d3676abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -142,6 +143,8 @@ Variables</h2></td></tr>
 <tr class="separator:a427edbf91e44c84368b948579964f635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a954c0cdb2a7db84a7b1e19c86ce6c9a2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;&#160;&#160;<a class="el" href="namespace_particles.html#a61628fb050f081bc95c83635c38d0876">Particles::layout</a></td></tr>
 <tr class="separator:a954c0cdb2a7db84a7b1e19c86ce6c9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d5e2cfd75ef834ea345abfbdcb6842"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&#160;&#160;&#160;<a class="el" href="namespace_particles.html#aea46a9d16799861c566d261aea1af430">Particles::primGroup</a></td></tr>
+<tr class="separator:a63d5e2cfd75ef834ea345abfbdcb6842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabf213f4aa27a464816d5d90875b9986"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_particles.html#aabf213f4aa27a464816d5d90875b9986">Particles::state</a></td></tr>
 <tr class="separator:aabf213f4aa27a464816d5d90875b9986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -152,7 +155,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_6a45671fc6fac75fb76a42ab672583e8.html">particles</a></li><li class="navelem"><a class="el" href="particlecontext_8cc.html">particlecontext.cc</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -9,8 +9,6 @@ var charactercontext_8h =
       [ "IgnoreIfSame", "charactercontext_8h.html#ae4ad265a7161cf04bbaee511c95ae613ad341542e1f38c5e70845977233564931", null ]
     ] ],
     [ "__ImplementEnumBitOperators", "charactercontext_8h.html#ac596dc49035c05e3bac610c45a430a84", null ],
-    [ "AnimSampleJob", "charactercontext_8h.html#aab16d1cedd3a2a954672e37300b698c6", null ],
-    [ "AnimSampleJobWithMix", "charactercontext_8h.html#ac2e7f94c3ffa0bed5a77e2d76a7efbbc", null ],
-    [ "SkeletonEvalJob", "charactercontext_8h.html#acfe1e8a92aa9e0a13a82535b3ac773cd", null ],
-    [ "SkeletonEvalJobWithVariation", "charactercontext_8h.html#a838bbd980615c0dca622792b6a6edbd4", null ]
+    [ "AnimSampleJob", "charactercontext_8h.html#a3e619473c2bc48174a51d963be0838bb", null ],
+    [ "AnimSampleJobWithMix", "charactercontext_8h.html#a62b466068b71a1a9af785b997e099a40", null ]
 ];

@@ -3,7 +3,7 @@ var class_particles_1_1_particle_context =
     [ "ParticleJobOutput", "struct_particles_1_1_particle_context_1_1_particle_job_output.html", "struct_particles_1_1_particle_context_1_1_particle_job_output" ],
     [ "ParticleRuntime", "struct_particles_1_1_particle_context_1_1_particle_runtime.html", "struct_particles_1_1_particle_context_1_1_particle_runtime" ],
     [ "ParticleSystemRuntime", "struct_particles_1_1_particle_context_1_1_particle_system_runtime.html", "struct_particles_1_1_particle_context_1_1_particle_system_runtime" ],
-    [ "ParticleContextAllocator", "class_particles_1_1_particle_context.html#a6d1387e2d5f7e7eedf9d4b97ef53d2d7", null ],
+    [ "ParticleContextAllocator", "class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb", null ],
     [ "PlayMode", "class_particles_1_1_particle_context.html#aa87312d492932b13f5658631fb5edc42", [
       [ "RestartIfPlaying", "class_particles_1_1_particle_context.html#aa87312d492932b13f5658631fb5edc42a30997c41c791557389798589614c8f53", null ],
       [ "IgnoreIfPlaying", "class_particles_1_1_particle_context.html#aa87312d492932b13f5658631fb5edc42a10a095f239902af7aecbaa483c76ffc0", null ]
@@ -15,9 +15,9 @@ var class_particles_1_1_particle_context =
     [ "Create", "class_particles_1_1_particle_context.html#a166e3a1ebb60ed851f895d4c0d5aaa18", null ],
     [ "Dealloc", "class_particles_1_1_particle_context.html#adb9fb44eead6fab0a87b3373da3e1f10", null ],
     [ "EmitParticle", "class_particles_1_1_particle_context.html#a34491a5c41172deb8e01e575a1373e73", null ],
-    [ "EmitParticles", "class_particles_1_1_particle_context.html#a61d6f4f5ca6aa986d262a7607f2d8f75", null ],
-    [ "GetBoundingBox", "class_particles_1_1_particle_context.html#a6f9ee0ec223eb8b1b7ec284ae33c093b", null ],
+    [ "EmitParticles", "class_particles_1_1_particle_context.html#a439aa9f6d5969648308b8bc6e2276325", null ],
     [ "GetParticleIndexBuffer", "class_particles_1_1_particle_context.html#ac1caf35480135bd9bd1968f835e4a227", null ],
+    [ "GetParticlePrimitiveGroup", "class_particles_1_1_particle_context.html#affac600aa36ea35cbe30d62d30e70b81", null ],
     [ "GetParticleVertexBuffer", "class_particles_1_1_particle_context.html#a8c1b78123a06dc4773730e1c0263fd7f", null ],
     [ "GetParticleVertexLayout", "class_particles_1_1_particle_context.html#a6e185a4fece32ac18403e7bd7c2a4e74", null ],
     [ "HideParticle", "class_particles_1_1_particle_context.html#a696eeeba6ca677d6122b66c495816cf9", null ],
@@ -31,8 +31,9 @@ var class_particles_1_1_particle_context =
     [ "UpdateParticles", "class_particles_1_1_particle_context.html#aba9c9d7679d646a2576386c73399f673", null ],
     [ "WaitForParticleUpdates", "class_particles_1_1_particle_context.html#a7410065fd7b3c2bac29c77617923b36e", null ],
     [ "DefaultEmitterMesh", "class_particles_1_1_particle_context.html#a654189a239fb09df20091a57ee5109ab", null ],
-    [ "jobPort", "class_particles_1_1_particle_context.html#a6a657e780168c28332fc1a2f8ad856ea", null ],
     [ "jobSync", "class_particles_1_1_particle_context.html#a9f1e3164e2a8f80cf16926bfc522cc11", null ],
     [ "particleContextAllocator", "class_particles_1_1_particle_context.html#a59fe7110ee2b1b1aca1f05f9b11c2e48", null ],
-    [ "runningJobs", "class_particles_1_1_particle_context.html#a56de979056c2aadd068efa611c7e6190", null ]
+    [ "runningJobs", "class_particles_1_1_particle_context.html#ad3665e0ae35ff4869e355e6bf8e04bd4", null ],
+    [ "totalCompletionCounter", "class_particles_1_1_particle_context.html#afbb27fc5279345d05d29e181b64317df", null ],
+    [ "totalCompletionEvent", "class_particles_1_1_particle_context.html#ac09fdb758d011abb450f47982bab6ab8", null ]
 ];

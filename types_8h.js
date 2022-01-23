@@ -29,8 +29,11 @@ var types_8h =
     [ "uintptr", "types_8h.html#a631c001c11634d6af7cf160a8edf8332", null ],
     [ "ulong", "types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a", null ],
     [ "ushort", "types_8h.html#ab95f123a6c9bcfee6a343170ef8c5f69", null ],
-    [ "CheckBits", "types_8h.html#a634e6a274e41f16ba8005c7e943d4dc0", null ],
+    [ "AllBits", "types_8h.html#a21bb4e90f82876f231b432e8ed120286", null ],
+    [ "AnyBits", "types_8h.html#a805e0e55585e7fd25eae21f3786987e1", null ],
     [ "operator\"\"_KB", "types_8h.html#ac00d747e0e445fefc313e3bf783badb9", null ],
     [ "operator\"\"_MB", "types_8h.html#acb7afe54c4690caf9479b8f6ebe4c7d6", null ],
+    [ "SetBits", "types_8h.html#aaeb7b97d540dadc3abe56ce29ab98df0", null ],
+    [ "UnsetBits", "types_8h.html#a27da1e5a3e1b2fa04f886780221f43db", null ],
     [ "InvalidIndex", "types_8h.html#a3e2ae2e8cd04c212563dafc16149995c", null ]
 ];

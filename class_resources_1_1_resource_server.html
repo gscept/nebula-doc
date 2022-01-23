@@ -147,9 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cae2348dccc9fa5ce6395197b022cf0"><td class="memItemLeft" align="right" valign="top">Resources::ResourceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a3cae2348dccc9fa5ce6395197b022cf0">ReserveResource</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;res, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;type)</td></tr>
 <tr class="memdesc:a3cae2348dccc9fa5ce6395197b022cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve resource (for self-managed resources)  <a href="class_resources_1_1_resource_server.html#a3cae2348dccc9fa5ce6395197b022cf0">More...</a><br /></td></tr>
 <tr class="separator:a3cae2348dccc9fa5ce6395197b022cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4622fb363c2fbe6f27bb25fe0ccddcb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource_pool.html#a5acc83de407d577005176fbfe34a8fc6">ResourcePool::LoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a4622fb363c2fbe6f27bb25fe0ccddcb5">LoadFromMemory</a> (const Resources::ResourceId id, void *info)</td></tr>
-<tr class="memdesc:a4622fb363c2fbe6f27bb25fe0ccddcb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">update resource (for self-managed resources), info pointer is a struct specific to the loader  <a href="class_resources_1_1_resource_server.html#a4622fb363c2fbe6f27bb25fe0ccddcb5">More...</a><br /></td></tr>
-<tr class="separator:a4622fb363c2fbe6f27bb25fe0ccddcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62331a5dc1c135395812f46481d153a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource_cache.html#afcef2fddfba7a4d91ffeaa3736688003">ResourceCache::LoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a62331a5dc1c135395812f46481d153a2">LoadFromMemory</a> (const Resources::ResourceId id, void *info)</td></tr>
+<tr class="memdesc:a62331a5dc1c135395812f46481d153a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">update resource (for self-managed resources), info pointer is a struct specific to the loader  <a href="class_resources_1_1_resource_server.html#a62331a5dc1c135395812f46481d153a2">More...</a><br /></td></tr>
+<tr class="separator:a62331a5dc1c135395812f46481d153a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812b97aba4e7f11a0b2167bb093f320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a">GetType</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a812b97aba4e7f11a0b2167bb093f320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of resource pool this resource was allocated with  <a href="class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a">More...</a><br /></td></tr>
 <tr class="separator:a812b97aba4e7f11a0b2167bb093f320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,8 +246,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a40762645307c2480489f0f9cc47c69db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447f36779bdc5b450bc915b72e81e936"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936">typeMap</a></td></tr>
 <tr class="separator:a447f36779bdc5b450bc915b72e81e936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67189d8a50071845a37f8fdfdc90cc53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_pool.html">ResourcePool</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a67189d8a50071845a37f8fdfdc90cc53">pools</a></td></tr>
-<tr class="separator:a67189d8a50071845a37f8fdfdc90cc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a622eace5cdb0b055b004f9f2ea9be3f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_cache.html">ResourceCache</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a622eace5cdb0b055b004f9f2ea9be3f7">pools</a></td></tr>
+<tr class="separator:a622eace5cdb0b055b004f9f2ea9be3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -256,8 +256,8 @@ Static Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ad2ae6090a12be2315ef13760ba2f89eb"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#ad2ae6090a12be2315ef13760ba2f89eb">ResourceStreamPool</a></td></tr>
-<tr class="separator:ad2ae6090a12be2315ef13760ba2f89eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2179495590c69923d96886d892a2c056"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a2179495590c69923d96886d892a2c056">ResourceStreamCache</a></td></tr>
+<tr class="separator:a2179495590c69923d96886d892a2c056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -946,8 +946,8 @@ template&lt;class POOL_TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a4622fb363c2fbe6f27bb25fe0ccddcb5" name="a4622fb363c2fbe6f27bb25fe0ccddcb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4622fb363c2fbe6f27bb25fe0ccddcb5">&#9670;&nbsp;</a></span>LoadFromMemory()</h2>
+<a id="a62331a5dc1c135395812f46481d153a2" name="a62331a5dc1c135395812f46481d153a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62331a5dc1c135395812f46481d153a2">&#9670;&nbsp;</a></span>LoadFromMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -956,7 +956,7 @@ template&lt;class POOL_TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_resources_1_1_resource_pool.html#a5acc83de407d577005176fbfe34a8fc6">Resources::ResourcePool::LoadStatus</a> Resources::ResourceServer::LoadFromMemory </td>
+          <td class="memname"><a class="el" href="class_resources_1_1_resource_cache.html#afcef2fddfba7a4d91ffeaa3736688003">Resources::ResourceCache::LoadStatus</a> Resources::ResourceServer::LoadFromMemory </td>
           <td>(</td>
           <td class="paramtype">const Resources::ResourceId&#160;</td>
           <td class="paramname"><em>id</em>, </td>
@@ -1229,8 +1229,8 @@ template&lt;class POOL_TYPE &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ad2ae6090a12be2315ef13760ba2f89eb" name="ad2ae6090a12be2315ef13760ba2f89eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2ae6090a12be2315ef13760ba2f89eb">&#9670;&nbsp;</a></span>ResourceStreamPool</h2>
+<a id="a2179495590c69923d96886d892a2c056" name="a2179495590c69923d96886d892a2c056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2179495590c69923d96886d892a2c056">&#9670;&nbsp;</a></span>ResourceStreamCache</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,7 +1239,7 @@ template&lt;class POOL_TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="class_resources_1_1_resource_stream_pool.html">ResourceStreamPool</a></td>
+          <td class="memname">friend class <a class="el" href="class_resources_1_1_resource_stream_cache.html">ResourceStreamCache</a></td>
         </tr>
       </table>
   </td>
@@ -1318,8 +1318,8 @@ template&lt;class POOL_TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a67189d8a50071845a37f8fdfdc90cc53" name="a67189d8a50071845a37f8fdfdc90cc53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67189d8a50071845a37f8fdfdc90cc53">&#9670;&nbsp;</a></span>pools</h2>
+<a id="a622eace5cdb0b055b004f9f2ea9be3f7" name="a622eace5cdb0b055b004f9f2ea9be3f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622eace5cdb0b055b004f9f2ea9be3f7">&#9670;&nbsp;</a></span>pools</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1328,7 +1328,7 @@ template&lt;class POOL_TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_resources_1_1_resource_pool.html">ResourcePool</a>&gt; &gt; Resources::ResourceServer::pools</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_resources_1_1_resource_cache.html">ResourceCache</a>&gt; &gt; Resources::ResourceServer::pools</td>
         </tr>
       </table>
   </td>
@@ -1395,7 +1395,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></li>
 				<li class="footer">
-					Generated on Thu Dec 30 2021 15:34:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 23 2022 20:03:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
