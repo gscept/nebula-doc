@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"vktexture_8cc.html#a15ed6c16c97ef50b2f7b60487c3076b2":[10,0,0,6,5,5,64,7],
 "vktexture_8cc.html#a27baad399460f60f602b28b165eeb3d1":[10,0,0,6,5,5,64,3],
 "vktexture_8cc.html#a45c897d616f49a207905aa9a7a0d6a12":[10,0,0,6,5,5,64,6],
 "vktexture_8cc.html#a7c03b485da68cac4ec979432fba840b6":[10,0,0,6,5,5,64,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "win32socket_8h_source.html":[10,0,0,3,15,3,3],
 "win32stacktrace_8cc.html":[10,0,0,3,2,0,2],
 "win32stacktrace_8h.html":[10,0,0,3,2,0,3],
-"win32stacktrace_8h_source.html":[10,0,0,3,2,0,3],
-"win32stringconverter_8cc.html":[10,0,0,3,20,2,2]
+"win32stacktrace_8h_source.html":[10,0,0,3,2,0,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"semaphore_8h.html":[10,0,0,6,5,60],
 "semaphore_8h.html#a35906dd397d2f2fbfd9d5c2a8e616063":[10,0,0,6,5,60,7],
 "semaphore_8h.html#a3a128f54b11ec7120998bd86cd5d00e7":[10,0,0,6,5,60,5],
 "semaphore_8h.html#a71293294f9b404ef01128ff920266f32":[10,0,0,6,5,60,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "shadersemantics_8h.html#ae9957066f851f78f0f3ab1de42596fdb":[10,0,0,6,5,71,126],
 "shadersemantics_8h.html#aeb3dc6e3b712b5fd2a2afca3dde45450":[10,0,0,6,5,71,59],
 "shadersemantics_8h.html#aeb7a6df09a88506708062e123a8668b8":[10,0,0,6,5,71,85],
-"shadersemantics_8h.html#aec4e8add0d011da1ba49cf553726096c":[10,0,0,6,5,71,119],
-"shadersemantics_8h.html#aee0810d52c8749fdc65996c2fdb00bb8":[10,0,0,6,5,71,70]
+"shadersemantics_8h.html#aec4e8add0d011da1ba49cf553726096c":[10,0,0,6,5,71,119]
 };

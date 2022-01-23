@@ -18,6 +18,7 @@ var posixmemory_8h =
     [ "GetTotalMemoryStatus", "posixmemory_8h.html#a05533d2c6154b45946e2e915fdcbb173", null ],
     [ "IsOverlapping", "posixmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
     [ "Move", "posixmemory_8h.html#a1103820d68788c85bbb28a62e05d99e2", null ],
+    [ "MoveElements", "posixmemory_8h.html#a93f89988ee4e0842958f8c0c4210e179", null ],
     [ "operator delete", "posixmemory_8h.html#a8f43953b30d0ace75cfb92c2d53a1911", null ],
     [ "operator delete[]", "posixmemory_8h.html#a5aa23dd449b34b6db0f98656d561a9f2", null ],
     [ "operator new", "posixmemory_8h.html#aa513b5f131e3db41c860c4b9cf7c95c7", null ],
