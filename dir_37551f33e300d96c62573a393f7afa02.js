@@ -108,8 +108,6 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "shaderidentifier.h", "shaderidentifier_8h.html", [
       [ "CoreGraphics::ShaderIdentifier", "class_core_graphics_1_1_shader_identifier.html", "class_core_graphics_1_1_shader_identifier" ]
     ] ],
-    [ "shaderpool.cc", "shaderpool_8cc.html", null ],
-    [ "shaderpool.h", "shaderpool_8h.html", null ],
     [ "shadersemantics.h", "shadersemantics_8h.html", "shadersemantics_8h" ],
     [ "shaderserver.cc", "shaderserver_8cc.html", null ],
     [ "shaderserver.h", "shaderserver_8h.html", null ],
