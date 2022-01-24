@@ -2,7 +2,7 @@ var class_characters_1_1_character_context =
 [
     [ "AnimationRuntime", "struct_characters_1_1_character_context_1_1_animation_runtime.html", "struct_characters_1_1_character_context_1_1_animation_runtime" ],
     [ "AnimationTracks", "struct_characters_1_1_character_context_1_1_animation_tracks.html", "struct_characters_1_1_character_context_1_1_animation_tracks" ],
-    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55", null ],
+    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9", null ],
     [ "LoadState", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb", [
       [ "NoneLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebac15cc1516221b5e23d83322f7bd846e2", null ],
       [ "SkeletonLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebaa18b4161fb3a459e6d98bfbc33e1cd56", null ],
@@ -26,11 +26,13 @@ var class_characters_1_1_character_context =
     [ "Seek", "class_characters_1_1_character_context.html#a7105ed5b6c10b31d607930304bb058a7", null ],
     [ "SetTrackTimeFactor", "class_characters_1_1_character_context.html#a575a32e320fd01998c9ad9d0c487cce1", null ],
     [ "SetTrackWeight", "class_characters_1_1_character_context.html#a182dbf1f68f7b4f18f4168c76a310888", null ],
-    [ "Setup", "class_characters_1_1_character_context.html#ae0cc7937063be4cb3ebe192179203b78", null ],
+    [ "Setup", "class_characters_1_1_character_context.html#ae917d1a01446b0586ca0bcba4e338948", null ],
     [ "StopAllTracks", "class_characters_1_1_character_context.html#aa74e38fe8676fcc89b4050bf663d38d1", null ],
     [ "StopTrack", "class_characters_1_1_character_context.html#a8e56a8ce9e29a0225063fd8724793d88", null ],
     [ "UpdateAnimations", "class_characters_1_1_character_context.html#afdd5d688933e5e7ce92e22c55e241be0", null ],
     [ "WaitForCharacterJobs", "class_characters_1_1_character_context.html#a98c3e51ac4da5394a05d82e4d60f4619", null ],
+    [ "CharacterJobContext", "class_characters_1_1_character_context.html#aecb470c75c5fbb28804ffede7b3beab7", null ],
+    [ "EvalCharacter", "class_characters_1_1_character_context.html#a8bbc1e898b295fb4fc0494541a47c914", null ],
     [ "GetAbsoluteStopTime", "class_characters_1_1_character_context.html#a32cbdfefbc40856b67df68c7fcba8475", null ],
     [ "IsExpired", "class_characters_1_1_character_context.html#a42d551a91019c011d168dbf5f51fead1", null ],
     [ "IsInfinite", "class_characters_1_1_character_context.html#ac4e6e53b281c5f1de7d1f59a61a366c7", null ],

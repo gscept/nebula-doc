@@ -92,6 +92,7 @@ var annotated_dup =
     ] ],
     [ "Characters", "namespace_characters.html", [
       [ "CharacterContext", "class_characters_1_1_character_context.html", "class_characters_1_1_character_context" ],
+      [ "CharacterJobContext", "struct_characters_1_1_character_job_context.html", "struct_characters_1_1_character_job_context" ],
       [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
       [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
       [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],

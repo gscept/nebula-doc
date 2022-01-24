@@ -107,6 +107,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html">CharacterContext</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assumes control over the character animation functionalities of a model if it contains a character definition and an animation set.  <a href="class_characters_1_1_character_context.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_characters_1_1_character_job_context.html">CharacterJobContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_characters_1_1_character_joint.html">CharacterJoint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_characters_1_1_nsk3_header.html">Nsk3Header</a></td></tr>
@@ -145,6 +147,8 @@ Functions</h2></td></tr>
 <tr class="separator:a34affec1c456d2bd96ce2d7debe4f2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e80b2d8993ce540b525aa8e7c7390a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#a21e80b2d8993ce540b525aa8e7c7390a">GetAbsoluteStopTime</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="separator:a21e80b2d8993ce540b525aa8e7c7390a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac883e3ed3ac83bd705ce8f00b014fdf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#ac883e3ed3ac83bd705ce8f00b014fdf7">EvalCharacter</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
+<tr class="separator:ac883e3ed3ac83bd705ce8f00b014fdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac596dc49035c05e3bac610c45a430a84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#ac596dc49035c05e3bac610c45a430a84">__ImplementEnumBitOperators</a> (<a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">CharacterContext::LoadState</a>)</td></tr>
 <tr class="separator:ac596dc49035c05e3bac610c45a430a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad5922be3e4c9255b9fa48fbd14c41b5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#aad5922be3e4c9255b9fa48fbd14c41b5">CreateSkeleton</a> (const <a class="el" href="struct_resource_create_info.html">ResourceCreateInfo</a> &amp;info)</td></tr>
@@ -345,6 +349,52 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>discard model (resource) </p>
+
+</div>
+</div>
+<a id="ac883e3ed3ac83bd705ce8f00b014fdf7" name="ac883e3ed3ac83bd705ce8f00b014fdf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac883e3ed3ac83bd705ce8f00b014fdf7">&#9670;&nbsp;</a></span>EvalCharacter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::EvalCharacter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>totalJobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>groupIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>invocationOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -590,7 +640,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_characters.html">Characters</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 11:13:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 13:02:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

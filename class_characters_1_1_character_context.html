@@ -144,9 +144,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fdde31351ad8728d122d7f4079a30b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a7fdde31351ad8728d122d7f4079a30b9">Create</a> ()</td></tr>
 <tr class="memdesc:a7fdde31351ad8728d122d7f4079a30b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context  <a href="class_characters_1_1_character_context.html#a7fdde31351ad8728d122d7f4079a30b9">More...</a><br /></td></tr>
 <tr class="separator:a7fdde31351ad8728d122d7f4079a30b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cc7937063be4cb3ebe192179203b78"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ae0cc7937063be4cb3ebe192179203b78">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;skeleton, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;animation, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
-<tr class="memdesc:ae0cc7937063be4cb3ebe192179203b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context, assumes there is already a model attached, by loading a skeleton and animation resource  <a href="class_characters_1_1_character_context.html#ae0cc7937063be4cb3ebe192179203b78">More...</a><br /></td></tr>
-<tr class="separator:ae0cc7937063be4cb3ebe192179203b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae917d1a01446b0586ca0bcba4e338948"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ae917d1a01446b0586ca0bcba4e338948">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;skeleton, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;animation, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, bool supportBlending=true)</td></tr>
+<tr class="memdesc:ae917d1a01446b0586ca0bcba4e338948"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context, assumes there is already a model attached, by loading a skeleton and animation resource  <a href="class_characters_1_1_character_context.html#ae917d1a01446b0586ca0bcba4e338948">More...</a><br /></td></tr>
+<tr class="separator:ae917d1a01446b0586ca0bcba4e338948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a2d4fde28eef44bc280395b36ccbb7e1e">GetClipIndex</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a clip name lookup  <a href="class_characters_1_1_character_context.html#a2d4fde28eef44bc280395b36ccbb7e1e">More...</a><br /></td></tr>
 <tr class="separator:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,13 +211,15 @@ Private Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a90250602d7bc2733fc81dff4666acf57">JobJoints</a>
 , <a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a17cd278d72476cdb5c54682972df6c55">SampleBuffer</a>
+, <a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a9ace58e831075c875512f01458fe32ae">SupportMix</a>
 , <a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a86d83650a14f6100a43db9edde7b4ec0">EntityId</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a6ba4add372091ddc5e45c7fe1c65790a">CharacterSkinNodeIndex</a>
+, <br />
+&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ad614bc3f254017ca76e1e4f296e290f2a477eef3d41f4c395d6f33df135ec6680">CharacterSkinNodeIndexOffset</a>
 <br />
  }</td></tr>
 <tr class="separator:ad614bc3f254017ca76e1e4f296e290f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b82897947014bbebfba1959ce0f1b55"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">Characters::SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55">CharacterContextAllocator</a></td></tr>
-<tr class="separator:a4b82897947014bbebfba1959ce0f1b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c6a6b0b249189a0a8902a4788fccf9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">Characters::SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9">CharacterContextAllocator</a></td></tr>
+<tr class="separator:a40c6a6b0b249189a0a8902a4788fccf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -237,7 +239,7 @@ Static Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ae9496d1464044413ee22950ba04486a5"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ae9496d1464044413ee22950ba04486a5">MaxNumTracks</a> = 16</td></tr>
 <tr class="separator:ae9496d1464044413ee22950ba04486a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55">CharacterContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
+<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9">CharacterContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
 <tr class="separator:ad07008288699f3dc7db1ea0dc56cc541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0bc98d532605879aa9d3d3a4651cdf9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9">masks</a></td></tr>
 <tr class="separator:ab0bc98d532605879aa9d3d3a4651cdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,12 +250,16 @@ Static Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:aecb470c75c5fbb28804ffede7b3beab7"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#aecb470c75c5fbb28804ffede7b3beab7">CharacterJobContext</a></td></tr>
+<tr class="separator:aecb470c75c5fbb28804ffede7b3beab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d551a91019c011d168dbf5f51fead1"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a42d551a91019c011d168dbf5f51fead1">IsExpired</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time)</td></tr>
 <tr class="separator:a42d551a91019c011d168dbf5f51fead1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e6e53b281c5f1de7d1f59a61a366c7"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ac4e6e53b281c5f1de7d1f59a61a366c7">IsInfinite</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="separator:ac4e6e53b281c5f1de7d1f59a61a366c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32cbdfefbc40856b67df68c7fcba8475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a32cbdfefbc40856b67df68c7fcba8475">GetAbsoluteStopTime</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="separator:a32cbdfefbc40856b67df68c7fcba8475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbc1e898b295fb4fc0494541a47c914"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a8bbc1e898b295fb4fc0494541a47c914">EvalCharacter</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
+<tr class="separator:a8bbc1e898b295fb4fc0494541a47c914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -267,8 +273,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a4b82897947014bbebfba1959ce0f1b55" name="a4b82897947014bbebfba1959ce0f1b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b82897947014bbebfba1959ce0f1b55">&#9670;&nbsp;</a></span>CharacterContextAllocator</h2>
+<a id="a40c6a6b0b249189a0a8902a4788fccf9" name="a40c6a6b0b249189a0a8902a4788fccf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c6a6b0b249189a0a8902a4788fccf9">&#9670;&nbsp;</a></span>CharacterContextAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">Characters::SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55">Characters::CharacterContext::CharacterContextAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">Characters::SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9">Characters::CharacterContext::CharacterContextAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -320,8 +326,9 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a6e359078d1ac22154c61cbc9cc852927" name="ad614bc3f254017ca76e1e4f296e290f2a6e359078d1ac22154c61cbc9cc852927"></a>UserControlledJoint&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a90250602d7bc2733fc81dff4666acf57" name="ad614bc3f254017ca76e1e4f296e290f2a90250602d7bc2733fc81dff4666acf57"></a>JobJoints&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a17cd278d72476cdb5c54682972df6c55" name="ad614bc3f254017ca76e1e4f296e290f2a17cd278d72476cdb5c54682972df6c55"></a>SampleBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a9ace58e831075c875512f01458fe32ae" name="ad614bc3f254017ca76e1e4f296e290f2a9ace58e831075c875512f01458fe32ae"></a>SupportMix&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a86d83650a14f6100a43db9edde7b4ec0" name="ad614bc3f254017ca76e1e4f296e290f2a86d83650a14f6100a43db9edde7b4ec0"></a>EntityId&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a6ba4add372091ddc5e45c7fe1c65790a" name="ad614bc3f254017ca76e1e4f296e290f2a6ba4add372091ddc5e45c7fe1c65790a"></a>CharacterSkinNodeIndex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad614bc3f254017ca76e1e4f296e290f2a477eef3d41f4c395d6f33df135ec6680" name="ad614bc3f254017ca76e1e4f296e290f2a477eef3d41f4c395d6f33df135ec6680"></a>CharacterSkinNodeIndexOffset&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -988,8 +995,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae0cc7937063be4cb3ebe192179203b78" name="ae0cc7937063be4cb3ebe192179203b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cc7937063be4cb3ebe192179203b78">&#9670;&nbsp;</a></span>Setup()</h2>
+<a id="ae917d1a01446b0586ca0bcba4e338948" name="ae917d1a01446b0586ca0bcba4e338948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae917d1a01446b0586ca0bcba4e338948">&#9670;&nbsp;</a></span>Setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1019,7 +1026,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em>&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>supportBlending</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1161,6 +1174,82 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aecb470c75c5fbb28804ffede7b3beab7" name="aecb470c75c5fbb28804ffede7b3beab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb470c75c5fbb28804ffede7b3beab7">&#9670;&nbsp;</a></span>CharacterJobContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct <a class="el" href="struct_characters_1_1_character_job_context.html">CharacterJobContext</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bbc1e898b295fb4fc0494541a47c914" name="a8bbc1e898b295fb4fc0494541a47c914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbc1e898b295fb4fc0494541a47c914">&#9670;&nbsp;</a></span>EvalCharacter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EvalCharacter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>totalJobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>groupIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>invocationOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a32cbdfefbc40856b67df68c7fcba8475" name="a32cbdfefbc40856b67df68c7fcba8475"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32cbdfefbc40856b67df68c7fcba8475">&#9670;&nbsp;</a></span>GetAbsoluteStopTime</h2>
 
@@ -1260,7 +1349,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_characters_1_1_character_context.html#a4b82897947014bbebfba1959ce0f1b55">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
+          <td class="memname"><a class="el" href="class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
         </tr>
       </table>
   </td>
@@ -1371,7 +1460,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_characters.html">Characters</a></li><li class="navelem"><a class="el" href="class_characters_1_1_character_context.html">CharacterContext</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 11:13:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 13:02:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

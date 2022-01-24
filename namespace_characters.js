@@ -1,6 +1,7 @@
 var namespace_characters =
 [
     [ "CharacterContext", "class_characters_1_1_character_context.html", "class_characters_1_1_character_context" ],
+    [ "CharacterJobContext", "struct_characters_1_1_character_job_context.html", "struct_characters_1_1_character_job_context" ],
     [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
     [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
     [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
@@ -18,6 +19,7 @@ var namespace_characters =
     [ "ClampKeyIndex", "namespace_characters.html#a7f4600aa78eea3c58590b4e03f0da7ca", null ],
     [ "CreateSkeleton", "namespace_characters.html#aad5922be3e4c9255b9fa48fbd14c41b5", null ],
     [ "DestroySkeleton", "namespace_characters.html#ad6bbec5c5582bd44ff0825bcdaf6c21a", null ],
+    [ "EvalCharacter", "namespace_characters.html#ac883e3ed3ac83bd705ce8f00b014fdf7", null ],
     [ "GetAbsoluteStopTime", "namespace_characters.html#a21e80b2d8993ce540b525aa8e7c7390a", null ],
     [ "InbetweenTicks", "namespace_characters.html#a5f3b2266e4a94154582898eac1a763d1", null ],
     [ "IsExpired", "namespace_characters.html#a22c6edfca5da8858300b143216009e1a", null ],
