@@ -22,13 +22,14 @@ var searchData=
   ['graphicscontextstate_19',['GraphicsContextState',['../struct_graphics_1_1_graphics_context_state.html',1,'Graphics']]],
   ['graphicsdevicecreateinfo_20',['GraphicsDeviceCreateInfo',['../struct_core_graphics_1_1_graphics_device_create_info.html',1,'CoreGraphics']]],
   ['graphicsdevicestate_21',['GraphicsDeviceState',['../struct_core_graphics_1_1_graphics_device_state.html',1,'CoreGraphics::GraphicsDeviceState'],['../struct_vulkan_1_1_graphics_device_state.html',1,'Vulkan::GraphicsDeviceState']]],
-  ['graphicsentityid_22',['GraphicsEntityId',['../struct_graphics_1_1_graphics_entity_id.html',1,'Graphics']]],
-  ['graphicsfeatureunit_23',['GraphicsFeatureUnit',['../class_graphics_feature_1_1_graphics_feature_unit.html',1,'GraphicsFeature']]],
-  ['graphicsmanager_24',['GraphicsManager',['../class_graphics_feature_1_1_graphics_manager.html',1,'GraphicsFeature']]],
-  ['graphicsserver_25',['GraphicsServer',['../class_graphics_1_1_graphics_server.html',1,'Graphics']]],
-  ['grassvertex_26',['GrassVertex',['../struct_vegetation_1_1_grass_vertex.html',1,'Vegetation']]],
-  ['guid_27',['Guid',['../class_util_1_1_guid.html',1,'']]],
-  ['guidarraytypeclass_28',['GuidArrayTypeClass',['../class_attr_1_1_guid_array_type_class.html',1,'Attr']]],
-  ['guidattrid_29',['GuidAttrId',['../class_attr_1_1_guid_attr_id.html',1,'Attr']]],
-  ['guidtypeclass_30',['GuidTypeClass',['../class_attr_1_1_guid_type_class.html',1,'Attr']]]
+  ['graphicsdevicethreadstate_22',['GraphicsDeviceThreadState',['../struct_core_graphics_1_1_graphics_device_thread_state.html',1,'CoreGraphics::GraphicsDeviceThreadState'],['../struct_vulkan_1_1_graphics_device_thread_state.html',1,'Vulkan::GraphicsDeviceThreadState']]],
+  ['graphicsentityid_23',['GraphicsEntityId',['../struct_graphics_1_1_graphics_entity_id.html',1,'Graphics']]],
+  ['graphicsfeatureunit_24',['GraphicsFeatureUnit',['../class_graphics_feature_1_1_graphics_feature_unit.html',1,'GraphicsFeature']]],
+  ['graphicsmanager_25',['GraphicsManager',['../class_graphics_feature_1_1_graphics_manager.html',1,'GraphicsFeature']]],
+  ['graphicsserver_26',['GraphicsServer',['../class_graphics_1_1_graphics_server.html',1,'Graphics']]],
+  ['grassvertex_27',['GrassVertex',['../struct_vegetation_1_1_grass_vertex.html',1,'Vegetation']]],
+  ['guid_28',['Guid',['../class_util_1_1_guid.html',1,'']]],
+  ['guidarraytypeclass_29',['GuidArrayTypeClass',['../class_attr_1_1_guid_array_type_class.html',1,'Attr']]],
+  ['guidattrid_30',['GuidAttrId',['../class_attr_1_1_guid_attr_id.html',1,'Attr']]],
+  ['guidtypeclass_31',['GuidTypeClass',['../class_attr_1_1_guid_type_class.html',1,'Attr']]]
 ];

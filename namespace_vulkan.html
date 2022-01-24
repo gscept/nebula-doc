@@ -167,6 +167,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_thread_state.html">GraphicsDeviceThreadState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_texture_sparse_page_table.html">TextureSparsePageTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_tick_parameters_context.html">TickParametersContext</a></td></tr>
@@ -312,18 +314,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_vulkan.html#a6f15e256d23152a2da645bd3754ee485a20b520c6f5274c5f26d7c90ac0a455d0">CommandBuffer_VkCommandPool</a>
  }</td></tr>
 <tr class="separator:a6f15e256d23152a2da645bd3754ee485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cb2047f6879b5ef48e75b893c7ec4bd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">PipelineBuildBits</a> : uint { <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bdaab42fa37451369c1ed3f5984280ca348">NoInfoSet</a> = 0
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda05544e614063a6ae097519242ec50373">ShaderInfoSet</a> = N_BIT(0)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda2b43624d7c4d816c3374e839f93d73c1">VertexLayoutInfoSet</a> = N_BIT(1)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda6350bdfdc6ee71829573cc162fd3e31e">FramebufferLayoutInfoSet</a> = N_BIT(2)
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda90f2ebfc721e441e54abfbc5e4aefeda">InputLayoutInfoSet</a> = N_BIT(3)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda5b3dde63f3c879edc527ebc98a57b1aa">AllInfoSet</a> = ShaderInfoSet | VertexLayoutInfoSet | FramebufferLayoutInfoSet | InputLayoutInfoSet
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda57ec02bc1cdf05831ca2126b2a00c0ce">PipelineBuilt</a> = N_BIT(4)
-<br />
- }</td></tr>
-<tr class="separator:a7cb2047f6879b5ef48e75b893c7ec4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e475fe84e34bc944d42a3fae78a1a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<a class="el" href="namespace_vulkan.html#a38e475fe84e34bc944d42a3fae78a1a1aa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
 , <a class="el" href="namespace_vulkan.html#a38e475fe84e34bc944d42a3fae78a1a1ae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
@@ -444,10 +434,6 @@ Functions</h2></td></tr>
 <tr class="separator:a51085fbd043fd495d57cd374e82e8a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc6a23107ea283731bc6d651f5ff606d"><td class="memItemLeft" align="right" valign="top">VkFence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#adc6a23107ea283731bc6d651f5ff606d">FenceGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_fence_id.html">CoreGraphics::FenceId</a> id)</td></tr>
 <tr class="separator:adc6a23107ea283731bc6d651f5ff606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29e6022c48c331f55883d88033df5467"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a29e6022c48c331f55883d88033df5467">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">PipelineBuildBits</a>)</td></tr>
-<tr class="separator:a29e6022c48c331f55883d88033df5467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d4dfd0b88cfe22b8da65253a22bf596"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a5d4dfd0b88cfe22b8da65253a22bf596">__ImplementEnumComparisonOperators</a> (<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">PipelineBuildBits</a>)</td></tr>
-<tr class="separator:a5d4dfd0b88cfe22b8da65253a22bf596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7977af7967bd1c4545d340b2543a845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad7977af7967bd1c4545d340b2543a845">SetupAdapter</a> ()</td></tr>
 <tr class="memdesc:ad7977af7967bd1c4545d340b2543a845"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup graphics adapter  <a href="namespace_vulkan.html#ad7977af7967bd1c4545d340b2543a845">More...</a><br /></td></tr>
 <tr class="separator:ad7977af7967bd1c4545d340b2543a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -749,6 +735,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad28f43eeb1f65562f0eb24bd960a133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ab9f9ab2495caba15b64d22cbf1c9a383">state</a></td></tr>
 <tr class="separator:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aaa63d9ff5c3f2e85b89e87336702f9d3">threadState</a></td></tr>
+<tr class="separator:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memItemLeft" align="right" valign="top">VkDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a79bf021c4d4d8ae56ac9fe9163e95380">VkErrorDebugMessageHandle</a> = nullptr</td></tr>
 <tr class="separator:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab04a200d15d18716a96aae6f6bacd7f"><td class="memItemLeft" align="right" valign="top">PFN_vkCreateDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aab04a200d15d18716a96aae6f6bacd7f">VkCreateDebugMessenger</a> = nullptr</td></tr>
@@ -1341,37 +1329,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7cb2047f6879b5ef48e75b893c7ec4bd" name="a7cb2047f6879b5ef48e75b893c7ec4bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cb2047f6879b5ef48e75b893c7ec4bd">&#9670;&nbsp;</a></span>PipelineBuildBits</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">Vulkan::PipelineBuildBits</a> : <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bdaab42fa37451369c1ed3f5984280ca348" name="a7cb2047f6879b5ef48e75b893c7ec4bdaab42fa37451369c1ed3f5984280ca348"></a>NoInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda05544e614063a6ae097519242ec50373" name="a7cb2047f6879b5ef48e75b893c7ec4bda05544e614063a6ae097519242ec50373"></a>ShaderInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda2b43624d7c4d816c3374e839f93d73c1" name="a7cb2047f6879b5ef48e75b893c7ec4bda2b43624d7c4d816c3374e839f93d73c1"></a>VertexLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda6350bdfdc6ee71829573cc162fd3e31e" name="a7cb2047f6879b5ef48e75b893c7ec4bda6350bdfdc6ee71829573cc162fd3e31e"></a>FramebufferLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda90f2ebfc721e441e54abfbc5e4aefeda" name="a7cb2047f6879b5ef48e75b893c7ec4bda90f2ebfc721e441e54abfbc5e4aefeda"></a>InputLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda5b3dde63f3c879edc527ebc98a57b1aa" name="a7cb2047f6879b5ef48e75b893c7ec4bda5b3dde63f3c879edc527ebc98a57b1aa"></a>AllInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7cb2047f6879b5ef48e75b893c7ec4bda57ec02bc1cdf05831ca2126b2a00c0ce" name="a7cb2047f6879b5ef48e75b893c7ec4bda57ec02bc1cdf05831ca2126b2a00c0ce"></a>PipelineBuilt&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="af3197321a51b5de61edafd4e17abca06" name="af3197321a51b5de61edafd4e17abca06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3197321a51b5de61edafd4e17abca06">&#9670;&nbsp;</a></span>__ImplementClass() <span class="overload">[1/13]</span></h2>
@@ -1809,42 +1766,6 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29e6022c48c331f55883d88033df5467" name="a29e6022c48c331f55883d88033df5467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29e6022c48c331f55883d88033df5467">&#9670;&nbsp;</a></span>__ImplementEnumBitOperators()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vulkan::__ImplementEnumBitOperators </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">PipelineBuildBits</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d4dfd0b88cfe22b8da65253a22bf596" name="a5d4dfd0b88cfe22b8da65253a22bf596"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d4dfd0b88cfe22b8da65253a22bf596">&#9670;&nbsp;</a></span>__ImplementEnumComparisonOperators()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vulkan::__ImplementEnumComparisonOperators </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">PipelineBuildBits</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4781,6 +4702,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aaa63d9ff5c3f2e85b89e87336702f9d3" name="aaa63d9ff5c3f2e85b89e87336702f9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa63d9ff5c3f2e85b89e87336702f9d3">&#9670;&nbsp;</a></span>threadState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a> Vulkan::threadState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af88a6569d668598bd5bebe68807cdc3c" name="af88a6569d668598bd5bebe68807cdc3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af88a6569d668598bd5bebe68807cdc3c">&#9670;&nbsp;</a></span>UniqueIdCounter</h2>
 
@@ -4998,7 +4933,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 13:02:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 17:15:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

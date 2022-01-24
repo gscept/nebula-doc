@@ -87,5 +87,10 @@ var dir_566fb58dda2ca15cae9b00ab032b80fc =
     [ "framesubpassplugin.h", "framesubpassplugin_8h.html", [
       [ "Frame::FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ],
       [ "Frame::FrameSubpassPlugin::CompiledImpl", "struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html", "struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl" ]
+    ] ],
+    [ "frameswap.cc", "frameswap_8cc.html", null ],
+    [ "frameswap.h", "frameswap_8h.html", [
+      [ "Frame::FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ],
+      [ "Frame::FrameSwap::CompiledImpl", "struct_frame_1_1_frame_swap_1_1_compiled_impl.html", "struct_frame_1_1_frame_swap_1_1_compiled_impl" ]
     ] ]
 ];

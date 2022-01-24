@@ -60,8 +60,9 @@ var searchData=
   ['framesubpassfullscreeneffect_57',['FrameSubpassFullscreenEffect',['../class_frame_1_1_frame_subpass_fullscreen_effect.html',1,'Frame']]],
   ['framesubpassorderedbatch_58',['FrameSubpassOrderedBatch',['../class_frame_1_1_frame_subpass_ordered_batch.html',1,'Frame']]],
   ['framesubpassplugin_59',['FrameSubpassPlugin',['../class_frame_1_1_frame_subpass_plugin.html',1,'Frame']]],
-  ['framesynctimer_60',['FrameSyncTimer',['../class_frame_sync_1_1_frame_sync_timer.html',1,'FrameSync']]],
-  ['freecamerautil_61',['FreeCameraUtil',['../class_render_util_1_1_free_camera_util.html',1,'RenderUtil']]],
-  ['frustum_62',['frustum',['../class_math_1_1frustum.html',1,'Math']]],
-  ['fswrapper_63',['FSWrapper',['../class_i_o_1_1_f_s_wrapper.html',1,'']]]
+  ['frameswap_60',['FrameSwap',['../class_frame_1_1_frame_swap.html',1,'Frame']]],
+  ['framesynctimer_61',['FrameSyncTimer',['../class_frame_sync_1_1_frame_sync_timer.html',1,'FrameSync']]],
+  ['freecamerautil_62',['FreeCameraUtil',['../class_render_util_1_1_free_camera_util.html',1,'RenderUtil']]],
+  ['frustum_63',['frustum',['../class_math_1_1frustum.html',1,'Math']]],
+  ['fswrapper_64',['FSWrapper',['../class_i_o_1_1_f_s_wrapper.html',1,'']]]
 ];

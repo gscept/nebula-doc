@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('vkgraphicsdevice_8cc.html',''); initRe
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">vkgraphicsdevice.cc File Reference</div></div>
@@ -131,6 +130,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html">Vulkan::GraphicsDeviceState::ConstantsRingBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -141,27 +142,8 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a7cb2047f6879b5ef48e75b893c7ec4bd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bd">Vulkan::PipelineBuildBits</a> : uint { <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bdaab42fa37451369c1ed3f5984280ca348">Vulkan::NoInfoSet</a> = 0
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda05544e614063a6ae097519242ec50373">Vulkan::ShaderInfoSet</a> = N_BIT(0)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda2b43624d7c4d816c3374e839f93d73c1">Vulkan::VertexLayoutInfoSet</a> = N_BIT(1)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda6350bdfdc6ee71829573cc162fd3e31e">Vulkan::FramebufferLayoutInfoSet</a> = N_BIT(2)
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda90f2ebfc721e441e54abfbc5e4aefeda">Vulkan::InputLayoutInfoSet</a> = N_BIT(3)
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda5b3dde63f3c879edc527ebc98a57b1aa">Vulkan::AllInfoSet</a> = ShaderInfoSet | VertexLayoutInfoSet | FramebufferLayoutInfoSet | InputLayoutInfoSet
-, <a class="el" href="namespace_vulkan.html#a7cb2047f6879b5ef48e75b893c7ec4bda57ec02bc1cdf05831ca2126b2a00c0ce">Vulkan::PipelineBuilt</a> = N_BIT(4)
-<br />
- }</td></tr>
-<tr class="separator:a7cb2047f6879b5ef48e75b893c7ec4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a29e6022c48c331f55883d88033df5467"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a29e6022c48c331f55883d88033df5467">Vulkan::__ImplementEnumBitOperators</a> (PipelineBuildBits)</td></tr>
-<tr class="separator:a29e6022c48c331f55883d88033df5467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d4dfd0b88cfe22b8da65253a22bf596"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a5d4dfd0b88cfe22b8da65253a22bf596">Vulkan::__ImplementEnumComparisonOperators</a> (PipelineBuildBits)</td></tr>
-<tr class="separator:a5d4dfd0b88cfe22b8da65253a22bf596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7977af7967bd1c4545d340b2543a845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad7977af7967bd1c4545d340b2543a845">Vulkan::SetupAdapter</a> ()</td></tr>
 <tr class="memdesc:ad7977af7967bd1c4545d340b2543a845"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup graphics adapter  <a href="namespace_vulkan.html#ad7977af7967bd1c4545d340b2543a845">More...</a><br /></td></tr>
 <tr class="separator:ad7977af7967bd1c4545d340b2543a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -461,6 +443,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adb402120ab24a6ba453a8caf6baa8a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adb402120ab24a6ba453a8caf6baa8a24">CoreGraphics::WaitForAllQueues</a> ()</td></tr>
 <tr class="memdesc:adb402120ab24a6ba453a8caf6baa8a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for all queues to finish  <a href="namespace_core_graphics.html#adb402120ab24a6ba453a8caf6baa8a24">More...</a><br /></td></tr>
 <tr class="separator:adb402120ab24a6ba453a8caf6baa8a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db2c950d881cc3f156a7a1c34b5a164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7db2c950d881cc3f156a7a1c34b5a164">CoreGraphics::Swap</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:a7db2c950d881cc3f156a7a1c34b5a164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap.  <a href="namespace_core_graphics.html#a7db2c950d881cc3f156a7a1c34b5a164">More...</a><br /></td></tr>
+<tr class="separator:a7db2c950d881cc3f156a7a1c34b5a164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08426919186dd727d3b5461c1284212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae08426919186dd727d3b5461c1284212">CoreGraphics::NewFrame</a> ()</td></tr>
+<tr class="memdesc:ae08426919186dd727d3b5461c1284212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress to next frame.  <a href="namespace_core_graphics.html#ae08426919186dd727d3b5461c1284212">More...</a><br /></td></tr>
+<tr class="separator:ae08426919186dd727d3b5461c1284212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149180fd4edd7f7053554a08706907f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7">CoreGraphics::ImageFileFormat::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a149180fd4edd7f7053554a08706907f9">CoreGraphics::SaveScreenshot</a> (<a class="el" href="class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7">CoreGraphics::ImageFileFormat::Code</a> fmt, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;outStream)</td></tr>
 <tr class="memdesc:a149180fd4edd7f7053554a08706907f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">save a screenshot to the provided stream  <a href="namespace_core_graphics.html#a149180fd4edd7f7053554a08706907f9">More...</a><br /></td></tr>
 <tr class="separator:a149180fd4edd7f7053554a08706907f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -531,6 +519,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ab9f9ab2495caba15b64d22cbf1c9a383">Vulkan::state</a></td></tr>
 <tr class="separator:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aaa63d9ff5c3f2e85b89e87336702f9d3">Vulkan::threadState</a></td></tr>
+<tr class="separator:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memItemLeft" align="right" valign="top">VkDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a79bf021c4d4d8ae56ac9fe9163e95380">Vulkan::VkErrorDebugMessageHandle</a> = nullptr</td></tr>
 <tr class="separator:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab04a200d15d18716a96aae6f6bacd7f"><td class="memItemLeft" align="right" valign="top">PFN_vkCreateDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aab04a200d15d18716a96aae6f6bacd7f">Vulkan::VkCreateDebugMessenger</a> = nullptr</td></tr>
@@ -596,7 +586,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 13:02:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 17:14:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

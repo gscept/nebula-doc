@@ -20,6 +20,7 @@ var namespace_frame =
     [ "FrameSubpassFullscreenEffect", "class_frame_1_1_frame_subpass_fullscreen_effect.html", "class_frame_1_1_frame_subpass_fullscreen_effect" ],
     [ "FrameSubpassOrderedBatch", "class_frame_1_1_frame_subpass_ordered_batch.html", "class_frame_1_1_frame_subpass_ordered_batch" ],
     [ "FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ],
+    [ "FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ],
     [ "DependencyIntent", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016ee", [
       [ "Read", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea7a1a5f3e79fdc91edf2f5ead9d66abb4", null ],
       [ "Write", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea1129c0e4d43f2d121652a7302712cff6", null ]

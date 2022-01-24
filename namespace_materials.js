@@ -9,6 +9,7 @@ var namespace_materials =
     [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
     [ "ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ],
     [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],
+    [ "ShaderConfigVariant", "struct_materials_1_1_shader_config_variant.html", "struct_materials_1_1_shader_config_variant" ],
     [ "__ImplementClass", "namespace_materials.html#a09d85bde948dfeec76d227a1f9f3d4d5", null ],
     [ "__ImplementClass", "namespace_materials.html#a4ed13251436e47c8451b0896fc86e862", null ],
     [ "MaterialApply", "namespace_materials.html#a897bf968e4261918368906d197238be9", null ],

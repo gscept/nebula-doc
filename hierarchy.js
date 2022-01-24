@@ -188,7 +188,8 @@ var hierarchy =
       [ "Frame::FrameSubpassBatch::CompiledImpl", "struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html", null ],
       [ "Frame::FrameSubpassFullscreenEffect::CompiledImpl", "struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html", null ],
       [ "Frame::FrameSubpassOrderedBatch::CompiledImpl", "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html", null ],
-      [ "Frame::FrameSubpassPlugin::CompiledImpl", "struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html", null ]
+      [ "Frame::FrameSubpassPlugin::CompiledImpl", "struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html", null ],
+      [ "Frame::FrameSwap::CompiledImpl", "struct_frame_1_1_frame_swap_1_1_compiled_impl.html", null ]
     ] ],
     [ "completion_t", "structcompletion__t.html", null ],
     [ "Im3d::internal::CompositeT", "struct_im3d_1_1internal_1_1_composite_t.html", [
@@ -326,7 +327,8 @@ var hierarchy =
       [ "Frame::FrameSubpassBatch", "class_frame_1_1_frame_subpass_batch.html", null ],
       [ "Frame::FrameSubpassFullscreenEffect", "class_frame_1_1_frame_subpass_fullscreen_effect.html", null ],
       [ "Frame::FrameSubpassOrderedBatch", "class_frame_1_1_frame_subpass_ordered_batch.html", null ],
-      [ "Frame::FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", null ]
+      [ "Frame::FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", null ],
+      [ "Frame::FrameSwap", "class_frame_1_1_frame_swap.html", null ]
     ] ],
     [ "Debug::FrameScriptInspector", "class_debug_1_1_frame_script_inspector.html", null ],
     [ "Frame::FrameScriptLoader", "class_frame_1_1_frame_script_loader.html", null ],
@@ -401,6 +403,9 @@ var hierarchy =
     [ "CoreGraphics::GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", null ],
     [ "CoreGraphics::GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", [
       [ "Vulkan::GraphicsDeviceState", "struct_vulkan_1_1_graphics_device_state.html", null ]
+    ] ],
+    [ "CoreGraphics::GraphicsDeviceThreadState", "struct_core_graphics_1_1_graphics_device_thread_state.html", [
+      [ "Vulkan::GraphicsDeviceThreadState", "struct_vulkan_1_1_graphics_device_thread_state.html", null ]
     ] ],
     [ "Graphics::GraphicsEntityId", "struct_graphics_1_1_graphics_entity_id.html", null ],
     [ "GraphicsFeature::GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html", null ],
@@ -990,6 +995,7 @@ var hierarchy =
     [ "Materials::ShaderConfig", "class_materials_1_1_shader_config.html", null ],
     [ "Materials::ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", null ],
     [ "Materials::ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", null ],
+    [ "Materials::ShaderConfigVariant", "struct_materials_1_1_shader_config_variant.html", null ],
     [ "CoreGraphics::ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", null ],
     [ "CoreGraphics::ShaderFeature", "class_core_graphics_1_1_shader_feature.html", null ],
     [ "CoreGraphics::ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
@@ -1086,6 +1092,7 @@ var hierarchy =
     [ "CoreGraphics::TextureCreateInfoAdjusted", "struct_core_graphics_1_1_texture_create_info_adjusted.html", null ],
     [ "Frame::FrameOp::TextureDependency", "struct_frame_1_1_frame_op_1_1_texture_dependency.html", null ],
     [ "CoreGraphics::TextureDimensions", "struct_core_graphics_1_1_texture_dimensions.html", null ],
+    [ "Materials::ShaderConfigVariant::TextureHandleTuple", "struct_materials_1_1_shader_config_variant_1_1_texture_handle_tuple.html", null ],
     [ "CoreGraphics::TextureId", "struct_core_graphics_1_1_texture_id.html", null ],
     [ "CoreGraphics::TextureMapInfo", "struct_core_graphics_1_1_texture_map_info.html", null ],
     [ "CoreGraphics::TextureRelativeDimensions", "struct_core_graphics_1_1_texture_relative_dimensions.html", null ],
@@ -1286,8 +1293,8 @@ var hierarchy =
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32::Win32Registry", "class_win32_1_1_win32_registry.html", null ],
     [ "Win32::Win32Rendezvous", "class_win32_1_1_win32_rendezvous.html", null ],
-    [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
     [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
+    [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
     [ "Win32::Win32StringConverter", "class_win32_1_1_win32_string_converter.html", null ],
     [ "Win32::Win32ThreadBarrier", "class_win32_1_1_win32_thread_barrier.html", null ],
     [ "Win32::Win32Timer", "class_win32_1_1_win32_timer.html", null ],

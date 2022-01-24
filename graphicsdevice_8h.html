@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('graphicsdevice_8h.html',''); initResiz
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">graphicsdevice.h File Reference</div></div>
 </div><!--header-->
@@ -124,6 +125,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">CoreGraphics::GraphicsDeviceState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">CoreGraphics::GraphicsDeviceThreadState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -131,8 +134,27 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a79e7202c3488c517874b96a098b5e151"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151">CoreGraphics::PipelineBuildBits</a> : uint { <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151aab42fa37451369c1ed3f5984280ca348">CoreGraphics::NoInfoSet</a> = 0
+, <a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a05544e614063a6ae097519242ec50373">CoreGraphics::ShaderInfoSet</a> = N_BIT(0)
+, <a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a2b43624d7c4d816c3374e839f93d73c1">CoreGraphics::VertexLayoutInfoSet</a> = N_BIT(1)
+, <a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a6350bdfdc6ee71829573cc162fd3e31e">CoreGraphics::FramebufferLayoutInfoSet</a> = N_BIT(2)
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a90f2ebfc721e441e54abfbc5e4aefeda">CoreGraphics::InputLayoutInfoSet</a> = N_BIT(3)
+, <a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a5b3dde63f3c879edc527ebc98a57b1aa">CoreGraphics::AllInfoSet</a> = ShaderInfoSet | VertexLayoutInfoSet | FramebufferLayoutInfoSet | InputLayoutInfoSet
+, <a class="el" href="namespace_core_graphics.html#a79e7202c3488c517874b96a098b5e151a57ec02bc1cdf05831ca2126b2a00c0ce">CoreGraphics::PipelineBuilt</a> = N_BIT(4)
+<br />
+ }</td></tr>
+<tr class="separator:a79e7202c3488c517874b96a098b5e151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a83986051a99382fc24baf3e825abf5b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a83986051a99382fc24baf3e825abf5b1">CoreGraphics::__ImplementEnumBitOperators</a> (PipelineBuildBits)</td></tr>
+<tr class="separator:a83986051a99382fc24baf3e825abf5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9374ec762eb15f180fa7b338659170dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9374ec762eb15f180fa7b338659170dd">CoreGraphics::__ImplementEnumComparisonOperators</a> (PipelineBuildBits)</td></tr>
+<tr class="separator:a9374ec762eb15f180fa7b338659170dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb85204de7ba8c4d4be473e7f8c92650"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adb85204de7ba8c4d4be473e7f8c92650">CoreGraphics::CreateGraphicsDevice</a> (const GraphicsDeviceCreateInfo &amp;info)</td></tr>
 <tr class="memdesc:adb85204de7ba8c4d4be473e7f8c92650"><td class="mdescLeft">&#160;</td><td class="mdescRight">create graphics device  <a href="namespace_core_graphics.html#adb85204de7ba8c4d4be473e7f8c92650">More...</a><br /></td></tr>
 <tr class="separator:adb85204de7ba8c4d4be473e7f8c92650"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,6 +387,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adb402120ab24a6ba453a8caf6baa8a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adb402120ab24a6ba453a8caf6baa8a24">CoreGraphics::WaitForAllQueues</a> ()</td></tr>
 <tr class="memdesc:adb402120ab24a6ba453a8caf6baa8a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for all queues to finish  <a href="namespace_core_graphics.html#adb402120ab24a6ba453a8caf6baa8a24">More...</a><br /></td></tr>
 <tr class="separator:adb402120ab24a6ba453a8caf6baa8a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db2c950d881cc3f156a7a1c34b5a164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7db2c950d881cc3f156a7a1c34b5a164">CoreGraphics::Swap</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:a7db2c950d881cc3f156a7a1c34b5a164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap.  <a href="namespace_core_graphics.html#a7db2c950d881cc3f156a7a1c34b5a164">More...</a><br /></td></tr>
+<tr class="separator:a7db2c950d881cc3f156a7a1c34b5a164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08426919186dd727d3b5461c1284212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae08426919186dd727d3b5461c1284212">CoreGraphics::NewFrame</a> ()</td></tr>
+<tr class="memdesc:ae08426919186dd727d3b5461c1284212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress to next frame.  <a href="namespace_core_graphics.html#ae08426919186dd727d3b5461c1284212">More...</a><br /></td></tr>
+<tr class="separator:ae08426919186dd727d3b5461c1284212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149180fd4edd7f7053554a08706907f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7">CoreGraphics::ImageFileFormat::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a149180fd4edd7f7053554a08706907f9">CoreGraphics::SaveScreenshot</a> (<a class="el" href="class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7">CoreGraphics::ImageFileFormat::Code</a> fmt, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;outStream)</td></tr>
 <tr class="memdesc:a149180fd4edd7f7053554a08706907f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">save a screenshot to the provided stream  <a href="namespace_core_graphics.html#a149180fd4edd7f7053554a08706907f9">More...</a><br /></td></tr>
 <tr class="separator:a149180fd4edd7f7053554a08706907f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -460,7 +488,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="graphicsdevice_8h.html">graphicsdevice.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 13:02:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 17:14:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

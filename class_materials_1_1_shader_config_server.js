@@ -4,6 +4,7 @@ var class_materials_1_1_shader_config_server =
     [ "~ShaderConfigServer", "class_materials_1_1_shader_config_server.html#a49753ccd3a62123a52c1eee2a30c7756", null ],
     [ "__DeclareClass", "class_materials_1_1_shader_config_server.html#a5d9f8f431e3c66161ea5789cff5cbd1b", null ],
     [ "__DeclareInterfaceSingleton", "class_materials_1_1_shader_config_server.html#aeefffc4d7f1cb691530d1072c9c6664b", null ],
+    [ "AllocateVariantMemory", "class_materials_1_1_shader_config_server.html#a0ad8a6b6e221c6ed953753dbc8cb8a2e", null ],
     [ "Close", "class_materials_1_1_shader_config_server.html#aa38973c2705fc13c6d60004bffc81abe", null ],
     [ "GetShaderConfig", "class_materials_1_1_shader_config_server.html#a0e3d59a8a6bfcda641c0249d4c2b7321", null ],
     [ "GetShaderConfigsByBatch", "class_materials_1_1_shader_config_server.html#a656f6fafd6b1cd7533549f88d57f0a14", null ],
@@ -15,6 +16,8 @@ var class_materials_1_1_shader_config_server =
     [ "shaderConfigs", "class_materials_1_1_shader_config_server.html#a796ec9e2c550836cb7d0761a08345a4b", null ],
     [ "shaderConfigsByBatch", "class_materials_1_1_shader_config_server.html#a70ea32d0f35f501cf3369b7347a04ab1", null ],
     [ "shaderConfigsByName", "class_materials_1_1_shader_config_server.html#afac37b000ab0dcb5310d269ca1d84572", null ],
+    [ "shaderConfigVariantAllocator", "class_materials_1_1_shader_config_server.html#a94afb9aa7e10cd5a1c08c6b921c95540", null ],
     [ "surfaceAllocator", "class_materials_1_1_shader_config_server.html#a950b5dba5cfa10719e1b6bc41732b82c", null ],
-    [ "surfacePool", "class_materials_1_1_shader_config_server.html#a8ad650292a04691646c1e9f575101a42", null ]
+    [ "surfacePool", "class_materials_1_1_shader_config_server.html#a8ad650292a04691646c1e9f575101a42", null ],
+    [ "variantAllocatorLock", "class_materials_1_1_shader_config_server.html#a1074e1d5dacd61588715ddbeca22576a", null ]
 ];

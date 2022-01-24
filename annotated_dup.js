@@ -177,6 +177,7 @@ var annotated_dup =
       [ "Gliml", "class_core_graphics_1_1_gliml.html", "class_core_graphics_1_1_gliml" ],
       [ "GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", "struct_core_graphics_1_1_graphics_device_create_info" ],
       [ "GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", "struct_core_graphics_1_1_graphics_device_state" ],
+      [ "GraphicsDeviceThreadState", "struct_core_graphics_1_1_graphics_device_thread_state.html", "struct_core_graphics_1_1_graphics_device_thread_state" ],
       [ "ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", "struct_core_graphics_1_1_image_create_info_data" ],
       [ "ImageCreateInfoFile", "struct_core_graphics_1_1_image_create_info_file.html", "struct_core_graphics_1_1_image_create_info_file" ],
       [ "ImageDimensions", "struct_core_graphics_1_1_image_dimensions.html", "struct_core_graphics_1_1_image_dimensions" ],
@@ -354,7 +355,8 @@ var annotated_dup =
       [ "FrameSubpassBatch", "class_frame_1_1_frame_subpass_batch.html", "class_frame_1_1_frame_subpass_batch" ],
       [ "FrameSubpassFullscreenEffect", "class_frame_1_1_frame_subpass_fullscreen_effect.html", "class_frame_1_1_frame_subpass_fullscreen_effect" ],
       [ "FrameSubpassOrderedBatch", "class_frame_1_1_frame_subpass_ordered_batch.html", "class_frame_1_1_frame_subpass_ordered_batch" ],
-      [ "FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ]
+      [ "FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ],
+      [ "FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ]
     ] ],
     [ "FrameSync", "namespace_frame_sync.html", [
       [ "FrameSyncTimer", "class_frame_sync_1_1_frame_sync_timer.html", "class_frame_sync_1_1_frame_sync_timer" ]
@@ -633,7 +635,8 @@ var annotated_dup =
       [ "ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
       [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
       [ "ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ],
-      [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ]
+      [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],
+      [ "ShaderConfigVariant", "struct_materials_1_1_shader_config_variant.html", "struct_materials_1_1_shader_config_variant" ]
     ] ],
     [ "Math", "namespace_math.html", [
       [ "AngularPFeedbackLoop", "class_math_1_1_angular_p_feedback_loop.html", "class_math_1_1_angular_p_feedback_loop" ],
@@ -950,6 +953,7 @@ var annotated_dup =
       [ "BindlessTexturesContext", "struct_vulkan_1_1_bindless_textures_context.html", "struct_vulkan_1_1_bindless_textures_context" ],
       [ "CommandBufferPools", "struct_vulkan_1_1_command_buffer_pools.html", "struct_vulkan_1_1_command_buffer_pools" ],
       [ "GraphicsDeviceState", "struct_vulkan_1_1_graphics_device_state.html", "struct_vulkan_1_1_graphics_device_state" ],
+      [ "GraphicsDeviceThreadState", "struct_vulkan_1_1_graphics_device_thread_state.html", "struct_vulkan_1_1_graphics_device_thread_state" ],
       [ "TextureSparsePageTable", "struct_vulkan_1_1_texture_sparse_page_table.html", "struct_vulkan_1_1_texture_sparse_page_table" ],
       [ "TickParametersContext", "struct_vulkan_1_1_tick_parameters_context.html", "struct_vulkan_1_1_tick_parameters_context" ],
       [ "VkBarrierInfo", "struct_vulkan_1_1_vk_barrier_info.html", "struct_vulkan_1_1_vk_barrier_info" ],

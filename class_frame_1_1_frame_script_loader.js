@@ -23,6 +23,7 @@ var class_frame_1_1_frame_script_loader =
     [ "ParseSubpassInputs", "class_frame_1_1_frame_script_loader.html#a592066c37b1ff84b84117c7273c61808", null ],
     [ "ParseSubpassPlugin", "class_frame_1_1_frame_script_loader.html#ac2635d3a76ccf1ff0c2c4facb365d282", null ],
     [ "ParseSubpassSortedBatch", "class_frame_1_1_frame_script_loader.html#a56c658789346846734e2dc6ea3d11264", null ],
+    [ "ParseSwap", "class_frame_1_1_frame_script_loader.html#aaf3108198cb6cd1632fb263b3ba630a1", null ],
     [ "ParseTextureList", "class_frame_1_1_frame_script_loader.html#abec104a5cca93cc8e9147ab4185f083d", null ],
     [ "LastSubmission", "class_frame_1_1_frame_script_loader.html#a5a073d853a245f441b077ea62ce82f8b", null ]
 ];

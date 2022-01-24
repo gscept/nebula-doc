@@ -10,6 +10,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "computeCmdBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a44d463d50cf83dd338fca8c07bfe32dd", null ],
     [ "computeSubmission", "struct_core_graphics_1_1_graphics_device_state.html#a85252e745684e0063cffce5ec81587a9", null ],
     [ "currentFrameIndex", "struct_core_graphics_1_1_graphics_device_state.html#ad0d93252140848d8c28dfd703f2298a1", null ],
+    [ "currentPipelineBits", "struct_core_graphics_1_1_graphics_device_state.html#a0d3650d5cbb2b49cac41a69ce9ca5def", null ],
     [ "drawThread", "struct_core_graphics_1_1_graphics_device_state.html#a4757ed329bab4a65545d3806a21566e2", null ],
     [ "drawThreads", "struct_core_graphics_1_1_graphics_device_state.html#a13f2a2e664b6581793d2a628b4711751", null ],
     [ "enableValidation", "struct_core_graphics_1_1_graphics_device_state.html#a0776484bdf16b5e0b68f002487afc20c", null ],

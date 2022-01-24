@@ -21,6 +21,7 @@ var class_graphics_1_1_graphics_server =
     [ "GetFrameTime", "class_graphics_1_1_graphics_server.html#a4c29a03a44d104d48e210a0aadaf8340", null ],
     [ "GetTime", "class_graphics_1_1_graphics_server.html#a7100bf1d495aacc38647cf647baee7e6", null ],
     [ "IsValidGraphicsEntity", "class_graphics_1_1_graphics_server.html#ae06cabcaa05d27d01ec5a96106da2f61", null ],
+    [ "NewFrame", "class_graphics_1_1_graphics_server.html#a5a08405d3329f60094e6cb7f5863adc2", null ],
     [ "OnWindowResized", "class_graphics_1_1_graphics_server.html#a759c0b5cfab5c573b2c29d99320e6168", null ],
     [ "Open", "class_graphics_1_1_graphics_server.html#ab430a6a8c8f6df41e8d78d30e0199061", null ],
     [ "RegisterGraphicsContext", "class_graphics_1_1_graphics_server.html#ac43f6305c91ddd9e0f854783573aaba0", null ],

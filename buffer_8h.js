@@ -39,7 +39,6 @@ var buffer_8h =
     [ "BufferMap", "buffer_8h.html#a2597e97d2743a4048c9ed303c68b8a08", null ],
     [ "BufferUnmap", "buffer_8h.html#ab3f34ed09e59cda9795bfb52397ec122", null ],
     [ "BufferUpdate", "buffer_8h.html#aea79756d79dfcb5c648512d16c73421e", null ],
-    [ "BufferUpdate", "buffer_8h.html#af6da1ece752407f4f76e65c1cdad930e", null ],
     [ "BufferUpdate", "buffer_8h.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
     [ "BufferUpdateArray", "buffer_8h.html#a1eb5b9e2891b25326d97ef539fc6e61b", null ],
     [ "BufferUpload", "buffer_8h.html#a13b808e8087ef9f225a6f3aab46b2fc5", null ],

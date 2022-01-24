@@ -47,7 +47,7 @@ var searchData=
   ['bmp_44',['BMP',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7ab83fb92cbc7ac4ddd5308e69abc9d82e',1,'CoreGraphics::ImageFileFormat']]],
   ['body_45',['Body',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9af8e1ca2665495aeaf41a7c53ab04ebbf',1,'Http::HtmlElement']]],
   ['bold_46',['Bold',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9ada394431ff21538d520c61df9723f9d8',1,'Http::HtmlElement']]],
-  ['bool_47',['Bool',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba343ce15ea86282802506296f292e10e9',1,'Util::Variant']]],
+  ['bool_47',['Bool',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba343ce15ea86282802506296f292e10e9',1,'Util::Variant::Bool()'],['../struct_materials_1_1_shader_config_variant.html#a1338c52dc11e9b1873977ec33421330eac26f15e86e3de4c398a8273272aba034',1,'Materials::ShaderConfigVariant::Bool()']]],
   ['boolarray_48',['BoolArray',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534ebae77cb85c16db06646dde9d2f614566fd',1,'Util::Variant']]],
   ['boolarraytype_49',['BoolArrayType',['../namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3a5605d3fa8ab9b4c33cfe8a4af0ed5b88',1,'Attr']]],
   ['booltype_50',['BoolType',['../namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3a900264641fdeb05fad968104c6cd3b7e',1,'Attr']]],

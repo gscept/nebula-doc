@@ -17,7 +17,6 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "currentDevice", "struct_vulkan_1_1_graphics_device_state.html#ab97058b8748837d8588337d128c6367b", null ],
     [ "currentGraphicsPipelineLayout", "struct_vulkan_1_1_graphics_device_state.html#a83fbd137f6b6e6f77035b04b130c74f5", null ],
     [ "currentPipeline", "struct_vulkan_1_1_graphics_device_state.html#aad89c422319be97ef4c0c8464d3c65e2", null ],
-    [ "currentPipelineBits", "struct_vulkan_1_1_graphics_device_state.html#a09ed55f5756adab7a2a076398a260fbb", null ],
     [ "currentPipelineInfo", "struct_vulkan_1_1_graphics_device_state.html#aa2673ba4f072e32e4404f24aee03dc48", null ],
     [ "currentShaderMask", "struct_vulkan_1_1_graphics_device_state.html#a4fef352993939096be39ab1763357150", null ],
     [ "currentShaderPrograms", "struct_vulkan_1_1_graphics_device_state.html#a17e5a1ba788f20d16a9a1c1eb831e10e", null ],
