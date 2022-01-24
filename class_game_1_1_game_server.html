@@ -198,9 +198,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a590750dc64658984cb9181f6da11b1ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed">CleanupWorld</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
 <tr class="memdesc:a590750dc64658984cb9181f6da11b1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">cleanup the game world  <a href="class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed">More...</a><br /></td></tr>
 <tr class="separator:a590750dc64658984cb9181f6da11b1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#a2dd8428a6a99b1129ae0efb598bf4e80">CreateWorld</a> (<a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;info)</td></tr>
-<tr class="memdesc:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a world. The game server handles all worlds  <a href="class_game_1_1_game_server.html#a2dd8428a6a99b1129ae0efb598bf4e80">More...</a><br /></td></tr>
-<tr class="separator:a2dd8428a6a99b1129ae0efb598bf4e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c89f9832cd492ccc5dccc1b2c18585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#ab9c89f9832cd492ccc5dccc1b2c18585">CreateWorld</a> (uint32_t hash)</td></tr>
+<tr class="memdesc:ab9c89f9832cd492ccc5dccc1b2c18585"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a world. The game server handles all worlds  <a href="class_game_1_1_game_server.html#ab9c89f9832cd492ccc5dccc1b2c18585">More...</a><br /></td></tr>
+<tr class="separator:ab9c89f9832cd492ccc5dccc1b2c18585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763">GetWorld</a> (uint32_t worldHash)</td></tr>
 <tr class="memdesc:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a world by hash  <a href="class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763">More...</a><br /></td></tr>
 <tr class="separator:af56805c1ebf56ae2e39ff6e7ab78e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,12 +400,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>create a processor </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>we should handle the registering of the world processors manually </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>we should handle the registering of the world processors manually </dd></dl>
 
 </div>
 </div>
-<a id="a2dd8428a6a99b1129ae0efb598bf4e80" name="a2dd8428a6a99b1129ae0efb598bf4e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dd8428a6a99b1129ae0efb598bf4e80">&#9670;&nbsp;</a></span>CreateWorld()</h2>
+<a id="ab9c89f9832cd492ccc5dccc1b2c18585" name="ab9c89f9832cd492ccc5dccc1b2c18585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c89f9832cd492ccc5dccc1b2c18585">&#9670;&nbsp;</a></span>CreateWorld()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,8 +416,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::GameServer::CreateWorld </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>hash</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -458,7 +458,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>destroy a world </p>
 <dl class="section note"><dt>Note</dt><dd>The world index does not get recycled. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>The world index should be recycled. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>The world index should be recycled. </dd></dl>
 
 </div>
 </div>
@@ -1177,7 +1177,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_game_server.html">GameServer</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 17:14:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 19:29:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

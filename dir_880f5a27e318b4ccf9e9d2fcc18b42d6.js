@@ -11,11 +11,7 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     ] ],
     [ "entitypool.cc", "entitypool_8cc.html", null ],
     [ "entitypool.h", "entitypool_8h.html", [
-      [ "Game::EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],
-      [ "Game::World", "class_game_1_1_world.html", "class_game_1_1_world" ],
-      [ "Game::World::AllocateInstanceCommand", "struct_game_1_1_world_1_1_allocate_instance_command.html", "struct_game_1_1_world_1_1_allocate_instance_command" ],
-      [ "Game::World::DeallocInstanceCommand", "struct_game_1_1_world_1_1_dealloc_instance_command.html", "struct_game_1_1_world_1_1_dealloc_instance_command" ],
-      [ "Game::World::CallbackInfo", "struct_game_1_1_world_1_1_callback_info.html", "struct_game_1_1_world_1_1_callback_info" ]
+      [ "Game::EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ]
     ] ],
     [ "featureunit.cc", "featureunit_8cc.html", "featureunit_8cc" ],
     [ "featureunit.h", "featureunit_8h.html", [
@@ -34,5 +30,7 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "propertyserialization.h", "propertyserialization_8h.html", [
       [ "Game::PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ],
       [ "Game::PropertySerialization::Serializer", "struct_game_1_1_property_serialization_1_1_serializer.html", "struct_game_1_1_property_serialization_1_1_serializer" ]
-    ] ]
+    ] ],
+    [ "world.cc", "world_8cc.html", "world_8cc" ],
+    [ "world.h", "world_8h.html", "world_8h" ]
 ];

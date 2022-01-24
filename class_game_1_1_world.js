@@ -19,5 +19,6 @@ var class_game_1_1_world =
     [ "onFrameCallbacks", "class_game_1_1_world.html#a1ba8907696c61e835bdfc9b51b2d3a46", null ],
     [ "onLoadCallbacks", "class_game_1_1_world.html#af75848c679b16e2e04cf3243b0b34010", null ],
     [ "onSaveCallbacks", "class_game_1_1_world.html#a5249ce4f093cea4b04d08d83c271b451", null ],
-    [ "pool", "class_game_1_1_world.html#a181915ada91cad52e45582de41e43ae3", null ]
+    [ "pool", "class_game_1_1_world.html#a181915ada91cad52e45582de41e43ae3", null ],
+    [ "scratchOpBuffer", "class_game_1_1_world.html#ab1b4d34f88dbbbeb23caa1b5176f040b", null ]
 ];

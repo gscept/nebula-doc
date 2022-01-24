@@ -91,8 +91,6 @@ $(document).ready(function(){initNavTree('class_game_1_1_world.html',''); initRe
   <div class="headertitle"><div class="title">Game::World Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="entitypool_8h_source.html">entitypool.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -137,6 +135,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a49e853d4e21201653dd545546ccdd6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad13b7b82c38945edd6daa56d607b6823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_game_1_1_world_1_1_dealloc_instance_command.html">DeallocInstanceCommand</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#ad13b7b82c38945edd6daa56d607b6823">deallocQueue</a></td></tr>
 <tr class="separator:ad13b7b82c38945edd6daa56d607b6823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b4d34f88dbbbeb23caa1b5176f040b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#ab1b4d34f88dbbbeb23caa1b5176f040b">scratchOpBuffer</a></td></tr>
+<tr class="memdesc:ab1b4d34f88dbbbeb23caa1b5176f040b"><td class="mdescLeft">&#160;</td><td class="mdescRight">synchronous op buffer that can be used by any sync processor  <a href="class_game_1_1_world.html#ab1b4d34f88dbbbeb23caa1b5176f040b">More...</a><br /></td></tr>
+<tr class="separator:ab1b4d34f88dbbbeb23caa1b5176f040b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c2e2d1726f7c424c32ccca576d7c58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_world_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a1c2e2d1726f7c424c32ccca576d7c58b">onBeginFrameCallbacks</a></td></tr>
 <tr class="separator:a1c2e2d1726f7c424c32ccca576d7c58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ba8907696c61e835bdfc9b51b2d3a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_world_1_1_callback_info.html">CallbackInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a1ba8907696c61e835bdfc9b51b2d3a46">onFrameCallbacks</a></td></tr>
@@ -214,7 +215,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>add the table to any callback-caches that accepts it </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>When cleaning up the db, erase all tables from the cache. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>When cleaning up the db, erase all tables from the cache. </dd></dl>
 
 </div>
 </div>
@@ -429,9 +430,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>/github/workspace/code/application/game/<a class="el" href="entitypool_8h_source.html">entitypool.h</a></li>
-<li>/github/workspace/code/application/game/<a class="el" href="entitypool_8cc.html">entitypool.cc</a></li>
+<a id="ab1b4d34f88dbbbeb23caa1b5176f040b" name="ab1b4d34f88dbbbeb23caa1b5176f040b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b4d34f88dbbbeb23caa1b5176f040b">&#9670;&nbsp;</a></span>scratchOpBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> Game::World::scratchOpBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>synchronous op buffer that can be used by any sync processor </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>/github/workspace/code/application/game/<a class="el" href="world_8cc.html">world.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -440,7 +456,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 17:14:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 19:29:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
