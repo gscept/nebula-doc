@@ -1,9 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"struct_dynui_1_1_imgui_console_1_1_log_entry.html":[8,0,16,2,0],
-"struct_dynui_1_1_imgui_console_1_1_log_entry.html":[9,0,15,2,0],
-"struct_dynui_1_1_imgui_console_1_1_log_entry.html#a0fb45c5d5c97e24e97b28220c40ff426":[8,0,16,2,0,1],
-"struct_dynui_1_1_imgui_console_1_1_log_entry.html#a0fb45c5d5c97e24e97b28220c40ff426":[9,0,15,2,0,1],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#adb12118e11005e56d3f2f13e12344f6f":[8,0,16,2,0,0],
 "struct_dynui_1_1_imgui_console_1_1_log_entry.html#adb12118e11005e56d3f2f13e12344f6f":[9,0,15,2,0,0],
 "struct_dynui_1_1_imgui_context_1_1_imgui_state.html":[8,0,16,4,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX127 =
 "struct_frame_1_1_frame_plugin_1_1_compiled_impl.html#a61d0ee387fa6b8fa87860fa2888911b5":[9,0,19,10,0,0],
 "struct_frame_1_1_frame_plugin_1_1_compiled_impl.html#afa953964384e144644c8d3439906c20e":[9,0,19,10,0,2],
 "struct_frame_1_1_frame_plugin_1_1_compiled_impl.html#afa953964384e144644c8d3439906c20e":[8,0,21,10,0,2],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[9,0,19,14,0]
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[9,0,19,14,0],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[8,0,21,14,0],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d":[8,0,21,14,0,1],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d":[9,0,19,14,0,1],
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a64d937b035ea20e327d82018684f3606":[9,0,19,14,0,0]
 };

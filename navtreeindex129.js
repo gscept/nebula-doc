@@ -1,9 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"struct_game_1_1_template_id.html":[9,0,21,23],
-"struct_game_1_1_time_manager_1_1_state.html":[9,0,21,1,0],
-"struct_game_1_1_time_manager_1_1_state.html":[8,0,23,2,0],
-"struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[8,0,23,2,0,2],
 "struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[9,0,21,1,0,2],
 "struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[9,0,21,1,0,1],
 "struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[8,0,23,2,0,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX129 =
 "struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2a03424250432f2aa71de95579d2c0eaeb":[8,0,25,5,2,1],
 "struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2a6adf97f83acf6453d4a6a4b1070f3754":[9,0,23,5,2,0],
 "struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2a6adf97f83acf6453d4a6a4b1070f3754":[8,0,25,5,2,0],
-"struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2aa80420eef88d11f77532f1b9cb467fa3":[9,0,23,5,2,2]
+"struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2aa80420eef88d11f77532f1b9cb467fa3":[9,0,23,5,2,2],
+"struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2aa80420eef88d11f77532f1b9cb467fa3":[8,0,25,5,2,2],
+"struct_gltf_1_1_camera.html#a606dc7f74e86b27c5e758f35171a3b4a":[8,0,25,5,4],
+"struct_gltf_1_1_camera.html#a606dc7f74e86b27c5e758f35171a3b4a":[9,0,23,5,4],
+"struct_gltf_1_1_camera.html#adfa39476668d3a0c84b764855804e784":[8,0,25,5,6]
 };

@@ -88,7 +88,6 @@ $(document).ready(function(){initNavTree('class_jobs2_1_1_job_thread.html',''); 
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="class_jobs2_1_1_job_thread-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Jobs2::JobThread Class Reference</div></div>
 </div><!--header-->
@@ -106,6 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a954a6cbfd4247e3086dca069b2540b0b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a954a6cbfd4247e3086dca069b2540b0b">~JobThread</a> ()</td></tr>
 <tr class="memdesc:a954a6cbfd4247e3086dca069b2540b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_jobs2_1_1_job_thread.html#a954a6cbfd4247e3086dca069b2540b0b">More...</a><br /></td></tr>
 <tr class="separator:a954a6cbfd4247e3086dca069b2540b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd2ea37bd5c7765b2640ef0f4c4456d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a6bd2ea37bd5c7765b2640ef0f4c4456d">SignalWorkAvailable</a> ()</td></tr>
+<tr class="memdesc:a6bd2ea37bd5c7765b2640ef0f4c4456d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal new work available.  <a href="class_jobs2_1_1_job_thread.html#a6bd2ea37bd5c7765b2640ef0f4c4456d">More...</a><br /></td></tr>
+<tr class="separator:a6bd2ea37bd5c7765b2640ef0f4c4456d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -125,18 +127,6 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a5d56c6b03a3ff244e86d4b0540be642e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a5d56c6b03a3ff244e86d4b0540be642e">wakeupEvent</a></td></tr>
 <tr class="separator:a5d56c6b03a3ff244e86d4b0540be642e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a14ea4aed021395ccf7d723dcc0e47d0a"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
-<tr class="memitem:a14ea4aed021395ccf7d723dcc0e47d0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a14ea4aed021395ccf7d723dcc0e47d0a">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent)</td></tr>
-<tr class="separator:a14ea4aed021395ccf7d723dcc0e47d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08d339ef446428497c347bbf32b6b328"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
-<tr class="memitem:a08d339ef446428497c347bbf32b6b328"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a08d339ef446428497c347bbf32b6b328">JobDispatch</a> (const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent)</td></tr>
-<tr class="separator:a08d339ef446428497c347bbf32b6b328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f03fe13d3f9d08ae5eb1172790b6d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html#a66f03fe13d3f9d08ae5eb1172790b6d0">JobEndSequence</a> (<a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent)</td></tr>
-<tr class="memdesc:a66f03fe13d3f9d08ae5eb1172790b6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush queued jobs.  <a href="class_jobs2_1_1_job_thread.html#a66f03fe13d3f9d08ae5eb1172790b6d0">More...</a><br /></td></tr>
-<tr class="separator:a66f03fe13d3f9d08ae5eb1172790b6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0358a99c219dbc531b36a9507bf31e3d" name="a0358a99c219dbc531b36a9507bf31e3d"></a>
@@ -266,162 +256,22 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a08d339ef446428497c347bbf32b6b328" name="a08d339ef446428497c347bbf32b6b328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08d339ef446428497c347bbf32b6b328">&#9670;&nbsp;</a></span>JobDispatch <span class="overload">[1/2]</span></h2>
+<a id="a6bd2ea37bd5c7765b2640ef0f4c4456d" name="a6bd2ea37bd5c7765b2640ef0f4c4456d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd2ea37bd5c7765b2640ef0f4c4456d">&#9670;&nbsp;</a></span>SignalWorkAvailable()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename CTX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void JobDispatch </td>
+          <td class="memname">void Jobs2::JobThread::SignalWorkAvailable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;&#160;</td>
-          <td class="paramname"><em>func</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>numInvocations</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const CTX &amp;&#160;</td>
-          <td class="paramname"><em>context</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>waitCounters</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *&#160;</td>
-          <td class="paramname"><em>doneCounter</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *&#160;</td>
-          <td class="paramname"><em>signalEvent</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14ea4aed021395ccf7d723dcc0e47d0a" name="a14ea4aed021395ccf7d723dcc0e47d0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14ea4aed021395ccf7d723dcc0e47d0a">&#9670;&nbsp;</a></span>JobDispatch <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename CTX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JobDispatch </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5">JobFunc</a> &amp;&#160;</td>
-          <td class="paramname"><em>func</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>numInvocations</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>groupSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const CTX &amp;&#160;</td>
-          <td class="paramname"><em>context</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>waitCounters</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *&#160;</td>
-          <td class="paramname"><em>doneCounter</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *&#160;</td>
-          <td class="paramname"><em>signalEvent</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66f03fe13d3f9d08ae5eb1172790b6d0" name="a66f03fe13d3f9d08ae5eb1172790b6d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f03fe13d3f9d08ae5eb1172790b6d0">&#9670;&nbsp;</a></span>JobEndSequence</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JobEndSequence </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *&#160;</td>
-          <td class="paramname"><em>signalEvent</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Flush queued jobs. </p>
+<p>Signal new work available. </p>
 
 </div>
 </div>
@@ -459,7 +309,7 @@ template&lt;typename CTX &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs2.html">Jobs2</a></li><li class="navelem"><a class="el" href="class_jobs2_1_1_job_thread.html">JobThread</a></li>
 				<li class="footer">
-					Generated on Mon Jan 24 2022 00:43:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 24 2022 00:56:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

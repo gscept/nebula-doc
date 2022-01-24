@@ -1,9 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"graphicsdevice_8h.html#a06c7bed2cbeb84fba9bf9cd1d0949f64":[10,0,0,6,5,30,83],
-"graphicsdevice_8h.html#a096fa95dd4aead0b90a23e34a5244d7b":[10,0,0,6,5,30,39],
-"graphicsdevice_8h.html#a0b7615dac1b5f7d43d15074d0edb8f8c":[10,0,0,6,5,30,71],
-"graphicsdevice_8h.html#a0fa69b3b5a16b768a4bf763a84d86208":[10,0,0,6,5,30,18],
 "graphicsdevice_8h.html#a12f72cd87096fae04da33e93d233e995":[10,0,0,6,5,30,12],
 "graphicsdevice_8h.html#a13d8cbdb616a00f76ee620b8bbbbe5e3":[10,0,0,6,5,30,58],
 "graphicsdevice_8h.html#a149180fd4edd7f7053554a08706907f9":[10,0,0,6,5,30,68],
@@ -249,5 +245,9 @@ var NAVTREEINDEX97 =
 "httpserver_8h_source.html":[10,0,0,3,6,33],
 "httpserverproxy_8cc.html":[10,0,0,3,6,34],
 "httpserverproxy_8cc.html#a50dc0322d2f06f116f2da8a034e5e413":[10,0,0,3,6,34,0],
-"httpserverproxy_8cc.html#a964dda6f1ae88170e1b8d157b09eb99d":[10,0,0,3,6,34,1]
+"httpserverproxy_8cc.html#a964dda6f1ae88170e1b8d157b09eb99d":[10,0,0,3,6,34,1],
+"httpserverproxy_8h.html":[10,0,0,3,6,35],
+"httpserverproxy_8h.html#a1018c97d8cd2f3bebdbd9f6374c5b163":[10,0,0,3,6,35,1],
+"httpserverproxy_8h_source.html":[10,0,0,3,6,35],
+"httpstatus_8cc.html":[10,0,0,3,6,36]
 };

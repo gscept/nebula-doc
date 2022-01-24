@@ -1,9 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[8,0,21,14,0],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d":[8,0,21,14,0,1],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d":[9,0,19,14,0,1],
-"struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a64d937b035ea20e327d82018684f3606":[9,0,19,14,0,0],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a64d937b035ea20e327d82018684f3606":[8,0,21,14,0,0],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a7d03378d02f159abc7c1d10e36d10128":[8,0,21,14,0,4],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a7d03378d02f159abc7c1d10e36d10128":[9,0,19,14,0,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX128 =
 "struct_game_1_1_property_serialization_1_1_serializer.html#a1b9e612390dfc86e0205225a228d2fd3":[8,0,23,23,0,0],
 "struct_game_1_1_property_serialization_1_1_serializer.html#a9dd6d0bb6e09c44889a599c3d016aa54":[8,0,23,23,0,1],
 "struct_game_1_1_property_serialization_1_1_serializer.html#a9dd6d0bb6e09c44889a599c3d016aa54":[9,0,21,22,0,1],
-"struct_game_1_1_template_id.html":[8,0,23,24]
+"struct_game_1_1_template_id.html":[8,0,23,24],
+"struct_game_1_1_template_id.html":[9,0,21,23],
+"struct_game_1_1_time_manager_1_1_state.html":[9,0,21,1,0],
+"struct_game_1_1_time_manager_1_1_state.html":[8,0,23,2,0],
+"struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[8,0,23,2,0,2]
 };

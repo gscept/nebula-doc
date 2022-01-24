@@ -1,9 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"namespace_terrain.html#a495872e168e40961f2c352c50cc7ebbc":[8,0,64,84],
-"namespace_terrain.html#a4b9815e44040c4e3e16cf918c75cea48":[8,0,64,86],
-"namespace_terrain.html#a4ba249c22935432a4cc97d1a25acacbb":[8,0,64,98],
-"namespace_terrain.html#a53747bbfa21f4073354d34fee0971f96":[8,0,64,63],
 "namespace_terrain.html#a54335854fc22619a04453ed8b3a91404":[8,0,64,90],
 "namespace_terrain.html#a553c20392dd54d5e17bc3fb360890d7b":[8,0,64,19],
 "namespace_terrain.html#a568a5cb951dde3662d76877bef4d4e16":[8,0,64,73],
@@ -249,5 +245,9 @@ var NAVTREEINDEX112 =
 "namespace_vulkan.html#a04f5b266d83bd40d29a9d4702397fe3f":[8,0,71,188],
 "namespace_vulkan.html#a06a18e7d5a8a8e8f75495d1cf4b13d54":[8,0,71,184],
 "namespace_vulkan.html#a083f8e7df044a4903222c35fccad892c":[8,0,71,108],
-"namespace_vulkan.html#a08dfa7df807436cb43cbd40793b22cf8":[8,0,71,137]
+"namespace_vulkan.html#a08dfa7df807436cb43cbd40793b22cf8":[8,0,71,137],
+"namespace_vulkan.html#a097e8699bfb73f49310273d5f221c9f9":[8,0,71,121],
+"namespace_vulkan.html#a0b4827f02e28518f08cedd72c907f2b2":[8,0,71,66],
+"namespace_vulkan.html#a0bca54d813af90a92f4a20a872e2c78c":[8,0,71,107],
+"namespace_vulkan.html#a0cc9677d592393abbbe0f701c0b835d1":[8,0,71,177]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"struct_vegetation_1_1_vegetation_setup_settings.html#a526732f7f24b217b0645e6424e7d2654":[9,0,60,6,5],
-"struct_vegetation_1_1_vegetation_setup_settings.html#a526732f7f24b217b0645e6424e7d2654":[8,0,69,6,5],
-"struct_vegetation_1_1_vegetation_setup_settings.html#a52f907b3267b42e13b4787fe22dd2ead":[9,0,60,6,3],
-"struct_vegetation_1_1_vegetation_setup_settings.html#a52f907b3267b42e13b4787fe22dd2ead":[8,0,69,6,3],
 "struct_vegetation_1_1_vegetation_setup_settings.html#abb5f24a5bac6b7f669b720f34c18016e":[9,0,60,6,0],
 "struct_vegetation_1_1_vegetation_setup_settings.html#abb5f24a5bac6b7f669b720f34c18016e":[8,0,69,6,0],
 "struct_vegetation_1_1_vegetation_setup_settings.html#ad53da91f92584d1a842de0fb4fac4b8d":[9,0,60,6,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX142 =
 "struct_vulkan_1_1_graphics_device_state.html#ab31099df427f56f702119cbca79ef362":[9,0,62,2,34],
 "struct_vulkan_1_1_graphics_device_state.html#ab31099df427f56f702119cbca79ef362":[8,0,71,2,34],
 "struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd":[9,0,62,2,41],
-"struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd":[8,0,71,2,41]
+"struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd":[8,0,71,2,41],
+"struct_vulkan_1_1_graphics_device_state.html#ab689ef54aa2ce8fde1603a590d336ca2":[9,0,62,2,35],
+"struct_vulkan_1_1_graphics_device_state.html#ab689ef54aa2ce8fde1603a590d336ca2":[8,0,71,2,35],
+"struct_vulkan_1_1_graphics_device_state.html#ab95a254d75b2523d8a5636becfb742f0":[9,0,62,2,38],
+"struct_vulkan_1_1_graphics_device_state.html#ab95a254d75b2523d8a5636becfb742f0":[8,0,71,2,38]
 };
