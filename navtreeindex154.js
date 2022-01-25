@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"vkresourcetable_8cc.html#aff135cb5485661bc9fea2b4283ecbf8d":[10,0,0,6,5,5,33,16],
 "vkresourcetable_8h.html":[10,0,0,6,5,5,34],
 "vkresourcetable_8h.html#a196da1dcc2615daed9a3bf3fb0ad37fc":[10,0,0,6,5,5,34,9],
 "vkresourcetable_8h.html#a40d3768f588d8973bab9140d33bdba6f":[10,0,0,6,5,5,34,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "win32cpu_8h.html":[10,0,0,3,17,4,0],
 "win32cpu_8h_source.html":[10,0,0,3,17,4,0],
 "win32criticalsection_8cc.html":[10,0,0,3,18,5,1],
-"win32criticalsection_8h.html":[10,0,0,3,18,5,2],
-"win32criticalsection_8h.html#a04b575446acc6fe7ec8b6d213eab2082":[10,0,0,3,18,5,2,1]
+"win32criticalsection_8h.html":[10,0,0,3,18,5,2]
 };

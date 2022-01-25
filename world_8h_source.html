@@ -128,10 +128,10 @@ $(document).ready(function(){initNavTree('world_8h_source.html',''); initResizab
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><a class="code hl_class" href="class_ptr.html">Ptr&lt;MemDb::Database&gt;</a> <a class="code hl_function" href="namespace_game.html#a7daa20c80f5d333deeb786b0dfd4c8fc">GetWorldDatabase</a>(<a class="code hl_class" href="class_game_1_1_world.html">World</a>*);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_game.html#a42aa58432b89dc8f89812e64c85b790d">WorldOverride</a>(<a class="code hl_class" href="class_game_1_1_world.html">World</a>* src, <a class="code hl_class" href="class_game_1_1_world.html">World</a>* dst);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>} <span class="comment">// namespace Game</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>} <span class="comment">// namespace Game</span></div>
 <div class="ttc" id="aclass_game_1_1_world_html"><div class="ttname"><a href="class_game_1_1_world.html">Game::World</a></div><div class="ttdef"><b>Definition:</b> world.cc:36</div></div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition:</b> ptr.h:39</div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition:</b> blueprintmanager.cc:14</div></div>
@@ -139,6 +139,7 @@ $(document).ready(function(){initNavTree('world_8h_source.html',''); initResizab
 <div class="ttc" id="anamespace_game_html_a12457a1e75ab14d15d5ce5ce08771e11"><div class="ttname"><a href="namespace_game.html#a12457a1e75ab14d15d5ce5ce08771e11">Game::WorldSimFrame</a></div><div class="ttdeci">void WorldSimFrame(World *world)</div><div class="ttdef"><b>Definition:</b> world.cc:188</div></div>
 <div class="ttc" id="anamespace_game_html_a3210076ff42bb92806741300ba14b265"><div class="ttname"><a href="namespace_game.html#a3210076ff42bb92806741300ba14b265">Game::OpBuffer</a></div><div class="ttdeci">uint32_t OpBuffer</div><div class="ttdoc">Opaque entity operations buffer.</div><div class="ttdef"><b>Definition:</b> api.h:73</div></div>
 <div class="ttc" id="anamespace_game_html_a41ef0811e70a3c3de74a766c986b4d5f"><div class="ttname"><a href="namespace_game.html#a41ef0811e70a3c3de74a766c986b4d5f">Game::WorldRenderDebug</a></div><div class="ttdeci">void WorldRenderDebug(World *world)</div><div class="ttdef"><b>Definition:</b> world.cc:1128</div></div>
+<div class="ttc" id="anamespace_game_html_a42aa58432b89dc8f89812e64c85b790d"><div class="ttname"><a href="namespace_game.html#a42aa58432b89dc8f89812e64c85b790d">Game::WorldOverride</a></div><div class="ttdeci">void WorldOverride(World *src, World *dst)</div><div class="ttdoc">copies and overrides dst with src. This is extremely destructive - make sure you understand the impli...</div><div class="ttdef"><b>Definition:</b> world.cc:1238</div></div>
 <div class="ttc" id="anamespace_game_html_a50b42690ff6280d3636c9a1dbbd5fb4f"><div class="ttname"><a href="namespace_game.html#a50b42690ff6280d3636c9a1dbbd5fb4f">Game::WorldEndFrame</a></div><div class="ttdeci">void WorldEndFrame(World *world)</div><div class="ttdef"><b>Definition:</b> world.cc:203</div></div>
 <div class="ttc" id="anamespace_game_html_a53512ac5c9322963d519b00d94f04cff"><div class="ttname"><a href="namespace_game.html#a53512ac5c9322963d519b00d94f04cff">Game::DeallocateWorld</a></div><div class="ttdeci">void DeallocateWorld(World *world)</div><div class="ttdef"><b>Definition:</b> world.cc:164</div></div>
 <div class="ttc" id="anamespace_game_html_a55b0a6efae719fca4a68700c0044d849"><div class="ttname"><a href="namespace_game.html#a55b0a6efae719fca4a68700c0044d849">Game::WorldOnSave</a></div><div class="ttdeci">void WorldOnSave(World *world)</div><div class="ttdef"><b>Definition:</b> world.cc:232</div></div>
@@ -161,7 +162,7 @@ $(document).ready(function(){initNavTree('world_8h_source.html',''); initResizab
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="world_8h.html">world.h</a></li>
 				<li class="footer">
-					Generated on Tue Jan 25 2022 16:49:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Jan 25 2022 16:54:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

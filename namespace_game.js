@@ -124,6 +124,7 @@ var namespace_game =
     [ "WorldManageEntities", "namespace_game.html#ac0b5fbd193ab12ee643d7db6ce4bc783", null ],
     [ "WorldOnLoad", "namespace_game.html#a94b0f6610b3bca2c9ce5e95868e26f2c", null ],
     [ "WorldOnSave", "namespace_game.html#a55b0a6efae719fca4a68700c0044d849", null ],
+    [ "WorldOverride", "namespace_game.html#a42aa58432b89dc8f89812e64c85b790d", null ],
     [ "WorldPrefiltered", "namespace_game.html#ab2dfbbf0e5b2f8fdc04b634f4bc3cd30", null ],
     [ "WorldPrefilterProcessors", "namespace_game.html#ac492b129ee90bda603fc2d0affe6ef9a", null ],
     [ "WorldRenderDebug", "namespace_game.html#a41ef0811e70a3c3de74a766c986b4d5f", null ],
