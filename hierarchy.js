@@ -455,6 +455,7 @@ var hierarchy =
     [ "Particles::EmitterAttrs::IntAttributes", "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html", null ],
     [ "Interface", "class_i_o_1_1_interface.html", null ],
     [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
+    [ "Materials::ShaderConfigVariant::InternalType", "struct_materials_1_1_shader_config_variant_1_1_internal_type.html", null ],
     [ "Memory::RingAllocator< SYNCPOINTS >::Interval", "struct_memory_1_1_ring_allocator_1_1_interval.html", null ],
     [ "Attr::IntTypeClass", "class_attr_1_1_int_type_class.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],

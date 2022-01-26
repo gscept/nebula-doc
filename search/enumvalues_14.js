@@ -49,7 +49,7 @@ var searchData=
   ['textureextension_5fsparsependingbinds_46',['TextureExtension_SparsePendingBinds',['../namespace_vulkan.html#a6b05f8aa2b7df30f376d11c7efdef567a07a12c122be00ef8eba3b3ced82d9f89',1,'Vulkan']]],
   ['textureextension_5fstencilinfo_47',['TextureExtension_StencilInfo',['../namespace_vulkan.html#a9cb6a9e3522a15c4f8706ad0a7a0750daef9f64780e54901c9940339711a70d41',1,'Vulkan']]],
   ['textureextension_5fswapinfo_48',['TextureExtension_SwapInfo',['../namespace_vulkan.html#ae59ea9369576f35fdf7f8b1e6c263741a0e035a19f8e1140354e97a22d7976fdc',1,'Vulkan']]],
-  ['texturehandle_49',['TextureHandle',['../struct_materials_1_1_shader_config_variant.html#a1338c52dc11e9b1873977ec33421330ea6ae75b3ce8e87dbaac31cbfaead3d9c4',1,'Materials::ShaderConfigVariant']]],
+  ['texturehandle_49',['TextureHandle',['../struct_materials_1_1_shader_config_variant.html#a169bedd455125458f51d5a826638ed41a6ae75b3ce8e87dbaac31cbfaead3d9c4',1,'Materials::ShaderConfigVariant']]],
   ['texturehandletype_50',['TextureHandleType',['../namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0eac0c63e0146fa69d2504ae2323c302cd2',1,'CoreGraphics']]],
   ['textureidtype_51',['TextureIdType',['../namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa9ee3859548fee3328a15cbf2b7530ca7',1,'CoreGraphics']]],
   ['texturemap_52',['TextureMap',['../class_materials_1_1_shader_config.html#a44a3f8cf7dc4933c92c5efd13bebf045aca23dfea89c46e01b13b4f19af4d53f5',1,'Materials::ShaderConfig']]],

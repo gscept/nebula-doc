@@ -11,6 +11,7 @@ var dir_8a73ff51bed2503411b1d33e42562129 =
     [ "shaderconfig.cc", "shaderconfig_8cc.html", null ],
     [ "shaderconfig.h", "shaderconfig_8h.html", [
       [ "Materials::ShaderConfigVariant", "struct_materials_1_1_shader_config_variant.html", "struct_materials_1_1_shader_config_variant" ],
+      [ "Materials::ShaderConfigVariant::InternalType", "struct_materials_1_1_shader_config_variant_1_1_internal_type.html", "struct_materials_1_1_shader_config_variant_1_1_internal_type" ],
       [ "Materials::ShaderConfigVariant::TextureHandleTuple", "struct_materials_1_1_shader_config_variant_1_1_texture_handle_tuple.html", "struct_materials_1_1_shader_config_variant_1_1_texture_handle_tuple" ],
       [ "Materials::ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],
       [ "Materials::ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],

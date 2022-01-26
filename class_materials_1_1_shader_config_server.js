@@ -4,7 +4,7 @@ var class_materials_1_1_shader_config_server =
     [ "~ShaderConfigServer", "class_materials_1_1_shader_config_server.html#a49753ccd3a62123a52c1eee2a30c7756", null ],
     [ "__DeclareClass", "class_materials_1_1_shader_config_server.html#a5d9f8f431e3c66161ea5789cff5cbd1b", null ],
     [ "__DeclareInterfaceSingleton", "class_materials_1_1_shader_config_server.html#aeefffc4d7f1cb691530d1072c9c6664b", null ],
-    [ "AllocateVariantMemory", "class_materials_1_1_shader_config_server.html#a0ad8a6b6e221c6ed953753dbc8cb8a2e", null ],
+    [ "AllocateVariantMemory", "class_materials_1_1_shader_config_server.html#aac61292fa50db6cb81f21af39e79dc22", null ],
     [ "Close", "class_materials_1_1_shader_config_server.html#aa38973c2705fc13c6d60004bffc81abe", null ],
     [ "GetShaderConfig", "class_materials_1_1_shader_config_server.html#a0e3d59a8a6bfcda641c0249d4c2b7321", null ],
     [ "GetShaderConfigsByBatch", "class_materials_1_1_shader_config_server.html#a656f6fafd6b1cd7533549f88d57f0a14", null ],
