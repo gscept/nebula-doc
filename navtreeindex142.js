@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"struct_threading_1_1_lock_free_queue_1_1_node.html#af7ab52115824ea752658473e4424a0cb":[9,0,58,4,0,0],
+"struct_threading_1_1_lock_free_queue_1_1_node.html#afe64430b1e6441bc605b4b73c6f97754":[8,0,65,4,0,1],
 "struct_threading_1_1_lock_free_queue_1_1_node.html#afe64430b1e6441bc605b4b73c6f97754":[9,0,58,4,0,1],
 "struct_ti_xml_base_1_1_entity.html":[9,0,156,0],
 "struct_ti_xml_base_1_1_entity.html#a22e8d820894d3360b01fed110badb876":[9,0,156,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a147234e8f95a82be494bba3daf9c31d1":[8,0,70,13,1,3],
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a147234e8f95a82be494bba3daf9c31d1":[9,0,61,13,1,3],
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a4598e3b32b96a775279c23a0ed8e83b5":[8,0,70,13,1,1],
-"struct_visibility_1_1_visibility_system_1_1_observer.html#a4598e3b32b96a775279c23a0ed8e83b5":[9,0,61,13,1,1],
-"struct_visibility_1_1_visibility_system_1_1_observer.html#aa2522cc71961471f95e1313a3637861c":[9,0,61,13,1,2],
-"struct_visibility_1_1_visibility_system_1_1_observer.html#aa2522cc71961471f95e1313a3637861c":[8,0,70,13,1,2]
+"struct_visibility_1_1_visibility_system_1_1_observer.html#a4598e3b32b96a775279c23a0ed8e83b5":[9,0,61,13,1,1]
 };

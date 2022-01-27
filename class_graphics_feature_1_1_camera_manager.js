@@ -6,6 +6,7 @@ var class_graphics_feature_1_1_camera_manager =
     [ "__DeclareSingleton", "class_graphics_feature_1_1_camera_manager.html#ad26ea6a83b0b4527f8bfeec6841525a5", null ],
     [ "Create", "class_graphics_feature_1_1_camera_manager.html#a3823604a37eddc81ff786c05de2a4f7c", null ],
     [ "Destroy", "class_graphics_feature_1_1_camera_manager.html#aaafe13534590d962ce7b609283f2fc01", null ],
+    [ "GetLocalTransform", "class_graphics_feature_1_1_camera_manager.html#aeb2e20bf11395e98f1ba3f3a03397408", null ],
     [ "GetProjection", "class_graphics_feature_1_1_camera_manager.html#ad195bbb33664381f2ea9030abbbfbd20", null ],
     [ "InitUpdateCameraProcessor", "class_graphics_feature_1_1_camera_manager.html#aa25c10c020e99bb50c06b62b9f4e78be", null ],
     [ "IsViewHandleValid", "class_graphics_feature_1_1_camera_manager.html#a8eb142cf84589a7f964a8301c0785a2e", null ],

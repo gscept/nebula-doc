@@ -162,7 +162,7 @@ Creating Nebula Objects</h2>
 <p >Nebula objects that are derived from <a class="el" href="class_core_1_1_ref_counted.html" title="The common base class of Nebula.">Core::RefCounted</a> can be created in 3 different ways:</p>
 <p >Directly through the static create method: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_ptr.html">Ptr&lt;MyClass&gt;</a> myObj = <a class="code hl_function" href="namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f">MyClass::Create</a>();</div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition:</b> ptr.h:39</div></div>
-<div class="ttc" id="anamespace_game_1_1_time_manager_html_a18c6aa9e2f022cec2293bc8ba843ac6f"><div class="ttname"><a href="namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f">Game::TimeManager::Create</a></div><div class="ttdeci">Game::ManagerAPI Create()</div><div class="ttdoc">create the singleton</div><div class="ttdef"><b>Definition:</b> timemanager.cc:65</div></div>
+<div class="ttc" id="anamespace_game_1_1_time_manager_html_a18c6aa9e2f022cec2293bc8ba843ac6f"><div class="ttname"><a href="namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f">Game::TimeManager::Create</a></div><div class="ttdeci">Game::ManagerAPI Create()</div><div class="ttdoc">create the singleton</div><div class="ttdef"><b>Definition:</b> timemanager.cc:68</div></div>
 </div><!-- fragment --><p> The static <a class="el" href="namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f" title="create the singleton">Create()</a> method is added to the class through the DeclareClass() macro described before. This is basically just syntactic sugar for the C++ operator::new(). In fact, the <a class="el" href="namespace_game_1_1_time_manager.html#a18c6aa9e2f022cec2293bc8ba843ac6f" title="create the singleton">Create()</a> method is nothing more then an inline method with a call to the new operator inside. Also note the correct use of a smart pointer to hold the new object.</p>
 <p >Another way to create a Nebula method is by class name: </p><div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_core.html">Core</a>;</div>
 <div class="line"><a class="code hl_class" href="class_ptr.html">Ptr&lt;MyClass&gt;</a> myObj = (MyClass*) Factory::Instance()-&gt;Create(<span class="stringliteral">&quot;MyNamespace::MyClass&quot;</span>);</div>
@@ -273,7 +273,7 @@ Performance And Memory Footprint Considerations</h2>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Wed Jan 26 2022 18:47:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jan 27 2022 13:31:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[9,0,62,27,0],
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[8,0,71,27,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[9,0,62,27,0,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[8,0,71,27,0,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a9698dbc0bb2377298b98c48385eee5f1":[8,0,71,27,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "submissioncontext_8h_source.html":[10,0,0,6,5,81],
 "svglinechartwriter_8cc.html":[10,0,0,3,6,4,0],
 "svglinechartwriter_8cc.html#a6dfd7828a917c53c2d4740f2eee04c92":[10,0,0,3,6,4,0,0],
-"svglinechartwriter_8h.html":[10,0,0,3,6,4,1],
-"svglinechartwriter_8h_source.html":[10,0,0,3,6,4,1],
-"svgpagewriter_8cc.html":[10,0,0,3,6,4,2]
+"svglinechartwriter_8h.html":[10,0,0,3,6,4,1]
 };

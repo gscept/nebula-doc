@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"win32barrier_8h_source.html":[10,0,0,3,18,5,0],
+"win32calendartime_8cc.html":[10,0,0,3,19,3,0],
 "win32calendartime_8h.html":[10,0,0,3,19,3,1],
 "win32calendartime_8h.html#a58fdec10f062d5648ad4749e41993f32":[10,0,0,3,19,3,1,1],
 "win32calendartime_8h_source.html":[10,0,0,3,19,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "world_8cc.html#a670623f3a82b07d6e43fe76c5e39a077":[10,0,0,1,3,19,4],
 "world_8cc.html#a6790584834c22bd67ecc217cd70622d0":[10,0,0,1,3,19,54],
 "world_8cc.html#a68055a027b50b228bd270d1d0594e22a":[10,0,0,1,3,19,10],
-"world_8cc.html#a6c0eb1f6f961c1806c432ae42be2d4ba":[10,0,0,1,3,19,29],
-"world_8cc.html#a7daa20c80f5d333deeb786b0dfd4c8fc":[10,0,0,1,3,19,33],
-"world_8cc.html#a7e19a801974c0ea64e0c8c48bc950959":[10,0,0,1,3,19,52]
+"world_8cc.html#a6c0eb1f6f961c1806c432ae42be2d4ba":[10,0,0,1,3,19,29]
 };

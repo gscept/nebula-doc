@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_graphics_1_1_graphics_device_state.html#a54422378743744d8fd8bb8ca87c7800a":[8,0,11,35,33],
+"struct_core_graphics_1_1_graphics_device_state.html#a54422378743744d8fd8bb8ca87c7800a":[9,0,10,35,33],
 "struct_core_graphics_1_1_graphics_device_state.html#a5758f746425d4cf5ce694271e589b6b3":[9,0,10,35,30],
 "struct_core_graphics_1_1_graphics_device_state.html#a5758f746425d4cf5ce694271e589b6b3":[8,0,11,35,30],
 "struct_core_graphics_1_1_graphics_device_state.html#a6a8192294f0e97f39d158d7a477b28e1":[9,0,10,35,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[9,0,10,46,11],
 "struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[8,0,11,46,11],
 "struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[9,0,10,46,1],
-"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[8,0,11,46,1],
-"struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[9,0,10,46,2],
-"struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[8,0,11,46,2]
+"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[8,0,11,46,1]
 };

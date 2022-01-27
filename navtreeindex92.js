@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"class_win32_1_1_win32_timer.html#af545d9cbd85dd9b73d63f6a86c10c4c1":[9,0,63,26,2],
+"class_win32_1_1_win_thread_id.html":[9,0,177],
 "classcore.html":[9,0,78],
 "classes.html":[9,1],
 "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html":[8,0,56,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "debug_8h.html#a1fe0f2d584e94d301bb05770db9ec822":[10,0,0,3,1,10,14],
 "debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa":[10,0,0,3,1,10,1],
 "debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf":[10,0,0,3,1,10,2],
-"debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f":[10,0,0,3,1,10,5],
-"debug_8h.html#a68cbfb7bd2ffad6a6721573e1bc03bfd":[10,0,0,3,1,10,19],
-"debug_8h.html#a85120895df29b333216418d9a258b476":[10,0,0,3,1,10,3]
+"debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f":[10,0,0,3,1,10,5]
 };

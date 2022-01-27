@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"frameblit_8cc.html":[10,0,0,6,9,3],
+"frameblit_8h.html":[10,0,0,6,9,4],
 "frameblit_8h_source.html":[10,0,0,6,9,4],
 "framecompute_8cc.html":[10,0,0,6,9,5],
 "framecompute_8h.html":[10,0,0,6,9,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "glfwinputdisplayeventhandler_8cc.html":[10,0,0,6,11,0,0],
 "glfwinputdisplayeventhandler_8cc.html#a1836498e78a357d4b78f2e8ee77cf6e0":[10,0,0,6,11,0,0,0],
 "glfwinputdisplayeventhandler_8h.html":[10,0,0,6,11,0,1],
-"glfwinputdisplayeventhandler_8h_source.html":[10,0,0,6,11,0,1],
-"glfwinputserver_8cc.html":[10,0,0,4,0,1,0],
-"glfwinputserver_8cc.html#a8e1b76acc101f942dfcf0aae421ea2c5":[10,0,0,4,0,1,0,0]
+"glfwinputdisplayeventhandler_8h_source.html":[10,0,0,6,11,0,1]
 };

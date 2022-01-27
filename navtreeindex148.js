@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"svglinechartwriter_8h_source.html":[10,0,0,3,6,4,1],
+"svgpagewriter_8cc.html":[10,0,0,3,6,4,2],
 "svgpagewriter_8cc.html#a39fdea717b035374ea157170408c8e60":[10,0,0,3,6,4,2,0],
 "svgpagewriter_8h.html":[10,0,0,3,6,4,3],
 "svgpagewriter_8h.html#ac3539916f01a4974e9660a34457c2ca6":[10,0,0,3,6,4,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b":[10,0,0,6,5,87,12,3],
 "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1aaaad069f31b3dfe127171658b817e51b":[10,0,0,6,5,87,12,5],
 "texture_8h.html#a681ca42742705b52ab6b70ff516261ee":[10,0,0,6,5,87,49],
-"texture_8h.html#a6b2308ed69f339e21d38bba252611f1d":[10,0,0,6,5,87,10],
-"texture_8h.html#a6b2308ed69f339e21d38bba252611f1da183d04c0aae822d0ae788c5400adf3bf":[10,0,0,6,5,87,10,1],
-"texture_8h.html#a6b2308ed69f339e21d38bba252611f1da4053da55d34d61e8f6a5a58b053e9ff2":[10,0,0,6,5,87,10,3]
+"texture_8h.html#a6b2308ed69f339e21d38bba252611f1d":[10,0,0,6,5,87,10]
 };
