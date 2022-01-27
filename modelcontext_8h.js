@@ -11,6 +11,5 @@ var modelcontext_8h =
       [ "NodeInstance_AlwaysVisible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248", null ],
       [ "NodeInstance_Visible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a", null ],
       [ "NodeInstance_Moved", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877", null ]
-    ] ],
-    [ "VisibilitySortJob", "modelcontext_8h.html#a0c00bcc23906962f0c8c8821dc860830", null ]
+    ] ]
 ];

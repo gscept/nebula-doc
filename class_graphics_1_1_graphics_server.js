@@ -40,7 +40,6 @@ var class_graphics_1_1_graphics_server =
     [ "graphicsDevice", "class_graphics_1_1_graphics_server.html#ac5ee010ecaff55497d7e83275de6746a", null ],
     [ "isOpen", "class_graphics_1_1_graphics_server.html#a9369bbc0a22adbd112fedda3990e8878", null ],
     [ "materialServer", "class_graphics_1_1_graphics_server.html#a1311740fe01c0362f38d02d5bafb86e1", null ],
-    [ "renderSystemsJobPort", "class_graphics_1_1_graphics_server.html#acfc1de5b4e0da7d8bc763a8576d5b3d4", null ],
     [ "shaderServer", "class_graphics_1_1_graphics_server.html#a8505372bce399a9401a9631d19e6d8af", null ],
     [ "shapeRenderer", "class_graphics_1_1_graphics_server.html#a7d1614eca4433f4061631ffe350561d4", null ],
     [ "stages", "class_graphics_1_1_graphics_server.html#a8aac506aa8446a01bd5323782c312d68", null ],

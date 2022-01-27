@@ -27,11 +27,7 @@ var class_models_1_1_model_context =
     [ "Setup", "class_models_1_1_model_context.html#ab5a3ec5a4d6a067631c15719d9273a5e", null ],
     [ "UpdateConstants", "class_models_1_1_model_context.html#af11a22c8d0d359341e8af9309141cb71", null ],
     [ "UpdateTransforms", "class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df", null ],
-    [ "ModelRenderableUpdateJob", "class_models_1_1_model_context.html#a857aff960847b6625d422fc474ed3bef", null ],
-    [ "ModelTransformUpdateJob", "class_models_1_1_model_context.html#a8cd292ae8bf9790aad21fac9fe585f0a", null ],
     [ "VisibilityContext", "class_models_1_1_model_context.html#a509a5aab5489f1b0775e002d97e178f5", null ],
-    [ "jobHostSync", "class_models_1_1_model_context.html#af05a01958f88aeba085f88fba8b11194", null ],
-    [ "jobInternalSync", "class_models_1_1_model_context.html#a1f61d30afb46f40ab0e45981af02e971", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
     [ "nodeInstances", "class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b", null ]
 ];

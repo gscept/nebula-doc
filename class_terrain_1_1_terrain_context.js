@@ -20,8 +20,6 @@ var class_terrain_1_1_terrain_context =
     [ "SetBiomeSlopeThreshold", "class_terrain_1_1_terrain_context.html#a66d31c9334a61683fb60c316dcf1153d", null ],
     [ "SetupTerrain", "class_terrain_1_1_terrain_context.html#aa9464f6f51a9a449d86b995b49522c34", null ],
     [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#ac360ac01ab7dc9a5368add4fd9af9586", null ],
-    [ "jobHostSync", "class_terrain_1_1_terrain_context.html#ad367c90664e148890031c472ebe11a9a", null ],
-    [ "runningJobs", "class_terrain_1_1_terrain_context.html#a500427a1362b0254f4c3ced62e210460", null ],
     [ "terrainAllocator", "class_terrain_1_1_terrain_context.html#a785a9c05be711e76a56eb157c273c22c", null ],
     [ "terrainBiomeAllocator", "class_terrain_1_1_terrain_context.html#abeb472f0e4040aa1739c0fa8f5bbbc06", null ]
 ];

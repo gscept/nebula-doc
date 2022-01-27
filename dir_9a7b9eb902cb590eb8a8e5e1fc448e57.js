@@ -23,7 +23,10 @@ var dir_9a7b9eb902cb590eb8a8e5e1fc448e57 =
       [ "Models::PrimitiveNode", "class_models_1_1_primitive_node.html", "class_models_1_1_primitive_node" ]
     ] ],
     [ "shaderstatenode.cc", "shaderstatenode_8cc.html", null ],
-    [ "shaderstatenode.h", "shaderstatenode_8h.html", "shaderstatenode_8h" ],
+    [ "shaderstatenode.h", "shaderstatenode_8h.html", [
+      [ "Models::ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
+      [ "Models::ShaderStateNode::DrawPacket", "struct_models_1_1_shader_state_node_1_1_draw_packet.html", "struct_models_1_1_shader_state_node_1_1_draw_packet" ]
+    ] ],
     [ "transformnode.cc", "transformnode_8cc.html", null ],
     [ "transformnode.h", "transformnode_8h.html", [
       [ "Models::TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]

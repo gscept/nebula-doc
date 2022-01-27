@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('terraincontext_8cc.html',''); initResi
 <code>#include &quot;<a class="el" href="cameracontext_8h_source.html">graphics/cameracontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="view_8h_source.html">graphics/view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="imguicontext_8h_source.html">dynui/imguicontext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="jobs2_8h_source.html">jobs2/jobs2.h</a>&quot;</code><br />
 <code>#include &quot;imgui.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="drawfullscreenquad_8h_source.html">renderutil/drawfullscreenquad.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cvar_8h_source.html">core/cvar.h</a>&quot;</code><br />
@@ -129,10 +130,6 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ab3bcf779f9790690e885e08e1df49fd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="terraincontext_8cc.html#ab3bcf779f9790690e885e08e1df49fd9">N_DECLARE_COUNTER</a> (N_TERRAIN_TOTAL_AVAILABLE_DATA, Terrain Total Data Size)</td></tr>
 <tr class="separator:ab3bcf779f9790690e885e08e1df49fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc9b467205467720eb2cc3edc45136e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#a6fc9b467205467720eb2cc3edc45136e">Terrain::TerrainCullJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a6fc9b467205467720eb2cc3edc45136e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85730c021439bb9aa72766eaf0995679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#a85730c021439bb9aa72766eaf0995679">Terrain::TerrainSubTextureUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a85730c021439bb9aa72766eaf0995679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace013dcb2e57a15867b92506c9a557c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#ace013dcb2e57a15867b92506c9a557c1">Terrain::__ImplementContext</a> (TerrainContext, TerrainContext::terrainAllocator)</td></tr>
 <tr class="separator:ace013dcb2e57a15867b92506c9a557c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e0885cd37b2f3cf009f5ab9b416956c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#a3e0885cd37b2f3cf009f5ab9b416956c">Terrain::UnpackPageDataEntry</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *packed, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;status, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;subTextureIndex, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;mip, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;pageCoordX, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;pageCoordY, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;subTextureTileX, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;subTextureTileY)</td></tr>
@@ -150,6 +147,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a1defcf837088d0dad900f4a08aaedc68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#a1defcf837088d0dad900f4a08aaedc68">Terrain::subtexturesFinishedEvent</a></td></tr>
+<tr class="separator:a1defcf837088d0dad900f4a08aaedc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15bcb6e7c0a4874c784364286b495cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#aa15bcb6e7c0a4874c784364286b495cb">Terrain::sectionCullFinishedEvent</a></td></tr>
+<tr class="separator:aa15bcb6e7c0a4874c784364286b495cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf09ddc53ca8dcd1c71385a97f7570e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#abf09ddc53ca8dcd1c71385a97f7570e2">Terrain::subtexturesDoneCounter</a></td></tr>
+<tr class="separator:abf09ddc53ca8dcd1c71385a97f7570e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add60d490286756c898fa97fcef646c5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#add60d490286756c898fa97fcef646c5c">Terrain::sectionCullDoneCounter</a></td></tr>
+<tr class="separator:add60d490286756c898fa97fcef646c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e691de9c7ade4426dfe0f6773d92cb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#a79e691de9c7ade4426dfe0f6773d92cb">Terrain::IndirectionTextureSize</a> = 2048</td></tr>
 <tr class="separator:a79e691de9c7ade4426dfe0f6773d92cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8f7d2da302479461c639d465b936fd9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_terrain.html#ab8f7d2da302479461c639d465b936fd9">Terrain::SubTextureWorldSize</a> = 64</td></tr>
@@ -377,7 +382,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_7ce72730e6b9c94a8fd79b6a1165ab77.html">terrain</a></li><li class="navelem"><a class="el" href="terraincontext_8cc.html">terraincontext.cc</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 13:31:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jan 27 2022 20:30:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

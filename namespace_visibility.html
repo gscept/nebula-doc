@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('namespace_visibility.html',''); initRe
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The shader state node wraps the shader associated with a certain primitive node, or group of primitive nodes. </p>
+<div class="textblock"><p >Implements a resource loader for models. </p>
 <p >The visibility container stores the visibility results for entities registered with the VisibilityContext.</p>
 <p >A visibility system describes some virtual representation of the scene, wherein objects are searchable for visibility.</p>
 <p >Quadtree system.</p>
@@ -100,7 +100,6 @@ $(document).ready(function(){initNavTree('namespace_visibility.html',''); initRe
 <p >Octree system.</p>
 <p >Brute force system.</p>
 <p >Box system.</p>
-<p >Implements a resource loader for models.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2018-2020 Individual contributors, see AUTHORS file</dd></dl>
@@ -213,16 +212,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0c00bcc23906962f0c8c8821dc860830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a0c00bcc23906962f0c8c8821dc860830">VisibilitySortJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a0c00bcc23906962f0c8c8821dc860830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae900b57c5c90837cb950f68bf61e6be8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#ae900b57c5c90837cb950f68bf61e6be8">BoxSystemJobFunc</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:ae900b57c5c90837cb950f68bf61e6be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06eb3675b1d2f9697d9070b7cf317279"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a06eb3675b1d2f9697d9070b7cf317279">BruteforceSystemJobFunc</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a06eb3675b1d2f9697d9070b7cf317279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f5a8c99cff2844381ea27fc0a12855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#af3f5a8c99cff2844381ea27fc0a12855">OctreeSystemJobFunc</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:af3f5a8c99cff2844381ea27fc0a12855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d800d5a96bc16b0f82e720d5a9d80c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a14d800d5a96bc16b0f82e720d5a9d80c">PortalSystemJobFunc</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a14d800d5a96bc16b0f82e720d5a9d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b6c9fc80332e720048debfa9981fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a29b6c9fc80332e720048debfa9981fb4">QuadtreeInjectFunction</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
 <tr class="separator:a29b6c9fc80332e720048debfa9981fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870740731b013f784b58043a6d554171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a870740731b013f784b58043a6d554171">QuadtreeResolveFunction</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
@@ -233,14 +222,16 @@ Functions</h2></td></tr>
 <tr class="separator:ab0f4d39e1ef7b9e376271c96ab7eb43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b19f7c82e1ce6ca5cd22a2821cf445"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a91b19f7c82e1ce6ca5cd22a2821cf445">__ImplementClass</a> (<a class="el" href="class_visibility_1_1_visibility_container.html">Visibility::VisibilityContainer</a>, 'VICO', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a91b19f7c82e1ce6ca5cd22a2821cf445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6755d868caaaea3e74a98ac83f1b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a7a6755d868caaaea3e74a98ac83f1b3b">VisibilityDependencyJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a7a6755d868caaaea3e74a98ac83f1b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c40333f5fd1a488b1523d90b6673e5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a7c40333f5fd1a488b1523d90b6673e5f">VisibilityDrawListUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
-<tr class="separator:a7c40333f5fd1a488b1523d90b6673e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f4530601c2ad82ed79040d86fb93fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a06f4530601c2ad82ed79040d86fb93fc">__ImplementContext</a> (<a class="el" href="class_visibility_1_1_observer_context.html">ObserverContext</a>, <a class="el" href="class_visibility_1_1_observer_context.html#af7df75d0d2d251df1852c3a40120228c">ObserverContext::observerAllocator</a>)</td></tr>
 <tr class="separator:a06f4530601c2ad82ed79040d86fb93fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a17d4f8b9513a6778518e0a9457371f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a2a17d4f8b9513a6778518e0a9457371f">__ImplementContext</a> (<a class="el" href="class_visibility_1_1_observable_context.html">ObservableContext</a>, <a class="el" href="class_visibility_1_1_observable_context.html#a76f65bd1fc8f38d10a7cbbdb864026a7">ObservableContext::observableAllocator</a>)</td></tr>
 <tr class="separator:a2a17d4f8b9513a6778518e0a9457371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6755d868caaaea3e74a98ac83f1b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a7a6755d868caaaea3e74a98ac83f1b3b">VisibilityDependencyJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a7a6755d868caaaea3e74a98ac83f1b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c40333f5fd1a488b1523d90b6673e5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a7c40333f5fd1a488b1523d90b6673e5f">VisibilityDrawListUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a7c40333f5fd1a488b1523d90b6673e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c00bcc23906962f0c8c8821dc860830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_visibility.html#a0c00bcc23906962f0c8c8821dc860830">VisibilitySortJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a0c00bcc23906962f0c8c8821dc860830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -519,78 +510,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae900b57c5c90837cb950f68bf61e6be8" name="ae900b57c5c90837cb950f68bf61e6be8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae900b57c5c90837cb950f68bf61e6be8">&#9670;&nbsp;</a></span>BoxSystemJobFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visibility::BoxSystemJobFunc </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a06eb3675b1d2f9697d9070b7cf317279" name="a06eb3675b1d2f9697d9070b7cf317279"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06eb3675b1d2f9697d9070b7cf317279">&#9670;&nbsp;</a></span>BruteforceSystemJobFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visibility::BruteforceSystemJobFunc </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af3f5a8c99cff2844381ea27fc0a12855" name="af3f5a8c99cff2844381ea27fc0a12855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f5a8c99cff2844381ea27fc0a12855">&#9670;&nbsp;</a></span>OctreeSystemJobFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visibility::OctreeSystemJobFunc </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14d800d5a96bc16b0f82e720d5a9d80c" name="a14d800d5a96bc16b0f82e720d5a9d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14d800d5a96bc16b0f82e720d5a9d80c">&#9670;&nbsp;</a></span>PortalSystemJobFunc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visibility::PortalSystemJobFunc </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a29b6c9fc80332e720048debfa9981fb4" name="a29b6c9fc80332e720048debfa9981fb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29b6c9fc80332e720048debfa9981fb4">&#9670;&nbsp;</a></span>QuadtreeInjectFunction()</h2>
 
@@ -711,7 +630,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_visibility.html">Visibility</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 13:31:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jan 27 2022 20:30:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

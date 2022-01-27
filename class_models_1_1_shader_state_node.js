@@ -10,7 +10,6 @@ var class_models_1_1_shader_state_node =
     [ "Unload", "class_models_1_1_shader_state_node.html#a14968f133eaaadcef387b06cdefa9e42", null ],
     [ "ModelContext", "class_models_1_1_shader_state_node.html#af8da0315892253b355e1abe79f67e350", null ],
     [ "StreamModelCache", "class_models_1_1_shader_state_node.html#a314cd138b4dead320ef2f750d6777577", null ],
-    [ "Visibility::VisibilitySortJob", "class_models_1_1_shader_state_node.html#a48596d4c724c70bc46d2a22bf97ea5e7", null ],
     [ "instancingTransformsIndex", "class_models_1_1_shader_state_node.html#afbaf87c332bc2e04710cf9dbc74c5449", null ],
     [ "materialName", "class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3", null ],
     [ "materialType", "class_models_1_1_shader_state_node.html#a776d60f8e219c4be5b5548939774d592", null ],
