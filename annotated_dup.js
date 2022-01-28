@@ -363,8 +363,8 @@ var annotated_dup =
     ] ],
     [ "Game", "namespace_game.html", [
       [ "Op", "namespace_game_1_1_op.html", [
-        [ "DeregisterProperty", "struct_game_1_1_op_1_1_deregister_property.html", "struct_game_1_1_op_1_1_deregister_property" ],
-        [ "RegisterProperty", "struct_game_1_1_op_1_1_register_property.html", "struct_game_1_1_op_1_1_register_property" ]
+        [ "DeregisterComponent", "struct_game_1_1_op_1_1_deregister_component.html", "struct_game_1_1_op_1_1_deregister_component" ],
+        [ "RegisterComponent", "struct_game_1_1_op_1_1_register_component.html", "struct_game_1_1_op_1_1_register_component" ]
       ] ],
       [ "TimeManager", "namespace_game_1_1_time_manager.html", [
         [ "State", "struct_game_1_1_time_manager_1_1_state.html", "struct_game_1_1_time_manager_1_1_state" ],
@@ -373,6 +373,10 @@ var annotated_dup =
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
       [ "BlueprintManager", "class_game_1_1_blueprint_manager.html", "class_game_1_1_blueprint_manager" ],
       [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
+      [ "ComponentCreateInfo", "struct_game_1_1_component_create_info.html", "struct_game_1_1_component_create_info" ],
+      [ "ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
+      [ "ComponentInspection", "class_game_1_1_component_inspection.html", "class_game_1_1_component_inspection" ],
+      [ "ComponentSerialization", "class_game_1_1_component_serialization.html", "class_game_1_1_component_serialization" ],
       [ "Dataset", "struct_game_1_1_dataset.html", "struct_game_1_1_dataset" ],
       [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ],
       [ "EntityCreateInfo", "struct_game_1_1_entity_create_info.html", "struct_game_1_1_entity_create_info" ],
@@ -387,10 +391,6 @@ var annotated_dup =
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
       [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
-      [ "PropertyCreateInfo", "struct_game_1_1_property_create_info.html", "struct_game_1_1_property_create_info" ],
-      [ "PropertyDecayBuffer", "struct_game_1_1_property_decay_buffer.html", "struct_game_1_1_property_decay_buffer" ],
-      [ "PropertyInspection", "class_game_1_1_property_inspection.html", "class_game_1_1_property_inspection" ],
-      [ "PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ],
       [ "TemplateId", "struct_game_1_1_template_id.html", null ],
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
@@ -672,11 +672,11 @@ var annotated_dup =
     ] ],
     [ "MemDb", "namespace_mem_db.html", [
       [ "ColumnIndex", "struct_mem_db_1_1_column_index.html", null ],
+      [ "ComponentDescription", "class_mem_db_1_1_component_description.html", "class_mem_db_1_1_component_description" ],
+      [ "ComponentId", "struct_mem_db_1_1_component_id.html", null ],
       [ "Database", "class_mem_db_1_1_database.html", "class_mem_db_1_1_database" ],
       [ "Dataset", "struct_mem_db_1_1_dataset.html", "struct_mem_db_1_1_dataset" ],
       [ "FilterSet", "class_mem_db_1_1_filter_set.html", "class_mem_db_1_1_filter_set" ],
-      [ "PropertyDescription", "class_mem_db_1_1_property_description.html", "class_mem_db_1_1_property_description" ],
-      [ "PropertyId", "struct_mem_db_1_1_property_id.html", null ],
       [ "Table", "struct_mem_db_1_1_table.html", "struct_mem_db_1_1_table" ],
       [ "TableCreateInfo", "struct_mem_db_1_1_table_create_info.html", "struct_mem_db_1_1_table_create_info" ],
       [ "TableId", "struct_mem_db_1_1_table_id.html", null ],

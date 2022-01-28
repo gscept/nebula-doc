@@ -91,15 +91,15 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000003"></a>update imgui and uncomment the commented code below!  </dd>
 <dt>Class <a class="el" href="class_threading_1_1_event.html">Event</a>  </dt>
 <dd><a class="anchor" id="_todo000025"></a>describe <a class="el" href="class_threading_1_1_event.html">Event</a> class </dd>
-<dt>Member <a class="el" href="namespace_game.html#afbcecd0fe9398a2df42c1a25c140af00">Game::AddOp</a>  (OpBuffer buffer, <a class="el" href="struct_game_1_1_op_1_1_register_property.html" title="TODO: We should add a simpler way of registering and deregistering properties from within processors ...">Op::RegisterProperty</a> op)</dt>
+<dt>Member <a class="el" href="namespace_game.html#ab3c016f2fccdd090e78668905c2ce0e1">Game::AddOp</a>  (OpBuffer buffer, <a class="el" href="struct_game_1_1_op_1_1_register_component.html" title="TODO: We should probably rewrite the entire op system, since it&#39;s a mess at the moment.">Op::RegisterComponent</a> op)</dt>
 <dd><a class="anchor" id="_todo000014"></a>optimize  </dd>
 <dt>Member <a class="el" href="class_game_1_1_blueprint_manager.html#a48fbe0a56e92c3a24d475aee96304004">Game::BlueprintManager::CreateCategory</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *const world, <a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a> bid)</dt>
 <dd><a class="anchor" id="_todo000016"></a>this can be optimized  </dd>
 <dt>Member <a class="el" href="namespace_game.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85">Game::CreateOpBuffer</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *)</dt>
 <dd><a class="anchor" id="_todo000012"></a>There should be better and more clean ways of doing this. It's ugly and inefficient...  </dd>
 <dt>Member <a class="el" href="namespace_game.html#aa549e5a6cfc2b8d08feea387479dfad3">Game::Dispatch</a>  (OpBuffer buffer)</dt>
-<dd><a class="anchor" id="_todo000013"></a>We can bundle all add and remove property for each entity into one migration. We can also batch them based on their new category, so we won't need to do as many column id lookups.  </dd>
-<dt>Member <a class="el" href="namespace_game.html#af00c99b78222411740ef8c3a1dbd243a">Game::Execute</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_op_1_1_register_property.html" title="TODO: We should add a simpler way of registering and deregistering properties from within processors ...">Op::RegisterProperty</a> const &amp;op)</dt>
+<dd><a class="anchor" id="_todo000013"></a>We can bundle all add and remove components for each entity into one migration. We can also batch them based on their new table, so we won't need to do as many column id lookups.  </dd>
+<dt>Member <a class="el" href="namespace_game.html#a6ec106d2835917b196f726ea47ae4799">Game::Execute</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_op_1_1_register_component.html" title="TODO: We should probably rewrite the entire op system, since it&#39;s a mess at the moment.">Op::RegisterComponent</a> const &amp;op)</dt>
 <dd><a class="anchor" id="_todo000015"></a>Optimize me  </dd>
 <dt>Member <a class="el" href="class_game_1_1_game_server.html#a8741912e7435cd8cb8e3443a47042596">Game::GameServer::CreateProcessor</a>  (<a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const &amp;info)</dt>
 <dd><a class="anchor" id="_todo000007"></a>we should handle the registering of the world processors manually  </dd>
@@ -109,11 +109,11 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000009"></a>Implement networked messages.  </dd>
 <dt>Member <a class="el" href="class_game_1_1_message.html#a7026143280464c6048fdaa1be11f8300">Game::Message&lt; MSG, TYPES &gt;::distributedMessages</a>  </dt>
 <dd><a class="anchor" id="_todo000010"></a>This should be updated by some NetworkMessageManager-y object.  </dd>
-<dt>Member <a class="el" href="namespace_game.html#adf0bd978ccaf1f254b0c7d56e33d6a06">Game::RegisterUpdateFunction</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_string_atom.html" title="A StringAtom.">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; PropertyId &gt; additionalInclusive={}, std::initializer_list&lt; PropertyId &gt; exclusive={})</dt>
+<dt>Member <a class="el" href="namespace_game.html#a82a1054c88762a3f63baa53ac4471b9b">Game::RegisterUpdateFunction</a>  (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_string_atom.html" title="A StringAtom.">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; ComponentId &gt; additionalInclusive={}, std::initializer_list&lt; ComponentId &gt; exclusive={})</dt>
 <dd><a class="anchor" id="_todo000006"></a>ability to register different event types  </dd>
 <dt>Namespace <a class="el" href="namespace_game_1_1_time_manager.html">Game::TimeManager</a>  </dt>
 <dd><a class="anchor" id="_todo000005"></a>Thread safety </dd>
-<dt>Member <a class="el" href="class_game_1_1_world.html#ac273b89333b57b47d6b4f95ba5912ce3">Game::World::CacheTable</a>  (<a class="el" href="struct_mem_db_1_1_table_id.html" title="Table identifier.">MemDb::TableId</a> tid, <a class="el" href="class_mem_db_1_1_table_signature.html" title="Basically a bitfield with packed PropertyIds.">MemDb::TableSignature</a> signature)</dt>
+<dt>Member <a class="el" href="class_game_1_1_world.html#ac273b89333b57b47d6b4f95ba5912ce3">Game::World::CacheTable</a>  (<a class="el" href="struct_mem_db_1_1_table_id.html" title="Table identifier.">MemDb::TableId</a> tid, <a class="el" href="class_mem_db_1_1_table_signature.html" title="Basically a bitfield with packed ComponentIds.">MemDb::TableSignature</a> signature)</dt>
 <dd><a class="anchor" id="_todo000011"></a>When cleaning up the db, erase all tables from the cache.  </dd>
 <dt>Class <a class="el" href="class_i_o_1_1_binary_reader.html">IO::BinaryReader</a>  </dt>
 <dd><a class="anchor" id="_todo000017"></a>convert endianess! </dd>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

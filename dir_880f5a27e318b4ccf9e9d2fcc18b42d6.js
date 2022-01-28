@@ -5,6 +5,13 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "api.h", "api_8h.html", "api_8h" ],
     [ "category.cc", "category_8cc.html", null ],
     [ "category.h", "category_8h.html", "category_8h" ],
+    [ "componentinspection.cc", "componentinspection_8cc.html", "componentinspection_8cc" ],
+    [ "componentinspection.h", "componentinspection_8h.html", "componentinspection_8h" ],
+    [ "componentserialization.cc", "componentserialization_8cc.html", "componentserialization_8cc" ],
+    [ "componentserialization.h", "componentserialization_8h.html", [
+      [ "Game::ComponentSerialization", "class_game_1_1_component_serialization.html", "class_game_1_1_component_serialization" ],
+      [ "Game::ComponentSerialization::Serializer", "struct_game_1_1_component_serialization_1_1_serializer.html", "struct_game_1_1_component_serialization_1_1_serializer" ]
+    ] ],
     [ "entity.cc", "entity_8cc.html", null ],
     [ "entity.h", "entity_8h.html", [
       [ "Game::Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ]
@@ -23,13 +30,6 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "manager.h", "manager_8h.html", [
       [ "Game::ManagerHandle", "struct_game_1_1_manager_handle.html", null ],
       [ "Game::ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ]
-    ] ],
-    [ "propertyinspection.cc", "propertyinspection_8cc.html", "propertyinspection_8cc" ],
-    [ "propertyinspection.h", "propertyinspection_8h.html", "propertyinspection_8h" ],
-    [ "propertyserialization.cc", "propertyserialization_8cc.html", "propertyserialization_8cc" ],
-    [ "propertyserialization.h", "propertyserialization_8h.html", [
-      [ "Game::PropertySerialization", "class_game_1_1_property_serialization.html", "class_game_1_1_property_serialization" ],
-      [ "Game::PropertySerialization::Serializer", "struct_game_1_1_property_serialization_1_1_serializer.html", "struct_game_1_1_property_serialization_1_1_serializer" ]
     ] ],
     [ "world.cc", "world_8cc.html", "world_8cc" ],
     [ "world.h", "world_8h.html", "world_8h" ]

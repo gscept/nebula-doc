@@ -113,8 +113,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a2aa320391917088b2e65f9bba2984a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a9645dc98e40c7474e0839d0c32f896"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7a9645dc98e40c7474e0839d0c32f896">Game::ExclusiveTableMask</a> = <a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a></td></tr>
 <tr class="separator:a7a9645dc98e40c7474e0839d0c32f896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5722f23777d2c89030c84c5a76294b8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af5722f23777d2c89030c84c5a76294b8">Game::PropertyArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; PropertyId &gt;</td></tr>
-<tr class="separator:af5722f23777d2c89030c84c5a76294b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bdfdb9b06838ccef5c7a73419acafc6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a8bdfdb9b06838ccef5c7a73419acafc6">Game::ComponentArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; ComponentId &gt;</td></tr>
+<tr class="separator:a8bdfdb9b06838ccef5c7a73419acafc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6778457f4970d16fd1bd10b871cbd413"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6778457f4970d16fd1bd10b871cbd413">Game::AccessModeArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_attr_1_1_access_mode.html">AccessMode</a> &gt;</td></tr>
 <tr class="separator:a6778457f4970d16fd1bd10b871cbd413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -144,12 +144,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a3e2891686998c0318e52a525428b783f"><td class="memItemLeft" align="right" valign="top">Dataset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3e2891686998c0318e52a525428b783f">Game::Query</a> (<a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt; const  &amp;db, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;tables, Filter filter)</td></tr>
 <tr class="memdesc:a3e2891686998c0318e52a525428b783f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query a subset of tables in a specific db using a specified filter set. Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available.  <a href="namespace_game.html#a3e2891686998c0318e52a525428b783f">More...</a><br /></td></tr>
 <tr class="separator:a3e2891686998c0318e52a525428b783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a707bbc5560935318f9169a72b88554ab"><td class="memItemLeft" align="right" valign="top">PropertyId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a707bbc5560935318f9169a72b88554ab">Game::CreateProperty</a> (PropertyCreateInfo const  &amp;info)</td></tr>
-<tr class="memdesc:a707bbc5560935318f9169a72b88554ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a property.  <a href="namespace_game.html#a707bbc5560935318f9169a72b88554ab">More...</a><br /></td></tr>
-<tr class="separator:a707bbc5560935318f9169a72b88554ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d564ec900b4c13289760ae37846cfb1"><td class="memItemLeft" align="right" valign="top">PropertyId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0d564ec900b4c13289760ae37846cfb1">Game::GetPropertyId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
-<tr class="memdesc:a0d564ec900b4c13289760ae37846cfb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a property id.  <a href="namespace_game.html#a0d564ec900b4c13289760ae37846cfb1">More...</a><br /></td></tr>
-<tr class="separator:a0d564ec900b4c13289760ae37846cfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e656f315dbe11e16e207cb7c6f0585"><td class="memItemLeft" align="right" valign="top">ComponentId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ad9e656f315dbe11e16e207cb7c6f0585">Game::CreateComponent</a> (ComponentCreateInfo const  &amp;info)</td></tr>
+<tr class="memdesc:ad9e656f315dbe11e16e207cb7c6f0585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a component.  <a href="namespace_game.html#ad9e656f315dbe11e16e207cb7c6f0585">More...</a><br /></td></tr>
+<tr class="separator:ad9e656f315dbe11e16e207cb7c6f0585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af143290fef799ba8303e01c658cb54e8"><td class="memItemLeft" align="right" valign="top">ComponentId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">Game::GetComponentId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
+<tr class="memdesc:af143290fef799ba8303e01c658cb54e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id.  <a href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">More...</a><br /></td></tr>
+<tr class="separator:af143290fef799ba8303e01c658cb54e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memItemLeft" align="right" valign="top">BlueprintId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5">Game::GetBlueprintId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memdesc:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a blueprint id by name.  <a href="namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5">More...</a><br /></td></tr>
 <tr class="separator:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,10 +165,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a98b105c32a536cbdc93e30979f7c9a50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; InclusiveTableMask, ExclusiveTableMask, PropertyArray, AccessModeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a98b105c32a536cbdc93e30979f7c9a50">Game::filterAllocator</a></td></tr>
-<tr class="separator:a98b105c32a536cbdc93e30979f7c9a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b76f7e1774322a32288d6a5caa6c408"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(Dataset::CategoryTableView) *256 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4b76f7e1774322a32288d6a5caa6c408">Game::viewAllocator</a></td></tr>
-<tr class="separator:a4b76f7e1774322a32288d6a5caa6c408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d9ca45c2805958f60778da2695ddb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; InclusiveTableMask, ExclusiveTableMask, ComponentArray, AccessModeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a80d9ca45c2805958f60778da2695ddb3">Game::filterAllocator</a></td></tr>
+<tr class="separator:a80d9ca45c2805958f60778da2695ddb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cdcc81398eac2297c2870653785a7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(Dataset::EntityTableView) *256 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa7cdcc81398eac2297c2870653785a7f">Game::viewAllocator</a></td></tr>
+<tr class="separator:aa7cdcc81398eac2297c2870653785a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -177,7 +177,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8cc.html">api.cc</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -29,7 +29,7 @@ var searchData=
   ['deletedirectory_26',['DeleteDirectory',['../class_i_o_1_1_delete_directory.html',1,'IO']]],
   ['deletefile_27',['DeleteFile',['../class_i_o_1_1_delete_file.html',1,'IO']]],
   ['depthstencilclear_28',['DepthStencilClear',['../struct_core_graphics_1_1_depth_stencil_clear.html',1,'CoreGraphics']]],
-  ['deregisterproperty_29',['DeregisterProperty',['../struct_game_1_1_op_1_1_deregister_property.html',1,'Game::Op']]],
+  ['deregistercomponent_29',['DeregisterComponent',['../struct_game_1_1_op_1_1_deregister_component.html',1,'Game::Op']]],
   ['derivativelayout_30',['DerivativeLayout',['../struct_vulkan_1_1_vk_vertex_signature_cache_1_1_derivative_layout.html',1,'Vulkan::VkVertexSignatureCache']]],
   ['derivativestateid_31',['DerivativeStateId',['../struct_core_graphics_1_1_derivative_state_id.html',1,'CoreGraphics']]],
   ['descriptorsetbinding_32',['DescriptorSetBinding',['../struct_vulkan_1_1_vk_shader_cache_1_1_descriptor_set_binding.html',1,'Vulkan::VkShaderCache']]],

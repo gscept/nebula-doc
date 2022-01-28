@@ -96,12 +96,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a37ec552c945a490f60974fb83bbbe138"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
 <tr class="memitem:a37ec552c945a490f60974fb83bbbe138"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a37ec552c945a490f60974fb83bbbe138">SetInclusive</a> (<a class="el" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a> &amp;filterInfo, size_t const i)</td></tr>
 <tr class="separator:a37ec552c945a490f60974fb83bbbe138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa34a7818e0d5da6617be0375976f22d"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
-<tr class="memitem:afa34a7818e0d5da6617be0375976f22d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#afa34a7818e0d5da6617be0375976f22d">UnrollInclusiveProperties</a> (<a class="el" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a> &amp;filterInfo, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:afa34a7818e0d5da6617be0375976f22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81c56b6251bf3a1c0ea9c4fd0c255bf4"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
-<tr class="memitem:a81c56b6251bf3a1c0ea9c4fd0c255bf4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a81c56b6251bf3a1c0ea9c4fd0c255bf4">update_expander</a> (std::function&lt; void(TYPES...)&gt; const &amp;func, <a class="el" href="struct_game_1_1_dataset_1_1_category_table_view.html">Game::Dataset::CategoryTableView</a> const &amp;view, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> instance, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a81c56b6251bf3a1c0ea9c4fd0c255bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcc1e794030472c2ee640095a57bcfb"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
+<tr class="memitem:a4dcc1e794030472c2ee640095a57bcfb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a4dcc1e794030472c2ee640095a57bcfb">UnrollInclusiveComponents</a> (<a class="el" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a> &amp;filterInfo, std::index_sequence&lt; Is... &gt;)</td></tr>
+<tr class="separator:a4dcc1e794030472c2ee640095a57bcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
+<tr class="memitem:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a2225cb7f25297ce5a695bccbf3abbd7b">update_expander</a> (std::function&lt; void(TYPES...)&gt; const &amp;func, <a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">Game::Dataset::EntityTableView</a> const &amp;view, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> instance, std::index_sequence&lt; Is... &gt;)</td></tr>
+<tr class="separator:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a37ec552c945a490f60974fb83bbbe138" name="a37ec552c945a490f60974fb83bbbe138"></a>
@@ -134,8 +134,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="afa34a7818e0d5da6617be0375976f22d" name="afa34a7818e0d5da6617be0375976f22d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa34a7818e0d5da6617be0375976f22d">&#9670;&nbsp;</a></span>UnrollInclusiveProperties()</h2>
+<a id="a4dcc1e794030472c2ee640095a57bcfb" name="a4dcc1e794030472c2ee640095a57bcfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dcc1e794030472c2ee640095a57bcfb">&#9670;&nbsp;</a></span>UnrollInclusiveComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +143,7 @@ template&lt;class TYPE &gt; </div>
 template&lt;typename... TYPES, std::size_t... Is&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void Game::Internal::UnrollInclusiveProperties </td>
+          <td class="memname">void Game::Internal::UnrollInclusiveComponents </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_game_1_1_filter_create_info.html">Game::FilterCreateInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>filterInfo</em>, </td>
@@ -164,8 +164,8 @@ template&lt;typename... TYPES, std::size_t... Is&gt; </div>
 
 </div>
 </div>
-<a id="a81c56b6251bf3a1c0ea9c4fd0c255bf4" name="a81c56b6251bf3a1c0ea9c4fd0c255bf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81c56b6251bf3a1c0ea9c4fd0c255bf4">&#9670;&nbsp;</a></span>update_expander()</h2>
+<a id="a2225cb7f25297ce5a695bccbf3abbd7b" name="a2225cb7f25297ce5a695bccbf3abbd7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2225cb7f25297ce5a695bccbf3abbd7b">&#9670;&nbsp;</a></span>update_expander()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +181,7 @@ template&lt;typename... TYPES, std::size_t... Is&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_dataset_1_1_category_table_view.html">Game::Dataset::CategoryTableView</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">Game::Dataset::EntityTableView</a> const &amp;&#160;</td>
           <td class="paramname"><em>view</em>, </td>
         </tr>
         <tr>
@@ -213,7 +213,7 @@ template&lt;typename... TYPES, std::size_t... Is&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="namespace_game_1_1_internal.html">Internal</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

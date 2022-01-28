@@ -120,7 +120,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aedd8aa7932467db16de2eb7df45b47a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of entities alive.  <a href="class_game_1_1_world.html#aedd8aa7932467db16de2eb7df45b47a5">More...</a><br /></td></tr>
 <tr class="separator:aedd8aa7932467db16de2eb7df45b47a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a641f0d1afc79c634603dbe000829a7ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity_mapping.html">Game::EntityMapping</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a641f0d1afc79c634603dbe000829a7ba">entityMap</a></td></tr>
-<tr class="memdesc:a641f0d1afc79c634603dbe000829a7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps entity index to category+instanceid pair  <a href="class_game_1_1_world.html#a641f0d1afc79c634603dbe000829a7ba">More...</a><br /></td></tr>
+<tr class="memdesc:a641f0d1afc79c634603dbe000829a7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps entity index to table+instanceid pair  <a href="class_game_1_1_world.html#a641f0d1afc79c634603dbe000829a7ba">More...</a><br /></td></tr>
 <tr class="separator:a641f0d1afc79c634603dbe000829a7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cfa2cf6d4b30b8aaed0e8d20e314446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a1cfa2cf6d4b30b8aaed0e8d20e314446">db</a></td></tr>
 <tr class="memdesc:a1cfa2cf6d4b30b8aaed0e8d20e314446"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains all entity instances  <a href="class_game_1_1_world.html#a1cfa2cf6d4b30b8aaed0e8d20e314446">More...</a><br /></td></tr>
@@ -129,7 +129,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a49f4e0a751471a5d04642a95656c6397"><td class="mdescLeft">&#160;</td><td class="mdescRight">world hash  <a href="class_game_1_1_world.html#a49f4e0a751471a5d04642a95656c6397">More...</a><br /></td></tr>
 <tr class="separator:a49f4e0a751471a5d04642a95656c6397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a8b0396887a5a3cdecc79b07e35f3a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a7a8b0396887a5a3cdecc79b07e35f3a9">blueprintCatMap</a></td></tr>
-<tr class="memdesc:a7a8b0396887a5a3cdecc79b07e35f3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps from blueprint to a category that has the same signature  <a href="class_game_1_1_world.html#a7a8b0396887a5a3cdecc79b07e35f3a9">More...</a><br /></td></tr>
+<tr class="memdesc:a7a8b0396887a5a3cdecc79b07e35f3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps from blueprint to a table that has the same signature  <a href="class_game_1_1_world.html#a7a8b0396887a5a3cdecc79b07e35f3a9">More...</a><br /></td></tr>
 <tr class="separator:a7a8b0396887a5a3cdecc79b07e35f3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49e853d4e21201653dd545546ccdd6c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_game_1_1_world_1_1_allocate_instance_command.html">AllocateInstanceCommand</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html#a49e853d4e21201653dd545546ccdd6c0">allocQueue</a></td></tr>
 <tr class="separator:a49e853d4e21201653dd545546ccdd6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +246,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>maps from blueprint to a category that has the same signature </p>
+<p>maps from blueprint to a table that has the same signature </p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>maps entity index to category+instanceid pair </p>
+<p>maps entity index to table+instanceid pair </p>
 
 </div>
 </div>
@@ -456,7 +456,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

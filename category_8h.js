@@ -3,7 +3,7 @@ var category_8h =
     [ "Game::BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
     [ "Game::TemplateId", "struct_game_1_1_template_id.html", null ],
     [ "Game::CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
-    [ "DECLARE_PROPERTY", "category_8h.html#a37af9f930e888801dfdc41eda53ffe38", null ],
-    [ "DEFINE_PROPERTY", "category_8h.html#a019512bb0a00e64917df37ac7af8c486", null ],
-    [ "PropertyId", "category_8h.html#afb3ae593b72175e2e0bc393e113d7252", null ]
+    [ "DECLARE_COMPONENT", "category_8h.html#a4bebecc3cb881e0c91f7491dc6223dca", null ],
+    [ "DEFINE_COMPONENT", "category_8h.html#a5d2553eaea52dfb023f6252434911f86", null ],
+    [ "ComponentId", "category_8h.html#a1ae77b966fd81f0b304de0d9bb6f0ce4", null ]
 ];

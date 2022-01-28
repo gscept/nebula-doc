@@ -95,8 +95,8 @@ $(document).ready(function(){initNavTree('class_mem_db_1_1_table_signature.html'
 
 <p><code>#include &lt;<a class="el" href="tablesignature_8h_source.html">tablesignature.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Basically a bitfield with packed PropertyIds. </p>
-<p >Can be used to identify tables, or be used as a mask to query the database for tables that contain a certain set of properties.</p>
+<div class="textblock"><p >Basically a bitfield with packed ComponentIds. </p>
+<p >Can be used to identify tables, or be used as a mask to query the database for tables that contain a certain set of components.</p>
 <dl class="section note"><dt>Note</dt><dd>This class runs on the assumption that we never create a bitfield that contains more bits than necessary. i.e, a field that is 256 bits large but is zero in left most 128 bits is forbidden.</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -108,15 +108,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd6cb76b3ae434014d8edc52a16600d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#afd6cb76b3ae434014d8edc52a16600d5">TableSignature</a> (<a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const &amp;rhs)</td></tr>
 <tr class="memdesc:afd6cb76b3ae434014d8edc52a16600d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy constructor  <a href="class_mem_db_1_1_table_signature.html#afd6cb76b3ae434014d8edc52a16600d5">More...</a><br /></td></tr>
 <tr class="separator:afd6cb76b3ae434014d8edc52a16600d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0602d9458316e1267817124fbda666f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a0602d9458316e1267817124fbda666f8">TableSignature</a> (<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt; const &amp;descriptors)</td></tr>
-<tr class="memdesc:a0602d9458316e1267817124fbda666f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from fixed array of property ids  <a href="class_mem_db_1_1_table_signature.html#a0602d9458316e1267817124fbda666f8">More...</a><br /></td></tr>
-<tr class="separator:a0602d9458316e1267817124fbda666f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2393c80f227f63e36ebf2d50b43a68bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a2393c80f227f63e36ebf2d50b43a68bb">TableSignature</a> (std::initializer_list&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt; descriptors)</td></tr>
-<tr class="memdesc:a2393c80f227f63e36ebf2d50b43a68bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from property id initializer list, for convenience  <a href="class_mem_db_1_1_table_signature.html#a2393c80f227f63e36ebf2d50b43a68bb">More...</a><br /></td></tr>
-<tr class="separator:a2393c80f227f63e36ebf2d50b43a68bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abba45fccb3cf4f49fd27e00d1e365067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#abba45fccb3cf4f49fd27e00d1e365067">TableSignature</a> (<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> const *descriptors, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
-<tr class="memdesc:abba45fccb3cf4f49fd27e00d1e365067"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from property id pointer array  <a href="class_mem_db_1_1_table_signature.html#abba45fccb3cf4f49fd27e00d1e365067">More...</a><br /></td></tr>
-<tr class="separator:abba45fccb3cf4f49fd27e00d1e365067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab460cfa280ee4fd2c8482ee1d8070c08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#ab460cfa280ee4fd2c8482ee1d8070c08">TableSignature</a> (<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const &amp;descriptors)</td></tr>
+<tr class="memdesc:ab460cfa280ee4fd2c8482ee1d8070c08"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from fixed array of component ids  <a href="class_mem_db_1_1_table_signature.html#ab460cfa280ee4fd2c8482ee1d8070c08">More...</a><br /></td></tr>
+<tr class="separator:ab460cfa280ee4fd2c8482ee1d8070c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc420809e0d08499eb429e2e46f8439e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#abc420809e0d08499eb429e2e46f8439e">TableSignature</a> (std::initializer_list&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; descriptors)</td></tr>
+<tr class="memdesc:abc420809e0d08499eb429e2e46f8439e"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from component id initializer list, for convenience  <a href="class_mem_db_1_1_table_signature.html#abc420809e0d08499eb429e2e46f8439e">More...</a><br /></td></tr>
+<tr class="separator:abc420809e0d08499eb429e2e46f8439e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409b877c566085e4263936963f031f36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a409b877c566085e4263936963f031f36">TableSignature</a> (<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> const *descriptors, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
+<tr class="memdesc:a409b877c566085e4263936963f031f36"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from component id pointer array  <a href="class_mem_db_1_1_table_signature.html#a409b877c566085e4263936963f031f36">More...</a><br /></td></tr>
+<tr class="separator:a409b877c566085e4263936963f031f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e2df5e791e0e2952f24849b3dc453f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a37e2df5e791e0e2952f24849b3dc453f">~TableSignature</a> ()</td></tr>
 <tr class="memdesc:a37e2df5e791e0e2952f24849b3dc453f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_mem_db_1_1_table_signature.html#a37e2df5e791e0e2952f24849b3dc453f">More...</a><br /></td></tr>
 <tr class="separator:a37e2df5e791e0e2952f24849b3dc453f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,12 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fd407bb8dcac121cbef360793ce1fc4"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a6fd407bb8dcac121cbef360793ce1fc4">IsValid</a> () const</td></tr>
 <tr class="memdesc:a6fd407bb8dcac121cbef360793ce1fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if signature is valid  <a href="class_mem_db_1_1_table_signature.html#a6fd407bb8dcac121cbef360793ce1fc4">More...</a><br /></td></tr>
 <tr class="separator:a6fd407bb8dcac121cbef360793ce1fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c9af9e169dd250f4c778f3662c4de0e"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a3c9af9e169dd250f4c778f3662c4de0e">IsSet</a> (<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> pid) const</td></tr>
-<tr class="memdesc:a3c9af9e169dd250f4c778f3662c4de0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if a single bit is set  <a href="class_mem_db_1_1_table_signature.html#a3c9af9e169dd250f4c778f3662c4de0e">More...</a><br /></td></tr>
-<tr class="separator:a3c9af9e169dd250f4c778f3662c4de0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f393cb3a8f739f228c1ce049d2f72e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">FlipBit</a> (<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> pid)</td></tr>
-<tr class="memdesc:a52f393cb3a8f739f228c1ce049d2f72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">flip a bit.  <a href="class_mem_db_1_1_table_signature.html#a52f393cb3a8f739f228c1ce049d2f72e">More...</a><br /></td></tr>
-<tr class="separator:a52f393cb3a8f739f228c1ce049d2f72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92cef465ecf52532dfa56191fcd24db9"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a92cef465ecf52532dfa56191fcd24db9">IsSet</a> (<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> component) const</td></tr>
+<tr class="memdesc:a92cef465ecf52532dfa56191fcd24db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if a single bit is set  <a href="class_mem_db_1_1_table_signature.html#a92cef465ecf52532dfa56191fcd24db9">More...</a><br /></td></tr>
+<tr class="separator:a92cef465ecf52532dfa56191fcd24db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcfbe6ccdab71e49cdad3d6f75ee573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a4dcfbe6ccdab71e49cdad3d6f75ee573">FlipBit</a> (<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> component)</td></tr>
+<tr class="memdesc:a4dcfbe6ccdab71e49cdad3d6f75ee573"><td class="mdescLeft">&#160;</td><td class="mdescRight">flip a bit.  <a href="class_mem_db_1_1_table_signature.html#a4dcfbe6ccdab71e49cdad3d6f75ee573">More...</a><br /></td></tr>
+<tr class="separator:a4dcfbe6ccdab71e49cdad3d6f75ee573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -147,9 +147,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0b83dce05ce28a37a0b92f11a88eae9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a0b83dce05ce28a37a0b92f11a88eae9c">Setup</a> (<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> const *descriptors, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
-<tr class="memdesc:a0b83dce05ce28a37a0b92f11a88eae9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create bitfield from fixed array.  <a href="class_mem_db_1_1_table_signature.html#a0b83dce05ce28a37a0b92f11a88eae9c">More...</a><br /></td></tr>
-<tr class="separator:a0b83dce05ce28a37a0b92f11a88eae9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8d035b227b60cf819786231cc2e8bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html#a1d8d035b227b60cf819786231cc2e8bc">Setup</a> (<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> const *descriptors, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
+<tr class="memdesc:a1d8d035b227b60cf819786231cc2e8bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">create bitfield from fixed array.  <a href="class_mem_db_1_1_table_signature.html#a1d8d035b227b60cf819786231cc2e8bc">More...</a><br /></td></tr>
+<tr class="separator:a1d8d035b227b60cf819786231cc2e8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -216,8 +216,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0602d9458316e1267817124fbda666f8" name="a0602d9458316e1267817124fbda666f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0602d9458316e1267817124fbda666f8">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[3/5]</span></h2>
+<a id="ab460cfa280ee4fd2c8482ee1d8070c08" name="ab460cfa280ee4fd2c8482ee1d8070c08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab460cfa280ee4fd2c8482ee1d8070c08">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +228,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">MemDb::TableSignature::TableSignature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const &amp;&#160;</td>
           <td class="paramname"><em>descriptors</em></td><td>)</td>
           <td></td>
         </tr>
@@ -240,12 +240,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>construct from fixed array of property ids </p>
+<p>construct from fixed array of component ids </p>
 
 </div>
 </div>
-<a id="a2393c80f227f63e36ebf2d50b43a68bb" name="a2393c80f227f63e36ebf2d50b43a68bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2393c80f227f63e36ebf2d50b43a68bb">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[4/5]</span></h2>
+<a id="abc420809e0d08499eb429e2e46f8439e" name="abc420809e0d08499eb429e2e46f8439e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc420809e0d08499eb429e2e46f8439e">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +256,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">MemDb::TableSignature::TableSignature </td>
           <td>(</td>
-          <td class="paramtype">std::initializer_list&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt;&#160;</td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt;&#160;</td>
           <td class="paramname"><em>descriptors</em></td><td>)</td>
           <td></td>
         </tr>
@@ -268,12 +268,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>construct from property id initializer list, for convenience </p>
+<p>construct from component id initializer list, for convenience </p>
 
 </div>
 </div>
-<a id="abba45fccb3cf4f49fd27e00d1e365067" name="abba45fccb3cf4f49fd27e00d1e365067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abba45fccb3cf4f49fd27e00d1e365067">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[5/5]</span></h2>
+<a id="a409b877c566085e4263936963f031f36" name="a409b877c566085e4263936963f031f36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409b877c566085e4263936963f031f36">&#9670;&nbsp;</a></span>TableSignature() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +284,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">MemDb::TableSignature::TableSignature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> const *&#160;</td>
           <td class="paramname"><em>descriptors</em>, </td>
         </tr>
         <tr>
@@ -306,7 +306,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>construct from property id pointer array </p>
+<p>construct from component id pointer array </p>
 
 </div>
 </div>
@@ -378,8 +378,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a52f393cb3a8f739f228c1ce049d2f72e" name="a52f393cb3a8f739f228c1ce049d2f72e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52f393cb3a8f739f228c1ce049d2f72e">&#9670;&nbsp;</a></span>FlipBit()</h2>
+<a id="a4dcfbe6ccdab71e49cdad3d6f75ee573" name="a4dcfbe6ccdab71e49cdad3d6f75ee573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dcfbe6ccdab71e49cdad3d6f75ee573">&#9670;&nbsp;</a></span>FlipBit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,8 +390,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MemDb::TableSignature::FlipBit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td>
-          <td class="paramname"><em>pid</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -446,8 +446,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c9af9e169dd250f4c778f3662c4de0e" name="a3c9af9e169dd250f4c778f3662c4de0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c9af9e169dd250f4c778f3662c4de0e">&#9670;&nbsp;</a></span>IsSet()</h2>
+<a id="a92cef465ecf52532dfa56191fcd24db9" name="a92cef465ecf52532dfa56191fcd24db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92cef465ecf52532dfa56191fcd24db9">&#9670;&nbsp;</a></span>IsSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,8 +458,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool const MemDb::TableSignature::IsSet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td>
-          <td class="paramname"><em>pid</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -557,8 +557,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b83dce05ce28a37a0b92f11a88eae9c" name="a0b83dce05ce28a37a0b92f11a88eae9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b83dce05ce28a37a0b92f11a88eae9c">&#9670;&nbsp;</a></span>Setup()</h2>
+<a id="a1d8d035b227b60cf819786231cc2e8bc" name="a1d8d035b227b60cf819786231cc2e8bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8d035b227b60cf819786231cc2e8bc">&#9670;&nbsp;</a></span>Setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,7 +569,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MemDb::TableSignature::Setup </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> const *&#160;</td>
           <td class="paramname"><em>descriptors</em>, </td>
         </tr>
         <tr>
@@ -654,7 +654,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

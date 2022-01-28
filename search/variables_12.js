@@ -35,7 +35,7 @@ var searchData=
   ['reflectiontexture_32',['reflectionTexture',['../namespace_lighting.html#aa50f20f55b9ac14f4fd3c35cafba1903',1,'Lighting']]],
   ['refreshrate_33',['refreshRate',['../class_core_graphics_1_1_display_mode.html#abff581b3a7a28f2fb7195bece819510d',1,'CoreGraphics::DisplayMode']]],
   ['region_34',['region',['../struct_vulkan_1_1_vk_texture_mapping_info.html#a24586318256068e84d0a3684f488b746',1,'Vulkan::VkTextureMappingInfo::region()'],['../struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a76b2882d053de9f7d48d293c84741c92',1,'Vulkan::VkDeferredCommand::Delegate::region()'],['../struct_core_graphics_1_1_texture_copy.html#ab6fbb021699c705d9bf34bbd1fedf9a5',1,'CoreGraphics::TextureCopy::region()']]],
-  ['registry_35',['registry',['../class_mem_db_1_1_type_registry.html#a78c6384cb4089eb3b5f3aa293278f95b',1,'MemDb::TypeRegistry']]],
+  ['registry_35',['registry',['../class_mem_db_1_1_type_registry.html#a32dfaa3648c4955e0552f660060864ba',1,'MemDb::TypeRegistry']]],
   ['relage_36',['relAge',['../struct_particles_1_1_particle.html#ad4de69871f4bb5ab905ecee664b68441',1,'Particles::Particle']]],
   ['relativedims_37',['relativeDims',['../struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3',1,'Vulkan::VkTextureLoadInfo']]],
   ['remaininggroups_38',['remainingGroups',['../struct_jobs2_1_1_job_context.html#a58e2207332d17e9412c15dde610859b4',1,'Jobs2::JobContext']]],

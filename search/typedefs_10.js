@@ -2,7 +2,7 @@ var searchData=
 [
   ['scalar_0',['scalar',['../namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243',1,'Math']]],
   ['second_1',['Second',['../class_base_1_1_calendar_time_base.html#a20d9d4a8e1f95d5b75b4c946153ce196',1,'Base::CalendarTimeBase']]],
-  ['serializejsonfunc_2',['SerializeJsonFunc',['../class_game_1_1_property_serialization.html#a9293abf90d21c91c4d552c86f69d967d',1,'Game::PropertySerialization']]],
+  ['serializejsonfunc_2',['SerializeJsonFunc',['../class_game_1_1_component_serialization.html#a7cd41d8dba2e7b787853ec90a7809dd8',1,'Game::ComponentSerialization']]],
   ['shadowcasterallocator_3',['ShadowCasterAllocator',['../class_lighting_1_1_light_context.html#ab76e0ad71d9ab6daa1a552c4cf03e058',1,'Lighting::LightContext']]],
   ['size_4',['Size',['../class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545',1,'IO::Stream']]],
   ['size64t_5',['Size64T',['../types_8h.html#a8f7ff89b06a83637c0d61c08304d40b9',1,'types.h']]],

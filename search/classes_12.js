@@ -11,7 +11,7 @@ var searchData=
   ['rectangle_8',['rectangle',['../class_math_1_1rectangle.html',1,'Math']]],
   ['refcounted_9',['RefCounted',['../class_core_1_1_ref_counted.html',1,'Core']]],
   ['refcountedlist_10',['RefCountedList',['../class_core_1_1_ref_counted_list.html',1,'Core']]],
-  ['registerproperty_11',['RegisterProperty',['../struct_game_1_1_op_1_1_register_property.html',1,'Game::Op']]],
+  ['registercomponent_11',['RegisterComponent',['../struct_game_1_1_op_1_1_register_component.html',1,'Game::Op']]],
   ['relation_12',['Relation',['../class_db_1_1_relation.html',1,'Db']]],
   ['removerequesthandler_13',['RemoveRequestHandler',['../class_http_1_1_remove_request_handler.html',1,'Http']]],
   ['renderable_14',['Renderable',['../struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html',1,'Models::ModelContext::ModelInstance']]],

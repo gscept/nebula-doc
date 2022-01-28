@@ -89,49 +89,49 @@ $(document).ready(function(){initNavTree('category_8h_source.html',''); initResi
 <a href="category_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"></span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="propertyid_8h.html">memdb/propertyid.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="componentid_8h.html">memdb/componentid.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="string_8h.html">util/string.h</a>&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="fixedarray_8h.html">util/fixedarray.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_game.html">Game</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">   17</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="struct_mem_db_1_1_property_id.html">MemDb::PropertyId</a> <a class="code hl_typedef" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">PropertyId</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">   17</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="struct_mem_db_1_1_component_id.html">MemDb::ComponentId</a> <a class="code hl_typedef" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">ComponentId</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_game_1_1_blueprint_id.html">   19</a></span><a class="code hl_define" href="ids_2id_8h.html#a32443a9b8baee9883348a631cf5c2f37">ID_16_TYPE</a>(<a class="code hl_struct" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="struct_game_1_1_template_id.html">   20</a></span><a class="code hl_define" href="ids_2id_8h.html#a4235c5ac56c4d81970d369dcae60c903">ID_32_TYPE</a>(<a class="code hl_struct" href="struct_game_1_1_template_id.html">TemplateId</a>);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="category_8h.html#a37af9f930e888801dfdc41eda53ffe38">   22</a></span><span class="preprocessor">#define DECLARE_PROPERTY public:\</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">static Game::PropertyId ID() { return id; }\</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="category_8h.html#a4bebecc3cb881e0c91f7491dc6223dca">   22</a></span><span class="preprocessor">#define DECLARE_COMPONENT public:\</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">static Game::ComponentId ID() { return id; }\</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">private:\</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">    friend class MemDb::TypeRegistry;\</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    static Game::PropertyId id;\</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    static Game::ComponentId id;\</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">public:</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="category_8h.html#a019512bb0a00e64917df37ac7af8c486">   29</a></span><span class="preprocessor">#define DEFINE_PROPERTY(TYPE) Game::PropertyId TYPE::id = Game::PropertyId::Invalid();</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="category_8h.html#a5d2553eaea52dfb023f6252434911f86">   29</a></span><span class="preprocessor">#define DEFINE_COMPONENT(TYPE) Game::ComponentId TYPE::id = Game::ComponentId::Invalid();</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="struct_game_1_1_category_create_info.html">   31</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4">   34</a></span>    <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a> <a class="code hl_variable" href="struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4">name</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="struct_game_1_1_category_create_info.html#abf7c7853e40868d82744252c7abc7683">   36</a></span>    <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;PropertyId&gt;</a> <a class="code hl_variable" href="struct_game_1_1_category_create_info.html#abf7c7853e40868d82744252c7abc7683">properties</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="struct_game_1_1_category_create_info.html#a1d232738feada962deb6f12d8c530496">   36</a></span>    <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;ComponentId&gt;</a> <a class="code hl_variable" href="struct_game_1_1_category_create_info.html#a1d232738feada962deb6f12d8c530496">components</a>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">// namespace Game</span></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition:</b> fixedarray.h:20</div></div>
 <div class="ttc" id="aclass_util_1_1_string_html"><div class="ttname"><a href="class_util_1_1_string.html">Util::String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition:</b> string.h:48</div></div>
+<div class="ttc" id="acomponentid_8h_html"><div class="ttname"><a href="componentid_8h.html">componentid.h</a></div></div>
 <div class="ttc" id="afixedarray_8h_html"><div class="ttname"><a href="fixedarray_8h.html">fixedarray.h</a></div></div>
 <div class="ttc" id="aids_2id_8h_html_a32443a9b8baee9883348a631cf5c2f37"><div class="ttname"><a href="ids_2id_8h.html#a32443a9b8baee9883348a631cf5c2f37">ID_16_TYPE</a></div><div class="ttdeci">#define ID_16_TYPE(x)</div><div class="ttdef"><b>Definition:</b> id.h:46</div></div>
 <div class="ttc" id="aids_2id_8h_html_a4235c5ac56c4d81970d369dcae60c903"><div class="ttname"><a href="ids_2id_8h.html#a4235c5ac56c4d81970d369dcae60c903">ID_32_TYPE</a></div><div class="ttdeci">#define ID_32_TYPE(x)</div><div class="ttdef"><b>Definition:</b> id.h:16</div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition:</b> blueprintmanager.cc:14</div></div>
-<div class="ttc" id="anamespace_game_html_afb3ae593b72175e2e0bc393e113d7252"><div class="ttname"><a href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a></div><div class="ttdeci">MemDb::PropertyId PropertyId</div><div class="ttdef"><b>Definition:</b> category.h:17</div></div>
-<div class="ttc" id="apropertyid_8h_html"><div class="ttname"><a href="propertyid_8h.html">propertyid.h</a></div></div>
+<div class="ttc" id="anamespace_game_html_a1ae77b966fd81f0b304de0d9bb6f0ce4"><div class="ttname"><a href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a></div><div class="ttdeci">MemDb::ComponentId ComponentId</div><div class="ttdef"><b>Definition:</b> category.h:17</div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
 <div class="ttc" id="astruct_game_1_1_blueprint_id_html"><div class="ttname"><a href="struct_game_1_1_blueprint_id.html">Game::BlueprintId</a></div><div class="ttdef"><b>Definition:</b> category.h:19</div></div>
 <div class="ttc" id="astruct_game_1_1_category_create_info_html"><div class="ttname"><a href="struct_game_1_1_category_create_info.html">Game::CategoryCreateInfo</a></div><div class="ttdef"><b>Definition:</b> category.h:32</div></div>
-<div class="ttc" id="astruct_game_1_1_category_create_info_html_a500d7acb7c8443c36f4787ae5d48c4b4"><div class="ttname"><a href="struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4">Game::CategoryCreateInfo::name</a></div><div class="ttdeci">Util::String name</div><div class="ttdoc">name to be given to the category</div><div class="ttdef"><b>Definition:</b> category.h:34</div></div>
-<div class="ttc" id="astruct_game_1_1_category_create_info_html_abf7c7853e40868d82744252c7abc7683"><div class="ttname"><a href="struct_game_1_1_category_create_info.html#abf7c7853e40868d82744252c7abc7683">Game::CategoryCreateInfo::properties</a></div><div class="ttdeci">Util::FixedArray&lt; PropertyId &gt; properties</div><div class="ttdoc">which properties the category should have</div><div class="ttdef"><b>Definition:</b> category.h:36</div></div>
+<div class="ttc" id="astruct_game_1_1_category_create_info_html_a1d232738feada962deb6f12d8c530496"><div class="ttname"><a href="struct_game_1_1_category_create_info.html#a1d232738feada962deb6f12d8c530496">Game::CategoryCreateInfo::components</a></div><div class="ttdeci">Util::FixedArray&lt; ComponentId &gt; components</div><div class="ttdoc">which properties the table should have</div><div class="ttdef"><b>Definition:</b> category.h:36</div></div>
+<div class="ttc" id="astruct_game_1_1_category_create_info_html_a500d7acb7c8443c36f4787ae5d48c4b4"><div class="ttname"><a href="struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4">Game::CategoryCreateInfo::name</a></div><div class="ttdeci">Util::String name</div><div class="ttdoc">name to be given to the table</div><div class="ttdef"><b>Definition:</b> category.h:34</div></div>
 <div class="ttc" id="astruct_game_1_1_template_id_html"><div class="ttname"><a href="struct_game_1_1_template_id.html">Game::TemplateId</a></div><div class="ttdef"><b>Definition:</b> category.h:20</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_property_id_html"><div class="ttname"><a href="struct_mem_db_1_1_property_id.html">MemDb::PropertyId</a></div><div class="ttdef"><b>Definition:</b> propertyid.h:19</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_component_id_html"><div class="ttname"><a href="struct_mem_db_1_1_component_id.html">MemDb::ComponentId</a></div><div class="ttdef"><b>Definition:</b> componentid.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -139,7 +139,7 @@ $(document).ready(function(){initNavTree('category_8h_source.html',''); initResi
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="category_8h.html">category.h</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:50:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:08:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,7 +1,7 @@
 var class_game_1_1_blueprint_manager =
 [
     [ "Blueprint", "struct_game_1_1_blueprint_manager_1_1_blueprint.html", "struct_game_1_1_blueprint_manager_1_1_blueprint" ],
-    [ "PropertyEntry", "struct_game_1_1_blueprint_manager_1_1_property_entry.html", "struct_game_1_1_blueprint_manager_1_1_property_entry" ],
+    [ "ComponentEntry", "struct_game_1_1_blueprint_manager_1_1_component_entry.html", "struct_game_1_1_blueprint_manager_1_1_component_entry" ],
     [ "Template", "struct_game_1_1_blueprint_manager_1_1_template.html", "struct_game_1_1_blueprint_manager_1_1_template" ],
     [ "BlueprintManager", "class_game_1_1_blueprint_manager.html#a51107c1c12024b823259c0cdd4deb239", null ],
     [ "~BlueprintManager", "class_game_1_1_blueprint_manager.html#a656caba767f822db33a1833b8530ca24", null ],

@@ -14,7 +14,7 @@ var searchData=
   ['scriptserver_11',['ScriptServer',['../class_scripting_1_1_script_server.html',1,'Scripting']]],
   ['semaphorecreateinfo_12',['SemaphoreCreateInfo',['../struct_core_graphics_1_1_semaphore_create_info.html',1,'CoreGraphics']]],
   ['semaphoreid_13',['SemaphoreId',['../struct_core_graphics_1_1_semaphore_id.html',1,'CoreGraphics']]],
-  ['serializer_14',['Serializer',['../struct_game_1_1_property_serialization_1_1_serializer.html',1,'Game::PropertySerialization']]],
+  ['serializer_14',['Serializer',['../struct_game_1_1_component_serialization_1_1_serializer.html',1,'Game::ComponentSerialization']]],
   ['set_15',['Set',['../class_util_1_1_set.html',1,'Util']]],
   ['setupflags_16',['SetupFlags',['../struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html',1,'CoreGraphics::GpuBufferTypes']]],
   ['shaderconfig_17',['ShaderConfig',['../class_materials_1_1_shader_config.html',1,'Materials']]],

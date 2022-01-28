@@ -62,7 +62,7 @@ var searchData=
   ['op_59',['op',['../struct_frame_1_1_frame_op_1_1_texture_dependency.html#a5311bf73dd0a6ce72904479e10210a2e',1,'Frame::FrameOp::TextureDependency::op()'],['../struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ac09d885f96d7029549e3f3bee52793a1',1,'Frame::FrameOp::BufferDependency::op()']]],
   ['opallocator_60',['opAllocator',['../namespace_game.html#a6790584834c22bd67ecc217cd70622d0',1,'Game']]],
   ['opaquememorybinds_61',['opaqueMemoryBinds',['../struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa60fc77518b8f22dd0731ae92de5b9a0',1,'Vulkan::VkSubContextHandler::SparseBindSubmission']]],
-  ['opbufferallocator_62',['opBufferAllocator',['../namespace_game.html#a5f8e9ba2e7452294997fc9e0dfa4fb89',1,'Game']]],
+  ['opbufferallocator_62',['opBufferAllocator',['../namespace_game.html#a8bf48647f215e0b1801607df832151fc',1,'Game']]],
   ['open_63',['open',['../class_resources_1_1_resource_server.html#af103757f0bbaed7eb5474be356bc2f49',1,'Resources::ResourceServer']]],
   ['open_5fautocomplete_64',['open_autocomplete',['../imguiconsole_8cc.html#a96151dc66764498f19cd53f3acceb034',1,'imguiconsole.cc']]],
   ['openbracketfrag_65',['OpenBracketFrag',['../class_db_1_1_sqlite3_filter_set.html#ae7f01e8f59ca19570fb95cca90b94535',1,'Db::Sqlite3FilterSet::OpenBracketFrag()'],['../class_db_1_1_sqlite3_table.html#afe168f02c8f06aa973eb086bd0cf17d2',1,'Db::Sqlite3Table::OpenBracketFrag()']]],
@@ -86,5 +86,5 @@ var searchData=
   ['overlapbuffer_83',['overlapBuffer',['../class_physics_1_1_physx_state.html#a0ff13b047898c06b4907c92ed2be0b47',1,'Physics::PhysxState']]],
   ['overlapped_84',['overlapped',['../struct_i_o_1_1_file_watcher_platform.html#ac3783f48d187e283a815d0a519ac30e8',1,'IO::FileWatcherPlatform']]],
   ['overriderootdirectory_85',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
-  ['ownerid_86',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#a37c791514b4a2c6da3c2a8573e0363e0',1,'Game::GameServer::State']]]
+  ['ownerid_86',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#ab4045e376f4243ec99c8d5b3d431a720',1,'Game::GameServer::State']]]
 ];

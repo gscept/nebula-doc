@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('world_8cc.html',''); initResizable(); 
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="blueprintmanager_8h_source.html">basegamefeature/managers/blueprintmanager.h</a>&quot;</code><br />
 <code>#include &quot;imgui.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="propertyinspection_8h_source.html">game/propertyinspection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentinspection_8h_source.html">game/componentinspection.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -125,10 +125,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae8969ce9a2d196230ee19fb60e71ca7b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae8969ce9a2d196230ee19fb60e71ca7b">Game::RegPidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; Op::RegisterProperty &gt;</td></tr>
-<tr class="separator:ae8969ce9a2d196230ee19fb60e71ca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a670623f3a82b07d6e43fe76c5e39a077"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a670623f3a82b07d6e43fe76c5e39a077">Game::DeregPidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; Op::DeregisterProperty &gt;</td></tr>
-<tr class="separator:a670623f3a82b07d6e43fe76c5e39a077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aaaa1aabbc0053c20adddc35a441bb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7aaaa1aabbc0053c20adddc35a441bb6">Game::RegCidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; Op::RegisterComponent &gt;</td></tr>
+<tr class="separator:a7aaaa1aabbc0053c20adddc35a441bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db3f900c0ff52be49cc82d063c11695"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5db3f900c0ff52be49cc82d063c11695">Game::DeregCidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; Op::DeregisterComponent &gt;</td></tr>
+<tr class="separator:a5db3f900c0ff52be49cc82d063c11695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -165,13 +165,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a4edd1d8ef4925af6cbcad9813f248248"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4edd1d8ef4925af6cbcad9813f248248">Game::DeleteEntity</a> (World *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
 <tr class="memdesc:a4edd1d8ef4925af6cbcad9813f248248"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete entity  <a href="namespace_game.html#a4edd1d8ef4925af6cbcad9813f248248">More...</a><br /></td></tr>
 <tr class="separator:a4edd1d8ef4925af6cbcad9813f248248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a18712ae384dddf8cc8ae4918c4904"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a12a18712ae384dddf8cc8ae4918c4904">Game::DecayProperty</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a> column, <a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">MemDb::Row</a> instance)</td></tr>
-<tr class="separator:a12a18712ae384dddf8cc8ae4918c4904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b81611bf25603bbfa4e78958a39b27d"><td class="memItemLeft" align="right" valign="top">PropertyDecayBuffer const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">Game::GetDecayBuffer</a> (<a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid)</td></tr>
-<tr class="memdesc:a0b81611bf25603bbfa4e78958a39b27d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the decay buffer for a specific property  <a href="namespace_game.html#a0b81611bf25603bbfa4e78958a39b27d">More...</a><br /></td></tr>
-<tr class="separator:a0b81611bf25603bbfa4e78958a39b27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5ee1baac82e2d3cfbefd6903506e24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3d5ee1baac82e2d3cfbefd6903506e24">Game::DecayComponent</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a> component, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a> column, <a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">MemDb::Row</a> instance)</td></tr>
+<tr class="separator:a3d5ee1baac82e2d3cfbefd6903506e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a7f1695ff3939b3a5e5ec055a43cac"><td class="memItemLeft" align="right" valign="top">ComponentDecayBuffer const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af8a7f1695ff3939b3a5e5ec055a43cac">Game::GetDecayBuffer</a> (<a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a> component)</td></tr>
+<tr class="memdesc:af8a7f1695ff3939b3a5e5ec055a43cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the decay buffer for a specific component  <a href="namespace_game.html#af8a7f1695ff3939b3a5e5ec055a43cac">More...</a><br /></td></tr>
+<tr class="separator:af8a7f1695ff3939b3a5e5ec055a43cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
-<tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the property decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
+<tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the component decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
 <tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa95a6aef9f9f5eb4e4cad4706b5f0d85"><td class="memItemLeft" align="right" valign="top">OpBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85">Game::CreateOpBuffer</a> (World *)</td></tr>
 <tr class="memdesc:aa95a6aef9f9f5eb4e4cad4706b5f0d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an operations buffer.  <a href="namespace_game.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85">More...</a><br /></td></tr>
@@ -182,18 +182,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5bd2f08d7ec1908fe36e6ca1e2dca65f">Game::DestroyOpBuffer</a> (OpBuffer &amp;)</td></tr>
 <tr class="memdesc:a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys an operations buffer.  <a href="namespace_game.html#a5bd2f08d7ec1908fe36e6ca1e2dca65f">More...</a><br /></td></tr>
 <tr class="separator:a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbcecd0fe9398a2df42c1a25c140af00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#afbcecd0fe9398a2df42c1a25c140af00">Game::AddOp</a> (OpBuffer buffer, Op::RegisterProperty op)</td></tr>
-<tr class="memdesc:afbcecd0fe9398a2df42c1a25c140af00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a property &lt;-&gt; entity association. Moves entity to a different category table.  <a href="namespace_game.html#afbcecd0fe9398a2df42c1a25c140af00">More...</a><br /></td></tr>
-<tr class="separator:afbcecd0fe9398a2df42c1a25c140af00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07ebf0ec108b8a85ac46fe1a6485bebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a07ebf0ec108b8a85ac46fe1a6485bebc">Game::AddOp</a> (OpBuffer buffer, Op::DeregisterProperty const &amp;op)</td></tr>
-<tr class="memdesc:a07ebf0ec108b8a85ac46fe1a6485bebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregister a property &lt;-&gt; entity association. Moves entity to a different category table.  <a href="namespace_game.html#a07ebf0ec108b8a85ac46fe1a6485bebc">More...</a><br /></td></tr>
-<tr class="separator:a07ebf0ec108b8a85ac46fe1a6485bebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00c99b78222411740ef8c3a1dbd243a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af00c99b78222411740ef8c3a1dbd243a">Game::Execute</a> (World *, Op::RegisterProperty const &amp;op)</td></tr>
-<tr class="memdesc:af00c99b78222411740ef8c3a1dbd243a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <a href="namespace_game.html#af00c99b78222411740ef8c3a1dbd243a">More...</a><br /></td></tr>
-<tr class="separator:af00c99b78222411740ef8c3a1dbd243a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa78dd04992eb2e9f5f4210722b1e3d1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa78dd04992eb2e9f5f4210722b1e3d1c">Game::Execute</a> (World *, Op::DeregisterProperty const &amp;op)</td></tr>
-<tr class="memdesc:aa78dd04992eb2e9f5f4210722b1e3d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <a href="namespace_game.html#aa78dd04992eb2e9f5f4210722b1e3d1c">More...</a><br /></td></tr>
-<tr class="separator:aa78dd04992eb2e9f5f4210722b1e3d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c016f2fccdd090e78668905c2ce0e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab3c016f2fccdd090e78668905c2ce0e1">Game::AddOp</a> (OpBuffer buffer, Op::RegisterComponent op)</td></tr>
+<tr class="memdesc:ab3c016f2fccdd090e78668905c2ce0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a component &lt;-&gt; entity association. Moves entity to a different entity table.  <a href="namespace_game.html#ab3c016f2fccdd090e78668905c2ce0e1">More...</a><br /></td></tr>
+<tr class="separator:ab3c016f2fccdd090e78668905c2ce0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6fb17ab5e24d175ba52b42e1644706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4c6fb17ab5e24d175ba52b42e1644706">Game::AddOp</a> (OpBuffer buffer, Op::DeregisterComponent const &amp;op)</td></tr>
+<tr class="memdesc:a4c6fb17ab5e24d175ba52b42e1644706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregister a component &lt;-&gt; entity association. Moves entity to a different entity table.  <a href="namespace_game.html#a4c6fb17ab5e24d175ba52b42e1644706">More...</a><br /></td></tr>
+<tr class="separator:a4c6fb17ab5e24d175ba52b42e1644706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec106d2835917b196f726ea47ae4799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6ec106d2835917b196f726ea47ae4799">Game::Execute</a> (World *, Op::RegisterComponent const &amp;op)</td></tr>
+<tr class="memdesc:a6ec106d2835917b196f726ea47ae4799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <a href="namespace_game.html#a6ec106d2835917b196f726ea47ae4799">More...</a><br /></td></tr>
+<tr class="separator:a6ec106d2835917b196f726ea47ae4799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aaffb1c2c0de0eb9ac2e0440fa8bcf38b">Game::Execute</a> (World *, Op::DeregisterComponent const &amp;op)</td></tr>
+<tr class="memdesc:aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <a href="namespace_game.html#aaffb1c2c0de0eb9ac2e0440fa8bcf38b">More...</a><br /></td></tr>
+<tr class="separator:aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5f29db9767cc5376d6a5a3c27fb277a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a">Game::ReleaseAllOps</a> ()</td></tr>
 <tr class="memdesc:ab5f29db9767cc5376d6a5a3c27fb277a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release all memory allocated by operation buffers.  <a href="namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a">More...</a><br /></td></tr>
 <tr class="separator:ab5f29db9767cc5376d6a5a3c27fb277a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,15 +206,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="memItemLeft" align="right" valign="top">EntityMapping&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6c0eb1f6f961c1806c432ae42be2d4ba">Game::GetEntityMapping</a> (World *, Entity entity)</td></tr>
 <tr class="memdesc:a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the entity mapping of an entity.  <a href="namespace_game.html#a6c0eb1f6f961c1806c432ae42be2d4ba">More...</a><br /></td></tr>
 <tr class="separator:a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dbc31a6563458519541d942f9d988da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3dbc31a6563458519541d942f9d988da">Game::HasProperty</a> (World *, Entity const entity, PropertyId const pid)</td></tr>
-<tr class="memdesc:a3dbc31a6563458519541d942f9d988da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity has a specific property. (SLOW!)  <a href="namespace_game.html#a3dbc31a6563458519541d942f9d988da">More...</a><br /></td></tr>
-<tr class="separator:a3dbc31a6563458519541d942f9d988da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bd6c080c247dacd34df6950d6bf680"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a29bd6c080c247dacd34df6950d6bf680">Game::HasComponent</a> (World *, Entity const entity, ComponentId const component)</td></tr>
+<tr class="memdesc:a29bd6c080c247dacd34df6950d6bf680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity has a specific component. (SLOW!)  <a href="namespace_game.html#a29bd6c080c247dacd34df6950d6bf680">More...</a><br /></td></tr>
+<tr class="separator:a29bd6c080c247dacd34df6950d6bf680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94cfb07f616a6f3e883141772956064e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a94cfb07f616a6f3e883141772956064e">Game::GetNumInstances</a> (World *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table)</td></tr>
-<tr class="memdesc:a94cfb07f616a6f3e883141772956064e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of instances in a specific category.  <a href="namespace_game.html#a94cfb07f616a6f3e883141772956064e">More...</a><br /></td></tr>
+<tr class="memdesc:a94cfb07f616a6f3e883141772956064e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of instances in a specific table.  <a href="namespace_game.html#a94cfb07f616a6f3e883141772956064e">More...</a><br /></td></tr>
 <tr class="separator:a94cfb07f616a6f3e883141772956064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3e0a079849fb1a38dc825e4f29b997e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab3e0a079849fb1a38dc825e4f29b997e">Game::GetInstanceBuffer</a> (World *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> const, PropertyId const)</td></tr>
-<tr class="memdesc:ab3e0a079849fb1a38dc825e4f29b997e"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the instance buffer for a specific property in a category  <a href="namespace_game.html#ab3e0a079849fb1a38dc825e4f29b997e">More...</a><br /></td></tr>
-<tr class="separator:ab3e0a079849fb1a38dc825e4f29b997e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3696f9bbbb7d546b85b85b0a065eea41"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3696f9bbbb7d546b85b85b0a065eea41">Game::GetInstanceBuffer</a> (World *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> const, ComponentId const)</td></tr>
+<tr class="memdesc:a3696f9bbbb7d546b85b85b0a065eea41"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the instance buffer for a specific component in a table  <a href="namespace_game.html#a3696f9bbbb7d546b85b85b0a065eea41">More...</a><br /></td></tr>
+<tr class="separator:a3696f9bbbb7d546b85b85b0a065eea41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab408228dc4f042fe26d7842422fbd052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">MemDb::Row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab408228dc4f042fe26d7842422fbd052">Game::GetInstance</a> (World *, Entity entity)</td></tr>
 <tr class="memdesc:ab408228dc4f042fe26d7842422fbd052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instance of entity.  <a href="namespace_game.html#ab408228dc4f042fe26d7842422fbd052">More...</a><br /></td></tr>
 <tr class="separator:ab408228dc4f042fe26d7842422fbd052"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,9 +254,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a2e853d5c1d88d626c4859e75a6d8e3f9">Game::DeallocateEntity</a> (World *, Entity)</td></tr>
 <tr class="memdesc:a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate an entity id. Make sure to deallocate the entity db entry first.  <a href="namespace_game.html#a2e853d5c1d88d626c4859e75a6d8e3f9">More...</a><br /></td></tr>
 <tr class="separator:a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3ca2ebb6179f76998273394bd3e78f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">Game::SetProperty</a> (World *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#afb3ae593b72175e2e0bc393e113d7252">Game::PropertyId</a> pid, void *value, uint64_t size)</td></tr>
-<tr class="memdesc:af3ca2ebb6179f76998273394bd3e78f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the value of an entity  <a href="namespace_game.html#af3ca2ebb6179f76998273394bd3e78f4">More...</a><br /></td></tr>
-<tr class="separator:af3ca2ebb6179f76998273394bd3e78f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583c03ec0434eff36157ae336ef7bc7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a583c03ec0434eff36157ae336ef7bc7b">Game::SetComponent</a> (World *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a> component, void *value, uint64_t size)</td></tr>
+<tr class="memdesc:a583c03ec0434eff36157ae336ef7bc7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the value of an entity  <a href="namespace_game.html#a583c03ec0434eff36157ae336ef7bc7b">More...</a><br /></td></tr>
+<tr class="separator:a583c03ec0434eff36157ae336ef7bc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41ef0811e70a3c3de74a766c986b4d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a41ef0811e70a3c3de74a766c986b4d5f">Game::WorldRenderDebug</a> (World *world)</td></tr>
 <tr class="separator:a41ef0811e70a3c3de74a766c986b4d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42aa58432b89dc8f89812e64c85b790d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a42aa58432b89dc8f89812e64c85b790d">Game::WorldOverride</a> (World *src, World *dst)</td></tr>
@@ -265,12 +265,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5f8e9ba2e7452294997fc9e0dfa4fb89"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; World *, RegPidQueue, DeregPidQueue &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5f8e9ba2e7452294997fc9e0dfa4fb89">Game::opBufferAllocator</a></td></tr>
-<tr class="separator:a5f8e9ba2e7452294997fc9e0dfa4fb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf48647f215e0b1801607df832151fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; World *, RegCidQueue, DeregCidQueue &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a8bf48647f215e0b1801607df832151fc">Game::opBufferAllocator</a></td></tr>
+<tr class="separator:a8bf48647f215e0b1801607df832151fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6790584834c22bd67ecc217cd70622d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6790584834c22bd67ecc217cd70622d0">Game::opAllocator</a></td></tr>
 <tr class="separator:a6790584834c22bd67ecc217cd70622d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa54a567dddf68635dd774201979493f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; PropertyDecayBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa54a567dddf68635dd774201979493f6">Game::propertyDecayTable</a></td></tr>
-<tr class="separator:aa54a567dddf68635dd774201979493f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34dc6b5e2f72f2c4db9dc1e198e1bf33"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; ComponentDecayBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33">Game::componentDecayTable</a></td></tr>
+<tr class="separator:a34dc6b5e2f72f2c4db9dc1e198e1bf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +279,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="world_8cc.html">world.cc</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

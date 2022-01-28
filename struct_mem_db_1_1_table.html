@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('struct_mem_db_1_1_table.html',''); ini
 
 <p><code>#include &lt;<a class="el" href="memdb_2table_8h_source.html">table.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A table hold properties as columns, and buffers for those columns. </p>
+<div class="textblock"><p >A table hold components as columns, and buffers for those columns. </p>
 <p >Property descriptions are retrieved from the <a class="el" href="class_mem_db_1_1_type_registry.html">MemDb::TypeRegistry</a></p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="typeregistry_8h.html">memdb/typeregistry.h</a> </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>This should be changed to SOAs </dd></dl>
@@ -123,15 +123,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aacbf04219790c0775a05a8f2e34315e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a876a422273aa0295be39230009984dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#a876a422273aa0295be39230009984dca">freeIds</a></td></tr>
 <tr class="separator:a876a422273aa0295be39230009984dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0e7c5482ba76b01fb2086232248e64b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#aa0e7c5482ba76b01fb2086232248e64b">properties</a></td></tr>
-<tr class="memdesc:aa0e7c5482ba76b01fb2086232248e64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">all properties that this table has  <a href="struct_mem_db_1_1_table.html#aa0e7c5482ba76b01fb2086232248e64b">More...</a><br /></td></tr>
-<tr class="separator:aa0e7c5482ba76b01fb2086232248e64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7982cd24cd20903bc80ff47ba3381415"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>, <a class="el" href="struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d">ColumnBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#a7982cd24cd20903bc80ff47ba3381415">columns</a></td></tr>
-<tr class="memdesc:a7982cd24cd20903bc80ff47ba3381415"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds all the column buffers. This excludes non-typed properties  <a href="struct_mem_db_1_1_table.html#a7982cd24cd20903bc80ff47ba3381415">More...</a><br /></td></tr>
-<tr class="separator:a7982cd24cd20903bc80ff47ba3381415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca04efeb87aa15b90001f763ab66f53c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, 32, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#aca04efeb87aa15b90001f763ab66f53c">columnRegistry</a></td></tr>
-<tr class="memdesc:aca04efeb87aa15b90001f763ab66f53c"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps propertyid -&gt; index in columns array  <a href="struct_mem_db_1_1_table.html#aca04efeb87aa15b90001f763ab66f53c">More...</a><br /></td></tr>
-<tr class="separator:aca04efeb87aa15b90001f763ab66f53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7afe6c03e8fe234947abdbd6191fa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#a2d7afe6c03e8fe234947abdbd6191fa7">components</a></td></tr>
+<tr class="memdesc:a2d7afe6c03e8fe234947abdbd6191fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">all components that this table has  <a href="struct_mem_db_1_1_table.html#a2d7afe6c03e8fe234947abdbd6191fa7">More...</a><br /></td></tr>
+<tr class="separator:a2d7afe6c03e8fe234947abdbd6191fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53232b6b1aeef1a412fb311db878585d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>, <a class="el" href="struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d">ColumnBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#a53232b6b1aeef1a412fb311db878585d">columns</a></td></tr>
+<tr class="memdesc:a53232b6b1aeef1a412fb311db878585d"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds all the column buffers. This excludes non-typed components  <a href="struct_mem_db_1_1_table.html#a53232b6b1aeef1a412fb311db878585d">More...</a><br /></td></tr>
+<tr class="separator:a53232b6b1aeef1a412fb311db878585d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72b3dfebed6f91736c174629486b544"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, 32, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html#af72b3dfebed6f91736c174629486b544">columnRegistry</a></td></tr>
+<tr class="memdesc:af72b3dfebed6f91736c174629486b544"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps componentid -&gt; index in columns array  <a href="struct_mem_db_1_1_table.html#af72b3dfebed6f91736c174629486b544">More...</a><br /></td></tr>
+<tr class="separator:af72b3dfebed6f91736c174629486b544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -171,35 +171,51 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca04efeb87aa15b90001f763ab66f53c" name="aca04efeb87aa15b90001f763ab66f53c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca04efeb87aa15b90001f763ab66f53c">&#9670;&nbsp;</a></span>columnRegistry</h2>
+<a id="af72b3dfebed6f91736c174629486b544" name="af72b3dfebed6f91736c174629486b544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72b3dfebed6f91736c174629486b544">&#9670;&nbsp;</a></span>columnRegistry</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, 32, 1&gt; MemDb::Table::columnRegistry</td>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, 32, 1&gt; MemDb::Table::columnRegistry</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>maps propertyid -&gt; index in columns array </p>
+<p>maps componentid -&gt; index in columns array </p>
 
 </div>
 </div>
-<a id="a7982cd24cd20903bc80ff47ba3381415" name="a7982cd24cd20903bc80ff47ba3381415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7982cd24cd20903bc80ff47ba3381415">&#9670;&nbsp;</a></span>columns</h2>
+<a id="a53232b6b1aeef1a412fb311db878585d" name="a53232b6b1aeef1a412fb311db878585d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53232b6b1aeef1a412fb311db878585d">&#9670;&nbsp;</a></span>columns</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt;<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>, <a class="el" href="struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d">ColumnBuffer</a>&gt; MemDb::Table::columns</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt;<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>, <a class="el" href="struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d">ColumnBuffer</a>&gt; MemDb::Table::columns</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>holds all the column buffers. This excludes non-typed properties </p>
+<p>holds all the column buffers. This excludes non-typed components </p>
+
+</div>
+</div>
+<a id="a2d7afe6c03e8fe234947abdbd6191fa7" name="a2d7afe6c03e8fe234947abdbd6191fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7afe6c03e8fe234947abdbd6191fa7">&#9670;&nbsp;</a></span>components</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&gt; MemDb::Table::components</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>all components that this table has </p>
 
 </div>
 </div>
@@ -289,22 +305,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa0e7c5482ba76b01fb2086232248e64b" name="aa0e7c5482ba76b01fb2086232248e64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0e7c5482ba76b01fb2086232248e64b">&#9670;&nbsp;</a></span>properties</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&gt; MemDb::Table::properties</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>all properties that this table has </p>
-
-</div>
-</div>
 <a id="a7b4432647603e79800fbc3c2abfd02c5" name="a7b4432647603e79800fbc3c2abfd02c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b4432647603e79800fbc3c2abfd02c5">&#9670;&nbsp;</a></span>tid</h2>
 
@@ -331,7 +331,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="struct_mem_db_1_1_table.html">Table</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

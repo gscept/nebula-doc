@@ -129,21 +129,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c48207f9548c926a18e0b618296d69d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a9c48207f9548c926a18e0b618296d69d">ForEachTable</a> (std::function&lt; void(<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>)&gt; const &amp;callback)</td></tr>
 <tr class="memdesc:a9c48207f9548c926a18e0b618296d69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">run a callback for each table in the db  <a href="class_mem_db_1_1_database.html#a9c48207f9548c926a18e0b618296d69d">More...</a><br /></td></tr>
 <tr class="separator:a9c48207f9548c926a18e0b618296d69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5cb07ae221823be55691c26d18a6b1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#af5cb07ae221823be55691c26d18a6b1a">HasProperty</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> col)</td></tr>
-<tr class="memdesc:af5cb07ae221823be55691c26d18a6b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if table has a certain column  <a href="class_mem_db_1_1_database.html#af5cb07ae221823be55691c26d18a6b1a">More...</a><br /></td></tr>
-<tr class="separator:af5cb07ae221823be55691c26d18a6b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad04241ff2ceb4c966350f17ed39820ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ad04241ff2ceb4c966350f17ed39820ea">GetPropertyId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> columnId)</td></tr>
-<tr class="memdesc:ad04241ff2ceb4c966350f17ed39820ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a descriptor for a given column id  <a href="class_mem_db_1_1_database.html#ad04241ff2ceb4c966350f17ed39820ea">More...</a><br /></td></tr>
-<tr class="separator:ad04241ff2ceb4c966350f17ed39820ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a351170de301a0794d4440e211461a40b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a351170de301a0794d4440e211461a40b">GetColumnId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> column)</td></tr>
-<tr class="memdesc:a351170de301a0794d4440e211461a40b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a column id or invalid if column is missing from table  <a href="class_mem_db_1_1_database.html#a351170de301a0794d4440e211461a40b">More...</a><br /></td></tr>
-<tr class="separator:a351170de301a0794d4440e211461a40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bd84c182939da5a93f21fd29a40fb8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a2bd84c182939da5a93f21fd29a40fb8b">AddColumn</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> column, bool updateSignature=true)</td></tr>
-<tr class="memdesc:a2bd84c182939da5a93f21fd29a40fb8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a column to a table  <a href="class_mem_db_1_1_database.html#a2bd84c182939da5a93f21fd29a40fb8b">More...</a><br /></td></tr>
-<tr class="separator:a2bd84c182939da5a93f21fd29a40fb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147cb15ad010ae834fa10445ac6a6f67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a147cb15ad010ae834fa10445ac6a6f67">GetColumns</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
-<tr class="memdesc:a147cb15ad010ae834fa10445ac6a6f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the all descriptors for a table  <a href="class_mem_db_1_1_database.html#a147cb15ad010ae834fa10445ac6a6f67">More...</a><br /></td></tr>
-<tr class="separator:a147cb15ad010ae834fa10445ac6a6f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1ab8ffdce5b5d112482a16d6a58b46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ace1ab8ffdce5b5d112482a16d6a58b46">HasComponent</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> col)</td></tr>
+<tr class="memdesc:ace1ab8ffdce5b5d112482a16d6a58b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if table has a certain column  <a href="class_mem_db_1_1_database.html#ace1ab8ffdce5b5d112482a16d6a58b46">More...</a><br /></td></tr>
+<tr class="separator:ace1ab8ffdce5b5d112482a16d6a58b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab410ece5afdf391048a4735de52942b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ab410ece5afdf391048a4735de52942b1">GetComponentId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> columnId)</td></tr>
+<tr class="memdesc:ab410ece5afdf391048a4735de52942b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a descriptor for a given column id  <a href="class_mem_db_1_1_database.html#ab410ece5afdf391048a4735de52942b1">More...</a><br /></td></tr>
+<tr class="separator:ab410ece5afdf391048a4735de52942b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a18b6a40bc1ca0c0d6f18e6ffe19cb6f5">GetColumnId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> column)</td></tr>
+<tr class="memdesc:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a column id or invalid if column is missing from table  <a href="class_mem_db_1_1_database.html#a18b6a40bc1ca0c0d6f18e6ffe19cb6f5">More...</a><br /></td></tr>
+<tr class="separator:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25776b4c197bf1339686384e355d97be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a25776b4c197bf1339686384e355d97be">AddColumn</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> column, bool updateSignature=true)</td></tr>
+<tr class="memdesc:a25776b4c197bf1339686384e355d97be"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a column to a table  <a href="class_mem_db_1_1_database.html#a25776b4c197bf1339686384e355d97be">More...</a><br /></td></tr>
+<tr class="separator:a25776b4c197bf1339686384e355d97be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a4b4cf92f3add88a4e4d76a8bf454ee06">GetColumns</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
+<tr class="memdesc:a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the all descriptors for a table  <a href="class_mem_db_1_1_database.html#a4b4cf92f3add88a4e4d76a8bf454ee06">More...</a><br /></td></tr>
+<tr class="separator:a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc9777fd7ec240c7971a71e44402ac21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#acc9777fd7ec240c7971a71e44402ac21">AllocateRow</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
 <tr class="memdesc:acc9777fd7ec240c7971a71e44402ac21"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a row within a table  <a href="class_mem_db_1_1_database.html#acc9777fd7ec240c7971a71e44402ac21">More...</a><br /></td></tr>
 <tr class="separator:acc9777fd7ec240c7971a71e44402ac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,9 +260,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a3a7382dd05f6608a8a3215bdf3ef6261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a3a7382dd05f6608a8a3215bdf3ef6261">GrowTable</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid)</td></tr>
 <tr class="memdesc:a3a7382dd05f6608a8a3215bdf3ef6261"><td class="mdescLeft">&#160;</td><td class="mdescRight">grow each column within table  <a href="class_mem_db_1_1_database.html#a3a7382dd05f6608a8a3215bdf3ef6261">More...</a><br /></td></tr>
 <tr class="separator:a3a7382dd05f6608a8a3215bdf3ef6261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b3efed1a5c59473ecc6f5319577ff0d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a8b3efed1a5c59473ecc6f5319577ff0d">AllocateBuffer</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid, <a class="el" href="class_mem_db_1_1_property_description.html">PropertyDescription</a> *desc)</td></tr>
-<tr class="memdesc:a8b3efed1a5c59473ecc6f5319577ff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a buffer for a column. Sets all values to default  <a href="class_mem_db_1_1_database.html#a8b3efed1a5c59473ecc6f5319577ff0d">More...</a><br /></td></tr>
-<tr class="separator:a8b3efed1a5c59473ecc6f5319577ff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a2a5ee76b27ce7b72bffd24e33c9d207c">AllocateBuffer</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid, <a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a> *desc)</td></tr>
+<tr class="memdesc:a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a buffer for a column. Sets all values to default  <a href="class_mem_db_1_1_database.html#a2a5ee76b27ce7b72bffd24e33c9d207c">More...</a><br /></td></tr>
+<tr class="separator:a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -356,8 +356,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2bd84c182939da5a93f21fd29a40fb8b" name="a2bd84c182939da5a93f21fd29a40fb8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bd84c182939da5a93f21fd29a40fb8b">&#9670;&nbsp;</a></span>AddColumn()</h2>
+<a id="a25776b4c197bf1339686384e355d97be" name="a25776b4c197bf1339686384e355d97be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25776b4c197bf1339686384e355d97be">&#9670;&nbsp;</a></span>AddColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,7 +371,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
           <td class="paramname"><em>descriptor</em>, </td>
         </tr>
         <tr>
@@ -399,8 +399,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b3efed1a5c59473ecc6f5319577ff0d" name="a8b3efed1a5c59473ecc6f5319577ff0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b3efed1a5c59473ecc6f5319577ff0d">&#9670;&nbsp;</a></span>AllocateBuffer()</h2>
+<a id="a2a5ee76b27ce7b72bffd24e33c9d207c" name="a2a5ee76b27ce7b72bffd24e33c9d207c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5ee76b27ce7b72bffd24e33c9d207c">&#9670;&nbsp;</a></span>AllocateBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_mem_db_1_1_property_description.html">PropertyDescription</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a> *&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -607,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 <p >Defragments a table and call the move callback BEFORE moving elements.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tid</td><td><a class="el" href="struct_mem_db_1_1_table.html" title="A table hold properties as columns, and buffers for those columns.">Table</a> identifier </td></tr>
+    <tr><td class="paramname">tid</td><td><a class="el" href="struct_mem_db_1_1_table.html" title="A table hold components as columns, and buffers for those columns.">Table</a> identifier </td></tr>
     <tr><td class="paramname">moveCallback</td><td>Callback when moving an instance. First parameter of callback is 'from index' and second is 'to index'</td></tr>
   </table>
   </dd>
@@ -920,8 +920,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a351170de301a0794d4440e211461a40b" name="a351170de301a0794d4440e211461a40b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a351170de301a0794d4440e211461a40b">&#9670;&nbsp;</a></span>GetColumnId()</h2>
+<a id="a18b6a40bc1ca0c0d6f18e6ffe19cb6f5" name="a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b6a40bc1ca0c0d6f18e6ffe19cb6f5">&#9670;&nbsp;</a></span>GetColumnId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -935,7 +935,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
           <td class="paramname"><em>column</em>&#160;</td>
         </tr>
         <tr>
@@ -950,14 +950,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a147cb15ad010ae834fa10445ac6a6f67" name="a147cb15ad010ae834fa10445ac6a6f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a147cb15ad010ae834fa10445ac6a6f67">&#9670;&nbsp;</a></span>GetColumns()</h2>
+<a id="a4b4cf92f3add88a4e4d76a8bf454ee06" name="a4b4cf92f3add88a4e4d76a8bf454ee06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b4cf92f3add88a4e4d76a8bf454ee06">&#9670;&nbsp;</a></span>GetColumns()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> &gt; const  &amp; MemDb::Database::GetColumns </td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const  &amp; MemDb::Database::GetColumns </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
           <td class="paramname"><em>table</em></td><td>)</td>
@@ -967,6 +967,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get the all descriptors for a table </p>
+
+</div>
+</div>
+<a id="ab410ece5afdf391048a4735de52942b1" name="ab410ece5afdf391048a4735de52942b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab410ece5afdf391048a4735de52942b1">&#9670;&nbsp;</a></span>GetComponentId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> MemDb::Database::GetComponentId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td>
+          <td class="paramname"><em>columnId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns a descriptor for a given column id </p>
 
 </div>
 </div>
@@ -1014,36 +1044,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>retrieve the number of tables </p>
-
-</div>
-</div>
-<a id="ad04241ff2ceb4c966350f17ed39820ea" name="ad04241ff2ceb4c966350f17ed39820ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad04241ff2ceb4c966350f17ed39820ea">&#9670;&nbsp;</a></span>GetPropertyId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a> MemDb::Database::GetPropertyId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td>
-          <td class="paramname"><em>columnId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a descriptor for a given column id </p>
 
 </div>
 </div>
@@ -1159,14 +1159,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af5cb07ae221823be55691c26d18a6b1a" name="af5cb07ae221823be55691c26d18a6b1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5cb07ae221823be55691c26d18a6b1a">&#9670;&nbsp;</a></span>HasProperty()</h2>
+<a id="ace1ab8ffdce5b5d112482a16d6a58b46" name="ace1ab8ffdce5b5d112482a16d6a58b46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1ab8ffdce5b5d112482a16d6a58b46">&#9670;&nbsp;</a></span>HasComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MemDb::Database::HasProperty </td>
+          <td class="memname">bool MemDb::Database::HasComponent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
           <td class="paramname"><em>table</em>, </td>
@@ -1174,7 +1174,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_property_id.html">PropertyId</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
           <td class="paramname"><em>col</em>&#160;</td>
         </tr>
         <tr>
@@ -1643,7 +1643,7 @@ This is an instant erase swap on src table, which means any external references 
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_database.html">Database</a></li>
 				<li class="footer">
-					Generated on Fri Jan 28 2022 00:52:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 19:09:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
