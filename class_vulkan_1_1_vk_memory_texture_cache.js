@@ -46,5 +46,6 @@ var class_vulkan_1_1_vk_memory_texture_cache =
     [ "Update", "class_vulkan_1_1_vk_memory_texture_cache.html#af22af86fce9056353aa9082c1c136b10", null ],
     [ "UpdateArray", "class_vulkan_1_1_vk_memory_texture_cache.html#a35996da5481c627d21e55fe7a94f05a4", null ],
     [ "UpdateArray", "class_vulkan_1_1_vk_memory_texture_cache.html#acc97766138846e414c1f692404b495b1", null ],
+    [ "CoreGraphics::DelayedDeleteTexture", "class_vulkan_1_1_vk_memory_texture_cache.html#ac987282eaf6dda817727ec284ac1b1bb", null ],
     [ "VkStreamTextureCache", "class_vulkan_1_1_vk_memory_texture_cache.html#ab3a80386b758b87a436effd79b3634d7", null ]
 ];

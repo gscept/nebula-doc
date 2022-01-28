@@ -1,5 +1,6 @@
 var struct_frame_1_1_frame_submission_1_1_compiled_impl =
 [
+    [ "Discard", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ae3a1445e30e08a76911aa44b9a2d6409", null ],
     [ "Run", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a64d937b035ea20e327d82018684f3606", null ],
     [ "RunJobs", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a3fdfee0bd3be1e400a78ec533cde469d", null ],
     [ "compiled", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ab573d59a80423b7c30fa4d4522ec7bd2", null ],

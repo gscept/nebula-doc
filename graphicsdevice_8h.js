@@ -38,6 +38,11 @@ var graphicsdevice_8h =
     [ "Copy", "graphicsdevice_8h.html#af589258a2f4afa2d2e50d133358f264b", null ],
     [ "Copy", "graphicsdevice_8h.html#a26a7cddc644fadddecfa19739d1cc2b9", null ],
     [ "CreateGraphicsDevice", "graphicsdevice_8h.html#adb85204de7ba8c4d4be473e7f8c92650", null ],
+    [ "DelayedDeleteBuffer", "graphicsdevice_8h.html#a145ea89618553ea90d68af4560222abc", null ],
+    [ "DelayedDeleteDescriptorSet", "graphicsdevice_8h.html#ac8f3e162978f93146228e6965ec8abcb", null ],
+    [ "DelayedDeleteTexture", "graphicsdevice_8h.html#a900d95dbab9a485f4395e2efc3b858c5", null ],
+    [ "DelayedDeleteTextureView", "graphicsdevice_8h.html#a4e86b82ba9dfa4cd3f3e453ec86966db", null ],
+    [ "DelayedFreeMemory", "graphicsdevice_8h.html#ad0cde60f22ae803f0e981db0e0b29544", null ],
     [ "DestroyGraphicsDevice", "graphicsdevice_8h.html#aa2984fe71da599f6586fc252a4692ad4", null ],
     [ "Draw", "graphicsdevice_8h.html#a41e8a9fb7de3fc4a6c05c60b021d6746", null ],
     [ "Draw", "graphicsdevice_8h.html#a27ff7b92d337f152ff9e257a36e5f7cc", null ],
@@ -120,7 +125,7 @@ var graphicsdevice_8h =
     [ "UnlockConstantUpdates", "graphicsdevice_8h.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],
     [ "UnlockResourceSubmission", "graphicsdevice_8h.html#a4513b6ab28665566863caa6aba2bdd0c", null ],
     [ "UpdateBuffer", "graphicsdevice_8h.html#a0143e6263f0e5f2f8e87991e81e51d36", null ],
+    [ "WaitAndClearPendingCommands", "graphicsdevice_8h.html#a2da92ab7c30fa81b638c9794f6edd7c1", null ],
     [ "WaitEvent", "graphicsdevice_8h.html#a5d967c2a8601e6f244e87e325a27f6dd", null ],
-    [ "WaitForAllQueues", "graphicsdevice_8h.html#adb402120ab24a6ba453a8caf6baa8a24", null ],
     [ "WaitForQueue", "graphicsdevice_8h.html#af15d8d3a5eb2fb2f792d3bc5983d963e", null ]
 ];

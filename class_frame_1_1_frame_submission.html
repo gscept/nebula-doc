@@ -109,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a09d1ed7b144791b32d6bb4b7238b57c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#a09d1ed7b144791b32d6bb4b7238b57c6">~FrameSubmission</a> ()</td></tr>
 <tr class="memdesc:a09d1ed7b144791b32d6bb4b7238b57c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_frame_1_1_frame_submission.html#a09d1ed7b144791b32d6bb4b7238b57c6">More...</a><br /></td></tr>
 <tr class="separator:a09d1ed7b144791b32d6bb4b7238b57c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf042bcde5c0b072f6fce7218f4200a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#adbf042bcde5c0b072f6fce7218f4200a">OnWindowResized</a> ()</td></tr>
+<tr class="memdesc:adbf042bcde5c0b072f6fce7218f4200a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle display resizing.  <a href="class_frame_1_1_frame_submission.html#adbf042bcde5c0b072f6fce7218f4200a">More...</a><br /></td></tr>
+<tr class="separator:adbf042bcde5c0b072f6fce7218f4200a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db8009c79642d63a2a6408a04c4f7e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">FrameOp::Compiled</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#a5db8009c79642d63a2a6408a04c4f7e7">AllocCompiled</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator)</td></tr>
 <tr class="memdesc:a5db8009c79642d63a2a6408a04c4f7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate new instance  <a href="class_frame_1_1_frame_submission.html#a5db8009c79642d63a2a6408a04c4f7e7">More...</a><br /></td></tr>
 <tr class="separator:a5db8009c79642d63a2a6408a04c4f7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +146,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16b3430ca7fa3ecb2a97456a3ebac193 inherit pub_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193">GetChildren</a> ()</td></tr>
 <tr class="memdesc:a16b3430ca7fa3ecb2a97456a3ebac193 inherit pub_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">get children  <a href="class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193">More...</a><br /></td></tr>
 <tr class="separator:a16b3430ca7fa3ecb2a97456a3ebac193 inherit pub_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbca0af19a40f03dda0a8298af908bd5 inherit pub_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#afbca0af19a40f03dda0a8298af908bd5">OnWindowResized</a> ()</td></tr>
-<tr class="memdesc:afbca0af19a40f03dda0a8298af908bd5 inherit pub_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle display resizing  <a href="class_frame_1_1_frame_op.html#afbca0af19a40f03dda0a8298af908bd5">More...</a><br /></td></tr>
-<tr class="separator:afbca0af19a40f03dda0a8298af908bd5 inherit pub_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -331,6 +331,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adbf042bcde5c0b072f6fce7218f4200a" name="adbf042bcde5c0b072f6fce7218f4200a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf042bcde5c0b072f6fce7218f4200a">&#9670;&nbsp;</a></span>OnWindowResized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Frame::FrameSubmission::OnWindowResized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle display resizing. </p>
+
+<p>Reimplemented from <a class="el" href="class_frame_1_1_frame_op.html#afbca0af19a40f03dda0a8298af908bd5">Frame::FrameOp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="af489a7685a76fb444c099adb948c2ddf" name="af489a7685a76fb444c099adb948c2ddf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af489a7685a76fb444c099adb948c2ddf">&#9670;&nbsp;</a></span>queue</h2>
@@ -385,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_frame.html">Frame</a></li><li class="navelem"><a class="el" href="class_frame_1_1_frame_submission.html">FrameSubmission</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 20:30:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 00:52:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

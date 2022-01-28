@@ -85,7 +85,6 @@ $(document).ready(function(){initNavTree('bloomcontext_8cc.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">bloomcontext.cc File Reference</div></div>
@@ -98,17 +97,13 @@ $(document).ready(function(){initNavTree('bloomcontext_8cc.html',''); initResiza
 <code>#include &quot;<a class="el" href="graphicsserver_8h_source.html">graphics/graphicsserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="drawfullscreenquad_8h_source.html">renderutil/drawfullscreenquad.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bloomcontext_8h_source.html">bloomcontext.h</a>&quot;</code><br />
+<code>#include &quot;blur_bloom.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_post_effects"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html">PostEffects</a></td></tr>
 <tr class="memdesc:namespace_post_effects"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bloom post effect. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a76108891dc4352082a676f2978ee446d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bloomcontext_8cc.html#a76108891dc4352082a676f2978ee446d">TILE_WIDTH</a>&#160;&#160;&#160;320</td></tr>
-<tr class="separator:a76108891dc4352082a676f2978ee446d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -117,55 +112,42 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6a5db5bdda8a8658c282a4c5e0b7eeb1"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a700e0a58802ee4b40a38db68b2d8929b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a347773da7665b6ca53831b01de6cc143">PostEffects::internalTargets</a> [1]</td></tr>
-<tr class="separator:a700e0a58802ee4b40a38db68b2d8929b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebdc9153761a63ceb972c95be4f86ceb"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a4033b7ac46cdbc37a01acfd5e50f5ef7">PostEffects::brightPassProgram</a></td></tr>
-<tr class="separator:aebdc9153761a63ceb972c95be4f86ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745d1b3d77fbf3d6272578cac1cfbbae"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#afd772e68cb3f1bb1854b772bf627f773">PostEffects::blurX</a></td></tr>
-<tr class="separator:a745d1b3d77fbf3d6272578cac1cfbbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe00af33b3ba3e07509a90c790942588"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a79351caa47407da160dceff04590475b">PostEffects::blurY</a></td></tr>
-<tr class="separator:afe00af33b3ba3e07509a90c790942588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f9d38c562ba7a83e4daa624f308136"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a92133827160417caa69fbbc1ed1782b0">PostEffects::brightPassShader</a></td></tr>
-<tr class="separator:a85f9d38c562ba7a83e4daa624f308136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a46b95d5390973700e370e5b830d928"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a9c0a6400ebdb685377c3c13138627a7c">PostEffects::blurShader</a></td></tr>
-<tr class="separator:a6a46b95d5390973700e370e5b830d928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac152e839e58dc61129d7289d1e13230c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#afb29d402613caa7a6612d5181e35c8ea">PostEffects::brightPassTable</a></td></tr>
-<tr class="separator:ac152e839e58dc61129d7289d1e13230c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01256f0dc16bac7278e34217079c1709"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a6db64b3fd7f55d56bae6ec32c20d606e">PostEffects::blurTable</a></td></tr>
-<tr class="separator:a01256f0dc16bac7278e34217079c1709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9578f2a680c2e3761052921385c893fb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a1b129b7fcf28b3521cc990148217e7fc">PostEffects::colorSourceSlot</a></td></tr>
-<tr class="separator:a9578f2a680c2e3761052921385c893fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0da0029eb4db70ccdad22d4bb43fe71"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a0904f4ac9efff5d8b72e2348f341552c">PostEffects::luminanceTextureSlot</a></td></tr>
-<tr class="separator:ac0da0029eb4db70ccdad22d4bb43fe71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b70ae4801732d74af42ba57ae3667b9"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ad54ab56ded71b89513bcaeb101f50889">PostEffects::inputImageXSlot</a></td></tr>
-<tr class="separator:a4b70ae4801732d74af42ba57ae3667b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b36919fe16fe945ee69d08e5d325e6a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#acc18a515c4257d7f73856b4fd140b950">PostEffects::inputImageYSlot</a></td></tr>
-<tr class="separator:a6b36919fe16fe945ee69d08e5d325e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a750f8baeac4d1ddf269fbc04fcbacdc6"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ac2346409093becabfcc47cc265d5e3fe">PostEffects::blurImageXSlot</a></td></tr>
-<tr class="separator:a750f8baeac4d1ddf269fbc04fcbacdc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3168404bb807b41e8e669b09d3087f20"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#af4fa0db96010e854231ca729e2fd1294">PostEffects::blurImageYSlot</a></td></tr>
-<tr class="separator:a3168404bb807b41e8e669b09d3087f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97b7ba39011cd9fc9101069a94f62273"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a7691be9defa10aead903173512604bf3">PostEffects::blurredBloom</a></td></tr>
-<tr class="separator:a97b7ba39011cd9fc9101069a94f62273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5db5bdda8a8658c282a4c5e0b7eeb1"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#a6a5db5bdda8a8658c282a4c5e0b7eeb1">PostEffects::bloomState</a></td></tr>
-<tr class="separator:a6a5db5bdda8a8658c282a4c5e0b7eeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000a3d017a5fcea3d7c97601b8377cdf"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a5a9f608398387c803907f02a4d0058fb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a347773da7665b6ca53831b01de6cc143">PostEffects::internalTargets</a> [1]</td></tr>
+<tr class="separator:a5a9f608398387c803907f02a4d0058fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61a9b78f9c4e261a7248d7d9aa3116a"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a4033b7ac46cdbc37a01acfd5e50f5ef7">PostEffects::brightPassProgram</a></td></tr>
+<tr class="separator:aa61a9b78f9c4e261a7248d7d9aa3116a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a439fea4d16e4f94f83fe94f316f8b"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#afd772e68cb3f1bb1854b772bf627f773">PostEffects::blurX</a></td></tr>
+<tr class="separator:a73a439fea4d16e4f94f83fe94f316f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9cd4411fcc247ae35397a845bc2c55"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a79351caa47407da160dceff04590475b">PostEffects::blurY</a></td></tr>
+<tr class="separator:a8b9cd4411fcc247ae35397a845bc2c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c235298d74b006562e82056b338c04f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a92133827160417caa69fbbc1ed1782b0">PostEffects::brightPassShader</a></td></tr>
+<tr class="separator:a3c235298d74b006562e82056b338c04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea18df9edcb5034d2e0c34284519391"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a9c0a6400ebdb685377c3c13138627a7c">PostEffects::blurShader</a></td></tr>
+<tr class="separator:adea18df9edcb5034d2e0c34284519391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84a4b3c527a59de97a73ae5fe03008c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#afb29d402613caa7a6612d5181e35c8ea">PostEffects::brightPassTable</a></td></tr>
+<tr class="separator:ab84a4b3c527a59de97a73ae5fe03008c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf4734d4af82fd35f89c886787d65ac"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a6db64b3fd7f55d56bae6ec32c20d606e">PostEffects::blurTable</a></td></tr>
+<tr class="separator:a0cf4734d4af82fd35f89c886787d65ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace74f7bd83a4179f74ef3071ae921a3c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a1b129b7fcf28b3521cc990148217e7fc">PostEffects::colorSourceSlot</a></td></tr>
+<tr class="separator:ace74f7bd83a4179f74ef3071ae921a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83fc0f932acb664b0b74da8339f6810"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a0904f4ac9efff5d8b72e2348f341552c">PostEffects::luminanceTextureSlot</a></td></tr>
+<tr class="separator:ac83fc0f932acb664b0b74da8339f6810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96209916ae34b4882bd3f3144ca42368"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ad54ab56ded71b89513bcaeb101f50889">PostEffects::inputImageXSlot</a></td></tr>
+<tr class="separator:a96209916ae34b4882bd3f3144ca42368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbaa9f1c289b97b0e2cd2f73a614dec"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#acc18a515c4257d7f73856b4fd140b950">PostEffects::inputImageYSlot</a></td></tr>
+<tr class="separator:accbaa9f1c289b97b0e2cd2f73a614dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9bf14e0349feacaead274af3a3c91aa"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ac2346409093becabfcc47cc265d5e3fe">PostEffects::blurImageXSlot</a></td></tr>
+<tr class="separator:ac9bf14e0349feacaead274af3a3c91aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e5f81586d13ed4f1194d222cef4107"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#af4fa0db96010e854231ca729e2fd1294">PostEffects::blurImageYSlot</a></td></tr>
+<tr class="separator:a50e5f81586d13ed4f1194d222cef4107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227995a29e1d0a269acf6e36e32d38d2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a7691be9defa10aead903173512604bf3">PostEffects::blurredBloom</a></td></tr>
+<tr class="separator:a227995a29e1d0a269acf6e36e32d38d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039a0aafc5ec4ffcf02a83660cb718c3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#aad1fa3eb9d445cadb8a68f01d3713734">PostEffects::lightBuffer</a></td></tr>
+<tr class="separator:a039a0aafc5ec4ffcf02a83660cb718c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000a3d017a5fcea3d7c97601b8377cdf"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_post_effects.html#a000a3d017a5fcea3d7c97601b8377cdf">PostEffects::bloomState</a></td></tr>
+<tr class="separator:a000a3d017a5fcea3d7c97601b8377cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a76108891dc4352082a676f2978ee446d" name="a76108891dc4352082a676f2978ee446d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76108891dc4352082a676f2978ee446d">&#9670;&nbsp;</a></span>TILE_WIDTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TILE_WIDTH&#160;&#160;&#160;320</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -173,7 +155,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_22b05374659b659f0725439aa4c95d41.html">posteffects</a></li><li class="navelem"><a class="el" href="bloomcontext_8cc.html">bloomcontext.cc</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 20:30:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 00:52:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -109,14 +109,20 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a922993c62167cbe0e966737bf8a197d5"><td class="memItemLeft" align="right" valign="top">const VkImageView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a922993c62167cbe0e966737bf8a197d5">Vulkan::TextureViewGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> id)</td></tr>
-<tr class="memdesc:a922993c62167cbe0e966737bf8a197d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vk image view  <a href="namespace_vulkan.html#a922993c62167cbe0e966737bf8a197d5">More...</a><br /></td></tr>
+<tr class="memdesc:a922993c62167cbe0e966737bf8a197d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vk image view.  <a href="namespace_vulkan.html#a922993c62167cbe0e966737bf8a197d5">More...</a><br /></td></tr>
 <tr class="separator:a922993c62167cbe0e966737bf8a197d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43dae1f66d371392b0bc0d27318b65d"><td class="memItemLeft" align="right" valign="top">const VkDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aa43dae1f66d371392b0bc0d27318b65d">Vulkan::TextureViewGetVkDevice</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> id)</td></tr>
+<tr class="memdesc:aa43dae1f66d371392b0bc0d27318b65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get device used to create view.  <a href="namespace_vulkan.html#aa43dae1f66d371392b0bc0d27318b65d">More...</a><br /></td></tr>
+<tr class="separator:aa43dae1f66d371392b0bc0d27318b65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c0035b07f4e1b53fd314007e45ecac"><td class="memItemLeft" align="right" valign="top">TextureViewId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae6c0035b07f4e1b53fd314007e45ecac">CoreGraphics::CreateTextureView</a> (const TextureViewCreateInfo &amp;info)</td></tr>
 <tr class="memdesc:ae6c0035b07f4e1b53fd314007e45ecac"><td class="mdescLeft">&#160;</td><td class="mdescRight">create texture view  <a href="namespace_core_graphics.html#ae6c0035b07f4e1b53fd314007e45ecac">More...</a><br /></td></tr>
 <tr class="separator:ae6c0035b07f4e1b53fd314007e45ecac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2152ff4d06c47ae8d8cf131c59a511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aad2152ff4d06c47ae8d8cf131c59a511">CoreGraphics::DestroyTextureView</a> (const TextureViewId id)</td></tr>
 <tr class="memdesc:aad2152ff4d06c47ae8d8cf131c59a511"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy texture view  <a href="namespace_core_graphics.html#aad2152ff4d06c47ae8d8cf131c59a511">More...</a><br /></td></tr>
 <tr class="separator:aad2152ff4d06c47ae8d8cf131c59a511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5676bc0a98a9888b07a850e29ea45cb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5676bc0a98a9888b07a850e29ea45cb5">CoreGraphics::TextureViewReload</a> (const TextureViewId id)</td></tr>
+<tr class="memdesc:a5676bc0a98a9888b07a850e29ea45cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reload texture view by creating a new backend view with the old texture (assuming it's changed)  <a href="namespace_core_graphics.html#a5676bc0a98a9888b07a850e29ea45cb5">More...</a><br /></td></tr>
+<tr class="separator:a5676bc0a98a9888b07a850e29ea45cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9033943468b4cec19038ae08d52c9eb9"><td class="memItemLeft" align="right" valign="top">TextureId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9033943468b4cec19038ae08d52c9eb9">CoreGraphics::TextureViewGetTexture</a> (const TextureViewId id)</td></tr>
 <tr class="memdesc:a9033943468b4cec19038ae08d52c9eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get texture  <a href="namespace_core_graphics.html#a9033943468b4cec19038ae08d52c9eb9">More...</a><br /></td></tr>
 <tr class="separator:a9033943468b4cec19038ae08d52c9eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +139,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vktextureview_8cc.html">vktextureview.cc</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 20:30:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 00:52:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

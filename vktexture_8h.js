@@ -9,7 +9,7 @@ var vktexture_8h =
     [ "Vulkan::TextureSparsePageTable", "struct_vulkan_1_1_texture_sparse_page_table.html", "struct_vulkan_1_1_texture_sparse_page_table" ],
     [ "VkTextureAllocator", "vktexture_8h.html#ab03a1ed63215ccefb6e7fb2a50dccf4b", null ],
     [ "VkTextureSparseExtensionAllocator", "vktexture_8h.html#a1483d298a2563288d36c9d3f35784269", null ],
-    [ "VkTextureStencilExtensionAllocator", "vktexture_8h.html#af10d5e9a1877a7b3f718b2496d393fe0", null ],
+    [ "VkTextureStencilExtensionAllocator", "vktexture_8h.html#a0868918f0e31770c26623cb51b133613", null ],
     [ "VkTextureSwapExtensionAllocator", "vktexture_8h.html#a817e269f3774d0bc57e8f4a1d8b9ae8c", null ],
     [ "TextureGetVkDevice", "vktexture_8h.html#a0f6621af4355d2999177bfcdde664604", null ],
     [ "TextureGetVkImage", "vktexture_8h.html#af6142b5081cb889cd464647d98675d6a", null ],

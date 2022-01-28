@@ -244,14 +244,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a182bf93989953f499745cac5fc8f4557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c65534806cb9edd891a37bba2558d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a7c65534806cb9edd891a37bba2558d53">currentStencilWriteMask</a></td></tr>
 <tr class="separator:a7c65534806cb9edd891a37bba2558d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc0b80c0826a6135834dbe5d732bb61f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkBuffer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#acc0b80c0826a6135834dbe5d732bb61f">delayedDeleteBuffers</a></td></tr>
-<tr class="separator:acc0b80c0826a6135834dbe5d732bb61f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6144b0131b85c47412297fcb15752d67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkImage &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a6144b0131b85c47412297fcb15752d67">delayedDeleteImages</a></td></tr>
-<tr class="separator:a6144b0131b85c47412297fcb15752d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d143578e2022d4d2438fbd90f1b63a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkImageView &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#ad7d143578e2022d4d2438fbd90f1b63a">delayedDeleteImageViews</a></td></tr>
-<tr class="separator:ad7d143578e2022d4d2438fbd90f1b63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7c4ed69ec80f74160bad65a8181869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a8b7c4ed69ec80f74160bad65a8181869">delayedFreeMemories</a></td></tr>
-<tr class="separator:a8b7c4ed69ec80f74160bad65a8181869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60160113d25d588bc9927a5d539d8763"><td class="memItemLeft" align="right" valign="top">VkQueryPool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a60160113d25d588bc9927a5d539d8763">queryPoolsByType</a> [<a class="el" href="namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4fa97398454918cced48c497f04bf3816cd">CoreGraphics::NumQueryTypes</a>]</td></tr>
 <tr class="separator:a60160113d25d588bc9927a5d539d8763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3790baf231d6bb214c20bb50b6ed789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#af3790baf231d6bb214c20bb50b6ed789">queryResultBuffers</a> [<a class="el" href="namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4fa97398454918cced48c497f04bf3816cd">CoreGraphics::NumQueryTypes</a>]</td></tr>
@@ -759,62 +751,6 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_vulkan_1_1_vk_pipeline_database.html">VkPipelineDatabase</a> Vulkan::GraphicsDeviceState::database</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acc0b80c0826a6135834dbe5d732bb61f" name="acc0b80c0826a6135834dbe5d732bb61f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc0b80c0826a6135834dbe5d732bb61f">&#9670;&nbsp;</a></span>delayedDeleteBuffers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkBuffer&gt; &gt; Vulkan::GraphicsDeviceState::delayedDeleteBuffers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6144b0131b85c47412297fcb15752d67" name="a6144b0131b85c47412297fcb15752d67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6144b0131b85c47412297fcb15752d67">&#9670;&nbsp;</a></span>delayedDeleteImages</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkImage&gt; &gt; Vulkan::GraphicsDeviceState::delayedDeleteImages</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad7d143578e2022d4d2438fbd90f1b63a" name="ad7d143578e2022d4d2438fbd90f1b63a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7d143578e2022d4d2438fbd90f1b63a">&#9670;&nbsp;</a></span>delayedDeleteImageViews</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkImageView&gt; &gt; Vulkan::GraphicsDeviceState::delayedDeleteImageViews</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b7c4ed69ec80f74160bad65a8181869" name="a8b7c4ed69ec80f74160bad65a8181869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b7c4ed69ec80f74160bad65a8181869">&#9670;&nbsp;</a></span>delayedFreeMemories</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a>&gt; &gt; Vulkan::GraphicsDeviceState::delayedFreeMemories</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1519,7 +1455,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></li>
 				<li class="footer">
-					Generated on Thu Jan 27 2022 20:30:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jan 28 2022 00:52:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

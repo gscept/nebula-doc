@@ -40,7 +40,7 @@ var texture_8cc =
     [ "Blue2D", "texture_8cc.html#a64e2a01dabd55c8ed509f9f152761124", null ],
     [ "Green2D", "texture_8cc.html#a927d2e8f3808c8ecc5aa735f4190f0c4", null ],
     [ "Red2D", "texture_8cc.html#a9180ccf0725175e4928b9febc79bd800", null ],
-    [ "texturePool", "texture_8cc.html#acdd7e06bb686b73e9a75a735499e2bf5", null ],
+    [ "textureCache", "texture_8cc.html#abfcf7152558a879be9861f9761985841", null ],
     [ "White1D", "texture_8cc.html#a55e561f874eb4ab9cba1b16aa04dde4c", null ],
     [ "White1DArray", "texture_8cc.html#a6db86541264d14a51cf9ef4e33988174", null ],
     [ "White2D", "texture_8cc.html#ac1a236e784d3cc07aad829c23e8d9ed5", null ],

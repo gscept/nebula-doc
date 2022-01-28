@@ -4,7 +4,7 @@ var class_resources_1_1_resource_loader_thread =
     [ "~ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html#ab800e67dc2cfa0609439fd30385f01e1", null ],
     [ "__DeclareClass", "class_resources_1_1_resource_loader_thread.html#a3f360b28040e72f60f9651d3158431bd", null ],
     [ "DoWork", "class_resources_1_1_resource_loader_thread.html#a6eaa8dff463da7c709a3049422fea592", null ],
-    [ "EmitWakeupSignal", "class_resources_1_1_resource_loader_thread.html#af4fa2c267e224086dfd3ff7ad15f26bf", null ],
+    [ "EmitWakeupSignal", "class_resources_1_1_resource_loader_thread.html#a260332b117780292c3726b546b8f9f3f", null ],
     [ "Wait", "class_resources_1_1_resource_loader_thread.html#a63c535f24132c8e4234c3e98eef05d70", null ],
     [ "ResourceStreamCache", "class_resources_1_1_resource_loader_thread.html#a2179495590c69923d96886d892a2c056", null ],
     [ "completeEvent", "class_resources_1_1_resource_loader_thread.html#a6717417c2ec8cd20d1d7858022ba4979", null ],

@@ -1,6 +1,7 @@
 var glfwwindow_8h =
 [
-    [ "GLFWWindowAllocatorType", "glfwwindow_8h.html#a07b91e640f0d61de0ca8c1c182d20564", null ],
+    [ "CoreGraphics::ResizeInfo", "struct_core_graphics_1_1_resize_info.html", "struct_core_graphics_1_1_resize_info" ],
+    [ "GLFWWindowAllocatorType", "glfwwindow_8h.html#a6d154dcb192d10d6703813e18bd26ab2", null ],
     [ "CharFunc", "glfwwindow_8h.html#a34f9083c7726405998ec64d4ae1d9673", null ],
     [ "CloseFunc", "glfwwindow_8h.html#a54e082a773c72e3abb362434d2152183", null ],
     [ "DisableCallbacks", "glfwwindow_8h.html#a38b571a5313f2cdef0b29e40ba6ce773", null ],

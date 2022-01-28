@@ -1,6 +1,27 @@
 var clustercontext_8cc =
 [
-    [ "Clustering::_state", "struct_clustering_1_1__state.html", "struct_clustering_1_1__state" ],
     [ "__ImplementPluginContext", "clustercontext_8cc.html#a5b48c99eaa40bf6675db97e6951b5599", null ],
-    [ "state", "clustercontext_8cc.html#a7e381dc8d1bff716d494b45c9f3c8e12", null ]
+    [ "clusterAABBSlot", "clustercontext_8cc.html#a26e0319796049fd3b0eab32ae5faab3d", null ],
+    [ "clusterBuffer", "clustercontext_8cc.html#a695d86a5977a02832e13f3b8e75b72f3", null ],
+    [ "clusterDimensions", "clustercontext_8cc.html#aee3093d03cc338873dd8551aea6b20b7", null ],
+    [ "clusterGenerateProgram", "clustercontext_8cc.html#ade21b71e57fed04002e9e0ca68aa2c8c", null ],
+    [ "clusterShader", "clustercontext_8cc.html#ae6636f1b803d11291cdf2aceac96eb4f", null ],
+    [ "ClusterSubdivsX", "clustercontext_8cc.html#a52c7f2f74a299331d363fb4506ecdb34", null ],
+    [ "ClusterSubdivsY", "clustercontext_8cc.html#a401874a8255d8aa9b032f868991911f5", null ],
+    [ "ClusterSubdivsZ", "clustercontext_8cc.html#aed10d2d6cfa9c9843c710a84d2f5f066", null ],
+    [ "constantBuffer", "clustercontext_8cc.html#a33703f24ab0dd9c5cba528ce6a7126f8", null ],
+    [ "invXResolution", "clustercontext_8cc.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
+    [ "invYResolution", "clustercontext_8cc.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
+    [ "numThreads", "clustercontext_8cc.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
+    [ "state", "clustercontext_8cc.html#af00f64e359cfb5fbc02fa886e55964a8", null ],
+    [ "uniforms", "clustercontext_8cc.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
+    [ "uniformsSlot", "clustercontext_8cc.html#aac258a46e7cc16455c47e1558549a8df", null ],
+    [ "window", "clustercontext_8cc.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
+    [ "xResolution", "clustercontext_8cc.html#a581f331c494a300ae88fa56b64571df4", null ],
+    [ "yResolution", "clustercontext_8cc.html#a50f52304c2050b6053b79840ca102d5e", null ],
+    [ "zDistribution", "clustercontext_8cc.html#aff256b6872dc6f3d89367e93006e18ba", null ],
+    [ "zFar", "clustercontext_8cc.html#ac18caf0499fcb3fec353079b093e9ad1", null ],
+    [ "zInvBias", "clustercontext_8cc.html#ab8906da19ea8cbc0f2226c71e7e27105", null ],
+    [ "zInvScale", "clustercontext_8cc.html#a04a96c5d843966c6c23877b8955997b6", null ],
+    [ "zNear", "clustercontext_8cc.html#a8c5fad9999ca7c2cbb8fc67af4a29473", null ]
 ];

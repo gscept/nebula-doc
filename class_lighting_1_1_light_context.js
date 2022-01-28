@@ -48,6 +48,7 @@ var class_lighting_1_1_light_context =
     [ "UpdatePointShadows", "class_lighting_1_1_light_context.html#a52988f1261fb126b9d0bdec238cc1ce3", null ],
     [ "UpdateSpotShadows", "class_lighting_1_1_light_context.html#a44e50da6798d521bb1bb5681d26572bf", null ],
     [ "UpdateViewDependentResources", "class_lighting_1_1_light_context.html#aed2000c34973ae2ef548adf0be92ed25", null ],
+    [ "WindowResized", "class_lighting_1_1_light_context.html#a0b40e9097221b10ac4aa431de84198dc", null ],
     [ "genericLightAllocator", "class_lighting_1_1_light_context.html#aa8d978cd16a210c4980c38370c8fdf61", null ],
     [ "globalLightAllocator", "class_lighting_1_1_light_context.html#a049c63d6ad9246bc9ce1c44abcec4b97", null ],
     [ "pointLightAllocator", "class_lighting_1_1_light_context.html#a85253c54c76bf9fe252f1158ebbecd9a", null ],

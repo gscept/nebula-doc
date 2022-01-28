@@ -1,8 +1,7 @@
 var bloomcontext_8cc =
 [
-    [ "TILE_WIDTH", "bloomcontext_8cc.html#a76108891dc4352082a676f2978ee446d", null ],
     [ "__ImplementPluginContext", "bloomcontext_8cc.html#a1b8bcba7e18c234b3b737842126f3e41", null ],
-    [ "bloomState", "bloomcontext_8cc.html#a6a5db5bdda8a8658c282a4c5e0b7eeb1", null ],
+    [ "bloomState", "bloomcontext_8cc.html#a000a3d017a5fcea3d7c97601b8377cdf", null ],
     [ "blurImageXSlot", "bloomcontext_8cc.html#ac2346409093becabfcc47cc265d5e3fe", null ],
     [ "blurImageYSlot", "bloomcontext_8cc.html#af4fa0db96010e854231ca729e2fd1294", null ],
     [ "blurredBloom", "bloomcontext_8cc.html#a7691be9defa10aead903173512604bf3", null ],
@@ -17,5 +16,6 @@ var bloomcontext_8cc =
     [ "inputImageXSlot", "bloomcontext_8cc.html#ad54ab56ded71b89513bcaeb101f50889", null ],
     [ "inputImageYSlot", "bloomcontext_8cc.html#acc18a515c4257d7f73856b4fd140b950", null ],
     [ "internalTargets", "bloomcontext_8cc.html#a347773da7665b6ca53831b01de6cc143", null ],
+    [ "lightBuffer", "bloomcontext_8cc.html#aad1fa3eb9d445cadb8a68f01d3713734", null ],
     [ "luminanceTextureSlot", "bloomcontext_8cc.html#a0904f4ac9efff5d8b72e2348f341552c", null ]
 ];

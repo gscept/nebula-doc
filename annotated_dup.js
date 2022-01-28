@@ -101,7 +101,6 @@ var annotated_dup =
       [ "StreamSkeletonCache", "class_characters_1_1_stream_skeleton_cache.html", "class_characters_1_1_stream_skeleton_cache" ]
     ] ],
     [ "Clustering", "namespace_clustering.html", [
-      [ "_state", "struct_clustering_1_1__state.html", "struct_clustering_1_1__state" ],
       [ "ClusterContext", "class_clustering_1_1_cluster_context.html", "class_clustering_1_1_cluster_context" ]
     ] ],
     [ "Core", "namespace_core.html", [
@@ -204,6 +203,7 @@ var annotated_dup =
       [ "RenderEvent", "class_core_graphics_1_1_render_event.html", "class_core_graphics_1_1_render_event" ],
       [ "RenderEventHandler", "class_core_graphics_1_1_render_event_handler.html", "class_core_graphics_1_1_render_event_handler" ],
       [ "RenderShape", "class_core_graphics_1_1_render_shape.html", "class_core_graphics_1_1_render_shape" ],
+      [ "ResizeInfo", "struct_core_graphics_1_1_resize_info.html", "struct_core_graphics_1_1_resize_info" ],
       [ "ResourcePipelineCreateInfo", "struct_core_graphics_1_1_resource_pipeline_create_info.html", "struct_core_graphics_1_1_resource_pipeline_create_info" ],
       [ "ResourcePipelineId", "struct_core_graphics_1_1_resource_pipeline_id.html", null ],
       [ "ResourcePipelinePushConstantRange", "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html", "struct_core_graphics_1_1_resource_pipeline_push_constant_range" ],

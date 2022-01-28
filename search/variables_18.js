@@ -12,5 +12,5 @@ var searchData=
   ['xmldocument_9',['xmlDocument',['../class_i_o_1_1_xml_reader.html#a905c1a8628234983d04026fbd30ab39d',1,'IO::XmlReader::xmlDocument()'],['../class_i_o_1_1_xml_writer.html#a6fdd2088b9f868d6c72a1bdae35ffea0',1,'IO::XmlWriter::xmlDocument()']]],
   ['xmlwriter_10',['xmlWriter',['../class_http_1_1_html_page_writer.html#a2b69cc23ff501220ca251c34bd9e75e9',1,'Http::HtmlPageWriter::xmlWriter()'],['../class_http_1_1_svg_page_writer.html#acb84085848ee751736eaf8198899c9c3',1,'Http::SvgPageWriter::xmlWriter()']]],
   ['xpos_11',['xPos',['../class_core_graphics_1_1_display_mode.html#ab666791dbb6fd3b7e0809511f5cbd814',1,'CoreGraphics::DisplayMode']]],
-  ['xresolution_12',['xResolution',['../struct_clustering_1_1__state.html#ac1d8e577e79c4258b1bc4c40085a02fd',1,'Clustering::_state']]]
+  ['xresolution_12',['xResolution',['../namespace_clustering.html#a581f331c494a300ae88fa56b64571df4',1,'Clustering']]]
 ];

@@ -2,6 +2,7 @@ var vkpass_8cc =
 [
     [ "CreatePass", "vkpass_8cc.html#a71a740f7332b35c3356911a074be91fe", null ],
     [ "DestroyPass", "vkpass_8cc.html#ac8d46dd2e8e34733ab25b03ede3010a2", null ],
+    [ "GetSubpassInfo", "vkpass_8cc.html#aa677c95edca919ca6772c225912d9bfe", null ],
     [ "PassApplyClipSettings", "vkpass_8cc.html#a4118f6653bdd7329fb243d742f448611", null ],
     [ "PassBegin", "vkpass_8cc.html#aa2f524bdbd4b964d18f8be64ea032cd6", null ],
     [ "PassEnd", "vkpass_8cc.html#a5ee774d95faec0d25b989825a4961d7b", null ],

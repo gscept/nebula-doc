@@ -8,5 +8,6 @@ var class_post_effects_1_1_s_s_a_o_context =
     [ "Dealloc", "class_post_effects_1_1_s_s_a_o_context.html#ac75fb771f7d7feaca0bc4af18fdcf570", null ],
     [ "Discard", "class_post_effects_1_1_s_s_a_o_context.html#a3db728d809c9bf324be3363b5cecd308", null ],
     [ "Setup", "class_post_effects_1_1_s_s_a_o_context.html#a749827651b96ae0167c5d4af6b8bf274", null ],
-    [ "UpdateViewDependentResources", "class_post_effects_1_1_s_s_a_o_context.html#a8b37d4192663cbba0a060cd8636d7284", null ]
+    [ "UpdateViewDependentResources", "class_post_effects_1_1_s_s_a_o_context.html#a8b37d4192663cbba0a060cd8636d7284", null ],
+    [ "WindowResized", "class_post_effects_1_1_s_s_a_o_context.html#a4713bdaecc6e65dab88ab1ba253db15e", null ]
 ];
