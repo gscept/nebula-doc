@@ -1,10 +1,5 @@
 var namespace_game =
 [
-    [ "Internal", "namespace_game_1_1_internal.html", [
-      [ "SetInclusive", "namespace_game_1_1_internal.html#a090c3c1e438007348b4860bb6eeb06d2", null ],
-      [ "UnrollInclusiveComponents", "namespace_game_1_1_internal.html#a7ca46362aa58955cb53bda9a1ea8d536", null ],
-      [ "update_expander", "namespace_game_1_1_internal.html#a2225cb7f25297ce5a695bccbf3abbd7b", null ]
-    ] ],
     [ "Op", "namespace_game_1_1_op.html", "namespace_game_1_1_op" ],
     [ "TimeManager", "namespace_game_1_1_time_manager.html", "namespace_game_1_1_time_manager" ],
     [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
@@ -27,6 +22,7 @@ var namespace_game =
     [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
     [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
     [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
+    [ "ProcessorBuilder", "class_game_1_1_processor_builder.html", "class_game_1_1_processor_builder" ],
     [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
     [ "TemplateId", "struct_game_1_1_template_id.html", null ],
     [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
@@ -118,7 +114,6 @@ var namespace_game =
     [ "Query", "namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
     [ "RegisterProcessors", "namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
-    [ "RegisterUpdateFunction", "namespace_game.html#a82a1054c88762a3f63baa53ac4471b9b", null ],
     [ "ReleaseAllOps", "namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "namespace_game.html#a611d7bd0e0837c10726ce80a87ff5795", null ],

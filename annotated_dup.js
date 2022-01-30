@@ -390,6 +390,7 @@ var annotated_dup =
       [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
+      [ "ProcessorBuilder", "class_game_1_1_processor_builder.html", "class_game_1_1_processor_builder" ],
       [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
       [ "TemplateId", "struct_game_1_1_template_id.html", null ],
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],

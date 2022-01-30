@@ -657,8 +657,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
+    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -1199,6 +1199,7 @@ var hierarchy =
       [ "Posix::PosixProcess", "class_posix_1_1_posix_process.html", null ],
       [ "Win32::Win32Process", "class_win32_1_1_win32_process.html", null ]
     ] ],
+    [ "Game::ProcessorBuilder", "class_game_1_1_processor_builder.html", null ],
     [ "Game::ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", null ],
     [ "Profiling::ProfilingContext", "struct_profiling_1_1_profiling_context.html", null ],
     [ "Profiling::ProfilingScope", "struct_profiling_1_1_profiling_scope.html", null ],

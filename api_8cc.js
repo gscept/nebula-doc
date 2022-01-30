@@ -1,7 +1,6 @@
 var api_8cc =
 [
     [ "CreateComponent", "api_8cc.html#ad9e656f315dbe11e16e207cb7c6f0585", null ],
-    [ "CreateProcessor", "api_8cc.html#aa528c32078e33be9e4ffc55b09db6ba0", null ],
     [ "GetBlueprintId", "api_8cc.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
     [ "GetComponentId", "api_8cc.html#af143290fef799ba8303e01c658cb54e8", null ],
     [ "GetTemplateId", "api_8cc.html#ac40d0603244073898c48179e980cf72a", null ],

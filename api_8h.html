@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('api_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="world_8h_source.html">world.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filter_8h_source.html">filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_2game_2dataset_8h_source.html">dataset.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="processor_8h_source.html">processor.h</a>&quot;</code><br />
 </div>
 <p><a href="api_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -118,8 +119,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_create_info.html">Game::ComponentCreateInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a component.  <a href="struct_game_1_1_component_create_info.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_create_info.html">Game::ProcessorCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_decay_buffer.html">Game::ComponentDecayBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,9 +137,6 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_game_1_1_op"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_op.html">Game::Op</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_game_1_1_internal"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html">Game::Internal</a></td></tr>
-<tr class="memdesc:namespace_game_1_1_internal"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internally used template functions. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -152,12 +148,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3210076ff42bb92806741300ba14b265"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">Game::OpBuffer</a></td></tr>
 <tr class="memdesc:a3210076ff42bb92806741300ba14b265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque entity operations buffer.  <a href="namespace_game.html#a3210076ff42bb92806741300ba14b265">More...</a><br /></td></tr>
 <tr class="separator:a3210076ff42bb92806741300ba14b265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b0ad357b08d17f221b65b804193303"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a></td></tr>
-<tr class="memdesc:a74b0ad357b08d17f221b65b804193303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque processor handle.  <a href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">More...</a><br /></td></tr>
-<tr class="separator:a74b0ad357b08d17f221b65b804193303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2">Game::ProcessorFrameCallback</a> = std::function&lt; void(World *, Dataset)&gt;</td></tr>
-<tr class="memdesc:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">per frame callback for processors  <a href="namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2">More...</a><br /></td></tr>
-<tr class="separator:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -236,9 +226,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ac95174757039aa417008ae3178a10be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac95174757039aa417008ae3178a10be2">Game::DestroyFilter</a> (Filter)</td></tr>
 <tr class="memdesc:ac95174757039aa417008ae3178a10be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a filter.  <a href="namespace_game.html#ac95174757039aa417008ae3178a10be2">More...</a><br /></td></tr>
 <tr class="separator:ac95174757039aa417008ae3178a10be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memItemLeft" align="right" valign="top">ProcessorHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">Game::CreateProcessor</a> (ProcessorCreateInfo const  &amp;info)</td></tr>
-<tr class="memdesc:aa528c32078e33be9e4ffc55b09db6ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a processor.  <a href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">More...</a><br /></td></tr>
-<tr class="separator:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fffb44bb93cf8a679fee11081ba2c9a"><td class="memItemLeft" align="right" valign="top">Dataset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a">Game::Query</a> (World *, Filter filter)</td></tr>
 <tr class="memdesc:a0fffb44bb93cf8a679fee11081ba2c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the entity database using specified filter set. This does NOT wait for resources to be available.  <a href="namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a">More...</a><br /></td></tr>
 <tr class="separator:a0fffb44bb93cf8a679fee11081ba2c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,9 +283,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a2af45f3b2d10347bf373c7e668d3d54b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a2af45f3b2d10347bf373c7e668d3d54b">Game::Migrate</a> (World *, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; Entity &gt; const &amp;entities, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> fromTable, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> toTable, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;newInstances)</td></tr>
 <tr class="memdesc:a2af45f3b2d10347bf373c7e668d3d54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">migrate an array of entities from one table to another. Fills the newInstances array with the new row ids for each entity.  <a href="namespace_game.html#a2af45f3b2d10347bf373c7e668d3d54b">More...</a><br /></td></tr>
 <tr class="separator:a2af45f3b2d10347bf373c7e668d3d54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c0a609c214eff66c23f447fd2e6e500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500">Game::RegisterProcessors</a> (World *, std::initializer_list&lt; ProcessorHandle &gt;)</td></tr>
-<tr class="memdesc:a0c0a609c214eff66c23f447fd2e6e500"><td class="mdescLeft">&#160;</td><td class="mdescRight">register processors to a world  <a href="namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500">More...</a><br /></td></tr>
-<tr class="separator:a0c0a609c214eff66c23f447fd2e6e500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14acce8eb72ee89132711fc28228fcf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a14acce8eb72ee89132711fc28228fcf3">Game::Defragment</a> (World *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>)</td></tr>
 <tr class="memdesc:a14acce8eb72ee89132711fc28228fcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">defragment an entity table  <a href="namespace_game.html#a14acce8eb72ee89132711fc28228fcf3">More...</a><br /></td></tr>
 <tr class="separator:a14acce8eb72ee89132711fc28228fcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,19 +298,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
 <tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the component decay buffers  <a href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">More...</a><br /></td></tr>
 <tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82a1054c88762a3f63baa53ac4471b9b"><td class="memTemplParams" colspan="2">template&lt;typename ... TYPES&gt; </td></tr>
-<tr class="memitem:a82a1054c88762a3f63baa53ac4471b9b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a82a1054c88762a3f63baa53ac4471b9b">Game::RegisterUpdateFunction</a> (World *, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, std::function&lt; void(TYPES...)&gt; func, std::initializer_list&lt; ComponentId &gt; additionalInclusive={}, std::initializer_list&lt; ComponentId &gt; exclusive={})</td></tr>
-<tr class="memdesc:a82a1054c88762a3f63baa53ac4471b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">register an update function that runs for each entity that fulfill the requirements of the function, contains any of the additional inclusive propertoes, and does not have any properties contained in the exclusive set.  <a href="namespace_game.html#a82a1054c88762a3f63baa53ac4471b9b">More...</a><br /></td></tr>
-<tr class="separator:a82a1054c88762a3f63baa53ac4471b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a090c3c1e438007348b4860bb6eeb06d2"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
-<tr class="memitem:a090c3c1e438007348b4860bb6eeb06d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a090c3c1e438007348b4860bb6eeb06d2">Game::Internal::SetInclusive</a> (<a class="el" href="struct_game_1_1_filter_builder_1_1_filter_create_info.html">Game::FilterBuilder::FilterCreateInfo</a> &amp;filterInfo, size_t const i)</td></tr>
-<tr class="separator:a090c3c1e438007348b4860bb6eeb06d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ca46362aa58955cb53bda9a1ea8d536"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
-<tr class="memitem:a7ca46362aa58955cb53bda9a1ea8d536"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a7ca46362aa58955cb53bda9a1ea8d536">Game::Internal::UnrollInclusiveComponents</a> (<a class="el" href="struct_game_1_1_filter_builder_1_1_filter_create_info.html">Game::FilterBuilder::FilterCreateInfo</a> &amp;filterInfo, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a7ca46362aa58955cb53bda9a1ea8d536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memTemplParams" colspan="2">template&lt;typename... TYPES, std::size_t... Is&gt; </td></tr>
-<tr class="memitem:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_internal.html#a2225cb7f25297ce5a695bccbf3abbd7b">Game::Internal::update_expander</a> (std::function&lt; void(TYPES...)&gt; const &amp;func, <a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">Game::Dataset::EntityTableView</a> const &amp;view, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> instance, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a2225cb7f25297ce5a695bccbf3abbd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -355,7 +326,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8h.html">api.h</a></li>
 				<li class="footer">
-					Generated on Sun Jan 30 2022 14:28:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 30 2022 15:00:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

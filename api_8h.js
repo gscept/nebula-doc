@@ -3,14 +3,11 @@ var api_8h =
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", "struct_game_1_1_entity_mapping" ],
     [ "Game::EntityCreateInfo", "struct_game_1_1_entity_create_info.html", "struct_game_1_1_entity_create_info" ],
     [ "Game::ComponentCreateInfo", "struct_game_1_1_component_create_info.html", "struct_game_1_1_component_create_info" ],
-    [ "Game::ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
     [ "Game::ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
     [ "Game::Op::RegisterComponent", "struct_game_1_1_op_1_1_register_component.html", "struct_game_1_1_op_1_1_register_component" ],
     [ "Game::Op::DeregisterComponent", "struct_game_1_1_op_1_1_deregister_component.html", "struct_game_1_1_op_1_1_deregister_component" ],
     [ "WORLD_DEFAULT", "api_8h.html#a2facca052e7f70954ea5527e354b742a", null ],
     [ "OpBuffer", "api_8h.html#a3210076ff42bb92806741300ba14b265", null ],
-    [ "ProcessorFrameCallback", "api_8h.html#a1b3ee48ba7e537489b84b4131d4fbbc2", null ],
-    [ "ProcessorHandle", "api_8h.html#a74b0ad357b08d17f221b65b804193303", null ],
     [ "ComponentFlags", "api_8h.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "COMPONENTFLAG_NONE", "api_8h.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
       [ "COMPONENTFLAG_MANAGED", "api_8h.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4", null ]
@@ -27,7 +24,6 @@ var api_8h =
     [ "CreateEntity", "api_8h.html#a892321185e533f8d5508bdf6171c2a11", null ],
     [ "CreateEntityTable", "api_8h.html#afa1dbc557f1fffdd17fc4e2cf5103316", null ],
     [ "CreateOpBuffer", "api_8h.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85", null ],
-    [ "CreateProcessor", "api_8h.html#aa528c32078e33be9e4ffc55b09db6ba0", null ],
     [ "DeallocateEntity", "api_8h.html#a2e853d5c1d88d626c4859e75a6d8e3f9", null ],
     [ "DeallocateInstance", "api_8h.html#abd350bc9dfcd52768972b89e81d18e7e", null ],
     [ "DeallocateInstance", "api_8h.html#a00f1dae07d76e6348dd50def3b9331e0", null ],
@@ -56,15 +52,10 @@ var api_8h =
     [ "Query", "api_8h.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "Query", "api_8h.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "api_8h.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
-    [ "RegisterProcessors", "api_8h.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
-    [ "RegisterUpdateFunction", "api_8h.html#a82a1054c88762a3f63baa53ac4471b9b", null ],
     [ "ReleaseAllOps", "api_8h.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "api_8h.html#a611d7bd0e0837c10726ce80a87ff5795", null ],
     [ "SetComponent", "api_8h.html#aea994c2105b9df94c34fd26e698c67fc", null ],
     [ "SetComponent", "api_8h.html#a583c03ec0434eff36157ae336ef7bc7b", null ],
-    [ "SetInclusive", "api_8h.html#a090c3c1e438007348b4860bb6eeb06d2", null ],
-    [ "UnrollInclusiveComponents", "api_8h.html#a7ca46362aa58955cb53bda9a1ea8d536", null ],
-    [ "update_expander", "api_8h.html#a2225cb7f25297ce5a695bccbf3abbd7b", null ],
     [ "MAX_NUM_CATEGORIES", "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb", null ]
 ];
