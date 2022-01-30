@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#af2544034b9f7d1d353912cb3db0b0a96":[8,0,37,0,0,1],
+"struct_lighting_1_1_c_s_m_util_1_1_triangle.html":[9,0,34,0,1],
 "struct_lighting_1_1_c_s_m_util_1_1_triangle.html":[8,0,37,0,1],
 "struct_lighting_1_1_c_s_m_util_1_1_triangle.html#a2722562ea48020d4d65d0561d5cdf8f9":[9,0,34,0,1,0],
 "struct_lighting_1_1_c_s_m_util_1_1_triangle.html#a2722562ea48020d4d65d0561d5cdf8f9":[8,0,37,0,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_math_1_1mat4.html#a7122e359c8bd44be86bc34e73737a01e":[8,0,40,12,42],
 "struct_math_1_1mat4.html#a76a895ea468acd08d174bca75506f84e":[9,0,37,12,14],
 "struct_math_1_1mat4.html#a76a895ea468acd08d174bca75506f84e":[8,0,40,12,14],
-"struct_math_1_1mat4.html#a7b49e725a7dc6f9063fb18d3fd55dbb7":[9,0,37,12,9],
-"struct_math_1_1mat4.html#a7b49e725a7dc6f9063fb18d3fd55dbb7":[8,0,40,12,9],
-"struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a":[9,0,37,12,41]
+"struct_math_1_1mat4.html#a7b49e725a7dc6f9063fb18d3fd55dbb7":[9,0,37,12,9]
 };

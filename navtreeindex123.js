@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"struct_characters_1_1_skeleton_job_joint.html#a77b3463378fa1f36b8f9cf55fe644428":[8,0,6,6,2],
+"struct_characters_1_1_skeleton_job_joint.html#a77b3463378fa1f36b8f9cf55fe644428":[9,0,6,6,2],
 "struct_characters_1_1_skeleton_job_joint.html#aad91d03a04068a7ce7cd265a5cbae7ca":[8,0,6,6,5],
 "struct_characters_1_1_skeleton_job_joint.html#aad91d03a04068a7ce7cd265a5cbae7ca":[9,0,6,6,5],
 "struct_characters_1_1_skeleton_job_joint.html#ab5ff83958f2bb3ac0e2bed25f998c668":[8,0,6,6,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_buffer_id.html":[8,0,11,13],
 "struct_core_graphics_1_1_buffer_id.html":[9,0,10,13],
 "struct_core_graphics_1_1_buffer_subresource_info.html":[9,0,10,14],
-"struct_core_graphics_1_1_buffer_subresource_info.html":[8,0,11,14],
-"struct_core_graphics_1_1_buffer_subresource_info.html#a293bea9af9006a4975f913cb689f0427":[9,0,10,14,2],
-"struct_core_graphics_1_1_buffer_subresource_info.html#a293bea9af9006a4975f913cb689f0427":[8,0,11,14,2]
+"struct_core_graphics_1_1_buffer_subresource_info.html":[8,0,11,14]
 };

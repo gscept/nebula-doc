@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"struct_core_graphics_1_1_nvx3_header.html#aced74dc4bcf43746f4e13fcf1df23903":[8,0,11,52,7],
+"struct_core_graphics_1_1_nvx3_header.html#aced74dc4bcf43746f4e13fcf1df23903":[9,0,10,52,7],
 "struct_core_graphics_1_1_nvx3_header.html#ad0718d1562bbb513fc17682967218115":[8,0,11,52,1],
 "struct_core_graphics_1_1_nvx3_header.html#ad0718d1562bbb513fc17682967218115":[9,0,10,52,1],
 "struct_core_graphics_1_1_pass_create_info.html":[9,0,10,54],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "struct_core_graphics_1_1_shader_create_info.html#a6a2f9895e4296a252d75841a154969c0":[9,0,10,85,0],
 "struct_core_graphics_1_1_shader_create_info.html#a6a2f9895e4296a252d75841a154969c0":[8,0,11,85,0],
 "struct_core_graphics_1_1_shader_id.html":[9,0,10,87],
-"struct_core_graphics_1_1_shader_id.html":[8,0,11,87],
-"struct_core_graphics_1_1_sparse_buffer_create_info.html":[9,0,10,89],
-"struct_core_graphics_1_1_sparse_buffer_create_info.html":[8,0,11,89]
+"struct_core_graphics_1_1_shader_id.html":[8,0,11,87]
 };

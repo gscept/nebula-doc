@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_sparse_buffer_create_info.html":[9,0,10,89],
+"struct_core_graphics_1_1_sparse_buffer_create_info.html":[8,0,11,89],
 "struct_core_graphics_1_1_sparse_buffer_id.html":[9,0,10,90],
 "struct_core_graphics_1_1_sparse_buffer_id.html":[8,0,11,90],
 "struct_core_graphics_1_1_stream_mesh_cache_1_1_stream_mesh_load_meta_data.html":[8,0,11,91,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_vertex_layout_info.html#a9fcef05a384c66dd3e4429d4d56aec38":[9,0,10,113,1],
 "struct_core_graphics_1_1_vertex_layout_info.html#a9fcef05a384c66dd3e4429d4d56aec38":[8,0,11,113,1],
 "struct_core_graphics_1_1_window_create_info.html":[8,0,11,115],
-"struct_core_graphics_1_1_window_create_info.html":[9,0,10,115],
-"struct_core_graphics_1_1_window_create_info.html#a03358557b327a7379f007b79a49f1f82":[9,0,10,115,4],
-"struct_core_graphics_1_1_window_create_info.html#a03358557b327a7379f007b79a49f1f82":[8,0,11,115,4]
+"struct_core_graphics_1_1_window_create_info.html":[9,0,10,115]
 };

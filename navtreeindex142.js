@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"struct_terrain_1_1_sub_texture_update_job_output.html#ad7b0cef758ed7d29ca9d86e4f64fd9c0":[8,0,64,5,2],
+"struct_terrain_1_1_sub_texture_update_job_output.html#af6b866b56cb6e72fb23281895a657f24":[9,0,57,5,0],
 "struct_terrain_1_1_sub_texture_update_job_output.html#af6b866b56cb6e72fb23281895a657f24":[8,0,64,5,0],
 "struct_terrain_1_1_sub_texture_update_job_uniforms.html":[8,0,64,6],
 "struct_terrain_1_1_sub_texture_update_job_uniforms.html":[9,0,57,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[9,0,59,35,0,2],
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[8,0,68,35,0,2],
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[8,0,68,35,0,0],
-"struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[9,0,59,35,0,0],
-"struct_util_1_1_sparse_table_1_1_table_entry.html#a5195a3343091445840e784cf11a286b0":[8,0,68,35,0,1],
-"struct_util_1_1_sparse_table_1_1_table_entry.html#a5195a3343091445840e784cf11a286b0":[9,0,59,35,0,1]
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[9,0,59,35,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX151 =
 {
+"vec3_8h.html#a208f297e71e29e78afe797265c43d904":[10,0,0,3,12,26,30],
+"vec3_8h.html#a276a8f571c50339fccd8c8e860332aae":[10,0,0,3,12,26,47],
 "vec3_8h.html#a2975c4082f732d7c9c67429dc05dc6dd":[10,0,0,3,12,26,56],
 "vec3_8h.html#a2bc3b04179c9c713748343a5f51fbc26":[10,0,0,3,12,26,17],
 "vec3_8h.html#a2ddfa74368dc93c87ff19efc8028ef47":[10,0,0,3,12,26,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX151 =
 "visibilitydependencyjob_8cc.html#a7a6755d868caaaea3e74a98ac83f1b3b":[10,0,0,6,24,6,0],
 "visibilitydrawlistupdatejob_8cc.html":[10,0,0,6,24,7],
 "visibilitydrawlistupdatejob_8cc.html#a7c40333f5fd1a488b1523d90b6673e5f":[10,0,0,6,24,7,0],
-"visibilitysortjob_8cc.html":[10,0,0,6,24,8],
-"visibilitysortjob_8cc.html#a0c00bcc23906962f0c8c8821dc860830":[10,0,0,6,24,8,0],
-"visibilitysystem_8cc.html":[10,0,0,6,24,0,15]
+"visibilitysortjob_8cc.html":[10,0,0,6,24,8]
 };
