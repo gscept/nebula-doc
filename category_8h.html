@@ -85,9 +85,7 @@ $(document).ready(function(){initNavTree('category_8h.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">category.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -96,6 +94,7 @@ $(document).ready(function(){initNavTree('category_8h.html',''); initResizable()
 </div><div class="textblock"><code>#include &quot;<a class="el" href="componentid_8h_source.html">memdb/componentid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="string_8h_source.html">util/string.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fixedarray_8h_source.html">util/fixedarray.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="component_8h_source.html">component.h</a>&quot;</code><br />
 </div>
 <p><a href="category_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -112,60 +111,7 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_game"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html">Game</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4bebecc3cb881e0c91f7491dc6223dca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="category_8h.html#a4bebecc3cb881e0c91f7491dc6223dca">DECLARE_COMPONENT</a></td></tr>
-<tr class="separator:a4bebecc3cb881e0c91f7491dc6223dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d2553eaea52dfb023f6252434911f86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="category_8h.html#a5d2553eaea52dfb023f6252434911f86">DEFINE_COMPONENT</a>(TYPE)&#160;&#160;&#160;<a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a> TYPE::id = Game::ComponentId::Invalid();</td></tr>
-<tr class="separator:a5d2553eaea52dfb023f6252434911f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a1ae77b966fd81f0b304de0d9bb6f0ce4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_mem_db_1_1_component_id.html">MemDb::ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a></td></tr>
-<tr class="separator:a1ae77b966fd81f0b304de0d9bb6f0ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4bebecc3cb881e0c91f7491dc6223dca" name="a4bebecc3cb881e0c91f7491dc6223dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bebecc3cb881e0c91f7491dc6223dca">&#9670;&nbsp;</a></span>DECLARE_COMPONENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DECLARE_COMPONENT</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>:\</div>
-<div class="line">static <a class="code hl_struct" href="struct_mem_db_1_1_component_id.html">Game::ComponentId</a> ID() { <span class="keywordflow">return</span> id; }\</div>
-<div class="line">private:\</div>
-<div class="line">    friend <span class="keyword">class </span><a class="code hl_class" href="class_mem_db_1_1_type_registry.html">MemDb::TypeRegistry</a>;\</div>
-<div class="line">    static <a class="code hl_struct" href="struct_mem_db_1_1_component_id.html">Game::ComponentId</a> id;\</div>
-<div class="line">public:</div>
-<div class="ttc" id="aclass_mem_db_1_1_type_registry_html"><div class="ttname"><a href="class_mem_db_1_1_type_registry.html">MemDb::TypeRegistry</a></div><div class="ttdef"><b>Definition:</b> typeregistry.h:17</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_component_id_html"><div class="ttname"><a href="struct_mem_db_1_1_component_id.html">MemDb::ComponentId</a></div><div class="ttdef"><b>Definition:</b> componentid.h:19</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5d2553eaea52dfb023f6252434911f86" name="a5d2553eaea52dfb023f6252434911f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d2553eaea52dfb023f6252434911f86">&#9670;&nbsp;</a></span>DEFINE_COMPONENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFINE_COMPONENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">TYPE</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a> TYPE::id = Game::ComponentId::Invalid();</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -173,7 +119,7 @@ Typedefs</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="category_8h.html">category.h</a></li>
 				<li class="footer">
-					Generated on Sun Jan 30 2022 12:44:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jan 30 2022 14:28:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

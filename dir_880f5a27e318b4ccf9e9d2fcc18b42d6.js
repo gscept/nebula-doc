@@ -4,7 +4,12 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "api.cc", "api_8cc.html", "api_8cc" ],
     [ "api.h", "api_8h.html", "api_8h" ],
     [ "category.cc", "category_8cc.html", null ],
-    [ "category.h", "category_8h.html", "category_8h" ],
+    [ "category.h", "category_8h.html", [
+      [ "Game::BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
+      [ "Game::TemplateId", "struct_game_1_1_template_id.html", null ],
+      [ "Game::CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ]
+    ] ],
+    [ "component.h", "component_8h.html", "component_8h" ],
     [ "componentinspection.cc", "componentinspection_8cc.html", "componentinspection_8cc" ],
     [ "componentinspection.h", "componentinspection_8h.html", "componentinspection_8h" ],
     [ "componentserialization.cc", "componentserialization_8cc.html", "componentserialization_8cc" ],
