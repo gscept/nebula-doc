@@ -7,7 +7,7 @@ var searchData=
   ['darwin_5fdarwintimer_5fh_4',['DARWIN_DARWINTIMER_H',['../darwintimer_8h.html#a8209a98a87a7c55d9f118cf450bb4dac',1,'darwintimer.h']]],
   ['db_5fcolumn_5fh_5',['DB_COLUMN_H',['../column_8h.html#ac92d82bb9bb24d3365f4129917661da5',1,'column.h']]],
   ['db_5fcommand_5fh_6',['DB_COMMAND_H',['../command_8h.html#a920778d6ae04c59f9a4d7ff424937250',1,'command.h']]],
-  ['db_5fdataset_5fh_7',['DB_DATASET_H',['../db_2dataset_8h.html#a0316b4e6a8d71fab3da30f5a327e4d0e',1,'dataset.h']]],
+  ['db_5fdataset_5fh_7',['DB_DATASET_H',['../addons_2db_2dataset_8h.html#a0316b4e6a8d71fab3da30f5a327e4d0e',1,'dataset.h']]],
   ['db_5fdbfactory_5fh_8',['DB_DbFactory_H',['../dbfactory_8h.html#a277400b1a55a76e1ad8d8622972f4b29',1,'dbfactory.h']]],
   ['db_5ffilterset_5fh_9',['DB_FILTERSET_H',['../db_2filterset_8h.html#ac47d7eb4ad32216f4bdf3eb4266d2108',1,'filterset.h']]],
   ['db_5frelation_5fh_10',['DB_RELATION_H',['../relation_8h.html#a2bcf4c278d3c2a99d7d43ed1966edd4a',1,'relation.h']]],

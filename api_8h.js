@@ -1,24 +1,16 @@
 var api_8h =
 [
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", "struct_game_1_1_entity_mapping" ],
-    [ "Game::Dataset", "struct_game_1_1_dataset.html", "struct_game_1_1_dataset" ],
-    [ "Game::Dataset::EntityTableView", "struct_game_1_1_dataset_1_1_entity_table_view.html", "struct_game_1_1_dataset_1_1_entity_table_view" ],
     [ "Game::EntityCreateInfo", "struct_game_1_1_entity_create_info.html", "struct_game_1_1_entity_create_info" ],
-    [ "Game::FilterCreateInfo", "struct_game_1_1_filter_create_info.html", "struct_game_1_1_filter_create_info" ],
     [ "Game::ComponentCreateInfo", "struct_game_1_1_component_create_info.html", "struct_game_1_1_component_create_info" ],
     [ "Game::ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
     [ "Game::ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
     [ "Game::Op::RegisterComponent", "struct_game_1_1_op_1_1_register_component.html", "struct_game_1_1_op_1_1_register_component" ],
     [ "Game::Op::DeregisterComponent", "struct_game_1_1_op_1_1_deregister_component.html", "struct_game_1_1_op_1_1_deregister_component" ],
     [ "WORLD_DEFAULT", "api_8h.html#a2facca052e7f70954ea5527e354b742a", null ],
-    [ "Filter", "api_8h.html#a1662e5ccb92417291ab5653883de7145", null ],
     [ "OpBuffer", "api_8h.html#a3210076ff42bb92806741300ba14b265", null ],
     [ "ProcessorFrameCallback", "api_8h.html#a1b3ee48ba7e537489b84b4131d4fbbc2", null ],
     [ "ProcessorHandle", "api_8h.html#a74b0ad357b08d17f221b65b804193303", null ],
-    [ "AccessMode", "api_8h.html#a65d276183efa9f25a5dc430be10c207e", [
-      [ "READ", "api_8h.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1", null ],
-      [ "WRITE", "api_8h.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826", null ]
-    ] ],
     [ "ComponentFlags", "api_8h.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "COMPONENTFLAG_NONE", "api_8h.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
       [ "COMPONENTFLAG_MANAGED", "api_8h.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4", null ]
@@ -34,7 +26,6 @@ var api_8h =
     [ "CreateComponent", "api_8h.html#ad9e656f315dbe11e16e207cb7c6f0585", null ],
     [ "CreateEntity", "api_8h.html#a892321185e533f8d5508bdf6171c2a11", null ],
     [ "CreateEntityTable", "api_8h.html#afa1dbc557f1fffdd17fc4e2cf5103316", null ],
-    [ "CreateFilter", "api_8h.html#a7c8329d15ec0b4722d67a768e27c1eb3", null ],
     [ "CreateOpBuffer", "api_8h.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85", null ],
     [ "CreateProcessor", "api_8h.html#aa528c32078e33be9e4ffc55b09db6ba0", null ],
     [ "DeallocateEntity", "api_8h.html#a2e853d5c1d88d626c4859e75a6d8e3f9", null ],
@@ -52,8 +43,6 @@ var api_8h =
     [ "GetComponentId", "api_8h.html#af143290fef799ba8303e01c658cb54e8", null ],
     [ "GetDecayBuffer", "api_8h.html#af8a7f1695ff3939b3a5e5ec055a43cac", null ],
     [ "GetEntityMapping", "api_8h.html#a6c0eb1f6f961c1806c432ae42be2d4ba", null ],
-    [ "GetExclusiveTableMask", "api_8h.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],
-    [ "GetInclusiveTableMask", "api_8h.html#aa3ad58a396dca9e5057ebf33486a5df8", null ],
     [ "GetInstance", "api_8h.html#ab408228dc4f042fe26d7842422fbd052", null ],
     [ "GetInstanceBuffer", "api_8h.html#a3696f9bbbb7d546b85b85b0a065eea41", null ],
     [ "GetNumInstances", "api_8h.html#a94cfb07f616a6f3e883141772956064e", null ],
@@ -74,8 +63,8 @@ var api_8h =
     [ "RemoveComponent", "api_8h.html#a611d7bd0e0837c10726ce80a87ff5795", null ],
     [ "SetComponent", "api_8h.html#aea994c2105b9df94c34fd26e698c67fc", null ],
     [ "SetComponent", "api_8h.html#a583c03ec0434eff36157ae336ef7bc7b", null ],
-    [ "SetInclusive", "api_8h.html#a37ec552c945a490f60974fb83bbbe138", null ],
-    [ "UnrollInclusiveComponents", "api_8h.html#a4dcc1e794030472c2ee640095a57bcfb", null ],
+    [ "SetInclusive", "api_8h.html#a090c3c1e438007348b4860bb6eeb06d2", null ],
+    [ "UnrollInclusiveComponents", "api_8h.html#a7ca46362aa58955cb53bda9a1ea8d536", null ],
     [ "update_expander", "api_8h.html#a2225cb7f25297ce5a695bccbf3abbd7b", null ],
     [ "MAX_NUM_CATEGORIES", "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb", null ]
 ];

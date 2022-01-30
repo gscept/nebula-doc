@@ -383,7 +383,7 @@ var annotated_dup =
       [ "EntityMapping", "struct_game_1_1_entity_mapping.html", "struct_game_1_1_entity_mapping" ],
       [ "EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],
       [ "FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ],
-      [ "FilterCreateInfo", "struct_game_1_1_filter_create_info.html", "struct_game_1_1_filter_create_info" ],
+      [ "FilterBuilder", "class_game_1_1_filter_builder.html", "class_game_1_1_filter_builder" ],
       [ "GameServer", "class_game_1_1_game_server.html", "class_game_1_1_game_server" ],
       [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ],
       [ "ManagerHandle", "struct_game_1_1_manager_handle.html", null ],

@@ -461,6 +461,7 @@ var namespace_core_graphics =
     [ "BufferGetType", "namespace_core_graphics.html#aee8a0acbaa9cc2aca1083320303f81a2", null ],
     [ "BufferGetUploadMaxSize", "namespace_core_graphics.html#a9f011f0f9d7273bf807dad9cedaf7e19", null ],
     [ "BufferInvalidate", "namespace_core_graphics.html#a53217e7ad61b918f5429686f7f922c70", null ],
+    [ "BufferMap", "namespace_core_graphics.html#af0e088ff6cfa3b4da2d074c4df82be1a", null ],
     [ "BufferMap", "namespace_core_graphics.html#a2597e97d2743a4048c9ed303c68b8a08", null ],
     [ "BufferUnmap", "namespace_core_graphics.html#ab3f34ed09e59cda9795bfb52397ec122", null ],
     [ "BufferUpdate", "namespace_core_graphics.html#aea79756d79dfcb5c648512d16c73421e", null ],

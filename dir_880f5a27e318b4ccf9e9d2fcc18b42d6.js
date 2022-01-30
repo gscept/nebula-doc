@@ -12,6 +12,11 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
       [ "Game::ComponentSerialization", "class_game_1_1_component_serialization.html", "class_game_1_1_component_serialization" ],
       [ "Game::ComponentSerialization::Serializer", "struct_game_1_1_component_serialization_1_1_serializer.html", "struct_game_1_1_component_serialization_1_1_serializer" ]
     ] ],
+    [ "dataset.cc", "application_2game_2dataset_8cc.html", null ],
+    [ "dataset.h", "application_2game_2dataset_8h.html", [
+      [ "Game::Dataset", "struct_game_1_1_dataset.html", "struct_game_1_1_dataset" ],
+      [ "Game::Dataset::EntityTableView", "struct_game_1_1_dataset_1_1_entity_table_view.html", "struct_game_1_1_dataset_1_1_entity_table_view" ]
+    ] ],
     [ "entity.cc", "entity_8cc.html", null ],
     [ "entity.h", "entity_8h.html", [
       [ "Game::Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ]
@@ -24,6 +29,8 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "featureunit.h", "featureunit_8h.html", [
       [ "Game::FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ]
     ] ],
+    [ "filter.cc", "filter_8cc.html", "filter_8cc" ],
+    [ "filter.h", "filter_8h.html", "filter_8h" ],
     [ "gameserver.cc", "gameserver_8cc.html", "gameserver_8cc" ],
     [ "gameserver.h", "gameserver_8h.html", "gameserver_8h" ],
     [ "manager.cc", "manager_8cc.html", null ],

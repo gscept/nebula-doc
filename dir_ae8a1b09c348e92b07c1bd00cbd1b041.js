@@ -10,7 +10,7 @@ var dir_ae8a1b09c348e92b07c1bd00cbd1b041 =
     [ "database.h", "memdb_2database_8h.html", [
       [ "MemDb::Database", "class_mem_db_1_1_database.html", "class_mem_db_1_1_database" ]
     ] ],
-    [ "dataset.h", "memdb_2dataset_8h.html", [
+    [ "dataset.h", "addons_2memdb_2dataset_8h.html", [
       [ "MemDb::Dataset", "struct_mem_db_1_1_dataset.html", "struct_mem_db_1_1_dataset" ],
       [ "MemDb::Dataset::View", "struct_mem_db_1_1_dataset_1_1_view.html", "struct_mem_db_1_1_dataset_1_1_view" ]
     ] ],
