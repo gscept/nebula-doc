@@ -10,5 +10,6 @@ var struct_mem_db_1_1_table =
     [ "HEAP_MEMORY_TYPE", "struct_mem_db_1_1_table.html#af4766d6e3df9a7f4abaa19947e64cf3e", null ],
     [ "name", "struct_mem_db_1_1_table.html#a3bae9ffb458a8ebcf331bcbb9b73ed41", null ],
     [ "numRows", "struct_mem_db_1_1_table.html#a5ed8b3fc5f52dd74485b231eb08cb7a1", null ],
-    [ "tid", "struct_mem_db_1_1_table.html#a7b4432647603e79800fbc3c2abfd02c5", null ]
+    [ "tid", "struct_mem_db_1_1_table.html#a7b4432647603e79800fbc3c2abfd02c5", null ],
+    [ "version", "struct_mem_db_1_1_table.html#a8e1f30bb09698e19e99f76aa6bdcd972", null ]
 ];

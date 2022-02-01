@@ -1,5 +1,8 @@
 var NAVTREEINDEX148 =
 {
+"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html#af61b1e07a3672e6582ba2162c5a94e1e":[9,0,62,32,0,1],
+"struct_vulkan_1_1_vk_texture_load_info.html":[8,0,71,33],
+"struct_vulkan_1_1_vk_texture_load_info.html":[9,0,62,33],
 "struct_vulkan_1_1_vk_texture_load_info.html#a039eb24759a176275028127bd2d2ab7d":[8,0,71,33,10],
 "struct_vulkan_1_1_vk_texture_load_info.html#a039eb24759a176275028127bd2d2ab7d":[9,0,62,33,10],
 "struct_vulkan_1_1_vk_texture_load_info.html#a07eabca55700a3604adf5b1fa65772a6":[8,0,71,33,22],
@@ -246,8 +249,5 @@ var NAVTREEINDEX148 =
 "terraincontext_8cc.html#a568a5cb951dde3662d76877bef4d4e16":[10,0,0,6,22,1,58],
 "terraincontext_8cc.html#a56bc0173527e2f7119e241e61e63a471":[10,0,0,6,22,1,51],
 "terraincontext_8cc.html#a5c09655a5cd004f72a7fcfa8e5e47f87":[10,0,0,6,22,1,29],
-"terraincontext_8cc.html#a5c4623ba4a51aabb017436b94fbac908":[10,0,0,6,22,1,5],
-"terraincontext_8cc.html#a5d02b532a63a7e46886939a39308a5e4":[10,0,0,6,22,1,23],
-"terraincontext_8cc.html#a5d629315355cb6a79be06349ac21c521":[10,0,0,6,22,1,92],
-"terraincontext_8cc.html#a5f2ccfe7ff53c2ca82f202dd43d31945":[10,0,0,6,22,1,25]
+"terraincontext_8cc.html#a5c4623ba4a51aabb017436b94fbac908":[10,0,0,6,22,1,5]
 };

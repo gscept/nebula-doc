@@ -1,5 +1,8 @@
 var NAVTREEINDEX156 =
 {
+"win32memory_8cc.html#a24993fac616060d0f19f14d43fc27103":[10,0,0,3,13,3,2,0],
+"win32memory_8cc.html#a6055e491858cd969e93326d9b3e4b420":[10,0,0,3,13,3,2,3],
+"win32memory_8cc.html#a66c839285702633f8178be0224273a14":[10,0,0,3,13,3,2,6],
 "win32memory_8cc.html#a68089d5b4fe7cce3875d69acd943bcc3":[10,0,0,3,13,3,2,7],
 "win32memory_8cc.html#a7a14be8456d9a48c1c3ff9a221f09900":[10,0,0,3,13,3,2,2],
 "win32memory_8cc.html#a8a78ac480e1496dde67c9605cef959ef":[10,0,0,3,13,3,2,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX156 =
 "xmlwriter_8cc.html#a7cc3a21ac290948b67df47ba56ce2431":[10,0,0,3,9,71,0],
 "xmlwriter_8h.html":[10,0,0,3,9,72],
 "xmlwriter_8h_source.html":[10,0,0,3,9,72],
-"ziparchive_8cc.html":[10,0,0,3,9,8,2],
-"ziparchive_8cc.html#aa5e9e002faaaa63d71e58108195ea7cd":[10,0,0,3,9,8,2,0],
-"ziparchive_8h.html":[10,0,0,3,9,8,3],
-"ziparchive_8h_source.html":[10,0,0,3,9,8,3]
+"ziparchive_8cc.html":[10,0,0,3,9,8,2]
 };

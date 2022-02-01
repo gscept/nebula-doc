@@ -1,5 +1,8 @@
 var NAVTREEINDEX155 =
 {
+"vksemaphore_8h_source.html":[10,0,0,6,5,5,40],
+"vkshader_8cc.html":[10,0,0,6,5,5,41],
+"vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4":[10,0,0,6,5,5,41,2],
 "vkshader_8cc.html#a1ec7b419ad97f9ea165bf3b9af7c93c0":[10,0,0,6,5,5,41,0],
 "vkshader_8cc.html#a1f481c118d05da5d23cc84504da6d7e1":[10,0,0,6,5,5,41,1],
 "vkshader_8cc.html#a521616a5c323edb52c48bad8405c3d87":[10,0,0,6,5,5,41,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX155 =
 "win32ipaddress_8h.html":[10,0,0,3,15,3,1],
 "win32ipaddress_8h_source.html":[10,0,0,3,15,3,1],
 "win32memory_8cc.html":[10,0,0,3,13,3,2],
-"win32memory_8cc.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,13,3,2,4],
-"win32memory_8cc.html#a24993fac616060d0f19f14d43fc27103":[10,0,0,3,13,3,2,0],
-"win32memory_8cc.html#a6055e491858cd969e93326d9b3e4b420":[10,0,0,3,13,3,2,3],
-"win32memory_8cc.html#a66c839285702633f8178be0224273a14":[10,0,0,3,13,3,2,6]
+"win32memory_8cc.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,13,3,2,4]
 };
