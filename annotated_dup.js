@@ -69,6 +69,10 @@ var annotated_dup =
       [ "ClipId", "struct_audio_1_1_clip_id.html", null ],
       [ "ClipInstanceId", "struct_audio_1_1_clip_instance_id.html", null ]
     ] ],
+    [ "AudioFeature", "namespace_audio_feature.html", [
+      [ "AudioFeatureUnit", "class_audio_feature_1_1_audio_feature_unit.html", "class_audio_feature_1_1_audio_feature_unit" ],
+      [ "AudioManager", "class_audio_feature_1_1_audio_manager.html", "class_audio_feature_1_1_audio_manager" ]
+    ] ],
     [ "Base", "namespace_base.html", [
       [ "CalendarTimeBase", "class_base_1_1_calendar_time_base.html", "class_base_1_1_calendar_time_base" ],
       [ "DisplayDeviceBase", "class_base_1_1_display_device_base.html", "class_base_1_1_display_device_base" ],

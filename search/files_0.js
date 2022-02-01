@@ -84,6 +84,10 @@ var searchData=
   ['audioclip_2eh_81',['audioclip.h',['../audioclip_8h.html',1,'']]],
   ['audiodevice_2ecc_82',['audiodevice.cc',['../audiodevice_8cc.html',1,'']]],
   ['audiodevice_2eh_83',['audiodevice.h',['../audiodevice_8h.html',1,'']]],
-  ['audioserver_2ecc_84',['audioserver.cc',['../audioserver_8cc.html',1,'']]],
-  ['audioserver_2eh_85',['audioserver.h',['../audioserver_8h.html',1,'']]]
+  ['audiofeatureunit_2ecc_84',['audiofeatureunit.cc',['../audiofeatureunit_8cc.html',1,'']]],
+  ['audiofeatureunit_2eh_85',['audiofeatureunit.h',['../audiofeatureunit_8h.html',1,'']]],
+  ['audiomanager_2ecc_86',['audiomanager.cc',['../audiomanager_8cc.html',1,'']]],
+  ['audiomanager_2eh_87',['audiomanager.h',['../audiomanager_8h.html',1,'']]],
+  ['audioserver_2ecc_88',['audioserver.cc',['../audioserver_8cc.html',1,'']]],
+  ['audioserver_2eh_89',['audioserver.h',['../audioserver_8h.html',1,'']]]
 ];

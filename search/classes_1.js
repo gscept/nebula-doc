@@ -360,5 +360,7 @@ var searchData=
   ['attrid_357',['AttrId',['../class_attr_1_1_attr_id.html',1,'Attr']]],
   ['audiodevice_358',['AudioDevice',['../class_audio_1_1_audio_device.html',1,'Audio']]],
   ['audioemitterid_359',['AudioEmitterId',['../struct_audio_1_1_audio_emitter_id.html',1,'Audio']]],
-  ['audioserver_360',['AudioServer',['../class_audio_1_1_audio_server.html',1,'Audio']]]
+  ['audiofeatureunit_360',['AudioFeatureUnit',['../class_audio_feature_1_1_audio_feature_unit.html',1,'AudioFeature']]],
+  ['audiomanager_361',['AudioManager',['../class_audio_feature_1_1_audio_manager.html',1,'AudioFeature']]],
+  ['audioserver_362',['AudioServer',['../class_audio_1_1_audio_server.html',1,'Audio']]]
 ];

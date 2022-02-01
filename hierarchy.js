@@ -389,6 +389,7 @@ var hierarchy =
       [ "Attr::Vec4AttrId", "class_attr_1_1_vec4_attr_id.html", null ]
     ] ],
     [ "Audio::AudioEmitterId", "struct_audio_1_1_audio_emitter_id.html", null ],
+    [ "AudioFeature::AudioManager", "class_audio_feature_1_1_audio_manager.html", null ],
     [ "Barrier", "class_threading_1_1_barrier.html", null ],
     [ "CoreGraphics::BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", null ],
     [ "CoreGraphics::BarrierId", "struct_core_graphics_1_1_barrier_id.html", null ],
@@ -1208,6 +1209,7 @@ var hierarchy =
     [ "Ptr< Animation::AnimEventHandlerBase >", "class_ptr.html", null ],
     [ "Ptr< Animation::AnimJob >", "class_ptr.html", null ],
     [ "Ptr< Audio::AudioDevice >", "class_ptr.html", null ],
+    [ "Ptr< Audio::AudioServer >", "class_ptr.html", null ],
     [ "Ptr< Base::IndexBufferBase >", "class_ptr.html", null ],
     [ "Ptr< Base::MemoryIndexBufferLoaderBase >", "class_ptr.html", null ],
     [ "Ptr< Base::MemoryVertexBufferLoaderBase >", "class_ptr.html", null ],
@@ -1448,6 +1450,7 @@ var hierarchy =
       [ "Frame::FrameServer", "class_frame_1_1_frame_server.html", null ],
       [ "FrameSync::FrameSyncTimer", "class_frame_sync_1_1_frame_sync_timer.html", null ],
       [ "Game::FeatureUnit", "class_game_1_1_feature_unit.html", [
+        [ "AudioFeature::AudioFeatureUnit", "class_audio_feature_1_1_audio_feature_unit.html", null ],
         [ "BaseGameFeature::BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html", null ],
         [ "GraphicsFeature::GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html", null ],
         [ "PhysicsFeature::PhysicsFeatureUnit", "class_physics_feature_1_1_physics_feature_unit.html", null ]

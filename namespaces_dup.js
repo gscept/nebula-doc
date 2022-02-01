@@ -4,6 +4,7 @@ var namespaces_dup =
     [ "App", "namespace_app.html", "namespace_app" ],
     [ "Attr", "namespace_attr.html", "namespace_attr" ],
     [ "Audio", "namespace_audio.html", "namespace_audio" ],
+    [ "AudioFeature", "namespace_audio_feature.html", "namespace_audio_feature" ],
     [ "Base", "namespace_base.html", "namespace_base" ],
     [ "BaseGameFeature", "namespace_base_game_feature.html", "namespace_base_game_feature" ],
     [ "Characters", "namespace_characters.html", "namespace_characters" ],
