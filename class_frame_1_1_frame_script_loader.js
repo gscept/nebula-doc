@@ -15,6 +15,7 @@ var class_frame_1_1_frame_script_loader =
     [ "ParseResourceDependencies", "class_frame_1_1_frame_script_loader.html#a42d514e67569257a4cfcf51f9ec9b9fc", null ],
     [ "ParseShaderState", "class_frame_1_1_frame_script_loader.html#a3baaee23e46a33071ed0bbe75bc38010", null ],
     [ "ParseShaderVariables", "class_frame_1_1_frame_script_loader.html#a616658d16332a2559b7649fad5c011e0", null ],
+    [ "ParseSubgraph", "class_frame_1_1_frame_script_loader.html#a2b16a2f08c9d87746b7e748e3baac1cf", null ],
     [ "ParseSubpass", "class_frame_1_1_frame_script_loader.html#a69f17d83a7b80d6832dac31167a8bab7", null ],
     [ "ParseSubpassAttachments", "class_frame_1_1_frame_script_loader.html#ab09c6262bded39c2495008a72cc54616", null ],
     [ "ParseSubpassBatch", "class_frame_1_1_frame_script_loader.html#a8e4711b724ed8b73580244b59d5c1766", null ],
@@ -23,7 +24,8 @@ var class_frame_1_1_frame_script_loader =
     [ "ParseSubpassInputs", "class_frame_1_1_frame_script_loader.html#a592066c37b1ff84b84117c7273c61808", null ],
     [ "ParseSubpassPlugin", "class_frame_1_1_frame_script_loader.html#ac2635d3a76ccf1ff0c2c4facb365d282", null ],
     [ "ParseSubpassSortedBatch", "class_frame_1_1_frame_script_loader.html#a56c658789346846734e2dc6ea3d11264", null ],
+    [ "ParseSubpassSubgraph", "class_frame_1_1_frame_script_loader.html#ac44e622b7c560f9480bc4e6c212cc6ec", null ],
     [ "ParseSwap", "class_frame_1_1_frame_script_loader.html#aaf3108198cb6cd1632fb263b3ba630a1", null ],
     [ "ParseTextureList", "class_frame_1_1_frame_script_loader.html#abec104a5cca93cc8e9147ab4185f083d", null ],
-    [ "LastSubmission", "class_frame_1_1_frame_script_loader.html#a5a073d853a245f441b077ea62ce82f8b", null ]
+    [ "LastSubmission", "class_frame_1_1_frame_script_loader.html#a392692a921996219fb731cd889de60d8", null ]
 ];

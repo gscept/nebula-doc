@@ -1,6 +1,6 @@
 var struct_core_graphics_1_1_pass_create_info =
 [
-    [ "batchType", "struct_core_graphics_1_1_pass_create_info.html#a3bb17398fee59e110df2b85c103a60e0", null ],
+    [ "PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html#a803d15d723d8ae66c485be5765090122", null ],
     [ "clearDepth", "struct_core_graphics_1_1_pass_create_info.html#a426a511a7e68a0012e0da5773738ea1a", null ],
     [ "clearStencil", "struct_core_graphics_1_1_pass_create_info.html#a667d1e3028ca7802aed8f56d2583c0b2", null ],
     [ "colorAttachmentClears", "struct_core_graphics_1_1_pass_create_info.html#a98099f9c2be6f737f2ed848ef7ce996d", null ],

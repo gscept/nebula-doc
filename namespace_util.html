@@ -243,12 +243,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa5f9e05670c60ec500f86e42a2d8dc11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">ArrayAllocatorAccessBits</a> { <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3">NoBits</a> = 0x0
-, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a">ReadBit</a> = 0x1
-, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a">WriteBit</a> = 0x2
-, <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd">ReadWriteBits</a> = ReadBit | WriteBit
+<tr class="memitem:acbf1ff504100ee61d27cf4c7e1a2d11b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">ArrayAllocatorAccess</a> { <a class="el" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba7a1a5f3e79fdc91edf2f5ead9d66abb4">Read</a>
+, <a class="el" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba1129c0e4d43f2d121652a7302712cff6">Write</a>
  }</td></tr>
-<tr class="separator:aa5f9e05670c60ec500f86e42a2d8dc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:acbf1ff504100ee61d27cf4c7e1a2d11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -477,22 +475,28 @@ template&lt;int MEMBER, class ... TYPES&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aa5f9e05670c60ec500f86e42a2d8dc11" name="aa5f9e05670c60ec500f86e42a2d8dc11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5f9e05670c60ec500f86e42a2d8dc11">&#9670;&nbsp;</a></span>ArrayAllocatorAccessBits</h2>
+<a id="acbf1ff504100ee61d27cf4c7e1a2d11b" name="acbf1ff504100ee61d27cf4c7e1a2d11b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf1ff504100ee61d27cf4c7e1a2d11b">&#9670;&nbsp;</a></span>ArrayAllocatorAccess</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11">Util::ArrayAllocatorAccessBits</a></td>
+          <td class="memname">enum class <a class="el" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3" name="aa5f9e05670c60ec500f86e42a2d8dc11a7d7c8434c177039267257a02eb76eab3"></a>NoBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a" name="aa5f9e05670c60ec500f86e42a2d8dc11ae958ca57b372e337952b3ef62405e59a"></a>ReadBit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a" name="aa5f9e05670c60ec500f86e42a2d8dc11aa43541635e8b707ad4ed5b936117e99a"></a>WriteBit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd" name="aa5f9e05670c60ec500f86e42a2d8dc11a31ea089bd26ef54e5f3b66d19d3134bd"></a>ReadWriteBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acbf1ff504100ee61d27cf4c7e1a2d11ba7a1a5f3e79fdc91edf2f5ead9d66abb4" name="acbf1ff504100ee61d27cf4c7e1a2d11ba7a1a5f3e79fdc91edf2f5ead9d66abb4"></a>Read&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acbf1ff504100ee61d27cf4c7e1a2d11ba1129c0e4d43f2d121652a7302712cff6" name="acbf1ff504100ee61d27cf4c7e1a2d11ba1129c0e4d43f2d121652a7302712cff6"></a>Write&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2162,7 +2166,7 @@ template&lt;typename A , typename B &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

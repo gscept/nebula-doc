@@ -597,9 +597,9 @@ Functions</h2></td></tr>
 <tr class="separator:aa9325676fc5e5a80f159a8a4ca7798f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa345ac35f555f55e177959bbaff0ee86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_im3d.html#aa345ac35f555f55e177959bbaff0ee86">__ImplementPluginContext</a> (<a class="el" href="class_im3d_1_1_im3d_context.html">Im3dContext</a>)</td></tr>
 <tr class="separator:aa345ac35f555f55e177959bbaff0ee86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac910de99df61736d754118e67a375630"><td class="memTemplParams" colspan="2">template&lt;typename filterFunc &gt; </td></tr>
-<tr class="memitem:ac910de99df61736d754118e67a375630"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im3d.html#ac910de99df61736d754118e67a375630">CollectByFilter</a> (ShaderProgramId const &amp;shader, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> topology, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;vertexBufferOffset, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;vertexCount, filterFunc &amp;&amp;filter)</td></tr>
-<tr class="separator:ac910de99df61736d754118e67a375630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9942cbcc08289e852c2ef770e63e3529"><td class="memTemplParams" colspan="2">template&lt;typename filterFunc &gt; </td></tr>
+<tr class="memitem:a9942cbcc08289e852c2ef770e63e3529"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im3d.html#a9942cbcc08289e852c2ef770e63e3529">CollectByFilter</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const ShaderProgramId shader, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> topology, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;vertexBufferOffset, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;vertexCount, filterFunc &amp;&amp;filter)</td></tr>
+<tr class="separator:a9942cbcc08289e852c2ef770e63e3529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1236,8 +1236,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ac910de99df61736d754118e67a375630" name="ac910de99df61736d754118e67a375630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac910de99df61736d754118e67a375630">&#9670;&nbsp;</a></span>CollectByFilter()</h2>
+<a id="a9942cbcc08289e852c2ef770e63e3529" name="a9942cbcc08289e852c2ef770e63e3529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9942cbcc08289e852c2ef770e63e3529">&#9670;&nbsp;</a></span>CollectByFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1250,7 +1250,13 @@ template&lt;typename filterFunc &gt; </div>
         <tr>
           <td class="memname">static void Im3d::CollectByFilter </td>
           <td>(</td>
-          <td class="paramtype">ShaderProgramId const &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ShaderProgramId&#160;</td>
           <td class="paramname"><em>shader</em>, </td>
         </tr>
         <tr>
@@ -6863,7 +6869,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_im3d.html">Im3d</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

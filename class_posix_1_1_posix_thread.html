@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('class_posix_1_1_posix_thread.html','')
 
 <p><code>#include &lt;<a class="el" href="posixthread_8h_source.html">posixthread.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p ><a class="el" href="namespace_posix.html">Posix</a> implementation of thread class. </p>
+<div class="textblock"><p ><a class="el" href="namespace_posix.html" title="Posix implemention of a read-many write-few lock.">Posix</a> implementation of thread class. </p>
 <p >(C) 2006 Radon Labs GmbH (C) 2013-2018 Individual contributors, see AUTHORS file </p>
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
@@ -378,7 +378,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>this method runs in the thread context </p>
 <p >This method should be derived in a Thread subclass and contains the actual code which is run in the thread.</p>
-<p >The method must not call C-Lib functions under <a class="el" href="namespace_posix.html">Posix</a>. To terminate the thread, just return from this function. If <a class="el" href="class_posix_1_1_posix_thread.html#ac2915816248d11f12eedc5898830a10e" title="this method runs in the thread context">DoWork()</a> runs in an infinite loop, call <a class="el" href="class_posix_1_1_posix_thread.html#afc16e5bba2b07a4be30b91d0fc4a12f0" title="check if stop is requested, call from DoWork() to see if the thread proc should quit">ThreadStopRequested()</a> to check whether the Thread object wants the thread code to quit. </p>
+<p >The method must not call C-Lib functions under <a class="el" href="namespace_posix.html" title="Posix implemention of a read-many write-few lock.">Posix</a>. To terminate the thread, just return from this function. If <a class="el" href="class_posix_1_1_posix_thread.html#ac2915816248d11f12eedc5898830a10e" title="this method runs in the thread context">DoWork()</a> runs in an infinite loop, call <a class="el" href="class_posix_1_1_posix_thread.html#afc16e5bba2b07a4be30b91d0fc4a12f0" title="check if stop is requested, call from DoWork() to see if the thread proc should quit">ThreadStopRequested()</a> to check whether the Thread object wants the thread code to quit. </p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>start executing the thread code, returns when thread has actually started </p>
-<p >Start the thread, this creates a <a class="el" href="namespace_posix.html">Posix</a> thread and calls the static ThreadProc, which in turn calls the virtual <a class="el" href="class_posix_1_1_posix_thread.html#ac2915816248d11f12eedc5898830a10e" title="this method runs in the thread context">DoWork()</a> class of this object.</p>
+<p >Start the thread, this creates a <a class="el" href="namespace_posix.html" title="Posix implemention of a read-many write-few lock.">Posix</a> thread and calls the static ThreadProc, which in turn calls the virtual <a class="el" href="class_posix_1_1_posix_thread.html#ac2915816248d11f12eedc5898830a10e" title="this method runs in the thread context">DoWork()</a> class of this object.</p>
 <p >The method returns immediately without waiting for the thread to start. </p>
 
 </div>
@@ -1003,7 +1003,7 @@ Static Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_posix.html">Posix</a></li><li class="navelem"><a class="el" href="class_posix_1_1_posix_thread.html">PosixThread</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

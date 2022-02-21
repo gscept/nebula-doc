@@ -8,12 +8,9 @@ var render_2coregraphics_2event_8h =
     [ "EventHostSignal", "render_2coregraphics_2event_8h.html#aebbcab43adb5409003e1db0330c353de", null ],
     [ "EventHostWait", "render_2coregraphics_2event_8h.html#a69abd2d5d068a8963688cab303b3c61e", null ],
     [ "EventPoll", "render_2coregraphics_2event_8h.html#a3eb660994a65b9595f4360c6dd56cdce", null ],
-    [ "EventReset", "render_2coregraphics_2event_8h.html#a0a91694937e382c8a44b290a1a3e0278", null ],
-    [ "EventReset", "render_2coregraphics_2event_8h.html#a8961817e7c1431f253a807d4f3e3086a", null ],
-    [ "EventSignal", "render_2coregraphics_2event_8h.html#acd04b8b1b5448c205e0b838fb8ba91fa", null ],
-    [ "EventSignal", "render_2coregraphics_2event_8h.html#a6b52b7034d4fb5e6965e77bcaef8bc5b", null ],
-    [ "EventWait", "render_2coregraphics_2event_8h.html#ad728e9b326adc69d85b8a95f5b8a58ab", null ],
-    [ "EventWait", "render_2coregraphics_2event_8h.html#ae2d0ced8ca7b1d41355c55dbd25779d6", null ],
-    [ "EventWaitAndReset", "render_2coregraphics_2event_8h.html#a603c05ba54a27fca6249c7ddc6b9c0a4", null ],
-    [ "EventWaitAndReset", "render_2coregraphics_2event_8h.html#a6d7d7b65584d2843451165a6d29c8db5", null ]
+    [ "EventReset", "render_2coregraphics_2event_8h.html#ad1d626d87f56cc7e0f9e9eeab64b7ff6", null ],
+    [ "EventSignal", "render_2coregraphics_2event_8h.html#a930dc74763b8b49aa61f6d2858a3d501", null ],
+    [ "EventWait", "render_2coregraphics_2event_8h.html#a6fda3cf3fa6a8f67b8c2130db5e83624", null ],
+    [ "EventWait", "render_2coregraphics_2event_8h.html#a36126a1f3e168f790890607c40c38f65", null ],
+    [ "EventWaitAndReset", "render_2coregraphics_2event_8h.html#af60780316eeb0391db126d268cc991a3", null ]
 ];

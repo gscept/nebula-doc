@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad47150ea48cc8549188e77dffa3c838f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html#ad47150ea48cc8549188e77dffa3c838f">Unload</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:ad47150ea48cc8549188e77dffa3c838f"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload resource  <a href="class_core_graphics_1_1_memory_mesh_cache.html#ad47150ea48cc8549188e77dffa3c838f">More...</a><br /></td></tr>
 <tr class="separator:ad47150ea48cc8549188e77dffa3c838f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17b94e44a67067740a0471ec0b4ebaac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html#a17b94e44a67067740a0471ec0b4ebaac">BindMesh</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> prim)</td></tr>
-<tr class="memdesc:a17b94e44a67067740a0471ec0b4ebaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">bind mesh  <a href="class_core_graphics_1_1_memory_mesh_cache.html#a17b94e44a67067740a0471ec0b4ebaac">More...</a><br /></td></tr>
-<tr class="separator:a17b94e44a67067740a0471ec0b4ebaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5a03dc2c3d802c890bc68aea8a0f5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html#a8b5a03dc2c3d802c890bc68aea8a0f5d">BindMesh</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> prim, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
+<tr class="memdesc:a8b5a03dc2c3d802c890bc68aea8a0f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">bind mesh  <a href="class_core_graphics_1_1_memory_mesh_cache.html#a8b5a03dc2c3d802c890bc68aea8a0f5d">More...</a><br /></td></tr>
+<tr class="separator:a8b5a03dc2c3d802c890bc68aea8a0f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d2c4c386050b5c3205ec4a226946bf9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html#a6d2c4c386050b5c3205ec4a226946bf9">GetPrimitiveGroups</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id)</td></tr>
 <tr class="memdesc:a6d2c4c386050b5c3205ec4a226946bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitive groups from mesh  <a href="class_core_graphics_1_1_memory_mesh_cache.html#a6d2c4c386050b5c3205ec4a226946bf9">More...</a><br /></td></tr>
 <tr class="separator:a6d2c4c386050b5c3205ec4a226946bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,8 +408,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a17b94e44a67067740a0471ec0b4ebaac" name="a17b94e44a67067740a0471ec0b4ebaac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17b94e44a67067740a0471ec0b4ebaac">&#9670;&nbsp;</a></span>BindMesh()</h2>
+<a id="a8b5a03dc2c3d802c890bc68aea8a0f5d" name="a8b5a03dc2c3d802c890bc68aea8a0f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5a03dc2c3d802c890bc68aea8a0f5d">&#9670;&nbsp;</a></span>BindMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,8 +423,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>prim</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>prim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -655,7 +661,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li><li class="navelem"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html">MemoryMeshCache</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

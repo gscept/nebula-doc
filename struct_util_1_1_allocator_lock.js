@@ -1,7 +1,7 @@
 var struct_util_1_1_allocator_lock =
 [
-    [ "AllocatorLock", "struct_util_1_1_allocator_lock.html#ab802f9f6e70d05ef5a2bdeca636dbd44", null ],
+    [ "AllocatorLock", "struct_util_1_1_allocator_lock.html#a245510a0e6c68ce367cd2bffda5b59d1", null ],
     [ "~AllocatorLock", "struct_util_1_1_allocator_lock.html#a83fc421056be729a810f0ed2fa966841", null ],
-    [ "bits", "struct_util_1_1_allocator_lock.html#ac370da1390ad8daef5d5fcc9cffa32da", null ],
-    [ "locker", "struct_util_1_1_allocator_lock.html#abc07c30430f92f51ab049260100e04eb", null ]
+    [ "access", "struct_util_1_1_allocator_lock.html#ac36e4056b8abb09a5fa300923d135c32", null ],
+    [ "allocator", "struct_util_1_1_allocator_lock.html#a5094f2758c5cfc7088839a2e864eff75", null ]
 ];

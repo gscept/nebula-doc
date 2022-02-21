@@ -10,6 +10,5 @@ var searchData=
   ['sizet_7',['SizeT',['../types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37',1,'types.h']]],
   ['socket_8',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
   ['spotlightallocator_9',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a0adb0abaa0e95b6377581ad32fbdb301',1,'Lighting::LightContext']]],
-  ['stubtype_10',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['submissioncontextallocator_11',['SubmissionContextAllocator',['../namespace_vulkan.html#a129a309396cd8c3308e09b260d3dc55b',1,'Vulkan']]]
+  ['stubtype_10',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]]
 ];

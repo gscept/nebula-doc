@@ -138,10 +138,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad72fb1b31705615d7d6b4dc6abef84db"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#ad72fb1b31705615d7d6b4dc6abef84db">~VkScheduler</a> ()</td></tr>
 <tr class="memdesc:ad72fb1b31705615d7d6b4dc6abef84db"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="class_vulkan_1_1_vk_scheduler.html#ad72fb1b31705615d7d6b4dc6abef84db">More...</a><br /></td></tr>
 <tr class="separator:ad72fb1b31705615d7d6b4dc6abef84db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd4014fa5a8c51ff6b7a211942d1e28c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#acd4014fa5a8c51ff6b7a211942d1e28c">PushImageLayoutTransition</a> (CoreGraphicsQueueType queue, <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a> left, <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a> right, VkImageMemoryBarrier barrier)</td></tr>
+<tr class="memitem:acd4014fa5a8c51ff6b7a211942d1e28c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#acd4014fa5a8c51ff6b7a211942d1e28c">PushImageLayoutTransition</a> (CoreGraphicsQueueType queue, CoreGraphics::BarrierStage left, CoreGraphics::BarrierStage right, VkImageMemoryBarrier barrier)</td></tr>
 <tr class="memdesc:acd4014fa5a8c51ff6b7a211942d1e28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">push image layout change  <a href="class_vulkan_1_1_vk_scheduler.html#acd4014fa5a8c51ff6b7a211942d1e28c">More...</a><br /></td></tr>
 <tr class="separator:acd4014fa5a8c51ff6b7a211942d1e28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd3914a4b09d761194268a78545dc0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#a9fd3914a4b09d761194268a78545dc0f">PushImageOwnershipChange</a> (CoreGraphicsQueueType queue, <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a> left, <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a> right, VkImageMemoryBarrier barrier)</td></tr>
+<tr class="memitem:a9fd3914a4b09d761194268a78545dc0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#a9fd3914a4b09d761194268a78545dc0f">PushImageOwnershipChange</a> (CoreGraphicsQueueType queue, CoreGraphics::BarrierStage left, CoreGraphics::BarrierStage right, VkImageMemoryBarrier barrier)</td></tr>
 <tr class="memdesc:a9fd3914a4b09d761194268a78545dc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">push transition image ownership transition  <a href="class_vulkan_1_1_vk_scheduler.html#a9fd3914a4b09d761194268a78545dc0f">More...</a><br /></td></tr>
 <tr class="separator:a9fd3914a4b09d761194268a78545dc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbb13b689bcdc31499c20ce1d86a8cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#acbb13b689bcdc31499c20ce1d86a8cc7">PushImageColorClear</a> (const VkImage &amp;image, const CoreGraphicsQueueType queue, VkImageLayout layout, VkClearColorValue clearValue, VkImageSubresourceRange subres)</td></tr>
@@ -211,7 +211,6 @@ Friends</h2></td></tr>
 <tr class="memitem:a7b70f9101c32a5ed5b18ca7adb382cb9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#a7b70f9101c32a5ed5b18ca7adb382cb9">VkUtilities</a></td></tr>
 <tr class="separator:a7b70f9101c32a5ed5b18ca7adb382cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca915352779a2d408f83dfa785174998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#aca915352779a2d408f83dfa785174998">BindDescriptorsGraphics</a> (const VkDescriptorSet *descriptors, uint32_t baseSet, uint32_t setCount, const uint32_t *offsets, uint32_t offsetCount, bool shared)</td></tr>
-<tr class="memdesc:aca915352779a2d408f83dfa785174998"><td class="mdescLeft">&#160;</td><td class="mdescRight">update descriptors  <a href="class_vulkan_1_1_vk_scheduler.html#aca915352779a2d408f83dfa785174998">More...</a><br /></td></tr>
 <tr class="separator:aca915352779a2d408f83dfa785174998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abafc81dbaa7cda4c5947225eda7b012b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_scheduler.html#abafc81dbaa7cda4c5947225eda7b012b">BindDescriptorsCompute</a> (const VkDescriptorSet *descriptors, uint32_t baseSet, uint32_t setCount, const uint32_t *offsets, uint32_t offsetCount)</td></tr>
 <tr class="separator:abafc81dbaa7cda4c5947225eda7b012b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -597,13 +596,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>&#160;</td>
+          <td class="paramtype">CoreGraphics::BarrierStage&#160;</td>
           <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>&#160;</td>
+          <td class="paramtype">CoreGraphics::BarrierStage&#160;</td>
           <td class="paramname"><em>right</em>, </td>
         </tr>
         <tr>
@@ -639,13 +638,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>&#160;</td>
+          <td class="paramtype">CoreGraphics::BarrierStage&#160;</td>
           <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>&#160;</td>
+          <td class="paramtype">CoreGraphics::BarrierStage&#160;</td>
           <td class="paramname"><em>right</em>, </td>
         </tr>
         <tr>
@@ -861,8 +860,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>update descriptors </p>
-
 </div>
 </div>
 <a id="aad5668e89f0af2a86e24562fb8d50871" name="aad5668e89f0af2a86e24562fb8d50871"></a>
@@ -925,7 +922,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="class_vulkan_1_1_vk_utilities.html">VkUtilities</a></td>
+          <td class="memname">friend class VkUtilities</td>
         </tr>
       </table>
   </td>
@@ -1169,7 +1166,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_scheduler.html">VkScheduler</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

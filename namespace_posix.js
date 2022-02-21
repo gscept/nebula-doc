@@ -14,6 +14,7 @@ var namespace_posix =
     [ "PosixIpAddress", "class_posix_1_1_posix_ip_address.html", "class_posix_1_1_posix_ip_address" ],
     [ "PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", "class_posix_1_1_posix_memory_pool" ],
     [ "PosixProcess", "class_posix_1_1_posix_process.html", "class_posix_1_1_posix_process" ],
+    [ "PosixReadWriteLock", "class_posix_1_1_posix_read_write_lock.html", "class_posix_1_1_posix_read_write_lock" ],
     [ "PosixSettings", "class_posix_1_1_posix_settings.html", "class_posix_1_1_posix_settings" ],
     [ "PosixSocket", "class_posix_1_1_posix_socket.html", "class_posix_1_1_posix_socket" ],
     [ "PosixSystemInfo", "class_posix_1_1_posix_system_info.html", "class_posix_1_1_posix_system_info" ],

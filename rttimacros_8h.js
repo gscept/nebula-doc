@@ -10,6 +10,7 @@ var rttimacros_8h =
     [ "__ImplementClassVariadicTemplate", "rttimacros_8h.html#ad40602b1d59d195932e728ff70ddb616", null ],
     [ "__ImplementEnumBitOperators", "rttimacros_8h.html#a758582520416f2c7aff10f0d405854f4", null ],
     [ "__ImplementEnumComparisonOperators", "rttimacros_8h.html#a529fb97e2e1b53fbcedb2da03b166bbe", null ],
+    [ "__ImplementEnumMutableOperators", "rttimacros_8h.html#a9e4c2462e32d5f84e6d6727a77356b73", null ],
     [ "__ImplementRootClass", "rttimacros_8h.html#a3ff058448bca899c4c77be078e64c744", null ],
     [ "__ImplementWeakClass", "rttimacros_8h.html#a39368fd08ea8e0979a912734391f4553", null ],
     [ "__ImplementWeakRootClass", "rttimacros_8h.html#ac796ec592f67eb9f4d17af2c6f1f53c4", null ],

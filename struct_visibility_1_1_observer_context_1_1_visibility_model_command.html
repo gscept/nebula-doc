@@ -96,20 +96,22 @@ $(document).ready(function(){initNavTree('struct_visibility_1_1_observer_context
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0d756b4ab8e95a416d5cf6e3405f82f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a0d756b4ab8e95a416d5cf6e3405f82f7">offset</a></td></tr>
 <tr class="separator:a0d756b4ab8e95a416d5cf6e3405f82f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a57cb091edfd296d028fc8b6ed560d9"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a8a57cb091edfd296d028fc8b6ed560d9">modelCallback</a></td></tr>
-<tr class="separator:a8a57cb091edfd296d028fc8b6ed560d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b3804a164597793cc17a6b72eff563"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a97b3804a164597793cc17a6b72eff563">modelApplyCallback</a></td></tr>
+<tr class="separator:a97b3804a164597793cc17a6b72eff563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827e54c4e53e8cd9e2d8e5e51931c3c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a827e54c4e53e8cd9e2d8e5e51931c3c1">primitiveNodeApplyCallback</a></td></tr>
+<tr class="separator:a827e54c4e53e8cd9e2d8e5e51931c3c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25fef5a431eae411718cdfcd73bd1602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a25fef5a431eae411718cdfcd73bd1602">surface</a></td></tr>
 <tr class="separator:a25fef5a431eae411718cdfcd73bd1602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8a57cb091edfd296d028fc8b6ed560d9" name="a8a57cb091edfd296d028fc8b6ed560d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a57cb091edfd296d028fc8b6ed560d9">&#9670;&nbsp;</a></span>modelCallback</h2>
+<a id="a97b3804a164597793cc17a6b72eff563" name="a97b3804a164597793cc17a6b72eff563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b3804a164597793cc17a6b72eff563">&#9670;&nbsp;</a></span>modelApplyCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void()&gt; Visibility::ObserverContext::VisibilityModelCommand::modelCallback</td>
+          <td class="memname">std::function&lt;void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt; Visibility::ObserverContext::VisibilityModelCommand::modelApplyCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -124,6 +126,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> Visibility::ObserverContext::VisibilityModelCommand::offset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a827e54c4e53e8cd9e2d8e5e51931c3c1" name="a827e54c4e53e8cd9e2d8e5e51931c3c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827e54c4e53e8cd9e2d8e5e51931c3c1">&#9670;&nbsp;</a></span>primitiveNodeApplyCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt; Visibility::ObserverContext::VisibilityModelCommand::primitiveNodeApplyCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -154,7 +170,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_visibility.html">Visibility</a></li><li class="navelem"><a class="el" href="class_visibility_1_1_observer_context.html">ObserverContext</a></li><li class="navelem"><a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html">VisibilityModelCommand</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

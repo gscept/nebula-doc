@@ -43,5 +43,5 @@ var namespace_debug =
     [ "selectedLayer", "namespace_debug.html#a8e6ef26430eb535b233dec680566ebca", null ],
     [ "selectedMip", "namespace_debug.html#ab8810382eb190c8981b535426452b7b8", null ],
     [ "selectedTarget", "namespace_debug.html#a33bfa36a38745604f49e8ed73c173468", null ],
-    [ "state", "namespace_debug.html#a5e1b3c32717880de7e4f89105e2866ef", null ]
+    [ "state", "namespace_debug.html#a0cb40edb4ad16005f9b154720b7f2a43", null ]
 ];

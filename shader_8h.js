@@ -20,11 +20,6 @@ var shader_8h =
       [ "ImageHandleType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea3b5d2dfb38ea53b6ee47816dfb00491b", null ],
       [ "SamplerHandleType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea402276621311852a3b39a8a50a4d2913", null ]
     ] ],
-    [ "ShaderPipeline", "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8ee", [
-      [ "InvalidPipeline", "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397", null ],
-      [ "GraphicsPipeline", "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69", null ],
-      [ "ComputePipeline", "shader_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274", null ]
-    ] ],
     [ "ConstantTypeToString", "shader_8h.html#ab1262da19888f376694f7a84cfdbfbfb", null ],
     [ "CreateShader", "shader_8h.html#a9a25a7223bd07bafaf8b22160c130598", null ],
     [ "DestroyShader", "shader_8h.html#ab51cbce5faa9017eae977a65d25ac310", null ],

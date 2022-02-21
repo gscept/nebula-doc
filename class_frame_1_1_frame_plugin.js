@@ -4,5 +4,5 @@ var class_frame_1_1_frame_plugin =
     [ "FramePlugin", "class_frame_1_1_frame_plugin.html#a52e207749df0565d73eb51c478dc2cad", null ],
     [ "~FramePlugin", "class_frame_1_1_frame_plugin.html#a36e7a1507e154a8e0797739c8668c7b2", null ],
     [ "AllocCompiled", "class_frame_1_1_frame_plugin.html#ae46fc83bfd4ae81addb55e82b2593793", null ],
-    [ "Build", "class_frame_1_1_frame_plugin.html#aae225dec8e81041c8de5df18b9cada53", null ]
+    [ "Build", "class_frame_1_1_frame_plugin.html#a3fdeee251c52cd0a73506e6ed1d68ab9", null ]
 ];

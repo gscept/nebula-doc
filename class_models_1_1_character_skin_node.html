@@ -127,9 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94da31461e5a4af10eb92b6fccb082dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">GetFragmentJointPalette</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fragmentIndex) const</td></tr>
 <tr class="memdesc:a94da31461e5a4af10eb92b6fccb082dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">get joint palette of a fragment  <a href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">More...</a><br /></td></tr>
 <tr class="separator:a94da31461e5a4af10eb92b6fccb082dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a702cbfbda3a74a307156d527f2a92e10"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a702cbfbda3a74a307156d527f2a92e10">GetApplyNodeFunction</a> () override</td></tr>
-<tr class="memdesc:a702cbfbda3a74a307156d527f2a92e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">get function for applying node state  <a href="class_models_1_1_character_skin_node.html#a702cbfbda3a74a307156d527f2a92e10">More...</a><br /></td></tr>
-<tr class="separator:a702cbfbda3a74a307156d527f2a92e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a70d765fdcea2890cc5a7fd199b2fde8c">GetApplyFunction</a> () override</td></tr>
+<tr class="memdesc:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to apply node.  <a href="class_models_1_1_character_skin_node.html#a70d765fdcea2890cc5a7fd199b2fde8c">More...</a><br /></td></tr>
+<tr class="separator:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf3fe8d58918826f1f3268fbb75c0d9"><td class="memItemLeft" align="right" valign="top">std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#accf3fe8d58918826f1f3268fbb75c0d9">GetPrimitiveGroupFunction</a> () override</td></tr>
+<tr class="memdesc:accf3fe8d58918826f1f3268fbb75c0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to fetch primitive group.  <a href="class_models_1_1_character_skin_node.html#accf3fe8d58918826f1f3268fbb75c0d9">More...</a><br /></td></tr>
+<tr class="separator:accf3fe8d58918826f1f3268fbb75c0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_models_1_1_primitive_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_models_1_1_primitive_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_models_1_1_primitive_node.html">Models::PrimitiveNode</a></td></tr>
 <tr class="memitem:a6b09e47bad4ea1c489b6aaccada920ec inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a6b09e47bad4ea1c489b6aaccada920ec">PrimitiveNode</a> ()</td></tr>
 <tr class="memdesc:a6b09e47bad4ea1c489b6aaccada920ec inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_models_1_1_primitive_node.html#a6b09e47bad4ea1c489b6aaccada920ec">More...</a><br /></td></tr>
@@ -143,9 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a353332ab250c58f2a10c213d2c057a09">GetMeshId</a> () const</td></tr>
 <tr class="memdesc:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitives mesh id  <a href="class_models_1_1_primitive_node.html#a353332ab250c58f2a10c213d2c057a09">More...</a><br /></td></tr>
 <tr class="separator:a353332ab250c58f2a10c213d2c057a09 inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a6fec77ae7fa9ae0365e08a0c4be9f296">GetApplyNodeFunction</a> ()</td></tr>
-<tr class="memdesc:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get function for applying node state  <a href="class_models_1_1_primitive_node.html#a6fec77ae7fa9ae0365e08a0c4be9f296">More...</a><br /></td></tr>
-<tr class="separator:a6fec77ae7fa9ae0365e08a0c4be9f296 inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea10a68ff9a00589e1e5be07072988c8 inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#aea10a68ff9a00589e1e5be07072988c8">GetApplyFunction</a> () override</td></tr>
+<tr class="memdesc:aea10a68ff9a00589e1e5be07072988c8 inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to apply node.  <a href="class_models_1_1_primitive_node.html#aea10a68ff9a00589e1e5be07072988c8">More...</a><br /></td></tr>
+<tr class="separator:aea10a68ff9a00589e1e5be07072988c8 inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0848846c7ee12997d87c3d89a23f5fb inherit pub_methods_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#aa0848846c7ee12997d87c3d89a23f5fb">GetPrimitiveGroupFunction</a> () override</td></tr>
+<tr class="memdesc:aa0848846c7ee12997d87c3d89a23f5fb inherit pub_methods_class_models_1_1_primitive_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to fetch primitive group.  <a href="class_models_1_1_primitive_node.html#aa0848846c7ee12997d87c3d89a23f5fb">More...</a><br /></td></tr>
+<tr class="separator:aa0848846c7ee12997d87c3d89a23f5fb inherit pub_methods_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
 <tr class="memitem:a58f935eda14c27020fec6f8de2e848a7 inherit pub_methods_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7">ShaderStateNode</a> ()</td></tr>
 <tr class="memdesc:a58f935eda14c27020fec6f8de2e848a7 inherit pub_methods_class_models_1_1_shader_state_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7">More...</a><br /></td></tr>
@@ -191,9 +197,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#aa045e210f5e8d57eacfade1e5e88eef4">HashCode</a> () const</td></tr>
 <tr class="memdesc:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get hash  <a href="class_models_1_1_model_node.html#aa045e210f5e8d57eacfade1e5e88eef4">More...</a><br /></td></tr>
 <tr class="separator:aa045e210f5e8d57eacfade1e5e88eef4 inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f2827eb9f73b7e749e029d57c7244cc inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a3f2827eb9f73b7e749e029d57c7244cc">GetApplyNodeFunction</a> ()</td></tr>
-<tr class="memdesc:a3f2827eb9f73b7e749e029d57c7244cc inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">get function for applying node state  <a href="class_models_1_1_model_node.html#a3f2827eb9f73b7e749e029d57c7244cc">More...</a><br /></td></tr>
-<tr class="separator:a3f2827eb9f73b7e749e029d57c7244cc inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c0d54063ef97ca8f0fccff75a1c3c7 inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a09c0d54063ef97ca8f0fccff75a1c3c7">GetApplyFunction</a> ()</td></tr>
+<tr class="memdesc:a09c0d54063ef97ca8f0fccff75a1c3c7 inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to apply node.  <a href="class_models_1_1_model_node.html#a09c0d54063ef97ca8f0fccff75a1c3c7">More...</a><br /></td></tr>
+<tr class="separator:a09c0d54063ef97ca8f0fccff75a1c3c7 inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97805c54ae3f923732939de5acd4a0f5 inherit pub_methods_class_models_1_1_model_node"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html#a97805c54ae3f923732939de5acd4a0f5">GetPrimitiveGroupFunction</a> ()</td></tr>
+<tr class="memdesc:a97805c54ae3f923732939de5acd4a0f5 inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to fetch primitive group.  <a href="class_models_1_1_model_node.html#a97805c54ae3f923732939de5acd4a0f5">More...</a><br /></td></tr>
+<tr class="separator:a97805c54ae3f923732939de5acd4a0f5 inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -404,8 +413,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a702cbfbda3a74a307156d527f2a92e10" name="a702cbfbda3a74a307156d527f2a92e10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a702cbfbda3a74a307156d527f2a92e10">&#9670;&nbsp;</a></span>GetApplyNodeFunction()</h2>
+<a id="a70d765fdcea2890cc5a7fd199b2fde8c" name="a70d765fdcea2890cc5a7fd199b2fde8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d765fdcea2890cc5a7fd199b2fde8c">&#9670;&nbsp;</a></span>GetApplyFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,7 +423,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; void()&gt; Models::CharacterSkinNode::GetApplyNodeFunction </td>
+          <td class="memname">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt; Models::CharacterSkinNode::GetApplyFunction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -427,9 +436,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get function for applying node state </p>
+<p>Get function to apply node. </p>
 
-<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a3f2827eb9f73b7e749e029d57c7244cc">Models::ModelNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a09c0d54063ef97ca8f0fccff75a1c3c7">Models::ModelNode</a>.</p>
 
 </div>
 </div>
@@ -513,6 +522,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get number of skin fragments </p>
+
+</div>
+</div>
+<a id="accf3fe8d58918826f1f3268fbb75c0d9" name="accf3fe8d58918826f1f3268fbb75c0d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf3fe8d58918826f1f3268fbb75c0d9">&#9670;&nbsp;</a></span>GetPrimitiveGroupFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt; Models::CharacterSkinNode::GetPrimitiveGroupFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get function to fetch primitive group. </p>
+
+<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a97805c54ae3f923732939de5acd4a0f5">Models::ModelNode</a>.</p>
 
 </div>
 </div>
@@ -696,7 +734,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_character_skin_node.html">CharacterSkinNode</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

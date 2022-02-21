@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c9c3f4f0895593c1ba130e52d6399b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a6c9c3f4f0895593c1ba130e52d6399b0">Reload</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a6c9c3f4f0895593c1ba130e52d6399b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reload resource. This will unload and then reload with the same info as when previously loaded  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a6c9c3f4f0895593c1ba130e52d6399b0">More...</a><br /></td></tr>
 <tr class="separator:a6c9c3f4f0895593c1ba130e52d6399b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae18b2a63127cb9d89bab3323347bfee3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#ae18b2a63127cb9d89bab3323347bfee3">GenerateMipmaps</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
-<tr class="memdesc:ae18b2a63127cb9d89bab3323347bfee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates mipmaps  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#ae18b2a63127cb9d89bab3323347bfee3">More...</a><br /></td></tr>
-<tr class="separator:ae18b2a63127cb9d89bab3323347bfee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bee7d961fddb427c34c20419bacdecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a9bee7d961fddb427c34c20419bacdecb">GenerateMipmaps</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
+<tr class="memdesc:a9bee7d961fddb427c34c20419bacdecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates mipmaps  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a9bee7d961fddb427c34c20419bacdecb">More...</a><br /></td></tr>
+<tr class="separator:a9bee7d961fddb427c34c20419bacdecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23e88ed874d5cc7666b83aa579521377"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a23e88ed874d5cc7666b83aa579521377">Map</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mipLevel, <a class="el" href="namespace_core_graphics_1_1_gpu_buffer_types.html#ace9b9ef8933f3b3ba27d907ddfd303ad">CoreGraphics::GpuBufferTypes::MapType</a> mapType, <a class="el" href="struct_core_graphics_1_1_texture_map_info.html">CoreGraphics::TextureMapInfo</a> &amp;outMapInfo)</td></tr>
 <tr class="memdesc:a23e88ed874d5cc7666b83aa579521377"><td class="mdescLeft">&#160;</td><td class="mdescRight">map a texture mip level for CPU access  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a23e88ed874d5cc7666b83aa579521377">More...</a><br /></td></tr>
 <tr class="separator:a23e88ed874d5cc7666b83aa579521377"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,30 +128,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b334a607c259cc3b81f64cca6414cd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a2b334a607c259cc3b81f64cca6414cd6">UnmapCubeFace</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="namespace_core_graphics.html#a6b2308ed69f339e21d38bba252611f1d">CoreGraphics::TextureCubeFace</a> face, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mipLevel)</td></tr>
 <tr class="memdesc:a2b334a607c259cc3b81f64cca6414cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">unmap cube map face after CPU access  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a2b334a607c259cc3b81f64cca6414cd6">More...</a><br /></td></tr>
 <tr class="separator:a2b334a607c259cc3b81f64cca6414cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af22af86fce9056353aa9082c1c136b10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#af22af86fce9056353aa9082c1c136b10">Update</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dataSize, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> left, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> top, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip)</td></tr>
-<tr class="memdesc:af22af86fce9056353aa9082c1c136b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates texture region  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#af22af86fce9056353aa9082c1c136b10">More...</a><br /></td></tr>
-<tr class="separator:af22af86fce9056353aa9082c1c136b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249636bf783dc5e71e1df5fc7ad6a650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a249636bf783dc5e71e1df5fc7ad6a650">Update</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_core_graphics_1_1_texture_dimensions.html">CoreGraphics::TextureDimensions</a> dims, void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dataSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip)</td></tr>
-<tr class="memdesc:a249636bf783dc5e71e1df5fc7ad6a650"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates entire texture  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a249636bf783dc5e71e1df5fc7ad6a650">More...</a><br /></td></tr>
-<tr class="separator:a249636bf783dc5e71e1df5fc7ad6a650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc97766138846e414c1f692404b495b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#acc97766138846e414c1f692404b495b1">UpdateArray</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dataSize, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> left, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> top, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer)</td></tr>
-<tr class="memdesc:acc97766138846e414c1f692404b495b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates texture cube face region  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#acc97766138846e414c1f692404b495b1">More...</a><br /></td></tr>
-<tr class="separator:acc97766138846e414c1f692404b495b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35996da5481c627d21e55fe7a94f05a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a35996da5481c627d21e55fe7a94f05a4">UpdateArray</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_core_graphics_1_1_texture_dimensions.html">CoreGraphics::TextureDimensions</a> dims, void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dataSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer)</td></tr>
-<tr class="memdesc:a35996da5481c627d21e55fe7a94f05a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates texture cube face region  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a35996da5481c627d21e55fe7a94f05a4">More...</a><br /></td></tr>
-<tr class="separator:a35996da5481c627d21e55fe7a94f05a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a698a1e98f7b9bf96f9896d58303927fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a698a1e98f7b9bf96f9896d58303927fd">MipDimensions</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> face, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &amp;width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &amp;height, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &amp;depth)</td></tr>
 <tr class="memdesc:a698a1e98f7b9bf96f9896d58303927fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the size of a texture given a certain mip, use face 0 when not accessing a cube or array texture  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a698a1e98f7b9bf96f9896d58303927fd">More...</a><br /></td></tr>
 <tr class="separator:a698a1e98f7b9bf96f9896d58303927fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03c5159045e24675cef925923b026bbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a03c5159045e24675cef925923b026bbb">Update</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:a03c5159045e24675cef925923b026bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">update texture from data stream  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a03c5159045e24675cef925923b026bbb">More...</a><br /></td></tr>
-<tr class="separator:a03c5159045e24675cef925923b026bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d9170ff3964ab584f1b14c4d4e1cc25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a3d9170ff3964ab584f1b14c4d4e1cc25">ClearColor</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> color, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:a3d9170ff3964ab584f1b14c4d4e1cc25"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with color  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a3d9170ff3964ab584f1b14c4d4e1cc25">More...</a><br /></td></tr>
-<tr class="separator:a3d9170ff3964ab584f1b14c4d4e1cc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef80cb126df1d04b4acba3071d924a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#aeef80cb126df1d04b4acba3071d924a6">ClearDepthStencil</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, float depth, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> stencil, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:aeef80cb126df1d04b4acba3071d924a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with depth-stencil  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#aeef80cb126df1d04b4acba3071d924a6">More...</a><br /></td></tr>
-<tr class="separator:aeef80cb126df1d04b4acba3071d924a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7b335a540c1354152448d16038f3d55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#ae7b335a540c1354152448d16038f3d55">ClearColor</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> color, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres)</td></tr>
+<tr class="memdesc:ae7b335a540c1354152448d16038f3d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear texture with color.  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#ae7b335a540c1354152448d16038f3d55">More...</a><br /></td></tr>
+<tr class="separator:ae7b335a540c1354152448d16038f3d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfaa99752d83dee7ed5b14f3cd800047"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#abfaa99752d83dee7ed5b14f3cd800047">ClearDepthStencil</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, float depth, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> stencil, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres)</td></tr>
+<tr class="memdesc:abfaa99752d83dee7ed5b14f3cd800047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear texture with depth-stencil.  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#abfaa99752d83dee7ed5b14f3cd800047">More...</a><br /></td></tr>
+<tr class="separator:abfaa99752d83dee7ed5b14f3cd800047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab43cf7597c6b991e2002b1e01dd1db52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_dimensions.html">CoreGraphics::TextureDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#ab43cf7597c6b991e2002b1e01dd1db52">GetDimensions</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
 <tr class="memdesc:ab43cf7597c6b991e2002b1e01dd1db52"><td class="mdescLeft">&#160;</td><td class="mdescRight">get texture dimensions  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#ab43cf7597c6b991e2002b1e01dd1db52">More...</a><br /></td></tr>
 <tr class="separator:ab43cf7597c6b991e2002b1e01dd1db52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,15 +203,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60b26ad91f4c831c1c20c8cc862637fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a60b26ad91f4c831c1c20c8cc862637fc">SparseCommitChanges</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
 <tr class="memdesc:a60b26ad91f4c831c1c20c8cc862637fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">commit texture sparse page updates  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a60b26ad91f4c831c1c20c8cc862637fc">More...</a><br /></td></tr>
 <tr class="separator:a60b26ad91f4c831c1c20c8cc862637fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34516bce57cdba045e8b6092a571e5b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a34516bce57cdba045e8b6092a571e5b3">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> source, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:a34516bce57cdba045e8b6092a571e5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a region of the sparse texture, make sure to insert barriers before doing this though  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a34516bce57cdba045e8b6092a571e5b3">More...</a><br /></td></tr>
-<tr class="separator:a34516bce57cdba045e8b6092a571e5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0eacd2e3c2ade5032b8fb6c0e8bc369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#ac0eacd2e3c2ade5032b8fb6c0e8bc369">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:ac0eacd2e3c2ade5032b8fb6c0e8bc369"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a region of the sparse texture, make sure to insert barriers before doing this though  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#ac0eacd2e3c2ade5032b8fb6c0e8bc369">More...</a><br /></td></tr>
-<tr class="separator:ac0eacd2e3c2ade5032b8fb6c0e8bc369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4a40c0d7969feb8d7fd7da92465b38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a1b4a40c0d7969feb8d7fd7da92465b38">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf, const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a> sub)</td></tr>
-<tr class="memdesc:a1b4a40c0d7969feb8d7fd7da92465b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a whole mip  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a1b4a40c0d7969feb8d7fd7da92465b38">More...</a><br /></td></tr>
-<tr class="separator:a1b4a40c0d7969feb8d7fd7da92465b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52ccdb8f49a1dc97ab78845486392bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#ac52ccdb8f49a1dc97ab78845486392bc">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> source)</td></tr>
+<tr class="memdesc:ac52ccdb8f49a1dc97ab78845486392bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a region of the sparse texture, make sure to insert barriers before doing this though  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#ac52ccdb8f49a1dc97ab78845486392bc">More...</a><br /></td></tr>
+<tr class="separator:ac52ccdb8f49a1dc97ab78845486392bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9030a6b82259db6e68943e27a3c748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a0c9030a6b82259db6e68943e27a3c748">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf)</td></tr>
+<tr class="memdesc:a0c9030a6b82259db6e68943e27a3c748"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a region of the sparse texture, make sure to insert barriers before doing this though  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a0c9030a6b82259db6e68943e27a3c748">More...</a><br /></td></tr>
+<tr class="separator:a0c9030a6b82259db6e68943e27a3c748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf44c3ff7b936adac01ee1f4e60e6fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a9cf44c3ff7b936adac01ee1f4e60e6fe">SparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf)</td></tr>
+<tr class="memdesc:a9cf44c3ff7b936adac01ee1f4e60e6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">update a whole mip  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a9cf44c3ff7b936adac01ee1f4e60e6fe">More...</a><br /></td></tr>
+<tr class="separator:a9cf44c3ff7b936adac01ee1f4e60e6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ad856c48b23a90d0493da904200d9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html#a17ad856c48b23a90d0493da904200d9c">SwapBuffers</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
 <tr class="memdesc:a17ad856c48b23a90d0493da904200d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">swap buffers for texture  <a href="class_vulkan_1_1_vk_memory_texture_cache.html#a17ad856c48b23a90d0493da904200d9c">More...</a><br /></td></tr>
 <tr class="separator:a17ad856c48b23a90d0493da904200d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -465,8 +450,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d9170ff3964ab584f1b14c4d4e1cc25" name="a3d9170ff3964ab584f1b14c4d4e1cc25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d9170ff3964ab584f1b14c4d4e1cc25">&#9670;&nbsp;</a></span>ClearColor()</h2>
+<a id="ae7b335a540c1354152448d16038f3d55" name="ae7b335a540c1354152448d16038f3d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7b335a540c1354152448d16038f3d55">&#9670;&nbsp;</a></span>ClearColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,6 +459,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::ClearColor </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
@@ -493,13 +484,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;&#160;</td>
-          <td class="paramname"><em>subres</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
+          <td class="paramname"><em>subres</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -509,12 +494,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>clear texture with color </p>
+<p>Clear texture with color. </p>
 
 </div>
 </div>
-<a id="aeef80cb126df1d04b4acba3071d924a6" name="aeef80cb126df1d04b4acba3071d924a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef80cb126df1d04b4acba3071d924a6">&#9670;&nbsp;</a></span>ClearDepthStencil()</h2>
+<a id="abfaa99752d83dee7ed5b14f3cd800047" name="abfaa99752d83dee7ed5b14f3cd800047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfaa99752d83dee7ed5b14f3cd800047">&#9670;&nbsp;</a></span>ClearDepthStencil()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,6 +507,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::ClearDepthStencil </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
@@ -547,13 +538,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;&#160;</td>
-          <td class="paramname"><em>subres</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
+          <td class="paramname"><em>subres</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -563,12 +548,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>clear texture with depth-stencil </p>
+<p>Clear texture with depth-stencil. </p>
 
 </div>
 </div>
-<a id="ae18b2a63127cb9d89bab3323347bfee3" name="ae18b2a63127cb9d89bab3323347bfee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae18b2a63127cb9d89bab3323347bfee3">&#9670;&nbsp;</a></span>GenerateMipmaps()</h2>
+<a id="a9bee7d961fddb427c34c20419bacdecb" name="a9bee7d961fddb427c34c20419bacdecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bee7d961fddb427c34c20419bacdecb">&#9670;&nbsp;</a></span>GenerateMipmaps()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -576,9 +561,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::GenerateMipmaps </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1403,8 +1398,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0eacd2e3c2ade5032b8fb6c0e8bc369" name="ac0eacd2e3c2ade5032b8fb6c0e8bc369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0eacd2e3c2ade5032b8fb6c0e8bc369">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[1/3]</span></h2>
+<a id="a0c9030a6b82259db6e68943e27a3c748" name="a0c9030a6b82259db6e68943e27a3c748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9030a6b82259db6e68943e27a3c748">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1412,6 +1407,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::SparseUpdate </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
@@ -1437,13 +1438,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
+          <td class="paramname"><em>buf</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1457,8 +1452,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a34516bce57cdba045e8b6092a571e5b3" name="a34516bce57cdba045e8b6092a571e5b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34516bce57cdba045e8b6092a571e5b3">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[2/3]</span></h2>
+<a id="ac52ccdb8f49a1dc97ab78845486392bc" name="ac52ccdb8f49a1dc97ab78845486392bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52ccdb8f49a1dc97ab78845486392bc">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1466,6 +1461,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::SparseUpdate </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
@@ -1491,13 +1492,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1511,8 +1506,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b4a40c0d7969feb8d7fd7da92465b38" name="a1b4a40c0d7969feb8d7fd7da92465b38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b4a40c0d7969feb8d7fd7da92465b38">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[3/3]</span></h2>
+<a id="a9cf44c3ff7b936adac01ee1f4e60e6fe" name="a9cf44c3ff7b936adac01ee1f4e60e6fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf44c3ff7b936adac01ee1f4e60e6fe">&#9670;&nbsp;</a></span>SparseUpdate() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1520,6 +1515,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Vulkan::VkMemoryTextureCache::SparseUpdate </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
@@ -1539,13 +1540,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
+          <td class="paramname"><em>buf</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1675,300 +1670,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a03c5159045e24675cef925923b026bbb" name="a03c5159045e24675cef925923b026bbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03c5159045e24675cef925923b026bbb">&#9670;&nbsp;</a></span>Update() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::VkMemoryTextureCache::Update </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>region</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>mip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>layer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_submission_context_id.html">CoreGraphics::SubmissionContextId</a>&#160;</td>
-          <td class="paramname"><em>sub</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>update texture from data stream </p>
-
-</div>
-</div>
-<a id="a249636bf783dc5e71e1df5fc7ad6a650" name="a249636bf783dc5e71e1df5fc7ad6a650"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a249636bf783dc5e71e1df5fc7ad6a650">&#9670;&nbsp;</a></span>Update() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::VkMemoryTextureCache::Update </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_texture_dimensions.html">CoreGraphics::TextureDimensions</a>&#160;</td>
-          <td class="paramname"><em>dims</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>dataSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>mip</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>updates entire texture </p>
-
-</div>
-</div>
-<a id="af22af86fce9056353aa9082c1c136b10" name="af22af86fce9056353aa9082c1c136b10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af22af86fce9056353aa9082c1c136b10">&#9670;&nbsp;</a></span>Update() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::VkMemoryTextureCache::Update </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>dataSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>top</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>mip</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>updates texture region </p>
-
-</div>
-</div>
-<a id="a35996da5481c627d21e55fe7a94f05a4" name="a35996da5481c627d21e55fe7a94f05a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35996da5481c627d21e55fe7a94f05a4">&#9670;&nbsp;</a></span>UpdateArray() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::VkMemoryTextureCache::UpdateArray </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_texture_dimensions.html">CoreGraphics::TextureDimensions</a>&#160;</td>
-          <td class="paramname"><em>dims</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>dataSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>mip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>layer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>updates texture cube face region </p>
-
-</div>
-</div>
-<a id="acc97766138846e414c1f692404b495b1" name="acc97766138846e414c1f692404b495b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc97766138846e414c1f692404b495b1">&#9670;&nbsp;</a></span>UpdateArray() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::VkMemoryTextureCache::UpdateArray </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>dataSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>top</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>mip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>layer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>updates texture cube face region </p>
-
-</div>
-</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="ac987282eaf6dda817727ec284ac1b1bb" name="ac987282eaf6dda817727ec284ac1b1bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac987282eaf6dda817727ec284ac1b1bb">&#9670;&nbsp;</a></span>CoreGraphics::DelayedDeleteTexture</h2>
@@ -2030,7 +1731,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_memory_texture_cache.html">VkMemoryTextureCache</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

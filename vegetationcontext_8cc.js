@@ -6,6 +6,7 @@ var vegetationcontext_8cc =
     [ "combinedMeshIbo", "vegetationcontext_8cc.html#a77d36906031117e3d8360ee4090c5604", null ],
     [ "combinedMeshLayout", "vegetationcontext_8cc.html#a6dc69c0a29e45d73b00be5e6ecd991b9", null ],
     [ "combinedMeshVbo", "vegetationcontext_8cc.html#ada97e07f468bbe2ec8808f803f2e86e0", null ],
+    [ "frameOpAllocator", "vegetationcontext_8cc.html#a3f46af30c67de8c4ceee1f87c66a53c3", null ],
     [ "grassDrawsThisFrame", "vegetationcontext_8cc.html#a51284a56258a1b76d5310e707b5fd0a3", null ],
     [ "grassIbo", "vegetationcontext_8cc.html#a0f7f5000458ffb483673dcb45ffed0bc", null ],
     [ "grassInfoBuffer", "vegetationcontext_8cc.html#a028c779e6bd3b5f12bed2d5acb41a801", null ],
@@ -40,6 +41,6 @@ var vegetationcontext_8cc =
     [ "vegetationGenerateDrawsShader", "vegetationcontext_8cc.html#afaddaba24d3fca9a125934e0b7c786d4", null ],
     [ "vegetationGrassShader", "vegetationcontext_8cc.html#a6ed093ed62bbc3b585b035d4d8c2e423", null ],
     [ "vegetationMeshShader", "vegetationcontext_8cc.html#a9363ab6740c3e331e9a04a97c88ee0a4", null ],
-    [ "vegetationState", "vegetationcontext_8cc.html#aa0cb96693f981dbfdbeba30731ae4a56", null ],
+    [ "vegetationState", "vegetationcontext_8cc.html#a8085afdb3f97cc27ba856f9a7b982553", null ],
     [ "worldSize", "vegetationcontext_8cc.html#a030f0a9fe702fb7215ea85ce2d66e223", null ]
 ];

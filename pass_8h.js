@@ -21,14 +21,12 @@ var pass_8h =
     [ "__ImplementEnumComparisonOperators", "pass_8h.html#a589b878d7cb4ecd70b4e85dfe3114358", null ],
     [ "CreatePass", "pass_8h.html#a71a740f7332b35c3356911a074be91fe", null ],
     [ "DestroyPass", "pass_8h.html#ac8d46dd2e8e34733ab25b03ede3010a2", null ],
-    [ "PassApplyClipSettings", "pass_8h.html#a4118f6653bdd7329fb243d742f448611", null ],
-    [ "PassBegin", "pass_8h.html#aa2f524bdbd4b964d18f8be64ea032cd6", null ],
-    [ "PassEnd", "pass_8h.html#a5ee774d95faec0d25b989825a4961d7b", null ],
     [ "PassGetAttachments", "pass_8h.html#aacbc2032879e687af40a61dc793d5d9e", null ],
     [ "PassGetDepthStencilAttachment", "pass_8h.html#adf221bb05f4522f1b951b88dbafda368", null ],
     [ "PassGetName", "pass_8h.html#a73d0881e447fb7b9549ac1ee64293fb0", null ],
     [ "PassGetNumSubpassAttachments", "pass_8h.html#a7e5395b21fa5b7f01b54d7d3b41aa19c", null ],
-    [ "PassNextSubpass", "pass_8h.html#a819b56658ef3f54626d61bd4762fa38d", null ],
-    [ "PassUpdateResources", "pass_8h.html#af571e5f6b2aefd7eadb05fa72a567886", null ],
+    [ "PassGetRects", "pass_8h.html#a9016a40a59649f74368a42bdce431eec", null ],
+    [ "PassGetResourceTable", "pass_8h.html#ac116135f1d71b4a39fe7c2a12f4a77ce", null ],
+    [ "PassGetViewports", "pass_8h.html#a1e83723c42fdf52dfa73814a1d143cde", null ],
     [ "PassWindowResizeCallback", "pass_8h.html#a7eb4dafaf07e6885492a4e8b74234419", null ]
 ];

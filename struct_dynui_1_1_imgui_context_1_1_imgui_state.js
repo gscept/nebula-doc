@@ -2,6 +2,7 @@ var struct_dynui_1_1_imgui_context_1_1_imgui_state =
 [
     [ "dockOverViewport", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af3975623169bb43538828a02c15876c1", null ],
     [ "fontTexture", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a03ec715834d41a54ee9cf66fe4353c96", null ],
+    [ "frameOpAllocator", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a2f4f6dd3f5cef791b2caa13f14ef361d", null ],
     [ "ibos", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a722724cbb3db75473d7676158683db92", null ],
     [ "indexPtrs", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a4c615fc6b60b39d45ad087e1f8dbb6eb", null ],
     [ "inputHandler", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a9d24da55830fe96c8d68b67d041b30aa", null ],

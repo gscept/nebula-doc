@@ -145,12 +145,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9585e4238b2f8d91791772acc8169237"><td class="memItemLeft" align="right" valign="top">static VkComponentMapping&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a9585e4238b2f8d91791772acc8169237">AsVkMapping</a> (<a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a> p)</td></tr>
 <tr class="memdesc:a9585e4238b2f8d91791772acc8169237"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert pixel format to <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> component mapping  <a href="class_vulkan_1_1_vk_types.html#a9585e4238b2f8d91791772acc8169237">More...</a><br /></td></tr>
 <tr class="separator:a9585e4238b2f8d91791772acc8169237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b3b37d928267b74fe55ddc71642caf"><td class="memItemLeft" align="right" valign="top">static VkPipelineStageFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#ab0b3b37d928267b74fe55ddc71642caf">AsVkPipelineFlags</a> (const <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a> dep)</td></tr>
-<tr class="memdesc:ab0b3b37d928267b74fe55ddc71642caf"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert dependency flags to vulkan  <a href="class_vulkan_1_1_vk_types.html#ab0b3b37d928267b74fe55ddc71642caf">More...</a><br /></td></tr>
-<tr class="separator:ab0b3b37d928267b74fe55ddc71642caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705be16ab85eb6dcc7353c50692c7a4c"><td class="memItemLeft" align="right" valign="top">static VkPipelineStageFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a705be16ab85eb6dcc7353c50692c7a4c">AsVkResourceAccessFlags</a> (const <a class="el" href="namespace_core_graphics.html#acf76cb00131d6792c655f3c19b9264ed">CoreGraphics::BarrierAccess</a> access)</td></tr>
-<tr class="memdesc:a705be16ab85eb6dcc7353c50692c7a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert dependency flags to vulkan  <a href="class_vulkan_1_1_vk_types.html#a705be16ab85eb6dcc7353c50692c7a4c">More...</a><br /></td></tr>
-<tr class="separator:a705be16ab85eb6dcc7353c50692c7a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7b8f1cad7d006d75b57a29261f7fd8"><td class="memItemLeft" align="right" valign="top">static VkImageAspectFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a6b7b8f1cad7d006d75b57a29261f7fd8">AsVkImageAspectFlags</a> (const <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a> aspect)</td></tr>
 <tr class="memdesc:a6b7b8f1cad7d006d75b57a29261f7fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert image aspects to <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>  <a href="class_vulkan_1_1_vk_types.html#a6b7b8f1cad7d006d75b57a29261f7fd8">More...</a><br /></td></tr>
 <tr class="separator:a6b7b8f1cad7d006d75b57a29261f7fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +154,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0561e565cc4cf3263675a9ca087ca49d"><td class="memItemLeft" align="right" valign="top">static VkImageLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d">AsVkImageLayout</a> (const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout)</td></tr>
 <tr class="memdesc:a0561e565cc4cf3263675a9ca087ca49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert image layout to vulkan  <a href="class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d">More...</a><br /></td></tr>
 <tr class="separator:a0561e565cc4cf3263675a9ca087ca49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc87abae18cd31684df4a9af2a8db24"><td class="memItemLeft" align="right" valign="top">static VkPipelineStageFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#aecc87abae18cd31684df4a9af2a8db24">AsVkPipelineStage</a> (const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> stage)</td></tr>
+<tr class="memdesc:aecc87abae18cd31684df4a9af2a8db24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert pipeline stage to Vk pipeline stage.  <a href="class_vulkan_1_1_vk_types.html#aecc87abae18cd31684df4a9af2a8db24">More...</a><br /></td></tr>
+<tr class="separator:aecc87abae18cd31684df4a9af2a8db24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ced37354d21bb397cc0a2b27be66880"><td class="memItemLeft" align="right" valign="top">static VkAccessFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880">AsVkAccessFlags</a> (const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> stage)</td></tr>
+<tr class="memdesc:a0ced37354d21bb397cc0a2b27be66880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert pipeline stage and pipeline access to Vk access flags.  <a href="class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880">More...</a><br /></td></tr>
+<tr class="separator:a0ced37354d21bb397cc0a2b27be66880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d36513a5327c7c0eac04cfd4e01bc00"><td class="memItemLeft" align="right" valign="top">static VkImageLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a0d36513a5327c7c0eac04cfd4e01bc00">AsVkImageLayout</a> (const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> stage, bool depthStencil=false)</td></tr>
+<tr class="memdesc:a0d36513a5327c7c0eac04cfd4e01bc00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert pipeline stage to image layout.  <a href="class_vulkan_1_1_vk_types.html#a0d36513a5327c7c0eac04cfd4e01bc00">More...</a><br /></td></tr>
+<tr class="separator:a0d36513a5327c7c0eac04cfd4e01bc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7afe967fa03fc219ab44104a7a7866"><td class="memItemLeft" align="right" valign="top">static VkPrimitiveTopology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a7e7afe967fa03fc219ab44104a7a7866">AsVkPrimitiveType</a> (<a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a> t)</td></tr>
 <tr class="memdesc:a7e7afe967fa03fc219ab44104a7a7866"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert primitive topology to vulkan  <a href="class_vulkan_1_1_vk_types.html#a7e7afe967fa03fc219ab44104a7a7866">More...</a><br /></td></tr>
 <tr class="separator:a7e7afe967fa03fc219ab44104a7a7866"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,6 +261,34 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>convert vulkan format back to nebula format </p>
+
+</div>
+</div>
+<a id="a0ced37354d21bb397cc0a2b27be66880" name="a0ced37354d21bb397cc0a2b27be66880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ced37354d21bb397cc0a2b27be66880">&#9670;&nbsp;</a></span>AsVkAccessFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkAccessFlags Vulkan::VkTypes::AsVkAccessFlags </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a>&#160;</td>
+          <td class="paramname"><em>stage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert pipeline stage and pipeline access to Vk access flags. </p>
 
 </div>
 </div>
@@ -430,7 +461,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a0561e565cc4cf3263675a9ca087ca49d" name="a0561e565cc4cf3263675a9ca087ca49d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0561e565cc4cf3263675a9ca087ca49d">&#9670;&nbsp;</a></span>AsVkImageLayout()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0561e565cc4cf3263675a9ca087ca49d">&#9670;&nbsp;</a></span>AsVkImageLayout() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,6 +485,44 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>convert image layout to vulkan </p>
+
+</div>
+</div>
+<a id="a0d36513a5327c7c0eac04cfd4e01bc00" name="a0d36513a5327c7c0eac04cfd4e01bc00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d36513a5327c7c0eac04cfd4e01bc00">&#9670;&nbsp;</a></span>AsVkImageLayout() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkImageLayout Vulkan::VkTypes::AsVkImageLayout </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a>&#160;</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>depthStencil</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert pipeline stage to image layout. </p>
 
 </div>
 </div>
@@ -625,8 +694,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0b3b37d928267b74fe55ddc71642caf" name="ab0b3b37d928267b74fe55ddc71642caf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b3b37d928267b74fe55ddc71642caf">&#9670;&nbsp;</a></span>AsVkPipelineFlags()</h2>
+<a id="aecc87abae18cd31684df4a9af2a8db24" name="aecc87abae18cd31684df4a9af2a8db24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc87abae18cd31684df4a9af2a8db24">&#9670;&nbsp;</a></span>AsVkPipelineStage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,10 +704,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">VkPipelineStageFlags Vulkan::VkTypes::AsVkPipelineFlags </td>
+          <td class="memname">VkPipelineStageFlags Vulkan::VkTypes::AsVkPipelineStage </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#a923d7f67140acc69deba66de47337aef">CoreGraphics::BarrierStage</a>&#160;</td>
-          <td class="paramname"><em>dep</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a>&#160;</td>
+          <td class="paramname"><em>stage</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -649,7 +718,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>convert dependency flags to vulkan </p>
+<p>Convert pipeline stage to Vk pipeline stage. </p>
 
 </div>
 </div>
@@ -678,34 +747,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>convert primitive topology to vulkan </p>
-
-</div>
-</div>
-<a id="a705be16ab85eb6dcc7353c50692c7a4c" name="a705be16ab85eb6dcc7353c50692c7a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a705be16ab85eb6dcc7353c50692c7a4c">&#9670;&nbsp;</a></span>AsVkResourceAccessFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">VkAccessFlags Vulkan::VkTypes::AsVkResourceAccessFlags </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#acf76cb00131d6792c655f3c19b9264ed">CoreGraphics::BarrierAccess</a>&#160;</td>
-          <td class="paramname"><em>access</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>convert dependency flags to vulkan </p>
 
 </div>
 </div>
@@ -888,7 +929,7 @@ Static Public Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_types.html">VkTypes</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

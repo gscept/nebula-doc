@@ -7,7 +7,7 @@ var searchData=
   ['action_4',['Action',['../class_frame_1_1_frame_event.html#ae009bb082ac756276826da5669d8bc30',1,'Frame::FrameEvent']]],
   ['allocationmethod_5',['AllocationMethod',['../struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6',1,'CoreGraphics::MemoryPool']]],
   ['alphamode_6',['AlphaMode',['../struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67c',1,'Gltf::Material']]],
-  ['arrayallocatoraccessbits_7',['ArrayAllocatorAccessBits',['../namespace_util.html#aa5f9e05670c60ec500f86e42a2d8dc11',1,'Util']]],
+  ['arrayallocatoraccess_7',['ArrayAllocatorAccess',['../namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b',1,'Util']]],
   ['attachmentflagbits_8',['AttachmentFlagBits',['../namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244',1,'CoreGraphics']]],
   ['attribute_9',['Attribute',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858',1,'Gltf::Primitive']]],
   ['axis_10',['Axis',['../class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59b',1,'Base::GamePadBase']]]

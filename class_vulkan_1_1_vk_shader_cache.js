@@ -78,7 +78,7 @@ var class_vulkan_1_1_vk_shader_cache =
     [ "Unload", "class_vulkan_1_1_vk_shader_cache.html#aa862c38e5dea921e5c07ef1aa9f1818d", null ],
     [ "Unload", "class_vulkan_1_1_vk_shader_cache.html#aa862c38e5dea921e5c07ef1aa9f1818d", null ],
     [ "void::CoreGraphics::SetShaderProgram", "class_vulkan_1_1_vk_shader_cache.html#aaee9c58fbe1dd0521ff718555f9bae50", null ],
-    [ "void::CoreGraphics::SetShaderProgram", "class_vulkan_1_1_vk_shader_cache.html#aaee9c58fbe1dd0521ff718555f9bae50", null ],
+    [ "CoreGraphics::CmdSetShaderProgram", "class_vulkan_1_1_vk_shader_cache.html#ab94d030d4c4a367764fbe945c40223b9", null ],
     [ "VkPipelineDatabase", "class_vulkan_1_1_vk_shader_cache.html#a32b8cdc887ae56c63952af3ef780d827", null ],
     [ "VkVertexSignatureCache", "class_vulkan_1_1_vk_shader_cache.html#a4186c05107811c4c37d8a2b40abc4c9c", null ],
     [ "activeMask", "class_vulkan_1_1_vk_shader_cache.html#a8359ae8db4a85470a166b7f6aa8c583f", null ],

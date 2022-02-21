@@ -4,7 +4,7 @@ var class_core_graphics_1_1_memory_mesh_cache =
     [ "~MemoryMeshCache", "class_core_graphics_1_1_memory_mesh_cache.html#a85e00dc54fed78e1a65db53e0419ba60", null ],
     [ "__DeclareClass", "class_core_graphics_1_1_memory_mesh_cache.html#af707fcb830263389c020541d940bced8", null ],
     [ "__ImplementResourceAllocatorTypedSafe", "class_core_graphics_1_1_memory_mesh_cache.html#a387792b1771ed63b1587c6bc5435e1d9", null ],
-    [ "BindMesh", "class_core_graphics_1_1_memory_mesh_cache.html#a17b94e44a67067740a0471ec0b4ebaac", null ],
+    [ "BindMesh", "class_core_graphics_1_1_memory_mesh_cache.html#a8b5a03dc2c3d802c890bc68aea8a0f5d", null ],
     [ "GetIndexBuffer", "class_core_graphics_1_1_memory_mesh_cache.html#a75d8bb30f09c250d8c664221df629a57", null ],
     [ "GetPrimitiveGroups", "class_core_graphics_1_1_memory_mesh_cache.html#a6d2c4c386050b5c3205ec4a226946bf9", null ],
     [ "GetPrimitiveTopology", "class_core_graphics_1_1_memory_mesh_cache.html#a847ade6a18138410b7a80dc27ea727c6", null ],

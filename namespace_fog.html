@@ -90,11 +90,7 @@ $(document).ready(function(){initNavTree('namespace_fog.html',''); initResizable
   <div class="headertitle"><div class="title">Fog Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Volumetric fog implements a ray marching technique through the scene from the point of view from the camera. </p>
-<p >There are two types of fog, atmospheric fog which is persistent and controlled through global parameters, and local fog volumes which are individually configurable.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fog_1_1_volumetric_fog_context.html">VolumetricFogContext</a></td></tr>
@@ -107,64 +103,68 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a93be7e648701a65db13a5b0dbf669253"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a1b5e9a909f87e1edf3fda29b1f6c57a1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7a4c727f473154d88429d0fa974fafd9">Fog::classificationShader</a></td></tr>
-<tr class="separator:a1b5e9a909f87e1edf3fda29b1f6c57a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6ae87da22763c8ff5e0ef9c4a4c5613"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#ae94520972d363c26f0fd966817c71461">Fog::cullProgram</a></td></tr>
-<tr class="separator:af6ae87da22763c8ff5e0ef9c4a4c5613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ebe938e69872839dbdd0e93a28666e0"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d">Fog::renderProgram</a></td></tr>
-<tr class="separator:a5ebe938e69872839dbdd0e93a28666e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a179fb11b10efa642f0843bd670729e3c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#acd2dd516bd5e211b2ca52040166f1215">Fog::clusterFogIndexLists</a></td></tr>
-<tr class="separator:a179fb11b10efa642f0843bd670729e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2506097e81eb77cea6c5bca4e4c205"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#af57b63dc170f2947e11bb4abd43e9e8d">Fog::stagingClusterFogLists</a></td></tr>
-<tr class="separator:aae2506097e81eb77cea6c5bca4e4c205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d7942ec78057b73e1f9743f8e724083"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a1327d9e404762d00bcadc267347db2fd">Fog::clusterFogLists</a></td></tr>
-<tr class="separator:a3d7942ec78057b73e1f9743f8e724083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6650b0241a35acf8b4ed27cdb23d7f1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a78533a115fdaf91aa54c376ba90def7f">Fog::fogVolumeTexture0</a></td></tr>
-<tr class="separator:ae6650b0241a35acf8b4ed27cdb23d7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e0032585d63881d0a4c8099e1be1a8d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a2073cad2d856b1cf4840e41890fce2e3">Fog::fogVolumeTexture1</a></td></tr>
-<tr class="separator:a0e0032585d63881d0a4c8099e1be1a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85b494985713f4704ee9ffdc379e893"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a31e4c904e3c4e7aa0040d4a839229859">Fog::uniformsSlot</a></td></tr>
-<tr class="separator:ad85b494985713f4704ee9ffdc379e893"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a777572e0ad1900968adca0065bd74fab"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a5b95de07d7ff7484616a4b07105287c9">Fog::lightingTextureSlot</a></td></tr>
-<tr class="separator:a777572e0ad1900968adca0065bd74fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839fdf932427b0ef81049bc0fb6fa24a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a427a2ffd12a5aedd201eb3536a7313bd">Fog::clusterUniforms</a></td></tr>
-<tr class="separator:a839fdf932427b0ef81049bc0fb6fa24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeac68ee0b9eeeca22855c4a57527397d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#aea865870e59ab75b2039701111e65007">Fog::resourceTables</a></td></tr>
-<tr class="separator:aeac68ee0b9eeeca22855c4a57527397d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab3705ad63cdb36cdf642f91b18fecc"><td class="memItemLeft" >&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a2ec118697792665cd7ead061d1e70969">Fog::turbidity</a></td></tr>
-<tr class="separator:a6ab3705ad63cdb36cdf642f91b18fecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02534d45cbb09851cc8a7bdf286c8dab"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e">Fog::color</a></td></tr>
-<tr class="separator:a02534d45cbb09851cc8a7bdf286c8dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a875f572d2f8fbc7eb6b1a3c4ad5ccf90"><td class="memItemLeft" >&#160;&#160;&#160;Volumefog::FogBox&#160;&#160;&#160;<a class="el" href="namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa">Fog::fogBoxes</a> [128]</td></tr>
-<tr class="separator:a875f572d2f8fbc7eb6b1a3c4ad5ccf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b16eff196c147781c6e3de0b3c3868b"><td class="memItemLeft" >&#160;&#160;&#160;Volumefog::FogSphere&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7177334b2e4a4b62713e32be604955e7">Fog::fogSpheres</a> [128]</td></tr>
-<tr class="separator:a3b16eff196c147781c6e3de0b3c3868b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8fbbfe667bf450c1a1b15345077accf"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2">Fog::showUI</a> = false</td></tr>
-<tr class="separator:aa8fbbfe667bf450c1a1b15345077accf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93be7e648701a65db13a5b0dbf669253"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fog.html#a93be7e648701a65db13a5b0dbf669253">fogState</a></td></tr>
-<tr class="separator:a93be7e648701a65db13a5b0dbf669253"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e8324c77826e46062baf353072cefa9"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a783b06d904db32bfc4fd07a11ee8db64"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8">Fog::blurShader</a></td></tr>
-<tr class="separator:a783b06d904db32bfc4fd07a11ee8db64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68697094d99380b9a76270c2a073f787"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#aeffc9b09e22de5b733cb99eb2af6ff99">Fog::blurXProgram</a></td></tr>
-<tr class="separator:a68697094d99380b9a76270c2a073f787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73112223765a389b57821d200586c470"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afb552356d951d8c55d4abae54263efd6">Fog::blurYProgram</a></td></tr>
-<tr class="separator:a73112223765a389b57821d200586c470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c5d4425c80de02e0c89f8d94d2cbbc"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a903a3a9c1e0aed34dc3042e45665a364">Fog::blurXTable</a></td></tr>
-<tr class="separator:a30c5d4425c80de02e0c89f8d94d2cbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ede69a1401ea463cbff9795266af1b5"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afef0bf7a4146175be1234dda5439e8fc">Fog::blurYTable</a></td></tr>
-<tr class="separator:a1ede69a1401ea463cbff9795266af1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e5098b1b11e7a8ef5c22dda3a63836"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a03849d400d04c291daa9443a5bc0ad89">Fog::blurInputXSlot</a></td></tr>
-<tr class="separator:a38e5098b1b11e7a8ef5c22dda3a63836"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac36a4935dcf7e1cdd6eb75a6f899f5ce"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afe493294fd4f4da1dd8c1106dcd52165">Fog::blurInputYSlot</a></td></tr>
-<tr class="separator:ac36a4935dcf7e1cdd6eb75a6f899f5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a894274b6d0834df3a9ae3a7f9de39fc2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a0054f7dd5016efa4e33970a03836f750">Fog::blurOutputXSlot</a></td></tr>
-<tr class="separator:a894274b6d0834df3a9ae3a7f9de39fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae260f388f16cf014e11a4024d06b8499"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a95f3d31419af2b9de2a9c675f416e408">Fog::blurOutputYSlot</a></td></tr>
-<tr class="separator:ae260f388f16cf014e11a4024d06b8499"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e8324c77826e46062baf353072cefa9"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fog.html#a6e8324c77826e46062baf353072cefa9">blurState</a></td></tr>
-<tr class="separator:a6e8324c77826e46062baf353072cefa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6eb46c080f9f29032aa319d3756c13"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:ac1fefa1a9c3bb8a0aafc2798b8b1ad9c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7a4c727f473154d88429d0fa974fafd9">Fog::classificationShader</a></td></tr>
+<tr class="separator:ac1fefa1a9c3bb8a0aafc2798b8b1ad9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0018ab63c336fa32e2047898de75a9c"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#ae94520972d363c26f0fd966817c71461">Fog::cullProgram</a></td></tr>
+<tr class="separator:af0018ab63c336fa32e2047898de75a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5239bb51e16b1fd705ce40213531f0ec"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d">Fog::renderProgram</a></td></tr>
+<tr class="separator:a5239bb51e16b1fd705ce40213531f0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee67836604a3255cee8ae483e1326b9"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#acd2dd516bd5e211b2ca52040166f1215">Fog::clusterFogIndexLists</a></td></tr>
+<tr class="separator:afee67836604a3255cee8ae483e1326b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82d696fa2d1450ae09fa9d5c5a14a04"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#af57b63dc170f2947e11bb4abd43e9e8d">Fog::stagingClusterFogLists</a></td></tr>
+<tr class="separator:ae82d696fa2d1450ae09fa9d5c5a14a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98808726b57ff870c93b7dda6aa25725"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a1327d9e404762d00bcadc267347db2fd">Fog::clusterFogLists</a></td></tr>
+<tr class="separator:a98808726b57ff870c93b7dda6aa25725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f617b7ca6819b717456c9c6b9df70b3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a78533a115fdaf91aa54c376ba90def7f">Fog::fogVolumeTexture0</a></td></tr>
+<tr class="separator:a5f617b7ca6819b717456c9c6b9df70b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a092876a3d53f49e2673354d3809373"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a2073cad2d856b1cf4840e41890fce2e3">Fog::fogVolumeTexture1</a></td></tr>
+<tr class="separator:a2a092876a3d53f49e2673354d3809373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7c8e33aa369c70361e69f6ad34a159"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a3d896bc33c813bf88010d324a0c0d3da">Fog::zBuffer</a></td></tr>
+<tr class="separator:a1c7c8e33aa369c70361e69f6ad34a159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dddce41ff5b182dcd53a2f4acc1898e"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a31e4c904e3c4e7aa0040d4a839229859">Fog::uniformsSlot</a></td></tr>
+<tr class="separator:a5dddce41ff5b182dcd53a2f4acc1898e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac362abbdbfb61c6d0c1b033d1bcb4c2d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a5b95de07d7ff7484616a4b07105287c9">Fog::lightingTextureSlot</a></td></tr>
+<tr class="separator:ac362abbdbfb61c6d0c1b033d1bcb4c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba86bfd19e792e6bb0f5037e9d43a09"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a427a2ffd12a5aedd201eb3536a7313bd">Fog::clusterUniforms</a></td></tr>
+<tr class="separator:adba86bfd19e792e6bb0f5037e9d43a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f7bc5f0b6d3a52b25be85bc2ed7dfa"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#aea865870e59ab75b2039701111e65007">Fog::resourceTables</a></td></tr>
+<tr class="separator:ac5f7bc5f0b6d3a52b25be85bc2ed7dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9011d7436e144c1621867e1a3b2cefd3"><td class="memItemLeft" >&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a2ec118697792665cd7ead061d1e70969">Fog::turbidity</a></td></tr>
+<tr class="separator:a9011d7436e144c1621867e1a3b2cefd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f90e326ee7d9b02bcb4eb8fe349999"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e">Fog::color</a></td></tr>
+<tr class="separator:a62f90e326ee7d9b02bcb4eb8fe349999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496677d43f918d276d728bb30c61e05d"><td class="memItemLeft" >&#160;&#160;&#160;Volumefog::FogBox&#160;&#160;&#160;<a class="el" href="namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa">Fog::fogBoxes</a> [128]</td></tr>
+<tr class="separator:a496677d43f918d276d728bb30c61e05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1971e461ab3554a8c5d9f3c5bdd9e2e3"><td class="memItemLeft" >&#160;&#160;&#160;Volumefog::FogSphere&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a7177334b2e4a4b62713e32be604955e7">Fog::fogSpheres</a> [128]</td></tr>
+<tr class="separator:a1971e461ab3554a8c5d9f3c5bdd9e2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0970be55ab5a38d32be758540eb4a6d2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(<a class="el" href="class_frame_1_1_frame_code.html">Frame::FrameCode</a>) *5 &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#aa5b5a4c04a6a718f58d3649911d17504">Fog::frameOpAllocator</a></td></tr>
+<tr class="separator:a0970be55ab5a38d32be758540eb4a6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b1a7e4049338fb40b40979c91d632aa"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2">Fog::showUI</a> = false</td></tr>
+<tr class="separator:a1b1a7e4049338fb40b40979c91d632aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6eb46c080f9f29032aa319d3756c13"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fog.html#a3e6eb46c080f9f29032aa319d3756c13">fogState</a></td></tr>
+<tr class="separator:a3e6eb46c080f9f29032aa319d3756c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c822511a4432856f55808ed0a57a9d"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a2ec39210c36d8d7aaf6bab381c101dc0"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8">Fog::blurShader</a></td></tr>
+<tr class="separator:a2ec39210c36d8d7aaf6bab381c101dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62728d5be392f3e84357a5c19ce64780"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#aeffc9b09e22de5b733cb99eb2af6ff99">Fog::blurXProgram</a></td></tr>
+<tr class="separator:a62728d5be392f3e84357a5c19ce64780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6017fa39b2fa1069c61b3da7cdb67abb"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afb552356d951d8c55d4abae54263efd6">Fog::blurYProgram</a></td></tr>
+<tr class="separator:a6017fa39b2fa1069c61b3da7cdb67abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184f7eec5a20315869295c235bc2a218"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a903a3a9c1e0aed34dc3042e45665a364">Fog::blurXTable</a></td></tr>
+<tr class="separator:a184f7eec5a20315869295c235bc2a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c811e3fc37792ea34071c793d9b08c6"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afef0bf7a4146175be1234dda5439e8fc">Fog::blurYTable</a></td></tr>
+<tr class="separator:a2c811e3fc37792ea34071c793d9b08c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5316c5e0c41b31309c5bcd896ee5b16"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a03849d400d04c291daa9443a5bc0ad89">Fog::blurInputXSlot</a></td></tr>
+<tr class="separator:ae5316c5e0c41b31309c5bcd896ee5b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ed81889326c35692e69a91f0b56477"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#afe493294fd4f4da1dd8c1106dcd52165">Fog::blurInputYSlot</a></td></tr>
+<tr class="separator:a95ed81889326c35692e69a91f0b56477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c1aac46feaa3d72b9c6498159e84a3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a0054f7dd5016efa4e33970a03836f750">Fog::blurOutputXSlot</a></td></tr>
+<tr class="separator:a81c1aac46feaa3d72b9c6498159e84a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c4e4da921182c96ecf6dcd4ff222dc"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_fog.html#a95f3d31419af2b9de2a9c675f416e408">Fog::blurOutputYSlot</a></td></tr>
+<tr class="separator:ab2c4e4da921182c96ecf6dcd4ff222dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c822511a4432856f55808ed0a57a9d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fog.html#af3c822511a4432856f55808ed0a57a9d">blurState</a></td></tr>
+<tr class="separator:af3c822511a4432856f55808ed0a57a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="af81679b45aebe83c1878effd1840d253" name="af81679b45aebe83c1878effd1840d253"></a>
@@ -266,8 +266,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6e8324c77826e46062baf353072cefa9" name="a6e8324c77826e46062baf353072cefa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e8324c77826e46062baf353072cefa9">&#9670;&nbsp;</a></span></h2>
+<a id="af3c822511a4432856f55808ed0a57a9d" name="af3c822511a4432856f55808ed0a57a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c822511a4432856f55808ed0a57a9d">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,8 +448,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a93be7e648701a65db13a5b0dbf669253" name="a93be7e648701a65db13a5b0dbf669253"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93be7e648701a65db13a5b0dbf669253">&#9670;&nbsp;</a></span></h2>
+<a id="a3e6eb46c080f9f29032aa319d3756c13" name="a3e6eb46c080f9f29032aa319d3756c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6eb46c080f9f29032aa319d3756c13">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,6 +484,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> Fog::fogVolumeTexture1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5b5a4c04a6a718f58d3649911d17504" name="aa5b5a4c04a6a718f58d3649911d17504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5b5a4c04a6a718f58d3649911d17504">&#9670;&nbsp;</a></span>frameOpAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;sizeof(<a class="el" href="class_frame_1_1_frame_code.html">Frame::FrameCode</a>) * 5&gt; Fog::frameOpAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -588,6 +602,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a3d896bc33c813bf88010d324a0c0d3da" name="a3d896bc33c813bf88010d324a0c0d3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d896bc33c813bf88010d324a0c0d3da">&#9670;&nbsp;</a></span>zBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> Fog::zBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -595,7 +623,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_fog.html">Fog</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

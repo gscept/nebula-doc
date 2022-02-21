@@ -28,7 +28,7 @@ var buffer_8h =
       [ "IndexBuffer", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba5e45ae185b91dc2d87d514222c33a5a3", null ],
       [ "IndirectBuffer", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba66fb5ef5f52f7362d6cf73f720a2bb99", null ]
     ] ],
-    [ "BufferFill", "buffer_8h.html#a0e18562fc9783578ae3450e37c658029", null ],
+    [ "BufferFill", "buffer_8h.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "buffer_8h.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "buffer_8h.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],
     [ "BufferGetElementSize", "buffer_8h.html#a364925be80719cb03cdb6f4f8938b183", null ],
@@ -42,10 +42,8 @@ var buffer_8h =
     [ "BufferUpdate", "buffer_8h.html#aea79756d79dfcb5c648512d16c73421e", null ],
     [ "BufferUpdate", "buffer_8h.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
     [ "BufferUpdateArray", "buffer_8h.html#a1eb5b9e2891b25326d97ef539fc6e61b", null ],
-    [ "BufferUpload", "buffer_8h.html#a13b808e8087ef9f225a6f3aab46b2fc5", null ],
-    [ "BufferUpload", "buffer_8h.html#ac12d6039fa3f22d996194db7cb8654a7", null ],
-    [ "BufferUpload", "buffer_8h.html#a9cecfa83543c2fdaa7596abc1b1e95a8", null ],
-    [ "BufferUpload", "buffer_8h.html#afb5ef7a6cc30ec224000fc7e57bdfac2", null ],
+    [ "BufferUpload", "buffer_8h.html#a1d67ea8700efb1f1f3dbfe68706409fa", null ],
+    [ "BufferUpload", "buffer_8h.html#a26cd09613a3eaea39325bed85306739a", null ],
     [ "CreateBuffer", "buffer_8h.html#a4db4487de9d70ebbdb1ed39e752b5309", null ],
     [ "DestroyBuffer", "buffer_8h.html#ac6e728397762cdbbf468f5f474207357", null ]
 ];

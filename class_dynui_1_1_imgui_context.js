@@ -7,7 +7,7 @@ var class_dynui_1_1_imgui_context =
     [ "Create", "class_dynui_1_1_imgui_context.html#a749808f2a669e262971831dde911743c", null ],
     [ "Discard", "class_dynui_1_1_imgui_context.html#ae28df194270b1c4718829a1c42aa7cd2", null ],
     [ "HandleInput", "class_dynui_1_1_imgui_context.html#ac792ccbe38687117c232e6f6aa5d2db6", null ],
-    [ "ImguiDrawFunction", "class_dynui_1_1_imgui_context.html#a002cf5cf520e9cf613dde31ebdfda44d", null ],
+    [ "ImguiDrawFunction", "class_dynui_1_1_imgui_context.html#a98e9ac5c59e5c03be8db7ef268f384cb", null ],
     [ "OnBeforeFrame", "class_dynui_1_1_imgui_context.html#a03e855c78d92325f36152a5ba138eb87", null ],
     [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
     [ "OnWorkFinished", "class_dynui_1_1_imgui_context.html#ae94b3c78f8247368a547265586f337ce", null ],

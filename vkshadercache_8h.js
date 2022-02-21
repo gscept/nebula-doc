@@ -8,5 +8,5 @@ var vkshadercache_8h =
     [ "Vulkan::VkShaderCache::VkReflectionInfo", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info" ],
     [ "Vulkan::VkShaderCache::VkReflectionInfo::UniformBuffer", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_uniform_buffer.html", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_uniform_buffer" ],
     [ "Vulkan::VkShaderCache::VkReflectionInfo::Variable", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable.html", "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable" ],
-    [ "SetShaderProgram", "vkshadercache_8h.html#a1c9e4e270e8c4db8f175494ab2954c0c", null ]
+    [ "CmdSetShaderProgram", "vkshadercache_8h.html#a28c3c342693b606fb19b6a0db695cbfd", null ]
 ];

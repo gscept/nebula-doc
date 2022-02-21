@@ -18,12 +18,13 @@ var searchData=
   ['home_15',['Home',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a7f1dd631ab0d4ea9369a9c6109beb90f',1,'Input::Key']]],
   ['homeblock_16',['HomeBlock',['../class_input_1_1_key.html#a7c40d7f95cb4ee2fa9c66b2100a09bfea2244c63cf0c0c6a867d8b8785998bf87',1,'Input::Key']]],
   ['homebutton_17',['HomeButton',['../class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188a01be53f33afaef2c01cbf0c2d74fca75',1,'Base::GamePadBase']]],
-  ['host_18',['Host',['../class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a2d60e97858849e2e1f24ed3df36ef0be',1,'System::ByteOrder::Host()'],['../namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefac2ca16d048ec66e04bca283eab048ec2',1,'CoreGraphics::Host()']]],
+  ['host_18',['Host',['../class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a2d60e97858849e2e1f24ed3df36ef0be',1,'System::ByteOrder']]],
   ['hostlocal_19',['HostLocal',['../namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077a716f0654dee77cadcdb7d2980801f4c2',1,'CoreGraphics']]],
-  ['hostread_20',['HostRead',['../namespace_core_graphics.html#acf76cb00131d6792c655f3c19b9264edaa43bd7aae3f6e001a2ee1490421f8d90',1,'CoreGraphics']]],
+  ['hostread_20',['HostRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aa43bd7aae3f6e001a2ee1490421f8d90',1,'CoreGraphics']]],
   ['hosttodevice_21',['HostToDevice',['../namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077abc798396267023fd0d6e6d5a7b430ccf',1,'CoreGraphics']]],
-  ['hostwrite_22',['HostWrite',['../namespace_core_graphics.html#acf76cb00131d6792c655f3c19b9264eda509b9f909831ef70e6c1ec59a3b340e9',1,'CoreGraphics']]],
+  ['hostwrite_22',['HostWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a509b9f909831ef70e6c1ec59a3b340e9',1,'CoreGraphics']]],
   ['html_23',['Html',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9a7db998a0312fcdf4b3f148384136cabd',1,'Http::HtmlElement']]],
-  ['hullshader_24',['HullShader',['../namespace_core_graphics.html#a923d7f67140acc69deba66de47337aefada59f32f425a632cf2eac9dbd4d862d3',1,'CoreGraphics']]],
-  ['hullshadervisibility_25',['HullShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a349de41576db40e07ccf806c4edff001',1,'CoreGraphics']]]
+  ['hullshaderread_24',['HullShaderRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a6469d9bc08c7a29cee63fbbb72b38e9c',1,'CoreGraphics']]],
+  ['hullshadervisibility_25',['HullShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a349de41576db40e07ccf806c4edff001',1,'CoreGraphics']]],
+  ['hullshaderwrite_26',['HullShaderWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a0f6c56db4f19a62872d76203c0795975',1,'CoreGraphics']]]
 ];

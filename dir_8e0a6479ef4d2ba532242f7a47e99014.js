@@ -131,8 +131,6 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
       [ "Vulkan::VkSubContextHandler::TimelineSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission" ],
       [ "Vulkan::VkSubContextHandler::SparseBindSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission" ]
     ] ],
-    [ "vksubmissioncontext.cc", "vksubmissioncontext_8cc.html", "vksubmissioncontext_8cc" ],
-    [ "vksubmissioncontext.h", "vksubmissioncontext_8h.html", "vksubmissioncontext_8h" ],
     [ "vktextrenderer.cc", "vktextrenderer_8cc.html", "vktextrenderer_8cc" ],
     [ "vktextrenderer.h", "vktextrenderer_8h.html", [
       [ "Vulkan::VkTextRenderer", "class_vulkan_1_1_vk_text_renderer.html", "class_vulkan_1_1_vk_text_renderer" ],
@@ -150,10 +148,6 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vktypes.h", "vktypes_8h.html", [
       [ "Vulkan::VkTypes", "class_vulkan_1_1_vk_types.html", "class_vulkan_1_1_vk_types" ],
       [ "Vulkan::VkTypes::VkBlockDimensions", "struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions.html", "struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions" ]
-    ] ],
-    [ "vkutilities.cc", "vkutilities_8cc.html", null ],
-    [ "vkutilities.h", "vkutilities_8h.html", [
-      [ "Vulkan::VkUtilities", "class_vulkan_1_1_vk_utilities.html", "class_vulkan_1_1_vk_utilities" ]
     ] ],
     [ "vkvertexsignaturecache.cc", "vkvertexsignaturecache_8cc.html", "vkvertexsignaturecache_8cc" ],
     [ "vkvertexsignaturecache.h", "vkvertexsignaturecache_8h.html", "vkvertexsignaturecache_8h" ],

@@ -13,6 +13,11 @@ var dir_566fb58dda2ca15cae9b00ab032b80fc =
       [ "Frame::FrameBlit", "class_frame_1_1_frame_blit.html", "class_frame_1_1_frame_blit" ],
       [ "Frame::FrameBlit::CompiledImpl", "struct_frame_1_1_frame_blit_1_1_compiled_impl.html", "struct_frame_1_1_frame_blit_1_1_compiled_impl" ]
     ] ],
+    [ "framecode.cc", "framecode_8cc.html", null ],
+    [ "framecode.h", "framecode_8h.html", [
+      [ "Frame::FrameCode", "class_frame_1_1_frame_code.html", "class_frame_1_1_frame_code" ],
+      [ "Frame::FrameCode::CompiledImpl", "struct_frame_1_1_frame_code_1_1_compiled_impl.html", "struct_frame_1_1_frame_code_1_1_compiled_impl" ]
+    ] ],
     [ "framecompute.cc", "framecompute_8cc.html", null ],
     [ "framecompute.h", "framecompute_8h.html", [
       [ "Frame::FrameCompute", "class_frame_1_1_frame_compute.html", "class_frame_1_1_frame_compute" ],
@@ -26,11 +31,6 @@ var dir_566fb58dda2ca15cae9b00ab032b80fc =
     [ "frameevent.cc", "frameevent_8cc.html", null ],
     [ "frameevent.h", "frameevent_8h.html", [
       [ "Frame::FrameEvent", "class_frame_1_1_frame_event.html", "class_frame_1_1_frame_event" ]
-    ] ],
-    [ "frameglobalstate.cc", "frameglobalstate_8cc.html", null ],
-    [ "frameglobalstate.h", "frameglobalstate_8h.html", [
-      [ "Frame::FrameGlobalState", "class_frame_1_1_frame_global_state.html", "class_frame_1_1_frame_global_state" ],
-      [ "Frame::FrameGlobalState::CompiledImpl", "struct_frame_1_1_frame_global_state_1_1_compiled_impl.html", "struct_frame_1_1_frame_global_state_1_1_compiled_impl" ]
     ] ],
     [ "framemipmap.cc", "framemipmap_8cc.html", null ],
     [ "framemipmap.h", "framemipmap_8h.html", [
@@ -58,6 +58,8 @@ var dir_566fb58dda2ca15cae9b00ab032b80fc =
     [ "frameserver.h", "frameserver_8h.html", [
       [ "Frame::FrameServer", "class_frame_1_1_frame_server.html", "class_frame_1_1_frame_server" ]
     ] ],
+    [ "framesubgraph.cc", "framesubgraph_8cc.html", "framesubgraph_8cc" ],
+    [ "framesubgraph.h", "framesubgraph_8h.html", "framesubgraph_8h" ],
     [ "framesubmission.cc", "framesubmission_8cc.html", null ],
     [ "framesubmission.h", "framesubmission_8h.html", [
       [ "Frame::FrameSubmission", "class_frame_1_1_frame_submission.html", "class_frame_1_1_frame_submission" ],

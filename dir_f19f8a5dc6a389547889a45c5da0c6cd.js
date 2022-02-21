@@ -27,9 +27,7 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
     [ "objectref.h", "objectref_8h.html", [
       [ "Threading::ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ]
     ] ],
-    [ "readwritelock.cc", "readwritelock_8cc.html", null ],
-    [ "readwritelock.h", "readwritelock_8h.html", "readwritelock_8h" ],
-    [ "rendezvous.h", "rendezvous_8h.html", null ],
+    [ "readwritelock.h", "readwritelock_8h.html", null ],
     [ "safeflag.h", "safeflag_8h.html", [
       [ "Threading::SafeFlag", "class_threading_1_1_safe_flag.html", "class_threading_1_1_safe_flag" ]
     ] ],
@@ -38,6 +36,10 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
     ] ],
     [ "safequeue.h", "safequeue_8h.html", [
       [ "Threading::SafeQueue< TYPE >", "class_threading_1_1_safe_queue.html", "class_threading_1_1_safe_queue" ]
+    ] ],
+    [ "spinlock.h", "spinlock_8h.html", [
+      [ "Threading::Spinlock", "class_threading_1_1_spinlock.html", "class_threading_1_1_spinlock" ],
+      [ "Threading::SpinlockScope", "struct_threading_1_1_spinlock_scope.html", "struct_threading_1_1_spinlock_scope" ]
     ] ],
     [ "thread.cc", "thread_8cc.html", null ],
     [ "thread.h", "thread_8h.html", null ],

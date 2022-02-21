@@ -87,11 +87,14 @@ $(document).ready(function(){initNavTree('vkevent_8h.html',''); initResizable();
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">vkevent.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="render_2coregraphics_2event_8h_source.html">coregraphics/event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkloader_8h_source.html">vkloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 </div>
@@ -110,8 +113,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad66cc51e62f28f5d7f2dac7879c42001"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkEventInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad66cc51e62f28f5d7f2dac7879c42001">Vulkan::VkEventAllocator</a></td></tr>
-<tr class="separator:ad66cc51e62f28f5d7f2dac7879c42001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51da7dde0a3a1b7eb845fbe1204f9be8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkEventInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a51da7dde0a3a1b7eb845fbe1204f9be8">Vulkan::VkEventAllocator</a></td></tr>
+<tr class="separator:a51da7dde0a3a1b7eb845fbe1204f9be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a9b1851bbcc70e45e684ea7f973d31306"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a967b0072933ba22994916c0431687208">Vulkan::Event_Device</a>
+, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a38f30830b593621abbc31901927f002e">Vulkan::Event_Info</a>
+ }</td></tr>
+<tr class="separator:a9b1851bbcc70e45e684ea7f973d31306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5863f4af84414e1ecd754d02e8f09b95"><td class="memItemLeft" align="right" valign="top">const VkEventInfo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a5863f4af84414e1ecd754d02e8f09b95">Vulkan::EventGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_event_id.html">CoreGraphics::EventId</a> id)</td></tr>
+<tr class="memdesc:a5863f4af84414e1ecd754d02e8f09b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vk event info.  <a href="namespace_vulkan.html#a5863f4af84414e1ecd754d02e8f09b95">More...</a><br /></td></tr>
+<tr class="separator:a5863f4af84414e1ecd754d02e8f09b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -125,7 +141,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkevent_8h.html">vkevent.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

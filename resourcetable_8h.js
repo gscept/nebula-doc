@@ -26,6 +26,7 @@ var resourcetable_8h =
     [ "ResourceTableBlock", "resourcetable_8h.html#af4eedc56320c49f0a98553c43e389d9f", null ],
     [ "ResourceTableCommitChanges", "resourcetable_8h.html#a0b9c812e014eeafe0544483cd53afcb5", null ],
     [ "ResourceTableCopy", "resourcetable_8h.html#aef0bd106bf7c0270173038aaa2b87320", null ],
+    [ "ResourceTableGetLayout", "resourcetable_8h.html#a1a816733717e523f53cd4da44dc78195", null ],
     [ "ResourceTableSetConstantBuffer", "resourcetable_8h.html#afc3b44067bbfef8076cc8b1d612a1c25", null ],
     [ "ResourceTableSetInputAttachment", "resourcetable_8h.html#aff135cb5485661bc9fea2b4283ecbf8d", null ],
     [ "ResourceTableSetRWBuffer", "resourcetable_8h.html#adb7dfc1356f2811c5e9ca0e5377f3b21", null ],

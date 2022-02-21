@@ -11,6 +11,7 @@ var namespace_clustering =
     [ "ClusterSubdivsY", "namespace_clustering.html#a401874a8255d8aa9b032f868991911f5", null ],
     [ "ClusterSubdivsZ", "namespace_clustering.html#aed10d2d6cfa9c9843c710a84d2f5f066", null ],
     [ "constantBuffer", "namespace_clustering.html#a33703f24ab0dd9c5cba528ce6a7126f8", null ],
+    [ "frameOpAllocator", "namespace_clustering.html#aacd47d5db6d4a5c72fe58ddb9685bca2", null ],
     [ "invXResolution", "namespace_clustering.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
     [ "invYResolution", "namespace_clustering.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
     [ "numThreads", "namespace_clustering.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],

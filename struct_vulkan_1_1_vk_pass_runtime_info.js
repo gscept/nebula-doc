@@ -6,7 +6,7 @@ var struct_vulkan_1_1_vk_pass_runtime_info =
     [ "passPipelineLayout", "struct_vulkan_1_1_vk_pass_runtime_info.html#a0a237c25a5d262baab6b1f362c906f74", null ],
     [ "recordMode", "struct_vulkan_1_1_vk_pass_runtime_info.html#aa7e192e4d773f5119d015fd430c72955", null ],
     [ "subpassPipelineInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html#a18eb70bf92b040cc006617443dafd8cc", null ],
-    [ "subpassRects", "struct_vulkan_1_1_vk_pass_runtime_info.html#a26a3767bd1e3d3da9e8994bc255636a3", null ],
-    [ "subpassViewports", "struct_vulkan_1_1_vk_pass_runtime_info.html#abdd2e2ecbad1bbeffdce7e6138733ad3", null ],
+    [ "subpassRects", "struct_vulkan_1_1_vk_pass_runtime_info.html#ae336233065fc64ab56747f69f45a3c1e", null ],
+    [ "subpassViewports", "struct_vulkan_1_1_vk_pass_runtime_info.html#a000085d3a5fac112035bb4042fd42d67", null ],
     [ "viewportInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html#aa2406faf27ab887aabff73327f0b5b9b", null ]
 ];

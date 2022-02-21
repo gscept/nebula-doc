@@ -6,6 +6,10 @@ var dir_9f6a9da6d13be67c57567c19b5bef798 =
     [ "posixinterlocked.h", "posixinterlocked_8h.html", [
       [ "Posix::PosixInterlocked", "class_posix_1_1_posix_interlocked.html", "class_posix_1_1_posix_interlocked" ]
     ] ],
+    [ "posixreadwritelock.cc", "posixreadwritelock_8cc.html", null ],
+    [ "posixreadwritelock.h", "posixreadwritelock_8h.html", [
+      [ "Posix::PosixReadWriteLock", "class_posix_1_1_posix_read_write_lock.html", "class_posix_1_1_posix_read_write_lock" ]
+    ] ],
     [ "posixthread.cc", "posixthread_8cc.html", "posixthread_8cc" ],
     [ "posixthread.h", "posixthread_8h.html", "posixthread_8h" ],
     [ "posixthreadbarrier.h", "posixthreadbarrier_8h.html", [

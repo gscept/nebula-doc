@@ -22,7 +22,6 @@ var searchData=
   ['eventid_19',['EventId',['../struct_core_graphics_1_1_event_id.html',1,'CoreGraphics']]],
   ['eventwithmanualreset_20',['EventWithManualReset',['../class_threading_1_1_event_with_manual_reset.html',1,'Threading']]],
   ['excelxmlreader_21',['ExcelXmlReader',['../class_i_o_1_1_excel_xml_reader.html',1,'IO']]],
-  ['executionbarrier_22',['ExecutionBarrier',['../struct_core_graphics_1_1_execution_barrier.html',1,'CoreGraphics']]],
-  ['exithandler_23',['ExitHandler',['../class_core_1_1_exit_handler.html',1,'Core']]],
-  ['extrapolator_24',['Extrapolator',['../class_math_1_1_extrapolator.html',1,'Math']]]
+  ['exithandler_22',['ExitHandler',['../class_core_1_1_exit_handler.html',1,'Core']]],
+  ['extrapolator_23',['Extrapolator',['../class_math_1_1_extrapolator.html',1,'Math']]]
 ];

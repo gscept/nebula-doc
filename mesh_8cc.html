@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('mesh_8cc.html',''); initResizable(); }
 <div class="textblock"><code>#include &quot;<a class="el" href="render_2render_2stdneb_8h_source.html">render/stdneb.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mesh_8h_source.html">mesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="memorymeshcache_8h_source.html">memorymeshcache.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="commandbuffer_8h_source.html">coregraphics/commandbuffer.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -108,9 +109,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5771bebf3b581511bcc6a8509e95110a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5771bebf3b581511bcc6a8509e95110a">CoreGraphics::DestroyMesh</a> (const MeshId id)</td></tr>
 <tr class="memdesc:a5771bebf3b581511bcc6a8509e95110a"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy mesh  <a href="namespace_core_graphics.html#a5771bebf3b581511bcc6a8509e95110a">More...</a><br /></td></tr>
 <tr class="separator:a5771bebf3b581511bcc6a8509e95110a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab25ad818fb984ab86332fa10905b9612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab25ad818fb984ab86332fa10905b9612">CoreGraphics::MeshBind</a> (const MeshId id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> prim)</td></tr>
-<tr class="memdesc:ab25ad818fb984ab86332fa10905b9612"><td class="mdescLeft">&#160;</td><td class="mdescRight">bind mesh and primitive group  <a href="namespace_core_graphics.html#ab25ad818fb984ab86332fa10905b9612">More...</a><br /></td></tr>
-<tr class="separator:ab25ad818fb984ab86332fa10905b9612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae477c28ad0809135e4ead356e9cf8588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae477c28ad0809135e4ead356e9cf8588">CoreGraphics::MeshBind</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> prim, const MeshId id)</td></tr>
+<tr class="memdesc:ae477c28ad0809135e4ead356e9cf8588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind mesh.  <a href="namespace_core_graphics.html#ae477c28ad0809135e4ead356e9cf8588">More...</a><br /></td></tr>
+<tr class="separator:ae477c28ad0809135e4ead356e9cf8588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aee3dc9cce303316d7b086abd9b3eaf2c">CoreGraphics::MeshGetPrimitiveGroups</a> (const MeshId id)</td></tr>
 <tr class="memdesc:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of primitive groups  <a href="namespace_core_graphics.html#aee3dc9cce303316d7b086abd9b3eaf2c">More...</a><br /></td></tr>
 <tr class="separator:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,8 +127,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3125590a8c68823d2666619af9f58a39"><td class="memItemLeft" align="right" valign="top">MemoryMeshCache *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a3125590a8c68823d2666619af9f58a39">CoreGraphics::meshPool</a> = nullptr</td></tr>
-<tr class="separator:a3125590a8c68823d2666619af9f58a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0827b7d957003263e2c4141e8482e9c3"><td class="memItemLeft" align="right" valign="top">MemoryMeshCache *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0827b7d957003263e2c4141e8482e9c3">CoreGraphics::meshCache</a> = nullptr</td></tr>
+<tr class="separator:a0827b7d957003263e2c4141e8482e9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -136,7 +137,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="mesh_8cc.html">mesh.cc</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

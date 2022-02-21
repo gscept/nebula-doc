@@ -148,9 +148,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4748ea2bc43c23adadb6792a3f7690c6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a4748ea2bc43c23adadb6792a3f7690c6">OnPrepareView</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a4748ea2bc43c23adadb6792a3f7690c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_im3d_1_1_im3d_context.html#a4748ea2bc43c23adadb6792a3f7690c6">More...</a><br /></td></tr>
 <tr class="separator:a4748ea2bc43c23adadb6792a3f7690c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64f76f2f0fe879e8591cd011beceaeaf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a64f76f2f0fe879e8591cd011beceaeaf">Render</a> (const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex)</td></tr>
-<tr class="memdesc:a64f76f2f0fe879e8591cd011beceaeaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when rendering a frame batch  <a href="class_im3d_1_1_im3d_context.html#a64f76f2f0fe879e8591cd011beceaeaf">More...</a><br /></td></tr>
-<tr class="separator:a64f76f2f0fe879e8591cd011beceaeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35a4a87f534197c61512273ee173501"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#ab35a4a87f534197c61512273ee173501">Render</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex)</td></tr>
+<tr class="memdesc:ab35a4a87f534197c61512273ee173501"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when rendering a frame batch  <a href="class_im3d_1_1_im3d_context.html#ab35a4a87f534197c61512273ee173501">More...</a><br /></td></tr>
+<tr class="separator:ab35a4a87f534197c61512273ee173501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7551c9082079bb91724cc7e91c3a051f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a7551c9082079bb91724cc7e91c3a051f">HandleInput</a> (const <a class="el" href="class_input_1_1_input_event.html">Input::InputEvent</a> &amp;event)</td></tr>
 <tr class="memdesc:a7551c9082079bb91724cc7e91c3a051f"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle event  <a href="class_im3d_1_1_im3d_context.html#a7551c9082079bb91724cc7e91c3a051f">More...</a><br /></td></tr>
 <tr class="separator:a7551c9082079bb91724cc7e91c3a051f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -863,8 +863,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a64f76f2f0fe879e8591cd011beceaeaf" name="a64f76f2f0fe879e8591cd011beceaeaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64f76f2f0fe879e8591cd011beceaeaf">&#9670;&nbsp;</a></span>Render()</h2>
+<a id="ab35a4a87f534197c61512273ee173501" name="ab35a4a87f534197c61512273ee173501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35a4a87f534197c61512273ee173501">&#9670;&nbsp;</a></span>Render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,9 +875,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Im3dContext::Render </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>frameIndex</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>frameIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1054,7 +1064,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_im3d.html">Im3d</a></li><li class="navelem"><a class="el" href="class_im3d_1_1_im3d_context.html">Im3dContext</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

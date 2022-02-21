@@ -108,8 +108,8 @@ $(document).ready(function(){initNavTree('resourcecache_8h_source.html',''); ini
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="resourcecache_8h.html#a4127dbc5f7c7213f53ef4728201abf83">   49</a></span><span class="preprocessor">#define __ImplementResourceAllocatorSafe(name) \</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">    inline Resources::ResourceUnknownId AllocObject() { return Ids::Id::MakeId24_8(name.AllocObject(), 0xFF); } \</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    inline void DeallocObject(const Resources::ResourceUnknownId id) { name.DeallocObject(id.id24); } \</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">    inline void EnterGet() { name.EnterGet(); } \</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">    inline void LeaveGet() { name.LeaveGet(); } \</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">    inline void Lock(Util::ArrayAllocatorAccess access) { name.Lock(access); } \</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">    inline void Unlock(Util::ArrayAllocatorAccess access) { name.Unlock(access); } \</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">    template&lt;int MEMBER&gt; inline auto&amp; Get(const Ids::Id24 id) { return name.Get&lt;MEMBER&gt;(id); } \</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">    template&lt;int MEMBER&gt; inline auto&amp; Get(const Resources::ResourceId id) { return name.Get&lt;MEMBER&gt;(id.resourceId); } \</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">    template&lt;int MEMBER&gt; inline auto&amp; GetUnsafe(const Ids::Id24 id) { return name.GetUnsafe&lt;MEMBER&gt;(id); } \</span></div>
@@ -126,8 +126,8 @@ $(document).ready(function(){initNavTree('resourcecache_8h_source.html',''); ini
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="resourcecache_8h.html#a01fc27f67f65302fbf0aa620691733f8">   67</a></span><span class="preprocessor">#define __ImplementResourceAllocatorTypedSafe(name, idtype) \</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">    inline Resources::ResourceUnknownId AllocObject() { return Ids::Id::MakeId24_8(name.Alloc(), idtype); } \</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">    inline void DeallocObject(const Resources::ResourceUnknownId id) { name.Dealloc(id.id24); } \</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">    inline void EnterGet() { name.EnterGet(); } \</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">    inline void LeaveGet() { name.LeaveGet(); } \</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">    inline void Lock(Util::ArrayAllocatorAccess access) { name.Lock(access); } \</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">    inline void Unlock(Util::ArrayAllocatorAccess access) { name.Unlock(access); } \</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">    inline auto* Allocator() { return &amp;name; } \</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">    template&lt;int MEMBER&gt; inline auto&amp; Get(const Ids::Id24 id) { return name.Get&lt;MEMBER&gt;(id); } \</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">    template&lt;int MEMBER&gt; inline auto&amp; Get(const Resources::ResourceId id) { return name.Get&lt;MEMBER&gt;(id.resourceId); } \</span></div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('resourcecache_8h_source.html',''); ini
 <div class="ttc" id="aclass_util_1_1_string_atom_html"><div class="ttname"><a href="class_util_1_1_string_atom.html">Util::StringAtom</a></div><div class="ttdoc">A StringAtom.</div><div class="ttdef"><b>Definition:</b> stringatom.h:22</div></div>
 <div class="ttc" id="aidallocator_8h_html"><div class="ttname"><a href="idallocator_8h.html">idallocator.h</a></div></div>
 <div class="ttc" id="aidpool_8h_html"><div class="ttname"><a href="idpool_8h.html">idpool.h</a></div></div>
-<div class="ttc" id="anamespace_resources_html"><div class="ttname"><a href="namespace_resources.html">Resources</a></div><div class="ttdoc">@type CoreGraphics::SubmissionContext</div><div class="ttdef"><b>Definition:</b> submissioncontext.h:27</div></div>
+<div class="ttc" id="anamespace_resources_html"><div class="ttname"><a href="namespace_resources.html">Resources</a></div><div class="ttdoc">A resource is a container for some type of file which is loaded.</div><div class="ttdef"><b>Definition:</b> resource.cc:9</div></div>
 <div class="ttc" id="arefcounted_8h_html"><div class="ttname"><a href="refcounted_8h.html">refcounted.h</a></div></div>
 <div class="ttc" id="aresource_8h_html"><div class="ttname"><a href="resource_8h.html">resource.h</a></div></div>
 <div class="ttc" id="aresourceid_8h_html"><div class="ttname"><a href="resourceid_8h.html">resourceid.h</a></div></div>
@@ -308,7 +308,7 @@ $(document).ready(function(){initNavTree('resourcecache_8h_source.html',''); ini
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourcecache_8h.html">resourcecache.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

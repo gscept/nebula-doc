@@ -96,14 +96,14 @@ $(document).ready(function(){initNavTree('vkresourcetable_8h.html',''); initResi
 <code>#include &quot;<a class="el" href="resourcetable_8h_source.html">coregraphics/resourcetable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkloader_8h_source.html">vkloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="assertingmutex_8h_source.html">threading/assertingmutex.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="spinlock_8h_source.html">threading/spinlock.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 </div>
 <p><a href="vkresourcetable_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_vulkan_1_1_write_info.html">Vulkan::WriteInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table.  <a href="union_vulkan_1_1_write_info.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_write_info.html">Vulkan::WriteInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -114,42 +114,47 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7d89416068eb19060074fb05ac44c43c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="class_threading_1_1_asserting_mutex.html">Threading::AssertingMutex</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkWriteDescriptorSet &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; WriteInfo &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCopyDescriptorSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a7d89416068eb19060074fb05ac44c43c">Vulkan::VkResourceTableAllocator</a></td></tr>
-<tr class="separator:a7d89416068eb19060074fb05ac44c43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a497410167e4965f57f71289e58637583"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSetLayout, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#afb76d79dd0028154ff80d514ec0a66cc">Util::Pair</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a>, uint32_t &gt; &gt;, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, bool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a497410167e4965f57f71289e58637583">Vulkan::VkResourceTableLayoutAllocator</a></td></tr>
-<tr class="separator:a497410167e4965f57f71289e58637583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd771e09a781d6e0c1089ff9c1da27d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="class_threading_1_1_spinlock.html">Threading::Spinlock</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; WriteInfo &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCopyDescriptorSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#afdd771e09a781d6e0c1089ff9c1da27d">Vulkan::VkResourceTableAllocator</a></td></tr>
+<tr class="separator:afdd771e09a781d6e0c1089ff9c1da27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9613067c1ef53d433d2924f2d10312"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSetLayout, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#afb76d79dd0028154ff80d514ec0a66cc">Util::Pair</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a>, uint32_t &gt; &gt;, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, bool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312">Vulkan::VkResourceTableLayoutAllocator</a></td></tr>
+<tr class="separator:aae9613067c1ef53d433d2924f2d10312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b4355cb3c8b93c731aa6dbe3ed94e4b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkPipelineLayout &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b">Vulkan::VkResourcePipelineAllocator</a></td></tr>
 <tr class="memdesc:a7b4355cb3c8b93c731aa6dbe3ed94e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource pipeline.  <a href="namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b">More...</a><br /></td></tr>
 <tr class="separator:a7b4355cb3c8b93c731aa6dbe3ed94e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a9b1851bbcc70e45e684ea7f973d31306"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306aa0087534c7be3044f385539fdb25c147">Vulkan::ResourceTable_Device</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306ae2b37bc38aa0431f9f63fe84cdbc663e">Vulkan::ResourceTable_DescriptorSet</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a42c244817114a3b71e38a6edab7b22f7">Vulkan::ResourceTable_DescriptorPoolIndex</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a42f0a56d47d17a7527c3face186db786">Vulkan::ResourceTable_AssertingMutex</a>
+<tr class="memitem:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e">Vulkan::WriteType</a> { <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08">Vulkan::Image</a>
+, <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1ea7e62bc342f41c946868f0ea6f0b712d8">Vulkan::Buffer</a>
+, <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9">Vulkan::TexelBuffer</a>
+ }</td></tr>
+<tr class="memdesc:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table.  <a href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e">More...</a><br /></td></tr>
+<tr class="separator:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30965adc94f83ff0edf154f9871bbd5b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5baa0087534c7be3044f385539fdb25c147">Vulkan::ResourceTable_Device</a>
+, <a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5bae2b37bc38aa0431f9f63fe84cdbc663e">Vulkan::ResourceTable_DescriptorSet</a>
+, <a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5ba42c244817114a3b71e38a6edab7b22f7">Vulkan::ResourceTable_DescriptorPoolIndex</a>
+, <a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5baff5be145053d61bfd7223af4abc3bf5b">Vulkan::ResourceTable_Lock</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a936c322c9ff64557c52cd247a30e852c">Vulkan::ResourceTable_Layout</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a10d5de582b68035bf0870fcec2a8a97c">Vulkan::ResourceTable_Writes</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a6acfb22eec82a5e2da7b374613b81cd1">Vulkan::ResourceTable_WriteInfos</a>
-, <a class="el" href="namespace_vulkan.html#a9b1851bbcc70e45e684ea7f973d31306a92e5be15926ea2be64ceb0a455242cce">Vulkan::ResourceTable_Copies</a>
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5ba936c322c9ff64557c52cd247a30e852c">Vulkan::ResourceTable_Layout</a>
+, <a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5ba6acfb22eec82a5e2da7b374613b81cd1">Vulkan::ResourceTable_WriteInfos</a>
+, <a class="el" href="namespace_vulkan.html#a30965adc94f83ff0edf154f9871bbd5ba92e5be15926ea2be64ceb0a455242cce">Vulkan::ResourceTable_Copies</a>
 <br />
  }</td></tr>
-<tr class="separator:a9b1851bbcc70e45e684ea7f973d31306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72cc27ddf2113ab4842e32bd86e5188b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188ba38a44d3c33686bef648610c4f0a88b45">Vulkan::ResourceTableLayout_Device</a>
-, <a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188babf88a079590846055bc7b490bae28c6b">Vulkan::ResourceTableLayout_SetLayout</a>
-, <a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188baec29da221608313a08cd9eea70eb511b">Vulkan::ResourceTableLayout_PoolSizes</a>
-, <a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188ba29c4f0a5f7f27ddcbfea5307f0a0e108">Vulkan::ResourceTableLayout_Samplers</a>
+<tr class="separator:a30965adc94f83ff0edf154f9871bbd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd115f95f1e0acd2eaa7757ee345335"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335a38a44d3c33686bef648610c4f0a88b45">Vulkan::ResourceTableLayout_Device</a>
+, <a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335abf88a079590846055bc7b490bae28c6b">Vulkan::ResourceTableLayout_SetLayout</a>
+, <a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335aec29da221608313a08cd9eea70eb511b">Vulkan::ResourceTableLayout_PoolSizes</a>
+, <a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335a29c4f0a5f7f27ddcbfea5307f0a0e108">Vulkan::ResourceTableLayout_Samplers</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188baf4fb2ffabc3ebf2c47af703f27fb463f">Vulkan::ResourceTableLayout_ImmutableSamplerFlags</a>
-, <a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188ba3b9ace6c517592ba3cd4352b50016a0d">Vulkan::ResourceTableLayout_DescriptorPools</a>
-, <a class="el" href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188bac16a96d845fb324e833d3f2b98fec1c5">Vulkan::ResourceTableLayout_DescriptorPoolFreeItems</a>
+&#160;&#160;<a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335af4fb2ffabc3ebf2c47af703f27fb463f">Vulkan::ResourceTableLayout_ImmutableSamplerFlags</a>
+, <a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335a3b9ace6c517592ba3cd4352b50016a0d">Vulkan::ResourceTableLayout_DescriptorPools</a>
+, <a class="el" href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335ac16a96d845fb324e833d3f2b98fec1c5">Vulkan::ResourceTableLayout_DescriptorPoolFreeItems</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a72cc27ddf2113ab4842e32bd86e5188b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="namespace_vulkan.html#a72cc27ddf2113ab4842e32bd86e5188b">More...</a><br /></td></tr>
-<tr class="separator:a72cc27ddf2113ab4842e32bd86e5188b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aadd115f95f1e0acd2eaa7757ee345335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335">More...</a><br /></td></tr>
+<tr class="separator:aadd115f95f1e0acd2eaa7757ee345335"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -159,9 +164,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aa45f232bc1903bf2b153759f799e4b6c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aa45f232bc1903bf2b153759f799e4b6c">Vulkan::ResourceTableGetVkPoolIndex</a> (<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> id)</td></tr>
 <tr class="memdesc:aa45f232bc1903bf2b153759f799e4b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get descriptor pool index.  <a href="namespace_vulkan.html#aa45f232bc1903bf2b153759f799e4b6c">More...</a><br /></td></tr>
 <tr class="separator:aa45f232bc1903bf2b153759f799e4b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d494a4036e3c15fb478cc9a52d4ccf4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a6d494a4036e3c15fb478cc9a52d4ccf4">Vulkan::ResourceTableGetVkLayout</a> (<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> id)</td></tr>
-<tr class="memdesc:a6d494a4036e3c15fb478cc9a52d4ccf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get set layout.  <a href="namespace_vulkan.html#a6d494a4036e3c15fb478cc9a52d4ccf4">More...</a><br /></td></tr>
-<tr class="separator:a6d494a4036e3c15fb478cc9a52d4ccf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfce04964b3f6c46783a5b8627068e9e"><td class="memItemLeft" align="right" valign="top">const VkDevice &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#acfce04964b3f6c46783a5b8627068e9e">Vulkan::ResourceTableGetVkDevice</a> (<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> id)</td></tr>
 <tr class="memdesc:acfce04964b3f6c46783a5b8627068e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get device used to create resource table.  <a href="namespace_vulkan.html#acfce04964b3f6c46783a5b8627068e9e">More...</a><br /></td></tr>
 <tr class="separator:acfce04964b3f6c46783a5b8627068e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +182,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a618745042f8b98617efb28c6bd9a2505"><td class="memItemLeft" align="right" valign="top">const VkDescriptorPool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a618745042f8b98617efb28c6bd9a2505">Vulkan::ResourceTableLayoutGetVkDescriptorPool</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &amp;id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
 <tr class="memdesc:a618745042f8b98617efb28c6bd9a2505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get descriptor pool.  <a href="namespace_vulkan.html#a618745042f8b98617efb28c6bd9a2505">More...</a><br /></td></tr>
 <tr class="separator:a618745042f8b98617efb28c6bd9a2505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98ea8760a6a6ef1d59e82e566ed0fe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad98ea8760a6a6ef1d59e82e566ed0fe3">Vulkan::ResourceTableLayoutVkDecrementCounter</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &amp;id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
-<tr class="memdesc:ad98ea8760a6a6ef1d59e82e566ed0fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement usage counter.  <a href="namespace_vulkan.html#ad98ea8760a6a6ef1d59e82e566ed0fe3">More...</a><br /></td></tr>
-<tr class="separator:ad98ea8760a6a6ef1d59e82e566ed0fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e1b67da566239d915862e2cd878848"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aa4e1b67da566239d915862e2cd878848">Vulkan::ResourceTableLayoutGetFreeItemsCounter</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &amp;id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
+<tr class="memdesc:aa4e1b67da566239d915862e2cd878848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get descriptor pool free items counter.  <a href="namespace_vulkan.html#aa4e1b67da566239d915862e2cd878848">More...</a><br /></td></tr>
+<tr class="separator:aa4e1b67da566239d915862e2cd878848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb83f709431b67608caf696ad579ec03"><td class="memItemLeft" align="right" valign="top">const VkPipelineLayout &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#adb83f709431b67608caf696ad579ec03">Vulkan::ResourcePipelineGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;id)</td></tr>
 <tr class="memdesc:adb83f709431b67608caf696ad579ec03"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pipeline layout  <a href="namespace_vulkan.html#adb83f709431b67608caf696ad579ec03">More...</a><br /></td></tr>
 <tr class="separator:adb83f709431b67608caf696ad579ec03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +196,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkresourcetable_8h.html">vkresourcetable.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

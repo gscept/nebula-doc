@@ -17,7 +17,7 @@ var class_particles_1_1_particle_context =
     [ "EmitParticle", "class_particles_1_1_particle_context.html#a34491a5c41172deb8e01e575a1373e73", null ],
     [ "EmitParticles", "class_particles_1_1_particle_context.html#a439aa9f6d5969648308b8bc6e2276325", null ],
     [ "GetParticleIndexBuffer", "class_particles_1_1_particle_context.html#ac1caf35480135bd9bd1968f835e4a227", null ],
-    [ "GetParticlePrimitiveGroup", "class_particles_1_1_particle_context.html#affac600aa36ea35cbe30d62d30e70b81", null ],
+    [ "GetParticlePrimitiveGroup", "class_particles_1_1_particle_context.html#a809fb06d61ce82348b2219fdca6f351a", null ],
     [ "GetParticleVertexBuffer", "class_particles_1_1_particle_context.html#a8c1b78123a06dc4773730e1c0263fd7f", null ],
     [ "GetParticleVertexLayout", "class_particles_1_1_particle_context.html#a6e185a4fece32ac18403e7bd7c2a4e74", null ],
     [ "HideParticle", "class_particles_1_1_particle_context.html#a696eeeba6ca677d6122b66c495816cf9", null ],

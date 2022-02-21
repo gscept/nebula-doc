@@ -4,6 +4,7 @@ var class_graphics_1_1_view =
     [ "~View", "class_graphics_1_1_view.html#a31f8c13d39b23e1d21bd1cbdb25af60a", null ],
     [ "__DeclareClass", "class_graphics_1_1_view.html#adf8eafe1a6ec5cbca8c95313c5f96697", null ],
     [ "BeginFrame", "class_graphics_1_1_view.html#a4d334b51ba52f8219937582d324b6f28", null ],
+    [ "BuildFrameScript", "class_graphics_1_1_view.html#a8f5aa37eb339bc9e699c88faf74ad59d", null ],
     [ "Disable", "class_graphics_1_1_view.html#ab97ce8af6e0c7dadd81b85586b58f188", null ],
     [ "Enable", "class_graphics_1_1_view.html#ac3f08e027802c1a9befdd8910fb0586e", null ],
     [ "EndFrame", "class_graphics_1_1_view.html#a1ca85cf37428a6d7ca30353991ad1e6d", null ],

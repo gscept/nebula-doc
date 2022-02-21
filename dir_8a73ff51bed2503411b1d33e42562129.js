@@ -1,7 +1,10 @@
 var dir_8a73ff51bed2503411b1d33e42562129 =
 [
     [ "material.cc", "material_8cc.html", "material_8cc" ],
-    [ "material.h", "material_8h.html", "material_8h" ],
+    [ "material.h", "material_8h.html", [
+      [ "Materials::MaterialId", "struct_materials_1_1_material_id.html", null ],
+      [ "Materials::MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ]
+    ] ],
     [ "materialcache.cc", "materialcache_8cc.html", "materialcache_8cc" ],
     [ "materialcache.h", "materialcache_8h.html", [
       [ "Materials::MaterialInfo", "struct_materials_1_1_material_info.html", "struct_materials_1_1_material_info" ],

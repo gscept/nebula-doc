@@ -107,7 +107,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_resources"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html">Resources</a></td></tr>
-<tr class="memdesc:namespace_resources"><td class="mdescLeft">&#160;</td><td class="mdescRight">@type CoreGraphics::SubmissionContext <br /></td></tr>
+<tr class="memdesc:namespace_resources"><td class="mdescLeft">&#160;</td><td class="mdescRight">A resource is a container for some type of file which is loaded. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -175,14 +175,16 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">inline</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a> AllocObject() { <span class="keywordflow">return</span> <a class="code hl_function" href="struct_ids_1_1_id.html#a715b258e1887820f99f64c435d4609c0">Ids::Id::MakeId24_8</a>(name.AllocObject(), 0xFF); } \</div>
 <div class="line">    inline <span class="keywordtype">void</span> DeallocObject(<span class="keyword">const</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a> <span class="keywordtype">id</span>) { name.DeallocObject(<span class="keywordtype">id</span>.id24); } \</div>
-<div class="line">    inline <span class="keywordtype">void</span> EnterGet() { name.EnterGet(); } \</div>
-<div class="line">    inline <span class="keywordtype">void</span> LeaveGet() { name.LeaveGet(); } \</div>
+<div class="line">    inline <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_fibers.html#aa7c25789a54e0cdbde8c6a3516130626">Lock</a>(<a class="code hl_enumeration" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a> access) { name.Lock(access); } \</div>
+<div class="line">    inline <span class="keywordtype">void</span> Unlock(<a class="code hl_enumeration" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a> access) { name.Unlock(access); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; <a class="code hl_function" href="namespace_util.html#a47f12d477cb3fa493872f1af0e406db0">Get</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.Get&lt;MEMBER&gt;(id); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; <a class="code hl_function" href="namespace_util.html#a47f12d477cb3fa493872f1af0e406db0">Get</a>(<span class="keyword">const</span> Resources::ResourceId <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.Get&lt;MEMBER&gt;(<span class="keywordtype">id</span>.resourceId); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; GetUnsafe(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.GetUnsafe&lt;MEMBER&gt;(id); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; GetUnsafe(<span class="keyword">const</span> Resources::ResourceId <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.GetUnsafe&lt;MEMBER&gt;(<span class="keywordtype">id</span>.resourceId); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; GetSafe(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.GetSafe&lt;MEMBER&gt;(id); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; GetSafe(<span class="keyword">const</span> Resources::ResourceId <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.GetSafe&lt;MEMBER&gt;(<span class="keywordtype">id</span>.resourceId); }</div>
+<div class="ttc" id="anamespace_fibers_html_aa7c25789a54e0cdbde8c6a3516130626"><div class="ttname"><a href="namespace_fibers.html#aa7c25789a54e0cdbde8c6a3516130626">Fibers::Lock</a></div><div class="ttdeci">void Lock(Threading::AtomicCounter *counter, int value)</div><div class="ttdef"><b>Definition:</b> fibers.h:166</div></div>
+<div class="ttc" id="anamespace_util_html_acbf1ff504100ee61d27cf4c7e1a2d11b"><div class="ttname"><a href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a></div><div class="ttdeci">ArrayAllocatorAccess</div><div class="ttdef"><b>Definition:</b> arrayallocatorsafe.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -245,8 +247,8 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">inline</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a> AllocObject() { <span class="keywordflow">return</span> <a class="code hl_function" href="struct_ids_1_1_id.html#a715b258e1887820f99f64c435d4609c0">Ids::Id::MakeId24_8</a>(name.Alloc(), idtype); } \</div>
 <div class="line">    inline <span class="keywordtype">void</span> DeallocObject(<span class="keyword">const</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a> <span class="keywordtype">id</span>) { name.Dealloc(<span class="keywordtype">id</span>.id24); } \</div>
-<div class="line">    inline <span class="keywordtype">void</span> EnterGet() { name.EnterGet(); } \</div>
-<div class="line">    inline <span class="keywordtype">void</span> LeaveGet() { name.LeaveGet(); } \</div>
+<div class="line">    inline <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_fibers.html#aa7c25789a54e0cdbde8c6a3516130626">Lock</a>(<a class="code hl_enumeration" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a> access) { name.Lock(access); } \</div>
+<div class="line">    inline <span class="keywordtype">void</span> Unlock(<a class="code hl_enumeration" href="namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b">Util::ArrayAllocatorAccess</a> access) { name.Unlock(access); } \</div>
 <div class="line">    inline <span class="keyword">auto</span>* Allocator() { <span class="keywordflow">return</span> &amp;name; } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; <a class="code hl_function" href="namespace_util.html#a47f12d477cb3fa493872f1af0e406db0">Get</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.Get&lt;MEMBER&gt;(id); } \</div>
 <div class="line">    template&lt;int MEMBER&gt; <span class="keyword">inline</span> <span class="keyword">auto</span>&amp; <a class="code hl_function" href="namespace_util.html#a47f12d477cb3fa493872f1af0e406db0">Get</a>(<span class="keyword">const</span> Resources::ResourceId <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> name.Get&lt;MEMBER&gt;(<span class="keywordtype">id</span>.resourceId); } \</div>
@@ -262,7 +264,7 @@ Macros</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourcecache_8h.html">resourcecache.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

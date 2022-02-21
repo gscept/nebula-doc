@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('class_materials_1_1_shader_config.html
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -160,6 +159,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9513544cca16cfbdff3afb69e1d72a2"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#ad9513544cca16cfbdff3afb69e1d72a2">HashCode</a> () const</td></tr>
 <tr class="memdesc:ad9513544cca16cfbdff3afb69e1d72a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get hash code  <a href="class_materials_1_1_shader_config.html#ad9513544cca16cfbdff3afb69e1d72a2">More...</a><br /></td></tr>
 <tr class="separator:ad9513544cca16cfbdff3afb69e1d72a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c66e56b7ae5edf433baa42408f4e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a81c66e56b7ae5edf433baa42408f4e36">BindShader</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> batch)</td></tr>
+<tr class="memdesc:a81c66e56b7ae5edf433baa42408f4e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind shader for a batch and return the batch index.  <a href="class_materials_1_1_shader_config.html#a81c66e56b7ae5edf433baa42408f4e36">More...</a><br /></td></tr>
+<tr class="separator:a81c66e56b7ae5edf433baa42408f4e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172e832994a5a4cecf88999052bfe6a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a172e832994a5a4cecf88999052bfe6a6">ApplyMaterial</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index, const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id)</td></tr>
+<tr class="memdesc:a172e832994a5a4cecf88999052bfe6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a material.  <a href="class_materials_1_1_shader_config.html#a172e832994a5a4cecf88999052bfe6a6">More...</a><br /></td></tr>
+<tr class="separator:a172e832994a5a4cecf88999052bfe6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0429925258f3a5cd351c92fae35c230"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#ab0429925258f3a5cd351c92fae35c230">ApplyMaterialInstance</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index, const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> id)</td></tr>
+<tr class="memdesc:ab0429925258f3a5cd351c92fae35c230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a material instance.  <a href="class_materials_1_1_shader_config.html#ab0429925258f3a5cd351c92fae35c230">More...</a><br /></td></tr>
+<tr class="separator:ab0429925258f3a5cd351c92fae35c230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -180,24 +188,6 @@ Private Types</h2></td></tr>
 , <a class="el" href="class_materials_1_1_shader_config.html#aa0ab4f74cc64a65b4b7375a672e6b626a6691290f5399f023077244036348e30b">SurfaceInstanceOffsets</a>
  }</td></tr>
 <tr class="separator:aa0ab4f74cc64a65b4b7375a672e6b626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ab116317dd4848690a8bf72f9a5795723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#ab116317dd4848690a8bf72f9a5795723">BeginBatch</a> (<a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> batch)</td></tr>
-<tr class="memdesc:ab116317dd4848690a8bf72f9a5795723"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply type-specific material state  <a href="class_materials_1_1_shader_config.html#ab116317dd4848690a8bf72f9a5795723">More...</a><br /></td></tr>
-<tr class="separator:ab116317dd4848690a8bf72f9a5795723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71638f0ab96366d1a9b633ce6abfb794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a71638f0ab96366d1a9b633ce6abfb794">ApplySurface</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id)</td></tr>
-<tr class="memdesc:a71638f0ab96366d1a9b633ce6abfb794"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply surface-level material state  <a href="class_materials_1_1_shader_config.html#a71638f0ab96366d1a9b633ce6abfb794">More...</a><br /></td></tr>
-<tr class="separator:a71638f0ab96366d1a9b633ce6abfb794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8c46585183f47da8ee04d2f7d9ad50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a0a8c46585183f47da8ee04d2f7d9ad50">ApplyInstance</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> mat)</td></tr>
-<tr class="memdesc:a0a8c46585183f47da8ee04d2f7d9ad50"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply specific material instance, using the same batch as  <a href="class_materials_1_1_shader_config.html#a0a8c46585183f47da8ee04d2f7d9ad50">More...</a><br /></td></tr>
-<tr class="separator:a0a8c46585183f47da8ee04d2f7d9ad50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279fdef8664479eacaef3c344d4f25d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a279fdef8664479eacaef3c344d4f25d2">EndSurface</a> ()</td></tr>
-<tr class="memdesc:a279fdef8664479eacaef3c344d4f25d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">end surface-level material state  <a href="class_materials_1_1_shader_config.html#a279fdef8664479eacaef3c344d4f25d2">More...</a><br /></td></tr>
-<tr class="separator:a279fdef8664479eacaef3c344d4f25d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3c881c108c24c60a2de6ccee4cf9b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#aee3c881c108c24c60a2de6ccee4cf9b5">EndBatch</a> ()</td></tr>
-<tr class="memdesc:aee3c881c108c24c60a2de6ccee4cf9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">end batch  <a href="class_materials_1_1_shader_config.html#aee3c881c108c24c60a2de6ccee4cf9b5">More...</a><br /></td></tr>
-<tr class="separator:aee3c881c108c24c60a2de6ccee4cf9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -247,16 +237,12 @@ Friends</h2></td></tr>
 <tr class="memitem:af1335b4670ce970e163791adcf8fbb51"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#af1335b4670ce970e163791adcf8fbb51">MaterialCache</a></td></tr>
 <tr class="separator:af1335b4670ce970e163791adcf8fbb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3424e314593eaee5957080ce9b97b19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#af3424e314593eaee5957080ce9b97b19">ShaderConfigBeginBatch</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *, <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a>)</td></tr>
-<tr class="memdesc:af3424e314593eaee5957080ce9b97b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin a material batch  <a href="class_materials_1_1_shader_config.html#af3424e314593eaee5957080ce9b97b19">More...</a><br /></td></tr>
 <tr class="separator:af3424e314593eaee5957080ce9b97b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ec4016618794bc29bb93a6604cb56ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a3ec4016618794bc29bb93a6604cb56ba">MaterialApply</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *, const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a>)</td></tr>
-<tr class="memdesc:a3ec4016618794bc29bb93a6604cb56ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin surface  <a href="class_materials_1_1_shader_config.html#a3ec4016618794bc29bb93a6604cb56ba">More...</a><br /></td></tr>
 <tr class="separator:a3ec4016618794bc29bb93a6604cb56ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a294e0305b07b8555b868583a6f448807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a294e0305b07b8555b868583a6f448807">MaterialInstanceApply</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *, const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>)</td></tr>
-<tr class="memdesc:a294e0305b07b8555b868583a6f448807"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply instance of surface  <a href="class_materials_1_1_shader_config.html#a294e0305b07b8555b868583a6f448807">More...</a><br /></td></tr>
 <tr class="separator:a294e0305b07b8555b868583a6f448807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a0861244e2be98895b904a81c2dc972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html#a7a0861244e2be98895b904a81c2dc972">ShaderConfigEndBatch</a> (<a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *)</td></tr>
-<tr class="memdesc:a7a0861244e2be98895b904a81c2dc972"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a material batch  <a href="class_materials_1_1_shader_config.html#a7a0861244e2be98895b904a81c2dc972">More...</a><br /></td></tr>
 <tr class="separator:a7a0861244e2be98895b904a81c2dc972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -358,87 +344,105 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0a8c46585183f47da8ee04d2f7d9ad50" name="a0a8c46585183f47da8ee04d2f7d9ad50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a8c46585183f47da8ee04d2f7d9ad50">&#9670;&nbsp;</a></span>ApplyInstance()</h2>
+<a id="a172e832994a5a4cecf88999052bfe6a6" name="a172e832994a5a4cecf88999052bfe6a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172e832994a5a4cecf88999052bfe6a6">&#9670;&nbsp;</a></span>ApplyMaterial()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Materials::ShaderConfig::ApplyInstance </td>
+          <td class="memname">void Materials::ShaderConfig::ApplyMaterial </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>&#160;</td>
-          <td class="paramname"><em>mat</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>apply specific material instance, using the same batch as </p>
-
-</div>
-</div>
-<a id="a71638f0ab96366d1a9b633ce6abfb794" name="a71638f0ab96366d1a9b633ce6abfb794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71638f0ab96366d1a9b633ce6abfb794">&#9670;&nbsp;</a></span>ApplySurface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">void Materials::ShaderConfig::ApplySurface </td>
-          <td>(</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
           <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>apply surface-level material state </p>
+<p>Apply a material. </p>
 
 </div>
 </div>
-<a id="ab116317dd4848690a8bf72f9a5795723" name="ab116317dd4848690a8bf72f9a5795723"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab116317dd4848690a8bf72f9a5795723">&#9670;&nbsp;</a></span>BeginBatch()</h2>
+<a id="ab0429925258f3a5cd351c92fae35c230" name="ab0429925258f3a5cd351c92fae35c230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0429925258f3a5cd351c92fae35c230">&#9670;&nbsp;</a></span>ApplyMaterialInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Materials::ShaderConfig::BeginBatch </td>
+          <td class="memname">void Materials::ShaderConfig::ApplyMaterialInstance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a>&#160;</td>
-          <td class="paramname"><em>batch</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>apply type-specific material state </p>
+<p>Apply a material instance. </p>
+
+</div>
+</div>
+<a id="a81c66e56b7ae5edf433baa42408f4e36" name="a81c66e56b7ae5edf433baa42408f4e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81c66e56b7ae5edf433baa42408f4e36">&#9670;&nbsp;</a></span>BindShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Materials::ShaderConfig::BindShader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a>&#160;</td>
+          <td class="paramname"><em>batch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bind shader for a batch and return the batch index. </p>
 
 </div>
 </div>
@@ -518,60 +522,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>destroy instance of a surface </p>
-
-</div>
-</div>
-<a id="aee3c881c108c24c60a2de6ccee4cf9b5" name="aee3c881c108c24c60a2de6ccee4cf9b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee3c881c108c24c60a2de6ccee4cf9b5">&#9670;&nbsp;</a></span>EndBatch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Materials::ShaderConfig::EndBatch </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>end batch </p>
-
-</div>
-</div>
-<a id="a279fdef8664479eacaef3c344d4f25d2" name="a279fdef8664479eacaef3c344d4f25d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279fdef8664479eacaef3c344d4f25d2">&#9670;&nbsp;</a></span>EndSurface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Materials::ShaderConfig::EndSurface </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>end surface-level material state </p>
 
 </div>
 </div>
@@ -941,8 +891,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>begin surface </p>
-
 </div>
 </div>
 <a id="af1335b4670ce970e163791adcf8fbb51" name="af1335b4670ce970e163791adcf8fbb51"></a>
@@ -1001,8 +949,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>apply instance of surface </p>
-
 </div>
 </div>
 <a id="af3424e314593eaee5957080ce9b97b19" name="af3424e314593eaee5957080ce9b97b19"></a>
@@ -1039,8 +985,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>begin a material batch </p>
-
 </div>
 </div>
 <a id="a7a0861244e2be98895b904a81c2dc972" name="a7a0861244e2be98895b904a81c2dc972"></a>
@@ -1066,8 +1010,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>end a material batch </p>
 
 </div>
 </div>
@@ -1481,7 +1423,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li><li class="navelem"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a></li>
 				<li class="footer">
-					Generated on Wed Feb 9 2022 21:23:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 21 2022 17:11:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -8,7 +8,6 @@ var ssaocontext_8cc =
     [ "__ImplementPluginContext", "ssaocontext_8cc.html#a2b89ea5be690ace1c69eeff61a7b9025", null ],
     [ "aoResolution", "ssaocontext_8cc.html#a7d60e1e883ff6a079640b3a0e89ba8dd", null ],
     [ "aoResolutionVar", "ssaocontext_8cc.html#ac1a9802328ee5d66e57cff87d3fa73fe", null ],
-    [ "barriers", "ssaocontext_8cc.html#a9a6c113466b74d157cafc552ec755808", null ],
     [ "blurC", "ssaocontext_8cc.html#a669c7b4ac767915f1f21533251a7f192", null ],
     [ "blurConstants", "ssaocontext_8cc.html#a88db384b6dbe486fb15eaf0a452b86fb", null ],
     [ "blurDepthThreshold", "ssaocontext_8cc.html#a13859421d7000484514d0f1c40f4b1f1", null ],
@@ -44,7 +43,7 @@ var ssaocontext_8cc =
     [ "radius", "ssaocontext_8cc.html#ab4cd699ff05e5e8631afeee1d4ad240c", null ],
     [ "sceneScale", "ssaocontext_8cc.html#a1025c4984557ab982071034abc9c3389", null ],
     [ "ssaoOutput", "ssaocontext_8cc.html#ac37852bc5185089da79a9e0da11d592a", null ],
-    [ "ssaoState", "ssaocontext_8cc.html#aed40d92c13e9370bde0a19b2bcf8cc0c", null ],
+    [ "ssaoState", "ssaocontext_8cc.html#a258ff14783560f0197182a3e63bed01b", null ],
     [ "strength", "ssaocontext_8cc.html#aaf8de416423d8139caaf997c5c5b90e3", null ],
     [ "strengthVar", "ssaocontext_8cc.html#a23a5980f0ec058f989ea1a8f19f5a5ea", null ],
     [ "tanAngleBias", "ssaocontext_8cc.html#a70dd4e8d5bb50179a8c385f129c75e12", null ],
@@ -53,10 +52,11 @@ var ssaocontext_8cc =
     [ "uvToViewAVar", "ssaocontext_8cc.html#af053d3fea1191bf1ce3eb5dc16b34f12", null ],
     [ "uvToViewB", "ssaocontext_8cc.html#aec19a7a7684ac8d32d2ffaee5a8d360e", null ],
     [ "uvToViewBVar", "ssaocontext_8cc.html#a9d43557e3dbbff37c03acbb249ed2ed6", null ],
-    [ "vars", "ssaocontext_8cc.html#a800a558177fe85a001516cdd6dff52d9", null ],
+    [ "vars", "ssaocontext_8cc.html#a381b8226656b680914dabb2dddbce788", null ],
     [ "width", "ssaocontext_8cc.html#a0519448bec51881f4fe30d816287693f", null ],
     [ "xDirectionBlur", "ssaocontext_8cc.html#a38cdd709c1bf375ae3243638e7792c68", null ],
     [ "xDirectionHBAO", "ssaocontext_8cc.html#a77e119e31d8039e41c7685cb9042c2f1", null ],
     [ "yDirectionBlur", "ssaocontext_8cc.html#a4743ad202db04265c7ba4f99d2802b4b", null ],
-    [ "yDirectionHBAO", "ssaocontext_8cc.html#ab7973248e778277a756be7f2dee66d7b", null ]
+    [ "yDirectionHBAO", "ssaocontext_8cc.html#ab7973248e778277a756be7f2dee66d7b", null ],
+    [ "zBuffer", "ssaocontext_8cc.html#ae4ee51618c4b17dac4a2203a8304c6d7", null ]
 ];

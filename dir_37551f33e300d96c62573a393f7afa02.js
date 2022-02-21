@@ -122,8 +122,6 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "streamtexturecache.cc", "streamtexturecache_8cc.html", null ],
     [ "streamtexturecache.h", "streamtexturecache_8h.html", null ],
     [ "streamtexturesaver.h", "streamtexturesaver_8h.html", "streamtexturesaver_8h" ],
-    [ "submissioncontext.cc", "submissioncontext_8cc.html", null ],
-    [ "submissioncontext.h", "submissioncontext_8h.html", "submissioncontext_8h" ],
     [ "textelement.cc", "textelement_8cc.html", null ],
     [ "textelement.h", "textelement_8h.html", [
       [ "CoreGraphics::TextElement", "class_core_graphics_1_1_text_element.html", "class_core_graphics_1_1_text_element" ]
