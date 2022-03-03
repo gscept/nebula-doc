@@ -23,6 +23,7 @@ var namespace_particles =
     [ "layout", "namespace_particles.html#a61628fb050f081bc95c83635c38d0876", null ],
     [ "mappedVertices", "namespace_particles.html#ac4144306d977314bb227454d6ef7ac65", null ],
     [ "MaxNumRenderedParticles", "namespace_particles.html#a8965f021c236ba0417be69c04a037d87", null ],
+    [ "numParticlesThisFrame", "namespace_particles.html#a0b026d4a9f0fabbe8bd01ec16ceb5b9e", null ],
     [ "particleComponents", "namespace_particles.html#ab71019a8fe5b0912bc8377497b54c320", null ],
     [ "ParticleContextNumEnvelopeSamples", "namespace_particles.html#a7125210008927ab9e5a8ba9e167d2b5f", null ],
     [ "ParticleJobInputElementSize", "namespace_particles.html#a7bc1b3acc3ce6ebcdaa30f277fd7a4f2", null ],

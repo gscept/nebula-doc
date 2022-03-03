@@ -7,6 +7,7 @@ var particlecontext_8cc =
     [ "geometryVbo", "particlecontext_8cc.html#a1ae10c88323fb838f1204006cf6c7f22", null ],
     [ "layout", "particlecontext_8cc.html#a61628fb050f081bc95c83635c38d0876", null ],
     [ "mappedVertices", "particlecontext_8cc.html#ac4144306d977314bb227454d6ef7ac65", null ],
+    [ "numParticlesThisFrame", "particlecontext_8cc.html#a0b026d4a9f0fabbe8bd01ec16ceb5b9e", null ],
     [ "particleComponents", "particlecontext_8cc.html#ab71019a8fe5b0912bc8377497b54c320", null ],
     [ "ParticleContextNumEnvelopeSamples", "particlecontext_8cc.html#a7125210008927ab9e5a8ba9e167d2b5f", null ],
     [ "primGroup", "particlecontext_8cc.html#aea46a9d16799861c566d261aea1af430", null ],

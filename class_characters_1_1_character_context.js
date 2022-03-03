@@ -39,6 +39,5 @@ var class_characters_1_1_character_context =
     [ "characterContextAllocator", "class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541", null ],
     [ "masks", "class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9", null ],
     [ "MaxNumTracks", "class_characters_1_1_character_context.html#ae9496d1464044413ee22950ba04486a5", null ],
-    [ "totalCompletionCounter", "class_characters_1_1_character_context.html#a85a87a981fe70a1ccdd1e3378f6e06e6", null ],
     [ "totalCompletionEvent", "class_characters_1_1_character_context.html#aec7634dfe7fc07e20d428a60140f4c27", null ]
 ];

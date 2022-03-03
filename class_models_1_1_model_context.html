@@ -150,9 +150,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a57ffe6a1457748279c411c2a55f288df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df">UpdateTransforms</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a57ffe6a1457748279c411c2a55f288df"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs before frame is updated  <a href="class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df">More...</a><br /></td></tr>
 <tr class="separator:a57ffe6a1457748279c411c2a55f288df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af11a22c8d0d359341e8af9309141cb71"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#af11a22c8d0d359341e8af9309141cb71">UpdateConstants</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:af11a22c8d0d359341e8af9309141cb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs after BeginFrame  <a href="class_models_1_1_model_context.html#af11a22c8d0d359341e8af9309141cb71">More...</a><br /></td></tr>
-<tr class="separator:af11a22c8d0d359341e8af9309141cb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed47f2b5fb5e5eaedfe4d66783789bdb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#aed47f2b5fb5e5eaedfe4d66783789bdb">WaitForWork</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:aed47f2b5fb5e5eaedfe4d66783789bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for thread work to finish.  <a href="class_models_1_1_model_context.html#aed47f2b5fb5e5eaedfe4d66783789bdb">More...</a><br /></td></tr>
+<tr class="separator:aed47f2b5fb5e5eaedfe4d66783789bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug rendering  <a href="class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa">More...</a><br /></td></tr>
 <tr class="separator:abfb0c3ba82ac51be23c8a70348d37cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,6 +217,8 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aa16abddf9fe159d4fddfff707511069b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2126922f5ae32fe69c073e1cef146d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b">ModelContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">modelContextAllocator</a></td></tr>
 <tr class="separator:ae2126922f5ae32fe69c073e1cef146d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98964ed68726e1a4addd432c37d4d85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_context.html#ab98964ed68726e1a4addd432c37d4d85">completionEvent</a></td></tr>
+<tr class="separator:ab98964ed68726e1a4addd432c37d4d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -912,34 +914,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af11a22c8d0d359341e8af9309141cb71" name="af11a22c8d0d359341e8af9309141cb71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af11a22c8d0d359341e8af9309141cb71">&#9670;&nbsp;</a></span>UpdateConstants()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Models::ModelContext::UpdateConstants </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>runs after BeginFrame </p>
-
-</div>
-</div>
 <a id="a57ffe6a1457748279c411c2a55f288df" name="a57ffe6a1457748279c411c2a55f288df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57ffe6a1457748279c411c2a55f288df">&#9670;&nbsp;</a></span>UpdateTransforms()</h2>
 
@@ -969,6 +943,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aed47f2b5fb5e5eaedfe4d66783789bdb" name="aed47f2b5fb5e5eaedfe4d66783789bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed47f2b5fb5e5eaedfe4d66783789bdb">&#9670;&nbsp;</a></span>WaitForWork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::ModelContext::WaitForWork </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wait for thread work to finish. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="a509a5aab5489f1b0775e002d97e178f5" name="a509a5aab5489f1b0775e002d97e178f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a509a5aab5489f1b0775e002d97e178f5">&#9670;&nbsp;</a></span>VisibilityContext</h2>
@@ -993,6 +995,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab98964ed68726e1a4addd432c37d4d85" name="ab98964ed68726e1a4addd432c37d4d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98964ed68726e1a4addd432c37d4d85">&#9670;&nbsp;</a></span>completionEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> Models::ModelContext::completionEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae2126922f5ae32fe69c073e1cef146d3" name="ae2126922f5ae32fe69c073e1cef146d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2126922f5ae32fe69c073e1cef146d3">&#9670;&nbsp;</a></span>modelContextAllocator</h2>
 
@@ -1048,7 +1072,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_model_context.html">ModelContext</a></li>
 				<li class="footer">
-					Generated on Thu Mar 3 2022 18:59:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Mar 3 2022 19:11:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
