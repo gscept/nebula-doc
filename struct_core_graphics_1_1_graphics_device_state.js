@@ -27,5 +27,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "setupTransferCommandBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a4b280b5c33fca3d8466bd015e8a4fef6", null ],
     [ "setupTransferCommandBufferPool", "struct_core_graphics_1_1_graphics_device_state.html#ae4321c5ba04e80e504fb542b72c6c024", null ],
     [ "tickResourceTable", "struct_core_graphics_1_1_graphics_device_state.html#afe6919e5150df78ad1d22ec6accdbeee", null ],
+    [ "vertexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#abfef5a2cf138aef45af51f7865842b2d", null ],
+    [ "vertexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a760ce6fe27d3dc4ef96b35f8a421ad22", null ],
     [ "visualizeMipMaps", "struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a", null ]
 ];

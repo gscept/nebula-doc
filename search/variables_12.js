@@ -8,7 +8,7 @@ var searchData=
   ['radius_5',['radius',['../namespace_post_effects.html#ab4cd699ff05e5e8631afeee1d4ad240c',1,'PostEffects']]],
   ['randomizerotation_6',['randomizeRotation',['../struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a8c176dad255431ca83a4daac5e4a6ae8',1,'Particles::EmitterAttrs::BoolAttributes']]],
   ['randtable_7',['randTable',['../class_util_1_1_random_number_table.html#ae5bdab1f477a0c6da61237271c3109ee',1,'Util::RandomNumberTable']]],
-  ['ranges_8',['ranges',['../class_memory_1_1_range_allocator.html#a392f7de789985ed85e479b4cb9492800',1,'Memory::RangeAllocator']]],
+  ['ranges_8',['ranges',['../class_memory_1_1_range_allocator.html#a980d55cb3809b57cb023d1262d65e6c9',1,'Memory::RangeAllocator']]],
   ['rasterizerinfo_9',['rasterizerInfo',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a1b17cfbf6acd99d0cb582dac2d08cbb5',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['raw_10',['raw',['../class_ti_xml_text.html#ae90f227b6ec61e7daf871dcace8070fb',1,'TiXmlText']]],
   ['rawmode_11',['rawMode',['../class_core_graphics_1_1_nvx3_stream_reader.html#a0b85e56d9fc51ce59e4bb0f29589d682',1,'CoreGraphics::Nvx3StreamReader']]],

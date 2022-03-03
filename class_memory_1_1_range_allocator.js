@@ -6,6 +6,6 @@ var class_memory_1_1_range_allocator =
     [ "Alloc", "class_memory_1_1_range_allocator.html#a7368f880a5c9ed8b47f63c23a0520ea1", null ],
     [ "Dealloc", "class_memory_1_1_range_allocator.html#ae9ba974ea0fa6f630b09f31757399ddc", null ],
     [ "Resize", "class_memory_1_1_range_allocator.html#a3343f283076eb4d2da2ccd4c948982fa", null ],
-    [ "ranges", "class_memory_1_1_range_allocator.html#a392f7de789985ed85e479b4cb9492800", null ],
+    [ "ranges", "class_memory_1_1_range_allocator.html#a980d55cb3809b57cb023d1262d65e6c9", null ],
     [ "size", "class_memory_1_1_range_allocator.html#afa78f2e54de29659bc22b2d5aff56308", null ]
 ];

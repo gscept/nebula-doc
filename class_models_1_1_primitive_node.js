@@ -9,7 +9,13 @@ var class_models_1_1_primitive_node =
     [ "Load", "class_models_1_1_primitive_node.html#a6958ecae79adeee629ff6210d9eedbbb", null ],
     [ "Unload", "class_models_1_1_primitive_node.html#ab854dbe1798ee176ce71659f2c27baee", null ],
     [ "StreamModelCache", "class_models_1_1_primitive_node.html#a314cd138b4dead320ef2f750d6777577", null ],
+    [ "ibo", "class_models_1_1_primitive_node.html#afc44cdb463891f6e6382a07b0bcbca08", null ],
+    [ "iboOffset", "class_models_1_1_primitive_node.html#aeebedc01573cd506884374e2620651ee", null ],
+    [ "primGroup", "class_models_1_1_primitive_node.html#ad336e6308249366786f138286a1ec005", null ],
     [ "primitiveGroupIndex", "class_models_1_1_primitive_node.html#a61c1e6b0e5b8d5bae2c48593bd4ccb0d", null ],
-    [ "primitiveGroupIndexLoaded", "class_models_1_1_primitive_node.html#ada1c5f27738fc829c2958a885e79cfd6", null ],
-    [ "res", "class_models_1_1_primitive_node.html#a549176031a9986a909a7720071bc774e", null ]
+    [ "res", "class_models_1_1_primitive_node.html#a549176031a9986a909a7720071bc774e", null ],
+    [ "topology", "class_models_1_1_primitive_node.html#a7d0c8f322e50059df02b1e227bff32d7", null ],
+    [ "vbo", "class_models_1_1_primitive_node.html#a53080b9cbe108dcf29c23c124f306502", null ],
+    [ "vboOffset", "class_models_1_1_primitive_node.html#a77fe1f0c0fcd217f882910da4ae469b1", null ],
+    [ "vertexLayout", "class_models_1_1_primitive_node.html#ace9bb65cf64d0c9b5d036a952c6de1de", null ]
 ];

@@ -12,7 +12,6 @@ var class_models_1_1_model_context =
     [ "Dealloc", "class_models_1_1_model_context.html#a8c49aec6aeb448b2a09cc011734b683f", null ],
     [ "GetModel", "class_models_1_1_model_context.html#a5b4535baa0956829c1c78120c0d47010", null ],
     [ "GetModel", "class_models_1_1_model_context.html#ab7f882eecb070f9af711ae02ba10f3b0", null ],
-    [ "GetModelNodeTypes", "class_models_1_1_model_context.html#aeec3c22470b581d6d3c9c76b6f346449", null ],
     [ "GetModelRenderableBoundingBoxes", "class_models_1_1_model_context.html#aaedbbf3e260600ac2844bae23e5c680b", null ],
     [ "GetModelRenderableFlags", "class_models_1_1_model_context.html#a0ee25d4937b4c06fdd2e4c0ef56e7ff7", null ],
     [ "GetModelRenderableRange", "class_models_1_1_model_context.html#a99732ad2ffc936aeab1e932a80ee625e", null ],

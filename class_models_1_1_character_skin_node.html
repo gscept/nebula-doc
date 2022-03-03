@@ -127,9 +127,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94da31461e5a4af10eb92b6fccb082dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">GetFragmentJointPalette</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fragmentIndex) const</td></tr>
 <tr class="memdesc:a94da31461e5a4af10eb92b6fccb082dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">get joint palette of a fragment  <a href="class_models_1_1_character_skin_node.html#a94da31461e5a4af10eb92b6fccb082dd">More...</a><br /></td></tr>
 <tr class="separator:a94da31461e5a4af10eb92b6fccb082dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#a70d765fdcea2890cc5a7fd199b2fde8c">GetApplyFunction</a> () override</td></tr>
-<tr class="memdesc:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to apply node.  <a href="class_models_1_1_character_skin_node.html#a70d765fdcea2890cc5a7fd199b2fde8c">More...</a><br /></td></tr>
-<tr class="separator:a70d765fdcea2890cc5a7fd199b2fde8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf3fe8d58918826f1f3268fbb75c0d9"><td class="memItemLeft" align="right" valign="top">std::function&lt; const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_character_skin_node.html#accf3fe8d58918826f1f3268fbb75c0d9">GetPrimitiveGroupFunction</a> () override</td></tr>
 <tr class="memdesc:accf3fe8d58918826f1f3268fbb75c0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get function to fetch primitive group.  <a href="class_models_1_1_character_skin_node.html#accf3fe8d58918826f1f3268fbb75c0d9">More...</a><br /></td></tr>
 <tr class="separator:accf3fe8d58918826f1f3268fbb75c0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,8 +254,20 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a549176031a9986a909a7720071bc774e inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61c1e6b0e5b8d5bae2c48593bd4ccb0d inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a61c1e6b0e5b8d5bae2c48593bd4ccb0d">primitiveGroupIndex</a></td></tr>
 <tr class="separator:a61c1e6b0e5b8d5bae2c48593bd4ccb0d inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1c5f27738fc829c2958a885e79cfd6 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#ada1c5f27738fc829c2958a885e79cfd6">primitiveGroupIndexLoaded</a></td></tr>
-<tr class="separator:ada1c5f27738fc829c2958a885e79cfd6 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53080b9cbe108dcf29c23c124f306502 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a53080b9cbe108dcf29c23c124f306502">vbo</a></td></tr>
+<tr class="separator:a53080b9cbe108dcf29c23c124f306502 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc44cdb463891f6e6382a07b0bcbca08 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#afc44cdb463891f6e6382a07b0bcbca08">ibo</a></td></tr>
+<tr class="separator:afc44cdb463891f6e6382a07b0bcbca08 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77fe1f0c0fcd217f882910da4ae469b1 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a77fe1f0c0fcd217f882910da4ae469b1">vboOffset</a></td></tr>
+<tr class="separator:a77fe1f0c0fcd217f882910da4ae469b1 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeebedc01573cd506884374e2620651ee inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#aeebedc01573cd506884374e2620651ee">iboOffset</a></td></tr>
+<tr class="separator:aeebedc01573cd506884374e2620651ee inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0c8f322e50059df02b1e227bff32d7 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#a7d0c8f322e50059df02b1e227bff32d7">topology</a></td></tr>
+<tr class="separator:a7d0c8f322e50059df02b1e227bff32d7 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad336e6308249366786f138286a1ec005 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#ad336e6308249366786f138286a1ec005">primGroup</a></td></tr>
+<tr class="separator:ad336e6308249366786f138286a1ec005 inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9bb65cf64d0c9b5d036a952c6de1de inherit pro_attribs_class_models_1_1_primitive_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_primitive_node.html#ace9bb65cf64d0c9b5d036a952c6de1de">vertexLayout</a></td></tr>
+<tr class="separator:ace9bb65cf64d0c9b5d036a952c6de1de inherit pro_attribs_class_models_1_1_primitive_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_models_1_1_shader_state_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_models_1_1_shader_state_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_models_1_1_shader_state_node.html">Models::ShaderStateNode</a></td></tr>
 <tr class="memitem:a776d60f8e219c4be5b5548939774d592 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_shader_config.html">Materials::ShaderConfig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a776d60f8e219c4be5b5548939774d592">materialType</a></td></tr>
 <tr class="separator:a776d60f8e219c4be5b5548939774d592 inherit pro_attribs_class_models_1_1_shader_state_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -410,35 +419,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>add a fragment (consisting of a mesh group index and a joint palette) </p>
-
-</div>
-</div>
-<a id="a70d765fdcea2890cc5a7fd199b2fde8c" name="a70d765fdcea2890cc5a7fd199b2fde8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70d765fdcea2890cc5a7fd199b2fde8c">&#9670;&nbsp;</a></span>GetApplyFunction()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt; void(const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>)&gt; Models::CharacterSkinNode::GetApplyFunction </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get function to apply node. </p>
-
-<p>Reimplemented from <a class="el" href="class_models_1_1_model_node.html#a09c0d54063ef97ca8f0fccff75a1c3c7">Models::ModelNode</a>.</p>
 
 </div>
 </div>
@@ -734,7 +714,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_character_skin_node.html">CharacterSkinNode</a></li>
 				<li class="footer">
-					Generated on Thu Mar 3 2022 15:58:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Mar 3 2022 18:59:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
