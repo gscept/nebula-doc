@@ -145,13 +145,13 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7">HasStateBit</a> = N_BIT(2)
  }</td></tr>
 <tr class="separator:abb3acbc147d8734c70568ad6b95e3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ca55daed3c501c162e90e235ff1e46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> { <br />
-&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a">NodeInstance_Active</a> = N_BIT(1)
-, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1">NodeInstance_LodActive</a> = N_BIT(2)
-, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248">NodeInstance_AlwaysVisible</a> = N_BIT(3)
-, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a">NodeInstance_Visible</a> = N_BIT(4)
+<tr class="memitem:a37ca55daed3c501c162e90e235ff1e46"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> { <br />
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0">NodeInstance_Active</a> = N_BIT(1)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad">NodeInstance_LodActive</a> = N_BIT(2)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a5e0cc41b65e78b6061f2007143df3a40">NodeInstance_AlwaysVisible</a> = N_BIT(3)
+, <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a85e9414a6cfc9c0f26659f613480cadc">NodeInstance_Visible</a> = N_BIT(4)
 , <br />
-&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877">NodeInstance_Moved</a> = N_BIT(5)
+&#160;&#160;<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a71b68985351170271696d14041ca4c1e">NodeInstance_Moved</a> = N_BIT(5)
 <br />
  }</td></tr>
 <tr class="separator:a37ca55daed3c501c162e90e235ff1e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +168,8 @@ Functions</h2></td></tr>
 <tr class="separator:a37c6ed83ff3393ad88921c722694b364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5407681c81e3608dc4c7605c5380d032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a5407681c81e3608dc4c7605c5380d032">__ImplementContext</a> (<a class="el" href="class_models_1_1_model_context.html">ModelContext</a>, <a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">ModelContext::modelContextAllocator</a>)</td></tr>
 <tr class="separator:a5407681c81e3608dc4c7605c5380d032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6d3fc3a7f060bc1b52bc54385a8cb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a8c6d3fc3a7f060bc1b52bc54385a8cb3">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a>)</td></tr>
+<tr class="separator:a8c6d3fc3a7f060bc1b52bc54385a8cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a068a2c073e3cc7a8a20656c055109baf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a068a2c073e3cc7a8a20656c055109baf">ModelRenderableUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
 <tr class="separator:a068a2c073e3cc7a8a20656c055109baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0487792a3c3ff3a227fc977eebfcfe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ac0487792a3c3ff3a227fc977eebfcfe8">ModelTransformUpdateJob</a> (const <a class="el" href="struct_jobs_1_1_job_func_context.html">Jobs::JobFuncContext</a> &amp;ctx)</td></tr>
@@ -210,18 +212,26 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">Models::NodeInstanceFlags</a></td>
+          <td class="memname">enum class <a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">Models::NodeInstanceFlags</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a" name="a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a"></a>NodeInstance_Active&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1" name="a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1"></a>NodeInstance_LodActive&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248" name="a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248"></a>NodeInstance_AlwaysVisible&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a" name="a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a"></a>NodeInstance_Visible&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877" name="a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877"></a>NodeInstance_Moved&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0" name="a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0"></a>NodeInstance_Active&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad" name="a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad"></a>NodeInstance_LodActive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a5e0cc41b65e78b6061f2007143df3a40" name="a37ca55daed3c501c162e90e235ff1e46a5e0cc41b65e78b6061f2007143df3a40"></a>NodeInstance_AlwaysVisible&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a85e9414a6cfc9c0f26659f613480cadc" name="a37ca55daed3c501c162e90e235ff1e46a85e9414a6cfc9c0f26659f613480cadc"></a>NodeInstance_Visible&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37ca55daed3c501c162e90e235ff1e46a71b68985351170271696d14041ca4c1e" name="a37ca55daed3c501c162e90e235ff1e46a71b68985351170271696d14041ca4c1e"></a>NodeInstance_Moved&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -313,7 +323,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a37c6ed83ff3393ad88921c722694b364" name="a37c6ed83ff3393ad88921c722694b364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37c6ed83ff3393ad88921c722694b364">&#9670;&nbsp;</a></span>__ImplementEnumBitOperators()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c6ed83ff3393ad88921c722694b364">&#9670;&nbsp;</a></span>__ImplementEnumBitOperators() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,6 +332,24 @@ Variables</h2></td></tr>
           <td class="memname">Models::__ImplementEnumBitOperators </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120">NodeBits</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c6d3fc3a7f060bc1b52bc54385a8cb3" name="a8c6d3fc3a7f060bc1b52bc54385a8cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6d3fc3a7f060bc1b52bc54385a8cb3">&#9670;&nbsp;</a></span>__ImplementEnumBitOperators() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Models::__ImplementEnumBitOperators </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_models.html#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -462,7 +490,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li>
 				<li class="footer">
-					Generated on Thu Mar 3 2022 19:11:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 7 2022 10:09:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

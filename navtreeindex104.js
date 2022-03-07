@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"namespace_core_graphics.html#a370339ade584ee567b80cd9af5eb67c2":[8,0,13,488],
 "namespace_core_graphics.html#a373cb9728bc8d9cfb9081cde28b89760":[8,0,13,340],
 "namespace_core_graphics.html#a37aa51209bf4b334c4f86b2cc1ab3c7d":[8,0,13,150],
 "namespace_core_graphics.html#a3872c11ac0392d504b101f815c4708bb":[8,0,13,436],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "namespace_core_graphics.html#a8f1c57b3e97ec202b349ab59eb0be317":[8,0,13,205],
 "namespace_core_graphics.html#a8faed933fc4d6bef51290d945fd65837":[8,0,13,485],
 "namespace_core_graphics.html#a8fd64d9917b01cdc34b428acbcce5220":[8,0,13,426],
-"namespace_core_graphics.html#a900d95dbab9a485f4395e2efc3b858c5":[8,0,13,272],
-"namespace_core_graphics.html#a9016a40a59649f74368a42bdce431eec":[8,0,13,361]
+"namespace_core_graphics.html#a900d95dbab9a485f4395e2efc3b858c5":[8,0,13,272]
 };

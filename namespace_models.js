@@ -17,11 +17,11 @@ var namespace_models =
       [ "HasStateBit", "namespace_models.html#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7", null ]
     ] ],
     [ "NodeInstanceFlags", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46", [
-      [ "NodeInstance_Active", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a", null ],
-      [ "NodeInstance_LodActive", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1", null ],
-      [ "NodeInstance_AlwaysVisible", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248", null ],
-      [ "NodeInstance_Visible", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a", null ],
-      [ "NodeInstance_Moved", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877", null ]
+      [ "NodeInstance_Active", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0", null ],
+      [ "NodeInstance_LodActive", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad", null ],
+      [ "NodeInstance_AlwaysVisible", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a5e0cc41b65e78b6061f2007143df3a40", null ],
+      [ "NodeInstance_Visible", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a85e9414a6cfc9c0f26659f613480cadc", null ],
+      [ "NodeInstance_Moved", "namespace_models.html#a37ca55daed3c501c162e90e235ff1e46a71b68985351170271696d14041ca4c1e", null ]
     ] ],
     [ "NodeType", "namespace_models.html#af6d870409eb928dcad15db9ca58a3790", [
       [ "CharacterNodeType", "namespace_models.html#af6d870409eb928dcad15db9ca58a3790a5f1772b878ae1a1a2ef586ec3073229f", null ],
@@ -35,6 +35,7 @@ var namespace_models =
     [ "__ImplementClass", "namespace_models.html#ace65293e8a46006c46159f69723caf39", null ],
     [ "__ImplementContext", "namespace_models.html#a5407681c81e3608dc4c7605c5380d032", null ],
     [ "__ImplementEnumBitOperators", "namespace_models.html#a37c6ed83ff3393ad88921c722694b364", null ],
+    [ "__ImplementEnumBitOperators", "namespace_models.html#a8c6d3fc3a7f060bc1b52bc54385a8cb3", null ],
     [ "CreateModel", "namespace_models.html#a1b8205930c5627e5d49360d0814f14f6", null ],
     [ "DestroyModel", "namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
     [ "ModelGetNodes", "namespace_models.html#ac8a019572bef03d92f59d49fde738ca0", null ],

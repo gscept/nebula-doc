@@ -6,10 +6,11 @@ var modelcontext_8h =
     [ "Models::ModelContext::ModelInstance::Transformable", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable" ],
     [ "Models::ModelContext::ModelInstance::Renderable", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable" ],
     [ "NodeInstanceFlags", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46", [
-      [ "NodeInstance_Active", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46ab4230836c4446ec5ecf739cde389482a", null ],
-      [ "NodeInstance_LodActive", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46add4af5e3451295743e9eaffb4a9adae1", null ],
-      [ "NodeInstance_AlwaysVisible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a1e6354d9eb5b48e26706c179608fe248", null ],
-      [ "NodeInstance_Visible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46affaae2a438c0d62cfe86815a8d53806a", null ],
-      [ "NodeInstance_Moved", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a75d450637d7600db879bd2f2e6aa1877", null ]
-    ] ]
+      [ "NodeInstance_Active", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0", null ],
+      [ "NodeInstance_LodActive", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad", null ],
+      [ "NodeInstance_AlwaysVisible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a5e0cc41b65e78b6061f2007143df3a40", null ],
+      [ "NodeInstance_Visible", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a85e9414a6cfc9c0f26659f613480cadc", null ],
+      [ "NodeInstance_Moved", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a71b68985351170271696d14041ca4c1e", null ]
+    ] ],
+    [ "__ImplementEnumBitOperators", "modelcontext_8h.html#a8c6d3fc3a7f060bc1b52bc54385a8cb3", null ]
 ];
