@@ -9,7 +9,6 @@ var dir_be29135e7a40ddc51ed958a8aaa8626e =
     [ "bruteforcesystem.h", "bruteforcesystem_8h.html", [
       [ "Visibility::BruteforceSystem", "class_visibility_1_1_bruteforce_system.html", "class_visibility_1_1_bruteforce_system" ]
     ] ],
-    [ "bruteforcesystemjob.cc", "bruteforcesystemjob_8cc.html", null ],
     [ "octreesystem.cc", "octreesystem_8cc.html", null ],
     [ "octreesystem.h", "octreesystem_8h.html", [
       [ "Visibility::OctreeSystem", "class_visibility_1_1_octree_system.html", "class_visibility_1_1_octree_system" ]

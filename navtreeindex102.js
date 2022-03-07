@@ -1,6 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"mat4_8h.html#a9a4a7929a543ac06c867931b4c4976a1":[10,0,0,3,12,9,6],
 "mat4_8h.html#a9aa096dd00d03acd7ef9d27c6ac44d0d":[10,0,0,3,12,9,36],
 "mat4_8h.html#a9ba1642f6a661c35eaa9bcdc790c4c46":[10,0,0,3,12,9,4],
 "mat4_8h.html#a9d2b600b17f33766e9b360bfd4eb6b63":[10,0,0,3,12,9,34],
@@ -153,10 +152,6 @@ var NAVTREEINDEX102 =
 "modelnode_8cc.html":[10,0,0,6,15,0,4],
 "modelnode_8h.html":[10,0,0,6,15,0,5],
 "modelnode_8h_source.html":[10,0,0,6,15,0,5],
-"modelrenderableupdatejob_8cc.html":[10,0,0,6,15,5],
-"modelrenderableupdatejob_8cc.html#a068a2c073e3cc7a8a20656c055109baf":[10,0,0,6,15,5,0],
-"modeltransformupdatejob_8cc.html":[10,0,0,6,15,6],
-"modeltransformupdatejob_8cc.html#ac0487792a3c3ff3a227fc977eebfcfe8":[10,0,0,6,15,6,0],
 "mouse_8cc.html":[10,0,0,4,0,15],
 "mouse_8h.html":[10,0,0,4,0,16],
 "mouse_8h_source.html":[10,0,0,4,0,16],
@@ -249,5 +244,10 @@ var NAVTREEINDEX102 =
 "namespace_attr.html#ae983a262f8975857235c1244be728064":[8,0,3,62],
 "namespace_attr.html#aef680177576eb34df21d2627c391efa9":[8,0,3,53],
 "namespace_attr.html#aef8e81865e93304692d59ad69a28d41f":[8,0,3,47],
-"namespace_attr.html#af3a2c5f686b1d73863841c7b06abf17f":[8,0,3,61]
+"namespace_attr.html#af3a2c5f686b1d73863841c7b06abf17f":[8,0,3,61],
+"namespace_attr.html#af8b50b3a799f9eef398efcbc2b9da55c":[8,0,3,54],
+"namespace_audio.html":[8,0,4],
+"namespace_audio.html#aef83eedba2378c050dbc9409f1eebda0":[8,0,4,5],
+"namespace_audio_feature.html":[8,0,5],
+"namespace_audio_feature.html#a159fb916a1bf20f4d0a182dc26866906":[8,0,5,5]
 };

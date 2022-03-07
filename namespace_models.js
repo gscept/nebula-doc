@@ -39,8 +39,6 @@ var namespace_models =
     [ "CreateModel", "namespace_models.html#a1b8205930c5627e5d49360d0814f14f6", null ],
     [ "DestroyModel", "namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
     [ "ModelGetNodes", "namespace_models.html#ac8a019572bef03d92f59d49fde738ca0", null ],
-    [ "ModelRenderableUpdateJob", "namespace_models.html#a068a2c073e3cc7a8a20656c055109baf", null ],
-    [ "ModelTransformUpdateJob", "namespace_models.html#ac0487792a3c3ff3a227fc977eebfcfe8", null ],
     [ "modelPool", "namespace_models.html#a4737f38ea853d52c5e29e91fffbf2e0b", null ],
     [ "setupCompleteQueue", "namespace_models.html#aeb16d485dfcc2dc93c6c6f1333b6ce7b", null ]
 ];

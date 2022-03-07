@@ -9,6 +9,5 @@ var dir_b1804efb9947d34e4b1ff56267bd870a =
     [ "visibilitycontext.cc", "visibilitycontext_8cc.html", "visibilitycontext_8cc" ],
     [ "visibilitycontext.h", "visibilitycontext_8h.html", "visibilitycontext_8h" ],
     [ "visibilitydependencyjob.cc", "visibilitydependencyjob_8cc.html", "visibilitydependencyjob_8cc" ],
-    [ "visibilitydrawlistupdatejob.cc", "visibilitydrawlistupdatejob_8cc.html", "visibilitydrawlistupdatejob_8cc" ],
-    [ "visibilitysortjob.cc", "visibilitysortjob_8cc.html", "visibilitysortjob_8cc" ]
+    [ "visibilitydrawlistupdatejob.cc", "visibilitydrawlistupdatejob_8cc.html", "visibilitydrawlistupdatejob_8cc" ]
 ];

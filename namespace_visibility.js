@@ -47,6 +47,5 @@ var namespace_visibility =
     [ "QuadtreeResolveFunction", "namespace_visibility.html#a870740731b013f784b58043a6d554171", null ],
     [ "VisibilityDependencyJob", "namespace_visibility.html#a7a6755d868caaaea3e74a98ac83f1b3b", null ],
     [ "VisibilityDrawListUpdateJob", "namespace_visibility.html#a7c40333f5fd1a488b1523d90b6673e5f", null ],
-    [ "VisibilitySortJob", "namespace_visibility.html#a0c00bcc23906962f0c8c8821dc860830", null ],
     [ "waitEvents", "namespace_visibility.html#a408b356cec20a3eb810596308cfada1c", null ]
 ];
