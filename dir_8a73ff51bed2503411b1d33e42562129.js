@@ -12,17 +12,7 @@ var dir_8a73ff51bed2503411b1d33e42562129 =
       [ "Materials::MaterialCache", "class_materials_1_1_material_cache.html", "class_materials_1_1_material_cache" ]
     ] ],
     [ "shaderconfig.cc", "shaderconfig_8cc.html", null ],
-    [ "shaderconfig.h", "shaderconfig_8h.html", [
-      [ "Materials::ShaderConfigVariant", "struct_materials_1_1_shader_config_variant.html", "struct_materials_1_1_shader_config_variant" ],
-      [ "Materials::ShaderConfigVariant::InternalType", "struct_materials_1_1_shader_config_variant_1_1_internal_type.html", "struct_materials_1_1_shader_config_variant_1_1_internal_type" ],
-      [ "Materials::ShaderConfigVariant::TextureHandleTuple", "struct_materials_1_1_shader_config_variant_1_1_texture_handle_tuple.html", "struct_materials_1_1_shader_config_variant_1_1_texture_handle_tuple" ],
-      [ "Materials::ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],
-      [ "Materials::ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
-      [ "Materials::ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
-      [ "Materials::ShaderConfig::SurfaceInstanceConstant", "struct_materials_1_1_shader_config_1_1_surface_instance_constant.html", "struct_materials_1_1_shader_config_1_1_surface_instance_constant" ],
-      [ "Materials::ShaderConfig::SurfaceConstant", "struct_materials_1_1_shader_config_1_1_surface_constant.html", "struct_materials_1_1_shader_config_1_1_surface_constant" ],
-      [ "Materials::ShaderConfig::SurfaceTexture", "struct_materials_1_1_shader_config_1_1_surface_texture.html", "struct_materials_1_1_shader_config_1_1_surface_texture" ]
-    ] ],
+    [ "shaderconfig.h", "shaderconfig_8h.html", "shaderconfig_8h" ],
     [ "shaderconfigserver.cc", "shaderconfigserver_8cc.html", "shaderconfigserver_8cc" ],
     [ "shaderconfigserver.h", "shaderconfigserver_8h.html", [
       [ "Materials::ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ]

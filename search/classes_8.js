@@ -3,7 +3,7 @@ var searchData=
   ['handler_0',['Handler',['../class_messaging_1_1_handler.html',1,'Messaging']]],
   ['handlerthreadbase_1',['HandlerThreadBase',['../class_messaging_1_1_handler_thread_base.html',1,'Messaging']]],
   ['hashtable_2',['HashTable',['../class_util_1_1_hash_table.html',1,'Util']]],
-  ['hashtable_3c_20coregraphics_3a_3abatchgroup_3a_3acode_2c_20indext_20_3e_3',['HashTable&lt; CoreGraphics::BatchGroup::Code, IndexT &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
+  ['hashtable_3c_20coregraphics_3a_3abatchgroup_3a_3acode_2c_20batchindex_20_3e_3',['HashTable&lt; CoreGraphics::BatchGroup::Code, BatchIndex &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20coregraphics_3a_3abatchgroup_3a_3acode_2c_20util_3a_3aarray_3c_20materials_3a_3ashaderconfig_20_2a_20_3e_20_3e_4',['HashTable&lt; CoreGraphics::BatchGroup::Code, Util::Array&lt; Materials::ShaderConfig * &gt; &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20game_3a_3ablueprintid_2c_20memdb_3a_3atableid_20_3e_5',['HashTable&lt; Game::BlueprintId, MemDb::TableId &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20game_3a_3amessagelistenerid_2c_20indext_20_3e_6',['HashTable&lt; Game::MessageListenerId, IndexT &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],

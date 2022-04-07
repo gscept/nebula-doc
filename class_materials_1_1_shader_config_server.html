@@ -174,8 +174,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1074e1d5dacd61588715ddbeca22576a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94afb9aa7e10cd5a1c08c6b921c95540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 0x10000 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a94afb9aa7e10cd5a1c08c6b921c95540">shaderConfigVariantAllocator</a></td></tr>
 <tr class="separator:a94afb9aa7e10cd5a1c08c6b921c95540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a950b5dba5cfa10719e1b6bc41732b82c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 0x400 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a950b5dba5cfa10719e1b6bc41732b82c">surfaceAllocator</a></td></tr>
-<tr class="separator:a950b5dba5cfa10719e1b6bc41732b82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebdbcf63fd2cdb3707fa48856fa080c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 0x400 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#adebdbcf63fd2cdb3707fa48856fa080c">materialAllocator</a></td></tr>
+<tr class="separator:adebdbcf63fd2cdb3707fa48856fa080c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac37b000ab0dcb5310d269ca1d84572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#afac37b000ab0dcb5310d269ca1d84572">shaderConfigsByName</a></td></tr>
 <tr class="separator:afac37b000ab0dcb5310d269ca1d84572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ea32d0f35f501cf3369b7347a04ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a70ea32d0f35f501cf3369b7347a04ab1">shaderConfigsByBatch</a></td></tr>
@@ -481,6 +481,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adebdbcf63fd2cdb3707fa48856fa080c" name="adebdbcf63fd2cdb3707fa48856fa080c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adebdbcf63fd2cdb3707fa48856fa080c">&#9670;&nbsp;</a></span>materialAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;0x400&gt; Materials::ShaderConfigServer::materialAllocator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a796ec9e2c550836cb7d0761a08345a4b" name="a796ec9e2c550836cb7d0761a08345a4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a796ec9e2c550836cb7d0761a08345a4b">&#9670;&nbsp;</a></span>shaderConfigs</h2>
 
@@ -569,28 +591,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a950b5dba5cfa10719e1b6bc41732b82c" name="a950b5dba5cfa10719e1b6bc41732b82c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a950b5dba5cfa10719e1b6bc41732b82c">&#9670;&nbsp;</a></span>surfaceAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;0x400&gt; Materials::ShaderConfigServer::surfaceAllocator</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1074e1d5dacd61588715ddbeca22576a" name="a1074e1d5dacd61588715ddbeca22576a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1074e1d5dacd61588715ddbeca22576a">&#9670;&nbsp;</a></span>variantAllocatorLock</h2>
 
@@ -624,7 +624,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li><li class="navelem"><a class="el" href="class_materials_1_1_shader_config_server.html">ShaderConfigServer</a></li>
 				<li class="footer">
-					Generated on Mon Mar 7 2022 11:27:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Apr 7 2022 08:47:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -5,6 +5,7 @@ var modelcontext_8h =
     [ "Models::ModelContext::ModelInstance", "struct_models_1_1_model_context_1_1_model_instance.html", "struct_models_1_1_model_context_1_1_model_instance" ],
     [ "Models::ModelContext::ModelInstance::Transformable", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable" ],
     [ "Models::ModelContext::ModelInstance::Renderable", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable" ],
+    [ "Models::ModelContext::MaterialInstanceContext", "struct_models_1_1_model_context_1_1_material_instance_context.html", "struct_models_1_1_model_context_1_1_material_instance_context" ],
     [ "NodeInstanceFlags", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46", [
       [ "NodeInstance_Active", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0", null ],
       [ "NodeInstance_LodActive", "modelcontext_8h.html#a37ca55daed3c501c162e90e235ff1e46a720d90632438295ca9c0676ac53f75ad", null ],

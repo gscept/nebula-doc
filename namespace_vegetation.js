@@ -46,6 +46,6 @@ var namespace_vegetation =
     [ "vegetationGenerateDrawsShader", "namespace_vegetation.html#afaddaba24d3fca9a125934e0b7c786d4", null ],
     [ "vegetationGrassShader", "namespace_vegetation.html#a6ed093ed62bbc3b585b035d4d8c2e423", null ],
     [ "vegetationMeshShader", "namespace_vegetation.html#a9363ab6740c3e331e9a04a97c88ee0a4", null ],
-    [ "vegetationState", "namespace_vegetation.html#a8085afdb3f97cc27ba856f9a7b982553", null ],
+    [ "vegetationState", "namespace_vegetation.html#adca01f61c2b4ccb94742f53f51efe4d4", null ],
     [ "worldSize", "namespace_vegetation.html#a030f0a9fe702fb7215ea85ce2d66e223", null ]
 ];

@@ -117,7 +117,7 @@ var searchData=
   ['insetup_114',['inSetup',['../class_util_1_1_sparse_table.html#a19cccb246b4e1680dc85371c290bb067',1,'Util::SparseTable']]],
   ['inspectors_115',['inspectors',['../class_game_1_1_component_inspection.html#a03ef42949a0409658aa5f4c4ec824761',1,'Game::ComponentInspection']]],
   ['instance_116',['instance',['../struct_vulkan_1_1_graphics_device_state.html#a295379b6bdc465c5a22c1c7f780037cf',1,'Vulkan::GraphicsDeviceState::instance()'],['../struct_game_1_1_entity_mapping.html#ac6cb1a16a61657375db06699105cc137',1,'Game::EntityMapping::instance()']]],
-  ['instanceconstant_117',['instanceConstant',['../struct_materials_1_1_shader_config_1_1_surface_constant.html#ac868d9e3d2ddf65f7f939c93bb891b72',1,'Materials::ShaderConfig::SurfaceConstant']]],
+  ['instanceconstant_117',['instanceConstant',['../struct_materials_1_1_shader_config_1_1_material_constant.html#a5d8e10398770ad47ecc27413ffcaf7e4',1,'Materials::ShaderConfig::MaterialConstant']]],
   ['instancecount_118',['instanceCount',['../struct_physics_1_1_actor_info.html#a08df911b2ba001415c147ac4c9c187f7',1,'Physics::ActorInfo']]],
   ['instancesbycode_119',['instancesByCode',['../class_base_1_1_instance_server_base.html#a7fba8bf4a1bed079388b75bae7e24902',1,'Base::InstanceServerBase']]],
   ['instancesize_120',['instanceSize',['../class_core_1_1_rtti.html#a32243b11b7e2f9171ab082e9296a4aae',1,'Core::Rtti']]],

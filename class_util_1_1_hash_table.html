@@ -156,9 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa1b2d49c3f24580e828a11891e9dc61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#afa1b2d49c3f24580e828a11891e9dc61">Add</a> (const KEYTYPE &amp;key, const VALUETYPE &amp;value)</td></tr>
 <tr class="memdesc:afa1b2d49c3f24580e828a11891e9dc61"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a key and associated value  <a href="class_util_1_1_hash_table.html#afa1b2d49c3f24580e828a11891e9dc61">More...</a><br /></td></tr>
 <tr class="separator:afa1b2d49c3f24580e828a11891e9dc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40d0efd8ab1dcdb61f82b1369ad1dc7d"><td class="memItemLeft" align="right" valign="top">VALUETYPE &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a40d0efd8ab1dcdb61f82b1369ad1dc7d">AddUnique</a> (const KEYTYPE &amp;key)</td></tr>
-<tr class="memdesc:a40d0efd8ab1dcdb61f82b1369ad1dc7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds element only if it doesn't exist, and return reference to it  <a href="class_util_1_1_hash_table.html#a40d0efd8ab1dcdb61f82b1369ad1dc7d">More...</a><br /></td></tr>
-<tr class="separator:a40d0efd8ab1dcdb61f82b1369ad1dc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b369f551117fede1cd96519006b054d"><td class="memItemLeft" align="right" valign="top">VALUETYPE &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a2b369f551117fede1cd96519006b054d">Emplace</a> (const KEYTYPE &amp;key)</td></tr>
+<tr class="memdesc:a2b369f551117fede1cd96519006b054d"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds element only if it doesn't exist, and return reference to it  <a href="class_util_1_1_hash_table.html#a2b369f551117fede1cd96519006b054d">More...</a><br /></td></tr>
+<tr class="separator:a2b369f551117fede1cd96519006b054d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e599336fc2ff765d1c56a17cf10d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a07e599336fc2ff765d1c56a17cf10d8d">EndBulkAdd</a> ()</td></tr>
 <tr class="memdesc:a07e599336fc2ff765d1c56a17cf10d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">end bulk adding, which sorts all affected tables  <a href="class_util_1_1_hash_table.html#a07e599336fc2ff765d1c56a17cf10d8d">More...</a><br /></td></tr>
 <tr class="separator:a07e599336fc2ff765d1c56a17cf10d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,28 +340,6 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt;
 
 </div>
 </div>
-<a id="a40d0efd8ab1dcdb61f82b1369ad1dc7d" name="a40d0efd8ab1dcdb61f82b1369ad1dc7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40d0efd8ab1dcdb61f82b1369ad1dc7d">&#9670;&nbsp;</a></span>AddUnique()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">VALUETYPE &amp; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::AddUnique </td>
-          <td>(</td>
-          <td class="paramtype">const KEYTYPE &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>adds element only if it doesn't exist, and return reference to it </p>
-
-</div>
-</div>
 <a id="ac6fc52d85bb47a4191608defc3705fa7" name="ac6fc52d85bb47a4191608defc3705fa7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6fc52d85bb47a4191608defc3705fa7">&#9670;&nbsp;</a></span>Begin()</h2>
 
@@ -471,6 +449,28 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt;
 </div><div class="memdoc">
 
 <p>return array of all key/value pairs in the table (slow) </p>
+
+</div>
+</div>
+<a id="a2b369f551117fede1cd96519006b054d" name="a2b369f551117fede1cd96519006b054d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b369f551117fede1cd96519006b054d">&#9670;&nbsp;</a></span>Emplace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">VALUETYPE &amp; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::Emplace </td>
+          <td>(</td>
+          <td class="paramtype">const KEYTYPE &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds element only if it doesn't exist, and return reference to it </p>
 
 </div>
 </div>
@@ -1025,7 +1025,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE = 128, int STACK_SI
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_hash_table.html">HashTable</a></li>
 				<li class="footer">
-					Generated on Mon Mar 7 2022 11:27:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Apr 7 2022 08:47:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

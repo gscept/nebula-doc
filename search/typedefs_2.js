@@ -8,6 +8,7 @@ var searchData=
   ['completioncounter_5',['CompletionCounter',['../namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7',1,'Jobs2']]],
   ['componentarray_6',['ComponentArray',['../namespace_game.html#a8bdfdb9b06838ccef5c7a73419acafc6',1,'Game']]],
   ['componentid_7',['ComponentId',['../namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4',1,'Game']]],
-  ['coreid_8',['CoreId',['../class_o_s_x_1_1_o_s_x_cpu.html#a5f1719763514bd67b1d6f10cc7204f7c',1,'OSX::OSXCpu::CoreId()'],['../class_posix_1_1_posix_cpu.html#a4e43bdafc34fde129fcea1e00506bd55',1,'Posix::PosixCpu::CoreId()'],['../class_win32_1_1_win32_cpu.html#ad6bcb5a51eaa9697a4343fa2d37091cf',1,'Win32::Win32Cpu::CoreId()']]],
-  ['creator_9',['Creator',['../class_core_1_1_rtti.html#ac764d1e3ce29835e737eb72e2dc83b0c',1,'Core::Rtti']]]
+  ['constantbufferoffset_8',['ConstantBufferOffset',['../namespace_core_graphics.html#a7c6181f333ec8bbadc23a8a3e236ba96',1,'CoreGraphics']]],
+  ['coreid_9',['CoreId',['../class_o_s_x_1_1_o_s_x_cpu.html#a5f1719763514bd67b1d6f10cc7204f7c',1,'OSX::OSXCpu::CoreId()'],['../class_posix_1_1_posix_cpu.html#a4e43bdafc34fde129fcea1e00506bd55',1,'Posix::PosixCpu::CoreId()'],['../class_win32_1_1_win32_cpu.html#ad6bcb5a51eaa9697a4343fa2d37091cf',1,'Win32::Win32Cpu::CoreId()']]],
+  ['creator_10',['Creator',['../class_core_1_1_rtti.html#ac764d1e3ce29835e737eb72e2dc83b0c',1,'Core::Rtti']]]
 ];

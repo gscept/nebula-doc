@@ -639,6 +639,8 @@ var annotated_dup =
       [ "MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
       [ "MaterialResourceId", "struct_materials_1_1_material_resource_id.html", null ],
       [ "ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
+      [ "ShaderConfigBatchConstant", "struct_materials_1_1_shader_config_batch_constant.html", "struct_materials_1_1_shader_config_batch_constant" ],
+      [ "ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", "struct_materials_1_1_shader_config_batch_texture" ],
       [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
       [ "ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ],
       [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ],

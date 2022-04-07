@@ -1,5 +1,6 @@
 var class_models_1_1_model_context =
 [
+    [ "MaterialInstanceContext", "struct_models_1_1_model_context_1_1_material_instance_context.html", "struct_models_1_1_model_context_1_1_material_instance_context" ],
     [ "ModelInstance", "struct_models_1_1_model_context_1_1_model_instance.html", "struct_models_1_1_model_context_1_1_model_instance" ],
     [ "NodeInstanceState", "struct_models_1_1_model_context_1_1_node_instance_state.html", "struct_models_1_1_model_context_1_1_node_instance_state" ],
     [ "ModelContextAllocator", "class_models_1_1_model_context.html#a278a866dd7c677d93b98225a30782a5b", null ],
@@ -7,6 +8,7 @@ var class_models_1_1_model_context =
     [ "~ModelContext", "class_models_1_1_model_context.html#a7013431eb553ad333a960ef5583a2667", null ],
     [ "__DeclareContext", "class_models_1_1_model_context.html#a92a6cf4f06916bed57f0ff4533f5496b", null ],
     [ "Alloc", "class_models_1_1_model_context.html#af546a3bb75df322233d7f01808cb083c", null ],
+    [ "AllocateInstanceConstants", "class_models_1_1_model_context.html#ac8e78739d28fdf9c662504ac9a8d5348", null ],
     [ "ChangeModel", "class_models_1_1_model_context.html#a8ec0facd79f6cb19784e9786af511780", null ],
     [ "Create", "class_models_1_1_model_context.html#ad01b6860515f84bde65c7f74965ea6fe", null ],
     [ "Dealloc", "class_models_1_1_model_context.html#a8c49aec6aeb448b2a09cc011734b683f", null ],
@@ -24,10 +26,12 @@ var class_models_1_1_model_context =
     [ "OnRenderDebug", "class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa", null ],
     [ "SetTransform", "class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370", null ],
     [ "Setup", "class_models_1_1_model_context.html#ab5a3ec5a4d6a067631c15719d9273a5e", null ],
+    [ "SetupMaterialInstanceContext", "class_models_1_1_model_context.html#a74fab50960deb694e6d8e208b055f8c2", null ],
     [ "UpdateTransforms", "class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df", null ],
     [ "WaitForWork", "class_models_1_1_model_context.html#aed47f2b5fb5e5eaedfe4d66783789bdb", null ],
     [ "VisibilityContext", "class_models_1_1_model_context.html#a509a5aab5489f1b0775e002d97e178f5", null ],
     [ "completionEvent", "class_models_1_1_model_context.html#ab98964ed68726e1a4addd432c37d4d85", null ],
+    [ "materialInstanceContexts", "class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
     [ "nodeInstances", "class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b", null ]
 ];

@@ -13,10 +13,10 @@ var class_materials_1_1_shader_config_server =
     [ "MaterialCache", "class_materials_1_1_shader_config_server.html#af1335b4670ce970e163791adcf8fbb51", null ],
     [ "currentType", "class_materials_1_1_shader_config_server.html#a34105a6494d5f8e45b907b30b84e0668", null ],
     [ "isOpen", "class_materials_1_1_shader_config_server.html#a589e17f1a83291cdc1caf1be5b150258", null ],
+    [ "materialAllocator", "class_materials_1_1_shader_config_server.html#adebdbcf63fd2cdb3707fa48856fa080c", null ],
     [ "shaderConfigs", "class_materials_1_1_shader_config_server.html#a796ec9e2c550836cb7d0761a08345a4b", null ],
     [ "shaderConfigsByBatch", "class_materials_1_1_shader_config_server.html#a70ea32d0f35f501cf3369b7347a04ab1", null ],
     [ "shaderConfigsByName", "class_materials_1_1_shader_config_server.html#afac37b000ab0dcb5310d269ca1d84572", null ],
     [ "shaderConfigVariantAllocator", "class_materials_1_1_shader_config_server.html#a94afb9aa7e10cd5a1c08c6b921c95540", null ],
-    [ "surfaceAllocator", "class_materials_1_1_shader_config_server.html#a950b5dba5cfa10719e1b6bc41732b82c", null ],
     [ "variantAllocatorLock", "class_materials_1_1_shader_config_server.html#a1074e1d5dacd61588715ddbeca22576a", null ]
 ];
