@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('profiling_8h.html',''); initResizable(
 <code>#include &quot;<a class="el" href="dictionary_8h_source.html">util/dictionary.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ringbuffer_8h_source.html">util/ringbuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tupleutility_8h_source.html">util/tupleutility.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="threadid_8h_source.html">threading/threadid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="thread_8h_source.html">threading/thread.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="criticalsection_8h_source.html">threading/criticalsection.h</a>&quot;</code><br />
@@ -180,6 +181,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a37fdbc46ecd7650aa2b8610b72c7309e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a37fdbc46ecd7650aa2b8610b72c7309e">Profiling::ProfilingGetCounters</a> ()</td></tr>
 <tr class="memdesc:a37fdbc46ecd7650aa2b8610b72c7309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return table of counters  <a href="namespace_profiling.html#a37fdbc46ecd7650aa2b8610b72c7309e">More...</a><br /></td></tr>
 <tr class="separator:a37fdbc46ecd7650aa2b8610b72c7309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c2f12d73d18c425ed486e7c52cd9d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a12c2f12d73d18c425ed486e7c52cd9d9">Profiling::ProfilingSetupBudgetCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> budget)</td></tr>
+<tr class="memdesc:a12c2f12d73d18c425ed486e7c52cd9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a profiling budget counter.  <a href="namespace_profiling.html#a12c2f12d73d18c425ed486e7c52cd9d9">More...</a><br /></td></tr>
+<tr class="separator:a12c2f12d73d18c425ed486e7c52cd9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd03f638a7f3780332ef50a7cad1973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a4bd03f638a7f3780332ef50a7cad1973">Profiling::ProfilingBudgetIncreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
+<tr class="memdesc:a4bd03f638a7f3780332ef50a7cad1973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment budget counter.  <a href="namespace_profiling.html#a4bd03f638a7f3780332ef50a7cad1973">More...</a><br /></td></tr>
+<tr class="separator:a4bd03f638a7f3780332ef50a7cad1973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a9d47489aa1dbbcb7a09e18a65e4b2d9d">Profiling::ProfilingBudgetDecreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
+<tr class="memdesc:a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement budget counter.  <a href="namespace_profiling.html#a9d47489aa1dbbcb7a09e18a65e4b2d9d">More...</a><br /></td></tr>
+<tr class="separator:a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a13f1ea0095c745ec458242bcc8f12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a73a13f1ea0095c745ec458242bcc8f12">Profiling::ProfilingBudgetResetCounter</a> (const char *id)</td></tr>
+<tr class="memdesc:a73a13f1ea0095c745ec458242bcc8f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset budget counter.  <a href="namespace_profiling.html#a73a13f1ea0095c745ec458242bcc8f12">More...</a><br /></td></tr>
+<tr class="separator:a73a13f1ea0095c745ec458242bcc8f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df09e01d96d875d069028b0e526575b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afb76d79dd0028154ff80d514ec0a66cc">Util::Pair</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_profiling.html#a0df09e01d96d875d069028b0e526575b">Profiling::ProfilingGetBudgetCounters</a> ()</td></tr>
+<tr class="memdesc:a0df09e01d96d875d069028b0e526575b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return set of budget counters.  <a href="namespace_profiling.html#a0df09e01d96d875d069028b0e526575b">More...</a><br /></td></tr>
+<tr class="separator:a0df09e01d96d875d069028b0e526575b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3d4e7120ac442b5b4e061a4f88cdd154" name="a3d4e7120ac442b5b4e061a4f88cdd154"></a>
@@ -462,7 +478,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_65f4f95f3972bd5320ee0c0541086302.html">profiling</a></li><li class="navelem"><a class="el" href="profiling_8h.html">profiling.h</a></li>
 				<li class="footer">
-					Generated on Sun Apr 10 2022 22:44:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Apr 11 2022 17:30:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

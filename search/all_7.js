@@ -1012,7 +1012,7 @@ var searchData=
   ['group_1009',['group',['../class_materials_1_1_shader_config.html#ad606537e0afa8b15a342f9b54020fc0a',1,'Materials::ShaderConfig']]],
   ['group_1010',['Group',['../class_input_1_1_key.html#a7c40d7f95cb4ee2fa9c66b2100a09bfe',1,'Input::Key']]],
   ['group_1011',['group',['../struct_materials_1_1_shader_config_batch_constant.html#a6238267b133c730673c0703b149c0c93',1,'Materials::ShaderConfigBatchConstant::group()'],['../class_vulkan_1_1_vk_text_renderer.html#ae9d21b020e3dcee8ee90ac76494ea4eb',1,'Vulkan::VkTextRenderer::group()'],['../class_debug_1_1_debug_timer.html#a65d463ae2275615a1ea67e7049a3f944',1,'Debug::DebugTimer::group()'],['../class_debug_1_1_debug_counter.html#ace00e1ae0be36124e1846982c6938596',1,'Debug::DebugCounter::group()']]],
-  ['groupcompletioncounter_1012',['groupCompletionCounter',['../struct_jobs2_1_1_job_context.html#abbce13d6698769c504e67741aa20a826',1,'Jobs2::JobContext']]],
+  ['groupcompletioncounter_1012',['groupCompletionCounter',['../struct_jobs2_1_1_job_context.html#a7327a4a261a0afe1fa5ede150947b4c0',1,'Jobs2::JobContext']]],
   ['groupdataptr_1013',['groupDataPtr',['../class_core_graphics_1_1_nvx3_stream_reader.html#abdde9d12a33d46f11f355daa4acd7d0c',1,'CoreGraphics::Nvx3StreamReader']]],
   ['groupdatasize_1014',['groupDataSize',['../class_core_graphics_1_1_nvx3_stream_reader.html#a38c3af12d7b6bcef790d85d68138c89f',1,'CoreGraphics::Nvx3StreamReader']]],
   ['groupindex_1015',['groupIndex',['../class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c',1,'CoreGraphics::RenderShape']]],

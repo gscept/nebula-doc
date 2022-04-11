@@ -11,14 +11,17 @@ var namespace_jobs2 =
     [ "JobAlloc", "namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586", null ],
     [ "JobAppendSequence", "namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad", null ],
     [ "JobAppendSequence", "namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753", null ],
-    [ "JobBeginSequence", "namespace_jobs2.html#af0aba2ed1db3144312975955a5813871", null ],
+    [ "JobBeginSequence", "namespace_jobs2.html#aad0a8c6bc396afb073d040d8edc59e68", null ],
     [ "JobDispatch", "namespace_jobs2.html#ab27208e726408d55041641050c6c499e", null ],
     [ "JobDispatch", "namespace_jobs2.html#a0322ffa1816a2d22e2c0a641e1f529ee", null ],
     [ "JobEndSequence", "namespace_jobs2.html#a8a77ae07b7a1fce0fbfda3dd791f7c42", null ],
     [ "JobNewFrame", "namespace_jobs2.html#aeabcfb01fb42b745463a89731f3d5f24", null ],
+    [ "JobSequencePlaceholder", "namespace_jobs2.html#a4210592bf184a050b6186aaebe50c291", null ],
     [ "JobSystemInit", "namespace_jobs2.html#ad498adba003c6acc81d0611c13585756", null ],
     [ "JobSystemUninit", "namespace_jobs2.html#a9a3360384a60687e36549ca602ebd683", null ],
     [ "ctx", "namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25", null ],
-    [ "sequenceCompletionCounter", "namespace_jobs2.html#aa591d0402e270f944390819d47e9ae48", null ],
-    [ "sequenceWaitCounters", "namespace_jobs2.html#a783eff89e34bfe6d032c0a04aeac8873", null ]
+    [ "prevDoneCounter", "namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89", null ],
+    [ "sequenceNode", "namespace_jobs2.html#a552a701d44bf6ad7e5d6b508f6fa8cfb", null ],
+    [ "sequenceTail", "namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50", null ],
+    [ "sequenceThread", "namespace_jobs2.html#a3ba2dc1e42cccb235a414abe88d3d3bb", null ]
 ];

@@ -4,7 +4,7 @@ var class_memory_1_1_range_allocator =
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f", null ],
     [ "~RangeAllocator", "class_memory_1_1_range_allocator.html#a039573073c71852bdbcd13e77616a198", null ],
     [ "Alloc", "class_memory_1_1_range_allocator.html#a7368f880a5c9ed8b47f63c23a0520ea1", null ],
-    [ "Dealloc", "class_memory_1_1_range_allocator.html#ae9ba974ea0fa6f630b09f31757399ddc", null ],
+    [ "Dealloc", "class_memory_1_1_range_allocator.html#abb8a06d8ac83a5f95bcdd5b4183f920b", null ],
     [ "Resize", "class_memory_1_1_range_allocator.html#a3343f283076eb4d2da2ccd4c948982fa", null ],
     [ "ranges", "class_memory_1_1_range_allocator.html#a980d55cb3809b57cb023d1262d65e6c9", null ],
     [ "size", "class_memory_1_1_range_allocator.html#afa78f2e54de29659bc22b2d5aff56308", null ]
