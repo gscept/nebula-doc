@@ -32,7 +32,7 @@ var searchData=
   ['job_5fcreateinfo_29',['Job_CreateInfo',['../namespace_jobs.html#aabbf494a63ed8e1f96fc8e41abfae9b3a174cddaaf460406f06617ef0f68acaff',1,'Jobs']]],
   ['job_5fid_30',['JOB_ID',['../namespace_particles.html#a6b7774555eac24d3d4fee976940eceff',1,'Particles']]],
   ['job_5fscratchmemory_31',['Job_ScratchMemory',['../namespace_jobs.html#aabbf494a63ed8e1f96fc8e41abfae9b3ab9d360a02f23869fbca9b8913332af1c',1,'Jobs']]],
-  ['joballoc_32',['JobAlloc',['../namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586',1,'Jobs2']]],
+  ['joballoc_32',['JobAlloc',['../namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586',1,'Jobs2::JobAlloc(SizeT count)'],['../namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730',1,'Jobs2::JobAlloc(SizeT bytes)']]],
   ['joballocatescratchmemory_33',['JobAllocateScratchMemory',['../namespace_jobs.html#a56025012a52787cf078d493b6abe2fbe',1,'Jobs']]],
   ['joballocator_34',['JobAllocator',['../namespace_jobs.html#aefe64565cdbf947d5856b071f8b6c348',1,'Jobs']]],
   ['joballocator_35',['jobAllocator',['../namespace_jobs.html#abf368e9017b84e796ab5f92857ed1771',1,'Jobs']]],

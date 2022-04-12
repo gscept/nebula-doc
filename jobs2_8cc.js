@@ -1,6 +1,7 @@
 var jobs2_8cc =
 [
     [ "__ImplementClass", "jobs2_8cc.html#a154abe3ecf3d846f6fff9995f4756e8a", null ],
+    [ "JobAlloc", "jobs2_8cc.html#ab4799a23175610f12cb3f97d260b8730", null ],
     [ "JobBeginSequence", "jobs2_8cc.html#aad0a8c6bc396afb073d040d8edc59e68", null ],
     [ "JobEndSequence", "jobs2_8cc.html#a8a77ae07b7a1fce0fbfda3dd791f7c42", null ],
     [ "JobNewFrame", "jobs2_8cc.html#aeabcfb01fb42b745463a89731f3d5f24", null ],

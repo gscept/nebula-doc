@@ -125,6 +125,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aeabcfb01fb42b745463a89731f3d5f24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#aeabcfb01fb42b745463a89731f3d5f24">JobNewFrame</a> ()</td></tr>
 <tr class="memdesc:aeabcfb01fb42b745463a89731f3d5f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress to new buffer.  <a href="namespace_jobs2.html#aeabcfb01fb42b745463a89731f3d5f24">More...</a><br /></td></tr>
 <tr class="separator:aeabcfb01fb42b745463a89731f3d5f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4799a23175610f12cb3f97d260b8730"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> bytes)</td></tr>
+<tr class="memdesc:ab4799a23175610f12cb3f97d260b8730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory.  <a href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">More...</a><br /></td></tr>
+<tr class="separator:ab4799a23175610f12cb3f97d260b8730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4210592bf184a050b6186aaebe50c291"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#a4210592bf184a050b6186aaebe50c291">JobSequencePlaceholder</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *<a class="el" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>)</td></tr>
 <tr class="separator:a4210592bf184a050b6186aaebe50c291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0a8c6bc396afb073d040d8edc59e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_jobs2.html#aad0a8c6bc396afb073d040d8edc59e68">JobBeginSequence</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
@@ -229,8 +232,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab4799a23175610f12cb3f97d260b8730" name="ab4799a23175610f12cb3f97d260b8730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4799a23175610f12cb3f97d260b8730">&#9670;&nbsp;</a></span>JobAlloc() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * Jobs2::JobAlloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>bytes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate memory. </p>
+
+</div>
+</div>
 <a id="a10dcfcd06d6b6f553f80c4e5c2499586" name="a10dcfcd06d6b6f553f80c4e5c2499586"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10dcfcd06d6b6f553f80c4e5c2499586">&#9670;&nbsp;</a></span>JobAlloc()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10dcfcd06d6b6f553f80c4e5c2499586">&#9670;&nbsp;</a></span>JobAlloc() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,7 +708,7 @@ template&lt;typename CTX &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs2.html">Jobs2</a></li>
 				<li class="footer">
-					Generated on Mon Apr 11 2022 17:30:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 12 2022 09:24:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

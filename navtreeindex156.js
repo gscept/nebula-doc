@@ -1,5 +1,8 @@
 var NAVTREEINDEX156 =
 {
+"win32sysfunc_8cc.html":[10,0,0,3,1,3,2],
+"win32sysfunc_8cc.html#af034a79b1610308d3477da8875305db1":[10,0,0,3,1,3,2,0],
+"win32sysfunc_8h.html":[10,0,0,3,1,3,3],
 "win32sysfunc_8h_source.html":[10,0,0,3,1,3,3],
 "win32systeminfo_8cc.html":[10,0,0,3,17,4,7],
 "win32systeminfo_8h.html":[10,0,0,3,17,4,8],
