@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('animjobutil_8h_source.html',''); initR
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                {</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                    f0.load((<a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>*)src0SamplePtr);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                    f1.load((<a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>*)src1SamplePtr);</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                    fDst = <a class="code hl_function" href="namespace_math.html#ad61fe145c21256d28610f6604167d6a7">float4::lerp</a>(f0, f1, sampleWeight);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                    fDst = <a class="code hl_function" href="namespace_math.html#a6c0b0cb0c439733998607acc2deebfac">float4::lerp</a>(f0, f1, sampleWeight);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                    <span class="keywordflow">if</span> (<a class="code hl_enumvalue" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991beaabc36d3b7aefee8b95a34921e06686b5">CurveType::Velocity</a> == curveType)</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                    {</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                        fDst = <a class="code hl_function" href="namespace_math.html#a3ca4ecda85c513ea2b06efff69308e3c">float4::multiply</a>(fDst, velocityScale);</div>
@@ -255,7 +255,7 @@ $(document).ready(function(){initNavTree('animjobutil_8h_source.html',''); initR
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            {</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>                f0.load((<a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>*)src0SamplePtr);</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                f1.load((<a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>*)src1SamplePtr);</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                fDst = <a class="code hl_function" href="namespace_math.html#ad61fe145c21256d28610f6604167d6a7">float4::lerp</a>(f0, f1, mixWeight * maskWeight);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                fDst = <a class="code hl_function" href="namespace_math.html#a6c0b0cb0c439733998607acc2deebfac">float4::lerp</a>(f0, f1, mixWeight * maskWeight);</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>                fDst.store((<a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>*)outSamplePtr);</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            }</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        }</div>
@@ -301,8 +301,8 @@ $(document).ready(function(){initNavTree('animjobutil_8h_source.html',''); initR
 <div class="ttc" id="anamespace_math_html"><div class="ttname"><a href="namespace_math.html">Math</a></div><div class="ttdef"><b>Definition:</b> angularpfeedbackloop.h:17</div></div>
 <div class="ttc" id="anamespace_math_html_a3ca4ecda85c513ea2b06efff69308e3c"><div class="ttname"><a href="namespace_math.html#a3ca4ecda85c513ea2b06efff69308e3c">Math::multiply</a></div><div class="ttdeci">__forceinline vec3 multiply(const vec3 &amp;v0, const vec3 &amp;v1)</div><div class="ttdef"><b>Definition:</b> vec3.h:374</div></div>
 <div class="ttc" id="anamespace_math_html_a4888e237383d5fa2f0c694ab75a8627f"><div class="ttname"><a href="namespace_math.html#a4888e237383d5fa2f0c694ab75a8627f">Math::slerp</a></div><div class="ttdeci">quat slerp(const quat &amp;q1, const quat &amp;q2, scalar t)</div><div class="ttdoc">quat slerp TODO: rewrite using sse/avx</div><div class="ttdef"><b>Definition:</b> quat.h:435</div></div>
+<div class="ttc" id="anamespace_math_html_a6c0b0cb0c439733998607acc2deebfac"><div class="ttname"><a href="namespace_math.html#a6c0b0cb0c439733998607acc2deebfac">Math::lerp</a></div><div class="ttdeci">__forceinline float lerp(float x, float y, float l)</div><div class="ttdoc">Linearly interpolate between 2 values: ret = x + l * (y - x)</div><div class="ttdef"><b>Definition:</b> scalar.h:525</div></div>
 <div class="ttc" id="anamespace_math_html_aa2733c5340f0e631b4e55bbda18b3243"><div class="ttname"><a href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">Math::scalar</a></div><div class="ttdeci">float scalar</div><div class="ttdef"><b>Definition:</b> scalar.h:44</div></div>
-<div class="ttc" id="anamespace_math_html_ad61fe145c21256d28610f6604167d6a7"><div class="ttname"><a href="namespace_math.html#ad61fe145c21256d28610f6604167d6a7">Math::lerp</a></div><div class="ttdeci">__forceinline TYPE lerp(TYPE x, TYPE y, TYPE l)</div><div class="ttdoc">Linearly interpolate between 2 values: ret = x + l * (y - x)</div><div class="ttdef"><b>Definition:</b> scalar.h:527</div></div>
 <div class="ttc" id="astruct_math_1_1float4_html"><div class="ttname"><a href="struct_math_1_1float4.html">Math::float4</a></div><div class="ttdef"><b>Definition:</b> scalar.h:75</div></div>
 <div class="ttc" id="atypes_8h_html_a65f85814a8290f9797005d3b28e7e5fc"><div class="ttname"><a href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> types.h:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('animjobutil_8h_source.html',''); initR
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_6c58477bfd8ecafbb488bbd2493f95bf.html">coreanimation</a></li><li class="navelem"><a class="el" href="dir_c1e77362bf859dbe8be9a1659a36baec.html">jobs</a></li><li class="navelem"><a class="el" href="animjobutil_8h.html">animjobutil.h</a></li>
 				<li class="footer">
-					Generated on Tue Apr 12 2022 11:49:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Apr 13 2022 09:28:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

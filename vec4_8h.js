@@ -6,6 +6,7 @@ var vec4_8h =
     [ "barycentric", "vec4_8h.html#a2f64970644d4ddc707cf5892519a7cb7", null ],
     [ "catmullrom", "vec4_8h.html#a6dd892577421eb5ff0dcc36107cb684f", null ],
     [ "ceil", "vec4_8h.html#a55aa62d5cea0fc4536e332d289d531c5", null ],
+    [ "clamp", "vec4_8h.html#ad4cb45628c4f1f088d7dee542ea91b9a", null ],
     [ "cross3", "vec4_8h.html#acf650ae3a0f39867cc6b54cfd3a4a317", null ],
     [ "divide", "vec4_8h.html#af07fccb9a523ba9113e1088951b5c44b", null ],
     [ "dot", "vec4_8h.html#a167fbe6f9ac494964e4cfd6994b7d47e", null ],
@@ -29,6 +30,7 @@ var vec4_8h =
     [ "length3", "vec4_8h.html#a2863610898d7645d9278b2b7e97c5063", null ],
     [ "lengthsq", "vec4_8h.html#a3fdac8cd996ee6c21293594946e20207", null ],
     [ "lengthsq3", "vec4_8h.html#ab421a0efa4bc96f9cdcf6a0b0a594091", null ],
+    [ "lerp", "vec4_8h.html#a8f3f8be4efa220223ab1f4b5627492f7", null ],
     [ "less", "vec4_8h.html#aaeaeaa0c75275e830b8b032534772c56", null ],
     [ "less3_all", "vec4_8h.html#a449151084f85872201c1237d2960bdf8", null ],
     [ "less3_any", "vec4_8h.html#a544bdf03b199127c16a30f1b232db193", null ],
@@ -65,7 +67,5 @@ var vec4_8h =
     [ "splat_x", "vec4_8h.html#a1aeeed4efbfa36d4f4a956cedfbad058", null ],
     [ "splat_y", "vec4_8h.html#ab48e9a22ee9847c9eaf857e7510abd52", null ],
     [ "splat_z", "vec4_8h.html#aaab4a35ca7b465f684f45412561bc42f", null ],
-    [ "vecClamp", "vec4_8h.html#a73bfc0e4af80e966b4da8aabcd54ff92", null ],
-    [ "vecLerp", "vec4_8h.html#a8cc66dbb988de8a16d5bdf34c78050a2", null ],
     [ "xyz", "vec4_8h.html#a36a0ba4d68592b49f075d561541b2a4a", null ]
 ];
