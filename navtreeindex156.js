@@ -1,5 +1,15 @@
 var NAVTREEINDEX156 =
 {
+"win32socket_8cc.html":[10,0,0,3,15,3,2],
+"win32socket_8cc.html#a27e972b298114e37f5f95ead203544d0":[10,0,0,3,15,3,2,0],
+"win32socket_8h.html":[10,0,0,3,15,3,3],
+"win32socket_8h_source.html":[10,0,0,3,15,3,3],
+"win32stacktrace_8cc.html":[10,0,0,3,2,0,2],
+"win32stacktrace_8h.html":[10,0,0,3,2,0,3],
+"win32stacktrace_8h_source.html":[10,0,0,3,2,0,3],
+"win32stringconverter_8cc.html":[10,0,0,3,20,2,2],
+"win32stringconverter_8h.html":[10,0,0,3,20,2,3],
+"win32stringconverter_8h_source.html":[10,0,0,3,20,2,3],
 "win32sysfunc_8cc.html":[10,0,0,3,1,3,2],
 "win32sysfunc_8cc.html#af034a79b1610308d3477da8875305db1":[10,0,0,3,1,3,2,0],
 "win32sysfunc_8h.html":[10,0,0,3,1,3,3],

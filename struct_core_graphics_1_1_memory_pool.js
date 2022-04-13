@@ -19,6 +19,7 @@ var struct_core_graphics_1_1_memory_pool =
     [ "blockRanges", "struct_core_graphics_1_1_memory_pool.html#a9338a540255a40648788008395e3e2eb", null ],
     [ "blocks", "struct_core_graphics_1_1_memory_pool.html#a811251eda1b2b0f2841891cb53bc0719", null ],
     [ "blockSize", "struct_core_graphics_1_1_memory_pool.html#af23391a724c68da228bb283524ebac9f", null ],
+    [ "budgetCounter", "struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df", null ],
     [ "mapMemory", "struct_core_graphics_1_1_memory_pool.html#aae7a5dd4b636bad4c6a5eb538a880bf0", null ],
     [ "maxSize", "struct_core_graphics_1_1_memory_pool.html#a3429829e08b2c1f905091ddc72eaf058", null ],
     [ "memoryType", "struct_core_graphics_1_1_memory_pool.html#a1c71746d5ddda8bb8660714db5dccea5", null ],

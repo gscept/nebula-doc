@@ -12,7 +12,6 @@ var profiling_8h =
     [ "N_SCOPE_ACCUM", "profiling_8h.html#aef31b4f3a1b1dd5cdc6491dc197ac7d3", null ],
     [ "N_SCOPE_DYN", "profiling_8h.html#a237d611d1cef9d9c9c5851bccfe276d8", null ],
     [ "N_SCOPE_DYN_ACCUM", "profiling_8h.html#a5eee84ef65067a50d984f1b95e108ec3", null ],
-    [ "N_DECLARE_COUNTER", "profiling_8h.html#aa19df7d5b60ec6c9c803e315faa0ccdc", null ],
     [ "ProfilingBudgetDecreaseCounter", "profiling_8h.html#a9d47489aa1dbbcb7a09e18a65e4b2d9d", null ],
     [ "ProfilingBudgetIncreaseCounter", "profiling_8h.html#a4bd03f638a7f3780332ef50a7cad1973", null ],
     [ "ProfilingBudgetResetCounter", "profiling_8h.html#a73a13f1ea0095c745ec458242bcc8f12", null ],
