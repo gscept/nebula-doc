@@ -45,7 +45,7 @@ var namespace_graphics =
     [ "bloomThreshold", "namespace_graphics.html#a6f03ad99d6f72da7e0a7cbf17289f45f", null ],
     [ "defaultEnvironmentMap", "namespace_graphics.html#a74411be0c6361031a445c3ba5ab92338", null ],
     [ "defaultIrradianceMap", "namespace_graphics.html#a7fe1a61b8fd0cda6adaf308aa8e9875b", null ],
-    [ "envState", "namespace_graphics.html#a1c6d9f1f173f4c018b56bc96734f7b13", null ],
+    [ "envState", "namespace_graphics.html#a6e593082c367011a2cc45cb7a80a1547", null ],
     [ "fadeValue", "namespace_graphics.html#a59b2c10e71a83b37136cb7b98a156484", null ],
     [ "fogColor", "namespace_graphics.html#afc6092a68fac0c045ca3e0dcb797ce52", null ],
     [ "fogDistances", "namespace_graphics.html#a86701bc7b775b0461c524a4e8b339bb9", null ],

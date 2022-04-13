@@ -27,10 +27,10 @@ var namespace_lighting =
     [ "clusterLightsList", "namespace_lighting.html#a0b9ea68cd0a14da9ac331caba86b697b", null ],
     [ "clusterPointLights", "namespace_lighting.html#ad0f7c5aa043a958b5888a60d73c23290", null ],
     [ "clusterSpotLights", "namespace_lighting.html#a3a54cafa925aba0da75b3f395eeddd18", null ],
-    [ "clusterState", "namespace_lighting.html#a81fd3a7dbb96d8264fe228651eae1f07", null ],
+    [ "clusterState", "namespace_lighting.html#a30c262f030e46fc4390ed8f4131087c0", null ],
     [ "combineProgram", "namespace_lighting.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "combineShader", "namespace_lighting.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
-    [ "combineState", "namespace_lighting.html#acb5bfbd3625d0ec4336dd814ece3f0c6", null ],
+    [ "combineState", "namespace_lighting.html#ae2a8f193f7709a49fbd1e1e827b5b417", null ],
     [ "combineUniforms", "namespace_lighting.html#adde99c6dee498a7c4ff6f494ee88cb36", null ],
     [ "csmBlurShader", "namespace_lighting.html#a20bb019296d801a0a3908a31da0d4c81", null ],
     [ "csmBlurXProgram", "namespace_lighting.html#ad8e90955d6184fd05d9d91dfb91dd7b5", null ],
@@ -52,7 +52,7 @@ var namespace_lighting =
     [ "lightingTextureSlot", "namespace_lighting.html#a68cf2cdf1183d39b887fcf63593f32db", null ],
     [ "lightingUniformsSlot", "namespace_lighting.html#abeaee0792a992b3db28dca5f796177d2", null ],
     [ "lightListSlot", "namespace_lighting.html#a19b403fcf0734db3f8246bc1377d2d28", null ],
-    [ "lightServerState", "namespace_lighting.html#abe1253bfabb2fc9f2b6b373560d84ec8", null ],
+    [ "lightServerState", "namespace_lighting.html#a9fe3078068ffec6dba5ef7dec5934fdf", null ],
     [ "lightShadingDebugTextureSlot", "namespace_lighting.html#adbe5437e5d50d1c5ab617b40a4cb9f5c", null ],
     [ "lightShadingTextureSlot", "namespace_lighting.html#a0410203f470a3a29d4f5b07be9567e55", null ],
     [ "localLightShadows", "namespace_lighting.html#a5ff54976d5d786434a189b17327e74b1", null ],
@@ -72,5 +72,5 @@ var namespace_lighting =
     [ "spotlightsBatchCode", "namespace_lighting.html#aac65e7307c659eaef90aa39af455adee", null ],
     [ "spotLightShadow", "namespace_lighting.html#a55b075b1786e0575e7cb20e95154de70", null ],
     [ "stagingClusterLightsList", "namespace_lighting.html#a80ae2bfba9fb05e5aeaeb60fd6668ce2", null ],
-    [ "textureState", "namespace_lighting.html#a2b6c89765085e242b4ac3056fe54569d", null ]
+    [ "textureState", "namespace_lighting.html#a712fff1e47ec6fe7a1402673241ae706", null ]
 ];

@@ -224,6 +224,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_index_type.html">IndexType</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type of vertex indices (16 bit or 32 bit).  <a href="class_core_graphics_1_1_index_type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_core_graphics_1_1_input_assembly_key.html">InputAssemblyKey</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_memory_mesh_cache.html">MemoryMeshCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html">MemoryPool</a></td></tr>
@@ -606,17 +608,17 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:aed8b029205bc57b3c286ddc8021a5147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae187981098435aabde1c704e799680a4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4aea64dd57fe95e3c7f49a7d44e21e8f0b">GLFW_Window</a>
-, <a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4a8b1aee642dfc6562958e9671894004ce">GLFW_DisplayMode</a>
-, <a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4a6128956a49dd0870af12a095edb8be4e">GLFW_SwapFrame</a>
-, <a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4aa509f395508abbb1b361b9c78740dc38">GLFW_SetupInfo</a>
+<tr class="memitem:ab4600e0639ce9ecec786abad48c9a29e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29eaea64dd57fe95e3c7f49a7d44e21e8f0b">GLFW_Window</a>
+, <a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29ea8b1aee642dfc6562958e9671894004ce">GLFW_DisplayMode</a>
+, <a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29ea6128956a49dd0870af12a095edb8be4e">GLFW_SwapFrame</a>
+, <a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29eaa509f395508abbb1b361b9c78740dc38">GLFW_SetupInfo</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4a02177512b58de16b02e3a700200434ce">GLFW_Texture</a>
-, <a class="el" href="namespace_core_graphics.html#ae187981098435aabde1c704e799680a4a7a6dee0e43df7304630dce8801baf53f">GLFW_ResizeInfo</a>
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29ea02177512b58de16b02e3a700200434ce">GLFW_Texture</a>
+, <a class="el" href="namespace_core_graphics.html#ab4600e0639ce9ecec786abad48c9a29ea7a6dee0e43df7304630dce8801baf53f">GLFW_ResizeInfo</a>
 <br />
  }</td></tr>
-<tr class="separator:ae187981098435aabde1c704e799680a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab4600e0639ce9ecec786abad48c9a29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e938721ff7b2b1538a60163b1760334"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334">ImageChannelPrimitive</a> { <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334a388cd50177f921559ce2cafd2bb301c7">Bit8Uint</a>
 , <a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334aeebf5dffb4eaf51f6d2b38343bbd191a">Bit16Uint</a>
@@ -896,6 +898,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a33c41f45a9d76024ad71a5fe3a9226b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a33c41f45a9d76024ad71a5fe3a9226b1">CmdSetIndexBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &amp;buffer, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> bufferOffset)</td></tr>
 <tr class="memdesc:a33c41f45a9d76024ad71a5fe3a9226b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set index buffer.  <a href="namespace_core_graphics.html#a33c41f45a9d76024ad71a5fe3a9226b1">More...</a><br /></td></tr>
 <tr class="separator:a33c41f45a9d76024ad71a5fe3a9226b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832f0806d510b5041b3a7005fdb59aaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a832f0806d510b5041b3a7005fdb59aaf">CmdSetIndexBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &amp;buffer, <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a> indexSize, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> bufferOffset)</td></tr>
+<tr class="memdesc:a832f0806d510b5041b3a7005fdb59aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set index buffer with explicit index size.  <a href="namespace_core_graphics.html#a832f0806d510b5041b3a7005fdb59aaf">More...</a><br /></td></tr>
+<tr class="separator:a832f0806d510b5041b3a7005fdb59aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5226e862b60f3049eabf74456c8994e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5226e862b60f3049eabf74456c8994e9">CmdSetPrimitiveTopology</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, const <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a> topo)</td></tr>
 <tr class="memdesc:a5226e862b60f3049eabf74456c8994e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type of topology used.  <a href="namespace_core_graphics.html#a5226e862b60f3049eabf74456c8994e9">More...</a><br /></td></tr>
 <tr class="separator:a5226e862b60f3049eabf74456c8994e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1987,8 +1992,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae187981098435aabde1c704e799680a4" name="ae187981098435aabde1c704e799680a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae187981098435aabde1c704e799680a4">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="ab4600e0639ce9ecec786abad48c9a29e" name="ab4600e0639ce9ecec786abad48c9a29e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4600e0639ce9ecec786abad48c9a29e">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1999,12 +2004,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4aea64dd57fe95e3c7f49a7d44e21e8f0b" name="ae187981098435aabde1c704e799680a4aea64dd57fe95e3c7f49a7d44e21e8f0b"></a>GLFW_Window&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4a8b1aee642dfc6562958e9671894004ce" name="ae187981098435aabde1c704e799680a4a8b1aee642dfc6562958e9671894004ce"></a>GLFW_DisplayMode&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4a6128956a49dd0870af12a095edb8be4e" name="ae187981098435aabde1c704e799680a4a6128956a49dd0870af12a095edb8be4e"></a>GLFW_SwapFrame&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4aa509f395508abbb1b361b9c78740dc38" name="ae187981098435aabde1c704e799680a4aa509f395508abbb1b361b9c78740dc38"></a>GLFW_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4a02177512b58de16b02e3a700200434ce" name="ae187981098435aabde1c704e799680a4a02177512b58de16b02e3a700200434ce"></a>GLFW_Texture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae187981098435aabde1c704e799680a4a7a6dee0e43df7304630dce8801baf53f" name="ae187981098435aabde1c704e799680a4a7a6dee0e43df7304630dce8801baf53f"></a>GLFW_ResizeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29eaea64dd57fe95e3c7f49a7d44e21e8f0b" name="ab4600e0639ce9ecec786abad48c9a29eaea64dd57fe95e3c7f49a7d44e21e8f0b"></a>GLFW_Window&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29ea8b1aee642dfc6562958e9671894004ce" name="ab4600e0639ce9ecec786abad48c9a29ea8b1aee642dfc6562958e9671894004ce"></a>GLFW_DisplayMode&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29ea6128956a49dd0870af12a095edb8be4e" name="ab4600e0639ce9ecec786abad48c9a29ea6128956a49dd0870af12a095edb8be4e"></a>GLFW_SwapFrame&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29eaa509f395508abbb1b361b9c78740dc38" name="ab4600e0639ce9ecec786abad48c9a29eaa509f395508abbb1b361b9c78740dc38"></a>GLFW_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29ea02177512b58de16b02e3a700200434ce" name="ab4600e0639ce9ecec786abad48c9a29ea02177512b58de16b02e3a700200434ce"></a>GLFW_Texture&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4600e0639ce9ecec786abad48c9a29ea7a6dee0e43df7304630dce8801baf53f" name="ab4600e0639ce9ecec786abad48c9a29ea7a6dee0e43df7304630dce8801baf53f"></a>GLFW_ResizeInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -5037,8 +5042,50 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a832f0806d510b5041b3a7005fdb59aaf" name="a832f0806d510b5041b3a7005fdb59aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832f0806d510b5041b3a7005fdb59aaf">&#9670;&nbsp;</a></span>CmdSetIndexBuffer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdSetIndexBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &amp;&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a>&#160;</td>
+          <td class="paramname"><em>indexSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>bufferOffset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set index buffer with explicit index size. </p>
+
+</div>
+</div>
 <a id="a33c41f45a9d76024ad71a5fe3a9226b1" name="a33c41f45a9d76024ad71a5fe3a9226b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33c41f45a9d76024ad71a5fe3a9226b1">&#9670;&nbsp;</a></span>CmdSetIndexBuffer()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c41f45a9d76024ad71a5fe3a9226b1">&#9670;&nbsp;</a></span>CmdSetIndexBuffer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13335,7 +13382,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Wed Apr 13 2022 10:02:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Apr 13 2022 14:23:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
