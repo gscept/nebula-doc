@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_gltf_1_1_document.html#a924c6385605e1fb612377c72145e38aa":[9,0,24,6,7],
+"struct_gltf_1_1_document.html#ad3a2e1934010d47e4ad93dcb67d6d691":[8,0,27,6,16],
 "struct_gltf_1_1_document.html#ad3a2e1934010d47e4ad93dcb67d6d691":[9,0,24,6,16],
 "struct_gltf_1_1_document.html#ae45dbd89398cb4957ed5845111c82e9f":[8,0,27,6,19],
 "struct_gltf_1_1_document.html#ae45dbd89398cb4957ed5845111c82e9f":[9,0,24,6,19],
@@ -77,8 +79,8 @@ var NAVTREEINDEX131 =
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#a61f726194fc66d3893f846d832bb5806":[8,0,27,9,2,5],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#a8ea644b322011701724cf5fe724c0809":[9,0,24,9,2,2],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#a8ea644b322011701724cf5fe724c0809":[8,0,27,9,2,2],
-"struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#aad66e2dedb769c6ed6a89c1199218c34":[8,0,27,9,2,0],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#aad66e2dedb769c6ed6a89c1199218c34":[9,0,24,9,2,0],
+"struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#aad66e2dedb769c6ed6a89c1199218c34":[8,0,27,9,2,0],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#af6bf7be49f76228e922f34ded9752e89":[8,0,27,9,2,1],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#af6bf7be49f76228e922f34ded9752e89":[9,0,24,9,2,1],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#afe8424bcb981fe2749963585fc9289e4":[9,0,24,9,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_gltf_1_1_sampler.html#a26cfe91d467ba2693862cef49ca92db9":[9,0,24,13,7],
 "struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72":[8,0,27,13,0],
 "struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72":[9,0,24,13,0],
-"struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72a32a843da6ea40ab3b17a3421ccdf671b":[8,0,27,13,0,2],
-"struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72a32a843da6ea40ab3b17a3421ccdf671b":[9,0,24,13,0,2],
-"struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72a60494f02d440f316319dd0fad40ad007":[9,0,24,13,0,1]
+"struct_gltf_1_1_sampler.html#a2791b1606214370bac6c9a3f4674fd72a32a843da6ea40ab3b17a3421ccdf671b":[8,0,27,13,0,2]
 };

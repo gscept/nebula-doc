@@ -12,7 +12,6 @@ var class_g_l_f_w_1_1_g_l_f_w_display_device =
     [ "GetMonitor", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#af9df3f3819c36cc768429dc875135f5c", null ],
     [ "Open", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a37b88922809ba79690417f290ebeaf5f", null ],
     [ "ProcessWindowMessages", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a83add9c36992a5de300fa09cee25307b", null ],
-    [ "SetVerticalSyncEnabled", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a28b6c0497ceb681f304cfb5047140217", null ],
     [ "SupportsDisplayMode", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a5e9fedf6a68c4bc089b585d5fe92ea3e", null ],
     [ "TranslateKeyCode", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a063120be0fd798fe108aa23affe20a59", null ],
     [ "CharFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a829f60bfb9e3979aa8751427f5d2469e", null ],

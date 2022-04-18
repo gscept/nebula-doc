@@ -18,13 +18,12 @@ var searchData=
   ['xmlreader_15',['XmlReader',['../class_i_o_1_1_xml_reader.html',1,'IO::XmlReader'],['../class_i_o_1_1_xml_reader.html#a482781758870a30480cc6b5df64c20b9',1,'IO::XmlReader::XmlReader()']]],
   ['xmlreader_2ecc_16',['xmlreader.cc',['../xmlreader_8cc.html',1,'']]],
   ['xmlreader_2eh_17',['xmlreader.h',['../xmlreader_8h.html',1,'']]],
-  ['xmlwriter_18',['XmlWriter',['../class_i_o_1_1_xml_writer.html',1,'IO']]],
+  ['xmlwriter_18',['XmlWriter',['../class_i_o_1_1_xml_writer.html',1,'IO::XmlWriter'],['../class_i_o_1_1_xml_writer.html#a9f79cc7a5a2b1505c46f5df9063e5a05',1,'IO::XmlWriter::XmlWriter()']]],
   ['xmlwriter_19',['xmlWriter',['../class_http_1_1_html_page_writer.html#a2b69cc23ff501220ca251c34bd9e75e9',1,'Http::HtmlPageWriter::xmlWriter()'],['../class_http_1_1_svg_page_writer.html#acb84085848ee751736eaf8198899c9c3',1,'Http::SvgPageWriter::xmlWriter()']]],
-  ['xmlwriter_20',['XmlWriter',['../class_i_o_1_1_xml_writer.html#a9f79cc7a5a2b1505c46f5df9063e5a05',1,'IO::XmlWriter']]],
-  ['xmlwriter_2ecc_21',['xmlwriter.cc',['../xmlwriter_8cc.html',1,'']]],
-  ['xmlwriter_2eh_22',['xmlwriter.h',['../xmlwriter_8h.html',1,'']]],
-  ['xor_23',['Xor',['../class_linux_1_1_linux_interlocked.html#a9eb8a6cf325614a6233a0bbdc126f562',1,'Linux::LinuxInterlocked::Xor()'],['../class_posix_1_1_posix_interlocked.html#abd2ea1fdfc46982ccd51aca6ea8e58a0',1,'Posix::PosixInterlocked::Xor()'],['../class_win32_1_1_win32_interlocked.html#a473049e870f23afe0f310f753f2f0609',1,'Win32::Win32Interlocked::Xor(int volatile *var, int value)'],['../class_win32_1_1_win32_interlocked.html#a4ab511b58a1e8c19c9e2d2abe5115b32',1,'Win32::Win32Interlocked::Xor(long volatile *var, long value)']]],
-  ['xpos_24',['xPos',['../class_core_graphics_1_1_display_mode.html#ab666791dbb6fd3b7e0809511f5cbd814',1,'CoreGraphics::DisplayMode']]],
-  ['xresolution_25',['xResolution',['../namespace_clustering.html#a581f331c494a300ae88fa56b64571df4',1,'Clustering']]],
-  ['xyz_26',['xyz',['../namespace_math.html#a36a0ba4d68592b49f075d561541b2a4a',1,'Math']]]
+  ['xmlwriter_2ecc_20',['xmlwriter.cc',['../xmlwriter_8cc.html',1,'']]],
+  ['xmlwriter_2eh_21',['xmlwriter.h',['../xmlwriter_8h.html',1,'']]],
+  ['xor_22',['Xor',['../class_linux_1_1_linux_interlocked.html#a9eb8a6cf325614a6233a0bbdc126f562',1,'Linux::LinuxInterlocked::Xor()'],['../class_posix_1_1_posix_interlocked.html#abd2ea1fdfc46982ccd51aca6ea8e58a0',1,'Posix::PosixInterlocked::Xor()'],['../class_win32_1_1_win32_interlocked.html#a473049e870f23afe0f310f753f2f0609',1,'Win32::Win32Interlocked::Xor(int volatile *var, int value)'],['../class_win32_1_1_win32_interlocked.html#a4ab511b58a1e8c19c9e2d2abe5115b32',1,'Win32::Win32Interlocked::Xor(long volatile *var, long value)']]],
+  ['xpos_23',['xPos',['../class_core_graphics_1_1_display_mode.html#ab666791dbb6fd3b7e0809511f5cbd814',1,'CoreGraphics::DisplayMode']]],
+  ['xresolution_24',['xResolution',['../namespace_clustering.html#a581f331c494a300ae88fa56b64571df4',1,'Clustering']]],
+  ['xyz_25',['xyz',['../namespace_math.html#a36a0ba4d68592b49f075d561541b2a4a',1,'Math']]]
 ];
