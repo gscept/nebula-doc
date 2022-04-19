@@ -10,7 +10,7 @@ var searchData=
   ['processorhandle_7',['ProcessorHandle',['../namespace_game.html#a74b0ad357b08d17f221b65b804193303',1,'Game']]],
   ['processorinfo_8',['ProcessorInfo',['../namespace_game.html#a69df18504c439f3171b43c0de6463f02',1,'Game']]],
   ['programmap_9',['ProgramMap',['../class_vulkan_1_1_vk_shader_cache.html#aada16939e88fc00edfe77b259428ed32',1,'Vulkan::VkShaderCache::ProgramMap()'],['../class_vulkan_1_1_vk_shader_cache.html#aada16939e88fc00edfe77b259428ed32',1,'Vulkan::VkShaderCache::ProgramMap()']]],
-  ['ptrdiff_10',['PtrDiff',['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'types.h']]],
-  ['ptrdiff_11',['ptrdiff',['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'types.h']]],
+  ['ptrdiff_10',['ptrdiff',['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'types.h']]],
+  ['ptrdiff_11',['PtrDiff',['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'types.h']]],
   ['ptrt_12',['PtrT',['../types_8h.html#a924001a4a749dab532ba4ba011e9e4c1',1,'types.h']]]
 ];

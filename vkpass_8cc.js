@@ -17,5 +17,10 @@ var vkpass_8cc =
     [ "SetupPass", "vkpass_8cc.html#af96c7800e3a4810d9784429db4ca15e8", null ],
     [ "VkScissorToRect", "vkpass_8cc.html#a90eff12089c50198bcda13ad2d20f2c6", null ],
     [ "VkViewportToRect", "vkpass_8cc.html#ae9db646d7c3441bc48e3cb6f7660b675", null ],
-    [ "passAllocator", "vkpass_8cc.html#a8737933eb7ba322b12d126c1b21a0da6", null ]
+    [ "passAllocator", "vkpass_8cc.html#a8737933eb7ba322b12d126c1b21a0da6", null ],
+    [ "subpassDepthStencils", "vkpass_8cc.html#a0fc5e635b33412838133faa235bd105f", null ],
+    [ "subpassInputs", "vkpass_8cc.html#a413d066e089a76c639ac2912291a0b3a", null ],
+    [ "subpassPreserves", "vkpass_8cc.html#a65afef5f27ae1ec2c81c4f3f96cc02b6", null ],
+    [ "subpassReferences", "vkpass_8cc.html#a1a75605a692f04f5c3f2b1338308e4aa", null ],
+    [ "subpassResolves", "vkpass_8cc.html#a780cf0bc139fb8f802b1e0cd737d7027", null ]
 ];
