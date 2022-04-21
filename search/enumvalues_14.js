@@ -116,11 +116,13 @@ var searchData=
   ['trianglebutton_113',['TriangleButton',['../class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188a9abda5e8c6ac6a7c1d4b331be065cb35',1,'Base::GamePadBase']]],
   ['trianglefan_114',['TriangleFan',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8a18d58fde618e4a30e2dfdc122e693047',1,'Gltf::Primitive']]],
   ['trianglelist_115',['TriangleList',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba62989349ce3f9c7372a9bf3ab715d9ef',1,'CoreGraphics::PrimitiveTopology']]],
-  ['triangles_116',['Triangles',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8a7ca66fdfaad3eb33fc65d7490178f856',1,'Gltf::Primitive::Triangles()'],['../namespace_physics.html#ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06',1,'Physics::Triangles()']]],
-  ['trianglestrip_117',['TriangleStrip',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8a1da0b9ead8b051940a89214bae22831c',1,'Gltf::Primitive::TriangleStrip()'],['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba95ba5eb014af8734de0e8366fea80092',1,'CoreGraphics::PrimitiveTopology::TriangleStrip()']]],
-  ['tuesday_118',['Tuesday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73ea793ba5a4b41d7d17a38dfd96d706716d',1,'Base::CalendarTimeBase']]],
-  ['twobutton_119',['TwoButton',['../class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188aa7d9916eac5b46947e205055351530d2',1,'Base::GamePadBase']]],
-  ['type_120',['Type',['../class_lighting_1_1_light_context.html#ae3f26f6dc812eab5c0ac3df0cbeab8d7a3cdb817d3feb3ef244a06a3098e9331b',1,'Lighting::LightContext']]],
-  ['typecount_121',['TYPECOUNT',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a8334037fb3fe05c67d6110975b38a8bf',1,'TiXmlNode']]],
-  ['typedlightid_122',['TypedLightId',['../class_lighting_1_1_light_context.html#ae3f26f6dc812eab5c0ac3df0cbeab8d7a1add0aef732b77183efd347ec18fcc4e',1,'Lighting::LightContext']]]
+  ['trianglelistadjacency_116',['TriangleListAdjacency',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba1b775d0004e0591f65c8c52128e8a1f2',1,'CoreGraphics::PrimitiveTopology']]],
+  ['triangles_117',['Triangles',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8a7ca66fdfaad3eb33fc65d7490178f856',1,'Gltf::Primitive::Triangles()'],['../namespace_physics.html#ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06',1,'Physics::Triangles()']]],
+  ['trianglestrip_118',['TriangleStrip',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8a1da0b9ead8b051940a89214bae22831c',1,'Gltf::Primitive::TriangleStrip()'],['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba95ba5eb014af8734de0e8366fea80092',1,'CoreGraphics::PrimitiveTopology::TriangleStrip()']]],
+  ['trianglestripadjacency_119',['TriangleStripAdjacency',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbad86827c0ef32b65ca798edfb96c0f60e',1,'CoreGraphics::PrimitiveTopology']]],
+  ['tuesday_120',['Tuesday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73ea793ba5a4b41d7d17a38dfd96d706716d',1,'Base::CalendarTimeBase']]],
+  ['twobutton_121',['TwoButton',['../class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188aa7d9916eac5b46947e205055351530d2',1,'Base::GamePadBase']]],
+  ['type_122',['Type',['../class_lighting_1_1_light_context.html#ae3f26f6dc812eab5c0ac3df0cbeab8d7a3cdb817d3feb3ef244a06a3098e9331b',1,'Lighting::LightContext']]],
+  ['typecount_123',['TYPECOUNT',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a8334037fb3fe05c67d6110975b38a8bf',1,'TiXmlNode']]],
+  ['typedlightid_124',['TypedLightId',['../class_lighting_1_1_light_context.html#ae3f26f6dc812eab5c0ac3df0cbeab8d7a1add0aef732b77183efd347ec18fcc4e',1,'Lighting::LightContext']]]
 ];

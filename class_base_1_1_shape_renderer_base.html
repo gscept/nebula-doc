@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_base_1_1_shape_renderer_base.htm
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -102,6 +103,22 @@ $(document).ready(function(){initNavTree('class_base_1_1_shape_renderer_base.htm
 
 <p>Inherited by <a class="el" href="class_vulkan_1_1_vk_shape_renderer.html">Vulkan::VkShapeRenderer</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5e6e855071110bfb115057d936db5f1f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1f">ShaderTypes</a> { <br />
+&#160;&#160;<a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa25898e7cf44082a9fda37e10175d4c96">Mesh</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa1bfc63dc761cfc83216f090498fea771">MeshNoDepth</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa24629b09af79fbafd0059774a69d3734">MeshWireframe</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fadffd3d1cce9285f029c5587d785d7af9">Primitives</a>
+, <br />
+&#160;&#160;<a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa54c9595697f30cb0ac4264a9f7514475">PrimitivesNoDepth</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa0ae4e35ba8ad6220c61768050ea44c1a">PrimitivesWireframeTriangles</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa68bc1fdbf8832d68a3184f4f49237d5c">PrimitivesWireframeLines</a>
+, <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393">NumShaders</a>
+<br />
+ }</td></tr>
+<tr class="separator:a5e6e855071110bfb115057d936db5f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4175fbac8c84228f60bbdce1e7846b54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a4175fbac8c84228f60bbdce1e7846b54">ShapeRendererBase</a> ()</td></tr>
@@ -176,10 +193,12 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac374e84f6386f468217b19729c5a1dd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#ac374e84f6386f468217b19729c5a1dd3">isOpen</a></td></tr>
 <tr class="separator:ac374e84f6386f468217b19729c5a1dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65ff187a836844daae0649ef6e0a04a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a65ff187a836844daae0649ef6e0a04a2">shapes</a> [<a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088">CoreGraphics::RenderShape::NumDepthFlags</a>]</td></tr>
-<tr class="separator:a65ff187a836844daae0649ef6e0a04a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540c926bae9d0c0b5577b32d2cf7612b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a540c926bae9d0c0b5577b32d2cf7612b">primitives</a> [<a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088">CoreGraphics::RenderShape::NumDepthFlags</a>]</td></tr>
-<tr class="separator:a540c926bae9d0c0b5577b32d2cf7612b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0705c272e37ea408e9c2e67b379d5425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a0705c272e37ea408e9c2e67b379d5425">shapes</a> [ShaderTypes::NumShaders]</td></tr>
+<tr class="separator:a0705c272e37ea408e9c2e67b379d5425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9371ccca5922a7da4da8788af568a6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#ad9371ccca5922a7da4da8788af568a6c">primitives</a> [ShaderTypes::NumShaders]</td></tr>
+<tr class="separator:ad9371ccca5922a7da4da8788af568a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd39d04831af4c425c3de32466df8c2"><td class="memItemLeft" align="right" valign="top">CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a5fd39d04831af4c425c3de32466df8c2">programs</a> [ShaderTypes::NumShaders]</td></tr>
+<tr class="separator:a5fd39d04831af4c425c3de32466df8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac61a28099a07bc659363bbba1c5fc93c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#ac61a28099a07bc659363bbba1c5fc93c">numIndicesThisFrame</a></td></tr>
 <tr class="separator:ac61a28099a07bc659363bbba1c5fc93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5281900a4406644ce1a9d88219096ebf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_1_1_shape_renderer_base.html#a5281900a4406644ce1a9d88219096ebf">numVerticesThisFrame</a></td></tr>
@@ -203,6 +222,31 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <a href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">More...</a><br /></td></tr>
 <tr class="separator:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a5e6e855071110bfb115057d936db5f1f" name="a5e6e855071110bfb115057d936db5f1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6e855071110bfb115057d936db5f1f">&#9670;&nbsp;</a></span>ShaderTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1f">Base::ShapeRendererBase::ShaderTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa25898e7cf44082a9fda37e10175d4c96" name="a5e6e855071110bfb115057d936db5f1fa25898e7cf44082a9fda37e10175d4c96"></a>Mesh&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa1bfc63dc761cfc83216f090498fea771" name="a5e6e855071110bfb115057d936db5f1fa1bfc63dc761cfc83216f090498fea771"></a>MeshNoDepth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa24629b09af79fbafd0059774a69d3734" name="a5e6e855071110bfb115057d936db5f1fa24629b09af79fbafd0059774a69d3734"></a>MeshWireframe&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fadffd3d1cce9285f029c5587d785d7af9" name="a5e6e855071110bfb115057d936db5f1fadffd3d1cce9285f029c5587d785d7af9"></a>Primitives&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa54c9595697f30cb0ac4264a9f7514475" name="a5e6e855071110bfb115057d936db5f1fa54c9595697f30cb0ac4264a9f7514475"></a>PrimitivesNoDepth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa0ae4e35ba8ad6220c61768050ea44c1a" name="a5e6e855071110bfb115057d936db5f1fa0ae4e35ba8ad6220c61768050ea44c1a"></a>PrimitivesWireframeTriangles&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1fa68bc1fdbf8832d68a3184f4f49237d5c" name="a5e6e855071110bfb115057d936db5f1fa68bc1fdbf8832d68a3184f4f49237d5c"></a>PrimitivesWireframeLines&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393" name="a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393"></a>NumShaders&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4175fbac8c84228f60bbdce1e7846b54" name="a4175fbac8c84228f60bbdce1e7846b54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4175fbac8c84228f60bbdce1e7846b54">&#9670;&nbsp;</a></span>ShapeRendererBase()</h2>
@@ -543,8 +587,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a540c926bae9d0c0b5577b32d2cf7612b" name="a540c926bae9d0c0b5577b32d2cf7612b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a540c926bae9d0c0b5577b32d2cf7612b">&#9670;&nbsp;</a></span>primitives</h2>
+<a id="ad9371ccca5922a7da4da8788af568a6c" name="ad9371ccca5922a7da4da8788af568a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9371ccca5922a7da4da8788af568a6c">&#9670;&nbsp;</a></span>primitives</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +597,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a>&gt; Base::ShapeRendererBase::primitives[<a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088">CoreGraphics::RenderShape::NumDepthFlags</a>]</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a>&gt; Base::ShapeRendererBase::primitives[ShaderTypes::NumShaders]</td>
         </tr>
       </table>
   </td>
@@ -565,8 +609,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a65ff187a836844daae0649ef6e0a04a2" name="a65ff187a836844daae0649ef6e0a04a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65ff187a836844daae0649ef6e0a04a2">&#9670;&nbsp;</a></span>shapes</h2>
+<a id="a5fd39d04831af4c425c3de32466df8c2" name="a5fd39d04831af4c425c3de32466df8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd39d04831af4c425c3de32466df8c2">&#9670;&nbsp;</a></span>programs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +619,29 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a>&gt; Base::ShapeRendererBase::shapes[<a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088">CoreGraphics::RenderShape::NumDepthFlags</a>]</td>
+          <td class="memname">CoreGraphics::ShaderProgramId Base::ShapeRendererBase::programs[ShaderTypes::NumShaders]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0705c272e37ea408e9c2e67b379d5425" name="a0705c272e37ea408e9c2e67b379d5425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0705c272e37ea408e9c2e67b379d5425">&#9670;&nbsp;</a></span>shapes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_core_graphics_1_1_render_shape.html">CoreGraphics::RenderShape</a>&gt; Base::ShapeRendererBase::shapes[ShaderTypes::NumShaders]</td>
         </tr>
       </table>
   </td>
@@ -598,7 +664,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_base.html">Base</a></li><li class="navelem"><a class="el" href="class_base_1_1_shape_renderer_base.html">ShapeRendererBase</a></li>
 				<li class="footer">
-					Generated on Tue Apr 19 2022 19:26:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Apr 21 2022 16:13:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

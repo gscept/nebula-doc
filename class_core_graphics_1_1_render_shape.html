@@ -113,11 +113,12 @@ Public Types</h2></td></tr>
 , <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641ad7f82db42f1f65e4040226544e031cb6">Torus</a>
 , <br />
 &#160;&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a9330f02d8821598266d5a1e5bfd5ef8b">Cone</a>
+, <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641aedeeac3c219cc7330ff460bb76bd50ee">Arrow</a>
 , <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a778c8b36ff533b59efddd7bf63390bc0">Primitives</a>
 , <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a432a4e5ceb131619afd84e7909d48e52">IndexedPrimitives</a>
-, <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641aeb2f89291376ae3621b95c06de0360fb">RenderMesh</a>
 , <br />
-&#160;&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a4863fa87945542c92448b9df8e262639">NumShapeTypes</a>
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641aeb2f89291376ae3621b95c06de0360fb">RenderMesh</a>
+, <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a4863fa87945542c92448b9df8e262639">NumShapeTypes</a>
 , <a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641ac116d1ebd720cd9e61da1baa91622005">InvalidShapeType</a>
 <br />
  }</td></tr>
@@ -141,18 +142,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2664efe372cb70f51399f06e6ac8998d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2664efe372cb70f51399f06e6ac8998d">IsValid</a> () const</td></tr>
 <tr class="memdesc:a2664efe372cb70f51399f06e6ac8998d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if object has been setup  <a href="class_core_graphics_1_1_render_shape.html#a2664efe372cb70f51399f06e6ac8998d">More...</a><br /></td></tr>
 <tr class="separator:a2664efe372cb70f51399f06e6ac8998d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf8d3f87e9b067c6f3b27743be859062"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#adf8d3f87e9b067c6f3b27743be859062">SetupSimpleShape</a> (<a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641">Type</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#ab61197356c133c024726b29e81409f11">shapeType</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>)</td></tr>
-<tr class="memdesc:adf8d3f87e9b067c6f3b27743be859062"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup simple shape  <a href="class_core_graphics_1_1_render_shape.html#adf8d3f87e9b067c6f3b27743be859062">More...</a><br /></td></tr>
-<tr class="separator:adf8d3f87e9b067c6f3b27743be859062"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b3e80b28576a19c77fbf248d3cdc550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a4b3e80b28576a19c77fbf248d3cdc550">SetupPrimitives</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a60ca783118dd0a0114b9644f287bc8a1">numPrimitives</a>, const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *vertices, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>)</td></tr>
-<tr class="memdesc:a4b3e80b28576a19c77fbf248d3cdc550"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup primitive batch (SLOW!)  <a href="class_core_graphics_1_1_render_shape.html#a4b3e80b28576a19c77fbf248d3cdc550">More...</a><br /></td></tr>
-<tr class="separator:a4b3e80b28576a19c77fbf248d3cdc550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ecc354b99c6ab13dfaf6932ab3accba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a4ecc354b99c6ab13dfaf6932ab3accba">SetupIndexedPrimitives</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a60ca783118dd0a0114b9644f287bc8a1">numPrimitives</a>, const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *vertices, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a958115518b72a95e640f7ad9ace65987">numVertices</a>, const void *indices, <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a7111ba942411923fd3302b047ef76c39">indexType</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>)</td></tr>
-<tr class="memdesc:a4ecc354b99c6ab13dfaf6932ab3accba"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup indexed primitive batch (SLOW!)  <a href="class_core_graphics_1_1_render_shape.html#a4ecc354b99c6ab13dfaf6932ab3accba">More...</a><br /></td></tr>
-<tr class="separator:a4ecc354b99c6ab13dfaf6932ab3accba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea169db65a117c6e7b32b6396e9ee2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a7ea169db65a117c6e7b32b6396e9ee2c">SetupMesh</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>, const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a5eeec76fb838f58ebe56a6289aa26ab2">mesh</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c">groupIndex</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>)</td></tr>
-<tr class="memdesc:a7ea169db65a117c6e7b32b6396e9ee2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup mesh  <a href="class_core_graphics_1_1_render_shape.html#a7ea169db65a117c6e7b32b6396e9ee2c">More...</a><br /></td></tr>
-<tr class="separator:a7ea169db65a117c6e7b32b6396e9ee2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3201ac208174a8db83e0d076d156585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aa3201ac208174a8db83e0d076d156585">SetupSimpleShape</a> (<a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641">Type</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#ab61197356c133c024726b29e81409f11">shapeType</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:aa3201ac208174a8db83e0d076d156585"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup simple shape  <a href="class_core_graphics_1_1_render_shape.html#aa3201ac208174a8db83e0d076d156585">More...</a><br /></td></tr>
+<tr class="separator:aa3201ac208174a8db83e0d076d156585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aeade253f336718394f58d0865af42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#ae7aeade253f336718394f58d0865af42">SetupPrimitives</a> (const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *vertices, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a958115518b72a95e640f7ad9ace65987">numVertices</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:ae7aeade253f336718394f58d0865af42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup primitives draw.  <a href="class_core_graphics_1_1_render_shape.html#ae7aeade253f336718394f58d0865af42">More...</a><br /></td></tr>
+<tr class="separator:ae7aeade253f336718394f58d0865af42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d034496f37fdf142a149f025f76df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a53d034496f37fdf142a149f025f76df8">SetupPrimitives</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt; vertices, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:a53d034496f37fdf142a149f025f76df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup primitives draw.  <a href="class_core_graphics_1_1_render_shape.html#a53d034496f37fdf142a149f025f76df8">More...</a><br /></td></tr>
+<tr class="separator:a53d034496f37fdf142a149f025f76df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf59990415ad8c6214220e9fbaf7301"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aadf59990415ad8c6214220e9fbaf7301">SetupIndexPrimitives</a> (const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *vertices, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a958115518b72a95e640f7ad9ace65987">numVertices</a>, const void *indices, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a09d4f0d2f650813b0ae29f9c60e96d07">numIndices</a>, <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a7111ba942411923fd3302b047ef76c39">indexType</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:aadf59990415ad8c6214220e9fbaf7301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup indexed primitives draw.  <a href="class_core_graphics_1_1_render_shape.html#aadf59990415ad8c6214220e9fbaf7301">More...</a><br /></td></tr>
+<tr class="separator:aadf59990415ad8c6214220e9fbaf7301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa04241b23f2bd1a8fd0c159fb8338ba9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aa04241b23f2bd1a8fd0c159fb8338ba9">SetupIndexPrimitives</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt; vertices, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a> &gt; indices, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:aa04241b23f2bd1a8fd0c159fb8338ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup indexed primitives draw.  <a href="class_core_graphics_1_1_render_shape.html#aa04241b23f2bd1a8fd0c159fb8338ba9">More...</a><br /></td></tr>
+<tr class="separator:aa04241b23f2bd1a8fd0c159fb8338ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fdeb495bbd7aec0b2c3de2a1dd7c52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#ae4fdeb495bbd7aec0b2c3de2a1dd7c52">SetupIndexPrimitives</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt; vertices, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> &gt; indices, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:ae4fdeb495bbd7aec0b2c3de2a1dd7c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup indexed primitives draw.  <a href="class_core_graphics_1_1_render_shape.html#ae4fdeb495bbd7aec0b2c3de2a1dd7c52">More...</a><br /></td></tr>
+<tr class="separator:ae4fdeb495bbd7aec0b2c3de2a1dd7c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8cac66432e10975c67aad5213f0dcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aff8cac66432e10975c67aad5213f0dcf">SetupMesh</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a5eeec76fb838f58ebe56a6289aa26ab2">mesh</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c">groupIndex</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a> <a class="el" href="class_core_graphics_1_1_render_shape.html#aab83b14cd2d7a54d19dce297e890d8c4">depthFlag</a>, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;<a class="el" href="class_core_graphics_1_1_render_shape.html#aab8f5a69c27468ac428a3cf075ef59d3">modelTransform</a>=<a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a>, float <a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a>=1.0f)</td></tr>
+<tr class="memdesc:aff8cac66432e10975c67aad5213f0dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup mesh  <a href="class_core_graphics_1_1_render_shape.html#aff8cac66432e10975c67aad5213f0dcf">More...</a><br /></td></tr>
+<tr class="separator:aff8cac66432e10975c67aad5213f0dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e53fdeca2a42ee5abbfcbbd5d43acd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a6e53fdeca2a42ee5abbfcbbd5d43acd5">GetShapeType</a> () const</td></tr>
 <tr class="memdesc:a6e53fdeca2a42ee5abbfcbbd5d43acd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get shape type  <a href="class_core_graphics_1_1_render_shape.html#a6e53fdeca2a42ee5abbfcbbd5d43acd5">More...</a><br /></td></tr>
 <tr class="separator:a6e53fdeca2a42ee5abbfcbbd5d43acd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,18 +175,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa635027debab677af8c54dc1d7daeec4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aa635027debab677af8c54dc1d7daeec4">GetTopology</a> () const</td></tr>
 <tr class="memdesc:aa635027debab677af8c54dc1d7daeec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitive topology  <a href="class_core_graphics_1_1_render_shape.html#aa635027debab677af8c54dc1d7daeec4">More...</a><br /></td></tr>
 <tr class="separator:aa635027debab677af8c54dc1d7daeec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11bcab72ea581f814658b9a27ddad465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a11bcab72ea581f814658b9a27ddad465">GetNumPrimitives</a> () const</td></tr>
-<tr class="memdesc:a11bcab72ea581f814658b9a27ddad465"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of primitives  <a href="class_core_graphics_1_1_render_shape.html#a11bcab72ea581f814658b9a27ddad465">More...</a><br /></td></tr>
-<tr class="separator:a11bcab72ea581f814658b9a27ddad465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0632d0cd2692f1ffe81c524dd82568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a6d0632d0cd2692f1ffe81c524dd82568">GetNumVertices</a> () const</td></tr>
+<tr class="memdesc:a6d0632d0cd2692f1ffe81c524dd82568"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of vertices  <a href="class_core_graphics_1_1_render_shape.html#a6d0632d0cd2692f1ffe81c524dd82568">More...</a><br /></td></tr>
+<tr class="separator:a6d0632d0cd2692f1ffe81c524dd82568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cecb2a1f7e677e83e69d0c43b645a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a9cecb2a1f7e677e83e69d0c43b645a56">GetNumIndices</a> () const</td></tr>
+<tr class="memdesc:a9cecb2a1f7e677e83e69d0c43b645a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of indices  <a href="class_core_graphics_1_1_render_shape.html#a9cecb2a1f7e677e83e69d0c43b645a56">More...</a><br /></td></tr>
+<tr class="separator:a9cecb2a1f7e677e83e69d0c43b645a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a15c0c569c2043fc907709fcfba9de"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aa0a15c0c569c2043fc907709fcfba9de">GetVertexData</a> () const</td></tr>
 <tr class="memdesc:aa0a15c0c569c2043fc907709fcfba9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to vertex data (returns 0 if none exist)  <a href="class_core_graphics_1_1_render_shape.html#aa0a15c0c569c2043fc907709fcfba9de">More...</a><br /></td></tr>
 <tr class="separator:aa0a15c0c569c2043fc907709fcfba9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af77187a1fc2c3ab2d291bc4524194300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#af77187a1fc2c3ab2d291bc4524194300">GetVertexWidth</a> () const</td></tr>
-<tr class="memdesc:af77187a1fc2c3ab2d291bc4524194300"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vertex width in number of floats  <a href="class_core_graphics_1_1_render_shape.html#af77187a1fc2c3ab2d291bc4524194300">More...</a><br /></td></tr>
-<tr class="separator:af77187a1fc2c3ab2d291bc4524194300"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d0632d0cd2692f1ffe81c524dd82568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a6d0632d0cd2692f1ffe81c524dd82568">GetNumVertices</a> () const</td></tr>
-<tr class="memdesc:a6d0632d0cd2692f1ffe81c524dd82568"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of vertices (only for indexed primitives)  <a href="class_core_graphics_1_1_render_shape.html#a6d0632d0cd2692f1ffe81c524dd82568">More...</a><br /></td></tr>
-<tr class="separator:a6d0632d0cd2692f1ffe81c524dd82568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a72d856ad78ba971bd8663b768787bb"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a9a72d856ad78ba971bd8663b768787bb">GetIndexData</a> () const</td></tr>
 <tr class="memdesc:a9a72d856ad78ba971bd8663b768787bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get index data (returns 0 if none exists)  <a href="class_core_graphics_1_1_render_shape.html#a9a72d856ad78ba971bd8663b768787bb">More...</a><br /></td></tr>
 <tr class="separator:a9a72d856ad78ba971bd8663b768787bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +202,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b1966320dd1a43d154179c0477feb6e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a7b1966320dd1a43d154179c0477feb6e">GetPrimitiveGroupIndex</a> () const</td></tr>
 <tr class="memdesc:a7b1966320dd1a43d154179c0477feb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitive group  <a href="class_core_graphics_1_1_render_shape.html#a7b1966320dd1a43d154179c0477feb6e">More...</a><br /></td></tr>
 <tr class="separator:a7b1966320dd1a43d154179c0477feb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a668d96e4ca349561756a8c5b7db930bf"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a668d96e4ca349561756a8c5b7db930bf">GetLineThickness</a> () const</td></tr>
+<tr class="memdesc:a668d96e4ca349561756a8c5b7db930bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get line thickness.  <a href="class_core_graphics_1_1_render_shape.html#a668d96e4ca349561756a8c5b7db930bf">More...</a><br /></td></tr>
+<tr class="separator:a668d96e4ca349561756a8c5b7db930bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -206,18 +216,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aab8f5a69c27468ac428a3cf075ef59d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a711baeb3fc38c539f13a281a8c236521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a711baeb3fc38c539f13a281a8c236521">topology</a></td></tr>
 <tr class="separator:a711baeb3fc38c539f13a281a8c236521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ca783118dd0a0114b9644f287bc8a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a60ca783118dd0a0114b9644f287bc8a1">numPrimitives</a></td></tr>
-<tr class="separator:a60ca783118dd0a0114b9644f287bc8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6a2589c79729107374cb721a1ecb98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#af6a2589c79729107374cb721a1ecb98f">vertexWidth</a></td></tr>
-<tr class="separator:af6a2589c79729107374cb721a1ecb98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d4f0d2f650813b0ae29f9c60e96d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a09d4f0d2f650813b0ae29f9c60e96d07">numIndices</a></td></tr>
+<tr class="separator:a09d4f0d2f650813b0ae29f9c60e96d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a958115518b72a95e640f7ad9ace65987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a958115518b72a95e640f7ad9ace65987">numVertices</a></td></tr>
 <tr class="separator:a958115518b72a95e640f7ad9ace65987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad376ab6d7a044ac34036d5dcb4ef6af7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#ad376ab6d7a044ac34036d5dcb4ef6af7">vertexDataOffset</a></td></tr>
+<tr class="separator:ad376ab6d7a044ac34036d5dcb4ef6af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7111ba942411923fd3302b047ef76c39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a7111ba942411923fd3302b047ef76c39">indexType</a></td></tr>
 <tr class="separator:a7111ba942411923fd3302b047ef76c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a002b6a090936175112ca7958fc5e596f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a002b6a090936175112ca7958fc5e596f">color</a></td></tr>
 <tr class="separator:a002b6a090936175112ca7958fc5e596f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedb01633c427871fd2969c49758ee3df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#aedb01633c427871fd2969c49758ee3df">vertexDataOffset</a></td></tr>
-<tr class="separator:aedb01633c427871fd2969c49758ee3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafc7cc99f9a4ca9e9e5b91f63acc3b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#adafc7cc99f9a4ca9e9e5b91f63acc3b0">lineThickness</a></td></tr>
+<tr class="separator:adafc7cc99f9a4ca9e9e5b91f63acc3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a412bc9a3c6d45a63260828de7c38ec5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c">groupIndex</a></td></tr>
 <tr class="separator:a412bc9a3c6d45a63260828de7c38ec5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eeec76fb838f58ebe56a6289aa26ab2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_render_shape.html#a5eeec76fb838f58ebe56a6289aa26ab2">mesh</a></td></tr>
@@ -267,6 +277,7 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641a29d873a94d88b2d749e1ba4b4e6a251c" name="a672b897b6d21a6f30691f79fe6690641a29d873a94d88b2d749e1ba4b4e6a251c"></a>Cylinder&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641ad7f82db42f1f65e4040226544e031cb6" name="a672b897b6d21a6f30691f79fe6690641ad7f82db42f1f65e4040226544e031cb6"></a>Torus&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641a9330f02d8821598266d5a1e5bfd5ef8b" name="a672b897b6d21a6f30691f79fe6690641a9330f02d8821598266d5a1e5bfd5ef8b"></a>Cone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641aedeeac3c219cc7330ff460bb76bd50ee" name="a672b897b6d21a6f30691f79fe6690641aedeeac3c219cc7330ff460bb76bd50ee"></a>Arrow&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641a778c8b36ff533b59efddd7bf63390bc0" name="a672b897b6d21a6f30691f79fe6690641a778c8b36ff533b59efddd7bf63390bc0"></a>Primitives&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641a432a4e5ceb131619afd84e7909d48e52" name="a672b897b6d21a6f30691f79fe6690641a432a4e5ceb131619afd84e7909d48e52"></a>IndexedPrimitives&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a672b897b6d21a6f30691f79fe6690641aeb2f89291376ae3621b95c06de0360fb" name="a672b897b6d21a6f30691f79fe6690641aeb2f89291376ae3621b95c06de0360fb"></a>RenderMesh&#160;</td><td class="fielddoc"></td></tr>
@@ -447,6 +458,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a668d96e4ca349561756a8c5b7db930bf" name="a668d96e4ca349561756a8c5b7db930bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a668d96e4ca349561756a8c5b7db930bf">&#9670;&nbsp;</a></span>GetLineThickness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float CoreGraphics::RenderShape::GetLineThickness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get line thickness. </p>
+
+</div>
+</div>
 <a id="a703df1e31c8cb5d745f93aca10ef5fc3" name="a703df1e31c8cb5d745f93aca10ef5fc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a703df1e31c8cb5d745f93aca10ef5fc3">&#9670;&nbsp;</a></span>GetMesh()</h2>
 
@@ -501,8 +539,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a11bcab72ea581f814658b9a27ddad465" name="a11bcab72ea581f814658b9a27ddad465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11bcab72ea581f814658b9a27ddad465">&#9670;&nbsp;</a></span>GetNumPrimitives()</h2>
+<a id="a9cecb2a1f7e677e83e69d0c43b645a56" name="a9cecb2a1f7e677e83e69d0c43b645a56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cecb2a1f7e677e83e69d0c43b645a56">&#9670;&nbsp;</a></span>GetNumIndices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +549,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::GetNumPrimitives </td>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::GetNumIndices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -524,7 +562,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get number of primitives </p>
+<p>get number of indices </p>
 
 </div>
 </div>
@@ -551,7 +589,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get number of vertices (only for indexed primitives) </p>
+<p>get number of vertices </p>
 
 </div>
 </div>
@@ -690,33 +728,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af77187a1fc2c3ab2d291bc4524194300" name="af77187a1fc2c3ab2d291bc4524194300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af77187a1fc2c3ab2d291bc4524194300">&#9670;&nbsp;</a></span>GetVertexWidth()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::GetVertexWidth </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get vertex width in number of floats </p>
-
-</div>
-</div>
 <a id="a2664efe372cb70f51399f06e6ac8998d" name="a2664efe372cb70f51399f06e6ac8998d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2664efe372cb70f51399f06e6ac8998d">&#9670;&nbsp;</a></span>IsValid()</h2>
 
@@ -744,33 +755,15 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ecc354b99c6ab13dfaf6932ab3accba" name="a4ecc354b99c6ab13dfaf6932ab3accba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ecc354b99c6ab13dfaf6932ab3accba">&#9670;&nbsp;</a></span>SetupIndexedPrimitives()</h2>
+<a id="aadf59990415ad8c6214220e9fbaf7301" name="aadf59990415ad8c6214220e9fbaf7301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf59990415ad8c6214220e9fbaf7301">&#9670;&nbsp;</a></span>SetupIndexPrimitives() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CoreGraphics::RenderShape::SetupIndexedPrimitives </td>
+          <td class="memname">void CoreGraphics::RenderShape::SetupIndexPrimitives </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
-          <td class="paramname"><em>modelTransform</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td>
-          <td class="paramname"><em>topology</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>numPrimitives</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *&#160;</td>
           <td class="paramname"><em>vertices</em>, </td>
         </tr>
@@ -789,20 +782,38 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>numIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a>&#160;</td>
           <td class="paramname"><em>indexType</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
-          <td class="paramname"><em>depthFlag</em>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td>
+          <td class="paramname"><em>transform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -812,12 +823,120 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setup indexed primitive batch (SLOW!) </p>
+<p>Setup indexed primitives draw. </p>
 
 </div>
 </div>
-<a id="a7ea169db65a117c6e7b32b6396e9ee2c" name="a7ea169db65a117c6e7b32b6396e9ee2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ea169db65a117c6e7b32b6396e9ee2c">&#9670;&nbsp;</a></span>SetupMesh()</h2>
+<a id="aa04241b23f2bd1a8fd0c159fb8338ba9" name="aa04241b23f2bd1a8fd0c159fb8338ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04241b23f2bd1a8fd0c159fb8338ba9">&#9670;&nbsp;</a></span>SetupIndexPrimitives() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::RenderShape::SetupIndexPrimitives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt;&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a> &gt;&#160;</td>
+          <td class="paramname"><em>indices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td>
+          <td class="paramname"><em>transform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setup indexed primitives draw. </p>
+
+</div>
+</div>
+<a id="ae4fdeb495bbd7aec0b2c3de2a1dd7c52" name="ae4fdeb495bbd7aec0b2c3de2a1dd7c52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4fdeb495bbd7aec0b2c3de2a1dd7c52">&#9670;&nbsp;</a></span>SetupIndexPrimitives() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::RenderShape::SetupIndexPrimitives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt;&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> &gt;&#160;</td>
+          <td class="paramname"><em>indices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td>
+          <td class="paramname"><em>transform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setup indexed primitives draw. </p>
+
+</div>
+</div>
+<a id="aff8cac66432e10975c67aad5213f0dcf" name="aff8cac66432e10975c67aad5213f0dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8cac66432e10975c67aad5213f0dcf">&#9670;&nbsp;</a></span>SetupMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -825,12 +944,6 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void CoreGraphics::RenderShape::SetupMesh </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
-          <td class="paramname"><em>modelTransform</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
@@ -850,7 +963,19 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
-          <td class="paramname"><em>depthFlag</em>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
+          <td class="paramname"><em>modelTransform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -864,8 +989,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b3e80b28576a19c77fbf248d3cdc550" name="a4b3e80b28576a19c77fbf248d3cdc550"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b3e80b28576a19c77fbf248d3cdc550">&#9670;&nbsp;</a></span>SetupPrimitives()</h2>
+<a id="ae7aeade253f336718394f58d0865af42" name="ae7aeade253f336718394f58d0865af42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7aeade253f336718394f58d0865af42">&#9670;&nbsp;</a></span>SetupPrimitives() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -873,8 +998,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void CoreGraphics::RenderShape::SetupPrimitives </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
-          <td class="paramname"><em>modelTransform</em>, </td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>numVertices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -885,26 +1016,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
-          <td class="paramname"><em>numPrimitives</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> *&#160;</td>
-          <td class="paramname"><em>vertices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
-          <td class="paramname"><em>depthFlag</em>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td>
+          <td class="paramname"><em>transform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -914,12 +1039,60 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setup primitive batch (SLOW!) </p>
+<p>Setup primitives draw. </p>
 
 </div>
 </div>
-<a id="adf8d3f87e9b067c6f3b27743be859062" name="adf8d3f87e9b067c6f3b27743be859062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf8d3f87e9b067c6f3b27743be859062">&#9670;&nbsp;</a></span>SetupSimpleShape()</h2>
+<a id="a53d034496f37fdf142a149f025f76df8" name="a53d034496f37fdf142a149f025f76df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d034496f37fdf142a149f025f76df8">&#9670;&nbsp;</a></span>SetupPrimitives() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::RenderShape::SetupPrimitives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_render_shape_1_1_render_shape_vertex.html">RenderShape::RenderShapeVertex</a> &gt;&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">PrimitiveTopology::Code</a>&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327">RenderFlag</a>&#160;</td>
+          <td class="paramname"><em>depthFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td>
+          <td class="paramname"><em>transform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setup primitives draw. </p>
+
+</div>
+</div>
+<a id="aa3201ac208174a8db83e0d076d156585" name="aa3201ac208174a8db83e0d076d156585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3201ac208174a8db83e0d076d156585">&#9670;&nbsp;</a></span>SetupSimpleShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -939,14 +1112,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
-          <td class="paramname"><em>modelTransform</em>, </td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;&#160;</td>
+          <td class="paramname"><em>modelTransform</em> = <code><a class="el" href="struct_math_1_1mat4.html#adcbf7ff9dd2eb32468e9a8fff89e8043">Math::mat4::identity</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lineThickness</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1071,6 +1250,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adafc7cc99f9a4ca9e9e5b91f63acc3b0" name="adafc7cc99f9a4ca9e9e5b91f63acc3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafc7cc99f9a4ca9e9e5b91f63acc3b0">&#9670;&nbsp;</a></span>lineThickness</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CoreGraphics::RenderShape::lineThickness</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5eeec76fb838f58ebe56a6289aa26ab2" name="a5eeec76fb838f58ebe56a6289aa26ab2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5eeec76fb838f58ebe56a6289aa26ab2">&#9670;&nbsp;</a></span>mesh</h2>
 
@@ -1115,8 +1316,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60ca783118dd0a0114b9644f287bc8a1" name="a60ca783118dd0a0114b9644f287bc8a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60ca783118dd0a0114b9644f287bc8a1">&#9670;&nbsp;</a></span>numPrimitives</h2>
+<a id="a09d4f0d2f650813b0ae29f9c60e96d07" name="a09d4f0d2f650813b0ae29f9c60e96d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d4f0d2f650813b0ae29f9c60e96d07">&#9670;&nbsp;</a></span>numIndices</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1125,7 +1326,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::numPrimitives</td>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::numIndices</td>
         </tr>
       </table>
   </td>
@@ -1203,8 +1404,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aedb01633c427871fd2969c49758ee3df" name="aedb01633c427871fd2969c49758ee3df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedb01633c427871fd2969c49758ee3df">&#9670;&nbsp;</a></span>vertexDataOffset</h2>
+<a id="ad376ab6d7a044ac34036d5dcb4ef6af7" name="ad376ab6d7a044ac34036d5dcb4ef6af7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad376ab6d7a044ac34036d5dcb4ef6af7">&#9670;&nbsp;</a></span>vertexDataOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1213,7 +1414,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::RenderShape::vertexDataOffset</td>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::vertexDataOffset</td>
         </tr>
       </table>
   </td>
@@ -1247,28 +1448,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af6a2589c79729107374cb721a1ecb98f" name="af6a2589c79729107374cb721a1ecb98f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6a2589c79729107374cb721a1ecb98f">&#9670;&nbsp;</a></span>vertexWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderShape::vertexWidth</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/code/render/coregraphics/<a class="el" href="rendershape_8h_source.html">rendershape.h</a></li>
 <li>/github/workspace/code/render/coregraphics/<a class="el" href="rendershape_8cc.html">rendershape.cc</a></li>
@@ -1280,7 +1459,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li><li class="navelem"><a class="el" href="class_core_graphics_1_1_render_shape.html">RenderShape</a></li>
 				<li class="footer">
-					Generated on Tue Apr 19 2022 19:26:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Apr 21 2022 16:13:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

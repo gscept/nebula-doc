@@ -2,6 +2,7 @@ var types_8h =
 [
     [ "BITS_TO_BYTES", "types_8h.html#ac5eb6b4755b74c50cb76155d08b6e2ff", null ],
     [ "BYTES_TO_BITS", "types_8h.html#a4c1e0708f6f9b121ca602cd8ceddd670", null ],
+    [ "lengthof", "types_8h.html#ae72e6e2ae552a721f8916813a92f723b", null ],
     [ "N_ARGB", "types_8h.html#af1071ca04eeadeb20f6a6bbbfd4551b0", null ],
     [ "N_BIT", "types_8h.html#a42f3b0788fd2f4e6c0a5e34c5df5a1fa", null ],
     [ "N_COLORVALUE", "types_8h.html#ab531bea7af4793af364614efe14741d8", null ],

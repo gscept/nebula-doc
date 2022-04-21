@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['win32_5flean_5fand_5fmean_0',['WIN32_LEAN_AND_MEAN',['../foundation_2core_2win32_2precompiled_8h.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'precompiled.h']]],
-  ['win32_5fwin32calendartime_5fh_1',['WIN32_WIN32CALENDARTIME_H',['../win32calendartime_8h.html#a58fdec10f062d5648ad4749e41993f32',1,'win32calendartime.h']]],
-  ['win32_5fwin32consolehandler_5fh_2',['WIN32_WIN32CONSOLEHANDLER_H',['../win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec',1,'win32consolehandler.h']]],
-  ['win32_5fwin32minidump_5fh_3',['WIN32_WIN32MINIDUMP_H',['../win32minidump_8h.html#aefc2a0b402f5d585de10df2df7e60eed',1,'win32minidump.h']]],
-  ['win32_5fwin32timer_5fh_4',['WIN32_WIN32TIMER_H',['../win32timer_8h.html#a55c1887f69298dbcb9bff3b9c3d7cb4f',1,'win32timer.h']]],
-  ['world_5fdefault_5',['WORLD_DEFAULT',['../api_8h.html#a2facca052e7f70954ea5527e354b742a',1,'api.h']]]
+  ['va_5fcopy_0',['va_copy',['../im3d_8cpp.html#a0dde5116d631274c9f13b2e60fdc2c8d',1,'im3d.cpp']]],
+  ['vk_5fno_5fprototypes_1',['VK_NO_PROTOTYPES',['../vkloader_8h.html#a2b337b495b8538a07f4009281b9799f7',1,'vkloader.h']]]
 ];

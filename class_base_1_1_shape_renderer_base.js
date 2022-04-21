@@ -1,5 +1,15 @@
 var class_base_1_1_shape_renderer_base =
 [
+    [ "ShaderTypes", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1f", [
+      [ "Mesh", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa25898e7cf44082a9fda37e10175d4c96", null ],
+      [ "MeshNoDepth", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa1bfc63dc761cfc83216f090498fea771", null ],
+      [ "MeshWireframe", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa24629b09af79fbafd0059774a69d3734", null ],
+      [ "Primitives", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fadffd3d1cce9285f029c5587d785d7af9", null ],
+      [ "PrimitivesNoDepth", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa54c9595697f30cb0ac4264a9f7514475", null ],
+      [ "PrimitivesWireframeTriangles", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa0ae4e35ba8ad6220c61768050ea44c1a", null ],
+      [ "PrimitivesWireframeLines", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa68bc1fdbf8832d68a3184f4f49237d5c", null ],
+      [ "NumShaders", "class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393", null ]
+    ] ],
     [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html#a4175fbac8c84228f60bbdce1e7846b54", null ],
     [ "~ShapeRendererBase", "class_base_1_1_shape_renderer_base.html#aaf7f34b2afe410271ac65a7308f1a7c7", null ],
     [ "__DeclareClass", "class_base_1_1_shape_renderer_base.html#a50a83c20955aa08384afa65a6bb60213", null ],
@@ -15,6 +25,7 @@ var class_base_1_1_shape_renderer_base =
     [ "isOpen", "class_base_1_1_shape_renderer_base.html#ac374e84f6386f468217b19729c5a1dd3", null ],
     [ "numIndicesThisFrame", "class_base_1_1_shape_renderer_base.html#ac61a28099a07bc659363bbba1c5fc93c", null ],
     [ "numVerticesThisFrame", "class_base_1_1_shape_renderer_base.html#a5281900a4406644ce1a9d88219096ebf", null ],
-    [ "primitives", "class_base_1_1_shape_renderer_base.html#a540c926bae9d0c0b5577b32d2cf7612b", null ],
-    [ "shapes", "class_base_1_1_shape_renderer_base.html#a65ff187a836844daae0649ef6e0a04a2", null ]
+    [ "primitives", "class_base_1_1_shape_renderer_base.html#ad9371ccca5922a7da4da8788af568a6c", null ],
+    [ "programs", "class_base_1_1_shape_renderer_base.html#a5fd39d04831af4c425c3de32466df8c2", null ],
+    [ "shapes", "class_base_1_1_shape_renderer_base.html#a0705c272e37ea408e9c2e67b379d5425", null ]
 ];
