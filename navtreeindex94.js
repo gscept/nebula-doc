@@ -1,5 +1,11 @@
 var NAVTREEINDEX94 =
 {
+"debuginterface_8cc.html#a7042fce4c03b2394b58f5fb6d4358ef7":[10,0,0,3,2,6,1],
+"debuginterface_8h.html":[10,0,0,3,2,7],
+"debuginterface_8h_source.html":[10,0,0,3,2,7],
+"debugmessage_8h.html":[10,0,0,3,15,4],
+"debugmessage_8h_source.html":[10,0,0,3,15,4],
+"debugpacket_8cc.html":[10,0,0,3,15,5],
 "debugpacket_8h.html":[10,0,0,3,15,6],
 "debugpacket_8h_source.html":[10,0,0,3,15,6],
 "debugpagehandler_8cc.html":[10,0,0,3,2,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX94 =
 "drawfullscreenquad_8h.html":[10,0,0,6,21,1],
 "drawfullscreenquad_8h_source.html":[10,0,0,6,21,1],
 "drawthread_8cc.html":[10,0,0,6,5,25],
-"drawthread_8h.html":[10,0,0,6,5,26],
-"drawthread_8h.html#af51dd23020a9b038366cd4f0df54401f":[10,0,0,6,5,26,4],
-"drawthread_8h_source.html":[10,0,0,6,5,26],
-"emitterattrs_8cc.html":[10,0,0,6,16,0],
-"emitterattrs_8h.html":[10,0,0,6,16,1],
-"emitterattrs_8h_source.html":[10,0,0,6,16,1],
-"emittermesh_8cc.html":[10,0,0,6,16,2]
+"drawthread_8h.html":[10,0,0,6,5,26]
 };

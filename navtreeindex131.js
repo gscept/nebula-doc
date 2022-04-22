@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"struct_gltf_1_1_camera_1_1_perspective.html#ae7cd166be46d2faf56892a9eed0defde":[8,0,27,5,1,3],
+"struct_gltf_1_1_camera_1_1_perspective.html#af35b9520609066a7e2023ebda513507e":[8,0,27,5,1,0],
+"struct_gltf_1_1_camera_1_1_perspective.html#af35b9520609066a7e2023ebda513507e":[9,0,24,5,1,0],
+"struct_gltf_1_1_document.html":[9,0,24,6],
+"struct_gltf_1_1_document.html":[8,0,27,6],
+"struct_gltf_1_1_document.html#a02470ab81b185a351f912e30e776ee67":[9,0,24,6,8],
 "struct_gltf_1_1_document.html#a02470ab81b185a351f912e30e776ee67":[8,0,27,6,8],
 "struct_gltf_1_1_document.html#a04138253d903dfc326501ae368312899":[8,0,27,6,9],
 "struct_gltf_1_1_document.html#a04138253d903dfc326501ae368312899":[9,0,24,6,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ab5ab4d4d35fe76b5dce0d22ca018c784":[8,0,27,12,0,17],
 "struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858abb0e8f2430a4d1c96cf03dee08c15b0e":[8,0,27,12,0,32],
 "struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858abb0e8f2430a4d1c96cf03dee08c15b0e":[9,0,24,12,0,32],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858aca386c440744b486309876529275ac67":[9,0,24,12,0,21],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858aca386c440744b486309876529275ac67":[8,0,27,12,0,21],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ad086d00856e00fc62abebe2a3ffc73b4":[8,0,27,12,0,5],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ad086d00856e00fc62abebe2a3ffc73b4":[9,0,24,12,0,5],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ae1328451c081a530e07a9b63aada0995":[9,0,24,12,0,4],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ae1328451c081a530e07a9b63aada0995":[8,0,27,12,0,4],
-"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ae2a7898b335d86cfce3647176ed64660":[8,0,27,12,0,13]
+"struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858aca386c440744b486309876529275ac67":[9,0,24,12,0,21]
 };

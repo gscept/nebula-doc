@@ -1,5 +1,11 @@
 var NAVTREEINDEX147 =
 {
+"struct_vulkan_1_1_vk_pipeline_bundle.html#a9eb2da2e72d03a319371ab66c82fc89d":[8,0,73,24,6],
+"struct_vulkan_1_1_vk_pipeline_bundle.html#a9eb2da2e72d03a319371ab66c82fc89d":[9,0,63,24,6],
+"struct_vulkan_1_1_vk_pipeline_bundle.html#aa5b9487774ff13a2af015d862d61d918":[8,0,73,24,3],
+"struct_vulkan_1_1_vk_pipeline_bundle.html#aa5b9487774ff13a2af015d862d61d918":[9,0,63,24,3],
+"struct_vulkan_1_1_vk_pipeline_bundle.html#aecd742562bb98973f89f04c5aa85e1a6":[9,0,63,24,0],
+"struct_vulkan_1_1_vk_pipeline_bundle.html#aecd742562bb98973f89f04c5aa85e1a6":[8,0,73,24,0],
 "struct_vulkan_1_1_vk_pipeline_database_1_1_base_node.html":[8,0,73,25,0],
 "struct_vulkan_1_1_vk_pipeline_database_1_1_base_node.html":[9,0,63,25,0],
 "struct_vulkan_1_1_vk_pipeline_database_1_1_base_node.html#a189796eec4a821133a25f3ca66bc5c46":[8,0,73,25,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX147 =
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a7ef25c54f267d4eb876ffd4efa89f369":[9,0,63,35,1,2],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a7ef25c54f267d4eb876ffd4efa89f369":[8,0,73,35,1,2],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ac97d25f383324bbdeab9d45699e852a4":[9,0,63,35,1,4],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ac97d25f383324bbdeab9d45699e852a4":[8,0,73,35,1,4],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ad0e879514a6648f406f589cc351d0c4c":[8,0,73,35,1,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ad0e879514a6648f406f589cc351d0c4c":[9,0,63,35,1,1],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html":[9,0,63,36,0],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html":[8,0,73,36,0],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html#a1605ff4d69bf80f0887650287010f86d":[9,0,63,36,0,0],
-"struct_vulkan_1_1_vk_text_renderer_1_1_text_element_vertex.html#a1605ff4d69bf80f0887650287010f86d":[8,0,73,36,0,0]
+"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ac97d25f383324bbdeab9d45699e852a4":[8,0,73,35,1,4]
 };
