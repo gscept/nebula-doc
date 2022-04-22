@@ -1,11 +1,5 @@
 var NAVTREEINDEX145 =
 {
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#aef271c30e7fa6c3bf19a711da86e6c93":[8,0,73,13,2,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#aef271c30e7fa6c3bf19a711da86e6c93":[9,0,63,13,2,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html":[8,0,73,13,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html":[9,0,63,13,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#a639bae4df66a0fc01f9b829580176c97":[9,0,63,13,3,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#a639bae4df66a0fc01f9b829580176c97":[8,0,73,13,3,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#aa0907fe75aa8f07fee2ce1d369115492":[8,0,73,13,3,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#aa0907fe75aa8f07fee2ce1d369115492":[9,0,63,13,3,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#aa99c11ee368462b07a6370fd37221447":[9,0,63,13,3,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX145 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a2eb8ce2138c52ee344fe0cae098510c8":[9,0,63,13,29,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a2eb8ce2138c52ee344fe0cae098510c8":[8,0,73,13,29,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a33d517c87baa69d7f159983b426bbf67":[9,0,63,13,29,5],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a33d517c87baa69d7f159983b426bbf67":[8,0,73,13,29,5]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a33d517c87baa69d7f159983b426bbf67":[8,0,73,13,29,5],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a3e435867b0cb70abdaea371a3269d15f":[9,0,63,13,29,6],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a3e435867b0cb70abdaea371a3269d15f":[8,0,73,13,29,6],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a86accdb16103259765a2ec49cc27bde3":[9,0,63,13,29,3],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#a86accdb16103259765a2ec49cc27bde3":[8,0,73,13,29,3],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#aaa64be5754c31a765bc8423333dc42f2":[9,0,63,13,29,8],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html#aaa64be5754c31a765bc8423333dc42f2":[8,0,73,13,29,8]
 };
