@@ -111,6 +111,5 @@ var searchData=
   ['defineushort_108',['DefineUShort',['../attributedefinition_8h.html#add7be8360b56836d5d59fa8818a42b54',1,'attributedefinition.h']]],
   ['defineushortwithdefault_109',['DefineUShortWithDefault',['../attributedefinition_8h.html#ad5cad2b4e2f7288cb96d070ad1a05348',1,'attributedefinition.h']]],
   ['definevoidptr_110',['DefineVoidPtr',['../attributedefinition_8h.html#a75ee54a2549bebca6d7e911e6df4f96a',1,'attributedefinition.h']]],
-  ['definevoidptrwithdefault_111',['DefineVoidPtrWithDefault',['../attributedefinition_8h.html#a6d83b5bc8b228b6b9e9ed061d6ed2e9f',1,'attributedefinition.h']]],
-  ['divandroundup_112',['DivAndRoundUp',['../vkshadowserver_8cc.html#adfc7d34907808926090ca46a3dbd10a2',1,'vkshadowserver.cc']]]
+  ['definevoidptrwithdefault_111',['DefineVoidPtrWithDefault',['../attributedefinition_8h.html#a6d83b5bc8b228b6b9e9ed061d6ed2e9f',1,'attributedefinition.h']]]
 ];

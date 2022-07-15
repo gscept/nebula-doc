@@ -1,12 +1,6 @@
 var dir_31d4aa08d8a6efd23ce0eb94b64903c5 =
 [
-    [ "bxmlfilestructs.h", "bxmlfilestructs_8h.html", [
-      [ "IO::BXMLFileHeader", "struct_i_o_1_1_b_x_m_l_file_header.html", "struct_i_o_1_1_b_x_m_l_file_header" ],
-      [ "IO::BXMLFileAttr", "struct_i_o_1_1_b_x_m_l_file_attr.html", "struct_i_o_1_1_b_x_m_l_file_attr" ],
-      [ "IO::BXMLFileNode", "struct_i_o_1_1_b_x_m_l_file_node.html", "struct_i_o_1_1_b_x_m_l_file_node" ]
-    ] ],
+    [ "bxmlfilestructs.h", "bxmlfilestructs_8h.html", "bxmlfilestructs_8h" ],
     [ "bxmlloaderutil.cc", "bxmlloaderutil_8cc.html", null ],
-    [ "bxmlloaderutil.h", "bxmlloaderutil_8h.html", [
-      [ "IO::BXmlLoaderUtil", "class_i_o_1_1_b_xml_loader_util.html", "class_i_o_1_1_b_xml_loader_util" ]
-    ] ]
+    [ "bxmlloaderutil.h", "bxmlloaderutil_8h.html", "bxmlloaderutil_8h" ]
 ];

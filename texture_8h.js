@@ -4,12 +4,22 @@ var texture_8h =
     [ "CoreGraphics::TextureMapInfo", "struct_core_graphics_1_1_texture_map_info.html", "struct_core_graphics_1_1_texture_map_info" ],
     [ "CoreGraphics::TextureDimensions", "struct_core_graphics_1_1_texture_dimensions.html", "struct_core_graphics_1_1_texture_dimensions" ],
     [ "CoreGraphics::TextureRelativeDimensions", "struct_core_graphics_1_1_texture_relative_dimensions.html", "struct_core_graphics_1_1_texture_relative_dimensions" ],
+    [ "CoreGraphics::TextureSwizzle", "struct_core_graphics_1_1_texture_swizzle.html", "struct_core_graphics_1_1_texture_swizzle" ],
     [ "CoreGraphics::DepthStencilClear", "struct_core_graphics_1_1_depth_stencil_clear.html", "struct_core_graphics_1_1_depth_stencil_clear" ],
     [ "CoreGraphics::TextureCreateInfo", "struct_core_graphics_1_1_texture_create_info.html", "struct_core_graphics_1_1_texture_create_info" ],
     [ "CoreGraphics::TextureCreateInfoAdjusted", "struct_core_graphics_1_1_texture_create_info_adjusted.html", "struct_core_graphics_1_1_texture_create_info_adjusted" ],
     [ "CoreGraphics::TextureSparsePageSize", "struct_core_graphics_1_1_texture_sparse_page_size.html", "struct_core_graphics_1_1_texture_sparse_page_size" ],
     [ "CoreGraphics::TextureSparsePageOffset", "struct_core_graphics_1_1_texture_sparse_page_offset.html", "struct_core_graphics_1_1_texture_sparse_page_offset" ],
     [ "CoreGraphics::TextureSparsePage", "struct_core_graphics_1_1_texture_sparse_page.html", "struct_core_graphics_1_1_texture_sparse_page" ],
+    [ "TextureChannelMapping", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75", [
+      [ "None", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Red", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75aee38e4d5dd68c4e440825018d549cb47", null ],
+      [ "Green", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75ad382816a3cbeed082c9e216e7392eed1", null ],
+      [ "Blue", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75a9594eec95be70e7b1710f730fdda33d9", null ],
+      [ "Alpha", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75a6132295fcf5570fb8b0a944ef322a598", null ],
+      [ "Zero", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75ad7ed4ee1df437474d005188535f74875", null ],
+      [ "One", "texture_8h.html#ab1b707a296a3e7f072a7474d75627a75a06c2cea18679d64399783748fa367bdd", null ]
+    ] ],
     [ "TextureCubeFace", "texture_8h.html#a6b2308ed69f339e21d38bba252611f1d", [
       [ "PosX", "texture_8h.html#a6b2308ed69f339e21d38bba252611f1da822da4a043d560a2835737a181dc9cda", null ],
       [ "NegX", "texture_8h.html#a6b2308ed69f339e21d38bba252611f1da183d04c0aae822d0ae788c5400adf3bf", null ],

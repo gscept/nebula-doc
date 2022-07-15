@@ -12,6 +12,7 @@ var class_vegetation_1_1_vegetation_context =
     [ "Create", "class_vegetation_1_1_vegetation_context.html#a5cdd36ab6d17e5e970631eedacf8fc1e", null ],
     [ "Dealloc", "class_vegetation_1_1_vegetation_context.html#a92126372f489ab6abdd0d19198034dfc", null ],
     [ "Discard", "class_vegetation_1_1_vegetation_context.html#ad422f5ca09219cc130740b11891ae254", null ],
+    [ "Setup", "class_vegetation_1_1_vegetation_context.html#a1659a3cf6a1d5059c9c347cf6c57b869", null ],
     [ "SetupGrass", "class_vegetation_1_1_vegetation_context.html#a5c08e054b75c171a97d8792c08230a30", null ],
     [ "SetupMesh", "class_vegetation_1_1_vegetation_context.html#a84c74e2f4682a08b0d1e6d2817be3501", null ],
     [ "UpdateViewResources", "class_vegetation_1_1_vegetation_context.html#a0f831e199d216292a6939d5961318c4b", null ],

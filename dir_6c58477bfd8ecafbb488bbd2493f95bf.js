@@ -2,53 +2,29 @@ var dir_6c58477bfd8ecafbb488bbd2493f95bf =
 [
     [ "jobs", "dir_c1e77362bf859dbe8be9a1659a36baec.html", "dir_c1e77362bf859dbe8be9a1659a36baec" ],
     [ "animclip.cc", "animclip_8cc.html", null ],
-    [ "animclip.h", "animclip_8h.html", [
-      [ "CoreAnimation::AnimClip", "class_core_animation_1_1_anim_clip.html", "class_core_animation_1_1_anim_clip" ]
-    ] ],
-    [ "animcurve.h", "animcurve_8h.html", [
-      [ "CoreAnimation::AnimCurve", "class_core_animation_1_1_anim_curve.html", "class_core_animation_1_1_anim_curve" ]
-    ] ],
+    [ "animclip.h", "animclip_8h.html", "animclip_8h" ],
+    [ "animcurve.h", "animcurve_8h.html", "animcurve_8h" ],
     [ "animevent.h", "animevent_8h.html", "animevent_8h" ],
     [ "animeventemitter.cc", "animeventemitter_8cc.html", null ],
-    [ "animeventemitter.h", "animeventemitter_8h.html", [
-      [ "CoreAnimation::AnimEventEmitter", "class_core_animation_1_1_anim_event_emitter.html", "class_core_animation_1_1_anim_event_emitter" ]
-    ] ],
+    [ "animeventemitter.h", "animeventemitter_8h.html", "animeventemitter_8h" ],
     [ "animkeybuffer.cc", "animkeybuffer_8cc.html", "animkeybuffer_8cc" ],
-    [ "animkeybuffer.h", "animkeybuffer_8h.html", [
-      [ "CoreAnimation::AnimKeyBuffer", "class_core_animation_1_1_anim_key_buffer.html", "class_core_animation_1_1_anim_key_buffer" ]
-    ] ],
+    [ "animkeybuffer.h", "animkeybuffer_8h.html", "animkeybuffer_8h" ],
     [ "animresource.cc", "animresource_8cc.html", "animresource_8cc" ],
     [ "animresource.h", "animresource_8h.html", "animresource_8h" ],
     [ "animsamplebuffer.cc", "animsamplebuffer_8cc.html", null ],
-    [ "animsamplebuffer.h", "animsamplebuffer_8h.html", [
-      [ "CoreAnimation::AnimSampleBuffer", "class_core_animation_1_1_anim_sample_buffer.html", "class_core_animation_1_1_anim_sample_buffer" ]
-    ] ],
+    [ "animsamplebuffer.h", "animsamplebuffer_8h.html", "animsamplebuffer_8h" ],
     [ "animsamplejob.cc", "animsamplejob_8cc.html", "animsamplejob_8cc" ],
-    [ "animsamplemask.h", "animsamplemask_8h.html", [
-      [ "CoreAnimation::AnimSampleMask", "struct_core_animation_1_1_anim_sample_mask.html", "struct_core_animation_1_1_anim_sample_mask" ]
-    ] ],
-    [ "animsamplemixinfo.h", "animsamplemixinfo_8h.html", [
-      [ "CoreAnimation::AnimSampleMixInfo", "struct_core_animation_1_1_anim_sample_mix_info.html", "struct_core_animation_1_1_anim_sample_mix_info" ]
-    ] ],
+    [ "animsamplemask.h", "animsamplemask_8h.html", "animsamplemask_8h" ],
+    [ "animsamplemixinfo.h", "animsamplemixinfo_8h.html", "animsamplemixinfo_8h" ],
     [ "animutil.cc", "animutil_8cc.html", "animutil_8cc" ],
-    [ "animutil.h", "animutil_8h.html", [
-      [ "CoreAnimation::AnimUtil", "class_core_animation_1_1_anim_util.html", "class_core_animation_1_1_anim_util" ]
-    ] ],
+    [ "animutil.h", "animutil_8h.html", "animutil_8h" ],
     [ "curvetype.cc", "curvetype_8cc.html", null ],
-    [ "curvetype.h", "curvetype_8h.html", [
-      [ "CoreAnimation::CurveType", "class_core_animation_1_1_curve_type.html", "class_core_animation_1_1_curve_type" ]
-    ] ],
+    [ "curvetype.h", "curvetype_8h.html", "curvetype_8h" ],
     [ "infinitytype.cc", "infinitytype_8cc.html", null ],
-    [ "infinitytype.h", "infinitytype_8h.html", [
-      [ "CoreAnimation::InfinityType", "class_core_animation_1_1_infinity_type.html", "class_core_animation_1_1_infinity_type" ]
-    ] ],
+    [ "infinitytype.h", "infinitytype_8h.html", "infinitytype_8h" ],
     [ "naxfileformatstructs.h", "naxfileformatstructs_8h.html", "naxfileformatstructs_8h" ],
     [ "sampletype.cc", "sampletype_8cc.html", null ],
-    [ "sampletype.h", "sampletype_8h.html", [
-      [ "CoreAnimation::SampleType", "class_core_animation_1_1_sample_type.html", "class_core_animation_1_1_sample_type" ]
-    ] ],
+    [ "sampletype.h", "sampletype_8h.html", "sampletype_8h" ],
     [ "streamanimationcache.cc", "streamanimationcache_8cc.html", "streamanimationcache_8cc" ],
-    [ "streamanimationcache.h", "streamanimationcache_8h.html", [
-      [ "CoreAnimation::StreamAnimationCache", "class_core_animation_1_1_stream_animation_cache.html", "class_core_animation_1_1_stream_animation_cache" ]
-    ] ]
+    [ "streamanimationcache.h", "streamanimationcache_8h.html", "streamanimationcache_8h" ]
 ];

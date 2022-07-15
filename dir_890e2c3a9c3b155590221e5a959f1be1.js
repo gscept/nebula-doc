@@ -8,28 +8,18 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "defaulthttprequesthandler.cc", "defaulthttprequesthandler_8cc.html", "defaulthttprequesthandler_8cc" ],
     [ "defaulthttprequesthandler.h", "defaulthttprequesthandler_8h.html", "defaulthttprequesthandler_8h" ],
     [ "httpclient.cc", "httpclient_8cc.html", "httpclient_8cc" ],
-    [ "httpclient.h", "httpclient_8h.html", [
-      [ "Http::HttpClient", "class_http_1_1_http_client.html", "class_http_1_1_http_client" ]
-    ] ],
+    [ "httpclient.h", "httpclient_8h.html", "httpclient_8h" ],
     [ "httpclientregistry.cc", "httpclientregistry_8cc.html", "httpclientregistry_8cc" ],
-    [ "httpclientregistry.h", "httpclientregistry_8h.html", [
-      [ "Http::HttpClientRegistry", "class_http_1_1_http_client_registry.html", "class_http_1_1_http_client_registry" ],
-      [ "Http::HttpClientRegistry::Connection", "struct_http_1_1_http_client_registry_1_1_connection.html", "struct_http_1_1_http_client_registry_1_1_connection" ]
-    ] ],
+    [ "httpclientregistry.h", "httpclientregistry_8h.html", "httpclientregistry_8h" ],
     [ "httpinterface.cc", "httpinterface_8cc.html", "httpinterface_8cc" ],
     [ "httpinterface.h", "httpinterface_8h.html", "httpinterface_8h" ],
     [ "httpmessagehandler.cc", "httpmessagehandler_8cc.html", "httpmessagehandler_8cc" ],
     [ "httpmessagehandler.h", "httpmessagehandler_8h.html", "httpmessagehandler_8h" ],
     [ "httpmethod.h", "httpmethod_8h.html", "httpmethod_8h" ],
     [ "httpnzstream.cc", "httpnzstream_8cc.html", "httpnzstream_8cc" ],
-    [ "httpnzstream.h", "httpnzstream_8h.html", [
-      [ "Http::HttpNzStream", "class_http_1_1_http_nz_stream.html", "class_http_1_1_http_nz_stream" ]
-    ] ],
+    [ "httpnzstream.h", "httpnzstream_8h.html", "httpnzstream_8h" ],
     [ "httpprotocol.cc", "httpprotocol_8cc.html", "httpprotocol_8cc" ],
-    [ "httpprotocol.h", "httpprotocol_8h.html", [
-      [ "Http::AttachRequestHandler", "class_http_1_1_attach_request_handler.html", "class_http_1_1_attach_request_handler" ],
-      [ "Http::RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", "class_http_1_1_remove_request_handler" ]
-    ] ],
+    [ "httpprotocol.h", "httpprotocol_8h.html", "httpprotocol_8h" ],
     [ "httprequest.cc", "httprequest_8cc.html", "httprequest_8cc" ],
     [ "httprequest.h", "httprequest_8h.html", "httprequest_8h" ],
     [ "httprequesthandler.cc", "httprequesthandler_8cc.html", "httprequesthandler_8cc" ],
@@ -37,13 +27,9 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "httprequestreader.cc", "httprequestreader_8cc.html", "httprequestreader_8cc" ],
     [ "httprequestreader.h", "httprequestreader_8h.html", "httprequestreader_8h" ],
     [ "httprequestwriter.cc", "httprequestwriter_8cc.html", "httprequestwriter_8cc" ],
-    [ "httprequestwriter.h", "httprequestwriter_8h.html", [
-      [ "Http::HttpRequestWriter", "class_http_1_1_http_request_writer.html", "class_http_1_1_http_request_writer" ]
-    ] ],
+    [ "httprequestwriter.h", "httprequestwriter_8h.html", "httprequestwriter_8h" ],
     [ "httpresponsereader.cc", "httpresponsereader_8cc.html", "httpresponsereader_8cc" ],
-    [ "httpresponsereader.h", "httpresponsereader_8h.html", [
-      [ "Http::HttpResponseReader", "class_http_1_1_http_response_reader.html", "class_http_1_1_http_response_reader" ]
-    ] ],
+    [ "httpresponsereader.h", "httpresponsereader_8h.html", "httpresponsereader_8h" ],
     [ "httpresponsewriter.cc", "httpresponsewriter_8cc.html", "httpresponsewriter_8cc" ],
     [ "httpresponsewriter.h", "httpresponsewriter_8h.html", "httpresponsewriter_8h" ],
     [ "httpserver.cc", "httpserver_8cc.html", "httpserver_8cc" ],
@@ -53,7 +39,5 @@ var dir_890e2c3a9c3b155590221e5a959f1be1 =
     [ "httpstatus.cc", "httpstatus_8cc.html", null ],
     [ "httpstatus.h", "httpstatus_8h.html", "httpstatus_8h" ],
     [ "httpstream.cc", "httpstream_8cc.html", "httpstream_8cc" ],
-    [ "httpstream.h", "httpstream_8h.html", [
-      [ "Http::HttpStream", "class_http_1_1_http_stream.html", "class_http_1_1_http_stream" ]
-    ] ]
+    [ "httpstream.h", "httpstream_8h.html", "httpstream_8h" ]
 ];

@@ -5,6 +5,7 @@ var class_core_graphics_1_1_memory_mesh_cache =
     [ "__DeclareClass", "class_core_graphics_1_1_memory_mesh_cache.html#af707fcb830263389c020541d940bced8", null ],
     [ "__ImplementResourceAllocatorTypedSafe", "class_core_graphics_1_1_memory_mesh_cache.html#a387792b1771ed63b1587c6bc5435e1d9", null ],
     [ "GetIndexBuffer", "class_core_graphics_1_1_memory_mesh_cache.html#a75d8bb30f09c250d8c664221df629a57", null ],
+    [ "GetIndexOffset", "class_core_graphics_1_1_memory_mesh_cache.html#ae84bc865cc2a7bb000dc085e0ba5f19f", null ],
     [ "GetPrimitiveGroups", "class_core_graphics_1_1_memory_mesh_cache.html#a6d2c4c386050b5c3205ec4a226946bf9", null ],
     [ "GetPrimitiveTopology", "class_core_graphics_1_1_memory_mesh_cache.html#a847ade6a18138410b7a80dc27ea727c6", null ],
     [ "GetVertexBuffer", "class_core_graphics_1_1_memory_mesh_cache.html#aeb542a77889373b4ac861737419f98a1", null ],

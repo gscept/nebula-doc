@@ -7,8 +7,8 @@ var buffer_8h =
     [ "BufferAccessMode", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077", [
       [ "DeviceLocal", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077a1ea9ad9651bba47cd372e25950c819a5", null ],
       [ "HostLocal", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077a716f0654dee77cadcdb7d2980801f4c2", null ],
-      [ "HostToDevice", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077abc798396267023fd0d6e6d5a7b430ccf", null ],
-      [ "DeviceToHost", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077a0d22110b00b7c55dd1b8c25fa31df0b8", null ]
+      [ "HostCached", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251", null ],
+      [ "DeviceAndHost", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077a752593519100585f5c285a3c9e226611", null ]
     ] ],
     [ "BufferQueueSupport", "buffer_8h.html#aad24b93f2e36b36169fd9b20c3f54b72", [
       [ "AutomaticQueueSupport", "buffer_8h.html#aad24b93f2e36b36169fd9b20c3f54b72a65eb8ea6b0462e34dfef9fc4c8d1b10e", null ],

@@ -10,5 +10,6 @@ var dir_2d159f25e9659ae0b75ab38b7905759a =
     [ "nflatbuffer", "dir_3646426fe6d327e7ecd5f3c6769ab734.html", "dir_3646426fe6d327e7ecd5f3c6769ab734" ],
     [ "physicsfeature", "dir_29fdd24923ca0d7c16ea156936fdc52c.html", "dir_29fdd24923ca0d7c16ea156936fdc52c" ],
     [ "scripting", "dir_ea92fcabcfb6efb91fcacee3784310e0.html", "dir_ea92fcabcfb6efb91fcacee3784310e0" ],
+    [ "staticui", "dir_f730a06297293d76917fa4fefa9f1f79.html", "dir_f730a06297293d76917fa4fefa9f1f79" ],
     [ "tinyxml", "dir_12c862cba94fee310be04c46f8c27fb1.html", "dir_12c862cba94fee310be04c46f8c27fb1" ]
 ];

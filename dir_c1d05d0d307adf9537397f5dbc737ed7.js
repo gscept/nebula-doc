@@ -2,58 +2,27 @@ var dir_c1d05d0d307adf9537397f5dbc737ed7 =
 [
     [ "accessmode.h", "accessmode_8h.html", "accessmode_8h" ],
     [ "attrexithandler.cc", "attrexithandler_8cc.html", null ],
-    [ "attrexithandler.h", "attrexithandler_8h.html", [
-      [ "Attr::AttrExitHandler", "class_attr_1_1_attr_exit_handler.html", "class_attr_1_1_attr_exit_handler" ]
-    ] ],
-    [ "attribute.h", "attribute_8h.html", [
-      [ "Attr::Attribute", "class_attr_1_1_attribute.html", "class_attr_1_1_attribute" ]
-    ] ],
+    [ "attrexithandler.h", "attrexithandler_8h.html", "attrexithandler_8h" ],
+    [ "attribute.h", "attribute_8h.html", "attribute_8h" ],
     [ "attributecontainer.cc", "attributecontainer_8cc.html", null ],
-    [ "attributecontainer.h", "attributecontainer_8h.html", [
-      [ "Attr::AttributeContainer", "class_attr_1_1_attribute_container.html", "class_attr_1_1_attribute_container" ]
-    ] ],
+    [ "attributecontainer.h", "attributecontainer_8h.html", "attributecontainer_8h" ],
     [ "attributedefinition.h", "attributedefinition_8h.html", "attributedefinition_8h" ],
     [ "attributedefinitionbase.cc", "attributedefinitionbase_8cc.html", null ],
-    [ "attributedefinitionbase.h", "attributedefinitionbase_8h.html", [
-      [ "Attr::AttributeDefinitionBase", "class_attr_1_1_attribute_definition_base.html", "class_attr_1_1_attribute_definition_base" ]
-    ] ],
+    [ "attributedefinitionbase.h", "attributedefinitionbase_8h.html", "attributedefinitionbase_8h" ],
     [ "attributetable.cc", "attributetable_8cc.html", "attributetable_8cc" ],
-    [ "attributetable.h", "attributetable_8h.html", [
-      [ "Attr::AttributeTable", "class_attr_1_1_attribute_table.html", "class_attr_1_1_attribute_table" ],
-      [ "Attr::AttributeTable::ColumnInfo", "struct_attr_1_1_attribute_table_1_1_column_info.html", "struct_attr_1_1_attribute_table_1_1_column_info" ]
-    ] ],
+    [ "attributetable.h", "attributetable_8h.html", "attributetable_8h" ],
     [ "attrid.cc", "attrid_8cc.html", null ],
-    [ "attrid.h", "attrid_8h.html", [
-      [ "Attr::AttrId", "class_attr_1_1_attr_id.html", "class_attr_1_1_attr_id" ]
-    ] ],
-    [ "blobattrid.h", "blobattrid_8h.html", [
-      [ "Attr::BlobAttrId", "class_attr_1_1_blob_attr_id.html", "class_attr_1_1_blob_attr_id" ]
-    ] ],
-    [ "boolattrid.h", "boolattrid_8h.html", [
-      [ "Attr::BoolAttrId", "class_attr_1_1_bool_attr_id.html", "class_attr_1_1_bool_attr_id" ]
-    ] ],
+    [ "attrid.h", "attrid_8h.html", "attrid_8h" ],
+    [ "blobattrid.h", "blobattrid_8h.html", "blobattrid_8h" ],
+    [ "boolattrid.h", "boolattrid_8h.html", "boolattrid_8h" ],
     [ "commonattributes.cc", "commonattributes_8cc.html", "commonattributes_8cc" ],
     [ "commonattributes.h", "commonattributes_8h.html", "commonattributes_8h" ],
-    [ "floatattrid.h", "floatattrid_8h.html", [
-      [ "Attr::FloatAttrId", "class_attr_1_1_float_attr_id.html", "class_attr_1_1_float_attr_id" ]
-    ] ],
-    [ "guidattrid.h", "guidattrid_8h.html", [
-      [ "Attr::GuidAttrId", "class_attr_1_1_guid_attr_id.html", "class_attr_1_1_guid_attr_id" ]
-    ] ],
-    [ "intattrid.h", "intattrid_8h.html", [
-      [ "Attr::IntAttrId", "class_attr_1_1_int_attr_id.html", "class_attr_1_1_int_attr_id" ]
-    ] ],
-    [ "mat4attrid.h", "mat4attrid_8h.html", [
-      [ "Attr::Mat4AttrId", "class_attr_1_1_mat4_attr_id.html", "class_attr_1_1_mat4_attr_id" ]
-    ] ],
-    [ "stringattrid.h", "stringattrid_8h.html", [
-      [ "Attr::StringAttrId", "class_attr_1_1_string_attr_id.html", "class_attr_1_1_string_attr_id" ]
-    ] ],
-    [ "uintattrid.h", "uintattrid_8h.html", [
-      [ "Attr::UIntAttrId", "class_attr_1_1_u_int_attr_id.html", "class_attr_1_1_u_int_attr_id" ]
-    ] ],
+    [ "floatattrid.h", "floatattrid_8h.html", "floatattrid_8h" ],
+    [ "guidattrid.h", "guidattrid_8h.html", "guidattrid_8h" ],
+    [ "intattrid.h", "intattrid_8h.html", "intattrid_8h" ],
+    [ "mat4attrid.h", "mat4attrid_8h.html", "mat4attrid_8h" ],
+    [ "stringattrid.h", "stringattrid_8h.html", "stringattrid_8h" ],
+    [ "uintattrid.h", "uintattrid_8h.html", "uintattrid_8h" ],
     [ "valuetype.h", "valuetype_8h.html", "valuetype_8h" ],
-    [ "vec4attrid.h", "vec4attrid_8h.html", [
-      [ "Attr::Vec4AttrId", "class_attr_1_1_vec4_attr_id.html", "class_attr_1_1_vec4_attr_id" ]
-    ] ]
+    [ "vec4attrid.h", "vec4attrid_8h.html", "vec4attrid_8h" ]
 ];

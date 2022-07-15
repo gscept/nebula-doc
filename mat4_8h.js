@@ -13,6 +13,7 @@ var mat4_8h =
     [ "operator*", "mat4_8h.html#a3faf95daed248758b056e21df01d725f", null ],
     [ "operator*", "mat4_8h.html#a86a7e17bba227e50704ad8d59d6c0212", null ],
     [ "operator*", "mat4_8h.html#adac474fccc4fdfa473a865e3ad3ab6aa", null ],
+    [ "operator*", "mat4_8h.html#a49ce4e604c3801ff09f9a78b4692e770", null ],
     [ "operator*", "mat4_8h.html#ad21b9fbbb95c4bec69e5511a8263dc0d", null ],
     [ "ortholh", "mat4_8h.html#a1f207474dabe8da4f09a8b4647d4da1d", null ],
     [ "orthooffcenterlh", "mat4_8h.html#acf6dc082fb5359c8e2660e4e8110590d", null ],

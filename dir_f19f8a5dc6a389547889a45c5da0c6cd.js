@@ -7,40 +7,19 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
     [ "posix", "dir_9f6a9da6d13be67c57567c19b5bef798.html", "dir_9f6a9da6d13be67c57567c19b5bef798" ],
     [ "win32", "dir_ddc1238506b6aaba13833533833dbb0b.html", "dir_ddc1238506b6aaba13833533833dbb0b" ],
     [ "assertingmutex.cc", "assertingmutex_8cc.html", null ],
-    [ "assertingmutex.h", "assertingmutex_8h.html", [
-      [ "Threading::AssertingMutex", "class_threading_1_1_asserting_mutex.html", "class_threading_1_1_asserting_mutex" ],
-      [ "Threading::AssertingScope", "struct_threading_1_1_asserting_scope.html", "struct_threading_1_1_asserting_scope" ]
-    ] ],
+    [ "assertingmutex.h", "assertingmutex_8h.html", "assertingmutex_8h" ],
     [ "barrier.h", "foundation_2threading_2barrier_8h.html", null ],
-    [ "criticalsection.h", "criticalsection_8h.html", [
-      [ "Threading::CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ]
-    ] ],
-    [ "event.h", "foundation_2threading_2event_8h.html", [
-      [ "Threading::EventWithManualReset", "class_threading_1_1_event_with_manual_reset.html", "class_threading_1_1_event_with_manual_reset" ]
-    ] ],
+    [ "criticalsection.h", "criticalsection_8h.html", "criticalsection_8h" ],
+    [ "event.h", "foundation_2threading_2event_8h.html", "foundation_2threading_2event_8h" ],
     [ "interlocked.h", "interlocked_8h.html", "interlocked_8h" ],
-    [ "lockfreequeue.h", "lockfreequeue_8h.html", [
-      [ "Threading::LockFreeQueue< TYPE >", "class_threading_1_1_lock_free_queue.html", "class_threading_1_1_lock_free_queue" ],
-      [ "Threading::LockFreeQueue< TYPE >::Node", "struct_threading_1_1_lock_free_queue_1_1_node.html", "struct_threading_1_1_lock_free_queue_1_1_node" ]
-    ] ],
+    [ "lockfreequeue.h", "lockfreequeue_8h.html", "lockfreequeue_8h" ],
     [ "objectref.cc", "objectref_8cc.html", "objectref_8cc" ],
-    [ "objectref.h", "objectref_8h.html", [
-      [ "Threading::ObjectRef", "class_threading_1_1_object_ref.html", "class_threading_1_1_object_ref" ]
-    ] ],
+    [ "objectref.h", "objectref_8h.html", "objectref_8h" ],
     [ "readwritelock.h", "readwritelock_8h.html", null ],
-    [ "safeflag.h", "safeflag_8h.html", [
-      [ "Threading::SafeFlag", "class_threading_1_1_safe_flag.html", "class_threading_1_1_safe_flag" ]
-    ] ],
-    [ "safepriorityqueue.h", "safepriorityqueue_8h.html", [
-      [ "Threading::SafePriorityQueue< PRITYPE, TYPE >", "class_threading_1_1_safe_priority_queue.html", "class_threading_1_1_safe_priority_queue" ]
-    ] ],
-    [ "safequeue.h", "safequeue_8h.html", [
-      [ "Threading::SafeQueue< TYPE >", "class_threading_1_1_safe_queue.html", "class_threading_1_1_safe_queue" ]
-    ] ],
-    [ "spinlock.h", "spinlock_8h.html", [
-      [ "Threading::Spinlock", "class_threading_1_1_spinlock.html", "class_threading_1_1_spinlock" ],
-      [ "Threading::SpinlockScope", "struct_threading_1_1_spinlock_scope.html", "struct_threading_1_1_spinlock_scope" ]
-    ] ],
+    [ "safeflag.h", "safeflag_8h.html", "safeflag_8h" ],
+    [ "safepriorityqueue.h", "safepriorityqueue_8h.html", "safepriorityqueue_8h" ],
+    [ "safequeue.h", "safequeue_8h.html", "safequeue_8h" ],
+    [ "spinlock.h", "spinlock_8h.html", "spinlock_8h" ],
     [ "thread.cc", "thread_8cc.html", null ],
     [ "thread.h", "thread_8h.html", null ],
     [ "threadbarrier.h", "threadbarrier_8h.html", null ],

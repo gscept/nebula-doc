@@ -18,6 +18,7 @@ var struct_core_graphics_1_1_texture_create_info =
     [ "name", "struct_core_graphics_1_1_texture_create_info.html#ab9b94c66ec1ab9caafaeb279df28dd41", null ],
     [ "samples", "struct_core_graphics_1_1_texture_create_info.html#a809640931b4ffc72df7a2954eb929b08", null ],
     [ "sparse", "struct_core_graphics_1_1_texture_create_info.html#a5873a66bbc9b7ddb4621601fe5fe2a62", null ],
+    [ "swizzle", "struct_core_graphics_1_1_texture_create_info.html#a6a13bced788dbd571fdf94b0d7a5f482", null ],
     [ "tag", "struct_core_graphics_1_1_texture_create_info.html#a08b6d3528f6637e38cb521e58cd9c95d", null ],
     [ "type", "struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574", null ],
     [ "usage", "struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d", null ],

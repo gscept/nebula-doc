@@ -1,17 +1,9 @@
 var dir_c71e192db6e085624c0b9e89e7405a25 =
 [
-    [ "osxcriticalsection.h", "osxcriticalsection_8h.html", [
-      [ "OSX::OSXCriticalSection", "class_o_s_x_1_1_o_s_x_critical_section.html", "class_o_s_x_1_1_o_s_x_critical_section" ]
-    ] ],
-    [ "osxinterlocked.h", "osxinterlocked_8h.html", [
-      [ "OSX::OSXInterlocked", "class_o_s_x_1_1_o_s_x_interlocked.html", "class_o_s_x_1_1_o_s_x_interlocked" ]
-    ] ],
+    [ "osxcriticalsection.h", "osxcriticalsection_8h.html", "osxcriticalsection_8h" ],
+    [ "osxinterlocked.h", "osxinterlocked_8h.html", "osxinterlocked_8h" ],
     [ "osxthread.cc", "osxthread_8cc.html", "osxthread_8cc" ],
-    [ "osxthread.h", "osxthread_8h.html", [
-      [ "OSX::OSXThread", "class_o_s_x_1_1_o_s_x_thread.html", "class_o_s_x_1_1_o_s_x_thread" ]
-    ] ],
+    [ "osxthread.h", "osxthread_8h.html", "osxthread_8h" ],
     [ "osxthreadid.h", "osxthreadid_8h.html", "osxthreadid_8h" ],
-    [ "osxthreadlocalptr.h", "osxthreadlocalptr_8h.html", [
-      [ "OSX::OSXThreadLocalPtr< TYPE >", "class_o_s_x_1_1_o_s_x_thread_local_ptr.html", "class_o_s_x_1_1_o_s_x_thread_local_ptr" ]
-    ] ]
+    [ "osxthreadlocalptr.h", "osxthreadlocalptr_8h.html", "osxthreadlocalptr_8h" ]
 ];

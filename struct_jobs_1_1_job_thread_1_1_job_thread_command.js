@@ -7,7 +7,7 @@ var struct_jobs_1_1_job_thread_1_1_job_thread_command =
     [ "ev", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a790722bf73ce87d7b54b3d49841f0431", null ],
     [ "JobFunc", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a30daddc0dd64fac86a882c7855982506", null ],
     [ "numSlices", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#acbe79464a96f73b924d7d7d6aed2887a", null ],
-    [ "run", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#aea9eff8b75b1bc5119d6f7201f36cf10", null ],
+    [ "run", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#ae1fc5517b2414168fb7e0df3b31b1b63", null ],
     [ "slice", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a224cd5623988d43e3abe0f363563d22b", null ],
-    [ "sync", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#adf6141ac93a565186c5d5b15a689da2d", null ]
+    [ "sync", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#afcd9bcd71df240e49ff3e46c2b375c40", null ]
 ];

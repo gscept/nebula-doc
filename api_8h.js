@@ -35,6 +35,7 @@ var api_8h =
     [ "Execute", "api_8h.html#aaffb1c2c0de0eb9ac2e0440fa8bcf38b", null ],
     [ "Execute", "api_8h.html#a6ec106d2835917b196f726ea47ae4799", null ],
     [ "GetBlueprintId", "api_8h.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
+    [ "GetComponent", "api_8h.html#a932c35cea4c905514c13f3e12b5a9533", null ],
     [ "GetComponent", "api_8h.html#a90a70b782b51525cd816eff3bbd46b63", null ],
     [ "GetComponentId", "api_8h.html#af143290fef799ba8303e01c658cb54e8", null ],
     [ "GetDecayBuffer", "api_8h.html#af8a7f1695ff3939b3a5e5ec055a43cac", null ],
@@ -56,6 +57,7 @@ var api_8h =
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "api_8h.html#a611d7bd0e0837c10726ce80a87ff5795", null ],
     [ "SetComponent", "api_8h.html#aea994c2105b9df94c34fd26e698c67fc", null ],
+    [ "SetComponent", "api_8h.html#aa9c2117ef4e8378b3df6df642809f518", null ],
     [ "SetComponent", "api_8h.html#a583c03ec0434eff36157ae336ef7bc7b", null ],
     [ "MAX_NUM_CATEGORIES", "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb", null ]
 ];

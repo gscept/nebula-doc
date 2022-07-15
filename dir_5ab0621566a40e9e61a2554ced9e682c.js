@@ -1,10 +1,6 @@
 var dir_5ab0621566a40e9e61a2554ced9e682c =
 [
-    [ "processbase.h", "processbase_8h.html", [
-      [ "Base::Process", "class_base_1_1_process.html", "class_base_1_1_process" ]
-    ] ],
+    [ "processbase.h", "processbase_8h.html", "processbase_8h" ],
     [ "systeminfobase.cc", "systeminfobase_8cc.html", null ],
-    [ "systeminfobase.h", "systeminfobase_8h.html", [
-      [ "Base::SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ]
-    ] ]
+    [ "systeminfobase.h", "systeminfobase_8h.html", "systeminfobase_8h" ]
 ];

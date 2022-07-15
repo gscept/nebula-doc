@@ -19,5 +19,6 @@ var model_8h =
     ] ],
     [ "__ImplementEnumBitOperators", "model_8h.html#a37c6ed83ff3393ad88921c722694b364", null ],
     [ "CreateModel", "model_8h.html#a1b8205930c5627e5d49360d0814f14f6", null ],
-    [ "DestroyModel", "model_8h.html#a2c1aae4f2466c8c4ebf819884f81405b", null ]
+    [ "DestroyModel", "model_8h.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
+    [ "ModelGetNodes", "model_8h.html#ac8a019572bef03d92f59d49fde738ca0", null ]
 ];

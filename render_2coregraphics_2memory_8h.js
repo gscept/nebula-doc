@@ -6,8 +6,8 @@ var render_2coregraphics_2memory_8h =
     [ "MemoryPoolType", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06ce", [
       [ "MemoryPool_DeviceLocal", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea1e7dc82bb879c9c04720b80b96fd0a52", null ],
       [ "MemoryPool_HostLocal", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea0831ef2e1a9d9c2f3cb6a7019cfed757", null ],
-      [ "MemoryPool_HostToDevice", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea27647a009f500aa3603aa00d924bc1a3", null ],
-      [ "MemoryPool_DeviceToHost", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06ceaf6301c13e6d46dbd4741dc187893a0b2", null ],
+      [ "MemoryPool_HostCached", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06ceaf15e22644ad3cd32668f60330db3de43", null ],
+      [ "MemoryPool_DeviceAndHost", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea8adf51e21e3081254ab94b8865bd66c0", null ],
       [ "NumMemoryPoolTypes", "render_2coregraphics_2memory_8h.html#a6d05babede644415820eca607bed06cea614ebecfad3fde281b1eb6fdde28b4f6", null ]
     ] ],
     [ "DiscardMemoryPools", "render_2coregraphics_2memory_8h.html#a088e9232651624ec224562b65d5f4720", null ],

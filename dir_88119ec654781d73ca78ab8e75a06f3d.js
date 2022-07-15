@@ -1,35 +1,5 @@
 var dir_88119ec654781d73ca78ab8e75a06f3d =
 [
-    [ "gltfdata.h", "gltfdata_8h.html", [
-      [ "Gltf::GltfBase", "struct_gltf_1_1_gltf_base.html", "struct_gltf_1_1_gltf_base" ],
-      [ "Gltf::Accessor", "struct_gltf_1_1_accessor.html", "struct_gltf_1_1_accessor" ],
-      [ "Gltf::Accessor::Sparse", "struct_gltf_1_1_accessor_1_1_sparse.html", "struct_gltf_1_1_accessor_1_1_sparse" ],
-      [ "Gltf::Accessor::Sparse::Indices", "struct_gltf_1_1_accessor_1_1_sparse_1_1_indices.html", "struct_gltf_1_1_accessor_1_1_sparse_1_1_indices" ],
-      [ "Gltf::Accessor::Sparse::Values", "struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html", "struct_gltf_1_1_accessor_1_1_sparse_1_1_values" ],
-      [ "Gltf::Animation", "struct_gltf_1_1_animation.html", "struct_gltf_1_1_animation" ],
-      [ "Gltf::Animation::Channel", "struct_gltf_1_1_animation_1_1_channel.html", "struct_gltf_1_1_animation_1_1_channel" ],
-      [ "Gltf::Animation::Channel::Target", "struct_gltf_1_1_animation_1_1_channel_1_1_target.html", "struct_gltf_1_1_animation_1_1_channel_1_1_target" ],
-      [ "Gltf::Animation::Sampler", "struct_gltf_1_1_animation_1_1_sampler.html", "struct_gltf_1_1_animation_1_1_sampler" ],
-      [ "Gltf::Buffer", "struct_gltf_1_1_buffer.html", "struct_gltf_1_1_buffer" ],
-      [ "Gltf::BufferView", "struct_gltf_1_1_buffer_view.html", "struct_gltf_1_1_buffer_view" ],
-      [ "Gltf::Camera", "struct_gltf_1_1_camera.html", "struct_gltf_1_1_camera" ],
-      [ "Gltf::Camera::Orthographic", "struct_gltf_1_1_camera_1_1_orthographic.html", "struct_gltf_1_1_camera_1_1_orthographic" ],
-      [ "Gltf::Camera::Perspective", "struct_gltf_1_1_camera_1_1_perspective.html", "struct_gltf_1_1_camera_1_1_perspective" ],
-      [ "Gltf::Image", "struct_gltf_1_1_image.html", "struct_gltf_1_1_image" ],
-      [ "Gltf::Material", "struct_gltf_1_1_material.html", "struct_gltf_1_1_material" ],
-      [ "Gltf::Material::Texture", "struct_gltf_1_1_material_1_1_texture.html", "struct_gltf_1_1_material_1_1_texture" ],
-      [ "Gltf::Material::NormalTexture", "struct_gltf_1_1_material_1_1_normal_texture.html", "struct_gltf_1_1_material_1_1_normal_texture" ],
-      [ "Gltf::Material::OcclusionTexture", "struct_gltf_1_1_material_1_1_occlusion_texture.html", "struct_gltf_1_1_material_1_1_occlusion_texture" ],
-      [ "Gltf::Material::PBRMetallicRoughness", "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html", "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness" ],
-      [ "Gltf::Primitive", "struct_gltf_1_1_primitive.html", "struct_gltf_1_1_primitive" ],
-      [ "Gltf::Mesh", "struct_gltf_1_1_mesh.html", "struct_gltf_1_1_mesh" ],
-      [ "Gltf::Node", "struct_gltf_1_1_node.html", "struct_gltf_1_1_node" ],
-      [ "Gltf::Sampler", "struct_gltf_1_1_sampler.html", "struct_gltf_1_1_sampler" ],
-      [ "Gltf::Scene", "struct_gltf_1_1_scene.html", "struct_gltf_1_1_scene" ],
-      [ "Gltf::Skin", "struct_gltf_1_1_skin.html", "struct_gltf_1_1_skin" ],
-      [ "Gltf::Texture", "struct_gltf_1_1_texture.html", "struct_gltf_1_1_texture" ],
-      [ "Gltf::Asset", "struct_gltf_1_1_asset.html", "struct_gltf_1_1_asset" ],
-      [ "Gltf::Document", "struct_gltf_1_1_document.html", "struct_gltf_1_1_document" ]
-    ] ],
+    [ "gltfdata.h", "gltfdata_8h.html", "gltfdata_8h" ],
     [ "gltfreader.cc", "gltfreader_8cc.html", "gltfreader_8cc" ]
 ];

@@ -19,6 +19,7 @@ var struct_vulkan_1_1_vk_texture_load_info =
     [ "sparseExtension", "struct_vulkan_1_1_vk_texture_load_info.html#a200f53bedbf2c1fc4f2236f12c4e9990", null ],
     [ "stencilExtension", "struct_vulkan_1_1_vk_texture_load_info.html#a47b7f8cb2796ed99d9e57c2e5d2fb276", null ],
     [ "swapExtension", "struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff", null ],
+    [ "swizzle", "struct_vulkan_1_1_vk_texture_load_info.html#ac02d399a56577ff7432986fdb311a3e9", null ],
     [ "texBuffer", "struct_vulkan_1_1_vk_texture_load_info.html#a68053d56eb994defa3c577d35ed3f398", null ],
     [ "texUsage", "struct_vulkan_1_1_vk_texture_load_info.html#a0ad2a2e6822a46db9f9202218856932e", null ],
     [ "windowRelative", "struct_vulkan_1_1_vk_texture_load_info.html#a8d56e84216b09619e7a39c5466b67be3", null ],

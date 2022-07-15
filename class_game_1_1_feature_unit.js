@@ -9,6 +9,7 @@ var class_game_1_1_feature_unit =
     [ "OnActivate", "class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1", null ],
     [ "OnBeforeCleanup", "class_game_1_1_feature_unit.html#a5134170bf018d64938b838b5cec86ce3", null ],
     [ "OnBeforeLoad", "class_game_1_1_feature_unit.html#a500d414dda598e1929fe9f42b5262c6c", null ],
+    [ "OnBeforeViews", "class_game_1_1_feature_unit.html#af93e5da8076f88ff04ebe68f467b0b54", null ],
     [ "OnBeginFrame", "class_game_1_1_feature_unit.html#ad860ee9c262f28a08ae19e05a2d5c297", null ],
     [ "OnDeactivate", "class_game_1_1_feature_unit.html#af03a5ac6e0b0b2af97b6d4b1639e0fc7", null ],
     [ "OnDecay", "class_game_1_1_feature_unit.html#a685cfe63268e8a2205d510071f27a5a1", null ],

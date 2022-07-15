@@ -88,7 +88,6 @@ var annotated_dup =
       [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html", "class_base_1_1_shape_renderer_base" ],
       [ "SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ],
       [ "TextRendererBase", "class_base_1_1_text_renderer_base.html", "class_base_1_1_text_renderer_base" ],
-      [ "TransformDeviceBase", "class_base_1_1_transform_device_base.html", "class_base_1_1_transform_device_base" ],
       [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ]
     ] ],
     [ "BaseGameFeature", "namespace_base_game_feature.html", [
@@ -252,6 +251,7 @@ var annotated_dup =
       [ "TextureSparsePage", "struct_core_graphics_1_1_texture_sparse_page.html", "struct_core_graphics_1_1_texture_sparse_page" ],
       [ "TextureSparsePageOffset", "struct_core_graphics_1_1_texture_sparse_page_offset.html", "struct_core_graphics_1_1_texture_sparse_page_offset" ],
       [ "TextureSparsePageSize", "struct_core_graphics_1_1_texture_sparse_page_size.html", "struct_core_graphics_1_1_texture_sparse_page_size" ],
+      [ "TextureSwizzle", "struct_core_graphics_1_1_texture_swizzle.html", "struct_core_graphics_1_1_texture_swizzle" ],
       [ "TextureViewCreateInfo", "struct_core_graphics_1_1_texture_view_create_info.html", "struct_core_graphics_1_1_texture_view_create_info" ],
       [ "TextureViewId", "struct_core_graphics_1_1_texture_view_id.html", null ],
       [ "ThreadSafeDisplayEventHandler", "class_core_graphics_1_1_thread_safe_display_event_handler.html", "class_core_graphics_1_1_thread_safe_display_event_handler" ],
@@ -320,6 +320,7 @@ var annotated_dup =
       [ "ImguiConsoleHandler", "class_dynui_1_1_imgui_console_handler.html", "class_dynui_1_1_imgui_console_handler" ],
       [ "ImguiContext", "class_dynui_1_1_imgui_context.html", "class_dynui_1_1_imgui_context" ],
       [ "ImguiInputHandler", "class_dynui_1_1_imgui_input_handler.html", "class_dynui_1_1_imgui_input_handler" ],
+      [ "ImguiProfiler", "class_dynui_1_1_imgui_profiler.html", "class_dynui_1_1_imgui_profiler" ],
       [ "ImguiRendererParams", "struct_dynui_1_1_imgui_renderer_params.html", "struct_dynui_1_1_imgui_renderer_params" ],
       [ "ImguiRTPlugin", "class_dynui_1_1_imgui_r_t_plugin.html", "class_dynui_1_1_imgui_r_t_plugin" ],
       [ "ImguiTextureId", "struct_dynui_1_1_imgui_texture_id.html", "struct_dynui_1_1_imgui_texture_id" ]
@@ -430,11 +431,13 @@ var annotated_dup =
       [ "Texture", "struct_gltf_1_1_texture.html", "struct_gltf_1_1_texture" ]
     ] ],
     [ "Graphics", "namespace_graphics.html", [
+      [ "BindlessRegistryCreateInfo", "struct_graphics_1_1_bindless_registry_create_info.html", null ],
       [ "CameraContext", "class_graphics_1_1_camera_context.html", "class_graphics_1_1_camera_context" ],
       [ "CameraSettings", "class_graphics_1_1_camera_settings.html", "class_graphics_1_1_camera_settings" ],
       [ "ContextEntityId", "struct_graphics_1_1_context_entity_id.html", null ],
       [ "EnvironmentContext", "class_graphics_1_1_environment_context.html", "class_graphics_1_1_environment_context" ],
       [ "FrameContext", "struct_graphics_1_1_frame_context.html", "struct_graphics_1_1_frame_context" ],
+      [ "GlobalConstantsCreateInfo", "struct_graphics_1_1_global_constants_create_info.html", null ],
       [ "GraphicsContext", "class_graphics_1_1_graphics_context.html", "class_graphics_1_1_graphics_context" ],
       [ "GraphicsContextFunctionBundle", "struct_graphics_1_1_graphics_context_function_bundle.html", "struct_graphics_1_1_graphics_context_function_bundle" ],
       [ "GraphicsContextState", "struct_graphics_1_1_graphics_context_state.html", "struct_graphics_1_1_graphics_context_state" ],
@@ -615,13 +618,7 @@ var annotated_dup =
     ] ],
     [ "Lighting", "namespace_lighting.html", [
       [ "CSMUtil", "class_lighting_1_1_c_s_m_util.html", "class_lighting_1_1_c_s_m_util" ],
-      [ "EnvironmentProbe", "class_lighting_1_1_environment_probe.html", "class_lighting_1_1_environment_probe" ],
-      [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ],
-      [ "LightServerBase", "class_lighting_1_1_light_server_base.html", "class_lighting_1_1_light_server_base" ],
-      [ "LightType", "class_lighting_1_1_light_type.html", "class_lighting_1_1_light_type" ],
-      [ "ShadowServerBase", "class_lighting_1_1_shadow_server_base.html", "class_lighting_1_1_shadow_server_base" ],
-      [ "VkLightServer", "class_lighting_1_1_vk_light_server.html", "class_lighting_1_1_vk_light_server" ],
-      [ "VkShadowServer", "class_lighting_1_1_vk_shadow_server.html", "class_lighting_1_1_vk_shadow_server" ]
+      [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ]
     ] ],
     [ "Linux", "namespace_linux.html", [
       [ "LinuxCompletionCounter", "class_linux_1_1_linux_completion_counter.html", "class_linux_1_1_linux_completion_counter" ],
@@ -856,6 +853,11 @@ var annotated_dup =
       [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
       [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ]
     ] ],
+    [ "StaticUI", "namespace_static_u_i.html", [
+      [ "Logger", "struct_static_u_i_1_1_logger.html", "struct_static_u_i_1_1_logger" ],
+      [ "StaticUIContext", "class_static_u_i_1_1_static_u_i_context.html", "class_static_u_i_1_1_static_u_i_context" ],
+      [ "UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html", "class_static_u_i_1_1_ultralight_renderer" ]
+    ] ],
     [ "System", "namespace_system.html", [
       [ "ByteOrder", "class_system_1_1_byte_order.html", "class_system_1_1_byte_order" ],
       [ "Cpu", "class_system_1_1_cpu.html", "class_system_1_1_cpu" ]
@@ -865,7 +867,9 @@ var annotated_dup =
       [ "BiomeSetupSettings", "struct_terrain_1_1_biome_setup_settings.html", "struct_terrain_1_1_biome_setup_settings" ],
       [ "IndirectionEntry", "struct_terrain_1_1_indirection_entry.html", "struct_terrain_1_1_indirection_entry" ],
       [ "OccupancyQuadTree", "class_terrain_1_1_occupancy_quad_tree.html", "class_terrain_1_1_occupancy_quad_tree" ],
-      [ "PhysicalPageUpdate", "struct_terrain_1_1_physical_page_update.html", "struct_terrain_1_1_physical_page_update" ],
+      [ "PhysicalTileUpdate", "struct_terrain_1_1_physical_tile_update.html", "struct_terrain_1_1_physical_tile_update" ],
+      [ "SubTexture", "struct_terrain_1_1_sub_texture.html", "struct_terrain_1_1_sub_texture" ],
+      [ "SubTextureCompressed", "struct_terrain_1_1_sub_texture_compressed.html", "struct_terrain_1_1_sub_texture_compressed" ],
       [ "SubTextureUpdateJobOutput", "struct_terrain_1_1_sub_texture_update_job_output.html", "struct_terrain_1_1_sub_texture_update_job_output" ],
       [ "SubTextureUpdateJobUniforms", "struct_terrain_1_1_sub_texture_update_job_uniforms.html", "struct_terrain_1_1_sub_texture_update_job_uniforms" ],
       [ "TerrainBiomeId", "struct_terrain_1_1_terrain_biome_id.html", null ],
@@ -961,14 +965,12 @@ var annotated_dup =
       [ "VisibilitySystem", "class_visibility_1_1_visibility_system.html", "class_visibility_1_1_visibility_system" ]
     ] ],
     [ "Vulkan", "namespace_vulkan.html", [
-      [ "BindlessTexturesContext", "struct_vulkan_1_1_bindless_textures_context.html", "struct_vulkan_1_1_bindless_textures_context" ],
       [ "CommandBufferPools", "struct_vulkan_1_1_command_buffer_pools.html", "struct_vulkan_1_1_command_buffer_pools" ],
       [ "GraphicsDeviceState", "struct_vulkan_1_1_graphics_device_state.html", "struct_vulkan_1_1_graphics_device_state" ],
       [ "GraphicsDeviceThreadState", "struct_vulkan_1_1_graphics_device_thread_state.html", "struct_vulkan_1_1_graphics_device_thread_state" ],
       [ "QueryBundle", "struct_vulkan_1_1_query_bundle.html", "struct_vulkan_1_1_query_bundle" ],
       [ "ScissorBundle", "struct_vulkan_1_1_scissor_bundle.html", "struct_vulkan_1_1_scissor_bundle" ],
       [ "TextureSparsePageTable", "struct_vulkan_1_1_texture_sparse_page_table.html", "struct_vulkan_1_1_texture_sparse_page_table" ],
-      [ "TickParametersContext", "struct_vulkan_1_1_tick_parameters_context.html", "struct_vulkan_1_1_tick_parameters_context" ],
       [ "ViewportBundle", "struct_vulkan_1_1_viewport_bundle.html", "struct_vulkan_1_1_viewport_bundle" ],
       [ "VkBarrierInfo", "struct_vulkan_1_1_vk_barrier_info.html", "struct_vulkan_1_1_vk_barrier_info" ],
       [ "VkBufferLoadInfo", "struct_vulkan_1_1_vk_buffer_load_info.html", "struct_vulkan_1_1_vk_buffer_load_info" ],
@@ -1006,7 +1008,6 @@ var annotated_dup =
       [ "VkTextureViewLoadInfo", "struct_vulkan_1_1_vk_texture_view_load_info.html", "struct_vulkan_1_1_vk_texture_view_load_info" ],
       [ "VkTextureViewRuntimeInfo", "struct_vulkan_1_1_vk_texture_view_runtime_info.html", "struct_vulkan_1_1_vk_texture_view_runtime_info" ],
       [ "VkTextureWindowInfo", "struct_vulkan_1_1_vk_texture_window_info.html", "struct_vulkan_1_1_vk_texture_window_info" ],
-      [ "VkTransformDevice", "class_vulkan_1_1_vk_transform_device.html", "class_vulkan_1_1_vk_transform_device" ],
       [ "VkTypes", "class_vulkan_1_1_vk_types.html", "class_vulkan_1_1_vk_types" ],
       [ "VkVertexSignatureCache", "class_vulkan_1_1_vk_vertex_signature_cache.html", "class_vulkan_1_1_vk_vertex_signature_cache" ],
       [ "WriteInfo", "struct_vulkan_1_1_write_info.html", "struct_vulkan_1_1_write_info" ]
@@ -1047,6 +1048,7 @@ var annotated_dup =
     [ "ArchiveFileSystem", "class_i_o_1_1_archive_file_system.html", null ],
     [ "ArchiveFileSystemBase", "class_base_1_1_archive_file_system_base.html", null ],
     [ "Barrier", "class_threading_1_1_barrier.html", null ],
+    [ "BindlessRegistry", "class_graphics_1_1_bindless_registry.html", null ],
     [ "BufferSetup", "class_core_graphics_1_1_buffer_setup.html", null ],
     [ "ByteOrder", "class_core_1_1_byte_order.html", null ],
     [ "CalendarTime", "class_timing_1_1_calendar_time.html", null ],
@@ -1072,6 +1074,7 @@ var annotated_dup =
     [ "GLFWDisplayDevice", "class_open_g_l4_1_1_g_l_f_w_display_device.html", null ],
     [ "GLFWInputDisplayEventHandler", "class_open_g_l4_1_1_g_l_f_w_input_display_event_handler.html", null ],
     [ "GLFWInputServer", "class_open_g_l4_1_1_g_l_f_w_input_server.html", null ],
+    [ "GlobalConstants", "class_graphics_1_1_global_constants.html", null ],
     [ "Guid", "class_util_1_1_guid.html", null ],
     [ "Heap", "class_memory_1_1_heap.html", null ],
     [ "HttpClient", "class_simple_1_1_http_client.html", null ],
@@ -1086,7 +1089,6 @@ var annotated_dup =
     [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
-    [ "LightServer", "class_lighting_1_1_light_server.html", null ],
     [ "LinuxBarrier", "class_linux_1_1_linux_barrier.html", null ],
     [ "LinuxThreadId", "class_linux_1_1_linux_thread_id.html", null ],
     [ "MemoryMeshLoader", "class_core_graphics_1_1_memory_mesh_loader.html", null ],
@@ -1144,7 +1146,6 @@ var annotated_dup =
     [ "TiXmlString", "class_ti_xml_string.html", "class_ti_xml_string" ],
     [ "TiXmlText", "class_ti_xml_text.html", "class_ti_xml_text" ],
     [ "TiXmlUnknown", "class_ti_xml_unknown.html", "class_ti_xml_unknown" ],
-    [ "TransformDevice", "class_core_graphics_1_1_transform_device.html", null ],
     [ "VertexComponent", "class_core_graphics_1_1_vertex_component.html", null ],
     [ "VertexLayoutBase", "class_base_1_1_vertex_layout_base.html", null ],
     [ "VertexSignatureCache", "class_core_graphics_1_1_vertex_signature_cache.html", null ],

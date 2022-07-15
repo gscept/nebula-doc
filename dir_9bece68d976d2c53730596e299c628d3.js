@@ -1,11 +1,7 @@
 var dir_9bece68d976d2c53730596e299c628d3 =
 [
     [ "application.cc", "application_8cc.html", "application_8cc" ],
-    [ "application.h", "application_8h.html", [
-      [ "App::Application", "class_app_1_1_application.html", "class_app_1_1_application" ]
-    ] ],
+    [ "application.h", "application_8h.html", "application_8h" ],
     [ "consoleapplication.cc", "consoleapplication_8cc.html", null ],
-    [ "consoleapplication.h", "consoleapplication_8h.html", [
-      [ "App::ConsoleApplication", "class_app_1_1_console_application.html", "class_app_1_1_console_application" ]
-    ] ]
+    [ "consoleapplication.h", "consoleapplication_8h.html", "consoleapplication_8h" ]
 ];

@@ -6,5 +6,6 @@ var struct_vulkan_1_1_vk_texture_view_load_info =
     [ "mip", "struct_vulkan_1_1_vk_texture_view_load_info.html#a607f7c24024580776986cbea9ce2c916", null ],
     [ "numLayers", "struct_vulkan_1_1_vk_texture_view_load_info.html#a81415b7fb69e9cf8abf9dca78af499c9", null ],
     [ "numMips", "struct_vulkan_1_1_vk_texture_view_load_info.html#a4305208a3fa49835d9ae80b2a4f81f06", null ],
+    [ "swizzle", "struct_vulkan_1_1_vk_texture_view_load_info.html#a4f053052b4c8aa92a55693ea27a34c1d", null ],
     [ "tex", "struct_vulkan_1_1_vk_texture_view_load_info.html#a4cb105fd4f5e2b5f6a88b08fa023bffb", null ]
 ];

@@ -3,135 +3,58 @@ var dir_3efd1eb2182038baf5731b057d5f9c3b =
     [ "osx", "dir_9328cdca6e6970e79d9e99b5c2885384.html", "dir_9328cdca6e6970e79d9e99b5c2885384" ],
     [ "posix", "dir_26c6b0791498aed3a05aca6ec6b5145e.html", "dir_26c6b0791498aed3a05aca6ec6b5145e" ],
     [ "win32", "dir_47a17c36b873e3484dcd808a6f5d08a2.html", "dir_47a17c36b873e3484dcd808a6f5d08a2" ],
-    [ "array.h", "array_8h.html", [
-      [ "Util::Array< TYPE >", "class_util_1_1_array.html", "class_util_1_1_array" ]
-    ] ],
-    [ "arrayallocator.h", "arrayallocator_8h.html", [
-      [ "Util::ArrayAllocator< TYPES >", "class_util_1_1_array_allocator.html", "class_util_1_1_array_allocator" ]
-    ] ],
+    [ "array.h", "array_8h.html", "array_8h" ],
+    [ "arrayallocator.h", "arrayallocator_8h.html", "arrayallocator_8h" ],
     [ "arrayallocatorsafe.h", "arrayallocatorsafe_8h.html", "arrayallocatorsafe_8h" ],
-    [ "arrayqueue.h", "arrayqueue_8h.html", [
-      [ "Util::ArrayQueue< TYPE >", "class_util_1_1_array_queue.html", "class_util_1_1_array_queue" ]
-    ] ],
-    [ "arraystack.h", "arraystack_8h.html", [
-      [ "Util::ArrayStack< TYPE, STACK_SIZE >", "class_util_1_1_array_stack.html", "class_util_1_1_array_stack" ]
-    ] ],
+    [ "arrayqueue.h", "arrayqueue_8h.html", "arrayqueue_8h" ],
+    [ "arraystack.h", "arraystack_8h.html", "arraystack_8h" ],
     [ "bit.h", "bit_8h.html", "bit_8h" ],
-    [ "bitfield.h", "bitfield_8h.html", [
-      [ "Util::BitField< NUMBITS >", "class_util_1_1_bit_field.html", "class_util_1_1_bit_field" ],
-      [ "Util::BitField< NUMBITS >::BitType< S >", "struct_util_1_1_bit_field_1_1_bit_type.html", "struct_util_1_1_bit_field_1_1_bit_type" ],
-      [ "Util::BitField< NUMBITS >::BitType< 16 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4" ],
-      [ "Util::BitField< NUMBITS >::BitType< 32 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4" ],
-      [ "Util::BitField< NUMBITS >::BitType< 64 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4" ]
-    ] ],
+    [ "bitfield.h", "bitfield_8h.html", "bitfield_8h" ],
     [ "blob.cc", "blob_8cc.html", null ],
-    [ "blob.h", "blob_8h.html", [
-      [ "Util::Blob", "class_util_1_1_blob.html", "class_util_1_1_blob" ]
-    ] ],
+    [ "blob.h", "blob_8h.html", "blob_8h" ],
     [ "commandlineargs.cc", "commandlineargs_8cc.html", null ],
-    [ "commandlineargs.h", "commandlineargs_8h.html", [
-      [ "Util::CommandLineArgs", "class_util_1_1_command_line_args.html", "class_util_1_1_command_line_args" ]
-    ] ],
+    [ "commandlineargs.h", "commandlineargs_8h.html", "commandlineargs_8h" ],
     [ "crc.cc", "crc_8cc.html", null ],
-    [ "crc.h", "crc_8h.html", [
-      [ "Util::Crc", "class_util_1_1_crc.html", "class_util_1_1_crc" ]
-    ] ],
-    [ "delegate.h", "delegate_8h.html", [
-      [ "Util::Delegate< RETTYPE(ARGTYPES...)>", "class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html", "class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4" ]
-    ] ],
-    [ "dictionary.h", "dictionary_8h.html", [
-      [ "Util::Dictionary< KEYTYPE, VALUETYPE >", "class_util_1_1_dictionary.html", "class_util_1_1_dictionary" ]
-    ] ],
-    [ "fixedarray.h", "fixedarray_8h.html", [
-      [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", "class_util_1_1_fixed_array" ]
-    ] ],
-    [ "fixedpool.h", "fixedpool_8h.html", [
-      [ "Util::FixedPool< TYPE >", "class_util_1_1_fixed_pool.html", "class_util_1_1_fixed_pool" ]
-    ] ],
-    [ "fixedtable.h", "fixedtable_8h.html", [
-      [ "Util::FixedTable< TYPE >", "class_util_1_1_fixed_table.html", "class_util_1_1_fixed_table" ]
-    ] ],
-    [ "fourcc.h", "fourcc_8h.html", [
-      [ "Util::FourCC", "class_util_1_1_four_c_c.html", "class_util_1_1_four_c_c" ]
-    ] ],
+    [ "crc.h", "crc_8h.html", "crc_8h" ],
+    [ "delegate.h", "delegate_8h.html", "delegate_8h" ],
+    [ "dictionary.h", "dictionary_8h.html", "dictionary_8h" ],
+    [ "fixedarray.h", "fixedarray_8h.html", "fixedarray_8h" ],
+    [ "fixedpool.h", "fixedpool_8h.html", "fixedpool_8h" ],
+    [ "fixedtable.h", "fixedtable_8h.html", "fixedtable_8h" ],
+    [ "fourcc.h", "fourcc_8h.html", "fourcc_8h" ],
     [ "globalstringatomtable.cc", "globalstringatomtable_8cc.html", "globalstringatomtable_8cc" ],
-    [ "globalstringatomtable.h", "globalstringatomtable_8h.html", [
-      [ "Util::GlobalStringAtomTable", "class_util_1_1_global_string_atom_table.html", "class_util_1_1_global_string_atom_table" ],
-      [ "Util::GlobalStringAtomTable::DebugInfo", "struct_util_1_1_global_string_atom_table_1_1_debug_info.html", "struct_util_1_1_global_string_atom_table_1_1_debug_info" ]
-    ] ],
+    [ "globalstringatomtable.h", "globalstringatomtable_8h.html", "globalstringatomtable_8h" ],
     [ "guid.h", "guid_8h.html", null ],
-    [ "hashtable.h", "hashtable_8h.html", [
-      [ "Util::HashTable< KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE >", "class_util_1_1_hash_table.html", "class_util_1_1_hash_table" ],
-      [ "Util::HashTable< KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE >::Iterator", "class_util_1_1_hash_table_1_1_iterator.html", "class_util_1_1_hash_table_1_1_iterator" ]
-    ] ],
-    [ "keyvaluepair.h", "keyvaluepair_8h.html", [
-      [ "Util::KeyValuePair< KEYTYPE, VALUETYPE >", "class_util_1_1_key_value_pair.html", "class_util_1_1_key_value_pair" ]
-    ] ],
-    [ "list.h", "list_8h.html", [
-      [ "Util::List< TYPE >", "class_util_1_1_list.html", "class_util_1_1_list" ],
-      [ "Util::List< TYPE >::Iterator", "class_util_1_1_list_1_1_iterator.html", "class_util_1_1_list_1_1_iterator" ],
-      [ "Util::List< TYPE >::Node", "class_util_1_1_list_1_1_node.html", "class_util_1_1_list_1_1_node" ]
-    ] ],
+    [ "hashtable.h", "hashtable_8h.html", "hashtable_8h" ],
+    [ "keyvaluepair.h", "keyvaluepair_8h.html", "keyvaluepair_8h" ],
+    [ "list.h", "list_8h.html", "list_8h" ],
     [ "localstringatomtable.cc", "localstringatomtable_8cc.html", "localstringatomtable_8cc" ],
-    [ "localstringatomtable.h", "localstringatomtable_8h.html", [
-      [ "Util::LocalStringAtomTable", "class_util_1_1_local_string_atom_table.html", "class_util_1_1_local_string_atom_table" ]
-    ] ],
-    [ "priorityarray.h", "priorityarray_8h.html", [
-      [ "Util::PriorityArray< TYPE >", "class_util_1_1_priority_array.html", "class_util_1_1_priority_array" ],
-      [ "Util::PriorityArray< TYPE >::Element", "struct_util_1_1_priority_array_1_1_element.html", "struct_util_1_1_priority_array_1_1_element" ]
-    ] ],
-    [ "quadtree.h", "quadtree_8h.html", [
-      [ "Util::QuadTree< TYPE >", "class_util_1_1_quad_tree.html", "class_util_1_1_quad_tree" ],
-      [ "Util::QuadTree< TYPE >::Node", "class_util_1_1_quad_tree_1_1_node.html", "class_util_1_1_quad_tree_1_1_node" ]
-    ] ],
+    [ "localstringatomtable.h", "localstringatomtable_8h.html", "localstringatomtable_8h" ],
+    [ "priorityarray.h", "priorityarray_8h.html", "priorityarray_8h" ],
+    [ "quadtree.h", "quadtree_8h.html", "quadtree_8h" ],
     [ "queue.h", "queue_8h.html", "queue_8h" ],
     [ "random.cc", "random_8cc.html", "random_8cc" ],
     [ "random.h", "random_8h.html", "random_8h" ],
     [ "randomnumbertable.cc", "randomnumbertable_8cc.html", null ],
     [ "randomnumbertable.h", "randomnumbertable_8h.html", "randomnumbertable_8h" ],
-    [ "ringbuffer.h", "ringbuffer_8h.html", [
-      [ "Util::RingBuffer< TYPE >", "class_util_1_1_ring_buffer.html", "class_util_1_1_ring_buffer" ]
-    ] ],
-    [ "round.h", "round_8h.html", [
-      [ "Util::Round", "class_util_1_1_round.html", "class_util_1_1_round" ]
-    ] ],
+    [ "ringbuffer.h", "ringbuffer_8h.html", "ringbuffer_8h" ],
+    [ "round.h", "round_8h.html", "round_8h" ],
     [ "runlengthcodec.cc", "runlengthcodec_8cc.html", null ],
-    [ "runlengthcodec.h", "runlengthcodec_8h.html", [
-      [ "Util::RunLengthCodec", "class_util_1_1_run_length_codec.html", "class_util_1_1_run_length_codec" ]
-    ] ],
-    [ "set.h", "set_8h.html", [
-      [ "Util::Set< KEYTYPE >", "class_util_1_1_set.html", "class_util_1_1_set" ]
-    ] ],
-    [ "simpletree.h", "simpletree_8h.html", [
-      [ "Util::SimpleTree< VALUETYPE >", "class_util_1_1_simple_tree.html", "class_util_1_1_simple_tree" ],
-      [ "Util::SimpleTree< VALUETYPE >::Node", "class_util_1_1_simple_tree_1_1_node.html", "class_util_1_1_simple_tree_1_1_node" ]
-    ] ],
-    [ "sparsetable.h", "sparsetable_8h.html", [
-      [ "Util::SparseTable< TYPE >", "class_util_1_1_sparse_table.html", "class_util_1_1_sparse_table" ],
-      [ "Util::SparseTable< TYPE >::TableEntry", "struct_util_1_1_sparse_table_1_1_table_entry.html", "struct_util_1_1_sparse_table_1_1_table_entry" ]
-    ] ],
-    [ "stack.h", "stack_8h.html", [
-      [ "Util::Stack< TYPE >", "class_util_1_1_stack.html", "class_util_1_1_stack" ]
-    ] ],
+    [ "runlengthcodec.h", "runlengthcodec_8h.html", "runlengthcodec_8h" ],
+    [ "set.h", "set_8h.html", "set_8h" ],
+    [ "simpletree.h", "simpletree_8h.html", "simpletree_8h" ],
+    [ "sparsetable.h", "sparsetable_8h.html", "sparsetable_8h" ],
+    [ "stack.h", "stack_8h.html", "stack_8h" ],
     [ "string.cc", "string_8cc.html", "string_8cc" ],
     [ "string.h", "string_8h.html", "string_8h" ],
     [ "stringatom.cc", "stringatom_8cc.html", "stringatom_8cc" ],
     [ "stringatom.h", "stringatom_8h.html", "stringatom_8h" ],
     [ "stringatomtablebase.cc", "stringatomtablebase_8cc.html", null ],
-    [ "stringatomtablebase.h", "stringatomtablebase_8h.html", [
-      [ "Util::StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", "class_util_1_1_string_atom_table_base" ],
-      [ "Util::StringAtomTableBase::StaticString", "struct_util_1_1_string_atom_table_base_1_1_static_string.html", "struct_util_1_1_string_atom_table_base_1_1_static_string" ]
-    ] ],
+    [ "stringatomtablebase.h", "stringatomtablebase_8h.html", "stringatomtablebase_8h" ],
     [ "stringbuffer.cc", "stringbuffer_8cc.html", null ],
-    [ "stringbuffer.h", "stringbuffer_8h.html", [
-      [ "Util::StringBuffer", "class_util_1_1_string_buffer.html", "class_util_1_1_string_buffer" ]
-    ] ],
-    [ "trivialarray.h", "trivialarray_8h.html", [
-      [ "Util::TrivialArray< TYPE >", "class_util_1_1_trivial_array.html", "class_util_1_1_trivial_array" ]
-    ] ],
+    [ "stringbuffer.h", "stringbuffer_8h.html", "stringbuffer_8h" ],
+    [ "trivialarray.h", "trivialarray_8h.html", "trivialarray_8h" ],
     [ "tupleutility.h", "tupleutility_8h.html", "tupleutility_8h" ],
     [ "typepunning.h", "typepunning_8h.html", "typepunning_8h" ],
-    [ "variant.h", "variant_8h.html", [
-      [ "Util::Variant", "class_util_1_1_variant.html", "class_util_1_1_variant" ]
-    ] ]
+    [ "variant.h", "variant_8h.html", "variant_8h" ]
 ];

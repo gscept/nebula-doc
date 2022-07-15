@@ -210,6 +210,7 @@ var namespace_math =
     [ "operator*", "namespace_math.html#a3faf95daed248758b056e21df01d725f", null ],
     [ "operator*", "namespace_math.html#a86a7e17bba227e50704ad8d59d6c0212", null ],
     [ "operator*", "namespace_math.html#adac474fccc4fdfa473a865e3ad3ab6aa", null ],
+    [ "operator*", "namespace_math.html#a49ce4e604c3801ff09f9a78b4692e770", null ],
     [ "operator*", "namespace_math.html#ad21b9fbbb95c4bec69e5511a8263dc0d", null ],
     [ "operator*", "namespace_math.html#a663a2b669bea9f3ef64d28e2d9db4ae3", null ],
     [ "operator*", "namespace_math.html#a5e952f0177a09a1572fe4d3b10af9ecb", null ],

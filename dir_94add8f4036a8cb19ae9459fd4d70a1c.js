@@ -3,23 +3,13 @@ var dir_94add8f4036a8cb19ae9459fd4d70a1c =
     [ "ionebula3.cc", "ionebula3_8cc.html", "ionebula3_8cc" ],
     [ "ionebula3.h", "ionebula3_8h.html", "ionebula3_8h" ],
     [ "ziparchive.cc", "ziparchive_8cc.html", "ziparchive_8cc" ],
-    [ "ziparchive.h", "ziparchive_8h.html", [
-      [ "IO::ZipArchive", "class_i_o_1_1_zip_archive.html", "class_i_o_1_1_zip_archive" ]
-    ] ],
+    [ "ziparchive.h", "ziparchive_8h.html", "ziparchive_8h" ],
     [ "zipdirentry.cc", "zipdirentry_8cc.html", null ],
-    [ "zipdirentry.h", "zipdirentry_8h.html", [
-      [ "IO::ZipDirEntry", "class_i_o_1_1_zip_dir_entry.html", "class_i_o_1_1_zip_dir_entry" ]
-    ] ],
+    [ "zipdirentry.h", "zipdirentry_8h.html", "zipdirentry_8h" ],
     [ "zipfileentry.cc", "zipfileentry_8cc.html", null ],
-    [ "zipfileentry.h", "zipfileentry_8h.html", [
-      [ "IO::ZipFileEntry", "class_i_o_1_1_zip_file_entry.html", "class_i_o_1_1_zip_file_entry" ]
-    ] ],
+    [ "zipfileentry.h", "zipfileentry_8h.html", "zipfileentry_8h" ],
     [ "zipfilestream.cc", "zipfilestream_8cc.html", "zipfilestream_8cc" ],
-    [ "zipfilestream.h", "zipfilestream_8h.html", [
-      [ "IO::ZipFileStream", "class_i_o_1_1_zip_file_stream.html", "class_i_o_1_1_zip_file_stream" ]
-    ] ],
+    [ "zipfilestream.h", "zipfilestream_8h.html", "zipfilestream_8h" ],
     [ "zipfilesystem.cc", "zipfilesystem_8cc.html", "zipfilesystem_8cc" ],
-    [ "zipfilesystem.h", "zipfilesystem_8h.html", [
-      [ "IO::ZipFileSystem", "class_i_o_1_1_zip_file_system.html", "class_i_o_1_1_zip_file_system" ]
-    ] ]
+    [ "zipfilesystem.h", "zipfilesystem_8h.html", "zipfilesystem_8h" ]
 ];

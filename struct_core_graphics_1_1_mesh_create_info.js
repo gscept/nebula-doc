@@ -2,6 +2,7 @@ var struct_core_graphics_1_1_mesh_create_info =
 [
     [ "Stream", "struct_core_graphics_1_1_mesh_create_info_1_1_stream.html", "struct_core_graphics_1_1_mesh_create_info_1_1_stream" ],
     [ "indexBuffer", "struct_core_graphics_1_1_mesh_create_info.html#a4313777bc8cae7c79d552e2be135acc2", null ],
+    [ "indexBufferOffset", "struct_core_graphics_1_1_mesh_create_info.html#a64682c1b53c699291dc6c3aea6a5db78", null ],
     [ "name", "struct_core_graphics_1_1_mesh_create_info.html#a178b95c18207336e1580b8676fcd5397", null ],
     [ "primitiveGroups", "struct_core_graphics_1_1_mesh_create_info.html#a364146c5cb51b859704829e6c4552f2f", null ],
     [ "streams", "struct_core_graphics_1_1_mesh_create_info.html#a494e424dc4c1869d1c138710d43a20fd", null ],

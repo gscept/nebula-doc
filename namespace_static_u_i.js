@@ -1,0 +1,26 @@
+var namespace_static_u_i =
+[
+    [ "Logger", "struct_static_u_i_1_1_logger.html", "struct_static_u_i_1_1_logger" ],
+    [ "StaticUIContext", "class_static_u_i_1_1_static_u_i_context.html", "class_static_u_i_1_1_static_u_i_context" ],
+    [ "UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html", "class_static_u_i_1_1_ultralight_renderer" ],
+    [ "__ImplementPluginContext", "namespace_static_u_i.html#a60382c80e6d9d11e153095e07b0e87b1", null ],
+    [ "GetTexture", "namespace_static_u_i.html#ae42ac808f45f33deee6aef428d89a255", null ],
+    [ "backbufferDrawOffset", "namespace_static_u_i.html#afc03eec1087f1e9fda759d25dac130d4", null ],
+    [ "backbufferDrawState", "namespace_static_u_i.html#a9953c24bc973ba1ef9e4187fd7e3a958", null ],
+    [ "Backend", "namespace_static_u_i.html#a55a5529b369084d3d11379aacf8184e5", null ],
+    [ "counter", "namespace_static_u_i.html#a70eab8c16d7890756b02057ed98fbd52", null ],
+    [ "loadListener", "namespace_static_u_i.html#ae9b75b2b501397b4f0e37ff9fc0db7f6", null ],
+    [ "logger", "namespace_static_u_i.html#a06922dd88ab9d66def454ece404f25d2", null ],
+    [ "Renderer", "namespace_static_u_i.html#a1088e917720b1c4438f11f45058bea56", null ],
+    [ "resourceTable", "namespace_static_u_i.html#ae15eb3e498a5fa546d7204c5506644bf", null ],
+    [ "state", "namespace_static_u_i.html#a35d488f55f9d88d5c6fa919ac6f31db2", null ],
+    [ "ultralightShader1", "namespace_static_u_i.html#a55af56347b05e7455be8bc95a9767e91", null ],
+    [ "ultralightShader2", "namespace_static_u_i.html#a062a4be8e0b92c6ef3689082cb5e36cf", null ],
+    [ "ultralightShader3", "namespace_static_u_i.html#a49ee55660177a18258f1dcb344f7b5c2", null ],
+    [ "ultralightState", "namespace_static_u_i.html#a3e9025c35d59ee4f7802047169389fc2", null ],
+    [ "view", "namespace_static_u_i.html#af4f38ab3d98eb625b41b0f4ddfb380a7", null ],
+    [ "viewListener", "namespace_static_u_i.html#a42bc674028fe850c5f9ee83d49f2fc3a", null ],
+    [ "vloBig", "namespace_static_u_i.html#a14edb6df4a8f9ca8dce173bab706c4ab", null ],
+    [ "vloEmpty", "namespace_static_u_i.html#af17fc6c63c0f5ce8e456200f04c4a3ec", null ],
+    [ "vloSmall", "namespace_static_u_i.html#a5d9d92eb793542dd4f980f8f9b59245a", null ]
+];

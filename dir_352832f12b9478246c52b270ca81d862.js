@@ -1,14 +1,9 @@
 var dir_352832f12b9478246c52b270ca81d862 =
 [
     [ "actorcontext.cc", "actorcontext_8cc.html", "actorcontext_8cc" ],
-    [ "actorcontext.h", "actorcontext_8h.html", [
-      [ "Physics::ActorContext", "class_physics_1_1_actor_context.html", "class_physics_1_1_actor_context" ]
-    ] ],
+    [ "actorcontext.h", "actorcontext_8h.html", "actorcontext_8h" ],
     [ "callbacks.cc", "callbacks_8cc.html", null ],
-    [ "callbacks.h", "callbacks_8h.html", [
-      [ "Physics::Allocator", "class_physics_1_1_allocator.html", "class_physics_1_1_allocator" ],
-      [ "Physics::ErrorCallback", "class_physics_1_1_error_callback.html", "class_physics_1_1_error_callback" ]
-    ] ],
+    [ "callbacks.h", "callbacks_8h.html", "callbacks_8h" ],
     [ "debugui.cc", "debugui_8cc.html", "debugui_8cc" ],
     [ "debugui.h", "debugui_8h.html", "debugui_8h" ],
     [ "physxstate.cc", "physxstate_8cc.html", "physxstate_8cc" ],
@@ -19,8 +14,5 @@ var dir_352832f12b9478246c52b270ca81d862 =
     [ "streamactorpool.h", "streamactorpool_8h.html", "streamactorpool_8h" ],
     [ "utils.h", "utils_8h.html", "utils_8h" ],
     [ "visualdebugger.cc", "visualdebugger_8cc.html", "visualdebugger_8cc" ],
-    [ "visualdebugger.h", "visualdebugger_8h.html", [
-      [ "Physics::VisualDebugger", "class_physics_1_1_visual_debugger.html", "class_physics_1_1_visual_debugger" ],
-      [ "Physics::VisualDebugger::TimedDrawData", "class_physics_1_1_visual_debugger_1_1_timed_draw_data.html", "class_physics_1_1_visual_debugger_1_1_timed_draw_data" ]
-    ] ]
+    [ "visualdebugger.h", "visualdebugger_8h.html", "visualdebugger_8h" ]
 ];

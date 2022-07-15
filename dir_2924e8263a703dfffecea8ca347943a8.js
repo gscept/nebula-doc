@@ -1,32 +1,16 @@
 var dir_2924e8263a703dfffecea8ca347943a8 =
 [
     [ "linuxbarrier.h", "linuxbarrier_8h.html", "linuxbarrier_8h" ],
-    [ "linuxcompletioncounter.h", "linuxcompletioncounter_8h.html", [
-      [ "Linux::LinuxCompletionCounter", "class_linux_1_1_linux_completion_counter.html", "class_linux_1_1_linux_completion_counter" ]
-    ] ],
-    [ "linuxcriticalsection.h", "linuxcriticalsection_8h.html", [
-      [ "Linux::LinuxCriticalSection", "class_linux_1_1_linux_critical_section.html", "class_linux_1_1_linux_critical_section" ]
-    ] ],
-    [ "linuxevent.h", "linuxevent_8h.html", [
-      [ "Linux::LinuxEvent", "class_linux_1_1_linux_event.html", "class_linux_1_1_linux_event" ]
-    ] ],
-    [ "linuxinterlocked.h", "linuxinterlocked_8h.html", [
-      [ "Linux::LinuxInterlocked", "class_linux_1_1_linux_interlocked.html", "class_linux_1_1_linux_interlocked" ]
-    ] ],
-    [ "linuxrendezvous.h", "linuxrendezvous_8h.html", [
-      [ "Linux::LinuxRendezvous", "class_linux_1_1_linux_rendezvous.html", "class_linux_1_1_linux_rendezvous" ]
-    ] ],
+    [ "linuxcompletioncounter.h", "linuxcompletioncounter_8h.html", "linuxcompletioncounter_8h" ],
+    [ "linuxcriticalsection.h", "linuxcriticalsection_8h.html", "linuxcriticalsection_8h" ],
+    [ "linuxevent.h", "linuxevent_8h.html", "linuxevent_8h" ],
+    [ "linuxinterlocked.h", "linuxinterlocked_8h.html", "linuxinterlocked_8h" ],
+    [ "linuxrendezvous.h", "linuxrendezvous_8h.html", "linuxrendezvous_8h" ],
     [ "linuxthread.cc", "linuxthread_8cc.html", "linuxthread_8cc" ],
-    [ "linuxthread.h", "linuxthread_8h.html", [
-      [ "Linux::LinuxThread", "class_linux_1_1_linux_thread.html", "class_linux_1_1_linux_thread" ]
-    ] ],
+    [ "linuxthread.h", "linuxthread_8h.html", "linuxthread_8h" ],
     [ "linuxthreadid.h", "linuxthreadid_8h.html", "linuxthreadid_8h" ],
     [ "linuxthreadlocaldata.cc", "linuxthreadlocaldata_8cc.html", null ],
-    [ "linuxthreadlocaldata.h", "linuxthreadlocaldata_8h.html", [
-      [ "Linux::LinuxThreadLocalData", "class_linux_1_1_linux_thread_local_data.html", "class_linux_1_1_linux_thread_local_data" ]
-    ] ],
+    [ "linuxthreadlocaldata.h", "linuxthreadlocaldata_8h.html", "linuxthreadlocaldata_8h" ],
     [ "linuxthreadlocalptr.cc", "linuxthreadlocalptr_8cc.html", null ],
-    [ "linuxthreadlocalptr.h", "linuxthreadlocalptr_8h.html", [
-      [ "Linux::LinuxThreadLocalPtr", "class_linux_1_1_linux_thread_local_ptr.html", "class_linux_1_1_linux_thread_local_ptr" ]
-    ] ]
+    [ "linuxthreadlocalptr.h", "linuxthreadlocalptr_8h.html", "linuxthreadlocalptr_8h" ]
 ];

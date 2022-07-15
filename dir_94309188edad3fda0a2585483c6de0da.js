@@ -9,9 +9,7 @@ var dir_94309188edad3fda0a2585483c6de0da =
     [ "sqlite3factory.cc", "sqlite3factory_8cc.html", "sqlite3factory_8cc" ],
     [ "sqlite3factory.h", "sqlite3factory_8h.html", "sqlite3factory_8h" ],
     [ "sqlite3filterset.cc", "sqlite3filterset_8cc.html", "sqlite3filterset_8cc" ],
-    [ "sqlite3filterset.h", "sqlite3filterset_8h.html", [
-      [ "Db::Sqlite3FilterSet", "class_db_1_1_sqlite3_filter_set.html", "class_db_1_1_sqlite3_filter_set" ]
-    ] ],
+    [ "sqlite3filterset.h", "sqlite3filterset_8h.html", "sqlite3filterset_8h" ],
     [ "sqlite3table.cc", "sqlite3table_8cc.html", "sqlite3table_8cc" ],
     [ "sqlite3table.h", "sqlite3table_8h.html", "sqlite3table_8h" ]
 ];

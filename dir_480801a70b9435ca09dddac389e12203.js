@@ -12,15 +12,11 @@ var dir_480801a70b9435ca09dddac389e12203 =
     [ "dbfactory.cc", "dbfactory_8cc.html", "dbfactory_8cc" ],
     [ "dbfactory.h", "dbfactory_8h.html", "dbfactory_8h" ],
     [ "dbserver.cc", "dbserver_8cc.html", "dbserver_8cc" ],
-    [ "dbserver.h", "dbserver_8h.html", [
-      [ "Db::DbServer", "class_db_1_1_db_server.html", "class_db_1_1_db_server" ]
-    ] ],
+    [ "dbserver.h", "dbserver_8h.html", "dbserver_8h" ],
     [ "filterset.cc", "filterset_8cc.html", "filterset_8cc" ],
     [ "filterset.h", "db_2filterset_8h.html", "db_2filterset_8h" ],
     [ "reader.cc", "reader_8cc.html", "reader_8cc" ],
-    [ "reader.h", "reader_8h.html", [
-      [ "Db::Reader", "class_db_1_1_reader.html", "class_db_1_1_reader" ]
-    ] ],
+    [ "reader.h", "reader_8h.html", "reader_8h" ],
     [ "relation.cc", "relation_8cc.html", "relation_8cc" ],
     [ "relation.h", "relation_8h.html", "relation_8h" ],
     [ "table.cc", "table_8cc.html", "table_8cc" ],
@@ -28,7 +24,5 @@ var dir_480801a70b9435ca09dddac389e12203 =
     [ "valuetable.cc", "valuetable_8cc.html", "valuetable_8cc" ],
     [ "valuetable.h", "valuetable_8h.html", "valuetable_8h" ],
     [ "writer.cc", "writer_8cc.html", "writer_8cc" ],
-    [ "writer.h", "writer_8h.html", [
-      [ "Db::Writer", "class_db_1_1_writer.html", "class_db_1_1_writer" ]
-    ] ]
+    [ "writer.h", "writer_8h.html", "writer_8h" ]
 ];

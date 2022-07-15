@@ -14,7 +14,6 @@ var namespace_base =
     [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html", "class_base_1_1_shape_renderer_base" ],
     [ "SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ],
     [ "TextRendererBase", "class_base_1_1_text_renderer_base.html", "class_base_1_1_text_renderer_base" ],
-    [ "TransformDeviceBase", "class_base_1_1_transform_device_base.html", "class_base_1_1_transform_device_base" ],
     [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ],
     [ "__ImplementClass", "namespace_base.html#ab8a56e07626236531a00e5e96291a71e", null ],
     [ "__ImplementClass", "namespace_base.html#afb75c20e907e8c20125c079e11c9571e", null ],
@@ -27,12 +26,10 @@ var namespace_base =
     [ "__ImplementClass", "namespace_base.html#a5bab8e3391fcd90c3a0767897d39ac62", null ],
     [ "__ImplementClass", "namespace_base.html#a4039c2e4c79f4c41b3c676541f32b4ea", null ],
     [ "__ImplementClass", "namespace_base.html#a186dae4a6cdc50330b2a3664a1e55ab9", null ],
-    [ "__ImplementClass", "namespace_base.html#a49f1a7a65c46c1d0c6fac9f3f46fca3c", null ],
     [ "__ImplementInterfaceSingleton", "namespace_base.html#abf96c9d56f909878a0be8245406008da", null ],
     [ "__ImplementSingleton", "namespace_base.html#af71fbe1fcfdc0ed1688e45e6a5782a47", null ],
     [ "__ImplementSingleton", "namespace_base.html#a772b11de5c9976e201a41517f08c3291", null ],
     [ "__ImplementSingleton", "namespace_base.html#aa94a8e02161a101a6b21f03bb0762f28", null ],
     [ "__ImplementSingleton", "namespace_base.html#a644559f3fe1eb9ac2902f91ce0cc8227", null ],
-    [ "__ImplementSingleton", "namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d", null ],
-    [ "__ImplementSingleton", "namespace_base.html#a664fd417737d97921b60292a4a44c8c0", null ]
+    [ "__ImplementSingleton", "namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d", null ]
 ];

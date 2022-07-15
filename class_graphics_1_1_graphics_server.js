@@ -46,6 +46,5 @@ var class_graphics_1_1_graphics_server =
     [ "states", "class_graphics_1_1_graphics_server.html#a53b0c69e86fd6bec4a31b39af9afcba4", null ],
     [ "textRenderer", "class_graphics_1_1_graphics_server.html#ac40c55319b31fc4f5861a3fff82e9078", null ],
     [ "timer", "class_graphics_1_1_graphics_server.html#aa3e20af6928be06bce96e444535bfff4", null ],
-    [ "transformDevice", "class_graphics_1_1_graphics_server.html#aeb468ebec250c1a9f7c73211758e785f", null ],
     [ "views", "class_graphics_1_1_graphics_server.html#ad4d7e3edab5bec92c6eb801299e589e5", null ]
 ];

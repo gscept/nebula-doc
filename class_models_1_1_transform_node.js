@@ -2,6 +2,7 @@ var class_models_1_1_transform_node =
 [
     [ "TransformNode", "class_models_1_1_transform_node.html#ae959e0731f290c7d7e588ffa962ac501", null ],
     [ "~TransformNode", "class_models_1_1_transform_node.html#af9533b1584a4a77aa048c9575e596bc7", null ],
+    [ "GetLODDistances", "class_models_1_1_transform_node.html#a1e3c5bcec660d57a43050a3bcda3a693", null ],
     [ "Load", "class_models_1_1_transform_node.html#aa21b9fde6b1410e0c609271980959e84", null ],
     [ "ModelContext", "class_models_1_1_transform_node.html#af8da0315892253b355e1abe79f67e350", null ],
     [ "StreamModelCache", "class_models_1_1_transform_node.html#a314cd138b4dead320ef2f750d6777577", null ],

@@ -19,6 +19,7 @@ var render_2coregraphics_2config_8h =
     [ "NEBULA_MARKER_WHITE", "render_2coregraphics_2config_8h.html#a7657a7d4546084dee1ebc0ab82a53294", null ],
     [ "NEBULA_WHOLE_BUFFER_SIZE", "render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0", null ],
     [ "SHADER_POSTEFFECT_DEFAULT_FEATURE_MASK", "render_2coregraphics_2config_8h.html#ae6a21d034256aaf05dba72da8162e2fe", null ],
+    [ "ConstantBufferOffset", "render_2coregraphics_2config_8h.html#a7c6181f333ec8bbadc23a8a3e236ba96", null ],
     [ "BarrierDomain", "render_2coregraphics_2config_8h.html#ae711b5fe9f98259c9a86e455b15a7826", [
       [ "Global", "render_2coregraphics_2config_8h.html#ae711b5fe9f98259c9a86e455b15a7826a4cc6684df7b4a92b1dec6fce3264fac8", null ],
       [ "Pass", "render_2coregraphics_2config_8h.html#ae711b5fe9f98259c9a86e455b15a7826ab9b57aae83585e17ede4570dcede353c", null ]
@@ -79,7 +80,8 @@ var render_2coregraphics_2config_8h =
       [ "Indirect", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a0b5ca9d0c6dbcbb3e299361cd4e4a79c", null ],
       [ "Index", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a88fa71f0a6e0dfedbb46d91cc0b37a50", null ],
       [ "Vertex", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147ab22b929ba52471a02d18bb3a4e4472e6", null ],
-      [ "Uniform", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147af19516d11f2946f894070e92fcb56b6d", null ],
+      [ "UniformGraphics", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a81fa34323f9825efcc85954dcc9e12b2", null ],
+      [ "UniformCompute", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147acc52752a1f03674ab452776c6aada9d5", null ],
       [ "InputAttachment", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a261d965f5dd43c6873489b68730dbe57", null ],
       [ "ReadOnlyAccess", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147acfa5c6b0fe5c9c78f025a2833355f6cf", null ],
       [ "VertexShaderRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a5746978a88b87e3b75032bfe63e06f89", null ],
