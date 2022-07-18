@@ -4,7 +4,8 @@ var struct_gltf_1_1_node =
       [ "Transform", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463a2ff4148554480a37f85efd299df04850", null ],
       [ "Camera", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463a967d35e40f3f95b1f538bd248640bf3b", null ],
       [ "Mesh", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463a710fdb6adb881b408116ef95335e1961", null ],
-      [ "Skin", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463a9313566fe19aca293daefe4ce37942bf", null ]
+      [ "Skin", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463a9313566fe19aca293daefe4ce37942bf", null ],
+      [ "InvalidType", "struct_gltf_1_1_node.html#a772a8f277f92b25a82656845f0d1e463ac85f85f7c13ed006eed130ec183aa810", null ]
     ] ],
     [ "camera", "struct_gltf_1_1_node.html#abc9a4c15c6f28c3d21e66cc4cdbd7983", null ],
     [ "children", "struct_gltf_1_1_node.html#a73f885f244c96b72acd6e507c2bcd4c8", null ],

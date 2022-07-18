@@ -1,5 +1,7 @@
 var NAVTREEINDEX150 =
 {
+"vec3_8h.html#ad8cc3c180dc3e4fc28ea3b3047a0b784":[10,0,0,3,12,26,1],
+"vec3_8h.html#ade79a3ee806f5706749458bb5b677c98":[10,0,0,3,12,26,53],
 "vec3_8h.html#ae3a5400f57b852810b4395043f508911":[10,0,0,3,12,26,51],
 "vec3_8h.html#ae3d0f1a135f71ffbdd9e526b310a8216":[10,0,0,3,12,26,16],
 "vec3_8h.html#af247ff82218f51e8e93f6d6a2d87ebc0":[10,0,0,3,12,26,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX150 =
 "vkbarrier_8cc.html#aefc932a7f2be98db693df666720f42d6":[10,0,0,6,5,5,0,4],
 "vkbarrier_8cc.html#af9d89422145215753c0362bbeddae4bc":[10,0,0,6,5,5,0,2],
 "vkbarrier_8h.html":[10,0,0,6,5,5,1],
-"vkbarrier_8h.html#a06a18e7d5a8a8e8f75495d1cf4b13d54":[10,0,0,6,5,5,1,3],
-"vkbarrier_8h.html#a63f58197766862dfdada97c3cd4094d3":[10,0,0,6,5,5,1,1],
-"vkbarrier_8h.html#af9d89422145215753c0362bbeddae4bc":[10,0,0,6,5,5,1,2]
+"vkbarrier_8h.html#a06a18e7d5a8a8e8f75495d1cf4b13d54":[10,0,0,6,5,5,1,3]
 };

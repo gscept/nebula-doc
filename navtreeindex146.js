@@ -1,5 +1,7 @@
 var NAVTREEINDEX146 =
 {
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_uniform_buffer.html#aeb3944fb5e43478b7ba59dcefb3b05a6":[9,0,64,26,2,0,0],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable.html":[8,0,74,26,2,1],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable.html":[9,0,64,26,2,1],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable.html#a3319e9738a7b33caebe11b843d9c863c":[9,0,64,26,2,1,1],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_variable.html#a3319e9738a7b33caebe11b843d9c863c":[8,0,74,26,2,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX146 =
 "struct_vulkan_1_1_vk_texture_mapping_info.html#a6a2217919a68a504fddcd1438a9f77ab":[8,0,74,36,1],
 "struct_vulkan_1_1_vk_texture_mapping_info.html#ac746c937a81ff45fe32f66ab99ced108":[8,0,74,36,0],
 "struct_vulkan_1_1_vk_texture_mapping_info.html#ac746c937a81ff45fe32f66ab99ced108":[9,0,64,36,0],
-"struct_vulkan_1_1_vk_texture_runtime_info.html":[8,0,74,37],
-"struct_vulkan_1_1_vk_texture_runtime_info.html":[9,0,64,37],
-"struct_vulkan_1_1_vk_texture_runtime_info.html#a21ced2a42e5991fadfa6f310089d96d0":[8,0,74,37,1]
+"struct_vulkan_1_1_vk_texture_runtime_info.html":[8,0,74,37]
 };
