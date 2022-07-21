@@ -1,10 +1,12 @@
 var class_physics_1_1_physx_state =
 [
     [ "PhysxState", "class_physics_1_1_physx_state.html#a5d7cb28ba3d02dc4d2244c291fb76c11", null ],
+    [ "BeginFrame", "class_physics_1_1_physx_state.html#aa7fe2077415dab0f04251d5d93ec2a47", null ],
     [ "ConnectPVD", "class_physics_1_1_physx_state.html#a9c678894c0b977fd2936f77159c96118", null ],
     [ "CreateActor", "class_physics_1_1_physx_state.html#ae241f1a390645b9fc0dbfdf18d845b20", null ],
     [ "DiscardActor", "class_physics_1_1_physx_state.html#af8f91ea9f11ec1496f48e9085c631212", null ],
     [ "DisconnectPVD", "class_physics_1_1_physx_state.html#a4dca2e7deb4367e4ee9a35f536680e6b", null ],
+    [ "EndFrame", "class_physics_1_1_physx_state.html#a0850102cbcd5f14c75d647537564fefb", null ],
     [ "onAdvance", "class_physics_1_1_physx_state.html#a1146658a8351e05a52fcd70378588d3b", null ],
     [ "onConstraintBreak", "class_physics_1_1_physx_state.html#aa687d3c85c8f60fcaad72ceae42eabfa", null ],
     [ "onContact", "class_physics_1_1_physx_state.html#a41ff2426b92a926973e37ea4eceb6db8", null ],

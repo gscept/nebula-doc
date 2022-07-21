@@ -105,7 +105,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08b69ebbb9aa61c0d2457bd9e88c4ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#a08b69ebbb9aa61c0d2457bd9e88c4ca1">Shutdown</a> ()</td></tr>
 <tr class="separator:a08b69ebbb9aa61c0d2457bd9e88c4ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab36440a17e9159ecb9308ce8960e6337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#ab36440a17e9159ecb9308ce8960e6337">Update</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="memdesc:ab36440a17e9159ecb9308ce8960e6337"><td class="mdescLeft">&#160;</td><td class="mdescRight">do a sync full simulation step. Do not mix Update and Begin/EndFrame!  <a href="class_physics_1_1_physx_state.html#ab36440a17e9159ecb9308ce8960e6337">More...</a><br /></td></tr>
 <tr class="separator:ab36440a17e9159ecb9308ce8960e6337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fe2077415dab0f04251d5d93ec2a47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#aa7fe2077415dab0f04251d5d93ec2a47">BeginFrame</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="memdesc:aa7fe2077415dab0f04251d5d93ec2a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit call to simulate, will process async in the background  <a href="class_physics_1_1_physx_state.html#aa7fe2077415dab0f04251d5d93ec2a47">More...</a><br /></td></tr>
+<tr class="separator:aa7fe2077415dab0f04251d5d93ec2a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0850102cbcd5f14c75d647537564fefb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#a0850102cbcd5f14c75d647537564fefb">EndFrame</a> ()</td></tr>
+<tr class="separator:a0850102cbcd5f14c75d647537564fefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae241f1a390645b9fc0dbfdf18d845b20"><td class="memItemLeft" align="right" valign="top">physx::PxRigidActor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#ae241f1a390645b9fc0dbfdf18d845b20">CreateActor</a> (bool dynamic, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
 <tr class="memdesc:ae241f1a390645b9fc0dbfdf18d845b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new empty actor  <a href="class_physics_1_1_physx_state.html#ae241f1a390645b9fc0dbfdf18d845b20">More...</a><br /></td></tr>
 <tr class="separator:ae241f1a390645b9fc0dbfdf18d845b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +194,26 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa7fe2077415dab0f04251d5d93ec2a47" name="aa7fe2077415dab0f04251d5d93ec2a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fe2077415dab0f04251d5d93ec2a47">&#9670;&nbsp;</a></span>BeginFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::PhysxState::BeginFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>explicit call to simulate, will process async in the background </p>
+
+</div>
+</div>
 <a id="a9c678894c0b977fd2936f77159c96118" name="a9c678894c0b977fd2936f77159c96118"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c678894c0b977fd2936f77159c96118">&#9670;&nbsp;</a></span>ConnectPVD()</h2>
 
@@ -273,6 +299,23 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>disconnect from pvd again </p>
+
+</div>
+</div>
+<a id="a0850102cbcd5f14c75d647537564fefb" name="a0850102cbcd5f14c75d647537564fefb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0850102cbcd5f14c75d647537564fefb">&#9670;&nbsp;</a></span>EndFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::PhysxState::EndFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -542,6 +585,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>do a sync full simulation step. Do not mix Update and Begin/EndFrame! </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -794,7 +839,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li><li class="navelem"><a class="el" href="class_physics_1_1_physx_state.html">PhysxState</a></li>
 				<li class="footer">
-					Generated on Mon Jul 18 2022 07:29:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jul 21 2022 16:37:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

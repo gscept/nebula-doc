@@ -1,5 +1,15 @@
 var NAVTREEINDEX120 =
 {
+"sqlite3database_8h.html#af3a2c5f686b1d73863841c7b06abf17f":[10,0,0,0,2,0,3,10],
+"sqlite3database_8h.html#af8b50b3a799f9eef398efcbc2b9da55c":[10,0,0,0,2,0,3,6],
+"sqlite3database_8h_source.html":[10,0,0,0,2,0,3],
+"sqlite3dataset_8cc.html":[10,0,0,0,2,0,4],
+"sqlite3dataset_8cc.html#a746463a693133355c7cd7b4f455afa28":[10,0,0,0,2,0,4,0],
+"sqlite3dataset_8h.html":[10,0,0,0,2,0,5],
+"sqlite3dataset_8h.html#a5d59cf4e4c4727548e45ce1f66fb45d1":[10,0,0,0,2,0,5,1],
+"sqlite3dataset_8h_source.html":[10,0,0,0,2,0,5],
+"sqlite3factory_8cc.html":[10,0,0,0,2,0,6],
+"sqlite3factory_8cc.html#ab532fc3ef91e84c529faef426f08f3a4":[10,0,0,0,2,0,6,1],
 "sqlite3factory_8cc.html#af221cc9e149e22ef67d0543c14f5a748":[10,0,0,0,2,0,6,0],
 "sqlite3factory_8h.html":[10,0,0,0,2,0,7],
 "sqlite3factory_8h.html#a0a2aa3aaf9cd7fa8c0de6ab2a40ed32d":[10,0,0,0,2,0,7,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX120 =
 "stringbuffer_8h_source.html":[10,0,0,3,20,52],
 "struct_attr_1_1_attribute_table_1_1_column_info.html":[9,0,2,5,0],
 "struct_attr_1_1_attribute_table_1_1_column_info.html":[8,0,3,5,0],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#a75009b7d0082aca50e2da9e64b1bb5b0":[8,0,3,5,0,1],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#a75009b7d0082aca50e2da9e64b1bb5b0":[9,0,2,5,0,1],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#abac22025b947c7ebd6be820ea232ed0d":[9,0,2,5,0,0],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#abac22025b947c7ebd6be820ea232ed0d":[8,0,3,5,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html":[8,0,4,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html":[9,0,3,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html#a017f3dc3d15ad37db9777d5536429c16":[9,0,3,0,0,2],
-"struct_audio_1_1_audio_device_1_1_listener.html#a017f3dc3d15ad37db9777d5536429c16":[8,0,4,0,0,2],
-"struct_audio_1_1_audio_device_1_1_listener.html#a3c0e3395702bfd53b0994ebf8ee2ccba":[9,0,3,0,0,1],
-"struct_audio_1_1_audio_device_1_1_listener.html#a3c0e3395702bfd53b0994ebf8ee2ccba":[8,0,4,0,0,1],
-"struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[9,0,3,0,0,0]
+"struct_attr_1_1_attribute_table_1_1_column_info.html#a75009b7d0082aca50e2da9e64b1bb5b0":[8,0,3,5,0,1]
 };

@@ -114,7 +114,7 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:aadac1e3946162bbf64e9907be7968ce4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physicsinterface_8cc.html#aadac1e3946162bbf64e9907be7968ce4">PHYSX_MEMORY_ALLOCATION_DEBUG</a>&#160;&#160;&#160;false</td></tr>
 <tr class="separator:aadac1e3946162bbf64e9907be7968ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f15be9bbb075e18b754c00d35770edb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physicsinterface_8cc.html#a5f15be9bbb075e18b754c00d35770edb">PHYSX_THREADS</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:a5f15be9bbb075e18b754c00d35770edb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physicsinterface_8cc.html#a5f15be9bbb075e18b754c00d35770edb">PHYSX_THREADS</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a5f15be9bbb075e18b754c00d35770edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -149,8 +149,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a3b0738dc40f8ee43d14b350d394ba542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a3b0738dc40f8ee43d14b350d394ba542">Physics::GetNrMaterials</a> ()</td></tr>
 <tr class="separator:a3b0738dc40f8ee43d14b350d394ba542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5748751ba9e48a61c03652dffa14298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298">Physics::Update</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
-<tr class="memdesc:ad5748751ba9e48a61c03652dffa14298"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform simulation step(s)  <a href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298">More...</a><br /></td></tr>
+<tr class="memdesc:ad5748751ba9e48a61c03652dffa14298"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform sync simulation step(s)  <a href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298">More...</a><br /></td></tr>
 <tr class="separator:ad5748751ba9e48a61c03652dffa14298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37d01a8fb89437e6c8fa276e257ad82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ae37d01a8fb89437e6c8fa276e257ad82">Physics::BeginFrame</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="separator:ae37d01a8fb89437e6c8fa276e257ad82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07517ead40126f76f0c2c2d17d4a1025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a07517ead40126f76f0c2c2d17d4a1025">Physics::EndFrame</a> ()</td></tr>
+<tr class="separator:a07517ead40126f76f0c2c2d17d4a1025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c3e6825bf7dc167bef16d361209ed07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a4c3e6825bf7dc167bef16d361209ed07">Physics::CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">Physics::ActorResourceId</a> id, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;trans, bool dynamic, uint64_t userData, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
 <tr class="separator:a4c3e6825bf7dc167bef16d361209ed07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab23ccb60b91a7e41592288f856e68ef2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ab23ccb60b91a7e41592288f856e68ef2">Physics::DestroyActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> id)</td></tr>
@@ -178,7 +182,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PHYSX_THREADS&#160;&#160;&#160;2</td>
+          <td class="memname">#define PHYSX_THREADS&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -192,7 +196,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_574d321306f111fe13f289f4f129e456.html">physics</a></li><li class="navelem"><a class="el" href="physicsinterface_8cc.html">physicsinterface.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jul 18 2022 07:29:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jul 21 2022 16:37:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

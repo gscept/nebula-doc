@@ -104,12 +104,12 @@ $(document).ready(function(){initNavTree('namespace_resources.html',''); initRes
 <p >The pool storage id is the resource level index, the pool id is the global id of the resource pool, allocator id is instance level id, and the allocator resource type is just a flag we can use to check the type of the id, in case we are confused.</p>
 <p >Example: If we allocate a texture and want to use TextureId, then we take the 24 bytes part (id.id24) and use it to construct a Texture id, but we still need the ResourceId if we want to deallocate that texture at some later point. To convert to such an id, use the SpecializedId.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
-<p>This means, the <a class="el" href="class_resources_1_1_resource_memory_cache.html">ResourceMemoryCache</a> is immediate, and requires a previously created resource, using <a class="el" href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c" title="Reserve a resource for direct updating through a memory pool.">Resources::ReserveResource</a>, followed by the attachment of a loader, and then perform a load. Therefore, it requires no <a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a> <a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298" title="perform simulation step(s)">Update()</a> to trigger.</p>
+<p>This means, the <a class="el" href="class_resources_1_1_resource_memory_cache.html">ResourceMemoryCache</a> is immediate, and requires a previously created resource, using <a class="el" href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c" title="Reserve a resource for direct updating through a memory pool.">Resources::ReserveResource</a>, followed by the attachment of a loader, and then perform a load. Therefore, it requires no <a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a> <a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298" title="perform sync simulation step(s)">Update()</a> to trigger.</p>
 <p >This type of loader exists to provide code-local data, like a const float* mesh, or texture, or for example font data loaded as a const char* from some foreign library.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
-<p>It contains a set of convenience functions (which is just a proxy for the Singleton), and should be updated at least once per frame using <a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298" title="perform simulation step(s)">Update()</a>.</p>
+<p>It contains a set of convenience functions (which is just a proxy for the Singleton), and should be updated at least once per frame using <a class="el" href="namespace_physics.html#ad5748751ba9e48a61c03652dffa14298" title="perform sync simulation step(s)">Update()</a>.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
 <p>Contains the names for the placeholder and failed-to-load resource names. When inheriting from this class, make sure to provide proper resource ids for:</p><ol type="1">
 <li>Placeholder resource</li>
@@ -854,7 +854,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li>
 				<li class="footer">
-					Generated on Mon Jul 18 2022 07:29:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Jul 21 2022 16:37:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
