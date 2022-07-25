@@ -37,6 +37,7 @@ var class_characters_1_1_character_context =
     [ "IsExpired", "class_characters_1_1_character_context.html#a42d551a91019c011d168dbf5f51fead1", null ],
     [ "IsInfinite", "class_characters_1_1_character_context.html#ac4e6e53b281c5f1de7d1f59a61a366c7", null ],
     [ "characterContextAllocator", "class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541", null ],
+    [ "constantUpdateCounter", "class_characters_1_1_character_context.html#a256a4a4f94cbcfb3691aa8fd34421095", null ],
     [ "masks", "class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9", null ],
     [ "MaxNumTracks", "class_characters_1_1_character_context.html#ae9496d1464044413ee22950ba04486a5", null ],
     [ "totalCompletionEvent", "class_characters_1_1_character_context.html#aec7634dfe7fc07e20d428a60140f4c27", null ]

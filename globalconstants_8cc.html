@@ -109,18 +109,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a8e63bcb086482ce918c6360ccc648fce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a8e63bcb086482ce918c6360ccc648fce">Graphics::AllocateGlobalConstants</a> ()</td></tr>
 <tr class="memdesc:a8e63bcb086482ce918c6360ccc648fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run when starting frame.  <a href="namespace_graphics.html#a8e63bcb086482ce918c6360ccc648fce">More...</a><br /></td></tr>
 <tr class="separator:a8e63bcb086482ce918c6360ccc648fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4c355e67b0f703af1659ada4249a85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a1c4c355e67b0f703af1659ada4249a85">Graphics::UpdateTickParams</a> (const Shared::PerTickParams &amp;tickParams)</td></tr>
+<tr class="memdesc:a1c4c355e67b0f703af1659ada4249a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set tick params.  <a href="namespace_graphics.html#a1c4c355e67b0f703af1659ada4249a85">More...</a><br /></td></tr>
+<tr class="separator:a1c4c355e67b0f703af1659ada4249a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371833c69bd54f5c34ecc9c49e2df042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a371833c69bd54f5c34ecc9c49e2df042">Graphics::UpdateViewConstants</a> (const Shared::ViewConstants &amp;viewConstants)</td></tr>
 <tr class="memdesc:a371833c69bd54f5c34ecc9c49e2df042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set view params.  <a href="namespace_graphics.html#a371833c69bd54f5c34ecc9c49e2df042">More...</a><br /></td></tr>
 <tr class="separator:a371833c69bd54f5c34ecc9c49e2df042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b8e04c79872b0f1d38e3cc0eac944ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a3b8e04c79872b0f1d38e3cc0eac944ad">Graphics::UpdateShadowConstants</a> (const Shared::ShadowViewConstants &amp;shadowViewConstants)</td></tr>
 <tr class="memdesc:a3b8e04c79872b0f1d38e3cc0eac944ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set camera params.  <a href="namespace_graphics.html#a3b8e04c79872b0f1d38e3cc0eac944ad">More...</a><br /></td></tr>
 <tr class="separator:a3b8e04c79872b0f1d38e3cc0eac944ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1f4ea9f38fc46a67e60cac3a27c9fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#aa1f4ea9f38fc46a67e60cac3a27c9fd6">Graphics::FlushConstants</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
-<tr class="memdesc:aa1f4ea9f38fc46a67e60cac3a27c9fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants by recording update command to command buffer.  <a href="namespace_graphics.html#aa1f4ea9f38fc46a67e60cac3a27c9fd6">More...</a><br /></td></tr>
-<tr class="separator:aa1f4ea9f38fc46a67e60cac3a27c9fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41f0d5d9cb10f8c695afa42f9a622c24"><td class="memItemLeft" align="right" valign="top">Shared::PerTickParams &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a41f0d5d9cb10f8c695afa42f9a622c24">Graphics::GetTickParams</a> ()</td></tr>
-<tr class="memdesc:a41f0d5d9cb10f8c695afa42f9a622c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get tick params constant buffer.  <a href="namespace_graphics.html#a41f0d5d9cb10f8c695afa42f9a622c24">More...</a><br /></td></tr>
-<tr class="separator:a41f0d5d9cb10f8c695afa42f9a622c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#ad1770ae0ad7fcee7974da629b13ed4e6">Graphics::FlushUpdates</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
+<tr class="memdesc:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants by recording update command to command buffer.  <a href="namespace_graphics.html#ad1770ae0ad7fcee7974da629b13ed4e6">More...</a><br /></td></tr>
+<tr class="separator:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="memItemLeft" align="right" valign="top">const Shared::PerTickParams &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#aaa2d30ac74b50c3ff246fdb45fc5d9de">Graphics::GetTickParams</a> ()</td></tr>
+<tr class="memdesc:aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get tick params constant buffer.  <a href="namespace_graphics.html#aaa2d30ac74b50c3ff246fdb45fc5d9de">More...</a><br /></td></tr>
+<tr class="separator:aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add91dcd9b892d18c06dcb0a0474107a9"><td class="memItemLeft" align="right" valign="top">const Shared::ViewConstants &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#add91dcd9b892d18c06dcb0a0474107a9">Graphics::GetViewConstants</a> ()</td></tr>
 <tr class="memdesc:add91dcd9b892d18c06dcb0a0474107a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current view constants.  <a href="namespace_graphics.html#add91dcd9b892d18c06dcb0a0474107a9">More...</a><br /></td></tr>
 <tr class="separator:add91dcd9b892d18c06dcb0a0474107a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +156,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_9ca153d2197e5a64e112f2977692b41a.html">graphics</a></li><li class="navelem"><a class="el" href="globalconstants_8cc.html">globalconstants.cc</a></li>
 				<li class="footer">
-					Generated on Thu Jul 21 2022 18:50:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 25 2022 23:48:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

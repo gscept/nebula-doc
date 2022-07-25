@@ -3,6 +3,8 @@ var namespace_lighting =
     [ "CSMUtil", "class_lighting_1_1_c_s_m_util.html", "class_lighting_1_1_c_s_m_util" ],
     [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ],
     [ "__ImplementContext", "namespace_lighting.html#ab9873ee37c7a13ebbe86f10ce763fc9d", null ],
+    [ "ComputeAABB", "namespace_lighting.html#adb9ed6742b33f38d357431832e48077d", null ],
+    [ "ComputeFrustumPoints", "namespace_lighting.html#acb47d76ec1f470ab54147272590565e4", null ],
     [ "aoTexture", "namespace_lighting.html#a2177f1a969c2447a80a8b2bf6d7b713e", null ],
     [ "aoTextureSlot", "namespace_lighting.html#a0102d3eb48f2b08db39c01663592c873", null ],
     [ "classificationShader", "namespace_lighting.html#a88b859b7189073b53ab2f892908e31f2", null ],
@@ -11,10 +13,10 @@ var namespace_lighting =
     [ "clusterLightsList", "namespace_lighting.html#a0b9ea68cd0a14da9ac331caba86b697b", null ],
     [ "clusterPointLights", "namespace_lighting.html#ad0f7c5aa043a958b5888a60d73c23290", null ],
     [ "clusterSpotLights", "namespace_lighting.html#a3a54cafa925aba0da75b3f395eeddd18", null ],
-    [ "clusterState", "namespace_lighting.html#ab6296d15451de5039356b7515949e75b", null ],
+    [ "clusterState", "namespace_lighting.html#a25faa7cf1bd9cdb24fee28467e949c2e", null ],
     [ "combineProgram", "namespace_lighting.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "combineShader", "namespace_lighting.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
-    [ "combineState", "namespace_lighting.html#ab05e0c2be75984aeac3c5bf7c91e1275", null ],
+    [ "combineState", "namespace_lighting.html#ab2d972b57e29c5e8dd3bdd3056c70afa", null ],
     [ "combineUniforms", "namespace_lighting.html#adde99c6dee498a7c4ff6f494ee88cb36", null ],
     [ "csmUtil", "namespace_lighting.html#ab0aaa69cffadc74914be9308b6f7b20c", null ],
     [ "cullProgram", "namespace_lighting.html#a4631b178546d59ffad08e86592f87073", null ],
@@ -29,7 +31,7 @@ var namespace_lighting =
     [ "lightingTextureSlot", "namespace_lighting.html#a68cf2cdf1183d39b887fcf63593f32db", null ],
     [ "lightingUniformsSlot", "namespace_lighting.html#abeaee0792a992b3db28dca5f796177d2", null ],
     [ "lightListSlot", "namespace_lighting.html#a19b403fcf0734db3f8246bc1377d2d28", null ],
-    [ "lightServerState", "namespace_lighting.html#a89ab9b7bb1bea28a2da81b93414f4d8b", null ],
+    [ "lightServerState", "namespace_lighting.html#a8346e07f3bc3f14c38bf28438c27d6cb", null ],
     [ "lightShadingDebugTextureSlot", "namespace_lighting.html#adbe5437e5d50d1c5ab617b40a4cb9f5c", null ],
     [ "lightShadingTextureSlot", "namespace_lighting.html#a0410203f470a3a29d4f5b07be9567e55", null ],
     [ "localLightShadows", "namespace_lighting.html#a5ff54976d5d786434a189b17327e74b1", null ],
@@ -52,5 +54,5 @@ var namespace_lighting =
     [ "terrainShadowMap", "namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e", null ],
     [ "terrainShadowMapSize", "namespace_lighting.html#a7d694d7b0d15f9ddc02fdc452744972e", null ],
     [ "terrainSize", "namespace_lighting.html#ab6851f5d4fe86107879a11564e1e9efc", null ],
-    [ "textureState", "namespace_lighting.html#a1abef2ac16f3d8d86b3396a7698e6988", null ]
+    [ "textureState", "namespace_lighting.html#a4d9b9963986cda2c87aad7ef747959b3", null ]
 ];

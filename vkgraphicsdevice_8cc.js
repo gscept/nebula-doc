@@ -10,7 +10,7 @@ var vkgraphicsdevice_8cc =
     [ "Vulkan::GraphicsDeviceState::Queries", "struct_vulkan_1_1_graphics_device_state_1_1_queries.html", "struct_vulkan_1_1_graphics_device_state_1_1_queries" ],
     [ "Vulkan::GraphicsDeviceThreadState", "struct_vulkan_1_1_graphics_device_thread_state.html", "struct_vulkan_1_1_graphics_device_thread_state" ],
     [ "AddBackBufferTexture", "vkgraphicsdevice_8cc.html#a535da31fa93320f7b3843b50a40c7ec4", null ],
-    [ "AllocateConstantBufferMemory", "vkgraphicsdevice_8cc.html#ab46c0bde2cf3e6ed86b03593a1328c3c", null ],
+    [ "AllocateConstantBufferMemory", "vkgraphicsdevice_8cc.html#a1eee2dce617b2cfa06d52dceb8be7447", null ],
     [ "AllocateIndices", "vkgraphicsdevice_8cc.html#a837de52aa67270d903007107f0105f7a", null ],
     [ "AllocateQueries", "vkgraphicsdevice_8cc.html#aa1627a678ec9c936ab52171d5f430939", null ],
     [ "AllocateUpload", "vkgraphicsdevice_8cc.html#a1fa85c7c049578edcac219bde85eccc2", null ],

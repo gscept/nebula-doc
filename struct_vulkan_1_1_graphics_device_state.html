@@ -168,9 +168,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a05bbb346b129b29499b53230954b5ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ca39cfc16563728adecc00b03581cd"><td class="memItemLeft" align="right" valign="top">VkSemaphore&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#ad8ca39cfc16563728adecc00b03581cd">waitForPresentSemaphore</a></td></tr>
 <tr class="separator:ad8ca39cfc16563728adecc00b03581cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41cee5e883fd8784e94b57d28372807e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a41cee5e883fd8784e94b57d28372807e">maxNumBufferedFrames</a></td></tr>
+<tr class="memitem:a41cee5e883fd8784e94b57d28372807e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a41cee5e883fd8784e94b57d28372807e">maxNumBufferedFrames</a> = 1</td></tr>
 <tr class="separator:a41cee5e883fd8784e94b57d28372807e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a373fc4801930822947fd4a873961509f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a373fc4801930822947fd4a873961509f">currentBufferedFrameIndex</a></td></tr>
+<tr class="memitem:a373fc4801930822947fd4a873961509f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#a373fc4801930822947fd4a873961509f">currentBufferedFrameIndex</a> = 0</td></tr>
 <tr class="separator:a373fc4801930822947fd4a873961509f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3e98e61495b696984180a79572ab300"><td class="memItemLeft" align="right" valign="top">VkExtensionProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html#ae3e98e61495b696984180a79572ab300">physicalExtensions</a> [64]</td></tr>
 <tr class="separator:ae3e98e61495b696984180a79572ab300"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,7 +275,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6e757242b84a727ae71a20091f09c65a inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0776484bdf16b5e0b68f002487afc20c inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a0776484bdf16b5e0b68f002487afc20c">enableValidation</a>: 1</td></tr>
 <tr class="separator:a0776484bdf16b5e0b68f002487afc20c inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d93252140848d8c28dfd703f2298a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#ad0d93252140848d8c28dfd703f2298a1">currentFrameIndex</a></td></tr>
+<tr class="memitem:ad0d93252140848d8c28dfd703f2298a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#ad0d93252140848d8c28dfd703f2298a1">currentFrameIndex</a> = 0</td></tr>
 <tr class="separator:ad0d93252140848d8c28dfd703f2298a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -412,7 +412,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t Vulkan::GraphicsDeviceState::currentBufferedFrameIndex</td>
+          <td class="memname">uint32_t Vulkan::GraphicsDeviceState::currentBufferedFrameIndex = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -636,7 +636,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Vulkan::GraphicsDeviceState::maxNumBufferedFrames</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Vulkan::GraphicsDeviceState::maxNumBufferedFrames = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -969,7 +969,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></li>
 				<li class="footer">
-					Generated on Thu Jul 21 2022 18:50:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 25 2022 23:48:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

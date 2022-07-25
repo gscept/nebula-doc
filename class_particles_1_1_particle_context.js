@@ -30,8 +30,8 @@ var class_particles_1_1_particle_context =
     [ "Stop", "class_particles_1_1_particle_context.html#a7405e70294fabad33410685f74a933e3", null ],
     [ "UpdateParticles", "class_particles_1_1_particle_context.html#aba9c9d7679d646a2576386c73399f673", null ],
     [ "WaitForParticleUpdates", "class_particles_1_1_particle_context.html#a7410065fd7b3c2bac29c77617923b36e", null ],
+    [ "constantUpdateCounter", "class_particles_1_1_particle_context.html#a5d119239be420ed73286cbdf570fe71c", null ],
     [ "DefaultEmitterMesh", "class_particles_1_1_particle_context.html#a654189a239fb09df20091a57ee5109ab", null ],
     [ "particleContextAllocator", "class_particles_1_1_particle_context.html#a59fe7110ee2b1b1aca1f05f9b11c2e48", null ],
-    [ "totalCompletionCounter", "class_particles_1_1_particle_context.html#afbb27fc5279345d05d29e181b64317df", null ],
     [ "totalCompletionEvent", "class_particles_1_1_particle_context.html#ac09fdb758d011abb450f47982bab6ab8", null ]
 ];

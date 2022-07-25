@@ -29,10 +29,10 @@ var searchData=
   ['r8g8b8x8_26',['R8G8B8X8',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0aa24fb7d9cb2c6581291a43b9e2d0b028',1,'CoreGraphics::PixelFormat']]],
   ['random_27',['Random',['../class_i_o_1_1_stream.html#afb0d1bb71f98fc1811aefb25b6e09606a8bacf2a81794ef0dffb5063fe35f2dea',1,'IO::Stream']]],
   ['randomizerotation_28',['RandomizeRotation',['../class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aaa675996b2bc376cb9d50c9c3b2d3b49a',1,'Particles::EmitterAttrs']]],
-  ['range_29',['Range',['../class_lighting_1_1_light_context.html#a2c33c83fed438247217072f3d995cdcea07b94fc8601597307d62507415c36c36',1,'Lighting::LightContext']]],
+  ['range_29',['Range',['../class_lighting_1_1_light_context.html#a9975eb218aea15fddbc2d48eead8f44fa07b94fc8601597307d62507415c36c36',1,'Lighting::LightContext']]],
   ['rawmousemove_30',['RawMouseMove',['../class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a4d7c2c5bbb9fb983b8a637b819d9d265',1,'Input::InputEvent']]],
-  ['read_31',['READ',['../namespace_game.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1',1,'Game']]],
-  ['read_32',['Read',['../namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'Util::Read()'],['../namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'Frame::Read()']]],
+  ['read_31',['Read',['../namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'Util::Read()'],['../namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'Frame::Read()']]],
+  ['read_32',['READ',['../namespace_game.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1',1,'Game']]],
   ['readaccess_33',['ReadAccess',['../class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea7470fc81234309709e4d7b3e3fcc8359',1,'IO::Stream']]],
   ['readonly_34',['ReadOnly',['../class_db_1_1_database.html#a8ae0b0a4b97a06ecd5217c9aa2bac42ea2008a15e735164c8fee251baec725814',1,'Db::Database::ReadOnly()'],['../namespace_attr.html#ac71ff9cfe753b38131de51a21a7ae576a962ff88355e59245713b6b2fc4f224fd',1,'Attr::ReadOnly()']]],
   ['readonlyaccess_35',['ReadOnlyAccess',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147acfa5c6b0fe5c9c78f025a2833355f6cf',1,'CoreGraphics']]],
@@ -90,11 +90,11 @@ var searchData=
   ['rightwindows_87',['RightWindows',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18ab371f3ae23950d38a58461cfa3cdac84',1,'Input::Key']]],
   ['rocketheap_88',['RocketHeap',['../namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c',1,'Memory']]],
   ['root_89',['Root',['../class_db_1_1_filter_set_1_1_token.html#a74f3df698a16859b828062dfb2632c60aefea125faf57fb9709415f7c84fe1ca8',1,'Db::FilterSet::Token']]],
-  ['rootnode_90',['RootNode',['../class_models_1_1_stream_model_cache.html#ad9623030f42b9b1b2b93b2d0e027eb52ab808ba1beaf1671f5c5e4862766555dc',1,'Models::StreamModelCache']]],
+  ['rootnode_90',['RootNode',['../class_models_1_1_stream_model_cache.html#a6617bc1aa5280df8c0a811d5eb2ef43fab808ba1beaf1671f5c5e4862766555dc',1,'Models::StreamModelCache']]],
   ['rotation_91',['Rotation',['../class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea7b898285d73d05438e9ec5f8a9d515d4',1,'CoreAnimation::CurveType']]],
   ['rotationrandomize_92',['RotationRandomize',['../class_particles_1_1_emitter_attrs.html#a391c5f114f86346f0684d1c13c5ae9eaa6c1c0088691ca7ef9adf74a0ea37ab4f',1,'Particles::EmitterAttrs']]],
   ['rotationvelocity_93',['RotationVelocity',['../class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9a163f397de849e2184cfe6b8933234fbb',1,'Particles::EmitterAttrs']]],
   ['runjob_94',['RunJob',['../class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fabf80001318950ccce53e02f62880fff2',1,'Jobs::JobThread']]],
   ['running_95',['Running',['../class_linux_1_1_linux_thread.html#a0d16f5dbd84f062a814785d8ec274b6fa8dbd676037e1c3218b3ebc429d4258c5',1,'Linux::LinuxThread::Running()'],['../class_o_s_x_1_1_o_s_x_thread.html#ab53eb19b42853ef22d46f64ecd3e11d7a349312712568f88b5887cf3f902ef7cb',1,'OSX::OSXThread::Running()']]],
-  ['runtime_96',['Runtime',['../class_particles_1_1_particle_context.html#ad7f91810ae401a556d163e46d9ec212ca67a08f1a1a334408e504c01ab14c8be6',1,'Particles::ParticleContext']]]
+  ['runtime_96',['Runtime',['../class_particles_1_1_particle_context.html#a3bcc76d7b666c2d077e57fea941b3e58a67a08f1a1a334408e504c01ab14c8be6',1,'Particles::ParticleContext']]]
 ];

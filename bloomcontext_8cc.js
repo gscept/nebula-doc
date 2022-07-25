@@ -4,7 +4,7 @@ var bloomcontext_8cc =
     [ "bloomBuffer", "bloomcontext_8cc.html#a14758b57d90b19201ba1a9662eb7f826", null ],
     [ "bloomBufferView", "bloomcontext_8cc.html#ae9b40c8ef068a7bc31d298423ddb89e2", null ],
     [ "bloomPass", "bloomcontext_8cc.html#a15249df4ea15018c68d5da24d3277f63", null ],
-    [ "bloomState", "bloomcontext_8cc.html#a69f1cd3eb71b31a363e20bfa86a6669d", null ],
+    [ "bloomState", "bloomcontext_8cc.html#a603b6c2960cdac84878459ca42420f21", null ],
     [ "blurImageXSlot", "bloomcontext_8cc.html#ac2346409093becabfcc47cc265d5e3fe", null ],
     [ "blurImageYSlot", "bloomcontext_8cc.html#af4fa0db96010e854231ca729e2fd1294", null ],
     [ "blurredBloom", "bloomcontext_8cc.html#a7691be9defa10aead903173512604bf3", null ],

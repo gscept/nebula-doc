@@ -175,17 +175,17 @@ $(document).ready(function(){initNavTree('types_8h_source.html',''); initResizab
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">class</span> FLAGS, <span class="keyword">class</span> BITS&gt;</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">  109</a></span><a class="code hl_function" href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">AllBits</a>(<span class="keyword">const</span> FLAGS flags, <span class="keyword">const</span> BITS bits)</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">  109</a></span><a class="code hl_function" href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">AllBits</a>(<span class="keyword">const</span> FLAGS flags, <span class="keyword">const</span> BITS <a class="code hl_variable" href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">bits</a>)</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>{</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">return</span> (flags &amp; bits) == bits;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">return</span> (flags &amp; <a class="code hl_variable" href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">bits</a>) == <a class="code hl_variable" href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">bits</a>;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>}</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">class</span> FLAGS, <span class="keyword">class</span> BITS&gt;</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">  120</a></span><a class="code hl_function" href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">AnyBits</a>(<span class="keyword">const</span> FLAGS flags, <span class="keyword">const</span> BITS bits)</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">  120</a></span><a class="code hl_function" href="types_8h.html#a805e0e55585e7fd25eae21f3786987e1">AnyBits</a>(<span class="keyword">const</span> FLAGS flags, <span class="keyword">const</span> BITS <a class="code hl_variable" href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">bits</a>)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>{</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> (flags &amp; bits) != 0;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> (flags &amp; <a class="code hl_variable" href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">bits</a>) != 0;</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="comment">// byte bit calc</span></div>
@@ -231,6 +231,7 @@ $(document).ready(function(){initNavTree('types_8h_source.html',''); initResizab
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="types_8h.html#a62b54e124b46a5c16f602209a2f3892b">  165</a></span><span class="preprocessor">#define NEBULA_ALIGN16 alignas(16)</span></div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html"><div class="ttname"><a href="foundation_2memory_2memory_8h.html">memory.h</a></div><div class="ttdoc">Implements a memory related functions.</div></div>
+<div class="ttc" id="anamespace_graphics_html_aeb2692e7c64090fb027ce662c28ae035"><div class="ttname"><a href="namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035">Graphics::bits</a></div><div class="ttdeci">int bits</div><div class="ttdef"><b>Definition:</b> globalconstants.cc:29</div></div>
 <div class="ttc" id="atypes_8h_html_a21bb4e90f82876f231b432e8ed120286"><div class="ttname"><a href="types_8h.html#a21bb4e90f82876f231b432e8ed120286">AllBits</a></div><div class="ttdeci">constexpr bool AllBits(const FLAGS flags, const BITS bits)</div><div class="ttdoc">Check if all bits are set in flags.</div><div class="ttdef"><b>Definition:</b> types.h:109</div></div>
 <div class="ttc" id="atypes_8h_html_a27da1e5a3e1b2fa04f886780221f43db"><div class="ttname"><a href="types_8h.html#a27da1e5a3e1b2fa04f886780221f43db">UnsetBits</a></div><div class="ttdeci">constexpr MASK UnsetBits(const MASK mask, const BITS bit)</div><div class="ttdef"><b>Definition:</b> types.h:93</div></div>
 <div class="ttc" id="atypes_8h_html_a33a5e996e7a90acefb8b1c0bea47e365"><div class="ttname"><a href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition:</b> types.h:42</div></div>
@@ -264,7 +265,7 @@ $(document).ready(function(){initNavTree('types_8h_source.html',''); initResizab
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="types_8h.html">types.h</a></li>
 				<li class="footer">
-					Generated on Thu Jul 21 2022 18:50:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 25 2022 23:48:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
