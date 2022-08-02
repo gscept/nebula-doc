@@ -1,5 +1,13 @@
 var NAVTREEINDEX123 =
 {
+"struct_core_graphics_1_1_event_id.html":[9,0,11,31],
+"struct_core_graphics_1_1_event_id.html":[8,0,13,31],
+"struct_core_graphics_1_1_fence_create_info.html":[9,0,11,32],
+"struct_core_graphics_1_1_fence_create_info.html":[8,0,13,32],
+"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[9,0,11,32,0],
+"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[8,0,13,32,0],
+"struct_core_graphics_1_1_fence_id.html":[9,0,11,33],
+"struct_core_graphics_1_1_fence_id.html":[8,0,13,33],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[9,0,11,0,0],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[8,0,13,0,0],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[9,0,11,0,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_memory_pool.html#a96e12453a32717e15bb2d7c2846aa903":[8,0,13,48,6],
 "struct_core_graphics_1_1_memory_pool.html#a96e12453a32717e15bb2d7c2846aa903":[9,0,11,48,6],
 "struct_core_graphics_1_1_memory_pool.html#aae7a5dd4b636bad4c6a5eb538a880bf0":[9,0,11,48,17],
-"struct_core_graphics_1_1_memory_pool.html#aae7a5dd4b636bad4c6a5eb538a880bf0":[8,0,13,48,17],
-"struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc":[8,0,13,48,7],
-"struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc":[9,0,11,48,7],
-"struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[9,0,11,48,11],
-"struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[8,0,13,48,11],
-"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[8,0,13,48,1],
-"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[9,0,11,48,1],
-"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[8,0,13,48,16],
-"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[9,0,11,48,16]
+"struct_core_graphics_1_1_memory_pool.html#aae7a5dd4b636bad4c6a5eb538a880bf0":[8,0,13,48,17]
 };

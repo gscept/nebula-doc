@@ -1,5 +1,13 @@
 var NAVTREEINDEX121 =
 {
+"struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[8,0,6,8,0,2],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[9,0,5,8,0,2],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[9,0,5,8,0,0],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[8,0,6,8,0,0],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[9,0,5,8,0,1],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[8,0,6,8,0,1],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a7f8857e2d0396f5c4643c07c897c6fb3":[9,0,5,8,0,3],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a7f8857e2d0396f5c4643c07c897c6fb3":[8,0,6,8,0,3],
 "struct_base_1_1_mouse_base_1_1_button_state.html#ab14889d561e4a4f4f08f6c0d0663a2d3":[9,0,5,8,0,4],
 "struct_base_1_1_mouse_base_1_1_button_state.html#ab14889d561e4a4f4f08f6c0d0663a2d3":[8,0,6,8,0,4],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html":[8,0,8,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX121 =
 "struct_core_animation_1_1_nax3_clip.html#a58008028f51fe91cd9f2fe29130acdc3":[9,0,10,16,4],
 "struct_core_animation_1_1_nax3_clip.html#a58008028f51fe91cd9f2fe29130acdc3":[8,0,12,16,4],
 "struct_core_animation_1_1_nax3_clip.html#a7c64881d0ff761b70599f038e933fed9":[9,0,10,16,5],
-"struct_core_animation_1_1_nax3_clip.html#a7c64881d0ff761b70599f038e933fed9":[8,0,12,16,5],
-"struct_core_animation_1_1_nax3_clip.html#a9ba4308a9c9843b4a9b4a06a29ec7ad4":[9,0,10,16,0],
-"struct_core_animation_1_1_nax3_clip.html#a9ba4308a9c9843b4a9b4a06a29ec7ad4":[8,0,12,16,0],
-"struct_core_animation_1_1_nax3_clip.html#a9e1da1cf47f5c5bd5143a96304a2c1c5":[9,0,10,16,1],
-"struct_core_animation_1_1_nax3_clip.html#a9e1da1cf47f5c5bd5143a96304a2c1c5":[8,0,12,16,1],
-"struct_core_animation_1_1_nax3_clip.html#abf97a3bd116583e38ddbba8cdf5d3a9e":[8,0,12,16,8],
-"struct_core_animation_1_1_nax3_clip.html#abf97a3bd116583e38ddbba8cdf5d3a9e":[9,0,10,16,8],
-"struct_core_animation_1_1_nax3_clip.html#ae71156b32e922cd5e8eee9f850c88444":[9,0,10,16,2],
-"struct_core_animation_1_1_nax3_clip.html#ae71156b32e922cd5e8eee9f850c88444":[8,0,12,16,2]
+"struct_core_animation_1_1_nax3_clip.html#a7c64881d0ff761b70599f038e933fed9":[8,0,12,16,5]
 };

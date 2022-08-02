@@ -1,5 +1,13 @@
 var NAVTREEINDEX129 =
 {
+"struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html":[9,0,24,0,0,1],
+"struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html#a49044beb27ed84d4f53ef13e5d484aaa":[8,0,27,0,0,1,0],
+"struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html#a49044beb27ed84d4f53ef13e5d484aaa":[9,0,24,0,0,1,0],
+"struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html#a598bd539bb4067dc65b13b3fcfc6723a":[9,0,24,0,0,1,1],
+"struct_gltf_1_1_accessor_1_1_sparse_1_1_values.html#a598bd539bb4067dc65b13b3fcfc6723a":[8,0,27,0,0,1,1],
+"struct_gltf_1_1_animation.html":[9,0,24,1],
+"struct_gltf_1_1_animation.html":[8,0,27,1],
+"struct_gltf_1_1_animation.html#a194516795147289e7f5fd2d8dc5fc243":[9,0,24,1,3],
 "struct_gltf_1_1_animation.html#a194516795147289e7f5fd2d8dc5fc243":[8,0,27,1,3],
 "struct_gltf_1_1_animation.html#a41f523cd24ed531840673afab7eaf895":[9,0,24,1,2],
 "struct_gltf_1_1_animation.html#a41f523cd24ed531840673afab7eaf895":[8,0,27,1,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX129 =
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#af6bf7be49f76228e922f34ded9752e89":[8,0,27,9,2,1],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#afe8424bcb981fe2749963585fc9289e4":[8,0,27,9,2,4],
 "struct_gltf_1_1_material_1_1_p_b_r_metallic_roughness.html#afe8424bcb981fe2749963585fc9289e4":[9,0,24,9,2,4],
-"struct_gltf_1_1_material_1_1_texture.html":[9,0,24,9,3],
-"struct_gltf_1_1_material_1_1_texture.html":[8,0,27,9,3],
-"struct_gltf_1_1_material_1_1_texture.html#aa97d2b5019f1ab4d1a611698e148fba2":[8,0,27,9,3,1],
-"struct_gltf_1_1_material_1_1_texture.html#aa97d2b5019f1ab4d1a611698e148fba2":[9,0,24,9,3,1],
-"struct_gltf_1_1_material_1_1_texture.html#aa9b0be7ce050c57e12a8854fd3499cee":[8,0,27,9,3,2],
-"struct_gltf_1_1_material_1_1_texture.html#aa9b0be7ce050c57e12a8854fd3499cee":[9,0,24,9,3,2],
-"struct_gltf_1_1_material_1_1_texture.html#aff81d19655f8075373f3d1686ecfc43e":[8,0,27,9,3,0],
-"struct_gltf_1_1_material_1_1_texture.html#aff81d19655f8075373f3d1686ecfc43e":[9,0,24,9,3,0],
-"struct_gltf_1_1_mesh.html":[8,0,27,10]
+"struct_gltf_1_1_material_1_1_texture.html":[9,0,24,9,3]
 };

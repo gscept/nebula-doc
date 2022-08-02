@@ -1,5 +1,13 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc":[8,0,13,48,7],
+"struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc":[9,0,11,48,7],
+"struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[9,0,11,48,11],
+"struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c":[8,0,13,48,11],
+"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[8,0,13,48,1],
+"struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0":[9,0,11,48,1],
+"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[8,0,13,48,16],
+"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[9,0,11,48,16],
 "struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[9,0,11,48,2],
 "struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[8,0,13,48,2],
 "struct_core_graphics_1_1_memory_pool.html#af23391a724c68da228bb283524ebac9f":[9,0,11,48,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html#ab71a9f95e2ebf17c9cbca05ea99f7f5b":[8,0,13,77,3],
 "struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html#ab71a9f95e2ebf17c9cbca05ea99f7f5b":[9,0,11,77,3],
 "struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html#afcc7f6734cde7f009d3392d8ccfb631f":[9,0,11,77,1],
-"struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html#afcc7f6734cde7f009d3392d8ccfb631f":[8,0,13,77,1],
-"struct_core_graphics_1_1_resource_table_layout_texture.html":[8,0,13,78],
-"struct_core_graphics_1_1_resource_table_layout_texture.html":[9,0,11,78],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a05815d7d0c255fbff28e57fbe43757a9":[8,0,13,78,0],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a05815d7d0c255fbff28e57fbe43757a9":[9,0,11,78,0],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a06cfdc5f07a6f5b85c664152b0191539":[9,0,11,78,2],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a06cfdc5f07a6f5b85c664152b0191539":[8,0,13,78,2],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a1e8ac5d03823bb8d8a828efd41b33d57":[9,0,11,78,3],
-"struct_core_graphics_1_1_resource_table_layout_texture.html#a1e8ac5d03823bb8d8a828efd41b33d57":[8,0,13,78,3]
+"struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html#afcc7f6734cde7f009d3392d8ccfb631f":[8,0,13,77,1]
 };

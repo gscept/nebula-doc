@@ -1,5 +1,13 @@
 var NAVTREEINDEX126 =
 {
+"struct_core_graphics_1_1_texture_dimensions.html":[9,0,11,101],
+"struct_core_graphics_1_1_texture_dimensions.html":[8,0,13,101],
+"struct_core_graphics_1_1_texture_dimensions.html#a0904e5ff3ce1b54c10353e2c204c1714":[9,0,11,101,2],
+"struct_core_graphics_1_1_texture_dimensions.html#a0904e5ff3ce1b54c10353e2c204c1714":[8,0,13,101,2],
+"struct_core_graphics_1_1_texture_dimensions.html#a4e1715835da05ff3fac0f0e79cdc689b":[9,0,11,101,1],
+"struct_core_graphics_1_1_texture_dimensions.html#a4e1715835da05ff3fac0f0e79cdc689b":[8,0,13,101,1],
+"struct_core_graphics_1_1_texture_dimensions.html#acf995a7306fd5727e51ddf573da258dc":[9,0,11,101,0],
+"struct_core_graphics_1_1_texture_dimensions.html#acf995a7306fd5727e51ddf573da258dc":[8,0,13,101,0],
 "struct_core_graphics_1_1_texture_id.html":[8,0,13,102],
 "struct_core_graphics_1_1_texture_id.html":[9,0,11,102],
 "struct_core_graphics_1_1_texture_map_info.html":[8,0,13,103],
@@ -241,13 +249,5 @@ var NAVTREEINDEX126 =
 "struct_frame_1_1_frame_code_1_1_compiled_impl.html#af63b3bca411bb8c80493604b08952055":[8,0,23,3,0,1],
 "struct_frame_1_1_frame_compute_1_1_compiled_impl.html":[9,0,20,4,0],
 "struct_frame_1_1_frame_compute_1_1_compiled_impl.html":[8,0,23,4,0],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a04e0d87823c8debdd39619d306ed792e":[9,0,20,4,0,5],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a04e0d87823c8debdd39619d306ed792e":[8,0,23,4,0,5],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a24746b1f0d553ced4da055c9306c0ff3":[8,0,23,4,0,0],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a24746b1f0d553ced4da055c9306c0ff3":[9,0,20,4,0,0],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a4052f4c2a2cb5dd2431dda84a83311a8":[8,0,23,4,0,1],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a4052f4c2a2cb5dd2431dda84a83311a8":[9,0,20,4,0,1],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a7175650c0ecb8c6dbc1f7253317c2e25":[8,0,23,4,0,4],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a7175650c0ecb8c6dbc1f7253317c2e25":[9,0,20,4,0,4],
-"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a75a5f1096e00464e4e5c55a8229c4691":[8,0,23,4,0,3]
+"struct_frame_1_1_frame_compute_1_1_compiled_impl.html#a04e0d87823c8debdd39619d306ed792e":[9,0,20,4,0,5]
 };

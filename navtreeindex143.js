@@ -1,5 +1,13 @@
 var NAVTREEINDEX143 =
 {
+"struct_vulkan_1_1_graphics_device_thread_state.html#addd7551bb70056c55e16ef8ad55442e4":[9,0,64,2,8],
+"struct_vulkan_1_1_graphics_device_thread_state.html#addd7551bb70056c55e16ef8ad55442e4":[8,0,74,2,8],
+"struct_vulkan_1_1_graphics_device_thread_state.html#adfbddc621f8137a11fe4fe49e50648a5":[9,0,64,2,4],
+"struct_vulkan_1_1_graphics_device_thread_state.html#adfbddc621f8137a11fe4fe49e50648a5":[8,0,74,2,4],
+"struct_vulkan_1_1_graphics_device_thread_state.html#af9b1e12be7ed58db87114e9e69f05bdb":[9,0,64,2,12],
+"struct_vulkan_1_1_graphics_device_thread_state.html#af9b1e12be7ed58db87114e9e69f05bdb":[8,0,74,2,12],
+"struct_vulkan_1_1_query_bundle.html":[9,0,64,3],
+"struct_vulkan_1_1_query_bundle.html":[8,0,74,3],
 "struct_vulkan_1_1_query_bundle.html#a4793766507c0b7f1a5d3a32900fbce4a":[9,0,64,3,1],
 "struct_vulkan_1_1_query_bundle.html#a4793766507c0b7f1a5d3a32900fbce4a":[8,0,74,3,1],
 "struct_vulkan_1_1_query_bundle.html#adaba2fe10b76029e4c9af43d39faa6ed":[8,0,74,3,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX143 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html":[9,0,64,11,16],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html":[8,0,74,11,16],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#a8bb370c43a1aecaea2bd81d723aba922":[9,0,64,11,16,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#a8bb370c43a1aecaea2bd81d723aba922":[8,0,74,11,16,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#a9798f39007689ec51ea6a0c54064abe9":[8,0,74,11,16,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#a9798f39007689ec51ea6a0c54064abe9":[9,0,64,11,16,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#ac1eeeda760d8ae8ec5b36cead7b80480":[8,0,74,11,16,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#ac1eeeda760d8ae8ec5b36cead7b80480":[9,0,64,11,16,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html":[8,0,74,11,17],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html":[9,0,64,11,17],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#a20680f48150f860cc0600830a8fb1035":[8,0,74,11,17,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#a20680f48150f860cc0600830a8fb1035":[9,0,64,11,17,0]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_insert_marker_command.html#a8bb370c43a1aecaea2bd81d723aba922":[8,0,74,11,16,1]
 };
