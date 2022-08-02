@@ -145,18 +145,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e4ddf295da293064c616fb4b6ca73c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a1e4ddf295da293064c616fb4b6ca73c3">DiscardStage</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt; &amp;stage)</td></tr>
 <tr class="memdesc:a1e4ddf295da293064c616fb4b6ca73c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard stage  <a href="class_graphics_1_1_graphics_server.html#a1e4ddf295da293064c616fb4b6ca73c3">More...</a><br /></td></tr>
 <tr class="separator:a1e4ddf295da293064c616fb4b6ca73c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e0fea314e72961a0d530e9ee6d68c23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a2e0fea314e72961a0d530e9ee6d68c23">BeginFrame</a> ()</td></tr>
-<tr class="memdesc:a2e0fea314e72961a0d530e9ee6d68c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cycles a new frame and waits for the previous execution of the frame id.  <a href="class_graphics_1_1_graphics_server.html#a2e0fea314e72961a0d530e9ee6d68c23">More...</a><br /></td></tr>
-<tr class="separator:a2e0fea314e72961a0d530e9ee6d68c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8343222d68c239794cce1d844861ada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#ad8343222d68c239794cce1d844861ada">BeforeViews</a> ()</td></tr>
-<tr class="memdesc:ad8343222d68c239794cce1d844861ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run updates not related to views.  <a href="class_graphics_1_1_graphics_server.html#ad8343222d68c239794cce1d844861ada">More...</a><br /></td></tr>
-<tr class="separator:ad8343222d68c239794cce1d844861ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137c9172cb17a7167be201b5f9d2853b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a137c9172cb17a7167be201b5f9d2853b">RenderViews</a> ()</td></tr>
-<tr class="memdesc:a137c9172cb17a7167be201b5f9d2853b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Goes through each view and executes their framescript.  <a href="class_graphics_1_1_graphics_server.html#a137c9172cb17a7167be201b5f9d2853b">More...</a><br /></td></tr>
-<tr class="separator:a137c9172cb17a7167be201b5f9d2853b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb43d56aeaa5dc75378389d6fd9bc2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a6cb43d56aeaa5dc75378389d6fd9bc2c">EndViews</a> ()</td></tr>
-<tr class="memdesc:a6cb43d56aeaa5dc75378389d6fd9bc2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish up the view rendering.  <a href="class_graphics_1_1_graphics_server.html#a6cb43d56aeaa5dc75378389d6fd9bc2c">More...</a><br /></td></tr>
-<tr class="separator:a6cb43d56aeaa5dc75378389d6fd9bc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82561c1e3d28030354d145e860b41212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a82561c1e3d28030354d145e860b41212">SetupPreLogicCalls</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memdesc:a82561c1e3d28030354d145e860b41212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup pre game logic graphics calls.  <a href="class_graphics_1_1_graphics_server.html#a82561c1e3d28030354d145e860b41212">More...</a><br /></td></tr>
+<tr class="separator:a82561c1e3d28030354d145e860b41212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a9d9a2dd4e1224d38f6378b9240bf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a18a9d9a2dd4e1224d38f6378b9240bf2">SetupPostLogicCalls</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memdesc:a18a9d9a2dd4e1224d38f6378b9240bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup post game logic graphics calls.  <a href="class_graphics_1_1_graphics_server.html#a18a9d9a2dd4e1224d38f6378b9240bf2">More...</a><br /></td></tr>
+<tr class="separator:a18a9d9a2dd4e1224d38f6378b9240bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4ee1d9e058aafb72b02bda94e890fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a9d4ee1d9e058aafb72b02bda94e890fc">SetupPreLogicViewCalls</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memdesc:a9d4ee1d9e058aafb72b02bda94e890fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup per-view calls.  <a href="class_graphics_1_1_graphics_server.html#a9d4ee1d9e058aafb72b02bda94e890fc">More...</a><br /></td></tr>
+<tr class="separator:a9d4ee1d9e058aafb72b02bda94e890fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5758a01badd86a8817a135dd9dc9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#abb5758a01badd86a8817a135dd9dc9eb">SetupPostLogicViewCalls</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memdesc:abb5758a01badd86a8817a135dd9dc9eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup per-view calls.  <a href="class_graphics_1_1_graphics_server.html#abb5758a01badd86a8817a135dd9dc9eb">More...</a><br /></td></tr>
+<tr class="separator:abb5758a01badd86a8817a135dd9dc9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accff918b4e8f3222833da75787e1cc94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#accff918b4e8f3222833da75787e1cc94">RunPreLogic</a> ()</td></tr>
+<tr class="memdesc:accff918b4e8f3222833da75787e1cc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run pre-logic calls.  <a href="class_graphics_1_1_graphics_server.html#accff918b4e8f3222833da75787e1cc94">More...</a><br /></td></tr>
+<tr class="separator:accff918b4e8f3222833da75787e1cc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1980ce1772b3b573be8251afa6e58a7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a1980ce1772b3b573be8251afa6e58a7f">RunPostLogic</a> ()</td></tr>
+<tr class="memdesc:a1980ce1772b3b573be8251afa6e58a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run post-logic calls.  <a href="class_graphics_1_1_graphics_server.html#a1980ce1772b3b573be8251afa6e58a7f">More...</a><br /></td></tr>
+<tr class="separator:a1980ce1772b3b573be8251afa6e58a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1714d451be39e927d31a3a8e0a7646f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a1714d451be39e927d31a3a8e0a7646f6">Render</a> ()</td></tr>
+<tr class="memdesc:a1714d451be39e927d31a3a8e0a7646f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render views.  <a href="class_graphics_1_1_graphics_server.html#a1714d451be39e927d31a3a8e0a7646f6">More...</a><br /></td></tr>
+<tr class="separator:a1714d451be39e927d31a3a8e0a7646f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad610af44d3bbe14dd1a45aba09738771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#ad610af44d3bbe14dd1a45aba09738771">EndFrame</a> ()</td></tr>
 <tr class="memdesc:ad610af44d3bbe14dd1a45aba09738771"><td class="mdescLeft">&#160;</td><td class="mdescRight">End the frame and submit.  <a href="class_graphics_1_1_graphics_server.html#ad610af44d3bbe14dd1a45aba09738771">More...</a><br /></td></tr>
 <tr class="separator:ad610af44d3bbe14dd1a45aba09738771"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,6 +272,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac40c55319b31fc4f5861a3fff82e9078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac20b89efc8fa2b85bc660ac83cb27c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_frame_1_1_frame_server.html">Frame::FrameServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#aac20b89efc8fa2b85bc660ac83cb27c0">frameServer</a></td></tr>
 <tr class="separator:aac20b89efc8fa2b85bc660ac83cb27c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac193c3c50f33dcea85e8267754186ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#ac193c3c50f33dcea85e8267754186ad7">preLogicCalls</a></td></tr>
+<tr class="separator:ac193c3c50f33dcea85e8267754186ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed675dced932996b6acf553b91107224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#aed675dced932996b6acf553b91107224">postLogicCalls</a></td></tr>
+<tr class="separator:aed675dced932996b6acf553b91107224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334756b185eafe5d41a50cb4e8a150fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a334756b185eafe5d41a50cb4e8a150fa">preLogicViewCalls</a></td></tr>
+<tr class="separator:a334756b185eafe5d41a50cb4e8a150fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798b49f3f95a93f58bff1b89ef96b56e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a798b49f3f95a93f58bff1b89ef96b56e">postLogicViewCalls</a></td></tr>
+<tr class="separator:a798b49f3f95a93f58bff1b89ef96b56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9369bbc0a22adbd112fedda3990e8878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_1_1_graphics_server.html#a9369bbc0a22adbd112fedda3990e8878">isOpen</a></td></tr>
 <tr class="separator:a9369bbc0a22adbd112fedda3990e8878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -379,44 +396,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad8343222d68c239794cce1d844861ada" name="ad8343222d68c239794cce1d844861ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8343222d68c239794cce1d844861ada">&#9670;&nbsp;</a></span>BeforeViews()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Graphics::GraphicsServer::BeforeViews </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Run updates not related to views. </p>
-
-</div>
-</div>
-<a id="a2e0fea314e72961a0d530e9ee6d68c23" name="a2e0fea314e72961a0d530e9ee6d68c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e0fea314e72961a0d530e9ee6d68c23">&#9670;&nbsp;</a></span>BeginFrame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Graphics::GraphicsServer::BeginFrame </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cycles a new frame and waits for the previous execution of the frame id. </p>
 
 </div>
 </div>
@@ -614,25 +593,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>End the frame and submit. </p>
-
-</div>
-</div>
-<a id="a6cb43d56aeaa5dc75378389d6fd9bc2c" name="a6cb43d56aeaa5dc75378389d6fd9bc2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cb43d56aeaa5dc75378389d6fd9bc2c">&#9670;&nbsp;</a></span>EndViews()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Graphics::GraphicsServer::EndViews </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finish up the view rendering. </p>
 
 </div>
 </div>
@@ -852,6 +812,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1714d451be39e927d31a3a8e0a7646f6" name="a1714d451be39e927d31a3a8e0a7646f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1714d451be39e927d31a3a8e0a7646f6">&#9670;&nbsp;</a></span>Render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::Render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Render views. </p>
+
+</div>
+</div>
 <a id="ac242a3fc72dc324589c73424b179ea08" name="ac242a3fc72dc324589c73424b179ea08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac242a3fc72dc324589c73424b179ea08">&#9670;&nbsp;</a></span>RenderDebug()</h2>
 
@@ -872,14 +851,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a137c9172cb17a7167be201b5f9d2853b" name="a137c9172cb17a7167be201b5f9d2853b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a137c9172cb17a7167be201b5f9d2853b">&#9670;&nbsp;</a></span>RenderViews()</h2>
+<a id="a1980ce1772b3b573be8251afa6e58a7f" name="a1980ce1772b3b573be8251afa6e58a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1980ce1772b3b573be8251afa6e58a7f">&#9670;&nbsp;</a></span>RunPostLogic()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Graphics::GraphicsServer::RenderViews </td>
+          <td class="memname">void Graphics::GraphicsServer::RunPostLogic </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -887,7 +866,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Goes through each view and executes their framescript. </p>
+<p>Run post-logic calls. </p>
+
+</div>
+</div>
+<a id="accff918b4e8f3222833da75787e1cc94" name="accff918b4e8f3222833da75787e1cc94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accff918b4e8f3222833da75787e1cc94">&#9670;&nbsp;</a></span>RunPreLogic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::RunPreLogic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Run pre-logic calls. </p>
 
 </div>
 </div>
@@ -908,6 +906,118 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set current view (do not use unless you know what you are doing since this is normally handled by the graphicssserver) </p>
+
+</div>
+</div>
+<a id="a18a9d9a2dd4e1224d38f6378b9240bf2" name="a18a9d9a2dd4e1224d38f6378b9240bf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a9d9a2dd4e1224d38f6378b9240bf2">&#9670;&nbsp;</a></span>SetupPostLogicCalls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::SetupPostLogicCalls </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>calls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup post game logic graphics calls. </p>
+
+</div>
+</div>
+<a id="abb5758a01badd86a8817a135dd9dc9eb" name="abb5758a01badd86a8817a135dd9dc9eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5758a01badd86a8817a135dd9dc9eb">&#9670;&nbsp;</a></span>SetupPostLogicViewCalls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::SetupPostLogicViewCalls </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>calls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup per-view calls. </p>
+
+</div>
+</div>
+<a id="a82561c1e3d28030354d145e860b41212" name="a82561c1e3d28030354d145e860b41212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82561c1e3d28030354d145e860b41212">&#9670;&nbsp;</a></span>SetupPreLogicCalls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::SetupPreLogicCalls </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>calls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup pre game logic graphics calls. </p>
+
+</div>
+</div>
+<a id="a9d4ee1d9e058aafb72b02bda94e890fc" name="a9d4ee1d9e058aafb72b02bda94e890fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4ee1d9e058aafb72b02bda94e890fc">&#9670;&nbsp;</a></span>SetupPreLogicViewCalls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::GraphicsServer::SetupPreLogicViewCalls </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>calls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup per-view calls. </p>
 
 </div>
 </div>
@@ -1175,6 +1285,94 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aed675dced932996b6acf553b91107224" name="aed675dced932996b6acf553b91107224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed675dced932996b6acf553b91107224">&#9670;&nbsp;</a></span>postLogicCalls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a>&gt; Graphics::GraphicsServer::postLogicCalls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a798b49f3f95a93f58bff1b89ef96b56e" name="a798b49f3f95a93f58bff1b89ef96b56e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798b49f3f95a93f58bff1b89ef96b56e">&#9670;&nbsp;</a></span>postLogicViewCalls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a>&gt; Graphics::GraphicsServer::postLogicViewCalls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac193c3c50f33dcea85e8267754186ad7" name="ac193c3c50f33dcea85e8267754186ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac193c3c50f33dcea85e8267754186ad7">&#9670;&nbsp;</a></span>preLogicCalls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a>&gt; Graphics::GraphicsServer::preLogicCalls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a334756b185eafe5d41a50cb4e8a150fa" name="a334756b185eafe5d41a50cb4e8a150fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334756b185eafe5d41a50cb4e8a150fa">&#9670;&nbsp;</a></span>preLogicViewCalls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a>&gt; Graphics::GraphicsServer::preLogicViewCalls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8505372bce399a9401a9631d19e6d8af" name="a8505372bce399a9401a9631d19e6d8af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8505372bce399a9401a9631d19e6d8af">&#9670;&nbsp;</a></span>shaderServer</h2>
 
@@ -1340,7 +1538,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_graphics_1_1_graphics_server.html">GraphicsServer</a></li>
 				<li class="footer">
-					Generated on Tue Aug 2 2022 10:17:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Aug 2 2022 10:48:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

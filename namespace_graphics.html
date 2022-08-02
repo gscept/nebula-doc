@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('namespace_graphics.html',''); initResi
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Graphics Namespace Reference</div></div>
@@ -141,27 +140,10 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:af1b24cb04cf0a3f0739b066dd7050e9e"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#af1b24cb04cf0a3f0739b066dd7050e9e">BindlessIndex</a></td></tr>
 <tr class="separator:af1b24cb04cf0a3f0739b066dd7050e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ac37d1d933a1897e5a04c0cef8816f4d8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8">StageBits</a> { <br />
-&#160;&#160;<a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80">NoStage</a> = 1 &lt;&lt; 0
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a9c13b79e93eae4431ba9220cacaf48a8">OnBeginStage</a> = 1 &lt;&lt; 1
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8ad7909f137108447db62d8259113de5c6">OnPrepareViewStage</a> = 1 &lt;&lt; 2
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a8a2efaa1afcb61c8011903693a34c495">OnUpdateViewResourcesStage</a> = 1 &lt;&lt; 3
-, <br />
-&#160;&#160;<a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a869a4068eedca20ff4b805af7b94ff07">OnUpdateResourcesStage</a> = 1 &lt;&lt; 4
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a04dc08658ddfe909afa150c66ad2eadc">OnBeforeFrameStage</a> = 1 &lt;&lt; 5
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a5a117984b58c4c62600b32caae8cf723">OnWaitForWorkStage</a> = 1 &lt;&lt; 6
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a389d6d780c9bac8bc74033d665db2598">OnWorkFinishedStage</a> = 1 &lt;&lt; 7
-, <br />
-&#160;&#160;<a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a62b650b1682d2436bcaaac856796ca77">OnBeforeViewStage</a> = 1 &lt;&lt; 8
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a059b27a9f1dc5c27f2d63804b1371f61">OnAfterViewStage</a> = 1 &lt;&lt; 9
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8a36c45e89ff9fe3f9b88244aec24ba427">OnAfterFrameStage</a> = 1 &lt;&lt; 10
-, <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8ab8ad9b93b087fe4d2841b7a13490e92d">AllStages</a> = OnBeginStage | OnPrepareViewStage | OnBeforeFrameStage | OnWaitForWorkStage | OnBeforeViewStage | OnAfterViewStage | OnAfterFrameStage
-<br />
- }</td></tr>
-<tr class="separator:ac37d1d933a1897e5a04c0cef8816f4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab380bf41cea929b5b5e57b9ccbd86e9a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">ViewIndependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="separator:ab380bf41cea929b5b5e57b9ccbd86e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f7b6aa5e45fec43d3b8979cafe91e8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">ViewDependentCall</a> = void(*)(const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a2f7b6aa5e45fec43d3b8979cafe91e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -236,8 +218,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ab364a493dc0bd5d695760308f6de2ef5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#ab364a493dc0bd5d695760308f6de2ef5">GetTickResourceTableCompute</a> (uint32_t bufferIndex)</td></tr>
 <tr class="memdesc:ab364a493dc0bd5d695760308f6de2ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for compute.  <a href="namespace_graphics.html#ab364a493dc0bd5d695760308f6de2ef5">More...</a><br /></td></tr>
 <tr class="separator:ab364a493dc0bd5d695760308f6de2ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a129d53aa58c90a48757ccf145b70cb97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a129d53aa58c90a48757ccf145b70cb97">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8">StageBits</a>)</td></tr>
-<tr class="separator:a129d53aa58c90a48757ccf145b70cb97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25e54000e4b72509be503cc9635b081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#ab25e54000e4b72509be503cc9635b081">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>, 'GFXS', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:ab25e54000e4b72509be503cc9635b081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a591078e2b9fc77c122e1b3e117354302"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics.html#a591078e2b9fc77c122e1b3e117354302">__ImplementSingleton</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>)</td></tr>
@@ -353,32 +333,31 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac37d1d933a1897e5a04c0cef8816f4d8" name="ac37d1d933a1897e5a04c0cef8816f4d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac37d1d933a1897e5a04c0cef8816f4d8">&#9670;&nbsp;</a></span>StageBits</h2>
+<a id="a2f7b6aa5e45fec43d3b8979cafe91e8e" name="a2f7b6aa5e45fec43d3b8979cafe91e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f7b6aa5e45fec43d3b8979cafe91e8e">&#9670;&nbsp;</a></span>ViewDependentCall</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8">Graphics::StageBits</a></td>
+          <td class="memname">using <a class="el" href="namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e">Graphics::ViewDependentCall</a> = typedef void(*)(const <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>&gt;&amp; view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80" name="ac37d1d933a1897e5a04c0cef8816f4d8a7d0d596d14934b54b72b10c79517aa80"></a>NoStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a9c13b79e93eae4431ba9220cacaf48a8" name="ac37d1d933a1897e5a04c0cef8816f4d8a9c13b79e93eae4431ba9220cacaf48a8"></a>OnBeginStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8ad7909f137108447db62d8259113de5c6" name="ac37d1d933a1897e5a04c0cef8816f4d8ad7909f137108447db62d8259113de5c6"></a>OnPrepareViewStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a8a2efaa1afcb61c8011903693a34c495" name="ac37d1d933a1897e5a04c0cef8816f4d8a8a2efaa1afcb61c8011903693a34c495"></a>OnUpdateViewResourcesStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a869a4068eedca20ff4b805af7b94ff07" name="ac37d1d933a1897e5a04c0cef8816f4d8a869a4068eedca20ff4b805af7b94ff07"></a>OnUpdateResourcesStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a04dc08658ddfe909afa150c66ad2eadc" name="ac37d1d933a1897e5a04c0cef8816f4d8a04dc08658ddfe909afa150c66ad2eadc"></a>OnBeforeFrameStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a5a117984b58c4c62600b32caae8cf723" name="ac37d1d933a1897e5a04c0cef8816f4d8a5a117984b58c4c62600b32caae8cf723"></a>OnWaitForWorkStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a389d6d780c9bac8bc74033d665db2598" name="ac37d1d933a1897e5a04c0cef8816f4d8a389d6d780c9bac8bc74033d665db2598"></a>OnWorkFinishedStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a62b650b1682d2436bcaaac856796ca77" name="ac37d1d933a1897e5a04c0cef8816f4d8a62b650b1682d2436bcaaac856796ca77"></a>OnBeforeViewStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a059b27a9f1dc5c27f2d63804b1371f61" name="ac37d1d933a1897e5a04c0cef8816f4d8a059b27a9f1dc5c27f2d63804b1371f61"></a>OnAfterViewStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8a36c45e89ff9fe3f9b88244aec24ba427" name="ac37d1d933a1897e5a04c0cef8816f4d8a36c45e89ff9fe3f9b88244aec24ba427"></a>OnAfterFrameStage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac37d1d933a1897e5a04c0cef8816f4d8ab8ad9b93b087fe4d2841b7a13490e92d" name="ac37d1d933a1897e5a04c0cef8816f4d8ab8ad9b93b087fe4d2841b7a13490e92d"></a>AllStages&#160;</td><td class="fielddoc"></td></tr>
-</table>
+
+</div>
+</div>
+<a id="ab380bf41cea929b5b5e57b9ccbd86e9a" name="ab380bf41cea929b5b5e57b9ccbd86e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab380bf41cea929b5b5e57b9ccbd86e9a">&#9670;&nbsp;</a></span>ViewIndependentCall</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a">Graphics::ViewIndependentCall</a> = typedef void(*)(const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -535,24 +514,6 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a129d53aa58c90a48757ccf145b70cb97" name="a129d53aa58c90a48757ccf145b70cb97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a129d53aa58c90a48757ccf145b70cb97">&#9670;&nbsp;</a></span>__ImplementEnumBitOperators()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Graphics::__ImplementEnumBitOperators </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_graphics.html#ac37d1d933a1897e5a04c0cef8816f4d8">StageBits</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2088,7 +2049,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics.html">Graphics</a></li>
 				<li class="footer">
-					Generated on Tue Aug 2 2022 10:17:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Aug 2 2022 10:48:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

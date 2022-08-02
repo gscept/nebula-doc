@@ -137,12 +137,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a23081620c0509e3cfcb86fed0b74e2a3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3">OnWindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> windowId, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
 <tr class="memdesc:a23081620c0509e3cfcb86fed0b74e2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called if the window size has changed  <a href="class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3">More...</a><br /></td></tr>
 <tr class="separator:a23081620c0509e3cfcb86fed0b74e2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03e855c78d92325f36152a5ba138eb87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_context.html#a03e855c78d92325f36152a5ba138eb87">OnBeforeFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:a03e855c78d92325f36152a5ba138eb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_dynui_1_1_imgui_context.html#a03e855c78d92325f36152a5ba138eb87">More...</a><br /></td></tr>
-<tr class="separator:a03e855c78d92325f36152a5ba138eb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae94b3c78f8247368a547265586f337ce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_context.html#ae94b3c78f8247368a547265586f337ce">OnWorkFinished</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:ae94b3c78f8247368a547265586f337ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_dynui_1_1_imgui_context.html#ae94b3c78f8247368a547265586f337ce">More...</a><br /></td></tr>
-<tr class="separator:ae94b3c78f8247368a547265586f337ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d72dd686573e48093c3d8ec1c9ce173"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_context.html#a7d72dd686573e48093c3d8ec1c9ce173">NewFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a7d72dd686573e48093c3d8ec1c9ce173"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_dynui_1_1_imgui_context.html#a7d72dd686573e48093c3d8ec1c9ce173">More...</a><br /></td></tr>
+<tr class="separator:a7d72dd686573e48093c3d8ec1c9ce173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04bf5e05800aff78a3fa3f558b6b1690"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dynui_1_1_imgui_context.html#a04bf5e05800aff78a3fa3f558b6b1690">Render</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a04bf5e05800aff78a3fa3f558b6b1690"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_dynui_1_1_imgui_context.html#a04bf5e05800aff78a3fa3f558b6b1690">More...</a><br /></td></tr>
+<tr class="separator:a04bf5e05800aff78a3fa3f558b6b1690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -356,8 +356,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a03e855c78d92325f36152a5ba138eb87" name="a03e855c78d92325f36152a5ba138eb87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03e855c78d92325f36152a5ba138eb87">&#9670;&nbsp;</a></span>OnBeforeFrame()</h2>
+<a id="a7d72dd686573e48093c3d8ec1c9ce173" name="a7d72dd686573e48093c3d8ec1c9ce173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d72dd686573e48093c3d8ec1c9ce173">&#9670;&nbsp;</a></span>NewFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +366,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Dynui::ImguiContext::OnBeforeFrame </td>
+          <td class="memname">void Dynui::ImguiContext::NewFrame </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
           <td class="paramname"><em>ctx</em></td><td>)</td>
@@ -428,34 +428,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae94b3c78f8247368a547265586f337ce" name="ae94b3c78f8247368a547265586f337ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94b3c78f8247368a547265586f337ce">&#9670;&nbsp;</a></span>OnWorkFinished()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Dynui::ImguiContext::OnWorkFinished </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>called before frame </p>
-
-</div>
-</div>
 <a id="af90a56be8d9abdd6365499d10c686f9b" name="af90a56be8d9abdd6365499d10c686f9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af90a56be8d9abdd6365499d10c686f9b">&#9670;&nbsp;</a></span>RecoverImGuiContextErrors()</h2>
 
@@ -479,6 +451,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>update imgui and uncomment the commented code below! </dd></dl>
+
+</div>
+</div>
+<a id="a04bf5e05800aff78a3fa3f558b6b1690" name="a04bf5e05800aff78a3fa3f558b6b1690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04bf5e05800aff78a3fa3f558b6b1690">&#9670;&nbsp;</a></span>Render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dynui::ImguiContext::Render </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called before frame </p>
 
 </div>
 </div>
@@ -554,7 +554,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_dynui.html">Dynui</a></li><li class="navelem"><a class="el" href="class_dynui_1_1_imgui_context.html">ImguiContext</a></li>
 				<li class="footer">
-					Generated on Tue Aug 2 2022 10:17:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Aug 2 2022 10:48:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

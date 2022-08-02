@@ -8,10 +8,10 @@ var class_dynui_1_1_imgui_context =
     [ "Discard", "class_dynui_1_1_imgui_context.html#ae28df194270b1c4718829a1c42aa7cd2", null ],
     [ "HandleInput", "class_dynui_1_1_imgui_context.html#ac792ccbe38687117c232e6f6aa5d2db6", null ],
     [ "ImguiDrawFunction", "class_dynui_1_1_imgui_context.html#a98e9ac5c59e5c03be8db7ef268f384cb", null ],
-    [ "OnBeforeFrame", "class_dynui_1_1_imgui_context.html#a03e855c78d92325f36152a5ba138eb87", null ],
+    [ "NewFrame", "class_dynui_1_1_imgui_context.html#a7d72dd686573e48093c3d8ec1c9ce173", null ],
     [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
-    [ "OnWorkFinished", "class_dynui_1_1_imgui_context.html#ae94b3c78f8247368a547265586f337ce", null ],
     [ "RecoverImGuiContextErrors", "class_dynui_1_1_imgui_context.html#af90a56be8d9abdd6365499d10c686f9b", null ],
+    [ "Render", "class_dynui_1_1_imgui_context.html#a04bf5e05800aff78a3fa3f558b6b1690", null ],
     [ "SetRectSize", "class_dynui_1_1_imgui_context.html#aa05aeab643f1f67519ff63f1734e8512", null ],
     [ "state", "class_dynui_1_1_imgui_context.html#ad7b7bf24063d1e7a884de3f0f8142b2e", null ]
 ];

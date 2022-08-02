@@ -142,9 +142,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a457e64442177137b7905ea43a6fb37b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a457e64442177137b7905ea43a6fb37b1">DrawCone</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;modelTransform, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;color, uint32_t renderFlags=<a class="el" href="namespace_im3d.html#ae5197a424390f99b794feb226d67f69ea002f5b6fb94b71fb8231d315944f275e">CheckDepth</a>|<a class="el" href="namespace_im3d.html#ae5197a424390f99b794feb226d67f69ea1e7d168056d8275fa4b0b908a1362ced">Wireframe</a>)</td></tr>
 <tr class="memdesc:a457e64442177137b7905ea43a6fb37b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a cone  <a href="class_im3d_1_1_im3d_context.html#a457e64442177137b7905ea43a6fb37b1">More...</a><br /></td></tr>
 <tr class="separator:a457e64442177137b7905ea43a6fb37b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1718b9835def2cc7962382a395d1de0d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a1718b9835def2cc7962382a395d1de0d">OnBeforeFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:a1718b9835def2cc7962382a395d1de0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a new <a class="el" href="namespace_im3d.html">Im3d</a> frame.  <a href="class_im3d_1_1_im3d_context.html#a1718b9835def2cc7962382a395d1de0d">More...</a><br /></td></tr>
-<tr class="separator:a1718b9835def2cc7962382a395d1de0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c15538359f77afbc4dfcd946ef1cef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a55c15538359f77afbc4dfcd946ef1cef">NewFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a55c15538359f77afbc4dfcd946ef1cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a new <a class="el" href="namespace_im3d.html">Im3d</a> frame.  <a href="class_im3d_1_1_im3d_context.html#a55c15538359f77afbc4dfcd946ef1cef">More...</a><br /></td></tr>
+<tr class="separator:a55c15538359f77afbc4dfcd946ef1cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4748ea2bc43c23adadb6792a3f7690c6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_im3d_1_1_im3d_context.html#a4748ea2bc43c23adadb6792a3f7690c6">OnPrepareView</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a4748ea2bc43c23adadb6792a3f7690c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <a href="class_im3d_1_1_im3d_context.html#a4748ea2bc43c23adadb6792a3f7690c6">More...</a><br /></td></tr>
 <tr class="separator:a4748ea2bc43c23adadb6792a3f7690c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -797,8 +797,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1718b9835def2cc7962382a395d1de0d" name="a1718b9835def2cc7962382a395d1de0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1718b9835def2cc7962382a395d1de0d">&#9670;&nbsp;</a></span>OnBeforeFrame()</h2>
+<a id="a55c15538359f77afbc4dfcd946ef1cef" name="a55c15538359f77afbc4dfcd946ef1cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c15538359f77afbc4dfcd946ef1cef">&#9670;&nbsp;</a></span>NewFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -807,7 +807,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Im3dContext::OnBeforeFrame </td>
+          <td class="memname">void Im3dContext::NewFrame </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;&#160;</td>
           <td class="paramname"><em>ctx</em></td><td>)</td>
@@ -1064,7 +1064,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_im3d.html">Im3d</a></li><li class="navelem"><a class="el" href="class_im3d_1_1_im3d_context.html">Im3dContext</a></li>
 				<li class="footer">
-					Generated on Tue Aug 2 2022 10:17:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Aug 2 2022 10:48:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
