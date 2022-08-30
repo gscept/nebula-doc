@@ -218,7 +218,7 @@ var hierarchy =
     [ "Util::Array< Terrain::IndirectionEntry >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Terrain::PhysicalTileUpdate >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Terrain::TerrainTileUpdateUniforms >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Threading::AtomicCounter >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Threading::AtomicCounter * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Timing::Tick >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Timing::Time >", "class_util_1_1_array.html", null ],
     [ "Util::Array< uint >", "class_util_1_1_array.html", null ],

@@ -13,6 +13,7 @@ var class_graphics_1_1_view =
     [ "Render", "class_graphics_1_1_view.html#ab6c2f2aef78c074626208bb99b17b3be", null ],
     [ "SetCamera", "class_graphics_1_1_view.html#abfd3e47ce771dcb570444094948d4503", null ],
     [ "SetStage", "class_graphics_1_1_view.html#a50500cf4042e1781b57feb0954ed2485", null ],
+    [ "UpdateConstants", "class_graphics_1_1_view.html#ac16aee61ba354bc7fd13ea46be99a0db", null ],
     [ "GraphicsServer", "class_graphics_1_1_view.html#a462e45ddff02aee1ce75131cbd8baa12", null ],
     [ "camera", "class_graphics_1_1_view.html#a4b5bfeda37071171e731676696b7e646", null ],
     [ "enabled", "class_graphics_1_1_view.html#abf43df2f8f5382d171c07b0b734fed43", null ],

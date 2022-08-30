@@ -1,7 +1,5 @@
 var NAVTREEINDEX155 =
 {
-"winmemory_8h.html#a527477862257488319ed410e35988043":[10,0,0,3,13,3,8,4],
-"winmemory_8h.html#a93f89988ee4e0842958f8c0c4210e179":[10,0,0,3,13,3,8,6],
 "winmemory_8h.html#ad3881f3155d64563b618c89b3ea66a14":[10,0,0,3,13,3,8,3],
 "winmemory_8h.html#ad8504a1916282a835f1e16e3912e4c87":[10,0,0,3,13,3,8,0],
 "winmemory_8h_source.html":[10,0,0,3,13,3,8],

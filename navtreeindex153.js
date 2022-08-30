@@ -1,7 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"vkmemorytexturepool_8cc.html#af7f656ea311c15b8b8634cc6c38ebfa7":[10,0,0,6,5,5,26,2],
-"vkpass_8cc.html":[10,0,0,6,5,5,27],
 "vkpass_8cc.html#a0fc5e635b33412838133faa235bd105f":[10,0,0,6,5,5,27,21],
 "vkpass_8cc.html#a1a75605a692f04f5c3f2b1338308e4aa":[10,0,0,6,5,5,27,24],
 "vkpass_8cc.html#a1e83723c42fdf52dfa73814a1d143cde":[10,0,0,6,5,5,27,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX153 =
 "vkvertexsignaturepool_8cc.html#a50fa6ee7acd99bfdd2c0b7038674ca90":[10,0,0,6,5,5,70,0],
 "volumetricfogcontext_8cc.html":[10,0,0,6,8,0],
 "volumetricfogcontext_8cc.html#a0054f7dd5016efa4e33970a03836f750":[10,0,0,6,8,0,3],
-"volumetricfogcontext_8cc.html#a03849d400d04c291daa9443a5bc0ad89":[10,0,0,6,8,0,1]
+"volumetricfogcontext_8cc.html#a03849d400d04c291daa9443a5bc0ad89":[10,0,0,6,8,0,1],
+"volumetricfogcontext_8cc.html#a0817ac657ae13bd15e30a516112edfc2":[10,0,0,6,8,0,26],
+"volumetricfogcontext_8cc.html#a1327d9e404762d00bcadc267347db2fd":[10,0,0,6,8,0,13]
 };

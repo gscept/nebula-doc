@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"shadersemantics_8h.html#a6968c37682e863c4bea99c5d2f2d1256":[10,0,0,6,5,69,50],
-"shadersemantics_8h.html#a6bb06d3ad9eee17350bece8b35091c33":[10,0,0,6,5,69,73],
 "shadersemantics_8h.html#a6d4d674a31e9e3e44bef4fd2a861e35d":[10,0,0,6,5,69,61],
 "shadersemantics_8h.html#a6f141d21903772700b2a0eef0774bcf0":[10,0,0,6,5,69,123],
 "shadersemantics_8h.html#a6f16661fe471723f478e9efab4266bdb":[10,0,0,6,5,69,103],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "ssaocontext_8cc.html#a9d71e37dfb594aa3801da498bbfb8ed7":[10,0,0,6,18,4,35],
 "ssaocontext_8cc.html#aaf8de416423d8139caaf997c5c5b90e3":[10,0,0,6,18,4,44],
 "ssaocontext_8cc.html#ab17f5f549ba5855dc341069a27c61dc2":[10,0,0,6,18,4,27],
-"ssaocontext_8cc.html#ab4ba2ef55482f915b0844abed95d53bc":[10,0,0,6,18,4,48]
+"ssaocontext_8cc.html#ab4ba2ef55482f915b0844abed95d53bc":[10,0,0,6,18,4,48],
+"ssaocontext_8cc.html#ab4cd699ff05e5e8631afeee1d4ad240c":[10,0,0,6,18,4,40],
+"ssaocontext_8cc.html#ab7973248e778277a756be7f2dee66d7b":[10,0,0,6,18,4,57]
 };

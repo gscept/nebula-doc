@@ -1,7 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"vkloader_8cc.html#a6c768e8c856af7358b0626480c2aac22":[10,0,0,6,5,5,20,21],
-"vkloader_8cc.html#a70b8dbba291b141490d76a4ef1ff3ca9":[10,0,0,6,5,5,20,75],
 "vkloader_8cc.html#a7191630cb7fedef285d446c58c969bbe":[10,0,0,6,5,5,20,12],
 "vkloader_8cc.html#a779aeb5987e6f9b1d5cb071ba3ea6204":[10,0,0,6,5,5,20,92],
 "vkloader_8cc.html#a79e90d61dcd355ccdafdfc8a2f5722fc":[10,0,0,6,5,5,20,77],
@@ -249,5 +247,7 @@ var NAVTREEINDEX152 =
 "vkmemorytexturecache_8h_source.html":[10,0,0,6,5,5,25],
 "vkmemorytexturepool_8cc.html":[10,0,0,6,5,5,26],
 "vkmemorytexturepool_8cc.html#a2de630b16ec2c0fdc6fef88395296ac2":[10,0,0,6,5,5,26,1],
-"vkmemorytexturepool_8cc.html#a8d9d7d5a7c899180ba32b3c3ea917c3f":[10,0,0,6,5,5,26,0]
+"vkmemorytexturepool_8cc.html#a8d9d7d5a7c899180ba32b3c3ea917c3f":[10,0,0,6,5,5,26,0],
+"vkmemorytexturepool_8cc.html#af7f656ea311c15b8b8634cc6c38ebfa7":[10,0,0,6,5,5,26,2],
+"vkpass_8cc.html":[10,0,0,6,5,5,27]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX91 =
 {
+"corepagehandler_8h_source.html":[10,0,0,3,1,0,1],
+"coreserver_8cc.html":[10,0,0,3,1,5],
+"coreserver_8cc.html#a0c671025313676e7d965fe0f944f4e20":[10,0,0,3,1,5,0],
+"coreserver_8cc.html#a83e6efed1ef2f44b4dae4779a68db208":[10,0,0,3,1,5,1],
 "coreserver_8h.html":[10,0,0,3,1,6],
 "coreserver_8h_source.html":[10,0,0,3,1,6],
 "cpu_8h.html":[10,0,0,3,17,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX91 =
 "defaulthttprequesthandler_8cc.html":[10,0,0,3,6,5],
 "defaulthttprequesthandler_8cc.html#a6decdd7a5ab6430a150529543b461825":[10,0,0,3,6,5,0],
 "defaulthttprequesthandler_8h.html":[10,0,0,3,6,6],
-"defaulthttprequesthandler_8h.html#a23046db7035a683610cfa4a561161f17":[10,0,0,3,6,6,1],
-"defaulthttprequesthandler_8h_source.html":[10,0,0,3,6,6],
-"delegate_8h.html":[10,0,0,3,20,16],
-"delegate_8h_source.html":[10,0,0,3,20,16],
-"delegatetable_8cc.html":[10,0,0,3,14,6]
+"defaulthttprequesthandler_8h.html#a23046db7035a683610cfa4a561161f17":[10,0,0,3,6,6,1]
 };

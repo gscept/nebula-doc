@@ -35,8 +35,9 @@ var class_models_1_1_model_context =
     [ "WaitForWork", "class_models_1_1_model_context.html#aed47f2b5fb5e5eaedfe4d66783789bdb", null ],
     [ "VisibilityContext", "class_models_1_1_model_context.html#a509a5aab5489f1b0775e002d97e178f5", null ],
     [ "completionEvent", "class_models_1_1_model_context.html#ab98964ed68726e1a4addd432c37d4d85", null ],
-    [ "constantsUpdateCounter", "class_models_1_1_model_context.html#a1f87418566fb062d912d6ade5280d4ed", null ],
+    [ "ConstantsUpdateCounter", "class_models_1_1_model_context.html#ac2a758db912de7842ecf5cad09035903", null ],
     [ "materialInstanceContexts", "class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
-    [ "nodeInstances", "class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b", null ]
+    [ "nodeInstances", "class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b", null ],
+    [ "TransformsUpdateCounter", "class_models_1_1_model_context.html#ad7c60d33aa197cdaa5b5dcd9d3764f26", null ]
 ];

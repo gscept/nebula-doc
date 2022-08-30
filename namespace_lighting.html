@@ -183,14 +183,8 @@ Variables</h2></td></tr>
 <tr class="separator:a78eb2b5dd9f63ff8120566940320adb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7db8e9814fc5709239b53ba33c32e462"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a0b07a12ab4cefc1eb394d5b2d00946b7">Lighting::numThreadsThisFrame</a></td></tr>
 <tr class="separator:a7db8e9814fc5709239b53ba33c32e462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a873e6ffd83ca5e879a072dae4b2b1f03"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::PointLight&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#ad9f69d1dd34daf9e9b9d07180cc6b192">Lighting::pointLights</a> [1024]</td></tr>
-<tr class="separator:a873e6ffd83ca5e879a072dae4b2b1f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ee090f444d5be5e0cbaa63f080d4b31"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::SpotLight&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#ae771ee9820486f488ec41eb9c6c085d8">Lighting::spotLights</a> [1024]</td></tr>
-<tr class="separator:a2ee090f444d5be5e0cbaa63f080d4b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac814d5221d15c9fb9dc918194e78b174"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::SpotLightProjectionExtension&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a1e5e053440fbb2ccdf041145eb004b9a">Lighting::spotLightProjection</a> [256]</td></tr>
-<tr class="separator:ac814d5221d15c9fb9dc918194e78b174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b820e8575b31129c85eb397f37ed894"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::SpotLightShadowExtension&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a55b075b1786e0575e7cb20e95154de70">Lighting::spotLightShadow</a> [16]</td></tr>
-<tr class="separator:a3b820e8575b31129c85eb397f37ed894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d21b49a0e66df29642ee82f736835bb"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::LightLists&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a47c086ca48789cc872b43a35043ca5a1">Lighting::lightList</a></td></tr>
+<tr class="separator:a9d21b49a0e66df29642ee82f736835bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25faa7cf1bd9cdb24fee28467e949c2e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_lighting.html#a25faa7cf1bd9cdb24fee28467e949c2e">clusterState</a></td></tr>
 <tr class="separator:a25faa7cf1bd9cdb24fee28467e949c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2d972b57e29c5e8dd3bdd3056c70afa"><td class="memItemLeft" >struct {</td></tr>
@@ -688,6 +682,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a47c086ca48789cc872b43a35043ca5a1" name="a47c086ca48789cc872b43a35043ca5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c086ca48789cc872b43a35043ca5a1">&#9670;&#160;</a></span>lightList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LightsCluster::LightLists Lighting::lightList</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a19b403fcf0734db3f8246bc1377d2d28" name="a19b403fcf0734db3f8246bc1377d2d28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19b403fcf0734db3f8246bc1377d2d28">&#9670;&#160;</a></span>lightListSlot</h2>
 
@@ -766,20 +774,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Lighting::numThreadsThisFrame</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad9f69d1dd34daf9e9b9d07180cc6b192" name="ad9f69d1dd34daf9e9b9d07180cc6b192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9f69d1dd34daf9e9b9d07180cc6b192">&#9670;&#160;</a></span>pointLights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">LightsCluster::PointLight Lighting::pointLights[1024]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -912,34 +906,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e5e053440fbb2ccdf041145eb004b9a" name="a1e5e053440fbb2ccdf041145eb004b9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e5e053440fbb2ccdf041145eb004b9a">&#9670;&#160;</a></span>spotLightProjection</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">LightsCluster::SpotLightProjectionExtension Lighting::spotLightProjection[256]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae771ee9820486f488ec41eb9c6c085d8" name="ae771ee9820486f488ec41eb9c6c085d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae771ee9820486f488ec41eb9c6c085d8">&#9670;&#160;</a></span>spotLights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">LightsCluster::SpotLight Lighting::spotLights[1024]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aac65e7307c659eaef90aa39af455adee" name="aac65e7307c659eaef90aa39af455adee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac65e7307c659eaef90aa39af455adee">&#9670;&#160;</a></span>spotlightsBatchCode</h2>
 
@@ -948,20 +914,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> Lighting::spotlightsBatchCode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a55b075b1786e0575e7cb20e95154de70" name="a55b075b1786e0575e7cb20e95154de70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b075b1786e0575e7cb20e95154de70">&#9670;&#160;</a></span>spotLightShadow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">LightsCluster::SpotLightShadowExtension Lighting::spotLightShadow[16]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1045,7 +997,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_lighting.html">Lighting</a></li>
 				<li class="footer">
-					Generated on Tue Aug 30 2022 23:16:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Aug 30 2022 23:38:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
