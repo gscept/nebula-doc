@@ -4,7 +4,6 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "PendingDeletes", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes" ],
     [ "PendingMarkers", "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html", "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers" ],
     [ "Queries", "struct_vulkan_1_1_graphics_device_state_1_1_queries.html", "struct_vulkan_1_1_graphics_device_state_1_1_queries" ],
-    [ "SubmissionWaitEvents", "struct_vulkan_1_1_graphics_device_state_1_1_submission_wait_events.html", "struct_vulkan_1_1_graphics_device_state_1_1_submission_wait_events" ],
     [ "UploadRingBuffer", "struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html", "struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer" ],
     [ "_declare_counter", "struct_vulkan_1_1_graphics_device_state.html#ae88737803dc0af347e87754edb25b745", null ],
     [ "_declare_timer", "struct_vulkan_1_1_graphics_device_state.html#a4d25b653d373ff8b2fdc20099c7f9249", null ],
@@ -51,6 +50,6 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "usedQueueFamilies", "struct_vulkan_1_1_graphics_device_state.html#acd077a0101c254e22489919a53f16e36", null ],
     [ "vboStreamOffsets", "struct_vulkan_1_1_graphics_device_state.html#ad6bcbb8e37233fdd6ca79bf7a4efa62a", null ],
     [ "vboStreams", "struct_vulkan_1_1_graphics_device_state.html#a938749eba1682be377dcbeb7cc73ee3b", null ],
-    [ "waitEvents", "struct_vulkan_1_1_graphics_device_state.html#a806e09a01102ec7d7029872ee110c958", null ],
+    [ "waitEvents", "struct_vulkan_1_1_graphics_device_state.html#af65b7abdcc1dc58e1bf92ebcdff546ff", null ],
     [ "waitForPresentSemaphore", "struct_vulkan_1_1_graphics_device_state.html#ad8ca39cfc16563728adecc00b03581cd", null ]
 ];
