@@ -2,10 +2,6 @@ var namespace_fog =
 [
     [ "VolumetricFogContext", "class_fog_1_1_volumetric_fog_context.html", "class_fog_1_1_volumetric_fog_context" ],
     [ "__ImplementContext", "namespace_fog.html#af81679b45aebe83c1878effd1840d253", null ],
-    [ "blurInputXSlot", "namespace_fog.html#a03849d400d04c291daa9443a5bc0ad89", null ],
-    [ "blurInputYSlot", "namespace_fog.html#afe493294fd4f4da1dd8c1106dcd52165", null ],
-    [ "blurOutputXSlot", "namespace_fog.html#a0054f7dd5016efa4e33970a03836f750", null ],
-    [ "blurOutputYSlot", "namespace_fog.html#a95f3d31419af2b9de2a9c675f416e408", null ],
     [ "blurShader", "namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8", null ],
     [ "blurState", "namespace_fog.html#ab893c1b676b70dc934407a694185c5b9", null ],
     [ "blurXProgram", "namespace_fog.html#aeffc9b09e22de5b733cb99eb2af6ff99", null ],
@@ -15,7 +11,6 @@ var namespace_fog =
     [ "classificationShader", "namespace_fog.html#a7a4c727f473154d88429d0fa974fafd9", null ],
     [ "clusterFogIndexLists", "namespace_fog.html#acd2dd516bd5e211b2ca52040166f1215", null ],
     [ "clusterFogLists", "namespace_fog.html#a1327d9e404762d00bcadc267347db2fd", null ],
-    [ "clusterUniforms", "namespace_fog.html#a427a2ffd12a5aedd201eb3536a7313bd", null ],
     [ "color", "namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e", null ],
     [ "cullProgram", "namespace_fog.html#ae94520972d363c26f0fd966817c71461", null ],
     [ "fogBoxes", "namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa", null ],
@@ -24,12 +19,10 @@ var namespace_fog =
     [ "fogVolumeTexture0", "namespace_fog.html#a78533a115fdaf91aa54c376ba90def7f", null ],
     [ "fogVolumeTexture1", "namespace_fog.html#a2073cad2d856b1cf4840e41890fce2e3", null ],
     [ "frameOpAllocator", "namespace_fog.html#aa5b5a4c04a6a718f58d3649911d17504", null ],
-    [ "lightingTextureSlot", "namespace_fog.html#a5b95de07d7ff7484616a4b07105287c9", null ],
     [ "renderProgram", "namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d", null ],
     [ "resourceTables", "namespace_fog.html#aea865870e59ab75b2039701111e65007", null ],
     [ "showUI", "namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2", null ],
     [ "stagingClusterFogLists", "namespace_fog.html#af57b63dc170f2947e11bb4abd43e9e8d", null ],
     [ "turbidity", "namespace_fog.html#a2ec118697792665cd7ead061d1e70969", null ],
-    [ "uniformsSlot", "namespace_fog.html#a31e4c904e3c4e7aa0040d4a839229859", null ],
     [ "zBuffer", "namespace_fog.html#a3d896bc33c813bf88010d324a0c0d3da", null ]
 ];

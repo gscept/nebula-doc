@@ -2,7 +2,6 @@ var namespace_clustering =
 [
     [ "ClusterContext", "class_clustering_1_1_cluster_context.html", "class_clustering_1_1_cluster_context" ],
     [ "__ImplementPluginContext", "namespace_clustering.html#a5b48c99eaa40bf6675db97e6951b5599", null ],
-    [ "clusterAABBSlot", "namespace_clustering.html#a26e0319796049fd3b0eab32ae5faab3d", null ],
     [ "clusterBuffer", "namespace_clustering.html#a695d86a5977a02832e13f3b8e75b72f3", null ],
     [ "clusterDimensions", "namespace_clustering.html#aee3093d03cc338873dd8551aea6b20b7", null ],
     [ "clusterGenerateProgram", "namespace_clustering.html#ade21b71e57fed04002e9e0ca68aa2c8c", null ],
@@ -17,7 +16,6 @@ var namespace_clustering =
     [ "numThreads", "namespace_clustering.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
     [ "state", "namespace_clustering.html#a778b67e9c2cf63e4aa641635bccee2ba", null ],
     [ "uniforms", "namespace_clustering.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
-    [ "uniformsSlot", "namespace_clustering.html#aac258a46e7cc16455c47e1558549a8df", null ],
     [ "window", "namespace_clustering.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
     [ "xResolution", "namespace_clustering.html#a581f331c494a300ae88fa56b64571df4", null ],
     [ "yResolution", "namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e", null ],

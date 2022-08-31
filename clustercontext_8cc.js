@@ -1,7 +1,6 @@
 var clustercontext_8cc =
 [
     [ "__ImplementPluginContext", "clustercontext_8cc.html#a5b48c99eaa40bf6675db97e6951b5599", null ],
-    [ "clusterAABBSlot", "clustercontext_8cc.html#a26e0319796049fd3b0eab32ae5faab3d", null ],
     [ "clusterBuffer", "clustercontext_8cc.html#a695d86a5977a02832e13f3b8e75b72f3", null ],
     [ "clusterDimensions", "clustercontext_8cc.html#aee3093d03cc338873dd8551aea6b20b7", null ],
     [ "clusterGenerateProgram", "clustercontext_8cc.html#ade21b71e57fed04002e9e0ca68aa2c8c", null ],
@@ -16,7 +15,6 @@ var clustercontext_8cc =
     [ "numThreads", "clustercontext_8cc.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
     [ "state", "clustercontext_8cc.html#a778b67e9c2cf63e4aa641635bccee2ba", null ],
     [ "uniforms", "clustercontext_8cc.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
-    [ "uniformsSlot", "clustercontext_8cc.html#aac258a46e7cc16455c47e1558549a8df", null ],
     [ "window", "clustercontext_8cc.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
     [ "xResolution", "clustercontext_8cc.html#a581f331c494a300ae88fa56b64571df4", null ],
     [ "yResolution", "clustercontext_8cc.html#a50f52304c2050b6053b79840ca102d5e", null ],

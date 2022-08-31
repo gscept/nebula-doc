@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('bloomcontext_8cc.html',''); initResiza
 <code>#include &quot;<a class="el" href="graphicsserver_8h_source.html">graphics/graphicsserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="drawfullscreenquad_8h_source.html">renderutil/drawfullscreenquad.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bloomcontext_8h_source.html">bloomcontext.h</a>&quot;</code><br />
+<code>#include &quot;brightpass.h&quot;</code><br />
 <code>#include &quot;blur_bloom.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -138,18 +139,6 @@ Variables</h2></td></tr>
 <tr class="separator:a87b44faf25a2fe42da9cab03f9081aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c6a8725ece484dcf8df0a358639fdd8"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a6db64b3fd7f55d56bae6ec32c20d606e">PostEffects::blurTable</a></td></tr>
 <tr class="separator:a8c6a8725ece484dcf8df0a358639fdd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77edbc7fc087b70103e3f02ada31a93"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a1b129b7fcf28b3521cc990148217e7fc">PostEffects::colorSourceSlot</a></td></tr>
-<tr class="separator:ad77edbc7fc087b70103e3f02ada31a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05fa798e92a67a9c5b1f827552bb5e41"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a0904f4ac9efff5d8b72e2348f341552c">PostEffects::luminanceTextureSlot</a></td></tr>
-<tr class="separator:a05fa798e92a67a9c5b1f827552bb5e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac020f1b456d16a0a0be1bdc71005e624"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ad54ab56ded71b89513bcaeb101f50889">PostEffects::inputImageXSlot</a></td></tr>
-<tr class="separator:ac020f1b456d16a0a0be1bdc71005e624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaffb6b17cd048efd8d6afb796acf8c5"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#acc18a515c4257d7f73856b4fd140b950">PostEffects::inputImageYSlot</a></td></tr>
-<tr class="separator:aaaffb6b17cd048efd8d6afb796acf8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9334e0627c56e9ce3725e91257227504"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#ac2346409093becabfcc47cc265d5e3fe">PostEffects::blurImageXSlot</a></td></tr>
-<tr class="separator:a9334e0627c56e9ce3725e91257227504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c72f3bc1746cf796e81201e6eca2ad0"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#af4fa0db96010e854231ca729e2fd1294">PostEffects::blurImageYSlot</a></td></tr>
-<tr class="separator:a7c72f3bc1746cf796e81201e6eca2ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c25431221ab4ff9326c8b2674b1056c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a14758b57d90b19201ba1a9662eb7f826">PostEffects::bloomBuffer</a></td></tr>
 <tr class="separator:a5c25431221ab4ff9326c8b2674b1056c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60a550f63f986c72a26da577fc9dfc29"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_post_effects.html#a7691be9defa10aead903173512604bf3">PostEffects::blurredBloom</a></td></tr>
@@ -172,7 +161,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_22b05374659b659f0725439aa4c95d41.html">posteffects</a></li><li class="navelem"><a class="el" href="bloomcontext_8cc.html">bloomcontext.cc</a></li>
 				<li class="footer">
-					Generated on Tue Aug 30 2022 23:38:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Aug 31 2022 23:42:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
