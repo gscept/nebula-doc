@@ -24,16 +24,13 @@ var globalconstants_8cc =
     [ "shadowViewCboOffset", "globalconstants_8cc.html#a5f7c20884f689385b834eb9510be75d9", null ],
     [ "shadowViewConstants", "globalconstants_8cc.html#a9642ee35864661619ef340be05d519a1", null ],
     [ "shadowViewConstantsDirty", "globalconstants_8cc.html#af5fdc5d0145d2ff98196b0a2b41f479a", null ],
-    [ "shadowViewConstantsSlot", "globalconstants_8cc.html#ae6cda4291e5de6405b73a49efa9e35bc", null ],
     [ "tableLayout", "globalconstants_8cc.html#a3e836041d48bb488575019ebaff5231e", null ],
     [ "tickCboOffset", "globalconstants_8cc.html#a8cd2d0627680676ab4f2e7cdc38cf059", null ],
     [ "tickParams", "globalconstants_8cc.html#a5552f8d082cd0709c353562789d4acb5", null ],
-    [ "tickParamsCboSlot", "globalconstants_8cc.html#aaed5da471086d94e464ade19865446d3", null ],
     [ "tickParamsDirty", "globalconstants_8cc.html#a003c4ea073606d8685b2b764da792db3", null ],
     [ "tickResourceTablesCompute", "globalconstants_8cc.html#a8997a7146dac0cb179929e540497dd35", null ],
     [ "tickResourceTablesGraphics", "globalconstants_8cc.html#a9aeb09dfb5eec08b33eb2cb50b8da7f4", null ],
     [ "viewCboOffset", "globalconstants_8cc.html#aec87fee8565edff289f21a86f72f52a9", null ],
     [ "viewConstants", "globalconstants_8cc.html#afe8e7967507706c512e99473804bf143", null ],
-    [ "viewConstantsDirty", "globalconstants_8cc.html#aadda66171635f5ad281f5214130d1134", null ],
-    [ "viewConstantsSlot", "globalconstants_8cc.html#ae65963b8def037c0dd62c28c7dba0f40", null ]
+    [ "viewConstantsDirty", "globalconstants_8cc.html#aadda66171635f5ad281f5214130d1134", null ]
 ];

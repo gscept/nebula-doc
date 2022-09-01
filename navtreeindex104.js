@@ -1,9 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147add058df87f5c88e3285a28ad7406a3c6":[8,0,13,138,37],
-"namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ae4dbbf54e1663f2c0345a38fac8fcf46":[8,0,13,138,14],
-"namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ae5dc4be159765cd59a1003541e504122":[8,0,13,138,18],
-"namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aeed3b4c0236a5b3642db56aa3f2157d7":[8,0,13,138,22],
 "namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147af30a8160b082d15b6c85b9840f488d72":[8,0,13,138,31],
 "namespace_core_graphics.html#aee3dc9cce303316d7b086abd9b3eaf2c":[8,0,13,363],
 "namespace_core_graphics.html#aee8a0acbaa9cc2aca1083320303f81a2":[8,0,13,192],
@@ -111,7 +107,6 @@ var NAVTREEINDEX104 =
 "namespace_decals.html#a04907986cb59293b62a713b4eff5dfef":[8,0,17,1],
 "namespace_decals.html#a051ec609c55107566d769361759b3668":[8,0,17,2],
 "namespace_decals.html#a1affaef47e93b91ba55c69670e82e74c":[8,0,17,7],
-"namespace_decals.html#a3e85f9e92c8472338e0dca1b7d0a7a74":[8,0,17,16],
 "namespace_decals.html#a489acc54f56561d8a4f52aae7fcf626a":[8,0,17,4],
 "namespace_decals.html#a553f91d60ea4d29000210e1a293a1073":[8,0,17,15],
 "namespace_decals.html#a5fa4898d51edb251cf0a6bcdf01a2ca7":[8,0,17,5],
@@ -249,5 +244,10 @@ var NAVTREEINDEX104 =
 "namespace_game.html#a4c6fb17ab5e24d175ba52b42e1644706":[8,0,25,47],
 "namespace_game.html#a4edd1d8ef4925af6cbcad9813f248248":[8,0,25,80],
 "namespace_game.html#a50b42690ff6280d3636c9a1dbbd5fb4f":[8,0,25,116],
-"namespace_game.html#a5240006938f9acf4ef4681598a9395d0":[8,0,25,102]
+"namespace_game.html#a5240006938f9acf4ef4681598a9395d0":[8,0,25,102],
+"namespace_game.html#a53512ac5c9322963d519b00d94f04cff":[8,0,25,77],
+"namespace_game.html#a55b0a6efae719fca4a68700c0044d849":[8,0,25,120],
+"namespace_game.html#a583c03ec0434eff36157ae336ef7bc7b":[8,0,25,114],
+"namespace_game.html#a5a1fc702bececa64ef3f9c222eb5fcf1":[8,0,25,98],
+"namespace_game.html#a5bd2f08d7ec1908fe36e6ca1e2dca65f":[8,0,25,82]
 };

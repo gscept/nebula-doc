@@ -15,6 +15,5 @@ var namespace_decals =
     [ "pbrDecals", "namespace_decals.html#aaf89057787ebc8a8600a1af0cc7a6ab8", null ],
     [ "renderEmissiveProgram", "namespace_decals.html#a9a0a6b26774d61c614ddfb3f13f19f3e", null ],
     [ "renderPBRProgram", "namespace_decals.html#ada9d567cc924f0261be1c2a8fd29f268", null ],
-    [ "stagingClusterDecalsList", "namespace_decals.html#a553f91d60ea4d29000210e1a293a1073", null ],
-    [ "uniformsSlot", "namespace_decals.html#a3e85f9e92c8472338e0dca1b7d0a7a74", null ]
+    [ "stagingClusterDecalsList", "namespace_decals.html#a553f91d60ea4d29000210e1a293a1073", null ]
 ];

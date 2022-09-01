@@ -72,7 +72,6 @@ var namespace_graphics =
     [ "shadowViewCboOffset", "namespace_graphics.html#a5f7c20884f689385b834eb9510be75d9", null ],
     [ "shadowViewConstants", "namespace_graphics.html#a9642ee35864661619ef340be05d519a1", null ],
     [ "shadowViewConstantsDirty", "namespace_graphics.html#af5fdc5d0145d2ff98196b0a2b41f479a", null ],
-    [ "shadowViewConstantsSlot", "namespace_graphics.html#ae6cda4291e5de6405b73a49efa9e35bc", null ],
     [ "showUI", "namespace_graphics.html#aaba2494cba0ef4601e60b132c131da6e", null ],
     [ "skyBoxEntity", "namespace_graphics.html#adf058b61ba8a8da47a45c25b10432c29", null ],
     [ "skyTurbidity", "namespace_graphics.html#a05c928d3e4d055666fa4a907c1859ddc", null ],
@@ -89,12 +88,10 @@ var namespace_graphics =
     [ "textureCubePool", "namespace_graphics.html#a362d3e9bd27925f1c398a75e7cdf0e54", null ],
     [ "tickCboOffset", "namespace_graphics.html#a8cd2d0627680676ab4f2e7cdc38cf059", null ],
     [ "tickParams", "namespace_graphics.html#a5552f8d082cd0709c353562789d4acb5", null ],
-    [ "tickParamsCboSlot", "namespace_graphics.html#aaed5da471086d94e464ade19865446d3", null ],
     [ "tickParamsDirty", "namespace_graphics.html#a003c4ea073606d8685b2b764da792db3", null ],
     [ "tickResourceTablesCompute", "namespace_graphics.html#a8997a7146dac0cb179929e540497dd35", null ],
     [ "tickResourceTablesGraphics", "namespace_graphics.html#a9aeb09dfb5eec08b33eb2cb50b8da7f4", null ],
     [ "viewCboOffset", "namespace_graphics.html#aec87fee8565edff289f21a86f72f52a9", null ],
     [ "viewConstants", "namespace_graphics.html#afe8e7967507706c512e99473804bf143", null ],
-    [ "viewConstantsDirty", "namespace_graphics.html#aadda66171635f5ad281f5214130d1134", null ],
-    [ "viewConstantsSlot", "namespace_graphics.html#ae65963b8def037c0dd62c28c7dba0f40", null ]
+    [ "viewConstantsDirty", "namespace_graphics.html#aadda66171635f5ad281f5214130d1134", null ]
 ];
