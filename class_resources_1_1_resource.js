@@ -8,9 +8,8 @@ var class_resources_1_1_resource =
     ] ],
     [ "Resource", "class_resources_1_1_resource.html#a9e1fadc20310e2178cef738675711e3a", null ],
     [ "~Resource", "class_resources_1_1_resource.html#a84ce61c9c60e5811212ab36aea1e2389", null ],
-    [ "ResourceCache", "class_resources_1_1_resource.html#a56e8a483ca41b93ad56ef41fd78c6398", null ],
     [ "ResourceContainer", "class_resources_1_1_resource.html#a1f39a08bf5b69fe48e9f9cd2c7d1f9ee", null ],
+    [ "ResourceLoader", "class_resources_1_1_resource.html#a685a33b83a13f36aceea3ff940994ac9", null ],
     [ "ResourceMemoryCache", "class_resources_1_1_resource.html#a0b10664f7930a1700855493b6f3bc665", null ],
-    [ "ResourceServer", "class_resources_1_1_resource.html#a9171c2710c5c83af83fe94f1c1436578", null ],
-    [ "ResourceStreamCache", "class_resources_1_1_resource.html#a2179495590c69923d96886d892a2c056", null ]
+    [ "ResourceServer", "class_resources_1_1_resource.html#a9171c2710c5c83af83fe94f1c1436578", null ]
 ];

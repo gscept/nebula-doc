@@ -57,5 +57,6 @@ var class_core_graphics_1_1_pixel_format =
     [ "ToILComponents", "class_core_graphics_1_1_pixel_format.html#a437508f98f8810c5fe3d062801e29dd3", null ],
     [ "ToILType", "class_core_graphics_1_1_pixel_format.html#a98819c2215c481931fed810b4b060155", null ],
     [ "ToSize", "class_core_graphics_1_1_pixel_format.html#ac070900fc8d79d2e6c0e1174c96b2f38", null ],
-    [ "ToString", "class_core_graphics_1_1_pixel_format.html#a6e41f59298367a5d0694ba7f841cd18b", null ]
+    [ "ToString", "class_core_graphics_1_1_pixel_format.html#a6e41f59298367a5d0694ba7f841cd18b", null ],
+    [ "ToTexelSize", "class_core_graphics_1_1_pixel_format.html#ac227d45de48a16fabda0dc3aeaff6591", null ]
 ];

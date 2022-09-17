@@ -102,7 +102,6 @@ $(document).ready(function(){initNavTree('vktexture_8h.html',''); initResizable(
 <div class="textblock"><code>#include &quot;<a class="el" href="texture_8h_source.html">coregraphics/texture.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pixelformat_8h_source.html">coregraphics/pixelformat.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textureview_8h_source.html">coregraphics/textureview.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="resourcecache_8h_source.html">resources/resourcecache.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkmemory_8h_source.html">vkmemory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="glimltypes_8h_source.html">coregraphics/load/glimltypes.h</a>&quot;</code><br />
@@ -116,8 +115,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_runtime_info.html">Vulkan::VkTextureRuntimeInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_mapping_info.html">Vulkan::VkTextureMappingInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_stream_info.html">Vulkan::VkTextureStreamInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_window_info.html">Vulkan::VkTextureWindowInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,9 +134,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ab03a1ed63215ccefb6e7fb2a50dccf4b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; VkTextureRuntimeInfo, VkTextureLoadInfo, VkTextureMappingInfo, VkTextureWindowInfo, VkTextureStreamInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ab03a1ed63215ccefb6e7fb2a50dccf4b">Vulkan::VkTextureAllocator</a></td></tr>
-<tr class="memdesc:ab03a1ed63215ccefb6e7fb2a50dccf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">we need a thread-safe allocator since it will be used by both the memory and stream pool  <a href="namespace_vulkan.html#ab03a1ed63215ccefb6e7fb2a50dccf4b">More...</a><br /></td></tr>
-<tr class="separator:ab03a1ed63215ccefb6e7fb2a50dccf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dd356d2a171a68597964b0546b4b64"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; VkTextureRuntimeInfo, VkTextureLoadInfo, VkTextureMappingInfo, VkTextureWindowInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a69dd356d2a171a68597964b0546b4b64">Vulkan::VkTextureAllocator</a></td></tr>
+<tr class="memdesc:a69dd356d2a171a68597964b0546b4b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">we need a thread-safe allocator since it will be used by both the memory and stream pool  <a href="namespace_vulkan.html#a69dd356d2a171a68597964b0546b4b64">More...</a><br /></td></tr>
+<tr class="separator:a69dd356d2a171a68597964b0546b4b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0868918f0e31770c26623cb51b133613"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a0868918f0e31770c26623cb51b133613">Vulkan::VkTextureStencilExtensionAllocator</a></td></tr>
 <tr class="separator:a0868918f0e31770c26623cb51b133613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a817e269f3774d0bc57e8f4a1d8b9ae8c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; VkTextureSwapInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a817e269f3774d0bc57e8f4a1d8b9ae8c">Vulkan::VkTextureSwapExtensionAllocator</a></td></tr>
@@ -149,33 +146,29 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a384928c2af8abd676bd79dfe0a20a7fd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a384928c2af8abd676bd79dfe0a20a7fdace56292e5f42746a6dc229fa7593d0b1">Vulkan::Texture_RuntimeInfo</a>
-, <a class="el" href="namespace_vulkan.html#a384928c2af8abd676bd79dfe0a20a7fda0b282c1781301c9c54a66fd00b7bd3ca">Vulkan::Texture_LoadInfo</a>
-, <a class="el" href="namespace_vulkan.html#a384928c2af8abd676bd79dfe0a20a7fda45ed23b9525a8acedafe111088a670f7">Vulkan::Texture_MappingInfo</a>
-, <a class="el" href="namespace_vulkan.html#a384928c2af8abd676bd79dfe0a20a7fdac4a75a8a3f186a7ccec679eb620c7d9c">Vulkan::Texture_WindowInfo</a>
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a384928c2af8abd676bd79dfe0a20a7fda6cfe8f37c39197f37eea949882f1ed90">Vulkan::Texture_StreamInfo</a>
-<br />
- }</td></tr>
-<tr class="separator:a384928c2af8abd676bd79dfe0a20a7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f3660b796aed995813dd6490f80f86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86aef9f64780e54901c9940339711a70d41">Vulkan::TextureExtension_StencilInfo</a>
-, <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86ad2f8cae805b97d29ddd5a7506ea745d9">Vulkan::TextureExtension_StencilBind</a>
+<tr class="memitem:aa8f3660b796aed995813dd6490f80f86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86ace56292e5f42746a6dc229fa7593d0b1">Vulkan::Texture_RuntimeInfo</a>
+, <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86a0b282c1781301c9c54a66fd00b7bd3ca">Vulkan::Texture_LoadInfo</a>
+, <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86a45ed23b9525a8acedafe111088a670f7">Vulkan::Texture_MappingInfo</a>
+, <a class="el" href="namespace_vulkan.html#aa8f3660b796aed995813dd6490f80f86ac4a75a8a3f186a7ccec679eb620c7d9c">Vulkan::Texture_WindowInfo</a>
  }</td></tr>
 <tr class="separator:aa8f3660b796aed995813dd6490f80f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c604536b03a33eebc496048f462105"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a38c604536b03a33eebc496048f462105a0e035a19f8e1140354e97a22d7976fdc">Vulkan::TextureExtension_SwapInfo</a>
+<tr class="memitem:a38c604536b03a33eebc496048f462105"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a38c604536b03a33eebc496048f462105aef9f64780e54901c9940339711a70d41">Vulkan::TextureExtension_StencilInfo</a>
+, <a class="el" href="namespace_vulkan.html#a38c604536b03a33eebc496048f462105ad2f8cae805b97d29ddd5a7506ea745d9">Vulkan::TextureExtension_StencilBind</a>
  }</td></tr>
 <tr class="separator:a38c604536b03a33eebc496048f462105"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5f47248657b517973e803fc228c6cbd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda263445b328f43cbdf15350710810b17a">Vulkan::TextureExtension_SparsePageTable</a>
-, <a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda7e010d8eb849bd2d9d62cc2cb655fe17">Vulkan::TextureExtension_SparseMemoryRequirements</a>
-, <a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda067e9430aefefa2d479122986d55edd9">Vulkan::TextureExtension_SparseOpaqueBinds</a>
-, <a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda07a12c122be00ef8eba3b3ced82d9f89">Vulkan::TextureExtension_SparsePendingBinds</a>
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda7f924d70088445a879ed034eb9a66d11">Vulkan::TextureExtension_SparseOpaqueAllocs</a>
-<br />
+<tr class="memitem:ad5f47248657b517973e803fc228c6cbd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#ad5f47248657b517973e803fc228c6cbda0e035a19f8e1140354e97a22d7976fdc">Vulkan::TextureExtension_SwapInfo</a>
  }</td></tr>
 <tr class="separator:ad5f47248657b517973e803fc228c6cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55351bdef5f46c7c23c1f70841f50e91"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a263445b328f43cbdf15350710810b17a">Vulkan::TextureExtension_SparsePageTable</a>
+, <a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a7e010d8eb849bd2d9d62cc2cb655fe17">Vulkan::TextureExtension_SparseMemoryRequirements</a>
+, <a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a067e9430aefefa2d479122986d55edd9">Vulkan::TextureExtension_SparseOpaqueBinds</a>
+, <a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a07a12c122be00ef8eba3b3ced82d9f89">Vulkan::TextureExtension_SparsePendingBinds</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a7f924d70088445a879ed034eb9a66d11">Vulkan::TextureExtension_SparseOpaqueAllocs</a>
+<br />
+ }</td></tr>
+<tr class="separator:a55351bdef5f46c7c23c1f70841f50e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -199,7 +192,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vktexture_8h.html">vktexture.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

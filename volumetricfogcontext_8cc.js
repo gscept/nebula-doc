@@ -2,7 +2,7 @@ var volumetricfogcontext_8cc =
 [
     [ "__ImplementContext", "volumetricfogcontext_8cc.html#af81679b45aebe83c1878effd1840d253", null ],
     [ "blurShader", "volumetricfogcontext_8cc.html#a81745779c51871fbd624b7c88f4b9aa8", null ],
-    [ "blurState", "volumetricfogcontext_8cc.html#ab893c1b676b70dc934407a694185c5b9", null ],
+    [ "blurState", "volumetricfogcontext_8cc.html#ab8a8d24f2f9d1032e62154867fcb3de9", null ],
     [ "blurXProgram", "volumetricfogcontext_8cc.html#aeffc9b09e22de5b733cb99eb2af6ff99", null ],
     [ "blurXTable", "volumetricfogcontext_8cc.html#a903a3a9c1e0aed34dc3042e45665a364", null ],
     [ "blurYProgram", "volumetricfogcontext_8cc.html#afb552356d951d8c55d4abae54263efd6", null ],
@@ -14,7 +14,7 @@ var volumetricfogcontext_8cc =
     [ "cullProgram", "volumetricfogcontext_8cc.html#ae94520972d363c26f0fd966817c71461", null ],
     [ "fogBoxes", "volumetricfogcontext_8cc.html#adc56336121b669bfbbc385bb4606b0aa", null ],
     [ "fogSpheres", "volumetricfogcontext_8cc.html#a7177334b2e4a4b62713e32be604955e7", null ],
-    [ "fogState", "volumetricfogcontext_8cc.html#a75b9af7e7c2001d9ddf6192799cce118", null ],
+    [ "fogState", "volumetricfogcontext_8cc.html#a37fa204b80d914e1736ea621630942a8", null ],
     [ "fogVolumeTexture0", "volumetricfogcontext_8cc.html#a78533a115fdaf91aa54c376ba90def7f", null ],
     [ "fogVolumeTexture1", "volumetricfogcontext_8cc.html#a2073cad2d856b1cf4840e41890fce2e3", null ],
     [ "frameOpAllocator", "volumetricfogcontext_8cc.html#aa5b5a4c04a6a718f58d3649911d17504", null ],

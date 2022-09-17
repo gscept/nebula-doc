@@ -2,7 +2,7 @@ var struct_core_graphics_1_1_buffer_create_info =
 [
     [ "BufferCreateInfo", "struct_core_graphics_1_1_buffer_create_info.html#ae3359aa6f7eba465fa46840a284fc41f", null ],
     [ "byteSize", "struct_core_graphics_1_1_buffer_create_info.html#a2acace368a40d31ad11b5da01e3951bc", null ],
-    [ "data", "struct_core_graphics_1_1_buffer_create_info.html#ada333924c12a2b1310f70456229f9dd9", null ],
+    [ "data", "struct_core_graphics_1_1_buffer_create_info.html#aae1f8b98d61c0f65daea33c4b39e9b10", null ],
     [ "dataSize", "struct_core_graphics_1_1_buffer_create_info.html#ae2ed9b9d0c91678bef29516c050a490f", null ],
     [ "elementSize", "struct_core_graphics_1_1_buffer_create_info.html#a74ec13745711be89e0b35bd8b657a52d", null ],
     [ "mode", "struct_core_graphics_1_1_buffer_create_info.html#a1bedacbff2fa158704bfcfa2fb47a9ec", null ],

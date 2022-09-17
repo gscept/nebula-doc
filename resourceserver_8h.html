@@ -102,9 +102,8 @@ $(document).ready(function(){initNavTree('resourceserver_8h.html',''); initResiz
 <code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceid_8h_source.html">resourceid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="resourcestreamcache_8h_source.html">resourcestreamcache.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resourceloader_8h_source.html">resourceloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceloaderthread_8h_source.html">resourceloaderthread.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="resourcememorycache_8h_source.html">resourcememorycache.h</a>&quot;</code><br />
 </div>
 <p><a href="resourceserver_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,19 +129,10 @@ Functions</h2></td></tr>
 <tr class="separator:aa9525928283dd4bec9b1cd86f99f04e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3a81bbde504d7a472e9a6eae66e10e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a2d3a81bbde504d7a472e9a6eae66e10e">Resources::DiscardResource</a> (const Resources::ResourceId id)</td></tr>
 <tr class="separator:a2d3a81bbde504d7a472e9a6eae66e10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eccf33f3cc168b58b4e30675edb022c"><td class="memItemLeft" align="right" valign="top">Resources::ResourceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c">Resources::ReserveResource</a> (const ResourceName &amp;res, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;type)</td></tr>
-<tr class="memdesc:a7eccf33f3cc168b58b4e30675edb022c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve a resource for direct updating through a memory pool.  <a href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c">More...</a><br /></td></tr>
-<tr class="separator:a7eccf33f3cc168b58b4e30675edb022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b920384efba11a2354c8fbeb7f8281"><td class="memItemLeft" align="right" valign="top">ResourceCache::LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#ae6b920384efba11a2354c8fbeb7f8281">Resources::LoadFromMemory</a> (const Resources::ResourceId id, void *info)</td></tr>
-<tr class="memdesc:ae6b920384efba11a2354c8fbeb7f8281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update resource previously reserved.  <a href="namespace_resources.html#ae6b920384efba11a2354c8fbeb7f8281">More...</a><br /></td></tr>
-<tr class="separator:ae6b920384efba11a2354c8fbeb7f8281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6eac045904ef7b6d659587c5a416fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a6c6eac045904ef7b6d659587c5a416fc">Resources::ReloadResource</a> (const ResourceName &amp;res)</td></tr>
 <tr class="separator:a6c6eac045904ef7b6d659587c5a416fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37f105ce84ecbee7f98fb6f41950338c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a37f105ce84ecbee7f98fb6f41950338c">Resources::WaitForLoaderThread</a> ()</td></tr>
 <tr class="separator:a37f105ce84ecbee7f98fb6f41950338c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb740efac7ecd94b25989af5d1f68de2"><td class="memTemplParams" colspan="2">template&lt;class POOL_TYPE &gt; </td></tr>
-<tr class="memitem:acb740efac7ecd94b25989af5d1f68de2"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_resources.html#acb740efac7ecd94b25989af5d1f68de2">Resources::GetMemoryPool</a> ()</td></tr>
-<tr class="separator:acb740efac7ecd94b25989af5d1f68de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memTemplParams" colspan="2">template&lt;class POOL_TYPE &gt; </td></tr>
 <tr class="memitem:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_resources.html#af5a64ab7fe1b30e8c07afddcb6a2f5dd">Resources::GetStreamPool</a> ()</td></tr>
 <tr class="separator:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,7 +144,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourceserver_8h.html">resourceserver.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

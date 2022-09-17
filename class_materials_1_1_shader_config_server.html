@@ -121,9 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f1bf7b61d1efa7625a2a51d514452cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a8f1bf7b61d1efa7625a2a51d514452cd">LoadShaderConfigs</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;file)</td></tr>
 <tr class="memdesc:a8f1bf7b61d1efa7625a2a51d514452cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">load material types from file  <a href="class_materials_1_1_shader_config_server.html#a8f1bf7b61d1efa7625a2a51d514452cd">More...</a><br /></td></tr>
 <tr class="separator:a8f1bf7b61d1efa7625a2a51d514452cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac61292fa50db6cb81f21af39e79dc22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_shader_config_variant.html">ShaderConfigVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#aac61292fa50db6cb81f21af39e79dc22">AllocateVariantMemory</a> (const <a class="el" href="struct_materials_1_1_shader_config_variant_1_1_internal_type.html">ShaderConfigVariant::InternalType</a> type)</td></tr>
-<tr class="memdesc:aac61292fa50db6cb81f21af39e79dc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate some variant memory.  <a href="class_materials_1_1_shader_config_server.html#aac61292fa50db6cb81f21af39e79dc22">More...</a><br /></td></tr>
-<tr class="separator:aac61292fa50db6cb81f21af39e79dc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f8fc65d46fc07a8e6cef4c91ce4bb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_variant.html">MaterialVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a08f8fc65d46fc07a8e6cef4c91ce4bb9">AllocateVariantMemory</a> (const <a class="el" href="struct_materials_1_1_material_variant_1_1_internal_type.html">MaterialVariant::InternalType</a> type)</td></tr>
+<tr class="memdesc:a08f8fc65d46fc07a8e6cef4c91ce4bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate some variant memory.  <a href="class_materials_1_1_shader_config_server.html#a08f8fc65d46fc07a8e6cef4c91ce4bb9">More...</a><br /></td></tr>
+<tr class="separator:a08f8fc65d46fc07a8e6cef4c91ce4bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e3d59a8a6bfcda641c0249d4c2b7321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_materials_1_1_shader_config.html">ShaderConfig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a0e3d59a8a6bfcda641c0249d4c2b7321">GetShaderConfig</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;type)</td></tr>
 <tr class="memdesc:a0e3d59a8a6bfcda641c0249d4c2b7321"><td class="mdescLeft">&#160;</td><td class="mdescRight">get material  <a href="class_materials_1_1_shader_config_server.html#a0e3d59a8a6bfcda641c0249d4c2b7321">More...</a><br /></td></tr>
 <tr class="separator:a0e3d59a8a6bfcda641c0249d4c2b7321"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,8 +196,8 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:af1335b4670ce970e163791adcf8fbb51"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#af1335b4670ce970e163791adcf8fbb51">MaterialCache</a></td></tr>
-<tr class="separator:af1335b4670ce970e163791adcf8fbb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306716082a75f363301a92a61da5ca98"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config_server.html#a306716082a75f363301a92a61da5ca98">MaterialLoader</a></td></tr>
+<tr class="separator:a306716082a75f363301a92a61da5ca98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -302,16 +302,16 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aac61292fa50db6cb81f21af39e79dc22" name="aac61292fa50db6cb81f21af39e79dc22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac61292fa50db6cb81f21af39e79dc22">&#9670;&#160;</a></span>AllocateVariantMemory()</h2>
+<a id="a08f8fc65d46fc07a8e6cef4c91ce4bb9" name="a08f8fc65d46fc07a8e6cef4c91ce4bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f8fc65d46fc07a8e6cef4c91ce4bb9">&#9670;&#160;</a></span>AllocateVariantMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_materials_1_1_shader_config_variant.html">ShaderConfigVariant</a> Materials::ShaderConfigServer::AllocateVariantMemory </td>
+          <td class="memname"><a class="el" href="struct_materials_1_1_material_variant.html">MaterialVariant</a> Materials::ShaderConfigServer::AllocateVariantMemory </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_materials_1_1_shader_config_variant_1_1_internal_type.html">ShaderConfigVariant::InternalType</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_variant_1_1_internal_type.html">MaterialVariant::InternalType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -421,8 +421,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="af1335b4670ce970e163791adcf8fbb51" name="af1335b4670ce970e163791adcf8fbb51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1335b4670ce970e163791adcf8fbb51">&#9670;&#160;</a></span>MaterialCache</h2>
+<a id="a306716082a75f363301a92a61da5ca98" name="a306716082a75f363301a92a61da5ca98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a306716082a75f363301a92a61da5ca98">&#9670;&#160;</a></span>MaterialLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,7 +431,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="class_materials_1_1_material_cache.html">MaterialCache</a></td>
+          <td class="memname">friend class <a class="el" href="class_materials_1_1_material_loader.html">MaterialLoader</a></td>
         </tr>
       </table>
   </td>
@@ -631,7 +631,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li><li class="navelem"><a class="el" href="class_materials_1_1_shader_config_server.html">ShaderConfigServer</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

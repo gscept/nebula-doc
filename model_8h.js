@@ -2,7 +2,8 @@ var model_8h =
 [
     [ "Models::ModelId", "struct_models_1_1_model_id.html", null ],
     [ "Models::NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
-    [ "MODEL_MEMORY_CHUNK_SIZE", "model_8h.html#ac6d7804364258137f18638d88b526c0d", null ],
+    [ "Models::ModelCreateInfo", "struct_models_1_1_model_create_info.html", "struct_models_1_1_model_create_info" ],
+    [ "ModelAllocator", "model_8h.html#aec29d595b1f0529c82c19ca4dcf3dd26", null ],
     [ "NodeBits", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120", [
       [ "NoBits", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120a80c24d1cbc4b00f978a996b0bf084316", null ],
       [ "HasTransformBit", "model_8h.html#abb3acbc147d8734c70568ad6b95e3120acb6d7c3ca443143ecc97af7aa7813376", null ],
@@ -18,7 +19,8 @@ var model_8h =
       [ "NumNodeTypes", "model_8h.html#af6d870409eb928dcad15db9ca58a3790a76fd296649f128b5956e0877c5214353", null ]
     ] ],
     [ "__ImplementEnumBitOperators", "model_8h.html#a37c6ed83ff3393ad88921c722694b364", null ],
-    [ "CreateModel", "model_8h.html#a1b8205930c5627e5d49360d0814f14f6", null ],
+    [ "CreateModel", "model_8h.html#a9c46f7e8b40e869f3881bf9953d0171d", null ],
     [ "DestroyModel", "model_8h.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
+    [ "ModelGetBoundingBox", "model_8h.html#a6a713529ef9618e0e28128f3a7727edd", null ],
     [ "ModelGetNodes", "model_8h.html#ac8a019572bef03d92f59d49fde738ca0", null ]
 ];

@@ -5,7 +5,7 @@ var class_models_1_1_transform_node =
     [ "GetLODDistances", "class_models_1_1_transform_node.html#a1e3c5bcec660d57a43050a3bcda3a693", null ],
     [ "Load", "class_models_1_1_transform_node.html#aa21b9fde6b1410e0c609271980959e84", null ],
     [ "ModelContext", "class_models_1_1_transform_node.html#af8da0315892253b355e1abe79f67e350", null ],
-    [ "StreamModelCache", "class_models_1_1_transform_node.html#a314cd138b4dead320ef2f750d6777577", null ],
+    [ "ModelLoader", "class_models_1_1_transform_node.html#ac22dade55c1e8f81ea3e0892cd321190", null ],
     [ "isInViewSpace", "class_models_1_1_transform_node.html#a09f7aef0e06fd1110fc40e7184c80228", null ],
     [ "lockedToViewer", "class_models_1_1_transform_node.html#a97eadefd275cd1068eef1b587f7e173e", null ],
     [ "maxDistance", "class_models_1_1_transform_node.html#abfccd27df3a82ad1a2458792a32e328f", null ],

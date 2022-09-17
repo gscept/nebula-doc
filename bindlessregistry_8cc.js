@@ -6,6 +6,6 @@ var bindlessregistry_8cc =
     [ "ReregisterTexture", "bindlessregistry_8cc.html#ac3f031f2c7ccb90477937c5def535a33", null ],
     [ "UnregisterTexture", "bindlessregistry_8cc.html#a3766a4d1a20ed62ca32890a0e42ce700", null ],
     [ "bindResourceCriticalSection", "bindlessregistry_8cc.html#aaaaf0c2b35c4bc2cb8e57624311ad4e1", null ],
-    [ "state", "bindlessregistry_8cc.html#a80501379cb3cbf217cffaaa35fddfd3e", null ],
+    [ "state", "bindlessregistry_8cc.html#a793a9e0fd12c18a02c49790e3725c724", null ],
     [ "texturePool", "bindlessregistry_8cc.html#a9f0fb254d9ff102566c212fb72f67967", null ]
 ];

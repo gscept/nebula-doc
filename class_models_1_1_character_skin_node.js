@@ -12,6 +12,5 @@ var class_models_1_1_character_skin_node =
     [ "OnFinishedLoading", "class_models_1_1_character_skin_node.html#ac00aaabd6d4cd687f1b2e359d64b9128", null ],
     [ "ReserveFragments", "class_models_1_1_character_skin_node.html#a7c1d83d84990c7217a944d94d22557d9", null ],
     [ "Characters::CharacterContext", "class_models_1_1_character_skin_node.html#a7adc1e27d899837c8ae7d800fe31bf63", null ],
-    [ "skinFragments", "class_models_1_1_character_skin_node.html#a9612aa1a47938043a97f3a5d03bb2390", null ],
-    [ "skinnedShaderFeatureBits", "class_models_1_1_character_skin_node.html#a6ab70824abfa8f6477a61ef1de6505f8", null ]
+    [ "skinFragments", "class_models_1_1_character_skin_node.html#a9612aa1a47938043a97f3a5d03bb2390", null ]
 ];

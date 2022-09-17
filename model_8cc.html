@@ -99,7 +99,6 @@ $(document).ready(function(){initNavTree('model_8cc.html',''); initResizable(); 
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="render_2render_2stdneb_8h_source.html">render/stdneb.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="model_8h_source.html">model.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="streammodelcache_8h_source.html">streammodelcache.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="render_2coregraphics_2config_8h_source.html">coregraphics/config.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -110,20 +109,23 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1b8205930c5627e5d49360d0814f14f6"><td class="memItemLeft" align="right" valign="top">const ModelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a1b8205930c5627e5d49360d0814f14f6">Models::CreateModel</a> (const <a class="el" href="struct_resource_create_info.html">ResourceCreateInfo</a> &amp;info)</td></tr>
-<tr class="memdesc:a1b8205930c5627e5d49360d0814f14f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model (resource)  <a href="namespace_models.html#a1b8205930c5627e5d49360d0814f14f6">More...</a><br /></td></tr>
-<tr class="separator:a1b8205930c5627e5d49360d0814f14f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c46f7e8b40e869f3881bf9953d0171d"><td class="memItemLeft" align="right" valign="top">const ModelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a9c46f7e8b40e869f3881bf9953d0171d">Models::CreateModel</a> (const ModelCreateInfo &amp;info)</td></tr>
+<tr class="memdesc:a9c46f7e8b40e869f3881bf9953d0171d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model (resource)  <a href="namespace_models.html#a9c46f7e8b40e869f3881bf9953d0171d">More...</a><br /></td></tr>
+<tr class="separator:a9c46f7e8b40e869f3881bf9953d0171d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">Models::DestroyModel</a> (const ModelId id)</td></tr>
 <tr class="memdesc:a2c1aae4f2466c8c4ebf819884f81405b"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard model (resource)  <a href="namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b">More...</a><br /></td></tr>
 <tr class="separator:a2c1aae4f2466c8c4ebf819884f81405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8a019572bef03d92f59d49fde738ca0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#ac8a019572bef03d92f59d49fde738ca0">Models::ModelGetNodes</a> (const ModelId id)</td></tr>
 <tr class="memdesc:ac8a019572bef03d92f59d49fde738ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model nodes.  <a href="namespace_models.html#ac8a019572bef03d92f59d49fde738ca0">More...</a><br /></td></tr>
 <tr class="separator:ac8a019572bef03d92f59d49fde738ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a713529ef9618e0e28128f3a7727edd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a6a713529ef9618e0e28128f3a7727edd">Models::ModelGetBoundingBox</a> (const ModelId id)</td></tr>
+<tr class="memdesc:a6a713529ef9618e0e28128f3a7727edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model bounding box.  <a href="namespace_models.html#a6a713529ef9618e0e28128f3a7727edd">More...</a><br /></td></tr>
+<tr class="separator:a6a713529ef9618e0e28128f3a7727edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4737f38ea853d52c5e29e91fffbf2e0b"><td class="memItemLeft" align="right" valign="top">StreamModelCache *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a4737f38ea853d52c5e29e91fffbf2e0b">Models::modelPool</a></td></tr>
-<tr class="separator:a4737f38ea853d52c5e29e91fffbf2e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8384f3074d10ebd4c9062d5717240dac"><td class="memItemLeft" align="right" valign="top">ModelAllocator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a8384f3074d10ebd4c9062d5717240dac">Models::modelAllocator</a></td></tr>
+<tr class="separator:a8384f3074d10ebd4c9062d5717240dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -132,7 +134,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_d9d30cd1cce06ca19bffd160cc974b62.html">models</a></li><li class="navelem"><a class="el" href="model_8cc.html">model.cc</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

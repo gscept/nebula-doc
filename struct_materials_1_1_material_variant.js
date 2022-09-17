@@ -1,0 +1,35 @@
+var struct_materials_1_1_material_variant =
+[
+    [ "InternalType", "struct_materials_1_1_material_variant_1_1_internal_type.html", "struct_materials_1_1_material_variant_1_1_internal_type" ],
+    [ "TextureHandleTuple", "struct_materials_1_1_material_variant_1_1_texture_handle_tuple.html", "struct_materials_1_1_material_variant_1_1_texture_handle_tuple" ],
+    [ "Type", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0", [
+      [ "Invalid", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "TextureHandle", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a6ae75b3ce8e87dbaac31cbfaead3d9c4", null ],
+      [ "Float", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a22ae0e2b89e5e3d477f988cc36d3272b", null ],
+      [ "Vec2", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0afe98032d4f1c52a2f0b617f9205d5f80", null ],
+      [ "Vec4", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0af67402842935c0240e8109e7312def66", null ],
+      [ "Int", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a1686a6c336b71b36d77354cea19a8b52", null ],
+      [ "UInt", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a0b1291eded63143ac04709711274785a", null ],
+      [ "Bool", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0ac26f15e86e3de4c398a8273272aba034", null ],
+      [ "Mat4", "struct_materials_1_1_material_variant.html#a8f758f52987ebca773f6097fa39cbdc0a80f7408b0a5b5d78c26adae9f6f420f9", null ]
+    ] ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a5b1cd43e0f7436ead11a0cabff84c157", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#af3433691bcece50ef576c9a682b8810f", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a0eb94263e36f46c87a65e2787e85ab60", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a1b8c147773fca1a7b7b7c8872b450eb7", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#aebb38529e7a987f06c9c69103427cdee", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a3af4518d5f2b030b4e3ae235631a1118", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a01eaa46400d141027eb600e341607419", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a6ebf1d7b1e55d7d7840873120a28ad7c", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#ae8fc120d20b5ea5ab1772e8d96bb66e4", null ],
+    [ "MaterialVariant", "struct_materials_1_1_material_variant.html#a6e877dd000e1f1b45181ce7cedec975f", null ],
+    [ "Get", "struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767", null ],
+    [ "Get", "struct_materials_1_1_material_variant.html#a5365902602b0654e31bfd521ad7b8728", null ],
+    [ "GetType", "struct_materials_1_1_material_variant.html#ad7371ff01eb7b0fd3d06754f28a853ab", null ],
+    [ "Set", "struct_materials_1_1_material_variant.html#a18043fcb1086ca171df32e1a10369ab1", null ],
+    [ "SetType", "struct_materials_1_1_material_variant.html#a22e44a62781e36bb57eb5acc4bf6ad2a", null ],
+    [ "StringToType", "struct_materials_1_1_material_variant.html#a522021a3dce1d2c6de77525317d9ff4a", null ],
+    [ "TypeToSize", "struct_materials_1_1_material_variant.html#a1b43d9d04bd36f14e45566eb215b7c25", null ],
+    [ "mem", "struct_materials_1_1_material_variant.html#a6b081702fd85789d0730d9daf12a5822", null ],
+    [ "type", "struct_materials_1_1_material_variant.html#abde5f5193d8b2c5dac60cbd472bdecaf", null ]
+];

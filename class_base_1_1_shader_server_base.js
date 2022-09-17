@@ -9,9 +9,8 @@ var class_base_1_1_shader_server_base =
     [ "Close", "class_base_1_1_shader_server_base.html#a6426bdb79330a771534999d68f572cfd", null ],
     [ "FeatureMaskToString", "class_base_1_1_shader_server_base.html#a536fcf7505a4c321c05914741e2326f7", null ],
     [ "FeatureStringToMask", "class_base_1_1_shader_server_base.html#a55fecbd77c6b52981b2a23fdd63ca8ba", null ],
-    [ "GetAllShaders", "class_base_1_1_shader_server_base.html#aecd71332330722115436b8890999acb2", null ],
+    [ "GetAllShaders", "class_base_1_1_shader_server_base.html#aad8122127b313e63243bc7633e6ae633", null ],
     [ "GetFeatureBits", "class_base_1_1_shader_server_base.html#adcb344b06d83f1aa76d1eab4f56e601d", null ],
-    [ "GetName", "class_base_1_1_shader_server_base.html#abe3ed7a04f547e08e14ada2f9a21b833", null ],
     [ "GetShader", "class_base_1_1_shader_server_base.html#af299d7aa23a768357307f44b407379e2", null ],
     [ "HasShader", "class_base_1_1_shader_server_base.html#a1fce191c92ff08e69213371949eb4857", null ],
     [ "IsOpen", "class_base_1_1_shader_server_base.html#a66ac46ef58e158d2fe4b82f876132d3a", null ],
@@ -27,6 +26,6 @@ var class_base_1_1_shader_server_base =
     [ "pendingShaderReloads", "class_base_1_1_shader_server_base.html#a195d9f522448ab902d060d3ff203b199", null ],
     [ "shaderFeature", "class_base_1_1_shader_server_base.html#a9de46ba5f7ea17a9710bff725b4ec41d", null ],
     [ "shaderIdentifierRegistry", "class_base_1_1_shader_server_base.html#af2263b7fb353b5a7f649d6743f6cecdb", null ],
-    [ "shaders", "class_base_1_1_shader_server_base.html#a6d3cc953c4740df1db872d7e3c324a89", null ],
+    [ "shaders", "class_base_1_1_shader_server_base.html#aa885f69c2a7450d37522ac600cb22d34", null ],
     [ "sharedVariableShader", "class_base_1_1_shader_server_base.html#a9755351d00a0f57d56a4b0272d036e89", null ]
 ];

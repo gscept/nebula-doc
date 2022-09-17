@@ -2,7 +2,9 @@ var skeleton_8h =
 [
     [ "Characters::SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
     [ "Characters::CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
-    [ "CreateSkeleton", "skeleton_8h.html#aad5922be3e4c9255b9fa48fbd14c41b5", null ],
+    [ "Characters::SkeletonCreateInfo", "struct_characters_1_1_skeleton_create_info.html", "struct_characters_1_1_skeleton_create_info" ],
+    [ "SkeletonAllocator", "skeleton_8h.html#a96dd831b66787aff7e8646fc18969985", null ],
+    [ "CreateSkeleton", "skeleton_8h.html#a045aa3c288ead42327274369c3f6fd5b", null ],
     [ "DestroySkeleton", "skeleton_8h.html#ad6bbec5c5582bd44ff0825bcdaf6c21a", null ],
     [ "SkeletonGetBindPose", "skeleton_8h.html#a990ce62e6492ef3fd3eac97775523475", null ],
     [ "SkeletonGetJointIndex", "skeleton_8h.html#a826eefce7e5b4be166ae0bd47f80362e", null ],

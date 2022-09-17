@@ -5,6 +5,6 @@ var dir_d9d30cd1cce06ca19bffd160cc974b62 =
     [ "model.h", "model_8h.html", "model_8h" ],
     [ "modelcontext.cc", "modelcontext_8cc.html", "modelcontext_8cc" ],
     [ "modelcontext.h", "modelcontext_8h.html", "modelcontext_8h" ],
-    [ "streammodelcache.cc", "streammodelcache_8cc.html", "streammodelcache_8cc" ],
-    [ "streammodelcache.h", "streammodelcache_8h.html", "streammodelcache_8h" ]
+    [ "modelloader.cc", "modelloader_8cc.html", "modelloader_8cc" ],
+    [ "modelloader.h", "modelloader_8h.html", "modelloader_8h" ]
 ];

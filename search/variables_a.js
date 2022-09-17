@@ -17,7 +17,8 @@ var searchData=
   ['jobsyncallocator_14',['jobSyncAllocator',['../namespace_jobs.html#a2679e335bf8653dd563863da77d6a229',1,'Jobs']]],
   ['jobsystem_15',['jobSystem',['../class_app_1_1_render_application.html#ab66881b176a023acfb7df68f924fdaf3',1,'App::RenderApplication']]],
   ['jobthreadfirstcore_16',['JobThreadFirstCore',['../class_win32_1_1_win32_cpu.html#a12bf6e547082c8dd45ee3150ffa50575',1,'Win32::Win32Cpu::JobThreadFirstCore()'],['../class_posix_1_1_posix_cpu.html#a81dd04847584ecd938f67bccf9711e3a',1,'Posix::PosixCpu::JobThreadFirstCore()'],['../class_o_s_x_1_1_o_s_x_cpu.html#ae93639c3dcfb8b7baf35a0d190dece21',1,'OSX::OSXCpu::JobThreadFirstCore()']]],
-  ['jointpalette_17',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
-  ['jointpalettes_18',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
-  ['joints_19',['joints',['../struct_gltf_1_1_skin.html#a20b1cee01c83969773d773dcf3e04d7b',1,'Gltf::Skin']]]
+  ['jointindexmap_17',['jointIndexMap',['../struct_characters_1_1_skeleton_create_info.html#a83e97afdf374fb748314af8ffac3348d',1,'Characters::SkeletonCreateInfo']]],
+  ['jointpalette_18',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
+  ['jointpalettes_19',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
+  ['joints_20',['joints',['../struct_gltf_1_1_skin.html#a20b1cee01c83969773d773dcf3e04d7b',1,'Gltf::Skin::joints()'],['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo::joints()']]]
 ];

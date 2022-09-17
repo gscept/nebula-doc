@@ -92,7 +92,10 @@ $(document).ready(function(){initNavTree('material_8h.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">material.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -100,6 +103,9 @@ $(document).ready(function(){initNavTree('material_8h.html',''); initResizable()
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceid_8h_source.html">resources/resourceid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="batchgroup_8h_source.html">coregraphics/batchgroup.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="texture_8h_source.html">coregraphics/texture.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="buffer_8h_source.html">coregraphics/buffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="materialvariant_8h_source.html">materialvariant.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="material_8h_source.html">Go to the source code of this file.</a></p>
@@ -110,12 +116,96 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_instance_id.html">Materials::MaterialInstanceId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_create_info.html">Materials::MaterialCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_constant.html">Materials::MaterialConstant</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_texture.html">Materials::MaterialTexture</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_materials"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html">Materials</a></td></tr>
-<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_materials.html" title="Materials represent a set of settings and a correlated type, which tells the engine which shader to u...">Materials</a> represent a set of settings and a correlated type, which tells the engine which shader to use and how. <br /></td></tr>
+<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_materials.html" title="Materials represent a set of settings and a correlated shader configuration, which tells the engine w...">Materials</a> represent a set of settings and a correlated shader configuration, which tells the engine which shader to use and how to apply the constants and textures on each respective shader. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ad316064c8fe52b179aaadbec06d6f43b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b">Materials::BatchIndex</a></td></tr>
+<tr class="separator:ad316064c8fe52b179aaadbec06d6f43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ae17dbd7acaec611c78db1772e65c4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; ShaderConfig *, float, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; Resources::ResourceId &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a">Util::Tuple</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; &gt; &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a">Util::Tuple</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &gt; &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; MaterialTexture &gt; &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; MaterialConstant &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ae9ae17dbd7acaec611c78db1772e65c4">Materials::MaterialAllocator</a></td></tr>
+<tr class="separator:ae9ae17dbd7acaec611c78db1772e65c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35832df49e8586e0f1b29d3422a3c706"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a35832df49e8586e0f1b29d3422a3c706">Materials::MaterialInstanceAllocator</a></td></tr>
+<tr class="separator:a35832df49e8586e0f1b29d3422a3c706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a52cbbcd9c124e016ee978e9b5865c51f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51f">Materials::MaterialMembers</a> { <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fabb60d168ed7bdb986701de9cc7a7f973">Materials::Material_ShaderConfig</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa19f158ac3f001604c6d926b9eba851e1">Materials::Material_MinLOD</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa915d55a7350e197f8f7a94152fd99773">Materials::Material_LODTextures</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51faded4c589881296bac344a090e37dced3">Materials::Material_Table</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa0884206607e6fdf699de9b2ec1bf3654">Materials::Material_InstanceTable</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51face5a7122dedcad20d137f009367f76d3">Materials::Material_Buffers</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fae102b1c5bdbdb8ab272b904a6299f73d">Materials::Material_InstanceBuffers</a>
+, <a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa153d6d31fcde5a7ce9de1b64b67d61e2">Materials::Material_Textures</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa8e9fa6378ec723e452b7a5f6feb20365">Materials::Material_Constants</a>
+<br />
+ }</td></tr>
+<tr class="separator:a52cbbcd9c124e016ee978e9b5865c51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca82e39b18cbe12bdf7c1c5241cbeaf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf">Materials::MaterialInstanceMembers</a> { <a class="el" href="namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeafac32bdb5b27a44dceb98548434124858d">Materials::MaterialInstance_Offsets</a>
+ }</td></tr>
+<tr class="separator:a3ca82e39b18cbe12bdf7c1c5241cbeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a54153705da3c921aba3d7a4041719601"><td class="memItemLeft" align="right" valign="top">MaterialId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a54153705da3c921aba3d7a4041719601">Materials::CreateMaterial</a> (const MaterialCreateInfo &amp;info)</td></tr>
+<tr class="memdesc:a54153705da3c921aba3d7a4041719601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create material.  <a href="namespace_materials.html#a54153705da3c921aba3d7a4041719601">More...</a><br /></td></tr>
+<tr class="separator:a54153705da3c921aba3d7a4041719601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c57eb8a5d53212c0ace2abda9d9986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a06c57eb8a5d53212c0ace2abda9d9986">Materials::DestroyMaterial</a> (const MaterialId id)</td></tr>
+<tr class="memdesc:a06c57eb8a5d53212c0ace2abda9d9986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy material.  <a href="namespace_materials.html#a06c57eb8a5d53212c0ace2abda9d9986">More...</a><br /></td></tr>
+<tr class="separator:a06c57eb8a5d53212c0ace2abda9d9986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743e6cfb3f7d7fed66abf53ba804e430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a743e6cfb3f7d7fed66abf53ba804e430">Materials::MaterialSetConstant</a> (const MaterialId mat, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> name, const MaterialVariant &amp;value)</td></tr>
+<tr class="memdesc:a743e6cfb3f7d7fed66abf53ba804e430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set constant.  <a href="namespace_materials.html#a743e6cfb3f7d7fed66abf53ba804e430">More...</a><br /></td></tr>
+<tr class="separator:a743e6cfb3f7d7fed66abf53ba804e430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e8d7bee8078af477db658f32522e09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a36e8d7bee8078af477db658f32522e09">Materials::MaterialSetTexture</a> (const MaterialId mat, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> name, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex)</td></tr>
+<tr class="memdesc:a36e8d7bee8078af477db658f32522e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set texture.  <a href="namespace_materials.html#a36e8d7bee8078af477db658f32522e09">More...</a><br /></td></tr>
+<tr class="separator:a36e8d7bee8078af477db658f32522e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761d385f6830fe925838499947374d73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a761d385f6830fe925838499947374d73">Materials::MaterialAddLODTexture</a> (const MaterialId mat, const Resources::ResourceId tex)</td></tr>
+<tr class="memdesc:a761d385f6830fe925838499947374d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add texture to LOD update.  <a href="namespace_materials.html#a761d385f6830fe925838499947374d73">More...</a><br /></td></tr>
+<tr class="separator:a761d385f6830fe925838499947374d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb68430fa4ecc38f8f66b44aff4b1f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a5fb68430fa4ecc38f8f66b44aff4b1f0">Materials::MaterialSetHighestLod</a> (const MaterialId mat, float lod)</td></tr>
+<tr class="memdesc:a5fb68430fa4ecc38f8f66b44aff4b1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update LOD for material.  <a href="namespace_materials.html#a5fb68430fa4ecc38f8f66b44aff4b1f0">More...</a><br /></td></tr>
+<tr class="separator:a5fb68430fa4ecc38f8f66b44aff4b1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167d28dfc2c66baa34f15ad32ddd18db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a167d28dfc2c66baa34f15ad32ddd18db">Materials::MaterialApply</a> (const MaterialId id, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
+<tr class="memdesc:a167d28dfc2c66baa34f15ad32ddd18db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply material.  <a href="namespace_materials.html#a167d28dfc2c66baa34f15ad32ddd18db">More...</a><br /></td></tr>
+<tr class="separator:a167d28dfc2c66baa34f15ad32ddd18db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007afe1bb537a7678324b6bb03af46db"><td class="memItemLeft" align="right" valign="top">ShaderConfig *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a007afe1bb537a7678324b6bb03af46db">Materials::MaterialGetShaderConfig</a> (const MaterialId mat)</td></tr>
+<tr class="memdesc:a007afe1bb537a7678324b6bb03af46db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get material shader config.  <a href="namespace_materials.html#a007afe1bb537a7678324b6bb03af46db">More...</a><br /></td></tr>
+<tr class="separator:a007afe1bb537a7678324b6bb03af46db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98dc4f19c855e5310d05ef5d66da25ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b">Materials::BatchIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a98dc4f19c855e5310d05ef5d66da25ea">Materials::MaterialGetBatchIndex</a> (const MaterialId mat, const <a class="el" href="class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13">CoreGraphics::BatchGroup::Code</a> code)</td></tr>
+<tr class="memdesc:a98dc4f19c855e5310d05ef5d66da25ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shader config batch index.  <a href="namespace_materials.html#a98dc4f19c855e5310d05ef5d66da25ea">More...</a><br /></td></tr>
+<tr class="separator:a98dc4f19c855e5310d05ef5d66da25ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfe854e4796687cc5a291a12868b5b3"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a4dfe854e4796687cc5a291a12868b5b3">Materials::MaterialGetSortCode</a> (const MaterialId mat)</td></tr>
+<tr class="memdesc:a4dfe854e4796687cc5a291a12868b5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sort code.  <a href="namespace_materials.html#a4dfe854e4796687cc5a291a12868b5b3">More...</a><br /></td></tr>
+<tr class="separator:a4dfe854e4796687cc5a291a12868b5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb2567a55de957f33eb6eb753f1dd41"><td class="memItemLeft" align="right" valign="top">MaterialInstanceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#aefb2567a55de957f33eb6eb753f1dd41">Materials::CreateMaterialInstance</a> (const MaterialId material)</td></tr>
+<tr class="memdesc:aefb2567a55de957f33eb6eb753f1dd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create material instance.  <a href="namespace_materials.html#aefb2567a55de957f33eb6eb753f1dd41">More...</a><br /></td></tr>
+<tr class="separator:aefb2567a55de957f33eb6eb753f1dd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2a832b23ecdb65bf032f2b5659c57a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a">Materials::DestroyMaterialInstance</a> (const MaterialInstanceId materialInstance)</td></tr>
+<tr class="memdesc:a0c2a832b23ecdb65bf032f2b5659c57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy material instance.  <a href="namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a">More...</a><br /></td></tr>
+<tr class="separator:a0c2a832b23ecdb65bf032f2b5659c57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6f9588f549b15565214244d0f1b455a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a7c6181f333ec8bbadc23a8a3e236ba96">CoreGraphics::ConstantBufferOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ad6f9588f549b15565214244d0f1b455a">Materials::MaterialInstanceAllocate</a> (const MaterialInstanceId mat, const BatchIndex batch)</td></tr>
+<tr class="memdesc:ad6f9588f549b15565214244d0f1b455a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate instance constants, call per frame when instance constants are needed.  <a href="namespace_materials.html#ad6f9588f549b15565214244d0f1b455a">More...</a><br /></td></tr>
+<tr class="separator:ad6f9588f549b15565214244d0f1b455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f7ca2f014d3f7d2232a6d22bb48838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#aa6f7ca2f014d3f7d2232a6d22bb48838">Materials::MaterialInstanceApply</a> (const MaterialInstanceId id, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
+<tr class="memdesc:aa6f7ca2f014d3f7d2232a6d22bb48838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply material instance.  <a href="namespace_materials.html#aa6f7ca2f014d3f7d2232a6d22bb48838">More...</a><br /></td></tr>
+<tr class="separator:aa6f7ca2f014d3f7d2232a6d22bb48838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782f97123eb6c0a452b3f9ad0c655415"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a782f97123eb6c0a452b3f9ad0c655415">Materials::MaterialInstanceBufferSize</a> (const MaterialInstanceId sur, const BatchIndex batch)</td></tr>
+<tr class="memdesc:a782f97123eb6c0a452b3f9ad0c655415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get material instance buffer size for batch.  <a href="namespace_materials.html#a782f97123eb6c0a452b3f9ad0c655415">More...</a><br /></td></tr>
+<tr class="separator:a782f97123eb6c0a452b3f9ad0c655415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -124,7 +214,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="material_8h.html">material.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

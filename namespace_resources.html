@@ -99,10 +99,9 @@ $(document).ready(function(){initNavTree('namespace_resources.html',''); initRes
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A resource is a container for some type of file which is loaded. </p>
-<p >Loads resources as streams and is updated for every <a class="el" href="class_resources_1_1_resource_server.html#afb9e7b92a49469d46cc6d42f241b4ee9" title="update resource manager, call each frame">ResourceServer::Update()</a>.</p>
 <p >The <a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a> marks the central entry point into the <a class="el" href="class_resources_1_1_resource.html">Resource</a> subsystem.</p>
 <p >Saves resource to stream.</p>
-<p >The resource memory pool performs loading immediately using local memory buffers.</p>
+<p >Loads resources as streams and is updated for every <a class="el" href="class_resources_1_1_resource_server.html#afb9e7b92a49469d46cc6d42f241b4ee9" title="update resource manager, call each frame">ResourceServer::Update()</a>.</p>
 <p >The ResourceId type is just a StringAtom, but is primarily meant for resources.</p>
 <p ><a class="el" href="namespace_resources.html" title="A resource is a container for some type of file which is loaded.">Resources</a> can be loaded asynchronously, and through the ResourceContainer class, a resource can be used before it is loaded.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
@@ -110,12 +109,6 @@ $(document).ready(function(){initNavTree('namespace_resources.html',''); initRes
 <p >24 bytes ------------&mdash;8 bytes ------------&mdash; 24 bytes -----------&mdash; 8 bytes Pool storage id Pool id Allocator id Allocator resource type</p>
 <p >The pool storage id is the resource level index, the pool id is the global id of the resource pool, allocator id is instance level id, and the allocator resource type is just a flag we can use to check the type of the id, in case we are confused.</p>
 <p >Example: If we allocate a texture and want to use TextureId, then we take the 24 bytes part (id.id24) and use it to construct a Texture id, but we still need the ResourceId if we want to deallocate that texture at some later point. To convert to such an id, use the SpecializedId.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
-<p>This means, the <a class="el" href="class_resources_1_1_resource_memory_cache.html">ResourceMemoryCache</a> is immediate, and requires a previously created resource, using <a class="el" href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c" title="Reserve a resource for direct updating through a memory pool.">Resources::ReserveResource</a>, followed by the attachment of a loader, and then perform a load. Therefore, it requires no <a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a> Update() to trigger.</p>
-<p >This type of loader exists to provide code-local data, like a const float* mesh, or texture, or for example font data loaded as a const char* from some foreign library.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
-<p>It contains a set of convenience functions (which is just a proxy for the Singleton), and should be updated at least once per frame using Update().</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
 <p>Contains the names for the placeholder and failed-to-load resource names. When inheriting from this class, make sure to provide proper resource ids for:</p><ol type="1">
 <li>Placeholder resource</li>
@@ -126,23 +119,22 @@ $(document).ready(function(){initNavTree('namespace_resources.html',''); initRes
 <p >The pool associates a resource name (StringAtom) with an id, such that it can be quickly retrieved.</p>
 <p >When creating an instance of a resource, an ID is returned, this ID contains the following: 32 bits (resource instance id), 24 bits (resource id) and 8 bits (loader id). The instance id is a recyclable number which uniquely identifies a single allocation. The next 24 bits is the internal ID for the resource, which is only loaded once. The last 8 bits identifies which loader created the resource.</p>
 <p ><a class="el" href="namespace_resources.html" title="A resource is a container for some type of file which is loaded.">Resources</a> created with tags must also be removed using the tag. A tagged resource can only be discarded by using that tag. If a resource is loaded with a tag, it will remain bound to that tag, no matter what consecutive loads say.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
+<p>It contains a set of convenience functions (which is just a proxy for the Singleton), and should be updated at least once per frame using Update().</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource.html">Resource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_cache.html">ResourceCache</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader_thread.html">ResourceLoaderThread</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_memory_cache.html">ResourceMemoryCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_saver.html">ResourceSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_stream_cache.html">ResourceStreamCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,14 +146,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a93dfbf66bd18e32126ade29b0b98d25b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a93dfbf66bd18e32126ade29b0b98d25b">__ImplementAbstractClass</a> (<a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>, 'RELO', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
-<tr class="separator:a93dfbf66bd18e32126ade29b0b98d25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c874d43a89250fa0edd2d5187ce8e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a17c874d43a89250fa0edd2d5187ce8e1">ID_24_8_24_8_NAMED_TYPE</a> (ResourceId, poolId, poolIndex, resourceId, resourceType)</td></tr>
-<tr class="separator:a17c874d43a89250fa0edd2d5187ce8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5854172f2ae9c8b4c44063e14091c1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#aa5854172f2ae9c8b4c44063e14091c1e">ID_24_8_24_8_NAMED_TYPE</a> (ResourceId, cacheInstanceId, cacheIndex, resourceId, resourceType)</td></tr>
+<tr class="separator:aa5854172f2ae9c8b4c44063e14091c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8df5f2671da4e2262c34977d2fb8ad1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#aa8df5f2671da4e2262c34977d2fb8ad1">__ImplementAbstractClass</a> (<a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>, 'RSLO', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
+<tr class="separator:aa8df5f2671da4e2262c34977d2fb8ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1570093987e1f2f558b60ebeff736064"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a1570093987e1f2f558b60ebeff736064">__ImplementClass</a> (<a class="el" href="class_resources_1_1_resource_loader_thread.html">Resources::ResourceLoaderThread</a>, 'RETH', <a class="el" href="class_threading_1_1_thread.html">Threading::Thread</a>)</td></tr>
 <tr class="separator:a1570093987e1f2f558b60ebeff736064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98a74ea91daf9c82118d2294ca2b072"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#ad98a74ea91daf9c82118d2294ca2b072">__ImplementAbstractClass</a> (<a class="el" href="class_resources_1_1_resource_memory_cache.html">Resources::ResourceMemoryCache</a>, 'RMLO', <a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>)</td></tr>
-<tr class="separator:ad98a74ea91daf9c82118d2294ca2b072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3dbe98c3458b2938f9d6e38e18a4a3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#ad3dbe98c3458b2938f9d6e38e18a4a3d">__ImplementAbstractClass</a> (<a class="el" href="class_resources_1_1_resource_saver.html">Resources::ResourceSaver</a>, 'RESA', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:ad3dbe98c3458b2938f9d6e38e18a4a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ed351b42086ddb8433b6b652fd60b88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a2ed351b42086ddb8433b6b652fd60b88">__ImplementClass</a> (<a class="el" href="class_resources_1_1_resource_server.html">Resources::ResourceServer</a>, 'RMGR', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
@@ -177,24 +167,13 @@ Functions</h2></td></tr>
 <tr class="separator:aa9525928283dd4bec9b1cd86f99f04e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3a81bbde504d7a472e9a6eae66e10e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a2d3a81bbde504d7a472e9a6eae66e10e">DiscardResource</a> (const Resources::ResourceId id)</td></tr>
 <tr class="separator:a2d3a81bbde504d7a472e9a6eae66e10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eccf33f3cc168b58b4e30675edb022c"><td class="memItemLeft" align="right" valign="top">Resources::ResourceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c">ReserveResource</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;res, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;type)</td></tr>
-<tr class="memdesc:a7eccf33f3cc168b58b4e30675edb022c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve a resource for direct updating through a memory pool.  <a href="namespace_resources.html#a7eccf33f3cc168b58b4e30675edb022c">More...</a><br /></td></tr>
-<tr class="separator:a7eccf33f3cc168b58b4e30675edb022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b920384efba11a2354c8fbeb7f8281"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource_cache.html#afcef2fddfba7a4d91ffeaa3736688003">ResourceCache::LoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#ae6b920384efba11a2354c8fbeb7f8281">LoadFromMemory</a> (const Resources::ResourceId id, void *info)</td></tr>
-<tr class="memdesc:ae6b920384efba11a2354c8fbeb7f8281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update resource previously reserved.  <a href="namespace_resources.html#ae6b920384efba11a2354c8fbeb7f8281">More...</a><br /></td></tr>
-<tr class="separator:ae6b920384efba11a2354c8fbeb7f8281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6eac045904ef7b6d659587c5a416fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a6c6eac045904ef7b6d659587c5a416fc">ReloadResource</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;res)</td></tr>
 <tr class="separator:a6c6eac045904ef7b6d659587c5a416fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37f105ce84ecbee7f98fb6f41950338c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a37f105ce84ecbee7f98fb6f41950338c">WaitForLoaderThread</a> ()</td></tr>
 <tr class="separator:a37f105ce84ecbee7f98fb6f41950338c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb740efac7ecd94b25989af5d1f68de2"><td class="memTemplParams" colspan="2">template&lt;class POOL_TYPE &gt; </td></tr>
-<tr class="memitem:acb740efac7ecd94b25989af5d1f68de2"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_resources.html#acb740efac7ecd94b25989af5d1f68de2">GetMemoryPool</a> ()</td></tr>
-<tr class="separator:acb740efac7ecd94b25989af5d1f68de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memTemplParams" colspan="2">template&lt;class POOL_TYPE &gt; </td></tr>
 <tr class="memitem:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_resources.html#af5a64ab7fe1b30e8c07afddcb6a2f5dd">GetStreamPool</a> ()</td></tr>
 <tr class="separator:af5a64ab7fe1b30e8c07afddcb6a2f5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac00e52280d3c91fec44e30f227707847"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#ac00e52280d3c91fec44e30f227707847">__ImplementAbstractClass</a> (<a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>, 'RSLO', <a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>)</td></tr>
-<tr class="separator:ac00e52280d3c91fec44e30f227707847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a913868da5a35b82db9988805bd5bcaf0" name="a913868da5a35b82db9988805bd5bcaf0"></a>
@@ -212,8 +191,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a93dfbf66bd18e32126ade29b0b98d25b" name="a93dfbf66bd18e32126ade29b0b98d25b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93dfbf66bd18e32126ade29b0b98d25b">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[1/4]</span></h2>
+<a id="aa8df5f2671da4e2262c34977d2fb8ad1" name="aa8df5f2671da4e2262c34977d2fb8ad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8df5f2671da4e2262c34977d2fb8ad1">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,13 +200,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">Resources::__ImplementAbstractClass </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">'RELO'&#160;</td>
+          <td class="paramtype">'RSLO'&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -246,42 +225,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad98a74ea91daf9c82118d2294ca2b072" name="ad98a74ea91daf9c82118d2294ca2b072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad98a74ea91daf9c82118d2294ca2b072">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Resources::__ImplementAbstractClass </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_memory_cache.html">Resources::ResourceMemoryCache</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'RMLO'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad3dbe98c3458b2938f9d6e38e18a4a3d" name="ad3dbe98c3458b2938f9d6e38e18a4a3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3dbe98c3458b2938f9d6e38e18a4a3d">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3dbe98c3458b2938f9d6e38e18a4a3d">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,40 +247,6 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac00e52280d3c91fec44e30f227707847" name="ac00e52280d3c91fec44e30f227707847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac00e52280d3c91fec44e30f227707847">&#9670;&#160;</a></span>__ImplementAbstractClass() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Resources::__ImplementAbstractClass </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_stream_cache.html">Resources::ResourceStreamCache</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'RSLO'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_cache.html">Resources::ResourceCache</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -576,33 +487,6 @@ template&lt;class METADATA &gt; </div>
 
 </div>
 </div>
-<a id="acb740efac7ecd94b25989af5d1f68de2" name="acb740efac7ecd94b25989af5d1f68de2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb740efac7ecd94b25989af5d1f68de2">&#9670;&#160;</a></span>GetMemoryPool()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class POOL_TYPE &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">POOL_TYPE * Resources::GetMemoryPool </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af5a64ab7fe1b30e8c07afddcb6a2f5dd" name="af5a64ab7fe1b30e8c07afddcb6a2f5dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5a64ab7fe1b30e8c07afddcb6a2f5dd">&#9670;&#160;</a></span>GetStreamPool()</h2>
 
@@ -630,8 +514,8 @@ template&lt;class POOL_TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a17c874d43a89250fa0edd2d5187ce8e1" name="a17c874d43a89250fa0edd2d5187ce8e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c874d43a89250fa0edd2d5187ce8e1">&#9670;&#160;</a></span>ID_24_8_24_8_NAMED_TYPE()</h2>
+<a id="aa5854172f2ae9c8b4c44063e14091c1e" name="aa5854172f2ae9c8b4c44063e14091c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5854172f2ae9c8b4c44063e14091c1e">&#9670;&#160;</a></span>ID_24_8_24_8_NAMED_TYPE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,13 +529,13 @@ template&lt;class POOL_TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">poolId&#160;</td>
+          <td class="paramtype">cacheInstanceId&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">poolIndex&#160;</td>
+          <td class="paramtype">cacheIndex&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -673,45 +557,6 @@ template&lt;class POOL_TYPE &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae6b920384efba11a2354c8fbeb7f8281" name="ae6b920384efba11a2354c8fbeb7f8281"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6b920384efba11a2354c8fbeb7f8281">&#9670;&#160;</a></span>LoadFromMemory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_resources_1_1_resource_cache.html#afcef2fddfba7a4d91ffeaa3736688003">ResourceCache::LoadStatus</a> Resources::LoadFromMemory </td>
-          <td>(</td>
-          <td class="paramtype">const Resources::ResourceId&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>info</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update resource previously reserved. </p>
-<p >The info pointer is a struct containing pool specific information. </p>
 
 </div>
 </div>
@@ -738,51 +583,6 @@ template&lt;class POOL_TYPE &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7eccf33f3cc168b58b4e30675edb022c" name="a7eccf33f3cc168b58b4e30675edb022c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eccf33f3cc168b58b4e30675edb022c">&#9670;&#160;</a></span>ReserveResource()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Resources::ResourceId Resources::ReserveResource </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;&#160;</td>
-          <td class="paramname"><em>res</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reserve a resource for direct updating through a memory pool. </p>
-<p >The type is the RTTI of the pool to use. </p>
 
 </div>
 </div>
@@ -860,7 +660,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

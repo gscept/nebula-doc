@@ -5,19 +5,21 @@ var namespace_characters =
     [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
     [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
     [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
+    [ "SkeletonCreateInfo", "struct_characters_1_1_skeleton_create_info.html", "struct_characters_1_1_skeleton_create_info" ],
     [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
     [ "SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", "struct_characters_1_1_skeleton_job_joint" ],
-    [ "StreamSkeletonCache", "class_characters_1_1_stream_skeleton_cache.html", "class_characters_1_1_stream_skeleton_cache" ],
+    [ "SkeletonLoader", "class_characters_1_1_skeleton_loader.html", "class_characters_1_1_skeleton_loader" ],
+    [ "SkeletonAllocator", "namespace_characters.html#a96dd831b66787aff7e8646fc18969985", null ],
     [ "EnqueueMode", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613", [
       [ "Append", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613af978c16aa539b5335082e261b1397363", null ],
       [ "Replace", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613a3104cc9b1c3e7c690db2fd0d9e37801d", null ],
       [ "IgnoreIfSame", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613ad341542e1f38c5e70845977233564931", null ]
     ] ],
-    [ "__ImplementClass", "namespace_characters.html#accb62427468f7286b042367ab130ee18", null ],
+    [ "__ImplementClass", "namespace_characters.html#a2a839146d649840c333b9a68e8cdf7e5", null ],
     [ "__ImplementContext", "namespace_characters.html#a969705a559fb41ba2b6edd841dbd09f8", null ],
     [ "__ImplementEnumBitOperators", "namespace_characters.html#ac596dc49035c05e3bac610c45a430a84", null ],
     [ "ClampKeyIndex", "namespace_characters.html#a7f4600aa78eea3c58590b4e03f0da7ca", null ],
-    [ "CreateSkeleton", "namespace_characters.html#aad5922be3e4c9255b9fa48fbd14c41b5", null ],
+    [ "CreateSkeleton", "namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b", null ],
     [ "DestroySkeleton", "namespace_characters.html#ad6bbec5c5582bd44ff0825bcdaf6c21a", null ],
     [ "EvalCharacter", "namespace_characters.html#ac883e3ed3ac83bd705ce8f00b014fdf7", null ],
     [ "GetAbsoluteStopTime", "namespace_characters.html#a21e80b2d8993ce540b525aa8e7c7390a", null ],
@@ -30,5 +32,5 @@ var namespace_characters =
     [ "SkeletonGetJointIndex", "namespace_characters.html#a826eefce7e5b4be166ae0bd47f80362e", null ],
     [ "SkeletonGetJoints", "namespace_characters.html#acd8c895d68af3ad3661962a1af81e602", null ],
     [ "SkeletonGetNumJoints", "namespace_characters.html#aa28d1580aaffac047ba177ed74796f13", null ],
-    [ "skeletonPool", "namespace_characters.html#a05cb36a5214001018b9f2b0e4b2ebb2b", null ]
+    [ "skeletonAllocator", "namespace_characters.html#a88addc38496cb1faa7cbf01a561f045c", null ]
 ];

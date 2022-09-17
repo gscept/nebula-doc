@@ -15,8 +15,6 @@ var vkgraphicsdevice_8h =
     [ "GetPresentFence", "vkgraphicsdevice_8h.html#a29c2d04819b039528a68c0d6bb4839ee", null ],
     [ "GetQueryPool", "vkgraphicsdevice_8h.html#a3f1a0612b99c18072f3393f65af32cf6", null ],
     [ "GetQueue", "vkgraphicsdevice_8h.html#ad255c4e9e049eb423bd5fc2f9416a9e2", null ],
-    [ "GetQueueFamilies", "vkgraphicsdevice_8h.html#aae9ef0df93ddc929cb0f117b82f7c7fd", null ],
-    [ "GetQueueFamily", "vkgraphicsdevice_8h.html#a80f55288d2f6d34295cbb269811b9545", null ],
     [ "GetRenderingSemaphore", "vkgraphicsdevice_8h.html#ac3e2165bac2d784b9431a57a6c075f6d", null ],
     [ "SetupAdapter", "vkgraphicsdevice_8h.html#ad7977af7967bd1c4545d340b2543a845", null ],
     [ "SparseTextureBind", "vkgraphicsdevice_8h.html#a33631508e7e7b011fed57eba8d97233e", null ]

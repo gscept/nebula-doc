@@ -109,8 +109,6 @@ $(document).ready(function(){initNavTree('resourceid_8h.html',''); initResizable
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resource_create_info.html">ResourceCreateInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -130,8 +128,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a17c874d43a89250fa0edd2d5187ce8e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#a17c874d43a89250fa0edd2d5187ce8e1">Resources::ID_24_8_24_8_NAMED_TYPE</a> (ResourceId, poolId, poolIndex, resourceId, resourceType)</td></tr>
-<tr class="separator:a17c874d43a89250fa0edd2d5187ce8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5854172f2ae9c8b4c44063e14091c1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_resources.html#aa5854172f2ae9c8b4c44063e14091c1e">Resources::ID_24_8_24_8_NAMED_TYPE</a> (ResourceId, cacheInstanceId, cacheIndex, resourceId, resourceType)</td></tr>
+<tr class="separator:aa5854172f2ae9c8b4c44063e14091c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ac10163bde441bef269d83cda54767506" name="ac10163bde441bef269d83cda54767506"></a>
@@ -149,12 +147,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <span class="keyword">struct </span>type : <span class="keyword">public</span> Resources::ResourceId { \</div>
+<b>Value:</b><div class="fragment"><div class="line">        <span class="keyword">struct </span>type : <span class="keyword">public</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a> { \</div>
 <div class="line">        <span class="keyword">constexpr</span> type() {};\</div>
-<div class="line">        <span class="keyword">constexpr</span> type(<span class="keyword">const</span> Resources::ResourceId&amp; res) : <a class="code hl_namespace" href="namespace_resources.html">Resources</a>::ResourceId(res) {};\</div>
+<div class="line">        <span class="keyword">constexpr</span> type(<span class="keyword">const</span> <a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a>&amp; res) : <a class="code hl_namespace" href="namespace_resources.html">Resources</a>::ResourceUnknownId(res) {};\</div>
+<div class="line">        <span class="keyword">constexpr</span> type(<span class="keyword">const</span> Resources::ResourceId&amp; res) : <a class="code hl_namespace" href="namespace_resources.html">Resources</a>::ResourceUnknownId(res.resourceId, res.resourceType) {};\</div>
+<div class="line">        <span class="keyword">constexpr</span> type(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_ids.html#a95f57e3f1871c1409f45cdfedc3171e3">Ids::Id8</a> type) : <a class="code hl_namespace" href="namespace_resources.html">Resources</a>::ResourceUnknownId(id, type) {};\</div>
 <div class="line">    }; \</div>
-<div class="line">    <span class="keyword">static</span> <span class="keyword">constexpr</span> type Invalid##type = Resources::InvalidResourceId;</div>
+<div class="line">    <span class="keyword">static</span> <span class="keyword">constexpr</span> type Invalid##type = Resources::InvalidResourceUnknownId;</div>
+<div class="ttc" id="anamespace_ids_html_a61207b7267061ba0aa27b77a4b75d2ab"><div class="ttname"><a href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a></div><div class="ttdeci">uint32_t Id24</div><div class="ttdef"><b>Definition:</b> id.h:199</div></div>
+<div class="ttc" id="anamespace_ids_html_a95f57e3f1871c1409f45cdfedc3171e3"><div class="ttname"><a href="namespace_ids.html#a95f57e3f1871c1409f45cdfedc3171e3">Ids::Id8</a></div><div class="ttdeci">uint8_t Id8</div><div class="ttdef"><b>Definition:</b> id.h:201</div></div>
 <div class="ttc" id="anamespace_resources_html"><div class="ttname"><a href="namespace_resources.html">Resources</a></div><div class="ttdoc">A resource is a container for some type of file which is loaded.</div><div class="ttdef"><b>Definition:</b> resource.cc:9</div></div>
+<div class="ttc" id="astruct_resources_1_1_resource_unknown_id_html"><div class="ttname"><a href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a></div><div class="ttdef"><b>Definition:</b> resourceid.h:36</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -165,7 +168,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourceid_8h.html">resourceid.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

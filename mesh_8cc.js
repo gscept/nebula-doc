@@ -8,5 +8,5 @@ var mesh_8cc =
     [ "MeshGetTopology", "mesh_8cc.html#ab5538035f322444a6c1599ba396444d1", null ],
     [ "MeshGetVertexBuffer", "mesh_8cc.html#aa87a73ce15ffe2a317ca44ddf772e551", null ],
     [ "MeshGetVertexOffset", "mesh_8cc.html#a2152ebb4ca924da0d7c6018ad491531f", null ],
-    [ "meshCache", "mesh_8cc.html#a0827b7d957003263e2c4141e8482e9c3", null ]
+    [ "meshAllocator", "mesh_8cc.html#a159d42ca6eb5363ef2773376cc6497b0", null ]
 ];

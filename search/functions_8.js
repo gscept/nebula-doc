@@ -54,7 +54,7 @@ var searchData=
   ['hasport_51',['HasPort',['../class_messaging_1_1_dispatcher.html#a13a76cd264ef73d800ca51084502cafd',1,'Messaging::Dispatcher']]],
   ['hasprimarycolumn_52',['HasPrimaryColumn',['../class_db_1_1_table.html#a75156eb603b455c911dab91f703198a8',1,'Db::Table']]],
   ['hasrecvdata_53',['HasRecvData',['../class_win32_1_1_win32_socket.html#ac7e396ac65188e6afb8682029adc638b',1,'Win32::Win32Socket::HasRecvData()'],['../class_posix_1_1_posix_socket.html#a9a6de7abb9d02c62c7219670ea42b03a',1,'Posix::PosixSocket::HasRecvData()']]],
-  ['hasresource_54',['HasResource',['../class_resources_1_1_resource_server.html#a6adf1a2dcc8b0ed21f2c3d4193a1bab6',1,'Resources::ResourceServer::HasResource()'],['../class_resources_1_1_resource_cache.html#a0ceab7d90b06c27e264e1f2e088bbd50',1,'Resources::ResourceCache::HasResource()']]],
+  ['hasresource_54',['HasResource',['../class_resources_1_1_resource_server.html#a6adf1a2dcc8b0ed21f2c3d4193a1bab6',1,'Resources::ResourceServer::HasResource()'],['../class_resources_1_1_resource_loader.html#ab3db26a1c91168f9291c6a9d0645b998',1,'Resources::ResourceLoader::HasResource()']]],
   ['hasroom_55',['HasRoom',['../class_i_o_1_1_memory_stream.html#a41099e50042310189d3393bdf01d7090',1,'IO::MemoryStream']]],
   ['hasrow_56',['HasRow',['../class_util_1_1_sparse_table.html#a7dfdff6a4611967b86cc8888039f60f0',1,'Util::SparseTable']]],
   ['hasschema_57',['HasSchema',['../class_flat_1_1_flatbuffer_interface.html#ab7565eaace058a195f247cbcbe9e3664',1,'Flat::FlatbufferInterface']]],

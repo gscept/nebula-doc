@@ -1,6 +1,8 @@
 var dir_6c58477bfd8ecafbb488bbd2493f95bf =
 [
     [ "jobs", "dir_c1e77362bf859dbe8be9a1659a36baec.html", "dir_c1e77362bf859dbe8be9a1659a36baec" ],
+    [ "animationloader.cc", "animationloader_8cc.html", "animationloader_8cc" ],
+    [ "animationloader.h", "animationloader_8h.html", "animationloader_8h" ],
     [ "animclip.cc", "animclip_8cc.html", null ],
     [ "animclip.h", "animclip_8h.html", "animclip_8h" ],
     [ "animcurve.h", "animcurve_8h.html", "animcurve_8h" ],
@@ -24,7 +26,5 @@ var dir_6c58477bfd8ecafbb488bbd2493f95bf =
     [ "infinitytype.h", "infinitytype_8h.html", "infinitytype_8h" ],
     [ "naxfileformatstructs.h", "naxfileformatstructs_8h.html", "naxfileformatstructs_8h" ],
     [ "sampletype.cc", "sampletype_8cc.html", null ],
-    [ "sampletype.h", "sampletype_8h.html", "sampletype_8h" ],
-    [ "streamanimationcache.cc", "streamanimationcache_8cc.html", "streamanimationcache_8cc" ],
-    [ "streamanimationcache.h", "streamanimationcache_8h.html", "streamanimationcache_8h" ]
+    [ "sampletype.h", "sampletype_8h.html", "sampletype_8h" ]
 ];

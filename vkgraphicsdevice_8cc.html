@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('vkgraphicsdevice_8cc.html',''); initRe
 <code>#include &quot;<a class="el" href="vkpass_8h_source.html">vkpass.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkbarrier_8h_source.html">vkbarrier.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkbuffer_8h_source.html">vkbuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vktexture_8h_source.html">vktexture.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="displaydevice_8h_source.html">coregraphics/displaydevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_8h_source.html">app/application.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bit_8h_source.html">util/bit.h</a>&quot;</code><br />
@@ -118,10 +119,8 @@ $(document).ready(function(){initNavTree('vkgraphicsdevice_8cc.html',''); initRe
 <code>#include &quot;<a class="el" href="vkevent_8h_source.html">vkevent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkfence_8h_source.html">vkfence.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktypes_8h_source.html">vktypes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="vertexsignaturecache_8h_source.html">coregraphics/vertexsignaturecache.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="glfwwindow_8h_source.html">coregraphics/glfw/glfwwindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vksemaphore_8h_source.html">coregraphics/vk/vksemaphore.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="memorytexturecache_8h_source.html">coregraphics/memorytexturecache.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktextureview_8h_source.html">coregraphics/vk/vktextureview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceserver_8h_source.html">resources/resourceserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsdevice_8h_source.html">coregraphics/graphicsdevice.h</a>&quot;</code><br />
@@ -198,12 +197,6 @@ Functions</h2></td></tr>
 <tr class="separator:a3f1a0612b99c18072f3393f65af32cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af085bb964d6d4e9e378561f2fe614700"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af085bb964d6d4e9e378561f2fe614700">Vulkan::WaitForPresent</a> (VkSemaphore sem)</td></tr>
 <tr class="separator:af085bb964d6d4e9e378561f2fe614700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae9ef0df93ddc929cb0f117b82f7c7fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; uint32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aae9ef0df93ddc929cb0f117b82f7c7fd">Vulkan::GetQueueFamilies</a> ()</td></tr>
-<tr class="memdesc:aae9ef0df93ddc929cb0f117b82f7c7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">get queue families  <a href="namespace_vulkan.html#aae9ef0df93ddc929cb0f117b82f7c7fd">More...</a><br /></td></tr>
-<tr class="separator:aae9ef0df93ddc929cb0f117b82f7c7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f55288d2f6d34295cbb269811b9545"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a80f55288d2f6d34295cbb269811b9545">Vulkan::GetQueueFamily</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
-<tr class="memdesc:a80f55288d2f6d34295cbb269811b9545"><td class="mdescLeft">&#160;</td><td class="mdescRight">get specific queue family  <a href="namespace_vulkan.html#a80f55288d2f6d34295cbb269811b9545">More...</a><br /></td></tr>
-<tr class="separator:a80f55288d2f6d34295cbb269811b9545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad255c4e9e049eb423bd5fc2f9416a9e2"><td class="memItemLeft" align="right" valign="top">const VkQueue&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad255c4e9e049eb423bd5fc2f9416a9e2">Vulkan::GetQueue</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
 <tr class="memdesc:ad255c4e9e049eb423bd5fc2f9416a9e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get queue from index and family  <a href="namespace_vulkan.html#ad255c4e9e049eb423bd5fc2f9416a9e2">More...</a><br /></td></tr>
 <tr class="separator:ad255c4e9e049eb423bd5fc2f9416a9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,6 +353,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ac13038bc2d9b1a751402ebec4452e75a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ac13038bc2d9b1a751402ebec4452e75a">CoreGraphics::FinishQueries</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4f">CoreGraphics::QueryType</a> type, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> start, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
 <tr class="memdesc:ac13038bc2d9b1a751402ebec4452e75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy query results to buffer.  <a href="namespace_core_graphics.html#ac13038bc2d9b1a751402ebec4452e75a">More...</a><br /></td></tr>
 <tr class="separator:ac13038bc2d9b1a751402ebec4452e75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27e93875d9ff1eaf0b77f8b0b97277b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a27e93875d9ff1eaf0b77f8b0b97277b2">CoreGraphics::GetQueueIndex</a> (const QueueType queue)</td></tr>
+<tr class="memdesc:a27e93875d9ff1eaf0b77f8b0b97277b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get queue index.  <a href="namespace_core_graphics.html#a27e93875d9ff1eaf0b77f8b0b97277b2">More...</a><br /></td></tr>
+<tr class="separator:a27e93875d9ff1eaf0b77f8b0b97277b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32027f43597c37147fb3151d01bd8d24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; uint32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a32027f43597c37147fb3151d01bd8d24">CoreGraphics::GetQueueIndices</a> ()</td></tr>
+<tr class="memdesc:a32027f43597c37147fb3151d01bd8d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get queue indices.  <a href="namespace_core_graphics.html#a32027f43597c37147fb3151d01bd8d24">More...</a><br /></td></tr>
+<tr class="separator:a32027f43597c37147fb3151d01bd8d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a353b1e0b4a149ac595893d339bb7a4ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a353b1e0b4a149ac595893d339bb7a4ae">CoreGraphics::AllocateVertices</a> (const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numVertices, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> vertexSize)</td></tr>
 <tr class="memdesc:a353b1e0b4a149ac595893d339bb7a4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate vertices from the global vertex pool.  <a href="namespace_core_graphics.html#a353b1e0b4a149ac595893d339bb7a4ae">More...</a><br /></td></tr>
 <tr class="separator:a353b1e0b4a149ac595893d339bb7a4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,9 +377,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8e7755eb7fb4d2b8e40e81072626e647"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8e7755eb7fb4d2b8e40e81072626e647">CoreGraphics::GetIndexBuffer</a> ()</td></tr>
 <tr class="memdesc:a8e7755eb7fb4d2b8e40e81072626e647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get index buffer.  <a href="namespace_core_graphics.html#a8e7755eb7fb4d2b8e40e81072626e647">More...</a><br /></td></tr>
 <tr class="separator:a8e7755eb7fb4d2b8e40e81072626e647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa85c7c049578edcac219bde85eccc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1fa85c7c049578edcac219bde85eccc2">CoreGraphics::AllocateUpload</a> (const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes)</td></tr>
-<tr class="memdesc:a1fa85c7c049578edcac219bde85eccc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate upload memory.  <a href="namespace_core_graphics.html#a1fa85c7c049578edcac219bde85eccc2">More...</a><br /></td></tr>
-<tr class="separator:a1fa85c7c049578edcac219bde85eccc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca2639d184ec3779e89c4015499eba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aaca2639d184ec3779e89c4015499eba4">CoreGraphics::AllocateUpload</a> (const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
+<tr class="memdesc:aaca2639d184ec3779e89c4015499eba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate upload memory.  <a href="namespace_core_graphics.html#aaca2639d184ec3779e89c4015499eba4">More...</a><br /></td></tr>
+<tr class="separator:aaca2639d184ec3779e89c4015499eba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa005e1b53d19c011ca455e5149a5b83f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aa005e1b53d19c011ca455e5149a5b83f">CoreGraphics::UploadInternal</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
 <tr class="memdesc:aa005e1b53d19c011ca455e5149a5b83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload memory to upload buffer with given offset, return offset.  <a href="namespace_core_graphics.html#aa005e1b53d19c011ca455e5149a5b83f">More...</a><br /></td></tr>
 <tr class="separator:aa005e1b53d19c011ca455e5149a5b83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -500,7 +499,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

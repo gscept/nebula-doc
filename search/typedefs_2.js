@@ -2,7 +2,7 @@ var searchData=
 [
   ['cameraallocator_0',['CameraAllocator',['../class_graphics_1_1_camera_context.html#aa64d3fb17b5e826ce941ae727b25938f',1,'Graphics::CameraContext']]],
   ['char_1',['Char',['../namespace_input.html#a3fc54dbf2698f895d84d1ab729e8a7e8',1,'Input']]],
-  ['charactercontextallocator_2',['CharacterContextAllocator',['../class_characters_1_1_character_context.html#a40c6a6b0b249189a0a8902a4788fccf9',1,'Characters::CharacterContext']]],
+  ['charactercontextallocator_2',['CharacterContextAllocator',['../class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd',1,'Characters::CharacterContext']]],
   ['code_3',['Code',['../class_core_graphics_1_1_batch_group.html#a4c928427f9581b2fcb478909d56cfb13',1,'CoreGraphics::BatchGroup::Code()'],['../class_core_graphics_1_1_shader_identifier.html#a922f1e10b16858b9527f6c3d9d6936a6',1,'CoreGraphics::ShaderIdentifier::Code()']]],
   ['columnbuffer_4',['ColumnBuffer',['../struct_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d',1,'MemDb::Table']]],
   ['completioncounter_5',['CompletionCounter',['../namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7',1,'Jobs2']]],

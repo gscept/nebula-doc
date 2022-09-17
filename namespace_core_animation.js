@@ -1,5 +1,7 @@
 var namespace_core_animation =
 [
+    [ "AnimationCreateInfo", "struct_core_animation_1_1_animation_create_info.html", "struct_core_animation_1_1_animation_create_info" ],
+    [ "AnimationLoader", "class_core_animation_1_1_animation_loader.html", "class_core_animation_1_1_animation_loader" ],
     [ "AnimClip", "class_core_animation_1_1_anim_clip.html", "class_core_animation_1_1_anim_clip" ],
     [ "AnimCurve", "class_core_animation_1_1_anim_curve.html", "class_core_animation_1_1_anim_curve" ],
     [ "AnimEvent", "class_core_animation_1_1_anim_event.html", "class_core_animation_1_1_anim_event" ],
@@ -20,12 +22,14 @@ var namespace_core_animation =
     [ "Nax3Curve", "struct_core_animation_1_1_nax3_curve.html", "struct_core_animation_1_1_nax3_curve" ],
     [ "Nax3Header", "struct_core_animation_1_1_nax3_header.html", "struct_core_animation_1_1_nax3_header" ],
     [ "SampleType", "class_core_animation_1_1_sample_type.html", "class_core_animation_1_1_sample_type" ],
-    [ "StreamAnimationCache", "class_core_animation_1_1_stream_animation_cache.html", "class_core_animation_1_1_stream_animation_cache" ],
+    [ "AnimAllocator", "namespace_core_animation.html#a3dc85e2a9fc4727684fb95c16de538fd", null ],
+    [ "__ImplementClass", "namespace_core_animation.html#ac7c89001d2ebee77dfeaaa2175065e89", null ],
     [ "__ImplementClass", "namespace_core_animation.html#a5241612fcefb2b75743c5991d8da08fb", null ],
-    [ "__ImplementClass", "namespace_core_animation.html#a23bd6ea68edda861fa86a1c73bc1240c", null ],
     [ "AnimComputeSlice", "namespace_core_animation.html#a51e40229e5e2234245d129314521c092", null ],
+    [ "AnimGetBuffer", "namespace_core_animation.html#a27ae971f21ef69abb34c821519ce1a2b", null ],
     [ "AnimGetClip", "namespace_core_animation.html#aadf581096bfef03cfe7e0905f6b384eb", null ],
     [ "AnimGetClips", "namespace_core_animation.html#ae5782df57ab959b75b56cb3661c51ed0", null ],
+    [ "AnimGetIndex", "namespace_core_animation.html#a4805c879397ef60f93790d3b8af6069f", null ],
     [ "AnimJobUtilMix", "namespace_core_animation.html#ae8cce6c910abea2928af3d479fd8b16a", null ],
     [ "AnimJobUtilSampleLinear", "namespace_core_animation.html#a21ad37102ca2fa91640fc6db72fe2bb4", null ],
     [ "AnimJobUtilSampleStep", "namespace_core_animation.html#a0f6e2801d69d23bf0c4aca46d344ef5a", null ],
@@ -36,7 +40,7 @@ var namespace_core_animation =
     [ "AnimSampleLinear", "namespace_core_animation.html#ae8d2d07943287d5850a62c6d17b77a6e", null ],
     [ "AnimSampleMixJobFunc", "namespace_core_animation.html#a8c2d468b38c8507e9231845b3217f672", null ],
     [ "AnimSampleStep", "namespace_core_animation.html#ad2a2321537fc3c4c871130665451bce1", null ],
-    [ "CreateAnimation", "namespace_core_animation.html#a4b2ca1698b6033bc9efb2913359f2e9c", null ],
+    [ "CreateAnimation", "namespace_core_animation.html#ab9302d53db8edbd7f61bb1958f310a72", null ],
     [ "DestroyAnimation", "namespace_core_animation.html#a03004dbef5394bed4e6472f46a6d37c9", null ],
     [ "operator!=", "namespace_core_animation.html#a9476ea4aa51a59c6673a38cf43035f06", null ],
     [ "operator<", "namespace_core_animation.html#a4d56297df3fc8f95e39e82507694988e", null ],
@@ -44,5 +48,5 @@ var namespace_core_animation =
     [ "operator==", "namespace_core_animation.html#a1c94821f5f5d2abdfbaecd8680f82175", null ],
     [ "operator>", "namespace_core_animation.html#a94d28e5efb229212abd9b5fd39edf04d", null ],
     [ "operator>=", "namespace_core_animation.html#a1cf2525348da5c3abba8282ade98ab96", null ],
-    [ "animPool", "namespace_core_animation.html#aa26bb1a408c5bd48abeae5a4d701178f", null ]
+    [ "animAllocator", "namespace_core_animation.html#af6b514946718a55ed272fdc69c09e35c", null ]
 ];

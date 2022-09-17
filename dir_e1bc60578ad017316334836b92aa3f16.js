@@ -7,6 +7,6 @@ var dir_e1bc60578ad017316334836b92aa3f16 =
     [ "skeleton.h", "skeleton_8h.html", "skeleton_8h" ],
     [ "skeletonevaljob.cc", "skeletonevaljob_8cc.html", "skeletonevaljob_8cc" ],
     [ "skeletonjoint.h", "skeletonjoint_8h.html", "skeletonjoint_8h" ],
-    [ "streamskeletoncache.cc", "streamskeletoncache_8cc.html", "streamskeletoncache_8cc" ],
-    [ "streamskeletoncache.h", "streamskeletoncache_8h.html", "streamskeletoncache_8h" ]
+    [ "skeletonloader.cc", "skeletonloader_8cc.html", "skeletonloader_8cc" ],
+    [ "skeletonloader.h", "skeletonloader_8h.html", "skeletonloader_8h" ]
 ];

@@ -93,6 +93,8 @@ $(document).ready(function(){initNavTree('skeleton_8h.html',''); initResizable()
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">skeleton.h File Reference</div></div>
 </div><!--header-->
@@ -109,6 +111,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_characters_1_1_character_joint.html">Characters::CharacterJoint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_characters_1_1_skeleton_create_info.html">Characters::SkeletonCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -116,11 +120,25 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_characters"><td class="mdescLeft">&#160;</td><td class="mdescRight">A character encapsulates a skeleton resource, an animation resource, and the ability to instantiate such and drive animations. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a96dd831b66787aff7e8646fc18969985"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; CharacterJoint &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#a96dd831b66787aff7e8646fc18969985">Characters::SkeletonAllocator</a></td></tr>
+<tr class="separator:a96dd831b66787aff7e8646fc18969985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5301017dfe4263da32f6a834e3441f77"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_characters.html#a5301017dfe4263da32f6a834e3441f77ad4be4c617046deb815a044f65c01483e">Characters::Skeleton_Joints</a>
+, <a class="el" href="namespace_characters.html#a5301017dfe4263da32f6a834e3441f77abaa311138759950ce4cc69a9d4599695">Characters::Skeleton_BindPose</a>
+, <a class="el" href="namespace_characters.html#a5301017dfe4263da32f6a834e3441f77a58c556e17d29f87b9dfec10171b4ff08">Characters::Skeleton_JointNameMap</a>
+, <a class="el" href="namespace_characters.html#a5301017dfe4263da32f6a834e3441f77a1b17faa7560de30f0e9fe7cde0e378ee">Characters::Skeleton_IdleSamples</a>
+ }</td></tr>
+<tr class="separator:a5301017dfe4263da32f6a834e3441f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aad5922be3e4c9255b9fa48fbd14c41b5"><td class="memItemLeft" align="right" valign="top">const SkeletonId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#aad5922be3e4c9255b9fa48fbd14c41b5">Characters::CreateSkeleton</a> (const <a class="el" href="struct_resource_create_info.html">ResourceCreateInfo</a> &amp;info)</td></tr>
-<tr class="memdesc:aad5922be3e4c9255b9fa48fbd14c41b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model (resource)  <a href="namespace_characters.html#aad5922be3e4c9255b9fa48fbd14c41b5">More...</a><br /></td></tr>
-<tr class="separator:aad5922be3e4c9255b9fa48fbd14c41b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045aa3c288ead42327274369c3f6fd5b"><td class="memItemLeft" align="right" valign="top">const SkeletonId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b">Characters::CreateSkeleton</a> (const SkeletonCreateInfo &amp;info)</td></tr>
+<tr class="memdesc:a045aa3c288ead42327274369c3f6fd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model (resource)  <a href="namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b">More...</a><br /></td></tr>
+<tr class="separator:a045aa3c288ead42327274369c3f6fd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6bbec5c5582bd44ff0825bcdaf6c21a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_characters.html#ad6bbec5c5582bd44ff0825bcdaf6c21a">Characters::DestroySkeleton</a> (const SkeletonId id)</td></tr>
 <tr class="memdesc:ad6bbec5c5582bd44ff0825bcdaf6c21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard model (resource)  <a href="namespace_characters.html#ad6bbec5c5582bd44ff0825bcdaf6c21a">More...</a><br /></td></tr>
 <tr class="separator:ad6bbec5c5582bd44ff0825bcdaf6c21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +162,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_e1bc60578ad017316334836b92aa3f16.html">characters</a></li><li class="navelem"><a class="el" href="skeleton_8h.html">skeleton.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

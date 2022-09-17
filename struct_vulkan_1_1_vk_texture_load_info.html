@@ -98,6 +98,8 @@ $(document).ready(function(){initNavTree('struct_vulkan_1_1_vk_texture_load_info
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="vktexture_8h_source.html">vktexture.h</a>&gt;</code></p>
+
+<p>Inherits <a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html">CoreGraphics::TextureCreateInfoAdjusted</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -111,147 +113,83 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7b3f972ad08b567f85c025ca3fe68aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9368a38adef8c017dcf392b8790068a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_relative_dimensions.html">CoreGraphics::TextureRelativeDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3">relativeDims</a></td></tr>
 <tr class="separator:a9368a38adef8c017dcf392b8790068a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ab8f47c2c460b1490685dfd296062a5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a1ab8f47c2c460b1490685dfd296062a5">mips</a></td></tr>
-<tr class="separator:a1ab8f47c2c460b1490685dfd296062a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039eb24759a176275028127bd2d2ab7d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a039eb24759a176275028127bd2d2ab7d">layers</a></td></tr>
-<tr class="separator:a039eb24759a176275028127bd2d2ab7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbac5181f3473b95b1850ac6574e4185"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#acbac5181f3473b95b1850ac6574e4185">samples</a></td></tr>
-<tr class="separator:acbac5181f3473b95b1850ac6574e4185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceca399765a426fd0d90aa025a2582a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#aceca399765a426fd0d90aa025a2582a8">clear</a></td></tr>
-<tr class="separator:aceca399765a426fd0d90aa025a2582a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b1233baeb8516da65946e899f936d66"><td class="memItemLeft" >union {</td></tr>
-<tr class="memitem:ad0e0b5538014677887b7489ae0a50e12"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1float4.html">Math::float4</a>&#160;&#160;&#160;<a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#ae98b8b5177440f3c236ed742ca01e8e9">clearColor</a></td></tr>
-<tr class="separator:ad0e0b5538014677887b7489ae0a50e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a37ec9d7883117486aab91d08a23a78"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_depth_stencil_clear.html">CoreGraphics::DepthStencilClear</a>&#160;&#160;&#160;<a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a2d96bbf794bbc7e16904d9e67c0a2fd2">clearDepthStencil</a></td></tr>
-<tr class="separator:a7a37ec9d7883117486aab91d08a23a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b1233baeb8516da65946e899f936d66"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a2b1233baeb8516da65946e899f936d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a174ead6fd92cc13374e48502805f481f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a174ead6fd92cc13374e48502805f481f">format</a></td></tr>
-<tr class="separator:a174ead6fd92cc13374e48502805f481f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad2a2e6822a46db9f9202218856932e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1">CoreGraphics::TextureUsage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a0ad2a2e6822a46db9f9202218856932e">texUsage</a></td></tr>
-<tr class="separator:a0ad2a2e6822a46db9f9202218856932e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc70c09c1f5810a742ec0c46f649f9ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#adc70c09c1f5810a742ec0c46f649f9ed">alias</a></td></tr>
-<tr class="separator:adc70c09c1f5810a742ec0c46f649f9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32977c41b52a4b76e702a63cfee2aec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a32977c41b52a4b76e702a63cfee2aec5">defaultLayout</a></td></tr>
-<tr class="separator:a32977c41b52a4b76e702a63cfee2aec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02d399a56577ff7432986fdb311a3e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_swizzle.html">CoreGraphics::TextureSwizzle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#ac02d399a56577ff7432986fdb311a3e9">swizzle</a></td></tr>
-<tr class="separator:ac02d399a56577ff7432986fdb311a3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07eabca55700a3604adf5b1fa65772a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a07eabca55700a3604adf5b1fa65772a6">windowTexture</a>: 1</td></tr>
-<tr class="separator:a07eabca55700a3604adf5b1fa65772a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d56e84216b09619e7a39c5466b67be3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a8d56e84216b09619e7a39c5466b67be3">windowRelative</a>: 1</td></tr>
-<tr class="separator:a8d56e84216b09619e7a39c5466b67be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2a94a5b3a04068af6a467c0c1ec12c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#aa2a94a5b3a04068af6a467c0c1ec12c2">bindless</a>: 1</td></tr>
-<tr class="separator:aa2a94a5b3a04068af6a467c0c1ec12c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e846a22e7ba7ceb0a0e901b4401b722"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a0e846a22e7ba7ceb0a0e901b4401b722">sparse</a>: 1</td></tr>
-<tr class="separator:a0e846a22e7ba7ceb0a0e901b4401b722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68053d56eb994defa3c577d35ed3f398"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a68053d56eb994defa3c577d35ed3f398">texBuffer</a></td></tr>
-<tr class="separator:a68053d56eb994defa3c577d35ed3f398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9ffab4986d030ec183a1ee42130aff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff">swapExtension</a></td></tr>
 <tr class="separator:abf9ffab4986d030ec183a1ee42130aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b7f8cb2796ed99d9e57c2e5d2fb276"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a47b7f8cb2796ed99d9e57c2e5d2fb276">stencilExtension</a></td></tr>
 <tr class="separator:a47b7f8cb2796ed99d9e57c2e5d2fb276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a200f53bedbf2c1fc4f2236f12c4e9990"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html#a200f53bedbf2c1fc4f2236f12c4e9990">sparseExtension</a></td></tr>
 <tr class="separator:a200f53bedbf2c1fc4f2236f12c4e9990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html">CoreGraphics::TextureCreateInfoAdjusted</a></td></tr>
+<tr class="memitem:ac30f016de8a9ab6e2c6679ebed4c4d77 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html#ac30f016de8a9ab6e2c6679ebed4c4d77">widthScale</a></td></tr>
+<tr class="separator:ac30f016de8a9ab6e2c6679ebed4c4d77 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423c3bf64f47a31034bc865044f6fa2b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html#a423c3bf64f47a31034bc865044f6fa2b">heightScale</a></td></tr>
+<tr class="separator:a423c3bf64f47a31034bc865044f6fa2b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82fb51a53b80757856415e386d80f19 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html#ae82fb51a53b80757856415e386d80f19">depthScale</a></td></tr>
+<tr class="separator:ae82fb51a53b80757856415e386d80f19 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bebdfbd3687d639da63086c99cf847 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html#aa2bebdfbd3687d639da63086c99cf847">window</a></td></tr>
+<tr class="separator:aa2bebdfbd3687d639da63086c99cf847 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info_adjusted"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_core_graphics_1_1_texture_create_info"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_core_graphics_1_1_texture_create_info')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_core_graphics_1_1_texture_create_info.html">CoreGraphics::TextureCreateInfo</a></td></tr>
+<tr class="memitem:ab9b94c66ec1ab9caafaeb279df28dd41 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#ab9b94c66ec1ab9caafaeb279df28dd41">name</a></td></tr>
+<tr class="separator:ab9b94c66ec1ab9caafaeb279df28dd41 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc4419808550f578095f4c39ecc176d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1">CoreGraphics::TextureUsage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d">usage</a></td></tr>
+<tr class="separator:a8cc4419808550f578095f4c39ecc176d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b6d3528f6637e38cb521e58cd9c95d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a08b6d3528f6637e38cb521e58cd9c95d">tag</a></td></tr>
+<tr class="separator:a08b6d3528f6637e38cb521e58cd9c95d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c9bac3899644711857690f29634b7bc inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a4c9bac3899644711857690f29634b7bc">buffer</a></td></tr>
+<tr class="separator:a4c9bac3899644711857690f29634b7bc inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f74559070f31f1477211c50f98a574 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a1ee7114fb950f691d35fddcdf5c40ddc">CoreGraphics::TextureType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574">type</a></td></tr>
+<tr class="separator:a81f74559070f31f1477211c50f98a574 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac86f4df42cb0f9156a7e09bc4ec19e7 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#aac86f4df42cb0f9156a7e09bc4ec19e7">format</a></td></tr>
+<tr class="separator:aac86f4df42cb0f9156a7e09bc4ec19e7 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07bb9bc8c609ce52e01bb7152e723c9a inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a07bb9bc8c609ce52e01bb7152e723c9a">width</a></td></tr>
+<tr class="separator:a07bb9bc8c609ce52e01bb7152e723c9a inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9972ff2e181f5e4424bac285ed97bb inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#aeb9972ff2e181f5e4424bac285ed97bb">height</a></td></tr>
+<tr class="separator:aeb9972ff2e181f5e4424bac285ed97bb inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0ef718f7cfa8ceb2ed1e24cdd064ea inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#aca0ef718f7cfa8ceb2ed1e24cdd064ea">depth</a></td></tr>
+<tr class="separator:aca0ef718f7cfa8ceb2ed1e24cdd064ea inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b9b2a8640db7daba69ade4f35684bb inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a15b9b2a8640db7daba69ade4f35684bb">mips</a></td></tr>
+<tr class="separator:a15b9b2a8640db7daba69ade4f35684bb inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb304aab51b341e7068d09f6e308b89 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#addb304aab51b341e7068d09f6e308b89">minMip</a></td></tr>
+<tr class="separator:addb304aab51b341e7068d09f6e308b89 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7cd6474e2c580df8ddb8cd16cb807b6 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#af7cd6474e2c580df8ddb8cd16cb807b6">layers</a></td></tr>
+<tr class="separator:af7cd6474e2c580df8ddb8cd16cb807b6 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71716a21e634fdc8d301f0a350fc804d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a71716a21e634fdc8d301f0a350fc804d">samples</a></td></tr>
+<tr class="separator:a71716a21e634fdc8d301f0a350fc804d inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785951e9a8f347185dce0448b752ec2f inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a785951e9a8f347185dce0448b752ec2f">clear</a></td></tr>
+<tr class="separator:a785951e9a8f347185dce0448b752ec2f inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2266da29151ae0a2731fabf241bd806e inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:aa21c9441e4ecd437f7ac019fa1f271c4 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1float4.html">Math::float4</a>&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a65e2dd7f8cb911777b2d8640ed35f1bd">clearColorF4</a></td></tr>
+<tr class="separator:aa21c9441e4ecd437f7ac019fa1f271c4 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51cf1d64adb20d53ab488b87f6f4fd3 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1uint4.html">Math::uint4</a>&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a25e110b871031594cdd47e8ae37bc88b">clearColorU4</a></td></tr>
+<tr class="separator:ad51cf1d64adb20d53ab488b87f6f4fd3 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ca1de0b16d6c5f57d97b6680eff95b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1int4.html">Math::int4</a>&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259">clearColorI4</a></td></tr>
+<tr class="separator:a50ca1de0b16d6c5f57d97b6680eff95b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a470cd47e3ad4f1cc17bc81cf4c73f052 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_depth_stencil_clear.html">DepthStencilClear</a>&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a642ebf73a61fac5094e938b618674795">clearDepthStencil</a></td></tr>
+<tr class="separator:a470cd47e3ad4f1cc17bc81cf4c73f052 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2266da29151ae0a2731fabf241bd806e inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a2266da29151ae0a2731fabf241bd806e inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bb880ba8263e14603f1314b0f97f995 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a4bb880ba8263e14603f1314b0f97f995">windowRelative</a>: 1</td></tr>
+<tr class="separator:a4bb880ba8263e14603f1314b0f97f995 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7ebb796b34276c00b5907dea38d729 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a6a7ebb796b34276c00b5907dea38d729">windowTexture</a>: 1</td></tr>
+<tr class="separator:a6a7ebb796b34276c00b5907dea38d729 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e58b07c181b16d2462f6ac420f129b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a78e58b07c181b16d2462f6ac420f129b">bindless</a>: 1</td></tr>
+<tr class="separator:a78e58b07c181b16d2462f6ac420f129b inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5873a66bbc9b7ddb4621601fe5fe2a62 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a5873a66bbc9b7ddb4621601fe5fe2a62">sparse</a>: 1</td></tr>
+<tr class="separator:a5873a66bbc9b7ddb4621601fe5fe2a62 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7cc923b3f4c3ca767d64f2386d016e6 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6">alias</a></td></tr>
+<tr class="separator:af7cc923b3f4c3ca767d64f2386d016e6 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cfdb013e2d92f59b3ce72849b99cd25 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a8cfdb013e2d92f59b3ce72849b99cd25">defaultLayout</a></td></tr>
+<tr class="separator:a8cfdb013e2d92f59b3ce72849b99cd25 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a13bced788dbd571fdf94b0d7a5f482 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_swizzle.html">CoreGraphics::TextureSwizzle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a6a13bced788dbd571fdf94b0d7a5f482">swizzle</a></td></tr>
+<tr class="separator:a6a13bced788dbd571fdf94b0d7a5f482 inherit pub_attribs_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_methods_struct_core_graphics_1_1_texture_create_info"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_core_graphics_1_1_texture_create_info')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_core_graphics_1_1_texture_create_info.html">CoreGraphics::TextureCreateInfo</a></td></tr>
+<tr class="memitem:a863c66f632998f3cfb8722e131fec377 inherit pub_methods_struct_core_graphics_1_1_texture_create_info"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377">TextureCreateInfo</a> ()</td></tr>
+<tr class="separator:a863c66f632998f3cfb8722e131fec377 inherit pub_methods_struct_core_graphics_1_1_texture_create_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2b1233baeb8516da65946e899f936d66" name="a2b1233baeb8516da65946e899f936d66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b1233baeb8516da65946e899f936d66">&#9670;&#160;</a></span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">union  { ... }  Vulkan::VkTextureLoadInfo::@136</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc70c09c1f5810a742ec0c46f649f9ed" name="adc70c09c1f5810a742ec0c46f649f9ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc70c09c1f5810a742ec0c46f649f9ed">&#9670;&#160;</a></span>alias</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> Vulkan::VkTextureLoadInfo::alias</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa2a94a5b3a04068af6a467c0c1ec12c2" name="aa2a94a5b3a04068af6a467c0c1ec12c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2a94a5b3a04068af6a467c0c1ec12c2">&#9670;&#160;</a></span>bindless</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Vulkan::VkTextureLoadInfo::bindless</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aceca399765a426fd0d90aa025a2582a8" name="aceca399765a426fd0d90aa025a2582a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceca399765a426fd0d90aa025a2582a8">&#9670;&#160;</a></span>clear</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Vulkan::VkTextureLoadInfo::clear</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae98b8b5177440f3c236ed742ca01e8e9" name="ae98b8b5177440f3c236ed742ca01e8e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae98b8b5177440f3c236ed742ca01e8e9">&#9670;&#160;</a></span>clearColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_math_1_1float4.html">Math::float4</a> Vulkan::VkTextureLoadInfo::clearColor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d96bbf794bbc7e16904d9e67c0a2fd2" name="a2d96bbf794bbc7e16904d9e67c0a2fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d96bbf794bbc7e16904d9e67c0a2fd2">&#9670;&#160;</a></span>clearDepthStencil</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_depth_stencil_clear.html">CoreGraphics::DepthStencilClear</a> Vulkan::VkTextureLoadInfo::clearDepthStencil</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a32977c41b52a4b76e702a63cfee2aec5" name="a32977c41b52a4b76e702a63cfee2aec5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32977c41b52a4b76e702a63cfee2aec5">&#9670;&#160;</a></span>defaultLayout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> Vulkan::VkTextureLoadInfo::defaultLayout</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="afa0d61401ea2178451243167c40eb376" name="afa0d61401ea2178451243167c40eb376"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa0d61401ea2178451243167c40eb376">&#9670;&#160;</a></span>dev</h2>
 
@@ -280,20 +218,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a174ead6fd92cc13374e48502805f481f" name="a174ead6fd92cc13374e48502805f481f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a174ead6fd92cc13374e48502805f481f">&#9670;&#160;</a></span>format</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a> Vulkan::VkTextureLoadInfo::format</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a54b2b0b028fc66530a64a2855f2a12fe" name="a54b2b0b028fc66530a64a2855f2a12fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54b2b0b028fc66530a64a2855f2a12fe">&#9670;&#160;</a></span>img</h2>
 
@@ -302,20 +226,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">VkImage Vulkan::VkTextureLoadInfo::img</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a039eb24759a176275028127bd2d2ab7d" name="a039eb24759a176275028127bd2d2ab7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a039eb24759a176275028127bd2d2ab7d">&#9670;&#160;</a></span>layers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t Vulkan::VkTextureLoadInfo::layers</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -336,20 +246,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ab8f47c2c460b1490685dfd296062a5" name="a1ab8f47c2c460b1490685dfd296062a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ab8f47c2c460b1490685dfd296062a5">&#9670;&#160;</a></span>mips</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t Vulkan::VkTextureLoadInfo::mips</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9368a38adef8c017dcf392b8790068a3" name="a9368a38adef8c017dcf392b8790068a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9368a38adef8c017dcf392b8790068a3">&#9670;&#160;</a></span>relativeDims</h2>
 
@@ -358,34 +254,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_relative_dimensions.html">CoreGraphics::TextureRelativeDimensions</a> Vulkan::VkTextureLoadInfo::relativeDims</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acbac5181f3473b95b1850ac6574e4185" name="acbac5181f3473b95b1850ac6574e4185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbac5181f3473b95b1850ac6574e4185">&#9670;&#160;</a></span>samples</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t Vulkan::VkTextureLoadInfo::samples</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e846a22e7ba7ceb0a0e901b4401b722" name="a0e846a22e7ba7ceb0a0e901b4401b722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e846a22e7ba7ceb0a0e901b4401b722">&#9670;&#160;</a></span>sparse</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Vulkan::VkTextureLoadInfo::sparse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -434,76 +302,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac02d399a56577ff7432986fdb311a3e9" name="ac02d399a56577ff7432986fdb311a3e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac02d399a56577ff7432986fdb311a3e9">&#9670;&#160;</a></span>swizzle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_swizzle.html">CoreGraphics::TextureSwizzle</a> Vulkan::VkTextureLoadInfo::swizzle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68053d56eb994defa3c577d35ed3f398" name="a68053d56eb994defa3c577d35ed3f398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68053d56eb994defa3c577d35ed3f398">&#9670;&#160;</a></span>texBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const void* Vulkan::VkTextureLoadInfo::texBuffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ad2a2e6822a46db9f9202218856932e" name="a0ad2a2e6822a46db9f9202218856932e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ad2a2e6822a46db9f9202218856932e">&#9670;&#160;</a></span>texUsage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1">CoreGraphics::TextureUsage</a> Vulkan::VkTextureLoadInfo::texUsage</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d56e84216b09619e7a39c5466b67be3" name="a8d56e84216b09619e7a39c5466b67be3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d56e84216b09619e7a39c5466b67be3">&#9670;&#160;</a></span>windowRelative</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Vulkan::VkTextureLoadInfo::windowRelative</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a07eabca55700a3604adf5b1fa65772a6" name="a07eabca55700a3604adf5b1fa65772a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07eabca55700a3604adf5b1fa65772a6">&#9670;&#160;</a></span>windowTexture</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Vulkan::VkTextureLoadInfo::windowTexture</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/github/workspace/code/render/coregraphics/vk/<a class="el" href="vktexture_8h_source.html">vktexture.h</a></li>
 </ul>
@@ -514,7 +312,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="struct_vulkan_1_1_vk_texture_load_info.html">VkTextureLoadInfo</a></li>
 				<li class="footer">
-					Generated on Mon Sep 12 2022 15:57:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 15:55:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
