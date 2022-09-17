@@ -28,7 +28,6 @@ var class_lighting_1_1_light_context =
     [ "GetType", "class_lighting_1_1_light_context.html#ab084bfd83d54bf653a4426db329d8f16", null ],
     [ "OnPrepareView", "class_lighting_1_1_light_context.html#ad57bfb6078e8e576f1588cfec58a63ef", null ],
     [ "OnRenderDebug", "class_lighting_1_1_light_context.html#a8783ef45fe4cc78d67a0bb1762a02cec", null ],
-    [ "RenderShadows", "class_lighting_1_1_light_context.html#a1625e0e13d4f8b55d280937f1da8e83c", null ],
     [ "RunFrameScriptJobs", "class_lighting_1_1_light_context.html#aede3dd89f4bd7e3761d8f108495315b5", null ],
     [ "SetColor", "class_lighting_1_1_light_context.html#a5b6239f2b52b55eb35be00f0ef73738d", null ],
     [ "SetGlobalLightTransform", "class_lighting_1_1_light_context.html#a7b500da9c69fd780112318edeb560af7", null ],

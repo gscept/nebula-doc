@@ -1,7 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"inputserverbase_8h.html":[10,0,0,4,0,0,3],
-"inputserverbase_8h_source.html":[10,0,0,4,0,0,3],
 "instancerenderer_8cc.html":[10,0,0,6,12,2],
 "instancerenderer_8cc.html#a7186e437bd29816ba7747eb32f2ee7c2":[10,0,0,6,12,2,0],
 "instancerenderer_8h.html":[10,0,0,6,12,3],
@@ -234,9 +232,9 @@ var NAVTREEINDEX97 =
 "lightcontext_8cc.html#a0b9ea68cd0a14da9ac331caba86b697b":[10,0,0,6,13,2,6],
 "lightcontext_8cc.html#a134694af11153f34cb3125467be202aa":[10,0,0,6,13,2,17],
 "lightcontext_8cc.html#a2177f1a969c2447a80a8b2bf6d7b713e":[10,0,0,6,13,2,2],
-"lightcontext_8cc.html#a232ecd6f1d4f2441ea036b771610f5bf":[10,0,0,6,13,2,33],
+"lightcontext_8cc.html#a232ecd6f1d4f2441ea036b771610f5bf":[10,0,0,6,13,2,32],
 "lightcontext_8cc.html#a3a54cafa925aba0da75b3f395eeddd18":[10,0,0,6,13,2,8],
-"lightcontext_8cc.html#a3da2a87349ba19563018f44418c7cfb6":[10,0,0,6,13,2,39],
+"lightcontext_8cc.html#a3da2a87349ba19563018f44418c7cfb6":[10,0,0,6,13,2,38],
 "lightcontext_8cc.html#a3dcb63c51e414c470c8b3b9338cfe9d0":[10,0,0,6,13,2,9],
 "lightcontext_8cc.html#a3f42bdf3b5ab81ce54eb1aecfcbcdab3":[10,0,0,6,13,2,18],
 "lightcontext_8cc.html#a45f299995780015f0fb9182048042989":[10,0,0,6,13,2,15],
@@ -247,7 +245,9 @@ var NAVTREEINDEX97 =
 "lightcontext_8cc.html#a4b76068e27cfa9a85431184cdbccdc38":[10,0,0,6,13,2,21],
 "lightcontext_8cc.html#a4ebe30a14b54fc6a4411fef7b896eb52":[10,0,0,6,13,2,16],
 "lightcontext_8cc.html#a4ee0d71ddd2d13336a94a8278699729d":[10,0,0,6,13,2,12],
-"lightcontext_8cc.html#a5afb534545fc548cb2abe5e7cff92581":[10,0,0,6,13,2,40],
-"lightcontext_8cc.html#a5d27df8c5c7858fb2bb1e3c87a7e285d":[10,0,0,6,13,2,32],
-"lightcontext_8cc.html#a5ee0ec7b142258658bdbde0837f4a782":[10,0,0,6,13,2,20]
+"lightcontext_8cc.html#a5afb534545fc548cb2abe5e7cff92581":[10,0,0,6,13,2,39],
+"lightcontext_8cc.html#a5d27df8c5c7858fb2bb1e3c87a7e285d":[10,0,0,6,13,2,31],
+"lightcontext_8cc.html#a5ee0ec7b142258658bdbde0837f4a782":[10,0,0,6,13,2,20],
+"lightcontext_8cc.html#a5ff54976d5d786434a189b17327e74b1":[10,0,0,6,13,2,24],
+"lightcontext_8cc.html#a6c9e58b4414a0f9346f904540f968277":[10,0,0,6,13,2,28]
 };

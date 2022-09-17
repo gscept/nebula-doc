@@ -31,7 +31,6 @@ var lightcontext_8cc =
     [ "resourceTable", "lightcontext_8cc.html#a6c9e58b4414a0f9346f904540f968277", null ],
     [ "resourceTables", "lightcontext_8cc.html#abc10c9a59fb03c24f4e6038eda3a0931", null ],
     [ "shadowcastingLocalLights", "lightcontext_8cc.html#aa5fe20d364aa0d6c986ca7487dc6e0b4", null ],
-    [ "shadowMappingFrameScript", "lightcontext_8cc.html#a9c3ebb05fc19aadd2d420e63756405aa", null ],
     [ "shadowMatrixUniforms", "lightcontext_8cc.html#a5d27df8c5c7858fb2bb1e3c87a7e285d", null ],
     [ "spotLightEntities", "lightcontext_8cc.html#a232ecd6f1d4f2441ea036b771610f5bf", null ],
     [ "spotlightsBatchCode", "lightcontext_8cc.html#aac65e7307c659eaef90aa39af455adee", null ],
