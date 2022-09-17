@@ -17,6 +17,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "batchgroup.h", "batchgroup_8h.html", "batchgroup_8h" ],
     [ "buffer.cpp", "buffer_8cpp.html", null ],
     [ "buffer.h", "buffer_8h.html", "buffer_8h" ],
+    [ "commandbuffer.cc", "commandbuffer_8cc.html", null ],
     [ "commandbuffer.h", "commandbuffer_8h.html", "commandbuffer_8h" ],
     [ "config.h", "render_2coregraphics_2config_8h.html", "render_2coregraphics_2config_8h" ],
     [ "displaydevice.cc", "displaydevice_8cc.html", null ],
