@@ -246,8 +246,8 @@ var NAVTREEINDEX143 =
 "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#a377fa5c2f0d22a14163adf02066db41f":[9,0,64,28,0,3],
 "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#a4d06b7711a7dcbb2f7541c7c8d6fee1e":[8,0,74,28,0,1],
 "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#a4d06b7711a7dcbb2f7541c7c8d6fee1e":[9,0,64,28,0,1],
-"struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#afe5bfd35a5ded715e70e0aab593d868f":[9,0,64,28,0,0],
 "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#afe5bfd35a5ded715e70e0aab593d868f":[8,0,74,28,0,0],
-"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html":[8,0,74,28,1],
-"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html":[9,0,64,28,1]
+"struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html#afe5bfd35a5ded715e70e0aab593d868f":[9,0,64,28,0,0],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html":[9,0,64,28,1],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html":[8,0,74,28,1]
 };

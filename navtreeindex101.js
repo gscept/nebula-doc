@@ -1,6 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa8f22003062e49cc8976a7ed6899f4016":[8,0,13,132,13],
 "namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa9ce0b195af43f8e2d8fe425a91f7599d":[8,0,13,132,8],
 "namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa9ee3859548fee3328a15cbf2b7530ca7":[8,0,13,132,1],
 "namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934faa71196b34282074f1aec83be82dbea2e":[8,0,13,132,27],
@@ -160,6 +159,7 @@ var NAVTREEINDEX101 =
 "namespace_core_graphics.html#a837de52aa67270d903007107f0105f7a":[8,0,13,178],
 "namespace_core_graphics.html#a85b965a9110541f29d80c5c8902ab52a":[8,0,13,265],
 "namespace_core_graphics.html#a87177b55f14207e7855387c38466858b":[8,0,13,205],
+"namespace_core_graphics.html#a884d1130edfcbbb2f840196cbd31fae8":[8,0,13,468],
 "namespace_core_graphics.html#a88dd3cf1294e0749e039e513661fcb92":[8,0,13,172],
 "namespace_core_graphics.html#a89d6cac8e9d9468d7b7871edce95fb41":[8,0,13,309],
 "namespace_core_graphics.html#a8aa6837b0b48c551a9acdb72bdd58650":[8,0,13,174],
@@ -238,6 +238,7 @@ var NAVTREEINDEX101 =
 "namespace_core_graphics.html#aa878d56d4c7c6d41ae09ddc3c597c1b8":[8,0,13,542],
 "namespace_core_graphics.html#aa87a73ce15ffe2a317ca44ddf772e551":[8,0,13,369],
 "namespace_core_graphics.html#aa9640818afc5f7a4221e5bc8cddb6cc7":[8,0,13,429],
+"namespace_core_graphics.html#aaab2752f7c73fb598fac3b95bb4a7a67":[8,0,13,467],
 "namespace_core_graphics.html#aaac12b3620267e0ee7e350d94329e2a1":[8,0,13,457],
 "namespace_core_graphics.html#aaad0187d0733d4a848462494aa327a2f":[8,0,13,456],
 "namespace_core_graphics.html#aaca2639d184ec3779e89c4015499eba4":[8,0,13,180],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72a65eb8ea6b0462e34dfef9fc4c8d1b10e":[8,0,13,128,0],
 "namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72aacdda5585d605ef393b0ba11d189f761":[8,0,13,128,3],
 "namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72ae94066452f87087f5b186c87d3024f90":[8,0,13,128,1],
-"namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded":[8,0,13,304],
-"namespace_core_graphics.html#aae8a25d177145ec9039edbdabf7671a1":[8,0,13,513]
+"namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded":[8,0,13,304]
 };

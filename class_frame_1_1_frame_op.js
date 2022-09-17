@@ -8,7 +8,7 @@ var class_frame_1_1_frame_op =
     [ "AddChild", "class_frame_1_1_frame_op.html#a6c235a37c4a88c6ae26ec02c10ece998", null ],
     [ "AllocCompiled", "class_frame_1_1_frame_op.html#a48a966c374b60a4907b2d8b6058efd86", null ],
     [ "AnalyzeAndSetupBufferBarriers", "class_frame_1_1_frame_op.html#a52b4f18cb53e3a343a554ae6086f2d78", null ],
-    [ "AnalyzeAndSetupTextureBarriers", "class_frame_1_1_frame_op.html#a46cb2fb29ce93a65bd6107244f10afb7", null ],
+    [ "AnalyzeAndSetupTextureBarriers", "class_frame_1_1_frame_op.html#ac049cc06998dc1ca78d97be56d68c7ab", null ],
     [ "Build", "class_frame_1_1_frame_op.html#a029bbbebdb4b491bb4a00d70996beee3", null ],
     [ "Discard", "class_frame_1_1_frame_op.html#a16162553bc8efea315f7036f54a036a7", null ],
     [ "GetChildren", "class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193", null ],
@@ -33,5 +33,5 @@ var class_frame_1_1_frame_op =
     [ "index", "class_frame_1_1_frame_op.html#a7288cd3ed962883d96f531794ed7dfd2", null ],
     [ "name", "class_frame_1_1_frame_op.html#a1cbedc9477ec38023d0b39aa24020676", null ],
     [ "queue", "class_frame_1_1_frame_op.html#a9659467b4f0b472505ea414ed381603f", null ],
-    [ "textureDeps", "class_frame_1_1_frame_op.html#aeb3453ca6b7f1e36073f91c0ea00d400", null ]
+    [ "textureDeps", "class_frame_1_1_frame_op.html#abdf11dcc0d3b30501210d301d0e1d701", null ]
 ];

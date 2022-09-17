@@ -228,8 +228,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_image_load_info.html">ImageLoadInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">ImageSubresourceInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_index_type.html">IndexType</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type of vertex indices (16 bit or 32 bit).  <a href="class_core_graphics_1_1_index_type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,6 +369,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_sparse_page_offset.html">TextureSparsePageOffset</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_sparse_page_size.html">TextureSparsePageSize</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html">TextureSubresourceInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_texture_swizzle.html">TextureSwizzle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1816,12 +1816,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1c3c21b6eced661e88a34c362e9d5425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1c3c21b6eced661e88a34c362e9d5425">TextureSparseCommitChanges</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id)</td></tr>
 <tr class="memdesc:a1c3c21b6eced661e88a34c362e9d5425"><td class="mdescLeft">&#160;</td><td class="mdescRight">commit texture sparse page updates  <a href="namespace_core_graphics.html#a1c3c21b6eced661e88a34c362e9d5425">More...</a><br /></td></tr>
 <tr class="separator:a1c3c21b6eced661e88a34c362e9d5425"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd497de21c7dfb78b5df764ba54117c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acd497de21c7dfb78b5df764ba54117c7">TextureClearColor</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> color, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres)</td></tr>
-<tr class="memdesc:acd497de21c7dfb78b5df764ba54117c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with color  <a href="namespace_core_graphics.html#acd497de21c7dfb78b5df764ba54117c7">More...</a><br /></td></tr>
-<tr class="separator:acd497de21c7dfb78b5df764ba54117c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43a7cc8bd32ad4d7a5ba834d3f6d207f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a43a7cc8bd32ad4d7a5ba834d3f6d207f">TextureClearDepthStencil</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, float depth, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> stencil, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;subres)</td></tr>
-<tr class="memdesc:a43a7cc8bd32ad4d7a5ba834d3f6d207f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with depth-stencil  <a href="namespace_core_graphics.html#a43a7cc8bd32ad4d7a5ba834d3f6d207f">More...</a><br /></td></tr>
-<tr class="separator:a43a7cc8bd32ad4d7a5ba834d3f6d207f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab2752f7c73fb598fac3b95bb4a7a67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aaab2752f7c73fb598fac3b95bb4a7a67">TextureClearColor</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> color, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html">CoreGraphics::TextureSubresourceInfo</a> &amp;subres)</td></tr>
+<tr class="memdesc:aaab2752f7c73fb598fac3b95bb4a7a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with color  <a href="namespace_core_graphics.html#aaab2752f7c73fb598fac3b95bb4a7a67">More...</a><br /></td></tr>
+<tr class="separator:aaab2752f7c73fb598fac3b95bb4a7a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884d1130edfcbbb2f840196cbd31fae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a884d1130edfcbbb2f840196cbd31fae8">TextureClearDepthStencil</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, float depth, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> stencil, const <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a> layout, const <a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html">CoreGraphics::TextureSubresourceInfo</a> &amp;subres)</td></tr>
+<tr class="memdesc:a884d1130edfcbbb2f840196cbd31fae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear texture with depth-stencil  <a href="namespace_core_graphics.html#a884d1130edfcbbb2f840196cbd31fae8">More...</a><br /></td></tr>
+<tr class="separator:a884d1130edfcbbb2f840196cbd31fae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e76a6cde61a664d605f97142f1465f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a79e76a6cde61a664d605f97142f1465f">TextureSetHighestLod</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> id, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> lod)</td></tr>
 <tr class="memdesc:a79e76a6cde61a664d605f97142f1465f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set highest LOD on texture.  <a href="namespace_core_graphics.html#a79e76a6cde61a664d605f97142f1465f">More...</a><br /></td></tr>
 <tr class="separator:a79e76a6cde61a664d605f97142f1465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11282,8 +11282,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="acd497de21c7dfb78b5df764ba54117c7" name="acd497de21c7dfb78b5df764ba54117c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd497de21c7dfb78b5df764ba54117c7">&#9670;&#160;</a></span>TextureClearColor()</h2>
+<a id="aaab2752f7c73fb598fac3b95bb4a7a67" name="aaab2752f7c73fb598fac3b95bb4a7a67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab2752f7c73fb598fac3b95bb4a7a67">&#9670;&#160;</a></span>TextureClearColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11315,7 +11315,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html">CoreGraphics::TextureSubresourceInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>subres</em>&#160;</td>
         </tr>
         <tr>
@@ -11330,8 +11330,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a43a7cc8bd32ad4d7a5ba834d3f6d207f" name="a43a7cc8bd32ad4d7a5ba834d3f6d207f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a7cc8bd32ad4d7a5ba834d3f6d207f">&#9670;&#160;</a></span>TextureClearDepthStencil()</h2>
+<a id="a884d1130edfcbbb2f840196cbd31fae8" name="a884d1130edfcbbb2f840196cbd31fae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884d1130edfcbbb2f840196cbd31fae8">&#9670;&#160;</a></span>TextureClearDepthStencil()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11369,7 +11369,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_image_subresource_info.html">CoreGraphics::ImageSubresourceInfo</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html">CoreGraphics::TextureSubresourceInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>subres</em>&#160;</td>
         </tr>
         <tr>
@@ -13863,7 +13863,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Sat Sep 17 2022 16:25:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 16:31:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

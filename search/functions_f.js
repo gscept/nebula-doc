@@ -160,5 +160,5 @@ var searchData=
   ['osxmemorypool_157',['OSXMemoryPool',['../class_o_s_x_1_1_o_s_x_memory_pool.html#a8bd8833b974af9cdc75404d71475babb',1,'OSX::OSXMemoryPool']]],
   ['osxthread_158',['OSXThread',['../class_o_s_x_1_1_o_s_x_thread.html#a84050b8b13fb190f539f76450b4b19c4',1,'OSX::OSXThread']]],
   ['osxthreadlocalptr_159',['OSXThreadLocalPtr',['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a196d0f16b22f1c240a90598f80d1dba4',1,'OSX::OSXThreadLocalPtr::OSXThreadLocalPtr()'],['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a196d0f16b22f1c240a90598f80d1dba4',1,'OSX::OSXThreadLocalPtr::OSXThreadLocalPtr()']]],
-  ['overlaps_160',['Overlaps',['../struct_core_graphics_1_1_image_subresource_info.html#a4dedbe0d64bcdaf8bdcd25bec90256d6',1,'CoreGraphics::ImageSubresourceInfo::Overlaps()'],['../struct_core_graphics_1_1_buffer_subresource_info.html#a7f5bd51d37982789d1665a5c7b9dc41f',1,'CoreGraphics::BufferSubresourceInfo::Overlaps()']]]
+  ['overlaps_160',['Overlaps',['../struct_core_graphics_1_1_texture_subresource_info.html#a89d7b286fc68c8f20bec756fb401fc1c',1,'CoreGraphics::TextureSubresourceInfo::Overlaps()'],['../struct_core_graphics_1_1_buffer_subresource_info.html#a7f5bd51d37982789d1665a5c7b9dc41f',1,'CoreGraphics::BufferSubresourceInfo::Overlaps()']]]
 ];

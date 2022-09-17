@@ -85,7 +85,7 @@ var searchData=
   ['argumentstable_82',['argumentsTable',['../namespace_vegetation.html#a7981223d54a764abb53e277939fbc178',1,'Vegetation']]],
   ['arr_83',['arr',['../class_util_1_1_hash_table_1_1_iterator.html#a28675c4900e0c2c9e5a24928721df9ca',1,'Util::HashTable::Iterator']]],
   ['arraycreator_84',['arrayCreator',['../class_core_1_1_rtti.html#ad2267493cfc228352d66da145412a371',1,'Core::Rtti']]],
-  ['aspect_85',['aspect',['../struct_core_graphics_1_1_image_subresource_info.html#a132257ee136fb0ab98a08b5ec30391d9',1,'CoreGraphics::ImageSubresourceInfo::aspect()'],['../class_graphics_1_1_camera_settings.html#a340129d7f5522be4a456ce1840f55820',1,'Graphics::CameraSettings::aspect()']]],
+  ['aspect_85',['aspect',['../struct_core_graphics_1_1_texture_subresource_info.html#ad95d60bd7ac0972dc9407e1554149376',1,'CoreGraphics::TextureSubresourceInfo::aspect()'],['../class_graphics_1_1_camera_settings.html#a340129d7f5522be4a456ce1840f55820',1,'Graphics::CameraSettings::aspect()']]],
   ['aspectratio_86',['aspectRatio',['../struct_gltf_1_1_camera_1_1_perspective.html#af35b9520609066a7e2023ebda513507e',1,'Gltf::Camera::Perspective::aspectRatio()'],['../class_core_graphics_1_1_display_mode.html#a78c4a355fae70293200a40100dc757dd',1,'CoreGraphics::DisplayMode::aspectRatio()']]],
   ['asset_87',['asset',['../struct_gltf_1_1_document.html#a1cb663b5226112e1a2ab4ba436369fd8',1,'Gltf::Document']]],
   ['assigncriticalsection_88',['assignCriticalSection',['../class_i_o_1_1_io_server.html#a0b8f994a5408ac59f8e6829c45a6a241',1,'IO::IoServer']]],
