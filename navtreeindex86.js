@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"class_win32_1_1_win32_guid.html#a3855d5315b689b1c871a09dc798c882b":[8,0,75,11,13],
+"class_win32_1_1_win32_guid.html#a45aaa7aa7309c82562d140961404a7bf":[9,0,65,11,5],
 "class_win32_1_1_win32_guid.html#a45aaa7aa7309c82562d140961404a7bf":[8,0,75,11,5],
 "class_win32_1_1_win32_guid.html#a49b83f4fd50468dcceafbdf395dfea1f":[9,0,65,11,15],
 "class_win32_1_1_win32_guid.html#a49b83f4fd50468dcceafbdf395dfea1f":[8,0,75,11,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "class_win32_1_1_win32_read_write_lock.html":[9,0,65,18],
 "class_win32_1_1_win32_read_write_lock.html#a2fb7aa3d6d50c969310861aaf03d7e83":[9,0,65,18,3],
 "class_win32_1_1_win32_read_write_lock.html#a2fb7aa3d6d50c969310861aaf03d7e83":[8,0,75,18,3],
-"class_win32_1_1_win32_read_write_lock.html#a3e67fa7db168936377be072c26856274":[9,0,65,18,0],
-"class_win32_1_1_win32_read_write_lock.html#a3e67fa7db168936377be072c26856274":[8,0,75,18,0],
-"class_win32_1_1_win32_read_write_lock.html#a60c6de9ad0ec7d8ffb81c1f0da17bb6b":[9,0,65,18,5]
+"class_win32_1_1_win32_read_write_lock.html#a3e67fa7db168936377be072c26856274":[9,0,65,18,0]
 };

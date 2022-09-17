@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"struct_core_graphics_1_1_derivative_state_id.html":[8,0,13,24],
+"struct_core_graphics_1_1_draw_thread_1_1_command.html":[8,0,13,28,0],
 "struct_core_graphics_1_1_draw_thread_1_1_command.html":[9,0,11,28,0],
 "struct_core_graphics_1_1_draw_thread_1_1_command.html#a21f1b2fcce9e854b20f47f4f299cd9d0":[8,0,13,28,0,1],
 "struct_core_graphics_1_1_draw_thread_1_1_command.html#a21f1b2fcce9e854b20f47f4f299cd9d0":[9,0,11,28,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "struct_core_graphics_1_1_memory_pool.html#a1c71746d5ddda8bb8660714db5dccea5":[9,0,11,46,19],
 "struct_core_graphics_1_1_memory_pool.html#a3429829e08b2c1f905091ddc72eaf058":[9,0,11,46,18],
 "struct_core_graphics_1_1_memory_pool.html#a3429829e08b2c1f905091ddc72eaf058":[8,0,13,46,18],
-"struct_core_graphics_1_1_memory_pool.html#a410cf3743ecf6e05813fdd72065b5e7d":[8,0,13,46,12],
-"struct_core_graphics_1_1_memory_pool.html#a410cf3743ecf6e05813fdd72065b5e7d":[9,0,11,46,12],
-"struct_core_graphics_1_1_memory_pool.html#a502bc95f043c70d6109c4583ecbd8a49":[9,0,11,46,9]
+"struct_core_graphics_1_1_memory_pool.html#a410cf3743ecf6e05813fdd72065b5e7d":[8,0,13,46,12]
 };

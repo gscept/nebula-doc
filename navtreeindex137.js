@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_models_1_1_shader_state_node_1_1_draw_packet.html#af00a80b376c76722af4bef3ead38b04c":[9,0,42,10,0,8],
+"struct_models_1_1_shader_state_node_1_1_draw_packet.html#af00a80b376c76722af4bef3ead38b04c":[8,0,46,10,0,8],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html":[9,0,45,0,0],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html":[8,0,50,0,0],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a2331740c6c167fdbe5d36d16e0b1d73f":[9,0,45,0,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_profiling_1_1_profiling_scope_lock.html#ac1e198f4a55115cd6d34ea3b0511b4e4":[8,0,57,2,1],
 "struct_profiling_1_1_profiling_scope_lock.html#ac1e198f4a55115cd6d34ea3b0511b4e4":[9,0,51,2,1],
 "struct_profiling_1_1_profiling_scope_lock.html#ae54e15b2ae5e052f7fc6f9d47a3de4ca":[9,0,51,2,2],
-"struct_profiling_1_1_profiling_scope_lock.html#ae54e15b2ae5e052f7fc6f9d47a3de4ca":[8,0,57,2,2],
-"struct_resources_1_1_resource_loader_1_1___callbacks.html":[9,0,55,1,0],
-"struct_resources_1_1_resource_loader_1_1___callbacks.html":[8,0,62,1,0]
+"struct_profiling_1_1_profiling_scope_lock.html#ae54e15b2ae5e052f7fc6f9d47a3de4ca":[8,0,57,2,2]
 };

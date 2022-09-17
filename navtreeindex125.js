@@ -1,5 +1,7 @@
 var NAVTREEINDEX125 =
 {
+"struct_fibers_1_1_fiber_wait_context.html#a5c86dd78d04abbb68f05650691fb5a4e":[8,0,19,7,1],
+"struct_fibers_1_1_fiber_wait_context.html#a5c86dd78d04abbb68f05650691fb5a4e":[9,0,17,7,1],
 "struct_fibers_1_1_fiber_wait_context.html#a66aadf99bb0fc49b39b919cc834e6ff5":[8,0,19,7,0],
 "struct_fibers_1_1_fiber_wait_context.html#a66aadf99bb0fc49b39b919cc834e6ff5":[9,0,17,7,0],
 "struct_fibers_1_1fiber__ctx__t.html":[9,0,17,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "struct_game_1_1_dataset.html#a9f3192f8b89db1fe4a8d085d023de690":[9,0,22,9,2],
 "struct_game_1_1_dataset.html#a9f3192f8b89db1fe4a8d085d023de690":[8,0,25,9,2],
 "struct_game_1_1_dataset.html#adfafe2caa6e1b2c3f5511b2f748b9d36":[9,0,22,9,3],
-"struct_game_1_1_dataset.html#adfafe2caa6e1b2c3f5511b2f748b9d36":[8,0,25,9,3],
-"struct_game_1_1_dataset_1_1_entity_table_view.html":[9,0,22,9,0],
-"struct_game_1_1_dataset_1_1_entity_table_view.html":[8,0,25,9,0]
+"struct_game_1_1_dataset.html#adfafe2caa6e1b2c3f5511b2f748b9d36":[8,0,25,9,3]
 };

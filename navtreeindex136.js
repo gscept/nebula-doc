@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"struct_math_1_1vector.html#a01ce1ecfb87b62899ad1bdfe6c9e9963":[8,0,42,29,24],
+"struct_math_1_1vector.html#a01ce1ecfb87b62899ad1bdfe6c9e9963":[9,0,38,29,24],
 "struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750":[8,0,42,29,15],
 "struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750":[9,0,38,29,15],
 "struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7":[8,0,42,29,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#ab9e84c86989253d995fc4854d05ed8e9":[8,0,46,10,0,0],
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#ab9e84c86989253d995fc4854d05ed8e9":[9,0,42,10,0,0],
 "struct_models_1_1_shader_state_node_1_1_draw_packet.html#ae01c5e769e9b00992b7e732f68e21b2f":[9,0,42,10,0,2],
-"struct_models_1_1_shader_state_node_1_1_draw_packet.html#ae01c5e769e9b00992b7e732f68e21b2f":[8,0,46,10,0,2],
-"struct_models_1_1_shader_state_node_1_1_draw_packet.html#af00a80b376c76722af4bef3ead38b04c":[9,0,42,10,0,8],
-"struct_models_1_1_shader_state_node_1_1_draw_packet.html#af00a80b376c76722af4bef3ead38b04c":[8,0,46,10,0,8]
+"struct_models_1_1_shader_state_node_1_1_draw_packet.html#ae01c5e769e9b00992b7e732f68e21b2f":[8,0,46,10,0,2]
 };
