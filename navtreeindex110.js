@@ -1,7 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"namespace_terrain.html#a9853c2b5377aa6b34eba8fee9378fc84":[8,0,67,64],
-"namespace_terrain.html#a98586944f2abe9720de723e218140398":[8,0,67,71],
 "namespace_terrain.html#a9ad012a4db2df06130d8963f2a2bd444":[8,0,67,99],
 "namespace_terrain.html#a9ceff026bd4e909c64da8abd6b010a43":[8,0,67,108],
 "namespace_terrain.html#aa08a96b3e349c422740d03c235bcc7e6":[8,0,67,119],
@@ -249,5 +247,7 @@ var NAVTREEINDEX110 =
 "namespace_vulkan.html#a27baad399460f60f602b28b165eeb3d1":[8,0,74,149],
 "namespace_vulkan.html#a29c2d04819b039528a68c0d6bb4839ee":[8,0,74,115],
 "namespace_vulkan.html#a2b6a9172b9a58d5ffdfb9b79a15696fe":[8,0,74,163],
-"namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e":[8,0,74,145]
+"namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e":[8,0,74,145],
+"namespace_vulkan.html#a3a17520378c094c967e2ffe6579c1e83":[8,0,74,57],
+"namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e":[8,0,74,71]
 };

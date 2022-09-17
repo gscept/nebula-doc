@@ -29,9 +29,8 @@ var class_resources_1_1_resource_server =
     [ "WaitForLoaderThread", "class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602", null ],
     [ "ResourceLoader", "class_resources_1_1_resource_server.html#a685a33b83a13f36aceea3ff940994ac9", null ],
     [ "extensionMap", "class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db", null ],
-    [ "loaderThread", "class_resources_1_1_resource_server.html#a60bcfec99f6e7907a75274ca51fcfb25", null ],
+    [ "loaders", "class_resources_1_1_resource_server.html#a9666c96cb9ebe23136f818c7b1a3f70e", null ],
     [ "open", "class_resources_1_1_resource_server.html#af103757f0bbaed7eb5474be356bc2f49", null ],
-    [ "pools", "class_resources_1_1_resource_server.html#a016fbae4990436f003cd5fe562868df2", null ],
     [ "typeMap", "class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936", null ],
     [ "UniquePoolCounter", "class_resources_1_1_resource_server.html#aac79e030258d041589896f7493be54e6", null ]
 ];

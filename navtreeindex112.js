@@ -1,7 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"namespacemembers_vars_y.html":[8,1,2,23],
-"namespacemembers_vars_z.html":[8,1,2,24],
 "namespacemembers_w.html":[8,1,0,23],
 "namespacemembers_x.html":[8,1,0,24],
 "namespacemembers_y.html":[8,1,0,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX112 =
 "particlecontext_8cc.html#aea46a9d16799861c566d261aea1af430":[10,0,0,6,16,9,11],
 "particlecontext_8h.html":[10,0,0,6,16,10],
 "particlecontext_8h_source.html":[10,0,0,6,16,10],
-"particlejob_8cc.html":[10,0,0,6,16,11]
+"particlejob_8cc.html":[10,0,0,6,16,11],
+"particlejob_8cc.html#a25292140df89ba68be7e72a9d3676abf":[10,0,0,6,16,11,2],
+"particlejob_8cc.html#a25345a24450b7aa807d5e06742fb68ca":[10,0,0,6,16,11,4]
 };

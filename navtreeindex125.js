@@ -1,7 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"struct_fibers_1_1fiber__ctx__t.html#ae7a663f888d846e082cc5bcc6f9557f5":[9,0,17,1,1],
-"struct_fibers_1_1fiber__ctx__t.html#ae7a663f888d846e082cc5bcc6f9557f5":[8,0,19,1,1],
 "struct_fibers_1_1fiber__t.html":[8,0,19,2],
 "struct_fibers_1_1fiber__t.html":[9,0,17,2],
 "struct_fibers_1_1fiber__t.html#a746464d76f55ee9a167b122e3583d3a0":[8,0,19,2,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX125 =
 "struct_game_1_1_dataset_1_1_entity_table_view.html#a818b795d2e66f0639dd75b82d019df5d":[8,0,25,9,0,1],
 "struct_game_1_1_dataset_1_1_entity_table_view.html#a818b795d2e66f0639dd75b82d019df5d":[9,0,22,9,0,1],
 "struct_game_1_1_entity.html":[9,0,22,10],
-"struct_game_1_1_entity.html":[8,0,25,10]
+"struct_game_1_1_entity.html":[8,0,25,10],
+"struct_game_1_1_entity.html#a0de66d872f05240fcf47732a5b6e0273":[8,0,25,10,3],
+"struct_game_1_1_entity.html#a0de66d872f05240fcf47732a5b6e0273":[9,0,22,10,3]
 };

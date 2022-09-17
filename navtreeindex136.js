@@ -1,7 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[8,0,42,29,3],
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[9,0,38,29,3],
 "struct_math_1_1vector.html#a5605535db505100d18ed88dc0c64acad":[8,0,42,29,5],
 "struct_math_1_1vector.html#a5605535db505100d18ed88dc0c64acad":[9,0,38,29,5],
 "struct_math_1_1vector.html#a5947958eba43f69d2925b743cadacc50":[9,0,38,29,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX136 =
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a8c176dad255431ca83a4daac5e4a6ae8":[8,0,50,0,0,2],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a8c176dad255431ca83a4daac5e4a6ae8":[9,0,45,0,0,2],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac7a6a5baf2c595f0f490294047018827":[8,0,50,0,0,5],
-"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac7a6a5baf2c595f0f490294047018827":[9,0,45,0,0,5]
+"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac7a6a5baf2c595f0f490294047018827":[9,0,45,0,0,5],
+"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac90ab1cfe667d08db73d263462e29670":[8,0,50,0,0,0],
+"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#ac90ab1cfe667d08db73d263462e29670":[9,0,45,0,0,0]
 };

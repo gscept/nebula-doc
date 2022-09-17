@@ -99,7 +99,7 @@ Animation Subsystem</h1>
 <p >An animation resource is split up into several clips, each clip being a sequence of transforms, a duration, begin and end interpolation modes.</p>
 <p >To construct an instance of an animation resource in Nebula, we need to run:</p>
 <div class="fragment"><div class="line"><a class="code hl_struct" href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a> <span class="keywordtype">id</span> = <a class="code hl_function" href="namespace_resources.html#a1193aa1d8791a6dfd090d8e1ec9a55d0">Resources::CreateResource</a>()</div>
-<div class="ttc" id="anamespace_resources_html_a1193aa1d8791a6dfd090d8e1ec9a55d0"><div class="ttname"><a href="namespace_resources.html#a1193aa1d8791a6dfd090d8e1ec9a55d0">Resources::CreateResource</a></div><div class="ttdeci">Resources::ResourceId CreateResource(const ResourceName &amp;res, const Util::StringAtom &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false)</div><div class="ttdef"><b>Definition:</b> resourceserver.h:304</div></div>
+<div class="ttc" id="anamespace_resources_html_a1193aa1d8791a6dfd090d8e1ec9a55d0"><div class="ttname"><a href="namespace_resources.html#a1193aa1d8791a6dfd090d8e1ec9a55d0">Resources::CreateResource</a></div><div class="ttdeci">Resources::ResourceId CreateResource(const ResourceName &amp;res, const Util::StringAtom &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false)</div><div class="ttdef"><b>Definition:</b> resourceserver.h:303</div></div>
 <div class="ttc" id="astruct_core_animation_1_1_anim_resource_id_html"><div class="ttname"><a href="struct_core_animation_1_1_anim_resource_id.html">CoreAnimation::AnimResourceId</a></div><div class="ttdef"><b>Definition:</b> animresource.h:24</div></div>
 </div><!-- fragment --><p >Providing CreateResource with a file with the extension .nax3 and it will load as an animation. This means we have now loaded all the animation data and handle <code>id</code> will hold on to it. Animations are evaluated by interpolating between frames, and there are two functions (which can be passed to the job system), that provides this functionality. The following code shows how we can evaluate animation samples on a job, clip being the clip index we want to evaluate:</p>
 <div class="fragment"><div class="line"><span class="keywordflow">if</span> (firstAnimTrack || playing.blend != 1.0f)</div>
@@ -194,7 +194,7 @@ Animation Subsystem</h1>
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Sat Sep 17 2022 22:18:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 22:23:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"sqlite3database_8cc.html":[10,0,0,0,2,0,2],
-"sqlite3database_8cc.html#a3a0e433aa9fd236b077ff422f7f8e3e6":[10,0,0,0,2,0,2,0],
 "sqlite3database_8cc.html#a69fd218e76c5c30e433fdf14d80ae286":[10,0,0,0,2,0,2,8],
 "sqlite3database_8cc.html#a747e9b164aad04cfd99bb4231fb61f02":[10,0,0,0,2,0,2,5],
 "sqlite3database_8cc.html#a85c0ef7b5cdf8b5152a4b3e5fc986f3f":[10,0,0,0,2,0,2,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX118 =
 "struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[9,0,3,0,0,0],
 "struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[8,0,4,0,0,3],
 "struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[9,0,3,0,0,3],
-"struct_audio_1_1_audio_emitter_id.html":[9,0,3,1]
+"struct_audio_1_1_audio_emitter_id.html":[9,0,3,1],
+"struct_audio_1_1_audio_emitter_id.html":[8,0,4,1],
+"struct_audio_1_1_clip_id.html":[9,0,3,3]
 };

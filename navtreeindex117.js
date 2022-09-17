@@ -1,7 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"shaderfeature_8h_source.html":[10,0,0,6,5,62],
-"shaderidentifier_8cc.html":[10,0,0,6,5,63],
 "shaderidentifier_8h.html":[10,0,0,6,5,64],
 "shaderidentifier_8h_source.html":[10,0,0,6,5,64],
 "shaderloader_8cc.html":[10,0,0,6,5,65],
@@ -249,5 +247,7 @@ var NAVTREEINDEX117 =
 "sqlite3command_8cc.html#abff1fa4e98fe19bbd9084bd392bfcf9d":[10,0,0,0,2,0,0,0],
 "sqlite3command_8h.html":[10,0,0,0,2,0,1],
 "sqlite3command_8h.html#aebb7e0dfd803fda311dfab8fb37f9ea0":[10,0,0,0,2,0,1,1],
-"sqlite3command_8h_source.html":[10,0,0,0,2,0,1]
+"sqlite3command_8h_source.html":[10,0,0,0,2,0,1],
+"sqlite3database_8cc.html":[10,0,0,0,2,0,2],
+"sqlite3database_8cc.html#a3a0e433aa9fd236b077ff422f7f8e3e6":[10,0,0,0,2,0,2,0]
 };

@@ -154,9 +154,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a812b97aba4e7f11a0b2167bb093f320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a">GetType</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a812b97aba4e7f11a0b2167bb093f320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of resource pool this resource was allocated with  <a href="class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a">More...</a><br /></td></tr>
 <tr class="separator:a812b97aba4e7f11a0b2167bb093f320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe739db67285ba52f4a9085e6d2bb602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602">WaitForLoaderThread</a> ()</td></tr>
-<tr class="memdesc:afe739db67285ba52f4a9085e6d2bb602"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for resource thread to finish the current job, and then pause the thread  <a href="class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602">More...</a><br /></td></tr>
-<tr class="separator:afe739db67285ba52f4a9085e6d2bb602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9585d4a00804ea277afe3127417380b8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a9585d4a00804ea277afe3127417380b8">GetName</a> (const Resources::ResourceId id) const</td></tr>
 <tr class="memdesc:a9585d4a00804ea277afe3127417380b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get resource name  <a href="class_resources_1_1_resource_server.html#a9585d4a00804ea277afe3127417380b8">More...</a><br /></td></tr>
 <tr class="separator:a9585d4a00804ea277afe3127417380b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +179,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63a930063bbac36a9e9191d059502c69"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a63a930063bbac36a9e9191d059502c69">GetStreamPool</a> () const</td></tr>
 <tr class="memdesc:a63a930063bbac36a9e9191d059502c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stream pool for later use  <a href="class_resources_1_1_resource_server.html#a63a930063bbac36a9e9191d059502c69">More...</a><br /></td></tr>
 <tr class="separator:a63a930063bbac36a9e9191d059502c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe739db67285ba52f4a9085e6d2bb602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602">WaitForLoaderThread</a> ()</td></tr>
+<tr class="memdesc:afe739db67285ba52f4a9085e6d2bb602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for all loader threads.  <a href="class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602">More...</a><br /></td></tr>
+<tr class="separator:afe739db67285ba52f4a9085e6d2bb602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac094cde9351173e2733a2a4782dd565e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#ac094cde9351173e2733a2a4782dd565e">LoadDefaultResources</a> ()</td></tr>
 <tr class="memdesc:ac094cde9351173e2733a2a4782dd565e"><td class="mdescLeft">&#160;</td><td class="mdescRight">goes through all pools and sets up their default resources  <a href="class_resources_1_1_resource_server.html#ac094cde9351173e2733a2a4782dd565e">More...</a><br /></td></tr>
 <tr class="separator:ac094cde9351173e2733a2a4782dd565e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,14 +234,12 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af103757f0bbaed7eb5474be356bc2f49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#af103757f0bbaed7eb5474be356bc2f49">open</a></td></tr>
 <tr class="separator:af103757f0bbaed7eb5474be356bc2f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60bcfec99f6e7907a75274ca51fcfb25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_loader_thread.html">ResourceLoaderThread</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a60bcfec99f6e7907a75274ca51fcfb25">loaderThread</a></td></tr>
-<tr class="separator:a60bcfec99f6e7907a75274ca51fcfb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40762645307c2480489f0f9cc47c69db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db">extensionMap</a></td></tr>
 <tr class="separator:a40762645307c2480489f0f9cc47c69db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447f36779bdc5b450bc915b72e81e936"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936">typeMap</a></td></tr>
 <tr class="separator:a447f36779bdc5b450bc915b72e81e936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a016fbae4990436f003cd5fe562868df2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a016fbae4990436f003cd5fe562868df2">pools</a></td></tr>
-<tr class="separator:a016fbae4990436f003cd5fe562868df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9666c96cb9ebe23136f818c7b1a3f70e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a9666c96cb9ebe23136f818c7b1a3f70e">loaders</a></td></tr>
+<tr class="separator:a9666c96cb9ebe23136f818c7b1a3f70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -1086,7 +1084,7 @@ template&lt;class POOL_TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>wait for resource thread to finish the current job, and then pause the thread </p>
+<p>Wait for all loader threads. </p>
 
 </div>
 </div>
@@ -1136,8 +1134,8 @@ template&lt;class POOL_TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a60bcfec99f6e7907a75274ca51fcfb25" name="a60bcfec99f6e7907a75274ca51fcfb25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60bcfec99f6e7907a75274ca51fcfb25">&#9670;&#160;</a></span>loaderThread</h2>
+<a id="a9666c96cb9ebe23136f818c7b1a3f70e" name="a9666c96cb9ebe23136f818c7b1a3f70e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9666c96cb9ebe23136f818c7b1a3f70e">&#9670;&#160;</a></span>loaders</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1146,7 +1144,7 @@ template&lt;class POOL_TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_resources_1_1_resource_loader_thread.html">ResourceLoaderThread</a>&gt; Resources::ResourceServer::loaderThread</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a>&gt; &gt; Resources::ResourceServer::loaders</td>
         </tr>
       </table>
   </td>
@@ -1169,28 +1167,6 @@ template&lt;class POOL_TYPE &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool Resources::ResourceServer::open</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a016fbae4990436f003cd5fe562868df2" name="a016fbae4990436f003cd5fe562868df2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a016fbae4990436f003cd5fe562868df2">&#9670;&#160;</a></span>pools</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a>&gt; &gt; Resources::ResourceServer::pools</td>
         </tr>
       </table>
   </td>
@@ -1257,7 +1233,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></li>
 				<li class="footer">
-					Generated on Sat Sep 17 2022 22:18:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 22:24:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

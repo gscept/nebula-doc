@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"struct_audio_1_1_audio_emitter_id.html":[8,0,4,1],
-"struct_audio_1_1_clip_id.html":[9,0,3,3],
 "struct_audio_1_1_clip_id.html":[8,0,4,3],
 "struct_audio_1_1_clip_instance_id.html":[9,0,3,4],
 "struct_audio_1_1_clip_instance_id.html":[8,0,4,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "struct_core_animation_1_1_nax2_group.html#a3d74b32aea12c8fd4c0e2187afe44b30":[8,0,12,15,1],
 "struct_core_animation_1_1_nax2_group.html#a41c0549ee89d082d0900f4005e02ddcf":[8,0,12,15,4],
 "struct_core_animation_1_1_nax2_group.html#a41c0549ee89d082d0900f4005e02ddcf":[9,0,10,15,4],
-"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[8,0,12,15,7]
+"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[8,0,12,15,7],
+"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[9,0,10,15,7],
+"struct_core_animation_1_1_nax2_group.html#a87d7b731d3f50989590f95b1cb52f9f1":[8,0,12,15,5]
 };
