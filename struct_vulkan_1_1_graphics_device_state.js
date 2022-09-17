@@ -34,7 +34,7 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "memoryProps", "struct_vulkan_1_1_graphics_device_state.html#a9383787d88fc67a910d0952dbe5cdcd2", null ],
     [ "numCaps", "struct_vulkan_1_1_graphics_device_state.html#ae381e0e2d68d57219244a51262e26daa", null ],
     [ "pendingDeletes", "struct_vulkan_1_1_graphics_device_state.html#acd3f2bb90e841579bd4b3916014b69d6", null ],
-    [ "pendingMarkers", "struct_vulkan_1_1_graphics_device_state.html#a64f8f5324825c3378074d32a1efff963", null ],
+    [ "pendingMarkers", "struct_vulkan_1_1_graphics_device_state.html#af38cbdaf738d281f45881c62a3d56168", null ],
     [ "physicalDevices", "struct_vulkan_1_1_graphics_device_state.html#a25b026a7b13e427cc22c1079594654e6", null ],
     [ "physicalExtensions", "struct_vulkan_1_1_graphics_device_state.html#ae3e98e61495b696984180a79572ab300", null ],
     [ "queries", "struct_vulkan_1_1_graphics_device_state.html#a05bbb346b129b29499b53230954b5ae4", null ],
