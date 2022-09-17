@@ -1,9 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"vkcommandbuffer_8cc.html#a1d55b2c21f56e000acffd1b7ad440452":[10,0,0,6,5,5,4,51],
-"vkcommandbuffer_8cc.html#a1f84f7fb7847458916467b4788aaae71":[10,0,0,6,5,5,4,49],
-"vkcommandbuffer_8cc.html#a23dd7fac6dac29f8cf2c5dd4e9652e29":[10,0,0,6,5,5,4,40],
-"vkcommandbuffer_8cc.html#a2498ddf34e79711e93242ee2e896a451":[10,0,0,6,5,5,4,14],
 "vkcommandbuffer_8cc.html#a263872dd6747199486efdec496f30dea":[10,0,0,6,5,5,4,44],
 "vkcommandbuffer_8cc.html#a28c3c342693b606fb19b6a0db695cbfd":[10,0,0,6,5,5,4,38],
 "vkcommandbuffer_8cc.html#a2b6a9172b9a58d5ffdfb9b79a15696fe":[10,0,0,6,5,5,4,56],
@@ -249,5 +245,9 @@ var NAVTREEINDEX149 =
 "vkinstanceserver_8h.html":[10,0,0,6,12,1,3],
 "vkinstanceserver_8h_source.html":[10,0,0,6,12,1,3],
 "vkloader_8cc.html":[10,0,0,6,5,5,20],
-"vkloader_8cc.html#a037d321d6c615e9b9298bdc3e0a7aac1":[10,0,0,6,5,5,20,89]
+"vkloader_8cc.html#a037d321d6c615e9b9298bdc3e0a7aac1":[10,0,0,6,5,5,20,89],
+"vkloader_8cc.html#a041020a57594006e76fe026fc4998b8e":[10,0,0,6,5,5,20,99],
+"vkloader_8cc.html#a066ca9a131a644c4342a4d8833f8568d":[10,0,0,6,5,5,20,80],
+"vkloader_8cc.html#a091712c5748924bd2f5e5c7d77bcbbbc":[10,0,0,6,5,5,20,81],
+"vkloader_8cc.html#a0a27432b28baaa8645117b964eadbd18":[10,0,0,6,5,5,20,63]
 };
