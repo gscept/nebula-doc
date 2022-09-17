@@ -6,7 +6,7 @@ var class_vulkan_1_1_vk_sub_context_handler =
     [ "~VkSubContextHandler", "class_vulkan_1_1_vk_sub_context_handler.html#ae67e23189807e1293a53d0627b3d8197", null ],
     [ "AppendPresentSignal", "class_vulkan_1_1_vk_sub_context_handler.html#abee777b00c02ff1cafb4b93e4bb17c1c", null ],
     [ "AppendSparseBind", "class_vulkan_1_1_vk_sub_context_handler.html#a12c7a7a8a9a4aaa949fef911e9efb0c4", null ],
-    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a1d227c2233c3d348d7ce15c68f8591dc", null ],
+    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a98697e5d52cd9200762def76f7707b44", null ],
     [ "AppendWaitTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a46b009f35c195e743168f2c6140380e9", null ],
     [ "Discard", "class_vulkan_1_1_vk_sub_context_handler.html#a45928051be690bbc2b29f22276e5d703", null ],
     [ "FlushSparseBinds", "class_vulkan_1_1_vk_sub_context_handler.html#ab08a607d6ff7d7efacedf999f739fed4", null ],

@@ -9,5 +9,6 @@ var class_frame_1_1_frame_submission =
     [ "commandBufferPool", "class_frame_1_1_frame_submission.html#a83dc22b9bd210281d51acbc92f721a27", null ],
     [ "queue", "class_frame_1_1_frame_submission.html#af489a7685a76fb444c099adb948c2ddf", null ],
     [ "resourceResetBarriers", "class_frame_1_1_frame_submission.html#ab1e5c67b9c23bdb4d361322d09e3eb88", null ],
+    [ "waitQueues", "class_frame_1_1_frame_submission.html#ae438dbee60b238ef2b40841c7792813b", null ],
     [ "waitSubmissions", "class_frame_1_1_frame_submission.html#a66cc661910e8e2dde901b167420a603e", null ]
 ];

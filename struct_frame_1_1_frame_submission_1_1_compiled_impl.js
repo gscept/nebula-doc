@@ -7,5 +7,6 @@ var struct_frame_1_1_frame_submission_1_1_compiled_impl =
     [ "queue", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#ad2573b97db5498a1c1d1824bf6890f1e", null ],
     [ "resourceResetBarriers", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a7d03378d02f159abc7c1d10e36d10128", null ],
     [ "submissionId", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a975d66a97361ead79d76ddd82686128b", null ],
+    [ "waitQueues", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a398538c0e96eee0c979bc4d3286f8d00", null ],
     [ "waitSubmissions", "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a26de061085407be2eacd7d6390068762", null ]
 ];

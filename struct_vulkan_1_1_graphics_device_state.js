@@ -32,6 +32,7 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "maxNumBufferedFrames", "struct_vulkan_1_1_graphics_device_state.html#a41cee5e883fd8784e94b57d28372807e", null ],
     [ "MaxVertexStreams", "struct_vulkan_1_1_graphics_device_state.html#a8ad648696ea68e45a9530e8505f1afdb", null ],
     [ "memoryProps", "struct_vulkan_1_1_graphics_device_state.html#a9383787d88fc67a910d0952dbe5cdcd2", null ],
+    [ "mostRecentEvents", "struct_vulkan_1_1_graphics_device_state.html#a7b3f6496e3e46ebeccd0023fae494887", null ],
     [ "numCaps", "struct_vulkan_1_1_graphics_device_state.html#ae381e0e2d68d57219244a51262e26daa", null ],
     [ "pendingDeletes", "struct_vulkan_1_1_graphics_device_state.html#acd3f2bb90e841579bd4b3916014b69d6", null ],
     [ "pendingMarkers", "struct_vulkan_1_1_graphics_device_state.html#af38cbdaf738d281f45881c62a3d56168", null ],
@@ -50,6 +51,6 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "usedQueueFamilies", "struct_vulkan_1_1_graphics_device_state.html#acd077a0101c254e22489919a53f16e36", null ],
     [ "vboStreamOffsets", "struct_vulkan_1_1_graphics_device_state.html#ad6bcbb8e37233fdd6ca79bf7a4efa62a", null ],
     [ "vboStreams", "struct_vulkan_1_1_graphics_device_state.html#a938749eba1682be377dcbeb7cc73ee3b", null ],
-    [ "waitEvents", "struct_vulkan_1_1_graphics_device_state.html#af65b7abdcc1dc58e1bf92ebcdff546ff", null ],
+    [ "waitEvents", "struct_vulkan_1_1_graphics_device_state.html#a5f168fe9a5712a69a024ef87b474febd", null ],
     [ "waitForPresentSemaphore", "struct_vulkan_1_1_graphics_device_state.html#ad8ca39cfc16563728adecc00b03581cd", null ]
 ];
