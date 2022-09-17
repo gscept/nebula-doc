@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded":[8,0,13,304],
 "namespace_core_graphics.html#aae8a25d177145ec9039edbdabf7671a1":[8,0,13,513],
 "namespace_core_graphics.html#aaecf95f10896b6f1cd4274f1d909e918":[8,0,13,119],
 "namespace_core_graphics.html#aaf82a503e6830c9103bdaf2d6af069f5":[8,0,13,506],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "namespace_core_graphics_1_1_gpu_buffer_types.html#ace9b9ef8933f3b3ba27d907ddfd303ada82b562f349e9150e60bb2f3372c9c550":[8,0,13,0,2,3],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#ace9b9ef8933f3b3ba27d907ddfd303adadcd81dcceb44a39eb04f8067f8d6588c":[8,0,13,0,2,1],
 "namespace_core_graphics_1_1_gpu_buffer_types.html#ace9b9ef8933f3b3ba27d907ddfd303adae270f2443b18b2674e91ebfc9b941bcd":[8,0,13,0,2,2],
-"namespace_darwin.html":[8,0,14],
-"namespace_db.html":[8,0,15]
+"namespace_darwin.html":[8,0,14]
 };

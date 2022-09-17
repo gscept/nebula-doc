@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"shader_8h.html#af456d5cd06ffd13fc62c5305b01e42bd":[10,0,0,6,5,60,23],
 "shader_8h.html#af980acfc27839f6333fbf74d21dbee16":[10,0,0,6,5,60,14],
 "shader_8h.html#afd7d2a5e3c1622da4fda6ab53b9646f1":[10,0,0,6,5,60,34],
 "shader_8h.html#aff3c92c476840e5554665e5129fa5fc8":[10,0,0,6,5,60,32],
@@ -73,8 +74,8 @@ var NAVTREEINDEX117 =
 "shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,6,5,67,20],
 "shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,6,5,67,67],
 "shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,6,5,67,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,67,93],
 "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,67,94],
+"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,67,93],
 "shadersemantics_8h.html#a527feccb22cfcc3effdf8162bd6453e0":[10,0,0,6,5,67,86],
 "shadersemantics_8h.html#a538543b6d5e7de8f337fd285d1c7a918":[10,0,0,6,5,67,107],
 "shadersemantics_8h.html#a554b3e00763b2313cba9cd1a751cde0c":[10,0,0,6,5,67,102],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "socket_8h.html":[10,0,0,3,15,1,2],
 "socket_8h_source.html":[10,0,0,3,15,1,2],
 "sparsebuffer_8h.html":[10,0,0,6,5,72],
-"sparsebuffer_8h.html#a07cc8aca500533831bf2fdc70aaeae9f":[10,0,0,6,5,72,2],
-"sparsebuffer_8h.html#a598caa89620a72c38fa8ca21c40d4737":[10,0,0,6,5,72,3]
+"sparsebuffer_8h.html#a07cc8aca500533831bf2fdc70aaeae9f":[10,0,0,6,5,72,2]
 };

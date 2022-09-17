@@ -9,6 +9,7 @@ var commandbuffer_8h =
     [ "CoreGraphics::CmdBufferClearInfo", "struct_core_graphics_1_1_cmd_buffer_clear_info.html", "struct_core_graphics_1_1_cmd_buffer_clear_info" ],
     [ "CoreGraphics::CmdBufferMarkerBundle", "struct_core_graphics_1_1_cmd_buffer_marker_bundle.html", "struct_core_graphics_1_1_cmd_buffer_marker_bundle" ],
     [ "CoreGraphics::CmdBufferId", "struct_core_graphics_1_1_cmd_buffer_id.html", null ],
+    [ "N_CMD_SCOPE", "commandbuffer_8h.html#ab829a3f35fa76844e33e53693eeac120", null ],
     [ "CmdBufferQueryBits", "commandbuffer_8h.html#adcfc40395ca45f001c9603fa5eb04f65", [
       [ "NoQueries", "commandbuffer_8h.html#adcfc40395ca45f001c9603fa5eb04f65a84dbc67bd4b584d87d8cdc3e0e12805a", null ],
       [ "Occlusion", "commandbuffer_8h.html#adcfc40395ca45f001c9603fa5eb04f65a2fd38b76f22c7c64a91e6a32bbc1b651", null ],

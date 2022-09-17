@@ -353,8 +353,32 @@ $(document).ready(function(){initNavTree('commandbuffer_8h_source.html',''); ini
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> CmdGetMarkerOffset(<span class="keyword">const</span> <a class="code hl_struct" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <span class="keywordtype">id</span>);</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>} <span class="comment">// namespace CoreGraphics</span></div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">#if NEBULA_GRAPHICS_DEBUG</span></div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="keyword">struct </span>CmdMarkerScope</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>{</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    <span class="keyword">const</span> <a class="code hl_struct" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id;</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    CmdMarkerScope(<span class="keyword">const</span> <a class="code hl_struct" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; color, <span class="keyword">const</span> <span class="keywordtype">char</span>* name)</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        : id(id)</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    {</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        CoreGraphics::CmdBeginMarker(<span class="keywordtype">id</span>, color, name);</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    }</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    ~CmdMarkerScope()</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    {</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        CoreGraphics::CmdEndMarker(this-&gt;<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    }</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>};</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="preprocessor">#if NEBULA_GRAPHICS_DEBUG</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="preprocessor">    #define N_CMD_SCOPE(buf, color, name) CoreGraphics::CmdMarkerScope __##cmdscope(buf, color, name)</span></div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno"><a class="line" href="commandbuffer_8h.html#ab829a3f35fa76844e33e53693eeac120">  347</a></span><span class="preprocessor">    #define N_CMD_SCOPE(x, y, z)</span></div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>} <span class="comment">// namespace CoreGraphics</span></div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
 <div class="ttc" id="aclass_core_graphics_1_1_index_type_html_afb3e5ed2f6d4fc5e776edc0efcc0da51"><div class="ttname"><a href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a></div><div class="ttdeci">Code</div><div class="ttdoc">index types enum</div><div class="ttdef"><b>Definition:</b> indextype.h:22</div></div>
 <div class="ttc" id="aclass_core_graphics_1_1_primitive_group_html"><div class="ttname"><a href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a></div><div class="ttdoc">Defines a group of primitives as a subset of a vertex buffer and index buffer plus the primitive topo...</div><div class="ttdef"><b>Definition:</b> primitivegroup.h:21</div></div>
 <div class="ttc" id="aclass_core_graphics_1_1_primitive_topology_html_a1aab21ba463f8fb76b8a8b7ef51c09db"><div class="ttname"><a href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a></div><div class="ttdeci">Code</div><div class="ttdoc">enumeration</div><div class="ttdef"><b>Definition:</b> primitivetopology.h:23</div></div>
@@ -487,7 +511,7 @@ $(document).ready(function(){initNavTree('commandbuffer_8h_source.html',''); ini
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="commandbuffer_8h.html">commandbuffer.h</a></li>
 				<li class="footer">
-					Generated on Sat Sep 17 2022 16:31:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Sep 17 2022 18:40:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
