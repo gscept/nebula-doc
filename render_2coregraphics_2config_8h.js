@@ -54,14 +54,15 @@ var render_2coregraphics_2config_8h =
       [ "SubmissionContextIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fa56f4f313f32b993fe044682a4e29f230", null ],
       [ "ImageIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934faa71196b34282074f1aec83be82dbea2e", null ]
     ] ],
-    [ "ImageAspect", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260f", [
-      [ "ColorBits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fac279fd05f8fe0e8d13c6254429a56e24", null ],
-      [ "DepthBits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fa43d83af9dcb31d71b0991d1cd0026867", null ],
-      [ "StencilBits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260faebea258540fdb69bb7e6234126938cbf", null ],
-      [ "MetaBits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fa7297ca7c306d9c6d4af35e2f041a242b", null ],
-      [ "Plane0Bits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fa97ed143100c3d30ca4a5cdac44bd150e", null ],
-      [ "Plane1Bits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fa65b19f19e823f8862183a22a88c9b16e", null ],
-      [ "Plane2Bits", "render_2coregraphics_2config_8h.html#a4e5cea6976ca7fec39c212c874ab260fa13e050156242d841f992f81e10e39c70", null ]
+    [ "ImageBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944", [
+      [ "Auto", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a06b9281e396db002010bde1de57262eb", null ],
+      [ "ColorBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944ac279fd05f8fe0e8d13c6254429a56e24", null ],
+      [ "DepthBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a43d83af9dcb31d71b0991d1cd0026867", null ],
+      [ "StencilBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf", null ],
+      [ "MetaBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a7297ca7c306d9c6d4af35e2f041a242b", null ],
+      [ "Plane0Bits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a97ed143100c3d30ca4a5cdac44bd150e", null ],
+      [ "Plane1Bits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a65b19f19e823f8862183a22a88c9b16e", null ],
+      [ "Plane2Bits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a13e050156242d841f992f81e10e39c70", null ]
     ] ],
     [ "ImageLayout", "render_2coregraphics_2config_8h.html#a04d8601e946dc91033eabcbd74df3ff3", [
       [ "Undefined", "render_2coregraphics_2config_8h.html#a04d8601e946dc91033eabcbd74df3ff3aec0fc0100c4fc1ce4eea230c3dc10360", null ],
@@ -145,10 +146,10 @@ var render_2coregraphics_2config_8h =
       [ "ComputeShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a429a14021402d42e1831d86f3678a8b9", null ],
       [ "AllVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aca62b07063d9b6bee314bc9926913d29", null ]
     ] ],
-    [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a0fe5b3fb3b7a8d2b40c631ae933b3d31", null ],
+    [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#afd3cdd804894952885c00a1c737543d9", null ],
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a65db791f4647f05bf849c69a88daec58", null ],
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a0d0132a778d8ffc51f3f5f61014188c7", null ],
-    [ "__ImplementEnumComparisonOperators", "render_2coregraphics_2config_8h.html#a80e35fb7232a43d8ec75fb706876ace6", null ],
+    [ "__ImplementEnumComparisonOperators", "render_2coregraphics_2config_8h.html#a796080d4231e75483779c742662a1539", null ],
     [ "PipelineStageFromString", "render_2coregraphics_2config_8h.html#a912f7d692681b72949e224530df049ca", null ],
     [ "QueueNameFromQueueType", "render_2coregraphics_2config_8h.html#a534908a5c8340dbbbc8b4beda3f7761c", null ],
     [ "QueueTypeFromString", "render_2coregraphics_2config_8h.html#af5ed525892b3570297f4b0caaeba1804", null ],

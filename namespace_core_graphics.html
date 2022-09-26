@@ -534,18 +534,19 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a79e2fcd3e595161a663854b90154fcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e5cea6976ca7fec39c212c874ab260f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">ImageAspect</a> { <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fac279fd05f8fe0e8d13c6254429a56e24">ColorBits</a> = (1 &lt;&lt; 0)
-, <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa43d83af9dcb31d71b0991d1cd0026867">DepthBits</a> = (1 &lt;&lt; 1)
-, <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260faebea258540fdb69bb7e6234126938cbf">StencilBits</a> = (1 &lt;&lt; 2)
-, <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa7297ca7c306d9c6d4af35e2f041a242b">MetaBits</a> = (1 &lt;&lt; 3)
+<tr class="memitem:ad27ab4eb8d8861828c541b6c25024944"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">ImageBits</a> { <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a06b9281e396db002010bde1de57262eb">Auto</a> = 0
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944ac279fd05f8fe0e8d13c6254429a56e24">ColorBits</a> = (1 &lt;&lt; 0)
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a43d83af9dcb31d71b0991d1cd0026867">DepthBits</a> = (1 &lt;&lt; 1)
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf">StencilBits</a> = (1 &lt;&lt; 2)
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa97ed143100c3d30ca4a5cdac44bd150e">Plane0Bits</a> = (1 &lt;&lt; 4)
-, <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa65b19f19e823f8862183a22a88c9b16e">Plane1Bits</a> = (1 &lt;&lt; 5)
-, <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa13e050156242d841f992f81e10e39c70">Plane2Bits</a> = (1 &lt;&lt; 6)
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a7297ca7c306d9c6d4af35e2f041a242b">MetaBits</a> = (1 &lt;&lt; 3)
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a97ed143100c3d30ca4a5cdac44bd150e">Plane0Bits</a> = (1 &lt;&lt; 4)
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a65b19f19e823f8862183a22a88c9b16e">Plane1Bits</a> = (1 &lt;&lt; 5)
+, <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a13e050156242d841f992f81e10e39c70">Plane2Bits</a> = (1 &lt;&lt; 6)
 <br />
  }</td></tr>
-<tr class="separator:a4e5cea6976ca7fec39c212c874ab260f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ad27ab4eb8d8861828c541b6c25024944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d8601e946dc91033eabcbd74df3ff3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">ImageLayout</a> { <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3aec0fc0100c4fc1ce4eea230c3dc10360">Undefined</a>
 , <a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3a0db377921f4ce762c62526131097968f">General</a>
@@ -833,8 +834,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a483c3f8c779a48fdd8bc42083d8677f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a483c3f8c779a48fdd8bc42083d8677f3">BarrierRepeat</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf)</td></tr>
 <tr class="memdesc:a483c3f8c779a48fdd8bc42083d8677f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">repeat barrier in queue  <a href="namespace_core_graphics.html#a483c3f8c779a48fdd8bc42083d8677f3">More...</a><br /></td></tr>
 <tr class="separator:a483c3f8c779a48fdd8bc42083d8677f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2">ImageAspectFromString</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
-<tr class="separator:abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd22ebb0bd2a5acfd511db4dbdb4cb4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#afd22ebb0bd2a5acfd511db4dbdb4cb4c">ImageBitsFromString</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
+<tr class="separator:afd22ebb0bd2a5acfd511db4dbdb4cb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdd8c2aa026f771f650f973ef298d3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3">CoreGraphics::ImageLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c">ImageLayoutFromString</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
 <tr class="separator:affdd8c2aa026f771f650f973ef298d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82f27ffc999589324aa184ce535eb33b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a82f27ffc999589324aa184ce535eb33b">CreateVertexLayout</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_create_info.html">VertexLayoutCreateInfo</a> &amp;info)</td></tr>
@@ -1070,10 +1071,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac30a5d216cba8fe40aebb7d733f854e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65db791f4647f05bf849c69a88daec58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a65db791f4647f05bf849c69a88daec58">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a>)</td></tr>
 <tr class="separator:a65db791f4647f05bf849c69a88daec58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fe5b3fb3b7a8d2b40c631ae933b3d31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0fe5b3fb3b7a8d2b40c631ae933b3d31">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a>)</td></tr>
-<tr class="separator:a0fe5b3fb3b7a8d2b40c631ae933b3d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80e35fb7232a43d8ec75fb706876ace6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a80e35fb7232a43d8ec75fb706876ace6">__ImplementEnumComparisonOperators</a> (<a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a>)</td></tr>
-<tr class="separator:a80e35fb7232a43d8ec75fb706876ace6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3cdd804894952885c00a1c737543d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#afd3cdd804894952885c00a1c737543d9">__ImplementEnumBitOperators</a> (<a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>)</td></tr>
+<tr class="separator:afd3cdd804894952885c00a1c737543d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796080d4231e75483779c742662a1539"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a796080d4231e75483779c742662a1539">__ImplementEnumComparisonOperators</a> (<a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>)</td></tr>
+<tr class="separator:a796080d4231e75483779c742662a1539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7462948575ac54c6f492b2cf8d83d16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">ShaderVisibility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af7462948575ac54c6f492b2cf8d83d16">ShaderVisibilityFromString</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
 <tr class="separator:af7462948575ac54c6f492b2cf8d83d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ed525892b3570297f4b0caaeba1804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">QueueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af5ed525892b3570297f4b0caaeba1804">QueueTypeFromString</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
@@ -2324,8 +2325,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e5cea6976ca7fec39c212c874ab260f" name="a4e5cea6976ca7fec39c212c874ab260f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e5cea6976ca7fec39c212c874ab260f">&#9670;&#160;</a></span>ImageAspect</h2>
+<a id="ad27ab4eb8d8861828c541b6c25024944" name="ad27ab4eb8d8861828c541b6c25024944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27ab4eb8d8861828c541b6c25024944">&#9670;&#160;</a></span>ImageBits</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2334,7 +2335,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a></td>
+          <td class="memname">enum class <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a></td>
         </tr>
       </table>
   </td>
@@ -2344,13 +2345,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fac279fd05f8fe0e8d13c6254429a56e24" name="a4e5cea6976ca7fec39c212c874ab260fac279fd05f8fe0e8d13c6254429a56e24"></a>ColorBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fa43d83af9dcb31d71b0991d1cd0026867" name="a4e5cea6976ca7fec39c212c874ab260fa43d83af9dcb31d71b0991d1cd0026867"></a>DepthBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260faebea258540fdb69bb7e6234126938cbf" name="a4e5cea6976ca7fec39c212c874ab260faebea258540fdb69bb7e6234126938cbf"></a>StencilBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fa7297ca7c306d9c6d4af35e2f041a242b" name="a4e5cea6976ca7fec39c212c874ab260fa7297ca7c306d9c6d4af35e2f041a242b"></a>MetaBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fa97ed143100c3d30ca4a5cdac44bd150e" name="a4e5cea6976ca7fec39c212c874ab260fa97ed143100c3d30ca4a5cdac44bd150e"></a>Plane0Bits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fa65b19f19e823f8862183a22a88c9b16e" name="a4e5cea6976ca7fec39c212c874ab260fa65b19f19e823f8862183a22a88c9b16e"></a>Plane1Bits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4e5cea6976ca7fec39c212c874ab260fa13e050156242d841f992f81e10e39c70" name="a4e5cea6976ca7fec39c212c874ab260fa13e050156242d841f992f81e10e39c70"></a>Plane2Bits&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a06b9281e396db002010bde1de57262eb" name="ad27ab4eb8d8861828c541b6c25024944a06b9281e396db002010bde1de57262eb"></a>Auto&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944ac279fd05f8fe0e8d13c6254429a56e24" name="ad27ab4eb8d8861828c541b6c25024944ac279fd05f8fe0e8d13c6254429a56e24"></a>ColorBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a43d83af9dcb31d71b0991d1cd0026867" name="ad27ab4eb8d8861828c541b6c25024944a43d83af9dcb31d71b0991d1cd0026867"></a>DepthBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf" name="ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf"></a>StencilBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a7297ca7c306d9c6d4af35e2f041a242b" name="ad27ab4eb8d8861828c541b6c25024944a7297ca7c306d9c6d4af35e2f041a242b"></a>MetaBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a97ed143100c3d30ca4a5cdac44bd150e" name="ad27ab4eb8d8861828c541b6c25024944a97ed143100c3d30ca4a5cdac44bd150e"></a>Plane0Bits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a65b19f19e823f8862183a22a88c9b16e" name="ad27ab4eb8d8861828c541b6c25024944a65b19f19e823f8862183a22a88c9b16e"></a>Plane1Bits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad27ab4eb8d8861828c541b6c25024944a13e050156242d841f992f81e10e39c70" name="ad27ab4eb8d8861828c541b6c25024944a13e050156242d841f992f81e10e39c70"></a>Plane2Bits&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -3214,8 +3216,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0fe5b3fb3b7a8d2b40c631ae933b3d31" name="a0fe5b3fb3b7a8d2b40c631ae933b3d31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fe5b3fb3b7a8d2b40c631ae933b3d31">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[4/7]</span></h2>
+<a id="afd3cdd804894952885c00a1c737543d9" name="afd3cdd804894952885c00a1c737543d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3cdd804894952885c00a1c737543d9">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3223,7 +3225,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">CoreGraphics::__ImplementEnumBitOperators </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -3340,8 +3342,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a80e35fb7232a43d8ec75fb706876ace6" name="a80e35fb7232a43d8ec75fb706876ace6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80e35fb7232a43d8ec75fb706876ace6">&#9670;&#160;</a></span>__ImplementEnumComparisonOperators() <span class="overload">[4/4]</span></h2>
+<a id="a796080d4231e75483779c742662a1539" name="a796080d4231e75483779c742662a1539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796080d4231e75483779c742662a1539">&#9670;&#160;</a></span>__ImplementEnumComparisonOperators() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3349,7 +3351,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">CoreGraphics::__ImplementEnumComparisonOperators </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -8362,8 +8364,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2" name="abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2">&#9670;&#160;</a></span>ImageAspectFromString()</h2>
+<a id="afd22ebb0bd2a5acfd511db4dbdb4cb4c" name="afd22ebb0bd2a5acfd511db4dbdb4cb4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd22ebb0bd2a5acfd511db4dbdb4cb4c">&#9670;&#160;</a></span>ImageBitsFromString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8372,7 +8374,7 @@ template&lt;class TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260f">CoreGraphics::ImageAspect</a> CoreGraphics::ImageAspectFromString </td>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a> CoreGraphics::ImageBitsFromString </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -13859,7 +13861,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Sun Sep 25 2022 23:45:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 26 2022 00:39:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

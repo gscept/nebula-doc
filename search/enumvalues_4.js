@@ -28,7 +28,7 @@ var searchData=
   ['dependencymode_5fmasked_25',['DependencyMode_Masked',['../namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2a4702ec445b88809740314a9422b616a0',1,'Visibility']]],
   ['dependencymode_5ftotal_26',['DependencyMode_Total',['../namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2a99cc0a734afa726905e84c6fe7213c2e',1,'Visibility']]],
   ['depth_27',['Depth',['../class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3a9d2bdb20b7317cfeeb3c5c66fa4d2b02',1,'Frame::FrameBatchType']]],
-  ['depthbits_28',['DepthBits',['../namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fa43d83af9dcb31d71b0991d1cd0026867',1,'CoreGraphics']]],
+  ['depthbits_28',['DepthBits',['../namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944a43d83af9dcb31d71b0991d1cd0026867',1,'CoreGraphics']]],
   ['depthstencilread_29',['DepthStencilRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aa7419f15f4d15322a98d29734b8e48b4',1,'CoreGraphics::DepthStencilRead()'],['../namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3aa7419f15f4d15322a98d29734b8e48b4',1,'CoreGraphics::DepthStencilRead()']]],
   ['depthstencilrendertexture_30',['DepthStencilRenderTexture',['../namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3acef3ae887dc698f76bc5b4d99e34d701',1,'CoreGraphics']]],
   ['depthstencilwrite_31',['DepthStencilWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aaab1a48a275c112d160f5b28d0d3a123',1,'CoreGraphics']]],

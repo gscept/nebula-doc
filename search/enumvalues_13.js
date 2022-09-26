@@ -111,7 +111,7 @@ var searchData=
   ['static_108',['Static',['../namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba02e521a19b147e35cf3f7d189a5b02fc',1,'Physics']]],
   ['statistics_109',['Statistics',['../namespace_core_graphics.html#adcfc40395ca45f001c9603fa5eb04f65ab9671fc573a8120cb83473b46b7841aa',1,'CoreGraphics']]],
   ['statisticsquerytype_110',['StatisticsQueryType',['../namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4fa9affd425bbfb6c10d34f1dec85ab172b',1,'CoreGraphics']]],
-  ['stencilbits_111',['StencilBits',['../namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260faebea258540fdb69bb7e6234126938cbf',1,'CoreGraphics']]],
+  ['stencilbits_111',['StencilBits',['../namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf',1,'CoreGraphics']]],
   ['stencilreadmask_112',['StencilReadMask',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15bab81215e06f80d06ef775f560bfe1c112',1,'CoreGraphics::DrawThread']]],
   ['stencilrefs_113',['StencilRefs',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba7b72f07f4e07f1d53cd78f32bdc4d0f2',1,'CoreGraphics::DrawThread']]],
   ['stencilwritemask_114',['StencilWriteMask',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba12688cfdb8b9a0b7e7cea778a177f519',1,'CoreGraphics::DrawThread']]],

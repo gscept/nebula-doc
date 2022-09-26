@@ -57,7 +57,7 @@ var searchData=
   ['color5_54',['Color5',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858a6a13b6d8b42dd3580ddf94cd8adddc04',1,'Gltf::Primitive']]],
   ['color6_55',['Color6',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858ab5ab4d4d35fe76b5dce0d22ca018c784',1,'Gltf::Primitive']]],
   ['color7_56',['Color7',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858a615211c915b857c848bb2523aebcb87b',1,'Gltf::Primitive']]],
-  ['colorbits_57',['ColorBits',['../namespace_core_graphics.html#a4e5cea6976ca7fec39c212c874ab260fac279fd05f8fe0e8d13c6254429a56e24',1,'CoreGraphics']]],
+  ['colorbits_57',['ColorBits',['../namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944ac279fd05f8fe0e8d13c6254429a56e24',1,'CoreGraphics']]],
   ['colorread_58',['ColorRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a8e7d2cc7f96150c04bf02ecb100ad206',1,'CoreGraphics']]],
   ['colorrendertexture_59',['ColorRenderTexture',['../namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3a503d8f6318c97cb2915297409fe096ce',1,'CoreGraphics']]],
   ['colorwrite_60',['ColorWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a3951023c7034acaa301be8032e40f5d0',1,'CoreGraphics']]],

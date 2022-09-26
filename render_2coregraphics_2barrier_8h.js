@@ -16,6 +16,6 @@ var render_2coregraphics_2barrier_8h =
     [ "BarrierReset", "render_2coregraphics_2barrier_8h.html#a3a4feacd52aee6b7f611b0a71bb50b25", null ],
     [ "CreateBarrier", "render_2coregraphics_2barrier_8h.html#ae6a1a00bc356d6916f74f171ab2a13bf", null ],
     [ "DestroyBarrier", "render_2coregraphics_2barrier_8h.html#a5ef880bff8bd6c660a0956880c133787", null ],
-    [ "ImageAspectFromString", "render_2coregraphics_2barrier_8h.html#abbf7974f6f1c9f2b9b9bc9bbbd2ce1c2", null ],
+    [ "ImageBitsFromString", "render_2coregraphics_2barrier_8h.html#afd22ebb0bd2a5acfd511db4dbdb4cb4c", null ],
     [ "ImageLayoutFromString", "render_2coregraphics_2barrier_8h.html#affdd8c2aa026f771f650f973ef298d3c", null ]
 ];

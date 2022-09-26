@@ -8,7 +8,7 @@ var class_vulkan_1_1_vk_types =
     [ "AsVkBlockSize", "class_vulkan_1_1_vk_types.html#aa90a3e4205d32cd3b2c3e1a8b6042eda", null ],
     [ "AsVkDataFormat", "class_vulkan_1_1_vk_types.html#abb6c46896f5a6ba12f1adf54f4242445", null ],
     [ "AsVkFormat", "class_vulkan_1_1_vk_types.html#aa7937822d9f9b894445acfa9f3395189", null ],
-    [ "AsVkImageAspectFlags", "class_vulkan_1_1_vk_types.html#a6b7b8f1cad7d006d75b57a29261f7fd8", null ],
+    [ "AsVkImageAspectFlags", "class_vulkan_1_1_vk_types.html#a5a86a1418e9a7b9c12529c963f40e7b3", null ],
     [ "AsVkImageLayout", "class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d", null ],
     [ "AsVkImageLayout", "class_vulkan_1_1_vk_types.html#a0d36513a5327c7c0eac04cfd4e01bc00", null ],
     [ "AsVkImageType", "class_vulkan_1_1_vk_types.html#a22dfa7a3fa4206e081446ad890249fd6", null ],

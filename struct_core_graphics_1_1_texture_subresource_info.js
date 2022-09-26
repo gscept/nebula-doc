@@ -1,7 +1,7 @@
 var struct_core_graphics_1_1_texture_subresource_info =
 [
     [ "TextureSubresourceInfo", "struct_core_graphics_1_1_texture_subresource_info.html#a2b5dafdd69c8aeabf17341cc71d20b92", null ],
-    [ "TextureSubresourceInfo", "struct_core_graphics_1_1_texture_subresource_info.html#adba285e7eedbc3a1e7278f48280680b6", null ],
+    [ "TextureSubresourceInfo", "struct_core_graphics_1_1_texture_subresource_info.html#a13d8e5e8ab8825565162af9efc442dcd", null ],
     [ "ColorNoLayer", "struct_core_graphics_1_1_texture_subresource_info.html#ae50590c9cbb3ee1fb710ee64b3138cec", null ],
     [ "ColorNoMip", "struct_core_graphics_1_1_texture_subresource_info.html#a90993d47281f3fcc92d3f2c434467545", null ],
     [ "ColorNoMipNoLayer", "struct_core_graphics_1_1_texture_subresource_info.html#a29ff4567faf616a81e33d17372229053", null ],
@@ -9,7 +9,7 @@ var struct_core_graphics_1_1_texture_subresource_info =
     [ "DepthStencilNoMip", "struct_core_graphics_1_1_texture_subresource_info.html#a8eb62a30b1fa2cdb11626f2c9441abe9", null ],
     [ "DepthStencilNoMipNoLayer", "struct_core_graphics_1_1_texture_subresource_info.html#ae785f06a1e0ec471320eeadb9decf562", null ],
     [ "Overlaps", "struct_core_graphics_1_1_texture_subresource_info.html#a89d7b286fc68c8f20bec756fb401fc1c", null ],
-    [ "aspect", "struct_core_graphics_1_1_texture_subresource_info.html#ad95d60bd7ac0972dc9407e1554149376", null ],
+    [ "aspect", "struct_core_graphics_1_1_texture_subresource_info.html#a2921346e336fed56d1560ed2e0c9b7bf", null ],
     [ "layer", "struct_core_graphics_1_1_texture_subresource_info.html#ae6e77d69117664249396e0f5465fb5db", null ],
     [ "layerCount", "struct_core_graphics_1_1_texture_subresource_info.html#a41c48093346d2dccdafdb1b68539e1e5", null ],
     [ "mip", "struct_core_graphics_1_1_texture_subresource_info.html#a8bca043cc550164d351d972fe981097f", null ],
