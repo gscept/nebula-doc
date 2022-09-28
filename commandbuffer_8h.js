@@ -59,6 +59,7 @@ var commandbuffer_8h =
     [ "CmdReset", "commandbuffer_8h.html#a9f44bf017b3b5a3b4b1e71fe0b4a5b95", null ],
     [ "CmdResetClipToPass", "commandbuffer_8h.html#a9dd3842644aac9d527a9f3562ed0ece6", null ],
     [ "CmdResetEvent", "commandbuffer_8h.html#acf29b6dd8b182e4cf2c63e05d6af3f42", null ],
+    [ "CmdResolve", "commandbuffer_8h.html#ab019f4098c6e489ea37ca5b68081aee3", null ],
     [ "CmdSetGraphicsPipeline", "commandbuffer_8h.html#acceae3e7d1adae86095edfa9c57452dc", null ],
     [ "CmdSetIndexBuffer", "commandbuffer_8h.html#a832f0806d510b5041b3a7005fdb59aaf", null ],
     [ "CmdSetIndexBuffer", "commandbuffer_8h.html#a33c41f45a9d76024ad71a5fe3a9226b1", null ],

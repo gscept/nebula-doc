@@ -38,6 +38,7 @@ var vkloader_8h =
     [ "_DEC_VK", "vkloader_8h.html#ab15e70947f9182d8f1149b1dc081d518", null ],
     [ "_DEC_VK", "vkloader_8h.html#a497c3914495ba21f0a0a306048639a00", null ],
     [ "_DEC_VK", "vkloader_8h.html#aa938cb198a8a4aad3a3f7def0fdec961", null ],
+    [ "_DEC_VK", "vkloader_8h.html#a3fd2ea78e7a95294dbdb8795a74c7038", null ],
     [ "_DEC_VK", "vkloader_8h.html#a1b9b7aba6aef415302e958ff36d608ed", null ],
     [ "_DEC_VK", "vkloader_8h.html#a6d0cb2c00a168542cfe886524533468b", null ],
     [ "_DEC_VK", "vkloader_8h.html#a54fecf4067704a3bc01bedd02f912a8d", null ],

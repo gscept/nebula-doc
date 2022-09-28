@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"shader_8h.html#af980acfc27839f6333fbf74d21dbee16":[10,0,0,6,5,61,14],
+"shader_8h.html#afd7d2a5e3c1622da4fda6ab53b9646f1":[10,0,0,6,5,61,34],
 "shader_8h.html#aff3c92c476840e5554665e5129fa5fc8":[10,0,0,6,5,61,32],
 "shader_8h_source.html":[10,0,0,6,5,61],
 "shaderconfig_8cc.html":[10,0,0,6,14,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "socket_8h_source.html":[10,0,0,3,15,1,2],
 "sparsebuffer_8h.html":[10,0,0,6,5,73],
 "sparsebuffer_8h.html#a07cc8aca500533831bf2fdc70aaeae9f":[10,0,0,6,5,73,2],
-"sparsebuffer_8h.html#a598caa89620a72c38fa8ca21c40d4737":[10,0,0,6,5,73,3],
-"sparsebuffer_8h_source.html":[10,0,0,6,5,73],
-"sparsetable_8h.html":[10,0,0,3,20,43]
+"sparsebuffer_8h.html#a598caa89620a72c38fa8ca21c40d4737":[10,0,0,6,5,73,3]
 };
