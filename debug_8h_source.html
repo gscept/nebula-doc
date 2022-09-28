@@ -117,32 +117,34 @@ $(document).ready(function(){initNavTree('debug_8h_source.html',''); initResizab
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#if __NEBULA_NO_ASSERT__</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define n_assert(exp) if(!(exp)){}</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define n_assert2(exp, msg) if(!(exp)){}</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define n_assert_fmt(exp, msg, ...) if(!(exp)){}</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define n_verify(exp) (exp)</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define n_verify2(exp,imsg) (exp)</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define n_warn(exp) if (!(exp)) {}</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define n_warn2(exp, msg) if (!(exp)) {}</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define n_warn_fmt(exp,  msg, ...) if (!(exp)) {}</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#if __WIN32__</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define n_dxtrace(hr, msg)</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define n_static_assert(exp)</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">   49</a></span><span class="preprocessor">#define n_assert(exp) { if (!(exp)) n_barf(#exp, __FILE__, __LINE__); }</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">   50</a></span><span class="preprocessor">#define n_assert2(exp, msg) { if (!(exp)) n_barf2(#exp, msg, __FILE__, __LINE__); }</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf">   51</a></span><span class="preprocessor">#define n_assert_fmt(exp, msg, ...) { if (!(exp)) n_barf_fmt(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="debug_8h.html#a8f2561213bd73c61dc29f938b1eddcb6">   52</a></span><span class="preprocessor">#define n_warn(exp) { if (!(exp)) n_cough(#exp, __FILE__, __LINE__); }</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="debug_8h.html#ae31a71419d6741ccbf3311246c3a6db0">   53</a></span><span class="preprocessor">#define n_warn2(exp, msg) { if (!(exp)) n_cough2(#exp, msg, __FILE__, __LINE__); }</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="debug_8h.html#aefd229c50d6344b032d0d61907224070">   54</a></span><span class="preprocessor">#define n_warn_fmt(exp,  msg, ...) { if (!(exp)) n_cough_fmt(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="debug_8h.html#a85120895df29b333216418d9a258b476">   55</a></span><span class="preprocessor">#define n_crash(msg) { n_error(&quot;*** NEBULA CRASH ***\n%s(%d)\nmessage: %s\n&quot;</span>, __FILE__, __LINE__, msg); }</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f">   56</a></span><span class="preprocessor">#define n_static_assert(exp) { int _x[ 2*((exp) != 0)-1 ]; (void)(_x[0]=0);}</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#if __WIN32__</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">// dx9 specific: check HRESULT and display DX9 specific message box</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define n_dxtrace(hr, msg) { if (FAILED(hr)) DXTrace(__FILE__,__LINE__,hr,msg,true); }</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define n_assert_msg(exp, msg) n_assert2(exp, msg)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define n_assert_fmt(exp, msg, ...) if(!(exp)){}</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define n_verify(exp) (exp)</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define n_verify2(exp,imsg) (exp)</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define n_warn(exp) if (!(exp)) {}</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define n_warn2(exp, msg) if (!(exp)) {}</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define n_warn_fmt(exp,  msg, ...) if (!(exp)) {}</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#if __WIN32__</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define n_dxtrace(hr, msg)</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define n_static_assert(exp)</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">   50</a></span><span class="preprocessor">#define n_assert(exp) { if (!(exp)) n_barf(#exp, __FILE__, __LINE__); }</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">   51</a></span><span class="preprocessor">#define n_assert2(exp, msg) { if (!(exp)) n_barf2(#exp, msg, __FILE__, __LINE__); }</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="debug_8h.html#ac4647ddcd9386fd7377c83c9ce4d0e36">   52</a></span><span class="preprocessor">#define n_assert_msg(exp, msg) n_assert2(exp, msg)</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf">   53</a></span><span class="preprocessor">#define n_assert_fmt(exp, msg, ...) { if (!(exp)) n_barf_fmt(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="debug_8h.html#a8f2561213bd73c61dc29f938b1eddcb6">   54</a></span><span class="preprocessor">#define n_warn(exp) { if (!(exp)) n_cough(#exp, __FILE__, __LINE__); }</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="debug_8h.html#ae31a71419d6741ccbf3311246c3a6db0">   55</a></span><span class="preprocessor">#define n_warn2(exp, msg) { if (!(exp)) n_cough2(#exp, msg, __FILE__, __LINE__); }</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="debug_8h.html#aefd229c50d6344b032d0d61907224070">   56</a></span><span class="preprocessor">#define n_warn_fmt(exp,  msg, ...) { if (!(exp)) n_cough_fmt(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="debug_8h.html#a85120895df29b333216418d9a258b476">   57</a></span><span class="preprocessor">#define n_crash(msg) { n_error(&quot;*** NEBULA CRASH ***\n%s(%d)\nmessage: %s\n&quot;</span>, __FILE__, __LINE__, msg); }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f">   58</a></span><span class="preprocessor">#define n_static_assert(exp) { int _x[ 2*((exp) != 0)-1 ]; (void)(_x[0]=0);}</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#if __WIN32__</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">// dx9 specific: check HRESULT and display DX9 specific message box</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define n_dxtrace(hr, msg) { if (FAILED(hr)) DXTrace(__FILE__,__LINE__,hr,msg,true); }</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="adebug_8h_html_a0eae04d0c410c083cc161d5df1f547f7"><div class="ttname"><a href="debug_8h.html#a0eae04d0c410c083cc161d5df1f547f7">n_confirm</a></div><div class="ttdeci">void void void void void n_confirm(const char *,...) __attribute__((format(printf</div></div>
 <div class="ttc" id="adebug_8h_html_a1fe0f2d584e94d301bb05770db9ec822"><div class="ttname"><a href="debug_8h.html#a1fe0f2d584e94d301bb05770db9ec822">n_cough</a></div><div class="ttdeci">void n_cough(const char *, const char *, int)</div><div class="ttdoc">This function is called by n_assert() when the assertion fails.</div><div class="ttdef"><b>Definition:</b> debug.cc:78</div></div>
 <div class="ttc" id="adebug_8h_html_a68cbfb7bd2ffad6a6721573e1bc03bfd"><div class="ttname"><a href="debug_8h.html#a68cbfb7bd2ffad6a6721573e1bc03bfd">n_printf</a></div><div class="ttdeci">void n_printf(const char *,...) __attribute__((format(printf</div></div>
@@ -165,7 +167,7 @@ $(document).ready(function(){initNavTree('debug_8h_source.html',''); initResizab
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="debug_8h.html">debug.h</a></li>
 				<li class="footer">
-					Generated on Wed Sep 28 2022 08:07:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Sep 28 2022 12:12:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -11,6 +11,7 @@ var namespace_frame =
     [ "FrameOp", "class_frame_1_1_frame_op.html", "class_frame_1_1_frame_op" ],
     [ "FramePass", "class_frame_1_1_frame_pass.html", "class_frame_1_1_frame_pass" ],
     [ "FramePlugin", "class_frame_1_1_frame_plugin.html", "class_frame_1_1_frame_plugin" ],
+    [ "FrameResolve", "class_frame_1_1_frame_resolve.html", "class_frame_1_1_frame_resolve" ],
     [ "FrameScript", "class_frame_1_1_frame_script.html", "class_frame_1_1_frame_script" ],
     [ "FrameScriptLoader", "class_frame_1_1_frame_script_loader.html", "class_frame_1_1_frame_script_loader" ],
     [ "FrameServer", "class_frame_1_1_frame_server.html", "class_frame_1_1_frame_server" ],

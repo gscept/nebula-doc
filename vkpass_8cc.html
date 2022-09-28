@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('vkpass_8cc.html',''); initResizable();
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -109,6 +110,11 @@ $(document).ready(function(){initNavTree('vkpass_8cc.html',''); initResizable();
 <code>#include &quot;<a class="el" href="vktextureview_8h_source.html">vktextureview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pass_8h_source.html">coregraphics/pass.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_subpass_info.html">CoreGraphics::SubpassInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
@@ -158,9 +164,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aacbc2032879e687af40a61dc793d5d9e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aacbc2032879e687af40a61dc793d5d9e">CoreGraphics::PassGetAttachments</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id)</td></tr>
 <tr class="memdesc:aacbc2032879e687af40a61dc793d5d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of color attachments for entire pass (attachment list)  <a href="namespace_core_graphics.html#aacbc2032879e687af40a61dc793d5d9e">More...</a><br /></td></tr>
 <tr class="separator:aacbc2032879e687af40a61dc793d5d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf221bb05f4522f1b951b88dbafda368"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adf221bb05f4522f1b951b88dbafda368">CoreGraphics::PassGetDepthStencilAttachment</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id)</td></tr>
-<tr class="memdesc:adf221bb05f4522f1b951b88dbafda368"><td class="mdescLeft">&#160;</td><td class="mdescRight">get depth stencil attachment  <a href="namespace_core_graphics.html#adf221bb05f4522f1b951b88dbafda368">More...</a><br /></td></tr>
-<tr class="separator:adf221bb05f4522f1b951b88dbafda368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e5395b21fa5b7f01b54d7d3b41aa19c"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7e5395b21fa5b7f01b54d7d3b41aa19c">CoreGraphics::PassGetNumSubpassAttachments</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> subpass)</td></tr>
 <tr class="memdesc:a7e5395b21fa5b7f01b54d7d3b41aa19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of color attachments for a subpass  <a href="namespace_core_graphics.html#a7e5395b21fa5b7f01b54d7d3b41aa19c">More...</a><br /></td></tr>
 <tr class="separator:a7e5395b21fa5b7f01b54d7d3b41aa19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,16 +184,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a8737933eb7ba322b12d126c1b21a0da6"><td class="memItemLeft" align="right" valign="top">VkPassAllocator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a8737933eb7ba322b12d126c1b21a0da6">Vulkan::passAllocator</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a8737933eb7ba322b12d126c1b21a0da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a75605a692f04f5c3f2b1338308e4aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentReference &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1a75605a692f04f5c3f2b1338308e4aa">CoreGraphics::subpassReferences</a></td></tr>
-<tr class="separator:a1a75605a692f04f5c3f2b1338308e4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413d066e089a76c639ac2912291a0b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentReference &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a413d066e089a76c639ac2912291a0b3a">CoreGraphics::subpassInputs</a></td></tr>
-<tr class="separator:a413d066e089a76c639ac2912291a0b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65afef5f27ae1ec2c81c4f3f96cc02b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a65afef5f27ae1ec2c81c4f3f96cc02b6">CoreGraphics::subpassPreserves</a></td></tr>
-<tr class="separator:a65afef5f27ae1ec2c81c4f3f96cc02b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a780cf0bc139fb8f802b1e0cd737d7027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentReference &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a780cf0bc139fb8f802b1e0cd737d7027">CoreGraphics::subpassResolves</a></td></tr>
-<tr class="separator:a780cf0bc139fb8f802b1e0cd737d7027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc5e635b33412838133faa235bd105f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentReference &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0fc5e635b33412838133faa235bd105f">CoreGraphics::subpassDepthStencils</a></td></tr>
-<tr class="separator:a0fc5e635b33412838133faa235bd105f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d10678b4504af0d5d858f1c192fce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_subpass_info.html">SubpassInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a45d10678b4504af0d5d858f1c192fce5">CoreGraphics::subpassInfos</a></td></tr>
+<tr class="separator:a45d10678b4504af0d5d858f1c192fce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -199,7 +194,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkpass_8cc.html">vkpass.cc</a></li>
 				<li class="footer">
-					Generated on Wed Sep 28 2022 08:07:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Sep 28 2022 12:12:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

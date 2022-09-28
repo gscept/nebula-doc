@@ -112,6 +112,8 @@ Macros</h2></td></tr>
 <tr class="separator:af07fc1acd3d67e0bcafa5ef5bcba4042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e45ccc969dc521c78c8bf7733aedcaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">n_assert2</a>(exp,  msg)&#160;&#160;&#160;{ if (!(exp)) <a class="el" href="debug_8cc.html#a8289d6af0d5e6fa330eeee132ae740c0">n_barf2</a>(#exp, msg, __FILE__, __LINE__); }</td></tr>
 <tr class="separator:a2e45ccc969dc521c78c8bf7733aedcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4647ddcd9386fd7377c83c9ce4d0e36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ac4647ddcd9386fd7377c83c9ce4d0e36">n_assert_msg</a>(exp,  msg)&#160;&#160;&#160;<a class="el" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">n_assert2</a>(exp, msg)</td></tr>
+<tr class="separator:ac4647ddcd9386fd7377c83c9ce4d0e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4718e551050d6ae890018bcfc2fe6aaf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf">n_assert_fmt</a>(exp,  msg, ...)&#160;&#160;&#160;{ if (!(exp)) <a class="el" href="debug_8cc.html#a17229353ad597e4ec423d8e94e5b83c6">n_barf_fmt</a>(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</td></tr>
 <tr class="separator:a4718e551050d6ae890018bcfc2fe6aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f2561213bd73c61dc29f938b1eddcb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a8f2561213bd73c61dc29f938b1eddcb6">n_warn</a>(exp)&#160;&#160;&#160;{ if (!(exp)) <a class="el" href="debug_8cc.html#afadd63b21a5b751f7b59215fc818678f">n_cough</a>(#exp, __FILE__, __LINE__); }</td></tr>
@@ -234,6 +236,34 @@ Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;{ if (!(exp)) <a class="el" href="debug_8cc.html#a17229353ad597e4ec423d8e94e5b83c6">n_barf_fmt</a>(#exp, msg, __FILE__, __LINE__, __VA_ARGS__); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4647ddcd9386fd7377c83c9ce4d0e36" name="ac4647ddcd9386fd7377c83c9ce4d0e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4647ddcd9386fd7377c83c9ce4d0e36">&#9670;&#160;</a></span>n_assert_msg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define n_assert_msg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">exp, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">n_assert2</a>(exp, msg)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -806,7 +836,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="debug_8h.html">debug.h</a></li>
 				<li class="footer">
-					Generated on Wed Sep 28 2022 08:07:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Sep 28 2022 12:12:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

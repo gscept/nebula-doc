@@ -22,7 +22,6 @@ var pass_8h =
     [ "CreatePass", "pass_8h.html#a71a740f7332b35c3356911a074be91fe", null ],
     [ "DestroyPass", "pass_8h.html#ac8d46dd2e8e34733ab25b03ede3010a2", null ],
     [ "PassGetAttachments", "pass_8h.html#aacbc2032879e687af40a61dc793d5d9e", null ],
-    [ "PassGetDepthStencilAttachment", "pass_8h.html#adf221bb05f4522f1b951b88dbafda368", null ],
     [ "PassGetName", "pass_8h.html#a73d0881e447fb7b9549ac1ee64293fb0", null ],
     [ "PassGetNumSubpassAttachments", "pass_8h.html#a7e5395b21fa5b7f01b54d7d3b41aa19c", null ],
     [ "PassGetRects", "pass_8h.html#a9016a40a59649f74368a42bdce431eec", null ],

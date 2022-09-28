@@ -3,6 +3,7 @@ var debug_8h =
     [ "n_assert", "debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042", null ],
     [ "n_assert2", "debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa", null ],
     [ "n_assert_fmt", "debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf", null ],
+    [ "n_assert_msg", "debug_8h.html#ac4647ddcd9386fd7377c83c9ce4d0e36", null ],
     [ "n_crash", "debug_8h.html#a85120895df29b333216418d9a258b476", null ],
     [ "n_message", "debug_8h.html#ade416bb3a573df6088951433c738bb83", null ],
     [ "n_static_assert", "debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f", null ],

@@ -2,6 +2,7 @@ var struct_vulkan_1_1_vk_pass_runtime_info =
 [
     [ "currentSubpassIndex", "struct_vulkan_1_1_vk_pass_runtime_info.html#aef8700c406fd7aae818127cb4f181652", null ],
     [ "framebufferPipelineInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html#a52675cdd32ee02644cc0a48cb038b074", null ],
+    [ "multisampleInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html#ac56e35209d44242dc7092802734d8722", null ],
     [ "passDescriptorSet", "struct_vulkan_1_1_vk_pass_runtime_info.html#a305cd9ded358613df97ef2766032656c", null ],
     [ "passPipelineLayout", "struct_vulkan_1_1_vk_pass_runtime_info.html#a0a237c25a5d262baab6b1f362c906f74", null ],
     [ "recordMode", "struct_vulkan_1_1_vk_pass_runtime_info.html#aa7e192e4d773f5119d015fd430c72955", null ],

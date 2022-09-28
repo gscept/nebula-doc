@@ -1,11 +1,10 @@
 var struct_vulkan_1_1_vk_pass_load_info =
 [
+    [ "attachmentClears", "struct_vulkan_1_1_vk_pass_load_info.html#a405e122ac14c4516411d22774836a583", null ],
+    [ "attachmentFlags", "struct_vulkan_1_1_vk_pass_load_info.html#a6481b2ddfcb7fc3c9f7f02dbf7f30741", null ],
+    [ "attachmentIsDepthStencil", "struct_vulkan_1_1_vk_pass_load_info.html#af7f813b0f7bc51695788bc741f88af8e", null ],
+    [ "attachments", "struct_vulkan_1_1_vk_pass_load_info.html#af5d7bd5c8b442dd7c53fc4a18b9d7641", null ],
     [ "clearValues", "struct_vulkan_1_1_vk_pass_load_info.html#a8a434686ec344006a1b70bd575fe55e1", null ],
-    [ "colorAttachmentClears", "struct_vulkan_1_1_vk_pass_load_info.html#ae8275b5bd3d6b57cfb59f9df3e576cc8", null ],
-    [ "colorAttachmentFlags", "struct_vulkan_1_1_vk_pass_load_info.html#af7a407c8193d6e5a52301756c61731d8", null ],
-    [ "colorAttachments", "struct_vulkan_1_1_vk_pass_load_info.html#a3b706f6f78b61f47acca770da8777d6a", null ],
-    [ "depthStencilAttachment", "struct_vulkan_1_1_vk_pass_load_info.html#add98f07f841e4bf7686a3c3df16a9f9b", null ],
-    [ "depthStencilFlags", "struct_vulkan_1_1_vk_pass_load_info.html#a0f64b550c1f7452b8d701095beb9b7fb", null ],
     [ "dev", "struct_vulkan_1_1_vk_pass_load_info.html#ab8f97318f2c32d679f871202277ac525", null ],
     [ "framebuffer", "struct_vulkan_1_1_vk_pass_load_info.html#adee6ab0f18306da1fcad846ac8157ad1", null ],
     [ "name", "struct_vulkan_1_1_vk_pass_load_info.html#ab8912f4db9f66ec4b8b5e98ac23bbbc9", null ],

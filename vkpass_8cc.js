@@ -1,10 +1,10 @@
 var vkpass_8cc =
 [
+    [ "CoreGraphics::SubpassInfo", "struct_core_graphics_1_1_subpass_info.html", "struct_core_graphics_1_1_subpass_info" ],
     [ "CreatePass", "vkpass_8cc.html#a71a740f7332b35c3356911a074be91fe", null ],
     [ "DestroyPass", "vkpass_8cc.html#ac8d46dd2e8e34733ab25b03ede3010a2", null ],
     [ "GetSubpassInfo", "vkpass_8cc.html#ac181398cc0256d5a40a06a371cbf8a58", null ],
     [ "PassGetAttachments", "vkpass_8cc.html#aacbc2032879e687af40a61dc793d5d9e", null ],
-    [ "PassGetDepthStencilAttachment", "vkpass_8cc.html#adf221bb05f4522f1b951b88dbafda368", null ],
     [ "PassGetName", "vkpass_8cc.html#a73d0881e447fb7b9549ac1ee64293fb0", null ],
     [ "PassGetNumSubpassAttachments", "vkpass_8cc.html#a7e5395b21fa5b7f01b54d7d3b41aa19c", null ],
     [ "PassGetRects", "vkpass_8cc.html#a9016a40a59649f74368a42bdce431eec", null ],
@@ -21,9 +21,5 @@ var vkpass_8cc =
     [ "VkScissorToRect", "vkpass_8cc.html#a90eff12089c50198bcda13ad2d20f2c6", null ],
     [ "VkViewportToRect", "vkpass_8cc.html#ae9db646d7c3441bc48e3cb6f7660b675", null ],
     [ "passAllocator", "vkpass_8cc.html#a8737933eb7ba322b12d126c1b21a0da6", null ],
-    [ "subpassDepthStencils", "vkpass_8cc.html#a0fc5e635b33412838133faa235bd105f", null ],
-    [ "subpassInputs", "vkpass_8cc.html#a413d066e089a76c639ac2912291a0b3a", null ],
-    [ "subpassPreserves", "vkpass_8cc.html#a65afef5f27ae1ec2c81c4f3f96cc02b6", null ],
-    [ "subpassReferences", "vkpass_8cc.html#a1a75605a692f04f5c3f2b1338308e4aa", null ],
-    [ "subpassResolves", "vkpass_8cc.html#a780cf0bc139fb8f802b1e0cd737d7027", null ]
+    [ "subpassInfos", "vkpass_8cc.html#a45d10678b4504af0d5d858f1c192fce5", null ]
 ];

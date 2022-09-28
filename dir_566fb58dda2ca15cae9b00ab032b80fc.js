@@ -21,6 +21,8 @@ var dir_566fb58dda2ca15cae9b00ab032b80fc =
     [ "framepass.h", "framepass_8h.html", "framepass_8h" ],
     [ "frameplugin.cc", "frameplugin_8cc.html", "frameplugin_8cc" ],
     [ "frameplugin.h", "frameplugin_8h.html", "frameplugin_8h" ],
+    [ "frameresolve.cc", "frameresolve_8cc.html", null ],
+    [ "frameresolve.h", "frameresolve_8h.html", "frameresolve_8h" ],
     [ "framescript.cc", "framescript_8cc.html", "framescript_8cc" ],
     [ "framescript.h", "framescript_8h.html", "framescript_8h" ],
     [ "framescriptloader.cc", "framescriptloader_8cc.html", null ],
