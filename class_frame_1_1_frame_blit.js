@@ -5,5 +5,7 @@ var class_frame_1_1_frame_blit =
     [ "~FrameBlit", "class_frame_1_1_frame_blit.html#a10c4b277d2e7447d4838b74c7d693a51", null ],
     [ "AllocCompiled", "class_frame_1_1_frame_blit.html#a2a19269464116b8eacf0671e6bb78f67", null ],
     [ "from", "class_frame_1_1_frame_blit.html#aef5379329907f2ae63639509e5d086b8", null ],
-    [ "to", "class_frame_1_1_frame_blit.html#a8bb27089eda868b59b2ee1650b429a7d", null ]
+    [ "fromBits", "class_frame_1_1_frame_blit.html#a9f5e39e8b855bb6ab7e1803d80e813bc", null ],
+    [ "to", "class_frame_1_1_frame_blit.html#a8bb27089eda868b59b2ee1650b429a7d", null ],
+    [ "toBits", "class_frame_1_1_frame_blit.html#a12f6cc0723b8056580b7c264e06cab2b", null ]
 ];

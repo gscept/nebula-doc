@@ -140,9 +140,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a1d86e150f95adf69d0ffe52ee809f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4">AsNebulaPixelFormat</a> (VkFormat f)</td></tr>
 <tr class="memdesc:a2a1d86e150f95adf69d0ffe52ee809f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert vulkan format back to nebula format  <a href="class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4">More...</a><br /></td></tr>
 <tr class="separator:a2a1d86e150f95adf69d0ffe52ee809f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a86a1418e9a7b9c12529c963f40e7b3"><td class="memItemLeft" align="right" valign="top">static VkImageAspectFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a5a86a1418e9a7b9c12529c963f40e7b3">AsVkImageAspectFlags</a> (const <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a> aspect)</td></tr>
-<tr class="memdesc:a5a86a1418e9a7b9c12529c963f40e7b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert image aspects to <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>  <a href="class_vulkan_1_1_vk_types.html#a5a86a1418e9a7b9c12529c963f40e7b3">More...</a><br /></td></tr>
-<tr class="separator:a5a86a1418e9a7b9c12529c963f40e7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544c0e26d04ab1161db0419ff50d5fd0"><td class="memItemLeft" align="right" valign="top">static VkImageAspectFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a544c0e26d04ab1161db0419ff50d5fd0">AsVkImageAspectFlags</a> (const <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a> bits)</td></tr>
+<tr class="memdesc:a544c0e26d04ab1161db0419ff50d5fd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert image aspects to <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>  <a href="class_vulkan_1_1_vk_types.html#a544c0e26d04ab1161db0419ff50d5fd0">More...</a><br /></td></tr>
+<tr class="separator:a544c0e26d04ab1161db0419ff50d5fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10d4becc01224dd75e535dfd86e20032"><td class="memItemLeft" align="right" valign="top">static VkShaderStageFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032">AsVkShaderVisibility</a> (const <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> vis)</td></tr>
 <tr class="memdesc:a10d4becc01224dd75e535dfd86e20032"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert shader visibility to vulkan  <a href="class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032">More...</a><br /></td></tr>
 <tr class="separator:a10d4becc01224dd75e535dfd86e20032"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,8 +371,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a86a1418e9a7b9c12529c963f40e7b3" name="a5a86a1418e9a7b9c12529c963f40e7b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a86a1418e9a7b9c12529c963f40e7b3">&#9670;&#160;</a></span>AsVkImageAspectFlags()</h2>
+<a id="a544c0e26d04ab1161db0419ff50d5fd0" name="a544c0e26d04ab1161db0419ff50d5fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544c0e26d04ab1161db0419ff50d5fd0">&#9670;&#160;</a></span>AsVkImageAspectFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,7 +384,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">VkImageAspectFlags Vulkan::VkTypes::AsVkImageAspectFlags </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>&#160;</td>
-          <td class="paramname"><em>aspect</em></td><td>)</td>
+          <td class="paramname"><em>bits</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -812,7 +812,7 @@ Static Public Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_types.html">VkTypes</a></li>
 				<li class="footer">
-					Generated on Wed Sep 28 2022 12:13:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 31 2022 14:34:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

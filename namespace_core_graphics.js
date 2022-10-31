@@ -473,7 +473,7 @@ var namespace_core_graphics =
     [ "CmdBarrier", "namespace_core_graphics.html#aa8cd973e1332020e102154f72371e6b1", null ],
     [ "CmdBeginPass", "namespace_core_graphics.html#a456c22cfedfa4bbb5c601e6fd77b1878", null ],
     [ "CmdBeginRecord", "namespace_core_graphics.html#a7ed8b65eb99a3b1e3c5646c9c06a2319", null ],
-    [ "CmdBlit", "namespace_core_graphics.html#a9c01cb27f232f62423a5f452b32608ea", null ],
+    [ "CmdBlit", "namespace_core_graphics.html#a86d1e1793fd5989bd5cd90bd6fa16e32", null ],
     [ "CmdCopy", "namespace_core_graphics.html#a31f4f7ade351f2d7c19227a7883eeb26", null ],
     [ "CmdCopy", "namespace_core_graphics.html#a8f1c57b3e97ec202b349ab59eb0be317", null ],
     [ "CmdCopy", "namespace_core_graphics.html#add7861e221a7260eaa04c1e9576281a6", null ],

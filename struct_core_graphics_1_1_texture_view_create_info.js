@@ -1,6 +1,6 @@
 var struct_core_graphics_1_1_texture_view_create_info =
 [
-    [ "aspect", "struct_core_graphics_1_1_texture_view_create_info.html#ac7432cb5dfab8e03d121ef13011b42c1", null ],
+    [ "bits", "struct_core_graphics_1_1_texture_view_create_info.html#a5f9c6aca7078fe1ca5109d389be62da9", null ],
     [ "format", "struct_core_graphics_1_1_texture_view_create_info.html#a440f968c18219068b17b016e20c2442b", null ],
     [ "name", "struct_core_graphics_1_1_texture_view_create_info.html#af26b48dd4d11755ec37f676257404332", null ],
     [ "numLayers", "struct_core_graphics_1_1_texture_view_create_info.html#a2542b77ca7c6701ed6c6e10ebe5d370e", null ],

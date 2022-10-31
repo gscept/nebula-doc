@@ -4,7 +4,7 @@ var vkcommandbuffer_8cc =
     [ "CmdBarrier", "vkcommandbuffer_8cc.html#aa8cd973e1332020e102154f72371e6b1", null ],
     [ "CmdBeginPass", "vkcommandbuffer_8cc.html#a456c22cfedfa4bbb5c601e6fd77b1878", null ],
     [ "CmdBeginRecord", "vkcommandbuffer_8cc.html#a7ed8b65eb99a3b1e3c5646c9c06a2319", null ],
-    [ "CmdBlit", "vkcommandbuffer_8cc.html#a9c01cb27f232f62423a5f452b32608ea", null ],
+    [ "CmdBlit", "vkcommandbuffer_8cc.html#a86d1e1793fd5989bd5cd90bd6fa16e32", null ],
     [ "CmdBufferGetVk", "vkcommandbuffer_8cc.html#acc288f307b256fc3aae4a9bab70ce8a9", null ],
     [ "CmdBufferGetVkDevice", "vkcommandbuffer_8cc.html#af8eefb56d9573559b0346f7c09a1cde1", null ],
     [ "CmdBufferGetVkPool", "vkcommandbuffer_8cc.html#ad444ab70d1ebb2905d1aef9c16279934", null ],

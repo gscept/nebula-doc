@@ -20,8 +20,8 @@ var searchData=
   ['joints6_17',['Joints6',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858a9380b9130a8ceebe03778cd9c63db59e',1,'Gltf::Primitive']]],
   ['joints7_18',['Joints7',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858a634999580ce7802756ef1dab38fcb598',1,'Gltf::Primitive']]],
   ['jpeg_19',['JPEG',['../namespace_core_graphics.html#ab1f14818932ccbe546b651b341302c88a4ad81f49f97eaa35905a1c0e76fcebc9',1,'CoreGraphics']]],
-  ['jpg_20',['Jpg',['../struct_gltf_1_1_image.html#a281a4640ac962cf07a822f40bfef3fb6ad4e47f134aec4e9518aaa6fe610e9fd0',1,'Gltf::Image']]],
-  ['jpg_21',['JPG',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7ababdb06bb693b43639ad08393a7928a0',1,'CoreGraphics::ImageFileFormat']]],
+  ['jpg_20',['JPG',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7ababdb06bb693b43639ad08393a7928a0',1,'CoreGraphics::ImageFileFormat']]],
+  ['jpg_21',['Jpg',['../struct_gltf_1_1_image.html#a281a4640ac962cf07a822f40bfef3fb6ad4e47f134aec4e9518aaa6fe610e9fd0',1,'Gltf::Image']]],
   ['july_22',['July',['../class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba33dee03d07cbe55186ce98516c6fde94',1,'Base::CalendarTimeBase']]],
   ['june_23',['June',['../class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba97ad7e06deda69d54c3a0ec011e348c6',1,'Base::CalendarTimeBase']]]
 ];

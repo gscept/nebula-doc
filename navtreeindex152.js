@@ -1,5 +1,17 @@
 var NAVTREEINDEX152 =
 {
+"vksemaphore_8cc.html#a71293294f9b404ef01128ff920266f32":[10,0,0,6,5,5,36,4],
+"vksemaphore_8cc.html#a999fe7b5cc6d42fd123432587f6b1764":[10,0,0,6,5,5,36,1],
+"vksemaphore_8cc.html#a9fb2ce4cdadad12035289b084d2b9b89":[10,0,0,6,5,5,36,3],
+"vksemaphore_8cc.html#aaa53208d923f13a69bcd0cef93ccbf70":[10,0,0,6,5,5,36,6],
+"vksemaphore_8cc.html#ace002eb9db88bf295dceb94a7a097c39":[10,0,0,6,5,5,36,0],
+"vksemaphore_8h.html":[10,0,0,6,5,5,37],
+"vksemaphore_8h.html#a9fb2ce4cdadad12035289b084d2b9b89":[10,0,0,6,5,5,37,1],
+"vksemaphore_8h.html#ad54f8dc5d631c9d61e3cceb082a400a0":[10,0,0,6,5,5,37,0],
+"vksemaphore_8h_source.html":[10,0,0,6,5,5,37],
+"vkshader_8cc.html":[10,0,0,6,5,5,38],
+"vkshader_8cc.html#a07f663b210509fc69bc86f3e6c155472":[10,0,0,6,5,5,38,16],
+"vkshader_8cc.html#a0bc04710eb3962c274957f5b62f5ac63":[10,0,0,6,5,5,38,6],
 "vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4":[10,0,0,6,5,5,38,35],
 "vkshader_8cc.html#a18d382f43282a8da4e9cb134bc51c3ec":[10,0,0,6,5,5,38,25],
 "vkshader_8cc.html#a1e7cc94877a73c12393c3ec2c4dac6f0":[10,0,0,6,5,5,38,21],
@@ -237,17 +249,5 @@ var NAVTREEINDEX152 =
 "win32filetime_8h.html#ad3a5379f8e704e750027d760661002fb":[10,0,0,3,9,7,3,2],
 "win32filetime_8h.html#ad50e33adf1845fbabb321d6c0548ce20":[10,0,0,3,9,7,3,4],
 "win32filetime_8h.html#af335b38d39ea69fc67296bb86af2077b":[10,0,0,3,9,7,3,1],
-"win32filetime_8h_source.html":[10,0,0,3,9,7,3],
-"win32filewatcher_8cc.html":[10,0,0,3,9,7,4],
-"win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301":[10,0,0,3,9,7,4,0],
-"win32filewatcher_8h.html":[10,0,0,3,9,7,5],
-"win32filewatcher_8h_source.html":[10,0,0,3,9,7,5],
-"win32fswrapper_8cc.html":[10,0,0,3,9,7,6],
-"win32fswrapper_8h.html":[10,0,0,3,9,7,7],
-"win32fswrapper_8h_source.html":[10,0,0,3,9,7,7],
-"win32guid_8cc.html":[10,0,0,3,20,2,0],
-"win32guid_8h.html":[10,0,0,3,20,2,1],
-"win32guid_8h_source.html":[10,0,0,3,20,2,1],
-"win32heap_8cc.html":[10,0,0,3,13,3,0],
-"win32heap_8h.html":[10,0,0,3,13,3,1]
+"win32filetime_8h_source.html":[10,0,0,3,9,7,3]
 };
