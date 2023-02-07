@@ -82,6 +82,7 @@ var namespaces_dup =
     [ "Scripting", "namespace_scripting.html", "namespace_scripting" ],
     [ "SoLoud", "namespace_so_loud.html", null ],
     [ "StaticUI", "namespace_static_u_i.html", "namespace_static_u_i" ],
+    [ "std", "namespacestd.html", "namespacestd" ],
     [ "System", "namespace_system.html", "namespace_system" ],
     [ "Terrain", "namespace_terrain.html", "namespace_terrain" ],
     [ "Threading", "namespace_threading.html", "namespace_threading" ],

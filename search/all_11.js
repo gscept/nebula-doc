@@ -22,8 +22,8 @@ var searchData=
   ['quatundenormalize_19',['quatUndenormalize',['../namespace_math.html#adb24b5f9c60ed4a3efd14e33726d6bad',1,'Math']]],
   ['queries_20',['queries',['../struct_vulkan_1_1_graphics_device_state.html#a05bbb346b129b29499b53230954b5ae4',1,'Vulkan::GraphicsDeviceState']]],
   ['queries_21',['Queries',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html',1,'Vulkan::GraphicsDeviceState']]],
-  ['query_22',['query',['../class_i_o_1_1_u_r_i.html#a89b1b61ff5b6d1adbbcb031578f4cd6a',1,'IO::URI']]],
-  ['query_23',['Query',['../class_i_o_1_1_u_r_i.html#a338e98e09136cab64cf894a26872aedb',1,'IO::URI::Query()'],['../class_mem_db_1_1_database.html#ae384dc8b0186d9c7b300dddbe3de034c',1,'MemDb::Database::Query()'],['../namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a',1,'Game::Query(World *, Filter filter)'],['../namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787',1,'Game::Query(World *, Util::Array&lt; MemDb::TableId &gt; &amp;tables, Filter filter)'],['../namespace_game.html#a3e2891686998c0318e52a525428b783f',1,'Game::Query(Ptr&lt; MemDb::Database &gt; const  &amp;db, Util::Array&lt; MemDb::TableId &gt; &amp;tables, Filter filter)'],['../class_mem_db_1_1_database.html#ae54b26d573e445e204b82e2ac286e2bf',1,'MemDb::Database::Query()']]],
+  ['query_22',['Query',['../class_i_o_1_1_u_r_i.html#a338e98e09136cab64cf894a26872aedb',1,'IO::URI::Query()'],['../class_mem_db_1_1_database.html#ae384dc8b0186d9c7b300dddbe3de034c',1,'MemDb::Database::Query(TableSignature const &amp;inclusive, TableSignature const &amp;exclusive)'],['../class_mem_db_1_1_database.html#ae54b26d573e445e204b82e2ac286e2bf',1,'MemDb::Database::Query(FilterSet const &amp;filterset)'],['../namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a',1,'Game::Query(World *, Filter filter)'],['../namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787',1,'Game::Query(World *, Util::Array&lt; MemDb::TableId &gt; &amp;tables, Filter filter)'],['../namespace_game.html#a3e2891686998c0318e52a525428b783f',1,'Game::Query(Ptr&lt; MemDb::Database &gt; const  &amp;db, Util::Array&lt; MemDb::TableId &gt; &amp;tables, Filter filter)']]],
+  ['query_23',['query',['../class_i_o_1_1_u_r_i.html#a89b1b61ff5b6d1adbbcb031578f4cd6a',1,'IO::URI']]],
   ['querybuffer_24',['queryBuffer',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a27d7acd315d6e95aed15bb068e6dedd3',1,'Vulkan::GraphicsDeviceState::Queries']]],
   ['querybundle_25',['QueryBundle',['../struct_vulkan_1_1_query_bundle.html',1,'Vulkan']]],
   ['queryclips_26',['QueryClips',['../class_characters_1_1_character_context.html#a1b30e620562ae08962746d2b0199d8e3',1,'Characters::CharacterContext']]],
@@ -71,7 +71,8 @@ var searchData=
   ['queuetype_68',['queueType',['../class_frame_1_1_frame_event.html#ae82b041825dcbec2c96aa8c369187f6c',1,'Frame::FrameEvent']]],
   ['queuetype_69',['QueueType',['../namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9',1,'CoreGraphics']]],
   ['queuetypefromstring_70',['QueueTypeFromString',['../namespace_core_graphics.html#af5ed525892b3570297f4b0caaeba1804',1,'CoreGraphics']]],
-  ['quit_71',['quit',['../class_ti_xml_string.html#aa6008ae51286a342cd366fbf1e3eeafc',1,'TiXmlString']]],
-  ['quitrequested_72',['quitRequested',['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication']]],
-  ['quote_73',['Quote',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18abd831153eb47340b315d82145c7db0d8',1,'Input::Key']]]
+  ['quiet_5fnan_71',['quiet_NaN',['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#a62425c49e1a4c2a70413d312d0c1e6be',1,'std::numeric_limits&lt; Math::half &gt;']]],
+  ['quit_72',['quit',['../class_ti_xml_string.html#aa6008ae51286a342cd366fbf1e3eeafc',1,'TiXmlString']]],
+  ['quitrequested_73',['quitRequested',['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication']]],
+  ['quote_74',['Quote',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18abd831153eb47340b315d82145c7db0d8',1,'Input::Key']]]
 ];

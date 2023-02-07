@@ -17,10 +17,11 @@ var searchData=
   ['normaltexture_14',['NormalTexture',['../struct_gltf_1_1_material_1_1_normal_texture.html',1,'Gltf::Material']]],
   ['nsk3header_15',['Nsk3Header',['../struct_characters_1_1_nsk3_header.html',1,'Characters']]],
   ['nsk3joint_16',['Nsk3Joint',['../struct_characters_1_1_nsk3_joint.html',1,'Characters']]],
-  ['nvx2group_17',['Nvx2Group',['../struct_core_graphics_1_1_nvx2_group.html',1,'CoreGraphics']]],
-  ['nvx2header_18',['Nvx2Header',['../struct_core_graphics_1_1_nvx2_header.html',1,'CoreGraphics']]],
-  ['nvx2streamreader_19',['Nvx2StreamReader',['../class_legacy_1_1_nvx2_stream_reader.html',1,'']]],
-  ['nvx3group_20',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
-  ['nvx3header_21',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
-  ['nvx3streamreader_22',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]]
+  ['numeric_5flimits_3c_20math_3a_3ahalf_20_3e_17',['numeric_limits&lt; Math::half &gt;',['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html',1,'std']]],
+  ['nvx2group_18',['Nvx2Group',['../struct_core_graphics_1_1_nvx2_group.html',1,'CoreGraphics']]],
+  ['nvx2header_19',['Nvx2Header',['../struct_core_graphics_1_1_nvx2_header.html',1,'CoreGraphics']]],
+  ['nvx2streamreader_20',['Nvx2StreamReader',['../class_legacy_1_1_nvx2_stream_reader.html',1,'']]],
+  ['nvx3group_21',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
+  ['nvx3header_22',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
+  ['nvx3streamreader_23',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]]
 ];

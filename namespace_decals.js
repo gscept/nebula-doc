@@ -9,7 +9,7 @@ var namespace_decals =
     [ "clusterSpotDecals", "namespace_decals.html#aa537415a02a3cb3cdf0bc541b52d16ac", null ],
     [ "cullProgram", "namespace_decals.html#a1affaef47e93b91ba55c69670e82e74c", null ],
     [ "debugProgram", "namespace_decals.html#ac7217487557a94b16f443f848865b5bc", null ],
-    [ "decalState", "namespace_decals.html#a3e00d7441596afb27eb6843b4b56f7b1", null ],
+    [ "decalState", "namespace_decals.html#a66b3add296a8489e8e7d3160eec81a01", null ],
     [ "emissiveDecals", "namespace_decals.html#ac0d27b3153e590a03eb7faadc98cd79d", null ],
     [ "frameOpAllocator", "namespace_decals.html#a955e2589c7af60c456d8b351c34003d7", null ],
     [ "pbrDecals", "namespace_decals.html#aaf89057787ebc8a8600a1af0cc7a6ab8", null ],

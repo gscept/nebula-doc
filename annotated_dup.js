@@ -658,6 +658,7 @@ var annotated_dup =
       [ "float3", "struct_math_1_1float3.html", "struct_math_1_1float3" ],
       [ "float4", "struct_math_1_1float4.html", "struct_math_1_1float4" ],
       [ "frustum", "class_math_1_1frustum.html", "class_math_1_1frustum" ],
+      [ "half", "class_math_1_1half.html", "class_math_1_1half" ],
       [ "int2", "struct_math_1_1int2.html", "struct_math_1_1int2" ],
       [ "int3", "struct_math_1_1int3.html", "struct_math_1_1int3" ],
       [ "int4", "struct_math_1_1int4.html", "struct_math_1_1int4" ],
@@ -861,6 +862,9 @@ var annotated_dup =
       [ "Logger", "struct_static_u_i_1_1_logger.html", "struct_static_u_i_1_1_logger" ],
       [ "StaticUIContext", "class_static_u_i_1_1_static_u_i_context.html", "class_static_u_i_1_1_static_u_i_context" ],
       [ "UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html", "class_static_u_i_1_1_ultralight_renderer" ]
+    ] ],
+    [ "std", "namespacestd.html", [
+      [ "numeric_limits< Math::half >", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4" ]
     ] ],
     [ "System", "namespace_system.html", [
       [ "ByteOrder", "class_system_1_1_byte_order.html", "class_system_1_1_byte_order" ],

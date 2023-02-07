@@ -6,6 +6,7 @@ var dir_b1848cd272221e872cac0c15a21863f6 =
     [ "clipstatus.h", "clipstatus_8h.html", "clipstatus_8h" ],
     [ "extrapolator.h", "extrapolator_8h.html", "extrapolator_8h" ],
     [ "frustum.h", "frustum_8h.html", "frustum_8h" ],
+    [ "half.h", "half_8h.html", "half_8h" ],
     [ "line.cc", "line_8cc.html", null ],
     [ "line.h", "line_8h.html", "line_8h" ],
     [ "mat4.cc", "mat4_8cc.html", "mat4_8cc" ],
