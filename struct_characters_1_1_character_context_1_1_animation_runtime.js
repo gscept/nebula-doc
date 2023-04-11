@@ -3,6 +3,7 @@ var struct_characters_1_1_character_context_1_1_animation_runtime =
     [ "baseTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a23353552bfbd4f40a47547deef154b8c", null ],
     [ "blend", "struct_characters_1_1_character_context_1_1_animation_runtime.html#af4733c809632bc1cdc177ad480f6aa13", null ],
     [ "clip", "struct_characters_1_1_character_context_1_1_animation_runtime.html#abfef7567f233b55a961c6e68ab50e055", null ],
+    [ "curveSampleIndices", "struct_characters_1_1_character_context_1_1_animation_runtime.html#ae09a81dd87f2c85e93d2da5fb06ce3ad", null ],
     [ "duration", "struct_characters_1_1_character_context_1_1_animation_runtime.html#aae8d624bb40a2f76f85171f3981d4f85", null ],
     [ "enqueueMode", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a2cda0312d16e3abbd73f42a84344d574", null ],
     [ "evalTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#ac93cbe13a095a4847d377259374f9107", null ],

@@ -1,6 +1,8 @@
 var naxfileformatstructs_8h =
 [
     [ "CoreAnimation::Nax3Header", "struct_core_animation_1_1_nax3_header.html", "struct_core_animation_1_1_nax3_header" ],
+    [ "CoreAnimation::Nax3Anim", "struct_core_animation_1_1_nax3_anim.html", "struct_core_animation_1_1_nax3_anim" ],
+    [ "CoreAnimation::Nax3Interval", "struct_core_animation_1_1_nax3_interval.html", "struct_core_animation_1_1_nax3_interval" ],
     [ "CoreAnimation::Nax3Clip", "struct_core_animation_1_1_nax3_clip.html", "struct_core_animation_1_1_nax3_clip" ],
     [ "CoreAnimation::Nax3AnimEvent", "struct_core_animation_1_1_nax3_anim_event.html", "struct_core_animation_1_1_nax3_anim_event" ],
     [ "CoreAnimation::Nax3Curve", "struct_core_animation_1_1_nax3_curve.html", "struct_core_animation_1_1_nax3_curve" ],

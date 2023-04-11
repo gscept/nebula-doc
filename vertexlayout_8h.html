@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('vertexlayout_8h.html',''); initResizab
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">vertexlayout.h File Reference</div></div>
@@ -101,6 +102,7 @@ $(document).ready(function(){initNavTree('vertexlayout_8h.html',''); initResizab
 <div class="textblock"><code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vertexcomponent_8h_source.html">coregraphics/vertexcomponent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shader_8h_source.html">coregraphics/shader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="half_8h_source.html">math/half.h</a>&quot;</code><br />
 </div>
 <p><a href="vertexlayout_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -112,12 +114,36 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_vertex_layout_info.html">CoreGraphics::VertexLayoutInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_base_vertex.html">CoreGraphics::BaseVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_normal_vertex.html">CoreGraphics::NormalVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_second_u_v_vertex.html">CoreGraphics::SecondUVVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_color_vertex.html">CoreGraphics::ColorVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_skin_vertex.html">CoreGraphics::SkinVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
 <tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af4bde55a3078526840bee06aa34d4791"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791">CoreGraphics::VertexLayoutType</a> { <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a4bbb8f967da6d1a610596d7257179c2b">CoreGraphics::Invalid</a>
+, <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a960b44c579bc2f6818d2daaf9e4c16f0">CoreGraphics::Normal</a>
+, <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a5d50889672f6f860d14f502de3de1957">CoreGraphics::Colors</a>
+, <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a5390eebaed3218451f23b9fc22414126">CoreGraphics::SecondUV</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a9313566fe19aca293daefe4ce37942bf">CoreGraphics::Skin</a>
+, <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457">CoreGraphics::NumTypes</a>
+<br />
+ }</td></tr>
+<tr class="separator:af4bde55a3078526840bee06aa34d4791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -130,7 +156,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6d3fb13bc18843e87da031b70558b4a0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6d3fb13bc18843e87da031b70558b4a0">CoreGraphics::VertexLayoutGetSize</a> (const VertexLayoutId id)</td></tr>
 <tr class="memdesc:a6d3fb13bc18843e87da031b70558b4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get byte size  <br /></td></tr>
 <tr class="separator:a6d3fb13bc18843e87da031b70558b4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5245b5a68c7a809b949802524671f703"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_vertex_component.html">VertexComponent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5245b5a68c7a809b949802524671f703">CoreGraphics::VertexLayoutGetComponents</a> (const VertexLayoutId id)</td></tr>
+<tr class="memitem:a5245b5a68c7a809b949802524671f703"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VertexComponent &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5245b5a68c7a809b949802524671f703">CoreGraphics::VertexLayoutGetComponents</a> (const VertexLayoutId id)</td></tr>
 <tr class="memdesc:a5245b5a68c7a809b949802524671f703"><td class="mdescLeft">&#160;</td><td class="mdescRight">get components  <br /></td></tr>
 <tr class="separator:a5245b5a68c7a809b949802524671f703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,7 +173,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="vertexlayout_8h.html">vertexlayout.h</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -2,6 +2,9 @@ var mat4_8h =
 [
     [ "Math::mat4", "struct_math_1_1mat4.html", "struct_math_1_1mat4" ],
     [ "mm_ror_ps", "mat4_8h.html#a093b22c0052e42f3de58064f255d41f8", null ],
+    [ "affine", "mat4_8h.html#a82b6a20d252ac6a125d1ce48e88172fb", null ],
+    [ "affine", "mat4_8h.html#a4c94a9fb0ec8a3239429833ad113abff", null ],
+    [ "affine", "mat4_8h.html#ac52bd4689c3bc8a62f11cd4baff3571b", null ],
     [ "affinetransformation", "mat4_8h.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "decompose", "mat4_8h.html#a592cdd187352d5e8d951b2c1056b5a12", null ],
     [ "determinant", "mat4_8h.html#a9ba1642f6a661c35eaa9bcdc790c4c46", null ],

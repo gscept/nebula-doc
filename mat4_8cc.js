@@ -1,5 +1,8 @@
 var mat4_8cc =
 [
+    [ "affine", "mat4_8cc.html#a82b6a20d252ac6a125d1ce48e88172fb", null ],
+    [ "affine", "mat4_8cc.html#a4c94a9fb0ec8a3239429833ad113abff", null ],
+    [ "affine", "mat4_8cc.html#ac52bd4689c3bc8a62f11cd4baff3571b", null ],
     [ "affinetransformation", "mat4_8cc.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "decompose", "mat4_8cc.html#a592cdd187352d5e8d951b2c1056b5a12", null ],
     [ "ispointinside", "mat4_8cc.html#adcf6b24f1985e449737e4a801f7d7f90", null ],

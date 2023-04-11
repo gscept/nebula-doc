@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('class_core_animation_1_1_anim_curve.ht
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_core_animation_1_1_anim_curve-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CoreAnimation::AnimCurve Class Reference</div></div>
 </div><!--header-->
@@ -109,49 +109,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42dace03a9fb1dec1dfe862e88e27291"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a42dace03a9fb1dec1dfe862e88e27291">AnimCurve</a> ()</td></tr>
 <tr class="memdesc:a42dace03a9fb1dec1dfe862e88e27291"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="separator:a42dace03a9fb1dec1dfe862e88e27291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5e4593aac74d4636b652bdd5a60d0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a6f5e4593aac74d4636b652bdd5a60d0e">SetActive</a> (bool b)</td></tr>
-<tr class="memdesc:a6f5e4593aac74d4636b652bdd5a60d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">activate/deactivate the curve, only active curves will be evaluated  <br /></td></tr>
-<tr class="separator:a6f5e4593aac74d4636b652bdd5a60d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a13f7aaf51c1825f0f98f704c85eb4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a1a13f7aaf51c1825f0f98f704c85eb4f">IsActive</a> () const</td></tr>
-<tr class="memdesc:a1a13f7aaf51c1825f0f98f704c85eb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if the animation curve is active  <br /></td></tr>
-<tr class="separator:a1a13f7aaf51c1825f0f98f704c85eb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47ddbc5c37210cbe1b74cc80b6cc4426"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a47ddbc5c37210cbe1b74cc80b6cc4426">SetStatic</a> (bool b)</td></tr>
-<tr class="memdesc:a47ddbc5c37210cbe1b74cc80b6cc4426"><td class="mdescLeft">&#160;</td><td class="mdescRight">set/clear the static flag  <br /></td></tr>
-<tr class="separator:a47ddbc5c37210cbe1b74cc80b6cc4426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91883d54dc86fa8259aa0bf53c9f7d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#ab91883d54dc86fa8259aa0bf53c9f7d4">IsStatic</a> () const</td></tr>
-<tr class="memdesc:ab91883d54dc86fa8259aa0bf53c9f7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if the curve is static  <br /></td></tr>
-<tr class="separator:ab91883d54dc86fa8259aa0bf53c9f7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a497da8e95041430e985747e078984f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a9a497da8e95041430e985747e078984f">SetStaticKey</a> (const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="class_core_animation_1_1_anim_curve.html#a48fd19545b829bc47a6d7edea6e3d4cc">staticKey</a>)</td></tr>
-<tr class="memdesc:a9a497da8e95041430e985747e078984f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the static key of the curve  <br /></td></tr>
-<tr class="separator:a9a497da8e95041430e985747e078984f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562036b1e40ecdd3439b60f283ed3aa1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a562036b1e40ecdd3439b60f283ed3aa1">GetStaticKey</a> () const</td></tr>
-<tr class="memdesc:a562036b1e40ecdd3439b60f283ed3aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the static key of the curve  <br /></td></tr>
-<tr class="separator:a562036b1e40ecdd3439b60f283ed3aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e15ed7b4bd0e01212c2770cbe37f957"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a7e15ed7b4bd0e01212c2770cbe37f957">SetFirstKeyIndex</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
-<tr class="memdesc:a7e15ed7b4bd0e01212c2770cbe37f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">set index of the first key in the <a class="el" href="class_core_animation_1_1_anim_key_buffer.html" title="A simple buffer of vec4 animation keys.">AnimKeyBuffer</a>  <br /></td></tr>
-<tr class="separator:a7e15ed7b4bd0e01212c2770cbe37f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea9d587cfff973b0f9fbf632bc7cc653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#aea9d587cfff973b0f9fbf632bc7cc653">GetFirstKeyIndex</a> () const</td></tr>
-<tr class="memdesc:aea9d587cfff973b0f9fbf632bc7cc653"><td class="mdescLeft">&#160;</td><td class="mdescRight">get index of the first key in the <a class="el" href="class_core_animation_1_1_anim_key_buffer.html" title="A simple buffer of vec4 animation keys.">AnimKeyBuffer</a>  <br /></td></tr>
-<tr class="separator:aea9d587cfff973b0f9fbf632bc7cc653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdadfb1dee32f661e6e9dc1fcdd98a3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#afdadfb1dee32f661e6e9dc1fcdd98a3a">SetCurveType</a> (<a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a> <a class="el" href="class_core_animation_1_1_anim_curve.html#a7f121ec7d5eac77bacd7a10724652d5d">curveType</a>)</td></tr>
-<tr class="memdesc:afdadfb1dee32f661e6e9dc1fcdd98a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the curve type  <br /></td></tr>
-<tr class="separator:afdadfb1dee32f661e6e9dc1fcdd98a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e9448caa65dcdb61747ec26c9baab99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a8e9448caa65dcdb61747ec26c9baab99">GetCurveType</a> () const</td></tr>
-<tr class="memdesc:a8e9448caa65dcdb61747ec26c9baab99"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the curve type  <br /></td></tr>
-<tr class="separator:a8e9448caa65dcdb61747ec26c9baab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a48fd19545b829bc47a6d7edea6e3d4cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a48fd19545b829bc47a6d7edea6e3d4cc">staticKey</a></td></tr>
-<tr class="separator:a48fd19545b829bc47a6d7edea6e3d4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9811b772b3f44bb8361b045f69891a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a9811b772b3f44bb8361b045f69891a59">firstKeyIndex</a></td></tr>
-<tr class="separator:a9811b772b3f44bb8361b045f69891a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a87ab6dfbdd581e410f268558dd64f713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a87ab6dfbdd581e410f268558dd64f713">firstIntervalOffset</a></td></tr>
+<tr class="separator:a87ab6dfbdd581e410f268558dd64f713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d96d287b304ae44ed2e1f1774d6c56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#ae5d96d287b304ae44ed2e1f1774d6c56">numIntervals</a></td></tr>
+<tr class="separator:ae5d96d287b304ae44ed2e1f1774d6c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b94549c0e004f00f4952274ad367197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_infinity_type.html#a837e3b01df757ecf7bba3f6dea292d4e">CoreAnimation::InfinityType::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a4b94549c0e004f00f4952274ad367197">preInfinityType</a></td></tr>
+<tr class="separator:a4b94549c0e004f00f4952274ad367197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4b3dfebf270752f008713fec0748b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_infinity_type.html#a837e3b01df757ecf7bba3f6dea292d4e">CoreAnimation::InfinityType::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a1a4b3dfebf270752f008713fec0748b1">postInfinityType</a></td></tr>
+<tr class="separator:a1a4b3dfebf270752f008713fec0748b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f121ec7d5eac77bacd7a10724652d5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a7f121ec7d5eac77bacd7a10724652d5d">curveType</a></td></tr>
 <tr class="separator:a7f121ec7d5eac77bacd7a10724652d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a642bde8dacb7aa416459955f29755ede"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a642bde8dacb7aa416459955f29755ede">isActive</a></td></tr>
-<tr class="separator:a642bde8dacb7aa416459955f29755ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a704d7e56d255563fef9cc3e547202aa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_animation_1_1_anim_curve.html#a704d7e56d255563fef9cc3e547202aa8">isStatic</a></td></tr>
-<tr class="separator:a704d7e56d255563fef9cc3e547202aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42dace03a9fb1dec1dfe862e88e27291" name="a42dace03a9fb1dec1dfe862e88e27291"></a>
@@ -181,389 +151,73 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8e9448caa65dcdb61747ec26c9baab99" name="a8e9448caa65dcdb61747ec26c9baab99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e9448caa65dcdb61747ec26c9baab99">&#9670;&#160;</a></span>GetCurveType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a> CoreAnimation::AnimCurve::GetCurveType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get the curve type </p>
-
-</div>
-</div>
-<a id="aea9d587cfff973b0f9fbf632bc7cc653" name="aea9d587cfff973b0f9fbf632bc7cc653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea9d587cfff973b0f9fbf632bc7cc653">&#9670;&#160;</a></span>GetFirstKeyIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreAnimation::AnimCurve::GetFirstKeyIndex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get index of the first key in the <a class="el" href="class_core_animation_1_1_anim_key_buffer.html" title="A simple buffer of vec4 animation keys.">AnimKeyBuffer</a> </p>
-
-</div>
-</div>
-<a id="a562036b1e40ecdd3439b60f283ed3aa1" name="a562036b1e40ecdd3439b60f283ed3aa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a562036b1e40ecdd3439b60f283ed3aa1">&#9670;&#160;</a></span>GetStaticKey()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp; CoreAnimation::AnimCurve::GetStaticKey </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get the static key of the curve </p>
-
-</div>
-</div>
-<a id="a1a13f7aaf51c1825f0f98f704c85eb4f" name="a1a13f7aaf51c1825f0f98f704c85eb4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a13f7aaf51c1825f0f98f704c85eb4f">&#9670;&#160;</a></span>IsActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CoreAnimation::AnimCurve::IsActive </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return true if the animation curve is active </p>
-
-</div>
-</div>
-<a id="ab91883d54dc86fa8259aa0bf53c9f7d4" name="ab91883d54dc86fa8259aa0bf53c9f7d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab91883d54dc86fa8259aa0bf53c9f7d4">&#9670;&#160;</a></span>IsStatic()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CoreAnimation::AnimCurve::IsStatic </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return true if the curve is static </p>
-
-</div>
-</div>
-<a id="a6f5e4593aac74d4636b652bdd5a60d0e" name="a6f5e4593aac74d4636b652bdd5a60d0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f5e4593aac74d4636b652bdd5a60d0e">&#9670;&#160;</a></span>SetActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreAnimation::AnimCurve::SetActive </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>activate/deactivate the curve, only active curves will be evaluated </p>
-
-</div>
-</div>
-<a id="afdadfb1dee32f661e6e9dc1fcdd98a3a" name="afdadfb1dee32f661e6e9dc1fcdd98a3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdadfb1dee32f661e6e9dc1fcdd98a3a">&#9670;&#160;</a></span>SetCurveType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreAnimation::AnimCurve::SetCurveType </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a>&#160;</td>
-          <td class="paramname"><em>curveType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set the curve type </p>
-
-</div>
-</div>
-<a id="a7e15ed7b4bd0e01212c2770cbe37f957" name="a7e15ed7b4bd0e01212c2770cbe37f957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e15ed7b4bd0e01212c2770cbe37f957">&#9670;&#160;</a></span>SetFirstKeyIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreAnimation::AnimCurve::SetFirstKeyIndex </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set index of the first key in the <a class="el" href="class_core_animation_1_1_anim_key_buffer.html" title="A simple buffer of vec4 animation keys.">AnimKeyBuffer</a> </p>
-
-</div>
-</div>
-<a id="a47ddbc5c37210cbe1b74cc80b6cc4426" name="a47ddbc5c37210cbe1b74cc80b6cc4426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47ddbc5c37210cbe1b74cc80b6cc4426">&#9670;&#160;</a></span>SetStatic()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreAnimation::AnimCurve::SetStatic </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set/clear the static flag </p>
-
-</div>
-</div>
-<a id="a9a497da8e95041430e985747e078984f" name="a9a497da8e95041430e985747e078984f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a497da8e95041430e985747e078984f">&#9670;&#160;</a></span>SetStaticKey()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreAnimation::AnimCurve::SetStaticKey </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;&#160;</td>
-          <td class="paramname"><em>staticKey</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set the static key of the curve </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f121ec7d5eac77bacd7a10724652d5d" name="a7f121ec7d5eac77bacd7a10724652d5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f121ec7d5eac77bacd7a10724652d5d">&#9670;&#160;</a></span>curveType</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be">CurveType::Code</a> CoreAnimation::AnimCurve::curveType</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9811b772b3f44bb8361b045f69891a59" name="a9811b772b3f44bb8361b045f69891a59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9811b772b3f44bb8361b045f69891a59">&#9670;&#160;</a></span>firstKeyIndex</h2>
+<a id="a87ab6dfbdd581e410f268558dd64f713" name="a87ab6dfbdd581e410f268558dd64f713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ab6dfbdd581e410f268558dd64f713">&#9670;&#160;</a></span>firstIntervalOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreAnimation::AnimCurve::firstKeyIndex</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> CoreAnimation::AnimCurve::firstIntervalOffset</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a642bde8dacb7aa416459955f29755ede" name="a642bde8dacb7aa416459955f29755ede"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a642bde8dacb7aa416459955f29755ede">&#9670;&#160;</a></span>isActive</h2>
+<a id="ae5d96d287b304ae44ed2e1f1774d6c56" name="ae5d96d287b304ae44ed2e1f1774d6c56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d96d287b304ae44ed2e1f1774d6c56">&#9670;&#160;</a></span>numIntervals</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CoreAnimation::AnimCurve::isActive</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> CoreAnimation::AnimCurve::numIntervals</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a704d7e56d255563fef9cc3e547202aa8" name="a704d7e56d255563fef9cc3e547202aa8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a704d7e56d255563fef9cc3e547202aa8">&#9670;&#160;</a></span>isStatic</h2>
+<a id="a1a4b3dfebf270752f008713fec0748b1" name="a1a4b3dfebf270752f008713fec0748b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4b3dfebf270752f008713fec0748b1">&#9670;&#160;</a></span>postInfinityType</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CoreAnimation::AnimCurve::isStatic</td>
+          <td class="memname"><a class="el" href="class_core_animation_1_1_infinity_type.html#a837e3b01df757ecf7bba3f6dea292d4e">CoreAnimation::InfinityType::Code</a> CoreAnimation::AnimCurve::postInfinityType</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a48fd19545b829bc47a6d7edea6e3d4cc" name="a48fd19545b829bc47a6d7edea6e3d4cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48fd19545b829bc47a6d7edea6e3d4cc">&#9670;&#160;</a></span>staticKey</h2>
+<a id="a4b94549c0e004f00f4952274ad367197" name="a4b94549c0e004f00f4952274ad367197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b94549c0e004f00f4952274ad367197">&#9670;&#160;</a></span>preInfinityType</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> CoreAnimation::AnimCurve::staticKey</td>
+          <td class="memname"><a class="el" href="class_core_animation_1_1_infinity_type.html#a837e3b01df757ecf7bba3f6dea292d4e">CoreAnimation::InfinityType::Code</a> CoreAnimation::AnimCurve::preInfinityType</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -578,7 +232,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_animation.html">CoreAnimation</a></li><li class="navelem"><a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

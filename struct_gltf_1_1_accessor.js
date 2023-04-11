@@ -24,7 +24,7 @@ var struct_gltf_1_1_accessor =
     [ "byteOffset", "struct_gltf_1_1_accessor.html#ad770176e546a213b089c4f31e72bfe47", null ],
     [ "componentType", "struct_gltf_1_1_accessor.html#a35a4e1637fbfd176c0450b72f18b66a0", null ],
     [ "count", "struct_gltf_1_1_accessor.html#ac91b6d7881d804d8596c4b8bbaceb360", null ],
-    [ "format", "struct_gltf_1_1_accessor.html#af50b928163fdbf89ddb1d396524c7dee", null ],
+    [ "format", "struct_gltf_1_1_accessor.html#aaf6162468e992811b602cafc312200fc", null ],
     [ "max", "struct_gltf_1_1_accessor.html#a5e56a01b0af8cce9520b530ec923c6ef", null ],
     [ "min", "struct_gltf_1_1_accessor.html#ad948ea5c60e136b1017de56b7e174812", null ],
     [ "name", "struct_gltf_1_1_accessor.html#a37477c2e15acb1953327ccac91d19778", null ],

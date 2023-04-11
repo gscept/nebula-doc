@@ -1,8 +1,12 @@
 var dir_6c58477bfd8ecafbb488bbd2493f95bf =
 [
     [ "jobs", "dir_c1e77362bf859dbe8be9a1659a36baec.html", "dir_c1e77362bf859dbe8be9a1659a36baec" ],
+    [ "animation.cc", "animation_8cc.html", "animation_8cc" ],
+    [ "animation.h", "animation_8h.html", "animation_8h" ],
     [ "animationloader.cc", "animationloader_8cc.html", "animationloader_8cc" ],
     [ "animationloader.h", "animationloader_8h.html", "animationloader_8h" ],
+    [ "animationresource.cc", "animationresource_8cc.html", "animationresource_8cc" ],
+    [ "animationresource.h", "animationresource_8h.html", "animationresource_8h" ],
     [ "animclip.cc", "animclip_8cc.html", null ],
     [ "animclip.h", "animclip_8h.html", "animclip_8h" ],
     [ "animcurve.h", "animcurve_8h.html", "animcurve_8h" ],
@@ -11,8 +15,6 @@ var dir_6c58477bfd8ecafbb488bbd2493f95bf =
     [ "animeventemitter.h", "animeventemitter_8h.html", "animeventemitter_8h" ],
     [ "animkeybuffer.cc", "animkeybuffer_8cc.html", "animkeybuffer_8cc" ],
     [ "animkeybuffer.h", "animkeybuffer_8h.html", "animkeybuffer_8h" ],
-    [ "animresource.cc", "animresource_8cc.html", "animresource_8cc" ],
-    [ "animresource.h", "animresource_8h.html", "animresource_8h" ],
     [ "animsamplebuffer.cc", "animsamplebuffer_8cc.html", null ],
     [ "animsamplebuffer.h", "animsamplebuffer_8h.html", "animsamplebuffer_8h" ],
     [ "animsamplejob.cc", "animsamplejob_8cc.html", "animsamplejob_8cc" ],

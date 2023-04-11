@@ -10,7 +10,8 @@ var searchData=
   ['size_5ftype_7',['size_type',['../class_ti_xml_string.html#abeb2c1893a04c17904f7c06546d0b971',1,'TiXmlString']]],
   ['sizet_8',['SizeT',['../types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37',1,'types.h']]],
   ['skeletonallocator_9',['SkeletonAllocator',['../namespace_characters.html#a96dd831b66787aff7e8646fc18969985',1,'Characters']]],
-  ['socket_10',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
-  ['spotlightallocator_11',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a0adb0abaa0e95b6377581ad32fbdb301',1,'Lighting::LightContext']]],
-  ['stubtype_12',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]]
+  ['skeletonresourceallocator_10',['SkeletonResourceAllocator',['../namespace_characters.html#a599b18f5b1d17bf8ab1487b077b879fb',1,'Characters']]],
+  ['socket_11',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
+  ['spotlightallocator_12',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a0adb0abaa0e95b6377581ad32fbdb301',1,'Lighting::LightContext']]],
+  ['stubtype_13',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]]
 ];

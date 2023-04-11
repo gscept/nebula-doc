@@ -50,7 +50,7 @@ var struct_gltf_1_1_primitive =
     [ "indices", "struct_gltf_1_1_primitive.html#a601b352b7d0d4871e9dc7154a4cdeaf5", null ],
     [ "material", "struct_gltf_1_1_primitive.html#afe4d6ede6b548906ac5efa2a035598ff", null ],
     [ "mode", "struct_gltf_1_1_primitive.html#a8b674743ace5c27ebbcb384875e04ba6", null ],
-    [ "nebulaAttributes", "struct_gltf_1_1_primitive.html#a528b4a697acf35a0a58abf00b02ca3fc", null ],
+    [ "nebulaAttributes", "struct_gltf_1_1_primitive.html#a370798e80b071c0fe7db9e501ff65749", null ],
     [ "nebulaMode", "struct_gltf_1_1_primitive.html#adec8577519b95be42fb78524d76a50b1", null ],
     [ "targets", "struct_gltf_1_1_primitive.html#a697c8c2586fa5c752b0dddf7fe7f3fa0", null ]
 ];

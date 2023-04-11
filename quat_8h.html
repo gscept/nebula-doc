@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('quat_8h.html',''); initResizable(); })
 <div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scalar_8h_source.html">math/scalar.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vec4_8h_source.html">math/vec4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sse_8h_source.html">math/sse.h</a>&quot;</code><br />
 </div>
 <p><a href="quat_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -122,8 +123,10 @@ Functions</h2></td></tr>
 <tr class="separator:a4888e237383d5fa2f0c694ab75a8627f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23276864c9df51a9a293c084e52a01a7"><td class="memItemLeft" align="right" valign="top">quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a23276864c9df51a9a293c084e52a01a7">Math::rotationmatrix</a> (const mat4 &amp;m)</td></tr>
 <tr class="separator:a23276864c9df51a9a293c084e52a01a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6394052c4cb595eb81adb41e080bc537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a6394052c4cb595eb81adb41e080bc537">Math::to_euler</a> (const quat &amp;q, vec4 &amp;outangles)</td></tr>
-<tr class="separator:a6394052c4cb595eb81adb41e080bc537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088bf6c60ec11492f3ea85487fd4bfa0"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a088bf6c60ec11492f3ea85487fd4bfa0">Math::to_euler</a> (const quat &amp;q)</td></tr>
+<tr class="separator:a088bf6c60ec11492f3ea85487fd4bfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf35a34ce76751d53dda6c51f04ebff1"><td class="memItemLeft" align="right" valign="top">quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#abf35a34ce76751d53dda6c51f04ebff1">Math::quatyawpitchroll</a> (scalar y, scalar x, scalar z)</td></tr>
+<tr class="separator:abf35a34ce76751d53dda6c51f04ebff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8fade730a82a342575de6a23910fc16"><td class="memItemLeft" align="right" valign="top">__forceinline bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa8fade730a82a342575de6a23910fc16">Math::isidentity</a> (const quat &amp;q)</td></tr>
 <tr class="separator:aa8fade730a82a342575de6a23910fc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcd87d43acafba4730bb160d8e17a99"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a4fcd87d43acafba4730bb160d8e17a99">Math::length</a> (const quat &amp;q)</td></tr>
@@ -146,15 +149,13 @@ Functions</h2></td></tr>
 <tr class="separator:a4dcd44627d84530288035a0c5c6bc1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecd49ae8998c700a0f0467848e65d937"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aecd49ae8998c700a0f0467848e65d937">Math::ln</a> (const quat &amp;q)</td></tr>
 <tr class="separator:aecd49ae8998c700a0f0467848e65d937"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a663a2b669bea9f3ef64d28e2d9db4ae3"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a663a2b669bea9f3ef64d28e2d9db4ae3">Math::operator*</a> (const quat &amp;q1, const quat &amp;q0)</td></tr>
-<tr class="separator:a663a2b669bea9f3ef64d28e2d9db4ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa590b2acbb6f31bb4c544e1b03c178a4"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa590b2acbb6f31bb4c544e1b03c178a4">Math::operator*</a> (const quat &amp;q0, const quat &amp;q1)</td></tr>
+<tr class="separator:aa590b2acbb6f31bb4c544e1b03c178a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78f00aaec33550330dd4289d6d64e992"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a78f00aaec33550330dd4289d6d64e992">Math::normalize</a> (const quat &amp;q)</td></tr>
 <tr class="separator:a78f00aaec33550330dd4289d6d64e992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefa31214f9bdbfa197f42f4c294635b4"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aefa31214f9bdbfa197f42f4c294635b4">Math::rotationquataxis</a> (const vec3 &amp;axis, scalar angle)</td></tr>
 <tr class="memdesc:aefa31214f9bdbfa197f42f4c294635b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">quat from rotation axis + angle.  <br /></td></tr>
 <tr class="separator:aefa31214f9bdbfa197f42f4c294635b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c019bbdbd00425162a1cbd6b36afa0"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a86c019bbdbd00425162a1cbd6b36afa0">Math::rotationquatyawpitchroll</a> (scalar yaw, scalar pitch, scalar roll)</td></tr>
-<tr class="separator:a86c019bbdbd00425162a1cbd6b36afa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc986d88c96e4e70751f86d7f1ecefb1"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#abc986d88c96e4e70751f86d7f1ecefb1">Math::squadsetup</a> (const quat &amp;q0, const quat &amp;q1, const quat &amp;q2, const quat &amp;q3, quat &amp;aOut, quat &amp;bOut, quat &amp;cOut)</td></tr>
 <tr class="separator:abc986d88c96e4e70751f86d7f1ecefb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac791b8654d951549b4b6b1224db23088"><td class="memItemLeft" align="right" valign="top">__forceinline quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ac791b8654d951549b4b6b1224db23088">Math::squad</a> (const quat &amp;q1, const quat &amp;a, const quat &amp;b, const quat &amp;c, scalar t)</td></tr>
@@ -169,7 +170,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="quat_8h.html">quat.h</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

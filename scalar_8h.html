@@ -126,6 +126,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1uint4.html">Math::uint4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1byte4u.html">Math::byte4u</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1byte4.html">Math::byte4</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -208,6 +212,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abe3dc1bce65d07a608490d232305c132"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:abe3dc1bce65d07a608490d232305c132"><td class="memTemplItemLeft" align="right" valign="top">__forceinline TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_math.html#abe3dc1bce65d07a608490d232305c132">Math::max</a> (TYPE a, TYPE b)</td></tr>
 <tr class="separator:abe3dc1bce65d07a608490d232305c132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd530b8760f20e6282af9b4a0f0f4f3"><td class="memTemplParams" colspan="2">template&lt;typename TYPE0 , typename ... TYPEN&gt; </td></tr>
+<tr class="memitem:a5dd530b8760f20e6282af9b4a0f0f4f3"><td class="memTemplItemLeft" align="right" valign="top">__forceinline TYPE0&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_math.html#a5dd530b8760f20e6282af9b4a0f0f4f3">Math::max</a> (TYPE0 first, TYPE0 second, TYPEN... rest)</td></tr>
+<tr class="separator:a5dd530b8760f20e6282af9b4a0f0f4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1295accbd7c2aaaeb8cee14c4053eb"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a9c1295accbd7c2aaaeb8cee14c4053eb"><td class="memTemplItemLeft" align="right" valign="top">__forceinline unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_math.html#a9c1295accbd7c2aaaeb8cee14c4053eb">Math::max</a> (unsigned int a, unsigned int b)</td></tr>
 <tr class="memdesc:a9c1295accbd7c2aaaeb8cee14c4053eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">branchless max for uint32  <br /></td></tr>
@@ -219,6 +226,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af117fbd60f5cfaab6776a775d81de8ae"><td class="memTemplItemLeft" align="right" valign="top">__forceinline unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_math.html#af117fbd60f5cfaab6776a775d81de8ae">Math::min</a> (unsigned int a, unsigned int b)</td></tr>
 <tr class="memdesc:af117fbd60f5cfaab6776a775d81de8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">branchless min for uints  <br /></td></tr>
 <tr class="separator:af117fbd60f5cfaab6776a775d81de8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3683c8dc0cde3ad531fa7de74623b940"><td class="memTemplParams" colspan="2">template&lt;typename TYPE0 , typename ... TYPEN&gt; </td></tr>
+<tr class="memitem:a3683c8dc0cde3ad531fa7de74623b940"><td class="memTemplItemLeft" align="right" valign="top">__forceinline TYPE0&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_math.html#a3683c8dc0cde3ad531fa7de74623b940">Math::min</a> (TYPE0 first, TYPE0 second, TYPEN... rest)</td></tr>
+<tr class="separator:a3683c8dc0cde3ad531fa7de74623b940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac188c8ab45910789c719366e6dea073b"><td class="memItemLeft" align="right" valign="top">__forceinline scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ac188c8ab45910789c719366e6dea073b">Math::abs</a> (scalar a)</td></tr>
 <tr class="separator:ac188c8ab45910789c719366e6dea073b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a844741b67f8e188d432dbd968204ea22"><td class="memItemLeft" align="right" valign="top">__forceinline double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a844741b67f8e188d432dbd968204ea22">Math::abs</a> (double a)</td></tr>
@@ -232,7 +242,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1eeea02f806be16a6d17e5f44eaa4f29"><td class="memItemLeft" align="right" valign="top">__forceinline constexpr scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29">Math::rad2deg</a> (scalar r)</td></tr>
 <tr class="separator:a1eeea02f806be16a6d17e5f44eaa4f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a814fbf190f8bebf316cf3fcd10f5fd05"><td class="memItemLeft" align="right" valign="top">__forceinline float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a814fbf190f8bebf316cf3fcd10f5fd05">Math::clamp</a> (float val, float minVal, float maxVal)</td></tr>
-<tr class="memdesc:a814fbf190f8bebf316cf3fcd10f5fd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer clamping.  <br /></td></tr>
+<tr class="memdesc:a814fbf190f8bebf316cf3fcd10f5fd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Float clamping.  <br /></td></tr>
 <tr class="separator:a814fbf190f8bebf316cf3fcd10f5fd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a630b2fbd47cf47992dd768f92d2427dd"><td class="memItemLeft" align="right" valign="top">__forceinline float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a> (float val)</td></tr>
 <tr class="memdesc:a630b2fbd47cf47992dd768f92d2427dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floating point ceiling.  <br /></td></tr>
@@ -502,7 +512,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="scalar_8h.html">scalar.h</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

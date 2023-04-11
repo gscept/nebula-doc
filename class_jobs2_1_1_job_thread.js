@@ -6,5 +6,7 @@ var class_jobs2_1_1_job_thread =
     [ "DoWork", "class_jobs2_1_1_job_thread.html#a0d36e7564d350538696931eaa084cfef", null ],
     [ "EmitWakeupSignal", "class_jobs2_1_1_job_thread.html#a840d2e9bda716b8466255eb1a347e361", null ],
     [ "SignalWorkAvailable", "class_jobs2_1_1_job_thread.html#a6bd2ea37bd5c7765b2640ef0f4c4456d", null ],
+    [ "enableIo", "class_jobs2_1_1_job_thread.html#ae2b87450fd97a1abf5c7d33eb4e27cc9", null ],
+    [ "enableProfiling", "class_jobs2_1_1_job_thread.html#ae202ef627bbab832164a0e557e6810ac", null ],
     [ "wakeupEvent", "class_jobs2_1_1_job_thread.html#a5d56c6b03a3ff244e86d4b0540be642e", null ]
 ];

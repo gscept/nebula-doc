@@ -32,6 +32,7 @@ var types_8h =
     [ "ushort", "types_8h.html#ab95f123a6c9bcfee6a343170ef8c5f69", null ],
     [ "AllBits", "types_8h.html#a21bb4e90f82876f231b432e8ed120286", null ],
     [ "AnyBits", "types_8h.html#a805e0e55585e7fd25eae21f3786987e1", null ],
+    [ "OnlyBits", "types_8h.html#a57c3fddc064df2d76b5faa3e5cfb76d0", null ],
     [ "operator\"\"_GB", "types_8h.html#a6d7d84624a3a53060e1cea9f4c6b7f96", null ],
     [ "operator\"\"_KB", "types_8h.html#ac00d747e0e445fefc313e3bf783badb9", null ],
     [ "operator\"\"_MB", "types_8h.html#acb7afe54c4690caf9479b8f6ebe4c7d6", null ],

@@ -2,7 +2,7 @@ var class_characters_1_1_character_context =
 [
     [ "AnimationRuntime", "struct_characters_1_1_character_context_1_1_animation_runtime.html", "struct_characters_1_1_character_context_1_1_animation_runtime" ],
     [ "AnimationTracks", "struct_characters_1_1_character_context_1_1_animation_tracks.html", "struct_characters_1_1_character_context_1_1_animation_tracks" ],
-    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd", null ],
+    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#aa5f3d3cabccc38b77ba7ee094dce19fd", null ],
     [ "LoadState", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb", [
       [ "NoneLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebac15cc1516221b5e23d83322f7bd846e2", null ],
       [ "SkeletonLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebaa18b4161fb3a459e6d98bfbc33e1cd56", null ],
@@ -26,7 +26,7 @@ var class_characters_1_1_character_context =
     [ "Seek", "class_characters_1_1_character_context.html#a7105ed5b6c10b31d607930304bb058a7", null ],
     [ "SetTrackTimeFactor", "class_characters_1_1_character_context.html#a575a32e320fd01998c9ad9d0c487cce1", null ],
     [ "SetTrackWeight", "class_characters_1_1_character_context.html#a182dbf1f68f7b4f18f4168c76a310888", null ],
-    [ "Setup", "class_characters_1_1_character_context.html#ae917d1a01446b0586ca0bcba4e338948", null ],
+    [ "Setup", "class_characters_1_1_character_context.html#a57f98e9792227e1efabc85b846f2c766", null ],
     [ "StopAllTracks", "class_characters_1_1_character_context.html#aa74e38fe8676fcc89b4050bf663d38d1", null ],
     [ "StopTrack", "class_characters_1_1_character_context.html#a8e56a8ce9e29a0225063fd8724793d88", null ],
     [ "UpdateAnimations", "class_characters_1_1_character_context.html#afdd5d688933e5e7ce92e22c55e241be0", null ],

@@ -67,5 +67,13 @@ var vec4_8h =
     [ "splat_x", "vec4_8h.html#a1aeeed4efbfa36d4f4a956cedfbad058", null ],
     [ "splat_y", "vec4_8h.html#ab48e9a22ee9847c9eaf857e7510abd52", null ],
     [ "splat_z", "vec4_8h.html#aaab4a35ca7b465f684f45412561bc42f", null ],
-    [ "xyz", "vec4_8h.html#a36a0ba4d68592b49f075d561541b2a4a", null ]
+    [ "xyz", "vec4_8h.html#a36a0ba4d68592b49f075d561541b2a4a", null ],
+    [ "PERMUTE_0W", "vec4_8h.html#a421faca1a4a98a78e812d2961fb4ca2a", null ],
+    [ "PERMUTE_0X", "vec4_8h.html#ab09e9b40c07a8f42135851097092f83d", null ],
+    [ "PERMUTE_0Y", "vec4_8h.html#a0ebda5492f457c6c09e312dd645a4a21", null ],
+    [ "PERMUTE_0Z", "vec4_8h.html#af37c20b541c17665f460549db762e6e0", null ],
+    [ "PERMUTE_1W", "vec4_8h.html#ad58e912edfe30f2c28b29014d5948213", null ],
+    [ "PERMUTE_1X", "vec4_8h.html#a46edf96890944bde113a10f2487eb372", null ],
+    [ "PERMUTE_1Y", "vec4_8h.html#a436b11e11067d7736415fff7a4485353", null ],
+    [ "PERMUTE_1Z", "vec4_8h.html#a7805444c7846194efebcc73c3789372c", null ]
 ];

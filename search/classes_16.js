@@ -28,7 +28,7 @@ var searchData=
   ['vegetationgrasssetup_25',['VegetationGrassSetup',['../struct_vegetation_1_1_vegetation_grass_setup.html',1,'Vegetation']]],
   ['vegetationmeshsetup_26',['VegetationMeshSetup',['../struct_vegetation_1_1_vegetation_mesh_setup.html',1,'Vegetation']]],
   ['vegetationsetupsettings_27',['VegetationSetupSettings',['../struct_vegetation_1_1_vegetation_setup_settings.html',1,'Vegetation']]],
-  ['vertexcomponent_28',['VertexComponent',['../class_core_graphics_1_1_vertex_component.html',1,'']]],
+  ['vertexcomponent_28',['VertexComponent',['../class_core_graphics_1_1_vertex_component.html',1,'CoreGraphics']]],
   ['vertexcomponentbase_29',['VertexComponentBase',['../class_base_1_1_vertex_component_base.html',1,'Base']]],
   ['vertexdata_30',['VertexData',['../struct_im3d_1_1_vertex_data.html',1,'Im3d']]],
   ['vertexlayoutbase_31',['VertexLayoutBase',['../class_base_1_1_vertex_layout_base.html',1,'']]],

@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.9.6"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: VertexComponent Class Reference</title>
+		<title>Nebula: CoreGraphics::VertexComponent Class Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -90,7 +90,15 @@ $(document).ready(function(){initNavTree('class_core_graphics_1_1_vertex_compone
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">VertexComponent Class Reference</div></div>
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="class_core_graphics_1_1_vertex_component-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">CoreGraphics::VertexComponent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -98,7 +106,824 @@ $(document).ready(function(){initNavTree('class_core_graphics_1_1_vertex_compone
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Describes a single vertex component in a vertex layout description. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a03e2476cc323a97a99cd9201404bd1b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a> { <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aeb5b93ff7b9a5f55f7cc5afd257f1513">Float</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a9d69926744e03710c06309ae17e06967">Float2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a5ee255aa3eacbb86c7fad2cbd37ce36b">Float3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a753390e29011cf3e2f5f331f227e5be8">Float4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0ada338436a6e07f5d7c49fbe936ea30c6">Half</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0ae15bd004a09b5cd3a7185f614e8b2a74">Half2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a64a19978ed3950d2b9afd42dce6dcfb3">Half3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a50007b2489a4f2b1cdb33f74bed0fbd7">Half4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a8263ae7e62399378a660952b46503519">UInt</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a12945194f242f761d4299d2fed40d0cc">UInt2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a50988fb56b09d90b792590cf680f0c4c">UInt3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a0d7dd636156df998b541edfb61730506">UInt4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aae90266a5468759d28ff78f28fad561e">Int</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a793c8c6bce978482081db40fd50dbe68">Int2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a58ffd3e567fc40cc374ddeb5aca8fc7b">Int3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a50c41ca9b185617afb95ddf22daa67a9">Int4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aea2f31bbdc07b9c5a444e0f8f2f87719">Short</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a08f68e4de422ce131021f72b21d5051b">Short2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a3c3734e1f4dc57cc5cbd72486383ae1e">Short3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a9b39e15c9033d7de5316c507ccbd17f0">Short4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a4a87a721c18be9e012d8d28ab4b968f1">UShort</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a1aa8e22fa664d6dd513f35e9d0c0c54a">UShort2</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a93e112383db2e37bac9b42f25123e726">UShort3</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a852492767d062b733adc4671b4434d0b">UShort4</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aa531a52b44255243dac5e90708577248">UByte4</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a6992e3827f18ba84d862c29df260e2b6">Byte4</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a444a1dbf8b9aedc0cabfb2baa56e85ff">UByte4N</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a359302aad6ae0e08dc01fd4d15e1a3f1">Byte4N</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a09bd35aafc70039646495932a9cb16a3">Short2N</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aad3422d81390eb811392b950db8dd9ce">Short4N</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aceb5b9308c1a89374be9cb4a4bdb7d92">UShort2N</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a5e87ddb50a4693b6d1e41feb6e7b685e">UShort4N</a>
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aae29772697e072f279fa26560cc0a345">InvalidFormat</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a03e2476cc323a97a99cd9201404bd1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">component format  <a href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">More...</a><br /></td></tr>
+<tr class="separator:a03e2476cc323a97a99cd9201404bd1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f1ce3360227abc03ce77b6a1b46e74"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74">IndexName</a> { <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a3510688a7f1e866193a19289faceac87">Position</a> = 0
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a62b3090878e209202f0b16d1d07d04c5">Normal</a> = 1
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74aea2fb7f733b5bddf4fec56f45733350f">TexCoord1</a> = 2
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a6403c239f4d0c88c09de3cee02f80fb1">Tangent</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a2e50598942cd553011566b31c9bc1ded">Binormal</a> = 4
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a726994a6456137339c0342a4464c3949">Color</a> = 5
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74aed402b4acb91470c758eb0b981c756f1">TexCoord2</a> = 6
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a301cd1d30d1081c2883c65b9317f3b37">SkinWeights</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a5bfa1a5daa1364edd20e65f7dda5f0b8">SkinJIndices</a> = 8
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a927a983e2aadfb6d436e1569a8ce385b">TexCoord3</a> = 9
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74ab1df730d233702c68a76b33c006537cf">TexCoord4</a> = 10
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a8f2d59781eb97f0c18b0670a0a91bc93">Invalid</a>
+<br />
+ }</td></tr>
+<tr class="separator:a50f1ce3360227abc03ce77b6a1b46e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45647e12ffd7735765dbd096b2706141"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a> { <a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141a015c08836057aca4e13bba7c8ff03e46">PerVertex</a>
+, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141a4c2d4f478c64f8cb6dbf5e2751dd143d">PerInstance</a>
+ }</td></tr>
+<tr class="memdesc:a45647e12ffd7735765dbd096b2706141"><td class="mdescLeft">&#160;</td><td class="mdescRight">stride type tells if the compoent should be per-instance or per-vertex  <a href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">More...</a><br /></td></tr>
+<tr class="separator:a45647e12ffd7735765dbd096b2706141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a603c3f7c8766df6682c1b2d4cba3d69f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a603c3f7c8766df6682c1b2d4cba3d69f">VertexComponent</a> ()</td></tr>
+<tr class="memdesc:a603c3f7c8766df6682c1b2d4cba3d69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <br /></td></tr>
+<tr class="separator:a603c3f7c8766df6682c1b2d4cba3d69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81afe1feebd393154a808f250e658b53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a81afe1feebd393154a808f250e658b53">VertexComponent</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> slot, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a> <a class="el" href="class_core_graphics_1_1_vertex_component.html#a9eddc8eed70da13831deef4f4770de5c">format</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> <a class="el" href="class_core_graphics_1_1_vertex_component.html#af4f39c58cbebf93bd7ad045c2e97d277">streamIndex</a>=0, <a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a> <a class="el" href="class_core_graphics_1_1_vertex_component.html#ac0bf6b64e3d123fd4426e903a15a53b9">strideType</a>=<a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141a015c08836057aca4e13bba7c8ff03e46">PerVertex</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="class_core_graphics_1_1_vertex_component.html#a421c04e526b5db7ba47770f1f9045655">stride</a>=0)</td></tr>
+<tr class="memdesc:a81afe1feebd393154a808f250e658b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
+<tr class="separator:a81afe1feebd393154a808f250e658b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab602bbbfce12170f76309786bc79b6a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#ab602bbbfce12170f76309786bc79b6a6">GetIndex</a> () const</td></tr>
+<tr class="memdesc:ab602bbbfce12170f76309786bc79b6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get semantic index  <br /></td></tr>
+<tr class="separator:ab602bbbfce12170f76309786bc79b6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da0732b7ee2fb2d809833ae7009cb67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a9da0732b7ee2fb2d809833ae7009cb67">GetFormat</a> () const</td></tr>
+<tr class="memdesc:a9da0732b7ee2fb2d809833ae7009cb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vertex component format  <br /></td></tr>
+<tr class="separator:a9da0732b7ee2fb2d809833ae7009cb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270b5e267e9c576312aa26949877eb09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a270b5e267e9c576312aa26949877eb09">GetStreamIndex</a> () const</td></tr>
+<tr class="memdesc:a270b5e267e9c576312aa26949877eb09"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stream index  <br /></td></tr>
+<tr class="separator:a270b5e267e9c576312aa26949877eb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4300fbeddde020ec222453d7743f42d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#aa4300fbeddde020ec222453d7743f42d">GetByteSize</a> () const</td></tr>
+<tr class="memdesc:aa4300fbeddde020ec222453d7743f42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the byte size of the vertex component  <br /></td></tr>
+<tr class="separator:aa4300fbeddde020ec222453d7743f42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6fc4f57285618aa0cb5d4f99460129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a8b6fc4f57285618aa0cb5d4f99460129">GetSignature</a> () const</td></tr>
+<tr class="memdesc:a8b6fc4f57285618aa0cb5d4f99460129"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a unique signature of the vertex component  <br /></td></tr>
+<tr class="separator:a8b6fc4f57285618aa0cb5d4f99460129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8d96bdcf68d14827eb0199bef13d6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#acf8d96bdcf68d14827eb0199bef13d6c">GetStrideType</a> () const</td></tr>
+<tr class="memdesc:acf8d96bdcf68d14827eb0199bef13d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stride type  <br /></td></tr>
+<tr class="separator:acf8d96bdcf68d14827eb0199bef13d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a13cb6ecc9869922e9f7afd73669b0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a5a13cb6ecc9869922e9f7afd73669b0b">GetStride</a> () const</td></tr>
+<tr class="memdesc:a5a13cb6ecc9869922e9f7afd73669b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stride between instances  <br /></td></tr>
+<tr class="separator:a5a13cb6ecc9869922e9f7afd73669b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696aa66a50347975144a944543f63789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a696aa66a50347975144a944543f63789">GetByteOffset</a> () const</td></tr>
+<tr class="memdesc:a696aa66a50347975144a944543f63789"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the byte offset of this component (only valid when part of a VertexLayout)  <br /></td></tr>
+<tr class="separator:a696aa66a50347975144a944543f63789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3ce1e67b8e335be0667cf1b184caac97"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a3ce1e67b8e335be0667cf1b184caac97">StringToFormat</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
+<tr class="memdesc:a3ce1e67b8e335be0667cf1b184caac97"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to format  <br /></td></tr>
+<tr class="separator:a3ce1e67b8e335be0667cf1b184caac97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af957fcac4de95df815c2e5737e4a9347"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#af957fcac4de95df815c2e5737e4a9347">FormatToString</a> (<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a> f)</td></tr>
+<tr class="memdesc:af957fcac4de95df815c2e5737e4a9347"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert format to string  <br /></td></tr>
+<tr class="separator:af957fcac4de95df815c2e5737e4a9347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7ba7fa18bf5fb2444ac67db5b6efba"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a8b7ba7fa18bf5fb2444ac67db5b6efba">FormatToSignature</a> (<a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a> f)</td></tr>
+<tr class="memdesc:a8b7ba7fa18bf5fb2444ac67db5b6efba"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert format to signature  <br /></td></tr>
+<tr class="separator:a8b7ba7fa18bf5fb2444ac67db5b6efba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac354537b014845242ab51b1c3207e9f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#ac354537b014845242ab51b1c3207e9f2">SetByteOffset</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> offset)</td></tr>
+<tr class="memdesc:ac354537b014845242ab51b1c3207e9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the vertex byte offset (called from VertexLayoutBase::Setup())  <br /></td></tr>
+<tr class="separator:ac354537b014845242ab51b1c3207e9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aadaaf5f929467b8d775ce4da0a378221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#aadaaf5f929467b8d775ce4da0a378221">index</a></td></tr>
+<tr class="separator:aadaaf5f929467b8d775ce4da0a378221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eddc8eed70da13831deef4f4770de5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a9eddc8eed70da13831deef4f4770de5c">format</a></td></tr>
+<tr class="separator:a9eddc8eed70da13831deef4f4770de5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bf6b64e3d123fd4426e903a15a53b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#ac0bf6b64e3d123fd4426e903a15a53b9">strideType</a></td></tr>
+<tr class="separator:ac0bf6b64e3d123fd4426e903a15a53b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421c04e526b5db7ba47770f1f9045655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a421c04e526b5db7ba47770f1f9045655">stride</a></td></tr>
+<tr class="separator:a421c04e526b5db7ba47770f1f9045655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f39c58cbebf93bd7ad045c2e97d277"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#af4f39c58cbebf93bd7ad045c2e97d277">streamIndex</a></td></tr>
+<tr class="separator:af4f39c58cbebf93bd7ad045c2e97d277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3377e118078c2c3b0d0157385a68c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a6e3377e118078c2c3b0d0157385a68c9">byteOffset</a></td></tr>
+<tr class="separator:a6e3377e118078c2c3b0d0157385a68c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9f38624c3cc749469511cb628b67438b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a9f38624c3cc749469511cb628b67438b">CoreGraphics::CreateVertexLayout</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_create_info.html">CoreGraphics::VertexLayoutCreateInfo</a> &amp;info)</td></tr>
+<tr class="separator:a9f38624c3cc749469511cb628b67438b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a03e2476cc323a97a99cd9201404bd1b0" name="a03e2476cc323a97a99cd9201404bd1b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03e2476cc323a97a99cd9201404bd1b0">&#9670;&#160;</a></span>Format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">CoreGraphics::VertexComponent::Format</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>component format </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aeb5b93ff7b9a5f55f7cc5afd257f1513" name="a03e2476cc323a97a99cd9201404bd1b0aeb5b93ff7b9a5f55f7cc5afd257f1513"></a>Float&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a9d69926744e03710c06309ae17e06967" name="a03e2476cc323a97a99cd9201404bd1b0a9d69926744e03710c06309ae17e06967"></a>Float2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a5ee255aa3eacbb86c7fad2cbd37ce36b" name="a03e2476cc323a97a99cd9201404bd1b0a5ee255aa3eacbb86c7fad2cbd37ce36b"></a>Float3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a753390e29011cf3e2f5f331f227e5be8" name="a03e2476cc323a97a99cd9201404bd1b0a753390e29011cf3e2f5f331f227e5be8"></a>Float4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0ada338436a6e07f5d7c49fbe936ea30c6" name="a03e2476cc323a97a99cd9201404bd1b0ada338436a6e07f5d7c49fbe936ea30c6"></a>Half&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0ae15bd004a09b5cd3a7185f614e8b2a74" name="a03e2476cc323a97a99cd9201404bd1b0ae15bd004a09b5cd3a7185f614e8b2a74"></a>Half2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a64a19978ed3950d2b9afd42dce6dcfb3" name="a03e2476cc323a97a99cd9201404bd1b0a64a19978ed3950d2b9afd42dce6dcfb3"></a>Half3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a50007b2489a4f2b1cdb33f74bed0fbd7" name="a03e2476cc323a97a99cd9201404bd1b0a50007b2489a4f2b1cdb33f74bed0fbd7"></a>Half4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a8263ae7e62399378a660952b46503519" name="a03e2476cc323a97a99cd9201404bd1b0a8263ae7e62399378a660952b46503519"></a>UInt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a12945194f242f761d4299d2fed40d0cc" name="a03e2476cc323a97a99cd9201404bd1b0a12945194f242f761d4299d2fed40d0cc"></a>UInt2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a50988fb56b09d90b792590cf680f0c4c" name="a03e2476cc323a97a99cd9201404bd1b0a50988fb56b09d90b792590cf680f0c4c"></a>UInt3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a0d7dd636156df998b541edfb61730506" name="a03e2476cc323a97a99cd9201404bd1b0a0d7dd636156df998b541edfb61730506"></a>UInt4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aae90266a5468759d28ff78f28fad561e" name="a03e2476cc323a97a99cd9201404bd1b0aae90266a5468759d28ff78f28fad561e"></a>Int&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a793c8c6bce978482081db40fd50dbe68" name="a03e2476cc323a97a99cd9201404bd1b0a793c8c6bce978482081db40fd50dbe68"></a>Int2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a58ffd3e567fc40cc374ddeb5aca8fc7b" name="a03e2476cc323a97a99cd9201404bd1b0a58ffd3e567fc40cc374ddeb5aca8fc7b"></a>Int3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a50c41ca9b185617afb95ddf22daa67a9" name="a03e2476cc323a97a99cd9201404bd1b0a50c41ca9b185617afb95ddf22daa67a9"></a>Int4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aea2f31bbdc07b9c5a444e0f8f2f87719" name="a03e2476cc323a97a99cd9201404bd1b0aea2f31bbdc07b9c5a444e0f8f2f87719"></a>Short&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a08f68e4de422ce131021f72b21d5051b" name="a03e2476cc323a97a99cd9201404bd1b0a08f68e4de422ce131021f72b21d5051b"></a>Short2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a3c3734e1f4dc57cc5cbd72486383ae1e" name="a03e2476cc323a97a99cd9201404bd1b0a3c3734e1f4dc57cc5cbd72486383ae1e"></a>Short3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a9b39e15c9033d7de5316c507ccbd17f0" name="a03e2476cc323a97a99cd9201404bd1b0a9b39e15c9033d7de5316c507ccbd17f0"></a>Short4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a4a87a721c18be9e012d8d28ab4b968f1" name="a03e2476cc323a97a99cd9201404bd1b0a4a87a721c18be9e012d8d28ab4b968f1"></a>UShort&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a1aa8e22fa664d6dd513f35e9d0c0c54a" name="a03e2476cc323a97a99cd9201404bd1b0a1aa8e22fa664d6dd513f35e9d0c0c54a"></a>UShort2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a93e112383db2e37bac9b42f25123e726" name="a03e2476cc323a97a99cd9201404bd1b0a93e112383db2e37bac9b42f25123e726"></a>UShort3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a852492767d062b733adc4671b4434d0b" name="a03e2476cc323a97a99cd9201404bd1b0a852492767d062b733adc4671b4434d0b"></a>UShort4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aa531a52b44255243dac5e90708577248" name="a03e2476cc323a97a99cd9201404bd1b0aa531a52b44255243dac5e90708577248"></a>UByte4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a6992e3827f18ba84d862c29df260e2b6" name="a03e2476cc323a97a99cd9201404bd1b0a6992e3827f18ba84d862c29df260e2b6"></a>Byte4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a444a1dbf8b9aedc0cabfb2baa56e85ff" name="a03e2476cc323a97a99cd9201404bd1b0a444a1dbf8b9aedc0cabfb2baa56e85ff"></a>UByte4N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a359302aad6ae0e08dc01fd4d15e1a3f1" name="a03e2476cc323a97a99cd9201404bd1b0a359302aad6ae0e08dc01fd4d15e1a3f1"></a>Byte4N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a09bd35aafc70039646495932a9cb16a3" name="a03e2476cc323a97a99cd9201404bd1b0a09bd35aafc70039646495932a9cb16a3"></a>Short2N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aad3422d81390eb811392b950db8dd9ce" name="a03e2476cc323a97a99cd9201404bd1b0aad3422d81390eb811392b950db8dd9ce"></a>Short4N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aceb5b9308c1a89374be9cb4a4bdb7d92" name="a03e2476cc323a97a99cd9201404bd1b0aceb5b9308c1a89374be9cb4a4bdb7d92"></a>UShort2N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0a5e87ddb50a4693b6d1e41feb6e7b685e" name="a03e2476cc323a97a99cd9201404bd1b0a5e87ddb50a4693b6d1e41feb6e7b685e"></a>UShort4N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03e2476cc323a97a99cd9201404bd1b0aae29772697e072f279fa26560cc0a345" name="a03e2476cc323a97a99cd9201404bd1b0aae29772697e072f279fa26560cc0a345"></a>InvalidFormat&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a50f1ce3360227abc03ce77b6a1b46e74" name="a50f1ce3360227abc03ce77b6a1b46e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f1ce3360227abc03ce77b6a1b46e74">&#9670;&#160;</a></span>IndexName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74">CoreGraphics::VertexComponent::IndexName</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a3510688a7f1e866193a19289faceac87" name="a50f1ce3360227abc03ce77b6a1b46e74a3510688a7f1e866193a19289faceac87"></a>Position&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a62b3090878e209202f0b16d1d07d04c5" name="a50f1ce3360227abc03ce77b6a1b46e74a62b3090878e209202f0b16d1d07d04c5"></a>Normal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74aea2fb7f733b5bddf4fec56f45733350f" name="a50f1ce3360227abc03ce77b6a1b46e74aea2fb7f733b5bddf4fec56f45733350f"></a>TexCoord1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a6403c239f4d0c88c09de3cee02f80fb1" name="a50f1ce3360227abc03ce77b6a1b46e74a6403c239f4d0c88c09de3cee02f80fb1"></a>Tangent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a2e50598942cd553011566b31c9bc1ded" name="a50f1ce3360227abc03ce77b6a1b46e74a2e50598942cd553011566b31c9bc1ded"></a>Binormal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a726994a6456137339c0342a4464c3949" name="a50f1ce3360227abc03ce77b6a1b46e74a726994a6456137339c0342a4464c3949"></a>Color&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74aed402b4acb91470c758eb0b981c756f1" name="a50f1ce3360227abc03ce77b6a1b46e74aed402b4acb91470c758eb0b981c756f1"></a>TexCoord2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a301cd1d30d1081c2883c65b9317f3b37" name="a50f1ce3360227abc03ce77b6a1b46e74a301cd1d30d1081c2883c65b9317f3b37"></a>SkinWeights&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a5bfa1a5daa1364edd20e65f7dda5f0b8" name="a50f1ce3360227abc03ce77b6a1b46e74a5bfa1a5daa1364edd20e65f7dda5f0b8"></a>SkinJIndices&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a927a983e2aadfb6d436e1569a8ce385b" name="a50f1ce3360227abc03ce77b6a1b46e74a927a983e2aadfb6d436e1569a8ce385b"></a>TexCoord3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74ab1df730d233702c68a76b33c006537cf" name="a50f1ce3360227abc03ce77b6a1b46e74ab1df730d233702c68a76b33c006537cf"></a>TexCoord4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a50f1ce3360227abc03ce77b6a1b46e74a8f2d59781eb97f0c18b0670a0a91bc93" name="a50f1ce3360227abc03ce77b6a1b46e74a8f2d59781eb97f0c18b0670a0a91bc93"></a>Invalid&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a45647e12ffd7735765dbd096b2706141" name="a45647e12ffd7735765dbd096b2706141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45647e12ffd7735765dbd096b2706141">&#9670;&#160;</a></span>StrideType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">CoreGraphics::VertexComponent::StrideType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stride type tells if the compoent should be per-instance or per-vertex </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a45647e12ffd7735765dbd096b2706141a015c08836057aca4e13bba7c8ff03e46" name="a45647e12ffd7735765dbd096b2706141a015c08836057aca4e13bba7c8ff03e46"></a>PerVertex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45647e12ffd7735765dbd096b2706141a4c2d4f478c64f8cb6dbf5e2751dd143d" name="a45647e12ffd7735765dbd096b2706141a4c2d4f478c64f8cb6dbf5e2751dd143d"></a>PerInstance&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a603c3f7c8766df6682c1b2d4cba3d69f" name="a603c3f7c8766df6682c1b2d4cba3d69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603c3f7c8766df6682c1b2d4cba3d69f">&#9670;&#160;</a></span>VertexComponent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::VertexComponent::VertexComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>default constructor </p>
+
+</div>
+</div>
+<a id="a81afe1feebd393154a808f250e658b53" name="a81afe1feebd393154a808f250e658b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81afe1feebd393154a808f250e658b53">&#9670;&#160;</a></span>VertexComponent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::VertexComponent::VertexComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>slot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>streamIndex</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a>&#160;</td>
+          <td class="paramname"><em>strideType</em> = <code><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141a015c08836057aca4e13bba7c8ff03e46">PerVertex</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>stride</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8b7ba7fa18bf5fb2444ac67db5b6efba" name="a8b7ba7fa18bf5fb2444ac67db5b6efba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7ba7fa18bf5fb2444ac67db5b6efba">&#9670;&#160;</a></span>FormatToSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> CoreGraphics::VertexComponent::FormatToSignature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert format to signature </p>
+
+</div>
+</div>
+<a id="af957fcac4de95df815c2e5737e4a9347" name="af957fcac4de95df815c2e5737e4a9347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af957fcac4de95df815c2e5737e4a9347">&#9670;&#160;</a></span>FormatToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> CoreGraphics::VertexComponent::FormatToString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert format to string </p>
+
+</div>
+</div>
+<a id="a696aa66a50347975144a944543f63789" name="a696aa66a50347975144a944543f63789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696aa66a50347975144a944543f63789">&#9670;&#160;</a></span>GetByteOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::GetByteOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the byte offset of this component (only valid when part of a VertexLayout) </p>
+
+</div>
+</div>
+<a id="aa4300fbeddde020ec222453d7743f42d" name="aa4300fbeddde020ec222453d7743f42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4300fbeddde020ec222453d7743f42d">&#9670;&#160;</a></span>GetByteSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::VertexComponent::GetByteSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the byte size of the vertex component </p>
+
+</div>
+</div>
+<a id="a9da0732b7ee2fb2d809833ae7009cb67" name="a9da0732b7ee2fb2d809833ae7009cb67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9da0732b7ee2fb2d809833ae7009cb67">&#9670;&#160;</a></span>GetFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">VertexComponent::Format</a> CoreGraphics::VertexComponent::GetFormat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get vertex component format </p>
+
+</div>
+</div>
+<a id="ab602bbbfce12170f76309786bc79b6a6" name="ab602bbbfce12170f76309786bc79b6a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab602bbbfce12170f76309786bc79b6a6">&#9670;&#160;</a></span>GetIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::GetIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get semantic index </p>
+
+</div>
+</div>
+<a id="a8b6fc4f57285618aa0cb5d4f99460129" name="a8b6fc4f57285618aa0cb5d4f99460129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b6fc4f57285618aa0cb5d4f99460129">&#9670;&#160;</a></span>GetSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> CoreGraphics::VertexComponent::GetSignature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get a unique signature of the vertex component </p>
+
+</div>
+</div>
+<a id="a270b5e267e9c576312aa26949877eb09" name="a270b5e267e9c576312aa26949877eb09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270b5e267e9c576312aa26949877eb09">&#9670;&#160;</a></span>GetStreamIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::GetStreamIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get stream index </p>
+
+</div>
+</div>
+<a id="a5a13cb6ecc9869922e9f7afd73669b0b" name="a5a13cb6ecc9869922e9f7afd73669b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a13cb6ecc9869922e9f7afd73669b0b">&#9670;&#160;</a></span>GetStride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::VertexComponent::GetStride </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get stride between instances </p>
+
+</div>
+</div>
+<a id="acf8d96bdcf68d14827eb0199bef13d6c" name="acf8d96bdcf68d14827eb0199bef13d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf8d96bdcf68d14827eb0199bef13d6c">&#9670;&#160;</a></span>GetStrideType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">VertexComponent::StrideType</a> CoreGraphics::VertexComponent::GetStrideType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get stride type </p>
+
+</div>
+</div>
+<a id="ac354537b014845242ab51b1c3207e9f2" name="ac354537b014845242ab51b1c3207e9f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac354537b014845242ab51b1c3207e9f2">&#9670;&#160;</a></span>SetByteOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::VertexComponent::SetByteOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set the vertex byte offset (called from VertexLayoutBase::Setup()) </p>
+
+</div>
+</div>
+<a id="a3ce1e67b8e335be0667cf1b184caac97" name="a3ce1e67b8e335be0667cf1b184caac97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ce1e67b8e335be0667cf1b184caac97">&#9670;&#160;</a></span>StringToFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">VertexComponent::Format</a> CoreGraphics::VertexComponent::StringToFormat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert string to format </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a9f38624c3cc749469511cb628b67438b" name="a9f38624c3cc749469511cb628b67438b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f38624c3cc749469511cb628b67438b">&#9670;&#160;</a></span>CoreGraphics::CreateVertexLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a> <a class="el" href="namespace_core_graphics.html#a82f27ffc999589324aa184ce535eb33b">CoreGraphics::CreateVertexLayout</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_create_info.html">CoreGraphics::VertexLayoutCreateInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6e3377e118078c2c3b0d0157385a68c9" name="a6e3377e118078c2c3b0d0157385a68c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3377e118078c2c3b0d0157385a68c9">&#9670;&#160;</a></span>byteOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::byteOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eddc8eed70da13831deef4f4770de5c" name="a9eddc8eed70da13831deef4f4770de5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eddc8eed70da13831deef4f4770de5c">&#9670;&#160;</a></span>format</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">Format</a> CoreGraphics::VertexComponent::format</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadaaf5f929467b8d775ce4da0a378221" name="aadaaf5f929467b8d775ce4da0a378221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadaaf5f929467b8d775ce4da0a378221">&#9670;&#160;</a></span>index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4f39c58cbebf93bd7ad045c2e97d277" name="af4f39c58cbebf93bd7ad045c2e97d277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f39c58cbebf93bd7ad045c2e97d277">&#9670;&#160;</a></span>streamIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::VertexComponent::streamIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a421c04e526b5db7ba47770f1f9045655" name="a421c04e526b5db7ba47770f1f9045655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421c04e526b5db7ba47770f1f9045655">&#9670;&#160;</a></span>stride</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::VertexComponent::stride</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0bf6b64e3d123fd4426e903a15a53b9" name="ac0bf6b64e3d123fd4426e903a15a53b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bf6b64e3d123fd4426e903a15a53b9">&#9670;&#160;</a></span>strideType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141">StrideType</a> CoreGraphics::VertexComponent::strideType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/code/render/coregraphics/<a class="el" href="vertexcomponent_8h_source.html">vertexcomponent.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -106,9 +931,9 @@ $(document).ready(function(){initNavTree('class_core_graphics_1_1_vertex_compone
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="class_core_graphics_1_1_vertex_component.html">VertexComponent</a></li>
+				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li><li class="navelem"><a class="el" href="class_core_graphics_1_1_vertex_component.html">VertexComponent</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

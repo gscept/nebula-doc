@@ -14,7 +14,7 @@ var histogramcontext_8cc =
     [ "histogramReadback", "histogramcontext_8cc.html#add2c320a1029341fc4b265ca920f5ca0", null ],
     [ "histogramResourceTable", "histogramcontext_8cc.html#ae7ce87193916130e033c00ca4ab7a42d", null ],
     [ "histogramShader", "histogramcontext_8cc.html#ac77c065ec5f9fad9c8e6ff881ded8ff3", null ],
-    [ "histogramState", "histogramcontext_8cc.html#a97d8697c9cee859812d4ec336b172844", null ],
+    [ "histogramState", "histogramcontext_8cc.html#a793b27bf5864464c6ae857bf91c30803", null ],
     [ "logLuminanceRange", "histogramcontext_8cc.html#aa67de08e3b38d3b5f7d8e54dbdb8abd5", null ],
     [ "logMinLuminance", "histogramcontext_8cc.html#a6b5fdeebcd1eaa927c1da45cd1d6b861", null ],
     [ "minLuminance", "histogramcontext_8cc.html#a200a553b887af8250a1d039d5fcd46ce", null ],

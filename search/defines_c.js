@@ -72,7 +72,7 @@ var searchData=
   ['nebula_5fnax3_5fmagicnumber_69',['NEBULA_NAX3_MAGICNUMBER',['../naxfileformatstructs_8h.html#a51fb66af3119125b7401d1c95da56efb',1,'naxfileformatstructs.h']]],
   ['nebula_5fnsk3_5fmagicnumber_70',['NEBULA_NSK3_MAGICNUMBER',['../nskfileformatstructs_8h.html#a94d62bd382be6fd233b30840cbc37d32',1,'nskfileformatstructs.h']]],
   ['nebula_5fnvx2_5fmagicnumber_71',['NEBULA_NVX2_MAGICNUMBER',['../nvx2fileformatstructs_8h.html#aea06b9bce000085da15f4848ad8eef77',1,'nvx2fileformatstructs.h']]],
-  ['nebula_5fnvx3_5fmagicnumber_72',['NEBULA_NVX3_MAGICNUMBER',['../nvx3fileformatstructs_8h.html#ad2672061f44c7b05ed01296724720c8b',1,'nvx3fileformatstructs.h']]],
+  ['nebula_5fnvx_5fmagicnumber_72',['NEBULA_NVX_MAGICNUMBER',['../nvx3fileformatstructs_8h.html#a691235dabe05e554ffcfb667d11d3cb1',1,'nvx3fileformatstructs.h']]],
   ['nebula_5fsemantic_5fanimphases_73',['NEBULA_SEMANTIC_ANIMPHASES',['../shadersemantics_8h.html#ac154abb1546dd055f39c651919c99ca2',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5fanimspersec_74',['NEBULA_SEMANTIC_ANIMSPERSEC',['../shadersemantics_8h.html#a3d7a73f3c8a8a0e8dc569aca1ed1eac2',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5faoresolution_75',['NEBULA_SEMANTIC_AORESOLUTION',['../shadersemantics_8h.html#afaf090185731bdd6e29d135e93d13d44',1,'shadersemantics.h']]],

@@ -57,7 +57,7 @@ var searchData=
   ['interfacehandlerbase_54',['InterfaceHandlerBase',['../class_interface_1_1_interface_handler_base.html',1,'Interface']]],
   ['interlocked_55',['Interlocked',['../class_threading_1_1_interlocked.html',1,'']]],
   ['internaltype_56',['InternalType',['../struct_materials_1_1_material_variant_1_1_internal_type.html',1,'Materials::MaterialVariant']]],
-  ['interval_57',['Interval',['../struct_memory_1_1_ring_allocator_1_1_interval.html',1,'Memory::RingAllocator']]],
+  ['interval_57',['Interval',['../struct_core_animation_1_1_anim_key_buffer_1_1_interval.html',1,'CoreAnimation::AnimKeyBuffer::Interval'],['../struct_memory_1_1_ring_allocator_1_1_interval.html',1,'Memory::RingAllocator&lt; SYNCPOINTS &gt;::Interval']]],
   ['intt_58',['IntT',['../struct_im3d_1_1internal_1_1_int_t.html',1,'Im3d::internal']]],
   ['inttypeclass_59',['IntTypeClass',['../class_attr_1_1_int_type_class.html',1,'Attr']]],
   ['iointerface_60',['IoInterface',['../class_i_o_1_1_io_interface.html',1,'IO']]],

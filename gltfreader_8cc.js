@@ -1,7 +1,7 @@
 var gltfreader_8cc =
 [
-    [ "AccessorTypeToNebula", "gltfreader_8cc.html#a0d3fb9e54f375bd31ddc159b1edd3464", null ],
-    [ "AttributeToNebula", "gltfreader_8cc.html#a47db2ddaf72430e2203434c160ff961f", null ],
+    [ "AccessorTypeToNebula", "gltfreader_8cc.html#a88fce0b7342cd6d4cf01d510fb2e0b44", null ],
+    [ "AttributeToNebula", "gltfreader_8cc.html#a4ff7b6ec436c9a996250b0896a5e7d4e", null ],
     [ "chash", "gltfreader_8cc.html#ad9683cd4a55094ccc58757ac84584dc2", null ],
     [ "IO::JsonReader::Get< Gltf::Accessor::Sparse::Indices >", "gltfreader_8cc.html#af5a97b4611561743e39b16e96c41df00", null ],
     [ "IO::JsonReader::Get< Gltf::Accessor::Sparse::Values >", "gltfreader_8cc.html#ad8fa9ecec0f29feb2d1e10676f6a1057", null ],

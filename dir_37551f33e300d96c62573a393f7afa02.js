@@ -43,6 +43,8 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "mesh.h", "mesh_8h.html", "mesh_8h" ],
     [ "meshloader.cc", "meshloader_8cc.html", "meshloader_8cc" ],
     [ "meshloader.h", "meshloader_8h.html", "meshloader_8h" ],
+    [ "meshresource.cc", "meshresource_8cc.html", "meshresource_8cc" ],
+    [ "meshresource.h", "meshresource_8h.html", "meshresource_8h" ],
     [ "nvx3fileformatstructs.h", "nvx3fileformatstructs_8h.html", "nvx3fileformatstructs_8h" ],
     [ "nvx3streamreader.cc", "nvx3streamreader_8cc.html", "nvx3streamreader_8cc" ],
     [ "nvx3streamreader.h", "nvx3streamreader_8h.html", "nvx3streamreader_8h" ],
@@ -88,7 +90,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "threadsafedisplayeventhandler.h", "threadsafedisplayeventhandler_8h.html", "threadsafedisplayeventhandler_8h" ],
     [ "threadsaferendereventhandler.cc", "threadsaferendereventhandler_8cc.html", "threadsaferendereventhandler_8cc" ],
     [ "threadsaferendereventhandler.h", "threadsaferendereventhandler_8h.html", "threadsaferendereventhandler_8h" ],
-    [ "vertexcomponent.h", "vertexcomponent_8h.html", null ],
+    [ "vertexcomponent.h", "vertexcomponent_8h.html", "vertexcomponent_8h" ],
     [ "vertexlayout.cc", "vertexlayout_8cc.html", null ],
     [ "vertexlayout.h", "vertexlayout_8h.html", "vertexlayout_8h" ],
     [ "window.h", "window_8h.html", "window_8h" ]

@@ -32,6 +32,7 @@ var class_system_1_1_cpu =
       [ "Core28", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5da46c3d436c09c30a8f4c9ed0363d3882f", null ],
       [ "Core29", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5dabe4012d7fd1be05fbafd8f5d552838f1", null ],
       [ "Core30", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5da353e0457a2560d81a5a9c564df3dfc8f", null ],
-      [ "Core31", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5da51f8bc21404e5ed1d223b59b34692fce", null ]
+      [ "Core31", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5da51f8bc21404e5ed1d223b59b34692fce", null ],
+      [ "All", "class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5da5180ccee08df4e2e1459a7c682811ef3", null ]
     ] ]
 ];

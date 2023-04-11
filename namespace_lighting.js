@@ -12,10 +12,10 @@ var namespace_lighting =
     [ "clusterLightsList", "namespace_lighting.html#a0b9ea68cd0a14da9ac331caba86b697b", null ],
     [ "clusterPointLights", "namespace_lighting.html#ad0f7c5aa043a958b5888a60d73c23290", null ],
     [ "clusterSpotLights", "namespace_lighting.html#a3a54cafa925aba0da75b3f395eeddd18", null ],
-    [ "clusterState", "namespace_lighting.html#af8a2629f27a31164b1826fde4a803cc8", null ],
+    [ "clusterState", "namespace_lighting.html#a35e835bc615ca2e48f9155cdf9d680e0", null ],
     [ "combineProgram", "namespace_lighting.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "combineShader", "namespace_lighting.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
-    [ "combineState", "namespace_lighting.html#a32227924a0173e8ff35ad711195b1e72", null ],
+    [ "combineState", "namespace_lighting.html#aeffd8a2eb440152ce538d5b3108a906f", null ],
     [ "csmUtil", "namespace_lighting.html#ab0aaa69cffadc74914be9308b6f7b20c", null ],
     [ "cullProgram", "namespace_lighting.html#a4631b178546d59ffad08e86592f87073", null ],
     [ "debugProgram", "namespace_lighting.html#a45f299995780015f0fb9182048042989", null ],
@@ -26,7 +26,7 @@ var namespace_lighting =
     [ "globalLightShadowMap", "namespace_lighting.html#a5ee0ec7b142258658bdbde0837f4a782", null ],
     [ "lightingTexture", "namespace_lighting.html#a4b76068e27cfa9a85431184cdbccdc38", null ],
     [ "lightList", "namespace_lighting.html#a47c086ca48789cc872b43a35043ca5a1", null ],
-    [ "lightServerState", "namespace_lighting.html#a887ff9671d3d16e867f4101fb4ac0a2b", null ],
+    [ "lightServerState", "namespace_lighting.html#a3c48875cf20985e9f6d919122b238e06", null ],
     [ "localLightShadows", "namespace_lighting.html#a5ff54976d5d786434a189b17327e74b1", null ],
     [ "numThreadsThisFrame", "namespace_lighting.html#a0b07a12ab4cefc1eb394d5b2d00946b7", null ],
     [ "reflectionTexture", "namespace_lighting.html#aa50f20f55b9ac14f4fd3c35cafba1903", null ],
@@ -41,5 +41,5 @@ var namespace_lighting =
     [ "terrainShadowMap", "namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e", null ],
     [ "terrainShadowMapSize", "namespace_lighting.html#a7d694d7b0d15f9ddc02fdc452744972e", null ],
     [ "terrainSize", "namespace_lighting.html#ab6851f5d4fe86107879a11564e1e9efc", null ],
-    [ "textureState", "namespace_lighting.html#a12fcfc8da5726403fb1c490c37820bc2", null ]
+    [ "textureState", "namespace_lighting.html#aded3b8858550fdf144a305be93aeef4f", null ]
 ];

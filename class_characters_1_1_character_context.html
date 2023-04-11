@@ -152,9 +152,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fdde31351ad8728d122d7f4079a30b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a7fdde31351ad8728d122d7f4079a30b9">Create</a> ()</td></tr>
 <tr class="memdesc:a7fdde31351ad8728d122d7f4079a30b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context  <br /></td></tr>
 <tr class="separator:a7fdde31351ad8728d122d7f4079a30b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae917d1a01446b0586ca0bcba4e338948"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ae917d1a01446b0586ca0bcba4e338948">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;skeleton, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;animation, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, bool supportBlending=true)</td></tr>
-<tr class="memdesc:ae917d1a01446b0586ca0bcba4e338948"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context, assumes there is already a model attached, by loading a skeleton and animation resource  <br /></td></tr>
-<tr class="separator:ae917d1a01446b0586ca0bcba4e338948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f98e9792227e1efabc85b846f2c766"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a57f98e9792227e1efabc85b846f2c766">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;skeletonResource, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> skeletonIndex, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;animationResource, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> animationIndex, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, bool supportBlending=true)</td></tr>
+<tr class="memdesc:a57f98e9792227e1efabc85b846f2c766"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context, assumes there is already a model attached, by loading a skeleton and animation resource  <br /></td></tr>
+<tr class="separator:a57f98e9792227e1efabc85b846f2c766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a2d4fde28eef44bc280395b36ccbb7e1e">GetClipIndex</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a clip name lookup  <br /></td></tr>
 <tr class="separator:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,28 +211,28 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:ada2db82cac751e6f5b7adfa689f01084"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084afb609ffa975d712e294ae63174525876">SkeletonId</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a83fc1da8ea350200a2582e04e2af5b17">AnimationId</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084aaaff498b1b04fbf7901dfab19b2b5ac4">Loaded</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084ae873faab192ede53fcd888baf02c3bef">TrackController</a>
+<tr class="memitem:a5afbbb7c3efefaff4b64d4c27567d1e1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1ac2aab2d68eaa8c2b7b55928bdd960e65">Skeleton</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1acfd4147e416ffe7fb76e16422529fccb">Animation</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1aaaff498b1b04fbf7901dfab19b2b5ac4">Loaded</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1ae873faab192ede53fcd888baf02c3bef">TrackController</a>
 , <br />
-&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a51964856fa10cc8312ce1b37d6f8e2aa">AnimTime</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a1b00bc8acfe5bca711171f296e7e5e1f">JointPalette</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084ad4c5e1908a245e24c3065a24ebd035e2">JointPaletteScaled</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a6e359078d1ac22154c61cbc9cc852927">UserControlledJoint</a>
+&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a51964856fa10cc8312ce1b37d6f8e2aa">AnimTime</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a1b00bc8acfe5bca711171f296e7e5e1f">JointPalette</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1ad4c5e1908a245e24c3065a24ebd035e2">JointPaletteScaled</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a6e359078d1ac22154c61cbc9cc852927">UserControlledJoint</a>
 , <br />
-&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a90250602d7bc2733fc81dff4666acf57">JobJoints</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a17cd278d72476cdb5c54682972df6c55">SampleBuffer</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a9ace58e831075c875512f01458fe32ae">SupportMix</a>
-, <a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a86d83650a14f6100a43db9edde7b4ec0">EntityId</a>
+&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a90250602d7bc2733fc81dff4666acf57">JobJoints</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a17cd278d72476cdb5c54682972df6c55">SampleBuffer</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a9ace58e831075c875512f01458fe32ae">SupportMix</a>
+, <a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a86d83650a14f6100a43db9edde7b4ec0">EntityId</a>
 , <br />
-&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#ada2db82cac751e6f5b7adfa689f01084a477eef3d41f4c395d6f33df135ec6680">CharacterSkinNodeIndexOffset</a>
+&#160;&#160;<a class="el" href="class_characters_1_1_character_context.html#a5afbbb7c3efefaff4b64d4c27567d1e1a477eef3d41f4c395d6f33df135ec6680">CharacterSkinNodeIndexOffset</a>
 <br />
  }</td></tr>
-<tr class="separator:ada2db82cac751e6f5b7adfa689f01084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50de53f1f371e1c871a59112ea1924fd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Resources::ResourceId, Resources::ResourceId, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd">CharacterContextAllocator</a></td></tr>
-<tr class="separator:a50de53f1f371e1c871a59112ea1924fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a5afbbb7c3efefaff4b64d4c27567d1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f3d3cabccc38b77ba7ee094dce19fd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContextAllocator</a></td></tr>
+<tr class="separator:aa5f3d3cabccc38b77ba7ee094dce19fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -252,7 +252,7 @@ Static Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ae9496d1464044413ee22950ba04486a5"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ae9496d1464044413ee22950ba04486a5">MaxNumTracks</a> = 16</td></tr>
 <tr class="separator:ae9496d1464044413ee22950ba04486a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd">CharacterContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
+<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_characters_1_1_character_context.html#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContextAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
 <tr class="separator:ad07008288699f3dc7db1ea0dc56cc541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0bc98d532605879aa9d3d3a4651cdf9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9">masks</a></td></tr>
 <tr class="separator:ab0bc98d532605879aa9d3d3a4651cdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,8 +284,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a50de53f1f371e1c871a59112ea1924fd" name="a50de53f1f371e1c871a59112ea1924fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50de53f1f371e1c871a59112ea1924fd">&#9670;&#160;</a></span>CharacterContextAllocator</h2>
+<a id="aa5f3d3cabccc38b77ba7ee094dce19fd" name="aa5f3d3cabccc38b77ba7ee094dce19fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f3d3cabccc38b77ba7ee094dce19fd">&#9670;&#160;</a></span>CharacterContextAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +294,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Resources::ResourceId, Resources::ResourceId, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd">Characters::CharacterContext::CharacterContextAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="class_characters_1_1_character_context.html#aa5f3d3cabccc38b77ba7ee094dce19fd">Characters::CharacterContext::CharacterContextAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -307,8 +307,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ada2db82cac751e6f5b7adfa689f01084" name="ada2db82cac751e6f5b7adfa689f01084"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2db82cac751e6f5b7adfa689f01084">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a5afbbb7c3efefaff4b64d4c27567d1e1" name="a5afbbb7c3efefaff4b64d4c27567d1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afbbb7c3efefaff4b64d4c27567d1e1">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,19 +327,19 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084afb609ffa975d712e294ae63174525876" name="ada2db82cac751e6f5b7adfa689f01084afb609ffa975d712e294ae63174525876"></a>SkeletonId&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a83fc1da8ea350200a2582e04e2af5b17" name="ada2db82cac751e6f5b7adfa689f01084a83fc1da8ea350200a2582e04e2af5b17"></a>AnimationId&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084aaaff498b1b04fbf7901dfab19b2b5ac4" name="ada2db82cac751e6f5b7adfa689f01084aaaff498b1b04fbf7901dfab19b2b5ac4"></a>Loaded&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084ae873faab192ede53fcd888baf02c3bef" name="ada2db82cac751e6f5b7adfa689f01084ae873faab192ede53fcd888baf02c3bef"></a>TrackController&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a51964856fa10cc8312ce1b37d6f8e2aa" name="ada2db82cac751e6f5b7adfa689f01084a51964856fa10cc8312ce1b37d6f8e2aa"></a>AnimTime&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a1b00bc8acfe5bca711171f296e7e5e1f" name="ada2db82cac751e6f5b7adfa689f01084a1b00bc8acfe5bca711171f296e7e5e1f"></a>JointPalette&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084ad4c5e1908a245e24c3065a24ebd035e2" name="ada2db82cac751e6f5b7adfa689f01084ad4c5e1908a245e24c3065a24ebd035e2"></a>JointPaletteScaled&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a6e359078d1ac22154c61cbc9cc852927" name="ada2db82cac751e6f5b7adfa689f01084a6e359078d1ac22154c61cbc9cc852927"></a>UserControlledJoint&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a90250602d7bc2733fc81dff4666acf57" name="ada2db82cac751e6f5b7adfa689f01084a90250602d7bc2733fc81dff4666acf57"></a>JobJoints&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a17cd278d72476cdb5c54682972df6c55" name="ada2db82cac751e6f5b7adfa689f01084a17cd278d72476cdb5c54682972df6c55"></a>SampleBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a9ace58e831075c875512f01458fe32ae" name="ada2db82cac751e6f5b7adfa689f01084a9ace58e831075c875512f01458fe32ae"></a>SupportMix&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a86d83650a14f6100a43db9edde7b4ec0" name="ada2db82cac751e6f5b7adfa689f01084a86d83650a14f6100a43db9edde7b4ec0"></a>EntityId&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ada2db82cac751e6f5b7adfa689f01084a477eef3d41f4c395d6f33df135ec6680" name="ada2db82cac751e6f5b7adfa689f01084a477eef3d41f4c395d6f33df135ec6680"></a>CharacterSkinNodeIndexOffset&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1ac2aab2d68eaa8c2b7b55928bdd960e65" name="a5afbbb7c3efefaff4b64d4c27567d1e1ac2aab2d68eaa8c2b7b55928bdd960e65"></a>Skeleton&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1acfd4147e416ffe7fb76e16422529fccb" name="a5afbbb7c3efefaff4b64d4c27567d1e1acfd4147e416ffe7fb76e16422529fccb"></a>Animation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1aaaff498b1b04fbf7901dfab19b2b5ac4" name="a5afbbb7c3efefaff4b64d4c27567d1e1aaaff498b1b04fbf7901dfab19b2b5ac4"></a>Loaded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1ae873faab192ede53fcd888baf02c3bef" name="a5afbbb7c3efefaff4b64d4c27567d1e1ae873faab192ede53fcd888baf02c3bef"></a>TrackController&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a51964856fa10cc8312ce1b37d6f8e2aa" name="a5afbbb7c3efefaff4b64d4c27567d1e1a51964856fa10cc8312ce1b37d6f8e2aa"></a>AnimTime&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a1b00bc8acfe5bca711171f296e7e5e1f" name="a5afbbb7c3efefaff4b64d4c27567d1e1a1b00bc8acfe5bca711171f296e7e5e1f"></a>JointPalette&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1ad4c5e1908a245e24c3065a24ebd035e2" name="a5afbbb7c3efefaff4b64d4c27567d1e1ad4c5e1908a245e24c3065a24ebd035e2"></a>JointPaletteScaled&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a6e359078d1ac22154c61cbc9cc852927" name="a5afbbb7c3efefaff4b64d4c27567d1e1a6e359078d1ac22154c61cbc9cc852927"></a>UserControlledJoint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a90250602d7bc2733fc81dff4666acf57" name="a5afbbb7c3efefaff4b64d4c27567d1e1a90250602d7bc2733fc81dff4666acf57"></a>JobJoints&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a17cd278d72476cdb5c54682972df6c55" name="a5afbbb7c3efefaff4b64d4c27567d1e1a17cd278d72476cdb5c54682972df6c55"></a>SampleBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a9ace58e831075c875512f01458fe32ae" name="a5afbbb7c3efefaff4b64d4c27567d1e1a9ace58e831075c875512f01458fe32ae"></a>SupportMix&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a86d83650a14f6100a43db9edde7b4ec0" name="a5afbbb7c3efefaff4b64d4c27567d1e1a86d83650a14f6100a43db9edde7b4ec0"></a>EntityId&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5afbbb7c3efefaff4b64d4c27567d1e1a477eef3d41f4c395d6f33df135ec6680" name="a5afbbb7c3efefaff4b64d4c27567d1e1a477eef3d41f4c395d6f33df135ec6680"></a>CharacterSkinNodeIndexOffset&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1006,8 +1006,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae917d1a01446b0586ca0bcba4e338948" name="ae917d1a01446b0586ca0bcba4e338948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae917d1a01446b0586ca0bcba4e338948">&#9670;&#160;</a></span>Setup()</h2>
+<a id="a57f98e9792227e1efabc85b846f2c766" name="a57f98e9792227e1efabc85b846f2c766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f98e9792227e1efabc85b846f2c766">&#9670;&#160;</a></span>Setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1025,13 +1025,25 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;&#160;</td>
-          <td class="paramname"><em>skeleton</em>, </td>
+          <td class="paramname"><em>skeletonResource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>skeletonIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;&#160;</td>
-          <td class="paramname"><em>animation</em>, </td>
+          <td class="paramname"><em>animationResource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>animationIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1360,7 +1372,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_characters_1_1_character_context.html#a50de53f1f371e1c871a59112ea1924fd">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
+          <td class="memname"><a class="el" href="class_characters_1_1_character_context.html#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
         </tr>
       </table>
   </td>
@@ -1471,7 +1483,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_characters.html">Characters</a></li><li class="navelem"><a class="el" href="class_characters_1_1_character_context.html">CharacterContext</a></li>
 				<li class="footer">
-					Generated on Sat Apr 8 2023 14:43:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Apr 11 2023 12:04:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

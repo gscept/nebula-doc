@@ -1,12 +1,11 @@
 var struct_core_animation_1_1_nax3_clip =
 [
-    [ "keyDuration", "struct_core_animation_1_1_nax3_clip.html#a9ba4308a9c9843b4a9b4a06a29ec7ad4", null ],
-    [ "keyStride", "struct_core_animation_1_1_nax3_clip.html#a9e1da1cf47f5c5bd5143a96304a2c1c5", null ],
-    [ "name", "struct_core_animation_1_1_nax3_clip.html#ae71156b32e922cd5e8eee9f850c88444", null ],
+    [ "duration", "struct_core_animation_1_1_nax3_clip.html#aacbbf78f93acc47961252f1db88e5a8b", null ],
+    [ "firstCurve", "struct_core_animation_1_1_nax3_clip.html#a250550a6d2754321383a724eaa60c2cf", null ],
+    [ "firstEvent", "struct_core_animation_1_1_nax3_clip.html#ac6649810b64656f6b879b589125bf4e8", null ],
+    [ "firstVelocityCurve", "struct_core_animation_1_1_nax3_clip.html#a9ee83200c11ab01eca71ed4010a8aea7", null ],
+    [ "name", "struct_core_animation_1_1_nax3_clip.html#ac1b8b724a1297c2dd4add881bbf5d71b", null ],
     [ "numCurves", "struct_core_animation_1_1_nax3_clip.html#af5d2be2142970fee1fbe0e39fba41a76", null ],
     [ "numEvents", "struct_core_animation_1_1_nax3_clip.html#a58008028f51fe91cd9f2fe29130acdc3", null ],
-    [ "numKeys", "struct_core_animation_1_1_nax3_clip.html#a7c64881d0ff761b70599f038e933fed9", null ],
-    [ "postInfinityType", "struct_core_animation_1_1_nax3_clip.html#a0e3329376853521bdefa7e16c108f5b4", null ],
-    [ "preInfinityType", "struct_core_animation_1_1_nax3_clip.html#a1444bd690ed4a98cf31f727fc72268a9", null ],
-    [ "startKeyIndex", "struct_core_animation_1_1_nax3_clip.html#abf97a3bd116583e38ddbba8cdf5d3a9e", null ]
+    [ "numVelocityCurves", "struct_core_animation_1_1_nax3_clip.html#aa42f413a5b87ea0775f84ae5202c58a4", null ]
 ];

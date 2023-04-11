@@ -1,7 +1,6 @@
 var class_vulkan_1_1_vk_types =
 [
     [ "VkBlockDimensions", "struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions.html", "struct_vulkan_1_1_vk_types_1_1_vk_block_dimensions" ],
-    [ "AsByteSize", "class_vulkan_1_1_vk_types.html#a09410037e8cfbe2022103fe75c403b96", null ],
     [ "AsNebulaPixelFormat", "class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4", null ],
     [ "AsVkAccessFlags", "class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880", null ],
     [ "AsVkBlockSize", "class_vulkan_1_1_vk_types.html#a6b61666db5761bfbd0075383588d420b", null ],

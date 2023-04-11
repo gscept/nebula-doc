@@ -13,7 +13,7 @@ var clustercontext_8cc =
     [ "invXResolution", "clustercontext_8cc.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
     [ "invYResolution", "clustercontext_8cc.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
     [ "numThreads", "clustercontext_8cc.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
-    [ "state", "clustercontext_8cc.html#a90886bc79102e3c7dff579749a819671", null ],
+    [ "state", "clustercontext_8cc.html#a04dec3d4b89fadc2df081d9c6456b7f0", null ],
     [ "uniforms", "clustercontext_8cc.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
     [ "window", "clustercontext_8cc.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
     [ "xResolution", "clustercontext_8cc.html#a581f331c494a300ae88fa56b64571df4", null ],
