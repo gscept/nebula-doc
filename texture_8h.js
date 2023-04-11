@@ -43,7 +43,8 @@ var texture_8h =
       [ "RenderTexture", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417", null ],
       [ "ReadWriteTexture", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b", null ],
       [ "TransferTextureSource", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1a05c4963f5f419401a8715a3243349950", null ],
-      [ "TransferTextureDestination", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1aaaad069f31b3dfe127171658b817e51b", null ]
+      [ "TransferTextureDestination", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1aaaad069f31b3dfe127171658b817e51b", null ],
+      [ "DeviceExclusive", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666", null ]
     ] ],
     [ "__ImplementEnumBitOperators", "texture_8h.html#af0ea79a9d9ca8359605cd7a6b75756b8", null ],
     [ "CreateTexture", "texture_8h.html#afd701776510676d10ed7784f494fdc98", null ],

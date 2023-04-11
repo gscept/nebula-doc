@@ -427,7 +427,8 @@ var namespace_core_graphics =
       [ "RenderTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417", null ],
       [ "ReadWriteTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b", null ],
       [ "TransferTextureSource", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a05c4963f5f419401a8715a3243349950", null ],
-      [ "TransferTextureDestination", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1aaaad069f31b3dfe127171658b817e51b", null ]
+      [ "TransferTextureDestination", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1aaaad069f31b3dfe127171658b817e51b", null ],
+      [ "DeviceExclusive", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666", null ]
     ] ],
     [ "VertexLayoutType", "namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791", [
       [ "Invalid", "namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a4bbb8f967da6d1a610596d7257179c2b", null ],
