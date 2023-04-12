@@ -1,7 +1,6 @@
 var ssrcontext_8cc =
 [
     [ "__ImplementPluginContext", "ssrcontext_8cc.html#adb3614691649da130ae8a1afcdb97527", null ],
-    [ "constants", "ssrcontext_8cc.html#ad16b264ff9de9ac76abb528886446ac6", null ],
     [ "reflectionBuffer", "ssrcontext_8cc.html#af16920036211c3c20a563db192460375", null ],
     [ "resolveProgram", "ssrcontext_8cc.html#a92e5e185a2afb61a25b7515650ee0e6f", null ],
     [ "resolveShader", "ssrcontext_8cc.html#a80e7a1143707bddc9e501635e8b5090b", null ],

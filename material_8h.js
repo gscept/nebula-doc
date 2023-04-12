@@ -6,7 +6,7 @@ var material_8h =
     [ "Materials::MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
     [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
     [ "BatchIndex", "material_8h.html#ad316064c8fe52b179aaadbec06d6f43b", null ],
-    [ "MaterialAllocator", "material_8h.html#ae9ae17dbd7acaec611c78db1772e65c4", null ],
+    [ "MaterialAllocator", "material_8h.html#a61c0303396bf58e2abc7fcdebcaa41c3", null ],
     [ "MaterialInstanceAllocator", "material_8h.html#a35832df49e8586e0f1b29d3422a3c706", null ],
     [ "MaterialInstanceMembers", "material_8h.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf", [
       [ "MaterialInstance_Offsets", "material_8h.html#a3ca82e39b18cbe12bdf7c1c5241cbeafac32bdb5b27a44dceb98548434124858d", null ]
@@ -16,7 +16,7 @@ var material_8h =
       [ "Material_MinLOD", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fa19f158ac3f001604c6d926b9eba851e1", null ],
       [ "Material_LODTextures", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fa915d55a7350e197f8f7a94152fd99773", null ],
       [ "Material_Table", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51faded4c589881296bac344a090e37dced3", null ],
-      [ "Material_InstanceTable", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fa0884206607e6fdf699de9b2ec1bf3654", null ],
+      [ "Material_InstanceTables", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fa121dcff1ae430d588f122caf335632ec", null ],
       [ "Material_Buffers", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51face5a7122dedcad20d137f009367f76d3", null ],
       [ "Material_InstanceBuffers", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fae102b1c5bdbdb8ab272b904a6299f73d", null ],
       [ "Material_Textures", "material_8h.html#a52cbbcd9c124e016ee978e9b5865c51fa153d6d31fcde5a7ce9de1b64b67d61e2", null ],
@@ -32,7 +32,7 @@ var material_8h =
     [ "MaterialGetShaderConfig", "material_8h.html#a007afe1bb537a7678324b6bb03af46db", null ],
     [ "MaterialGetSortCode", "material_8h.html#a4dfe854e4796687cc5a291a12868b5b3", null ],
     [ "MaterialInstanceAllocate", "material_8h.html#ad6f9588f549b15565214244d0f1b455a", null ],
-    [ "MaterialInstanceApply", "material_8h.html#aa6f7ca2f014d3f7d2232a6d22bb48838", null ],
+    [ "MaterialInstanceApply", "material_8h.html#a2b6a746471186914c029e3ad70df1726", null ],
     [ "MaterialInstanceBufferSize", "material_8h.html#a782f97123eb6c0a452b3f9ad0c655415", null ],
     [ "MaterialSetConstant", "material_8h.html#a743e6cfb3f7d7fed66abf53ba804e430", null ],
     [ "MaterialSetHighestLod", "material_8h.html#a5fb68430fa4ecc38f8f66b44aff4b1f0", null ],

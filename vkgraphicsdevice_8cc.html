@@ -284,12 +284,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1eee2dce617b2cfa06d52dceb8be7447"><td class="memItemLeft" align="right" valign="top">ConstantBufferOffset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1eee2dce617b2cfa06d52dceb8be7447">CoreGraphics::AllocateConstantBufferMemory</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
 <tr class="memdesc:a1eee2dce617b2cfa06d52dceb8be7447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve range of constant buffer memory and return offset.  <br /></td></tr>
 <tr class="separator:a1eee2dce617b2cfa06d52dceb8be7447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42ab6afddb583c166664bd6baf026793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a42ab6afddb583c166664bd6baf026793">CoreGraphics::GetGraphicsConstantBuffer</a> ()</td></tr>
-<tr class="memdesc:a42ab6afddb583c166664bd6baf026793"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id to global graphics constant buffer  <br /></td></tr>
-<tr class="separator:a42ab6afddb583c166664bd6baf026793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9021b6df2bbd2cccea677aafeb10329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad9021b6df2bbd2cccea677aafeb10329">CoreGraphics::GetComputeConstantBuffer</a> ()</td></tr>
-<tr class="memdesc:ad9021b6df2bbd2cccea677aafeb10329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer used for compute constants.  <br /></td></tr>
-<tr class="separator:ad9021b6df2bbd2cccea677aafeb10329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6639aaca49caf800092cf0be88de15e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6639aaca49caf800092cf0be88de15e5">CoreGraphics::GetGraphicsConstantBuffer</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:a6639aaca49caf800092cf0be88de15e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id to global graphics constant buffer  <br /></td></tr>
+<tr class="separator:a6639aaca49caf800092cf0be88de15e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac267057f0a8e7912758559d45a7e274a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ac267057f0a8e7912758559d45a7e274a">CoreGraphics::GetComputeConstantBuffer</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:ac267057f0a8e7912758559d45a7e274a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer used for compute constants.  <br /></td></tr>
+<tr class="separator:ac267057f0a8e7912758559d45a7e274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50225db4e8f838dd06b698cbb3deb0f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a50225db4e8f838dd06b698cbb3deb0f9">CoreGraphics::FlushConstants</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmds, const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:a50225db4e8f838dd06b698cbb3deb0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants for queue type, do this before recording any commands doing draw or dispatch.  <br /></td></tr>
 <tr class="separator:a50225db4e8f838dd06b698cbb3deb0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -484,7 +484,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Tue Apr 11 2023 14:41:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Apr 12 2023 19:50:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

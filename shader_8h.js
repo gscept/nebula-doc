@@ -52,5 +52,6 @@ var shader_8h =
     [ "ShaderGetResourcePipeline", "shader_8h.html#a3872c11ac0392d504b101f815c4708bb", null ],
     [ "ShaderGetResourceSlot", "shader_8h.html#afd7d2a5e3c1622da4fda6ab53b9646f1", null ],
     [ "ShaderGetResourceTableLayout", "shader_8h.html#aed86a5f967a8dc018ebe208afbbf0a49", null ],
+    [ "ShaderHasResourceTable", "shader_8h.html#a63dd47698408af8d684a3b42a9303ece", null ],
     [ "ShaderProgramGetName", "shader_8h.html#ac150ec480ba3a5a62913bd15336e4ead", null ]
 ];

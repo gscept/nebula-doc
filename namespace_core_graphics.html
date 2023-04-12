@@ -1321,12 +1321,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1eee2dce617b2cfa06d52dceb8be7447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a7c6181f333ec8bbadc23a8a3e236ba96">ConstantBufferOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1eee2dce617b2cfa06d52dceb8be7447">AllocateConstantBufferMemory</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
 <tr class="memdesc:a1eee2dce617b2cfa06d52dceb8be7447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve range of constant buffer memory and return offset.  <br /></td></tr>
 <tr class="separator:a1eee2dce617b2cfa06d52dceb8be7447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42ab6afddb583c166664bd6baf026793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a42ab6afddb583c166664bd6baf026793">GetGraphicsConstantBuffer</a> ()</td></tr>
-<tr class="memdesc:a42ab6afddb583c166664bd6baf026793"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id to global graphics constant buffer  <br /></td></tr>
-<tr class="separator:a42ab6afddb583c166664bd6baf026793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9021b6df2bbd2cccea677aafeb10329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad9021b6df2bbd2cccea677aafeb10329">GetComputeConstantBuffer</a> ()</td></tr>
-<tr class="memdesc:ad9021b6df2bbd2cccea677aafeb10329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer used for compute constants.  <br /></td></tr>
-<tr class="separator:ad9021b6df2bbd2cccea677aafeb10329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6639aaca49caf800092cf0be88de15e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6639aaca49caf800092cf0be88de15e5">GetGraphicsConstantBuffer</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:a6639aaca49caf800092cf0be88de15e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return id to global graphics constant buffer  <br /></td></tr>
+<tr class="separator:a6639aaca49caf800092cf0be88de15e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac267057f0a8e7912758559d45a7e274a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ac267057f0a8e7912758559d45a7e274a">GetComputeConstantBuffer</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:ac267057f0a8e7912758559d45a7e274a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return buffer used for compute constants.  <br /></td></tr>
+<tr class="separator:ac267057f0a8e7912758559d45a7e274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50225db4e8f838dd06b698cbb3deb0f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a50225db4e8f838dd06b698cbb3deb0f9">FlushConstants</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmds, const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:a50225db4e8f838dd06b698cbb3deb0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants for queue type, do this before recording any commands doing draw or dispatch.  <br /></td></tr>
 <tr class="separator:a50225db4e8f838dd06b698cbb3deb0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1686,6 +1686,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a982efadde3afa98b256fffcf26f30839"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a982efadde3afa98b256fffcf26f30839">ShaderCreateResourceTable</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> overallocationSize=1)</td></tr>
 <tr class="memdesc:a982efadde3afa98b256fffcf26f30839"><td class="mdescLeft">&#160;</td><td class="mdescRight">create resource table from shader  <br /></td></tr>
 <tr class="separator:a982efadde3afa98b256fffcf26f30839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63dd47698408af8d684a3b42a9303ece"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a63dd47698408af8d684a3b42a9303ece">ShaderHasResourceTable</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group)</td></tr>
+<tr class="memdesc:a63dd47698408af8d684a3b42a9303ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is a resource table for the given group in the shader.  <br /></td></tr>
+<tr class="separator:a63dd47698408af8d684a3b42a9303ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0">ShaderCreateConstantBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, <a class="el" href="namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077">BufferAccessMode</a> mode=<a class="el" href="namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251">BufferAccessMode::HostCached</a>)</td></tr>
 <tr class="memdesc:a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">create constant buffer from shader using name (don't use too frequently)  <br /></td></tr>
 <tr class="separator:a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -8250,8 +8253,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="ad9021b6df2bbd2cccea677aafeb10329" name="ad9021b6df2bbd2cccea677aafeb10329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9021b6df2bbd2cccea677aafeb10329">&#9670;&#160;</a></span>GetComputeConstantBuffer()</h2>
+<a id="ac267057f0a8e7912758559d45a7e274a" name="ac267057f0a8e7912758559d45a7e274a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac267057f0a8e7912758559d45a7e274a">&#9670;&#160;</a></span>GetComputeConstantBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8259,7 +8262,8 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> CoreGraphics::GetComputeConstantBuffer </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -8269,8 +8273,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a42ab6afddb583c166664bd6baf026793" name="a42ab6afddb583c166664bd6baf026793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42ab6afddb583c166664bd6baf026793">&#9670;&#160;</a></span>GetGraphicsConstantBuffer()</h2>
+<a id="a6639aaca49caf800092cf0be88de15e5" name="a6639aaca49caf800092cf0be88de15e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6639aaca49caf800092cf0be88de15e5">&#9670;&#160;</a></span>GetGraphicsConstantBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8278,7 +8282,8 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> CoreGraphics::GetGraphicsConstantBuffer </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -11501,6 +11506,36 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a63dd47698408af8d684a3b42a9303ece" name="a63dd47698408af8d684a3b42a9303ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63dd47698408af8d684a3b42a9303ece">&#9670;&#160;</a></span>ShaderHasResourceTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool CoreGraphics::ShaderHasResourceTable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if there is a resource table for the given group in the shader. </p>
+
+</div>
+</div>
 <a id="ac150ec480ba3a5a62913bd15336e4ead" name="ac150ec480ba3a5a62913bd15336e4ead"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac150ec480ba3a5a62913bd15336e4ead">&#9670;&#160;</a></span>ShaderProgramGetName()</h2>
 
@@ -14136,7 +14171,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Tue Apr 11 2023 14:41:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Apr 12 2023 19:51:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

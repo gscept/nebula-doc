@@ -1,11 +1,5 @@
 var NAVTREEINDEX151 =
 {
-"vkcommandbuffer_8cc.html#acf29b6dd8b182e4cf2c63e05d6af3f42":[10,0,0,6,5,5,4,29],
-"vkcommandbuffer_8cc.html#ad444ab70d1ebb2905d1aef9c16279934":[10,0,0,6,5,5,4,7],
-"vkcommandbuffer_8cc.html#ad9801408885acdec290707fc3dc1e7db":[10,0,0,6,5,5,4,43],
-"vkcommandbuffer_8cc.html#add7861e221a7260eaa04c1e9576281a6":[10,0,0,6,5,5,4,12],
-"vkcommandbuffer_8cc.html#adf9f8a377d66671106d4f924252494b2":[10,0,0,6,5,5,4,21],
-"vkcommandbuffer_8cc.html#ae1358b30171ca7f6df7fd0599c2ec241":[10,0,0,6,5,5,4,47],
 "vkcommandbuffer_8cc.html#ae584681ed3425a982879cb7cf7473460":[10,0,0,6,5,5,4,26],
 "vkcommandbuffer_8cc.html#ae6eb6dfefdbbf90707860ac1b9c65006":[10,0,0,6,5,5,4,44],
 "vkcommandbuffer_8cc.html#aee0786cc4f7d13e416bb7f1a63d37267":[10,0,0,6,5,5,4,33],
@@ -107,7 +101,6 @@ var NAVTREEINDEX151 =
 "vkgraphicsdevice_8cc.html#a42726dfba00581bfff8e469f757f8f56":[10,0,0,6,5,5,18,44],
 "vkgraphicsdevice_8cc.html#a427a1d2e55e44624828fd302d4c51181":[10,0,0,6,5,5,18,66],
 "vkgraphicsdevice_8cc.html#a428c995a178b949e5969a24c5c197a99":[10,0,0,6,5,5,18,38],
-"vkgraphicsdevice_8cc.html#a42ab6afddb583c166664bd6baf026793":[10,0,0,6,5,5,18,42],
 "vkgraphicsdevice_8cc.html#a445ce1d046d1deb8aab1c7f67073c35c":[10,0,0,6,5,5,18,90],
 "vkgraphicsdevice_8cc.html#a4c0719f6f8a5bb09fa43bbc0d8cb0392":[10,0,0,6,5,5,18,97],
 "vkgraphicsdevice_8cc.html#a4e0270ba6309296c21067f6ff87e2d0a":[10,0,0,6,5,5,18,70],
@@ -119,6 +112,7 @@ var NAVTREEINDEX151 =
 "vkgraphicsdevice_8cc.html#a623539cb3cb9233729f5b192145c0eca":[10,0,0,6,5,5,18,64],
 "vkgraphicsdevice_8cc.html#a652d13ea6eaace5991d62d8b9524254f":[10,0,0,6,5,5,18,31],
 "vkgraphicsdevice_8cc.html#a662198a2db21f4c73693ac378362e2fa":[10,0,0,6,5,5,18,35],
+"vkgraphicsdevice_8cc.html#a6639aaca49caf800092cf0be88de15e5":[10,0,0,6,5,5,18,42],
 "vkgraphicsdevice_8cc.html#a68a281031919269764b5afdbf7415d86":[10,0,0,6,5,5,18,40],
 "vkgraphicsdevice_8cc.html#a6b6f88056d93626013ef0d16b83989ca":[10,0,0,6,5,5,18,101],
 "vkgraphicsdevice_8cc.html#a6df30d82525458379c12836efb12da2f":[10,0,0,6,5,5,18,20],
@@ -152,6 +146,7 @@ var NAVTREEINDEX151 =
 "vkgraphicsdevice_8cc.html#abb89c006055f05dbe633d86e01f08667":[10,0,0,6,5,5,18,17],
 "vkgraphicsdevice_8cc.html#abd86829484124c749d3f6e2c6b02bb06":[10,0,0,6,5,5,18,58],
 "vkgraphicsdevice_8cc.html#ac13038bc2d9b1a751402ebec4452e75a":[10,0,0,6,5,5,18,32],
+"vkgraphicsdevice_8cc.html#ac267057f0a8e7912758559d45a7e274a":[10,0,0,6,5,5,18,36],
 "vkgraphicsdevice_8cc.html#ac3e2165bac2d784b9431a57a6c075f6d":[10,0,0,6,5,5,18,54],
 "vkgraphicsdevice_8cc.html#ac4a93bc3374d5332a037c4c60de74dd4":[10,0,0,6,5,5,18,99],
 "vkgraphicsdevice_8cc.html#ac8820489c1d4ddc8aca28742c44ce1fe":[10,0,0,6,5,5,18,104],
@@ -165,7 +160,6 @@ var NAVTREEINDEX151 =
 "vkgraphicsdevice_8cc.html#ad255c4e9e049eb423bd5fc2f9416a9e2":[10,0,0,6,5,5,18,51],
 "vkgraphicsdevice_8cc.html#ad62a38424b0e014c8e7c27c2941fbb51":[10,0,0,6,5,5,18,80],
 "vkgraphicsdevice_8cc.html#ad7977af7967bd1c4545d340b2543a845":[10,0,0,6,5,5,18,77],
-"vkgraphicsdevice_8cc.html#ad9021b6df2bbd2cccea677aafeb10329":[10,0,0,6,5,5,18,36],
 "vkgraphicsdevice_8cc.html#adb85204de7ba8c4d4be473e7f8c92650":[10,0,0,6,5,5,18,19],
 "vkgraphicsdevice_8cc.html#ae08426919186dd727d3b5461c1284212":[10,0,0,6,5,5,18,67],
 "vkgraphicsdevice_8cc.html#ae09e85a3c76a75987429d30340d97757":[10,0,0,6,5,5,18,96],
@@ -249,5 +243,11 @@ var NAVTREEINDEX151 =
 "vkloader_8cc.html#a4a9e0337b38486bdec6a7fcd8516a4c6":[10,0,0,6,5,5,20,112],
 "vkloader_8cc.html#a4cd12a96506fa31bc3fc837242a20ec1":[10,0,0,6,5,5,20,102],
 "vkloader_8cc.html#a50438b7200037a9a51484db8bf9505a8":[10,0,0,6,5,5,20,79],
-"vkloader_8cc.html#a50552b2a4eda1a7b67175866ac88df49":[10,0,0,6,5,5,20,94]
+"vkloader_8cc.html#a50552b2a4eda1a7b67175866ac88df49":[10,0,0,6,5,5,20,94],
+"vkloader_8cc.html#a54bf5196c09edcec4999a78b405c2954":[10,0,0,6,5,5,20,67],
+"vkloader_8cc.html#a559009eea8699c593005e4a35ecd6010":[10,0,0,6,5,5,20,48],
+"vkloader_8cc.html#a56eb0bdd14838e177f5974455cef887a":[10,0,0,6,5,5,20,49],
+"vkloader_8cc.html#a5907132c5085cf6c7a38c2eacaa37597":[10,0,0,6,5,5,20,98],
+"vkloader_8cc.html#a5b96e593f5cc510966b57e738df1d941":[10,0,0,6,5,5,20,3],
+"vkloader_8cc.html#a5bdd0a055fb645c27ad0f71d42975dd3":[10,0,0,6,5,5,20,7]
 };

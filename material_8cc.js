@@ -10,7 +10,7 @@ var material_8cc =
     [ "MaterialGetShaderConfig", "material_8cc.html#a007afe1bb537a7678324b6bb03af46db", null ],
     [ "MaterialGetSortCode", "material_8cc.html#a4dfe854e4796687cc5a291a12868b5b3", null ],
     [ "MaterialInstanceAllocate", "material_8cc.html#ad6f9588f549b15565214244d0f1b455a", null ],
-    [ "MaterialInstanceApply", "material_8cc.html#aa6f7ca2f014d3f7d2232a6d22bb48838", null ],
+    [ "MaterialInstanceApply", "material_8cc.html#a2b6a746471186914c029e3ad70df1726", null ],
     [ "MaterialInstanceBufferSize", "material_8cc.html#a782f97123eb6c0a452b3f9ad0c655415", null ],
     [ "MaterialSetConstant", "material_8cc.html#a743e6cfb3f7d7fed66abf53ba804e430", null ],
     [ "MaterialSetHighestLod", "material_8cc.html#a5fb68430fa4ecc38f8f66b44aff4b1f0", null ],

@@ -8,7 +8,7 @@ var struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info =
     [ "normalMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a711dbe22ef87846598a3eb7db76f36ac", null ],
     [ "numTilesX", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a819ddd65ba5eb27d71d4980e1eea9bbd", null ],
     [ "numTilesY", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ae37da381cbdb032bb409c05ecb842389", null ],
-    [ "patchTable", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#aa68f2f938fd4220257bfb4343703ebc7", null ],
+    [ "patchTables", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a1bcf46844142110d9bbf6ee5234825f3", null ],
     [ "sectionBoxes", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a2cfd925262abe20ea0ef297e464df5cf", null ],
     [ "sectorAllocatedTile", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a92b03635a7cb0edd98a5ef2fe28382da", null ],
     [ "sectorLod", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a9a2b1081ebc29a728f44293c661ab22c", null ],

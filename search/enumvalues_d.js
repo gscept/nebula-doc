@@ -18,7 +18,7 @@ var searchData=
   ['material_5fbuffers_15',['Material_Buffers',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51face5a7122dedcad20d137f009367f76d3',1,'Materials']]],
   ['material_5fconstants_16',['Material_Constants',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa8e9fa6378ec723e452b7a5f6feb20365',1,'Materials']]],
   ['material_5finstancebuffers_17',['Material_InstanceBuffers',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fae102b1c5bdbdb8ab272b904a6299f73d',1,'Materials']]],
-  ['material_5finstancetable_18',['Material_InstanceTable',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa0884206607e6fdf699de9b2ec1bf3654',1,'Materials']]],
+  ['material_5finstancetables_18',['Material_InstanceTables',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa121dcff1ae430d588f122caf335632ec',1,'Materials']]],
   ['material_5flodtextures_19',['Material_LODTextures',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa915d55a7350e197f8f7a94152fd99773',1,'Materials']]],
   ['material_5fminlod_20',['Material_MinLOD',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fa19f158ac3f001604c6d926b9eba851e1',1,'Materials']]],
   ['material_5fshaderconfig_21',['Material_ShaderConfig',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51fabb60d168ed7bdb986701de9cc7a7f973',1,'Materials']]],

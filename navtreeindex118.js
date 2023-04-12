@@ -1,6 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0eaba96fe554f8ce55e93f06e7b8187653e":[10,0,0,6,5,63,3,2],
 "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0eac0c63e0146fa69d2504ae2323c302cd2":[10,0,0,6,5,63,3,12],
 "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0eae267ee318bfd0b7e36bca5693e3cc125":[10,0,0,6,5,63,3,8],
 "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0eafddb53b27daf3deeeb1c8fe6722399d7":[10,0,0,6,5,63,3,5],
@@ -79,8 +78,8 @@ var NAVTREEINDEX118 =
 "shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,6,5,70,20],
 "shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,6,5,70,67],
 "shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,6,5,70,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,94],
 "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,93],
+"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,94],
 "shadersemantics_8h.html#a527feccb22cfcc3effdf8162bd6453e0":[10,0,0,6,5,70,86],
 "shadersemantics_8h.html#a538543b6d5e7de8f337fd285d1c7a918":[10,0,0,6,5,70,107],
 "shadersemantics_8h.html#a554b3e00763b2313cba9cd1a751cde0c":[10,0,0,6,5,70,102],
@@ -249,5 +248,6 @@ var NAVTREEINDEX118 =
 "skeletonloader_8cc.html#a2a839146d649840c333b9a68e8cdf7e5":[10,0,0,6,2,7,0],
 "skeletonloader_8h.html":[10,0,0,6,2,8],
 "skeletonloader_8h_source.html":[10,0,0,6,2,8],
-"skeletonresource_8cc.html":[10,0,0,6,2,9]
+"skeletonresource_8cc.html":[10,0,0,6,2,9],
+"skeletonresource_8cc.html#a268f6b590623440a51786c72fbbd9e8f":[10,0,0,6,2,9,2]
 };

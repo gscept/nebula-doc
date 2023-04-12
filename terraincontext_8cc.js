@@ -108,7 +108,7 @@ var terraincontext_8cc =
     [ "updateLowres", "terraincontext_8cc.html#aa08a96b3e349c422740d03c235bcc7e6", null ],
     [ "updateShadowMap", "terraincontext_8cc.html#a1a5c9eec5de37d4b4075791523b5a6e0", null ],
     [ "virtualSubtextureBufferUpdate", "terraincontext_8cc.html#a92b8f67b3e0fcc835a04ed9ee599acf1", null ],
-    [ "virtualTerrainDynamicResourceTable", "terraincontext_8cc.html#a89e242631a726704664cb71d671ca96d", null ],
+    [ "virtualTerrainDynamicResourceTable", "terraincontext_8cc.html#a5e249a11815e5f3556e96ddca08197ab", null ],
     [ "virtualTerrainRuntimeResourceTable", "terraincontext_8cc.html#a2dd5513d2f82737069b1d2c056dc8fdd", null ],
     [ "virtualTerrainSystemResourceTable", "terraincontext_8cc.html#a41c0c288d15c52d7f890b0bc7209574e", null ],
     [ "vlo", "terraincontext_8cc.html#af30fed4695756507e6c7122237515b6b", null ],

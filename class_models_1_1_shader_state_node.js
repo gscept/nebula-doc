@@ -18,7 +18,7 @@ var class_models_1_1_shader_state_node =
     [ "NumMaxOffsets", "class_models_1_1_shader_state_node.html#a6e876d51a099c74d835d0212897c37f5", null ],
     [ "NumTables", "class_models_1_1_shader_state_node.html#a4c53e8eb798ae3c0ac4741356b01dbc8", null ],
     [ "objectTransformsIndex", "class_models_1_1_shader_state_node.html#a20f7cd513d8d031971e5a79496c6d437", null ],
-    [ "resourceTable", "class_models_1_1_shader_state_node.html#a509823ea182c82734a86ea7f83548960", null ],
+    [ "resourceTables", "class_models_1_1_shader_state_node.html#a51f1f7198917849df1103ea66d31a049", null ],
     [ "skinningTransformsIndex", "class_models_1_1_shader_state_node.html#a637b0acfa24b453ed45ea87860e3196b", null ],
     [ "sortCode", "class_models_1_1_shader_state_node.html#a860e2b4a08f638726349ab9b9a4280ed", null ]
 ];

@@ -34,6 +34,7 @@ var vkshader_8cc =
     [ "ShaderGetResourceSlot", "vkshader_8cc.html#afd7d2a5e3c1622da4fda6ab53b9646f1", null ],
     [ "ShaderGetResourceTableLayout", "vkshader_8cc.html#aed86a5f967a8dc018ebe208afbbf0a49", null ],
     [ "ShaderGetShaderProgram", "vkshader_8cc.html#ab6c0b800ef8452cac45073e44c852e55", null ],
+    [ "ShaderHasResourceTable", "vkshader_8cc.html#a63dd47698408af8d684a3b42a9303ece", null ],
     [ "ShaderSetup", "vkshader_8cc.html#a5aeae7e97e9a1e829732eb8f179685b7", null ],
     [ "VkShaderCreateSignature", "vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ],
     [ "shaderAlloc", "vkshader_8cc.html#af27b9b36ca12e885d7df00e6c1a0e5bc", null ],
