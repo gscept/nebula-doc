@@ -14,5 +14,6 @@ var struct_models_1_1_model_context_1_1_model_instance_1_1_renderable =
     [ "nodeSpecialData", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a56a0b4b5266fd0a672dfeffd5e4bddee", null ],
     [ "nodeStates", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a3c2a7468847248d81ad08b692925f59c", null ],
     [ "nodeTransformIndex", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a6726e2d6b02a557bdcfcfa6c1baed4fe", null ],
-    [ "origBoundingBoxes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a34dfec368080b8fec176bd3813b6e1a4", null ]
+    [ "origBoundingBoxes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a34dfec368080b8fec176bd3813b6e1a4", null ],
+    [ "textureLods", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a7fd2e8acc0074af73cb88e70972d7020", null ]
 ];

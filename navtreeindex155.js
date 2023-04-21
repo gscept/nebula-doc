@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"win32socket_8h.html":[10,0,0,3,15,3,3],
+"win32socket_8h_source.html":[10,0,0,3,15,3,3],
 "win32stacktrace_8cc.html":[10,0,0,3,2,0,2],
 "win32stacktrace_8h.html":[10,0,0,3,2,0,3],
 "win32stacktrace_8h_source.html":[10,0,0,3,2,0,3],
