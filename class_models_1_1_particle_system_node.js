@@ -2,10 +2,9 @@ var class_models_1_1_particle_system_node =
 [
     [ "ParticleSystemNode", "class_models_1_1_particle_system_node.html#a397efe7e105c5339bcc1c66076a2cb0c", null ],
     [ "~ParticleSystemNode", "class_models_1_1_particle_system_node.html#ac3fbd669ee3a3657b45f74168050c5d7", null ],
-    [ "GetApplyFunction", "class_models_1_1_particle_system_node.html#af6fae4e77bc97269675b549e94d86138", null ],
+    [ "CreateResourceTables", "class_models_1_1_particle_system_node.html#ab73fdc7a3205f9cde79cce515546ec71", null ],
     [ "GetEmitterAttrs", "class_models_1_1_particle_system_node.html#a406849aa846fbf662cd3e50b2e169614", null ],
     [ "GetEmitterMesh", "class_models_1_1_particle_system_node.html#aaa88d33b5ea9db760b8c2a563abe5509", null ],
-    [ "GetPrimitiveGroupFunction", "class_models_1_1_particle_system_node.html#a3ff5a8735f85dda0186f05eced75e5ee", null ],
     [ "GetPrimitiveGroupIndex", "class_models_1_1_particle_system_node.html#ab27737a8c76e08c39b8ba2b09331e234", null ],
     [ "GetSampleBuffer", "class_models_1_1_particle_system_node.html#aa8391bea24c6916a964c0d4d2f625ca1", null ],
     [ "Load", "class_models_1_1_particle_system_node.html#af696d74b5273524e3f7109bb48d7d047", null ],
@@ -20,7 +19,6 @@ var class_models_1_1_particle_system_node =
     [ "mesh", "class_models_1_1_particle_system_node.html#aaec3006ec8027fd8a9ee5efe76192c12", null ],
     [ "meshResId", "class_models_1_1_particle_system_node.html#aa0fc3f2a350b2c75e198d7bbbe4b1c1c", null ],
     [ "meshResource", "class_models_1_1_particle_system_node.html#a6d62740c3f6c1d49b14ee0315f484403", null ],
-    [ "particleConstantsIndex", "class_models_1_1_particle_system_node.html#aec38149bc724f918fd8d86b214f22f85", null ],
     [ "primGroupIndex", "class_models_1_1_particle_system_node.html#a392d2e5aaf669607d3c5acaeb86be86d", null ],
     [ "sampleBuffer", "class_models_1_1_particle_system_node.html#ab18b50874157dd9d1d7b1b98c7376e3b", null ],
     [ "tag", "class_models_1_1_particle_system_node.html#a839177bdbea8982a77b748f510774c30", null ]

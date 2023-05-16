@@ -4,7 +4,7 @@ var searchData=
   ['particlecontextallocator_1',['ParticleContextAllocator',['../class_particles_1_1_particle_context.html#afa6b77f73c69c3860813edd9d20bfbfb',1,'Particles::ParticleContext']]],
   ['particlerenderinfo_2',['ParticleRenderInfo',['../namespace_particles.html#a97c26170398a5cbf672f235b3c21d403',1,'Particles']]],
   ['pbrdecalallocator_3',['PBRDecalAllocator',['../class_decals_1_1_decal_context.html#ab7389d2ab4e3c005da994c3f54bf4cb5',1,'Decals::DecalContext']]],
-  ['pointlightallocator_4',['PointLightAllocator',['../class_lighting_1_1_light_context.html#adf869a7b599c9dac5abc610916cd9195',1,'Lighting::LightContext']]],
+  ['pointlightallocator_4',['PointLightAllocator',['../class_lighting_1_1_light_context.html#a95955300f9196955ff74d670289e95ee',1,'Lighting::LightContext']]],
   ['position_5',['Position',['../class_i_o_1_1_stream.html#a5f0ed31e47ffa399d3b98c8a50c294ac',1,'IO::Stream']]],
   ['processorframecallback_6',['ProcessorFrameCallback',['../namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2',1,'Game']]],
   ['processorhandle_7',['ProcessorHandle',['../namespace_game.html#a74b0ad357b08d17f221b65b804193303',1,'Game']]],

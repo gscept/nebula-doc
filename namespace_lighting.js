@@ -28,6 +28,8 @@ var namespace_lighting =
     [ "lightList", "namespace_lighting.html#a47c086ca48789cc872b43a35043ca5a1", null ],
     [ "lightServerState", "namespace_lighting.html#a3c48875cf20985e9f6d919122b238e06", null ],
     [ "localLightShadows", "namespace_lighting.html#a5ff54976d5d786434a189b17327e74b1", null ],
+    [ "ltcLut0", "namespace_lighting.html#a28eaad9dc5caad308a230f826457103b", null ],
+    [ "ltcLut1", "namespace_lighting.html#a0906a4addf6c0dd266443457fc09f485", null ],
     [ "numThreadsThisFrame", "namespace_lighting.html#a0b07a12ab4cefc1eb394d5b2d00946b7", null ],
     [ "reflectionTexture", "namespace_lighting.html#aa50f20f55b9ac14f4fd3c35cafba1903", null ],
     [ "renderProgram", "namespace_lighting.html#ac665f861fc843ad117d1f8f4cb61daca", null ],

@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('lightcontext_8cc.html',''); initResiza
 <code>#include &quot;<a class="el" href="im3dcontext_8h_source.html">dynui/im3d/im3dcontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="framescriptinspector_8h_source.html">debug/framescriptinspector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globalconstants_8h_source.html">graphics/globalconstants.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ltc_8h_source.html">ltc.h</a>&quot;</code><br />
 <code>#include &quot;shared.h&quot;</code><br />
 <code>#include &quot;lights_cluster.h&quot;</code><br />
 <code>#include &quot;combine.h&quot;</code><br />
@@ -139,10 +140,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad117e4d3294db371a2a31440eb67bf79"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lightcontext_8cc.html#ad117e4d3294db371a2a31440eb67bf79">USE_SHADOW_BITFLAG</a> = 0x1</td></tr>
-<tr class="separator:ad117e4d3294db371a2a31440eb67bf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5afb534545fc548cb2abe5e7cff92581"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lightcontext_8cc.html#a5afb534545fc548cb2abe5e7cff92581">USE_PROJECTION_TEX_BITFLAG</a> = 0x2</td></tr>
-<tr class="separator:a5afb534545fc548cb2abe5e7cff92581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c48875cf20985e9f6d919122b238e06"><td class="memItemLeft" >struct {</td></tr>
 <tr class="memitem:aaaf89a5c43e7643dd71db85afa87066d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a3f42bdf3b5ab81ce54eb1aecfcbcdab3">Lighting::globalLightEntity</a> = Graphics::GraphicsEntityId::Invalid()</td></tr>
 <tr class="separator:aaaf89a5c43e7643dd71db85afa87066d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +216,10 @@ Variables</h2></td></tr>
 <tr class="separator:a329a96a097d99509755c4eed1c8c8cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f4750bf6bd5c1e76d7c6bbd0e196582"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#ab2d34eb20701d22c8d2ba47d18c26eb2">Lighting::clusterDebugTexture</a></td></tr>
 <tr class="separator:a3f4750bf6bd5c1e76d7c6bbd0e196582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b87006aba8149dad216daa9b9e302b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a28eaad9dc5caad308a230f826457103b">Lighting::ltcLut0</a></td></tr>
+<tr class="separator:a81b87006aba8149dad216daa9b9e302b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8135e5288c435fe9a7ca48bdced1a354"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a0906a4addf6c0dd266443457fc09f485">Lighting::ltcLut1</a></td></tr>
+<tr class="separator:a8135e5288c435fe9a7ca48bdced1a354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aded3b8858550fdf144a305be93aeef4f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_lighting.html#aded3b8858550fdf144a305be93aeef4f">Lighting::textureState</a></td></tr>
 <tr class="separator:aded3b8858550fdf144a305be93aeef4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -237,35 +238,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a5afb534545fc548cb2abe5e7cff92581" name="a5afb534545fc548cb2abe5e7cff92581"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5afb534545fc548cb2abe5e7cff92581">&#9670;&#160;</a></span>USE_PROJECTION_TEX_BITFLAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> USE_PROJECTION_TEX_BITFLAG = 0x2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad117e4d3294db371a2a31440eb67bf79" name="ad117e4d3294db371a2a31440eb67bf79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad117e4d3294db371a2a31440eb67bf79">&#9670;&#160;</a></span>USE_SHADOW_BITFLAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> USE_SHADOW_BITFLAG = 0x1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -273,7 +245,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_768ee4f5bc33f9e2fc60f1898cd79fc7.html">lighting</a></li><li class="navelem"><a class="el" href="lightcontext_8cc.html">lightcontext.cc</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

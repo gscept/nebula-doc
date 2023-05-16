@@ -100,11 +100,12 @@ The CoreGraphics Subsystem</h1>
 <p><a class="el" href="namespace_core_graphics.html" title="A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurre...">CoreGraphics</a> can be interface directly, an example of which can look like this:</p>
 <div class="fragment"><div class="line"><a class="code hl_function" href="namespace_core_graphics.html#a9744ae7569760a865a105690a52a1e3c">CoreGraphics::SetShaderProgram</a>(myShaderProgram);</div>
 <div class="line">CoreGraphics::BeginBatch(<a class="code hl_enumvalue" href="class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3a044b888ece26851fc45730b61b2a85af">Frame::FrameBatchType::System</a>);</div>
-<div class="line">CoreGraphics::MeshBind(myMesh, 0);</div>
+<div class="line"><a class="code hl_function" href="namespace_core_graphics.html#a0ae21d98923c8146c58938babd0b0bef">CoreGraphics::MeshBind</a>(myMesh, 0);</div>
 <div class="line">CoreGraphics::SetResourceTable(myResourceTable, NEBULA_BATCH_GROUP, <a class="code hl_enumvalue" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69">CoreGraphics::GraphicsPipeline</a>, <span class="keyword">nullptr</span>);</div>
 <div class="line">CoreGraphics::Draw();</div>
 <div class="line">CoreGraphics::EndBatch();</div>
 <div class="ttc" id="aclass_frame_1_1_frame_batch_type_html_a56e994192b9111c140e30a94285bebb3a044b888ece26851fc45730b61b2a85af"><div class="ttname"><a href="class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3a044b888ece26851fc45730b61b2a85af">Frame::FrameBatchType::System</a></div><div class="ttdeci">@ System</div><div class="ttdef"><b>Definition:</b> framebatchtype.h:36</div></div>
+<div class="ttc" id="anamespace_core_graphics_html_a0ae21d98923c8146c58938babd0b0bef"><div class="ttname"><a href="namespace_core_graphics.html#a0ae21d98923c8146c58938babd0b0bef">CoreGraphics::MeshBind</a></div><div class="ttdeci">const void MeshBind(const MeshId id, const CoreGraphics::CmdBufferId cmd)</div><div class="ttdoc">Bind mesh on command buffer.</div><div class="ttdef"><b>Definition:</b> mesh.cc:159</div></div>
 <div class="ttc" id="anamespace_core_graphics_html_a9744ae7569760a865a105690a52a1e3c"><div class="ttname"><a href="namespace_core_graphics.html#a9744ae7569760a865a105690a52a1e3c">CoreGraphics::SetShaderProgram</a></div><div class="ttdeci">void SetShaderProgram(const CoreGraphics::ShaderProgramId pro, const CoreGraphics::QueueType queue, const bool bindSharedResources)</div></div>
 <div class="ttc" id="anamespace_core_graphics_html_abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69"><div class="ttname"><a href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69">CoreGraphics::GraphicsPipeline</a></div><div class="ttdeci">@ GraphicsPipeline</div><div class="ttdef"><b>Definition:</b> config.h:137</div></div>
 </div><!-- fragment --><p>This code will apply a shader program, start a rendering batch, bind a mesh, bind the necessary resources, issue the draw, and then end the batch. This will <em><b>indirectly</b></em> perform a render, as in, this series of commands will be recorded to what is called a command buffer, and is executed together with a bunch of other commands when the CoreGraphics::GraphicsDevice gets a call to do so.</p>
@@ -121,7 +122,7 @@ The CoreGraphics Subsystem</h1>
 			<ul>
 				<li class="navelem"><a class="el" href="render.html">Render Systems</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

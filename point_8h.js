@@ -21,5 +21,6 @@ var point_8h =
     [ "nearequal", "point_8h.html#ab273e0df1b911eaff21ce61675145562", null ],
     [ "operator+", "point_8h.html#a3ed947a09745a540ce820a023ed721fc", null ],
     [ "operator-", "point_8h.html#a78226d1d6b8af53d6056ffe7c7d66c1b", null ],
-    [ "operator-", "point_8h.html#a73e5e1c39aab857da0cb2ed91088870b", null ]
+    [ "operator-", "point_8h.html#a73e5e1c39aab857da0cb2ed91088870b", null ],
+    [ "xyz", "point_8h.html#aeeb92731f898b836b0375bce0533c99a", null ]
 ];

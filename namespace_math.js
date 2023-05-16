@@ -324,6 +324,7 @@ var namespace_math =
     [ "translation", "namespace_math.html#a4d58b8a571fe3d1246601493191bf6c3", null ],
     [ "transpose", "namespace_math.html#aeb4cbe38460910f2a4c81a04f77624c2", null ],
     [ "undenormalize", "namespace_math.html#a149b1a0c5da30db4c59f729b478db844", null ],
+    [ "xyz", "namespace_math.html#aeeb92731f898b836b0375bce0533c99a", null ],
     [ "xyz", "namespace_math.html#a36a0ba4d68592b49f075d561541b2a4a", null ],
     [ "_id_w", "namespace_math.html#a8f994ad2e9b7301aeab7bc616112035e", null ],
     [ "_id_x", "namespace_math.html#a067dba3ae188346fbdb6d40a482f22f7", null ],

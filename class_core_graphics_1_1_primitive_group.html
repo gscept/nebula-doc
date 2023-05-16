@@ -132,12 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a326b4cd45a5ed14fcb49452de13e758e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#a326b4cd45a5ed14fcb49452de13e758e">GetNumIndices</a> () const</td></tr>
 <tr class="memdesc:a326b4cd45a5ed14fcb49452de13e758e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of indices  <br /></td></tr>
 <tr class="separator:a326b4cd45a5ed14fcb49452de13e758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac266b2390bdacac284fe18e5820c0765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#ac266b2390bdacac284fe18e5820c0765">SetBoundingBox</a> (const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp;b)</td></tr>
-<tr class="memdesc:ac266b2390bdacac284fe18e5820c0765"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the primitive group's local bounding box  <br /></td></tr>
-<tr class="separator:ac266b2390bdacac284fe18e5820c0765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac70fec0c2dbbe3aae88eac89f20d2cc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#ac70fec0c2dbbe3aae88eac89f20d2cc5">GetBoundingBox</a> () const</td></tr>
-<tr class="memdesc:ac70fec0c2dbbe3aae88eac89f20d2cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the primitive group's local bounding box  <br /></td></tr>
-<tr class="separator:ac70fec0c2dbbe3aae88eac89f20d2cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0faa70fe2ace899dbe33fa3b795d5080"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#a0faa70fe2ace899dbe33fa3b795d5080">GetNumPrimitives</a> (const <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a> &amp;topo) const</td></tr>
 <tr class="memdesc:a0faa70fe2ace899dbe33fa3b795d5080"><td class="mdescLeft">&#160;</td><td class="mdescRight">get computed number of primitives  <br /></td></tr>
 <tr class="separator:a0faa70fe2ace899dbe33fa3b795d5080"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,8 +146,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a36b59590704ca35b540c63238c073373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67e2e3f440fb870d8a629a21de723be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#a67e2e3f440fb870d8a629a21de723be1">numIndices</a></td></tr>
 <tr class="separator:a67e2e3f440fb870d8a629a21de723be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0736bb742a2b73376fa6bbd5217c737d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1bbox.html">Math::bbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_primitive_group.html#a0736bb742a2b73376fa6bbd5217c737d">boundingBox</a></td></tr>
-<tr class="separator:a0736bb742a2b73376fa6bbd5217c737d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5a9d74a3d4b6fddb940e708772e65bc0" name="a5a9d74a3d4b6fddb940e708772e65bc0"></a>
@@ -235,33 +227,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get index of base vertex </p>
-
-</div>
-</div>
-<a id="ac70fec0c2dbbe3aae88eac89f20d2cc5" name="ac70fec0c2dbbe3aae88eac89f20d2cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac70fec0c2dbbe3aae88eac89f20d2cc5">&#9670;&#160;</a></span>GetBoundingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp; CoreGraphics::PrimitiveGroup::GetBoundingBox </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get the primitive group's local bounding box </p>
 
 </div>
 </div>
@@ -403,34 +368,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac266b2390bdacac284fe18e5820c0765" name="ac266b2390bdacac284fe18e5820c0765"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac266b2390bdacac284fe18e5820c0765">&#9670;&#160;</a></span>SetBoundingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreGraphics::PrimitiveGroup::SetBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set the primitive group's local bounding box </p>
-
-</div>
-</div>
 <a id="afa6f878a7e414238b2a4be66958623df" name="afa6f878a7e414238b2a4be66958623df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa6f878a7e414238b2a4be66958623df">&#9670;&#160;</a></span>SetNumIndices()</h2>
 
@@ -532,28 +469,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0736bb742a2b73376fa6bbd5217c737d" name="a0736bb742a2b73376fa6bbd5217c737d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0736bb742a2b73376fa6bbd5217c737d">&#9670;&#160;</a></span>boundingBox</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_math_1_1bbox.html">Math::bbox</a> CoreGraphics::PrimitiveGroup::boundingBox</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a67e2e3f440fb870d8a629a21de723be1" name="a67e2e3f440fb870d8a629a21de723be1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67e2e3f440fb870d8a629a21de723be1">&#9670;&#160;</a></span>numIndices</h2>
 
@@ -608,7 +523,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li><li class="navelem"><a class="el" href="class_core_graphics_1_1_primitive_group.html">PrimitiveGroup</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

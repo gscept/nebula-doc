@@ -175,6 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7201bb974ae99d73024a8a27d880a25"><td class="memItemLeft" align="right" valign="top">TYPE &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html#ad7201bb974ae99d73024a8a27d880a25">Get</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index) const</td></tr>
 <tr class="memdesc:ad7201bb974ae99d73024a8a27d880a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element (same as operator[] but as a function)  <br /></td></tr>
 <tr class="separator:ad7201bb974ae99d73024a8a27d880a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1819c5ceb145b05821deabaf9208c6"><td class="memTemplParams" colspan="2">template&lt;typename ... ELEM_TYPE&gt; </td></tr>
+<tr class="memitem:a8d1819c5ceb145b05821deabaf9208c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html#a8d1819c5ceb145b05821deabaf9208c6">Append</a> (const TYPE &amp;first, const ELEM_TYPE &amp;... <a class="el" href="class_util_1_1_array.html#a29655143bb879ce827b730bbb2a1d502">elements</a>)</td></tr>
+<tr class="memdesc:a8d1819c5ceb145b05821deabaf9208c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append multiple elements to the end of the array.  <br /></td></tr>
+<tr class="separator:a8d1819c5ceb145b05821deabaf9208c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0164800d2472f6df9434de4ffc0c81fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html#a0164800d2472f6df9434de4ffc0c81fe">Append</a> (const TYPE &amp;elm)</td></tr>
 <tr class="memdesc:a0164800d2472f6df9434de4ffc0c81fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">append element to end of array  <br /></td></tr>
 <tr class="separator:a0164800d2472f6df9434de4ffc0c81fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -646,7 +650,7 @@ template&lt;class TYPE &gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0164800d2472f6df9434de4ffc0c81fe" name="a0164800d2472f6df9434de4ffc0c81fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0164800d2472f6df9434de4ffc0c81fe">&#9670;&#160;</a></span>Append() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0164800d2472f6df9434de4ffc0c81fe">&#9670;&#160;</a></span>Append() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -667,8 +671,50 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a8d1819c5ceb145b05821deabaf9208c6" name="a8d1819c5ceb145b05821deabaf9208c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1819c5ceb145b05821deabaf9208c6">&#9670;&#160;</a></span>Append() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE &gt; </div>
+<div class="memtemplate">
+template&lt;typename ... ELEM_TYPE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE &gt;::Append </td>
+          <td>(</td>
+          <td class="paramtype">const TYPE &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ELEM_TYPE &amp;...&#160;</td>
+          <td class="paramname"><em>elements</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Append multiple elements to the end of the array. </p>
+
+</div>
+</div>
 <a id="a519f8db5f80381f538b474979026074a" name="a519f8db5f80381f538b474979026074a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a519f8db5f80381f538b474979026074a">&#9670;&#160;</a></span>Append() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a519f8db5f80381f538b474979026074a">&#9670;&#160;</a></span>Append() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2507,7 +2553,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array.html">Array</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

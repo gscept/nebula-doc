@@ -151,6 +151,7 @@ var annotated_dup =
       [ "GpuBufferTypes", "namespace_core_graphics_1_1_gpu_buffer_types.html", [
         [ "SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags" ]
       ] ],
+      [ "__Mesh", "struct_core_graphics_1_1_____mesh.html", "struct_core_graphics_1_1_____mesh" ],
       [ "Adapter", "class_core_graphics_1_1_adapter.html", "class_core_graphics_1_1_adapter" ],
       [ "AdapterInfo", "class_core_graphics_1_1_adapter_info.html", "class_core_graphics_1_1_adapter_info" ],
       [ "Alloc", "struct_core_graphics_1_1_alloc.html", "struct_core_graphics_1_1_alloc" ],
@@ -859,6 +860,8 @@ var annotated_dup =
     [ "RenderUtil", "namespace_render_util.html", [
       [ "DrawFullScreenQuad", "class_render_util_1_1_draw_full_screen_quad.html", "class_render_util_1_1_draw_full_screen_quad" ],
       [ "FreeCameraUtil", "class_render_util_1_1_free_camera_util.html", "class_render_util_1_1_free_camera_util" ],
+      [ "Geometry", "struct_render_util_1_1_geometry.html", "struct_render_util_1_1_geometry" ],
+      [ "GeometryHelpers", "class_render_util_1_1_geometry_helpers.html", "class_render_util_1_1_geometry_helpers" ],
       [ "MayaCameraUtil", "class_render_util_1_1_maya_camera_util.html", "class_render_util_1_1_maya_camera_util" ],
       [ "MouseRayUtil", "class_render_util_1_1_mouse_ray_util.html", "class_render_util_1_1_mouse_ray_util" ],
       [ "NodeLookupUtil", "class_render_util_1_1_node_lookup_util.html", "class_render_util_1_1_node_lookup_util" ]

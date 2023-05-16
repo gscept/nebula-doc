@@ -28,6 +28,7 @@ var class_models_1_1_model_context =
     [ "OnRenderDebug", "class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa", null ],
     [ "SetAlwaysVisible", "class_models_1_1_model_context.html#aebdd563272d6eac6b2ac8cf9ef5885d3", null ],
     [ "SetTransform", "class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370", null ],
+    [ "Setup", "class_models_1_1_model_context.html#ad66884d56213c832dd4fc7aafde5f8e9", null ],
     [ "Setup", "class_models_1_1_model_context.html#ab5a3ec5a4d6a067631c15719d9273a5e", null ],
     [ "SetupMaterialInstanceContext", "class_models_1_1_model_context.html#a74fab50960deb694e6d8e208b055f8c2", null ],
     [ "SetupMaterialInstanceContext", "class_models_1_1_model_context.html#a6abc0c012081f1f75015e5b160cf264a", null ],

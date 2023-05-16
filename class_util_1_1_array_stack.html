@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abda541e3abf746bad70bc55ac8f44227"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_stack.html#abda541e3abf746bad70bc55ac8f44227">As</a> () const</td></tr>
 <tr class="memdesc:abda541e3abf746bad70bc55ac8f44227"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert to "anything"  <br /></td></tr>
 <tr class="separator:abda541e3abf746bad70bc55ac8f44227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633a1fcb9d8ec727e618e7bdd5d755da"><td class="memTemplParams" colspan="2">template&lt;typename ... ELEM_TYPE&gt; </td></tr>
+<tr class="memitem:a633a1fcb9d8ec727e618e7bdd5d755da"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_stack.html#a633a1fcb9d8ec727e618e7bdd5d755da">Append</a> (const TYPE &amp;first, const ELEM_TYPE &amp;... <a class="el" href="class_util_1_1_array_stack.html#a95e4a68324a4a081cc8a4160a5479e46">elements</a>)</td></tr>
+<tr class="memdesc:a633a1fcb9d8ec727e618e7bdd5d755da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append multiple elements to the end of the array.  <br /></td></tr>
+<tr class="separator:a633a1fcb9d8ec727e618e7bdd5d755da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd2920e7c447e623105a05df9c4855d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_stack.html#abfd2920e7c447e623105a05df9c4855d">Append</a> (const TYPE &amp;elm)</td></tr>
 <tr class="memdesc:abfd2920e7c447e623105a05df9c4855d"><td class="mdescLeft">&#160;</td><td class="mdescRight">append element to end of array  <br /></td></tr>
 <tr class="separator:abfd2920e7c447e623105a05df9c4855d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,7 +523,7 @@ template&lt;class TYPE , int STACK_SIZE&gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="abfd2920e7c447e623105a05df9c4855d" name="abfd2920e7c447e623105a05df9c4855d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfd2920e7c447e623105a05df9c4855d">&#9670;&#160;</a></span>Append() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abfd2920e7c447e623105a05df9c4855d">&#9670;&#160;</a></span>Append() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,8 +544,50 @@ template&lt;class TYPE , int STACK_SIZE&gt; </div>
 
 </div>
 </div>
+<a id="a633a1fcb9d8ec727e618e7bdd5d755da" name="a633a1fcb9d8ec727e618e7bdd5d755da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633a1fcb9d8ec727e618e7bdd5d755da">&#9670;&#160;</a></span>Append() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE , int STACK_SIZE&gt; </div>
+<div class="memtemplate">
+template&lt;typename ... ELEM_TYPE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt; TYPE, STACK_SIZE &gt;::Append </td>
+          <td>(</td>
+          <td class="paramtype">const TYPE &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ELEM_TYPE &amp;...&#160;</td>
+          <td class="paramname"><em>elements</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Append multiple elements to the end of the array. </p>
+
+</div>
+</div>
 <a id="a3eccc1033ab1257c7f037e6db2ab19b5" name="a3eccc1033ab1257c7f037e6db2ab19b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eccc1033ab1257c7f037e6db2ab19b5">&#9670;&#160;</a></span>Append() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eccc1033ab1257c7f037e6db2ab19b5">&#9670;&#160;</a></span>Append() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1956,7 +2002,7 @@ template&lt;class TYPE , int STACK_SIZE&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array_stack.html">ArrayStack</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

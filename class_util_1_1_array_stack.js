@@ -9,6 +9,7 @@ var class_util_1_1_array_stack =
     [ "ArrayStack", "class_util_1_1_array_stack.html#a43058b28e64cf8084cd69c33a63745cb", null ],
     [ "~ArrayStack", "class_util_1_1_array_stack.html#ae5a430d0ee2f77e396ae2085a554f1de", null ],
     [ "Append", "class_util_1_1_array_stack.html#abfd2920e7c447e623105a05df9c4855d", null ],
+    [ "Append", "class_util_1_1_array_stack.html#a633a1fcb9d8ec727e618e7bdd5d755da", null ],
     [ "Append", "class_util_1_1_array_stack.html#a3eccc1033ab1257c7f037e6db2ab19b5", null ],
     [ "AppendArray", "class_util_1_1_array_stack.html#a763499ceb1daa406a2e04dab17a720fb", null ],
     [ "AppendArray", "class_util_1_1_array_stack.html#a87b3304327830a0ffb815b0e521f60eb", null ],

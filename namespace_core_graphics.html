@@ -134,6 +134,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_____mesh.html">__Mesh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_adapter.html">Adapter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display adapter enum.  <a href="class_core_graphics_1_1_adapter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,8 +436,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6d154dcb192d10d6703813e18bd26ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b91aa8d9d536bc0f7dc97e74061b59d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_core_graphics_1_1_image_load_info.html">ImageLoadInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5b91aa8d9d536bc0f7dc97e74061b59d">ImageAllocator</a></td></tr>
 <tr class="separator:a5b91aa8d9d536bc0f7dc97e74061b59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef72e73cae302dd3f83b16a618b2edaf"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt; <a class="el" href="struct_core_graphics_1_1_vertex_stream.html">VertexStream</a>, 16 &gt;, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>, <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aef72e73cae302dd3f83b16a618b2edaf">MeshAllocator</a></td></tr>
-<tr class="separator:aef72e73cae302dd3f83b16a618b2edaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c20417d5e39b11caf6148d3ecf8582"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="struct_core_graphics_1_1_____mesh.html">__Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a50c20417d5e39b11caf6148d3ecf8582">MeshAllocator</a></td></tr>
+<tr class="separator:a50c20417d5e39b11caf6148d3ecf8582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65f5b7eed611cb61bbb64401cea73b1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae65f5b7eed611cb61bbb64401cea73b1">MeshResourceAllocator</a></td></tr>
 <tr class="separator:ae65f5b7eed611cb61bbb64401cea73b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -690,17 +692,8 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a6d05babede644415820eca607bed06ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae139555cfae6a325ba7aa8b511d8dc3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3da55cd02f893b74c257ed85f33306bff0c">Mesh_Name</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3da4ec93ad863e410d08ad6e7e4f2b9981f">Mesh_Streams</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3dad42a594977459e94c32cefa1c3e4025c">Mesh_IndexBufferOffset</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3daaaf53d54975ac9148c4cfa9ef5f4b558">Mesh_IndexBuffer</a>
-, <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3da4c72aebea7457ee565afd1ec7edae063">Mesh_IndexType</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3dae89cf50f2b6ec1d78d6a0e9baa64e564">Mesh_VertexLayout</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3dae59ff94fb9849e3d566bb5b30ed9a9ff">Mesh_Topology</a>
-, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3da666c241e01d3372f75fcb31064320578">Mesh_PrimitiveGroups</a>
-<br />
+<tr class="memitem:ae139555cfae6a325ba7aa8b511d8dc3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3da55cd02f893b74c257ed85f33306bff0c">Mesh_Name</a>
+, <a class="el" href="namespace_core_graphics.html#ae139555cfae6a325ba7aa8b511d8dc3daf2ed58da9e08ae25d417feef7d04a579">Mesh_Internals</a>
  }</td></tr>
 <tr class="separator:ae139555cfae6a325ba7aa8b511d8dc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfc12b4bdcacc901bf1ffad84213c244"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244">AttachmentFlagBits</a> : uint8 { <br />
@@ -1521,9 +1514,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aee3dc9cce303316d7b086abd9b3eaf2c">MeshGetPrimitiveGroups</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id)</td></tr>
 <tr class="memdesc:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of primitive groups  <br /></td></tr>
 <tr class="separator:aee3dc9cce303316d7b086abd9b3eaf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8575205b2ac069b2183386e320cd394f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8575205b2ac069b2183386e320cd394f">MeshGetPrimitiveGroup</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group)</td></tr>
+<tr class="memdesc:a8575205b2ac069b2183386e320cd394f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get primitive group  <br /></td></tr>
+<tr class="separator:a8575205b2ac069b2183386e320cd394f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa87a73ce15ffe2a317ca44ddf772e551"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aa87a73ce15ffe2a317ca44ddf772e551">MeshGetVertexBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream)</td></tr>
 <tr class="memdesc:aa87a73ce15ffe2a317ca44ddf772e551"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vertex buffer  <br /></td></tr>
 <tr class="separator:aa87a73ce15ffe2a317ca44ddf772e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9953f6a3f01efc752359b6bfeb626b7"><td class="memItemLeft" align="right" valign="top">const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad9953f6a3f01efc752359b6bfeb626b7">MeshSetVertexBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> buffer, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream)</td></tr>
+<tr class="memdesc:ad9953f6a3f01efc752359b6bfeb626b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vertex buffer.  <br /></td></tr>
+<tr class="separator:ad9953f6a3f01efc752359b6bfeb626b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2152ebb4ca924da0d7c6018ad491531f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2152ebb4ca924da0d7c6018ad491531f">MeshGetVertexOffset</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream)</td></tr>
 <tr class="memdesc:a2152ebb4ca924da0d7c6018ad491531f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mesh vertex offset.  <br /></td></tr>
 <tr class="separator:a2152ebb4ca924da0d7c6018ad491531f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1542,6 +1541,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2b9303da83aabdc2f7b4e092a6dc552b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2b9303da83aabdc2f7b4e092a6dc552b">MeshGetVertexLayout</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id)</td></tr>
 <tr class="memdesc:a2b9303da83aabdc2f7b4e092a6dc552b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vertex layout.  <br /></td></tr>
 <tr class="separator:a2b9303da83aabdc2f7b4e092a6dc552b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae21d98923c8146c58938babd0b0bef"><td class="memItemLeft" align="right" valign="top">const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0ae21d98923c8146c58938babd0b0bef">MeshBind</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> id, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd)</td></tr>
+<tr class="memdesc:a0ae21d98923c8146c58938babd0b0bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind mesh on command buffer.  <br /></td></tr>
+<tr class="separator:a0ae21d98923c8146c58938babd0b0bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b2a4abe8a611705ed72e407eeeb8dec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2b2a4abe8a611705ed72e407eeeb8dec">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_mesh_loader.html">CoreGraphics::MeshLoader</a>, 'VKML', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
 <tr class="separator:a2b2a4abe8a611705ed72e407eeeb8dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab98eacdee2c9042401fe5a2abf91a36"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aab98eacdee2c9042401fe5a2abf91a36">MeshResourceGetMesh</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_resource_id.html">MeshResourceId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
@@ -1992,7 +1994,11 @@ Variables</h2></td></tr>
 <tr class="separator:a578969293a0f2252be7b0d49f19550fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c369f5b7233ed8022837d89a56d9f35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9c369f5b7233ed8022837d89a56d9f35">AllocationLock</a></td></tr>
 <tr class="separator:a9c369f5b7233ed8022837d89a56d9f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a159d42ca6eb5363ef2773376cc6497b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#aef72e73cae302dd3f83b16a618b2edaf">MeshAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a159d42ca6eb5363ef2773376cc6497b0">meshAllocator</a></td></tr>
+<tr class="memitem:a0ae3c884023b8f1345f5fe73eec15ccc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0ae3c884023b8f1345f5fe73eec15ccc">RectangleMesh</a></td></tr>
+<tr class="separator:a0ae3c884023b8f1345f5fe73eec15ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8a9800efe6c8f38748586ccaabf2fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a4a8a9800efe6c8f38748586ccaabf2fc">DiskMesh</a></td></tr>
+<tr class="separator:a4a8a9800efe6c8f38748586ccaabf2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159d42ca6eb5363ef2773376cc6497b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a50c20417d5e39b11caf6148d3ecf8582">MeshAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a159d42ca6eb5363ef2773376cc6497b0">meshAllocator</a></td></tr>
 <tr class="separator:a159d42ca6eb5363ef2773376cc6497b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88e86529fe418d215271f2c1e4d7875f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a88e86529fe418d215271f2c1e4d7875f">layouts</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457">CoreGraphics::VertexLayoutType::NumTypes</a>]</td></tr>
 <tr class="separator:a88e86529fe418d215271f2c1e4d7875f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2109,14 +2115,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aef72e73cae302dd3f83b16a618b2edaf" name="aef72e73cae302dd3f83b16a618b2edaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef72e73cae302dd3f83b16a618b2edaf">&#9670;&#160;</a></span>MeshAllocator</h2>
+<a id="a50c20417d5e39b11caf6148d3ecf8582" name="a50c20417d5e39b11caf6148d3ecf8582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c20417d5e39b11caf6148d3ecf8582">&#9670;&#160;</a></span>MeshAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt;<a class="el" href="struct_core_graphics_1_1_vertex_stream.html">VertexStream</a>, 16&gt;, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>, <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">IndexType::Code</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a>, <a class="el" href="class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09db">CoreGraphics::PrimitiveTopology::Code</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&gt;&gt; <a class="el" href="namespace_core_graphics.html#aef72e73cae302dd3f83b16a618b2edaf">CoreGraphics::MeshAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="struct_core_graphics_1_1_____mesh.html">__Mesh</a>&gt; <a class="el" href="namespace_core_graphics.html#a50c20417d5e39b11caf6148d3ecf8582">CoreGraphics::MeshAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2173,13 +2179,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3da55cd02f893b74c257ed85f33306bff0c" name="ae139555cfae6a325ba7aa8b511d8dc3da55cd02f893b74c257ed85f33306bff0c"></a>Mesh_Name&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3da4ec93ad863e410d08ad6e7e4f2b9981f" name="ae139555cfae6a325ba7aa8b511d8dc3da4ec93ad863e410d08ad6e7e4f2b9981f"></a>Mesh_Streams&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3dad42a594977459e94c32cefa1c3e4025c" name="ae139555cfae6a325ba7aa8b511d8dc3dad42a594977459e94c32cefa1c3e4025c"></a>Mesh_IndexBufferOffset&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3daaaf53d54975ac9148c4cfa9ef5f4b558" name="ae139555cfae6a325ba7aa8b511d8dc3daaaf53d54975ac9148c4cfa9ef5f4b558"></a>Mesh_IndexBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3da4c72aebea7457ee565afd1ec7edae063" name="ae139555cfae6a325ba7aa8b511d8dc3da4c72aebea7457ee565afd1ec7edae063"></a>Mesh_IndexType&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3dae89cf50f2b6ec1d78d6a0e9baa64e564" name="ae139555cfae6a325ba7aa8b511d8dc3dae89cf50f2b6ec1d78d6a0e9baa64e564"></a>Mesh_VertexLayout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3dae59ff94fb9849e3d566bb5b30ed9a9ff" name="ae139555cfae6a325ba7aa8b511d8dc3dae59ff94fb9849e3d566bb5b30ed9a9ff"></a>Mesh_Topology&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3da666c241e01d3372f75fcb31064320578" name="ae139555cfae6a325ba7aa8b511d8dc3da666c241e01d3372f75fcb31064320578"></a>Mesh_PrimitiveGroups&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae139555cfae6a325ba7aa8b511d8dc3daf2ed58da9e08ae25d417feef7d04a579" name="ae139555cfae6a325ba7aa8b511d8dc3daf2ed58da9e08ae25d417feef7d04a579"></a>Mesh_Internals&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -8871,6 +8871,36 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a0ae21d98923c8146c58938babd0b0bef" name="a0ae21d98923c8146c58938babd0b0bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae21d98923c8146c58938babd0b0bef">&#9670;&#160;</a></span>MeshBind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const void CoreGraphics::MeshBind </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bind mesh on command buffer. </p>
+
+</div>
+</div>
 <a id="addc58d88bd2414386cc0eeffc8c54528" name="addc58d88bd2414386cc0eeffc8c54528"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addc58d88bd2414386cc0eeffc8c54528">&#9670;&#160;</a></span>MeshGetIndexBuffer()</h2>
 
@@ -8928,6 +8958,36 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>Get index type. </p>
+
+</div>
+</div>
+<a id="a8575205b2ac069b2183386e320cd394f" name="a8575205b2ac069b2183386e320cd394f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8575205b2ac069b2183386e320cd394f">&#9670;&#160;</a></span>MeshGetPrimitiveGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> CoreGraphics::MeshGetPrimitiveGroup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get primitive group </p>
 
 </div>
 </div>
@@ -9098,6 +9158,42 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>Get number of meshes. </p>
+
+</div>
+</div>
+<a id="ad9953f6a3f01efc752359b6bfeb626b7" name="ad9953f6a3f01efc752359b6bfeb626b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9953f6a3f01efc752359b6bfeb626b7">&#9670;&#160;</a></span>MeshSetVertexBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const void CoreGraphics::MeshSetVertexBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>stream</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set vertex buffer. </p>
 
 </div>
 </div>
@@ -13834,6 +13930,20 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a4a8a9800efe6c8f38748586ccaabf2fc" name="a4a8a9800efe6c8f38748586ccaabf2fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8a9800efe6c8f38748586ccaabf2fc">&#9670;&#160;</a></span>DiskMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> CoreGraphics::DiskMesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e635b47ada97adfd1af0873058ae47d" name="a3e635b47ada97adfd1af0873058ae47d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e635b47ada97adfd1af0873058ae47d">&#9670;&#160;</a></span>glfwWindowAllocator</h2>
 
@@ -13925,7 +14035,7 @@ template&lt;class TYPE &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_core_graphics.html#aef72e73cae302dd3f83b16a618b2edaf">MeshAllocator</a> CoreGraphics::meshAllocator</td>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a50c20417d5e39b11caf6148d3ecf8582">MeshAllocator</a> CoreGraphics::meshAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13982,6 +14092,20 @@ template&lt;class TYPE &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_memory_pool.html">MemoryPool</a> &gt; CoreGraphics::Pools</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ae3c884023b8f1345f5fe73eec15ccc" name="a0ae3c884023b8f1345f5fe73eec15ccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae3c884023b8f1345f5fe73eec15ccc">&#9670;&#160;</a></span>RectangleMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> CoreGraphics::RectangleMesh</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -14171,7 +14295,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

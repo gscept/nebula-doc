@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('class_models_1_1_shader_state_node.htm
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -124,9 +125,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a084a42ff0c3870a1ef079cc0155c7f42"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a084a42ff0c3870a1ef079cc0155c7f42">GetMaterial</a> () const</td></tr>
 <tr class="memdesc:a084a42ff0c3870a1ef079cc0155c7f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">get surface  <br /></td></tr>
 <tr class="separator:a084a42ff0c3870a1ef079cc0155c7f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d7371452196ebabedeb35d8602b6f4e"><td class="memItemLeft" align="right" valign="top">const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a3d7371452196ebabedeb35d8602b6f4e">GetSortCode</a> () const</td></tr>
-<tr class="memdesc:a3d7371452196ebabedeb35d8602b6f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sort code.  <br /></td></tr>
-<tr class="separator:a3d7371452196ebabedeb35d8602b6f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70597af65434266f7c376874771b4a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ac70597af65434266f7c376874771b4a1">SetMaxLOD</a> (const float lod)</td></tr>
 <tr class="memdesc:ac70597af65434266f7c376874771b4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">trigger an LOD update  <br /></td></tr>
 <tr class="separator:ac70597af65434266f7c376874771b4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a81c24d3ab3e10f5c7dc5afbbdbf7c2d9 inherit pub_methods_class_models_1_1_model_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unload data (don't call explicitly)  <br /></td></tr>
 <tr class="separator:a81c24d3ab3e10f5c7dc5afbbdbf7c2d9 inherit pub_methods_class_models_1_1_model_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4a7bb521081af1163ff2c9da3cb5ee69"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a4a7bb521081af1163ff2c9da3cb5ee69">CreateResourceTables</a> ()</td></tr>
+<tr class="memdesc:a4a7bb521081af1163ff2c9da3cb5ee69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create resource table.  <br /></td></tr>
+<tr class="separator:a4a7bb521081af1163ff2c9da3cb5ee69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4c53e8eb798ae3c0ac4741356b01dbc8"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a4c53e8eb798ae3c0ac4741356b01dbc8">NumTables</a> = 1</td></tr>
@@ -213,16 +217,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a077216bda479757f274322f9dcdd0e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ac8c403b867ba577411414a64a03d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a60ac8c403b867ba577411414a64a03d5">material</a></td></tr>
 <tr class="separator:a60ac8c403b867ba577411414a64a03d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a860e2b4a08f638726349ab9b9a4280ed"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a860e2b4a08f638726349ab9b9a4280ed">sortCode</a></td></tr>
-<tr class="separator:a860e2b4a08f638726349ab9b9a4280ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae837adeb02e5b42294ccc61427e00ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3">materialName</a></td></tr>
 <tr class="separator:ae837adeb02e5b42294ccc61427e00ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f7cd513d8d031971e5a79496c6d437"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a20f7cd513d8d031971e5a79496c6d437">objectTransformsIndex</a></td></tr>
-<tr class="separator:a20f7cd513d8d031971e5a79496c6d437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbaf87c332bc2e04710cf9dbc74c5449"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#afbaf87c332bc2e04710cf9dbc74c5449">instancingTransformsIndex</a></td></tr>
-<tr class="separator:afbaf87c332bc2e04710cf9dbc74c5449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a637b0acfa24b453ed45ea87860e3196b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a637b0acfa24b453ed45ea87860e3196b">skinningTransformsIndex</a></td></tr>
-<tr class="separator:a637b0acfa24b453ed45ea87860e3196b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f1f7198917849df1103ea66d31a049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_shader_state_node.html#a51f1f7198917849df1103ea66d31a049">resourceTables</a></td></tr>
 <tr class="separator:a51f1f7198917849df1103ea66d31a049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_models_1_1_transform_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_models_1_1_transform_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_models_1_1_transform_node.html">Models::TransformNode</a></td></tr>
@@ -325,6 +321,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4a7bb521081af1163ff2c9da3cb5ee69" name="a4a7bb521081af1163ff2c9da3cb5ee69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7bb521081af1163ff2c9da3cb5ee69">&#9670;&#160;</a></span>CreateResourceTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt; Models::ShaderStateNode::CreateResourceTables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create resource table. </p>
+
+</div>
+</div>
 <a id="a084a42ff0c3870a1ef079cc0155c7f42" name="a084a42ff0c3870a1ef079cc0155c7f42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a084a42ff0c3870a1ef079cc0155c7f42">&#9670;&#160;</a></span>GetMaterial()</h2>
 
@@ -349,33 +372,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get surface </p>
-
-</div>
-</div>
-<a id="a3d7371452196ebabedeb35d8602b6f4e" name="a3d7371452196ebabedeb35d8602b6f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d7371452196ebabedeb35d8602b6f4e">&#9670;&#160;</a></span>GetSortCode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint64_t Models::ShaderStateNode::GetSortCode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get sort code. </p>
 
 </div>
 </div>
@@ -559,28 +555,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afbaf87c332bc2e04710cf9dbc74c5449" name="afbaf87c332bc2e04710cf9dbc74c5449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbaf87c332bc2e04710cf9dbc74c5449">&#9670;&#160;</a></span>instancingTransformsIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t Models::ShaderStateNode::instancingTransformsIndex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a60ac8c403b867ba577411414a64a03d5" name="a60ac8c403b867ba577411414a64a03d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60ac8c403b867ba577411414a64a03d5">&#9670;&#160;</a></span>material</h2>
 
@@ -691,28 +665,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a20f7cd513d8d031971e5a79496c6d437" name="a20f7cd513d8d031971e5a79496c6d437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20f7cd513d8d031971e5a79496c6d437">&#9670;&#160;</a></span>objectTransformsIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t Models::ShaderStateNode::objectTransformsIndex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a51f1f7198917849df1103ea66d31a049" name="a51f1f7198917849df1103ea66d31a049"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51f1f7198917849df1103ea66d31a049">&#9670;&#160;</a></span>resourceTables</h2>
 
@@ -735,50 +687,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a637b0acfa24b453ed45ea87860e3196b" name="a637b0acfa24b453ed45ea87860e3196b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a637b0acfa24b453ed45ea87860e3196b">&#9670;&#160;</a></span>skinningTransformsIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t Models::ShaderStateNode::skinningTransformsIndex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a860e2b4a08f638726349ab9b9a4280ed" name="a860e2b4a08f638726349ab9b9a4280ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a860e2b4a08f638726349ab9b9a4280ed">&#9670;&#160;</a></span>sortCode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t Models::ShaderStateNode::sortCode</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/code/render/models/nodes/<a class="el" href="shaderstatenode_8h_source.html">shaderstatenode.h</a></li>
 <li>/github/workspace/code/render/models/nodes/<a class="el" href="shaderstatenode_8cc.html">shaderstatenode.cc</a></li>
@@ -790,7 +698,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

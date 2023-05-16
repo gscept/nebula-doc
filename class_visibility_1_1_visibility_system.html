@@ -115,9 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4baac3e8a5d30bfeb692e949d062d543"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visibility_1_1_visibility_system.html#a4baac3e8a5d30bfeb692e949d062d543">VisibilitySystem</a> ()</td></tr>
 <tr class="memdesc:a4baac3e8a5d30bfeb692e949d062d543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="separator:a4baac3e8a5d30bfeb692e949d062d543"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5ad93d8e5e761929e237e3dda3943fc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visibility_1_1_visibility_system.html#ae5ad93d8e5e761929e237e3dda3943fc">PrepareObservers</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> *transforms, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt; *results, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
-<tr class="memdesc:ae5ad93d8e5e761929e237e3dda3943fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup observers  <br /></td></tr>
-<tr class="separator:ae5ad93d8e5e761929e237e3dda3943fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735fc071abb98d1150b7fb33878a86e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visibility_1_1_visibility_system.html#a735fc071abb98d1150b7fb33878a86e1">PrepareObservers</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> *transforms, bool *orthoFlags, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt; *results, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
+<tr class="memdesc:a735fc071abb98d1150b7fb33878a86e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup observers  <br /></td></tr>
+<tr class="separator:a735fc071abb98d1150b7fb33878a86e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visibility_1_1_visibility_system.html#adc2b6395afe4f1dc8b6ea510eafeca26">PrepareEntities</a> (const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> *transforms, const <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> *ranges, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> *entities, const uint32_t *entityFlags, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
 <tr class="memdesc:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare system with entities to insert into the structure  <br /></td></tr>
 <tr class="separator:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,8 +258,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae5ad93d8e5e761929e237e3dda3943fc" name="ae5ad93d8e5e761929e237e3dda3943fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5ad93d8e5e761929e237e3dda3943fc">&#9670;&#160;</a></span>PrepareObservers()</h2>
+<a id="a735fc071abb98d1150b7fb33878a86e1" name="a735fc071abb98d1150b7fb33878a86e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735fc071abb98d1150b7fb33878a86e1">&#9670;&#160;</a></span>PrepareObservers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,6 +272,12 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> *&#160;</td>
           <td class="paramname"><em>transforms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>orthoFlags</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -442,7 +448,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_visibility.html">Visibility</a></li><li class="navelem"><a class="el" href="class_visibility_1_1_visibility_system.html">VisibilitySystem</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

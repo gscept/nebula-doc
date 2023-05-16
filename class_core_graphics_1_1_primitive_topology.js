@@ -9,6 +9,7 @@ var class_core_graphics_1_1_primitive_topology =
       [ "LineStripAdjacency", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbad246c502293a777ddecbc20c77b85364", null ],
       [ "TriangleList", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba62989349ce3f9c7372a9bf3ab715d9ef", null ],
       [ "TriangleStrip", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba95ba5eb014af8734de0e8366fea80092", null ],
+      [ "TriangleFan", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbaf84220135e53aa14aca88f78a7b900fa", null ],
       [ "TriangleListAdjacency", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba1b775d0004e0591f65c8c52128e8a1f2", null ],
       [ "TriangleStripAdjacency", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbad86827c0ef32b65ca798edfb96c0f60e", null ],
       [ "PatchList", "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbaad85fece355b4bb975dc3591e7c78827", null ],

@@ -12,6 +12,7 @@ var class_util_1_1_array =
     [ "Array", "class_util_1_1_array.html#a6ae38874a6f8b65d1bc5527e63a595bc", null ],
     [ "~Array", "class_util_1_1_array.html#ae549efdee69253743bcda50b66218f93", null ],
     [ "Append", "class_util_1_1_array.html#a0164800d2472f6df9434de4ffc0c81fe", null ],
+    [ "Append", "class_util_1_1_array.html#a8d1819c5ceb145b05821deabaf9208c6", null ],
     [ "Append", "class_util_1_1_array.html#a519f8db5f80381f538b474979026074a", null ],
     [ "AppendArray", "class_util_1_1_array.html#ae1ef57f9b8ad624338a78170282b9cd0", null ],
     [ "AppendArray", "class_util_1_1_array.html#a4f2f94214bf8f2cd73f7821048ca99b9", null ],

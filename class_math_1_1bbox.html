@@ -107,13 +107,13 @@ $(document).ready(function(){initNavTree('class_math_1_1bbox.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aba9ee71a01c17a8d54e6b4d91a0dc872"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872ac593049ddc42b677cd074891e6e3d8f1">ClipLeft</a> = N_BIT(1)
-, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a9c3b73e3485e847b58edbc646a566a62">ClipRight</a> = N_BIT(2)
-, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872ad92f6a2a2cb7c5608e7e0ee71d17d408">ClipBottom</a> = N_BIT(3)
-, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a7b0e37cf31bcf4fc6ac8093a2c1f98be">ClipTop</a> = N_BIT(4)
+&#160;&#160;<a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872ac593049ddc42b677cd074891e6e3d8f1">ClipLeft</a> = N_BIT(0)
+, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a9c3b73e3485e847b58edbc646a566a62">ClipRight</a> = N_BIT(1)
+, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872ad92f6a2a2cb7c5608e7e0ee71d17d408">ClipBottom</a> = N_BIT(2)
+, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a7b0e37cf31bcf4fc6ac8093a2c1f98be">ClipTop</a> = N_BIT(3)
 , <br />
-&#160;&#160;<a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a7cbb04fc9253b7adf7ea65f567e2318a">ClipNear</a> = N_BIT(5)
-, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872adf0bbd04b392c28cf6e8f09ff76b43db">ClipFar</a> = N_BIT(6)
+&#160;&#160;<a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872a7cbb04fc9253b7adf7ea65f567e2318a">ClipNear</a> = N_BIT(4)
+, <a class="el" href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872adf0bbd04b392c28cf6e8f09ff76b43db">ClipFar</a> = N_BIT(5)
 <br />
  }</td></tr>
 <tr class="memdesc:aba9ee71a01c17a8d54e6b4d91a0dc872"><td class="mdescLeft">&#160;</td><td class="mdescRight">clip codes  <a href="class_math_1_1bbox.html#aba9ee71a01c17a8d54e6b4d91a0dc872">More...</a><br /></td></tr>
@@ -178,12 +178,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a255b2566bfd6d47fc7d0d21aaf4a7830"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#a255b2566bfd6d47fc7d0d21aaf4a7830">clipstatus</a> (const <a class="el" href="class_math_1_1bbox.html">bbox</a> &amp;other) const</td></tr>
 <tr class="memdesc:a255b2566bfd6d47fc7d0d21aaf4a7830"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with other bounding box  <br /></td></tr>
 <tr class="separator:a255b2566bfd6d47fc7d0d21aaf4a7830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39fc5914b7480e477e58f2b2904ca44d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#a39fc5914b7480e477e58f2b2904ca44d">clipstatus</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;viewProjection) const</td></tr>
-<tr class="memdesc:a39fc5914b7480e477e58f2b2904ca44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with projection volume  <br /></td></tr>
-<tr class="separator:a39fc5914b7480e477e58f2b2904ca44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a701b512a21b44e1a7bcac38a73951b1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#a701b512a21b44e1a7bcac38a73951b1a">clipstatus</a> (const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *x_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *y_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *z_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *w_columns) const</td></tr>
-<tr class="memdesc:a701b512a21b44e1a7bcac38a73951b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with pre-calculated columns  <br /></td></tr>
-<tr class="separator:a701b512a21b44e1a7bcac38a73951b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0064d0562fc376c41e5c7650917673dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#a0064d0562fc376c41e5c7650917673dc">clipstatus</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;viewProjection, const bool isOrtho=false) const</td></tr>
+<tr class="memdesc:a0064d0562fc376c41e5c7650917673dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with projection volume  <br /></td></tr>
+<tr class="separator:a0064d0562fc376c41e5c7650917673dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80cc7b8886e4b99286037bad3c72a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#ac80cc7b8886e4b99286037bad3c72a91">clipstatus</a> (const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *x_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *y_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *z_columns, const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *w_columns, const bool isOrtho=false) const</td></tr>
+<tr class="memdesc:ac80cc7b8886e4b99286037bad3c72a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with pre-calculated columns  <br /></td></tr>
+<tr class="separator:ac80cc7b8886e4b99286037bad3c72a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24bd41a28c5b3b7271126ad89440cc16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html#a24bd41a28c5b3b7271126ad89440cc16">to_mat4</a> () const</td></tr>
 <tr class="memdesc:a24bd41a28c5b3b7271126ad89440cc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a matrix which transforms a unit cube to this bounding box  <br /></td></tr>
 <tr class="separator:a24bd41a28c5b3b7271126ad89440cc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,8 +449,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a39fc5914b7480e477e58f2b2904ca44d" name="a39fc5914b7480e477e58f2b2904ca44d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39fc5914b7480e477e58f2b2904ca44d">&#9670;&#160;</a></span>clipstatus() <span class="overload">[2/3]</span></h2>
+<a id="a0064d0562fc376c41e5c7650917673dc" name="a0064d0562fc376c41e5c7650917673dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0064d0562fc376c41e5c7650917673dc">&#9670;&#160;</a></span>clipstatus() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,8 +459,18 @@ template&lt;typename T &gt; </div>
           <td class="memname">__forceinline <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">ClipStatus::Type</a> Math::bbox::clipstatus </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;&#160;</td>
-          <td class="paramname"><em>viewProjection</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>viewProjection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>isOrtho</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -469,8 +479,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a701b512a21b44e1a7bcac38a73951b1a" name="a701b512a21b44e1a7bcac38a73951b1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a701b512a21b44e1a7bcac38a73951b1a">&#9670;&#160;</a></span>clipstatus() <span class="overload">[3/3]</span></h2>
+<a id="ac80cc7b8886e4b99286037bad3c72a91" name="ac80cc7b8886e4b99286037bad3c72a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80cc7b8886e4b99286037bad3c72a91">&#9670;&#160;</a></span>clipstatus() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +507,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> *&#160;</td>
-          <td class="paramname"><em>w_columns</em>&#160;</td>
+          <td class="paramname"><em>w_columns</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>isOrtho</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -985,7 +1001,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="class_math_1_1bbox.html">bbox</a></li>
 				<li class="footer">
-					Generated on Fri Apr 21 2023 15:30:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue May 16 2023 11:17:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

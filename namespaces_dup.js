@@ -53,6 +53,10 @@ var namespaces_dup =
     [ "Jobs2", "namespace_jobs2.html", "namespace_jobs2" ],
     [ "Lighting", "namespace_lighting.html", "namespace_lighting" ],
     [ "Linux", "namespace_linux.html", "namespace_linux" ],
+    [ "LtcLUTs", "namespace_ltc_l_u_ts.html", [
+      [ "ltc1", "namespace_ltc_l_u_ts.html#a4fba1dabcab2fdd04a86bf2bc9981b11", null ],
+      [ "ltc2", "namespace_ltc_l_u_ts.html#a00f81c5fabb7c7acef69e481df0d95ca", null ]
+    ] ],
     [ "Materials", "namespace_materials.html", "namespace_materials" ],
     [ "Math", "namespace_math.html", "namespace_math" ],
     [ "MemDb", "namespace_mem_db.html", "namespace_mem_db" ],
