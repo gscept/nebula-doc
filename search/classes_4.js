@@ -97,9 +97,10 @@ var searchData=
   ['displaypagehandler_94',['DisplayPageHandler',['../class_debug_1_1_display_page_handler.html',1,'Debug']]],
   ['document_95',['Document',['../struct_gltf_1_1_document.html',1,'Gltf']]],
   ['doubletypeclass_96',['DoubleTypeClass',['../class_attr_1_1_double_type_class.html',1,'Attr']]],
-  ['drawfullscreenquad_97',['DrawFullScreenQuad',['../class_render_util_1_1_draw_full_screen_quad.html',1,'RenderUtil']]],
-  ['drawlist_98',['DrawList',['../struct_im3d_1_1_draw_list.html',1,'Im3d']]],
-  ['drawpacket_99',['DrawPacket',['../struct_models_1_1_shader_state_node_1_1_draw_packet.html',1,'Models::ShaderStateNode']]],
-  ['drawthread_100',['DrawThread',['../class_core_graphics_1_1_draw_thread.html',1,'CoreGraphics']]],
-  ['drawthreadresult_101',['DrawThreadResult',['../struct_core_graphics_1_1_draw_thread_result.html',1,'CoreGraphics']]]
+  ['downsamplingcontext_97',['DownsamplingContext',['../class_post_effects_1_1_downsampling_context.html',1,'PostEffects']]],
+  ['drawfullscreenquad_98',['DrawFullScreenQuad',['../class_render_util_1_1_draw_full_screen_quad.html',1,'RenderUtil']]],
+  ['drawlist_99',['DrawList',['../struct_im3d_1_1_draw_list.html',1,'Im3d']]],
+  ['drawpacket_100',['DrawPacket',['../struct_models_1_1_shader_state_node_1_1_draw_packet.html',1,'Models::ShaderStateNode']]],
+  ['drawthread_101',['DrawThread',['../class_core_graphics_1_1_draw_thread.html',1,'CoreGraphics']]],
+  ['drawthreadresult_102',['DrawThreadResult',['../struct_core_graphics_1_1_draw_thread_result.html',1,'CoreGraphics']]]
 ];

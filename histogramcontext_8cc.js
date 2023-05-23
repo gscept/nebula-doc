@@ -1,12 +1,6 @@
 var histogramcontext_8cc =
 [
     [ "__ImplementPluginContext", "histogramcontext_8cc.html#aed34b8776b2f2a1d9d23b1d7c49b90a0", null ],
-    [ "downsampleConstants", "histogramcontext_8cc.html#affa585ef7be96e6949910ea5690c15af", null ],
-    [ "downsampleCounter", "histogramcontext_8cc.html#a7d8e7dceeb11923e0558f3af6b833dc6", null ],
-    [ "downsampledColorBufferViews", "histogramcontext_8cc.html#aa515507f9612db059317e924d4aec94e", null ],
-    [ "downsampleProgram", "histogramcontext_8cc.html#a931063cd612dc972a66e693e576d4871", null ],
-    [ "downsampleResourceTable", "histogramcontext_8cc.html#a25ffd35ec47a1771892ce18394fee1b2", null ],
-    [ "downsampleShader", "histogramcontext_8cc.html#a6d73c4d969e42b8af908d1bd39f6e8a0", null ],
     [ "histogramCategorizeProgram", "histogramcontext_8cc.html#a833b217d8bb1acb3f251be209330ef62", null ],
     [ "histogramClearCountersBuffer", "histogramcontext_8cc.html#abac3db91ba40acf97f3b11c23532bccd", null ],
     [ "histogramConstants", "histogramcontext_8cc.html#a129c4ff0aefb1699afe4ce600c660aa6", null ],
@@ -14,7 +8,7 @@ var histogramcontext_8cc =
     [ "histogramReadback", "histogramcontext_8cc.html#add2c320a1029341fc4b265ca920f5ca0", null ],
     [ "histogramResourceTable", "histogramcontext_8cc.html#ae7ce87193916130e033c00ca4ab7a42d", null ],
     [ "histogramShader", "histogramcontext_8cc.html#ac77c065ec5f9fad9c8e6ff881ded8ff3", null ],
-    [ "histogramState", "histogramcontext_8cc.html#af19b25f1432965b4ded4185f80598d88", null ],
+    [ "histogramState", "histogramcontext_8cc.html#a4631e172d0030a78d8b4a09309541843", null ],
     [ "logLuminanceRange", "histogramcontext_8cc.html#aa67de08e3b38d3b5f7d8e54dbdb8abd5", null ],
     [ "logMinLuminance", "histogramcontext_8cc.html#a6b5fdeebcd1eaa927c1da45cd1d6b861", null ],
     [ "minLuminance", "histogramcontext_8cc.html#a200a553b887af8250a1d039d5fcd46ce", null ],

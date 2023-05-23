@@ -9,8 +9,8 @@ var searchData=
   ['darwintimer_2eh_6',['darwintimer.h',['../darwintimer_8h.html',1,'']]],
   ['database_2ecc_7',['database.cc',['../db_2database_8cc.html',1,'(Global Namespace)'],['../memdb_2database_8cc.html',1,'(Global Namespace)']]],
   ['database_2eh_8',['database.h',['../db_2database_8h.html',1,'(Global Namespace)'],['../memdb_2database_8h.html',1,'(Global Namespace)']]],
-  ['dataset_2ecc_9',['dataset.cc',['../addons_2db_2dataset_8cc.html',1,'(Global Namespace)'],['../application_2game_2dataset_8cc.html',1,'(Global Namespace)'],['../addons_2memdb_2dataset_8cc.html',1,'(Global Namespace)']]],
-  ['dataset_2eh_10',['dataset.h',['../addons_2db_2dataset_8h.html',1,'(Global Namespace)'],['../addons_2memdb_2dataset_8h.html',1,'(Global Namespace)'],['../application_2game_2dataset_8h.html',1,'(Global Namespace)']]],
+  ['dataset_2ecc_9',['dataset.cc',['../addons_2db_2dataset_8cc.html',1,'(Global Namespace)'],['../addons_2memdb_2dataset_8cc.html',1,'(Global Namespace)'],['../application_2game_2dataset_8cc.html',1,'(Global Namespace)']]],
+  ['dataset_2eh_10',['dataset.h',['../addons_2memdb_2dataset_8h.html',1,'(Global Namespace)'],['../application_2game_2dataset_8h.html',1,'(Global Namespace)'],['../addons_2db_2dataset_8h.html',1,'(Global Namespace)']]],
   ['dbfactory_2ecc_11',['dbfactory.cc',['../dbfactory_8cc.html',1,'']]],
   ['dbfactory_2eh_12',['dbfactory.h',['../dbfactory_8h.html',1,'']]],
   ['dbserver_2ecc_13',['dbserver.cc',['../dbserver_8cc.html',1,'']]],
@@ -57,8 +57,10 @@ var searchData=
   ['displaymode_2eh_54',['displaymode.h',['../displaymode_8h.html',1,'']]],
   ['displaypagehandler_2ecc_55',['displaypagehandler.cc',['../displaypagehandler_8cc.html',1,'']]],
   ['displaypagehandler_2eh_56',['displaypagehandler.h',['../displaypagehandler_8h.html',1,'']]],
-  ['drawfullscreenquad_2ecc_57',['drawfullscreenquad.cc',['../drawfullscreenquad_8cc.html',1,'']]],
-  ['drawfullscreenquad_2eh_58',['drawfullscreenquad.h',['../drawfullscreenquad_8h.html',1,'']]],
-  ['drawthread_2ecc_59',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
-  ['drawthread_2eh_60',['drawthread.h',['../drawthread_8h.html',1,'']]]
+  ['downsamplingcontext_2ecc_57',['downsamplingcontext.cc',['../downsamplingcontext_8cc.html',1,'']]],
+  ['downsamplingcontext_2eh_58',['downsamplingcontext.h',['../downsamplingcontext_8h.html',1,'']]],
+  ['drawfullscreenquad_2ecc_59',['drawfullscreenquad.cc',['../drawfullscreenquad_8cc.html',1,'']]],
+  ['drawfullscreenquad_2eh_60',['drawfullscreenquad.h',['../drawfullscreenquad_8h.html',1,'']]],
+  ['drawthread_2ecc_61',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
+  ['drawthread_2eh_62',['drawthread.h',['../drawthread_8h.html',1,'']]]
 ];

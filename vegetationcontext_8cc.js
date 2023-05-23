@@ -56,6 +56,6 @@ var vegetationcontext_8cc =
     [ "vegetationMeshVColorShader", "vegetationcontext_8cc.html#a348f7e95ecd8b64dffb018c978e3d17f", null ],
     [ "vegetationMeshVColorZShader", "vegetationcontext_8cc.html#a2ba66228b20e864a187c33bc692bc917", null ],
     [ "vegetationMeshZShader", "vegetationcontext_8cc.html#aa93b8cc40f63c8fd919571209cca145f", null ],
-    [ "vegetationState", "vegetationcontext_8cc.html#a849754554694704b6313a6883a1d896e", null ],
+    [ "vegetationState", "vegetationcontext_8cc.html#a66315f11dc0eece28be37c4e385ec773", null ],
     [ "worldSize", "vegetationcontext_8cc.html#a6269da2821a18c1aa23406d7fc80b5b7", null ]
 ];
