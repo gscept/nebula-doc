@@ -31,5 +31,6 @@ var namespace_base =
     [ "__ImplementSingleton", "namespace_base.html#a772b11de5c9976e201a41517f08c3291", null ],
     [ "__ImplementSingleton", "namespace_base.html#aa94a8e02161a101a6b21f03bb0762f28", null ],
     [ "__ImplementSingleton", "namespace_base.html#a644559f3fe1eb9ac2902f91ce0cc8227", null ],
-    [ "__ImplementSingleton", "namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d", null ]
+    [ "__ImplementSingleton", "namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d", null ],
+    [ "RecursiveLoadShaders", "namespace_base.html#a6886dc328913c80050da6c861ccaea81", null ]
 ];
