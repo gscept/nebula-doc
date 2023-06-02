@@ -55,7 +55,7 @@ var namespace_graphics =
     [ "bindResourceCriticalSection", "namespace_graphics.html#aaaaf0c2b35c4bc2cb8e57624311ad4e1", null ],
     [ "bits", "namespace_graphics.html#aeb2692e7c64090fb027ce662c28ae035", null ],
     [ "bloomColor", "namespace_graphics.html#a60355f78c6631df4122762346b7c2f1b", null ],
-    [ "bloomThreshold", "namespace_graphics.html#a6f03ad99d6f72da7e0a7cbf17289f45f", null ],
+    [ "bloomIntensity", "namespace_graphics.html#af7a235a44a57a5230a0c77a998b748bc", null ],
     [ "computeDirty", "namespace_graphics.html#a3c43731d43aabfbcba0a8fdffc642bc7", null ],
     [ "defaultEnvironmentMap", "namespace_graphics.html#a74411be0c6361031a445c3ba5ab92338", null ],
     [ "defaultIrradianceMap", "namespace_graphics.html#a7fe1a61b8fd0cda6adaf308aa8e9875b", null ],

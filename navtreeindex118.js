@@ -1,15 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"scalar_8h.html#af6d74926cf5251b29f0e7b8e5cb5b6ac":[10,0,0,3,12,21,17],
-"scalar_8h.html#afb16681ddab5e68acfd000b9ee1e9000":[10,0,0,3,12,21,42],
-"scalar_8h_source.html":[10,0,0,3,12,21],
-"schemeregistry_8cc.html":[10,0,0,3,9,55],
-"schemeregistry_8cc.html#a088d56fdffcfc595e2c60ac3803a0e8d":[10,0,0,3,9,55,0],
-"schemeregistry_8cc.html#ad5bf787eb30f9fd6393c24a95f748e9f":[10,0,0,3,9,55,1],
-"schemeregistry_8h.html":[10,0,0,3,9,56],
-"schemeregistry_8h_source.html":[10,0,0,3,9,56],
-"scriptserver_8cc.html":[10,0,0,0,9,1],
-"scriptserver_8cc.html#a2e6fc41ae5433520e79d0fe96d11437b":[10,0,0,0,9,1,1],
 "scriptserver_8cc.html#ab1d5e345f01e47ee951e81204e9a73f1":[10,0,0,0,9,1,0],
 "scriptserver_8h.html":[10,0,0,0,9,2],
 "scriptserver_8h_source.html":[10,0,0,0,9,2],
@@ -150,8 +140,8 @@ var NAVTREEINDEX118 =
 "shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,6,5,70,20],
 "shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,6,5,70,67],
 "shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,6,5,70,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,93],
 "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,94],
+"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,70,93],
 "shadersemantics_8h.html#a527feccb22cfcc3effdf8162bd6453e0":[10,0,0,6,5,70,86],
 "shadersemantics_8h.html#a538543b6d5e7de8f337fd285d1c7a918":[10,0,0,6,5,70,107],
 "shadersemantics_8h.html#a554b3e00763b2313cba9cd1a751cde0c":[10,0,0,6,5,70,102],
@@ -249,5 +239,15 @@ var NAVTREEINDEX118 =
 "shadersemantics_8h_source.html":[10,0,0,6,5,70],
 "shaderserver_8cc.html":[10,0,0,6,5,71],
 "shaderserver_8h.html":[10,0,0,6,5,72],
-"shaderserver_8h_source.html":[10,0,0,6,5,72]
+"shaderserver_8h_source.html":[10,0,0,6,5,72],
+"shaderserverbase_8cc.html":[10,0,0,6,5,0,2],
+"shaderserverbase_8cc.html#a5bab8e3391fcd90c3a0767897d39ac62":[10,0,0,6,5,0,2,0],
+"shaderserverbase_8cc.html#a6886dc328913c80050da6c861ccaea81":[10,0,0,6,5,0,2,2],
+"shaderserverbase_8cc.html#aa94a8e02161a101a6b21f03bb0762f28":[10,0,0,6,5,0,2,1],
+"shaderserverbase_8h.html":[10,0,0,6,5,0,3],
+"shaderserverbase_8h_source.html":[10,0,0,6,5,0,3],
+"shaderstatenode_8cc.html":[10,0,0,6,15,0,10],
+"shaderstatenode_8cc.html#aea9148f653ef1932b66a48ac237c8d52":[10,0,0,6,15,0,10,0],
+"shaderstatenode_8h.html":[10,0,0,6,15,0,11],
+"shaderstatenode_8h_source.html":[10,0,0,6,15,0,11]
 };

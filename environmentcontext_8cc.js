@@ -4,7 +4,7 @@ var environmentcontext_8cc =
     [ "CalculatePerezDistribution", "environmentcontext_8cc.html#ac96399889b3b370f950dca49c973290b", null ],
     [ "CalculateZenithLuminanceYxy", "environmentcontext_8cc.html#a1f40e80c6cf2f4c7b7f2d4bdf1f1b306", null ],
     [ "bloomColor", "environmentcontext_8cc.html#a60355f78c6631df4122762346b7c2f1b", null ],
-    [ "bloomThreshold", "environmentcontext_8cc.html#a6f03ad99d6f72da7e0a7cbf17289f45f", null ],
+    [ "bloomIntensity", "environmentcontext_8cc.html#af7a235a44a57a5230a0c77a998b748bc", null ],
     [ "defaultEnvironmentMap", "environmentcontext_8cc.html#a74411be0c6361031a445c3ba5ab92338", null ],
     [ "defaultIrradianceMap", "environmentcontext_8cc.html#a7fe1a61b8fd0cda6adaf308aa8e9875b", null ],
     [ "envState", "environmentcontext_8cc.html#a48e9682b0327858a0f44ea8184b5afca", null ],
