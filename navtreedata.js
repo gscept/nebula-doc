@@ -125,7 +125,7 @@ var NAVTREEINDEX =
 "class_input_1_1_input_event.html#a14d35776a19da6c97a3dca18a2d3badb",
 "class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a496949bc137b06b795c57f9db8a08878",
 "class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912ae953cde8c494b5834f56f0b4c20c0b46",
-"class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8ace9291906a4c3b042650b70d7f3b152e",
+"class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8",
 "class_linux_1_1_linux_thread_local_data.html#a92a7401cb3b8ad8e680157db50845497",
 "class_math_1_1_p_feedback_loop.html#afc5dbdb2a4a6f6c4bb00544b5564bc5c",
 "class_math_1_1line.html#a56a49c8aa1a7be4c5f2908b9ea876f59",

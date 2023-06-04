@@ -104,7 +104,7 @@ var searchData=
   ['shaderstate_101',['shaderState',['../class_vulkan_1_1_vk_instance_renderer.html#a22cb5522aa719167a65e1624a10d87a7',1,'Vulkan::VkInstanceRenderer']]],
   ['shadowbox_102',['shadowBox',['../class_lighting_1_1_c_s_m_util.html#a7a4e305432b844f3aec3386d383d829c',1,'Lighting::CSMUtil']]],
   ['shadowcasterallocator_103',['shadowCasterAllocator',['../class_lighting_1_1_light_context.html#a1ad66bd2275c20bed3161ce283bcb528',1,'Lighting::LightContext']]],
-  ['shadowcasterslicemap_104',['shadowCasterSliceMap',['../class_lighting_1_1_light_context.html#a97a730cb19c28913134404c5794974e4',1,'Lighting::LightContext']]],
+  ['shadowcasterslicemap_104',['shadowCasterSliceMap',['../class_lighting_1_1_light_context.html#a9756ab2cd97623118ec5b7892493d507',1,'Lighting::LightContext']]],
   ['shadowcastinglocallights_105',['shadowcastingLocalLights',['../namespace_lighting.html#aa5fe20d364aa0d6c986ca7487dc6e0b4',1,'Lighting']]],
   ['shadowmatrixuniforms_106',['shadowMatrixUniforms',['../namespace_lighting.html#a5d27df8c5c7858fb2bb1e3c87a7e285d',1,'Lighting']]],
   ['shadowview_107',['shadowView',['../class_lighting_1_1_c_s_m_util.html#a61a6adcb056b87e40397b4ecac172d06',1,'Lighting::CSMUtil']]],

@@ -931,7 +931,7 @@ var hierarchy =
     [ "Util::HashTable< Game::BlueprintId, MemDb::TableId >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Game::MessageListenerId, IndexT >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Graphics::GraphicsEntityId, Graphics::ContextEntityId, 128, 64 >", "class_util_1_1_hash_table.html", null ],
-    [ "Util::HashTable< Graphics::GraphicsEntityId, uint, 6, 1 >", "class_util_1_1_hash_table.html", null ],
+    [ "Util::HashTable< Graphics::GraphicsEntityId, uint, 16, 1 >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Mask, Util::StringAtom >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Materials::ShaderConfig *, Visibility::ObserverContext::VisibilityBatchCommand >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< MemDb::ComponentId, IndexT, 32, 1 >", "class_util_1_1_hash_table.html", null ],

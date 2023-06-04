@@ -826,7 +826,7 @@ var searchData=
   ['shadowcaster_5ftransform_823',['ShadowCaster_Transform',['../class_lighting_1_1_light_context.html#a8788b7e4b8f92991b6a18ac03b4d5fd0a1ca5207c1965b7d4237992711bfe5c1e',1,'Lighting::LightContext']]],
   ['shadowcasterallocator_824',['ShadowCasterAllocator',['../class_lighting_1_1_light_context.html#ab76e0ad71d9ab6daa1a552c4cf03e058',1,'Lighting::LightContext']]],
   ['shadowcasterallocator_825',['shadowCasterAllocator',['../class_lighting_1_1_light_context.html#a1ad66bd2275c20bed3161ce283bcb528',1,'Lighting::LightContext']]],
-  ['shadowcasterslicemap_826',['shadowCasterSliceMap',['../class_lighting_1_1_light_context.html#a97a730cb19c28913134404c5794974e4',1,'Lighting::LightContext']]],
+  ['shadowcasterslicemap_826',['shadowCasterSliceMap',['../class_lighting_1_1_light_context.html#a9756ab2cd97623118ec5b7892493d507',1,'Lighting::LightContext']]],
   ['shadowcastinglocallights_827',['shadowcastingLocalLights',['../namespace_lighting.html#aa5fe20d364aa0d6c986ca7487dc6e0b4',1,'Lighting']]],
   ['shadowmatrixuniforms_828',['shadowMatrixUniforms',['../namespace_lighting.html#a5d27df8c5c7858fb2bb1e3c87a7e285d',1,'Lighting']]],
   ['shadowview_829',['shadowView',['../class_lighting_1_1_c_s_m_util.html#a61a6adcb056b87e40397b4ecac172d06',1,'Lighting::CSMUtil']]],

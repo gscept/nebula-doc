@@ -30,9 +30,9 @@ var class_lighting_1_1_light_context =
     [ "GetLightingTexture", "class_lighting_1_1_light_context.html#a6ac593627dd8dbafe0be3cf63ea2d177", null ],
     [ "GetLightsBuffer", "class_lighting_1_1_light_context.html#a44d7a78a1ef423e1eb238d28750e0317", null ],
     [ "GetObserverTransform", "class_lighting_1_1_light_context.html#a9f4c125972f482cdf8d837373f27bd20", null ],
-    [ "GetPosition", "class_lighting_1_1_light_context.html#ad7db0b9b84976b0f14b6965531bae91c", null ],
-    [ "GetRotation", "class_lighting_1_1_light_context.html#a4002c25f4a527dc3a20fa17dadfa558c", null ],
-    [ "GetScale", "class_lighting_1_1_light_context.html#ab78caa4c7f883216c29594c6b524e8b9", null ],
+    [ "GetPosition", "class_lighting_1_1_light_context.html#a32df66d2902b7388dd96daae251c5f2d", null ],
+    [ "GetRotation", "class_lighting_1_1_light_context.html#a349eb9d30b383c3eabaabce43cbf1571", null ],
+    [ "GetScale", "class_lighting_1_1_light_context.html#a5e8d53a9738e71876780a3d4e4a6fdd8", null ],
     [ "GetTransform", "class_lighting_1_1_light_context.html#a25811d36359cf64a6aa26c014bb98a4d", null ],
     [ "GetType", "class_lighting_1_1_light_context.html#ab084bfd83d54bf653a4426db329d8f16", null ],
     [ "OnPrepareView", "class_lighting_1_1_light_context.html#ad57bfb6078e8e576f1588cfec58a63ef", null ],
@@ -60,6 +60,6 @@ var class_lighting_1_1_light_context =
     [ "genericLightAllocator", "class_lighting_1_1_light_context.html#aa8d978cd16a210c4980c38370c8fdf61", null ],
     [ "pointLightAllocator", "class_lighting_1_1_light_context.html#a85253c54c76bf9fe252f1158ebbecd9a", null ],
     [ "shadowCasterAllocator", "class_lighting_1_1_light_context.html#a1ad66bd2275c20bed3161ce283bcb528", null ],
-    [ "shadowCasterSliceMap", "class_lighting_1_1_light_context.html#a97a730cb19c28913134404c5794974e4", null ],
+    [ "shadowCasterSliceMap", "class_lighting_1_1_light_context.html#a9756ab2cd97623118ec5b7892493d507", null ],
     [ "spotLightAllocator", "class_lighting_1_1_light_context.html#aa4d876c84373caf775fc261c31ab41e8", null ]
 ];
