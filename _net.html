@@ -224,7 +224,7 @@ Setting Up A Client/Server System</h2>
 <div class="line">    textReader-&gt;Close();</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_util_1_1_string_html_aae44fd420cacbfa974b220218a3732c0"><div class="ttname"><a href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">Util::String::AsCharPtr</a></div><div class="ttdeci">const char * AsCharPtr() const</div><div class="ttdoc">return contents as character pointer</div><div class="ttdef"><b>Definition</b> string.h:784</div></div>
-<div class="ttc" id="adebug_8cc_html_af49bb380724a6d5744e97bae90dbb5ae"><div class="ttname"><a href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a></div><div class="ttdeci">void __cdecl n_printf(const char *msg,...)</div><div class="ttdoc">Nebula's printf replacement.</div><div class="ttdef"><b>Definition</b> debug.cc:210</div></div>
+<div class="ttc" id="adebug_8cc_html_af49bb380724a6d5744e97bae90dbb5ae"><div class="ttname"><a href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a></div><div class="ttdeci">void __cdecl n_printf(const char *msg,...)</div><div class="ttdoc">Nebula's printf replacement.</div><div class="ttdef"><b>Definition</b> debug.cc:209</div></div>
 </div><!-- fragment --><p>A client should also check whether the connection is still up by calling the IsConnected() method. If the connection has been dropped for some reason, this method will return false.</p>
 <dl class="section note"><dt>Note</dt><dd>TcpServer and TcpClient do not implement an underlying communication protocol which enables them to work with "foreign" clients and servers (for instance, a TcpServer could work with standard web browsers as client, and a TcpClient class could communicate with a standard HTTP server).</dd></dl>
 <p>For real world scenarios, an application should implement its own robust communication protocol which at least encodes the length of the payload data. If the payload is bigger then some maximum packet size, data may be sent in several packets, and thus may arrive in several packets at the client. The client should decode the length of the payload from the message header to decide whether the received data represents a complete message, or whether more data needs to be received until message is complete.</p>
@@ -245,7 +245,7 @@ The Socket Class</h2>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Sun Jun 4 2023 15:07:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Jul 14 2023 19:24:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
