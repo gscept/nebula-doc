@@ -1,6 +1,7 @@
 var class_math_1_1transform44 =
 [
     [ "transform44", "class_math_1_1transform44.html#a08a567e79e86572168d25da8afa9c8b8", null ],
+    [ "transform44", "class_math_1_1transform44.html#a9793724c83baecf783fb434097ee0b48", null ],
     [ "getmatrix", "class_math_1_1transform44.html#a160802b6564187291e90521e0a8663ae", null ],
     [ "getoffset", "class_math_1_1transform44.html#accdc55561f28e86ebd0ddc7f281d854e", null ],
     [ "getposition", "class_math_1_1transform44.html#aaed343db264be3b58944790f53099994", null ],

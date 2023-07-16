@@ -9,6 +9,7 @@ var struct_math_1_1vector =
     [ "load", "struct_math_1_1vector.html#ad1d4188e0dd63a9052baecaa16cbbf92", null ],
     [ "loadu", "struct_math_1_1vector.html#a6c2c133eb639c92f3dd5c0b3b56208c1", null ],
     [ "nullvec", "struct_math_1_1vector.html#af8ac690555283fce20366d6b5a679acb", null ],
+    [ "onevec", "struct_math_1_1vector.html#aaa827034d629246a707063aaa232e57d", null ],
     [ "operator vec3", "struct_math_1_1vector.html#aad6bf083e06f2371ba48de09b59b8a6f", null ],
     [ "operator vec4", "struct_math_1_1vector.html#aeb5f4a6889715c5246cf2f9e77185234", null ],
     [ "operator!=", "struct_math_1_1vector.html#ad213cf5468a096a6c00736d5d04008f4", null ],

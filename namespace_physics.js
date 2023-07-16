@@ -53,7 +53,6 @@ var namespace_physics =
     [ "HandleCollisions", "namespace_physics.html#a1fd62c5ad29dab0fbfc5a00d3df0b718", null ],
     [ "LoadMaterialTable", "namespace_physics.html#ac72fb302eae04436aba122d3735b12f7", null ],
     [ "LookupMaterial", "namespace_physics.html#ae94c2d0fe8bca1aaa94b979253d03be2", null ],
-    [ "OpenNvx2", "namespace_physics.html#a980451c6ca9c3fcb82cb5b249847e4d5", null ],
     [ "RenderDebug", "namespace_physics.html#a325331d3ad9046ad39aefd9b16c88e9b", null ],
     [ "RenderMaterialsUI", "namespace_physics.html#a65bfab3b3a913500b671e66bbc35affb", null ],
     [ "RenderUI", "namespace_physics.html#a1d566277e1bc1471d4256f142e524f84", null ],

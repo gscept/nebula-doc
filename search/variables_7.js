@@ -70,10 +70,11 @@ var searchData=
   ['groupdataptr_67',['groupDataPtr',['../class_core_graphics_1_1_nvx3_stream_reader.html#abdde9d12a33d46f11f355daa4acd7d0c',1,'CoreGraphics::Nvx3StreamReader']]],
   ['groupdatasize_68',['groupDataSize',['../class_core_graphics_1_1_nvx3_stream_reader.html#a38c3af12d7b6bcef790d85d68138c89f',1,'CoreGraphics::Nvx3StreamReader']]],
   ['groupindex_69',['groupIndex',['../class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c',1,'CoreGraphics::RenderShape']]],
-  ['groupsize_70',['groupSize',['../struct_jobs2_1_1_job_context.html#a4f1c28ec6fda3ccdb0f29f1ee296ec87',1,'Jobs2::JobContext']]],
-  ['grow_71',['grow',['../struct_mem_db_1_1_table.html#aacbf04219790c0775a05a8f2e34315e0',1,'MemDb::Table::grow'],['../class_ids_1_1_id_pool.html#aafbcfe93fd34624febc65fa1a03bceb0',1,'Ids::IdPool::grow'],['../class_util_1_1_array.html#aa6c2872f026eade1aeb3d62326ece5e6',1,'Util::Array::grow'],['../class_util_1_1_array_stack.html#a4f3e359e9537f9f7c3b8d12617bdcc9e',1,'Util::ArrayStack::grow'],['../class_util_1_1_queue.html#aaea5763e46eb2252c52c3e1bfd41ced5',1,'Util::Queue::grow']]],
-  ['growthenabled_72',['growthEnabled',['../struct_util_1_1_global_string_atom_table_1_1_debug_info.html#ad734b2fd2d055dc00137e45952a8de95',1,'Util::GlobalStringAtomTable::DebugInfo']]],
-  ['gs_73',['gs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a0cc906c1b882f9049a3c94cf98c468f2',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
-  ['guid_74',['guid',['../class_util_1_1_variant.html#a242cb6863104beb4a7bf15573d2c0300',1,'Util::Variant::guid'],['../class_core_graphics_1_1_adapter_info.html#aca343942371955ebece8bf37c74834a6',1,'CoreGraphics::AdapterInfo::guid']]],
-  ['guidarray_75',['guidArray',['../class_util_1_1_variant.html#a4942c009383facc829976d4187d8261f',1,'Util::Variant']]]
+  ['groups_70',['groups',['../struct_core_graphics_1_1_nvx3_elements.html#a44ccb84e886e06040d9829a78acd3421',1,'CoreGraphics::Nvx3Elements']]],
+  ['groupsize_71',['groupSize',['../struct_jobs2_1_1_job_context.html#a4f1c28ec6fda3ccdb0f29f1ee296ec87',1,'Jobs2::JobContext']]],
+  ['grow_72',['grow',['../struct_mem_db_1_1_table.html#aacbf04219790c0775a05a8f2e34315e0',1,'MemDb::Table::grow'],['../class_ids_1_1_id_pool.html#aafbcfe93fd34624febc65fa1a03bceb0',1,'Ids::IdPool::grow'],['../class_util_1_1_array.html#aa6c2872f026eade1aeb3d62326ece5e6',1,'Util::Array::grow'],['../class_util_1_1_array_stack.html#a4f3e359e9537f9f7c3b8d12617bdcc9e',1,'Util::ArrayStack::grow'],['../class_util_1_1_queue.html#aaea5763e46eb2252c52c3e1bfd41ced5',1,'Util::Queue::grow']]],
+  ['growthenabled_73',['growthEnabled',['../struct_util_1_1_global_string_atom_table_1_1_debug_info.html#ad734b2fd2d055dc00137e45952a8de95',1,'Util::GlobalStringAtomTable::DebugInfo']]],
+  ['gs_74',['gs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a0cc906c1b882f9049a3c94cf98c468f2',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
+  ['guid_75',['guid',['../class_util_1_1_variant.html#a242cb6863104beb4a7bf15573d2c0300',1,'Util::Variant::guid'],['../class_core_graphics_1_1_adapter_info.html#aca343942371955ebece8bf37c74834a6',1,'CoreGraphics::AdapterInfo::guid']]],
+  ['guidarray_76',['guidArray',['../class_util_1_1_variant.html#a4942c009383facc829976d4187d8261f',1,'Util::Variant']]]
 ];

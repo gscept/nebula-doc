@@ -1,6 +1,9 @@
 var namespace_core_graphics =
 [
     [ "GpuBufferTypes", "namespace_core_graphics_1_1_gpu_buffer_types.html", "namespace_core_graphics_1_1_gpu_buffer_types" ],
+    [ "Nvx3", "namespace_core_graphics_1_1_nvx3.html", [
+      [ "FillNvx3Elements", "namespace_core_graphics_1_1_nvx3.html#a365aabf1353989399507fa2afaefa7f8", null ]
+    ] ],
     [ "__Mesh", "struct_core_graphics_1_1_____mesh.html", "struct_core_graphics_1_1_____mesh" ],
     [ "Adapter", "class_core_graphics_1_1_adapter.html", "class_core_graphics_1_1_adapter" ],
     [ "AdapterInfo", "class_core_graphics_1_1_adapter_info.html", "class_core_graphics_1_1_adapter_info" ],
@@ -58,6 +61,7 @@ var namespace_core_graphics =
     [ "NormalVertex", "struct_core_graphics_1_1_normal_vertex.html", "struct_core_graphics_1_1_normal_vertex" ],
     [ "Nvx2Group", "struct_core_graphics_1_1_nvx2_group.html", "struct_core_graphics_1_1_nvx2_group" ],
     [ "Nvx2Header", "struct_core_graphics_1_1_nvx2_header.html", "struct_core_graphics_1_1_nvx2_header" ],
+    [ "Nvx3Elements", "struct_core_graphics_1_1_nvx3_elements.html", "struct_core_graphics_1_1_nvx3_elements" ],
     [ "Nvx3Group", "struct_core_graphics_1_1_nvx3_group.html", "struct_core_graphics_1_1_nvx3_group" ],
     [ "Nvx3Header", "struct_core_graphics_1_1_nvx3_header.html", "struct_core_graphics_1_1_nvx3_header" ],
     [ "Nvx3Meshlet", "struct_core_graphics_1_1_nvx3_meshlet.html", "struct_core_graphics_1_1_nvx3_meshlet" ],

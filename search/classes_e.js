@@ -25,9 +25,10 @@ var searchData=
   ['nvx2group_22',['Nvx2Group',['../struct_core_graphics_1_1_nvx2_group.html',1,'CoreGraphics']]],
   ['nvx2header_23',['Nvx2Header',['../struct_core_graphics_1_1_nvx2_header.html',1,'CoreGraphics']]],
   ['nvx2streamreader_24',['Nvx2StreamReader',['../class_legacy_1_1_nvx2_stream_reader.html',1,'']]],
-  ['nvx3group_25',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
-  ['nvx3header_26',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
-  ['nvx3meshlet_27',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
-  ['nvx3streamreader_28',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]],
-  ['nvx3vertexrange_29',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
+  ['nvx3elements_25',['Nvx3Elements',['../struct_core_graphics_1_1_nvx3_elements.html',1,'CoreGraphics']]],
+  ['nvx3group_26',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
+  ['nvx3header_27',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
+  ['nvx3meshlet_28',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
+  ['nvx3streamreader_29',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]],
+  ['nvx3vertexrange_30',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
 ];
