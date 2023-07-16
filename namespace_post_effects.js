@@ -36,6 +36,9 @@ var namespace_post_effects =
     [ "downsampledDepthBufferViews", "namespace_post_effects.html#a7dab085c280bfd5a547ad06c8113a500", null ],
     [ "downsampleDepthProgram", "namespace_post_effects.html#a339e8e367f425caac089ef6727acb771", null ],
     [ "downsampleDepthShader", "namespace_post_effects.html#a1e8535a877028344959ceae1d92d3151", null ],
+    [ "extractProgram", "namespace_post_effects.html#aa5149c747490e2f66a483c9da4d55e9e", null ],
+    [ "extractResourceTable", "namespace_post_effects.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b", null ],
+    [ "extractShader", "namespace_post_effects.html#a0bc5995084efe75d05e1a46ae562f035", null ],
     [ "farZ", "namespace_post_effects.html#a5da165c09e73dbcb006075aad617f3b8", null ],
     [ "focalLength", "namespace_post_effects.html#a2bad494a181ecea57f8359ff09404d15", null ],
     [ "frameOpAllocator", "namespace_post_effects.html#a5272c9d57280cf2a77e791f03738bdd6", null ],
@@ -105,5 +108,6 @@ var namespace_post_effects =
     [ "xDirectionHBAO", "namespace_post_effects.html#a77e119e31d8039e41c7685cb9042c2f1", null ],
     [ "yDirectionBlur", "namespace_post_effects.html#a4743ad202db04265c7ba4f99d2802b4b", null ],
     [ "yDirectionHBAO", "namespace_post_effects.html#ab7973248e778277a756be7f2dee66d7b", null ],
+    [ "zbuffer", "namespace_post_effects.html#ab474762951b4df8269e0f9c56585187c", null ],
     [ "zBuffer", "namespace_post_effects.html#ae4ee51618c4b17dac4a2203a8304c6d7", null ]
 ];

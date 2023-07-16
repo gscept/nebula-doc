@@ -15,5 +15,9 @@ var downsamplingcontext_8cc =
     [ "downsampledDepthBufferViews", "downsamplingcontext_8cc.html#a7dab085c280bfd5a547ad06c8113a500", null ],
     [ "downsampleDepthProgram", "downsamplingcontext_8cc.html#a339e8e367f425caac089ef6727acb771", null ],
     [ "downsampleDepthShader", "downsamplingcontext_8cc.html#a1e8535a877028344959ceae1d92d3151", null ],
-    [ "state", "downsamplingcontext_8cc.html#ad961c483fc1242d418aa81e5270aec3a", null ]
+    [ "extractProgram", "downsamplingcontext_8cc.html#aa5149c747490e2f66a483c9da4d55e9e", null ],
+    [ "extractResourceTable", "downsamplingcontext_8cc.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b", null ],
+    [ "extractShader", "downsamplingcontext_8cc.html#a0bc5995084efe75d05e1a46ae562f035", null ],
+    [ "state", "downsamplingcontext_8cc.html#ad961c483fc1242d418aa81e5270aec3a", null ],
+    [ "zbuffer", "downsamplingcontext_8cc.html#ab474762951b4df8269e0f9c56585187c", null ]
 ];

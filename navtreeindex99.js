@@ -1,5 +1,9 @@
 var NAVTREEINDEX99 =
 {
+"linuxcriticalsection_8h.html":[10,0,0,3,18,2,2],
+"linuxcriticalsection_8h_source.html":[10,0,0,3,18,2,2],
+"linuxevent_8h.html":[10,0,0,3,18,2,3],
+"linuxevent_8h_source.html":[10,0,0,3,18,2,3],
 "linuxfilewatcher_8cc.html":[10,0,0,3,9,5,0],
 "linuxfilewatcher_8h.html":[10,0,0,3,9,5,1],
 "linuxfilewatcher_8h_source.html":[10,0,0,3,9,5,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX99 =
 "messagecallbackhandler_8h.html":[10,0,0,3,14,18],
 "messagecallbackhandler_8h.html#a373878c563d3ac7acd085188df99b6ae":[10,0,0,3,14,18,1],
 "messagecallbackhandler_8h.html#a4541149666770177863835c052730ffd":[10,0,0,3,14,18,2],
-"messagecallbackhandler_8h.html#a69e7a952209e380ab7e0e3c7319824d5":[10,0,0,3,14,18,3],
-"messagecallbackhandler_8h_source.html":[10,0,0,3,14,18],
-"messageclient_8cc.html":[10,0,0,3,15,7],
-"messageclient_8cc.html#a326177f82bb07d69d39db7af9da4f2d8":[10,0,0,3,15,7,0],
-"messageclient_8h.html":[10,0,0,3,15,8]
+"messagecallbackhandler_8h.html#a69e7a952209e380ab7e0e3c7319824d5":[10,0,0,3,14,18,3]
 };
