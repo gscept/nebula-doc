@@ -1,9 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"struct_materials_1_1_shader_config_texture.html#a2bfb96913efe4fe2af04d136c389c5cb":[9,0,37,12,2],
-"struct_materials_1_1_shader_config_texture.html#a496797ef1fcf0270d9fde9546af28b99":[8,0,42,12,3],
-"struct_materials_1_1_shader_config_texture.html#a496797ef1fcf0270d9fde9546af28b99":[9,0,37,12,3],
-"struct_materials_1_1_shader_config_texture.html#a5d7d6a5a2f0bb494fe66653a6c74660d":[8,0,42,12,0],
 "struct_materials_1_1_shader_config_texture.html#a5d7d6a5a2f0bb494fe66653a6c74660d":[9,0,37,12,0],
 "struct_materials_1_1_shader_config_texture.html#ac12f6399c9547268bf00c1576bb30141":[8,0,42,12,1],
 "struct_materials_1_1_shader_config_texture.html#ac12f6399c9547268bf00c1576bb30141":[9,0,37,12,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX136 =
 "struct_math_1_1point.html#a7e4776b164ba80a30f5b777ae4375c32":[9,0,38,20,24],
 "struct_math_1_1point.html#a806c57b6f84a55473e54bb2876755c8d":[9,0,38,20,6],
 "struct_math_1_1point.html#a806c57b6f84a55473e54bb2876755c8d":[8,0,43,20,6],
-"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[8,0,43,20,2]
+"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[8,0,43,20,2],
+"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[9,0,38,20,2],
+"struct_math_1_1point.html#a85cf584d3e0b2b66b2255c9066e722b9":[8,0,43,20,4],
+"struct_math_1_1point.html#a85cf584d3e0b2b66b2255c9066e722b9":[9,0,38,20,4],
+"struct_math_1_1point.html#a8b405637ddea30b87ed2e75c14ed288b":[9,0,38,20,7]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"iointerface_8h_source.html":[10,0,0,3,9,37],
-"iointerfacehandler_8cc.html":[10,0,0,3,9,38],
-"iointerfacehandler_8cc.html#ae911eee4a62d5c7339f3e0746d16115b":[10,0,0,3,9,38,0],
-"iointerfacehandler_8h.html":[10,0,0,3,9,39],
 "iointerfacehandler_8h_source.html":[10,0,0,3,9,39],
 "iointerfaceprotocol_8cc.html":[10,0,0,3,9,40],
 "iointerfaceprotocol_8cc.html#a02e4d74aef6d92fbae90d73b8ac0960d":[10,0,0,3,9,40,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX98 =
 "linuxbarrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,18,2,0,0],
 "linuxbarrier_8h_source.html":[10,0,0,3,18,2,0],
 "linuxcompletioncounter_8h.html":[10,0,0,3,18,2,1],
-"linuxcompletioncounter_8h_source.html":[10,0,0,3,18,2,1]
+"linuxcompletioncounter_8h_source.html":[10,0,0,3,18,2,1],
+"linuxcriticalsection_8h.html":[10,0,0,3,18,2,2],
+"linuxcriticalsection_8h_source.html":[10,0,0,3,18,2,2],
+"linuxevent_8h.html":[10,0,0,3,18,2,3],
+"linuxevent_8h_source.html":[10,0,0,3,18,2,3]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#ad5c22906da7f7578a898754551d49f68":[8,0,23,0,0,1],
-"struct_frame_1_1_frame_blit_1_1_compiled_impl.html":[9,0,20,2,0],
-"struct_frame_1_1_frame_blit_1_1_compiled_impl.html":[8,0,23,2,0],
-"struct_frame_1_1_frame_blit_1_1_compiled_impl.html#a1d3a4a0eac2a39526d7fe0d7f06f9513":[9,0,20,2,0,1],
 "struct_frame_1_1_frame_blit_1_1_compiled_impl.html#a1d3a4a0eac2a39526d7fe0d7f06f9513":[8,0,23,2,0,1],
 "struct_frame_1_1_frame_blit_1_1_compiled_impl.html#a4f940a3e15dbfb3560913b7a5b7de0ee":[9,0,20,2,0,4],
 "struct_frame_1_1_frame_blit_1_1_compiled_impl.html#a4f940a3e15dbfb3560913b7a5b7de0ee":[8,0,23,2,0,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX127 =
 "struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b":[8,0,25,6,2],
 "struct_game_1_1_component_serialization_1_1_serializer.html":[9,0,22,8,0],
 "struct_game_1_1_component_serialization_1_1_serializer.html":[8,0,25,8,0],
-"struct_game_1_1_component_serialization_1_1_serializer.html#a1461758bed0069328d0dded8e66a8817":[8,0,25,8,0,0]
+"struct_game_1_1_component_serialization_1_1_serializer.html#a1461758bed0069328d0dded8e66a8817":[8,0,25,8,0,0],
+"struct_game_1_1_component_serialization_1_1_serializer.html#a1461758bed0069328d0dded8e66a8817":[9,0,22,8,0,0],
+"struct_game_1_1_component_serialization_1_1_serializer.html#a21b2fe4896979ab7d529db1de2ab45f7":[8,0,25,8,0,1],
+"struct_game_1_1_component_serialization_1_1_serializer.html#a21b2fe4896979ab7d529db1de2ab45f7":[9,0,22,8,0,1],
+"struct_game_1_1_dataset.html":[8,0,25,9]
 };

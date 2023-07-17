@@ -1,9 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"staticuicontext_8cc.html#a42bc674028fe850c5f9ee83d49f2fc3a":[10,0,0,0,10,1,9],
-"staticuicontext_8cc.html#a55a5529b369084d3d11379aacf8184e5":[10,0,0,0,10,1,2],
-"staticuicontext_8cc.html#a60382c80e6d9d11e153095e07b0e87b1":[10,0,0,0,10,1,1],
-"staticuicontext_8cc.html#a70eab8c16d7890756b02057ed98fbd52":[10,0,0,0,10,1,3],
 "staticuicontext_8cc.html#ae9b75b2b501397b4f0e37ff9fc0db7f6":[10,0,0,0,10,1,4],
 "staticuicontext_8cc.html#af4f38ab3d98eb625b41b0f4ddfb380a7":[10,0,0,0,10,1,8],
 "staticuicontext_8h.html":[10,0,0,0,10,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX120 =
 "struct_characters_1_1_skeleton_create_info.html#ab4396777485a113cf6b7e454342bd6f9":[8,0,8,6,0],
 "struct_characters_1_1_skeleton_create_info.html#ab4396777485a113cf6b7e454342bd6f9":[9,0,7,6,0],
 "struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[9,0,7,6,3],
-"struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[8,0,8,6,3]
+"struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[8,0,8,6,3],
+"struct_characters_1_1_skeleton_id.html":[8,0,8,7],
+"struct_characters_1_1_skeleton_id.html":[9,0,7,7],
+"struct_characters_1_1_skeleton_job_joint.html":[9,0,7,8],
+"struct_characters_1_1_skeleton_job_joint.html":[8,0,8,8]
 };

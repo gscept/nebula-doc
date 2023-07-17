@@ -55,8 +55,6 @@ var class_core_graphics_1_1_pixel_format =
     [ "IsStencilFormat", "class_core_graphics_1_1_pixel_format.html#aebdce0d99ed0dac92dd6aa8291f6e7ed", null ],
     [ "ToChannels", "class_core_graphics_1_1_pixel_format.html#af71cd116008d993708038df5c0791f45", null ],
     [ "ToCompressed", "class_core_graphics_1_1_pixel_format.html#aa481001bd572281d82ce7f6fcb54f43c", null ],
-    [ "ToILComponents", "class_core_graphics_1_1_pixel_format.html#a437508f98f8810c5fe3d062801e29dd3", null ],
-    [ "ToILType", "class_core_graphics_1_1_pixel_format.html#a98819c2215c481931fed810b4b060155", null ],
     [ "ToImageBits", "class_core_graphics_1_1_pixel_format.html#ae6386f3b3145ddc21f2aceebb70478a1", null ],
     [ "ToSize", "class_core_graphics_1_1_pixel_format.html#ac070900fc8d79d2e6c0e1174c96b2f38", null ],
     [ "ToString", "class_core_graphics_1_1_pixel_format.html#a6e41f59298367a5d0694ba7f841cd18b", null ],
