@@ -22,6 +22,8 @@ var dir_7c169f8df77f58a66e45d7cf19b28cb2 =
     [ "console.h", "console_8h.html", "console_8h" ],
     [ "consolehandler.cc", "consolehandler_8cc.html", "consolehandler_8cc" ],
     [ "consolehandler.h", "consolehandler_8h.html", "consolehandler_8h" ],
+    [ "embeddedmemorystream.cc", "embeddedmemorystream_8cc.html", "embeddedmemorystream_8cc" ],
+    [ "embeddedmemorystream.h", "embeddedmemorystream_8h.html", "embeddedmemorystream_8h" ],
     [ "excelxmlreader.cc", "excelxmlreader_8cc.html", "excelxmlreader_8cc" ],
     [ "excelxmlreader.h", "excelxmlreader_8h.html", "excelxmlreader_8h" ],
     [ "filedialog.cc", "filedialog_8cc.html", "filedialog_8cc" ],

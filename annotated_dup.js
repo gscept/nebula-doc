@@ -579,6 +579,7 @@ var annotated_dup =
       [ "CreateDirectory", "class_i_o_1_1_create_directory.html", "class_i_o_1_1_create_directory" ],
       [ "DeleteDirectory", "class_i_o_1_1_delete_directory.html", "class_i_o_1_1_delete_directory" ],
       [ "DeleteFile", "class_i_o_1_1_delete_file.html", "class_i_o_1_1_delete_file" ],
+      [ "EmbeddedMemoryStream", "class_i_o_1_1_embedded_memory_stream.html", "class_i_o_1_1_embedded_memory_stream" ],
       [ "EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
       [ "ExcelXmlReader", "class_i_o_1_1_excel_xml_reader.html", "class_i_o_1_1_excel_xml_reader" ],
       [ "FileStream", "class_i_o_1_1_file_stream.html", "class_i_o_1_1_file_stream" ],

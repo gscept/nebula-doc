@@ -1565,7 +1565,8 @@ var hierarchy =
         ] ],
         [ "IO::MemoryStream", "class_i_o_1_1_memory_stream.html", [
           [ "Http::HttpNzStream", "class_http_1_1_http_nz_stream.html", null ],
-          [ "Http::HttpStream", "class_http_1_1_http_stream.html", null ]
+          [ "Http::HttpStream", "class_http_1_1_http_stream.html", null ],
+          [ "IO::EmbeddedMemoryStream", "class_i_o_1_1_embedded_memory_stream.html", null ]
         ] ],
         [ "IO::ZipFileStream", "class_i_o_1_1_zip_file_stream.html", null ]
       ] ],

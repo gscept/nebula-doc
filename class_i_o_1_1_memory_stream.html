@@ -92,9 +92,10 @@ $(document).ready(function(){initNavTree('class_i_o_1_1_memory_stream.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_i_o_1_1_memory_stream-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">IO::MemoryStream Class Reference</div></div>
 </div><!--header-->
@@ -108,7 +109,7 @@ $(document).ready(function(){initNavTree('class_i_o_1_1_memory_stream.html','');
 </div>
 <p>Inherits <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a>.</p>
 
-<p>Inherited by <a class="el" href="class_http_1_1_http_nz_stream.html">Http::HttpNzStream</a>, and <a class="el" href="class_http_1_1_http_stream.html">Http::HttpStream</a>.</p>
+<p>Inherited by <a class="el" href="class_http_1_1_http_nz_stream.html">Http::HttpNzStream</a>, <a class="el" href="class_http_1_1_http_stream.html">Http::HttpStream</a>, and <a class="el" href="class_i_o_1_1_embedded_memory_stream.html">IO::EmbeddedMemoryStream</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -298,10 +299,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9a6bdc2f9217057536944df883e80cd4 inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the class FourCC code  <br /></td></tr>
 <tr class="separator:a9a6bdc2f9217057536944df883e80cd4 inherit pub_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a4fba2401c0f7f386de96bc32cf60d6a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a4fba2401c0f7f386de96bc32cf60d6a4">__DeclareClass</a> (<a class="el" href="class_i_o_1_1_memory_stream.html">MemoryStream</a>)</td></tr>
-<tr class="separator:a4fba2401c0f7f386de96bc32cf60d6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
 <tr class="memitem:a11a472e6958b1cf49db18eedca8a3076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a11a472e6958b1cf49db18eedca8a3076">Realloc</a> (<a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a> s)</td></tr>
 <tr class="memdesc:a11a472e6958b1cf49db18eedca8a3076"><td class="mdescLeft">&#160;</td><td class="mdescRight">re-allocate the memory buffer  <br /></td></tr>
 <tr class="separator:a11a472e6958b1cf49db18eedca8a3076"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,9 +310,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a41a0bd5f09783840fd8cf925a999daba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a41a0bd5f09783840fd8cf925a999daba">MakeRoom</a> (<a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a> numBytes)</td></tr>
 <tr class="memdesc:a41a0bd5f09783840fd8cf925a999daba"><td class="mdescLeft">&#160;</td><td class="mdescRight">make room for at least n more bytes  <br /></td></tr>
 <tr class="separator:a41a0bd5f09783840fd8cf925a999daba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
+<tr class="memitem:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">~RefCounted</a> ()</td></tr>
+<tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
+<tr class="separator:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:a91935bd0034f58cbf2b51eed2e27d11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a91935bd0034f58cbf2b51eed2e27d11c">capacity</a></td></tr>
 <tr class="separator:a91935bd0034f58cbf2b51eed2e27d11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4c73efc3aa33c8b7b6a166e24821f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#ad4c73efc3aa33c8b7b6a166e24821f7e">size</a></td></tr>
@@ -322,11 +325,29 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1c207880fd6c155196237675b1ae4d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070076bde09152c0835db0fc4a7b237d"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a070076bde09152c0835db0fc4a7b237d">buffer</a></td></tr>
 <tr class="separator:a070076bde09152c0835db0fc4a7b237d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_i_o_1_1_stream"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_o_1_1_stream')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a></td></tr>
+<tr class="memitem:aa233f0ecc64354aed84bebd2efd5519e inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_u_r_i.html">URI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#aa233f0ecc64354aed84bebd2efd5519e">uri</a></td></tr>
+<tr class="separator:aa233f0ecc64354aed84bebd2efd5519e inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de7268497f11bcd1944224151f30e89 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67e">AccessMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a9de7268497f11bcd1944224151f30e89">accessMode</a></td></tr>
+<tr class="separator:a9de7268497f11bcd1944224151f30e89 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cce55cad4cfd24c0f1a0ab85f4e6087 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#afb0d1bb71f98fc1811aefb25b6e09606">AccessPattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a3cce55cad4cfd24c0f1a0ab85f4e6087">accessPattern</a></td></tr>
+<tr class="separator:a3cce55cad4cfd24c0f1a0ab85f4e6087 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530edc6cbf03c856c09410873e6e9d4d inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a530edc6cbf03c856c09410873e6e9d4d">isOpen</a></td></tr>
+<tr class="separator:a530edc6cbf03c856c09410873e6e9d4d inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca8c85ae739b18328100942d0419447 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a3ca8c85ae739b18328100942d0419447">isMapped</a></td></tr>
+<tr class="separator:a3ca8c85ae739b18328100942d0419447 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97ad06ae772df51e32dc77d663403e20 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_media_type.html">MediaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a97ad06ae772df51e32dc77d663403e20">mediaType</a></td></tr>
+<tr class="separator:a97ad06ae772df51e32dc77d663403e20 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
 <tr class="memitem:aa949c83c24c4fe78d0fbf3b103ee858e"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">Size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#aa949c83c24c4fe78d0fbf3b103ee858e">InitialSize</a> = 256</td></tr>
 <tr class="separator:aa949c83c24c4fe78d0fbf3b103ee858e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4fba2401c0f7f386de96bc32cf60d6a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_memory_stream.html#a4fba2401c0f7f386de96bc32cf60d6a4">__DeclareClass</a> (<a class="el" href="class_i_o_1_1_memory_stream.html">MemoryStream</a>)</td></tr>
+<tr class="separator:a4fba2401c0f7f386de96bc32cf60d6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -360,23 +381,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3d9102870430bcbda9f1749c740d701e inherit pub_static_methods_class_core_1_1_ref_counted"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e">DumpRefCountingLeaks</a> ()</td></tr>
 <tr class="memdesc:a3d9102870430bcbda9f1749c740d701e inherit pub_static_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump refcounting leaks, call at end of application (NEBULA_DEBUG builds only!)  <br /></td></tr>
 <tr class="separator:a3d9102870430bcbda9f1749c740d701e inherit pub_static_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
-<tr class="memitem:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">~RefCounted</a> ()</td></tr>
-<tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
-<tr class="separator:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_i_o_1_1_stream"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_o_1_1_stream')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a></td></tr>
-<tr class="memitem:aa233f0ecc64354aed84bebd2efd5519e inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_u_r_i.html">URI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#aa233f0ecc64354aed84bebd2efd5519e">uri</a></td></tr>
-<tr class="separator:aa233f0ecc64354aed84bebd2efd5519e inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de7268497f11bcd1944224151f30e89 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67e">AccessMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a9de7268497f11bcd1944224151f30e89">accessMode</a></td></tr>
-<tr class="separator:a9de7268497f11bcd1944224151f30e89 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cce55cad4cfd24c0f1a0ab85f4e6087 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_stream.html#afb0d1bb71f98fc1811aefb25b6e09606">AccessPattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a3cce55cad4cfd24c0f1a0ab85f4e6087">accessPattern</a></td></tr>
-<tr class="separator:a3cce55cad4cfd24c0f1a0ab85f4e6087 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530edc6cbf03c856c09410873e6e9d4d inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a530edc6cbf03c856c09410873e6e9d4d">isOpen</a></td></tr>
-<tr class="separator:a530edc6cbf03c856c09410873e6e9d4d inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca8c85ae739b18328100942d0419447 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a3ca8c85ae739b18328100942d0419447">isMapped</a></td></tr>
-<tr class="separator:a3ca8c85ae739b18328100942d0419447 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ad06ae772df51e32dc77d663403e20 inherit pro_attribs_class_i_o_1_1_stream"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_media_type.html">MediaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_1_1_stream.html#a97ad06ae772df51e32dc77d663403e20">mediaType</a></td></tr>
-<tr class="separator:a97ad06ae772df51e32dc77d663403e20 inherit pro_attribs_class_i_o_1_1_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af6e6da4806037ee519eba59b6e6d1ee1" name="af6e6da4806037ee519eba59b6e6d1ee1"></a>
@@ -566,6 +570,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_i_o_1_1_stream.html#a725045c4a8dc45c948b2fd832715e10b">IO::Stream</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_i_o_1_1_embedded_memory_stream.html#a415be6e0d4fb0c075e7a6b712b1db802">IO::EmbeddedMemoryStream</a>.</p>
+
 </div>
 </div>
 <a id="a0d138c42906e41b0f674efb53eeddd8d" name="a0d138c42906e41b0f674efb53eeddd8d"></a>
@@ -726,7 +732,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -754,7 +760,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -854,7 +860,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_i_o_1_1_stream.html#a8d73d7e10d8c7ecc9a42319aef0263ed">IO::Stream</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_http_1_1_http_nz_stream.html#ada26afb43a112719a83ac99b427c6776">Http::HttpNzStream</a>, and <a class="el" href="class_http_1_1_http_stream.html#a0f1ce429d85b8bac7e7f4016821b9042">Http::HttpStream</a>.</p>
+<p>Reimplemented in <a class="el" href="class_http_1_1_http_nz_stream.html#ada26afb43a112719a83ac99b427c6776">Http::HttpNzStream</a>, <a class="el" href="class_http_1_1_http_stream.html#a0f1ce429d85b8bac7e7f4016821b9042">Http::HttpStream</a>, and <a class="el" href="class_i_o_1_1_embedded_memory_stream.html#a8fe5769ecfb613c377ef6e9f357c4ead">IO::EmbeddedMemoryStream</a>.</p>
 
 </div>
 </div>
@@ -917,7 +923,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1084,7 +1090,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1106,7 +1112,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1128,7 +1134,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1150,7 +1156,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1172,7 +1178,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1190,7 +1196,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_i_o.html">IO</a></li><li class="navelem"><a class="el" href="class_i_o_1_1_memory_stream.html">MemoryStream</a></li>
 				<li class="footer">
-					Generated on Wed Jul 19 2023 07:14:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Jul 30 2023 12:34:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

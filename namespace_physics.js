@@ -13,6 +13,12 @@ var namespace_physics =
     [ "Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
     [ "StreamActorPool", "class_physics_1_1_stream_actor_pool.html", "class_physics_1_1_stream_actor_pool" ],
     [ "VisualDebugger", "class_physics_1_1_visual_debugger.html", "class_physics_1_1_visual_debugger" ],
+    [ "UpdateFunctionType", "namespace_physics.html#a86d5bfc721d4237a6499e13459c42688", null ],
+    [ "ActorType", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3", [
+      [ "Static", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0", null ],
+      [ "Kinematic", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70", null ],
+      [ "Dynamic", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a11255276fb3a95e0be1d8f5d0753ebec", null ]
+    ] ],
     [ "ColliderType", "namespace_physics.html#ab314f5785bbdfd095bec6645da31053c", [
       [ "ColliderSphere", "namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2", null ],
       [ "ColliderCube", "namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca90b5e59087a04e6266370f2bafa8e505", null ],
@@ -22,8 +28,8 @@ var namespace_physics =
     ] ],
     [ "CollsionGroups", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64b", [
       [ "Default", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c", null ],
-      [ "Static", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba02e521a19b147e35cf3f7d189a5b02fc", null ],
-      [ "Kinematic", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba1fc607d02b98e98a8447e620d7d4e6a5", null ],
+      [ "Static", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0", null ],
+      [ "Kinematic", "namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70", null ],
       [ "Debris", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147", null ],
       [ "SensorTrigger", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161", null ],
       [ "Characters", "namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4", null ]
@@ -39,8 +45,10 @@ var namespace_physics =
       [ "MeshIdType", "namespace_physics.html#a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2", null ]
     ] ],
     [ "__ImplementInterfaceSingleton", "namespace_physics.html#a0368af9719e96dbc887fb459c19be76b", null ],
+    [ "AddCollider", "namespace_physics.html#adfad949abf2e8a86085e63d1a234c75e", null ],
+    [ "AddMeshColliders", "namespace_physics.html#af4457e3a67d88a20aa13c1fe60031b2c", null ],
     [ "BeginFrame", "namespace_physics.html#ae37d01a8fb89437e6c8fa276e257ad82", null ],
-    [ "CreateActorInstance", "namespace_physics.html#a4c3e6825bf7dc167bef16d361209ed07", null ],
+    [ "CreateActorInstance", "namespace_physics.html#a7cf2df54b3302625ddcfa14df59a4d65", null ],
     [ "CreateMaterial", "namespace_physics.html#a3a827d90b7854e6db24dfed94d036609", null ],
     [ "CreateMeshFromResource", "namespace_physics.html#ae265583c83772de449325aa336952257", null ],
     [ "CreateScene", "namespace_physics.html#ae73f5a76a7de9f0607733be67e604fe8", null ],
@@ -51,11 +59,12 @@ var namespace_physics =
     [ "GetNrMaterials", "namespace_physics.html#a3b0738dc40f8ee43d14b350d394ba542", null ],
     [ "GetScene", "namespace_physics.html#a06a97b72f4565260a296050f0559b9c2", null ],
     [ "HandleCollisions", "namespace_physics.html#a1fd62c5ad29dab0fbfc5a00d3df0b718", null ],
-    [ "LoadMaterialTable", "namespace_physics.html#ac72fb302eae04436aba122d3735b12f7", null ],
+    [ "LoadMaterialTable", "namespace_physics.html#ab7ef80ee0552de677b13f2f99451a8a5", null ],
     [ "LookupMaterial", "namespace_physics.html#ae94c2d0fe8bca1aaa94b979253d03be2", null ],
     [ "RenderDebug", "namespace_physics.html#a325331d3ad9046ad39aefd9b16c88e9b", null ],
     [ "RenderMaterialsUI", "namespace_physics.html#a65bfab3b3a913500b671e66bbc35affb", null ],
     [ "RenderUI", "namespace_physics.html#a1d566277e1bc1471d4256f142e524f84", null ],
+    [ "SetActiveActorCallback", "namespace_physics.html#ac291472e0e5f0264d8199c1584d7d4c7", null ],
     [ "SetOnSleepCallback", "namespace_physics.html#a9af299c4259dad92ae554d3a2c2a8b79", null ],
     [ "SetOnWakeCallback", "namespace_physics.html#ac9faf5b2dec3610772037a5bff6b639f", null ],
     [ "Setup", "namespace_physics.html#a940b47bed35103b34f9c3652b4c7c53a", null ],

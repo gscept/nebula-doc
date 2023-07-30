@@ -31,6 +31,8 @@ var scalar_8h =
     [ "atan", "scalar_8h.html#af10069fc43b109aaa98814087f3c1178", null ],
     [ "ceil", "scalar_8h.html#a630b2fbd47cf47992dd768f92d2427dd", null ],
     [ "clamp", "scalar_8h.html#a814fbf190f8bebf316cf3fcd10f5fd05", null ],
+    [ "clamp", "scalar_8h.html#a9543d4b0c590abdfb346e61382fc896d", null ],
+    [ "clamp", "scalar_8h.html#af1c89e638d173a3be3b6bcbf3a139e35", null ],
     [ "cos", "scalar_8h.html#aca05597b0bcfa29cff555f6bd2eba292", null ],
     [ "cot", "scalar_8h.html#a2b7946dea20d4431f0b0299039db84bb", null ],
     [ "deg2rad", "scalar_8h.html#a38a5710a712b6c220e094f9fcb0ac7e9", null ],

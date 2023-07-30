@@ -9,8 +9,8 @@ var shapes_8h =
     ] ],
     [ "CollsionGroups", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64b", [
       [ "Default", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c", null ],
-      [ "Static", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64ba02e521a19b147e35cf3f7d189a5b02fc", null ],
-      [ "Kinematic", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64ba1fc607d02b98e98a8447e620d7d4e6a5", null ],
+      [ "Static", "shapes_8h.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0", null ],
+      [ "Kinematic", "shapes_8h.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70", null ],
       [ "Debris", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147", null ],
       [ "SensorTrigger", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161", null ],
       [ "Characters", "shapes_8h.html#a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4", null ]

@@ -15,6 +15,7 @@ var class_i_o_1_1_archive_file_system_base =
     [ "IsMounted", "class_i_o_1_1_archive_file_system_base.html#a0e8e5aa427cd73719eabbf7fb4652630", null ],
     [ "IsValid", "class_i_o_1_1_archive_file_system_base.html#a5ece12e7fa54999476e66b77aaaed546", null ],
     [ "Mount", "class_i_o_1_1_archive_file_system_base.html#a0e0614ec4d3829930be37e4d18dfcfdf", null ],
+    [ "MountEmbedded", "class_i_o_1_1_archive_file_system_base.html#a12b098430457230ab7bd71678f7bd25a", null ],
     [ "Setup", "class_i_o_1_1_archive_file_system_base.html#a09948509f60241690f11b9613f5cb6b0", null ],
     [ "Unmount", "class_i_o_1_1_archive_file_system_base.html#a9da77a1123094815d43f30f35f8f1310", null ],
     [ "Unmount", "class_i_o_1_1_archive_file_system_base.html#a9ae01f277c5cdcdd413160cb223431f6", null ],

@@ -64,6 +64,8 @@ var namespace_math =
     [ "clamp", "namespace_math.html#a542ab1542850114723596089a55abff0", null ],
     [ "clamp", "namespace_math.html#ad4cb45628c4f1f088d7dee542ea91b9a", null ],
     [ "clamp", "namespace_math.html#a814fbf190f8bebf316cf3fcd10f5fd05", null ],
+    [ "clamp", "namespace_math.html#a9543d4b0c590abdfb346e61382fc896d", null ],
+    [ "clamp", "namespace_math.html#af1c89e638d173a3be3b6bcbf3a139e35", null ],
     [ "clip", "namespace_math.html#a6c814a471f23def327660b84a0e9bd29", null ],
     [ "conjugate", "namespace_math.html#a3a66e5522b29475e8ec87bdfadcb93ab", null ],
     [ "cos", "namespace_math.html#aca05597b0bcfa29cff555f6bd2eba292", null ],
