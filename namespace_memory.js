@@ -126,7 +126,6 @@ var namespace_memory =
     [ "__HeapReAlloc16", "namespace_memory.html#abadaff872cd52ba019c4f3cf1342c981", null ],
     [ "__HeapSize16", "namespace_memory.html#ab70087a05c0020566ed6eb1e48c05b66", null ],
     [ "__HeapUnalignPointer16", "namespace_memory.html#a539aa16970df013f09322414ef1c51b0", null ],
-    [ "Alloc", "namespace_memory.html#a24993fac616060d0f19f14d43fc27103", null ],
     [ "Alloc", "namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "Clear", "namespace_memory.html#ad8504a1916282a835f1e16e3912e4c87", null ],
     [ "Copy", "namespace_memory.html#a1b30970207f199d34ccd289fb784f8c1", null ],

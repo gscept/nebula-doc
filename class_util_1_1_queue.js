@@ -13,6 +13,7 @@ var class_util_1_1_queue =
     [ "DestroyElement", "class_util_1_1_queue.html#a9ccdc3a29f393708cab983fa3cc953be", null ],
     [ "DestroyElement", "class_util_1_1_queue.html#a363b774e1ccce56bedce716302f0a83d", null ],
     [ "Enqueue", "class_util_1_1_queue.html#a08c7f72a7245a1d774cdedce2b486790", null ],
+    [ "Enqueue", "class_util_1_1_queue.html#a17f681babbd1a1034d64e036bd114c86", null ],
     [ "EraseIndex", "class_util_1_1_queue.html#a89e8d5917e9f4ea66e2165a43a0998ea", null ],
     [ "Grow", "class_util_1_1_queue.html#a5e5547ee34c23cc5dcfe7e3859db8dd5", null ],
     [ "IsEmpty", "class_util_1_1_queue.html#a8fcd6aec4b02214828179ddc70f1b78a", null ],

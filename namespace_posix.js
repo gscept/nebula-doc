@@ -10,7 +10,6 @@ var namespace_posix =
     [ "PosixFSWrapper", "class_posix_1_1_posix_f_s_wrapper.html", "class_posix_1_1_posix_f_s_wrapper" ],
     [ "PosixGuid", "class_posix_1_1_posix_guid.html", "class_posix_1_1_posix_guid" ],
     [ "PosixHeap", "class_posix_1_1_posix_heap.html", "class_posix_1_1_posix_heap" ],
-    [ "PosixInterlocked", "class_posix_1_1_posix_interlocked.html", "class_posix_1_1_posix_interlocked" ],
     [ "PosixIpAddress", "class_posix_1_1_posix_ip_address.html", "class_posix_1_1_posix_ip_address" ],
     [ "PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", "class_posix_1_1_posix_memory_pool" ],
     [ "PosixProcess", "class_posix_1_1_posix_process.html", "class_posix_1_1_posix_process" ],

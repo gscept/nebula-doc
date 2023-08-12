@@ -26,6 +26,7 @@ var scalar_8h =
     [ "acos", "scalar_8h.html#ad5c0ae163b8fd828adcc2e1a14476c9c", null ],
     [ "align", "scalar_8h.html#a830feebf365bd62d5956c9b13d35138f", null ],
     [ "align_down", "scalar_8h.html#a35f94f05de58cb30d5d9c470ae4171c3", null ],
+    [ "alignptr", "scalar_8h.html#a12ea634cbc84ed1f31d564f59d42fd73", null ],
     [ "angulardistance", "scalar_8h.html#a9df9db5698804c0dcd7f6ece84915213", null ],
     [ "asin", "scalar_8h.html#a39eef807d14aa928b8fff5894b59ffc4", null ],
     [ "atan", "scalar_8h.html#af10069fc43b109aaa98814087f3c1178", null ],

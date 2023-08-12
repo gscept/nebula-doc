@@ -16,9 +16,8 @@ var searchData=
   ['osxfswrapper_13',['OSXFSWrapper',['../class_o_s_x_1_1_o_s_x_f_s_wrapper.html',1,'OSX']]],
   ['osxguid_14',['OSXGuid',['../class_o_s_x_1_1_o_s_x_guid.html',1,'OSX']]],
   ['osxheap_15',['OSXHeap',['../class_o_s_x_1_1_o_s_x_heap.html',1,'OSX']]],
-  ['osxinterlocked_16',['OSXInterlocked',['../class_o_s_x_1_1_o_s_x_interlocked.html',1,'OSX']]],
-  ['osxmemorypool_17',['OSXMemoryPool',['../class_o_s_x_1_1_o_s_x_memory_pool.html',1,'OSX']]],
-  ['osxthread_18',['OSXThread',['../class_o_s_x_1_1_o_s_x_thread.html',1,'OSX']]],
-  ['osxthreadid_19',['OSXThreadId',['../class_o_s_x_1_1_o_s_x_thread_id.html',1,'']]],
-  ['osxthreadlocalptr_20',['OSXThreadLocalPtr',['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html',1,'OSX']]]
+  ['osxmemorypool_16',['OSXMemoryPool',['../class_o_s_x_1_1_o_s_x_memory_pool.html',1,'OSX']]],
+  ['osxthread_17',['OSXThread',['../class_o_s_x_1_1_o_s_x_thread.html',1,'OSX']]],
+  ['osxthreadid_18',['OSXThreadId',['../class_o_s_x_1_1_o_s_x_thread_id.html',1,'']]],
+  ['osxthreadlocalptr_19',['OSXThreadLocalPtr',['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html',1,'OSX']]]
 ];

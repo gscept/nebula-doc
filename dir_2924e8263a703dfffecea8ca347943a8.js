@@ -1,10 +1,7 @@
 var dir_2924e8263a703dfffecea8ca347943a8 =
 [
-    [ "linuxbarrier.h", "linuxbarrier_8h.html", "linuxbarrier_8h" ],
     [ "linuxcompletioncounter.h", "linuxcompletioncounter_8h.html", "linuxcompletioncounter_8h" ],
-    [ "linuxcriticalsection.h", "linuxcriticalsection_8h.html", "linuxcriticalsection_8h" ],
     [ "linuxevent.h", "linuxevent_8h.html", "linuxevent_8h" ],
-    [ "linuxinterlocked.h", "linuxinterlocked_8h.html", "linuxinterlocked_8h" ],
     [ "linuxrendezvous.h", "linuxrendezvous_8h.html", "linuxrendezvous_8h" ],
     [ "linuxthread.cc", "linuxthread_8cc.html", "linuxthread_8cc" ],
     [ "linuxthread.h", "linuxthread_8h.html", "linuxthread_8h" ],

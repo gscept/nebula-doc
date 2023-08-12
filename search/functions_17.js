@@ -90,7 +90,7 @@ var searchData=
   ['writefloatarray_87',['WriteFloatArray',['../class_i_o_1_1_binary_writer.html#a50a2752f7abf9ab15023967f59474911',1,'IO::BinaryWriter']]],
   ['writefloatasnormalizedubyte2_88',['WriteFloatAsNormalizedUByte2',['../class_i_o_1_1_binary_writer.html#ac6f7c7bdcbe39e7941be596e2c88caee',1,'IO::BinaryWriter']]],
   ['writefloatasunsignednormalizedubyte2_89',['WriteFloatAsUnsignedNormalizedUByte2',['../class_i_o_1_1_binary_writer.html#ae1658283105eff93f4dc6372bda8efba',1,'IO::BinaryWriter']]],
-  ['writeformatted_90',['WriteFormatted',['../class_i_o_1_1_text_writer.html#a9d17f4dc4c25b310d478b17fe0a3007f',1,'IO::TextWriter']]],
+  ['writeformatted_90',['WriteFormatted',['../class_i_o_1_1_text_writer.html#abff1d5d0e6d91a5dd68380551d41433d',1,'IO::TextWriter']]],
   ['writeguid_91',['WriteGuid',['../class_i_o_1_1_binary_writer.html#a1ea4b24372268b41e76ac23902eaddb4',1,'IO::BinaryWriter']]],
   ['writeint_92',['WriteInt',['../class_i_o_1_1_binary_writer.html#afa1bacba505002139a9bc319cd8c78e9',1,'IO::BinaryWriter']]],
   ['writeint64_93',['WriteInt64',['../class_i_o_1_1_binary_writer.html#a890d316576d3402cb345a72f1eda27fc',1,'IO::BinaryWriter']]],

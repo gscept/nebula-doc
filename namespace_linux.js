@@ -1,9 +1,7 @@
 var namespace_linux =
 [
     [ "LinuxCompletionCounter", "class_linux_1_1_linux_completion_counter.html", "class_linux_1_1_linux_completion_counter" ],
-    [ "LinuxCriticalSection", "class_linux_1_1_linux_critical_section.html", "class_linux_1_1_linux_critical_section" ],
     [ "LinuxEvent", "class_linux_1_1_linux_event.html", "class_linux_1_1_linux_event" ],
-    [ "LinuxInterlocked", "class_linux_1_1_linux_interlocked.html", "class_linux_1_1_linux_interlocked" ],
     [ "LinuxRendezvous", "class_linux_1_1_linux_rendezvous.html", "class_linux_1_1_linux_rendezvous" ],
     [ "LinuxThread", "class_linux_1_1_linux_thread.html", "class_linux_1_1_linux_thread" ],
     [ "LinuxThreadLocalData", "class_linux_1_1_linux_thread_local_data.html", "class_linux_1_1_linux_thread_local_data" ],

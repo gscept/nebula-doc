@@ -7,7 +7,6 @@ var namespace_o_s_x =
     [ "OSXFSWrapper", "class_o_s_x_1_1_o_s_x_f_s_wrapper.html", "class_o_s_x_1_1_o_s_x_f_s_wrapper" ],
     [ "OSXGuid", "class_o_s_x_1_1_o_s_x_guid.html", "class_o_s_x_1_1_o_s_x_guid" ],
     [ "OSXHeap", "class_o_s_x_1_1_o_s_x_heap.html", "class_o_s_x_1_1_o_s_x_heap" ],
-    [ "OSXInterlocked", "class_o_s_x_1_1_o_s_x_interlocked.html", "class_o_s_x_1_1_o_s_x_interlocked" ],
     [ "OSXMemoryPool", "class_o_s_x_1_1_o_s_x_memory_pool.html", "class_o_s_x_1_1_o_s_x_memory_pool" ],
     [ "OSXThread", "class_o_s_x_1_1_o_s_x_thread.html", "class_o_s_x_1_1_o_s_x_thread" ],
     [ "OSXThreadLocalPtr", "class_o_s_x_1_1_o_s_x_thread_local_ptr.html", "class_o_s_x_1_1_o_s_x_thread_local_ptr" ],

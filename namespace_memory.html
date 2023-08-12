@@ -304,9 +304,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a779eb7178f1887e9759e90511acd5a05"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a779eb7178f1887e9759e90511acd5a05">GetHeapTypeName</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType)</td></tr>
 <tr class="memdesc:a779eb7178f1887e9759e90511acd5a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a human readable name for a heap type.  <br /></td></tr>
 <tr class="separator:a779eb7178f1887e9759e90511acd5a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24993fac616060d0f19f14d43fc27103"><td class="memItemLeft" align="right" valign="top">__forceinline void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a24993fac616060d0f19f14d43fc27103">Alloc</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, size_t size)</td></tr>
-<tr class="memdesc:a24993fac616060d0f19f14d43fc27103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory from the process heap.  <br /></td></tr>
-<tr class="separator:a24993fac616060d0f19f14d43fc27103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1103820d68788c85bbb28a62e05d99e2"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a1103820d68788c85bbb28a62e05d99e2">Move</a> (const void *from, void *to, size_t numBytes)</td></tr>
 <tr class="memdesc:a1103820d68788c85bbb28a62e05d99e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move a chunk of memory, can handle overlapping regions.  <br /></td></tr>
 <tr class="separator:a1103820d68788c85bbb28a62e05d99e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -730,41 +727,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a24993fac616060d0f19f14d43fc27103" name="a24993fac616060d0f19f14d43fc27103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24993fac616060d0f19f14d43fc27103">&#9670;&#160;</a></span>Alloc() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * Memory::Alloc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a>&#160;</td>
-          <td class="paramname"><em>heapType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocate a block of memory from the process heap. </p>
-<p>Global memory functions.</p>
-<p>Allocate a block of memory from one of the global heaps.</p>
-<p>allocate a chunk of memory </p>
-
-</div>
-</div>
 <a id="a302b8099d0bbcc9bccfd578814e5b4f3" name="a302b8099d0bbcc9bccfd578814e5b4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302b8099d0bbcc9bccfd578814e5b4f3">&#9670;&#160;</a></span>Alloc() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a302b8099d0bbcc9bccfd578814e5b4f3">&#9670;&#160;</a></span>Alloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -796,6 +760,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Allocate a block of memory from one of the global heaps. </p>
+<p>Allocate a block of memory from the process heap.</p>
 <p>Global memory functions.</p>
 <p>allocate a chunk of memory </p>
 
@@ -1464,7 +1429,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:22:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

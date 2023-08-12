@@ -126,22 +126,12 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a63ff6e5092040b583339eab8e78d2f63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a63ff6e5092040b583339eab8e78d2f63">MEMORY_POSIXMEMORY_H</a></td></tr>
 <tr class="separator:a63ff6e5092040b583339eab8e78d2f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51c2e4de1ee6fbd34ba914d85503008b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type)&#160;&#160;&#160;new type</td></tr>
-<tr class="separator:a51c2e4de1ee6fbd34ba914d85503008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eec3879696b8c31037f6adbf4508656"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a0eec3879696b8c31037f6adbf4508656">n_new_inplace</a>(type,  mem)&#160;&#160;&#160;new (mem) type</td></tr>
-<tr class="separator:a0eec3879696b8c31037f6adbf4508656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cf48dc77bff1d634ec12422258d9f3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type,  size)&#160;&#160;&#160;new type[size]</td></tr>
-<tr class="separator:a5cf48dc77bff1d634ec12422258d9f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a300669d394130c8ecfa940a1138f3f77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a>(ptr)&#160;&#160;&#160;delete ptr</td></tr>
-<tr class="separator:a300669d394130c8ecfa940a1138f3f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4c1f2844efb2ea8057c83f1c9d3f99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a2f4c1f2844efb2ea8057c83f1c9d3f99">n_delete_array</a>(ptr)&#160;&#160;&#160;delete[] ptr</td></tr>
-<tr class="separator:a2f4c1f2844efb2ea8057c83f1c9d3f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a24993fac616060d0f19f14d43fc27103"><td class="memItemLeft" align="right" valign="top">__forceinline void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a24993fac616060d0f19f14d43fc27103">Memory::Alloc</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, size_t size)</td></tr>
-<tr class="memdesc:a24993fac616060d0f19f14d43fc27103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory from the process heap.  <br /></td></tr>
-<tr class="separator:a24993fac616060d0f19f14d43fc27103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302b8099d0bbcc9bccfd578814e5b4f3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, size_t size, size_t alignment)</td></tr>
+<tr class="memdesc:a302b8099d0bbcc9bccfd578814e5b4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory from one of the global heaps.  <br /></td></tr>
+<tr class="separator:a302b8099d0bbcc9bccfd578814e5b4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c839285702633f8178be0224273a14"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a66c839285702633f8178be0224273a14">Memory::Realloc</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType, void *ptr, size_t size)</td></tr>
 <tr class="memdesc:a66c839285702633f8178be0224273a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-Allocate a block of memory from one of the global heaps.  <br /></td></tr>
 <tr class="separator:a66c839285702633f8178be0224273a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,18 +170,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a05533d2c6154b45946e2e915fdcbb173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_memory_1_1_total_memory_status.html">TotalMemoryStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a05533d2c6154b45946e2e915fdcbb173">Memory::GetTotalMemoryStatus</a> ()</td></tr>
 <tr class="memdesc:a05533d2c6154b45946e2e915fdcbb173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system's total memory status.  <br /></td></tr>
 <tr class="separator:a05533d2c6154b45946e2e915fdcbb173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa513b5f131e3db41c860c4b9cf7c95c7"><td class="memItemLeft" align="right" valign="top">__forceinline void *__cdecl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#aa513b5f131e3db41c860c4b9cf7c95c7">operator new</a> (size_t size)</td></tr>
-<tr class="memdesc:aa513b5f131e3db41c860c4b9cf7c95c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global new operator.  <br /></td></tr>
-<tr class="separator:aa513b5f131e3db41c860c4b9cf7c95c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbdb1b9d888f46db8137d314a6e5b80"><td class="memItemLeft" align="right" valign="top">__forceinline void *__cdecl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a1cbdb1b9d888f46db8137d314a6e5b80">operator new[]</a> (size_t size)</td></tr>
-<tr class="memdesc:a1cbdb1b9d888f46db8137d314a6e5b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global new[] operator.  <br /></td></tr>
-<tr class="separator:a1cbdb1b9d888f46db8137d314a6e5b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f43953b30d0ace75cfb92c2d53a1911"><td class="memItemLeft" align="right" valign="top">__forceinline void __cdecl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a8f43953b30d0ace75cfb92c2d53a1911">operator delete</a> (void *p)</td></tr>
-<tr class="memdesc:a8f43953b30d0ace75cfb92c2d53a1911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global delete operator.  <br /></td></tr>
-<tr class="separator:a8f43953b30d0ace75cfb92c2d53a1911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa23dd449b34b6db0f98656d561a9f2"><td class="memItemLeft" align="right" valign="top">__forceinline void __cdecl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="posixmemory_8h.html#a5aa23dd449b34b6db0f98656d561a9f2">operator delete[]</a> (void *p)</td></tr>
-<tr class="memdesc:a5aa23dd449b34b6db0f98656d561a9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global delete[] operator.  <br /></td></tr>
-<tr class="separator:a5aa23dd449b34b6db0f98656d561a9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a63ff6e5092040b583339eab8e78d2f63" name="a63ff6e5092040b583339eab8e78d2f63"></a>
@@ -208,198 +186,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a300669d394130c8ecfa940a1138f3f77" name="a300669d394130c8ecfa940a1138f3f77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a300669d394130c8ecfa940a1138f3f77">&#9670;&#160;</a></span>n_delete</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define n_delete</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td>&#160;&#160;&#160;delete ptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f4c1f2844efb2ea8057c83f1c9d3f99" name="a2f4c1f2844efb2ea8057c83f1c9d3f99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f4c1f2844efb2ea8057c83f1c9d3f99">&#9670;&#160;</a></span>n_delete_array</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define n_delete_array</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td>&#160;&#160;&#160;delete[] ptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a51c2e4de1ee6fbd34ba914d85503008b" name="a51c2e4de1ee6fbd34ba914d85503008b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51c2e4de1ee6fbd34ba914d85503008b">&#9670;&#160;</a></span>n_new</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define n_new</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">type</td><td>)</td>
-          <td>&#160;&#160;&#160;new type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5cf48dc77bff1d634ec12422258d9f3b" name="a5cf48dc77bff1d634ec12422258d9f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cf48dc77bff1d634ec12422258d9f3b">&#9670;&#160;</a></span>n_new_array</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define n_new_array</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">type, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;new type[size]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0eec3879696b8c31037f6adbf4508656" name="a0eec3879696b8c31037f6adbf4508656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eec3879696b8c31037f6adbf4508656">&#9670;&#160;</a></span>n_new_inplace</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define n_new_inplace</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">type, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mem&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;new (mem) type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a8f43953b30d0ace75cfb92c2d53a1911" name="a8f43953b30d0ace75cfb92c2d53a1911"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f43953b30d0ace75cfb92c2d53a1911">&#9670;&#160;</a></span>operator delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__forceinline void __cdecl operator delete </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replacement global delete operator. </p>
-
-</div>
-</div>
-<a id="a5aa23dd449b34b6db0f98656d561a9f2" name="a5aa23dd449b34b6db0f98656d561a9f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aa23dd449b34b6db0f98656d561a9f2">&#9670;&#160;</a></span>operator delete[]()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__forceinline void __cdecl operator delete[] </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replacement global delete[] operator. </p>
-
-</div>
-</div>
-<a id="aa513b5f131e3db41c860c4b9cf7c95c7" name="aa513b5f131e3db41c860c4b9cf7c95c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa513b5f131e3db41c860c4b9cf7c95c7">&#9670;&#160;</a></span>operator new()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__forceinline void *__cdecl operator new </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replacement global new operator. </p>
-<p>Replacement global new/delete operators. </p>
-
-</div>
-</div>
-<a id="a1cbdb1b9d888f46db8137d314a6e5b80" name="a1cbdb1b9d888f46db8137d314a6e5b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cbdb1b9d888f46db8137d314a6e5b80">&#9670;&#160;</a></span>operator new[]()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__forceinline void *__cdecl operator new[] </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replacement global new[] operator. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -407,7 +193,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="dir_80f14fc2f23c119c66a6dd40ada12f99.html">posix</a></li><li class="navelem"><a class="el" href="posixmemory_8h.html">posixmemory.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:22:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

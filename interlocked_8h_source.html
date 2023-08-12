@@ -109,33 +109,24 @@ $(document).ready(function(){initNavTree('interlocked_8h_source.html',''); initR
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span><a class="code hl_class" href="class_threading_1_1_interlocked.html">Interlocked</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_win32_1_1_win32_interlocked.html">Win32::Win32Interlocked</a></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{ };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#elif ( __OSX__ || __APPLE__ )</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="darwininterlocked_8h.html">threading/darwin/darwininterlocked.h</a>&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#elif ( __linux__ || __OSX__ || __APPLE__)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="gcc_2interlocked_8h.html">threading/gcc/interlocked.h</a>&quot;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_threading.html">Threading</a></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">class </span><a class="code hl_class" href="class_threading_1_1_interlocked.html">Interlocked</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_darwin_1_1_darwin_interlocked.html">Darwin::DarwinInterlocked</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">class </span><a class="code hl_class" href="class_threading_1_1_interlocked.html">Interlocked</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_gcc_1_1_gcc_interlocked.html">Gcc::GccInterlocked</a></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{ };</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#elif __linux__</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;<a class="code" href="posixinterlocked_8h.html">threading/posix/posixinterlocked.h</a>&quot;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_threading.html">Threading</a></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">class </span><a class="code hl_class" href="class_threading_1_1_interlocked.html">Interlocked</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_posix_1_1_posix_interlocked.html">Posix::PosixInterlocked</a></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{ };</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#error &quot;Threading::Interlocked not implemented on this platform!&quot;</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="ttc" id="aclass_darwin_1_1_darwin_interlocked_html"><div class="ttname"><a href="class_darwin_1_1_darwin_interlocked.html">Darwin::DarwinInterlocked</a></div><div class="ttdoc">Provides simple atomic operations on shared variables.</div><div class="ttdef"><b>Definition</b> darwininterlocked.h:20</div></div>
-<div class="ttc" id="aclass_posix_1_1_posix_interlocked_html"><div class="ttname"><a href="class_posix_1_1_posix_interlocked.html">Posix::PosixInterlocked</a></div><div class="ttdoc">Provides simple atomic operations on shared variables.</div><div class="ttdef"><b>Definition</b> posixinterlocked.h:16</div></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#error &quot;Threading::Interlocked not implemented on this platform!&quot;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="ttc" id="aclass_gcc_1_1_gcc_interlocked_html"><div class="ttname"><a href="class_gcc_1_1_gcc_interlocked.html">Gcc::GccInterlocked</a></div><div class="ttdoc">Provides simple atomic operations on shared variables using gcc compiler builtins.</div><div class="ttdef"><b>Definition</b> interlocked.h:17</div></div>
 <div class="ttc" id="aclass_threading_1_1_interlocked_html"><div class="ttname"><a href="class_threading_1_1_interlocked.html">Interlocked</a></div><div class="ttdoc">Provide simple atomic operations on memory variables.</div></div>
 <div class="ttc" id="aclass_win32_1_1_win32_interlocked_html"><div class="ttname"><a href="class_win32_1_1_win32_interlocked.html">Win32::Win32Interlocked</a></div><div class="ttdoc">Provides simple atomic operations on shared variables.</div><div class="ttdef"><b>Definition</b> win32interlocked.h:18</div></div>
-<div class="ttc" id="adarwininterlocked_8h_html"><div class="ttname"><a href="darwininterlocked_8h.html">darwininterlocked.h</a></div></div>
 <div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
+<div class="ttc" id="agcc_2interlocked_8h_html"><div class="ttname"><a href="gcc_2interlocked_8h.html">interlocked.h</a></div></div>
 <div class="ttc" id="anamespace_threading_html"><div class="ttname"><a href="namespace_threading.html">Threading</a></div><div class="ttdoc">The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.</div><div class="ttdef"><b>Definition</b> jobs2.h:16</div></div>
 <div class="ttc" id="anamespace_threading_html_a5e1a0a87f18165bfb9f1bd8dbc8da48b"><div class="ttname"><a href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a></div><div class="ttdeci">volatile int AtomicCounter</div><div class="ttdef"><b>Definition</b> interlocked.h:16</div></div>
-<div class="ttc" id="aposixinterlocked_8h_html"><div class="ttname"><a href="posixinterlocked_8h.html">posixinterlocked.h</a></div></div>
 <div class="ttc" id="awin32interlocked_8h_html"><div class="ttname"><a href="win32interlocked_8h.html">win32interlocked.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -144,7 +135,7 @@ $(document).ready(function(){initNavTree('interlocked_8h_source.html',''); initR
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_f19f8a5dc6a389547889a45c5da0c6cd.html">threading</a></li><li class="navelem"><a class="el" href="interlocked_8h.html">interlocked.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:21:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

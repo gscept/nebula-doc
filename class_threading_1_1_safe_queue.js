@@ -6,6 +6,7 @@ var class_threading_1_1_safe_queue =
     [ "Dequeue", "class_threading_1_1_safe_queue.html#aaf343099dff59a32224ba24f4b9e1418", null ],
     [ "DequeueAll", "class_threading_1_1_safe_queue.html#a047995eb4a907dc28b44da1c5abb25e7", null ],
     [ "Enqueue", "class_threading_1_1_safe_queue.html#a9e389f9c013a66fea74365d91daf158d", null ],
+    [ "Enqueue", "class_threading_1_1_safe_queue.html#ae7b4579949b434330815757a33269c26", null ],
     [ "EnqueueArray", "class_threading_1_1_safe_queue.html#a2d4d6c1ca9aa66ee93c216c951f43785", null ],
     [ "EraseMatchingElements", "class_threading_1_1_safe_queue.html#a473971f82efe4ffae80a2c9c8add67e5", null ],
     [ "IsEmpty", "class_threading_1_1_safe_queue.html#a5d302d807e10a45a009e57224fb9905f", null ],

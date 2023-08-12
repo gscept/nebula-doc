@@ -17,6 +17,5 @@ var class_linux_1_1_linux_event =
     [ "cond", "class_linux_1_1_linux_event.html#a9196f9391805d27257689568d1ef801e", null ],
     [ "manualReset", "class_linux_1_1_linux_event.html#a258ee7dbf46fa98cf7d68ed145246c20", null ],
     [ "mutex", "class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73", null ],
-    [ "status", "class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202", null ],
-    [ "status2", "class_linux_1_1_linux_event.html#aa602b7f0b1fc283008e393917b0dc2b1", null ]
+    [ "status", "class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202", null ]
 ];

@@ -362,12 +362,12 @@ Macros</h2></td></tr>
 <div class="line">    type* type::Create() \</div>
 <div class="line">    { \</div>
 <div class="line">        static_assert(std::is_base_of&lt;Core::RefCounted, type&gt;::value, <span class="stringliteral">&quot;Class must inherit from Core::RefCounted&quot;</span>); \</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type); \</div>
+<div class="line">        <span class="keywordflow">return</span> <span class="keyword">new</span> type; \</div>
 <div class="line">    }\</div>
 <div class="line">    type* type::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
 <div class="line">        static_assert(std::is_base_of&lt;Core::RefCounted, type&gt;::value, <span class="stringliteral">&quot;Class must inherit from Core::RefCounted&quot;</span>); \</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type, num); \</div>
+<div class="line">        <span class="keywordflow">return</span> <span class="keyword">new</span> type[num]; \</div>
 <div class="line">    }\</div>
 <div class="line">    <span class="keywordtype">bool</span> type::RegisterWithFactory() \</div>
 <div class="line">    { \</div>
@@ -379,8 +379,6 @@ Macros</h2></td></tr>
 <div class="line">        <span class="keywordflow">return</span> <span class="keyword">true</span>; \</div>
 <div class="line">    }</div>
 <div class="ttc" id="aclass_core_1_1_factory_html_a7929efbcb2e9cb3d47dfa5d3122aa6d6"><div class="ttname"><a href="class_core_1_1_factory.html#a7929efbcb2e9cb3d47dfa5d3122aa6d6">Core::Factory::Instance</a></div><div class="ttdeci">static Factory * Instance()</div><div class="ttdoc">get pointer to singleton instance (cannot use singleton.h!)</div><div class="ttdef"><b>Definition</b> factory.cc:22</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a51c2e4de1ee6fbd34ba914d85503008b"><div class="ttname"><a href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a></div><div class="ttdeci">#define n_new(type)</div><div class="ttdef"><b>Definition</b> osxmemory.h:113</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a5cf48dc77bff1d634ec12422258d9f3b"><div class="ttname"><a href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a></div><div class="ttdeci">#define n_new_array(type, size)</div><div class="ttdef"><b>Definition</b> osxmemory.h:114</div></div>
 </div><!-- fragment -->
 <p>Implementation macros for RTTI managed classes. </p>
 <p>__ImplementClass constructs a class which relies on reference counting. Use __DeclareClass in header. __ImplementWeakClass constructs a class which does not support reference counting (no garbage collection). Use __DeclareClass in header. __ImplementTemplateClass constructs a class with template arguments but without FourCC or RTTI. Use __DeclareTemplateClass in header. </p>
@@ -415,13 +413,13 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> TEMP&gt; \</div>
 <div class="line">    <span class="keyword">inline</span> type&lt;TEMP&gt;* type&lt;TEMP&gt;::Create() \</div>
 <div class="line">    { \</div>
-<div class="line">        type&lt;TEMP&gt;* newObject = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type&lt;TEMP&gt;); \</div>
+<div class="line">        type&lt;TEMP&gt;* newObject = <span class="keyword">new</span> type&lt;TEMP&gt;; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    } \</div>
 <div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> TEMP&gt; \</div>
 <div class="line">    <span class="keyword">inline</span> type&lt;TEMP&gt;* type&lt;TEMP&gt;::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
-<div class="line">        type&lt;TEMP&gt;* newObject = <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type&lt;TEMP&gt;, num); \</div>
+<div class="line">        type&lt;TEMP&gt;* newObject = <span class="keyword">new</span> type&lt;TEMP&gt;[num]; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -455,13 +453,13 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class </span>... TEMP&gt; \</div>
 <div class="line">    <span class="keyword">inline</span> type&lt;TEMP...&gt;* type&lt;TEMP...&gt;::Create() \</div>
 <div class="line">    { \</div>
-<div class="line">        type&lt;TEMP...&gt;* newObject = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type&lt;TEMP...&gt;); \</div>
+<div class="line">        type&lt;TEMP...&gt;* newObject = <span class="keyword">new</span> type&lt;TEMP...&gt;; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    } \</div>
 <div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class </span>... TEMP&gt; \</div>
 <div class="line">    <span class="keyword">inline</span> type&lt;TEMP...&gt;* type&lt;TEMP...&gt;::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
-<div class="line">        type&lt;TEMP...&gt;* newObject = <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type&lt;TEMP...&gt;, num); \</div>
+<div class="line">        type&lt;TEMP...&gt;* newObject = <span class="keyword">new</span> type&lt;TEMP...&gt;[num]; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -601,12 +599,12 @@ Macros</h2></td></tr>
 <div class="line">    type* type::Create() \</div>
 <div class="line">    { \</div>
 <div class="line">        static_assert(std::is_base_of&lt;Core::RefCounted, type&gt;::value, <span class="stringliteral">&quot;Class must inherit from Core::RefCounted&quot;</span>); \</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type); \</div>
+<div class="line">        <span class="keywordflow">return</span> <span class="keyword">new</span> type; \</div>
 <div class="line">    }\</div>
 <div class="line">    type* type::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
 <div class="line">        static_assert(std::is_base_of&lt;Core::RefCounted, type&gt;::value, <span class="stringliteral">&quot;Class must inherit from Core::RefCounted&quot;</span>); \</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type, num); \</div>
+<div class="line">        <span class="keywordflow">return</span> <span class="keyword">new</span> type[num]; \</div>
 <div class="line">    }\</div>
 <div class="line">    <span class="keywordtype">bool</span> type::RegisterWithFactory() \</div>
 <div class="line">    { \</div>
@@ -658,12 +656,12 @@ Macros</h2></td></tr>
 <div class="line">    <span class="keywordtype">void</span>* type::FactoryArrayCreator(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) { <span class="keywordflow">return</span> type::CreateArray(num); } \</div>
 <div class="line">    type* type::Create() \</div>
 <div class="line">    { \</div>
-<div class="line">        type* newObject = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type); \</div>
+<div class="line">        type* newObject = <span class="keyword">new</span> type; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }\</div>
 <div class="line">    type* type::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
-<div class="line">        type* newObject = <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type, num); \</div>
+<div class="line">        type* newObject = <span class="keyword">new</span> type[num]; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }\</div>
 <div class="line">    <span class="keywordtype">bool</span> type::RegisterWithFactory() \</div>
@@ -709,12 +707,12 @@ Macros</h2></td></tr>
 <div class="line">    <span class="keywordtype">void</span>* type::FactoryArrayCreator(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) { <span class="keywordflow">return</span> type::CreateArray(num); } \</div>
 <div class="line">    type* type::Create() \</div>
 <div class="line">    { \</div>
-<div class="line">        type* newObject = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(type); \</div>
+<div class="line">        type* newObject = <span class="keyword">new</span> type; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }\</div>
 <div class="line">    type* type::CreateArray(<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) \</div>
 <div class="line">    { \</div>
-<div class="line">        type* newObject = <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(type, num); \</div>
+<div class="line">        type* newObject = <span class="keyword">new</span> type[num]; \</div>
 <div class="line">        <span class="keywordflow">return</span> newObject; \</div>
 <div class="line">    }\</div>
 <div class="line">    <span class="keywordtype">bool</span> type::RegisterWithFactory() \</div>
@@ -777,7 +775,7 @@ Macros</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="rttimacros_8h.html">rttimacros.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:22:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -35,6 +35,7 @@ var namespaces_dup =
     [ "Frame", "namespace_frame.html", "namespace_frame" ],
     [ "FrameSync", "namespace_frame_sync.html", "namespace_frame_sync" ],
     [ "Game", "namespace_game.html", "namespace_game" ],
+    [ "Gcc", "namespace_gcc.html", "namespace_gcc" ],
     [ "GLFW", "namespace_g_l_f_w.html", "namespace_g_l_f_w" ],
     [ "Gltf", "namespace_gltf.html", "namespace_gltf" ],
     [ "Graphics", "namespace_graphics.html", "namespace_graphics" ],

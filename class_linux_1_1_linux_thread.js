@@ -40,8 +40,8 @@ var class_linux_1_1_linux_thread =
     [ "name", "class_linux_1_1_linux_thread.html#a179083f6563e00d7c7ad3db1f0ee63fd", null ],
     [ "priority", "class_linux_1_1_linux_thread.html#aec84237f2b7ffb1d6ba417176dbef0ed", null ],
     [ "stackSize", "class_linux_1_1_linux_thread.html#a132ab293301df86b7688174fb5713022", null ],
-    [ "stopRequestEvent", "class_linux_1_1_linux_thread.html#a386db552395dd580af9d744f7aafbbe5", null ],
+    [ "stopRequestEvent", "class_linux_1_1_linux_thread.html#af553cb9d0fcaf059695f2ff94c980b2e", null ],
     [ "thread", "class_linux_1_1_linux_thread.html#a744f2e44fa972719ae18c03e65420a83", null ],
-    [ "threadStartedEvent", "class_linux_1_1_linux_thread.html#a56d6365c4ae7a42bae5a17c7fc4dba9f", null ],
+    [ "threadStartedEvent", "class_linux_1_1_linux_thread.html#a23439236acccf77e85e04fd0e8df14ae", null ],
     [ "threadState", "class_linux_1_1_linux_thread.html#a0cb730d963a8bba920e37d66d903cbeb", null ]
 ];

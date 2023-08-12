@@ -472,7 +472,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span><span class="keyword">typename</span> <a class="code hl_class" href="class_util_1_1_list_1_1_iterator.html">List&lt;TYPE&gt;::Iterator</a></div>
 <div class="line"><a id="l00497" name="l00497"></a><span class="lineno"><a class="line" href="class_util_1_1_list.html#a7eba0112f6d756f64eff9b1b313be3e1">  497</a></span><a class="code hl_function" href="class_util_1_1_list.html#a7eba0112f6d756f64eff9b1b313be3e1">List&lt;TYPE&gt;::AddAfter</a>(<a class="code hl_class" href="class_util_1_1_list_1_1_iterator.html">Iterator</a> iter, <span class="keyword">const</span> TYPE&amp; e)</div>
 <div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span>{</div>
-<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>    <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>* node = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(<a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>(e));</div>
+<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>    <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>* node = <span class="keyword">new</span> <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>(e);</div>
 <div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>    <span class="keywordflow">if</span> (0 == iter.<a class="code hl_function" href="class_util_1_1_list_1_1_iterator.html#a63c3d77d5573d6638957d3dfa290b50e">GetNode</a>())</div>
 <div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>    {</div>
 <div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span><span class="preprocessor">        #if NEBULA_BOUNDSCHECKS</span></div>
@@ -503,7 +503,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span><span class="keyword">typename</span> <a class="code hl_class" href="class_util_1_1_list_1_1_iterator.html">List&lt;TYPE&gt;::Iterator</a></div>
 <div class="line"><a id="l00530" name="l00530"></a><span class="lineno"><a class="line" href="class_util_1_1_list.html#a73b3965076bb2e03aa39a0ead0603cd9">  530</a></span><a class="code hl_function" href="class_util_1_1_list.html#a73b3965076bb2e03aa39a0ead0603cd9">List&lt;TYPE&gt;::AddBefore</a>(<a class="code hl_class" href="class_util_1_1_list_1_1_iterator.html">Iterator</a> iter, <span class="keyword">const</span> TYPE&amp; e)</div>
 <div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>{</div>
-<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a> *node = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(<a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>(e));</div>
+<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a> *node = <span class="keyword">new</span> <a class="code hl_class" href="class_util_1_1_list_1_1_node.html">Node</a>(e);</div>
 <div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>    <span class="keywordflow">if</span> (0 == iter.<a class="code hl_function" href="class_util_1_1_list_1_1_iterator.html#a63c3d77d5573d6638957d3dfa290b50e">GetNode</a>())</div>
 <div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>    {</div>
 <div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span><span class="preprocessor">        #if NEBULA_BOUNDSCHECKS</span></div>
@@ -573,7 +573,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    node-&gt;<a class="code hl_function" href="class_util_1_1_list_1_1_node.html#a7dc4c730c48127f8602fee2031b33d6a">SetNext</a>(0);</div>
 <div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    node-&gt;<a class="code hl_function" href="class_util_1_1_list_1_1_node.html#ab2f4a6275adf8e425aafa8116dc09b6b">SetPrev</a>(0);</div>
 <div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>    TYPE elm = node-&gt;<a class="code hl_function" href="class_util_1_1_list_1_1_node.html#af95a25229cea9090190b45c942dafce3">Value</a>();</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    <a class="code hl_define" href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a>(node);</div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    <span class="keyword">delete</span> node;</div>
 <div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="keywordflow">return</span> elm;</div>
 <div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>}</div>
 <div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span> </div>
@@ -712,8 +712,6 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 <div class="ttc" id="aclass_util_1_1_list_html_affcb6bd57e919404983e31551b663b14"><div class="ttname"><a href="class_util_1_1_list.html#affcb6bd57e919404983e31551b663b14">Util::List::~List</a></div><div class="ttdeci">~List()</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> list.h:423</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">Tuple helper functions and typedefs.</div><div class="ttdef"><b>Definition</b> array.h:38</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a300669d394130c8ecfa940a1138f3f77"><div class="ttname"><a href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a></div><div class="ttdeci">#define n_delete(ptr)</div><div class="ttdef"><b>Definition</b> osxmemory.h:115</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a51c2e4de1ee6fbd34ba914d85503008b"><div class="ttname"><a href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a></div><div class="ttdeci">#define n_new(type)</div><div class="ttdef"><b>Definition</b> osxmemory.h:113</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 <div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition</b> types.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -723,7 +721,7 @@ $(document).ready(function(){initNavTree('list_8h_source.html',''); initResizabl
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="list_8h.html">list.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:21:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

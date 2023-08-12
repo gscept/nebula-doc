@@ -150,9 +150,9 @@ $(document).ready(function(){initNavTree('blob_8h_source.html',''); initResizabl
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">  101</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="class_memory_1_1_heap.html">Memory::Heap</a>* <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a>;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4">  103</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4">ptr</a>;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">  104</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>;</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#a823757eae0da37b10866c4f52cc80a7a">  105</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_util_1_1_blob.html#a823757eae0da37b10866c4f52cc80a7a">allocSize</a>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4">  103</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4">ptr</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">  104</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">size</a> = 0;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#a823757eae0da37b10866c4f52cc80a7a">  105</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_util_1_1_blob.html#a823757eae0da37b10866c4f52cc80a7a">allocSize</a> = 0;</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('blob_8h_source.html',''); initResizabl
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#aa892e59aa06424470cc4f6a11460d7f5">  133</a></span><a class="code hl_function" href="class_util_1_1_blob.html#aa892e59aa06424470cc4f6a11460d7f5">Blob::Setup</a>()</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>{</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 == <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a>);</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a> = <a class="code hl_define" href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a>(<a class="code hl_class" href="class_memory_1_1_heap.html">Memory::Heap</a>(<span class="stringliteral">&quot;Util.Blob.DataHeap&quot;</span>));</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a> = <span class="keyword">new</span> <a class="code hl_class" href="class_memory_1_1_heap.html">Memory::Heap</a>(<span class="stringliteral">&quot;Util.Blob.DataHeap&quot;</span>);</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>}</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="comment">//------------------------------------------------------------------------------</span></div>
@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('blob_8h_source.html',''); initResizabl
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="class_util_1_1_blob.html#ad5cf950688a408472821ed2bfda3c65d">  143</a></span><a class="code hl_function" href="class_util_1_1_blob.html#ad5cf950688a408472821ed2bfda3c65d">Blob::Shutdown</a>()</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>{</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 != <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a>);</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <a class="code hl_define" href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a>(<a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a>);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a>;</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <a class="code hl_variable" href="class_util_1_1_blob.html#af34e27f98b3d20e095daee02c067c9fd">DataHeap</a> = 0;</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>}</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
@@ -531,8 +531,6 @@ $(document).ready(function(){initNavTree('blob_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespace_memory_html_a6055e491858cd969e93326d9b3e4b420"><div class="ttname"><a href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a></div><div class="ttdeci">void Free(HeapType heapType, void *ptr)</div><div class="ttdoc">Free a block of memory.</div><div class="ttdef"><b>Definition</b> osxmemory.cc:136</div></div>
 <div class="ttc" id="anamespace_memory_html_a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71"><div class="ttname"><a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71">Memory::ObjectHeap</a></div><div class="ttdeci">@ ObjectHeap</div><div class="ttdef"><b>Definition</b> osxmemoryconfig.h:27</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">Tuple helper functions and typedefs.</div><div class="ttdef"><b>Definition</b> array.h:38</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a300669d394130c8ecfa940a1138f3f77"><div class="ttname"><a href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a></div><div class="ttdeci">#define n_delete(ptr)</div><div class="ttdef"><b>Definition</b> osxmemory.h:115</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a51c2e4de1ee6fbd34ba914d85503008b"><div class="ttname"><a href="osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b">n_new</a></div><div class="ttdeci">#define n_new(type)</div><div class="ttdef"><b>Definition</b> osxmemory.h:113</div></div>
 <div class="ttc" id="apoolarrayallocator_8h_html"><div class="ttname"><a href="poolarrayallocator_8h.html">poolarrayallocator.h</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 <div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
@@ -544,7 +542,7 @@ $(document).ready(function(){initNavTree('blob_8h_source.html',''); initResizabl
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="blob_8h.html">blob.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:21:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.9.7"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: Posix::PosixInterlocked Class Reference</title>
+		<title>Nebula: Gcc::GccInterlocked Class Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_posix_1_1_posix_interlocked.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_gcc_1_1_gcc_interlocked.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,58 +92,58 @@ $(document).ready(function(){initNavTree('class_posix_1_1_posix_interlocked.html
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_posix_1_1_posix_interlocked-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Posix::PosixInterlocked Class Reference</div></div>
+<a href="class_gcc_1_1_gcc_interlocked-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Gcc::GccInterlocked Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="posixinterlocked_8h_source.html">posixinterlocked.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="gcc_2interlocked_8h_source.html">interlocked.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides simple atomic operations on shared variables. </p>
-<p>(C) 2013-2018 Individual contributors, see AUTHORS file </p>
+<div class="textblock"><p>Provides simple atomic operations on shared variables using gcc compiler builtins. </p>
+<p>(C) 2013-2023 Individual contributors, see AUTHORS file </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a46e40862c49a29e61b5f50f1fde93775"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#a46e40862c49a29e61b5f50f1fde93775">Increment</a> (int volatile *var)</td></tr>
-<tr class="memdesc:a46e40862c49a29e61b5f50f1fde93775"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment  <br /></td></tr>
-<tr class="separator:a46e40862c49a29e61b5f50f1fde93775"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8738d4f4f305b3a44dd1395c52ab752f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#a8738d4f4f305b3a44dd1395c52ab752f">Decrement</a> (int volatile *var)</td></tr>
-<tr class="memdesc:a8738d4f4f305b3a44dd1395c52ab752f"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement  <br /></td></tr>
-<tr class="separator:a8738d4f4f305b3a44dd1395c52ab752f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1363aae1b4b7f3ed44ee4b23fb7faf"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#abd1363aae1b4b7f3ed44ee4b23fb7faf">Increment</a> (long volatile *var)</td></tr>
-<tr class="memdesc:abd1363aae1b4b7f3ed44ee4b23fb7faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment, return result  <br /></td></tr>
-<tr class="separator:abd1363aae1b4b7f3ed44ee4b23fb7faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9185fc73fd419497527d99a27a242d"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#aab9185fc73fd419497527d99a27a242d">Decrement</a> (long volatile *var)</td></tr>
-<tr class="memdesc:aab9185fc73fd419497527d99a27a242d"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement, return result  <br /></td></tr>
-<tr class="separator:aab9185fc73fd419497527d99a27a242d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad61bc621f4d6a9b209df703132145ce1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#ad61bc621f4d6a9b209df703132145ce1">Add</a> (int volatile *var, int add)</td></tr>
-<tr class="memdesc:ad61bc621f4d6a9b209df703132145ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked add  <br /></td></tr>
-<tr class="separator:ad61bc621f4d6a9b209df703132145ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2325b321a397b8cfe9598eb81505da96"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#a2325b321a397b8cfe9598eb81505da96">Or</a> (int volatile *var, int value)</td></tr>
-<tr class="memdesc:a2325b321a397b8cfe9598eb81505da96"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked or  <br /></td></tr>
-<tr class="separator:a2325b321a397b8cfe9598eb81505da96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeea8e70295a55bb29d992b433782454"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#adeea8e70295a55bb29d992b433782454">And</a> (int volatile *var, int value)</td></tr>
-<tr class="memdesc:adeea8e70295a55bb29d992b433782454"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked and  <br /></td></tr>
-<tr class="separator:adeea8e70295a55bb29d992b433782454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2ea1fdfc46982ccd51aca6ea8e58a0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#abd2ea1fdfc46982ccd51aca6ea8e58a0">Xor</a> (int volatile *var, int value)</td></tr>
-<tr class="memdesc:abd2ea1fdfc46982ccd51aca6ea8e58a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked xor  <br /></td></tr>
-<tr class="separator:abd2ea1fdfc46982ccd51aca6ea8e58a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14b7ceee287d38f139d19989d4d722bf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#a14b7ceee287d38f139d19989d4d722bf">Exchange</a> (int volatile *dest, int value)</td></tr>
-<tr class="memdesc:a14b7ceee287d38f139d19989d4d722bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
-<tr class="separator:a14b7ceee287d38f139d19989d4d722bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d31382ad39fb1481db792ae9d29e05"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#ac5d31382ad39fb1481db792ae9d29e05">ExchangePointer</a> (void *volatile *dest, void *value)</td></tr>
-<tr class="memdesc:ac5d31382ad39fb1481db792ae9d29e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
-<tr class="separator:ac5d31382ad39fb1481db792ae9d29e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb394b150ce2c0dadd68f666bedf0b2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#aadb394b150ce2c0dadd68f666bedf0b2">CompareExchange</a> (int volatile *dest, int exchange, int comparand)</td></tr>
-<tr class="memdesc:aadb394b150ce2c0dadd68f666bedf0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked compare-exchange  <br /></td></tr>
-<tr class="separator:aadb394b150ce2c0dadd68f666bedf0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df2b6ceb2f8ac423ceaba96e6f9f41b"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_posix_1_1_posix_interlocked.html#a4df2b6ceb2f8ac423ceaba96e6f9f41b">CompareExchangePointer</a> (void *volatile *dest, void *exchange, void *comparand)</td></tr>
-<tr class="memdesc:a4df2b6ceb2f8ac423ceaba96e6f9f41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
-<tr class="separator:a4df2b6ceb2f8ac423ceaba96e6f9f41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e5dd208ea8b0eb3e08ce17dbd02187"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#ad5e5dd208ea8b0eb3e08ce17dbd02187">Increment</a> (int volatile *var)</td></tr>
+<tr class="memdesc:ad5e5dd208ea8b0eb3e08ce17dbd02187"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment  <br /></td></tr>
+<tr class="separator:ad5e5dd208ea8b0eb3e08ce17dbd02187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67881991a0860f1ac69cce7321e93a12"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a67881991a0860f1ac69cce7321e93a12">Decrement</a> (int volatile *var)</td></tr>
+<tr class="memdesc:a67881991a0860f1ac69cce7321e93a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement  <br /></td></tr>
+<tr class="separator:a67881991a0860f1ac69cce7321e93a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eafcb12959fdcf889dd53a86afdbdda"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a7eafcb12959fdcf889dd53a86afdbdda">Increment</a> (long volatile *var)</td></tr>
+<tr class="memdesc:a7eafcb12959fdcf889dd53a86afdbdda"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment, return result  <br /></td></tr>
+<tr class="separator:a7eafcb12959fdcf889dd53a86afdbdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6f3ffc3066babfb1efa9932e20d1e8"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#aba6f3ffc3066babfb1efa9932e20d1e8">Decrement</a> (long volatile *var)</td></tr>
+<tr class="memdesc:aba6f3ffc3066babfb1efa9932e20d1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement, return result  <br /></td></tr>
+<tr class="separator:aba6f3ffc3066babfb1efa9932e20d1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc9978457c7aa5135b9012a945127b0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a7cc9978457c7aa5135b9012a945127b0">Add</a> (int volatile *var, int add)</td></tr>
+<tr class="memdesc:a7cc9978457c7aa5135b9012a945127b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked add  <br /></td></tr>
+<tr class="separator:a7cc9978457c7aa5135b9012a945127b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581848c569b3e612c4dba0de6bc32f5a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a581848c569b3e612c4dba0de6bc32f5a">Or</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a581848c569b3e612c4dba0de6bc32f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked or  <br /></td></tr>
+<tr class="separator:a581848c569b3e612c4dba0de6bc32f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b74d64d562fbe6a3aa8d0c8b7f39f75"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a8b74d64d562fbe6a3aa8d0c8b7f39f75">And</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a8b74d64d562fbe6a3aa8d0c8b7f39f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked and  <br /></td></tr>
+<tr class="separator:a8b74d64d562fbe6a3aa8d0c8b7f39f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8e4ae48e8d9686a0d8cc26565922c0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a0c8e4ae48e8d9686a0d8cc26565922c0">Xor</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a0c8e4ae48e8d9686a0d8cc26565922c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked xor  <br /></td></tr>
+<tr class="separator:a0c8e4ae48e8d9686a0d8cc26565922c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab375d635c5b1f9a574da94715260712c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#ab375d635c5b1f9a574da94715260712c">Exchange</a> (int volatile *dest, int value)</td></tr>
+<tr class="memdesc:ab375d635c5b1f9a574da94715260712c"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:ab375d635c5b1f9a574da94715260712c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474e930fadb67b6829e35710d958d38a"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a474e930fadb67b6829e35710d958d38a">ExchangePointer</a> (void *volatile *dest, void *value)</td></tr>
+<tr class="memdesc:a474e930fadb67b6829e35710d958d38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:a474e930fadb67b6829e35710d958d38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8105f6bed6a897e9be1536fce23fc5a0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a8105f6bed6a897e9be1536fce23fc5a0">CompareExchange</a> (int volatile *dest, int exchange, int comparand)</td></tr>
+<tr class="memdesc:a8105f6bed6a897e9be1536fce23fc5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked compare-exchange  <br /></td></tr>
+<tr class="separator:a8105f6bed6a897e9be1536fce23fc5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efe48f891244bb937ae4932cafc9653"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gcc_1_1_gcc_interlocked.html#a8efe48f891244bb937ae4932cafc9653">CompareExchangePointer</a> (void *volatile *dest, void *exchange, void *comparand)</td></tr>
+<tr class="memdesc:a8efe48f891244bb937ae4932cafc9653"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:a8efe48f891244bb937ae4932cafc9653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad61bc621f4d6a9b209df703132145ce1" name="ad61bc621f4d6a9b209df703132145ce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad61bc621f4d6a9b209df703132145ce1">&#9670;&#160;</a></span>Add()</h2>
+<a id="a7cc9978457c7aa5135b9012a945127b0" name="a7cc9978457c7aa5135b9012a945127b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc9978457c7aa5135b9012a945127b0">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,7 +152,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Add </td>
+          <td class="memname">int Gcc::GccInterlocked::Add </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em>, </td>
@@ -180,8 +180,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adeea8e70295a55bb29d992b433782454" name="adeea8e70295a55bb29d992b433782454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adeea8e70295a55bb29d992b433782454">&#9670;&#160;</a></span>And()</h2>
+<a id="a8b74d64d562fbe6a3aa8d0c8b7f39f75" name="a8b74d64d562fbe6a3aa8d0c8b7f39f75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b74d64d562fbe6a3aa8d0c8b7f39f75">&#9670;&#160;</a></span>And()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +190,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::And </td>
+          <td class="memname">int Gcc::GccInterlocked::And </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em>, </td>
@@ -218,8 +218,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aadb394b150ce2c0dadd68f666bedf0b2" name="aadb394b150ce2c0dadd68f666bedf0b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb394b150ce2c0dadd68f666bedf0b2">&#9670;&#160;</a></span>CompareExchange()</h2>
+<a id="a8105f6bed6a897e9be1536fce23fc5a0" name="a8105f6bed6a897e9be1536fce23fc5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8105f6bed6a897e9be1536fce23fc5a0">&#9670;&#160;</a></span>CompareExchange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +228,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::CompareExchange </td>
+          <td class="memname">int Gcc::GccInterlocked::CompareExchange </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -262,8 +262,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4df2b6ceb2f8ac423ceaba96e6f9f41b" name="a4df2b6ceb2f8ac423ceaba96e6f9f41b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4df2b6ceb2f8ac423ceaba96e6f9f41b">&#9670;&#160;</a></span>CompareExchangePointer()</h2>
+<a id="a8efe48f891244bb937ae4932cafc9653" name="a8efe48f891244bb937ae4932cafc9653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efe48f891244bb937ae4932cafc9653">&#9670;&#160;</a></span>CompareExchangePointer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +272,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void * Posix::PosixInterlocked::CompareExchangePointer </td>
+          <td class="memname">void * Gcc::GccInterlocked::CompareExchangePointer </td>
           <td>(</td>
           <td class="paramtype">void *volatile *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -306,8 +306,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8738d4f4f305b3a44dd1395c52ab752f" name="a8738d4f4f305b3a44dd1395c52ab752f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8738d4f4f305b3a44dd1395c52ab752f">&#9670;&#160;</a></span>Decrement() <span class="overload">[1/2]</span></h2>
+<a id="a67881991a0860f1ac69cce7321e93a12" name="a67881991a0860f1ac69cce7321e93a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67881991a0860f1ac69cce7321e93a12">&#9670;&#160;</a></span>Decrement() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +316,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Decrement </td>
+          <td class="memname">int Gcc::GccInterlocked::Decrement </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em></td><td>)</td>
@@ -334,8 +334,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aab9185fc73fd419497527d99a27a242d" name="aab9185fc73fd419497527d99a27a242d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9185fc73fd419497527d99a27a242d">&#9670;&#160;</a></span>Decrement() <span class="overload">[2/2]</span></h2>
+<a id="aba6f3ffc3066babfb1efa9932e20d1e8" name="aba6f3ffc3066babfb1efa9932e20d1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6f3ffc3066babfb1efa9932e20d1e8">&#9670;&#160;</a></span>Decrement() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +344,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long Posix::PosixInterlocked::Decrement </td>
+          <td class="memname">long Gcc::GccInterlocked::Decrement </td>
           <td>(</td>
           <td class="paramtype">long volatile *&#160;</td>
           <td class="paramname"><em>var</em></td><td>)</td>
@@ -362,8 +362,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a14b7ceee287d38f139d19989d4d722bf" name="a14b7ceee287d38f139d19989d4d722bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14b7ceee287d38f139d19989d4d722bf">&#9670;&#160;</a></span>Exchange()</h2>
+<a id="ab375d635c5b1f9a574da94715260712c" name="ab375d635c5b1f9a574da94715260712c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab375d635c5b1f9a574da94715260712c">&#9670;&#160;</a></span>Exchange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +372,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Exchange </td>
+          <td class="memname">int Gcc::GccInterlocked::Exchange </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -400,8 +400,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5d31382ad39fb1481db792ae9d29e05" name="ac5d31382ad39fb1481db792ae9d29e05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5d31382ad39fb1481db792ae9d29e05">&#9670;&#160;</a></span>ExchangePointer()</h2>
+<a id="a474e930fadb67b6829e35710d958d38a" name="a474e930fadb67b6829e35710d958d38a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474e930fadb67b6829e35710d958d38a">&#9670;&#160;</a></span>ExchangePointer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,7 +410,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void * Posix::PosixInterlocked::ExchangePointer </td>
+          <td class="memname">void * Gcc::GccInterlocked::ExchangePointer </td>
           <td>(</td>
           <td class="paramtype">void *volatile *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -438,8 +438,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a46e40862c49a29e61b5f50f1fde93775" name="a46e40862c49a29e61b5f50f1fde93775"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46e40862c49a29e61b5f50f1fde93775">&#9670;&#160;</a></span>Increment() <span class="overload">[1/2]</span></h2>
+<a id="ad5e5dd208ea8b0eb3e08ce17dbd02187" name="ad5e5dd208ea8b0eb3e08ce17dbd02187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e5dd208ea8b0eb3e08ce17dbd02187">&#9670;&#160;</a></span>Increment() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +448,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Increment </td>
+          <td class="memname">int Gcc::GccInterlocked::Increment </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em></td><td>)</td>
@@ -466,8 +466,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abd1363aae1b4b7f3ed44ee4b23fb7faf" name="abd1363aae1b4b7f3ed44ee4b23fb7faf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd1363aae1b4b7f3ed44ee4b23fb7faf">&#9670;&#160;</a></span>Increment() <span class="overload">[2/2]</span></h2>
+<a id="a7eafcb12959fdcf889dd53a86afdbdda" name="a7eafcb12959fdcf889dd53a86afdbdda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eafcb12959fdcf889dd53a86afdbdda">&#9670;&#160;</a></span>Increment() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +476,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long Posix::PosixInterlocked::Increment </td>
+          <td class="memname">long Gcc::GccInterlocked::Increment </td>
           <td>(</td>
           <td class="paramtype">long volatile *&#160;</td>
           <td class="paramname"><em>var</em></td><td>)</td>
@@ -494,8 +494,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2325b321a397b8cfe9598eb81505da96" name="a2325b321a397b8cfe9598eb81505da96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2325b321a397b8cfe9598eb81505da96">&#9670;&#160;</a></span>Or()</h2>
+<a id="a581848c569b3e612c4dba0de6bc32f5a" name="a581848c569b3e612c4dba0de6bc32f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581848c569b3e612c4dba0de6bc32f5a">&#9670;&#160;</a></span>Or()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +504,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Or </td>
+          <td class="memname">int Gcc::GccInterlocked::Or </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em>, </td>
@@ -532,8 +532,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abd2ea1fdfc46982ccd51aca6ea8e58a0" name="abd2ea1fdfc46982ccd51aca6ea8e58a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd2ea1fdfc46982ccd51aca6ea8e58a0">&#9670;&#160;</a></span>Xor()</h2>
+<a id="a0c8e4ae48e8d9686a0d8cc26565922c0" name="a0c8e4ae48e8d9686a0d8cc26565922c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8e4ae48e8d9686a0d8cc26565922c0">&#9670;&#160;</a></span>Xor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +542,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Posix::PosixInterlocked::Xor </td>
+          <td class="memname">int Gcc::GccInterlocked::Xor </td>
           <td>(</td>
           <td class="paramtype">int volatile *&#160;</td>
           <td class="paramname"><em>var</em>, </td>
@@ -571,16 +571,16 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/github/workspace/code/foundation/threading/posix/<a class="el" href="posixinterlocked_8h_source.html">posixinterlocked.h</a></li>
+<li>/github/workspace/code/foundation/threading/gcc/<a class="el" href="gcc_2interlocked_8h_source.html">interlocked.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="namespace_posix.html">Posix</a></li><li class="navelem"><a class="el" href="class_posix_1_1_posix_interlocked.html">PosixInterlocked</a></li>
+				<li class="navelem"><a class="el" href="namespace_gcc.html">Gcc</a></li><li class="navelem"><a class="el" href="class_gcc_1_1_gcc_interlocked.html">GccInterlocked</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:22:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

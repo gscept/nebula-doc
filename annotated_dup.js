@@ -284,7 +284,6 @@ var annotated_dup =
       [ "WindowId", "struct_core_graphics_1_1_window_id.html", null ]
     ] ],
     [ "Darwin", "namespace_darwin.html", [
-      [ "DarwinInterlocked", "class_darwin_1_1_darwin_interlocked.html", "class_darwin_1_1_darwin_interlocked" ],
       [ "DarwinSystemInfo", "class_darwin_1_1_darwin_system_info.html", "class_darwin_1_1_darwin_system_info" ],
       [ "DarwinTimer", "class_darwin_1_1_darwin_timer.html", "class_darwin_1_1_darwin_timer" ]
     ] ],
@@ -425,6 +424,9 @@ var annotated_dup =
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
       [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ],
       [ "WorldCreateInfo", "struct_game_1_1_world_create_info.html", "struct_game_1_1_world_create_info" ]
+    ] ],
+    [ "Gcc", "namespace_gcc.html", [
+      [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
     ] ],
     [ "GLFW", "namespace_g_l_f_w.html", [
       [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],
@@ -644,9 +646,7 @@ var annotated_dup =
     ] ],
     [ "Linux", "namespace_linux.html", [
       [ "LinuxCompletionCounter", "class_linux_1_1_linux_completion_counter.html", "class_linux_1_1_linux_completion_counter" ],
-      [ "LinuxCriticalSection", "class_linux_1_1_linux_critical_section.html", "class_linux_1_1_linux_critical_section" ],
       [ "LinuxEvent", "class_linux_1_1_linux_event.html", "class_linux_1_1_linux_event" ],
-      [ "LinuxInterlocked", "class_linux_1_1_linux_interlocked.html", "class_linux_1_1_linux_interlocked" ],
       [ "LinuxRendezvous", "class_linux_1_1_linux_rendezvous.html", "class_linux_1_1_linux_rendezvous" ],
       [ "LinuxThread", "class_linux_1_1_linux_thread.html", "class_linux_1_1_linux_thread" ],
       [ "LinuxThreadLocalData", "class_linux_1_1_linux_thread_local_data.html", "class_linux_1_1_linux_thread_local_data" ],
@@ -772,7 +772,6 @@ var annotated_dup =
       [ "OSXFSWrapper", "class_o_s_x_1_1_o_s_x_f_s_wrapper.html", "class_o_s_x_1_1_o_s_x_f_s_wrapper" ],
       [ "OSXGuid", "class_o_s_x_1_1_o_s_x_guid.html", "class_o_s_x_1_1_o_s_x_guid" ],
       [ "OSXHeap", "class_o_s_x_1_1_o_s_x_heap.html", "class_o_s_x_1_1_o_s_x_heap" ],
-      [ "OSXInterlocked", "class_o_s_x_1_1_o_s_x_interlocked.html", "class_o_s_x_1_1_o_s_x_interlocked" ],
       [ "OSXMemoryPool", "class_o_s_x_1_1_o_s_x_memory_pool.html", "class_o_s_x_1_1_o_s_x_memory_pool" ],
       [ "OSXThread", "class_o_s_x_1_1_o_s_x_thread.html", "class_o_s_x_1_1_o_s_x_thread" ],
       [ "OSXThreadLocalPtr", "class_o_s_x_1_1_o_s_x_thread_local_ptr.html", "class_o_s_x_1_1_o_s_x_thread_local_ptr" ],
@@ -822,7 +821,6 @@ var annotated_dup =
       [ "PosixFSWrapper", "class_posix_1_1_posix_f_s_wrapper.html", "class_posix_1_1_posix_f_s_wrapper" ],
       [ "PosixGuid", "class_posix_1_1_posix_guid.html", "class_posix_1_1_posix_guid" ],
       [ "PosixHeap", "class_posix_1_1_posix_heap.html", "class_posix_1_1_posix_heap" ],
-      [ "PosixInterlocked", "class_posix_1_1_posix_interlocked.html", "class_posix_1_1_posix_interlocked" ],
       [ "PosixIpAddress", "class_posix_1_1_posix_ip_address.html", "class_posix_1_1_posix_ip_address" ],
       [ "PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", "class_posix_1_1_posix_memory_pool" ],
       [ "PosixProcess", "class_posix_1_1_posix_process.html", "class_posix_1_1_posix_process" ],
@@ -1122,7 +1120,6 @@ var annotated_dup =
     [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
-    [ "LinuxBarrier", "class_linux_1_1_linux_barrier.html", null ],
     [ "LinuxThreadId", "class_linux_1_1_linux_thread_id.html", null ],
     [ "MemoryPool", "class_memory_1_1_memory_pool.html", null ],
     [ "MiniDump", "class_debug_1_1_mini_dump.html", null ],

@@ -23,7 +23,7 @@ var searchData=
   ['xmlwriter_20',['XmlWriter',['../class_i_o_1_1_xml_writer.html#a9f79cc7a5a2b1505c46f5df9063e5a05',1,'IO::XmlWriter']]],
   ['xmlwriter_2ecc_21',['xmlwriter.cc',['../xmlwriter_8cc.html',1,'']]],
   ['xmlwriter_2eh_22',['xmlwriter.h',['../xmlwriter_8h.html',1,'']]],
-  ['xor_23',['Xor',['../class_linux_1_1_linux_interlocked.html#a9eb8a6cf325614a6233a0bbdc126f562',1,'Linux::LinuxInterlocked::Xor()'],['../class_posix_1_1_posix_interlocked.html#abd2ea1fdfc46982ccd51aca6ea8e58a0',1,'Posix::PosixInterlocked::Xor()'],['../class_win32_1_1_win32_interlocked.html#a473049e870f23afe0f310f753f2f0609',1,'Win32::Win32Interlocked::Xor(int volatile *var, int value)'],['../class_win32_1_1_win32_interlocked.html#a4ab511b58a1e8c19c9e2d2abe5115b32',1,'Win32::Win32Interlocked::Xor(long volatile *var, long value)']]],
+  ['xor_23',['Xor',['../class_gcc_1_1_gcc_interlocked.html#a0c8e4ae48e8d9686a0d8cc26565922c0',1,'Gcc::GccInterlocked::Xor()'],['../class_win32_1_1_win32_interlocked.html#a473049e870f23afe0f310f753f2f0609',1,'Win32::Win32Interlocked::Xor(int volatile *var, int value)'],['../class_win32_1_1_win32_interlocked.html#a4ab511b58a1e8c19c9e2d2abe5115b32',1,'Win32::Win32Interlocked::Xor(long volatile *var, long value)']]],
   ['xpos_24',['xPos',['../class_core_graphics_1_1_display_mode.html#ab666791dbb6fd3b7e0809511f5cbd814',1,'CoreGraphics::DisplayMode']]],
   ['xresolution_25',['xResolution',['../namespace_clustering.html#a581f331c494a300ae88fa56b64571df4',1,'Clustering']]],
   ['xyz_26',['xyz',['../namespace_math.html#aeeb92731f898b836b0375bce0533c99a',1,'Math::xyz(const point &amp;v)'],['../namespace_math.html#a36a0ba4d68592b49f075d561541b2a4a',1,'Math::xyz(const vec4 &amp;v)']]]

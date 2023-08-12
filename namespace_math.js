@@ -48,6 +48,7 @@ var namespace_math =
     [ "affinetransformation", "namespace_math.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "align", "namespace_math.html#a830feebf365bd62d5956c9b13d35138f", null ],
     [ "align_down", "namespace_math.html#a35f94f05de58cb30d5d9c470ae4171c3", null ],
+    [ "alignptr", "namespace_math.html#a12ea634cbc84ed1f31d564f59d42fd73", null ],
     [ "angle", "namespace_math.html#a3ed993786746100f3293e49c762ba985", null ],
     [ "angle", "namespace_math.html#aeb3eb92f4766e480fc865ee30e5118b6", null ],
     [ "angulardistance", "namespace_math.html#a9df9db5698804c0dcd7f6ece84915213", null ],

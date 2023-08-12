@@ -184,7 +184,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>{</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keywordflow">if</span> (0 == Threading::Interlocked::Decrement(&amp;this-&gt;<a class="code hl_variable" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>))</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    {</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <a class="code hl_define" href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    }</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>}</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
@@ -291,7 +291,6 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="ttc" id="afactory_8h_html"><div class="ttname"><a href="factory_8h.html">factory.h</a></div></div>
 <div class="ttc" id="ainterlocked_8h_html"><div class="ttname"><a href="interlocked_8h.html">interlocked.h</a></div></div>
 <div class="ttc" id="anamespace_core_html"><div class="ttname"><a href="namespace_core.html">Core</a></div><div class="ttdef"><b>Definition</b> coreserver.cc:10</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a300669d394130c8ecfa940a1138f3f77"><div class="ttname"><a href="osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77">n_delete</a></div><div class="ttdeci">#define n_delete(ptr)</div><div class="ttdef"><b>Definition</b> osxmemory.h:115</div></div>
 <div class="ttc" id="arefcountedlist_8h_html"><div class="ttname"><a href="refcountedlist_8h.html">refcountedlist.h</a></div></div>
 <div class="ttc" id="artti_8h_html"><div class="ttname"><a href="rtti_8h.html">rtti.h</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
@@ -303,7 +302,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="refcounted_8h.html">refcounted.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:21:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

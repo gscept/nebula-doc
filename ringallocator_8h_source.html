@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('ringallocator_8h_source.html',''); ini
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        this-&gt;<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#a20b68422891959e7049a51883499d458">states</a>[i] = <a class="code hl_enumvalue" href="class_memory_1_1_ring_allocator.html#a5601ff6cfa65a66bcfdeef78acddf255a697ddc3ed41c9816f4dc107c9b732976">Reset</a>;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#aae00013fe0cc428aa36d37aeafbfc23c">buffer</a> = <a class="code hl_define" href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a>(<span class="keywordtype">byte</span>, size);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#aae00013fe0cc428aa36d37aeafbfc23c">buffer</a> = <span class="keyword">new</span> <span class="keywordtype">byte</span>[<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#aa69747cd335580e4729a524327894630">size</a>];</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#a8ee1f6cda61e4260f2a41c3401545be6">currentAllocation</a> = 0;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_ring_allocator.html#ab0778c2aec7efd8600df614707da1ccb">currentInterval</a>.<a class="code hl_variable" href="struct_memory_1_1_ring_allocator_1_1_interval.html#a187200a421dde54d2d929dfb8706aef2">lower</a> = 0;</div>
@@ -287,7 +287,6 @@ $(document).ready(function(){initNavTree('ringallocator_8h_source.html',''); ini
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
 <div class="ttc" id="afoundation_2threading_2event_8h_html"><div class="ttname"><a href="foundation_2threading_2event_8h.html">event.h</a></div></div>
 <div class="ttc" id="anamespace_memory_html"><div class="ttname"><a href="namespace_memory.html">Memory</a></div><div class="ttdef"><b>Definition</b> arenaallocator.h:31</div></div>
-<div class="ttc" id="aosxmemory_8h_html_a5cf48dc77bff1d634ec12422258d9f3b"><div class="ttname"><a href="osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b">n_new_array</a></div><div class="ttdeci">#define n_new_array(type, size)</div><div class="ttdef"><b>Definition</b> osxmemory.h:114</div></div>
 <div class="ttc" id="astruct_memory_1_1_ring_alloc_html"><div class="ttname"><a href="struct_memory_1_1_ring_alloc.html">Memory::RingAlloc</a></div><div class="ttdef"><b>Definition</b> ringallocator.h:22</div></div>
 <div class="ttc" id="astruct_memory_1_1_ring_alloc_html_a5931bc85bddee86af0a5b4acdc63fdca"><div class="ttname"><a href="struct_memory_1_1_ring_alloc.html#a5931bc85bddee86af0a5b4acdc63fdca">Memory::RingAlloc::data</a></div><div class="ttdeci">byte * data</div><div class="ttdef"><b>Definition</b> ringallocator.h:24</div></div>
 <div class="ttc" id="astruct_memory_1_1_ring_alloc_html_a606386f849d7e1ead5e89b60d1bb9555"><div class="ttname"><a href="struct_memory_1_1_ring_alloc.html#a606386f849d7e1ead5e89b60d1bb9555">Memory::RingAlloc::offset</a></div><div class="ttdeci">uint offset</div><div class="ttdef"><b>Definition</b> ringallocator.h:23</div></div>
@@ -304,7 +303,7 @@ $(document).ready(function(){initNavTree('ringallocator_8h_source.html',''); ini
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="ringallocator_8h.html">ringallocator.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 18:28:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 20:21:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
