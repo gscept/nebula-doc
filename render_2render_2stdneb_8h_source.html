@@ -94,21 +94,21 @@ $(document).ready(function(){initNavTree('render_2render_2stdneb_8h_source.html'
 </div><!--header-->
 <div class="contents">
 <a href="render_2render_2stdneb_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"></span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2core_2config_8h.html">core/config.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#if __WIN32__</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2core_2win32_2precompiled_8h.html">core/win32/precompiled.h</a>&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#elif __linux__</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2core_2posix_2precompiled_8h.html">core/posix/precompiled.h</a>&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#error &quot;precompiled.h not implemented on this platform&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="render_2render_2precompiled_8h.html">render/precompiled.h</a>&quot;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
-<div class="ttc" id="afoundation_2core_2posix_2precompiled_8h_html"><div class="ttname"><a href="foundation_2core_2posix_2precompiled_8h.html">precompiled.h</a></div></div>
-<div class="ttc" id="afoundation_2core_2win32_2precompiled_8h_html"><div class="ttname"><a href="foundation_2core_2win32_2precompiled_8h.html">precompiled.h</a></div><div class="ttdoc">Contains precompiled headers on the Posix platform.</div></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"></span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2foundation_2stdneb_8h.html">foundation/stdneb.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="render_2render_2precompiled_8h.html">render/precompiled.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="resourceserver_8h.html">resources/resourceserver.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="graphicscontext_8h.html">graphics/graphicscontext.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="graphicsserver_8h.html">graphics/graphicsserver.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="graphicsdevice_8h.html">coregraphics/graphicsdevice.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="visibilitysystem_8h.html">visibility/systems/visibilitysystem.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="ttc" id="afoundation_2foundation_2stdneb_8h_html"><div class="ttname"><a href="foundation_2foundation_2stdneb_8h.html">stdneb.h</a></div></div>
+<div class="ttc" id="agraphicscontext_8h_html"><div class="ttname"><a href="graphicscontext_8h.html">graphicscontext.h</a></div></div>
+<div class="ttc" id="agraphicsdevice_8h_html"><div class="ttname"><a href="graphicsdevice_8h.html">graphicsdevice.h</a></div></div>
+<div class="ttc" id="agraphicsserver_8h_html"><div class="ttname"><a href="graphicsserver_8h.html">graphicsserver.h</a></div></div>
 <div class="ttc" id="arender_2render_2precompiled_8h_html"><div class="ttname"><a href="render_2render_2precompiled_8h.html">precompiled.h</a></div><div class="ttdoc">Contains precompiled headers for render based on platform.</div></div>
+<div class="ttc" id="aresourceserver_8h_html"><div class="ttname"><a href="resourceserver_8h.html">resourceserver.h</a></div></div>
+<div class="ttc" id="avisibilitysystem_8h_html"><div class="ttname"><a href="visibilitysystem_8h.html">visibilitysystem.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('render_2render_2stdneb_8h_source.html'
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_243d1c9fb56d9561dea0650295eea42a.html">render</a></li><li class="navelem"><a class="el" href="render_2render_2stdneb_8h.html">stdneb.h</a></li>
 				<li class="footer">
-					Generated on Sun Jul 30 2023 12:34:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 12 2023 18:28:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

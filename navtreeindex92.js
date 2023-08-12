@@ -1,6 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"downsamplingcontext_8cc.html#a764f1cf60301a5461257780fe2fcfabf":[10,0,0,6,18,2,3],
 "downsamplingcontext_8cc.html#a7dab085c280bfd5a547ad06c8113a500":[10,0,0,6,18,2,12],
 "downsamplingcontext_8cc.html#a9b0d42650ed3a2bf3f766a6fa2a99656":[10,0,0,6,18,2,10],
 "downsamplingcontext_8cc.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b":[10,0,0,6,18,2,16],
@@ -221,7 +220,6 @@ var NAVTREEINDEX92 =
 "foundation_2core_2win32_2precompiled_8h.html#af40cddcc88a6ebeed4f75d4bbbed195e":[10,0,0,3,1,3,0,14],
 "foundation_2core_2win32_2precompiled_8h.html#af883320ccbc88fe5ff2d8733ec0a034f":[10,0,0,3,1,3,0,12],
 "foundation_2core_2win32_2precompiled_8h_source.html":[10,0,0,3,1,3,0],
-"foundation_2foundation_2stdneb_8cc.html":[10,0,0,3,4,0],
 "foundation_2foundation_2stdneb_8h.html":[10,0,0,3,4,1],
 "foundation_2foundation_2stdneb_8h_source.html":[10,0,0,3,4,1],
 "foundation_2memory_2memory_8h.html":[10,0,0,3,13,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX92 =
 "framebarrier_8h_source.html":[10,0,0,6,9,1],
 "framebatchtype_8h.html":[10,0,0,6,9,2],
 "framebatchtype_8h_source.html":[10,0,0,6,9,2],
-"frameblit_8cc.html":[10,0,0,6,9,3]
+"frameblit_8cc.html":[10,0,0,6,9,3],
+"frameblit_8h.html":[10,0,0,6,9,4],
+"frameblit_8h_source.html":[10,0,0,6,9,4]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"class_win32_1_1_win32_thread_barrier.html#aa7526f30fe2c9e2d06952594be150fc7":[8,0,77,25,8],
 "class_win32_1_1_win32_thread_barrier.html#aadcd28dede91efaa27fd3cd31d69ff7f":[8,0,77,25,9],
 "class_win32_1_1_win32_thread_barrier.html#aadcd28dede91efaa27fd3cd31d69ff7f":[9,0,66,25,9],
 "class_win32_1_1_win32_thread_barrier.html#acb5f90492568e4cb6643e079098c8b93":[8,0,77,25,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX89 =
 "component_8h.html#a1ae77b966fd81f0b304de0d9bb6f0ce4":[10,0,0,1,3,5,2],
 "component_8h.html#a4bebecc3cb881e0c91f7491dc6223dca":[10,0,0,1,3,5,0],
 "component_8h.html#a5d2553eaea52dfb023f6252434911f86":[10,0,0,1,3,5,1],
-"component_8h_source.html":[10,0,0,1,3,5]
+"component_8h_source.html":[10,0,0,1,3,5],
+"componentdescription_8h.html":[10,0,0,0,6,0]
 };

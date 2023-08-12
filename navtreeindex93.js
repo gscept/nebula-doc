@@ -1,7 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"frameblit_8h.html":[10,0,0,6,9,4],
-"frameblit_8h_source.html":[10,0,0,6,9,4],
 "framecode_8cc.html":[10,0,0,6,9,5],
 "framecode_8h.html":[10,0,0,6,9,6],
 "framecode_8h_source.html":[10,0,0,6,9,6],
@@ -110,8 +108,8 @@ var NAVTREEINDEX93 =
 "functions_d.html":[9,3,0,4],
 "functions_e.html":[9,3,0,5],
 "functions_enum.html":[9,3,4],
-"functions_eval.html":[9,3,5],
 "functions_eval.html":[9,3,5,0],
+"functions_eval.html":[9,3,5],
 "functions_eval_a.html":[9,3,5,1],
 "functions_eval_b.html":[9,3,5,2],
 "functions_eval_c.html":[9,3,5,3],
@@ -186,8 +184,8 @@ var NAVTREEINDEX93 =
 "functions_type.html":[9,3,3],
 "functions_u.html":[9,3,0,21],
 "functions_v.html":[9,3,0,22],
-"functions_vars.html":[9,3,2,0],
 "functions_vars.html":[9,3,2],
+"functions_vars.html":[9,3,2,0],
 "functions_vars_a.html":[9,3,2,1],
 "functions_vars_b.html":[9,3,2,2],
 "functions_vars_c.html":[9,3,2,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX93 =
 "geometryhelpers_8cc.html":[10,0,0,6,21,4],
 "geometryhelpers_8h.html":[10,0,0,6,21,5],
 "geometryhelpers_8h_source.html":[10,0,0,6,21,5],
-"glfwdisplaydevice_8cc.html":[10,0,0,6,5,2,0]
+"glfwdisplaydevice_8cc.html":[10,0,0,6,5,2,0],
+"glfwdisplaydevice_8cc.html#a36a270a314fe677c6410c67c3a47817f":[10,0,0,6,5,2,0,1],
+"glfwdisplaydevice_8cc.html#a64a86b3d4dd0cb4a7e54bbb1827767bd":[10,0,0,6,5,2,0,0]
 };

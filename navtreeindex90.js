@@ -1,6 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"componentdescription_8h.html":[10,0,0,0,6,0],
 "componentdescription_8h_source.html":[10,0,0,0,6,0],
 "componentid_8h.html":[10,0,0,0,6,1],
 "componentid_8h_source.html":[10,0,0,0,6,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX90 =
 "debuginterface_8h_source.html":[10,0,0,3,2,7],
 "debugmessage_8h.html":[10,0,0,3,15,4],
 "debugmessage_8h_source.html":[10,0,0,3,15,4],
-"debugpacket_8cc.html":[10,0,0,3,15,5]
+"debugpacket_8cc.html":[10,0,0,3,15,5],
+"debugpacket_8h.html":[10,0,0,3,15,6]
 };

@@ -51,9 +51,8 @@ var NAVTREEINDEX1 =
 "appentry_8h.html":[10,0,0,3,17,5],
 "appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079":[10,0,0,3,17,5,0],
 "appentry_8h_source.html":[10,0,0,3,17,5],
-"application_2application_2stdneb_8cc.html":[10,0,0,1,1,0],
-"application_2application_2stdneb_8h.html":[10,0,0,1,1,1],
-"application_2application_2stdneb_8h_source.html":[10,0,0,1,1,1],
+"application_2application_2stdneb_8h.html":[10,0,0,1,1,0],
+"application_2application_2stdneb_8h_source.html":[10,0,0,1,1,0],
 "application_2game_2dataset_8cc.html":[10,0,0,1,3,10],
 "application_2game_2dataset_8h.html":[10,0,0,1,3,11],
 "application_2game_2dataset_8h_source.html":[10,0,0,1,3,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "basegamefeatureunit_8h_source.html":[10,0,0,1,2,2],
 "batchgroup_8cc.html":[10,0,0,6,5,13],
 "batchgroup_8h.html":[10,0,0,6,5,14],
-"batchgroup_8h_source.html":[10,0,0,6,5,14]
+"batchgroup_8h_source.html":[10,0,0,6,5,14],
+"batchmessage_8cc.html":[10,0,0,3,14,2]
 };
