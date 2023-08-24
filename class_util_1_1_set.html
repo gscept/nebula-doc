@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('class_util_1_1_set.html',''); initResi
 class Util::Set&lt; KEYTYPE &gt;</div><p>A collection of unique values with quick lookup. </p>
 <p>Internally implemented as a sorted array.</p>
 <p>Adding the same value more than once has no obvious effect.</p>
-<p>On insertion performance: Key/value pairs are inserted with the <a class="el" href="class_util_1_1_set.html#a68c0fd920d71df5cb0d5ce5036b2186c" title="add a unique value to set, won&#39;t get added twice">Add()</a> method, which normally calls the <a class="el" href="class_util_1_1_array.html#ab811b272197591ae8a74cfa0560b3c16" title="insert element into sorted array, return index where element was included">Util::Array::InsertSorted()</a> method internally. If many insertions are performed at once, it may be beneficial to call BeginBulkAdd() before, and EndBulkAdd() after adding the key/value pairs. Between BeginBulkAdd() and EndBulkAdd(), the <a class="el" href="class_util_1_1_set.html#a68c0fd920d71df5cb0d5ce5036b2186c" title="add a unique value to set, won&#39;t get added twice">Add()</a> method will just append the new elements to the internal array, and only call <a class="el" href="class_util_1_1_array.html#a15d42e760a285a0726a5d1005f010429" title="sort the array">Util::Array::Sort()</a> inside EndBulkAdd().</p>
+<p>On insertion performance: Key/value pairs are inserted with the <a class="el" href="class_util_1_1_set.html#a68c0fd920d71df5cb0d5ce5036b2186c" title="add a unique value to set, won&#39;t get added twice">Add()</a> method, which normally calls the <a class="el" href="class_util_1_1_array.html#a46575049063fb59312664544e531c5c1" title="insert element into sorted array, return index where element was included">Util::Array::InsertSorted()</a> method internally. If many insertions are performed at once, it may be beneficial to call BeginBulkAdd() before, and EndBulkAdd() after adding the key/value pairs. Between BeginBulkAdd() and EndBulkAdd(), the <a class="el" href="class_util_1_1_set.html#a68c0fd920d71df5cb0d5ce5036b2186c" title="add a unique value to set, won&#39;t get added twice">Add()</a> method will just append the new elements to the internal array, and only call <a class="el" href="class_util_1_1_array.html#a8fd2ea4a403d9a286f191040cae871e1" title="sort the array">Util::Array::Sort()</a> inside EndBulkAdd().</p>
 <p>Any methods which require the internal array to be sorted will throw an assertion between BeginBulkAdd() and EndBulkAdd().</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -543,7 +543,7 @@ template&lt;class KEYTYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_set.html">Set</a></li>
 				<li class="footer">
-					Generated on Thu Aug 24 2023 13:56:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 15:31:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -5,6 +5,6 @@ var struct_core_graphics_1_1_____mesh =
     [ "indexType", "struct_core_graphics_1_1_____mesh.html#a53272e70b00b852d30b5d443d225f08f", null ],
     [ "primitiveGroups", "struct_core_graphics_1_1_____mesh.html#a854d95ee2e5060a091ca823536f9373b", null ],
     [ "primitiveTopology", "struct_core_graphics_1_1_____mesh.html#a19feb0ad34a7693e740c03d90280be18", null ],
-    [ "streams", "struct_core_graphics_1_1_____mesh.html#ac454dcbf91d9e4cf9b1057d2ed270212", null ],
+    [ "streams", "struct_core_graphics_1_1_____mesh.html#a232e8ea92b1f4a9ade04e45473a25b4c", null ],
     [ "vertexLayout", "struct_core_graphics_1_1_____mesh.html#a8a18dc30eb3d1c55fc24d4c51c663652", null ]
 ];

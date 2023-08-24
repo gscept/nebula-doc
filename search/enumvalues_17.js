@@ -17,7 +17,7 @@ var searchData=
   ['weights7_14',['Weights7',['../struct_gltf_1_1_primitive.html#a43938af79c2a06810be946366efc4858a9f5a6f878c17f1cde0b8f8887201794a',1,'Gltf::Primitive']]],
   ['wii2pcack_15',['Wii2PCAck',['../class_net_1_1_debug_packet.html#a14551d66d3366cbba6283a89f86da9f5ab8995d93f5aa5fb65c773c47b0647b93',1,'Net::DebugPacket']]],
   ['wii2pccmd_16',['Wii2PCCmd',['../class_net_1_1_debug_packet.html#a14551d66d3366cbba6283a89f86da9f5a48c23d78072ccfd239487df5ed557709',1,'Net::DebugPacket']]],
-  ['win32_17',['Win32',['../class_base_1_1_system_info_base.html#a420029f812e75417b9ebb6e20ccc80d2a6ecfefc1ba4d4d98b5a2e5d8462c17a1',1,'Base::SystemInfoBase']]],
+  ['win32_17',['Win32',['../namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea2816377e20a10b49e8dacd4a8b17ced3',1,'System']]],
   ['winddirection_18',['WindDirection',['../class_particles_1_1_emitter_attrs.html#a7f6acd7071e36e11ca80c8611410c2c2af49849cf0dae5fe176660290a2ca4423',1,'Particles::EmitterAttrs']]],
   ['windowclose_19',['WindowClose',['../class_core_graphics_1_1_display_event.html#ae20d6ec8a82225d61f68fb2c365a8b1ba128a4bb24f3c8bd7079113a07a6f0cbf',1,'CoreGraphics::DisplayEvent']]],
   ['windowidtype_20',['WindowIdType',['../namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa649bffaa40ed18c92eb17b0718e97a4c',1,'CoreGraphics']]],

@@ -304,6 +304,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a779eb7178f1887e9759e90511acd5a05"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a779eb7178f1887e9759e90511acd5a05">GetHeapTypeName</a> (<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> heapType)</td></tr>
 <tr class="memdesc:a779eb7178f1887e9759e90511acd5a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a human readable name for a heap type.  <br /></td></tr>
 <tr class="separator:a779eb7178f1887e9759e90511acd5a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1e350799da9a033ab78c19c7a21436"><td class="memItemLeft" align="right" valign="top">__forceinline void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a6f1e350799da9a033ab78c19c7a21436">AllocVirtual</a> (size_t size)</td></tr>
+<tr class="memdesc:a6f1e350799da9a033ab78c19c7a21436"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a range of virtual memory space  <br /></td></tr>
+<tr class="separator:a6f1e350799da9a033ab78c19c7a21436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc4881e93995a3f301ab9392b4b3c77"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#aadc4881e93995a3f301ab9392b4b3c77">DecommitVirtual</a> (void *ptr, size_t size)</td></tr>
+<tr class="memdesc:aadc4881e93995a3f301ab9392b4b3c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">decommit virtual memory  <br /></td></tr>
+<tr class="separator:aadc4881e93995a3f301ab9392b4b3c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e556ad80994209cf526414f6df18f8c"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a3e556ad80994209cf526414f6df18f8c">CommitVirtual</a> (void *ptr, size_t size)</td></tr>
+<tr class="memdesc:a3e556ad80994209cf526414f6df18f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">commit virtual memory  <br /></td></tr>
+<tr class="separator:a3e556ad80994209cf526414f6df18f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ae93b4a505f65296e8afd5cd682b79"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a13ae93b4a505f65296e8afd5cd682b79">FreeVirtual</a> (void *ptr, size_t size)</td></tr>
+<tr class="memdesc:a13ae93b4a505f65296e8afd5cd682b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">free virtual memory  <br /></td></tr>
+<tr class="separator:a13ae93b4a505f65296e8afd5cd682b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1103820d68788c85bbb28a62e05d99e2"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a1103820d68788c85bbb28a62e05d99e2">Move</a> (const void *from, void *to, size_t numBytes)</td></tr>
 <tr class="memdesc:a1103820d68788c85bbb28a62e05d99e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move a chunk of memory, can handle overlapping regions.  <br /></td></tr>
 <tr class="separator:a1103820d68788c85bbb28a62e05d99e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -766,6 +778,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f1e350799da9a033ab78c19c7a21436" name="a6f1e350799da9a033ab78c19c7a21436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1e350799da9a033ab78c19c7a21436">&#9670;&#160;</a></span>AllocVirtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * Memory::AllocVirtual </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>allocate a range of virtual memory space </p>
+
+</div>
+</div>
 <a id="ad8504a1916282a835f1e16e3912e4c87" name="ad8504a1916282a835f1e16e3912e4c87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8504a1916282a835f1e16e3912e4c87">&#9670;&#160;</a></span>Clear()</h2>
 
@@ -794,6 +826,36 @@ Variables</h2></td></tr>
 
 <p>Overwrite a chunk of memory with 0's. </p>
 <p>overwrite a chunk of memory with zero </p>
+
+</div>
+</div>
+<a id="a3e556ad80994209cf526414f6df18f8c" name="a3e556ad80994209cf526414f6df18f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e556ad80994209cf526414f6df18f8c">&#9670;&#160;</a></span>CommitVirtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Memory::CommitVirtual </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>commit virtual memory </p>
 
 </div>
 </div>
@@ -909,6 +971,36 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aadc4881e93995a3f301ab9392b4b3c77" name="aadc4881e93995a3f301ab9392b4b3c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc4881e93995a3f301ab9392b4b3c77">&#9670;&#160;</a></span>DecommitVirtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Memory::DecommitVirtual </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>decommit virtual memory </p>
+
+</div>
+</div>
 <a id="aacd6e0e3d90cc8724a07d52c8f1acb43" name="aacd6e0e3d90cc8724a07d52c8f1acb43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacd6e0e3d90cc8724a07d52c8f1acb43">&#9670;&#160;</a></span>DumpTotalMemoryStatus()</h2>
 
@@ -1019,6 +1111,36 @@ template&lt;typename T &gt; </div>
 <p>Free a block of memory. </p>
 <p>Free a chunk of memory from the process heap.</p>
 <p>free a chunk of memory </p>
+
+</div>
+</div>
+<a id="a13ae93b4a505f65296e8afd5cd682b79" name="a13ae93b4a505f65296e8afd5cd682b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ae93b4a505f65296e8afd5cd682b79">&#9670;&#160;</a></span>FreeVirtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Memory::FreeVirtual </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>free virtual memory </p>
 
 </div>
 </div>
@@ -1429,7 +1551,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Thu Aug 24 2023 13:56:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 15:31:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

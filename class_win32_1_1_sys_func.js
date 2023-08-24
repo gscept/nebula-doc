@@ -3,7 +3,6 @@ var class_win32_1_1_sys_func =
     [ "DebugOut", "class_win32_1_1_sys_func.html#a4359d68f4ba006b8e790bbba74dde6b0", null ],
     [ "Error", "class_win32_1_1_sys_func.html#ad324ffcaea329a534eb652c56c5a0ed5", null ],
     [ "Exit", "class_win32_1_1_sys_func.html#a88d96e9bf8921af10bdf220f1f3c1a06", null ],
-    [ "GetSystemInfo", "class_win32_1_1_sys_func.html#a570ecc2617d04f49b467a502a0fdd0fc", null ],
     [ "MessageBox", "class_win32_1_1_sys_func.html#adac9de075b17277a31dbda95f7c6bf16", null ],
     [ "RegisterExitHandler", "class_win32_1_1_sys_func.html#abd3ec9772466b50d45e0f8e2cfdfd83f", null ],
     [ "Setup", "class_win32_1_1_sys_func.html#a7fc4392673db0580335385f051490fc3", null ],

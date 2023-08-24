@@ -88,6 +88,8 @@ var NAVTREEINDEX1 =
 "arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61":[10,0,0,3,13,4,1],
 "arenaallocator_8h_source.html":[10,0,0,3,13,4],
 "array_8h.html":[10,0,0,3,20,3],
+"array_8h.html#ad571ca5aea253bc6fa991004e904308e":[10,0,0,3,20,3,4],
+"array_8h.html#adccd75784fc05f9841ec9cf9af0a35da":[10,0,0,3,20,3,5],
 "array_8h_source.html":[10,0,0,3,20,3],
 "arrayallocator_8h.html":[10,0,0,3,20,4],
 "arrayallocator_8h_source.html":[10,0,0,3,20,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "basegamefeatureunit_8h.html":[10,0,0,1,2,2],
 "basegamefeatureunit_8h_source.html":[10,0,0,1,2,2],
 "batchgroup_8cc.html":[10,0,0,6,5,13],
-"batchgroup_8h.html":[10,0,0,6,5,14],
-"batchgroup_8h_source.html":[10,0,0,6,5,14],
-"batchmessage_8cc.html":[10,0,0,3,14,2]
+"batchgroup_8h.html":[10,0,0,6,5,14]
 };

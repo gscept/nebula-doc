@@ -86,7 +86,6 @@ var annotated_dup =
       [ "Process", "class_base_1_1_process.html", "class_base_1_1_process" ],
       [ "ShaderServerBase", "class_base_1_1_shader_server_base.html", "class_base_1_1_shader_server_base" ],
       [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html", "class_base_1_1_shape_renderer_base" ],
-      [ "SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ],
       [ "TextRendererBase", "class_base_1_1_text_renderer_base.html", "class_base_1_1_text_renderer_base" ],
       [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ]
     ] ],
@@ -926,6 +925,8 @@ var annotated_dup =
       [ "SpinlockScope", "struct_threading_1_1_spinlock_scope.html", "struct_threading_1_1_spinlock_scope" ]
     ] ],
     [ "Util", "namespace_util.html", [
+      [ "_smallvector", "struct_util_1_1__smallvector.html", "struct_util_1_1__smallvector" ],
+      [ "_smallvector< TYPE, 0 >", "struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4.html", "struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4" ],
       [ "AllocatorLock", "struct_util_1_1_allocator_lock.html", "struct_util_1_1_allocator_lock" ],
       [ "Array", "class_util_1_1_array.html", "class_util_1_1_array" ],
       [ "ArrayAllocator", "class_util_1_1_array_allocator.html", "class_util_1_1_array_allocator" ],
@@ -945,6 +946,8 @@ var annotated_dup =
       [ "FourCC", "class_util_1_1_four_c_c.html", "class_util_1_1_four_c_c" ],
       [ "get_template_type", "struct_util_1_1get__template__type.html", null ],
       [ "get_template_type< C< T > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
+      [ "get_template_type< C< T, I, B > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4" ],
+      [ "get_template_type< C< T, I, B > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4" ],
       [ "get_template_type< const C< T > & >", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4" ],
       [ "GlobalStringAtomTable", "class_util_1_1_global_string_atom_table.html", "class_util_1_1_global_string_atom_table" ],
       [ "HashTable", "class_util_1_1_hash_table.html", "class_util_1_1_hash_table" ],

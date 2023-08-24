@@ -495,7 +495,7 @@ var namespace_core_graphics =
     [ "BufferUpdate", "namespace_core_graphics.html#aea79756d79dfcb5c648512d16c73421e", null ],
     [ "BufferUpdate", "namespace_core_graphics.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
     [ "BufferUpdateArray", "namespace_core_graphics.html#a1eb5b9e2891b25326d97ef539fc6e61b", null ],
-    [ "BufferUpload", "namespace_core_graphics.html#a1d67ea8700efb1f1f3dbfe68706409fa", null ],
+    [ "BufferUpload", "namespace_core_graphics.html#a09cc2fb4abc1e3ffcd177038560fc866", null ],
     [ "BufferUpload", "namespace_core_graphics.html#a26cd09613a3eaea39325bed85306739a", null ],
     [ "CmdBarrier", "namespace_core_graphics.html#a87177b55f14207e7855387c38466858b", null ],
     [ "CmdBarrier", "namespace_core_graphics.html#a7faf4f30461ee8c93767350644612e95", null ],

@@ -92,7 +92,9 @@ $(document).ready(function(){initNavTree('namespace_system.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">System Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -105,6 +107,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_cpu.html">Cpu</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides information about the system's CPU(s).  <a href="class_system_1_1_cpu.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a3670ed208c6b97c3a03bda3ad3f6f43e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a> { <a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea2816377e20a10b49e8dacd4a8b17ced3">Win32</a>
+, <a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea54d4597d6c9d6bbba0f5ea9ab56d7a23">Linux</a>
+, <a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea0d5d804abacf4ab362ee2fd556d299ca">UnknownPlatform</a>
+ }</td></tr>
+<tr class="separator:a3670ed208c6b97c3a03bda3ad3f6f43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5551c48b1a0c9642042c5ea3de7a214a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a> { <a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214aa12a3d2266f957f2512b7c121063f3086">X86_32</a>
+, <a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214aa394e5dd68da2c3bf860d3504cba26e4a">X86_64</a>
+, <a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214aa9c20972d4230a666c137b66657e67f1a">UnknownCpuType</a>
+ }</td></tr>
+<tr class="separator:a5551c48b1a0c9642042c5ea3de7a214a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -128,7 +143,63 @@ Functions</h2></td></tr>
 <tr class="memitem:a098775a23ef09649ed576f243b15dae4"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a098775a23ef09649ed576f243b15dae4"><td class="memTemplItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_system.html#a098775a23ef09649ed576f243b15dae4">ByteOrder::Convert&lt; Math::matrix44 &gt;</a> (Math::matrix44 &amp;val) const</td></tr>
 <tr class="separator:a098775a23ef09649ed576f243b15dae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257ed4a28629c319e64da68b7cd69c33"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a257ed4a28629c319e64da68b7cd69c33">PlatformTypeAsString</a> (<a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a> p)</td></tr>
+<tr class="memdesc:a257ed4a28629c319e64da68b7cd69c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert platform to string  <br /></td></tr>
+<tr class="separator:a257ed4a28629c319e64da68b7cd69c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad90a0147899b439aa22465b2fbd147bb"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#ad90a0147899b439aa22465b2fbd147bb">CpuArchTypeAsString</a> (<a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a> cpu)</td></tr>
+<tr class="memdesc:ad90a0147899b439aa22465b2fbd147bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert CpuType to string  <br /></td></tr>
+<tr class="separator:ad90a0147899b439aa22465b2fbd147bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af19373b60b33fafbb67a5cad4f9ca5d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#af19373b60b33fafbb67a5cad4f9ca5d1">CpuArch</a></td></tr>
+<tr class="separator:af19373b60b33fafbb67a5cad4f9ca5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a434df85dbba8f8354b3b2074478d0ca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a434df85dbba8f8354b3b2074478d0ca8">Platform</a></td></tr>
+<tr class="separator:a434df85dbba8f8354b3b2074478d0ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25f3597b0f91ad412a3db97dd5201f18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a25f3597b0f91ad412a3db97dd5201f18">NumCpuCores</a></td></tr>
+<tr class="separator:a25f3597b0f91ad412a3db97dd5201f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed0a9aeac463c7209b63fb0404a367d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_system.html#a3ed0a9aeac463c7209b63fb0404a367d">PageSize</a></td></tr>
+<tr class="separator:a3ed0a9aeac463c7209b63fb0404a367d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5551c48b1a0c9642042c5ea3de7a214a" name="a5551c48b1a0c9642042c5ea3de7a214a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5551c48b1a0c9642042c5ea3de7a214a">&#9670;&#160;</a></span>CpuArchType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">System::CpuArchType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5551c48b1a0c9642042c5ea3de7a214aa12a3d2266f957f2512b7c121063f3086" name="a5551c48b1a0c9642042c5ea3de7a214aa12a3d2266f957f2512b7c121063f3086"></a>X86_32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5551c48b1a0c9642042c5ea3de7a214aa394e5dd68da2c3bf860d3504cba26e4a" name="a5551c48b1a0c9642042c5ea3de7a214aa394e5dd68da2c3bf860d3504cba26e4a"></a>X86_64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5551c48b1a0c9642042c5ea3de7a214aa9c20972d4230a666c137b66657e67f1a" name="a5551c48b1a0c9642042c5ea3de7a214aa9c20972d4230a666c137b66657e67f1a"></a>UnknownCpuType&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3670ed208c6b97c3a03bda3ad3f6f43e" name="a3670ed208c6b97c3a03bda3ad3f6f43e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3670ed208c6b97c3a03bda3ad3f6f43e">&#9670;&#160;</a></span>PlatformType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">System::PlatformType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3670ed208c6b97c3a03bda3ad3f6f43ea2816377e20a10b49e8dacd4a8b17ced3" name="a3670ed208c6b97c3a03bda3ad3f6f43ea2816377e20a10b49e8dacd4a8b17ced3"></a>Win32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3670ed208c6b97c3a03bda3ad3f6f43ea54d4597d6c9d6bbba0f5ea9ab56d7a23" name="a3670ed208c6b97c3a03bda3ad3f6f43ea54d4597d6c9d6bbba0f5ea9ab56d7a23"></a>Linux&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3670ed208c6b97c3a03bda3ad3f6f43ea0d5d804abacf4ab362ee2fd556d299ca" name="a3670ed208c6b97c3a03bda3ad3f6f43ea0d5d804abacf4ab362ee2fd556d299ca"></a>UnknownPlatform&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a9d1d0aa19382a20750ef8337b79372b3" name="a9d1d0aa19382a20750ef8337b79372b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d1d0aa19382a20750ef8337b79372b3">&#9670;&#160;</a></span>__ImplementEnumBitOperators()</h2>
@@ -300,6 +371,119 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="ad90a0147899b439aa22465b2fbd147bb" name="ad90a0147899b439aa22465b2fbd147bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad90a0147899b439aa22465b2fbd147bb">&#9670;&#160;</a></span>CpuArchTypeAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * System::CpuArchTypeAsString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a>&#160;</td>
+          <td class="paramname"><em>cpu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert CpuType to string </p>
+
+</div>
+</div>
+<a id="a257ed4a28629c319e64da68b7cd69c33" name="a257ed4a28629c319e64da68b7cd69c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257ed4a28629c319e64da68b7cd69c33">&#9670;&#160;</a></span>PlatformTypeAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * System::PlatformTypeAsString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert platform to string </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af19373b60b33fafbb67a5cad4f9ca5d1" name="af19373b60b33fafbb67a5cad4f9ca5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19373b60b33fafbb67a5cad4f9ca5d1">&#9670;&#160;</a></span>CpuArch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a> System::CpuArch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25f3597b0f91ad412a3db97dd5201f18" name="a25f3597b0f91ad412a3db97dd5201f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f3597b0f91ad412a3db97dd5201f18">&#9670;&#160;</a></span>NumCpuCores</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> System::NumCpuCores</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ed0a9aeac463c7209b63fb0404a367d" name="a3ed0a9aeac463c7209b63fb0404a367d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed0a9aeac463c7209b63fb0404a367d">&#9670;&#160;</a></span>PageSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> System::PageSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a434df85dbba8f8354b3b2074478d0ca8" name="a434df85dbba8f8354b3b2074478d0ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a434df85dbba8f8354b3b2074478d0ca8">&#9670;&#160;</a></span>Platform</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a> System::Platform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -307,7 +491,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_system.html">System</a></li>
 				<li class="footer">
-					Generated on Thu Aug 24 2023 13:56:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 15:31:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

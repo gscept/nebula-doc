@@ -12,7 +12,6 @@ var namespace_base =
     [ "Process", "class_base_1_1_process.html", "class_base_1_1_process" ],
     [ "ShaderServerBase", "class_base_1_1_shader_server_base.html", "class_base_1_1_shader_server_base" ],
     [ "ShapeRendererBase", "class_base_1_1_shape_renderer_base.html", "class_base_1_1_shape_renderer_base" ],
-    [ "SystemInfoBase", "class_base_1_1_system_info_base.html", "class_base_1_1_system_info_base" ],
     [ "TextRendererBase", "class_base_1_1_text_renderer_base.html", "class_base_1_1_text_renderer_base" ],
     [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ],
     [ "__ImplementClass", "namespace_base.html#ab8a56e07626236531a00e5e96291a71e", null ],

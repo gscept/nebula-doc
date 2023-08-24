@@ -1,7 +1,9 @@
 var tupleutility_8h =
 [
     [ "Util::get_template_type< C< T > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
+    [ "Util::get_template_type< C< T, I, B > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4" ],
     [ "Util::get_template_type< const C< T > & >", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4" ],
+    [ "Util::get_template_type< C< T, I, B > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4" ],
     [ "get_template_type_t", "tupleutility_8h.html#a2827363ca08e6877a2389395e69f1d34", null ],
     [ "Pair", "tupleutility_8h.html#afb76d79dd0028154ff80d514ec0a66cc", null ],
     [ "Tuple", "tupleutility_8h.html#a825706b32bf6453b12fa0ee6b23f3c0a", null ],

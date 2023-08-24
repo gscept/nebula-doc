@@ -13,6 +13,6 @@ var searchData=
   ['componenttype_10',['ComponentType',['../struct_gltf_1_1_accessor.html#a420677ae4459625ca63ba5ab081cac7e',1,'Gltf::Accessor']]],
   ['connectmode_11',['ConnectMode',['../class_db_1_1_table.html#ab4b923a8e41c409bcbbad2cfcb06e26b',1,'Db::Table']]],
   ['coreid_12',['CoreId',['../class_system_1_1_cpu.html#a3b8f60cd659ada1a83e8e5f72c1e6c5d',1,'System::Cpu']]],
-  ['cputype_13',['CpuType',['../class_base_1_1_system_info_base.html#a1d7cbe0dc6b0baa542b21ad91b25c67b',1,'Base::SystemInfoBase']]],
+  ['cpuarchtype_13',['CpuArchType',['../namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a',1,'System']]],
   ['cvartype_14',['CVarType',['../namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0',1,'Core']]]
 ];

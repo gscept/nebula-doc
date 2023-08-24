@@ -74,8 +74,8 @@ var searchData=
   ['vertexsignaturemutex_71',['vertexSignatureMutex',['../namespace_vulkan.html#a0d8b5cbc1ce31c570a0eaba48d0e0f0a',1,'Vulkan']]],
   ['vertexsize_72',['vertexSize',['../namespace_particles.html#a1241c4b27737bb0980c8cf704dfaf574',1,'Particles']]],
   ['vertextype_73',['vertexType',['../class_materials_1_1_shader_config.html#ac48b4342f7e2bf989bc1604003e48c41',1,'Materials::ShaderConfig']]],
-  ['vertexwidth_74',['vertexWidth',['../class_core_graphics_1_1_nvx3_stream_reader.html#ab923ab9a5e03e2bc99fb55731f16a382',1,'CoreGraphics::Nvx3StreamReader::vertexWidth'],['../struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44',1,'CoreGraphics::Nvx2Header::vertexWidth']]],
-  ['vertexwidth_75',['VertexWidth',['../class_particles_1_1_emitter_mesh.html#aed2326fdc52ade658f60face34e7852e',1,'Particles::EmitterMesh']]],
+  ['vertexwidth_74',['VertexWidth',['../class_particles_1_1_emitter_mesh.html#aed2326fdc52ade658f60face34e7852e',1,'Particles::EmitterMesh']]],
+  ['vertexwidth_75',['vertexWidth',['../class_core_graphics_1_1_nvx3_stream_reader.html#ab923ab9a5e03e2bc99fb55731f16a382',1,'CoreGraphics::Nvx3StreamReader::vertexWidth'],['../struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44',1,'CoreGraphics::Nvx2Header::vertexWidth']]],
   ['verticalsync_76',['verticalSync',['../class_base_1_1_display_device_base.html#a82822b08190ff4629c1586afd3ca045d',1,'Base::DisplayDeviceBase']]],
   ['vertsperdrawprimitive_77',['VertsPerDrawPrimitive',['../im3d_8cpp.html#a96172bae73b48514b074a81a6624c489',1,'im3d.cpp']]],
   ['vibratorsdirty_78',['vibratorsDirty',['../class_base_1_1_game_pad_base.html#ad6a2eed1dbc07ca096351b12940f48d9',1,'Base::GamePadBase']]],
@@ -128,6 +128,6 @@ var searchData=
   ['vp_125',['vp',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_viewport_command.html#a3cf7ba3b17ccfef644a6f0db05c502f8',1,'Vulkan::VkCommandBufferThread::VkViewportCommand']]],
   ['vps_126',['vps',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_viewport_array_command.html#a4a46a5c975fcd0fd6e324b6da58fd59a',1,'Vulkan::VkCommandBufferThread::VkViewportArrayCommand']]],
   ['vs_127',['vs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#ac4f78ba3e5d8e2f5fbef9bd5bfd430a1',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
-  ['vsinputslots_128',['vsInputSlots',['../struct_vulkan_1_1_vk_program_reflection_info.html#a119e71b1bf9dc18b8b2cc1ed59de510b',1,'Vulkan::VkProgramReflectionInfo']]],
+  ['vsinputslots_128',['vsInputSlots',['../struct_vulkan_1_1_vk_program_reflection_info.html#ad5cee8e4f50ff36e81e70508fbfdc1b5',1,'Vulkan::VkProgramReflectionInfo']]],
   ['vsync_129',['vsync',['../struct_core_graphics_1_1_resize_info.html#add7eea70ab5eaa6278ef6effa715393c',1,'CoreGraphics::ResizeInfo::vsync'],['../struct_core_graphics_1_1_window_create_info.html#a69cb83a50b2b1bb40b7d804515d22535',1,'CoreGraphics::WindowCreateInfo::vsync']]]
 ];

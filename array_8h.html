@@ -92,18 +92,28 @@ $(document).ready(function(){initNavTree('array_8h.html',''); initResizable(); }
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">array.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="systeminfo_8h_source.html">system/systeminfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scalar_8h_source.html">math/scalar.h</a>&quot;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 </div>
 <p><a href="array_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html">Util::Array&lt; TYPE &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util_1_1__smallvector.html">Util::_smallvector&lt; TYPE, STACK_SIZE &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4.html">Util::_smallvector&lt; TYPE, 0 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE, PINNED &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nebula's dynamic array class.  <a href="class_util_1_1_array.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util_1_1_array_1_1__e.html">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE, PINNED &gt;::_e</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -111,6 +121,15 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_util"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_util.html">Util</a></td></tr>
 <tr class="memdesc:namespace_util"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tuple helper functions and typedefs. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ad571ca5aea253bc6fa991004e904308e"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
+<tr class="memitem:ad571ca5aea253bc6fa991004e904308e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#ad571ca5aea253bc6fa991004e904308e">Util::PinnedArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt; TYPE, 0, true &gt;</td></tr>
+<tr class="separator:ad571ca5aea253bc6fa991004e904308e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adccd75784fc05f9841ec9cf9af0a35da"><td class="memTemplParams" colspan="2">template&lt;class TYPE , int STACK_SIZE&gt; </td></tr>
+<tr class="memitem:adccd75784fc05f9841ec9cf9af0a35da"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#adccd75784fc05f9841ec9cf9af0a35da">Util::StackArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt; TYPE, STACK_SIZE, false &gt;</td></tr>
+<tr class="separator:adccd75784fc05f9841ec9cf9af0a35da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -119,7 +138,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="array_8h.html">array.h</a></li>
 				<li class="footer">
-					Generated on Thu Aug 24 2023 13:56:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 15:31:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

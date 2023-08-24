@@ -41,7 +41,7 @@ var searchData=
   ['lines_38',['Lines',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8aa0b0293a2db49f5f93c15a62e095c819',1,'Gltf::Primitive']]],
   ['linestrip_39',['LineStrip',['../struct_gltf_1_1_primitive.html#a40b302106f0a700e0799bd7deb801ec8ae7f9e73b8edd21f420a63b3ace5768a2',1,'Gltf::Primitive::LineStrip'],['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba39f2d822007a60c4267c4a238527c11a',1,'CoreGraphics::PrimitiveTopology::LineStrip']]],
   ['linestripadjacency_40',['LineStripAdjacency',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbad246c502293a777ddecbc20c77b85364',1,'CoreGraphics::PrimitiveTopology']]],
-  ['linux_41',['Linux',['../class_base_1_1_system_info_base.html#a420029f812e75417b9ebb6e20ccc80d2aac26c77d62945c04e51d26c2ada317f5',1,'Base::SystemInfoBase']]],
+  ['linux_41',['Linux',['../namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea54d4597d6c9d6bbba0f5ea9ab56d7a23',1,'System']]],
   ['listitem_42',['ListItem',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9a595606bfdd8edfa03a4afbebefcb6f85',1,'Http::HtmlElement']]],
   ['littleendian_43',['LittleEndian',['../class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a9cf95e468dc3f5c334cc9a5938819979',1,'System::ByteOrder']]],
   ['load_44',['Load',['../namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244af19dbf2edb3a0bd74b0524d960ff21eb',1,'CoreGraphics']]],

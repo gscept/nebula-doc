@@ -87,7 +87,7 @@ var searchData=
   ['staticuicontext_2ecc_84',['staticuicontext.cc',['../staticuicontext_8cc.html',1,'']]],
   ['staticuicontext_2eh_85',['staticuicontext.h',['../staticuicontext_8h.html',1,'']]],
   ['stdneb_2ecc_86',['stdneb.cc',['../stdneb_8cc.html',1,'']]],
-  ['stdneb_2eh_87',['stdneb.h',['../foundation_2foundation_2stdneb_8h.html',1,'(Global Namespace)'],['../application_2application_2stdneb_8h.html',1,'(Global Namespace)'],['../render_2render_2stdneb_8h.html',1,'(Global Namespace)']]],
+  ['stdneb_2eh_87',['stdneb.h',['../application_2application_2stdneb_8h.html',1,'(Global Namespace)'],['../foundation_2foundation_2stdneb_8h.html',1,'(Global Namespace)'],['../render_2render_2stdneb_8h.html',1,'(Global Namespace)']]],
   ['stdtcpclient_2ecc_88',['stdtcpclient.cc',['../stdtcpclient_8cc.html',1,'']]],
   ['stdtcpclient_2eh_89',['stdtcpclient.h',['../stdtcpclient_8h.html',1,'']]],
   ['stdtcpclientconnection_2ecc_90',['stdtcpclientconnection.cc',['../stdtcpclientconnection_8cc.html',1,'']]],
@@ -124,7 +124,5 @@ var searchData=
   ['svgtestpagehandler_2eh_121',['svgtestpagehandler.h',['../svgtestpagehandler_8h.html',1,'']]],
   ['sysfunc_2eh_122',['sysfunc.h',['../sysfunc_8h.html',1,'']]],
   ['system_2edox_123',['system.dox',['../system_8dox.html',1,'']]],
-  ['systeminfo_2eh_124',['systeminfo.h',['../systeminfo_8h.html',1,'']]],
-  ['systeminfobase_2ecc_125',['systeminfobase.cc',['../systeminfobase_8cc.html',1,'']]],
-  ['systeminfobase_2eh_126',['systeminfobase.h',['../systeminfobase_8h.html',1,'']]]
+  ['systeminfo_2eh_124',['systeminfo.h',['../systeminfo_8h.html',1,'']]]
 ];

@@ -1,5 +1,7 @@
 var namespace_util =
 [
+    [ "_smallvector", "struct_util_1_1__smallvector.html", "struct_util_1_1__smallvector" ],
+    [ "_smallvector< TYPE, 0 >", "struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4.html", "struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4" ],
     [ "AllocatorLock", "struct_util_1_1_allocator_lock.html", "struct_util_1_1_allocator_lock" ],
     [ "Array", "class_util_1_1_array.html", "class_util_1_1_array" ],
     [ "ArrayAllocator", "class_util_1_1_array_allocator.html", "class_util_1_1_array_allocator" ],
@@ -19,6 +21,8 @@ var namespace_util =
     [ "FourCC", "class_util_1_1_four_c_c.html", "class_util_1_1_four_c_c" ],
     [ "get_template_type", "struct_util_1_1get__template__type.html", null ],
     [ "get_template_type< C< T > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
+    [ "get_template_type< C< T, I, B > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4" ],
+    [ "get_template_type< C< T, I, B > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4" ],
     [ "get_template_type< const C< T > & >", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4" ],
     [ "GlobalStringAtomTable", "class_util_1_1_global_string_atom_table.html", "class_util_1_1_global_string_atom_table" ],
     [ "HashTable", "class_util_1_1_hash_table.html", "class_util_1_1_hash_table" ],
@@ -45,6 +49,8 @@ var namespace_util =
     [ "Variant", "class_util_1_1_variant.html", "class_util_1_1_variant" ],
     [ "get_template_type_t", "namespace_util.html#a2827363ca08e6877a2389395e69f1d34", null ],
     [ "Pair", "namespace_util.html#afb76d79dd0028154ff80d514ec0a66cc", null ],
+    [ "PinnedArray", "namespace_util.html#ad571ca5aea253bc6fa991004e904308e", null ],
+    [ "StackArray", "namespace_util.html#adccd75784fc05f9841ec9cf9af0a35da", null ],
     [ "Tuple", "namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a", null ],
     [ "tuple_array_t", "namespace_util.html#a643c93045063004fd71f71b9ab650116", null ],
     [ "ArrayAllocatorAccess", "namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11b", [

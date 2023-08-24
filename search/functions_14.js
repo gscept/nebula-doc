@@ -165,7 +165,7 @@ var searchData=
   ['type_162',['Type',['../class_ti_xml_node.html#a0f4dd916b2afc2ab2f1a84f3e2b8fd5d',1,'TiXmlNode']]],
   ['typepunning_163',['TypePunning',['../namespace_util.html#af7614736305c0cc6fb19c936c31edf52',1,'Util::TypePunning(B &amp;v)'],['../namespace_util.html#ad4a275c00b23a5152b1fc6ad7f79b2a6',1,'Util::TypePunning(const B &amp;v)']]],
   ['typeregistry_164',['TypeRegistry',['../class_mem_db_1_1_type_registry.html#a9935618c4e8c861a7179ead90bfb3f7e',1,'MemDb::TypeRegistry']]],
-  ['typesize_165',['TypeSize',['../class_mem_db_1_1_type_registry.html#af060e4c59ab0741803d3c77862e00213',1,'MemDb::TypeRegistry::TypeSize()'],['../class_util_1_1_array.html#a8322d5ce5a6fde5b29ceceb7d415f81f',1,'Util::Array::TypeSize()']]],
+  ['typesize_165',['TypeSize',['../class_mem_db_1_1_type_registry.html#af060e4c59ab0741803d3c77862e00213',1,'MemDb::TypeRegistry::TypeSize()'],['../class_util_1_1_array.html#a4df7c3ae9b32bb1de36b86eab54daef2',1,'Util::Array::TypeSize()']]],
   ['typetosize_166',['TypeToSize',['../struct_materials_1_1_material_variant.html#a1b43d9d04bd36f14e45566eb215b7c25',1,'Materials::MaterialVariant']]],
   ['typetostring_167',['TypeToString',['../class_util_1_1_variant.html#a96bacf0255c661f4f16a8bd350a73d4d',1,'Util::Variant::TypeToString()'],['../class_input_1_1_input_event.html#a23a991d340c2765a9721293bee798e23',1,'Input::InputEvent::TypeToString()']]]
 ];
