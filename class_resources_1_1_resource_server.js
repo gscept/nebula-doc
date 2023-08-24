@@ -24,7 +24,7 @@ var class_resources_1_1_resource_server =
     [ "Open", "class_resources_1_1_resource_server.html#a30f2114f40617d661466a7d7d242d4d7", null ],
     [ "RegisterStreamPool", "class_resources_1_1_resource_server.html#a1d50609abfd6bab470459a5b2fcacecc", null ],
     [ "ReloadResource", "class_resources_1_1_resource_server.html#a9442237ed9853adc010b2ee9120d8e74", null ],
-    [ "SetMaxLOD", "class_resources_1_1_resource_server.html#a73907272fe63914df15a3599a391c857", null ],
+    [ "SetMinLod", "class_resources_1_1_resource_server.html#a03823870293eed03ceea4c019fe4fcff", null ],
     [ "Update", "class_resources_1_1_resource_server.html#afb9e7b92a49469d46cc6d42f241b4ee9", null ],
     [ "WaitForLoaderThread", "class_resources_1_1_resource_server.html#afe739db67285ba52f4a9085e6d2bb602", null ],
     [ "ResourceLoader", "class_resources_1_1_resource_server.html#a685a33b83a13f36aceea3ff940994ac9", null ],

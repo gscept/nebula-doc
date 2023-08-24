@@ -1,7 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"struct_game_1_1_category_create_info.html#a500d7acb7c8443c36f4787ae5d48c4b4":[8,0,25,4,1],
-"struct_game_1_1_component_create_info.html":[8,0,25,5],
 "struct_game_1_1_component_create_info.html":[9,0,22,5],
 "struct_game_1_1_component_create_info.html#a28e76836c63a5d20f9a36da3b906e0bb":[9,0,22,5,1],
 "struct_game_1_1_component_create_info.html#a28e76836c63a5d20f9a36da3b906e0bb":[8,0,25,5,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX128 =
 "struct_game_1_1_world_1_1_dealloc_instance_command.html#aadfca8129e9e7ae9e98c9fa64b08a9b6":[8,0,25,27,2,0],
 "struct_game_1_1_world_create_info.html":[9,0,22,28],
 "struct_game_1_1_world_create_info.html":[8,0,25,28],
-"struct_game_1_1_world_create_info.html#a4cf7988727f0735f42e3aea7f60807cb":[9,0,22,28,0]
+"struct_game_1_1_world_create_info.html#a4cf7988727f0735f42e3aea7f60807cb":[9,0,22,28,0],
+"struct_game_1_1_world_create_info.html#a4cf7988727f0735f42e3aea7f60807cb":[8,0,25,28,0],
+"struct_gltf_1_1_accessor.html":[8,0,28,0]
 };

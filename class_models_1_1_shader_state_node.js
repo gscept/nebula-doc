@@ -7,7 +7,6 @@ var class_models_1_1_shader_state_node =
     [ "GetMaterial", "class_models_1_1_shader_state_node.html#a084a42ff0c3870a1ef079cc0155c7f42", null ],
     [ "Load", "class_models_1_1_shader_state_node.html#acd896f961f9353884038ebf7a00908f2", null ],
     [ "OnFinishedLoading", "class_models_1_1_shader_state_node.html#ab6e0c64f132db6e3ccaaf08f1860911e", null ],
-    [ "SetMaxLOD", "class_models_1_1_shader_state_node.html#ac70597af65434266f7c376874771b4a1", null ],
     [ "Unload", "class_models_1_1_shader_state_node.html#a14968f133eaaadcef387b06cdefa9e42", null ],
     [ "ModelContext", "class_models_1_1_shader_state_node.html#af8da0315892253b355e1abe79f67e350", null ],
     [ "ModelLoader", "class_models_1_1_shader_state_node.html#ac22dade55c1e8f81ea3e0892cd321190", null ],

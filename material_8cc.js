@@ -13,7 +13,7 @@ var material_8cc =
     [ "MaterialInstanceApply", "material_8cc.html#a2b6a746471186914c029e3ad70df1726", null ],
     [ "MaterialInstanceBufferSize", "material_8cc.html#a782f97123eb6c0a452b3f9ad0c655415", null ],
     [ "MaterialSetConstant", "material_8cc.html#a743e6cfb3f7d7fed66abf53ba804e430", null ],
-    [ "MaterialSetHighestLod", "material_8cc.html#a5fb68430fa4ecc38f8f66b44aff4b1f0", null ],
+    [ "MaterialSetLowestLod", "material_8cc.html#ac344f360e8f721327341e9aae1dffd30", null ],
     [ "MaterialSetTexture", "material_8cc.html#a36e8d7bee8078af477db658f32522e09", null ],
     [ "materialAllocator", "material_8cc.html#a941d0277ca29f53a5d76edc5375112a1", null ],
     [ "materialInstanceAllocator", "material_8cc.html#ab86483cfc9215ac57a30f8e352ff0a9c", null ],

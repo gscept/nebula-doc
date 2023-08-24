@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"shaperenderer_8cc.html#a8aa6837b0b48c551a9acdb72bdd58650":[10,0,0,6,5,74,0],
-"shaperenderer_8h.html":[10,0,0,6,5,75],
 "shaperenderer_8h_source.html":[10,0,0,6,5,75],
 "shaperendererbase_8cc.html":[10,0,0,6,5,0,4],
 "shaperendererbase_8cc.html#a4039c2e4c79f4c41b3c676541f32b4ea":[10,0,0,6,5,0,4,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "stdtcpclient_8cc.html":[10,0,0,3,15,2,0],
 "stdtcpclient_8cc.html#a00fcfba6a88bbc001a563aa5bb70673b":[10,0,0,3,15,2,0,0],
 "stdtcpclient_8h.html":[10,0,0,3,15,2,1],
-"stdtcpclient_8h_source.html":[10,0,0,3,15,2,1]
+"stdtcpclient_8h_source.html":[10,0,0,3,15,2,1],
+"stdtcpclientconnection_8cc.html":[10,0,0,3,15,2,2],
+"stdtcpclientconnection_8cc.html#a44efa2a40f21dc9c71f5c2c2e027a97f":[10,0,0,3,15,2,2,0]
 };

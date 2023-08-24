@@ -1,7 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"struct_math_1_1vec4.html":[9,0,39,31],
-"struct_math_1_1vec4.html#a0543ec0a3ea09c9847f8dba20942799e":[8,0,44,31,5],
 "struct_math_1_1vec4.html#a0543ec0a3ea09c9847f8dba20942799e":[9,0,39,31,5],
 "struct_math_1_1vec4.html#a0c2a7be147f8be26a9e6dd3cee83ff6c":[9,0,39,31,10],
 "struct_math_1_1vec4.html#a0c2a7be147f8be26a9e6dd3cee83ff6c":[8,0,44,31,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX138 =
 "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a56a0b4b5266fd0a672dfeffd5e4bddee":[9,0,43,2,1,0,11],
 "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a6726e2d6b02a557bdcfcfa6c1baed4fe":[8,0,48,2,1,0,13],
 "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a6726e2d6b02a557bdcfcfa6c1baed4fe":[9,0,43,2,1,0,13],
-"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a72c6604e9d3c5f30dca264c87e6413a0":[8,0,48,2,1,0,14]
+"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a72c6604e9d3c5f30dca264c87e6413a0":[8,0,48,2,1,0,14],
+"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a72c6604e9d3c5f30dca264c87e6413a0":[9,0,43,2,1,0,14],
+"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a7f049b403590d1612b3998af26df6fad":[9,0,43,2,1,0,7]
 };

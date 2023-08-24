@@ -206,7 +206,7 @@ var searchData=
   ['materials_203',['Materials',['../namespace_materials.html',1,'']]],
   ['materialserver_204',['materialServer',['../class_graphics_1_1_graphics_server.html#a1311740fe01c0362f38d02d5bafb86e1',1,'Graphics::GraphicsServer']]],
   ['materialsetconstant_205',['MaterialSetConstant',['../namespace_materials.html#a743e6cfb3f7d7fed66abf53ba804e430',1,'Materials::MaterialSetConstant()'],['../class_materials_1_1_shader_config.html#a0b33699f4377fb6c5538baa99096608d',1,'Materials::ShaderConfig::MaterialSetConstant']]],
-  ['materialsethighestlod_206',['MaterialSetHighestLod',['../namespace_materials.html#a5fb68430fa4ecc38f8f66b44aff4b1f0',1,'Materials']]],
+  ['materialsetlowestlod_206',['MaterialSetLowestLod',['../namespace_materials.html#ac344f360e8f721327341e9aae1dffd30',1,'Materials']]],
   ['materialsettexture_207',['MaterialSetTexture',['../namespace_materials.html#a36e8d7bee8078af477db658f32522e09',1,'Materials::MaterialSetTexture()'],['../class_materials_1_1_shader_config.html#a4a7851b6bc16e5d46c55e2923926aa36',1,'Materials::ShaderConfig::MaterialSetTexture']]],
   ['materialtexture_208',['MaterialTexture',['../struct_materials_1_1_material_texture.html',1,'Materials']]],
   ['materialtextureloadsection_209',['materialTextureLoadSection',['../namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac',1,'Materials']]],

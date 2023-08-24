@@ -1,7 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"stdtcpclientconnection_8cc.html":[10,0,0,3,15,2,2],
-"stdtcpclientconnection_8cc.html#a44efa2a40f21dc9c71f5c2c2e027a97f":[10,0,0,3,15,2,2,0],
 "stdtcpclientconnection_8h.html":[10,0,0,3,15,2,3],
 "stdtcpclientconnection_8h_source.html":[10,0,0,3,15,2,3],
 "stdtcpserver_8cc.html":[10,0,0,3,15,2,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX120 =
 "struct_characters_1_1_skeleton_job_joint.html#a2caab8ef8ac71afe9ac51b8172245a1b":[9,0,7,8,8],
 "struct_characters_1_1_skeleton_job_joint.html#a2caab8ef8ac71afe9ac51b8172245a1b":[8,0,8,8,8],
 "struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22":[8,0,8,8,3],
-"struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22":[9,0,7,8,3]
+"struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22":[9,0,7,8,3],
+"struct_characters_1_1_skeleton_job_joint.html#a3a58ef987a124f3cc4514e30bc528de9":[9,0,7,8,7],
+"struct_characters_1_1_skeleton_job_joint.html#a3a58ef987a124f3cc4514e30bc528de9":[8,0,8,8,7]
 };

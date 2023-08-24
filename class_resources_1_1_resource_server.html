@@ -148,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9442237ed9853adc010b2ee9120d8e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a9442237ed9853adc010b2ee9120d8e74">ReloadResource</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;res, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr)</td></tr>
 <tr class="memdesc:a9442237ed9853adc010b2ee9120d8e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">reload resource  <br /></td></tr>
 <tr class="separator:a9442237ed9853adc010b2ee9120d8e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73907272fe63914df15a3599a391c857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a73907272fe63914df15a3599a391c857">SetMaxLOD</a> (const ResourceId &amp;id, float lod, bool immediate)</td></tr>
-<tr class="memdesc:a73907272fe63914df15a3599a391c857"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream in a new LOD  <br /></td></tr>
-<tr class="separator:a73907272fe63914df15a3599a391c857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03823870293eed03ceea4c019fe4fcff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a03823870293eed03ceea4c019fe4fcff">SetMinLod</a> (const ResourceId &amp;id, float lod, bool immediate)</td></tr>
+<tr class="memdesc:a03823870293eed03ceea4c019fe4fcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream in a new LOD  <br /></td></tr>
+<tr class="separator:a03823870293eed03ceea4c019fe4fcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812b97aba4e7f11a0b2167bb093f320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a">GetType</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a812b97aba4e7f11a0b2167bb093f320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of resource pool this resource was allocated with  <br /></td></tr>
 <tr class="separator:a812b97aba4e7f11a0b2167bb093f320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1005,8 +1005,8 @@ template&lt;class POOL_TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a73907272fe63914df15a3599a391c857" name="a73907272fe63914df15a3599a391c857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73907272fe63914df15a3599a391c857">&#9670;&#160;</a></span>SetMaxLOD()</h2>
+<a id="a03823870293eed03ceea4c019fe4fcff" name="a03823870293eed03ceea4c019fe4fcff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03823870293eed03ceea4c019fe4fcff">&#9670;&#160;</a></span>SetMinLod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1015,7 +1015,7 @@ template&lt;class POOL_TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Resources::ResourceServer::SetMaxLOD </td>
+          <td class="memname">void Resources::ResourceServer::SetMinLod </td>
           <td>(</td>
           <td class="paramtype">const ResourceId &amp;&#160;</td>
           <td class="paramname"><em>id</em>, </td>
@@ -1233,7 +1233,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></li>
 				<li class="footer">
-					Generated on Thu Aug 24 2023 13:24:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:56:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

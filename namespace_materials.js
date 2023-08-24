@@ -45,7 +45,7 @@ var namespace_materials =
     [ "MaterialInstanceApply", "namespace_materials.html#a2b6a746471186914c029e3ad70df1726", null ],
     [ "MaterialInstanceBufferSize", "namespace_materials.html#a782f97123eb6c0a452b3f9ad0c655415", null ],
     [ "MaterialSetConstant", "namespace_materials.html#a743e6cfb3f7d7fed66abf53ba804e430", null ],
-    [ "MaterialSetHighestLod", "namespace_materials.html#a5fb68430fa4ecc38f8f66b44aff4b1f0", null ],
+    [ "MaterialSetLowestLod", "namespace_materials.html#ac344f360e8f721327341e9aae1dffd30", null ],
     [ "MaterialSetTexture", "namespace_materials.html#a36e8d7bee8078af477db658f32522e09", null ],
     [ "materialAllocator", "namespace_materials.html#a941d0277ca29f53a5d76edc5375112a1", null ],
     [ "materialInstanceAllocator", "namespace_materials.html#ab86483cfc9215ac57a30f8e352ff0a9c", null ],

@@ -38,7 +38,7 @@ var class_resources_1_1_resource_loader =
     [ "ReloadResource", "class_resources_1_1_resource_loader.html#a61c43763699bb76ced0a42d60f07d604", null ],
     [ "ReloadResource", "class_resources_1_1_resource_loader.html#acf93797ff0865d4e534b93e7e4d1410c", null ],
     [ "RunCallbacks", "class_resources_1_1_resource_loader.html#a35c40aeb4e9abb22b2d00ff0b4584098", null ],
-    [ "SetMaxLOD", "class_resources_1_1_resource_loader.html#a7fabd45d8b72c58548a06057679d5d09", null ],
+    [ "SetMinLod", "class_resources_1_1_resource_loader.html#a9e76875f3d3f514a891e1dbe2d0b6585", null ],
     [ "Setup", "class_resources_1_1_resource_loader.html#a326af86119d282921e5df549ad6d87af", null ],
     [ "StreamMaxLOD", "class_resources_1_1_resource_loader.html#ad01fa226cb01545e8507bd5c05104dc8", null ],
     [ "Unload", "class_resources_1_1_resource_loader.html#add37fdb996b9b267a3838d641834c7ae", null ],

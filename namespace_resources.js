@@ -18,6 +18,6 @@ var namespace_resources =
     [ "GetStreamPool", "namespace_resources.html#af5a64ab7fe1b30e8c07afddcb6a2f5dd", null ],
     [ "ID_24_8_24_8_NAMED_TYPE", "namespace_resources.html#aa5854172f2ae9c8b4c44063e14091c1e", null ],
     [ "ReloadResource", "namespace_resources.html#a6c6eac045904ef7b6d659587c5a416fc", null ],
-    [ "SetMaxLOD", "namespace_resources.html#aa9525928283dd4bec9b1cd86f99f04e2", null ],
+    [ "SetMinLod", "namespace_resources.html#ab73c196b36be5cb6604ec28e8004383b", null ],
     [ "WaitForLoaderThread", "namespace_resources.html#a37f105ce84ecbee7f98fb6f41950338c", null ]
 ];
