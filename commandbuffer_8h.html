@@ -157,12 +157,11 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a7c36fb4add6954deba60317251ca5c41"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a> : uint { <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41aab42fa37451369c1ed3f5984280ca348">CoreGraphics::NoInfoSet</a> = 0
 , <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a05544e614063a6ae097519242ec50373">CoreGraphics::ShaderInfoSet</a> = N_BIT(0)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a2b43624d7c4d816c3374e839f93d73c1">CoreGraphics::VertexLayoutInfoSet</a> = N_BIT(1)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e">CoreGraphics::FramebufferLayoutInfoSet</a> = N_BIT(2)
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e">CoreGraphics::FramebufferLayoutInfoSet</a> = N_BIT(1)
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a70ef6206bc7a3add87924510a04239d7">CoreGraphics::InputAssemblyInfoSet</a> = N_BIT(2)
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a90f2ebfc721e441e54abfbc5e4aefeda">CoreGraphics::InputLayoutInfoSet</a> = N_BIT(3)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa">CoreGraphics::AllInfoSet</a> = ShaderInfoSet | VertexLayoutInfoSet | FramebufferLayoutInfoSet | InputLayoutInfoSet
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce">CoreGraphics::PipelineBuilt</a> = N_BIT(4)
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa">CoreGraphics::AllInfoSet</a> = ShaderInfoSet | FramebufferLayoutInfoSet | InputAssemblyInfoSet
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce">CoreGraphics::PipelineBuilt</a> = N_BIT(3)
 <br />
  }</td></tr>
 <tr class="separator:a7c36fb4add6954deba60317251ca5c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +230,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acceae3e7d1adae86095edfa9c57452dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acceae3e7d1adae86095edfa9c57452dc">CoreGraphics::CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id)</td></tr>
 <tr class="memdesc:acceae3e7d1adae86095edfa9c57452dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create (if necessary) and bind pipeline based on state thus far.  <br /></td></tr>
 <tr class="separator:acceae3e7d1adae86095edfa9c57452dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b5755b3c1e380284211db1d6f409fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a29b5755b3c1e380284211db1d6f409fb">CoreGraphics::CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> buf, const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
+<tr class="memdesc:a29b5755b3c1e380284211db1d6f409fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set graphics pipeline directly.  <br /></td></tr>
+<tr class="separator:a29b5755b3c1e380284211db1d6f409fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faf4f30461ee8c93767350644612e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7faf4f30461ee8c93767350644612e95">CoreGraphics::CmdBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> fromStage, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> toStage, <a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> domain, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const char *name=nullptr)</td></tr>
 <tr class="memdesc:a7faf4f30461ee8c93767350644612e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert pipeline barrier.  <br /></td></tr>
 <tr class="separator:a7faf4f30461ee8c93767350644612e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -382,7 +384,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="commandbuffer_8h.html">commandbuffer.h</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

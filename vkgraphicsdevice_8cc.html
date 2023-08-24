@@ -111,6 +111,8 @@ $(document).ready(function(){initNavTree('vkgraphicsdevice_8cc.html',''); initRe
 <code>#include &quot;<a class="el" href="application_8h_source.html">app/application.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ioserver_8h_source.html">io/ioserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkfence_8h_source.html">vkfence.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vkshader_8h_source.html">vkshader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vkvertexlayout_8h_source.html">vkvertexlayout.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vksemaphore_8h_source.html">coregraphics/vk/vksemaphore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktextureview_8h_source.html">coregraphics/vk/vktextureview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsdevice_8h_source.html">coregraphics/graphicsdevice.h</a>&quot;</code><br />
@@ -133,8 +135,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html">Vulkan::GraphicsDeviceState::PendingMarkers</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_queries.html">Vulkan::GraphicsDeviceState::Queries</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -192,9 +192,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2459dc449f270ca8ff5a51765fde3dab"><td class="memItemLeft" align="right" valign="top">const VkQueue&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a2459dc449f270ca8ff5a51765fde3dab">Vulkan::GetCurrentQueue</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:a2459dc449f270ca8ff5a51765fde3dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">get currently active queue of type  <br /></td></tr>
 <tr class="separator:a2459dc449f270ca8ff5a51765fde3dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ac9032a4c4ddc60d6ead8a424d08f3c42">Vulkan::GetOrCreatePipeline</a> (<a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> pass, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> subpass, CoreGraphics::ShaderProgramId program, <a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a> inputAssembly, const VkGraphicsPipelineCreateInfo &amp;info)</td></tr>
-<tr class="memdesc:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
-<tr class="separator:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a33b805dc3b4a9076ca4b1d9966d08a80">Vulkan::GetOrCreatePipeline</a> (<a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> pass, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> subpass, CoreGraphics::ShaderProgramId program, const <a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a> inputAssembly, const VkGraphicsPipelineCreateInfo &amp;info)</td></tr>
+<tr class="memdesc:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
+<tr class="separator:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33631508e7e7b011fed57eba8d97233e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e">Vulkan::SparseTextureBind</a> (const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
 <tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse bind operations  <br /></td></tr>
 <tr class="separator:a33631508e7e7b011fed57eba8d97233e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -402,8 +402,6 @@ Variables</h2></td></tr>
 <tr class="separator:a848d3448cc9846d12c0f1e035e9fb263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ab9f9ab2495caba15b64d22cbf1c9a383">Vulkan::state</a></td></tr>
 <tr class="separator:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aaa63d9ff5c3f2e85b89e87336702f9d3">Vulkan::threadState</a></td></tr>
-<tr class="separator:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memItemLeft" align="right" valign="top">VkDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a79bf021c4d4d8ae56ac9fe9163e95380">Vulkan::VkErrorDebugMessageHandle</a> = nullptr</td></tr>
 <tr class="separator:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab04a200d15d18716a96aae6f6bacd7f"><td class="memItemLeft" align="right" valign="top">PFN_vkCreateDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aab04a200d15d18716a96aae6f6bacd7f">Vulkan::VkCreateDebugMessenger</a> = nullptr</td></tr>
@@ -473,7 +471,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -49,6 +49,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "nvx3streamreader.cc", "nvx3streamreader_8cc.html", "nvx3streamreader_8cc" ],
     [ "nvx3streamreader.h", "nvx3streamreader_8h.html", "nvx3streamreader_8h" ],
     [ "pass.h", "pass_8h.html", "pass_8h" ],
+    [ "pipeline.h", "pipeline_8h.html", "pipeline_8h" ],
     [ "pixelformat.cc", "pixelformat_8cc.html", null ],
     [ "pixelformat.h", "pixelformat_8h.html", "pixelformat_8h" ],
     [ "primitivegroup.h", "primitivegroup_8h.html", "primitivegroup_8h" ],

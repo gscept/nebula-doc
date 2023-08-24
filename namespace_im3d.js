@@ -97,7 +97,7 @@ var namespace_im3d =
     [ "BeginTriangles", "namespace_im3d.html#a437556d5d422bee045e48e7c0f1e01be", null ],
     [ "BeginTriangleStrip", "namespace_im3d.html#a9233b35c13cd56293f01b3bc8fe5f154", null ],
     [ "Clamp", "namespace_im3d.html#a8bb9754555d9ae0ec0e8d7efcb56f085", null ],
-    [ "CollectByFilter", "namespace_im3d.html#a9942cbcc08289e852c2ef770e63e3529", null ],
+    [ "CollectByFilter", "namespace_im3d.html#a4490598561946754dd58bd7f7be8ed72", null ],
     [ "Cross", "namespace_im3d.html#adcbfc6385bd3ca45fa4af62c5a4474ea", null ],
     [ "Degrees", "namespace_im3d.html#a5c2182f62cc7144e26d19772d3a08ba1", null ],
     [ "Distance", "namespace_im3d.html#aaf7715fb43e1d3071bc5acd328898694", null ],

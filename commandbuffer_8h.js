@@ -20,9 +20,8 @@ var commandbuffer_8h =
     [ "CmdPipelineBuildBits", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41", [
       [ "NoInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41aab42fa37451369c1ed3f5984280ca348", null ],
       [ "ShaderInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a05544e614063a6ae097519242ec50373", null ],
-      [ "VertexLayoutInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a2b43624d7c4d816c3374e839f93d73c1", null ],
       [ "FramebufferLayoutInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e", null ],
-      [ "InputLayoutInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a90f2ebfc721e441e54abfbc5e4aefeda", null ],
+      [ "InputAssemblyInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a70ef6206bc7a3add87924510a04239d7", null ],
       [ "AllInfoSet", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa", null ],
       [ "PipelineBuilt", "commandbuffer_8h.html#a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce", null ]
     ] ],
@@ -60,6 +59,7 @@ var commandbuffer_8h =
     [ "CmdResetClipToPass", "commandbuffer_8h.html#a9dd3842644aac9d527a9f3562ed0ece6", null ],
     [ "CmdResetEvent", "commandbuffer_8h.html#acf29b6dd8b182e4cf2c63e05d6af3f42", null ],
     [ "CmdResolve", "commandbuffer_8h.html#ab019f4098c6e489ea37ca5b68081aee3", null ],
+    [ "CmdSetGraphicsPipeline", "commandbuffer_8h.html#a29b5755b3c1e380284211db1d6f409fb", null ],
     [ "CmdSetGraphicsPipeline", "commandbuffer_8h.html#acceae3e7d1adae86095edfa9c57452dc", null ],
     [ "CmdSetIndexBuffer", "commandbuffer_8h.html#aee0786cc4f7d13e416bb7f1a63d37267", null ],
     [ "CmdSetPrimitiveTopology", "commandbuffer_8h.html#a5226e862b60f3049eabf74456c8994e9", null ],

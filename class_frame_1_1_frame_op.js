@@ -1,6 +1,7 @@
 var class_frame_1_1_frame_op =
 [
     [ "BufferDependency", "struct_frame_1_1_frame_op_1_1_buffer_dependency.html", "struct_frame_1_1_frame_op_1_1_buffer_dependency" ],
+    [ "BuildContext", "struct_frame_1_1_frame_op_1_1_build_context.html", "struct_frame_1_1_frame_op_1_1_build_context" ],
     [ "Compiled", "struct_frame_1_1_frame_op_1_1_compiled.html", "struct_frame_1_1_frame_op_1_1_compiled" ],
     [ "TextureDependency", "struct_frame_1_1_frame_op_1_1_texture_dependency.html", "struct_frame_1_1_frame_op_1_1_texture_dependency" ],
     [ "FrameOp", "class_frame_1_1_frame_op.html#aa9149b10b0a4776141a4de858a01593b", null ],
@@ -9,7 +10,7 @@ var class_frame_1_1_frame_op =
     [ "AllocCompiled", "class_frame_1_1_frame_op.html#a48a966c374b60a4907b2d8b6058efd86", null ],
     [ "AnalyzeAndSetupBufferBarriers", "class_frame_1_1_frame_op.html#a52b4f18cb53e3a343a554ae6086f2d78", null ],
     [ "AnalyzeAndSetupTextureBarriers", "class_frame_1_1_frame_op.html#ac049cc06998dc1ca78d97be56d68c7ab", null ],
-    [ "Build", "class_frame_1_1_frame_op.html#a029bbbebdb4b491bb4a00d70996beee3", null ],
+    [ "Build", "class_frame_1_1_frame_op.html#a1e086e49a2f94e77aefdc7e15c12436c", null ],
     [ "Discard", "class_frame_1_1_frame_op.html#a16162553bc8efea315f7036f54a036a7", null ],
     [ "GetChildren", "class_frame_1_1_frame_op.html#a16b3430ca7fa3ecb2a97456a3ebac193", null ],
     [ "GetEnabled", "class_frame_1_1_frame_op.html#a131bedb98c3eb3ecad70e5e1e6c792ac", null ],

@@ -9,6 +9,7 @@ var struct_dynui_1_1_imgui_context_1_1_imgui_state =
     [ "normalFont", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#acd9621e164d2abc76e1f6a0d0359ff06", null ],
     [ "packedTextureInfo", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af9a3fcf3f43142fc9f255866fc693eeb", null ],
     [ "params", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a67521927ee89c4e35a9e794ca48ec71e", null ],
+    [ "pipeline", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a2ce389902ed30dbe7831f25ba38cb938", null ],
     [ "prog", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a4fae72449e18c181a90637ee174cd7df", null ],
     [ "resourceTable", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af8fab9579e8fdc37b70bbe43ecefcdef", null ],
     [ "smallFont", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a28be81f6f37c6814e54ba4e6eb2449e6", null ],

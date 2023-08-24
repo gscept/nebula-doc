@@ -122,9 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5db8009c79642d63a2a6408a04c4f7e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">FrameOp::Compiled</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#a5db8009c79642d63a2a6408a04c4f7e7">AllocCompiled</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator)</td></tr>
 <tr class="memdesc:a5db8009c79642d63a2a6408a04c4f7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate new instance  <br /></td></tr>
 <tr class="separator:a5db8009c79642d63a2a6408a04c4f7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacd1f15d66a0273aadf72887610df496"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#aacd1f15d66a0273aadf72887610df496">Build</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">FrameOp::Compiled</a> * &gt; &amp;compiledOps, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_event_id.html">CoreGraphics::EventId</a> &gt; &amp;events, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_id.html">CoreGraphics::BarrierId</a> &gt; &amp;barriers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_buffer_dependency.html">BufferDependency</a> &gt; &gt; &amp;rwBuffers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_texture_dependency.html">TextureDependency</a> &gt; &gt; &amp;textures)</td></tr>
-<tr class="memdesc:aacd1f15d66a0273aadf72887610df496"><td class="mdescLeft">&#160;</td><td class="mdescRight">build operation  <br /></td></tr>
-<tr class="separator:aacd1f15d66a0273aadf72887610df496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c4b3f585d25aee8fc181ff4d7dc6e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_submission.html#ab9c4b3f585d25aee8fc181ff4d7dc6e9">Build</a> (const <a class="el" href="struct_frame_1_1_frame_op_1_1_build_context.html">BuildContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:ab9c4b3f585d25aee8fc181ff4d7dc6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">build operation  <br /></td></tr>
+<tr class="separator:ab9c4b3f585d25aee8fc181ff4d7dc6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_frame_1_1_frame_op"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_frame_1_1_frame_op')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_frame_1_1_frame_op.html">Frame::FrameOp</a></td></tr>
 <tr class="memitem:aa9149b10b0a4776141a4de858a01593b inherit pub_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#aa9149b10b0a4776141a4de858a01593b">FrameOp</a> ()</td></tr>
 <tr class="memdesc:aa9149b10b0a4776141a4de858a01593b inherit pub_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
@@ -185,9 +185,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a48a966c374b60a4907b2d8b6058efd86 inherit pro_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">Compiled</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a48a966c374b60a4907b2d8b6058efd86">AllocCompiled</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator)=0</td></tr>
 <tr class="memdesc:a48a966c374b60a4907b2d8b6058efd86 inherit pro_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate instance of compiled  <br /></td></tr>
 <tr class="separator:a48a966c374b60a4907b2d8b6058efd86 inherit pro_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a029bbbebdb4b491bb4a00d70996beee3 inherit pro_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a029bbbebdb4b491bb4a00d70996beee3">Build</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">FrameOp::Compiled</a> * &gt; &amp;compiledOps, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_event_id.html">CoreGraphics::EventId</a> &gt; &amp;events, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_id.html">CoreGraphics::BarrierId</a> &gt; &amp;barriers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_buffer_dependency.html">BufferDependency</a> &gt; &gt; &amp;buffers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_texture_dependency.html">TextureDependency</a> &gt; &gt; &amp;textures)</td></tr>
-<tr class="memdesc:a029bbbebdb4b491bb4a00d70996beee3 inherit pro_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">build operation  <br /></td></tr>
-<tr class="separator:a029bbbebdb4b491bb4a00d70996beee3 inherit pro_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e086e49a2f94e77aefdc7e15c12436c inherit pro_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a1e086e49a2f94e77aefdc7e15c12436c">Build</a> (const <a class="el" href="struct_frame_1_1_frame_op_1_1_build_context.html">BuildContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a1e086e49a2f94e77aefdc7e15c12436c inherit pro_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">build operation  <br /></td></tr>
+<tr class="separator:a1e086e49a2f94e77aefdc7e15c12436c inherit pro_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ad4a060ddada5e59af30faa3f1fb6f inherit pro_methods_class_frame_1_1_frame_op"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_frame_1_1_frame_op.html#a24ad4a060ddada5e59af30faa3f1fb6f">SetupSynchronization</a> (<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;allocator, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_event_id.html">CoreGraphics::EventId</a> &gt; &amp;events, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_id.html">CoreGraphics::BarrierId</a> &gt; &amp;barriers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_buffer_dependency.html">BufferDependency</a> &gt; &gt; &amp;buffers, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_texture_dependency.html">TextureDependency</a> &gt; &gt; &amp;textures)</td></tr>
 <tr class="memdesc:a24ad4a060ddada5e59af30faa3f1fb6f inherit pro_methods_class_frame_1_1_frame_op"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup synchronization  <br /></td></tr>
 <tr class="separator:a24ad4a060ddada5e59af30faa3f1fb6f inherit pro_methods_class_frame_1_1_frame_op"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,8 +281,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aacd1f15d66a0273aadf72887610df496" name="aacd1f15d66a0273aadf72887610df496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacd1f15d66a0273aadf72887610df496">&#9670;&#160;</a></span>Build()</h2>
+<a id="ab9c4b3f585d25aee8fc181ff4d7dc6e9" name="ab9c4b3f585d25aee8fc181ff4d7dc6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c4b3f585d25aee8fc181ff4d7dc6e9">&#9670;&#160;</a></span>Build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,43 +293,9 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Frame::FrameSubmission::Build </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; <a class="el" href="arenaallocator_8h.html#ad1788af3f20b8948ba2ba938102f6a61">BIG_CHUNK</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>allocator</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="struct_frame_1_1_frame_op_1_1_build_context.html">BuildContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_compiled.html">FrameOp::Compiled</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>compiledOps</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_event_id.html">CoreGraphics::EventId</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>events</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_id.html">CoreGraphics::BarrierId</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>barriers</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_buffer_dependency.html">BufferDependency</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rwBuffers</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_frame_1_1_frame_op_1_1_texture_dependency.html">TextureDependency</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>textures</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -341,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>build operation </p>
 
-<p>Reimplemented from <a class="el" href="class_frame_1_1_frame_op.html#a029bbbebdb4b491bb4a00d70996beee3">Frame::FrameOp</a>.</p>
+<p>Reimplemented from <a class="el" href="class_frame_1_1_frame_op.html#a1e086e49a2f94e77aefdc7e15c12436c">Frame::FrameOp</a>.</p>
 
 </div>
 </div>
@@ -456,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_frame.html">Frame</a></li><li class="navelem"><a class="el" href="class_frame_1_1_frame_submission.html">FrameSubmission</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

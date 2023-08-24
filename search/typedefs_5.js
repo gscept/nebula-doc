@@ -7,5 +7,6 @@ var searchData=
   ['fogboxvolumeallocator_4',['FogBoxVolumeAllocator',['../class_fog_1_1_volumetric_fog_context.html#aeba61fad3488d1a4e8e805c3fa514fdc',1,'Fog::VolumetricFogContext']]],
   ['foggenericvolumeallocator_5',['FogGenericVolumeAllocator',['../class_fog_1_1_volumetric_fog_context.html#ac9acc6d4fda2b5373f24c6d27fc3356b',1,'Fog::VolumetricFogContext']]],
   ['fogspherevolumeallocator_6',['FogSphereVolumeAllocator',['../class_fog_1_1_volumetric_fog_context.html#a86cf471ecc7a1ccd9bafe8b59c9bb318',1,'Fog::VolumetricFogContext']]],
-  ['framecodefunc_7',['FrameCodeFunc',['../class_frame_1_1_frame_code.html#a481d590922ec05e33ccd3ff0ce2ffd82',1,'Frame::FrameCode']]]
+  ['framebuildfunc_7',['FrameBuildFunc',['../class_frame_1_1_frame_code.html#a1a90bfadc707d7d58ce0f5639ddad5a0',1,'Frame::FrameCode']]],
+  ['framecodefunc_8',['FrameCodeFunc',['../class_frame_1_1_frame_code.html#a481d590922ec05e33ccd3ff0ce2ffd82',1,'Frame::FrameCode']]]
 ];

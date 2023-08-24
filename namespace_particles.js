@@ -32,7 +32,7 @@ var namespace_particles =
     [ "ParticleJobInputSliceSize", "namespace_particles.html#aaea2ff66268e4a391d46c31608be94d3", null ],
     [ "ParticleSystemNumEnvelopeSamples", "namespace_particles.html#a374692d43bfc5f8fbda6cedb68e21583", null ],
     [ "primGroup", "namespace_particles.html#aea46a9d16799861c566d261aea1af430", null ],
-    [ "state", "namespace_particles.html#ad9854128043ddbd983a3d94400a1dc37", null ],
+    [ "state", "namespace_particles.html#a639aaff9c7e0de5a014913d2f3a25795", null ],
     [ "StepTime", "namespace_particles.html#a13118ac718cf9cbeebd90706e60504fa", null ],
     [ "vbos", "namespace_particles.html#ad1abed319d1282822f0193a872da9877", null ],
     [ "vboSizes", "namespace_particles.html#a68a5ed14b22d31966157326e0813148f", null ],

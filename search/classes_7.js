@@ -28,7 +28,7 @@ var searchData=
   ['graphicscontextstate_25',['GraphicsContextState',['../struct_graphics_1_1_graphics_context_state.html',1,'Graphics']]],
   ['graphicsdevicecreateinfo_26',['GraphicsDeviceCreateInfo',['../struct_core_graphics_1_1_graphics_device_create_info.html',1,'CoreGraphics']]],
   ['graphicsdevicestate_27',['GraphicsDeviceState',['../struct_core_graphics_1_1_graphics_device_state.html',1,'CoreGraphics::GraphicsDeviceState'],['../struct_vulkan_1_1_graphics_device_state.html',1,'Vulkan::GraphicsDeviceState']]],
-  ['graphicsdevicethreadstate_28',['GraphicsDeviceThreadState',['../struct_core_graphics_1_1_graphics_device_thread_state.html',1,'CoreGraphics::GraphicsDeviceThreadState'],['../struct_vulkan_1_1_graphics_device_thread_state.html',1,'Vulkan::GraphicsDeviceThreadState']]],
+  ['graphicsdevicethreadstate_28',['GraphicsDeviceThreadState',['../struct_core_graphics_1_1_graphics_device_thread_state.html',1,'CoreGraphics']]],
   ['graphicsentityid_29',['GraphicsEntityId',['../struct_graphics_1_1_graphics_entity_id.html',1,'Graphics']]],
   ['graphicsfeatureunit_30',['GraphicsFeatureUnit',['../class_graphics_feature_1_1_graphics_feature_unit.html',1,'GraphicsFeature']]],
   ['graphicsmanager_31',['GraphicsManager',['../class_graphics_feature_1_1_graphics_manager.html',1,'GraphicsFeature']]],

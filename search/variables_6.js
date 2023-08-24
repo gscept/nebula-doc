@@ -67,7 +67,7 @@ var searchData=
   ['foggenericvolumeallocator_64',['fogGenericVolumeAllocator',['../class_fog_1_1_volumetric_fog_context.html#abe942eb68f8dec0cb19c56dc6ec25886',1,'Fog::VolumetricFogContext']]],
   ['fogspheres_65',['fogSpheres',['../namespace_fog.html#a7177334b2e4a4b62713e32be604955e7',1,'Fog']]],
   ['fogspherevolumeallocator_66',['fogSphereVolumeAllocator',['../class_fog_1_1_volumetric_fog_context.html#aa715b25017516cda4119193c9c62a0e2',1,'Fog::VolumetricFogContext']]],
-  ['fogstate_67',['fogState',['../namespace_fog.html#abb8d4721d57b6a8e6763617eb1f6ecdf',1,'Fog']]],
+  ['fogstate_67',['fogState',['../namespace_fog.html#af25a8c63ae60dc8559b2fc3813658912',1,'Fog']]],
   ['fogtexture_68',['fogTexture',['../namespace_lighting.html#a4ebe30a14b54fc6a4411fef7b896eb52',1,'Lighting']]],
   ['fogvolumetexture0_69',['fogVolumeTexture0',['../namespace_fog.html#a78533a115fdaf91aa54c376ba90def7f',1,'Fog']]],
   ['fogvolumetexture1_70',['fogVolumeTexture1',['../namespace_fog.html#a2073cad2d856b1cf4840e41890fce2e3',1,'Fog']]],

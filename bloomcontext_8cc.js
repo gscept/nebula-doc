@@ -2,7 +2,7 @@ var bloomcontext_8cc =
 [
     [ "__ImplementPluginContext", "bloomcontext_8cc.html#a1b8bcba7e18c234b3b737842126f3e41", null ],
     [ "bloomBuffer", "bloomcontext_8cc.html#a14758b57d90b19201ba1a9662eb7f826", null ],
-    [ "bloomState", "bloomcontext_8cc.html#ac4489bead9d2307ab9093bf9772e01f1", null ],
+    [ "bloomState", "bloomcontext_8cc.html#af57d0194e47df6818cd071c01dded3a9", null ],
     [ "constants", "bloomcontext_8cc.html#ad16b264ff9de9ac76abb528886446ac6", null ],
     [ "frameOpAllocator", "bloomcontext_8cc.html#a5272c9d57280cf2a77e791f03738bdd6", null ],
     [ "lightBuffer", "bloomcontext_8cc.html#aad1fa3eb9d445cadb8a68f01d3713734", null ],

@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('namespace_core_graphics.html',''); ini
 <p>A texture view is used on a texture to change the format, mip or layer range used to sample from in a shader.</p>
 <p>Texture related functions.</p>
 <p>Virtually mapped buffer.</p>
+<p>A pipeline object describes the GPU state required to perform a compute or graphics job.</p>
 <p>Container type for meshes.</p>
 <p>Implements a mesh loader from stream into <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>.</p>
 <p>Implements a window using <a class="el" href="namespace_g_l_f_w.html">GLFW</a>.</p>
@@ -121,6 +122,7 @@ $(document).ready(function(){initNavTree('namespace_core_graphics.html',''); ini
 <p>Doubtful this is <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> specific...</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2016-2020 Individual contributors, see AUTHORS file</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2023 Individual contributors, see AUTHORS file</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2020 Individual contributors, see AUTHORS file</dd>
@@ -279,6 +281,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pass_create_info.html">PassCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pass_id.html">PassId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_pixel_format.html">PixelFormat</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pixel format enumeration.  <a href="class_core_graphics_1_1_pixel_format.html#details">More...</a><br /></td></tr>
@@ -488,12 +494,11 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a7c36fb4add6954deba60317251ca5c41"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CmdPipelineBuildBits</a> : uint { <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41aab42fa37451369c1ed3f5984280ca348">NoInfoSet</a> = 0
 , <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a05544e614063a6ae097519242ec50373">ShaderInfoSet</a> = N_BIT(0)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a2b43624d7c4d816c3374e839f93d73c1">VertexLayoutInfoSet</a> = N_BIT(1)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e">FramebufferLayoutInfoSet</a> = N_BIT(2)
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e">FramebufferLayoutInfoSet</a> = N_BIT(1)
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a70ef6206bc7a3add87924510a04239d7">InputAssemblyInfoSet</a> = N_BIT(2)
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a90f2ebfc721e441e54abfbc5e4aefeda">InputLayoutInfoSet</a> = N_BIT(3)
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa">AllInfoSet</a> = ShaderInfoSet | VertexLayoutInfoSet | FramebufferLayoutInfoSet | InputLayoutInfoSet
-, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce">PipelineBuilt</a> = N_BIT(4)
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa">AllInfoSet</a> = ShaderInfoSet | FramebufferLayoutInfoSet | InputAssemblyInfoSet
+, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce">PipelineBuilt</a> = N_BIT(3)
 <br />
  }</td></tr>
 <tr class="separator:a7c36fb4add6954deba60317251ca5c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1002,6 +1007,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acceae3e7d1adae86095edfa9c57452dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acceae3e7d1adae86095edfa9c57452dc">CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id)</td></tr>
 <tr class="memdesc:acceae3e7d1adae86095edfa9c57452dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create (if necessary) and bind pipeline based on state thus far.  <br /></td></tr>
 <tr class="separator:acceae3e7d1adae86095edfa9c57452dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b5755b3c1e380284211db1d6f409fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a29b5755b3c1e380284211db1d6f409fb">CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> buf, const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
+<tr class="memdesc:a29b5755b3c1e380284211db1d6f409fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set graphics pipeline directly.  <br /></td></tr>
+<tr class="separator:a29b5755b3c1e380284211db1d6f409fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faf4f30461ee8c93767350644612e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7faf4f30461ee8c93767350644612e95">CmdBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> fromStage, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> toStage, <a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> domain, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const char *name=nullptr)</td></tr>
 <tr class="memdesc:a7faf4f30461ee8c93767350644612e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert pipeline barrier.  <br /></td></tr>
 <tr class="separator:a7faf4f30461ee8c93767350644612e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1592,6 +1600,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a73d0881e447fb7b9549ac1ee64293fb0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a73d0881e447fb7b9549ac1ee64293fb0">PassGetName</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id)</td></tr>
 <tr class="memdesc:a73d0881e447fb7b9549ac1ee64293fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get name  <br /></td></tr>
 <tr class="separator:a73d0881e447fb7b9549ac1ee64293fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f0017f3b6f319205b1453242f760bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af2f0017f3b6f319205b1453242f760bf">CreatePipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;info)</td></tr>
+<tr class="memdesc:af2f0017f3b6f319205b1453242f760bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new pipeline.  <br /></td></tr>
+<tr class="separator:af2f0017f3b6f319205b1453242f760bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea67d6a0642d716b2034a91cff5362cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aea67d6a0642d716b2034a91cff5362cd">DestroyPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
+<tr class="memdesc:aea67d6a0642d716b2034a91cff5362cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy pipeline.  <br /></td></tr>
+<tr class="separator:aea67d6a0642d716b2034a91cff5362cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a685227417b70f0e7e219a727fdd5580c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a685227417b70f0e7e219a727fdd5580c">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_render_event_handler.html">CoreGraphics::RenderEventHandler</a>, 'RDEH', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a685227417b70f0e7e219a727fdd5580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bf1ed30a1707444ad4ce48fb6c9d15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">ResourceTableLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a38bf1ed30a1707444ad4ce48fb6c9d15">CreateResourceTableLayout</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_create_info.html">ResourceTableLayoutCreateInfo</a> &amp;info)</td></tr>
@@ -2354,9 +2368,8 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41aab42fa37451369c1ed3f5984280ca348" name="a7c36fb4add6954deba60317251ca5c41aab42fa37451369c1ed3f5984280ca348"></a>NoInfoSet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a05544e614063a6ae097519242ec50373" name="a7c36fb4add6954deba60317251ca5c41a05544e614063a6ae097519242ec50373"></a>ShaderInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a2b43624d7c4d816c3374e839f93d73c1" name="a7c36fb4add6954deba60317251ca5c41a2b43624d7c4d816c3374e839f93d73c1"></a>VertexLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e" name="a7c36fb4add6954deba60317251ca5c41a6350bdfdc6ee71829573cc162fd3e31e"></a>FramebufferLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a90f2ebfc721e441e54abfbc5e4aefeda" name="a7c36fb4add6954deba60317251ca5c41a90f2ebfc721e441e54abfbc5e4aefeda"></a>InputLayoutInfoSet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a70ef6206bc7a3add87924510a04239d7" name="a7c36fb4add6954deba60317251ca5c41a70ef6206bc7a3add87924510a04239d7"></a>InputAssemblyInfoSet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa" name="a7c36fb4add6954deba60317251ca5c41a5b3dde63f3c879edc527ebc98a57b1aa"></a>AllInfoSet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce" name="a7c36fb4add6954deba60317251ca5c41a57ec02bc1cdf05831ca2126b2a00c0ce"></a>PipelineBuilt&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -5715,8 +5728,38 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a29b5755b3c1e380284211db1d6f409fb" name="a29b5755b3c1e380284211db1d6f409fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b5755b3c1e380284211db1d6f409fb">&#9670;&#160;</a></span>CmdSetGraphicsPipeline() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdSetGraphicsPipeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td>
+          <td class="paramname"><em>pipeline</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set graphics pipeline directly. </p>
+
+</div>
+</div>
 <a id="acceae3e7d1adae86095edfa9c57452dc" name="acceae3e7d1adae86095edfa9c57452dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acceae3e7d1adae86095edfa9c57452dc">&#9670;&#160;</a></span>CmdSetGraphicsPipeline()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acceae3e7d1adae86095edfa9c57452dc">&#9670;&#160;</a></span>CmdSetGraphicsPipeline() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6710,6 +6753,26 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="af2f0017f3b6f319205b1453242f760bf" name="af2f0017f3b6f319205b1453242f760bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f0017f3b6f319205b1453242f760bf">&#9670;&#160;</a></span>CreatePipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> CoreGraphics::CreatePipeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create new pipeline. </p>
+
+</div>
+</div>
 <a id="a85b965a9110541f29d80c5c8902ab52a" name="a85b965a9110541f29d80c5c8902ab52a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85b965a9110541f29d80c5c8902ab52a">&#9670;&#160;</a></span>CreateResourcePipeline()</h2>
 
@@ -7376,6 +7439,26 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>discard pass </p>
+
+</div>
+</div>
+<a id="aea67d6a0642d716b2034a91cff5362cd" name="aea67d6a0642d716b2034a91cff5362cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea67d6a0642d716b2034a91cff5362cd">&#9670;&#160;</a></span>DestroyPipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::DestroyPipeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td>
+          <td class="paramname"><em>pipeline</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy pipeline. </p>
 
 </div>
 </div>
@@ -14299,7 +14382,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

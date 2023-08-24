@@ -24,5 +24,5 @@ var searchData=
   ['vktexturestencilextensionallocator_21',['VkTextureStencilExtensionAllocator',['../namespace_vulkan.html#a0868918f0e31770c26623cb51b133613',1,'Vulkan']]],
   ['vktextureswapextensionallocator_22',['VkTextureSwapExtensionAllocator',['../namespace_vulkan.html#a817e269f3774d0bc57e8f4a1d8b9ae8c',1,'Vulkan']]],
   ['vktextureviewallocator_23',['VkTextureViewAllocator',['../namespace_vulkan.html#aa90ec09f18977a4cdb24e1ef4167e9f5',1,'Vulkan']]],
-  ['vkvertexlayoutallocator_24',['VkVertexLayoutAllocator',['../namespace_vulkan.html#ae64a2655345e878884f607e671c0f1c9',1,'Vulkan']]]
+  ['vkvertexlayoutallocator_24',['VkVertexLayoutAllocator',['../namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48',1,'Vulkan']]]
 ];

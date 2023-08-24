@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('namespace_vulkan.html',''); initResiza
 <p><a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> sampler implemention.</p>
 <p><a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of ResourceTable, ResourceTableLayout, and ResourcePipeline.</p>
 <p><a class="el" href="class_vulkan_1_1_vk_pipeline_database.html">VkPipelineDatabase</a> implements something akin to a VkPipelineCache.</p>
+<p><a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">CoreGraphics::PipelineId</a>.</p>
 <p>Implements a <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> pass, which translates into a VkRenderPass.</p>
 <p><a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> <a class="el" href="namespace_memory.html">Memory</a> Manager.</p>
 <p>The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of the graphics device.</p>
@@ -133,6 +134,7 @@ $(document).ready(function(){initNavTree('namespace_vulkan.html',''); initResiza
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file</dd></dl>
 <p>All functions in the <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> namespace are internal helper functions specifically for <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>, the other functions implement the abstraction layer.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2023 Individual contributors, see AUTHORS file</dd></dl>
 <p>It works in a tree-like structure, where frequency of change dictates which level the state belongs to.</p>
 <p>It works by incrementally creating a DAG, which at the end points to a path used to create a graphics pipeline. If it has already been created, then the pipeline is simply returned, however, if a node is set to initial (which happens on construction, meaning all children are also initial), then a new graphics pipeline is created and gets associated with the DAG path.</p>
 <p>It can be slightly more efficient, currently, whenever a state is changed high up in the DAG, child nodes are created for the rest of the currently used state. This is somewhat unnecessary, instead, the nodes should be created when and if we actually do create a pipeline.</p>
@@ -164,13 +166,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_thread_state.html">GraphicsDeviceThreadState</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_query_bundle.html">QueryBundle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_texture_sparse_page_table.html">TextureSparsePageTable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_vertex_layout_vk_bind_info.html">VertexLayoutVkBindInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,8 +302,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1483d298a2563288d36c9d3f35784269"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90ec09f18977a4cdb24e1ef4167e9f5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_texture_view_load_info.html">VkTextureViewLoadInfo</a>, <a class="el" href="struct_vulkan_1_1_vk_texture_view_runtime_info.html">VkTextureViewRuntimeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aa90ec09f18977a4cdb24e1ef4167e9f5">VkTextureViewAllocator</a></td></tr>
 <tr class="separator:aa90ec09f18977a4cdb24e1ef4167e9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae64a2655345e878884f607e671c0f1c9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint64_t, <a class="el" href="struct_vulkan_1_1_derivative_layout.html">DerivativeLayout</a> &gt;, VkPipelineVertexInputStateCreateInfo, <a class="el" href="struct_vulkan_1_1_bind_info.html">BindInfo</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_info.html">CoreGraphics::VertexLayoutInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ae64a2655345e878884f607e671c0f1c9">VkVertexLayoutAllocator</a></td></tr>
-<tr class="separator:ae64a2655345e878884f607e671c0f1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49ecb7016b5572f1bd5eaa4483b3b48"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint64_t, <a class="el" href="struct_vulkan_1_1_derivative_layout.html">DerivativeLayout</a> &gt;, VkPipelineVertexInputStateCreateInfo, <a class="el" href="struct_vulkan_1_1_bind_info.html">BindInfo</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_info.html">CoreGraphics::VertexLayoutInfo</a>, <a class="el" href="struct_vulkan_1_1_vertex_layout_vk_bind_info.html">VertexLayoutVkBindInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48">VkVertexLayoutAllocator</a></td></tr>
+<tr class="separator:af49ecb7016b5572f1bd5eaa4483b3b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -339,87 +343,94 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_vulkan.html#a55351bdef5f46c7c23c1f70841f50e91a9b1260233645a76708672f62a1b26d70">Pass_SubpassAttachments</a>
  }</td></tr>
 <tr class="separator:a55351bdef5f46c7c23c1f70841f50e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6cca303e1ef34fb9483afd25a8e2a3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3a56fb1836cd0ad146b69b88dad854a803">Pipeline_Object</a>
+ }</td></tr>
+<tr class="separator:a3c6cca303e1ef34fb9483afd25a8e2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e">WriteType</a> { <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08">Image</a>
 , <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1ea7e62bc342f41c946868f0ea6f0b712d8">Buffer</a>
 , <a class="el" href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9">TexelBuffer</a>
  }</td></tr>
 <tr class="memdesc:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table.  <a href="namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e">More...</a><br /></td></tr>
 <tr class="separator:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c6cca303e1ef34fb9483afd25a8e2a3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3aa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
-, <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3ae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
-, <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3a42c244817114a3b71e38a6edab7b22f7">ResourceTable_DescriptorPoolIndex</a>
-, <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3aff5be145053d61bfd7223af4abc3bf5b">ResourceTable_Lock</a>
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3a936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
-, <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3a6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
-, <a class="el" href="namespace_vulkan.html#a3c6cca303e1ef34fb9483afd25a8e2a3a92e5be15926ea2be64ceb0a455242cce">ResourceTable_Copies</a>
-<br />
- }</td></tr>
-<tr class="separator:a3c6cca303e1ef34fb9483afd25a8e2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b529910246f2bc479e3ede803b382b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a38a44d3c33686bef648610c4f0a88b45">ResourceTableLayout_Device</a>
-, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0abf88a079590846055bc7b490bae28c6b">ResourceTableLayout_SetLayout</a>
-, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0aec29da221608313a08cd9eea70eb511b">ResourceTableLayout_PoolSizes</a>
-, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a29c4f0a5f7f27ddcbfea5307f0a0e108">ResourceTableLayout_Samplers</a>
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0aa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
+, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0ae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
+, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a42c244817114a3b71e38a6edab7b22f7">ResourceTable_DescriptorPoolIndex</a>
+, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0aff5be145053d61bfd7223af4abc3bf5b">ResourceTable_Lock</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0af4fb2ffabc3ebf2c47af703f27fb463f">ResourceTableLayout_ImmutableSamplerFlags</a>
-, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a3b9ace6c517592ba3cd4352b50016a0d">ResourceTableLayout_DescriptorPools</a>
-, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0ac16a96d845fb324e833d3f2b98fec1c5">ResourceTableLayout_DescriptorPoolFreeItems</a>
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
+, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
+, <a class="el" href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0a92e5be15926ea2be64ceb0a455242cce">ResourceTable_Copies</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a0b529910246f2bc479e3ede803b382b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="namespace_vulkan.html#a0b529910246f2bc479e3ede803b382b0">More...</a><br /></td></tr>
 <tr class="separator:a0b529910246f2bc479e3ede803b382b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac11ae2e7ce8c836506db9b591bcd5c28"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#ac11ae2e7ce8c836506db9b591bcd5c28ae387b205f77ccbe49f86dac79b1ee9dc">Semaphore_Device</a>
-, <a class="el" href="namespace_vulkan.html#ac11ae2e7ce8c836506db9b591bcd5c28a04d4d6accf9c4d7df192fd981b766a61">Semaphore_VkHandle</a>
-, <a class="el" href="namespace_vulkan.html#ac11ae2e7ce8c836506db9b591bcd5c28ac96716716e8b8b1f423ea05eefd2b3f4">Semaphore_Type</a>
-, <a class="el" href="namespace_vulkan.html#ac11ae2e7ce8c836506db9b591bcd5c28a8838e35bf4a1c629ced901e775ba41ff">Semaphore_LastIndex</a>
+<tr class="memitem:ac8688f60a1e7b4253e075bfe1337b8ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8aba38a44d3c33686bef648610c4f0a88b45">ResourceTableLayout_Device</a>
+, <a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8ababf88a079590846055bc7b490bae28c6b">ResourceTableLayout_SetLayout</a>
+, <a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8abaec29da221608313a08cd9eea70eb511b">ResourceTableLayout_PoolSizes</a>
+, <a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8aba29c4f0a5f7f27ddcbfea5307f0a0e108">ResourceTableLayout_Samplers</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8abaf4fb2ffabc3ebf2c47af703f27fb463f">ResourceTableLayout_ImmutableSamplerFlags</a>
+, <a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8aba3b9ace6c517592ba3cd4352b50016a0d">ResourceTableLayout_DescriptorPools</a>
+, <a class="el" href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8abac16a96d845fb324e833d3f2b98fec1c5">ResourceTableLayout_DescriptorPoolFreeItems</a>
+<br />
  }</td></tr>
-<tr class="separator:ac11ae2e7ce8c836506db9b591bcd5c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b94a313a41648ed9feba125542b19b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19bae1659379d4b3553b12096de3cdca19f2">Shader_ReflectionInfo</a>
-, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19ba7c4c58d36ecb88248f83c464ea0bb032">Shader_SetupInfo</a>
-, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19ba8f917ca4255005fcd5313a4335f05c75">Shader_RuntimeInfo</a>
-, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19ba58f39e6b451278d587a0ecb7fa6a4388">Shader_ProgramAllocator</a>
+<tr class="memdesc:ac8688f60a1e7b4253e075bfe1337b8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="namespace_vulkan.html#ac8688f60a1e7b4253e075bfe1337b8ab">More...</a><br /></td></tr>
+<tr class="separator:ac8688f60a1e7b4253e075bfe1337b8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b94a313a41648ed9feba125542b19b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19bae387b205f77ccbe49f86dac79b1ee9dc">Semaphore_Device</a>
+, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19ba04d4d6accf9c4d7df192fd981b766a61">Semaphore_VkHandle</a>
+, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19bac96716716e8b8b1f423ea05eefd2b3f4">Semaphore_Type</a>
+, <a class="el" href="namespace_vulkan.html#a62b94a313a41648ed9feba125542b19ba8838e35bf4a1c629ced901e775ba41ff">Semaphore_LastIndex</a>
  }</td></tr>
 <tr class="separator:a62b94a313a41648ed9feba125542b19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af06cab2bc731155387c93f38b4ba92a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#af06cab2bc731155387c93f38b4ba92a0a094a41aeb09fcff4df897ea5eabce2e6">ShaderProgram_SetupInfo</a>
-, <a class="el" href="namespace_vulkan.html#af06cab2bc731155387c93f38b4ba92a0af633b171937410022a4a9873ff7639c5">ShaderProgram_ReflectionInfo</a>
-, <a class="el" href="namespace_vulkan.html#af06cab2bc731155387c93f38b4ba92a0a2d8ea4e095d185eac03256cea7cb588b">ShaderProgram_RuntimeInfo</a>
+<tr class="memitem:ad767c55d7b18810c161754a80f116c28"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#ad767c55d7b18810c161754a80f116c28ae1659379d4b3553b12096de3cdca19f2">Shader_ReflectionInfo</a>
+, <a class="el" href="namespace_vulkan.html#ad767c55d7b18810c161754a80f116c28a7c4c58d36ecb88248f83c464ea0bb032">Shader_SetupInfo</a>
+, <a class="el" href="namespace_vulkan.html#ad767c55d7b18810c161754a80f116c28a8f917ca4255005fcd5313a4335f05c75">Shader_RuntimeInfo</a>
+, <a class="el" href="namespace_vulkan.html#ad767c55d7b18810c161754a80f116c28a58f39e6b451278d587a0ecb7fa6a4388">Shader_ProgramAllocator</a>
  }</td></tr>
-<tr class="separator:af06cab2bc731155387c93f38b4ba92a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a72541c0d4aac73f0deb11205555ab0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0ace56292e5f42746a6dc229fa7593d0b1">Texture_RuntimeInfo</a>
-, <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0a0b282c1781301c9c54a66fd00b7bd3ca">Texture_LoadInfo</a>
-, <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0a45ed23b9525a8acedafe111088a670f7">Texture_MappingInfo</a>
-, <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0ac4a75a8a3f186a7ccec679eb620c7d9c">Texture_WindowInfo</a>
+<tr class="separator:ad767c55d7b18810c161754a80f116c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a72541c0d4aac73f0deb11205555ab0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0a094a41aeb09fcff4df897ea5eabce2e6">ShaderProgram_SetupInfo</a>
+, <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0af633b171937410022a4a9873ff7639c5">ShaderProgram_ReflectionInfo</a>
+, <a class="el" href="namespace_vulkan.html#a8a72541c0d4aac73f0deb11205555ab0a2d8ea4e095d185eac03256cea7cb588b">ShaderProgram_RuntimeInfo</a>
  }</td></tr>
 <tr class="separator:a8a72541c0d4aac73f0deb11205555ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b637a64c8871b31edf767aa9af08b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47aef9f64780e54901c9940339711a70d41">TextureExtension_StencilInfo</a>
-, <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47ad2f8cae805b97d29ddd5a7506ea745d9">TextureExtension_StencilBind</a>
+<tr class="memitem:a9b637a64c8871b31edf767aa9af08b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47ace56292e5f42746a6dc229fa7593d0b1">Texture_RuntimeInfo</a>
+, <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47a0b282c1781301c9c54a66fd00b7bd3ca">Texture_LoadInfo</a>
+, <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47a45ed23b9525a8acedafe111088a670f7">Texture_MappingInfo</a>
+, <a class="el" href="namespace_vulkan.html#a9b637a64c8871b31edf767aa9af08b47ac4a75a8a3f186a7ccec679eb620c7d9c">Texture_WindowInfo</a>
  }</td></tr>
 <tr class="separator:a9b637a64c8871b31edf767aa9af08b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06ba0c265875a68c2256bbd07ac32c4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#ab06ba0c265875a68c2256bbd07ac32c4a0e035a19f8e1140354e97a22d7976fdc">TextureExtension_SwapInfo</a>
+<tr class="memitem:ab06ba0c265875a68c2256bbd07ac32c4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#ab06ba0c265875a68c2256bbd07ac32c4aef9f64780e54901c9940339711a70d41">TextureExtension_StencilInfo</a>
+, <a class="el" href="namespace_vulkan.html#ab06ba0c265875a68c2256bbd07ac32c4ad2f8cae805b97d29ddd5a7506ea745d9">TextureExtension_StencilBind</a>
  }</td></tr>
 <tr class="separator:ab06ba0c265875a68c2256bbd07ac32c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf70e503f34467b6a7a1b2c879da7bc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca263445b328f43cbdf15350710810b17a">TextureExtension_SparsePageTable</a>
-, <a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca7e010d8eb849bd2d9d62cc2cb655fe17">TextureExtension_SparseMemoryRequirements</a>
-, <a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca067e9430aefefa2d479122986d55edd9">TextureExtension_SparseOpaqueBinds</a>
-, <a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca07a12c122be00ef8eba3b3ced82d9f89">TextureExtension_SparsePendingBinds</a>
-, <br />
-&#160;&#160;<a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca7f924d70088445a879ed034eb9a66d11">TextureExtension_SparseOpaqueAllocs</a>
-<br />
+<tr class="memitem:adaf70e503f34467b6a7a1b2c879da7bc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#adaf70e503f34467b6a7a1b2c879da7bca0e035a19f8e1140354e97a22d7976fdc">TextureExtension_SwapInfo</a>
  }</td></tr>
 <tr class="separator:adaf70e503f34467b6a7a1b2c879da7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41e56724e4e01258c890c0ff43e0b434"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a69ebd0cacae49b77daf57160f717a9b7">TextureView_LoadInfo</a>
-, <a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a9b2218f20552e3c15de281d7811af7f9">TextureView_RuntimeInfo</a>
+<tr class="memitem:a41e56724e4e01258c890c0ff43e0b434"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a263445b328f43cbdf15350710810b17a">TextureExtension_SparsePageTable</a>
+, <a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a7e010d8eb849bd2d9d62cc2cb655fe17">TextureExtension_SparseMemoryRequirements</a>
+, <a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a067e9430aefefa2d479122986d55edd9">TextureExtension_SparseOpaqueBinds</a>
+, <a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a07a12c122be00ef8eba3b3ced82d9f89">TextureExtension_SparsePendingBinds</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a41e56724e4e01258c890c0ff43e0b434a7f924d70088445a879ed034eb9a66d11">TextureExtension_SparseOpaqueAllocs</a>
+<br />
  }</td></tr>
 <tr class="separator:a41e56724e4e01258c890c0ff43e0b434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36f8d8cc547ac5159188ed579f4c37c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37cacc7d03c1c9d85f4332391d7f0900a2bd">VertexSignature_ProgramLayoutMapping</a>
-, <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37caa9a30f83fcae944efdc95d015afaa167">VertexSignature_VkPipelineInfo</a>
-, <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37ca20bcada0cced6e28826303058572b01f">VertexSignature_BindInfo</a>
-, <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37ca85265d6c246aac2f517db695db209c33">VertexSignature_LayoutInfo</a>
+<tr class="memitem:aa36f8d8cc547ac5159188ed579f4c37c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37ca69ebd0cacae49b77daf57160f717a9b7">TextureView_LoadInfo</a>
+, <a class="el" href="namespace_vulkan.html#aa36f8d8cc547ac5159188ed579f4c37ca9b2218f20552e3c15de281d7811af7f9">TextureView_RuntimeInfo</a>
  }</td></tr>
 <tr class="separator:aa36f8d8cc547ac5159188ed579f4c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a020445c4936b8bf7bd0826bd84addf47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a020445c4936b8bf7bd0826bd84addf47acc7d03c1c9d85f4332391d7f0900a2bd">VertexSignature_ProgramLayoutMapping</a>
+, <a class="el" href="namespace_vulkan.html#a020445c4936b8bf7bd0826bd84addf47aa9a30f83fcae944efdc95d015afaa167">VertexSignature_VkPipelineInfo</a>
+, <a class="el" href="namespace_vulkan.html#a020445c4936b8bf7bd0826bd84addf47a20bcada0cced6e28826303058572b01f">VertexSignature_BindInfo</a>
+, <a class="el" href="namespace_vulkan.html#a020445c4936b8bf7bd0826bd84addf47a85265d6c246aac2f517db695db209c33">VertexSignature_LayoutInfo</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a020445c4936b8bf7bd0826bd84addf47a4a9d3b8f48e61241dc4c6ef95d64915c">VertexSignature_DynamicBindInfo</a>
+<br />
+ }</td></tr>
+<tr class="separator:a020445c4936b8bf7bd0826bd84addf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -507,9 +518,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2459dc449f270ca8ff5a51765fde3dab"><td class="memItemLeft" align="right" valign="top">const VkQueue&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a2459dc449f270ca8ff5a51765fde3dab">GetCurrentQueue</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:a2459dc449f270ca8ff5a51765fde3dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">get currently active queue of type  <br /></td></tr>
 <tr class="separator:a2459dc449f270ca8ff5a51765fde3dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ac9032a4c4ddc60d6ead8a424d08f3c42">GetOrCreatePipeline</a> (<a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> pass, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> subpass, CoreGraphics::ShaderProgramId program, <a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a> inputAssembly, const VkGraphicsPipelineCreateInfo &amp;info)</td></tr>
-<tr class="memdesc:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
-<tr class="separator:ac9032a4c4ddc60d6ead8a424d08f3c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a33b805dc3b4a9076ca4b1d9966d08a80">GetOrCreatePipeline</a> (<a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> pass, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> subpass, CoreGraphics::ShaderProgramId program, const <a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a> inputAssembly, const VkGraphicsPipelineCreateInfo &amp;info)</td></tr>
+<tr class="memdesc:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
+<tr class="separator:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33631508e7e7b011fed57eba8d97233e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e">SparseTextureBind</a> (const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
 <tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse bind operations  <br /></td></tr>
 <tr class="separator:a33631508e7e7b011fed57eba8d97233e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -663,6 +674,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa628a19e8875570cbfc061de8631b631"><td class="memItemLeft" align="right" valign="top">VkPipelineVertexInputStateCreateInfo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aa628a19e8875570cbfc061de8631b631">VertexLayoutGetDerivative</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a> layout, const CoreGraphics::ShaderProgramId shader)</td></tr>
 <tr class="memdesc:aa628a19e8875570cbfc061de8631b631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get derivative of vertex layout based on shader.  <br /></td></tr>
 <tr class="separator:aa628a19e8875570cbfc061de8631b631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7ad23a594f68d635e4e35eeb61125d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_vulkan_1_1_vertex_layout_vk_bind_info.html">VertexLayoutVkBindInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a9d7ad23a594f68d635e4e35eeb61125d">VertexLayoutGetVkBindInfo</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a> layout)</td></tr>
+<tr class="memdesc:a9d7ad23a594f68d635e4e35eeb61125d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dynamic bind info.  <br /></td></tr>
+<tr class="separator:a9d7ad23a594f68d635e4e35eeb61125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4579ec78feda9ed28c4e3e53c4330ad1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a4579ec78feda9ed28c4e3e53c4330ad1">__ImplementClass</a> (<a class="el" href="class_vulkan_1_1_vk_instance_renderer.html">Vulkan::VkInstanceRenderer</a>, 'VKIR', <a class="el" href="class_base_1_1_instance_renderer_base.html">Base::InstanceRendererBase</a>)</td></tr>
 <tr class="separator:a4579ec78feda9ed28c4e3e53c4330ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21114b5c282be51d1853e444d8c519bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a21114b5c282be51d1853e444d8c519bc">__ImplementSingleton</a> (<a class="el" href="class_vulkan_1_1_vk_instance_server.html">Vulkan::VkInstanceServer</a>)</td></tr>
@@ -706,8 +720,6 @@ Variables</h2></td></tr>
 <tr class="separator:a848d3448cc9846d12c0f1e035e9fb263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ab9f9ab2495caba15b64d22cbf1c9a383">state</a></td></tr>
 <tr class="separator:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aaa63d9ff5c3f2e85b89e87336702f9d3">threadState</a></td></tr>
-<tr class="separator:aaa63d9ff5c3f2e85b89e87336702f9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memItemLeft" align="right" valign="top">VkDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a79bf021c4d4d8ae56ac9fe9163e95380">VkErrorDebugMessageHandle</a> = nullptr</td></tr>
 <tr class="separator:a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab04a200d15d18716a96aae6f6bacd7f"><td class="memItemLeft" align="right" valign="top">PFN_vkCreateDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aab04a200d15d18716a96aae6f6bacd7f">VkCreateDebugMessenger</a> = nullptr</td></tr>
@@ -728,6 +740,8 @@ Variables</h2></td></tr>
 <tr class="separator:a569001130e05e4bbcb30e4bd59bad595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8737933eb7ba322b12d126c1b21a0da6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a6510b11c5c340d2013fed7aa9eef18d8">VkPassAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a8737933eb7ba322b12d126c1b21a0da6">passAllocator</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a8737933eb7ba322b12d126c1b21a0da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af86184826a46e108c5bde1e012093fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af86184826a46e108c5bde1e012093fe4">pipelineAllocator</a></td></tr>
+<tr class="separator:af86184826a46e108c5bde1e012093fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04f5b266d83bd40d29a9d4702397fe3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#afdd771e09a781d6e0c1089ff9c1da27d">VkResourceTableAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a04f5b266d83bd40d29a9d4702397fe3f">resourceTableAllocator</a></td></tr>
 <tr class="separator:a04f5b266d83bd40d29a9d4702397fe3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74fd5cbb4d02f644386428772fe4153b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312">VkResourceTableLayoutAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a74fd5cbb4d02f644386428772fe4153b">resourceTableLayoutAllocator</a></td></tr>
@@ -762,7 +776,7 @@ Variables</h2></td></tr>
 <tr class="separator:a6fe3c0e485091aa6d9f707976bf33db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf8297b3c962e3a04d93903f3b6c90b"><td class="memItemLeft" align="right" valign="top">static const VkComponentSwizzle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a9cf8297b3c962e3a04d93903f3b6c90b">VkSwizzle</a> []</td></tr>
 <tr class="separator:a9cf8297b3c962e3a04d93903f3b6c90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb96c92a8ff8bcf06569be7d18b15034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#ae64a2655345e878884f607e671c0f1c9">VkVertexLayoutAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034">vertexLayoutAllocator</a></td></tr>
+<tr class="memitem:aeb96c92a8ff8bcf06569be7d18b15034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48">VkVertexLayoutAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034">vertexLayoutAllocator</a></td></tr>
 <tr class="separator:aeb96c92a8ff8bcf06569be7d18b15034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8b5cbc1ce31c570a0eaba48d0e0f0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a0d8b5cbc1ce31c570a0eaba48d0e0f0a">vertexSignatureMutex</a></td></tr>
 <tr class="separator:a0d8b5cbc1ce31c570a0eaba48d0e0f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1082,14 +1096,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae64a2655345e878884f607e671c0f1c9" name="ae64a2655345e878884f607e671c0f1c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae64a2655345e878884f607e671c0f1c9">&#9670;&#160;</a></span>VkVertexLayoutAllocator</h2>
+<a id="af49ecb7016b5572f1bd5eaa4483b3b48" name="af49ecb7016b5572f1bd5eaa4483b3b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49ecb7016b5572f1bd5eaa4483b3b48">&#9670;&#160;</a></span>VkVertexLayoutAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;uint64_t, <a class="el" href="struct_vulkan_1_1_derivative_layout.html">DerivativeLayout</a>&gt;, VkPipelineVertexInputStateCreateInfo, <a class="el" href="struct_vulkan_1_1_bind_info.html">BindInfo</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_info.html">CoreGraphics::VertexLayoutInfo</a> &gt; <a class="el" href="namespace_vulkan.html#ae64a2655345e878884f607e671c0f1c9">Vulkan::VkVertexLayoutAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;uint64_t, <a class="el" href="struct_vulkan_1_1_derivative_layout.html">DerivativeLayout</a>&gt;, VkPipelineVertexInputStateCreateInfo, <a class="el" href="struct_vulkan_1_1_bind_info.html">BindInfo</a>, <a class="el" href="struct_core_graphics_1_1_vertex_layout_info.html">CoreGraphics::VertexLayoutInfo</a>, <a class="el" href="struct_vulkan_1_1_vertex_layout_vk_bind_info.html">VertexLayoutVkBindInfo</a>&gt; <a class="el" href="namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48">Vulkan::VkVertexLayoutAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1226,13 +1240,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3aa0087534c7be3044f385539fdb25c147" name="a3c6cca303e1ef34fb9483afd25a8e2a3aa0087534c7be3044f385539fdb25c147"></a>ResourceTable_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3ae2b37bc38aa0431f9f63fe84cdbc663e" name="a3c6cca303e1ef34fb9483afd25a8e2a3ae2b37bc38aa0431f9f63fe84cdbc663e"></a>ResourceTable_DescriptorSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3a42c244817114a3b71e38a6edab7b22f7" name="a3c6cca303e1ef34fb9483afd25a8e2a3a42c244817114a3b71e38a6edab7b22f7"></a>ResourceTable_DescriptorPoolIndex&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3aff5be145053d61bfd7223af4abc3bf5b" name="a3c6cca303e1ef34fb9483afd25a8e2a3aff5be145053d61bfd7223af4abc3bf5b"></a>ResourceTable_Lock&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3a936c322c9ff64557c52cd247a30e852c" name="a3c6cca303e1ef34fb9483afd25a8e2a3a936c322c9ff64557c52cd247a30e852c"></a>ResourceTable_Layout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3a6acfb22eec82a5e2da7b374613b81cd1" name="a3c6cca303e1ef34fb9483afd25a8e2a3a6acfb22eec82a5e2da7b374613b81cd1"></a>ResourceTable_WriteInfos&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3a92e5be15926ea2be64ceb0a455242cce" name="a3c6cca303e1ef34fb9483afd25a8e2a3a92e5be15926ea2be64ceb0a455242cce"></a>ResourceTable_Copies&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3c6cca303e1ef34fb9483afd25a8e2a3a56fb1836cd0ad146b69b88dad854a803" name="a3c6cca303e1ef34fb9483afd25a8e2a3a56fb1836cd0ad146b69b88dad854a803"></a>Pipeline_Object&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1248,22 +1256,20 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Resource table layout. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a38a44d3c33686bef648610c4f0a88b45" name="a0b529910246f2bc479e3ede803b382b0a38a44d3c33686bef648610c4f0a88b45"></a>ResourceTableLayout_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0abf88a079590846055bc7b490bae28c6b" name="a0b529910246f2bc479e3ede803b382b0abf88a079590846055bc7b490bae28c6b"></a>ResourceTableLayout_SetLayout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0aec29da221608313a08cd9eea70eb511b" name="a0b529910246f2bc479e3ede803b382b0aec29da221608313a08cd9eea70eb511b"></a>ResourceTableLayout_PoolSizes&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a29c4f0a5f7f27ddcbfea5307f0a0e108" name="a0b529910246f2bc479e3ede803b382b0a29c4f0a5f7f27ddcbfea5307f0a0e108"></a>ResourceTableLayout_Samplers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0af4fb2ffabc3ebf2c47af703f27fb463f" name="a0b529910246f2bc479e3ede803b382b0af4fb2ffabc3ebf2c47af703f27fb463f"></a>ResourceTableLayout_ImmutableSamplerFlags&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a3b9ace6c517592ba3cd4352b50016a0d" name="a0b529910246f2bc479e3ede803b382b0a3b9ace6c517592ba3cd4352b50016a0d"></a>ResourceTableLayout_DescriptorPools&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0ac16a96d845fb324e833d3f2b98fec1c5" name="a0b529910246f2bc479e3ede803b382b0ac16a96d845fb324e833d3f2b98fec1c5"></a>ResourceTableLayout_DescriptorPoolFreeItems&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0aa0087534c7be3044f385539fdb25c147" name="a0b529910246f2bc479e3ede803b382b0aa0087534c7be3044f385539fdb25c147"></a>ResourceTable_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0ae2b37bc38aa0431f9f63fe84cdbc663e" name="a0b529910246f2bc479e3ede803b382b0ae2b37bc38aa0431f9f63fe84cdbc663e"></a>ResourceTable_DescriptorSet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a42c244817114a3b71e38a6edab7b22f7" name="a0b529910246f2bc479e3ede803b382b0a42c244817114a3b71e38a6edab7b22f7"></a>ResourceTable_DescriptorPoolIndex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0aff5be145053d61bfd7223af4abc3bf5b" name="a0b529910246f2bc479e3ede803b382b0aff5be145053d61bfd7223af4abc3bf5b"></a>ResourceTable_Lock&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a936c322c9ff64557c52cd247a30e852c" name="a0b529910246f2bc479e3ede803b382b0a936c322c9ff64557c52cd247a30e852c"></a>ResourceTable_Layout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a6acfb22eec82a5e2da7b374613b81cd1" name="a0b529910246f2bc479e3ede803b382b0a6acfb22eec82a5e2da7b374613b81cd1"></a>ResourceTable_WriteInfos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b529910246f2bc479e3ede803b382b0a92e5be15926ea2be64ceb0a455242cce" name="a0b529910246f2bc479e3ede803b382b0a92e5be15926ea2be64ceb0a455242cce"></a>ResourceTable_Copies&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="ac11ae2e7ce8c836506db9b591bcd5c28" name="ac11ae2e7ce8c836506db9b591bcd5c28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac11ae2e7ce8c836506db9b591bcd5c28">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ac8688f60a1e7b4253e075bfe1337b8ab" name="ac8688f60a1e7b4253e075bfe1337b8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8688f60a1e7b4253e075bfe1337b8ab">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1273,11 +1279,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resource table layout. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac11ae2e7ce8c836506db9b591bcd5c28ae387b205f77ccbe49f86dac79b1ee9dc" name="ac11ae2e7ce8c836506db9b591bcd5c28ae387b205f77ccbe49f86dac79b1ee9dc"></a>Semaphore_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac11ae2e7ce8c836506db9b591bcd5c28a04d4d6accf9c4d7df192fd981b766a61" name="ac11ae2e7ce8c836506db9b591bcd5c28a04d4d6accf9c4d7df192fd981b766a61"></a>Semaphore_VkHandle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac11ae2e7ce8c836506db9b591bcd5c28ac96716716e8b8b1f423ea05eefd2b3f4" name="ac11ae2e7ce8c836506db9b591bcd5c28ac96716716e8b8b1f423ea05eefd2b3f4"></a>Semaphore_Type&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac11ae2e7ce8c836506db9b591bcd5c28a8838e35bf4a1c629ced901e775ba41ff" name="ac11ae2e7ce8c836506db9b591bcd5c28a8838e35bf4a1c629ced901e775ba41ff"></a>Semaphore_LastIndex&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8aba38a44d3c33686bef648610c4f0a88b45" name="ac8688f60a1e7b4253e075bfe1337b8aba38a44d3c33686bef648610c4f0a88b45"></a>ResourceTableLayout_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8ababf88a079590846055bc7b490bae28c6b" name="ac8688f60a1e7b4253e075bfe1337b8ababf88a079590846055bc7b490bae28c6b"></a>ResourceTableLayout_SetLayout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8abaec29da221608313a08cd9eea70eb511b" name="ac8688f60a1e7b4253e075bfe1337b8abaec29da221608313a08cd9eea70eb511b"></a>ResourceTableLayout_PoolSizes&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8aba29c4f0a5f7f27ddcbfea5307f0a0e108" name="ac8688f60a1e7b4253e075bfe1337b8aba29c4f0a5f7f27ddcbfea5307f0a0e108"></a>ResourceTableLayout_Samplers&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8abaf4fb2ffabc3ebf2c47af703f27fb463f" name="ac8688f60a1e7b4253e075bfe1337b8abaf4fb2ffabc3ebf2c47af703f27fb463f"></a>ResourceTableLayout_ImmutableSamplerFlags&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8aba3b9ace6c517592ba3cd4352b50016a0d" name="ac8688f60a1e7b4253e075bfe1337b8aba3b9ace6c517592ba3cd4352b50016a0d"></a>ResourceTableLayout_DescriptorPools&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac8688f60a1e7b4253e075bfe1337b8abac16a96d845fb324e833d3f2b98fec1c5" name="ac8688f60a1e7b4253e075bfe1337b8abac16a96d845fb324e833d3f2b98fec1c5"></a>ResourceTableLayout_DescriptorPoolFreeItems&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1294,16 +1305,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19bae1659379d4b3553b12096de3cdca19f2" name="a62b94a313a41648ed9feba125542b19bae1659379d4b3553b12096de3cdca19f2"></a>Shader_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba7c4c58d36ecb88248f83c464ea0bb032" name="a62b94a313a41648ed9feba125542b19ba7c4c58d36ecb88248f83c464ea0bb032"></a>Shader_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba8f917ca4255005fcd5313a4335f05c75" name="a62b94a313a41648ed9feba125542b19ba8f917ca4255005fcd5313a4335f05c75"></a>Shader_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba58f39e6b451278d587a0ecb7fa6a4388" name="a62b94a313a41648ed9feba125542b19ba58f39e6b451278d587a0ecb7fa6a4388"></a>Shader_ProgramAllocator&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19bae387b205f77ccbe49f86dac79b1ee9dc" name="a62b94a313a41648ed9feba125542b19bae387b205f77ccbe49f86dac79b1ee9dc"></a>Semaphore_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba04d4d6accf9c4d7df192fd981b766a61" name="a62b94a313a41648ed9feba125542b19ba04d4d6accf9c4d7df192fd981b766a61"></a>Semaphore_VkHandle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19bac96716716e8b8b1f423ea05eefd2b3f4" name="a62b94a313a41648ed9feba125542b19bac96716716e8b8b1f423ea05eefd2b3f4"></a>Semaphore_Type&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba8838e35bf4a1c629ced901e775ba41ff" name="a62b94a313a41648ed9feba125542b19ba8838e35bf4a1c629ced901e775ba41ff"></a>Semaphore_LastIndex&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="af06cab2bc731155387c93f38b4ba92a0" name="af06cab2bc731155387c93f38b4ba92a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af06cab2bc731155387c93f38b4ba92a0">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ad767c55d7b18810c161754a80f116c28" name="ad767c55d7b18810c161754a80f116c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad767c55d7b18810c161754a80f116c28">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1314,9 +1325,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a094a41aeb09fcff4df897ea5eabce2e6" name="af06cab2bc731155387c93f38b4ba92a0a094a41aeb09fcff4df897ea5eabce2e6"></a>ShaderProgram_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0af633b171937410022a4a9873ff7639c5" name="af06cab2bc731155387c93f38b4ba92a0af633b171937410022a4a9873ff7639c5"></a>ShaderProgram_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a2d8ea4e095d185eac03256cea7cb588b" name="af06cab2bc731155387c93f38b4ba92a0a2d8ea4e095d185eac03256cea7cb588b"></a>ShaderProgram_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28ae1659379d4b3553b12096de3cdca19f2" name="ad767c55d7b18810c161754a80f116c28ae1659379d4b3553b12096de3cdca19f2"></a>Shader_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a7c4c58d36ecb88248f83c464ea0bb032" name="ad767c55d7b18810c161754a80f116c28a7c4c58d36ecb88248f83c464ea0bb032"></a>Shader_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a8f917ca4255005fcd5313a4335f05c75" name="ad767c55d7b18810c161754a80f116c28a8f917ca4255005fcd5313a4335f05c75"></a>Shader_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a58f39e6b451278d587a0ecb7fa6a4388" name="ad767c55d7b18810c161754a80f116c28a58f39e6b451278d587a0ecb7fa6a4388"></a>Shader_ProgramAllocator&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1333,10 +1345,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0ace56292e5f42746a6dc229fa7593d0b1" name="a8a72541c0d4aac73f0deb11205555ab0ace56292e5f42746a6dc229fa7593d0b1"></a>Texture_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a0b282c1781301c9c54a66fd00b7bd3ca" name="a8a72541c0d4aac73f0deb11205555ab0a0b282c1781301c9c54a66fd00b7bd3ca"></a>Texture_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a45ed23b9525a8acedafe111088a670f7" name="a8a72541c0d4aac73f0deb11205555ab0a45ed23b9525a8acedafe111088a670f7"></a>Texture_MappingInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0ac4a75a8a3f186a7ccec679eb620c7d9c" name="a8a72541c0d4aac73f0deb11205555ab0ac4a75a8a3f186a7ccec679eb620c7d9c"></a>Texture_WindowInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a094a41aeb09fcff4df897ea5eabce2e6" name="a8a72541c0d4aac73f0deb11205555ab0a094a41aeb09fcff4df897ea5eabce2e6"></a>ShaderProgram_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0af633b171937410022a4a9873ff7639c5" name="a8a72541c0d4aac73f0deb11205555ab0af633b171937410022a4a9873ff7639c5"></a>ShaderProgram_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a2d8ea4e095d185eac03256cea7cb588b" name="a8a72541c0d4aac73f0deb11205555ab0a2d8ea4e095d185eac03256cea7cb588b"></a>ShaderProgram_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1353,8 +1364,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47aef9f64780e54901c9940339711a70d41" name="a9b637a64c8871b31edf767aa9af08b47aef9f64780e54901c9940339711a70d41"></a>TextureExtension_StencilInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47ad2f8cae805b97d29ddd5a7506ea745d9" name="a9b637a64c8871b31edf767aa9af08b47ad2f8cae805b97d29ddd5a7506ea745d9"></a>TextureExtension_StencilBind&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47ace56292e5f42746a6dc229fa7593d0b1" name="a9b637a64c8871b31edf767aa9af08b47ace56292e5f42746a6dc229fa7593d0b1"></a>Texture_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a0b282c1781301c9c54a66fd00b7bd3ca" name="a9b637a64c8871b31edf767aa9af08b47a0b282c1781301c9c54a66fd00b7bd3ca"></a>Texture_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a45ed23b9525a8acedafe111088a670f7" name="a9b637a64c8871b31edf767aa9af08b47a45ed23b9525a8acedafe111088a670f7"></a>Texture_MappingInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47ac4a75a8a3f186a7ccec679eb620c7d9c" name="a9b637a64c8871b31edf767aa9af08b47ac4a75a8a3f186a7ccec679eb620c7d9c"></a>Texture_WindowInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1371,7 +1384,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4a0e035a19f8e1140354e97a22d7976fdc" name="ab06ba0c265875a68c2256bbd07ac32c4a0e035a19f8e1140354e97a22d7976fdc"></a>TextureExtension_SwapInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4aef9f64780e54901c9940339711a70d41" name="ab06ba0c265875a68c2256bbd07ac32c4aef9f64780e54901c9940339711a70d41"></a>TextureExtension_StencilInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4ad2f8cae805b97d29ddd5a7506ea745d9" name="ab06ba0c265875a68c2256bbd07ac32c4ad2f8cae805b97d29ddd5a7506ea745d9"></a>TextureExtension_StencilBind&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1388,11 +1402,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca263445b328f43cbdf15350710810b17a" name="adaf70e503f34467b6a7a1b2c879da7bca263445b328f43cbdf15350710810b17a"></a>TextureExtension_SparsePageTable&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca7e010d8eb849bd2d9d62cc2cb655fe17" name="adaf70e503f34467b6a7a1b2c879da7bca7e010d8eb849bd2d9d62cc2cb655fe17"></a>TextureExtension_SparseMemoryRequirements&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca067e9430aefefa2d479122986d55edd9" name="adaf70e503f34467b6a7a1b2c879da7bca067e9430aefefa2d479122986d55edd9"></a>TextureExtension_SparseOpaqueBinds&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca07a12c122be00ef8eba3b3ced82d9f89" name="adaf70e503f34467b6a7a1b2c879da7bca07a12c122be00ef8eba3b3ced82d9f89"></a>TextureExtension_SparsePendingBinds&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca7f924d70088445a879ed034eb9a66d11" name="adaf70e503f34467b6a7a1b2c879da7bca7f924d70088445a879ed034eb9a66d11"></a>TextureExtension_SparseOpaqueAllocs&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adaf70e503f34467b6a7a1b2c879da7bca0e035a19f8e1140354e97a22d7976fdc" name="adaf70e503f34467b6a7a1b2c879da7bca0e035a19f8e1140354e97a22d7976fdc"></a>TextureExtension_SwapInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1409,8 +1419,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a69ebd0cacae49b77daf57160f717a9b7" name="a41e56724e4e01258c890c0ff43e0b434a69ebd0cacae49b77daf57160f717a9b7"></a>TextureView_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a9b2218f20552e3c15de281d7811af7f9" name="a41e56724e4e01258c890c0ff43e0b434a9b2218f20552e3c15de281d7811af7f9"></a>TextureView_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a263445b328f43cbdf15350710810b17a" name="a41e56724e4e01258c890c0ff43e0b434a263445b328f43cbdf15350710810b17a"></a>TextureExtension_SparsePageTable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a7e010d8eb849bd2d9d62cc2cb655fe17" name="a41e56724e4e01258c890c0ff43e0b434a7e010d8eb849bd2d9d62cc2cb655fe17"></a>TextureExtension_SparseMemoryRequirements&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a067e9430aefefa2d479122986d55edd9" name="a41e56724e4e01258c890c0ff43e0b434a067e9430aefefa2d479122986d55edd9"></a>TextureExtension_SparseOpaqueBinds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a07a12c122be00ef8eba3b3ced82d9f89" name="a41e56724e4e01258c890c0ff43e0b434a07a12c122be00ef8eba3b3ced82d9f89"></a>TextureExtension_SparsePendingBinds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a7f924d70088445a879ed034eb9a66d11" name="a41e56724e4e01258c890c0ff43e0b434a7f924d70088445a879ed034eb9a66d11"></a>TextureExtension_SparseOpaqueAllocs&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1427,10 +1440,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37cacc7d03c1c9d85f4332391d7f0900a2bd" name="aa36f8d8cc547ac5159188ed579f4c37cacc7d03c1c9d85f4332391d7f0900a2bd"></a>VertexSignature_ProgramLayoutMapping&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37caa9a30f83fcae944efdc95d015afaa167" name="aa36f8d8cc547ac5159188ed579f4c37caa9a30f83fcae944efdc95d015afaa167"></a>VertexSignature_VkPipelineInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca20bcada0cced6e28826303058572b01f" name="aa36f8d8cc547ac5159188ed579f4c37ca20bcada0cced6e28826303058572b01f"></a>VertexSignature_BindInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca85265d6c246aac2f517db695db209c33" name="aa36f8d8cc547ac5159188ed579f4c37ca85265d6c246aac2f517db695db209c33"></a>VertexSignature_LayoutInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca69ebd0cacae49b77daf57160f717a9b7" name="aa36f8d8cc547ac5159188ed579f4c37ca69ebd0cacae49b77daf57160f717a9b7"></a>TextureView_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca9b2218f20552e3c15de281d7811af7f9" name="aa36f8d8cc547ac5159188ed579f4c37ca9b2218f20552e3c15de281d7811af7f9"></a>TextureView_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a020445c4936b8bf7bd0826bd84addf47" name="a020445c4936b8bf7bd0826bd84addf47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a020445c4936b8bf7bd0826bd84addf47">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47acc7d03c1c9d85f4332391d7f0900a2bd" name="a020445c4936b8bf7bd0826bd84addf47acc7d03c1c9d85f4332391d7f0900a2bd"></a>VertexSignature_ProgramLayoutMapping&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47aa9a30f83fcae944efdc95d015afaa167" name="a020445c4936b8bf7bd0826bd84addf47aa9a30f83fcae944efdc95d015afaa167"></a>VertexSignature_VkPipelineInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47a20bcada0cced6e28826303058572b01f" name="a020445c4936b8bf7bd0826bd84addf47a20bcada0cced6e28826303058572b01f"></a>VertexSignature_BindInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47a85265d6c246aac2f517db695db209c33" name="a020445c4936b8bf7bd0826bd84addf47a85265d6c246aac2f517db695db209c33"></a>VertexSignature_LayoutInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47a4a9d3b8f48e61241dc4c6ef95d64915c" name="a020445c4936b8bf7bd0826bd84addf47a4a9d3b8f48e61241dc4c6ef95d64915c"></a>VertexSignature_DynamicBindInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2486,8 +2518,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac9032a4c4ddc60d6ead8a424d08f3c42" name="ac9032a4c4ddc60d6ead8a424d08f3c42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9032a4c4ddc60d6ead8a424d08f3c42">&#9670;&#160;</a></span>GetOrCreatePipeline()</h2>
+<a id="a33b805dc3b4a9076ca4b1d9966d08a80" name="a33b805dc3b4a9076ca4b1d9966d08a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b805dc3b4a9076ca4b1d9966d08a80">&#9670;&#160;</a></span>GetOrCreatePipeline()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2513,7 +2545,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="union_core_graphics_1_1_input_assembly_key.html">CoreGraphics::InputAssemblyKey</a>&#160;</td>
           <td class="paramname"><em>inputAssembly</em>, </td>
         </tr>
         <tr>
@@ -3548,6 +3580,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d7ad23a594f68d635e4e35eeb61125d" name="a9d7ad23a594f68d635e4e35eeb61125d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7ad23a594f68d635e4e35eeb61125d">&#9670;&#160;</a></span>VertexLayoutGetVkBindInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_vulkan_1_1_vertex_layout_vk_bind_info.html">VertexLayoutVkBindInfo</a> &amp; Vulkan::VertexLayoutGetVkBindInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">CoreGraphics::VertexLayoutId</a>&#160;</td>
+          <td class="paramname"><em>layout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get dynamic bind info. </p>
+
+</div>
+</div>
 <a id="a124c6bbd44811cbbb51b6c2c30269bf4" name="a124c6bbd44811cbbb51b6c2c30269bf4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a124c6bbd44811cbbb51b6c2c30269bf4">&#9670;&#160;</a></span>VkShaderCreateSignature()</h2>
 
@@ -4021,6 +4073,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af86184826a46e108c5bde1e012093fe4" name="af86184826a46e108c5bde1e012093fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af86184826a46e108c5bde1e012093fe4">&#9670;&#160;</a></span>pipelineAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a> &gt; Vulkan::pipelineAllocator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a569001130e05e4bbcb30e4bd59bad595" name="a569001130e05e4bbcb30e4bd59bad595"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a569001130e05e4bbcb30e4bd59bad595">&#9670;&#160;</a></span>pipelineMutex</h2>
 
@@ -4257,20 +4323,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa63d9ff5c3f2e85b89e87336702f9d3" name="aaa63d9ff5c3f2e85b89e87336702f9d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa63d9ff5c3f2e85b89e87336702f9d3">&#9670;&#160;</a></span>threadState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">Vulkan::GraphicsDeviceThreadState</a> Vulkan::threadState</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae09e85a3c76a75987429d30340d97757" name="ae09e85a3c76a75987429d30340d97757"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae09e85a3c76a75987429d30340d97757">&#9670;&#160;</a></span>transferLock</h2>
 
@@ -4314,7 +4366,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_vulkan.html#ae64a2655345e878884f607e671c0f1c9">VkVertexLayoutAllocator</a> Vulkan::vertexLayoutAllocator</td>
+          <td class="memname"><a class="el" href="namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48">VkVertexLayoutAllocator</a> Vulkan::vertexLayoutAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4578,7 +4630,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

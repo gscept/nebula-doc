@@ -97,8 +97,11 @@ $(document).ready(function(){initNavTree('vkcommandbuffer_8cc.html',''); initRes
   <div class="headertitle"><div class="title">vkcommandbuffer.cc File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="vkcommandbuffer_8h_source.html">vkcommandbuffer.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="render_2render_2stdneb_8h_source.html">render/stdneb.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="render_2coregraphics_2config_8h_source.html">coregraphics/config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resourcetable_8h_source.html">coregraphics/resourcetable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pipeline_8h_source.html">coregraphics/pipeline.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vkcommandbuffer_8h_source.html">vkcommandbuffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkgraphicsdevice_8h_source.html">vkgraphicsdevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkbuffer_8h_source.html">vkbuffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktexture_8h_source.html">vktexture.h</a>&quot;</code><br />
@@ -106,10 +109,10 @@ $(document).ready(function(){initNavTree('vkcommandbuffer_8cc.html',''); initRes
 <code>#include &quot;<a class="el" href="vkshader_8h_source.html">vkshader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktypes_8h_source.html">vktypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkshaderprogram_8h_source.html">vkshaderprogram.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="resourcetable_8h_source.html">coregraphics/resourcetable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkresourcetable_8h_source.html">vkresourcetable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkevent_8h_source.html">vkevent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkpass_8h_source.html">vkpass.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vkpipeline_8h_source.html">vkpipeline.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globalconstants_8h_source.html">graphics/globalconstants.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -194,6 +197,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acceae3e7d1adae86095edfa9c57452dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acceae3e7d1adae86095edfa9c57452dc">CoreGraphics::CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id)</td></tr>
 <tr class="memdesc:acceae3e7d1adae86095edfa9c57452dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create (if necessary) and bind pipeline based on state thus far.  <br /></td></tr>
 <tr class="separator:acceae3e7d1adae86095edfa9c57452dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b5755b3c1e380284211db1d6f409fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a29b5755b3c1e380284211db1d6f409fb">CoreGraphics::CmdSetGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> buf, const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
+<tr class="memdesc:a29b5755b3c1e380284211db1d6f409fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set graphics pipeline directly.  <br /></td></tr>
+<tr class="separator:a29b5755b3c1e380284211db1d6f409fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8cd973e1332020e102154f72371e6b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aa8cd973e1332020e102154f72371e6b1">CoreGraphics::CmdBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> fromStage, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> toStage, <a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> domain, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_barrier_info.html">TextureBarrierInfo</a> &gt; &amp;textures, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_barrier_info.html">BufferBarrierInfo</a> &gt; &amp;buffers, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const char *name=nullptr)</td></tr>
 <tr class="memdesc:aa8cd973e1332020e102154f72371e6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert pipeline barrier.  <br /></td></tr>
 <tr class="separator:aa8cd973e1332020e102154f72371e6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,7 +313,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkcommandbuffer_8cc.html">vkcommandbuffer.cc</a></li>
 				<li class="footer">
-					Generated on Sat Aug 12 2023 20:22:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Aug 24 2023 13:24:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

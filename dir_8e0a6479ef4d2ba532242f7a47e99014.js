@@ -26,6 +26,8 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vkmemory.h", "vkmemory_8h.html", "vkmemory_8h" ],
     [ "vkpass.cc", "vkpass_8cc.html", "vkpass_8cc" ],
     [ "vkpass.h", "vkpass_8h.html", "vkpass_8h" ],
+    [ "vkpipeline.cc", "vkpipeline_8cc.html", "vkpipeline_8cc" ],
+    [ "vkpipeline.h", "vkpipeline_8h.html", "vkpipeline_8h" ],
     [ "vkpipelinedatabase.cc", "vkpipelinedatabase_8cc.html", "vkpipelinedatabase_8cc" ],
     [ "vkpipelinedatabase.h", "vkpipelinedatabase_8h.html", "vkpipelinedatabase_8h" ],
     [ "vkrendertexture.cc", "vkrendertexture_8cc.html", null ],
