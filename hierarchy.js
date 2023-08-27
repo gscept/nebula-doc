@@ -673,9 +673,6 @@ var hierarchy =
     [ "Util::Array< Vulkan::VkShaderServer::_PendingViewDelete >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Vulkan::VkSubContextHandler::SparseBindSubmission >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Vulkan::VkSubContextHandler::TimelineSubmission >", "class_util_1_1_array.html", null ],
-    [ "array_caster", null, [
-      [ "pybind11::detail::type_caster< Util::Array< Type > >", "structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ]
-    ] ],
     [ "Util::ArrayAllocator< TYPES >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< Game::ManagerHandle, Game::ManagerAPI >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< Game::MessageListenerId, Util::Delegate >", "class_util_1_1_array_allocator.html", null ],
@@ -884,6 +881,9 @@ var hierarchy =
     [ "CoreGraphics::DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
     [ "Vulkan::DescriptorSetBinding", "struct_vulkan_1_1_descriptor_set_binding.html", null ],
     [ "Vulkan::VkShaderCache::DescriptorSetBinding", "struct_vulkan_1_1_vk_shader_cache_1_1_descriptor_set_binding.html", null ],
+    [ "nanobind::detail::dict_caster", null, [
+      [ "nanobind::detail::type_caster< Util::Dictionary< Key, Value > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ]
+    ] ],
     [ "Util::Dictionary< KEYTYPE, VALUETYPE >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Attr::AttrId, Attr::Attribute >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Attr::AttrId, IndexT >", "class_util_1_1_dictionary.html", null ],
@@ -990,8 +990,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
+    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -1414,6 +1414,9 @@ var hierarchy =
     [ "Util::List< RefCounted * >", "class_util_1_1_list.html", [
       [ "Core::RefCountedList", "class_core_1_1_ref_counted_list.html", null ]
     ] ],
+    [ "list_caster", null, [
+      [ "nanobind::detail::type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ]
+    ] ],
     [ "Audio::AudioDevice::Listener", "struct_audio_1_1_audio_device_1_1_listener.html", null ],
     [ "Threading::LockFreeQueue< TYPE >", "class_threading_1_1_lock_free_queue.html", null ],
     [ "Threading::LockFreeQueue< Fibers::FiberQueue::Job >", "class_threading_1_1_lock_free_queue.html", null ],
@@ -1424,9 +1427,6 @@ var hierarchy =
     ] ],
     [ "Game::ManagerAPI", "struct_game_1_1_manager_a_p_i.html", null ],
     [ "Game::ManagerHandle", "struct_game_1_1_manager_handle.html", null ],
-    [ "map_caster", null, [
-      [ "pybind11::detail::type_caster< Util::Dictionary< Key, Value > >", "structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ]
-    ] ],
     [ "Im3d::Mat3", "struct_im3d_1_1_mat3.html", null ],
     [ "Im3d::Mat4", "struct_im3d_1_1_mat4.html", null ],
     [ "Math::mat4", "struct_math_1_1mat4.html", null ],
@@ -2232,8 +2232,7 @@ var hierarchy =
     [ "Math::transform44", "class_math_1_1transform44.html", null ],
     [ "Attr::Transform44TypeClass", "class_attr_1_1_transform44_type_class.html", null ],
     [ "Models::ModelContext::ModelInstance::Transformable", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html", null ],
-    [ "pybind11::detail::type_caster< Util::String >", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", null ],
-    [ "pybind11::detail::type_caster< Util::Variant >", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html", null ],
+    [ "nanobind::detail::type_caster< Util::String >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", null ],
     [ "MemDb::TypeRegistry", "class_mem_db_1_1_type_registry.html", null ],
     [ "Im3d::internal::TypeTraits< T >", "struct_im3d_1_1internal_1_1_type_traits.html", null ],
     [ "Im3d::internal::TypeTraits< float >", "struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html", null ],
@@ -2381,8 +2380,8 @@ var hierarchy =
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32::Win32ReadWriteLock", "class_win32_1_1_win32_read_write_lock.html", null ],
     [ "Win32::Win32Registry", "class_win32_1_1_win32_registry.html", null ],
-    [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
     [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
+    [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
     [ "Win32::Win32StringConverter", "class_win32_1_1_win32_string_converter.html", null ],
     [ "Win32::Win32SystemInfo", "class_win32_1_1_win32_system_info.html", null ],
     [ "Win32::Win32ThreadBarrier", "class_win32_1_1_win32_thread_barrier.html", null ],

@@ -58,7 +58,7 @@ var searchData=
   ['ringbuffer_3c_20particles_3a_3aparticle_20_3e_55',['RingBuffer&lt; Particles::Particle &gt;',['../class_util_1_1_ring_buffer.html',1,'Util']]],
   ['ringbuffer_3c_20timing_3a_3atime_20_3e_56',['RingBuffer&lt; Timing::Time &gt;',['../class_util_1_1_ring_buffer.html',1,'Util']]],
   ['ringbuffer_3c_20util_3a_3astring_20_3e_57',['RingBuffer&lt; Util::String &gt;',['../class_util_1_1_ring_buffer.html',1,'Util']]],
-  ['round_58',['Round',['../class_round.html',1,'Round'],['../class_util_1_1_round.html',1,'Util::Round']]],
+  ['round_58',['round',['../class_round.html',1,'Round'],['../class_util_1_1_round.html',1,'Util::Round']]],
   ['rtplugin_59',['RTPlugin',['../class_render_modules_1_1_r_t_plugin.html',1,'RenderModules']]],
   ['rtpluginregistry_60',['RTPluginRegistry',['../class_render_modules_1_1_r_t_plugin_registry.html',1,'RenderModules']]],
   ['rtti_61',['Rtti',['../class_core_1_1_rtti.html',1,'Core']]],

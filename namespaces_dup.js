@@ -65,6 +65,7 @@ var namespaces_dup =
     [ "Messaging", "namespace_messaging.html", "namespace_messaging" ],
     [ "Models", "namespace_models.html", "namespace_models" ],
     [ "Msg", "namespace_msg.html", null ],
+    [ "nanobind", "namespacenanobind.html", "namespacenanobind" ],
     [ "Net", "namespace_net.html", "namespace_net" ],
     [ "OSX", "namespace_o_s_x.html", "namespace_o_s_x" ],
     [ "Particles", "namespace_particles.html", "namespace_particles" ],
@@ -75,11 +76,12 @@ var namespaces_dup =
     [ "Posix", "namespace_posix.html", "namespace_posix" ],
     [ "PostEffects", "namespace_post_effects.html", "namespace_post_effects" ],
     [ "Profiling", "namespace_profiling.html", "namespace_profiling" ],
-    [ "pybind11", "namespacepybind11.html", "namespacepybind11" ],
     [ "Python", "namespace_python.html", [
-      [ "PYBIND11_EMBEDDED_MODULE", "namespace_python.html#ade278397e220c6e753fe1cc2e0e4dcd8", null ],
-      [ "PYBIND11_EMBEDDED_MODULE", "namespace_python.html#a80ab862d7660abc963caef51232b7542", null ],
-      [ "VariantToPyType", "namespace_python.html#a767c4099b2ad3fe5436263dd193c0051", null ]
+      [ "NB_MODULE", "namespace_python.html#a36af739709366f2e68eddafc4b75d3ea", null ],
+      [ "NB_MODULE", "namespace_python.html#afdb321b9b04333694036509e409ab1c4", null ],
+      [ "RegisterNebulaModules", "namespace_python.html#a1a51436bcbd384afd15605661986f539", null ],
+      [ "VariantToPyType", "namespace_python.html#ad5799d95db209cd19806664696f2efcc", null ],
+      [ "VariantToPyType", "namespace_python.html#a8a0fe7fc5111c6c2920672614a676a3b", null ]
     ] ],
     [ "RenderModules", "namespace_render_modules.html", "namespace_render_modules" ],
     [ "RenderUtil", "namespace_render_util.html", "namespace_render_util" ],

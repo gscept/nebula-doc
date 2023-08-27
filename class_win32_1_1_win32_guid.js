@@ -11,8 +11,6 @@ var class_win32_1_1_win32_guid =
     [ "Generate", "class_win32_1_1_win32_guid.html#ace00df7c20efba3ac55f1fcaa7f75271", null ],
     [ "HashCode", "class_win32_1_1_win32_guid.html#a6b9abd6c7369e24b3a6b494cb5129d38", null ],
     [ "IsValid", "class_win32_1_1_win32_guid.html#a13aa76c465f5575f834024626f705f17", null ],
-    [ "operator delete", "class_win32_1_1_win32_guid.html#add3a44b02f9f162aa3a7671a3990c98b", null ],
-    [ "operator new", "class_win32_1_1_win32_guid.html#a70b5e5a9d20ca831bc7d836a0d466edf", null ],
     [ "operator!=", "class_win32_1_1_win32_guid.html#a3855d5315b689b1c871a09dc798c882b", null ],
     [ "operator<", "class_win32_1_1_win32_guid.html#a9c560d8c1881dbc3971d05a214e562cd", null ],
     [ "operator<=", "class_win32_1_1_win32_guid.html#a49b83f4fd50468dcceafbdf395dfea1f", null ],

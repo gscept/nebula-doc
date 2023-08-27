@@ -10,8 +10,6 @@ var class_posix_1_1_posix_guid =
     [ "Generate", "class_posix_1_1_posix_guid.html#a4782f762762492d10460bc3c4e433e68", null ],
     [ "HashCode", "class_posix_1_1_posix_guid.html#ab6b9ff71f6691d4e61cca0ff1298a017", null ],
     [ "IsValid", "class_posix_1_1_posix_guid.html#afe82aebd0adbcb4f6fbcfe65eff8f7fa", null ],
-    [ "operator delete", "class_posix_1_1_posix_guid.html#afc38321223285768495097bfcd74a630", null ],
-    [ "operator new", "class_posix_1_1_posix_guid.html#a514953481b651d473ad423e3869ed867", null ],
     [ "operator!=", "class_posix_1_1_posix_guid.html#a6af9b59a4802752de2d6c6585ffca0fa", null ],
     [ "operator<", "class_posix_1_1_posix_guid.html#af8be18b62869ce1821c240a2d0f9eb99", null ],
     [ "operator<=", "class_posix_1_1_posix_guid.html#adf11170a0cb46b16b9a7b70cd34f0954", null ],

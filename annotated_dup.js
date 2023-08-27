@@ -755,6 +755,13 @@ var annotated_dup =
       [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
       [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]
     ] ],
+    [ "nanobind", "namespacenanobind.html", [
+      [ "detail", "namespacenanobind_1_1detail.html", [
+        [ "type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ],
+        [ "type_caster< Util::Dictionary< Key, Value > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ],
+        [ "type_caster< Util::String >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4" ]
+      ] ]
+    ] ],
     [ "Net", "namespace_net.html", [
       [ "DebugMessage", "class_net_1_1_debug_message.html", "class_net_1_1_debug_message" ],
       [ "DebugPacket", "class_net_1_1_debug_packet.html", "class_net_1_1_debug_packet" ],
@@ -845,14 +852,6 @@ var annotated_dup =
       [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
       [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
       [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ]
-    ] ],
-    [ "pybind11", "namespacepybind11.html", [
-      [ "detail", "namespacepybind11_1_1detail.html", [
-        [ "type_caster< Util::Array< Type > >", "structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ],
-        [ "type_caster< Util::Dictionary< Key, Value > >", "structpybind11_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ],
-        [ "type_caster< Util::String >", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4" ],
-        [ "type_caster< Util::Variant >", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4.html", "classpybind11_1_1detail_1_1type__caster_3_01_util_1_1_variant_01_4" ]
-      ] ]
     ] ],
     [ "RenderModules", "namespace_render_modules.html", [
       [ "RenderModule", "class_render_modules_1_1_render_module.html", "class_render_modules_1_1_render_module" ],

@@ -5,6 +5,7 @@ var struct_math_1_1vector =
     [ "vector", "struct_math_1_1vector.html#aee99e51bce98a39f55a8fdecc4ed62c4", null ],
     [ "vector", "struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d", null ],
     [ "vector", "struct_math_1_1vector.html#a73a001aff94f476cc1e78f0518101823", null ],
+    [ "vector", "struct_math_1_1vector.html#af8da57c77f92bd0aaa2ac9605521c0b5", null ],
     [ "vector", "struct_math_1_1vector.html#a5605535db505100d18ed88dc0c64acad", null ],
     [ "load", "struct_math_1_1vector.html#ad1d4188e0dd63a9052baecaa16cbbf92", null ],
     [ "loadu", "struct_math_1_1vector.html#a6c2c133eb639c92f3dd5c0b3b56208c1", null ],

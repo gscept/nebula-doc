@@ -1,7 +1,7 @@
 var searchData=
 [
   ['w_0',['W',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18ae91f352ef5b062ec08979a60686d9fad',1,'Input::Key']]],
-  ['wait_1',['Wait',['../class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fae958228dbbd8039af6ece585b61da7e1',1,'Jobs::JobThread::Wait'],['../class_frame_1_1_frame_event.html#ae009bb082ac756276826da5669d8bc30a32664960d4a9bdfe8f0a3f9cba5a39a5',1,'Frame::FrameEvent::Wait']]],
+  ['wait_1',['wait',['../class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fae958228dbbd8039af6ece585b61da7e1',1,'Jobs::JobThread::Wait'],['../class_frame_1_1_frame_event.html#ae009bb082ac756276826da5669d8bc30a32664960d4a9bdfe8f0a3f9cba5a39a5',1,'Frame::FrameEvent::Wait']]],
   ['waitandreset_2',['WaitAndReset',['../class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fa60460b44a4e0d983060e77b9d56a542a',1,'Jobs::JobThread']]],
   ['waitforevent_3',['WaitForEvent',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba4803d660ca33509fe850c4540be6e4c5',1,'CoreGraphics::DrawThread']]],
   ['waiting_4',['Waiting',['../class_memory_1_1_ring_allocator.html#a5601ff6cfa65a66bcfdeef78acddf255a15c688dcf86cbc42af7ad3a396db830f',1,'Memory::RingAllocator']]],
@@ -26,9 +26,8 @@ var searchData=
   ['windowreopen_23',['WindowReopen',['../class_core_graphics_1_1_display_event.html#ae20d6ec8a82225d61f68fb2c365a8b1ba39be1369c78e06707793380f3435ad1d',1,'CoreGraphics::DisplayEvent']]],
   ['windowresized_24',['WindowResized',['../class_core_graphics_1_1_display_event.html#ae20d6ec8a82225d61f68fb2c365a8b1ba5e70846c489504e6fd8e7c3a8b14f706',1,'CoreGraphics::DisplayEvent']]],
   ['windowrestored_25',['WindowRestored',['../class_core_graphics_1_1_display_event.html#ae20d6ec8a82225d61f68fb2c365a8b1bae90c12f91aadc63f0b94fe62ed85ca8a',1,'CoreGraphics::DisplayEvent']]],
-  ['wireframe_26',['Wireframe',['../class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a1567b080d5ad9b4a6266c8ef808aea6f',1,'CoreGraphics::RenderShape::Wireframe'],['../namespace_im3d.html#ae5197a424390f99b794feb226d67f69ea1e7d168056d8275fa4b0b908a1362ced',1,'Im3d::Wireframe']]],
-  ['wouldblock_27',['WouldBlock',['../class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26baab9765f4ebf8cfc5fe7be6da8a0c482f1',1,'Posix::PosixSocket::WouldBlock'],['../class_win32_1_1_win32_socket.html#a16d9faa1fcfdb369133e2bb98b26883bac69dddf9a018e1d52e85f0cf3c8f4d71',1,'Win32::Win32Socket::WouldBlock']]],
-  ['write_28',['Write',['../namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a3b31e8a01e5ab0764b0df0fb77798cf3',1,'IO::Write'],['../namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba1129c0e4d43f2d121652a7302712cff6',1,'Util::Write'],['../namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea1129c0e4d43f2d121652a7302712cff6',1,'Frame::Write']]],
-  ['write_29',['WRITE',['../namespace_game.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826',1,'Game']]],
-  ['writeaccess_30',['WriteAccess',['../class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea425babb72c2efac8f5d6219c7b85335f',1,'IO::Stream']]]
+  ['wireframe_26',['wireframe',['../class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a1567b080d5ad9b4a6266c8ef808aea6f',1,'CoreGraphics::RenderShape::Wireframe'],['../namespace_im3d.html#ae5197a424390f99b794feb226d67f69ea1e7d168056d8275fa4b0b908a1362ced',1,'Im3d::Wireframe']]],
+  ['wouldblock_27',['wouldblock',['../class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26baab9765f4ebf8cfc5fe7be6da8a0c482f1',1,'Posix::PosixSocket::WouldBlock'],['../class_win32_1_1_win32_socket.html#a16d9faa1fcfdb369133e2bb98b26883bac69dddf9a018e1d52e85f0cf3c8f4d71',1,'Win32::Win32Socket::WouldBlock']]],
+  ['write_28',['write',['../namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a3b31e8a01e5ab0764b0df0fb77798cf3',1,'IO::Write'],['../namespace_util.html#acbf1ff504100ee61d27cf4c7e1a2d11ba1129c0e4d43f2d121652a7302712cff6',1,'Util::Write'],['../namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea1129c0e4d43f2d121652a7302712cff6',1,'Frame::Write'],['../namespace_game.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826',1,'Game::WRITE']]],
+  ['writeaccess_29',['WriteAccess',['../class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea425babb72c2efac8f5d6219c7b85335f',1,'IO::Stream']]]
 ];

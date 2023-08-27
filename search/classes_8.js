@@ -32,7 +32,7 @@ var searchData=
   ['historyconsolehandler_29',['HistoryConsoleHandler',['../class_i_o_1_1_history_console_handler.html',1,'IO']]],
   ['htmlelement_30',['HtmlElement',['../class_http_1_1_html_element.html',1,'Http']]],
   ['htmlpagewriter_31',['HtmlPageWriter',['../class_http_1_1_html_page_writer.html',1,'Http']]],
-  ['httpclient_32',['HttpClient',['../class_http_1_1_http_client.html',1,'Http::HttpClient'],['../class_simple_1_1_http_client.html',1,'HttpClient']]],
+  ['httpclient_32',['httpclient',['../class_http_1_1_http_client.html',1,'Http::HttpClient'],['../class_simple_1_1_http_client.html',1,'HttpClient']]],
   ['httpclientregistry_33',['HttpClientRegistry',['../class_http_1_1_http_client_registry.html',1,'Http']]],
   ['httpinterface_34',['HttpInterface',['../class_http_1_1_http_interface.html',1,'Http']]],
   ['httpmessagehandler_35',['HttpMessageHandler',['../class_http_1_1_http_message_handler.html',1,'Http']]],

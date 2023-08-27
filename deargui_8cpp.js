@@ -1,5 +1,5 @@
 var deargui_8cpp =
 [
-    [ "PYBIND11_EMBEDDED_MODULE", "deargui_8cpp.html#af0024a3a87b183a67679e3c6f59c1cb5", null ],
-    [ "template_ImVector", "deargui_8cpp.html#a7260602533503694412b87766aea08f4", null ]
+    [ "NB_MODULE", "deargui_8cpp.html#aed07a71f15bbe1e85fbf0896cf23066b", null ],
+    [ "template_ImVector", "deargui_8cpp.html#a3edb43eb8ec056c25fbd714f010e3c4b", null ]
 ];

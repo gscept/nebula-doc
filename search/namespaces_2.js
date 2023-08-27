@@ -6,6 +6,6 @@ var searchData=
   ['core_3',['Core',['../namespace_core.html',1,'']]],
   ['coreanimation_4',['CoreAnimation',['../namespace_core_animation.html',1,'']]],
   ['coregraphics_5',['CoreGraphics',['../namespace_core_graphics.html',1,'']]],
-  ['gpubuffertypes_6',['GpuBufferTypes',['../namespace_core_graphics_1_1_gpu_buffer_types.html',1,'CoreGraphics']]],
-  ['nvx3_7',['Nvx3',['../namespace_core_graphics_1_1_nvx3.html',1,'CoreGraphics']]]
+  ['coregraphics_3a_3agpubuffertypes_6',['GpuBufferTypes',['../namespace_core_graphics_1_1_gpu_buffer_types.html',1,'CoreGraphics']]],
+  ['coregraphics_3a_3anvx3_7',['Nvx3',['../namespace_core_graphics_1_1_nvx3.html',1,'CoreGraphics']]]
 ];
