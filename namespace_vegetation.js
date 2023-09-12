@@ -61,6 +61,6 @@ var namespace_vegetation =
     [ "vegetationMeshVColorShader", "namespace_vegetation.html#a348f7e95ecd8b64dffb018c978e3d17f", null ],
     [ "vegetationMeshVColorZShader", "namespace_vegetation.html#a2ba66228b20e864a187c33bc692bc917", null ],
     [ "vegetationMeshZShader", "namespace_vegetation.html#aa93b8cc40f63c8fd919571209cca145f", null ],
-    [ "vegetationState", "namespace_vegetation.html#aa4c3925ad3743c61b9fc46534da9739c", null ],
+    [ "vegetationState", "namespace_vegetation.html#a1fb1659918ce5708f6590b127c5a7851", null ],
     [ "worldSize", "namespace_vegetation.html#a6269da2821a18c1aa23406d7fc80b5b7", null ]
 ];

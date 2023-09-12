@@ -14,7 +14,7 @@ var namespace_clustering =
     [ "invXResolution", "namespace_clustering.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
     [ "invYResolution", "namespace_clustering.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
     [ "numThreads", "namespace_clustering.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
-    [ "state", "namespace_clustering.html#a04dec3d4b89fadc2df081d9c6456b7f0", null ],
+    [ "state", "namespace_clustering.html#aa71fe35eac5b93e44967032472e4cd09", null ],
     [ "uniforms", "namespace_clustering.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
     [ "window", "namespace_clustering.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
     [ "xResolution", "namespace_clustering.html#a581f331c494a300ae88fa56b64571df4", null ],

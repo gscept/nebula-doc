@@ -91,7 +91,6 @@ $(document).ready(function(){initNavTree('struct_core_graphics_1_1_memory_pool.h
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -102,18 +101,12 @@ $(document).ready(function(){initNavTree('struct_core_graphics_1_1_memory_pool.h
 
 <p><code>#include &lt;<a class="el" href="render_2coregraphics_2memory_8h_source.html">memory.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a0a01585c21465d26c23022e4b49695a6" id="r_a0a01585c21465d26c23022e4b49695a6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6">AllocationMethod</a> { <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6aa1820548a8f1b440802e716f98e4304f">MemoryPool_AllocConservative</a>
-, <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6a95374130b7a661f93f402538f3a2ec2d">MemoryPool_AllocLinear</a>
- }</td></tr>
-<tr class="separator:a0a01585c21465d26c23022e4b49695a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c1a14192227ea4c76e57cfb8c6b393d" id="r_a5c1a14192227ea4c76e57cfb8c6b393d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a5c1a14192227ea4c76e57cfb8c6b393d">AllocateMemory</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> alignment, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a>)</td></tr>
 <tr class="separator:a5c1a14192227ea4c76e57cfb8c6b393d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abba6cb8751196b2f9ebdcd29fd525dfc" id="r_abba6cb8751196b2f9ebdcd29fd525dfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc">DeallocateMemory</a> (const <a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a> &amp;alloc)</td></tr>
+<tr class="memdesc:abba6cb8751196b2f9ebdcd29fd525dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates memory, if a GPU block was freed this function returns true.  <br /></td></tr>
 <tr class="separator:abba6cb8751196b2f9ebdcd29fd525dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b77c09e0e521cd7ab8c09ae066b636d" id="r_a5b77c09e0e521cd7ab8c09ae066b636d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a5b77c09e0e521cd7ab8c09ae066b636d">Clear</a> ()</td></tr>
 <tr class="separator:a5b77c09e0e521cd7ab8c09ae066b636d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,14 +123,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a410cf3743ecf6e05813fdd72065b5e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a811251eda1b2b0f2841891cb53bc0719" id="r_a811251eda1b2b0f2841891cb53bc0719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; DeviceMemory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a811251eda1b2b0f2841891cb53bc0719">blocks</a></td></tr>
 <tr class="separator:a811251eda1b2b0f2841891cb53bc0719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9338a540255a40648788008395e3e2eb" id="r_a9338a540255a40648788008395e3e2eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_alloc_range.html">AllocRange</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a9338a540255a40648788008395e3e2eb">blockRanges</a></td></tr>
-<tr class="separator:a9338a540255a40648788008395e3e2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fabec9377d778b8f337ede6757c72ce" id="r_a4fabec9377d778b8f337ede6757c72ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_memory.html#a3ad5de13decc7cd6574e963ad2494f70">Memory::SCAllocator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a4fabec9377d778b8f337ede6757c72ce">allocators</a></td></tr>
+<tr class="separator:a4fabec9377d778b8f337ede6757c72ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acacd1f0fd00f01c88a5ca7f89028bf9c" id="r_acacd1f0fd00f01c88a5ca7f89028bf9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#acacd1f0fd00f01c88a5ca7f89028bf9c">blockMappedPointers</a></td></tr>
 <tr class="separator:acacd1f0fd00f01c88a5ca7f89028bf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d57135272898219a35c820b3c3a7965" id="r_a7d57135272898219a35c820b3c3a7965"><td class="memItemLeft" align="right" valign="top">DeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a></td></tr>
 <tr class="separator:a7d57135272898219a35c820b3c3a7965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7439d005870def98fbda6ce2221b406e" id="r_a7439d005870def98fbda6ce2221b406e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6">AllocationMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7439d005870def98fbda6ce2221b406e">allocMethod</a></td></tr>
-<tr class="separator:a7439d005870def98fbda6ce2221b406e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae23d995ee186f9b8b47fb4d24093c7df" id="r_ae23d995ee186f9b8b47fb4d24093c7df"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df">budgetCounter</a></td></tr>
 <tr class="separator:ae23d995ee186f9b8b47fb4d24093c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3429829e08b2c1f905091ddc72eaf058" id="r_a3429829e08b2c1f905091ddc72eaf058"><td class="memItemLeft" align="right" valign="top">DeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a3429829e08b2c1f905091ddc72eaf058">maxSize</a></td></tr>
@@ -147,10 +138,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae0d4c02dcbfa5e987878df079bb659a0" id="r_ae0d4c02dcbfa5e987878df079bb659a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#ae0d4c02dcbfa5e987878df079bb659a0">AllocateConservative</a> (DeviceSize alignment, DeviceSize <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a>)</td></tr>
-<tr class="separator:ae0d4c02dcbfa5e987878df079bb659a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1735fbe47026dca2438c4ad213f45f3e" id="r_a1735fbe47026dca2438c4ad213f45f3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a1735fbe47026dca2438c4ad213f45f3e">AllocateLinear</a> (DeviceSize alignment, DeviceSize <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a>)</td></tr>
-<tr class="separator:a1735fbe47026dca2438c4ad213f45f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93abf5c925c322ea0546fa9d80ceb112" id="r_a93abf5c925c322ea0546fa9d80ceb112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a93abf5c925c322ea0546fa9d80ceb112">Allocate</a> (DeviceSize alignment, DeviceSize <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a>)</td></tr>
+<tr class="separator:a93abf5c925c322ea0546fa9d80ceb112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e12453a32717e15bb2d7c2846aa903" id="r_a96e12453a32717e15bb2d7c2846aa903"><td class="memItemLeft" align="right" valign="top">DeviceMemory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a96e12453a32717e15bb2d7c2846aa903">CreateBlock</a> (void **outMappedPtr)</td></tr>
 <tr class="separator:a96e12453a32717e15bb2d7c2846aa903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91561b25aa7a49a847988fe5e53b248d" id="r_a91561b25aa7a49a847988fe5e53b248d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a91561b25aa7a49a847988fe5e53b248d">DestroyBlock</a> (DeviceMemory mem)</td></tr>
@@ -158,28 +147,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aeb92ad66140c0b107c0044861587c6d7" id="r_aeb92ad66140c0b107c0044861587c6d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7">AllocateExclusiveBlock</a> (DeviceSize alignment, DeviceSize <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a7d57135272898219a35c820b3c3a7965">size</a>)</td></tr>
 <tr class="separator:aeb92ad66140c0b107c0044861587c6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a0a01585c21465d26c23022e4b49695a6" name="a0a01585c21465d26c23022e4b49695a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a01585c21465d26c23022e4b49695a6">&#9670;&#160;</a></span>AllocationMethod</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6">CoreGraphics::MemoryPool::AllocationMethod</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0a01585c21465d26c23022e4b49695a6aa1820548a8f1b440802e716f98e4304f" name="a0a01585c21465d26c23022e4b49695a6aa1820548a8f1b440802e716f98e4304f"></a>MemoryPool_AllocConservative&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0a01585c21465d26c23022e4b49695a6a95374130b7a661f93f402538f3a2ec2d" name="a0a01585c21465d26c23022e4b49695a6a95374130b7a661f93f402538f3a2ec2d"></a>MemoryPool_AllocLinear&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae0d4c02dcbfa5e987878df079bb659a0" name="ae0d4c02dcbfa5e987878df079bb659a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0d4c02dcbfa5e987878df079bb659a0">&#9670;&#160;</a></span>AllocateConservative()</h2>
+<a id="a93abf5c925c322ea0546fa9d80ceb112" name="a93abf5c925c322ea0546fa9d80ceb112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93abf5c925c322ea0546fa9d80ceb112">&#9670;&#160;</a></span>Allocate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +158,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a> CoreGraphics::MemoryPool::AllocateConservative </td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a> CoreGraphics::MemoryPool::Allocate </td>
           <td>(</td>
           <td class="paramtype">DeviceSize&#160;</td>
           <td class="paramname"><em>alignment</em>, </td>
@@ -225,42 +195,6 @@ Private Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a> CoreGraphics::MemoryPool::AllocateExclusiveBlock </td>
-          <td>(</td>
-          <td class="paramtype">DeviceSize&#160;</td>
-          <td class="paramname"><em>alignment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">DeviceSize&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1735fbe47026dca2438c4ad213f45f3e" name="a1735fbe47026dca2438c4ad213f45f3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1735fbe47026dca2438c4ad213f45f3e">&#9670;&#160;</a></span>AllocateLinear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_alloc.html">Alloc</a> CoreGraphics::MemoryPool::AllocateLinear </td>
           <td>(</td>
           <td class="paramtype">DeviceSize&#160;</td>
           <td class="paramname"><em>alignment</em>, </td>
@@ -373,6 +307,8 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Deallocates memory, if a GPU block was freed this function returns true. </p>
+
 </div>
 </div>
 <a id="a91561b25aa7a49a847988fe5e53b248d" name="a91561b25aa7a49a847988fe5e53b248d"></a>
@@ -420,14 +356,14 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7439d005870def98fbda6ce2221b406e" name="a7439d005870def98fbda6ce2221b406e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7439d005870def98fbda6ce2221b406e">&#9670;&#160;</a></span>allocMethod</h2>
+<a id="a4fabec9377d778b8f337ede6757c72ce" name="a4fabec9377d778b8f337ede6757c72ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fabec9377d778b8f337ede6757c72ce">&#9670;&#160;</a></span>allocators</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_memory_pool.html#a0a01585c21465d26c23022e4b49695a6">AllocationMethod</a> CoreGraphics::MemoryPool::allocMethod</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_memory.html#a3ad5de13decc7cd6574e963ad2494f70">Memory::SCAllocator</a>&gt; CoreGraphics::MemoryPool::allocators</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -456,20 +392,6 @@ Private Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ids_1_1_id_pool.html">Ids::IdPool</a> CoreGraphics::MemoryPool::blockPool</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9338a540255a40648788008395e3e2eb" name="a9338a540255a40648788008395e3e2eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9338a540255a40648788008395e3e2eb">&#9670;&#160;</a></span>blockRanges</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_core_graphics_1_1_alloc_range.html">AllocRange</a>&gt; &gt; CoreGraphics::MemoryPool::blockRanges</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -586,7 +508,7 @@ Private Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li><li class="navelem"><a class="el" href="struct_core_graphics_1_1_memory_pool.html">MemoryPool</a></li>
 				<li class="footer">
-					Generated on Sun Aug 27 2023 21:05:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Sep 12 2023 22:23:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

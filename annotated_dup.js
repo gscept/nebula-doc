@@ -722,6 +722,8 @@ var annotated_dup =
       [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
       [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
       [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
+      [ "SizeClassificationAllocation", "struct_memory_1_1_size_classification_allocation.html", "struct_memory_1_1_size_classification_allocation" ],
+      [ "SizeClassificationAllocator", "class_memory_1_1_size_classification_allocator.html", "class_memory_1_1_size_classification_allocator" ],
       [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ]
     ] ],
     [ "Messaging", "namespace_messaging.html", [
