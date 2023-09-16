@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"safeflag_8h_source.html":[10,0,0,3,18,17],
 "safepriorityqueue_8h.html":[10,0,0,3,18,18],
 "safepriorityqueue_8h_source.html":[10,0,0,3,18,18],
 "safequeue_8h.html":[10,0,0,3,18,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "shadersemantics_8h.html#a39f20d78cef288067b048679f3e18b1e":[10,0,0,6,5,71,6],
 "shadersemantics_8h.html#a3a420db4a883e92cd291937529beed42":[10,0,0,6,5,71,31],
 "shadersemantics_8h.html#a3b29386dab1454b671b7f12e6dae4baf":[10,0,0,6,5,71,65],
-"shadersemantics_8h.html#a3c7b36dfe9581ba01451ee1c115827be":[10,0,0,6,5,71,80],
-"shadersemantics_8h.html#a3ccf3daf0deeb332c5b6ae1d5b91f4c1":[10,0,0,6,5,71,28]
+"shadersemantics_8h.html#a3c7b36dfe9581ba01451ee1c115827be":[10,0,0,6,5,71,80]
 };

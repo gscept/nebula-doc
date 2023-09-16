@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa":[9,0,22,17,6],
+"struct_game_1_1_manager_a_p_i.html#acc8bce1c82c13d55eb3fa134d4339d13":[9,0,22,17,1],
 "struct_game_1_1_manager_a_p_i.html#acc8bce1c82c13d55eb3fa134d4339d13":[8,0,25,17,1],
 "struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e":[9,0,22,17,5],
 "struct_game_1_1_manager_a_p_i.html#adfbc8d3736a35d7a97c2862162e0626e":[8,0,25,17,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "struct_gltf_1_1_asset.html#a3b37bb6936366f6eed469a82c1ee7b46":[9,0,25,2,3],
 "struct_gltf_1_1_asset.html#a45241119fdd27a2c092864174ed800fe":[8,0,28,2,0],
 "struct_gltf_1_1_asset.html#a45241119fdd27a2c092864174ed800fe":[9,0,25,2,0],
-"struct_gltf_1_1_asset.html#aa8c6709119e09cf8ea980e7f8cafbc4b":[8,0,28,2,2],
-"struct_gltf_1_1_asset.html#aa8c6709119e09cf8ea980e7f8cafbc4b":[9,0,25,2,2],
-"struct_gltf_1_1_asset.html#ac632f289b3b504be8dfd8a270b9d39a6":[8,0,28,2,1]
+"struct_gltf_1_1_asset.html#aa8c6709119e09cf8ea980e7f8cafbc4b":[8,0,28,2,2]
 };

@@ -143,6 +143,7 @@ var namespace_memory =
     [ "DumpTotalMemoryStatus", "namespace_memory.html#aacd6e0e3d90cc8724a07d52c8f1acb43", null ],
     [ "DuplicateCString", "namespace_memory.html#a7a14be8456d9a48c1c3ff9a221f09900", null ],
     [ "Fill", "namespace_memory.html#a527477862257488319ed410e35988043", null ],
+    [ "FirstOne", "namespace_memory.html#a90333477fb800d8270ca656634b5cf93", null ],
     [ "Free", "namespace_memory.html#a6055e491858cd969e93326d9b3e4b420", null ],
     [ "FreeVirtual", "namespace_memory.html#a13ae93b4a505f65296e8afd5cd682b79", null ],
     [ "GetHeapTypeName", "namespace_memory.html#a779eb7178f1887e9759e90511acd5a05", null ],

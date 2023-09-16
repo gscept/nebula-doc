@@ -1,5 +1,6 @@
 var struct_memory_1_1_size_classification_allocator_1_1_size_classification_node =
 [
+    [ "SizeClassificationNode", "struct_memory_1_1_size_classification_allocator_1_1_size_classification_node.html#ad1ebf3385237bf5123fa4e5de1b8663c", null ],
     [ "binNext", "struct_memory_1_1_size_classification_allocator_1_1_size_classification_node.html#ae581765490778578514c632b7cd6249e", null ],
     [ "binPrev", "struct_memory_1_1_size_classification_allocator_1_1_size_classification_node.html#a168f168f2f42e424a720e6231181e47f", null ],
     [ "blockNext", "struct_memory_1_1_size_classification_allocator_1_1_size_classification_node.html#a5aff94274f5c91b144e3f683c6a5448f", null ],

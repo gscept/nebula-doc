@@ -8,5 +8,6 @@ var sizeclassificationallocator_8h =
     [ "SCAllocator", "sizeclassificationallocator_8h.html#a3ad5de13decc7cd6574e963ad2494f70", null ],
     [ "BinFromSize", "sizeclassificationallocator_8h.html#a44892613b078c57e47d8f5767a9a8ed1", null ],
     [ "BucketFromSize", "sizeclassificationallocator_8h.html#ac6c20877e9b5650262be247e0a775a12", null ],
+    [ "FirstOne", "sizeclassificationallocator_8h.html#a90333477fb800d8270ca656634b5cf93", null ],
     [ "Lsb", "sizeclassificationallocator_8h.html#abe995d4c893a1cc6e3408a7309010229", null ]
 ];
