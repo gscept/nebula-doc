@@ -4,7 +4,6 @@ var physicsinterface_8cc =
     [ "PHYSX_THREADS", "physicsinterface_8cc.html#a5f15be9bbb075e18b754c00d35770edb", null ],
     [ "BeginFrame", "physicsinterface_8cc.html#ae37d01a8fb89437e6c8fa276e257ad82", null ],
     [ "CreateActorInstance", "physicsinterface_8cc.html#a7cf2df54b3302625ddcfa14df59a4d65", null ],
-    [ "CreateMaterial", "physicsinterface_8cc.html#a3a827d90b7854e6db24dfed94d036609", null ],
     [ "CreateScene", "physicsinterface_8cc.html#ae73f5a76a7de9f0607733be67e604fe8", null ],
     [ "DestroyActorInstance", "physicsinterface_8cc.html#ab23ccb60b91a7e41592288f856e68ef2", null ],
     [ "DestroyScene", "physicsinterface_8cc.html#ab7a3d44ccfd6366c4d4aeafd2aabc0df", null ],
@@ -18,6 +17,7 @@ var physicsinterface_8cc =
     [ "SetActiveActorCallback", "physicsinterface_8cc.html#ac291472e0e5f0264d8199c1584d7d4c7", null ],
     [ "SetOnSleepCallback", "physicsinterface_8cc.html#a9af299c4259dad92ae554d3a2c2a8b79", null ],
     [ "SetOnWakeCallback", "physicsinterface_8cc.html#ac9faf5b2dec3610772037a5bff6b639f", null ],
+    [ "SetPhysicsMaterial", "physicsinterface_8cc.html#ae2ac4d01d9f2cd314c02e4ddabfa789f", null ],
     [ "Setup", "physicsinterface_8cc.html#a940b47bed35103b34f9c3652b4c7c53a", null ],
     [ "ShutDown", "physicsinterface_8cc.html#a53923e58ea149e8f8e4466431ff849e5", null ],
     [ "Update", "physicsinterface_8cc.html#ad5748751ba9e48a61c03652dffa14298", null ]

@@ -1,5 +1,9 @@
 var NAVTREEINDEX151 =
 {
+"vec3_8h.html#a65e0cb3ce85d531257e9efbd57efbe18":[10,0,0,3,12,27,44],
+"vec3_8h.html#a7c5e1b22e520eb62532ba151b543d56d":[10,0,0,3,12,27,3],
+"vec3_8h.html#a80791a482672f4e3403571b6acb45cdd":[10,0,0,3,12,27,12],
+"vec3_8h.html#a85a504b8d20d4a47e521d40177ff5436":[10,0,0,3,12,27,37],
 "vec3_8h.html#a8de3931035b5d6150c21f013b244f527":[10,0,0,3,12,27,4],
 "vec3_8h.html#a8f994ad2e9b7301aeab7bc616112035e":[10,0,0,3,12,27,49],
 "vec3_8h.html#a90cffea6b85905e6a0b1fa3cc799d960":[10,0,0,3,12,27,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX151 =
 "visibilitysystem_8cc.html":[10,0,0,6,24,0,14],
 "visibilitysystem_8h.html":[10,0,0,6,24,0,15],
 "visibilitysystem_8h_source.html":[10,0,0,6,24,0,15],
-"visualdebugger_8cc.html":[10,0,0,5,0,13],
-"visualdebugger_8cc.html#a0368af9719e96dbc887fb459c19be76b":[10,0,0,5,0,13,0],
-"visualdebugger_8h.html":[10,0,0,5,0,14],
-"visualdebugger_8h_source.html":[10,0,0,5,0,14],
-"vkbarrier_8cc.html":[10,0,0,6,5,5,0]
+"visualdebugger_8cc.html":[10,0,0,5,0,13]
 };

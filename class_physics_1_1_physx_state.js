@@ -23,6 +23,7 @@ var class_physics_1_1_physx_state =
     [ "cooking", "class_physics_1_1_physx_state.html#a63c4c8c5102fac6b883a6f5bd0b90ef0", null ],
     [ "deadSceneIds", "class_physics_1_1_physx_state.html#a8861987ee59e27870bcc9597f4247545", null ],
     [ "errorCallback", "class_physics_1_1_physx_state.html#a973031c4cfcf0f3f3c3bafc23b79784c", null ],
+    [ "FallbackMaterial", "class_physics_1_1_physx_state.html#a867d59dd187786006466fcad81e256f6", null ],
     [ "foundation", "class_physics_1_1_physx_state.html#a24d575bbd9de7e55fb675b60e8b023d9", null ],
     [ "materialNameTable", "class_physics_1_1_physx_state.html#a25ba9e4e21ed42ed5fce45e320dcbf14", null ],
     [ "materials", "class_physics_1_1_physx_state.html#adfee4cac461197182be255b3e07c0c6f", null ],

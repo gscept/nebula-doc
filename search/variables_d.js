@@ -123,7 +123,7 @@ var searchData=
   ['max_5fcomponent_5fbuffers_120',['MAX_COMPONENT_BUFFERS',['../struct_game_1_1_dataset.html#a5b0a440b34878ce5f8f05ca87525a0a5',1,'Game::Dataset']]],
   ['max_5fcvars_121',['MAX_CVARS',['../namespace_core.html#a2bb1d40293785cc3adf9a182e59f1318',1,'Core']]],
   ['max_5fexclusive_5fcomponents_122',['MAX_EXCLUSIVE_COMPONENTS',['../struct_game_1_1_filter_builder_1_1_filter_create_info.html#a4f3793e1bc2964f288bee0d85e39674f',1,'Game::FilterBuilder::FilterCreateInfo']]],
-  ['max_5fexponent_123',['max_exponent',['../class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd',1,'Math::half::MAX_EXPONENT'],['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#aefe58f94c5c636f120f5293b291f60b6',1,'std::numeric_limits&lt; Math::half &gt;::max_exponent']]],
+  ['max_5fexponent_123',['max_exponent',['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#aefe58f94c5c636f120f5293b291f60b6',1,'std::numeric_limits&lt; Math::half &gt;::max_exponent'],['../class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd',1,'Math::half::MAX_EXPONENT']]],
   ['max_5fexponent10_124',['max_exponent10',['../class_math_1_1half.html#a2661f2b3fc80b70105a201f2970a3a28',1,'Math::half::MAX_EXPONENT10'],['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#a831fb546345dc542f5d76eb9bd39518f',1,'std::numeric_limits&lt; Math::half &gt;::max_exponent10']]],
   ['max_5fexponent_5fvalue_125',['MAX_EXPONENT_VALUE',['../class_math_1_1half.html#ac956ed975b2bac6482863816d6fab591',1,'Math::half']]],
   ['max_5fnum_5fcategories_126',['MAX_NUM_CATEGORIES',['../namespace_game.html#a22a044ba95689ee39c23bfd5aa643dbb',1,'Game']]],

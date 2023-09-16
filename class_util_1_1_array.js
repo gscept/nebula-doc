@@ -63,6 +63,7 @@ var class_util_1_1_array =
     [ "InsertSorted", "class_util_1_1_array.html#a46575049063fb59312664544e531c5c1", null ],
     [ "IsEmpty", "class_util_1_1_array.html#a0620919138af787fe9131c27fdbabc63", null ],
     [ "IsSorted", "class_util_1_1_array.html#ac7f8909192108e5344602cd8e154d5ea", null ],
+    [ "IsValidIndex", "class_util_1_1_array.html#a78483175ec4ee30701af644ae8f5f615", null ],
     [ "Move", "class_util_1_1_array.html#a681885c627ee6ebd7338a3cece02b11e", null ],
     [ "MoveRange", "class_util_1_1_array.html#a762f8bfbbe79b9a9a4c128ef445faca6", null ],
     [ "operator!=", "class_util_1_1_array.html#aa1c186ed3c71f02278330f011d934d8b", null ],
