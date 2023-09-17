@@ -110,26 +110,21 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4.html">Util::_smallvector&lt; TYPE, 0 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE, PINNED &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array.html">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nebula's dynamic array class.  <a href="class_util_1_1_array.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util_1_1_array_1_1__e.html">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE, PINNED &gt;::_e</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_util" id="r_namespace_util"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_util.html">Util</a></td></tr>
-<tr class="memdesc:namespace_util"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tuple helper functions and typedefs. <br /></td></tr>
+<tr class="memdesc:namespace_util"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pinned array is an array which manages its own virtual memory. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad571ca5aea253bc6fa991004e904308e" id="r_ad571ca5aea253bc6fa991004e904308e"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
-<tr class="memitem:ad571ca5aea253bc6fa991004e904308e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#ad571ca5aea253bc6fa991004e904308e">Util::PinnedArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt; TYPE, 0, true &gt;</td></tr>
-<tr class="separator:ad571ca5aea253bc6fa991004e904308e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adccd75784fc05f9841ec9cf9af0a35da" id="r_adccd75784fc05f9841ec9cf9af0a35da"><td class="memTemplParams" colspan="2">template&lt;class TYPE , int STACK_SIZE&gt; </td></tr>
-<tr class="memitem:adccd75784fc05f9841ec9cf9af0a35da"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#adccd75784fc05f9841ec9cf9af0a35da">Util::StackArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt; TYPE, STACK_SIZE, false &gt;</td></tr>
-<tr class="separator:adccd75784fc05f9841ec9cf9af0a35da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797dfb747ce72427a9e83dff0df1e4a5" id="r_a797dfb747ce72427a9e83dff0df1e4a5"><td class="memTemplParams" colspan="2">template&lt;class TYPE , int STACK_SIZE&gt; </td></tr>
+<tr class="memitem:a797dfb747ce72427a9e83dff0df1e4a5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">Util::StackArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt; TYPE, STACK_SIZE &gt;</td></tr>
+<tr class="separator:a797dfb747ce72427a9e83dff0df1e4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +133,7 @@ Typedefs</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="array_8h.html">array.h</a></li>
 				<li class="footer">
-					Generated on Sat Sep 16 2023 18:13:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Sep 17 2023 07:12:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

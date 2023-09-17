@@ -2,7 +2,6 @@ var hierarchy =
 [
     [ "CoreGraphics::__Mesh", "struct_core_graphics_1_1_____mesh.html", null ],
     [ "Resources::ResourceLoader::_Callbacks", "struct_resources_1_1_resource_loader_1_1___callbacks.html", null ],
-    [ "Util::Array< TYPE, SMALL_VECTOR_SIZE, PINNED >::_e", "struct_util_1_1_array_1_1__e.html", null ],
     [ "Resources::ResourceLoader::_InternalLoadResult", "struct_resources_1_1_resource_loader_1_1___internal_load_result.html", null ],
     [ "Resources::ResourceLoader::_LoadMetaData", "struct_resources_1_1_resource_loader_1_1___load_meta_data.html", null ],
     [ "Resources::ResourceLoader::_PendingResourceLoad", "struct_resources_1_1_resource_loader_1_1___pending_resource_load.html", null ],
@@ -178,6 +177,7 @@ var hierarchy =
     [ "Util::_smallvector< Terrain::PhysicalTileUpdate, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Terrain::TerrainTileUpdateUniforms, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Threading::AtomicCounter *, 0 >", "struct_util_1_1__smallvector.html", null ],
+    [ "Util::_smallvector< Threading::ThreadId, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Timing::Tick, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Timing::Time, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< TYPE, 0 >", "struct_util_1_1__smallvector_3_01_t_y_p_e_00_010_01_4.html", null ],
@@ -368,7 +368,8 @@ var hierarchy =
     [ "Memory::ArenaAllocator< sizeof(Frame::FrameCode) *9 >", "class_memory_1_1_arena_allocator.html", null ],
     [ "Memory::ArenaAllocator< sizeof(Frame::FrameCode)>", "class_memory_1_1_arena_allocator.html", null ],
     [ "Memory::ArenaAllocator< sizeof(Terrain::OccupancyQuadTree::Node) *64 >", "class_memory_1_1_arena_allocator.html", null ],
-    [ "Util::Array< TYPE, SMALL_VECTOR_SIZE, PINNED >", "class_util_1_1_array.html", [
+    [ "Util::Array< TYPE, SMALL_VECTOR_SIZE >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< MAX_ALLOCS, TYPE >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::TrivialArray< TYPE >", "class_util_1_1_trivial_array.html", null ]
     ] ],
     [ "Util::Array< Action >", "class_util_1_1_array.html", null ],
@@ -537,6 +538,7 @@ var hierarchy =
     [ "Util::Array< Terrain::PhysicalTileUpdate >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Terrain::TerrainTileUpdateUniforms >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Threading::AtomicCounter * >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Threading::ThreadId >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Timing::Tick >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Timing::Time >", "class_util_1_1_array.html", null ],
     [ "Util::Array< uint >", "class_util_1_1_array.html", null ],
@@ -684,10 +686,10 @@ var hierarchy =
       [ "Ids::IdAllocator< TYPES >", "class_ids_1_1_id_allocator.html", null ]
     ] ],
     [ "Util::ArrayAllocator< Util::Tuple< UnqualifiedType< TYPES > ... > >", "class_util_1_1_array_allocator.html", null ],
-    [ "Util::ArrayAllocatorSafe< TYPES >", "class_util_1_1_array_allocator_safe.html", null ],
-    [ "Util::ArrayAllocatorSafe< TYPES... >", "class_util_1_1_array_allocator_safe.html", [
-      [ "Ids::IdAllocatorSafe< Physics::ActorInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
-      [ "Ids::IdAllocatorSafe< TYPES >", "class_ids_1_1_id_allocator_safe.html", null ]
+    [ "Util::ArrayAllocatorSafe< MAX_ALLOCS, TYPES >", "class_util_1_1_array_allocator_safe.html", null ],
+    [ "Util::ArrayAllocatorSafe< MAX_ALLOCS, TYPES... >", "class_util_1_1_array_allocator_safe.html", [
+      [ "Ids::IdAllocatorSafe< 0xFFF, Physics::ActorInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
+      [ "Ids::IdAllocatorSafe< MAX_ALLOCS, TYPES >", "class_ids_1_1_id_allocator_safe.html", null ]
     ] ],
     [ "Util::ArrayQueue< TYPE >", "class_util_1_1_array_queue.html", null ],
     [ "Util::ArrayStack< TYPE, STACK_SIZE >", "class_util_1_1_array_stack.html", null ],
@@ -991,8 +993,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
+    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -1154,9 +1156,11 @@ var hierarchy =
     [ "StaticUI::UltralightRenderer::GeometryHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html", null ],
     [ "RenderUtil::GeometryHelpers", "class_render_util_1_1_geometry_helpers.html", null ],
     [ "Util::get_template_type< C >", "struct_util_1_1get__template__type.html", null ],
+    [ "Util::get_template_type< C< I, T > & >", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_6_01_4.html", null ],
+    [ "Util::get_template_type< C< I, T > >", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html", null ],
     [ "Util::get_template_type< C< T > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", null ],
-    [ "Util::get_template_type< C< T, I, B > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_6_01_4.html", null ],
-    [ "Util::get_template_type< C< T, I, B > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_00_01_b_01_4_01_4.html", null ],
+    [ "Util::get_template_type< C< T, I > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4.html", null ],
+    [ "Util::get_template_type< C< T, I > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html", null ],
     [ "Util::get_template_type< const C< T > & >", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", null ],
     [ "GLFWDisplayDevice", "class_open_g_l4_1_1_g_l_f_w_display_device.html", null ],
     [ "GLFWInputDisplayEventHandler", "class_open_g_l4_1_1_g_l_f_w_input_display_event_handler.html", null ],

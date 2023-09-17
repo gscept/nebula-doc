@@ -4,7 +4,7 @@ var searchData=
   ['objectconstantsindex_1',['objectConstantsIndex',['../struct_models_1_1_model_context_1_1_node_instance_state.html#a7c9cf294cc5cbf025907725eb3e273ea',1,'Models::ModelContext::NodeInstanceState']]],
   ['objectids_2',['objectIds',['../class_base_1_1_instance_renderer_base.html#ab8d0b73335b09013f42bf56b0b22d75e',1,'Base::InstanceRendererBase']]],
   ['objectidshadervar_3',['objectIdShaderVar',['../class_base_1_1_shader_server_base.html#ac978e589a564b90d9691237130bc845b',1,'Base::ShaderServerBase']]],
-  ['objects_4',['objects',['../class_util_1_1_array_allocator.html#a7720be9fd4101bdee5fcda46f343d72a',1,'Util::ArrayAllocator::objects'],['../class_util_1_1_array_allocator_safe.html#af0656f1b929b1d6026164fdf6eaa7b4f',1,'Util::ArrayAllocatorSafe::objects']]],
+  ['objects_4',['objects',['../class_util_1_1_array_allocator.html#a7720be9fd4101bdee5fcda46f343d72a',1,'Util::ArrayAllocator::objects'],['../class_util_1_1_array_allocator_safe.html#a9cac7bfbe2cdc99f66bd9c511138c83b',1,'Util::ArrayAllocatorSafe::objects']]],
   ['objptr_5',['objPtr',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#aeca97af3a0126339b897f7ada2838058',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
   ['obs_6',['obs',['../class_visibility_1_1_visibility_system.html#a74b7605a9c9c79c9738c8ae487e250fc',1,'Visibility::VisibilitySystem']]],
   ['observableallocator_7',['observableAllocator',['../class_visibility_1_1_observable_context.html#a76f65bd1fc8f38d10a7cbbdb864026a7',1,'Visibility::ObservableContext']]],
@@ -30,10 +30,10 @@ var searchData=
   ['ondiscardstage_27',['OnDiscardStage',['../struct_graphics_1_1_graphics_context_function_bundle.html#aa6de5839a1581ade1310564e4fd961d0',1,'Graphics::GraphicsContextFunctionBundle']]],
   ['ondiscardview_28',['OnDiscardView',['../struct_graphics_1_1_graphics_context_function_bundle.html#a604b87443461ae3325f00dcfecae2d3c',1,'Graphics::GraphicsContextFunctionBundle']]],
   ['onedivlifetime_29',['oneDivLifeTime',['../struct_particles_1_1_particle.html#a3b4ddbb78541d77d75d4d1e8d86a652c',1,'Particles::Particle']]],
-  ['onendframe_30',['onendframe',['../struct_game_1_1_processor_create_info.html#a4b73927314a00f077cf50711b2618733',1,'Game::ProcessorCreateInfo::OnEndFrame'],['../struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa',1,'Game::ManagerAPI::OnEndFrame']]],
+  ['onendframe_30',['onendframe',['../struct_game_1_1_manager_a_p_i.html#acb0383b4d2cd9178dd8171cd114d47aa',1,'Game::ManagerAPI::OnEndFrame'],['../struct_game_1_1_processor_create_info.html#a4b73927314a00f077cf50711b2618733',1,'Game::ProcessorCreateInfo::OnEndFrame']]],
   ['onendframecallbacks_31',['onEndFrameCallbacks',['../class_game_1_1_world.html#a563d3ee0eea43c3d6651888480072cfc',1,'Game::World']]],
   ['onevent_32',['onEvent',['../class_game_1_1_processor_builder.html#aeffecc377102c1757e77e4cb2e6e73d2',1,'Game::ProcessorBuilder']]],
-  ['onframe_33',['onframe',['../struct_game_1_1_manager_a_p_i.html#a213db586e71375078ac76fe4bdd3fb12',1,'Game::ManagerAPI::OnFrame'],['../struct_game_1_1_processor_create_info.html#a9a648b2bf82ebe9c2d79e7e7c0578818',1,'Game::ProcessorCreateInfo::OnFrame']]],
+  ['onframe_33',['onframe',['../struct_game_1_1_processor_create_info.html#a9a648b2bf82ebe9c2d79e7e7c0578818',1,'Game::ProcessorCreateInfo::OnFrame'],['../struct_game_1_1_manager_a_p_i.html#a213db586e71375078ac76fe4bdd3fb12',1,'Game::ManagerAPI::OnFrame']]],
   ['onframecallbacks_34',['onFrameCallbacks',['../class_game_1_1_world.html#a1ba8907696c61e835bdfc9b51b2d3a46',1,'Game::World']]],
   ['oninstancemoved_35',['OnInstanceMoved',['../struct_graphics_1_1_graphics_context_state.html#a97e768d05f4689a1e3326da9028de013',1,'Graphics::GraphicsContextState']]],
   ['onload_36',['onload',['../struct_game_1_1_manager_a_p_i.html#a9f215d522f8986e00a890a958cd88106',1,'Game::ManagerAPI::OnLoad'],['../struct_game_1_1_processor_create_info.html#aee6f56376e44e856b08817314265efb1',1,'Game::ProcessorCreateInfo::OnLoad']]],
@@ -75,5 +75,6 @@ var searchData=
   ['overlapbuffer_72',['overlapBuffer',['../class_physics_1_1_physx_state.html#a0ff13b047898c06b4907c92ed2be0b47',1,'Physics::PhysxState']]],
   ['overlapped_73',['overlapped',['../struct_i_o_1_1_file_watcher_platform.html#ac3783f48d187e283a815d0a519ac30e8',1,'IO::FileWatcherPlatform']]],
   ['overriderootdirectory_74',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
-  ['ownerid_75',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#ab4045e376f4243ec99c8d5b3d431a720',1,'Game::GameServer::State']]]
+  ['ownerid_75',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#ab4045e376f4243ec99c8d5b3d431a720',1,'Game::GameServer::State']]],
+  ['owners_76',['owners',['../class_util_1_1_array_allocator_safe.html#aebc7c9aec073673e2eac613376ad9256',1,'Util::ArrayAllocatorSafe']]]
 ];

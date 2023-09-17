@@ -30,6 +30,7 @@ var dir_3efd1eb2182038baf5731b057d5f9c3b =
     [ "list.h", "list_8h.html", "list_8h" ],
     [ "localstringatomtable.cc", "localstringatomtable_8cc.html", "localstringatomtable_8cc" ],
     [ "localstringatomtable.h", "localstringatomtable_8h.html", "localstringatomtable_8h" ],
+    [ "pinnedarray.h", "pinnedarray_8h.html", "pinnedarray_8h" ],
     [ "priorityarray.h", "priorityarray_8h.html", "priorityarray_8h" ],
     [ "quadtree.h", "quadtree_8h.html", "quadtree_8h" ],
     [ "queue.h", "queue_8h.html", "queue_8h" ],

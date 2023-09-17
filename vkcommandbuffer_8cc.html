@@ -141,6 +141,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af8eefb56d9573559b0346f7c09a1cde1" id="r_af8eefb56d9573559b0346f7c09a1cde1"><td class="memItemLeft" align="right" valign="top">const VkDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af8eefb56d9573559b0346f7c09a1cde1">Vulkan::CmdBufferGetVkDevice</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> id)</td></tr>
 <tr class="memdesc:af8eefb56d9573559b0346f7c09a1cde1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vk device.  <br /></td></tr>
 <tr class="separator:af8eefb56d9573559b0346f7c09a1cde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ced2c90d4d30ec3247a5b3066cc1c2d" id="r_a2ced2c90d4d30ec3247a5b3066cc1c2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2ced2c90d4d30ec3247a5b3066cc1c2d">CoreGraphics::_IMPL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a>, <a class="el" href="namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60">commandBuffers</a>)</td></tr>
+<tr class="separator:a2ced2c90d4d30ec3247a5b3066cc1c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef7aad75bac475939a94b5d89944d7a" id="r_a7ef7aad75bac475939a94b5d89944d7a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CmdBufferPoolId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7ef7aad75bac475939a94b5d89944d7a">CoreGraphics::CreateCmdBufferPool</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_create_info.html">CmdBufferPoolCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a7ef7aad75bac475939a94b5d89944d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new command buffer pool  <br /></td></tr>
 <tr class="separator:a7ef7aad75bac475939a94b5d89944d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,8 +301,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a11c1a5c952bdb08b3a3745f36ad2bdb0" id="r_a11c1a5c952bdb08b3a3745f36ad2bdb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#ae01db199c45ef900330a7c04873a4578">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a11c1a5c952bdb08b3a3745f36ad2bdb0">Vulkan::commandBuffers</a> (0x00FFFFFF)</td></tr>
-<tr class="separator:a11c1a5c952bdb08b3a3745f36ad2bdb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60">Vulkan::commandBuffers</a></td></tr>
+<tr class="separator:afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6a9172b9a58d5ffdfb9b79a15696fe" id="r_a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a2b6a9172b9a58d5ffdfb9b79a15696fe">Vulkan::commandBufferPools</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cc9677d592393abbbe0f701c0b835d1" id="r_a0cc9677d592393abbbe0f701c0b835d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a0cc9677d592393abbbe0f701c0b835d1">Vulkan::commandBufferCritSect</a></td></tr>
@@ -313,7 +315,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkcommandbuffer_8cc.html">vkcommandbuffer.cc</a></li>
 				<li class="footer">
-					Generated on Sat Sep 16 2023 18:13:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Sep 17 2023 07:12:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

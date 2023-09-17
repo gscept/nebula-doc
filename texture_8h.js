@@ -65,6 +65,8 @@ var texture_8h =
     [ "TextureGetStencilBindlessHandle", "texture_8h.html#a9730a8817680318688ec1ce5b15b767f", null ],
     [ "TextureGetType", "texture_8h.html#afbb09ba5fc0faf8070519d10aaacb50a", null ],
     [ "TextureGetUsage", "texture_8h.html#ac3a68d254443da2bfa9183a064542ceb", null ],
+    [ "TextureIdAcquire", "texture_8h.html#a040bd2aa2f87acae650593afb204a0ad", null ],
+    [ "TextureIdRelease", "texture_8h.html#a5c9f28dcf05b5fba35b4ad5ec2c6ea09", null ],
     [ "TextureSetHighestLod", "texture_8h.html#a79e76a6cde61a664d605f97142f1465f", null ],
     [ "TextureSparseCommitChanges", "texture_8h.html#a1c3c21b6eced661e88a34c362e9d5425", null ],
     [ "TextureSparseEvict", "texture_8h.html#a42953b33a9f1341113d9678071a4bd29", null ],

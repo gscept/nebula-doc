@@ -57,6 +57,5 @@ var searchData=
   ['wraps_54',['wrapS',['../struct_gltf_1_1_sampler.html#a26cfe91d467ba2693862cef49ca92db9',1,'Gltf::Sampler']]],
   ['wrapt_55',['wrapT',['../struct_gltf_1_1_sampler.html#a8d4e480378a3817b69c67d4a278f7e9a',1,'Gltf::Sampler']]],
   ['write_56',['write',['../struct_vulkan_1_1_write_info.html#ae998ad8f4ebc897f7acaa6a67f2c9a60',1,'Vulkan::WriteInfo']]],
-  ['writecounter_57',['writecounter',['../class_posix_1_1_posix_read_write_lock.html#a10cb8f98101db8a2bd2f550c63a506e3',1,'Posix::PosixReadWriteLock::writeCounter'],['../win32readwritelock_8cc.html#ab3b392be0f187e64130a068fcd82fecb',1,'writeCounter:&#160;win32readwritelock.cc']]],
-  ['writer_58',['writer',['../class_util_1_1_array_allocator_safe.html#a3559e4707caddaf3983a99c543cf46d7',1,'Util::ArrayAllocatorSafe']]]
+  ['writecounter_57',['writecounter',['../class_posix_1_1_posix_read_write_lock.html#a10cb8f98101db8a2bd2f550c63a506e3',1,'Posix::PosixReadWriteLock::writeCounter'],['../win32readwritelock_8cc.html#ab3b392be0f187e64130a068fcd82fecb',1,'writeCounter:&#160;win32readwritelock.cc']]]
 ];

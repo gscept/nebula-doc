@@ -148,6 +148,7 @@ while (true)
 <p>This queue implements two linked lists. One for the resident nodes and one for the free nodes. The free nodes and resident nodes follow identical patterns, howeven the resident nodes will attempt to allocate from the free nodes (and assert that it worked) or return a node to the free list.</p>
 <p>TODO: Add support for ABA - make a new type of node which accompanies the node pointer with an integer allowing for knowing if a node has been modified even if it's state looks identical. For example, we might be <a class="el" href="class_threading_1_1_thread.html">Thread</a> A running an Enqueue operation, and in the CompareAndSwap we assume we wont the race because this-&gt;tail is equivalent to oldTail, BUT! What can also happen is that between where we get oldTail and to the CompareAndSwap (CAS) operation, <a class="el" href="class_threading_1_1_thread.html">Thread</a> B comes in and does Enqueue, Dequeue, leaving us in the same state but with changes having happened. If we instead accompany each node with an atomic counter, and increase it for every time we make a modification, we can safetly do the CAS and know for sure if the node has been tampered with or not.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
+<p>Efficiently waits where we can guarantee the acquire/release happens within a short time.</p>
 <p>Use with caution, as this is not a synchronization primitive, the OS won't be able to yield the CPU core to other threads with the same affinity, which may result in groups of cores with narrow affinity masks getting stuck and hung.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2021 Individual contributors, see AUTHORS file</dd>
 <dd>
@@ -365,7 +366,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_threading.html">Threading</a></li>
 				<li class="footer">
-					Generated on Sat Sep 16 2023 18:13:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Sep 17 2023 07:12:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

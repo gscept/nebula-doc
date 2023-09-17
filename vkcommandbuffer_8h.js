@@ -5,7 +5,7 @@ var vkcommandbuffer_8h =
     [ "Vulkan::QueryBundle", "struct_vulkan_1_1_query_bundle.html", "struct_vulkan_1_1_query_bundle" ],
     [ "Vulkan::ViewportBundle", "struct_vulkan_1_1_viewport_bundle.html", "struct_vulkan_1_1_viewport_bundle" ],
     [ "Vulkan::ScissorBundle", "struct_vulkan_1_1_scissor_bundle.html", "struct_vulkan_1_1_scissor_bundle" ],
-    [ "VkCommandBufferAllocator", "vkcommandbuffer_8h.html#ae01db199c45ef900330a7c04873a4578", null ],
+    [ "VkCommandBufferAllocator", "vkcommandbuffer_8h.html#abff0a26e1c5284115833c659be706a18", null ],
     [ "VkCommandBufferPoolAllocator", "vkcommandbuffer_8h.html#a6cf4ca3f529aa960bc3975e645606e01", null ],
     [ "CmdBufferGetVk", "vkcommandbuffer_8h.html#acc288f307b256fc3aae4a9bab70ce8a9", null ],
     [ "CmdBufferGetVkDevice", "vkcommandbuffer_8h.html#af8eefb56d9573559b0346f7c09a1cde1", null ],

@@ -37,6 +37,8 @@ var commandbuffer_8h =
     [ "CmdBeginPass", "commandbuffer_8h.html#a456c22cfedfa4bbb5c601e6fd77b1878", null ],
     [ "CmdBeginRecord", "commandbuffer_8h.html#a7ed8b65eb99a3b1e3c5646c9c06a2319", null ],
     [ "CmdBlit", "commandbuffer_8h.html#a86d1e1793fd5989bd5cd90bd6fa16e32", null ],
+    [ "CmdBufferIdAcquire", "commandbuffer_8h.html#ab4d54a6b2aab8431e26df52a5cd0545e", null ],
+    [ "CmdBufferIdRelease", "commandbuffer_8h.html#a8b22d87d5dd1b0a4bc3f714894a77c79", null ],
     [ "CmdCopy", "commandbuffer_8h.html#a31f4f7ade351f2d7c19227a7883eeb26", null ],
     [ "CmdCopy", "commandbuffer_8h.html#a8f1c57b3e97ec202b349ab59eb0be317", null ],
     [ "CmdCopy", "commandbuffer_8h.html#add7861e221a7260eaa04c1e9576281a6", null ],

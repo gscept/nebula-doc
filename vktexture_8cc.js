@@ -1,5 +1,6 @@
 var vktexture_8cc =
 [
+    [ "_IMPL_ACQUIRE_RELEASE_RESOURCE", "vktexture_8cc.html#ab698b8f5b61af31ac31e3c181b9b7be9", null ],
     [ "CreateTexture", "vktexture_8cc.html#afd701776510676d10ed7784f494fdc98", null ],
     [ "DeleteTexture", "vktexture_8cc.html#a27c5668c8f2f7619b99dec24a36d3fe6", null ],
     [ "DestroyTexture", "vktexture_8cc.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],
@@ -40,8 +41,8 @@ var vktexture_8cc =
     [ "TextureSparseUpdate", "vktexture_8cc.html#ac99809c6722630ed7f23ec192b50a817", null ],
     [ "TextureSwapBuffers", "vktexture_8cc.html#a02f587ae8c1193fe3a46f6abb52b3e09", null ],
     [ "TextureWindowResized", "vktexture_8cc.html#afe3a6ac5bf0f7a13169172eaed3b1b07", null ],
-    [ "textureAllocator", "vktexture_8cc.html#ad4ed79d3c2d1870aab73c86ec385e365", null ],
-    [ "textureSparseExtensionAllocator", "vktexture_8cc.html#ad371cb2325866c6639ec8c669b17665a", null ],
-    [ "textureStencilExtensionAllocator", "vktexture_8cc.html#a45c897d616f49a207905aa9a7a0d6a12", null ],
-    [ "textureSwapExtensionAllocator", "vktexture_8cc.html#a15ed6c16c97ef50b2f7b60487c3076b2", null ]
+    [ "textureAllocator", "vktexture_8cc.html#a19c465c022826df01bb020e63a04c672", null ],
+    [ "textureSparseExtensionAllocator", "vktexture_8cc.html#afc016b35546c68c33624512531c2fe2b", null ],
+    [ "textureStencilExtensionAllocator", "vktexture_8cc.html#a07bb79f4c2ca83994f40c4c2409505ad", null ],
+    [ "textureSwapExtensionAllocator", "vktexture_8cc.html#a7e858a15f9396e97566ed49d88988efe", null ]
 ];

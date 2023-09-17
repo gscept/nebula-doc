@@ -1,5 +1,6 @@
 var vkcommandbuffer_8cc =
 [
+    [ "_IMPL_ACQUIRE_RELEASE", "vkcommandbuffer_8cc.html#a2ced2c90d4d30ec3247a5b3066cc1c2d", null ],
     [ "CmdBarrier", "vkcommandbuffer_8cc.html#a87177b55f14207e7855387c38466858b", null ],
     [ "CmdBarrier", "vkcommandbuffer_8cc.html#aa8cd973e1332020e102154f72371e6b1", null ],
     [ "CmdBeginPass", "vkcommandbuffer_8cc.html#a456c22cfedfa4bbb5c601e6fd77b1878", null ],
@@ -59,5 +60,5 @@ var vkcommandbuffer_8cc =
     [ "DestroyCmdBufferPool", "vkcommandbuffer_8cc.html#af3475d835bb7062d447d9ea4873f776e", null ],
     [ "commandBufferCritSect", "vkcommandbuffer_8cc.html#a0cc9677d592393abbbe0f701c0b835d1", null ],
     [ "commandBufferPools", "vkcommandbuffer_8cc.html#a2b6a9172b9a58d5ffdfb9b79a15696fe", null ],
-    [ "commandBuffers", "vkcommandbuffer_8cc.html#a11c1a5c952bdb08b3a3745f36ad2bdb0", null ]
+    [ "commandBuffers", "vkcommandbuffer_8cc.html#afe3d3ddac1aeb7f44ef2469482cdde60", null ]
 ];

@@ -92,7 +92,8 @@ $(document).ready(function(){initNavTree('idallocator_8h.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">idallocator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -113,7 +114,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator&lt; TYPES &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID allocator associates an id with a slice in an N number of arrays.  <a href="class_ids_1_1_id_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe&lt; TYPES &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe&lt; MAX_ALLOCS, TYPES &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -121,7 +122,135 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_ids" id="r_namespace_ids"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ids.html">Ids</a></td></tr>
 <tr class="memdesc:namespace_ids"><td class="mdescLeft">&#160;</td><td class="mdescRight">This simple <a class="el" href="struct_ids_1_1_id.html" title="This class implements some static helper functions to set high and low 32-bit integers,...">Id</a> pool implements a set of free and used consecutive integers. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3eede833d4c3ddeb47fdb5241b108730" id="r_a3eede833d4c3ddeb47fdb5241b108730"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#a3eede833d4c3ddeb47fdb5241b108730">_DECL_ACQUIRE_RELEASE</a>(ty)</td></tr>
+<tr class="separator:a3eede833d4c3ddeb47fdb5241b108730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b973d32f4fb50a7f7e0a637aad89033" id="r_a4b973d32f4fb50a7f7e0a637aad89033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#a4b973d32f4fb50a7f7e0a637aad89033">_IMPL_ACQUIRE_RELEASE</a>(ty,  allocator)</td></tr>
+<tr class="separator:a4b973d32f4fb50a7f7e0a637aad89033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26058c531ff96f02177a7172ef3680a3" id="r_a26058c531ff96f02177a7172ef3680a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#a26058c531ff96f02177a7172ef3680a3">_IMPL_ACQUIRE_RELEASE_RESOURCE</a>(ty,  allocator)</td></tr>
+<tr class="separator:a26058c531ff96f02177a7172ef3680a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8895a51400c75258bc675e6b30da6b" id="r_ade8895a51400c75258bc675e6b30da6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#ade8895a51400c75258bc675e6b30da6b">_DECLARE_LOCK</a>(name,  allocator)</td></tr>
+<tr class="separator:ade8895a51400c75258bc675e6b30da6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a3eede833d4c3ddeb47fdb5241b108730" name="a3eede833d4c3ddeb47fdb5241b108730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eede833d4c3ddeb47fdb5241b108730">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _DECL_ACQUIRE_RELEASE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ty</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>); \</div>
+<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>);</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ade8895a51400c75258bc675e6b30da6b" name="ade8895a51400c75258bc675e6b30da6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8895a51400c75258bc675e6b30da6b">&#9670;&#160;</a></span>_DECLARE_LOCK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _DECLARE_LOCK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">allocator&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">struct </span>name##Lock \</div>
+<div class="line">    { \</div>
+<div class="line">        name##Lock(name##Id element) : element(element) { allocator.Acquire(this-&gt;element.id24); } \</div>
+<div class="line">        ~name##Lock() { allocator.Release(this-&gt;element.id24); } \</div>
+<div class="line">    <span class="keyword">private</span>: \</div>
+<div class="line">        name##<a class="code hl_typedef" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a> element; \</div>
+<div class="line">    };</div>
+<div class="ttc" id="anamespace_im3d_html_a3527224ef63046767381b01d728efd5a"><div class="ttname"><a href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Im3d::Id</a></div><div class="ttdeci">U32 Id</div><div class="ttdef"><b>Definition</b> im3d.h:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4b973d32f4fb50a7f7e0a637aad89033" name="a4b973d32f4fb50a7f7e0a637aad89033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b973d32f4fb50a7f7e0a637aad89033">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _IMPL_ACQUIRE_RELEASE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ty, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">allocator&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Acquire(<span class="keywordtype">id</span>.id24); } \</div>
+<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.id24); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a26058c531ff96f02177a7172ef3680a3" name="a26058c531ff96f02177a7172ef3680a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26058c531ff96f02177a7172ef3680a3">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE_RESOURCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _IMPL_ACQUIRE_RELEASE_RESOURCE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ty, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">allocator&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Acquire(<span class="keywordtype">id</span>.resourceId); } \</div>
+<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.resourceId); }</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -129,7 +258,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_52640e203a39fe34f872c68b940b4d11.html">ids</a></li><li class="navelem"><a class="el" href="idallocator_8h.html">idallocator.h</a></li>
 				<li class="footer">
-					Generated on Sat Sep 16 2023 18:13:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Sep 17 2023 07:12:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

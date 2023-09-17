@@ -1,5 +1,6 @@
 var vkbuffer_8cc =
 [
+    [ "_IMPL_ACQUIRE_RELEASE", "vkbuffer_8cc.html#a101f4aa1b87ed06db11fbeb34d58ecdf", null ],
     [ "BufferFill", "vkbuffer_8cc.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "vkbuffer_8cc.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "vkbuffer_8cc.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],
@@ -17,5 +18,5 @@ var vkbuffer_8cc =
     [ "BufferUpload", "vkbuffer_8cc.html#a26cd09613a3eaea39325bed85306739a", null ],
     [ "CreateBuffer", "vkbuffer_8cc.html#a4db4487de9d70ebbdb1ed39e752b5309", null ],
     [ "DestroyBuffer", "vkbuffer_8cc.html#ac6e728397762cdbbf468f5f474207357", null ],
-    [ "bufferAllocator", "vkbuffer_8cc.html#aa2c657979146cda1d65f52248bc386dd", null ]
+    [ "bufferAllocator", "vkbuffer_8cc.html#a3d15a80259875b607528737d449b2a87", null ]
 ];

@@ -1,9 +1,7 @@
 var class_ids_1_1_id_allocator_safe =
 [
-    [ "IdAllocatorSafe", "class_ids_1_1_id_allocator_safe.html#a7f3ca119898a55371d08d404e2211fc4", null ],
-    [ "Alloc", "class_ids_1_1_id_allocator_safe.html#aba5ef6e4738ffebe2814db126962fa9d", null ],
-    [ "Dealloc", "class_ids_1_1_id_allocator_safe.html#a4d6106354ab76b84c22c7c18d87b8692", null ],
-    [ "FreeIds", "class_ids_1_1_id_allocator_safe.html#a5a7f66cdcfb530873e422d2a17db37c0", null ],
-    [ "freeIds", "class_ids_1_1_id_allocator_safe.html#aee0ff3a6f22599f988da5bb472742d66", null ],
-    [ "maxId", "class_ids_1_1_id_allocator_safe.html#ad6209a59cd3d4d4eb13b19c335e47076", null ]
+    [ "IdAllocatorSafe", "class_ids_1_1_id_allocator_safe.html#ae63d9fe113ecadbd0ef64560511ed20a", null ],
+    [ "Alloc", "class_ids_1_1_id_allocator_safe.html#aea00bc6782f84d843746e10a7e6bef65", null ],
+    [ "Dealloc", "class_ids_1_1_id_allocator_safe.html#a8c64af031aed2cde33245899987e9729", null ],
+    [ "freeIds", "class_ids_1_1_id_allocator_safe.html#ae79197b022653bd013870486d47fe123", null ]
 ];

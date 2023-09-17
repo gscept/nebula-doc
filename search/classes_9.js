@@ -6,7 +6,7 @@ var searchData=
   ['idallocator_3c_20soloud_3a_3awav_2c_20uint_20_3e_3',['IdAllocator&lt; SoLoud::Wav, uint &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20vulkan_3a_3avkshadercache_3a_3avkreflectioninfo_2c_20vulkan_3a_3avkshadercache_3a_3avkshadersetupinfo_2c_20vulkan_3a_3avkshadercache_3a_3avkshaderruntimeinfo_2c_20ids_3a_3aidallocator_20_3e_4',['IdAllocator&lt; Vulkan::VkShaderCache::VkReflectionInfo, Vulkan::VkShaderCache::VkShaderSetupInfo, Vulkan::VkShaderCache::VkShaderRuntimeInfo, Ids::IdAllocator &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocatorsafe_5',['IdAllocatorSafe',['../class_ids_1_1_id_allocator_safe.html',1,'Ids']]],
-  ['idallocatorsafe_3c_20physics_3a_3aactorinfo_20_3e_6',['IdAllocatorSafe&lt; Physics::ActorInfo &gt;',['../class_ids_1_1_id_allocator_safe.html',1,'Ids']]],
+  ['idallocatorsafe_3c_200xfff_2c_20physics_3a_3aactorinfo_20_3e_6',['IdAllocatorSafe&lt; 0xFFF, Physics::ActorInfo &gt;',['../class_ids_1_1_id_allocator_safe.html',1,'Ids']]],
   ['idgenerationpool_7',['IdGenerationPool',['../class_ids_1_1_id_generation_pool.html',1,'Ids']]],
   ['idpool_8',['IdPool',['../class_ids_1_1_id_pool.html',1,'Ids']]],
   ['im3dcontext_9',['im3dcontext',['../class_im3d_1_1_im3d_context.html',1,'Im3d::Im3dContext'],['../class_im3d_context.html',1,'Im3dContext']]],
