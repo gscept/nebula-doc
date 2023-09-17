@@ -3,6 +3,8 @@ var vkcommandbuffer_8h =
     [ "Vulkan::CommandBufferPools", "struct_vulkan_1_1_command_buffer_pools.html", "struct_vulkan_1_1_command_buffer_pools" ],
     [ "Vulkan::VkPipelineBundle", "struct_vulkan_1_1_vk_pipeline_bundle.html", "struct_vulkan_1_1_vk_pipeline_bundle" ],
     [ "Vulkan::QueryBundle", "struct_vulkan_1_1_query_bundle.html", "struct_vulkan_1_1_query_bundle" ],
+    [ "Vulkan::QueryBundle::QueryChunk", "struct_vulkan_1_1_query_bundle_1_1_query_chunk.html", "struct_vulkan_1_1_query_bundle_1_1_query_chunk" ],
+    [ "Vulkan::QueryBundle::QueryState", "struct_vulkan_1_1_query_bundle_1_1_query_state.html", "struct_vulkan_1_1_query_bundle_1_1_query_state" ],
     [ "Vulkan::ViewportBundle", "struct_vulkan_1_1_viewport_bundle.html", "struct_vulkan_1_1_viewport_bundle" ],
     [ "Vulkan::ScissorBundle", "struct_vulkan_1_1_scissor_bundle.html", "struct_vulkan_1_1_scissor_bundle" ],
     [ "VkCommandBufferAllocator", "vkcommandbuffer_8h.html#abff0a26e1c5284115833c659be706a18", null ],

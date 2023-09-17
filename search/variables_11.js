@@ -6,7 +6,7 @@ var searchData=
   ['query_3',['query',['../class_i_o_1_1_u_r_i.html#a89b1b61ff5b6d1adbbcb031578f4cd6a',1,'IO::URI']]],
   ['querybuffer_4',['queryBuffer',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a27d7acd315d6e95aed15bb068e6dedd3',1,'Vulkan::GraphicsDeviceState::Queries']]],
   ['querycommand_5',['queryCommand',['../class_db_1_1_sqlite3_dataset.html#a2f0073ba83e31acfe7a0b5f5f408d42b',1,'Db::Sqlite3Dataset']]],
-  ['querycount_6',['queryCount',['../struct_vulkan_1_1_query_bundle.html#adaba2fe10b76029e4c9af43d39faa6ed',1,'Vulkan::QueryBundle']]],
+  ['querycount_6',['queryCount',['../struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867',1,'Vulkan::QueryBundle::QueryChunk']]],
   ['queryfreecount_7',['queryFreeCount',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a256b5cad816e4e52005fa722bfb12314',1,'Vulkan::GraphicsDeviceState::Queries']]],
   ['querymaxcount_8',['queryMaxCount',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a8c60d0cc2a33ad8c0f61124230e2510d',1,'Vulkan::GraphicsDeviceState::Queries']]],
   ['querypools_9',['queryPools',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a81b43cd489f55fa3a3d70425745c66ab',1,'Vulkan::GraphicsDeviceState::Queries']]],

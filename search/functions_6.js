@@ -66,7 +66,7 @@ var searchData=
   ['findtableindex_63',['FindTableIndex',['../class_db_1_1_database.html#a501e5f2d50be6886b936b72d59bde245',1,'Db::Database']]],
   ['finish_64',['finish',['../class_ti_xml_string.html#ad9e832712e893daac97756fef7e06adc',1,'TiXmlString']]],
   ['finishframe_65',['FinishFrame',['../namespace_core_graphics.html#a652d13ea6eaace5991d62d8b9524254f',1,'CoreGraphics']]],
-  ['finishqueries_66',['FinishQueries',['../namespace_core_graphics.html#ac13038bc2d9b1a751402ebec4452e75a',1,'CoreGraphics']]],
+  ['finishqueries_66',['FinishQueries',['../namespace_core_graphics.html#a849bf1e32873efb57d6189190336efd4',1,'CoreGraphics']]],
   ['first_67',['first',['../class_ti_xml_attribute_set.html#ab395869e9a029651378b36b6be1724eb',1,'TiXmlAttributeSet::First() const'],['../class_ti_xml_attribute_set.html#a30fc409ad6d27cebbcbfeafa4fc2a24d',1,'TiXmlAttributeSet::First()']]],
   ['firstattribute_68',['firstattribute',['../class_ti_xml_element.html#ad9326f97287828cf533de34fb8e10834',1,'TiXmlElement::FirstAttribute() const'],['../class_ti_xml_element.html#a0153a30eacb8bcb22fc705bf6587aa14',1,'TiXmlElement::FirstAttribute()']]],
   ['firstchartoupper_69',['FirstCharToUpper',['../class_util_1_1_string.html#a13788f635234f466a79afcf7406d4b8b',1,'Util::String']]],

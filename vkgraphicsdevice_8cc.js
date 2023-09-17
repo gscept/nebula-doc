@@ -31,7 +31,7 @@ var vkgraphicsdevice_8cc =
     [ "DelayedFreeMemory", "vkgraphicsdevice_8cc.html#ad0cde60f22ae803f0e981db0e0b29544", null ],
     [ "DestroyGraphicsDevice", "vkgraphicsdevice_8cc.html#aa2984fe71da599f6586fc252a4692ad4", null ],
     [ "FinishFrame", "vkgraphicsdevice_8cc.html#a652d13ea6eaace5991d62d8b9524254f", null ],
-    [ "FinishQueries", "vkgraphicsdevice_8cc.html#ac13038bc2d9b1a751402ebec4452e75a", null ],
+    [ "FinishQueries", "vkgraphicsdevice_8cc.html#a849bf1e32873efb57d6189190336efd4", null ],
     [ "FlushConstants", "vkgraphicsdevice_8cc.html#a50225db4e8f838dd06b698cbb3deb0f9", null ],
     [ "FlushUpload", "vkgraphicsdevice_8cc.html#a3388c975ba1a55c14b7331f6554cf3dd", null ],
     [ "GetBufferedFrameIndex", "vkgraphicsdevice_8cc.html#a662198a2db21f4c73693ac378362e2fa", null ],

@@ -305,12 +305,13 @@ var searchData=
   ['_5fsmallvector_3c_20vkvertexinputattributedescription_2c_200_20_3e_302',['_smallvector&lt; VkVertexInputAttributeDescription, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20void_20_2a_2c_200_20_3e_303',['_smallvector&lt; void *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20void_20_2a_2c_20small_5fvector_5fsize_20_3e_304',['_smallvector&lt; void *, SMALL_VECTOR_SIZE &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkdeferredcommand_2c_200_20_3e_305',['_smallvector&lt; Vulkan::VkDeferredCommand, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkreflectioninfo_3a_3auniformbuffer_2c_200_20_3e_306',['_smallvector&lt; Vulkan::VkReflectionInfo::UniformBuffer, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkreflectioninfo_3a_3avariable_2c_200_20_3e_307',['_smallvector&lt; Vulkan::VkReflectionInfo::Variable, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkshadercache_3a_3avkreflectioninfo_3a_3auniformbuffer_2c_200_20_3e_308',['_smallvector&lt; Vulkan::VkShaderCache::VkReflectionInfo::UniformBuffer, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkshadercache_3a_3avkreflectioninfo_3a_3avariable_2c_200_20_3e_309',['_smallvector&lt; Vulkan::VkShaderCache::VkReflectionInfo::Variable, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avkshaderserver_3a_3a_5fpendingviewdelete_2c_200_20_3e_310',['_smallvector&lt; Vulkan::VkShaderServer::_PendingViewDelete, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avksubcontexthandler_3a_3asparsebindsubmission_2c_200_20_3e_311',['_smallvector&lt; Vulkan::VkSubContextHandler::SparseBindSubmission, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20vulkan_3a_3avksubcontexthandler_3a_3atimelinesubmission_2c_200_20_3e_312',['_smallvector&lt; Vulkan::VkSubContextHandler::TimelineSubmission, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]]
+  ['_5fsmallvector_3c_20vulkan_3a_3aquerybundle_3a_3aquerychunk_2c_200_20_3e_305',['_smallvector&lt; Vulkan::QueryBundle::QueryChunk, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkdeferredcommand_2c_200_20_3e_306',['_smallvector&lt; Vulkan::VkDeferredCommand, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkreflectioninfo_3a_3auniformbuffer_2c_200_20_3e_307',['_smallvector&lt; Vulkan::VkReflectionInfo::UniformBuffer, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkreflectioninfo_3a_3avariable_2c_200_20_3e_308',['_smallvector&lt; Vulkan::VkReflectionInfo::Variable, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkshadercache_3a_3avkreflectioninfo_3a_3auniformbuffer_2c_200_20_3e_309',['_smallvector&lt; Vulkan::VkShaderCache::VkReflectionInfo::UniformBuffer, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkshadercache_3a_3avkreflectioninfo_3a_3avariable_2c_200_20_3e_310',['_smallvector&lt; Vulkan::VkShaderCache::VkReflectionInfo::Variable, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avkshaderserver_3a_3a_5fpendingviewdelete_2c_200_20_3e_311',['_smallvector&lt; Vulkan::VkShaderServer::_PendingViewDelete, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avksubcontexthandler_3a_3asparsebindsubmission_2c_200_20_3e_312',['_smallvector&lt; Vulkan::VkSubContextHandler::SparseBindSubmission, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20vulkan_3a_3avksubcontexthandler_3a_3atimelinesubmission_2c_200_20_3e_313',['_smallvector&lt; Vulkan::VkSubContextHandler::TimelineSubmission, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]]
 ];

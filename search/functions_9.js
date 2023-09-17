@@ -43,7 +43,7 @@ var searchData=
   ['indirectionmoveshrink_40',['IndirectionMoveShrink',['../namespace_terrain.html#a5a5d60162826ad692c4c137f472c82cb',1,'Terrain']]],
   ['indirectionupdate_41',['IndirectionUpdate',['../namespace_terrain.html#aea8c73e066f9af08ebc97272f798ec79',1,'Terrain']]],
   ['infinity_42',['infinity',['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#ab7b222dbea0b69ef284a17b4a72738ae',1,'std::numeric_limits&lt; Math::half &gt;']]],
-  ['init_43',['init',['../class_ti_xml_string.html#a694eacb51c43d8eba8aa7d4552b598ff',1,'TiXmlString::init()'],['../class_flat_1_1_flatbuffer_interface.html#a3aee2e0e98ce593051dad0dc2312485d',1,'Flat::FlatbufferInterface::Init()'],['../class_ti_xml_string.html#ae11cd23e090fd2e7bb62eda05b45a2d6',1,'TiXmlString::init()']]],
+  ['init_43',['init',['../class_flat_1_1_flatbuffer_interface.html#a3aee2e0e98ce593051dad0dc2312485d',1,'Flat::FlatbufferInterface::Init()'],['../class_ti_xml_string.html#ae11cd23e090fd2e7bb62eda05b45a2d6',1,'TiXmlString::init(size_type sz, size_type cap)'],['../class_ti_xml_string.html#a694eacb51c43d8eba8aa7d4552b598ff',1,'TiXmlString::init(size_type sz)']]],
   ['initcreateactorprocessor_44',['InitCreateActorProcessor',['../class_physics_feature_1_1_physics_manager.html#af08943a886dae2180ad34eee6dce9f9b',1,'PhysicsFeature::PhysicsManager']]],
   ['initcreatemodelprocessor_45',['InitCreateModelProcessor',['../class_graphics_feature_1_1_graphics_manager.html#aec0124dfcfa102cb24d26030dc2498bb',1,'GraphicsFeature::GraphicsManager']]],
   ['initialize_46',['Initialize',['../class_physics_1_1_visual_debugger.html#aee9a6349d0913e9d75f338c34ab60040',1,'Physics::VisualDebugger']]],

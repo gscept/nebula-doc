@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"shader_8h.html#aff3c92c476840e5554665e5129fa5fc8":[10,0,0,6,5,64,32],
-"shader_8h_source.html":[10,0,0,6,5,64],
 "shaderconfig_8cc.html":[10,0,0,6,14,5],
 "shaderconfig_8h.html":[10,0,0,6,14,6],
 "shaderconfig_8h_source.html":[10,0,0,6,14,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "skeletonjoint_8h.html":[10,0,0,6,2,6],
 "skeletonjoint_8h_source.html":[10,0,0,6,2,6],
 "skeletonloader_8cc.html":[10,0,0,6,2,7],
-"skeletonloader_8cc.html#a2a839146d649840c333b9a68e8cdf7e5":[10,0,0,6,2,7,0]
+"skeletonloader_8cc.html#a2a839146d649840c333b9a68e8cdf7e5":[10,0,0,6,2,7,0],
+"skeletonloader_8h.html":[10,0,0,6,2,8],
+"skeletonloader_8h_source.html":[10,0,0,6,2,8]
 };
