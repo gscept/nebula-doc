@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('class_core_1_1_rtti.html',''); initRes
 
 <p><code>#include &lt;<a class="el" href="rtti_8h_source.html">rtti.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Nebula's runtime type information for one class. </p>
+<div class="textblock"><p><a class="el" href="namespace_nebula.html">Nebula</a>'s runtime type information for one class. </p>
 <p>Every class derived from <a class="el" href="class_core_1_1_ref_counted.html" title="The common base class of Nebula.">Core::RefCounted</a> should use the macros __DeclareClass and __ImplementClass to properly initialize the runtime type information for the class. This will also automatically register the class with the <a class="el" href="class_core_1_1_factory.html" title="Provides the central object factory mechanism for Nebula.">Core::Factory</a> object to implement object construction from class name string or fourcc code.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 RadonLabs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -128,7 +128,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad95af23495e1c6cd071f0f9e538f2be5" id="r_ad95af23495e1c6cd071f0f9e538f2be5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#ad95af23495e1c6cd071f0f9e538f2be5">operator!=</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> &amp;rhs) const</td></tr>
 <tr class="memdesc:ad95af23495e1c6cd071f0f9e538f2be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">inequality operator  <br /></td></tr>
 <tr class="separator:ad95af23495e1c6cd071f0f9e538f2be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f60ad3a4224f8599de4ccf1beb249e" id="r_a99f60ad3a4224f8599de4ccf1beb249e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a99f60ad3a4224f8599de4ccf1beb249e">GetName</a> () const</td></tr>
+<tr class="memitem:a99f60ad3a4224f8599de4ccf1beb249e" id="r_a99f60ad3a4224f8599de4ccf1beb249e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a99f60ad3a4224f8599de4ccf1beb249e">GetName</a> () const</td></tr>
 <tr class="memdesc:a99f60ad3a4224f8599de4ccf1beb249e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get class name  <br /></td></tr>
 <tr class="separator:a99f60ad3a4224f8599de4ccf1beb249e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18dc51ea1a125aa60669b64d615e9d24" id="r_a18dc51ea1a125aa60669b64d615e9d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a18dc51ea1a125aa60669b64d615e9d24">GetFourCC</a> () const</td></tr>
@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5682af6da6dc246b29da24043007ba9a" id="r_a5682af6da6dc246b29da24043007ba9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a5682af6da6dc246b29da24043007ba9a">IsDerivedFrom</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> &amp;other) const</td></tr>
 <tr class="memdesc:a5682af6da6dc246b29da24043007ba9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if this rtti is equal or derived from to other rtti  <br /></td></tr>
 <tr class="separator:a5682af6da6dc246b29da24043007ba9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef01208be3a91f89c50e862ccf86c90" id="r_a5ef01208be3a91f89c50e862ccf86c90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a5ef01208be3a91f89c50e862ccf86c90">IsDerivedFrom</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;otherClassName) const</td></tr>
+<tr class="memitem:a5ef01208be3a91f89c50e862ccf86c90" id="r_a5ef01208be3a91f89c50e862ccf86c90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a5ef01208be3a91f89c50e862ccf86c90">IsDerivedFrom</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;otherClassName) const</td></tr>
 <tr class="memdesc:a5ef01208be3a91f89c50e862ccf86c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if this rtti is equal or derived from to other rtti, by string  <br /></td></tr>
 <tr class="separator:a5ef01208be3a91f89c50e862ccf86c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be23ddf4fe296ac8de63557b7b2d166" id="r_a9be23ddf4fe296ac8de63557b7b2d166"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a9be23ddf4fe296ac8de63557b7b2d166">IsDerivedFrom</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;otherClassFourCC) const</td></tr>
@@ -173,7 +173,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a999e4ae9e6df49add7973d9a30eaa67d" id="r_a999e4ae9e6df49add7973d9a30eaa67d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a999e4ae9e6df49add7973d9a30eaa67d">name</a></td></tr>
+<tr class="memitem:a999e4ae9e6df49add7973d9a30eaa67d" id="r_a999e4ae9e6df49add7973d9a30eaa67d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#a999e4ae9e6df49add7973d9a30eaa67d">name</a></td></tr>
 <tr class="separator:a999e4ae9e6df49add7973d9a30eaa67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae601c0119812dfd40d3b2ef002e3d07e" id="r_ae601c0119812dfd40d3b2ef002e3d07e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_rtti.html#ae601c0119812dfd40d3b2ef002e3d07e">parent</a></td></tr>
 <tr class="separator:ae601c0119812dfd40d3b2ef002e3d07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -545,7 +545,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp; Core::Rtti::GetName </td>
+          <td class="memname">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp; Core::Rtti::GetName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -638,7 +638,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool Core::Rtti::IsDerivedFrom </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>otherClassName</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -804,7 +804,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Core::Rtti::name</td>
+          <td class="memname"><a class="el" href="struct_util_1_1_string.html">Util::String</a> Core::Rtti::name</td>
         </tr>
       </table>
   </td>
@@ -849,7 +849,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core.html">Core</a></li><li class="navelem"><a class="el" href="class_core_1_1_rtti.html">Rtti</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

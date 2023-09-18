@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('componentinspection_8h_source.html',''
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="delegate_8h.html">util/delegate.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="category_8h.html">category.h</a>&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="stringatom_8h.html">util/stringatom.h</a>&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="entity_8h.html">game/entity.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="application_2game_2entity_8h.html">game/entity.h</a>&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_game.html">Game</a></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
@@ -150,6 +150,7 @@ $(document).ready(function(){initNavTree('componentinspection_8h_source.html',''
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">template</span>&lt;&gt; <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_game.html#a6641483215c75b6ad07eb9b134de1043">ComponentDrawFuncT&lt;Math::mat4&gt;</a>(<a class="code hl_typedef" href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">ComponentId</a>, <span class="keywordtype">void</span>*, <span class="keywordtype">bool</span>*);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>} <span class="comment">// namespace Game</span></div>
+<div class="ttc" id="aapplication_2game_2entity_8h_html"><div class="ttname"><a href="application_2game_2entity_8h.html">entity.h</a></div></div>
 <div class="ttc" id="acategory_8h_html"><div class="ttname"><a href="category_8h.html">category.h</a></div></div>
 <div class="ttc" id="aclass_game_1_1_component_inspection_html"><div class="ttname"><a href="class_game_1_1_component_inspection.html">Game::ComponentInspection</a></div><div class="ttdoc">Property serialization functions.</div><div class="ttdef"><b>Definition</b> componentinspection.h:23</div></div>
 <div class="ttc" id="aclass_game_1_1_component_inspection_html_a03ef42949a0409658aa5f4c4ec824761"><div class="ttname"><a href="class_game_1_1_component_inspection.html#a03ef42949a0409658aa5f4c4ec824761">Game::ComponentInspection::inspectors</a></div><div class="ttdeci">Util::Array&lt; DrawFunc &gt; inspectors</div><div class="ttdef"><b>Definition</b> componentinspection.h:40</div></div>
@@ -163,7 +164,6 @@ $(document).ready(function(){initNavTree('componentinspection_8h_source.html',''
 <div class="ttc" id="aclass_game_1_1_component_inspection_html_aea6c16ca5e65d92d94b81e9d36c36cce"><div class="ttname"><a href="class_game_1_1_component_inspection.html#aea6c16ca5e65d92d94b81e9d36c36cce">Game::ComponentInspection::Instance</a></div><div class="ttdeci">static ComponentInspection * Instance()</div><div class="ttdoc">The registry's constructor is called by the Instance() method, and nobody else.</div><div class="ttdef"><b>Definition</b> componentinspection.cc:25</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
 <div class="ttc" id="adelegate_8h_html"><div class="ttname"><a href="delegate_8h.html">delegate.h</a></div></div>
-<div class="ttc" id="aentity_8h_html"><div class="ttname"><a href="entity_8h.html">entity.h</a></div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition</b> blueprintmanager.cc:14</div></div>
 <div class="ttc" id="anamespace_game_html_a1ae77b966fd81f0b304de0d9bb6f0ce4"><div class="ttname"><a href="namespace_game.html#a1ae77b966fd81f0b304de0d9bb6f0ce4">Game::ComponentId</a></div><div class="ttdeci">MemDb::ComponentId ComponentId</div><div class="ttdef"><b>Definition</b> component.h:13</div></div>
 <div class="ttc" id="anamespace_game_html_a49f986829aeb2a1b43fb1afa3ea24cfb"><div class="ttname"><a href="namespace_game.html#a49f986829aeb2a1b43fb1afa3ea24cfb">Game::ComponentDrawFuncT</a></div><div class="ttdeci">void ComponentDrawFuncT(ComponentId, void *, bool *)</div><div class="ttdef"><b>Definition</b> componentinspection.h:48</div></div>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('componentinspection_8h_source.html',''
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="componentinspection_8h.html">componentinspection.h</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

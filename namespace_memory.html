@@ -125,7 +125,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_size_classification_allocator.html">SizeClassificationAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_total_memory_status.html">TotalMemoryStatus</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system's total current memory, this does not only include Nebula's memory allocations but the memory usage of the entire system.  <a href="struct_memory_1_1_total_memory_status.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system's total current memory, this does not only include <a class="el" href="namespace_nebula.html">Nebula</a>'s memory allocations but the memory usage of the entire system.  <a href="struct_memory_1_1_total_memory_status.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -164,7 +164,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c">RocketHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 , <br />
@@ -180,8 +180,10 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a876b4d169c56fbc6a73614d357a46a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap types are defined here.  <a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">More...</a><br /></td></tr>
@@ -213,7 +215,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c">RocketHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 , <br />
@@ -229,8 +231,10 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a876b4d169c56fbc6a73614d357a46a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap types are defined here.  <a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">More...</a><br /></td></tr>
@@ -262,7 +266,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c">RocketHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 , <br />
@@ -278,8 +282,10 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d">AppHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f">NetworkHeap</a>
+, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074">ScriptingHeap</a>
 , <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a">NumHeapTypes</a>
-, <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a876b4d169c56fbc6a73614d357a46a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap types are defined here.  <a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">More...</a><br /></td></tr>
@@ -472,7 +478,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c" name="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c"></a>RocketHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577" name="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577"></a>DefaultHeap&#160;</td><td class="fielddoc"></td></tr>
@@ -485,6 +491,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -527,7 +534,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c" name="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c"></a>RocketHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577" name="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577"></a>DefaultHeap&#160;</td><td class="fielddoc"></td></tr>
@@ -540,6 +547,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -582,7 +590,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c" name="a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c"></a>RocketHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577" name="a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577"></a>DefaultHeap&#160;</td><td class="fielddoc"></td></tr>
@@ -595,6 +603,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede" name="a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede"></a>PhysicsHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d" name="a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d"></a>AppHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f" name="a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f"></a>NetworkHeap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074" name="a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074"></a>ScriptingHeap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a" name="a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a"></a>NumHeapTypes&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778" name="a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778"></a>InvalidHeapType&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -1561,7 +1570,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Setup the global heaps. </p>
-<p>This method is called once at application startup from Core::SysFunc::Setup() to setup the various Nebula heaps.</p>
+<p>This method is called once at application startup from Core::SysFunc::Setup() to setup the various <a class="el" href="namespace_nebula.html">Nebula</a> heaps.</p>
 <p>This method is called by SysFunc::Setup() to setup the different heap types.</p>
 <p>This method can be tuned to define the start size of the heaps and whether the heap may grow or not (non-growing heaps may be especially useful on console platforms without memory paging). </p>
 
@@ -1740,7 +1749,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

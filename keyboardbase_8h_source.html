@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('keyboardbase_8h_source.html',''); init
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_base_1_1_keyboard_base.html#ad39e1322e757c2b859b95a4fec4f8f9f">KeyPressed</a>(<a class="code hl_enumeration" href="class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18">Input::Key::Code</a> keyCode) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_base_1_1_keyboard_base.html#a58e6c1d1a7cae6cc1e5a1b3712fa9e7d">KeyDown</a>(<a class="code hl_enumeration" href="class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18">Input::Key::Code</a> keyCode) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_base_1_1_keyboard_base.html#a4b454e55cd6ee7468589a65e847075a9">KeyUp</a>(<a class="code hl_enumeration" href="class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18">Input::Key::Code</a> keyCode) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a>&amp; <a class="code hl_function" href="class_base_1_1_keyboard_base.html#abd4f5702c980adbfd20286f0b7ebb210">GetCharInput</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">const</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a>&amp; <a class="code hl_function" href="class_base_1_1_keyboard_base.html#abd4f5702c980adbfd20286f0b7ebb210">GetCharInput</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_base_1_1_keyboard_base.html#a09a19eb98d5510464897dddbbd6b522c">OnAttach</a>();</div>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('keyboardbase_8h_source.html',''); init
 </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="class_base_1_1_keyboard_base.html#a9cff956de123606907d3e9cfc43e52d1">   72</a></span>    <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;KeyState&gt;</a> <a class="code hl_variable" href="class_base_1_1_keyboard_base.html#a9cff956de123606907d3e9cfc43e52d1">keyStates</a>;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_base_1_1_keyboard_base.html#a372bd15a6c39d647ba9878a2aa8a9b77">   73</a></span>    <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;KeyState&gt;</a> <a class="code hl_variable" href="class_base_1_1_keyboard_base.html#a372bd15a6c39d647ba9878a2aa8a9b77">nextKeyStates</a>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="class_base_1_1_keyboard_base.html#abcd3ace07033cd5fb555c979d79c09f2">   74</a></span>    <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a> <a class="code hl_variable" href="class_base_1_1_keyboard_base.html#abcd3ace07033cd5fb555c979d79c09f2">charInput</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="class_base_1_1_keyboard_base.html#abcd3ace07033cd5fb555c979d79c09f2">   74</a></span>    <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a> <a class="code hl_variable" href="class_base_1_1_keyboard_base.html#abcd3ace07033cd5fb555c979d79c09f2">charInput</a>;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
 </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('keyboardbase_8h_source.html',''); init
 </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a>&amp;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a>&amp;</div>
 <div class="foldopen" id="foldopen00131" data-start="{" data-end="}">
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="class_base_1_1_keyboard_base.html#abd4f5702c980adbfd20286f0b7ebb210">  131</a></span><a class="code hl_function" href="class_base_1_1_keyboard_base.html#abd4f5702c980adbfd20286f0b7ebb210">KeyboardBase::GetCharInput</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="keyword"></span>{</div>
@@ -244,10 +244,10 @@ $(document).ready(function(){initNavTree('keyboardbase_8h_source.html',''); init
 <div class="ttc" id="aclass_input_1_1_input_handler_html"><div class="ttname"><a href="class_input_1_1_input_handler.html">Input::InputHandler</a></div><div class="ttdoc">Input handlers receive and process input events.</div><div class="ttdef"><b>Definition</b> inputhandler.h:29</div></div>
 <div class="ttc" id="aclass_input_1_1_key_html_a5d63b7cb4e8f8305039e218c08e06c18"><div class="ttname"><a href="class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18">Input::Key::Code</a></div><div class="ttdeci">Code</div><div class="ttdoc">key codes</div><div class="ttdef"><b>Definition</b> key.h:25</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition</b> fixedarray.h:20</div></div>
-<div class="ttc" id="aclass_util_1_1_string_html"><div class="ttname"><a href="class_util_1_1_string.html">Util::String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> string.h:48</div></div>
 <div class="ttc" id="ainputhandler_8h_html"><div class="ttname"><a href="inputhandler_8h.html">inputhandler.h</a></div></div>
 <div class="ttc" id="akey_8h_html"><div class="ttname"><a href="key_8h.html">key.h</a></div></div>
 <div class="ttc" id="anamespace_base_html"><div class="ttname"><a href="namespace_base.html">Base</a></div><div class="ttdef"><b>Definition</b> entity.cc:9</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -255,7 +255,7 @@ $(document).ready(function(){initNavTree('keyboardbase_8h_source.html',''); init
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_343e18e6636bbbe0205c0acdcfb8715c.html">input</a></li><li class="navelem"><a class="el" href="dir_8c17e5012ff7cefd01049dc28c71acd2.html">input</a></li><li class="navelem"><a class="el" href="dir_371146b49340f84d3d4c34570bc793e8.html">base</a></li><li class="navelem"><a class="el" href="keyboardbase_8h.html">keyboardbase.h</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

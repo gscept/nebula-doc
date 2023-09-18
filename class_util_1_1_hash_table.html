@@ -108,7 +108,7 @@ class Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;</div><
 <p>The default capacity is 128. Matching the capacity against the number of expected elements in the hash table is one key to get optimal insertion and search times, the other is to provide a good (and fast) hash code computation which produces as few collissions as possible for the key type.</p>
 <p>The key class must implement the following method in order to work with the <a class="el" href="class_util_1_1_hash_table.html" title="Organizes key/value pairs by a hash code.">HashTable</a>: <br  />
  uint32_t HashCode() const;</p>
-<p>The <a class="el" href="class_util_1_1_string.html" title="Nebula&#39;s universal string class.">Util::String</a> class implements this method as an example. Internally the hash table is implemented as a fixed array of sorted arrays. The fixed array is indexed by the hash code of the key, the sorted arrays contain all values with identical keys.</p>
+<p>The <a class="el" href="struct_util_1_1_string.html" title="Nebula&#39;s universal string class.">Util::String</a> class implements this method as an example. Internally the hash table is implemented as a fixed array of sorted arrays. The fixed array is indexed by the hash code of the key, the sorted arrays contain all values with identical keys.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -187,13 +187,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a553c24ed85c48c817624bc65cdcb8110" id="r_a553c24ed85c48c817624bc65cdcb8110"><td class="memItemLeft" align="right" valign="top">VALUETYPE &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a553c24ed85c48c817624bc65cdcb8110">ValueAtIndex</a> (const KEYTYPE &amp;key, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i) const</td></tr>
 <tr class="memdesc:a553c24ed85c48c817624bc65cdcb8110"><td class="mdescLeft">&#160;</td><td class="mdescRight">get value from key and bucket  <br /></td></tr>
 <tr class="separator:a553c24ed85c48c817624bc65cdcb8110"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0664edef32235a11954b0b044829925f" id="r_a0664edef32235a11954b0b044829925f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a0664edef32235a11954b0b044829925f">Content</a> () const</td></tr>
+<tr class="memitem:a0664edef32235a11954b0b044829925f" id="r_a0664edef32235a11954b0b044829925f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a0664edef32235a11954b0b044829925f">Content</a> () const</td></tr>
 <tr class="memdesc:a0664edef32235a11954b0b044829925f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return array of all key/value pairs in the table (slow)  <br /></td></tr>
 <tr class="separator:a0664edef32235a11954b0b044829925f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a879e1b1762c13643667599aef158fe" id="r_a5a879e1b1762c13643667599aef158fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; KEYTYPE, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a5a879e1b1762c13643667599aef158fe">KeysAsArray</a> () const</td></tr>
+<tr class="memitem:a5a879e1b1762c13643667599aef158fe" id="r_a5a879e1b1762c13643667599aef158fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; KEYTYPE, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a5a879e1b1762c13643667599aef158fe">KeysAsArray</a> () const</td></tr>
 <tr class="memdesc:a5a879e1b1762c13643667599aef158fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all keys as an <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> (slow)  <br /></td></tr>
 <tr class="separator:a5a879e1b1762c13643667599aef158fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5bb90036ebd6d9f2170c5960e494aa" id="r_aba5bb90036ebd6d9f2170c5960e494aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; VALUETYPE, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#aba5bb90036ebd6d9f2170c5960e494aa">ValuesAsArray</a> () const</td></tr>
+<tr class="memitem:aba5bb90036ebd6d9f2170c5960e494aa" id="r_aba5bb90036ebd6d9f2170c5960e494aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; VALUETYPE, STACK_SIZE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#aba5bb90036ebd6d9f2170c5960e494aa">ValuesAsArray</a> () const</td></tr>
 <tr class="memdesc:aba5bb90036ebd6d9f2170c5960e494aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all keys as an <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> (slow)  <br /></td></tr>
 <tr class="separator:aba5bb90036ebd6d9f2170c5960e494aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fc52d85bb47a4191608defc3705fa7" id="r_ac6fc52d85bb47a4191608defc3705fa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table_1_1_iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#ac6fc52d85bb47a4191608defc3705fa7">Begin</a> ()</td></tr>
@@ -220,7 +220,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae561ec729167ec192ba44e6f5ee97145" id="r_ae561ec729167ec192ba44e6f5ee97145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">FixedArray</a>&lt; <a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#ae561ec729167ec192ba44e6f5ee97145">hashArray</a></td></tr>
+<tr class="memitem:ae561ec729167ec192ba44e6f5ee97145" id="r_ae561ec729167ec192ba44e6f5ee97145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">FixedArray</a>&lt; <a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#ae561ec729167ec192ba44e6f5ee97145">hashArray</a></td></tr>
 <tr class="separator:ae561ec729167ec192ba44e6f5ee97145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a937f3e527459af2493b54eeee94f4c" id="r_a5a937f3e527459af2493b54eeee94f4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_hash_table.html#a5a937f3e527459af2493b54eeee94f4c">size</a></td></tr>
 <tr class="separator:a5a937f3e527459af2493b54eeee94f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -465,7 +465,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt;
 template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::Content </td>
+          <td class="memname"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt;, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::Content </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -772,7 +772,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt;
 template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; KEYTYPE, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::KeysAsArray </td>
+          <td class="memname"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; KEYTYPE, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::KeysAsArray </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -955,7 +955,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt;
 template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE, int STACK_SIZE&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt; VALUETYPE, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::ValuesAsArray </td>
+          <td class="memname"><a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt; VALUETYPE, STACK_SIZE &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::ValuesAsArray </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1004,7 +1004,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE = 128, int STACK_SI
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">FixedArray</a>&lt;<a class="el" href="namespace_util.html#a797dfb747ce72427a9e83dff0df1e4a5">StackArray</a>&lt;<a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt;KEYTYPE, VALUETYPE&gt;, STACK_SIZE&gt; &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::hashArray</td>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">FixedArray</a>&lt;<a class="el" href="namespace_util.html#abe10d62bb137c8884405aa627692302f">StackArray</a>&lt;<a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt;KEYTYPE, VALUETYPE&gt;, STACK_SIZE&gt; &gt; <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::hashArray</td>
         </tr>
       </table>
   </td>
@@ -1074,7 +1074,7 @@ template&lt;class KEYTYPE , class VALUETYPE , int TABLE_SIZE = 128, int STACK_SI
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_hash_table.html">HashTable</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('_nebula_application.html',''); initRes
 <div class="textblock"><p>The nebula application layer provides high level application utilities, such as gameplay systems.</p>
 <h1><a class="anchor" id="NebulaApplicationGameSystem"></a>
 Game system</h1>
-<p>Nebula uses a database oriented approach to storing game entities and their respective properties.</p>
+<p><a class="el" href="namespace_nebula.html">Nebula</a> uses a database oriented approach to storing game entities and their respective properties.</p>
 <p>The entity system currently consists of a couple of databases, the most important one being the world database. <br  />
 The world database contains all entity data for active entities. <br  />
 Properties are what define the entities' data. When an entity is created with a unique combination of properties, a new table will be created in the world database. These tables are referred to as entity "Categories". <br  />
@@ -154,7 +154,7 @@ Lets take an example: <br  />
 <h2><a class="anchor" id="NebulaApplicationGameSystemProperties"></a>
 Properties</h2>
 <p>Properties are the main way to describe an entity's state. <br  />
-Properties are usually declared and defined via .nidl files (Nebula intermediate definition language) and compiled into C++ code via an IDL compiler. <br  />
+Properties are usually declared and defined via .nidl files (<a class="el" href="namespace_nebula.html">Nebula</a> intermediate definition language) and compiled into C++ code via an IDL compiler. <br  />
 All properties must be <a href="http://www.cplusplus.com/reference/type_traits/is_trivially_destructible/">trivially destructible</a> and <a href="http://www.cplusplus.com/reference/type_traits/is_trivially_copyable/">trivially copyable</a>. Note that it can still define a constructor or have initilizers in the declaration. The NIDL specification can be found here: <a class="el" href="_nebula_i_d_l.html">Nebula IDL</a> <br  />
  Properties can also be created explicitly via the <a class="el" href="api_8h.html">Game API's</a> CreateProperty function or the <a class="el" href="class_mem_db_1_1_type_registry.html#a50dc59f67f6f4e9bdfb3ebcbb785cc47" title="register a type (templated)">MemDb::TypeRegistry::Register</a> (typesafe) function. When explicitly creating a property, you can choose to flag the property with various flags. These flags can for example alter the lifetime of the property, allowing certain managers to clean up external resources before an entity is fully destroyed.</p>
 <dl class="section see"><dt>See also</dt><dd>Game::PropertyCreateInfo </dd>
@@ -168,7 +168,7 @@ Game Managers</h2>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_game_1_1_manager_a_p_i.html" title="A Manager is just a bundle of function pointers to static or global functions that is called by the G...">Game::ManagerAPI</a></dd></dl>
 <h2><a class="anchor" id="NebulaApplicationBaseGameFeature"></a>
 Base Game Feature</h2>
-<p>The <a class="el" href="namespace_base_game_feature.html">BaseGameFeature</a> is integral to the Nebula entity system and sets up the entity, <a class="el" href="class_game_1_1_blueprint_manager.html">blueprint</a> and <a class="el" href="namespace_game_1_1_time_manager.html">time</a> managers. These managers supply the runtime with the core management needed for the entity system, and this feature should most likely always be attached to the <a class="el" href="class_game_1_1_game_server.html">game server</a> upon application startup.</p>
+<p>The <a class="el" href="namespace_base_game_feature.html">BaseGameFeature</a> is integral to the <a class="el" href="namespace_nebula.html">Nebula</a> entity system and sets up the entity, <a class="el" href="class_game_1_1_blueprint_manager.html">blueprint</a> and <a class="el" href="namespace_game_1_1_time_manager.html">time</a> managers. These managers supply the runtime with the core management needed for the entity system, and this feature should most likely always be attached to the <a class="el" href="class_game_1_1_game_server.html">game server</a> upon application startup.</p>
 <h2><a class="anchor" id="NebulaApplicationGraphicsFeature"></a>
 Graphics Feature</h2>
 <p>The <a class="el" href="namespace_graphics_feature.html">GraphicsFeature</a> automatically sets up the core rendering subsystem and initializes tons of boilerplate so that you won't have to. The feature also creates a number of useful properties and managers that allow you to easily render models, animations, particles etc.</p>
@@ -188,7 +188,7 @@ See also</h2>
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

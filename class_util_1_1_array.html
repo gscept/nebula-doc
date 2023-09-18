@@ -104,10 +104,10 @@ $(document).ready(function(){initNavTree('class_util_1_1_array.html',''); initRe
 <p><code>#include &lt;<a class="el" href="array_8h_source.html">array.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class TYPE, int SMALL_VECTOR_SIZE = 0&gt;<br />
-class Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</div><p>Nebula's dynamic array class. </p>
+class Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</div><p><a class="el" href="namespace_nebula.html">Nebula</a>'s dynamic array class. </p>
 <p>This class is also used by most other collection classes.</p>
 <p>The default constructor will not pre-allocate elements, so no space is wasted as long as no elements are added. As soon as the first element is added to the array, an initial buffer of 16 elements is created. Whenever the element buffer would overflow, a new buffer of twice the size of the previous buffer is created and the existing elements are then copied over to the new buffer. The element buffer will never shrink, the only way to reclaim unused memory is to copy the <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Array</a> to a new <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Array</a> object. This is usually not a problem since most arrays will oscillate around some specific size, so once the array has reached this specific size, no costly memory free or allocs will be performed.</p>
-<p>It is possible to sort the array using the <a class="el" href="class_util_1_1_array.html#a5c62ac9a1c35fb2f37670c8599f087dd" title="sort the array">Sort()</a> method, this uses std::sort (one of the very few exceptions where the STL is used in Nebula).</p>
+<p>It is possible to sort the array using the <a class="el" href="class_util_1_1_array.html#a5c62ac9a1c35fb2f37670c8599f087dd" title="sort the array">Sort()</a> method, this uses std::sort (one of the very few exceptions where the STL is used in <a class="el" href="namespace_nebula.html">Nebula</a>).</p>
 <p>One should generally be careful with costly copy operators, the <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Array</a> class (and the other container classes using <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Array</a>) may do some heavy element shuffling in some situations (especially when sorting and erasing elements).</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 RadonLabs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div>
@@ -2764,7 +2764,7 @@ template&lt;class TYPE , int SMALL_VECTOR_SIZE = 0&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array.html">Array</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

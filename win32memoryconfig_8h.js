@@ -22,7 +22,7 @@ var win32memoryconfig_8h =
       [ "PhysicsHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede", null ],
       [ "AppHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d", null ],
       [ "NetworkHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f", null ],
-      [ "RocketHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56af06c80334f3f8c534eda8ec358c6a68c", null ],
+      [ "ScriptingHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074", null ],
       [ "NumHeapTypes", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a", null ],
       [ "InvalidHeapType", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778", null ],
       [ "DefaultHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577", null ],
@@ -35,6 +35,7 @@ var win32memoryconfig_8h =
       [ "PhysicsHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede", null ],
       [ "AppHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d", null ],
       [ "NetworkHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f", null ],
+      [ "ScriptingHeap", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074", null ],
       [ "NumHeapTypes", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a", null ],
       [ "InvalidHeapType", "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778", null ]
     ] ],

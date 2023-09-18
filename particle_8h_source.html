@@ -101,8 +101,8 @@ $(document).ready(function(){initNavTree('particle_8h_source.html',''); initResi
 <a href="particle_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="vec4_8h.html">math/vec4.h</a>&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="mat4_8h.html">math/mat4.h</a>&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="bbox_8h.html">math/bbox.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2math_2mat4_8h.html">math/mat4.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2math_2bbox_8h.html">math/bbox.h</a>&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="emitterattrs_8h.html">particles/emitterattrs.h</a>&quot;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="interlocked_8h.html">threading/interlocked.h</a>&quot;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2threading_2event_8h.html">threading/event.h</a>&quot;</span></div>
@@ -187,13 +187,13 @@ $(document).ready(function(){initNavTree('particle_8h_source.html',''); initResi
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>} <span class="comment">// namespace Particles</span></div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="ttc" id="abbox_8h_html"><div class="ttname"><a href="bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="aclass_math_1_1bbox_html"><div class="ttname"><a href="class_math_1_1bbox.html">Math::bbox</a></div><div class="ttdoc">Nebula's bounding box class.</div><div class="ttdef"><b>Definition</b> bbox.h:23</div></div>
 <div class="ttc" id="aemitterattrs_8h_html"><div class="ttname"><a href="emitterattrs_8h.html">emitterattrs.h</a></div></div>
 <div class="ttc" id="afoundation_2core_2config_8h_html_a0a2715aa3fccba315d60d8252f5d03ed"><div class="ttname"><a href="foundation_2core_2config_8h.html#a0a2715aa3fccba315d60d8252f5d03ed">JobMaxSliceSize</a></div><div class="ttdeci">static const int JobMaxSliceSize</div><div class="ttdoc">Nebula configuration.</div><div class="ttdef"><b>Definition</b> config.h:39</div></div>
+<div class="ttc" id="afoundation_2math_2bbox_8h_html"><div class="ttname"><a href="foundation_2math_2bbox_8h.html">bbox.h</a></div></div>
+<div class="ttc" id="afoundation_2math_2mat4_8h_html"><div class="ttname"><a href="foundation_2math_2mat4_8h.html">mat4.h</a></div></div>
 <div class="ttc" id="afoundation_2threading_2event_8h_html"><div class="ttname"><a href="foundation_2threading_2event_8h.html">event.h</a></div></div>
 <div class="ttc" id="ainterlocked_8h_html"><div class="ttname"><a href="interlocked_8h.html">interlocked.h</a></div></div>
-<div class="ttc" id="amat4_8h_html"><div class="ttname"><a href="mat4_8h.html">mat4.h</a></div></div>
 <div class="ttc" id="anamespace_particles_html"><div class="ttname"><a href="namespace_particles.html">Particles</a></div><div class="ttdoc">Particle context controls playing and enabling/disabling of particle emitters inside a model.</div><div class="ttdef"><b>Definition</b> modelnode.h:37</div></div>
 <div class="ttc" id="anamespace_particles_html_a374692d43bfc5f8fbda6cedb68e21583"><div class="ttname"><a href="namespace_particles.html#a374692d43bfc5f8fbda6cedb68e21583">Particles::ParticleSystemNumEnvelopeSamples</a></div><div class="ttdeci">static const SizeT ParticleSystemNumEnvelopeSamples</div><div class="ttdoc">number of samples in envelope curves</div><div class="ttdef"><b>Definition</b> particle.h:27</div></div>
 <div class="ttc" id="anamespace_particles_html_a5d2d33e6de7e0c3ee9105f365fdbb297"><div class="ttname"><a href="namespace_particles.html#a5d2d33e6de7e0c3ee9105f365fdbb297">Particles::ParticleJobInputMaxElementsPerSlice</a></div><div class="ttdeci">static const SizeT ParticleJobInputMaxElementsPerSlice</div><div class="ttdef"><b>Definition</b> particle.h:89</div></div>
@@ -245,7 +245,7 @@ $(document).ready(function(){initNavTree('particle_8h_source.html',''); initResi
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_6a45671fc6fac75fb76a42ab672583e8.html">particles</a></li><li class="navelem"><a class="el" href="particle_8h.html">particle.h</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

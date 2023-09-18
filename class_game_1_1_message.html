@@ -110,7 +110,7 @@ class Game::Message&lt; MSG, TYPES &gt;</div><dl class="deprecated"><dt><b><a cl
 <p>Messages are the main communications channel between entities.</p>
 <p>Messages aren't exclusive to entities however; any method or function can be used as a callback from a message which means you can hook into a message from anywhere. This can be useful for debugging, tools, managers etc.</p>
 <p>A property can register a message callback by using the __RegisterMsg macro.</p>
-<p>Messages should be generated using Nebula's IDLC. If that's not preferred, you can implement a message by deriving from the <a class="el" href="class_game_1_1_message.html">Game::Message</a> class and overriding the GetName, GetFourCC, Send and Defer methods. This class uses curiously recurring template patterns and you need to provide the template with the subclass as the first template argument. The rest of the template arguments are the callbacks parameters.</p>
+<p>Messages should be generated using <a class="el" href="namespace_nebula.html">Nebula</a>'s IDLC. If that's not preferred, you can implement a message by deriving from the <a class="el" href="class_game_1_1_message.html">Game::Message</a> class and overriding the GetName, GetFourCC, Send and Defer methods. This class uses curiously recurring template patterns and you need to provide the template with the subclass as the first template argument. The rest of the template arguments are the callbacks parameters.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -123,7 +123,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a3989224e57a584a6418707988955508f" id="r_a3989224e57a584a6418707988955508f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_message.html#a3989224e57a584a6418707988955508f">Delegate</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt; void(TYPES...)&gt;</td></tr>
 <tr class="memdesc:a3989224e57a584a6418707988955508f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for this message's delegate.  <br /></td></tr>
 <tr class="separator:a3989224e57a584a6418707988955508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ee81fe48984dbaabe1eaeee3380fe3" id="r_ad3ee81fe48984dbaabe1eaeee3380fe3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_message.html#ad3ee81fe48984dbaabe1eaeee3380fe3">MessageQueue</a> = typename <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; <a class="el" href="namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a">Util::Tuple</a>&lt; <a class="el" href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a>&lt; TYPES &gt; ... &gt; &gt;</td></tr>
+<tr class="memitem:ad3ee81fe48984dbaabe1eaeee3380fe3" id="r_ad3ee81fe48984dbaabe1eaeee3380fe3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_message.html#ad3ee81fe48984dbaabe1eaeee3380fe3">MessageQueue</a> = typename <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; <a class="el" href="namespace_util.html#acf16ecb3103df544a28698a82e758642">Util::Tuple</a>&lt; <a class="el" href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a>&lt; TYPES &gt; ... &gt; &gt;</td></tr>
 <tr class="memdesc:ad3ee81fe48984dbaabe1eaeee3380fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for this message's queues.  <br /></td></tr>
 <tr class="separator:ad3ee81fe48984dbaabe1eaeee3380fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -244,7 +244,7 @@ template&lt;class <a class="el" href="class_game_1_1_message.html#ab32b7d3194d07
 template&lt;class <a class="el" href="class_game_1_1_message.html#ab32b7d3194d076985e067daa843fa267">MSG</a> , class ... TYPES&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_game_1_1_message.html">Game::Message</a>&lt; <a class="el" href="class_game_1_1_message.html#ab32b7d3194d076985e067daa843fa267">MSG</a>, TYPES &gt;::MessageQueue =  typename <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt;<a class="el" href="namespace_util.html#a825706b32bf6453b12fa0ee6b23f3c0a">Util::Tuple</a>&lt;<a class="el" href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a>&lt;TYPES&gt; ...&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_game_1_1_message.html">Game::Message</a>&lt; <a class="el" href="class_game_1_1_message.html#ab32b7d3194d076985e067daa843fa267">MSG</a>, TYPES &gt;::MessageQueue =  typename <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt;<a class="el" href="namespace_util.html#acf16ecb3103df544a28698a82e758642">Util::Tuple</a>&lt;<a class="el" href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a>&lt;TYPES&gt; ...&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1096,7 +1096,7 @@ template&lt;class <a class="el" href="class_game_1_1_message.html#ab32b7d3194d07
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_message.html">Message</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

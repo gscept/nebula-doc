@@ -95,8 +95,8 @@ $(document).ready(function(){initNavTree('_app.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="NebulaAppSystem"></a>
 The App Subsystem</h1>
-<p>The <a class="el" href="namespace_app.html">App</a> namespace offers a set of Application classes which simplify setting up a proper Nebula application. The general idea is that an application derives a subclass from one of the specialized Application classes and adds its own functionality to the virtual Application::Open(), Application::Run() and Application::Close() methods.</p>
-<p>Here's an example of what a Nebula application's main source code should look like:</p>
+<p>The <a class="el" href="namespace_app.html">App</a> namespace offers a set of Application classes which simplify setting up a proper <a class="el" href="namespace_nebula.html">Nebula</a> application. The general idea is that an application derives a subclass from one of the specialized Application classes and adds its own functionality to the virtual Application::Open(), Application::Run() and Application::Close() methods.</p>
+<p>Here's an example of what a <a class="el" href="namespace_nebula.html">Nebula</a> application's main source code should look like:</p>
 <div class="fragment"><div class="line"><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><span class="comment">//  main.cc</span></div>
 <div class="line"><span class="comment">//  (C) 2021 Company name</span></div>
@@ -127,8 +127,8 @@ The App Subsystem</h1>
 <div class="ttc" id="aappentry_8h_html_a2961dd122007c1dfb0e3c097066c6079"><div class="ttname"><a href="appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079">ImplementNebulaApplication</a></div><div class="ttdeci">#define ImplementNebulaApplication()</div><div class="ttdef"><b>Definition</b> appentry.h:33</div></div>
 <div class="ttc" id="aclass_util_1_1_command_line_args_html"><div class="ttname"><a href="class_util_1_1_command_line_args.html">Util::CommandLineArgs</a></div><div class="ttdoc">A universal cmd line argument parser.</div><div class="ttdef"><b>Definition</b> commandlineargs.h:22</div></div>
 <div class="ttc" id="anamespace_app_html"><div class="ttname"><a href="namespace_app.html">App</a></div><div class="ttdef"><b>Definition</b> gameapplication.cc:23</div></div>
-<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> array.h:43</div></div>
-</div><!-- fragment --><p>The macro <a class="el" href="appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079">ImplementNebulaApplication()</a> takes care about some platform-specifics (mainly how arguments are passed to a program) and then calls the NebulaMain() function, which receives a Util::CmdLineArgs object which contains the command line arguments. The MyApplication class is a user-derived class. The application object needs to be setup with a company name, an application name (these two uniquely identify the application and are for used to create a data directory under "My Files" which will contain application specific files (likes configuration settings or save game files). The Open() method will setup the application for use. If something goes wrong the method will return false. Run() should implement the actual application features, it may run in a loop until the user wants to exit, or it may return immediately. Close() will shutdown the application. Finally Exit() must be called to properly cleanup Nebula before exiting the application. This will shutdown any static objects, perform cleanup, a RefCounting leak and memory leak check and finally exit the application process. </p>
+<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:5</div></div>
+</div><!-- fragment --><p>The macro <a class="el" href="appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079">ImplementNebulaApplication()</a> takes care about some platform-specifics (mainly how arguments are passed to a program) and then calls the NebulaMain() function, which receives a Util::CmdLineArgs object which contains the command line arguments. The MyApplication class is a user-derived class. The application object needs to be setup with a company name, an application name (these two uniquely identify the application and are for used to create a data directory under "My Files" which will contain application specific files (likes configuration settings or save game files). The Open() method will setup the application for use. If something goes wrong the method will return false. Run() should implement the actual application features, it may run in a loop until the user wants to exit, or it may return immediately. Close() will shutdown the application. Finally Exit() must be called to properly cleanup <a class="el" href="namespace_nebula.html">Nebula</a> before exiting the application. This will shutdown any static objects, perform cleanup, a RefCounting leak and memory leak check and finally exit the application process. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -137,7 +137,7 @@ The App Subsystem</h1>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

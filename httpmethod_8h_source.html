@@ -128,15 +128,15 @@ $(document).ready(function(){initNavTree('httpmethod_8h_source.html',''); initRe
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    };</div>
 </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">static</span> <a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">Code</a> <a class="code hl_function" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">FromString</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a>&amp; str);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a> <a class="code hl_function" href="class_http_1_1_http_method.html#aab014600fe41f8f3aa05052019026b48">ToString</a>(<a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">Code</a> c);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">static</span> <a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">Code</a> <a class="code hl_function" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">FromString</a>(<span class="keyword">const</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a>&amp; str);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">static</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a> <a class="code hl_function" href="class_http_1_1_http_method.html#aab014600fe41f8f3aa05052019026b48">ToString</a>(<a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">Code</a> c);</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
 </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">inline</span> <a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">HttpMethod::Code</a></div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">   48</a></span><a class="code hl_function" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">HttpMethod::FromString</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a>&amp; str)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">   48</a></span><a class="code hl_function" href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">HttpMethod::FromString</a>(<span class="keyword">const</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a>&amp; str)</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> (str == <span class="stringliteral">&quot;OPTIONS&quot;</span>) <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518af044897a979016fc656642888332f8d4">Options</a>;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (str == <span class="stringliteral">&quot;GET&quot;</span>) <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518a8755ceeacb5d23c9afeeb23b54fec5ac">Get</a>;</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('httpmethod_8h_source.html',''); initRe
 </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">inline</span> <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">inline</span> <a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a></div>
 <div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="class_http_1_1_http_method.html#aab014600fe41f8f3aa05052019026b48">   68</a></span><a class="code hl_function" href="class_http_1_1_http_method.html#aab014600fe41f8f3aa05052019026b48">HttpMethod::ToString</a>(<a class="code hl_enumeration" href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518">Code</a> c)</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>{</div>
@@ -192,9 +192,9 @@ $(document).ready(function(){initNavTree('httpmethod_8h_source.html',''); initRe
 <div class="ttc" id="aclass_http_1_1_http_method_html_aa6a7f3d79b33c3a27b25fec67e029518af044897a979016fc656642888332f8d4"><div class="ttname"><a href="class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518af044897a979016fc656642888332f8d4">Http::HttpMethod::Options</a></div><div class="ttdeci">@ Options</div><div class="ttdef"><b>Definition</b> httpmethod.h:25</div></div>
 <div class="ttc" id="aclass_http_1_1_http_method_html_aab014600fe41f8f3aa05052019026b48"><div class="ttname"><a href="class_http_1_1_http_method.html#aab014600fe41f8f3aa05052019026b48">Http::HttpMethod::ToString</a></div><div class="ttdeci">static Util::String ToString(Code c)</div><div class="ttdoc">convert to string</div><div class="ttdef"><b>Definition</b> httpmethod.h:68</div></div>
 <div class="ttc" id="aclass_http_1_1_http_method_html_ae71590771fd5f802a2d8da490338c8ec"><div class="ttname"><a href="class_http_1_1_http_method.html#ae71590771fd5f802a2d8da490338c8ec">Http::HttpMethod::FromString</a></div><div class="ttdeci">static Code FromString(const Util::String &amp;str)</div><div class="ttdoc">convert from string</div><div class="ttdef"><b>Definition</b> httpmethod.h:48</div></div>
-<div class="ttc" id="aclass_util_1_1_string_html"><div class="ttname"><a href="class_util_1_1_string.html">Util::String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> string.h:48</div></div>
 <div class="ttc" id="anamespace_http_html"><div class="ttname"><a href="namespace_http.html">Http</a></div><div class="ttdoc">This file was generated with Nebula Trifid's idlc compiler tool.</div><div class="ttdef"><b>Definition</b> defaulthttprequesthandler.cc:15</div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -202,7 +202,7 @@ $(document).ready(function(){initNavTree('httpmethod_8h_source.html',''); initRe
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_890e2c3a9c3b155590221e5a959f1be1.html">http</a></li><li class="navelem"><a class="el" href="httpmethod_8h.html">httpmethod.h</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

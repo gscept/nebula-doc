@@ -108,6 +108,11 @@ var annotated_dup =
     [ "Clustering", "namespace_clustering.html", [
       [ "ClusterContext", "class_clustering_1_1_cluster_context.html", "class_clustering_1_1_cluster_context" ]
     ] ],
+    [ "ConsoleHook", "namespace_console_hook.html", [
+      [ "ConsoleEvents", "class_console_hook_1_1_console_events.html", "class_console_hook_1_1_console_events" ],
+      [ "ConsoleWriter", "class_console_hook_1_1_console_writer.html", "class_console_hook_1_1_console_writer" ],
+      [ "ConsoleWriterEventArgs", "class_console_hook_1_1_console_writer_event_args.html", "class_console_hook_1_1_console_writer_event_args" ]
+    ] ],
     [ "Core", "namespace_core.html", [
       [ "CoreServer", "class_core_1_1_core_server.html", "class_core_1_1_core_server" ],
       [ "CVar", "struct_core_1_1_c_var.html", "struct_core_1_1_c_var" ],
@@ -703,6 +708,23 @@ var annotated_dup =
       [ "vec4", "struct_math_1_1vec4.html", "struct_math_1_1vec4" ],
       [ "vector", "struct_math_1_1vector.html", "struct_math_1_1vector" ]
     ] ],
+    [ "Mathf", "namespace_mathf.html", [
+      [ "BoundingBox", "struct_mathf_1_1_bounding_box.html", "struct_mathf_1_1_bounding_box" ],
+      [ "BoundingFrustum", "class_mathf_1_1_bounding_frustum.html", "class_mathf_1_1_bounding_frustum" ],
+      [ "BoundingSphere", "struct_mathf_1_1_bounding_sphere.html", "struct_mathf_1_1_bounding_sphere" ],
+      [ "Color", "struct_mathf_1_1_color.html", "struct_mathf_1_1_color" ],
+      [ "MathHelper", "class_mathf_1_1_math_helper.html", "class_mathf_1_1_math_helper" ],
+      [ "Matrix", "struct_mathf_1_1_matrix.html", "struct_mathf_1_1_matrix" ],
+      [ "Plane", "struct_mathf_1_1_plane.html", "struct_mathf_1_1_plane" ],
+      [ "PlaneHelper", "class_mathf_1_1_plane_helper.html", "class_mathf_1_1_plane_helper" ],
+      [ "Point", "struct_mathf_1_1_point.html", "struct_mathf_1_1_point" ],
+      [ "Quaternion", "struct_mathf_1_1_quaternion.html", "struct_mathf_1_1_quaternion" ],
+      [ "Ray", "struct_mathf_1_1_ray.html", "struct_mathf_1_1_ray" ],
+      [ "Rectangle", "struct_mathf_1_1_rectangle.html", "struct_mathf_1_1_rectangle" ],
+      [ "Vector2", "struct_mathf_1_1_vector2.html", "struct_mathf_1_1_vector2" ],
+      [ "Vector3", "struct_mathf_1_1_vector3.html", "struct_mathf_1_1_vector3" ],
+      [ "Vector4", "struct_mathf_1_1_vector4.html", "struct_mathf_1_1_vector4" ]
+    ] ],
     [ "MemDb", "namespace_mem_db.html", [
       [ "ColumnIndex", "struct_mem_db_1_1_column_index.html", null ],
       [ "ComponentDescription", "class_mem_db_1_1_component_description.html", "class_mem_db_1_1_component_description" ],
@@ -757,12 +779,36 @@ var annotated_dup =
       [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
       [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]
     ] ],
+    [ "Mono", "namespace_mono.html", [
+      [ "BoundingBox", "class_mono_1_1_bounding_box.html", "class_mono_1_1_bounding_box" ],
+      [ "Entity", "class_mono_1_1_entity.html", "class_mono_1_1_entity" ],
+      [ "Mat4", "class_mono_1_1_mat4.html", "class_mono_1_1_mat4" ],
+      [ "Matrix44", "class_mono_1_1_matrix44.html", "class_mono_1_1_matrix44" ],
+      [ "MonoBindings", "class_mono_1_1_mono_bindings.html", "class_mono_1_1_mono_bindings" ],
+      [ "Quaternion", "class_mono_1_1_quaternion.html", "class_mono_1_1_quaternion" ],
+      [ "Vector2", "class_mono_1_1_vector2.html", "class_mono_1_1_vector2" ],
+      [ "Vector3", "class_mono_1_1_vector3.html", "class_mono_1_1_vector3" ],
+      [ "Vector4", "class_mono_1_1_vector4.html", "class_mono_1_1_vector4" ]
+    ] ],
     [ "nanobind", "namespacenanobind.html", [
       [ "detail", "namespacenanobind_1_1detail.html", [
         [ "type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ],
         [ "type_caster< Util::Dictionary< Key, Value > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ],
         [ "type_caster< Util::String >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4" ]
       ] ]
+    ] ],
+    [ "Nebula", "namespace_nebula.html", [
+      [ "Game", "namespace_nebula_1_1_game.html", [
+        [ "Component", "class_nebula_1_1_game_1_1_component.html", "class_nebula_1_1_game_1_1_component" ],
+        [ "ComponentData", "struct_nebula_1_1_game_1_1_component_data.html", "struct_nebula_1_1_game_1_1_component_data" ],
+        [ "ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", "class_nebula_1_1_game_1_1_component_manager" ],
+        [ "Entity", "struct_nebula_1_1_game_1_1_entity.html", "struct_nebula_1_1_game_1_1_entity" ],
+        [ "IComponent", "interface_nebula_1_1_game_1_1_i_component.html", "interface_nebula_1_1_game_1_1_i_component" ],
+        [ "InstanceId", "struct_nebula_1_1_game_1_1_instance_id.html", "struct_nebula_1_1_game_1_1_instance_id" ]
+      ] ],
+      [ "AppEntry", "class_nebula_1_1_app_entry.html", "class_nebula_1_1_app_entry" ],
+      [ "Debug", "class_nebula_1_1_debug.html", "class_nebula_1_1_debug" ],
+      [ "EntityManager", "class_nebula_1_1_entity_manager.html", "class_nebula_1_1_entity_manager" ]
     ] ],
     [ "Net", "namespace_net.html", [
       [ "DebugMessage", "class_net_1_1_debug_message.html", "class_net_1_1_debug_message" ],
@@ -878,6 +924,8 @@ var annotated_dup =
       [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ]
     ] ],
     [ "Scripting", "namespace_scripting.html", [
+      [ "MonoAssemblyId", "struct_scripting_1_1_mono_assembly_id.html", null ],
+      [ "MonoServer", "class_scripting_1_1_mono_server.html", "class_scripting_1_1_mono_server" ],
       [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
       [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ]
     ] ],
@@ -970,10 +1018,11 @@ var annotated_dup =
       [ "SimpleTree", "class_util_1_1_simple_tree.html", "class_util_1_1_simple_tree" ],
       [ "SparseTable", "class_util_1_1_sparse_table.html", "class_util_1_1_sparse_table" ],
       [ "Stack", "class_util_1_1_stack.html", "class_util_1_1_stack" ],
-      [ "String", "class_util_1_1_string.html", "class_util_1_1_string" ],
+      [ "String", "struct_util_1_1_string.html", "struct_util_1_1_string" ],
       [ "StringAtom", "class_util_1_1_string_atom.html", "class_util_1_1_string_atom" ],
       [ "StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", "class_util_1_1_string_atom_table_base" ],
       [ "StringBuffer", "class_util_1_1_string_buffer.html", "class_util_1_1_string_buffer" ],
+      [ "StringMarshaler", "class_util_1_1_string_marshaler.html", "class_util_1_1_string_marshaler" ],
       [ "TrivialArray", "class_util_1_1_trivial_array.html", "class_util_1_1_trivial_array" ],
       [ "Variant", "class_util_1_1_variant.html", "class_util_1_1_variant" ]
     ] ],

@@ -252,6 +252,7 @@ var hierarchy =
     [ "Util::_smallvector< Util::KeyValuePair< Util::String, IO::StreamCache::CacheEntry >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::String, Ptr< Http::HttpRequestHandler > >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::String, Ptr< IO::Archive > >, 0 >", "struct_util_1_1__smallvector.html", null ],
+    [ "Util::_smallvector< Util::KeyValuePair< Util::String, uint32_t >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::String, Util::String >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::String, Util::String >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::StringAtom, Audio::ClipId >, 0 >", "struct_util_1_1__smallvector.html", null ],
@@ -346,6 +347,7 @@ var hierarchy =
     [ "CoreAnimation::AnimUtil", "class_core_animation_1_1_anim_util.html", null ],
     [ "CoreGraphics::AntiAliasQuality", "class_core_graphics_1_1_anti_alias_quality.html", null ],
     [ "Im3d::AppData", "struct_im3d_1_1_app_data.html", null ],
+    [ "Nebula.AppEntry", "class_nebula_1_1_app_entry.html", null ],
     [ "AppLauncher", "class_system_1_1_app_launcher.html", null ],
     [ "App::Application", "class_app_1_1_application.html", [
       [ "App::ConsoleApplication", "class_app_1_1_console_application.html", null ],
@@ -615,6 +617,7 @@ var hierarchy =
     [ "Util::Array< Util::KeyValuePair< Util::String, IO::StreamCache::CacheEntry > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::String, Ptr< Http::HttpRequestHandler > > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::String, Ptr< IO::Archive > > >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::KeyValuePair< Util::String, uint32_t > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::String, Util::String > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::String, Util::String >, 1 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::StringAtom, Audio::ClipId > >", "class_util_1_1_array.html", null ],
@@ -681,6 +684,7 @@ var hierarchy =
     [ "Util::ArrayAllocator< Game::ManagerHandle, Game::ManagerAPI >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< Game::MessageListenerId, Util::Delegate >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< MemDb::ComponentId, ColumnBuffer >", "class_util_1_1_array_allocator.html", null ],
+    [ "Util::ArrayAllocator< MonoAssembly * >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< TYPES... >", "class_util_1_1_array_allocator.html", [
       [ "Ids::IdAllocator< Audio::ClipId, Math::point, Math::vector, float, float, float, float, bool, float >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< SoLoud::Wav, uint >", "class_ids_1_1_id_allocator.html", null ],
@@ -748,6 +752,7 @@ var hierarchy =
     [ "Attr::BoolArrayTypeClass", "class_attr_1_1_bool_array_type_class.html", null ],
     [ "Particles::EmitterAttrs::BoolAttributes", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html", null ],
     [ "Attr::BoolTypeClass", "class_attr_1_1_bool_type_class.html", null ],
+    [ "Mono::BoundingBox", "class_mono_1_1_bounding_box.html", null ],
     [ "Visibility::BoxSystemLoadInfo", "struct_visibility_1_1_box_system_load_info.html", null ],
     [ "Visibility::BruteforceSystemLoadInfo", "struct_visibility_1_1_bruteforce_system_load_info.html", null ],
     [ "CoreGraphics::BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", null ],
@@ -831,11 +836,13 @@ var hierarchy =
     ] ],
     [ "completion_t", "structcompletion__t.html", null ],
     [ "Game::ComponentCreateInfo", "struct_game_1_1_component_create_info.html", null ],
+    [ "Nebula.Game.ComponentData< T >", "struct_nebula_1_1_game_1_1_component_data.html", null ],
     [ "Game::ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", null ],
     [ "MemDb::ComponentDescription", "class_mem_db_1_1_component_description.html", null ],
     [ "Game::BlueprintManager::ComponentEntry", "struct_game_1_1_blueprint_manager_1_1_component_entry.html", null ],
     [ "MemDb::ComponentId", "struct_mem_db_1_1_component_id.html", null ],
     [ "Game::ComponentInspection", "class_game_1_1_component_inspection.html", null ],
+    [ "Nebula.Game.ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", null ],
     [ "Game::FilterBuilder::ComponentRequest", "struct_game_1_1_filter_builder_1_1_component_request.html", null ],
     [ "Game::ComponentSerialization", "class_game_1_1_component_serialization.html", null ],
     [ "Im3d::internal::CompositeT", "struct_im3d_1_1internal_1_1_composite_t.html", [
@@ -843,6 +850,7 @@ var hierarchy =
       [ "Im3d::internal::VecT", "struct_im3d_1_1internal_1_1_vec_t.html", null ]
     ] ],
     [ "Http::HttpClientRegistry::Connection", "struct_http_1_1_http_client_registry_1_1_connection.html", null ],
+    [ "ConsoleHook.ConsoleEvents", "class_console_hook_1_1_console_events.html", null ],
     [ "Lighting::LightContext::ConstantBufferSet", "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html", null ],
     [ "Vulkan::GraphicsDeviceState::ConstantsRingBuffer", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html", null ],
     [ "Im3d::Context", "struct_im3d_1_1_context.html", null ],
@@ -865,6 +873,7 @@ var hierarchy =
     [ "Game::Dataset", "struct_game_1_1_dataset.html", null ],
     [ "MemDb::Dataset", "struct_mem_db_1_1_dataset.html", null ],
     [ "Game::World::DeallocInstanceCommand", "struct_game_1_1_world_1_1_dealloc_instance_command.html", null ],
+    [ "Nebula.Debug", "class_nebula_1_1_debug.html", null ],
     [ "Debug::DebugFloat", "class_debug_1_1_debug_float.html", null ],
     [ "Util::GlobalStringAtomTable::DebugInfo", "struct_util_1_1_global_string_atom_table_1_1_debug_info.html", null ],
     [ "Net::DebugMessage", "class_net_1_1_debug_message.html", null ],
@@ -922,6 +931,7 @@ var hierarchy =
     [ "Util::Dictionary< Util::String, IO::StreamCache::CacheEntry >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Util::String, Ptr< Http::HttpRequestHandler > >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Util::String, Ptr< IO::Archive > >", "class_util_1_1_dictionary.html", null ],
+    [ "Util::Dictionary< Util::String, uint32_t >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Util::String, Util::String >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Util::StringAtom, Audio::ClipId >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Util::StringAtom, CoreGraphics::BufferId >", "class_util_1_1_dictionary.html", null ],
@@ -956,9 +966,11 @@ var hierarchy =
     [ "Particles::EmitterMesh", "class_particles_1_1_emitter_mesh.html", null ],
     [ "Particles::EmitterMesh::EmitterPoint", "struct_particles_1_1_emitter_mesh_1_1_emitter_point.html", null ],
     [ "Game::Entity", "struct_game_1_1_entity.html", null ],
+    [ "Mono::Entity", "class_mono_1_1_entity.html", null ],
     [ "TiXmlBase::Entity", "struct_ti_xml_base_1_1_entity.html", null ],
     [ "Visibility::VisibilitySystem::Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", null ],
     [ "Game::EntityCreateInfo", "struct_game_1_1_entity_create_info.html", null ],
+    [ "Nebula.EntityManager", "class_nebula_1_1_entity_manager.html", null ],
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", null ],
     [ "Game::EntityPool", "class_game_1_1_entity_pool.html", null ],
     [ "Game::Dataset::EntityTableView", "struct_game_1_1_dataset_1_1_entity_table_view.html", null ],
@@ -968,6 +980,9 @@ var hierarchy =
     [ "Environment", "class_system_1_1_environment.html", null ],
     [ "Event", "class_threading_1_1_event.html", [
       [ "Threading::EventWithManualReset", "class_threading_1_1_event_with_manual_reset.html", null ]
+    ] ],
+    [ "EventArgs", null, [
+      [ "ConsoleHook.ConsoleWriterEventArgs", "class_console_hook_1_1_console_writer_event_args.html", null ]
     ] ],
     [ "CoreGraphics::EventCreateInfo", "struct_core_graphics_1_1_event_create_info.html", null ],
     [ "IO::EventHandlerData", "struct_i_o_1_1_event_handler_data.html", null ],
@@ -995,8 +1010,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
+    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -1271,10 +1286,32 @@ var hierarchy =
     [ "HttpClient", "class_simple_1_1_http_client.html", null ],
     [ "Http::HttpMethod", "class_http_1_1_http_method.html", null ],
     [ "Http::HttpStatus", "class_http_1_1_http_status.html", null ],
+    [ "Nebula.Game.IComponent", "interface_nebula_1_1_game_1_1_i_component.html", [
+      [ "Nebula.Game.Component< DATA >", "class_nebula_1_1_game_1_1_component.html", null ]
+    ] ],
+    [ "ICustomMarshaler", null, [
+      [ "Util.StringMarshaler", "class_util_1_1_string_marshaler.html", null ]
+    ] ],
     [ "Ids::Id", "struct_ids_1_1_id.html", null ],
     [ "Messaging::Id", "class_messaging_1_1_id.html", null ],
     [ "Ids::IdGenerationPool", "class_ids_1_1_id_generation_pool.html", null ],
     [ "Ids::IdPool", "class_ids_1_1_id_pool.html", null ],
+    [ "IEquatable", null, [
+      [ "Mathf.BoundingBox", "struct_mathf_1_1_bounding_box.html", null ],
+      [ "Mathf.BoundingFrustum", "class_mathf_1_1_bounding_frustum.html", null ],
+      [ "Mathf.BoundingSphere", "struct_mathf_1_1_bounding_sphere.html", null ],
+      [ "Mathf.Color", "struct_mathf_1_1_color.html", null ],
+      [ "Mathf.Matrix", "struct_mathf_1_1_matrix.html", null ],
+      [ "Mathf.Plane", "struct_mathf_1_1_plane.html", null ],
+      [ "Mathf.Point", "struct_mathf_1_1_point.html", null ],
+      [ "Mathf.Quaternion", "struct_mathf_1_1_quaternion.html", null ],
+      [ "Mathf.Ray", "struct_mathf_1_1_ray.html", null ],
+      [ "Mathf.Rectangle", "struct_mathf_1_1_rectangle.html", null ],
+      [ "Mathf.Vector2", "struct_mathf_1_1_vector2.html", null ],
+      [ "Mathf.Vector3", "struct_mathf_1_1_vector3.html", null ],
+      [ "Mathf.Vector4", "struct_mathf_1_1_vector4.html", null ],
+      [ "Nebula.Game.Entity", "struct_nebula_1_1_game_1_1_entity.html", null ]
+    ] ],
     [ "Im3dContext", "class_im3d_context.html", null ],
     [ "Im3d::Im3dState", "struct_im3d_1_1_im3d_state.html", null ],
     [ "CoreGraphics::ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", null ],
@@ -1295,6 +1332,7 @@ var hierarchy =
     [ "CoreGraphics::InputAssemblyKey", "union_core_graphics_1_1_input_assembly_key.html", null ],
     [ "Input::InputEvent", "class_input_1_1_input_event.html", null ],
     [ "Input::InputPriority", "class_input_1_1_input_priority.html", null ],
+    [ "Nebula.Game.InstanceId", "struct_nebula_1_1_game_1_1_instance_id.html", null ],
     [ "InstanceRenderer", "class_instancing_1_1_instance_renderer.html", null ],
     [ "InstanceRendererBase", "class_instancing_1_1_instance_renderer_base.html", null ],
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
@@ -1382,6 +1420,7 @@ var hierarchy =
     [ "Util::KeyValuePair< Util::String, IO::StreamCache::CacheEntry >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Util::String, Ptr< Http::HttpRequestHandler > >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Util::String, Ptr< IO::Archive > >", "class_util_1_1_key_value_pair.html", null ],
+    [ "Util::KeyValuePair< Util::String, uint32_t >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Util::String, Util::String >", "class_util_1_1_key_value_pair.html", [
       [ "IO::Assign", "class_i_o_1_1_assign.html", null ]
     ] ],
@@ -1437,6 +1476,7 @@ var hierarchy =
     [ "Im3d::Mat3", "struct_im3d_1_1_mat3.html", null ],
     [ "Im3d::Mat4", "struct_im3d_1_1_mat4.html", null ],
     [ "Math::mat4", "struct_math_1_1mat4.html", null ],
+    [ "Mono::Mat4", "class_mono_1_1_mat4.html", null ],
     [ "Physics::Material", "struct_physics_1_1_material.html", null ],
     [ "Materials::MaterialConstant", "struct_materials_1_1_material_constant.html", null ],
     [ "Materials::MaterialCreateInfo", "struct_materials_1_1_material_create_info.html", null ],
@@ -1445,6 +1485,8 @@ var hierarchy =
     [ "Materials::MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
     [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", null ],
     [ "Materials::MaterialVariant", "struct_materials_1_1_material_variant.html", null ],
+    [ "Mathf.MathHelper", "class_mathf_1_1_math_helper.html", null ],
+    [ "Mono::Matrix44", "class_mono_1_1_matrix44.html", null ],
     [ "Attr::Matrix44ArrayTypeClass", "class_attr_1_1_matrix44_array_type_class.html", null ],
     [ "Attr::Matrix44TypeClass", "class_attr_1_1_matrix44_type_class.html", null ],
     [ "RenderUtil::MayaCameraUtil", "class_render_util_1_1_maya_camera_util.html", null ],
@@ -1476,6 +1518,8 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "Scripting::MonoAssemblyId", "struct_scripting_1_1_mono_assembly_id.html", null ],
+    [ "Mono::MonoBindings", "class_mono_1_1_mono_bindings.html", null ],
     [ "Input::MouseButton", "class_input_1_1_mouse_button.html", null ],
     [ "RenderUtil::MouseRayUtil", "class_render_util_1_1_mouse_ray_util.html", null ],
     [ "CoreAnimation::Nax2Curve", "struct_core_animation_1_1_nax2_curve.html", null ],
@@ -1557,6 +1601,7 @@ var hierarchy =
     [ "CoreGraphics::PixelFormat", "class_core_graphics_1_1_pixel_format.html", null ],
     [ "Im3d::Plane", "struct_im3d_1_1_plane.html", null ],
     [ "Math::plane", "struct_math_1_1plane.html", null ],
+    [ "Mathf.PlaneHelper", "class_mathf_1_1_plane_helper.html", null ],
     [ "Math::point", "struct_math_1_1point.html", null ],
     [ "Math::polar", "class_math_1_1polar.html", null ],
     [ "Memory::PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", null ],
@@ -1716,6 +1761,7 @@ var hierarchy =
     [ "Util::QuadTree< TYPE >", "class_util_1_1_quad_tree.html", null ],
     [ "Visibility::QuadtreeSystemLoadInfo", "struct_visibility_1_1_quadtree_system_load_info.html", null ],
     [ "Math::quat", "struct_math_1_1quat.html", null ],
+    [ "Mono::Quaternion", "class_mono_1_1_quaternion.html", null ],
     [ "Attr::QuaternionTypeClass", "class_attr_1_1_quaternion_type_class.html", null ],
     [ "Vulkan::GraphicsDeviceState::Queries", "struct_vulkan_1_1_graphics_device_state_1_1_queries.html", null ],
     [ "Vulkan::QueryBundle", "struct_vulkan_1_1_query_bundle.html", null ],
@@ -1986,6 +2032,7 @@ var hierarchy =
       ] ],
       [ "Resources::ResourceSaver", "class_resources_1_1_resource_saver.html", null ],
       [ "Resources::ResourceServer", "class_resources_1_1_resource_server.html", null ],
+      [ "Scripting::MonoServer", "class_scripting_1_1_mono_server.html", null ],
       [ "Scripting::ScriptServer", "class_scripting_1_1_script_server.html", [
         [ "Scripting::PythonServer", "class_scripting_1_1_python_server.html", null ]
       ] ],
@@ -2119,7 +2166,7 @@ var hierarchy =
     [ "CoreGraphics::MeshLoader::StreamMeshLoadMetaData", "struct_core_graphics_1_1_mesh_loader_1_1_stream_mesh_load_meta_data.html", null ],
     [ "StreamShaderLoader", "class_core_graphics_1_1_stream_shader_loader.html", null ],
     [ "StreamTextureCache", "class_core_graphics_1_1_stream_texture_cache.html", null ],
-    [ "Util::String", "class_util_1_1_string.html", null ],
+    [ "Util.String", "struct_util_1_1_string.html", null ],
     [ "Attr::StringArrayTypeClass", "class_attr_1_1_string_array_type_class.html", null ],
     [ "Util::StringAtom", "class_util_1_1_string_atom.html", null ],
     [ "Util::StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", [
@@ -2196,6 +2243,9 @@ var hierarchy =
     [ "Terrain::TextureTileCache", "class_terrain_1_1_texture_tile_cache.html", null ],
     [ "CoreGraphics::TextureViewCreateInfo", "struct_core_graphics_1_1_texture_view_create_info.html", null ],
     [ "CoreGraphics::TextureViewId", "struct_core_graphics_1_1_texture_view_id.html", null ],
+    [ "TextWriter", null, [
+      [ "ConsoleHook.ConsoleWriter", "class_console_hook_1_1_console_writer.html", null ]
+    ] ],
     [ "Thread", "class_threading_1_1_thread.html", [
       [ "CoreGraphics::DrawThread", "class_core_graphics_1_1_draw_thread.html", [
         [ "Vulkan::VkCommandBufferThread", "class_vulkan_1_1_vk_command_buffer_thread.html", null ]
@@ -2275,6 +2325,9 @@ var hierarchy =
     [ "Math::vec4", "struct_math_1_1vec4.html", null ],
     [ "Im3d::Vector< T >", "struct_im3d_1_1_vector.html", null ],
     [ "Math::vector", "struct_math_1_1vector.html", null ],
+    [ "Mono::Vector2", "class_mono_1_1_vector2.html", null ],
+    [ "Mono::Vector3", "class_mono_1_1_vector3.html", null ],
+    [ "Mono::Vector4", "class_mono_1_1_vector4.html", null ],
     [ "Im3d::Vector< bool >", "struct_im3d_1_1_vector.html", null ],
     [ "Im3d::Vector< char >", "struct_im3d_1_1_vector.html", null ],
     [ "Im3d::Vector< float >", "struct_im3d_1_1_vector.html", null ],

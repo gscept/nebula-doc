@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('_net.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="NebulaNetSystem"></a>
 The Net Subsystem</h1>
-<p>The Nebula <a class="el" href="namespace_net.html">Net</a> subsystem offers simple client/server-style communication using the TCP protocol over LAN or internet connections. It is not intended for highlevel game-oriented communication with lobbies, session management and synchronisation of player data. This will be provided in higher level Nebula networking subsystems.</p>
+<p>The <a class="el" href="namespace_nebula.html">Nebula</a> <a class="el" href="namespace_net.html">Net</a> subsystem offers simple client/server-style communication using the TCP protocol over LAN or internet connections. It is not intended for highlevel game-oriented communication with lobbies, session management and synchronisation of player data. This will be provided in higher level <a class="el" href="namespace_nebula.html">Nebula</a> networking subsystems.</p>
 <h2><a class="anchor" id="NetIPAddress"></a>
 Working with IP addresses</h2>
 <p>An IpAddress object identifies a communication endpoint by host name or tcp/ip address and a port number. IpAddress objects can be created in a number of ways:</p>
@@ -188,7 +188,7 @@ Setting Up A Client/Server System</h2>
 <div class="line">    <a class="code hl_class" href="class_ptr.html">Ptr&lt;TextReader&gt;</a> textReader = TextReader::Create();</div>
 <div class="line">    textReader-&gt;SetStream(recvConns[i]-&gt;GetRecvStream());</div>
 <div class="line">    textReader-&gt;Open();</div>
-<div class="line">    <a class="code hl_class" href="class_util_1_1_string.html">String</a> str = textReader-&gt;ReadString();</div>
+<div class="line">    <a class="code hl_class" href="struct_util_1_1_string.html">String</a> str = textReader-&gt;ReadString();</div>
 <div class="line">    textReader-&gt;Close();</div>
 <div class="line">    </div>
 <div class="line">    <span class="comment">// process received string and send response back to client</span></div>
@@ -204,8 +204,8 @@ Setting Up A Client/Server System</h2>
 <div class="line">}</div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html_ae8fbfc046ebad5c3c5930942d91832f6"><div class="ttname"><a href="class_util_1_1_array.html#ae8fbfc046ebad5c3c5930942d91832f6">Util::Array::Size</a></div><div class="ttdeci">const SizeT Size() const</div><div class="ttdoc">get number of elements in array</div><div class="ttdef"><b>Definition</b> array.h:870</div></div>
-<div class="ttc" id="aclass_util_1_1_string_html"><div class="ttname"><a href="class_util_1_1_string.html">Util::String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> string.h:48</div></div>
-<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> array.h:43</div></div>
+<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:5</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
 <div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
 </div><!-- fragment --><p>To get server responses on the client side, call the TcpClient::Recv() method which will block until data arrives (in blocking mode), or come back immediately (in non-blocking mode) and return true when data from the server is available:</p>
 <div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_net.html">Net</a>;</div>
@@ -219,18 +219,18 @@ Setting Up A Client/Server System</h2>
 <div class="line">    <a class="code hl_class" href="class_ptr.html">Ptr&lt;TextReader&gt;</a> textReader = TextReader::Create();</div>
 <div class="line">    textReader-&gt;SetStream(recvStream);</div>
 <div class="line">    textReader-&gt;Open();</div>
-<div class="line">    <a class="code hl_class" href="class_util_1_1_string.html">String</a> responseString = textReader-&gt;ReadString();</div>
-<div class="line">    <a class="code hl_function" href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a>(<span class="stringliteral">&quot;The server said: %s\n&quot;</span>, responseString.<a class="code hl_function" href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">AsCharPtr</a>());</div>
+<div class="line">    <a class="code hl_class" href="struct_util_1_1_string.html">String</a> responseString = textReader-&gt;ReadString();</div>
+<div class="line">    <a class="code hl_function" href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a>(<span class="stringliteral">&quot;The server said: %s\n&quot;</span>, responseString.<a class="code hl_function" href="struct_util_1_1_string.html#a680e1883c5ef41ef375533afc936a2b7">AsCharPtr</a>());</div>
 <div class="line">    textReader-&gt;Close();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_util_1_1_string_html_aae44fd420cacbfa974b220218a3732c0"><div class="ttname"><a href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">Util::String::AsCharPtr</a></div><div class="ttdeci">const char * AsCharPtr() const</div><div class="ttdoc">return contents as character pointer</div><div class="ttdef"><b>Definition</b> string.h:784</div></div>
 <div class="ttc" id="adebug_8cc_html_af49bb380724a6d5744e97bae90dbb5ae"><div class="ttname"><a href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a></div><div class="ttdeci">void __cdecl n_printf(const char *msg,...)</div><div class="ttdoc">Nebula's printf replacement.</div><div class="ttdef"><b>Definition</b> debug.cc:209</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html_a680e1883c5ef41ef375533afc936a2b7"><div class="ttname"><a href="struct_util_1_1_string.html#a680e1883c5ef41ef375533afc936a2b7">Util.String::AsCharPtr</a></div><div class="ttdeci">const char * AsCharPtr() const</div><div class="ttdoc">return contents as character pointer</div><div class="ttdef"><b>Definition</b> string.h:784</div></div>
 </div><!-- fragment --><p>A client should also check whether the connection is still up by calling the IsConnected() method. If the connection has been dropped for some reason, this method will return false.</p>
 <dl class="section note"><dt>Note</dt><dd>TcpServer and TcpClient do not implement an underlying communication protocol which enables them to work with "foreign" clients and servers (for instance, a TcpServer could work with standard web browsers as client, and a TcpClient class could communicate with a standard HTTP server).</dd></dl>
 <p>For real world scenarios, an application should implement its own robust communication protocol which at least encodes the length of the payload data. If the payload is bigger then some maximum packet size, data may be sent in several packets, and thus may arrive in several packets at the client. The client should decode the length of the payload from the message header to decide whether the received data represents a complete message, or whether more data needs to be received until message is complete.</p>
 <h2><a class="anchor" id="NetByteOrder"></a>
 Byte Order Issues</h2>
-<p>Servers and clients may run on CPUs with different byte order. If binary data is sent over a network connection, the data must be converted into a "network byte order" which both clients agree on. Nebula offers automatic byte order conversion in the <a class="el" href="class_i_o_1_1_binary_reader.html" title="A friendly interface to read binary data from a stream.">IO::BinaryReader</a> and <a class="el" href="class_i_o_1_1_binary_writer.html" title="A friendly interface for writing binary data to a stream.">IO::BinaryWriter</a> classes. Simply call the following methods before reading from or writing to a network communication stream:</p>
+<p>Servers and clients may run on CPUs with different byte order. If binary data is sent over a network connection, the data must be converted into a "network byte order" which both clients agree on. <a class="el" href="namespace_nebula.html">Nebula</a> offers automatic byte order conversion in the <a class="el" href="class_i_o_1_1_binary_reader.html" title="A friendly interface to read binary data from a stream.">IO::BinaryReader</a> and <a class="el" href="class_i_o_1_1_binary_writer.html" title="A friendly interface for writing binary data to a stream.">IO::BinaryWriter</a> classes. Simply call the following methods before reading from or writing to a network communication stream:</p>
 <div class="fragment"><div class="line">binaryReader-&gt;SetStreamByteOrder(<a class="code hl_enumvalue" href="class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a1a573935798e25bb7a0f48a103b201ea">System::ByteOrder::Network</a>);</div>
 <div class="line">binaryWriter-&gt;SetStreamByteOrder(<a class="code hl_enumvalue" href="class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a1a573935798e25bb7a0f48a103b201ea">System::ByteOrder::Network</a>);</div>
 <div class="ttc" id="aclass_system_1_1_byte_order_html_a69f674d97704ad498fbe89ff3da88e87a1a573935798e25bb7a0f48a103b201ea"><div class="ttname"><a href="class_system_1_1_byte_order.html#a69f674d97704ad498fbe89ff3da88e87a1a573935798e25bb7a0f48a103b201ea">System::ByteOrder::Network</a></div><div class="ttdeci">@ Network</div><div class="ttdef"><b>Definition</b> byteorder.h:40</div></div>
@@ -245,7 +245,7 @@ The Socket Class</h2>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

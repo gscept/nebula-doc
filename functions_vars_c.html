@@ -124,6 +124,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html',''); initResiza
 <li>cellsX&#160;:&#160;<a class="el" href="struct_visibility_1_1_octree_system_load_info.html#a7991e9e21110415d88038a1fca3a72da">Visibility::OctreeSystemLoadInfo</a>, <a class="el" href="struct_visibility_1_1_quadtree_system_load_info.html#ad02ac225d4453eb9a7f9cc74f8a11e56">Visibility::QuadtreeSystemLoadInfo</a></li>
 <li>cellsY&#160;:&#160;<a class="el" href="struct_visibility_1_1_octree_system_load_info.html#a70a8a25513dca9606fffd0973c8cf115">Visibility::OctreeSystemLoadInfo</a>, <a class="el" href="struct_visibility_1_1_quadtree_system_load_info.html#a63877b4b97022e97985043b2f9dd692e">Visibility::QuadtreeSystemLoadInfo</a></li>
 <li>cellsZ&#160;:&#160;<a class="el" href="struct_visibility_1_1_octree_system_load_info.html#a1377c9f1b056f38bb8b5ed48f7993bfa">Visibility::OctreeSystemLoadInfo</a></li>
+<li>Center&#160;:&#160;<a class="el" href="struct_mathf_1_1_bounding_sphere.html#a5e438c71728db8b24457b908a57eea6a">Mathf.BoundingSphere</a></li>
 <li>center&#160;:&#160;<a class="el" href="class_visibility_1_1_visibility_system.html#a3f740a80f1c12a0482bf20859c34da5e">Visibility::VisibilitySystem</a></li>
 <li>centerOfInterest&#160;:&#160;<a class="el" href="class_render_util_1_1_maya_camera_util.html#a747fcf76802da972586e7b9718dc2f27">RenderUtil::MayaCameraUtil</a></li>
 <li>channels&#160;:&#160;<a class="el" href="struct_gltf_1_1_animation.html#a41f523cd24ed531840673afab7eaf895">Gltf::Animation</a></li>
@@ -238,6 +239,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html',''); initResiza
 <li>copySource&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_mesh_loader_1_1_stream_mesh_load_meta_data.html#ac5f5d060f0541962ca921f6bf9123ba5">CoreGraphics::MeshLoader::StreamMeshLoadMetaData</a></li>
 <li>coreId&#160;:&#160;<a class="el" href="class_linux_1_1_linux_thread.html#a1a56b440c09248b6e982fb1fa5398bf8">Linux::LinuxThread</a>, <a class="el" href="class_o_s_x_1_1_o_s_x_thread.html#a61b83216f8f5275298011438e413dabb">OSX::OSXThread</a></li>
 <li>coreServer&#160;:&#160;<a class="el" href="class_app_1_1_console_application.html#ac8950397de4a39d853498be45bd75666">App::ConsoleApplication</a>, <a class="el" href="class_app_1_1_game_application.html#a4a247fa96a0e379dd3e156591804eecb">App::GameApplication</a>, <a class="el" href="class_app_1_1_render_application.html#aebee47d8724f10e495144c03b139143f">App::RenderApplication</a></li>
+<li>CornerCount&#160;:&#160;<a class="el" href="struct_mathf_1_1_bounding_box.html#a407b315442d32320f463ed351c442c32">Mathf.BoundingBox</a>, <a class="el" href="class_mathf_1_1_bounding_frustum.html#afbc639bb81bb41c1d0d01cfbc3da293a">Mathf.BoundingFrustum</a></li>
 <li>count&#160;:&#160;<a class="el" href="struct_gltf_1_1_accessor.html#ac91b6d7881d804d8596c4b8bbaceb360">Gltf::Accessor</a>, <a class="el" href="struct_gltf_1_1_accessor_1_1_sparse.html#a5ddbbc73b776bc3cd8af728e959266c2">Gltf::Accessor::Sparse</a>, <a class="el" href="class_util_1_1_array.html#a27ffa25351f3c984656d336f316f0bc5">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</a>, <a class="el" href="class_util_1_1_array_stack.html#a7ff154ddd458ac3bfcea6780aba95181">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>, <a class="el" href="class_util_1_1_fixed_array.html#a6d3d9bd45cea67352cadde3524ad7e15">Util::FixedArray&lt; TYPE &gt;</a>, <a class="el" href="struct_visibility_1_1_visibility_system_1_1_entity.html#aeae7282d8efa71c41942dc1ea00936a4">Visibility::VisibilitySystem::Entity</a>, <a class="el" href="struct_visibility_1_1_visibility_system_1_1_observer.html#a4598e3b32b96a775279c23a0ed8e83b5">Visibility::VisibilitySystem::Observer</a></li>
 <li>counter&#160;:&#160;<a class="el" href="struct_fibers_1_1_fiber_context.html#a969ad5231da096399a7f1387e543987c">Fibers::FiberContext</a>, <a class="el" href="struct_fibers_1_1_fiber_queue_1_1_job.html#a30936f6568c49876dd783f60933e8cd4">Fibers::FiberQueue::Job</a>, <a class="el" href="struct_fibers_1_1_fiber_wait_context.html#a66aadf99bb0fc49b39b919cc834e6ff5">Fibers::FiberWaitContext</a></li>
 <li>counterSortColumns&#160;:&#160;<a class="el" href="class_debug_1_1_debug_page_handler.html#a9f988712981410c6b0f80d0e6554e131">Debug::DebugPageHandler</a></li>
@@ -306,7 +308,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html',''); initResiza
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

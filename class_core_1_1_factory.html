@@ -103,37 +103,37 @@ $(document).ready(function(){initNavTree('class_core_1_1_factory.html',''); init
 
 <p><code>#include &lt;<a class="el" href="factory_8h_source.html">factory.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides the central object factory mechanism for Nebula. </p>
+<div class="textblock"><p>Provides the central object factory mechanism for <a class="el" href="namespace_nebula.html">Nebula</a>. </p>
 <p>Classes which are derived from <a class="el" href="class_core_1_1_ref_counted.html" title="The common base class of Nebula.">RefCounted</a> register themselves automatically to the central <a class="el" href="class_core_1_1_factory.html" title="Provides the central object factory mechanism for Nebula.">Factory</a> object through the __DeclareClass and __ImplementClass macros.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2005 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a2f963be48054b7e8fbf9c3fcff18ce" id="r_a9a2f963be48054b7e8fbf9c3fcff18ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a9a2f963be48054b7e8fbf9c3fcff18ce">Register</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *rtti, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className, const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;classFourCC)</td></tr>
+<tr class="memitem:a9a2f963be48054b7e8fbf9c3fcff18ce" id="r_a9a2f963be48054b7e8fbf9c3fcff18ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a9a2f963be48054b7e8fbf9c3fcff18ce">Register</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *rtti, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className, const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;classFourCC)</td></tr>
 <tr class="memdesc:a9a2f963be48054b7e8fbf9c3fcff18ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a RTTI object with the factory (with class name and class fourcc code)  <br /></td></tr>
 <tr class="separator:a9a2f963be48054b7e8fbf9c3fcff18ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bc6ca3ff96b120bcc744c8ff2775cb1" id="r_a3bc6ca3ff96b120bcc744c8ff2775cb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a3bc6ca3ff96b120bcc744c8ff2775cb1">Register</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *rtti, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className)</td></tr>
+<tr class="memitem:a3bc6ca3ff96b120bcc744c8ff2775cb1" id="r_a3bc6ca3ff96b120bcc744c8ff2775cb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a3bc6ca3ff96b120bcc744c8ff2775cb1">Register</a> (const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *rtti, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className)</td></tr>
 <tr class="memdesc:a3bc6ca3ff96b120bcc744c8ff2775cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a RTTI object with the factory (without fourcc code)  <br /></td></tr>
 <tr class="separator:a3bc6ca3ff96b120bcc744c8ff2775cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3552dc1aa5618ed681a9b4e0a053791" id="r_aa3552dc1aa5618ed681a9b4e0a053791"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#aa3552dc1aa5618ed681a9b4e0a053791">ClassExists</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
+<tr class="memitem:aa3552dc1aa5618ed681a9b4e0a053791" id="r_aa3552dc1aa5618ed681a9b4e0a053791"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#aa3552dc1aa5618ed681a9b4e0a053791">ClassExists</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
 <tr class="memdesc:aa3552dc1aa5618ed681a9b4e0a053791"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if a class exists by class name  <br /></td></tr>
 <tr class="separator:aa3552dc1aa5618ed681a9b4e0a053791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a224afd707e75f91eae1ac6d6c9e16b56" id="r_a224afd707e75f91eae1ac6d6c9e16b56"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a224afd707e75f91eae1ac6d6c9e16b56">ClassExists</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> classFourCC) const</td></tr>
 <tr class="memdesc:a224afd707e75f91eae1ac6d6c9e16b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if a class exists by FourCC code  <br /></td></tr>
 <tr class="separator:a224afd707e75f91eae1ac6d6c9e16b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af89cdad449226e70c7bd39e5eed1680b" id="r_af89cdad449226e70c7bd39e5eed1680b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#af89cdad449226e70c7bd39e5eed1680b">GetClassRtti</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
+<tr class="memitem:af89cdad449226e70c7bd39e5eed1680b" id="r_af89cdad449226e70c7bd39e5eed1680b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#af89cdad449226e70c7bd39e5eed1680b">GetClassRtti</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
 <tr class="memdesc:af89cdad449226e70c7bd39e5eed1680b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get class rtti object by name  <br /></td></tr>
 <tr class="separator:af89cdad449226e70c7bd39e5eed1680b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e76a8a65c36734ea73089dbffe790c" id="r_a40e76a8a65c36734ea73089dbffe790c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a40e76a8a65c36734ea73089dbffe790c">GetClassRtti</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> &amp;classFourCC) const</td></tr>
 <tr class="memdesc:a40e76a8a65c36734ea73089dbffe790c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get class rtti object by fourcc code  <br /></td></tr>
 <tr class="separator:a40e76a8a65c36734ea73089dbffe790c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34d651240c89bcb55bd071a5822c806" id="r_af34d651240c89bcb55bd071a5822c806"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#af34d651240c89bcb55bd071a5822c806">Create</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
+<tr class="memitem:af34d651240c89bcb55bd071a5822c806" id="r_af34d651240c89bcb55bd071a5822c806"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#af34d651240c89bcb55bd071a5822c806">Create</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className) const</td></tr>
 <tr class="memdesc:af34d651240c89bcb55bd071a5822c806"><td class="mdescLeft">&#160;</td><td class="mdescRight">create an object by class name  <br /></td></tr>
 <tr class="separator:af34d651240c89bcb55bd071a5822c806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf9fe64f1945bc884354863fcfe00c0" id="r_a6cf9fe64f1945bc884354863fcfe00c0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a6cf9fe64f1945bc884354863fcfe00c0">Create</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> classFourCC) const</td></tr>
 <tr class="memdesc:a6cf9fe64f1945bc884354863fcfe00c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">create an object by FourCC code  <br /></td></tr>
 <tr class="separator:a6cf9fe64f1945bc884354863fcfe00c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f90cd8e90c17a9fa06eaa690790b171" id="r_a8f90cd8e90c17a9fa06eaa690790b171"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a8f90cd8e90c17a9fa06eaa690790b171">CreateArray</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;className, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) const</td></tr>
+<tr class="memitem:a8f90cd8e90c17a9fa06eaa690790b171" id="r_a8f90cd8e90c17a9fa06eaa690790b171"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a8f90cd8e90c17a9fa06eaa690790b171">CreateArray</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;className, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) const</td></tr>
 <tr class="memdesc:a8f90cd8e90c17a9fa06eaa690790b171"><td class="mdescLeft">&#160;</td><td class="mdescRight">create an array of objects by class name  <br /></td></tr>
 <tr class="separator:a8f90cd8e90c17a9fa06eaa690790b171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c41d5dd83ffd948b605e8204a005ce9" id="r_a4c41d5dd83ffd948b605e8204a005ce9"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a4c41d5dd83ffd948b605e8204a005ce9">CreateArray</a> (const <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a> classFourCC, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num) const</td></tr>
@@ -160,7 +160,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae22387a3c17c42e487d2362dda4ed1cb" id="r_ae22387a3c17c42e487d2362dda4ed1cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a>, const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *, 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#ae22387a3c17c42e487d2362dda4ed1cb">nameTable</a></td></tr>
+<tr class="memitem:ae22387a3c17c42e487d2362dda4ed1cb" id="r_ae22387a3c17c42e487d2362dda4ed1cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a>, const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> *, 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#ae22387a3c17c42e487d2362dda4ed1cb">nameTable</a></td></tr>
 <tr class="separator:ae22387a3c17c42e487d2362dda4ed1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a61f1cf2ccb3e8890e89ff4c9825836" id="r_a1a61f1cf2ccb3e8890e89ff4c9825836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a>, const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_factory.html#a1a61f1cf2ccb3e8890e89ff4c9825836">fourccTable</a></td></tr>
 <tr class="separator:a1a61f1cf2ccb3e8890e89ff4c9825836"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,7 +258,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool Core::Factory::ClassExists </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -300,7 +300,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void * Core::Factory::Create </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -352,7 +352,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void * Core::Factory::CreateArray </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em>, </td>
         </tr>
         <tr>
@@ -432,7 +432,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">const <a class="el" href="class_core_1_1_rtti.html">Rtti</a> * Core::Factory::GetClassRtti </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -486,7 +486,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em>&#160;</td>
         </tr>
         <tr>
@@ -518,7 +518,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em>, </td>
         </tr>
         <tr>
@@ -575,7 +575,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>, const <a class="el" href="class_core_1_1_rtti.html">Rtti</a>*, 1024&gt; Core::Factory::nameTable</td>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_util_1_1_string.html">Util::String</a>, const <a class="el" href="class_core_1_1_rtti.html">Rtti</a>*, 1024&gt; Core::Factory::nameTable</td>
         </tr>
       </table>
   </td>
@@ -620,7 +620,7 @@ Static Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core.html">Core</a></li><li class="navelem"><a class="el" href="class_core_1_1_factory.html">Factory</a></li>
 				<li class="footer">
-					Generated on Sun Sep 17 2023 13:23:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Sep 18 2023 06:10:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
