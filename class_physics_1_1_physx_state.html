@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b3f4e335109bd774ee468e5a23f9e4e" id="r_a0b3f4e335109bd774ee468e5a23f9e4e"><td class="memItemLeft" align="right" valign="top">physx::PxRigidActor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#a0b3f4e335109bd774ee468e5a23f9e4e">CreateActor</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> type, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
 <tr class="memdesc:a0b3f4e335109bd774ee468e5a23f9e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new empty actor  <br /></td></tr>
 <tr class="separator:a0b3f4e335109bd774ee468e5a23f9e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7161a71842b59b9caf9f44780128868d" id="r_a7161a71842b59b9caf9f44780128868d"><td class="memItemLeft" align="right" valign="top">physx::PxRigidActor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#a7161a71842b59b9caf9f44780128868d">CreateActor</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> type, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;location, <a class="el" href="struct_math_1_1quat.html">Math::quat</a> const &amp;orientation)</td></tr>
+<tr class="memdesc:a7161a71842b59b9caf9f44780128868d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new empty actor  <br /></td></tr>
+<tr class="separator:a7161a71842b59b9caf9f44780128868d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8f91ea9f11ec1496f48e9085c631212" id="r_af8f91ea9f11ec1496f48e9085c631212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#af8f91ea9f11ec1496f48e9085c631212">DiscardActor</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
 <tr class="memdesc:af8f91ea9f11ec1496f48e9085c631212"><td class="mdescLeft">&#160;</td><td class="mdescRight">deregister an actor  <br /></td></tr>
 <tr class="separator:af8f91ea9f11ec1496f48e9085c631212"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,7 +246,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0b3f4e335109bd774ee468e5a23f9e4e" name="a0b3f4e335109bd774ee468e5a23f9e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b3f4e335109bd774ee468e5a23f9e4e">&#9670;&#160;</a></span>CreateActor()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b3f4e335109bd774ee468e5a23f9e4e">&#9670;&#160;</a></span>CreateActor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,6 +262,42 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;&#160;</td>
           <td class="paramname"><em>transform</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create new empty actor </p>
+
+</div>
+</div>
+<a id="a7161a71842b59b9caf9f44780128868d" name="a7161a71842b59b9caf9f44780128868d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7161a71842b59b9caf9f44780128868d">&#9670;&#160;</a></span>CreateActor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">physx::PxRigidActor * Physics::PhysxState::CreateActor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1quat.html">Math::quat</a> const &amp;&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -862,7 +901,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li><li class="navelem"><a class="el" href="class_physics_1_1_physx_state.html">PhysxState</a></li>
 				<li class="footer">
-					Generated on Mon Sep 18 2023 06:22:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Sep 20 2023 10:40:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

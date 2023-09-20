@@ -14,5 +14,6 @@ var searchData=
   ['int32_11',['int32',['../types_8h.html#ab7903878916593daecbeb95b98115ab0',1,'types.h']]],
   ['int64_12',['int64',['../types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a',1,'types.h']]],
   ['int8_13',['int8',['../types_8h.html#aa79c2d3de4fcd200458c406f40b2ae64',1,'types.h']]],
-  ['iterator_14',['iterator',['../class_util_1_1_trivial_array.html#a1bfdb512e7a0a16e6d0788e24e9afa89',1,'Util::TrivialArray::Iterator'],['../class_util_1_1_fixed_pool.html#aff4a01764adbf1af0970e2680d266a56',1,'Util::FixedPool::Iterator'],['../class_util_1_1_fixed_array.html#adb618945c597641100f462c5cf7bc2b1',1,'Util::FixedArray::Iterator'],['../class_util_1_1_array_stack.html#aed444fe3290d1b9c0c16f145502201e9',1,'Util::ArrayStack::Iterator'],['../class_util_1_1_array.html#a38cd747be23b6290cbb90b2dd44938ae',1,'Util::Array::Iterator']]]
+  ['intrectangle_14',['intRectangle',['../namespace_math.html#ae1adf73ef199b9b02c6a3bf864c172ae',1,'Math']]],
+  ['iterator_15',['iterator',['../class_util_1_1_trivial_array.html#a1bfdb512e7a0a16e6d0788e24e9afa89',1,'Util::TrivialArray::Iterator'],['../class_util_1_1_fixed_pool.html#aff4a01764adbf1af0970e2680d266a56',1,'Util::FixedPool::Iterator'],['../class_util_1_1_fixed_array.html#adb618945c597641100f462c5cf7bc2b1',1,'Util::FixedArray::Iterator'],['../class_util_1_1_array_stack.html#aed444fe3290d1b9c0c16f145502201e9',1,'Util::ArrayStack::Iterator'],['../class_util_1_1_array.html#a38cd747be23b6290cbb90b2dd44938ae',1,'Util::Array::Iterator']]]
 ];

@@ -4,6 +4,7 @@ var class_physics_1_1_physx_state =
     [ "BeginFrame", "class_physics_1_1_physx_state.html#aa7fe2077415dab0f04251d5d93ec2a47", null ],
     [ "ConnectPVD", "class_physics_1_1_physx_state.html#a9c678894c0b977fd2936f77159c96118", null ],
     [ "CreateActor", "class_physics_1_1_physx_state.html#a0b3f4e335109bd774ee468e5a23f9e4e", null ],
+    [ "CreateActor", "class_physics_1_1_physx_state.html#a7161a71842b59b9caf9f44780128868d", null ],
     [ "DiscardActor", "class_physics_1_1_physx_state.html#af8f91ea9f11ec1496f48e9085c631212", null ],
     [ "DisconnectPVD", "class_physics_1_1_physx_state.html#a4dca2e7deb4367e4ee9a35f536680e6b", null ],
     [ "EndFrame", "class_physics_1_1_physx_state.html#a0850102cbcd5f14c75d647537564fefb", null ],

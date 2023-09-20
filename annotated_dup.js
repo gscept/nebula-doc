@@ -697,6 +697,7 @@ var annotated_dup =
       [ "point", "struct_math_1_1point.html", "struct_math_1_1point" ],
       [ "polar", "class_math_1_1polar.html", "class_math_1_1polar" ],
       [ "quat", "struct_math_1_1quat.html", "struct_math_1_1quat" ],
+      [ "randxorstate", "struct_math_1_1randxorstate.html", "struct_math_1_1randxorstate" ],
       [ "rectangle", "class_math_1_1rectangle.html", "class_math_1_1rectangle" ],
       [ "sphere", "class_math_1_1sphere.html", "class_math_1_1sphere" ],
       [ "transform44", "class_math_1_1transform44.html", "class_math_1_1transform44" ],

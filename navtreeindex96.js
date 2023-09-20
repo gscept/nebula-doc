@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"gltfreader_8cc.html#a3cb799c8e2062dba15944b8ff9efae54":[10,0,0,0,4,1,32],
+"gltfreader_8cc.html#a4369629ff958628cece5119e3b2e509c":[10,0,0,0,4,1,25],
 "gltfreader_8cc.html#a44a8aeed7d7131324dbeaa186269b426":[10,0,0,0,4,1,18],
 "gltfreader_8cc.html#a4ff7b6ec436c9a996250b0896a5e7d4e":[10,0,0,0,4,1,1],
 "gltfreader_8cc.html#a58feb4315e656609f4b86c20b797bbee":[10,0,0,0,4,1,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "httpnzstream_8h_source.html":[10,0,0,3,6,17],
 "httpprotocol_8cc.html":[10,0,0,3,6,18],
 "httpprotocol_8cc.html#a48f070a48c8856c82df08a92a2295815":[10,0,0,3,6,18,1],
-"httpprotocol_8cc.html#a7e46f055c9a0f2b833f85d2432d7feb1":[10,0,0,3,6,18,2],
-"httpprotocol_8cc.html#ad1adc6516574a0c6c81def0c1120a59d":[10,0,0,3,6,18,3],
-"httpprotocol_8cc.html#af42b64eaff3413bf3153755414a7f66b":[10,0,0,3,6,18,0]
+"httpprotocol_8cc.html#a7e46f055c9a0f2b833f85d2432d7feb1":[10,0,0,3,6,18,2]
 };

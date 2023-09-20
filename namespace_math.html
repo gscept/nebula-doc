@@ -165,6 +165,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html">quat</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A quaternion is usually used to represent an orientation in 3D space.  <a href="struct_math_1_1quat.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1randxorstate.html">randxorstate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">fast random generator based on xorshift+  <a href="struct_math_1_1randxorstate.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1rectangle.html">rectangle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 2d rectangle class.  <a href="class_math_1_1rectangle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +198,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a21a4290821a872c07f52b6cf6c4f62ea" id="r_a21a4290821a872c07f52b6cf6c4f62ea"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_math_1_1rectangle.html">rectangle</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a21a4290821a872c07f52b6cf6c4f62ea">floatRectangle</a></td></tr>
+<tr class="separator:a21a4290821a872c07f52b6cf6c4f62ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1adf73ef199b9b02c6a3bf864c172ae" id="r_ae1adf73ef199b9b02c6a3bf864c172ae"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_math_1_1rectangle.html">rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ae1adf73ef199b9b02c6a3bf864c172ae">intRectangle</a></td></tr>
+<tr class="separator:ae1adf73ef199b9b02c6a3bf864c172ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2733c5340f0e631b4e55bbda18b3243" id="r_aa2733c5340f0e631b4e55bbda18b3243"><td class="memItemLeft" align="right" valign="top">typedef float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td></tr>
 <tr class="separator:aa2733c5340f0e631b4e55bbda18b3243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d74926cf5251b29f0e7b8e5cb5b6ac" id="r_af6d74926cf5251b29f0e7b8e5cb5b6ac"><td class="memItemLeft" align="right" valign="top">typedef float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#af6d74926cf5251b29f0e7b8e5cb5b6ac">float32</a></td></tr>
@@ -562,6 +569,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aeaf609a6f7ae59cf94ebe1d6aa5e5640" id="r_aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="memItemLeft" align="right" valign="top">__forceinline unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aeaf609a6f7ae59cf94ebe1d6aa5e5640">roundtopow2</a> (unsigned int val)</td></tr>
 <tr class="memdesc:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounds up to next power of 2.  <br /></td></tr>
 <tr class="separator:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8d7984ef03f3b9d1d868ae6632b532" id="r_a2e8d7984ef03f3b9d1d868ae6632b532"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">randxor</a> (<a class="el" href="struct_math_1_1randxorstate.html">randxorstate</a> &amp;state)</td></tr>
+<tr class="separator:a2e8d7984ef03f3b9d1d868ae6632b532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c90d6799f58f5df2f037429c58e009" id="r_af9c90d6799f58f5df2f037429c58e009"><td class="memItemLeft" align="right" valign="top">__forceinline __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#af9c90d6799f58f5df2f037429c58e009">fmadd</a> (__m128 a, __m128 b, __m128 c)</td></tr>
 <tr class="memdesc:af9c90d6799f58f5df2f037429c58e009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fused multiply-add operation, (a * b) + c.  <br /></td></tr>
 <tr class="separator:af9c90d6799f58f5df2f037429c58e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -903,6 +912,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef double <a class="el" href="namespace_math.html#a97c40e60381ffb29fac674275d2bf71d">Math::float64</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21a4290821a872c07f52b6cf6c4f62ea" name="a21a4290821a872c07f52b6cf6c4f62ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a4290821a872c07f52b6cf6c4f62ea">&#9670;&#160;</a></span>floatRectangle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_math_1_1rectangle.html">rectangle</a>&lt;float&gt; <a class="el" href="namespace_math.html#a21a4290821a872c07f52b6cf6c4f62ea">Math::floatRectangle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1adf73ef199b9b02c6a3bf864c172ae" name="ae1adf73ef199b9b02c6a3bf864c172ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1adf73ef199b9b02c6a3bf864c172ae">&#9670;&#160;</a></span>intRectangle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_math_1_1rectangle.html">rectangle</a>&lt;int&gt; <a class="el" href="namespace_math.html#ae1adf73ef199b9b02c6a3bf864c172ae">Math::intRectangle</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -7730,6 +7767,24 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a2e8d7984ef03f3b9d1d868ae6632b532" name="a2e8d7984ef03f3b9d1d868ae6632b532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e8d7984ef03f3b9d1d868ae6632b532">&#9670;&#160;</a></span>randxor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Math::randxor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1randxorstate.html">randxorstate</a> &amp;&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2974bd29af86727a6155238de7470b0c" name="a2974bd29af86727a6155238de7470b0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2974bd29af86727a6155238de7470b0c">&#9670;&#160;</a></span>recip()</h2>
 
@@ -9541,7 +9596,7 @@ template&lt;int x, int y, int z, int w&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li>
 				<li class="footer">
-					Generated on Mon Sep 18 2023 06:22:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Sep 20 2023 10:40:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
