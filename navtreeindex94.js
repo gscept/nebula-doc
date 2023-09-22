@@ -1,5 +1,11 @@
 var NAVTREEINDEX94 =
 {
+"frameblit_8h_source.html":[10,0,0,6,9,4],
+"framecode_8cc.html":[10,0,0,6,9,5],
+"framecode_8h.html":[10,0,0,6,9,6],
+"framecode_8h_source.html":[10,0,0,6,9,6],
+"framecompute_8cc.html":[10,0,0,6,9,7],
+"framecompute_8h.html":[10,0,0,6,9,8],
 "framecompute_8h_source.html":[10,0,0,6,9,8],
 "framecopy_8cc.html":[10,0,0,6,9,9],
 "framecopy_8h.html":[10,0,0,6,9,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX94 =
 "game_8cc.html#afc342ce5a18c38613c88500d80c5eb2e":[10,0,0,0,8,0,4,1],
 "game_8h.html":[10,0,0,0,8,0,5],
 "game_8h.html#ab860d38687ade61a5a95e809ae63cf43":[10,0,0,0,8,0,5,0],
-"game_8h.html#adb276799cbdf26e35ca64b7950b82ba5":[10,0,0,0,8,0,5,2],
-"game_8h.html#afc342ce5a18c38613c88500d80c5eb2e":[10,0,0,0,8,0,5,1],
-"game_8h_source.html":[10,0,0,0,8,0,5],
-"gameapplication_8cc.html":[10,0,0,1,0,0],
-"gameapplication_8cc.html#ac9e870743c6ac6a30b933c85e8268de1":[10,0,0,1,0,0,0],
-"gameapplication_8h.html":[10,0,0,1,0,1],
-"gameapplication_8h_source.html":[10,0,0,1,0,1]
+"game_8h.html#adb276799cbdf26e35ca64b7950b82ba5":[10,0,0,0,8,0,5,2]
 };

@@ -25,6 +25,7 @@ var class_models_1_1_model_context =
     [ "GetNodeIndex", "class_models_1_1_model_context.html#af24b2047391256f205ca8ccda93f82ce", null ],
     [ "GetTransform", "class_models_1_1_model_context.html#a1271eb3d53efb0be17bfbcaed3e77486", null ],
     [ "GetTransform", "class_models_1_1_model_context.html#ab2333d141390a226f3ad18c014817d0c", null ],
+    [ "IsLoaded", "class_models_1_1_model_context.html#ad2155448a2391e8c4c2ebada00159045", null ],
     [ "OnRenderDebug", "class_models_1_1_model_context.html#abfb0c3ba82ac51be23c8a70348d37cfa", null ],
     [ "SetAlwaysVisible", "class_models_1_1_model_context.html#aebdd563272d6eac6b2ac8cf9ef5885d3", null ],
     [ "SetTransform", "class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370", null ],
@@ -39,6 +40,8 @@ var class_models_1_1_model_context =
     [ "ConstantsUpdateCounter", "class_models_1_1_model_context.html#ac2a758db912de7842ecf5cad09035903", null ],
     [ "materialInstanceContexts", "class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
-    [ "nodeInstances", "class_models_1_1_model_context.html#aa16abddf9fe159d4fddfff707511069b", null ],
+    [ "NodeInstances", "class_models_1_1_model_context.html#a0dc7d4539f59ad8b0a4ad87758d0ba4b", null ],
+    [ "RenderInstanceAllocator", "class_models_1_1_model_context.html#aedeaa5b01db4a46e67089b850b4f2329", null ],
+    [ "TransformInstanceAllocator", "class_models_1_1_model_context.html#a3a97410099307befd96ceb80d9e39f71", null ],
     [ "TransformsUpdateCounter", "class_models_1_1_model_context.html#ad7c60d33aa197cdaa5b5dcd9d3764f26", null ]
 ];
