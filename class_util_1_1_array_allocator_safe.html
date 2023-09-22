@@ -176,12 +176,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91557cd489d0c2274bd7dc642719b210" id="r_a91557cd489d0c2274bd7dc642719b210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a91557cd489d0c2274bd7dc642719b210">UpdateSize</a> ()</td></tr>
 <tr class="memdesc:a91557cd489d0c2274bd7dc642719b210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Any reserve and direct array access might mess with the size.  <br /></td></tr>
 <tr class="separator:a91557cd489d0c2274bd7dc642719b210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1573450c8b0ca61f3ba327f0170d522f" id="r_a1573450c8b0ca61f3ba327f0170d522f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a1573450c8b0ca61f3ba327f0170d522f">TryAcquire</a> (const uint32_t index)</td></tr>
-<tr class="memdesc:a1573450c8b0ca61f3ba327f0170d522f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spinlock to acquire.  <br /></td></tr>
-<tr class="separator:a1573450c8b0ca61f3ba327f0170d522f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9a97791c790f47c05211c23deeaff85" id="r_ab9a97791c790f47c05211c23deeaff85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#ab9a97791c790f47c05211c23deeaff85">Acquire</a> (const uint32_t index)</td></tr>
-<tr class="memdesc:ab9a97791c790f47c05211c23deeaff85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire element, asserts if false and returns true if this call acquired.  <br /></td></tr>
-<tr class="separator:ab9a97791c790f47c05211c23deeaff85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c0f0b36513a3bb66566bdf2864dbfc" id="r_ac2c0f0b36513a3bb66566bdf2864dbfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#ac2c0f0b36513a3bb66566bdf2864dbfc">TryAcquire</a> (const uint32_t index)</td></tr>
+<tr class="memdesc:ac2c0f0b36513a3bb66566bdf2864dbfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spinlock to acquire.  <br /></td></tr>
+<tr class="separator:ac2c0f0b36513a3bb66566bdf2864dbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02654a00830a12aca5e356b20e716eea" id="r_a02654a00830a12aca5e356b20e716eea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea">Acquire</a> (const uint32_t index)</td></tr>
+<tr class="memdesc:a02654a00830a12aca5e356b20e716eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire element, asserts if false and returns true if this call acquired.  <br /></td></tr>
+<tr class="separator:a02654a00830a12aca5e356b20e716eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853740032ea0f3e99386bfb3f84c7f63" id="r_a853740032ea0f3e99386bfb3f84c7f63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator_safe.html#a853740032ea0f3e99386bfb3f84c7f63">Release</a> (const uint32_t index)</td></tr>
 <tr class="memdesc:a853740032ea0f3e99386bfb3f84c7f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release an object, the next thread that acquires may use this instance as it fits.  <br /></td></tr>
 <tr class="separator:a853740032ea0f3e99386bfb3f84c7f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,8 +317,8 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab9a97791c790f47c05211c23deeaff85" name="ab9a97791c790f47c05211c23deeaff85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9a97791c790f47c05211c23deeaff85">&#9670;&#160;</a></span>Acquire()</h2>
+<a id="a02654a00830a12aca5e356b20e716eea" name="a02654a00830a12aca5e356b20e716eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02654a00830a12aca5e356b20e716eea">&#9670;&#160;</a></span>Acquire()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +326,7 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> MAX_ALLOCS, class ... TYPES&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Acquire </td>
+          <td class="memname">bool <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Acquire </td>
           <td>(</td>
           <td class="paramtype">const uint32_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -831,8 +831,8 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 
 </div>
 </div>
-<a id="a1573450c8b0ca61f3ba327f0170d522f" name="a1573450c8b0ca61f3ba327f0170d522f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1573450c8b0ca61f3ba327f0170d522f">&#9670;&#160;</a></span>TryAcquire()</h2>
+<a id="ac2c0f0b36513a3bb66566bdf2864dbfc" name="ac2c0f0b36513a3bb66566bdf2864dbfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c0f0b36513a3bb66566bdf2864dbfc">&#9670;&#160;</a></span>TryAcquire()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -840,7 +840,7 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> MAX_ALLOCS, class ... TYPES&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::TryAcquire </td>
+          <td class="memname">void <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::TryAcquire </td>
           <td>(</td>
           <td class="paramtype">const uint32_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -982,7 +982,7 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe</a></li>
 				<li class="footer">
-					Generated on Fri Sep 22 2023 19:08:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Sep 22 2023 19:13:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -7,7 +7,7 @@ var searchData=
   ['acceptsmessage_4',['AcceptsMessage',['../class_messaging_1_1_port.html#a8ab25ad3d255a156294d4a7afb431f18',1,'Messaging::Port']]],
   ['accessortypetonebula_5',['AccessorTypeToNebula',['../gltfreader_8cc.html#a88fce0b7342cd6d4cf01d510fb2e0b44',1,'gltfreader.cc']]],
   ['acos_6',['acos',['../namespace_math.html#ad5c0ae163b8fd828adcc2e1a14476c9c',1,'Math']]],
-  ['acquire_7',['Acquire',['../class_util_1_1_array_allocator_safe.html#ab9a97791c790f47c05211c23deeaff85',1,'Util::ArrayAllocatorSafe']]],
+  ['acquire_7',['Acquire',['../class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea',1,'Util::ArrayAllocatorSafe']]],
   ['activateaudioemitter_8',['ActivateAudioEmitter',['../namespace_audio_feature.html#a159fb916a1bf20f4d0a182dc26866906',1,'AudioFeature']]],
   ['actorid_9',['actorid',['../struct_physics_1_1_actor_id.html#a35afa792f5140f51a7ff5603c7b0290a',1,'Physics::ActorId::ActorId(uint32_t i)'],['../struct_physics_1_1_actor_id.html#a25fdf795187537eb90f5ceb38ddc652f',1,'Physics::ActorId::ActorId()']]],
   ['adapterexists_10',['adapterexists',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#ac3d746d20e3e8ee6571ce98b48d7eb05',1,'GLFW::GLFWDisplayDevice::AdapterExists()'],['../class_base_1_1_display_device_base.html#a3106acdcfea0b9170d4f87ab1bffc9fc',1,'Base::DisplayDeviceBase::AdapterExists()']]],
