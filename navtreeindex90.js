@@ -1,6 +1,6 @@
 var NAVTREEINDEX90 =
 {
-"classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#ae3ca1da5353d10242f4d4fdd18ec0e5c":[9,0,63,0,18],
+"classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#ae3ca1da5353d10242f4d4fdd18ec0e5c":[8,0,72,0,18],
 "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#aefe58f94c5c636f120f5293b291f60b6":[8,0,72,0,21],
 "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#aefe58f94c5c636f120f5293b291f60b6":[9,0,63,0,21],
 "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#af1527717dae698b5e2e2af496e071640":[9,0,63,0,10],

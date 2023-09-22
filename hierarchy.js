@@ -2342,6 +2342,7 @@ var hierarchy =
     [ "Vegetation::VegetationGrassSetup", "struct_vegetation_1_1_vegetation_grass_setup.html", null ],
     [ "Vegetation::VegetationMeshSetup", "struct_vegetation_1_1_vegetation_mesh_setup.html", null ],
     [ "Vegetation::VegetationSetupSettings", "struct_vegetation_1_1_vegetation_setup_settings.html", null ],
+    [ "CoreGraphics::VertexAlloc", "struct_core_graphics_1_1_vertex_alloc.html", null ],
     [ "CoreGraphics::VertexComponent", "class_core_graphics_1_1_vertex_component.html", null ],
     [ "Base::VertexComponentBase", "class_base_1_1_vertex_component_base.html", null ],
     [ "Im3d::VertexData", "struct_im3d_1_1_vertex_data.html", null ],

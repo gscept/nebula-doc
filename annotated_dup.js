@@ -281,6 +281,7 @@ var annotated_dup =
       [ "TextureViewId", "struct_core_graphics_1_1_texture_view_id.html", null ],
       [ "ThreadSafeDisplayEventHandler", "class_core_graphics_1_1_thread_safe_display_event_handler.html", "class_core_graphics_1_1_thread_safe_display_event_handler" ],
       [ "ThreadSafeRenderEventHandler", "class_core_graphics_1_1_thread_safe_render_event_handler.html", "class_core_graphics_1_1_thread_safe_render_event_handler" ],
+      [ "VertexAlloc", "struct_core_graphics_1_1_vertex_alloc.html", "struct_core_graphics_1_1_vertex_alloc" ],
       [ "VertexComponent", "class_core_graphics_1_1_vertex_component.html", "class_core_graphics_1_1_vertex_component" ],
       [ "VertexLayoutCreateInfo", "struct_core_graphics_1_1_vertex_layout_create_info.html", "struct_core_graphics_1_1_vertex_layout_create_info" ],
       [ "VertexLayoutId", "struct_core_graphics_1_1_vertex_layout_id.html", null ],

@@ -17,7 +17,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "globalConstantBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#aea0703fe02f27157052eee90d4f75ba5", null ],
     [ "globalGraphicsConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#ac363ab9fcd246d916c766c641e54ad52", null ],
     [ "globalUploadBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#ab667504deb2d35628b61ea1213b238f0", null ],
-    [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a9e41a55df9ab3c706c4e4b03d659a5a9", null ],
+    [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a81f87f71a6a61c7546e54f673e755980", null ],
     [ "indexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a8db2bc5ae5ffe68141934069b16c72a3", null ],
     [ "inNotifyEventHandlers", "struct_core_graphics_1_1_graphics_device_state.html#a85aee14876067ba0c06d1f19a28dec5c", null ],
     [ "isOpen", "struct_core_graphics_1_1_graphics_device_state.html#a3981726be1aa1bd1a8df5a86950f8221", null ],
@@ -32,7 +32,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "tickResourceTableCompute", "struct_core_graphics_1_1_graphics_device_state.html#a574d168a77b139eb06f5c369613cfb66", null ],
     [ "tickResourceTableGraphics", "struct_core_graphics_1_1_graphics_device_state.html#a658f5e21d3995b70ae789cf19b9de60c", null ],
     [ "uploadBuffer", "struct_core_graphics_1_1_graphics_device_state.html#af8f2b75e97294781889bbb9255cca2b2", null ],
-    [ "vertexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#abfef5a2cf138aef45af51f7865842b2d", null ],
+    [ "vertexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a017c74e12c522c6f7ea56d1039234b02", null ],
     [ "vertexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a760ce6fe27d3dc4ef96b35f8a421ad22", null ],
     [ "visualizeMipMaps", "struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a", null ]
 ];
