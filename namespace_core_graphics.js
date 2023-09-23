@@ -872,6 +872,7 @@ var namespace_core_graphics =
     [ "ResourceTableBlocked", "namespace_core_graphics.html#a251d161861c9c06b6201fa1737f8e589", null ],
     [ "subpassInfos", "namespace_core_graphics.html#a45d10678b4504af0d5d858f1c192fce5", null ],
     [ "TextureAutoMips", "namespace_core_graphics.html#a6e5cf5412647a07dde5eae8f31aeda9d", null ],
+    [ "UniqueSamplerHashes", "namespace_core_graphics.html#a7947deb6762810e0051a517c9ccbce45", null ],
     [ "vertexAllocationMutex", "namespace_core_graphics.html#a4c0719f6f8a5bb09fa43bbc0d8cb0392", null ],
     [ "White1D", "namespace_core_graphics.html#a55e561f874eb4ab9cba1b16aa04dde4c", null ],
     [ "White1DArray", "namespace_core_graphics.html#a6db86541264d14a51cf9ef4e33988174", null ],

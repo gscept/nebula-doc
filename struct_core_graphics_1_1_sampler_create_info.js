@@ -1,5 +1,6 @@
 var struct_core_graphics_1_1_sampler_create_info =
 [
+    [ "HashCode", "struct_core_graphics_1_1_sampler_create_info.html#a996948b9e0b5c9deb3b734e18a435566", null ],
     [ "addressModeU", "struct_core_graphics_1_1_sampler_create_info.html#a579631977fd1350391e043f22bba65a9", null ],
     [ "addressModeV", "struct_core_graphics_1_1_sampler_create_info.html#a62ea22ec797b04887316276ddfc8b313", null ],
     [ "addressModeW", "struct_core_graphics_1_1_sampler_create_info.html#aad25f85b4fa2e0affa90256ad04eefd0", null ],

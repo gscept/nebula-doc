@@ -356,7 +356,7 @@ var searchData=
   ['vkresourcetablelayoutallocator_353',['VkResourceTableLayoutAllocator',['../namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312',1,'Vulkan']]],
   ['vksampler_2ecc_354',['vksampler.cc',['../vksampler_8cc.html',1,'']]],
   ['vksampler_2eh_355',['vksampler.h',['../vksampler_8h.html',1,'']]],
-  ['vksamplerallocator_356',['VkSamplerAllocator',['../namespace_vulkan.html#a20057e123e4f6378663bf41dd4757122',1,'Vulkan']]],
+  ['vksamplerallocator_356',['VkSamplerAllocator',['../namespace_vulkan.html#a16e223a26b6bd185eff874a64ee29e07',1,'Vulkan']]],
   ['vkscheduler_357',['vkscheduler',['../class_vulkan_1_1_vk_scheduler.html',1,'Vulkan::VkScheduler'],['../class_vulkan_1_1_vk_scheduler.html#ac5ecb4024528afbeb352c99849cd1a4b',1,'Vulkan::VkScheduler::VkScheduler()']]],
   ['vkscheduler_2ecc_358',['vkscheduler.cc',['../vkscheduler_8cc.html',1,'']]],
   ['vkscheduler_2eh_359',['vkscheduler.h',['../vkscheduler_8h.html',1,'']]],

@@ -7,6 +7,7 @@ var bit_8h =
     [ "HasBit", "bit_8h.html#adc7d7177fb7c733ce2a4bac52d61e7dc", null ],
     [ "HasBit", "bit_8h.html#a559a7a7139fa77cbf28c620a97aa614e", null ],
     [ "HasBit", "bit_8h.html#a5c94977ecc1a4eacc0fe8a31e3703f56", null ],
+    [ "HashCombine", "bit_8h.html#af3fee714ad3302f91750deae67a94852", null ],
     [ "SetBit", "bit_8h.html#adbcadd541631cff951e1856ea4ae5906", null ],
     [ "SetBit", "bit_8h.html#a2a86c99896c2a818350b124592d5867c", null ],
     [ "SetBit", "bit_8h.html#aa73ad094ccb945cb6cfa59b8b9a1a7b1", null ],

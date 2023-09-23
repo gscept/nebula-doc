@@ -14,5 +14,6 @@ var vksampler_8cc =
     [ "ToVkSamplerAddressMode", "vksampler_8cc.html#ac5acf5b72c2b3120e52a8a322310b9bb", null ],
     [ "ToVkSamplerFilter", "vksampler_8cc.html#a8faed933fc4d6bef51290d945fd65837", null ],
     [ "ToVkSamplerMipMapMode", "vksampler_8cc.html#a7aee5863739e4a9990a8e7c40143218e", null ],
-    [ "samplerAllocator", "vksampler_8cc.html#a43d1f2fe26b2d38eba1abfb727042050", null ]
+    [ "samplerAllocator", "vksampler_8cc.html#a43d1f2fe26b2d38eba1abfb727042050", null ],
+    [ "UniqueSamplerHashes", "vksampler_8cc.html#a7947deb6762810e0051a517c9ccbce45", null ]
 ];

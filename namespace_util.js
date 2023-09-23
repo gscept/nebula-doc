@@ -78,6 +78,7 @@ var namespace_util =
     [ "HasBit", "namespace_util.html#adc7d7177fb7c733ce2a4bac52d61e7dc", null ],
     [ "HasBit", "namespace_util.html#a559a7a7139fa77cbf28c620a97aa614e", null ],
     [ "HasBit", "namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56", null ],
+    [ "HashCombine", "namespace_util.html#af3fee714ad3302f91750deae67a94852", null ],
     [ "MakePair", "namespace_util.html#a2663641470c1ec3e4a9c821e9115e45a", null ],
     [ "MakeTuple", "namespace_util.html#a51c0e64fce7a99558534d3911051660b", null ],
     [ "move_for_each_in_tuple", "namespace_util.html#ae6bc91449daa6b35f6afdee2077e970d", null ],

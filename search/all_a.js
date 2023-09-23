@@ -11,7 +11,7 @@ var searchData=
   ['job_5fscratchmemory_8',['Job_ScratchMemory',['../namespace_jobs.html#a005bf6518f4e177d335dd15b459be63fab9d360a02f23869fbca9b8913332af1c',1,'Jobs']]],
   ['joballoc_9',['joballoc',['../namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586',1,'Jobs2::JobAlloc(SizeT count)'],['../namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730',1,'Jobs2::JobAlloc(SizeT bytes)']]],
   ['joballocatescratchmemory_10',['JobAllocateScratchMemory',['../namespace_jobs.html#a56025012a52787cf078d493b6abe2fbe',1,'Jobs']]],
-  ['joballocator_11',['joballocator',['../namespace_jobs.html#abf368e9017b84e796ab5f92857ed1771',1,'Jobs::jobAllocator'],['../namespace_jobs.html#aefe64565cdbf947d5856b071f8b6c348',1,'Jobs::JobAllocator']]],
+  ['joballocator_11',['joballocator',['../namespace_jobs.html#aefe64565cdbf947d5856b071f8b6c348',1,'Jobs::JobAllocator'],['../namespace_jobs.html#abf368e9017b84e796ab5f92857ed1771',1,'Jobs::jobAllocator']]],
   ['jobappendsequence_12',['jobappendsequence',['../namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad',1,'Jobs2::JobAppendSequence(const JobFunc &amp;func, const SizeT numInvocations, const CTX &amp;context)'],['../namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753',1,'Jobs2::JobAppendSequence(const JobFunc &amp;func, const SizeT numInvocations, const SizeT groupSize, const CTX &amp;context)']]],
   ['jobbeginsequence_13',['JobBeginSequence',['../namespace_jobs2.html#aad0a8c6bc396afb073d040d8edc59e68',1,'Jobs2']]],
   ['jobchain_14',['jobChain',['../class_animation_1_1_anim_sequencer.html#ae65ac850d10f48b05f10319e8d14de3e',1,'Animation::AnimSequencer']]],

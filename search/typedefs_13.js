@@ -16,7 +16,7 @@ var searchData=
   ['vkresourcepipelineallocator_13',['VkResourcePipelineAllocator',['../namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b',1,'Vulkan']]],
   ['vkresourcetableallocator_14',['VkResourceTableAllocator',['../namespace_vulkan.html#afdd771e09a781d6e0c1089ff9c1da27d',1,'Vulkan']]],
   ['vkresourcetablelayoutallocator_15',['VkResourceTableLayoutAllocator',['../namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312',1,'Vulkan']]],
-  ['vksamplerallocator_16',['VkSamplerAllocator',['../namespace_vulkan.html#a20057e123e4f6378663bf41dd4757122',1,'Vulkan']]],
+  ['vksamplerallocator_16',['VkSamplerAllocator',['../namespace_vulkan.html#a16e223a26b6bd185eff874a64ee29e07',1,'Vulkan']]],
   ['vksemaphoreallocator_17',['VkSemaphoreAllocator',['../namespace_vulkan.html#ad54f8dc5d631c9d61e3cceb082a400a0',1,'Vulkan']]],
   ['vkshaderprogramallocator_18',['VkShaderProgramAllocator',['../namespace_vulkan.html#a255ca5578ea5830a976f3350493ee82b',1,'Vulkan']]],
   ['vktextureallocator_19',['VkTextureAllocator',['../namespace_vulkan.html#a04f50653d608b5f75efdc83a14e528ec',1,'Vulkan']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"frameblit_8h.html":[10,0,0,6,9,4],
 "frameblit_8h_source.html":[10,0,0,6,9,4],
 "framecode_8cc.html":[10,0,0,6,9,5],
 "framecode_8h.html":[10,0,0,6,9,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "game_8cc.html#adb276799cbdf26e35ca64b7950b82ba5":[10,0,0,0,8,0,4,2],
 "game_8cc.html#afc342ce5a18c38613c88500d80c5eb2e":[10,0,0,0,8,0,4,1],
 "game_8h.html":[10,0,0,0,8,0,5],
-"game_8h.html#ab860d38687ade61a5a95e809ae63cf43":[10,0,0,0,8,0,5,0],
-"game_8h.html#adb276799cbdf26e35ca64b7950b82ba5":[10,0,0,0,8,0,5,2]
+"game_8h.html#ab860d38687ade61a5a95e809ae63cf43":[10,0,0,0,8,0,5,0]
 };

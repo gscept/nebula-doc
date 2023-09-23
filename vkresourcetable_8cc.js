@@ -28,7 +28,7 @@ var vkresourcetable_8cc =
     [ "ResourceTableSetTexture", "vkresourcetable_8cc.html#a0a79e2c9b78fc28f8d0e5c8cd5b17c0b", null ],
     [ "ResourceTableSetTexture", "vkresourcetable_8cc.html#a0c10c278793f7d09af0498f6c51eb036", null ],
     [ "SetupEmptyDescriptorSetLayout", "vkresourcetable_8cc.html#ad694f7e47f313d10898ebd312078ddab", null ],
-    [ "emptySetLayout", "vkresourcetable_8cc.html#a0ddc440a75054649abaf63181d4f1e12", null ],
+    [ "EmptySetLayout", "vkresourcetable_8cc.html#a71b839109cd6d61b041e8860e30faeff", null ],
     [ "resourcePipelineAllocator", "vkresourcetable_8cc.html#a60fe4aa7ec4659aa4c37b5e6b8550fb9", null ],
     [ "resourceTableAllocator", "vkresourcetable_8cc.html#a04f5b266d83bd40d29a9d4702397fe3f", null ],
     [ "resourceTableLayoutAllocator", "vkresourcetable_8cc.html#a74fd5cbb4d02f644386428772fe4153b", null ]
