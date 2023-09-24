@@ -145,14 +145,16 @@ var namespace_core_graphics =
     [ "ImageAllocator", "namespace_core_graphics.html#a5b91aa8d9d536bc0f7dc97e74061b59d", null ],
     [ "MeshAllocator", "namespace_core_graphics.html#a60be98450617bedad4b9d948f539396c", null ],
     [ "MeshResourceAllocator", "namespace_core_graphics.html#ae65f5b7eed611cb61bbb64401cea73b1", null ],
-    [ "AttachmentFlagBits", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244", [
-      [ "NoFlags", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244abdf7f7baecec8138e4b85f027dfefc31", null ],
-      [ "Clear", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244adc30bc0c7914db5918da4263fce93ad2", null ],
-      [ "ClearStencil", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244ac5eb638c1de4cd74c78d1fc1e24acb93", null ],
-      [ "Load", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244af19dbf2edb3a0bd74b0524d960ff21eb", null ],
-      [ "LoadStencil", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244a714a0256aeb72a90e7639122436d5837", null ],
-      [ "Store", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244afdb0c388de01d545017cdf9ccf00eb72", null ],
-      [ "StoreStencil", "namespace_core_graphics.html#acfc12b4bdcacc901bf1ffad84213c244a82319d4a7302d5ff8c1fbd00d22d0929", null ]
+    [ "AttachmentFlagBits", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473a", [
+      [ "NoFlags", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aabdf7f7baecec8138e4b85f027dfefc31", null ],
+      [ "Clear", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aadc30bc0c7914db5918da4263fce93ad2", null ],
+      [ "ClearStencil", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aac5eb638c1de4cd74c78d1fc1e24acb93", null ],
+      [ "Load", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aaf19dbf2edb3a0bd74b0524d960ff21eb", null ],
+      [ "LoadStencil", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aa714a0256aeb72a90e7639122436d5837", null ],
+      [ "Store", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aafdb0c388de01d545017cdf9ccf00eb72", null ],
+      [ "StoreStencil", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aa82319d4a7302d5ff8c1fbd00d22d0929", null ],
+      [ "Discard", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aad94b42030b9785fd754d5c1754961269", null ],
+      [ "DiscardStencil", "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aae1117aa638bfa968b8dd24c2e871ad5f", null ]
     ] ],
     [ "BarrierDomain", "namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826", [
       [ "Global", "namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826a4cc6684df7b4a92b1dec6fce3264fac8", null ],
@@ -480,6 +482,7 @@ var namespace_core_graphics =
     [ "AllocateVertices", "namespace_core_graphics.html#a3a6e0d4dff02ca20998e27b5661399ca", null ],
     [ "AllocateVertices", "namespace_core_graphics.html#ae158e9b41fe5c11b5ca569db32c4c1af", null ],
     [ "AttachEventHandler", "namespace_core_graphics.html#abb89c006055f05dbe633d86e01f08667", null ],
+    [ "AttachmentFlagsFromString", "namespace_core_graphics.html#a9608c99e4d87ee7820334656d39c3aca", null ],
     [ "BarrierPop", "namespace_core_graphics.html#a03d21a2992635e55bc77a2d6db1bcda5", null ],
     [ "BarrierPush", "namespace_core_graphics.html#aefc932a7f2be98db693df666720f42d6", null ],
     [ "BarrierPush", "namespace_core_graphics.html#a9e0b2e36584249d45092c8951e25680a", null ],

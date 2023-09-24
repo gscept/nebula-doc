@@ -1,5 +1,11 @@
 var NAVTREEINDEX119 =
 {
+"resourcetable_8h.html#aff135cb5485661bc9fea2b4283ecbf8d":[10,0,0,6,5,60,28],
+"resourcetable_8h_source.html":[10,0,0,6,5,60],
+"ringallocator_8h.html":[10,0,0,3,13,11],
+"ringallocator_8h_source.html":[10,0,0,3,13,11],
+"ringbuffer_8h.html":[10,0,0,3,20,38],
+"ringbuffer_8h_source.html":[10,0,0,3,20,38],
 "round_8h.html":[10,0,0,3,20,39],
 "round_8h_source.html":[10,0,0,3,20,39],
 "rtplugin_8cc.html":[10,0,0,6,20,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX119 =
 "shaderconfigserver_8h_source.html":[10,0,0,6,14,8],
 "shaderfeature_8cc.html":[10,0,0,6,5,65],
 "shaderfeature_8h.html":[10,0,0,6,5,66],
-"shaderfeature_8h_source.html":[10,0,0,6,5,66],
-"shaderidentifier_8cc.html":[10,0,0,6,5,67],
-"shaderidentifier_8h.html":[10,0,0,6,5,68],
-"shaderidentifier_8h_source.html":[10,0,0,6,5,68],
-"shaderloader_8cc.html":[10,0,0,6,5,69],
-"shaderloader_8cc.html#a9d3a18881c91c60a030f2c0e5c91f6b6":[10,0,0,6,5,69,0],
-"shaderloader_8h.html":[10,0,0,6,5,70]
+"shaderfeature_8h_source.html":[10,0,0,6,5,66]
 };
