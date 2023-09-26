@@ -1,13 +1,13 @@
 var class_physics_1_1_physx_state =
 [
     [ "PhysxState", "class_physics_1_1_physx_state.html#a5d7cb28ba3d02dc4d2244c291fb76c11", null ],
-    [ "BeginFrame", "class_physics_1_1_physx_state.html#aa7fe2077415dab0f04251d5d93ec2a47", null ],
+    [ "BeginSimulating", "class_physics_1_1_physx_state.html#a6327ece43031b32bdff846a6215116ab", null ],
     [ "ConnectPVD", "class_physics_1_1_physx_state.html#a9c678894c0b977fd2936f77159c96118", null ],
     [ "CreateActor", "class_physics_1_1_physx_state.html#a0b3f4e335109bd774ee468e5a23f9e4e", null ],
     [ "CreateActor", "class_physics_1_1_physx_state.html#a7161a71842b59b9caf9f44780128868d", null ],
     [ "DiscardActor", "class_physics_1_1_physx_state.html#af8f91ea9f11ec1496f48e9085c631212", null ],
     [ "DisconnectPVD", "class_physics_1_1_physx_state.html#a4dca2e7deb4367e4ee9a35f536680e6b", null ],
-    [ "EndFrame", "class_physics_1_1_physx_state.html#a0850102cbcd5f14c75d647537564fefb", null ],
+    [ "EndSimulating", "class_physics_1_1_physx_state.html#aa97d4a78910155c2f46305aacd603e3a", null ],
     [ "onAdvance", "class_physics_1_1_physx_state.html#a1146658a8351e05a52fcd70378588d3b", null ],
     [ "onConstraintBreak", "class_physics_1_1_physx_state.html#aa687d3c85c8f60fcaad72ceae42eabfa", null ],
     [ "onContact", "class_physics_1_1_physx_state.html#a41ff2426b92a926973e37ea4eceb6db8", null ],
@@ -33,6 +33,5 @@ var class_physics_1_1_physx_state =
     [ "overlapBuffer", "class_physics_1_1_physx_state.html#a0ff13b047898c06b4907c92ed2be0b47", null ],
     [ "physics", "class_physics_1_1_physx_state.html#abc5dc9a028b5a60b2e859319baf22e5e", null ],
     [ "pvd", "class_physics_1_1_physx_state.html#a552f3df0d7f362157357dfc71ee4b5ee", null ],
-    [ "time", "class_physics_1_1_physx_state.html#ae96f0fac3b61d4d109bceb7478888768", null ],
     [ "transport", "class_physics_1_1_physx_state.html#a01d616200a67e348f66aebf8562828fd", null ]
 ];
