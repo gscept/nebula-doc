@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"attributedefinition_8h.html#ae096fae336f07691ebb54e0a4ea3712e":[10,0,0,0,0,6,36],
+"attributedefinition_8h.html#ae0b0b25c23c0d38c3e653f0648983a40":[10,0,0,0,0,6,56],
 "attributedefinition_8h.html#ae23cad3f4bb0b0c14bdb671eff9dfa19":[10,0,0,0,0,6,15],
 "attributedefinition_8h.html#ae2e0bba69351c9d065cafbe534dfac12":[10,0,0,0,0,6,70],
 "attributedefinition_8h.html#ae84e3db360779373deb270f26574a066":[10,0,0,0,0,6,51],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "characternode_8cc.html":[10,0,0,6,15,0,0],
 "characternode_8h.html":[10,0,0,6,15,0,1],
 "characternode_8h_source.html":[10,0,0,6,15,0,1],
-"characterskinnode_8cc.html":[10,0,0,6,15,0,2],
-"characterskinnode_8h.html":[10,0,0,6,15,0,3],
-"characterskinnode_8h_source.html":[10,0,0,6,15,0,3]
+"characterskinnode_8cc.html":[10,0,0,6,15,0,2]
 };

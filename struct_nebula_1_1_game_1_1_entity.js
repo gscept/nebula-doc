@@ -2,6 +2,7 @@ var struct_nebula_1_1_game_1_1_entity =
 [
     [ "Entity", "struct_nebula_1_1_game_1_1_entity.html#a0d53fae8e3cac031ff96751488bf4e4a", null ],
     [ "Equals", "struct_nebula_1_1_game_1_1_entity.html#adb0b72acb262256860083c4c6915fa1a", null ],
+    [ "GetComponent< T >", "struct_nebula_1_1_game_1_1_entity.html#a435fbb7597b8d5138996c3b338b96e8a", null ],
     [ "GetTransform", "struct_nebula_1_1_game_1_1_entity.html#a4431ce34095ab748e0c43964b121dd9b", null ],
     [ "IsValid", "struct_nebula_1_1_game_1_1_entity.html#a0bac7dc1f0d4860da926919d6b700ac1", null ],
     [ "SetTransform", "struct_nebula_1_1_game_1_1_entity.html#a46901c0aa7e34cf6b6fc2f662652b4c7", null ],

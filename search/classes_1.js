@@ -391,8 +391,10 @@ var searchData=
   ['attributetable_388',['AttributeTable',['../class_attr_1_1_attribute_table.html',1,'Attr']]],
   ['attrid_389',['AttrId',['../class_attr_1_1_attr_id.html',1,'Attr']]],
   ['audiodevice_390',['AudioDevice',['../class_audio_1_1_audio_device.html',1,'Audio']]],
-  ['audioemitterid_391',['AudioEmitterId',['../struct_audio_1_1_audio_emitter_id.html',1,'Audio']]],
-  ['audiofeatureunit_392',['AudioFeatureUnit',['../class_audio_feature_1_1_audio_feature_unit.html',1,'AudioFeature']]],
-  ['audiomanager_393',['AudioManager',['../class_audio_feature_1_1_audio_manager.html',1,'AudioFeature']]],
-  ['audioserver_394',['AudioServer',['../class_audio_1_1_audio_server.html',1,'Audio']]]
+  ['audioemitter_391',['AudioEmitter',['../struct_psuedo_1_1_audio_emitter.html',1,'Psuedo']]],
+  ['audioemitterid_392',['AudioEmitterId',['../struct_audio_1_1_audio_emitter_id.html',1,'Audio']]],
+  ['audioemitterproperty_393',['AudioEmitterProperty',['../class_psuedo_1_1_audio_emitter_property.html',1,'Psuedo']]],
+  ['audiofeatureunit_394',['AudioFeatureUnit',['../class_audio_feature_1_1_audio_feature_unit.html',1,'AudioFeature']]],
+  ['audiomanager_395',['AudioManager',['../class_audio_feature_1_1_audio_manager.html',1,'AudioFeature']]],
+  ['audioserver_396',['AudioServer',['../class_audio_1_1_audio_server.html',1,'Audio']]]
 ];

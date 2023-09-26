@@ -135,8 +135,10 @@ $(document).ready(function(){initNavTree('monobindings_8h_source.html',''); init
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><a class="code hl_define" href="monoconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_mono.html#a2d2eb140d0a0523a63ff93c4cb4647e3">N_Log</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *log_domain, <span class="keyword">const</span> <span class="keywordtype">char</span> *log_level, <span class="keyword">const</span> <span class="keywordtype">char</span> *message, int32_t fatal, <span class="keywordtype">void</span> *user_data);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>} <span class="comment">// namespace Mono</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><a class="code hl_define" href="monoconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_mono.html#a86cfbaf148c129c6c9d45523b236ca64">N_Assert</a>(<span class="keywordtype">bool</span> value);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>} <span class="comment">// namespace Mono</span></div>
 <div class="ttc" id="aapplication_2game_2entity_8h_html"><div class="ttname"><a href="application_2game_2entity_8h.html">entity.h</a></div></div>
 <div class="ttc" id="aclass_mono_1_1_mono_bindings_html"><div class="ttname"><a href="class_mono_1_1_mono_bindings.html">Mono::MonoBindings</a></div><div class="ttdef"><b>Definition</b> monobindings.h:20</div></div>
 <div class="ttc" id="aclass_mono_1_1_mono_bindings_html_a24ef56d2dd7a706f83b3da80fba1fcdd"><div class="ttname"><a href="class_mono_1_1_mono_bindings.html#a24ef56d2dd7a706f83b3da80fba1fcdd">Mono::MonoBindings::~MonoBindings</a></div><div class="ttdeci">~MonoBindings()</div><div class="ttdef"><b>Definition</b> monobindings.cc:24</div></div>
@@ -149,6 +151,7 @@ $(document).ready(function(){initNavTree('monobindings_8h_source.html',''); init
 <div class="ttc" id="anamespace_mono_html"><div class="ttname"><a href="namespace_mono.html">Mono</a></div><div class="ttdoc">Mono::BoundingBox.</div><div class="ttdef"><b>Definition</b> bbox.cc:14</div></div>
 <div class="ttc" id="anamespace_mono_html_a0c029cc726317f45400acd246c851437"><div class="ttname"><a href="namespace_mono.html#a0c029cc726317f45400acd246c851437">Mono::N_Error</a></div><div class="ttdeci">void N_Error(const char *string, int32_t is_stdout)</div><div class="ttdef"><b>Definition</b> monobindings.cc:64</div></div>
 <div class="ttc" id="anamespace_mono_html_a2d2eb140d0a0523a63ff93c4cb4647e3"><div class="ttname"><a href="namespace_mono.html#a2d2eb140d0a0523a63ff93c4cb4647e3">Mono::N_Log</a></div><div class="ttdeci">void N_Log(const char *log_domain, const char *log_level, const char *message, int32_t fatal, void *user_data)</div><div class="ttdef"><b>Definition</b> monobindings.cc:73</div></div>
+<div class="ttc" id="anamespace_mono_html_a86cfbaf148c129c6c9d45523b236ca64"><div class="ttname"><a href="namespace_mono.html#a86cfbaf148c129c6c9d45523b236ca64">Mono::N_Assert</a></div><div class="ttdeci">void N_Assert(bool value)</div><div class="ttdef"><b>Definition</b> monobindings.cc:89</div></div>
 <div class="ttc" id="anamespace_mono_html_ae4ea5c38ecc7be34eb8d13b2d40563e8"><div class="ttname"><a href="namespace_mono.html#ae4ea5c38ecc7be34eb8d13b2d40563e8">Mono::N_Print</a></div><div class="ttdeci">void N_Print(const char *string, int32_t is_stdout)</div><div class="ttdef"><b>Definition</b> monobindings.cc:55</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -157,7 +160,7 @@ $(document).ready(function(){initNavTree('monobindings_8h_source.html',''); init
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_3f4de981491daf7040893230a7873228.html">nsharp</a></li><li class="navelem"><a class="el" href="monobindings_8h.html">monobindings.h</a></li>
 				<li class="footer">
-					Generated on Sun Sep 24 2023 22:54:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Sep 26 2023 11:38:06 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

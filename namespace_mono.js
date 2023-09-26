@@ -9,6 +9,7 @@ var namespace_mono =
     [ "Vector2", "class_mono_1_1_vector2.html", "class_mono_1_1_vector2" ],
     [ "Vector3", "class_mono_1_1_vector3.html", "class_mono_1_1_vector3" ],
     [ "Vector4", "class_mono_1_1_vector4.html", "class_mono_1_1_vector4" ],
+    [ "N_Assert", "namespace_mono.html#a86cfbaf148c129c6c9d45523b236ca64", null ],
     [ "N_Error", "namespace_mono.html#a0c029cc726317f45400acd246c851437", null ],
     [ "N_Log", "namespace_mono.html#a2d2eb140d0a0523a63ff93c4cb4647e3", null ],
     [ "N_Print", "namespace_mono.html#ae4ea5c38ecc7be34eb8d13b2d40563e8", null ],

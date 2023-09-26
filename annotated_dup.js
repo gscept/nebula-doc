@@ -903,6 +903,14 @@ var annotated_dup =
       [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
       [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ]
     ] ],
+    [ "Psuedo", "namespace_psuedo.html", [
+      [ "AudioEmitter", "struct_psuedo_1_1_audio_emitter.html", "struct_psuedo_1_1_audio_emitter" ],
+      [ "AudioEmitterProperty", "class_psuedo_1_1_audio_emitter_property.html", "class_psuedo_1_1_audio_emitter_property" ],
+      [ "Entity", "struct_psuedo_1_1_entity.html", "struct_psuedo_1_1_entity" ],
+      [ "NebulaApiV1", "class_psuedo_1_1_nebula_api_v1.html", null ],
+      [ "NebulaApp", "class_psuedo_1_1_nebula_app.html", "class_psuedo_1_1_nebula_app" ],
+      [ "Property", "class_psuedo_1_1_property.html", "class_psuedo_1_1_property" ]
+    ] ],
     [ "RenderModules", "namespace_render_modules.html", [
       [ "RenderModule", "class_render_modules_1_1_render_module.html", "class_render_modules_1_1_render_module" ],
       [ "RTPlugin", "class_render_modules_1_1_r_t_plugin.html", "class_render_modules_1_1_r_t_plugin" ],

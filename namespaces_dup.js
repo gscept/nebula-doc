@@ -80,6 +80,7 @@ var namespaces_dup =
     [ "Posix", "namespace_posix.html", "namespace_posix" ],
     [ "PostEffects", "namespace_post_effects.html", "namespace_post_effects" ],
     [ "Profiling", "namespace_profiling.html", "namespace_profiling" ],
+    [ "Psuedo", "namespace_psuedo.html", "namespace_psuedo" ],
     [ "Python", "namespace_python.html", [
       [ "NB_MODULE", "namespace_python.html#a36af739709366f2e68eddafc4b75d3ea", null ],
       [ "NB_MODULE", "namespace_python.html#afdb321b9b04333694036509e409ab1c4", null ],
