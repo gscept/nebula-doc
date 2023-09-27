@@ -164,6 +164,8 @@ var namespace_memory =
     [ "MemoryLoggingHeapType", "namespace_memory.html#a68089d5b4fe7cce3875d69acd943bcc3", null ],
     [ "MemoryLoggingThreshold", "namespace_memory.html#a8027aa793a26eaeefd1f86e66ccf0e26", null ],
     [ "MemoryLoogingHeapType", "namespace_memory.html#aa4c51e930a857aaac4da5c6552f36dce", null ],
+    [ "NUM_BINS_PER_BUCKET", "namespace_memory.html#a3070d843b8ee064a283eb106bd39839c", null ],
+    [ "NUM_BUCKETS", "namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d", null ],
     [ "PosixProcessHeap", "namespace_memory.html#a1bda6b459546d2c0d7de871bbaeea53b", null ],
     [ "TotalAllocCount", "namespace_memory.html#a22db429734eafa34e0a11a9024a97a08", null ],
     [ "TotalAllocSize", "namespace_memory.html#a1905ca63007c1a28f70bfdd3ad717427", null ],

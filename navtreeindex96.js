@@ -1,9 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"globals_defs_t.html":[10,1,6,17],
-"globals_defs_u.html":[10,1,6,18],
-"globals_defs_v.html":[10,1,6,19],
-"globals_defs_w.html":[10,1,6,20],
 "globals_enum.html":[10,1,4],
 "globals_eval.html":[10,1,5],
 "globals_f.html":[10,1,0,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX96 =
 "httpclientregistry_8h_source.html":[10,0,0,3,6,10],
 "httpinterface_8cc.html":[10,0,0,3,6,11],
 "httpinterface_8cc.html#a6b245320c4ac5c35bf67125a01ef9350":[10,0,0,3,6,11,0],
-"httpinterface_8cc.html#af5a01b7a0193ad0a7ed6b2c9f4ffa4e8":[10,0,0,3,6,11,1]
+"httpinterface_8cc.html#af5a01b7a0193ad0a7ed6b2c9f4ffa4e8":[10,0,0,3,6,11,1],
+"httpinterface_8h.html":[10,0,0,3,6,12],
+"httpinterface_8h.html#acc8841150ee8665d9dffafa58784107a":[10,0,0,3,6,12,1],
+"httpinterface_8h_source.html":[10,0,0,3,6,12],
+"httpmessagehandler_8cc.html":[10,0,0,3,6,13]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"decalcontext_8cc.html#aaf89057787ebc8a8600a1af0cc7a6ab8":[10,0,0,6,7,0,11],
-"decalcontext_8cc.html#ac0062f5d26182a176c0f1ef33824141e":[10,0,0,6,7,0,8],
-"decalcontext_8cc.html#ac0d27b3153e590a03eb7faadc98cd79d":[10,0,0,6,7,0,9],
-"decalcontext_8cc.html#ac7217487557a94b16f443f848865b5bc":[10,0,0,6,7,0,7],
 "decalcontext_8cc.html#ad5b1de72f85ea67646c2dec76bddc638":[10,0,0,6,7,0,2],
 "decalcontext_8cc.html#ada9d567cc924f0261be1c2a8fd29f268":[10,0,0,6,7,0,13],
 "decalcontext_8h.html":[10,0,0,6,7,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX92 =
 "entitypool_8cc.html":[10,0,0,1,3,14],
 "entitypool_8h.html":[10,0,0,1,3,15],
 "entitypool_8h_source.html":[10,0,0,1,3,15],
-"envelopecurve_8cc.html":[10,0,0,6,16,4]
+"envelopecurve_8cc.html":[10,0,0,6,16,4],
+"envelopecurve_8h.html":[10,0,0,6,16,5],
+"envelopecurve_8h_source.html":[10,0,0,6,16,5],
+"envelopesamplebuffer_8cc.html":[10,0,0,6,16,6],
+"envelopesamplebuffer_8h.html":[10,0,0,6,16,7]
 };
