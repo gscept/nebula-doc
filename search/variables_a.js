@@ -20,5 +20,5 @@ var searchData=
   ['jointindexmap_17',['jointIndexMap',['../struct_characters_1_1_skeleton_create_info.html#a83e97afdf374fb748314af8ffac3348d',1,'Characters::SkeletonCreateInfo']]],
   ['jointpalette_18',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
   ['jointpalettes_19',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
-  ['joints_20',['joints',['../struct_gltf_1_1_skin.html#a20b1cee01c83969773d773dcf3e04d7b',1,'Gltf::Skin::joints'],['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo::joints']]]
+  ['joints_20',['joints',['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo']]]
 ];

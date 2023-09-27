@@ -53,11 +53,10 @@ var searchData=
   ['onmaintransfersubmitted_50',['OnMainTransferSubmitted',['../class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a66ff55e065ac6a74c089823b992f5588',1,'Vulkan::VkScheduler']]],
   ['onnextsubpass_51',['OnNextSubpass',['../class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a746b867d34067195dbe551d801d41995',1,'Vulkan::VkScheduler']]],
   ['ontransferthreadssubmitted_52',['OnTransferThreadsSubmitted',['../class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39ad585c01a16ea7fdff32bbdfaa5b26b85',1,'Vulkan::VkScheduler']]],
-  ['opaque_53',['Opaque',['../struct_gltf_1_1_material.html#abc5d87933240d9efec9e0bfed36ad67cafaa90538de35640e4b1e31ccf35b6eb5',1,'Gltf::Material']]],
-  ['options_54',['Options',['../class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518af044897a979016fc656642888332f8d4',1,'Http::HttpMethod']]],
-  ['or_55',['Or',['../class_db_1_1_filter_set_1_1_token.html#a74f3df698a16859b828062dfb2632c60aa7943f6306a2152fe42b2a6bb2002e91',1,'Db::FilterSet::Token']]],
-  ['orderedlist_56',['OrderedList',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9afe768b7c0d516c79b592d7928a1ea5fb',1,'Http::HtmlElement']]],
-  ['orthographic_57',['orthographic',['../namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657a0b1709d8749a84b88047fa5d71a68b0d',1,'Visibility::Orthographic'],['../struct_gltf_1_1_camera.html#a1cec42693d91eff8e830985e909819f2a03424250432f2aa71de95579d2c0eaeb',1,'Gltf::Camera::Orthographic']]],
-  ['other_58',['Other',['../class_input_1_1_input_priority.html#aa7eed44392ac8e54bdfb64c4647fbb91aed639a4bad87dbef1e5607e67b3c9aa0',1,'Input::InputPriority']]],
-  ['outside_59',['Outside',['../class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a',1,'Math::ClipStatus']]]
+  ['options_53',['Options',['../class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518af044897a979016fc656642888332f8d4',1,'Http::HttpMethod']]],
+  ['or_54',['Or',['../class_db_1_1_filter_set_1_1_token.html#a74f3df698a16859b828062dfb2632c60aa7943f6306a2152fe42b2a6bb2002e91',1,'Db::FilterSet::Token']]],
+  ['orderedlist_55',['OrderedList',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9afe768b7c0d516c79b592d7928a1ea5fb',1,'Http::HtmlElement']]],
+  ['orthographic_56',['Orthographic',['../namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657a0b1709d8749a84b88047fa5d71a68b0d',1,'Visibility']]],
+  ['other_57',['Other',['../class_input_1_1_input_priority.html#aa7eed44392ac8e54bdfb64c4647fbb91aed639a4bad87dbef1e5607e67b3c9aa0',1,'Input::InputPriority']]],
+  ['outside_58',['Outside',['../class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a',1,'Math::ClipStatus']]]
 ];

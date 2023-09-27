@@ -9,8 +9,6 @@ var searchData=
   ['ydirectionblur_6',['yDirectionBlur',['../namespace_post_effects.html#a4743ad202db04265c7ba4f99d2802b4b',1,'PostEffects']]],
   ['ydirectionhbao_7',['yDirectionHBAO',['../namespace_post_effects.html#ab7973248e778277a756be7f2dee66d7b',1,'PostEffects']]],
   ['year_8',['year',['../class_base_1_1_calendar_time_base.html#aedf8f831a0ca2b7eb9d01d6be863fcfa',1,'Base::CalendarTimeBase']]],
-  ['yfov_9',['yfov',['../struct_gltf_1_1_camera_1_1_perspective.html#adecc0b42495395dc074372b4eed2b4f5',1,'Gltf::Camera::Perspective']]],
-  ['ymag_10',['ymag',['../struct_gltf_1_1_camera_1_1_orthographic.html#ad62691eb9c1c30bae0340437663d4d94',1,'Gltf::Camera::Orthographic']]],
-  ['ypos_11',['yPos',['../class_core_graphics_1_1_display_mode.html#a95573d27b9562ac5150a56fb6d3a3232',1,'CoreGraphics::DisplayMode']]],
-  ['yresolution_12',['yResolution',['../namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e',1,'Clustering']]]
+  ['ypos_9',['yPos',['../class_core_graphics_1_1_display_mode.html#a95573d27b9562ac5150a56fb6d3a3232',1,'CoreGraphics::DisplayMode']]],
+  ['yresolution_10',['yResolution',['../namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e',1,'Clustering']]]
 ];
