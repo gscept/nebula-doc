@@ -88,6 +88,7 @@ var terraincontext_8cc =
     [ "subtextureStagingBuffers", "terraincontext_8cc.html#a9ad012a4db2df06130d8963f2a2bd444", null ],
     [ "SubTextureSwapDistance", "terraincontext_8cc.html#a79cc578e62e7f71f64516d40a45dcd38", null ],
     [ "SubTextureWorldSize", "terraincontext_8cc.html#ab8f7d2da302479461c639d465b936fd9", null ],
+    [ "sun", "terraincontext_8cc.html#a4577dc2c2ccaa9cfc047f6c83fd13bbc", null ],
     [ "systemConstants", "terraincontext_8cc.html#ad520615e77795406e9d78d60015cae35", null ],
     [ "terrainPageClearUpdateBufferProgram", "terraincontext_8cc.html#a843f9bea467efec8b6f1b3dc72329a9c", null ],
     [ "terrainPosBuffer", "terraincontext_8cc.html#abccb20a40fe2d63ead0093e987c01cd7", null ],

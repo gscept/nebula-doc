@@ -4,7 +4,6 @@ var struct_terrain_1_1_terrain_setup_settings =
     [ "minHeight", "struct_terrain_1_1_terrain_setup_settings.html#ab9ef95583c489fbf30bd85986b348ff9", null ],
     [ "quadsPerTileX", "struct_terrain_1_1_terrain_setup_settings.html#ab21fcf9da43992f0e5a7e899b3a7d880", null ],
     [ "quadsPerTileY", "struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3", null ],
-    [ "sun", "struct_terrain_1_1_terrain_setup_settings.html#a56708a575772c7d29125fc7fd65d7eba", null ],
     [ "tileHeight", "struct_terrain_1_1_terrain_setup_settings.html#a04b8872e9756e8e0f4670b23ef7c2d48", null ],
     [ "tileWidth", "struct_terrain_1_1_terrain_setup_settings.html#ada7d3404394df309ed09a33dcbe3bce3", null ],
     [ "worldSizeX", "struct_terrain_1_1_terrain_setup_settings.html#a9c639696d58e8d333e97b642900bdb76", null ],

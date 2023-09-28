@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"envelopesamplebuffer_8cc.html":[10,0,0,6,16,6],
+"envelopesamplebuffer_8h.html":[10,0,0,6,16,7],
 "envelopesamplebuffer_8h_source.html":[10,0,0,6,16,7],
 "environment_8h.html":[10,0,0,3,17,8],
 "environment_8h_source.html":[10,0,0,3,17,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "foundation_2math_2mat4_8h.html#af1b234b51cca87e1e7a24d94bff4fe3a":[10,0,0,3,12,10,26],
 "foundation_2math_2mat4_8h.html#af7bd9928fe931e2928df8e327b83fb92":[10,0,0,3,12,10,44],
 "foundation_2math_2mat4_8h.html#af9ba7c344bb01502eefe4e45c844a5d2":[10,0,0,3,12,10,5],
-"foundation_2math_2mat4_8h.html#afe4d5c3096f54cf813284f4ef270ba80":[10,0,0,3,12,10,8],
-"foundation_2math_2mat4_8h_source.html":[10,0,0,3,12,10],
-"foundation_2math_2point_8h.html":[10,0,0,3,12,15]
+"foundation_2math_2mat4_8h.html#afe4d5c3096f54cf813284f4ef270ba80":[10,0,0,3,12,10,8]
 };

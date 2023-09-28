@@ -18,6 +18,7 @@ var class_terrain_1_1_terrain_context =
     [ "RenderUI", "class_terrain_1_1_terrain_context.html#abec977c273b56b50dafa203a557c9db7", null ],
     [ "SetBiomeHeightThreshold", "class_terrain_1_1_terrain_context.html#a5631fab8b6ff24c8bd642d98faa805ba", null ],
     [ "SetBiomeSlopeThreshold", "class_terrain_1_1_terrain_context.html#a66d31c9334a61683fb60c316dcf1153d", null ],
+    [ "SetSun", "class_terrain_1_1_terrain_context.html#a8edcdc6de680d9ca55517ecf07476837", null ],
     [ "SetupTerrain", "class_terrain_1_1_terrain_context.html#a7cab9e17aab30f2f1b619c0bd87d4cee", null ],
     [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#ac360ac01ab7dc9a5368add4fd9af9586", null ],
     [ "terrainAllocator", "class_terrain_1_1_terrain_context.html#a785a9c05be711e76a56eb157c273c22c", null ],
