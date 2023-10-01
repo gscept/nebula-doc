@@ -8,6 +8,7 @@ var class_physics_1_1_physx_state =
     [ "DiscardActor", "class_physics_1_1_physx_state.html#af8f91ea9f11ec1496f48e9085c631212", null ],
     [ "DisconnectPVD", "class_physics_1_1_physx_state.html#a4dca2e7deb4367e4ee9a35f536680e6b", null ],
     [ "EndSimulating", "class_physics_1_1_physx_state.html#aa97d4a78910155c2f46305aacd603e3a", null ],
+    [ "FlushSimulation", "class_physics_1_1_physx_state.html#ac33467dc0d0247376bb8153b258b4bbe", null ],
     [ "onAdvance", "class_physics_1_1_physx_state.html#a1146658a8351e05a52fcd70378588d3b", null ],
     [ "onConstraintBreak", "class_physics_1_1_physx_state.html#aa687d3c85c8f60fcaad72ceae42eabfa", null ],
     [ "onContact", "class_physics_1_1_physx_state.html#a41ff2426b92a926973e37ea4eceb6db8", null ],

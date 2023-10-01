@@ -116,6 +116,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a7d48a0213446b44544278208bdbf8df8" id="r_a7d48a0213446b44544278208bdbf8df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a7d48a0213446b44544278208bdbf8df8">OnDeactivate</a> ()</td></tr>
 <tr class="memdesc:a7d48a0213446b44544278208bdbf8df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called upon deactivation of feature unit.  <br /></td></tr>
 <tr class="separator:a7d48a0213446b44544278208bdbf8df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595b5f45b683b9d4c545b617ebc48aa1" id="r_a595b5f45b683b9d4c545b617ebc48aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a595b5f45b683b9d4c545b617ebc48aa1">OnBeforeCleanup</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world)</td></tr>
+<tr class="memdesc:a595b5f45b683b9d4c545b617ebc48aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::NotifyBeforeCleanup()  <br /></td></tr>
+<tr class="separator:a595b5f45b683b9d4c545b617ebc48aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a592d5322ab989bea92cc9404786e9bbd" id="r_a592d5322ab989bea92cc9404786e9bbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a592d5322ab989bea92cc9404786e9bbd">OnBeginFrame</a> ()</td></tr>
 <tr class="memdesc:a592d5322ab989bea92cc9404786e9bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on begin of frame  <br /></td></tr>
 <tr class="separator:a592d5322ab989bea92cc9404786e9bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,9 +160,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a500d414dda598e1929fe9f42b5262c6c inherit pub_methods_class_game_1_1_feature_unit" id="r_a500d414dda598e1929fe9f42b5262c6c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a500d414dda598e1929fe9f42b5262c6c">OnBeforeLoad</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
 <tr class="memdesc:a500d414dda598e1929fe9f42b5262c6c inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within <a class="el" href="class_game_1_1_game_server.html#afd7b12edf57a0bbb2bd04c53879c0b5f" title="call OnBeforeLoad on all game features">GameServer::NotifyBeforeLoad()</a>  <br /></td></tr>
 <tr class="separator:a500d414dda598e1929fe9f42b5262c6c inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5134170bf018d64938b838b5cec86ce3 inherit pub_methods_class_game_1_1_feature_unit" id="r_a5134170bf018d64938b838b5cec86ce3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a5134170bf018d64938b838b5cec86ce3">OnBeforeCleanup</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="memdesc:a5134170bf018d64938b838b5cec86ce3 inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within <a class="el" href="class_game_1_1_game_server.html#a28a5f56f9567099ebc481826eba72698" title="call OnBeforeCleanup on all game features">GameServer::NotifyBeforeCleanup()</a>  <br /></td></tr>
-<tr class="separator:a5134170bf018d64938b838b5cec86ce3 inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13218e9146911873fa28d8279a06cffe inherit pub_methods_class_game_1_1_feature_unit" id="r_a13218e9146911873fa28d8279a06cffe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a13218e9146911873fa28d8279a06cffe">OnStop</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
 <tr class="memdesc:a13218e9146911873fa28d8279a06cffe inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from withing <a class="el" href="class_game_1_1_game_server.html#a8ea993f4eeafed24d76e0e2874ab072c" title="Stop the game world.">GameServer::Stop()</a>  <br /></td></tr>
 <tr class="separator:a13218e9146911873fa28d8279a06cffe inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +295,36 @@ Additional Inherited Members</h2></td></tr>
 <p>Called upon activation of feature unit. </p>
 
 <p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="a595b5f45b683b9d4c545b617ebc48aa1" name="a595b5f45b683b9d4c545b617ebc48aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a595b5f45b683b9d4c545b617ebc48aa1">&#9670;&#160;</a></span>OnBeforeCleanup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::PhysicsFeatureUnit::OnBeforeCleanup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *&#160;</td>
+          <td class="paramname"><em>world</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within GameServer::NotifyBeforeCleanup() </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a5134170bf018d64938b838b5cec86ce3">Game::FeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -470,7 +500,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics_feature.html">PhysicsFeature</a></li><li class="navelem"><a class="el" href="class_physics_feature_1_1_physics_feature_unit.html">PhysicsFeatureUnit</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 09:45:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Oct 1 2023 18:11:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -118,7 +118,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6327ece43031b32bdff846a6215116ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit call to simulate, will process async in the background  <br /></td></tr>
 <tr class="separator:a6327ece43031b32bdff846a6215116ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97d4a78910155c2f46305aacd603e3a" id="r_aa97d4a78910155c2f46305aacd603e3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#aa97d4a78910155c2f46305aacd603e3a">EndSimulating</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
+<tr class="memdesc:aa97d4a78910155c2f46305aacd603e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit call to fetch the results of the simulation  <br /></td></tr>
 <tr class="separator:aa97d4a78910155c2f46305aacd603e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33467dc0d0247376bb8153b258b4bbe" id="r_ac33467dc0d0247376bb8153b258b4bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#ac33467dc0d0247376bb8153b258b4bbe">FlushSimulation</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
+<tr class="memdesc:ac33467dc0d0247376bb8153b258b4bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">will block until a potential simulation step is done  <br /></td></tr>
+<tr class="separator:ac33467dc0d0247376bb8153b258b4bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b3f4e335109bd774ee468e5a23f9e4e" id="r_a0b3f4e335109bd774ee468e5a23f9e4e"><td class="memItemLeft" align="right" valign="top">physx::PxRigidActor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_physx_state.html#a0b3f4e335109bd774ee468e5a23f9e4e">CreateActor</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> type, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
 <tr class="memdesc:a0b3f4e335109bd774ee468e5a23f9e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new empty actor  <br /></td></tr>
 <tr class="separator:a0b3f4e335109bd774ee468e5a23f9e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,6 +377,28 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>explicit call to fetch the results of the simulation </p>
+
+</div>
+</div>
+<a id="ac33467dc0d0247376bb8153b258b4bbe" name="ac33467dc0d0247376bb8153b258b4bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac33467dc0d0247376bb8153b258b4bbe">&#9670;&#160;</a></span>FlushSimulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::PhysxState::FlushSimulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>will block until a potential simulation step is done </p>
 
 </div>
 </div>
@@ -896,7 +922,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li><li class="navelem"><a class="el" href="class_physics_1_1_physx_state.html">PhysxState</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 09:45:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Oct 1 2023 18:11:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

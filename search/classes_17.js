@@ -22,7 +22,7 @@ var searchData=
   ['win32readwritelock_19',['Win32ReadWriteLock',['../class_win32_1_1_win32_read_write_lock.html',1,'Win32']]],
   ['win32registry_20',['Win32Registry',['../class_win32_1_1_win32_registry.html',1,'Win32']]],
   ['win32socket_21',['Win32Socket',['../class_win32_1_1_win32_socket.html',1,'Win32']]],
-  ['win32stacktrace_22',['win32stacktrace',['../class_win32_1_1_win32_stacktrace.html',1,'Win32Stacktrace'],['../class_win32_1_1_win32_stack_trace.html',1,'Win32::Win32StackTrace']]],
+  ['win32stacktrace_22',['win32stacktrace',['../class_win32_1_1_win32_stack_trace.html',1,'Win32::Win32StackTrace'],['../class_win32_1_1_win32_stacktrace.html',1,'Win32Stacktrace']]],
   ['win32stringconverter_23',['Win32StringConverter',['../class_win32_1_1_win32_string_converter.html',1,'Win32']]],
   ['win32systeminfo_24',['Win32SystemInfo',['../class_win32_1_1_win32_system_info.html',1,'Win32']]],
   ['win32thread_25',['Win32Thread',['../class_win32_1_1_win32_thread.html',1,'Win32']]],

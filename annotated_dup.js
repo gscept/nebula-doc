@@ -843,6 +843,7 @@ var annotated_dup =
       [ "VisualDebugger", "class_physics_1_1_visual_debugger.html", "class_physics_1_1_visual_debugger" ]
     ] ],
     [ "PhysicsFeature", "namespace_physics_feature.html", [
+      [ "PhysicsActor", "struct_physics_feature_1_1_physics_actor.html", "struct_physics_feature_1_1_physics_actor" ],
       [ "PhysicsFeatureUnit", "class_physics_feature_1_1_physics_feature_unit.html", "class_physics_feature_1_1_physics_feature_unit" ],
       [ "PhysicsManager", "class_physics_feature_1_1_physics_manager.html", "class_physics_feature_1_1_physics_manager" ]
     ] ],

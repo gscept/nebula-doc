@@ -1,5 +1,9 @@
 var NAVTREEINDEX93 =
 {
+"entitypool_8h_source.html":[10,0,0,1,3,15],
+"envelopecurve_8cc.html":[10,0,0,6,16,4],
+"envelopecurve_8h.html":[10,0,0,6,16,5],
+"envelopecurve_8h_source.html":[10,0,0,6,16,5],
 "envelopesamplebuffer_8cc.html":[10,0,0,6,16,6],
 "envelopesamplebuffer_8h.html":[10,0,0,6,16,7],
 "envelopesamplebuffer_8h_source.html":[10,0,0,6,16,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX93 =
 "foundation_2math_2mat4_8h.html#adcf6b24f1985e449737e4a801f7d7f90":[10,0,0,3,12,10,10],
 "foundation_2math_2mat4_8h.html#ae066c8f947c56ff3791c56d630ce5fe4":[10,0,0,3,12,10,45],
 "foundation_2math_2mat4_8h.html#ae579d6db1579841ccd57dd7c36b3b767":[10,0,0,3,12,10,35],
-"foundation_2math_2mat4_8h.html#aeb4cbe38460910f2a4c81a04f77624c2":[10,0,0,3,12,10,42],
-"foundation_2math_2mat4_8h.html#af1b234b51cca87e1e7a24d94bff4fe3a":[10,0,0,3,12,10,26],
-"foundation_2math_2mat4_8h.html#af7bd9928fe931e2928df8e327b83fb92":[10,0,0,3,12,10,44],
-"foundation_2math_2mat4_8h.html#af9ba7c344bb01502eefe4e45c844a5d2":[10,0,0,3,12,10,5],
-"foundation_2math_2mat4_8h.html#afe4d5c3096f54cf813284f4ef270ba80":[10,0,0,3,12,10,8]
+"foundation_2math_2mat4_8h.html#aeb4cbe38460910f2a4c81a04f77624c2":[10,0,0,3,12,10,42]
 };

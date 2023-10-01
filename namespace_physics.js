@@ -56,6 +56,7 @@ var namespace_physics =
     [ "DestroyActorInstance", "namespace_physics.html#ab23ccb60b91a7e41592288f856e68ef2", null ],
     [ "DestroyScene", "namespace_physics.html#ab7a3d44ccfd6366c4d4aeafd2aabc0df", null ],
     [ "EndSimulating", "namespace_physics.html#aa7408418a1ab30235e79a6a8604c5bd5", null ],
+    [ "FlushSimulation", "namespace_physics.html#a2aa83ac26e792461dc3b9a8d26f387e6", null ],
     [ "GetMaterial", "namespace_physics.html#a7d4b133f6964b0e8a1d0f25e472ccb8a", null ],
     [ "GetNrMaterials", "namespace_physics.html#a3b0738dc40f8ee43d14b350d394ba542", null ],
     [ "GetScaledShape", "namespace_physics.html#a8623eee2dbf6d8c3fa8097e158bd3dbe", null ],
