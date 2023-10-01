@@ -7,6 +7,6 @@ var namespace_physics_feature =
     [ "__ImplementSingleton", "namespace_physics_feature.html#ab63fc256da2d95676e530fa53cc6fb18", null ],
     [ "CreateActor", "namespace_physics_feature.html#ac934115bc0ae9a987b4369fe4f3fe6f6", null ],
     [ "DEFINE_COMPONENT", "namespace_physics_feature.html#af9f9693fe4ce5d20f0ea742cb44a3ea2", null ],
-    [ "PassKinematicTransforms", "namespace_physics_feature.html#aa76332539acb74ca37883dbb6861ea12", null ],
-    [ "PollRigidbodyTransforms", "namespace_physics_feature.html#ac141df643134ec956ce356776a4ba47a", null ]
+    [ "PassKinematicTransforms", "namespace_physics_feature.html#aa290189ba75cbf2d0350b4b4d4adf388", null ],
+    [ "PollRigidbodyTransforms", "namespace_physics_feature.html#a1589d650989b2e962a8adcc47993a85e", null ]
 ];

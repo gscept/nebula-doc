@@ -1,5 +1,6 @@
 var NAVTREEINDEX159 =
 {
+"vec4_8h.html#a0bfde09bd0984abf9d7998f96623577b":[10,0,0,3,12,29,61],
 "vec4_8h.html#a0df8a3395051371d0ed86ed655143f8d":[10,0,0,3,12,29,10],
 "vec4_8h.html#a0ebda5492f457c6c09e312dd645a4a21":[10,0,0,3,12,29,70],
 "vec4_8h.html#a139ada89b8c035b3d474b3d77c13ab46":[10,0,0,3,12,29,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX159 =
 "vkbarrier_8cc.html#ae6a1a00bc356d6916f74f171ab2a13bf":[10,0,0,6,5,5,0,9],
 "vkbarrier_8cc.html#aefc932a7f2be98db693df666720f42d6":[10,0,0,6,5,5,0,4],
 "vkbarrier_8cc.html#af9d89422145215753c0362bbeddae4bc":[10,0,0,6,5,5,0,2],
-"vkbarrier_8h.html":[10,0,0,6,5,5,1],
-"vkbarrier_8h.html#a06a18e7d5a8a8e8f75495d1cf4b13d54":[10,0,0,6,5,5,1,3]
+"vkbarrier_8h.html":[10,0,0,6,5,5,1]
 };
