@@ -60,9 +60,10 @@ var searchData=
   ['ringbuffer_3c_20timing_3a_3atime_20_3e_57',['RingBuffer&lt; Timing::Time &gt;',['../class_util_1_1_ring_buffer.html',1,'Util']]],
   ['ringbuffer_3c_20util_3a_3astring_20_3e_58',['RingBuffer&lt; Util::String &gt;',['../class_util_1_1_ring_buffer.html',1,'Util']]],
   ['round_59',['round',['../class_round.html',1,'Round'],['../class_util_1_1_round.html',1,'Util::Round']]],
-  ['rtplugin_60',['RTPlugin',['../class_render_modules_1_1_r_t_plugin.html',1,'RenderModules']]],
-  ['rtpluginregistry_61',['RTPluginRegistry',['../class_render_modules_1_1_r_t_plugin_registry.html',1,'RenderModules']]],
-  ['rtti_62',['Rtti',['../class_core_1_1_rtti.html',1,'Core']]],
-  ['runlengthcodec_63',['RunLengthCodec',['../class_util_1_1_run_length_codec.html',1,'Util']]],
-  ['runthroughhandlerthread_64',['RunThroughHandlerThread',['../class_messaging_1_1_run_through_handler_thread.html',1,'Messaging']]]
+  ['rowid_60',['RowId',['../struct_mem_db_1_1_row_id.html',1,'MemDb']]],
+  ['rtplugin_61',['RTPlugin',['../class_render_modules_1_1_r_t_plugin.html',1,'RenderModules']]],
+  ['rtpluginregistry_62',['RTPluginRegistry',['../class_render_modules_1_1_r_t_plugin_registry.html',1,'RenderModules']]],
+  ['rtti_63',['Rtti',['../class_core_1_1_rtti.html',1,'Core']]],
+  ['runlengthcodec_64',['RunLengthCodec',['../class_util_1_1_run_length_codec.html',1,'Util']]],
+  ['runthroughhandlerthread_65',['RunThroughHandlerThread',['../class_messaging_1_1_run_through_handler_thread.html',1,'Messaging']]]
 ];

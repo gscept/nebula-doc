@@ -19,6 +19,7 @@ var class_util_1_1_bit_field =
     [ "Or", "class_util_1_1_bit_field.html#adbe87295761aca90e415f3e9a36c035d", null ],
     [ "SetBit", "class_util_1_1_bit_field.html#a4f3eb46f221162bdcb031d8ba4868ca5", null ],
     [ "SetBit", "class_util_1_1_bit_field.html#aa5f5dceaef506ccf8b000f688e389a2f", null ],
+    [ "SetBit", "class_util_1_1_bit_field.html#acdfb6a020d769aa6ac47d0e91a16f351", null ],
     [ "BASE", "class_util_1_1_bit_field.html#a0f0dcbd31af95d756dc7a5fdb877f334", null ],
     [ "bits", "class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd", null ],
     [ "size", "class_util_1_1_bit_field.html#af2cd1e9b20a20775b65170febd24edf2", null ]

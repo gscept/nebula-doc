@@ -3,6 +3,7 @@ var struct_game_1_1_processor_create_info =
     [ "async", "struct_game_1_1_processor_create_info.html#adbab4720d230437bd903bb346ca81cb2", null ],
     [ "filter", "struct_game_1_1_processor_create_info.html#ad48fea6af66ba4a827d7c9c913c91242", null ],
     [ "name", "struct_game_1_1_processor_create_info.html#ade36268d62d933fe2f4f571e93bdf372", null ],
+    [ "OnActivate", "struct_game_1_1_processor_create_info.html#a61da86dd6b6fbdb4e6afabc4d8e6d70d", null ],
     [ "OnBeginFrame", "struct_game_1_1_processor_create_info.html#af283a92de55c35405b9299548710c7bc", null ],
     [ "OnEndFrame", "struct_game_1_1_processor_create_info.html#a4b73927314a00f077cf50711b2618733", null ],
     [ "OnFrame", "struct_game_1_1_processor_create_info.html#a9a648b2bf82ebe9c2d79e7e7c0578818", null ],

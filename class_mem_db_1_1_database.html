@@ -121,12 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3973b7b9759aafb3f93404577f8963df" id="r_a3973b7b9759aafb3f93404577f8963df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a3973b7b9759aafb3f93404577f8963df">IsValid</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table) const</td></tr>
 <tr class="memdesc:a3973b7b9759aafb3f93404577f8963df"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if table is valid  <br /></td></tr>
 <tr class="separator:a3973b7b9759aafb3f93404577f8963df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab895c9a8afb4559f64a43d656e76ff33" id="r_ab895c9a8afb4559f64a43d656e76ff33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_table.html">Table</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ab895c9a8afb4559f64a43d656e76ff33">GetTable</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid)</td></tr>
+<tr class="memitem:ab895c9a8afb4559f64a43d656e76ff33" id="r_ab895c9a8afb4559f64a43d656e76ff33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ab895c9a8afb4559f64a43d656e76ff33">GetTable</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid)</td></tr>
 <tr class="memdesc:ab895c9a8afb4559f64a43d656e76ff33"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve a table.  <br /></td></tr>
 <tr class="separator:ab895c9a8afb4559f64a43d656e76ff33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f42a163aba26e588a00ff625b37acc" id="r_a49f42a163aba26e588a00ff625b37acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a49f42a163aba26e588a00ff625b37acc">GetTableSignature</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid) const</td></tr>
-<tr class="memdesc:a49f42a163aba26e588a00ff625b37acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve a table signature  <br /></td></tr>
-<tr class="separator:a49f42a163aba26e588a00ff625b37acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5fe02502dc7dd3fd19d3370e63d3a21" id="r_ac5fe02502dc7dd3fd19d3370e63d3a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ac5fe02502dc7dd3fd19d3370e63d3a21">FindTable</a> (<a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const &amp;signature) const</td></tr>
 <tr class="memdesc:ac5fe02502dc7dd3fd19d3370e63d3a21"><td class="mdescLeft">&#160;</td><td class="mdescRight">find table by signature  <br /></td></tr>
 <tr class="separator:ac5fe02502dc7dd3fd19d3370e63d3a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,57 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c48207f9548c926a18e0b618296d69d" id="r_a9c48207f9548c926a18e0b618296d69d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a9c48207f9548c926a18e0b618296d69d">ForEachTable</a> (std::function&lt; void(<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>)&gt; const &amp;callback)</td></tr>
 <tr class="memdesc:a9c48207f9548c926a18e0b618296d69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">run a callback for each table in the db  <br /></td></tr>
 <tr class="separator:a9c48207f9548c926a18e0b618296d69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace1ab8ffdce5b5d112482a16d6a58b46" id="r_ace1ab8ffdce5b5d112482a16d6a58b46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ace1ab8ffdce5b5d112482a16d6a58b46">HasComponent</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> col)</td></tr>
-<tr class="memdesc:ace1ab8ffdce5b5d112482a16d6a58b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if table has a certain column  <br /></td></tr>
-<tr class="separator:ace1ab8ffdce5b5d112482a16d6a58b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab410ece5afdf391048a4735de52942b1" id="r_ab410ece5afdf391048a4735de52942b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ab410ece5afdf391048a4735de52942b1">GetComponentId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> columnId)</td></tr>
-<tr class="memdesc:ab410ece5afdf391048a4735de52942b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a descriptor for a given column id  <br /></td></tr>
-<tr class="separator:ab410ece5afdf391048a4735de52942b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5" id="r_a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a18b6a40bc1ca0c0d6f18e6ffe19cb6f5">GetColumnId</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> column)</td></tr>
-<tr class="memdesc:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a column id or invalid if column is missing from table  <br /></td></tr>
-<tr class="separator:a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25776b4c197bf1339686384e355d97be" id="r_a25776b4c197bf1339686384e355d97be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a25776b4c197bf1339686384e355d97be">AddColumn</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> column, bool updateSignature=true)</td></tr>
-<tr class="memdesc:a25776b4c197bf1339686384e355d97be"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a column to a table  <br /></td></tr>
-<tr class="separator:a25776b4c197bf1339686384e355d97be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4cf92f3add88a4e4d76a8bf454ee06" id="r_a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a4b4cf92f3add88a4e4d76a8bf454ee06">GetColumns</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
-<tr class="memdesc:a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the all descriptors for a table  <br /></td></tr>
-<tr class="separator:a4b4cf92f3add88a4e4d76a8bf454ee06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9777fd7ec240c7971a71e44402ac21" id="r_acc9777fd7ec240c7971a71e44402ac21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#acc9777fd7ec240c7971a71e44402ac21">AllocateRow</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
-<tr class="memdesc:acc9777fd7ec240c7971a71e44402ac21"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a row within a table  <br /></td></tr>
-<tr class="separator:acc9777fd7ec240c7971a71e44402ac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0460a631c4db0297bdc4c270346d063" id="r_ad0460a631c4db0297bdc4c270346d063"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ad0460a631c4db0297bdc4c270346d063">DeallocateRow</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> row)</td></tr>
-<tr class="memdesc:ad0460a631c4db0297bdc4c270346d063"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate a row from a table. This only frees the row for recycling. See <a class="el" href="class_mem_db_1_1_database.html#a3f6f190be65a79a645b262addf05acab" title="defragment table">Defragment</a>  <br /></td></tr>
-<tr class="separator:ad0460a631c4db0297bdc4c270346d063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01661a3362758b926aa8b48bfcb43c62" id="r_a01661a3362758b926aa8b48bfcb43c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a01661a3362758b926aa8b48bfcb43c62">GetNumRows</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table) const</td></tr>
-<tr class="memdesc:a01661a3362758b926aa8b48bfcb43c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of rows in a table  <br /></td></tr>
-<tr class="separator:a01661a3362758b926aa8b48bfcb43c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30fd11705776524ce1ca2a17cd04bbd2" id="r_a30fd11705776524ce1ca2a17cd04bbd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a30fd11705776524ce1ca2a17cd04bbd2">SetToDefault</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> row)</td></tr>
-<tr class="memdesc:a30fd11705776524ce1ca2a17cd04bbd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all row values to default  <br /></td></tr>
-<tr class="separator:a30fd11705776524ce1ca2a17cd04bbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70a0f454a364b4b3f218a66eec2452ae" id="r_a70a0f454a364b4b3f218a66eec2452ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a70a0f454a364b4b3f218a66eec2452ae">MigrateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> srcRow, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid, bool defragment=true, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;moveCallback=nullptr)</td></tr>
-<tr class="memdesc:a70a0f454a364b4b3f218a66eec2452ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">move instance from one table to another.  <br /></td></tr>
-<tr class="separator:a70a0f454a364b4b3f218a66eec2452ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0abfbbf9ca73f3d3900009376ed7bec2" id="r_a0abfbbf9ca73f3d3900009376ed7bec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a0abfbbf9ca73f3d3900009376ed7bec2">MigrateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> srcRow, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">Database</a> &gt; const &amp;dstDb, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid, bool defragment=true, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;moveCallback=nullptr)</td></tr>
-<tr class="memdesc:a0abfbbf9ca73f3d3900009376ed7bec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">move instance from one table to a table in another database.  <br /></td></tr>
-<tr class="separator:a0abfbbf9ca73f3d3900009376ed7bec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e42b9d227c8a2ff2a19888dae524bf6" id="r_a0e42b9d227c8a2ff2a19888dae524bf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a0e42b9d227c8a2ff2a19888dae524bf6">DuplicateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> srcRow, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid)</td></tr>
-<tr class="memdesc:a0e42b9d227c8a2ff2a19888dae524bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate instance from one row into destination table.  <br /></td></tr>
-<tr class="separator:a0e42b9d227c8a2ff2a19888dae524bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c452abb074dfbb4c8f4b609b3b4db35" id="r_a4c452abb074dfbb4c8f4b609b3b4db35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a4c452abb074dfbb4c8f4b609b3b4db35">DuplicateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> srcRow, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">Database</a> &gt; const &amp;dstDb, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid)</td></tr>
-<tr class="memdesc:a4c452abb074dfbb4c8f4b609b3b4db35"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate instance from one row into destination table in a different database.  <br /></td></tr>
-<tr class="separator:a4c452abb074dfbb4c8f4b609b3b4db35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bf5a7299787f6971aa38e7f504990d6" id="r_a5bf5a7299787f6971aa38e7f504990d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a5bf5a7299787f6971aa38e7f504990d6">MigrateInstances</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; const &amp;srcRows, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;dstRows, bool defragment=true, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;moveCallback=nullptr)</td></tr>
-<tr class="memdesc:a5bf5a7299787f6971aa38e7f504990d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">move n instances from one table to another.  <br /></td></tr>
-<tr class="separator:a5bf5a7299787f6971aa38e7f504990d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93ce068d4b44784d46d7024e4e096410" id="r_a93ce068d4b44784d46d7024e4e096410"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a93ce068d4b44784d46d7024e4e096410">DuplicateInstances</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> srcTid, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; const &amp;srcRows, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> dstTid, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;dstRows)</td></tr>
-<tr class="memdesc:a93ce068d4b44784d46d7024e4e096410"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate instance from one row into destination table.  <br /></td></tr>
-<tr class="separator:a93ce068d4b44784d46d7024e4e096410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f6f190be65a79a645b262addf05acab" id="r_a3f6f190be65a79a645b262addf05acab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a3f6f190be65a79a645b262addf05acab">Defragment</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;moveCallback)</td></tr>
-<tr class="memdesc:a3f6f190be65a79a645b262addf05acab"><td class="mdescLeft">&#160;</td><td class="mdescRight">defragment table  <br /></td></tr>
-<tr class="separator:a3f6f190be65a79a645b262addf05acab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c2ced6c9587aa7fb9b1a12802f2401c" id="r_a2c2ced6c9587aa7fb9b1a12802f2401c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a2c2ced6c9587aa7fb9b1a12802f2401c">Clean</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid)</td></tr>
-<tr class="memdesc:a2c2ced6c9587aa7fb9b1a12802f2401c"><td class="mdescLeft">&#160;</td><td class="mdescRight">clean table. Does not deallocate anything; just sets the size of the table to zero.  <br /></td></tr>
-<tr class="separator:a2c2ced6c9587aa7fb9b1a12802f2401c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70a5d80ff5188de9acab6ea31e836e67" id="r_a70a5d80ff5188de9acab6ea31e836e67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a70a5d80ff5188de9acab6ea31e836e67">Reset</a> ()</td></tr>
 <tr class="memdesc:a70a5d80ff5188de9acab6ea31e836e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs Clean on all tables.  <br /></td></tr>
 <tr class="separator:a70a5d80ff5188de9acab6ea31e836e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,21 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae384dc8b0186d9c7b300dddbe3de034c" id="r_ae384dc8b0186d9c7b300dddbe3de034c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ae384dc8b0186d9c7b300dddbe3de034c">Query</a> (<a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const &amp;inclusive, <a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const &amp;exclusive)</td></tr>
 <tr class="memdesc:ae384dc8b0186d9c7b300dddbe3de034c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the database for a set of tables that fulfill the requirements.  <br /></td></tr>
 <tr class="separator:ae384dc8b0186d9c7b300dddbe3de034c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5a414bc3a44e6a8eba842b61df9107a" id="r_af5a414bc3a44e6a8eba842b61df9107a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#af5a414bc3a44e6a8eba842b61df9107a">GetValuePointer</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> cid, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> row)</td></tr>
-<tr class="memdesc:af5a414bc3a44e6a8eba842b61df9107a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a buffer. Might be invalidated if rows are allocated or deallocated  <br /></td></tr>
-<tr class="separator:af5a414bc3a44e6a8eba842b61df9107a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d17056400beb1ce3b0df3df72d196b5" id="r_a7d17056400beb1ce3b0df3df72d196b5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a7d17056400beb1ce3b0df3df72d196b5">GetBuffer</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> cid)</td></tr>
-<tr class="memdesc:a7d17056400beb1ce3b0df3df72d196b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a buffer. Might be invalidated if rows are allocated or deallocated  <br /></td></tr>
-<tr class="separator:a7d17056400beb1ce3b0df3df72d196b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13040d52b969e5a9b5500226de743a9f" id="r_a13040d52b969e5a9b5500226de743a9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a13040d52b969e5a9b5500226de743a9f">Copy</a> (<a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt; const &amp;dst) const</td></tr>
 <tr class="memdesc:a13040d52b969e5a9b5500226de743a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the database into dst  <br /></td></tr>
 <tr class="separator:a13040d52b969e5a9b5500226de743a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e3cae063526630a4728d294883d3cd9" id="r_a8e3cae063526630a4728d294883d3cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_blob.html">Util::Blob</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a8e3cae063526630a4728d294883d3cd9">SerializeInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> row)</td></tr>
-<tr class="memdesc:a8e3cae063526630a4728d294883d3cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">serialize an instance into a blob.  <br /></td></tr>
-<tr class="separator:a8e3cae063526630a4728d294883d3cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d32511b0f077a14e8ada0f26ccd7748" id="r_a2d32511b0f077a14e8ada0f26ccd7748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a2d32511b0f077a14e8ada0f26ccd7748">DeserializeInstance</a> (<a class="el" href="class_util_1_1_blob.html">Util::Blob</a> const &amp;data, <a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> row)</td></tr>
-<tr class="memdesc:a2d32511b0f077a14e8ada0f26ccd7748"><td class="mdescLeft">&#160;</td><td class="mdescRight">deserialize a blob into an instance  <br /></td></tr>
-<tr class="separator:a2d32511b0f077a14e8ada0f26ccd7748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
 <tr class="memitem:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted" id="r_a14dc836b93eb63762debfe24642c377f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">RefCounted</a> ()</td></tr>
 <tr class="memdesc:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
@@ -258,30 +192,15 @@ Static Public Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ad3c0fdcc531f33f8580cfc6dbe138c73" id="r_ad3c0fdcc531f33f8580cfc6dbe138c73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ad3c0fdcc531f33f8580cfc6dbe138c73">__DeclareClass</a> (<a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>)</td></tr>
 <tr class="separator:ad3c0fdcc531f33f8580cfc6dbe138c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e38a38673c5c721b63d2fdf6bf14477" id="r_a5e38a38673c5c721b63d2fdf6bf14477"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a5e38a38673c5c721b63d2fdf6bf14477">AllocateRowIndex</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> table)</td></tr>
-<tr class="memdesc:a5e38a38673c5c721b63d2fdf6bf14477"><td class="mdescLeft">&#160;</td><td class="mdescRight">recycle free row or allocate new row  <br /></td></tr>
-<tr class="separator:a5e38a38673c5c721b63d2fdf6bf14477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acadf60de8fb276b848914fa8fedcf8da" id="r_acadf60de8fb276b848914fa8fedcf8da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#acadf60de8fb276b848914fa8fedcf8da">EraseSwapIndex</a> (<a class="el" href="struct_mem_db_1_1_table.html">Table</a> &amp;table, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> instance)</td></tr>
-<tr class="memdesc:acadf60de8fb276b848914fa8fedcf8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">erase row by swapping with last row and reducing number of rows in table  <br /></td></tr>
-<tr class="separator:acadf60de8fb276b848914fa8fedcf8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7382dd05f6608a8a3215bdf3ef6261" id="r_a3a7382dd05f6608a8a3215bdf3ef6261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a3a7382dd05f6608a8a3215bdf3ef6261">GrowTable</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid)</td></tr>
-<tr class="memdesc:a3a7382dd05f6608a8a3215bdf3ef6261"><td class="mdescLeft">&#160;</td><td class="mdescRight">grow each column within table  <br /></td></tr>
-<tr class="separator:a3a7382dd05f6608a8a3215bdf3ef6261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a5ee76b27ce7b72bffd24e33c9d207c" id="r_a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a2a5ee76b27ce7b72bffd24e33c9d207c">AllocateBuffer</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a> tid, <a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a> *desc)</td></tr>
-<tr class="memdesc:a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a buffer for a column. Sets all values to default  <br /></td></tr>
-<tr class="separator:a2a5ee76b27ce7b72bffd24e33c9d207c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a05004f33300f2f92fa39b2a80391c795" id="r_a05004f33300f2f92fa39b2a80391c795"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a05004f33300f2f92fa39b2a80391c795">tableIdPool</a></td></tr>
 <tr class="memdesc:a05004f33300f2f92fa39b2a80391c795"><td class="mdescLeft">&#160;</td><td class="mdescRight">id pool for table ids  <br /></td></tr>
 <tr class="separator:a05004f33300f2f92fa39b2a80391c795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f81c47ecd0d3f96068a6b3bf8a0ac54" id="r_a9f81c47ecd0d3f96068a6b3bf8a0ac54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_table.html">Table</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a9f81c47ecd0d3f96068a6b3bf8a0ac54">tables</a> [<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td></tr>
+<tr class="memitem:a9f81c47ecd0d3f96068a6b3bf8a0ac54" id="r_a9f81c47ecd0d3f96068a6b3bf8a0ac54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table.html">Table</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a9f81c47ecd0d3f96068a6b3bf8a0ac54">tables</a> [<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td></tr>
 <tr class="memdesc:a9f81c47ecd0d3f96068a6b3bf8a0ac54"><td class="mdescLeft">&#160;</td><td class="mdescRight">all tables within the database  <br /></td></tr>
 <tr class="separator:a9f81c47ecd0d3f96068a6b3bf8a0ac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50fac04bc7ccbcecf1004d944a3dbcc" id="r_ac50fac04bc7ccbcecf1004d944a3dbcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#ac50fac04bc7ccbcecf1004d944a3dbcc">tableSignatures</a> [<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td></tr>
-<tr class="memdesc:ac50fac04bc7ccbcecf1004d944a3dbcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">all table signatures  <br /></td></tr>
-<tr class="separator:ac50fac04bc7ccbcecf1004d944a3dbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337983489fc545f4ba6bf18171e1a840" id="r_a337983489fc545f4ba6bf18171e1a840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html#a337983489fc545f4ba6bf18171e1a840">numTables</a> = 0</td></tr>
 <tr class="memdesc:a337983489fc545f4ba6bf18171e1a840"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of tables existing currently  <br /></td></tr>
 <tr class="separator:a337983489fc545f4ba6bf18171e1a840"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,156 +282,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a25776b4c197bf1339686384e355d97be" name="a25776b4c197bf1339686384e355d97be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25776b4c197bf1339686384e355d97be">&#9670;&#160;</a></span>AddColumn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> MemDb::Database::AddColumn </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
-          <td class="paramname"><em>descriptor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>updateSignature</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>add a column to a table </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">updateSignature</td><td>Set to true if you are just casually adding a property to the table IMPORTANT: If this is set to false, make sure you add it to the signature manually!</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Index of column in table, or InvalidIndex if it was not added </dd></dl>
-
-</div>
-</div>
-<a id="a2a5ee76b27ce7b72bffd24e33c9d207c" name="a2a5ee76b27ce7b72bffd24e33c9d207c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a5ee76b27ce7b72bffd24e33c9d207c">&#9670;&#160;</a></span>AllocateBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * MemDb::Database::AllocateBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a> *&#160;</td>
-          <td class="paramname"><em>desc</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>allocate a buffer for a column. Sets all values to default </p>
-
-</div>
-</div>
-<a id="acc9777fd7ec240c7971a71e44402ac21" name="acc9777fd7ec240c7971a71e44402ac21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc9777fd7ec240c7971a71e44402ac21">&#9670;&#160;</a></span>AllocateRow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::AllocateRow </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>allocate a row within a table </p>
-
-</div>
-</div>
-<a id="a5e38a38673c5c721b63d2fdf6bf14477" name="a5e38a38673c5c721b63d2fdf6bf14477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e38a38673c5c721b63d2fdf6bf14477">&#9670;&#160;</a></span>AllocateRowIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::AllocateRowIndex </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>recycle free row or allocate new row </p>
-
-</div>
-</div>
-<a id="a2c2ced6c9587aa7fb9b1a12802f2401c" name="a2c2ced6c9587aa7fb9b1a12802f2401c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c2ced6c9587aa7fb9b1a12802f2401c">&#9670;&#160;</a></span>Clean()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::Clean </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>clean table. Does not deallocate anything; just sets the size of the table to zero. </p>
-<dl class="section note"><dt>Note</dt><dd>This does not care for any external references. Everything is just reset. </dd></dl>
-
-</div>
-</div>
 <a id="a13040d52b969e5a9b5500226de743a9f" name="a13040d52b969e5a9b5500226de743a9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13040d52b969e5a9b5500226de743a9f">&#9670;&#160;</a></span>Copy()</h2>
 
@@ -554,75 +323,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0460a631c4db0297bdc4c270346d063" name="ad0460a631c4db0297bdc4c270346d063"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0460a631c4db0297bdc4c270346d063">&#9670;&#160;</a></span>DeallocateRow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::DeallocateRow </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deallocate a row from a table. This only frees the row for recycling. See <a class="el" href="class_mem_db_1_1_database.html#a3f6f190be65a79a645b262addf05acab" title="defragment table">Defragment</a> </p>
-
-</div>
-</div>
-<a id="a3f6f190be65a79a645b262addf05acab" name="a3f6f190be65a79a645b262addf05acab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f6f190be65a79a645b262addf05acab">&#9670;&#160;</a></span>Defragment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> MemDb::Database::Defragment </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>moveCallback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>defragment table </p>
-<p>Defragments a table and call the move callback BEFORE moving elements.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tid</td><td><a class="el" href="struct_mem_db_1_1_table.html" title="A table hold components as columns, and buffers for those columns.">Table</a> identifier </td></tr>
-    <tr><td class="paramname">moveCallback</td><td>Callback when moving an instance. First parameter of callback is 'from index' and second is 'to index'</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of erased instances. </dd></dl>
-
-</div>
-</div>
 <a id="acf0273d65fa9fc6aad162ad8a0e653cc" name="acf0273d65fa9fc6aad162ad8a0e653cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf0273d65fa9fc6aad162ad8a0e653cc">&#9670;&#160;</a></span>DeleteTable()</h2>
 
@@ -640,212 +340,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>delete table </p>
-
-</div>
-</div>
-<a id="a2d32511b0f077a14e8ada0f26ccd7748" name="a2d32511b0f077a14e8ada0f26ccd7748"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d32511b0f077a14e8ada0f26ccd7748">&#9670;&#160;</a></span>DeserializeInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::DeserializeInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_blob.html">Util::Blob</a> const &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deserialize a blob into an instance </p>
-
-</div>
-</div>
-<a id="a4c452abb074dfbb4c8f4b609b3b4db35" name="a4c452abb074dfbb4c8f4b609b3b4db35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c452abb074dfbb4c8f4b609b3b4db35">&#9670;&#160;</a></span>DuplicateInstance() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::DuplicateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>srcRow</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">Database</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>dstDb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>duplicate instance from one row into destination table in a different database. </p>
-<dl class="section return"><dt>Returns</dt><dd>New index/row in destination table </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd></dl>
-
-</div>
-</div>
-<a id="a0e42b9d227c8a2ff2a19888dae524bf6" name="a0e42b9d227c8a2ff2a19888dae524bf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e42b9d227c8a2ff2a19888dae524bf6">&#9670;&#160;</a></span>DuplicateInstance() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::DuplicateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>srcRow</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>duplicate instance from one row into destination table. </p>
-<dl class="section return"><dt>Returns</dt><dd>New index/row in destination table </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd></dl>
-
-</div>
-</div>
-<a id="a93ce068d4b44784d46d7024e4e096410" name="a93ce068d4b44784d46d7024e4e096410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93ce068d4b44784d46d7024e4e096410">&#9670;&#160;</a></span>DuplicateInstances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::DuplicateInstances </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>srcRows</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dstRows</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>duplicate instance from one row into destination table. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">srcRows</td><td>Array of source table instances that should be duplicated. </td></tr>
-    <tr><td class="paramname">dstRows</td><td>Array reference that is filled with new indices/rows in destionation table </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd></dl>
-
-</div>
-</div>
-<a id="acadf60de8fb276b848914fa8fedcf8da" name="acadf60de8fb276b848914fa8fedcf8da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acadf60de8fb276b848914fa8fedcf8da">&#9670;&#160;</a></span>EraseSwapIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::EraseSwapIndex </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table.html">Table</a> &amp;&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>instance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>erase row by swapping with last row and reducing number of rows in table </p>
 
 </div>
 </div>
@@ -889,144 +383,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d17056400beb1ce3b0df3df72d196b5" name="a7d17056400beb1ce3b0df3df72d196b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d17056400beb1ce3b0df3df72d196b5">&#9670;&#160;</a></span>GetBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * MemDb::Database::GetBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td>
-          <td class="paramname"><em>cid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get a buffer. Might be invalidated if rows are allocated or deallocated </p>
-
-</div>
-</div>
-<a id="a18b6a40bc1ca0c0d6f18e6ffe19cb6f5" name="a18b6a40bc1ca0c0d6f18e6ffe19cb6f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b6a40bc1ca0c0d6f18e6ffe19cb6f5">&#9670;&#160;</a></span>GetColumnId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a> MemDb::Database::GetColumnId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
-          <td class="paramname"><em>column</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a column id or invalid if column is missing from table </p>
-
-</div>
-</div>
-<a id="a4b4cf92f3add88a4e4d76a8bf454ee06" name="a4b4cf92f3add88a4e4d76a8bf454ee06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b4cf92f3add88a4e4d76a8bf454ee06">&#9670;&#160;</a></span>GetColumns()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> &gt; const  &amp; MemDb::Database::GetColumns </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get the all descriptors for a table </p>
-
-</div>
-</div>
-<a id="ab410ece5afdf391048a4735de52942b1" name="ab410ece5afdf391048a4735de52942b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab410ece5afdf391048a4735de52942b1">&#9670;&#160;</a></span>GetComponentId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a> MemDb::Database::GetComponentId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td>
-          <td class="paramname"><em>columnId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a descriptor for a given column id </p>
-
-</div>
-</div>
-<a id="a01661a3362758b926aa8b48bfcb43c62" name="a01661a3362758b926aa8b48bfcb43c62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01661a3362758b926aa8b48bfcb43c62">&#9670;&#160;</a></span>GetNumRows()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> MemDb::Database::GetNumRows </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get number of rows in a table </p>
-
-</div>
-</div>
 <a id="afaf976702d698e02f531e87cb759c056" name="afaf976702d698e02f531e87cb759c056"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaf976702d698e02f531e87cb759c056">&#9670;&#160;</a></span>GetNumTables()</h2>
 
@@ -1061,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_table.html">Table</a> &amp; MemDb::Database::GetTable </td>
+          <td class="memname"><a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp; MemDb::Database::GetTable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
           <td class="paramname"><em>tid</em></td><td>)</td>
@@ -1071,128 +427,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>retrieve a table. </p>
-
-</div>
-</div>
-<a id="a49f42a163aba26e588a00ff625b37acc" name="a49f42a163aba26e588a00ff625b37acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49f42a163aba26e588a00ff625b37acc">&#9670;&#160;</a></span>GetTableSignature()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> const  &amp; MemDb::Database::GetTableSignature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>retrieve a table signature </p>
-
-</div>
-</div>
-<a id="af5a414bc3a44e6a8eba842b61df9107a" name="af5a414bc3a44e6a8eba842b61df9107a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5a414bc3a44e6a8eba842b61df9107a">&#9670;&#160;</a></span>GetValuePointer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * MemDb::Database::GetValuePointer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a>&#160;</td>
-          <td class="paramname"><em>cid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get a buffer. Might be invalidated if rows are allocated or deallocated </p>
-
-</div>
-</div>
-<a id="a3a7382dd05f6608a8a3215bdf3ef6261" name="a3a7382dd05f6608a8a3215bdf3ef6261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a7382dd05f6608a8a3215bdf3ef6261">&#9670;&#160;</a></span>GrowTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::GrowTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>tid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>grow each column within table </p>
-
-</div>
-</div>
-<a id="ace1ab8ffdce5b5d112482a16d6a58b46" name="ace1ab8ffdce5b5d112482a16d6a58b46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace1ab8ffdce5b5d112482a16d6a58b46">&#9670;&#160;</a></span>HasComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MemDb::Database::HasComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a>&#160;</td>
-          <td class="paramname"><em>col</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>check if table has a certain column </p>
 
 </div>
 </div>
@@ -1213,181 +447,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>check if table is valid </p>
-
-</div>
-</div>
-<a id="a0abfbbf9ca73f3d3900009376ed7bec2" name="a0abfbbf9ca73f3d3900009376ed7bec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0abfbbf9ca73f3d3900009376ed7bec2">&#9670;&#160;</a></span>MigrateInstance() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::MigrateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>srcRow</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">Database</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>dstDb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>defragment</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>moveCallback</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>move instance from one table to a table in another database. </p>
-<dl class="section return"><dt>Returns</dt><dd>New index/row in destination table </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd>
-<dd>
-This is an instant erase swap on src table, which means any external references to rows (instance ids) will be invalidated! </dd></dl>
-
-</div>
-</div>
-<a id="a70a0f454a364b4b3f218a66eec2452ae" name="a70a0f454a364b4b3f218a66eec2452ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70a0f454a364b4b3f218a66eec2452ae">&#9670;&#160;</a></span>MigrateInstance() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> MemDb::Database::MigrateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>srcRow</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>defragment</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>moveCallback</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>move instance from one table to another. </p>
-<dl class="section return"><dt>Returns</dt><dd>New index/row in destination table </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd>
-<dd>
-This is an instant erase swap on src table, which means any external references to rows (instance ids) will be invalidated! </dd></dl>
-
-</div>
-</div>
-<a id="a5bf5a7299787f6971aa38e7f504990d6" name="a5bf5a7299787f6971aa38e7f504990d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bf5a7299787f6971aa38e7f504990d6">&#9670;&#160;</a></span>MigrateInstances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::MigrateInstances </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>srcTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>srcRows</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>dstTid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dstRows</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>defragment</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>moveCallback</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>move n instances from one table to another. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">srcRows</td><td>Array of source table instances that should be moved. </td></tr>
-    <tr><td class="paramname">dstRows</td><td>Array reference that is filled with new indices/rows in destionation table </td></tr>
-    <tr><td class="paramname">defragment</td><td>Erase swap old instances straight away, or recycle the rows (leaving invalid instances in place)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This might be destructive if the destination table is missing some of the source tables columns! </dd>
-<dd>
-This is an instant erase swap on src table, which means any external references to rows (instance ids) will be invalidated! </dd></dl>
 
 </div>
 </div>
@@ -1457,66 +516,6 @@ This is an instant erase swap on src table, which means any external references 
 </div><div class="memdoc">
 
 <p>performs Clean on all tables. </p>
-
-</div>
-</div>
-<a id="a8e3cae063526630a4728d294883d3cd9" name="a8e3cae063526630a4728d294883d3cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3cae063526630a4728d294883d3cd9">&#9670;&#160;</a></span>SerializeInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_blob.html">Util::Blob</a> MemDb::Database::SerializeInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>serialize an instance into a blob. </p>
-
-</div>
-</div>
-<a id="a30fd11705776524ce1ca2a17cd04bbd2" name="a30fd11705776524ce1ca2a17cd04bbd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30fd11705776524ce1ca2a17cd04bbd2">&#9670;&#160;</a></span>SetToDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MemDb::Database::SetToDefault </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
-          <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set all row values to default </p>
 
 </div>
 </div>
@@ -1601,7 +600,7 @@ This is an instant erase swap on src table, which means any external references 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_table.html">Table</a> MemDb::Database::tables[<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td>
+          <td class="memname"><a class="el" href="class_mem_db_1_1_table.html">Table</a> MemDb::Database::tables[<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td>
         </tr>
       </table>
   </td>
@@ -1612,30 +611,6 @@ This is an instant erase swap on src table, which means any external references 
 </div><div class="memdoc">
 
 <p>all tables within the database </p>
-
-</div>
-</div>
-<a id="ac50fac04bc7ccbcecf1004d944a3dbcc" name="ac50fac04bc7ccbcecf1004d944a3dbcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50fac04bc7ccbcecf1004d944a3dbcc">&#9670;&#160;</a></span>tableSignatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a> MemDb::Database::tableSignatures[<a class="el" href="class_mem_db_1_1_database.html#a9b276a162e7503e75c03d22be4f09514">MAX_NUM_TABLES</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>all table signatures </p>
 
 </div>
 </div>
@@ -1650,7 +625,7 @@ This is an instant erase swap on src table, which means any external references 
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_database.html">Database</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 18:11:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Oct 4 2023 11:03:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

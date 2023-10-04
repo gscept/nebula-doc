@@ -3,6 +3,8 @@ var _api_8cs =
     [ "Psuedo.Entity", "struct_psuedo_1_1_entity.html", "struct_psuedo_1_1_entity" ],
     [ "Psuedo.AudioEmitter", "struct_psuedo_1_1_audio_emitter.html", "struct_psuedo_1_1_audio_emitter" ],
     [ "Psuedo.Property", "class_psuedo_1_1_property.html", "class_psuedo_1_1_property" ],
+    [ "Psuedo.Msg", "class_psuedo_1_1_msg.html", null ],
+    [ "Psuedo.PlayAudioMessage", "class_psuedo_1_1_play_audio_message.html", "class_psuedo_1_1_play_audio_message" ],
     [ "Psuedo.AudioEmitterProperty", "class_psuedo_1_1_audio_emitter_property.html", "class_psuedo_1_1_audio_emitter_property" ],
     [ "Psuedo.NebulaApiV1", "class_psuedo_1_1_nebula_api_v1.html", null ],
     [ "Psuedo.NebulaApp", "class_psuedo_1_1_nebula_app.html", "class_psuedo_1_1_nebula_app" ],

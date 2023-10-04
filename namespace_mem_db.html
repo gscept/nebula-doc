@@ -92,18 +92,17 @@ $(document).ready(function(){initNavTree('namespace_mem_db.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MemDb Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a>. </p>
+<div class="textblock"><p><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a>. </p>
 <p><a class="el" href="class_mem_db_1_1_type_registry.html">MemDb::TypeRegistry</a>.</p>
 <p><a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>.</p>
-<p><a class="el" href="struct_mem_db_1_1_component_id.html">MemDb::ComponentId</a>.</p>
-<p>Describes a component's type and default value. The components type can be omitted by registering it with a size of zero bytes. This essentially means the component is only used when querying the database This information is used to allocate the table columns.</p>
+<p>MemDb::ComponentId.</p>
+<p>Describes an attributes's type and default value. The attributes type can be omitted by registering it with a size of zero bytes. This essentially means the attribute is only used when querying the database This information is used to allocate the table columns.</p>
 <dl class="section note"><dt>Note</dt><dd>This is mostly just used internally by the database and typeregistry, so you most likely won't need to care about this class in normal use-cases.</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
 <p>A component descriptor.</p>
@@ -116,12 +115,12 @@ $(document).ready(function(){initNavTree('namespace_mem_db.html',''); initResiza
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">column id  <a href="struct_mem_db_1_1_column_index.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_component_description.html">ComponentDescription</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_component_id.html">ComponentId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_database.html">Database</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,14 +128,16 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_filter_set.html">FilterSet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table.html">Table</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A table hold components as columns, and buffers for those columns.  <a href="struct_mem_db_1_1_table.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">row identifier  <a href="struct_mem_db_1_1_row_id.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html">Table</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table_create_info.html">TableCreateInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information for creating a table  <a href="struct_mem_db_1_1_table_create_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_table_id.html">TableId</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_mem_db_1_1_table.html" title="A table hold components as columns, and buffers for those columns.">Table</a> identifier.  <a href="struct_mem_db_1_1_table_id.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_mem_db_1_1_table.html">Table</a> identifier.  <a href="struct_mem_db_1_1_table_id.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basically a bitfield with packed ComponentIds.  <a href="class_mem_db_1_1_table_signature.html#details">More...</a><br /></td></tr>
@@ -144,39 +145,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_type_registry.html">TypeRegistry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab67324d4894c84942ad306a1e74b22ad" id="r_ab67324d4894c84942ad306a1e74b22ad"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">Row</a></td></tr>
-<tr class="memdesc:ab67324d4894c84942ad306a1e74b22ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">row identifier  <br /></td></tr>
-<tr class="separator:ab67324d4894c84942ad306a1e74b22ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a6ee2e2e216e6dfa800474fc5e11d9761" id="r_a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761">__ImplementClass</a> (<a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>, 'MmDb', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fba23ad56ce562a1c62710e6de1fa5e" id="r_a3fba23ad56ce562a1c62710e6de1fa5e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a3fba23ad56ce562a1c62710e6de1fa5e">AllocateBuffer</a> (<a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a> *desc, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> capacity, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numRows)</td></tr>
+<tr class="separator:a3fba23ad56ce562a1c62710e6de1fa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae4b399140b264f7ac7f9fd0eda3479d2" id="r_ae4b399140b264f7ac7f9fd0eda3479d2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">Row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#ae4b399140b264f7ac7f9fd0eda3479d2">InvalidRow</a> = -1</td></tr>
-<tr class="separator:ae4b399140b264f7ac7f9fd0eda3479d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee165386fef035f3bd863db6b48bd3a" id="r_a8ee165386fef035f3bd863db6b48bd3a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a8ee165386fef035f3bd863db6b48bd3a">InvalidRow</a> = {0xFFFF, 0xFFFF}</td></tr>
+<tr class="separator:a8ee165386fef035f3bd863db6b48bd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ab67324d4894c84942ad306a1e74b22ad" name="ab67324d4894c84942ad306a1e74b22ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab67324d4894c84942ad306a1e74b22ad">&#9670;&#160;</a></span>Row</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> <a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">MemDb::Row</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>row identifier </p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6ee2e2e216e6dfa800474fc5e11d9761" name="a6ee2e2e216e6dfa800474fc5e11d9761"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ee2e2e216e6dfa800474fc5e11d9761">&#9670;&#160;</a></span>__ImplementClass()</h2>
@@ -212,9 +192,43 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a3fba23ad56ce562a1c62710e6de1fa5e" name="a3fba23ad56ce562a1c62710e6de1fa5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fba23ad56ce562a1c62710e6de1fa5e">&#9670;&#160;</a></span>AllocateBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * MemDb::AllocateBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a> *&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>capacity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>numRows</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ae4b399140b264f7ac7f9fd0eda3479d2" name="ae4b399140b264f7ac7f9fd0eda3479d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4b399140b264f7ac7f9fd0eda3479d2">&#9670;&#160;</a></span>InvalidRow</h2>
+<a id="a8ee165386fef035f3bd863db6b48bd3a" name="a8ee165386fef035f3bd863db6b48bd3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ee165386fef035f3bd863db6b48bd3a">&#9670;&#160;</a></span>InvalidRow</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +237,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="namespace_mem_db.html#ab67324d4894c84942ad306a1e74b22ad">Row</a> MemDb::InvalidRow = -1</td>
+          <td class="memname">constexpr <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> MemDb::InvalidRow = {0xFFFF, 0xFFFF}</td>
         </tr>
       </table>
   </td>
@@ -242,7 +256,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 18:11:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Oct 4 2023 11:03:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

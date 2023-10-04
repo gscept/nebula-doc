@@ -7,6 +7,7 @@ var class_game_1_1_filter_builder =
     [ "CreateFilter", "class_game_1_1_filter_builder.html#a662bed0da821febd21a4918ef33534ea", null ],
     [ "Excluding", "class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819", null ],
     [ "Excluding", "class_game_1_1_filter_builder.html#ade30855a9192ddb8f76c03401aa888d2", null ],
+    [ "GetNumInclusive", "class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732", null ],
     [ "Including", "class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c", null ],
     [ "Including", "class_game_1_1_filter_builder.html#ac73120f36e5ea79e13d81acbbf086960", null ],
     [ "SetExclusive", "class_game_1_1_filter_builder.html#ac92f9db097578e2c20ad482468f5d6ac", null ],

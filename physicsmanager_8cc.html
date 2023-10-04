@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('physicsmanager_8cc.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_physics_feature" id="r_namespace_physics_feature"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html">PhysicsFeature</a></td></tr>
+<tr class="memdesc:namespace_physics_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">All entities get IsActive flag at beginning of frame Full partition migration from one table to the one that has the flag. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_i_o" id="r_namespace_i_o"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html">IO</a></td></tr>
 <tr class="memdesc:namespace_i_o"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances of wrapped stream classes. <br /></td></tr>
@@ -118,20 +119,24 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a250442285083ec4aa63809ef046b85a7" id="r_a250442285083ec4aa63809ef046b85a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a250442285083ec4aa63809ef046b85a7">PhysicsFeature::__ImplementSingleton</a> (<a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a>) <a class="el" href="component_8h.html#a5d2553eaea52dfb023f6252434911f86">DEFINE_COMPONENT</a>(<a class="el" href="struct_physics_feature_1_1_physics_actor.html">PhysicsActor</a>)</td></tr>
-<tr class="separator:a250442285083ec4aa63809ef046b85a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac934115bc0ae9a987b4369fe4f3fe6f6" id="r_ac934115bc0ae9a987b4369fe4f3fe6f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#ac934115bc0ae9a987b4369fe4f3fe6f6">PhysicsFeature::CreateActor</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::Owner const &amp;entity, Game::WorldTransform const &amp;trans, PhysicsFeature::PhysicsResource &amp;res)</td></tr>
-<tr class="separator:ac934115bc0ae9a987b4369fe4f3fe6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1589d650989b2e962a8adcc47993a85e" id="r_a1589d650989b2e962a8adcc47993a85e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a1589d650989b2e962a8adcc47993a85e">PhysicsFeature::PollRigidbodyTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform &amp;transform, <a class="el" href="struct_physics_feature_1_1_physics_actor.html">PhysicsFeature::PhysicsActor</a> const &amp;actor)</td></tr>
-<tr class="separator:a1589d650989b2e962a8adcc47993a85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa290189ba75cbf2d0350b4b4d4adf388" id="r_aa290189ba75cbf2d0350b4b4d4adf388"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#aa290189ba75cbf2d0350b4b4d4adf388">PhysicsFeature::PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform const &amp;transform, <a class="el" href="struct_physics_feature_1_1_physics_actor.html">PhysicsFeature::PhysicsActor</a> const &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
-<tr class="separator:aa290189ba75cbf2d0350b4b4d4adf388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9db368fc8d87be88dda9b7a1ce23a8" id="r_a7b9db368fc8d87be88dda9b7a1ce23a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a7b9db368fc8d87be88dda9b7a1ce23a8">PhysicsFeature::__ImplementSingleton</a> (<a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a>) <a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a></td></tr>
+<tr class="separator:a7b9db368fc8d87be88dda9b7a1ce23a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac141df643134ec956ce356776a4ba47a" id="r_ac141df643134ec956ce356776a4ba47a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#ac141df643134ec956ce356776a4ba47a">PhysicsFeature::PollRigidbodyTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform &amp;transform, PhysicsFeature::PhysicsActor const &amp;actor)</td></tr>
+<tr class="separator:ac141df643134ec956ce356776a4ba47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414e2670451cb4a8e76aac96622e39c2" id="r_a414e2670451cb4a8e76aac96622e39c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a414e2670451cb4a8e76aac96622e39c2">PhysicsFeature::PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform const &amp;transform, PhysicsFeature::PhysicsActor &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
+<tr class="separator:a414e2670451cb4a8e76aac96622e39c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35739b15343f9119df4580b4504eba97" id="r_a35739b15343f9119df4580b4504eba97"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a35739b15343f9119df4580b4504eba97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a35739b15343f9119df4580b4504eba97">IO::JsonReader::Get&lt; Physics::ActorType &gt;</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> &amp;ret, char const *attr)</td></tr>
 <tr class="separator:a35739b15343f9119df4580b4504eba97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17f0915cc26f37c426b3227199bf4f1" id="r_ab17f0915cc26f37c426b3227199bf4f1"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:ab17f0915cc26f37c426b3227199bf4f1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#ab17f0915cc26f37c426b3227199bf4f1">IO::JsonWriter::Add&lt; Physics::ActorType &gt;</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> const &amp;t, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
 <tr class="separator:ab17f0915cc26f37c426b3227199bf4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32433d7c318519215565ddf98be7adfe" id="r_a32433d7c318519215565ddf98be7adfe"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a32433d7c318519215565ddf98be7adfe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a32433d7c318519215565ddf98be7adfe">IO::JsonReader::Get&lt; Physics::ActorId &gt;</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> &amp;ret, char const *attr)</td></tr>
+<tr class="separator:a32433d7c318519215565ddf98be7adfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a187502a5699069a989bd0bebb42c1761" id="r_a187502a5699069a989bd0bebb42c1761"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a187502a5699069a989bd0bebb42c1761"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a187502a5699069a989bd0bebb42c1761">IO::JsonWriter::Add&lt; Physics::ActorId &gt;</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> const &amp;id, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
+<tr class="separator:a187502a5699069a989bd0bebb42c1761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -140,7 +145,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_29fdd24923ca0d7c16ea156936fdc52c.html">physicsfeature</a></li><li class="navelem"><a class="el" href="dir_23d47f5710a37c83e76dba8a0b2a845d.html">managers</a></li><li class="navelem"><a class="el" href="physicsmanager_8cc.html">physicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 18:11:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Oct 4 2023 11:02:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

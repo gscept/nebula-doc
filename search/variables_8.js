@@ -27,7 +27,7 @@ var searchData=
   ['headerstream_24',['headerStream',['../class_net_1_1_tcp_message_codec.html#aa6159530e943e7d1d1fedad4d2b3be39',1,'Net::TcpMessageCodec']]],
   ['headindex_25',['headIndex',['../class_util_1_1_ring_buffer.html#ab8c6a7c53207ae8cfc3184b1805ad617',1,'Util::RingBuffer']]],
   ['heap_26',['heap',['../struct_util_1_1_string.html#a479aef3453813c303ea86b375af46e4f',1,'Util.String.heap'],['../class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176',1,'Win32::Win32Heap::heap']]],
-  ['heap_5fmemory_5ftype_27',['HEAP_MEMORY_TYPE',['../struct_mem_db_1_1_table.html#af4766d6e3df9a7f4abaa19947e64cf3e',1,'MemDb::Table']]],
+  ['heap_5fmemory_5ftype_27',['HEAP_MEMORY_TYPE',['../class_mem_db_1_1_table.html#af4766d6e3df9a7f4abaa19947e64cf3e',1,'MemDb::Table']]],
   ['heapbuffer_28',['heapBuffer',['../struct_util_1_1_string.html#ae4be14b8e160ba6cfb54b9e93942ed12',1,'Util::String']]],
   ['heapbuffersize_29',['heapbuffersize',['../struct_util_1_1_string.html#aa7fa4a359cc4816f908fe395c5761c3d',1,'Util.String::heapBufferSize'],['../struct_util_1_1_string.html#a58c1716e64a0c1408b6c8d5fb48f2065',1,'Util.String.heapBufferSize']]],
   ['heaps_30',['Heaps',['../namespace_memory.html#af9280f6da84132a1ac13d132c35cba90',1,'Memory']]],

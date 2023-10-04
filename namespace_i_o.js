@@ -148,6 +148,7 @@ var namespace_i_o =
     [ "JsonReader::Get< Math::vec4 >", "namespace_i_o.html#ab9137abca1f12845f13a0a601414243f", null ],
     [ "JsonReader::Get< Math::vector >", "namespace_i_o.html#ae54854d100ea6bc373374f5de32143d0", null ],
     [ "JsonReader::Get< Math::vector >", "namespace_i_o.html#ae54854d100ea6bc373374f5de32143d0", null ],
+    [ "JsonReader::Get< Physics::ActorId >", "namespace_i_o.html#a32433d7c318519215565ddf98be7adfe", null ],
     [ "JsonReader::Get< Physics::ActorType >", "namespace_i_o.html#a35739b15343f9119df4580b4504eba97", null ],
     [ "JsonReader::Get< Util::Array< float > >", "namespace_i_o.html#a38e324793f021757a80e07893629994c", null ],
     [ "JsonReader::Get< Util::Array< float > >", "namespace_i_o.html#a38e324793f021757a80e07893629994c", null ],
@@ -181,5 +182,6 @@ var namespace_i_o =
     [ "JsonReader::GetOpt< Util::Array< Util::String > >", "namespace_i_o.html#a11c4888140cb43623de67da1ce076c74", null ],
     [ "JsonReader::GetOpt< Util::String >", "namespace_i_o.html#a1cad2ff7b466e02ab2ce25afdb48024c", null ],
     [ "JsonReader::GetOpt< Util::String >", "namespace_i_o.html#a1cad2ff7b466e02ab2ce25afdb48024c", null ],
+    [ "JsonWriter::Add< Physics::ActorId >", "namespace_i_o.html#a187502a5699069a989bd0bebb42c1761", null ],
     [ "JsonWriter::Add< Physics::ActorType >", "namespace_i_o.html#ab17f0915cc26f37c426b3227199bf4f1", null ]
 ];

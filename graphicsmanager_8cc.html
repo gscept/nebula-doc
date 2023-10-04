@@ -105,6 +105,8 @@ $(document).ready(function(){initNavTree('graphicsmanager_8cc.html',''); initRes
 <code>#include &quot;<a class="el" href="gameserver_8h_source.html">game/gameserver.h</a>&quot;</code><br />
 <code>#include &quot;graphicsfeature/components/graphics.h&quot;</code><br />
 <code>#include &quot;basegamefeature/components/transform.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="jsonreader_8h_source.html">io/jsonreader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="jsonwriter_8h_source.html">io/jsonwriter.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -117,7 +119,74 @@ Functions</h2></td></tr>
 <tr class="separator:a62012029d73a813f22b98257dc7cc9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f1f7d3e50410a3c45920b060cebd58" id="r_ae5f1f7d3e50410a3c45920b060cebd58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics_feature.html#ae5f1f7d3e50410a3c45920b060cebd58">GraphicsFeature::RegisterModelEntity</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const gid, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const res, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;t)</td></tr>
 <tr class="separator:ae5f1f7d3e50410a3c45920b060cebd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612dbaba526f0b21cb57e40ff782b31a" id="r_a612dbaba526f0b21cb57e40ff782b31a"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a612dbaba526f0b21cb57e40ff782b31a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="graphicsmanager_8cc.html#a612dbaba526f0b21cb57e40ff782b31a">IO::JsonReader::Get&lt; Graphics::GraphicsEntityId &gt;</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &amp;ret, char const *attr)</td></tr>
+<tr class="separator:a612dbaba526f0b21cb57e40ff782b31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85243f8dab7fdaf1ed21c3b430877daf" id="r_a85243f8dab7fdaf1ed21c3b430877daf"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a85243f8dab7fdaf1ed21c3b430877daf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="graphicsmanager_8cc.html#a85243f8dab7fdaf1ed21c3b430877daf">IO::JsonWriter::Add&lt; Graphics::GraphicsEntityId &gt;</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const &amp;id, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
+<tr class="separator:a85243f8dab7fdaf1ed21c3b430877daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a612dbaba526f0b21cb57e40ff782b31a" name="a612dbaba526f0b21cb57e40ff782b31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612dbaba526f0b21cb57e40ff782b31a">&#9670;&#160;</a></span>IO::JsonReader::Get&lt; Graphics::GraphicsEntityId &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_i_o_1_1_json_reader.html#a9b9cebd7d7a3e375c6bda9c01866384c">IO::JsonReader::Get</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &amp;&#160;</td>
+          <td class="paramname"><em>ret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>attr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85243f8dab7fdaf1ed21c3b430877daf" name="a85243f8dab7fdaf1ed21c3b430877daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85243f8dab7fdaf1ed21c3b430877daf">&#9670;&#160;</a></span>IO::JsonWriter::Add&lt; Graphics::GraphicsEntityId &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_i_o_1_1_json_writer.html#a7f40a1f190bb824a4ce3640be2639931">IO::JsonWriter::Add</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -125,7 +194,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_1ac21e01a8bb7d8c2bb65101e5183392.html">graphicsfeature</a></li><li class="navelem"><a class="el" href="dir_9d17aaefe9e4f6b347f5bb4183eaf2e1.html">managers</a></li><li class="navelem"><a class="el" href="graphicsmanager_8cc.html">graphicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Sun Oct 1 2023 18:11:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Oct 4 2023 11:02:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

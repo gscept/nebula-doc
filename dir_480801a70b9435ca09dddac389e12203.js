@@ -19,7 +19,7 @@ var dir_480801a70b9435ca09dddac389e12203 =
     [ "reader.h", "reader_8h.html", "reader_8h" ],
     [ "relation.cc", "relation_8cc.html", "relation_8cc" ],
     [ "relation.h", "relation_8h.html", "relation_8h" ],
-    [ "table.cc", "table_8cc.html", "table_8cc" ],
+    [ "table.cc", "db_2table_8cc.html", "db_2table_8cc" ],
     [ "table.h", "db_2table_8h.html", "db_2table_8h" ],
     [ "valuetable.cc", "valuetable_8cc.html", "valuetable_8cc" ],
     [ "valuetable.h", "valuetable_8h.html", "valuetable_8h" ],

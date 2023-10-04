@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['table_0',['table',['../struct_mem_db_1_1_table.html',1,'MemDb::Table'],['../class_db_1_1_table.html',1,'Db::Table']]],
+  ['table_0',['table',['../class_mem_db_1_1_table.html',1,'MemDb::Table'],['../class_db_1_1_table.html',1,'Db::Table']]],
   ['tablecreateinfo_1',['TableCreateInfo',['../struct_mem_db_1_1_table_create_info.html',1,'MemDb']]],
   ['tableentry_2',['TableEntry',['../struct_util_1_1_sparse_table_1_1_table_entry.html',1,'Util::SparseTable']]],
   ['tableid_3',['TableId',['../struct_mem_db_1_1_table_id.html',1,'MemDb']]],
