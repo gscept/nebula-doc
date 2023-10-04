@@ -315,7 +315,7 @@ $(document).ready(function(){initNavTree('bitfield_8h_source.html',''); initResi
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(i &lt; NUMBITS);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="class_util_1_1_bit_field.html#a9e5bbdaaa8fb252c1e553ab5c3e7eeba">TYPE</a> index = i / BASE;</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="class_util_1_1_bit_field.html#a9e5bbdaaa8fb252c1e553ab5c3e7eeba">TYPE</a> bit = (1ull &lt;&lt; (i % BASE));</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    this-&gt;bits[index] |= bit * boolean;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    this-&gt;bits[index] |= bit * <a class="code hl_function" href="namespace_math.html#a8c6ecbfbc7e4b5eb53122ec0d93e4e27">mul</a>;</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>}</div>
 </div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
@@ -431,7 +431,7 @@ $(document).ready(function(){initNavTree('bitfield_8h_source.html',''); initResi
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="bitfield_8h.html">bitfield.h</a></li>
 				<li class="footer">
-					Generated on Wed Oct 4 2023 11:02:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Oct 4 2023 11:13:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
