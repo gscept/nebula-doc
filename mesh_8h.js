@@ -5,7 +5,7 @@ var mesh_8h =
     [ "CoreGraphics::MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],
     [ "CoreGraphics::__Mesh", "struct_core_graphics_1_1_____mesh.html", "struct_core_graphics_1_1_____mesh" ],
     [ "MeshAllocator", "mesh_8h.html#a60be98450617bedad4b9d948f539396c", null ],
-    [ "_DECLARE_LOCK", "mesh_8h.html#a5a9b7f51beef23cdf152acb799e806ab", null ],
+    [ "_DECL_ACQUIRE_RELEASE", "mesh_8h.html#a3ac8693412dd5570b46b267f7d4e0764", null ],
     [ "CreateMesh", "mesh_8h.html#a905ddecc487f753f7e89fd1ab2759b01", null ],
     [ "DestroyMesh", "mesh_8h.html#a5771bebf3b581511bcc6a8509e95110a", null ],
     [ "MeshBind", "mesh_8h.html#a0ae21d98923c8146c58938babd0b0bef", null ],

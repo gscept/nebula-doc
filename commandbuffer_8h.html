@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('commandbuffer_8h.html',''); initResiza
 <code>#include &quot;<a class="el" href="fixedarray_8h_source.html">util/fixedarray.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rectangle_8h_source.html">math/rectangle.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="indextype_8h_source.html">coregraphics/indextype.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 </div>
 <p><a href="commandbuffer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -182,10 +183,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af3475d835bb7062d447d9ea4873f776e" id="r_af3475d835bb7062d447d9ea4873f776e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af3475d835bb7062d447d9ea4873f776e">CoreGraphics::DestroyCmdBufferPool</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CmdBufferPoolId</a> pool)</td></tr>
 <tr class="memdesc:af3475d835bb7062d447d9ea4873f776e"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy command buffer pool  <br /></td></tr>
 <tr class="separator:af3475d835bb7062d447d9ea4873f776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4d54a6b2aab8431e26df52a5cd0545e" id="r_ab4d54a6b2aab8431e26df52a5cd0545e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab4d54a6b2aab8431e26df52a5cd0545e">CoreGraphics::CmdBufferIdAcquire</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id)</td></tr>
-<tr class="separator:ab4d54a6b2aab8431e26df52a5cd0545e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b22d87d5dd1b0a4bc3f714894a77c79" id="r_a8b22d87d5dd1b0a4bc3f714894a77c79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8b22d87d5dd1b0a4bc3f714894a77c79">CoreGraphics::CmdBufferIdRelease</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id)</td></tr>
-<tr class="separator:a8b22d87d5dd1b0a4bc3f714894a77c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc3007260baa39b39ecd55c001d9243" id="r_a9fc3007260baa39b39ecd55c001d9243"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9fc3007260baa39b39ecd55c001d9243">CoreGraphics::_DECL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a>)</td></tr>
+<tr class="separator:a9fc3007260baa39b39ecd55c001d9243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d55b2c21f56e000acffd1b7ad440452" id="r_a1d55b2c21f56e000acffd1b7ad440452"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1d55b2c21f56e000acffd1b7ad440452">CoreGraphics::CreateCmdBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_create_info.html">CmdBufferCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a1d55b2c21f56e000acffd1b7ad440452"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new command buffer  <br /></td></tr>
 <tr class="separator:a1d55b2c21f56e000acffd1b7ad440452"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,7 +387,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="commandbuffer_8h.html">commandbuffer.h</a></li>
 				<li class="footer">
-					Generated on Mon Oct 9 2023 19:08:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 10 2023 20:07:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

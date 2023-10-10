@@ -171,6 +171,7 @@ var annotated_dup =
       [ "BufferCopy", "struct_core_graphics_1_1_buffer_copy.html", "struct_core_graphics_1_1_buffer_copy" ],
       [ "BufferCreateInfo", "struct_core_graphics_1_1_buffer_create_info.html", "struct_core_graphics_1_1_buffer_create_info" ],
       [ "BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
+      [ "BufferSet", "struct_core_graphics_1_1_buffer_set.html", "struct_core_graphics_1_1_buffer_set" ],
       [ "BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", "struct_core_graphics_1_1_buffer_subresource_info" ],
       [ "CmdBufferBeginInfo", "struct_core_graphics_1_1_cmd_buffer_begin_info.html", "struct_core_graphics_1_1_cmd_buffer_begin_info" ],
       [ "CmdBufferClearInfo", "struct_core_graphics_1_1_cmd_buffer_clear_info.html", "struct_core_graphics_1_1_cmd_buffer_clear_info" ],

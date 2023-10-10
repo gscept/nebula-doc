@@ -1,6 +1,5 @@
 var NAVTREEINDEX163 =
 {
-"vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08":[10,0,0,6,5,5,33,4,0],
 "vkresourcetable_8h.html#a40d3768f588d8973bab9140d33bdba6f":[10,0,0,6,5,5,33,9],
 "vkresourcetable_8h.html#a618745042f8b98617efb28c6bd9a2505":[10,0,0,6,5,5,33,13],
 "vkresourcetable_8h.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b":[10,0,0,6,5,5,33,1],
@@ -247,6 +246,7 @@ var NAVTREEINDEX163 =
 "volumetricfogcontext_8cc.html#a81745779c51871fbd624b7c88f4b9aa8":[10,0,0,6,8,0,1],
 "volumetricfogcontext_8cc.html#a903a3a9c1e0aed34dc3042e45665a364":[10,0,0,6,8,0,4],
 "volumetricfogcontext_8cc.html#aa5b5a4c04a6a718f58d3649911d17504":[10,0,0,6,8,0,17],
+"volumetricfogcontext_8cc.html#aa82e6e9c167c9eed80e23931af0e9c90":[10,0,0,6,8,0,21],
 "volumetricfogcontext_8cc.html#acc2875581bda3b578bf7619ea40a20ab":[10,0,0,6,8,0,2],
 "volumetricfogcontext_8cc.html#acd2dd516bd5e211b2ca52040166f1215":[10,0,0,6,8,0,8],
 "volumetricfogcontext_8cc.html#adc56336121b669bfbbc385bb4606b0aa":[10,0,0,6,8,0,12]

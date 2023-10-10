@@ -748,6 +748,7 @@ var hierarchy =
     [ "CoreGraphics::BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
     [ "Vulkan::BufferMapping", "struct_vulkan_1_1_buffer_mapping.html", null ],
     [ "Vulkan::VkShaderCache::BufferMapping", "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html", null ],
+    [ "CoreGraphics::BufferSet", "struct_core_graphics_1_1_buffer_set.html", null ],
     [ "BufferSetup", "class_core_graphics_1_1_buffer_setup.html", null ],
     [ "CoreGraphics::BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", null ],
     [ "Frame::FrameOp::BuildContext", "struct_frame_1_1_frame_op_1_1_build_context.html", null ],

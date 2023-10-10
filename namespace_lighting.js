@@ -39,7 +39,7 @@ var namespace_lighting =
     [ "shadowMatrixUniforms", "namespace_lighting.html#a5d27df8c5c7858fb2bb1e3c87a7e285d", null ],
     [ "spotLightEntities", "namespace_lighting.html#a232ecd6f1d4f2441ea036b771610f5bf", null ],
     [ "spotlightsBatchCode", "namespace_lighting.html#aac65e7307c659eaef90aa39af455adee", null ],
-    [ "stagingClusterLightsList", "namespace_lighting.html#a80ae2bfba9fb05e5aeaeb60fd6668ce2", null ],
+    [ "stagingClusterLightsList", "namespace_lighting.html#a44d75b9fe4911eea47aa7fa5d49213d4", null ],
     [ "terrainShadowMap", "namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e", null ],
     [ "terrainShadowMapSize", "namespace_lighting.html#a7d694d7b0d15f9ddc02fdc452744972e", null ],
     [ "terrainSize", "namespace_lighting.html#ab6851f5d4fe86107879a11564e1e9efc", null ],

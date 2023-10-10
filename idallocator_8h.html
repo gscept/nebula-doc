@@ -131,8 +131,6 @@ Macros</h2></td></tr>
 <tr class="separator:a4b973d32f4fb50a7f7e0a637aad89033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26058c531ff96f02177a7172ef3680a3" id="r_a26058c531ff96f02177a7172ef3680a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#a26058c531ff96f02177a7172ef3680a3">_IMPL_ACQUIRE_RELEASE_RESOURCE</a>(ty,  allocator)</td></tr>
 <tr class="separator:a26058c531ff96f02177a7172ef3680a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade8895a51400c75258bc675e6b30da6b" id="r_ade8895a51400c75258bc675e6b30da6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idallocator_8h.html#ade8895a51400c75258bc675e6b30da6b">_DECLARE_LOCK</a>(name,  allocator)</td></tr>
-<tr class="separator:ade8895a51400c75258bc675e6b30da6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3eede833d4c3ddeb47fdb5241b108730" name="a3eede833d4c3ddeb47fdb5241b108730"></a>
@@ -150,44 +148,16 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>); \</div>
-<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>);</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ade8895a51400c75258bc675e6b30da6b" name="ade8895a51400c75258bc675e6b30da6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade8895a51400c75258bc675e6b30da6b">&#9670;&#160;</a></span>_DECLARE_LOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _DECLARE_LOCK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">allocator&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">struct </span>name##Lock \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>); \</div>
+<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>); \</div>
+<div class="line">    <span class="keyword">struct </span>ty##Lock \</div>
 <div class="line">    { \</div>
-<div class="line">        name##Lock(name##Id element) : element(element) { allocator.Acquire(this-&gt;element.id24); } \</div>
-<div class="line">        ~name##Lock() { allocator.Release(this-&gt;element.id24); } \</div>
+<div class="line">        ty##Lock(<span class="keyword">const</span> ty element) : element(element) { this-&gt;didAcquire = ty##Acquire(this-&gt;element); } \</div>
+<div class="line">        ~ty##Lock() { <span class="keywordflow">if</span> (this-&gt;didAcquire) ty##Release(this-&gt;element); } \</div>
 <div class="line">    <span class="keyword">private</span>: \</div>
-<div class="line">        name##<a class="code hl_typedef" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a> element; \</div>
+<div class="line">        <span class="keywordtype">bool</span> didAcquire; \</div>
+<div class="line">        ty element; \</div>
 <div class="line">    };</div>
-<div class="ttc" id="anamespace_im3d_html_a3527224ef63046767381b01d728efd5a"><div class="ttname"><a href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Im3d::Id</a></div><div class="ttdeci">U32 Id</div><div class="ttdef"><b>Definition</b> im3d.h:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -216,7 +186,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Acquire(<span class="keywordtype">id</span>.id24); } \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> allocator.Acquire(<span class="keywordtype">id</span>.id24); } \</div>
 <div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.id24); }</div>
 </div><!-- fragment -->
 </div>
@@ -246,7 +216,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Acquire(<span class="keywordtype">id</span>.resourceId); } \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> allocator.Acquire(<span class="keywordtype">id</span>.resourceId); } \</div>
 <div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.resourceId); }</div>
 </div><!-- fragment -->
 </div>
@@ -258,7 +228,7 @@ Macros</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_52640e203a39fe34f872c68b940b4d11.html">ids</a></li><li class="navelem"><a class="el" href="idallocator_8h.html">idallocator.h</a></li>
 				<li class="footer">
-					Generated on Mon Oct 9 2023 19:08:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 10 2023 20:07:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

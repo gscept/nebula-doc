@@ -36,7 +36,7 @@ var lightcontext_8cc =
     [ "shadowMatrixUniforms", "lightcontext_8cc.html#a5d27df8c5c7858fb2bb1e3c87a7e285d", null ],
     [ "spotLightEntities", "lightcontext_8cc.html#a232ecd6f1d4f2441ea036b771610f5bf", null ],
     [ "spotlightsBatchCode", "lightcontext_8cc.html#aac65e7307c659eaef90aa39af455adee", null ],
-    [ "stagingClusterLightsList", "lightcontext_8cc.html#a80ae2bfba9fb05e5aeaeb60fd6668ce2", null ],
+    [ "stagingClusterLightsList", "lightcontext_8cc.html#a44d75b9fe4911eea47aa7fa5d49213d4", null ],
     [ "terrainShadowMap", "lightcontext_8cc.html#afd0bf47770d5d51c28ce8df9f2be3e3e", null ],
     [ "terrainShadowMapSize", "lightcontext_8cc.html#a7d694d7b0d15f9ddc02fdc452744972e", null ],
     [ "terrainSize", "lightcontext_8cc.html#ab6851f5d4fe86107879a11564e1e9efc", null ],

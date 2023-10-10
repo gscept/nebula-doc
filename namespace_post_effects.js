@@ -51,7 +51,7 @@ var namespace_post_effects =
     [ "histogramClearCountersBuffer", "namespace_post_effects.html#abac3db91ba40acf97f3b11c23532bccd", null ],
     [ "histogramConstants", "namespace_post_effects.html#a129c4ff0aefb1699afe4ce600c660aa6", null ],
     [ "histogramCounters", "namespace_post_effects.html#ad7eb2d1326a536c1f2d0f48c949f956d", null ],
-    [ "histogramReadback", "namespace_post_effects.html#add2c320a1029341fc4b265ca920f5ca0", null ],
+    [ "histogramReadbackBuffers", "namespace_post_effects.html#a4ce7bc19e145d03ad1329f176258c4d2", null ],
     [ "histogramResourceTable", "namespace_post_effects.html#ae7ce87193916130e033c00ca4ab7a42d", null ],
     [ "histogramShader", "namespace_post_effects.html#ac77c065ec5f9fad9c8e6ff881ded8ff3", null ],
     [ "histogramState", "namespace_post_effects.html#a6622a4c75f5a6bb18708c65464bfe40c", null ],

@@ -47,6 +47,7 @@ var texture_8h =
       [ "DeviceExclusive", "texture_8h.html#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666", null ]
     ] ],
     [ "__ImplementEnumBitOperators", "texture_8h.html#af0ea79a9d9ca8359605cd7a6b75756b8", null ],
+    [ "_DECL_ACQUIRE_RELEASE", "texture_8h.html#aeefb6ced01944c2f39442433cbe6876c", null ],
     [ "CreateTexture", "texture_8h.html#afd701776510676d10ed7784f494fdc98", null ],
     [ "DestroyTexture", "texture_8h.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],
     [ "TextureClearColor", "texture_8h.html#aaab2752f7c73fb598fac3b95bb4a7a67", null ],
@@ -65,8 +66,6 @@ var texture_8h =
     [ "TextureGetStencilBindlessHandle", "texture_8h.html#a9730a8817680318688ec1ce5b15b767f", null ],
     [ "TextureGetType", "texture_8h.html#afbb09ba5fc0faf8070519d10aaacb50a", null ],
     [ "TextureGetUsage", "texture_8h.html#ac3a68d254443da2bfa9183a064542ceb", null ],
-    [ "TextureIdAcquire", "texture_8h.html#a040bd2aa2f87acae650593afb204a0ad", null ],
-    [ "TextureIdRelease", "texture_8h.html#a5c9f28dcf05b5fba35b4ad5ec2c6ea09", null ],
     [ "TextureSetHighestLod", "texture_8h.html#a79e76a6cde61a664d605f97142f1465f", null ],
     [ "TextureSparseCommitChanges", "texture_8h.html#a1c3c21b6eced661e88a34c362e9d5425", null ],
     [ "TextureSparseEvict", "texture_8h.html#a42953b33a9f1341113d9678071a4bd29", null ],

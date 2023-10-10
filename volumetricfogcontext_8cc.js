@@ -21,7 +21,7 @@ var volumetricfogcontext_8cc =
     [ "renderProgram", "volumetricfogcontext_8cc.html#a7ce159ae5b822cc57e0f3205009b458d", null ],
     [ "resourceTables", "volumetricfogcontext_8cc.html#aea865870e59ab75b2039701111e65007", null ],
     [ "showUI", "volumetricfogcontext_8cc.html#a0817ac657ae13bd15e30a516112edfc2", null ],
-    [ "stagingClusterFogLists", "volumetricfogcontext_8cc.html#af57b63dc170f2947e11bb4abd43e9e8d", null ],
+    [ "stagingClusterFogLists", "volumetricfogcontext_8cc.html#aa82e6e9c167c9eed80e23931af0e9c90", null ],
     [ "turbidity", "volumetricfogcontext_8cc.html#a2ec118697792665cd7ead061d1e70969", null ],
     [ "zBuffer", "volumetricfogcontext_8cc.html#a3d896bc33c813bf88010d324a0c0d3da", null ]
 ];

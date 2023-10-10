@@ -2,6 +2,7 @@ var buffer_8h =
 [
     [ "CoreGraphics::BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
     [ "CoreGraphics::BufferCreateInfo", "struct_core_graphics_1_1_buffer_create_info.html", "struct_core_graphics_1_1_buffer_create_info" ],
+    [ "CoreGraphics::BufferSet", "struct_core_graphics_1_1_buffer_set.html", "struct_core_graphics_1_1_buffer_set" ],
     [ "BufferQueueSupportFlags", "buffer_8h.html#aaecf95f10896b6f1cd4274f1d909e918", null ],
     [ "BufferUsageFlags", "buffer_8h.html#a69a2149611f82168dbee3ce5db03cbe5", null ],
     [ "BufferAccessMode", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077", [
@@ -28,6 +29,7 @@ var buffer_8h =
       [ "IndexBuffer", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba5e45ae185b91dc2d87d514222c33a5a3", null ],
       [ "IndirectBuffer", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba66fb5ef5f52f7362d6cf73f720a2bb99", null ]
     ] ],
+    [ "_DECL_ACQUIRE_RELEASE", "buffer_8h.html#a67050084402d3e7884ce0ff03921bad1", null ],
     [ "BufferFill", "buffer_8h.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "buffer_8h.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "buffer_8h.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],
@@ -35,8 +37,6 @@ var buffer_8h =
     [ "BufferGetSize", "buffer_8h.html#a8ed7c723cbbd8bb47ad85018c6f94e3f", null ],
     [ "BufferGetType", "buffer_8h.html#aee8a0acbaa9cc2aca1083320303f81a2", null ],
     [ "BufferGetUploadMaxSize", "buffer_8h.html#a9f011f0f9d7273bf807dad9cedaf7e19", null ],
-    [ "BufferIdAcquire", "buffer_8h.html#add0a3c347520292b8005bfd63a52b32f", null ],
-    [ "BufferIdRelease", "buffer_8h.html#a9cc484b46073e83e676f19dfc05e25ec", null ],
     [ "BufferInvalidate", "buffer_8h.html#a53217e7ad61b918f5429686f7f922c70", null ],
     [ "BufferMap", "buffer_8h.html#af0e088ff6cfa3b4da2d074c4df82be1a", null ],
     [ "BufferMap", "buffer_8h.html#a2597e97d2743a4048c9ed303c68b8a08", null ],

@@ -15,7 +15,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "barrier.h", "render_2coregraphics_2barrier_8h.html", "render_2coregraphics_2barrier_8h" ],
     [ "batchgroup.cc", "batchgroup_8cc.html", null ],
     [ "batchgroup.h", "batchgroup_8h.html", "batchgroup_8h" ],
-    [ "buffer.cpp", "buffer_8cpp.html", null ],
+    [ "buffer.cc", "buffer_8cc.html", null ],
     [ "buffer.h", "buffer_8h.html", "buffer_8h" ],
     [ "commandbuffer.cc", "commandbuffer_8cc.html", null ],
     [ "commandbuffer.h", "commandbuffer_8h.html", "commandbuffer_8h" ],
