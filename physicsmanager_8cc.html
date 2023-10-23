@@ -102,9 +102,9 @@ $(document).ready(function(){initNavTree('physicsmanager_8cc.html',''); initResi
 <code>#include &quot;<a class="el" href="physicsinterface_8h_source.html">physicsinterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="actorcontext_8h_source.html">physics/actorcontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceserver_8h_source.html">resources/resourceserver.h</a>&quot;</code><br />
-<code>#include &quot;components/physics.h&quot;</code><br />
+<code>#include &quot;components/physicsfeature.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsfeatureunit_8h_source.html">graphicsfeature/graphicsfeatureunit.h</a>&quot;</code><br />
-<code>#include &quot;basegamefeature/components/transform.h&quot;</code><br />
+<code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
 <code>#include &quot;pjson/pjson.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="jsonreader_8h_source.html">io/jsonreader.h</a>&quot;</code><br />
 </div><table class="memberdecls">
@@ -121,10 +121,10 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a7b9db368fc8d87be88dda9b7a1ce23a8" id="r_a7b9db368fc8d87be88dda9b7a1ce23a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a7b9db368fc8d87be88dda9b7a1ce23a8">PhysicsFeature::__ImplementSingleton</a> (<a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a>) <a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a></td></tr>
 <tr class="separator:a7b9db368fc8d87be88dda9b7a1ce23a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac141df643134ec956ce356776a4ba47a" id="r_ac141df643134ec956ce356776a4ba47a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#ac141df643134ec956ce356776a4ba47a">PhysicsFeature::PollRigidbodyTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform &amp;transform, PhysicsFeature::PhysicsActor const &amp;actor)</td></tr>
-<tr class="separator:ac141df643134ec956ce356776a4ba47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414e2670451cb4a8e76aac96622e39c2" id="r_a414e2670451cb4a8e76aac96622e39c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a414e2670451cb4a8e76aac96622e39c2">PhysicsFeature::PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransform const &amp;transform, PhysicsFeature::PhysicsActor &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
-<tr class="separator:a414e2670451cb4a8e76aac96622e39c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee08253ec15682d97304cd1579acb0f1" id="r_aee08253ec15682d97304cd1579acb0f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#aee08253ec15682d97304cd1579acb0f1">PhysicsFeature::PollRigidbodyTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransformT &amp;transform, PhysicsFeature::PhysicsActorT const &amp;actor)</td></tr>
+<tr class="separator:aee08253ec15682d97304cd1579acb0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dcfacf52601730dd30a0394cfd496e5" id="r_a9dcfacf52601730dd30a0394cfd496e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a9dcfacf52601730dd30a0394cfd496e5">PhysicsFeature::PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::WorldTransformT const &amp;transform, PhysicsFeature::PhysicsActorT &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
+<tr class="separator:a9dcfacf52601730dd30a0394cfd496e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35739b15343f9119df4580b4504eba97" id="r_a35739b15343f9119df4580b4504eba97"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a35739b15343f9119df4580b4504eba97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a35739b15343f9119df4580b4504eba97">IO::JsonReader::Get&lt; Physics::ActorType &gt;</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> &amp;ret, char const *attr)</td></tr>
 <tr class="separator:a35739b15343f9119df4580b4504eba97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,7 +145,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_29fdd24923ca0d7c16ea156936fdc52c.html">physicsfeature</a></li><li class="navelem"><a class="el" href="dir_23d47f5710a37c83e76dba8a0b2a845d.html">managers</a></li><li class="navelem"><a class="el" href="physicsmanager_8cc.html">physicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

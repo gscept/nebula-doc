@@ -7,6 +7,5 @@ var searchData=
   ['memory_4',['Memory',['../namespace_memory.html',1,'']]],
   ['messaging_5',['Messaging',['../namespace_messaging.html',1,'']]],
   ['models_6',['Models',['../namespace_models.html',1,'']]],
-  ['mono_7',['Mono',['../namespace_mono.html',1,'']]],
-  ['msg_8',['Msg',['../namespace_msg.html',1,'']]]
+  ['msg_7',['Msg',['../namespace_msg.html',1,'']]]
 ];

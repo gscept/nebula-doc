@@ -82,6 +82,7 @@ var annotated_dup =
       [ "InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", "class_base_1_1_instance_renderer_base" ],
       [ "InstanceServerBase", "class_base_1_1_instance_server_base.html", "class_base_1_1_instance_server_base" ],
       [ "KeyboardBase", "class_base_1_1_keyboard_base.html", "class_base_1_1_keyboard_base" ],
+      [ "Library", "class_base_1_1_library.html", "class_base_1_1_library" ],
       [ "MouseBase", "class_base_1_1_mouse_base.html", "class_base_1_1_mouse_base" ],
       [ "Process", "class_base_1_1_process.html", "class_base_1_1_process" ],
       [ "ShaderServerBase", "class_base_1_1_shader_server_base.html", "class_base_1_1_shader_server_base" ],
@@ -763,17 +764,6 @@ var annotated_dup =
       [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
       [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]
     ] ],
-    [ "Mono", "namespace_mono.html", [
-      [ "BoundingBox", "class_mono_1_1_bounding_box.html", "class_mono_1_1_bounding_box" ],
-      [ "Entity", "class_mono_1_1_entity.html", "class_mono_1_1_entity" ],
-      [ "Mat4", "class_mono_1_1_mat4.html", "class_mono_1_1_mat4" ],
-      [ "Matrix44", "class_mono_1_1_matrix44.html", "class_mono_1_1_matrix44" ],
-      [ "MonoBindings", "class_mono_1_1_mono_bindings.html", "class_mono_1_1_mono_bindings" ],
-      [ "Quaternion", "class_mono_1_1_quaternion.html", "class_mono_1_1_quaternion" ],
-      [ "Vector2", "class_mono_1_1_vector2.html", "class_mono_1_1_vector2" ],
-      [ "Vector3", "class_mono_1_1_vector3.html", "class_mono_1_1_vector3" ],
-      [ "Vector4", "class_mono_1_1_vector4.html", "class_mono_1_1_vector4" ]
-    ] ],
     [ "nanobind", "namespacenanobind.html", [
       [ "detail", "namespacenanobind_1_1detail.html", [
         [ "type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ],
@@ -783,16 +773,27 @@ var annotated_dup =
     ] ],
     [ "Nebula", "namespace_nebula.html", [
       [ "Game", "namespace_nebula_1_1_game.html", [
-        [ "Component", "class_nebula_1_1_game_1_1_component.html", "class_nebula_1_1_game_1_1_component" ],
-        [ "ComponentData", "struct_nebula_1_1_game_1_1_component_data.html", "struct_nebula_1_1_game_1_1_component_data" ],
         [ "ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", "class_nebula_1_1_game_1_1_component_manager" ],
-        [ "Entity", "struct_nebula_1_1_game_1_1_entity.html", "struct_nebula_1_1_game_1_1_entity" ],
-        [ "IComponent", "interface_nebula_1_1_game_1_1_i_component.html", "interface_nebula_1_1_game_1_1_i_component" ],
-        [ "InstanceId", "struct_nebula_1_1_game_1_1_instance_id.html", "struct_nebula_1_1_game_1_1_instance_id" ]
+        [ "Entity", "class_nebula_1_1_game_1_1_entity.html", "class_nebula_1_1_game_1_1_entity" ],
+        [ "EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", "struct_nebula_1_1_game_1_1_entity_id" ],
+        [ "EntityTemplate", "class_nebula_1_1_game_1_1_entity_template.html", "class_nebula_1_1_game_1_1_entity_template" ],
+        [ "INebulaApi", "interface_nebula_1_1_game_1_1_i_nebula_api.html", null ],
+        [ "Msg", "interface_nebula_1_1_game_1_1_msg.html", null ],
+        [ "MsgDispatcher", "class_nebula_1_1_game_1_1_msg_dispatcher.html", "class_nebula_1_1_game_1_1_msg_dispatcher" ],
+        [ "NativeComponent", "interface_nebula_1_1_game_1_1_native_component.html", null ],
+        [ "NebulaApiV1", "class_nebula_1_1_game_1_1_nebula_api_v1.html", "class_nebula_1_1_game_1_1_nebula_api_v1" ],
+        [ "NebulaApp", "class_nebula_1_1_game_1_1_nebula_app.html", "class_nebula_1_1_game_1_1_nebula_app" ],
+        [ "Property", "class_nebula_1_1_game_1_1_property.html", "class_nebula_1_1_game_1_1_property" ],
+        [ "PropertyManager", "class_nebula_1_1_game_1_1_property_manager.html", "class_nebula_1_1_game_1_1_property_manager" ],
+        [ "ResourceDescriptor", "struct_nebula_1_1_game_1_1_resource_descriptor.html", "struct_nebula_1_1_game_1_1_resource_descriptor" ],
+        [ "TemplateManager", "class_nebula_1_1_game_1_1_template_manager.html", "class_nebula_1_1_game_1_1_template_manager" ],
+        [ "World", "class_nebula_1_1_game_1_1_world.html", "class_nebula_1_1_game_1_1_world" ]
       ] ],
-      [ "AppEntry", "class_nebula_1_1_app_entry.html", "class_nebula_1_1_app_entry" ],
       [ "Debug", "class_nebula_1_1_debug.html", "class_nebula_1_1_debug" ],
-      [ "EntityManager", "class_nebula_1_1_entity_manager.html", "class_nebula_1_1_entity_manager" ]
+      [ "Runtime", "class_nebula_1_1_runtime.html", "class_nebula_1_1_runtime" ]
+    ] ],
+    [ "NebulaEngine", "namespace_nebula_engine.html", [
+      [ "AppEntry", "class_nebula_engine_1_1_app_entry.html", "class_nebula_engine_1_1_app_entry" ]
     ] ],
     [ "Net", "namespace_net.html", [
       [ "DebugMessage", "class_net_1_1_debug_message.html", "class_net_1_1_debug_message" ],
@@ -885,16 +886,6 @@ var annotated_dup =
       [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
       [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ]
     ] ],
-    [ "Psuedo", "namespace_psuedo.html", [
-      [ "AudioEmitter", "struct_psuedo_1_1_audio_emitter.html", "struct_psuedo_1_1_audio_emitter" ],
-      [ "AudioEmitterProperty", "class_psuedo_1_1_audio_emitter_property.html", "class_psuedo_1_1_audio_emitter_property" ],
-      [ "Entity", "struct_psuedo_1_1_entity.html", "struct_psuedo_1_1_entity" ],
-      [ "Msg", "class_psuedo_1_1_msg.html", null ],
-      [ "NebulaApiV1", "class_psuedo_1_1_nebula_api_v1.html", null ],
-      [ "NebulaApp", "class_psuedo_1_1_nebula_app.html", "class_psuedo_1_1_nebula_app" ],
-      [ "PlayAudioMessage", "class_psuedo_1_1_play_audio_message.html", "class_psuedo_1_1_play_audio_message" ],
-      [ "Property", "class_psuedo_1_1_property.html", "class_psuedo_1_1_property" ]
-    ] ],
     [ "RenderModules", "namespace_render_modules.html", [
       [ "RenderModule", "class_render_modules_1_1_render_module.html", "class_render_modules_1_1_render_module" ],
       [ "RTPlugin", "class_render_modules_1_1_r_t_plugin.html", "class_render_modules_1_1_r_t_plugin" ],
@@ -918,9 +909,14 @@ var annotated_dup =
       [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ]
     ] ],
     [ "Scripting", "namespace_scripting.html", [
-      [ "MonoAssemblyId", "struct_scripting_1_1_mono_assembly_id.html", null ],
-      [ "MonoServer", "class_scripting_1_1_mono_server.html", "class_scripting_1_1_mono_server" ],
+      [ "Api", "namespace_scripting_1_1_api.html", [
+        [ "float16", "struct_scripting_1_1_api_1_1float16.html", "struct_scripting_1_1_api_1_1float16" ]
+      ] ],
+      [ "AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
+      [ "DotNET_API", "struct_scripting_1_1_dot_n_e_t___a_p_i.html", "struct_scripting_1_1_dot_n_e_t___a_p_i" ],
+      [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html", "class_scripting_1_1_n_sharp_server" ],
       [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
+      [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ],
       [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ]
     ] ],
     [ "StaticUI", "namespace_static_u_i.html", [
@@ -1112,6 +1108,7 @@ var annotated_dup =
       [ "Win32Heap", "class_win32_1_1_win32_heap.html", "class_win32_1_1_win32_heap" ],
       [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", "class_win32_1_1_win32_interlocked" ],
       [ "Win32IpAddress", "class_win32_1_1_win32_ip_address.html", "class_win32_1_1_win32_ip_address" ],
+      [ "Win32Library", "class_win32_1_1_win32_library.html", "class_win32_1_1_win32_library" ],
       [ "Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", "class_win32_1_1_win32_memory_pool" ],
       [ "Win32MiniDump", "class_win32_1_1_win32_mini_dump.html", "class_win32_1_1_win32_mini_dump" ],
       [ "Win32Process", "class_win32_1_1_win32_process.html", "class_win32_1_1_win32_process" ],
@@ -1173,7 +1170,9 @@ var annotated_dup =
     [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
+    [ "Library", "class_system_1_1_library.html", null ],
     [ "LinuxThreadId", "class_linux_1_1_linux_thread_id.html", null ],
+    [ "ListExt", "class_list_ext.html", "class_list_ext" ],
     [ "MemoryPool", "class_memory_1_1_memory_pool.html", null ],
     [ "MiniDump", "class_debug_1_1_mini_dump.html", null ],
     [ "NebulaSettings", "class_system_1_1_nebula_settings.html", null ],

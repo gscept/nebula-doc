@@ -15,6 +15,7 @@ var namespace_win32 =
     [ "Win32Heap", "class_win32_1_1_win32_heap.html", "class_win32_1_1_win32_heap" ],
     [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", "class_win32_1_1_win32_interlocked" ],
     [ "Win32IpAddress", "class_win32_1_1_win32_ip_address.html", "class_win32_1_1_win32_ip_address" ],
+    [ "Win32Library", "class_win32_1_1_win32_library.html", "class_win32_1_1_win32_library" ],
     [ "Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", "class_win32_1_1_win32_memory_pool" ],
     [ "Win32MiniDump", "class_win32_1_1_win32_mini_dump.html", "class_win32_1_1_win32_mini_dump" ],
     [ "Win32Process", "class_win32_1_1_win32_process.html", "class_win32_1_1_win32_process" ],

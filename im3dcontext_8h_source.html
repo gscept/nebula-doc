@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('im3dcontext_8h_source.html',''); initR
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="buffer_8h.html">coregraphics/buffer.h</a>&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="graphicscontext_8h.html">graphics/graphicscontext.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="inputevent_8h.html">input/inputevent.h</a>&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2math_2bbox_8h.html">math/bbox.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="bbox_8h.html">math/bbox.h</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="line_8h.html">math/line.h</a>&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_im3d.html">Im3d</a></div>
@@ -165,6 +165,7 @@ $(document).ready(function(){initNavTree('im3dcontext_8h_source.html',''); initR
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>} <span class="comment">// namespace Im3d</span></div>
+<div class="ttc" id="abbox_8h_html"><div class="ttname"><a href="bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="abuffer_8h_html"><div class="ttname"><a href="buffer_8h.html">buffer.h</a></div></div>
 <div class="ttc" id="aclass_graphics_1_1_graphics_context_html"><div class="ttname"><a href="class_graphics_1_1_graphics_context.html">Graphics::GraphicsContext</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:165</div></div>
 <div class="ttc" id="aclass_im3d_1_1_im3d_context_html"><div class="ttname"><a href="class_im3d_1_1_im3d_context.html">Im3d::Im3dContext</a></div><div class="ttdef"><b>Definition</b> im3dcontext.h:31</div></div>
@@ -193,7 +194,6 @@ $(document).ready(function(){initNavTree('im3dcontext_8h_source.html',''); initR
 <div class="ttc" id="aclass_math_1_1bbox_html"><div class="ttname"><a href="class_math_1_1bbox.html">Math::bbox</a></div><div class="ttdoc">Nebula's bounding box class.</div><div class="ttdef"><b>Definition</b> bbox.h:23</div></div>
 <div class="ttc" id="aclass_math_1_1line_html"><div class="ttname"><a href="class_math_1_1line.html">Math::line</a></div><div class="ttdoc">A line in 3d space.</div><div class="ttdef"><b>Definition</b> line.h:22</div></div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition</b> ptr.h:39</div></div>
-<div class="ttc" id="afoundation_2math_2bbox_8h_html"><div class="ttname"><a href="foundation_2math_2bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="agraphicscontext_8h_html"><div class="ttname"><a href="graphicscontext_8h.html">graphicscontext.h</a></div></div>
 <div class="ttc" id="ainputevent_8h_html"><div class="ttname"><a href="inputevent_8h.html">inputevent.h</a></div></div>
 <div class="ttc" id="aline_8h_html"><div class="ttname"><a href="line_8h.html">line.h</a></div></div>
@@ -212,7 +212,7 @@ $(document).ready(function(){initNavTree('im3dcontext_8h_source.html',''); initR
 <div class="ttc" id="astruct_math_1_1vec2_html"><div class="ttname"><a href="struct_math_1_1vec2.html">Math::vec2</a></div><div class="ttdoc">A 2-component float vector class.</div><div class="ttdef"><b>Definition</b> vec2.h:21</div></div>
 <div class="ttc" id="astruct_math_1_1vec3_html"><div class="ttname"><a href="struct_math_1_1vec3.html">Math::vec3</a></div><div class="ttdoc">A 3D vector.</div><div class="ttdef"><b>Definition</b> vec3.h:39</div></div>
 <div class="ttc" id="astruct_math_1_1vec4_html"><div class="ttname"><a href="struct_math_1_1vec4.html">Math::vec4</a></div><div class="ttdoc">A 4D vector.</div><div class="ttdef"><b>Definition</b> vec4.h:24</div></div>
-<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:8</div></div>
 <div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -221,7 +221,7 @@ $(document).ready(function(){initNavTree('im3dcontext_8h_source.html',''); initR
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_898c37ba836292e22a0a7dc2b06a65b2.html">dynui</a></li><li class="navelem"><a class="el" href="dir_ca00075dc32944fa7308c084d7bc8713.html">im3d</a></li><li class="navelem"><a class="el" href="im3dcontext_8h.html">im3dcontext.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

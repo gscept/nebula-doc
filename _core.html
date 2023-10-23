@@ -178,7 +178,7 @@ Creating Nebula Objects</h2>
 <div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_util.html">Util</a>;</div>
 <div class="line"><a class="code hl_class" href="class_ptr.html">Ptr&lt;MyClass&gt;</a> myObj = (MyClass*) Factory::Instance()-&gt;Create(<a class="code hl_class" href="class_util_1_1_four_c_c.html">FourCC</a>(<span class="stringliteral">&#39;MYCL&#39;</span>));</div>
 <div class="ttc" id="aclass_util_1_1_four_c_c_html"><div class="ttname"><a href="class_util_1_1_four_c_c.html">Util::FourCC</a></div><div class="ttdoc">A four-character-code is a quasi-human-readable 32-bit-id.</div><div class="ttdef"><b>Definition</b> fourcc.h:19</div></div>
-<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:5</div></div>
+<div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
 </div><!-- fragment --><p> This method looks less intuitive, but it is often faster as create-by-name and the fourcc class identifier uses less space (4 bytes) then the string class name, which may be of advantage when objects are encoded/decoded to and from binary streams.</p>
 <h2><a class="anchor" id="NebulaRTTI"></a>
 The Nebula Runtime Type Information System</h2>
@@ -203,7 +203,7 @@ The Nebula Runtime Type Information System</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// get the fourcc class identifier of my object, this yields &#39;MYCL&#39;</span></div>
 <div class="line"><span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_four_c_c.html">FourCC</a>&amp; fourcc = myObj-&gt;GetClassFourCC();</div>
-<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:8</div></div>
 </div><!-- fragment --><p>You can also query the central factory object whether a given class has been registered:</p>
 <div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_core.html">Core</a>;</div>
 <div class="line"> </div>
@@ -281,7 +281,7 @@ Performance And Memory Footprint Considerations</h2>
 			<ul>
 				<li class="navelem"><a class="el" href="foundation.html">Foundation Libraries</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

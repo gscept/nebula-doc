@@ -101,31 +101,16 @@ $(document).ready(function(){initNavTree('addons_2nsharp_2conversion_2entity_8h_
 <a href="addons_2nsharp_2conversion_2entity_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="monoconfig_8h.html">monoconfig.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="nsconfig_8h.html">nsharp/nsconfig.h</a>&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="application_2game_2entity_8h.html">game/entity.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;mono/metadata/image.h&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;mono/metadata/object.h&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_mono.html">Mono</a></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_mono_1_1_entity.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_mono_1_1_entity.html">Entity</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_mono_1_1_entity.html#adf2c697a8671e76f8a771cf68c4a29eb">Setup</a>(MonoImage* image);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">static</span> MonoObject* <a class="code hl_function" href="class_mono_1_1_entity.html#a0d46283626c04e0c3002ec049b7355bb">Convert</a>(<a class="code hl_struct" href="struct_game_1_1_entity.html">Game::Entity</a> entity);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}; <span class="comment">// namespace Mono</span></div>
-</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_scripting.html">Scripting</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}<span class="comment">// namespace Scripting</span></div>
 <div class="ttc" id="aapplication_2game_2entity_8h_html"><div class="ttname"><a href="application_2game_2entity_8h.html">entity.h</a></div></div>
-<div class="ttc" id="aclass_mono_1_1_entity_html"><div class="ttname"><a href="class_mono_1_1_entity.html">Mono::Entity</a></div><div class="ttdef"><b>Definition</b> entity.h:18</div></div>
-<div class="ttc" id="aclass_mono_1_1_entity_html_a0d46283626c04e0c3002ec049b7355bb"><div class="ttname"><a href="class_mono_1_1_entity.html#a0d46283626c04e0c3002ec049b7355bb">Mono::Entity::Convert</a></div><div class="ttdeci">static MonoObject * Convert(Game::Entity entity)</div><div class="ttdef"><b>Definition</b> entity.cc:37</div></div>
-<div class="ttc" id="aclass_mono_1_1_entity_html_adf2c697a8671e76f8a771cf68c4a29eb"><div class="ttname"><a href="class_mono_1_1_entity.html#adf2c697a8671e76f8a771cf68c4a29eb">Mono::Entity::Setup</a></div><div class="ttdeci">static void Setup(MonoImage *image)</div><div class="ttdef"><b>Definition</b> entity.cc:22</div></div>
-<div class="ttc" id="amonoconfig_8h_html"><div class="ttname"><a href="monoconfig_8h.html">monoconfig.h</a></div></div>
-<div class="ttc" id="anamespace_mono_html"><div class="ttname"><a href="namespace_mono.html">Mono</a></div><div class="ttdoc">Mono::BoundingBox.</div><div class="ttdef"><b>Definition</b> bbox.cc:14</div></div>
-<div class="ttc" id="astruct_game_1_1_entity_html"><div class="ttname"><a href="struct_game_1_1_entity.html">Game::Entity</a></div><div class="ttdoc">An entity is essentially just an Id with some utility functions attached.</div><div class="ttdef"><b>Definition</b> entity.h:31</div></div>
+<div class="ttc" id="anamespace_scripting_html"><div class="ttname"><a href="namespace_scripting.html">Scripting</a></div><div class="ttdef"><b>Definition</b> game.cc:13</div></div>
+<div class="ttc" id="ansconfig_8h_html"><div class="ttname"><a href="nsconfig_8h.html">nsconfig.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -133,7 +118,7 @@ $(document).ready(function(){initNavTree('addons_2nsharp_2conversion_2entity_8h_
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_3f4de981491daf7040893230a7873228.html">nsharp</a></li><li class="navelem"><a class="el" href="dir_6cf96975aa78633eb5fd7671f6f54956.html">conversion</a></li><li class="navelem"><a class="el" href="addons_2nsharp_2conversion_2entity_8h.html">entity.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

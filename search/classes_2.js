@@ -38,7 +38,7 @@ var searchData=
   ['boolattributes_35',['BoolAttributes',['../struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html',1,'Particles::EmitterAttrs']]],
   ['boolattrid_36',['BoolAttrId',['../class_attr_1_1_bool_attr_id.html',1,'Attr']]],
   ['booltypeclass_37',['BoolTypeClass',['../class_attr_1_1_bool_type_class.html',1,'Attr']]],
-  ['boundingbox_38',['boundingbox',['../struct_mathf_1_1_bounding_box.html',1,'Mathf.BoundingBox'],['../class_mono_1_1_bounding_box.html',1,'Mono::BoundingBox']]],
+  ['boundingbox_38',['BoundingBox',['../struct_mathf_1_1_bounding_box.html',1,'Mathf']]],
   ['boundingfrustum_39',['BoundingFrustum',['../class_mathf_1_1_bounding_frustum.html',1,'Mathf']]],
   ['boundingsphere_40',['BoundingSphere',['../struct_mathf_1_1_bounding_sphere.html',1,'Mathf']]],
   ['boxsystem_41',['BoxSystem',['../class_visibility_1_1_box_system.html',1,'Visibility']]],

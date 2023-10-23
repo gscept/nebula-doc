@@ -8,6 +8,7 @@ var namespace_base =
     [ "InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", "class_base_1_1_instance_renderer_base" ],
     [ "InstanceServerBase", "class_base_1_1_instance_server_base.html", "class_base_1_1_instance_server_base" ],
     [ "KeyboardBase", "class_base_1_1_keyboard_base.html", "class_base_1_1_keyboard_base" ],
+    [ "Library", "class_base_1_1_library.html", "class_base_1_1_library" ],
     [ "MouseBase", "class_base_1_1_mouse_base.html", "class_base_1_1_mouse_base" ],
     [ "Process", "class_base_1_1_process.html", "class_base_1_1_process" ],
     [ "ShaderServerBase", "class_base_1_1_shader_server_base.html", "class_base_1_1_shader_server_base" ],

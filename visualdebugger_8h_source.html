@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('visualdebugger_8h_source.html',''); in
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="refcounted_8h.html">core/refcounted.h</a>&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="ptr_8h.html">core/ptr.h</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="singleton_8h.html">core/singleton.h</a>&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2math_2bbox_8h.html">math/bbox.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="bbox_8h.html">math/bbox.h</a>&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_physics.html">Physics</a></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
@@ -219,6 +219,7 @@ $(document).ready(function(){initNavTree('visualdebugger_8h_source.html',''); in
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>} </div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="comment">// namespace Physics</span></div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="ttc" id="abbox_8h_html"><div class="ttname"><a href="bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="aclass_math_1_1bbox_html"><div class="ttname"><a href="class_math_1_1bbox.html">Math::bbox</a></div><div class="ttdoc">Nebula's bounding box class.</div><div class="ttdef"><b>Definition</b> bbox.h:23</div></div>
 <div class="ttc" id="aclass_physics_1_1_visual_debugger_1_1_timed_draw_data_html"><div class="ttname"><a href="class_physics_1_1_visual_debugger_1_1_timed_draw_data.html">Physics::VisualDebugger::TimedDrawData</a></div><div class="ttdoc">base class for draw-calls that should be done over a number of steps</div><div class="ttdef"><b>Definition</b> visualdebugger.h:80</div></div>
 <div class="ttc" id="aclass_physics_1_1_visual_debugger_1_1_timed_draw_data_html_a1d6f8bddd5a6058181978065b6386690"><div class="ttname"><a href="class_physics_1_1_visual_debugger_1_1_timed_draw_data.html#a1d6f8bddd5a6058181978065b6386690">Physics::VisualDebugger::TimedDrawData::v2</a></div><div class="ttdeci">Math::vector v2</div><div class="ttdef"><b>Definition</b> visualdebugger.h:113</div></div>
@@ -260,7 +261,6 @@ $(document).ready(function(){initNavTree('visualdebugger_8h_source.html',''); in
 <div class="ttc" id="aclass_physics_1_1_visual_debugger_html_af9bbd3de06237dc91124196ecd26d7ed"><div class="ttname"><a href="class_physics_1_1_visual_debugger.html#af9bbd3de06237dc91124196ecd26d7ed">Physics::VisualDebugger::VisualDebugger</a></div><div class="ttdeci">VisualDebugger()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> visualdebugger.cc:15</div></div>
 <div class="ttc" id="aclass_physics_1_1_visual_debugger_html_afe9ebb50aa3bdc258460b662067dbfd5"><div class="ttname"><a href="class_physics_1_1_visual_debugger.html#afe9ebb50aa3bdc258460b662067dbfd5">Physics::VisualDebugger::DrawTimedArrow</a></div><div class="ttdeci">void DrawTimedArrow(const Math::point &amp;p, const Math::vector &amp;dir, uint numSteps, const Math::vec4 &amp;color=Math::vec4(1, 1, 1, 1))</div><div class="ttdoc">draw an arrow during a number of steps</div><div class="ttdef"><b>Definition</b> visualdebugger.cc:65</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
-<div class="ttc" id="afoundation_2math_2bbox_8h_html"><div class="ttname"><a href="foundation_2math_2bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="anamespace_physics_html"><div class="ttname"><a href="namespace_physics.html">Physics</a></div><div class="ttdoc">Diverse functions for manipulating physics actors.</div><div class="ttdef"><b>Definition</b> actorcontext.cc:17</div></div>
 <div class="ttc" id="aptr_8h_html"><div class="ttname"><a href="ptr_8h.html">ptr.h</a></div></div>
 <div class="ttc" id="arefcounted_8h_html"><div class="ttname"><a href="refcounted_8h.html">refcounted.h</a></div></div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('visualdebugger_8h_source.html',''); in
 <div class="ttc" id="astruct_math_1_1vec4_html"><div class="ttname"><a href="struct_math_1_1vec4.html">Math::vec4</a></div><div class="ttdoc">A 4D vector.</div><div class="ttdef"><b>Definition</b> vec4.h:24</div></div>
 <div class="ttc" id="astruct_math_1_1vector_html"><div class="ttname"><a href="struct_math_1_1vector.html">Math::vector</a></div><div class="ttdoc">A vector is a 3D direction in space.</div><div class="ttdef"><b>Definition</b> vector.h:22</div></div>
 <div class="ttc" id="astruct_physics_1_1_scene_html"><div class="ttname"><a href="struct_physics_1_1_scene.html">Physics::Scene</a></div><div class="ttdoc">physx scene classes, foundation and physics are duplicated here for convenience instead of static get...</div><div class="ttdef"><b>Definition</b> physicsinterface.h:68</div></div>
-<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:7</div></div>
+<div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:8</div></div>
 <div class="ttc" id="atypes_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition</b> types.h:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +279,7 @@ $(document).ready(function(){initNavTree('visualdebugger_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_574d321306f111fe13f289f4f129e456.html">physics</a></li><li class="navelem"><a class="el" href="dir_352832f12b9478246c52b270ca81d862.html">physics</a></li><li class="navelem"><a class="el" href="visualdebugger_8h.html">visualdebugger.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:18 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

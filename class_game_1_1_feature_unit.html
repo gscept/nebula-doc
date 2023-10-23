@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('class_game_1_1_feature_unit.html','');
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 
-<p>Inherited by <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html">BaseGameFeature::BaseGameFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html">PhysicsFeature::PhysicsFeatureUnit</a>.</p>
+<p>Inherited by <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html">BaseGameFeature::BaseGameFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html">PhysicsFeature::PhysicsFeatureUnit</a>, and <a class="el" href="class_scripting_1_1_script_feature_unit.html">Scripting::ScriptFeatureUnit</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,11 +119,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89f86552f1483af4be2cd598ccc999c7" id="r_a89f86552f1483af4be2cd598ccc999c7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a89f86552f1483af4be2cd598ccc999c7">~FeatureUnit</a> ()</td></tr>
 <tr class="memdesc:a89f86552f1483af4be2cd598ccc999c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:a89f86552f1483af4be2cd598ccc999c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c927dfe3c44d0c723829b5a81d9cff" id="r_a38c927dfe3c44d0c723829b5a81d9cff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a38c927dfe3c44d0c723829b5a81d9cff">OnAttach</a> ()</td></tr>
+<tr class="memdesc:a38c927dfe3c44d0c723829b5a81d9cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a>  <br /></td></tr>
+<tr class="separator:a38c927dfe3c44d0c723829b5a81d9cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4eff07597a2862b538cfb6720057e6" id="r_abd4eff07597a2862b538cfb6720057e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#abd4eff07597a2862b538cfb6720057e6">OnRemove</a> ()</td></tr>
+<tr class="memdesc:abd4eff07597a2862b538cfb6720057e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a>  <br /></td></tr>
+<tr class="separator:abd4eff07597a2862b538cfb6720057e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a803834c8e7c016ca70bcf047564ed8e1" id="r_a803834c8e7c016ca70bcf047564ed8e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1">OnActivate</a> ()</td></tr>
-<tr class="memdesc:a803834c8e7c016ca70bcf047564ed8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a>  <br /></td></tr>
+<tr class="memdesc:a803834c8e7c016ca70bcf047564ed8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a>  <br /></td></tr>
 <tr class="separator:a803834c8e7c016ca70bcf047564ed8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af03a5ac6e0b0b2af97b6d4b1639e0fc7" id="r_af03a5ac6e0b0b2af97b6d4b1639e0fc7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#af03a5ac6e0b0b2af97b6d4b1639e0fc7">OnDeactivate</a> ()</td></tr>
-<tr class="memdesc:af03a5ac6e0b0b2af97b6d4b1639e0fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a>  <br /></td></tr>
+<tr class="memdesc:af03a5ac6e0b0b2af97b6d4b1639e0fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a>  <br /></td></tr>
 <tr class="separator:af03a5ac6e0b0b2af97b6d4b1639e0fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69800a7653cbaa2ebeb373281874eb29" id="r_a69800a7653cbaa2ebeb373281874eb29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a69800a7653cbaa2ebeb373281874eb29">IsActive</a> () const</td></tr>
 <tr class="memdesc:a69800a7653cbaa2ebeb373281874eb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if featureunit is currently active  <br /></td></tr>
@@ -342,7 +348,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>attach a manager to the feature unit </p>
 <p>Attach a manager to the game world.</p>
-<p>The manager's <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1" title="called from GameServer::AttachGameFeature()">OnActivate()</a> method will be called once right away, and then its <a class="el" href="class_game_1_1_feature_unit.html#a42c706e0933cbf15e66f1fab53c5d5df" title="called in the middle of the feature trigger cycle">OnFrame()</a> method once per frame. </p>
+<p>The manager's <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1" title="called after GameServer::AttachGameFeature()">OnActivate()</a> method will be called once right away, and then its <a class="el" href="class_game_1_1_feature_unit.html#a42c706e0933cbf15e66f1fab53c5d5df" title="called in the middle of the feature trigger cycle">OnFrame()</a> method once per frame. </p>
 
 </div>
 </div>
@@ -423,11 +429,40 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>called from <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a> </p>
+<p>called after <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a> </p>
 <p>This method is called by <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">Game::GameServer::AttachGameFeature()</a>.</p>
 <p>Use this method for one-time initializations of the <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a>. </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a3231435da9038d0b32f86dae95493805">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a25344a709b2fdc7b65da2e2dae74a5de">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#a62c56dbf7cfa7dc7700e51deace321c5">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a3231435da9038d0b32f86dae95493805">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a25344a709b2fdc7b65da2e2dae74a5de">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_scripting_1_1_script_feature_unit.html#aaf2483af29e81f8c1829807c0786d2cf">Scripting::ScriptFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#a62c56dbf7cfa7dc7700e51deace321c5">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="a38c927dfe3c44d0c723829b5a81d9cff" name="a38c927dfe3c44d0c723829b5a81d9cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c927dfe3c44d0c723829b5a81d9cff">&#9670;&#160;</a></span>OnAttach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::FeatureUnit::OnAttach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a> </p>
+
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a249441d47484672a77c2a159b653753e">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a687385441c301ec92d8479ab07fab584">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a88bd65266e527329e7a06b1ef2d8e25a">PhysicsFeature::PhysicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#a890ec5015593b0635da9f3a369f260e6">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -547,7 +582,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from <a class="el" href="class_game_1_1_game_server.html#af03d877f9201382d4612220ca157bca0" title="trigger actions before rendering the game world">Game::GameServer::OnBeginFrame()</a> on all game features attached to an <a class="el" href="class_game_1_1_game_server.html" title="The game server setups and runs the game world.">GameServer</a> in the order of attachment.</p>
 <p>Override this method if your <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> has to do any work at the beginning of the frame. </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a90d2c2933a79cee7c6e45543f7e40ae8">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a592d5322ab989bea92cc9404786e9bbd">PhysicsFeature::PhysicsFeatureUnit</a>, and <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#af821812bf20ebb3fe45521caabebadf9">GraphicsFeature::GraphicsFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a90d2c2933a79cee7c6e45543f7e40ae8">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a592d5322ab989bea92cc9404786e9bbd">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#af821812bf20ebb3fe45521caabebadf9">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_scripting_1_1_script_feature_unit.html#a247cafb7b5df6e7656f0de74b9d2af6c">Scripting::ScriptFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -574,11 +609,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>called from <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a> </p>
+<p>called before <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a> </p>
 <p>This method is called by <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">Game::GameServer::RemoveGameFeature()</a>.</p>
-<p>Use this method to cleanup stuff which has been initialized in <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1" title="called from GameServer::AttachGameFeature()">OnActivate()</a>. </p>
+<p>Use this method to cleanup stuff which has been initialized in <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1" title="called after GameServer::AttachGameFeature()">OnActivate()</a>. </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a80902d1bd9a429120d9561e957bb53bb">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a7d48a0213446b44544278208bdbf8df8">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a4e5462dd1a8a0e15fbfea38ddb22200f">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#aa67faac085fe48d218ca27a3f1cf2add">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a80902d1bd9a429120d9561e957bb53bb">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a7d48a0213446b44544278208bdbf8df8">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a4e5462dd1a8a0e15fbfea38ddb22200f">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_scripting_1_1_script_feature_unit.html#acace73780d608cac55bd3ad27009816c">Scripting::ScriptFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#aa67faac085fe48d218ca27a3f1cf2add">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -638,7 +673,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from Game::GameServer::OnRender() on all game features attached to an <a class="el" href="class_game_1_1_game_server.html" title="The game server setups and runs the game world.">GameServer</a> in the order of attachment.</p>
 <p>Override this method if your <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> has any work to do before rendering happens. </p>
 
-<p>Reimplemented in <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a418569757f9682229baba81f3b604940">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#ac6b7f2d3890c37c41854de718a1a1562">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a418569757f9682229baba81f3b604940">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_scripting_1_1_script_feature_unit.html#a1767bf25098a68e706a60a5e9fb4965f">Scripting::ScriptFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#ac6b7f2d3890c37c41854de718a1a1562">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -669,7 +704,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from Game::GameServer::OnMoveBefore() on all game features attached to an <a class="el" href="class_game_1_1_game_server.html" title="The game server setups and runs the game world.">GameServer</a> in the order of attachment.</p>
 <p>Override this method if your <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> has any work to do before the physics subsystem is triggered. </p>
 
-<p>Reimplemented in <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a2300ab26a67d8855049673696736db6e">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#adecec1d11b11423eb6a61876311f6ea6">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a2300ab26a67d8855049673696736db6e">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_scripting_1_1_script_feature_unit.html#ab1a5d5c094d599eba17dcbdd5f5c274e">Scripting::ScriptFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#adecec1d11b11423eb6a61876311f6ea6">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -702,6 +737,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abd4eff07597a2862b538cfb6720057e6" name="abd4eff07597a2862b538cfb6720057e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4eff07597a2862b538cfb6720057e6">&#9670;&#160;</a></span>OnRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::FeatureUnit::OnRemove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a> </p>
+
+</div>
+</div>
 <a id="a98ef785bd6fecec0e6b967f30a2bc938" name="a98ef785bd6fecec0e6b967f30a2bc938"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98ef785bd6fecec0e6b967f30a2bc938">&#9670;&#160;</a></span>OnRenderDebug()</h2>
 
@@ -729,7 +791,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from Game::GameServer::OnRenderDebug() on all game features attached to an <a class="el" href="class_game_1_1_game_server.html" title="The game server setups and runs the game world.">GameServer</a> in the order of attachment.</p>
 <p>It's meant for debug issues. It will be called when debug mode is enabled. </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a13030d41cf249cad8fcdce234cd0ad02">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a791a9d346d02ad49a6df068efb843ab3">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#ac7e06010d557132310ee543d44aed5ea">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#aa05f0d620adad1f5e262a02c227bef56">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a13030d41cf249cad8fcdce234cd0ad02">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_scripting_1_1_script_feature_unit.html#ac46e11768acaa3102905992fde9521ca">Scripting::ScriptFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a791a9d346d02ad49a6df068efb843ab3">PhysicsFeature::PhysicsFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#ac7e06010d557132310ee543d44aed5ea">GraphicsFeature::GraphicsFeatureUnit</a>, and <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html#aa05f0d620adad1f5e262a02c227bef56">BaseGameFeature::BaseGameFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -846,7 +908,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>remove a manager from the feature unit </p>
 <p>Remove a manager from the game world.</p>
-<p>The manager's <a class="el" href="class_game_1_1_feature_unit.html#af03a5ac6e0b0b2af97b6d4b1639e0fc7" title="called from GameServer::RemoveGameFeature()">OnDeactivate()</a> method will be called. </p>
+<p>The manager's <a class="el" href="class_game_1_1_feature_unit.html#af03a5ac6e0b0b2af97b6d4b1639e0fc7" title="called before GameServer::RemoveGameFeature()">OnDeactivate()</a> method will be called. </p>
 
 </div>
 </div>
@@ -980,7 +1042,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

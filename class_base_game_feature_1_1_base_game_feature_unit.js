@@ -2,6 +2,7 @@ var class_base_game_feature_1_1_base_game_feature_unit =
 [
     [ "~BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html#a9c60f2ce7a1840b473c059c4d102c58c", null ],
     [ "OnActivate", "class_base_game_feature_1_1_base_game_feature_unit.html#a62c56dbf7cfa7dc7700e51deace321c5", null ],
+    [ "OnAttach", "class_base_game_feature_1_1_base_game_feature_unit.html#a890ec5015593b0635da9f3a369f260e6", null ],
     [ "OnDeactivate", "class_base_game_feature_1_1_base_game_feature_unit.html#aa67faac085fe48d218ca27a3f1cf2add", null ],
     [ "OnEndFrame", "class_base_game_feature_1_1_base_game_feature_unit.html#ac6b7f2d3890c37c41854de718a1a1562", null ],
     [ "OnFrame", "class_base_game_feature_1_1_base_game_feature_unit.html#adecec1d11b11423eb6a61876311f6ea6", null ],

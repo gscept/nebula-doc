@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac57383b0083a07e1deee70c8afb2e3d5" id="r_ac57383b0083a07e1deee70c8afb2e3d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#ac57383b0083a07e1deee70c8afb2e3d5">StringAtom</a> (const char *ptr)</td></tr>
 <tr class="memdesc:ac57383b0083a07e1deee70c8afb2e3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from char ptr  <br /></td></tr>
 <tr class="separator:ac57383b0083a07e1deee70c8afb2e3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b75d242b6d2bcc1049a9fa33acc478" id="r_ad2b75d242b6d2bcc1049a9fa33acc478"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#ad2b75d242b6d2bcc1049a9fa33acc478">StringAtom</a> (const char *ptr, size_t len)</td></tr>
+<tr class="memdesc:ad2b75d242b6d2bcc1049a9fa33acc478"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from char ptr  <br /></td></tr>
+<tr class="separator:ad2b75d242b6d2bcc1049a9fa33acc478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a937cf428c3a1929d36720d994b1f0542" id="r_a937cf428c3a1929d36720d994b1f0542"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#a937cf428c3a1929d36720d994b1f0542">StringAtom</a> (unsigned char *ptr)</td></tr>
 <tr class="memdesc:a937cf428c3a1929d36720d994b1f0542"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from char ptr  <br /></td></tr>
 <tr class="separator:a937cf428c3a1929d36720d994b1f0542"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +195,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa2d0951f88f48cb642d96b5bb37b840f" id="r_aa2d0951f88f48cb642d96b5bb37b840f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#aa2d0951f88f48cb642d96b5bb37b840f">StringHashCode</a> () const</td></tr>
 <tr class="memdesc:aa2d0951f88f48cb642d96b5bb37b840f"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate persistent hash code (based on string content)  <br /></td></tr>
 <tr class="separator:aa2d0951f88f48cb642d96b5bb37b840f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828b4f4c3127ee0134c34425e33d8b92" id="r_a828b4f4c3127ee0134c34425e33d8b92"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#a828b4f4c3127ee0134c34425e33d8b92">c_str</a> () const</td></tr>
+<tr class="memdesc:a828b4f4c3127ee0134c34425e33d8b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">helpers to interface with libraries that expect std::string like apis  <br /></td></tr>
+<tr class="separator:a828b4f4c3127ee0134c34425e33d8b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbd13e391bf10f418b2c5c9d55f5e81" id="r_a2dbd13e391bf10f418b2c5c9d55f5e81"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#a2dbd13e391bf10f418b2c5c9d55f5e81">length</a> () const</td></tr>
+<tr class="separator:a2dbd13e391bf10f418b2c5c9d55f5e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac087a29c694b79ea69aa22771294aaf" id="r_aac087a29c694b79ea69aa22771294aaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_string_atom.html#aac087a29c694b79ea69aa22771294aaf">empty</a> () const</td></tr>
+<tr class="separator:aac087a29c694b79ea69aa22771294aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -206,7 +216,7 @@ Private Attributes</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a26b1f34b09169e19b55c312e971eed25" name="a26b1f34b09169e19b55c312e971eed25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26b1f34b09169e19b55c312e971eed25">&#9670;&#160;</a></span>StringAtom() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b1f34b09169e19b55c312e971eed25">&#9670;&#160;</a></span>StringAtom() <span class="overload">[1/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +235,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="afcfe2d166343b262ce08605c9fae0ae2" name="afcfe2d166343b262ce08605c9fae0ae2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcfe2d166343b262ce08605c9fae0ae2">&#9670;&#160;</a></span>StringAtom() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afcfe2d166343b262ce08605c9fae0ae2">&#9670;&#160;</a></span>StringAtom() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +255,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5a8a777f56bef9c0f18a86ef0c0230fd" name="a5a8a777f56bef9c0f18a86ef0c0230fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a8a777f56bef9c0f18a86ef0c0230fd">&#9670;&#160;</a></span>StringAtom() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8a777f56bef9c0f18a86ef0c0230fd">&#9670;&#160;</a></span>StringAtom() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +283,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac57383b0083a07e1deee70c8afb2e3d5" name="ac57383b0083a07e1deee70c8afb2e3d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac57383b0083a07e1deee70c8afb2e3d5">&#9670;&#160;</a></span>StringAtom() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57383b0083a07e1deee70c8afb2e3d5">&#9670;&#160;</a></span>StringAtom() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,8 +310,46 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2b75d242b6d2bcc1049a9fa33acc478" name="ad2b75d242b6d2bcc1049a9fa33acc478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b75d242b6d2bcc1049a9fa33acc478">&#9670;&#160;</a></span>StringAtom() <span class="overload">[5/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Util::StringAtom::StringAtom </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>construct from char ptr </p>
+
+</div>
+</div>
 <a id="a937cf428c3a1929d36720d994b1f0542" name="a937cf428c3a1929d36720d994b1f0542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a937cf428c3a1929d36720d994b1f0542">&#9670;&#160;</a></span>StringAtom() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a937cf428c3a1929d36720d994b1f0542">&#9670;&#160;</a></span>StringAtom() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +377,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abf02eea849fa412ba7e42974343f71e4" name="abf02eea849fa412ba7e42974343f71e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf02eea849fa412ba7e42974343f71e4">&#9670;&#160;</a></span>StringAtom() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf02eea849fa412ba7e42974343f71e4">&#9670;&#160;</a></span>StringAtom() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +405,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a43434c4f70e1c8854c03c14c1dddc7b8" name="a43434c4f70e1c8854c03c14c1dddc7b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43434c4f70e1c8854c03c14c1dddc7b8">&#9670;&#160;</a></span>StringAtom() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43434c4f70e1c8854c03c14c1dddc7b8">&#9670;&#160;</a></span>StringAtom() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +433,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a36d6e47c8cbd3b91759130338b92b21f" name="a36d6e47c8cbd3b91759130338b92b21f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d6e47c8cbd3b91759130338b92b21f">&#9670;&#160;</a></span>StringAtom() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d6e47c8cbd3b91759130338b92b21f">&#9670;&#160;</a></span>StringAtom() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,6 +489,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a828b4f4c3127ee0134c34425e33d8b92" name="a828b4f4c3127ee0134c34425e33d8b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a828b4f4c3127ee0134c34425e33d8b92">&#9670;&#160;</a></span>c_str()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline const char * Util::StringAtom::c_str </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helpers to interface with libraries that expect std::string like apis </p>
+
+</div>
+</div>
 <a id="a4e66ae99b93a582f61c4cc504b6952d9" name="a4e66ae99b93a582f61c4cc504b6952d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e66ae99b93a582f61c4cc504b6952d9">&#9670;&#160;</a></span>Clear()</h2>
 
@@ -457,6 +524,23 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clear content (becomes invalid) </p>
+
+</div>
+</div>
+<a id="aac087a29c694b79ea69aa22771294aaf" name="aac087a29c694b79ea69aa22771294aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac087a29c694b79ea69aa22771294aaf">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline bool Util::StringAtom::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -503,6 +587,23 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return true if valid (contains a non-empty string) </p>
+
+</div>
+</div>
+<a id="a2dbd13e391bf10f418b2c5c9d55f5e81" name="a2dbd13e391bf10f418b2c5c9d55f5e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbd13e391bf10f418b2c5c9d55f5e81">&#9670;&#160;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline size_t Util::StringAtom::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -926,7 +1027,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_string_atom.html">StringAtom</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

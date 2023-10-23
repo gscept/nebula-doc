@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"attributedefinition_8h.html#adf302f494ae862081d5bce0982ac8a55":[10,0,0,0,0,6,78],
 "attributedefinition_8h.html#ae096fae336f07691ebb54e0a4ea3712e":[10,0,0,0,0,6,36],
 "attributedefinition_8h.html#ae0b0b25c23c0d38c3e653f0648983a40":[10,0,0,0,0,6,56],
 "attributedefinition_8h.html#ae23cad3f4bb0b0c14bdb671eff9dfa19":[10,0,0,0,0,6,15],
@@ -58,6 +59,9 @@ var NAVTREEINDEX2 =
 "batchmessage_8cc.html#a3e3877b5dfb63590dc533361c31a5e9c":[10,0,0,3,14,2,1],
 "batchmessage_8h.html":[10,0,0,3,14,3],
 "batchmessage_8h_source.html":[10,0,0,3,14,3],
+"bbox_8cc.html":[10,0,0,3,12,1],
+"bbox_8h.html":[10,0,0,3,12,2],
+"bbox_8h_source.html":[10,0,0,3,12,2],
 "binaryreader_8cc.html":[10,0,0,3,9,12],
 "binaryreader_8cc.html#a0d2f3aa3a81183cf3fd9b48d04298b63":[10,0,0,3,9,12,0],
 "binaryreader_8h.html":[10,0,0,3,9,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "charactercontext_8h.html#ae4ad265a7161cf04bbaee511c95ae613ad341542e1f38c5e70845977233564931":[10,0,0,6,2,1,3,2],
 "charactercontext_8h.html#ae4ad265a7161cf04bbaee511c95ae613af978c16aa539b5335082e261b1397363":[10,0,0,6,2,1,3,0],
 "charactercontext_8h_source.html":[10,0,0,6,2,1],
-"characternode_8cc.html":[10,0,0,6,15,0,0],
-"characternode_8h.html":[10,0,0,6,15,0,1],
-"characternode_8h_source.html":[10,0,0,6,15,0,1],
-"characterskinnode_8cc.html":[10,0,0,6,15,0,2],
-"characterskinnode_8h.html":[10,0,0,6,15,0,3]
+"characternode_8cc.html":[10,0,0,6,15,0,0]
 };

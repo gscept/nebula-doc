@@ -73,7 +73,7 @@ var searchData=
   ['numcurvetypes_70',['NumCurveTypes',['../class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bead0aab8466d2186ba928975738175ddcf',1,'CoreAnimation::CurveType']]],
   ['numdepthflags_71',['numdepthflags',['../namespace_im3d.html#ae5197a424390f99b794feb226d67f69eaeab4ac84284e36812e474c200fda0051',1,'Im3d::NumDepthFlags'],['../class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088',1,'CoreGraphics::RenderShape::NumDepthFlags']]],
   ['numenvelopeattrs_72',['NumEnvelopeAttrs',['../class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9acd0ae1faee09d3cd343f87a239172fb7',1,'Particles::EmitterAttrs']]],
-  ['numevents_73',['NumEvents',['../namespace_nebula_1_1_game.html#a62e9be075dfe657c005b063d7e68191baca38e2fb0fe2c043bc63beb75198b78e',1,'Nebula::Game']]],
+  ['numevents_73',['NumEvents',['../namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e',1,'Nebula::Game']]],
   ['numfloat4attrs_74',['NumFloat4Attrs',['../class_particles_1_1_emitter_attrs.html#a7f6acd7071e36e11ca80c8611410c2c2a39bc2eeb47631fbf5299e064c1501429',1,'Particles::EmitterAttrs']]],
   ['numfloatattrs_75',['NumFloatAttrs',['../class_particles_1_1_emitter_attrs.html#a391c5f114f86346f0684d1c13c5ae9eaac1af4abbdff3627d9d2835ae45f801db',1,'Particles::EmitterAttrs']]],
   ['numheaptypes_76',['NumHeapTypes',['../namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a',1,'Memory']]],

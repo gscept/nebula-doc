@@ -8,6 +8,5 @@ var searchData=
   ['posix_5',['Posix',['../namespace_posix.html',1,'']]],
   ['posteffects_6',['PostEffects',['../namespace_post_effects.html',1,'']]],
   ['profiling_7',['Profiling',['../namespace_profiling.html',1,'']]],
-  ['psuedo_8',['Psuedo',['../namespace_psuedo.html',1,'']]],
-  ['python_9',['Python',['../namespace_python.html',1,'']]]
+  ['python_8',['Python',['../namespace_python.html',1,'']]]
 ];

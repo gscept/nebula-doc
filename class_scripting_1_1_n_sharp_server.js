@@ -1,0 +1,25 @@
+var class_scripting_1_1_n_sharp_server =
+[
+    [ "Assembly", "struct_scripting_1_1_n_sharp_server_1_1_assembly.html", "struct_scripting_1_1_n_sharp_server_1_1_assembly" ],
+    [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html#a2e3c371956be786e4f4d92c54c275bc8", null ],
+    [ "~NSharpServer", "class_scripting_1_1_n_sharp_server.html#a947ff1ed5f05edc324eb8adfc585ae37", null ],
+    [ "__DeclareClass", "class_scripting_1_1_n_sharp_server.html#af6275912ab6366b6746036bc9d170141", null ],
+    [ "__DeclareSingleton", "class_scripting_1_1_n_sharp_server.html#a2c2d5bb322a68e4e5b11781325d83706", null ],
+    [ "Close", "class_scripting_1_1_n_sharp_server.html#a71e4460527ca258b958749de82b1aa87", null ],
+    [ "CloseHostFxr", "class_scripting_1_1_n_sharp_server.html#a50968c41a141d3d6f0f525795923aeea", null ],
+    [ "ExecUnmanagedCall", "class_scripting_1_1_n_sharp_server.html#a956b086516e5082af25e926d7ef91589", null ],
+    [ "GetDelegatePointer", "class_scripting_1_1_n_sharp_server.html#af135969a186e65a622f08cd8112f88dd", null ],
+    [ "GetUnmanagedFuncPointer", "class_scripting_1_1_n_sharp_server.html#a7b37d320052cb6f16d056d179cfe5e0b", null ],
+    [ "IsOpen", "class_scripting_1_1_n_sharp_server.html#aaba8d3630a354e7fba843592cfec4ab2", null ],
+    [ "LoadAssembly", "class_scripting_1_1_n_sharp_server.html#ae87ab3a5d3b73689efcf8dc07f9ef89e", null ],
+    [ "LoadHostFxr", "class_scripting_1_1_n_sharp_server.html#a13ea616699631c7f7c0d952f66ed8b39", null ],
+    [ "Open", "class_scripting_1_1_n_sharp_server.html#a89a882ab0873eb1c66fade38b48a7107", null ],
+    [ "SetDebuggingEnabled", "class_scripting_1_1_n_sharp_server.html#a93cb3fd0d7bc44483bd65a4726c2b67d", null ],
+    [ "WaitForDebuggerToConnect", "class_scripting_1_1_n_sharp_server.html#a849b275d1edde02b293a6fbb3bec22c0", null ],
+    [ "assemblies", "class_scripting_1_1_n_sharp_server.html#a16858ec66fda01920a18e74504692d6a", null ],
+    [ "assemblyTable", "class_scripting_1_1_n_sharp_server.html#a145497ca1fb46859d3a99252fd04f0fa", null ],
+    [ "debuggerEnabled", "class_scripting_1_1_n_sharp_server.html#ad4a0ef77dc61a2d46ddc6d19fb6de3f0", null ],
+    [ "hostfxr", "class_scripting_1_1_n_sharp_server.html#a421d509c4ecbd11647e401f95f9ceda9", null ],
+    [ "isOpen", "class_scripting_1_1_n_sharp_server.html#a1369425feb3874f6d36ee9cbcb414c8d", null ],
+    [ "waitForDebugger", "class_scripting_1_1_n_sharp_server.html#a0a5ea96c18f2184a2cab172765309474", null ]
+];

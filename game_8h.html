@@ -91,15 +91,21 @@ $(document).ready(function(){initNavTree('game_8h.html',''); initResizable(); })
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">game.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="monoconfig_8h_source.html">nsharp/monoconfig.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="nsconfig_8h_source.html">nsharp/nsconfig.h</a>&quot;</code><br />
 </div>
 <p><a href="game_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scripting_1_1_api_1_1float16.html">Scripting::Api::float16</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_scripting" id="r_namespace_scripting"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting.html">Scripting</a></td></tr>
@@ -109,13 +115,26 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adb276799cbdf26e35ca64b7950b82ba5" id="r_adb276799cbdf26e35ca64b7950b82ba5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#adb276799cbdf26e35ca64b7950b82ba5">Scripting::Api::IsEntityValid</a> (unsigned int entity)</td></tr>
-<tr class="memdesc:adb276799cbdf26e35ca64b7950b82ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether an entity id is valid.  <br /></td></tr>
-<tr class="separator:adb276799cbdf26e35ca64b7950b82ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab860d38687ade61a5a95e809ae63cf43" id="r_ab860d38687ade61a5a95e809ae63cf43"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ab860d38687ade61a5a95e809ae63cf43">Scripting::Api::CreateEntity</a> ()</td></tr>
-<tr class="separator:ab860d38687ade61a5a95e809ae63cf43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc342ce5a18c38613c88500d80c5eb2e" id="r_afc342ce5a18c38613c88500d80c5eb2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#afc342ce5a18c38613c88500d80c5eb2e">Scripting::Api::DeleteEntity</a> (unsigned int entity)</td></tr>
-<tr class="separator:afc342ce5a18c38613c88500d80c5eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d9d7004c1f55fe87c09c07bbf65842" id="r_a80d9d7004c1f55fe87c09c07bbf65842"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a80d9d7004c1f55fe87c09c07bbf65842">Scripting::Api::EntityIsValid</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a80d9d7004c1f55fe87c09c07bbf65842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19d76fa586d8c40b7178ad89688efbb" id="r_ab19d76fa586d8c40b7178ad89688efbb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ab19d76fa586d8c40b7178ad89688efbb">Scripting::Api::EntityCreateFromTemplate</a> (uint32_t worldId, const char *tmpl)</td></tr>
+<tr class="separator:ab19d76fa586d8c40b7178ad89688efbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5860858b38a3b978c4dde220aa1374" id="r_a4d5860858b38a3b978c4dde220aa1374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a4d5860858b38a3b978c4dde220aa1374">Scripting::Api::EntityDelete</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a4d5860858b38a3b978c4dde220aa1374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e35f12b65329798e1ee4d4b81690576" id="r_a5e35f12b65329798e1ee4d4b81690576"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a5e35f12b65329798e1ee4d4b81690576">Scripting::Api::EntityHasComponent</a> (uint32_t worldId, uint32_t entity, uint32_t componentId)</td></tr>
+<tr class="separator:a5e35f12b65329798e1ee4d4b81690576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66bd023609cf8e46ec9b6514fdcdcec9" id="r_a66bd023609cf8e46ec9b6514fdcdcec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scripting_1_1_api_1_1float16.html">float16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a66bd023609cf8e46ec9b6514fdcdcec9">Scripting::Api::EntityGetTransform</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a66bd023609cf8e46ec9b6514fdcdcec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b4097fe6307511bcbf2d90d316485e" id="r_a82b4097fe6307511bcbf2d90d316485e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a82b4097fe6307511bcbf2d90d316485e">Scripting::Api::EntitySetTransform</a> (uint32_t worldId, uint32_t entity, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform)</td></tr>
+<tr class="separator:a82b4097fe6307511bcbf2d90d316485e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c7a241f123fa83b81b69805f4e8b0d" id="r_ad1c7a241f123fa83b81b69805f4e8b0d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d">Scripting::Api::ComponentGetId</a> (const char *name)</td></tr>
+<tr class="separator:ad1c7a241f123fa83b81b69805f4e8b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b7f4114ec4b56ebbb9cb181e569c2c" id="r_ae2b7f4114ec4b56ebbb9cb181e569c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ae2b7f4114ec4b56ebbb9cb181e569c2c">Scripting::Api::ComponentGetData</a> (uint32_t worldId, uint32_t eId, uint32_t componentId, void *outData, int dataSize)</td></tr>
+<tr class="separator:ae2b7f4114ec4b56ebbb9cb181e569c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f17c5523b12c80e302e23c7518a6549" id="r_a2f17c5523b12c80e302e23c7518a6549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a2f17c5523b12c80e302e23c7518a6549">Scripting::Api::ComponentSetData</a> (uint32_t worldId, uint32_t eId, uint32_t componentId, void *data, int dataSize)</td></tr>
+<tr class="separator:a2f17c5523b12c80e302e23c7518a6549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63e6e6464b623c3b562a33fc1aae446" id="r_ad63e6e6464b623c3b562a33fc1aae446"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ad63e6e6464b623c3b562a33fc1aae446">Scripting::Api::WorldGetDefaultWorldId</a> ()</td></tr>
+<tr class="separator:ad63e6e6464b623c3b562a33fc1aae446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -124,7 +143,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_3f4de981491daf7040893230a7873228.html">nsharp</a></li><li class="navelem"><a class="el" href="dir_4f80d4cd264d30aadf39ed6745d9cc46.html">api</a></li><li class="navelem"><a class="el" href="game_8h.html">game.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

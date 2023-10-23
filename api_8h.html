@@ -110,6 +110,8 @@ $(document).ready(function(){initNavTree('api_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="memdb_2table_8h_source.html">memdb/table.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tablesignature_8h_source.html">memdb/tablesignature.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="typeregistry_8h_source.html">memdb/typeregistry.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentinspection_8h_source.html">componentinspection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentserialization_8h_source.html">componentserialization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="world_8h_source.html">world.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filter_8h_source.html">filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_2game_2dataset_8h_source.html">dataset.h</a>&quot;</code><br />
@@ -256,6 +258,10 @@ Functions</h2></td></tr>
 <tr class="memitem:af143290fef799ba8303e01c658cb54e8" id="r_af143290fef799ba8303e01c658cb54e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">Game::GetComponentId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memdesc:af143290fef799ba8303e01c658cb54e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id.  <br /></td></tr>
 <tr class="separator:af143290fef799ba8303e01c658cb54e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b" id="r_a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT &gt; </td></tr>
+<tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">Game::GetComponentId</a> ()</td></tr>
+<tr class="memdesc:a7dfc27dc96611f0c398ea8328415dd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id, based on template type.  <br /></td></tr>
+<tr class="separator:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbd796cb12f20c8b6bf6ad884b2b5c5" id="r_a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5">Game::GetBlueprintId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memdesc:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a blueprint id by name.  <br /></td></tr>
 <tr class="separator:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,6 +316,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a384d2c2409bb1734913d09b34855819d" id="r_a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
 <tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the component decay buffers  <br /></td></tr>
 <tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c230e8b6164a05243a58c87022c72e" id="r_a75c230e8b6164a05243a58c87022c72e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a75c230e8b6164a05243a58c87022c72e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a75c230e8b6164a05243a58c87022c72e">Game::RegisterComponent</a> ()</td></tr>
+<tr class="memdesc:a75c230e8b6164a05243a58c87022c72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; Beginning of template implementations &ndash;  <br /></td></tr>
+<tr class="separator:a75c230e8b6164a05243a58c87022c72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -338,7 +348,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8h.html">api.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

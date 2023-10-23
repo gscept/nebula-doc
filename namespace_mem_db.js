@@ -14,5 +14,7 @@ var namespace_mem_db =
     [ "TypeRegistry", "class_mem_db_1_1_type_registry.html", "class_mem_db_1_1_type_registry" ],
     [ "__ImplementClass", "namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761", null ],
     [ "AllocateBuffer", "namespace_mem_db.html#a3fba23ad56ce562a1c62710e6de1fa5e", null ],
+    [ "GenerateNewAttributeId", "namespace_mem_db.html#a7e5d3b331773ce3cc5ea2d7b40fcfb2a", null ],
+    [ "GetAttributeId", "namespace_mem_db.html#aeb59e3017d21c6bb374d949e615c71b3", null ],
     [ "InvalidRow", "namespace_mem_db.html#a8ee165386fef035f3bd863db6b48bd3a", null ]
 ];

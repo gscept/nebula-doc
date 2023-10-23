@@ -11,6 +11,6 @@ var dir_ae8a1b09c348e92b07c1bd00cbd1b041 =
     [ "table.h", "memdb_2table_8h.html", "memdb_2table_8h" ],
     [ "tableid.h", "tableid_8h.html", "tableid_8h" ],
     [ "tablesignature.h", "tablesignature_8h.html", "tablesignature_8h" ],
-    [ "typeregistry.cc", "typeregistry_8cc.html", null ],
+    [ "typeregistry.cc", "typeregistry_8cc.html", "typeregistry_8cc" ],
     [ "typeregistry.h", "typeregistry_8h.html", "typeregistry_8h" ]
 ];

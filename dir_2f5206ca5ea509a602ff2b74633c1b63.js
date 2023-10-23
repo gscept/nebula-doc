@@ -9,6 +9,7 @@ var dir_2f5206ca5ea509a602ff2b74633c1b63 =
     [ "byteorder.h", "byteorder_8h.html", "byteorder_8h" ],
     [ "cpu.h", "cpu_8h.html", "cpu_8h" ],
     [ "environment.h", "environment_8h.html", null ],
+    [ "library.h", "library_8h.html", null ],
     [ "nebulasettings.h", "nebulasettings_8h.html", null ],
     [ "process.h", "process_8h.html", null ],
     [ "systeminfo.h", "systeminfo_8h.html", "systeminfo_8h" ]

@@ -7,6 +7,7 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6cb80e3f50cdada2af3535412a7a7516", null ],
     [ "GetDefaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a71a9bf572ab6715dc4424efeaa4aa271", null ],
     [ "OnActivate", "class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6", null ],
+    [ "OnAttach", "class_graphics_feature_1_1_graphics_feature_unit.html#a687385441c301ec92d8479ab07fab584", null ],
     [ "OnBeforeViews", "class_graphics_feature_1_1_graphics_feature_unit.html#a79625b66fd8e3b457810346f41b3f8fe", null ],
     [ "OnBeginFrame", "class_graphics_feature_1_1_graphics_feature_unit.html#af821812bf20ebb3fe45521caabebadf9", null ],
     [ "OnDeactivate", "class_graphics_feature_1_1_graphics_feature_unit.html#a4e5462dd1a8a0e15fbfea38ddb22200f", null ],

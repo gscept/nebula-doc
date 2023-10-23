@@ -116,6 +116,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ace45286aad84d1c3c5e6446a3fbec077" id="r_ace45286aad84d1c3c5e6446a3fbec077"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_feature_unit.html#aca57e590ebf9840db1eff0e36ec18e81">__DeclareClass</a>(<a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html">GraphicsFeatureUnit</a>) <a class="el" href="osxsingleton_8h.html#a90622683d9e8c91682ba26b2fae8125f">__DeclareSingleton</a>(<a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html">GraphicsFeatureUnit</a>) public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#ace45286aad84d1c3c5e6446a3fbec077">~GraphicsFeatureUnit</a> ()</td></tr>
 <tr class="memdesc:ace45286aad84d1c3c5e6446a3fbec077"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:ace45286aad84d1c3c5e6446a3fbec077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687385441c301ec92d8479ab07fab584" id="r_a687385441c301ec92d8479ab07fab584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a687385441c301ec92d8479ab07fab584">OnAttach</a> ()</td></tr>
+<tr class="memdesc:a687385441c301ec92d8479ab07fab584"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from GameServer::AttachGameFeature()  <br /></td></tr>
+<tr class="separator:a687385441c301ec92d8479ab07fab584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0079bade7c1a9f901d28c54bb17e0ad6" id="r_a0079bade7c1a9f901d28c54bb17e0ad6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6">OnActivate</a> () override</td></tr>
 <tr class="memdesc:a0079bade7c1a9f901d28c54bb17e0ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called upon activation of feature unit.  <br /></td></tr>
 <tr class="separator:a0079bade7c1a9f901d28c54bb17e0ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +202,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a89f86552f1483af4be2cd598ccc999c7 inherit pub_methods_class_game_1_1_feature_unit" id="r_a89f86552f1483af4be2cd598ccc999c7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a89f86552f1483af4be2cd598ccc999c7">~FeatureUnit</a> ()</td></tr>
 <tr class="memdesc:a89f86552f1483af4be2cd598ccc999c7 inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:a89f86552f1483af4be2cd598ccc999c7 inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4eff07597a2862b538cfb6720057e6 inherit pub_methods_class_game_1_1_feature_unit" id="r_abd4eff07597a2862b538cfb6720057e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#abd4eff07597a2862b538cfb6720057e6">OnRemove</a> ()</td></tr>
+<tr class="memdesc:abd4eff07597a2862b538cfb6720057e6 inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902" title="remove game feature">GameServer::RemoveGameFeature()</a>  <br /></td></tr>
+<tr class="separator:abd4eff07597a2862b538cfb6720057e6 inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69800a7653cbaa2ebeb373281874eb29 inherit pub_methods_class_game_1_1_feature_unit" id="r_a69800a7653cbaa2ebeb373281874eb29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html#a69800a7653cbaa2ebeb373281874eb29">IsActive</a> () const</td></tr>
 <tr class="memdesc:a69800a7653cbaa2ebeb373281874eb29 inherit pub_methods_class_game_1_1_feature_unit"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if featureunit is currently active  <br /></td></tr>
 <tr class="separator:a69800a7653cbaa2ebeb373281874eb29 inherit pub_methods_class_game_1_1_feature_unit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -478,6 +484,35 @@ Additional Inherited Members</h2></td></tr>
 <p>Called upon activation of feature unit. </p>
 
 <p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a803834c8e7c016ca70bcf047564ed8e1">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="a687385441c301ec92d8479ab07fab584" name="a687385441c301ec92d8479ab07fab584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687385441c301ec92d8479ab07fab584">&#9670;&#160;</a></span>OnAttach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsFeatureUnit::OnAttach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from GameServer::AttachGameFeature() </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a38c927dfe3c44d0c723829b5a81d9cff">Game::FeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1094,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics_feature.html">GraphicsFeature</a></li><li class="navelem"><a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html">GraphicsFeatureUnit</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

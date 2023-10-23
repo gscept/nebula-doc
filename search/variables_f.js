@@ -75,7 +75,6 @@ var searchData=
   ['overlapbuffer_72',['overlapBuffer',['../class_physics_1_1_physx_state.html#a0ff13b047898c06b4907c92ed2be0b47',1,'Physics::PhysxState']]],
   ['overlapped_73',['overlapped',['../struct_i_o_1_1_file_watcher_platform.html#ac3783f48d187e283a815d0a519ac30e8',1,'IO::FileWatcherPlatform']]],
   ['overriderootdirectory_74',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
-  ['owner_75',['owner',['../class_psuedo_1_1_property.html#a827b5908828f8f5a2de4d808470252bd',1,'Psuedo::Property']]],
-  ['ownerid_76',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#ab4045e376f4243ec99c8d5b3d431a720',1,'Game::GameServer::State']]],
-  ['owners_77',['owners',['../class_util_1_1_array_allocator_safe.html#aebc7c9aec073673e2eac613376ad9256',1,'Util::ArrayAllocatorSafe']]]
+  ['ownerid_75',['ownerId',['../struct_game_1_1_game_server_1_1_state.html#ab4045e376f4243ec99c8d5b3d431a720',1,'Game::GameServer::State']]],
+  ['owners_76',['owners',['../class_util_1_1_array_allocator_safe.html#aebc7c9aec073673e2eac613376ad9256',1,'Util::ArrayAllocatorSafe']]]
 ];

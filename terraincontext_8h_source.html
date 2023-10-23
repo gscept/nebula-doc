@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('terraincontext_8h_source.html',''); in
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="graphicscontext_8h.html">graphics/graphicscontext.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="resourceid_8h.html">resources/resourceid.h</a>&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="foundation_2math_2bbox_8h.html">math/bbox.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="bbox_8h.html">math/bbox.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="primitivegroup_8h.html">coregraphics/primitivegroup.h</a>&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="texture_8h.html">coregraphics/texture.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="resourcetable_8h.html">coregraphics/resourcetable.h</a>&quot;</span></div>
@@ -291,6 +291,7 @@ $(document).ready(function(){initNavTree('terraincontext_8h_source.html',''); in
 </div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>} <span class="comment">// namespace Terrain</span></div>
+<div class="ttc" id="abbox_8h_html"><div class="ttname"><a href="bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="aclass_graphics_1_1_graphics_context_html"><div class="ttname"><a href="class_graphics_1_1_graphics_context.html">Graphics::GraphicsContext</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:165</div></div>
 <div class="ttc" id="aclass_ids_1_1_id_allocator_html"><div class="ttname"><a href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a></div><div class="ttdoc">An ID allocator associates an id with a slice in an N number of arrays.</div><div class="ttdef"><b>Definition</b> idallocator.h:39</div></div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition</b> ptr.h:39</div></div>
@@ -324,7 +325,6 @@ $(document).ready(function(){initNavTree('terraincontext_8h_source.html',''); in
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition</b> fixedarray.h:20</div></div>
 <div class="ttc" id="aclass_util_1_1_string_atom_html"><div class="ttname"><a href="class_util_1_1_string_atom.html">Util::StringAtom</a></div><div class="ttdoc">A StringAtom.</div><div class="ttdef"><b>Definition</b> stringatom.h:22</div></div>
-<div class="ttc" id="afoundation_2math_2bbox_8h_html"><div class="ttname"><a href="foundation_2math_2bbox_8h.html">bbox.h</a></div></div>
 <div class="ttc" id="aglimltypes_8h_html"><div class="ttname"><a href="glimltypes_8h.html">glimltypes.h</a></div></div>
 <div class="ttc" id="agraphicscontext_8h_html"><div class="ttname"><a href="graphicscontext_8h.html">graphicscontext.h</a></div></div>
 <div class="ttc" id="aids_2id_8h_html_a4235c5ac56c4d81970d369dcae60c903"><div class="ttname"><a href="ids_2id_8h.html#a4235c5ac56c4d81970d369dcae60c903">ID_32_TYPE</a></div><div class="ttdeci">#define ID_32_TYPE(x)</div><div class="ttdef"><b>Definition</b> id.h:16</div></div>
@@ -421,7 +421,7 @@ $(document).ready(function(){initNavTree('terraincontext_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_7ce72730e6b9c94a8fd79b6a1165ab77.html">terrain</a></li><li class="navelem"><a class="el" href="terraincontext_8h.html">terraincontext.h</a></li>
 				<li class="footer">
-					Generated on Fri Oct 13 2023 11:49:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Oct 23 2023 13:47:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
