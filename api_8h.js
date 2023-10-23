@@ -57,7 +57,6 @@ var api_8h =
     [ "ReleaseAllOps", "api_8h.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "api_8h.html#a611d7bd0e0837c10726ce80a87ff5795", null ],
-    [ "SetComponent", "api_8h.html#aea994c2105b9df94c34fd26e698c67fc", null ],
     [ "SetComponent", "api_8h.html#aa9c2117ef4e8378b3df6df642809f518", null ],
     [ "SetComponent", "api_8h.html#a583c03ec0434eff36157ae336ef7bc7b", null ],
     [ "MAX_NUM_CATEGORIES", "api_8h.html#a22a044ba95689ee39c23bfd5aa643dbb", null ]

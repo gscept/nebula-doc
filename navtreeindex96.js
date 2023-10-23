@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"gamepadbase_8h.html":[10,0,0,4,0,0,1],
 "gamepadbase_8h.html#ad761fc433a36d1adba0eb03bda34f047":[10,0,0,4,0,0,1,2],
 "gamepadbase_8h_source.html":[10,0,0,4,0,0,1],
 "gameserver_8cc.html":[10,0,0,1,3,20],
@@ -151,14 +152,14 @@ var NAVTREEINDEX96 =
 "globalconstants_8h.html#ad1770ae0ad7fcee7974da629b13ed4e6":[10,0,0,6,10,10,4],
 "globalconstants_8h.html#add91dcd9b892d18c06dcb0a0474107a9":[10,0,0,6,10,10,11],
 "globalconstants_8h_source.html":[10,0,0,6,10,10],
-"globals.html":[10,1,0],
 "globals.html":[10,1,0,0],
+"globals.html":[10,1,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
 "globals_d.html":[10,1,0,4],
-"globals_defs.html":[10,1,6],
 "globals_defs.html":[10,1,6,0],
+"globals_defs.html":[10,1,6],
 "globals_defs_a.html":[10,1,6,1],
 "globals_defs_b.html":[10,1,6,2],
 "globals_defs_c.html":[10,1,6,3],
@@ -182,8 +183,8 @@ var NAVTREEINDEX96 =
 "globals_enum.html":[10,1,4],
 "globals_eval.html":[10,1,5],
 "globals_f.html":[10,1,0,5],
-"globals_func.html":[10,1,1],
 "globals_func.html":[10,1,1,0],
+"globals_func.html":[10,1,1],
 "globals_func_a.html":[10,1,1,1],
 "globals_func_d.html":[10,1,1,2],
 "globals_func_f.html":[10,1,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "graphicscontext_8h.html#ac6ecabb8b5294ad9d9e26b72abdd8a93":[10,0,0,6,10,12,8],
 "graphicscontext_8h.html#ae1a3f3fff31efb7a5a3abe397e7bdf98":[10,0,0,6,10,12,6],
 "graphicscontext_8h_source.html":[10,0,0,6,10,12],
-"graphicsdevice_8h.html":[10,0,0,6,5,31],
-"graphicsdevice_8h.html#a067fd375ff413a631e735ed18cb0ce20":[10,0,0,6,5,31,38]
+"graphicsdevice_8h.html":[10,0,0,6,5,31]
 };

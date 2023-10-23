@@ -121,7 +121,6 @@ var namespace_game =
     [ "ReleaseAllOps", "namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "namespace_game.html#a611d7bd0e0837c10726ce80a87ff5795", null ],
-    [ "SetComponent", "namespace_game.html#aea994c2105b9df94c34fd26e698c67fc", null ],
     [ "SetComponent", "namespace_game.html#aa9c2117ef4e8378b3df6df642809f518", null ],
     [ "SetComponent", "namespace_game.html#a583c03ec0434eff36157ae336ef7bc7b", null ],
     [ "WorldBeginFrame", "namespace_game.html#a071f012555b14e7ef96a661604721190", null ],

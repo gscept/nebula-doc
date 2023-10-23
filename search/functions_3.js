@@ -53,7 +53,7 @@ var searchData=
   ['classexists_50',['classexists',['../class_core_1_1_factory.html#a224afd707e75f91eae1ac6d6c9e16b56',1,'Core::Factory::ClassExists(const Util::FourCC classFourCC) const'],['../class_core_1_1_factory.html#aa3552dc1aa5618ed681a9b4e0a053791',1,'Core::Factory::ClassExists(const Util::String &amp;className) const']]],
   ['classifypoint_51',['ClassifyPoint',['../class_mathf_1_1_plane_helper.html#a04f773d2b19a54dd373359dc2bda6adf',1,'Mathf::PlaneHelper']]],
   ['clean_52',['Clean',['../class_mem_db_1_1_table.html#af9c37f27dfbfe80b8e32bd49a0f3fd57',1,'MemDb::Table']]],
-  ['cleanup_53',['cleanup',['../class_frame_1_1_frame_script.html#a2c0e2cb44734e1f5fcd561033b8b4ad2',1,'Frame::FrameScript::Cleanup()'],['../class_posix_1_1_posix_process.html#ace41448e1c233eda5ec779d8170aa5be',1,'Posix::PosixProcess::CleanUp()']]],
+  ['cleanup_53',['cleanup',['../class_posix_1_1_posix_process.html#ace41448e1c233eda5ec779d8170aa5be',1,'Posix::PosixProcess::CleanUp()'],['../class_frame_1_1_frame_script.html#a2c0e2cb44734e1f5fcd561033b8b4ad2',1,'Frame::FrameScript::Cleanup()']]],
   ['cleanupdelayedremovequeue_54',['CleanupDelayedRemoveQueue',['../struct_graphics_1_1_graphics_context_state.html#a1c2df3c7819f09a71951b13f92d4c96f',1,'Graphics::GraphicsContextState']]],
   ['cleanupgamefeatures_55',['CleanupGameFeatures',['../class_app_1_1_game_application.html#a3e51a6169a8d02007f30bb6b037868d6',1,'App::GameApplication']]],
   ['cleanupmanageddata_56',['CleanUpManagedData',['../class_util_1_1_string_marshaler.html#a9245ed9fad3da3842e33db3209d882e4',1,'Util::StringMarshaler']]],
