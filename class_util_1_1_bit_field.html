@@ -154,9 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5f5dceaef506ccf8b000f688e389a2f" id="r_aa5f5dceaef506ccf8b000f688e389a2f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#aa5f5dceaef506ccf8b000f688e389a2f">SetBit</a> (const uint64_t bitIndex)</td></tr>
 <tr class="memdesc:aa5f5dceaef506ccf8b000f688e389a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a bit by index  <br /></td></tr>
 <tr class="separator:aa5f5dceaef506ccf8b000f688e389a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdfb6a020d769aa6ac47d0e91a16f351" id="r_acdfb6a020d769aa6ac47d0e91a16f351"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#acdfb6a020d769aa6ac47d0e91a16f351">SetBit</a> (const uint64_t bitIndex, uint64_t <a class="el" href="namespace_math.html#a8c6ecbfbc7e4b5eb53122ec0d93e4e27">mul</a>)</td></tr>
-<tr class="memdesc:acdfb6a020d769aa6ac47d0e91a16f351"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a bit by index. Multiplies the bit with mul before OR-ing which means it won't set the bit if mul is 0, which makes it branchless.  <br /></td></tr>
-<tr class="separator:acdfb6a020d769aa6ac47d0e91a16f351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44b278fa71baf769b3e9e8e2cdceb8d" id="r_aa44b278fa71baf769b3e9e8e2cdceb8d"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#aa44b278fa71baf769b3e9e8e2cdceb8d">SetBitIf</a> (const uint64_t bitIndex, uint64_t cond)</td></tr>
+<tr class="memdesc:aa44b278fa71baf769b3e9e8e2cdceb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a bit by index. Multiplies the bit with cond before OR-ing which means it won't set the bit if mul is 0, which makes it branchless.  <br /></td></tr>
+<tr class="separator:aa44b278fa71baf769b3e9e8e2cdceb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3eb46f221162bdcb031d8ba4868ca5" id="r_a4f3eb46f221162bdcb031d8ba4868ca5"><td class="memTemplParams" colspan="2">template&lt;uint64_t bitIndex&gt; </td></tr>
 <tr class="memitem:a4f3eb46f221162bdcb031d8ba4868ca5"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#a4f3eb46f221162bdcb031d8ba4868ca5">SetBit</a> ()</td></tr>
 <tr class="memdesc:a4f3eb46f221162bdcb031d8ba4868ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a bit by index  <br /></td></tr>
@@ -164,6 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1266081a204fd2ca7a1504be8bf39d4f" id="r_a1266081a204fd2ca7a1504be8bf39d4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#a1266081a204fd2ca7a1504be8bf39d4f">ClearBit</a> (const uint64_t bitIndex)</td></tr>
 <tr class="memdesc:a1266081a204fd2ca7a1504be8bf39d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear a bit by index  <br /></td></tr>
 <tr class="separator:a1266081a204fd2ca7a1504be8bf39d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554c4daeb43ffc0f4df0abbd5b45ec3b" id="r_a554c4daeb43ffc0f4df0abbd5b45ec3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_bit_field.html#a554c4daeb43ffc0f4df0abbd5b45ec3b">SectionIsNull</a> (uint64_t section) const</td></tr>
+<tr class="memdesc:a554c4daeb43ffc0f4df0abbd5b45ec3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a section of the bitfield is set.  <br /></td></tr>
+<tr class="separator:a554c4daeb43ffc0f4df0abbd5b45ec3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -564,8 +567,31 @@ template&lt;unsigned int NUMBITS&gt; </div>
 
 </div>
 </div>
+<a id="a554c4daeb43ffc0f4df0abbd5b45ec3b" name="a554c4daeb43ffc0f4df0abbd5b45ec3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554c4daeb43ffc0f4df0abbd5b45ec3b">&#9670;&#160;</a></span>SectionIsNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int NUMBITS&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; NUMBITS &gt;::SectionIsNull </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>section</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if a section of the bitfield is set. </p>
+<p>The section size depends on the size of the bit field. If the bitfield is 8, 16 or 32 bits large, the section size is the same size as the bitfield, thus there's only one section. If the bitfield is 64 bits or larger, the section size is 64 bits per section. </p>
+
+</div>
+</div>
 <a id="a4f3eb46f221162bdcb031d8ba4868ca5" name="a4f3eb46f221162bdcb031d8ba4868ca5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f3eb46f221162bdcb031d8ba4868ca5">&#9670;&#160;</a></span>SetBit() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f3eb46f221162bdcb031d8ba4868ca5">&#9670;&#160;</a></span>SetBit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +622,7 @@ template&lt;uint64_t i&gt; </div>
 </div>
 </div>
 <a id="aa5f5dceaef506ccf8b000f688e389a2f" name="aa5f5dceaef506ccf8b000f688e389a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5f5dceaef506ccf8b000f688e389a2f">&#9670;&#160;</a></span>SetBit() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f5dceaef506ccf8b000f688e389a2f">&#9670;&#160;</a></span>SetBit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,8 +651,8 @@ template&lt;unsigned int NUMBITS&gt; </div>
 
 </div>
 </div>
-<a id="acdfb6a020d769aa6ac47d0e91a16f351" name="acdfb6a020d769aa6ac47d0e91a16f351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdfb6a020d769aa6ac47d0e91a16f351">&#9670;&#160;</a></span>SetBit() <span class="overload">[3/3]</span></h2>
+<a id="aa44b278fa71baf769b3e9e8e2cdceb8d" name="aa44b278fa71baf769b3e9e8e2cdceb8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44b278fa71baf769b3e9e8e2cdceb8d">&#9670;&#160;</a></span>SetBitIf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -637,7 +663,7 @@ template&lt;unsigned int NUMBITS&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; NUMBITS &gt;::SetBit </td>
+          <td class="memname">constexpr void <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; NUMBITS &gt;::SetBitIf </td>
           <td>(</td>
           <td class="paramtype">const uint64_t&#160;</td>
           <td class="paramname"><em>bitIndex</em>, </td>
@@ -646,7 +672,7 @@ template&lt;unsigned int NUMBITS&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>mul</em>&#160;</td>
+          <td class="paramname"><em>cond</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -661,7 +687,7 @@ template&lt;unsigned int NUMBITS&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>set a bit by index. Multiplies the bit with mul before OR-ing which means it won't set the bit if mul is 0, which makes it branchless. </p>
+<p>set a bit by index. Multiplies the bit with cond before OR-ing which means it won't set the bit if mul is 0, which makes it branchless. </p>
 
 </div>
 </div>
@@ -748,7 +774,7 @@ template&lt;unsigned int NUMBITS&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_bit_field.html">BitField</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 11:45:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 24 2023 21:08:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

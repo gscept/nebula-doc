@@ -191,9 +191,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa226df87db85238cd2e175163bae15d7" id="r_aa226df87db85238cd2e175163bae15d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#aa226df87db85238cd2e175163bae15d7">DuplicateInstances</a> (<a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;src, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> &gt; const &amp;srcRows, <a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;dst, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> &gt; &amp;dstRows)</td></tr>
 <tr class="memdesc:aa226df87db85238cd2e175163bae15d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate instance from one row into destination table.  <br /></td></tr>
 <tr class="separator:aa226df87db85238cd2e175163bae15d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a802e301b12505ecf987cbbfc935a7bdd" id="r_a802e301b12505ecf987cbbfc935a7bdd"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a802e301b12505ecf987cbbfc935a7bdd">MovePartition</a> (<a class="el" href="class_mem_db_1_1_table.html">MemDb::Table</a> &amp;srcTable, uint16_t srcPart, <a class="el" href="class_mem_db_1_1_table.html">MemDb::Table</a> &amp;dstTable)</td></tr>
-<tr class="memdesc:a802e301b12505ecf987cbbfc935a7bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">move an entire partition from one table to another.  <br /></td></tr>
-<tr class="separator:a802e301b12505ecf987cbbfc935a7bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -231,15 +228,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7b4432647603e79800fbc3c2abfd02c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f1451e44727841714c145587f96bb01" id="r_a2f1451e44727841714c145587f96bb01"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a2f1451e44727841714c145587f96bb01">totalNumRows</a> = 0</td></tr>
 <tr class="separator:a2f1451e44727841714c145587f96bb01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a613d96fc72cd04fb748ef504bb1c6ea0" id="r_a613d96fc72cd04fb748ef504bb1c6ea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a613d96fc72cd04fb748ef504bb1c6ea0">currentPartition</a></td></tr>
+<tr class="memitem:a613d96fc72cd04fb748ef504bb1c6ea0" id="r_a613d96fc72cd04fb748ef504bb1c6ea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a613d96fc72cd04fb748ef504bb1c6ea0">currentPartition</a> = nullptr</td></tr>
 <tr class="memdesc:a613d96fc72cd04fb748ef504bb1c6ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current partition that we'll be using when allocating data.  <br /></td></tr>
 <tr class="separator:a613d96fc72cd04fb748ef504bb1c6ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5224f0c834e3f07ded244576f52c93b1" id="r_a5224f0c834e3f07ded244576f52c93b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a5224f0c834e3f07ded244576f52c93b1">partitions</a></td></tr>
 <tr class="memdesc:a5224f0c834e3f07ded244576f52c93b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">All partitions, even null partitions.  <br /></td></tr>
 <tr class="separator:a5224f0c834e3f07ded244576f52c93b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fa2064ba1e3185b9c39a146e40545a" id="r_a47fa2064ba1e3185b9c39a146e40545a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a47fa2064ba1e3185b9c39a146e40545a">freePartitions</a></td></tr>
-<tr class="memdesc:a47fa2064ba1e3185b9c39a146e40545a"><td class="mdescLeft">&#160;</td><td class="mdescRight">free indices in the partitions array for reusing null partitions  <br /></td></tr>
-<tr class="separator:a47fa2064ba1e3185b9c39a146e40545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad67c67e198bb2bf35b631c46432305" id="r_a3ad67c67e198bb2bf35b631c46432305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a3ad67c67e198bb2bf35b631c46432305">freePartitions</a></td></tr>
+<tr class="memdesc:a3ad67c67e198bb2bf35b631c46432305"><td class="mdescLeft">&#160;</td><td class="mdescRight">free partitions for recycling allocated partitions  <br /></td></tr>
+<tr class="separator:a3ad67c67e198bb2bf35b631c46432305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2042cd632e6511d4b12b7620b5edb77" id="r_ac2042cd632e6511d4b12b7620b5edb77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#ac2042cd632e6511d4b12b7620b5edb77">nullPartitions</a></td></tr>
+<tr class="memdesc:ac2042cd632e6511d4b12b7620b5edb77"><td class="mdescLeft">&#160;</td><td class="mdescRight">indices to null partitions  <br /></td></tr>
+<tr class="separator:ac2042cd632e6511d4b12b7620b5edb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c8b00e155f28174f34990f5ab65dc5" id="r_a76c8b00e155f28174f34990f5ab65dc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a76c8b00e155f28174f34990f5ab65dc5">firstActivePartition</a> = nullptr</td></tr>
 <tr class="memdesc:a76c8b00e155f28174f34990f5ab65dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">First partition that has entities. You can use this to iterate over all active partitions with entities by following the chain of partition-&gt;next.  <br /></td></tr>
 <tr class="separator:a76c8b00e155f28174f34990f5ab65dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +252,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a68bb0bd2c2f1c3b3f3b5dd3e6b844f48" id="r_a68bb0bd2c2f1c3b3f3b5dd3e6b844f48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, 32, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a68bb0bd2c2f1c3b3f3b5dd3e6b844f48">columnRegistry</a></td></tr>
 <tr class="memdesc:a68bb0bd2c2f1c3b3f3b5dd3e6b844f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps attr id -&gt; index in columns array  <br /></td></tr>
 <tr class="separator:a68bb0bd2c2f1c3b3f3b5dd3e6b844f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9abc13e9e4e125035d13481709c96ff" id="r_af9abc13e9e4e125035d13481709c96ff"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#af9abc13e9e4e125035d13481709c96ff">partitionCleanerCounter</a> = 0</td></tr>
+<tr class="separator:af9abc13e9e4e125035d13481709c96ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -917,52 +919,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a802e301b12505ecf987cbbfc935a7bdd" name="a802e301b12505ecf987cbbfc935a7bdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a802e301b12505ecf987cbbfc935a7bdd">&#9670;&#160;</a></span>MovePartition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t MemDb::Table::MovePartition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_mem_db_1_1_table.html">MemDb::Table</a> &amp;&#160;</td>
-          <td class="paramname"><em>srcTable</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>srcPart</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_mem_db_1_1_table.html">MemDb::Table</a> &amp;&#160;</td>
-          <td class="paramname"><em>dstTable</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>move an entire partition from one table to another. </p>
-<p>This should only be used for VERY specific purposes.</p>
-<p>IMPORTANT: the destination tables signature, and attribute order must be the exact same as the source tables, for the first N attributes, N being the amount of attributes in the source table. returns new partition id in dstTable </p>
-
-</div>
-</div>
 <a id="af9e1e9f063bf9c21b738587c1fd46f4b" name="af9e1e9f063bf9c21b738587c1fd46f4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9e1e9f063bf9c21b738587c1fd46f4b">&#9670;&#160;</a></span>NewPartition()</h2>
 
@@ -1151,7 +1107,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a>* MemDb::Table::currentPartition</td>
+          <td class="memname"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a>* MemDb::Table::currentPartition = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1189,8 +1145,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a47fa2064ba1e3185b9c39a146e40545a" name="a47fa2064ba1e3185b9c39a146e40545a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47fa2064ba1e3185b9c39a146e40545a">&#9670;&#160;</a></span>freePartitions</h2>
+<a id="a3ad67c67e198bb2bf35b631c46432305" name="a3ad67c67e198bb2bf35b631c46432305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad67c67e198bb2bf35b631c46432305">&#9670;&#160;</a></span>freePartitions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1199,7 +1155,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;uint16_t&gt; MemDb::Table::freePartitions</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a>*&gt; MemDb::Table::freePartitions</td>
         </tr>
       </table>
   </td>
@@ -1209,7 +1165,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>free indices in the partitions array for reusing null partitions </p>
+<p>free partitions for recycling allocated partitions </p>
 
 </div>
 </div>
@@ -1253,6 +1209,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ac2042cd632e6511d4b12b7620b5edb77" name="ac2042cd632e6511d4b12b7620b5edb77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2042cd632e6511d4b12b7620b5edb77">&#9670;&#160;</a></span>nullPartitions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;uint16_t&gt; MemDb::Table::nullPartitions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>indices to null partitions </p>
+
+</div>
+</div>
 <a id="a085ed36186dcf12c1572c519a8f645ee" name="a085ed36186dcf12c1572c519a8f645ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a085ed36186dcf12c1572c519a8f645ee">&#9670;&#160;</a></span>numActivePartitions</h2>
 
@@ -1274,6 +1254,28 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>number of active partitions </p>
+
+</div>
+</div>
+<a id="af9abc13e9e4e125035d13481709c96ff" name="af9abc13e9e4e125035d13481709c96ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9abc13e9e4e125035d13481709c96ff">&#9670;&#160;</a></span>partitionCleanerCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t MemDb::Table::partitionCleanerCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1380,7 +1382,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table.html">Table</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 11:45:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 24 2023 21:08:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

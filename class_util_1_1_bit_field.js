@@ -17,9 +17,10 @@ var class_util_1_1_bit_field =
     [ "operator!=", "class_util_1_1_bit_field.html#a1e8b3ad31adf0e6aaf0a0e71dd7a3b29", null ],
     [ "operator==", "class_util_1_1_bit_field.html#a0cd0a8ad119f7d2ff21c6da5ef608982", null ],
     [ "Or", "class_util_1_1_bit_field.html#adbe87295761aca90e415f3e9a36c035d", null ],
+    [ "SectionIsNull", "class_util_1_1_bit_field.html#a554c4daeb43ffc0f4df0abbd5b45ec3b", null ],
     [ "SetBit", "class_util_1_1_bit_field.html#a4f3eb46f221162bdcb031d8ba4868ca5", null ],
     [ "SetBit", "class_util_1_1_bit_field.html#aa5f5dceaef506ccf8b000f688e389a2f", null ],
-    [ "SetBit", "class_util_1_1_bit_field.html#acdfb6a020d769aa6ac47d0e91a16f351", null ],
+    [ "SetBitIf", "class_util_1_1_bit_field.html#aa44b278fa71baf769b3e9e8e2cdceb8d", null ],
     [ "BASE", "class_util_1_1_bit_field.html#a0f0dcbd31af95d756dc7a5fdb877f334", null ],
     [ "bits", "class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd", null ],
     [ "size", "class_util_1_1_bit_field.html#af2cd1e9b20a20775b65170febd24edf2", null ]

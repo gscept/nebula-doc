@@ -4,6 +4,7 @@ var class_mem_db_1_1_table_1_1_partition =
     [ "~Partition", "class_mem_db_1_1_table_1_1_partition.html#afcfff958386f339fc5886ccba3b70f94", null ],
     [ "AllocateRowIndex", "class_mem_db_1_1_table_1_1_partition.html#a8f7c8236892dd683c21a7f0da9764faf", null ],
     [ "EraseSwapIndex", "class_mem_db_1_1_table_1_1_partition.html#aa6e87c03c3a7220bc6337e4677a2b123", null ],
+    [ "FreeIndex", "class_mem_db_1_1_table_1_1_partition.html#a7a7026f2cfe3840c8ff192c76dc5d9cb", null ],
     [ "CAPACITY", "class_mem_db_1_1_table_1_1_partition.html#a20f983d38a8c32451cbfc1888fedf412", null ],
     [ "columns", "class_mem_db_1_1_table_1_1_partition.html#a4ad09bcfe91d6953afe0edb25c1b1876", null ],
     [ "freeIds", "class_mem_db_1_1_table_1_1_partition.html#addad19b4cdf01c4b68f14128ccba7bd1", null ],
@@ -14,5 +15,6 @@ var class_mem_db_1_1_table_1_1_partition =
     [ "previous", "class_mem_db_1_1_table_1_1_partition.html#aa5f5711001c63184907f07dbeba982d5", null ],
     [ "table", "class_mem_db_1_1_table_1_1_partition.html#a739945a2a2765333fbfd767ea4e2a3f7", null ],
     [ "Table", "class_mem_db_1_1_table_1_1_partition.html#a4cf86ecafb468dac05760ace42e2597d", null ],
+    [ "validRows", "class_mem_db_1_1_table_1_1_partition.html#aed5bdbae65640951199bbe0bc5dd3274", null ],
     [ "version", "class_mem_db_1_1_table_1_1_partition.html#aca1271443149e07718f794123eff8c74", null ]
 ];

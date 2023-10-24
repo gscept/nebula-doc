@@ -125,6 +125,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a769f6e22c647f1faf51e53c7fd873bef" id="r_a769f6e22c647f1faf51e53c7fd873bef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; <a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a20f983d38a8c32451cbfc1888fedf412">CAPACITY</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a769f6e22c647f1faf51e53c7fd873bef">modifiedRows</a></td></tr>
 <tr class="memdesc:a769f6e22c647f1faf51e53c7fd873bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">check a bit if the row has been modified, and you need to track it.  <br /></td></tr>
 <tr class="separator:a769f6e22c647f1faf51e53c7fd873bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5bdbae65640951199bbe0bc5dd3274" id="r_aed5bdbae65640951199bbe0bc5dd3274"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; <a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a20f983d38a8c32451cbfc1888fedf412">CAPACITY</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html#aed5bdbae65640951199bbe0bc5dd3274">validRows</a></td></tr>
+<tr class="memdesc:aed5bdbae65640951199bbe0bc5dd3274"><td class="mdescLeft">&#160;</td><td class="mdescRight">bits are set if the row is occupied.  <br /></td></tr>
+<tr class="separator:aed5bdbae65640951199bbe0bc5dd3274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -140,6 +143,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a8f7c8236892dd683c21a7f0da9764faf" id="r_a8f7c8236892dd683c21a7f0da9764faf"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a8f7c8236892dd683c21a7f0da9764faf">AllocateRowIndex</a> ()</td></tr>
 <tr class="memdesc:a8f7c8236892dd683c21a7f0da9764faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">recycle free row or allocate new row  <br /></td></tr>
 <tr class="separator:a8f7c8236892dd683c21a7f0da9764faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7026f2cfe3840c8ff192c76dc5d9cb" id="r_a7a7026f2cfe3840c8ff192c76dc5d9cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a7a7026f2cfe3840c8ff192c76dc5d9cb">FreeIndex</a> (uint16_t instance)</td></tr>
+<tr class="memdesc:a7a7026f2cfe3840c8ff192c76dc5d9cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free an index.  <br /></td></tr>
+<tr class="separator:a7a7026f2cfe3840c8ff192c76dc5d9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6e87c03c3a7220bc6337e4677a2b123" id="r_aa6e87c03c3a7220bc6337e4677a2b123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html#aa6e87c03c3a7220bc6337e4677a2b123">EraseSwapIndex</a> (uint16_t instance)</td></tr>
 <tr class="memdesc:aa6e87c03c3a7220bc6337e4677a2b123"><td class="mdescLeft">&#160;</td><td class="mdescRight">erase row by swapping with last row and reducing number of rows in table  <br /></td></tr>
 <tr class="separator:aa6e87c03c3a7220bc6337e4677a2b123"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,6 +259,34 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>erase row by swapping with last row and reducing number of rows in table </p>
+
+</div>
+</div>
+<a id="a7a7026f2cfe3840c8ff192c76dc5d9cb" name="a7a7026f2cfe3840c8ff192c76dc5d9cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7026f2cfe3840c8ff192c76dc5d9cb">&#9670;&#160;</a></span>FreeIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MemDb::Table::Partition::FreeIndex </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>instance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free an index. </p>
 
 </div>
 </div>
@@ -420,6 +454,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aed5bdbae65640951199bbe0bc5dd3274" name="aed5bdbae65640951199bbe0bc5dd3274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5bdbae65640951199bbe0bc5dd3274">&#9670;&#160;</a></span>validRows</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt;<a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a20f983d38a8c32451cbfc1888fedf412">CAPACITY</a>&gt; MemDb::Table::Partition::validRows</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>bits are set if the row is occupied. </p>
+<p>If the row is removed, the bit is set to zero. this is kept up to date if defragging the partition. </p>
+
+</div>
+</div>
 <a id="aca1271443149e07718f794123eff8c74" name="aca1271443149e07718f794123eff8c74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca1271443149e07718f794123eff8c74">&#9670;&#160;</a></span>version</h2>
 
@@ -445,7 +496,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table.html">Table</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 11:45:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 24 2023 21:08:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

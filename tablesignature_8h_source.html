@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    uint64_t bit = component.id % 128;</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    partialMask[bit / 64] |= 1ull &lt;&lt; bit;</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    __m128i temp = _mm_set_epi64x(partialMask[0], partialMask[1]);</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    this-&gt;<a class="code hl_variable" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset] = _mm_and_si128(this-&gt;<a class="code hl_variable" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset], temp);</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    this-&gt;<a class="code hl_variable" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset] = _mm_xor_si128(this-&gt;<a class="code hl_variable" href="class_mem_db_1_1_table_signature.html#a7b7a9b4e735c4e45201b0a8c283c93dc">mask</a>[offset], temp);</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>}</div>
 </div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
@@ -417,7 +417,7 @@ $(document).ready(function(){initNavTree('tablesignature_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="tablesignature_8h.html">tablesignature.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 11:45:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

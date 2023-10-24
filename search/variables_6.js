@@ -118,7 +118,7 @@ var searchData=
   ['freeinterval_115',['freeInterval',['../class_memory_1_1_ring_allocator.html#affba51c5fe968a315bbe11360f61129e',1,'Memory::RingAllocator']]],
   ['freenodeiterator_116',['freeNodeIterator',['../class_memory_1_1_size_classification_allocator.html#aa348b036436261417628c6c36455d206',1,'Memory::SizeClassificationAllocator']]],
   ['freenodes_117',['freeNodes',['../class_memory_1_1_size_classification_allocator.html#a04f2e3f1222da31771abf2a907ad96b2',1,'Memory::SizeClassificationAllocator']]],
-  ['freepartitions_118',['freePartitions',['../class_mem_db_1_1_table.html#a47fa2064ba1e3185b9c39a146e40545a',1,'MemDb::Table']]],
+  ['freepartitions_118',['freePartitions',['../class_mem_db_1_1_table.html#a3ad67c67e198bb2bf35b631c46432305',1,'MemDb::Table']]],
   ['freestorage_119',['freeStorage',['../class_memory_1_1_size_classification_allocator.html#a176df446acb92f89c7a207fe4cf620ab',1,'Memory::SizeClassificationAllocator']]],
   ['freetail_120',['freeTail',['../class_threading_1_1_lock_free_queue.html#ab5abc3d0dc7a069af7f65a220e6bcba8',1,'Threading::LockFreeQueue']]],
   ['freevalues_121',['freeValues',['../class_util_1_1_fixed_pool.html#a23af237e480378d2d79e9c2fa1031253',1,'Util::FixedPool']]],

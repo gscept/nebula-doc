@@ -1,5 +1,13 @@
 var NAVTREEINDEX96 =
 {
+"gamecontentserverbase_8h.html":[10,0,0,3,9,1,1],
+"gamecontentserverbase_8h_source.html":[10,0,0,3,9,1,1],
+"gamepad_8cc.html":[10,0,0,4,0,3],
+"gamepad_8h.html":[10,0,0,4,0,4],
+"gamepad_8h_source.html":[10,0,0,4,0,4],
+"gamepadbase_8cc.html":[10,0,0,4,0,0,0],
+"gamepadbase_8cc.html#a7c22758adc52e4298a4f4f308bd869fd":[10,0,0,4,0,0,0,0],
+"gamepadbase_8h.html":[10,0,0,4,0,0,1],
 "gamepadbase_8h.html#ad761fc433a36d1adba0eb03bda34f047":[10,0,0,4,0,0,1,2],
 "gamepadbase_8h_source.html":[10,0,0,4,0,0,1],
 "gameserver_8cc.html":[10,0,0,1,3,20],
@@ -241,13 +249,5 @@ var NAVTREEINDEX96 =
 "gpubuffertypes_8h_source.html":[10,0,0,6,5,30],
 "graphicscontext_8cc.html":[10,0,0,6,10,11],
 "graphicscontext_8h.html":[10,0,0,6,10,12],
-"graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845":[10,0,0,6,10,12,5],
-"graphicscontext_8h.html#a3d444f7e771b2ab69dec1066eb826356":[10,0,0,6,10,12,9],
-"graphicscontext_8h.html#a947d41e0ab8c3c2ee6a01817fe899b31":[10,0,0,6,10,12,4],
-"graphicscontext_8h.html#ab5ade09cae86ffa2215d42900391a3b2":[10,0,0,6,10,12,7],
-"graphicscontext_8h.html#ac6ecabb8b5294ad9d9e26b72abdd8a93":[10,0,0,6,10,12,8],
-"graphicscontext_8h.html#ae1a3f3fff31efb7a5a3abe397e7bdf98":[10,0,0,6,10,12,6],
-"graphicscontext_8h_source.html":[10,0,0,6,10,12],
-"graphicsdevice_8h.html":[10,0,0,6,5,31],
-"graphicsdevice_8h.html#a067fd375ff413a631e735ed18cb0ce20":[10,0,0,6,5,31,38]
+"graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845":[10,0,0,6,10,12,5]
 };
