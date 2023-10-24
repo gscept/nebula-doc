@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"idallocator_8h.html#a26058c531ff96f02177a7172ef3680a3":[10,0,0,3,7,1,4],
 "idallocator_8h.html#a3eede833d4c3ddeb47fdb5241b108730":[10,0,0,3,7,1,2],
 "idallocator_8h.html#a4b973d32f4fb50a7f7e0a637aad89033":[10,0,0,3,7,1,3],
 "idallocator_8h_source.html":[10,0,0,3,7,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "im3d__config_8h.html#ae997776721a2ed02c87f82935d3deb29":[10,0,0,0,3,2,2,4],
 "im3d__config_8h.html#afb1b266b6a4603fe12d5da37ff864d43":[10,0,0,0,3,2,2,5],
 "im3d__config_8h_source.html":[10,0,0,0,3,2,2],
-"im3d__math_8h.html":[10,0,0,0,3,2,3]
+"im3d__math_8h.html":[10,0,0,0,3,2,3],
+"im3d__math_8h.html#a00fea253ea3bf40e09ee737258736c4f":[10,0,0,0,3,2,3,42]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"vkshaderprogram_8h.html#ae04d3c64f87a3f01928552040f790c3e":[10,0,0,6,5,5,45,7],
-"vkshaderprogram_8h_source.html":[10,0,0,6,5,5,45],
 "vkshaderserver_8cc.html":[10,0,0,6,5,5,46],
 "vkshaderserver_8cc.html#a5353f3e05af056786c638c7c29343150":[10,0,0,6,5,5,46,1],
 "vkshaderserver_8cc.html#a80952978f47f24d0776d27e906752725":[10,0,0,6,5,5,46,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX164 =
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0890a1b1b86a9e676f9a2f7374b5b823":[10,0,0,3,13,3,5,0,17],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d":[10,0,0,3,13,3,5,0,8],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d":[10,0,0,3,13,3,5,0,32],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d":[10,0,0,3,13,3,5,0,19]
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0be3d21e4fa182c42b5f10bcb459026d":[10,0,0,3,13,3,5,0,19],
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a3082e019858328f02d75adac6d78700b":[10,0,0,3,13,3,5,0,3],
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a3082e019858328f02d75adac6d78700b":[10,0,0,3,13,3,5,0,14]
 };

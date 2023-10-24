@@ -9,7 +9,7 @@ var api_8h =
     [ "OpBuffer", "api_8h.html#a3210076ff42bb92806741300ba14b265", null ],
     [ "ComponentFlags", "api_8h.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "COMPONENTFLAG_NONE", "api_8h.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
-      [ "COMPONENTFLAG_MANAGED", "api_8h.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4", null ]
+      [ "COMPONENTFLAG_DECAY", "api_8h.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f", null ]
     ] ],
     [ "AddComponent", "api_8h.html#af75a56a6ebb884594b3107d8f214165c", null ],
     [ "AddOp", "api_8h.html#a4c6fb17ab5e24d175ba52b42e1644706", null ],
@@ -35,7 +35,6 @@ var api_8h =
     [ "Execute", "api_8h.html#a6ec106d2835917b196f726ea47ae4799", null ],
     [ "GetBlueprintId", "api_8h.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
     [ "GetComponent", "api_8h.html#a932c35cea4c905514c13f3e12b5a9533", null ],
-    [ "GetComponent", "api_8h.html#a90a70b782b51525cd816eff3bbd46b63", null ],
     [ "GetComponentId", "api_8h.html#a7dfc27dc96611f0c398ea8328415dd6b", null ],
     [ "GetComponentId", "api_8h.html#af143290fef799ba8303e01c658cb54e8", null ],
     [ "GetDecayBuffer", "api_8h.html#af8a7f1695ff3939b3a5e5ec055a43cac", null ],
@@ -53,7 +52,7 @@ var api_8h =
     [ "Query", "api_8h.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "Query", "api_8h.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "api_8h.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
-    [ "RegisterComponent", "api_8h.html#a75c230e8b6164a05243a58c87022c72e", null ],
+    [ "RegisterComponent", "api_8h.html#a02499f769b41f0e7a5b86e8ac68dc8a7", null ],
     [ "ReleaseAllOps", "api_8h.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "api_8h.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "RemoveComponent", "api_8h.html#a611d7bd0e0837c10726ce80a87ff5795", null ],

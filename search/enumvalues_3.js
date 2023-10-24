@@ -59,7 +59,7 @@ var searchData=
   ['commandbufferpool_5fvkdevice_56',['CommandBufferPool_VkDevice',['../namespace_vulkan.html#aadd115f95f1e0acd2eaa7757ee345335aa8ae0bd58e7ea78e1e3343fdad50af45',1,'Vulkan']]],
   ['commandbufferpoolidtype_57',['CommandBufferPoolIdType',['../namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa856892f97718a5fb59650436a2148d38',1,'CoreGraphics']]],
   ['comment_58',['COMMENT',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a7737f35757c7152ca4f612d449ea0e4b',1,'TiXmlNode']]],
-  ['componentflag_5fmanaged_59',['COMPONENTFLAG_MANAGED',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4',1,'Game']]],
+  ['componentflag_5fdecay_59',['COMPONENTFLAG_DECAY',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f',1,'Game']]],
   ['componentflag_5fnone_60',['COMPONENTFLAG_NONE',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a',1,'Game']]],
   ['computepipeline_61',['computepipeline',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba79f7d12c0fcae2cc49ef441b11098683',1,'CoreGraphics::DrawThread::ComputePipeline'],['../namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274',1,'CoreGraphics::ComputePipeline']]],
   ['computequeuesupport_62',['ComputeQueueSupport',['../namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72a0337a6a91045da552f138ca1b2ca3ce0',1,'CoreGraphics']]],

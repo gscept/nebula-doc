@@ -47,7 +47,7 @@ var namespace_game =
     ] ],
     [ "ComponentFlags", "namespace_game.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "COMPONENTFLAG_NONE", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
-      [ "COMPONENTFLAG_MANAGED", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4", null ]
+      [ "COMPONENTFLAG_DECAY", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f", null ]
     ] ],
     [ "__ImplementClass", "namespace_game.html#a0034b34d272ba9724134e915f84c9ec0", null ],
     [ "__ImplementClass", "namespace_game.html#a84d23932cc3378e918db65cf24fec44c", null ],
@@ -94,7 +94,6 @@ var namespace_game =
     [ "Execute", "namespace_game.html#a6ec106d2835917b196f726ea47ae4799", null ],
     [ "GetBlueprintId", "namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
     [ "GetComponent", "namespace_game.html#a932c35cea4c905514c13f3e12b5a9533", null ],
-    [ "GetComponent", "namespace_game.html#a90a70b782b51525cd816eff3bbd46b63", null ],
     [ "GetComponentId", "namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b", null ],
     [ "GetComponentId", "namespace_game.html#af143290fef799ba8303e01c658cb54e8", null ],
     [ "GetDecayBuffer", "namespace_game.html#af8a7f1695ff3939b3a5e5ec055a43cac", null ],
@@ -116,7 +115,7 @@ var namespace_game =
     [ "Query", "namespace_game.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "Query", "namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a", null ],
     [ "Query", "namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787", null ],
-    [ "RegisterComponent", "namespace_game.html#a75c230e8b6164a05243a58c87022c72e", null ],
+    [ "RegisterComponent", "namespace_game.html#a02499f769b41f0e7a5b86e8ac68dc8a7", null ],
     [ "RegisterProcessors", "namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500", null ],
     [ "ReleaseAllOps", "namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],

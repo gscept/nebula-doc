@@ -454,7 +454,7 @@ var searchData=
   ['componentdrawfunct_3c_20uint_20_3e_451',['componentdrawfunct&lt; uint &gt;',['../namespace_game.html#ae3a9047033bff93bd84f6a8de2d44b49',1,'Game::ComponentDrawFuncT&lt; uint &gt;(ComponentId component, void *data, bool *commit)'],['../namespace_game.html#ae28d1f0362bda69b558b827498e1c6f0',1,'Game::ComponentDrawFuncT&lt; uint &gt;(ComponentId, void *, bool *)']]],
   ['componentdrawfunct_3c_20util_3a_3astringatom_20_3e_452',['componentdrawfunct&lt; util::stringatom &gt;',['../namespace_game.html#a6a027e6647155857ca9df6bb72cd66f2',1,'Game::ComponentDrawFuncT&lt; Util::StringAtom &gt;(ComponentId, void *, bool *)'],['../namespace_game.html#a817bf5713eb5c787ece371bad3fc8214',1,'Game::ComponentDrawFuncT&lt; Util::StringAtom &gt;(ComponentId component, void *data, bool *commit)']]],
   ['componententry_453',['ComponentEntry',['../struct_game_1_1_blueprint_manager_1_1_component_entry.html',1,'Game::BlueprintManager']]],
-  ['componentflag_5fmanaged_454',['COMPONENTFLAG_MANAGED',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4',1,'Game']]],
+  ['componentflag_5fdecay_454',['COMPONENTFLAG_DECAY',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f',1,'Game']]],
   ['componentflag_5fnone_455',['COMPONENTFLAG_NONE',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a',1,'Game']]],
   ['componentflags_456',['ComponentFlags',['../namespace_game.html#a12df08b00c2d67525335dd5c5553849d',1,'Game']]],
   ['componentgetdata_457',['ComponentGetData',['../namespace_scripting_1_1_api.html#ae2b7f4114ec4b56ebbb9cb181e569c2c',1,'Scripting::Api']]],

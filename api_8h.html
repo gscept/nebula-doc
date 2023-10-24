@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('api_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="filter_8h_source.html">filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_2game_2dataset_8h_source.html">dataset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="processor_8h_source.html">processor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bitfield_8h_source.html">util/bitfield.h</a>&quot;</code><br />
 </div>
 <p><a href="api_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -158,7 +159,7 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a12df08b00c2d67525335dd5c5553849d" id="r_a12df08b00c2d67525335dd5c5553849d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">Game::ComponentFlags</a> : uint32_t { <a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">Game::COMPONENTFLAG_NONE</a> = 0
-, <a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da2245bbb33c408f7cd1049a92e09204b4">Game::COMPONENTFLAG_MANAGED</a> = 1 &lt;&lt; 0
+, <a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">Game::COMPONENTFLAG_DECAY</a> = 1 &lt;&lt; 0
  }</td></tr>
 <tr class="memdesc:a12df08b00c2d67525335dd5c5553849d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies special behaviour for a components.  <a href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">More...</a><br /></td></tr>
 <tr class="separator:a12df08b00c2d67525335dd5c5553849d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,10 +199,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aa9c2117ef4e8378b3df6df642809f518"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa9c2117ef4e8378b3df6df642809f518">Game::SetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity, TYPE value)</td></tr>
 <tr class="memdesc:aa9c2117ef4e8378b3df6df642809f518"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed set component  <br /></td></tr>
 <tr class="separator:aa9c2117ef4e8378b3df6df642809f518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a70b782b51525cd816eff3bbd46b63" id="r_a90a70b782b51525cd816eff3bbd46b63"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:a90a70b782b51525cd816eff3bbd46b63"><td class="memTemplItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a90a70b782b51525cd816eff3bbd46b63">Game::GetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> const component)</td></tr>
-<tr class="memdesc:a90a70b782b51525cd816eff3bbd46b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed get component  <br /></td></tr>
-<tr class="separator:a90a70b782b51525cd816eff3bbd46b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932c35cea4c905514c13f3e12b5a9533" id="r_a932c35cea4c905514c13f3e12b5a9533"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:a932c35cea4c905514c13f3e12b5a9533"><td class="memTemplItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a932c35cea4c905514c13f3e12b5a9533">Game::GetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity)</td></tr>
 <tr class="memdesc:a932c35cea4c905514c13f3e12b5a9533"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed get component  <br /></td></tr>
@@ -312,10 +309,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a384d2c2409bb1734913d09b34855819d" id="r_a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">Game::ClearDecayBuffers</a> ()</td></tr>
 <tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the component decay buffers  <br /></td></tr>
 <tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c230e8b6164a05243a58c87022c72e" id="r_a75c230e8b6164a05243a58c87022c72e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a75c230e8b6164a05243a58c87022c72e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a75c230e8b6164a05243a58c87022c72e">Game::RegisterComponent</a> ()</td></tr>
-<tr class="memdesc:a75c230e8b6164a05243a58c87022c72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; Beginning of template implementations &ndash;  <br /></td></tr>
-<tr class="separator:a75c230e8b6164a05243a58c87022c72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02499f769b41f0e7a5b86e8ac68dc8a7" id="r_a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a02499f769b41f0e7a5b86e8ac68dc8a7">Game::RegisterComponent</a> (<a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">ComponentFlags</a> flags=<a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">ComponentFlags::COMPONENTFLAG_NONE</a>)</td></tr>
+<tr class="memdesc:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; Beginning of template implementations &ndash;  <br /></td></tr>
+<tr class="separator:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -344,7 +341,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="api_8h.html">api.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 07:34:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Oct 24 2023 08:45:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

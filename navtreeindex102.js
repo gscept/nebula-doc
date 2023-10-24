@@ -1,6 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"messagereader_8h.html":[10,0,0,3,14,20],
 "messagereader_8h_source.html":[10,0,0,3,14,20],
 "messagewriter_8cc.html":[10,0,0,3,14,21],
 "messagewriter_8cc.html#a3c77fe132790109be2f934c07b8f05ad":[10,0,0,3,14,21,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX102 =
 "namespace_core.html#a5e985c7d6ee6ca4f590fb50daad3cb0f":[8,0,12,11],
 "namespace_core.html#a5f5432314133baa387959a4d61387d9e":[8,0,12,34],
 "namespace_core.html#a64007334fba5bfd6079e4a2392aecf2b":[8,0,12,14],
-"namespace_core.html#a6746d6947367c8261f14d15c19a49b50":[8,0,12,16]
+"namespace_core.html#a6746d6947367c8261f14d15c19a49b50":[8,0,12,16],
+"namespace_core.html#a83e6efed1ef2f44b4dae4779a68db208":[8,0,12,12]
 };
