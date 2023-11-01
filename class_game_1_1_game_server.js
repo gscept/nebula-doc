@@ -5,12 +5,10 @@ var class_game_1_1_game_server =
     [ "AttachGameFeature", "class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7", null ],
     [ "CleanupWorld", "class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed", null ],
     [ "Close", "class_game_1_1_game_server.html#aef758018f4678a523ec05c6cd915d107", null ],
-    [ "CreateProcessor", "class_game_1_1_game_server.html#a8741912e7435cd8cb8e3443a47042596", null ],
     [ "CreateWorld", "class_game_1_1_game_server.html#ab9c89f9832cd492ccc5dccc1b2c18585", null ],
     [ "DestroyWorld", "class_game_1_1_game_server.html#a1c4bac315e29f2d866e19d4a4ff28f81", null ],
     [ "GetCmdLineArgs", "class_game_1_1_game_server.html#ad3eae27cf145448d0d675a60792411f0", null ],
     [ "GetGameFeatures", "class_game_1_1_game_server.html#aa1a3fb20cb6cc6bb20b9788221620929", null ],
-    [ "GetProcessorInfo", "class_game_1_1_game_server.html#a5449bf850794b4d5b2a4af0f4d858f9b", null ],
     [ "GetWorld", "class_game_1_1_game_server.html#af56805c1ebf56ae2e39ff6e7ab78e763", null ],
     [ "HasStarted", "class_game_1_1_game_server.html#a06de337609b0a18d18ca0c995dec7a7b", null ],
     [ "IsFeatureAttached", "class_game_1_1_game_server.html#a72cbd53c7974633e0bfa83bde840041a", null ],
@@ -32,7 +30,5 @@ var class_game_1_1_game_server =
     [ "gameFeatures", "class_game_1_1_game_server.html#a7fe75523f9d644fda26edcfac213a3fb", null ],
     [ "isOpen", "class_game_1_1_game_server.html#aa87b18d33bedc0f5feab9fef329ceac7", null ],
     [ "isStarted", "class_game_1_1_game_server.html#ad02fdd16801ff93a8d601f123e91aeff", null ],
-    [ "processorHandlePool", "class_game_1_1_game_server.html#a659fe41afeb5ffed2827dba4f524820a", null ],
-    [ "processors", "class_game_1_1_game_server.html#abe4af3966eccf766ef063455f37cc1b4", null ],
     [ "state", "class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc", null ]
 ];

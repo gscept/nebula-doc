@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('attributetable_8h_source.html',''); in
 <a href="attributetable_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="refcounted_8h.html">core/refcounted.h</a>&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="attribute_8h.html">attribute.h</a>&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="memdb_2attribute_8h.html">attribute.h</a>&quot;</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_attr.html">Attr</a></div>
@@ -864,7 +864,6 @@ $(document).ready(function(){initNavTree('attributetable_8h_source.html',''); in
 <div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span> </div>
 <div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>} <span class="comment">// namespace Db</span></div>
 <div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="ttc" id="aattribute_8h_html"><div class="ttname"><a href="attribute_8h.html">attribute.h</a></div></div>
 <div class="ttc" id="aclass_attr_1_1_attr_id_html"><div class="ttname"><a href="class_attr_1_1_attr_id.html">Attr::AttrId</a></div><div class="ttdoc">An attribute ID is used to carry attribute types (no values) around.</div><div class="ttdef"><b>Definition</b> attrid.h:20</div></div>
 <div class="ttc" id="aclass_attr_1_1_attribute_html"><div class="ttname"><a href="class_attr_1_1_attribute.html">Attr::Attribute</a></div><div class="ttdoc">A compiletime-typesafe key/value pair.</div><div class="ttdef"><b>Definition</b> attribute.h:32</div></div>
 <div class="ttc" id="aclass_attr_1_1_attribute_table_html"><div class="ttname"><a href="class_attr_1_1_attribute_table.html">Attr::AttributeTable</a></div><div class="ttdoc">A table of attributes with a compact memory footprint and fast random access.</div><div class="ttdef"><b>Definition</b> attributetable.h:34</div></div>
@@ -990,13 +989,14 @@ $(document).ready(function(){initNavTree('attributetable_8h_source.html',''); in
 <div class="ttc" id="aclass_attr_1_1_vec4_attr_id_html"><div class="ttname"><a href="class_attr_1_1_vec4_attr_id.html">Attr::Vec4AttrId</a></div><div class="ttdoc">Typed attribute id for vec4 type.</div><div class="ttdef"><b>Definition</b> vec4attrid.h:18</div></div>
 <div class="ttc" id="aclass_core_1_1_ref_counted_html"><div class="ttname"><a href="class_core_1_1_ref_counted.html">Core::RefCounted</a></div><div class="ttdoc">The common base class of Nebula.</div><div class="ttdef"><b>Definition</b> refcounted.h:38</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
-<div class="ttc" id="aclass_util_1_1_array_html_ae8fbfc046ebad5c3c5930942d91832f6"><div class="ttname"><a href="class_util_1_1_array.html#ae8fbfc046ebad5c3c5930942d91832f6">Util::Array::Size</a></div><div class="ttdeci">const SizeT Size() const</div><div class="ttdoc">get number of elements in array</div><div class="ttdef"><b>Definition</b> array.h:870</div></div>
+<div class="ttc" id="aclass_util_1_1_array_html_ae8fbfc046ebad5c3c5930942d91832f6"><div class="ttname"><a href="class_util_1_1_array.html#ae8fbfc046ebad5c3c5930942d91832f6">Util::Array::Size</a></div><div class="ttdeci">const SizeT Size() const</div><div class="ttdoc">get number of elements in array</div><div class="ttdef"><b>Definition</b> array.h:874</div></div>
 <div class="ttc" id="aclass_util_1_1_blob_html"><div class="ttname"><a href="class_util_1_1_blob.html">Util::Blob</a></div><div class="ttdoc">The Util::Blob class encapsulates a chunk of raw memory into a C++ object which can be copied,...</div><div class="ttdef"><b>Definition</b> blob.h:22</div></div>
 <div class="ttc" id="aclass_util_1_1_dictionary_html"><div class="ttname"><a href="class_util_1_1_dictionary.html">Util::Dictionary</a></div><div class="ttdoc">A collection of key/value pairs with quick value retrieval by key at roughly O(log n).</div><div class="ttdef"><b>Definition</b> dictionary.h:34</div></div>
 <div class="ttc" id="aclass_util_1_1_four_c_c_html"><div class="ttname"><a href="class_util_1_1_four_c_c.html">Util::FourCC</a></div><div class="ttdoc">A four-character-code is a quasi-human-readable 32-bit-id.</div><div class="ttdef"><b>Definition</b> fourcc.h:19</div></div>
 <div class="ttc" id="aclass_util_1_1_guid_html"><div class="ttname"><a href="class_util_1_1_guid.html">Guid</a></div><div class="ttdoc">Implements a GUID.</div></div>
 <div class="ttc" id="aclass_util_1_1_variant_html"><div class="ttname"><a href="class_util_1_1_variant.html">Util::Variant</a></div><div class="ttdoc">An &quot;any type&quot; variable.</div><div class="ttdef"><b>Definition</b> variant.h:30</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
+<div class="ttc" id="amemdb_2attribute_8h_html"><div class="ttname"><a href="memdb_2attribute_8h.html">attribute.h</a></div></div>
 <div class="ttc" id="anamespace_attr_html"><div class="ttname"><a href="namespace_attr.html">Attr</a></div><div class="ttdef"><b>Definition</b> accessmode.h:13</div></div>
 <div class="ttc" id="anamespace_attr_html_a2bdbf3eb528c8ac1da768d63483748b3"><div class="ttname"><a href="namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3">Attr::ValueType</a></div><div class="ttdeci">ValueType</div><div class="ttdef"><b>Definition</b> valuetype.h:20</div></div>
 <div class="ttc" id="anamespace_attr_html_a2bdbf3eb528c8ac1da768d63483748b3a0c66d6e029a33dc727033f6c6b996432"><div class="ttname"><a href="namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3a0c66d6e029a33dc727033f6c6b996432">Attr::Vec4Type</a></div><div class="ttdeci">@ Vec4Type</div><div class="ttdef"><b>Definition</b> valuetype.h:33</div></div>
@@ -1032,7 +1032,7 @@ $(document).ready(function(){initNavTree('attributetable_8h_source.html',''); in
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_c1d05d0d307adf9537397f5dbc737ed7.html">attr</a></li><li class="navelem"><a class="el" href="attributetable_8h.html">attributetable.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

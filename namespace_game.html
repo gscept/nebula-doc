@@ -103,8 +103,6 @@ $(document).ready(function(){initNavTree('namespace_game.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_game_1_1_op" id="r_namespace_game_1_1_op"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_op.html">Op</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_game_1_1_time_manager" id="r_namespace_game_1_1_time_manager"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_time_manager.html">TimeManager</a></td></tr>
 <tr class="memdesc:namespace_game_1_1_time_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton object which manages the current game time. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,16 +116,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_create_info.html">ComponentCreateInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a component.  <a href="struct_game_1_1_component_create_info.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data for components flagged with COMPONENTFLAG_DECAY, that has been deleted this frame.  <a href="struct_game_1_1_component_decay_buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_component_inspection.html">ComponentInspection</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Property serialization functions.  <a href="class_game_1_1_component_inspection.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Component inspection functions.  <a href="class_game_1_1_component_inspection.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for registering component types to the game world.  <a href="struct_game_1_1_component_register_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_component_serialization.html">ComponentSerialization</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Property serialization functions.  <a href="class_game_1_1_component_serialization.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Component serialization functions.  <a href="class_game_1_1_component_serialization.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dataset that contains views into category tables.  <a href="struct_game_1_1_dataset.html#details">More...</a><br /></td></tr>
@@ -148,6 +147,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_filter_builder.html">FilterBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_frame_event.html">FrameEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_frame_event_batch.html">FrameEventBatch</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A batch of frame callbacks.  <a href="class_game_1_1_frame_event_batch.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_frame_pipeline.html">FramePipeline</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_game_server.html">GameServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game server setups and runs the game world.  <a href="class_game_1_1_game_server.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +168,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_message_listener_id.html">MessageListenerId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_processor.html">Processor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_job_context.html">ProcessorJobContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_job_input.html">ProcessorJobInput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_template_id.html">TemplateId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,14 +186,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html">World</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3210076ff42bb92806741300ba14b265" id="r_a3210076ff42bb92806741300ba14b265"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a></td></tr>
-<tr class="memdesc:a3210076ff42bb92806741300ba14b265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque entity operations buffer.  <br /></td></tr>
-<tr class="separator:a3210076ff42bb92806741300ba14b265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c9c4162a88a58417e2ba2b2762ac0e8" id="r_a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a></td></tr>
 <tr class="separator:a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bdfdb9b06838ccef5c7a73419acafc6" id="r_a8bdfdb9b06838ccef5c7a73419acafc6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a8bdfdb9b06838ccef5c7a73419acafc6">ComponentArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> &gt;</td></tr>
@@ -197,18 +202,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a2aa320391917088b2e65f9bba2984a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a9645dc98e40c7474e0839d0c32f896" id="r_a7a9645dc98e40c7474e0839d0c32f896"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7a9645dc98e40c7474e0839d0c32f896">ExclusiveTableMask</a></td></tr>
 <tr class="separator:a7a9645dc98e40c7474e0839d0c32f896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69df18504c439f3171b43c0de6463f02" id="r_a69df18504c439f3171b43c0de6463f02"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">ProcessorInfo</a></td></tr>
-<tr class="separator:a69df18504c439f3171b43c0de6463f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b0ad357b08d17f221b65b804193303" id="r_a74b0ad357b08d17f221b65b804193303"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a></td></tr>
 <tr class="memdesc:a74b0ad357b08d17f221b65b804193303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque processor handle.  <br /></td></tr>
 <tr class="separator:a74b0ad357b08d17f221b65b804193303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3ee48ba7e537489b84b4131d4fbbc2" id="r_a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2">ProcessorFrameCallback</a> = std::function&lt; void(<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_dataset.html">Dataset</a>)&gt;</td></tr>
-<tr class="memdesc:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">per frame callback for processors  <br /></td></tr>
-<tr class="separator:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aaaa1aabbc0053c20adddc35a441bb6" id="r_a7aaaa1aabbc0053c20adddc35a441bb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7aaaa1aabbc0053c20adddc35a441bb6">RegCidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a> &gt;</td></tr>
-<tr class="separator:a7aaaa1aabbc0053c20adddc35a441bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5db3f900c0ff52be49cc82d063c11695" id="r_a5db3f900c0ff52be49cc82d063c11695"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5db3f900c0ff52be49cc82d063c11695">DeregCidQueue</a> = <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a> &gt;</td></tr>
-<tr class="separator:a5db3f900c0ff52be49cc82d063c11695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -230,147 +226,25 @@ Functions</h2></td></tr>
 <tr class="memitem:afca219253f3d0b2360830d0f4c487625" id="r_afca219253f3d0b2360830d0f4c487625"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#afca219253f3d0b2360830d0f4c487625">ReleaseDatasets</a> ()</td></tr>
 <tr class="memdesc:afca219253f3d0b2360830d0f4c487625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recycles all current datasets allocated memory to be reused.  <br /></td></tr>
 <tr class="separator:afca219253f3d0b2360830d0f4c487625"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fffb44bb93cf8a679fee11081ba2c9a" id="r_a0fffb44bb93cf8a679fee11081ba2c9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0fffb44bb93cf8a679fee11081ba2c9a">Query</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a> filter)</td></tr>
-<tr class="memdesc:a0fffb44bb93cf8a679fee11081ba2c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the entity database using specified filter set. This does NOT wait for resources to be available.  <br /></td></tr>
-<tr class="separator:a0fffb44bb93cf8a679fee11081ba2c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0107465c606bc96a41f9ddc13d4f787" id="r_ae0107465c606bc96a41f9ddc13d4f787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae0107465c606bc96a41f9ddc13d4f787">Query</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;tables, <a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a> filter)</td></tr>
-<tr class="memdesc:ae0107465c606bc96a41f9ddc13d4f787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query a subset of tables using a specified filter set. Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available.  <br /></td></tr>
-<tr class="separator:ae0107465c606bc96a41f9ddc13d4f787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e2891686998c0318e52a525428b783f" id="r_a3e2891686998c0318e52a525428b783f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset.html">Game::Dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a3e2891686998c0318e52a525428b783f">Query</a> (<a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt; const  &amp;db, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;tables, <a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a> filter)</td></tr>
-<tr class="memdesc:a3e2891686998c0318e52a525428b783f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query a subset of tables in a specific db using a specified filter set. Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available.  <br /></td></tr>
+<tr class="memdesc:a3e2891686998c0318e52a525428b783f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query a subset of tables in a specific db using a specified filter set.  <br /></td></tr>
 <tr class="separator:a3e2891686998c0318e52a525428b783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e656f315dbe11e16e207cb7c6f0585" id="r_ad9e656f315dbe11e16e207cb7c6f0585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ad9e656f315dbe11e16e207cb7c6f0585">CreateComponent</a> (<a class="el" href="struct_game_1_1_component_create_info.html">ComponentCreateInfo</a> const  &amp;info)</td></tr>
-<tr class="memdesc:ad9e656f315dbe11e16e207cb7c6f0585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a component.  <br /></td></tr>
-<tr class="separator:ad9e656f315dbe11e16e207cb7c6f0585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af143290fef799ba8303e01c658cb54e8" id="r_af143290fef799ba8303e01c658cb54e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">GetComponentId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
-<tr class="memdesc:af143290fef799ba8303e01c658cb54e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id.  <br /></td></tr>
-<tr class="separator:af143290fef799ba8303e01c658cb54e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbd796cb12f20c8b6bf6ad884b2b5c5" id="r_a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5">GetBlueprintId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memdesc:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a blueprint id by name.  <br /></td></tr>
 <tr class="separator:a6cbd796cb12f20c8b6bf6ad884b2b5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40d0603244073898c48179e980cf72a" id="r_ac40d0603244073898c48179e980cf72a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_template_id.html">TemplateId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac40d0603244073898c48179e980cf72a">GetTemplateId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memdesc:ac40d0603244073898c48179e980cf72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a template id by name.  <br /></td></tr>
 <tr class="separator:ac40d0603244073898c48179e980cf72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a892321185e533f8d5508bdf6171c2a11" id="r_a892321185e533f8d5508bdf6171c2a11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a892321185e533f8d5508bdf6171c2a11">CreateEntity</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity_create_info.html">EntityCreateInfo</a> const &amp;info)</td></tr>
-<tr class="memdesc:a892321185e533f8d5508bdf6171c2a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new entity.  <br /></td></tr>
-<tr class="separator:a892321185e533f8d5508bdf6171c2a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4edd1d8ef4925af6cbcad9813f248248" id="r_a4edd1d8ef4925af6cbcad9813f248248"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4edd1d8ef4925af6cbcad9813f248248">DeleteEntity</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
-<tr class="memdesc:a4edd1d8ef4925af6cbcad9813f248248"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete entity  <br /></td></tr>
-<tr class="separator:a4edd1d8ef4925af6cbcad9813f248248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5240006938f9acf4ef4681598a9395d0" id="r_a5240006938f9acf4ef4681598a9395d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5240006938f9acf4ef4681598a9395d0">IsValid</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a> e)</td></tr>
-<tr class="memdesc:a5240006938f9acf4ef4681598a9395d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an entity ID is still valid.  <br /></td></tr>
-<tr class="separator:a5240006938f9acf4ef4681598a9395d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94c7af23a7baf1deb53a9ddd3b2f5db9" id="r_a94c7af23a7baf1deb53a9ddd3b2f5db9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a94c7af23a7baf1deb53a9ddd3b2f5db9">HasInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a> e)</td></tr>
-<tr class="memdesc:a94c7af23a7baf1deb53a9ddd3b2f5db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an entity is active (has an instance). It might be valid, but inactive just after it has been created.  <br /></td></tr>
-<tr class="separator:a94c7af23a7baf1deb53a9ddd3b2f5db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c0eb1f6f961c1806c432ae42be2d4ba" id="r_a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_entity_mapping.html">EntityMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6c0eb1f6f961c1806c432ae42be2d4ba">GetEntityMapping</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
-<tr class="memdesc:a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the entity mapping of an entity.  <br /></td></tr>
-<tr class="separator:a6c0eb1f6f961c1806c432ae42be2d4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa5134dadf092babb1a958e97c36e5bb" id="r_afa5134dadf092babb1a958e97c36e5bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#afa5134dadf092babb1a958e97c36e5bb">GetInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
-<tr class="memdesc:afa5134dadf092babb1a958e97c36e5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instance of entity.  <br /></td></tr>
-<tr class="separator:afa5134dadf092babb1a958e97c36e5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75a56a6ebb884594b3107d8f214165c" id="r_af75a56a6ebb884594b3107d8f214165c"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:af75a56a6ebb884594b3107d8f214165c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#af75a56a6ebb884594b3107d8f214165c">AddComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>, TYPE *prop)</td></tr>
-<tr class="memdesc:af75a56a6ebb884594b3107d8f214165c"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a component to an entity.  <br /></td></tr>
-<tr class="separator:af75a56a6ebb884594b3107d8f214165c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a611d7bd0e0837c10726ce80a87ff5795" id="r_a611d7bd0e0837c10726ce80a87ff5795"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:a611d7bd0e0837c10726ce80a87ff5795"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a611d7bd0e0837c10726ce80a87ff5795">RemoveComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>)</td></tr>
-<tr class="memdesc:a611d7bd0e0837c10726ce80a87ff5795"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove a component from an entity  <br /></td></tr>
-<tr class="separator:a611d7bd0e0837c10726ce80a87ff5795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9c2117ef4e8378b3df6df642809f518" id="r_aa9c2117ef4e8378b3df6df642809f518"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:aa9c2117ef4e8378b3df6df642809f518"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa9c2117ef4e8378b3df6df642809f518">SetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity, TYPE value)</td></tr>
-<tr class="memdesc:aa9c2117ef4e8378b3df6df642809f518"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed set component  <br /></td></tr>
-<tr class="separator:aa9c2117ef4e8378b3df6df642809f518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a932c35cea4c905514c13f3e12b5a9533" id="r_a932c35cea4c905514c13f3e12b5a9533"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:a932c35cea4c905514c13f3e12b5a9533"><td class="memTemplItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a932c35cea4c905514c13f3e12b5a9533">GetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const entity)</td></tr>
-<tr class="memdesc:a932c35cea4c905514c13f3e12b5a9533"><td class="mdescLeft">&#160;</td><td class="mdescRight">typed get component  <br /></td></tr>
-<tr class="separator:a932c35cea4c905514c13f3e12b5a9533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29bd6c080c247dacd34df6950d6bf680" id="r_a29bd6c080c247dacd34df6950d6bf680"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a29bd6c080c247dacd34df6950d6bf680">HasComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a> const entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> const component)</td></tr>
-<tr class="memdesc:a29bd6c080c247dacd34df6950d6bf680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity has a specific component. (SLOW!)  <br /></td></tr>
-<tr class="separator:a29bd6c080c247dacd34df6950d6bf680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa95a6aef9f9f5eb4e4cad4706b5f0d85" id="r_aa95a6aef9f9f5eb4e4cad4706b5f0d85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa95a6aef9f9f5eb4e4cad4706b5f0d85">CreateOpBuffer</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
-<tr class="memdesc:aa95a6aef9f9f5eb4e4cad4706b5f0d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an operations buffer.  <br /></td></tr>
-<tr class="separator:aa95a6aef9f9f5eb4e4cad4706b5f0d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa549e5a6cfc2b8d08feea387479dfad3" id="r_aa549e5a6cfc2b8d08feea387479dfad3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa549e5a6cfc2b8d08feea387479dfad3">Dispatch</a> (<a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> buffer)</td></tr>
-<tr class="memdesc:aa549e5a6cfc2b8d08feea387479dfad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs all operations in an operations buffer and clears it. This will invalidate category table views.  <br /></td></tr>
-<tr class="separator:aa549e5a6cfc2b8d08feea387479dfad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bd2f08d7ec1908fe36e6ca1e2dca65f" id="r_a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a5bd2f08d7ec1908fe36e6ca1e2dca65f">DestroyOpBuffer</a> (<a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> &amp;)</td></tr>
-<tr class="memdesc:a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys an operations buffer.  <br /></td></tr>
-<tr class="separator:a5bd2f08d7ec1908fe36e6ca1e2dca65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3c016f2fccdd090e78668905c2ce0e1" id="r_ab3c016f2fccdd090e78668905c2ce0e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab3c016f2fccdd090e78668905c2ce0e1">AddOp</a> (<a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> buffer, <a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a> op)</td></tr>
-<tr class="memdesc:ab3c016f2fccdd090e78668905c2ce0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a component &lt;-&gt; entity association. Moves entity to a different entity table.  <br /></td></tr>
-<tr class="separator:ab3c016f2fccdd090e78668905c2ce0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c6fb17ab5e24d175ba52b42e1644706" id="r_a4c6fb17ab5e24d175ba52b42e1644706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4c6fb17ab5e24d175ba52b42e1644706">AddOp</a> (<a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> buffer, <a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a> const &amp;op)</td></tr>
-<tr class="memdesc:a4c6fb17ab5e24d175ba52b42e1644706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregister a component &lt;-&gt; entity association. Moves entity to a different entity table.  <br /></td></tr>
-<tr class="separator:a4c6fb17ab5e24d175ba52b42e1644706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec106d2835917b196f726ea47ae4799" id="r_a6ec106d2835917b196f726ea47ae4799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6ec106d2835917b196f726ea47ae4799">Execute</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a> const &amp;op)</td></tr>
-<tr class="memdesc:a6ec106d2835917b196f726ea47ae4799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <br /></td></tr>
-<tr class="separator:a6ec106d2835917b196f726ea47ae4799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaffb1c2c0de0eb9ac2e0440fa8bcf38b" id="r_aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aaffb1c2c0de0eb9ac2e0440fa8bcf38b">Execute</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a> const &amp;op)</td></tr>
-<tr class="memdesc:aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute an operation directly.  <br /></td></tr>
-<tr class="separator:aaffb1c2c0de0eb9ac2e0440fa8bcf38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f29db9767cc5376d6a5a3c27fb277a" id="r_ab5f29db9767cc5376d6a5a3c27fb277a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab5f29db9767cc5376d6a5a3c27fb277a">ReleaseAllOps</a> ()</td></tr>
-<tr class="memdesc:ab5f29db9767cc5376d6a5a3c27fb277a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release all memory allocated by operation buffers.  <br /></td></tr>
-<tr class="separator:ab5f29db9767cc5376d6a5a3c27fb277a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95174757039aa417008ae3178a10be2" id="r_ac95174757039aa417008ae3178a10be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac95174757039aa417008ae3178a10be2">DestroyFilter</a> (<a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>)</td></tr>
 <tr class="memdesc:ac95174757039aa417008ae3178a10be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a filter.  <br /></td></tr>
 <tr class="separator:ac95174757039aa417008ae3178a10be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af143290fef799ba8303e01c658cb54e8" id="r_af143290fef799ba8303e01c658cb54e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">GetComponentId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
+<tr class="memdesc:af143290fef799ba8303e01c658cb54e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id.  <br /></td></tr>
+<tr class="separator:af143290fef799ba8303e01c658cb54e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b" id="r_a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT &gt; </td></tr>
 <tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">GetComponentId</a> ()</td></tr>
 <tr class="memdesc:a7dfc27dc96611f0c398ea8328415dd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id, based on template type.  <br /></td></tr>
 <tr class="separator:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94cfb07f616a6f3e883141772956064e" id="r_a94cfb07f616a6f3e883141772956064e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a94cfb07f616a6f3e883141772956064e">GetNumInstances</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table)</td></tr>
-<tr class="memdesc:a94cfb07f616a6f3e883141772956064e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of instances in a specific table.  <br /></td></tr>
-<tr class="separator:a94cfb07f616a6f3e883141772956064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeebd927980472b29bd1cfdcae956e983" id="r_aeebd927980472b29bd1cfdcae956e983"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aeebd927980472b29bd1cfdcae956e983">GetInstanceBuffer</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> const, uint16_t partitionId, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> const)</td></tr>
-<tr class="memdesc:aeebd927980472b29bd1cfdcae956e983"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the instance buffer for a specific component in a table  <br /></td></tr>
-<tr class="separator:aeebd927980472b29bd1cfdcae956e983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a170de1401a6dc16acfb8f3a41738d4af" id="r_a170de1401a6dc16acfb8f3a41738d4af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a170de1401a6dc16acfb8f3a41738d4af">AllocateEntity</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
-<tr class="memdesc:a170de1401a6dc16acfb8f3a41738d4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate an entity id  <br /></td></tr>
-<tr class="separator:a170de1401a6dc16acfb8f3a41738d4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e853d5c1d88d626c4859e75a6d8e3f9" id="r_a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a2e853d5c1d88d626c4859e75a6d8e3f9">DeallocateEntity</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>)</td></tr>
-<tr class="memdesc:a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate an entity id. Make sure to deallocate the entity db entry first.  <br /></td></tr>
-<tr class="separator:a2e853d5c1d88d626c4859e75a6d8e3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a761c0987e84f3b31ea1c9fe67e7f4dec" id="r_a761c0987e84f3b31ea1c9fe67e7f4dec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a761c0987e84f3b31ea1c9fe67e7f4dec">AllocateInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>)</td></tr>
-<tr class="memdesc:a761c0987e84f3b31ea1c9fe67e7f4dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate an instance in the table and map it to the entity  <br /></td></tr>
-<tr class="separator:a761c0987e84f3b31ea1c9fe67e7f4dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c343c5715080db3312b54981aab089" id="r_a68c343c5715080db3312b54981aab089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a68c343c5715080db3312b54981aab089">AllocateInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>, <a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>)</td></tr>
-<tr class="memdesc:a68c343c5715080db3312b54981aab089"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate an instance from a blueprint in the table and map it to the entity  <br /></td></tr>
-<tr class="separator:a68c343c5715080db3312b54981aab089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d44af04fee3cd9e72a26607a79670c" id="r_a14d44af04fee3cd9e72a26607a79670c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a14d44af04fee3cd9e72a26607a79670c">AllocateInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>, <a class="el" href="struct_game_1_1_template_id.html">TemplateId</a>)</td></tr>
-<tr class="memdesc:a14d44af04fee3cd9e72a26607a79670c"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate an instance from a template in the table and map it to the entity  <br /></td></tr>
-<tr class="separator:a14d44af04fee3cd9e72a26607a79670c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd350bc9dfcd52768972b89e81d18e7e" id="r_abd350bc9dfcd52768972b89e81d18e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#abd350bc9dfcd52768972b89e81d18e7e">DeallocateInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>)</td></tr>
-<tr class="memdesc:abd350bc9dfcd52768972b89e81d18e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate an entitys entry from the worlds database  <br /></td></tr>
-<tr class="separator:abd350bc9dfcd52768972b89e81d18e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7aefb9d5b28aa86b2910b1fba0bef75" id="r_ac7aefb9d5b28aa86b2910b1fba0bef75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac7aefb9d5b28aa86b2910b1fba0bef75">DeallocateInstance</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>)</td></tr>
-<tr class="memdesc:ac7aefb9d5b28aa86b2910b1fba0bef75"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate an entry from the worlds database.  <br /></td></tr>
-<tr class="separator:ac7aefb9d5b28aa86b2910b1fba0bef75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a275a8bc8ce659bea0e41844aff916bed" id="r_a275a8bc8ce659bea0e41844aff916bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a275a8bc8ce659bea0e41844aff916bed">Migrate</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Entity</a>, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> toTable)</td></tr>
-<tr class="memdesc:a275a8bc8ce659bea0e41844aff916bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">migrate an entity to a different table  <br /></td></tr>
-<tr class="separator:a275a8bc8ce659bea0e41844aff916bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2af45f3b2d10347bf373c7e668d3d54b" id="r_a2af45f3b2d10347bf373c7e668d3d54b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a2af45f3b2d10347bf373c7e668d3d54b">Migrate</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Entity</a> &gt; const &amp;entities, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> fromTable, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> toTable, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;newInstances)</td></tr>
-<tr class="memdesc:a2af45f3b2d10347bf373c7e668d3d54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">migrate an array of entities from one table to another. Fills the newInstances array with the new row ids for each entity.  <br /></td></tr>
-<tr class="separator:a2af45f3b2d10347bf373c7e668d3d54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14acce8eb72ee89132711fc28228fcf3" id="r_a14acce8eb72ee89132711fc28228fcf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a14acce8eb72ee89132711fc28228fcf3">Defragment</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>)</td></tr>
-<tr class="memdesc:a14acce8eb72ee89132711fc28228fcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">defragment an entity table  <br /></td></tr>
-<tr class="separator:a14acce8eb72ee89132711fc28228fcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa1dbc557f1fffdd17fc4e2cf5103316" id="r_afa1dbc557f1fffdd17fc4e2cf5103316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#afa1dbc557f1fffdd17fc4e2cf5103316">CreateEntityTable</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world, <a class="el" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a> const &amp;info)</td></tr>
-<tr class="memdesc:afa1dbc557f1fffdd17fc4e2cf5103316"><td class="mdescLeft">&#160;</td><td class="mdescRight">create an entity table  <br /></td></tr>
-<tr class="separator:afa1dbc557f1fffdd17fc4e2cf5103316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583c03ec0434eff36157ae336ef7bc7b" id="r_a583c03ec0434eff36157ae336ef7bc7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a583c03ec0434eff36157ae336ef7bc7b">SetComponent</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component, void *value, uint64_t size)</td></tr>
-<tr class="memdesc:a583c03ec0434eff36157ae336ef7bc7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the value of an entity  <br /></td></tr>
-<tr class="separator:a583c03ec0434eff36157ae336ef7bc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8a7f1695ff3939b3a5e5ec055a43cac" id="r_af8a7f1695ff3939b3a5e5ec055a43cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af8a7f1695ff3939b3a5e5ec055a43cac">GetDecayBuffer</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component)</td></tr>
-<tr class="memdesc:af8a7f1695ff3939b3a5e5ec055a43cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the decay buffer for a specific component  <br /></td></tr>
-<tr class="separator:af8a7f1695ff3939b3a5e5ec055a43cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a384d2c2409bb1734913d09b34855819d" id="r_a384d2c2409bb1734913d09b34855819d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a384d2c2409bb1734913d09b34855819d">ClearDecayBuffers</a> ()</td></tr>
-<tr class="memdesc:a384d2c2409bb1734913d09b34855819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the component decay buffers  <br /></td></tr>
-<tr class="separator:a384d2c2409bb1734913d09b34855819d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02499f769b41f0e7a5b86e8ac68dc8a7" id="r_a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a02499f769b41f0e7a5b86e8ac68dc8a7">RegisterComponent</a> (<a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">ComponentFlags</a> flags=<a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">ComponentFlags::COMPONENTFLAG_NONE</a>)</td></tr>
-<tr class="memdesc:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; Beginning of template implementations &ndash;  <br /></td></tr>
-<tr class="separator:a02499f769b41f0e7a5b86e8ac68dc8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644a8ebb1c48664b26bb80977d9da24c" id="r_a644a8ebb1c48664b26bb80977d9da24c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a644a8ebb1c48664b26bb80977d9da24c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a644a8ebb1c48664b26bb80977d9da24c">ComponentDrawFuncT&lt; Game::Entity &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
 <tr class="separator:a644a8ebb1c48664b26bb80977d9da24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -421,65 +295,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a70da0079ee1504e3cecf2ac59e23e9b8" id="r_a70da0079ee1504e3cecf2ac59e23e9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a70da0079ee1504e3cecf2ac59e23e9b8">ComponentsInFilter</a> (<a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>)</td></tr>
 <tr class="memdesc:a70da0079ee1504e3cecf2ac59e23e9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the inclusive component array  <br /></td></tr>
 <tr class="separator:a70da0079ee1504e3cecf2ac59e23e9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96d68afc70192963f9cbee500b16ebe" id="r_ab96d68afc70192963f9cbee500b16ebe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab96d68afc70192963f9cbee500b16ebe">FrameBatchJob</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
+<tr class="separator:ab96d68afc70192963f9cbee500b16ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d23932cc3378e918db65cf24fec44c" id="r_a84d23932cc3378e918db65cf24fec44c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a84d23932cc3378e918db65cf24fec44c">__ImplementClass</a> (<a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a>, 'GMSV', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a84d23932cc3378e918db65cf24fec44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ff23edac94487d2f00bee5bfa35e79" id="r_aa4ff23edac94487d2f00bee5bfa35e79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa4ff23edac94487d2f00bee5bfa35e79">__ImplementSingleton</a> (<a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a>)</td></tr>
 <tr class="separator:aa4ff23edac94487d2f00bee5bfa35e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa528c32078e33be9e4ffc55b09db6ba0" id="r_aa528c32078e33be9e4ffc55b09db6ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">CreateProcessor</a> (<a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const  &amp;info)</td></tr>
-<tr class="memdesc:aa528c32078e33be9e4ffc55b09db6ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a processor.  <br /></td></tr>
-<tr class="separator:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c0a609c214eff66c23f447fd2e6e500" id="r_a0c0a609c214eff66c23f447fd2e6e500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500">RegisterProcessors</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, std::initializer_list&lt; <a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a> &gt;)</td></tr>
-<tr class="memdesc:a0c0a609c214eff66c23f447fd2e6e500"><td class="mdescLeft">&#160;</td><td class="mdescRight">register processors to a world  <br /></td></tr>
-<tr class="separator:a0c0a609c214eff66c23f447fd2e6e500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9777f1e3a9d43c50878ec1aa6dcbedaf" id="r_a9777f1e3a9d43c50878ec1aa6dcbedaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a9777f1e3a9d43c50878ec1aa6dcbedaf">AllocateWorld</a> (<a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;info)</td></tr>
-<tr class="separator:a9777f1e3a9d43c50878ec1aa6dcbedaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53512ac5c9322963d519b00d94f04cff" id="r_a53512ac5c9322963d519b00d94f04cff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a53512ac5c9322963d519b00d94f04cff">DeallocateWorld</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a53512ac5c9322963d519b00d94f04cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a071f012555b14e7ef96a661604721190" id="r_a071f012555b14e7ef96a661604721190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a071f012555b14e7ef96a661604721190">WorldBeginFrame</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a071f012555b14e7ef96a661604721190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12457a1e75ab14d15d5ce5ce08771e11" id="r_a12457a1e75ab14d15d5ce5ce08771e11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a12457a1e75ab14d15d5ce5ce08771e11">WorldSimFrame</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a12457a1e75ab14d15d5ce5ce08771e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b42690ff6280d3636c9a1dbbd5fb4f" id="r_a50b42690ff6280d3636c9a1dbbd5fb4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a50b42690ff6280d3636c9a1dbbd5fb4f">WorldEndFrame</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a50b42690ff6280d3636c9a1dbbd5fb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94b0f6610b3bca2c9ce5e95868e26f2c" id="r_a94b0f6610b3bca2c9ce5e95868e26f2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a94b0f6610b3bca2c9ce5e95868e26f2c">WorldOnLoad</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a94b0f6610b3bca2c9ce5e95868e26f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b0a6efae719fca4a68700c0044d849" id="r_a55b0a6efae719fca4a68700c0044d849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a55b0a6efae719fca4a68700c0044d849">WorldOnSave</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a55b0a6efae719fca4a68700c0044d849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac492b129ee90bda603fc2d0affe6ef9a" id="r_ac492b129ee90bda603fc2d0affe6ef9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac492b129ee90bda603fc2d0affe6ef9a">WorldPrefilterProcessors</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:ac492b129ee90bda603fc2d0affe6ef9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2dfbbf0e5b2f8fdc04b634f4bc3cd30" id="r_ab2dfbbf0e5b2f8fdc04b634f4bc3cd30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab2dfbbf0e5b2f8fdc04b634f4bc3cd30">WorldPrefiltered</a> (<a class="el" href="class_game_1_1_world.html">World</a> *)</td></tr>
-<tr class="memdesc:ab2dfbbf0e5b2f8fdc04b634f4bc3cd30"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the world processor filters has been properly cached  <br /></td></tr>
-<tr class="separator:ab2dfbbf0e5b2f8fdc04b634f4bc3cd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0b5fbd193ab12ee643d7db6ce4bc783" id="r_ac0b5fbd193ab12ee643d7db6ce4bc783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac0b5fbd193ab12ee643d7db6ce4bc783">WorldManageEntities</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:ac0b5fbd193ab12ee643d7db6ce4bc783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e19a801974c0ea64e0c8c48bc950959" id="r_a7e19a801974c0ea64e0c8c48bc950959"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7e19a801974c0ea64e0c8c48bc950959">WorldReset</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a7e19a801974c0ea64e0c8c48bc950959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaddc83131aefd23a6bac53df65a47b2" id="r_afaddc83131aefd23a6bac53df65a47b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#afaddc83131aefd23a6bac53df65a47b2">WorldGetScratchOpBuffer</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:afaddc83131aefd23a6bac53df65a47b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7daa20c80f5d333deeb786b0dfd4c8fc" id="r_a7daa20c80f5d333deeb786b0dfd4c8fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7daa20c80f5d333deeb786b0dfd4c8fc">GetWorldDatabase</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a7daa20c80f5d333deeb786b0dfd4c8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae868cce3640af7212189788f8a7e3a0a" id="r_ae868cce3640af7212189788f8a7e3a0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae868cce3640af7212189788f8a7e3a0a">DecayComponent</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a> column, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> instance)</td></tr>
-<tr class="separator:ae868cce3640af7212189788f8a7e3a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa268b48c39efcbc37c000db7d0d46a5e" id="r_aa268b48c39efcbc37c000db7d0d46a5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa268b48c39efcbc37c000db7d0d46a5e">Migrate</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Entity</a> &gt; const &amp;entities, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> fromCategory, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> newCategory, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> &gt; &amp;newInstances)</td></tr>
-<tr class="separator:aa268b48c39efcbc37c000db7d0d46a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41ef0811e70a3c3de74a766c986b4d5f" id="r_a41ef0811e70a3c3de74a766c986b4d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a41ef0811e70a3c3de74a766c986b4d5f">WorldRenderDebug</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
-<tr class="separator:a41ef0811e70a3c3de74a766c986b4d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42aa58432b89dc8f89812e64c85b790d" id="r_a42aa58432b89dc8f89812e64c85b790d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a42aa58432b89dc8f89812e64c85b790d">WorldOverride</a> (<a class="el" href="class_game_1_1_world.html">World</a> *src, <a class="el" href="class_game_1_1_world.html">World</a> *dst)</td></tr>
-<tr class="memdesc:a42aa58432b89dc8f89812e64c85b790d"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies and overrides dst with src. This is extremely destructive - make sure you understand the implications!  <br /></td></tr>
-<tr class="separator:a42aa58432b89dc8f89812e64c85b790d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa7cdcc81398eac2297c2870653785a7f" id="r_aa7cdcc81398eac2297c2870653785a7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(<a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">Dataset::EntityTableView</a>) *256 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa7cdcc81398eac2297c2870653785a7f">viewAllocator</a></td></tr>
-<tr class="separator:aa7cdcc81398eac2297c2870653785a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22a044ba95689ee39c23bfd5aa643dbb" id="r_a22a044ba95689ee39c23bfd5aa643dbb"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a22a044ba95689ee39c23bfd5aa643dbb">MAX_NUM_CATEGORIES</a> = 512</td></tr>
-<tr class="separator:a22a044ba95689ee39c23bfd5aa643dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662616bb8ef6d0cf976776a3ca6bd272" id="r_a662616bb8ef6d0cf976776a3ca6bd272"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(<a class="el" href="struct_game_1_1_dataset_1_1_view.html">Dataset::View</a>) *256 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a662616bb8ef6d0cf976776a3ca6bd272">viewAllocator</a></td></tr>
+<tr class="separator:a662616bb8ef6d0cf976776a3ca6bd272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d9ca45c2805958f60778da2695ddb3" id="r_a80d9ca45c2805958f60778da2695ddb3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="namespace_game.html#a2aa320391917088b2e65f9bba2984a23">InclusiveTableMask</a>, <a class="el" href="namespace_game.html#a7a9645dc98e40c7474e0839d0c32f896">ExclusiveTableMask</a>, <a class="el" href="namespace_game.html#a8bdfdb9b06838ccef5c7a73419acafc6">ComponentArray</a>, <a class="el" href="namespace_game.html#a6778457f4970d16fd1bd10b871cbd413">AccessModeArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a80d9ca45c2805958f60778da2695ddb3">filterAllocator</a></td></tr>
 <tr class="separator:a80d9ca45c2805958f60778da2695ddb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf48647f215e0b1801607df832151fc" id="r_a8bf48647f215e0b1801607df832151fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="namespace_game.html#a7aaaa1aabbc0053c20adddc35a441bb6">RegCidQueue</a>, <a class="el" href="namespace_game.html#a5db3f900c0ff52be49cc82d063c11695">DeregCidQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a8bf48647f215e0b1801607df832151fc">opBufferAllocator</a></td></tr>
-<tr class="separator:a8bf48647f215e0b1801607df832151fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6790584834c22bd67ecc217cd70622d0" id="r_a6790584834c22bd67ecc217cd70622d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6790584834c22bd67ecc217cd70622d0">opAllocator</a></td></tr>
-<tr class="separator:a6790584834c22bd67ecc217cd70622d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34dc6b5e2f72f2c4db9dc1e198e1bf33" id="r_a34dc6b5e2f72f2c4db9dc1e198e1bf33"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33">componentDecayTable</a></td></tr>
 <tr class="separator:a34dc6b5e2f72f2c4db9dc1e198e1bf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -520,20 +348,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a> <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5db3f900c0ff52be49cc82d063c11695" name="a5db3f900c0ff52be49cc82d063c11695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5db3f900c0ff52be49cc82d063c11695">&#9670;&#160;</a></span>DeregCidQueue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespace_game.html#a5db3f900c0ff52be49cc82d063c11695">Game::DeregCidQueue</a> = typedef <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt;<a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -584,38 +398,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3210076ff42bb92806741300ba14b265" name="a3210076ff42bb92806741300ba14b265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3210076ff42bb92806741300ba14b265">&#9670;&#160;</a></span>OpBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef uint32_t <a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">Game::OpBuffer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opaque entity operations buffer. </p>
-
-</div>
-</div>
-<a id="a1b3ee48ba7e537489b84b4131d4fbbc2" name="a1b3ee48ba7e537489b84b4131d4fbbc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3ee48ba7e537489b84b4131d4fbbc2">&#9670;&#160;</a></span>ProcessorFrameCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2">Game::ProcessorFrameCallback</a> = typedef std::function&lt;void(<a class="el" href="class_game_1_1_world.html">World</a>*, <a class="el" href="struct_game_1_1_dataset.html">Dataset</a>)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>per frame callback for processors </p>
-
-</div>
-</div>
 <a id="a74b0ad357b08d17f221b65b804193303" name="a74b0ad357b08d17f221b65b804193303"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74b0ad357b08d17f221b65b804193303">&#9670;&#160;</a></span>ProcessorHandle</h2>
 
@@ -629,34 +411,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Opaque processor handle. </p>
-
-</div>
-</div>
-<a id="a69df18504c439f3171b43c0de6463f02" name="a69df18504c439f3171b43c0de6463f02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69df18504c439f3171b43c0de6463f02">&#9670;&#160;</a></span>ProcessorInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> <a class="el" href="namespace_game.html#a69df18504c439f3171b43c0de6463f02">Game::ProcessorInfo</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7aaaa1aabbc0053c20adddc35a441bb6" name="a7aaaa1aabbc0053c20adddc35a441bb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aaaa1aabbc0053c20adddc35a441bb6">&#9670;&#160;</a></span>RegCidQueue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespace_game.html#a7aaaa1aabbc0053c20adddc35a441bb6">Game::RegCidQueue</a> = typedef <a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt;<a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -786,278 +540,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="af75a56a6ebb884594b3107d8f214165c" name="af75a56a6ebb884594b3107d8f214165c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af75a56a6ebb884594b3107d8f214165c">&#9670;&#160;</a></span>AddComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TYPE &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::AddComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TYPE *&#160;</td>
-          <td class="paramname"><em>prop</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add a component to an entity. </p>
-
-</div>
-</div>
-<a id="a4c6fb17ab5e24d175ba52b42e1644706" name="a4c6fb17ab5e24d175ba52b42e1644706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c6fb17ab5e24d175ba52b42e1644706">&#9670;&#160;</a></span>AddOp() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::AddOp </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a> const &amp;&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deregister a component &lt;-&gt; entity association. Moves entity to a different entity table. </p>
-
-</div>
-</div>
-<a id="ab3c016f2fccdd090e78668905c2ce0e1" name="ab3c016f2fccdd090e78668905c2ce0e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3c016f2fccdd090e78668905c2ce0e1">&#9670;&#160;</a></span>AddOp() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::AddOp </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a>&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Register a component &lt;-&gt; entity association. Moves entity to a different entity table. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>optimize </dd></dl>
-
-</div>
-</div>
-<a id="a170de1401a6dc16acfb8f3a41738d4af" name="a170de1401a6dc16acfb8f3a41738d4af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a170de1401a6dc16acfb8f3a41738d4af">&#9670;&#160;</a></span>AllocateEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_entity.html">Entity</a> Game::AllocateEntity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>allocate an entity id </p>
-
-</div>
-</div>
-<a id="a68c343c5715080db3312b54981aab089" name="a68c343c5715080db3312b54981aab089"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68c343c5715080db3312b54981aab089">&#9670;&#160;</a></span>AllocateInstance() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> Game::AllocateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a>&#160;</td>
-          <td class="paramname"><em>blueprint</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>allocate an instance from a blueprint in the table and map it to the entity </p>
-
-</div>
-</div>
-<a id="a761c0987e84f3b31ea1c9fe67e7f4dec" name="a761c0987e84f3b31ea1c9fe67e7f4dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a761c0987e84f3b31ea1c9fe67e7f4dec">&#9670;&#160;</a></span>AllocateInstance() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> Game::AllocateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>allocate an instance in the table and map it to the entity </p>
-
-</div>
-</div>
-<a id="a14d44af04fee3cd9e72a26607a79670c" name="a14d44af04fee3cd9e72a26607a79670c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14d44af04fee3cd9e72a26607a79670c">&#9670;&#160;</a></span>AllocateInstance() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> Game::AllocateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_template_id.html">TemplateId</a>&#160;</td>
-          <td class="paramname"><em>templateId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>allocate an instance from a template in the table and map it to the entity </p>
-
-</div>
-</div>
-<a id="a9777f1e3a9d43c50878ec1aa6dcbedaf" name="a9777f1e3a9d43c50878ec1aa6dcbedaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9777f1e3a9d43c50878ec1aa6dcbedaf">&#9670;&#160;</a></span>AllocateWorld()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::AllocateWorld </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_world_create_info.html">WorldCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a384d2c2409bb1734913d09b34855819d" name="a384d2c2409bb1734913d09b34855819d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a384d2c2409bb1734913d09b34855819d">&#9670;&#160;</a></span>ClearDecayBuffers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::ClearDecayBuffers </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>clear the component decay buffers </p>
 
 </div>
 </div>
@@ -1549,348 +1031,6 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="ad9e656f315dbe11e16e207cb7c6f0585" name="ad9e656f315dbe11e16e207cb7c6f0585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9e656f315dbe11e16e207cb7c6f0585">&#9670;&#160;</a></span>CreateComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::CreateComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_component_create_info.html">ComponentCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a component. </p>
-
-</div>
-</div>
-<a id="a892321185e533f8d5508bdf6171c2a11" name="a892321185e533f8d5508bdf6171c2a11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a892321185e533f8d5508bdf6171c2a11">&#9670;&#160;</a></span>CreateEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> Game::CreateEntity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity_create_info.html">EntityCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a new entity. </p>
-
-</div>
-</div>
-<a id="afa1dbc557f1fffdd17fc4e2cf5103316" name="afa1dbc557f1fffdd17fc4e2cf5103316"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa1dbc557f1fffdd17fc4e2cf5103316">&#9670;&#160;</a></span>CreateEntityTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> Game::CreateEntityTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>create an entity table </p>
-
-</div>
-</div>
-<a id="aa95a6aef9f9f5eb4e4cad4706b5f0d85" name="aa95a6aef9f9f5eb4e4cad4706b5f0d85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa95a6aef9f9f5eb4e4cad4706b5f0d85">&#9670;&#160;</a></span>CreateOpBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> Game::CreateOpBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create an operations buffer. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>There should be better and more clean ways of doing this. It's ugly and inefficient... </dd></dl>
-
-</div>
-</div>
-<a id="aa528c32078e33be9e4ffc55b09db6ba0" name="aa528c32078e33be9e4ffc55b09db6ba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa528c32078e33be9e4ffc55b09db6ba0">&#9670;&#160;</a></span>CreateProcessor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a> Game::CreateProcessor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>info</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a processor. </p>
-
-</div>
-</div>
-<a id="a2e853d5c1d88d626c4859e75a6d8e3f9" name="a2e853d5c1d88d626c4859e75a6d8e3f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e853d5c1d88d626c4859e75a6d8e3f9">&#9670;&#160;</a></span>DeallocateEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DeallocateEntity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deallocate an entity id. Make sure to deallocate the entity db entry first. </p>
-
-</div>
-</div>
-<a id="abd350bc9dfcd52768972b89e81d18e7e" name="abd350bc9dfcd52768972b89e81d18e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd350bc9dfcd52768972b89e81d18e7e">&#9670;&#160;</a></span>DeallocateInstance() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DeallocateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deallocate an entitys entry from the worlds database </p>
-
-</div>
-</div>
-<a id="ac7aefb9d5b28aa86b2910b1fba0bef75" name="ac7aefb9d5b28aa86b2910b1fba0bef75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7aefb9d5b28aa86b2910b1fba0bef75">&#9670;&#160;</a></span>DeallocateInstance() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DeallocateInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td>
-          <td class="paramname"><em>instance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deallocate an entry from the worlds database. </p>
-<dl class="section note"><dt>Note</dt><dd>this does not disassociate it with any entity, which might lead to subtle bugs if not handled correctly. </dd></dl>
-
-</div>
-</div>
-<a id="a53512ac5c9322963d519b00d94f04cff" name="a53512ac5c9322963d519b00d94f04cff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53512ac5c9322963d519b00d94f04cff">&#9670;&#160;</a></span>DeallocateWorld()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DeallocateWorld </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae868cce3640af7212189788f8a7e3a0a" name="ae868cce3640af7212189788f8a7e3a0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae868cce3640af7212189788f8a7e3a0a">&#9670;&#160;</a></span>DecayComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DecayComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a>&#160;</td>
-          <td class="paramname"><em>component</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>tableId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a>&#160;</td>
-          <td class="paramname"><em>column</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td>
-          <td class="paramname"><em>instance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14acce8eb72ee89132711fc28228fcf3" name="a14acce8eb72ee89132711fc28228fcf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14acce8eb72ee89132711fc28228fcf3">&#9670;&#160;</a></span>Defragment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Defragment </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>cat</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>defragment an entity table </p>
-
-</div>
-</div>
-<a id="a4edd1d8ef4925af6cbcad9813f248248" name="a4edd1d8ef4925af6cbcad9813f248248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4edd1d8ef4925af6cbcad9813f248248">&#9670;&#160;</a></span>DeleteEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::DeleteEntity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>delete entity </p>
-
-</div>
-</div>
 <a id="ac95174757039aa417008ae3178a10be2" name="ac95174757039aa417008ae3178a10be2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac95174757039aa417008ae3178a10be2">&#9670;&#160;</a></span>DestroyFilter()</h2>
 
@@ -1911,65 +1051,41 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a5bd2f08d7ec1908fe36e6ca1e2dca65f" name="a5bd2f08d7ec1908fe36e6ca1e2dca65f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bd2f08d7ec1908fe36e6ca1e2dca65f">&#9670;&#160;</a></span>DestroyOpBuffer()</h2>
+<a id="ab96d68afc70192963f9cbee500b16ebe" name="ab96d68afc70192963f9cbee500b16ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96d68afc70192963f9cbee500b16ebe">&#9670;&#160;</a></span>FrameBatchJob()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Game::DestroyOpBuffer </td>
+          <td class="memname">void Game::FrameBatchJob </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys an operations buffer. </p>
-
-</div>
-</div>
-<a id="aa549e5a6cfc2b8d08feea387479dfad3" name="aa549e5a6cfc2b8d08feea387479dfad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa549e5a6cfc2b8d08feea387479dfad3">&#9670;&#160;</a></span>Dispatch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Dispatch </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a>&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runs all operations in an operations buffer and clears it. This will invalidate category table views. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>We can bundle all add and remove components for each entity into one migration. We can also batch them based on their new table, so we won't need to do as many column id lookups. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This is not thread safe. We cannot make it sync since it might read/write from arbitrary tables. </dd></dl>
-
-</div>
-</div>
-<a id="aaffb1c2c0de0eb9ac2e0440fa8bcf38b" name="aaffb1c2c0de0eb9ac2e0440fa8bcf38b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaffb1c2c0de0eb9ac2e0440fa8bcf38b">&#9670;&#160;</a></span>Execute() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Execute </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>totalJobs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_op_1_1_deregister_component.html">Op::DeregisterComponent</a> const &amp;&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>groupSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td>
+          <td class="paramname"><em>groupIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td>
+          <td class="paramname"><em>invocationOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1978,39 +1094,6 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Execute an operation directly. </p>
-
-</div>
-</div>
-<a id="a6ec106d2835917b196f726ea47ae4799" name="a6ec106d2835917b196f726ea47ae4799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec106d2835917b196f726ea47ae4799">&#9670;&#160;</a></span>Execute() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Execute </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_op_1_1_register_component.html">Op::RegisterComponent</a> const &amp;&#160;</td>
-          <td class="paramname"><em>op</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Execute an operation directly. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>Optimize me </dd></dl>
 
 </div>
 </div>
@@ -2034,33 +1117,22 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a932c35cea4c905514c13f3e12b5a9533" name="a932c35cea4c905514c13f3e12b5a9533"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a932c35cea4c905514c13f3e12b5a9533">&#9670;&#160;</a></span>GetComponent()</h2>
+<a id="a7dfc27dc96611f0c398ea8328415dd6b" name="a7dfc27dc96611f0c398ea8328415dd6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dfc27dc96611f0c398ea8328415dd6b">&#9670;&#160;</a></span>GetComponentId() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TYPE &gt; </div>
+template&lt;typename COMPONENT &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TYPE Game::GetComponent </td>
+          <td class="memname"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::GetComponentId </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -2070,28 +1142,8 @@ template&lt;typename TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>typed get component </p>
-
-</div>
-</div>
-<a id="a7dfc27dc96611f0c398ea8328415dd6b" name="a7dfc27dc96611f0c398ea8328415dd6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dfc27dc96611f0c398ea8328415dd6b">&#9670;&#160;</a></span>GetComponentId() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename COMPONENT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::GetComponentId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p>Returns a component id, based on template type. </p>
+<p>&ndash; Template implementations &ndash; </p>
 
 </div>
 </div>
@@ -2100,6 +1152,9 @@ template&lt;typename COMPONENT &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::GetComponentId </td>
@@ -2109,59 +1164,14 @@ template&lt;typename COMPONENT &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns a component id. </p>
-
-</div>
-</div>
-<a id="af8a7f1695ff3939b3a5e5ec055a43cac" name="af8a7f1695ff3939b3a5e5ec055a43cac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8a7f1695ff3939b3a5e5ec055a43cac">&#9670;&#160;</a></span>GetDecayBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a> const Game::GetDecayBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a>&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get the decay buffer for a specific component </p>
-
-</div>
-</div>
-<a id="a6c0eb1f6f961c1806c432ae42be2d4ba" name="a6c0eb1f6f961c1806c432ae42be2d4ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c0eb1f6f961c1806c432ae42be2d4ba">&#9670;&#160;</a></span>GetEntityMapping()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_entity_mapping.html">EntityMapping</a> Game::GetEntityMapping </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the entity mapping of an entity. </p>
 
 </div>
 </div>
@@ -2205,108 +1215,6 @@ template&lt;typename COMPONENT &gt; </div>
 
 </div>
 </div>
-<a id="afa5134dadf092babb1a958e97c36e5bb" name="afa5134dadf092babb1a958e97c36e5bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa5134dadf092babb1a958e97c36e5bb">&#9670;&#160;</a></span>GetInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> Game::GetInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get instance of entity. </p>
-
-</div>
-</div>
-<a id="aeebd927980472b29bd1cfdcae956e983" name="aeebd927980472b29bd1cfdcae956e983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeebd927980472b29bd1cfdcae956e983">&#9670;&#160;</a></span>GetInstanceBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * Game::GetInstanceBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> const&#160;</td>
-          <td class="paramname"><em>tid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>partitionId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> const&#160;</td>
-          <td class="paramname"><em>component</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>retrieve the instance buffer for a specific component in a table </p>
-
-</div>
-</div>
-<a id="a94cfb07f616a6f3e883141772956064e" name="a94cfb07f616a6f3e883141772956064e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94cfb07f616a6f3e883141772956064e">&#9670;&#160;</a></span>GetNumInstances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> Game::GetNumInstances </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>table</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get number of instances in a specific table. </p>
-
-</div>
-</div>
 <a id="ac40d0603244073898c48179e980cf72a" name="ac40d0603244073898c48179e980cf72a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac40d0603244073898c48179e980cf72a">&#9670;&#160;</a></span>GetTemplateId()</h2>
 
@@ -2347,261 +1255,8 @@ template&lt;typename COMPONENT &gt; </div>
 
 </div>
 </div>
-<a id="a7daa20c80f5d333deeb786b0dfd4c8fc" name="a7daa20c80f5d333deeb786b0dfd4c8fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7daa20c80f5d333deeb786b0dfd4c8fc">&#9670;&#160;</a></span>GetWorldDatabase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt; Game::GetWorldDatabase </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29bd6c080c247dacd34df6950d6bf680" name="a29bd6c080c247dacd34df6950d6bf680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29bd6c080c247dacd34df6950d6bf680">&#9670;&#160;</a></span>HasComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Game::HasComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> const&#160;</td>
-          <td class="paramname"><em>component</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if entity has a specific component. (SLOW!) </p>
-<p>TODO: This is not thread safe! </p>
-
-</div>
-</div>
-<a id="a94c7af23a7baf1deb53a9ddd3b2f5db9" name="a94c7af23a7baf1deb53a9ddd3b2f5db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94c7af23a7baf1deb53a9ddd3b2f5db9">&#9670;&#160;</a></span>HasInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Game::HasInstance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if an entity is active (has an instance). It might be valid, but inactive just after it has been created. </p>
-
-</div>
-</div>
-<a id="a5240006938f9acf4ef4681598a9395d0" name="a5240006938f9acf4ef4681598a9395d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5240006938f9acf4ef4681598a9395d0">&#9670;&#160;</a></span>IsValid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Game::IsValid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if an entity ID is still valid. </p>
-
-</div>
-</div>
-<a id="a275a8bc8ce659bea0e41844aff916bed" name="a275a8bc8ce659bea0e41844aff916bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a275a8bc8ce659bea0e41844aff916bed">&#9670;&#160;</a></span>Migrate() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> Game::Migrate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>toTable</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>migrate an entity to a different table </p>
-
-</div>
-</div>
-<a id="a2af45f3b2d10347bf373c7e668d3d54b" name="a2af45f3b2d10347bf373c7e668d3d54b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2af45f3b2d10347bf373c7e668d3d54b">&#9670;&#160;</a></span>Migrate() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Migrate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Entity</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>entities</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>fromTable</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>toTable</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>newInstances</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>migrate an array of entities from one table to another. Fills the newInstances array with the new row ids for each entity. </p>
-<dl class="section note"><dt>Note</dt><dd>assumes all entities are associated with the fromTable. </dd></dl>
-
-</div>
-</div>
-<a id="aa268b48c39efcbc37c000db7d0d46a5e" name="aa268b48c39efcbc37c000db7d0d46a5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa268b48c39efcbc37c000db7d0d46a5e">&#9670;&#160;</a></span>Migrate() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::Migrate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Entity</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>entities</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>fromCategory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>&#160;</td>
-          <td class="paramname"><em>newCategory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>newInstances</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newInstances</td><td>Will be filled with the new instance ids in the destination table. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This assumes ALL entities in the entity array is of same table! </dd></dl>
-
-</div>
-</div>
 <a id="a3e2891686998c0318e52a525428b783f" name="a3e2891686998c0318e52a525428b783f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2891686998c0318e52a525428b783f">&#9670;&#160;</a></span>Query() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2891686998c0318e52a525428b783f">&#9670;&#160;</a></span>Query()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2616,7 +1271,7 @@ template&lt;typename COMPONENT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tids</em>, </td>
+          <td class="paramname"><em>tables</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2632,146 +1287,8 @@ template&lt;typename COMPONENT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Query a subset of tables in a specific db using a specified filter set. Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available. </p>
-
-</div>
-</div>
-<a id="a0fffb44bb93cf8a679fee11081ba2c9a" name="a0fffb44bb93cf8a679fee11081ba2c9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fffb44bb93cf8a679fee11081ba2c9a">&#9670;&#160;</a></span>Query() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a> Game::Query </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>&#160;</td>
-          <td class="paramname"><em>filter</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Query the entity database using specified filter set. This does NOT wait for resources to be available. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_game_1_1_dataset.html" title="A dataset that contains views into category tables.">Dataset</a> with category table views.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The category table view buffer can be NULL if the filter contains a non-typed/flag component. </dd></dl>
-
-</div>
-</div>
-<a id="ae0107465c606bc96a41f9ddc13d4f787" name="ae0107465c606bc96a41f9ddc13d4f787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0107465c606bc96a41f9ddc13d4f787">&#9670;&#160;</a></span>Query() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a> Game::Query </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tids</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a>&#160;</td>
-          <td class="paramname"><em>filter</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Query a subset of tables using a specified filter set. Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available. </p>
-
-</div>
-</div>
-<a id="a02499f769b41f0e7a5b86e8ac68dc8a7" name="a02499f769b41f0e7a5b86e8ac68dc8a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02499f769b41f0e7a5b86e8ac68dc8a7">&#9670;&#160;</a></span>RegisterComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::RegisterComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">ComponentFlags</a>&#160;</td>
-          <td class="paramname"><em>flags</em> = <code><a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">ComponentFlags::COMPONENTFLAG_NONE</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>&ndash; Beginning of template implementations &ndash; </p>
-
-</div>
-</div>
-<a id="a0c0a609c214eff66c23f447fd2e6e500" name="a0c0a609c214eff66c23f447fd2e6e500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c0a609c214eff66c23f447fd2e6e500">&#9670;&#160;</a></span>RegisterProcessors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::RegisterProcessors </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::initializer_list&lt; <a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a> &gt;&#160;</td>
-          <td class="paramname"><em>handles</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>register processors to a world </p>
-
-</div>
-</div>
-<a id="ab5f29db9767cc5376d6a5a3c27fb277a" name="ab5f29db9767cc5376d6a5a3c27fb277a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5f29db9767cc5376d6a5a3c27fb277a">&#9670;&#160;</a></span>ReleaseAllOps()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::ReleaseAllOps </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Release all memory allocated by operation buffers. </p>
+<p>Query a subset of tables in a specific db using a specified filter set. </p>
+<p>Modifies the tables array so that it only contains valid tables. This does NOT wait for resources to be available. </p>
 
 </div>
 </div>
@@ -2791,370 +1308,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Recycles all current datasets allocated memory to be reused. </p>
-
-</div>
-</div>
-<a id="a611d7bd0e0837c10726ce80a87ff5795" name="a611d7bd0e0837c10726ce80a87ff5795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a611d7bd0e0837c10726ce80a87ff5795">&#9670;&#160;</a></span>RemoveComponent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TYPE &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::RemoveComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>remove a component from an entity </p>
-
-</div>
-</div>
-<a id="aa9c2117ef4e8378b3df6df642809f518" name="aa9c2117ef4e8378b3df6df642809f518"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9c2117ef4e8378b3df6df642809f518">&#9670;&#160;</a></span>SetComponent() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TYPE &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::SetComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TYPE&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>typed set component </p>
-
-</div>
-</div>
-<a id="a583c03ec0434eff36157ae336ef7bc7b" name="a583c03ec0434eff36157ae336ef7bc7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a583c03ec0434eff36157ae336ef7bc7b">&#9670;&#160;</a></span>SetComponent() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::SetComponent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a>&#160;</td>
-          <td class="paramname"><em>component</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set the value of an entity </p>
-
-</div>
-</div>
-<a id="a071f012555b14e7ef96a661604721190" name="a071f012555b14e7ef96a661604721190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a071f012555b14e7ef96a661604721190">&#9670;&#160;</a></span>WorldBeginFrame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldBeginFrame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50b42690ff6280d3636c9a1dbbd5fb4f" name="a50b42690ff6280d3636c9a1dbbd5fb4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b42690ff6280d3636c9a1dbbd5fb4f">&#9670;&#160;</a></span>WorldEndFrame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldEndFrame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afaddc83131aefd23a6bac53df65a47b2" name="afaddc83131aefd23a6bac53df65a47b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaddc83131aefd23a6bac53df65a47b2">&#9670;&#160;</a></span>WorldGetScratchOpBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game.html#a3210076ff42bb92806741300ba14b265">OpBuffer</a> Game::WorldGetScratchOpBuffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac0b5fbd193ab12ee643d7db6ce4bc783" name="ac0b5fbd193ab12ee643d7db6ce4bc783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0b5fbd193ab12ee643d7db6ce4bc783">&#9670;&#160;</a></span>WorldManageEntities()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldManageEntities </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94b0f6610b3bca2c9ce5e95868e26f2c" name="a94b0f6610b3bca2c9ce5e95868e26f2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94b0f6610b3bca2c9ce5e95868e26f2c">&#9670;&#160;</a></span>WorldOnLoad()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldOnLoad </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a55b0a6efae719fca4a68700c0044d849" name="a55b0a6efae719fca4a68700c0044d849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b0a6efae719fca4a68700c0044d849">&#9670;&#160;</a></span>WorldOnSave()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldOnSave </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a42aa58432b89dc8f89812e64c85b790d" name="a42aa58432b89dc8f89812e64c85b790d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42aa58432b89dc8f89812e64c85b790d">&#9670;&#160;</a></span>WorldOverride()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldOverride </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>src</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>dst</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>copies and overrides dst with src. This is extremely destructive - make sure you understand the implications! </p>
-
-</div>
-</div>
-<a id="ab2dfbbf0e5b2f8fdc04b634f4bc3cd30" name="ab2dfbbf0e5b2f8fdc04b634f4bc3cd30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2dfbbf0e5b2f8fdc04b634f4bc3cd30">&#9670;&#160;</a></span>WorldPrefiltered()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Game::WorldPrefiltered </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>check if the world processor filters has been properly cached </p>
-
-</div>
-</div>
-<a id="ac492b129ee90bda603fc2d0affe6ef9a" name="ac492b129ee90bda603fc2d0affe6ef9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac492b129ee90bda603fc2d0affe6ef9a">&#9670;&#160;</a></span>WorldPrefilterProcessors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldPrefilterProcessors </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41ef0811e70a3c3de74a766c986b4d5f" name="a41ef0811e70a3c3de74a766c986b4d5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ef0811e70a3c3de74a766c986b4d5f">&#9670;&#160;</a></span>WorldRenderDebug()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldRenderDebug </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7e19a801974c0ea64e0c8c48bc950959" name="a7e19a801974c0ea64e0c8c48bc950959"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e19a801974c0ea64e0c8c48bc950959">&#9670;&#160;</a></span>WorldReset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldReset </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a12457a1e75ab14d15d5ce5ce08771e11" name="a12457a1e75ab14d15d5ce5ce08771e11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12457a1e75ab14d15d5ce5ce08771e11">&#9670;&#160;</a></span>WorldSimFrame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Game::WorldSimFrame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -3203,8 +1356,8 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a22a044ba95689ee39c23bfd5aa643dbb" name="a22a044ba95689ee39c23bfd5aa643dbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22a044ba95689ee39c23bfd5aa643dbb">&#9670;&#160;</a></span>MAX_NUM_CATEGORIES</h2>
+<a id="a662616bb8ef6d0cf976776a3ca6bd272" name="a662616bb8ef6d0cf976776a3ca6bd272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662616bb8ef6d0cf976776a3ca6bd272">&#9670;&#160;</a></span>viewAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3213,73 +1366,7 @@ template&lt;typename TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint32_t Game::MAX_NUM_CATEGORIES = 512</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6790584834c22bd67ecc217cd70622d0" name="a6790584834c22bd67ecc217cd70622d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6790584834c22bd67ecc217cd70622d0">&#9670;&#160;</a></span>opAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;1024&gt; Game::opAllocator</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8bf48647f215e0b1801607df832151fc" name="a8bf48647f215e0b1801607df832151fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf48647f215e0b1801607df832151fc">&#9670;&#160;</a></span>opBufferAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt;<a class="el" href="class_game_1_1_world.html">World</a>*, <a class="el" href="namespace_game.html#a7aaaa1aabbc0053c20adddc35a441bb6">RegCidQueue</a>, <a class="el" href="namespace_game.html#a5db3f900c0ff52be49cc82d063c11695">DeregCidQueue</a>&gt; Game::opBufferAllocator</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7cdcc81398eac2297c2870653785a7f" name="aa7cdcc81398eac2297c2870653785a7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7cdcc81398eac2297c2870653785a7f">&#9670;&#160;</a></span>viewAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;sizeof(<a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">Dataset::EntityTableView</a>) * 256&gt; Game::viewAllocator</td>
+          <td class="memname"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;sizeof(<a class="el" href="struct_game_1_1_dataset_1_1_view.html">Dataset::View</a>) * 256&gt; Game::viewAllocator</td>
         </tr>
       </table>
   </td>
@@ -3298,7 +1385,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

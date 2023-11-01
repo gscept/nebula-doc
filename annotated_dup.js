@@ -398,10 +398,6 @@ var annotated_dup =
       [ "FrameSyncTimer", "class_frame_sync_1_1_frame_sync_timer.html", "class_frame_sync_1_1_frame_sync_timer" ]
     ] ],
     [ "Game", "namespace_game.html", [
-      [ "Op", "namespace_game_1_1_op.html", [
-        [ "DeregisterComponent", "struct_game_1_1_op_1_1_deregister_component.html", "struct_game_1_1_op_1_1_deregister_component" ],
-        [ "RegisterComponent", "struct_game_1_1_op_1_1_register_component.html", "struct_game_1_1_op_1_1_register_component" ]
-      ] ],
       [ "TimeManager", "namespace_game_1_1_time_manager.html", [
         [ "State", "struct_game_1_1_time_manager_1_1_state.html", "struct_game_1_1_time_manager_1_1_state" ],
         [ "TimeSourceState", "struct_game_1_1_time_manager_1_1_time_source_state.html", "struct_game_1_1_time_manager_1_1_time_source_state" ]
@@ -409,9 +405,9 @@ var annotated_dup =
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
       [ "BlueprintManager", "class_game_1_1_blueprint_manager.html", "class_game_1_1_blueprint_manager" ],
       [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
-      [ "ComponentCreateInfo", "struct_game_1_1_component_create_info.html", "struct_game_1_1_component_create_info" ],
       [ "ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
       [ "ComponentInspection", "class_game_1_1_component_inspection.html", "class_game_1_1_component_inspection" ],
+      [ "ComponentRegisterInfo", "struct_game_1_1_component_register_info.html", "struct_game_1_1_component_register_info" ],
       [ "ComponentSerialization", "class_game_1_1_component_serialization.html", "class_game_1_1_component_serialization" ],
       [ "Dataset", "struct_game_1_1_dataset.html", "struct_game_1_1_dataset" ],
       [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ],
@@ -420,19 +416,23 @@ var annotated_dup =
       [ "EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],
       [ "FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ],
       [ "FilterBuilder", "class_game_1_1_filter_builder.html", "class_game_1_1_filter_builder" ],
+      [ "FrameEvent", "class_game_1_1_frame_event.html", "class_game_1_1_frame_event" ],
+      [ "FrameEventBatch", "class_game_1_1_frame_event_batch.html", "class_game_1_1_frame_event_batch" ],
+      [ "FramePipeline", "class_game_1_1_frame_pipeline.html", "class_game_1_1_frame_pipeline" ],
       [ "GameServer", "class_game_1_1_game_server.html", "class_game_1_1_game_server" ],
       [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ],
       [ "ManagerHandle", "struct_game_1_1_manager_handle.html", null ],
       [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
+      [ "Processor", "class_game_1_1_processor.html", "class_game_1_1_processor" ],
       [ "ProcessorBuilder", "class_game_1_1_processor_builder.html", "class_game_1_1_processor_builder" ],
-      [ "ProcessorCreateInfo", "struct_game_1_1_processor_create_info.html", "struct_game_1_1_processor_create_info" ],
+      [ "ProcessorJobContext", "struct_game_1_1_processor_job_context.html", "struct_game_1_1_processor_job_context" ],
+      [ "ProcessorJobInput", "struct_game_1_1_processor_job_input.html", "struct_game_1_1_processor_job_input" ],
       [ "TemplateId", "struct_game_1_1_template_id.html", null ],
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
-      [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ],
-      [ "WorldCreateInfo", "struct_game_1_1_world_create_info.html", "struct_game_1_1_world_create_info" ]
+      [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ]
     ] ],
     [ "Gcc", "namespace_gcc.html", [
       [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
@@ -710,8 +710,9 @@ var annotated_dup =
       [ "Vector4", "struct_mathf_1_1_vector4.html", "struct_mathf_1_1_vector4" ]
     ] ],
     [ "MemDb", "namespace_mem_db.html", [
-      [ "AttributeDescription", "class_mem_db_1_1_attribute_description.html", "class_mem_db_1_1_attribute_description" ],
+      [ "Attribute", "class_mem_db_1_1_attribute.html", "class_mem_db_1_1_attribute" ],
       [ "AttributeId", "struct_mem_db_1_1_attribute_id.html", null ],
+      [ "AttributeRegistry", "class_mem_db_1_1_attribute_registry.html", "class_mem_db_1_1_attribute_registry" ],
       [ "ColumnIndex", "struct_mem_db_1_1_column_index.html", null ],
       [ "Database", "class_mem_db_1_1_database.html", "class_mem_db_1_1_database" ],
       [ "Dataset", "struct_mem_db_1_1_dataset.html", "struct_mem_db_1_1_dataset" ],
@@ -720,8 +721,7 @@ var annotated_dup =
       [ "Table", "class_mem_db_1_1_table.html", "class_mem_db_1_1_table" ],
       [ "TableCreateInfo", "struct_mem_db_1_1_table_create_info.html", "struct_mem_db_1_1_table_create_info" ],
       [ "TableId", "struct_mem_db_1_1_table_id.html", null ],
-      [ "TableSignature", "class_mem_db_1_1_table_signature.html", "class_mem_db_1_1_table_signature" ],
-      [ "TypeRegistry", "class_mem_db_1_1_type_registry.html", "class_mem_db_1_1_type_registry" ]
+      [ "TableSignature", "class_mem_db_1_1_table_signature.html", "class_mem_db_1_1_table_signature" ]
     ] ],
     [ "Memory", "namespace_memory.html", [
       [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html", "class_memory_1_1_arena_allocator" ],
@@ -1149,6 +1149,7 @@ var annotated_dup =
     [ "FileWatcher", "class_linux_1_1_file_watcher.html", null ],
     [ "FileWatcher", "class_win32_1_1_file_watcher.html", null ],
     [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
+    [ "FrameBuilder", "class_game_1_1_frame_builder.html", null ],
     [ "FSWrapper", "class_i_o_1_1_f_s_wrapper.html", null ],
     [ "GameContentServer", "class_i_o_1_1_game_content_server.html", null ],
     [ "GamePad", "class_input_1_1_game_pad.html", null ],

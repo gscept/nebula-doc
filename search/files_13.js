@@ -63,7 +63,5 @@ var searchData=
   ['trivialarray_2eh_60',['trivialarray.h',['../trivialarray_8h.html',1,'']]],
   ['tupleutility_2eh_61',['tupleutility.h',['../tupleutility_8h.html',1,'']]],
   ['typepunning_2eh_62',['typepunning.h',['../typepunning_8h.html',1,'']]],
-  ['typeregistry_2ecc_63',['typeregistry.cc',['../typeregistry_8cc.html',1,'']]],
-  ['typeregistry_2eh_64',['typeregistry.h',['../typeregistry_8h.html',1,'']]],
-  ['types_2eh_65',['types.h',['../types_8h.html',1,'']]]
+  ['types_2eh_63',['types.h',['../types_8h.html',1,'']]]
 ];

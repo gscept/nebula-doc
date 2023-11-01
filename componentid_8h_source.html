@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.9.8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: /github/workspace/code/addons/memdb/componentid.h Source File</title>
+		<title>Nebula: /github/workspace/code/application/game/componentid.h Source File</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -100,27 +100,27 @@ $(document).ready(function(){initNavTree('componentid_8h_source.html',''); initR
 <div class="contents">
 <a href="componentid_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="ids_2id_8h.html">ids/id.h</a>&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_mem_db.html">MemDb</a></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_mem_db_1_1_attribute_id.html">   19</a></span><a class="code hl_define" href="ids_2id_8h.html#a32443a9b8baee9883348a631cf5c2f37">ID_16_TYPE</a>(<a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a>);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>} <span class="comment">// namespace MemDb</span></div>
-<div class="ttc" id="aids_2id_8h_html"><div class="ttname"><a href="ids_2id_8h.html">id.h</a></div></div>
-<div class="ttc" id="aids_2id_8h_html_a32443a9b8baee9883348a631cf5c2f37"><div class="ttname"><a href="ids_2id_8h.html#a32443a9b8baee9883348a631cf5c2f37">ID_16_TYPE</a></div><div class="ttdeci">#define ID_16_TYPE(x)</div><div class="ttdef"><b>Definition</b> id.h:31</div></div>
-<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">AttributeDescription.</div><div class="ttdef"><b>Definition</b> componentdescription.h:26</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_attribute_id_html"><div class="ttname"><a href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a></div><div class="ttdef"><b>Definition</b> componentid.h:19</div></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="attributeid_8h.html">memdb/attributeid.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_game.html">Game</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">   15</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a> <a class="code hl_typedef" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>} <span class="comment">// namespace Game</span></div>
+<div class="ttc" id="aattributeid_8h_html"><div class="ttname"><a href="attributeid_8h.html">attributeid.h</a></div></div>
+<div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition</b> blueprintmanager.cc:15</div></div>
+<div class="ttc" id="anamespace_game_html_a0c9c4162a88a58417e2ba2b2762ac0e8"><div class="ttname"><a href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></div><div class="ttdeci">MemDb::AttributeId ComponentId</div><div class="ttdef"><b>Definition</b> componentid.h:15</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_attribute_id_html"><div class="ttname"><a href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a></div><div class="ttdef"><b>Definition</b> attributeid.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="componentid_8h.html">componentid.h</a></li>
+				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="componentid_8h.html">componentid.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

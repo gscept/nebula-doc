@@ -91,25 +91,54 @@ $(document).ready(function(){initNavTree('component_8h.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">component.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file </dd></dl>
+</div><div class="textblock"><code>#include &quot;<a class="el" href="attributeregistry_8h_source.html">memdb/attributeregistry.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentid_8h_source.html">game/componentid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="application_2game_2entity_8h_source.html">game/entity.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentserialization_8h_source.html">game/componentserialization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentinspection_8h_source.html">game/componentinspection.h</a>&quot;</code><br />
 </div>
 <p><a href="component_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_decay_buffer.html">Game::ComponentDecayBuffer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data for components flagged with COMPONENTFLAG_DECAY, that has been deleted this frame.  <a href="struct_game_1_1_component_decay_buffer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_register_info.html">Game::ComponentRegisterInfo&lt; COMPONENT_TYPE &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for registering component types to the game world.  <a href="struct_game_1_1_component_register_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_game" id="r_namespace_game"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html">Game</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a0c9c4162a88a58417e2ba2b2762ac0e8" id="r_a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td></tr>
-<tr class="separator:a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a12df08b00c2d67525335dd5c5553849d" id="r_a12df08b00c2d67525335dd5c5553849d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">Game::ComponentFlags</a> : uint32_t { <a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">Game::COMPONENTFLAG_NONE</a> = 0
+, <a class="el" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">Game::COMPONENTFLAG_DECAY</a> = 1 &lt;&lt; 0
+ }</td></tr>
+<tr class="memdesc:a12df08b00c2d67525335dd5c5553849d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies special behaviour for a components.  <a href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">More...</a><br /></td></tr>
+<tr class="separator:a12df08b00c2d67525335dd5c5553849d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af143290fef799ba8303e01c658cb54e8" id="r_af143290fef799ba8303e01c658cb54e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">Game::GetComponentId</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
+<tr class="memdesc:af143290fef799ba8303e01c658cb54e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id.  <br /></td></tr>
+<tr class="separator:af143290fef799ba8303e01c658cb54e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b" id="r_a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT &gt; </td></tr>
+<tr class="memitem:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">Game::GetComponentId</a> ()</td></tr>
+<tr class="memdesc:a7dfc27dc96611f0c398ea8328415dd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a component id, based on template type.  <br /></td></tr>
+<tr class="separator:a7dfc27dc96611f0c398ea8328415dd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -118,7 +147,7 @@ Typedefs</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="component_8h.html">component.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af9c37f27dfbfe80b8e32bd49a0f3fd57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean table. Does not deallocate anything; just sets the size of the table to zero.  <br /></td></tr>
 <tr class="separator:af9c37f27dfbfe80b8e32bd49a0f3fd57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0739b22bf93dd0b39eed5aa4118156c7" id="r_a0739b22bf93dd0b39eed5aa4118156c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a0739b22bf93dd0b39eed5aa4118156c7">Reset</a> ()</td></tr>
-<tr class="memdesc:a0739b22bf93dd0b39eed5aa4118156c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset table. Deallocated all data.  <br /></td></tr>
+<tr class="memdesc:a0739b22bf93dd0b39eed5aa4118156c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset table. Deallocate all data.  <br /></td></tr>
 <tr class="separator:a0739b22bf93dd0b39eed5aa4118156c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9151bfce15ab8b1a23af9d01d8a33287" id="r_a9151bfce15ab8b1a23af9d01d8a33287"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a9151bfce15ab8b1a23af9d01d8a33287">GetFirstActivePartition</a> ()</td></tr>
 <tr class="memdesc:a9151bfce15ab8b1a23af9d01d8a33287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get first active partition with entities.  <br /></td></tr>
@@ -179,9 +179,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a26ba1ad2914140ddf054ba414c872bd2" id="r_a26ba1ad2914140ddf054ba414c872bd2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#a26ba1ad2914140ddf054ba414c872bd2">MigrateInstance</a> (<a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;src, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> srcRow, <a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;dst, bool defragment=true, std::function&lt; void(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;moveCallback=nullptr)</td></tr>
-<tr class="memdesc:a26ba1ad2914140ddf054ba414c872bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">move instance from one table to another.  <br /></td></tr>
-<tr class="separator:a26ba1ad2914140ddf054ba414c872bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea44784ded5ffd2bb8291298b0b86bc2" id="r_aea44784ded5ffd2bb8291298b0b86bc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#aea44784ded5ffd2bb8291298b0b86bc2">MigrateInstance</a> (<a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;src, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> srcRow, <a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;dst, bool defragment=true, std::function&lt; void(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>)&gt; const &amp;moveCallback=nullptr)</td></tr>
+<tr class="memdesc:aea44784ded5ffd2bb8291298b0b86bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">move instance from one table to another.  <br /></td></tr>
+<tr class="separator:aea44784ded5ffd2bb8291298b0b86bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca3eeab660540d1936403a6e8be0dac9" id="r_aca3eeab660540d1936403a6e8be0dac9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table.html#aca3eeab660540d1936403a6e8be0dac9">DuplicateInstance</a> (<a class="el" href="class_mem_db_1_1_table.html">Table</a> const &amp;src, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a> srcRow, <a class="el" href="class_mem_db_1_1_table.html">Table</a> &amp;dst)</td></tr>
 <tr class="memdesc:aca3eeab660540d1936403a6e8be0dac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate instance from one row into destination table.  <br /></td></tr>
 <tr class="separator:aca3eeab660540d1936403a6e8be0dac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -801,8 +801,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a26ba1ad2914140ddf054ba414c872bd2" name="a26ba1ad2914140ddf054ba414c872bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26ba1ad2914140ddf054ba414c872bd2">&#9670;&#160;</a></span>MigrateInstance()</h2>
+<a id="aea44784ded5ffd2bb8291298b0b86bc2" name="aea44784ded5ffd2bb8291298b0b86bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea44784ded5ffd2bb8291298b0b86bc2">&#9670;&#160;</a></span>MigrateInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -837,7 +837,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; const &amp;&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a> *, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>, <a class="el" href="struct_mem_db_1_1_row_id.html">RowId</a>)&gt; const &amp;&#160;</td>
           <td class="paramname"><em>moveCallback</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -981,7 +981,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reset table. Deallocated all data. </p>
+<p>Reset table. Deallocate all data. </p>
 
 </div>
 </div>
@@ -1382,7 +1382,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table.html">Table</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

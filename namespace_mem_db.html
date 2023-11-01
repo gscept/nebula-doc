@@ -98,26 +98,28 @@ $(document).ready(function(){initNavTree('namespace_mem_db.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a>. </p>
-<p><a class="el" href="class_mem_db_1_1_type_registry.html">MemDb::TypeRegistry</a>.</p>
+<div class="textblock"><p><a class="el" href="class_mem_db_1_1_attribute.html">Attribute</a>. </p>
 <p><a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>.</p>
+<p><a class="el" href="class_mem_db_1_1_attribute_registry.html">MemDb::AttributeRegistry</a>.</p>
 <p>MemDb::ComponentId.</p>
 <p>Describes an attributes's type and default value. The attributes type can be omitted by registering it with a size of zero bytes. This essentially means the attribute is only used when querying the database This information is used to allocate the table columns.</p>
 <dl class="section note"><dt>Note</dt><dd>This is mostly just used internally by the database and typeregistry, so you most likely won't need to care about this class in normal use-cases.</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
 <p>A component descriptor.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="typeregistry_8h.html">memdb/typeregistry.h</a></dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
-<p>In-memory, minimally (memory) fragmented, non-relational database.</p>
+<dl class="section see"><dt>See also</dt><dd>memdb/typeregistry.h</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd>
 <dd>
-(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
+(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
+<p>In-memory, minimally (memory) fragmented, non-relational database.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute.html">Attribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute_registry.html">AttributeRegistry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mem_db_1_1_column_index.html">ColumnIndex</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">column id  <a href="struct_mem_db_1_1_column_index.html#details">More...</a><br /></td></tr>
@@ -142,21 +144,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_signature.html">TableSignature</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basically a bitfield with packed ComponentIds.  <a href="class_mem_db_1_1_table_signature.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_type_registry.html">TypeRegistry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6ee2e2e216e6dfa800474fc5e11d9761" id="r_a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761">__ImplementClass</a> (<a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>, 'MmDb', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
-<tr class="separator:a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fba23ad56ce562a1c62710e6de1fa5e" id="r_a3fba23ad56ce562a1c62710e6de1fa5e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a3fba23ad56ce562a1c62710e6de1fa5e">AllocateBuffer</a> (<a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a> *desc, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> capacity, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numRows)</td></tr>
-<tr class="separator:a3fba23ad56ce562a1c62710e6de1fa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e5d3b331773ce3cc5ea2d7b40fcfb2a" id="r_a7e5d3b331773ce3cc5ea2d7b40fcfb2a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a7e5d3b331773ce3cc5ea2d7b40fcfb2a">GenerateNewAttributeId</a> ()</td></tr>
 <tr class="memdesc:a7e5d3b331773ce3cc5ea2d7b40fcfb2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use.  <br /></td></tr>
 <tr class="separator:a7e5d3b331773ce3cc5ea2d7b40fcfb2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb59e3017d21c6bb374d949e615c71b3" id="r_aeb59e3017d21c6bb374d949e615c71b3"><td class="memTemplParams" colspan="2">template&lt;typename ATTRIBUTE &gt; </td></tr>
 <tr class="memitem:aeb59e3017d21c6bb374d949e615c71b3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#aeb59e3017d21c6bb374d949e615c71b3">GetAttributeId</a> ()</td></tr>
 <tr class="separator:aeb59e3017d21c6bb374d949e615c71b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee2e2e216e6dfa800474fc5e11d9761" id="r_a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761">__ImplementClass</a> (<a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a>, 'MmDb', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
+<tr class="separator:a6ee2e2e216e6dfa800474fc5e11d9761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2480daefd34a5a2dfe399d32f8dc78" id="r_a1c2480daefd34a5a2dfe399d32f8dc78"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_mem_db.html#a1c2480daefd34a5a2dfe399d32f8dc78">AllocateBuffer</a> (<a class="el" href="class_mem_db_1_1_attribute.html">Attribute</a> *desc, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> capacity, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numRows)</td></tr>
+<tr class="separator:a1c2480daefd34a5a2dfe399d32f8dc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -198,8 +198,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3fba23ad56ce562a1c62710e6de1fa5e" name="a3fba23ad56ce562a1c62710e6de1fa5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fba23ad56ce562a1c62710e6de1fa5e">&#9670;&#160;</a></span>AllocateBuffer()</h2>
+<a id="a1c2480daefd34a5a2dfe399d32f8dc78" name="a1c2480daefd34a5a2dfe399d32f8dc78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2480daefd34a5a2dfe399d32f8dc78">&#9670;&#160;</a></span>AllocateBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +207,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void * MemDb::AllocateBuffer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_mem_db_1_1_attribute_description.html">AttributeDescription</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_mem_db_1_1_attribute.html">Attribute</a> *&#160;</td>
           <td class="paramname"><em>desc</em>, </td>
         </tr>
         <tr>
@@ -302,7 +302,7 @@ template&lt;typename ATTRIBUTE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

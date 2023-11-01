@@ -1,6 +1,6 @@
 var struct_mem_db_1_1_table_create_info =
 [
-    [ "components", "struct_mem_db_1_1_table_create_info.html#a25b0625de3cd1201ca115440afbf706f", null ],
+    [ "attributeIds", "struct_mem_db_1_1_table_create_info.html#a0fec5edadf67da343e8940ce2de7eb03", null ],
     [ "name", "struct_mem_db_1_1_table_create_info.html#a1a93b42112b37f79247ea1cdefb4427d", null ],
-    [ "numComponents", "struct_mem_db_1_1_table_create_info.html#ab33312deee311d95db6fe3a71e9f0744", null ]
+    [ "numAttributes", "struct_mem_db_1_1_table_create_info.html#a085088a8cc1f70d4ed6b48712110059e", null ]
 ];

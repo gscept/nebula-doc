@@ -102,12 +102,14 @@ $(document).ready(function(){initNavTree('struct_game_1_1_dataset.html',''); ini
 <p><code>#include &lt;<a class="el" href="application_2game_2dataset_8h_source.html">dataset.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A dataset that contains views into category tables. </p>
-<p>These are created by querying the world database. </p>
+<p>Contains the results of a query made via a <a class="el" href="class_game_1_1_world.html">Game::World</a>.</p>
+<p>These are created by querying the world database.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">EntityTableView</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a view into a category table  <a href="struct_game_1_1_dataset_1_1_entity_table_view.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset_1_1_view.html">View</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This represents a "view" into an entity table.  <a href="struct_game_1_1_dataset_1_1_view.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -115,9 +117,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9f3192f8b89db1fe4a8d085d023de690" id="r_a9f3192f8b89db1fe4a8d085d023de690"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset.html#a9f3192f8b89db1fe4a8d085d023de690">numViews</a> = 0</td></tr>
 <tr class="memdesc:a9f3192f8b89db1fe4a8d085d023de690"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of views in views array  <br /></td></tr>
 <tr class="separator:a9f3192f8b89db1fe4a8d085d023de690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfafe2caa6e1b2c3f5511b2f748b9d36" id="r_adfafe2caa6e1b2c3f5511b2f748b9d36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">EntityTableView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset.html#adfafe2caa6e1b2c3f5511b2f748b9d36">views</a> = nullptr</td></tr>
-<tr class="memdesc:adfafe2caa6e1b2c3f5511b2f748b9d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">views into the tables  <br /></td></tr>
-<tr class="separator:adfafe2caa6e1b2c3f5511b2f748b9d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b8a3eff69a59f381960e9078287e2c" id="r_af9b8a3eff69a59f381960e9078287e2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset_1_1_view.html">View</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset.html#af9b8a3eff69a59f381960e9078287e2c">views</a> = nullptr</td></tr>
+<tr class="memdesc:af9b8a3eff69a59f381960e9078287e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">views into the tables  <br /></td></tr>
+<tr class="separator:af9b8a3eff69a59f381960e9078287e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -163,14 +165,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adfafe2caa6e1b2c3f5511b2f748b9d36" name="adfafe2caa6e1b2c3f5511b2f748b9d36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfafe2caa6e1b2c3f5511b2f748b9d36">&#9670;&#160;</a></span>views</h2>
+<a id="af9b8a3eff69a59f381960e9078287e2c" name="af9b8a3eff69a59f381960e9078287e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b8a3eff69a59f381960e9078287e2c">&#9670;&#160;</a></span>views</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_game_1_1_dataset_1_1_entity_table_view.html">EntityTableView</a>* Game::Dataset::views = nullptr</td>
+          <td class="memname"><a class="el" href="struct_game_1_1_dataset_1_1_view.html">View</a>* Game::Dataset::views = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -189,7 +191,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

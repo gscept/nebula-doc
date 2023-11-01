@@ -36,7 +36,7 @@ var searchData=
   ['vertexlayoutinfo_33',['VertexLayoutInfo',['../struct_core_graphics_1_1_vertex_layout_info.html',1,'CoreGraphics']]],
   ['vertexlayoutvkbindinfo_34',['VertexLayoutVkBindInfo',['../struct_vulkan_1_1_vertex_layout_vk_bind_info.html',1,'Vulkan']]],
   ['vertexstream_35',['VertexStream',['../struct_core_graphics_1_1_vertex_stream.html',1,'CoreGraphics']]],
-  ['view_36',['view',['../class_graphics_1_1_view.html',1,'Graphics::View'],['../struct_mem_db_1_1_dataset_1_1_view.html',1,'MemDb::Dataset::View']]],
+  ['view_36',['view',['../struct_game_1_1_dataset_1_1_view.html',1,'Game::Dataset::View'],['../class_graphics_1_1_view.html',1,'Graphics::View'],['../struct_mem_db_1_1_dataset_1_1_view.html',1,'MemDb::Dataset::View']]],
   ['viewdata_37',['ViewData',['../struct_graphics_feature_1_1_camera_manager_1_1_view_data.html',1,'GraphicsFeature::CameraManager']]],
   ['viewerapplication_38',['ViewerApplication',['../class_app_1_1_viewer_application.html',1,'App']]],
   ['viewportbundle_39',['ViewportBundle',['../struct_vulkan_1_1_viewport_bundle.html',1,'Vulkan']]],

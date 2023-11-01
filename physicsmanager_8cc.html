@@ -105,16 +105,10 @@ $(document).ready(function(){initNavTree('physicsmanager_8cc.html',''); initResi
 <code>#include &quot;components/physicsfeature.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsfeatureunit_8h_source.html">graphicsfeature/graphicsfeatureunit.h</a>&quot;</code><br />
 <code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
-<code>#include &quot;pjson/pjson.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="jsonreader_8h_source.html">io/jsonreader.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_physics_feature" id="r_namespace_physics_feature"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html">PhysicsFeature</a></td></tr>
-<tr class="memdesc:namespace_physics_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">All entities get IsActive flag at beginning of frame Full partition migration from one table to the one that has the flag. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_i_o" id="r_namespace_i_o"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_o.html">IO</a></td></tr>
-<tr class="memdesc:namespace_i_o"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances of wrapped stream classes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -125,18 +119,6 @@ Functions</h2></td></tr>
 <tr class="separator:ac8d1c3202e0e8867d0e96b08f8c5188e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a199fa71684584bb1d82732a6b75f7214" id="r_a199fa71684584bb1d82732a6b75f7214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics_feature.html#a199fa71684584bb1d82732a6b75f7214">PhysicsFeature::PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, Game::Transform const &amp;transform, PhysicsFeature::PhysicsActor &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
 <tr class="separator:a199fa71684584bb1d82732a6b75f7214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35739b15343f9119df4580b4504eba97" id="r_a35739b15343f9119df4580b4504eba97"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a35739b15343f9119df4580b4504eba97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a35739b15343f9119df4580b4504eba97">IO::JsonReader::Get&lt; Physics::ActorType &gt;</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> &amp;ret, char const *attr)</td></tr>
-<tr class="separator:a35739b15343f9119df4580b4504eba97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab17f0915cc26f37c426b3227199bf4f1" id="r_ab17f0915cc26f37c426b3227199bf4f1"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ab17f0915cc26f37c426b3227199bf4f1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#ab17f0915cc26f37c426b3227199bf4f1">IO::JsonWriter::Add&lt; Physics::ActorType &gt;</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> const &amp;t, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
-<tr class="separator:ab17f0915cc26f37c426b3227199bf4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32433d7c318519215565ddf98be7adfe" id="r_a32433d7c318519215565ddf98be7adfe"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a32433d7c318519215565ddf98be7adfe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a32433d7c318519215565ddf98be7adfe">IO::JsonReader::Get&lt; Physics::ActorId &gt;</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> &amp;ret, char const *attr)</td></tr>
-<tr class="separator:a32433d7c318519215565ddf98be7adfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a187502a5699069a989bd0bebb42c1761" id="r_a187502a5699069a989bd0bebb42c1761"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a187502a5699069a989bd0bebb42c1761"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_o.html#a187502a5699069a989bd0bebb42c1761">IO::JsonWriter::Add&lt; Physics::ActorId &gt;</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> const &amp;id, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
-<tr class="separator:a187502a5699069a989bd0bebb42c1761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -145,7 +127,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_29fdd24923ca0d7c16ea156936fdc52c.html">physicsfeature</a></li><li class="navelem"><a class="el" href="dir_23d47f5710a37c83e76dba8a0b2a845d.html">managers</a></li><li class="navelem"><a class="el" href="physicsmanager_8cc.html">physicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

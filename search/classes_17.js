@@ -19,11 +19,11 @@ var searchData=
   ['win32library_16',['Win32Library',['../class_win32_1_1_win32_library.html',1,'Win32']]],
   ['win32memorypool_17',['Win32MemoryPool',['../class_win32_1_1_win32_memory_pool.html',1,'Win32']]],
   ['win32minidump_18',['Win32MiniDump',['../class_win32_1_1_win32_mini_dump.html',1,'Win32']]],
-  ['win32process_19',['win32process',['../class_win32_1_1_win32_process.html',1,'Win32::Win32Process'],['../class_toolkit_util_1_1_win32_process.html',1,'Win32Process']]],
+  ['win32process_19',['win32process',['../class_toolkit_util_1_1_win32_process.html',1,'Win32Process'],['../class_win32_1_1_win32_process.html',1,'Win32::Win32Process']]],
   ['win32readwritelock_20',['Win32ReadWriteLock',['../class_win32_1_1_win32_read_write_lock.html',1,'Win32']]],
   ['win32registry_21',['Win32Registry',['../class_win32_1_1_win32_registry.html',1,'Win32']]],
   ['win32socket_22',['Win32Socket',['../class_win32_1_1_win32_socket.html',1,'Win32']]],
-  ['win32stacktrace_23',['win32stacktrace',['../class_win32_1_1_win32_stacktrace.html',1,'Win32Stacktrace'],['../class_win32_1_1_win32_stack_trace.html',1,'Win32::Win32StackTrace']]],
+  ['win32stacktrace_23',['win32stacktrace',['../class_win32_1_1_win32_stack_trace.html',1,'Win32::Win32StackTrace'],['../class_win32_1_1_win32_stacktrace.html',1,'Win32Stacktrace']]],
   ['win32stringconverter_24',['Win32StringConverter',['../class_win32_1_1_win32_string_converter.html',1,'Win32']]],
   ['win32systeminfo_25',['Win32SystemInfo',['../class_win32_1_1_win32_system_info.html',1,'Win32']]],
   ['win32thread_26',['Win32Thread',['../class_win32_1_1_win32_thread.html',1,'Win32']]],
@@ -33,8 +33,7 @@ var searchData=
   ['windowid_30',['WindowId',['../struct_core_graphics_1_1_window_id.html',1,'CoreGraphics']]],
   ['winthreadid_31',['WinThreadId',['../class_win32_1_1_win_thread_id.html',1,'']]],
   ['world_32',['world',['../class_game_1_1_world.html',1,'Game::World'],['../class_nebula_1_1_game_1_1_world.html',1,'Nebula.Game.World']]],
-  ['worldcreateinfo_33',['WorldCreateInfo',['../struct_game_1_1_world_create_info.html',1,'Game']]],
-  ['writeinfo_34',['WriteInfo',['../struct_vulkan_1_1_write_info.html',1,'Vulkan']]],
-  ['writer_35',['Writer',['../class_db_1_1_writer.html',1,'Db']]],
-  ['writestream_36',['WriteStream',['../class_i_o_1_1_write_stream.html',1,'IO']]]
+  ['writeinfo_33',['WriteInfo',['../struct_vulkan_1_1_write_info.html',1,'Vulkan']]],
+  ['writer_34',['Writer',['../class_db_1_1_writer.html',1,'Db']]],
+  ['writestream_35',['WriteStream',['../class_i_o_1_1_write_stream.html',1,'IO']]]
 ];

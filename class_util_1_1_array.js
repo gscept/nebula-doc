@@ -73,6 +73,8 @@ var class_util_1_1_array =
     [ "PopBack", "class_util_1_1_array.html#af381e11cf9ec5f197ab02f583c5c3573", null ],
     [ "PopFront", "class_util_1_1_array.html#a9d23d66993725f282c44c68ae3b1cdca", null ],
     [ "push_back", "class_util_1_1_array.html#ac05210d1a44ca93f06f1a070ece77dfc", null ],
+    [ "QuickSort", "class_util_1_1_array.html#a62ee8fd97c1f21c66a70825deef22c6b", null ],
+    [ "QuickSortWithFunc", "class_util_1_1_array.html#ae158c93fbf3ec7525c25aa406c9536d0", null ],
     [ "Realloc", "class_util_1_1_array.html#a8d80dd817d50ad7193a10754cfea59c3", null ],
     [ "Reserve", "class_util_1_1_array.html#a17951e57470f74b738be4d2e48a4db33", null ],
     [ "Reset", "class_util_1_1_array.html#a88dd82819335e2faf3b087b67c28021c", null ],

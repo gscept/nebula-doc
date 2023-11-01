@@ -23,7 +23,7 @@ var class_mem_db_1_1_table =
     [ "GetSignature", "class_mem_db_1_1_table.html#ae615d59740378f4d84ed2220189c7348", null ],
     [ "GetValuePointer", "class_mem_db_1_1_table.html#ad4cd85ee05c596153882c63b1edb060d", null ],
     [ "HasAttribute", "class_mem_db_1_1_table.html#a33876051d3b1c64c6cd7a6ef589607e3", null ],
-    [ "MigrateInstance", "class_mem_db_1_1_table.html#a26ba1ad2914140ddf054ba414c872bd2", null ],
+    [ "MigrateInstance", "class_mem_db_1_1_table.html#aea44784ded5ffd2bb8291298b0b86bc2", null ],
     [ "MigrateInstances", "class_mem_db_1_1_table.html#ad2ed07ef940b3d43a7fefc8911addc78", null ],
     [ "NewPartition", "class_mem_db_1_1_table.html#af9e1e9f063bf9c21b738587c1fd46f4b", null ],
     [ "RemoveRow", "class_mem_db_1_1_table.html#a1b910bf6533c9b7afbb353a283a8fc2d", null ],

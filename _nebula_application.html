@@ -156,12 +156,12 @@ Properties</h2>
 <p>Properties are the main way to describe an entity's state. <br  />
 Properties are usually declared and defined via .nidl files (<a class="el" href="namespace_nebula.html">Nebula</a> intermediate definition language) and compiled into C++ code via an IDL compiler. <br  />
 All properties must be <a href="http://www.cplusplus.com/reference/type_traits/is_trivially_destructible/">trivially destructible</a> and <a href="http://www.cplusplus.com/reference/type_traits/is_trivially_copyable/">trivially copyable</a>. Note that it can still define a constructor or have initilizers in the declaration. The NIDL specification can be found here: <a class="el" href="_nebula_i_d_l.html">Nebula IDL</a> <br  />
- Properties can also be created explicitly via the <a class="el" href="api_8h.html">Game API's</a> CreateProperty function or the <a class="el" href="class_mem_db_1_1_type_registry.html#a03b4042b5801bef018c450cf0115f7d6" title="register a type (templated)">MemDb::TypeRegistry::Register</a> (typesafe) function. When explicitly creating a property, you can choose to flag the property with various flags. These flags can for example alter the lifetime of the property, allowing certain managers to clean up external resources before an entity is fully destroyed.</p>
+ Properties can also be created explicitly via the <a class="el" href="api_8h.html">Game API's</a> CreateProperty function or the MemDb::TypeRegistry::Register (typesafe) function. When explicitly creating a property, you can choose to flag the property with various flags. These flags can for example alter the lifetime of the property, allowing certain managers to clean up external resources before an entity is fully destroyed.</p>
 <dl class="section see"><dt>See also</dt><dd>Game::PropertyCreateInfo </dd>
 <dd>
 Game::PropertyFlags </dd>
 <dd>
-<a class="el" href="class_mem_db_1_1_type_registry.html#a03b4042b5801bef018c450cf0115f7d6" title="register a type (templated)">MemDb::TypeRegistry::Register</a></dd></dl>
+MemDb::TypeRegistry::Register</dd></dl>
 <h2><a class="anchor" id="NebulaApplicationGameManagers"></a>
 Game Managers</h2>
 <p>Managers are defined via a simple function API. They are meant to care about "specific global stuff" and should be defined by applications to implement globals aspects of the application (mainly global game play related). Managers should be created and triggered by <a class="el" href="class_game_1_1_feature_unit.html">game features</a>. Their frame event functions are invoked when the gameserver triggers the game feature.</p>
@@ -188,7 +188,7 @@ See also</h2>
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

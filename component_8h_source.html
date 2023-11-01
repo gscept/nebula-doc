@@ -101,15 +101,110 @@ $(document).ready(function(){initNavTree('component_8h_source.html',''); initRes
 <a href="component_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_game.html">Game</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">   13</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a> <a class="code hl_typedef" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>} <span class="comment">// namespace Game</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="attributeregistry_8h.html">memdb/attributeregistry.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="componentid_8h.html">game/componentid.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="application_2game_2entity_8h.html">game/entity.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="componentserialization_8h.html">game/componentserialization.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="componentinspection_8h.html">game/componentinspection.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_game.html">Game</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>World;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><a class="code hl_typedef" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> <a class="code hl_function" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">GetComponentId</a>(<a class="code hl_class" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> COMPONENT&gt;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><a class="code hl_typedef" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> <a class="code hl_function" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">GetComponentId</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="};">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">   31</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">ComponentFlags</a> : uint32_t</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">   34</a></span>    <a class="code hl_enumvalue" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">COMPONENTFLAG_NONE</a> = 0,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">COMPONENTFLAG_DECAY</a> = 1 &lt;&lt; 0</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">   38</a></span>};</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="};">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_decay_buffer.html">   45</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b">   47</a></span>    uint32_t <a class="code hl_variable" href="struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b">size</a> = 0;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_decay_buffer.html#a4c6078a11f09934718b61f9e5b1b3af5">   48</a></span>    uint32_t <a class="code hl_variable" href="struct_game_1_1_component_decay_buffer.html#a4c6078a11f09934718b61f9e5b1b3af5">capacity</a> = 0;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_decay_buffer.html#a99fd077884c489b0ef59c0207355f090">   49</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="struct_game_1_1_component_decay_buffer.html#a99fd077884c489b0ef59c0207355f090">buffer</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> COMPONENT_TYPE&gt;</div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="};">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_register_info.html">   59</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_register_info.html#af1605ced120af10fc2b91335ca43def0">   61</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="struct_game_1_1_component_register_info.html#af1605ced120af10fc2b91335ca43def0">OnInitFunc</a> = void (*)(<a class="code hl_class" href="class_game_1_1_world.html">Game::World</a>*, <a class="code hl_struct" href="struct_game_1_1_entity.html">Game::Entity</a>, COMPONENT_TYPE*);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_register_info.html#a7e60a51223c2a698274d20fa77d5d4ab">   64</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_game_1_1_component_register_info.html#a7e60a51223c2a698274d20fa77d5d4ab">decay</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33">   66</a></span>    <a class="code hl_typedef" href="struct_game_1_1_component_register_info.html#af1605ced120af10fc2b91335ca43def0">OnInitFunc</a> <a class="code hl_variable" href="struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33">OnInit</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> COMPONENT&gt;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keyword">inline</span> <a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">ComponentId</a></div>
+<div class="foldopen" id="foldopen00080" data-start="{" data-end="}">
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">   80</a></span><a class="code hl_function" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">GetComponentId</a>()</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>{</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#if !PUBLIC_BUILD</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordflow">if</span> (!MemDb::AttributeRegistry::IsRegistered&lt;COMPONENT&gt;())</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <a class="code hl_function" href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a>(</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="stringliteral">&quot;Component &#39;%s&#39; is not registered! Make sure you call Game::RegisterComponent&lt;T&gt;() for all component types before &quot;</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <span class="stringliteral">&quot;using them.&quot;</span>,</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            COMPONENT::Traits::name</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        );</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordflow">return</span> MemDb::GetAttributeId&lt;COMPONENT&gt;();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
+</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keyword">inline</span> <a class="code hl_typedef" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a></div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="namespace_game.html#af143290fef799ba8303e01c658cb54e8">   99</a></span><a class="code hl_function" href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">GetComponentId</a>(<a class="code hl_class" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>{</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#aa65408004cd410f514050308b1b7e07d">MemDb::AttributeRegistry::GetAttributeId</a>(name);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>} <span class="comment">// namespace Game</span></div>
+<div class="ttc" id="aapplication_2game_2entity_8h_html"><div class="ttname"><a href="application_2game_2entity_8h.html">entity.h</a></div></div>
+<div class="ttc" id="aattributeregistry_8h_html"><div class="ttname"><a href="attributeregistry_8h.html">attributeregistry.h</a></div></div>
+<div class="ttc" id="aclass_game_1_1_world_html"><div class="ttname"><a href="class_game_1_1_world.html">Game::World</a></div><div class="ttdef"><b>Definition</b> world.h:42</div></div>
+<div class="ttc" id="aclass_mem_db_1_1_attribute_registry_html_aa65408004cd410f514050308b1b7e07d"><div class="ttname"><a href="class_mem_db_1_1_attribute_registry.html#aa65408004cd410f514050308b1b7e07d">MemDb::AttributeRegistry::GetAttributeId</a></div><div class="ttdeci">static AttributeId GetAttributeId(Util::StringAtom name)</div><div class="ttdoc">get attribute id from name</div><div class="ttdef"><b>Definition</b> attributeregistry.h:208</div></div>
+<div class="ttc" id="aclass_util_1_1_string_atom_html"><div class="ttname"><a href="class_util_1_1_string_atom.html">Util::StringAtom</a></div><div class="ttdoc">A StringAtom.</div><div class="ttdef"><b>Definition</b> stringatom.h:22</div></div>
+<div class="ttc" id="acomponentid_8h_html"><div class="ttname"><a href="componentid_8h.html">componentid.h</a></div></div>
+<div class="ttc" id="acomponentinspection_8h_html"><div class="ttname"><a href="componentinspection_8h.html">componentinspection.h</a></div></div>
+<div class="ttc" id="acomponentserialization_8h_html"><div class="ttname"><a href="componentserialization_8h.html">componentserialization.h</a></div></div>
+<div class="ttc" id="adebug_8cc_html_a83e91a4134b9809e0890140c63387824"><div class="ttname"><a href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a></div><div class="ttdeci">void __cdecl n_error(const char *msg,...)</div><div class="ttdoc">This function is called when a serious situation is encountered which requires abortion of the applic...</div><div class="ttdef"><b>Definition</b> debug.cc:138</div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition</b> blueprintmanager.cc:15</div></div>
-<div class="ttc" id="anamespace_game_html_a0c9c4162a88a58417e2ba2b2762ac0e8"><div class="ttname"><a href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></div><div class="ttdeci">MemDb::AttributeId ComponentId</div><div class="ttdef"><b>Definition</b> component.h:13</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_attribute_id_html"><div class="ttname"><a href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a></div><div class="ttdef"><b>Definition</b> componentid.h:19</div></div>
+<div class="ttc" id="anamespace_game_html_a0c9c4162a88a58417e2ba2b2762ac0e8"><div class="ttname"><a href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></div><div class="ttdeci">MemDb::AttributeId ComponentId</div><div class="ttdef"><b>Definition</b> componentid.h:15</div></div>
+<div class="ttc" id="anamespace_game_html_a12df08b00c2d67525335dd5c5553849d"><div class="ttname"><a href="namespace_game.html#a12df08b00c2d67525335dd5c5553849d">Game::ComponentFlags</a></div><div class="ttdeci">ComponentFlags</div><div class="ttdoc">Specifies special behaviour for a components.</div><div class="ttdef"><b>Definition</b> component.h:32</div></div>
+<div class="ttc" id="anamespace_game_html_a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a"><div class="ttname"><a href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">Game::COMPONENTFLAG_NONE</a></div><div class="ttdeci">@ COMPONENTFLAG_NONE</div><div class="ttdoc">regular component</div><div class="ttdef"><b>Definition</b> component.h:34</div></div>
+<div class="ttc" id="anamespace_game_html_a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f"><div class="ttname"><a href="namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">Game::COMPONENTFLAG_DECAY</a></div><div class="ttdeci">@ COMPONENTFLAG_DECAY</div><div class="ttdoc">Component will decay.</div><div class="ttdef"><b>Definition</b> component.h:37</div></div>
+<div class="ttc" id="anamespace_game_html_a7dfc27dc96611f0c398ea8328415dd6b"><div class="ttname"><a href="namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b">Game::GetComponentId</a></div><div class="ttdeci">ComponentId GetComponentId()</div><div class="ttdoc">Returns a component id, based on template type.</div><div class="ttdef"><b>Definition</b> component.h:80</div></div>
+<div class="ttc" id="astruct_game_1_1_component_decay_buffer_html"><div class="ttname"><a href="struct_game_1_1_component_decay_buffer.html">Game::ComponentDecayBuffer</a></div><div class="ttdoc">Contains data for components flagged with COMPONENTFLAG_DECAY, that has been deleted this frame.</div><div class="ttdef"><b>Definition</b> component.h:46</div></div>
+<div class="ttc" id="astruct_game_1_1_component_decay_buffer_html_a4c6078a11f09934718b61f9e5b1b3af5"><div class="ttname"><a href="struct_game_1_1_component_decay_buffer.html#a4c6078a11f09934718b61f9e5b1b3af5">Game::ComponentDecayBuffer::capacity</a></div><div class="ttdeci">uint32_t capacity</div><div class="ttdef"><b>Definition</b> component.h:48</div></div>
+<div class="ttc" id="astruct_game_1_1_component_decay_buffer_html_a99fd077884c489b0ef59c0207355f090"><div class="ttname"><a href="struct_game_1_1_component_decay_buffer.html#a99fd077884c489b0ef59c0207355f090">Game::ComponentDecayBuffer::buffer</a></div><div class="ttdeci">void * buffer</div><div class="ttdef"><b>Definition</b> component.h:49</div></div>
+<div class="ttc" id="astruct_game_1_1_component_decay_buffer_html_ab23549e9936dc3c729a8a65aae55eb3b"><div class="ttname"><a href="struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b">Game::ComponentDecayBuffer::size</a></div><div class="ttdeci">uint32_t size</div><div class="ttdef"><b>Definition</b> component.h:47</div></div>
+<div class="ttc" id="astruct_game_1_1_component_register_info_html"><div class="ttname"><a href="struct_game_1_1_component_register_info.html">Game::ComponentRegisterInfo</a></div><div class="ttdoc">Used for registering component types to the game world.</div><div class="ttdef"><b>Definition</b> component.h:60</div></div>
+<div class="ttc" id="astruct_game_1_1_component_register_info_html_a187a8efc181e185e09a6309230ac8a33"><div class="ttname"><a href="struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33">Game::ComponentRegisterInfo::OnInit</a></div><div class="ttdeci">OnInitFunc OnInit</div><div class="ttdoc">initialization function to run for the component, or nullptr if not needed.</div><div class="ttdef"><b>Definition</b> component.h:66</div></div>
+<div class="ttc" id="astruct_game_1_1_component_register_info_html_a7e60a51223c2a698274d20fa77d5d4ab"><div class="ttname"><a href="struct_game_1_1_component_register_info.html#a7e60a51223c2a698274d20fa77d5d4ab">Game::ComponentRegisterInfo::decay</a></div><div class="ttdeci">bool decay</div><div class="ttdoc">Set to true if the component should end up in the decay buffer before being completely destroyed.</div><div class="ttdef"><b>Definition</b> component.h:64</div></div>
+<div class="ttc" id="astruct_game_1_1_component_register_info_html_af1605ced120af10fc2b91335ca43def0"><div class="ttname"><a href="struct_game_1_1_component_register_info.html#af1605ced120af10fc2b91335ca43def0">Game::ComponentRegisterInfo::OnInitFunc</a></div><div class="ttdeci">void(*)(Game::World *, Game::Entity, COMPONENT_TYPE *) OnInitFunc</div><div class="ttdef"><b>Definition</b> component.h:61</div></div>
+<div class="ttc" id="astruct_game_1_1_entity_html"><div class="ttname"><a href="struct_game_1_1_entity.html">Game::Entity</a></div><div class="ttdoc">An entity is essentially just an Id with some utility functions attached.</div><div class="ttdef"><b>Definition</b> entity.h:31</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_attribute_id_html"><div class="ttname"><a href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a></div><div class="ttdef"><b>Definition</b> attributeid.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -117,7 +212,7 @@ $(document).ready(function(){initNavTree('component_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="component_8h.html">component.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

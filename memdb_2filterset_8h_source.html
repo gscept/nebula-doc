@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('memdb_2filterset_8h_source.html',''); 
 <a href="memdb_2filterset_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="componentid_8h.html">componentid.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="attributeid_8h.html">attributeid.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_mem_db.html">MemDb</a></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
@@ -202,6 +202,7 @@ $(document).ready(function(){initNavTree('memdb_2filterset_8h_source.html',''); 
 </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>} <span class="comment">// namespace MemDb</span></div>
+<div class="ttc" id="aattributeid_8h_html"><div class="ttname"><a href="attributeid_8h.html">attributeid.h</a></div></div>
 <div class="ttc" id="aclass_mem_db_1_1_filter_set_html"><div class="ttname"><a href="class_mem_db_1_1_filter_set.html">MemDb::FilterSet</a></div><div class="ttdef"><b>Definition</b> filterset.h:20</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_filter_set_html_a3e2f08871a76e69407737d1f9113796c"><div class="ttname"><a href="class_mem_db_1_1_filter_set.html#a3e2f08871a76e69407737d1f9113796c">MemDb::FilterSet::exclusive</a></div><div class="ttdeci">TableSignature exclusive</div><div class="ttdoc">categories must NOT contain any components in this array</div><div class="ttdef"><b>Definition</b> filterset.h:44</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_filter_set_html_a50543ef756c0beb2b46f8651d1c24e86"><div class="ttname"><a href="class_mem_db_1_1_filter_set.html#a50543ef756c0beb2b46f8651d1c24e86">MemDb::FilterSet::inclusiveComponents</a></div><div class="ttdeci">Util::FixedArray&lt; AttributeId &gt; inclusiveComponents</div><div class="ttdoc">components that are in the inclusive set</div><div class="ttdef"><b>Definition</b> filterset.h:46</div></div>
@@ -212,8 +213,7 @@ $(document).ready(function(){initNavTree('memdb_2filterset_8h_source.html',''); 
 <div class="ttc" id="aclass_mem_db_1_1_filter_set_html_add05b3725072c887f03df21c31367f89"><div class="ttname"><a href="class_mem_db_1_1_filter_set.html#add05b3725072c887f03df21c31367f89">MemDb::FilterSet::FilterSet</a></div><div class="ttdeci">FilterSet()=default</div><div class="ttdoc">default constructor</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_table_signature_html"><div class="ttname"><a href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a></div><div class="ttdoc">Basically a bitfield with packed ComponentIds.</div><div class="ttdef"><b>Definition</b> tablesignature.h:26</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition</b> fixedarray.h:20</div></div>
-<div class="ttc" id="acomponentid_8h_html"><div class="ttname"><a href="componentid_8h.html">componentid.h</a></div></div>
-<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">AttributeDescription.</div><div class="ttdef"><b>Definition</b> componentdescription.h:26</div></div>
+<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">Attribute.</div><div class="ttdef"><b>Definition</b> attribute.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -221,7 +221,7 @@ $(document).ready(function(){initNavTree('memdb_2filterset_8h_source.html',''); 
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="memdb_2filterset_8h.html">filterset.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

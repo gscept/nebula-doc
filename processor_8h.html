@@ -92,23 +92,21 @@ $(document).ready(function(){initNavTree('processor_8h.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">processor.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file </dd></dl>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="world_8h_source.html">world.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filter_8h_source.html">filter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="processorid_8h_source.html">processorid.h</a>&quot;</code><br />
 </div>
 <p><a href="processor_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_processor_create_info.html">Game::ProcessorCreateInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_processor.html">Game::Processor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_processor_builder.html">Game::ProcessorBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,24 +115,6 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_game" id="r_namespace_game"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html">Game</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a74b0ad357b08d17f221b65b804193303" id="r_a74b0ad357b08d17f221b65b804193303"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">Game::ProcessorHandle</a></td></tr>
-<tr class="memdesc:a74b0ad357b08d17f221b65b804193303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque processor handle.  <br /></td></tr>
-<tr class="separator:a74b0ad357b08d17f221b65b804193303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3ee48ba7e537489b84b4131d4fbbc2" id="r_a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1b3ee48ba7e537489b84b4131d4fbbc2">Game::ProcessorFrameCallback</a> = std::function&lt; void(<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_dataset.html">Dataset</a>)&gt;</td></tr>
-<tr class="memdesc:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">per frame callback for processors  <br /></td></tr>
-<tr class="separator:a1b3ee48ba7e537489b84b4131d4fbbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa528c32078e33be9e4ffc55b09db6ba0" id="r_aa528c32078e33be9e4ffc55b09db6ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa528c32078e33be9e4ffc55b09db6ba0">Game::CreateProcessor</a> (<a class="el" href="struct_game_1_1_processor_create_info.html">ProcessorCreateInfo</a> const  &amp;info)</td></tr>
-<tr class="memdesc:aa528c32078e33be9e4ffc55b09db6ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a processor.  <br /></td></tr>
-<tr class="separator:aa528c32078e33be9e4ffc55b09db6ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c0a609c214eff66c23f447fd2e6e500" id="r_a0c0a609c214eff66c23f447fd2e6e500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a0c0a609c214eff66c23f447fd2e6e500">Game::RegisterProcessors</a> (<a class="el" href="class_game_1_1_world.html">World</a> *, std::initializer_list&lt; <a class="el" href="namespace_game.html#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a> &gt;)</td></tr>
-<tr class="memdesc:a0c0a609c214eff66c23f447fd2e6e500"><td class="mdescLeft">&#160;</td><td class="mdescRight">register processors to a world  <br /></td></tr>
-<tr class="separator:a0c0a609c214eff66c23f447fd2e6e500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -143,7 +123,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="processor_8h.html">processor.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:08:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

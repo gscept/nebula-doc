@@ -3,7 +3,7 @@ var dir_c1d05d0d307adf9537397f5dbc737ed7 =
     [ "accessmode.h", "accessmode_8h.html", "accessmode_8h" ],
     [ "attrexithandler.cc", "attrexithandler_8cc.html", null ],
     [ "attrexithandler.h", "attrexithandler_8h.html", "attrexithandler_8h" ],
-    [ "attribute.h", "attribute_8h.html", "attribute_8h" ],
+    [ "attribute.h", "attr_2attribute_8h.html", "attr_2attribute_8h" ],
     [ "attributecontainer.cc", "attributecontainer_8cc.html", null ],
     [ "attributecontainer.h", "attributecontainer_8h.html", "attributecontainer_8h" ],
     [ "attributedefinition.h", "attributedefinition_8h.html", "attributedefinition_8h" ],

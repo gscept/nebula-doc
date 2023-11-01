@@ -106,8 +106,8 @@ $(document).ready(function(){initNavTree('memdb_2database_8h_source.html',''); i
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="memdb_2table_8h.html">table.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="stringatom_8h.html">util/stringatom.h</a>&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="idgenerationpool_8h.html">ids/idgenerationpool.h</a>&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="componentid_8h.html">componentid.h</a>&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="typeregistry_8h.html">typeregistry.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="attributeid_8h.html">attributeid.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="attributeregistry_8h.html">attributeregistry.h</a>&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="application_2game_2dataset_8h.html">dataset.h</a>&quot;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="memdb_2filterset_8h.html">filterset.h</a>&quot;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="blob_8h.html">util/blob.h</a>&quot;</span></div>
@@ -164,6 +164,8 @@ $(document).ready(function(){initNavTree('memdb_2database_8h_source.html',''); i
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>} <span class="comment">// namespace MemDb</span></div>
 <div class="ttc" id="aapplication_2game_2dataset_8h_html"><div class="ttname"><a href="application_2game_2dataset_8h.html">dataset.h</a></div></div>
 <div class="ttc" id="aarrayallocator_8h_html"><div class="ttname"><a href="arrayallocator_8h.html">arrayallocator.h</a></div></div>
+<div class="ttc" id="aattributeid_8h_html"><div class="ttname"><a href="attributeid_8h.html">attributeid.h</a></div></div>
+<div class="ttc" id="aattributeregistry_8h_html"><div class="ttname"><a href="attributeregistry_8h.html">attributeregistry.h</a></div></div>
 <div class="ttc" id="ablob_8h_html"><div class="ttname"><a href="blob_8h.html">blob.h</a></div></div>
 <div class="ttc" id="aclass_core_1_1_ref_counted_html"><div class="ttname"><a href="class_core_1_1_ref_counted.html">Core::RefCounted</a></div><div class="ttdoc">The common base class of Nebula.</div><div class="ttdef"><b>Definition</b> refcounted.h:38</div></div>
 <div class="ttc" id="aclass_ids_1_1_id_generation_pool_html"><div class="ttname"><a href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a></div><div class="ttdoc">Provides a system for creating array friendly id numbers with reuse and generations.</div><div class="ttdef"><b>Definition</b> idgenerationpool.h:43</div></div>
@@ -186,21 +188,19 @@ $(document).ready(function(){initNavTree('memdb_2database_8h_source.html',''); i
 <div class="ttc" id="aclass_mem_db_1_1_database_html_af1f4030ccd015c9788d6dc650aaed646"><div class="ttname"><a href="class_mem_db_1_1_database.html#af1f4030ccd015c9788d6dc650aaed646">MemDb::Database::Database</a></div><div class="ttdeci">Database()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> database.cc:19</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_database_html_afaf976702d698e02f531e87cb759c056"><div class="ttname"><a href="class_mem_db_1_1_database.html#afaf976702d698e02f531e87cb759c056">MemDb::Database::GetNumTables</a></div><div class="ttdeci">SizeT GetNumTables() const</div><div class="ttdoc">retrieve the number of tables</div><div class="ttdef"><b>Definition</b> database.h:81</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_filter_set_html"><div class="ttname"><a href="class_mem_db_1_1_filter_set.html">MemDb::FilterSet</a></div><div class="ttdef"><b>Definition</b> filterset.h:20</div></div>
-<div class="ttc" id="aclass_mem_db_1_1_table_html"><div class="ttname"><a href="class_mem_db_1_1_table.html">MemDb::Table</a></div><div class="ttdef"><b>Definition</b> table.h:44</div></div>
+<div class="ttc" id="aclass_mem_db_1_1_table_html"><div class="ttname"><a href="class_mem_db_1_1_table.html">MemDb::Table</a></div><div class="ttdef"><b>Definition</b> table.h:43</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_table_signature_html"><div class="ttname"><a href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a></div><div class="ttdoc">Basically a bitfield with packed ComponentIds.</div><div class="ttdef"><b>Definition</b> tablesignature.h:26</div></div>
 <div class="ttc" id="aclass_ptr_html"><div class="ttname"><a href="class_ptr.html">Ptr</a></div><div class="ttdoc">Nebula's smart pointer class which manages the life time of RefCounted objects.</div><div class="ttdef"><b>Definition</b> ptr.h:39</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
-<div class="ttc" id="acomponentid_8h_html"><div class="ttname"><a href="componentid_8h.html">componentid.h</a></div></div>
 <div class="ttc" id="aidgenerationpool_8h_html"><div class="ttname"><a href="idgenerationpool_8h.html">idgenerationpool.h</a></div></div>
 <div class="ttc" id="amemdb_2filterset_8h_html"><div class="ttname"><a href="memdb_2filterset_8h.html">filterset.h</a></div></div>
 <div class="ttc" id="amemdb_2table_8h_html"><div class="ttname"><a href="memdb_2table_8h.html">table.h</a></div><div class="ttdoc">Contains declarations for tables.</div></div>
-<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">AttributeDescription.</div><div class="ttdef"><b>Definition</b> componentdescription.h:26</div></div>
+<div class="ttc" id="anamespace_mem_db_html"><div class="ttname"><a href="namespace_mem_db.html">MemDb</a></div><div class="ttdoc">Attribute.</div><div class="ttdef"><b>Definition</b> attribute.h:26</div></div>
 <div class="ttc" id="arefcounted_8h_html"><div class="ttname"><a href="refcounted_8h.html">refcounted.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="astruct_mem_db_1_1_dataset_html"><div class="ttname"><a href="struct_mem_db_1_1_dataset.html">MemDb::Dataset</a></div><div class="ttdef"><b>Definition</b> dataset.h:20</div></div>
-<div class="ttc" id="astruct_mem_db_1_1_table_create_info_html"><div class="ttname"><a href="struct_mem_db_1_1_table_create_info.html">MemDb::TableCreateInfo</a></div><div class="ttdoc">information for creating a table</div><div class="ttdef"><b>Definition</b> table.h:31</div></div>
+<div class="ttc" id="astruct_mem_db_1_1_table_create_info_html"><div class="ttname"><a href="struct_mem_db_1_1_table_create_info.html">MemDb::TableCreateInfo</a></div><div class="ttdoc">information for creating a table</div><div class="ttdef"><b>Definition</b> table.h:30</div></div>
 <div class="ttc" id="astruct_mem_db_1_1_table_id_html"><div class="ttname"><a href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a></div><div class="ttdoc">Table identifier.</div><div class="ttdef"><b>Definition</b> tableid.h:14</div></div>
-<div class="ttc" id="atyperegistry_8h_html"><div class="ttname"><a href="typeregistry_8h.html">typeregistry.h</a></div></div>
 <div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition</b> types.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('memdb_2database_8h_source.html',''); i
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_ae8a1b09c348e92b07c1bd00cbd1b041.html">memdb</a></li><li class="navelem"><a class="el" href="memdb_2database_8h.html">database.h</a></li>
 				<li class="footer">
-					Generated on Tue Oct 24 2023 21:07:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 1 2023 21:10:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
