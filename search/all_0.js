@@ -200,7 +200,7 @@ var searchData=
   ['_5fsmallvector_3c_20game_3a_3acomponentserialization_3a_3aserializer_2c_200_20_3e_197',['_smallvector&lt; Game::ComponentSerialization::Serializer, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20game_3a_3aentitymapping_2c_200_20_3e_198',['_smallvector&lt; Game::EntityMapping, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20game_3a_3aframeevent_20_2a_2c_200_20_3e_199',['_smallvector&lt; Game::FrameEvent *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20game_3a_3aframeeventbatch_20_2a_2c_200_20_3e_200',['_smallvector&lt; Game::FrameEventBatch *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20game_3a_3aframeevent_3a_3abatch_20_2a_2c_200_20_3e_200',['_smallvector&lt; Game::FrameEvent::Batch *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20game_3a_3aprocessor_20_2a_2c_200_20_3e_201',['_smallvector&lt; Game::Processor *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20game_3a_3aworld_3a_3aaddstagedcomponentcommand_2c_200_20_3e_202',['_smallvector&lt; Game::World::AddStagedComponentCommand, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20game_3a_3aworld_3a_3aremovecomponentcommand_2c_200_20_3e_203',['_smallvector&lt; Game::World::RemoveComponentCommand, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],

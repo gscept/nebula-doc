@@ -1,5 +1,8 @@
 var NAVTREEINDEX160 =
 {
+"valuetype_8h_source.html":[10,0,0,0,0,23],
+"variant_8h.html":[10,0,0,3,20,57],
+"variant_8h_source.html":[10,0,0,3,20,57],
 "vec2_8h.html":[10,0,0,3,12,26],
 "vec2_8h.html#a256751a2f8518137de7263396b8b50d0":[10,0,0,3,12,26,1],
 "vec2_8h.html#a2ccdb4a7be6df5698476973ec490ed9b":[10,0,0,3,12,26,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX160 =
 "visibility_8h.html":[10,0,0,6,24,1],
 "visibility_8h.html#a982d77d750af8fe2566a1c400698858d":[10,0,0,6,24,1,3],
 "visibility_8h.html#aa4d9cebde35941d990d86ae57009e657":[10,0,0,6,24,1,1],
-"visibility_8h.html#aa4d9cebde35941d990d86ae57009e657a0b1709d8749a84b88047fa5d71a68b0d":[10,0,0,6,24,1,1,1],
-"visibility_8h.html#aa4d9cebde35941d990d86ae57009e657a0e1a8d42a3c195007a9b2e4fea008f31":[10,0,0,6,24,1,1,2],
-"visibility_8h.html#aa4d9cebde35941d990d86ae57009e657a5744eb47ce41606b5bb03a0bcdb47623":[10,0,0,6,24,1,1,3],
-"visibility_8h.html#aa4d9cebde35941d990d86ae57009e657ac8de9c38ef34efc67b1dae3d35ead2f3":[10,0,0,6,24,1,1,0]
+"visibility_8h.html#aa4d9cebde35941d990d86ae57009e657a0b1709d8749a84b88047fa5d71a68b0d":[10,0,0,6,24,1,1,1]
 };

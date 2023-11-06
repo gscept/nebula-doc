@@ -10,6 +10,7 @@ var filter_8h =
       [ "READ", "filter_8h.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1", null ],
       [ "WRITE", "filter_8h.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826", null ]
     ] ],
+    [ "AccessModesInFilter", "filter_8h.html#afc7f424437e3e6d8b2ad4250901443e2", null ],
     [ "ComponentsInFilter", "filter_8h.html#a70da0079ee1504e3cecf2ac59e23e9b8", null ],
     [ "DestroyFilter", "filter_8h.html#ac95174757039aa417008ae3178a10be2", null ],
     [ "GetExclusiveTableMask", "filter_8h.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],

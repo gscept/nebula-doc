@@ -130,7 +130,7 @@ var searchData=
   ['postevent_127',['PostEvent',['../class_win32_1_1_win32_display_device.html#a54285318521b9d601f63faf37cead0e8',1,'Win32::Win32DisplayDevice']]],
   ['pow_128',['pow',['../namespace_math.html#a7fdcb8c1f0eb62c6fba51d2e2272c192',1,'Math']]],
   ['predraw_129',['PreDraw',['../class_static_u_i_1_1_ultralight_renderer.html#afc2b6830a56be2b50e8461d9ec90addb',1,'StaticUI::UltralightRenderer']]],
-  ['prefilter_130',['prefilter',['../class_game_1_1_frame_event_batch.html#a2cf3a243bd56f5005f434bcde46211af',1,'Game::FrameEventBatch::Prefilter()'],['../class_game_1_1_frame_event.html#ad620cc6452672addfce39d406a889749',1,'Game::FrameEvent::Prefilter()'],['../class_game_1_1_frame_pipeline.html#a3ea4e94e6d87f8de6a7c6aecbad7cab4',1,'Game::FramePipeline::Prefilter()']]],
+  ['prefilter_130',['prefilter',['../class_game_1_1_frame_event.html#ad620cc6452672addfce39d406a889749',1,'Game::FrameEvent::Prefilter()'],['../class_game_1_1_frame_event_1_1_batch.html#aaeb51219beb2acc7ded1847261005097',1,'Game::FrameEvent::Batch::Prefilter()'],['../class_game_1_1_frame_pipeline.html#a3ea4e94e6d87f8de6a7c6aecbad7cab4',1,'Game::FramePipeline::Prefilter()']]],
   ['prefiltered_131',['Prefiltered',['../class_game_1_1_world.html#acf555fed2f4f479180b69b14571457b8',1,'Game::World']]],
   ['prefilterprocessors_132',['PrefilterProcessors',['../class_game_1_1_world.html#a378eb9df8d52747f407e2f695d04fc34',1,'Game::World']]],
   ['prepareentities_133',['PrepareEntities',['../class_visibility_1_1_visibility_system.html#adc2b6395afe4f1dc8b6ea510eafeca26',1,'Visibility::VisibilitySystem']]],

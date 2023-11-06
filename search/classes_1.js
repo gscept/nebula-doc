@@ -127,7 +127,7 @@ var searchData=
   ['array_3c_20game_3a_3acomponentserialization_3a_3aserializer_20_3e_124',['Array&lt; Game::ComponentSerialization::Serializer &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20game_3a_3aentitymapping_20_3e_125',['Array&lt; Game::EntityMapping &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20game_3a_3aframeevent_20_2a_20_3e_126',['Array&lt; Game::FrameEvent * &gt;',['../class_util_1_1_array.html',1,'Util']]],
-  ['array_3c_20game_3a_3aframeeventbatch_20_2a_20_3e_127',['Array&lt; Game::FrameEventBatch * &gt;',['../class_util_1_1_array.html',1,'Util']]],
+  ['array_3c_20game_3a_3aframeevent_3a_3abatch_20_2a_20_3e_127',['Array&lt; Game::FrameEvent::Batch * &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20game_3a_3aprocessor_20_2a_20_3e_128',['Array&lt; Game::Processor * &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20game_3a_3aworld_3a_3aaddstagedcomponentcommand_20_3e_129',['Array&lt; Game::World::AddStagedComponentCommand &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20game_3a_3aworld_3a_3aremovecomponentcommand_20_3e_130',['Array&lt; Game::World::RemoveComponentCommand &gt;',['../class_util_1_1_array.html',1,'Util']]],

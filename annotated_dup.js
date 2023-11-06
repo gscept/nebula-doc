@@ -417,7 +417,6 @@ var annotated_dup =
       [ "FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ],
       [ "FilterBuilder", "class_game_1_1_filter_builder.html", "class_game_1_1_filter_builder" ],
       [ "FrameEvent", "class_game_1_1_frame_event.html", "class_game_1_1_frame_event" ],
-      [ "FrameEventBatch", "class_game_1_1_frame_event_batch.html", "class_game_1_1_frame_event_batch" ],
       [ "FramePipeline", "class_game_1_1_frame_pipeline.html", "class_game_1_1_frame_pipeline" ],
       [ "GameServer", "class_game_1_1_game_server.html", "class_game_1_1_game_server" ],
       [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ],
