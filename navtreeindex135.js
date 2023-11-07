@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"struct_im3d_1_1_mat4.html#a0cb0ad4c6fe0ad011b5e82c5e4e032ac":[9,0,30,12,2],
+"struct_im3d_1_1_mat4.html#a43f817e390e0cf3c87f93c71247527a0":[9,0,30,12,1],
 "struct_im3d_1_1_mat4.html#a43f817e390e0cf3c87f93c71247527a0":[8,0,33,12,1],
 "struct_im3d_1_1_mat4.html#a4c3e5d1ba270b1b3a147377de230972a":[8,0,33,12,12],
 "struct_im3d_1_1_mat4.html#a4c3e5d1ba270b1b3a147377de230972a":[9,0,30,12,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html":[9,0,30,0,10],
 "struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html#a4a5b4cab400ee5796a6d9c8e4065f487":[8,0,33,0,10,0],
 "struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html#a4a5b4cab400ee5796a6d9c8e4065f487":[9,0,30,0,10,0],
-"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html":[8,0,33,0,11],
-"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html":[9,0,30,0,11],
-"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html#a2fcc55d3a65ee3312bf7e9a480d9d327":[8,0,33,0,11,0]
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html":[8,0,33,0,11]
 };

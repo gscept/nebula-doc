@@ -19,7 +19,7 @@ var searchData=
   ['texcoord3_16',['TexCoord3',['../class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74a927a983e2aadfb6d436e1569a8ce385b',1,'CoreGraphics::VertexComponent']]],
   ['texcoord4_17',['TexCoord4',['../class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74ab1df730d233702c68a76b33c006537cf',1,'CoreGraphics::VertexComponent']]],
   ['texelbuffer_18',['TexelBuffer',['../namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9',1,'Vulkan']]],
-  ['text_19',['text',['../class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3ac1ba487fe404c69ec7810f363d73bb30',1,'Frame::FrameBatchType::Text'],['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a672617f36c5606a966ac378e6ddc0fd8',1,'TiXmlNode::TEXT']]],
+  ['text_19',['text',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a672617f36c5606a966ac378e6ddc0fd8',1,'TiXmlNode::TEXT'],['../class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3ac1ba487fe404c69ec7810f363d73bb30',1,'Frame::FrameBatchType::Text']]],
   ['text3d_20',['Text3D',['../class_physics_1_1_visual_debugger_1_1_timed_draw_data.html#abb0df7ed14a71c6500469da952a3a5f9ab56e7fccb8011181c14e4a2c66809256',1,'Physics::VisualDebugger::TimedDrawData']]],
   ['textflags_5falignbottom_21',['TextFlags_AlignBottom',['../namespace_im3d.html#ada2331d37b6eb628569fe04c0ae34274a0b559d334cade5a2d59c6d0c2814ef6a',1,'Im3d']]],
   ['textflags_5falignleft_22',['TextFlags_AlignLeft',['../namespace_im3d.html#ada2331d37b6eb628569fe04c0ae34274a1ee97f972745d700dce14c58bd2ee993',1,'Im3d']]],

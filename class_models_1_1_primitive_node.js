@@ -12,6 +12,7 @@ var class_models_1_1_primitive_node =
     [ "ibo", "class_models_1_1_primitive_node.html#afc44cdb463891f6e6382a07b0bcbca08", null ],
     [ "iboOffset", "class_models_1_1_primitive_node.html#aeebedc01573cd506884374e2620651ee", null ],
     [ "indexType", "class_models_1_1_primitive_node.html#ac21febeec54d6d027ed0d06373c564c5", null ],
+    [ "loadSuccess", "class_models_1_1_primitive_node.html#ab3a6540eff89118bafbefd83680d6f48", null ],
     [ "mesh", "class_models_1_1_primitive_node.html#a3c05b40df672ccffab1ab24de6f4b9a0", null ],
     [ "primGroup", "class_models_1_1_primitive_node.html#ad336e6308249366786f138286a1ec005", null ],
     [ "primitiveGroupIndex", "class_models_1_1_primitive_node.html#a61c1e6b0e5b8d5bae2c48593bd4ccb0d", null ],
