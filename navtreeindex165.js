@@ -1,5 +1,8 @@
 var NAVTREEINDEX165 =
 {
+"win32consolehandler_8h.html":[10,0,0,3,9,7,1],
+"win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
+"win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
 "win32cpu_8h.html":[10,0,0,3,17,4,0],
 "win32cpu_8h_source.html":[10,0,0,3,17,4,0],
 "win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX165 =
 "zipdirentry_8h_source.html":[10,0,0,3,9,8,5],
 "zipfileentry_8cc.html":[10,0,0,3,9,8,6],
 "zipfileentry_8h.html":[10,0,0,3,9,8,7],
-"zipfileentry_8h_source.html":[10,0,0,3,9,8,7],
-"zipfilestream_8cc.html":[10,0,0,3,9,8,8],
-"zipfilestream_8cc.html#a9847e035c16517e11e1b53733b00506d":[10,0,0,3,9,8,8,0],
-"zipfilestream_8h.html":[10,0,0,3,9,8,9]
+"zipfileentry_8h_source.html":[10,0,0,3,9,8,7]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX121 =
 {
+"sampler_8h_source.html":[10,0,0,6,5,61],
+"sampletype_8cc.html":[10,0,0,6,4,27],
+"sampletype_8h.html":[10,0,0,6,4,28],
 "sampletype_8h_source.html":[10,0,0,6,4,28],
 "scalar_8h.html":[10,0,0,3,12,21],
 "scalar_8h.html#a08abe5b000f1a6276d831437d0597811":[10,0,0,3,12,21,69],
@@ -224,8 +227,8 @@ var NAVTREEINDEX121 =
 "shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,6,5,71,20],
 "shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,6,5,71,67],
 "shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,6,5,71,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,71,94],
 "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,71,93],
+"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,71,94],
 "shadersemantics_8h.html#a527feccb22cfcc3effdf8162bd6453e0":[10,0,0,6,5,71,86],
 "shadersemantics_8h.html#a538543b6d5e7de8f337fd285d1c7a918":[10,0,0,6,5,71,107],
 "shadersemantics_8h.html#a554b3e00763b2313cba9cd1a751cde0c":[10,0,0,6,5,71,102],
@@ -246,8 +249,5 @@ var NAVTREEINDEX121 =
 "shadersemantics_8h.html#a6d4d674a31e9e3e44bef4fd2a861e35d":[10,0,0,6,5,71,61],
 "shadersemantics_8h.html#a6f141d21903772700b2a0eef0774bcf0":[10,0,0,6,5,71,123],
 "shadersemantics_8h.html#a6f16661fe471723f478e9efab4266bdb":[10,0,0,6,5,71,103],
-"shadersemantics_8h.html#a74287afcb4552f4274b881e0843c0981":[10,0,0,6,5,71,15],
-"shadersemantics_8h.html#a76efee199a0ff0d6fb495f5ebc481e52":[10,0,0,6,5,71,38],
-"shadersemantics_8h.html#a773dea629383fc0a0ff5cd23baeb6444":[10,0,0,6,5,71,121],
-"shadersemantics_8h.html#a7bec2c50f8e89b5206445ecc97b266a4":[10,0,0,6,5,71,79]
+"shadersemantics_8h.html#a74287afcb4552f4274b881e0843c0981":[10,0,0,6,5,71,15]
 };

@@ -4,6 +4,7 @@ var quat_8h =
     [ "barycentric", "quat_8h.html#a0db822f437a5f4e68e2a52a804a2faf5", null ],
     [ "conjugate", "quat_8h.html#a3a66e5522b29475e8ec87bdfadcb93ab", null ],
     [ "dot", "quat_8h.html#a1448640f34330f096cdda3089c9f3a7e", null ],
+    [ "from_euler", "quat_8h.html#af7498f34e2e25b919c28a30845da2191", null ],
     [ "identity", "quat_8h.html#a413b39910935d2d170d045506b79fe8a", null ],
     [ "inverse", "quat_8h.html#a4dcd44627d84530288035a0c5c6bc1c9", null ],
     [ "isidentity", "quat_8h.html#aa8fade730a82a342575de6a23910fc16", null ],

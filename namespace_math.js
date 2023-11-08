@@ -113,6 +113,7 @@ var namespace_math =
     [ "fmadd", "namespace_math.html#af9c90d6799f58f5df2f037429c58e009", null ],
     [ "fmod", "namespace_math.html#afb16681ddab5e68acfd000b9ee1e9000", null ],
     [ "frnd", "namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68", null ],
+    [ "from_euler", "namespace_math.html#af7498f34e2e25b919c28a30845da2191", null ],
     [ "get_normal", "namespace_math.html#ae25ca97d65e13a62c089394ede63291a", null ],
     [ "get_point", "namespace_math.html#a25f7aa73ce6c2adc8dfcf7bd59c0ba06", null ],
     [ "greater", "namespace_math.html#a4642bed18f8d117a3f36b336450db0b6", null ],
