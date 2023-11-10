@@ -9,6 +9,7 @@ var vkshader_8cc =
     [ "ShaderCreateConstantBuffer", "vkshader_8cc.html#a0bc04710eb3962c274957f5b62f5ac63", null ],
     [ "ShaderCreateConstantBuffer", "vkshader_8cc.html#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0", null ],
     [ "ShaderCreateResourceTable", "vkshader_8cc.html#a982efadde3afa98b256fffcf26f30839", null ],
+    [ "ShaderCreateResourceTableSet", "vkshader_8cc.html#a81024232555ef85264d745f0dee6b5c6", null ],
     [ "ShaderGetConstantBinding", "vkshader_8cc.html#af980acfc27839f6333fbf74d21dbee16", null ],
     [ "ShaderGetConstantBinding", "vkshader_8cc.html#a46f9ae4c7d8e3d00921da599d936967d", null ],
     [ "ShaderGetConstantBindingsCount", "vkshader_8cc.html#a5549ccacd4ddc8dcf903a69a4cc88e73", null ],

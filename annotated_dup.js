@@ -246,6 +246,7 @@ var annotated_dup =
       [ "ResourceTableLayoutShaderRWBuffer", "struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html", "struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer" ],
       [ "ResourceTableLayoutTexture", "struct_core_graphics_1_1_resource_table_layout_texture.html", "struct_core_graphics_1_1_resource_table_layout_texture" ],
       [ "ResourceTableSampler", "struct_core_graphics_1_1_resource_table_sampler.html", "struct_core_graphics_1_1_resource_table_sampler" ],
+      [ "ResourceTableSet", "struct_core_graphics_1_1_resource_table_set.html", "struct_core_graphics_1_1_resource_table_set" ],
       [ "ResourceTableTexture", "struct_core_graphics_1_1_resource_table_texture.html", "struct_core_graphics_1_1_resource_table_texture" ],
       [ "ResourceTableTextureView", "struct_core_graphics_1_1_resource_table_texture_view.html", "struct_core_graphics_1_1_resource_table_texture_view" ],
       [ "SamplerCreateInfo", "struct_core_graphics_1_1_sampler_create_info.html", "struct_core_graphics_1_1_sampler_create_info" ],
@@ -932,7 +933,10 @@ var annotated_dup =
     ] ],
     [ "Terrain", "namespace_terrain.html", [
       [ "BiomeMaterial", "struct_terrain_1_1_biome_material.html", "struct_terrain_1_1_biome_material" ],
-      [ "BiomeSetupSettings", "struct_terrain_1_1_biome_setup_settings.html", "struct_terrain_1_1_biome_setup_settings" ],
+      [ "BiomeMaterialBuilder", "struct_terrain_1_1_biome_material_builder.html", "struct_terrain_1_1_biome_material_builder" ],
+      [ "BiomeParameters", "struct_terrain_1_1_biome_parameters.html", "struct_terrain_1_1_biome_parameters" ],
+      [ "BiomeSettings", "struct_terrain_1_1_biome_settings.html", "struct_terrain_1_1_biome_settings" ],
+      [ "BiomeSettingsBuilder", "struct_terrain_1_1_biome_settings_builder.html", "struct_terrain_1_1_biome_settings_builder" ],
       [ "IndirectionEntry", "struct_terrain_1_1_indirection_entry.html", "struct_terrain_1_1_indirection_entry" ],
       [ "OccupancyQuadTree", "class_terrain_1_1_occupancy_quad_tree.html", "class_terrain_1_1_occupancy_quad_tree" ],
       [ "PhysicalTileUpdate", "struct_terrain_1_1_physical_tile_update.html", "struct_terrain_1_1_physical_tile_update" ],
@@ -950,6 +954,11 @@ var annotated_dup =
       [ "TileCacheEntry", "struct_terrain_1_1_tile_cache_entry.html", "struct_terrain_1_1_tile_cache_entry" ]
     ] ],
     [ "Threading", "namespace_threading.html", [
+      [ "Interlocked", "namespace_threading_1_1_interlocked.html", [
+        [ "AtomicInt", "struct_threading_1_1_interlocked_1_1_atomic_int.html", "struct_threading_1_1_interlocked_1_1_atomic_int" ],
+        [ "AtomicInt64", "struct_threading_1_1_interlocked_1_1_atomic_int64.html", "struct_threading_1_1_interlocked_1_1_atomic_int64" ],
+        [ "AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", "struct_threading_1_1_interlocked_1_1_atomic_pointer" ]
+      ] ],
       [ "AssertingMutex", "class_threading_1_1_asserting_mutex.html", "class_threading_1_1_asserting_mutex" ],
       [ "AssertingScope", "struct_threading_1_1_asserting_scope.html", "struct_threading_1_1_asserting_scope" ],
       [ "CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ],
@@ -1105,7 +1114,6 @@ var annotated_dup =
       [ "Win32FSWrapper", "class_win32_1_1_win32_f_s_wrapper.html", "class_win32_1_1_win32_f_s_wrapper" ],
       [ "Win32Guid", "class_win32_1_1_win32_guid.html", "class_win32_1_1_win32_guid" ],
       [ "Win32Heap", "class_win32_1_1_win32_heap.html", "class_win32_1_1_win32_heap" ],
-      [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", "class_win32_1_1_win32_interlocked" ],
       [ "Win32IpAddress", "class_win32_1_1_win32_ip_address.html", "class_win32_1_1_win32_ip_address" ],
       [ "Win32Library", "class_win32_1_1_win32_library.html", "class_win32_1_1_win32_library" ],
       [ "Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", "class_win32_1_1_win32_memory_pool" ],
@@ -1167,7 +1175,7 @@ var annotated_dup =
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
     [ "InstanceServerBase", "class_instancing_1_1_instance_server_base.html", null ],
     [ "Interface", "class_i_o_1_1_interface.html", null ],
-    [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
+    [ "Interlocked", "class_threading_1_1_interlocked.html", "class_threading_1_1_interlocked" ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Library", "class_system_1_1_library.html", null ],
@@ -1228,6 +1236,7 @@ var annotated_dup =
     [ "VertexLayoutBase", "class_base_1_1_vertex_layout_base.html", null ],
     [ "WeakPtr", "class_weak_ptr.html", "class_weak_ptr" ],
     [ "Win32Barrier", "class_win32_1_1_win32_barrier.html", null ],
+    [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", null ],
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
     [ "WinThreadId", "class_win32_1_1_win_thread_id.html", null ]

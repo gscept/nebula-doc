@@ -33,7 +33,7 @@ var searchData=
   ['globallightsbatchcode_30',['globalLightsBatchCode',['../namespace_lighting.html#a4a53def136e67669f1bb6efd9575a355',1,'Lighting']]],
   ['globallightshadowmap_31',['globalLightShadowMap',['../namespace_lighting.html#a5ee0ec7b142258658bdbde0837f4a782',1,'Lighting']]],
   ['globalstringatomtable_32',['globalstringatomtable',['../namespace_posix.html#af94d406d7f42b25db179f4b3db4558bb',1,'Posix::globalStringAtomTable'],['../namespace_win32.html#af034a79b1610308d3477da8875305db1',1,'Win32::globalStringAtomTable']]],
-  ['globaluploadbuffermaxvalue_33',['globalUploadBufferMaxValue',['../struct_core_graphics_1_1_graphics_device_state.html#ab667504deb2d35628b61ea1213b238f0',1,'CoreGraphics::GraphicsDeviceState']]],
+  ['globaluploadbufferpoolsize_33',['globalUploadBufferPoolSize',['../struct_core_graphics_1_1_graphics_device_state.html#a8f1601a54938dca4ba6caeca9bed46a1',1,'CoreGraphics::GraphicsDeviceState']]],
   ['globaluploadmemorysize_34',['globalUploadMemorySize',['../struct_core_graphics_1_1_graphics_device_create_info.html#a952b8114a4bb4707fb5016e0346147fb',1,'CoreGraphics::GraphicsDeviceCreateInfo']]],
   ['globalvertexbuffermemorysize_35',['globalVertexBufferMemorySize',['../struct_core_graphics_1_1_graphics_device_create_info.html#a7b00a44e3fbe2a5b66f5ce1b8faf75a3',1,'CoreGraphics::GraphicsDeviceCreateInfo']]],
   ['glyphtexture_36',['glyphTexture',['../class_vulkan_1_1_vk_text_renderer.html#a8378d5b6a51bb8e8a2c5f9870d58aa0e',1,'Vulkan::VkTextRenderer']]],

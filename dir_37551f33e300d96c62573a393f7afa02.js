@@ -60,6 +60,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "rendereventhandler.h", "rendereventhandler_8h.html", "rendereventhandler_8h" ],
     [ "rendershape.cc", "rendershape_8cc.html", null ],
     [ "rendershape.h", "rendershape_8h.html", "rendershape_8h" ],
+    [ "resourcetable.cc", "resourcetable_8cc.html", null ],
     [ "resourcetable.h", "resourcetable_8h.html", "resourcetable_8h" ],
     [ "sampler.h", "sampler_8h.html", "sampler_8h" ],
     [ "semaphore.h", "semaphore_8h.html", "semaphore_8h" ],

@@ -28,6 +28,7 @@ var shader_8h =
     [ "ShaderCreateConstantBuffer", "shader_8h.html#a0bc04710eb3962c274957f5b62f5ac63", null ],
     [ "ShaderCreateConstantBuffer", "shader_8h.html#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0", null ],
     [ "ShaderCreateResourceTable", "shader_8h.html#a982efadde3afa98b256fffcf26f30839", null ],
+    [ "ShaderCreateResourceTableSet", "shader_8h.html#a81024232555ef85264d745f0dee6b5c6", null ],
     [ "ShaderFeatureFromString", "shader_8h.html#a0f20dcac496c88bf01bed728bcb91317", null ],
     [ "ShaderGet", "shader_8h.html#a532437faeb16579466fd4d7b6de8167f", null ],
     [ "ShaderGetConstantBinding", "shader_8h.html#af980acfc27839f6333fbf74d21dbee16", null ],

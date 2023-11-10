@@ -91,25 +91,96 @@ $(document).ready(function(){initNavTree('interlocked_8h.html',''); initResizabl
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">interlocked.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="foundation_2core_2config_8h_source.html">core/config.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="foundation_2core_2config_8h_source.html">core/config.h</a>&quot;</code><br />
 </div>
 <p><a href="interlocked_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_int.html">Threading::Interlocked::AtomicInt</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_int64.html">Threading::Interlocked::AtomicInt64</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_pointer.html">Threading::Interlocked::AtomicPointer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_threading" id="r_namespace_threading"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading.html">Threading</a></td></tr>
 <tr class="memdesc:namespace_threading"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_jobs2.html">Jobs2</a> system provides a set of threads and a pool of jobs from which threads can pickup work. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_threading_1_1_interlocked" id="r_namespace_threading_1_1_interlocked"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html">Threading::Interlocked</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a5e1a0a87f18165bfb9f1bd8dbc8da48b" id="r_a5e1a0a87f18165bfb9f1bd8dbc8da48b"><td class="memItemLeft" align="right" valign="top">typedef volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a></td></tr>
 <tr class="separator:a5e1a0a87f18165bfb9f1bd8dbc8da48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a63497491563697df2c57744633f516ad" id="r_a63497491563697df2c57744633f516ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a63497491563697df2c57744633f516ad">Threading::Interlocked::Add</a> (int volatile *var, int add)</td></tr>
+<tr class="memdesc:a63497491563697df2c57744633f516ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked add  <br /></td></tr>
+<tr class="separator:a63497491563697df2c57744633f516ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3409d88ed9bc9bda4406bb38f49d3e" id="r_a8e3409d88ed9bc9bda4406bb38f49d3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a8e3409d88ed9bc9bda4406bb38f49d3e">Threading::Interlocked::Add</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> add)</td></tr>
+<tr class="memdesc:a8e3409d88ed9bc9bda4406bb38f49d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked add 64  <br /></td></tr>
+<tr class="separator:a8e3409d88ed9bc9bda4406bb38f49d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b252a74260929b8db91886299f89821" id="r_a0b252a74260929b8db91886299f89821"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a0b252a74260929b8db91886299f89821">Threading::Interlocked::Or</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a0b252a74260929b8db91886299f89821"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked or  <br /></td></tr>
+<tr class="separator:a0b252a74260929b8db91886299f89821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471381dc1ca7e59bb1a00f0486ebcb66" id="r_a471381dc1ca7e59bb1a00f0486ebcb66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a471381dc1ca7e59bb1a00f0486ebcb66">Threading::Interlocked::Or</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> value)</td></tr>
+<tr class="memdesc:a471381dc1ca7e59bb1a00f0486ebcb66"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked or  <br /></td></tr>
+<tr class="separator:a471381dc1ca7e59bb1a00f0486ebcb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df5fcd10660da07031c8bb82ee25af8" id="r_a8df5fcd10660da07031c8bb82ee25af8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a8df5fcd10660da07031c8bb82ee25af8">Threading::Interlocked::And</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a8df5fcd10660da07031c8bb82ee25af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked and  <br /></td></tr>
+<tr class="separator:a8df5fcd10660da07031c8bb82ee25af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31f0b41d4e3a1d2a3738956cee54f9c" id="r_ad31f0b41d4e3a1d2a3738956cee54f9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#ad31f0b41d4e3a1d2a3738956cee54f9c">Threading::Interlocked::And</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> value)</td></tr>
+<tr class="memdesc:ad31f0b41d4e3a1d2a3738956cee54f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked and  <br /></td></tr>
+<tr class="separator:ad31f0b41d4e3a1d2a3738956cee54f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb6dcada64c177c7ca1dc460edad853" id="r_a8cb6dcada64c177c7ca1dc460edad853"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a8cb6dcada64c177c7ca1dc460edad853">Threading::Interlocked::Xor</a> (int volatile *var, int value)</td></tr>
+<tr class="memdesc:a8cb6dcada64c177c7ca1dc460edad853"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked xor  <br /></td></tr>
+<tr class="separator:a8cb6dcada64c177c7ca1dc460edad853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86bfd845f72994793aa4583c0ebf2fe" id="r_ac86bfd845f72994793aa4583c0ebf2fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#ac86bfd845f72994793aa4583c0ebf2fe">Threading::Interlocked::Xor</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> value)</td></tr>
+<tr class="memdesc:ac86bfd845f72994793aa4583c0ebf2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked xor  <br /></td></tr>
+<tr class="separator:ac86bfd845f72994793aa4583c0ebf2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c836c3ff406f1a46381ba530f15be7" id="r_a50c836c3ff406f1a46381ba530f15be7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a50c836c3ff406f1a46381ba530f15be7">Threading::Interlocked::Exchange</a> (int volatile *dest, int value)</td></tr>
+<tr class="memdesc:a50c836c3ff406f1a46381ba530f15be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:a50c836c3ff406f1a46381ba530f15be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d87c3d85cec28369ba3dd03fff3ef8" id="r_a24d87c3d85cec28369ba3dd03fff3ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a24d87c3d85cec28369ba3dd03fff3ef8">Threading::Interlocked::Exchange</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *dest, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> value)</td></tr>
+<tr class="memdesc:a24d87c3d85cec28369ba3dd03fff3ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:a24d87c3d85cec28369ba3dd03fff3ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641eae4f5d3f28130ffa3e461064800b" id="r_a641eae4f5d3f28130ffa3e461064800b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a641eae4f5d3f28130ffa3e461064800b">Threading::Interlocked::CompareExchange</a> (int volatile *dest, int exchange, int comparand)</td></tr>
+<tr class="memdesc:a641eae4f5d3f28130ffa3e461064800b"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked compare-exchange  <br /></td></tr>
+<tr class="separator:a641eae4f5d3f28130ffa3e461064800b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1678af29632881e7d67a88390757c224" id="r_a1678af29632881e7d67a88390757c224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a1678af29632881e7d67a88390757c224">Threading::Interlocked::CompareExchange</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *dest, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> exchange, <a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> comparand)</td></tr>
+<tr class="memdesc:a1678af29632881e7d67a88390757c224"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked compare-exchange  <br /></td></tr>
+<tr class="separator:a1678af29632881e7d67a88390757c224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9ed25b8d5030049754085cecb6c631" id="r_a8f9ed25b8d5030049754085cecb6c631"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a8f9ed25b8d5030049754085cecb6c631">Threading::Interlocked::ExchangePointer</a> (void *volatile *dest, void *value)</td></tr>
+<tr class="memdesc:a8f9ed25b8d5030049754085cecb6c631"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked exchange  <br /></td></tr>
+<tr class="separator:a8f9ed25b8d5030049754085cecb6c631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0ed97eeaca36b89b7901cdb28de498" id="r_adf0ed97eeaca36b89b7901cdb28de498"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#adf0ed97eeaca36b89b7901cdb28de498">Threading::Interlocked::CompareExchangePointer</a> (void *volatile *dest, void *exchange, void *comparand)</td></tr>
+<tr class="memdesc:adf0ed97eeaca36b89b7901cdb28de498"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked compare-exchange pointer  <br /></td></tr>
+<tr class="separator:adf0ed97eeaca36b89b7901cdb28de498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac989408881d25da683d928e5a8b3e1df" id="r_ac989408881d25da683d928e5a8b3e1df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#ac989408881d25da683d928e5a8b3e1df">Threading::Interlocked::Increment</a> (int volatile *var)</td></tr>
+<tr class="memdesc:ac989408881d25da683d928e5a8b3e1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment, return result  <br /></td></tr>
+<tr class="separator:ac989408881d25da683d928e5a8b3e1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d8dab30d37cc35a01c68ced233652d" id="r_ab2d8dab30d37cc35a01c68ced233652d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#ab2d8dab30d37cc35a01c68ced233652d">Threading::Interlocked::Increment</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var)</td></tr>
+<tr class="memdesc:ab2d8dab30d37cc35a01c68ced233652d"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked increment, return result  <br /></td></tr>
+<tr class="separator:ab2d8dab30d37cc35a01c68ced233652d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055cbde8bc3c233e20e140f077f151ff" id="r_a055cbde8bc3c233e20e140f077f151ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a055cbde8bc3c233e20e140f077f151ff">Threading::Interlocked::Decrement</a> (int volatile *var)</td></tr>
+<tr class="memdesc:a055cbde8bc3c233e20e140f077f151ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement, return result  <br /></td></tr>
+<tr class="separator:a055cbde8bc3c233e20e140f077f151ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f65e10c5a3a07d8793017ad4957bfb" id="r_a57f65e10c5a3a07d8793017ad4957bfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_threading_1_1_interlocked.html#a57f65e10c5a3a07d8793017ad4957bfb">Threading::Interlocked::Decrement</a> (<a class="el" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> volatile *var)</td></tr>
+<tr class="memdesc:a57f65e10c5a3a07d8793017ad4957bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">interlocked decrement, return result  <br /></td></tr>
+<tr class="separator:a57f65e10c5a3a07d8793017ad4957bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -118,7 +189,7 @@ Typedefs</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_f19f8a5dc6a389547889a45c5da0c6cd.html">threading</a></li><li class="navelem"><a class="el" href="interlocked_8h.html">interlocked.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:23:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -44,6 +44,7 @@ var commandbuffer_8h =
     [ "CmdCopy", "commandbuffer_8h.html#a2da127b005aab97a9af73a7d934e5478", null ],
     [ "CmdDispatch", "commandbuffer_8h.html#a2498ddf34e79711e93242ee2e896a451", null ],
     [ "CmdDraw", "commandbuffer_8h.html#a31ef943d1eb2c9a0693f4d8f4687d5f4", null ],
+    [ "CmdDraw", "commandbuffer_8h.html#a885f0e46d1c09c35f96dd4a6bce1892f", null ],
     [ "CmdDraw", "commandbuffer_8h.html#a4614187be42d6b31a3e912d1b628ebba", null ],
     [ "CmdDrawIndirect", "commandbuffer_8h.html#a6fad6ecd123771133bdf64209c7ff417", null ],
     [ "CmdDrawIndirectIndexed", "commandbuffer_8h.html#ac351021098d579f409449a5a952b3e4a", null ],

@@ -26,7 +26,7 @@ var searchData=
   ['win32guid_2eh_23',['win32guid.h',['../win32guid_8h.html',1,'']]],
   ['win32heap_2ecc_24',['win32heap.cc',['../win32heap_8cc.html',1,'']]],
   ['win32heap_2eh_25',['win32heap.h',['../win32heap_8h.html',1,'']]],
-  ['win32interlocked_2eh_26',['win32interlocked.h',['../win32interlocked_8h.html',1,'']]],
+  ['win32interlocked_2ecc_26',['win32interlocked.cc',['../win32interlocked_8cc.html',1,'']]],
   ['win32ipaddress_2ecc_27',['win32ipaddress.cc',['../win32ipaddress_8cc.html',1,'']]],
   ['win32ipaddress_2eh_28',['win32ipaddress.h',['../win32ipaddress_8h.html',1,'']]],
   ['win32library_2ecc_29',['win32library.cc',['../win32library_8cc.html',1,'']]],

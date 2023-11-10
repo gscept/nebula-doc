@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00122" data-start="{" data-end="}">
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_core_1_1_ref_counted.html#a027c56231aa5cc17ec4fc62ebfd687a1">  122</a></span><a class="code hl_function" href="class_core_1_1_ref_counted.html#a027c56231aa5cc17ec4fc62ebfd687a1">RefCounted::AddRef</a>()</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>{</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    Threading::Interlocked::Increment(&amp;this-&gt;<a class="code hl_variable" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#ac989408881d25da683d928e5a8b3e1df">Threading::Interlocked::Increment</a>(&amp;this-&gt;<a class="code hl_variable" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>}</div>
 </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
@@ -194,7 +194,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00132" data-start="{" data-end="}">
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5">  132</a></span><a class="code hl_function" href="class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5">RefCounted::Release</a>()</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>{</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keywordflow">if</span> (0 == Threading::Interlocked::Decrement(&amp;this-&gt;<a class="code hl_variable" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>))</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keywordflow">if</span> (0 == <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a055cbde8bc3c233e20e140f077f151ff">Threading::Interlocked::Decrement</a>(&amp;this-&gt;<a class="code hl_variable" href="class_core_1_1_ref_counted.html#a817fee291465d001565166f1e94c1ac5">refCount</a>))</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    {</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    }</div>
@@ -322,6 +322,8 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 <div class="ttc" id="afactory_8h_html"><div class="ttname"><a href="factory_8h.html">factory.h</a></div></div>
 <div class="ttc" id="ainterlocked_8h_html"><div class="ttname"><a href="interlocked_8h.html">interlocked.h</a></div></div>
 <div class="ttc" id="anamespace_core_html"><div class="ttname"><a href="namespace_core.html">Core</a></div><div class="ttdef"><b>Definition</b> coreserver.cc:10</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_a055cbde8bc3c233e20e140f077f151ff"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#a055cbde8bc3c233e20e140f077f151ff">Threading::Interlocked::Decrement</a></div><div class="ttdeci">int Decrement(int volatile *var)</div><div class="ttdoc">interlocked decrement, return result</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:158</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_ac989408881d25da683d928e5a8b3e1df"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#ac989408881d25da683d928e5a8b3e1df">Threading::Interlocked::Increment</a></div><div class="ttdeci">int Increment(int volatile *var)</div><div class="ttdoc">interlocked increment, return result</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:149</div></div>
 <div class="ttc" id="arefcountedlist_8h_html"><div class="ttname"><a href="refcountedlist_8h.html">refcountedlist.h</a></div></div>
 <div class="ttc" id="artti_8h_html"><div class="ttname"><a href="rtti_8h.html">rtti.h</a></div></div>
 <div class="ttc" id="astruct_util_1_1_string_html"><div class="ttname"><a href="struct_util_1_1_string.html">Util.String</a></div><div class="ttdoc">Nebula's universal string class.</div><div class="ttdef"><b>Definition</b> String.cs:8</div></div>
@@ -334,7 +336,7 @@ $(document).ready(function(){initNavTree('refcounted_8h_source.html',''); initRe
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="refcounted_8h.html">refcounted.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:22:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('safeflag_8h_source.html',''); initResi
 <div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_threading_1_1_safe_flag.html#aa4b9266629ab59f02123a749a2dec108">   49</a></span><a class="code hl_function" href="class_threading_1_1_safe_flag.html#aa4b9266629ab59f02123a749a2dec108">SafeFlag::Set</a>()</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>{</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    Interlocked::Exchange(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 1);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a50c836c3ff406f1a46381ba530f15be7">Interlocked::Exchange</a>(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 1);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
 </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('safeflag_8h_source.html',''); initResi
 <div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_threading_1_1_safe_flag.html#ab671d5e70c8526ff4904072d0ad5bbeb">   58</a></span><a class="code hl_function" href="class_threading_1_1_safe_flag.html#ab671d5e70c8526ff4904072d0ad5bbeb">SafeFlag::Clear</a>()</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Interlocked::Exchange(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 0);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a50c836c3ff406f1a46381ba530f15be7">Interlocked::Exchange</a>(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 0);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
 </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('safeflag_8h_source.html',''); initResi
 <div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_threading_1_1_safe_flag.html#ac616049a71a7d1f83e52660649e2fffe">   76</a></span><a class="code hl_function" href="class_threading_1_1_safe_flag.html#ac616049a71a7d1f83e52660649e2fffe">SafeFlag::TestAndClearIfSet</a>()</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>{</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">return</span> (1 == Interlocked::CompareExchange(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 0, 1));</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">return</span> (1 == <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a641eae4f5d3f28130ffa3e461064800b">Interlocked::CompareExchange</a>(&amp;this-&gt;<a class="code hl_variable" href="class_threading_1_1_safe_flag.html#aa7a7cabbb3a14baf8dc6545258f6c5d3">flag</a>, 0, 1));</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>}</div>
 </div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
@@ -176,6 +176,8 @@ $(document).ready(function(){initNavTree('safeflag_8h_source.html',''); initResi
 <div class="ttc" id="aclass_threading_1_1_safe_flag_html_ab671d5e70c8526ff4904072d0ad5bbeb"><div class="ttname"><a href="class_threading_1_1_safe_flag.html#ab671d5e70c8526ff4904072d0ad5bbeb">Threading::SafeFlag::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">clear the flag</div><div class="ttdef"><b>Definition</b> safeflag.h:58</div></div>
 <div class="ttc" id="aclass_threading_1_1_safe_flag_html_ac616049a71a7d1f83e52660649e2fffe"><div class="ttname"><a href="class_threading_1_1_safe_flag.html#ac616049a71a7d1f83e52660649e2fffe">Threading::SafeFlag::TestAndClearIfSet</a></div><div class="ttdeci">bool TestAndClearIfSet()</div><div class="ttdoc">test if flag is set, if yes, clear flag</div><div class="ttdef"><b>Definition</b> safeflag.h:76</div></div>
 <div class="ttc" id="ainterlocked_8h_html"><div class="ttname"><a href="interlocked_8h.html">interlocked.h</a></div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_a50c836c3ff406f1a46381ba530f15be7"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#a50c836c3ff406f1a46381ba530f15be7">Threading::Interlocked::Exchange</a></div><div class="ttdeci">int Exchange(int volatile *dest, int value)</div><div class="ttdoc">interlocked exchange</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:95</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_a641eae4f5d3f28130ffa3e461064800b"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#a641eae4f5d3f28130ffa3e461064800b">Threading::Interlocked::CompareExchange</a></div><div class="ttdeci">int CompareExchange(int volatile *dest, int exchange, int comparand)</div><div class="ttdoc">interlocked compare-exchange</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:113</div></div>
 <div class="ttc" id="anamespace_threading_html"><div class="ttname"><a href="namespace_threading.html">Threading</a></div><div class="ttdoc">The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.</div><div class="ttdef"><b>Definition</b> jobs2.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -184,7 +186,7 @@ $(document).ready(function(){initNavTree('safeflag_8h_source.html',''); initResi
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_f19f8a5dc6a389547889a45c5da0c6cd.html">threading</a></li><li class="navelem"><a class="el" href="safeflag_8h.html">safeflag.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:22:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

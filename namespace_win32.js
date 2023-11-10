@@ -13,7 +13,6 @@ var namespace_win32 =
     [ "Win32FSWrapper", "class_win32_1_1_win32_f_s_wrapper.html", "class_win32_1_1_win32_f_s_wrapper" ],
     [ "Win32Guid", "class_win32_1_1_win32_guid.html", "class_win32_1_1_win32_guid" ],
     [ "Win32Heap", "class_win32_1_1_win32_heap.html", "class_win32_1_1_win32_heap" ],
-    [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", "class_win32_1_1_win32_interlocked" ],
     [ "Win32IpAddress", "class_win32_1_1_win32_ip_address.html", "class_win32_1_1_win32_ip_address" ],
     [ "Win32Library", "class_win32_1_1_win32_library.html", "class_win32_1_1_win32_library" ],
     [ "Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", "class_win32_1_1_win32_memory_pool" ],

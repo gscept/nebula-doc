@@ -17,6 +17,7 @@ var vkcommandbuffer_8cc =
     [ "CmdCopy", "vkcommandbuffer_8cc.html#a2da127b005aab97a9af73a7d934e5478", null ],
     [ "CmdDispatch", "vkcommandbuffer_8cc.html#a2498ddf34e79711e93242ee2e896a451", null ],
     [ "CmdDraw", "vkcommandbuffer_8cc.html#a31ef943d1eb2c9a0693f4d8f4687d5f4", null ],
+    [ "CmdDraw", "vkcommandbuffer_8cc.html#a885f0e46d1c09c35f96dd4a6bce1892f", null ],
     [ "CmdDraw", "vkcommandbuffer_8cc.html#a4614187be42d6b31a3e912d1b628ebba", null ],
     [ "CmdDrawIndirect", "vkcommandbuffer_8cc.html#a6fad6ecd123771133bdf64209c7ff417", null ],
     [ "CmdDrawIndirectIndexed", "vkcommandbuffer_8cc.html#ac351021098d579f409449a5a952b3e4a", null ],

@@ -43,7 +43,7 @@ var struct_vulkan_1_1_graphics_device_state =
     [ "sparseQueueIdx", "struct_vulkan_1_1_graphics_device_state.html#a770ccf7b68bd7489c8984ddc80110399", null ],
     [ "transferQueueFamily", "struct_vulkan_1_1_graphics_device_state.html#a7b0c51d8083b1c0d33a7dc7a6c44b942", null ],
     [ "transferQueueIdx", "struct_vulkan_1_1_graphics_device_state.html#af94b2bba3c9d50a004b8c7f9fa2b4519", null ],
-    [ "uploadRingBuffers", "struct_vulkan_1_1_graphics_device_state.html#a295a4fceec685ffb7f95f7a279fd306e", null ],
+    [ "uploadRingBuffer", "struct_vulkan_1_1_graphics_device_state.html#ad6aaf6069b86f99323f97f7bdc4a9fab", null ],
     [ "usedExtensions", "struct_vulkan_1_1_graphics_device_state.html#a88b3d864a5cd31109f73dfe27b96ab3b", null ],
     [ "usedPhysicalExtensions", "struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d", null ],
     [ "usedQueueFamilies", "struct_vulkan_1_1_graphics_device_state.html#acd077a0101c254e22489919a53f16e36", null ],

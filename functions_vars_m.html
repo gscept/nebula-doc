@@ -209,14 +209,14 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>masks&#160;:&#160;<a class="el" href="class_characters_1_1_character_context.html#ab0bc98d532605879aa9d3d3a4651cdf9">Characters::CharacterContext</a></li>
 <li>masterTimer&#160;:&#160;<a class="el" href="class_frame_sync_1_1_frame_sync_timer.html#a80d28d67ed5fbd02b15cf25bbc724332">FrameSync::FrameSyncTimer</a></li>
 <li>mat4Array&#160;:&#160;<a class="el" href="class_util_1_1_variant.html#a017952e64672374ca1abbbf1631e314f">Util::Variant</a></li>
-<li>material&#160;:&#160;<a class="el" href="class_models_1_1_shader_state_node.html#a60ac8c403b867ba577411414a64a03d5">Models::ShaderStateNode</a>, <a class="el" href="struct_physics_1_1_material.html#a9262c851e6a33644838c3059508b8779">Physics::Material</a>, <a class="el" href="struct_terrain_1_1_biome_material.html#a25a71fd3a0b6e44019c253c40e097048">Terrain::BiomeMaterial</a>, <a class="el" href="struct_vegetation_1_1_vegetation_grass_setup.html#af5a97078ac6c5301674a1c242554234d">Vegetation::VegetationGrassSetup</a>, <a class="el" href="struct_vegetation_1_1_vegetation_mesh_setup.html#ae39e08fa58de173da2ab1c5cd8e1211e">Vegetation::VegetationMeshSetup</a>, <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a716040eea5ff80420370ec9adafb6ca5">Visibility::ObserverContext::VisibilityModelCommand</a></li>
+<li>material&#160;:&#160;<a class="el" href="class_models_1_1_shader_state_node.html#a60ac8c403b867ba577411414a64a03d5">Models::ShaderStateNode</a>, <a class="el" href="struct_physics_1_1_material.html#a9262c851e6a33644838c3059508b8779">Physics::Material</a>, <a class="el" href="struct_terrain_1_1_biome_material.html#a25a71fd3a0b6e44019c253c40e097048">Terrain::BiomeMaterial</a>, <a class="el" href="struct_terrain_1_1_biome_material_builder.html#a8a37fc946ab2b5b4c9e1130fd8933f3e">Terrain::BiomeMaterialBuilder</a>, <a class="el" href="struct_vegetation_1_1_vegetation_grass_setup.html#af5a97078ac6c5301674a1c242554234d">Vegetation::VegetationGrassSetup</a>, <a class="el" href="struct_vegetation_1_1_vegetation_mesh_setup.html#ae39e08fa58de173da2ab1c5cd8e1211e">Vegetation::VegetationMeshSetup</a>, <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_model_command.html#a716040eea5ff80420370ec9adafb6ca5">Visibility::ObserverContext::VisibilityModelCommand</a></li>
 <li>materialAllocator&#160;:&#160;<a class="el" href="class_materials_1_1_shader_config_server.html#adebdbcf63fd2cdb3707fa48856fa080c">Materials::ShaderConfigServer</a></li>
 <li>materialInstance&#160;:&#160;<a class="el" href="struct_models_1_1_model_context_1_1_node_instance_state.html#a5917dc9a944fffe6e346960e060764e6">Models::ModelContext::NodeInstanceState</a>, <a class="el" href="struct_models_1_1_shader_state_node_1_1_draw_packet.html#ae01c5e769e9b00992b7e732f68e21b2f">Models::ShaderStateNode::DrawPacket</a></li>
 <li>materialInstanceContexts&#160;:&#160;<a class="el" href="class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744">Models::ModelContext</a></li>
 <li>materialName&#160;:&#160;<a class="el" href="class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3">Models::ShaderStateNode</a></li>
 <li>materialNameTable&#160;:&#160;<a class="el" href="class_physics_1_1_physx_state.html#a25ba9e4e21ed42ed5fce45e320dcbf14">Physics::PhysxState</a></li>
 <li>materialRes&#160;:&#160;<a class="el" href="class_models_1_1_shader_state_node.html#a077216bda479757f274322f9dcdd0e1e">Models::ShaderStateNode</a></li>
-<li>materials&#160;:&#160;<a class="el" href="class_physics_1_1_physx_state.html#adfee4cac461197182be255b3e07c0c6f">Physics::PhysxState</a></li>
+<li>materials&#160;:&#160;<a class="el" href="class_physics_1_1_physx_state.html#adfee4cac461197182be255b3e07c0c6f">Physics::PhysxState</a>, <a class="el" href="struct_terrain_1_1_biome_settings.html#aed1c19a374d888fca125e63ce8abd07d">Terrain::BiomeSettings</a></li>
 <li>materialServer&#160;:&#160;<a class="el" href="class_graphics_1_1_graphics_server.html#a1311740fe01c0362f38d02d5bafb86e1">Graphics::GraphicsServer</a></li>
 <li>matrix&#160;:&#160;<a class="el" href="class_math_1_1transform44.html#aa79ad3ff11c9d81e0410c9d8feb3b058">Math::transform44</a></li>
 <li>max&#160;:&#160;<a class="el" href="struct_materials_1_1_shader_config_constant.html#a65dceb355e5fa38c6e71947c7ac045d8">Materials::ShaderConfigConstant</a></li>
@@ -357,7 +357,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:23:07 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

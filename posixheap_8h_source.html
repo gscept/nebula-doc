@@ -168,8 +168,8 @@ $(document).ready(function(){initNavTree('posixheap_8h_source.html',''); initRes
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_heap.html#a9a346a819b45de9dcc0b6ee3e094f9ea">   91</a></span><a class="code hl_function" href="class_posix_1_1_posix_heap.html#a9a346a819b45de9dcc0b6ee3e094f9ea">PosixHeap::Alloc</a>(<span class="keywordtype">size_t</span> size)</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>{</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    Threading::Interlocked::Increment(this-&gt;allocCount);</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    Threading::Interlocked::Add(this-&gt;allocSize, <span class="keywordtype">int</span>(size));</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#ac989408881d25da683d928e5a8b3e1df">Threading::Interlocked::Increment</a>(this-&gt;allocCount);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a63497491563697df2c57744633f516ad">Threading::Interlocked::Add</a>(this-&gt;allocSize, <span class="keywordtype">int</span>(size));</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordflow">return</span> malloc(size);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('posixheap_8h_source.html',''); initRes
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>{</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">size_t</span> curSize = HeapSize(this-&gt;heap, 0, ptr);</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    Threading::Interlocked::Add(this-&gt;allocSize, <span class="keywordtype">int</span>(size - curSize));</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a63497491563697df2c57744633f516ad">Threading::Interlocked::Add</a>(this-&gt;allocSize, <span class="keywordtype">int</span>(size - curSize));</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">return</span> realloc(ptr, size);</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>}</div>
@@ -196,8 +196,8 @@ $(document).ready(function(){initNavTree('posixheap_8h_source.html',''); initRes
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 != ptr);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">    #if NEBULA_MEMORY_STATS</span></div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">size_t</span> size = HeapSize(this-&gt;heap, 0, ptr);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    Threading::Interlocked::Add(this-&gt;allocSize, -<span class="keywordtype">int</span>(size));</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    Threading::Interlocked::Decrement(this-&gt;allocCount);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a63497491563697df2c57744633f516ad">Threading::Interlocked::Add</a>(this-&gt;allocSize, -<span class="keywordtype">int</span>(size));</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#a055cbde8bc3c233e20e140f077f151ff">Threading::Interlocked::Decrement</a>(this-&gt;allocCount);</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    free(ptr);</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>}</div>
@@ -225,6 +225,9 @@ $(document).ready(function(){initNavTree('posixheap_8h_source.html',''); initRes
 <div class="ttc" id="ainterlocked_8h_html"><div class="ttname"><a href="interlocked_8h.html">interlocked.h</a></div></div>
 <div class="ttc" id="alist_8h_html"><div class="ttname"><a href="list_8h.html">list.h</a></div></div>
 <div class="ttc" id="anamespace_posix_html"><div class="ttname"><a href="namespace_posix.html">Posix</a></div><div class="ttdoc">Posix implemention of a read-many write-few lock.</div><div class="ttdef"><b>Definition</b> posixsysfunc.cc:21</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_a055cbde8bc3c233e20e140f077f151ff"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#a055cbde8bc3c233e20e140f077f151ff">Threading::Interlocked::Decrement</a></div><div class="ttdeci">int Decrement(int volatile *var)</div><div class="ttdoc">interlocked decrement, return result</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:158</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_a63497491563697df2c57744633f516ad"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#a63497491563697df2c57744633f516ad">Threading::Interlocked::Add</a></div><div class="ttdeci">int Add(int volatile *var, int add)</div><div class="ttdoc">interlocked add</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:23</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_ac989408881d25da683d928e5a8b3e1df"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#ac989408881d25da683d928e5a8b3e1df">Threading::Interlocked::Increment</a></div><div class="ttdeci">int Increment(int volatile *var)</div><div class="ttdoc">interlocked increment, return result</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:149</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -233,7 +236,7 @@ $(document).ready(function(){initNavTree('posixheap_8h_source.html',''); initRes
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="dir_80f14fc2f23c119c66a6dd40ada12f99.html">posix</a></li><li class="navelem"><a class="el" href="posixheap_8h.html">posixheap.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:22:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

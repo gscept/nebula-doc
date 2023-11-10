@@ -2,8 +2,11 @@ var terraincontext_8h =
 [
     [ "Terrain::TerrainBiomeId", "struct_terrain_1_1_terrain_biome_id.html", null ],
     [ "Terrain::TerrainSetupSettings", "struct_terrain_1_1_terrain_setup_settings.html", "struct_terrain_1_1_terrain_setup_settings" ],
-    [ "Terrain::BiomeSetupSettings", "struct_terrain_1_1_biome_setup_settings.html", "struct_terrain_1_1_biome_setup_settings" ],
+    [ "Terrain::BiomeParameters", "struct_terrain_1_1_biome_parameters.html", "struct_terrain_1_1_biome_parameters" ],
     [ "Terrain::BiomeMaterial", "struct_terrain_1_1_biome_material.html", "struct_terrain_1_1_biome_material" ],
+    [ "Terrain::BiomeMaterialBuilder", "struct_terrain_1_1_biome_material_builder.html", "struct_terrain_1_1_biome_material_builder" ],
+    [ "Terrain::BiomeSettings", "struct_terrain_1_1_biome_settings.html", "struct_terrain_1_1_biome_settings" ],
+    [ "Terrain::BiomeSettingsBuilder", "struct_terrain_1_1_biome_settings_builder.html", "struct_terrain_1_1_biome_settings_builder" ],
     [ "Terrain::SubTextureUpdateJobUniforms", "struct_terrain_1_1_sub_texture_update_job_uniforms.html", "struct_terrain_1_1_sub_texture_update_job_uniforms" ],
     [ "Terrain::SubTextureUpdateJobOutput", "struct_terrain_1_1_sub_texture_update_job_output.html", "struct_terrain_1_1_sub_texture_update_job_output" ],
     [ "Terrain::TerrainContext", "class_terrain_1_1_terrain_context.html", "class_terrain_1_1_terrain_context" ],

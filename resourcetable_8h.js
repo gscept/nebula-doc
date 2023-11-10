@@ -14,6 +14,7 @@ var resourcetable_8h =
     [ "CoreGraphics::ResourceTableBuffer", "struct_core_graphics_1_1_resource_table_buffer.html", "struct_core_graphics_1_1_resource_table_buffer" ],
     [ "CoreGraphics::ResourceTableSampler", "struct_core_graphics_1_1_resource_table_sampler.html", "struct_core_graphics_1_1_resource_table_sampler" ],
     [ "CoreGraphics::ResourceTableCreateInfo", "struct_core_graphics_1_1_resource_table_create_info.html", "struct_core_graphics_1_1_resource_table_create_info" ],
+    [ "CoreGraphics::ResourceTableSet", "struct_core_graphics_1_1_resource_table_set.html", "struct_core_graphics_1_1_resource_table_set" ],
     [ "CoreGraphics::ResourcePipelineId", "struct_core_graphics_1_1_resource_pipeline_id.html", null ],
     [ "CoreGraphics::ResourcePipelinePushConstantRange", "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html", "struct_core_graphics_1_1_resource_pipeline_push_constant_range" ],
     [ "CoreGraphics::ResourcePipelineCreateInfo", "struct_core_graphics_1_1_resource_pipeline_create_info.html", "struct_core_graphics_1_1_resource_pipeline_create_info" ],

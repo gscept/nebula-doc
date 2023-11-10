@@ -1,5 +1,6 @@
 var namespace_threading =
 [
+    [ "Interlocked", "namespace_threading_1_1_interlocked.html", "namespace_threading_1_1_interlocked" ],
     [ "AssertingMutex", "class_threading_1_1_asserting_mutex.html", "class_threading_1_1_asserting_mutex" ],
     [ "AssertingScope", "struct_threading_1_1_asserting_scope.html", "struct_threading_1_1_asserting_scope" ],
     [ "CriticalScope", "struct_threading_1_1_critical_scope.html", "struct_threading_1_1_critical_scope" ],

@@ -108,7 +108,13 @@ $(document).ready(function(){initNavTree('namespace_terrain.html',''); initResiz
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_material.html">BiomeMaterial</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_setup_settings.html">BiomeSetupSettings</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_material_builder.html">BiomeMaterialBuilder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_parameters.html">BiomeParameters</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_settings.html">BiomeSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_biome_settings_builder.html">BiomeSettingsBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_terrain_1_1_indirection_entry.html">IndirectionEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,10 +293,14 @@ Variables</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa336147f0996c950baafbf7d98e202f1" id="r_aa336147f0996c950baafbf7d98e202f1"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a4ba249c22935432a4cc97d1a25acacbb">Terrain::terrainPrepassProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aa336147f0996c950baafbf7d98e202f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba8192aa4e5419f5a291b3b70952c2b" id="r_a5ba8192aa4e5419f5a291b3b70952c2b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_pipeline_id.html">CoreGraphics::PipelineId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a04a89a43033eaa4b897a8131bedb0ecc">Terrain::terrainPrepassPipeline</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5ba8192aa4e5419f5a291b3b70952c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae2c045ad264fd46d3074c53f3743b09" id="r_aae2c045ad264fd46d3074c53f3743b09"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a843f9bea467efec8b6f1b3dc72329a9c">Terrain::terrainPageClearUpdateBufferProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aae2c045ad264fd46d3074c53f3743b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8294fd005225cb5f5dc02433dabe1c" id="r_a8c8294fd005225cb5f5dc02433dabe1c"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a25d57ee96b2c8ae8cbe5f04179659d47">Terrain::terrainScreenspacePass</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a8c8294fd005225cb5f5dc02433dabe1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ea0ae4bb85211e0eaaf090962ed040" id="r_a91ea0ae4bb85211e0eaaf090962ed040"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a78b6c4158d55facea17195ef60d2c16f">Terrain::terrainResolveProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a91ea0ae4bb85211e0eaaf090962ed040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db7be1b146cc9a451709c10974d87ec" id="r_a1db7be1b146cc9a451709c10974d87ec"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_pipeline_id.html">CoreGraphics::PipelineId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#aed15452570074719bab40ac21473fa15">Terrain::terrainResolvePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a1db7be1b146cc9a451709c10974d87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e6064e162a02d59b4991be1f82817f8" id="r_a0e6064e162a02d59b4991be1f82817f8"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a148aa60d45e644ccfc71a3f8ce5de616">Terrain::terrainTileUpdateProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a0e6064e162a02d59b4991be1f82817f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d6f1efaba13c53641fa9a184e36017b" id="r_a9d6f1efaba13c53641fa9a184e36017b"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a424c386d9b633ee96b823bd8aa535bf7">Terrain::terrainTileFallbackProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -311,6 +321,10 @@ Variables</h2></td></tr>
 <tr class="separator:ab4260124f04e351fdcc4e762f8a54f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af693a40f67c9dfc0e27b35d7f40095c9" id="r_af693a40f67c9dfc0e27b35d7f40095c9"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#ae3c92fba8060eefa7edbcd275fbab307">Terrain::pageStatusBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:af693a40f67c9dfc0e27b35d7f40095c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afceb52403b857ea140b3b61d9992f629" id="r_afceb52403b857ea140b3b61d9992f629"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a84e892accb95600d9fe4bc2c5367b870">Terrain::numPatchesThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:afceb52403b857ea140b3b61d9992f629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ffd3a1652e5bee9c11553bdbed5906" id="r_ab4ffd3a1652e5bee9c11553bdbed5906"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_set.html">CoreGraphics::BufferSet</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a2cd0c1fea8e2b80cbf8025d4e4d122b2">Terrain::patchConstants</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab4ffd3a1652e5bee9c11553bdbed5906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d86cb511c6c7603f8f8a0fb3046ed1" id="r_ad8d86cb511c6c7603f8f8a0fb3046ed1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a62e7458b84e72caf52ba2a793ed8e4be">Terrain::runtimeConstants</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ad8d86cb511c6c7603f8f8a0fb3046ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ee66a41a3bfdf602e0d4192d37907cb" id="r_a5ee66a41a3bfdf602e0d4192d37907cb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a454bb5a7702594ef915ad5e60a94f6aa">Terrain::physicalAlbedoCache</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -327,8 +341,8 @@ Variables</h2></td></tr>
 <tr class="separator:a0697141333694bba014d423d107ce6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ac469938dc9adb709354f0daee9952" id="r_a81ac469938dc9adb709354f0daee9952"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#aa08a96b3e349c422740d03c235bcc7e6">Terrain::updateLowres</a> = false&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a81ac469938dc9adb709354f0daee9952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1488f06b25d27aeef5eb681b578c54d7" id="r_a1488f06b25d27aeef5eb681b578c54d7"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a41c0c288d15c52d7f890b0bc7209574e">Terrain::virtualTerrainSystemResourceTable</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a1488f06b25d27aeef5eb681b578c54d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79109035bde7cb6fbec9fe1b3f45afe" id="r_ab79109035bde7cb6fbec9fe1b3f45afe"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a9ec7dee7cd2940b4f1e24564f44c57bf">Terrain::virtualTerrainSystemResourceTable</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab79109035bde7cb6fbec9fe1b3f45afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a8719f8815add427a429a4e9be5443" id="r_a48a8719f8815add427a429a4e9be5443"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a2dd5513d2f82737069b1d2c056dc8fdd">Terrain::virtualTerrainRuntimeResourceTable</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a48a8719f8815add427a429a4e9be5443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af82edf81453ca7726776273e5c9cb813" id="r_af82edf81453ca7726776273e5c9cb813"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a5e249a11815e5f3556e96ddca08197ab">Terrain::virtualTerrainDynamicResourceTable</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -369,6 +383,10 @@ Variables</h2></td></tr>
 <tr class="separator:a671706c1e15a8901df9a4f147e377d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e6b289dd91c1a26c0991ab17f50a4d" id="r_ab0e6b289dd91c1a26c0991ab17f50a4d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_terrain_1_1_physical_tile_update.html">PhysicalTileUpdate</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#abc9aa054d4d5d46afe18c012f896f5ac">Terrain::pageUpdatesThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ab0e6b289dd91c1a26c0991ab17f50a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4013163e441a329d66141e6b615fad2a" id="r_a4013163e441a329d66141e6b615fad2a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a0088c0d4b2ee0dd7cfeadc68a6e1e9a2">Terrain::uploadClearBufferThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a4013163e441a329d66141e6b615fad2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf84a2e344bf9f0b771d09de0ea8052" id="r_a8cf84a2e344bf9f0b771d09de0ea8052"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#acbccc1f4fc80c90c7df42985edf4dc11">Terrain::uploadUpdateBufferThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a8cf84a2e344bf9f0b771d09de0ea8052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfc814176d7872d93f12049fd9200670" id="r_adfc814176d7872d93f12049fd9200670"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_copy.html">CoreGraphics::BufferCopy</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a44844cda31be6c730e883479a483bf73">Terrain::indirectionBufferUpdatesThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:adfc814176d7872d93f12049fd9200670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6a99edd53a623b563b8e060de760fe1" id="r_af6a99edd53a623b563b8e060de760fe1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_copy.html">CoreGraphics::TextureCopy</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#ab42f1499614296b95e6ea642eec672ef">Terrain::indirectionTextureUpdatesThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -1336,6 +1354,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a84e892accb95600d9fe4bc2c5367b870" name="a84e892accb95600d9fe4bc2c5367b870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e892accb95600d9fe4bc2c5367b870">&#9670;&#160;</a></span>numPatchesThisFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> Terrain::numPatchesThisFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9853c2b5377aa6b34eba8fee9378fc84" name="a9853c2b5377aa6b34eba8fee9378fc84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9853c2b5377aa6b34eba8fee9378fc84">&#9670;&#160;</a></span>numPixels</h2>
 
@@ -1414,6 +1446,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_terrain_1_1_physical_tile_update.html">PhysicalTileUpdate</a>&gt; Terrain::pageUpdatesThisFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cd0c1fea8e2b80cbf8025d4e4d122b2" name="a2cd0c1fea8e2b80cbf8025d4e4d122b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd0c1fea8e2b80cbf8025d4e4d122b2">&#9670;&#160;</a></span>patchConstants</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_set.html">CoreGraphics::BufferSet</a> Terrain::patchConstants</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1924,6 +1970,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a04a89a43033eaa4b897a8131bedb0ecc" name="a04a89a43033eaa4b897a8131bedb0ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a89a43033eaa4b897a8131bedb0ecc">&#9670;&#160;</a></span>terrainPrepassPipeline</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">CoreGraphics::PipelineId</a> Terrain::terrainPrepassPipeline</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ba249c22935432a4cc97d1a25acacbb" name="a4ba249c22935432a4cc97d1a25acacbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ba249c22935432a4cc97d1a25acacbb">&#9670;&#160;</a></span>terrainPrepassProgram</h2>
 
@@ -1938,14 +1998,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a25d57ee96b2c8ae8cbe5f04179659d47" name="a25d57ee96b2c8ae8cbe5f04179659d47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25d57ee96b2c8ae8cbe5f04179659d47">&#9670;&#160;</a></span>terrainScreenspacePass</h2>
+<a id="aed15452570074719bab40ac21473fa15" name="aed15452570074719bab40ac21473fa15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed15452570074719bab40ac21473fa15">&#9670;&#160;</a></span>terrainResolvePipeline</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">CoreGraphics::ShaderProgramId Terrain::terrainScreenspacePass</td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">CoreGraphics::PipelineId</a> Terrain::terrainResolvePipeline</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78b6c4158d55facea17195ef60d2c16f" name="a78b6c4158d55facea17195ef60d2c16f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b6c4158d55facea17195ef60d2c16f">&#9670;&#160;</a></span>terrainResolveProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::ShaderProgramId Terrain::terrainResolveProgram</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2148,6 +2222,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0088c0d4b2ee0dd7cfeadc68a6e1e9a2" name="a0088c0d4b2ee0dd7cfeadc68a6e1e9a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0088c0d4b2ee0dd7cfeadc68a6e1e9a2">&#9670;&#160;</a></span>uploadClearBufferThisFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Terrain::uploadClearBufferThisFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbccc1f4fc80c90c7df42985edf4dc11" name="acbccc1f4fc80c90c7df42985edf4dc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbccc1f4fc80c90c7df42985edf4dc11">&#9670;&#160;</a></span>uploadUpdateBufferThisFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Terrain::uploadUpdateBufferThisFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a92b8f67b3e0fcc835a04ed9ee599acf1" name="a92b8f67b3e0fcc835a04ed9ee599acf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92b8f67b3e0fcc835a04ed9ee599acf1">&#9670;&#160;</a></span>virtualSubtextureBufferUpdate</h2>
 
@@ -2190,14 +2292,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a41c0c288d15c52d7f890b0bc7209574e" name="a41c0c288d15c52d7f890b0bc7209574e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c0c288d15c52d7f890b0bc7209574e">&#9670;&#160;</a></span>virtualTerrainSystemResourceTable</h2>
+<a id="a9ec7dee7cd2940b4f1e24564f44c57bf" name="a9ec7dee7cd2940b4f1e24564f44c57bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec7dee7cd2940b4f1e24564f44c57bf">&#9670;&#160;</a></span>virtualTerrainSystemResourceTable</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> Terrain::virtualTerrainSystemResourceTable</td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a> Terrain::virtualTerrainSystemResourceTable</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2239,7 +2341,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_terrain.html">Terrain</a></li>
 				<li class="footer">
-					Generated on Wed Nov 8 2023 22:09:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 17:23:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
