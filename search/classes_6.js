@@ -20,7 +20,7 @@ var searchData=
   ['filewatcherplatform_17',['FileWatcherPlatform',['../struct_i_o_1_1_file_watcher_platform.html',1,'IO']]],
   ['filterbuilder_18',['FilterBuilder',['../class_game_1_1_filter_builder.html',1,'Game']]],
   ['filtercreateinfo_19',['FilterCreateInfo',['../struct_game_1_1_filter_builder_1_1_filter_create_info.html',1,'Game::FilterBuilder']]],
-  ['filterset_20',['filterset',['../class_db_1_1_filter_set.html',1,'Db::FilterSet'],['../class_mem_db_1_1_filterset.html',1,'Filterset'],['../class_mem_db_1_1_filter_set.html',1,'MemDb::FilterSet']]],
+  ['filterset_20',['filterset',['../class_db_1_1_filter_set.html',1,'Db::FilterSet'],['../class_mem_db_1_1_filter_set.html',1,'MemDb::FilterSet'],['../class_mem_db_1_1_filterset.html',1,'Filterset']]],
   ['fixedarray_21',['FixedArray',['../class_util_1_1_fixed_array.html',1,'Util']]],
   ['fixedarray_3c_20base_3a_3agamepadbase_3a_3abuttonstate_20_3e_22',['FixedArray&lt; Base::GamePadBase::ButtonState &gt;',['../class_util_1_1_fixed_array.html',1,'Util']]],
   ['fixedarray_3c_20base_3a_3akeyboardbase_3a_3akeystate_20_3e_23',['FixedArray&lt; Base::KeyboardBase::KeyState &gt;',['../class_util_1_1_fixed_array.html',1,'Util']]],

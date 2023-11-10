@@ -103,7 +103,9 @@ $(document).ready(function(){initNavTree('struct_math_1_1quat.html',''); initRes
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A quaternion is usually used to represent an orientation in 3D space. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
-</div><table class="memberdecls">
+</div>
+<p>Inherited by <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a>.</p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fce55b556e2fff2fb4006734174de8c" id="r_a2fce55b556e2fff2fb4006734174de8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#a2fce55b556e2fff2fb4006734174de8c">quat</a> ()</td></tr>
@@ -145,6 +147,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5288be7caaa02f267843c2d09e5492ad" id="r_a5288be7caaa02f267843c2d09e5492ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#a5288be7caaa02f267843c2d09e5492ad">stream</a> (<a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> *ptr) const</td></tr>
 <tr class="memdesc:a5288be7caaa02f267843c2d09e5492ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream content to 16-byte-aligned memory circumventing the write-cache  <br /></td></tr>
 <tr class="separator:a5288be7caaa02f267843c2d09e5492ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af545f90f112163feeebf35efb8580d4e" id="r_af545f90f112163feeebf35efb8580d4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e">x_axis</a> () const</td></tr>
+<tr class="memdesc:af545f90f112163feeebf35efb8580d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the x axis of the cartesian coordinate system that this quaternion represents  <br /></td></tr>
+<tr class="separator:af545f90f112163feeebf35efb8580d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163ddf76bfca7d2213e2ec63e496b1b1" id="r_a163ddf76bfca7d2213e2ec63e496b1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#a163ddf76bfca7d2213e2ec63e496b1b1">y_axis</a> () const</td></tr>
+<tr class="memdesc:a163ddf76bfca7d2213e2ec63e496b1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the y axis of the cartesian coordinate system that this quaternion represents  <br /></td></tr>
+<tr class="separator:a163ddf76bfca7d2213e2ec63e496b1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcbd72c5feeea14508e157e4fc070dc5" id="r_afcbd72c5feeea14508e157e4fc070dc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5">z_axis</a> () const</td></tr>
+<tr class="memdesc:afcbd72c5feeea14508e157e4fc070dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the z axis of the cartesian coordinate system that this quaternion represents  <br /></td></tr>
+<tr class="separator:afcbd72c5feeea14508e157e4fc070dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e635b531c83ea8bae9fe09df8443f7" id="r_ab3e635b531c83ea8bae9fe09df8443f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7">set</a> (<a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="struct_math_1_1quat.html#aca8226cc2ce032fae41103fa58dc54db">x</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="struct_math_1_1quat.html#a09ba3cef83abca0599df75ec5c1848b4">y</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="struct_math_1_1quat.html#ab67cf54268e54bfa7934a3570c7af0ff">z</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="struct_math_1_1quat.html#abf74f5288260c8742755147f70be99a8">w</a>)</td></tr>
 <tr class="memdesc:ab3e635b531c83ea8bae9fe09df8443f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">set content  <br /></td></tr>
 <tr class="separator:ab3e635b531c83ea8bae9fe09df8443f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -535,6 +546,63 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="af545f90f112163feeebf35efb8580d4e" name="af545f90f112163feeebf35efb8580d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af545f90f112163feeebf35efb8580d4e">&#9670;&#160;</a></span>x_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a> Math::quat::x_axis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the x axis of the cartesian coordinate system that this quaternion represents </p>
+
+</div>
+</div>
+<a id="a163ddf76bfca7d2213e2ec63e496b1b1" name="a163ddf76bfca7d2213e2ec63e496b1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a163ddf76bfca7d2213e2ec63e496b1b1">&#9670;&#160;</a></span>y_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a> Math::quat::y_axis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the y axis of the cartesian coordinate system that this quaternion represents </p>
+
+</div>
+</div>
+<a id="afcbd72c5feeea14508e157e4fc070dc5" name="afcbd72c5feeea14508e157e4fc070dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcbd72c5feeea14508e157e4fc070dc5">&#9670;&#160;</a></span>z_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a> Math::quat::z_axis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the z axis of the cartesian coordinate system that this quaternion represents </p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Symbol Documentation</h2>
 <a id="aa381696734d877b3456fdf7879e538a4" name="aa381696734d877b3456fdf7879e538a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa381696734d877b3456fdf7879e538a4">&#9670;&#160;</a></span>mat4</h2>
@@ -653,7 +721,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="struct_math_1_1quat.html">quat</a></li>
 				<li class="footer">
-					Generated on Fri Nov 10 2023 17:23:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 21:29:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

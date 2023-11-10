@@ -16,6 +16,7 @@ var quat_8h =
     [ "quatExp", "quat_8h.html#a89b80ccc2b34aed195b390dfc96f40c3", null ],
     [ "quatUndenormalize", "quat_8h.html#adb24b5f9c60ed4a3efd14e33726d6bad", null ],
     [ "quatyawpitchroll", "quat_8h.html#abf35a34ce76751d53dda6c51f04ebff1", null ],
+    [ "rotate", "quat_8h.html#aee96441f1021c61efe37c715e80a44fd", null ],
     [ "rotationmatrix", "quat_8h.html#a23276864c9df51a9a293c084e52a01a7", null ],
     [ "rotationquataxis", "quat_8h.html#aefa31214f9bdbfa197f42f4c294635b4", null ],
     [ "slerp", "quat_8h.html#a4888e237383d5fa2f0c694ab75a8627f", null ],

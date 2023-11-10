@@ -135,6 +135,11 @@ var namespace_i_o =
     [ "__ImplementMsgId", "namespace_i_o.html#a761e6468133f660b4fe36df8614491ae", null ],
     [ "__ImplementSingleton", "namespace_i_o.html#a19f3032b3d248443f4e1570efd7c5224", null ],
     [ "__ImplementSingleton", "namespace_i_o.html#adfd5006b775992f27c399c9789b92f6b", null ],
+    [ "JsonReader::Get< Game::AngularVelocity >", "namespace_i_o.html#a818d323a937a2f9fbd8d9db81056fb80", null ],
+    [ "JsonReader::Get< Game::Orientation >", "namespace_i_o.html#a2865eafb22ae876968c29f7fc8707850", null ],
+    [ "JsonReader::Get< Game::Position >", "namespace_i_o.html#a4414bbc19f866da0d56b9260ce02f1f2", null ],
+    [ "JsonReader::Get< Game::Scale >", "namespace_i_o.html#a68a026fbb028a10d7b4725a9b889d3ba", null ],
+    [ "JsonReader::Get< Game::Velocity >", "namespace_i_o.html#a0c7f021c9836844f039b460d26228dae", null ],
     [ "JsonReader::Get< Math::int2 >", "namespace_i_o.html#a135ba51793a0af47b0b515ddd92e0126", null ],
     [ "JsonReader::Get< Math::int2 >", "namespace_i_o.html#a135ba51793a0af47b0b515ddd92e0126", null ],
     [ "JsonReader::Get< Math::mat4 >", "namespace_i_o.html#ac64e39e0b3dce1eb4d00fbb518660cc0", null ],
@@ -179,5 +184,10 @@ var namespace_i_o =
     [ "JsonReader::GetOpt< Util::Array< Util::String > >", "namespace_i_o.html#a11c4888140cb43623de67da1ce076c74", null ],
     [ "JsonReader::GetOpt< Util::Array< Util::String > >", "namespace_i_o.html#a11c4888140cb43623de67da1ce076c74", null ],
     [ "JsonReader::GetOpt< Util::String >", "namespace_i_o.html#a1cad2ff7b466e02ab2ce25afdb48024c", null ],
-    [ "JsonReader::GetOpt< Util::String >", "namespace_i_o.html#a1cad2ff7b466e02ab2ce25afdb48024c", null ]
+    [ "JsonReader::GetOpt< Util::String >", "namespace_i_o.html#a1cad2ff7b466e02ab2ce25afdb48024c", null ],
+    [ "JsonWriter::Add< Game::AngularVelocity >", "namespace_i_o.html#a14d3f802d02b43f1032b502575d6df5e", null ],
+    [ "JsonWriter::Add< Game::Orientation >", "namespace_i_o.html#a3d9fce7d181cc3396e7df94bb5f06ee6", null ],
+    [ "JsonWriter::Add< Game::Position >", "namespace_i_o.html#ac82b1bf4632c204bf508713efdaa9309", null ],
+    [ "JsonWriter::Add< Game::Scale >", "namespace_i_o.html#accabed4ffbc5c1de416fdd6cb86394f2", null ],
+    [ "JsonWriter::Add< Game::Velocity >", "namespace_i_o.html#a9e33e07568e26f878092695b673be538", null ]
 ];

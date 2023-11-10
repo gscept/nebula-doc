@@ -43,6 +43,7 @@ var mat4_8h =
     [ "translation", "mat4_8h.html#a9aa096dd00d03acd7ef9d27c6ac44d0d", null ],
     [ "translation", "mat4_8h.html#a4d58b8a571fe3d1246601493191bf6c3", null ],
     [ "transpose", "mat4_8h.html#aeb4cbe38460910f2a4c81a04f77624c2", null ],
+    [ "trs", "mat4_8h.html#a3eec12d1b9924b3448cd9f0c3073c027", null ],
     [ "maskW", "mat4_8h.html#aa08d02d82bc77a47ef571ced0b753922", null ],
     [ "maskX", "mat4_8h.html#af7bd9928fe931e2928df8e327b83fb92", null ],
     [ "maskY", "mat4_8h.html#ae066c8f947c56ff3791c56d630ce5fe4", null ],

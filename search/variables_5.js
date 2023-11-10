@@ -10,7 +10,7 @@ var searchData=
   ['emissionstarttimeoffset_7',['emissionStartTimeOffset',['../struct_particles_1_1_particle_context_1_1_particle_runtime.html#aa1746f47c3fd89c54bf26c9578b3357c',1,'Particles::ParticleContext::ParticleRuntime']]],
   ['emissivedecalallocator_8',['emissiveDecalAllocator',['../class_decals_1_1_decal_context.html#aefc86009c2b744d4464646e8007ef9f5',1,'Decals::DecalContext']]],
   ['emissivedecals_9',['emissiveDecals',['../namespace_decals.html#ac0d27b3153e590a03eb7faadc98cd79d',1,'Decals']]],
-  ['emitterallocator_10',['emitterAllocator',['../class_audio_1_1_audio_device.html#a099ab155bc3ae2619e8f2fcea8c2f9bd',1,'Audio::AudioDevice']]],
+  ['emitterallocator_10',['emitterAllocator',['../class_audio_1_1_audio_device.html#a224520a0ee63ec0eb961e71da1c28492',1,'Audio::AudioDevice']]],
   ['emitterattrs_11',['emitterAttrs',['../class_models_1_1_particle_system_node.html#a98c0b11f8e9f53363bddeac4cdb44b3b',1,'Models::ParticleSystemNode']]],
   ['emittermesh_12',['emitterMesh',['../class_models_1_1_particle_system_node.html#a576014c5e4c126d8d11beda6550bd579',1,'Models::ParticleSystemNode']]],
   ['emptyrectangle_13',['emptyRectangle',['../struct_mathf_1_1_rectangle.html#ae485228e36c17365f30cbf4f6eacf4a6',1,'Mathf::Rectangle']]],

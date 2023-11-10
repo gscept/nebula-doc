@@ -126,6 +126,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ace5fe68b654e8c5c5db404eccf9cded2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdf823c0c0f7cb91c92a119532f7b46b" id="r_abdf823c0c0f7cb91c92a119532f7b46b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_actor_context.html#abdf823c0c0f7cb91c92a119532f7b46b">GetTransform</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
 <tr class="separator:abdf823c0c0f7cb91c92a119532f7b46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963f49c0c0c56b904a45999c39e092f2" id="r_a963f49c0c0c56b904a45999c39e092f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_actor_context.html#a963f49c0c0c56b904a45999c39e092f2">SetPositionOrientation</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;position, <a class="el" href="struct_math_1_1quat.html">Math::quat</a> const &amp;orientation)</td></tr>
+<tr class="separator:a963f49c0c0c56b904a45999c39e092f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1ba2bd590955f52a04f55ae1b61aa2" id="r_a4a1ba2bd590955f52a04f55ae1b61aa2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_actor_context.html#a4a1ba2bd590955f52a04f55ae1b61aa2">GetPositionOrientation</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;position, <a class="el" href="struct_math_1_1quat.html">Math::quat</a> &amp;orientation)</td></tr>
+<tr class="separator:a4a1ba2bd590955f52a04f55ae1b61aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7ca581d9d60f3a28d9a2480a6ff5f4c" id="r_ae7ca581d9d60f3a28d9a2480a6ff5f4c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_actor_context.html#ae7ca581d9d60f3a28d9a2480a6ff5f4c">SetLinearVelocity</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id, <a class="el" href="struct_math_1_1vector.html">Math::vector</a> speed)</td></tr>
 <tr class="separator:ae7ca581d9d60f3a28d9a2480a6ff5f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e63d566b59c2e55cb8c472eaf2ddd49" id="r_a4e63d566b59c2e55cb8c472eaf2ddd49"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_math_1_1vector.html">Math::vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_actor_context.html#a4e63d566b59c2e55cb8c472eaf2ddd49">GetLinearVelocity</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
@@ -581,6 +585,48 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a1ba2bd590955f52a04f55ae1b61aa2" name="a4a1ba2bd590955f52a04f55ae1b61aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a1ba2bd590955f52a04f55ae1b61aa2">&#9670;&#160;</a></span>GetPositionOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ActorContext::GetPositionOrientation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1quat.html">Math::quat</a> &amp;&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af909a9ff0a4989358d6334dc6a840a68" name="af909a9ff0a4989358d6334dc6a840a68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af909a9ff0a4989358d6334dc6a840a68">&#9670;&#160;</a></span>GetPxActor()</h2>
 
@@ -761,6 +807,48 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a963f49c0c0c56b904a45999c39e092f2" name="a963f49c0c0c56b904a45999c39e092f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963f49c0c0c56b904a45999c39e092f2">&#9670;&#160;</a></span>SetPositionOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ActorContext::SetPositionOrientation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1quat.html">Math::quat</a> const &amp;&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ace5fe68b654e8c5c5db404eccf9cded2" name="ace5fe68b654e8c5c5db404eccf9cded2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace5fe68b654e8c5c5db404eccf9cded2">&#9670;&#160;</a></span>SetTransform()</h2>
 
@@ -898,7 +986,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li><li class="navelem"><a class="el" href="class_physics_1_1_actor_context.html">ActorContext</a></li>
 				<li class="footer">
-					Generated on Fri Nov 10 2023 17:23:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 21:29:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

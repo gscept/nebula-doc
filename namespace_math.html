@@ -317,6 +317,9 @@ Functions</h2></td></tr>
 <tr class="separator:a4d58b8a571fe3d1246601493191bf6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa096dd00d03acd7ef9d27c6ac44d0d" id="r_a9aa096dd00d03acd7ef9d27c6ac44d0d"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a9aa096dd00d03acd7ef9d27c6ac44d0d">translation</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;t)</td></tr>
 <tr class="separator:a9aa096dd00d03acd7ef9d27c6ac44d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eec12d1b9924b3448cd9f0c3073c027" id="r_a3eec12d1b9924b3448cd9f0c3073c027"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a3eec12d1b9924b3448cd9f0c3073c027">trs</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;position, const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;rotation, const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;scale)</td></tr>
+<tr class="memdesc:a3eec12d1b9924b3448cd9f0c3073c027"><td class="mdescLeft">&#160;</td><td class="mdescRight">A short hand for creating a TRS (translation, rotation, scale) matrix from pos, rot and scale.  <br /></td></tr>
+<tr class="separator:a3eec12d1b9924b3448cd9f0c3073c027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb4cbe38460910f2a4c81a04f77624c2" id="r_aeb4cbe38460910f2a4c81a04f77624c2"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aeb4cbe38460910f2a4c81a04f77624c2">transpose</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
 <tr class="separator:aeb4cbe38460910f2a4c81a04f77624c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae25ca97d65e13a62c089394ede63291a" id="r_ae25ca97d65e13a62c089394ede63291a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ae25ca97d65e13a62c089394ede63291a">get_normal</a> (const <a class="el" href="struct_math_1_1plane.html">plane</a> &amp;<a class="el" href="struct_math_1_1plane.html">plane</a>)</td></tr>
@@ -391,6 +394,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4888e237383d5fa2f0c694ab75a8627f" id="r_a4888e237383d5fa2f0c694ab75a8627f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a4888e237383d5fa2f0c694ab75a8627f">slerp</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q1, const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q2, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> t)</td></tr>
 <tr class="memdesc:a4888e237383d5fa2f0c694ab75a8627f"><td class="mdescLeft">&#160;</td><td class="mdescRight">quat slerp TODO: rewrite using sse/avx  <br /></td></tr>
 <tr class="separator:a4888e237383d5fa2f0c694ab75a8627f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee96441f1021c61efe37c715e80a44fd" id="r_aee96441f1021c61efe37c715e80a44fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aee96441f1021c61efe37c715e80a44fd">rotate</a> (<a class="el" href="struct_math_1_1quat.html">quat</a> const  &amp;q, <a class="el" href="struct_math_1_1vec3.html">vec3</a> const  &amp;v)</td></tr>
+<tr class="memdesc:aee96441f1021c61efe37c715e80a44fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate a vector by a quaternion.  <br /></td></tr>
+<tr class="separator:aee96441f1021c61efe37c715e80a44fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8fade730a82a342575de6a23910fc16" id="r_aa8fade730a82a342575de6a23910fc16"><td class="memItemLeft" align="right" valign="top">__forceinline bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aa8fade730a82a342575de6a23910fc16">isidentity</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q)</td></tr>
 <tr class="separator:aa8fade730a82a342575de6a23910fc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcd87d43acafba4730bb160d8e17a99" id="r_a4fcd87d43acafba4730bb160d8e17a99"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a4fcd87d43acafba4730bb160d8e17a99">length</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q)</td></tr>
@@ -7971,6 +7977,37 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="aee96441f1021c61efe37c715e80a44fd" name="aee96441f1021c61efe37c715e80a44fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee96441f1021c61efe37c715e80a44fd">&#9670;&#160;</a></span>rotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a> Math::rotate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1quat.html">quat</a> const &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">vec3</a> const &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotate a vector by a quaternion. </p>
+<p><a href="https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/">https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/</a> </p>
+
+</div>
+</div>
 <a id="a43b8e2e8a6c4a35f1c22cc926ec1629c" name="a43b8e2e8a6c4a35f1c22cc926ec1629c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b8e2e8a6c4a35f1c22cc926ec1629c">&#9670;&#160;</a></span>rotationaxis()</h2>
 
@@ -9112,6 +9149,42 @@ template&lt;int x, int y, int z, int w&gt; </div>
 
 </div>
 </div>
+<a id="a3eec12d1b9924b3448cd9f0c3073c027" name="a3eec12d1b9924b3448cd9f0c3073c027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eec12d1b9924b3448cd9f0c3073c027">&#9670;&#160;</a></span>trs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::trs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A short hand for creating a TRS (translation, rotation, scale) matrix from pos, rot and scale. </p>
+
+</div>
+</div>
 <a id="a149b1a0c5da30db4c59f729b478db844" name="a149b1a0c5da30db4c59f729b478db844"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a149b1a0c5da30db4c59f729b478db844">&#9670;&#160;</a></span>undenormalize()</h2>
 
@@ -9616,7 +9689,7 @@ template&lt;int x, int y, int z, int w&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li>
 				<li class="footer">
-					Generated on Fri Nov 10 2023 17:23:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 21:29:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

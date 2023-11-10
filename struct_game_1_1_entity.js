@@ -1,5 +1,6 @@
 var struct_game_1_1_entity =
 [
+    [ "Traits", "struct_game_1_1_entity_1_1_traits.html", "struct_game_1_1_entity_1_1_traits" ],
     [ "Entity", "struct_game_1_1_entity.html#a638803aebf543e90cb2f55e196c853f9", null ],
     [ "Entity", "struct_game_1_1_entity.html#adc1498ea83e39dc1e2a225ff86f82dd4", null ],
     [ "Entity", "struct_game_1_1_entity.html#a1bac7ade3bb2536741b7f6e72655b07c", null ],

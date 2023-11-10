@@ -403,6 +403,7 @@ var annotated_dup =
         [ "State", "struct_game_1_1_time_manager_1_1_state.html", "struct_game_1_1_time_manager_1_1_state" ],
         [ "TimeSourceState", "struct_game_1_1_time_manager_1_1_time_source_state.html", "struct_game_1_1_time_manager_1_1_time_source_state" ]
       ] ],
+      [ "AngularVelocity", "struct_game_1_1_angular_velocity.html", "struct_game_1_1_angular_velocity" ],
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
       [ "BlueprintManager", "class_game_1_1_blueprint_manager.html", "class_game_1_1_blueprint_manager" ],
       [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
@@ -425,13 +426,17 @@ var annotated_dup =
       [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
+      [ "Orientation", "struct_game_1_1_orientation.html", "struct_game_1_1_orientation" ],
+      [ "Position", "struct_game_1_1_position.html", "struct_game_1_1_position" ],
       [ "Processor", "class_game_1_1_processor.html", "class_game_1_1_processor" ],
       [ "ProcessorBuilder", "class_game_1_1_processor_builder.html", "class_game_1_1_processor_builder" ],
       [ "ProcessorJobContext", "struct_game_1_1_processor_job_context.html", "struct_game_1_1_processor_job_context" ],
       [ "ProcessorJobInput", "struct_game_1_1_processor_job_input.html", "struct_game_1_1_processor_job_input" ],
+      [ "Scale", "struct_game_1_1_scale.html", "struct_game_1_1_scale" ],
       [ "TemplateId", "struct_game_1_1_template_id.html", null ],
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
+      [ "Velocity", "struct_game_1_1_velocity.html", "struct_game_1_1_velocity" ],
       [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ]
     ] ],
     [ "Gcc", "namespace_gcc.html", [

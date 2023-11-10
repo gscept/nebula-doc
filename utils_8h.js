@@ -4,6 +4,7 @@ var utils_8h =
     [ "Neb2PxPnt", "utils_8h.html#ae8c168e7dbfdff40e2eb8342ee7c967a", null ],
     [ "Neb2PxQuat", "utils_8h.html#a9da82e228f6def04de8e96ecd79f9063", null ],
     [ "Neb2PxTrans", "utils_8h.html#a7466137d7af0db1fb2b9597216689a0c", null ],
+    [ "Neb2PxTrans", "utils_8h.html#aeb08125d52f8e826a23cdd5c6c042589", null ],
     [ "Neb2PxVec", "utils_8h.html#ab606979b743deb04cfbb904230413b63", null ],
     [ "Neb2PxVec4", "utils_8h.html#a7d6a3604bdece8c8614743b1e2fb7907", null ],
     [ "Px2Nebfloat4", "utils_8h.html#a3f6bb868e95e7cb899fd5e085e3fd686", null ],

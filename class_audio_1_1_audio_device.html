@@ -131,6 +131,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a032cd44c5e331a84fb11cd691a7a0583" id="r_a032cd44c5e331a84fb11cd691a7a0583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a032cd44c5e331a84fb11cd691a7a0583">OnFrame</a> ()</td></tr>
 <tr class="memdesc:a032cd44c5e331a84fb11cd691a7a0583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called per frame to update spatial positions.  <br /></td></tr>
 <tr class="separator:a032cd44c5e331a84fb11cd691a7a0583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3296e93229cbbfec37936767ba596163" id="r_a3296e93229cbbfec37936767ba596163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a3296e93229cbbfec37936767ba596163">LoadClip</a> (<a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const &amp;name)</td></tr>
+<tr class="memdesc:a3296e93229cbbfec37936767ba596163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a soundfile into memory.  <br /></td></tr>
+<tr class="separator:a3296e93229cbbfec37936767ba596163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffb68e5566ff4df30a55220d78440f9" id="r_a1ffb68e5566ff4df30a55220d78440f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a1ffb68e5566ff4df30a55220d78440f9">UnloadClip</a> (<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> const id)</td></tr>
+<tr class="memdesc:a1ffb68e5566ff4df30a55220d78440f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unload a soundfile.  <br /></td></tr>
+<tr class="separator:a1ffb68e5566ff4df30a55220d78440f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be400a573d175e1a0fbdbbce580f3cf" id="r_a6be400a573d175e1a0fbdbbce580f3cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a6be400a573d175e1a0fbdbbce580f3cf">Play</a> (<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> clip, float volume, float pan, bool loop=false, float clock=0.0f)</td></tr>
+<tr class="memdesc:a6be400a573d175e1a0fbdbbce580f3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play non-spatial audio clip. Returns the playing clip instance.  <br /></td></tr>
+<tr class="separator:a6be400a573d175e1a0fbdbbce580f3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0690c0114c972615cae615b6208f4b13" id="r_a0690c0114c972615cae615b6208f4b13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a0690c0114c972615cae615b6208f4b13">PlaySpatial</a> (<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> clip, float volume, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;position, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;velocity, float minDistance, float maxDistance, bool loop=false, float clock=0.0f)</td></tr>
+<tr class="memdesc:a0690c0114c972615cae615b6208f4b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play spatial audio clip that accounts for spatial position when playing. Returns the playing clip instance.  <br /></td></tr>
+<tr class="separator:a0690c0114c972615cae615b6208f4b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a4ae55b5e5d923e711af66abbffd1a" id="r_ab0a4ae55b5e5d923e711af66abbffd1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab0a4ae55b5e5d923e711af66abbffd1a">StopInstance</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id)</td></tr>
+<tr class="memdesc:ab0a4ae55b5e5d923e711af66abbffd1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop an instance of a clip.  <br /></td></tr>
+<tr class="separator:ab0a4ae55b5e5d923e711af66abbffd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208c9757017560ae7fbba4affe3a85ab" id="r_a208c9757017560ae7fbba4affe3a85ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a208c9757017560ae7fbba4affe3a85ab">Stop</a> (<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> id)</td></tr>
+<tr class="memdesc:a208c9757017560ae7fbba4affe3a85ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop all instances of a clip.  <br /></td></tr>
+<tr class="separator:a208c9757017560ae7fbba4affe3a85ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7002e195d2fb49a43601740e1e97f159" id="r_a7002e195d2fb49a43601740e1e97f159"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a7002e195d2fb49a43601740e1e97f159">IsValid</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id)</td></tr>
+<tr class="memdesc:a7002e195d2fb49a43601740e1e97f159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an instance is valid.  <br /></td></tr>
+<tr class="separator:a7002e195d2fb49a43601740e1e97f159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91ae84ea264109f5491b8be2a9cc9f8" id="r_ab91ae84ea264109f5491b8be2a9cc9f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab91ae84ea264109f5491b8be2a9cc9f8">UpdatePosition</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id, <a class="el" href="struct_math_1_1point.html">Math::point</a> const &amp;pos)</td></tr>
+<tr class="memdesc:ab91ae84ea264109f5491b8be2a9cc9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spatial position of a sound instance in world space.  <br /></td></tr>
+<tr class="separator:ab91ae84ea264109f5491b8be2a9cc9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f40a30a7c0b228bd2f0acae7fd587a3" id="r_a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a4f40a30a7c0b228bd2f0acae7fd587a3">UpdateVelocity</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id, <a class="el" href="struct_math_1_1vector.html">Math::vector</a> const &amp;vel)</td></tr>
+<tr class="memdesc:a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spatial velocity of a sound instance.  <br /></td></tr>
+<tr class="separator:a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab44ca2b10d2bc452dbdc16ab65d3cd" id="r_acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#acab44ca2b10d2bc452dbdc16ab65d3cd">SetListenerTransform</a> (<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
+<tr class="memdesc:acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the listener transform in world space.  <br /></td></tr>
+<tr class="separator:acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a8bbeaac2de4dde259947a79a7993a" id="r_ac8a8bbeaac2de4dde259947a79a7993a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ac8a8bbeaac2de4dde259947a79a7993a">SetListenerVelocity</a> (<a class="el" href="struct_math_1_1vector.html">Math::vector</a> const &amp;velocity)</td></tr>
+<tr class="memdesc:ac8a8bbeaac2de4dde259947a79a7993a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the listeners velocity.  <br /></td></tr>
+<tr class="separator:ac8a8bbeaac2de4dde259947a79a7993a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfc309a1013d9b53e2447f6ee6810ec" id="r_aecfc309a1013d9b53e2447f6ee6810ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#aecfc309a1013d9b53e2447f6ee6810ec">ResetListener</a> ()</td></tr>
+<tr class="memdesc:aecfc309a1013d9b53e2447f6ee6810ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset listener.  <br /></td></tr>
+<tr class="separator:aecfc309a1013d9b53e2447f6ee6810ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86009361df0dd0a24dc915eac7ac166" id="r_ab86009361df0dd0a24dc915eac7ac166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab86009361df0dd0a24dc915eac7ac166">SetSpeedOfSound</a> (float value=343.0f)</td></tr>
+<tr class="memdesc:ab86009361df0dd0a24dc915eac7ac166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed of sound constant. (default assumes 1 unit is 1 meter)  <br /></td></tr>
+<tr class="separator:ab86009361df0dd0a24dc915eac7ac166"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d312aecd77b1bd02050314906688091" id="r_a4d312aecd77b1bd02050314906688091"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_audio_1_1_audio_emitter_id.html">AudioEmitterId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a4d312aecd77b1bd02050314906688091">CreateAudioEmitter</a> (<a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const &amp;name)</td></tr>
 <tr class="memdesc:a4d312aecd77b1bd02050314906688091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a soundfile into memory.  <br /></td></tr>
 <tr class="separator:a4d312aecd77b1bd02050314906688091"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,12 +179,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abcbf33821920780404448f83306f599e" id="r_abcbf33821920780404448f83306f599e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#abcbf33821920780404448f83306f599e">Play</a> (<a class="el" href="struct_audio_1_1_audio_emitter_id.html">AudioEmitterId</a> id, bool loop=false)</td></tr>
 <tr class="memdesc:abcbf33821920780404448f83306f599e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play clip. Returns the playing clip instance.  <br /></td></tr>
 <tr class="separator:abcbf33821920780404448f83306f599e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a4ae55b5e5d923e711af66abbffd1a" id="r_ab0a4ae55b5e5d923e711af66abbffd1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab0a4ae55b5e5d923e711af66abbffd1a">StopInstance</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id)</td></tr>
-<tr class="memdesc:ab0a4ae55b5e5d923e711af66abbffd1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop an instance of a clip.  <br /></td></tr>
-<tr class="separator:ab0a4ae55b5e5d923e711af66abbffd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a208c9757017560ae7fbba4affe3a85ab" id="r_a208c9757017560ae7fbba4affe3a85ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a208c9757017560ae7fbba4affe3a85ab">Stop</a> (<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> id)</td></tr>
-<tr class="memdesc:a208c9757017560ae7fbba4affe3a85ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop all instances of a clip.  <br /></td></tr>
-<tr class="separator:a208c9757017560ae7fbba4affe3a85ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a0b971ef538c32ee8b2ff2856c91e9" id="r_a58a0b971ef538c32ee8b2ff2856c91e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a58a0b971ef538c32ee8b2ff2856c91e9">SetSpatialize</a> (<a class="el" href="struct_audio_1_1_audio_emitter_id.html">AudioEmitterId</a> id, bool value)</td></tr>
 <tr class="memdesc:a58a0b971ef538c32ee8b2ff2856c91e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not to account for spatial position when playing a sound.  <br /></td></tr>
 <tr class="separator:a58a0b971ef538c32ee8b2ff2856c91e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,27 +200,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a7968cc2f39a1f1b3858b56ef081ea4" id="r_a7a7968cc2f39a1f1b3858b56ef081ea4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a7a7968cc2f39a1f1b3858b56ef081ea4">SetPan</a> (<a class="el" href="struct_audio_1_1_audio_emitter_id.html">AudioEmitterId</a> id, float value)</td></tr>
 <tr class="memdesc:a7a7968cc2f39a1f1b3858b56ef081ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set 2D pan for non spatialized sounds. (L = -1.0, R = 1.0)  <br /></td></tr>
 <tr class="separator:a7a7968cc2f39a1f1b3858b56ef081ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91ae84ea264109f5491b8be2a9cc9f8" id="r_ab91ae84ea264109f5491b8be2a9cc9f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab91ae84ea264109f5491b8be2a9cc9f8">UpdatePosition</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id, <a class="el" href="struct_math_1_1point.html">Math::point</a> const &amp;pos)</td></tr>
-<tr class="memdesc:ab91ae84ea264109f5491b8be2a9cc9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spatial position of a sound instance in world space.  <br /></td></tr>
-<tr class="separator:ab91ae84ea264109f5491b8be2a9cc9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f40a30a7c0b228bd2f0acae7fd587a3" id="r_a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a4f40a30a7c0b228bd2f0acae7fd587a3">UpdateVelocity</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id, <a class="el" href="struct_math_1_1vector.html">Math::vector</a> const &amp;vel)</td></tr>
-<tr class="memdesc:a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spatial velocity of a sound instance.  <br /></td></tr>
-<tr class="separator:a4f40a30a7c0b228bd2f0acae7fd587a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acab44ca2b10d2bc452dbdc16ab65d3cd" id="r_acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#acab44ca2b10d2bc452dbdc16ab65d3cd">SetListenerTransform</a> (<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
-<tr class="memdesc:acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the listener transform in world space.  <br /></td></tr>
-<tr class="separator:acab44ca2b10d2bc452dbdc16ab65d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a8bbeaac2de4dde259947a79a7993a" id="r_ac8a8bbeaac2de4dde259947a79a7993a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ac8a8bbeaac2de4dde259947a79a7993a">SetListenerVelocity</a> (<a class="el" href="struct_math_1_1vector.html">Math::vector</a> const &amp;velocity)</td></tr>
-<tr class="memdesc:ac8a8bbeaac2de4dde259947a79a7993a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the listeners velocity.  <br /></td></tr>
-<tr class="separator:ac8a8bbeaac2de4dde259947a79a7993a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab86009361df0dd0a24dc915eac7ac166" id="r_ab86009361df0dd0a24dc915eac7ac166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#ab86009361df0dd0a24dc915eac7ac166">SetSpeedOfSound</a> (float value=343.0f)</td></tr>
-<tr class="memdesc:ab86009361df0dd0a24dc915eac7ac166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed of sound constant. (default assumes 1 unit is 1 meter)  <br /></td></tr>
-<tr class="separator:ab86009361df0dd0a24dc915eac7ac166"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecfc309a1013d9b53e2447f6ee6810ec" id="r_aecfc309a1013d9b53e2447f6ee6810ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#aecfc309a1013d9b53e2447f6ee6810ec">ResetListener</a> ()</td></tr>
-<tr class="memdesc:aecfc309a1013d9b53e2447f6ee6810ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset listener.  <br /></td></tr>
-<tr class="separator:aecfc309a1013d9b53e2447f6ee6810ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7002e195d2fb49a43601740e1e97f159" id="r_a7002e195d2fb49a43601740e1e97f159"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a7002e195d2fb49a43601740e1e97f159">IsValid</a> (<a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> id)</td></tr>
-<tr class="memdesc:a7002e195d2fb49a43601740e1e97f159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an instance is valid.  <br /></td></tr>
-<tr class="separator:a7002e195d2fb49a43601740e1e97f159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
 <tr class="memitem:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted" id="r_a14dc836b93eb63762debfe24642c377f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">RefCounted</a> ()</td></tr>
 <tr class="memdesc:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
@@ -257,8 +269,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a099ab155bc3ae2619e8f2fcea8c2f9bd" id="r_a099ab155bc3ae2619e8f2fcea8c2f9bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>, <a class="el" href="struct_math_1_1point.html">Math::point</a>, <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, float, float, float, float, bool, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a099ab155bc3ae2619e8f2fcea8c2f9bd">emitterAllocator</a></td></tr>
-<tr class="separator:a099ab155bc3ae2619e8f2fcea8c2f9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224520a0ee63ec0eb961e71da1c28492" id="r_a224520a0ee63ec0eb961e71da1c28492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>, <a class="el" href="struct_math_1_1point.html">Math::point</a>, <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, float, float, float, float, bool, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a224520a0ee63ec0eb961e71da1c28492">emitterAllocator</a></td></tr>
+<tr class="separator:a224520a0ee63ec0eb961e71da1c28492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fae82550c0165f18c237779be67f6aa" id="r_a2fae82550c0165f18c237779be67f6aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; SoLoud::Wav, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_1_1_audio_device.html#a2fae82550c0165f18c237779be67f6aa">wavs</a></td></tr>
 <tr class="memdesc:a2fae82550c0165f18c237779be67f6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains all wavs that are currently loaded.  <br /></td></tr>
 <tr class="separator:a2fae82550c0165f18c237779be67f6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -506,6 +518,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3296e93229cbbfec37936767ba596163" name="a3296e93229cbbfec37936767ba596163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3296e93229cbbfec37936767ba596163">&#9670;&#160;</a></span>LoadClip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> Audio::AudioDevice::LoadClip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a soundfile into memory. </p>
+
+</div>
+</div>
 <a id="a032cd44c5e331a84fb11cd691a7a0583" name="a032cd44c5e331a84fb11cd691a7a0583"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a032cd44c5e331a84fb11cd691a7a0583">&#9670;&#160;</a></span>OnFrame()</h2>
 
@@ -545,7 +577,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="abcbf33821920780404448f83306f599e" name="abcbf33821920780404448f83306f599e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcbf33821920780404448f83306f599e">&#9670;&#160;</a></span>Play()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbf33821920780404448f83306f599e">&#9670;&#160;</a></span>Play() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,6 +603,120 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Play clip. Returns the playing clip instance. </p>
+
+</div>
+</div>
+<a id="a6be400a573d175e1a0fbdbbce580f3cf" name="a6be400a573d175e1a0fbdbbce580f3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be400a573d175e1a0fbdbbce580f3cf">&#9670;&#160;</a></span>Play() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> Audio::AudioDevice::Play </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>&#160;</td>
+          <td class="paramname"><em>clip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>volume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loop</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clock</em> = <code>0.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Play non-spatial audio clip. Returns the playing clip instance. </p>
+
+</div>
+</div>
+<a id="a0690c0114c972615cae615b6208f4b13" name="a0690c0114c972615cae615b6208f4b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0690c0114c972615cae615b6208f4b13">&#9670;&#160;</a></span>PlaySpatial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_audio_1_1_clip_instance_id.html">ClipInstanceId</a> Audio::AudioDevice::PlaySpatial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>&#160;</td>
+          <td class="paramname"><em>clip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>volume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;&#160;</td>
+          <td class="paramname"><em>velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loop</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clock</em> = <code>0.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Play spatial audio clip that accounts for spatial position when playing. Returns the playing clip instance. </p>
 
 </div>
 </div>
@@ -903,6 +1049,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1ffb68e5566ff4df30a55220d78440f9" name="a1ffb68e5566ff4df30a55220d78440f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ffb68e5566ff4df30a55220d78440f9">&#9670;&#160;</a></span>UnloadClip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Audio::AudioDevice::UnloadClip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a> const&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unload a soundfile. </p>
+
+</div>
+</div>
 <a id="ab91ae84ea264109f5491b8be2a9cc9f8" name="ab91ae84ea264109f5491b8be2a9cc9f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab91ae84ea264109f5491b8be2a9cc9f8">&#9670;&#160;</a></span>UpdatePosition()</h2>
 
@@ -988,8 +1154,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a099ab155bc3ae2619e8f2fcea8c2f9bd" name="a099ab155bc3ae2619e8f2fcea8c2f9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099ab155bc3ae2619e8f2fcea8c2f9bd">&#9670;&#160;</a></span>emitterAllocator</h2>
+<a id="a224520a0ee63ec0eb961e71da1c28492" name="a224520a0ee63ec0eb961e71da1c28492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224520a0ee63ec0eb961e71da1c28492">&#9670;&#160;</a></span>emitterAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -998,7 +1164,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>, <a class="el" href="struct_math_1_1point.html">Math::point</a>, <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, float, float, float, float, bool, float &gt; Audio::AudioDevice::emitterAllocator</td>
+          <td class="memname"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt;<a class="el" href="struct_audio_1_1_clip_id.html">ClipId</a>, <a class="el" href="struct_math_1_1point.html">Math::point</a>, <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, float, float, float, float, bool, float&gt; Audio::AudioDevice::emitterAllocator</td>
         </tr>
       </table>
   </td>
@@ -1068,7 +1234,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_audio.html">Audio</a></li><li class="navelem"><a class="el" href="class_audio_1_1_audio_device.html">AudioDevice</a></li>
 				<li class="footer">
-					Generated on Fri Nov 10 2023 17:23:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 21:29:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

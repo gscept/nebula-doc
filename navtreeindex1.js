@@ -247,7 +247,7 @@ var NAVTREEINDEX1 =
 "audiofeatureunit_8h.html#ad1119c73817b3645440306b02e92b4aa":[10,0,0,0,1,2,1],
 "audiofeatureunit_8h_source.html":[10,0,0,0,1,2],
 "audiomanager_8cc.html":[10,0,0,0,1,0,0],
-"audiomanager_8cc.html#a159fb916a1bf20f4d0a182dc26866906":[10,0,0,0,1,0,0,1],
-"audiomanager_8cc.html#a2de6f8095daab5ee727cbe28be5f8793":[10,0,0,0,1,0,0,2],
-"audiomanager_8cc.html#a8c64b95e60bf5d1211f39248b12ddad9":[10,0,0,0,1,0,0,0]
+"audiomanager_8cc.html#a44319b0b38fcadafeadda24e1e0cee39":[10,0,0,0,1,0,0,1],
+"audiomanager_8cc.html#a6e80d4e9fb0a4343bf400006176ab99b":[10,0,0,0,1,0,0,4],
+"audiomanager_8cc.html#a80aafc2933f9977801619a6ed0853bb5":[10,0,0,0,1,0,0,5]
 };

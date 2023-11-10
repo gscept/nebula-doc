@@ -101,6 +101,8 @@ $(document).ready(function(){initNavTree('audiomanager_8cc.html',''); initResiza
 <code>#include &quot;<a class="el" href="gameserver_8h_source.html">game/gameserver.h</a>&quot;</code><br />
 <code>#include &quot;audiofeature/components/audiofeature.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="audiodevice_8h_source.html">audio/audiodevice.h</a>&quot;</code><br />
+<code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="position_8h_source.html">basegamefeature/components/position.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -111,10 +113,18 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a8c64b95e60bf5d1211f39248b12ddad9" id="r_a8c64b95e60bf5d1211f39248b12ddad9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a8c64b95e60bf5d1211f39248b12ddad9">AudioFeature::__ImplementSingleton</a> (<a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioManager</a>) <a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioManager</a></td></tr>
 <tr class="separator:a8c64b95e60bf5d1211f39248b12ddad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a159fb916a1bf20f4d0a182dc26866906" id="r_a159fb916a1bf20f4d0a182dc26866906"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a159fb916a1bf20f4d0a182dc26866906">AudioFeature::ActivateAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &amp;entity, AudioEmitter &amp;emitter)</td></tr>
-<tr class="separator:a159fb916a1bf20f4d0a182dc26866906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2de6f8095daab5ee727cbe28be5f8793" id="r_a2de6f8095daab5ee727cbe28be5f8793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a2de6f8095daab5ee727cbe28be5f8793">AudioFeature::DeactivateAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &amp;entity, AudioEmitter &amp;emitter)</td></tr>
-<tr class="separator:a2de6f8095daab5ee727cbe28be5f8793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44319b0b38fcadafeadda24e1e0cee39" id="r_a44319b0b38fcadafeadda24e1e0cee39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a44319b0b38fcadafeadda24e1e0cee39">AudioFeature::ActivateAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, AudioEmitter &amp;emitter)</td></tr>
+<tr class="separator:a44319b0b38fcadafeadda24e1e0cee39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23244cdf4cfbb3a63f32d64e38f0c38" id="r_aa23244cdf4cfbb3a63f32d64e38f0c38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#aa23244cdf4cfbb3a63f32d64e38f0c38">AudioFeature::ActivateSpatialAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, AudioEmitter &amp;emitter, SpatialAudioEmission const &amp;spatial, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position)</td></tr>
+<tr class="separator:aa23244cdf4cfbb3a63f32d64e38f0c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af39a393224f301aa4e2508d4cec4a545" id="r_af39a393224f301aa4e2508d4cec4a545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#af39a393224f301aa4e2508d4cec4a545">AudioFeature::ValidateClipInstances</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, ClipInstance &amp;clipInstance)</td></tr>
+<tr class="separator:af39a393224f301aa4e2508d4cec4a545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80aafc2933f9977801619a6ed0853bb5" id="r_a80aafc2933f9977801619a6ed0853bb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a80aafc2933f9977801619a6ed0853bb5">AudioFeature::UpdateSpatialAudio</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, SpatialAudioEmission const &amp;, ClipInstance &amp;clipInstance, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position)</td></tr>
+<tr class="separator:a80aafc2933f9977801619a6ed0853bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34437b4992bbddfec2236a58724d0cd" id="r_aa34437b4992bbddfec2236a58724d0cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#aa34437b4992bbddfec2236a58724d0cd">AudioFeature::HandlePlayAudioEvent</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, AudioEmitter const &amp;emitter)</td></tr>
+<tr class="separator:aa34437b4992bbddfec2236a58724d0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e80d4e9fb0a4343bf400006176ab99b" id="r_a6e80d4e9fb0a4343bf400006176ab99b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_audio_feature.html#a6e80d4e9fb0a4343bf400006176ab99b">AudioFeature::HandlePlaySpatialAudioEvent</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position, AudioEmitter const &amp;emitter, SpatialAudioEmission const &amp;spatial)</td></tr>
+<tr class="separator:a6e80d4e9fb0a4343bf400006176ab99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -123,7 +133,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_9dad0deaeed18b56a2317bdd140b3ab1.html">audiofeature</a></li><li class="navelem"><a class="el" href="dir_4bf706dda7fdf50686f3755c861d9b16.html">managers</a></li><li class="navelem"><a class="el" href="audiomanager_8cc.html">audiomanager.cc</a></li>
 				<li class="footer">
-					Generated on Fri Nov 10 2023 17:23:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 10 2023 21:29:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
