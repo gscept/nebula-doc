@@ -46,6 +46,7 @@ var namespace_physics =
     ] ],
     [ "__ImplementInterfaceSingleton", "namespace_physics.html#a0368af9719e96dbc887fb459c19be76b", null ],
     [ "AddCollider", "namespace_physics.html#adfad949abf2e8a86085e63d1a234c75e", null ],
+    [ "AddHeightField", "namespace_physics.html#a6f8f7ef4411c53228e7e810d77d19e80", null ],
     [ "AddMeshColliders", "namespace_physics.html#af4457e3a67d88a20aa13c1fe60031b2c", null ],
     [ "BeginSimulating", "namespace_physics.html#ad332aeaa2b0e5a6a7603896e53edf338", null ],
     [ "CollectModified", "namespace_physics.html#a497298c2b42d94be2e08da6fa822da81", null ],

@@ -78,7 +78,7 @@ var searchData=
   ['vertexsignaturemutex_75',['vertexSignatureMutex',['../namespace_vulkan.html#a0d8b5cbc1ce31c570a0eaba48d0e0f0a',1,'Vulkan']]],
   ['vertexsize_76',['vertexSize',['../namespace_particles.html#a1241c4b27737bb0980c8cf704dfaf574',1,'Particles']]],
   ['vertextype_77',['vertexType',['../class_materials_1_1_shader_config.html#ac48b4342f7e2bf989bc1604003e48c41',1,'Materials::ShaderConfig']]],
-  ['vertexwidth_78',['vertexwidth',['../class_particles_1_1_emitter_mesh.html#aed2326fdc52ade658f60face34e7852e',1,'Particles::EmitterMesh::VertexWidth'],['../struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44',1,'CoreGraphics::Nvx2Header::vertexWidth'],['../class_core_graphics_1_1_nvx3_stream_reader.html#ab923ab9a5e03e2bc99fb55731f16a382',1,'CoreGraphics::Nvx3StreamReader::vertexWidth']]],
+  ['vertexwidth_78',['vertexwidth',['../struct_core_graphics_1_1_nvx2_header.html#afad7e85adad06a63efc87a53ad611d44',1,'CoreGraphics::Nvx2Header::vertexWidth'],['../class_core_graphics_1_1_nvx3_stream_reader.html#ab923ab9a5e03e2bc99fb55731f16a382',1,'CoreGraphics::Nvx3StreamReader::vertexWidth'],['../class_particles_1_1_emitter_mesh.html#aed2326fdc52ade658f60face34e7852e',1,'Particles::EmitterMesh::VertexWidth']]],
   ['verticalsync_79',['verticalSync',['../class_base_1_1_display_device_base.html#a82822b08190ff4629c1586afd3ca045d',1,'Base::DisplayDeviceBase']]],
   ['vertsperdrawprimitive_80',['VertsPerDrawPrimitive',['../im3d_8cpp.html#a96172bae73b48514b074a81a6624c489',1,'im3d.cpp']]],
   ['vibratorsdirty_81',['vibratorsDirty',['../class_base_1_1_game_pad_base.html#ad6a2eed1dbc07ca096351b12940f48d9',1,'Base::GamePadBase']]],
