@@ -26,6 +26,7 @@ var class_i_o_1_1_json_writer =
     [ "Add", "class_i_o_1_1_json_writer.html#a7f40a1f190bb824a4ce3640be2639931", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#acf6ead07e6b3fc50bc4ff31416a9fb56", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#acf6ead07e6b3fc50bc4ff31416a9fb56", null ],
+    [ "Add", "class_i_o_1_1_json_writer.html#a91bdd4601c6e9d40318425b617adfa40", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a344c361363fb0f10c9cbe8b13f535f54", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a344c361363fb0f10c9cbe8b13f535f54", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a97251320448428aed4b2a139f6c2dddd", null ],

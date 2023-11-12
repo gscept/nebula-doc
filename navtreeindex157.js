@@ -1,11 +1,15 @@
 var NAVTREEINDEX157 =
 {
-"struct_vulkan_1_1_vk_event_info.html#a21e6699844f5f04b2d2ae7d68f6af30f":[9,0,69,20,3],
+"struct_vulkan_1_1_vk_event_info.html":[8,0,80,20],
+"struct_vulkan_1_1_vk_event_info.html":[9,0,69,20],
+"struct_vulkan_1_1_vk_event_info.html#a0ae86b27d6f26dc3744832d9fbb1814c":[8,0,80,20,4],
+"struct_vulkan_1_1_vk_event_info.html#a0ae86b27d6f26dc3744832d9fbb1814c":[9,0,69,20,4],
 "struct_vulkan_1_1_vk_event_info.html#a21e6699844f5f04b2d2ae7d68f6af30f":[8,0,80,20,3],
-"struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[8,0,80,20,0],
+"struct_vulkan_1_1_vk_event_info.html#a21e6699844f5f04b2d2ae7d68f6af30f":[9,0,69,20,3],
 "struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[9,0,69,20,0],
-"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[9,0,69,20,2],
+"struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[8,0,80,20,0],
 "struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[8,0,80,20,2],
+"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[9,0,69,20,2],
 "struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[9,0,69,20,5],
 "struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[8,0,80,20,5],
 "struct_vulkan_1_1_vk_event_info.html#a9714bc9dc88b7ff27311ef1778ee6897":[9,0,69,20,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX157 =
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a366a8329c8a8fac4a1cbebb518e75bc7":[8,0,80,32,14],
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a366a8329c8a8fac4a1cbebb518e75bc7":[9,0,69,32,14],
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a36a5640035282240a29fe845ce3b3aad":[8,0,80,32,16],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a36a5640035282240a29fe845ce3b3aad":[9,0,69,32,16],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a4d844dd177e54434c91000a1977547cd":[8,0,80,32,15],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a4d844dd177e54434c91000a1977547cd":[9,0,69,32,15],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a5de32d365ec848d2c1f4fad3202c1720":[8,0,80,32,3],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a5de32d365ec848d2c1f4fad3202c1720":[9,0,69,32,3]
+"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a36a5640035282240a29fe845ce3b3aad":[9,0,69,32,16]
 };

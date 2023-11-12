@@ -24,6 +24,7 @@ var class_i_o_1_1_json_reader =
     [ "Get", "class_i_o_1_1_json_reader.html#af90c3e649b0c2b69ae1962328d2d8de6", null ],
     [ "Get", "class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9", null ],
     [ "Get", "class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9", null ],
+    [ "Get", "class_i_o_1_1_json_reader.html#a01c8cc04ff092afec81efaff5cca2d9f", null ],
     [ "Get", "class_i_o_1_1_json_reader.html#ab8e60322f09480a08606d2b4a8ecce31", null ],
     [ "Get", "class_i_o_1_1_json_reader.html#ab8e60322f09480a08606d2b4a8ecce31", null ],
     [ "Get", "class_i_o_1_1_json_reader.html#ae0ec460fe673482d3142fcd478465ce3", null ],
