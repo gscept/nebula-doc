@@ -1,6 +1,21 @@
 var namespace_scripting =
 [
-    [ "Api", "namespace_scripting_1_1_api.html", "namespace_scripting_1_1_api" ],
+    [ "Api", "namespace_scripting_1_1_api.html", [
+      [ "ComponentGetData", "namespace_scripting_1_1_api.html#ae2b7f4114ec4b56ebbb9cb181e569c2c", null ],
+      [ "ComponentGetId", "namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d", null ],
+      [ "ComponentSetData", "namespace_scripting_1_1_api.html#a2f17c5523b12c80e302e23c7518a6549", null ],
+      [ "EntityCreateFromTemplate", "namespace_scripting_1_1_api.html#ab19d76fa586d8c40b7178ad89688efbb", null ],
+      [ "EntityDelete", "namespace_scripting_1_1_api.html#a4d5860858b38a3b978c4dde220aa1374", null ],
+      [ "EntityGetOrientation", "namespace_scripting_1_1_api.html#a708de2c3c0ce4df66d5fa3b50b9d4c96", null ],
+      [ "EntityGetPosition", "namespace_scripting_1_1_api.html#a0d37cc6416d9e0b2f00965c85c4feeba", null ],
+      [ "EntityGetScale", "namespace_scripting_1_1_api.html#a9dae47249160c3a1ee860657543f90b2", null ],
+      [ "EntityHasComponent", "namespace_scripting_1_1_api.html#a5e35f12b65329798e1ee4d4b81690576", null ],
+      [ "EntityIsValid", "namespace_scripting_1_1_api.html#a80d9d7004c1f55fe87c09c07bbf65842", null ],
+      [ "EntitySetOrientation", "namespace_scripting_1_1_api.html#ae4954593c0adfea7e40b518e7e7ebe56", null ],
+      [ "EntitySetPosition", "namespace_scripting_1_1_api.html#adefc42d5b34fc59b011c39c3ecb1eb9b", null ],
+      [ "EntitySetScale", "namespace_scripting_1_1_api.html#a214be03fbb8819a0c441e0221fdc203a", null ],
+      [ "WorldGetDefaultWorldId", "namespace_scripting_1_1_api.html#ad63e6e6464b623c3b562a33fc1aae446", null ]
+    ] ],
     [ "AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
     [ "DotNET_API", "struct_scripting_1_1_dot_n_e_t___a_p_i.html", "struct_scripting_1_1_dot_n_e_t___a_p_i" ],
     [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html", "class_scripting_1_1_n_sharp_server" ],

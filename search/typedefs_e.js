@@ -8,6 +8,6 @@ var searchData=
   ['position_5',['Position',['../class_i_o_1_1_stream.html#a5f0ed31e47ffa399d3b98c8a50c294ac',1,'IO::Stream']]],
   ['processorhandle_6',['ProcessorHandle',['../namespace_game.html#a74b0ad357b08d17f221b65b804193303',1,'Game']]],
   ['programmap_7',['programmap',['../class_vulkan_1_1_vk_shader_cache.html#aada16939e88fc00edfe77b259428ed32',1,'Vulkan::VkShaderCache::ProgramMap'],['../namespace_vulkan.html#a4911b73a420d87e53830ce523726c2e8',1,'Vulkan::ProgramMap']]],
-  ['ptrdiff_8',['ptrdiff',['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'PtrDiff:&#160;types.h'],['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'ptrdiff:&#160;types.h']]],
+  ['ptrdiff_8',['ptrdiff',['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'ptrdiff:&#160;types.h'],['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'PtrDiff:&#160;types.h']]],
   ['ptrt_9',['PtrT',['../types_8h.html#a924001a4a749dab532ba4ba011e9e4c1',1,'types.h']]]
 ];

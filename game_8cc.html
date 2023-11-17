@@ -102,6 +102,9 @@ $(document).ready(function(){initNavTree('game_8cc.html',''); initResizable(); }
 <code>#include &quot;<a class="el" href="world_8h_source.html">game/world.h</a>&quot;</code><br />
 <code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="typepunning_8h_source.html">util/typepunning.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="position_8h_source.html">basegamefeature/components/position.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orientation_8h_source.html">basegamefeature/components/orientation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scale_8h_source.html">basegamefeature/components/scale.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -120,10 +123,18 @@ Functions</h2></td></tr>
 <tr class="separator:a4d5860858b38a3b978c4dde220aa1374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e35f12b65329798e1ee4d4b81690576" id="r_a5e35f12b65329798e1ee4d4b81690576"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a5e35f12b65329798e1ee4d4b81690576">Scripting::Api::EntityHasComponent</a> (uint32_t worldId, uint32_t entity, uint32_t componentId)</td></tr>
 <tr class="separator:a5e35f12b65329798e1ee4d4b81690576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66bd023609cf8e46ec9b6514fdcdcec9" id="r_a66bd023609cf8e46ec9b6514fdcdcec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scripting_1_1_api_1_1float16.html">float16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a66bd023609cf8e46ec9b6514fdcdcec9">Scripting::Api::EntityGetTransform</a> (uint32_t worldId, uint32_t entity)</td></tr>
-<tr class="separator:a66bd023609cf8e46ec9b6514fdcdcec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82b4097fe6307511bcbf2d90d316485e" id="r_a82b4097fe6307511bcbf2d90d316485e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a82b4097fe6307511bcbf2d90d316485e">Scripting::Api::EntitySetTransform</a> (uint32_t worldId, uint32_t entity, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform)</td></tr>
-<tr class="separator:a82b4097fe6307511bcbf2d90d316485e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d37cc6416d9e0b2f00965c85c4feeba" id="r_a0d37cc6416d9e0b2f00965c85c4feeba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a0d37cc6416d9e0b2f00965c85c4feeba">Scripting::Api::EntityGetPosition</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a0d37cc6416d9e0b2f00965c85c4feeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefc42d5b34fc59b011c39c3ecb1eb9b" id="r_adefc42d5b34fc59b011c39c3ecb1eb9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#adefc42d5b34fc59b011c39c3ecb1eb9b">Scripting::Api::EntitySetPosition</a> (uint32_t worldId, uint32_t entity, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> pos)</td></tr>
+<tr class="separator:adefc42d5b34fc59b011c39c3ecb1eb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708de2c3c0ce4df66d5fa3b50b9d4c96" id="r_a708de2c3c0ce4df66d5fa3b50b9d4c96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1quat.html">Math::quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a708de2c3c0ce4df66d5fa3b50b9d4c96">Scripting::Api::EntityGetOrientation</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a708de2c3c0ce4df66d5fa3b50b9d4c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4954593c0adfea7e40b518e7e7ebe56" id="r_ae4954593c0adfea7e40b518e7e7ebe56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ae4954593c0adfea7e40b518e7e7ebe56">Scripting::Api::EntitySetOrientation</a> (uint32_t worldId, uint32_t entity, <a class="el" href="struct_math_1_1quat.html">Math::quat</a> orientation)</td></tr>
+<tr class="separator:ae4954593c0adfea7e40b518e7e7ebe56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dae47249160c3a1ee860657543f90b2" id="r_a9dae47249160c3a1ee860657543f90b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a9dae47249160c3a1ee860657543f90b2">Scripting::Api::EntityGetScale</a> (uint32_t worldId, uint32_t entity)</td></tr>
+<tr class="separator:a9dae47249160c3a1ee860657543f90b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214be03fbb8819a0c441e0221fdc203a" id="r_a214be03fbb8819a0c441e0221fdc203a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#a214be03fbb8819a0c441e0221fdc203a">Scripting::Api::EntitySetScale</a> (uint32_t worldId, uint32_t entity, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> scale)</td></tr>
+<tr class="separator:a214be03fbb8819a0c441e0221fdc203a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c7a241f123fa83b81b69805f4e8b0d" id="r_ad1c7a241f123fa83b81b69805f4e8b0d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d">Scripting::Api::ComponentGetId</a> (const char *name)</td></tr>
 <tr class="separator:ad1c7a241f123fa83b81b69805f4e8b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2b7f4114ec4b56ebbb9cb181e569c2c" id="r_ae2b7f4114ec4b56ebbb9cb181e569c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html#ae2b7f4114ec4b56ebbb9cb181e569c2c">Scripting::Api::ComponentGetData</a> (uint32_t worldId, uint32_t eId, uint32_t componentId, void *outData, int dataSize)</td></tr>
@@ -140,7 +151,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_3f4de981491daf7040893230a7873228.html">nsharp</a></li><li class="navelem"><a class="el" href="dir_4f80d4cd264d30aadf39ed6745d9cc46.html">api</a></li><li class="navelem"><a class="el" href="game_8cc.html">game.cc</a></li>
 				<li class="footer">
-					Generated on Sun Nov 12 2023 21:58:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 17 2023 20:06:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

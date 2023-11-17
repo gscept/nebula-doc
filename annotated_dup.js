@@ -914,9 +914,6 @@ var annotated_dup =
       [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ]
     ] ],
     [ "Scripting", "namespace_scripting.html", [
-      [ "Api", "namespace_scripting_1_1_api.html", [
-        [ "float16", "struct_scripting_1_1_api_1_1float16.html", "struct_scripting_1_1_api_1_1float16" ]
-      ] ],
       [ "AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
       [ "DotNET_API", "struct_scripting_1_1_dot_n_e_t___a_p_i.html", "struct_scripting_1_1_dot_n_e_t___a_p_i" ],
       [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html", "class_scripting_1_1_n_sharp_server" ],
