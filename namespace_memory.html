@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('namespace_memory.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -112,28 +111,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_pool_array_allocator.html">PoolArrayAllocator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates small memory blocks from an array of fixed-size memory pools.  <a href="class_memory_1_1_pool_array_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocation.html">RangeAllocation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_range_allocator.html">RangeAllocator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An allocator that reserves a range of memory and outputs an offset to that range.  <a href="class_memory_1_1_range_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_ring_alloc.html">RingAlloc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_ring_allocator.html">RingAllocator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory up-front, and then allows other systems to grab regions.  <a href="class_memory_1_1_ring_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_size_classification_allocation.html">SizeClassificationAllocation</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_size_classification_allocator.html">SizeClassificationAllocator</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_total_memory_status.html">TotalMemoryStatus</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system's total current memory, this does not only include <a class="el" href="namespace_nebula.html">Nebula</a>'s memory allocations but the memory usage of the entire system.  <a href="struct_memory_1_1_total_memory_status.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ae40002a8d392180a627a26fb379b1159" id="r_ae40002a8d392180a627a26fb379b1159"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#ae40002a8d392180a627a26fb379b1159">SCAlloc</a> = <a class="el" href="struct_memory_1_1_size_classification_allocation.html">SizeClassificationAllocation</a></td></tr>
-<tr class="separator:ae40002a8d392180a627a26fb379b1159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad5de13decc7cd6574e963ad2494f70" id="r_a3ad5de13decc7cd6574e963ad2494f70"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a3ad5de13decc7cd6574e963ad2494f70">SCAllocator</a> = <a class="el" href="class_memory_1_1_size_classification_allocator.html">SizeClassificationAllocator</a></td></tr>
-<tr class="separator:a3ad5de13decc7cd6574e963ad2494f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -358,12 +347,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a44892613b078c57e47d8f5767a9a8ed1" id="r_a44892613b078c57e47d8f5767a9a8ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a44892613b078c57e47d8f5767a9a8ed1">BinFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bucket)</td></tr>
 <tr class="memdesc:a44892613b078c57e47d8f5767a9a8ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin from index.  <br /></td></tr>
 <tr class="separator:a44892613b078c57e47d8f5767a9a8ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe995d4c893a1cc6e3408a7309010229" id="r_abe995d4c893a1cc6e3408a7309010229"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#abe995d4c893a1cc6e3408a7309010229">Lsb</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, byte bit)</td></tr>
-<tr class="memdesc:abe995d4c893a1cc6e3408a7309010229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get least significant bit from mask.  <br /></td></tr>
-<tr class="separator:abe995d4c893a1cc6e3408a7309010229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90333477fb800d8270ca656634b5cf93" id="r_a90333477fb800d8270ca656634b5cf93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a90333477fb800d8270ca656634b5cf93">FirstOne</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> value)</td></tr>
-<tr class="memdesc:a90333477fb800d8270ca656634b5cf93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get first one in mask.  <br /></td></tr>
-<tr class="separator:a90333477fb800d8270ca656634b5cf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd6e0e3d90cc8724a07d52c8f1acb43" id="r_aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#aacd6e0e3d90cc8724a07d52c8f1acb43">DumpTotalMemoryStatus</a> ()</td></tr>
 <tr class="memdesc:aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump detail memory status information.  <br /></td></tr>
 <tr class="separator:aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -416,35 +399,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a68089d5b4fe7cce3875d69acd943bcc3" id="r_a68089d5b4fe7cce3875d69acd943bcc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> volatile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a68089d5b4fe7cce3875d69acd943bcc3">MemoryLoggingHeapType</a> = <a class="el" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a></td></tr>
 <tr class="separator:a68089d5b4fe7cce3875d69acd943bcc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ae40002a8d392180a627a26fb379b1159" name="ae40002a8d392180a627a26fb379b1159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae40002a8d392180a627a26fb379b1159">&#9670;&#160;</a></span>SCAlloc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespace_memory.html#ae40002a8d392180a627a26fb379b1159">Memory::SCAlloc</a> = typedef <a class="el" href="struct_memory_1_1_size_classification_allocation.html">SizeClassificationAllocation</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ad5de13decc7cd6574e963ad2494f70" name="a3ad5de13decc7cd6574e963ad2494f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad5de13decc7cd6574e963ad2494f70">&#9670;&#160;</a></span>SCAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespace_memory.html#a3ad5de13decc7cd6574e963ad2494f70">Memory::SCAllocator</a> = typedef <a class="el" href="class_memory_1_1_size_classification_allocator.html">SizeClassificationAllocator</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a876b4d169c56fbc6a73614d357a46a56" name="a876b4d169c56fbc6a73614d357a46a56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a876b4d169c56fbc6a73614d357a46a56">&#9670;&#160;</a></span>HeapType <span class="overload">[1/3]</span></h2>
@@ -1218,34 +1172,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a90333477fb800d8270ca656634b5cf93" name="a90333477fb800d8270ca656634b5cf93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90333477fb800d8270ca656634b5cf93">&#9670;&#160;</a></span>FirstOne()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::FirstOne </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get first one in mask. </p>
-
-</div>
-</div>
 <a id="a6055e491858cd969e93326d9b3e4b420" name="a6055e491858cd969e93326d9b3e4b420"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6055e491858cd969e93326d9b3e4b420">&#9670;&#160;</a></span>Free()</h2>
 
@@ -1404,44 +1330,6 @@ template&lt;typename T &gt; </div>
 <p>Test if 2 areas of memory areas are overlapping. </p>
 <p>Test if 2 areas of memory area overlapping.</p>
 <p>check if 2 memory regions are overlapping </p>
-
-</div>
-</div>
-<a id="abe995d4c893a1cc6e3408a7309010229" name="abe995d4c893a1cc6e3408a7309010229"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe995d4c893a1cc6e3408a7309010229">&#9670;&#160;</a></span>Lsb()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::Lsb </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
-          <td class="paramname"><em>mask</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>bit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get least significant bit from mask. </p>
 
 </div>
 </div>
@@ -1797,7 +1685,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Wed Nov 22 2023 21:19:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 22 2023 21:36:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

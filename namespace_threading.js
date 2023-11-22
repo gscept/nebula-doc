@@ -13,6 +13,8 @@ var namespace_threading =
     [ "Spinlock", "class_threading_1_1_spinlock.html", "class_threading_1_1_spinlock" ],
     [ "SpinlockScope", "struct_threading_1_1_spinlock_scope.html", "struct_threading_1_1_spinlock_scope" ],
     [ "AtomicCounter", "namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b", null ],
+    [ "AtomicCounter64", "namespace_threading.html#a078e9fa3177309d06608c7c4445044e6", null ],
+    [ "int64", "namespace_threading.html#a5ac27d0b1603d10f65fa7da1acc79677", null ],
     [ "ThreadId", "namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86", null ],
     [ "__ImplementClass", "namespace_threading.html#a1f422ebb704683ecac909e4402eacf43", null ],
     [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ],

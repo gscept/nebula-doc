@@ -3,6 +3,7 @@ var buffer_8h =
     [ "CoreGraphics::BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
     [ "CoreGraphics::BufferCreateInfo", "struct_core_graphics_1_1_buffer_create_info.html", "struct_core_graphics_1_1_buffer_create_info" ],
     [ "CoreGraphics::BufferSet", "struct_core_graphics_1_1_buffer_set.html", "struct_core_graphics_1_1_buffer_set" ],
+    [ "CoreGraphics::BufferWithStaging", "struct_core_graphics_1_1_buffer_with_staging.html", "struct_core_graphics_1_1_buffer_with_staging" ],
     [ "BufferQueueSupportFlags", "buffer_8h.html#aaecf95f10896b6f1cd4274f1d909e918", null ],
     [ "BufferUsageFlags", "buffer_8h.html#a69a2149611f82168dbee3ce5db03cbe5", null ],
     [ "BufferAccessMode", "buffer_8h.html#a3079209b5f67cbf12c32c1dcaa1e6077", [

@@ -1,11 +1,16 @@
 var struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info =
 [
+    [ "TextureLoadBits", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ff", [
+      [ "HeightMapLoaded", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ffa55aa6ecc67c8e08921b1ecc704773d46", null ],
+      [ "DecisionMapLoaded", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ffa290147669a90b5a9e974475bd638fc8a", null ]
+    ] ],
     [ "decisionMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a235a336acea2430ac7cb65be2f9938a9", null ],
     [ "heightMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a17c2883186286d1dd6314c190bcf0a52", null ],
     [ "ibo", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a3e00a5966f24b9b4d9c894719fa5d4fb", null ],
+    [ "loadBits", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a0953f805d6dae93ffa690958351b13aa", null ],
+    [ "lowresGenerated", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#adbe2880f2fd88ea184750d2d613122ca", null ],
     [ "maxHeight", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ab4d7d2c01f066a6e05f9d9e16672ff93", null ],
     [ "minHeight", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad55c51ace98ef728391c216a8d17bf2e", null ],
-    [ "normalMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a711dbe22ef87846598a3eb7db76f36ac", null ],
     [ "numTilesX", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a819ddd65ba5eb27d71d4980e1eea9bbd", null ],
     [ "numTilesY", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ae37da381cbdb032bb409c05ecb842389", null ],
     [ "patchTables", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a1bcf46844142110d9bbf6ee5234825f3", null ],

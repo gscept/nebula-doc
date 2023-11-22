@@ -3,7 +3,7 @@ var class_models_1_1_model_loader =
     [ "ModelLoader", "class_models_1_1_model_loader.html#a14272105b386bc32c3067fd3085bd652", null ],
     [ "~ModelLoader", "class_models_1_1_model_loader.html#a97033f574bba76bb9414b3d84ae89f5a", null ],
     [ "__DeclareClass", "class_models_1_1_model_loader.html#acb879e8c4eaf308e94ef861dde62a3a7", null ],
-    [ "LoadFromStream", "class_models_1_1_model_loader.html#aa5c9fb27bad2b8daf309f0897bb748cd", null ],
+    [ "InitializeResource", "class_models_1_1_model_loader.html#a7dbe8272fc815e021062e765a0a937d7", null ],
     [ "Setup", "class_models_1_1_model_loader.html#a825bfa2a20b3d3025dfce2521ac9bfc1", null ],
     [ "Unload", "class_models_1_1_model_loader.html#a0917791ca5676560896a16e261c14ca2", null ],
     [ "CharacterNode", "class_models_1_1_model_loader.html#a7d30dcbc6df52540ffdb43f6006a3122", null ],

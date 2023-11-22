@@ -45,7 +45,7 @@ var searchData=
   ['texturesparsepageoffset_42',['TextureSparsePageOffset',['../struct_core_graphics_1_1_texture_sparse_page_offset.html',1,'CoreGraphics']]],
   ['texturesparsepagesize_43',['TextureSparsePageSize',['../struct_core_graphics_1_1_texture_sparse_page_size.html',1,'CoreGraphics']]],
   ['texturesparsepagetable_44',['TextureSparsePageTable',['../struct_vulkan_1_1_texture_sparse_page_table.html',1,'Vulkan']]],
-  ['texturestreamdata_45',['TextureStreamData',['../struct_core_graphics_1_1_texture_loader_1_1_texture_stream_data.html',1,'CoreGraphics::TextureLoader']]],
+  ['texturestreamdata_45',['TextureStreamData',['../struct_core_graphics_1_1_texture_stream_data.html',1,'CoreGraphics']]],
   ['texturesubresourceinfo_46',['TextureSubresourceInfo',['../struct_core_graphics_1_1_texture_subresource_info.html',1,'CoreGraphics']]],
   ['textureswizzle_47',['TextureSwizzle',['../struct_core_graphics_1_1_texture_swizzle.html',1,'CoreGraphics']]],
   ['texturetilecache_48',['TextureTileCache',['../class_terrain_1_1_texture_tile_cache.html',1,'Terrain']]],

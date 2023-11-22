@@ -13,11 +13,10 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "eventHandlers", "struct_core_graphics_1_1_graphics_device_state.html#a02a09260e2c9b59c7b282a833b3f56d6", null ],
     [ "frameResourceTableCompute", "struct_core_graphics_1_1_graphics_device_state.html#ac9c5adca294bbafa512e0e7f1fd635c8", null ],
     [ "frameResourceTableGraphics", "struct_core_graphics_1_1_graphics_device_state.html#a797091871150d0e049733e3d2a05eb03", null ],
-    [ "globalComputeConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#ac653a8b3b8ece9a00f0fdc9663d773d0", null ],
+    [ "globalConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a24eec180b233aa5df141afa79e754045", null ],
     [ "globalConstantBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#aea0703fe02f27157052eee90d4f75ba5", null ],
-    [ "globalGraphicsConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#ac363ab9fcd246d916c766c641e54ad52", null ],
     [ "globalUploadBufferPoolSize", "struct_core_graphics_1_1_graphics_device_state.html#a8f1601a54938dca4ba6caeca9bed46a1", null ],
-    [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a81f87f71a6a61c7546e54f673e755980", null ],
+    [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a9e41a55df9ab3c706c4e4b03d659a5a9", null ],
     [ "indexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a8db2bc5ae5ffe68141934069b16c72a3", null ],
     [ "inNotifyEventHandlers", "struct_core_graphics_1_1_graphics_device_state.html#a85aee14876067ba0c06d1f19a28dec5c", null ],
     [ "isOpen", "struct_core_graphics_1_1_graphics_device_state.html#a3981726be1aa1bd1a8df5a86950f8221", null ],
@@ -31,7 +30,8 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "setupTransferCommandBufferPool", "struct_core_graphics_1_1_graphics_device_state.html#ae4321c5ba04e80e504fb542b72c6c024", null ],
     [ "tickResourceTableCompute", "struct_core_graphics_1_1_graphics_device_state.html#a574d168a77b139eb06f5c369613cfb66", null ],
     [ "tickResourceTableGraphics", "struct_core_graphics_1_1_graphics_device_state.html#a658f5e21d3995b70ae789cf19b9de60c", null ],
-    [ "vertexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a017c74e12c522c6f7ea56d1039234b02", null ],
+    [ "uploadAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a6c34e285cf6f5699fc13b5325df64176", null ],
+    [ "vertexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#abfef5a2cf138aef45af51f7865842b2d", null ],
     [ "vertexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a760ce6fe27d3dc4ef96b35f8a421ad22", null ],
     [ "visualizeMipMaps", "struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a", null ]
 ];

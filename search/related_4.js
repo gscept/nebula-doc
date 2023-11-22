@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['enddrawsubpass_0',['EndDrawSubpass',['../class_vulkan_1_1_vk_scheduler.html#aad5668e89f0af2a86e24562fb8d50871',1,'Vulkan::VkScheduler']]],
-  ['enddrawthreads_1',['EndDrawThreads',['../class_vulkan_1_1_vk_scheduler.html#a47eb870f60611236df3802eb6665823a',1,'Vulkan::VkScheduler']]],
-  ['evalcharacter_2',['EvalCharacter',['../class_characters_1_1_character_context.html#a8bbc1e898b295fb4fc0494541a47c914',1,'Characters::CharacterContext']]]
+  ['database_0',['database',['../class_db_1_1_db_factory.html#a6efef52d7a939622bbc934ff6b90ffe0',1,'Db::DbFactory::Database'],['../class_db_1_1_table.html#a6efef52d7a939622bbc934ff6b90ffe0',1,'Db::Table::Database'],['../struct_mem_db_1_1_dataset.html#a6efef52d7a939622bbc934ff6b90ffe0',1,'MemDb::Dataset::Database'],['../class_mem_db_1_1_table.html#a6efef52d7a939622bbc934ff6b90ffe0',1,'MemDb::Table::Database']]],
+  ['dataset_1',['dataset',['../class_db_1_1_db_factory.html#ab93eacb81dea8d0c21041812e61f85ab',1,'Db::DbFactory::Dataset'],['../class_db_1_1_table.html#ab93eacb81dea8d0c21041812e61f85ab',1,'Db::Table::Dataset']]],
+  ['debughandler_2',['DebugHandler',['../class_debug_1_1_debug_server.html#ac32430dde14f4ca7792a4af89fe95d2e',1,'Debug::DebugServer']]],
+  ['debugpagehandler_3',['DebugPageHandler',['../class_debug_1_1_debug_server.html#a690a92767ad07fc3aca0ff3bc162a2c3',1,'Debug::DebugServer']]]
 ];

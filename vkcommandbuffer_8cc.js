@@ -25,6 +25,7 @@ var vkcommandbuffer_8cc =
     [ "CmdEndPass", "vkcommandbuffer_8cc.html#afa1cfaff29d586f6286347f79a93d5a0", null ],
     [ "CmdEndPipelineQueries", "vkcommandbuffer_8cc.html#adf9f8a377d66671106d4f924252494b2", null ],
     [ "CmdEndRecord", "vkcommandbuffer_8cc.html#aa19ebec9a07ab8d531f3e6c265d8b2fc", null ],
+    [ "CmdHandover", "vkcommandbuffer_8cc.html#a1769ef0a6b2719a0221ef795c5df87cb", null ],
     [ "CmdNextSubpass", "vkcommandbuffer_8cc.html#abaeb0f80c9574b6735e2871063629e3b", null ],
     [ "CmdPushComputeConstants", "vkcommandbuffer_8cc.html#a366b2bcc61c6357c357317c01fb3101b", null ],
     [ "CmdPushConstants", "vkcommandbuffer_8cc.html#a406c522bdd10aa15442f8476e2a1c472", null ],

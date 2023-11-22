@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['scrollfunc_0',['ScrollFunc',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#abecd05a27152b1bf18f2415cdc7b1050',1,'GLFW::GLFWDisplayDevice']]],
-  ['shaderbase_1',['ShaderBase',['../class_base_1_1_shader_server_base.html#aa1e6e976c4e34222d5aaa66a4cfa316c',1,'Base::ShaderServerBase']]],
-  ['shaderconfigserver_2',['ShaderConfigServer',['../class_materials_1_1_shader_config.html#a605566a1870ca4a0758dcbffd9ec5b7a',1,'Materials::ShaderConfig']]],
-  ['sqlite3database_3',['sqlite3database',['../class_db_1_1_sqlite3_factory.html#ae32060ef5dfe3e7ca7e9bc6bde7ea949',1,'Db::Sqlite3Factory::Sqlite3Database'],['../class_db_1_1_sqlite3_table.html#ae32060ef5dfe3e7ca7e9bc6bde7ea949',1,'Db::Sqlite3Table::Sqlite3Database']]],
-  ['sqlite3table_4',['Sqlite3Table',['../class_db_1_1_sqlite3_factory.html#a3c2f4db2ac90ca3869cd3c3436d28ceb',1,'Db::Sqlite3Factory']]],
-  ['std_3a_3anumeric_5flimits_3c_20math_3a_3ahalf_20_3e_5',['numeric_limits&lt; Math::half &gt;',['../class_math_1_1half.html#a00f3b28fbd8af0ac4e8aaa1cec7f0bd8',1,'Math::half']]],
-  ['streamactorpool_6',['StreamActorPool',['../class_physics_1_1_actor_context.html#aff85409699d4cb9d186084d3f480cc03',1,'Physics::ActorContext']]],
-  ['stringatom_7',['stringatom',['../class_util_1_1_global_string_atom_table.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::GlobalStringAtomTable::StringAtom'],['../class_util_1_1_local_string_atom_table.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::LocalStringAtomTable::StringAtom'],['../class_util_1_1_string_atom_table_base.html#aca8d97f14d03d35d35e6f25e79b37510',1,'Util::StringAtomTableBase::StringAtom']]],
-  ['sysfunc_8',['SysFunc',['../class_posix_1_1_posix_socket.html#a13ebc4e9e2cfc1392d5d0849cd29da7a',1,'Posix::PosixSocket']]]
+  ['reader_0',['Reader',['../class_db_1_1_db_factory.html#a35cb182752752c74a30050705acc3c06',1,'Db::DbFactory']]],
+  ['resizefunc_1',['ResizeFunc',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#afaf3698d197000af66660c4a7fc25e3a',1,'GLFW::GLFWDisplayDevice']]],
+  ['resourcecontainer_2',['ResourceContainer',['../class_resources_1_1_resource.html#a1f39a08bf5b69fe48e9f9cd2c7d1f9ee',1,'Resources::Resource']]],
+  ['resourceloader_3',['resourceloader',['../class_resources_1_1_resource.html#a685a33b83a13f36aceea3ff940994ac9',1,'Resources::Resource::ResourceLoader'],['../class_resources_1_1_resource_loader_thread.html#a685a33b83a13f36aceea3ff940994ac9',1,'Resources::ResourceLoaderThread::ResourceLoader'],['../class_resources_1_1_resource_server.html#a685a33b83a13f36aceea3ff940994ac9',1,'Resources::ResourceServer::ResourceLoader']]],
+  ['resourcememorycache_4',['ResourceMemoryCache',['../class_resources_1_1_resource.html#a0b10664f7930a1700855493b6f3bc665',1,'Resources::Resource']]],
+  ['resourceserver_5',['resourceserver',['../class_resources_1_1_resource.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::Resource::ResourceServer'],['../class_resources_1_1_resource_loader.html#a9171c2710c5c83af83fe94f1c1436578',1,'Resources::ResourceLoader::ResourceServer']]]
 ];

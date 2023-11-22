@@ -92,22 +92,28 @@ $(document).ready(function(){initNavTree('rangeallocator_8h.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">rangeallocator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bit_8h_source.html">util/bit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="array_8h_source.html">util/array.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="scalar_8h_source.html">math/scalar.h</a>&quot;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div>
 <p><a href="rangeallocator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_range_allocator.html">Memory::RangeAllocator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An allocator that reserves a range of memory and outputs an offset to that range.  <a href="class_memory_1_1_range_allocator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocator_1_1_range.html">Memory::RangeAllocator::Range</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_range_allocator.html">Memory::RangeAllocator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocator_1_1_range_allocator_node.html">Memory::RangeAllocator::RangeAllocatorNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">Memory::RangeAllocator::BinIndex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -115,6 +121,22 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_memory" id="r_namespace_memory"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html">Memory</a></td></tr>
 <tr class="memdesc:namespace_memory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory using the TLSF method (<a href="http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf">http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf</a>), with extended handling of padding to better suit GPUs. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac6c20877e9b5650262be247e0a775a12" id="r_ac6c20877e9b5650262be247e0a775a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#ac6c20877e9b5650262be247e0a775a12">Memory::BucketFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
+<tr class="memdesc:ac6c20877e9b5650262be247e0a775a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bucket from index.  <br /></td></tr>
+<tr class="separator:ac6c20877e9b5650262be247e0a775a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44892613b078c57e47d8f5767a9a8ed1" id="r_a44892613b078c57e47d8f5767a9a8ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a44892613b078c57e47d8f5767a9a8ed1">Memory::BinFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bucket)</td></tr>
+<tr class="memdesc:a44892613b078c57e47d8f5767a9a8ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin from index.  <br /></td></tr>
+<tr class="separator:a44892613b078c57e47d8f5767a9a8ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3d8a92ddbae57facc1c3c84cb9c09c6d" id="r_a3d8a92ddbae57facc1c3c84cb9c09c6d"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d">Memory::NUM_BUCKETS</a> = 0x20</td></tr>
+<tr class="separator:a3d8a92ddbae57facc1c3c84cb9c09c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3070d843b8ee064a283eb106bd39839c" id="r_a3070d843b8ee064a283eb106bd39839c"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a3070d843b8ee064a283eb106bd39839c">Memory::NUM_BINS_PER_BUCKET</a> = 0x10</td></tr>
+<tr class="separator:a3070d843b8ee064a283eb106bd39839c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -123,7 +145,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="rangeallocator_8h.html">rangeallocator.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 22 2023 21:19:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 22 2023 21:36:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -11,7 +11,5 @@ var dir_667462bf3902e31e6469e5425fdef989 =
     [ "poolarrayallocator.cc", "poolarrayallocator_8cc.html", null ],
     [ "poolarrayallocator.h", "poolarrayallocator_8h.html", "poolarrayallocator_8h" ],
     [ "rangeallocator.h", "rangeallocator_8h.html", "rangeallocator_8h" ],
-    [ "ringallocator.h", "ringallocator_8h.html", "ringallocator_8h" ],
-    [ "sizeclassificationallocator.cpp", "sizeclassificationallocator_8cpp.html", null ],
-    [ "sizeclassificationallocator.h", "sizeclassificationallocator_8h.html", "sizeclassificationallocator_8h" ]
+    [ "ringallocator.h", "ringallocator_8h.html", "ringallocator_8h" ]
 ];

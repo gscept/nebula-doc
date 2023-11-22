@@ -53,6 +53,7 @@ var commandbuffer_8h =
     [ "CmdEndPipelineQueries", "commandbuffer_8h.html#adf9f8a377d66671106d4f924252494b2", null ],
     [ "CmdEndRecord", "commandbuffer_8h.html#aa19ebec9a07ab8d531f3e6c265d8b2fc", null ],
     [ "CmdFinishQueries", "commandbuffer_8h.html#ac30a5d216cba8fe40aebb7d733f854e2", null ],
+    [ "CmdHandover", "commandbuffer_8h.html#a1769ef0a6b2719a0221ef795c5df87cb", null ],
     [ "CmdNextSubpass", "commandbuffer_8h.html#abaeb0f80c9574b6735e2871063629e3b", null ],
     [ "CmdPushComputeConstants", "commandbuffer_8h.html#a366b2bcc61c6357c357317c01fb3101b", null ],
     [ "CmdPushConstants", "commandbuffer_8h.html#a406c522bdd10aa15442f8476e2a1c472", null ],

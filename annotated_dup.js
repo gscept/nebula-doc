@@ -174,6 +174,7 @@ var annotated_dup =
       [ "BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
       [ "BufferSet", "struct_core_graphics_1_1_buffer_set.html", "struct_core_graphics_1_1_buffer_set" ],
       [ "BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", "struct_core_graphics_1_1_buffer_subresource_info" ],
+      [ "BufferWithStaging", "struct_core_graphics_1_1_buffer_with_staging.html", "struct_core_graphics_1_1_buffer_with_staging" ],
       [ "CmdBufferBeginInfo", "struct_core_graphics_1_1_cmd_buffer_begin_info.html", "struct_core_graphics_1_1_cmd_buffer_begin_info" ],
       [ "CmdBufferClearInfo", "struct_core_graphics_1_1_cmd_buffer_clear_info.html", "struct_core_graphics_1_1_cmd_buffer_clear_info" ],
       [ "CmdBufferCreateInfo", "struct_core_graphics_1_1_cmd_buffer_create_info.html", "struct_core_graphics_1_1_cmd_buffer_create_info" ],
@@ -205,6 +206,7 @@ var annotated_dup =
       [ "ImageLoadInfo", "struct_core_graphics_1_1_image_load_info.html", "struct_core_graphics_1_1_image_load_info" ],
       [ "IndexType", "class_core_graphics_1_1_index_type.html", "class_core_graphics_1_1_index_type" ],
       [ "InputAssemblyKey", "union_core_graphics_1_1_input_assembly_key.html", "union_core_graphics_1_1_input_assembly_key" ],
+      [ "MemoryHeap", "struct_core_graphics_1_1_memory_heap.html", "struct_core_graphics_1_1_memory_heap" ],
       [ "MemoryPool", "struct_core_graphics_1_1_memory_pool.html", "struct_core_graphics_1_1_memory_pool" ],
       [ "MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],
       [ "MeshId", "struct_core_graphics_1_1_mesh_id.html", null ],
@@ -278,6 +280,7 @@ var annotated_dup =
       [ "TextureSparsePage", "struct_core_graphics_1_1_texture_sparse_page.html", "struct_core_graphics_1_1_texture_sparse_page" ],
       [ "TextureSparsePageOffset", "struct_core_graphics_1_1_texture_sparse_page_offset.html", "struct_core_graphics_1_1_texture_sparse_page_offset" ],
       [ "TextureSparsePageSize", "struct_core_graphics_1_1_texture_sparse_page_size.html", "struct_core_graphics_1_1_texture_sparse_page_size" ],
+      [ "TextureStreamData", "struct_core_graphics_1_1_texture_stream_data.html", "struct_core_graphics_1_1_texture_stream_data" ],
       [ "TextureSubresourceInfo", "struct_core_graphics_1_1_texture_subresource_info.html", "struct_core_graphics_1_1_texture_subresource_info" ],
       [ "TextureSwizzle", "struct_core_graphics_1_1_texture_swizzle.html", "struct_core_graphics_1_1_texture_swizzle" ],
       [ "TextureViewCreateInfo", "struct_core_graphics_1_1_texture_view_create_info.html", "struct_core_graphics_1_1_texture_view_create_info" ],
@@ -731,11 +734,10 @@ var annotated_dup =
     [ "Memory", "namespace_memory.html", [
       [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html", "class_memory_1_1_arena_allocator" ],
       [ "PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ],
+      [ "RangeAllocation", "struct_memory_1_1_range_allocation.html", "struct_memory_1_1_range_allocation" ],
       [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
       [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
       [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
-      [ "SizeClassificationAllocation", "struct_memory_1_1_size_classification_allocation.html", "struct_memory_1_1_size_classification_allocation" ],
-      [ "SizeClassificationAllocator", "class_memory_1_1_size_classification_allocator.html", "class_memory_1_1_size_classification_allocator" ],
       [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ]
     ] ],
     [ "Messaging", "namespace_messaging.html", [

@@ -1,6 +1,7 @@
 var bit_8h =
 [
     [ "CountBits", "bit_8h.html#ae530f444bfb138d60bb349da54c370fc", null ],
+    [ "FirstOne", "bit_8h.html#ac2a252ffc6631479969e6decdf946859", null ],
     [ "HasBit", "bit_8h.html#ad79c549d8ff8d445ac5f1da15fb8fbf1", null ],
     [ "HasBit", "bit_8h.html#a865e97c189979f35eaedc69446db24ff", null ],
     [ "HasBit", "bit_8h.html#abf6f87de2965e1bd5ccf45f48c14ef29", null ],
@@ -8,6 +9,8 @@ var bit_8h =
     [ "HasBit", "bit_8h.html#a559a7a7139fa77cbf28c620a97aa614e", null ],
     [ "HasBit", "bit_8h.html#a5c94977ecc1a4eacc0fe8a31e3703f56", null ],
     [ "HashCombine", "bit_8h.html#af3fee714ad3302f91750deae67a94852", null ],
+    [ "LastOne", "bit_8h.html#a1eb384b35f323f7d0be9e9aee86a55df", null ],
+    [ "Lsb", "bit_8h.html#a99dcfa539a8cc8bf24d1b587c8253031", null ],
     [ "SetBit", "bit_8h.html#adbcadd541631cff951e1856ea4ae5906", null ],
     [ "SetBit", "bit_8h.html#a2a86c99896c2a818350b124592d5867c", null ],
     [ "SetBit", "bit_8h.html#aa73ad094ccb945cb6cfa59b8b9a1a7b1", null ],

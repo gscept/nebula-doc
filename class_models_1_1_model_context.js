@@ -41,7 +41,7 @@ var class_models_1_1_model_context =
     [ "materialInstanceContexts", "class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
     [ "NodeInstances", "class_models_1_1_model_context.html#a0dc7d4539f59ad8b0a4ad87758d0ba4b", null ],
-    [ "RenderInstanceAllocator", "class_models_1_1_model_context.html#aedeaa5b01db4a46e67089b850b4f2329", null ],
-    [ "TransformInstanceAllocator", "class_models_1_1_model_context.html#a3a97410099307befd96ceb80d9e39f71", null ],
+    [ "RenderInstanceAllocator", "class_models_1_1_model_context.html#a88d571a083d0ebb8096a6cd2696845fa", null ],
+    [ "TransformInstanceAllocator", "class_models_1_1_model_context.html#a10cc0e23c6513ca617a86c18e69e70db", null ],
     [ "TransformsUpdateCounter", "class_models_1_1_model_context.html#ad7c60d33aa197cdaa5b5dcd9d3764f26", null ]
 ];

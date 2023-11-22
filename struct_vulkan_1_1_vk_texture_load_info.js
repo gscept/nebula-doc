@@ -1,7 +1,6 @@
 var struct_vulkan_1_1_vk_texture_load_info =
 [
     [ "dev", "struct_vulkan_1_1_vk_texture_load_info.html#afa0d61401ea2178451243167c40eb376", null ],
-    [ "dims", "struct_vulkan_1_1_vk_texture_load_info.html#a7b3f972ad08b567f85c025ca3fe68aa5", null ],
     [ "img", "struct_vulkan_1_1_vk_texture_load_info.html#a54b2b0b028fc66530a64a2855f2a12fe", null ],
     [ "mem", "struct_vulkan_1_1_vk_texture_load_info.html#a3aaa720269770bbfbd3e107518ad31ce", null ],
     [ "relativeDims", "struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3", null ],

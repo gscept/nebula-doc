@@ -79,7 +79,7 @@ var texture_8h =
     [ "TextureSparseMakeResident", "texture_8h.html#a6f5cae0d06cf5d781c2c49924961e080", null ],
     [ "TextureSwapBuffers", "texture_8h.html#a02f587ae8c1193fe3a46f6abb52b3e09", null ],
     [ "TextureTypeFromString", "texture_8h.html#a5346ed350033cb47650845080c1ad794", null ],
-    [ "TextureUpdate", "texture_8h.html#a64f4144d90308271ac9294fd9545b134", null ],
+    [ "TextureUpdate", "texture_8h.html#a11e289aeb1a505b443c884b19835cc3e", null ],
     [ "TextureUsageFromString", "texture_8h.html#a6f2805dd8f15c2b00bba9a2c3c33d019", null ],
     [ "TextureWindowResized", "texture_8h.html#afe3a6ac5bf0f7a13169172eaed3b1b07", null ],
     [ "TextureAutoMips", "texture_8h.html#a6e5cf5412647a07dde5eae8f31aeda9d", null ]
