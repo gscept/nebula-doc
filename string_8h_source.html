@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="struct_util_1_1_string.html#a27c7c08fe18756feb49dcefd94b162d7">Trim</a>(<span class="keyword">const</span> <a class="code hl_function" href="struct_util_1_1_string.html#acb6218f1838c7e18968ffa5fc4341fea">String</a>&amp; charSet);</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="struct_util_1_1_string.html#a3de260ea686555b218ac9b6af163abe1">SubstituteString</a>(<span class="keyword">const</span> <a class="code hl_function" href="struct_util_1_1_string.html#acb6218f1838c7e18968ffa5fc4341fea">String</a>&amp; str, <span class="keyword">const</span> <a class="code hl_function" href="struct_util_1_1_string.html#acb6218f1838c7e18968ffa5fc4341fea">String</a>&amp; substStr);</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="struct_util_1_1_string.html#a6ffd041e5eea000748407bb4858f3cd5">SubstituteChar</a>(<span class="keywordtype">char</span> c, <span class="keywordtype">char</span> subst);</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordtype">void</span> __cdecl <a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmtString, ...);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordtype">void</span> __cdecl <a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmtString, ...);</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">void</span> __cdecl <a class="code hl_function" href="struct_util_1_1_string.html#ac69905c179a2e22ab0d9827dfa268d73">FormatArgList</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmtString, va_list argList);</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="keyword">static</span> <a class="code hl_function" href="struct_util_1_1_string.html#acb6218f1838c7e18968ffa5fc4341fea">String</a> <a class="code hl_function" href="struct_util_1_1_string.html#ae274528d3f354078851d9a43e23445b4">Sprintf</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmtString, ...);</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_util_1_1_string.html#ad3a4c47f075e199a5f34337647db8a45">CheckValidCharSet</a>(<span class="keyword">const</span> <a class="code hl_function" href="struct_util_1_1_string.html#acb6218f1838c7e18968ffa5fc4341fea">String</a>&amp; charSet) <span class="keyword">const</span>;</div>
@@ -428,7 +428,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00523" data-start="{" data-end="}">
 <div class="line"><a id="l00523" name="l00523"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#ab96f81ab0f1902229939bfa601668989">  523</a></span><a class="code hl_function" href="struct_util_1_1_string.html#ab96f81ab0f1902229939bfa601668989">String::SetByte</a>(<span class="keywordtype">byte</span> val)</div>
 <div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>{</div>
-<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
+<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
 <div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>}</div>
 </div>
 <div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span> </div>
@@ -437,7 +437,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00532" data-start="{" data-end="}">
 <div class="line"><a id="l00532" name="l00532"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a847d5227b26b0774303a6e134a8bac41">  532</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a847d5227b26b0774303a6e134a8bac41">String::SetUByte</a>(<a class="code hl_typedef" href="types_8h.html#a5dd4f281954ce1405c92d62a427f839a">ubyte</a> val)</div>
 <div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>{</div>
-<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
+<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
 <div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>}</div>
 </div>
 <div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span> </div>
@@ -446,7 +446,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00541" data-start="{" data-end="}">
 <div class="line"><a id="l00541" name="l00541"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a026a1e2641431a7cbb731ad061303489">  541</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a026a1e2641431a7cbb731ad061303489">String::SetShort</a>(<span class="keywordtype">short</span> val)</div>
 <div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>{</div>
-<div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
+<div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
 <div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>}</div>
 </div>
 <div class="line"><a id="l00545" name="l00545"></a><span class="lineno">  545</span> </div>
@@ -455,7 +455,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00550" data-start="{" data-end="}">
 <div class="line"><a id="l00550" name="l00550"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a3233111f5dd8f501e11f2eb6da9434b5">  550</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a3233111f5dd8f501e11f2eb6da9434b5">String::SetUShort</a>(<a class="code hl_typedef" href="types_8h.html#ab95f123a6c9bcfee6a343170ef8c5f69">ushort</a> val)</div>
 <div class="line"><a id="l00551" name="l00551"></a><span class="lineno">  551</span>{</div>
-<div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
+<div class="line"><a id="l00552" name="l00552"></a><span class="lineno">  552</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
 <div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span>}</div>
 </div>
 <div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span> </div>
@@ -464,7 +464,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00559" data-start="{" data-end="}">
 <div class="line"><a id="l00559" name="l00559"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a4d466d5509f03a9f3349578ada2f9a45">  559</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a4d466d5509f03a9f3349578ada2f9a45">String::SetInt</a>(<span class="keywordtype">int</span> val)</div>
 <div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>{</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%d&quot;</span>, val);</div>
 <div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>}</div>
 </div>
 <div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span> </div>
@@ -473,7 +473,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00568" data-start="{" data-end="}">
 <div class="line"><a id="l00568" name="l00568"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#aaf157f39875f79b719466ca36a9c3cae">  568</a></span><a class="code hl_function" href="struct_util_1_1_string.html#aaf157f39875f79b719466ca36a9c3cae">String::SetUInt</a>(<a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> val)</div>
 <div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>{</div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%u&quot;</span>, val);</div>
 <div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>}</div>
 </div>
 <div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span> </div>
@@ -482,7 +482,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00577" data-start="{" data-end="}">
 <div class="line"><a id="l00577" name="l00577"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a57c32ee5e365342a5e8677149753e419">  577</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a57c32ee5e365342a5e8677149753e419">String::SetLong</a>(<span class="keywordtype">long</span> val)</div>
 <div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span>{</div>
-<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%ld&quot;</span>, val);</div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%ld&quot;</span>, val);</div>
 <div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>}</div>
 </div>
 <div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span> </div>
@@ -491,7 +491,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00586" data-start="{" data-end="}">
 <div class="line"><a id="l00586" name="l00586"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a19043ade113a289fe6185319c1432368">  586</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a19043ade113a289fe6185319c1432368">String::SetSizeT</a>(<span class="keywordtype">size_t</span> val)</div>
 <div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>{</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%zu&quot;</span>, val);</div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%zu&quot;</span>, val);</div>
 <div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>}</div>
 </div>
 <div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span> </div>
@@ -500,7 +500,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00595" data-start="{" data-end="}">
 <div class="line"><a id="l00595" name="l00595"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a337ad2f4f23a309c8ff5367c63afc186">  595</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a337ad2f4f23a309c8ff5367c63afc186">String::SetLongLong</a>(<span class="keywordtype">long</span> <span class="keywordtype">long</span> val)</div>
 <div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>{</div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%lld&quot;</span>, val);</div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%lld&quot;</span>, val);</div>
 <div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>}</div>
 </div>
 <div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span> </div>
@@ -509,7 +509,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00604" data-start="{" data-end="}">
 <div class="line"><a id="l00604" name="l00604"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#aa63297ca8bf811166c8b7f9be31533f1">  604</a></span><a class="code hl_function" href="struct_util_1_1_string.html#aa63297ca8bf811166c8b7f9be31533f1">String::SetFloat</a>(<span class="keywordtype">float</span> val)</div>
 <div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>{</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f&quot;</span>, val);</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f&quot;</span>, val);</div>
 <div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>}</div>
 </div>
 <div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span> </div>
@@ -518,7 +518,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00613" data-start="{" data-end="}">
 <div class="line"><a id="l00613" name="l00613"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#aaa1dc911e81095030525edc1090c21f5">  613</a></span><a class="code hl_function" href="struct_util_1_1_string.html#aaa1dc911e81095030525edc1090c21f5">String::SetDouble</a>(<span class="keywordtype">double</span> val)</div>
 <div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>{</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f&quot;</span>, val);</div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f&quot;</span>, val);</div>
 <div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>}</div>
 </div>
 <div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span> </div>
@@ -557,7 +557,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00652" data-start="{" data-end="}">
 <div class="line"><a id="l00652" name="l00652"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a8fb47b1912f0b49d1deded8b3de73299">  652</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a8fb47b1912f0b49d1deded8b3de73299">String::SetVec2</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec2.html">Math::vec2</a>&amp; v)</div>
 <div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>{</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec2.html#a61f384398857690347510ec6cba8f009">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec2.html#afb91b2d0c7d864bb5e9a8e81724cf93d">y</a>);</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec2.html#a61f384398857690347510ec6cba8f009">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec2.html#afb91b2d0c7d864bb5e9a8e81724cf93d">y</a>);</div>
 <div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>}</div>
 </div>
 <div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span> </div>
@@ -566,7 +566,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00661" data-start="{" data-end="}">
 <div class="line"><a id="l00661" name="l00661"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#a7225e957e39edc3360d972b46dc73ad3">  661</a></span><a class="code hl_function" href="struct_util_1_1_string.html#a7225e957e39edc3360d972b46dc73ad3">String::SetVec4</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; v)</div>
 <div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>{</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#ada43b47a7d7124e458b653f078271dfb">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a1fd61b43b1668308599d74a429fa2b62">y</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a3c8ad5effbd72296de167f078c7fc420">z</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#aa570b4bc60147a1f0e822c74bda9fec2">w</a>);</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#ada43b47a7d7124e458b653f078271dfb">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a1fd61b43b1668308599d74a429fa2b62">y</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a3c8ad5effbd72296de167f078c7fc420">z</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#aa570b4bc60147a1f0e822c74bda9fec2">w</a>);</div>
 <div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>}</div>
 </div>
 <div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span> </div>
@@ -575,7 +575,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00670" data-start="{" data-end="}">
 <div class="line"><a id="l00670" name="l00670"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#ac619f3996846c92ac7b9a7f3d9726aa4">  670</a></span><a class="code hl_function" href="struct_util_1_1_string.html#ac619f3996846c92ac7b9a7f3d9726aa4">String::SetVec3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">Math::vec3</a>&amp; v)</div>
 <div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>{</div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">y</a>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">z</a>);</div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">x</a>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">y</a>, v.<a class="code hl_variable" href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">z</a>);</div>
 <div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>}</div>
 </div>
 <div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span> </div>
@@ -584,7 +584,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00679" data-start="{" data-end="}">
 <div class="line"><a id="l00679" name="l00679"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#ab935e0a95ec3df1d97bf24eb51bc4d09">  679</a></span><a class="code hl_function" href="struct_util_1_1_string.html#ab935e0a95ec3df1d97bf24eb51bc4d09">String::SetQuaternion</a>(<span class="keyword">const</span> <a class="code hl_class" href="struct_math_1_1quat.html">Math::quat</a>&amp; v)</div>
 <div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>{</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#aca8226cc2ce032fae41103fa58dc54db">x</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#a09ba3cef83abca0599df75ec5c1848b4">y</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#ab67cf54268e54bfa7934a3570c7af0ff">z</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#abf74f5288260c8742755147f70be99a8">w</a>);</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f,%.6f,%.6f,%.6f&quot;</span>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#aca8226cc2ce032fae41103fa58dc54db">x</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#a09ba3cef83abca0599df75ec5c1848b4">y</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#ab67cf54268e54bfa7934a3570c7af0ff">z</a>, v.<a class="code hl_variable" href="struct_math_1_1quat.html#abf74f5288260c8742755147f70be99a8">w</a>);</div>
 <div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>}</div>
 </div>
 <div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span> </div>
@@ -593,7 +593,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00688" data-start="{" data-end="}">
 <div class="line"><a id="l00688" name="l00688"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#adccbe7c89f84bf3537098a01a054cf73">  688</a></span><a class="code hl_function" href="struct_util_1_1_string.html#adccbe7c89f84bf3537098a01a054cf73">String::SetMat4</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1mat4.html">Math::mat4</a>&amp; m)</div>
 <div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>{</div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%.6f, %.6f, %.6f, %.6f, &quot;</span></div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%.6f, %.6f, %.6f, %.6f, &quot;</span></div>
 <div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>                 <span class="stringliteral">&quot;%.6f, %.6f, %.6f, %.6f, &quot;</span></div>
 <div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>                 <span class="stringliteral">&quot;%.6f, %.6f, %.6f, %.6f, &quot;</span></div>
 <div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>                 <span class="stringliteral">&quot;%.6f, %.6f, %.6f, %.6f&quot;</span>,</div>
@@ -609,7 +609,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00704" data-start="{" data-end="}">
 <div class="line"><a id="l00704" name="l00704"></a><span class="lineno"><a class="line" href="struct_util_1_1_string.html#afcc9446c317e6086fc23a309d053f9d8">  704</a></span><a class="code hl_function" href="struct_util_1_1_string.html#afcc9446c317e6086fc23a309d053f9d8">String::SetTransform44</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_math_1_1transform44.html">Math::transform44</a>&amp; t)</div>
 <div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>{</div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>    this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Format</a>(<span class="stringliteral">&quot;%s|%s|%s|%s|%s|%s&quot;</span>,</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>    this-&gt;<a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a>(<span class="stringliteral">&quot;%s|%s|%s|%s|%s|%s&quot;</span>,</div>
 <div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>        this-&gt;<a class="code hl_function" href="struct_util_1_1_string.html#a0ec4a55d35c1f3d28e29864917397dfb">FromVec3</a>(<a class="code hl_function" href="namespace_math.html#aeeb92731f898b836b0375bce0533c99a">xyz</a>(t.<a class="code hl_function" href="class_math_1_1transform44.html#aaed343db264be3b58944790f53099994">getposition</a>())).<a class="code hl_function" href="struct_util_1_1_string.html#a680e1883c5ef41ef375533afc936a2b7">AsCharPtr</a>(),</div>
 <div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>        this-&gt;FromQuat(t.<a class="code hl_function" href="class_math_1_1transform44.html#ae3dccbc7ff91a8ef2201cfa2ee7bd11f">getrotate</a>()).AsCharPtr(),</div>
 <div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>        this-&gt;FromVec3(t.<a class="code hl_function" href="class_math_1_1transform44.html#a9ef1d58337f0e589b3ec4aa237345506">getscale</a>()).AsCharPtr(),</div>
@@ -1381,14 +1381,17 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 </div>
 <div class="line"><a id="l01499" name="l01499"></a><span class="lineno"> 1499</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l01500" name="l01500"></a><span class="lineno"> 1500</span>    </div>
-<div class="line"><a id="l01501" name="l01501"></a><span class="lineno"> 1501</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l01501" name="l01501"></a><span class="lineno"><a class="line" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8"> 1501</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_variable" href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Format</a> = &amp;<a class="code hl_function" href="struct_util_1_1_string.html#ae274528d3f354078851d9a43e23445b4">String::Sprintf</a>;</div>
 <div class="line"><a id="l01502" name="l01502"></a><span class="lineno"> 1502</span> </div>
-<div class="line"><a id="l01503" name="l01503"></a><span class="lineno"> 1503</span> </div>
-<div class="line"><a id="l01504" name="l01504"></a><span class="lineno"> 1504</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l01507" name="l01507"></a><span class="lineno"> 1507</span><a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a> <span class="keyword">operator</span> <span class="stringliteral">&quot;&quot;</span>_str(<span class="keyword">const</span> <span class="keywordtype">char</span>* c, std::size_t s);</div>
-<div class="line"><a id="l01508" name="l01508"></a><span class="lineno"> 1508</span> </div>
-<div class="line"><a id="l01509" name="l01509"></a><span class="lineno"> 1509</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l01503" name="l01503"></a><span class="lineno"> 1503</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l01504" name="l01504"></a><span class="lineno"> 1504</span> </div>
+<div class="line"><a id="l01505" name="l01505"></a><span class="lineno"> 1505</span> </div>
+<div class="line"><a id="l01506" name="l01506"></a><span class="lineno"> 1506</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l01509" name="l01509"></a><span class="lineno"> 1509</span><a class="code hl_class" href="struct_util_1_1_string.html">Util::String</a> <span class="keyword">operator</span> <span class="stringliteral">&quot;&quot;</span>_str(<span class="keyword">const</span> <span class="keywordtype">char</span>* c, std::size_t s);</div>
 <div class="line"><a id="l01510" name="l01510"></a><span class="lineno"> 1510</span> </div>
+<div class="line"><a id="l01511" name="l01511"></a><span class="lineno"> 1511</span> </div>
+<div class="line"><a id="l01512" name="l01512"></a><span class="lineno"> 1512</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l01513" name="l01513"></a><span class="lineno"> 1513</span> </div>
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
 <div class="ttc" id="aclass_math_1_1transform44_html"><div class="ttname"><a href="class_math_1_1transform44.html">Math::transform44</a></div><div class="ttdoc">A 4x4 matrix which is described by translation, rotation and scale.</div><div class="ttdef"><b>Definition</b> transform44.h:20</div></div>
 <div class="ttc" id="aclass_math_1_1transform44_html_a1d0b3e76f48902afc9ffe28e082b7dfe"><div class="ttname"><a href="class_math_1_1transform44.html#a1d0b3e76f48902afc9ffe28e082b7dfe">Math::transform44::getrotatepivot</a></div><div class="ttdeci">const point &amp; getrotatepivot() const</div><div class="ttdoc">get optional rotate pivot</div><div class="ttdef"><b>Definition</b> transform44.h:210</div></div>
@@ -1415,6 +1418,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="ttc" id="anamespace_memory_html_a6055e491858cd969e93326d9b3e4b420"><div class="ttname"><a href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a></div><div class="ttdeci">void Free(HeapType heapType, void *ptr)</div><div class="ttdoc">Free a block of memory.</div><div class="ttdef"><b>Definition</b> osxmemory.cc:136</div></div>
 <div class="ttc" id="anamespace_memory_html_a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b"><div class="ttname"><a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b">Memory::StringDataHeap</a></div><div class="ttdeci">@ StringDataHeap</div><div class="ttdef"><b>Definition</b> osxmemoryconfig.h:31</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
+<div class="ttc" id="anamespace_util_html_ad2341ddb03f60914f00952e4bda6dbb8"><div class="ttname"><a href="namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8">Util::Format</a></div><div class="ttdeci">auto Format</div><div class="ttdef"><b>Definition</b> string.h:1501</div></div>
 <div class="ttc" id="apoolarrayallocator_8h_html"><div class="ttname"><a href="poolarrayallocator_8h.html">poolarrayallocator.h</a></div></div>
 <div class="ttc" id="astruct_math_1_1mat4_html"><div class="ttname"><a href="struct_math_1_1mat4.html">Math::mat4</a></div><div class="ttdoc">A 4x4 single point precision float matrix.</div><div class="ttdef"><b>Definition</b> mat4.h:47</div></div>
 <div class="ttc" id="astruct_math_1_1mat4_html_a0efff576ac24d1a3863c06970ae6c02b"><div class="ttname"><a href="struct_math_1_1mat4.html#a0efff576ac24d1a3863c06970ae6c02b">Math::mat4::row3</a></div><div class="ttdeci">vec4 row3</div><div class="ttdef"><b>Definition</b> mat4.h:134</div></div>
@@ -1542,7 +1546,6 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 <div class="ttc" id="astruct_util_1_1_string_html_aa9bcf447013e3fd0f09eadc38c47a3de"><div class="ttname"><a href="struct_util_1_1_string.html#aa9bcf447013e3fd0f09eadc38c47a3de">Util.String::ToLower</a></div><div class="ttdeci">void ToLower()</div><div class="ttdoc">convert string to lower case</div><div class="ttdef"><b>Definition</b> string.cc:908</div></div>
 <div class="ttc" id="astruct_util_1_1_string_html_aaa1dc911e81095030525edc1090c21f5"><div class="ttname"><a href="struct_util_1_1_string.html#aaa1dc911e81095030525edc1090c21f5">Util.String::SetDouble</a></div><div class="ttdeci">void SetDouble(double val)</div><div class="ttdoc">set as double value</div><div class="ttdef"><b>Definition</b> string.h:613</div></div>
 <div class="ttc" id="astruct_util_1_1_string_html_aad408c08c0e997845d001a0baac0a136"><div class="ttname"><a href="struct_util_1_1_string.html#aad408c08c0e997845d001a0baac0a136">Util.String::Append</a></div><div class="ttdeci">void Append(const String &amp;str)</div><div class="ttdoc">append string</div><div class="ttdef"><b>Definition</b> string.h:859</div></div>
-<div class="ttc" id="astruct_util_1_1_string_html_aaee05ec072273a5bbf8dffb5bf7cdf5e"><div class="ttname"><a href="struct_util_1_1_string.html#aaee05ec072273a5bbf8dffb5bf7cdf5e">Util.String::Format</a></div><div class="ttdeci">void __cdecl Format(const char *fmtString,...)</div><div class="ttdoc">format string printf-style</div><div class="ttdef"><b>Definition</b> string.cc:52</div></div>
 <div class="ttc" id="astruct_util_1_1_string_html_aaf157f39875f79b719466ca36a9c3cae"><div class="ttname"><a href="struct_util_1_1_string.html#aaf157f39875f79b719466ca36a9c3cae">Util.String::SetUInt</a></div><div class="ttdeci">void SetUInt(uint val)</div><div class="ttdoc">set as uint value</div><div class="ttdef"><b>Definition</b> string.h:568</div></div>
 <div class="ttc" id="astruct_util_1_1_string_html_ab185820b4e2d91d4c90e240de0142983"><div class="ttname"><a href="struct_util_1_1_string.html#ab185820b4e2d91d4c90e240de0142983">Util.String::IsValidMat4</a></div><div class="ttdeci">bool IsValidMat4() const</div><div class="ttdoc">return true if content is a valid mat4</div><div class="ttdef"><b>Definition</b> string.h:1114</div></div>
 <div class="ttc" id="astruct_util_1_1_string_html_ab44365298ea55547500d13dff450bf4d"><div class="ttname"><a href="struct_util_1_1_string.html#ab44365298ea55547500d13dff450bf4d">Util.String::FromBool</a></div><div class="ttdeci">static String FromBool(bool b)</div><div class="ttdoc">construct a string from a bool</div><div class="ttdef"><b>Definition</b> string.h:1313</div></div>
@@ -1614,7 +1617,7 @@ $(document).ready(function(){initNavTree('string_8h_source.html',''); initResiza
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="string_8h.html">string.h</a></li>
 				<li class="footer">
-					Generated on Wed Nov 22 2023 21:36:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Nov 22 2023 21:48:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

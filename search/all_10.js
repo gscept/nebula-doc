@@ -732,7 +732,7 @@ var searchData=
   ['ptr_3c_20resources_3a_3aresourceserver_20_3e_729',['Ptr&lt; Resources::ResourceServer &gt;',['../class_ptr.html',1,'']]],
   ['ptr_3c_20scripting_3a_3ansharpserver_20_3e_730',['Ptr&lt; Scripting::NSharpServer &gt;',['../class_ptr.html',1,'']]],
   ['ptr_3c_20scripting_3a_3ascriptserver_20_3e_731',['Ptr&lt; Scripting::ScriptServer &gt;',['../class_ptr.html',1,'']]],
-  ['ptrdiff_732',['ptrdiff',['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'PtrDiff:&#160;types.h'],['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'ptrdiff:&#160;types.h']]],
+  ['ptrdiff_732',['ptrdiff',['../types_8h.html#a4583bd413fe03861671d4efca96d6588',1,'ptrdiff:&#160;types.h'],['../types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70',1,'PtrDiff:&#160;types.h']]],
   ['ptrt_733',['PtrT',['../types_8h.html#a924001a4a749dab532ba4ba011e9e4c1',1,'types.h']]],
   ['pundoubleull_734',['PunDoubleULL',['../union_system_1_1_byte_order_1_1_pun_double_u_l_l.html',1,'System::ByteOrder']]],
   ['punfloatul_735',['PunFloatUL',['../union_system_1_1_byte_order_1_1_pun_float_u_l.html',1,'System::ByteOrder']]],

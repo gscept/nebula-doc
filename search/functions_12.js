@@ -207,7 +207,7 @@ var searchData=
   ['root_204',['root',['../class_util_1_1_simple_tree.html#ace3f2c9f13d470b5d9451675470a4791',1,'Util::SimpleTree::Root()'],['../class_util_1_1_simple_tree.html#a72d04fd3ea62ee2324f7297d6a9aa4d7',1,'Util::SimpleTree::Root() const']]],
   ['rootelement_205',['rootelement',['../class_ti_xml_document.html#ab7d8c7025dd910259f1fea16fc72cda0',1,'TiXmlDocument::RootElement() const'],['../class_ti_xml_document.html#abcbfd3e831b2f2d46732c7b4e4076b90',1,'TiXmlDocument::RootElement()']]],
   ['rootkeytowinkeyhandle_206',['RootKeyToWinKeyHandle',['../class_win32_1_1_win32_registry.html#af1843ceba607ca7ed28798f6d4a6c46e',1,'Win32::Win32Registry']]],
-  ['rotate_207',['rotate',['../namespace_im3d.html#a466772bdb649738416c0933f9964145a',1,'Im3d::Rotate(const Mat3 &amp;_rotation)'],['../namespace_im3d.html#acbf76d881d157fb590d4012c5b94c9b8',1,'Im3d::Rotate(const Vec3 &amp;_axis, float _angle)'],['../namespace_math.html#aee96441f1021c61efe37c715e80a44fd',1,'Math::rotate()']]],
+  ['rotate_207',['rotate',['../namespace_math.html#aee96441f1021c61efe37c715e80a44fd',1,'Math::rotate()'],['../namespace_im3d.html#a466772bdb649738416c0933f9964145a',1,'Im3d::Rotate(const Mat3 &amp;_rotation)'],['../namespace_im3d.html#acbf76d881d157fb590d4012c5b94c9b8',1,'Im3d::Rotate(const Vec3 &amp;_axis, float _angle)']]],
   ['rotation_208',['Rotation',['../namespace_im3d.html#ad70b8a369ea82857cf565c03615c9d00',1,'Im3d']]],
   ['rotationaxis_209',['rotationaxis',['../namespace_math.html#a43b8e2e8a6c4a35f1c22cc926ec1629c',1,'Math']]],
   ['rotationmatrix_210',['rotationmatrix',['../namespace_math.html#a23276864c9df51a9a293c084e52a01a7',1,'Math']]],

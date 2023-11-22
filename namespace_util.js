@@ -112,5 +112,6 @@ var namespace_util =
     [ "SetBit", "namespace_util.html#ace97aafdb9dec71c7d94958dbaa65d97", null ],
     [ "SetBit", "namespace_util.html#a32469c5919e2ef24ec6de1835eb11804", null ],
     [ "TypePunning", "namespace_util.html#af7614736305c0cc6fb19c936c31edf52", null ],
-    [ "TypePunning", "namespace_util.html#ad4a275c00b23a5152b1fc6ad7f79b2a6", null ]
+    [ "TypePunning", "namespace_util.html#ad4a275c00b23a5152b1fc6ad7f79b2a6", null ],
+    [ "Format", "namespace_util.html#ad2341ddb03f60914f00952e4bda6dbb8", null ]
 ];
