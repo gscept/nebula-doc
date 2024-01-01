@@ -6,7 +6,7 @@ var jobs2_8h =
     [ "Jobs2::JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ],
     [ "Jobs2::JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
     [ "CompletionCounter", "jobs2_8h.html#ae7ceff6df92eaeefcc62b5b42ede81f7", null ],
-    [ "JobFunc", "jobs2_8h.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5", null ],
+    [ "JobFunc", "jobs2_8h.html#a91eaa5760dde2e7031e9cdda0c43f467", null ],
     [ "JobAlloc", "jobs2_8h.html#ab4799a23175610f12cb3f97d260b8730", null ],
     [ "JobAlloc", "jobs2_8h.html#a10dcfcd06d6b6f553f80c4e5c2499586", null ],
     [ "JobAppendSequence", "jobs2_8h.html#a0d2fef55952e65782c911c87d3e2c4ad", null ],

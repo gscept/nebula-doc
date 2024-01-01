@@ -18,7 +18,7 @@ var point_8h =
     [ "lessequal_any", "point_8h.html#ae548d4b3380f9d2506d97e85e696424f", null ],
     [ "maximize", "point_8h.html#a087fde4eaf9f5a9282fc83954844c6ca", null ],
     [ "minimize", "point_8h.html#a9ed9bb90f1751149b6a3517e1956cc26", null ],
-    [ "nearequal", "point_8h.html#ab273e0df1b911eaff21ce61675145562", null ],
+    [ "nearequal", "point_8h.html#adb380ded5fbb94e84a0a86e47ff3983a", null ],
     [ "operator+", "point_8h.html#a3ed947a09745a540ce820a023ed721fc", null ],
     [ "operator-", "point_8h.html#a78226d1d6b8af53d6056ffe7c7d66c1b", null ],
     [ "operator-", "point_8h.html#a73e5e1c39aab857da0cb2ed91088870b", null ],

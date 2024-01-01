@@ -61,7 +61,7 @@ var namespace_i_o =
     [ "ZipFileEntry", "class_i_o_1_1_zip_file_entry.html", "class_i_o_1_1_zip_file_entry" ],
     [ "ZipFileStream", "class_i_o_1_1_zip_file_stream.html", "class_i_o_1_1_zip_file_stream" ],
     [ "ZipFileSystem", "class_i_o_1_1_zip_file_system.html", "class_i_o_1_1_zip_file_system" ],
-    [ "WatchDelegate", "namespace_i_o.html#ae56c747075680acefb7ae169cefdb2ce", null ],
+    [ "WatchDelegate", "namespace_i_o.html#a123285c6d91c8f0f00da55e7ac54ae3c", null ],
     [ "WatchEventType", "namespace_i_o.html#acef052ae33a08af8aee1ba3eb7508355", [
       [ "Created", "namespace_i_o.html#acef052ae33a08af8aee1ba3eb7508355a146e8c7685c01ab61be0565d1bc1894d", null ],
       [ "Deleted", "namespace_i_o.html#acef052ae33a08af8aee1ba3eb7508355a042df8b3f4fd6a7abb52ce44228243fc", null ],

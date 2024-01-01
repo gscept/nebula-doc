@@ -32,6 +32,7 @@ var vec3_8h =
     [ "multiply", "vec3_8h.html#a3ca4ecda85c513ea2b06efff69308e3c", null ],
     [ "multiplyadd", "vec3_8h.html#ac60c89413abc847d7282cc8411b5f089", null ],
     [ "nearequal", "vec3_8h.html#a208f297e71e29e78afe797265c43d904", null ],
+    [ "nearequal", "vec3_8h.html#a9eb26438d9ae3795536e94d45100ede4", null ],
     [ "normalize", "vec3_8h.html#af247ff82218f51e8e93f6d6a2d87ebc0", null ],
     [ "normalizeapprox", "vec3_8h.html#af6dfc49dd5d1d52242e5908d52d64cec", null ],
     [ "operator*", "vec3_8h.html#a5e952f0177a09a1572fe4d3b10af9ecb", null ],

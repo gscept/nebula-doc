@@ -16,7 +16,7 @@ var im3d_8h =
     [ "IM3D_API", "im3d_8h.html#a522cf27437167324f2a32a62d84e6c77", null ],
     [ "IM3D_THREAD_LOCAL", "im3d_8h.html#a578c0633326f57849eac5e020bffecb0", null ],
     [ "IM3D_VERSION", "im3d_8h.html#abbf6d2f1bbfd04c23fe60d4820d3fc41", null ],
-    [ "DrawPrimitivesCallback", "im3d_8h.html#a45983d2d76a35011ddfa428df7a58879", null ],
+    [ "DrawPrimitivesCallback", "im3d_8h.html#af2b40f72c3a5fb7639b80c7b788d1187", null ],
     [ "Id", "im3d_8h.html#a3527224ef63046767381b01d728efd5a", null ],
     [ "U32", "im3d_8h.html#ad7dea597f335dec9b7e618dac333b7af", null ],
     [ "DrawPrimitiveType", "im3d_8h.html#a91df162b9fafbe71f1d0b21f1e0a64b9", [

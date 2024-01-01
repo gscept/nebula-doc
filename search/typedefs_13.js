@@ -2,9 +2,9 @@ var searchData=
 [
   ['vegetationallocator_0',['VegetationAllocator',['../class_vegetation_1_1_vegetation_context.html#ab7a1793610a4a2af8238b8b475e942bf',1,'Vegetation::VegetationContext']]],
   ['vertexlist_1',['VertexList',['../struct_im3d_1_1_context.html#a62da6e6f4e2eb5577f7ef34e4dd70175',1,'Im3d::Context']]],
-  ['viewdependentcall_2',['ViewDependentCall',['../namespace_graphics.html#a2f7b6aa5e45fec43d3b8979cafe91e8e',1,'Graphics']]],
+  ['viewdependentcall_2',['ViewDependentCall',['../namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7',1,'Graphics']]],
   ['viewhandle_3',['ViewHandle',['../namespace_graphics_feature.html#a26fd20dda0cc6c82de211f9331bcf323',1,'GraphicsFeature']]],
-  ['viewindependentcall_4',['ViewIndependentCall',['../namespace_graphics.html#ab380bf41cea929b5b5e57b9ccbd86e9a',1,'Graphics']]],
+  ['viewindependentcall_4',['ViewIndependentCall',['../namespace_graphics.html#a7b763d69e6745e4beb2f99ce55ddb448',1,'Graphics']]],
   ['visibilityresultarray_5',['VisibilityResultArray',['../class_visibility_1_1_observer_context.html#a02c2e0dab20ecdae6b4a088c3f7f62de',1,'Visibility::ObserverContext']]],
   ['vkbarrierallocator_6',['VkBarrierAllocator',['../namespace_vulkan.html#a63f58197766862dfdada97c3cd4094d3',1,'Vulkan']]],
   ['vkbufferallocator_7',['VkBufferAllocator',['../namespace_vulkan.html#a093f0889a85045ab986534dcce975fc4',1,'Vulkan']]],

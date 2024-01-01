@@ -44,6 +44,7 @@ var vec4_8h =
     [ "minimize", "vec4_8h.html#aaa770d336f5b0fe2060a1b7d494add21", null ],
     [ "multiply", "vec4_8h.html#aefaab2424c77cb2576db94e62b1db371", null ],
     [ "multiplyadd", "vec4_8h.html#ae11a9ca4acad646925ed9f92bc474f4d", null ],
+    [ "nearequal", "vec4_8h.html#aa71a2721c4b4e12f97f9a3d74a40e1e9", null ],
     [ "nearequal", "vec4_8h.html#aa01110da0190ec8f41af5565e9f5c63d", null ],
     [ "nearequal3", "vec4_8h.html#a8ac93386837e46c3de5f2a350944d157", null ],
     [ "normalize", "vec4_8h.html#a02aa38fcd64d503f19f1e11319aa2850", null ],

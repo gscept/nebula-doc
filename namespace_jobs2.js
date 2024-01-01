@@ -6,7 +6,7 @@ var namespace_jobs2 =
     [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
     [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ],
     [ "CompletionCounter", "namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7", null ],
-    [ "JobFunc", "namespace_jobs2.html#ac2b4a2f1502d4412dc4c9fbd06b8e4c5", null ],
+    [ "JobFunc", "namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467", null ],
     [ "__ImplementClass", "namespace_jobs2.html#a154abe3ecf3d846f6fff9995f4756e8a", null ],
     [ "JobAlloc", "namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730", null ],
     [ "JobAlloc", "namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586", null ],

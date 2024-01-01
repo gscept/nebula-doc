@@ -3,7 +3,7 @@ var filewatcher_8h =
     [ "IO::WatchEvent", "struct_i_o_1_1_watch_event.html", "struct_i_o_1_1_watch_event" ],
     [ "IO::EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
     [ "IO::FileWatcher", "class_i_o_1_1_file_watcher.html", "class_i_o_1_1_file_watcher" ],
-    [ "WatchDelegate", "filewatcher_8h.html#ae56c747075680acefb7ae169cefdb2ce", null ],
+    [ "WatchDelegate", "filewatcher_8h.html#a123285c6d91c8f0f00da55e7ac54ae3c", null ],
     [ "WatchEventType", "filewatcher_8h.html#acef052ae33a08af8aee1ba3eb7508355", [
       [ "Created", "filewatcher_8h.html#acef052ae33a08af8aee1ba3eb7508355a146e8c7685c01ab61be0565d1bc1894d", null ],
       [ "Deleted", "filewatcher_8h.html#acef052ae33a08af8aee1ba3eb7508355a042df8b3f4fd6a7abb52ce44228243fc", null ],

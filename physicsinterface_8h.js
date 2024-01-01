@@ -6,7 +6,7 @@ var physicsinterface_8h =
     [ "Physics::ActorId", "struct_physics_1_1_actor_id.html", "struct_physics_1_1_actor_id" ],
     [ "Physics::Actor", "struct_physics_1_1_actor.html", "struct_physics_1_1_actor" ],
     [ "Physics::Scene", "struct_physics_1_1_scene.html", "struct_physics_1_1_scene" ],
-    [ "UpdateFunctionType", "physicsinterface_8h.html#a86d5bfc721d4237a6499e13459c42688", null ],
+    [ "UpdateFunctionType", "physicsinterface_8h.html#ac4be4935a750e3efb636ec09c8724869", null ],
     [ "ActorType", "physicsinterface_8h.html#a303c363e8dc20be9dd9232685b2e81e3", [
       [ "Static", "physicsinterface_8h.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0", null ],
       [ "Kinematic", "physicsinterface_8h.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70", null ],

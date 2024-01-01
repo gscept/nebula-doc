@@ -20,7 +20,7 @@ var class_util_1_1_fixed_pool =
     [ "SetSetupFunc", "class_util_1_1_fixed_pool.html#ac52e0741973f883f27df9ad3ebaf52c4", null ],
     [ "Size", "class_util_1_1_fixed_pool.html#aa8276b9d990d5b68a0b0fd198b769e73", null ],
     [ "freeValues", "class_util_1_1_fixed_pool.html#a23af237e480378d2d79e9c2fa1031253", null ],
-    [ "setupFunc", "class_util_1_1_fixed_pool.html#a57895a7beb8a0f94e9f1522c9c294916", null ],
+    [ "setupFunc", "class_util_1_1_fixed_pool.html#aa234979a9d03f588f22d562f5d6561b6", null ],
     [ "size", "class_util_1_1_fixed_pool.html#ac6998a61821df8b1e4c08a56f25f6c08", null ],
     [ "usedValues", "class_util_1_1_fixed_pool.html#a7e385e7ae08638025a52bfd652320477", null ]
 ];

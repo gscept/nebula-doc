@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quadtree_0',['quadtree',['../class_util_1_1_quad_tree.html',1,'Util::QuadTree&lt; TYPE &gt;'],['../class_quad_tree.html',1,'QuadTree']]],
+  ['quadtree_0',['QuadTree',['../class_quad_tree.html',1,'QuadTree'],['../class_util_1_1_quad_tree.html',1,'Util::QuadTree&lt; TYPE &gt;']]],
   ['quadtreesystem_1',['QuadtreeSystem',['../class_visibility_1_1_quadtree_system.html',1,'Visibility']]],
   ['quadtreesystemloadinfo_2',['QuadtreeSystemLoadInfo',['../struct_visibility_1_1_quadtree_system_load_info.html',1,'Visibility']]],
   ['quat_3',['quat',['../struct_math_1_1quat.html',1,'Math']]],

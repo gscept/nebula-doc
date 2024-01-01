@@ -2,7 +2,7 @@ var class_game_1_1_message =
 [
     [ "MessageQueueId", "struct_game_1_1_message_1_1_message_queue_id.html", null ],
     [ "Delegate", "class_game_1_1_message.html#a3989224e57a584a6418707988955508f", null ],
-    [ "MessageQueue", "class_game_1_1_message.html#ad3ee81fe48984dbaabe1eaeee3380fe3", null ],
+    [ "MessageQueue", "class_game_1_1_message.html#a0a5bcc8701542e01d415c351c1d863e7", null ],
     [ "Message", "class_game_1_1_message.html#aa69497bc6fc2326f0990baa592fd23ae", null ],
     [ "~Message", "class_game_1_1_message.html#a3359c4988faa0c1a6f9babc563b9d0d5", null ],
     [ "Message", "class_game_1_1_message.html#a5970e85f61fea4ea433e2e3c2a9b1ba6", null ],

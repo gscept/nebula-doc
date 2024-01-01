@@ -23,7 +23,7 @@ var namespace_im3d =
     [ "Vec4", "struct_im3d_1_1_vec4.html", "struct_im3d_1_1_vec4" ],
     [ "Vector", "struct_im3d_1_1_vector.html", "struct_im3d_1_1_vector" ],
     [ "VertexData", "struct_im3d_1_1_vertex_data.html", "struct_im3d_1_1_vertex_data" ],
-    [ "DrawPrimitivesCallback", "namespace_im3d.html#a45983d2d76a35011ddfa428df7a58879", null ],
+    [ "DrawPrimitivesCallback", "namespace_im3d.html#af2b40f72c3a5fb7639b80c7b788d1187", null ],
     [ "Id", "namespace_im3d.html#a3527224ef63046767381b01d728efd5a", null ],
     [ "U32", "namespace_im3d.html#ad7dea597f335dec9b7e618dac333b7af", null ],
     [ "DrawPrimitiveType", "namespace_im3d.html#a91df162b9fafbe71f1d0b21f1e0a64b9", [

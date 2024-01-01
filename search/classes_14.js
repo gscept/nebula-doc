@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['table_0',['table',['../class_mem_db_1_1_table.html',1,'MemDb::Table'],['../class_db_1_1_table.html',1,'Db::Table']]],
+  ['table_0',['Table',['../class_db_1_1_table.html',1,'Db::Table'],['../class_mem_db_1_1_table.html',1,'MemDb::Table']]],
   ['tablecreateinfo_1',['TableCreateInfo',['../struct_mem_db_1_1_table_create_info.html',1,'MemDb']]],
   ['tableentry_2',['TableEntry',['../struct_util_1_1_sparse_table_1_1_table_entry.html',1,'Util::SparseTable']]],
   ['tableid_3',['TableId',['../struct_mem_db_1_1_table_id.html',1,'MemDb']]],
@@ -9,7 +9,7 @@ var searchData=
   ['tcpclientconnection_6',['TcpClientConnection',['../class_net_1_1_tcp_client_connection.html',1,'']]],
   ['tcpmessagecodec_7',['TcpMessageCodec',['../class_net_1_1_tcp_message_codec.html',1,'Net']]],
   ['tcpserver_8',['TcpServer',['../class_net_1_1_tcp_server.html',1,'']]],
-  ['template_9',['template',['../struct_game_1_1_blueprint_manager_1_1_template.html',1,'Game::BlueprintManager::Template'],['../class_nebula_1_1_game_1_1_template_manager_1_1_template.html',1,'Nebula.Game.TemplateManager.Template']]],
+  ['template_9',['Template',['../struct_game_1_1_blueprint_manager_1_1_template.html',1,'Game::BlueprintManager::Template'],['../class_nebula_1_1_game_1_1_template_manager_1_1_template.html',1,'Nebula.Game.TemplateManager.Template']]],
   ['templateid_10',['TemplateId',['../struct_game_1_1_template_id.html',1,'Game']]],
   ['templatemanager_11',['TemplateManager',['../class_nebula_1_1_game_1_1_template_manager.html',1,'Nebula::Game']]],
   ['terrainbiomeid_12',['TerrainBiomeId',['../struct_terrain_1_1_terrain_biome_id.html',1,'Terrain']]],
@@ -87,7 +87,7 @@ var searchData=
   ['token_84',['Token',['../class_db_1_1_filter_set_1_1_token.html',1,'Db::FilterSet']]],
   ['totalmemorystatus_85',['TotalMemoryStatus',['../struct_memory_1_1_total_memory_status.html',1,'Memory']]],
   ['track_86',['Track',['../struct_http_1_1_svg_line_chart_writer_1_1_track.html',1,'Http::SvgLineChartWriter']]],
-  ['traits_87',['traits',['../struct_game_1_1_angular_velocity_1_1_traits.html',1,'Game::AngularVelocity::Traits'],['../struct_game_1_1_entity_1_1_traits.html',1,'Game::Entity::Traits'],['../struct_game_1_1_orientation_1_1_traits.html',1,'Game::Orientation::Traits'],['../struct_game_1_1_position_1_1_traits.html',1,'Game::Position::Traits'],['../struct_game_1_1_scale_1_1_traits.html',1,'Game::Scale::Traits'],['../struct_game_1_1_velocity_1_1_traits.html',1,'Game::Velocity::Traits']]],
+  ['traits_87',['Traits',['../struct_game_1_1_angular_velocity_1_1_traits.html',1,'Game::AngularVelocity::Traits'],['../struct_game_1_1_entity_1_1_traits.html',1,'Game::Entity::Traits'],['../struct_game_1_1_orientation_1_1_traits.html',1,'Game::Orientation::Traits'],['../struct_game_1_1_position_1_1_traits.html',1,'Game::Position::Traits'],['../struct_game_1_1_scale_1_1_traits.html',1,'Game::Scale::Traits'],['../struct_game_1_1_velocity_1_1_traits.html',1,'Game::Velocity::Traits']]],
   ['transform44_88',['transform44',['../class_math_1_1transform44.html',1,'Math']]],
   ['transform44typeclass_89',['Transform44TypeClass',['../class_attr_1_1_transform44_type_class.html',1,'Attr']]],
   ['transformable_90',['Transformable',['../struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html',1,'Models::ModelContext::ModelInstance']]],

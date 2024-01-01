@@ -55,13 +55,13 @@ var searchData=
   ['buffercreateinfo_52',['BufferCreateInfo',['../struct_core_graphics_1_1_buffer_create_info.html',1,'CoreGraphics']]],
   ['bufferdependency_53',['BufferDependency',['../struct_frame_1_1_frame_op_1_1_buffer_dependency.html',1,'Frame::FrameOp']]],
   ['bufferid_54',['BufferId',['../struct_core_graphics_1_1_buffer_id.html',1,'CoreGraphics']]],
-  ['buffermapping_55',['buffermapping',['../struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html',1,'Vulkan::VkShaderCache::BufferMapping'],['../struct_vulkan_1_1_buffer_mapping.html',1,'Vulkan::BufferMapping']]],
+  ['buffermapping_55',['BufferMapping',['../struct_vulkan_1_1_buffer_mapping.html',1,'Vulkan::BufferMapping'],['../struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html',1,'Vulkan::VkShaderCache::BufferMapping']]],
   ['bufferset_56',['BufferSet',['../struct_core_graphics_1_1_buffer_set.html',1,'CoreGraphics']]],
   ['buffersetup_57',['BufferSetup',['../class_core_graphics_1_1_buffer_setup.html',1,'']]],
   ['buffersubresourceinfo_58',['BufferSubresourceInfo',['../struct_core_graphics_1_1_buffer_subresource_info.html',1,'CoreGraphics']]],
   ['bufferwithstaging_59',['BufferWithStaging',['../struct_core_graphics_1_1_buffer_with_staging.html',1,'CoreGraphics']]],
   ['buildcontext_60',['BuildContext',['../struct_frame_1_1_frame_op_1_1_build_context.html',1,'Frame::FrameOp']]],
-  ['buttonstate_61',['buttonstate',['../struct_base_1_1_game_pad_base_1_1_button_state.html',1,'Base::GamePadBase::ButtonState'],['../struct_base_1_1_mouse_base_1_1_button_state.html',1,'Base::MouseBase::ButtonState']]],
+  ['buttonstate_61',['ButtonState',['../struct_base_1_1_game_pad_base_1_1_button_state.html',1,'Base::GamePadBase::ButtonState'],['../struct_base_1_1_mouse_base_1_1_button_state.html',1,'Base::MouseBase::ButtonState']]],
   ['bxmlfileattr_62',['BXMLFileAttr',['../struct_i_o_1_1_b_x_m_l_file_attr.html',1,'IO']]],
   ['bxmlfileheader_63',['BXMLFileHeader',['../struct_i_o_1_1_b_x_m_l_file_header.html',1,'IO']]],
   ['bxmlfilenode_64',['BXMLFileNode',['../struct_i_o_1_1_b_x_m_l_file_node.html',1,'IO']]],
@@ -69,6 +69,6 @@ var searchData=
   ['bxmlreader_66',['BXmlReader',['../class_i_o_1_1_b_xml_reader.html',1,'IO']]],
   ['byte4_67',['byte4',['../struct_math_1_1byte4.html',1,'Math']]],
   ['byte4u_68',['byte4u',['../struct_math_1_1byte4u.html',1,'Math']]],
-  ['byteorder_69',['byteorder',['../class_core_1_1_byte_order.html',1,'ByteOrder'],['../class_system_1_1_byte_order.html',1,'System::ByteOrder']]],
+  ['byteorder_69',['ByteOrder',['../class_core_1_1_byte_order.html',1,'ByteOrder'],['../class_system_1_1_byte_order.html',1,'System::ByteOrder']]],
   ['bytetypeclass_70',['ByteTypeClass',['../class_attr_1_1_byte_type_class.html',1,'Attr']]]
 ];
