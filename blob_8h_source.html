@@ -542,23 +542,22 @@ $(function(){initNavTree('blob_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00485" name="l00485"></a><span class="lineno">  485</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00486" name="l00486"></a><span class="lineno">  486</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> hash = 0;</div>
 <div class="line"><a id="l00487" name="l00487"></a><span class="lineno">  487</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* charPtr = (<span class="keyword">const</span> <span class="keywordtype">char</span>*) this-&gt;<a class="code hl_variable" href="class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4">ptr</a>;</div>
-<div class="line"><a id="l00488" name="l00488"></a><span class="lineno">  488</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
-<div class="line"><a id="l00489" name="l00489"></a><span class="lineno">  489</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;<a class="code hl_variable" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>; i++)</div>
-<div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>    {</div>
-<div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>        hash += charPtr[i];</div>
-<div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>        hash += hash &lt;&lt; 10;</div>
-<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>        hash ^= hash &gt;&gt;  6;</div>
-<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>    }</div>
-<div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span>    hash += hash &lt;&lt; 3;</div>
-<div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span>    hash ^= hash &gt;&gt; 11;</div>
-<div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span>    hash += hash &lt;&lt; 15;</div>
-<div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span>    hash &amp;= ~(1&lt;&lt;31);       <span class="comment">// don&#39;t return a negative number (in case IndexT is defined signed)</span></div>
-<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>    <span class="keywordflow">return</span> hash;</div>
-<div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>}</div>
+<div class="line"><a id="l00488" name="l00488"></a><span class="lineno">  488</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; this-&gt;<a class="code hl_variable" href="class_util_1_1_blob.html#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>; i++)</div>
+<div class="line"><a id="l00489" name="l00489"></a><span class="lineno">  489</span>    {</div>
+<div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>        hash += charPtr[i];</div>
+<div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>        hash += hash &lt;&lt; 10;</div>
+<div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>        hash ^= hash &gt;&gt;  6;</div>
+<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>    }</div>
+<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>    hash += hash &lt;&lt; 3;</div>
+<div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span>    hash ^= hash &gt;&gt; 11;</div>
+<div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span>    hash += hash &lt;&lt; 15;</div>
+<div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span>    hash &amp;= ~(1&lt;&lt;31);       <span class="comment">// don&#39;t return a negative number (in case IndexT is defined signed)</span></div>
+<div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span>    <span class="keywordflow">return</span> hash;</div>
+<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>}</div>
 </div>
-<div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span> </div>
-<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>} <span class="comment">// namespace Util</span></div>
-<div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span> </div>
+<div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="aclass_i_o_1_1_u_r_i_html"><div class="ttname"><a href="class_i_o_1_1_u_r_i.html">IO::URI</a></div><div class="ttdoc">An URI object can split a Uniform Resource Identifier string into its components or build a string fr...</div><div class="ttdef"><b>Definition</b> uri.h:67</div></div>
 <div class="ttc" id="aclass_memory_1_1_heap_html"><div class="ttname"><a href="class_memory_1_1_heap.html">Heap</a></div><div class="ttdoc">Implements a private heap.</div></div>
 <div class="ttc" id="aclass_util_1_1_blob_html"><div class="ttname"><a href="class_util_1_1_blob.html">Util::Blob</a></div><div class="ttdoc">The Util::Blob class encapsulates a chunk of raw memory into a C++ object which can be copied,...</div><div class="ttdef"><b>Definition</b> blob.h:22</div></div>
@@ -611,7 +610,7 @@ $(function(){initNavTree('blob_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="blob_8h.html">blob.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

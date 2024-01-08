@@ -34,7 +34,6 @@ var class_vulkan_1_1_vk_pipeline_database =
     [ "ct3", "class_vulkan_1_1_vk_pipeline_database.html#ae2adead8405168b453eb94c5f4876f02", null ],
     [ "ct4", "class_vulkan_1_1_vk_pipeline_database.html#af4e211470a7da19b22cb7204079b8d62", null ],
     [ "currentInputAssembly", "class_vulkan_1_1_vk_pipeline_database.html#ae09248c09700a37306797a93e92a1bc0", null ],
-    [ "currentLevel", "class_vulkan_1_1_vk_pipeline_database.html#a8a5e4af700130433d33f2ed1eaeb7b75", null ],
     [ "currentPass", "class_vulkan_1_1_vk_pipeline_database.html#a4a9a5f180a1eb9e4ec1b0a3acf111df6", null ],
     [ "currentPipeline", "class_vulkan_1_1_vk_pipeline_database.html#a347eeb1ce2d96ad6e67293cf310207af", null ],
     [ "currentShaderInfo", "class_vulkan_1_1_vk_pipeline_database.html#a31e794fab5e60fcc70179940e9c0d4ff", null ],
@@ -43,6 +42,5 @@ var class_vulkan_1_1_vk_pipeline_database =
     [ "currentVertexLayout", "class_vulkan_1_1_vk_pipeline_database.html#a5281b4c9af41ab81da5d89bef756c31b", null ],
     [ "dev", "class_vulkan_1_1_vk_pipeline_database.html#af2b247da0cfda5aa4e9dcbbfcc561e59", null ],
     [ "tier1", "class_vulkan_1_1_vk_pipeline_database.html#ae8866efbd330decbc0781b596b300b89", null ],
-    [ "tier1Iterator", "class_vulkan_1_1_vk_pipeline_database.html#aeada3dbd5df21ba6d1df73a231dc57dc", null ],
     [ "tierNodeAllocator", "class_vulkan_1_1_vk_pipeline_database.html#aa7f47bf4984e38e48f6cec73a3f32b25", null ]
 ];

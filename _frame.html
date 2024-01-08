@@ -167,7 +167,7 @@ Operations</h2>
 </ul>
 <h3><a class="anchor" id="frame_dependency"></a>
 Dependencies</h3>
-<p>Operations may and usually should define a set of resources which they need to be in a certain state before being operated on. This is a necessity since <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>, DX12 and Metal requires explicit synchronization for resources, and texture require a transition of layouts depending on their intended usage. Therefore, all operations share two fields which are to be used for this type of behavior. The benefits are that if two operations are rearranged, the frame script system will ensure the synchronization is kept valid, which would otherwise require a lot of hassle.</p>
+<p>Operations may and usually should define a set of resources which they need to be in a certain state before being operated on. This is a necessity since <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>, DX12 and Metal requires explicit synchronization for resources, and texture require a transition of layouts depending on their intended usage. Therefore, all operations share two fields which are to be used for this type of behavior. The benefits are that if two operations are rearranged, the frame script system will ensure the synchronization is kept valid, which would otherwise require a lot of hassle.</p>
 <div class="fragment"><div class="line">inputs: [</div>
 <div class="line">    {...}</div>
 <div class="line">],</div>
@@ -313,7 +313,7 @@ Script Interface</h2>
 			<ul>
 				<li class="navelem"><a class="el" href="render.html">Render Systems</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

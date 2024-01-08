@@ -157,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ce8e1203f26fa0d87bfb6fb75999922" id="r_a4ce8e1203f26fa0d87bfb6fb75999922"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ce8e1203f26fa0d87bfb6fb75999922">DiscardByTag</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
 <tr class="memdesc:a4ce8e1203f26fa0d87bfb6fb75999922"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard all resources associated with a tag  <br /></td></tr>
 <tr class="separator:a4ce8e1203f26fa0d87bfb6fb75999922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7133cd226a0e0d0bf108049064b4b472" id="r_a7133cd226a0e0d0bf108049064b4b472"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7133cd226a0e0d0bf108049064b4b472">CreateListener</a> (const Resources::ResourceId res, std::function&lt; void(const Resources::ResourceId)&gt; success, std::function&lt; void(const Resources::ResourceId)&gt; failed)</td></tr>
+<tr class="memdesc:a7133cd226a0e0d0bf108049064b4b472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new listener on resource.  <br /></td></tr>
+<tr class="separator:a7133cd226a0e0d0bf108049064b4b472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee2dec1352f52c7ae9ffb4b231ff2a6" id="r_abee2dec1352f52c7ae9ffb4b231ff2a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee2dec1352f52c7ae9ffb4b231ff2a6">GetName</a> (const Resources::ResourceId id) const</td></tr>
 <tr class="memdesc:abee2dec1352f52c7ae9ffb4b231ff2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get resource name  <br /></td></tr>
 <tr class="separator:abee2dec1352f52c7ae9ffb4b231ff2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,6 +471,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7133cd226a0e0d0bf108049064b4b472" name="a7133cd226a0e0d0bf108049064b4b472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7133cd226a0e0d0bf108049064b4b472">&#9670;&#160;</a></span>CreateListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resources::ResourceLoader::CreateListener </td>
+          <td>(</td>
+          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>res</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create new listener on resource. </p>
 
 </div>
 </div>
@@ -1194,7 +1225,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>setup resource loader, initiates the placeholder and error resources if valid, so don't forget to run! </p>
 
-<p>Reimplemented in <a class="el" href="class_physics_1_1_stream_actor_pool.html#ad286ff4628107081f40cf24940e79639">Physics::StreamActorPool</a>, <a class="el" href="class_materials_1_1_material_loader.html#a213e96cb0d14a445ef19381dfc2cc2cb">Materials::MaterialLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a825bfa2a20b3d3025dfce2521ac9bfc1">Models::ModelLoader</a>.</p>
+<p>Reimplemented in <a class="el" href="class_physics_1_1_stream_actor_pool.html#ac599672e3cb472b2ba772808e16a18ae">Physics::StreamActorPool</a>, <a class="el" href="class_materials_1_1_material_loader.html#a213e96cb0d14a445ef19381dfc2cc2cb">Materials::MaterialLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a825bfa2a20b3d3025dfce2521ac9bfc1">Models::ModelLoader</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1352,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>unload resource (overload to implement resource deallocation) </p>
 
-<p>Implemented in <a class="el" href="class_physics_1_1_stream_actor_pool.html#afff87a247b91f93510b095682b3d5165">Physics::StreamActorPool</a>, <a class="el" href="class_characters_1_1_skeleton_loader.html#a7790f4a2185d931cb78e92c0b06969c5">Characters::SkeletonLoader</a>, <a class="el" href="class_core_animation_1_1_animation_loader.html#ac2f89c97e4f681dfbba8b2a0f4272c9b">CoreAnimation::AnimationLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#a45594bf9ee5bee4c2ba6876b46dfcbd6">CoreGraphics::TextureLoader</a>, <a class="el" href="class_materials_1_1_material_loader.html#ac02be69dc8cf9034d39e946f118415f0">Materials::MaterialLoader</a>, <a class="el" href="class_models_1_1_model_loader.html#a0917791ca5676560896a16e261c14ca2">Models::ModelLoader</a>, <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a213855075dfbb19f51742023578c37bf">CoreGraphics::MeshLoader</a>, and <a class="el" href="class_core_graphics_1_1_shader_loader.html#aec9b64a99f75ccef69251860dce210f5">CoreGraphics::ShaderLoader</a>.</p>
+<p>Implemented in <a class="el" href="class_physics_1_1_stream_actor_pool.html#a17c96afce0f2d450d7539272f6a77753">Physics::StreamActorPool</a>, <a class="el" href="class_characters_1_1_skeleton_loader.html#a64e778dd6c60ffb9928534b8920a1b95">Characters::SkeletonLoader</a>, <a class="el" href="class_core_animation_1_1_animation_loader.html#a79c5c3b40aee86ac76a6008993cbe6b3">CoreAnimation::AnimationLoader</a>, <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a213855075dfbb19f51742023578c37bf">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_shader_loader.html#aec9b64a99f75ccef69251860dce210f5">CoreGraphics::ShaderLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#ae0218d14abffb4ad39a07145d6bb1792">CoreGraphics::TextureLoader</a>, <a class="el" href="class_materials_1_1_material_loader.html#a1385d24bfa80b6e4b99c0a546379df7b">Materials::MaterialLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a303095897c68d655e14fab6177551fe3">Models::ModelLoader</a>.</p>
 
 </div>
 </div>
@@ -2082,7 +2113,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:50:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -36,7 +36,6 @@ var class_linux_1_1_linux_thread =
     [ "ThreadStopRequested", "class_linux_1_1_linux_thread.html#aa3a950bb1af3c8662504dfe51522e798", null ],
     [ "YieldThread", "class_linux_1_1_linux_thread.html#a3117658ee825327296d7b151d5aab6da", null ],
     [ "affinity", "class_linux_1_1_linux_thread.html#a97aed0f4efb2dbe82cc625c35a221c3b", null ],
-    [ "coreId", "class_linux_1_1_linux_thread.html#a1a56b440c09248b6e982fb1fa5398bf8", null ],
     [ "name", "class_linux_1_1_linux_thread.html#a179083f6563e00d7c7ad3db1f0ee63fd", null ],
     [ "priority", "class_linux_1_1_linux_thread.html#aec84237f2b7ffb1d6ba417176dbef0ed", null ],
     [ "stackSize", "class_linux_1_1_linux_thread.html#a132ab293301df86b7688174fb5713022", null ],

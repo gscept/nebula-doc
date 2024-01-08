@@ -55,7 +55,11 @@ var render_2coregraphics_2config_8h =
       [ "SamplerIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fa0f2097fa739575aedc5af2a8afe53ac8", null ],
       [ "MaterialIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934faccd139d666dd15fa5dbe9f91dfe06c50", null ],
       [ "SubmissionContextIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fa56f4f313f32b993fe044682a4e29f230", null ],
-      [ "ImageIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934faa71196b34282074f1aec83be82dbea2e", null ]
+      [ "PipelineIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fa5a9189b532f096c1ce9007d5e46d15c2", null ],
+      [ "ImageIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934faa71196b34282074f1aec83be82dbea2e", null ],
+      [ "BlasIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fab67893b0c7ae4ed609a246245cc77599", null ],
+      [ "BlasInstanceIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934faeb0432ac7123225ee36654197e4f7bbf", null ],
+      [ "TlasIdType", "render_2coregraphics_2config_8h.html#a4f8c377755ce15937e6b215f910f934fad1564d6af57dd01e40e35634fcc058ca", null ]
     ] ],
     [ "ImageBits", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944", [
       [ "Auto", "render_2coregraphics_2config_8h.html#ad27ab4eb8d8861828c541b6c25024944a06b9281e396db002010bde1de57262eb", null ],
@@ -110,12 +114,20 @@ var render_2coregraphics_2config_8h =
       [ "ColorWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a3951023c7034acaa301be8032e40f5d0", null ],
       [ "DepthStencilRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147aa7419f15f4d15322a98d29734b8e48b4", null ],
       [ "DepthStencilWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147aaab1a48a275c112d160f5b28d0d3a123", null ],
+      [ "RayTracingShaderRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147ae297f0a3fc7cf515895f4b3813771b78", null ],
+      [ "RayTracingShaderWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a881126107bc9381df5239decb6e2cdfd", null ],
+      [ "TaskShaderRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a3bad36420fcbefe3d9a66ca375edcd75", null ],
+      [ "TaskShaderWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a58601f74ee29825fc546940ea2b94eaf", null ],
+      [ "MeshShaderRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147adc30d9f512a04a16072641fe41417b2c", null ],
+      [ "MeshShaderWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a420b09ef2561c4edc52029130348ad18", null ],
       [ "TransferRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147ab6a2d4a47c5bb061f68fb2e819f5d6b2", null ],
       [ "TransferWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147af30a8160b082d15b6c85b9840f488d72", null ],
       [ "HostRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147aa43bd7aae3f6e001a2ee1490421f8d90", null ],
       [ "HostWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a509b9f909831ef70e6c1ec59a3b340e9", null ],
       [ "MemoryRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a575da5d1d4109b111267b2e044af2aad", null ],
       [ "MemoryWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a5e932342aab40efaef1a503864403168", null ],
+      [ "AccelerationStructureRead", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a470eddf274f59be3dc87320132cdca1f", null ],
+      [ "AccelerationStructureWrite", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147abf5ec6d1b05ef959b72ae89ca04b7f30", null ],
       [ "ImageInitial", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147a7aa4ae6050685ce8fb6df42f267b4d32", null ],
       [ "Present", "render_2coregraphics_2config_8h.html#aed8b029205bc57b3c286ddc8021a5147add058df87f5c88e3285a28ad7406a3c6", null ]
     ] ],
@@ -136,7 +148,8 @@ var render_2coregraphics_2config_8h =
     [ "ShaderPipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8ee", [
       [ "InvalidPipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397", null ],
       [ "GraphicsPipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69", null ],
-      [ "ComputePipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274", null ]
+      [ "ComputePipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274", null ],
+      [ "RayTracingPipeline", "render_2coregraphics_2config_8h.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeafe56d4cdb0de51fd2a4d4677068dd630", null ]
     ] ],
     [ "ShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1", [
       [ "InvalidVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a0b8ce0f3b7782293c9cba984d1e46045", null ],
@@ -146,7 +159,15 @@ var render_2coregraphics_2config_8h =
       [ "GeometryShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a933b895dda759e0edfb669a478ccab8f", null ],
       [ "PixelShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1ad60048a0414e229a14b883d760c00f92", null ],
       [ "AllGraphicsVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a04e9670495d34ff8335b79a32f368893", null ],
+      [ "TaskShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a4e0c41de52bf027eb7f8031a33199ddd", null ],
+      [ "MeshShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a6971c01f1d47a4c932e1abc83146fc42", null ],
       [ "ComputeShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a429a14021402d42e1831d86f3678a8b9", null ],
+      [ "RayGenerationShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a2db3eacc1a32a6e9a78584cb929896f0", null ],
+      [ "RayAnyHitShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a8f10f0932da378ea3b2e8d36e3c79f39", null ],
+      [ "RayClosestHitShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aa55d111e047932c7188953622f1be238", null ],
+      [ "RayMissShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a2b65e38c87e53209e79f5c9552daab09", null ],
+      [ "RayIntersectionShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a94ad86dbe23b3f8db45ea1d4e358adb9", null ],
+      [ "CallableShaderVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1a7ea99820329ef07a9523b702996229ea", null ],
       [ "AllVisibility", "render_2coregraphics_2config_8h.html#a79e2fcd3e595161a663854b90154fcc1aca62b07063d9b6bee314bc9926913d29", null ]
     ] ],
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#afd3cdd804894952885c00a1c737543d9", null ],

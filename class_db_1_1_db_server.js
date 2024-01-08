@@ -22,7 +22,6 @@ var class_db_1_1_db_server =
     [ "SetWorkingDbInMemory", "class_db_1_1_db_server.html#a263fa9f00f4904abed9fc9bb30d0bc3c", null ],
     [ "dbFactory", "class_db_1_1_db_server.html#a5f52ca88426dff7cb5ab45f0424b5947", null ],
     [ "gameDatabase", "class_db_1_1_db_server.html#ae32e9be859138c289f35ce6ea219995d", null ],
-    [ "isOpen", "class_db_1_1_db_server.html#a47279893f5a16f92bf4443b1200406c7", null ],
     [ "staticDatabase", "class_db_1_1_db_server.html#ad547abde23eabfa101f729b32bed81d1", null ],
     [ "workDbInMemory", "class_db_1_1_db_server.html#a84acd0f96e3762d7b9eb75a316d33149", null ]
 ];

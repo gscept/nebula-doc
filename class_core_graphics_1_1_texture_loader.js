@@ -6,5 +6,5 @@ var class_core_graphics_1_1_texture_loader =
     [ "InitializeResource", "class_core_graphics_1_1_texture_loader.html#a0f96ca848c9547b9609e28c693145024", null ],
     [ "LodMask", "class_core_graphics_1_1_texture_loader.html#a108f06c480717ac54b9006ec27f8d997", null ],
     [ "StreamResource", "class_core_graphics_1_1_texture_loader.html#ad7e471c0b4e2110796f70f7acd5264cf", null ],
-    [ "Unload", "class_core_graphics_1_1_texture_loader.html#a45594bf9ee5bee4c2ba6876b46dfcbd6", null ]
+    [ "Unload", "class_core_graphics_1_1_texture_loader.html#ae0218d14abffb4ad39a07145d6bb1792", null ]
 ];

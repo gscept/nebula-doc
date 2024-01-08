@@ -7,6 +7,7 @@ var render_2coregraphics_2barrier_8h =
     [ "CoreGraphics::BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", "struct_core_graphics_1_1_buffer_barrier" ],
     [ "CoreGraphics::TextureBarrierInfo", "struct_core_graphics_1_1_texture_barrier_info.html", "struct_core_graphics_1_1_texture_barrier_info" ],
     [ "CoreGraphics::BufferBarrierInfo", "struct_core_graphics_1_1_buffer_barrier_info.html", "struct_core_graphics_1_1_buffer_barrier_info" ],
+    [ "CoreGraphics::AccelerationStructureBarrierInfo", "struct_core_graphics_1_1_acceleration_structure_barrier_info.html", "struct_core_graphics_1_1_acceleration_structure_barrier_info" ],
     [ "CoreGraphics::BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", "struct_core_graphics_1_1_barrier_create_info" ],
     [ "BarrierPop", "render_2coregraphics_2barrier_8h.html#a03d21a2992635e55bc77a2d6db1bcda5", null ],
     [ "BarrierPush", "render_2coregraphics_2barrier_8h.html#aefc932a7f2be98db693df666720f42d6", null ],

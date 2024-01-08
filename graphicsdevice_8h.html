@@ -94,7 +94,8 @@ $(function(){initNavTree('graphicsdevice_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">graphicsdevice.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -120,6 +121,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_create_info.html">CoreGraphics::GraphicsDeviceCreateInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_graphics.html" title="Implements the shader server used by Vulkan.">Graphics</a> Device is the engine which drives the graphics abstraction layer.  <a href="struct_core_graphics_1_1_graphics_device_create_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html">CoreGraphics::GraphicsDeviceCreateInfo::Features</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_draw_thread_result.html">CoreGraphics::DrawThreadResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a></td></tr>
@@ -128,13 +131,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_thread_state.html">CoreGraphics::GraphicsDeviceThreadState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -297,6 +298,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1a040641199467257d2e9128c6408bb8" id="r_a1a040641199467257d2e9128c6408bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1a040641199467257d2e9128c6408bb8">CoreGraphics::DelayedDeletePass</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id)</td></tr>
 <tr class="memdesc:a1a040641199467257d2e9128c6408bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a pass to delayed delete.  <br /></td></tr>
 <tr class="separator:a1a040641199467257d2e9128c6408bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7281b57d79c9b765f0aa562f646bf025" id="r_a7281b57d79c9b765f0aa562f646bf025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7281b57d79c9b765f0aa562f646bf025">CoreGraphics::DelayedDeleteBlas</a> (const <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> id)</td></tr>
+<tr class="memdesc:a7281b57d79c9b765f0aa562f646bf025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a blas for delayed delete.  <br /></td></tr>
+<tr class="separator:a7281b57d79c9b765f0aa562f646bf025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9968336794619b9a0de63f3bce6b11b" id="r_ab9968336794619b9a0de63f3bce6b11b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab9968336794619b9a0de63f3bce6b11b">CoreGraphics::DelayedDeleteTlas</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a> id)</td></tr>
+<tr class="memdesc:ab9968336794619b9a0de63f3bce6b11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a tlas for delayed delete.  <br /></td></tr>
+<tr class="separator:ab9968336794619b9a0de63f3bce6b11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1627a678ec9c936ab52171d5f430939" id="r_aa1627a678ec9c936ab52171d5f430939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aa1627a678ec9c936ab52171d5f430939">CoreGraphics::AllocateQueries</a> (const <a class="el" href="namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4f">CoreGraphics::QueryType</a> type, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> numQueries)</td></tr>
 <tr class="memdesc:aa1627a678ec9c936ab52171d5f430939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a range of queries.  <br /></td></tr>
 <tr class="separator:aa1627a678ec9c936ab52171d5f430939"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,6 +356,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a31517abd6cc98f606686145f67fc25c0" id="r_a31517abd6cc98f606686145f67fc25c0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a31517abd6cc98f606686145f67fc25c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a31517abd6cc98f606686145f67fc25c0">CoreGraphics::UploadArray</a> (const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment)</td></tr>
 <tr class="separator:a31517abd6cc98f606686145f67fc25c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac75a1a6d3974d62c75e205d6cd9e97b2" id="r_ac75a1a6d3974d62c75e205d6cd9e97b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ac75a1a6d3974d62c75e205d6cd9e97b2">CoreGraphics::RayTracingSupported</a> = false</td></tr>
+<tr class="separator:ac75a1a6d3974d62c75e205d6cd9e97b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5192b5c0fb3de02b79e2bc19c5890f05" id="r_a5192b5c0fb3de02b79e2bc19c5890f05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5192b5c0fb3de02b79e2bc19c5890f05">CoreGraphics::DynamicVertexInputSupported</a> = false</td></tr>
+<tr class="separator:a5192b5c0fb3de02b79e2bc19c5890f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389e003e78b6e840ca1c2349d6d6fc1f" id="r_a389e003e78b6e840ca1c2349d6d6fc1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a389e003e78b6e840ca1c2349d6d6fc1f">CoreGraphics::VariableRateShadingSupported</a> = false</td></tr>
+<tr class="separator:a389e003e78b6e840ca1c2349d6d6fc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595fa84e0ce4114d94787320b0b3402d" id="r_a595fa84e0ce4114d94787320b0b3402d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a595fa84e0ce4114d94787320b0b3402d">CoreGraphics::MeshShadersSupported</a> = false</td></tr>
+<tr class="separator:a595fa84e0ce4114d94787320b0b3402d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -357,7 +375,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="graphicsdevice_8h.html">graphicsdevice.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

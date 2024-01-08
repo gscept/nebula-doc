@@ -1,11 +1,11 @@
 var graphicsdevice_8h =
 [
     [ "CoreGraphics::GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", "struct_core_graphics_1_1_graphics_device_create_info" ],
+    [ "CoreGraphics::GraphicsDeviceCreateInfo::Features", "struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html", "struct_core_graphics_1_1_graphics_device_create_info_1_1_features" ],
     [ "CoreGraphics::DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", "struct_core_graphics_1_1_draw_thread_result" ],
     [ "CoreGraphics::SubmissionWaitEvent", "struct_core_graphics_1_1_submission_wait_event.html", "struct_core_graphics_1_1_submission_wait_event" ],
     [ "CoreGraphics::GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", "struct_core_graphics_1_1_graphics_device_state" ],
     [ "CoreGraphics::GraphicsDeviceThreadState", "struct_core_graphics_1_1_graphics_device_thread_state.html", "struct_core_graphics_1_1_graphics_device_thread_state" ],
-    [ "CoreGraphics::VertexAlloc", "struct_core_graphics_1_1_vertex_alloc.html", "struct_core_graphics_1_1_vertex_alloc" ],
     [ "AddBackBufferTexture", "graphicsdevice_8h.html#a535da31fa93320f7b3843b50a40c7ec4", null ],
     [ "AllocateConstantBufferMemory", "graphicsdevice_8h.html#a1eee2dce617b2cfa06d52dceb8be7447", null ],
     [ "AllocateIndices", "graphicsdevice_8h.html#a7ef9620da9cc6ab7df35fb116a900f77", null ],
@@ -18,12 +18,14 @@ var graphicsdevice_8h =
     [ "CreateGraphicsDevice", "graphicsdevice_8h.html#adb85204de7ba8c4d4be473e7f8c92650", null ],
     [ "DeallocateIndices", "graphicsdevice_8h.html#ab84646b9045edad2cb43ac0f7f34dc31", null ],
     [ "DeallocateVertices", "graphicsdevice_8h.html#ab86f1ee8976ee520e444c0ab49f85d49", null ],
+    [ "DelayedDeleteBlas", "graphicsdevice_8h.html#a7281b57d79c9b765f0aa562f646bf025", null ],
     [ "DelayedDeleteBuffer", "graphicsdevice_8h.html#a145ea89618553ea90d68af4560222abc", null ],
     [ "DelayedDeleteCommandBuffer", "graphicsdevice_8h.html#a209560300a7c07e447e896963e1a1850", null ],
     [ "DelayedDeleteDescriptorSet", "graphicsdevice_8h.html#ac8f3e162978f93146228e6965ec8abcb", null ],
     [ "DelayedDeletePass", "graphicsdevice_8h.html#a1a040641199467257d2e9128c6408bb8", null ],
     [ "DelayedDeleteTexture", "graphicsdevice_8h.html#a900d95dbab9a485f4395e2efc3b858c5", null ],
     [ "DelayedDeleteTextureView", "graphicsdevice_8h.html#a4e86b82ba9dfa4cd3f3e453ec86966db", null ],
+    [ "DelayedDeleteTlas", "graphicsdevice_8h.html#ab9968336794619b9a0de63f3bce6b11b", null ],
     [ "DelayedFreeMemory", "graphicsdevice_8h.html#ad0cde60f22ae803f0e981db0e0b29544", null ],
     [ "DestroyGraphicsDevice", "graphicsdevice_8h.html#aa2984fe71da599f6586fc252a4692ad4", null ],
     [ "FinishFrame", "graphicsdevice_8h.html#a652d13ea6eaace5991d62d8b9524254f", null ],
@@ -71,5 +73,9 @@ var graphicsdevice_8h =
     [ "WaitAndClearPendingCommands", "graphicsdevice_8h.html#a2da92ab7c30fa81b638c9794f6edd7c1", null ],
     [ "WaitForLastSubmission", "graphicsdevice_8h.html#a860de5c4d65c612d90375205d63a3e82", null ],
     [ "WaitForQueue", "graphicsdevice_8h.html#af15d8d3a5eb2fb2f792d3bc5983d963e", null ],
-    [ "WaitForSubmission", "graphicsdevice_8h.html#a445ce1d046d1deb8aab1c7f67073c35c", null ]
+    [ "WaitForSubmission", "graphicsdevice_8h.html#a445ce1d046d1deb8aab1c7f67073c35c", null ],
+    [ "DynamicVertexInputSupported", "graphicsdevice_8h.html#a5192b5c0fb3de02b79e2bc19c5890f05", null ],
+    [ "MeshShadersSupported", "graphicsdevice_8h.html#a595fa84e0ce4114d94787320b0b3402d", null ],
+    [ "RayTracingSupported", "graphicsdevice_8h.html#ac75a1a6d3974d62c75e205d6cd9e97b2", null ],
+    [ "VariableRateShadingSupported", "graphicsdevice_8h.html#a389e003e78b6e840ca1c2349d6d6fc1f", null ]
 ];

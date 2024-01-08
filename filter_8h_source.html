@@ -211,60 +211,59 @@ $(function(){initNavTree('filter_8h_source.html',''); initResizable(); });
 <div class="foldopen" id="foldopen00115" data-start="{" data-end="}">
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#a1377e9c986f9835335a2d7b1740955f7">  115</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_game_1_1_filter_builder.html#a1377e9c986f9835335a2d7b1740955f7">UnrollExclusiveComponents</a>(std::index_sequence&lt;Is...&gt;)</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    {</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keywordtype">size_t</span> offset = <a class="code hl_variable" href="class_game_1_1_filter_builder.html#a905c4e89c900b37d93817f3f370f7832">info</a>.<a class="code hl_variable" href="struct_game_1_1_filter_builder_1_1_filter_create_info.html#a4d014fd017c931de1152b38dabf4f3a2">numInclusive</a>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        (<a class="code hl_function" href="class_game_1_1_filter_builder.html#ac92f9db097578e2c20ad482468f5d6ac">SetExclusive</a>&lt;<span class="keyword">typename</span> std::tuple_element&lt;Is, std::tuple&lt;TYPES...&gt;&gt;::type&gt;(Is), ...);</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    }</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        (<a class="code hl_function" href="class_game_1_1_filter_builder.html#ac92f9db097578e2c20ad482468f5d6ac">SetExclusive</a>&lt;<span class="keyword">typename</span> std::tuple_element&lt;Is, std::tuple&lt;TYPES...&gt;&gt;::type&gt;(Is), ...);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    }</div>
 </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>};</div>
 </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ... TYPES&gt;</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">inline</span> FilterBuilder&amp;</div>
-<div class="foldopen" id="foldopen00127" data-start="{" data-end="}">
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">  127</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">FilterBuilder::Including</a>()</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>{</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <a class="code hl_function" href="class_game_1_1_filter_builder.html#aef2e7f73ef73fc4e8a968dc5e58de60f">UnrollInclusiveComponents</a>&lt;TYPES...&gt;(std::make_index_sequence&lt;<span class="keyword">sizeof</span>...(TYPES)&gt;());</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>}</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ... TYPES&gt;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keyword">inline</span> FilterBuilder&amp;</div>
+<div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">  126</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">FilterBuilder::Including</a>()</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>{</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <a class="code hl_function" href="class_game_1_1_filter_builder.html#aef2e7f73ef73fc4e8a968dc5e58de60f">UnrollInclusiveComponents</a>&lt;TYPES...&gt;(std::make_index_sequence&lt;<span class="keyword">sizeof</span>...(TYPES)&gt;());</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>}</div>
 </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ... TYPES&gt;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keyword">inline</span> <a class="code hl_class" href="class_game_1_1_filter_builder.html">FilterBuilder</a>&amp;</div>
-<div class="foldopen" id="foldopen00138" data-start="{" data-end="}">
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">  138</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">FilterBuilder::Excluding</a>()</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>{</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_function" href="class_game_1_1_filter_builder.html#a1377e9c986f9835335a2d7b1740955f7">UnrollExclusiveComponents</a>&lt;TYPES...&gt;(std::make_index_sequence&lt;<span class="keyword">sizeof</span>...(TYPES)&gt;());</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>}</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ... TYPES&gt;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="keyword">inline</span> <a class="code hl_class" href="class_game_1_1_filter_builder.html">FilterBuilder</a>&amp;</div>
+<div class="foldopen" id="foldopen00137" data-start="{" data-end="}">
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">  137</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">FilterBuilder::Excluding</a>()</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>{</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <a class="code hl_function" href="class_game_1_1_filter_builder.html#a1377e9c986f9835335a2d7b1740955f7">UnrollExclusiveComponents</a>&lt;TYPES...&gt;(std::make_index_sequence&lt;<span class="keyword">sizeof</span>...(TYPES)&gt;());</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>}</div>
 </div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="keyword">inline</span> uint8_t</div>
-<div class="foldopen" id="foldopen00148" data-start="{" data-end="}">
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">  148</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">FilterBuilder::GetNumInclusive</a>()</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>{</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_game_1_1_filter_builder.html#a905c4e89c900b37d93817f3f370f7832">info</a>.<a class="code hl_variable" href="struct_game_1_1_filter_builder_1_1_filter_create_info.html#a4d014fd017c931de1152b38dabf4f3a2">numInclusive</a>;</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>}</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="keyword">inline</span> uint8_t</div>
+<div class="foldopen" id="foldopen00147" data-start="{" data-end="}">
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">  147</a></span><a class="code hl_function" href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">FilterBuilder::GetNumInclusive</a>()</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>{</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_game_1_1_filter_builder.html#a905c4e89c900b37d93817f3f370f7832">info</a>.<a class="code hl_variable" href="struct_game_1_1_filter_builder_1_1_filter_create_info.html#a4d014fd017c931de1152b38dabf4f3a2">numInclusive</a>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>}</div>
 </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>} <span class="comment">// namespace Game</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>} <span class="comment">// namespace Game</span></div>
 <div class="ttc" id="aapplication_2game_2dataset_8h_html"><div class="ttname"><a href="application_2game_2dataset_8h.html">dataset.h</a></div></div>
 <div class="ttc" id="aapplication_2game_2messaging_2message_8h_html_ae3801960d13388810be61c76fb48366d"><div class="ttname"><a href="application_2game_2messaging_2message_8h.html#ae3801960d13388810be61c76fb48366d">UnqualifiedType</a></div><div class="ttdeci">typename std::remove_const&lt; typename std::remove_reference&lt; T &gt;::type &gt;::type UnqualifiedType</div><div class="ttdoc">Removes const reference from T.</div><div class="ttdef"><b>Definition</b> message.h:61</div></div>
 <div class="ttc" id="acategory_8h_html"><div class="ttname"><a href="category_8h.html">category.h</a></div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html"><div class="ttname"><a href="class_game_1_1_filter_builder.html">Game::FilterBuilder</a></div><div class="ttdef"><b>Definition</b> filter.h:43</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_a1377e9c986f9835335a2d7b1740955f7"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a1377e9c986f9835335a2d7b1740955f7">Game::FilterBuilder::UnrollExclusiveComponents</a></div><div class="ttdeci">void UnrollExclusiveComponents(std::index_sequence&lt; Is... &gt;)</div><div class="ttdef"><b>Definition</b> filter.h:115</div></div>
-<div class="ttc" id="aclass_game_1_1_filter_builder_html_a3376d4edd6094dddb416cacd06856732"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">Game::FilterBuilder::GetNumInclusive</a></div><div class="ttdeci">uint8_t GetNumInclusive()</div><div class="ttdef"><b>Definition</b> filter.h:148</div></div>
+<div class="ttc" id="aclass_game_1_1_filter_builder_html_a3376d4edd6094dddb416cacd06856732"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a3376d4edd6094dddb416cacd06856732">Game::FilterBuilder::GetNumInclusive</a></div><div class="ttdeci">uint8_t GetNumInclusive()</div><div class="ttdef"><b>Definition</b> filter.h:147</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_a662bed0da821febd21a4918ef33534ea"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a662bed0da821febd21a4918ef33534ea">Game::FilterBuilder::CreateFilter</a></div><div class="ttdeci">static Filter CreateFilter(FilterCreateInfo)</div><div class="ttdef"><b>Definition</b> filter.cc:115</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_a83eda394bca9db42eea4ed5ac838bbcb"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a83eda394bca9db42eea4ed5ac838bbcb">Game::FilterBuilder::Build</a></div><div class="ttdeci">Filter Build()</div><div class="ttdef"><b>Definition</b> filter.cc:106</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_a905c4e89c900b37d93817f3f370f7832"><div class="ttname"><a href="class_game_1_1_filter_builder.html#a905c4e89c900b37d93817f3f370f7832">Game::FilterBuilder::info</a></div><div class="ttdeci">FilterCreateInfo info</div><div class="ttdef"><b>Definition</b> filter.h:85</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_ac92f9db097578e2c20ad482468f5d6ac"><div class="ttname"><a href="class_game_1_1_filter_builder.html#ac92f9db097578e2c20ad482468f5d6ac">Game::FilterBuilder::SetExclusive</a></div><div class="ttdeci">void SetExclusive(size_t const i)</div><div class="ttdef"><b>Definition</b> filter.h:106</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_aef2e7f73ef73fc4e8a968dc5e58de60f"><div class="ttname"><a href="class_game_1_1_filter_builder.html#aef2e7f73ef73fc4e8a968dc5e58de60f">Game::FilterBuilder::UnrollInclusiveComponents</a></div><div class="ttdeci">void UnrollInclusiveComponents(std::index_sequence&lt; Is... &gt;)</div><div class="ttdef"><b>Definition</b> filter.h:100</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_aef6549ac8c66f107ba97e36be13a12d4"><div class="ttname"><a href="class_game_1_1_filter_builder.html#aef6549ac8c66f107ba97e36be13a12d4">Game::FilterBuilder::FilterBuilder</a></div><div class="ttdeci">FilterBuilder()</div><div class="ttdef"><b>Definition</b> filter.cc:65</div></div>
-<div class="ttc" id="aclass_game_1_1_filter_builder_html_afafe10416739ff2808dc8b3c53b17819"><div class="ttname"><a href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">Game::FilterBuilder::Excluding</a></div><div class="ttdeci">FilterBuilder &amp; Excluding()</div><div class="ttdef"><b>Definition</b> filter.h:138</div></div>
+<div class="ttc" id="aclass_game_1_1_filter_builder_html_afafe10416739ff2808dc8b3c53b17819"><div class="ttname"><a href="class_game_1_1_filter_builder.html#afafe10416739ff2808dc8b3c53b17819">Game::FilterBuilder::Excluding</a></div><div class="ttdeci">FilterBuilder &amp; Excluding()</div><div class="ttdef"><b>Definition</b> filter.h:137</div></div>
 <div class="ttc" id="aclass_game_1_1_filter_builder_html_afd4a4fce65a28256bf8b4bf91cc69c71"><div class="ttname"><a href="class_game_1_1_filter_builder.html#afd4a4fce65a28256bf8b4bf91cc69c71">Game::FilterBuilder::SetInclusive</a></div><div class="ttdeci">void SetInclusive(size_t const i)</div><div class="ttdef"><b>Definition</b> filter.h:88</div></div>
-<div class="ttc" id="aclass_game_1_1_filter_builder_html_afd835d06417740f2becb8848c484ba7c"><div class="ttname"><a href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">Game::FilterBuilder::Including</a></div><div class="ttdeci">FilterBuilder &amp; Including()</div><div class="ttdef"><b>Definition</b> filter.h:127</div></div>
+<div class="ttc" id="aclass_game_1_1_filter_builder_html_afd835d06417740f2becb8848c484ba7c"><div class="ttname"><a href="class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c">Game::FilterBuilder::Including</a></div><div class="ttdeci">FilterBuilder &amp; Including()</div><div class="ttdef"><b>Definition</b> filter.h:126</div></div>
 <div class="ttc" id="aclass_mem_db_1_1_table_signature_html"><div class="ttname"><a href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a></div><div class="ttdoc">Basically a bitfield with packed ComponentIds.</div><div class="ttdef"><b>Definition</b> tablesignature.h:26</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html"><div class="ttname"><a href="class_util_1_1_fixed_array.html">Util::FixedArray</a></div><div class="ttdoc">Implements a fixed size one-dimensional array.</div><div class="ttdef"><b>Definition</b> fixedarray.h:20</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
@@ -299,7 +298,7 @@ $(function(){initNavTree('filter_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="filter_8h.html">filter.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

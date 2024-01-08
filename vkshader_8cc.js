@@ -1,6 +1,22 @@
 var vkshader_8cc =
 [
-    [ "uint_max", "vkshader_8cc.html#a1ec7b419ad97f9ea165bf3b9af7c93c0", null ],
+    [ "ShaderStages", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52b", [
+      [ "VertexShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba3fa93367c1469bf17e499769044f10fb", null ],
+      [ "HullShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba8084f701294fab1a971d937a0dc80323", null ],
+      [ "DomainShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba64202385f32cf5b065408fb36806677c", null ],
+      [ "GeometryShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52bae304b0614e05891079ca7a0f0a002142", null ],
+      [ "PixelShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52baebabd1e4cb4dca842bfbb2e172bd70b3", null ],
+      [ "ComputeShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52baf87fe190228b333e1b7f2bd27ba31668", null ],
+      [ "TaskShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52baf3d0aa6accdd62bca0a3630cae408af4", null ],
+      [ "MeshShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba5b1ae32162b19c41b8d0d8b767be7f95", null ],
+      [ "RayGenerationShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52baff838ab70797e5f209e02342f443fef8", null ],
+      [ "RayAnyHitShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52bad487c4b91b47bc274c3df16b0e826d41", null ],
+      [ "RayClosestHitShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba1c4741ae673af0a4fdb2a490a2bec349", null ],
+      [ "RayMissShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52baf0a57a7a6f9864ed1c7ced3f97e50495", null ],
+      [ "RayIntersectionShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba05d3e8a67c8e33ae2cbbaf328fc87593", null ],
+      [ "CallableShader", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba6922439958eb71f78717833d7fa0374c", null ],
+      [ "NumShaders", "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52bab184a3fe081692db7d23d36179dd666b", null ]
+    ] ],
     [ "CreateShader", "vkshader_8cc.html#a9a25a7223bd07bafaf8b22160c130598", null ],
     [ "DeleteShader", "vkshader_8cc.html#a5680a0c80fafb8c6e935aea92e6af5ed", null ],
     [ "DestroyShader", "vkshader_8cc.html#ab51cbce5faa9017eae977a65d25ac310", null ],
@@ -37,6 +53,7 @@ var vkshader_8cc =
     [ "ShaderGetShaderProgram", "vkshader_8cc.html#ab6c0b800ef8452cac45073e44c852e55", null ],
     [ "ShaderHasResourceTable", "vkshader_8cc.html#a63dd47698408af8d684a3b42a9303ece", null ],
     [ "ShaderSetup", "vkshader_8cc.html#a5aeae7e97e9a1e829732eb8f179685b7", null ],
+    [ "UpdateOccupancy", "vkshader_8cc.html#a3c7fa14c0559e365ef6846d577a9b499", null ],
     [ "VkShaderCreateSignature", "vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ],
     [ "shaderAlloc", "vkshader_8cc.html#af27b9b36ca12e885d7df00e6c1a0e5bc", null ],
     [ "VkShaderDescriptorSetCache", "vkshader_8cc.html#a9082a05116971436ae8abc11368f9941", null ],

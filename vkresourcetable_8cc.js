@@ -1,5 +1,7 @@
 var vkresourcetable_8cc =
 [
+    [ "AddBinding", "vkresourcetable_8cc.html#a03668e10ba7b40917f82ff56022cda76", null ],
+    [ "CountDescriptors", "vkresourcetable_8cc.html#a61a6451166a8faa370b0cd2b53827a2a", null ],
     [ "CreateResourcePipeline", "vkresourcetable_8cc.html#a85b965a9110541f29d80c5c8902ab52a", null ],
     [ "CreateResourceTable", "vkresourcetable_8cc.html#a49058c3b2c2d01a79e80638ab519abf8", null ],
     [ "CreateResourceTableLayout", "vkresourcetable_8cc.html#a38bf1ed30a1707444ad4ce48fb6c9d15", null ],
@@ -19,6 +21,7 @@ var vkresourcetable_8cc =
     [ "ResourceTableLayoutGetFreeItemsCounter", "vkresourcetable_8cc.html#aa4e1b67da566239d915862e2cd878848", null ],
     [ "ResourceTableLayoutGetVk", "vkresourcetable_8cc.html#a196da1dcc2615daed9a3bf3fb0ad37fc", null ],
     [ "ResourceTableLayoutGetVkDescriptorPool", "vkresourcetable_8cc.html#a618745042f8b98617efb28c6bd9a2505", null ],
+    [ "ResourceTableSetAccelerationStructure", "vkresourcetable_8cc.html#a472edb403935e82680f765383e9cba36", null ],
     [ "ResourceTableSetConstantBuffer", "vkresourcetable_8cc.html#afc3b44067bbfef8076cc8b1d612a1c25", null ],
     [ "ResourceTableSetInputAttachment", "vkresourcetable_8cc.html#aff135cb5485661bc9fea2b4283ecbf8d", null ],
     [ "ResourceTableSetRWBuffer", "vkresourcetable_8cc.html#adb7dfc1356f2811c5e9ca0e5377f3b21", null ],
@@ -27,6 +30,7 @@ var vkresourcetable_8cc =
     [ "ResourceTableSetSampler", "vkresourcetable_8cc.html#aafcb2f9f8c926cf3bbf152258ac817a9", null ],
     [ "ResourceTableSetTexture", "vkresourcetable_8cc.html#a0a79e2c9b78fc28f8d0e5c8cd5b17c0b", null ],
     [ "ResourceTableSetTexture", "vkresourcetable_8cc.html#a0c10c278793f7d09af0498f6c51eb036", null ],
+    [ "SetupDescriptorSize", "vkresourcetable_8cc.html#a3938d995ec46e64e9bbf355a08ff46dd", null ],
     [ "SetupEmptyDescriptorSetLayout", "vkresourcetable_8cc.html#ad694f7e47f313d10898ebd312078ddab", null ],
     [ "EmptySetLayout", "vkresourcetable_8cc.html#a71b839109cd6d61b041e8860e30faeff", null ],
     [ "resourcePipelineAllocator", "vkresourcetable_8cc.html#a60fe4aa7ec4659aa4c37b5e6b8550fb9", null ],

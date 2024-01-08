@@ -15,6 +15,7 @@ var namespace_resources =
     [ "_LoadInternal", "namespace_resources.html#affaecebe69833e8e5b16dcdc911007e7", null ],
     [ "CreateResource", "namespace_resources.html#a567df1d20a8e2a34ca067ce0cb52bb65", null ],
     [ "CreateResource", "namespace_resources.html#a06149171c66844225680ba6cdadbd323", null ],
+    [ "CreateResourceListener", "namespace_resources.html#ac6bbb528dfb2faf5a59ab5ad623cb667", null ],
     [ "DiscardResource", "namespace_resources.html#a2d3a81bbde504d7a472e9a6eae66e10e", null ],
     [ "GetStreamPool", "namespace_resources.html#af5a64ab7fe1b30e8c07afddcb6a2f5dd", null ],
     [ "ID_24_8_24_8_NAMED_TYPE", "namespace_resources.html#adf20796a2e0ef65b6cfe3273afc12808", null ],

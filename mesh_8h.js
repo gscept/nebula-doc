@@ -1,5 +1,6 @@
 var mesh_8h =
 [
+    [ "CoreGraphics::VertexAlloc", "struct_core_graphics_1_1_vertex_alloc.html", "struct_core_graphics_1_1_vertex_alloc" ],
     [ "CoreGraphics::MeshId", "struct_core_graphics_1_1_mesh_id.html", null ],
     [ "CoreGraphics::VertexStream", "struct_core_graphics_1_1_vertex_stream.html", "struct_core_graphics_1_1_vertex_stream" ],
     [ "CoreGraphics::MeshCreateInfo", "struct_core_graphics_1_1_mesh_create_info.html", "struct_core_graphics_1_1_mesh_create_info" ],

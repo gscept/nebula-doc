@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03823870293eed03ceea4c019fe4fcff" id="r_a03823870293eed03ceea4c019fe4fcff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03823870293eed03ceea4c019fe4fcff">SetMinLod</a> (const ResourceId &amp;id, float lod, bool immediate)</td></tr>
 <tr class="memdesc:a03823870293eed03ceea4c019fe4fcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream in a new LOD  <br /></td></tr>
 <tr class="separator:a03823870293eed03ceea4c019fe4fcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e16a8224c09d753c933ccb839e75970" id="r_a2e16a8224c09d753c933ccb839e75970"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e16a8224c09d753c933ccb839e75970">CreateResourceListener</a> (const ResourceId &amp;id, std::function&lt; void(const Resources::ResourceId)&gt; success, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr)</td></tr>
+<tr class="memdesc:a2e16a8224c09d753c933ccb839e75970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create single-fire listener for resource. When resource is loaded, the callbacks will be invoked and the listener is destroyed.  <br /></td></tr>
+<tr class="separator:a2e16a8224c09d753c933ccb839e75970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812b97aba4e7f11a0b2167bb093f320a" id="r_a812b97aba4e7f11a0b2167bb093f320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812b97aba4e7f11a0b2167bb093f320a">GetType</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a812b97aba4e7f11a0b2167bb093f320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of resource pool this resource was allocated with  <br /></td></tr>
 <tr class="separator:a812b97aba4e7f11a0b2167bb093f320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,6 +590,42 @@ template&lt;class METADATA &gt; </div>
 
 <p>create a new resource (stream-managed), which will be loaded at some later point, if not already loaded </p>
 <p>If a previous call to CreateResources triggered a resource load, and this evocation enforces the resource loading to be immediate, then despite this call not actually triggering a resource to be loaded, the referenced resource will be loaded immediately nonetheless. </p>
+
+</div>
+</div>
+<a id="a2e16a8224c09d753c933ccb839e75970" name="a2e16a8224c09d753c933ccb839e75970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e16a8224c09d753c933ccb839e75970">&#9670;&#160;</a></span>CreateResourceListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resources::ResourceServer::CreateResourceListener </td>
+          <td>(</td>
+          <td class="paramtype">const ResourceId &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create single-fire listener for resource. When resource is loaded, the callbacks will be invoked and the listener is destroyed. </p>
 
 </div>
 </div>
@@ -1182,7 +1221,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:50:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

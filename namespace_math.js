@@ -274,6 +274,7 @@ var namespace_math =
     [ "perspoffcenterlh", "namespace_math.html#a35bfa450ecbc93f10c7bafbfdd44a642", null ],
     [ "perspoffcenterrh", "namespace_math.html#af1b234b51cca87e1e7a24d94bff4fe3a", null ],
     [ "persprh", "namespace_math.html#a3bf7cc6356d02413ed52c5c2d571de23", null ],
+    [ "pointerhash", "namespace_math.html#a3fffb637b09d54c410f3abc848a51010", null ],
     [ "pow", "namespace_math.html#a7fdcb8c1f0eb62c6fba51d2e2272c192", null ],
     [ "quatExp", "namespace_math.html#a89b80ccc2b34aed195b390dfc96f40c3", null ],
     [ "quatUndenormalize", "namespace_math.html#adb24b5f9c60ed4a3efd14e33726d6bad", null ],

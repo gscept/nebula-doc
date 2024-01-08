@@ -60,6 +60,7 @@ var namespace_util =
     [ "__ImplementSingleton", "namespace_util.html#a34088cd8354fbb1c5ba2201b7b7b766a", null ],
     [ "alloc_for_each_in_tuple", "namespace_util.html#a3cff58ce5395906b4582f60064540e9d", null ],
     [ "alloc_for_each_in_tuple", "namespace_util.html#a3158c18bad3c53f6b28e106254d1bd99", null ],
+    [ "BitmaskConvert", "namespace_util.html#a94623fbc05f6493597c53a719dc29a1d", null ],
     [ "clear_for_each_in_tuple", "namespace_util.html#ac523806fb17029f288ac10791bbc7b00", null ],
     [ "clear_for_each_in_tuple", "namespace_util.html#a33ba272acc88b6fd748bbb8a87898e26", null ],
     [ "CountBits", "namespace_util.html#ae530f444bfb138d60bb349da54c370fc", null ],

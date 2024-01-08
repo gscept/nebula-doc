@@ -67,6 +67,7 @@ var scalar_8h =
     [ "operator\"\"_deg", "scalar_8h.html#ae9ff5a93d6efe13137a67c9b6bfc732a", null ],
     [ "operator\"\"_rad", "scalar_8h.html#a783e2bdfdeaa8f1b09f96822ef341b3d", null ],
     [ "operator\"\"_rad", "scalar_8h.html#a5232a0f0dfd387e13a0b6093a27e8d86", null ],
+    [ "pointerhash", "scalar_8h.html#a3fffb637b09d54c410f3abc848a51010", null ],
     [ "pow", "scalar_8h.html#a7fdcb8c1f0eb62c6fba51d2e2272c192", null ],
     [ "rad2deg", "scalar_8h.html#a1eeea02f806be16a6d17e5f44eaa4f29", null ],
     [ "rand", "scalar_8h.html#a84d4b4302f8bfa05bfdc1026522372e7", null ],

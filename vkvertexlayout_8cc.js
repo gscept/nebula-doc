@@ -5,6 +5,7 @@ var vkvertexlayout_8cc =
     [ "VertexLayoutGetComponents", "vkvertexlayout_8cc.html#a5245b5a68c7a809b949802524671f703", null ],
     [ "VertexLayoutGetDerivative", "vkvertexlayout_8cc.html#aa628a19e8875570cbfc061de8631b631", null ],
     [ "VertexLayoutGetSize", "vkvertexlayout_8cc.html#a6d3fb13bc18843e87da031b70558b4a0", null ],
+    [ "VertexLayoutGetStreamSize", "vkvertexlayout_8cc.html#af359ca2ecf74cbc1bea0777b733e3403", null ],
     [ "VertexLayoutGetVkBindInfo", "vkvertexlayout_8cc.html#a9d7ad23a594f68d635e4e35eeb61125d", null ],
     [ "vertexLayoutAllocator", "vkvertexlayout_8cc.html#aeb96c92a8ff8bcf06569be7d18b15034", null ],
     [ "vertexSignatureMutex", "vkvertexlayout_8cc.html#a0d8b5cbc1ce31c570a0eaba48d0e0f0a", null ]

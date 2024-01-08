@@ -105,10 +105,10 @@ $(function(){initNavTree('vkvertexlayout_8cc.html',''); initResizable(); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -126,15 +126,18 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac9e0cfb567e21f5a7cb98d2252fcd3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy vertex layout  <br /></td></tr>
 <tr class="separator:ac9e0cfb567e21f5a7cb98d2252fcd3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3fb13bc18843e87da031b70558b4a0" id="r_a6d3fb13bc18843e87da031b70558b4a0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6d3fb13bc18843e87da031b70558b4a0">CoreGraphics::VertexLayoutGetSize</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a> id)</td></tr>
-<tr class="memdesc:a6d3fb13bc18843e87da031b70558b4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get byte size  <br /></td></tr>
+<tr class="memdesc:a6d3fb13bc18843e87da031b70558b4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get byte size.  <br /></td></tr>
 <tr class="separator:a6d3fb13bc18843e87da031b70558b4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af359ca2ecf74cbc1bea0777b733e3403" id="r_af359ca2ecf74cbc1bea0777b733e3403"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af359ca2ecf74cbc1bea0777b733e3403">CoreGraphics::VertexLayoutGetStreamSize</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream)</td></tr>
+<tr class="memdesc:af359ca2ecf74cbc1bea0777b733e3403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get byte size per stream.  <br /></td></tr>
+<tr class="separator:af359ca2ecf74cbc1bea0777b733e3403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5245b5a68c7a809b949802524671f703" id="r_a5245b5a68c7a809b949802524671f703"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_core_graphics_1_1_vertex_component.html">VertexComponent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a5245b5a68c7a809b949802524671f703">CoreGraphics::VertexLayoutGetComponents</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a> id)</td></tr>
 <tr class="memdesc:a5245b5a68c7a809b949802524671f703"><td class="mdescLeft">&#160;</td><td class="mdescRight">get components  <br /></td></tr>
 <tr class="separator:a5245b5a68c7a809b949802524671f703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aeb96c92a8ff8bcf06569be7d18b15034" id="r_aeb96c92a8ff8bcf06569be7d18b15034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#af49ecb7016b5572f1bd5eaa4483b3b48">VkVertexLayoutAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034">Vulkan::vertexLayoutAllocator</a></td></tr>
+<tr class="memitem:aeb96c92a8ff8bcf06569be7d18b15034" id="r_aeb96c92a8ff8bcf06569be7d18b15034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a02d8bd37e5a15ddf3c5a3c7846f47a26">VkVertexLayoutAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034">Vulkan::vertexLayoutAllocator</a></td></tr>
 <tr class="separator:aeb96c92a8ff8bcf06569be7d18b15034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8b5cbc1ce31c570a0eaba48d0e0f0a" id="r_a0d8b5cbc1ce31c570a0eaba48d0e0f0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a0d8b5cbc1ce31c570a0eaba48d0e0f0a">Vulkan::vertexSignatureMutex</a></td></tr>
 <tr class="separator:a0d8b5cbc1ce31c570a0eaba48d0e0f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +149,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkvertexlayout_8cc.html">vkvertexlayout.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -847,59 +847,69 @@ $(function(){initNavTree('scalar_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00776" name="l00776"></a><span class="lineno"><a class="line" href="struct_math_1_1randxorstate.html#a81597c6032245ffb672b832eb8dddb57">  776</a></span>    <a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> <a class="code hl_variable" href="struct_math_1_1randxorstate.html#a81597c6032245ffb672b832eb8dddb57">x</a>[2];</div>
 <div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>};</div>
 </div>
-<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>__forceinline <a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></div>
-<div class="foldopen" id="foldopen00779" data-start="{" data-end="}">
-<div class="line"><a id="l00779" name="l00779"></a><span class="lineno"><a class="line" href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">  779</a></span><a class="code hl_function" href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">randxor</a>(<a class="code hl_struct" href="struct_math_1_1randxorstate.html">randxorstate</a>&amp; state)</div>
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>{</div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>    uint64_t t = state.x[0];</div>
-<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>    uint64_t <span class="keyword">const</span> s = state.x[1];</div>
-<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>    state.x[0] = s;</div>
-<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    t ^= t &lt;&lt; 23;       <span class="comment">// a</span></div>
-<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>    t ^= t &gt;&gt; 18;       <span class="comment">// b -- Again, the shifts and the multipliers are tunable</span></div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>    t ^= s ^ (s &gt;&gt; 5);  <span class="comment">// c</span></div>
-<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>    state.x[1] = t;</div>
-<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>    <span class="keywordflow">return</span> t + s;</div>
-<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>}</div>
+<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span> </div>
+<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>__forceinline <a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></div>
+<div class="foldopen" id="foldopen00780" data-start="{" data-end="}">
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno"><a class="line" href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">  780</a></span><a class="code hl_function" href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">randxor</a>(<a class="code hl_struct" href="struct_math_1_1randxorstate.html">randxorstate</a>&amp; state)</div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>{</div>
+<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>    uint64_t t = state.x[0];</div>
+<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>    uint64_t <span class="keyword">const</span> s = state.x[1];</div>
+<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    state.x[0] = s;</div>
+<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>    t ^= t &lt;&lt; 23;       <span class="comment">// a</span></div>
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>    t ^= t &gt;&gt; 18;       <span class="comment">// b -- Again, the shifts and the multipliers are tunable</span></div>
+<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>    t ^= s ^ (s &gt;&gt; 5);  <span class="comment">// c</span></div>
+<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>    state.x[1] = t;</div>
+<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    <span class="keywordflow">return</span> t + s;</div>
+<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>}</div>
 </div>
-<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span> </div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>} <span class="comment">// namespace Math</span></div>
-<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span> </div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
-<div class="foldopen" id="foldopen00798" data-start="{" data-end="}">
-<div class="line"><a id="l00798" name="l00798"></a><span class="lineno"><a class="line" href="scalar_8h.html#a783e2bdfdeaa8f1b09f96822ef341b3d">  798</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _rad(<span class="keywordtype">long</span> <span class="keywordtype">double</span> deg)</div>
-<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>{</div>
-<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a38a5710a712b6c220e094f9fcb0ac7e9">Math::deg2rad</a>(deg);</div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>}</div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span> </div>
+<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>__forceinline uint32_t</div>
+<div class="foldopen" id="foldopen00797" data-start="{" data-end="}">
+<div class="line"><a id="l00797" name="l00797"></a><span class="lineno"><a class="line" href="namespace_math.html#a3fffb637b09d54c410f3abc848a51010">  797</a></span><a class="code hl_function" href="namespace_math.html#a3fffb637b09d54c410f3abc848a51010">pointerhash</a>(<span class="keywordtype">void</span>* ptr)</div>
+<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>{</div>
+<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    <span class="keywordflow">return</span> (uint32_t) (((uintptr_t)(<span class="keywordtype">void</span> *)ptr) % 4294967291u);</div>
+<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>}</div>
 </div>
-<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span> </div>
-<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
-<div class="foldopen" id="foldopen00807" data-start="{" data-end="}">
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno"><a class="line" href="scalar_8h.html#a5232a0f0dfd387e13a0b6093a27e8d86">  807</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _rad(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> deg)</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>{</div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a38a5710a712b6c220e094f9fcb0ac7e9">Math::deg2rad</a>(deg);</div>
-<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>}</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span> </div>
+<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>} <span class="comment">// namespace Math</span></div>
+<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span> </div>
+<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
+<div class="foldopen" id="foldopen00809" data-start="{" data-end="}">
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno"><a class="line" href="scalar_8h.html#a783e2bdfdeaa8f1b09f96822ef341b3d">  809</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _rad(<span class="keywordtype">long</span> <span class="keywordtype">double</span> deg)</div>
+<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>{</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a38a5710a712b6c220e094f9fcb0ac7e9">Math::deg2rad</a>(deg);</div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>}</div>
 </div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span> </div>
-<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
-<div class="foldopen" id="foldopen00817" data-start="{" data-end="}">
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno"><a class="line" href="scalar_8h.html#a75bdeb7b4d410e8801c25b3a3a9cc857">  817</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _deg(<span class="keywordtype">long</span> <span class="keywordtype">double</span> rad)</div>
-<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>{</div>
-<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29">Math::rad2deg</a>(rad);</div>
-<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>}</div>
+<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span> </div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
+<div class="foldopen" id="foldopen00818" data-start="{" data-end="}">
+<div class="line"><a id="l00818" name="l00818"></a><span class="lineno"><a class="line" href="scalar_8h.html#a5232a0f0dfd387e13a0b6093a27e8d86">  818</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _rad(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> deg)</div>
+<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>{</div>
+<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a38a5710a712b6c220e094f9fcb0ac7e9">Math::deg2rad</a>(deg);</div>
+<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>}</div>
 </div>
-<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span> </div>
-<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
-<div class="foldopen" id="foldopen00826" data-start="{" data-end="}">
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno"><a class="line" href="scalar_8h.html#ae9ff5a93d6efe13137a67c9b6bfc732a">  826</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _deg(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> deg)</div>
-<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>{</div>
-<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29">Math::rad2deg</a>(deg);</div>
-<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>}</div>
+<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span> </div>
+<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
+<div class="foldopen" id="foldopen00828" data-start="{" data-end="}">
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno"><a class="line" href="scalar_8h.html#a75bdeb7b4d410e8801c25b3a3a9cc857">  828</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _deg(<span class="keywordtype">long</span> <span class="keywordtype">double</span> rad)</div>
+<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>{</div>
+<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29">Math::rad2deg</a>(rad);</div>
+<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>}</div>
 </div>
-<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span> </div>
+<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span><span class="keyword">inline</span> <span class="keywordtype">long</span> <span class="keywordtype">double</span></div>
+<div class="foldopen" id="foldopen00837" data-start="{" data-end="}">
+<div class="line"><a id="l00837" name="l00837"></a><span class="lineno"><a class="line" href="scalar_8h.html#ae9ff5a93d6efe13137a67c9b6bfc732a">  837</a></span><span class="keyword">operator</span><span class="stringliteral">&quot;&quot;</span> _deg(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> deg)</div>
+<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>{</div>
+<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29">Math::rad2deg</a>(deg);</div>
+<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>}</div>
+</div>
+<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="anamespace_math_html"><div class="ttname"><a href="namespace_math.html">Math</a></div><div class="ttdoc">Half precision (16 bit) float implementation.</div><div class="ttdef"><b>Definition</b> angularpfeedbackloop.h:17</div></div>
 <div class="ttc" id="anamespace_math_html_a12ea634cbc84ed1f31d564f59d42fd73"><div class="ttname"><a href="namespace_math.html#a12ea634cbc84ed1f31d564f59d42fd73">Math::alignptr</a></div><div class="ttdeci">__forceinline uintptr_t alignptr(uintptr_t alignant, uintptr_t alignment)</div><div class="ttdef"><b>Definition</b> scalar.h:720</div></div>
 <div class="ttc" id="anamespace_math_html_a149b1a0c5da30db4c59f729b478db844"><div class="ttname"><a href="namespace_math.html#a149b1a0c5da30db4c59f729b478db844">Math::undenormalize</a></div><div class="ttdeci">__forceinline float undenormalize(scalar s)</div><div class="ttdoc">Returns 0 if scalar is denormal.</div><div class="ttdef"><b>Definition</b> scalar.h:633</div></div>
@@ -908,12 +918,13 @@ $(function(){initNavTree('scalar_8h_source.html',''); initResizable(); });
 <div class="ttc" id="anamespace_math_html_a288e5a67a2f93af2897702afb15e4122"><div class="ttname"><a href="namespace_math.html#a288e5a67a2f93af2897702afb15e4122">Math::fequal</a></div><div class="ttdeci">__forceinline bool fequal(scalar f0, scalar f1, scalar tol)</div><div class="ttdoc">A fuzzy floating point equality check.</div><div class="ttdef"><b>Definition</b> scalar.h:348</div></div>
 <div class="ttc" id="anamespace_math_html_a2b7946dea20d4431f0b0299039db84bb"><div class="ttname"><a href="namespace_math.html#a2b7946dea20d4431f0b0299039db84bb">Math::cot</a></div><div class="ttdeci">__forceinline scalar cot(scalar x)</div><div class="ttdef"><b>Definition</b> scalar.h:659</div></div>
 <div class="ttc" id="anamespace_math_html_a2c18a4e48abee2f788ac9025aead6299"><div class="ttname"><a href="namespace_math.html#a2c18a4e48abee2f788ac9025aead6299">Math::sqrt</a></div><div class="ttdeci">__forceinline scalar sqrt(scalar x)</div><div class="ttdef"><b>Definition</b> scalar.h:236</div></div>
-<div class="ttc" id="anamespace_math_html_a2e8d7984ef03f3b9d1d868ae6632b532"><div class="ttname"><a href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">Math::randxor</a></div><div class="ttdeci">__forceinline uint64 randxor(randxorstate &amp;state)</div><div class="ttdef"><b>Definition</b> scalar.h:779</div></div>
+<div class="ttc" id="anamespace_math_html_a2e8d7984ef03f3b9d1d868ae6632b532"><div class="ttname"><a href="namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532">Math::randxor</a></div><div class="ttdeci">__forceinline uint64 randxor(randxorstate &amp;state)</div><div class="ttdef"><b>Definition</b> scalar.h:780</div></div>
 <div class="ttc" id="anamespace_math_html_a3504e234041a6165ce9a0dec4df96187"><div class="ttname"><a href="namespace_math.html#a3504e234041a6165ce9a0dec4df96187">Math::log</a></div><div class="ttdeci">__forceinline scalar log(scalar x)</div><div class="ttdoc">get logarithm of x</div><div class="ttdef"><b>Definition</b> scalar.h:310</div></div>
 <div class="ttc" id="anamespace_math_html_a35f94f05de58cb30d5d9c470ae4171c3"><div class="ttname"><a href="namespace_math.html#a35f94f05de58cb30d5d9c470ae4171c3">Math::align_down</a></div><div class="ttdeci">__forceinline unsigned int align_down(unsigned int alignant, unsigned int alignment)</div><div class="ttdef"><b>Definition</b> scalar.h:729</div></div>
 <div class="ttc" id="anamespace_math_html_a38a5710a712b6c220e094f9fcb0ac7e9"><div class="ttname"><a href="namespace_math.html#a38a5710a712b6c220e094f9fcb0ac7e9">Math::deg2rad</a></div><div class="ttdeci">__forceinline constexpr scalar deg2rad(scalar d)</div><div class="ttdef"><b>Definition</b> scalar.h:457</div></div>
 <div class="ttc" id="anamespace_math_html_a39eef807d14aa928b8fff5894b59ffc4"><div class="ttname"><a href="namespace_math.html#a39eef807d14aa928b8fff5894b59ffc4">Math::asin</a></div><div class="ttdeci">__forceinline scalar asin(scalar x)</div><div class="ttdef"><b>Definition</b> scalar.h:209</div></div>
 <div class="ttc" id="anamespace_math_html_a3d85ae259b25812836c7262dc391e5b6"><div class="ttname"><a href="namespace_math.html#a3d85ae259b25812836c7262dc391e5b6">Math::saturate</a></div><div class="ttdeci">__forceinline scalar saturate(scalar val)</div><div class="ttdoc">Saturate a value (clamps between 0.0f and 1.0f)</div><div class="ttdef"><b>Definition</b> scalar.h:562</div></div>
+<div class="ttc" id="anamespace_math_html_a3fffb637b09d54c410f3abc848a51010"><div class="ttname"><a href="namespace_math.html#a3fffb637b09d54c410f3abc848a51010">Math::pointerhash</a></div><div class="ttdeci">__forceinline uint32_t pointerhash(void *ptr)</div><div class="ttdoc">cheap pointer hash using modulo with a mersenne prime</div><div class="ttdef"><b>Definition</b> scalar.h:797</div></div>
 <div class="ttc" id="anamespace_math_html_a4096b20b2df2f6eacd050698feffe355"><div class="ttname"><a href="namespace_math.html#a4096b20b2df2f6eacd050698feffe355">Math::log2</a></div><div class="ttdeci">__forceinline scalar log2(scalar f)</div><div class="ttdoc">log2() function.</div><div class="ttdef"><b>Definition</b> scalar.h:291</div></div>
 <div class="ttc" id="anamespace_math_html_a45b185959f1c682ea18626a99d096b7b"><div class="ttname"><a href="namespace_math.html#a45b185959f1c682ea18626a99d096b7b">Math::fchop</a></div><div class="ttdeci">__forceinline int fchop(scalar f)</div><div class="ttdoc">Chop float to int.</div><div class="ttdef"><b>Definition</b> scalar.h:246</div></div>
 <div class="ttc" id="anamespace_math_html_a51b938f95c4b2a7badb5a0c3a80afd68"><div class="ttname"><a href="namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68">Math::frnd</a></div><div class="ttdeci">__forceinline int frnd(scalar f)</div><div class="ttdoc">Round float to integer.</div><div class="ttdef"><b>Definition</b> scalar.h:329</div></div>
@@ -1020,7 +1031,7 @@ $(function(){initNavTree('scalar_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="scalar_8h.html">scalar.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

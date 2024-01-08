@@ -108,14 +108,14 @@ $(function(){initNavTree('vkgraphicsdevice_8h.html',''); initResizable(); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad7977af7967bd1c4545d340b2543a845" id="r_ad7977af7967bd1c4545d340b2543a845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#ad7977af7967bd1c4545d340b2543a845">Vulkan::SetupAdapter</a> ()</td></tr>
-<tr class="memdesc:ad7977af7967bd1c4545d340b2543a845"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup graphics adapter  <br /></td></tr>
-<tr class="separator:ad7977af7967bd1c4545d340b2543a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff44f1f61ad100eb6d96b7906b23cc5" id="r_afff44f1f61ad100eb6d96b7906b23cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#afff44f1f61ad100eb6d96b7906b23cc5">Vulkan::SetupAdapter</a> (<a class="el" href="struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html">CoreGraphics::GraphicsDeviceCreateInfo::Features</a> features)</td></tr>
+<tr class="memdesc:afff44f1f61ad100eb6d96b7906b23cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup graphics adapter  <br /></td></tr>
+<tr class="separator:afff44f1f61ad100eb6d96b7906b23cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42726dfba00581bfff8e469f757f8f56" id="r_a42726dfba00581bfff8e469f757f8f56"><td class="memItemLeft" align="right" valign="top">VkInstance&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a42726dfba00581bfff8e469f757f8f56">Vulkan::GetInstance</a> ()</td></tr>
 <tr class="memdesc:a42726dfba00581bfff8e469f757f8f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vk instance  <br /></td></tr>
 <tr class="separator:a42726dfba00581bfff8e469f757f8f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +128,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a68a281031919269764b5afdbf7415d86" id="r_a68a281031919269764b5afdbf7415d86"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a68a281031919269764b5afdbf7415d86">Vulkan::GetCurrentProperties</a> ()</td></tr>
 <tr class="memdesc:a68a281031919269764b5afdbf7415d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current device properties  <br /></td></tr>
 <tr class="separator:a68a281031919269764b5afdbf7415d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15773ef233d79c75b38ff2c8b087547e" id="r_a15773ef233d79c75b38ff2c8b087547e"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceAccelerationStructurePropertiesKHR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a15773ef233d79c75b38ff2c8b087547e">Vulkan::GetCurrentAccelerationStructureProperties</a> ()</td></tr>
+<tr class="memdesc:a15773ef233d79c75b38ff2c8b087547e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current device acceleration structure properties.  <br /></td></tr>
+<tr class="separator:a15773ef233d79c75b38ff2c8b087547e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e4eb2c95f2b7c1e3953501d4c93e9d" id="r_a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceRayTracingPipelinePropertiesKHR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a90e4eb2c95f2b7c1e3953501d4c93e9d">Vulkan::GetCurrentRaytracingProperties</a> ()</td></tr>
+<tr class="memdesc:a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current device raytracing properties.  <br /></td></tr>
+<tr class="separator:a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a428c995a178b949e5969a24c5c197a99" id="r_a428c995a178b949e5969a24c5c197a99"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceFeatures&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a428c995a178b949e5969a24c5c197a99">Vulkan::GetCurrentFeatures</a> ()</td></tr>
 <tr class="memdesc:a428c995a178b949e5969a24c5c197a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current device features  <br /></td></tr>
 <tr class="separator:a428c995a178b949e5969a24c5c197a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,7 +181,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8h.html">vkgraphicsdevice.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

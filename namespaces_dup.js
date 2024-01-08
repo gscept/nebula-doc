@@ -88,6 +88,7 @@ var namespaces_dup =
       [ "VariantToPyType", "namespace_python.html#ad5799d95db209cd19806664696f2efcc", null ],
       [ "VariantToPyType", "namespace_python.html#a8a0fe7fc5111c6c2920672614a676a3b", null ]
     ] ],
+    [ "Raytracing", "namespace_raytracing.html", "namespace_raytracing" ],
     [ "RenderModules", "namespace_render_modules.html", "namespace_render_modules" ],
     [ "RenderUtil", "namespace_render_util.html", "namespace_render_util" ],
     [ "Resources", "namespace_resources.html", "namespace_resources" ],

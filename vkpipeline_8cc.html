@@ -109,10 +109,10 @@ $(function(){initNavTree('vkpipeline_8cc.html',''); initResizable(); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -123,6 +123,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aea67d6a0642d716b2034a91cff5362cd" id="r_aea67d6a0642d716b2034a91cff5362cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aea67d6a0642d716b2034a91cff5362cd">CoreGraphics::DestroyPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
 <tr class="memdesc:aea67d6a0642d716b2034a91cff5362cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy pipeline.  <br /></td></tr>
 <tr class="separator:aea67d6a0642d716b2034a91cff5362cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd74beb4a954608938cc373dc252c11e" id="r_abd74beb4a954608938cc373dc252c11e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#abd74beb4a954608938cc373dc252c11e">CoreGraphics::CreateRaytracingPipeline</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; CoreGraphics::ShaderProgramId &gt; programs)</td></tr>
+<tr class="memdesc:abd74beb4a954608938cc373dc252c11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create raytacing pipeline using multiple shader programs.  <br /></td></tr>
+<tr class="separator:abd74beb4a954608938cc373dc252c11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -136,7 +139,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkpipeline_8cc.html">vkpipeline.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

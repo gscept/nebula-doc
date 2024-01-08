@@ -106,14 +106,15 @@ $(function(){initNavTree('vkresourcetable_8cc.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="vktexture_8h_source.html">vktexture.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vktextureview_8h_source.html">vktextureview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkbuffer_8h_source.html">vkbuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vkaccelerationstructure_8h_source.html">vkaccelerationstructure.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -184,12 +185,21 @@ Functions</h2></td></tr>
 <tr class="memitem:aafcb2f9f8c926cf3bbf152258ac817a9" id="r_aafcb2f9f8c926cf3bbf152258ac817a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aafcb2f9f8c926cf3bbf152258ac817a9">CoreGraphics::ResourceTableSetSampler</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> id, const <a class="el" href="struct_core_graphics_1_1_resource_table_sampler.html">ResourceTableSampler</a> &amp;samp)</td></tr>
 <tr class="memdesc:aafcb2f9f8c926cf3bbf152258ac817a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">set resource table sampler  <br /></td></tr>
 <tr class="separator:aafcb2f9f8c926cf3bbf152258ac817a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472edb403935e82680f765383e9cba36" id="r_a472edb403935e82680f765383e9cba36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a472edb403935e82680f765383e9cba36">CoreGraphics::ResourceTableSetAccelerationStructure</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> id, const <a class="el" href="struct_core_graphics_1_1_resource_table_tlas.html">ResourceTableTlas</a> &amp;tlas)</td></tr>
+<tr class="memdesc:a472edb403935e82680f765383e9cba36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set resource table acceleration structure.  <br /></td></tr>
+<tr class="separator:a472edb403935e82680f765383e9cba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4eedc56320c49f0a98553c43e389d9f" id="r_af4eedc56320c49f0a98553c43e389d9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af4eedc56320c49f0a98553c43e389d9f">CoreGraphics::ResourceTableBlock</a> (bool b)</td></tr>
 <tr class="memdesc:af4eedc56320c49f0a98553c43e389d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">disallow the resource table system to make modifications  <br /></td></tr>
 <tr class="separator:af4eedc56320c49f0a98553c43e389d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9c812e014eeafe0544483cd53afcb5" id="r_a0b9c812e014eeafe0544483cd53afcb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0b9c812e014eeafe0544483cd53afcb5">CoreGraphics::ResourceTableCommitChanges</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> id)</td></tr>
 <tr class="memdesc:a0b9c812e014eeafe0544483cd53afcb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply updates of previous sets  <br /></td></tr>
 <tr class="separator:a0b9c812e014eeafe0544483cd53afcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03668e10ba7b40917f82ff56022cda76" id="r_a03668e10ba7b40917f82ff56022cda76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a03668e10ba7b40917f82ff56022cda76">CoreGraphics::AddBinding</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, VkDescriptorSetLayoutBinding &gt; &amp;bindings, const VkDescriptorSetLayoutBinding &amp;binding)</td></tr>
+<tr class="separator:a03668e10ba7b40917f82ff56022cda76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a6451166a8faa370b0cd2b53827a2a" id="r_a61a6451166a8faa370b0cd2b53827a2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a61a6451166a8faa370b0cd2b53827a2a">CoreGraphics::CountDescriptors</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counters, const VkDescriptorSetLayoutBinding &amp;binding)</td></tr>
+<tr class="separator:a61a6451166a8faa370b0cd2b53827a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3938d995ec46e64e9bbf355a08ff46dd" id="r_a3938d995ec46e64e9bbf355a08ff46dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a3938d995ec46e64e9bbf355a08ff46dd">CoreGraphics::SetupDescriptorSize</a> (VkDescriptorPoolSize &amp;size, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counter, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt; &amp;outSizes)</td></tr>
+<tr class="separator:a3938d995ec46e64e9bbf355a08ff46dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bf1ed30a1707444ad4ce48fb6c9d15" id="r_a38bf1ed30a1707444ad4ce48fb6c9d15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">ResourceTableLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a38bf1ed30a1707444ad4ce48fb6c9d15">CoreGraphics::CreateResourceTableLayout</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_create_info.html">ResourceTableLayoutCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a38bf1ed30a1707444ad4ce48fb6c9d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">create resource table layout  <br /></td></tr>
 <tr class="separator:a38bf1ed30a1707444ad4ce48fb6c9d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +231,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkresourcetable_8cc.html">vkresourcetable.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

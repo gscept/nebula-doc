@@ -4,6 +4,7 @@ var vkbuffer_8cc =
     [ "BufferFill", "vkbuffer_8cc.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "vkbuffer_8cc.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "vkbuffer_8cc.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],
+    [ "BufferGetDeviceAddress", "vkbuffer_8cc.html#ab410b9fdf449efd0cd835e1df4088c8b", null ],
     [ "BufferGetElementSize", "vkbuffer_8cc.html#a364925be80719cb03cdb6f4f8938b183", null ],
     [ "BufferGetSize", "vkbuffer_8cc.html#a8ed7c723cbbd8bb47ad85018c6f94e3f", null ],
     [ "BufferGetType", "vkbuffer_8cc.html#aee8a0acbaa9cc2aca1083320303f81a2", null ],

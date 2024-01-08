@@ -122,9 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a342029fc4a1566167664e6a65a679592" id="r_a342029fc4a1566167664e6a65a679592"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342029fc4a1566167664e6a65a679592">~UltralightRenderer</a> ()</td></tr>
 <tr class="memdesc:a342029fc4a1566167664e6a65a679592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:a342029fc4a1566167664e6a65a679592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ff1b317e6df2b0f6efb6fff9d8ded3f" id="r_a5ff1b317e6df2b0f6efb6fff9d8ded3f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff1b317e6df2b0f6efb6fff9d8ded3f">NextTextureId</a> ()</td></tr>
-<tr class="memdesc:a5ff1b317e6df2b0f6efb6fff9d8ded3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next texture.  <br /></td></tr>
-<tr class="separator:a5ff1b317e6df2b0f6efb6fff9d8ded3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d5cc27030f17c67ab62f41cb631326" id="r_a37d5cc27030f17c67ab62f41cb631326"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37d5cc27030f17c67ab62f41cb631326">NextTextureId</a> () override</td></tr>
+<tr class="memdesc:a37d5cc27030f17c67ab62f41cb631326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next texture.  <br /></td></tr>
+<tr class="separator:a37d5cc27030f17c67ab62f41cb631326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b944785c52efeea7e167ad1c8167760" id="r_a9b944785c52efeea7e167ad1c8167760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b944785c52efeea7e167ad1c8167760">CreateTexture</a> (uint32_t texture_id, ultralight::Ref&lt; ultralight::Bitmap &gt; bitmap) override</td></tr>
 <tr class="memdesc:a9b944785c52efeea7e167ad1c8167760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create texture.  <br /></td></tr>
 <tr class="separator:a9b944785c52efeea7e167ad1c8167760"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,30 +134,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3a749f8820ccec5f7505524c672a333" id="r_aa3a749f8820ccec5f7505524c672a333"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a749f8820ccec5f7505524c672a333">DestroyTexture</a> (uint32_t texture_id) override</td></tr>
 <tr class="memdesc:aa3a749f8820ccec5f7505524c672a333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy texture.  <br /></td></tr>
 <tr class="separator:aa3a749f8820ccec5f7505524c672a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba906873e52933bf4923643f8d8b60e0" id="r_aba906873e52933bf4923643f8d8b60e0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba906873e52933bf4923643f8d8b60e0">NextRenderBufferId</a> ()</td></tr>
-<tr class="memdesc:aba906873e52933bf4923643f8d8b60e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next render buffer id.  <br /></td></tr>
-<tr class="separator:aba906873e52933bf4923643f8d8b60e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a17269db31d52c270c296d4ea377af" id="r_a81a17269db31d52c270c296d4ea377af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81a17269db31d52c270c296d4ea377af">CreateRenderBuffer</a> (uint32_t render_buffer_id, const ultralight::RenderBuffer &amp;buffer)</td></tr>
-<tr class="memdesc:a81a17269db31d52c270c296d4ea377af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create render target.  <br /></td></tr>
-<tr class="separator:a81a17269db31d52c270c296d4ea377af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af36c03d63a12f1f707954e3e868346a5" id="r_af36c03d63a12f1f707954e3e868346a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36c03d63a12f1f707954e3e868346a5">DestroyRenderBuffer</a> (uint32_t render_buffer_id)</td></tr>
-<tr class="memdesc:af36c03d63a12f1f707954e3e868346a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy render target.  <br /></td></tr>
-<tr class="separator:af36c03d63a12f1f707954e3e868346a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717b8253f88abfc3c7feb322a43f29fa" id="r_a717b8253f88abfc3c7feb322a43f29fa"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a717b8253f88abfc3c7feb322a43f29fa">NextGeometryId</a> ()</td></tr>
-<tr class="memdesc:a717b8253f88abfc3c7feb322a43f29fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next geometry.  <br /></td></tr>
-<tr class="separator:a717b8253f88abfc3c7feb322a43f29fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8731124e1973074d5833d775aeecec95" id="r_a8731124e1973074d5833d775aeecec95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8731124e1973074d5833d775aeecec95">CreateGeometry</a> (uint32_t geometry_id, const ultralight::VertexBuffer &amp;vertices, const ultralight::IndexBuffer &amp;indices)</td></tr>
-<tr class="memdesc:a8731124e1973074d5833d775aeecec95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create geometry.  <br /></td></tr>
-<tr class="separator:a8731124e1973074d5833d775aeecec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82ba2c3db435138f468e1b2443a34f53" id="r_a82ba2c3db435138f468e1b2443a34f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ba2c3db435138f468e1b2443a34f53">UpdateGeometry</a> (uint32_t geometry_id, const ultralight::VertexBuffer &amp;vertices, const ultralight::IndexBuffer &amp;indices)</td></tr>
-<tr class="memdesc:a82ba2c3db435138f468e1b2443a34f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update geometry.  <br /></td></tr>
-<tr class="separator:a82ba2c3db435138f468e1b2443a34f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cb3e7e25207f8a05682f7dd85c89182" id="r_a0cb3e7e25207f8a05682f7dd85c89182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb3e7e25207f8a05682f7dd85c89182">DestroyGeometry</a> (uint32_t geometry_id)</td></tr>
-<tr class="memdesc:a0cb3e7e25207f8a05682f7dd85c89182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy geometry.  <br /></td></tr>
-<tr class="separator:a0cb3e7e25207f8a05682f7dd85c89182"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c2fc8e9c8ee90b296136d8a796b133" id="r_a45c2fc8e9c8ee90b296136d8a796b133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45c2fc8e9c8ee90b296136d8a796b133">UpdateCommandList</a> (const ultralight::CommandList &amp;list)</td></tr>
-<tr class="memdesc:a45c2fc8e9c8ee90b296136d8a796b133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill list of draw commands.  <br /></td></tr>
-<tr class="separator:a45c2fc8e9c8ee90b296136d8a796b133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51389236e7dc41d4984d19f39f8c7cad" id="r_a51389236e7dc41d4984d19f39f8c7cad"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51389236e7dc41d4984d19f39f8c7cad">NextRenderBufferId</a> () override</td></tr>
+<tr class="memdesc:a51389236e7dc41d4984d19f39f8c7cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next render buffer id.  <br /></td></tr>
+<tr class="separator:a51389236e7dc41d4984d19f39f8c7cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ff1681a1f20e0d9a173903ac32276e" id="r_a22ff1681a1f20e0d9a173903ac32276e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22ff1681a1f20e0d9a173903ac32276e">CreateRenderBuffer</a> (uint32_t render_buffer_id, const ultralight::RenderBuffer &amp;buffer) override</td></tr>
+<tr class="memdesc:a22ff1681a1f20e0d9a173903ac32276e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create render target.  <br /></td></tr>
+<tr class="separator:a22ff1681a1f20e0d9a173903ac32276e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab2ec3aaaaeb758ed3a2f05cb7d90ac" id="r_afab2ec3aaaaeb758ed3a2f05cb7d90ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab2ec3aaaaeb758ed3a2f05cb7d90ac">DestroyRenderBuffer</a> (uint32_t render_buffer_id) override</td></tr>
+<tr class="memdesc:afab2ec3aaaaeb758ed3a2f05cb7d90ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy render target.  <br /></td></tr>
+<tr class="separator:afab2ec3aaaaeb758ed3a2f05cb7d90ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905d94cc65b98e27a315d059c78e33e1" id="r_a905d94cc65b98e27a315d059c78e33e1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905d94cc65b98e27a315d059c78e33e1">NextGeometryId</a> () override</td></tr>
+<tr class="memdesc:a905d94cc65b98e27a315d059c78e33e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next geometry.  <br /></td></tr>
+<tr class="separator:a905d94cc65b98e27a315d059c78e33e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5f0c4cf6656b25284d467e7b781aeb" id="r_a5f5f0c4cf6656b25284d467e7b781aeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f5f0c4cf6656b25284d467e7b781aeb">CreateGeometry</a> (uint32_t geometry_id, const ultralight::VertexBuffer &amp;vertices, const ultralight::IndexBuffer &amp;indices) override</td></tr>
+<tr class="memdesc:a5f5f0c4cf6656b25284d467e7b781aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create geometry.  <br /></td></tr>
+<tr class="separator:a5f5f0c4cf6656b25284d467e7b781aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03bb7c56f1c257dc7aeadf600b7a90dc" id="r_a03bb7c56f1c257dc7aeadf600b7a90dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03bb7c56f1c257dc7aeadf600b7a90dc">UpdateGeometry</a> (uint32_t geometry_id, const ultralight::VertexBuffer &amp;vertices, const ultralight::IndexBuffer &amp;indices) override</td></tr>
+<tr class="memdesc:a03bb7c56f1c257dc7aeadf600b7a90dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update geometry.  <br /></td></tr>
+<tr class="separator:a03bb7c56f1c257dc7aeadf600b7a90dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7dd2c6aa9b84ef8ae84e1911443a5b0" id="r_ab7dd2c6aa9b84ef8ae84e1911443a5b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7dd2c6aa9b84ef8ae84e1911443a5b0">DestroyGeometry</a> (uint32_t geometry_id) override</td></tr>
+<tr class="memdesc:ab7dd2c6aa9b84ef8ae84e1911443a5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy geometry.  <br /></td></tr>
+<tr class="separator:ab7dd2c6aa9b84ef8ae84e1911443a5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803ff2e4411bad82546880000cd58587" id="r_a803ff2e4411bad82546880000cd58587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803ff2e4411bad82546880000cd58587">UpdateCommandList</a> (const ultralight::CommandList &amp;list) override</td></tr>
+<tr class="memdesc:a803ff2e4411bad82546880000cd58587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill list of draw commands.  <br /></td></tr>
+<tr class="separator:a803ff2e4411bad82546880000cd58587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74a40216e1a7e938c2c60a9a5300c04" id="r_aa74a40216e1a7e938c2c60a9a5300c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74a40216e1a7e938c2c60a9a5300c04">BeginSynchronize</a> () override</td></tr>
 <tr class="memdesc:aa74a40216e1a7e938c2c60a9a5300c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin synchronization.  <br /></td></tr>
 <tr class="separator:aa74a40216e1a7e938c2c60a9a5300c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,11 +265,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a8731124e1973074d5833d775aeecec95" name="a8731124e1973074d5833d775aeecec95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8731124e1973074d5833d775aeecec95">&#9670;&#160;</a></span>CreateGeometry()</h2>
+<a id="a5f5f0c4cf6656b25284d467e7b781aeb" name="a5f5f0c4cf6656b25284d467e7b781aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f5f0c4cf6656b25284d467e7b781aeb">&#9670;&#160;</a></span>CreateGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::CreateGeometry </td>
@@ -287,17 +290,25 @@ Friends</h2></td></tr>
           <td class="paramtype">const ultralight::IndexBuffer &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Create geometry. </p>
 
 </div>
 </div>
-<a id="a81a17269db31d52c270c296d4ea377af" name="a81a17269db31d52c270c296d4ea377af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a17269db31d52c270c296d4ea377af">&#9670;&#160;</a></span>CreateRenderBuffer()</h2>
+<a id="a22ff1681a1f20e0d9a173903ac32276e" name="a22ff1681a1f20e0d9a173903ac32276e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22ff1681a1f20e0d9a173903ac32276e">&#9670;&#160;</a></span>CreateRenderBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::CreateRenderBuffer </td>
@@ -310,6 +321,11 @@ Friends</h2></td></tr>
           <td class="paramtype">const ultralight::RenderBuffer &amp;</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Create render target. </p>
@@ -347,11 +363,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cb3e7e25207f8a05682f7dd85c89182" name="a0cb3e7e25207f8a05682f7dd85c89182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cb3e7e25207f8a05682f7dd85c89182">&#9670;&#160;</a></span>DestroyGeometry()</h2>
+<a id="ab7dd2c6aa9b84ef8ae84e1911443a5b0" name="ab7dd2c6aa9b84ef8ae84e1911443a5b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7dd2c6aa9b84ef8ae84e1911443a5b0">&#9670;&#160;</a></span>DestroyGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::DestroyGeometry </td>
@@ -360,17 +379,25 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroy geometry. </p>
 
 </div>
 </div>
-<a id="af36c03d63a12f1f707954e3e868346a5" name="af36c03d63a12f1f707954e3e868346a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af36c03d63a12f1f707954e3e868346a5">&#9670;&#160;</a></span>DestroyRenderBuffer()</h2>
+<a id="afab2ec3aaaaeb758ed3a2f05cb7d90ac" name="afab2ec3aaaaeb758ed3a2f05cb7d90ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab2ec3aaaaeb758ed3a2f05cb7d90ac">&#9670;&#160;</a></span>DestroyRenderBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::DestroyRenderBuffer </td>
@@ -379,6 +406,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroy render target. </p>
@@ -462,11 +494,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a717b8253f88abfc3c7feb322a43f29fa" name="a717b8253f88abfc3c7feb322a43f29fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717b8253f88abfc3c7feb322a43f29fa">&#9670;&#160;</a></span>NextGeometryId()</h2>
+<a id="a905d94cc65b98e27a315d059c78e33e1" name="a905d94cc65b98e27a315d059c78e33e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a905d94cc65b98e27a315d059c78e33e1">&#9670;&#160;</a></span>NextGeometryId()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint32_t StaticUI::UltralightRenderer::NextGeometryId </td>
@@ -475,17 +510,25 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get next geometry. </p>
 
 </div>
 </div>
-<a id="aba906873e52933bf4923643f8d8b60e0" name="aba906873e52933bf4923643f8d8b60e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba906873e52933bf4923643f8d8b60e0">&#9670;&#160;</a></span>NextRenderBufferId()</h2>
+<a id="a51389236e7dc41d4984d19f39f8c7cad" name="a51389236e7dc41d4984d19f39f8c7cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51389236e7dc41d4984d19f39f8c7cad">&#9670;&#160;</a></span>NextRenderBufferId()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint32_t StaticUI::UltralightRenderer::NextRenderBufferId </td>
@@ -494,17 +537,25 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get next render buffer id. </p>
 
 </div>
 </div>
-<a id="a5ff1b317e6df2b0f6efb6fff9d8ded3f" name="a5ff1b317e6df2b0f6efb6fff9d8ded3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ff1b317e6df2b0f6efb6fff9d8ded3f">&#9670;&#160;</a></span>NextTextureId()</h2>
+<a id="a37d5cc27030f17c67ab62f41cb631326" name="a37d5cc27030f17c67ab62f41cb631326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37d5cc27030f17c67ab62f41cb631326">&#9670;&#160;</a></span>NextTextureId()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint32_t StaticUI::UltralightRenderer::NextTextureId </td>
@@ -513,6 +564,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get next texture. </p>
@@ -561,11 +617,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a45c2fc8e9c8ee90b296136d8a796b133" name="a45c2fc8e9c8ee90b296136d8a796b133"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45c2fc8e9c8ee90b296136d8a796b133">&#9670;&#160;</a></span>UpdateCommandList()</h2>
+<a id="a803ff2e4411bad82546880000cd58587" name="a803ff2e4411bad82546880000cd58587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a803ff2e4411bad82546880000cd58587">&#9670;&#160;</a></span>UpdateCommandList()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::UpdateCommandList </td>
@@ -574,17 +633,25 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Fill list of draw commands. </p>
 
 </div>
 </div>
-<a id="a82ba2c3db435138f468e1b2443a34f53" name="a82ba2c3db435138f468e1b2443a34f53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82ba2c3db435138f468e1b2443a34f53">&#9670;&#160;</a></span>UpdateGeometry()</h2>
+<a id="a03bb7c56f1c257dc7aeadf600b7a90dc" name="a03bb7c56f1c257dc7aeadf600b7a90dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03bb7c56f1c257dc7aeadf600b7a90dc">&#9670;&#160;</a></span>UpdateGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void StaticUI::UltralightRenderer::UpdateGeometry </td>
@@ -602,6 +669,11 @@ Friends</h2></td></tr>
           <td class="paramtype">const ultralight::IndexBuffer &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Update geometry. </p>
@@ -857,7 +929,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_static_u_i.html">StaticUI</a></li><li class="navelem"><a class="el" href="class_static_u_i_1_1_ultralight_renderer.html">UltralightRenderer</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:50:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

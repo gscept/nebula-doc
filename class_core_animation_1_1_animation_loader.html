@@ -110,9 +110,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ab58ece928c6d6c79bce0ae4f533fed4a" id="r_ab58ece928c6d6c79bce0ae4f533fed4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58ece928c6d6c79bce0ae4f533fed4a">InitializeResource</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream, bool immediate=false) override</td></tr>
 <tr class="memdesc:ab58ece928c6d6c79bce0ae4f533fed4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform actual load, override in subclass  <br /></td></tr>
 <tr class="separator:ab58ece928c6d6c79bce0ae4f533fed4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f89c97e4f681dfbba8b2a0f4272c9b" id="r_ac2f89c97e4f681dfbba8b2a0f4272c9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f89c97e4f681dfbba8b2a0f4272c9b">Unload</a> (const Resources::ResourceId id)</td></tr>
-<tr class="memdesc:ac2f89c97e4f681dfbba8b2a0f4272c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload resource  <br /></td></tr>
-<tr class="separator:ac2f89c97e4f681dfbba8b2a0f4272c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c5c3b40aee86ac76a6008993cbe6b3" id="r_a79c5c3b40aee86ac76a6008993cbe6b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79c5c3b40aee86ac76a6008993cbe6b3">Unload</a> (const Resources::ResourceId id) override</td></tr>
+<tr class="memdesc:a79c5c3b40aee86ac76a6008993cbe6b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload resource  <br /></td></tr>
+<tr class="separator:a79c5c3b40aee86ac76a6008993cbe6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -146,6 +146,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4ce8e1203f26fa0d87bfb6fb75999922 inherit pub_methods_class_resources_1_1_resource_loader" id="r_a4ce8e1203f26fa0d87bfb6fb75999922"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a4ce8e1203f26fa0d87bfb6fb75999922">DiscardByTag</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
 <tr class="memdesc:a4ce8e1203f26fa0d87bfb6fb75999922 inherit pub_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard all resources associated with a tag  <br /></td></tr>
 <tr class="separator:a4ce8e1203f26fa0d87bfb6fb75999922 inherit pub_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7133cd226a0e0d0bf108049064b4b472 inherit pub_methods_class_resources_1_1_resource_loader" id="r_a7133cd226a0e0d0bf108049064b4b472"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a7133cd226a0e0d0bf108049064b4b472">CreateListener</a> (const Resources::ResourceId res, std::function&lt; void(const Resources::ResourceId)&gt; success, std::function&lt; void(const Resources::ResourceId)&gt; failed)</td></tr>
+<tr class="memdesc:a7133cd226a0e0d0bf108049064b4b472 inherit pub_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new listener on resource.  <br /></td></tr>
+<tr class="separator:a7133cd226a0e0d0bf108049064b4b472 inherit pub_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee2dec1352f52c7ae9ffb4b231ff2a6 inherit pub_methods_class_resources_1_1_resource_loader" id="r_abee2dec1352f52c7ae9ffb4b231ff2a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#abee2dec1352f52c7ae9ffb4b231ff2a6">GetName</a> (const Resources::ResourceId id) const</td></tr>
 <tr class="memdesc:abee2dec1352f52c7ae9ffb4b231ff2a6 inherit pub_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">get resource name  <br /></td></tr>
 <tr class="separator:abee2dec1352f52c7ae9ffb4b231ff2a6 inherit pub_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,8 +402,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2f89c97e4f681dfbba8b2a0f4272c9b" name="ac2f89c97e4f681dfbba8b2a0f4272c9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2f89c97e4f681dfbba8b2a0f4272c9b">&#9670;&#160;</a></span>Unload()</h2>
+<a id="a79c5c3b40aee86ac76a6008993cbe6b3" name="a79c5c3b40aee86ac76a6008993cbe6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c5c3b40aee86ac76a6008993cbe6b3">&#9670;&#160;</a></span>Unload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,7 +420,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -462,7 +465,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_animation.html">CoreAnimation</a></li><li class="navelem"><a class="el" href="class_core_animation_1_1_animation_loader.html">AnimationLoader</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

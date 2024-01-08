@@ -1,5 +1,6 @@
 var mesh_8cc =
 [
+    [ "_IMPL_ACQUIRE_RELEASE", "mesh_8cc.html#a52312b97a3cd706c40cfc2504c99aa14", null ],
     [ "CreateMesh", "mesh_8cc.html#a905ddecc487f753f7e89fd1ab2759b01", null ],
     [ "DestroyMesh", "mesh_8cc.html#a5771bebf3b581511bcc6a8509e95110a", null ],
     [ "MeshBind", "mesh_8cc.html#a0ae21d98923c8146c58938babd0b0bef", null ],

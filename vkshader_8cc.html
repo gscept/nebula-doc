@@ -93,7 +93,7 @@ $(function(){initNavTree('vkshader_8cc.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">vkshader.cc File Reference</div></div>
@@ -113,19 +113,41 @@ $(function(){initNavTree('vkshader_8cc.html',''); initResizable(); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a1ec7b419ad97f9ea165bf3b9af7c93c0" id="r_a1ec7b419ad97f9ea165bf3b9af7c93c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec7b419ad97f9ea165bf3b9af7c93c0">uint_max</a>(a,  b)&#160;&#160;&#160;(a &gt; b ? a : b)</td></tr>
-<tr class="separator:a1ec7b419ad97f9ea165bf3b9af7c93c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a74f966241b06f18d7362ec77fee0a52b" id="r_a74f966241b06f18d7362ec77fee0a52b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52b">Vulkan::ShaderStages</a> { <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba3fa93367c1469bf17e499769044f10fb">Vulkan::VertexShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba8084f701294fab1a971d937a0dc80323">Vulkan::HullShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba64202385f32cf5b065408fb36806677c">Vulkan::DomainShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bae304b0614e05891079ca7a0f0a002142">Vulkan::GeometryShader</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baebabd1e4cb4dca842bfbb2e172bd70b3">Vulkan::PixelShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baf87fe190228b333e1b7f2bd27ba31668">Vulkan::ComputeShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baf3d0aa6accdd62bca0a3630cae408af4">Vulkan::TaskShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba5b1ae32162b19c41b8d0d8b767be7f95">Vulkan::MeshShader</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baff838ab70797e5f209e02342f443fef8">Vulkan::RayGenerationShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bad487c4b91b47bc274c3df16b0e826d41">Vulkan::RayAnyHitShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba1c4741ae673af0a4fdb2a490a2bec349">Vulkan::RayClosestHitShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baf0a57a7a6f9864ed1c7ced3f97e50495">Vulkan::RayMissShader</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba05d3e8a67c8e33ae2cbbaf328fc87593">Vulkan::RayIntersectionShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba6922439958eb71f78717833d7fa0374c">Vulkan::CallableShader</a>
+, <a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bab184a3fe081692db7d23d36179dd666b">Vulkan::NumShaders</a>
+<br />
+ }</td></tr>
+<tr class="separator:a74f966241b06f18d7362ec77fee0a52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a3c7fa14c0559e365ef6846d577a9b499" id="r_a3c7fa14c0559e365ef6846d577a9b499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a3c7fa14c0559e365ef6846d577a9b499">Vulkan::UpdateOccupancy</a> (uint32_t *occupancyList, uint32_t &amp;slotsUsed, const <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> vis)</td></tr>
+<tr class="separator:a3c7fa14c0559e365ef6846d577a9b499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aeae7e97e9a1e829732eb8f179685b7" id="r_a5aeae7e97e9a1e829732eb8f179685b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a5aeae7e97e9a1e829732eb8f179685b7">Vulkan::ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, const VkPhysicalDeviceProperties props, AnyFX::ShaderEffect *effect, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
 <tr class="memdesc:a5aeae7e97e9a1e829732eb8f179685b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">create descriptor set layout  <br /></td></tr>
 <tr class="separator:a5aeae7e97e9a1e829732eb8f179685b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,31 +265,9 @@ Variables</h2></td></tr>
 <tr class="separator:ac0aa110716e3b1d8895884f437899107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9082a05116971436ae8abc11368f9941" id="r_a9082a05116971436ae8abc11368f9941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, VkDescriptorSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a9082a05116971436ae8abc11368f9941">Vulkan::VkShaderDescriptorSetCache</a></td></tr>
 <tr class="separator:a9082a05116971436ae8abc11368f9941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af27b9b36ca12e885d7df00e6c1a0e5bc" id="r_af27b9b36ca12e885d7df00e6c1a0e5bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#aaca65622edf827425b4a8f005dc74990">ShaderAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc">Vulkan::shaderAlloc</a></td></tr>
+<tr class="memitem:af27b9b36ca12e885d7df00e6c1a0e5bc" id="r_af27b9b36ca12e885d7df00e6c1a0e5bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a603853419d77ab846c328e8b2944db16">ShaderAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc">Vulkan::shaderAlloc</a></td></tr>
 <tr class="separator:af27b9b36ca12e885d7df00e6c1a0e5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a1ec7b419ad97f9ea165bf3b9af7c93c0" name="a1ec7b419ad97f9ea165bf3b9af7c93c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec7b419ad97f9ea165bf3b9af7c93c0">&#9670;&#160;</a></span>uint_max</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define uint_max</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">a, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">b</span>&#160;)&#160;&#160;&#160;(a &gt; b ? a : b)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -275,7 +275,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkshader_8cc.html">vkshader.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

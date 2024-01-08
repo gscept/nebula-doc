@@ -2,7 +2,7 @@ var class_models_1_1_character_node =
 [
     [ "CharacterNode", "class_models_1_1_character_node.html#a0c793f2cc66eb8ca074c368034e06389", null ],
     [ "~CharacterNode", "class_models_1_1_character_node.html#a5e5b8b853a450e116bc13d5c0cd2b27d", null ],
-    [ "Discard", "class_models_1_1_character_node.html#ac9964f9e84ffe575d8a961d57c561ac0", null ],
+    [ "Discard", "class_models_1_1_character_node.html#a1cc37f95b3fca71c62d94e29b53074fe", null ],
     [ "GetAnimationResourceId", "class_models_1_1_character_node.html#aee11f23331ef0295d8d254613e536a53", null ],
     [ "GetAnimResource", "class_models_1_1_character_node.html#a0e99a2643264e4d744c4b223f90a9630", null ],
     [ "GetImplicitHierarchyActivation", "class_models_1_1_character_node.html#a6e22110df427ae2b3789f4046e611529", null ],

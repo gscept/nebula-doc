@@ -102,7 +102,6 @@ $(function(){initNavTree('mesh_8h.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="render_2coregraphics_2config_8h_source.html">coregraphics/config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceid_8h_source.html">resources/resourceid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="graphicsdevice_8h_source.html">graphicsdevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="buffer_8h_source.html">coregraphics/buffer.h</a>&quot;</code><br />
@@ -113,6 +112,8 @@ $(function(){initNavTree('mesh_8h.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_vertex_stream.html">CoreGraphics::VertexStream</a></td></tr>
@@ -126,7 +127,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -136,10 +137,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa5f03851c3b867f098f4aec9af088b34" id="r_aa5f03851c3b867f098f4aec9af088b34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a55cd02f893b74c257ed85f33306bff0c">CoreGraphics::Mesh_Name</a>
-, <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34af2ed58da9e08ae25d417feef7d04a579">CoreGraphics::Mesh_Internals</a>
+<tr class="memitem:aa16912a5a5af45ad1d9dc340bf934604" id="r_aa16912a5a5af45ad1d9dc340bf934604"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_core_graphics.html#aa16912a5a5af45ad1d9dc340bf934604a55cd02f893b74c257ed85f33306bff0c">CoreGraphics::Mesh_Name</a>
+, <a class="el" href="namespace_core_graphics.html#aa16912a5a5af45ad1d9dc340bf934604af2ed58da9e08ae25d417feef7d04a579">CoreGraphics::Mesh_Internals</a>
  }</td></tr>
-<tr class="separator:aa5f03851c3b867f098f4aec9af088b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aa16912a5a5af45ad1d9dc340bf934604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -192,7 +193,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="mesh_8h.html">mesh.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

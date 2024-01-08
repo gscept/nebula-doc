@@ -28,7 +28,6 @@ var class_dynui_1_1_imgui_console =
     [ "cmdMode", "class_dynui_1_1_imgui_console.html#a77938936faedb6a41473826bcf946618", null ],
     [ "command", "class_dynui_1_1_imgui_console.html#a7b0a20a973d16d7f7871f22b2a190ae6", null ],
     [ "consoleBuffer", "class_dynui_1_1_imgui_console.html#a240aa037ee64412b355fd9454b7e4c6c", null ],
-    [ "moveScroll", "class_dynui_1_1_imgui_console.html#a526f599cd09076f9ba11f25dab3d6297", null ],
     [ "persistentHistory", "class_dynui_1_1_imgui_console.html#aac62c4fb749585cc94aca7d97caa610b", null ],
     [ "previousCommandIndex", "class_dynui_1_1_imgui_console.html#aaabf0da98a27a02ae3b56901748a2ebe", null ],
     [ "previousCommands", "class_dynui_1_1_imgui_console.html#a6ec1f82f90da09cc06347c1526b154da", null ],

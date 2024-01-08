@@ -779,7 +779,7 @@ $(function(){initNavTree('vec3_8h_source.html',''); initResizable(); });
 <div class="foldopen" id="foldopen00717" data-start="{" data-end="}">
 <div class="line"><a id="l00717" name="l00717"></a><span class="lineno"><a class="line" href="namespace_math.html#a9eb26438d9ae3795536e94d45100ede4">  717</a></span><a class="code hl_function" href="namespace_math.html#adb380ded5fbb94e84a0a86e47ff3983a">nearequal</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v0, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v1, <span class="keywordtype">float</span> epsilon)</div>
 <div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>{</div>
-<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    __m128 eps = _mm_set_ps(epsilon, epsilon, epsilon, 0.0f);</div>
+<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    __m128 eps = _mm_setr_ps(epsilon, epsilon, epsilon, 0.0f);</div>
 <div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>    __m128 delta = _mm_sub_ps(v0.<a class="code hl_variable" href="struct_math_1_1vec3.html#abafdbfdf08884c0a6a6cb38ecad35c9d">vec</a>, v1.<a class="code hl_variable" href="struct_math_1_1vec3.html#abafdbfdf08884c0a6a6cb38ecad35c9d">vec</a>);</div>
 <div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>    __m128 temp = _mm_setzero_ps();</div>
 <div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    temp = _mm_sub_ps(temp, delta);</div>
@@ -793,7 +793,7 @@ $(function(){initNavTree('vec3_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>__forceinline <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00733" data-start="{" data-end="}">
-<div class="line"><a id="l00733" name="l00733"></a><span class="lineno"><a class="line" href="namespace_math.html#a208f297e71e29e78afe797265c43d904">  733</a></span><a class="code hl_function" href="namespace_math.html#adb380ded5fbb94e84a0a86e47ff3983a">nearequal</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v0, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v1, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp;  epsilon)</div>
+<div class="line"><a id="l00733" name="l00733"></a><span class="lineno"><a class="line" href="namespace_math.html#a208f297e71e29e78afe797265c43d904">  733</a></span><a class="code hl_function" href="namespace_math.html#adb380ded5fbb94e84a0a86e47ff3983a">nearequal</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v0, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; v1, <span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">vec3</a>&amp; epsilon)</div>
 <div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>{</div>
 <div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span>    __m128 delta = _mm_sub_ps(v0.<a class="code hl_variable" href="struct_math_1_1vec3.html#abafdbfdf08884c0a6a6cb38ecad35c9d">vec</a>, v1.<a class="code hl_variable" href="struct_math_1_1vec3.html#abafdbfdf08884c0a6a6cb38ecad35c9d">vec</a>);</div>
 <div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>    __m128 temp = _mm_setzero_ps();</div>
@@ -1057,7 +1057,7 @@ $(function(){initNavTree('vec3_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="vec3_8h.html">vec3.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

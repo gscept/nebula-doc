@@ -18,6 +18,7 @@ var struct_math_1_1mat4 =
     [ "set", "struct_math_1_1mat4.html#ac2cf58a9ff3395a8d29bd9eb767000e2", null ],
     [ "set", "struct_math_1_1mat4.html#a5f99882d5dcd597fed49cf33372f6eae", null ],
     [ "store", "struct_math_1_1mat4.html#ab24b6e0f32ad254c90a755ab5d99396d", null ],
+    [ "store3", "struct_math_1_1mat4.html#a700e33e4d80569c05aa441c6aef856e4", null ],
     [ "storeu", "struct_math_1_1mat4.html#ae860250db7ebf413d3661481583c0056", null ],
     [ "stream", "struct_math_1_1mat4.html#a4ac9aeaf1c79c55cbfa8f68e92dd171b", null ],
     [ "translate", "struct_math_1_1mat4.html#ade552cb8ce2346e82c4164146240ffba", null ],

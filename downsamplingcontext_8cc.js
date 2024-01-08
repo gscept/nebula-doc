@@ -18,6 +18,6 @@ var downsamplingcontext_8cc =
     [ "extractProgram", "downsamplingcontext_8cc.html#aa5149c747490e2f66a483c9da4d55e9e", null ],
     [ "extractResourceTable", "downsamplingcontext_8cc.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b", null ],
     [ "extractShader", "downsamplingcontext_8cc.html#a0bc5995084efe75d05e1a46ae562f035", null ],
-    [ "state", "downsamplingcontext_8cc.html#aa41559e6030e5618976429e0a0f3a37a", null ],
+    [ "state", "downsamplingcontext_8cc.html#a5e55badc2cbbed5320a14499a04eec2e", null ],
     [ "zbuffer", "downsamplingcontext_8cc.html#ab474762951b4df8269e0f9c56585187c", null ]
 ];

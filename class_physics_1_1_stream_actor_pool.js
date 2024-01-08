@@ -6,7 +6,7 @@ var class_physics_1_1_stream_actor_pool =
     [ "CreateActorInstance", "class_physics_1_1_stream_actor_pool.html#a4cf5d01c916df531ea48bd2eacee9917", null ],
     [ "DiscardActorInstance", "class_physics_1_1_stream_actor_pool.html#a6ce8b2aae06c0d48fd0d700a246cb435", null ],
     [ "InitializeResource", "class_physics_1_1_stream_actor_pool.html#a0302c0cc8ff5e93500c95ca4e4193865", null ],
-    [ "Setup", "class_physics_1_1_stream_actor_pool.html#ad286ff4628107081f40cf24940e79639", null ],
-    [ "Unload", "class_physics_1_1_stream_actor_pool.html#afff87a247b91f93510b095682b3d5165", null ],
+    [ "Setup", "class_physics_1_1_stream_actor_pool.html#ac599672e3cb472b2ba772808e16a18ae", null ],
+    [ "Unload", "class_physics_1_1_stream_actor_pool.html#a17c96afce0f2d450d7539272f6a77753", null ],
     [ "allocator", "class_physics_1_1_stream_actor_pool.html#a1f14ea87eed9945b8f418b4d337fb44d", null ]
 ];

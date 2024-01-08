@@ -15,6 +15,5 @@ var class_terrain_1_1_texture_tile_cache =
     [ "nodes", "class_terrain_1_1_texture_tile_cache.html#a6f8f0091841e750c50e9d805d95b4878", null ],
     [ "tail", "class_terrain_1_1_texture_tile_cache.html#a88e1bc702cf092c10e1fc523a258e2e2", null ],
     [ "tiles", "class_terrain_1_1_texture_tile_cache.html#a70028da0451edff32ee07048f0e618a1", null ],
-    [ "tileSize", "class_terrain_1_1_texture_tile_cache.html#a0c6d1a553c3e97756bf620e542765bd8", null ],
-    [ "usedNodes", "class_terrain_1_1_texture_tile_cache.html#a97cc6d8114680f11e20ba67e821b347a", null ]
+    [ "tileSize", "class_terrain_1_1_texture_tile_cache.html#a0c6d1a553c3e97756bf620e542765bd8", null ]
 ];

@@ -14,6 +14,7 @@ var dir_3efd1eb2182038baf5731b057d5f9c3b =
     [ "blob.h", "blob_8h.html", "blob_8h" ],
     [ "commandlineargs.cc", "commandlineargs_8cc.html", null ],
     [ "commandlineargs.h", "commandlineargs_8h.html", "commandlineargs_8h" ],
+    [ "compilerhelper.h", "compilerhelper_8h.html", "compilerhelper_8h" ],
     [ "crc.cc", "crc_8cc.html", null ],
     [ "crc.h", "crc_8h.html", "crc_8h" ],
     [ "delegate.h", "delegate_8h.html", "delegate_8h" ],

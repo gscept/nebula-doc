@@ -3,6 +3,7 @@ var shader_8h =
     [ "CoreGraphics::ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
     [ "CoreGraphics::DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
     [ "CoreGraphics::ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", "struct_core_graphics_1_1_shader_create_info" ],
+    [ "CoreGraphics::RayTracingBits", "union_core_graphics_1_1_ray_tracing_bits.html", "union_core_graphics_1_1_ray_tracing_bits" ],
     [ "ShaderConstantType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0e", [
       [ "UnknownVariableType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea29e862b0e756c9b941969e7d9bfd83fd", null ],
       [ "IntVariableType", "shader_8h.html#ae31deee4c7320b0c63dd787789cb7e0ea8c15fb943cebbcd1a4cf5fc905416d06", null ],
@@ -54,5 +55,6 @@ var shader_8h =
     [ "ShaderGetResourceSlot", "shader_8h.html#afd7d2a5e3c1622da4fda6ab53b9646f1", null ],
     [ "ShaderGetResourceTableLayout", "shader_8h.html#aed86a5f967a8dc018ebe208afbbf0a49", null ],
     [ "ShaderHasResourceTable", "shader_8h.html#a63dd47698408af8d684a3b42a9303ece", null ],
-    [ "ShaderProgramGetName", "shader_8h.html#ac150ec480ba3a5a62913bd15336e4ead", null ]
+    [ "ShaderProgramGetName", "shader_8h.html#ac150ec480ba3a5a62913bd15336e4ead", null ],
+    [ "ShaderProgramGetRaytracingBits", "shader_8h.html#a2ec1ad8565cd6d6c1f654fee95dc03ba", null ]
 ];

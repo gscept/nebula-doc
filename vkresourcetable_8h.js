@@ -7,7 +7,8 @@ var vkresourcetable_8h =
     [ "WriteType", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1e", [
       [ "Image", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08", null ],
       [ "Buffer", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1ea7e62bc342f41c946868f0ea6f0b712d8", null ],
-      [ "TexelBuffer", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9", null ]
+      [ "TexelBuffer", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9", null ],
+      [ "Tlas", "vkresourcetable_8h.html#a3c80e942c4c9c4bf6a0587f0c943db1ea159b7297adfa3bdbf93deb23251705aa", null ]
     ] ],
     [ "ResourcePipelineGetVk", "vkresourcetable_8h.html#adb83f709431b67608caf696ad579ec03", null ],
     [ "ResourceTableGetVkDescriptorSet", "vkresourcetable_8h.html#abfe88f9b8133c042f7937fb289487873", null ],

@@ -121,7 +121,7 @@ $(function(){initNavTree('framebarrier_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#ad5c22906da7f7578a898754551d49f68">Run</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#a2ee16b9445624855cb726e84c9b90c1d">Discard</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#aa0c0866eace126eb216c4bfcee80de43">Discard</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    };</div>
 </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
@@ -142,9 +142,9 @@ $(function(){initNavTree('framebarrier_8h_source.html',''); initResizable(); });
 <div class="ttc" id="aframeop_8h_html"><div class="ttname"><a href="frameop_8h.html">frameop.h</a></div></div>
 <div class="ttc" id="anamespace_frame_html"><div class="ttname"><a href="namespace_frame.html">Frame</a></div><div class="ttdoc">ImGUI debug interface for inspecting frame scripts.</div><div class="ttdef"><b>Definition</b> shaderserverbase.h:52</div></div>
 <div class="ttc" id="arender_2coregraphics_2barrier_8h_html"><div class="ttname"><a href="render_2coregraphics_2barrier_8h.html">barrier.h</a></div></div>
-<div class="ttc" id="astruct_core_graphics_1_1_cmd_buffer_id_html"><div class="ttname"><a href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></div><div class="ttdef"><b>Definition</b> commandbuffer.h:143</div></div>
+<div class="ttc" id="astruct_core_graphics_1_1_cmd_buffer_id_html"><div class="ttname"><a href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></div><div class="ttdef"><b>Definition</b> commandbuffer.h:148</div></div>
 <div class="ttc" id="astruct_frame_1_1_frame_barrier_1_1_compiled_impl_html"><div class="ttname"><a href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html">Frame::FrameBarrier::CompiledImpl</a></div><div class="ttdef"><b>Definition</b> framebarrier.h:23</div></div>
-<div class="ttc" id="astruct_frame_1_1_frame_barrier_1_1_compiled_impl_html_a2ee16b9445624855cb726e84c9b90c1d"><div class="ttname"><a href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#a2ee16b9445624855cb726e84c9b90c1d">Frame::FrameBarrier::CompiledImpl::Discard</a></div><div class="ttdeci">void Discard()</div><div class="ttdoc">Discard operation.</div><div class="ttdef"><b>Definition</b> framebarrier.cc:56</div></div>
+<div class="ttc" id="astruct_frame_1_1_frame_barrier_1_1_compiled_impl_html_aa0c0866eace126eb216c4bfcee80de43"><div class="ttname"><a href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#aa0c0866eace126eb216c4bfcee80de43">Frame::FrameBarrier::CompiledImpl::Discard</a></div><div class="ttdeci">void Discard() override</div><div class="ttdoc">Discard operation.</div><div class="ttdef"><b>Definition</b> framebarrier.cc:56</div></div>
 <div class="ttc" id="astruct_frame_1_1_frame_barrier_1_1_compiled_impl_html_ad5c22906da7f7578a898754551d49f68"><div class="ttname"><a href="struct_frame_1_1_frame_barrier_1_1_compiled_impl.html#ad5c22906da7f7578a898754551d49f68">Frame::FrameBarrier::CompiledImpl::Run</a></div><div class="ttdeci">void Run(const CoreGraphics::CmdBufferId cmdBuf, const IndexT frameIndex, const IndexT bufferIndex) override</div><div class="ttdoc">running does nothing</div><div class="ttdef"><b>Definition</b> framebarrier.cc:47</div></div>
 <div class="ttc" id="astruct_frame_1_1_frame_op_1_1_compiled_html"><div class="ttname"><a href="struct_frame_1_1_frame_op_1_1_compiled.html">Frame::FrameOp::Compiled</a></div><div class="ttdef"><b>Definition</b> frameop.h:76</div></div>
 <div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
@@ -155,7 +155,7 @@ $(function(){initNavTree('framebarrier_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_566fb58dda2ca15cae9b00ab032b80fc.html">frame</a></li><li class="navelem"><a class="el" href="framebarrier_8h.html">framebarrier.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

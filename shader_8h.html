@@ -124,14 +124,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_shader_create_info.html">CoreGraphics::ShaderCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_core_graphics_1_1_ray_tracing_bits.html">CoreGraphics::RayTracingBits</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shader program raytracing bits.  <a href="union_core_graphics_1_1_ray_tracing_bits.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_any_f_x" id="r_namespace_any_f_x"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_any_f_x.html">AnyFX</a></td></tr>
-<tr class="memdesc:namespace_any_f_x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements a shader effect (using <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a>) in <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>. <br /></td></tr>
+<tr class="memdesc:namespace_any_f_x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements a shader effect (using <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a>) in <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -265,6 +268,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aaad0187d0733d4a848462494aa327a2f" id="r_aaad0187d0733d4a848462494aa327a2f"><td class="memItemLeft" align="right" valign="top">const CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aaad0187d0733d4a848462494aa327a2f">CoreGraphics::ShaderGetProgram</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a> mask)</td></tr>
 <tr class="memdesc:aaad0187d0733d4a848462494aa327a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get shader program id from masks, this allows us to apply a shader program directly in the future  <br /></td></tr>
 <tr class="separator:aaad0187d0733d4a848462494aa327a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec1ad8565cd6d6c1f654fee95dc03ba" id="r_a2ec1ad8565cd6d6c1f654fee95dc03ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_core_graphics_1_1_ray_tracing_bits.html">RayTracingBits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2ec1ad8565cd6d6c1f654fee95dc03ba">CoreGraphics::ShaderProgramGetRaytracingBits</a> (const ShaderProgramId id)</td></tr>
+<tr class="separator:a2ec1ad8565cd6d6c1f654fee95dc03ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -273,7 +278,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="shader_8h.html">shader.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

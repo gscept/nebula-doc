@@ -100,7 +100,7 @@ $(function(){initNavTree('resourcetable_8h.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A resource table declares a list of resources (ResourceTable in DX12, DescriptorSet in <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a>) </p>
+<div class="textblock"><p>A resource table declares a list of resources (ResourceTable in DX12, DescriptorSet in <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>) </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idpool_8h_source.html">ids/idpool.h</a>&quot;</code><br />
@@ -108,6 +108,7 @@ $(function(){initNavTree('resourcetable_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="textureview_8h_source.html">textureview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="buffer_8h_source.html">buffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sampler_8h_source.html">sampler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="accelerationstructure_8h_source.html">accelerationstructure.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="render_2coregraphics_2config_8h_source.html">coregraphics/config.h</a>&quot;</code><br />
 </div>
 <p><a href="resourcetable_8h_source.html">Go to the source code of this file.</a></p>
@@ -121,6 +122,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_constant_buffer.html">CoreGraphics::ResourceTableLayoutConstantBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_shader_r_w_buffer.html">CoreGraphics::ResourceTableLayoutShaderRWBuffer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_acceleration_structure.html">CoreGraphics::ResourceTableLayoutAccelerationStructure</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_sampler.html">CoreGraphics::ResourceTableLayoutSampler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +143,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_sampler.html">CoreGraphics::ResourceTableSampler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_tlas.html">CoreGraphics::ResourceTableTlas</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_create_info.html">CoreGraphics::ResourceTableCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a></td></tr>
@@ -155,7 +160,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -199,6 +204,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aafcb2f9f8c926cf3bbf152258ac817a9" id="r_aafcb2f9f8c926cf3bbf152258ac817a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aafcb2f9f8c926cf3bbf152258ac817a9">CoreGraphics::ResourceTableSetSampler</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> id, const <a class="el" href="struct_core_graphics_1_1_resource_table_sampler.html">ResourceTableSampler</a> &amp;samp)</td></tr>
 <tr class="memdesc:aafcb2f9f8c926cf3bbf152258ac817a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">set resource table sampler  <br /></td></tr>
 <tr class="separator:aafcb2f9f8c926cf3bbf152258ac817a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472edb403935e82680f765383e9cba36" id="r_a472edb403935e82680f765383e9cba36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a472edb403935e82680f765383e9cba36">CoreGraphics::ResourceTableSetAccelerationStructure</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> id, const <a class="el" href="struct_core_graphics_1_1_resource_table_tlas.html">ResourceTableTlas</a> &amp;tlas)</td></tr>
+<tr class="memdesc:a472edb403935e82680f765383e9cba36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set resource table acceleration structure.  <br /></td></tr>
+<tr class="separator:a472edb403935e82680f765383e9cba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef0bd106bf7c0270173038aaa2b87320" id="r_aef0bd106bf7c0270173038aaa2b87320"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aef0bd106bf7c0270173038aaa2b87320">CoreGraphics::ResourceTableCopy</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> from, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromSlot, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromIndex, const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a> to, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toSlot, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toIndex, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numResources)</td></tr>
 <tr class="memdesc:aef0bd106bf7c0270173038aaa2b87320"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy resources from a slot, index and array size between resource tables  <br /></td></tr>
 <tr class="separator:aef0bd106bf7c0270173038aaa2b87320"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,7 +239,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="resourcetable_8h.html">resourcetable.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

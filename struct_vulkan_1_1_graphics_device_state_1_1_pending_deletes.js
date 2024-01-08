@@ -1,6 +1,7 @@
 var struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes =
 [
-    [ "allocs", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#acbd8da366ef06f46d0226aa78f211e60", null ],
+    [ "allocs", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a1490dbc758c07b94758e9dce6f053d05", null ],
+    [ "ases", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a68f62c4884a8e6b71e067efee6aa7944", null ],
     [ "buffers", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#afe6d62e00b3432c47f110e870049b40b", null ],
     [ "commandBuffers", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a259028222628ea75ed3ed9a170328dea", null ],
     [ "passes", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a6abb62df116e835931ee5a9831eebfec", null ],

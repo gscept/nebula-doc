@@ -8,7 +8,7 @@ var vkshader_8h =
     [ "Vulkan::VkReflectionInfo::UniformBuffer", "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html", "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer" ],
     [ "Vulkan::VkReflectionInfo::Variable", "struct_vulkan_1_1_vk_reflection_info_1_1_variable.html", "struct_vulkan_1_1_vk_reflection_info_1_1_variable" ],
     [ "ProgramMap", "vkshader_8h.html#a4911b73a420d87e53830ce523726c2e8", null ],
-    [ "ShaderAllocator", "vkshader_8h.html#aaca65622edf827425b4a8f005dc74990", null ],
+    [ "ShaderAllocator", "vkshader_8h.html#a603853419d77ab846c328e8b2944db16", null ],
     [ "UniformBufferGroupMap", "vkshader_8h.html#ac085a0e972264d80b34b313fb49e92ca", null ],
     [ "UniformBufferMap", "vkshader_8h.html#ae51c44637f4efaa072fa1a845da70a3a", null ],
     [ "ShaderCleanup", "vkshader_8h.html#ada6b41628d323ccc9ff149bd8bf1a794", null ],

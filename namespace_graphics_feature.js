@@ -8,6 +8,6 @@ var namespace_graphics_feature =
     [ "__ImplementSingleton", "namespace_graphics_feature.html#ae659d32c6ca4c3b6bc369fbb73bd3d9a", null ],
     [ "__ImplementSingleton", "namespace_graphics_feature.html#a9b5405c82f735ab6d7af8ec95db2d75b", null ],
     [ "__ImplementSingleton", "namespace_graphics_feature.html#a62012029d73a813f22b98257dc7cc9d5", null ],
-    [ "RegisterModelEntity", "namespace_graphics_feature.html#ae5f1f7d3e50410a3c45920b060cebd58", null ],
+    [ "RegisterModelEntity", "namespace_graphics_feature.html#ab111220f5e6174cb01e17871807cd422", null ],
     [ "UpdateCameraSettings", "namespace_graphics_feature.html#ad63588a7f122e271f3464ef574315be0", null ]
 ];

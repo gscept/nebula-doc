@@ -102,7 +102,7 @@ $(function(){initNavTree('render_2coregraphics_2config_8h.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Compile time configuration options for the <a class="el" href="namespace_core_graphics.html" title="A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurre...">CoreGraphics</a> subsystem. </p>
+<div class="textblock"><p>Compile time configuration options for the <a class="el" href="namespace_core_graphics.html" title="Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH.">CoreGraphics</a> subsystem. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2007 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="string_8h_source.html">util/string.h</a>&quot;</code><br />
@@ -118,7 +118,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -205,7 +205,12 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934faccd139d666dd15fa5dbe9f91dfe06c50">CoreGraphics::MaterialIdType</a>
 , <a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa56f4f313f32b993fe044682a4e29f230">CoreGraphics::SubmissionContextIdType</a>
+, <a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fa5a9189b532f096c1ce9007d5e46d15c2">CoreGraphics::PipelineIdType</a>
 , <a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934faa71196b34282074f1aec83be82dbea2e">CoreGraphics::ImageIdType</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fab67893b0c7ae4ed609a246245cc77599">CoreGraphics::BlasIdType</a>
+, <a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934faeb0432ac7123225ee36654197e4f7bbf">CoreGraphics::BlasInstanceIdType</a>
+, <a class="el" href="namespace_core_graphics.html#a4f8c377755ce15937e6b215f910f934fad1564d6af57dd01e40e35634fcc058ca">CoreGraphics::TlasIdType</a>
 <br />
  }</td></tr>
 <tr class="separator:a4f8c377755ce15937e6b215f910f934f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,9 +240,19 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a933b895dda759e0edfb669a478ccab8f">CoreGraphics::GeometryShaderVisibility</a> = 1 &lt;&lt; 4
 , <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1ad60048a0414e229a14b883d760c00f92">CoreGraphics::PixelShaderVisibility</a> = 1 &lt;&lt; 5
 , <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a04e9670495d34ff8335b79a32f368893">CoreGraphics::AllGraphicsVisibility</a> = VertexShaderVisibility | HullShaderVisibility | DomainShaderVisibility | GeometryShaderVisibility | PixelShaderVisibility
-, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a429a14021402d42e1831d86f3678a8b9">CoreGraphics::ComputeShaderVisibility</a> = 1 &lt;&lt; 6
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a4e0c41de52bf027eb7f8031a33199ddd">CoreGraphics::TaskShaderVisibility</a> = 1 &lt;&lt; 6
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1aca62b07063d9b6bee314bc9926913d29">CoreGraphics::AllVisibility</a> = VertexShaderVisibility | HullShaderVisibility | DomainShaderVisibility | GeometryShaderVisibility | PixelShaderVisibility | ComputeShaderVisibility
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a6971c01f1d47a4c932e1abc83146fc42">CoreGraphics::MeshShaderVisibility</a> = 1 &lt;&lt; 7
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a429a14021402d42e1831d86f3678a8b9">CoreGraphics::ComputeShaderVisibility</a> = 1 &lt;&lt; 8
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a2db3eacc1a32a6e9a78584cb929896f0">CoreGraphics::RayGenerationShaderVisibility</a> = 1 &lt;&lt; 9
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a8f10f0932da378ea3b2e8d36e3c79f39">CoreGraphics::RayAnyHitShaderVisibility</a> = 1 &lt;&lt; 10
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1aa55d111e047932c7188953622f1be238">CoreGraphics::RayClosestHitShaderVisibility</a> = 1 &lt;&lt; 11
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a2b65e38c87e53209e79f5c9552daab09">CoreGraphics::RayMissShaderVisibility</a> = 1 &lt;&lt; 12
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a94ad86dbe23b3f8db45ea1d4e358adb9">CoreGraphics::RayIntersectionShaderVisibility</a> = 1 &lt;&lt; 13
+, <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a7ea99820329ef07a9523b702996229ea">CoreGraphics::CallableShaderVisibility</a> = 1 &lt;&lt; 14
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1aca62b07063d9b6bee314bc9926913d29">CoreGraphics::AllVisibility</a> = (1 &lt;&lt; 15) - 1
 <br />
  }</td></tr>
 <tr class="separator:a79e2fcd3e595161a663854b90154fcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +288,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:abae9cceb5c5bb86ed89f84d3d3a8c8ee" id="r_abae9cceb5c5bb86ed89f84d3d3a8c8ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8ee">CoreGraphics::ShaderPipeline</a> { <a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397">CoreGraphics::InvalidPipeline</a>
 , <a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69">CoreGraphics::GraphicsPipeline</a>
 , <a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274">CoreGraphics::ComputePipeline</a>
+, <a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeafe56d4cdb0de51fd2a4d4677068dd630">CoreGraphics::RayTracingPipeline</a>
  }</td></tr>
 <tr class="separator:abae9cceb5c5bb86ed89f84d3d3a8c8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae711b5fe9f98259c9a86e455b15a7826" id="r_ae711b5fe9f98259c9a86e455b15a7826"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> { <a class="el" href="namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826a4cc6684df7b4a92b1dec6fce3264fac8">CoreGraphics::Global</a>
@@ -317,13 +333,23 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aa7419f15f4d15322a98d29734b8e48b4">CoreGraphics::DepthStencilRead</a>
 , <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aaab1a48a275c112d160f5b28d0d3a123">CoreGraphics::DepthStencilWrite</a>
-, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ab6a2d4a47c5bb061f68fb2e819f5d6b2">CoreGraphics::TransferRead</a>
-, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147af30a8160b082d15b6c85b9840f488d72">CoreGraphics::TransferWrite</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ae297f0a3fc7cf515895f4b3813771b78">CoreGraphics::RayTracingShaderRead</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a881126107bc9381df5239decb6e2cdfd">CoreGraphics::RayTracingShaderWrite</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aa43bd7aae3f6e001a2ee1490421f8d90">CoreGraphics::HostRead</a>
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a3bad36420fcbefe3d9a66ca375edcd75">CoreGraphics::TaskShaderRead</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a58601f74ee29825fc546940ea2b94eaf">CoreGraphics::TaskShaderWrite</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147adc30d9f512a04a16072641fe41417b2c">CoreGraphics::MeshShaderRead</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a420b09ef2561c4edc52029130348ad18">CoreGraphics::MeshShaderWrite</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ab6a2d4a47c5bb061f68fb2e819f5d6b2">CoreGraphics::TransferRead</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147af30a8160b082d15b6c85b9840f488d72">CoreGraphics::TransferWrite</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147aa43bd7aae3f6e001a2ee1490421f8d90">CoreGraphics::HostRead</a>
 , <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a509b9f909831ef70e6c1ec59a3b340e9">CoreGraphics::HostWrite</a>
-, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a575da5d1d4109b111267b2e044af2aad">CoreGraphics::MemoryRead</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a575da5d1d4109b111267b2e044af2aad">CoreGraphics::MemoryRead</a>
 , <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a5e932342aab40efaef1a503864403168">CoreGraphics::MemoryWrite</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a470eddf274f59be3dc87320132cdca1f">CoreGraphics::AccelerationStructureRead</a>
+, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147abf5ec6d1b05ef959b72ae89ca04b7f30">CoreGraphics::AccelerationStructureWrite</a>
 , <br />
 &#160;&#160;<a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a7aa4ae6050685ce8fb6df42f267b4d32">CoreGraphics::ImageInitial</a>
 , <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147add058df87f5c88e3285a28ad7406a3c6">CoreGraphics::Present</a>
@@ -610,7 +636,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="render_2coregraphics_2config_8h.html">config.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

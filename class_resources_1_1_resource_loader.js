@@ -15,6 +15,7 @@ var class_resources_1_1_resource_loader =
     [ "ResourceLoader", "class_resources_1_1_resource_loader.html#a65c3c0ef0a3f49120507d39893cf14a3", null ],
     [ "~ResourceLoader", "class_resources_1_1_resource_loader.html#abe438d292b37d8083ce13d14f5ce25d8", null ],
     [ "__DeclareAbstractClass", "class_resources_1_1_resource_loader.html#a185f572fd014ef551e2cfbf63ee48bf7", null ],
+    [ "CreateListener", "class_resources_1_1_resource_loader.html#a7133cd226a0e0d0bf108049064b4b472", null ],
     [ "CreateResource", "class_resources_1_1_resource_loader.html#aa31abf14a7057d59dd7555acf4a6dd3f", null ],
     [ "Discard", "class_resources_1_1_resource_loader.html#ab487bf2d662ee004ac376e6f2dac54a5", null ],
     [ "DiscardByTag", "class_resources_1_1_resource_loader.html#a4ce8e1203f26fa0d87bfb6fb75999922", null ],

@@ -1,5 +1,6 @@
 var struct_core_graphics_1_1_resource_table_layout_create_info =
 [
+    [ "accelerationStructures", "struct_core_graphics_1_1_resource_table_layout_create_info.html#a39940a3ec1c35ab46ec5dd4a973a765a", null ],
     [ "constantBuffers", "struct_core_graphics_1_1_resource_table_layout_create_info.html#ae3ea657498d60dbeb30401e1af33e62d", null ],
     [ "descriptorPoolInitialGrow", "struct_core_graphics_1_1_resource_table_layout_create_info.html#a76287607dd17e7799b11f2cb5f66bea8", null ],
     [ "inputAttachments", "struct_core_graphics_1_1_resource_table_layout_create_info.html#a7b940c92fda08a32375f8afc6a65d41e", null ],

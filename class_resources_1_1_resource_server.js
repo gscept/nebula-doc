@@ -9,6 +9,7 @@ var class_resources_1_1_resource_server =
     [ "CreateResource", "class_resources_1_1_resource_server.html#aeda512f8750bbf25d98b385d255f0eff", null ],
     [ "CreateResource", "class_resources_1_1_resource_server.html#a56c66138ad94b38de0f017d4cef94c71", null ],
     [ "CreateResource", "class_resources_1_1_resource_server.html#a32d3748ad720fb329401ae9fa4fe4142", null ],
+    [ "CreateResourceListener", "class_resources_1_1_resource_server.html#a2e16a8224c09d753c933ccb839e75970", null ],
     [ "DiscardResource", "class_resources_1_1_resource_server.html#a6ebde5020db380e4a9afeca17ec18372", null ],
     [ "DiscardResources", "class_resources_1_1_resource_server.html#a68ac471998d8cf1531823d48f0af8900", null ],
     [ "GetId", "class_resources_1_1_resource_server.html#a58d004c2538b7d9b27f98bd495917e99", null ],

@@ -101,14 +101,15 @@ $(function(){initNavTree('vkbuffer_8cc.html',''); initResizable(); });
 <div class="textblock"><code>#include &quot;<a class="el" href="vkgraphicsdevice_8h_source.html">vkgraphicsdevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkcommandbuffer_8h_source.html">vkcommandbuffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vkbuffer_8h_source.html">vkbuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bit_8h_source.html">util/bit.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_vulkan" id="r_namespace_vulkan"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html">Vulkan</a></td></tr>
-<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespace_vulkan.html" title="The Vulkan implementation of a GPU command barrier.">Vulkan</a> implementation of a GPU command barrier. <br /></td></tr>
+<tr class="memdesc:namespace_vulkan"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> implementation of GPU acceleration structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_core_graphics" id="r_namespace_core_graphics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></td></tr>
-<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">A barrier is a memory barrier between two GPU operations, and thus allows for a guarantee of concurrency. <br /></td></tr>
+<tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -166,6 +167,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a53217e7ad61b918f5429686f7f922c70" id="r_a53217e7ad61b918f5429686f7f922c70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a53217e7ad61b918f5429686f7f922c70">CoreGraphics::BufferInvalidate</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> offset=0, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size=<a class="el" href="render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0">NEBULA_WHOLE_BUFFER_SIZE</a>)</td></tr>
 <tr class="memdesc:a53217e7ad61b918f5429686f7f922c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidate buffer CPU side, such that any GPU changes will be made visible  <br /></td></tr>
 <tr class="separator:a53217e7ad61b918f5429686f7f922c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab410b9fdf449efd0cd835e1df4088c8b" id="r_ab410b9fdf449efd0cd835e1df4088c8b"><td class="memItemLeft" align="right" valign="top">DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab410b9fdf449efd0cd835e1df4088c8b">CoreGraphics::BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:ab410b9fdf449efd0cd835e1df4088c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
+<tr class="separator:ab410b9fdf449efd0cd835e1df4088c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -179,7 +183,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkbuffer_8cc.html">vkbuffer.cc</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

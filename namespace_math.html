@@ -582,6 +582,9 @@ Functions</h2></td></tr>
 <tr class="separator:aeaf609a6f7ae59cf94ebe1d6aa5e5640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e8d7984ef03f3b9d1d868ae6632b532" id="r_a2e8d7984ef03f3b9d1d868ae6632b532"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e8d7984ef03f3b9d1d868ae6632b532">randxor</a> (<a class="el" href="struct_math_1_1randxorstate.html">randxorstate</a> &amp;state)</td></tr>
 <tr class="separator:a2e8d7984ef03f3b9d1d868ae6632b532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fffb637b09d54c410f3abc848a51010" id="r_a3fffb637b09d54c410f3abc848a51010"><td class="memItemLeft" align="right" valign="top">__forceinline uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fffb637b09d54c410f3abc848a51010">pointerhash</a> (void *ptr)</td></tr>
+<tr class="memdesc:a3fffb637b09d54c410f3abc848a51010"><td class="mdescLeft">&#160;</td><td class="mdescRight">cheap pointer hash using modulo with a mersenne prime  <br /></td></tr>
+<tr class="separator:a3fffb637b09d54c410f3abc848a51010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c90d6799f58f5df2f037429c58e009" id="r_af9c90d6799f58f5df2f037429c58e009"><td class="memItemLeft" align="right" valign="top">__forceinline __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c90d6799f58f5df2f037429c58e009">fmadd</a> (__m128 a, __m128 b, __m128 c)</td></tr>
 <tr class="memdesc:af9c90d6799f58f5df2f037429c58e009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fused multiply-add operation, (a * b) + c.  <br /></td></tr>
 <tr class="separator:af9c90d6799f58f5df2f037429c58e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6351,6 +6354,25 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a3fffb637b09d54c410f3abc848a51010" name="a3fffb637b09d54c410f3abc848a51010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fffb637b09d54c410f3abc848a51010">&#9670;&#160;</a></span>pointerhash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline uint32_t Math::pointerhash </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>cheap pointer hash using modulo with a mersenne prime </p>
+
+</div>
+</div>
 <a id="a7fdcb8c1f0eb62c6fba51d2e2272c192" name="a7fdcb8c1f0eb62c6fba51d2e2272c192"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fdcb8c1f0eb62c6fba51d2e2272c192">&#9670;&#160;</a></span>pow()</h2>
 
@@ -8183,7 +8205,7 @@ template&lt;int x, int y, int z, int w&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:50:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

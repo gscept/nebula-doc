@@ -1,6 +1,8 @@
 var struct_core_graphics_1_1_graphics_device_create_info =
 [
+    [ "Features", "struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html", "struct_core_graphics_1_1_graphics_device_create_info_1_1_features" ],
     [ "enableValidation", "struct_core_graphics_1_1_graphics_device_create_info.html#abc34acacc476861a0134f8ab87ca1cf6", null ],
+    [ "features", "struct_core_graphics_1_1_graphics_device_create_info.html#a8a6703bcf6226cb48aca54ab4bb25bdf", null ],
     [ "globalConstantBufferMemorySize", "struct_core_graphics_1_1_graphics_device_create_info.html#ad92877e32c7a5a4ed9ea9937660b0bb4", null ],
     [ "globalIndexBufferMemorySize", "struct_core_graphics_1_1_graphics_device_create_info.html#a46f0dbca877f664bed3076670145aea1", null ],
     [ "globalUploadMemorySize", "struct_core_graphics_1_1_graphics_device_create_info.html#a952b8114a4bb4707fb5016e0346147fb", null ],

@@ -8,7 +8,7 @@ var decalcontext_8cc =
     [ "clusterSpotDecals", "decalcontext_8cc.html#aa537415a02a3cb3cdf0bc541b52d16ac", null ],
     [ "cullProgram", "decalcontext_8cc.html#a1affaef47e93b91ba55c69670e82e74c", null ],
     [ "debugProgram", "decalcontext_8cc.html#ac7217487557a94b16f443f848865b5bc", null ],
-    [ "decalState", "decalcontext_8cc.html#ac0062f5d26182a176c0f1ef33824141e", null ],
+    [ "decalState", "decalcontext_8cc.html#a3483bb365e3d8cda517e7fd797360804", null ],
     [ "emissiveDecals", "decalcontext_8cc.html#ac0d27b3153e590a03eb7faadc98cd79d", null ],
     [ "frameOpAllocator", "decalcontext_8cc.html#a955e2589c7af60c456d8b351c34003d7", null ],
     [ "pbrDecals", "decalcontext_8cc.html#aaf89057787ebc8a8600a1af0cc7a6ab8", null ],

@@ -3,7 +3,7 @@ var struct_game_1_1_time_manager_1_1_state =
     [ "frameSyncTimer", "struct_game_1_1_time_manager_1_1_state.html#a8918c5442822b5f567ed7294edae3072", null ],
     [ "frameSyncTimerOwner", "struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf", null ],
     [ "frameTime", "struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c", null ],
-    [ "numTimeSources", "struct_game_1_1_time_manager_1_1_state.html#a4e40e51f5d11c6a05b2aef560973b18e", null ],
+    [ "numTimeSources", "struct_game_1_1_time_manager_1_1_state.html#a81f660411b74b60fd4ece8030e2454cb", null ],
     [ "time", "struct_game_1_1_time_manager_1_1_state.html#a3448a6a4d9521f2977e35bc939e809df", null ],
     [ "timeFactor", "struct_game_1_1_time_manager_1_1_state.html#a9570e75d69c68ece8d23049976ed8c2d", null ],
     [ "timeSources", "struct_game_1_1_time_manager_1_1_state.html#aa77f0ec6de0af80319f842beff109af4", null ],

@@ -1,5 +1,6 @@
 var bit_8h =
 [
+    [ "BitmaskConvert", "bit_8h.html#a94623fbc05f6493597c53a719dc29a1d", null ],
     [ "CountBits", "bit_8h.html#ae530f444bfb138d60bb349da54c370fc", null ],
     [ "FirstOne", "bit_8h.html#ac2a252ffc6631479969e6decdf946859", null ],
     [ "HasBit", "bit_8h.html#ad79c549d8ff8d445ac5f1da15fb8fbf1", null ],

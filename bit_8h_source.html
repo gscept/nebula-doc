@@ -281,12 +281,34 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>}</div>
 </div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>} <span class="comment">// namespace Util</span></div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> </div>
+<div class="foldopen" id="foldopen00197" data-start="{" data-end="}">
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">  197</a></span><a class="code hl_function" href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">BitmaskConvert</a>(<a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* table)</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>{</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> ret = 0x0;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> usageFlags = mask;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> flagIndex = 0;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordflow">while</span> (usageFlags != 0x0)</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    {</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        <span class="keywordflow">if</span> (usageFlags &amp; (1 &lt;&lt; flagIndex))</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        {</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>            ret |= table[flagIndex];</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        }</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        usageFlags &amp;= ~(1 &lt;&lt; flagIndex);</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        flagIndex++;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    }</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>}</div>
+</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
 <div class="ttc" id="anamespace_util_html_a1eb384b35f323f7d0be9e9aee86a55df"><div class="ttname"><a href="namespace_util.html#a1eb384b35f323f7d0be9e9aee86a55df">Util::LastOne</a></div><div class="ttdeci">uint LastOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:166</div></div>
 <div class="ttc" id="anamespace_util_html_a32469c5919e2ef24ec6de1835eb11804"><div class="ttname"><a href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">Util::SetBit</a></div><div class="ttdeci">constexpr uint64 SetBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:21</div></div>
 <div class="ttc" id="anamespace_util_html_a5c94977ecc1a4eacc0fe8a31e3703f56"><div class="ttname"><a href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">Util::HasBit</a></div><div class="ttdeci">constexpr bool HasBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:30</div></div>
+<div class="ttc" id="anamespace_util_html_a94623fbc05f6493597c53a719dc29a1d"><div class="ttname"><a href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">Util::BitmaskConvert</a></div><div class="ttdeci">uint BitmaskConvert(uint mask, const uint *table)</div><div class="ttdef"><b>Definition</b> bit.h:197</div></div>
 <div class="ttc" id="anamespace_util_html_a99dcfa539a8cc8bf24d1b587c8253031"><div class="ttname"><a href="namespace_util.html#a99dcfa539a8cc8bf24d1b587c8253031">Util::Lsb</a></div><div class="ttdeci">uint Lsb(uint value, byte bit)</div><div class="ttdef"><b>Definition</b> bit.h:181</div></div>
 <div class="ttc" id="anamespace_util_html_ac2a252ffc6631479969e6decdf946859"><div class="ttname"><a href="namespace_util.html#ac2a252ffc6631479969e6decdf946859">Util::FirstOne</a></div><div class="ttdeci">uint FirstOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:151</div></div>
 <div class="ttc" id="anamespace_util_html_ae530f444bfb138d60bb349da54c370fc"><div class="ttname"><a href="namespace_util.html#ae530f444bfb138d60bb349da54c370fc">Util::CountBits</a></div><div class="ttdeci">constexpr uint32 CountBits(uint32 i)</div><div class="ttdef"><b>Definition</b> bit.h:129</div></div>
@@ -307,7 +329,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="bit_8h.html">bit.h</a></li>
 				<li class="footer">
-					Generated on Mon Jan 1 2024 15:09:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 8 2024 20:49:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

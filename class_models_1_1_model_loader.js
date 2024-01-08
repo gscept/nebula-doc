@@ -5,7 +5,7 @@ var class_models_1_1_model_loader =
     [ "__DeclareClass", "class_models_1_1_model_loader.html#acb879e8c4eaf308e94ef861dde62a3a7", null ],
     [ "InitializeResource", "class_models_1_1_model_loader.html#a7dbe8272fc815e021062e765a0a937d7", null ],
     [ "Setup", "class_models_1_1_model_loader.html#a825bfa2a20b3d3025dfce2521ac9bfc1", null ],
-    [ "Unload", "class_models_1_1_model_loader.html#a0917791ca5676560896a16e261c14ca2", null ],
+    [ "Unload", "class_models_1_1_model_loader.html#a303095897c68d655e14fab6177551fe3", null ],
     [ "CharacterNode", "class_models_1_1_model_loader.html#a7d30dcbc6df52540ffdb43f6006a3122", null ],
     [ "CharacterSkinNode", "class_models_1_1_model_loader.html#a5086e9b11bed51eb1a08b21bc2a8caa2", null ],
     [ "Models::ModelContext", "class_models_1_1_model_loader.html#aac7d2bce836049fdd614c263886ccdd1", null ],
