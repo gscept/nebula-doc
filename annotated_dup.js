@@ -643,11 +643,14 @@ var annotated_dup =
       [ "PrivateMemory", "struct_jobs_1_1_private_memory.html", "struct_jobs_1_1_private_memory" ]
     ] ],
     [ "Jobs2", "namespace_jobs2.html", [
+      [ "Callable", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
+      [ "CallableStub", "struct_jobs2_1_1_callable_stub.html", "struct_jobs2_1_1_callable_stub" ],
       [ "JobContext", "struct_jobs2_1_1_job_context.html", "struct_jobs2_1_1_job_context" ],
       [ "JobNode", "struct_jobs2_1_1_job_node.html", "struct_jobs2_1_1_job_node" ],
       [ "Jobs2Context", "struct_jobs2_1_1_jobs2_context.html", "struct_jobs2_1_1_jobs2_context" ],
       [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
-      [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ]
+      [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ],
+      [ "Lambda", "struct_jobs2_1_1_lambda.html", "struct_jobs2_1_1_lambda" ]
     ] ],
     [ "Lighting", "namespace_lighting.html", [
       [ "CSMUtil", "class_lighting_1_1_c_s_m_util.html", "class_lighting_1_1_c_s_m_util" ],

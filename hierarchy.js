@@ -808,6 +808,11 @@ var hierarchy =
       [ "Posix::PosixCalendarTime", "class_posix_1_1_posix_calendar_time.html", null ],
       [ "Win32::Win32CalendarTime", "class_win32_1_1_win32_calendar_time.html", null ]
     ] ],
+    [ "Jobs2::CallableStub< ARGS >", "struct_jobs2_1_1_callable_stub.html", null ],
+    [ "Jobs2::CallableStub< ARGS... >", "struct_jobs2_1_1_callable_stub.html", [
+      [ "Jobs2::Callable< LAMBDA, ARGS >", "struct_jobs2_1_1_callable.html", null ]
+    ] ],
+    [ "Jobs2::CallableStub< SizeT, SizeT, IndexT, SizeT >", "struct_jobs2_1_1_callable_stub.html", null ],
     [ "GraphicsFeature::CameraManager", "class_graphics_feature_1_1_camera_manager.html", null ],
     [ "Graphics::CameraSettings", "class_graphics_1_1_camera_settings.html", null ],
     [ "CameraSettings", "class_shared_1_1_camera_settings.html", null ],
@@ -1028,8 +1033,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
+    [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],
@@ -1439,6 +1444,7 @@ var hierarchy =
     [ "Util::KeyValuePair< Util::StringAtom, Vulkan::VkShaderCache::VkReflectionInfo::UniformBuffer >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Util::StringAtom, Vulkan::VkShaderCache::VkReflectionInfo::Variable >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< VkFence, Util::Array< Vulkan::VkDeferredCommand > >", "class_util_1_1_key_value_pair.html", null ],
+    [ "Jobs2::Lambda", "struct_jobs2_1_1_lambda.html", null ],
     [ "Base::Library", "class_base_1_1_library.html", [
       [ "Win32::Win32Library", "class_win32_1_1_win32_library.html", null ]
     ] ],

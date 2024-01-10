@@ -102,6 +102,10 @@ $(function(){initNavTree('namespace_jobs2.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_callable.html">Callable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_callable_stub.html">CallableStub</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_job_context.html">JobContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_job_node.html">JobNode</a></td></tr>
@@ -111,6 +115,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_job_system_init_info.html">JobSystemInitInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_jobs2_1_1_job_thread.html">JobThread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_jobs2_1_1_lambda.html">Lambda</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -156,6 +162,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d2fef55952e65782c911c87d3e2c4ad"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0d2fef55952e65782c911c87d3e2c4ad">JobAppendSequence</a> (const <a class="el" href="#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const CTX &amp;context)</td></tr>
 <tr class="memdesc:a0d2fef55952e65782c911c87d3e2c4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append job to sequence with an automatic dependency on the previous job, to run on a single thread.  <br /></td></tr>
 <tr class="separator:a0d2fef55952e65782c911c87d3e2c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963bbab20f6c2c68ed3b27ca3e6c9ee2" id="r_a963bbab20f6c2c68ed3b27ca3e6c9ee2"><td class="memTemplParams" colspan="2">template&lt;typename LAMBDA &gt; </td></tr>
+<tr class="memitem:a963bbab20f6c2c68ed3b27ca3e6c9ee2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a963bbab20f6c2c68ed3b27ca3e6c9ee2">JobDispatch</a> (LAMBDA &amp;&amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
+<tr class="separator:a963bbab20f6c2c68ed3b27ca3e6c9ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f07f2b4780ad09eef10e509507cf75" id="r_a34f07f2b4780ad09eef10e509507cf75"><td class="memTemplParams" colspan="2">template&lt;typename LAMBDA &gt; </td></tr>
+<tr class="memitem:a34f07f2b4780ad09eef10e509507cf75"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a34f07f2b4780ad09eef10e509507cf75">JobDispatch</a> (LAMBDA &amp;&amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
+<tr class="separator:a34f07f2b4780ad09eef10e509507cf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee" id="r_a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplParams" colspan="2">template&lt;typename CTX &gt; </td></tr>
 <tr class="memitem:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0322ffa1816a2d22e2c0a641e1f529ee">JobDispatch</a> (const <a class="el" href="#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a> &amp;func, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, const CTX &amp;context, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;waitCounters=nullptr, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *doneCounter=nullptr, <a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *signalEvent=nullptr)</td></tr>
 <tr class="separator:a0322ffa1816a2d22e2c0a641e1f529ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,7 +378,7 @@ template&lt;typename CTX &gt; </div>
 </div>
 </div>
 <a id="ab27208e726408d55041641050c6c499e" name="ab27208e726408d55041641050c6c499e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27208e726408d55041641050c6c499e">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27208e726408d55041641050c6c499e">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +421,7 @@ template&lt;typename CTX &gt; </div>
 </div>
 </div>
 <a id="a0322ffa1816a2d22e2c0a641e1f529ee" name="a0322ffa1816a2d22e2c0a641e1f529ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0322ffa1816a2d22e2c0a641e1f529ee">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0322ffa1816a2d22e2c0a641e1f529ee">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,6 +447,87 @@ template&lt;typename CTX &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const CTX &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>waitCounters</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>doneCounter</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *</td>          <td class="paramname"><span class="paramname"><em>signalEvent</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a963bbab20f6c2c68ed3b27ca3e6c9ee2" name="a963bbab20f6c2c68ed3b27ca3e6c9ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963bbab20f6c2c68ed3b27ca3e6c9ee2">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename LAMBDA &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jobs2::JobDispatch </td>
+          <td>(</td>
+          <td class="paramtype">LAMBDA &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>numInvocations</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>groupSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>waitCounters</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>doneCounter</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> *</td>          <td class="paramname"><span class="paramname"><em>signalEvent</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34f07f2b4780ad09eef10e509507cf75" name="a34f07f2b4780ad09eef10e509507cf75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34f07f2b4780ad09eef10e509507cf75">&#9670;&#160;</a></span>JobDispatch() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename LAMBDA &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jobs2::JobDispatch </td>
+          <td>(</td>
+          <td class="paramtype">LAMBDA &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>numInvocations</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -646,7 +739,7 @@ template&lt;typename CTX &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_jobs2.html">Jobs2</a></li>
 				<li class="footer">
-					Generated on Mon Jan 8 2024 21:13:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Jan 10 2024 20:18:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

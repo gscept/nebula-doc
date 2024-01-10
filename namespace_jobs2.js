@@ -1,10 +1,13 @@
 var namespace_jobs2 =
 [
+    [ "Callable", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
+    [ "CallableStub", "struct_jobs2_1_1_callable_stub.html", "struct_jobs2_1_1_callable_stub" ],
     [ "JobContext", "struct_jobs2_1_1_job_context.html", "struct_jobs2_1_1_job_context" ],
     [ "JobNode", "struct_jobs2_1_1_job_node.html", "struct_jobs2_1_1_job_node" ],
     [ "Jobs2Context", "struct_jobs2_1_1_jobs2_context.html", "struct_jobs2_1_1_jobs2_context" ],
     [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
     [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ],
+    [ "Lambda", "struct_jobs2_1_1_lambda.html", "struct_jobs2_1_1_lambda" ],
     [ "CompletionCounter", "namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7", null ],
     [ "JobFunc", "namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467", null ],
     [ "__ImplementClass", "namespace_jobs2.html#a154abe3ecf3d846f6fff9995f4756e8a", null ],
@@ -15,6 +18,8 @@ var namespace_jobs2 =
     [ "JobBeginSequence", "namespace_jobs2.html#aad0a8c6bc396afb073d040d8edc59e68", null ],
     [ "JobDispatch", "namespace_jobs2.html#ab27208e726408d55041641050c6c499e", null ],
     [ "JobDispatch", "namespace_jobs2.html#a0322ffa1816a2d22e2c0a641e1f529ee", null ],
+    [ "JobDispatch", "namespace_jobs2.html#a963bbab20f6c2c68ed3b27ca3e6c9ee2", null ],
+    [ "JobDispatch", "namespace_jobs2.html#a34f07f2b4780ad09eef10e509507cf75", null ],
     [ "JobEndSequence", "namespace_jobs2.html#a8a77ae07b7a1fce0fbfda3dd791f7c42", null ],
     [ "JobNewFrame", "namespace_jobs2.html#aeabcfb01fb42b745463a89731f3d5f24", null ],
     [ "JobSequencePlaceholder", "namespace_jobs2.html#a4210592bf184a050b6186aaebe50c291", null ],
