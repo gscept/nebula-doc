@@ -220,7 +220,7 @@ var searchData=
   ['array_3c_20terrain_3a_3aphysicaltileupdate_20_3e_217',['Array&lt; Terrain::PhysicalTileUpdate &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20terrain_3a_3aterrainbiomeid_20_3e_218',['Array&lt; Terrain::TerrainBiomeId &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20terrain_3a_3aterraintileupdateuniforms_20_3e_219',['Array&lt; Terrain::TerrainTileUpdateUniforms &gt;',['../class_util_1_1_array.html',1,'Util']]],
-  ['array_3c_20threading_3a_3aatomiccounter_20_2a_20_3e_220',['Array&lt; Threading::AtomicCounter * &gt;',['../class_util_1_1_array.html',1,'Util']]],
+  ['array_3c_20threading_3a_3aatomiccounter_20_3e_220',['Array&lt; Threading::AtomicCounter &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20threading_3a_3athreadid_20_3e_221',['Array&lt; Threading::ThreadId &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20timing_3a_3atick_20_3e_222',['Array&lt; Timing::Tick &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20timing_3a_3atime_20_3e_223',['Array&lt; Timing::Time &gt;',['../class_util_1_1_array.html',1,'Util']]],

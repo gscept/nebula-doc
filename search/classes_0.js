@@ -168,7 +168,7 @@ var searchData=
   ['_5fsmallvector_3c_20terrain_3a_3aphysicaltileupdate_2c_200_20_3e_165',['_smallvector&lt; Terrain::PhysicalTileUpdate, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20terrain_3a_3aterrainbiomeid_2c_200_20_3e_166',['_smallvector&lt; Terrain::TerrainBiomeId, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20terrain_3a_3aterraintileupdateuniforms_2c_200_20_3e_167',['_smallvector&lt; Terrain::TerrainTileUpdateUniforms, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
-  ['_5fsmallvector_3c_20threading_3a_3aatomiccounter_20_2a_2c_200_20_3e_168',['_smallvector&lt; Threading::AtomicCounter *, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
+  ['_5fsmallvector_3c_20threading_3a_3aatomiccounter_2c_200_20_3e_168',['_smallvector&lt; Threading::AtomicCounter, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20threading_3a_3athreadid_2c_200_20_3e_169',['_smallvector&lt; Threading::ThreadId, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20timing_3a_3atick_2c_200_20_3e_170',['_smallvector&lt; Timing::Tick, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
   ['_5fsmallvector_3c_20timing_3a_3atime_2c_200_20_3e_171',['_smallvector&lt; Timing::Time, 0 &gt;',['../struct_util_1_1__smallvector.html',1,'Util']]],
