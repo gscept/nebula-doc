@@ -1,5 +1,7 @@
 var NAVTREEINDEX170 =
 {
+"win32registry_8cc.html":[10,0,0,3,17,4,7],
+"win32registry_8h.html":[10,0,0,3,17,4,8],
 "win32registry_8h_source.html":[10,0,0,3,17,4,8],
 "win32singleton_8h.html":[10,0,0,3,1,3,1],
 "win32singleton_8h.html#a2a8ad85fba9955f0c14a6151337273f6":[10,0,0,3,1,3,1,5],

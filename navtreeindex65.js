@@ -247,7 +247,7 @@ var NAVTREEINDEX65 =
 "class_posix_1_1_posix_settings.html#a6c9f0de65c7f07cceedda542fdb3c79c":[8,0,61,14,3],
 "class_posix_1_1_posix_settings.html#ad90529e403de22c58e168cb232776b97":[9,0,54,14,1],
 "class_posix_1_1_posix_settings.html#ad90529e403de22c58e168cb232776b97":[8,0,61,14,1],
-"class_posix_1_1_posix_settings.html#af96d7a14b262fa24f1aedbe0cc9ef84c":[9,0,54,14,2],
 "class_posix_1_1_posix_settings.html#af96d7a14b262fa24f1aedbe0cc9ef84c":[8,0,61,14,2],
+"class_posix_1_1_posix_settings.html#af96d7a14b262fa24f1aedbe0cc9ef84c":[9,0,54,14,2],
 "class_posix_1_1_posix_socket.html":[9,0,54,15]
 };
