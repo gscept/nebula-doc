@@ -121,5 +121,6 @@ var searchData=
   ['vkwaitforeventcommand_118',['VkWaitForEventCommand',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_wait_for_event_command.html',1,'Vulkan::VkCommandBufferThread']]],
   ['vkwritetimestampcommand_119',['VkWriteTimestampCommand',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html',1,'Vulkan::VkCommandBufferThread']]],
   ['voidptrtypeclass_120',['VoidPtrTypeClass',['../class_attr_1_1_void_ptr_type_class.html',1,'Attr']]],
-  ['volumetricfogcontext_121',['VolumetricFogContext',['../class_fog_1_1_volumetric_fog_context.html',1,'Fog']]]
+  ['volume_121',['Volume',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html',1,'GI::DDGIContext']]],
+  ['volumetricfogcontext_122',['VolumetricFogContext',['../class_fog_1_1_volumetric_fog_context.html',1,'Fog']]]
 ];

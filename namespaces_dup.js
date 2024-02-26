@@ -39,6 +39,7 @@ var namespaces_dup =
     [ "FrameSync", "namespace_frame_sync.html", "namespace_frame_sync" ],
     [ "Game", "namespace_game.html", "namespace_game" ],
     [ "Gcc", "namespace_gcc.html", "namespace_gcc" ],
+    [ "GI", "namespace_g_i.html", "namespace_g_i" ],
     [ "GLFW", "namespace_g_l_f_w.html", "namespace_g_l_f_w" ],
     [ "Graphics", "namespace_graphics.html", "namespace_graphics" ],
     [ "GraphicsFeature", "namespace_graphics_feature.html", "namespace_graphics_feature" ],
@@ -61,6 +62,7 @@ var namespaces_dup =
       [ "ltc2", "namespace_ltc_l_u_ts.html#a00f81c5fabb7c7acef69e481df0d95ca", null ]
     ] ],
     [ "Materials", "namespace_materials.html", "namespace_materials" ],
+    [ "MaterialTemplates", "namespace_material_templates.html", "namespace_material_templates" ],
     [ "Math", "namespace_math.html", "namespace_math" ],
     [ "Mathf", "namespace_mathf.html", "namespace_mathf" ],
     [ "MemDb", "namespace_mem_db.html", "namespace_mem_db" ],

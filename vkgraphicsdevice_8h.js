@@ -19,5 +19,6 @@ var vkgraphicsdevice_8h =
     [ "GetQueue", "vkgraphicsdevice_8h.html#ad255c4e9e049eb423bd5fc2f9416a9e2", null ],
     [ "GetRenderingSemaphore", "vkgraphicsdevice_8h.html#ac3e2165bac2d784b9431a57a6c075f6d", null ],
     [ "SetupAdapter", "vkgraphicsdevice_8h.html#afff44f1f61ad100eb6d96b7906b23cc5", null ],
+    [ "SparseBufferBind", "vkgraphicsdevice_8h.html#a62c87b67db2b5dcfa1f1d5e7758f952a", null ],
     [ "SparseTextureBind", "vkgraphicsdevice_8h.html#a33631508e7e7b011fed57eba8d97233e", null ]
 ];

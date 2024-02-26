@@ -252,6 +252,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9b49b6761eb76b5f5921333e62ddc916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3e20af6928be06bce96e444535bfff4" id="r_aa3e20af6928be06bce96e444535bfff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html">FrameSync::FrameSyncTimer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3e20af6928be06bce96e444535bfff4">timer</a></td></tr>
 <tr class="separator:aa3e20af6928be06bce96e444535bfff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6869bc4fb161f22b7d7128270db8a1" id="r_aec6869bc4fb161f22b7d7128270db8a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec6869bc4fb161f22b7d7128270db8a1">ownsTimer</a></td></tr>
+<tr class="separator:aec6869bc4fb161f22b7d7128270db8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6810a79144da349709d08a801296ef39" id="r_a6810a79144da349709d08a801296ef39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_graphics_1_1_frame_context.html">FrameContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6810a79144da349709d08a801296ef39">frameContext</a></td></tr>
 <tr class="separator:a6810a79144da349709d08a801296ef39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a58a7d42845291fa5b9ab1e371dc960" id="r_a6a58a7d42845291fa5b9ab1e371dc960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_context_function_bundle.html">GraphicsContextFunctionBundle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a58a7d42845291fa5b9ab1e371dc960">contexts</a></td></tr>
@@ -272,8 +274,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac5ee010ecaff55497d7e83275de6746a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8505372bce399a9401a9631d19e6d8af" id="r_a8505372bce399a9401a9631d19e6d8af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_core_graphics_1_1_shader_server.html">CoreGraphics::ShaderServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8505372bce399a9401a9631d19e6d8af">shaderServer</a></td></tr>
 <tr class="separator:a8505372bce399a9401a9631d19e6d8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1311740fe01c0362f38d02d5bafb86e1" id="r_a1311740fe01c0362f38d02d5bafb86e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_materials_1_1_shader_config_server.html">Materials::ShaderConfigServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1311740fe01c0362f38d02d5bafb86e1">materialServer</a></td></tr>
-<tr class="separator:a1311740fe01c0362f38d02d5bafb86e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d1614eca4433f4061631ffe350561d4" id="r_a7d1614eca4433f4061631ffe350561d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_core_graphics_1_1_shape_renderer.html">CoreGraphics::ShapeRenderer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1614eca4433f4061631ffe350561d4">shapeRenderer</a></td></tr>
 <tr class="separator:a7d1614eca4433f4061631ffe350561d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40c55319b31fc4f5861a3fff82e9078" id="r_ac40c55319b31fc4f5861a3fff82e9078"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_core_graphics_1_1_text_renderer.html">CoreGraphics::TextRenderer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40c55319b31fc4f5861a3fff82e9078">textRenderer</a></td></tr>
@@ -1235,8 +1235,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1311740fe01c0362f38d02d5bafb86e1" name="a1311740fe01c0362f38d02d5bafb86e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1311740fe01c0362f38d02d5bafb86e1">&#9670;&#160;</a></span>materialServer</h2>
+<a id="aec6869bc4fb161f22b7d7128270db8a1" name="aec6869bc4fb161f22b7d7128270db8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6869bc4fb161f22b7d7128270db8a1">&#9670;&#160;</a></span>ownsTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1245,7 +1245,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_materials_1_1_shader_config_server.html">Materials::ShaderConfigServer</a>&gt; Graphics::GraphicsServer::materialServer</td>
+          <td class="memname">bool Graphics::GraphicsServer::ownsTimer</td>
         </tr>
       </table>
   </td>
@@ -1510,7 +1510,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_graphics_1_1_graphics_server.html">GraphicsServer</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

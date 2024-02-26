@@ -26,6 +26,5 @@ var class_base_1_1_shader_server_base =
     [ "pendingShaderReloads", "class_base_1_1_shader_server_base.html#a195d9f522448ab902d060d3ff203b199", null ],
     [ "shaderFeature", "class_base_1_1_shader_server_base.html#a9de46ba5f7ea17a9710bff725b4ec41d", null ],
     [ "shaderIdentifierRegistry", "class_base_1_1_shader_server_base.html#af2263b7fb353b5a7f649d6743f6cecdb", null ],
-    [ "shaders", "class_base_1_1_shader_server_base.html#aa885f69c2a7450d37522ac600cb22d34", null ],
-    [ "sharedVariableShader", "class_base_1_1_shader_server_base.html#a9755351d00a0f57d56a4b0272d036e89", null ]
+    [ "shaders", "class_base_1_1_shader_server_base.html#aa885f69c2a7450d37522ac600cb22d34", null ]
 ];

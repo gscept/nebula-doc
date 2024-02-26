@@ -23,7 +23,7 @@ var class_resources_1_1_resource_server =
     [ "HasResource", "class_resources_1_1_resource_server.html#a6adf1a2dcc8b0ed21f2c3d4193a1bab6", null ],
     [ "LoadDefaultResources", "class_resources_1_1_resource_server.html#ac094cde9351173e2733a2a4782dd565e", null ],
     [ "Open", "class_resources_1_1_resource_server.html#a30f2114f40617d661466a7d7d242d4d7", null ],
-    [ "RegisterStreamPool", "class_resources_1_1_resource_server.html#a1d50609abfd6bab470459a5b2fcacecc", null ],
+    [ "RegisterStreamLoader", "class_resources_1_1_resource_server.html#a6d2702a08b244fedb9576bcc6faf849f", null ],
     [ "ReloadResource", "class_resources_1_1_resource_server.html#a9442237ed9853adc010b2ee9120d8e74", null ],
     [ "SetMinLod", "class_resources_1_1_resource_server.html#a03823870293eed03ceea4c019fe4fcff", null ],
     [ "Update", "class_resources_1_1_resource_server.html#afb9e7b92a49469d46cc6d42f241b4ee9", null ],

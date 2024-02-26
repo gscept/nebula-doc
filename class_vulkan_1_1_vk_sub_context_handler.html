@@ -130,12 +130,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98697e5d52cd9200762def76f7707b44" id="r_a98697e5d52cd9200762def76f7707b44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98697e5d52cd9200762def76f7707b44">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmds)</td></tr>
 <tr class="memdesc:a98697e5d52cd9200762def76f7707b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submission to context to execute later, supports waiting for a queue  <br /></td></tr>
 <tr class="separator:a98697e5d52cd9200762def76f7707b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82a4677f9ccd324322397d26b1b9d38" id="r_aa82a4677f9ccd324322397d26b1b9d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82a4677f9ccd324322397d26b1b9d38">GetNextTimelineIndex</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
+<tr class="memdesc:aa82a4677f9ccd324322397d26b1b9d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the next submission id for a specific queue.  <br /></td></tr>
+<tr class="separator:aa82a4677f9ccd324322397d26b1b9d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b009f35c195e743168f2c6140380e9" id="r_a46b009f35c195e743168f2c6140380e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b009f35c195e743168f2c6140380e9">AppendWaitTimeline</a> (<a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkPipelineStageFlags waitFlags, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> waitType)</td></tr>
 <tr class="memdesc:a46b009f35c195e743168f2c6140380e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a wait for a submission timeline index.  <br /></td></tr>
 <tr class="separator:a46b009f35c195e743168f2c6140380e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12c7a7a8a9a4aaa949fef911e9efb0c4" id="r_a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
-<tr class="memdesc:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse bind timeline operation  <br /></td></tr>
+<tr class="memdesc:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse image bind timeline operation  <br /></td></tr>
 <tr class="separator:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5305aa2c4f7c49f8a629d7134d5b84c6" id="r_a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5305aa2c4f7c49f8a629d7134d5b84c6">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkBuffer buf, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;binds)</td></tr>
+<tr class="memdesc:a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse buffer bind timeline operation  <br /></td></tr>
+<tr class="separator:a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee777b00c02ff1cafb4b93e4bb17c1c" id="r_abee777b00c02ff1cafb4b93e4bb17c1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee777b00c02ff1cafb4b93e4bb17c1c">AppendPresentSignal</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkSemaphore sem)</td></tr>
 <tr class="memdesc:abee777b00c02ff1cafb4b93e4bb17c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append present signal.  <br /></td></tr>
 <tr class="separator:abee777b00c02ff1cafb4b93e4bb17c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acae43e87d13e1ae182a026a7cf2f77ea" id="r_acae43e87d13e1ae182a026a7cf2f77ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae43e87d13e1ae182a026a7cf2f77ea">Wait</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
 <tr class="memdesc:acae43e87d13e1ae182a026a7cf2f77ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for timeline index  <br /></td></tr>
 <tr class="separator:acae43e87d13e1ae182a026a7cf2f77ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac13b483193a7b8522f0070b1b8178f6a" id="r_ac13b483193a7b8522f0070b1b8178f6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13b483193a7b8522f0070b1b8178f6a">Poll</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
-<tr class="memdesc:ac13b483193a7b8522f0070b1b8178f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check to see if timeline index has passed  <br /></td></tr>
-<tr class="separator:ac13b483193a7b8522f0070b1b8178f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922ecd0579c16fe9051adb59b79a14d3" id="r_a922ecd0579c16fe9051adb59b79a14d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a922ecd0579c16fe9051adb59b79a14d3">Poll</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, uint64_t index)</td></tr>
+<tr class="memdesc:a922ecd0579c16fe9051adb59b79a14d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">check to see if timeline index has passed  <br /></td></tr>
+<tr class="separator:a922ecd0579c16fe9051adb59b79a14d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab08a607d6ff7d7efacedf999f739fed4" id="r_ab08a607d6ff7d7efacedf999f739fed4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08a607d6ff7d7efacedf999f739fed4">FlushSparseBinds</a> (VkFence fence)</td></tr>
 <tr class="memdesc:ab08a607d6ff7d7efacedf999f739fed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">flush sparse binds  <br /></td></tr>
 <tr class="separator:ab08a607d6ff7d7efacedf999f739fed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,8 +267,36 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a5305aa2c4f7c49f8a629d7134d5b84c6" name="a5305aa2c4f7c49f8a629d7134d5b84c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5305aa2c4f7c49f8a629d7134d5b84c6">&#9670;&#160;</a></span>AppendSparseBind() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::AppendSparseBind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VkBuffer</td>          <td class="paramname"><span class="paramname"><em>buf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>binds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>append a sparse buffer bind timeline operation </p>
+
+</div>
+</div>
 <a id="a12c7a7a8a9a4aaa949fef911e9efb0c4" name="a12c7a7a8a9a4aaa949fef911e9efb0c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">&#9670;&#160;</a></span>AppendSparseBind()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">&#9670;&#160;</a></span>AppendSparseBind() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +324,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>append a sparse bind timeline operation </p>
+<p>append a sparse image bind timeline operation </p>
 
 </div>
 </div>
@@ -411,6 +445,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aa82a4677f9ccd324322397d26b1b9d38" name="aa82a4677f9ccd324322397d26b1b9d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82a4677f9ccd324322397d26b1b9d38">&#9670;&#160;</a></span>GetNextTimelineIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::GetNextTimelineIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the next submission id for a specific queue. </p>
+
+</div>
+</div>
 <a id="a579ef83590b3ec56948beb08e8ac8b09" name="a579ef83590b3ec56948beb08e8ac8b09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a579ef83590b3ec56948beb08e8ac8b09">&#9670;&#160;</a></span>GetQueue()</h2>
 
@@ -453,8 +506,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ac13b483193a7b8522f0070b1b8178f6a" name="ac13b483193a7b8522f0070b1b8178f6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac13b483193a7b8522f0070b1b8178f6a">&#9670;&#160;</a></span>Poll()</h2>
+<a id="a922ecd0579c16fe9051adb59b79a14d3" name="a922ecd0579c16fe9051adb59b79a14d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a922ecd0579c16fe9051adb59b79a14d3">&#9670;&#160;</a></span>Poll()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,7 +520,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -917,7 +970,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_sub_context_handler.html">VkSubContextHandler</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

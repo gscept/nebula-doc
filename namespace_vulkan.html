@@ -162,6 +162,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_buffer_mapping.html">BufferMapping</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_buffer_sparse_page_table.html">BufferSparsePageTable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_command_buffer_pools.html">CommandBufferPools</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_derivative_layout.html">DerivativeLayout</a></td></tr>
@@ -275,6 +277,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a63f58197766862dfdada97c3cd4094d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a093f0889a85045ab986534dcce975fc4" id="r_a093f0889a85045ab986534dcce975fc4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF, <a class="el" href="struct_vulkan_1_1_vk_buffer_load_info.html">VkBufferLoadInfo</a>, <a class="el" href="struct_vulkan_1_1_vk_buffer_runtime_info.html">VkBufferRuntimeInfo</a>, <a class="el" href="struct_vulkan_1_1_vk_buffer_map_info.html">VkBufferMapInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093f0889a85045ab986534dcce975fc4">VkBufferAllocator</a></td></tr>
 <tr class="separator:a093f0889a85045ab986534dcce975fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a06b9869425a09447d8fe8402097db7" id="r_a0a06b9869425a09447d8fe8402097db7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFF, <a class="el" href="struct_vulkan_1_1_buffer_sparse_page_table.html">BufferSparsePageTable</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a06b9869425a09447d8fe8402097db7">VkBufferSparseExtensionAllocator</a></td></tr>
+<tr class="separator:a0a06b9869425a09447d8fe8402097db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf4ca3f529aa960bc3975e645606e01" id="r_a6cf4ca3f529aa960bc3975e645606e01"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkCommandPool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a></td></tr>
 <tr class="separator:a6cf4ca3f529aa960bc3975e645606e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff0a26e1c5284115833c659be706a18" id="r_abff0a26e1c5284115833c659be706a18"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFF, VkDevice, VkCommandBuffer, VkCommandPool, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a>, <a class="el" href="struct_vulkan_1_1_vk_pipeline_bundle.html">VkPipelineBundle</a>, <a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a>, <a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a>, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a></td></tr>
@@ -360,36 +364,40 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ae59ea9369576f35fdf7f8b1e6c263741a4082f0c5ef5554720a59bb1679379275">Buffer_MapInfo</a>
  }</td></tr>
 <tr class="separator:ae59ea9369576f35fdf7f8b1e6c263741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b05f8aa2b7df30f376d11c7efdef567" id="r_a6b05f8aa2b7df30f376d11c7efdef567"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a6b05f8aa2b7df30f376d11c7efdef567aa8ae0bd58e7ea78e1e3343fdad50af45">CommandBufferPool_VkDevice</a>
-, <a class="el" href="#a6b05f8aa2b7df30f376d11c7efdef567a07cf6ab20183ac7f63f9f8049f4e7e19">CommandBufferPool_VkCommandPool</a>
+<tr class="memitem:a6b05f8aa2b7df30f376d11c7efdef567" id="r_a6b05f8aa2b7df30f376d11c7efdef567"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a6b05f8aa2b7df30f376d11c7efdef567a5ba9ad50e73720012072c581fe39e662">BufferExtension_SparsePageTable</a>
+, <a class="el" href="#a6b05f8aa2b7df30f376d11c7efdef567a3b001b7ba06b735a85f9696c357d4d83">BufferExtension_SparsePendingBinds</a>
  }</td></tr>
 <tr class="separator:a6b05f8aa2b7df30f376d11c7efdef567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc8265e93700da7802686500579b13dc" id="r_acc8265e93700da7802686500579b13dc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#acc8265e93700da7802686500579b13dca8ad9eb302a34eeb3fd139a7893307837">CmdBuffer_VkDevice</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dca94f594f72706eb3f31674dc2a4641a4f">CmdBuffer_VkCommandBuffer</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dca7683ebe7ccd420e7881ff86fca642f8f">CmdBuffer_VkCommandPool</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dca2f6351d37a68b57618e75daf9fbbfcd5">CmdBuffer_PipelineBuildBits</a>
-, <br />
-&#160;&#160;<a class="el" href="#acc8265e93700da7802686500579b13dca8ae0700845435e0f16aa3a9eba329bcf">CmdBuffer_VkPipelineBundle</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dca2544753b4051304c0b845da034e6832f">CmdBuffer_PendingViewports</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dcabd2486199db0727d422313d4ba95e5c5">CmdBuffer_PendingScissors</a>
-, <a class="el" href="#acc8265e93700da7802686500579b13dca9f044ebe58b6a17645d9b5f46216aa91">CmdBuffer_Usage</a>
-<br />
+<tr class="memitem:acc8265e93700da7802686500579b13dc" id="r_acc8265e93700da7802686500579b13dc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#acc8265e93700da7802686500579b13dcaa8ae0bd58e7ea78e1e3343fdad50af45">CommandBufferPool_VkDevice</a>
+, <a class="el" href="#acc8265e93700da7802686500579b13dca07cf6ab20183ac7f63f9f8049f4e7e19">CommandBufferPool_VkCommandPool</a>
  }</td></tr>
 <tr class="separator:acc8265e93700da7802686500579b13dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b94a313a41648ed9feba125542b19b" id="r_a62b94a313a41648ed9feba125542b19b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a62b94a313a41648ed9feba125542b19ba967b0072933ba22994916c0431687208">Event_Device</a>
-, <a class="el" href="#a62b94a313a41648ed9feba125542b19ba38f30830b593621abbc31901927f002e">Event_Info</a>
+<tr class="memitem:a2dbe6881829a188ef3fb49d1d2a00456" id="r_a2dbe6881829a188ef3fb49d1d2a00456"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a8ad9eb302a34eeb3fd139a7893307837">CmdBuffer_VkDevice</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a94f594f72706eb3f31674dc2a4641a4f">CmdBuffer_VkCommandBuffer</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a7683ebe7ccd420e7881ff86fca642f8f">CmdBuffer_VkCommandPool</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a2f6351d37a68b57618e75daf9fbbfcd5">CmdBuffer_PipelineBuildBits</a>
+, <br />
+&#160;&#160;<a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a8ae0700845435e0f16aa3a9eba329bcf">CmdBuffer_VkPipelineBundle</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a2544753b4051304c0b845da034e6832f">CmdBuffer_PendingViewports</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456abd2486199db0727d422313d4ba95e5c5">CmdBuffer_PendingScissors</a>
+, <a class="el" href="#a2dbe6881829a188ef3fb49d1d2a00456a9f044ebe58b6a17645d9b5f46216aa91">CmdBuffer_Usage</a>
+<br />
  }</td></tr>
-<tr class="separator:a62b94a313a41648ed9feba125542b19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad767c55d7b18810c161754a80f116c28" id="r_ad767c55d7b18810c161754a80f116c28"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ad767c55d7b18810c161754a80f116c28a7f4ef2132241e79c60fb37b1079ae8e7">Pass_VkLoadInfo</a>
-, <a class="el" href="#ad767c55d7b18810c161754a80f116c28a90bfb8a58dcd6e5e9d1e7a12c516e14c">Pass_VkRuntimeInfo</a>
-, <a class="el" href="#ad767c55d7b18810c161754a80f116c28a49e24ec05794040372d0e6f538cd65d3">Pass_VkRenderPassBeginInfo</a>
-, <a class="el" href="#ad767c55d7b18810c161754a80f116c28a9b1260233645a76708672f62a1b26d70">Pass_SubpassAttachments</a>
+<tr class="separator:a2dbe6881829a188ef3fb49d1d2a00456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad767c55d7b18810c161754a80f116c28" id="r_ad767c55d7b18810c161754a80f116c28"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ad767c55d7b18810c161754a80f116c28a967b0072933ba22994916c0431687208">Event_Device</a>
+, <a class="el" href="#ad767c55d7b18810c161754a80f116c28a38f30830b593621abbc31901927f002e">Event_Info</a>
  }</td></tr>
 <tr class="separator:ad767c55d7b18810c161754a80f116c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af06cab2bc731155387c93f38b4ba92a0" id="r_af06cab2bc731155387c93f38b4ba92a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#af06cab2bc731155387c93f38b4ba92a0a56fb1836cd0ad146b69b88dad854a803">Pipeline_Object</a>
+<tr class="memitem:af06cab2bc731155387c93f38b4ba92a0" id="r_af06cab2bc731155387c93f38b4ba92a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#af06cab2bc731155387c93f38b4ba92a0a7f4ef2132241e79c60fb37b1079ae8e7">Pass_VkLoadInfo</a>
+, <a class="el" href="#af06cab2bc731155387c93f38b4ba92a0a90bfb8a58dcd6e5e9d1e7a12c516e14c">Pass_VkRuntimeInfo</a>
+, <a class="el" href="#af06cab2bc731155387c93f38b4ba92a0a49e24ec05794040372d0e6f538cd65d3">Pass_VkRenderPassBeginInfo</a>
+, <a class="el" href="#af06cab2bc731155387c93f38b4ba92a0a9b1260233645a76708672f62a1b26d70">Pass_SubpassAttachments</a>
  }</td></tr>
 <tr class="separator:af06cab2bc731155387c93f38b4ba92a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a72541c0d4aac73f0deb11205555ab0" id="r_a8a72541c0d4aac73f0deb11205555ab0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0a56fb1836cd0ad146b69b88dad854a803">Pipeline_Object</a>
+ }</td></tr>
+<tr class="separator:a8a72541c0d4aac73f0deb11205555ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c80e942c4c9c4bf6a0587f0c943db1e" id="r_a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1e">WriteType</a> { <a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08">Image</a>
 , <a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1ea7e62bc342f41c946868f0ea6f0b712d8">Buffer</a>
 , <a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1ea87f4470e128117163f6071e645f404a9">TexelBuffer</a>
@@ -397,37 +405,37 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table.  <a href="#a3c80e942c4c9c4bf6a0587f0c943db1e">More...</a><br /></td></tr>
 <tr class="separator:a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a72541c0d4aac73f0deb11205555ab0" id="r_a8a72541c0d4aac73f0deb11205555ab0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0aa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
-, <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0ae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
-, <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0a42c244817114a3b71e38a6edab7b22f7">ResourceTable_DescriptorPoolIndex</a>
-, <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0aff5be145053d61bfd7223af4abc3bf5b">ResourceTable_Lock</a>
-, <br />
-&#160;&#160;<a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0a936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
-, <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0a6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
-, <a class="el" href="#a8a72541c0d4aac73f0deb11205555ab0a92e5be15926ea2be64ceb0a455242cce">ResourceTable_Copies</a>
-<br />
- }</td></tr>
-<tr class="separator:a8a72541c0d4aac73f0deb11205555ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b637a64c8871b31edf767aa9af08b47" id="r_a9b637a64c8871b31edf767aa9af08b47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a38a44d3c33686bef648610c4f0a88b45">ResourceTableLayout_Device</a>
-, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47abf88a079590846055bc7b490bae28c6b">ResourceTableLayout_SetLayout</a>
-, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47aec29da221608313a08cd9eea70eb511b">ResourceTableLayout_PoolSizes</a>
-, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a29c4f0a5f7f27ddcbfea5307f0a0e108">ResourceTableLayout_Samplers</a>
+&#160;&#160;<a class="el" href="#a9b637a64c8871b31edf767aa9af08b47aa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
+, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47ae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
+, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a42c244817114a3b71e38a6edab7b22f7">ResourceTable_DescriptorPoolIndex</a>
+, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47aff5be145053d61bfd7223af4abc3bf5b">ResourceTable_Lock</a>
 , <br />
-&#160;&#160;<a class="el" href="#a9b637a64c8871b31edf767aa9af08b47af4fb2ffabc3ebf2c47af703f27fb463f">ResourceTableLayout_ImmutableSamplerFlags</a>
-, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a3b9ace6c517592ba3cd4352b50016a0d">ResourceTableLayout_DescriptorPools</a>
-, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47ac16a96d845fb324e833d3f2b98fec1c5">ResourceTableLayout_DescriptorPoolFreeItems</a>
+&#160;&#160;<a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
+, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
+, <a class="el" href="#a9b637a64c8871b31edf767aa9af08b47a92e5be15926ea2be64ceb0a455242cce">ResourceTable_Copies</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a9b637a64c8871b31edf767aa9af08b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="#a9b637a64c8871b31edf767aa9af08b47">More...</a><br /></td></tr>
 <tr class="separator:a9b637a64c8871b31edf767aa9af08b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41e56724e4e01258c890c0ff43e0b434" id="r_a41e56724e4e01258c890c0ff43e0b434"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a41e56724e4e01258c890c0ff43e0b434ae387b205f77ccbe49f86dac79b1ee9dc">Semaphore_Device</a>
-, <a class="el" href="#a41e56724e4e01258c890c0ff43e0b434a04d4d6accf9c4d7df192fd981b766a61">Semaphore_VkHandle</a>
-, <a class="el" href="#a41e56724e4e01258c890c0ff43e0b434ac96716716e8b8b1f423ea05eefd2b3f4">Semaphore_Type</a>
-, <a class="el" href="#a41e56724e4e01258c890c0ff43e0b434a8838e35bf4a1c629ced901e775ba41ff">Semaphore_LastIndex</a>
+<tr class="memitem:ab06ba0c265875a68c2256bbd07ac32c4" id="r_ab06ba0c265875a68c2256bbd07ac32c4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4a38a44d3c33686bef648610c4f0a88b45">ResourceTableLayout_Device</a>
+, <a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4abf88a079590846055bc7b490bae28c6b">ResourceTableLayout_SetLayout</a>
+, <a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4aec29da221608313a08cd9eea70eb511b">ResourceTableLayout_PoolSizes</a>
+, <a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4a29c4f0a5f7f27ddcbfea5307f0a0e108">ResourceTableLayout_Samplers</a>
+, <br />
+&#160;&#160;<a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4af4fb2ffabc3ebf2c47af703f27fb463f">ResourceTableLayout_ImmutableSamplerFlags</a>
+, <a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4a3b9ace6c517592ba3cd4352b50016a0d">ResourceTableLayout_DescriptorPools</a>
+, <a class="el" href="#ab06ba0c265875a68c2256bbd07ac32c4ac16a96d845fb324e833d3f2b98fec1c5">ResourceTableLayout_DescriptorPoolFreeItems</a>
+<br />
  }</td></tr>
-<tr class="separator:a41e56724e4e01258c890c0ff43e0b434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ab06ba0c265875a68c2256bbd07ac32c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource table layout.  <a href="#ab06ba0c265875a68c2256bbd07ac32c4">More...</a><br /></td></tr>
+<tr class="separator:ab06ba0c265875a68c2256bbd07ac32c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36f8d8cc547ac5159188ed579f4c37c" id="r_aa36f8d8cc547ac5159188ed579f4c37c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37cae387b205f77ccbe49f86dac79b1ee9dc">Semaphore_Device</a>
+, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37ca04d4d6accf9c4d7df192fd981b766a61">Semaphore_VkHandle</a>
+, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37cac96716716e8b8b1f423ea05eefd2b3f4">Semaphore_Type</a>
+, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37ca8838e35bf4a1c629ced901e775ba41ff">Semaphore_LastIndex</a>
+ }</td></tr>
+<tr class="separator:aa36f8d8cc547ac5159188ed579f4c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f966241b06f18d7362ec77fee0a52b" id="r_a74f966241b06f18d7362ec77fee0a52b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f966241b06f18d7362ec77fee0a52b">ShaderStages</a> { <br />
 &#160;&#160;<a class="el" href="#a74f966241b06f18d7362ec77fee0a52ba3fa93367c1469bf17e499769044f10fb">VertexShader</a>
 , <a class="el" href="#a74f966241b06f18d7362ec77fee0a52ba8084f701294fab1a971d937a0dc80323">HullShader</a>
@@ -450,55 +458,55 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a74f966241b06f18d7362ec77fee0a52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36f8d8cc547ac5159188ed579f4c37c" id="r_aa36f8d8cc547ac5159188ed579f4c37c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37cae1659379d4b3553b12096de3cdca19f2">Shader_ReflectionInfo</a>
-, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37ca7c4c58d36ecb88248f83c464ea0bb032">Shader_SetupInfo</a>
-, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37ca8f917ca4255005fcd5313a4335f05c75">Shader_RuntimeInfo</a>
-, <a class="el" href="#aa36f8d8cc547ac5159188ed579f4c37cab82ad376532a4e00359ff684dbf3819a">Shader_Programs</a>
+<tr class="memitem:a020445c4936b8bf7bd0826bd84addf47" id="r_a020445c4936b8bf7bd0826bd84addf47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a020445c4936b8bf7bd0826bd84addf47ae1659379d4b3553b12096de3cdca19f2">Shader_ReflectionInfo</a>
+, <a class="el" href="#a020445c4936b8bf7bd0826bd84addf47a7c4c58d36ecb88248f83c464ea0bb032">Shader_SetupInfo</a>
+, <a class="el" href="#a020445c4936b8bf7bd0826bd84addf47a8f917ca4255005fcd5313a4335f05c75">Shader_RuntimeInfo</a>
+, <a class="el" href="#a020445c4936b8bf7bd0826bd84addf47ab82ad376532a4e00359ff684dbf3819a">Shader_Programs</a>
  }</td></tr>
-<tr class="separator:aa36f8d8cc547ac5159188ed579f4c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f782e64a8b2bedf1e32084b265e900" id="r_a59f782e64a8b2bedf1e32084b265e900"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a59f782e64a8b2bedf1e32084b265e900a094a41aeb09fcff4df897ea5eabce2e6">ShaderProgram_SetupInfo</a>
-, <a class="el" href="#a59f782e64a8b2bedf1e32084b265e900af633b171937410022a4a9873ff7639c5">ShaderProgram_ReflectionInfo</a>
-, <a class="el" href="#a59f782e64a8b2bedf1e32084b265e900a2d8ea4e095d185eac03256cea7cb588b">ShaderProgram_RuntimeInfo</a>
- }</td></tr>
-<tr class="separator:a59f782e64a8b2bedf1e32084b265e900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a968f13ed32cd3c79953bed97607792" id="r_a1a968f13ed32cd3c79953bed97607792"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a1a968f13ed32cd3c79953bed97607792ace56292e5f42746a6dc229fa7593d0b1">Texture_RuntimeInfo</a>
-, <a class="el" href="#a1a968f13ed32cd3c79953bed97607792a0b282c1781301c9c54a66fd00b7bd3ca">Texture_LoadInfo</a>
-, <a class="el" href="#a1a968f13ed32cd3c79953bed97607792a45ed23b9525a8acedafe111088a670f7">Texture_MappingInfo</a>
-, <a class="el" href="#a1a968f13ed32cd3c79953bed97607792ac4a75a8a3f186a7ccec679eb620c7d9c">Texture_WindowInfo</a>
+<tr class="separator:a020445c4936b8bf7bd0826bd84addf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a968f13ed32cd3c79953bed97607792" id="r_a1a968f13ed32cd3c79953bed97607792"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a1a968f13ed32cd3c79953bed97607792a094a41aeb09fcff4df897ea5eabce2e6">ShaderProgram_SetupInfo</a>
+, <a class="el" href="#a1a968f13ed32cd3c79953bed97607792af633b171937410022a4a9873ff7639c5">ShaderProgram_ReflectionInfo</a>
+, <a class="el" href="#a1a968f13ed32cd3c79953bed97607792a2d8ea4e095d185eac03256cea7cb588b">ShaderProgram_RuntimeInfo</a>
  }</td></tr>
 <tr class="separator:a1a968f13ed32cd3c79953bed97607792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b11d0533b3839a5a55f405cff39d0ae" id="r_a2b11d0533b3839a5a55f405cff39d0ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aeaef9f64780e54901c9940339711a70d41">TextureExtension_StencilInfo</a>
-, <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aead2f8cae805b97d29ddd5a7506ea745d9">TextureExtension_StencilBind</a>
+<tr class="memitem:a2b11d0533b3839a5a55f405cff39d0ae" id="r_a2b11d0533b3839a5a55f405cff39d0ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aeace56292e5f42746a6dc229fa7593d0b1">Texture_RuntimeInfo</a>
+, <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aea0b282c1781301c9c54a66fd00b7bd3ca">Texture_LoadInfo</a>
+, <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aea45ed23b9525a8acedafe111088a670f7">Texture_MappingInfo</a>
+, <a class="el" href="#a2b11d0533b3839a5a55f405cff39d0aeac4a75a8a3f186a7ccec679eb620c7d9c">Texture_WindowInfo</a>
  }</td></tr>
 <tr class="separator:a2b11d0533b3839a5a55f405cff39d0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b6844fbae4871911a04187f5a8e897" id="r_ae6b6844fbae4871911a04187f5a8e897"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ae6b6844fbae4871911a04187f5a8e897a0e035a19f8e1140354e97a22d7976fdc">TextureExtension_SwapInfo</a>
+<tr class="memitem:ae6b6844fbae4871911a04187f5a8e897" id="r_ae6b6844fbae4871911a04187f5a8e897"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ae6b6844fbae4871911a04187f5a8e897aef9f64780e54901c9940339711a70d41">TextureExtension_StencilInfo</a>
+, <a class="el" href="#ae6b6844fbae4871911a04187f5a8e897ad2f8cae805b97d29ddd5a7506ea745d9">TextureExtension_StencilBind</a>
  }</td></tr>
 <tr class="separator:ae6b6844fbae4871911a04187f5a8e897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdee28aea1c28289d2ffb07179916650" id="r_afdee28aea1c28289d2ffb07179916650"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#afdee28aea1c28289d2ffb07179916650a263445b328f43cbdf15350710810b17a">TextureExtension_SparsePageTable</a>
-, <a class="el" href="#afdee28aea1c28289d2ffb07179916650a7e010d8eb849bd2d9d62cc2cb655fe17">TextureExtension_SparseMemoryRequirements</a>
-, <a class="el" href="#afdee28aea1c28289d2ffb07179916650a067e9430aefefa2d479122986d55edd9">TextureExtension_SparseOpaqueBinds</a>
-, <a class="el" href="#afdee28aea1c28289d2ffb07179916650a07a12c122be00ef8eba3b3ced82d9f89">TextureExtension_SparsePendingBinds</a>
-, <br />
-&#160;&#160;<a class="el" href="#afdee28aea1c28289d2ffb07179916650a7f924d70088445a879ed034eb9a66d11">TextureExtension_SparseOpaqueAllocs</a>
-<br />
+<tr class="memitem:afdee28aea1c28289d2ffb07179916650" id="r_afdee28aea1c28289d2ffb07179916650"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#afdee28aea1c28289d2ffb07179916650a0e035a19f8e1140354e97a22d7976fdc">TextureExtension_SwapInfo</a>
  }</td></tr>
 <tr class="separator:afdee28aea1c28289d2ffb07179916650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b56118d8607c9cb333a44d4ce37914" id="r_a23b56118d8607c9cb333a44d4ce37914"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a69ebd0cacae49b77daf57160f717a9b7">TextureView_LoadInfo</a>
-, <a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a9b2218f20552e3c15de281d7811af7f9">TextureView_RuntimeInfo</a>
- }</td></tr>
-<tr class="separator:a23b56118d8607c9cb333a44d4ce37914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1083a2f43da125bb8aa8dc8250f232" id="r_a2a1083a2f43da125bb8aa8dc8250f232"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232acc7d03c1c9d85f4332391d7f0900a2bd">VertexSignature_ProgramLayoutMapping</a>
-, <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232aa9a30f83fcae944efdc95d015afaa167">VertexSignature_VkPipelineInfo</a>
-, <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a20bcada0cced6e28826303058572b01f">VertexSignature_BindInfo</a>
-, <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a85265d6c246aac2f517db695db209c33">VertexSignature_LayoutInfo</a>
+<tr class="memitem:a23b56118d8607c9cb333a44d4ce37914" id="r_a23b56118d8607c9cb333a44d4ce37914"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a263445b328f43cbdf15350710810b17a">TextureExtension_SparsePageTable</a>
+, <a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a7e010d8eb849bd2d9d62cc2cb655fe17">TextureExtension_SparseMemoryRequirements</a>
+, <a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a067e9430aefefa2d479122986d55edd9">TextureExtension_SparseOpaqueBinds</a>
+, <a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a07a12c122be00ef8eba3b3ced82d9f89">TextureExtension_SparsePendingBinds</a>
 , <br />
-&#160;&#160;<a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a3748bedec9badba478427992738faeea">VertexSignature_StreamSize</a>
-, <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a4a9d3b8f48e61241dc4c6ef95d64915c">VertexSignature_DynamicBindInfo</a>
+&#160;&#160;<a class="el" href="#a23b56118d8607c9cb333a44d4ce37914a7f924d70088445a879ed034eb9a66d11">TextureExtension_SparseOpaqueAllocs</a>
 <br />
  }</td></tr>
+<tr class="separator:a23b56118d8607c9cb333a44d4ce37914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1083a2f43da125bb8aa8dc8250f232" id="r_a2a1083a2f43da125bb8aa8dc8250f232"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a69ebd0cacae49b77daf57160f717a9b7">TextureView_LoadInfo</a>
+, <a class="el" href="#a2a1083a2f43da125bb8aa8dc8250f232a9b2218f20552e3c15de281d7811af7f9">TextureView_RuntimeInfo</a>
+ }</td></tr>
 <tr class="separator:a2a1083a2f43da125bb8aa8dc8250f232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66de055bb5422c8f13f191264d4e4ed4" id="r_a66de055bb5422c8f13f191264d4e4ed4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4acc7d03c1c9d85f4332391d7f0900a2bd">VertexSignature_ProgramLayoutMapping</a>
+, <a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4aa9a30f83fcae944efdc95d015afaa167">VertexSignature_VkPipelineInfo</a>
+, <a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4a20bcada0cced6e28826303058572b01f">VertexSignature_BindInfo</a>
+, <a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4a85265d6c246aac2f517db695db209c33">VertexSignature_LayoutInfo</a>
+, <br />
+&#160;&#160;<a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4a3748bedec9badba478427992738faeea">VertexSignature_StreamSize</a>
+, <a class="el" href="#a66de055bb5422c8f13f191264d4e4ed4a4a9d3b8f48e61241dc4c6ef95d64915c">VertexSignature_DynamicBindInfo</a>
+<br />
+ }</td></tr>
+<tr class="separator:a66de055bb5422c8f13f191264d4e4ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -626,8 +634,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
 <tr class="separator:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33631508e7e7b011fed57eba8d97233e" id="r_a33631508e7e7b011fed57eba8d97233e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33631508e7e7b011fed57eba8d97233e">SparseTextureBind</a> (const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
-<tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse bind operations  <br /></td></tr>
+<tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse image binding operations  <br /></td></tr>
 <tr class="separator:a33631508e7e7b011fed57eba8d97233e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c87b67db2b5dcfa1f1d5e7758f952a" id="r_a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62c87b67db2b5dcfa1f1d5e7758f952a">SparseBufferBind</a> (const VkBuffer buf, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;binds)</td></tr>
+<tr class="memdesc:a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a set of sparse binding operations for buffers.  <br /></td></tr>
+<tr class="separator:a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26290f814323eff2f7b9e1d8bdbd475a" id="r_a26290f814323eff2f7b9e1d8bdbd475a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26290f814323eff2f7b9e1d8bdbd475a">ClearPending</a> ()</td></tr>
 <tr class="memdesc:a26290f814323eff2f7b9e1d8bdbd475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear pending resources.  <br /></td></tr>
 <tr class="separator:a26290f814323eff2f7b9e1d8bdbd475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -816,6 +827,8 @@ Variables</h2></td></tr>
 <tr class="separator:a06a18e7d5a8a8e8f75495d1cf4b13d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d15a80259875b607528737d449b2a87" id="r_a3d15a80259875b607528737d449b2a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a093f0889a85045ab986534dcce975fc4">VkBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d15a80259875b607528737d449b2a87">bufferAllocator</a></td></tr>
 <tr class="separator:a3d15a80259875b607528737d449b2a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9560ead2c17ee24b461ca22d37e4c5ae" id="r_a9560ead2c17ee24b461ca22d37e4c5ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0a06b9869425a09447d8fe8402097db7">VkBufferSparseExtensionAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9560ead2c17ee24b461ca22d37e4c5ae">bufferSparseExtensionAllocator</a></td></tr>
+<tr class="separator:a9560ead2c17ee24b461ca22d37e4c5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3d3ddac1aeb7f44ef2469482cdde60">commandBuffers</a></td></tr>
 <tr class="separator:afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6a9172b9a58d5ffdfb9b79a15696fe" id="r_a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6a9172b9a58d5ffdfb9b79a15696fe">commandBufferPools</a> (0x00FFFFFF)</td></tr>
@@ -1030,6 +1043,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF , <a class="el" href="struct_vulkan_1_1_vk_buffer_load_info.html">VkBufferLoadInfo</a> , <a class="el" href="struct_vulkan_1_1_vk_buffer_runtime_info.html">VkBufferRuntimeInfo</a> , <a class="el" href="struct_vulkan_1_1_vk_buffer_map_info.html">VkBufferMapInfo</a>&gt; <a class="el" href="#a093f0889a85045ab986534dcce975fc4">Vulkan::VkBufferAllocator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a06b9869425a09447d8fe8402097db7" name="a0a06b9869425a09447d8fe8402097db7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a06b9869425a09447d8fe8402097db7">&#9670;&#160;</a></span>VkBufferSparseExtensionAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFF , <a class="el" href="struct_vulkan_1_1_buffer_sparse_page_table.html">BufferSparsePageTable</a> , <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkSparseMemoryBind&gt;&gt; <a class="el" href="#a0a06b9869425a09447d8fe8402097db7">Vulkan::VkBufferSparseExtensionAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1392,8 +1419,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6b05f8aa2b7df30f376d11c7efdef567aa8ae0bd58e7ea78e1e3343fdad50af45" name="a6b05f8aa2b7df30f376d11c7efdef567aa8ae0bd58e7ea78e1e3343fdad50af45"></a>CommandBufferPool_VkDevice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b05f8aa2b7df30f376d11c7efdef567a07cf6ab20183ac7f63f9f8049f4e7e19" name="a6b05f8aa2b7df30f376d11c7efdef567a07cf6ab20183ac7f63f9f8049f4e7e19"></a>CommandBufferPool_VkCommandPool&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6b05f8aa2b7df30f376d11c7efdef567a5ba9ad50e73720012072c581fe39e662" name="a6b05f8aa2b7df30f376d11c7efdef567a5ba9ad50e73720012072c581fe39e662"></a>BufferExtension_SparsePageTable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6b05f8aa2b7df30f376d11c7efdef567a3b001b7ba06b735a85f9696c357d4d83" name="a6b05f8aa2b7df30f376d11c7efdef567a3b001b7ba06b735a85f9696c357d4d83"></a>BufferExtension_SparsePendingBinds&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1410,20 +1437,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca8ad9eb302a34eeb3fd139a7893307837" name="acc8265e93700da7802686500579b13dca8ad9eb302a34eeb3fd139a7893307837"></a>CmdBuffer_VkDevice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca94f594f72706eb3f31674dc2a4641a4f" name="acc8265e93700da7802686500579b13dca94f594f72706eb3f31674dc2a4641a4f"></a>CmdBuffer_VkCommandBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca7683ebe7ccd420e7881ff86fca642f8f" name="acc8265e93700da7802686500579b13dca7683ebe7ccd420e7881ff86fca642f8f"></a>CmdBuffer_VkCommandPool&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca2f6351d37a68b57618e75daf9fbbfcd5" name="acc8265e93700da7802686500579b13dca2f6351d37a68b57618e75daf9fbbfcd5"></a>CmdBuffer_PipelineBuildBits&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca8ae0700845435e0f16aa3a9eba329bcf" name="acc8265e93700da7802686500579b13dca8ae0700845435e0f16aa3a9eba329bcf"></a>CmdBuffer_VkPipelineBundle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca2544753b4051304c0b845da034e6832f" name="acc8265e93700da7802686500579b13dca2544753b4051304c0b845da034e6832f"></a>CmdBuffer_PendingViewports&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dcabd2486199db0727d422313d4ba95e5c5" name="acc8265e93700da7802686500579b13dcabd2486199db0727d422313d4ba95e5c5"></a>CmdBuffer_PendingScissors&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca9f044ebe58b6a17645d9b5f46216aa91" name="acc8265e93700da7802686500579b13dca9f044ebe58b6a17645d9b5f46216aa91"></a>CmdBuffer_Usage&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dcaa8ae0bd58e7ea78e1e3343fdad50af45" name="acc8265e93700da7802686500579b13dcaa8ae0bd58e7ea78e1e3343fdad50af45"></a>CommandBufferPool_VkDevice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acc8265e93700da7802686500579b13dca07cf6ab20183ac7f63f9f8049f4e7e19" name="acc8265e93700da7802686500579b13dca07cf6ab20183ac7f63f9f8049f4e7e19"></a>CommandBufferPool_VkCommandPool&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a62b94a313a41648ed9feba125542b19b" name="a62b94a313a41648ed9feba125542b19b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62b94a313a41648ed9feba125542b19b">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a2dbe6881829a188ef3fb49d1d2a00456" name="a2dbe6881829a188ef3fb49d1d2a00456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbe6881829a188ef3fb49d1d2a00456">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1434,8 +1455,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba967b0072933ba22994916c0431687208" name="a62b94a313a41648ed9feba125542b19ba967b0072933ba22994916c0431687208"></a>Event_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a62b94a313a41648ed9feba125542b19ba38f30830b593621abbc31901927f002e" name="a62b94a313a41648ed9feba125542b19ba38f30830b593621abbc31901927f002e"></a>Event_Info&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a8ad9eb302a34eeb3fd139a7893307837" name="a2dbe6881829a188ef3fb49d1d2a00456a8ad9eb302a34eeb3fd139a7893307837"></a>CmdBuffer_VkDevice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a94f594f72706eb3f31674dc2a4641a4f" name="a2dbe6881829a188ef3fb49d1d2a00456a94f594f72706eb3f31674dc2a4641a4f"></a>CmdBuffer_VkCommandBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a7683ebe7ccd420e7881ff86fca642f8f" name="a2dbe6881829a188ef3fb49d1d2a00456a7683ebe7ccd420e7881ff86fca642f8f"></a>CmdBuffer_VkCommandPool&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a2f6351d37a68b57618e75daf9fbbfcd5" name="a2dbe6881829a188ef3fb49d1d2a00456a2f6351d37a68b57618e75daf9fbbfcd5"></a>CmdBuffer_PipelineBuildBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a8ae0700845435e0f16aa3a9eba329bcf" name="a2dbe6881829a188ef3fb49d1d2a00456a8ae0700845435e0f16aa3a9eba329bcf"></a>CmdBuffer_VkPipelineBundle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a2544753b4051304c0b845da034e6832f" name="a2dbe6881829a188ef3fb49d1d2a00456a2544753b4051304c0b845da034e6832f"></a>CmdBuffer_PendingViewports&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456abd2486199db0727d422313d4ba95e5c5" name="a2dbe6881829a188ef3fb49d1d2a00456abd2486199db0727d422313d4ba95e5c5"></a>CmdBuffer_PendingScissors&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2dbe6881829a188ef3fb49d1d2a00456a9f044ebe58b6a17645d9b5f46216aa91" name="a2dbe6881829a188ef3fb49d1d2a00456a9f044ebe58b6a17645d9b5f46216aa91"></a>CmdBuffer_Usage&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1452,10 +1479,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a7f4ef2132241e79c60fb37b1079ae8e7" name="ad767c55d7b18810c161754a80f116c28a7f4ef2132241e79c60fb37b1079ae8e7"></a>Pass_VkLoadInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a90bfb8a58dcd6e5e9d1e7a12c516e14c" name="ad767c55d7b18810c161754a80f116c28a90bfb8a58dcd6e5e9d1e7a12c516e14c"></a>Pass_VkRuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a49e24ec05794040372d0e6f538cd65d3" name="ad767c55d7b18810c161754a80f116c28a49e24ec05794040372d0e6f538cd65d3"></a>Pass_VkRenderPassBeginInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a9b1260233645a76708672f62a1b26d70" name="ad767c55d7b18810c161754a80f116c28a9b1260233645a76708672f62a1b26d70"></a>Pass_SubpassAttachments&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a967b0072933ba22994916c0431687208" name="ad767c55d7b18810c161754a80f116c28a967b0072933ba22994916c0431687208"></a>Event_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad767c55d7b18810c161754a80f116c28a38f30830b593621abbc31901927f002e" name="ad767c55d7b18810c161754a80f116c28a38f30830b593621abbc31901927f002e"></a>Event_Info&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1472,7 +1497,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a56fb1836cd0ad146b69b88dad854a803" name="af06cab2bc731155387c93f38b4ba92a0a56fb1836cd0ad146b69b88dad854a803"></a>Pipeline_Object&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a7f4ef2132241e79c60fb37b1079ae8e7" name="af06cab2bc731155387c93f38b4ba92a0a7f4ef2132241e79c60fb37b1079ae8e7"></a>Pass_VkLoadInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a90bfb8a58dcd6e5e9d1e7a12c516e14c" name="af06cab2bc731155387c93f38b4ba92a0a90bfb8a58dcd6e5e9d1e7a12c516e14c"></a>Pass_VkRuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a49e24ec05794040372d0e6f538cd65d3" name="af06cab2bc731155387c93f38b4ba92a0a49e24ec05794040372d0e6f538cd65d3"></a>Pass_VkRenderPassBeginInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af06cab2bc731155387c93f38b4ba92a0a9b1260233645a76708672f62a1b26d70" name="af06cab2bc731155387c93f38b4ba92a0a9b1260233645a76708672f62a1b26d70"></a>Pass_SubpassAttachments&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1489,13 +1517,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0aa0087534c7be3044f385539fdb25c147" name="a8a72541c0d4aac73f0deb11205555ab0aa0087534c7be3044f385539fdb25c147"></a>ResourceTable_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0ae2b37bc38aa0431f9f63fe84cdbc663e" name="a8a72541c0d4aac73f0deb11205555ab0ae2b37bc38aa0431f9f63fe84cdbc663e"></a>ResourceTable_DescriptorSet&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a42c244817114a3b71e38a6edab7b22f7" name="a8a72541c0d4aac73f0deb11205555ab0a42c244817114a3b71e38a6edab7b22f7"></a>ResourceTable_DescriptorPoolIndex&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0aff5be145053d61bfd7223af4abc3bf5b" name="a8a72541c0d4aac73f0deb11205555ab0aff5be145053d61bfd7223af4abc3bf5b"></a>ResourceTable_Lock&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a936c322c9ff64557c52cd247a30e852c" name="a8a72541c0d4aac73f0deb11205555ab0a936c322c9ff64557c52cd247a30e852c"></a>ResourceTable_Layout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a6acfb22eec82a5e2da7b374613b81cd1" name="a8a72541c0d4aac73f0deb11205555ab0a6acfb22eec82a5e2da7b374613b81cd1"></a>ResourceTable_WriteInfos&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a92e5be15926ea2be64ceb0a455242cce" name="a8a72541c0d4aac73f0deb11205555ab0a92e5be15926ea2be64ceb0a455242cce"></a>ResourceTable_Copies&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a72541c0d4aac73f0deb11205555ab0a56fb1836cd0ad146b69b88dad854a803" name="a8a72541c0d4aac73f0deb11205555ab0a56fb1836cd0ad146b69b88dad854a803"></a>Pipeline_Object&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1511,22 +1533,20 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Resource table layout. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a38a44d3c33686bef648610c4f0a88b45" name="a9b637a64c8871b31edf767aa9af08b47a38a44d3c33686bef648610c4f0a88b45"></a>ResourceTableLayout_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47abf88a079590846055bc7b490bae28c6b" name="a9b637a64c8871b31edf767aa9af08b47abf88a079590846055bc7b490bae28c6b"></a>ResourceTableLayout_SetLayout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47aec29da221608313a08cd9eea70eb511b" name="a9b637a64c8871b31edf767aa9af08b47aec29da221608313a08cd9eea70eb511b"></a>ResourceTableLayout_PoolSizes&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a29c4f0a5f7f27ddcbfea5307f0a0e108" name="a9b637a64c8871b31edf767aa9af08b47a29c4f0a5f7f27ddcbfea5307f0a0e108"></a>ResourceTableLayout_Samplers&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47af4fb2ffabc3ebf2c47af703f27fb463f" name="a9b637a64c8871b31edf767aa9af08b47af4fb2ffabc3ebf2c47af703f27fb463f"></a>ResourceTableLayout_ImmutableSamplerFlags&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a3b9ace6c517592ba3cd4352b50016a0d" name="a9b637a64c8871b31edf767aa9af08b47a3b9ace6c517592ba3cd4352b50016a0d"></a>ResourceTableLayout_DescriptorPools&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47ac16a96d845fb324e833d3f2b98fec1c5" name="a9b637a64c8871b31edf767aa9af08b47ac16a96d845fb324e833d3f2b98fec1c5"></a>ResourceTableLayout_DescriptorPoolFreeItems&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47aa0087534c7be3044f385539fdb25c147" name="a9b637a64c8871b31edf767aa9af08b47aa0087534c7be3044f385539fdb25c147"></a>ResourceTable_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47ae2b37bc38aa0431f9f63fe84cdbc663e" name="a9b637a64c8871b31edf767aa9af08b47ae2b37bc38aa0431f9f63fe84cdbc663e"></a>ResourceTable_DescriptorSet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a42c244817114a3b71e38a6edab7b22f7" name="a9b637a64c8871b31edf767aa9af08b47a42c244817114a3b71e38a6edab7b22f7"></a>ResourceTable_DescriptorPoolIndex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47aff5be145053d61bfd7223af4abc3bf5b" name="a9b637a64c8871b31edf767aa9af08b47aff5be145053d61bfd7223af4abc3bf5b"></a>ResourceTable_Lock&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a936c322c9ff64557c52cd247a30e852c" name="a9b637a64c8871b31edf767aa9af08b47a936c322c9ff64557c52cd247a30e852c"></a>ResourceTable_Layout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a6acfb22eec82a5e2da7b374613b81cd1" name="a9b637a64c8871b31edf767aa9af08b47a6acfb22eec82a5e2da7b374613b81cd1"></a>ResourceTable_WriteInfos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9b637a64c8871b31edf767aa9af08b47a92e5be15926ea2be64ceb0a455242cce" name="a9b637a64c8871b31edf767aa9af08b47a92e5be15926ea2be64ceb0a455242cce"></a>ResourceTable_Copies&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a41e56724e4e01258c890c0ff43e0b434" name="a41e56724e4e01258c890c0ff43e0b434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e56724e4e01258c890c0ff43e0b434">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ab06ba0c265875a68c2256bbd07ac32c4" name="ab06ba0c265875a68c2256bbd07ac32c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06ba0c265875a68c2256bbd07ac32c4">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1536,11 +1556,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resource table layout. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434ae387b205f77ccbe49f86dac79b1ee9dc" name="a41e56724e4e01258c890c0ff43e0b434ae387b205f77ccbe49f86dac79b1ee9dc"></a>Semaphore_Device&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a04d4d6accf9c4d7df192fd981b766a61" name="a41e56724e4e01258c890c0ff43e0b434a04d4d6accf9c4d7df192fd981b766a61"></a>Semaphore_VkHandle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434ac96716716e8b8b1f423ea05eefd2b3f4" name="a41e56724e4e01258c890c0ff43e0b434ac96716716e8b8b1f423ea05eefd2b3f4"></a>Semaphore_Type&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41e56724e4e01258c890c0ff43e0b434a8838e35bf4a1c629ced901e775ba41ff" name="a41e56724e4e01258c890c0ff43e0b434a8838e35bf4a1c629ced901e775ba41ff"></a>Semaphore_LastIndex&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4a38a44d3c33686bef648610c4f0a88b45" name="ab06ba0c265875a68c2256bbd07ac32c4a38a44d3c33686bef648610c4f0a88b45"></a>ResourceTableLayout_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4abf88a079590846055bc7b490bae28c6b" name="ab06ba0c265875a68c2256bbd07ac32c4abf88a079590846055bc7b490bae28c6b"></a>ResourceTableLayout_SetLayout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4aec29da221608313a08cd9eea70eb511b" name="ab06ba0c265875a68c2256bbd07ac32c4aec29da221608313a08cd9eea70eb511b"></a>ResourceTableLayout_PoolSizes&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4a29c4f0a5f7f27ddcbfea5307f0a0e108" name="ab06ba0c265875a68c2256bbd07ac32c4a29c4f0a5f7f27ddcbfea5307f0a0e108"></a>ResourceTableLayout_Samplers&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4af4fb2ffabc3ebf2c47af703f27fb463f" name="ab06ba0c265875a68c2256bbd07ac32c4af4fb2ffabc3ebf2c47af703f27fb463f"></a>ResourceTableLayout_ImmutableSamplerFlags&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4a3b9ace6c517592ba3cd4352b50016a0d" name="ab06ba0c265875a68c2256bbd07ac32c4a3b9ace6c517592ba3cd4352b50016a0d"></a>ResourceTableLayout_DescriptorPools&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab06ba0c265875a68c2256bbd07ac32c4ac16a96d845fb324e833d3f2b98fec1c5" name="ab06ba0c265875a68c2256bbd07ac32c4ac16a96d845fb324e833d3f2b98fec1c5"></a>ResourceTableLayout_DescriptorPoolFreeItems&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1557,16 +1582,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37cae1659379d4b3553b12096de3cdca19f2" name="aa36f8d8cc547ac5159188ed579f4c37cae1659379d4b3553b12096de3cdca19f2"></a>Shader_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca7c4c58d36ecb88248f83c464ea0bb032" name="aa36f8d8cc547ac5159188ed579f4c37ca7c4c58d36ecb88248f83c464ea0bb032"></a>Shader_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca8f917ca4255005fcd5313a4335f05c75" name="aa36f8d8cc547ac5159188ed579f4c37ca8f917ca4255005fcd5313a4335f05c75"></a>Shader_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37cab82ad376532a4e00359ff684dbf3819a" name="aa36f8d8cc547ac5159188ed579f4c37cab82ad376532a4e00359ff684dbf3819a"></a>Shader_Programs&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37cae387b205f77ccbe49f86dac79b1ee9dc" name="aa36f8d8cc547ac5159188ed579f4c37cae387b205f77ccbe49f86dac79b1ee9dc"></a>Semaphore_Device&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca04d4d6accf9c4d7df192fd981b766a61" name="aa36f8d8cc547ac5159188ed579f4c37ca04d4d6accf9c4d7df192fd981b766a61"></a>Semaphore_VkHandle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37cac96716716e8b8b1f423ea05eefd2b3f4" name="aa36f8d8cc547ac5159188ed579f4c37cac96716716e8b8b1f423ea05eefd2b3f4"></a>Semaphore_Type&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa36f8d8cc547ac5159188ed579f4c37ca8838e35bf4a1c629ced901e775ba41ff" name="aa36f8d8cc547ac5159188ed579f4c37ca8838e35bf4a1c629ced901e775ba41ff"></a>Semaphore_LastIndex&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a59f782e64a8b2bedf1e32084b265e900" name="a59f782e64a8b2bedf1e32084b265e900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59f782e64a8b2bedf1e32084b265e900">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a020445c4936b8bf7bd0826bd84addf47" name="a020445c4936b8bf7bd0826bd84addf47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a020445c4936b8bf7bd0826bd84addf47">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1577,9 +1602,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a59f782e64a8b2bedf1e32084b265e900a094a41aeb09fcff4df897ea5eabce2e6" name="a59f782e64a8b2bedf1e32084b265e900a094a41aeb09fcff4df897ea5eabce2e6"></a>ShaderProgram_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59f782e64a8b2bedf1e32084b265e900af633b171937410022a4a9873ff7639c5" name="a59f782e64a8b2bedf1e32084b265e900af633b171937410022a4a9873ff7639c5"></a>ShaderProgram_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59f782e64a8b2bedf1e32084b265e900a2d8ea4e095d185eac03256cea7cb588b" name="a59f782e64a8b2bedf1e32084b265e900a2d8ea4e095d185eac03256cea7cb588b"></a>ShaderProgram_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47ae1659379d4b3553b12096de3cdca19f2" name="a020445c4936b8bf7bd0826bd84addf47ae1659379d4b3553b12096de3cdca19f2"></a>Shader_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47a7c4c58d36ecb88248f83c464ea0bb032" name="a020445c4936b8bf7bd0826bd84addf47a7c4c58d36ecb88248f83c464ea0bb032"></a>Shader_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47a8f917ca4255005fcd5313a4335f05c75" name="a020445c4936b8bf7bd0826bd84addf47a8f917ca4255005fcd5313a4335f05c75"></a>Shader_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020445c4936b8bf7bd0826bd84addf47ab82ad376532a4e00359ff684dbf3819a" name="a020445c4936b8bf7bd0826bd84addf47ab82ad376532a4e00359ff684dbf3819a"></a>Shader_Programs&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1596,10 +1622,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792ace56292e5f42746a6dc229fa7593d0b1" name="a1a968f13ed32cd3c79953bed97607792ace56292e5f42746a6dc229fa7593d0b1"></a>Texture_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792a0b282c1781301c9c54a66fd00b7bd3ca" name="a1a968f13ed32cd3c79953bed97607792a0b282c1781301c9c54a66fd00b7bd3ca"></a>Texture_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792a45ed23b9525a8acedafe111088a670f7" name="a1a968f13ed32cd3c79953bed97607792a45ed23b9525a8acedafe111088a670f7"></a>Texture_MappingInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792ac4a75a8a3f186a7ccec679eb620c7d9c" name="a1a968f13ed32cd3c79953bed97607792ac4a75a8a3f186a7ccec679eb620c7d9c"></a>Texture_WindowInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792a094a41aeb09fcff4df897ea5eabce2e6" name="a1a968f13ed32cd3c79953bed97607792a094a41aeb09fcff4df897ea5eabce2e6"></a>ShaderProgram_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792af633b171937410022a4a9873ff7639c5" name="a1a968f13ed32cd3c79953bed97607792af633b171937410022a4a9873ff7639c5"></a>ShaderProgram_ReflectionInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1a968f13ed32cd3c79953bed97607792a2d8ea4e095d185eac03256cea7cb588b" name="a1a968f13ed32cd3c79953bed97607792a2d8ea4e095d185eac03256cea7cb588b"></a>ShaderProgram_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1616,8 +1641,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aeaef9f64780e54901c9940339711a70d41" name="a2b11d0533b3839a5a55f405cff39d0aeaef9f64780e54901c9940339711a70d41"></a>TextureExtension_StencilInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aead2f8cae805b97d29ddd5a7506ea745d9" name="a2b11d0533b3839a5a55f405cff39d0aead2f8cae805b97d29ddd5a7506ea745d9"></a>TextureExtension_StencilBind&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aeace56292e5f42746a6dc229fa7593d0b1" name="a2b11d0533b3839a5a55f405cff39d0aeace56292e5f42746a6dc229fa7593d0b1"></a>Texture_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aea0b282c1781301c9c54a66fd00b7bd3ca" name="a2b11d0533b3839a5a55f405cff39d0aea0b282c1781301c9c54a66fd00b7bd3ca"></a>Texture_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aea45ed23b9525a8acedafe111088a670f7" name="a2b11d0533b3839a5a55f405cff39d0aea45ed23b9525a8acedafe111088a670f7"></a>Texture_MappingInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b11d0533b3839a5a55f405cff39d0aeac4a75a8a3f186a7ccec679eb620c7d9c" name="a2b11d0533b3839a5a55f405cff39d0aeac4a75a8a3f186a7ccec679eb620c7d9c"></a>Texture_WindowInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1634,7 +1661,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6b6844fbae4871911a04187f5a8e897a0e035a19f8e1140354e97a22d7976fdc" name="ae6b6844fbae4871911a04187f5a8e897a0e035a19f8e1140354e97a22d7976fdc"></a>TextureExtension_SwapInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6b6844fbae4871911a04187f5a8e897aef9f64780e54901c9940339711a70d41" name="ae6b6844fbae4871911a04187f5a8e897aef9f64780e54901c9940339711a70d41"></a>TextureExtension_StencilInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae6b6844fbae4871911a04187f5a8e897ad2f8cae805b97d29ddd5a7506ea745d9" name="ae6b6844fbae4871911a04187f5a8e897ad2f8cae805b97d29ddd5a7506ea745d9"></a>TextureExtension_StencilBind&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1651,11 +1679,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a263445b328f43cbdf15350710810b17a" name="afdee28aea1c28289d2ffb07179916650a263445b328f43cbdf15350710810b17a"></a>TextureExtension_SparsePageTable&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a7e010d8eb849bd2d9d62cc2cb655fe17" name="afdee28aea1c28289d2ffb07179916650a7e010d8eb849bd2d9d62cc2cb655fe17"></a>TextureExtension_SparseMemoryRequirements&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a067e9430aefefa2d479122986d55edd9" name="afdee28aea1c28289d2ffb07179916650a067e9430aefefa2d479122986d55edd9"></a>TextureExtension_SparseOpaqueBinds&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a07a12c122be00ef8eba3b3ced82d9f89" name="afdee28aea1c28289d2ffb07179916650a07a12c122be00ef8eba3b3ced82d9f89"></a>TextureExtension_SparsePendingBinds&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a7f924d70088445a879ed034eb9a66d11" name="afdee28aea1c28289d2ffb07179916650a7f924d70088445a879ed034eb9a66d11"></a>TextureExtension_SparseOpaqueAllocs&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afdee28aea1c28289d2ffb07179916650a0e035a19f8e1140354e97a22d7976fdc" name="afdee28aea1c28289d2ffb07179916650a0e035a19f8e1140354e97a22d7976fdc"></a>TextureExtension_SwapInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1672,8 +1696,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a69ebd0cacae49b77daf57160f717a9b7" name="a23b56118d8607c9cb333a44d4ce37914a69ebd0cacae49b77daf57160f717a9b7"></a>TextureView_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a9b2218f20552e3c15de281d7811af7f9" name="a23b56118d8607c9cb333a44d4ce37914a9b2218f20552e3c15de281d7811af7f9"></a>TextureView_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a263445b328f43cbdf15350710810b17a" name="a23b56118d8607c9cb333a44d4ce37914a263445b328f43cbdf15350710810b17a"></a>TextureExtension_SparsePageTable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a7e010d8eb849bd2d9d62cc2cb655fe17" name="a23b56118d8607c9cb333a44d4ce37914a7e010d8eb849bd2d9d62cc2cb655fe17"></a>TextureExtension_SparseMemoryRequirements&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a067e9430aefefa2d479122986d55edd9" name="a23b56118d8607c9cb333a44d4ce37914a067e9430aefefa2d479122986d55edd9"></a>TextureExtension_SparseOpaqueBinds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a07a12c122be00ef8eba3b3ced82d9f89" name="a23b56118d8607c9cb333a44d4ce37914a07a12c122be00ef8eba3b3ced82d9f89"></a>TextureExtension_SparsePendingBinds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23b56118d8607c9cb333a44d4ce37914a7f924d70088445a879ed034eb9a66d11" name="a23b56118d8607c9cb333a44d4ce37914a7f924d70088445a879ed034eb9a66d11"></a>TextureExtension_SparseOpaqueAllocs&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1690,12 +1717,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232acc7d03c1c9d85f4332391d7f0900a2bd" name="a2a1083a2f43da125bb8aa8dc8250f232acc7d03c1c9d85f4332391d7f0900a2bd"></a>VertexSignature_ProgramLayoutMapping&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232aa9a30f83fcae944efdc95d015afaa167" name="a2a1083a2f43da125bb8aa8dc8250f232aa9a30f83fcae944efdc95d015afaa167"></a>VertexSignature_VkPipelineInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a20bcada0cced6e28826303058572b01f" name="a2a1083a2f43da125bb8aa8dc8250f232a20bcada0cced6e28826303058572b01f"></a>VertexSignature_BindInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a85265d6c246aac2f517db695db209c33" name="a2a1083a2f43da125bb8aa8dc8250f232a85265d6c246aac2f517db695db209c33"></a>VertexSignature_LayoutInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a3748bedec9badba478427992738faeea" name="a2a1083a2f43da125bb8aa8dc8250f232a3748bedec9badba478427992738faeea"></a>VertexSignature_StreamSize&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a4a9d3b8f48e61241dc4c6ef95d64915c" name="a2a1083a2f43da125bb8aa8dc8250f232a4a9d3b8f48e61241dc4c6ef95d64915c"></a>VertexSignature_DynamicBindInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a69ebd0cacae49b77daf57160f717a9b7" name="a2a1083a2f43da125bb8aa8dc8250f232a69ebd0cacae49b77daf57160f717a9b7"></a>TextureView_LoadInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2a1083a2f43da125bb8aa8dc8250f232a9b2218f20552e3c15de281d7811af7f9" name="a2a1083a2f43da125bb8aa8dc8250f232a9b2218f20552e3c15de281d7811af7f9"></a>TextureView_RuntimeInfo&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a66de055bb5422c8f13f191264d4e4ed4" name="a66de055bb5422c8f13f191264d4e4ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66de055bb5422c8f13f191264d4e4ed4">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4acc7d03c1c9d85f4332391d7f0900a2bd" name="a66de055bb5422c8f13f191264d4e4ed4acc7d03c1c9d85f4332391d7f0900a2bd"></a>VertexSignature_ProgramLayoutMapping&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4aa9a30f83fcae944efdc95d015afaa167" name="a66de055bb5422c8f13f191264d4e4ed4aa9a30f83fcae944efdc95d015afaa167"></a>VertexSignature_VkPipelineInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4a20bcada0cced6e28826303058572b01f" name="a66de055bb5422c8f13f191264d4e4ed4a20bcada0cced6e28826303058572b01f"></a>VertexSignature_BindInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4a85265d6c246aac2f517db695db209c33" name="a66de055bb5422c8f13f191264d4e4ed4a85265d6c246aac2f517db695db209c33"></a>VertexSignature_LayoutInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4a3748bedec9badba478427992738faeea" name="a66de055bb5422c8f13f191264d4e4ed4a3748bedec9badba478427992738faeea"></a>VertexSignature_StreamSize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a66de055bb5422c8f13f191264d4e4ed4a4a9d3b8f48e61241dc4c6ef95d64915c" name="a66de055bb5422c8f13f191264d4e4ed4a4a9d3b8f48e61241dc4c6ef95d64915c"></a>VertexSignature_DynamicBindInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -3548,6 +3593,29 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a62c87b67db2b5dcfa1f1d5e7758f952a" name="a62c87b67db2b5dcfa1f1d5e7758f952a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c87b67db2b5dcfa1f1d5e7758f952a">&#9670;&#160;</a></span>SparseBufferBind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::SparseBufferBind </td>
+          <td>(</td>
+          <td class="paramtype">const VkBuffer</td>          <td class="paramname"><span class="paramname"><em>buf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>binds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform a set of sparse binding operations for buffers. </p>
+
+</div>
+</div>
 <a id="a33631508e7e7b011fed57eba8d97233e" name="a33631508e7e7b011fed57eba8d97233e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33631508e7e7b011fed57eba8d97233e">&#9670;&#160;</a></span>SparseTextureBind()</h2>
 
@@ -3572,7 +3640,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>perform a set of sparse bind operations </p>
+<p>perform a set of sparse image binding operations </p>
 
 </div>
 </div>
@@ -4187,6 +4255,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a093f0889a85045ab986534dcce975fc4">VkBufferAllocator</a> Vulkan::bufferAllocator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9560ead2c17ee24b461ca22d37e4c5ae" name="a9560ead2c17ee24b461ca22d37e4c5ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9560ead2c17ee24b461ca22d37e4c5ae">&#9670;&#160;</a></span>bufferSparseExtensionAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0a06b9869425a09447d8fe8402097db7">VkBufferSparseExtensionAllocator</a> Vulkan::bufferSparseExtensionAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4958,7 +5040,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

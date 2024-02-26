@@ -1,9 +1,11 @@
 var class_frame_1_1_frame_op =
 [
     [ "BufferDependency", "struct_frame_1_1_frame_op_1_1_buffer_dependency.html", "struct_frame_1_1_frame_op_1_1_buffer_dependency" ],
+    [ "BufferSubresourceDep", "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html", "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep" ],
     [ "BuildContext", "struct_frame_1_1_frame_op_1_1_build_context.html", "struct_frame_1_1_frame_op_1_1_build_context" ],
     [ "Compiled", "struct_frame_1_1_frame_op_1_1_compiled.html", "struct_frame_1_1_frame_op_1_1_compiled" ],
     [ "TextureDependency", "struct_frame_1_1_frame_op_1_1_texture_dependency.html", "struct_frame_1_1_frame_op_1_1_texture_dependency" ],
+    [ "TextureSubresourceDep", "struct_frame_1_1_frame_op_1_1_texture_subresource_dep.html", "struct_frame_1_1_frame_op_1_1_texture_subresource_dep" ],
     [ "FrameOp", "class_frame_1_1_frame_op.html#aa9149b10b0a4776141a4de858a01593b", null ],
     [ "~FrameOp", "class_frame_1_1_frame_op.html#a3dfa6d2f60ba71d987d1c32722de2211", null ],
     [ "AddChild", "class_frame_1_1_frame_op.html#a6c235a37c4a88c6ae26ec02c10ece998", null ],

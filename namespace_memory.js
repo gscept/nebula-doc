@@ -152,6 +152,7 @@ var namespace_memory =
     [ "MoveElements", "namespace_memory.html#a93f89988ee4e0842958f8c0c4210e179", null ],
     [ "Realloc", "namespace_memory.html#a66c839285702633f8178be0224273a14", null ],
     [ "SetupHeaps", "namespace_memory.html#ae173ee11e0f1aa1ad9b8603e40ecbd4b", null ],
+    [ "StackAlloc", "namespace_memory.html#a749588060e8e43906e34f48565a7698b", null ],
     [ "Heaps", "namespace_memory.html#af9280f6da84132a1ac13d132c35cba90", null ],
     [ "HeapTypeAllocCount", "namespace_memory.html#a4f05b0dffadc15f46b2db37a2b3c9240", null ],
     [ "HeapTypeAllocSize", "namespace_memory.html#a5c716011c35bc95c6462f9289163f748", null ],

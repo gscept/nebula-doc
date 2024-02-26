@@ -132,6 +132,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html">Vulkan::GraphicsDeviceState::UploadRingBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">Vulkan::GraphicsDeviceState::SparseImageBind</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html">Vulkan::GraphicsDeviceState::SparseBufferBind</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html">Vulkan::GraphicsDeviceState::PendingDeletes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html">Vulkan::GraphicsDeviceState::PendingMarkers</a></td></tr>
@@ -204,8 +208,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate or return cached VkPipeline.  <br /></td></tr>
 <tr class="separator:a33b805dc3b4a9076ca4b1d9966d08a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33631508e7e7b011fed57eba8d97233e" id="r_a33631508e7e7b011fed57eba8d97233e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e">Vulkan::SparseTextureBind</a> (const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
-<tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse bind operations  <br /></td></tr>
+<tr class="memdesc:a33631508e7e7b011fed57eba8d97233e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a set of sparse image binding operations  <br /></td></tr>
 <tr class="separator:a33631508e7e7b011fed57eba8d97233e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c87b67db2b5dcfa1f1d5e7758f952a" id="r_a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a62c87b67db2b5dcfa1f1d5e7758f952a">Vulkan::SparseBufferBind</a> (const VkBuffer buf, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;binds)</td></tr>
+<tr class="memdesc:a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a set of sparse binding operations for buffers.  <br /></td></tr>
+<tr class="separator:a62c87b67db2b5dcfa1f1d5e7758f952a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26290f814323eff2f7b9e1d8bdbd475a" id="r_a26290f814323eff2f7b9e1d8bdbd475a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a26290f814323eff2f7b9e1d8bdbd475a">Vulkan::ClearPending</a> ()</td></tr>
 <tr class="memdesc:a26290f814323eff2f7b9e1d8bdbd475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear pending resources.  <br /></td></tr>
 <tr class="separator:a26290f814323eff2f7b9e1d8bdbd475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,11 +260,23 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on resource command buffer.  <br /></td></tr>
 <tr class="separator:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb43ef0af913ce0baa78cb335b6c72ff" id="r_acb43ef0af913ce0baa78cb335b6c72ff"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acb43ef0af913ce0baa78cb335b6c72ff">CoreGraphics::LockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:acb43ef0af913ce0baa78cb335b6c72ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock handover command buffer.  <br /></td></tr>
+<tr class="memdesc:acb43ef0af913ce0baa78cb335b6c72ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock immediate graphics command buffer.  <br /></td></tr>
 <tr class="separator:acb43ef0af913ce0baa78cb335b6c72ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a370339ade584ee567b80cd9af5eb67c2" id="r_a370339ade584ee567b80cd9af5eb67c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a370339ade584ee567b80cd9af5eb67c2">CoreGraphics::UnlockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:a370339ade584ee567b80cd9af5eb67c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
+<tr class="memdesc:a370339ade584ee567b80cd9af5eb67c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on immediate graphics command buffer.  <br /></td></tr>
 <tr class="separator:a370339ade584ee567b80cd9af5eb67c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4d6e76cf5726e5142e4d5c7a450e30" id="r_acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#acc4d6e76cf5726e5142e4d5c7a450e30">CoreGraphics::LockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
+<tr class="memdesc:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock handover transfer command buffer.  <br /></td></tr>
+<tr class="separator:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bfb51adc6eb9f0bce256a0b1f57109" id="r_af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#af6bfb51adc6eb9f0bce256a0b1f57109">CoreGraphics::UnlockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
+<tr class="memdesc:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
+<tr class="separator:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3a5899193fa091b3daa94d71bf4f3b" id="r_aee3a5899193fa091b3daa94d71bf4f3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aee3a5899193fa091b3daa94d71bf4f3b">CoreGraphics::NextSubmissionIndex</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
+<tr class="memdesc:aee3a5899193fa091b3daa94d71bf4f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next submission index for a specific queue.  <br /></td></tr>
+<tr class="separator:aee3a5899193fa091b3daa94d71bf4f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb20bc717e5df47c70e8aa8cb956bfb" id="r_a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a1eb20bc717e5df47c70e8aa8cb956bfb">CoreGraphics::PollSubmissionIndex</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
+<tr class="memdesc:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll a submission for completion.  <br /></td></tr>
+<tr class="separator:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d96cbb5e9004475aa79fe881ac0fc9" id="r_a82d96cbb5e9004475aa79fe881ac0fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a82d96cbb5e9004475aa79fe881ac0fc9">CoreGraphics::AddSubmissionEvent</a> (const <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &amp;event)</td></tr>
 <tr class="separator:a82d96cbb5e9004475aa79fe881ac0fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad62a38424b0e014c8e7c27c2941fbb51" id="r_ad62a38424b0e014c8e7c27c2941fbb51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad62a38424b0e014c8e7c27c2941fbb51">CoreGraphics::SubmitCommandBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmds, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
@@ -469,7 +488,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkgraphicsdevice_8cc.html">vkgraphicsdevice.cc</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

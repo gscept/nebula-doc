@@ -5,6 +5,7 @@ var struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info =
       [ "DecisionMapLoaded", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ffa290147669a90b5a9e974475bd638fc8a", null ]
     ] ],
     [ "decisionMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a235a336acea2430ac7cb65be2f9938a9", null ],
+    [ "enableRayTracing", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a350776c00344039d2a22fdbaeac98f45", null ],
     [ "heightMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a17c2883186286d1dd6314c190bcf0a52", null ],
     [ "ibo", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a3e00a5966f24b9b4d9c894719fa5d4fb", null ],
     [ "loadBits", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a0953f805d6dae93ffa690958351b13aa", null ],

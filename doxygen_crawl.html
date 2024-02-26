@@ -573,6 +573,7 @@
 <a href="nvx3fileformatstructs_8h_source.html"/>
 <a href="nvx3streamreader_8h_source.html"/>
 <a href="pass_8h_source.html"/>
+<a href="pinnedbuffer_8h_source.html"/>
 <a href="pipeline_8h_source.html"/>
 <a href="pixelformat_8h_source.html"/>
 <a href="primitivegroup_8h_source.html"/>
@@ -660,6 +661,7 @@
 <a href="framesubpassorderedbatch_8h_source.html"/>
 <a href="framesubpassplugin_8h_source.html"/>
 <a href="frameswap_8h_source.html"/>
+<a href="ddgicontext_8h_source.html"/>
 <a href="bindlessregistry_8h_source.html"/>
 <a href="cameracontext_8h_source.html"/>
 <a href="camerasettings_8h_source.html"/>
@@ -686,7 +688,6 @@
 <a href="materialloader_8h_source.html"/>
 <a href="materialvariant_8h_source.html"/>
 <a href="shaderconfig_8h_source.html"/>
-<a href="shaderconfigserver_8h_source.html"/>
 <a href="model_8h_source.html"/>
 <a href="modelcontext_8h_source.html"/>
 <a href="modelloader_8h_source.html"/>
@@ -1742,6 +1743,7 @@
 <a href="nvx3streamreader_8cc.html"/>
 <a href="nvx3streamreader_8h.html"/>
 <a href="pass_8h.html"/>
+<a href="pinnedbuffer_8h.html"/>
 <a href="pipeline_8h.html"/>
 <a href="pixelformat_8cc.html"/>
 <a href="pixelformat_8h.html"/>
@@ -1905,6 +1907,8 @@
 <a href="framesubpassplugin_8h.html"/>
 <a href="frameswap_8cc.html"/>
 <a href="frameswap_8h.html"/>
+<a href="ddgicontext_8cc.html"/>
+<a href="ddgicontext_8h.html"/>
 <a href="bindlessregistry_8cc.html"/>
 <a href="bindlessregistry_8h.html"/>
 <a href="cameracontext_8cc.html"/>
@@ -1956,8 +1960,6 @@
 <a href="materialvariant_8h.html"/>
 <a href="shaderconfig_8cc.html"/>
 <a href="shaderconfig_8h.html"/>
-<a href="shaderconfigserver_8cc.html"/>
-<a href="shaderconfigserver_8h.html"/>
 <a href="model_8cc.html"/>
 <a href="model_8h.html"/>
 <a href="modelcontext_8cc.html"/>
@@ -2534,6 +2536,8 @@
 <a href="struct_core_graphics_1_1_buffer_id.html"/>
 <a href="struct_core_graphics_1_1_buffer_set.html"/>
 <a href="struct_core_graphics_1_1_buffer_set-members.html"/>
+<a href="struct_core_graphics_1_1_buffer_sparse_page.html"/>
+<a href="struct_core_graphics_1_1_buffer_sparse_page-members.html"/>
 <a href="struct_core_graphics_1_1_buffer_subresource_info.html"/>
 <a href="struct_core_graphics_1_1_buffer_subresource_info-members.html"/>
 <a href="struct_core_graphics_1_1_buffer_with_staging.html"/>
@@ -2639,6 +2643,8 @@
 <a href="struct_core_graphics_1_1_pass_create_info.html"/>
 <a href="struct_core_graphics_1_1_pass_create_info-members.html"/>
 <a href="struct_core_graphics_1_1_pass_id.html"/>
+<a href="struct_core_graphics_1_1_pinned_buffer.html"/>
+<a href="struct_core_graphics_1_1_pinned_buffer-members.html"/>
 <a href="struct_core_graphics_1_1_pipeline_create_info.html"/>
 <a href="struct_core_graphics_1_1_pipeline_create_info-members.html"/>
 <a href="struct_core_graphics_1_1_pipeline_id.html"/>
@@ -2961,12 +2967,16 @@
 <a href="class_frame_1_1_frame_op-members.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_buffer_dependency.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_buffer_dependency-members.html"/>
+<a href="struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html"/>
+<a href="struct_frame_1_1_frame_op_1_1_buffer_subresource_dep-members.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_build_context.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_build_context-members.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_compiled.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_compiled-members.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_texture_dependency.html"/>
 <a href="struct_frame_1_1_frame_op_1_1_texture_dependency-members.html"/>
+<a href="struct_frame_1_1_frame_op_1_1_texture_subresource_dep.html"/>
+<a href="struct_frame_1_1_frame_op_1_1_texture_subresource_dep-members.html"/>
 <a href="class_frame_1_1_frame_pass.html"/>
 <a href="class_frame_1_1_frame_pass-members.html"/>
 <a href="struct_frame_1_1_frame_pass_1_1_compiled_impl.html"/>
@@ -3136,6 +3146,11 @@
 <a href="namespace_gcc.html"/>
 <a href="class_gcc_1_1_gcc_interlocked.html"/>
 <a href="class_gcc_1_1_gcc_interlocked-members.html"/>
+<a href="namespace_g_i.html"/>
+<a href="class_g_i_1_1_d_d_g_i_context.html"/>
+<a href="class_g_i_1_1_d_d_g_i_context-members.html"/>
+<a href="struct_g_i_1_1_d_d_g_i_context_1_1_volume.html"/>
+<a href="struct_g_i_1_1_d_d_g_i_context_1_1_volume-members.html"/>
 <a href="namespace_g_l_f_w.html"/>
 <a href="class_g_l_f_w_1_1_g_l_f_w_display_device.html"/>
 <a href="class_g_l_f_w_1_1_g_l_f_w_display_device-members.html"/>
@@ -3519,34 +3534,33 @@
 <a href="class_linux_1_1_linux_thread_local_ptr-members.html"/>
 <a href="namespace_ltc_l_u_ts.html"/>
 <a href="namespace_materials.html"/>
+<a href="struct_materials_1_1_material_buffer.html"/>
+<a href="struct_materials_1_1_material_buffer-members.html"/>
 <a href="struct_materials_1_1_material_constant.html"/>
 <a href="struct_materials_1_1_material_constant-members.html"/>
-<a href="struct_materials_1_1_material_create_info.html"/>
-<a href="struct_materials_1_1_material_create_info-members.html"/>
 <a href="struct_materials_1_1_material_id.html"/>
 <a href="struct_materials_1_1_material_instance_id.html"/>
 <a href="class_materials_1_1_material_loader.html"/>
 <a href="class_materials_1_1_material_loader-members.html"/>
+<a href="struct_materials_1_1_material_template_value.html"/>
+<a href="struct_materials_1_1_material_template_value-members.html"/>
 <a href="struct_materials_1_1_material_texture.html"/>
 <a href="struct_materials_1_1_material_texture-members.html"/>
 <a href="struct_materials_1_1_material_variant.html"/>
 <a href="struct_materials_1_1_material_variant-members.html"/>
-<a href="struct_materials_1_1_material_variant_1_1_internal_type.html"/>
-<a href="struct_materials_1_1_material_variant_1_1_internal_type-members.html"/>
-<a href="struct_materials_1_1_material_variant_1_1_texture_handle_tuple.html"/>
-<a href="struct_materials_1_1_material_variant_1_1_texture_handle_tuple-members.html"/>
-<a href="class_materials_1_1_shader_config.html"/>
-<a href="class_materials_1_1_shader_config-members.html"/>
 <a href="struct_materials_1_1_shader_config_batch_constant.html"/>
 <a href="struct_materials_1_1_shader_config_batch_constant-members.html"/>
 <a href="struct_materials_1_1_shader_config_batch_texture.html"/>
 <a href="struct_materials_1_1_shader_config_batch_texture-members.html"/>
 <a href="struct_materials_1_1_shader_config_constant.html"/>
 <a href="struct_materials_1_1_shader_config_constant-members.html"/>
-<a href="class_materials_1_1_shader_config_server.html"/>
-<a href="class_materials_1_1_shader_config_server-members.html"/>
 <a href="struct_materials_1_1_shader_config_texture.html"/>
 <a href="struct_materials_1_1_shader_config_texture-members.html"/>
+<a href="namespace_material_templates.html"/>
+<a href="struct_material_templates_1_1_entry.html"/>
+<a href="struct_material_templates_1_1_entry-members.html"/>
+<a href="struct_material_templates_1_1_entry_1_1_pass.html"/>
+<a href="struct_material_templates_1_1_entry_1_1_pass-members.html"/>
 <a href="namespace_math.html"/>
 <a href="class_math_1_1_angular_p_feedback_loop.html"/>
 <a href="class_math_1_1_angular_p_feedback_loop-members.html"/>
@@ -4017,6 +4031,8 @@
 <a href="class_render_util_1_1_node_lookup_util.html"/>
 <a href="class_render_util_1_1_node_lookup_util-members.html"/>
 <a href="namespace_resources.html"/>
+<a href="struct_resources_1_1_partial_load_bits.html"/>
+<a href="struct_resources_1_1_partial_load_bits-members.html"/>
 <a href="class_resources_1_1_resource.html"/>
 <a href="class_resources_1_1_resource-members.html"/>
 <a href="class_resources_1_1_resource_loader.html"/>
@@ -4357,6 +4373,8 @@
 <a href="struct_vulkan_1_1_bind_info-members.html"/>
 <a href="struct_vulkan_1_1_buffer_mapping.html"/>
 <a href="struct_vulkan_1_1_buffer_mapping-members.html"/>
+<a href="struct_vulkan_1_1_buffer_sparse_page_table.html"/>
+<a href="struct_vulkan_1_1_buffer_sparse_page_table-members.html"/>
 <a href="struct_vulkan_1_1_command_buffer_pools.html"/>
 <a href="struct_vulkan_1_1_command_buffer_pools-members.html"/>
 <a href="struct_vulkan_1_1_derivative_layout.html"/>
@@ -4377,6 +4395,10 @@
 <a href="struct_vulkan_1_1_graphics_device_state_1_1_pending_markers-members.html"/>
 <a href="struct_vulkan_1_1_graphics_device_state_1_1_queries.html"/>
 <a href="struct_vulkan_1_1_graphics_device_state_1_1_queries-members.html"/>
+<a href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html"/>
+<a href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind-members.html"/>
+<a href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html"/>
+<a href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind-members.html"/>
 <a href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html"/>
 <a href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer-members.html"/>
 <a href="struct_vulkan_1_1_instance_setup.html"/>
@@ -4690,6 +4712,7 @@
 <a href="dir_33a8f262685cfb8bf940760178db603b.html"/>
 <a href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html"/>
 <a href="dir_6945fd6b653e81c237bd4b052abe4c81.html"/>
+<a href="dir_e5a74d5526190184be8494ad0b684512.html"/>
 <a href="dir_37d47b35a600897723b5982f8c0b9332.html"/>
 <a href="dir_40094bcf143f2ba82283e9b3e6347ba8.html"/>
 <a href="dir_e32bf2807c7ab5895d567bc2d9912be9.html"/>
@@ -5065,6 +5088,7 @@
 <a href="functions_enum.html"/>
 <a href="functions_enum.html"/>
 <a href="functions_enum.html"/>
+<a href="functions_enum.html"/>
 <a href="functions_eval.html"/>
 <a href="functions_eval_a.html"/>
 <a href="functions_eval_b.html"/>
@@ -5164,6 +5188,7 @@
 <a href="globals_u.html"/>
 <a href="globals_v.html"/>
 <a href="globals_w.html"/>
+<a href="globals_x.html"/>
 <a href="globals_func.html"/>
 <a href="globals_func_a.html"/>
 <a href="globals_func_d.html"/>
@@ -5223,5 +5248,6 @@
 <a href="globals_defs_u.html"/>
 <a href="globals_defs_v.html"/>
 <a href="globals_defs_w.html"/>
+<a href="globals_defs_x.html"/>
 </body>
 </html>

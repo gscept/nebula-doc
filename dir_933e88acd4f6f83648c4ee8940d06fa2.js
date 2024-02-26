@@ -10,6 +10,7 @@ var dir_933e88acd4f6f83648c4ee8940d06fa2 =
     [ "decals", "dir_99a4eb08a62d8aaf88a7ccf3dc608519.html", "dir_99a4eb08a62d8aaf88a7ccf3dc608519" ],
     [ "fog", "dir_662ddff7e7118d71858068f6a49bd915.html", "dir_662ddff7e7118d71858068f6a49bd915" ],
     [ "frame", "dir_566fb58dda2ca15cae9b00ab032b80fc.html", "dir_566fb58dda2ca15cae9b00ab032b80fc" ],
+    [ "gi", "dir_e5a74d5526190184be8494ad0b684512.html", "dir_e5a74d5526190184be8494ad0b684512" ],
     [ "graphics", "dir_9ca153d2197e5a64e112f2977692b41a.html", "dir_9ca153d2197e5a64e112f2977692b41a" ],
     [ "input", "dir_78fa18e68da72083c2d2a2968060df43.html", "dir_78fa18e68da72083c2d2a2968060df43" ],
     [ "instancing", "dir_4c0ffd3dc42a82a8b1d1e14dd7246a3a.html", "dir_4c0ffd3dc42a82a8b1d1e14dd7246a3a" ],

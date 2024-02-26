@@ -93,7 +93,9 @@ $(function(){initNavTree('shaderconfig_8h.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">shaderconfig.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -114,6 +116,8 @@ $(function(){initNavTree('shaderconfig_8h.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_template_value.html">Materials::MaterialTemplateValue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_shader_config_texture.html">Materials::ShaderConfigTexture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_shader_config_batch_texture.html">Materials::ShaderConfigBatchTexture</a></td></tr>
@@ -122,14 +126,45 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_shader_config_batch_constant.html">Materials::ShaderConfigBatchConstant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_materials_1_1_shader_config.html">Materials::ShaderConfig</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_material_templates_1_1_entry.html">MaterialTemplates::Entry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_material_templates_1_1_entry_1_1_pass.html">MaterialTemplates::Entry::Pass</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_materials" id="r_namespace_materials"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html">Materials</a></td></tr>
-<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_materials.html" title="Materials represent a set of settings and a correlated shader configuration, which tells the engine w...">Materials</a> represent a set of settings and a correlated shader configuration, which tells the engine which shader to use and how to apply the constants and textures on each respective shader. <br /></td></tr>
+<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material special version of variant. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_material_templates" id="r_namespace_material_templates"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_material_templates.html">MaterialTemplates</a></td></tr>
+<tr class="memdesc:namespace_material_templates"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_materials.html" title="Material special version of variant.">Materials</a> represent a set of settings and a correlated shader configuration, which tells the engine which shader to use and how to apply the constants and textures on each respective shader. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af7b504f820c272f4c2243fffdf4a2dcb" id="r_af7b504f820c272f4c2243fffdf4a2dcb"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcb">Materials::MaterialProperties</a> { <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba4e69f1c58994758054563aa7392ffa4c">Materials::BRDF</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbaa5d08bf980fb336d665cedd18773eeac">Materials::BSDF</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbadd16f22bbd2683d2c669d9743895cc23">Materials::GLTF</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbacfc126be5c3f5c76fb082aa773f24b3d">Materials::Unlit</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba13d58cff0cb4af92f59d633e0a45c9b4">Materials::Unlit2</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba8113026da2bb07582492f99cba389ed3">Materials::Unlit3</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba7df605cb783af90c2a08bb0d735f0200">Materials::Unlit4</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba63fbbc4fe17b5b4262ebe7c2921518ed">Materials::Skybox</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba0cc0a0507cf3d31e5089f420a4cf8b4b">Materials::Legacy</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba02469103e1a1ccf920d9c620cb7a7415">Materials::REQUIRED_NUM_CONTENT_LOADERS</a> = Legacy + 1
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcba4ccfea7a25fae3c1d31555f0856d2b42">Materials::Terrain</a>
+, <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbab3e3076d9b3c53bede50d468b647b109">Materials::Num</a>
+<br />
+ }</td></tr>
+<tr class="separator:af7b504f820c272f4c2243fffdf4a2dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab9536e17a7c168669c28bab9ff4adc40" id="r_ab9536e17a7c168669c28bab9ff4adc40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ab9536e17a7c168669c28bab9ff4adc40">Materials::__ImplementEnumBitOperators</a> (<a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcb">MaterialProperties</a>)</td></tr>
+<tr class="separator:ab9536e17a7c168669c28bab9ff4adc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +173,7 @@ Namespaces</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="shaderconfig_8h.html">shaderconfig.h</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -328,6 +328,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a13ae93b4a505f65296e8afd5cd682b79" id="r_a13ae93b4a505f65296e8afd5cd682b79"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ae93b4a505f65296e8afd5cd682b79">FreeVirtual</a> (void *ptr, size_t size)</td></tr>
 <tr class="memdesc:a13ae93b4a505f65296e8afd5cd682b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">free virtual memory  <br /></td></tr>
 <tr class="separator:a13ae93b4a505f65296e8afd5cd682b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749588060e8e43906e34f48565a7698b" id="r_a749588060e8e43906e34f48565a7698b"><td class="memItemLeft" align="right" valign="top">__forceinline void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a749588060e8e43906e34f48565a7698b">StackAlloc</a> (size_t size)</td></tr>
+<tr class="memdesc:a749588060e8e43906e34f48565a7698b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory on the stack.  <br /></td></tr>
+<tr class="separator:a749588060e8e43906e34f48565a7698b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1103820d68788c85bbb28a62e05d99e2" id="r_a1103820d68788c85bbb28a62e05d99e2"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1103820d68788c85bbb28a62e05d99e2">Move</a> (const void *from, void *to, size_t numBytes)</td></tr>
 <tr class="memdesc:a1103820d68788c85bbb28a62e05d99e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move a chunk of memory, can handle overlapping regions.  <br /></td></tr>
 <tr class="separator:a1103820d68788c85bbb28a62e05d99e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1315,6 +1318,25 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a749588060e8e43906e34f48565a7698b" name="a749588060e8e43906e34f48565a7698b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749588060e8e43906e34f48565a7698b">&#9670;&#160;</a></span>StackAlloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * Memory::StackAlloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate memory on the stack. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="af9280f6da84132a1ac13d132c35cba90" name="af9280f6da84132a1ac13d132c35cba90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9280f6da84132a1ac13d132c35cba90">&#9670;&#160;</a></span>Heaps</h2>
@@ -1532,7 +1554,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

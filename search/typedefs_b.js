@@ -1,7 +1,7 @@
 var searchData=
 [
   ['mask_0',['Mask',['../class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897',1,'CoreGraphics::ShaderFeature']]],
-  ['materialallocator_1',['MaterialAllocator',['../namespace_materials.html#a61c0303396bf58e2abc7fcdebcaa41c3',1,'Materials']]],
+  ['materialallocator_1',['MaterialAllocator',['../namespace_materials.html#ae38e2ac7ec5e8e63d104b904f562ebb4',1,'Materials']]],
   ['materialinstanceallocator_2',['MaterialInstanceAllocator',['../namespace_materials.html#a35832df49e8586e0f1b29d3422a3c706',1,'Materials']]],
   ['meshallocator_3',['MeshAllocator',['../namespace_core_graphics.html#a60be98450617bedad4b9d948f539396c',1,'CoreGraphics']]],
   ['meshresourceallocator_4',['MeshResourceAllocator',['../namespace_core_graphics.html#ae65f5b7eed611cb61bbb64401cea73b1',1,'CoreGraphics']]],

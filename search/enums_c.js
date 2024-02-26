@@ -2,7 +2,7 @@ var searchData=
 [
   ['maptype_0',['MapType',['../namespace_core_graphics_1_1_gpu_buffer_types.html#ace9b9ef8933f3b3ba27d907ddfd303ad',1,'CoreGraphics::GpuBufferTypes']]],
   ['materialinstancemembers_1',['MaterialInstanceMembers',['../namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf',1,'Materials']]],
-  ['materialmembers_2',['MaterialMembers',['../namespace_materials.html#a52cbbcd9c124e016ee978e9b5865c51f',1,'Materials']]],
+  ['materialproperties_2',['MaterialProperties',['../namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcb',1,'Materials']]],
   ['memorypooltype_3',['MemoryPoolType',['../namespace_core_graphics.html#a6d05babede644415820eca607bed06ce',1,'CoreGraphics']]],
   ['meshtopologytype_4',['MeshTopologyType',['../namespace_physics.html#ad0791d702e1e021959c9af906b492bff',1,'Physics']]],
   ['mode_5',['Mode',['../struct_resources_1_1_resource_loader_1_1___pending_resource_load.html#adeca43dee46034901bd04ca321fc67de',1,'Resources::ResourceLoader::_PendingResourceLoad']]],

@@ -6,6 +6,7 @@ var globalconstants_8h =
     [ "DestroyGlobalConstants", "globalconstants_8h.html#abfaaf601521367e20816530a221653ed", null ],
     [ "FlushUpdates", "globalconstants_8h.html#ad1770ae0ad7fcee7974da629b13ed4e6", null ],
     [ "GetFrameResourceTable", "globalconstants_8h.html#a5e961733b7439059ef620415bde505f4", null ],
+    [ "GetOffsets", "globalconstants_8h.html#aacf4b6277d3c73f18faf94c213db7597", null ],
     [ "GetShadowViewConstants", "globalconstants_8h.html#a94f879a633507b284186bb98f37d418d", null ],
     [ "GetTickParams", "globalconstants_8h.html#aaa2d30ac74b50c3ff246fdb45fc5d9de", null ],
     [ "GetTickResourceTable", "globalconstants_8h.html#ac94f213ba6c168901d7a14df67e142f2", null ],

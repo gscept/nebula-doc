@@ -92,27 +92,241 @@ $(function(){initNavTree('materialloader_8cc.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">materialloader.cc File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="materialloader_8h_source.html">materialloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bxmlreader_8h_source.html">io/bxmlreader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceserver_8h_source.html">resources/resourceserver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="shaderconfigserver_8h_source.html">shaderconfigserver.h</a>&quot;</code><br />
+<code>#include &quot;materials/materialtemplates.h&quot;</code><br />
+<code>#include &quot;system_shaders/material_interface.h&quot;</code><br />
+<code>#include &quot;materials/base.h&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_materials_1_1_material_buffer.html">Materials::MaterialBuffer&lt; INTERFACE_TYPE &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_materials" id="r_namespace_materials"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html">Materials</a></td></tr>
-<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_materials.html" title="Materials represent a set of settings and a correlated shader configuration, which tells the engine w...">Materials</a> represent a set of settings and a correlated shader configuration, which tells the engine which shader to use and how to apply the constants and textures on each respective shader. <br /></td></tr>
+<tr class="memdesc:namespace_materials"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material special version of variant. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a4fa957af2ee141f7c5669899427d8f81" id="r_a4fa957af2ee141f7c5669899427d8f81"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a></td></tr>
+<tr class="separator:a4fa957af2ee141f7c5669899427d8f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c48134eee660cb366870c39ce85dd8" id="r_a62c48134eee660cb366870c39ce85dd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62c48134eee660cb366870c39ce85dd8">PROPERTIES_LIST</a></td></tr>
+<tr class="separator:a62c48134eee660cb366870c39ce85dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)&#160;&#160;&#160;MaterialBuffer&lt;MaterialInterface::x&gt; x##s = #x;</td></tr>
+<tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46d53fe78234994294715f4fbf406e26" id="r_a46d53fe78234994294715f4fbf406e26"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46d53fe78234994294715f4fbf406e26">ALLOC_MATERIAL</a>(x)</td></tr>
+<tr class="separator:a46d53fe78234994294715f4fbf406e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)</td></tr>
+<tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)&#160;&#160;&#160;        state.x##s.Flush(id, queue);</td></tr>
+<tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)</td></tr>
+<tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1f98ed34bfde73baf9721c689c07ce5b" id="r_a1f98ed34bfde73baf9721c689c07ce5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a1f98ed34bfde73baf9721c689c07ce5b">Materials::__ImplementClass</a> (<a class="el" href="class_materials_1_1_material_loader.html">Materials::MaterialLoader</a>, 'MALO', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
 <tr class="separator:a1f98ed34bfde73baf9721c689c07ce5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4d10e6d301c86f8fa26c58de7d6be0" id="r_a1e4d10e6d301c86f8fa26c58de7d6be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a1e4d10e6d301c86f8fa26c58de7d6be0">Materials::LoadTexture</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> def, const char *name, const char *tag, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;handle, bool &amp;dirtyFlag)</td></tr>
+<tr class="separator:a1e4d10e6d301c86f8fa26c58de7d6be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83d1ce912ecd1b48199ef3a3ce9b695" id="r_ac83d1ce912ecd1b48199ef3a3ce9b695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ac83d1ce912ecd1b48199ef3a3ce9b695">Materials::LoadVec4</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float value[4], const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;def)</td></tr>
+<tr class="separator:ac83d1ce912ecd1b48199ef3a3ce9b695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0fec4bfec0a8a5fa51d75218c442ab5" id="r_ae0fec4bfec0a8a5fa51d75218c442ab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ae0fec4bfec0a8a5fa51d75218c442ab5">Materials::LoadVec3</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float value[3], const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;def)</td></tr>
+<tr class="separator:ae0fec4bfec0a8a5fa51d75218c442ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5636bc79c691a61803c2246845b4a42a" id="r_a5636bc79c691a61803c2246845b4a42a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a5636bc79c691a61803c2246845b4a42a">Materials::LoadFloat</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float &amp;value, const float def)</td></tr>
+<tr class="separator:a5636bc79c691a61803c2246845b4a42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8cc0891c40220ceb8778ab00d1004eaa" id="r_a8cc0891c40220ceb8778ab00d1004eaa"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9063f2dfcd4bccb51dd38d27af0909" id="r_a4d9063f2dfcd4bccb51dd38d27af0909"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a> MaterialInterface::MaterialBindings&#160;&#160;&#160;<a class="el" href="namespace_materials.html#a8e93897eca9dad723f5b98becb3fb32e">Materials::bindings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a4d9063f2dfcd4bccb51dd38d27af0909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb1212a38ea8dcedd89219fc11aa289" id="r_abbb1212a38ea8dcedd89219fc11aa289"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c">Materials::materialBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:abbb1212a38ea8dcedd89219fc11aa289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19998c8ad3bd282a869e819e20740487" id="r_a19998c8ad3bd282a869e819e20740487"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;&#160;&#160;<a class="el" href="namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e">Materials::variantAllocatorLock</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a19998c8ad3bd282a869e819e20740487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa937f115bc74416001a4ae2b9b4a0026" id="r_aa937f115bc74416001a4ae2b9b4a0026"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 4096 &gt;&#160;&#160;&#160;<a class="el" href="namespace_materials.html#ae0df99b4267083a9b8fdf98d2a210a6e">Materials::variantAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa937f115bc74416001a4ae2b9b4a0026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e9fe3e67b707313b3b079f0188cf13" id="r_ab6e9fe3e67b707313b3b079f0188cf13"><td class="memItemLeft" >&#160;&#160;&#160;union <b>DirtySet</b> {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab4f3e08ada3c65bd05350962ec4b094c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee95affdb48e39cac87b6bbe5fd159f" id="r_a5ee95affdb48e39cac87b6bbe5fd159f"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab006308e611fdfaf5a07cf56d85806c0" id="r_ab006308e611fdfaf5a07cf56d85806c0"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_materials.html#ac37785012da1cde7b693eb85392965ee">Materials::graphicsDirty</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab006308e611fdfaf5a07cf56d85806c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1258ec09e0365ca9958c56b21e3006f" id="r_ae1258ec09e0365ca9958c56b21e3006f"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_materials.html#a9a2fe8308c947c205a49248b501052a4">Materials::computeDirty</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ae1258ec09e0365ca9958c56b21e3006f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee95affdb48e39cac87b6bbe5fd159f" id="r_a5ee95affdb48e39cac87b6bbe5fd159f"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom">&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5ee95affdb48e39cac87b6bbe5fd159f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f2f5ccf83ee3c047626f7dc39f3719" id="r_aa5f2f5ccf83ee3c047626f7dc39f3719"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="namespace_materials.html#a6d4f485fd3d958a93a3b0d3a5de574cd">Materials::bits</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa5f2f5ccf83ee3c047626f7dc39f3719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e9fe3e67b707313b3b079f0188cf13" id="r_ab6e9fe3e67b707313b3b079f0188cf13"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="namespace_materials.html#ab4f3e08ada3c65bd05350962ec4b094c">Materials::dirtySet</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab6e9fe3e67b707313b3b079f0188cf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc0891c40220ceb8778ab00d1004eaa" id="r_a8cc0891c40220ceb8778ab00d1004eaa"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a8cc0891c40220ceb8778ab00d1004eaa">Materials::state</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a8cc0891c40220ceb8778ab00d1004eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a46d53fe78234994294715f4fbf406e26" name="a46d53fe78234994294715f4fbf406e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46d53fe78234994294715f4fbf406e26">&#9670;&#160;</a></span>ALLOC_MATERIAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ALLOC_MATERIAL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">x</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_typedef" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> <span class="keywordtype">id</span> = state.x##s.Alloc();\</div>
+<div class="line">    state.bindings.x##s = <a class="code hl_function" href="namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c">CoreGraphics::BufferGetDeviceAddress</a>(state.x##s.deviceBuffer);\</div>
+<div class="line">    MaterialInterface::x&amp; material = state.x##s.Get(<span class="keywordtype">id</span>);\</div>
+<div class="line">    state.x##s.dirty = <span class="keyword">true</span>;</div>
+<div class="ttc" id="anamespace_core_graphics_html_adf8061714da864f6e76b61f80627c14c"><div class="ttname"><a href="namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c">CoreGraphics::BufferGetDeviceAddress</a></div><div class="ttdeci">CoreGraphics::DeviceAddress BufferGetDeviceAddress(const BufferId id)</div><div class="ttdoc">Get buffer device address.</div><div class="ttdef"><b>Definition</b> vkbuffer.cc:555</div></div>
+<div class="ttc" id="anamespace_ids_html_aa0d7db4adc4f444ebea663b861bfcd1c"><div class="ttname"><a href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></div><div class="ttdeci">uint32_t Id32</div><div class="ttdef"><b>Definition</b> id.h:110</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4fa957af2ee141f7c5669899427d8f81" name="a4fa957af2ee141f7c5669899427d8f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa957af2ee141f7c5669899427d8f81">&#9670;&#160;</a></span>MATERIAL_LIST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MATERIAL_LIST</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(BRDFMaterial) \</div>
+<div class="line">X(BSDFMaterial) \</div>
+<div class="line">X(GLTFMaterial) \</div>
+<div class="line">X(UnlitMaterial) \</div>
+<div class="line">X(Unlit2Material) \</div>
+<div class="line">X(Unlit3Material) \</div>
+<div class="line">X(Unlit4Material) \</div>
+<div class="line">X(SkyboxMaterial) \</div>
+<div class="line">X(LegacyMaterial) \</div>
+<div class="line">X(TerrainMaterial) \</div>
+<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:158</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a62c48134eee660cb366870c39ce85dd8" name="a62c48134eee660cb366870c39ce85dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c48134eee660cb366870c39ce85dd8">&#9670;&#160;</a></span>PROPERTIES_LIST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PROPERTIES_LIST</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(BRDF) \</div>
+<div class="line">X(BSDF) \</div>
+<div class="line">X(GLTF) \</div>
+<div class="line">X(Unlit) \</div>
+<div class="line">X(Unlit2) \</div>
+<div class="line">X(Unlit3) \</div>
+<div class="line">X(Unlit4) \</div>
+<div class="line">X(Skybox) \</div>
+<div class="line">X(Legacy) \</div>
+<div class="line">X(<a class="code hl_namespace" href="namespace_terrain.html">Terrain</a>) \</div>
+<div class="ttc" id="anamespace_terrain_html"><div class="ttname"><a href="namespace_terrain.html">Terrain</a></div><div class="ttdoc">The occupancy quad tree implements a tree which allows for a quick search.</div><div class="ttdef"><b>Definition</b> occupancyquadtree.h:15</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a618c2e7d70c13a7d7f980ce67333f0ee" name="a618c2e7d70c13a7d7f980ce67333f0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">&#9670;&#160;</a></span>X <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">x</span></td><td>)</td>
+          <td>&#160;&#160;&#160;MaterialBuffer&lt;MaterialInterface::x&gt; x##s = #x;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618c2e7d70c13a7d7f980ce67333f0ee" name="a618c2e7d70c13a7d7f980ce67333f0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">&#9670;&#160;</a></span>X <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">x</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">            <span class="keywordflow">if</span> (state.x##s.hostBuffer != CoreGraphics::InvalidBufferId) \</div>
+<div class="line">            { \</div>
+<div class="line">                hostBuffers.Append({.buf = state.x##s.hostBuffer});\</div>
+<div class="line">                deviceBuffers.Append({.buf = state.x##s.deviceBuffer});\</div>
+<div class="line">            }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a618c2e7d70c13a7d7f980ce67333f0ee" name="a618c2e7d70c13a7d7f980ce67333f0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">&#9670;&#160;</a></span>X <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">x</span></td><td>)</td>
+          <td>&#160;&#160;&#160;        state.x##s.Flush(id, queue);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618c2e7d70c13a7d7f980ce67333f0ee" name="a618c2e7d70c13a7d7f980ce67333f0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">&#9670;&#160;</a></span>X <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">x</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">case</span> MaterialProperties::x:\</div>
+<div class="line">    <span class="keywordflow">return</span> state.x##<a class="code hl_namespace" href="namespace_materials.html">Materials</a>.deviceBuffer;\</div>
+<div class="ttc" id="anamespace_materials_html"><div class="ttname"><a href="namespace_materials.html">Materials</a></div><div class="ttdoc">Material special version of variant.</div><div class="ttdef"><b>Definition</b> material.cc:13</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -120,7 +334,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="materialloader_8cc.html">materialloader.cc</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

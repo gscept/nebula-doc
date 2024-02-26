@@ -1,6 +1,8 @@
 var frameop_8h =
 [
     [ "Frame::FrameOp", "class_frame_1_1_frame_op.html", "class_frame_1_1_frame_op" ],
+    [ "Frame::FrameOp::BufferSubresourceDep", "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html", "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep" ],
+    [ "Frame::FrameOp::TextureSubresourceDep", "struct_frame_1_1_frame_op_1_1_texture_subresource_dep.html", "struct_frame_1_1_frame_op_1_1_texture_subresource_dep" ],
     [ "Frame::FrameOp::Compiled", "struct_frame_1_1_frame_op_1_1_compiled.html", "struct_frame_1_1_frame_op_1_1_compiled" ],
     [ "Frame::FrameOp::TextureDependency", "struct_frame_1_1_frame_op_1_1_texture_dependency.html", "struct_frame_1_1_frame_op_1_1_texture_dependency" ],
     [ "Frame::FrameOp::BufferDependency", "struct_frame_1_1_frame_op_1_1_buffer_dependency.html", "struct_frame_1_1_frame_op_1_1_buffer_dependency" ],

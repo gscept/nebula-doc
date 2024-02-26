@@ -18,5 +18,6 @@ var posixmemory_8h =
     [ "IsOverlapping", "posixmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
     [ "Move", "posixmemory_8h.html#a1103820d68788c85bbb28a62e05d99e2", null ],
     [ "MoveElements", "posixmemory_8h.html#a93f89988ee4e0842958f8c0c4210e179", null ],
-    [ "Realloc", "posixmemory_8h.html#a66c839285702633f8178be0224273a14", null ]
+    [ "Realloc", "posixmemory_8h.html#a66c839285702633f8178be0224273a14", null ],
+    [ "StackAlloc", "posixmemory_8h.html#a749588060e8e43906e34f48565a7698b", null ]
 ];

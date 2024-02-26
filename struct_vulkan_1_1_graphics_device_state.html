@@ -113,6 +113,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_queries.html">Queries</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html">SparseBufferBind</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">SparseImageBind</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html">UploadRingBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -166,8 +170,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a295a4fceec685ffb7f95f7a279fd306e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fef2d3455fb1c18bc88316d8e53e38" id="r_a12fef2d3455fb1c18bc88316d8e53e38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12fef2d3455fb1c18bc88316d8e53e38">uploadBuffer</a></td></tr>
 <tr class="separator:a12fef2d3455fb1c18bc88316d8e53e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b2dbd628b340e7c0f55c2e099bbdc3" id="r_a42b2dbd628b340e7c0f55c2e099bbdc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">SparseImageBind</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b2dbd628b340e7c0f55c2e099bbdc3">sparseImageBinds</a></td></tr>
+<tr class="separator:a42b2dbd628b340e7c0f55c2e099bbdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac22015e4631b4b1ba871bd3b9fffe8" id="r_adac22015e4631b4b1ba871bd3b9fffe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html">SparseBufferBind</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adac22015e4631b4b1ba871bd3b9fffe8">sparseBufferBinds</a></td></tr>
+<tr class="separator:adac22015e4631b4b1ba871bd3b9fffe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd3f2bb90e841579bd4b3916014b69d6" id="r_acd3f2bb90e841579bd4b3916014b69d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html">PendingDeletes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd3f2bb90e841579bd4b3916014b69d6">pendingDeletes</a></td></tr>
 <tr class="separator:acd3f2bb90e841579bd4b3916014b69d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4a4d91a7202347d95ab8de9f850cc6" id="r_a0f4a4d91a7202347d95ab8de9f850cc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html">PendingDeletes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f4a4d91a7202347d95ab8de9f850cc6">deletesPerSubmission</a></td></tr>
+<tr class="separator:a0f4a4d91a7202347d95ab8de9f850cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f168fe9a5712a69a024ef87b474febd" id="r_a5f168fe9a5712a69a024ef87b474febd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f168fe9a5712a69a024ef87b474febd">waitEvents</a></td></tr>
 <tr class="separator:a5f168fe9a5712a69a024ef87b474febd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b3f6496e3e46ebeccd0023fae494887" id="r_a7b3f6496e3e46ebeccd0023fae494887"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b3f6496e3e46ebeccd0023fae494887">mostRecentEvents</a> [<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9a3c6001560a69d7dca978d3b91aeebfa5">CoreGraphics::QueueType::NumQueueTypes</a>]</td></tr>
@@ -237,6 +247,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae4321c5ba04e80e504fb542b72c6c024 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b280b5c33fca3d8466bd015e8a4fef6 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a4b280b5c33fca3d8466bd015e8a4fef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a4b280b5c33fca3d8466bd015e8a4fef6">setupTransferCommandBuffer</a></td></tr>
 <tr class="separator:a4b280b5c33fca3d8466bd015e8a4fef6 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fc43fe7e0ee54800757075eee6cd5b inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a69fc43fe7e0ee54800757075eee6cd5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a69fc43fe7e0ee54800757075eee6cd5b">handoverTransferCommandBuffer</a></td></tr>
+<tr class="separator:a69fc43fe7e0ee54800757075eee6cd5b inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f4287ac094e446405d963a5b84c4a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a57f4287ac094e446405d963a5b84c4a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CoreGraphics::CmdBufferPoolId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a57f4287ac094e446405d963a5b84c4a1">setupGraphicsCommandBufferPool</a></td></tr>
 <tr class="separator:a57f4287ac094e446405d963a5b84c4a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefcb4a29f22b43e4546cc0b5946403cb inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_aefcb4a29f22b43e4546cc0b5946403cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#aefcb4a29f22b43e4546cc0b5946403cb">setupGraphicsCommandBuffer</a></td></tr>
@@ -449,6 +461,20 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_vulkan_1_1_vk_pipeline_database.html">VkPipelineDatabase</a> Vulkan::GraphicsDeviceState::database</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f4a4d91a7202347d95ab8de9f850cc6" name="a0f4a4d91a7202347d95ab8de9f850cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4a4d91a7202347d95ab8de9f850cc6">&#9670;&#160;</a></span>deletesPerSubmission</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html">PendingDeletes</a>&gt; Vulkan::GraphicsDeviceState::deletesPerSubmission</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -813,6 +839,34 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adac22015e4631b4b1ba871bd3b9fffe8" name="adac22015e4631b4b1ba871bd3b9fffe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac22015e4631b4b1ba871bd3b9fffe8">&#9670;&#160;</a></span>sparseBufferBinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html">SparseBufferBind</a>&gt; Vulkan::GraphicsDeviceState::sparseBufferBinds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42b2dbd628b340e7c0f55c2e099bbdc3" name="a42b2dbd628b340e7c0f55c2e099bbdc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b2dbd628b340e7c0f55c2e099bbdc3">&#9670;&#160;</a></span>sparseImageBinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">SparseImageBind</a>&gt; Vulkan::GraphicsDeviceState::sparseImageBinds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0c725168cd272039233efba2c648c115" name="a0c725168cd272039233efba2c648c115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c725168cd272039233efba2c648c115">&#9670;&#160;</a></span>sparseQueueFamily</h2>
 
@@ -1005,7 +1059,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

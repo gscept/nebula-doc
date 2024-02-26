@@ -42,7 +42,7 @@ var class_graphics_1_1_graphics_server =
     [ "frameServer", "class_graphics_1_1_graphics_server.html#aac20b89efc8fa2b85bc660ac83cb27c0", null ],
     [ "graphicsDevice", "class_graphics_1_1_graphics_server.html#ac5ee010ecaff55497d7e83275de6746a", null ],
     [ "isOpen", "class_graphics_1_1_graphics_server.html#a9369bbc0a22adbd112fedda3990e8878", null ],
-    [ "materialServer", "class_graphics_1_1_graphics_server.html#a1311740fe01c0362f38d02d5bafb86e1", null ],
+    [ "ownsTimer", "class_graphics_1_1_graphics_server.html#aec6869bc4fb161f22b7d7128270db8a1", null ],
     [ "postLogicCalls", "class_graphics_1_1_graphics_server.html#a48d86e4f14a5cc9e9fdb1a9939af962b", null ],
     [ "postLogicViewCalls", "class_graphics_1_1_graphics_server.html#ad6cb86b97d6f11f23d1b57e4c791627b", null ],
     [ "preLogicCalls", "class_graphics_1_1_graphics_server.html#acac2a01615d0f5a9c11e5855c3aacde2", null ],

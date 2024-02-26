@@ -116,6 +116,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_create_info.html">CoreGraphics::BufferCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_sparse_page.html">CoreGraphics::BufferSparsePage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_set.html">CoreGraphics::BufferSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of buffers which creates a buffer per each buffered frame.  <a href="struct_core_graphics_1_1_buffer_set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,9 +237,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a53217e7ad61b918f5429686f7f922c70" id="r_a53217e7ad61b918f5429686f7f922c70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a53217e7ad61b918f5429686f7f922c70">CoreGraphics::BufferInvalidate</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> offset=0, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size=<a class="el" href="render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0">NEBULA_WHOLE_BUFFER_SIZE</a>)</td></tr>
 <tr class="memdesc:a53217e7ad61b918f5429686f7f922c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidate buffer CPU side, such that any GPU changes will be made visible  <br /></td></tr>
 <tr class="separator:a53217e7ad61b918f5429686f7f922c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab410b9fdf449efd0cd835e1df4088c8b" id="r_ab410b9fdf449efd0cd835e1df4088c8b"><td class="memItemLeft" align="right" valign="top">DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab410b9fdf449efd0cd835e1df4088c8b">CoreGraphics::BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
-<tr class="memdesc:ab410b9fdf449efd0cd835e1df4088c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
-<tr class="separator:ab410b9fdf449efd0cd835e1df4088c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30a7f248653f4d80d9c26e3d37383b6" id="r_ab30a7f248653f4d80d9c26e3d37383b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab30a7f248653f4d80d9c26e3d37383b6">CoreGraphics::BufferSparseEvict</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> pageIndex)</td></tr>
+<tr class="memdesc:ab30a7f248653f4d80d9c26e3d37383b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evict a page.  <br /></td></tr>
+<tr class="separator:ab30a7f248653f4d80d9c26e3d37383b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b3084401e3964c9fe1997625223ed1" id="r_a36b3084401e3964c9fe1997625223ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a36b3084401e3964c9fe1997625223ed1">CoreGraphics::BufferSparseMakeResident</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> pageIndex)</td></tr>
+<tr class="memdesc:a36b3084401e3964c9fe1997625223ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a page resident.  <br /></td></tr>
+<tr class="separator:a36b3084401e3964c9fe1997625223ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add898b7a6ecf569c19cc7a084b7d337f" id="r_add898b7a6ecf569c19cc7a084b7d337f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#add898b7a6ecf569c19cc7a084b7d337f">CoreGraphics::BufferSparseGetPageIndex</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> offset)</td></tr>
+<tr class="memdesc:add898b7a6ecf569c19cc7a084b7d337f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the page index given an offset.  <br /></td></tr>
+<tr class="separator:add898b7a6ecf569c19cc7a084b7d337f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a7efbf263bce5405112adb0747af18" id="r_a84a7efbf263bce5405112adb0747af18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a84a7efbf263bce5405112adb0747af18">CoreGraphics::BufferSparseGetPageSize</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:a84a7efbf263bce5405112adb0747af18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the buffer page size.  <br /></td></tr>
+<tr class="separator:a84a7efbf263bce5405112adb0747af18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27dffb8f655c79d68337579041f70300" id="r_a27dffb8f655c79d68337579041f70300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a27dffb8f655c79d68337579041f70300">CoreGraphics::BufferSparseCommitChanges</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:a27dffb8f655c79d68337579041f70300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commit sparse bindings.  <br /></td></tr>
+<tr class="separator:a27dffb8f655c79d68337579041f70300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8061714da864f6e76b61f80627c14c" id="r_adf8061714da864f6e76b61f80627c14c"><td class="memItemLeft" align="right" valign="top">CoreGraphics::DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c">CoreGraphics::BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:adf8061714da864f6e76b61f80627c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
+<tr class="separator:adf8061714da864f6e76b61f80627c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -246,7 +263,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="buffer_8h.html">buffer.h</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -182,7 +182,7 @@ $(function(){initNavTree('noise_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">float</span> floorZ = floorf(z);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="comment">// find unit cube that contains point</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">int</span> X = int(floorX) &amp; 255;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">int</span> <a class="code hl_define" href="materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee">X</a> = int(floorX) &amp; 255;</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">int</span> Y = int(floorY) &amp; 255;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">int</span> Z = int(floorZ) &amp; 255;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
@@ -197,10 +197,10 @@ $(function(){initNavTree('noise_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">float</span> w = <a class="code hl_function" href="class_math_1_1noise.html#a5f0672716567c85f3b41e0183bbee59a">fade</a>(z);</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="comment">// hash coords of 8 cube corners</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">int</span> A  = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[X] + Y;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">int</span> A  = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[<a class="code hl_define" href="materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>] + Y;</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">int</span> AA = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[A] + Z;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">int</span> AB = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[A+1] + Z;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">int</span> B  = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[X+1] + Y;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">int</span> B  = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[<a class="code hl_define" href="materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>+1] + Y;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">int</span> BA = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[B] + Z;</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">int</span> BB = <a class="code hl_variable" href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">perm</a>[B+1] + Z;</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
@@ -225,6 +225,7 @@ $(function(){initNavTree('noise_8h_source.html',''); initResizable(); });
 <div class="ttc" id="aclass_math_1_1noise_html_a5f0672716567c85f3b41e0183bbee59a"><div class="ttname"><a href="class_math_1_1noise.html#a5f0672716567c85f3b41e0183bbee59a">Math::noise::fade</a></div><div class="ttdeci">static float fade(float t)</div><div class="ttdoc">compute fade curve</div><div class="ttdef"><b>Definition</b> noise.h:58</div></div>
 <div class="ttc" id="aclass_math_1_1noise_html_a788d3b382352c52f922296f6c9484709"><div class="ttname"><a href="class_math_1_1noise.html#a788d3b382352c52f922296f6c9484709">Math::noise::perm</a></div><div class="ttdeci">static int perm[512]</div><div class="ttdef"><b>Definition</b> noise.h:35</div></div>
 <div class="ttc" id="aclass_math_1_1noise_html_af49744898731790eed5e5901eb6b06f7"><div class="ttname"><a href="class_math_1_1noise.html#af49744898731790eed5e5901eb6b06f7">Math::noise::gen</a></div><div class="ttdeci">static float gen(float x, float y, float z)</div><div class="ttdoc">generate noise value</div><div class="ttdef"><b>Definition</b> noise.h:91</div></div>
+<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:158</div></div>
 <div class="ttc" id="anamespace_math_html"><div class="ttname"><a href="namespace_math.html">Math</a></div><div class="ttdoc">Half precision (16 bit) float implementation.</div><div class="ttdef"><b>Definition</b> angularpfeedbackloop.h:17</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -234,7 +235,7 @@ $(function(){initNavTree('noise_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="noise_8h.html">noise.h</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:16 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

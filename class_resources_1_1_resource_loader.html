@@ -244,18 +244,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a747bc95b90b4ae5761d754b1b4a7feb4" id="r_a747bc95b90b4ae5761d754b1b4a7feb4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747bc95b90b4ae5761d754b1b4a7feb4">InitializeResource</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream, bool immediate=false)=0</td></tr>
 <tr class="memdesc:a747bc95b90b4ae5761d754b1b4a7feb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and create the resource, optionally load if no subresource management is necessary.  <br /></td></tr>
 <tr class="separator:a747bc95b90b4ae5761d754b1b4a7feb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a622da634e378d0e99939d69c62e3b594" id="r_a622da634e378d0e99939d69c62e3b594"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622da634e378d0e99939d69c62e3b594">StreamResource</a> (const ResourceId entry, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#ad9ee667f20d51dd21dd5e8f029127bf4">requestedBits</a>)</td></tr>
-<tr class="memdesc:a622da634e378d0e99939d69c62e3b594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream resource.  <br /></td></tr>
-<tr class="separator:a622da634e378d0e99939d69c62e3b594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949a320442980eceb3af3c1f63d0fda5" id="r_a949a320442980eceb3af3c1f63d0fda5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949a320442980eceb3af3c1f63d0fda5">StreamResource</a> (const ResourceId entry, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#ad9ee667f20d51dd21dd5e8f029127bf4">requestedBits</a>)</td></tr>
+<tr class="memdesc:a949a320442980eceb3af3c1f63d0fda5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream resource.  <br /></td></tr>
+<tr class="separator:a949a320442980eceb3af3c1f63d0fda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41fe4930c83d888a2a955fc63ba1df19" id="r_a41fe4930c83d888a2a955fc63ba1df19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41fe4930c83d888a2a955fc63ba1df19">ReloadFromStream</a> (const Resources::ResourceId id, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream)</td></tr>
 <tr class="memdesc:a41fe4930c83d888a2a955fc63ba1df19"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a reload  <br /></td></tr>
 <tr class="separator:a41fe4930c83d888a2a955fc63ba1df19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d77c9e85bef55cedcec1527fe5477d" id="r_ae6d77c9e85bef55cedcec1527fe5477d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2">SubresourceLoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d77c9e85bef55cedcec1527fe5477d">StreamMaxLOD</a> (const Resources::ResourceId &amp;id, const float lod, bool immediate)</td></tr>
 <tr class="memdesc:ae6d77c9e85bef55cedcec1527fe5477d"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a lod update  <br /></td></tr>
 <tr class="separator:ae6d77c9e85bef55cedcec1527fe5477d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f1687fff2ebc76f9dda58cdbf6babd" id="r_a83f1687fff2ebc76f9dda58cdbf6babd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f1687fff2ebc76f9dda58cdbf6babd">LodMask</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod) const</td></tr>
-<tr class="memdesc:a83f1687fff2ebc76f9dda58cdbf6babd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD.  <br /></td></tr>
-<tr class="separator:a83f1687fff2ebc76f9dda58cdbf6babd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7aece69cd88b976319b430d4d856fe0" id="r_ac7aece69cd88b976319b430d4d856fe0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7aece69cd88b976319b430d4d856fe0">LodMask</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod, bool stream) const</td></tr>
+<tr class="memdesc:ac7aece69cd88b976319b430d4d856fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD.  <br /></td></tr>
+<tr class="separator:ac7aece69cd88b976319b430d4d856fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba54d3e45afcab7cbecbc8cd89c3f2a" id="r_a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba54d3e45afcab7cbecbc8cd89c3f2a">RequestLOD</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod) const</td></tr>
 <tr class="memdesc:a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set lod factor for resource.  <br /></td></tr>
 <tr class="separator:a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -987,8 +987,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a83f1687fff2ebc76f9dda58cdbf6babd" name="a83f1687fff2ebc76f9dda58cdbf6babd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83f1687fff2ebc76f9dda58cdbf6babd">&#9670;&#160;</a></span>LodMask()</h2>
+<a id="ac7aece69cd88b976319b430d4d856fe0" name="ac7aece69cd88b976319b430d4d856fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7aece69cd88b976319b430d4d856fe0">&#9670;&#160;</a></span>LodMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1004,7 +1004,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>lod</em></span>&#160;) const</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>lod</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -1016,7 +1021,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Create load mask based on LOD. </p>
 
-<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#ab7bb0e122928f6986c47f74e36988d0d">CoreGraphics::MeshLoader</a>, and <a class="el" href="class_core_graphics_1_1_texture_loader.html#a108f06c480717ac54b9006ec27f8d997">CoreGraphics::TextureLoader</a>.</p>
+<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a8d546f7acd91e0d0e2e4c91bb33122fd">CoreGraphics::MeshLoader</a>, and <a class="el" href="class_core_graphics_1_1_texture_loader.html#a44b0b3afc2d6460415c04d071207afa2">CoreGraphics::TextureLoader</a>.</p>
 
 </div>
 </div>
@@ -1296,8 +1301,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a622da634e378d0e99939d69c62e3b594" name="a622da634e378d0e99939d69c62e3b594"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622da634e378d0e99939d69c62e3b594">&#9670;&#160;</a></span>StreamResource()</h2>
+<a id="a949a320442980eceb3af3c1f63d0fda5" name="a949a320442980eceb3af3c1f63d0fda5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949a320442980eceb3af3c1f63d0fda5">&#9670;&#160;</a></span>StreamResource()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1309,6 +1314,11 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Resources::ResourceLoader::StreamResource </td>
           <td>(</td>
           <td class="paramtype">const ResourceId</td>          <td class="paramname"><span class="paramname"><em>entry</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>frameIndex</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2113,7 +2123,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

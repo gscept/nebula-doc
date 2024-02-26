@@ -111,6 +111,7 @@ $(function(){initNavTree('namespace_core_graphics.html',''); initResizable(); })
 <p>Texture related functions.</p>
 <p>Virtually mapped buffer.</p>
 <p>A pipeline object describes the GPU state required to perform a compute or graphics job.</p>
+<p>A pinned buffer is a type of GPU buffer which handles virtual paging automatically.</p>
 <p>Container type for meshes.</p>
 <p>Implements a mesh loader from stream into <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>.</p>
 <p>Implements a window using <a class="el" href="namespace_g_l_f_w.html">GLFW</a>.</p>
@@ -132,6 +133,8 @@ $(function(){initNavTree('namespace_core_graphics.html',''); initResizable(); })
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2016-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2022 Individual contributors, see AUTHORS file</dd>
+<dd>
+(C) 2024 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2023 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -192,6 +195,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_set.html">BufferSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of buffers which creates a buffer per each buffered frame.  <a href="struct_core_graphics_1_1_buffer_set.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_sparse_page.html">BufferSparsePage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_buffer_subresource_info.html">BufferSubresourceInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -304,6 +309,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pass_create_info.html">PassCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pass_id.html">PassId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pinned_buffer.html">PinnedBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -950,6 +957,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#af4bde55a3078526840bee06aa34d4791a5390eebaed3218451f23b9fc22414126">SecondUV</a>
 , <br />
 &#160;&#160;<a class="el" href="#af4bde55a3078526840bee06aa34d4791a9313566fe19aca293daefe4ce37942bf">Skin</a>
+, <a class="el" href="#af4bde55a3078526840bee06aa34d4791a5e9328c486b44b9a58bca20f7f2064f4">Particle</a>
 , <a class="el" href="#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457">NumTypes</a>
 <br />
  }</td></tr>
@@ -1088,9 +1096,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a53217e7ad61b918f5429686f7f922c70" id="r_a53217e7ad61b918f5429686f7f922c70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53217e7ad61b918f5429686f7f922c70">BufferInvalidate</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> offset=0, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size=<a class="el" href="render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0">NEBULA_WHOLE_BUFFER_SIZE</a>)</td></tr>
 <tr class="memdesc:a53217e7ad61b918f5429686f7f922c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidate buffer CPU side, such that any GPU changes will be made visible  <br /></td></tr>
 <tr class="separator:a53217e7ad61b918f5429686f7f922c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab410b9fdf449efd0cd835e1df4088c8b" id="r_ab410b9fdf449efd0cd835e1df4088c8b"><td class="memItemLeft" align="right" valign="top">DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab410b9fdf449efd0cd835e1df4088c8b">BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
-<tr class="memdesc:ab410b9fdf449efd0cd835e1df4088c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
-<tr class="separator:ab410b9fdf449efd0cd835e1df4088c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30a7f248653f4d80d9c26e3d37383b6" id="r_ab30a7f248653f4d80d9c26e3d37383b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab30a7f248653f4d80d9c26e3d37383b6">BufferSparseEvict</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> pageIndex)</td></tr>
+<tr class="memdesc:ab30a7f248653f4d80d9c26e3d37383b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evict a page.  <br /></td></tr>
+<tr class="separator:ab30a7f248653f4d80d9c26e3d37383b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b3084401e3964c9fe1997625223ed1" id="r_a36b3084401e3964c9fe1997625223ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36b3084401e3964c9fe1997625223ed1">BufferSparseMakeResident</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> pageIndex)</td></tr>
+<tr class="memdesc:a36b3084401e3964c9fe1997625223ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a page resident.  <br /></td></tr>
+<tr class="separator:a36b3084401e3964c9fe1997625223ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add898b7a6ecf569c19cc7a084b7d337f" id="r_add898b7a6ecf569c19cc7a084b7d337f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add898b7a6ecf569c19cc7a084b7d337f">BufferSparseGetPageIndex</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> offset)</td></tr>
+<tr class="memdesc:add898b7a6ecf569c19cc7a084b7d337f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the page index given an offset.  <br /></td></tr>
+<tr class="separator:add898b7a6ecf569c19cc7a084b7d337f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a7efbf263bce5405112adb0747af18" id="r_a84a7efbf263bce5405112adb0747af18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a7efbf263bce5405112adb0747af18">BufferSparseGetPageSize</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:a84a7efbf263bce5405112adb0747af18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the buffer page size.  <br /></td></tr>
+<tr class="separator:a84a7efbf263bce5405112adb0747af18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27dffb8f655c79d68337579041f70300" id="r_a27dffb8f655c79d68337579041f70300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27dffb8f655c79d68337579041f70300">BufferSparseCommitChanges</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:a27dffb8f655c79d68337579041f70300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commit sparse bindings.  <br /></td></tr>
+<tr class="separator:a27dffb8f655c79d68337579041f70300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8061714da864f6e76b61f80627c14c" id="r_adf8061714da864f6e76b61f80627c14c"><td class="memItemLeft" align="right" valign="top">CoreGraphics::DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf8061714da864f6e76b61f80627c14c">BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
+<tr class="memdesc:adf8061714da864f6e76b61f80627c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
+<tr class="separator:adf8061714da864f6e76b61f80627c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cbe93e2db74612f1b0ac7e2f2960cb9" id="r_a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cbe93e2db74612f1b0ac7e2f2960cb9">CmdBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, <a class="el" href="#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> fromStage, <a class="el" href="#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> toStage, <a class="el" href="#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> domain, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_barrier_info.html">TextureBarrierInfo</a> &gt; &amp;textures, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const char *name=nullptr)</td></tr>
 <tr class="memdesc:a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert pipeline barrier.  <br /></td></tr>
 <tr class="separator:a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1447,11 +1470,23 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on resource command buffer.  <br /></td></tr>
 <tr class="separator:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb43ef0af913ce0baa78cb335b6c72ff" id="r_acb43ef0af913ce0baa78cb335b6c72ff"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb43ef0af913ce0baa78cb335b6c72ff">LockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:acb43ef0af913ce0baa78cb335b6c72ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock handover command buffer.  <br /></td></tr>
+<tr class="memdesc:acb43ef0af913ce0baa78cb335b6c72ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock immediate graphics command buffer.  <br /></td></tr>
 <tr class="separator:acb43ef0af913ce0baa78cb335b6c72ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a370339ade584ee567b80cd9af5eb67c2" id="r_a370339ade584ee567b80cd9af5eb67c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370339ade584ee567b80cd9af5eb67c2">UnlockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:a370339ade584ee567b80cd9af5eb67c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
+<tr class="memdesc:a370339ade584ee567b80cd9af5eb67c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on immediate graphics command buffer.  <br /></td></tr>
 <tr class="separator:a370339ade584ee567b80cd9af5eb67c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4d6e76cf5726e5142e4d5c7a450e30" id="r_acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4d6e76cf5726e5142e4d5c7a450e30">LockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
+<tr class="memdesc:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock handover transfer command buffer.  <br /></td></tr>
+<tr class="separator:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bfb51adc6eb9f0bce256a0b1f57109" id="r_af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6bfb51adc6eb9f0bce256a0b1f57109">UnlockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
+<tr class="memdesc:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
+<tr class="separator:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3a5899193fa091b3daa94d71bf4f3b" id="r_aee3a5899193fa091b3daa94d71bf4f3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3a5899193fa091b3daa94d71bf4f3b">NextSubmissionIndex</a> (const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
+<tr class="memdesc:aee3a5899193fa091b3daa94d71bf4f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next submission index for a specific queue.  <br /></td></tr>
+<tr class="separator:aee3a5899193fa091b3daa94d71bf4f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb20bc717e5df47c70e8aa8cb956bfb" id="r_a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eb20bc717e5df47c70e8aa8cb956bfb">PollSubmissionIndex</a> (const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
+<tr class="memdesc:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll a submission for completion.  <br /></td></tr>
+<tr class="separator:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad62a38424b0e014c8e7c27c2941fbb51" id="r_ad62a38424b0e014c8e7c27c2941fbb51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62a38424b0e014c8e7c27c2941fbb51">SubmitCommandBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmds, <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:ad62a38424b0e014c8e7c27c2941fbb51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a command buffer, but doesn't necessarily execute it immediately.  <br /></td></tr>
 <tr class="separator:ad62a38424b0e014c8e7c27c2941fbb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1763,15 +1798,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a73d0881e447fb7b9549ac1ee64293fb0" id="r_a73d0881e447fb7b9549ac1ee64293fb0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d0881e447fb7b9549ac1ee64293fb0">PassGetName</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> id)</td></tr>
 <tr class="memdesc:a73d0881e447fb7b9549ac1ee64293fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get name  <br /></td></tr>
 <tr class="separator:a73d0881e447fb7b9549ac1ee64293fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f0017f3b6f319205b1453242f760bf" id="r_af2f0017f3b6f319205b1453242f760bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f0017f3b6f319205b1453242f760bf">CreatePipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;info)</td></tr>
-<tr class="memdesc:af2f0017f3b6f319205b1453242f760bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new pipeline.  <br /></td></tr>
-<tr class="separator:af2f0017f3b6f319205b1453242f760bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea67d6a0642d716b2034a91cff5362cd" id="r_aea67d6a0642d716b2034a91cff5362cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea67d6a0642d716b2034a91cff5362cd">DestroyPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
-<tr class="memdesc:aea67d6a0642d716b2034a91cff5362cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy pipeline.  <br /></td></tr>
-<tr class="separator:aea67d6a0642d716b2034a91cff5362cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2e23eb110d02773db21bf38c2a5c03" id="r_a9c2e23eb110d02773db21bf38c2a5c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c2e23eb110d02773db21bf38c2a5c03">CreateGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;info)</td></tr>
+<tr class="memdesc:a9c2e23eb110d02773db21bf38c2a5c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new pipeline.  <br /></td></tr>
+<tr class="separator:a9c2e23eb110d02773db21bf38c2a5c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9233acad3f14f94999d43e62c74fbb" id="r_adf9233acad3f14f94999d43e62c74fbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9233acad3f14f94999d43e62c74fbb">DestroyGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
+<tr class="memdesc:adf9233acad3f14f94999d43e62c74fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy pipeline.  <br /></td></tr>
+<tr class="separator:adf9233acad3f14f94999d43e62c74fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd74beb4a954608938cc373dc252c11e" id="r_abd74beb4a954608938cc373dc252c11e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd74beb4a954608938cc373dc252c11e">CreateRaytracingPipeline</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; CoreGraphics::ShaderProgramId &gt; programs)</td></tr>
 <tr class="memdesc:abd74beb4a954608938cc373dc252c11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create raytacing pipeline using multiple shader programs.  <br /></td></tr>
 <tr class="separator:abd74beb4a954608938cc373dc252c11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00afcbdbe518b3c1cd05a029ca5bb089" id="r_a00afcbdbe518b3c1cd05a029ca5bb089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00afcbdbe518b3c1cd05a029ca5bb089">DestroyRaytracingPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a> &amp;table)</td></tr>
+<tr class="memdesc:a00afcbdbe518b3c1cd05a029ca5bb089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy raytracing pipeline.  <br /></td></tr>
+<tr class="separator:a00afcbdbe518b3c1cd05a029ca5bb089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a685227417b70f0e7e219a727fdd5580c" id="r_a685227417b70f0e7e219a727fdd5580c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685227417b70f0e7e219a727fdd5580c">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_render_event_handler.html">CoreGraphics::RenderEventHandler</a>, 'RDEH', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a685227417b70f0e7e219a727fdd5580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bf1ed30a1707444ad4ce48fb6c9d15" id="r_a38bf1ed30a1707444ad4ce48fb6c9d15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">ResourceTableLayoutId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38bf1ed30a1707444ad4ce48fb6c9d15">CreateResourceTableLayout</a> (const <a class="el" href="struct_core_graphics_1_1_resource_table_layout_create_info.html">ResourceTableLayoutCreateInfo</a> &amp;info)</td></tr>
@@ -1855,12 +1893,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a532437faeb16579466fd4d7b6de8167f" id="r_a532437faeb16579466fd4d7b6de8167f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a532437faeb16579466fd4d7b6de8167f">ShaderGet</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;name)</td></tr>
 <tr class="memdesc:a532437faeb16579466fd4d7b6de8167f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get shader by name  <br /></td></tr>
 <tr class="separator:a532437faeb16579466fd4d7b6de8167f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa28d381e4c15648beedca4128db530a" id="r_aaa28d381e4c15648beedca4128db530a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa28d381e4c15648beedca4128db530a">ShaderFeatureMask</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;mask)</td></tr>
+<tr class="memdesc:aaa28d381e4c15648beedca4128db530a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shader feature mask from string.  <br /></td></tr>
+<tr class="separator:aaa28d381e4c15648beedca4128db530a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1262da19888f376694f7a84cfdbfbfb" id="r_ab1262da19888f376694f7a84cfdbfbfb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1262da19888f376694f7a84cfdbfbfb">ConstantTypeToString</a> (const <a class="el" href="#ae31deee4c7320b0c63dd787789cb7e0e">ShaderConstantType</a> &amp;type)</td></tr>
 <tr class="memdesc:ab1262da19888f376694f7a84cfdbfbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get constant type as string.  <br /></td></tr>
 <tr class="separator:ab1262da19888f376694f7a84cfdbfbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f20dcac496c88bf01bed728bcb91317" id="r_a0f20dcac496c88bf01bed728bcb91317"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">ShaderFeature::Mask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f20dcac496c88bf01bed728bcb91317">ShaderFeatureFromString</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
-<tr class="memdesc:a0f20dcac496c88bf01bed728bcb91317"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert shader feature from string to mask  <br /></td></tr>
-<tr class="separator:a0f20dcac496c88bf01bed728bcb91317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28e655424e2ffaa6845a1131bd435a54" id="r_a28e655424e2ffaa6845a1131bd435a54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28e655424e2ffaa6845a1131bd435a54">ID_24_8_24_8_NAMED_TYPE</a> (ShaderProgramId, programId, programType, shaderId, shaderType)</td></tr>
 <tr class="separator:a28e655424e2ffaa6845a1131bd435a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a25a7223bd07bafaf8b22160c130598" id="r_a9a25a7223bd07bafaf8b22160c130598"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a25a7223bd07bafaf8b22160c130598">CreateShader</a> (const <a class="el" href="struct_core_graphics_1_1_shader_create_info.html">ShaderCreateInfo</a> &amp;info)</td></tr>
@@ -1887,6 +1925,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a0bc04710eb3962c274957f5b62f5ac63" id="r_a0bc04710eb3962c274957f5b62f5ac63"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc04710eb3962c274957f5b62f5ac63">ShaderCreateConstantBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> cbIndex, <a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077">BufferAccessMode</a> mode=<a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251">BufferAccessMode::HostCached</a>)</td></tr>
 <tr class="memdesc:a0bc04710eb3962c274957f5b62f5ac63"><td class="mdescLeft">&#160;</td><td class="mdescRight">create constant buffer from index  <br /></td></tr>
 <tr class="separator:a0bc04710eb3962c274957f5b62f5ac63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ce5244baa1fdbc21ce09b8dac6747f" id="r_ab9ce5244baa1fdbc21ce09b8dac6747f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ce5244baa1fdbc21ce09b8dac6747f">ShaderCreateConstantBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> cbIndex, <a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077">BufferAccessMode</a> mode=<a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251">BufferAccessMode::HostCached</a>)</td></tr>
+<tr class="memdesc:ab9ce5244baa1fdbc21ce09b8dac6747f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create constant buffer from index  <br /></td></tr>
+<tr class="separator:ab9ce5244baa1fdbc21ce09b8dac6747f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae4d4d57550c8f850422f4a66112efb" id="r_a0ae4d4d57550c8f850422f4a66112efb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ae4d4d57550c8f850422f4a66112efb">ShaderCalculateConstantBufferIndex</a> (const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> bindingMask, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> slot)</td></tr>
+<tr class="memdesc:a0ae4d4d57550c8f850422f4a66112efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate buffer index using binding mask and slot.  <br /></td></tr>
+<tr class="separator:a0ae4d4d57550c8f850422f4a66112efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d382f43282a8da4e9cb134bc51c3ec" id="r_a18d382f43282a8da4e9cb134bc51c3ec"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18d382f43282a8da4e9cb134bc51c3ec">ShaderGetName</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id)</td></tr>
 <tr class="memdesc:a18d382f43282a8da4e9cb134bc51c3ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of shader.  <br /></td></tr>
 <tr class="separator:a18d382f43282a8da4e9cb134bc51c3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1944,6 +1988,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a07f663b210509fc69bc86f3e6c155472" id="r_a07f663b210509fc69bc86f3e6c155472"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07f663b210509fc69bc86f3e6c155472">ShaderGetConstantBufferResourceGroup</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
 <tr class="memdesc:a07f663b210509fc69bc86f3e6c155472"><td class="mdescLeft">&#160;</td><td class="mdescRight">get group of constant buffer  <br /></td></tr>
 <tr class="separator:a07f663b210509fc69bc86f3e6c155472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2aa6acb4dbf04641ab1246df1ce89b" id="r_aff2aa6acb4dbf04641ab1246df1ce89b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2aa6acb4dbf04641ab1246df1ce89b">ShaderGetConstantBufferBindingMask</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group)</td></tr>
+<tr class="memdesc:aff2aa6acb4dbf04641ab1246df1ce89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mask of constant buffers.  <br /></td></tr>
+<tr class="separator:aff2aa6acb4dbf04641ab1246df1ce89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7d8647bca23f1565a6f6d5f94a0402" id="r_a9c7d8647bca23f1565a6f6d5f94a0402"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7d8647bca23f1565a6f6d5f94a0402">ShaderGetConstantBufferSize</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> group, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
+<tr class="memdesc:a9c7d8647bca23f1565a6f6d5f94a0402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size of constant buffer at binding point.  <br /></td></tr>
+<tr class="separator:a9c7d8647bca23f1565a6f6d5f94a0402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd7d2a5e3c1622da4fda6ab53b9646f1" id="r_afd7d2a5e3c1622da4fda6ab53b9646f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd7d2a5e3c1622da4fda6ab53b9646f1">ShaderGetResourceSlot</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a> id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:afd7d2a5e3c1622da4fda6ab53b9646f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get slot of any shader resource  <br /></td></tr>
 <tr class="separator:afd7d2a5e3c1622da4fda6ab53b9646f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1978,9 +2028,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a216650c21c270adf9da585fe6306b5de" id="r_a216650c21c270adf9da585fe6306b5de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a216650c21c270adf9da585fe6306b5de">TextureGenerateMipmaps</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> id)</td></tr>
 <tr class="memdesc:a216650c21c270adf9da585fe6306b5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate mipmaps for texture  <br /></td></tr>
 <tr class="separator:a216650c21c270adf9da585fe6306b5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e289aeb1a505b443c884b19835cc3e" id="r_a11e289aeb1a505b443c884b19835cc3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e289aeb1a505b443c884b19835cc3e">TextureUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> mip, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> layer, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size, const void *data)</td></tr>
-<tr class="memdesc:a11e289aeb1a505b443c884b19835cc3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update texture from data buffer, returns true if there is enough upload heap space.  <br /></td></tr>
-<tr class="separator:a11e289aeb1a505b443c884b19835cc3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29eed11488946eeb12f6d80a230476db" id="r_a29eed11488946eeb12f6d80a230476db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29eed11488946eeb12f6d80a230476db">TextureUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmd, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> mip, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> layer, const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dataSize)</td></tr>
+<tr class="memdesc:a29eed11488946eeb12f6d80a230476db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update texture from data buffer, returns true if there is enough upload heap space.  <br /></td></tr>
+<tr class="separator:a29eed11488946eeb12f6d80a230476db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff15dbed1186ff3c92dabda92361aa78" id="r_aff15dbed1186ff3c92dabda92361aa78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_create_info_adjusted.html">TextureCreateInfoAdjusted</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff15dbed1186ff3c92dabda92361aa78">TextureGetAdjustedInfo</a> (const <a class="el" href="struct_core_graphics_1_1_texture_create_info.html">TextureCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:aff15dbed1186ff3c92dabda92361aa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to setup RenderTextureInfo, already implemented  <br /></td></tr>
 <tr class="separator:aff15dbed1186ff3c92dabda92361aa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2081,11 +2131,13 @@ Functions</h2></td></tr>
 <tr class="separator:a6f2805dd8f15c2b00bba9a2c3c33d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22c70d17634e00da7e57b7e29ef500ce" id="r_a22c70d17634e00da7e57b7e29ef500ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c70d17634e00da7e57b7e29ef500ce">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_texture_loader.html">CoreGraphics::TextureLoader</a>, 'TXLO', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
 <tr class="separator:a22c70d17634e00da7e57b7e29ef500ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa59942e1d3a66ab6f7a0d3bcecb307" id="r_aeaa59942e1d3a66ab6f7a0d3bcecb307"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaa59942e1d3a66ab6f7a0d3bcecb307">UploadToTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> handoverCmdBuf, gliml::context &amp;ctx, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> layer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mip)</td></tr>
-<tr class="memdesc:aeaa59942e1d3a66ab6f7a0d3bcecb307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to upload texture data to GPU memory May fail if the upload buffer is full, in which case the function returns false.  <br /></td></tr>
-<tr class="separator:aeaa59942e1d3a66ab6f7a0d3bcecb307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5616df8b6f0f7d47284960965e362ae7" id="r_a5616df8b6f0f7d47284960965e362ae7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5616df8b6f0f7d47284960965e362ae7">UploadToTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, gliml::context &amp;ctx, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> layer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mip)</td></tr>
+<tr class="memdesc:a5616df8b6f0f7d47284960965e362ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to upload texture data to GPU memory May fail if the upload buffer is full, in which case the function returns false.  <br /></td></tr>
+<tr class="separator:a5616df8b6f0f7d47284960965e362ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3cbfda4f9d34f60ec987aed46a6675b" id="r_aa3cbfda4f9d34f60ec987aed46a6675b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3cbfda4f9d34f60ec987aed46a6675b">LoadMips</a> (<a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bitsToLoad, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const char *name)</td></tr>
 <tr class="separator:aa3cbfda4f9d34f60ec987aed46a6675b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58690570bea93c2286a95619f452964" id="r_ab58690570bea93c2286a95619f452964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58690570bea93c2286a95619f452964">FinishMips</a> (<a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mipBits, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const char *name)</td></tr>
+<tr class="separator:ab58690570bea93c2286a95619f452964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c0035b07f4e1b53fd314007e45ecac" id="r_ae6c0035b07f4e1b53fd314007e45ecac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_view_id.html">TextureViewId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6c0035b07f4e1b53fd314007e45ecac">CreateTextureView</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_create_info.html">TextureViewCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:ae6c0035b07f4e1b53fd314007e45ecac"><td class="mdescLeft">&#160;</td><td class="mdescRight">create texture view  <br /></td></tr>
 <tr class="separator:ae6c0035b07f4e1b53fd314007e45ecac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3310,6 +3362,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af4bde55a3078526840bee06aa34d4791a5d50889672f6f860d14f502de3de1957" name="af4bde55a3078526840bee06aa34d4791a5d50889672f6f860d14f502de3de1957"></a>Colors&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af4bde55a3078526840bee06aa34d4791a5390eebaed3218451f23b9fc22414126" name="af4bde55a3078526840bee06aa34d4791a5390eebaed3218451f23b9fc22414126"></a>SecondUV&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af4bde55a3078526840bee06aa34d4791a9313566fe19aca293daefe4ce37942bf" name="af4bde55a3078526840bee06aa34d4791a9313566fe19aca293daefe4ce37942bf"></a>Skin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4bde55a3078526840bee06aa34d4791a5e9328c486b44b9a58bca20f7f2064f4" name="af4bde55a3078526840bee06aa34d4791a5e9328c486b44b9a58bca20f7f2064f4"></a>Particle&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457" name="af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457"></a>NumTypes&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -4577,14 +4630,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab410b9fdf449efd0cd835e1df4088c8b" name="ab410b9fdf449efd0cd835e1df4088c8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab410b9fdf449efd0cd835e1df4088c8b">&#9670;&#160;</a></span>BufferGetDeviceAddress()</h2>
+<a id="adf8061714da864f6e76b61f80627c14c" name="adf8061714da864f6e76b61f80627c14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf8061714da864f6e76b61f80627c14c">&#9670;&#160;</a></span>BufferGetDeviceAddress()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DeviceAddress CoreGraphics::BufferGetDeviceAddress </td>
+          <td class="memname">CoreGraphics::DeviceAddress CoreGraphics::BufferGetDeviceAddress </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
@@ -4745,6 +4798,113 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>map memory </p>
+
+</div>
+</div>
+<a id="a27dffb8f655c79d68337579041f70300" name="a27dffb8f655c79d68337579041f70300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27dffb8f655c79d68337579041f70300">&#9670;&#160;</a></span>BufferSparseCommitChanges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferSparseCommitChanges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Commit sparse bindings. </p>
+
+</div>
+</div>
+<a id="ab30a7f248653f4d80d9c26e3d37383b6" name="ab30a7f248653f4d80d9c26e3d37383b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30a7f248653f4d80d9c26e3d37383b6">&#9670;&#160;</a></span>BufferSparseEvict()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferSparseEvict </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>pageIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evict a page. </p>
+
+</div>
+</div>
+<a id="add898b7a6ecf569c19cc7a084b7d337f" name="add898b7a6ecf569c19cc7a084b7d337f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add898b7a6ecf569c19cc7a084b7d337f">&#9670;&#160;</a></span>BufferSparseGetPageIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::BufferSparseGetPageIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the page index given an offset. </p>
+
+</div>
+</div>
+<a id="a84a7efbf263bce5405112adb0747af18" name="a84a7efbf263bce5405112adb0747af18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a7efbf263bce5405112adb0747af18">&#9670;&#160;</a></span>BufferSparseGetPageSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::BufferSparseGetPageSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the buffer page size. </p>
+
+</div>
+</div>
+<a id="a36b3084401e3964c9fe1997625223ed1" name="a36b3084401e3964c9fe1997625223ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b3084401e3964c9fe1997625223ed1">&#9670;&#160;</a></span>BufferSparseMakeResident()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferSparseMakeResident </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>pageIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make a page resident. </p>
 
 </div>
 </div>
@@ -7089,6 +7249,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a9c2e23eb110d02773db21bf38c2a5c03" name="a9c2e23eb110d02773db21bf38c2a5c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2e23eb110d02773db21bf38c2a5c03">&#9670;&#160;</a></span>CreateGraphicsPipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> CoreGraphics::CreateGraphicsPipeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create new pipeline. </p>
+
+</div>
+</div>
 <a id="a8d358c7dd064ec5fd18633eeaa7dac22" name="a8d358c7dd064ec5fd18633eeaa7dac22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d358c7dd064ec5fd18633eeaa7dac22">&#9670;&#160;</a></span>CreateImage() <span class="overload">[1/2]</span></h2>
 
@@ -7162,25 +7341,6 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>create pass </p>
-
-</div>
-</div>
-<a id="af2f0017f3b6f319205b1453242f760bf" name="af2f0017f3b6f319205b1453242f760bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2f0017f3b6f319205b1453242f760bf">&#9670;&#160;</a></span>CreatePipeline()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> CoreGraphics::CreatePipeline </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create new pipeline. </p>
 
 </div>
 </div>
@@ -7861,6 +8021,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="adf9233acad3f14f94999d43e62c74fbb" name="adf9233acad3f14f94999d43e62c74fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf9233acad3f14f94999d43e62c74fbb">&#9670;&#160;</a></span>DestroyGraphicsPipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::DestroyGraphicsPipeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a></td>          <td class="paramname"><span class="paramname"><em>pipeline</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy pipeline. </p>
+
+</div>
+</div>
 <a id="a6472525af47a7d821096b3739475fc50" name="a6472525af47a7d821096b3739475fc50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6472525af47a7d821096b3739475fc50">&#9670;&#160;</a></span>DestroyImage()</h2>
 
@@ -7937,22 +8116,22 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="aea67d6a0642d716b2034a91cff5362cd" name="aea67d6a0642d716b2034a91cff5362cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea67d6a0642d716b2034a91cff5362cd">&#9670;&#160;</a></span>DestroyPipeline()</h2>
+<a id="a00afcbdbe518b3c1cd05a029ca5bb089" name="a00afcbdbe518b3c1cd05a029ca5bb089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00afcbdbe518b3c1cd05a029ca5bb089">&#9670;&#160;</a></span>DestroyRaytracingPipeline()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CoreGraphics::DestroyPipeline </td>
+          <td class="memname">void CoreGraphics::DestroyRaytracingPipeline </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a></td>          <td class="paramname"><span class="paramname"><em>pipeline</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>table</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroy pipeline. </p>
+<p>Destroy raytracing pipeline. </p>
 
 </div>
 </div>
@@ -8553,6 +8732,37 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>Finish current frame. </p>
+
+</div>
+</div>
+<a id="ab58690570bea93c2286a95619f452964" name="ab58690570bea93c2286a95619f452964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58690570bea93c2286a95619f452964">&#9670;&#160;</a></span>FinishMips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::FinishMips </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *</td>          <td class="paramname"><span class="paramname"><em>streamData</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>mipBits</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a></td>          <td class="paramname"><span class="paramname"><em>texture</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -9267,7 +9477,26 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Lock handover command buffer. </p>
+<p>Lock immediate graphics command buffer. </p>
+
+</div>
+</div>
+<a id="acc4d6e76cf5726e5142e4d5c7a450e30" name="acc4d6e76cf5726e5142e4d5c7a450e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4d6e76cf5726e5142e4d5c7a450e30">&#9670;&#160;</a></span>LockTransferHandoverSetupCommandBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> CoreGraphics::LockTransferHandoverSetupCommandBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lock handover transfer command buffer. </p>
 
 </div>
 </div>
@@ -9753,6 +9982,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="aee3a5899193fa091b3daa94d71bf4f3b" name="aee3a5899193fa091b3daa94d71bf4f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee3a5899193fa091b3daa94d71bf4f3b">&#9670;&#160;</a></span>NextSubmissionIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> CoreGraphics::NextSubmissionIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>queue</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the next submission index for a specific queue. </p>
+
+</div>
+</div>
 <a id="a3bb024f28036d19bb1ba810c6face613" name="a3bb024f28036d19bb1ba810c6face613"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bb024f28036d19bb1ba810c6face613">&#9670;&#160;</a></span>NotifyEventHandlers()</h2>
 
@@ -9957,6 +10205,29 @@ template&lt;class TYPE &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1eb20bc717e5df47c70e8aa8cb956bfb" name="a1eb20bc717e5df47c70e8aa8cb956bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb20bc717e5df47c70e8aa8cb956bfb">&#9670;&#160;</a></span>PollSubmissionIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CoreGraphics::PollSubmissionIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>queue</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Poll a submission for completion. </p>
 
 </div>
 </div>
@@ -10966,8 +11237,31 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a0ae4d4d57550c8f850422f4a66112efb" name="a0ae4d4d57550c8f850422f4a66112efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae4d4d57550c8f850422f4a66112efb">&#9670;&#160;</a></span>ShaderCalculateConstantBufferIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> CoreGraphics::ShaderCalculateConstantBufferIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>bindingMask</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>slot</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate buffer index using binding mask and slot. </p>
+
+</div>
+</div>
 <a id="a0bc04710eb3962c274957f5b62f5ac63" name="a0bc04710eb3962c274957f5b62f5ac63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bc04710eb3962c274957f5b62f5ac63">&#9670;&#160;</a></span>ShaderCreateConstantBuffer() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc04710eb3962c274957f5b62f5ac63">&#9670;&#160;</a></span>ShaderCreateConstantBuffer() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10994,8 +11288,41 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="ab9ce5244baa1fdbc21ce09b8dac6747f" name="ab9ce5244baa1fdbc21ce09b8dac6747f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ce5244baa1fdbc21ce09b8dac6747f">&#9670;&#160;</a></span>ShaderCreateConstantBuffer() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> CoreGraphics::ShaderCreateConstantBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>group</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>cbIndex</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077">BufferAccessMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251">BufferAccessMode::HostCached</a></span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create constant buffer from index </p>
+
+</div>
+</div>
 <a id="a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0" name="a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0">&#9670;&#160;</a></span>ShaderCreateConstantBuffer() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0">&#9670;&#160;</a></span>ShaderCreateConstantBuffer() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11078,22 +11405,22 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a0f20dcac496c88bf01bed728bcb91317" name="a0f20dcac496c88bf01bed728bcb91317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f20dcac496c88bf01bed728bcb91317">&#9670;&#160;</a></span>ShaderFeatureFromString()</h2>
+<a id="aaa28d381e4c15648beedca4128db530a" name="aaa28d381e4c15648beedca4128db530a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa28d381e4c15648beedca4128db530a">&#9670;&#160;</a></span>ShaderFeatureMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">ShaderFeature::Mask</a> CoreGraphics::ShaderFeatureFromString </td>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a> CoreGraphics::ShaderFeatureMask </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>convert shader feature from string to mask </p>
+<p>Get shader feature mask from string. </p>
 
 </div>
 </div>
@@ -11227,6 +11554,29 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="aff2aa6acb4dbf04641ab1246df1ce89b" name="aff2aa6acb4dbf04641ab1246df1ce89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2aa6acb4dbf04641ab1246df1ce89b">&#9670;&#160;</a></span>ShaderGetConstantBufferBindingMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> CoreGraphics::ShaderGetConstantBufferBindingMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>group</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get mask of constant buffers. </p>
+
+</div>
+</div>
 <a id="a3bfd75ea3ef475736e3bdf23d4c2d75c" name="a3bfd75ea3ef475736e3bdf23d4c2d75c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bfd75ea3ef475736e3bdf23d4c2d75c">&#9670;&#160;</a></span>ShaderGetConstantBufferCount()</h2>
 
@@ -11315,8 +11665,36 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a9c7d8647bca23f1565a6f6d5f94a0402" name="a9c7d8647bca23f1565a6f6d5f94a0402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7d8647bca23f1565a6f6d5f94a0402">&#9670;&#160;</a></span>ShaderGetConstantBufferSize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> CoreGraphics::ShaderGetConstantBufferSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>group</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get size of constant buffer at binding point. </p>
+
+</div>
+</div>
 <a id="af456d5cd06ffd13fc62c5305b01e42bd" name="af456d5cd06ffd13fc62c5305b01e42bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af456d5cd06ffd13fc62c5305b01e42bd">&#9670;&#160;</a></span>ShaderGetConstantBufferSize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af456d5cd06ffd13fc62c5305b01e42bd">&#9670;&#160;</a></span>ShaderGetConstantBufferSize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12581,8 +12959,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a11e289aeb1a505b443c884b19835cc3e" name="a11e289aeb1a505b443c884b19835cc3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e289aeb1a505b443c884b19835cc3e">&#9670;&#160;</a></span>TextureUpdate()</h2>
+<a id="a29eed11488946eeb12f6d80a230476db" name="a29eed11488946eeb12f6d80a230476db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29eed11488946eeb12f6d80a230476db">&#9670;&#160;</a></span>TextureUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12591,11 +12969,6 @@ template&lt;class TYPE &gt; </div>
           <td class="memname">bool CoreGraphics::TextureUpdate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmd</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>queue</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -12625,12 +12998,12 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>size</em>, </span></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12897,6 +13270,25 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Release lock on immediate graphics command buffer. </p>
+
+</div>
+</div>
+<a id="af6bfb51adc6eb9f0bce256a0b1f57109" name="af6bfb51adc6eb9f0bce256a0b1f57109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6bfb51adc6eb9f0bce256a0b1f57109">&#9670;&#160;</a></span>UnlockTransferHandoverSetupCommandBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::UnlockTransferHandoverSetupCommandBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Release lock on handover command buffer. </p>
 
 </div>
@@ -13142,8 +13534,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="aeaa59942e1d3a66ab6f7a0d3bcecb307" name="aeaa59942e1d3a66ab6f7a0d3bcecb307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaa59942e1d3a66ab6f7a0d3bcecb307">&#9670;&#160;</a></span>UploadToTexture()</h2>
+<a id="a5616df8b6f0f7d47284960965e362ae7" name="a5616df8b6f0f7d47284960965e362ae7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5616df8b6f0f7d47284960965e362ae7">&#9670;&#160;</a></span>UploadToTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13161,17 +13553,12 @@ template&lt;&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>handoverCmdBuf</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">gliml::context &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>layer</em>, </span></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></td>          <td class="paramname"><span class="paramname"><em>layer</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -14234,7 +14621,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

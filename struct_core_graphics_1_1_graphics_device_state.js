@@ -16,6 +16,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "globalConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a24eec180b233aa5df141afa79e754045", null ],
     [ "globalConstantBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#aea0703fe02f27157052eee90d4f75ba5", null ],
     [ "globalUploadBufferPoolSize", "struct_core_graphics_1_1_graphics_device_state.html#a8f1601a54938dca4ba6caeca9bed46a1", null ],
+    [ "handoverTransferCommandBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a69fc43fe7e0ee54800757075eee6cd5b", null ],
     [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a9e41a55df9ab3c706c4e4b03d659a5a9", null ],
     [ "indexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a8db2bc5ae5ffe68141934069b16c72a3", null ],
     [ "inNotifyEventHandlers", "struct_core_graphics_1_1_graphics_device_state.html#a85aee14876067ba0c06d1f19a28dec5c", null ],

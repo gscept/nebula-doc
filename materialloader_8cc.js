@@ -1,4 +1,25 @@
 var materialloader_8cc =
 [
-    [ "__ImplementClass", "materialloader_8cc.html#a1f98ed34bfde73baf9721c689c07ce5b", null ]
+    [ "Materials::MaterialBuffer< INTERFACE_TYPE >", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
+    [ "ALLOC_MATERIAL", "materialloader_8cc.html#a46d53fe78234994294715f4fbf406e26", null ],
+    [ "MATERIAL_LIST", "materialloader_8cc.html#a4fa957af2ee141f7c5669899427d8f81", null ],
+    [ "PROPERTIES_LIST", "materialloader_8cc.html#a62c48134eee660cb366870c39ce85dd8", null ],
+    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
+    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
+    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
+    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
+    [ "__ImplementClass", "materialloader_8cc.html#a1f98ed34bfde73baf9721c689c07ce5b", null ],
+    [ "LoadFloat", "materialloader_8cc.html#a5636bc79c691a61803c2246845b4a42a", null ],
+    [ "LoadTexture", "materialloader_8cc.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
+    [ "LoadVec3", "materialloader_8cc.html#ae0fec4bfec0a8a5fa51d75218c442ab5", null ],
+    [ "LoadVec4", "materialloader_8cc.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],
+    [ "bindings", "materialloader_8cc.html#a8e93897eca9dad723f5b98becb3fb32e", null ],
+    [ "bits", "materialloader_8cc.html#a6d4f485fd3d958a93a3b0d3a5de574cd", null ],
+    [ "computeDirty", "materialloader_8cc.html#a9a2fe8308c947c205a49248b501052a4", null ],
+    [ "dirtySet", "materialloader_8cc.html#ab4f3e08ada3c65bd05350962ec4b094c", null ],
+    [ "graphicsDirty", "materialloader_8cc.html#ac37785012da1cde7b693eb85392965ee", null ],
+    [ "materialBindingBuffer", "materialloader_8cc.html#aed6b14f70e7d5516d16e36164af4924c", null ],
+    [ "state", "materialloader_8cc.html#a8cc0891c40220ceb8778ab00d1004eaa", null ],
+    [ "variantAllocator", "materialloader_8cc.html#ae0df99b4267083a9b8fdf98d2a210a6e", null ],
+    [ "variantAllocatorLock", "materialloader_8cc.html#afbef763f80811b0b86c6082ec6cd914e", null ]
 ];

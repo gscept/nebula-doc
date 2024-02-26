@@ -184,9 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af78f5b21722450046721153f36e8ed4f" id="r_af78f5b21722450046721153f36e8ed4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af78f5b21722450046721153f36e8ed4f">ListFiles</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false) const</td></tr>
 <tr class="memdesc:af78f5b21722450046721153f36e8ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list all files matching a pattern in a directory  <br /></td></tr>
 <tr class="separator:af78f5b21722450046721153f36e8ed4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29bd617ca4058f0b2875edd529b3430a" id="r_a29bd617ca4058f0b2875edd529b3430a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29bd617ca4058f0b2875edd529b3430a">ListDirectories</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false) const</td></tr>
-<tr class="memdesc:a29bd617ca4058f0b2875edd529b3430a"><td class="mdescLeft">&#160;</td><td class="mdescRight">list all subdirectories matching a pattern in a directory  <br /></td></tr>
-<tr class="separator:a29bd617ca4058f0b2875edd529b3430a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7516c663cac79540cec5cb71b3b957c6" id="r_a7516c663cac79540cec5cb71b3b957c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7516c663cac79540cec5cb71b3b957c6">ListDirectories</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false, bool prioritizeArchive=true) const</td></tr>
+<tr class="memdesc:a7516c663cac79540cec5cb71b3b957c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">list all subdirectories matching a pattern in a directory  <br /></td></tr>
+<tr class="separator:a7516c663cac79540cec5cb71b3b957c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a610555ddacba229a5267b1463f1fc9f0" id="r_a610555ddacba229a5267b1463f1fc9f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_u_r_i.html">URI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610555ddacba229a5267b1463f1fc9f0">CreateTemporaryFilename</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
 <tr class="memdesc:a610555ddacba229a5267b1463f1fc9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a temporary file name  <br /></td></tr>
 <tr class="separator:a610555ddacba229a5267b1463f1fc9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -700,8 +700,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a29bd617ca4058f0b2875edd529b3430a" name="a29bd617ca4058f0b2875edd529b3430a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29bd617ca4058f0b2875edd529b3430a">&#9670;&#160;</a></span>ListDirectories()</h2>
+<a id="a7516c663cac79540cec5cb71b3b957c6" name="a7516c663cac79540cec5cb71b3b957c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7516c663cac79540cec5cb71b3b957c6">&#9670;&#160;</a></span>ListDirectories()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -719,7 +719,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asFullPath</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asFullPath</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>prioritizeArchive</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1258,7 +1263,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_i_o.html">IO</a></li><li class="navelem"><a class="el" href="class_i_o_1_1_io_server.html">IoServer</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

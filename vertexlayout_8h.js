@@ -14,6 +14,7 @@ var vertexlayout_8h =
       [ "Colors", "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a5d50889672f6f860d14f502de3de1957", null ],
       [ "SecondUV", "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a5390eebaed3218451f23b9fc22414126", null ],
       [ "Skin", "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a9313566fe19aca293daefe4ce37942bf", null ],
+      [ "Particle", "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a5e9328c486b44b9a58bca20f7f2064f4", null ],
       [ "NumTypes", "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457", null ]
     ] ],
     [ "CreateVertexLayout", "vertexlayout_8h.html#a82f27ffc999589324aa184ce535eb33b", null ],

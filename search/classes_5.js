@@ -11,7 +11,7 @@ var searchData=
   ['entitymapping_8',['EntityMapping',['../struct_game_1_1_entity_mapping.html',1,'Game']]],
   ['entitypool_9',['EntityPool',['../class_game_1_1_entity_pool.html',1,'Game']]],
   ['entitytemplate_10',['EntityTemplate',['../class_nebula_1_1_game_1_1_entity_template.html',1,'Nebula::Game']]],
-  ['entry_11',['Entry',['../struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html',1,'CoreGraphics::RayDispatchTable::Entry'],['../struct_terrain_1_1_tile_cache_entry_1_1_entry.html',1,'Terrain::TileCacheEntry::Entry']]],
+  ['entry_11',['Entry',['../struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html',1,'CoreGraphics::RayDispatchTable::Entry'],['../struct_material_templates_1_1_entry.html',1,'MaterialTemplates::Entry'],['../struct_terrain_1_1_tile_cache_entry_1_1_entry.html',1,'Terrain::TileCacheEntry::Entry']]],
   ['envelopecurve_12',['EnvelopeCurve',['../class_particles_1_1_envelope_curve.html',1,'Particles']]],
   ['envelopesamplebuffer_13',['EnvelopeSampleBuffer',['../class_particles_1_1_envelope_sample_buffer.html',1,'Particles']]],
   ['environment_14',['Environment',['../class_system_1_1_environment.html',1,'']]],

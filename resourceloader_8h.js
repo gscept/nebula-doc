@@ -1,5 +1,6 @@
 var resourceloader_8h =
 [
+    [ "Resources::PartialLoadBits", "struct_resources_1_1_partial_load_bits.html", "struct_resources_1_1_partial_load_bits" ],
     [ "Resources::ResourceLoader", "class_resources_1_1_resource_loader.html", "class_resources_1_1_resource_loader" ],
     [ "Resources::ResourceLoader::_PendingResourceLoad", "struct_resources_1_1_resource_loader_1_1___pending_resource_load.html", "struct_resources_1_1_resource_loader_1_1___pending_resource_load" ],
     [ "Resources::ResourceLoader::_PendingStreamLod", "struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html", "struct_resources_1_1_resource_loader_1_1___pending_stream_lod" ],

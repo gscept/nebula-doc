@@ -178,6 +178,7 @@ var annotated_dup =
       [ "BufferCreateInfo", "struct_core_graphics_1_1_buffer_create_info.html", "struct_core_graphics_1_1_buffer_create_info" ],
       [ "BufferId", "struct_core_graphics_1_1_buffer_id.html", null ],
       [ "BufferSet", "struct_core_graphics_1_1_buffer_set.html", "struct_core_graphics_1_1_buffer_set" ],
+      [ "BufferSparsePage", "struct_core_graphics_1_1_buffer_sparse_page.html", "struct_core_graphics_1_1_buffer_sparse_page" ],
       [ "BufferSubresourceInfo", "struct_core_graphics_1_1_buffer_subresource_info.html", "struct_core_graphics_1_1_buffer_subresource_info" ],
       [ "BufferWithStaging", "struct_core_graphics_1_1_buffer_with_staging.html", "struct_core_graphics_1_1_buffer_with_staging" ],
       [ "CmdBufferBeginInfo", "struct_core_graphics_1_1_cmd_buffer_begin_info.html", "struct_core_graphics_1_1_cmd_buffer_begin_info" ],
@@ -229,6 +230,7 @@ var annotated_dup =
       [ "Nvx3VertexRange", "struct_core_graphics_1_1_nvx3_vertex_range.html", "struct_core_graphics_1_1_nvx3_vertex_range" ],
       [ "PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", "struct_core_graphics_1_1_pass_create_info" ],
       [ "PassId", "struct_core_graphics_1_1_pass_id.html", null ],
+      [ "PinnedBuffer", "struct_core_graphics_1_1_pinned_buffer.html", "struct_core_graphics_1_1_pinned_buffer" ],
       [ "PipelineCreateInfo", "struct_core_graphics_1_1_pipeline_create_info.html", "struct_core_graphics_1_1_pipeline_create_info" ],
       [ "PipelineId", "struct_core_graphics_1_1_pipeline_id.html", null ],
       [ "PipelineRayTracingTable", "struct_core_graphics_1_1_pipeline_ray_tracing_table.html", "struct_core_graphics_1_1_pipeline_ray_tracing_table" ],
@@ -457,6 +459,9 @@ var annotated_dup =
     [ "Gcc", "namespace_gcc.html", [
       [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
     ] ],
+    [ "GI", "namespace_g_i.html", [
+      [ "DDGIContext", "class_g_i_1_1_d_d_g_i_context.html", "class_g_i_1_1_d_d_g_i_context" ]
+    ] ],
     [ "GLFW", "namespace_g_l_f_w.html", [
       [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],
       [ "GLFWGraphicsDisplayEventHandler", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler.html", "class_g_l_f_w_1_1_g_l_f_w_graphics_display_event_handler" ],
@@ -665,19 +670,21 @@ var annotated_dup =
       [ "LinuxThreadLocalPtr", "class_linux_1_1_linux_thread_local_ptr.html", "class_linux_1_1_linux_thread_local_ptr" ]
     ] ],
     [ "Materials", "namespace_materials.html", [
+      [ "MaterialBuffer", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
       [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
-      [ "MaterialCreateInfo", "struct_materials_1_1_material_create_info.html", "struct_materials_1_1_material_create_info" ],
       [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
       [ "MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
       [ "MaterialLoader", "class_materials_1_1_material_loader.html", "class_materials_1_1_material_loader" ],
+      [ "MaterialTemplateValue", "struct_materials_1_1_material_template_value.html", "struct_materials_1_1_material_template_value" ],
       [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
       [ "MaterialVariant", "struct_materials_1_1_material_variant.html", "struct_materials_1_1_material_variant" ],
-      [ "ShaderConfig", "class_materials_1_1_shader_config.html", "class_materials_1_1_shader_config" ],
       [ "ShaderConfigBatchConstant", "struct_materials_1_1_shader_config_batch_constant.html", "struct_materials_1_1_shader_config_batch_constant" ],
       [ "ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", "struct_materials_1_1_shader_config_batch_texture" ],
       [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
-      [ "ShaderConfigServer", "class_materials_1_1_shader_config_server.html", "class_materials_1_1_shader_config_server" ],
       [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ]
+    ] ],
+    [ "MaterialTemplates", "namespace_material_templates.html", [
+      [ "Entry", "struct_material_templates_1_1_entry.html", "struct_material_templates_1_1_entry" ]
     ] ],
     [ "Math", "namespace_math.html", [
       [ "AngularPFeedbackLoop", "class_math_1_1_angular_p_feedback_loop.html", "class_math_1_1_angular_p_feedback_loop" ],
@@ -927,6 +934,7 @@ var annotated_dup =
       [ "NodeLookupUtil", "class_render_util_1_1_node_lookup_util.html", "class_render_util_1_1_node_lookup_util" ]
     ] ],
     [ "Resources", "namespace_resources.html", [
+      [ "PartialLoadBits", "struct_resources_1_1_partial_load_bits.html", "struct_resources_1_1_partial_load_bits" ],
       [ "Resource", "class_resources_1_1_resource.html", "class_resources_1_1_resource" ],
       [ "ResourceLoader", "class_resources_1_1_resource_loader.html", "class_resources_1_1_resource_loader" ],
       [ "ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", "class_resources_1_1_resource_loader_thread" ],
@@ -1075,6 +1083,7 @@ var annotated_dup =
     [ "Vulkan", "namespace_vulkan.html", [
       [ "BindInfo", "struct_vulkan_1_1_bind_info.html", "struct_vulkan_1_1_bind_info" ],
       [ "BufferMapping", "struct_vulkan_1_1_buffer_mapping.html", "struct_vulkan_1_1_buffer_mapping" ],
+      [ "BufferSparsePageTable", "struct_vulkan_1_1_buffer_sparse_page_table.html", "struct_vulkan_1_1_buffer_sparse_page_table" ],
       [ "CommandBufferPools", "struct_vulkan_1_1_command_buffer_pools.html", "struct_vulkan_1_1_command_buffer_pools" ],
       [ "DerivativeLayout", "struct_vulkan_1_1_derivative_layout.html", "struct_vulkan_1_1_derivative_layout" ],
       [ "DescriptorSetBinding", "struct_vulkan_1_1_descriptor_set_binding.html", "struct_vulkan_1_1_descriptor_set_binding" ],

@@ -19,6 +19,7 @@ var win32memory_8cc =
     [ "operator new[]", "win32memory_8cc.html#a537d0449b3add52430bfd4590069c270", null ],
     [ "operator new[]", "win32memory_8cc.html#ab9f5ce3d626e483e1b875ae4713e1a02", null ],
     [ "Realloc", "win32memory_8cc.html#a66c839285702633f8178be0224273a14", null ],
+    [ "StackAlloc", "win32memory_8cc.html#a749588060e8e43906e34f48565a7698b", null ],
     [ "MemoryLoggingHeapType", "win32memory_8cc.html#a68089d5b4fe7cce3875d69acd943bcc3", null ],
     [ "Win32ProcessHeap", "win32memory_8cc.html#a8a78ac480e1496dde67c9605cef959ef", null ]
 ];

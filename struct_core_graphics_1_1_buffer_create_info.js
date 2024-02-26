@@ -9,5 +9,6 @@ var struct_core_graphics_1_1_buffer_create_info =
     [ "name", "struct_core_graphics_1_1_buffer_create_info.html#ab9c028ab1caf420e7e1e3365e22b0bf7", null ],
     [ "queueSupport", "struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8", null ],
     [ "size", "struct_core_graphics_1_1_buffer_create_info.html#a4fb6a69f414266686279a406005c4c79", null ],
+    [ "sparse", "struct_core_graphics_1_1_buffer_create_info.html#a2be9b732d74371093f49af07dce2cd6b", null ],
     [ "usageFlags", "struct_core_graphics_1_1_buffer_create_info.html#aab774e10144702354bfe757f4345f77e", null ]
 ];

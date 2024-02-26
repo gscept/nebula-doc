@@ -53,6 +53,7 @@ var class_core_graphics_1_1_pixel_format =
     [ "FromString", "class_core_graphics_1_1_pixel_format.html#a457732da10609d8cc1689a4d949f1198", null ],
     [ "IsDepthFormat", "class_core_graphics_1_1_pixel_format.html#a85f9e13301394b9e111d398e1c1173d5", null ],
     [ "IsStencilFormat", "class_core_graphics_1_1_pixel_format.html#aebdce0d99ed0dac92dd6aa8291f6e7ed", null ],
+    [ "ToBlockSize", "class_core_graphics_1_1_pixel_format.html#acb337b7c23d0820cc5fba2bdb90701e1", null ],
     [ "ToChannels", "class_core_graphics_1_1_pixel_format.html#af71cd116008d993708038df5c0791f45", null ],
     [ "ToCompressed", "class_core_graphics_1_1_pixel_format.html#aa481001bd572281d82ce7f6fcb54f43c", null ],
     [ "ToImageBits", "class_core_graphics_1_1_pixel_format.html#ae6386f3b3145ddc21f2aceebb70478a1", null ],

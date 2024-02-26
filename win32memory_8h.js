@@ -13,5 +13,6 @@ var win32memory_8h =
     [ "FreeVirtual", "win32memory_8h.html#a13ae93b4a505f65296e8afd5cd682b79", null ],
     [ "GetTotalMemoryStatus", "win32memory_8h.html#a05533d2c6154b45946e2e915fdcbb173", null ],
     [ "IsOverlapping", "win32memory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
-    [ "Realloc", "win32memory_8h.html#a66c839285702633f8178be0224273a14", null ]
+    [ "Realloc", "win32memory_8h.html#a66c839285702633f8178be0224273a14", null ],
+    [ "StackAlloc", "win32memory_8h.html#a749588060e8e43906e34f48565a7698b", null ]
 ];

@@ -4,7 +4,7 @@ var vkbuffer_8cc =
     [ "BufferFill", "vkbuffer_8cc.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "vkbuffer_8cc.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "vkbuffer_8cc.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],
-    [ "BufferGetDeviceAddress", "vkbuffer_8cc.html#ab410b9fdf449efd0cd835e1df4088c8b", null ],
+    [ "BufferGetDeviceAddress", "vkbuffer_8cc.html#adf8061714da864f6e76b61f80627c14c", null ],
     [ "BufferGetElementSize", "vkbuffer_8cc.html#a364925be80719cb03cdb6f4f8938b183", null ],
     [ "BufferGetSize", "vkbuffer_8cc.html#a8ed7c723cbbd8bb47ad85018c6f94e3f", null ],
     [ "BufferGetType", "vkbuffer_8cc.html#aee8a0acbaa9cc2aca1083320303f81a2", null ],
@@ -14,10 +14,16 @@ var vkbuffer_8cc =
     [ "BufferGetVkMemory", "vkbuffer_8cc.html#ab6aa4e7ce992dd3dc77cc9a8a4d9920f", null ],
     [ "BufferInvalidate", "vkbuffer_8cc.html#a53217e7ad61b918f5429686f7f922c70", null ],
     [ "BufferMap", "vkbuffer_8cc.html#a2597e97d2743a4048c9ed303c68b8a08", null ],
+    [ "BufferSparseCommitChanges", "vkbuffer_8cc.html#a27dffb8f655c79d68337579041f70300", null ],
+    [ "BufferSparseEvict", "vkbuffer_8cc.html#ab30a7f248653f4d80d9c26e3d37383b6", null ],
+    [ "BufferSparseGetPageIndex", "vkbuffer_8cc.html#add898b7a6ecf569c19cc7a084b7d337f", null ],
+    [ "BufferSparseGetPageSize", "vkbuffer_8cc.html#a84a7efbf263bce5405112adb0747af18", null ],
+    [ "BufferSparseMakeResident", "vkbuffer_8cc.html#a36b3084401e3964c9fe1997625223ed1", null ],
     [ "BufferUnmap", "vkbuffer_8cc.html#ab3f34ed09e59cda9795bfb52397ec122", null ],
     [ "BufferUpdate", "vkbuffer_8cc.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
     [ "BufferUpload", "vkbuffer_8cc.html#a26cd09613a3eaea39325bed85306739a", null ],
     [ "CreateBuffer", "vkbuffer_8cc.html#a4db4487de9d70ebbdb1ed39e752b5309", null ],
     [ "DestroyBuffer", "vkbuffer_8cc.html#ac6e728397762cdbbf468f5f474207357", null ],
-    [ "bufferAllocator", "vkbuffer_8cc.html#a3d15a80259875b607528737d449b2a87", null ]
+    [ "bufferAllocator", "vkbuffer_8cc.html#a3d15a80259875b607528737d449b2a87", null ],
+    [ "bufferSparseExtensionAllocator", "vkbuffer_8cc.html#a9560ead2c17ee24b461ca22d37e4c5ae", null ]
 ];

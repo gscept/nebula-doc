@@ -93,6 +93,7 @@ $(function(){initNavTree('namespace_raytracing.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Raytracing Namespace Reference</div></div>
@@ -109,6 +110,15 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raytracing_1_1_raytracing_setup_settings.html">RaytracingSetupSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae9ef996590909701eba502ae02607f53" id="r_ae9ef996590909701eba502ae02607f53"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9ef996590909701eba502ae02607f53">ObjectType</a> { <a class="el" href="#ae9ef996590909701eba502ae02607f53a4e651dcdd637d109180a3fa19a15f00c">BRDFObject</a>
+, <a class="el" href="#ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e">BSDFObject</a>
+, <a class="el" href="#ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6">GLTFObject</a>
+, <a class="el" href="#ae9ef996590909701eba502ae02607f53a426416b38395338878a4bd4546d6d6c8">ParticleObject</a>
+ }</td></tr>
+<tr class="separator:ae9ef996590909701eba502ae02607f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a072963959d2c634d15b1ddd1d0dcd4af" id="r_a072963959d2c634d15b1ddd1d0dcd4af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a072963959d2c634d15b1ddd1d0dcd4af">__ImplementContext</a> (<a class="el" href="class_raytracing_1_1_raytracing_context.html">RaytracingContext</a>, raytracingContextAllocator)</td></tr>
@@ -116,53 +126,96 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae03948e9322116cd2cd18a2d82ceb4e5" id="r_ae03948e9322116cd2cd18a2d82ceb4e5"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memitem:a907b4e5ac65f643346c1d80ca2433284" id="r_a907b4e5ac65f643346c1d80ca2433284"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00413e90285c555876905cbc44e2e025" id="r_a00413e90285c555876905cbc44e2e025"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;&#160;&#160;<a class="el" href="#a0d28c71fcd7b0d75d1e58fb114973a05">Raytracing::blasLock</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a00413e90285c555876905cbc44e2e025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c0e0e8a6ea2366f6e3991677dc7d913" id="r_a3c0e0e8a6ea2366f6e3991677dc7d913"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">CoreGraphics::BlasInstanceId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a09de3bb47b02dc781430e1ab9840aee0">Raytracing::blasInstances</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a3c0e0e8a6ea2366f6e3991677dc7d913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9a50744779704a7f43d82d91bd5a27f" id="r_aa9a50744779704a7f43d82d91bd5a27f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a7742720b6f9bba92c678034b213885cd">Raytracing::blasesToRebuild</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:aa9a50744779704a7f43d82d91bd5a27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70feb7b418dc6764d61dc6fbdca2a1f0" id="r_a70feb7b418dc6764d61dc6fbdca2a1f0"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt;&#160;&#160;&#160;<a class="el" href="#abbf33657e903157b6b849482a771ab45">Raytracing::blases</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a70feb7b418dc6764d61dc6fbdca2a1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad4c0d76b2c407e8a5d3dffcb0d5f20" id="r_a5ad4c0d76b2c407e8a5d3dffcb0d5f20"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a>&#160;&#160;&#160;<a class="el" href="#abae74f37b928cda0b6aa1f69626d34ea">Raytracing::toplevelAccelerationStructure</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a5ad4c0d76b2c407e8a5d3dffcb0d5f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71bda3b743dca717d17dcc9d1800e6a1" id="r_a71bda3b743dca717d17dcc9d1800e6a1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_range_allocator.html">Memory::RangeAllocator</a>&#160;&#160;&#160;<a class="el" href="#a46ddf34ffcc8ab9c8a3429416f6a05a1">Raytracing::blasInstanceAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a71bda3b743dca717d17dcc9d1800e6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adca32fc741569ae98e5addb07ef56281" id="r_adca32fc741569ae98e5addb07ef56281"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a9accab6d42a845d2ea69a3d9e3f6bbe9">Raytracing::topLevelNeedsReconstruction</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:adca32fc741569ae98e5addb07ef56281"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8fcfd94065d520bee905ddd72ecfa47" id="r_ac8fcfd94065d520bee905ddd72ecfa47"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a7ba2f5e4b8b174d27aaca486b6bc06b7">Raytracing::topLevelNeedsBuild</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ac8fcfd94065d520bee905ddd72ecfa47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef4c44dc3b3568dd3754870fd0d555a" id="r_a4ef4c44dc3b3568dd3754870fd0d555a"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#ada599caf6950ed7ee173f7f805e3106c">Raytracing::topLevelNeedsUpdate</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a4ef4c44dc3b3568dd3754870fd0d555a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52a4045bacc0d3accd0009028f884494" id="r_a52a4045bacc0d3accd0009028f884494"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(<a class="el" href="class_frame_1_1_frame_code.html">Frame::FrameCode</a>) *1 &gt;&#160;&#160;&#160;<a class="el" href="#ae4e3369dbdbda77b6c5d3d16acc5620d">Raytracing::frameOpAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a52a4045bacc0d3accd0009028f884494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd7ae8601bdd06452d11c37a09c1377b" id="r_abd7ae8601bdd06452d11c37a09c1377b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>, <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a3afb96f7e8534475696ca4a5e3a623e8">Raytracing::blasLookup</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:abd7ae8601bdd06452d11c37a09c1377b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a729bba4780095af135df004e9a45a1de" id="r_a729bba4780095af135df004e9a45a1de"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="#a6dfb06a0927dd8d15a8190d34086bb1a">Raytracing::blasInstanceBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a729bba4780095af135df004e9a45a1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c79616d5e4abb02952f5c9ffda0146f" id="r_a4c79616d5e4abb02952f5c9ffda0146f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="#a18118996b33aaf3e6bc99fa82784cf7e">Raytracing::raytracingTestShader</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a4c79616d5e4abb02952f5c9ffda0146f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f36f983d5a99a480f8126fc96def5e4" id="r_a9f36f983d5a99a480f8126fc96def5e4"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="#acbf836579411f13e2e6628bafdb63068">Raytracing::raytracingTestProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a9f36f983d5a99a480f8126fc96def5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c9f8711136a6fa5ebad1beb6fa3a85b" id="r_a1c9f8711136a6fa5ebad1beb6fa3a85b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a>&#160;&#160;&#160;<a class="el" href="#a72503e334a1390e6d29e9d0716a5d194">Raytracing::raytracingTestTables</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a1c9f8711136a6fa5ebad1beb6fa3a85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae8d5d2901dafba2fc5f63d7a63c1e1" id="r_abae8d5d2901dafba2fc5f63d7a63c1e1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="#a026af1cb9f09a56a97eeb54a1d7be374">Raytracing::raytracingTestOutput</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:abae8d5d2901dafba2fc5f63d7a63c1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a941281ddfb190724789921c39051d7c5" id="r_a941281ddfb190724789921c39051d7c5"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">CoreGraphics::PipelineRayTracingTable</a>&#160;&#160;&#160;<a class="el" href="#a630126188028bee203400229f7844903">Raytracing::raytracingBundle</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a941281ddfb190724789921c39051d7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f8512731f36a1666dc8a31e90a092ad" id="r_a9f8512731f36a1666dc8a31e90a092ad"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;&#160;&#160;<a class="el" href="#a2397dcd44d9200eb80b8c9a3a501117f">Raytracing::jobWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a9f8512731f36a1666dc8a31e90a092ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77511282692a891c486914a80bcaea06" id="r_a77511282692a891c486914a80bcaea06"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#a4b03512dcb00e845301f82fe2841c23f">Raytracing::maxAllowedInstances</a> = 0&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a77511282692a891c486914a80bcaea06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a94e7359ccc903fee97f44d15798315" id="r_a8a94e7359ccc903fee97f44d15798315"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#af20dac3ead3fad4b1a6584eb313a838f">Raytracing::numRegisteredInstances</a> = 0&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a8a94e7359ccc903fee97f44d15798315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a757f5e1e47cf9d6f869ccb20f59c077e" id="r_a757f5e1e47cf9d6f869ccb20f59c077e"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#a54a29d6aeec342bf784cc6122a996f4c">Raytracing::numInstancesToFlush</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a757f5e1e47cf9d6f869ccb20f59c077e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03948e9322116cd2cd18a2d82ceb4e5" id="r_ae03948e9322116cd2cd18a2d82ceb4e5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03948e9322116cd2cd18a2d82ceb4e5">state</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ae03948e9322116cd2cd18a2d82ceb4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127a43d83fa73ff7e725ad944c950a14" id="r_a127a43d83fa73ff7e725ad944c950a14"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;&#160;&#160;<a class="el" href="#a0d28c71fcd7b0d75d1e58fb114973a05">Raytracing::blasLock</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a127a43d83fa73ff7e725ad944c950a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4eaca7fb5ff0fd090943482533eac69" id="r_ad4eaca7fb5ff0fd090943482533eac69"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">CoreGraphics::BlasInstanceId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a09de3bb47b02dc781430e1ab9840aee0">Raytracing::blasInstances</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ad4eaca7fb5ff0fd090943482533eac69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e28a4b8c7feddf6bdd23a875588825" id="r_ab0e28a4b8c7feddf6bdd23a875588825"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a448a98e34e92951f051f597835c46b01">Raytracing::blasInstanceMeshes</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab0e28a4b8c7feddf6bdd23a875588825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7b2b50987d8c61c5a436338e0dd28f" id="r_a4d7b2b50987d8c61c5a436338e0dd28f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a7742720b6f9bba92c678034b213885cd">Raytracing::blasesToRebuild</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a4d7b2b50987d8c61c5a436338e0dd28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc83a5529e9a270a6e80a486b01717f" id="r_a2dc83a5529e9a270a6e80a486b01717f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt;&#160;&#160;&#160;<a class="el" href="#abbf33657e903157b6b849482a771ab45">Raytracing::blases</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a2dc83a5529e9a270a6e80a486b01717f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0307a2a8353a184731826239580943" id="r_a8b0307a2a8353a184731826239580943"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a>&#160;&#160;&#160;<a class="el" href="#abae74f37b928cda0b6aa1f69626d34ea">Raytracing::toplevelAccelerationStructure</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a8b0307a2a8353a184731826239580943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa880acb14fa11e111fc6bc3c78d416f3" id="r_aa880acb14fa11e111fc6bc3c78d416f3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_range_allocator.html">Memory::RangeAllocator</a>&#160;&#160;&#160;<a class="el" href="#a46ddf34ffcc8ab9c8a3429416f6a05a1">Raytracing::blasInstanceAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa880acb14fa11e111fc6bc3c78d416f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93493b89b765e413c09e0cdd0457f731" id="r_a93493b89b765e413c09e0cdd0457f731"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a9accab6d42a845d2ea69a3d9e3f6bbe9">Raytracing::topLevelNeedsReconstruction</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a93493b89b765e413c09e0cdd0457f731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a600de12e012e82e412b173e8518138d9" id="r_a600de12e012e82e412b173e8518138d9"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a7ba2f5e4b8b174d27aaca486b6bc06b7">Raytracing::topLevelNeedsBuild</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a600de12e012e82e412b173e8518138d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8436a8d178bb7810ed0959be670dbf" id="r_aff8436a8d178bb7810ed0959be670dbf"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#ada599caf6950ed7ee173f7f805e3106c">Raytracing::topLevelNeedsUpdate</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aff8436a8d178bb7810ed0959be670dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af351179b99060763896fc8f519e05ad3" id="r_af351179b99060763896fc8f519e05ad3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; sizeof(<a class="el" href="class_frame_1_1_frame_code.html">Frame::FrameCode</a>) *1 &gt;&#160;&#160;&#160;<a class="el" href="#ae4e3369dbdbda77b6c5d3d16acc5620d">Raytracing::frameOpAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:af351179b99060763896fc8f519e05ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cdf4a1e162cb5782db3f3293e51dabf" id="r_a4cdf4a1e162cb5782db3f3293e51dabf"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>, <a class="el" href="namespace_util.html#ad8f63293b6e3a30890b850ecb295f53f">Util::Tuple</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt; &gt;&#160;&#160;&#160;<a class="el" href="#a6c6aceb6c6d119c0358e54f184b5a384">Raytracing::blasLookup</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a4cdf4a1e162cb5782db3f3293e51dabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53939c6acb55a26acbca3f7d3f8546c" id="r_ad53939c6acb55a26acbca3f7d3f8546c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt; &gt;&#160;&#160;&#160;<a class="el" href="#a49e56ee4c5127109b41dcc7ce2b5eba6">Raytracing::terrainBlases</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ad53939c6acb55a26acbca3f7d3f8546c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb9418fe42549da2baaf81ab398d5e7" id="r_acdb9418fe42549da2baaf81ab398d5e7"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="#a6dfb06a0927dd8d15a8190d34086bb1a">Raytracing::blasInstanceBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:acdb9418fe42549da2baaf81ab398d5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08a10515feef878fc68c9f1718eb38a" id="r_aa08a10515feef878fc68c9f1718eb38a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a>&#160;&#160;&#160;<a class="el" href="#a72503e334a1390e6d29e9d0716a5d194">Raytracing::raytracingTestTables</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa08a10515feef878fc68c9f1718eb38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07a0c568f7d0f105711aa9451cd8623" id="r_ad07a0c568f7d0f105711aa9451cd8623"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="#a026af1cb9f09a56a97eeb54a1d7be374">Raytracing::raytracingTestOutput</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ad07a0c568f7d0f105711aa9451cd8623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f7e2bef4c5710f5df748d8df05be24" id="r_a27f7e2bef4c5710f5df748d8df05be24"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#a7e2947a5e25a53ff14629bc2fbe135ee">Raytracing::geometryBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a27f7e2bef4c5710f5df748d8df05be24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb440875b50db88a88e78e5c0290519b" id="r_acb440875b50db88a88e78e5c0290519b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="#af18221e3a9577fb57e84a26771541ade">Raytracing::objectBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:acb440875b50db88a88e78e5c0290519b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92c272cb23f10a44ec78eeef0dc11a0" id="r_ac92c272cb23f10a44ec78eeef0dc11a0"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; Raytracetest::Object &gt;&#160;&#160;&#160;<a class="el" href="#a29d59b48693d6e906ae36e24bb5258e5">Raytracing::objects</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ac92c272cb23f10a44ec78eeef0dc11a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b33a0febe12b2d87017360d9f0e52b" id="r_ab9b33a0febe12b2d87017360d9f0e52b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#a9a4430d7e9e978b93b3be378d08f0f0d">Raytracing::lightGrid</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab9b33a0febe12b2d87017360d9f0e52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ad67428b9e68e45b49ec0bb8dab19a" id="r_a61ad67428b9e68e45b49ec0bb8dab19a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#aefa77a32e5d2e02d4917d8103ec793e4">Raytracing::lightGridConstants</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a61ad67428b9e68e45b49ec0bb8dab19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9298af36aed2745cc49e26af84e699" id="r_a4e9298af36aed2745cc49e26af84e699"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="#a497e94175eb81185043e01e626727568">Raytracing::lightGridShader</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a4e9298af36aed2745cc49e26af84e699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f093de8cd06e904bc4bc80b915848a" id="r_a05f093de8cd06e904bc4bc80b915848a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a>&#160;&#160;&#160;<a class="el" href="#a8df44d7b69c0a715b3215a417f557053">Raytracing::lightGridResourceTables</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a05f093de8cd06e904bc4bc80b915848a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904dbcd522b27c68213c1061abffd088" id="r_a904dbcd522b27c68213c1061abffd088"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="#a2fa1088fe23d1a38ebaf041845c876dc">Raytracing::lightGridGenProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a904dbcd522b27c68213c1061abffd088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1980285ea72f9d2f5ee2266534c678" id="r_afc1980285ea72f9d2f5ee2266534c678"><td class="memItemLeft" >&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="#a0786b109b7d0798b68b80ac40790e4e5">Raytracing::lightGridCullProgram</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:afc1980285ea72f9d2f5ee2266534c678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc3aaac38509290f7b3d9f98e303af2" id="r_aacc3aaac38509290f7b3d9f98e303af2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#a493e44d995d52ee0f6da1c591ed3d8af">Raytracing::lightGridIndexLists</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aacc3aaac38509290f7b3d9f98e303af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b4f1dfd28ad0e478a3c55538b06ec6" id="r_ae3b4f1dfd28ad0e478a3c55538b06ec6"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">CoreGraphics::PipelineRayTracingTable</a>&#160;&#160;&#160;<a class="el" href="#a630126188028bee203400229f7844903">Raytracing::raytracingBundle</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ae3b4f1dfd28ad0e478a3c55538b06ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69de252074d8c3d7c3b9a16b63e6c3f1" id="r_a69de252074d8c3d7c3b9a16b63e6c3f1"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;&#160;&#160;<a class="el" href="#a2397dcd44d9200eb80b8c9a3a501117f">Raytracing::jobWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a69de252074d8c3d7c3b9a16b63e6c3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab2014a356e1ae5ac86ae4f404510de" id="r_aeab2014a356e1ae5ac86ae4f404510de"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#a4b03512dcb00e845301f82fe2841c23f">Raytracing::maxAllowedInstances</a> = 0&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aeab2014a356e1ae5ac86ae4f404510de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aecb15c87e3043a255f93d5a0b85786" id="r_a1aecb15c87e3043a255f93d5a0b85786"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#af20dac3ead3fad4b1a6584eb313a838f">Raytracing::numRegisteredInstances</a> = 0&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a1aecb15c87e3043a255f93d5a0b85786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2fcf7638def3747a1a6b36a5aa3ba3" id="r_a2c2fcf7638def3747a1a6b36a5aa3ba3"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#a54a29d6aeec342bf784cc6122a996f4c">Raytracing::numInstancesToFlush</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a2c2fcf7638def3747a1a6b36a5aa3ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907b4e5ac65f643346c1d80ca2433284" id="r_a907b4e5ac65f643346c1d80ca2433284"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a907b4e5ac65f643346c1d80ca2433284">state</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a907b4e5ac65f643346c1d80ca2433284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fcf56918270aea13192f2189e5737ca" id="r_a7fcf56918270aea13192f2189e5737ca"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcf56918270aea13192f2189e5737ca">MaterialPropertyMappings</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbab3e3076d9b3c53bede50d468b647b109">Materials::MaterialProperties::Num</a>]</td></tr>
+<tr class="separator:a7fcf56918270aea13192f2189e5737ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae9ef996590909701eba502ae02607f53" name="ae9ef996590909701eba502ae02607f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ef996590909701eba502ae02607f53">&#9670;&#160;</a></span>ObjectType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ae9ef996590909701eba502ae02607f53">Raytracing::ObjectType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae9ef996590909701eba502ae02607f53a4e651dcdd637d109180a3fa19a15f00c" name="ae9ef996590909701eba502ae02607f53a4e651dcdd637d109180a3fa19a15f00c"></a>BRDFObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e" name="ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e"></a>BSDFObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6" name="ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6"></a>GLTFObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9ef996590909701eba502ae02607f53a426416b38395338878a4bd4546d6d6c8" name="ae9ef996590909701eba502ae02607f53a426416b38395338878a4bd4546d6d6c8"></a>ParticleObject&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a072963959d2c634d15b1ddd1d0dcd4af" name="a072963959d2c634d15b1ddd1d0dcd4af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a072963959d2c634d15b1ddd1d0dcd4af">&#9670;&#160;</a></span>__ImplementContext()</h2>
@@ -242,6 +295,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a448a98e34e92951f051f597835c46b01" name="a448a98e34e92951f051f597835c46b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448a98e34e92951f051f597835c46b01">&#9670;&#160;</a></span>blasInstanceMeshes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>&gt; Raytracing::blasInstanceMeshes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a09de3bb47b02dc781430e1ab9840aee0" name="a09de3bb47b02dc781430e1ab9840aee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09de3bb47b02dc781430e1ab9840aee0">&#9670;&#160;</a></span>blasInstances</h2>
 
@@ -270,14 +337,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3afb96f7e8534475696ca4a5e3a623e8" name="a3afb96f7e8534475696ca4a5e3a623e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3afb96f7e8534475696ca4a5e3a623e8">&#9670;&#160;</a></span>blasLookup</h2>
+<a id="a6c6aceb6c6d119c0358e54f184b5a384" name="a6c6aceb6c6d119c0358e54f184b5a384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6aceb6c6d119c0358e54f184b5a384">&#9670;&#160;</a></span>blasLookup</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>, <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a>&gt; Raytracing::blasLookup</td>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>, <a class="el" href="namespace_util.html#ad8f63293b6e3a30890b850ecb295f53f">Util::Tuple</a>&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a>&gt; &gt; Raytracing::blasLookup</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -298,6 +365,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a7e2947a5e25a53ff14629bc2fbe135ee" name="a7e2947a5e25a53ff14629bc2fbe135ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2947a5e25a53ff14629bc2fbe135ee">&#9670;&#160;</a></span>geometryBindingBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Raytracing::geometryBindingBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2397dcd44d9200eb80b8c9a3a501117f" name="a2397dcd44d9200eb80b8c9a3a501117f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2397dcd44d9200eb80b8c9a3a501117f">&#9670;&#160;</a></span>jobWaitEvent</h2>
 
@@ -308,6 +389,126 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="class_threading_1_1_event.html">Threading::Event</a> Raytracing::jobWaitEvent</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a4430d7e9e978b93b3be378d08f0f0d" name="a9a4430d7e9e978b93b3be378d08f0f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4430d7e9e978b93b3be378d08f0f0d">&#9670;&#160;</a></span>lightGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Raytracing::lightGrid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefa77a32e5d2e02d4917d8103ec793e4" name="aefa77a32e5d2e02d4917d8103ec793e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefa77a32e5d2e02d4917d8103ec793e4">&#9670;&#160;</a></span>lightGridConstants</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Raytracing::lightGridConstants</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0786b109b7d0798b68b80ac40790e4e5" name="a0786b109b7d0798b68b80ac40790e4e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0786b109b7d0798b68b80ac40790e4e5">&#9670;&#160;</a></span>lightGridCullProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::ShaderProgramId Raytracing::lightGridCullProgram</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fa1088fe23d1a38ebaf041845c876dc" name="a2fa1088fe23d1a38ebaf041845c876dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa1088fe23d1a38ebaf041845c876dc">&#9670;&#160;</a></span>lightGridGenProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::ShaderProgramId Raytracing::lightGridGenProgram</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a493e44d995d52ee0f6da1c591ed3d8af" name="a493e44d995d52ee0f6da1c591ed3d8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493e44d995d52ee0f6da1c591ed3d8af">&#9670;&#160;</a></span>lightGridIndexLists</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Raytracing::lightGridIndexLists</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8df44d7b69c0a715b3215a417f557053" name="a8df44d7b69c0a715b3215a417f557053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df44d7b69c0a715b3215a417f557053">&#9670;&#160;</a></span>lightGridResourceTables</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a> Raytracing::lightGridResourceTables</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a497e94175eb81185043e01e626727568" name="a497e94175eb81185043e01e626727568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497e94175eb81185043e01e626727568">&#9670;&#160;</a></span>lightGridShader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> Raytracing::lightGridShader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fcf56918270aea13192f2189e5737ca" name="a7fcf56918270aea13192f2189e5737ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcf56918270aea13192f2189e5737ca">&#9670;&#160;</a></span>MaterialPropertyMappings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Raytracing::MaterialPropertyMappings[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcbab3e3076d9b3c53bede50d468b647b109">Materials::MaterialProperties::Num</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -354,6 +555,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af18221e3a9577fb57e84a26771541ade" name="af18221e3a9577fb57e84a26771541ade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af18221e3a9577fb57e84a26771541ade">&#9670;&#160;</a></span>objectBindingBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a> Raytracing::objectBindingBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29d59b48693d6e906ae36e24bb5258e5" name="a29d59b48693d6e906ae36e24bb5258e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d59b48693d6e906ae36e24bb5258e5">&#9670;&#160;</a></span>objects</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;Raytracetest::Object&gt; Raytracing::objects</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a630126188028bee203400229f7844903" name="a630126188028bee203400229f7844903"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a630126188028bee203400229f7844903">&#9670;&#160;</a></span>raytracingBundle</h2>
 
@@ -382,34 +611,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acbf836579411f13e2e6628bafdb63068" name="acbf836579411f13e2e6628bafdb63068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbf836579411f13e2e6628bafdb63068">&#9670;&#160;</a></span>raytracingTestProgram</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CoreGraphics::ShaderProgramId Raytracing::raytracingTestProgram</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a18118996b33aaf3e6bc99fa82784cf7e" name="a18118996b33aaf3e6bc99fa82784cf7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18118996b33aaf3e6bc99fa82784cf7e">&#9670;&#160;</a></span>raytracingTestShader</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> Raytracing::raytracingTestShader</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a72503e334a1390e6d29e9d0716a5d194" name="a72503e334a1390e6d29e9d0716a5d194"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72503e334a1390e6d29e9d0716a5d194">&#9670;&#160;</a></span>raytracingTestTables</h2>
 
@@ -424,14 +625,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae03948e9322116cd2cd18a2d82ceb4e5" name="ae03948e9322116cd2cd18a2d82ceb4e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae03948e9322116cd2cd18a2d82ceb4e5">&#9670;&#160;</a></span>[struct]</h2>
+<a id="a907b4e5ac65f643346c1d80ca2433284" name="a907b4e5ac65f643346c1d80ca2433284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907b4e5ac65f643346c1d80ca2433284">&#9670;&#160;</a></span>[struct]</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">struct  { ... }  Raytracing::state</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49e56ee4c5127109b41dcc7ce2b5eba6" name="a49e56ee4c5127109b41dcc7ce2b5eba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e56ee4c5127109b41dcc7ce2b5eba6">&#9670;&#160;</a></span>terrainBlases</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a>&gt; &gt; Raytracing::terrainBlases</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,7 +716,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_raytracing.html">Raytracing</a></li>
 				<li class="footer">
-					Generated on Mon Feb 26 2024 14:14:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Feb 26 2024 14:40:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
