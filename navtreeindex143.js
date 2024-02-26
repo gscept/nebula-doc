@@ -1,5 +1,15 @@
 var NAVTREEINDEX143 =
 {
+"struct_mathf_1_1_bounding_box.html#ae65dec182d0cfb36860efc1295ba0918":[8,0,45,0,3],
+"struct_mathf_1_1_bounding_box.html#ae65dec182d0cfb36860efc1295ba0918":[9,0,40,0,3],
+"struct_mathf_1_1_bounding_box.html#ae995e388a597588a96ad00f693263d25":[9,0,40,0,14],
+"struct_mathf_1_1_bounding_box.html#ae995e388a597588a96ad00f693263d25":[8,0,45,0,14],
+"struct_mathf_1_1_bounding_box.html#aecb1636e6a10bca6ad3c434bbb90711d":[8,0,45,0,4],
+"struct_mathf_1_1_bounding_box.html#aecb1636e6a10bca6ad3c434bbb90711d":[9,0,40,0,4],
+"struct_mathf_1_1_bounding_box.html#af5b1590e1bb41f7858558f184c94db9d":[9,0,40,0,9],
+"struct_mathf_1_1_bounding_box.html#af5b1590e1bb41f7858558f184c94db9d":[8,0,45,0,9],
+"struct_mathf_1_1_bounding_sphere.html":[8,0,45,2],
+"struct_mathf_1_1_bounding_sphere.html":[9,0,40,2],
 "struct_mathf_1_1_bounding_sphere.html#a0d58065ff68d9292762f8bba42c806ac":[9,0,40,2,29],
 "struct_mathf_1_1_bounding_sphere.html#a0d58065ff68d9292762f8bba42c806ac":[8,0,45,2,29],
 "struct_mathf_1_1_bounding_sphere.html#a19507b3bc12ea915e70ba2f4dfdcc6d2":[8,0,45,2,18],
@@ -239,15 +249,5 @@ var NAVTREEINDEX143 =
 "struct_mathf_1_1_color.html#a72a927ca30aa15fb08a64a303eb8e5c6":[9,0,40,3,157],
 "struct_mathf_1_1_color.html#a72a927ca30aa15fb08a64a303eb8e5c6":[8,0,45,3,157],
 "struct_mathf_1_1_color.html#a72f34702f8688b0c12a061ddbe5dc8c9":[8,0,45,3,88],
-"struct_mathf_1_1_color.html#a72f34702f8688b0c12a061ddbe5dc8c9":[9,0,40,3,88],
-"struct_mathf_1_1_color.html#a73144594e56fe835938e7c08900baa6f":[9,0,40,3,120],
-"struct_mathf_1_1_color.html#a73144594e56fe835938e7c08900baa6f":[8,0,45,3,120],
-"struct_mathf_1_1_color.html#a7396d887b0bf7c1160d8a04eaac20e3f":[9,0,40,3,65],
-"struct_mathf_1_1_color.html#a7396d887b0bf7c1160d8a04eaac20e3f":[8,0,45,3,65],
-"struct_mathf_1_1_color.html#a747d183ba39f3fc2d4b792c517fef024":[8,0,45,3,73],
-"struct_mathf_1_1_color.html#a747d183ba39f3fc2d4b792c517fef024":[9,0,40,3,73],
-"struct_mathf_1_1_color.html#a74f265a4c20f771bb0d19d8eafba6f6e":[9,0,40,3,161],
-"struct_mathf_1_1_color.html#a74f265a4c20f771bb0d19d8eafba6f6e":[8,0,45,3,161],
-"struct_mathf_1_1_color.html#a76286112cb612dfed92cf47dffe229c2":[8,0,45,3,23],
-"struct_mathf_1_1_color.html#a76286112cb612dfed92cf47dffe229c2":[9,0,40,3,23]
+"struct_mathf_1_1_color.html#a72f34702f8688b0c12a061ddbe5dc8c9":[9,0,40,3,88]
 };

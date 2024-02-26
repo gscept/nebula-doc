@@ -1,5 +1,6 @@
 var class_app_1_1_game_application =
 [
+    [ "GameAppExitHandler", "class_app_1_1_game_application_1_1_game_app_exit_handler.html", "class_app_1_1_game_application_1_1_game_app_exit_handler" ],
     [ "~GameApplication", "class_app_1_1_game_application.html#a4d43173a92876632c00eeaf3f9c70571", null ],
     [ "_declare_timer", "class_app_1_1_game_application.html#a7609c8545e5109dc8d0ca1d1b8cbf73c", null ],
     [ "CleanupGameFeatures", "class_app_1_1_game_application.html#a3e51a6169a8d02007f30bb6b037868d6", null ],
@@ -10,6 +11,7 @@ var class_app_1_1_game_application =
     [ "SetupGameFeatures", "class_app_1_1_game_application.html#a89597ec50cea9feaecb0d0c27132c6d2", null ],
     [ "StepFrame", "class_app_1_1_game_application.html#a66975b9f7ab9cb781be0579b6ed9f4b1", null ],
     [ "coreServer", "class_app_1_1_game_application.html#a4a247fa96a0e379dd3e156591804eecb", null ],
+    [ "exitHandler", "class_app_1_1_game_application.html#a771832e50060b89c5f526d0dca1dbedf", null ],
     [ "FrameIndex", "class_app_1_1_game_application.html#a28bbd3e744e31936fe9c6efe5c2bf099", null ],
     [ "gameContentServer", "class_app_1_1_game_application.html#a4df0f88eb3d08e43b794b7680a424362", null ],
     [ "gameServer", "class_app_1_1_game_application.html#a8db4eb2d2a56a10839f946eaa48c4bc6", null ],

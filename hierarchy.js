@@ -1010,6 +1010,7 @@ var hierarchy =
     [ "IO::EventHandlerData", "struct_i_o_1_1_event_handler_data.html", null ],
     [ "CoreGraphics::EventId", "struct_core_graphics_1_1_event_id.html", null ],
     [ "Core::ExitHandler", "class_core_1_1_exit_handler.html", [
+      [ "App::GameApplication::GameAppExitHandler", "class_app_1_1_game_application_1_1_game_app_exit_handler.html", null ],
       [ "Attr::AttrExitHandler", "class_attr_1_1_attr_exit_handler.html", null ]
     ] ],
     [ "Math::Extrapolator< TYPE >", "class_math_1_1_extrapolator.html", null ],
@@ -1033,8 +1034,8 @@ var hierarchy =
     [ "IO::FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", null ],
     [ "Game::FilterBuilder", "class_game_1_1_filter_builder.html", null ],
     [ "Game::FilterBuilder::FilterCreateInfo", "struct_game_1_1_filter_builder_1_1_filter_create_info.html", null ],
-    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "MemDb::FilterSet", "class_mem_db_1_1_filter_set.html", null ],
+    [ "Filterset", "class_mem_db_1_1_filterset.html", null ],
     [ "Util::FixedArray< TYPE >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::GamePadBase::ButtonState >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Base::KeyboardBase::KeyState >", "class_util_1_1_fixed_array.html", null ],

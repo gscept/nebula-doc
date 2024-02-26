@@ -1,5 +1,15 @@
 var NAVTREEINDEX104 =
 {
+"namespace_attr.html#adc1f444350fc7395b51efe4ace15e91f":[8,0,3,58],
+"namespace_attr.html#adcc9bda97ceb15b71acfc403f8891eb4":[8,0,3,55],
+"namespace_attr.html#ae983a262f8975857235c1244be728064":[8,0,3,62],
+"namespace_attr.html#aef680177576eb34df21d2627c391efa9":[8,0,3,53],
+"namespace_attr.html#aef8e81865e93304692d59ad69a28d41f":[8,0,3,47],
+"namespace_attr.html#af3a2c5f686b1d73863841c7b06abf17f":[8,0,3,61],
+"namespace_attr.html#af8b50b3a799f9eef398efcbc2b9da55c":[8,0,3,54],
+"namespace_audio.html":[8,0,4],
+"namespace_audio.html#aef83eedba2378c050dbc9409f1eebda0":[8,0,4,5],
+"namespace_audio_feature.html":[8,0,5],
 "namespace_audio_feature.html#a44319b0b38fcadafeadda24e1e0cee39":[8,0,5,5],
 "namespace_audio_feature.html#a6664e6f2a1bcd1a85dcb1c046796d0dc":[8,0,5,2],
 "namespace_audio_feature.html#a6e80d4e9fb0a4343bf400006176ab99b":[8,0,5,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX104 =
 "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aaf19dbf2edb3a0bd74b0524d960ff21eb":[8,0,14,161,3],
 "namespace_core_graphics.html#a1f01fdfc290d8197c572bd8fb9cc473aafdb0c388de01d545017cdf9ccf00eb72":[8,0,14,161,5],
 "namespace_core_graphics.html#a1f10f2fc74273ce8f2745c056c5d8e88":[8,0,14,536],
-"namespace_core_graphics.html#a1f84f7fb7847458916467b4788aaae71":[8,0,14,324],
-"namespace_core_graphics.html#a2003ec6c592c3ae6738c6a57d98057dc":[8,0,14,203],
-"namespace_core_graphics.html#a202e6295544efb5c6e5afff42477a2b9":[8,0,14,497],
-"namespace_core_graphics.html#a209560300a7c07e447e896963e1a1850":[8,0,14,360],
-"namespace_core_graphics.html#a2099d41e708541591339e0da4f215715":[8,0,14,575],
-"namespace_core_graphics.html#a2152ebb4ca924da0d7c6018ad491531f":[8,0,14,454],
-"namespace_core_graphics.html#a216650c21c270adf9da585fe6306b5de":[8,0,14,555],
-"namespace_core_graphics.html#a22c70d17634e00da7e57b7e29ef500ce":[8,0,14,198],
-"namespace_core_graphics.html#a2302dae5b78966d4108e7651c2a6c111":[8,0,14,417],
-"namespace_core_graphics.html#a23dd7fac6dac29f8cf2c5dd4e9652e29":[8,0,14,315],
-"namespace_core_graphics.html#a2498ddf34e79711e93242ee2e896a451":[8,0,14,281]
+"namespace_core_graphics.html#a1f84f7fb7847458916467b4788aaae71":[8,0,14,324]
 };

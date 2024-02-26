@@ -1,5 +1,15 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_____mesh.html#ae1b07b21af89eb07fae1dbb39a07917a":[8,0,14,2,2],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html":[9,0,12,2],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html":[8,0,14,3],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a25814387a4aaf603105b80d28d3d7fcf":[9,0,12,2,1],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a25814387a4aaf603105b80d28d3d7fcf":[8,0,14,3,1],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a462c28dda3730102569c66889f058d0d":[9,0,12,2,0],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a462c28dda3730102569c66889f058d0d":[8,0,14,3,0],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[9,0,12,2,2],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[8,0,14,3,2],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#aadb669f5ebcceb0c6e986a7a222b5304":[9,0,12,2,3],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#aadb669f5ebcceb0c6e986a7a222b5304":[8,0,14,3,3],
 "struct_core_graphics_1_1_alloc.html":[9,0,12,5],
 "struct_core_graphics_1_1_alloc.html":[8,0,14,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_derivative_state_id.html":[8,0,14,35],
 "struct_core_graphics_1_1_draw_thread_1_1_command.html":[8,0,14,39,0],
 "struct_core_graphics_1_1_draw_thread_1_1_command.html":[9,0,12,38,0],
-"struct_core_graphics_1_1_draw_thread_1_1_command.html#a21f1b2fcce9e854b20f47f4f299cd9d0":[8,0,14,39,0,1],
-"struct_core_graphics_1_1_draw_thread_1_1_command.html#a21f1b2fcce9e854b20f47f4f299cd9d0":[9,0,12,38,0,1],
-"struct_core_graphics_1_1_draw_thread_1_1_command.html#ab8e3fed05dea2a92cdf6e8e7da968b4b":[8,0,14,39,0,0],
-"struct_core_graphics_1_1_draw_thread_1_1_command.html#ab8e3fed05dea2a92cdf6e8e7da968b4b":[9,0,12,38,0,0],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html":[8,0,14,39,1],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html":[9,0,12,38,1],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html#a0beafa5d26392aaa8c9724ac395b450b":[8,0,14,39,1,5],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html#a0beafa5d26392aaa8c9724ac395b450b":[9,0,12,38,1,5],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html#a3b4f328e4184d2abcc9f9af9dfc56078":[9,0,12,38,1,3],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html#a3b4f328e4184d2abcc9f9af9dfc56078":[8,0,14,39,1,3],
-"struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html#a3c1206181ea3890dc1187963b03242f3":[8,0,14,39,1,1]
+"struct_core_graphics_1_1_draw_thread_1_1_command.html#a21f1b2fcce9e854b20f47f4f299cd9d0":[8,0,14,39,0,1]
 };

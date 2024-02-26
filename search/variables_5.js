@@ -65,13 +65,14 @@ var searchData=
   ['exclusivemode_62',['exclusiveMode',['../class_db_1_1_database.html#ac5f1c727484586e9a8198a947f863673',1,'Db::Database']]],
   ['exclusivetag_63',['exclusiveTag',['../class_animation_1_1_anim_job.html#a8aec30f96eb09da8450e89df81c39771',1,'Animation::AnimJob']]],
   ['exepath_64',['exePath',['../class_base_1_1_process.html#aee5387b92961146f80a5cd10f85168a1',1,'Base::Process']]],
-  ['exithandlers_65',['ExitHandlers',['../class_o_s_x_1_1_sys_func.html#a6e417a8ca19c5310880958ae089be32a',1,'OSX::SysFunc::ExitHandlers'],['../class_posix_1_1_sys_func.html#a164c098370a23123051d25d1dfbc3760',1,'Posix::SysFunc::ExitHandlers'],['../class_win32_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708',1,'Win32::SysFunc::ExitHandlers']]],
-  ['exp_66',['exp',['../union_math_1_1half_1_1_float.html#a274c0edffdd490935f1fe4be3feaaf7e',1,'Math::half::Float::exp'],['../class_math_1_1half.html#a0d3ca863b0699c60700f2ec4fddd7a79',1,'Math::half::exp']]],
-  ['extensionmap_67',['extensionMap',['../class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db',1,'Resources::ResourceServer']]],
-  ['extensions_68',['extensions',['../struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd',1,'Vulkan::GraphicsDeviceState']]],
-  ['extent_69',['extent',['../struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a',1,'CoreGraphics::TextureSparsePage']]],
-  ['externalflags_70',['externalFlags',['../class_mem_db_1_1_attribute.html#a6d7e509d7ef557052f9d287fd7ef8d26',1,'MemDb::Attribute']]],
-  ['extractprogram_71',['extractProgram',['../namespace_post_effects.html#aa5149c747490e2f66a483c9da4d55e9e',1,'PostEffects']]],
-  ['extractresourcetable_72',['extractResourceTable',['../namespace_post_effects.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b',1,'PostEffects']]],
-  ['extractshader_73',['extractShader',['../namespace_post_effects.html#a0bc5995084efe75d05e1a46ae562f035',1,'PostEffects']]]
+  ['exithandler_65',['exitHandler',['../class_app_1_1_game_application.html#a771832e50060b89c5f526d0dca1dbedf',1,'App::GameApplication']]],
+  ['exithandlers_66',['ExitHandlers',['../class_o_s_x_1_1_sys_func.html#a6e417a8ca19c5310880958ae089be32a',1,'OSX::SysFunc::ExitHandlers'],['../class_posix_1_1_sys_func.html#a164c098370a23123051d25d1dfbc3760',1,'Posix::SysFunc::ExitHandlers'],['../class_win32_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708',1,'Win32::SysFunc::ExitHandlers']]],
+  ['exp_67',['exp',['../union_math_1_1half_1_1_float.html#a274c0edffdd490935f1fe4be3feaaf7e',1,'Math::half::Float::exp'],['../class_math_1_1half.html#a0d3ca863b0699c60700f2ec4fddd7a79',1,'Math::half::exp']]],
+  ['extensionmap_68',['extensionMap',['../class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db',1,'Resources::ResourceServer']]],
+  ['extensions_69',['extensions',['../struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd',1,'Vulkan::GraphicsDeviceState']]],
+  ['extent_70',['extent',['../struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a',1,'CoreGraphics::TextureSparsePage']]],
+  ['externalflags_71',['externalFlags',['../class_mem_db_1_1_attribute.html#a6d7e509d7ef557052f9d287fd7ef8d26',1,'MemDb::Attribute']]],
+  ['extractprogram_72',['extractProgram',['../namespace_post_effects.html#aa5149c747490e2f66a483c9da4d55e9e',1,'PostEffects']]],
+  ['extractresourcetable_73',['extractResourceTable',['../namespace_post_effects.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b',1,'PostEffects']]],
+  ['extractshader_74',['extractShader',['../namespace_post_effects.html#a0bc5995084efe75d05e1a46ae562f035',1,'PostEffects']]]
 ];
