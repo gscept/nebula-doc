@@ -102,6 +102,10 @@ $(function(){initNavTree('componentinspection_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_2game_2entity_8h_source.html">game/entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="componentid_8h_source.html">game/componentid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="position_8h_source.html">basegamefeature/components/position.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orientation_8h_source.html">basegamefeature/components/orientation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scale_8h_source.html">basegamefeature/components/scale.h</a>&quot;</code><br />
+<code>#include &quot;imgui.h&quot;</code><br />
 </div>
 <p><a href="componentinspection_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -139,6 +143,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a9329ebc601485593f452cf615f85ca9c" id="r_a9329ebc601485593f452cf615f85ca9c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a9329ebc601485593f452cf615f85ca9c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a9329ebc601485593f452cf615f85ca9c">Game::ComponentDrawFuncT&lt; Math::mat4 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
 <tr class="separator:a9329ebc601485593f452cf615f85ca9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01feb20b2f38bc1f963ed782b9cbddfe" id="r_a01feb20b2f38bc1f963ed782b9cbddfe"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a01feb20b2f38bc1f963ed782b9cbddfe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a01feb20b2f38bc1f963ed782b9cbddfe">Game::ComponentDrawFuncT&lt; Math::vec3 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
+<tr class="separator:a01feb20b2f38bc1f963ed782b9cbddfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412e84c2477d34900795372f557af9ed" id="r_a412e84c2477d34900795372f557af9ed"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a412e84c2477d34900795372f557af9ed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a412e84c2477d34900795372f557af9ed">Game::ComponentDrawFuncT&lt; Game::Position &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
+<tr class="separator:a412e84c2477d34900795372f557af9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c54f845488d513973d089532fe2358" id="r_aa4c54f845488d513973d089532fe2358"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa4c54f845488d513973d089532fe2358"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa4c54f845488d513973d089532fe2358">Game::ComponentDrawFuncT&lt; Game::Orientation &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
+<tr class="separator:aa4c54f845488d513973d089532fe2358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1afaab50883f3577da9a5e3f77ea8087" id="r_a1afaab50883f3577da9a5e3f77ea8087"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a1afaab50883f3577da9a5e3f77ea8087"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1afaab50883f3577da9a5e3f77ea8087">Game::ComponentDrawFuncT&lt; Game::Scale &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
+<tr class="separator:a1afaab50883f3577da9a5e3f77ea8087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -147,7 +163,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="componentinspection_8h.html">componentinspection.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 13:43:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 28 2024 14:46:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
