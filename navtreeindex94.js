@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"decalcontext_8cc.html#ac0d27b3153e590a03eb7faadc98cd79d":[10,0,0,6,7,0,9],
+"decalcontext_8cc.html#ac7217487557a94b16f443f848865b5bc":[10,0,0,6,7,0,7],
 "decalcontext_8cc.html#ad5b1de72f85ea67646c2dec76bddc638":[10,0,0,6,7,0,2],
 "decalcontext_8cc.html#ada9d567cc924f0261be1c2a8fd29f268":[10,0,0,6,7,0,13],
 "decalcontext_8cc.html#af692b55657c2831a37dc54ea3afa6f48":[10,0,0,6,7,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "emittermesh_8h.html":[10,0,0,6,17,3],
 "emittermesh_8h_source.html":[10,0,0,6,17,3],
 "entitypool_8cc.html":[10,0,0,1,3,16],
-"entitypool_8h.html":[10,0,0,1,3,17],
-"entitypool_8h_source.html":[10,0,0,1,3,17],
-"envelopecurve_8cc.html":[10,0,0,6,17,4]
+"entitypool_8h.html":[10,0,0,1,3,17]
 };

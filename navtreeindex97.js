@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"gamecontentserver_8cc.html#afb12ded7e32ee463e08c553667d11936":[10,0,0,3,9,34,0],
+"gamecontentserver_8h.html":[10,0,0,3,9,35],
 "gamecontentserver_8h_source.html":[10,0,0,3,9,35],
 "gamecontentserverbase_8cc.html":[10,0,0,3,9,1,0],
 "gamecontentserverbase_8cc.html#abf96c9d56f909878a0be8245406008da":[10,0,0,3,9,1,0,1],
@@ -177,8 +179,8 @@ var NAVTREEINDEX97 =
 "globalconstants_8h.html#ad1770ae0ad7fcee7974da629b13ed4e6":[10,0,0,6,11,10,4],
 "globalconstants_8h.html#add91dcd9b892d18c06dcb0a0474107a9":[10,0,0,6,11,10,10],
 "globalconstants_8h_source.html":[10,0,0,6,11,10],
-"globals.html":[10,1,0],
 "globals.html":[10,1,0,0],
+"globals.html":[10,1,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "globals_w.html":[10,1,0,22],
 "globals_x.html":[10,1,0,23],
 "globalstringatomtable_8cc.html":[10,0,0,3,20,23],
-"globalstringatomtable_8cc.html#a3ae1584667288e11bb603d2a97f8f3b5":[10,0,0,3,20,23,0],
-"globalstringatomtable_8h.html":[10,0,0,3,20,24],
-"globalstringatomtable_8h_source.html":[10,0,0,3,20,24]
+"globalstringatomtable_8cc.html#a3ae1584667288e11bb603d2a97f8f3b5":[10,0,0,3,20,23,0]
 };

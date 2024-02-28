@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"globalstringatomtable_8h.html":[10,0,0,3,20,24],
+"globalstringatomtable_8h_source.html":[10,0,0,3,20,24],
 "gpubuffertypes_8h.html":[10,0,0,6,5,31],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084":[10,0,0,6,5,31,3],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,31,3,2],
@@ -112,10 +114,11 @@ var NAVTREEINDEX98 =
 "graphicsfeatureunit_8h.html":[10,0,0,0,4,2],
 "graphicsfeatureunit_8h_source.html":[10,0,0,0,4,2],
 "graphicsmanager_8cc.html":[10,0,0,0,4,0,2],
-"graphicsmanager_8cc.html#a612dbaba526f0b21cb57e40ff782b31a":[10,0,0,0,4,0,2,1],
+"graphicsmanager_8cc.html#a3970d9c01daef3582c895e23b0702add":[10,0,0,0,4,0,2,1],
+"graphicsmanager_8cc.html#a612dbaba526f0b21cb57e40ff782b31a":[10,0,0,0,4,0,2,2],
 "graphicsmanager_8cc.html#a62012029d73a813f22b98257dc7cc9d5":[10,0,0,0,4,0,2,0],
-"graphicsmanager_8cc.html#a85243f8dab7fdaf1ed21c3b430877daf":[10,0,0,0,4,0,2,2],
-"graphicsmanager_8cc.html#ab111220f5e6174cb01e17871807cd422":[10,0,0,0,4,0,2,3],
+"graphicsmanager_8cc.html#a85243f8dab7fdaf1ed21c3b430877daf":[10,0,0,0,4,0,2,3],
+"graphicsmanager_8cc.html#ab111220f5e6174cb01e17871807cd422":[10,0,0,0,4,0,2,4],
 "graphicsmanager_8h.html":[10,0,0,0,4,0,3],
 "graphicsmanager_8h_source.html":[10,0,0,0,4,0,3],
 "graphicsserver_8cc.html":[10,0,0,6,11,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX98 =
 "httprequesthandler_8h_source.html":[10,0,0,3,6,23],
 "httprequestreader_8cc.html":[10,0,0,3,6,24],
 "httprequestreader_8cc.html#ac18c9824094281c1a07ef89d6ea56e59":[10,0,0,3,6,24,0],
-"httprequestreader_8h.html":[10,0,0,3,6,25],
-"httprequestreader_8h.html#a5b345d5e36955f027cf632f6f95e38a9":[10,0,0,3,6,25,1],
-"httprequestreader_8h_source.html":[10,0,0,3,6,25],
-"httprequestwriter_8cc.html":[10,0,0,3,6,26]
+"httprequestreader_8h.html":[10,0,0,3,6,25]
 };

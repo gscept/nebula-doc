@@ -31,6 +31,7 @@ var class_i_o_1_1_json_reader =
     [ "GetAttrs", "class_i_o_1_1_json_reader.html#a79f23f6763b53b8a6d515b9b05c3063c", null ],
     [ "GetBool", "class_i_o_1_1_json_reader.html#afe1ab2b09c8fbcbd535497b2aa6d9bf3", null ],
     [ "GetChild", "class_i_o_1_1_json_reader.html#aa4c3af6f7b5a0349b02d4c35f2575169", null ],
+    [ "GetChildNodeName", "class_i_o_1_1_json_reader.html#ab8d5f57aac2d253c9a8eec0bd0a85d8b", null ],
     [ "GetCurrentNodeName", "class_i_o_1_1_json_reader.html#a215f07bd3b958ef9d60ff2c2800df23a", null ],
     [ "GetFloat", "class_i_o_1_1_json_reader.html#a07ffddf95adbc66616e3130f2147b9d3", null ],
     [ "GetInt", "class_i_o_1_1_json_reader.html#a5cee1f0e9e8fadef02114dae156a9e65", null ],
