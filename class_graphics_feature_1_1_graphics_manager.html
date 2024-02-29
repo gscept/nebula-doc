@@ -114,6 +114,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a274a88068c84b854c63f6323a3527995" id="r_a274a88068c84b854c63f6323a3527995"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274a88068c84b854c63f6323a3527995">Destroy</a> ()</td></tr>
 <tr class="memdesc:a274a88068c84b854c63f6323a3527995"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy entity manager  <br /></td></tr>
 <tr class="separator:a274a88068c84b854c63f6323a3527995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c36ca206ff301c2606fc9a43388735" id="r_ad3c36ca206ff301c2606fc9a43388735"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c36ca206ff301c2606fc9a43388735">InitModel</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, Model *)</td></tr>
+<tr class="memdesc:ad3c36ca206ff301c2606fc9a43388735"><td class="mdescLeft">&#160;</td><td class="mdescRight">called automatically when a model needs to be initialized  <br /></td></tr>
+<tr class="separator:ad3c36ca206ff301c2606fc9a43388735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b70f80f6866d4496e95a72243ebf274" id="r_a1b70f80f6866d4496e95a72243ebf274"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b70f80f6866d4496e95a72243ebf274">InitPointLight</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PointLight *light)</td></tr>
+<tr class="memdesc:a1b70f80f6866d4496e95a72243ebf274"><td class="mdescLeft">&#160;</td><td class="mdescRight">called automatically when a model needs to be initialized  <br /></td></tr>
+<tr class="separator:a1b70f80f6866d4496e95a72243ebf274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -127,8 +133,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ab6af21899c225c999443b48c7b04826c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718d09802d9a36e53a6ef032f2c2d839" id="r_a718d09802d9a36e53a6ef032f2c2d839"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718d09802d9a36e53a6ef032f2c2d839">InitCreatePointLightProcessor</a> ()</td></tr>
 <tr class="separator:a718d09802d9a36e53a6ef032f2c2d839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec0124dfcfa102cb24d26030dc2498bb" id="r_aec0124dfcfa102cb24d26030dc2498bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0124dfcfa102cb24d26030dc2498bb">InitCreateModelProcessor</a> ()</td></tr>
-<tr class="separator:aec0124dfcfa102cb24d26030dc2498bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a814f5f30c6b7a8c3b5c37decf5b2b61c" id="r_a814f5f30c6b7a8c3b5c37decf5b2b61c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a814f5f30c6b7a8c3b5c37decf5b2b61c">InitUpdateModelTransformProcessor</a> ()</td></tr>
 <tr class="separator:a814f5f30c6b7a8c3b5c37decf5b2b61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -275,31 +279,6 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aec0124dfcfa102cb24d26030dc2498bb" name="aec0124dfcfa102cb24d26030dc2498bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec0124dfcfa102cb24d26030dc2498bb">&#9670;&#160;</a></span>InitCreateModelProcessor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphicsFeature::GraphicsManager::InitCreateModelProcessor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a718d09802d9a36e53a6ef032f2c2d839" name="a718d09802d9a36e53a6ef032f2c2d839"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a718d09802d9a36e53a6ef032f2c2d839">&#9670;&#160;</a></span>InitCreatePointLightProcessor()</h2>
 
@@ -322,6 +301,78 @@ Static Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3c36ca206ff301c2606fc9a43388735" name="ad3c36ca206ff301c2606fc9a43388735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c36ca206ff301c2606fc9a43388735">&#9670;&#160;</a></span>InitModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsManager::InitModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Model *</td>          <td class="paramname"><span class="paramname"><em>model</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called automatically when a model needs to be initialized </p>
+
+</div>
+</div>
+<a id="a1b70f80f6866d4496e95a72243ebf274" name="a1b70f80f6866d4496e95a72243ebf274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b70f80f6866d4496e95a72243ebf274">&#9670;&#160;</a></span>InitPointLight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsManager::InitPointLight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PointLight *</td>          <td class="paramname"><span class="paramname"><em>light</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called automatically when a model needs to be initialized </p>
 
 </div>
 </div>
@@ -413,7 +464,7 @@ Static Private Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics_feature.html">GraphicsFeature</a></li><li class="navelem"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsManager</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 22:25:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 15:06:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

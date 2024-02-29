@@ -114,10 +114,6 @@ Functions</h2></td></tr>
 <tr class="separator:ac5f1bf81c212fd62a139c9db4f66762c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c64b95e60bf5d1211f39248b12ddad9" id="r_a8c64b95e60bf5d1211f39248b12ddad9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c64b95e60bf5d1211f39248b12ddad9">__ImplementSingleton</a> (<a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioManager</a>) <a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioManager</a></td></tr>
 <tr class="separator:a8c64b95e60bf5d1211f39248b12ddad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44319b0b38fcadafeadda24e1e0cee39" id="r_a44319b0b38fcadafeadda24e1e0cee39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44319b0b38fcadafeadda24e1e0cee39">ActivateAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, AudioEmitter &amp;emitter)</td></tr>
-<tr class="separator:a44319b0b38fcadafeadda24e1e0cee39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23244cdf4cfbb3a63f32d64e38f0c38" id="r_aa23244cdf4cfbb3a63f32d64e38f0c38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23244cdf4cfbb3a63f32d64e38f0c38">ActivateSpatialAudioEmitter</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, AudioEmitter &amp;emitter, SpatialAudioEmission const &amp;spatial, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position)</td></tr>
-<tr class="separator:aa23244cdf4cfbb3a63f32d64e38f0c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39a393224f301aa4e2508d4cec4a545" id="r_af39a393224f301aa4e2508d4cec4a545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39a393224f301aa4e2508d4cec4a545">ValidateClipInstances</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, ClipInstance &amp;clipInstance)</td></tr>
 <tr class="separator:af39a393224f301aa4e2508d4cec4a545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80aafc2933f9977801619a6ed0853bb5" id="r_a80aafc2933f9977801619a6ed0853bb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80aafc2933f9977801619a6ed0853bb5">UpdateSpatialAudio</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;entity, SpatialAudioEmission const &amp;, ClipInstance &amp;clipInstance, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position)</td></tr>
@@ -182,68 +178,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioManager</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44319b0b38fcadafeadda24e1e0cee39" name="a44319b0b38fcadafeadda24e1e0cee39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44319b0b38fcadafeadda24e1e0cee39">&#9670;&#160;</a></span>ActivateAudioEmitter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AudioFeature::ActivateAudioEmitter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">AudioEmitter &amp;</td>          <td class="paramname"><span class="paramname"><em>emitter</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa23244cdf4cfbb3a63f32d64e38f0c38" name="aa23244cdf4cfbb3a63f32d64e38f0c38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa23244cdf4cfbb3a63f32d64e38f0c38">&#9670;&#160;</a></span>ActivateSpatialAudioEmitter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AudioFeature::ActivateSpatialAudioEmitter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">AudioEmitter &amp;</td>          <td class="paramname"><span class="paramname"><em>emitter</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SpatialAudioEmission const &amp;</td>          <td class="paramname"><span class="paramname"><em>spatial</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -381,7 +315,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_audio_feature.html">AudioFeature</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 22:25:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 15:06:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

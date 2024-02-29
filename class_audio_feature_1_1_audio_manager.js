@@ -5,6 +5,7 @@ var class_audio_feature_1_1_audio_manager =
     [ "__DeclareSingleton", "class_audio_feature_1_1_audio_manager.html#a89cbb462eac26ccd429cd68e654f97c9", null ],
     [ "Create", "class_audio_feature_1_1_audio_manager.html#a38e7b28cfca9b83b81e3ac19b3782eed", null ],
     [ "Destroy", "class_audio_feature_1_1_audio_manager.html#a689234a2dc19a20b4370328107b2e361", null ],
+    [ "InitAudioEmitter", "class_audio_feature_1_1_audio_manager.html#a47636b6e4f72ecb6ad6ee188587bc405", null ],
     [ "OnCleanup", "class_audio_feature_1_1_audio_manager.html#a90eca81f02230dcaacbc8f93e3ab0126", null ],
     [ "OnDecay", "class_audio_feature_1_1_audio_manager.html#ae7125170763a15871b6f432cf1d65a94", null ]
 ];

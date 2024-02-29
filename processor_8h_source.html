@@ -147,13 +147,13 @@ $(function(){initNavTree('processor_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">return</span> [func, bufferStartOffset](<a class="code hl_class" href="class_game_1_1_world.html">World</a>* world, <a class="code hl_struct" href="struct_game_1_1_dataset_1_1_view.html">Game::Dataset::View</a> <span class="keyword">const</span>&amp; view)</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            uint32_t i = 0;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            uint16_t i = 0;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">while</span> (i &lt; view.numInstances)</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            {</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <span class="comment">// check validity of instances in sections of 64 instances</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <span class="keywordflow">if</span> (!view.validInstances.SectionIsNull(i / 64))</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                    uint32_t <span class="keyword">const</span> end = <a class="code hl_function" href="namespace_math.html#a919d6c3f6ad40f7bd09d26a3910d4e6a">Math::min</a>(i + 64, view.numInstances);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                    uint16_t <span class="keyword">const</span> end = Math::min&lt;uint16_t&gt;(i + uint16_t(64), view.numInstances);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                    <span class="keywordflow">for</span> (uint32_t instance = i; instance &lt; end; ++instance)</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                    {</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                        <span class="comment">// make sure the instance we&#39;re processing is valid</span></div>
@@ -294,13 +294,12 @@ $(function(){initNavTree('processor_8h_source.html',''); initResizable(); });
 <div class="ttc" id="aclass_game_1_1_processor_html_aaba9b83fce05ccae2f1a43e19d0a1af8"><div class="ttname"><a href="class_game_1_1_processor.html#aaba9b83fce05ccae2f1a43e19d0a1af8">Game::Processor::async</a></div><div class="ttdeci">bool async</div><div class="ttdoc">set if this processor should run as a job.</div><div class="ttdef"><b>Definition</b> processor.h:29</div></div>
 <div class="ttc" id="aclass_game_1_1_processor_html_af36b022637eacae2d15897d429807601"><div class="ttname"><a href="class_game_1_1_processor.html#af36b022637eacae2d15897d429807601">Game::Processor::cache</a></div><div class="ttdeci">Util::Array&lt; MemDb::TableId &gt; cache</div><div class="ttdoc">cached tables that fulfill the requirements of the filter</div><div class="ttdef"><b>Definition</b> processor.h:35</div></div>
 <div class="ttc" id="aclass_game_1_1_processor_html_afe3fbabdb09b22b8797f8ac60d3022e8"><div class="ttname"><a href="class_game_1_1_processor.html#afe3fbabdb09b22b8797f8ac60d3022e8">Game::Processor::ForEach</a></div><div class="ttdeci">static std::function&lt; void(World *, Dataset::View const &amp;) ForEach)(std::function&lt; void(World *, COMPONENTS...)&gt; func, uint8_t bufferStartOffset)</div><div class="ttdef"><b>Definition</b> processor.h:54</div></div>
-<div class="ttc" id="aclass_game_1_1_world_html"><div class="ttname"><a href="class_game_1_1_world.html">Game::World</a></div><div class="ttdef"><b>Definition</b> world.h:42</div></div>
+<div class="ttc" id="aclass_game_1_1_world_html"><div class="ttname"><a href="class_game_1_1_world.html">Game::World</a></div><div class="ttdef"><b>Definition</b> world.h:43</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula's dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
 <div class="ttc" id="aclass_util_1_1_string_atom_html"><div class="ttname"><a href="class_util_1_1_string_atom.html">Util::StringAtom</a></div><div class="ttdoc">A StringAtom.</div><div class="ttdef"><b>Definition</b> stringatom.h:22</div></div>
 <div class="ttc" id="afilter_8h_html"><div class="ttname"><a href="filter_8h.html">filter.h</a></div></div>
 <div class="ttc" id="anamespace_game_html"><div class="ttname"><a href="namespace_game.html">Game</a></div><div class="ttdef"><b>Definition</b> orientation.h:7</div></div>
 <div class="ttc" id="anamespace_game_html_a1662e5ccb92417291ab5653883de7145"><div class="ttname"><a href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Game::Filter</a></div><div class="ttdeci">uint32_t Filter</div><div class="ttdoc">Opaque filter identifier.</div><div class="ttdef"><b>Definition</b> filter.h:26</div></div>
-<div class="ttc" id="anamespace_math_html_a919d6c3f6ad40f7bd09d26a3910d4e6a"><div class="ttname"><a href="namespace_math.html#a919d6c3f6ad40f7bd09d26a3910d4e6a">Math::min</a></div><div class="ttdeci">__forceinline TYPE min(TYPE a, TYPE b)</div><div class="ttdef"><b>Definition</b> scalar.h:390</div></div>
 <div class="ttc" id="aprocessorid_8h_html"><div class="ttname"><a href="processorid_8h.html">processorid.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="astruct_game_1_1_dataset_1_1_view_html"><div class="ttname"><a href="struct_game_1_1_dataset_1_1_view.html">Game::Dataset::View</a></div><div class="ttdoc">This represents a &quot;view&quot; into an entity table.</div><div class="ttdef"><b>Definition</b> dataset.h:35</div></div>
@@ -313,7 +312,7 @@ $(function(){initNavTree('processor_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="processor_8h.html">processor.h</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 22:25:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 15:06:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

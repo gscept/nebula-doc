@@ -28,7 +28,7 @@ var class_mem_db_1_1_table =
     [ "NewPartition", "class_mem_db_1_1_table.html#af9e1e9f063bf9c21b738587c1fd46f4b", null ],
     [ "RemoveRow", "class_mem_db_1_1_table.html#a1b910bf6533c9b7afbb353a283a8fc2d", null ],
     [ "Reset", "class_mem_db_1_1_table.html#a0739b22bf93dd0b39eed5aa4118156c7", null ],
-    [ "SerializeInstance", "class_mem_db_1_1_table.html#aa3f5a9edf20197e1b306139c734550e3", null ],
+    [ "SerializeInstance", "class_mem_db_1_1_table.html#a9e299fafdd18a725fb867da348c48f67", null ],
     [ "SetToDefault", "class_mem_db_1_1_table.html#a33b18d95b8125ebd76fa1a1436c51445", null ],
     [ "Database", "class_mem_db_1_1_table.html#a6efef52d7a939622bbc934ff6b90ffe0", null ],
     [ "attributes", "class_mem_db_1_1_table.html#ad0b84ac8c525ce5d92b6d21614e9911e", null ],

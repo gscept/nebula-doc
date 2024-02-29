@@ -196,6 +196,7 @@ var namespace_math =
     [ "maximize", "namespace_math.html#a222ab0b1ead822b92cd1319d7c374782", null ],
     [ "min", "namespace_math.html#a919d6c3f6ad40f7bd09d26a3910d4e6a", null ],
     [ "min", "namespace_math.html#a3683c8dc0cde3ad531fa7de74623b940", null ],
+    [ "min", "namespace_math.html#acd30d7eece47c0590175c16139f52d96", null ],
     [ "min", "namespace_math.html#af117fbd60f5cfaab6776a775d81de8ae", null ],
     [ "minimize", "namespace_math.html#a9ed9bb90f1751149b6a3517e1956cc26", null ],
     [ "minimize", "namespace_math.html#a545ef8e26ccb410debb1f504c622ac5c", null ],

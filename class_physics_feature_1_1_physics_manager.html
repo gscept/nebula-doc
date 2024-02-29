@@ -112,6 +112,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aea8e84d65538f2d3b641857bd7c80dba" id="r_aea8e84d65538f2d3b641857bd7c80dba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8e84d65538f2d3b641857bd7c80dba">Destroy</a> ()</td></tr>
 <tr class="memdesc:aea8e84d65538f2d3b641857bd7c80dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy entity manager  <br /></td></tr>
 <tr class="separator:aea8e84d65538f2d3b641857bd7c80dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d57f5ef8e4d29e31dc5465f0374a40" id="r_a66d57f5ef8e4d29e31dc5465f0374a40"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66d57f5ef8e4d29e31dc5465f0374a40">InitPhysicsActor</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, PhysicsFeature::PhysicsActor *)</td></tr>
+<tr class="separator:a66d57f5ef8e4d29e31dc5465f0374a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -123,8 +125,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a7135ab9456d9487511dfb27aa54fbd17" id="r_a7135ab9456d9487511dfb27aa54fbd17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7135ab9456d9487511dfb27aa54fbd17">~PhysicsManager</a> ()</td></tr>
 <tr class="memdesc:a7135ab9456d9487511dfb27aa54fbd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:a7135ab9456d9487511dfb27aa54fbd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08943a886dae2180ad34eee6dce9f9b" id="r_af08943a886dae2180ad34eee6dce9f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08943a886dae2180ad34eee6dce9f9b">InitCreateActorProcessor</a> ()</td></tr>
-<tr class="separator:af08943a886dae2180ad34eee6dce9f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90cefd32de7ce7dc58c8eba6292d31d1" id="r_a90cefd32de7ce7dc58c8eba6292d31d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90cefd32de7ce7dc58c8eba6292d31d1">InitPollTransformProcessor</a> ()</td></tr>
 <tr class="separator:a90cefd32de7ce7dc58c8eba6292d31d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -270,8 +270,8 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af08943a886dae2180ad34eee6dce9f9b" name="af08943a886dae2180ad34eee6dce9f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af08943a886dae2180ad34eee6dce9f9b">&#9670;&#160;</a></span>InitCreateActorProcessor()</h2>
+<a id="a66d57f5ef8e4d29e31dc5465f0374a40" name="a66d57f5ef8e4d29e31dc5465f0374a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d57f5ef8e4d29e31dc5465f0374a40">&#9670;&#160;</a></span>InitPhysicsActor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,15 +280,24 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PhysicsFeature::PhysicsManager::InitCreateActorProcessor </td>
+          <td class="memname">void PhysicsFeature::PhysicsManager::InitPhysicsActor </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -381,7 +390,7 @@ Static Private Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics_feature.html">PhysicsFeature</a></li><li class="navelem"><a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 22:25:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 15:06:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

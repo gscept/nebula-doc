@@ -81,6 +81,7 @@ var class_game_1_1_world =
     [ "allocQueue", "class_game_1_1_world.html#a49e853d4e21201653dd545546ccdd6c0", null ],
     [ "blueprintCatMap", "class_game_1_1_world.html#a7a8b0396887a5a3cdecc79b07e35f3a9", null ],
     [ "cacheValid", "class_game_1_1_world.html#a46e4c103c86194c11ee38046fbd7925c", null ],
+    [ "componentInitializationEnabled", "class_game_1_1_world.html#a17da8fc6d3e6e5cdf11a56b2c9d78c2f", null ],
     [ "componentStageAllocator", "class_game_1_1_world.html#ae9423f60fd6a1dfa7f4f681690a46fb9", null ],
     [ "db", "class_game_1_1_world.html#a1cfa2cf6d4b30b8aaed0e8d20e314446", null ],
     [ "deallocQueue", "class_game_1_1_world.html#ad13b7b82c38945edd6daa56d607b6823", null ],

@@ -59,6 +59,7 @@ var scalar_8h =
     [ "max", "scalar_8h.html#a9c1295accbd7c2aaaeb8cee14c4053eb", null ],
     [ "min", "scalar_8h.html#a919d6c3f6ad40f7bd09d26a3910d4e6a", null ],
     [ "min", "scalar_8h.html#a3683c8dc0cde3ad531fa7de74623b940", null ],
+    [ "min", "scalar_8h.html#acd30d7eece47c0590175c16139f52d96", null ],
     [ "min", "scalar_8h.html#af117fbd60f5cfaab6776a775d81de8ae", null ],
     [ "modangle", "scalar_8h.html#a785e41db821be551e879139c47b59d39", null ],
     [ "mostsignificant", "scalar_8h.html#a23fac29802a9dd6cf8f6439f26a16bcc", null ],

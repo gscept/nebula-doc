@@ -95,6 +95,7 @@ $(function(){initNavTree('class_game_1_1_world.html',''); initResizable(); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -271,6 +272,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac10768d028a058baff2cb9342f1c8331"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies and overrides dst with src. This is extremely destructive - make sure you understand the implications!  <br /></td></tr>
 <tr class="separator:ac10768d028a058baff2cb9342f1c8331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a17da8fc6d3e6e5cdf11a56b2c9d78c2f" id="r_a17da8fc6d3e6e5cdf11a56b2c9d78c2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17da8fc6d3e6e5cdf11a56b2c9d78c2f">componentInitializationEnabled</a> = true</td></tr>
+<tr class="memdesc:a17da8fc6d3e6e5cdf11a56b2c9d78c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable if initialization of components is not required (ex. when running as editor db)  <br /></td></tr>
+<tr class="separator:a17da8fc6d3e6e5cdf11a56b2c9d78c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3b53f0b04a63b2d135095d4a9d207052" id="r_a3b53f0b04a63b2d135095d4a9d207052"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b53f0b04a63b2d135095d4a9d207052">World</a> (uint32_t <a class="el" href="#a49f4e0a751471a5d04642a95656c6397">hash</a>)</td></tr>
@@ -322,6 +329,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a0584145a147a7dd3093fcd7e489afdce" id="r_a0584145a147a7dd3093fcd7e489afdce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0584145a147a7dd3093fcd7e489afdce">MoveInstance</a> (<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">MemDb::Table::Partition</a> *partition, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> from, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> to)</td></tr>
 <tr class="separator:a0584145a147a7dd3093fcd7e489afdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f3d53b48cfaa1192a4002446f59945" id="r_a25f3d53b48cfaa1192a4002446f59945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25f3d53b48cfaa1192a4002446f59945">InitializeAllComponents</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> row)</td></tr>
+<tr class="memdesc:a25f3d53b48cfaa1192a4002446f59945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run OnInit on all components. Use with caution, since they can only be initialized once and the function doesn't check for this.  <br /></td></tr>
 <tr class="separator:a25f3d53b48cfaa1192a4002446f59945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -1336,6 +1344,8 @@ template&lt;typename TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Run OnInit on all components. Use with caution, since they can only be initialized once and the function doesn't check for this. </p>
+
 </div>
 </div>
 <a id="a99585493c5728e0fbccc0c2463be48b2" name="a99585493c5728e0fbccc0c2463be48b2"></a>
@@ -2218,6 +2228,22 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a17da8fc6d3e6e5cdf11a56b2c9d78c2f" name="a17da8fc6d3e6e5cdf11a56b2c9d78c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17da8fc6d3e6e5cdf11a56b2c9d78c2f">&#9670;&#160;</a></span>componentInitializationEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::World::componentInitializationEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable if initialization of components is not required (ex. when running as editor db) </p>
+
+</div>
+</div>
 <a id="ae9423f60fd6a1dfa7f4f681690a46fb9" name="ae9423f60fd6a1dfa7f4f681690a46fb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9423f60fd6a1dfa7f4f681690a46fb9">&#9670;&#160;</a></span>componentStageAllocator</h2>
 
@@ -2441,7 +2467,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li>
 				<li class="footer">
-					Generated on Wed Feb 28 2024 22:25:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 15:06:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
