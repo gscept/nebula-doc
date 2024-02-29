@@ -12,7 +12,7 @@ var class_game_1_1_world =
     [ "AddStagedComponentsToEntity", "class_game_1_1_world.html#a068588c5f92f3f4d1cbbf05f39a37516", null ],
     [ "AllocateEntity", "class_game_1_1_world.html#ad1827b2493d6bd822e169e8eda3a2c67", null ],
     [ "AllocateInstance", "class_game_1_1_world.html#a05cb2e78cfca254cbaaacd32dd15fe1a", null ],
-    [ "AllocateInstance", "class_game_1_1_world.html#a59070688b1672e072a2675e93cf4b993", null ],
+    [ "AllocateInstance", "class_game_1_1_world.html#a19dc3aa21eec95104957fd2fe773b752", null ],
     [ "AllocateInstance", "class_game_1_1_world.html#a53191459bf507b75cab2456342851de7", null ],
     [ "BeginFrame", "class_game_1_1_world.html#a9e81b3fcaa0697b02fa9b633059f4c1f", null ],
     [ "ClearDecayBuffers", "class_game_1_1_world.html#a3d5b81715033e86d1a26f26068ca8438", null ],

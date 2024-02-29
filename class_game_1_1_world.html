@@ -205,9 +205,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a074b7e2737f74a9bc7dc738cc767002b" id="r_a074b7e2737f74a9bc7dc738cc767002b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a074b7e2737f74a9bc7dc738cc767002b">DeallocateEntity</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
 <tr class="memdesc:a074b7e2737f74a9bc7dc738cc767002b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an entity id. Use this with caution!  <br /></td></tr>
 <tr class="separator:a074b7e2737f74a9bc7dc738cc767002b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59070688b1672e072a2675e93cf4b993" id="r_a59070688b1672e072a2675e93cf4b993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59070688b1672e072a2675e93cf4b993">AllocateInstance</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table)</td></tr>
-<tr class="memdesc:a59070688b1672e072a2675e93cf4b993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an entity instance in a table. Use this with caution!  <br /></td></tr>
-<tr class="separator:a59070688b1672e072a2675e93cf4b993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dc3aa21eec95104957fd2fe773b752" id="r_a19dc3aa21eec95104957fd2fe773b752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19dc3aa21eec95104957fd2fe773b752">AllocateInstance</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table, <a class="el" href="class_util_1_1_blob.html">Util::Blob</a> const *const data=nullptr)</td></tr>
+<tr class="memdesc:a19dc3aa21eec95104957fd2fe773b752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an entity instance in a table. Use this with caution!  <br /></td></tr>
+<tr class="separator:a19dc3aa21eec95104957fd2fe773b752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05cb2e78cfca254cbaaacd32dd15fe1a" id="r_a05cb2e78cfca254cbaaacd32dd15fe1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05cb2e78cfca254cbaaacd32dd15fe1a">AllocateInstance</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_blueprint_id.html">BlueprintId</a> blueprint)</td></tr>
 <tr class="memdesc:a05cb2e78cfca254cbaaacd32dd15fe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an entity instance from a blueprint. Use this with caution!  <br /></td></tr>
 <tr class="separator:a05cb2e78cfca254cbaaacd32dd15fe1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,8 +549,8 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a59070688b1672e072a2675e93cf4b993" name="a59070688b1672e072a2675e93cf4b993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59070688b1672e072a2675e93cf4b993">&#9670;&#160;</a></span>AllocateInstance() <span class="overload">[2/3]</span></h2>
+<a id="a19dc3aa21eec95104957fd2fe773b752" name="a19dc3aa21eec95104957fd2fe773b752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dc3aa21eec95104957fd2fe773b752">&#9670;&#160;</a></span>AllocateInstance() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +563,12 @@ template&lt;typename TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a></td>          <td class="paramname"><span class="paramname"><em>table</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_blob.html">Util::Blob</a> const *const</td>          <td class="paramname"><span class="paramname"><em>data</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2467,7 +2472,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li>
 				<li class="footer">
-					Generated on Thu Feb 29 2024 15:06:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Feb 29 2024 18:37:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
