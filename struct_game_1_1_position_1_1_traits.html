@@ -106,6 +106,8 @@ $(function(){initNavTree('struct_game_1_1_position_1_1_traits.html',''); initRes
 Public Types</h2></td></tr>
 <tr class="memitem:a84daaf268941efd68c007cda04f1fb25" id="r_a84daaf268941efd68c007cda04f1fb25"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84daaf268941efd68c007cda04f1fb25">type</a> = <a class="el" href="struct_game_1_1_position.html">Position</a></td></tr>
 <tr class="separator:a84daaf268941efd68c007cda04f1fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048f10b84390a02f5b2a264a471bf253" id="r_a048f10b84390a02f5b2a264a471bf253"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a048f10b84390a02f5b2a264a471bf253">field_types</a> = std::tuple&lt;float, float, float&gt;</td></tr>
+<tr class="separator:a048f10b84390a02f5b2a264a471bf253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -122,11 +124,27 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a5a6afb253e392c8898d39926dcee71ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefbf621f76a45cf19a6c12960af908db" id="r_aefbf621f76a45cf19a6c12960af908db"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefbf621f76a45cf19a6c12960af908db">field_names</a> [<a class="el" href="#a5a6afb253e392c8898d39926dcee71ea">num_fields</a>]</td></tr>
 <tr class="separator:aefbf621f76a45cf19a6c12960af908db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba8e6917e83d7c8799d15a9f6283affc" id="r_aba8e6917e83d7c8799d15a9f6283affc"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba8e6917e83d7c8799d15a9f6283affc">field_byte_offsets</a> [<a class="el" href="#a5a6afb253e392c8898d39926dcee71ea">num_fields</a>]</td></tr>
+<tr class="separator:aba8e6917e83d7c8799d15a9f6283affc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45b634e9928e1bd32e86891dfcb1fdb0" id="r_a45b634e9928e1bd32e86891dfcb1fdb0"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b634e9928e1bd32e86891dfcb1fdb0">fixed_column_index</a> = 1</td></tr>
 <tr class="memdesc:a45b634e9928e1bd32e86891dfcb1fdb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the column that the entity position will reside in, in every table.  <br /></td></tr>
 <tr class="separator:a45b634e9928e1bd32e86891dfcb1fdb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a048f10b84390a02f5b2a264a471bf253" name="a048f10b84390a02f5b2a264a471bf253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048f10b84390a02f5b2a264a471bf253">&#9670;&#160;</a></span>field_types</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a048f10b84390a02f5b2a264a471bf253">Game::Position::Traits::field_types</a> = std::tuple&lt;float, float, float&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a84daaf268941efd68c007cda04f1fb25" name="a84daaf268941efd68c007cda04f1fb25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84daaf268941efd68c007cda04f1fb25">&#9670;&#160;</a></span>type</h2>
 
@@ -168,6 +186,37 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aba8e6917e83d7c8799d15a9f6283affc" name="aba8e6917e83d7c8799d15a9f6283affc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba8e6917e83d7c8799d15a9f6283affc">&#9670;&#160;</a></span>field_byte_offsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t Game::Position::Traits::field_byte_offsets[<a class="el" href="#a5a6afb253e392c8898d39926dcee71ea">num_fields</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_position.html#ac78abb8b95d486c530c29e25787fb3e0">Position</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">x</a>),</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_position.html#ac78abb8b95d486c530c29e25787fb3e0">Position</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">y</a>),</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_position.html#ac78abb8b95d486c530c29e25787fb3e0">Position</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">z</a>)</div>
+<div class="line">    }</div>
+<div class="ttc" id="astruct_game_1_1_position_html_ac78abb8b95d486c530c29e25787fb3e0"><div class="ttname"><a href="struct_game_1_1_position.html#ac78abb8b95d486c530c29e25787fb3e0">Game::Position::Position</a></div><div class="ttdeci">Position(Math::vec3 const &amp;v)</div><div class="ttdef"><b>Definition</b> position.h:12</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_a7ba0448ec86a378e98d3cfac6817fcfd"><div class="ttname"><a href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">Math::vec3::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_a88fba0e7272a00ab2f8dcd15d8f1c3bf"><div class="ttname"><a href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">Math::vec3::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_ae7dac7ef01ff39a327cbdd78b4023b4c"><div class="ttname"><a href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">Math::vec3::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="aefbf621f76a45cf19a6c12960af908db" name="aefbf621f76a45cf19a6c12960af908db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefbf621f76a45cf19a6c12960af908db">&#9670;&#160;</a></span>field_names</h2>
 
@@ -296,7 +345,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_position.html">Position</a></li><li class="navelem"><a class="el" href="struct_game_1_1_position_1_1_traits.html">Traits</a></li>
 				<li class="footer">
-					Generated on Thu Feb 29 2024 18:37:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 1 2024 12:53:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,6 @@
 var componentinspection_8cc =
 [
+    [ "ComponentDrawFuncT< bool >", "componentinspection_8cc.html#a6abc6679818e393d5933873d4f6ccbfd", null ],
     [ "ComponentDrawFuncT< float >", "componentinspection_8cc.html#ab52e8612b533533b39e2f19e75eb5012", null ],
     [ "ComponentDrawFuncT< Game::Entity >", "componentinspection_8cc.html#a644a8ebb1c48664b26bb80977d9da24c", null ],
     [ "ComponentDrawFuncT< Game::Orientation >", "componentinspection_8cc.html#ab48982062a1ce4b0bdeb531e61a9a0c0", null ],

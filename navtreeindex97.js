@@ -1,5 +1,8 @@
 var NAVTREEINDEX97 =
 {
+"functions_w.html":[9,3,0,23],
+"functions_x.html":[9,3,0,24],
+"functions_y.html":[9,3,0,25],
 "functions_z.html":[9,3,0,26],
 "functions_~.html":[9,3,0,27],
 "game_8cc.html":[10,0,0,0,7,0,4],
@@ -217,14 +220,14 @@ var NAVTREEINDEX97 =
 "globalconstants_8h.html#ad1770ae0ad7fcee7974da629b13ed4e6":[10,0,0,6,11,10,4],
 "globalconstants_8h.html#add91dcd9b892d18c06dcb0a0474107a9":[10,0,0,6,11,10,10],
 "globalconstants_8h_source.html":[10,0,0,6,11,10],
-"globals.html":[10,1,0],
 "globals.html":[10,1,0,0],
+"globals.html":[10,1,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
 "globals_d.html":[10,1,0,4],
-"globals_defs.html":[10,1,6],
 "globals_defs.html":[10,1,6,0],
+"globals_defs.html":[10,1,6],
 "globals_defs_a.html":[10,1,6,1],
 "globals_defs_b.html":[10,1,6,2],
 "globals_defs_c.html":[10,1,6,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX97 =
 "globals_defs_v.html":[10,1,6,19],
 "globals_defs_w.html":[10,1,6,20],
 "globals_defs_x.html":[10,1,6,21],
-"globals_enum.html":[10,1,4],
-"globals_eval.html":[10,1,5],
-"globals_f.html":[10,1,0,5],
-"globals_func.html":[10,1,1]
+"globals_enum.html":[10,1,4]
 };

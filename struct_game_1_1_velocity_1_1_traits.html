@@ -106,6 +106,8 @@ $(function(){initNavTree('struct_game_1_1_velocity_1_1_traits.html',''); initRes
 Public Types</h2></td></tr>
 <tr class="memitem:a9c5c3429d47ba715965c7345068c28f4" id="r_a9c5c3429d47ba715965c7345068c28f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c5c3429d47ba715965c7345068c28f4">type</a> = <a class="el" href="struct_game_1_1_velocity.html">Velocity</a></td></tr>
 <tr class="separator:a9c5c3429d47ba715965c7345068c28f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa642982974c74e84d05cd5091478b5" id="r_aeaa642982974c74e84d05cd5091478b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaa642982974c74e84d05cd5091478b5">field_types</a> = std::tuple&lt;float, float, float&gt;</td></tr>
+<tr class="separator:aeaa642982974c74e84d05cd5091478b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -122,8 +124,24 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a4e3283c07f05c0a84d031f0f2eed8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f439ebec0b630f302981a846dd2003" id="r_a91f439ebec0b630f302981a846dd2003"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f439ebec0b630f302981a846dd2003">field_names</a> [<a class="el" href="#a4e3283c07f05c0a84d031f0f2eed8bd8">num_fields</a>]</td></tr>
 <tr class="separator:a91f439ebec0b630f302981a846dd2003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c6ccec85452da355c791eff25ed577" id="r_a50c6ccec85452da355c791eff25ed577"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50c6ccec85452da355c791eff25ed577">field_byte_offsets</a> [<a class="el" href="#a4e3283c07f05c0a84d031f0f2eed8bd8">num_fields</a>]</td></tr>
+<tr class="separator:a50c6ccec85452da355c791eff25ed577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aeaa642982974c74e84d05cd5091478b5" name="aeaa642982974c74e84d05cd5091478b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa642982974c74e84d05cd5091478b5">&#9670;&#160;</a></span>field_types</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aeaa642982974c74e84d05cd5091478b5">Game::Velocity::Traits::field_types</a> = std::tuple&lt;float, float, float&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c5c3429d47ba715965c7345068c28f4" name="a9c5c3429d47ba715965c7345068c28f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c5c3429d47ba715965c7345068c28f4">&#9670;&#160;</a></span>type</h2>
 
@@ -165,6 +183,37 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a50c6ccec85452da355c791eff25ed577" name="a50c6ccec85452da355c791eff25ed577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c6ccec85452da355c791eff25ed577">&#9670;&#160;</a></span>field_byte_offsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t Game::Velocity::Traits::field_byte_offsets[<a class="el" href="#a4e3283c07f05c0a84d031f0f2eed8bd8">num_fields</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_velocity.html#ab286361ca31ec75ad46c1ad9346e1a4b">Velocity</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">x</a>),</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_velocity.html#ab286361ca31ec75ad46c1ad9346e1a4b">Velocity</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">y</a>),</div>
+<div class="line">        offsetof(<a class="code hl_function" href="struct_game_1_1_velocity.html#ab286361ca31ec75ad46c1ad9346e1a4b">Velocity</a>, <a class="code hl_variable" href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">z</a>)</div>
+<div class="line">    }</div>
+<div class="ttc" id="astruct_game_1_1_velocity_html_ab286361ca31ec75ad46c1ad9346e1a4b"><div class="ttname"><a href="struct_game_1_1_velocity.html#ab286361ca31ec75ad46c1ad9346e1a4b">Game::Velocity::Velocity</a></div><div class="ttdeci">Velocity(Math::vec3 const &amp;v)</div><div class="ttdef"><b>Definition</b> velocity.h:12</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_a7ba0448ec86a378e98d3cfac6817fcfd"><div class="ttname"><a href="struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd">Math::vec3::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_a88fba0e7272a00ab2f8dcd15d8f1c3bf"><div class="ttname"><a href="struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf">Math::vec3::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+<div class="ttc" id="astruct_math_1_1vec3_html_ae7dac7ef01ff39a327cbdd78b4023b4c"><div class="ttname"><a href="struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c">Math::vec3::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition</b> vec3.h:93</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a91f439ebec0b630f302981a846dd2003" name="a91f439ebec0b630f302981a846dd2003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91f439ebec0b630f302981a846dd2003">&#9670;&#160;</a></span>field_names</h2>
 
@@ -268,7 +317,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_velocity.html">Velocity</a></li><li class="navelem"><a class="el" href="struct_game_1_1_velocity_1_1_traits.html">Traits</a></li>
 				<li class="footer">
-					Generated on Thu Feb 29 2024 18:37:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 1 2024 12:53:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
