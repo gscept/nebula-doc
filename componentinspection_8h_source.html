@@ -148,8 +148,8 @@ $(function(){initNavTree('componentinspection_8h_source.html',''); initResizable
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>{</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (i &lt; TYPE::Traits::num_fields)</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">using </span>field_tuple = TYPE::Traits::field_types;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">using </span>field_type = std::tuple_element&lt;i, field_tuple&gt;::type;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">using </span>field_tuple = <span class="keyword">typename</span> TYPE::Traits::field_types;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">using </span>field_type = <span class="keyword">typename</span> std::tuple_element&lt;i, field_tuple&gt;::type;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        ImGui::Text(TYPE::Traits::field_names[i]);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        ImGui::SameLine();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        ComponentDrawFuncT&lt;field_type&gt;(component, (<span class="keywordtype">byte</span>*)data + TYPE::Traits::field_byte_offsets[i], commit);</div>
@@ -231,7 +231,7 @@ $(function(){initNavTree('componentinspection_8h_source.html',''); initResizable
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="componentinspection_8h.html">componentinspection.h</a></li>
 				<li class="footer">
-					Generated on Fri Mar 1 2024 12:57:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 1 2024 13:00:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
