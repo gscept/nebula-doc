@@ -80,6 +80,7 @@ var namespace_game =
     [ "ComponentDrawFuncT< Util::StringAtom >", "namespace_game.html#a6a027e6647155857ca9df6bb72cd66f2", null ],
     [ "ComponentsInFilter", "namespace_game.html#a70da0079ee1504e3cecf2ac59e23e9b8", null ],
     [ "DestroyFilter", "namespace_game.html#ac95174757039aa417008ae3178a10be2", null ],
+    [ "ExcludedComponentsInFilter", "namespace_game.html#ae60ae48739c6303a019134ad70b7378c", null ],
     [ "FrameBatchJob", "namespace_game.html#ab96d68afc70192963f9cbee500b16ebe", null ],
     [ "GetBlueprintId", "namespace_game.html#a6cbd796cb12f20c8b6bf6ad884b2b5c5", null ],
     [ "GetComponentId", "namespace_game.html#a7dfc27dc96611f0c398ea8328415dd6b", null ],
@@ -92,6 +93,6 @@ var namespace_game =
     [ "Query", "namespace_game.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "componentDecayTable", "namespace_game.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33", null ],
-    [ "filterAllocator", "namespace_game.html#a80d9ca45c2805958f60778da2695ddb3", null ],
+    [ "filterAllocator", "namespace_game.html#ab1c701d66de83f0b410b6da8c9930662", null ],
     [ "viewAllocator", "namespace_game.html#a662616bb8ef6d0cf976776a3ca6bd272", null ]
 ];

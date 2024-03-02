@@ -13,6 +13,7 @@ var filter_8h =
     [ "AccessModesInFilter", "filter_8h.html#afc7f424437e3e6d8b2ad4250901443e2", null ],
     [ "ComponentsInFilter", "filter_8h.html#a70da0079ee1504e3cecf2ac59e23e9b8", null ],
     [ "DestroyFilter", "filter_8h.html#ac95174757039aa417008ae3178a10be2", null ],
+    [ "ExcludedComponentsInFilter", "filter_8h.html#ae60ae48739c6303a019134ad70b7378c", null ],
     [ "GetExclusiveTableMask", "filter_8h.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],
     [ "GetInclusiveTableMask", "filter_8h.html#aa3ad58a396dca9e5057ebf33486a5df8", null ]
 ];

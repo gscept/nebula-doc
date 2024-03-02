@@ -35,7 +35,7 @@ var searchData=
   ['fileposinfo_32',['filePosInfo',['../class_i_o_1_1_zip_file_entry.html#aae6f26352ea1fde4baff9dd4f02d98ea',1,'IO::ZipFileEntry']]],
   ['filetime_33',['fileTime',['../class_o_s_x_1_1_o_s_x_file_time.html#a0dc1e58bf0499334c50dbad42ce8db65',1,'OSX::OSXFileTime']]],
   ['filter_34',['filter',['../class_db_1_1_dataset.html#a6251a6d919be1d7d2bc2254454af484f',1,'Db::Dataset::filter'],['../class_game_1_1_processor.html#a25981bcbbfb787892c2a93335ce0133d',1,'Game::Processor::filter']]],
-  ['filterallocator_35',['filterAllocator',['../namespace_game.html#a80d9ca45c2805958f60778da2695ddb3',1,'Game']]],
+  ['filterallocator_35',['filterAllocator',['../namespace_game.html#ab1c701d66de83f0b410b6da8c9930662',1,'Game']]],
   ['filterattrs_36',['filterAttrs',['../class_db_1_1_reader.html#a430ff42f7b96b02958d4881427852f9a',1,'Db::Reader']]],
   ['filterbuilder_37',['filterBuilder',['../class_game_1_1_processor_builder.html#a2306f45a1e4474b346e0db2a0fb7e85d',1,'Game::ProcessorBuilder']]],
   ['finishedmarkers_38',['finishedMarkers',['../struct_core_graphics_1_1_cmd_buffer_marker_bundle.html#af976dfe8ea0d5402332549afc499adbe',1,'CoreGraphics::CmdBufferMarkerBundle']]],

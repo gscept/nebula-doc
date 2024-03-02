@@ -116,7 +116,7 @@ $(function(){initNavTree('assertingmutex_8h_source.html',''); initResizable(); }
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_threading_1_1_asserting_mutex.html#af1e374c1903d071c00df7d3ab133150d">Lock</a>();</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_threading_1_1_asserting_mutex.html#a933cce512f1c9ae43315ec05e57c59e0">Unlock</a>();</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_threading_1_1_asserting_mutex.html#a0f94c9ac698b648dc67976755f48f67c">   27</a></span>    <span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_threading_1_1_asserting_mutex.html#a0f94c9ac698b648dc67976755f48f67c">locked</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_threading_1_1_asserting_mutex.html#a9a1ca92b33e742d29a712265a3c11285">   27</a></span>    std::atomic_int <a class="code hl_variable" href="class_threading_1_1_asserting_mutex.html#a9a1ca92b33e742d29a712265a3c11285">locked</a>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
@@ -144,9 +144,9 @@ $(function(){initNavTree('assertingmutex_8h_source.html',''); initResizable(); }
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace Threading</span></div>
 <div class="ttc" id="aclass_threading_1_1_asserting_mutex_html"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html">Threading::AssertingMutex</a></div><div class="ttdef"><b>Definition</b> assertingmutex.h:15</div></div>
-<div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_a0f94c9ac698b648dc67976755f48f67c"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#a0f94c9ac698b648dc67976755f48f67c">Threading::AssertingMutex::locked</a></div><div class="ttdeci">volatile int locked</div><div class="ttdef"><b>Definition</b> assertingmutex.h:27</div></div>
 <div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_a6346e9dddc5f4c1d4580a0786ec04275"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#a6346e9dddc5f4c1d4580a0786ec04275">Threading::AssertingMutex::~AssertingMutex</a></div><div class="ttdeci">~AssertingMutex()</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> assertingmutex.cc:24</div></div>
 <div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_a933cce512f1c9ae43315ec05e57c59e0"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#a933cce512f1c9ae43315ec05e57c59e0">Threading::AssertingMutex::Unlock</a></div><div class="ttdeci">void Unlock()</div><div class="ttdoc">unlock mutex</div><div class="ttdef"><b>Definition</b> assertingmutex.cc:42</div></div>
+<div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_a9a1ca92b33e742d29a712265a3c11285"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#a9a1ca92b33e742d29a712265a3c11285">Threading::AssertingMutex::locked</a></div><div class="ttdeci">std::atomic_int locked</div><div class="ttdef"><b>Definition</b> assertingmutex.h:27</div></div>
 <div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_ae044d7f6745f90303a886826d143054a"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#ae044d7f6745f90303a886826d143054a">Threading::AssertingMutex::AssertingMutex</a></div><div class="ttdeci">AssertingMutex()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> assertingmutex.cc:15</div></div>
 <div class="ttc" id="aclass_threading_1_1_asserting_mutex_html_af1e374c1903d071c00df7d3ab133150d"><div class="ttname"><a href="class_threading_1_1_asserting_mutex.html#af1e374c1903d071c00df7d3ab133150d">Threading::AssertingMutex::Lock</a></div><div class="ttdeci">void Lock()</div><div class="ttdoc">lock mutex</div><div class="ttdef"><b>Definition</b> assertingmutex.cc:33</div></div>
 <div class="ttc" id="anamespace_threading_html"><div class="ttname"><a href="namespace_threading.html">Threading</a></div><div class="ttdoc">The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.</div><div class="ttdef"><b>Definition</b> jobs2.h:16</div></div>
@@ -161,7 +161,7 @@ $(function(){initNavTree('assertingmutex_8h_source.html',''); initResizable(); }
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_f19f8a5dc6a389547889a45c5da0c6cd.html">threading</a></li><li class="navelem"><a class="el" href="assertingmutex_8h.html">assertingmutex.h</a></li>
 				<li class="footer">
-					Generated on Fri Mar 1 2024 13:00:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Mar 2 2024 10:01:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

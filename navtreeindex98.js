@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"globals_defs_r.html":[10,1,6,15],
+"globals_defs_s.html":[10,1,6,16],
+"globals_defs_t.html":[10,1,6,17],
+"globals_defs_u.html":[10,1,6,18],
+"globals_defs_v.html":[10,1,6,19],
+"globals_defs_w.html":[10,1,6,20],
+"globals_defs_x.html":[10,1,6,21],
+"globals_enum.html":[10,1,4],
 "globals_eval.html":[10,1,5],
 "globals_f.html":[10,1,0,5],
 "globals_func.html":[10,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "htmlpagewriter_8cc.html":[10,0,0,3,6,2,2],
 "htmlpagewriter_8cc.html#a7639d246e26d53165357b620ae2913f6":[10,0,0,3,6,2,2,0],
 "htmlpagewriter_8h.html":[10,0,0,3,6,2,3],
-"htmlpagewriter_8h.html#a04253096e8c3b568cb1e86fd65b850af":[10,0,0,3,6,2,3,1],
-"htmlpagewriter_8h_source.html":[10,0,0,3,6,2,3],
-"httpclient_8cc.html":[10,0,0,3,6,7],
-"httpclient_8cc.html#ae2372768eaacf0a487ab64a63a3c8e0d":[10,0,0,3,6,7,0],
-"httpclient_8h.html":[10,0,0,3,6,8],
-"httpclient_8h_source.html":[10,0,0,3,6,8],
-"httpclientregistry_8cc.html":[10,0,0,3,6,9],
-"httpclientregistry_8cc.html#ab551623c1a54039d6d8b6f243b837ad9":[10,0,0,3,6,9,0],
-"httpclientregistry_8cc.html#ae7eeae1d1d7c2c599acb07c664cb621d":[10,0,0,3,6,9,1]
+"htmlpagewriter_8h.html#a04253096e8c3b568cb1e86fd65b850af":[10,0,0,3,6,2,3,1]
 };

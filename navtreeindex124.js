@@ -1,5 +1,14 @@
 var NAVTREEINDEX124 =
 {
+"shaderconfig_8h.html#af7b504f820c272f4c2243fffdf4a2dcbacfc126be5c3f5c76fb082aa773f24b3d":[10,0,0,6,15,6,7,3],
+"shaderconfig_8h.html#af7b504f820c272f4c2243fffdf4a2dcbadd16f22bbd2683d2c669d9743895cc23":[10,0,0,6,15,6,7,2],
+"shaderconfig_8h_source.html":[10,0,0,6,15,6],
+"shaderfeature_8cc.html":[10,0,0,6,5,68],
+"shaderfeature_8h.html":[10,0,0,6,5,69],
+"shaderfeature_8h_source.html":[10,0,0,6,5,69],
+"shaderidentifier_8cc.html":[10,0,0,6,5,70],
+"shaderidentifier_8h.html":[10,0,0,6,5,71],
+"shaderidentifier_8h_source.html":[10,0,0,6,5,71],
 "shaderloader_8cc.html":[10,0,0,6,5,72],
 "shaderloader_8cc.html#a9d3a18881c91c60a030f2c0e5c91f6b6":[10,0,0,6,5,72,0],
 "shaderloader_8h.html":[10,0,0,6,5,73],
@@ -56,8 +65,8 @@ var NAVTREEINDEX124 =
 "shadersemantics_8h.html#a48464d17764da923f8d50c089b9c87d3":[10,0,0,6,5,74,20],
 "shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,6,5,74,67],
 "shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,6,5,74,75],
-"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,74,93],
 "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,74,94],
+"shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f":[10,0,0,6,5,74,93],
 "shadersemantics_8h.html#a527feccb22cfcc3effdf8162bd6453e0":[10,0,0,6,5,74,86],
 "shadersemantics_8h.html#a538543b6d5e7de8f337fd285d1c7a918":[10,0,0,6,5,74,107],
 "shadersemantics_8h.html#a554b3e00763b2313cba9cd1a751cde0c":[10,0,0,6,5,74,102],
@@ -240,14 +249,5 @@ var NAVTREEINDEX124 =
 "snowcontext_8cc.html":[10,0,0,6,27,4],
 "snowcontext_8h.html":[10,0,0,6,27,5],
 "snowcontext_8h_source.html":[10,0,0,6,27,5],
-"socket_8cc.html":[10,0,0,3,15,1,1],
-"socket_8h.html":[10,0,0,3,15,1,2],
-"socket_8h_source.html":[10,0,0,3,15,1,2],
-"sparsebuffer_8h.html":[10,0,0,6,5,79],
-"sparsebuffer_8h.html#a07cc8aca500533831bf2fdc70aaeae9f":[10,0,0,6,5,79,2],
-"sparsebuffer_8h.html#a598caa89620a72c38fa8ca21c40d4737":[10,0,0,6,5,79,3],
-"sparsebuffer_8h_source.html":[10,0,0,6,5,79],
-"sparsetable_8h.html":[10,0,0,3,20,45],
-"sparsetable_8h_source.html":[10,0,0,3,20,45],
-"sphere_8cc.html":[10,0,0,3,12,22]
+"socket_8cc.html":[10,0,0,3,15,1,1]
 };

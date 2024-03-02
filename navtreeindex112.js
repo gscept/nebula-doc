@@ -1,5 +1,14 @@
 var NAVTREEINDEX112 =
 {
+"namespace_math.html#a3d85ae259b25812836c7262dc391e5b6":[8,0,46,304],
+"namespace_math.html#a3ed947a09745a540ce820a023ed721fc":[8,0,46,241],
+"namespace_math.html#a3ed993786746100f3293e49c762ba985":[8,0,46,53],
+"namespace_math.html#a3eec12d1b9924b3448cd9f0c3073c027":[8,0,46,337],
+"namespace_math.html#a3f0f056ba8bba05c7f0a3781fcd5f522":[8,0,46,173],
+"namespace_math.html#a3fa041bd6e133bb33e82103962ca113e":[8,0,46,157],
+"namespace_math.html#a3faf95daed248758b056e21df01d725f":[8,0,46,226],
+"namespace_math.html#a3fdac8cd996ee6c21293594946e20207":[8,0,46,156],
+"namespace_math.html#a3fe608823bdea701aac3eb4bc036c6b3":[8,0,46,83],
 "namespace_math.html#a3fea9abef4b36fed19e3e536c9eaf37d":[8,0,46,225],
 "namespace_math.html#a3fffb637b09d54c410f3abc848a51010":[8,0,46,275],
 "namespace_math.html#a4096b20b2df2f6eacd050698feffe355":[8,0,46,185],
@@ -240,14 +249,5 @@ var NAVTREEINDEX112 =
 "namespace_mathf.html":[8,0,47],
 "namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991":[8,0,47,16],
 "namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a0557fa923dcee4d0f86b1409f5c2167f":[8,0,47,16,1],
-"namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a5835bab1ade0060909e31a06af2e2cde":[8,0,47,16,0],
-"namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991ae2e969432869ed6806cf6eb86082820e":[8,0,47,16,2],
-"namespace_mathf.html#ac15c2256406c4a571525594919bfef86":[8,0,47,15],
-"namespace_mathf.html#ac15c2256406c4a571525594919bfef86a283bfcf8a8bdcf8394b2b04307cc7896":[8,0,47,15,0],
-"namespace_mathf.html#ac15c2256406c4a571525594919bfef86ab270372be5b4433b4736daaf25e1c74e":[8,0,47,15,1],
-"namespace_mathf.html#ac15c2256406c4a571525594919bfef86ae88aac75f6bd75c22fc2a120348559e9":[8,0,47,15,2],
-"namespace_mem_db.html":[8,0,48],
-"namespace_mem_db.html#a1c2480daefd34a5a2dfe399d32f8dc78":[8,0,48,13],
-"namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761":[8,0,48,12],
-"namespace_mem_db.html#a7e5d3b331773ce3cc5ea2d7b40fcfb2a":[8,0,48,14]
+"namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a5835bab1ade0060909e31a06af2e2cde":[8,0,47,16,0]
 };
