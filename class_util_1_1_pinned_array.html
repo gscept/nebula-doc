@@ -175,6 +175,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a77435469f09ef244a2c0e76840fd972d" id="r_a77435469f09ef244a2c0e76840fd972d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77435469f09ef244a2c0e76840fd972d">Resize</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
 <tr class="memdesc:a77435469f09ef244a2c0e76840fd972d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize to fit, destroys elements outside of new size.  <br /></td></tr>
 <tr class="separator:a77435469f09ef244a2c0e76840fd972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc994eaead89d6e5238fef72585685d" id="r_a7cc994eaead89d6e5238fef72585685d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc994eaead89d6e5238fef72585685d">Extend</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
+<tr class="memdesc:a7cc994eaead89d6e5238fef72585685d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize to fit the provided value, but don't shrink if the new size is smaller.  <br /></td></tr>
+<tr class="separator:a7cc994eaead89d6e5238fef72585685d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79b5e86f0c1f3de8e067e12d8d93dd6" id="r_ad79b5e86f0c1f3de8e067e12d8d93dd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79b5e86f0c1f3de8e067e12d8d93dd6">Free</a> ()</td></tr>
 <tr class="memdesc:ad79b5e86f0c1f3de8e067e12d8d93dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free memory.  <br /></td></tr>
 <tr class="separator:ad79b5e86f0c1f3de8e067e12d8d93dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -974,6 +977,35 @@ template&lt;int MAX_ALLOCS, class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a7cc994eaead89d6e5238fef72585685d" name="a7cc994eaead89d6e5238fef72585685d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc994eaead89d6e5238fef72585685d">&#9670;&#160;</a></span>Extend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int MAX_ALLOCS, class TYPE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt; MAX_ALLOCS, TYPE &gt;::Extend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>num</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resize to fit the provided value, but don't shrink if the new size is smaller. </p>
+
+</div>
+</div>
 <a id="a7f817fd3fc5b987444108dc2a3b85332" name="a7f817fd3fc5b987444108dc2a3b85332"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f817fd3fc5b987444108dc2a3b85332">&#9670;&#160;</a></span>Fill()</h2>
 
@@ -1415,7 +1447,7 @@ template&lt;int MAX_ALLOCS, class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_pinned_array.html">PinnedArray</a></li>
 				<li class="footer">
-					Generated on Sat Mar 2 2024 12:06:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Mar 2 2024 15:18:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

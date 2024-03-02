@@ -16,6 +16,7 @@ var class_util_1_1_pinned_array =
     [ "Delete", "class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad", null ],
     [ "Emplace", "class_util_1_1_pinned_array.html#a7b9ee5de4ff396896b652be383de080a", null ],
     [ "EmplaceArray", "class_util_1_1_pinned_array.html#a71439767ff86ad32fc777c28fac7f3b1", null ],
+    [ "Extend", "class_util_1_1_pinned_array.html#a7cc994eaead89d6e5238fef72585685d", null ],
     [ "Fill", "class_util_1_1_pinned_array.html#a7f817fd3fc5b987444108dc2a3b85332", null ],
     [ "Fit", "class_util_1_1_pinned_array.html#a57147b78c2ab872c2cd848a28fa70624", null ],
     [ "Free", "class_util_1_1_pinned_array.html#ad79b5e86f0c1f3de8e067e12d8d93dd6", null ],

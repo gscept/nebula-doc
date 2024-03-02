@@ -10,6 +10,7 @@ var class_app_1_1_game_application =
     [ "SetupAppFromCmdLineArgs", "class_app_1_1_game_application.html#a6a63cd9aff5888ad08ee3ee6dc5b3c4c", null ],
     [ "SetupGameFeatures", "class_app_1_1_game_application.html#a89597ec50cea9feaecb0d0c27132c6d2", null ],
     [ "StepFrame", "class_app_1_1_game_application.html#a66975b9f7ab9cb781be0579b6ed9f4b1", null ],
+    [ "baseGameFeature", "class_app_1_1_game_application.html#a2044f850ef6d28163601aa2d36f0bada", null ],
     [ "coreServer", "class_app_1_1_game_application.html#a4a247fa96a0e379dd3e156591804eecb", null ],
     [ "exitHandler", "class_app_1_1_game_application.html#a771832e50060b89c5f526d0dca1dbedf", null ],
     [ "FrameIndex", "class_app_1_1_game_application.html#a28bbd3e744e31936fe9c6efe5c2bf099", null ],

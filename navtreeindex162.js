@@ -1,5 +1,9 @@
 var NAVTREEINDEX162 =
 {
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html":[8,0,83,39,1],
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a94522a59f4a07742c4ccd2dab6230843":[9,0,72,39,1,1],
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a94522a59f4a07742c4ccd2dab6230843":[8,0,83,39,1,1],
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a97b16e8d1b94c95bed2e0ca3cbbab2d9":[9,0,72,39,1,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a97b16e8d1b94c95bed2e0ca3cbbab2d9":[8,0,83,39,1,0],
 "struct_vulkan_1_1_vk_shader_setup_info.html":[9,0,72,40],
 "struct_vulkan_1_1_vk_shader_setup_info.html":[8,0,83,40],
@@ -245,9 +249,5 @@ var NAVTREEINDEX162 =
 "tablesignature_8h.html":[10,0,0,0,5,12],
 "tablesignature_8h_source.html":[10,0,0,0,5,12],
 "tcpclient_8cc.html":[10,0,0,3,15,11],
-"tcpclient_8h.html":[10,0,0,3,15,12],
-"tcpclient_8h_source.html":[10,0,0,3,15,12],
-"tcpclientconnection_8cc.html":[10,0,0,3,15,13],
-"tcpclientconnection_8h.html":[10,0,0,3,15,14],
-"tcpclientconnection_8h_source.html":[10,0,0,3,15,14]
+"tcpclient_8h.html":[10,0,0,3,15,12]
 };

@@ -1691,6 +1691,7 @@ var hierarchy =
     [ "Ptr< Base::MemoryIndexBufferLoaderBase >", "class_ptr.html", null ],
     [ "Ptr< Base::MemoryVertexBufferLoaderBase >", "class_ptr.html", null ],
     [ "Ptr< Base::VertexBufferBase >", "class_ptr.html", null ],
+    [ "Ptr< BaseGameFeature::BaseGameFeatureUnit >", "class_ptr.html", null ],
     [ "Ptr< Core::CoreServer >", "class_ptr.html", null ],
     [ "Ptr< CoreAnimation::AnimKeyBuffer >", "class_ptr.html", null ],
     [ "Ptr< CoreAnimation::AnimResource >", "class_ptr.html", null ],

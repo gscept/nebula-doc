@@ -1,5 +1,9 @@
 var NAVTREEINDEX171 =
 {
+"win32environment_8cc.html":[10,0,0,3,17,4,1],
+"win32environment_8h.html":[10,0,0,3,17,4,2],
+"win32environment_8h_source.html":[10,0,0,3,17,4,2],
+"win32event_8h.html":[10,0,0,3,18,6,3],
 "win32event_8h_source.html":[10,0,0,3,18,6,3],
 "win32fiber_8cc.html":[10,0,0,3,3,1,0],
 "win32filetime_8cc.html":[10,0,0,3,9,7,2],
@@ -117,9 +121,9 @@ var NAVTREEINDEX171 =
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,13,3,5,0,10],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,13,3,5,0,23],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,13,3,5,0,36],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,13,3,5,0,7],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,13,3,5,0,31],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,13,3,5,0,18],
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a8ad96fdee6bffa10c5eeb9bba0883ede":[10,0,0,3,13,3,5,0,7],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f":[10,0,0,3,13,3,5,0,20],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab168df24455b35a7629a52c65d3d252f":[10,0,0,3,13,3,5,0,33],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,13,3,5,0,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX171 =
 "ziparchive_8cc.html#aa5e9e002faaaa63d71e58108195ea7cd":[10,0,0,3,9,8,2,0],
 "ziparchive_8h.html":[10,0,0,3,9,8,3],
 "ziparchive_8h_source.html":[10,0,0,3,9,8,3],
-"zipdirentry_8cc.html":[10,0,0,3,9,8,4],
-"zipdirentry_8h.html":[10,0,0,3,9,8,5],
-"zipdirentry_8h_source.html":[10,0,0,3,9,8,5],
-"zipfileentry_8cc.html":[10,0,0,3,9,8,6],
-"zipfileentry_8h.html":[10,0,0,3,9,8,7]
+"zipdirentry_8cc.html":[10,0,0,3,9,8,4]
 };

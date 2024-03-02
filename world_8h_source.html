@@ -416,7 +416,7 @@ $(function(){initNavTree('world_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    <a class="code hl_define" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">n_assert2</a>(!this-&gt;<a class="code hl_variable" href="class_game_1_1_world.html#a65a0dae6d7ff63f75fbe47789ee3fa05">pipeline</a>.<a class="code hl_function" href="class_game_1_1_frame_pipeline.html#a8647e79ed72802c8794c74ed0e494906">IsRunningAsync</a>(), <span class="stringliteral">&quot;Adding component to entities while in an async processor is currently not supported!&quot;</span>);</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    <a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">Game::ComponentId</a> <span class="keywordtype">id</span> = Game::GetComponentId&lt;TYPE&gt;();</div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="preprocessor">#if _DEBUG</span></div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="preprocessor">#if NEBULA_DEBUG</span></div>
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#aa9634291c4e68b72e38ff7dabd0c888e">MemDb::AttributeRegistry::TypeSize</a>(<span class="keywordtype">id</span>) == <span class="keyword">sizeof</span>(TYPE));</div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    <span class="comment">//n_assert(!this-&gt;HasComponent&lt;TYPE&gt;(entity));</span></div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="preprocessor">#endif</span></div>
@@ -610,7 +610,7 @@ $(function(){initNavTree('world_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="world_8h.html">world.h</a></li>
 				<li class="footer">
-					Generated on Sat Mar 2 2024 12:06:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Mar 2 2024 15:17:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
