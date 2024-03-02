@@ -949,6 +949,7 @@ var namespace_core_graphics =
     [ "WaitForSubmission", "namespace_core_graphics.html#a445ce1d046d1deb8aab1c7f67073c35c", null ],
     [ "WindowApplyFullscreen", "namespace_core_graphics.html#aeb674964e13f878674f4e90683e78479", null ],
     [ "WindowGetAAQuality", "namespace_core_graphics.html#ade53d77ba021265f7f7a73498c0fe4ec", null ],
+    [ "WindowGetContentScale", "namespace_core_graphics.html#a0ae70961dfae5af945fbf24abc5281c4", null ],
     [ "WindowGetDisplayMode", "namespace_core_graphics.html#ab25bfa0596685b1da1df5f308a4d61cc", null ],
     [ "WindowGetIcon", "namespace_core_graphics.html#adc3f7f215d22e8850cebf00a3b7961e3", null ],
     [ "WindowGetTexture", "namespace_core_graphics.html#a6ab4d652b6510b0f9a27ea186a394b8e", null ],

@@ -7,6 +7,7 @@ var window_8h =
     [ "EmbedWindow", "window_8h.html#a89d6cac8e9d9468d7b7871edce95fb41", null ],
     [ "WindowApplyFullscreen", "window_8h.html#aeb674964e13f878674f4e90683e78479", null ],
     [ "WindowGetAAQuality", "window_8h.html#ade53d77ba021265f7f7a73498c0fe4ec", null ],
+    [ "WindowGetContentScale", "window_8h.html#a0ae70961dfae5af945fbf24abc5281c4", null ],
     [ "WindowGetDisplayMode", "window_8h.html#ab25bfa0596685b1da1df5f308a4d61cc", null ],
     [ "WindowGetIcon", "window_8h.html#adc3f7f215d22e8850cebf00a3b7961e3", null ],
     [ "WindowGetTexture", "window_8h.html#a6ab4d652b6510b0f9a27ea186a394b8e", null ],
