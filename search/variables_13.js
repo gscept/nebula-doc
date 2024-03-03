@@ -113,7 +113,7 @@ var searchData=
   ['sharedshader_110',['sharedShader',['../class_models_1_1_character_node.html#a3a6b9a41f0b8dc91037ac75b4fa6d09d',1,'Models::CharacterNode']]],
   ['shortlived_111',['shortlived',['../struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#aff6e150778c4c68758688a17e25c69d3',1,'CoreGraphics::CmdBufferPoolCreateInfo']]],
   ['showframeprofiler_112',['showFrameProfiler',['../class_dynui_1_1_imgui_profiler.html#ac09101974ba95ee4ed50486b3f368891',1,'Dynui::ImguiProfiler']]],
-  ['showui_113',['showUI',['../namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2',1,'Fog::showUI'],['../namespace_graphics.html#aaba2494cba0ef4601e60b132c131da6e',1,'Graphics::showUI']]],
+  ['showui_113',['showUI',['../namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2',1,'Fog']]],
   ['sign_114',['sign',['../union_math_1_1half_1_1_float.html#abc49236c5be32ba5b012a9ad45ead77a',1,'Math::half::Float::sign'],['../class_math_1_1half.html#a679265420d942781eb0450b2bb8ad74b',1,'Math::half::sign']]],
   ['signalevent_115',['signalEvent',['../struct_jobs2_1_1_job_context.html#a876ee01c92d458c41ea86713cb8e7e14',1,'Jobs2::JobContext::signalEvent'],['../class_core_graphics_1_1_draw_thread.html#a4be8c3bbc72d411899e019f04ad413a9',1,'CoreGraphics::DrawThread::signalEvent']]],
   ['signalindices_116',['signalIndices',['../struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#ad0e879514a6648f406f589cc351d0c4c',1,'Vulkan::VkSubContextHandler::TimelineSubmission::signalIndices'],['../struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a748f9f289823ceefa3aaaaa8adc02cd9',1,'Vulkan::VkSubContextHandler::SparseBindSubmission::signalIndices']]],

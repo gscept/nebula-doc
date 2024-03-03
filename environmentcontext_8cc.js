@@ -13,8 +13,8 @@ var environmentcontext_8cc =
     [ "fogDistances", "environmentcontext_8cc.html#a86701bc7b775b0461c524a4e8b339bb9", null ],
     [ "maxEyeLuminance", "environmentcontext_8cc.html#a453b15b4e216297d28a23f3ba0bdbcb4", null ],
     [ "numGlobalEnvironmentMips", "environmentcontext_8cc.html#aa6a43340e31be23e17d1f1d4e0552245", null ],
+    [ "r_show_env_params", "environmentcontext_8cc.html#a76e5f57edf2e865d13a24d4efc2e24c4", null ],
     [ "saturation", "environmentcontext_8cc.html#a5e5ff2c61d89db42e1fde1e0f4bb6317", null ],
-    [ "showUI", "environmentcontext_8cc.html#aaba2494cba0ef4601e60b132c131da6e", null ],
     [ "skyBoxEntity", "environmentcontext_8cc.html#adf058b61ba8a8da47a45c25b10432c29", null ],
     [ "skyTurbidity", "environmentcontext_8cc.html#a05c928d3e4d055666fa4a907c1859ddc", null ],
     [ "sunEntity", "environmentcontext_8cc.html#a3793cc15add236828da55cd27818d82b", null ]
