@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"shaderconfig_8h.html":[10,0,0,6,15,6],
+"shaderconfig_8h.html#ab9536e17a7c168669c28bab9ff4adc40":[10,0,0,6,15,6,8],
 "shaderconfig_8h.html#af7b504f820c272f4c2243fffdf4a2dcb":[10,0,0,6,15,6,7],
 "shaderconfig_8h.html#af7b504f820c272f4c2243fffdf4a2dcba02469103e1a1ccf920d9c620cb7a7415":[10,0,0,6,15,6,7,9],
 "shaderconfig_8h.html#af7b504f820c272f4c2243fffdf4a2dcba0cc0a0507cf3d31e5089f420a4cf8b4b":[10,0,0,6,15,6,7,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "skeletonloader_8cc.html":[10,0,0,6,2,7],
 "skeletonloader_8cc.html#a2a839146d649840c333b9a68e8cdf7e5":[10,0,0,6,2,7,0],
 "skeletonloader_8h.html":[10,0,0,6,2,8],
-"skeletonloader_8h_source.html":[10,0,0,6,2,8],
-"skeletonresource_8cc.html":[10,0,0,6,2,9],
-"skeletonresource_8cc.html#a268f6b590623440a51786c72fbbd9e8f":[10,0,0,6,2,9,2]
+"skeletonloader_8h_source.html":[10,0,0,6,2,8]
 };

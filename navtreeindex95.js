@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"displaydevicebase_8cc.html#ab8a56e07626236531a00e5e96291a71e":[10,0,0,6,5,0,0,0],
+"displaydevicebase_8cc.html#af71fbe1fcfdc0ed1688e45e6a5782a47":[10,0,0,6,5,0,0,1],
 "displaydevicebase_8h.html":[10,0,0,6,5,0,1],
 "displaydevicebase_8h_source.html":[10,0,0,6,5,0,1],
 "displayevent_8h.html":[10,0,0,6,5,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "foundation_2core_2win32_2precompiled_8h.html#a3a75770af38d05856eb2e9d1867b471c":[10,0,0,3,1,3,0,15],
 "foundation_2core_2win32_2precompiled_8h.html#a8b2f514658ba28ae0ea3b8b96edf520e":[10,0,0,3,1,3,0,8],
 "foundation_2core_2win32_2precompiled_8h.html#a8effd0655f96cc25e57c0b348669df7b":[10,0,0,3,1,3,0,4],
-"foundation_2core_2win32_2precompiled_8h.html#a9f918755b601cf4bffca775992e6fb90":[10,0,0,3,1,3,0,10],
-"foundation_2core_2win32_2precompiled_8h.html#aa59dc3d2c7dc2ec85638761aeb2d50f7":[10,0,0,3,1,3,0,1],
-"foundation_2core_2win32_2precompiled_8h.html#ac50762666aa00bd3a4308158510f1748":[10,0,0,3,1,3,0,0]
+"foundation_2core_2win32_2precompiled_8h.html#a9f918755b601cf4bffca775992e6fb90":[10,0,0,3,1,3,0,10]
 };

@@ -11,6 +11,7 @@ var class_models_1_1_model_context =
     [ "AllocateInstanceConstants", "class_models_1_1_model_context.html#a3d06222fa218243aa290f06639ec32b4", null ],
     [ "AllocateInstanceConstants", "class_models_1_1_model_context.html#ac8e78739d28fdf9c662504ac9a8d5348", null ],
     [ "ChangeModel", "class_models_1_1_model_context.html#a8ec0facd79f6cb19784e9786af511780", null ],
+    [ "ComputeBoundingBox", "class_models_1_1_model_context.html#a28717147590445aba37df115d2bb57f9", null ],
     [ "Create", "class_models_1_1_model_context.html#ad01b6860515f84bde65c7f74965ea6fe", null ],
     [ "Dealloc", "class_models_1_1_model_context.html#a8c49aec6aeb448b2a09cc011734b683f", null ],
     [ "GetModel", "class_models_1_1_model_context.html#a5b4535baa0956829c1c78120c0d47010", null ],

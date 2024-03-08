@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"namespacemembers_func_a.html":[8,1,1,1],
+"namespacemembers_func_b.html":[8,1,1,2],
 "namespacemembers_func_c.html":[8,1,1,3],
 "namespacemembers_func_d.html":[8,1,1,4],
 "namespacemembers_func_e.html":[8,1,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "osxmemory_8h.html#a7a14be8456d9a48c1c3ff9a221f09900":[10,0,0,3,13,1,3,10],
 "osxmemory_8h.html#a8027aa793a26eaeefd1f86e66ccf0e26":[10,0,0,3,13,1,3,25],
 "osxmemory_8h.html#a86107594327f3a001230df9802cd4422":[10,0,0,3,13,1,3,15],
-"osxmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb":[10,0,0,3,13,1,3,14],
-"osxmemory_8h.html#aa4c51e930a857aaac4da5c6552f36dce":[10,0,0,3,13,1,3,26],
-"osxmemory_8h.html#aaa8d8403dca7d813a59dd1f07728349d":[10,0,0,3,13,1,3,16]
+"osxmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb":[10,0,0,3,13,1,3,14]
 };

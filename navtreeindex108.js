@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"namespace_core_graphics.html#aff15dbed1186ff3c92dabda92361aa78":[8,0,14,572],
+"namespace_core_graphics.html#aff2aa6acb4dbf04641ab1246df1ce89b":[8,0,14,542],
 "namespace_core_graphics.html#aff3c92c476840e5554665e5129fa5fc8":[8,0,14,558],
 "namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c":[8,0,14,449],
 "namespace_core_graphics_1_1_gpu_buffer_types.html":[8,0,14,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "namespace_game_1_1_time_manager.html#ae1fd57385e5c144532be51e7b2592c79":[8,0,26,0,4],
 "namespace_gcc.html":[8,0,27],
 "namespace_graphics.html":[8,0,30],
-"namespace_graphics.html#a003c4ea073606d8685b2b764da792db3":[8,0,30,79],
-"namespace_graphics.html#a05c928d3e4d055666fa4a907c1859ddc":[8,0,30,72],
-"namespace_graphics.html#a08764bcc5eeac2bd2bc4f0b6f236e799":[8,0,30,45]
+"namespace_graphics.html#a003c4ea073606d8685b2b764da792db3":[8,0,30,79]
 };

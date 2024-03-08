@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"globals_defs_c.html":[10,1,6,3],
+"globals_defs_d.html":[10,1,6,4],
 "globals_defs_f.html":[10,1,6,5],
 "globals_defs_g.html":[10,1,6,6],
 "globals_defs_h.html":[10,1,6,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "histogramcontext_8cc.html#ae7ce87193916130e033c00ca4ab7a42d":[10,0,0,6,19,4,6],
 "histogramcontext_8cc.html#aed34b8776b2f2a1d9d23b1d7c49b90a0":[10,0,0,6,19,4,0],
 "histogramcontext_8h.html":[10,0,0,6,19,5],
-"histogramcontext_8h_source.html":[10,0,0,6,19,5],
-"historyconsolehandler_8cc.html":[10,0,0,3,9,36],
-"historyconsolehandler_8cc.html#ae52950cf06f3506ff60ab99b57a955fe":[10,0,0,3,9,36,0]
+"histogramcontext_8h_source.html":[10,0,0,6,19,5]
 };

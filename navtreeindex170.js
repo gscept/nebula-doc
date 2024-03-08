@@ -1,5 +1,7 @@
 var NAVTREEINDEX170 =
 {
+"vkshader_8cc.html#a18d382f43282a8da4e9cb134bc51c3ec":[10,0,0,6,5,5,42,30],
+"vkshader_8cc.html#a1e7cc94877a73c12393c3ec2c4dac6f0":[10,0,0,6,5,5,42,26],
 "vkshader_8cc.html#a1f10f2fc74273ce8f2745c056c5d8e88":[10,0,0,6,5,5,42,27],
 "vkshader_8cc.html#a2e73a526edd8136eaf540e4d8ffa52f1":[10,0,0,6,5,5,42,4],
 "vkshader_8cc.html#a3872c11ac0392d504b101f815c4708bb":[10,0,0,6,5,5,42,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX170 =
 "win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
 "win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
 "win32cpu_8h.html":[10,0,0,3,17,4,0],
-"win32cpu_8h_source.html":[10,0,0,3,17,4,0],
-"win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
-"win32criticalsection_8h.html":[10,0,0,3,18,6,2]
+"win32cpu_8h_source.html":[10,0,0,3,17,4,0]
 };
