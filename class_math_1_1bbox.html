@@ -170,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac70b77e5dc3f2199efaf0807eac9989a" id="r_ac70b77e5dc3f2199efaf0807eac9989a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70b77e5dc3f2199efaf0807eac9989a">intersects</a> (const <a class="el" href="class_math_1_1bbox.html">bbox</a> &amp;box) const</td></tr>
 <tr class="memdesc:ac70b77e5dc3f2199efaf0807eac9989a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with axis aligned bounding box  <br /></td></tr>
 <tr class="separator:ac70b77e5dc3f2199efaf0807eac9989a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d16e30f6940056cf5e48034482c6393" id="r_a1d16e30f6940056cf5e48034482c6393"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d16e30f6940056cf5e48034482c6393">intersects</a> (const <a class="el" href="class_math_1_1line.html">line</a> &amp;ray, float &amp;t) const</td></tr>
+<tr class="memdesc:a1d16e30f6940056cf5e48034482c6393"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for intersection with ray. parameter t will be filled with the "time" of intersection along <code><a class="el" href="class_math_1_1line.html#afc13b4b7ce86f9ff0e1c8c1717939669">line.m</a></code>.  <br /></td></tr>
+<tr class="separator:a1d16e30f6940056cf5e48034482c6393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abffc5571ec515329cf3cb55926870fec" id="r_abffc5571ec515329cf3cb55926870fec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abffc5571ec515329cf3cb55926870fec">contains</a> (const <a class="el" href="class_math_1_1bbox.html">bbox</a> &amp;box) const</td></tr>
 <tr class="memdesc:abffc5571ec515329cf3cb55926870fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if this box completely contains the parameter box  <br /></td></tr>
 <tr class="separator:abffc5571ec515329cf3cb55926870fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +201,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a26409054066cacec95818bcce0d114e8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a26409054066cacec95818bcce0d114e8">as</a> () const</td></tr>
 <tr class="memdesc:a26409054066cacec95818bcce0d114e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert to any type  <br /></td></tr>
 <tr class="separator:a26409054066cacec95818bcce0d114e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd71ad81b27124c55c7f21bc04905f54" id="r_abd71ad81b27124c55c7f21bc04905f54"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd71ad81b27124c55c7f21bc04905f54">area</a> () const</td></tr>
+<tr class="memdesc:abd71ad81b27124c55c7f21bc04905f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate half-area of the surface of the box. If you need the full area, just multiply by 2.  <br /></td></tr>
+<tr class="separator:abd71ad81b27124c55c7f21bc04905f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -342,6 +348,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>affine transform bounding box, does not allow for projections </p>
+
+</div>
+</div>
+<a id="abd71ad81b27124c55c7f21bc04905f54" name="abd71ad81b27124c55c7f21bc04905f54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd71ad81b27124c55c7f21bc04905f54">&#9670;&#160;</a></span>area()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Math::bbox::area </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculate half-area of the surface of the box. If you need the full area, just multiply by 2. </p>
 
 </div>
 </div>
@@ -738,7 +771,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ac70b77e5dc3f2199efaf0807eac9989a" name="ac70b77e5dc3f2199efaf0807eac9989a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac70b77e5dc3f2199efaf0807eac9989a">&#9670;&#160;</a></span>intersects()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70b77e5dc3f2199efaf0807eac9989a">&#9670;&#160;</a></span>intersects() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,6 +796,38 @@ template&lt;typename T &gt; </div>
 <p>check for intersection with axis aligned bounding box </p>
 <p>Check for intersection of 2 axis aligned bounding boxes.</p>
 <p>The bounding boxes must live in the same coordinate space. </p>
+
+</div>
+</div>
+<a id="a1d16e30f6940056cf5e48034482c6393" name="a1d16e30f6940056cf5e48034482c6393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d16e30f6940056cf5e48034482c6393">&#9670;&#160;</a></span>intersects() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Math::bbox::intersects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1line.html">line</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ray</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check for intersection with ray. parameter t will be filled with the "time" of intersection along <code><a class="el" href="class_math_1_1line.html#afc13b4b7ce86f9ff0e1c8c1717939669">line.m</a></code>. </p>
+<p>Ray/AABB Slab test from Real-Time Collision Detection by Christer Ericsson Assumes ray is normalized. </p>
 
 </div>
 </div>
@@ -953,7 +1018,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="class_math_1_1bbox.html">bbox</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:39:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Mar 12 2024 18:52:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

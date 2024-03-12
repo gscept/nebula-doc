@@ -10,6 +10,7 @@ var namespace_util =
     [ "ArrayStack", "class_util_1_1_array_stack.html", "class_util_1_1_array_stack" ],
     [ "BitField", "class_util_1_1_bit_field.html", "class_util_1_1_bit_field" ],
     [ "Blob", "class_util_1_1_blob.html", "class_util_1_1_blob" ],
+    [ "Bvh", "class_util_1_1_bvh.html", "class_util_1_1_bvh" ],
     [ "CommandLineArgs", "class_util_1_1_command_line_args.html", "class_util_1_1_command_line_args" ],
     [ "Crc", "class_util_1_1_crc.html", "class_util_1_1_crc" ],
     [ "Delegate", "class_util_1_1_delegate.html", null ],
