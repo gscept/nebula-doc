@@ -1,6 +1,7 @@
 var vkbuffer_8cc =
 [
     [ "_IMPL_ACQUIRE_RELEASE", "vkbuffer_8cc.html#a101f4aa1b87ed06db11fbeb34d58ecdf", null ],
+    [ "BufferCopyWithStaging", "vkbuffer_8cc.html#a4d7c954f644790be4c5fd7cc259ae390", null ],
     [ "BufferFill", "vkbuffer_8cc.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "vkbuffer_8cc.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "vkbuffer_8cc.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],

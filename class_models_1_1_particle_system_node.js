@@ -8,7 +8,7 @@ var class_models_1_1_particle_system_node =
     [ "GetPrimitiveGroupIndex", "class_models_1_1_particle_system_node.html#ab27737a8c76e08c39b8ba2b09331e234", null ],
     [ "GetSampleBuffer", "class_models_1_1_particle_system_node.html#aa8391bea24c6916a964c0d4d2f625ca1", null ],
     [ "Load", "class_models_1_1_particle_system_node.html#af696d74b5273524e3f7109bb48d7d047", null ],
-    [ "OnFinishedLoading", "class_models_1_1_particle_system_node.html#a1c09607d361a3813dabe4e47e4fe0b5a", null ],
+    [ "OnFinishedLoading", "class_models_1_1_particle_system_node.html#a4c722cc7eb937a0aee2294136a323585", null ],
     [ "ParseEnvelopeCurveData", "class_models_1_1_particle_system_node.html#a4fd67ae7b8701844c6f6e979dd50b702", null ],
     [ "SetEmitterAttrs", "class_models_1_1_particle_system_node.html#af418468e4edef1f426507d79a8f2fecf", null ],
     [ "UpdateMeshResource", "class_models_1_1_particle_system_node.html#a7758265ccd03fea360fd143e85613fb2", null ],

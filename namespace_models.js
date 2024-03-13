@@ -7,12 +7,19 @@ var namespace_models =
     [ "ModelId", "struct_models_1_1_model_id.html", null ],
     [ "ModelLoader", "class_models_1_1_model_loader.html", "class_models_1_1_model_loader" ],
     [ "ModelNode", "class_models_1_1_model_node.html", "class_models_1_1_model_node" ],
+    [ "ModelStreamingData", "struct_models_1_1_model_streaming_data.html", "struct_models_1_1_model_streaming_data" ],
     [ "NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
     [ "ParticleSystemNode", "class_models_1_1_particle_system_node.html", "class_models_1_1_particle_system_node" ],
     [ "PrimitiveNode", "class_models_1_1_primitive_node.html", "class_models_1_1_primitive_node" ],
     [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
     [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ],
     [ "ModelAllocator", "namespace_models.html#aec29d595b1f0529c82c19ca4dcf3dd26", null ],
+    [ "LoadBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dd", [
+      [ "NoBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef", null ],
+      [ "MeshBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92", null ],
+      [ "AnimBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaf54a2f19580d7ae581fbe6753dbcde66", null ],
+      [ "MaterialBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddacabc8a2fb7642875424575fc2bd375f9", null ]
+    ] ],
     [ "NodeBits", "namespace_models.html#abb3acbc147d8734c70568ad6b95e3120", [
       [ "NoBits", "namespace_models.html#abb3acbc147d8734c70568ad6b95e3120a80c24d1cbc4b00f978a996b0bf084316", null ],
       [ "HasTransformBit", "namespace_models.html#abb3acbc147d8734c70568ad6b95e3120acb6d7c3ca443143ecc97af7aa7813376", null ],
@@ -36,6 +43,7 @@ var namespace_models =
     ] ],
     [ "__ImplementClass", "namespace_models.html#a50b4b27fb7c18816e8fb123e71a18f26", null ],
     [ "__ImplementContext", "namespace_models.html#a5407681c81e3608dc4c7605c5380d032", null ],
+    [ "__ImplementEnumBitOperators", "namespace_models.html#a18631316fa14e5fef8a1c6a483a75988", null ],
     [ "__ImplementEnumBitOperators", "namespace_models.html#a37c6ed83ff3393ad88921c722694b364", null ],
     [ "__ImplementEnumBitOperators", "namespace_models.html#a8c6d3fc3a7f060bc1b52bc54385a8cb3", null ],
     [ "CreateModel", "namespace_models.html#a9c46f7e8b40e869f3881bf9953d0171d", null ],

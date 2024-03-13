@@ -787,6 +787,7 @@ var annotated_dup =
       [ "ModelId", "struct_models_1_1_model_id.html", null ],
       [ "ModelLoader", "class_models_1_1_model_loader.html", "class_models_1_1_model_loader" ],
       [ "ModelNode", "class_models_1_1_model_node.html", "class_models_1_1_model_node" ],
+      [ "ModelStreamingData", "struct_models_1_1_model_streaming_data.html", "struct_models_1_1_model_streaming_data" ],
       [ "NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
       [ "ParticleSystemNode", "class_models_1_1_particle_system_node.html", "class_models_1_1_particle_system_node" ],
       [ "PrimitiveNode", "class_models_1_1_primitive_node.html", "class_models_1_1_primitive_node" ],

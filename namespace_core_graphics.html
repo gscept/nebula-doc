@@ -1114,6 +1114,9 @@ Functions</h2></td></tr>
 <tr class="memitem:adf8061714da864f6e76b61f80627c14c" id="r_adf8061714da864f6e76b61f80627c14c"><td class="memItemLeft" align="right" valign="top">CoreGraphics::DeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf8061714da864f6e76b61f80627c14c">BufferGetDeviceAddress</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> id)</td></tr>
 <tr class="memdesc:adf8061714da864f6e76b61f80627c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get buffer device address.  <br /></td></tr>
 <tr class="separator:adf8061714da864f6e76b61f80627c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7c954f644790be4c5fd7cc259ae390" id="r_a4d7c954f644790be4c5fd7cc259ae390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d7c954f644790be4c5fd7cc259ae390">BufferCopyWithStaging</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> dest, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, const void *data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
+<tr class="memdesc:a4d7c954f644790be4c5fd7cc259ae390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut for creating a staging buffer and copy.  <br /></td></tr>
+<tr class="separator:a4d7c954f644790be4c5fd7cc259ae390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cbe93e2db74612f1b0ac7e2f2960cb9" id="r_a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cbe93e2db74612f1b0ac7e2f2960cb9">CmdBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> id, <a class="el" href="#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> fromStage, <a class="el" href="#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> toStage, <a class="el" href="#ae711b5fe9f98259c9a86e455b15a7826">CoreGraphics::BarrierDomain</a> domain, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_barrier_info.html">TextureBarrierInfo</a> &gt; &amp;textures, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toQueue=<a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>, const char *name=nullptr)</td></tr>
 <tr class="memdesc:a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert pipeline barrier.  <br /></td></tr>
 <tr class="separator:a3cbe93e2db74612f1b0ac7e2f2960cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4555,6 +4558,39 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update blas instance and write to buffer. </p>
+
+</div>
+</div>
+<a id="a4d7c954f644790be4c5fd7cc259ae390" name="a4d7c954f644790be4c5fd7cc259ae390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7c954f644790be4c5fd7cc259ae390">&#9670;&#160;</a></span>BufferCopyWithStaging()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferCopyWithStaging </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a></td>          <td class="paramname"><span class="paramname"><em>dest</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>offset</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shortcut for creating a staging buffer and copy. </p>
 
 </div>
 </div>
@@ -14643,7 +14679,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:52:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 10:27:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -38,6 +38,7 @@ var buffer_8h =
       [ "ShaderTable", "buffer_8h.html#a9ee332c41e7404fe6e42769ca6d1712ba69301b0ec771c7483f4822e78496bb07", null ]
     ] ],
     [ "_DECL_ACQUIRE_RELEASE", "buffer_8h.html#a67050084402d3e7884ce0ff03921bad1", null ],
+    [ "BufferCopyWithStaging", "buffer_8h.html#a4d7c954f644790be4c5fd7cc259ae390", null ],
     [ "BufferFill", "buffer_8h.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "buffer_8h.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "buffer_8h.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],

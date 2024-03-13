@@ -1552,6 +1552,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "Models::ModelStreamingData", "struct_models_1_1_model_streaming_data.html", null ],
     [ "Input::MouseButton", "class_input_1_1_mouse_button.html", null ],
     [ "RenderUtil::MouseRayUtil", "class_render_util_1_1_mouse_ray_util.html", null ],
     [ "Nebula.Game.Msg", "interface_nebula_1_1_game_1_1_msg.html", null ],

@@ -564,6 +564,7 @@ var namespace_core_graphics =
     [ "BarrierReset", "namespace_core_graphics.html#a3a4feacd52aee6b7f611b0a71bb50b25", null ],
     [ "BlasInstanceGetSize", "namespace_core_graphics.html#a15810c71bf587d9022b51494d948bace", null ],
     [ "BlasInstanceUpdate", "namespace_core_graphics.html#a6120468249fbfa447d822e7d9adec37e", null ],
+    [ "BufferCopyWithStaging", "namespace_core_graphics.html#a4d7c954f644790be4c5fd7cc259ae390", null ],
     [ "BufferFill", "namespace_core_graphics.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "BufferFlush", "namespace_core_graphics.html#abb9b741e86bef076a3e3bacd1ce9359d", null ],
     [ "BufferGetByteSize", "namespace_core_graphics.html#a6426bec6db1404ad3bfe09dbd85d4ffa", null ],

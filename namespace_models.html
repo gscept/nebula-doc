@@ -126,6 +126,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_model_node.html">ModelNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_streaming_data.html">ModelStreamingData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_node_instance_range.html">NodeInstanceRange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a></td></tr>
@@ -161,6 +163,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7">HasStateBit</a> = N_BIT(2)
  }</td></tr>
 <tr class="separator:abb3acbc147d8734c70568ad6b95e3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef485d52b92118841cd8f7d8563a64dd" id="r_aef485d52b92118841cd8f7d8563a64dd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef485d52b92118841cd8f7d8563a64dd">LoadBits</a> { <a class="el" href="#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef">NoBits</a> = N_BIT(0)
+, <a class="el" href="#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92">MeshBit</a> = N_BIT(1)
+, <a class="el" href="#aef485d52b92118841cd8f7d8563a64ddaf54a2f19580d7ae581fbe6753dbcde66">AnimBit</a> = N_BIT(2)
+, <a class="el" href="#aef485d52b92118841cd8f7d8563a64ddacabc8a2fb7642875424575fc2bd375f9">MaterialBit</a> = N_BIT(3)
+ }</td></tr>
+<tr class="separator:aef485d52b92118841cd8f7d8563a64dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fed22159ed68ed53efe03583d4cb310" id="r_a4fed22159ed68ed53efe03583d4cb310"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a4fed22159ed68ed53efe03583d4cb310a69eb1ab5c5e2159de5ed9613ea4e1257">Model_BoundingBox</a>
 , <a class="el" href="#a4fed22159ed68ed53efe03583d4cb310a2974d9933e9d11e9f94e5a61ac888f81">Model_Nodes</a>
  }</td></tr>
@@ -192,6 +200,8 @@ Functions</h2></td></tr>
 <tr class="separator:a6a713529ef9618e0e28128f3a7727edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c6ed83ff3393ad88921c722694b364" id="r_a37c6ed83ff3393ad88921c722694b364"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37c6ed83ff3393ad88921c722694b364">__ImplementEnumBitOperators</a> (<a class="el" href="#abb3acbc147d8734c70568ad6b95e3120">NodeBits</a>)</td></tr>
 <tr class="separator:a37c6ed83ff3393ad88921c722694b364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18631316fa14e5fef8a1c6a483a75988" id="r_a18631316fa14e5fef8a1c6a483a75988"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18631316fa14e5fef8a1c6a483a75988">__ImplementEnumBitOperators</a> (<a class="el" href="#aef485d52b92118841cd8f7d8563a64dd">LoadBits</a>)</td></tr>
+<tr class="separator:a18631316fa14e5fef8a1c6a483a75988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5407681c81e3608dc4c7605c5380d032" id="r_a5407681c81e3608dc4c7605c5380d032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5407681c81e3608dc4c7605c5380d032">__ImplementContext</a> (<a class="el" href="class_models_1_1_model_context.html">ModelContext</a>, <a class="el" href="class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3">ModelContext::modelContextAllocator</a>)</td></tr>
 <tr class="separator:a5407681c81e3608dc4c7605c5380d032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c6d3fc3a7f060bc1b52bc54385a8cb3" id="r_a8c6d3fc3a7f060bc1b52bc54385a8cb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c6d3fc3a7f060bc1b52bc54385a8cb3">__ImplementEnumBitOperators</a> (<a class="el" href="#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a>)</td></tr>
@@ -236,6 +246,34 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4fed22159ed68ed53efe03583d4cb310a69eb1ab5c5e2159de5ed9613ea4e1257" name="a4fed22159ed68ed53efe03583d4cb310a69eb1ab5c5e2159de5ed9613ea4e1257"></a>Model_BoundingBox&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4fed22159ed68ed53efe03583d4cb310a2974d9933e9d11e9f94e5a61ac888f81" name="a4fed22159ed68ed53efe03583d4cb310a2974d9933e9d11e9f94e5a61ac888f81"></a>Model_Nodes&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aef485d52b92118841cd8f7d8563a64dd" name="aef485d52b92118841cd8f7d8563a64dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef485d52b92118841cd8f7d8563a64dd">&#9670;&#160;</a></span>LoadBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#aef485d52b92118841cd8f7d8563a64dd">Models::LoadBits</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef" name="aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef"></a>NoBits&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92" name="aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92"></a>MeshBit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef485d52b92118841cd8f7d8563a64ddaf54a2f19580d7ae581fbe6753dbcde66" name="aef485d52b92118841cd8f7d8563a64ddaf54a2f19580d7ae581fbe6753dbcde66"></a>AnimBit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef485d52b92118841cd8f7d8563a64ddacabc8a2fb7642875424575fc2bd375f9" name="aef485d52b92118841cd8f7d8563a64ddacabc8a2fb7642875424575fc2bd375f9"></a>MaterialBit&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -359,8 +397,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a18631316fa14e5fef8a1c6a483a75988" name="a18631316fa14e5fef8a1c6a483a75988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18631316fa14e5fef8a1c6a483a75988">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Models::__ImplementEnumBitOperators </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef485d52b92118841cd8f7d8563a64dd">LoadBits</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a37c6ed83ff3393ad88921c722694b364" name="a37c6ed83ff3393ad88921c722694b364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37c6ed83ff3393ad88921c722694b364">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c6ed83ff3393ad88921c722694b364">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +432,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8c6d3fc3a7f060bc1b52bc54385a8cb3" name="a8c6d3fc3a7f060bc1b52bc54385a8cb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c6d3fc3a7f060bc1b52bc54385a8cb3">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6d3fc3a7f060bc1b52bc54385a8cb3">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -506,7 +561,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:52:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 10:27:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -222,6 +222,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a303095897c68d655e14fab6177551fe3" id="r_a303095897c68d655e14fab6177551fe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303095897c68d655e14fab6177551fe3">Unload</a> (const Resources::ResourceId id) override</td></tr>
 <tr class="memdesc:a303095897c68d655e14fab6177551fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload resource  <br /></td></tr>
 <tr class="separator:a303095897c68d655e14fab6177551fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967d94125f8911f537c8404ce6e4c6bc" id="r_a967d94125f8911f537c8404ce6e4c6bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a967d94125f8911f537c8404ce6e4c6bc">StreamResource</a> (const Resources::ResourceId entry, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="class_resources_1_1_resource_loader.html#ad9ee667f20d51dd21dd5e8f029127bf4">requestedBits</a>) override</td></tr>
+<tr class="memdesc:a967d94125f8911f537c8404ce6e4c6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream texture.  <br /></td></tr>
+<tr class="separator:a967d94125f8911f537c8404ce6e4c6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10741e510f7baac232d7c57607ed12d5" id="r_a10741e510f7baac232d7c57607ed12d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10741e510f7baac232d7c57607ed12d5">LodMask</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod, bool stream) const override</td></tr>
+<tr class="memdesc:a10741e510f7baac232d7c57607ed12d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD.  <br /></td></tr>
+<tr class="separator:a10741e510f7baac232d7c57607ed12d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -266,9 +272,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae6d77c9e85bef55cedcec1527fe5477d inherit pro_methods_class_resources_1_1_resource_loader" id="r_ae6d77c9e85bef55cedcec1527fe5477d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_resources_1_1_resource_loader.html#a06b17ad4e197cb7d06969ee0cedb67f2">SubresourceLoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#ae6d77c9e85bef55cedcec1527fe5477d">StreamMaxLOD</a> (const Resources::ResourceId &amp;id, const float lod, bool immediate)</td></tr>
 <tr class="memdesc:ae6d77c9e85bef55cedcec1527fe5477d inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a lod update  <br /></td></tr>
 <tr class="separator:ae6d77c9e85bef55cedcec1527fe5477d inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7aece69cd88b976319b430d4d856fe0 inherit pro_methods_class_resources_1_1_resource_loader" id="r_ac7aece69cd88b976319b430d4d856fe0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#ac7aece69cd88b976319b430d4d856fe0">LodMask</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod, bool stream) const</td></tr>
-<tr class="memdesc:ac7aece69cd88b976319b430d4d856fe0 inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD.  <br /></td></tr>
-<tr class="separator:ac7aece69cd88b976319b430d4d856fe0 inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba54d3e45afcab7cbecbc8cd89c3f2a inherit pro_methods_class_resources_1_1_resource_loader" id="r_a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a6ba54d3e45afcab7cbecbc8cd89c3f2a">RequestLOD</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod) const</td></tr>
 <tr class="memdesc:a6ba54d3e45afcab7cbecbc8cd89c3f2a inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set lod factor for resource.  <br /></td></tr>
 <tr class="separator:a6ba54d3e45afcab7cbecbc8cd89c3f2a inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,9 +284,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a14c00e8649449118b049042f57fa7bea inherit pro_methods_class_resources_1_1_resource_loader" id="r_a14c00e8649449118b049042f57fa7bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a14c00e8649449118b049042f57fa7bea">LoadImmediate</a> (<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> &amp;res)</td></tr>
 <tr class="memdesc:a14c00e8649449118b049042f57fa7bea inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load immediately.  <br /></td></tr>
 <tr class="separator:a14c00e8649449118b049042f57fa7bea inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e123dcb907da3eb36e3fa24f555efae inherit pro_methods_class_resources_1_1_resource_loader" id="r_a4e123dcb907da3eb36e3fa24f555efae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a4e123dcb907da3eb36e3fa24f555efae">LoadAsync</a> (<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> &amp;res)</td></tr>
-<tr class="memdesc:a4e123dcb907da3eb36e3fa24f555efae inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load async.  <br /></td></tr>
-<tr class="separator:a4e123dcb907da3eb36e3fa24f555efae inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79621547cb09ec356d2cab4c1a3ba38 inherit pro_methods_class_resources_1_1_resource_loader" id="r_ab79621547cb09ec356d2cab4c1a3ba38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#ab79621547cb09ec356d2cab4c1a3ba38">LoadAsync</a> (<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> res)</td></tr>
+<tr class="memdesc:ab79621547cb09ec356d2cab4c1a3ba38 inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load async.  <br /></td></tr>
+<tr class="separator:ab79621547cb09ec356d2cab4c1a3ba38 inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53018e8c92dc1eea0ea44dce80e7bd14 inherit pro_methods_class_resources_1_1_resource_loader" id="r_a53018e8c92dc1eea0ea44dce80e7bd14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_resources_1_1_resource_loader.html#a53018e8c92dc1eea0ea44dce80e7bd14">RunCallbacks</a> (<a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a> status, const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a53018e8c92dc1eea0ea44dce80e7bd14 inherit pro_methods_class_resources_1_1_resource_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">run callbacks  <br /></td></tr>
 <tr class="separator:a53018e8c92dc1eea0ea44dce80e7bd14 inherit pro_methods_class_resources_1_1_resource_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,6 +479,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a10741e510f7baac232d7c57607ed12d5" name="a10741e510f7baac232d7c57607ed12d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10741e510f7baac232d7c57607ed12d5">&#9670;&#160;</a></span>LodMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Models::ModelLoader::LodMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>entry</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>lod</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create load mask based on LOD. </p>
+
+<p>Reimplemented from <a class="el" href="class_resources_1_1_resource_loader.html#ac7aece69cd88b976319b430d4d856fe0">Resources::ResourceLoader</a>.</p>
+
+</div>
+</div>
 <a id="a825bfa2a20b3d3025dfce2521ac9bfc1" name="a825bfa2a20b3d3025dfce2521ac9bfc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a825bfa2a20b3d3025dfce2521ac9bfc1">&#9670;&#160;</a></span>Setup()</h2>
 
@@ -502,6 +543,42 @@ Additional Inherited Members</h2></td></tr>
 <p>setup resource loader, initiates the placeholder and error resources if valid </p>
 
 <p>Reimplemented from <a class="el" href="class_resources_1_1_resource_loader.html#a326af86119d282921e5df549ad6d87af">Resources::ResourceLoader</a>.</p>
+
+</div>
+</div>
+<a id="a967d94125f8911f537c8404ce6e4c6bc" name="a967d94125f8911f537c8404ce6e4c6bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967d94125f8911f537c8404ce6e4c6bc">&#9670;&#160;</a></span>StreamResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Models::ModelLoader::StreamResource </td>
+          <td>(</td>
+          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>entry</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>frameIndex</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>requestedBits</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stream texture. </p>
 
 </div>
 </div>
@@ -703,7 +780,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_models.html">Models</a></li><li class="navelem"><a class="el" href="class_models_1_1_model_loader.html">ModelLoader</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:52:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 10:27:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

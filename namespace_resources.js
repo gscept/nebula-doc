@@ -13,7 +13,7 @@ var namespace_resources =
     [ "__ImplementClass", "namespace_resources.html#a1570093987e1f2f558b60ebeff736064", null ],
     [ "__ImplementClass", "namespace_resources.html#a2ed351b42086ddb8433b6b652fd60b88", null ],
     [ "__ImplementInterfaceSingleton", "namespace_resources.html#ab004bd1df5940b1b5cbc80eefa0f6db3", null ],
-    [ "_LoadInternal", "namespace_resources.html#affaecebe69833e8e5b16dcdc911007e7", null ],
+    [ "_LoadInternal", "namespace_resources.html#a988fecb41cdf56f5406815115d266e48", null ],
     [ "CreateResource", "namespace_resources.html#a567df1d20a8e2a34ca067ce0cb52bb65", null ],
     [ "CreateResource", "namespace_resources.html#a06149171c66844225680ba6cdadbd323", null ],
     [ "CreateResourceListener", "namespace_resources.html#ac6bbb528dfb2faf5a59ab5ad623cb667", null ],

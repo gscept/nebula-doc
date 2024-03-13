@@ -113,6 +113,8 @@ $(function(){initNavTree('model_8h.html',''); initResizable(); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_streaming_data.html">Models::ModelStreamingData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_node_instance_range.html">Models::NodeInstanceRange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_models_1_1_model_create_info.html">Models::ModelCreateInfo</a></td></tr>
@@ -148,6 +150,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7">Models::HasStateBit</a> = N_BIT(2)
  }</td></tr>
 <tr class="separator:abb3acbc147d8734c70568ad6b95e3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef485d52b92118841cd8f7d8563a64dd" id="r_aef485d52b92118841cd8f7d8563a64dd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64dd">Models::LoadBits</a> { <a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef">Models::NoBits</a> = N_BIT(0)
+, <a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92">Models::MeshBit</a> = N_BIT(1)
+, <a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaf54a2f19580d7ae581fbe6753dbcde66">Models::AnimBit</a> = N_BIT(2)
+, <a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64ddacabc8a2fb7642875424575fc2bd375f9">Models::MaterialBit</a> = N_BIT(3)
+ }</td></tr>
+<tr class="separator:aef485d52b92118841cd8f7d8563a64dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fed22159ed68ed53efe03583d4cb310" id="r_a4fed22159ed68ed53efe03583d4cb310"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_models.html#a4fed22159ed68ed53efe03583d4cb310a69eb1ab5c5e2159de5ed9613ea4e1257">Models::Model_BoundingBox</a>
 , <a class="el" href="namespace_models.html#a4fed22159ed68ed53efe03583d4cb310a2974d9933e9d11e9f94e5a61ac888f81">Models::Model_Nodes</a>
  }</td></tr>
@@ -157,6 +165,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a37c6ed83ff3393ad88921c722694b364" id="r_a37c6ed83ff3393ad88921c722694b364"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a37c6ed83ff3393ad88921c722694b364">Models::__ImplementEnumBitOperators</a> (<a class="el" href="namespace_models.html#abb3acbc147d8734c70568ad6b95e3120">NodeBits</a>)</td></tr>
 <tr class="separator:a37c6ed83ff3393ad88921c722694b364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18631316fa14e5fef8a1c6a483a75988" id="r_a18631316fa14e5fef8a1c6a483a75988"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a18631316fa14e5fef8a1c6a483a75988">Models::__ImplementEnumBitOperators</a> (<a class="el" href="namespace_models.html#aef485d52b92118841cd8f7d8563a64dd">LoadBits</a>)</td></tr>
+<tr class="separator:a18631316fa14e5fef8a1c6a483a75988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c46f7e8b40e869f3881bf9953d0171d" id="r_a9c46f7e8b40e869f3881bf9953d0171d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_models.html#a9c46f7e8b40e869f3881bf9953d0171d">Models::CreateModel</a> (const <a class="el" href="struct_models_1_1_model_create_info.html">ModelCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a9c46f7e8b40e869f3881bf9953d0171d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model (resource)  <br /></td></tr>
 <tr class="separator:a9c46f7e8b40e869f3881bf9953d0171d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,7 +187,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_d9d30cd1cce06ca19bffd160cc974b62.html">models</a></li><li class="navelem"><a class="el" href="model_8h.html">model.h</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:52:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 10:27:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

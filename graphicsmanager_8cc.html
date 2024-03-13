@@ -104,6 +104,7 @@ $(function(){initNavTree('graphicsmanager_8cc.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="modelcontext_8h_source.html">models/modelcontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="visibilitycontext_8h_source.html">visibility/visibilitycontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="raytracingcontext_8h_source.html">raytracing/raytracingcontext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="charactercontext_8h_source.html">characters/charactercontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gameserver_8h_source.html">game/gameserver.h</a>&quot;</code><br />
 <code>#include &quot;graphicsfeature/components/graphicsfeature.h&quot;</code><br />
 <code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
@@ -123,8 +124,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a62012029d73a813f22b98257dc7cc9d5" id="r_a62012029d73a813f22b98257dc7cc9d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics_feature.html#a62012029d73a813f22b98257dc7cc9d5">GraphicsFeature::__ImplementSingleton</a> (<a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsManager</a>) <a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsManager</a></td></tr>
 <tr class="separator:a62012029d73a813f22b98257dc7cc9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab111220f5e6174cb01e17871807cd422" id="r_ab111220f5e6174cb01e17871807cd422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics_feature.html#ab111220f5e6174cb01e17871807cd422">GraphicsFeature::RegisterModelEntity</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const gid, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const res, bool const raytracing, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;t)</td></tr>
-<tr class="separator:ab111220f5e6174cb01e17871807cd422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83287cbffa3ebdd55938489814758c30" id="r_a83287cbffa3ebdd55938489814758c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics_feature.html#a83287cbffa3ebdd55938489814758c30">GraphicsFeature::RegisterModelEntity</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const gid, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const res, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const anim, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> const skeleton, bool const raytracing, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;t)</td></tr>
+<tr class="separator:a83287cbffa3ebdd55938489814758c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3970d9c01daef3582c895e23b0702add" id="r_a3970d9c01daef3582c895e23b0702add"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_graphics_feature.html#a3970d9c01daef3582c895e23b0702add">GraphicsFeature::DeregisterModelEntity</a> (Model const *model)</td></tr>
 <tr class="separator:a3970d9c01daef3582c895e23b0702add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a612dbaba526f0b21cb57e40ff782b31a" id="r_a612dbaba526f0b21cb57e40ff782b31a"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
@@ -188,7 +189,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_1ac21e01a8bb7d8c2bb65101e5183392.html">graphicsfeature</a></li><li class="navelem"><a class="el" href="dir_9d17aaefe9e4f6b347f5bb4183eaf2e1.html">managers</a></li><li class="navelem"><a class="el" href="graphicsmanager_8cc.html">graphicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Tue Mar 12 2024 18:52:08 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 10:27:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

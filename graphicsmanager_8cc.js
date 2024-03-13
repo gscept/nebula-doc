@@ -4,5 +4,5 @@ var graphicsmanager_8cc =
     [ "DeregisterModelEntity", "graphicsmanager_8cc.html#a3970d9c01daef3582c895e23b0702add", null ],
     [ "IO::JsonReader::Get< Graphics::GraphicsEntityId >", "graphicsmanager_8cc.html#a612dbaba526f0b21cb57e40ff782b31a", null ],
     [ "IO::JsonWriter::Add< Graphics::GraphicsEntityId >", "graphicsmanager_8cc.html#a85243f8dab7fdaf1ed21c3b430877daf", null ],
-    [ "RegisterModelEntity", "graphicsmanager_8cc.html#ab111220f5e6174cb01e17871807cd422", null ]
+    [ "RegisterModelEntity", "graphicsmanager_8cc.html#a83287cbffa3ebdd55938489814758c30", null ]
 ];
