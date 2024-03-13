@@ -10,12 +10,15 @@ var class_game_1_1_processor_builder =
     [ "Func", "class_game_1_1_processor_builder.html#a7153e2b7f929dff384c7c29b2b1ffa28", null ],
     [ "Including", "class_game_1_1_processor_builder.html#acfd3a9d2db1f1e9b137491421203063b", null ],
     [ "On", "class_game_1_1_processor_builder.html#ada8ef5ac6b0fc8207cd5f67f85888b4f", null ],
+    [ "OnlyModified", "class_game_1_1_processor_builder.html#a1484ca50f5502d8a4d71bef7885de8c5", null ],
     [ "Order", "class_game_1_1_processor_builder.html#a0be7233bc74831e9f6e5f1c2342d4747", null ],
     [ "async", "class_game_1_1_processor_builder.html#a0b27deaaa44933f7f92cc502bfd36f59", null ],
     [ "filterBuilder", "class_game_1_1_processor_builder.html#a2306f45a1e4474b346e0db2a0fb7e85d", null ],
     [ "func", "class_game_1_1_processor_builder.html#ac32bf7872ea66ec59806de25369704fd", null ],
+    [ "funcModified", "class_game_1_1_processor_builder.html#a8fb9cd96eb14beb21a867affa886164f", null ],
     [ "name", "class_game_1_1_processor_builder.html#a78385b2faf55fc86badecdc611420b79", null ],
     [ "onEvent", "class_game_1_1_processor_builder.html#aeffecc377102c1757e77e4cb2e6e73d2", null ],
+    [ "onlyModified", "class_game_1_1_processor_builder.html#ad356c81e37a1f2d735985c6cc57e6188", null ],
     [ "order", "class_game_1_1_processor_builder.html#a582bd77de0e40665126023c2767a289e", null ],
     [ "world", "class_game_1_1_processor_builder.html#aee552ba879a4a973a21489b0f93d004f", null ]
 ];

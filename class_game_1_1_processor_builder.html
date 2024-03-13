@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf77cfb9fa79d165ab5cc61235b19efc" id="r_aaf77cfb9fa79d165ab5cc61235b19efc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf77cfb9fa79d165ab5cc61235b19efc">Async</a> ()</td></tr>
 <tr class="memdesc:aaf77cfb9fa79d165ab5cc61235b19efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">processor should run async  <br /></td></tr>
 <tr class="separator:aaf77cfb9fa79d165ab5cc61235b19efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1484ca50f5502d8a4d71bef7885de8c5" id="r_a1484ca50f5502d8a4d71bef7885de8c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1484ca50f5502d8a4d71bef7885de8c5">OnlyModified</a> ()</td></tr>
+<tr class="memdesc:a1484ca50f5502d8a4d71bef7885de8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">entities must be marked as modified for them to actually be processed  <br /></td></tr>
+<tr class="separator:a1484ca50f5502d8a4d71bef7885de8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0be7233bc74831e9f6e5f1c2342d4747" id="r_a0be7233bc74831e9f6e5f1c2342d4747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be7233bc74831e9f6e5f1c2342d4747">Order</a> (int <a class="el" href="#a582bd77de0e40665126023c2767a289e">order</a>)</td></tr>
 <tr class="memdesc:a0be7233bc74831e9f6e5f1c2342d4747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorting order for the processor.  <br /></td></tr>
 <tr class="separator:a0be7233bc74831e9f6e5f1c2342d4747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,10 +152,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aeffecc377102c1757e77e4cb2e6e73d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac32bf7872ea66ec59806de25369704fd" id="r_ac32bf7872ea66ec59806de25369704fd"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_dataset_1_1_view.html">Dataset::View</a> const  &amp;)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac32bf7872ea66ec59806de25369704fd">func</a> ) = nullptr</td></tr>
 <tr class="separator:ac32bf7872ea66ec59806de25369704fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb9cd96eb14beb21a867affa886164f" id="r_a8fb9cd96eb14beb21a867affa886164f"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="class_game_1_1_world.html">World</a> *, <a class="el" href="struct_game_1_1_dataset_1_1_view.html">Dataset::View</a> const  &amp;)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb9cd96eb14beb21a867affa886164f">funcModified</a> ) = nullptr</td></tr>
+<tr class="separator:a8fb9cd96eb14beb21a867affa886164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2306f45a1e4474b346e0db2a0fb7e85d" id="r_a2306f45a1e4474b346e0db2a0fb7e85d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_filter_builder.html">FilterBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2306f45a1e4474b346e0db2a0fb7e85d">filterBuilder</a></td></tr>
 <tr class="separator:a2306f45a1e4474b346e0db2a0fb7e85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b27deaaa44933f7f92cc502bfd36f59" id="r_a0b27deaaa44933f7f92cc502bfd36f59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b27deaaa44933f7f92cc502bfd36f59">async</a> = false</td></tr>
 <tr class="separator:a0b27deaaa44933f7f92cc502bfd36f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad356c81e37a1f2d735985c6cc57e6188" id="r_ad356c81e37a1f2d735985c6cc57e6188"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad356c81e37a1f2d735985c6cc57e6188">onlyModified</a> = false</td></tr>
+<tr class="separator:ad356c81e37a1f2d735985c6cc57e6188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a582bd77de0e40665126023c2767a289e" id="r_a582bd77de0e40665126023c2767a289e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582bd77de0e40665126023c2767a289e">order</a> = 100</td></tr>
 <tr class="separator:a582bd77de0e40665126023c2767a289e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -388,6 +395,25 @@ template&lt;typename ... COMPONENTS&gt; </div>
 
 </div>
 </div>
+<a id="a1484ca50f5502d8a4d71bef7885de8c5" name="a1484ca50f5502d8a4d71bef7885de8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1484ca50f5502d8a4d71bef7885de8c5">&#9670;&#160;</a></span>OnlyModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a> &amp; Game::ProcessorBuilder::OnlyModified </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>entities must be marked as modified for them to actually be processed </p>
+
+</div>
+</div>
 <a id="a0be7233bc74831e9f6e5f1c2342d4747" name="a0be7233bc74831e9f6e5f1c2342d4747"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0be7233bc74831e9f6e5f1c2342d4747">&#9670;&#160;</a></span>Order()</h2>
 
@@ -474,6 +500,28 @@ template&lt;typename ... COMPONENTS&gt; </div>
 
 </div>
 </div>
+<a id="a8fb9cd96eb14beb21a867affa886164f" name="a8fb9cd96eb14beb21a867affa886164f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb9cd96eb14beb21a867affa886164f">&#9670;&#160;</a></span>funcModified</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="class_game_1_1_world.html">World</a>*, <a class="el" href="struct_game_1_1_dataset_1_1_view.html">Dataset::View</a> const&amp;) Game::ProcessorBuilder::funcModified)  = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a78385b2faf55fc86badecdc611420b79" name="a78385b2faf55fc86badecdc611420b79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78385b2faf55fc86badecdc611420b79">&#9670;&#160;</a></span>name</h2>
 
@@ -507,6 +555,28 @@ template&lt;typename ... COMPONENTS&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> Game::ProcessorBuilder::onEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad356c81e37a1f2d735985c6cc57e6188" name="ad356c81e37a1f2d735985c6cc57e6188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad356c81e37a1f2d735985c6cc57e6188">&#9670;&#160;</a></span>onlyModified</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::ProcessorBuilder::onlyModified = false</td>
         </tr>
       </table>
   </td>
@@ -573,7 +643,7 @@ template&lt;typename ... COMPONENTS&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_processor_builder.html">ProcessorBuilder</a></li>
 				<li class="footer">
-					Generated on Wed Mar 13 2024 12:52:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 15:03:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -120,6 +120,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2e5ea51b3dc7ec76ba033c2d120c5a4d" id="r_a2e5ea51b3dc7ec76ba033c2d120c5a4d"><td class="memItemLeft" align="right" valign="top">decltype(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html#aed5bdbae65640951199bbe0bc5dd3274">MemDb::Table::Partition::validRows</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e5ea51b3dc7ec76ba033c2d120c5a4d">validInstances</a></td></tr>
 <tr class="memdesc:a2e5ea51b3dc7ec76ba033c2d120c5a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">which instances are valid in this buffer  <br /></td></tr>
 <tr class="separator:a2e5ea51b3dc7ec76ba033c2d120c5a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3d1fa4ae2de9c546d029f3514ec949" id="r_abb3d1fa4ae2de9c546d029f3514ec949"><td class="memItemLeft" align="right" valign="top">decltype(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a769f6e22c647f1faf51e53c7fd873bef">MemDb::Table::Partition::modifiedRows</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb3d1fa4ae2de9c546d029f3514ec949">modifiedInstances</a></td></tr>
+<tr class="memdesc:abb3d1fa4ae2de9c546d029f3514ec949"><td class="mdescLeft">&#160;</td><td class="mdescRight">which instances are marked as modified in this buffer. Note that you need to manually mark the entity as modified.  <br /></td></tr>
+<tr class="separator:abb3d1fa4ae2de9c546d029f3514ec949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7fb207f6dbd4a7aa49f2432b46120be1" name="a7fb207f6dbd4a7aa49f2432b46120be1"></a>
@@ -136,6 +139,23 @@ Public Attributes</h2></td></tr>
 
 <p>component buffers. </p>
 <dl class="section note"><dt>Note</dt><dd>Can be NULL if a queried component has no fields </dd></dl>
+
+</div>
+</div>
+<a id="abb3d1fa4ae2de9c546d029f3514ec949" name="abb3d1fa4ae2de9c546d029f3514ec949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb3d1fa4ae2de9c546d029f3514ec949">&#9670;&#160;</a></span>modifiedInstances</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decltype(<a class="el" href="class_mem_db_1_1_table_1_1_partition.html#a769f6e22c647f1faf51e53c7fd873bef">MemDb::Table::Partition::modifiedRows</a>) Game::Dataset::View::modifiedInstances</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>which instances are marked as modified in this buffer. Note that you need to manually mark the entity as modified. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_1_1_world.html#af0747baccb5c643b61224182e0368652" title="Mark an entity as modified in its table.">Game::World::MarkAsModified</a> </dd></dl>
 
 </div>
 </div>
@@ -213,7 +233,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a></li><li class="navelem"><a class="el" href="struct_game_1_1_dataset_1_1_view.html">View</a></li>
 				<li class="footer">
-					Generated on Wed Mar 13 2024 12:52:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 13 2024 15:03:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

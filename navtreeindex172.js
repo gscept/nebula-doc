@@ -1,5 +1,17 @@
 var NAVTREEINDEX172 =
 {
+"win32readwritelock_8h_source.html":[10,0,0,3,18,6,6],
+"win32registry_8cc.html":[10,0,0,3,17,4,7],
+"win32registry_8h.html":[10,0,0,3,17,4,8],
+"win32registry_8h_source.html":[10,0,0,3,17,4,8],
+"win32singleton_8h.html":[10,0,0,3,1,3,1],
+"win32singleton_8h.html#a2a8ad85fba9955f0c14a6151337273f6":[10,0,0,3,1,3,1,5],
+"win32singleton_8h.html#a39f3d403cfb36b31e4b18dfb6b7bcc3e":[10,0,0,3,1,3,1,2],
+"win32singleton_8h.html#a46f888b724aa7b248905e0a78e9630da":[10,0,0,3,1,3,1,7],
+"win32singleton_8h.html#a60044d7c40c042e675a575c216d94947":[10,0,0,3,1,3,1,6],
+"win32singleton_8h.html#a75f803d2aac92e98072993a810a64a99":[10,0,0,3,1,3,1,1],
+"win32singleton_8h.html#a77e9605e52e56b1566d7d0de4c82e70f":[10,0,0,3,1,3,1,4],
+"win32singleton_8h.html#a90622683d9e8c91682ba26b2fae8125f":[10,0,0,3,1,3,1,3],
 "win32singleton_8h.html#ac1a7badb214ae8dc87d0bf11c5b6b0d6":[10,0,0,3,1,3,1,0],
 "win32singleton_8h_source.html":[10,0,0,3,1,3,1],
 "win32socket_8cc.html":[10,0,0,3,15,3,2],

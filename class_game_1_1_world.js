@@ -49,6 +49,7 @@ var class_game_1_1_world =
     [ "InitializeAllComponents", "class_game_1_1_world.html#a25f3d53b48cfaa1192a4002446f59945", null ],
     [ "IsValid", "class_game_1_1_world.html#a99585493c5728e0fbccc0c2463be48b2", null ],
     [ "ManageEntities", "class_game_1_1_world.html#ac7bb3e972d3be99bf4b1b3a3c795fa73", null ],
+    [ "MarkAsModified", "class_game_1_1_world.html#af0747baccb5c643b61224182e0368652", null ],
     [ "Migrate", "class_game_1_1_world.html#a8f4302d966cdc6b00cf0d01b8b48cc6f", null ],
     [ "Migrate", "class_game_1_1_world.html#adef1fb659b93c3870418962e6a8e3125", null ],
     [ "MoveInstance", "class_game_1_1_world.html#a0584145a147a7dd3093fcd7e489afdce", null ],
