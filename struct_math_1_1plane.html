@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3725a3e33031c41a49fcd7a1d20f20fb" id="r_a3725a3e33031c41a49fcd7a1d20f20fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3725a3e33031c41a49fcd7a1d20f20fb">plane</a> (const __m128 &amp;rhs)</td></tr>
 <tr class="memdesc:a3725a3e33031c41a49fcd7a1d20f20fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from SSE 128 byte float array  <br /></td></tr>
 <tr class="separator:a3725a3e33031c41a49fcd7a1d20f20fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07f6ecf3e400e4d2a7beff79c6aa667" id="r_ae07f6ecf3e400e4d2a7beff79c6aa667"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07f6ecf3e400e4d2a7beff79c6aa667">intersect</a> (<a class="el" href="class_math_1_1line.html">line</a> const &amp;<a class="el" href="class_math_1_1line.html">line</a>, <a class="el" href="struct_math_1_1point.html">point</a> &amp;outIntersectPoint)</td></tr>
+<tr class="memdesc:ae07f6ecf3e400e4d2a7beff79c6aa667"><td class="mdescLeft">&#160;</td><td class="mdescRight">check intersection against line  <br /></td></tr>
+<tr class="separator:ae07f6ecf3e400e4d2a7beff79c6aa667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caff83babf40e6c8af9642a7e78fd2b" id="r_a1caff83babf40e6c8af9642a7e78fd2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1caff83babf40e6c8af9642a7e78fd2b">get_normal</a> () const</td></tr>
+<tr class="memdesc:a1caff83babf40e6c8af9642a7e78fd2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get normal from plane  <br /></td></tr>
+<tr class="separator:a1caff83babf40e6c8af9642a7e78fd2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2862d582e09eb788507417a6b3e5ef17" id="r_a2862d582e09eb788507417a6b3e5ef17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2862d582e09eb788507417a6b3e5ef17">set</a> (<a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="#a0c346ba7797060e8d9c35ffe4ca0fa91">a</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="#a6be6b09865740da1c4d8ea87b0778917">b</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="#a44f56b4cb932224c90fcb8f0faae184f">c</a>, <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> <a class="el" href="#a2a718115ddea08ef6788ebabc771d284">d</a>)</td></tr>
 <tr class="memdesc:a2862d582e09eb788507417a6b3e5ef17"><td class="mdescLeft">&#160;</td><td class="mdescRight">set content  <br /></td></tr>
 <tr class="separator:a2862d582e09eb788507417a6b3e5ef17"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,6 +284,48 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1caff83babf40e6c8af9642a7e78fd2b" name="a1caff83babf40e6c8af9642a7e78fd2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caff83babf40e6c8af9642a7e78fd2b">&#9670;&#160;</a></span>get_normal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vector.html">vector</a> Math::plane::get_normal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get normal from plane </p>
+
+</div>
+</div>
+<a id="ae07f6ecf3e400e4d2a7beff79c6aa667" name="ae07f6ecf3e400e4d2a7beff79c6aa667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae07f6ecf3e400e4d2a7beff79c6aa667">&#9670;&#160;</a></span>intersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline bool Math::plane::intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_math_1_1line.html">line</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outIntersectPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>check intersection against line </p>
+
+</div>
+</div>
 <a id="a2862d582e09eb788507417a6b3e5ef17" name="a2862d582e09eb788507417a6b3e5ef17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2862d582e09eb788507417a6b3e5ef17">&#9670;&#160;</a></span>set()</h2>
 
@@ -406,7 +454,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="struct_math_1_1plane.html">plane</a></li>
 				<li class="footer">
-					Generated on Thu Mar 14 2024 07:08:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Mar 14 2024 20:28:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
