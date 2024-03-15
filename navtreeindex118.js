@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"namespace_vulkan.html#af085bb964d6d4e9e378561f2fe614700":[8,0,83,188],
+"namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc":[8,0,83,213],
 "namespace_vulkan.html#af3197321a51b5de61edafd4e17abca06":[8,0,83,82],
 "namespace_vulkan.html#af3685bf29039523f94ba4f93b1906447":[8,0,83,86],
 "namespace_vulkan.html#af3a200cbaa8736229ea8b661ea6a4b76":[8,0,83,127],
@@ -41,8 +43,8 @@ var NAVTREEINDEX118 =
 "namespaceflatbuffers.html#accef1bf665ccacac674663bb15c7440d":[8,0,22,9],
 "namespaceflatbuffers.html#ad05f28ad9eb6f36cee0c59ab8b60a44f":[8,0,22,4],
 "namespaceflatbuffers.html#ae3f628bc77e7585d01be07a046b5a983":[8,0,22,3],
-"namespacemembers.html":[8,1,0],
 "namespacemembers.html":[8,1,0,0],
+"namespacemembers.html":[8,1,0],
 "namespacemembers_a.html":[8,1,0,1],
 "namespacemembers_b.html":[8,1,0,2],
 "namespacemembers_c.html":[8,1,0,3],
@@ -75,8 +77,8 @@ var NAVTREEINDEX118 =
 "namespacemembers_eval_w.html":[8,1,5,22],
 "namespacemembers_eval_x.html":[8,1,5,23],
 "namespacemembers_f.html":[8,1,0,6],
-"namespacemembers_func.html":[8,1,1,0],
 "namespacemembers_func.html":[8,1,1],
+"namespacemembers_func.html":[8,1,1,0],
 "namespacemembers_func_a.html":[8,1,1,1],
 "namespacemembers_func_b.html":[8,1,1,2],
 "namespacemembers_func_c.html":[8,1,1,3],
@@ -118,8 +120,8 @@ var NAVTREEINDEX118 =
 "namespacemembers_type.html":[8,1,3],
 "namespacemembers_u.html":[8,1,0,21],
 "namespacemembers_v.html":[8,1,0,22],
-"namespacemembers_vars.html":[8,1,2],
 "namespacemembers_vars.html":[8,1,2,0],
+"namespacemembers_vars.html":[8,1,2],
 "namespacemembers_vars_a.html":[8,1,2,1],
 "namespacemembers_vars_b.html":[8,1,2,2],
 "namespacemembers_vars_c.html":[8,1,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "nvx3streamreader_8cc.html#ae874c9a2d9d45594fdafd6f3af560e34":[10,0,0,6,5,47,0],
 "nvx3streamreader_8h.html":[10,0,0,6,5,48],
 "nvx3streamreader_8h_source.html":[10,0,0,6,5,48],
-"objectref_8cc.html":[10,0,0,3,18,14],
-"objectref_8cc.html#a1f422ebb704683ecac909e4402eacf43":[10,0,0,3,18,14,0],
-"objectref_8h.html":[10,0,0,3,18,15]
+"objectref_8cc.html":[10,0,0,3,18,14]
 };

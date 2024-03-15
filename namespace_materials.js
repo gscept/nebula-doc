@@ -40,7 +40,7 @@ var namespace_materials =
     [ "DestroyMaterialInstance", "namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a", null ],
     [ "LoadFloat", "namespace_materials.html#a5636bc79c691a61803c2246845b4a42a", null ],
     [ "LoadTexture", "namespace_materials.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
-    [ "LoadVec3", "namespace_materials.html#ae0fec4bfec0a8a5fa51d75218c442ab5", null ],
+    [ "LoadVec3", "namespace_materials.html#a5cb5def1927276ed42cd7d6306fefa9d", null ],
     [ "LoadVec4", "namespace_materials.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],
     [ "MaterialAddLODTexture", "namespace_materials.html#a761d385f6830fe925838499947374d73", null ],
     [ "MaterialApply", "namespace_materials.html#a167d28dfc2c66baa34f15ad32ddd18db", null ],

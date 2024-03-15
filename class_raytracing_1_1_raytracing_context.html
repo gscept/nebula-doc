@@ -131,9 +131,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3f84750154a7c8293a6311ee3103b5c" id="r_ac3f84750154a7c8293a6311ee3103b5c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3f84750154a7c8293a6311ee3103b5c">SetupModel</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="namespace_core_graphics.html#a6f663d98245e5d119e17eb0a133b658f">CoreGraphics::BlasInstanceFlags</a> flags, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> mask)</td></tr>
 <tr class="memdesc:ac3f84750154a7c8293a6311ee3103b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a model entity for ray tracing, assumes model context registration.  <br /></td></tr>
 <tr class="separator:ac3f84750154a7c8293a6311ee3103b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f4fb7413a60dd6b9e771aab34ce9d2d" id="r_a6f4fb7413a60dd6b9e771aab34ce9d2d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4fb7413a60dd6b9e771aab34ce9d2d">SetupTerrain</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">CoreGraphics::VertexComponent::Format</a> format, const <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a> indexType, const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;vertices, const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;indices, const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;patchPrimGroup, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> vertexOffsetStride, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt; transforms, MaterialInterface::TerrainMaterial material)</td></tr>
-<tr class="memdesc:a6f4fb7413a60dd6b9e771aab34ce9d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a terrain system for ray tracing.  <br /></td></tr>
-<tr class="separator:a6f4fb7413a60dd6b9e771aab34ce9d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947f64f242fbe29e3444ae36b855686b" id="r_a947f64f242fbe29e3444ae36b855686b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947f64f242fbe29e3444ae36b855686b">SetupMesh</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0">UpdateType</a> objectType, const <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">CoreGraphics::VertexComponent::Format</a> format, const <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a> indexType, const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;vertices, const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;indices, const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;patchPrimGroup, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> vertexOffsetStride, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> patchVertexStride, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt; transforms, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> materialTableOffset, const <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcb">Materials::MaterialProperties</a> shader, const <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791">CoreGraphics::VertexLayoutType</a> vertexLayout)</td></tr>
+<tr class="memdesc:a947f64f242fbe29e3444ae36b855686b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a terrain system for ray tracing.  <br /></td></tr>
+<tr class="separator:a947f64f242fbe29e3444ae36b855686b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14106743c6beb85a4dd80471e098f4ce" id="r_a14106743c6beb85a4dd80471e098f4ce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14106743c6beb85a4dd80471e098f4ce">InvalidateBLAS</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:a14106743c6beb85a4dd80471e098f4ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate a BLAS (for example, when the mesh has morphed) associated with a graphics entity.  <br /></td></tr>
+<tr class="separator:a14106743c6beb85a4dd80471e098f4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0982bd7f8ef2e029a7f562954308874" id="r_af0982bd7f8ef2e029a7f562954308874"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0982bd7f8ef2e029a7f562954308874">ReconstructTopLevelAcceleration</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:af0982bd7f8ef2e029a7f562954308874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build top level acceleration.  <br /></td></tr>
 <tr class="separator:af0982bd7f8ef2e029a7f562954308874"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,17 +155,14 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a9972d3841b2c34e501c8ad548cc86a0b" id="r_a9972d3841b2c34e501c8ad548cc86a0b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0b">ObjectType</a> { <a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0ba856bc628d2b722d96ff721ba09323868">Dynamic</a>
-, <a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0bad4c89ce923bf7cb4b4bb98936cac8f15">Static</a>
- }</td></tr>
-<tr class="separator:a9972d3841b2c34e501c8ad548cc86a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f22211b116afdc26f1667e39b09ef1a" id="r_a2f22211b116afdc26f1667e39b09ef1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2f22211b116afdc26f1667e39b09ef1aab98ba825a763c48ff8f5d70206709210">Raytracing_Allocation</a>
-, <a class="el" href="#a2f22211b116afdc26f1667e39b09ef1aa533c495379e8b7e6163d82503100ccac">Raytracing_ObjectType</a>
+, <a class="el" href="#a2f22211b116afdc26f1667e39b09ef1aa57d6e850e35a6540643c4eb761d153e2">Raytracing_UpdateType</a>
 , <a class="el" href="#a2f22211b116afdc26f1667e39b09ef1aaeeebd4f8d64c0aca1b9058dba5ea9791">Raytracing_NumStructures</a>
+, <a class="el" href="#a2f22211b116afdc26f1667e39b09ef1aa45cb262e7b98a55b6c7b9c6876ae9b28">Raytracing_Blases</a>
  }</td></tr>
 <tr class="separator:a2f22211b116afdc26f1667e39b09ef1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1125caf0c2f6e2f2fb512bbf072af83b" id="r_a1125caf0c2f6e2f2fb512bbf072af83b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0b">ObjectType</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1125caf0c2f6e2f2fb512bbf072af83b">RaytracingAllocator</a></td></tr>
-<tr class="separator:a1125caf0c2f6e2f2fb512bbf072af83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4315bc523a4faf7a9a1ff27a3d1ada5e" id="r_a4315bc523a4faf7a9a1ff27a3d1ada5e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0">Raytracing::UpdateType</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4315bc523a4faf7a9a1ff27a3d1ada5e">RaytracingAllocator</a></td></tr>
+<tr class="separator:a4315bc523a4faf7a9a1ff27a3d1ada5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -180,7 +180,7 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a6e694e1c5fa01383ffdf6effe1ad538f" id="r_a6e694e1c5fa01383ffdf6effe1ad538f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a1125caf0c2f6e2f2fb512bbf072af83b">RaytracingAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e694e1c5fa01383ffdf6effe1ad538f">raytracingContextAllocator</a></td></tr>
+<tr class="memitem:a6e694e1c5fa01383ffdf6effe1ad538f" id="r_a6e694e1c5fa01383ffdf6effe1ad538f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a4315bc523a4faf7a9a1ff27a3d1ada5e">RaytracingAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e694e1c5fa01383ffdf6effe1ad538f">raytracingContextAllocator</a></td></tr>
 <tr class="separator:a6e694e1c5fa01383ffdf6effe1ad538f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -195,8 +195,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a1125caf0c2f6e2f2fb512bbf072af83b" name="a1125caf0c2f6e2f2fb512bbf072af83b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1125caf0c2f6e2f2fb512bbf072af83b">&#9670;&#160;</a></span>RaytracingAllocator</h2>
+<a id="a4315bc523a4faf7a9a1ff27a3d1ada5e" name="a4315bc523a4faf7a9a1ff27a3d1ada5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4315bc523a4faf7a9a1ff27a3d1ada5e">&#9670;&#160;</a></span>RaytracingAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +205,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0b">ObjectType</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; <a class="el" href="#a1125caf0c2f6e2f2fb512bbf072af83b">Raytracing::RaytracingContext::RaytracingAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0">Raytracing::UpdateType</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_blas_id.html">CoreGraphics::BlasId</a>&gt; &gt; <a class="el" href="#a4315bc523a4faf7a9a1ff27a3d1ada5e">Raytracing::RaytracingContext::RaytracingAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -239,34 +239,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2f22211b116afdc26f1667e39b09ef1aab98ba825a763c48ff8f5d70206709210" name="a2f22211b116afdc26f1667e39b09ef1aab98ba825a763c48ff8f5d70206709210"></a>Raytracing_Allocation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2f22211b116afdc26f1667e39b09ef1aa533c495379e8b7e6163d82503100ccac" name="a2f22211b116afdc26f1667e39b09ef1aa533c495379e8b7e6163d82503100ccac"></a>Raytracing_ObjectType&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2f22211b116afdc26f1667e39b09ef1aa57d6e850e35a6540643c4eb761d153e2" name="a2f22211b116afdc26f1667e39b09ef1aa57d6e850e35a6540643c4eb761d153e2"></a>Raytracing_UpdateType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f22211b116afdc26f1667e39b09ef1aaeeebd4f8d64c0aca1b9058dba5ea9791" name="a2f22211b116afdc26f1667e39b09ef1aaeeebd4f8d64c0aca1b9058dba5ea9791"></a>Raytracing_NumStructures&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a9972d3841b2c34e501c8ad548cc86a0b" name="a9972d3841b2c34e501c8ad548cc86a0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9972d3841b2c34e501c8ad548cc86a0b">&#9670;&#160;</a></span>ObjectType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a9972d3841b2c34e501c8ad548cc86a0b">Raytracing::RaytracingContext::ObjectType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9972d3841b2c34e501c8ad548cc86a0ba856bc628d2b722d96ff721ba09323868" name="a9972d3841b2c34e501c8ad548cc86a0ba856bc628d2b722d96ff721ba09323868"></a>Dynamic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9972d3841b2c34e501c8ad548cc86a0bad4c89ce923bf7cb4b4bb98936cac8f15" name="a9972d3841b2c34e501c8ad548cc86a0bad4c89ce923bf7cb4b4bb98936cac8f15"></a>Static&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2f22211b116afdc26f1667e39b09ef1aa45cb262e7b98a55b6c7b9c6876ae9b28" name="a2f22211b116afdc26f1667e39b09ef1aa45cb262e7b98a55b6c7b9c6876ae9b28"></a>Raytracing_Blases&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -417,6 +392,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a14106743c6beb85a4dd80471e098f4ce" name="a14106743c6beb85a4dd80471e098f4ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14106743c6beb85a4dd80471e098f4ce">&#9670;&#160;</a></span>InvalidateBLAS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raytracing::RaytracingContext::InvalidateBLAS </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Invalidate a BLAS (for example, when the mesh has morphed) associated with a graphics entity. </p>
+
+</div>
+</div>
 <a id="a68fe8aae66090993bd2ab018ec0fec7f" name="a68fe8aae66090993bd2ab018ec0fec7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68fe8aae66090993bd2ab018ec0fec7f">&#9670;&#160;</a></span>OnRenderDebug()</h2>
 
@@ -471,6 +473,92 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a947f64f242fbe29e3444ae36b855686b" name="a947f64f242fbe29e3444ae36b855686b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a947f64f242fbe29e3444ae36b855686b">&#9670;&#160;</a></span>SetupMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raytracing::RaytracingContext::SetupMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0">UpdateType</a></td>          <td class="paramname"><span class="paramname"><em>objectType</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">CoreGraphics::VertexComponent::Format</a></td>          <td class="paramname"><span class="paramname"><em>format</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a></td>          <td class="paramname"><span class="paramname"><em>indexType</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>patchPrimGroup</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>vertexOffsetStride</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>patchVertexStride</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transforms</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>materialTableOffset</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_materials.html#af7b504f820c272f4c2243fffdf4a2dcb">Materials::MaterialProperties</a></td>          <td class="paramname"><span class="paramname"><em>shader</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791">CoreGraphics::VertexLayoutType</a></td>          <td class="paramname"><span class="paramname"><em>vertexLayout</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup a terrain system for ray tracing. </p>
+
+</div>
+</div>
 <a id="ac3f84750154a7c8293a6311ee3103b5c" name="ac3f84750154a7c8293a6311ee3103b5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3f84750154a7c8293a6311ee3103b5c">&#9670;&#160;</a></span>SetupModel()</h2>
 
@@ -504,72 +592,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Setup a model entity for ray tracing, assumes model context registration. </p>
-
-</div>
-</div>
-<a id="a6f4fb7413a60dd6b9e771aab34ce9d2d" name="a6f4fb7413a60dd6b9e771aab34ce9d2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4fb7413a60dd6b9e771aab34ce9d2d">&#9670;&#160;</a></span>SetupTerrain()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raytracing::RaytracingContext::SetupTerrain </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0">CoreGraphics::VertexComponent::Format</a></td>          <td class="paramname"><span class="paramname"><em>format</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_index_type.html#afb3e5ed2f6d4fc5e776edc0efcc0da51">CoreGraphics::IndexType::Code</a></td>          <td class="paramname"><span class="paramname"><em>indexType</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>patchPrimGroup</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>vertexOffsetStride</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transforms</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MaterialInterface::TerrainMaterial</td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Setup a terrain system for ray tracing. </p>
 
 </div>
 </div>
@@ -669,7 +691,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a1125caf0c2f6e2f2fb512bbf072af83b">RaytracingContext::RaytracingAllocator</a> Raytracing::RaytracingContext::raytracingContextAllocator</td>
+          <td class="memname"><a class="el" href="#a4315bc523a4faf7a9a1ff27a3d1ada5e">RaytracingContext::RaytracingAllocator</a> Raytracing::RaytracingContext::raytracingContextAllocator</td>
         </tr>
       </table>
   </td>
@@ -692,7 +714,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_raytracing.html">Raytracing</a></li><li class="navelem"><a class="el" href="class_raytracing_1_1_raytracing_context.html">RaytracingContext</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 14:10:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 15 2024 17:37:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

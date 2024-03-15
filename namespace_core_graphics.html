@@ -990,6 +990,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a6120468249fbfa447d822e7d9adec37e" id="r_a6120468249fbfa447d822e7d9adec37e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6120468249fbfa447d822e7d9adec37e">BlasInstanceUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;transform, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buf, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset)</td></tr>
 <tr class="memdesc:a6120468249fbfa447d822e7d9adec37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update blas instance and write to buffer.  <br /></td></tr>
 <tr class="separator:a6120468249fbfa447d822e7d9adec37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe97606eb5b1a6e3ecacd8318a6431db" id="r_afe97606eb5b1a6e3ecacd8318a6431db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe97606eb5b1a6e3ecacd8318a6431db">BlasInstanceUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a> id, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buf, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset)</td></tr>
+<tr class="memdesc:afe97606eb5b1a6e3ecacd8318a6431db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update blas instance and write to buffer.  <br /></td></tr>
+<tr class="separator:afe97606eb5b1a6e3ecacd8318a6431db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada4996b66a351eae07c066cd4665a6d0" id="r_ada4996b66a351eae07c066cd4665a6d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada4996b66a351eae07c066cd4665a6d0">BlasInstanceSetMask</a> (const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a> id, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask)</td></tr>
+<tr class="memdesc:ada4996b66a351eae07c066cd4665a6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set blas instance mask, setting it to 0x0 will disable it.  <br /></td></tr>
+<tr class="separator:ada4996b66a351eae07c066cd4665a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15810c71bf587d9022b51494d948bace" id="r_a15810c71bf587d9022b51494d948bace"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15810c71bf587d9022b51494d948bace">BlasInstanceGetSize</a> ()</td></tr>
 <tr class="memdesc:a15810c71bf587d9022b51494d948bace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instance size (platform dependent)  <br /></td></tr>
 <tr class="separator:a15810c71bf587d9022b51494d948bace"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4528,8 +4534,31 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ada4996b66a351eae07c066cd4665a6d0" name="ada4996b66a351eae07c066cd4665a6d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada4996b66a351eae07c066cd4665a6d0">&#9670;&#160;</a></span>BlasInstanceSetMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BlasInstanceSetMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set blas instance mask, setting it to 0x0 will disable it. </p>
+
+</div>
+</div>
 <a id="a6120468249fbfa447d822e7d9adec37e" name="a6120468249fbfa447d822e7d9adec37e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6120468249fbfa447d822e7d9adec37e">&#9670;&#160;</a></span>BlasInstanceUpdate()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6120468249fbfa447d822e7d9adec37e">&#9670;&#160;</a></span>BlasInstanceUpdate() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4543,6 +4572,34 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a></td>          <td class="paramname"><span class="paramname"><em>buf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update blas instance and write to buffer. </p>
+
+</div>
+</div>
+<a id="afe97606eb5b1a6e3ecacd8318a6431db" name="afe97606eb5b1a6e3ecacd8318a6431db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe97606eb5b1a6e3ecacd8318a6431db">&#9670;&#160;</a></span>BlasInstanceUpdate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BlasInstanceUpdate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -14679,7 +14736,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 14:10:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 15 2024 17:37:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

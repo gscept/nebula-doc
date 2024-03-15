@@ -11,7 +11,7 @@ var materialloader_8cc =
     [ "__ImplementClass", "materialloader_8cc.html#a1f98ed34bfde73baf9721c689c07ce5b", null ],
     [ "LoadFloat", "materialloader_8cc.html#a5636bc79c691a61803c2246845b4a42a", null ],
     [ "LoadTexture", "materialloader_8cc.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
-    [ "LoadVec3", "materialloader_8cc.html#ae0fec4bfec0a8a5fa51d75218c442ab5", null ],
+    [ "LoadVec3", "materialloader_8cc.html#a5cb5def1927276ed42cd7d6306fefa9d", null ],
     [ "LoadVec4", "materialloader_8cc.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],
     [ "bindings", "materialloader_8cc.html#a8e93897eca9dad723f5b98becb3fb32e", null ],
     [ "bits", "materialloader_8cc.html#a6d4f485fd3d958a93a3b0d3a5de574cd", null ],

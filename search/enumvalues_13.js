@@ -118,7 +118,7 @@ var searchData=
   ['startrotationmax_115',['StartRotationMax',['../class_particles_1_1_emitter_attrs.html#a391c5f114f86346f0684d1c13c5ae9eaadd54d3d82bf36e433ac1a52cc5aa0dde',1,'Particles::EmitterAttrs']]],
   ['startrotationmin_116',['StartRotationMin',['../class_particles_1_1_emitter_attrs.html#a391c5f114f86346f0684d1c13c5ae9eaa41b0d3ec90b89c8bf3441b66a2ae34bc',1,'Particles::EmitterAttrs']]],
   ['startvelocity_117',['StartVelocity',['../class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9ad893aa8adb45040e747cb3a01574f73f',1,'Particles::EmitterAttrs']]],
-  ['static_118',['Static',['../class_raytracing_1_1_raytracing_context.html#a9972d3841b2c34e501c8ad548cc86a0bad4c89ce923bf7cb4b4bb98936cac8f15',1,'Raytracing::RaytracingContext::Static'],['../namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0',1,'Physics::Static']]],
+  ['static_118',['Static',['../namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0',1,'Physics::Static'],['../namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0a091589e036efdecbd1502fb04075ecbf',1,'Raytracing::Static']]],
   ['statistics_119',['Statistics',['../namespace_core_graphics.html#adcfc40395ca45f001c9603fa5eb04f65ab9671fc573a8120cb83473b46b7841aa',1,'CoreGraphics']]],
   ['statisticsquerytype_120',['StatisticsQueryType',['../namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4fa9affd425bbfb6c10d34f1dec85ab172b',1,'CoreGraphics']]],
   ['stencilbits_121',['StencilBits',['../namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944aebea258540fdb69bb7e6234126938cbf',1,'CoreGraphics']]],

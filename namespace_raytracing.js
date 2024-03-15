@@ -8,6 +8,10 @@ var namespace_raytracing =
       [ "GLTFObject", "namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6", null ],
       [ "ParticleObject", "namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a426416b38395338878a4bd4546d6d6c8", null ]
     ] ],
+    [ "UpdateType", "namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0", [
+      [ "Dynamic", "namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0a742b9210b9e022d8c9bdc5841064955f", null ],
+      [ "Static", "namespace_raytracing.html#a64c39706498c8760a6a660dc3e2d88c0a091589e036efdecbd1502fb04075ecbf", null ]
+    ] ],
     [ "__ImplementContext", "namespace_raytracing.html#a072963959d2c634d15b1ddd1d0dcd4af", null ],
     [ "blases", "namespace_raytracing.html#abbf33657e903157b6b849482a771ab45", null ],
     [ "blasesToRebuild", "namespace_raytracing.html#a7742720b6f9bba92c678034b213885cd", null ],
@@ -37,7 +41,6 @@ var namespace_raytracing =
     [ "raytracingTestOutput", "namespace_raytracing.html#a026af1cb9f09a56a97eeb54a1d7be374", null ],
     [ "raytracingTestTables", "namespace_raytracing.html#a72503e334a1390e6d29e9d0716a5d194", null ],
     [ "state", "namespace_raytracing.html#a907b4e5ac65f643346c1d80ca2433284", null ],
-    [ "terrainBlases", "namespace_raytracing.html#a49e56ee4c5127109b41dcc7ce2b5eba6", null ],
     [ "toplevelAccelerationStructure", "namespace_raytracing.html#abae74f37b928cda0b6aa1f69626d34ea", null ],
     [ "topLevelNeedsBuild", "namespace_raytracing.html#a7ba2f5e4b8b174d27aaca486b6bc06b7", null ],
     [ "topLevelNeedsReconstruction", "namespace_raytracing.html#a9accab6d42a845d2ea69a3d9e3f6bbe9", null ],

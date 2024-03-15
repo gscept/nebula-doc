@@ -7,5 +7,9 @@ var raytracingcontext_8h =
       [ "BSDFObject", "raytracingcontext_8h.html#ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e", null ],
       [ "GLTFObject", "raytracingcontext_8h.html#ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6", null ],
       [ "ParticleObject", "raytracingcontext_8h.html#ae9ef996590909701eba502ae02607f53a426416b38395338878a4bd4546d6d6c8", null ]
+    ] ],
+    [ "UpdateType", "raytracingcontext_8h.html#a64c39706498c8760a6a660dc3e2d88c0", [
+      [ "Dynamic", "raytracingcontext_8h.html#a64c39706498c8760a6a660dc3e2d88c0a742b9210b9e022d8c9bdc5841064955f", null ],
+      [ "Static", "raytracingcontext_8h.html#a64c39706498c8760a6a660dc3e2d88c0a091589e036efdecbd1502fb04075ecbf", null ]
     ] ]
 ];
