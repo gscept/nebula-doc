@@ -184,6 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5030a9b1045eef41b9848f1c02a751c3" id="r_a5030a9b1045eef41b9848f1c02a751c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5030a9b1045eef41b9848f1c02a751c3">SetComponentValue</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *value, uint64_t size)</td></tr>
 <tr class="memdesc:a5030a9b1045eef41b9848f1c02a751c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of a component by providing a pointer and type size.  <br /></td></tr>
 <tr class="separator:a5030a9b1045eef41b9848f1c02a751c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b642b3e50a0f439789760cd63a32a6a" id="r_a5b642b3e50a0f439789760cd63a32a6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b642b3e50a0f439789760cd63a32a6a">ReinitializeComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *value, uint64_t size)</td></tr>
+<tr class="memdesc:a5b642b3e50a0f439789760cd63a32a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of a component by providing a pointer and type size, then reinitialize the component.  <br /></td></tr>
+<tr class="separator:a5b642b3e50a0f439789760cd63a32a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a064a5e864b6ab52cafa7670020a14f58" id="r_a064a5e864b6ab52cafa7670020a14f58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a064a5e864b6ab52cafa7670020a14f58">Query</a> (<a class="el" href="namespace_game.html#a1662e5ccb92417291ab5653883de7145">Filter</a> filter)</td></tr>
 <tr class="memdesc:a064a5e864b6ab52cafa7670020a14f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the entity database using specified filter set. This does NOT wait for resources to be available.  <br /></td></tr>
 <tr class="separator:a064a5e864b6ab52cafa7670020a14f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1727,6 +1730,39 @@ template&lt;typename COMPONENT_TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a5b642b3e50a0f439789760cd63a32a6a" name="a5b642b3e50a0f439789760cd63a32a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b642b3e50a0f439789760cd63a32a6a">&#9670;&#160;</a></span>ReinitializeComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::World::ReinitializeComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the value of a component by providing a pointer and type size, then reinitialize the component. </p>
+
+</div>
+</div>
 <a id="a766c557bdba5c652813bed5e47eae937" name="a766c557bdba5c652813bed5e47eae937"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a766c557bdba5c652813bed5e47eae937">&#9670;&#160;</a></span>RemoveComponent() <span class="overload">[1/2]</span></h2>
 
@@ -2486,7 +2522,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 17:37:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Mar 15 2024 19:28:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

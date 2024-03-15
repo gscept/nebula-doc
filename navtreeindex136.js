@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"struct_game_1_1_orientation.html#a336d6450ac0c8e0c1cfafa344d51f5ee":[9,0,23,24,1],
+"struct_game_1_1_orientation.html#a336d6450ac0c8e0c1cfafa344d51f5ee":[8,0,26,24,1],
 "struct_game_1_1_orientation_1_1_traits.html":[8,0,26,24,0],
 "struct_game_1_1_orientation_1_1_traits.html":[9,0,23,24,0],
 "struct_game_1_1_orientation_1_1_traits.html#a00ee0eef3fbcd6170393c352cd2509db":[8,0,26,24,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#afc98bc3ead9bd66298f8fbe555069dac":[8,0,31,0,0,1],
 "struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#afc98bc3ead9bd66298f8fbe555069dac":[9,0,28,0,0,1],
 "struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html":[9,0,28,1,0],
-"struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html":[8,0,31,1,0],
-"struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html#a0275168a729af3caaac86dbce7ef671c":[9,0,28,1,0,1],
-"struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html#a0275168a729af3caaac86dbce7ef671c":[8,0,31,1,0,1]
+"struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html":[8,0,31,1,0]
 };

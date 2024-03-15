@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"struct_vulkan_1_1_derivative_layout.html#ab7f381a5cc11f06ab95e0a1dc11a47f6":[8,0,83,4,6],
+"struct_vulkan_1_1_derivative_layout.html#acd37a533bfb8b1df4480b1611cdd2ffc":[9,0,72,4,4],
 "struct_vulkan_1_1_derivative_layout.html#acd37a533bfb8b1df4480b1611cdd2ffc":[8,0,83,4,4],
 "struct_vulkan_1_1_descriptor_set_binding.html":[8,0,83,5],
 "struct_vulkan_1_1_descriptor_set_binding.html":[9,0,72,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vulkan_1_1_scissor_bundle.html#a23d362e6d9381e8451ce46b2d694101a":[8,0,83,12,0],
 "struct_vulkan_1_1_scissor_bundle.html#a74f56d2f4173bcde601630130c2affd9":[9,0,72,12,1],
 "struct_vulkan_1_1_scissor_bundle.html#a74f56d2f4173bcde601630130c2affd9":[8,0,83,12,1],
-"struct_vulkan_1_1_texture_sparse_page_table.html":[9,0,72,13],
-"struct_vulkan_1_1_texture_sparse_page_table.html":[8,0,83,13],
-"struct_vulkan_1_1_texture_sparse_page_table.html#a11bba2d7a406e5f34df73ae1a998674d":[8,0,83,13,3]
+"struct_vulkan_1_1_texture_sparse_page_table.html":[9,0,72,13]
 };

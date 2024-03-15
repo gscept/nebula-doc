@@ -1,5 +1,7 @@
 var NAVTREEINDEX172 =
 {
+"win32minidump_8h_source.html":[10,0,0,3,2,0,1],
+"win32process_8cc.html":[10,0,0,3,17,4,5],
 "win32process_8h.html":[10,0,0,3,17,4,6],
 "win32process_8h_source.html":[10,0,0,3,17,4,6],
 "win32readwritelock_8cc.html":[10,0,0,3,18,6,5],

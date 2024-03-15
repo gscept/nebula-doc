@@ -61,6 +61,7 @@ var class_game_1_1_world =
     [ "Query", "class_game_1_1_world.html#a064a5e864b6ab52cafa7670020a14f58", null ],
     [ "Query", "class_game_1_1_world.html#a1a2e1ad709816d3d420166d49f3d5c55", null ],
     [ "RegisterType", "class_game_1_1_world.html#a240ae44bc956fecef3f410d68a77feaf", null ],
+    [ "ReinitializeComponent", "class_game_1_1_world.html#a5b642b3e50a0f439789760cd63a32a6a", null ],
     [ "RemoveComponent", "class_game_1_1_world.html#a766c557bdba5c652813bed5e47eae937", null ],
     [ "RemoveComponent", "class_game_1_1_world.html#aaae95a3b02231a8d1d492e31744a63f7", null ],
     [ "RemoveComponentsFromEntity", "class_game_1_1_world.html#a8759f206c3af05bf2fbd597338dcb18b", null ],

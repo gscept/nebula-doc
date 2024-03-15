@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a462c28dda3730102569c66889f058d0d":[8,0,14,3,0],
+"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[9,0,12,2,2],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[8,0,14,3,2],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#aadb669f5ebcceb0c6e986a7a222b5304":[9,0,12,2,3],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#aadb669f5ebcceb0c6e986a7a222b5304":[8,0,14,3,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a49e38705e25fa0fd5de505bd0e9a6359":[8,0,14,32,1],
 "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#aff6e150778c4c68758688a17e25c69d3":[9,0,12,31,2],
 "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#aff6e150778c4c68758688a17e25c69d3":[8,0,14,32,2],
-"struct_core_graphics_1_1_cmd_buffer_pool_id.html":[8,0,14,33],
-"struct_core_graphics_1_1_cmd_buffer_pool_id.html":[9,0,12,32],
-"struct_core_graphics_1_1_color_vertex.html":[8,0,14,34]
+"struct_core_graphics_1_1_cmd_buffer_pool_id.html":[8,0,14,33]
 };
