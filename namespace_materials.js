@@ -60,6 +60,7 @@ var namespace_materials =
     [ "computeDirty", "namespace_materials.html#a9a2fe8308c947c205a49248b501052a4", null ],
     [ "dirtySet", "namespace_materials.html#ab4f3e08ada3c65bd05350962ec4b094c", null ],
     [ "graphicsDirty", "namespace_materials.html#ac37785012da1cde7b693eb85392965ee", null ],
+    [ "material", "namespace_materials.html#aed8f2753977b2237906857e07d0594ee", null ],
     [ "materialAllocator", "namespace_materials.html#a941d0277ca29f53a5d76edc5375112a1", null ],
     [ "materialBindingBuffer", "namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c", null ],
     [ "materialInstanceAllocator", "namespace_materials.html#ab86483cfc9215ac57a30f8e352ff0a9c", null ],

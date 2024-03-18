@@ -1,13 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034":[8,0,83,224],
-"namespace_vulkan.html#aee64dd49808654799f8a0d43f1c55967":[8,0,83,78],
-"namespace_vulkan.html#af085bb964d6d4e9e378561f2fe614700":[8,0,83,188],
-"namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc":[8,0,83,213],
-"namespace_vulkan.html#af3197321a51b5de61edafd4e17abca06":[8,0,83,82],
-"namespace_vulkan.html#af3685bf29039523f94ba4f93b1906447":[8,0,83,86],
-"namespace_vulkan.html#af3a200cbaa8736229ea8b661ea6a4b76":[8,0,83,127],
-"namespace_vulkan.html#af6142b5081cb889cd464647d98675d6a":[8,0,83,165],
 "namespace_vulkan.html#af7f656ea311c15b8b8634cc6c38ebfa7":[8,0,83,158],
 "namespace_vulkan.html#af86184826a46e108c5bde1e012093fe4":[8,0,83,205],
 "namespace_vulkan.html#af88a6569d668598bd5bebe68807cdc3c":[8,0,83,223],
@@ -122,8 +114,8 @@ var NAVTREEINDEX118 =
 "namespacemembers_type.html":[8,1,3],
 "namespacemembers_u.html":[8,1,0,21],
 "namespacemembers_v.html":[8,1,0,22],
-"namespacemembers_vars.html":[8,1,2,0],
 "namespacemembers_vars.html":[8,1,2],
+"namespacemembers_vars.html":[8,1,2,0],
 "namespacemembers_vars_a.html":[8,1,2,1],
 "namespacemembers_vars_b.html":[8,1,2,2],
 "namespacemembers_vars_c.html":[8,1,2,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX118 =
 "nvx3fileformatstructs_8h_source.html":[10,0,0,6,5,46],
 "nvx3streamreader_8cc.html":[10,0,0,6,5,47],
 "nvx3streamreader_8cc.html#ae874c9a2d9d45594fdafd6f3af560e34":[10,0,0,6,5,47,0],
-"nvx3streamreader_8h.html":[10,0,0,6,5,48]
+"nvx3streamreader_8h.html":[10,0,0,6,5,48],
+"nvx3streamreader_8h_source.html":[10,0,0,6,5,48],
+"objectref_8cc.html":[10,0,0,3,18,14],
+"objectref_8cc.html#a1f422ebb704683ecac909e4402eacf43":[10,0,0,3,18,14,0],
+"objectref_8h.html":[10,0,0,3,18,15],
+"objectref_8h_source.html":[10,0,0,3,18,15],
+"occupancyquadtree_8h.html":[10,0,0,6,24,0],
+"occupancyquadtree_8h.html#a74e05869f8a2ec24722d924690e7cc43":[10,0,0,6,24,0,2],
+"occupancyquadtree_8h_source.html":[10,0,0,6,24,0]
 };

@@ -26,5 +26,6 @@ var material_8h =
     [ "MaterialSetBufferBinding", "material_8h.html#a96771b145c34f101920758f9f5b92d73", null ],
     [ "MaterialSetConstant", "material_8h.html#a5d1637eb257c3e32447425c4995756bc", null ],
     [ "MaterialSetLowestLod", "material_8h.html#ac344f360e8f721327341e9aae1dffd30", null ],
-    [ "MaterialSetTexture", "material_8h.html#a2947dc31523682700a6029086ba88da5", null ]
+    [ "MaterialSetTexture", "material_8h.html#a2947dc31523682700a6029086ba88da5", null ],
+    [ "material", "material_8h.html#aed8f2753977b2237906857e07d0594ee", null ]
 ];

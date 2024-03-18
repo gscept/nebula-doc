@@ -113,15 +113,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f549e614a1793520ec83a460e20fee6" id="r_a0f549e614a1793520ec83a460e20fee6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f549e614a1793520ec83a460e20fee6">IdAllocator</a> (uint32_t maxid=0xFFFFFFFF)</td></tr>
 <tr class="memdesc:a0f549e614a1793520ec83a460e20fee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="separator:a0f549e614a1793520ec83a460e20fee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8fa803e939fb90305f688edc84f67c" id="r_aec8fa803e939fb90305f688edc84f67c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8fa803e939fb90305f688edc84f67c">Alloc</a> ()</td></tr>
-<tr class="memdesc:aec8fa803e939fb90305f688edc84f67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an object.  <br /></td></tr>
-<tr class="separator:aec8fa803e939fb90305f688edc84f67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb4fe4f470883849427841b70f30faa4" id="r_afb4fe4f470883849427841b70f30faa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb4fe4f470883849427841b70f30faa4">Dealloc</a> (uint32_t index)</td></tr>
-<tr class="memdesc:afb4fe4f470883849427841b70f30faa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an object. Just places it in freeids array for recycling.  <br /></td></tr>
-<tr class="separator:afb4fe4f470883849427841b70f30faa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9769348b8b07fa68cf66d6a5400e5fa" id="r_ab9769348b8b07fa68cf66d6a5400e5fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9769348b8b07fa68cf66d6a5400e5fa">FreeIds</a> ()</td></tr>
-<tr class="memdesc:ab9769348b8b07fa68cf66d6a5400e5fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of free ids.  <br /></td></tr>
-<tr class="separator:ab9769348b8b07fa68cf66d6a5400e5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8574607ee4e1fa9e3a2399b36f44b1ae" id="r_a8574607ee4e1fa9e3a2399b36f44b1ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8574607ee4e1fa9e3a2399b36f44b1ae">Alloc</a> ()</td></tr>
+<tr class="memdesc:a8574607ee4e1fa9e3a2399b36f44b1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an object.  <br /></td></tr>
+<tr class="separator:a8574607ee4e1fa9e3a2399b36f44b1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976afda2c7a24110c122c5de28fad26b" id="r_a976afda2c7a24110c122c5de28fad26b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976afda2c7a24110c122c5de28fad26b">Dealloc</a> (<a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> id)</td></tr>
+<tr class="memdesc:a976afda2c7a24110c122c5de28fad26b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an object. Just places it in freeids array for recycling.  <br /></td></tr>
+<tr class="separator:a976afda2c7a24110c122c5de28fad26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83e38b200f27ecc3f9045d666d03a52" id="r_af83e38b200f27ecc3f9045d666d03a52"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
+<tr class="memitem:af83e38b200f27ecc3f9045d666d03a52"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af83e38b200f27ecc3f9045d666d03a52">Set</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> id, const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;type)</td></tr>
+<tr class="memdesc:af83e38b200f27ecc3f9045d666d03a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set element.  <br /></td></tr>
+<tr class="separator:af83e38b200f27ecc3f9045d666d03a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69449838eb465d64c9381c50031c5b57" id="r_a69449838eb465d64c9381c50031c5b57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69449838eb465d64c9381c50031c5b57">Set</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> id, TYPES... values)</td></tr>
+<tr class="memdesc:a69449838eb465d64c9381c50031c5b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set elements.  <br /></td></tr>
+<tr class="separator:a69449838eb465d64c9381c50031c5b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60382da46ef5db1623ebb73daeb1ec4" id="r_ab60382da46ef5db1623ebb73daeb1ec4"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
+<tr class="memitem:ab60382da46ef5db1623ebb73daeb1ec4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab60382da46ef5db1623ebb73daeb1ec4">Get</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> id)</td></tr>
+<tr class="memdesc:ab60382da46ef5db1623ebb73daeb1ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element.  <br /></td></tr>
+<tr class="separator:ab60382da46ef5db1623ebb73daeb1ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d84890ad4c83b619c5d57545f06ec1" id="r_a56d84890ad4c83b619c5d57545f06ec1"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
+<tr class="memitem:a56d84890ad4c83b619c5d57545f06ec1"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a56d84890ad4c83b619c5d57545f06ec1">ConstGet</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> id) const</td></tr>
+<tr class="memdesc:a56d84890ad4c83b619c5d57545f06ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const get element.  <br /></td></tr>
+<tr class="separator:a56d84890ad4c83b619c5d57545f06ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5890830b90aca227907d9fbecde5c2ab" id="r_a5890830b90aca227907d9fbecde5c2ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Id32</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5890830b90aca227907d9fbecde5c2ab">FreeIds</a> ()</td></tr>
+<tr class="memdesc:a5890830b90aca227907d9fbecde5c2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the free ids list from the pool.  <br /></td></tr>
+<tr class="separator:a5890830b90aca227907d9fbecde5c2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae52c92e148ac60ba245ca3c3a4c39b3d" id="r_ae52c92e148ac60ba245ca3c3a4c39b3d"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae52c92e148ac60ba245ca3c3a4c39b3d">Size</a> () const</td></tr>
 <tr class="memdesc:ae52c92e148ac60ba245ca3c3a4c39b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of allocated ids  <br /></td></tr>
 <tr class="separator:ae52c92e148ac60ba245ca3c3a4c39b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a793650e9674fc319c3b9dc7cf9282d14 inherit pub_methods_class_util_1_1_array_allocator" id="r_a793650e9674fc319c3b9dc7cf9282d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator.html#a793650e9674fc319c3b9dc7cf9282d14">Get</a> (const uint32_t index)</td></tr>
 <tr class="memdesc:a793650e9674fc319c3b9dc7cf9282d14 inherit pub_methods_class_util_1_1_array_allocator"><td class="mdescLeft">&#160;</td><td class="mdescRight">get single item from resource  <br /></td></tr>
 <tr class="separator:a793650e9674fc319c3b9dc7cf9282d14 inherit pub_methods_class_util_1_1_array_allocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4f588fa133a01efb2990b6af3076e3 inherit pub_methods_class_util_1_1_array_allocator" id="r_a7c4f588fa133a01efb2990b6af3076e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator.html#a7c4f588fa133a01efb2990b6af3076e3">Get</a> (const uint32_t index) const</td></tr>
-<tr class="memdesc:a7c4f588fa133a01efb2990b6af3076e3 inherit pub_methods_class_util_1_1_array_allocator"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as 32 bit get, but const  <br /></td></tr>
-<tr class="separator:a7c4f588fa133a01efb2990b6af3076e3 inherit pub_methods_class_util_1_1_array_allocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a42d59916e2027ed18e964e8156572 inherit pub_methods_class_util_1_1_array_allocator" id="r_a75a42d59916e2027ed18e964e8156572"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator.html#a75a42d59916e2027ed18e964e8156572">ConstGet</a> (const uint32_t index) const</td></tr>
+<tr class="memdesc:a75a42d59916e2027ed18e964e8156572 inherit pub_methods_class_util_1_1_array_allocator"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as 32 bit get, but const  <br /></td></tr>
+<tr class="separator:a75a42d59916e2027ed18e964e8156572 inherit pub_methods_class_util_1_1_array_allocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1542156e0a5996c0c9cc8c3f32a734 inherit pub_methods_class_util_1_1_array_allocator" id="r_a9f1542156e0a5996c0c9cc8c3f32a734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util_1_1_array_allocator.html#a9f1542156e0a5996c0c9cc8c3f32a734">Set</a> (const uint32_t index, const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;type)</td></tr>
 <tr class="memdesc:a9f1542156e0a5996c0c9cc8c3f32a734 inherit pub_methods_class_util_1_1_array_allocator"><td class="mdescLeft">&#160;</td><td class="mdescRight">set single item  <br /></td></tr>
 <tr class="separator:a9f1542156e0a5996c0c9cc8c3f32a734 inherit pub_methods_class_util_1_1_array_allocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,8 +209,8 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a8bae02e4fc2995ef148e798e9cce563d" id="r_a8bae02e4fc2995ef148e798e9cce563d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bae02e4fc2995ef148e798e9cce563d">maxId</a> = 0xFFFFFFFF</td></tr>
 <tr class="separator:a8bae02e4fc2995ef148e798e9cce563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4ef75087f1801d885224dd9d17fd2ce" id="r_af4ef75087f1801d885224dd9d17fd2ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ef75087f1801d885224dd9d17fd2ce">freeIds</a></td></tr>
-<tr class="separator:af4ef75087f1801d885224dd9d17fd2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2114f40d41edb2e3f430444aa29fb577" id="r_a2114f40d41edb2e3f430444aa29fb577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2114f40d41edb2e3f430444aa29fb577">pool</a></td></tr>
+<tr class="separator:a2114f40d41edb2e3f430444aa29fb577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -236,8 +251,8 @@ template&lt;class ... TYPES&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aec8fa803e939fb90305f688edc84f67c" name="aec8fa803e939fb90305f688edc84f67c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec8fa803e939fb90305f688edc84f67c">&#9670;&#160;</a></span>Alloc()</h2>
+<a id="a8574607ee4e1fa9e3a2399b36f44b1ae" name="a8574607ee4e1fa9e3a2399b36f44b1ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8574607ee4e1fa9e3a2399b36f44b1ae">&#9670;&#160;</a></span>Alloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +263,7 @@ template&lt;class ... TYPES&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Alloc </td>
+          <td class="memname"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Alloc </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -266,8 +281,39 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
-<a id="afb4fe4f470883849427841b70f30faa4" name="afb4fe4f470883849427841b70f30faa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb4fe4f470883849427841b70f30faa4">&#9670;&#160;</a></span>Dealloc()</h2>
+<a id="a56d84890ad4c83b619c5d57545f06ec1" name="a56d84890ad4c83b619c5d57545f06ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d84890ad4c83b619c5d57545f06ec1">&#9670;&#160;</a></span>ConstGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<div class="memtemplate">
+template&lt;int MEMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::ConstGet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const get element. </p>
+
+</div>
+</div>
+<a id="a976afda2c7a24110c122c5de28fad26b" name="a976afda2c7a24110c122c5de28fad26b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976afda2c7a24110c122c5de28fad26b">&#9670;&#160;</a></span>Dealloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +326,7 @@ template&lt;class ... TYPES&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Dealloc </td>
           <td>(</td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -295,8 +341,8 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
-<a id="ab9769348b8b07fa68cf66d6a5400e5fa" name="ab9769348b8b07fa68cf66d6a5400e5fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9769348b8b07fa68cf66d6a5400e5fa">&#9670;&#160;</a></span>FreeIds()</h2>
+<a id="a5890830b90aca227907d9fbecde5c2ab" name="a5890830b90aca227907d9fbecde5c2ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5890830b90aca227907d9fbecde5c2ab">&#9670;&#160;</a></span>FreeIds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +353,7 @@ template&lt;class ... TYPES&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &amp; <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::FreeIds </td>
+          <td class="memname"><a class="el" href="class_util_1_1_queue.html">Util::Queue</a>&lt; <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Id32</a> &gt; &amp; <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::FreeIds </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -320,7 +366,106 @@ template&lt;class ... TYPES&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the list of free ids. </p>
+<p>Get the free ids list from the pool. </p>
+
+</div>
+</div>
+<a id="ab60382da46ef5db1623ebb73daeb1ec4" name="ab60382da46ef5db1623ebb73daeb1ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60382da46ef5db1623ebb73daeb1ec4">&#9670;&#160;</a></span>Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<div class="memtemplate">
+template&lt;int MEMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Get </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get element. </p>
+
+</div>
+</div>
+<a id="af83e38b200f27ecc3f9045d666d03a52" name="af83e38b200f27ecc3f9045d666d03a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83e38b200f27ecc3f9045d666d03a52">&#9670;&#160;</a></span>Set() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<div class="memtemplate">
+template&lt;int MEMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Set </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">Util::tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set element. </p>
+
+</div>
+</div>
+<a id="a69449838eb465d64c9381c50031c5b57" name="a69449838eb465d64c9381c50031c5b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69449838eb465d64c9381c50031c5b57">&#9670;&#160;</a></span>Set() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::Set </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TYPES...</td>          <td class="paramname"><span class="paramname"><em>values</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set elements. </p>
 
 </div>
 </div>
@@ -354,30 +499,6 @@ template&lt;class ... TYPES&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af4ef75087f1801d885224dd9d17fd2ce" name="af4ef75087f1801d885224dd9d17fd2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4ef75087f1801d885224dd9d17fd2ce">&#9670;&#160;</a></span>freeIds</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ... TYPES&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;uint32_t&gt; <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::freeIds</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8bae02e4fc2995ef148e798e9cce563d" name="a8bae02e4fc2995ef148e798e9cce563d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bae02e4fc2995ef148e798e9cce563d">&#9670;&#160;</a></span>maxId</h2>
 
@@ -402,6 +523,30 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
+<a id="a2114f40d41edb2e3f430444aa29fb577" name="a2114f40d41edb2e3f430444aa29fb577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2114f40d41edb2e3f430444aa29fb577">&#9670;&#160;</a></span>pool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a> <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; TYPES &gt;::pool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/code/foundation/ids/<a class="el" href="idallocator_8h_source.html">idallocator.h</a></li>
 </ul>
@@ -412,7 +557,7 @@ template&lt;class ... TYPES&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_ids.html">Ids</a></li><li class="navelem"><a class="el" href="class_ids_1_1_id_allocator.html">IdAllocator</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 19:28:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 18 2024 16:36:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

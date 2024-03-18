@@ -1,6 +1,6 @@
 var vktexture_8cc =
 [
-    [ "_IMPL_ACQUIRE_RELEASE_RESOURCE", "vktexture_8cc.html#ab698b8f5b61af31ac31e3c181b9b7be9", null ],
+    [ "_IMPL_ACQUIRE_RELEASE", "vktexture_8cc.html#a6dd00d464c5e422fa60cbcbd43fe196d", null ],
     [ "CreateTexture", "vktexture_8cc.html#afd701776510676d10ed7784f494fdc98", null ],
     [ "DeleteTexture", "vktexture_8cc.html#a27c5668c8f2f7619b99dec24a36d3fe6", null ],
     [ "DestroyTexture", "vktexture_8cc.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],

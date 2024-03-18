@@ -105,34 +105,37 @@ $(function(){initNavTree('resourceid_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="stringatom_8h.html">util/stringatom.h</a>&quot;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="ids_2id_8h.html">ids/id.h</a>&quot;</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="debug_8h.html">core/debug.h</a>&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_resources.html">Resources</a></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">   32</a></span><span class="keyword">typedef</span> <a class="code hl_class" href="class_util_1_1_string_atom.html">Util::StringAtom</a> <a class="code hl_typedef" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespace_resources.html#adf20796a2e0ef65b6cfe3273afc12808">   33</a></span><a class="code hl_define" href="ids_2id_8h.html#aea9bdc82bec7648d12886e39c3ca1fd8">ID_24_8_24_8_NAMED_TYPE</a>(ResourceId, loaderInstanceId, loaderIndex, resourceId, resourceType);               <span class="comment">// 24 bits: loader resource id, 8 bits: loader index, 24 bits: unique resource id, 8 bits: resource type</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// define a generic typed ResourceId, this is so we can have specialized allocators, but have a common pool implementation...</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="struct_resources_1_1_resource_unknown_id.html">   36</a></span><a class="code hl_define" href="ids_2id_8h.html#a7c1cd4c3a4c37efb4f5c886a0c03a718">ID_24_8_NAMED_TYPE</a>(<a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a>, resourceId, resourceType);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace Resource</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="foldopen" id="foldopen00040" data-start="" data-end="">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="resourceid_8h.html#ac10163bde441bef269d83cda54767506">   40</a></span><span class="preprocessor">#define RESOURCE_ID_TYPE(type) struct type : public Resources::ResourceUnknownId { \</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">        constexpr type() {};\</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">        constexpr type(const Resources::ResourceUnknownId&amp; res) : Resources::ResourceUnknownId(res) {};\</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">        constexpr type(const Resources::ResourceId&amp; res) : Resources::ResourceUnknownId(res.resourceId, res.resourceType) {};\</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">        constexpr type(const Ids::Id24 id, const Ids::Id8 type) : Resources::ResourceUnknownId(id, type) {};\</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">    }; \</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">    static constexpr type Invalid##type = Resources::InvalidResourceUnknownId;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="idgenerationpool_8h.html">ids/idgenerationpool.h</a>&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_resources.html">Resources</a></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">   33</a></span><span class="keyword">typedef</span> <a class="code hl_class" href="class_util_1_1_string_atom.html">Util::StringAtom</a> <a class="code hl_typedef" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespace_resources.html#a0f620f0504bb8ee43e707f788746c789">   34</a></span><a class="code hl_define" href="ids_2id_8h.html#a79c2265d64e8f3c89c0810129b906ac4">ID_24_8_24_8_NAMED_TYPE</a>(ResourceId, loaderInstanceId, loaderIndex, resourceId, generation, loader, resource);               <span class="comment">// 24 bits: loader resource id, 8 bits: loader index, 24 bits: unique resource id, 8 bits: generation</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// define a generic typed ResourceId, this is so we can have specialized allocators, but have a common pool implementation...</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">   37</a></span><a class="code hl_define" href="ids_2id_8h.html#a4eb9e65a7426e96ece4cc85034269d37">ID_24_8_NAMED_TYPE</a>(<a class="code hl_struct" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a>, resourceId, generation, <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">// namespace Resource</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00041" data-start="" data-end="">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="resourceid_8h.html#ac10163bde441bef269d83cda54767506">   41</a></span><span class="preprocessor">#define RESOURCE_ID_TYPE(type) struct type : public Resources::ResourceUnknownId { \</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">        constexpr type() {};\</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">        constexpr type(const Resources::ResourceUnknownId&amp; res) : Resources::ResourceUnknownId(res) {};\</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">        constexpr type(const Resources::ResourceId&amp; res) : Resources::ResourceUnknownId(res.resourceId, res.generation) {};\</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">        constexpr type(const Ids::Id24 id, const Ids::Id8 generation) : Resources::ResourceUnknownId(id, generation) {};\</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">        constexpr type(const Ids::Id32 id) : Resources::ResourceUnknownId(Ids::Index(id), Ids::Generation(id)) {};\</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">    }; \</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">    static constexpr type Invalid##type = Resources::InvalidResourceUnknownId;</span></div>
 </div>
 <div class="ttc" id="aclass_util_1_1_string_atom_html"><div class="ttname"><a href="class_util_1_1_string_atom.html">Util::StringAtom</a></div><div class="ttdoc">A StringAtom.</div><div class="ttdef"><b>Definition</b> stringatom.h:22</div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="debug_8h.html">debug.h</a></div><div class="ttdoc">Nebula debug macros.</div></div>
+<div class="ttc" id="aidgenerationpool_8h_html"><div class="ttname"><a href="idgenerationpool_8h.html">idgenerationpool.h</a></div></div>
 <div class="ttc" id="aids_2id_8h_html"><div class="ttname"><a href="ids_2id_8h.html">id.h</a></div></div>
-<div class="ttc" id="aids_2id_8h_html_a7c1cd4c3a4c37efb4f5c886a0c03a718"><div class="ttname"><a href="ids_2id_8h.html#a7c1cd4c3a4c37efb4f5c886a0c03a718">ID_24_8_NAMED_TYPE</a></div><div class="ttdeci">#define ID_24_8_NAMED_TYPE(x, id24_name, id8_name)</div><div class="ttdef"><b>Definition</b> id.h:88</div></div>
-<div class="ttc" id="aids_2id_8h_html_aea9bdc82bec7648d12886e39c3ca1fd8"><div class="ttname"><a href="ids_2id_8h.html#aea9bdc82bec7648d12886e39c3ca1fd8">ID_24_8_24_8_NAMED_TYPE</a></div><div class="ttdeci">#define ID_24_8_24_8_NAMED_TYPE(x, id24_0_name, id8_0_name, id24_1_name, id8_1_name)</div><div class="ttdef"><b>Definition</b> id.h:66</div></div>
+<div class="ttc" id="aids_2id_8h_html_a4eb9e65a7426e96ece4cc85034269d37"><div class="ttname"><a href="ids_2id_8h.html#a4eb9e65a7426e96ece4cc85034269d37">ID_24_8_NAMED_TYPE</a></div><div class="ttdeci">#define ID_24_8_NAMED_TYPE(x, id24_name, id8_name, combined_name)</div><div class="ttdef"><b>Definition</b> id.h:109</div></div>
+<div class="ttc" id="aids_2id_8h_html_a79c2265d64e8f3c89c0810129b906ac4"><div class="ttname"><a href="ids_2id_8h.html#a79c2265d64e8f3c89c0810129b906ac4">ID_24_8_24_8_NAMED_TYPE</a></div><div class="ttdeci">#define ID_24_8_24_8_NAMED_TYPE(x, id24_0_name, id8_0_name, id24_1_name, id8_1_name, combined0_name, combined1_name)</div><div class="ttdef"><b>Definition</b> id.h:73</div></div>
 <div class="ttc" id="anamespace_resources_html"><div class="ttname"><a href="namespace_resources.html">Resources</a></div><div class="ttdoc">A resource is a container for some type of file which is loaded.</div><div class="ttdef"><b>Definition</b> resource.cc:9</div></div>
-<div class="ttc" id="anamespace_resources_html_a913868da5a35b82db9988805bd5bcaf0"><div class="ttname"><a href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a></div><div class="ttdeci">Util::StringAtom ResourceName</div><div class="ttdef"><b>Definition</b> resourceid.h:32</div></div>
+<div class="ttc" id="anamespace_resources_html_a913868da5a35b82db9988805bd5bcaf0"><div class="ttname"><a href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a></div><div class="ttdeci">Util::StringAtom ResourceName</div><div class="ttdef"><b>Definition</b> resourceid.h:33</div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
-<div class="ttc" id="astruct_resources_1_1_resource_unknown_id_html"><div class="ttname"><a href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a></div><div class="ttdef"><b>Definition</b> resourceid.h:36</div></div>
+<div class="ttc" id="astruct_resources_1_1_resource_unknown_id_html"><div class="ttname"><a href="struct_resources_1_1_resource_unknown_id.html">Resources::ResourceUnknownId</a></div><div class="ttdef"><b>Definition</b> resourceid.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -140,7 +143,7 @@ $(function(){initNavTree('resourceid_8h_source.html',''); initResizable(); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourceid_8h.html">resourceid.h</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 19:28:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 18 2024 16:36:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

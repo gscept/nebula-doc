@@ -145,10 +145,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a793650e9674fc319c3b9dc7cf9282d14"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a793650e9674fc319c3b9dc7cf9282d14">Get</a> (const uint32_t index)</td></tr>
 <tr class="memdesc:a793650e9674fc319c3b9dc7cf9282d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">get single item from resource  <br /></td></tr>
 <tr class="separator:a793650e9674fc319c3b9dc7cf9282d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4f588fa133a01efb2990b6af3076e3" id="r_a7c4f588fa133a01efb2990b6af3076e3"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:a7c4f588fa133a01efb2990b6af3076e3"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7c4f588fa133a01efb2990b6af3076e3">Get</a> (const uint32_t index) const</td></tr>
-<tr class="memdesc:a7c4f588fa133a01efb2990b6af3076e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as 32 bit get, but const  <br /></td></tr>
-<tr class="separator:a7c4f588fa133a01efb2990b6af3076e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a42d59916e2027ed18e964e8156572" id="r_a75a42d59916e2027ed18e964e8156572"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
+<tr class="memitem:a75a42d59916e2027ed18e964e8156572"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a75a42d59916e2027ed18e964e8156572">ConstGet</a> (const uint32_t index) const</td></tr>
+<tr class="memdesc:a75a42d59916e2027ed18e964e8156572"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as 32 bit get, but const  <br /></td></tr>
+<tr class="separator:a75a42d59916e2027ed18e964e8156572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1542156e0a5996c0c9cc8c3f32a734" id="r_a9f1542156e0a5996c0c9cc8c3f32a734"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
 <tr class="memitem:a9f1542156e0a5996c0c9cc8c3f32a734"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9f1542156e0a5996c0c9cc8c3f32a734">Set</a> (const uint32_t index, const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;type)</td></tr>
 <tr class="memdesc:a9f1542156e0a5996c0c9cc8c3f32a734"><td class="mdescLeft">&#160;</td><td class="mdescRight">set single item  <br /></td></tr>
@@ -363,6 +363,37 @@ template&lt;class ... TYPES&gt; </div>
 
 </div>
 </div>
+<a id="a75a42d59916e2027ed18e964e8156572" name="a75a42d59916e2027ed18e964e8156572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a42d59916e2027ed18e964e8156572">&#9670;&#160;</a></span>ConstGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... TYPES&gt; </div>
+<div class="memtemplate">
+template&lt;int MEMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; TYPES &gt;::ConstGet </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>same as 32 bit get, but const </p>
+
+</div>
+</div>
 <a id="a0ed5c7baeba7f797e8b2200235e8c31f" name="a0ed5c7baeba7f797e8b2200235e8c31f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ed5c7baeba7f797e8b2200235e8c31f">&#9670;&#160;</a></span>EraseIndex()</h2>
 
@@ -455,7 +486,7 @@ template&lt;class ... TYPES&gt; </div>
 </div>
 </div>
 <a id="a793650e9674fc319c3b9dc7cf9282d14" name="a793650e9674fc319c3b9dc7cf9282d14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793650e9674fc319c3b9dc7cf9282d14">&#9670;&#160;</a></span>Get() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a793650e9674fc319c3b9dc7cf9282d14">&#9670;&#160;</a></span>Get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,37 +513,6 @@ template&lt;int MEMBER&gt; </div>
 </div><div class="memdoc">
 
 <p>get single item from resource </p>
-
-</div>
-</div>
-<a id="a7c4f588fa133a01efb2990b6af3076e3" name="a7c4f588fa133a01efb2990b6af3076e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c4f588fa133a01efb2990b6af3076e3">&#9670;&#160;</a></span>Get() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ... TYPES&gt; </div>
-<div class="memtemplate">
-template&lt;int MEMBER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; TYPES &gt;::Get </td>
-          <td>(</td>
-          <td class="paramtype">const uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>same as 32 bit get, but const </p>
 
 </div>
 </div>
@@ -864,7 +864,7 @@ template&lt;class ... TYPES&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_array_allocator.html">ArrayAllocator</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 19:28:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 18 2024 16:36:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

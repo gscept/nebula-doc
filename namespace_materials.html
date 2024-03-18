@@ -221,7 +221,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a167d28dfc2c66baa34f15ad32ddd18db" id="r_a167d28dfc2c66baa34f15ad32ddd18db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a167d28dfc2c66baa34f15ad32ddd18db">MaterialApply</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
 <tr class="memdesc:a167d28dfc2c66baa34f15ad32ddd18db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply material.  <br /></td></tr>
 <tr class="separator:a167d28dfc2c66baa34f15ad32ddd18db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb2567a55de957f33eb6eb753f1dd41" id="r_aefb2567a55de957f33eb6eb753f1dd41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb2567a55de957f33eb6eb753f1dd41">CreateMaterialInstance</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> material)</td></tr>
+<tr class="memitem:aefb2567a55de957f33eb6eb753f1dd41" id="r_aefb2567a55de957f33eb6eb753f1dd41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb2567a55de957f33eb6eb753f1dd41">CreateMaterialInstance</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> <a class="el" href="#aed8f2753977b2237906857e07d0594ee">material</a>)</td></tr>
 <tr class="memdesc:aefb2567a55de957f33eb6eb753f1dd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create material instance.  <br /></td></tr>
 <tr class="separator:aefb2567a55de957f33eb6eb753f1dd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c2a832b23ecdb65bf032f2b5659c57a" id="r_a0c2a832b23ecdb65bf032f2b5659c57a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2a832b23ecdb65bf032f2b5659c57a">DestroyMaterialInstance</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> materialInstance)</td></tr>
@@ -257,6 +257,8 @@ Variables</h2></td></tr>
 <tr class="separator:ab86483cfc9215ac57a30f8e352ff0a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b0fbbbe44634e36f8d3da6a2f12f7ac" id="r_a5b0fbbbe44634e36f8d3da6a2f12f7ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b0fbbbe44634e36f8d3da6a2f12f7ac">materialTextureLoadSection</a></td></tr>
 <tr class="separator:a5b0fbbbe44634e36f8d3da6a2f12f7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed8f2753977b2237906857e07d0594ee" id="r_aed8f2753977b2237906857e07d0594ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed8f2753977b2237906857e07d0594ee">material</a></td></tr>
+<tr class="separator:aed8f2753977b2237906857e07d0594ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cc0891c40220ceb8778ab00d1004eaa" id="r_a8cc0891c40220ceb8778ab00d1004eaa"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d9063f2dfcd4bccb51dd38d27af0909" id="r_a4d9063f2dfcd4bccb51dd38d27af0909"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="materialloader_8cc.html#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a> MaterialInterface::MaterialBindings&#160;&#160;&#160;<a class="el" href="#a8e93897eca9dad723f5b98becb3fb32e">Materials::bindings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -1044,6 +1046,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aed8f2753977b2237906857e07d0594ee" name="aed8f2753977b2237906857e07d0594ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed8f2753977b2237906857e07d0594ee">&#9670;&#160;</a></span>material</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Materials::material</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a941d0277ca29f53a5d76edc5375112a1" name="a941d0277ca29f53a5d76edc5375112a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a941d0277ca29f53a5d76edc5375112a1">&#9670;&#160;</a></span>materialAllocator</h2>
 
@@ -1149,7 +1165,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 19:28:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 18 2024 16:36:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -107,6 +107,7 @@ $(function(){initNavTree('idallocator_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="tupleutility_8h_source.html">util/tupleutility.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="arrayallocator_8h_source.html">util/arrayallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="arrayallocatorsafe_8h_source.html">util/arrayallocatorsafe.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idgenerationpool_8h_source.html">idgenerationpool.h</a>&quot;</code><br />
 </div>
 <p><a href="idallocator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,8 +131,6 @@ Macros</h2></td></tr>
 <tr class="separator:a3eede833d4c3ddeb47fdb5241b108730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b973d32f4fb50a7f7e0a637aad89033" id="r_a4b973d32f4fb50a7f7e0a637aad89033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b973d32f4fb50a7f7e0a637aad89033">_IMPL_ACQUIRE_RELEASE</a>(ty,  allocator)</td></tr>
 <tr class="separator:a4b973d32f4fb50a7f7e0a637aad89033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26058c531ff96f02177a7172ef3680a3" id="r_a26058c531ff96f02177a7172ef3680a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26058c531ff96f02177a7172ef3680a3">_IMPL_ACQUIRE_RELEASE_RESOURCE</a>(ty,  allocator)</td></tr>
-<tr class="separator:a26058c531ff96f02177a7172ef3680a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3eede833d4c3ddeb47fdb5241b108730" name="a3eede833d4c3ddeb47fdb5241b108730"></a>
@@ -179,31 +178,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> allocator.Acquire(<span class="keywordtype">id</span>.id24); } \</div>
-<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.id24); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a26058c531ff96f02177a7172ef3680a3" name="a26058c531ff96f02177a7172ef3680a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26058c531ff96f02177a7172ef3680a3">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE_RESOURCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _IMPL_ACQUIRE_RELEASE_RESOURCE</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">ty, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">allocator</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> allocator.Acquire(<span class="keywordtype">id</span>.resourceId); } \</div>
-<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.resourceId); }</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> ty##Acquire(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { <span class="keywordflow">return</span> allocator.Acquire(<span class="keywordtype">id</span>.<span class="keywordtype">id</span>); } \</div>
+<div class="line">    <span class="keywordtype">void</span> ty##Release(<span class="keyword">const</span> ty <span class="keywordtype">id</span>) { allocator.Release(<span class="keywordtype">id</span>.<span class="keywordtype">id</span>); }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -214,7 +190,7 @@ Macros</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_52640e203a39fe34f872c68b940b4d11.html">ids</a></li><li class="navelem"><a class="el" href="idallocator_8h.html">idallocator.h</a></li>
 				<li class="footer">
-					Generated on Fri Mar 15 2024 19:28:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 18 2024 16:36:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
