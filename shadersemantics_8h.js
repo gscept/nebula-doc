@@ -46,7 +46,6 @@ var shadersemantics_8h =
     [ "NEBULA_SEMANTIC_GLOBALBACKLIGHTCOLOR", "shadersemantics_8h.html#aa9a0bc67c00a53fb00e7e4c3b563454d", null ],
     [ "NEBULA_SEMANTIC_GLOBALBACKLIGHTOFFSET", "shadersemantics_8h.html#a3409bbbbdf3bdf7241d42d0ede970222", null ],
     [ "NEBULA_SEMANTIC_GLOBALLIGHTCOLOR", "shadersemantics_8h.html#a0888411c18264a25444e815d68ddc8b7", null ],
-    [ "NEBULA_SEMANTIC_GLOBALLIGHTDIR", "shadersemantics_8h.html#ad77913cf6f571d96e41ae5c443cf8019", null ],
     [ "NEBULA_SEMANTIC_GLOBALLIGHTDIRWORLDSPACE", "shadersemantics_8h.html#af847d23f01e36ffe257ef933931963d9", null ],
     [ "NEBULA_SEMANTIC_GLOBALLIGHTSHADOWBIAS", "shadersemantics_8h.html#a10c70bdf023bf0eb374016eb1504bea3", null ],
     [ "NEBULA_SEMANTIC_HALFPIXELSIZE", "shadersemantics_8h.html#a83cd8fcdd9d9d55840d34ad345c53a1d", null ],

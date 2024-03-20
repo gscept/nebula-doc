@@ -1,15 +1,14 @@
 var NAVTREEINDEX125 =
 {
-"shadersemantics_8h.html#af16efca9944c815d0519a1fa0a7d730c":[10,0,0,6,5,74,140],
-"shadersemantics_8h.html#af2edde3f1555d742b7b1d6644a829704":[10,0,0,6,5,74,98],
+"shadersemantics_8h.html#af2edde3f1555d742b7b1d6644a829704":[10,0,0,6,5,74,97],
 "shadersemantics_8h.html#af33464e7eac619a62e4f7ad2df502afc":[10,0,0,6,5,74,26],
-"shadersemantics_8h.html#af3c3a0c04d71c7cc10280e8599e5dbc9":[10,0,0,6,5,74,137],
-"shadersemantics_8h.html#af6c8b18f0b10fbae8bbc853229521d1f":[10,0,0,6,5,74,113],
+"shadersemantics_8h.html#af3c3a0c04d71c7cc10280e8599e5dbc9":[10,0,0,6,5,74,136],
+"shadersemantics_8h.html#af6c8b18f0b10fbae8bbc853229521d1f":[10,0,0,6,5,74,112],
 "shadersemantics_8h.html#af759bc28cfde9afaed91ab56f8da689e":[10,0,0,6,5,74,23],
-"shadersemantics_8h.html#af801ed54f1176d976ab32cd398d4c6c5":[10,0,0,6,5,74,56],
-"shadersemantics_8h.html#af847d23f01e36ffe257ef933931963d9":[10,0,0,6,5,74,47],
+"shadersemantics_8h.html#af801ed54f1176d976ab32cd398d4c6c5":[10,0,0,6,5,74,55],
+"shadersemantics_8h.html#af847d23f01e36ffe257ef933931963d9":[10,0,0,6,5,74,46],
 "shadersemantics_8h.html#afaf090185731bdd6e29d135e93d13d44":[10,0,0,6,5,74,2],
-"shadersemantics_8h.html#afd81cdd519e08f081010aaba1e2ee4e3":[10,0,0,6,5,74,91],
+"shadersemantics_8h.html#afd81cdd519e08f081010aaba1e2ee4e3":[10,0,0,6,5,74,90],
 "shadersemantics_8h_source.html":[10,0,0,6,5,74],
 "shaderserver_8cc.html":[10,0,0,6,5,75],
 "shaderserver_8h.html":[10,0,0,6,5,76],
@@ -249,5 +248,6 @@ var NAVTREEINDEX125 =
 "staticmessagehandler_8h.html#a166d2866000027be976828fce9e2c914":[10,0,0,3,14,28,6],
 "staticmessagehandler_8h.html#a1843b6c0c1f35e7414a7470cb84db976":[10,0,0,3,14,28,2],
 "staticmessagehandler_8h.html#a24fa76c1318a288541cdf3145dd8c0e1":[10,0,0,3,14,28,4],
-"staticmessagehandler_8h.html#a3dc13ee0cf441a3ac9ceb880be1a2d00":[10,0,0,3,14,28,3]
+"staticmessagehandler_8h.html#a3dc13ee0cf441a3ac9ceb880be1a2d00":[10,0,0,3,14,28,3],
+"staticmessagehandler_8h.html#a4edff12b09540974e0d667dde97d7160":[10,0,0,3,14,28,7]
 };

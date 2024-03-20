@@ -1,6 +1,5 @@
 var NAVTREEINDEX170 =
 {
-"vkpipelinedatabase_8cc.html":[10,0,0,6,5,5,30],
 "vkpipelinedatabase_8cc.html#a1a95fd73248092ea13dcdd7465cb1345":[10,0,0,6,5,5,30,0],
 "vkpipelinedatabase_8h.html":[10,0,0,6,5,5,31],
 "vkpipelinedatabase_8h_source.html":[10,0,0,6,5,5,31],
@@ -249,5 +248,6 @@ var NAVTREEINDEX170 =
 "vktexture_8cc.html#a6dd00d464c5e422fa60cbcbd43fe196d":[10,0,0,6,5,5,56,0],
 "vktexture_8cc.html#a6f5cae0d06cf5d781c2c49924961e080":[10,0,0,6,5,5,56,35],
 "vktexture_8cc.html#a79e76a6cde61a664d605f97142f1465f":[10,0,0,6,5,5,56,25],
-"vktexture_8cc.html#a7c03b485da68cac4ec979432fba840b6":[10,0,0,6,5,5,56,23]
+"vktexture_8cc.html#a7c03b485da68cac4ec979432fba840b6":[10,0,0,6,5,5,56,23],
+"vktexture_8cc.html#a7c0f6c56f09971ad7deba5fa061f8a89":[10,0,0,6,5,5,56,14]
 };
