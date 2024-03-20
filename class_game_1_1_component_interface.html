@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.10.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: Game::World::ComponentInterface Class Reference</title>
+		<title>Nebula: Game::ComponentInterface Class Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_game_1_1_world_1_1_component_interface.html',''); initResizable(); });
+$(function(){initNavTree('class_game_1_1_component_interface.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -95,10 +95,13 @@ $(function(){initNavTree('class_game_1_1_world_1_1_component_interface.html','')
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_game_1_1_world_1_1_component_interface-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Game::World::ComponentInterface Class Reference</div></div>
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="class_game_1_1_component_interface-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Game::ComponentInterface Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="component_8h_source.html">component.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>These are registered to the attribute registry so that we can add more functionality to attributes. </p>
 </div>
@@ -106,15 +109,25 @@ $(function(){initNavTree('class_game_1_1_world_1_1_component_interface.html','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a68e5ac301299b1f44add8dbb1b44d319" id="r_a68e5ac301299b1f44add8dbb1b44d319"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e5ac301299b1f44add8dbb1b44d319">ComponentInitFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td></tr>
-<tr class="separator:a68e5ac301299b1f44add8dbb1b44d319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744e823b98888da0ce11040b14ba13f8" id="r_a744e823b98888da0ce11040b14ba13f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a744e823b98888da0ce11040b14ba13f8">ComponentInitFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td></tr>
+<tr class="separator:a744e823b98888da0ce11040b14ba13f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a19339d4f032a0d807392cf75973b2bdd" id="r_a19339d4f032a0d807392cf75973b2bdd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a19339d4f032a0d807392cf75973b2bdd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a19339d4f032a0d807392cf75973b2bdd">ComponentInterface</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> <a class="el" href="class_mem_db_1_1_attribute.html#a595f2adc86c29465444c4f80789b13b3">name</a>, T const &amp;defaultValue, uint32_t flags)</td></tr>
-<tr class="memdesc:a19339d4f032a0d807392cf75973b2bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from template type, with default value.  <br /></td></tr>
-<tr class="separator:a19339d4f032a0d807392cf75973b2bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde606acdae925d54bcae97c734db47d" id="r_adde606acdae925d54bcae97c734db47d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:adde606acdae925d54bcae97c734db47d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#adde606acdae925d54bcae97c734db47d">ComponentInterface</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> <a class="el" href="class_mem_db_1_1_attribute.html#a595f2adc86c29465444c4f80789b13b3">name</a>, T const &amp;defaultValue, uint32_t flags)</td></tr>
+<tr class="memdesc:adde606acdae925d54bcae97c734db47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from template type, with default value.  <br /></td></tr>
+<tr class="separator:adde606acdae925d54bcae97c734db47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8004ed635c406dace30900edb2e501" id="r_ade8004ed635c406dace30900edb2e501"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8004ed635c406dace30900edb2e501">GetName</a> () const</td></tr>
+<tr class="separator:ade8004ed635c406dace30900edb2e501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430d5c52e70282620dc17ea5b23ace10" id="r_a430d5c52e70282620dc17ea5b23ace10"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430d5c52e70282620dc17ea5b23ace10">GetFullyQualifiedName</a> () const</td></tr>
+<tr class="separator:a430d5c52e70282620dc17ea5b23ace10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4896a97454610157cc1554252fe7ef8b" id="r_a4896a97454610157cc1554252fe7ef8b"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4896a97454610157cc1554252fe7ef8b">GetFieldNames</a> () const</td></tr>
+<tr class="separator:a4896a97454610157cc1554252fe7ef8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8657c11cbce85173a622bbf336ee056" id="r_aa8657c11cbce85173a622bbf336ee056"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8657c11cbce85173a622bbf336ee056">GetFieldByteOffsets</a> () const</td></tr>
+<tr class="separator:aa8657c11cbce85173a622bbf336ee056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3b6401464cc746a08c19ca60bdbbec" id="r_afe3b6401464cc746a08c19ca60bdbbec"><td class="memItemLeft" align="right" valign="top">size_t const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3b6401464cc746a08c19ca60bdbbec">GetNumFields</a> () const</td></tr>
+<tr class="separator:afe3b6401464cc746a08c19ca60bdbbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_mem_db_1_1_attribute"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_mem_db_1_1_attribute')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_mem_db_1_1_attribute.html">MemDb::Attribute</a></td></tr>
 <tr class="memitem:ae202d70608e2db59f8c894c877d67587 inherit pub_methods_class_mem_db_1_1_attribute" id="r_ae202d70608e2db59f8c894c877d67587"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae202d70608e2db59f8c894c877d67587 inherit pub_methods_class_mem_db_1_1_attribute"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute.html#ae202d70608e2db59f8c894c877d67587">Attribute</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> <a class="el" href="class_mem_db_1_1_attribute.html#a595f2adc86c29465444c4f80789b13b3">name</a>, T const &amp;defaultValue, uint32_t flags)</td></tr>
@@ -141,8 +154,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a901fa2c494f472ea6ea390ebb18f1e25" id="r_a901fa2c494f472ea6ea390ebb18f1e25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a68e5ac301299b1f44add8dbb1b44d319">ComponentInitFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a901fa2c494f472ea6ea390ebb18f1e25">Init</a> = nullptr</td></tr>
-<tr class="separator:a901fa2c494f472ea6ea390ebb18f1e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04edc1f061c60825ff5fccc0845f0aa" id="r_ac04edc1f061c60825ff5fccc0845f0aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a744e823b98888da0ce11040b14ba13f8">ComponentInitFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac04edc1f061c60825ff5fccc0845f0aa">Init</a> = nullptr</td></tr>
+<tr class="separator:ac04edc1f061c60825ff5fccc0845f0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_mem_db_1_1_attribute"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_mem_db_1_1_attribute')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_mem_db_1_1_attribute.html">MemDb::Attribute</a></td></tr>
 <tr class="memitem:a595f2adc86c29465444c4f80789b13b3 inherit pub_attribs_class_mem_db_1_1_attribute" id="r_a595f2adc86c29465444c4f80789b13b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute.html#a595f2adc86c29465444c4f80789b13b3">name</a></td></tr>
 <tr class="memdesc:a595f2adc86c29465444c4f80789b13b3 inherit pub_attribs_class_mem_db_1_1_attribute"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of attribute  <br /></td></tr>
@@ -156,16 +169,29 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6d7e509d7ef557052f9d287fd7ef8d26 inherit pub_attribs_class_mem_db_1_1_attribute" id="r_a6d7e509d7ef557052f9d287fd7ef8d26"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_attribute.html#a6d7e509d7ef557052f9d287fd7ef8d26">externalFlags</a></td></tr>
 <tr class="memdesc:a6d7e509d7ef557052f9d287fd7ef8d26 inherit pub_attribs_class_mem_db_1_1_attribute"><td class="mdescLeft">&#160;</td><td class="mdescRight">externally managed flags  <br /></td></tr>
 <tr class="separator:a6d7e509d7ef557052f9d287fd7ef8d26 inherit pub_attribs_class_mem_db_1_1_attribute"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a584bff05bd312818163f4a0f6cfc8854" id="r_a584bff05bd312818163f4a0f6cfc8854"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a584bff05bd312818163f4a0f6cfc8854">componentName</a> = nullptr</td></tr>
+<tr class="separator:a584bff05bd312818163f4a0f6cfc8854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337080948c250d4151339bfe480290da" id="r_a337080948c250d4151339bfe480290da"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337080948c250d4151339bfe480290da">fullyQualifiedName</a> = nullptr</td></tr>
+<tr class="separator:a337080948c250d4151339bfe480290da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539ff4cdb8691ebb0b493e3d650c0492" id="r_a539ff4cdb8691ebb0b493e3d650c0492"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a539ff4cdb8691ebb0b493e3d650c0492">fieldNames</a> = nullptr</td></tr>
+<tr class="separator:a539ff4cdb8691ebb0b493e3d650c0492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e037a3818080e9f7b73ee41e74e259b" id="r_a2e037a3818080e9f7b73ee41e74e259b"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e037a3818080e9f7b73ee41e74e259b">fieldByteOffsets</a> = nullptr</td></tr>
+<tr class="separator:a2e037a3818080e9f7b73ee41e74e259b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad178ab8be1d403e6e844a2964fa97643" id="r_ad178ab8be1d403e6e844a2964fa97643"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad178ab8be1d403e6e844a2964fa97643">numFields</a> = 0</td></tr>
+<tr class="separator:ad178ab8be1d403e6e844a2964fa97643"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a68e5ac301299b1f44add8dbb1b44d319" name="a68e5ac301299b1f44add8dbb1b44d319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e5ac301299b1f44add8dbb1b44d319">&#9670;&#160;</a></span>ComponentInitFunc</h2>
+<a id="a744e823b98888da0ce11040b14ba13f8" name="a744e823b98888da0ce11040b14ba13f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744e823b98888da0ce11040b14ba13f8">&#9670;&#160;</a></span>ComponentInitFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a68e5ac301299b1f44add8dbb1b44d319">Game::World::ComponentInterface::ComponentInitFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td>
+          <td class="memname">using <a class="el" href="#a744e823b98888da0ce11040b14ba13f8">Game::ComponentInterface::ComponentInitFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -173,8 +199,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a19339d4f032a0d807392cf75973b2bdd" name="a19339d4f032a0d807392cf75973b2bdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19339d4f032a0d807392cf75973b2bdd">&#9670;&#160;</a></span>ComponentInterface()</h2>
+<a id="adde606acdae925d54bcae97c734db47d" name="adde606acdae925d54bcae97c734db47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde606acdae925d54bcae97c734db47d">&#9670;&#160;</a></span>ComponentInterface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +211,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Game::World::ComponentInterface::ComponentInterface </td>
+          <td class="memname">Game::ComponentInterface::ComponentInterface </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a></td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
         </tr>
@@ -211,32 +237,268 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa8657c11cbce85173a622bbf336ee056" name="aa8657c11cbce85173a622bbf336ee056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8657c11cbce85173a622bbf336ee056">&#9670;&#160;</a></span>GetFieldByteOffsets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t * Game::ComponentInterface::GetFieldByteOffsets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4896a97454610157cc1554252fe7ef8b" name="a4896a97454610157cc1554252fe7ef8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4896a97454610157cc1554252fe7ef8b">&#9670;&#160;</a></span>GetFieldNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char ** Game::ComponentInterface::GetFieldNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a430d5c52e70282620dc17ea5b23ace10" name="a430d5c52e70282620dc17ea5b23ace10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430d5c52e70282620dc17ea5b23ace10">&#9670;&#160;</a></span>GetFullyQualifiedName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Game::ComponentInterface::GetFullyQualifiedName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade8004ed635c406dace30900edb2e501" name="ade8004ed635c406dace30900edb2e501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8004ed635c406dace30900edb2e501">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Game::ComponentInterface::GetName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe3b6401464cc746a08c19ca60bdbbec" name="afe3b6401464cc746a08c19ca60bdbbec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3b6401464cc746a08c19ca60bdbbec">&#9670;&#160;</a></span>GetNumFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t const Game::ComponentInterface::GetNumFields </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a901fa2c494f472ea6ea390ebb18f1e25" name="a901fa2c494f472ea6ea390ebb18f1e25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a901fa2c494f472ea6ea390ebb18f1e25">&#9670;&#160;</a></span>Init</h2>
+<a id="a584bff05bd312818163f4a0f6cfc8854" name="a584bff05bd312818163f4a0f6cfc8854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584bff05bd312818163f4a0f6cfc8854">&#9670;&#160;</a></span>componentName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Game::ComponentInterface::componentName = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e037a3818080e9f7b73ee41e74e259b" name="a2e037a3818080e9f7b73ee41e74e259b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e037a3818080e9f7b73ee41e74e259b">&#9670;&#160;</a></span>fieldByteOffsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t* Game::ComponentInterface::fieldByteOffsets = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a539ff4cdb8691ebb0b493e3d650c0492" name="a539ff4cdb8691ebb0b493e3d650c0492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539ff4cdb8691ebb0b493e3d650c0492">&#9670;&#160;</a></span>fieldNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char** Game::ComponentInterface::fieldNames = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a337080948c250d4151339bfe480290da" name="a337080948c250d4151339bfe480290da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337080948c250d4151339bfe480290da">&#9670;&#160;</a></span>fullyQualifiedName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Game::ComponentInterface::fullyQualifiedName = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac04edc1f061c60825ff5fccc0845f0aa" name="ac04edc1f061c60825ff5fccc0845f0aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04edc1f061c60825ff5fccc0845f0aa">&#9670;&#160;</a></span>Init</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a68e5ac301299b1f44add8dbb1b44d319">ComponentInitFunc</a> Game::World::ComponentInterface::Init = nullptr</td>
+          <td class="memname"><a class="el" href="#a744e823b98888da0ce11040b14ba13f8">ComponentInitFunc</a> Game::ComponentInterface::Init = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<a id="ad178ab8be1d403e6e844a2964fa97643" name="ad178ab8be1d403e6e844a2964fa97643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad178ab8be1d403e6e844a2964fa97643">&#9670;&#160;</a></span>numFields</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Game::ComponentInterface::numFields = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/github/workspace/code/application/game/<a class="el" href="world_8h_source.html">world.h</a></li>
+<li>/github/workspace/code/application/game/<a class="el" href="component_8h_source.html">component.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_world.html">World</a></li><li class="navelem"><a class="el" href="class_game_1_1_world_1_1_component_interface.html">ComponentInterface</a></li>
+				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_component_interface.html">ComponentInterface</a></li>
 				<li class="footer">
-					Generated on Mon Mar 18 2024 17:08:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 20 2024 07:05:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

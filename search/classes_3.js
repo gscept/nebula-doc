@@ -50,7 +50,7 @@ var searchData=
   ['componentdecaybuffer_47',['ComponentDecayBuffer',['../struct_game_1_1_component_decay_buffer.html',1,'Game']]],
   ['componententry_48',['ComponentEntry',['../struct_game_1_1_blueprint_manager_1_1_component_entry.html',1,'Game::BlueprintManager']]],
   ['componentinspection_49',['ComponentInspection',['../class_game_1_1_component_inspection.html',1,'Game']]],
-  ['componentinterface_50',['ComponentInterface',['../class_game_1_1_world_1_1_component_interface.html',1,'Game::World']]],
+  ['componentinterface_50',['ComponentInterface',['../class_game_1_1_component_interface.html',1,'Game']]],
   ['componentmanager_51',['ComponentManager',['../class_nebula_1_1_game_1_1_component_manager.html',1,'Nebula::Game']]],
   ['componentregisterinfo_52',['ComponentRegisterInfo',['../struct_game_1_1_component_register_info.html',1,'Game']]],
   ['componentrequest_53',['ComponentRequest',['../struct_game_1_1_filter_builder_1_1_component_request.html',1,'Game::FilterBuilder']]],

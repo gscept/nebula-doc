@@ -118,10 +118,12 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a86dfe2b7c3e32ecf3403f7bdb188dcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a380b7d011936f6cda57e95e1977336e0" id="r_a380b7d011936f6cda57e95e1977336e0"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a380b7d011936f6cda57e95e1977336e0">fully_qualified_name</a> = &quot;Game.Entity&quot;</td></tr>
 <tr class="separator:a380b7d011936f6cda57e95e1977336e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1acffe68363914c75ed58b606fd2814" id="r_aa1acffe68363914c75ed58b606fd2814"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1acffe68363914c75ed58b606fd2814">num_fields</a> = 2</td></tr>
+<tr class="memitem:aa1acffe68363914c75ed58b606fd2814" id="r_aa1acffe68363914c75ed58b606fd2814"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1acffe68363914c75ed58b606fd2814">num_fields</a> = 1</td></tr>
 <tr class="separator:aa1acffe68363914c75ed58b606fd2814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26666c1bca8995d3e9af4a2e959a6d9f" id="r_a26666c1bca8995d3e9af4a2e959a6d9f"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26666c1bca8995d3e9af4a2e959a6d9f">field_names</a> [<a class="el" href="#aa1acffe68363914c75ed58b606fd2814">num_fields</a>]</td></tr>
 <tr class="separator:a26666c1bca8995d3e9af4a2e959a6d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccc1e333897c036f63ed49441d036d4" id="r_a0ccc1e333897c036f63ed49441d036d4"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ccc1e333897c036f63ed49441d036d4">field_byte_offsets</a> [<a class="el" href="#aa1acffe68363914c75ed58b606fd2814">num_fields</a>] = { 0 }</td></tr>
+<tr class="separator:a0ccc1e333897c036f63ed49441d036d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5f9c78418935fde2f2a0dffb770ee78" id="r_aa5f9c78418935fde2f2a0dffb770ee78"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5f9c78418935fde2f2a0dffb770ee78">fixed_column_index</a> = 0</td></tr>
 <tr class="memdesc:aa5f9c78418935fde2f2a0dffb770ee78"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the column that the entity "owner" will reside in, in every table.  <br /></td></tr>
 <tr class="separator:aa5f9c78418935fde2f2a0dffb770ee78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +170,28 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0ccc1e333897c036f63ed49441d036d4" name="a0ccc1e333897c036f63ed49441d036d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ccc1e333897c036f63ed49441d036d4">&#9670;&#160;</a></span>field_byte_offsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t Game::Entity::Traits::field_byte_offsets[<a class="el" href="#aa1acffe68363914c75ed58b606fd2814">num_fields</a>] = { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a26666c1bca8995d3e9af4a2e959a6d9f" name="a26666c1bca8995d3e9af4a2e959a6d9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26666c1bca8995d3e9af4a2e959a6d9f">&#9670;&#160;</a></span>field_names</h2>
 
@@ -188,8 +212,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">        <span class="stringliteral">&quot;index&quot;</span>,</div>
-<div class="line">        <span class="stringliteral">&quot;generation&quot;</span></div>
+<div class="line">        <span class="stringliteral">&quot;id&quot;</span></div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
@@ -273,7 +296,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr size_t Game::Entity::Traits::num_fields = 2</td>
+          <td class="memname">constexpr size_t Game::Entity::Traits::num_fields = 1</td>
         </tr>
       </table>
   </td>
@@ -295,7 +318,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_entity.html">Entity</a></li><li class="navelem"><a class="el" href="struct_game_1_1_entity_1_1_traits.html">Traits</a></li>
 				<li class="footer">
-					Generated on Mon Mar 18 2024 17:08:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 20 2024 07:05:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -83,6 +83,7 @@ var hierarchy =
     [ "Util::_smallvector< Game::EntityMapping, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Game::FrameEvent *, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Game::FrameEvent::Batch *, 0 >", "struct_util_1_1__smallvector.html", null ],
+    [ "Util::_smallvector< Game::PackedLevel::EntityGroup, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Game::Processor *, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Game::World::AddStagedComponentCommand, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Game::World::RemoveComponentCommand, 0 >", "struct_util_1_1__smallvector.html", null ],
@@ -469,6 +470,7 @@ var hierarchy =
     [ "Util::Array< Game::EntityMapping >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Game::FrameEvent * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Game::FrameEvent::Batch * >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Game::PackedLevel::EntityGroup >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Game::Processor * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Game::World::AddStagedComponentCommand >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Game::World::RemoveComponentCommand >", "class_util_1_1_array.html", null ],
@@ -729,7 +731,7 @@ var hierarchy =
     [ "Threading::Interlocked::AtomicInt64", "struct_threading_1_1_interlocked_1_1_atomic_int64.html", null ],
     [ "Threading::Interlocked::AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", null ],
     [ "MemDb::Attribute", "class_mem_db_1_1_attribute.html", [
-      [ "Game::World::ComponentInterface", "class_game_1_1_world_1_1_component_interface.html", null ]
+      [ "Game::ComponentInterface", "class_game_1_1_component_interface.html", null ]
     ] ],
     [ "Attr::AttributeContainer", "class_attr_1_1_attribute_container.html", null ],
     [ "Attr::AttributeDefinitionBase", "class_attr_1_1_attribute_definition_base.html", [
@@ -1017,6 +1019,7 @@ var hierarchy =
     [ "TiXmlBase::Entity", "struct_ti_xml_base_1_1_entity.html", null ],
     [ "Visibility::VisibilitySystem::Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", null ],
     [ "Game::EntityCreateInfo", "struct_game_1_1_entity_create_info.html", null ],
+    [ "Game::PackedLevel::EntityGroup", "struct_game_1_1_packed_level_1_1_entity_group.html", null ],
     [ "Nebula.Game.EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", null ],
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", null ],
     [ "Game::EntityPool", "class_game_1_1_entity_pool.html", null ],
@@ -1470,6 +1473,7 @@ var hierarchy =
     [ "Util::KeyValuePair< Util::StringAtom, Vulkan::VkShaderCache::VkReflectionInfo::Variable >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< VkFence, Util::Array< Vulkan::VkDeferredCommand > >", "class_util_1_1_key_value_pair.html", null ],
     [ "Jobs2::Lambda", "struct_jobs2_1_1_lambda.html", null ],
+    [ "Level", "class_level.html", null ],
     [ "Base::Library", "class_base_1_1_library.html", [
       [ "Win32::Win32Library", "class_win32_1_1_win32_library.html", null ]
     ] ],
@@ -1606,6 +1610,7 @@ var hierarchy =
     [ "OSX::OSXMemoryPool", "class_o_s_x_1_1_o_s_x_memory_pool.html", null ],
     [ "OSXThreadId", "class_o_s_x_1_1_o_s_x_thread_id.html", null ],
     [ "OSX::OSXThreadLocalPtr< TYPE >", "class_o_s_x_1_1_o_s_x_thread_local_ptr.html", null ],
+    [ "Game::PackedLevel", "class_game_1_1_packed_level.html", null ],
     [ "Win32::ParentWindow", "struct_win32_1_1_parent_window.html", null ],
     [ "Resources::PartialLoadBits", "struct_resources_1_1_partial_load_bits.html", null ],
     [ "Particles::Particle", "struct_particles_1_1_particle.html", null ],
