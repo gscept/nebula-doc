@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"framesubpassorderedbatch_8h.html":[10,0,0,6,9,40],
+"framesubpassorderedbatch_8h_source.html":[10,0,0,6,9,40],
+"framesubpassplugin_8cc.html":[10,0,0,6,9,41],
+"framesubpassplugin_8h.html":[10,0,0,6,9,42],
 "framesubpassplugin_8h_source.html":[10,0,0,6,9,42],
 "frameswap_8cc.html":[10,0,0,6,9,43],
 "frameswap_8h.html":[10,0,0,6,9,44],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "glfwdisplaydevice_8cc.html#a8112b260985bed4e8d7002cddc6cb96a":[10,0,0,6,5,2,0,2],
 "glfwdisplaydevice_8h.html":[10,0,0,6,5,2,1],
 "glfwdisplaydevice_8h_source.html":[10,0,0,6,5,2,1],
-"glfwgraphicsdisplayeventhandler_8cc.html":[10,0,0,6,11,0,0],
-"glfwgraphicsdisplayeventhandler_8cc.html#a3451569dd3e776ebac7ced92f60efc89":[10,0,0,6,11,0,0,0],
-"glfwgraphicsdisplayeventhandler_8h.html":[10,0,0,6,11,0,1],
-"glfwgraphicsdisplayeventhandler_8h_source.html":[10,0,0,6,11,0,1],
-"glfwinputdisplayeventhandler_8cc.html":[10,0,0,6,12,0,0]
+"glfwgraphicsdisplayeventhandler_8cc.html":[10,0,0,6,11,0,0]
 };

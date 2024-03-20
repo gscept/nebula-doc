@@ -124,6 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a430d5c52e70282620dc17ea5b23ace10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4896a97454610157cc1554252fe7ef8b" id="r_a4896a97454610157cc1554252fe7ef8b"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4896a97454610157cc1554252fe7ef8b">GetFieldNames</a> () const</td></tr>
 <tr class="separator:a4896a97454610157cc1554252fe7ef8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ae6e4bf651fa782f278bd4b5263042" id="r_a55ae6e4bf651fa782f278bd4b5263042"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55ae6e4bf651fa782f278bd4b5263042">GetFieldTypenames</a> () const</td></tr>
+<tr class="separator:a55ae6e4bf651fa782f278bd4b5263042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8657c11cbce85173a622bbf336ee056" id="r_aa8657c11cbce85173a622bbf336ee056"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8657c11cbce85173a622bbf336ee056">GetFieldByteOffsets</a> () const</td></tr>
 <tr class="separator:aa8657c11cbce85173a622bbf336ee056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe3b6401464cc746a08c19ca60bdbbec" id="r_afe3b6401464cc746a08c19ca60bdbbec"><td class="memItemLeft" align="right" valign="top">size_t const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3b6401464cc746a08c19ca60bdbbec">GetNumFields</a> () const</td></tr>
@@ -178,6 +180,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a337080948c250d4151339bfe480290da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a539ff4cdb8691ebb0b493e3d650c0492" id="r_a539ff4cdb8691ebb0b493e3d650c0492"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a539ff4cdb8691ebb0b493e3d650c0492">fieldNames</a> = nullptr</td></tr>
 <tr class="separator:a539ff4cdb8691ebb0b493e3d650c0492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db0f5d02d24533afeda5e3ae8a9bc9e" id="r_a5db0f5d02d24533afeda5e3ae8a9bc9e"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db0f5d02d24533afeda5e3ae8a9bc9e">fieldTypenames</a> = nullptr</td></tr>
+<tr class="separator:a5db0f5d02d24533afeda5e3ae8a9bc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e037a3818080e9f7b73ee41e74e259b" id="r_a2e037a3818080e9f7b73ee41e74e259b"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e037a3818080e9f7b73ee41e74e259b">fieldByteOffsets</a> = nullptr</td></tr>
 <tr class="separator:a2e037a3818080e9f7b73ee41e74e259b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad178ab8be1d403e6e844a2964fa97643" id="r_ad178ab8be1d403e6e844a2964fa97643"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad178ab8be1d403e6e844a2964fa97643">numFields</a> = 0</td></tr>
@@ -274,6 +278,31 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">const char ** Game::ComponentInterface::GetFieldNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55ae6e4bf651fa782f278bd4b5263042" name="a55ae6e4bf651fa782f278bd4b5263042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ae6e4bf651fa782f278bd4b5263042">&#9670;&#160;</a></span>GetFieldTypenames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char ** Game::ComponentInterface::GetFieldTypenames </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -430,6 +459,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a5db0f5d02d24533afeda5e3ae8a9bc9e" name="a5db0f5d02d24533afeda5e3ae8a9bc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db0f5d02d24533afeda5e3ae8a9bc9e">&#9670;&#160;</a></span>fieldTypenames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char** Game::ComponentInterface::fieldTypenames = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a337080948c250d4151339bfe480290da" name="a337080948c250d4151339bfe480290da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a337080948c250d4151339bfe480290da">&#9670;&#160;</a></span>fullyQualifiedName</h2>
 
@@ -498,7 +549,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_component_interface.html">ComponentInterface</a></li>
 				<li class="footer">
-					Generated on Wed Mar 20 2024 16:25:18 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 20 2024 16:33:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
