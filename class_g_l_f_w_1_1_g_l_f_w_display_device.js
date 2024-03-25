@@ -17,7 +17,7 @@ var class_g_l_f_w_1_1_g_l_f_w_display_device =
     [ "CharFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a829f60bfb9e3979aa8751427f5d2469e", null ],
     [ "CloseFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a8fe35532d4a6959fac3f323b004695de", null ],
     [ "CoreGraphics::DestroyWindow", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ad0c6d4af91fdee3fd5bf760ae4556e6b", null ],
-    [ "CoreGraphics::WindowPresent", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a1d89fb812f04623b89f2ded08951d8b7", null ],
+    [ "CoreGraphics::WindowNewFrame", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ad630486882eaeca92417c697558a7425", null ],
     [ "FocusFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a964ce8d3c343ebe4a6a40cf18e89ad49", null ],
     [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a97604a443adb412f1f3209718fde667b", null ],
     [ "GLFWWindow", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a0accf8cfff3131ca809514b0e2a387c8", null ],

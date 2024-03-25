@@ -16,10 +16,10 @@ var materialloader_8cc =
     [ "bindings", "materialloader_8cc.html#a8e93897eca9dad723f5b98becb3fb32e", null ],
     [ "bits", "materialloader_8cc.html#a6d4f485fd3d958a93a3b0d3a5de574cd", null ],
     [ "computeDirty", "materialloader_8cc.html#a9a2fe8308c947c205a49248b501052a4", null ],
-    [ "dirtySet", "materialloader_8cc.html#ab4f3e08ada3c65bd05350962ec4b094c", null ],
+    [ "dirtySet", "materialloader_8cc.html#a9a5903cdcb1ce0e1459ce9a441262728", null ],
     [ "graphicsDirty", "materialloader_8cc.html#ac37785012da1cde7b693eb85392965ee", null ],
     [ "materialBindingBuffer", "materialloader_8cc.html#aed6b14f70e7d5516d16e36164af4924c", null ],
-    [ "state", "materialloader_8cc.html#a8cc0891c40220ceb8778ab00d1004eaa", null ],
+    [ "state", "materialloader_8cc.html#af508d125413b6aa64ea81b83d4da6b4c", null ],
     [ "variantAllocator", "materialloader_8cc.html#ae0df99b4267083a9b8fdf98d2a210a6e", null ],
     [ "variantAllocatorLock", "materialloader_8cc.html#afbef763f80811b0b86c6082ec6cd914e", null ]
 ];

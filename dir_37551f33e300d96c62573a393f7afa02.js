@@ -81,6 +81,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "shaperenderer.h", "shaperenderer_8h.html", null ],
     [ "sparsebuffer.h", "sparsebuffer_8h.html", "sparsebuffer_8h" ],
     [ "streamtexturesaver.h", "streamtexturesaver_8h.html", "streamtexturesaver_8h" ],
+    [ "swapchain.h", "swapchain_8h.html", "swapchain_8h" ],
     [ "textelement.cc", "textelement_8cc.html", null ],
     [ "textelement.h", "textelement_8h.html", "textelement_8h" ],
     [ "textrenderer.cc", "textrenderer_8cc.html", "textrenderer_8cc" ],

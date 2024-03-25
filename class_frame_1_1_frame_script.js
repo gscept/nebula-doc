@@ -21,6 +21,7 @@ var class_frame_1_1_frame_script =
     [ "Setup", "class_frame_1_1_frame_script.html#ac725278a0e9cbfdc42171ad7f802c4f5", null ],
     [ "FrameScriptLoader", "class_frame_1_1_frame_script.html#a50c4ad65c87da5708cfe63e4eacb77a0", null ],
     [ "FrameServer", "class_frame_1_1_frame_script.html#a53c8568281360bd589b0d19b8c49c6b5", null ],
+    [ "Graphics::GraphicsServer", "class_frame_1_1_frame_script.html#abfb033c63747b8b46a13ea4b7e541a6f", null ],
     [ "Graphics::View", "class_frame_1_1_frame_script.html#aa7e6fdb49172fd6633ce79c22c8cfbef", null ],
     [ "allocator", "class_frame_1_1_frame_script.html#aef77f06306806308d0ebcff0fded324e", null ],
     [ "barriers", "class_frame_1_1_frame_script.html#aa9f398aa380544e4a6fbab995cf01827", null ],

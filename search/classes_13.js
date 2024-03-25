@@ -125,7 +125,9 @@ var searchData=
   ['svglinechartwriter_122',['SvgLineChartWriter',['../class_http_1_1_svg_line_chart_writer.html',1,'Http']]],
   ['svgpagewriter_123',['SvgPageWriter',['../class_http_1_1_svg_page_writer.html',1,'Http']]],
   ['svgtestpagehandler_124',['SvgTestPageHandler',['../class_debug_1_1_svg_test_page_handler.html',1,'Debug']]],
-  ['synccommand_125',['SyncCommand',['../struct_core_graphics_1_1_draw_thread_1_1_sync_command.html',1,'CoreGraphics::DrawThread']]],
-  ['sysfunc_126',['SysFunc',['../class_core_1_1_sys_func.html',1,'SysFunc'],['../class_o_s_x_1_1_sys_func.html',1,'OSX::SysFunc'],['../class_posix_1_1_sys_func.html',1,'Posix::SysFunc'],['../class_win32_1_1_sys_func.html',1,'Win32::SysFunc']]],
-  ['systeminfo_127',['SystemInfo',['../class_system_1_1_system_info.html',1,'']]]
+  ['swapchaincreateinfo_125',['SwapchainCreateInfo',['../struct_core_graphics_1_1_swapchain_create_info.html',1,'CoreGraphics']]],
+  ['swapchainid_126',['SwapchainId',['../struct_core_graphics_1_1_swapchain_id.html',1,'CoreGraphics']]],
+  ['synccommand_127',['SyncCommand',['../struct_core_graphics_1_1_draw_thread_1_1_sync_command.html',1,'CoreGraphics::DrawThread']]],
+  ['sysfunc_128',['SysFunc',['../class_core_1_1_sys_func.html',1,'SysFunc'],['../class_o_s_x_1_1_sys_func.html',1,'OSX::SysFunc'],['../class_posix_1_1_sys_func.html',1,'Posix::SysFunc'],['../class_win32_1_1_sys_func.html',1,'Win32::SysFunc']]],
+  ['systeminfo_129',['SystemInfo',['../class_system_1_1_system_info.html',1,'']]]
 ];

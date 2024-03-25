@@ -1,7 +1,8 @@
 var downsamplingcontext_8cc =
 [
     [ "__ImplementPluginContext", "downsamplingcontext_8cc.html#a3ba62f689620fdd9e7d80c8a41c5e416", null ],
-    [ "SetupMipChainResources", "downsamplingcontext_8cc.html#a481db2599d40d0507d4a0a697f872a00", null ],
+    [ "DispatchSize", "downsamplingcontext_8cc.html#ab0010d2428ea62538b8ea998955b3c57", null ],
+    [ "SetupMipChainResources", "downsamplingcontext_8cc.html#a94910cb790f787ba4c919724b3fab60c", null ],
     [ "colorBufferConstants", "downsamplingcontext_8cc.html#a6dc6dea3c9603a96a3df2f5a2e03f3d8", null ],
     [ "colorBufferCounter", "downsamplingcontext_8cc.html#a764f1cf60301a5461257780fe2fcfabf", null ],
     [ "colorDownsampleResourceTable", "downsamplingcontext_8cc.html#a1e32c3fa0b885242921045c7e94107b4", null ],
@@ -18,6 +19,6 @@ var downsamplingcontext_8cc =
     [ "extractProgram", "downsamplingcontext_8cc.html#aa5149c747490e2f66a483c9da4d55e9e", null ],
     [ "extractResourceTable", "downsamplingcontext_8cc.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b", null ],
     [ "extractShader", "downsamplingcontext_8cc.html#a0bc5995084efe75d05e1a46ae562f035", null ],
-    [ "state", "downsamplingcontext_8cc.html#ac633ad9136fdeadfb688c8b2299a164c", null ],
+    [ "state", "downsamplingcontext_8cc.html#a81c5bd024a491a0a2617718ec009691e", null ],
     [ "zbuffer", "downsamplingcontext_8cc.html#ab474762951b4df8269e0f9c56585187c", null ]
 ];

@@ -9,10 +9,10 @@ var lightcontext_8cc =
     [ "clusterLightsList", "lightcontext_8cc.html#a0b9ea68cd0a14da9ac331caba86b697b", null ],
     [ "clusterPointLights", "lightcontext_8cc.html#ad0f7c5aa043a958b5888a60d73c23290", null ],
     [ "clusterSpotLights", "lightcontext_8cc.html#a3a54cafa925aba0da75b3f395eeddd18", null ],
-    [ "clusterState", "lightcontext_8cc.html#afd873868871871b57c0d83e3eb1ea2bc", null ],
+    [ "clusterState", "lightcontext_8cc.html#a976ee77a324699a33c94ed51960537d2", null ],
     [ "combineProgram", "lightcontext_8cc.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "combineShader", "lightcontext_8cc.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
-    [ "combineState", "lightcontext_8cc.html#a38c6f63804ee9c3914fa4911b4154132", null ],
+    [ "combineState", "lightcontext_8cc.html#a43a046ea33d3eaf7e648c0e724d371df", null ],
     [ "csmUtil", "lightcontext_8cc.html#ab0aaa69cffadc74914be9308b6f7b20c", null ],
     [ "cullProgram", "lightcontext_8cc.html#a4631b178546d59ffad08e86592f87073", null ],
     [ "debugProgram", "lightcontext_8cc.html#a45f299995780015f0fb9182048042989", null ],
@@ -23,7 +23,7 @@ var lightcontext_8cc =
     [ "globalLightShadowMap", "lightcontext_8cc.html#a5ee0ec7b142258658bdbde0837f4a782", null ],
     [ "lightingTexture", "lightcontext_8cc.html#a4b76068e27cfa9a85431184cdbccdc38", null ],
     [ "lightList", "lightcontext_8cc.html#a47c086ca48789cc872b43a35043ca5a1", null ],
-    [ "lightServerState", "lightcontext_8cc.html#ac944225785956019d1cd6c3b29ea5631", null ],
+    [ "lightServerState", "lightcontext_8cc.html#ab7012f9c435a69010ca6886158db4acc", null ],
     [ "localLightShadows", "lightcontext_8cc.html#a5ff54976d5d786434a189b17327e74b1", null ],
     [ "ltcLut0", "lightcontext_8cc.html#a28eaad9dc5caad308a230f826457103b", null ],
     [ "ltcLut1", "lightcontext_8cc.html#a0906a4addf6c0dd266443457fc09f485", null ],
@@ -40,5 +40,5 @@ var lightcontext_8cc =
     [ "terrainShadowMap", "lightcontext_8cc.html#afd0bf47770d5d51c28ce8df9f2be3e3e", null ],
     [ "terrainShadowMapSize", "lightcontext_8cc.html#a7d694d7b0d15f9ddc02fdc452744972e", null ],
     [ "terrainSize", "lightcontext_8cc.html#ab6851f5d4fe86107879a11564e1e9efc", null ],
-    [ "textureState", "lightcontext_8cc.html#a3f8cdd4514545619d78fe241dc6a6e0f", null ]
+    [ "textureState", "lightcontext_8cc.html#a00182655cfc46e60c54806edc7de37c9", null ]
 ];

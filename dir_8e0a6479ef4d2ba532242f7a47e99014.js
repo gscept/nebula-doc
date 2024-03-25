@@ -54,6 +54,8 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vkshaperenderer.h", "vkshaperenderer_8h.html", "vkshaperenderer_8h" ],
     [ "vksubcontexthandler.cc", "vksubcontexthandler_8cc.html", null ],
     [ "vksubcontexthandler.h", "vksubcontexthandler_8h.html", "vksubcontexthandler_8h" ],
+    [ "vkswapchain.cc", "vkswapchain_8cc.html", "vkswapchain_8cc" ],
+    [ "vkswapchain.h", "vkswapchain_8h.html", "vkswapchain_8h" ],
     [ "vktextrenderer.cc", "vktextrenderer_8cc.html", "vktextrenderer_8cc" ],
     [ "vktextrenderer.h", "vktextrenderer_8h.html", "vktextrenderer_8h" ],
     [ "vktexture.cc", "vktexture_8cc.html", "vktexture_8cc" ],

@@ -34,7 +34,6 @@ var namespace_frame =
     [ "AddSubgraph", "namespace_frame.html#acfffd2c5528f64f7eb515b0c8195e460", null ],
     [ "GetCallback", "namespace_frame.html#a4e62341c1aec9076d99280fb9f0d9e9c", null ],
     [ "GetSubgraph", "namespace_frame.html#ab480302c73e122eab06e7fd41a76ca54", null ],
-    [ "ImageSubresourceHelper", "namespace_frame.html#a15af8b00e25f687b9ba3441b78292c72", null ],
     [ "InitPluginTable", "namespace_frame.html#a668aac697837cf510a381b2d452bb921", null ],
     [ "nameToFunction", "namespace_frame.html#a5e1badd3a70f16afb8d26e267700ae85", null ],
     [ "nameToSubgraph", "namespace_frame.html#a090f6f9e9267fad837af9f66692c5ff3", null ]

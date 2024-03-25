@@ -21,7 +21,7 @@ var searchData=
   ['vkresourcetablelayoutallocator_18',['VkResourceTableLayoutAllocator',['../namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312',1,'Vulkan']]],
   ['vksamplerallocator_19',['VkSamplerAllocator',['../namespace_vulkan.html#a16e223a26b6bd185eff874a64ee29e07',1,'Vulkan']]],
   ['vksemaphoreallocator_20',['VkSemaphoreAllocator',['../namespace_vulkan.html#ad54f8dc5d631c9d61e3cceb082a400a0',1,'Vulkan']]],
-  ['vktextureallocator_21',['VkTextureAllocator',['../namespace_vulkan.html#a04f50653d608b5f75efdc83a14e528ec',1,'Vulkan']]],
+  ['vktextureallocator_21',['VkTextureAllocator',['../namespace_vulkan.html#a8d8ad8372c106288ac8b7ea72d012edd',1,'Vulkan']]],
   ['vktexturesparseextensionallocator_22',['VkTextureSparseExtensionAllocator',['../namespace_vulkan.html#afdb21df9bcff1590021f4a5eff4182e1',1,'Vulkan']]],
   ['vktexturestencilextensionallocator_23',['VkTextureStencilExtensionAllocator',['../namespace_vulkan.html#a443cc7c180dc394c85ad21d19ac055da',1,'Vulkan']]],
   ['vktextureswapextensionallocator_24',['VkTextureSwapExtensionAllocator',['../namespace_vulkan.html#a24f6b364742592293799a0518562f8fb',1,'Vulkan']]],

@@ -6,5 +6,6 @@ var struct_vulkan_1_1_vk_texture_load_info =
     [ "relativeDims", "struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3", null ],
     [ "sparseExtension", "struct_vulkan_1_1_vk_texture_load_info.html#a200f53bedbf2c1fc4f2236f12c4e9990", null ],
     [ "stencilExtension", "struct_vulkan_1_1_vk_texture_load_info.html#a47b7f8cb2796ed99d9e57c2e5d2fb276", null ],
-    [ "swapExtension", "struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff", null ]
+    [ "swapExtension", "struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff", null ],
+    [ "window", "struct_vulkan_1_1_vk_texture_load_info.html#a5c05df3f3425d6916c07eed4d0977425", null ]
 ];

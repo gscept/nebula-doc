@@ -12,5 +12,5 @@ var searchData=
   ['coregraphics_3a_3acreatevertexlayout_9',['CoreGraphics::CreateVertexLayout',['../class_base_1_1_vertex_component_base.html#a9f38624c3cc749469511cb628b67438b',1,'Base::VertexComponentBase::CreateVertexLayout'],['../class_core_graphics_1_1_vertex_component.html#a9f38624c3cc749469511cb628b67438b',1,'CoreGraphics::VertexComponent::CreateVertexLayout']]],
   ['coregraphics_3a_3adestroywindow_10',['DestroyWindow',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#ad0c6d4af91fdee3fd5bf760ae4556e6b',1,'GLFW::GLFWDisplayDevice']]],
   ['coregraphics_3a_3ashaderidentifier_11',['ShaderIdentifier',['../class_base_1_1_shader_server_base.html#a88ca62d65596719a4b3dc97aa948a8f9',1,'Base::ShaderServerBase']]],
-  ['coregraphics_3a_3awindowpresent_12',['WindowPresent',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#a1d89fb812f04623b89f2ded08951d8b7',1,'GLFW::GLFWDisplayDevice']]]
+  ['coregraphics_3a_3awindownewframe_12',['WindowNewFrame',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#ad630486882eaeca92417c697558a7425',1,'GLFW::GLFWDisplayDevice']]]
 ];

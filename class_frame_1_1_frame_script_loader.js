@@ -10,6 +10,7 @@ var class_frame_1_1_frame_script_loader =
     [ "ParseMipmap", "class_frame_1_1_frame_script_loader.html#a83f9fb7d300566fe442dd86133d412ed", null ],
     [ "ParsePass", "class_frame_1_1_frame_script_loader.html#a51d09d45da453bf5cfec5f59dfef4fde", null ],
     [ "ParsePlugin", "class_frame_1_1_frame_script_loader.html#a7f21a6ef19c72a92ec9f02bc7b05fdf4", null ],
+    [ "ParsePresent", "class_frame_1_1_frame_script_loader.html#a8e43a46c6f5485abd8bccb0d4ec64d2a", null ],
     [ "ParseReadWriteBufferList", "class_frame_1_1_frame_script_loader.html#a18181674b832ba7f3c1b7cac230cf92f", null ],
     [ "ParseResolve", "class_frame_1_1_frame_script_loader.html#ae1b9e5d6c8ba3111566b06f2c86c19b5", null ],
     [ "ParseResourceDependencies", "class_frame_1_1_frame_script_loader.html#a42d514e67569257a4cfcf51f9ec9b9fc", null ],

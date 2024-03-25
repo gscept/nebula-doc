@@ -25,6 +25,5 @@ var struct_core_graphics_1_1_texture_create_info =
     [ "type", "struct_core_graphics_1_1_texture_create_info.html#a81f74559070f31f1477211c50f98a574", null ],
     [ "usage", "struct_core_graphics_1_1_texture_create_info.html#a8cc4419808550f578095f4c39ecc176d", null ],
     [ "width", "struct_core_graphics_1_1_texture_create_info.html#a07bb9bc8c609ce52e01bb7152e723c9a", null ],
-    [ "windowRelative", "struct_core_graphics_1_1_texture_create_info.html#a4bb880ba8263e14603f1314b0f97f995", null ],
-    [ "windowTexture", "struct_core_graphics_1_1_texture_create_info.html#a6a7ebb796b34276c00b5907dea38d729", null ]
+    [ "windowRelative", "struct_core_graphics_1_1_texture_create_info.html#a4bb880ba8263e14603f1314b0f97f995", null ]
 ];

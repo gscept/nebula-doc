@@ -87,7 +87,6 @@ var vkgraphicsdevice_8cc =
     [ "SparseBufferBind", "vkgraphicsdevice_8cc.html#a62c87b67db2b5dcfa1f1d5e7758f952a", null ],
     [ "SparseTextureBind", "vkgraphicsdevice_8cc.html#a33631508e7e7b011fed57eba8d97233e", null ],
     [ "SubmitCommandBuffer", "vkgraphicsdevice_8cc.html#ad62a38424b0e014c8e7c27c2941fbb51", null ],
-    [ "Swap", "vkgraphicsdevice_8cc.html#a7db2c950d881cc3f156a7a1c34b5a164", null ],
     [ "UnlockConstantUpdates", "vkgraphicsdevice_8cc.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],
     [ "UnlockGraphicsSetupCommandBuffer", "vkgraphicsdevice_8cc.html#a370339ade584ee567b80cd9af5eb67c2", null ],
     [ "UnlockTransferHandoverSetupCommandBuffer", "vkgraphicsdevice_8cc.html#af6bfb51adc6eb9f0bce256a0b1f57109", null ],

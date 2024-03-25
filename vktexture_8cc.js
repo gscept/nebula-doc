@@ -39,7 +39,6 @@ var vktexture_8cc =
     [ "TextureSparseUpdate", "vktexture_8cc.html#a942e4bf5458de8f1c518f3996e79a6c6", null ],
     [ "TextureSparseUpdate", "vktexture_8cc.html#a5e38b0756a22c26d8f97b9118849c787", null ],
     [ "TextureSparseUpdate", "vktexture_8cc.html#ac99809c6722630ed7f23ec192b50a817", null ],
-    [ "TextureSwapBuffers", "vktexture_8cc.html#a02f587ae8c1193fe3a46f6abb52b3e09", null ],
     [ "TextureWindowResized", "vktexture_8cc.html#afe3a6ac5bf0f7a13169172eaed3b1b07", null ],
     [ "textureAllocator", "vktexture_8cc.html#a19c465c022826df01bb020e63a04c672", null ],
     [ "textureSparseExtensionAllocator", "vktexture_8cc.html#afc016b35546c68c33624512531c2fe2b", null ],

@@ -29,7 +29,7 @@ var searchData=
   ['r8g8b8x8_26',['R8G8B8X8',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0aa24fb7d9cb2c6581291a43b9e2d0b028',1,'CoreGraphics::PixelFormat']]],
   ['random_27',['Random',['../class_i_o_1_1_stream.html#afb0d1bb71f98fc1811aefb25b6e09606a8bacf2a81794ef0dffb5063fe35f2dea',1,'IO::Stream']]],
   ['randomizerotation_28',['RandomizeRotation',['../class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aaa675996b2bc376cb9d50c9c3b2d3b49a',1,'Particles::EmitterAttrs']]],
-  ['range_29',['Range',['../class_lighting_1_1_light_context.html#a1c01bc95707efd52186c63efaa4ac2bfa07b94fc8601597307d62507415c36c36',1,'Lighting::LightContext']]],
+  ['range_29',['Range',['../class_lighting_1_1_light_context.html#a6bb30a9bacd4c7f009e26fc33282e37ba07b94fc8601597307d62507415c36c36',1,'Lighting::LightContext']]],
   ['rawmousemove_30',['RawMouseMove',['../class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a4d7c2c5bbb9fb983b8a637b819d9d265',1,'Input::InputEvent']]],
   ['rayanyhitshader_31',['RayAnyHitShader',['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bad487c4b91b47bc274c3df16b0e826d41',1,'Vulkan']]],
   ['rayanyhitshadervisibility_32',['RayAnyHitShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a8f10f0932da378ea3b2e8d36e3c79f39',1,'CoreGraphics']]],
@@ -41,10 +41,10 @@ var searchData=
   ['rayintersectionshadervisibility_38',['RayIntersectionShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a94ad86dbe23b3f8db45ea1d4e358adb9',1,'CoreGraphics']]],
   ['raymissshader_39',['RayMissShader',['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baf0a57a7a6f9864ed1c7ced3f97e50495',1,'Vulkan']]],
   ['raymissshadervisibility_40',['RayMissShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a2b65e38c87e53209e79f5c9552daab09',1,'CoreGraphics']]],
-  ['raytracing_5fallocation_41',['Raytracing_Allocation',['../class_raytracing_1_1_raytracing_context.html#a2f22211b116afdc26f1667e39b09ef1aab98ba825a763c48ff8f5d70206709210',1,'Raytracing::RaytracingContext']]],
-  ['raytracing_5fblases_42',['Raytracing_Blases',['../class_raytracing_1_1_raytracing_context.html#a2f22211b116afdc26f1667e39b09ef1aa45cb262e7b98a55b6c7b9c6876ae9b28',1,'Raytracing::RaytracingContext']]],
-  ['raytracing_5fnumstructures_43',['Raytracing_NumStructures',['../class_raytracing_1_1_raytracing_context.html#a2f22211b116afdc26f1667e39b09ef1aaeeebd4f8d64c0aca1b9058dba5ea9791',1,'Raytracing::RaytracingContext']]],
-  ['raytracing_5fupdatetype_44',['Raytracing_UpdateType',['../class_raytracing_1_1_raytracing_context.html#a2f22211b116afdc26f1667e39b09ef1aa57d6e850e35a6540643c4eb761d153e2',1,'Raytracing::RaytracingContext']]],
+  ['raytracing_5fallocation_41',['Raytracing_Allocation',['../class_raytracing_1_1_raytracing_context.html#a2720e4d5e8eaeb4e929feea935481712ab98ba825a763c48ff8f5d70206709210',1,'Raytracing::RaytracingContext']]],
+  ['raytracing_5fblases_42',['Raytracing_Blases',['../class_raytracing_1_1_raytracing_context.html#a2720e4d5e8eaeb4e929feea935481712a45cb262e7b98a55b6c7b9c6876ae9b28',1,'Raytracing::RaytracingContext']]],
+  ['raytracing_5fnumstructures_43',['Raytracing_NumStructures',['../class_raytracing_1_1_raytracing_context.html#a2720e4d5e8eaeb4e929feea935481712aeeebd4f8d64c0aca1b9058dba5ea9791',1,'Raytracing::RaytracingContext']]],
+  ['raytracing_5fupdatetype_44',['Raytracing_UpdateType',['../class_raytracing_1_1_raytracing_context.html#a2720e4d5e8eaeb4e929feea935481712a57d6e850e35a6540643c4eb761d153e2',1,'Raytracing::RaytracingContext']]],
   ['raytracingpipeline_45',['RayTracingPipeline',['../namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeafe56d4cdb0de51fd2a4d4677068dd630',1,'CoreGraphics']]],
   ['raytracingshaderread_46',['RayTracingShaderRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147ae297f0a3fc7cf515895f4b3813771b78',1,'CoreGraphics']]],
   ['raytracingshaderwrite_47',['RayTracingShaderWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a881126107bc9381df5239decb6e2cdfd',1,'CoreGraphics']]],
@@ -111,5 +111,5 @@ var searchData=
   ['rotationvelocity_108',['RotationVelocity',['../class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9a163f397de849e2184cfe6b8933234fbb',1,'Particles::EmitterAttrs']]],
   ['runjob_109',['RunJob',['../class_jobs_1_1_job_thread.html#a415cf5e45b831d470ba1bb23e55c3d8fabf80001318950ccce53e02f62880fff2',1,'Jobs::JobThread']]],
   ['running_110',['Running',['../class_linux_1_1_linux_thread.html#a0d16f5dbd84f062a814785d8ec274b6fa8dbd676037e1c3218b3ebc429d4258c5',1,'Linux::LinuxThread::Running'],['../class_o_s_x_1_1_o_s_x_thread.html#ab53eb19b42853ef22d46f64ecd3e11d7a349312712568f88b5887cf3f902ef7cb',1,'OSX::OSXThread::Running']]],
-  ['runtime_111',['Runtime',['../class_particles_1_1_particle_context.html#aa4840044a8430d6f412550b46c63f3a4a67a08f1a1a334408e504c01ab14c8be6',1,'Particles::ParticleContext']]]
+  ['runtime_111',['Runtime',['../class_particles_1_1_particle_context.html#a16d97b0423c2cfff432f2f6bbbeb1c1ba67a08f1a1a334408e504c01ab14c8be6',1,'Particles::ParticleContext']]]
 ];

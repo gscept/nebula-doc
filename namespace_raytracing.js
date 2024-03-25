@@ -40,7 +40,7 @@ var namespace_raytracing =
     [ "raytracingBundle", "namespace_raytracing.html#a630126188028bee203400229f7844903", null ],
     [ "raytracingTestOutput", "namespace_raytracing.html#a026af1cb9f09a56a97eeb54a1d7be374", null ],
     [ "raytracingTestTables", "namespace_raytracing.html#a72503e334a1390e6d29e9d0716a5d194", null ],
-    [ "state", "namespace_raytracing.html#a907b4e5ac65f643346c1d80ca2433284", null ],
+    [ "state", "namespace_raytracing.html#a4e60d1ade2458b2e337d2f96a3a03820", null ],
     [ "toplevelAccelerationStructure", "namespace_raytracing.html#abae74f37b928cda0b6aa1f69626d34ea", null ],
     [ "topLevelNeedsBuild", "namespace_raytracing.html#a7ba2f5e4b8b174d27aaca486b6bc06b7", null ],
     [ "topLevelNeedsReconstruction", "namespace_raytracing.html#a9accab6d42a845d2ea69a3d9e3f6bbe9", null ],

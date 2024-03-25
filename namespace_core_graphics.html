@@ -109,6 +109,7 @@ $(function(){initNavTree('namespace_core_graphics.html',''); initResizable(); })
 <p>Vertex layout declares the interface between application and vertex shader.</p>
 <p>A texture view is used on a texture to change the format, mip or layer range used to sample from in a shader.</p>
 <p>Texture related functions.</p>
+<p>A swapchain represents a set of backbuffers which the monitor fetches it's framebuffer from.</p>
 <p>Virtually mapped buffer.</p>
 <p>A pipeline object describes the GPU state required to perform a compute or graphics job.</p>
 <p>A pinned buffer is a type of GPU buffer which handles virtual paging automatically.</p>
@@ -419,6 +420,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_subpass_info.html">SubpassInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_swapchain_create_info.html">SwapchainCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_text_element.html">TextElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a text element for the text renderer.  <a href="class_core_graphics_1_1_text_element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -494,8 +499,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:aaecf95f10896b6f1cd4274f1d909e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6181f333ec8bbadc23a8a3e236ba96" id="r_a7c6181f333ec8bbadc23a8a3e236ba96"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6181f333ec8bbadc23a8a3e236ba96">ConstantBufferOffset</a></td></tr>
 <tr class="separator:a7c6181f333ec8bbadc23a8a3e236ba96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d154dcb192d10d6703813e18bd26ab2" id="r_a6d154dcb192d10d6703813e18bd26ab2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow *, <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a>, <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a>, <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d154dcb192d10d6703813e18bd26ab2">GLFWWindowAllocatorType</a></td></tr>
-<tr class="separator:a6d154dcb192d10d6703813e18bd26ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02da7ba9c95b4134cd3c82da32c9eee4" id="r_a02da7ba9c95b4134cd3c82da32c9eee4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow *, <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a>, <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a>, <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02da7ba9c95b4134cd3c82da32c9eee4">GLFWWindowAllocatorType</a></td></tr>
+<tr class="separator:a02da7ba9c95b4134cd3c82da32c9eee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b91aa8d9d536bc0f7dc97e74061b59d" id="r_a5b91aa8d9d536bc0f7dc97e74061b59d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_core_graphics_1_1_image_load_info.html">ImageLoadInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b91aa8d9d536bc0f7dc97e74061b59d">ImageAllocator</a></td></tr>
 <tr class="separator:a5b91aa8d9d536bc0f7dc97e74061b59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60be98450617bedad4b9d948f539396c" id="r_a60be98450617bedad4b9d948f539396c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF, <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, <a class="el" href="struct_core_graphics_1_1_____mesh.html">__Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60be98450617bedad4b9d948f539396c">MeshAllocator</a></td></tr>
@@ -729,8 +734,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aa5f03851c3b867f098f4aec9af088b34a6128956a49dd0870af12a095edb8be4e">GLFW_SwapFrame</a>
 , <a class="el" href="#aa5f03851c3b867f098f4aec9af088b34aa509f395508abbb1b361b9c78740dc38">GLFW_SetupInfo</a>
 , <br />
-&#160;&#160;<a class="el" href="#aa5f03851c3b867f098f4aec9af088b34a02177512b58de16b02e3a700200434ce">GLFW_Texture</a>
-, <a class="el" href="#aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f">GLFW_ResizeInfo</a>
+&#160;&#160;<a class="el" href="#aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f">GLFW_ResizeInfo</a>
+, <a class="el" href="#aa5f03851c3b867f098f4aec9af088b34a323467144d4645bd9600bc59455e2196">GLFW_Swapchain</a>
 <br />
  }</td></tr>
 <tr class="separator:aa5f03851c3b867f098f4aec9af088b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1374,6 +1379,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0b755f17e5238fe4cd9ce2432d829b22" id="r_a0b755f17e5238fe4cd9ce2432d829b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b755f17e5238fe4cd9ce2432d829b22">WindowPollEvents</a> ()</td></tr>
 <tr class="memdesc:a0b755f17e5238fe4cd9ce2432d829b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">poll events for window  <br /></td></tr>
 <tr class="separator:a0b755f17e5238fe4cd9ce2432d829b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2322d1d12409f1e51a8857094a8d40e7" id="r_a2322d1d12409f1e51a8857094a8d40e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2322d1d12409f1e51a8857094a8d40e7">WindowNewFrame</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a2322d1d12409f1e51a8857094a8d40e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do new frame stuff for window.  <br /></td></tr>
+<tr class="separator:a2322d1d12409f1e51a8857094a8d40e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25bfa0596685b1da1df5f308a4d61cc" id="r_ab25bfa0596685b1da1df5f308a4d61cc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25bfa0596685b1da1df5f308a4d61cc">WindowGetDisplayMode</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ab25bfa0596685b1da1df5f308a4d61cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">get display mode from window  <br /></td></tr>
 <tr class="separator:ab25bfa0596685b1da1df5f308a4d61cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1395,9 +1403,9 @@ Functions</h2></td></tr>
 <tr class="memitem:adc3f7f215d22e8850cebf00a3b7961e3" id="r_adc3f7f215d22e8850cebf00a3b7961e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc3f7f215d22e8850cebf00a3b7961e3">WindowGetIcon</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:adc3f7f215d22e8850cebf00a3b7961e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">get window icon  <br /></td></tr>
 <tr class="separator:adc3f7f215d22e8850cebf00a3b7961e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab4d652b6510b0f9a27ea186a394b8e" id="r_a6ab4d652b6510b0f9a27ea186a394b8e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab4d652b6510b0f9a27ea186a394b8e">WindowGetTexture</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a6ab4d652b6510b0f9a27ea186a394b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get render texture associated with window  <br /></td></tr>
-<tr class="separator:a6ab4d652b6510b0f9a27ea186a394b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7447b627ba1bdbc6207c0ffc7b28b1" id="r_a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">CoreGraphics::SwapchainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7447b627ba1bdbc6207c0ffc7b28b1">WindowGetSwapchain</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get swapchain associated with this window.  <br /></td></tr>
+<tr class="separator:a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb85204de7ba8c4d4be473e7f8c92650" id="r_adb85204de7ba8c4d4be473e7f8c92650"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb85204de7ba8c4d4be473e7f8c92650">CreateGraphicsDevice</a> (const <a class="el" href="struct_core_graphics_1_1_graphics_device_create_info.html">GraphicsDeviceCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:adb85204de7ba8c4d4be473e7f8c92650"><td class="mdescLeft">&#160;</td><td class="mdescRight">create graphics device  <br /></td></tr>
 <tr class="separator:adb85204de7ba8c4d4be473e7f8c92650"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1586,9 +1594,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a32027f43597c37147fb3151d01bd8d24" id="r_a32027f43597c37147fb3151d01bd8d24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; uint32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32027f43597c37147fb3151d01bd8d24">GetQueueIndices</a> ()</td></tr>
 <tr class="memdesc:a32027f43597c37147fb3151d01bd8d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get queue indices.  <br /></td></tr>
 <tr class="separator:a32027f43597c37147fb3151d01bd8d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db2c950d881cc3f156a7a1c34b5a164" id="r_a7db2c950d881cc3f156a7a1c34b5a164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db2c950d881cc3f156a7a1c34b5a164">Swap</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i)</td></tr>
-<tr class="memdesc:a7db2c950d881cc3f156a7a1c34b5a164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap.  <br /></td></tr>
-<tr class="separator:a7db2c950d881cc3f156a7a1c34b5a164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652d13ea6eaace5991d62d8b9524254f" id="r_a652d13ea6eaace5991d62d8b9524254f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652d13ea6eaace5991d62d8b9524254f">FinishFrame</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex)</td></tr>
 <tr class="memdesc:a652d13ea6eaace5991d62d8b9524254f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish current frame.  <br /></td></tr>
 <tr class="separator:a652d13ea6eaace5991d62d8b9524254f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1985,6 +1990,21 @@ Functions</h2></td></tr>
 <tr class="separator:a7755a8462404def0da166fa33dc5a268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3c5ac340197549525d6e86f1fb478f8" id="r_ac3c5ac340197549525d6e86f1fb478f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c5ac340197549525d6e86f1fb478f8">SaveTexture</a> (const Resources::ResourceId &amp;<a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7">CoreGraphics::ImageFileFormat::Code</a> code)</td></tr>
 <tr class="separator:ac3c5ac340197549525d6e86f1fb478f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4f42b898ccd8b801228b8a64665896" id="r_a9a4f42b898ccd8b801228b8a64665896"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a4f42b898ccd8b801228b8a64665896">CreateSwapchain</a> (const <a class="el" href="struct_core_graphics_1_1_swapchain_create_info.html">SwapchainCreateInfo</a> &amp;info)</td></tr>
+<tr class="memdesc:a9a4f42b898ccd8b801228b8a64665896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create swapchain.  <br /></td></tr>
+<tr class="separator:a9a4f42b898ccd8b801228b8a64665896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec07d5809b39413e12f8ba8c679482b" id="r_abec07d5809b39413e12f8ba8c679482b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec07d5809b39413e12f8ba8c679482b">DestroySwapchain</a> (const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:abec07d5809b39413e12f8ba8c679482b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy swapchain.  <br /></td></tr>
+<tr class="separator:abec07d5809b39413e12f8ba8c679482b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c74330d34d2958a947934b0b3db68d1" id="r_a9c74330d34d2958a947934b0b3db68d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c74330d34d2958a947934b0b3db68d1">SwapchainSwap</a> (const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a9c74330d34d2958a947934b0b3db68d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap buffers.  <br /></td></tr>
+<tr class="separator:a9c74330d34d2958a947934b0b3db68d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2855f910dde861ee1fed78a191cb89f" id="r_ae2855f910dde861ee1fed78a191cb89f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2855f910dde861ee1fed78a191cb89f">SwapchainCopy</a> (const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> source)</td></tr>
+<tr class="memdesc:ae2855f910dde861ee1fed78a191cb89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy to current backbuffer (call after swap)  <br /></td></tr>
+<tr class="separator:ae2855f910dde861ee1fed78a191cb89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aae10714ff88f126e2b762b77bc8936" id="r_a4aae10714ff88f126e2b762b77bc8936"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aae10714ff88f126e2b762b77bc8936">SwapchainPresent</a> (const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a4aae10714ff88f126e2b762b77bc8936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Present.  <br /></td></tr>
+<tr class="separator:a4aae10714ff88f126e2b762b77bc8936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe79c5b8c070439502f327218717a149" id="r_afe79c5b8c070439502f327218717a149"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe79c5b8c070439502f327218717a149">__ImplementSingleton</a> (<a class="el" href="class_core_graphics_1_1_text_renderer.html">CoreGraphics::TextRenderer</a>)</td></tr>
 <tr class="separator:afe79c5b8c070439502f327218717a149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a216650c21c270adf9da585fe6306b5de" id="r_a216650c21c270adf9da585fe6306b5de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a216650c21c270adf9da585fe6306b5de">TextureGenerateMipmaps</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
@@ -2042,11 +2062,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a9730a8817680318688ec1ce5b15b767f" id="r_a9730a8817680318688ec1ce5b15b767f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9730a8817680318688ec1ce5b15b767f">TextureGetStencilBindlessHandle</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a9730a8817680318688ec1ce5b15b767f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bindless texture handle  <br /></td></tr>
 <tr class="separator:a9730a8817680318688ec1ce5b15b767f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02f587ae8c1193fe3a46f6abb52b3e09" id="r_a02f587ae8c1193fe3a46f6abb52b3e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f587ae8c1193fe3a46f6abb52b3e09">TextureSwapBuffers</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a02f587ae8c1193fe3a46f6abb52b3e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">swap backbuffers for texture if texture is a backbuffer  <br /></td></tr>
-<tr class="separator:a02f587ae8c1193fe3a46f6abb52b3e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe3a6ac5bf0f7a13169172eaed3b1b07" id="r_afe3a6ac5bf0f7a13169172eaed3b1b07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3a6ac5bf0f7a13169172eaed3b1b07">TextureWindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:afe3a6ac5bf0f7a13169172eaed3b1b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle window resizing  <br /></td></tr>
+<tr class="memdesc:afe3a6ac5bf0f7a13169172eaed3b1b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">If texture is bound to the window resolution, reset the internal texture without mucking with the texture id.  <br /></td></tr>
 <tr class="separator:afe3a6ac5bf0f7a13169172eaed3b1b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13c1702fbdbc94fda39b04725844692a" id="r_a13c1702fbdbc94fda39b04725844692a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_sparse_page_size.html">TextureSparsePageSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13c1702fbdbc94fda39b04725844692a">TextureSparseGetPageSize</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a13c1702fbdbc94fda39b04725844692a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the texture page size, which is constant for the whole texture  <br /></td></tr>
@@ -2225,7 +2242,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3e635b47ada97adfd1af0873058ae47d" id="r_a3e635b47ada97adfd1af0873058ae47d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6d154dcb192d10d6703813e18bd26ab2">GLFWWindowAllocatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e635b47ada97adfd1af0873058ae47d">glfwWindowAllocator</a> (0x00FFFFFF)</td></tr>
+<tr class="memitem:a37aab015edf8e1a85c05d828473b8806" id="r_a37aab015edf8e1a85c05d828473b8806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37aab015edf8e1a85c05d828473b8806">CurrentWindow</a></td></tr>
+<tr class="separator:a37aab015edf8e1a85c05d828473b8806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e635b47ada97adfd1af0873058ae47d" id="r_a3e635b47ada97adfd1af0873058ae47d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a02da7ba9c95b4134cd3c82da32c9eee4">GLFWWindowAllocatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e635b47ada97adfd1af0873058ae47d">glfwWindowAllocator</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a3e635b47ada97adfd1af0873058ae47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac75a1a6d3974d62c75e205d6cd9e97b2" id="r_ac75a1a6d3974d62c75e205d6cd9e97b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac75a1a6d3974d62c75e205d6cd9e97b2">RayTracingSupported</a> = false</td></tr>
 <tr class="separator:ac75a1a6d3974d62c75e205d6cd9e97b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2340,14 +2359,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d154dcb192d10d6703813e18bd26ab2" name="a6d154dcb192d10d6703813e18bd26ab2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d154dcb192d10d6703813e18bd26ab2">&#9670;&#160;</a></span>GLFWWindowAllocatorType</h2>
+<a id="a02da7ba9c95b4134cd3c82da32c9eee4" name="a02da7ba9c95b4134cd3c82da32c9eee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02da7ba9c95b4134cd3c82da32c9eee4">&#9670;&#160;</a></span>GLFWWindowAllocatorType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow* , <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a> , <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> , <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a> , <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> , <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a>&gt; <a class="el" href="#a6d154dcb192d10d6703813e18bd26ab2">CoreGraphics::GLFWWindowAllocatorType</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow* , <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a> , <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> , <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a> , <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a> , <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a>&gt; <a class="el" href="#a02da7ba9c95b4134cd3c82da32c9eee4">CoreGraphics::GLFWWindowAllocatorType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2413,8 +2432,8 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34a8b1aee642dfc6562958e9671894004ce" name="aa5f03851c3b867f098f4aec9af088b34a8b1aee642dfc6562958e9671894004ce"></a>GLFW_DisplayMode&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34a6128956a49dd0870af12a095edb8be4e" name="aa5f03851c3b867f098f4aec9af088b34a6128956a49dd0870af12a095edb8be4e"></a>GLFW_SwapFrame&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34aa509f395508abbb1b361b9c78740dc38" name="aa5f03851c3b867f098f4aec9af088b34aa509f395508abbb1b361b9c78740dc38"></a>GLFW_SetupInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34a02177512b58de16b02e3a700200434ce" name="aa5f03851c3b867f098f4aec9af088b34a02177512b58de16b02e3a700200434ce"></a>GLFW_Texture&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f" name="aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f"></a>GLFW_ResizeInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5f03851c3b867f098f4aec9af088b34a323467144d4645bd9600bc59455e2196" name="aa5f03851c3b867f098f4aec9af088b34a323467144d4645bd9600bc59455e2196"></a>GLFW_Swapchain&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -7508,6 +7527,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a9a4f42b898ccd8b801228b8a64665896" name="a9a4f42b898ccd8b801228b8a64665896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4f42b898ccd8b801228b8a64665896">&#9670;&#160;</a></span>CreateSwapchain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> CoreGraphics::CreateSwapchain </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_swapchain_create_info.html">SwapchainCreateInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create swapchain. </p>
+
+</div>
+</div>
 <a id="afd701776510676d10ed7784f494fdc98" name="afd701776510676d10ed7784f494fdc98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd701776510676d10ed7784f494fdc98">&#9670;&#160;</a></span>CreateTexture()</h2>
 
@@ -8263,6 +8301,25 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>destroy sparse buffers </p>
+
+</div>
+</div>
+<a id="abec07d5809b39413e12f8ba8c679482b" name="abec07d5809b39413e12f8ba8c679482b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec07d5809b39413e12f8ba8c679482b">&#9670;&#160;</a></span>DestroySwapchain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::DestroySwapchain </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy swapchain. </p>
 
 </div>
 </div>
@@ -12129,22 +12186,69 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a7db2c950d881cc3f156a7a1c34b5a164" name="a7db2c950d881cc3f156a7a1c34b5a164"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7db2c950d881cc3f156a7a1c34b5a164">&#9670;&#160;</a></span>Swap()</h2>
+<a id="ae2855f910dde861ee1fed78a191cb89f" name="ae2855f910dde861ee1fed78a191cb89f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2855f910dde861ee1fed78a191cb89f">&#9670;&#160;</a></span>SwapchainCopy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CoreGraphics::Swap </td>
+          <td class="memname">void CoreGraphics::SwapchainCopy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a></td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a></td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy to current backbuffer (call after swap) </p>
+
+</div>
+</div>
+<a id="a4aae10714ff88f126e2b762b77bc8936" name="a4aae10714ff88f126e2b762b77bc8936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aae10714ff88f126e2b762b77bc8936">&#9670;&#160;</a></span>SwapchainPresent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::SwapchainPresent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Swap. </p>
+<p>Present. </p>
+
+</div>
+</div>
+<a id="a9c74330d34d2958a947934b0b3db68d1" name="a9c74330d34d2958a947934b0b3db68d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c74330d34d2958a947934b0b3db68d1">&#9670;&#160;</a></span>SwapchainSwap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::SwapchainSwap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Swap buffers. </p>
 
 </div>
 </div>
@@ -12923,25 +13027,6 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a02f587ae8c1193fe3a46f6abb52b3e09" name="a02f587ae8c1193fe3a46f6abb52b3e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02f587ae8c1193fe3a46f6abb52b3e09">&#9670;&#160;</a></span>TextureSwapBuffers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> CoreGraphics::TextureSwapBuffers </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>swap backbuffers for texture if texture is a backbuffer </p>
-
-</div>
-</div>
 <a id="a5346ed350033cb47650845080c1ad794" name="a5346ed350033cb47650845080c1ad794"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5346ed350033cb47650845080c1ad794">&#9670;&#160;</a></span>TextureTypeFromString()</h2>
 
@@ -13098,7 +13183,7 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>handle window resizing </p>
+<p>If texture is bound to the window resolution, reset the internal texture without mucking with the texture id. </p>
 
 </div>
 </div>
@@ -13868,14 +13953,14 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a6ab4d652b6510b0f9a27ea186a394b8e" name="a6ab4d652b6510b0f9a27ea186a394b8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ab4d652b6510b0f9a27ea186a394b8e">&#9670;&#160;</a></span>WindowGetTexture()</h2>
+<a id="a9c7447b627ba1bdbc6207c0ffc7b28b1" name="a9c7447b627ba1bdbc6207c0ffc7b28b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7447b627ba1bdbc6207c0ffc7b28b1">&#9670;&#160;</a></span>WindowGetSwapchain()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &amp; CoreGraphics::WindowGetTexture </td>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">CoreGraphics::SwapchainId</a> CoreGraphics::WindowGetSwapchain </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
@@ -13883,7 +13968,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>get render texture associated with window </p>
+<p>Get swapchain associated with this window. </p>
 
 </div>
 </div>
@@ -13979,6 +14064,25 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>make window 'current' </p>
+
+</div>
+</div>
+<a id="a2322d1d12409f1e51a8857094a8d40e7" name="a2322d1d12409f1e51a8857094a8d40e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2322d1d12409f1e51a8857094a8d40e7">&#9670;&#160;</a></span>WindowNewFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::WindowNewFrame </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Do new frame stuff for window. </p>
 
 </div>
 </div>
@@ -14186,6 +14290,20 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a37aab015edf8e1a85c05d828473b8806" name="a37aab015edf8e1a85c05d828473b8806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37aab015edf8e1a85c05d828473b8806">&#9670;&#160;</a></span>CurrentWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> CoreGraphics::CurrentWindow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4a8a9800efe6c8f38748586ccaabf2fc" name="a4a8a9800efe6c8f38748586ccaabf2fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a8a9800efe6c8f38748586ccaabf2fc">&#9670;&#160;</a></span>DiskMesh</h2>
 
@@ -14221,7 +14339,7 @@ template&lt;&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a6d154dcb192d10d6703813e18bd26ab2">GLFWWindowAllocatorType</a> CoreGraphics::glfwWindowAllocator </td>
+          <td class="memname"><a class="el" href="#a02da7ba9c95b4134cd3c82da32c9eee4">GLFWWindowAllocatorType</a> CoreGraphics::glfwWindowAllocator </td>
           <td>(</td>
           <td class="paramtype">0x00FFFFFF</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -14648,7 +14766,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Thu Mar 21 2024 09:47:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 25 2024 16:39:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

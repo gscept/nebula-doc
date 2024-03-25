@@ -27,6 +27,7 @@ var class_frame_1_1_frame_op =
     [ "FrameSubgraph", "class_frame_1_1_frame_op.html#affec679ba3df3acd1de301aad0589b65", null ],
     [ "FrameSubmission", "class_frame_1_1_frame_op.html#a760d7cc2f387022caf0ea7d4a88619f4", null ],
     [ "FrameSubpass", "class_frame_1_1_frame_op.html#a30069c5967725cc0022ee8861a0e8429", null ],
+    [ "bufferDepRefs", "class_frame_1_1_frame_op.html#a2c43a29b588c1281f18d65a1f7cc5850", null ],
     [ "bufferDeps", "class_frame_1_1_frame_op.html#a24346aa967b37c2ab0db406acef3aff3", null ],
     [ "children", "class_frame_1_1_frame_op.html#a4b4d95c8644a23505cb656440fd7f7f3", null ],
     [ "childrenByName", "class_frame_1_1_frame_op.html#a7adb676d62a912333e65398c49cb3e98", null ],
@@ -36,5 +37,6 @@ var class_frame_1_1_frame_op =
     [ "index", "class_frame_1_1_frame_op.html#a7288cd3ed962883d96f531794ed7dfd2", null ],
     [ "name", "class_frame_1_1_frame_op.html#a1cbedc9477ec38023d0b39aa24020676", null ],
     [ "queue", "class_frame_1_1_frame_op.html#a9659467b4f0b472505ea414ed381603f", null ],
+    [ "textureDepRefs", "class_frame_1_1_frame_op.html#a4b477850054811fbac2ed66fe5943758", null ],
     [ "textureDeps", "class_frame_1_1_frame_op.html#abdf11dcc0d3b30501210d301d0e1d701", null ]
 ];

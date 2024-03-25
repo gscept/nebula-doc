@@ -21,7 +21,7 @@ var searchData=
   ['variantallocator_18',['variantAllocator',['../namespace_materials.html#ae0df99b4267083a9b8fdf98d2a210a6e',1,'Materials']]],
   ['variantallocatorlock_19',['variantAllocatorLock',['../namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e',1,'Materials']]],
   ['variationresid_20',['variationResId',['../class_models_1_1_character_node.html#a0ffe517f044162d546e449610aca4fc8',1,'Models::CharacterNode']]],
-  ['vars_21',['vars',['../namespace_post_effects.html#ac972a4ecb8c5b8d78ee8ff403b4dab15',1,'PostEffects']]],
+  ['vars_21',['vars',['../namespace_post_effects.html#ae70fc3a1fc5435a3998a421da90847b1',1,'PostEffects']]],
   ['varscalex_22',['varScaleX',['../struct_characters_1_1_skeleton_job_joint.html#a77b3463378fa1f36b8f9cf55fe644428',1,'Characters::SkeletonJobJoint']]],
   ['varscaley_23',['varScaleY',['../struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22',1,'Characters::SkeletonJobJoint']]],
   ['varscalez_24',['varScaleZ',['../struct_characters_1_1_skeleton_job_joint.html#a123035d7758df5dab8ba6913c3ad3fa3',1,'Characters::SkeletonJobJoint']]],
@@ -49,7 +49,7 @@ var searchData=
   ['vegetationmeshvcolorshader_46',['vegetationMeshVColorShader',['../namespace_vegetation.html#a348f7e95ecd8b64dffb018c978e3d17f',1,'Vegetation']]],
   ['vegetationmeshvcolorzshader_47',['vegetationMeshVColorZShader',['../namespace_vegetation.html#a2ba66228b20e864a187c33bc692bc917',1,'Vegetation']]],
   ['vegetationmeshzshader_48',['vegetationMeshZShader',['../namespace_vegetation.html#aa93b8cc40f63c8fd919571209cca145f',1,'Vegetation']]],
-  ['vegetationstate_49',['vegetationState',['../namespace_vegetation.html#a6f2ea9250ed3816fb73dc40c859a1787',1,'Vegetation']]],
+  ['vegetationstate_49',['vegetationState',['../namespace_vegetation.html#a1afb2044935827075aa47072ae562c7e',1,'Vegetation']]],
   ['velocity_50',['velocity',['../struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28',1,'Audio::AudioDevice::Listener::velocity'],['../struct_particles_1_1_particle.html#a897e064f1c82a0e9efb1ebe531f4d334',1,'Particles::Particle::velocity']]],
   ['velocityscale_51',['velocityScale',['../struct_core_animation_1_1_anim_sample_mix_info.html#a883fc8fa08a0aa29bd5266392af6a63a',1,'CoreAnimation::AnimSampleMixInfo']]],
   ['vendorid_52',['vendorId',['../class_core_graphics_1_1_adapter_info.html#a02b0dc10b3c8ecb5da01cceaea81b4a3',1,'CoreGraphics::AdapterInfo']]],
@@ -136,5 +136,5 @@ var searchData=
   ['vps_133',['vps',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_viewport_array_command.html#a4a46a5c975fcd0fd6e324b6da58fd59a',1,'Vulkan::VkCommandBufferThread::VkViewportArrayCommand']]],
   ['vs_134',['vs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#ac4f78ba3e5d8e2f5fbef9bd5bfd430a1',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['vsinputslots_135',['vsInputSlots',['../struct_vulkan_1_1_vk_program_reflection_info.html#ad5cee8e4f50ff36e81e70508fbfdc1b5',1,'Vulkan::VkProgramReflectionInfo']]],
-  ['vsync_136',['vsync',['../struct_core_graphics_1_1_resize_info.html#add7eea70ab5eaa6278ef6effa715393c',1,'CoreGraphics::ResizeInfo::vsync'],['../struct_core_graphics_1_1_window_create_info.html#a69cb83a50b2b1bb40b7d804515d22535',1,'CoreGraphics::WindowCreateInfo::vsync']]]
+  ['vsync_136',['vsync',['../struct_core_graphics_1_1_resize_info.html#add7eea70ab5eaa6278ef6effa715393c',1,'CoreGraphics::ResizeInfo::vsync'],['../struct_core_graphics_1_1_swapchain_create_info.html#a4c7df7c30787db064b49a7ebc47ec397',1,'CoreGraphics::SwapchainCreateInfo::vsync'],['../struct_core_graphics_1_1_window_create_info.html#a69cb83a50b2b1bb40b7d804515d22535',1,'CoreGraphics::WindowCreateInfo::vsync']]]
 ];

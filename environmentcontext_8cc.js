@@ -7,7 +7,7 @@ var environmentcontext_8cc =
     [ "bloomIntensity", "environmentcontext_8cc.html#af7a235a44a57a5230a0c77a998b748bc", null ],
     [ "defaultEnvironmentMap", "environmentcontext_8cc.html#a74411be0c6361031a445c3ba5ab92338", null ],
     [ "defaultIrradianceMap", "environmentcontext_8cc.html#a7fe1a61b8fd0cda6adaf308aa8e9875b", null ],
-    [ "envState", "environmentcontext_8cc.html#a66e59b9065bbb7f538dedf2f7e28c997", null ],
+    [ "envState", "environmentcontext_8cc.html#a25b6013f19114a9cfcd462677e0abc60", null ],
     [ "fadeValue", "environmentcontext_8cc.html#a59b2c10e71a83b37136cb7b98a156484", null ],
     [ "fogColor", "environmentcontext_8cc.html#afc6092a68fac0c045ca3e0dcb797ce52", null ],
     [ "fogDistances", "environmentcontext_8cc.html#a86701bc7b775b0461c524a4e8b339bb9", null ],

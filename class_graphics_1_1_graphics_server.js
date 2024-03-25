@@ -8,7 +8,7 @@ var class_graphics_1_1_graphics_server =
     [ "CreateGraphicsEntity", "class_graphics_1_1_graphics_server.html#a63c5cb4f30478967bfe88ded84ff20aa", null ],
     [ "CreateStage", "class_graphics_1_1_graphics_server.html#adf998e8dd7d568ccd11eadaff1c366a8", null ],
     [ "CreateView", "class_graphics_1_1_graphics_server.html#a15ddd78ef8b116fddf9a33b16b7cf302", null ],
-    [ "CreateView", "class_graphics_1_1_graphics_server.html#ad783fe049af50479e7d09591e7cd41ef", null ],
+    [ "CreateView", "class_graphics_1_1_graphics_server.html#a39b2425fc26aa553cc1c966a605faea8", null ],
     [ "DiscardGraphicsEntity", "class_graphics_1_1_graphics_server.html#a25940fa06cd4d669661ece13ffa7c101", null ],
     [ "DiscardStage", "class_graphics_1_1_graphics_server.html#a1e4ddf295da293064c616fb4b6ca73c3", null ],
     [ "DiscardView", "class_graphics_1_1_graphics_server.html#aae0bf5efd2a2f61a3f3cd14a6364e85a", null ],

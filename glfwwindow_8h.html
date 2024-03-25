@@ -104,6 +104,7 @@ $(function(){initNavTree('glfwwindow_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="fixedarray_8h_source.html">util/fixedarray.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="window_8h_source.html">coregraphics/window.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="displaymode_8h_source.html">coregraphics/displaymode.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="swapchain_8h_source.html">coregraphics/swapchain.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 </div>
 <p><a href="glfwwindow_8h_source.html">Go to the source code of this file.</a></p>
@@ -123,8 +124,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6d154dcb192d10d6703813e18bd26ab2" id="r_a6d154dcb192d10d6703813e18bd26ab2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow *, <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a>, <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a>, <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6d154dcb192d10d6703813e18bd26ab2">CoreGraphics::GLFWWindowAllocatorType</a></td></tr>
-<tr class="separator:a6d154dcb192d10d6703813e18bd26ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02da7ba9c95b4134cd3c82da32c9eee4" id="r_a02da7ba9c95b4134cd3c82da32c9eee4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; GLFWwindow *, <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_window_create_info.html">WindowCreateInfo</a>, <a class="el" href="struct_core_graphics_1_1_resize_info.html">ResizeInfo</a>, <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">SwapchainId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a02da7ba9c95b4134cd3c82da32c9eee4">CoreGraphics::GLFWWindowAllocatorType</a></td></tr>
+<tr class="separator:a02da7ba9c95b4134cd3c82da32c9eee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -134,8 +135,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a6128956a49dd0870af12a095edb8be4e">CoreGraphics::GLFW_SwapFrame</a>
 , <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34aa509f395508abbb1b361b9c78740dc38">CoreGraphics::GLFW_SetupInfo</a>
 , <br />
-&#160;&#160;<a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a02177512b58de16b02e3a700200434ce">CoreGraphics::GLFW_Texture</a>
-, <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f">CoreGraphics::GLFW_ResizeInfo</a>
+&#160;&#160;<a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a7a6dee0e43df7304630dce8801baf53f">CoreGraphics::GLFW_ResizeInfo</a>
+, <a class="el" href="namespace_core_graphics.html#aa5f03851c3b867f098f4aec9af088b34a323467144d4645bd9600bc59455e2196">CoreGraphics::GLFW_Swapchain</a>
 <br />
  }</td></tr>
 <tr class="separator:aa5f03851c3b867f098f4aec9af088b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +208,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_40094bcf143f2ba82283e9b3e6347ba8.html">glfw</a></li><li class="navelem"><a class="el" href="glfwwindow_8h.html">glfwwindow.h</a></li>
 				<li class="footer">
-					Generated on Thu Mar 21 2024 09:47:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 25 2024 16:38:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -58,14 +58,14 @@ var namespace_materials =
     [ "bindings", "namespace_materials.html#a8e93897eca9dad723f5b98becb3fb32e", null ],
     [ "bits", "namespace_materials.html#a6d4f485fd3d958a93a3b0d3a5de574cd", null ],
     [ "computeDirty", "namespace_materials.html#a9a2fe8308c947c205a49248b501052a4", null ],
-    [ "dirtySet", "namespace_materials.html#ab4f3e08ada3c65bd05350962ec4b094c", null ],
+    [ "dirtySet", "namespace_materials.html#a9a5903cdcb1ce0e1459ce9a441262728", null ],
     [ "graphicsDirty", "namespace_materials.html#ac37785012da1cde7b693eb85392965ee", null ],
     [ "material", "namespace_materials.html#aed8f2753977b2237906857e07d0594ee", null ],
     [ "materialAllocator", "namespace_materials.html#a941d0277ca29f53a5d76edc5375112a1", null ],
     [ "materialBindingBuffer", "namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c", null ],
     [ "materialInstanceAllocator", "namespace_materials.html#ab86483cfc9215ac57a30f8e352ff0a9c", null ],
     [ "materialTextureLoadSection", "namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac", null ],
-    [ "state", "namespace_materials.html#a8cc0891c40220ceb8778ab00d1004eaa", null ],
+    [ "state", "namespace_materials.html#af508d125413b6aa64ea81b83d4da6b4c", null ],
     [ "variantAllocator", "namespace_materials.html#ae0df99b4267083a9b8fdf98d2a210a6e", null ],
     [ "variantAllocatorLock", "namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e", null ]
 ];

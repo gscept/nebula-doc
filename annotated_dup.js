@@ -279,6 +279,8 @@ var annotated_dup =
       [ "SubmissionWaitEvent", "struct_core_graphics_1_1_submission_wait_event.html", "struct_core_graphics_1_1_submission_wait_event" ],
       [ "Subpass", "struct_core_graphics_1_1_subpass.html", "struct_core_graphics_1_1_subpass" ],
       [ "SubpassInfo", "struct_core_graphics_1_1_subpass_info.html", "struct_core_graphics_1_1_subpass_info" ],
+      [ "SwapchainCreateInfo", "struct_core_graphics_1_1_swapchain_create_info.html", "struct_core_graphics_1_1_swapchain_create_info" ],
+      [ "SwapchainId", "struct_core_graphics_1_1_swapchain_id.html", null ],
       [ "TextElement", "class_core_graphics_1_1_text_element.html", "class_core_graphics_1_1_text_element" ],
       [ "TextureBarrier", "struct_core_graphics_1_1_texture_barrier.html", "struct_core_graphics_1_1_texture_barrier" ],
       [ "TextureBarrierInfo", "struct_core_graphics_1_1_texture_barrier_info.html", "struct_core_graphics_1_1_texture_barrier_info" ],
@@ -1135,7 +1137,6 @@ var annotated_dup =
       [ "VkTextureSwapInfo", "struct_vulkan_1_1_vk_texture_swap_info.html", "struct_vulkan_1_1_vk_texture_swap_info" ],
       [ "VkTextureViewLoadInfo", "struct_vulkan_1_1_vk_texture_view_load_info.html", "struct_vulkan_1_1_vk_texture_view_load_info" ],
       [ "VkTextureViewRuntimeInfo", "struct_vulkan_1_1_vk_texture_view_runtime_info.html", "struct_vulkan_1_1_vk_texture_view_runtime_info" ],
-      [ "VkTextureWindowInfo", "struct_vulkan_1_1_vk_texture_window_info.html", "struct_vulkan_1_1_vk_texture_window_info" ],
       [ "VkTypes", "class_vulkan_1_1_vk_types.html", "class_vulkan_1_1_vk_types" ],
       [ "WriteInfo", "struct_vulkan_1_1_write_info.html", "struct_vulkan_1_1_write_info" ]
     ] ],

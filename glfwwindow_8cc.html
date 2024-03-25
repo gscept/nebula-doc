@@ -105,6 +105,7 @@ $(function(){initNavTree('glfwwindow_8cc.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="displayevent_8h_source.html">coregraphics/displayevent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="displaydevice_8h_source.html">coregraphics/displaydevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scalar_8h_source.html">math/scalar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="swapchain_8h_source.html">coregraphics/swapchain.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -208,6 +209,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0b755f17e5238fe4cd9ce2432d829b22" id="r_a0b755f17e5238fe4cd9ce2432d829b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a0b755f17e5238fe4cd9ce2432d829b22">CoreGraphics::WindowPollEvents</a> ()</td></tr>
 <tr class="memdesc:a0b755f17e5238fe4cd9ce2432d829b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">poll events for window  <br /></td></tr>
 <tr class="separator:a0b755f17e5238fe4cd9ce2432d829b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2322d1d12409f1e51a8857094a8d40e7" id="r_a2322d1d12409f1e51a8857094a8d40e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2322d1d12409f1e51a8857094a8d40e7">CoreGraphics::WindowNewFrame</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a2322d1d12409f1e51a8857094a8d40e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do new frame stuff for window.  <br /></td></tr>
+<tr class="separator:a2322d1d12409f1e51a8857094a8d40e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25bfa0596685b1da1df5f308a4d61cc" id="r_ab25bfa0596685b1da1df5f308a4d61cc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_core_graphics_1_1_display_mode.html">CoreGraphics::DisplayMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab25bfa0596685b1da1df5f308a4d61cc">CoreGraphics::WindowGetDisplayMode</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ab25bfa0596685b1da1df5f308a4d61cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">get display mode from window  <br /></td></tr>
 <tr class="separator:ab25bfa0596685b1da1df5f308a4d61cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,13 +233,15 @@ Functions</h2></td></tr>
 <tr class="memitem:adc3f7f215d22e8850cebf00a3b7961e3" id="r_adc3f7f215d22e8850cebf00a3b7961e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#adc3f7f215d22e8850cebf00a3b7961e3">CoreGraphics::WindowGetIcon</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:adc3f7f215d22e8850cebf00a3b7961e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">get window icon  <br /></td></tr>
 <tr class="separator:adc3f7f215d22e8850cebf00a3b7961e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab4d652b6510b0f9a27ea186a394b8e" id="r_a6ab4d652b6510b0f9a27ea186a394b8e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6ab4d652b6510b0f9a27ea186a394b8e">CoreGraphics::WindowGetTexture</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a6ab4d652b6510b0f9a27ea186a394b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get render texture associated with window  <br /></td></tr>
-<tr class="separator:a6ab4d652b6510b0f9a27ea186a394b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7447b627ba1bdbc6207c0ffc7b28b1" id="r_a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_swapchain_id.html">CoreGraphics::SwapchainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9c7447b627ba1bdbc6207c0ffc7b28b1">CoreGraphics::WindowGetSwapchain</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get swapchain associated with this window.  <br /></td></tr>
+<tr class="separator:a9c7447b627ba1bdbc6207c0ffc7b28b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3e635b47ada97adfd1af0873058ae47d" id="r_a3e635b47ada97adfd1af0873058ae47d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a6d154dcb192d10d6703813e18bd26ab2">GLFWWindowAllocatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a3e635b47ada97adfd1af0873058ae47d">CoreGraphics::glfwWindowAllocator</a> (0x00FFFFFF)</td></tr>
+<tr class="memitem:a37aab015edf8e1a85c05d828473b8806" id="r_a37aab015edf8e1a85c05d828473b8806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a37aab015edf8e1a85c05d828473b8806">CoreGraphics::CurrentWindow</a></td></tr>
+<tr class="separator:a37aab015edf8e1a85c05d828473b8806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e635b47ada97adfd1af0873058ae47d" id="r_a3e635b47ada97adfd1af0873058ae47d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a02da7ba9c95b4134cd3c82da32c9eee4">GLFWWindowAllocatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a3e635b47ada97adfd1af0873058ae47d">CoreGraphics::glfwWindowAllocator</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a3e635b47ada97adfd1af0873058ae47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -245,7 +251,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_40094bcf143f2ba82283e9b3e6347ba8.html">glfw</a></li><li class="navelem"><a class="el" href="glfwwindow_8cc.html">glfwwindow.cc</a></li>
 				<li class="footer">
-					Generated on Thu Mar 21 2024 09:47:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Mar 25 2024 16:38:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
