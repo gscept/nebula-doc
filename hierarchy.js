@@ -847,7 +847,6 @@ var hierarchy =
     [ "CameraSettings", "class_shared_1_1_camera_settings.html", null ],
     [ "Im3d::Capsule", "struct_im3d_1_1_capsule.html", null ],
     [ "Lighting::CSMUtil::CascadeFrustum", "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html", null ],
-    [ "Game::CategoryCreateInfo", "struct_game_1_1_category_create_info.html", null ],
     [ "Characters::CharacterJobContext", "struct_characters_1_1_character_job_context.html", null ],
     [ "Characters::CharacterJoint", "struct_characters_1_1_character_joint.html", null ],
     [ "CharacterMaterialSkinNode", "class_characters_1_1_character_material_skin_node.html", null ],
@@ -1029,6 +1028,7 @@ var hierarchy =
     [ "Nebula.Game.EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", null ],
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", null ],
     [ "Game::EntityPool", "class_game_1_1_entity_pool.html", null ],
+    [ "Game::EntityTableCreateInfo", "struct_game_1_1_entity_table_create_info.html", null ],
     [ "Nebula.Game.EntityTemplate", "class_nebula_1_1_game_1_1_entity_template.html", null ],
     [ "CoreGraphics::RayDispatchTable::Entry", "struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html", null ],
     [ "MaterialTemplates::Entry", "struct_material_templates_1_1_entry.html", null ],
@@ -1894,6 +1894,7 @@ var hierarchy =
       [ "Base::TextRendererBase", "class_base_1_1_text_renderer_base.html", [
         [ "Vulkan::VkTextRenderer", "class_vulkan_1_1_vk_text_renderer.html", null ]
       ] ],
+      [ "BaseGameFeature::LevelParser", "class_base_game_feature_1_1_level_parser.html", null ],
       [ "Core::CoreServer", "class_core_1_1_core_server.html", null ],
       [ "CoreAnimation::AnimKeyBuffer", "class_core_animation_1_1_anim_key_buffer.html", null ],
       [ "CoreGraphics::DisplayEventHandler", "class_core_graphics_1_1_display_event_handler.html", [
@@ -2530,8 +2531,8 @@ var hierarchy =
     [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32::Win32ReadWriteLock", "class_win32_1_1_win32_read_write_lock.html", null ],
     [ "Win32::Win32Registry", "class_win32_1_1_win32_registry.html", null ],
-    [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
     [ "Win32Stacktrace", "class_win32_1_1_win32_stacktrace.html", null ],
+    [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],
     [ "Win32::Win32StringConverter", "class_win32_1_1_win32_string_converter.html", null ],
     [ "Win32::Win32SystemInfo", "class_win32_1_1_win32_system_info.html", null ],
     [ "Win32::Win32ThreadBarrier", "class_win32_1_1_win32_thread_barrier.html", null ],

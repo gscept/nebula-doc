@@ -5,5 +5,7 @@ var dir_8b725255f0be590c3f86ea79f422651a =
     [ "basegamefeatureunit.cc", "basegamefeatureunit_8cc.html", "basegamefeatureunit_8cc" ],
     [ "basegamefeatureunit.h", "basegamefeatureunit_8h.html", "basegamefeatureunit_8h" ],
     [ "level.cc", "level_8cc.html", null ],
-    [ "level.h", "level_8h.html", "level_8h" ]
+    [ "level.h", "level_8h.html", "level_8h" ],
+    [ "levelparser.cc", "levelparser_8cc.html", "levelparser_8cc" ],
+    [ "levelparser.h", "levelparser_8h.html", "levelparser_8h" ]
 ];

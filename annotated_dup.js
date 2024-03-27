@@ -91,7 +91,8 @@ var annotated_dup =
       [ "VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ]
     ] ],
     [ "BaseGameFeature", "namespace_base_game_feature.html", [
-      [ "BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html", "class_base_game_feature_1_1_base_game_feature_unit" ]
+      [ "BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html", "class_base_game_feature_1_1_base_game_feature_unit" ],
+      [ "LevelParser", "class_base_game_feature_1_1_level_parser.html", "class_base_game_feature_1_1_level_parser" ]
     ] ],
     [ "Characters", "namespace_characters.html", [
       [ "CharacterContext", "class_characters_1_1_character_context.html", "class_characters_1_1_character_context" ],
@@ -425,7 +426,6 @@ var annotated_dup =
       [ "AngularVelocity", "struct_game_1_1_angular_velocity.html", "struct_game_1_1_angular_velocity" ],
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
       [ "BlueprintManager", "class_game_1_1_blueprint_manager.html", "class_game_1_1_blueprint_manager" ],
-      [ "CategoryCreateInfo", "struct_game_1_1_category_create_info.html", "struct_game_1_1_category_create_info" ],
       [ "ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
       [ "ComponentInspection", "class_game_1_1_component_inspection.html", "class_game_1_1_component_inspection" ],
       [ "ComponentInterface", "class_game_1_1_component_interface.html", "class_game_1_1_component_interface" ],
@@ -436,6 +436,7 @@ var annotated_dup =
       [ "EntityCreateInfo", "struct_game_1_1_entity_create_info.html", "struct_game_1_1_entity_create_info" ],
       [ "EntityMapping", "struct_game_1_1_entity_mapping.html", "struct_game_1_1_entity_mapping" ],
       [ "EntityPool", "class_game_1_1_entity_pool.html", "class_game_1_1_entity_pool" ],
+      [ "EntityTableCreateInfo", "struct_game_1_1_entity_table_create_info.html", "struct_game_1_1_entity_table_create_info" ],
       [ "FeatureUnit", "class_game_1_1_feature_unit.html", "class_game_1_1_feature_unit" ],
       [ "FilterBuilder", "class_game_1_1_filter_builder.html", "class_game_1_1_filter_builder" ],
       [ "FrameEvent", "class_game_1_1_frame_event.html", "class_game_1_1_frame_event" ],

@@ -117,8 +117,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_blueprint_manager.html">BlueprintManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the 'data:tables/blueprint.json' file and subsequently sets up categories based on the blueprints in the entity manager.  <a href="class_game_1_1_blueprint_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_category_create_info.html">CategoryCreateInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_component_decay_buffer.html">ComponentDecayBuffer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data for components flagged with COMPONENTFLAG_DECAY, that has been deleted this frame.  <a href="struct_game_1_1_component_decay_buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +145,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_entity_pool.html">EntityPool</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generation pool.  <a href="class_game_1_1_entity_pool.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_entity_table_create_info.html">EntityTableCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> is an encapsulated feature which can be added to an application.  <a href="class_game_1_1_feature_unit.html#details">More...</a><br /></td></tr>
@@ -353,6 +353,10 @@ Functions</h2></td></tr>
 <tr class="separator:a84d23932cc3378e918db65cf24fec44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ff23edac94487d2f00bee5bfa35e79" id="r_aa4ff23edac94487d2f00bee5bfa35e79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ff23edac94487d2f00bee5bfa35e79">__ImplementSingleton</a> (<a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a>)</td></tr>
 <tr class="separator:aa4ff23edac94487d2f00bee5bfa35e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076ce96b111e19c998dff2e8ec658339" id="r_a076ce96b111e19c998dff2e8ec658339"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT_TYPE &gt; </td></tr>
+<tr class="memitem:a076ce96b111e19c998dff2e8ec658339"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a076ce96b111e19c998dff2e8ec658339">RegisterType</a> (<a class="el" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a>&lt; COMPONENT_TYPE &gt; info={})</td></tr>
+<tr class="memdesc:a076ce96b111e19c998dff2e8ec658339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a component type.  <br /></td></tr>
+<tr class="separator:a076ce96b111e19c998dff2e8ec658339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1544,6 +1548,27 @@ template&lt;typename TYPE , std::size_t i = 0&gt; </div>
 
 </div>
 </div>
+<a id="a076ce96b111e19c998dff2e8ec658339" name="a076ce96b111e19c998dff2e8ec658339"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a076ce96b111e19c998dff2e8ec658339">&#9670;&#160;</a></span>RegisterType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename COMPONENT_TYPE &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::RegisterType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a>&lt; COMPONENT_TYPE &gt;</td>          <td class="paramname"><span class="paramname"><em>info</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a component type. </p>
+
+</div>
+</div>
 <a id="afca219253f3d0b2360830d0f4c487625" name="afca219253f3d0b2360830d0f4c487625"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afca219253f3d0b2360830d0f4c487625">&#9670;&#160;</a></span>ReleaseDatasets()</h2>
 
@@ -1639,7 +1664,7 @@ template&lt;typename TYPE , std::size_t i = 0&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Mon Mar 25 2024 16:39:01 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Mar 27 2024 19:04:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
