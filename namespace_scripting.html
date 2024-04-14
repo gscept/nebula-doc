@@ -94,13 +94,17 @@ $(function(){initNavTree('namespace_scripting.html',''); initResizable(); });
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Scripting Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Prototype for deargui scripting init. </p>
+<p>(C) 2024 Individual contributors, see AUTHORS file </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_scripting_1_1_api" id="r_namespace_scripting_1_1_api"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scripting_1_1_api.html">Api</a></td></tr>
@@ -124,6 +128,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server class of the scripting subsystem.  <a href="class_scripting_1_1_script_server.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa987be647ecdd960d07d8e61270ff233" id="r_aa987be647ecdd960d07d8e61270ff233"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa987be647ecdd960d07d8e61270ff233">ScriptModuleInit</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void()&gt;</td></tr>
+<tr class="separator:aa987be647ecdd960d07d8e61270ff233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a1e7ab3a3e15a715b9461d1bcf402d810" id="r_a1e7ab3a3e15a715b9461d1bcf402d810"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7ab3a3e15a715b9461d1bcf402d810">HostFxrStatusCode</a> { <a class="el" href="#a1e7ab3a3e15a715b9461d1bcf402d810a350a85188464c214b50437cf57736590">Success</a> = 0
@@ -134,6 +143,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a21dc42a439546d635a5e3c8e99d6bcac" id="r_a21dc42a439546d635a5e3c8e99d6bcac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21dc42a439546d635a5e3c8e99d6bcac">RegisterDearguiModule</a> ()</td></tr>
+<tr class="separator:a21dc42a439546d635a5e3c8e99d6bcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe9b94f2da4e39311781e7f13b2f6858" id="r_abe9b94f2da4e39311781e7f13b2f6858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe9b94f2da4e39311781e7f13b2f6858">N_Print</a> (const char *string, int32_t is_stdout)</td></tr>
 <tr class="separator:abe9b94f2da4e39311781e7f13b2f6858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e569060d03931835e5292c88733821" id="r_a10e569060d03931835e5292c88733821"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e569060d03931835e5292c88733821">N_Error</a> (const char *string, int32_t is_stdout)</td></tr>
@@ -178,6 +189,21 @@ Variables</h2></td></tr>
 <tr class="memitem:a76932edbbe20c7a61317893897d359dc" id="r_a76932edbbe20c7a61317893897d359dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_scripting_1_1_dot_n_e_t___a_p_i.html">DotNET_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76932edbbe20c7a61317893897d359dc">api</a></td></tr>
 <tr class="separator:a76932edbbe20c7a61317893897d359dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aa987be647ecdd960d07d8e61270ff233" name="aa987be647ecdd960d07d8e61270ff233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa987be647ecdd960d07d8e61270ff233">&#9670;&#160;</a></span>ScriptModuleInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aa987be647ecdd960d07d8e61270ff233">Scripting::ScriptModuleInit</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a1e7ab3a3e15a715b9461d1bcf402d810" name="a1e7ab3a3e15a715b9461d1bcf402d810"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e7ab3a3e15a715b9461d1bcf402d810">&#9670;&#160;</a></span>HostFxrStatusCode</h2>
@@ -500,6 +526,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a21dc42a439546d635a5e3c8e99d6bcac" name="a21dc42a439546d635a5e3c8e99d6bcac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21dc42a439546d635a5e3c8e99d6bcac">&#9670;&#160;</a></span>RegisterDearguiModule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::RegisterDearguiModule </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad5bea2d97c1eabc3e5b3ed5407e690be" name="ad5bea2d97c1eabc3e5b3ed5407e690be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5bea2d97c1eabc3e5b3ed5407e690be">&#9670;&#160;</a></span>ScriptingAlloc()</h2>
 
@@ -655,7 +698,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_scripting.html">Scripting</a></li>
 				<li class="footer">
-					Generated on Thu Apr 4 2024 15:24:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Apr 14 2024 10:07:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

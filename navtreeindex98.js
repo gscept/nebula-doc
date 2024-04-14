@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"gamecontentserverbase_8h_source.html":[10,0,0,3,9,1,1],
+"gamepad_8cc.html":[10,0,0,4,0,3],
+"gamepad_8h.html":[10,0,0,4,0,4],
+"gamepad_8h_source.html":[10,0,0,4,0,4],
+"gamepadbase_8cc.html":[10,0,0,4,0,0,0],
+"gamepadbase_8cc.html#a7c22758adc52e4298a4f4f308bd869fd":[10,0,0,4,0,0,0,0],
+"gamepadbase_8h.html":[10,0,0,4,0,0,1],
+"gamepadbase_8h.html#ad761fc433a36d1adba0eb03bda34f047":[10,0,0,4,0,0,1,2],
 "gamepadbase_8h_source.html":[10,0,0,4,0,0,1],
 "gameserver_8cc.html":[10,0,0,1,3,24],
 "gameserver_8cc.html#a84d23932cc3378e918db65cf24fec44c":[10,0,0,1,3,24,0],
@@ -166,8 +174,8 @@ var NAVTREEINDEX98 =
 "globalconstants_8h.html#ad1770ae0ad7fcee7974da629b13ed4e6":[10,0,0,6,11,10,4],
 "globalconstants_8h.html#add91dcd9b892d18c06dcb0a0474107a9":[10,0,0,6,11,10,10],
 "globalconstants_8h_source.html":[10,0,0,6,11,10],
-"globals.html":[10,1,0,0],
 "globals.html":[10,1,0],
+"globals.html":[10,1,0,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "globalstringatomtable_8h_source.html":[10,0,0,3,20,25],
 "gpubuffertypes_8h.html":[10,0,0,6,5,31],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084":[10,0,0,6,5,31,3],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,31,3,2],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[10,0,0,6,5,31,3,1],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084ae4bf8b84258be913c6fbc1b7a306d73f":[10,0,0,6,5,31,3,0],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7":[10,0,0,6,5,31,1],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a207b73eb1749b53656c88f1795d197d7":[10,0,0,6,5,31,1,1],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a461daa6874a04298c8b6b0ec88218afd":[10,0,0,6,5,31,1,3],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a6f0cf8c982592262ecef8c2e135be1e1":[10,0,0,6,5,31,1,2],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7afe0d6aef5eee37b1b0a27f205c4442f8":[10,0,0,6,5,31,1,0],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ad":[10,0,0,6,5,31,2]
+"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,31,3,2]
 };

@@ -10,7 +10,9 @@ var class_scripting_1_1_script_server =
     [ "EvalFile", "class_scripting_1_1_script_server.html#ad74db58b27df8166006ad1d77e0e15a2", null ],
     [ "IsOpen", "class_scripting_1_1_script_server.html#a73c2e847f4f016592dfcb11652ba1434", null ],
     [ "Open", "class_scripting_1_1_script_server.html#aaf1caf232f1e1997793e4afb9c85b4e9", null ],
+    [ "RegisterModuleInit", "class_scripting_1_1_script_server.html#ac02d67cf175ee4dc35a62b084629fbef", null ],
     [ "SetDebug", "class_scripting_1_1_script_server.html#af2211564a02814e002b3352726285d70", null ],
     [ "debug", "class_scripting_1_1_script_server.html#aa7c532a1e3789dd52994e3d2c1f86c92", null ],
+    [ "initFuncs", "class_scripting_1_1_script_server.html#a1a1a51fc1b7b4ffeda6555be43b4163c", null ],
     [ "isOpen", "class_scripting_1_1_script_server.html#a4a4bf46f49bd76f7086c7f5afd5e8866", null ]
 ];

@@ -22,6 +22,7 @@ var namespace_scripting =
     [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
     [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ],
     [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ],
+    [ "ScriptModuleInit", "namespace_scripting.html#aa987be647ecdd960d07d8e61270ff233", null ],
     [ "HostFxrStatusCode", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810", [
       [ "Success", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810a350a85188464c214b50437cf57736590", null ],
       [ "Success_HostAlreadyInitialized", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810a3d93b4183c86de6534880c9d4b390cc5", null ],
@@ -41,6 +42,7 @@ var namespace_scripting =
     [ "N_Error", "namespace_scripting.html#a10e569060d03931835e5292c88733821", null ],
     [ "N_Log", "namespace_scripting.html#aeb1c667fa51350103b1418746b4552d1", null ],
     [ "N_Print", "namespace_scripting.html#abe9b94f2da4e39311781e7f13b2f6858", null ],
+    [ "RegisterDearguiModule", "namespace_scripting.html#a21dc42a439546d635a5e3c8e99d6bcac", null ],
     [ "ScriptingAlloc", "namespace_scripting.html#ad5bea2d97c1eabc3e5b3ed5407e690be", null ],
     [ "ScriptingCalloc", "namespace_scripting.html#aa35d58a52fb08490e189587016d0f88e", null ],
     [ "ScriptingDealloc", "namespace_scripting.html#a8c664ab9f3743ef4acd56859aadb0c56", null ],
