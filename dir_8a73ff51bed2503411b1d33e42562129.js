@@ -4,6 +4,7 @@ var dir_8a73ff51bed2503411b1d33e42562129 =
     [ "material.h", "material_8h.html", "material_8h" ],
     [ "materialloader.cc", "materialloader_8cc.html", "materialloader_8cc" ],
     [ "materialloader.h", "materialloader_8h.html", "materialloader_8h" ],
+    [ "materialtemplatetypes.h", "materialtemplatetypes_8h.html", "materialtemplatetypes_8h" ],
     [ "materialvariant.h", "materialvariant_8h.html", "materialvariant_8h" ],
     [ "shaderconfig.cc", "shaderconfig_8cc.html", null ],
     [ "shaderconfig.h", "shaderconfig_8h.html", "shaderconfig_8h" ]

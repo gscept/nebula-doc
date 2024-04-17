@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"gamecontentserverbase_8cc.html#afb75c20e907e8c20125c079e11c9571e":[10,0,0,3,9,1,0,0],
+"gamecontentserverbase_8h.html":[10,0,0,3,9,1,1],
 "gamecontentserverbase_8h_source.html":[10,0,0,3,9,1,1],
 "gamepad_8cc.html":[10,0,0,4,0,3],
 "gamepad_8h.html":[10,0,0,4,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "globalstringatomtable_8cc.html#a3ae1584667288e11bb603d2a97f8f3b5":[10,0,0,3,20,24,0],
 "globalstringatomtable_8h.html":[10,0,0,3,20,25],
 "globalstringatomtable_8h_source.html":[10,0,0,3,20,25],
-"gpubuffertypes_8h.html":[10,0,0,6,5,31],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084":[10,0,0,6,5,31,3],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,31,3,2]
+"gpubuffertypes_8h.html":[10,0,0,6,5,31]
 };

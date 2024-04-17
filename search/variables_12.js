@@ -94,7 +94,7 @@ var searchData=
   ['resolverect_91',['resolveRect',['../class_app_1_1_viewer_application.html#abf291736402d6d10729f91200cfe0855',1,'App::ViewerApplication']]],
   ['resolves_92',['resolves',['../struct_core_graphics_1_1_subpass.html#aad60ae29786593f5624abb39390649d0',1,'CoreGraphics::Subpass::resolves'],['../struct_core_graphics_1_1_subpass_info.html#a8cc26650110898729b975d6e706af22c',1,'CoreGraphics::SubpassInfo::resolves']]],
   ['resolveshader_93',['resolveShader',['../namespace_post_effects.html#a80e7a1143707bddc9e501635e8b5090b',1,'PostEffects']]],
-  ['resource_94',['resource',['../struct_materials_1_1_material_template_value.html#a995a3ae67f7e303933a377b81196b0dc',1,'Materials::MaterialTemplateValue']]],
+  ['resource_94',['resource',['../struct_material_templates_1_1_material_template_texture.html#a1ecc882b920cdf4a87bf5a2cf694c045',1,'MaterialTemplates::MaterialTemplateTexture']]],
   ['resourceid_95',['resourceId',['../struct_resources_1_1_resource_loader_1_1___pending_resource_unload.html#a509fa1a588af12083918ae00aef3222c',1,'Resources::ResourceLoader::_PendingResourceUnload']]],
   ['resourceindexgrow_96',['ResourceIndexGrow',['../class_resources_1_1_resource_loader.html#a67f81fe5e182b277087e48338780ee24',1,'Resources::ResourceLoader']]],
   ['resourceindexmap_97',['resourceIndexMap',['../struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74',1,'Vulkan::VkShaderSetupInfo::resourceIndexMap'],['../struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a3dbe6f50ea1d998e1de10b96282da892',1,'Vulkan::VkShaderCache::VkShaderSetupInfo::resourceIndexMap']]],

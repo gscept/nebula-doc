@@ -5,7 +5,7 @@ var material_8h =
     [ "Materials::MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
     [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
     [ "BatchIndex", "material_8h.html#ad316064c8fe52b179aaadbec06d6f43b", null ],
-    [ "MaterialAllocator", "material_8h.html#ae38e2ac7ec5e8e63d104b904f562ebb4", null ],
+    [ "MaterialAllocator", "material_8h.html#adb3e08de170e50244b3c02cc3aeb9a1b", null ],
     [ "MaterialInstanceAllocator", "material_8h.html#a35832df49e8586e0f1b29d3422a3c706", null ],
     [ "MaterialInstanceMembers", "material_8h.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf", [
       [ "MaterialInstance_Offsets", "material_8h.html#a3ca82e39b18cbe12bdf7c1c5241cbeafac32bdb5b27a44dceb98548434124858d", null ]
@@ -24,8 +24,11 @@ var material_8h =
     [ "MaterialInstanceApply", "material_8h.html#a2b6a746471186914c029e3ad70df1726", null ],
     [ "MaterialInstanceBufferSize", "material_8h.html#a782f97123eb6c0a452b3f9ad0c655415", null ],
     [ "MaterialSetBufferBinding", "material_8h.html#a96771b145c34f101920758f9f5b92d73", null ],
-    [ "MaterialSetConstant", "material_8h.html#a5d1637eb257c3e32447425c4995756bc", null ],
+    [ "MaterialSetConstant", "material_8h.html#a28e84a54fa3a07c12ef721ffac6f8805", null ],
+    [ "MaterialSetConstants", "material_8h.html#af963716452daacaac6a3fb6cec6ee350", null ],
     [ "MaterialSetLowestLod", "material_8h.html#ac344f360e8f721327341e9aae1dffd30", null ],
-    [ "MaterialSetTexture", "material_8h.html#a2947dc31523682700a6029086ba88da5", null ],
+    [ "MaterialSetTexture", "material_8h.html#ae0a8e570473e00b934a7a50afb5aa669", null ],
+    [ "MaterialSetTexture", "material_8h.html#a41ee774b3eddbf0afba5c25f3a58b34f", null ],
+    [ "MaterialSetTextureBindless", "material_8h.html#a5a744cfae975fcee6c91bfb2ad6f56b2", null ],
     [ "material", "material_8h.html#aed8f2753977b2237906857e07d0594ee", null ]
 ];

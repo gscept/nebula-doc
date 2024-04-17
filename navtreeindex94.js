@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"coreserver_8h.html":[10,0,0,3,1,6],
+"coreserver_8h_source.html":[10,0,0,3,1,6],
 "cpu_8h.html":[10,0,0,3,17,7],
 "cpu_8h.html#a9d1d0aa19382a20750ef8337b79372b3":[10,0,0,3,17,7,1],
 "cpu_8h_source.html":[10,0,0,3,17,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "decalcontext_8cc.html#ada9d567cc924f0261be1c2a8fd29f268":[10,0,0,6,7,0,13],
 "decalcontext_8cc.html#af692b55657c2831a37dc54ea3afa6f48":[10,0,0,6,7,0,14],
 "decalcontext_8h.html":[10,0,0,6,7,1],
-"decalcontext_8h_source.html":[10,0,0,6,7,1],
-"defaulthttprequesthandler_8cc.html":[10,0,0,3,6,5],
-"defaulthttprequesthandler_8cc.html#a6decdd7a5ab6430a150529543b461825":[10,0,0,3,6,5,0]
+"decalcontext_8h_source.html":[10,0,0,6,7,1]
 };

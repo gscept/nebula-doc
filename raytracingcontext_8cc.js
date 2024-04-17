@@ -19,7 +19,7 @@ var raytracingcontext_8cc =
     [ "lightGridIndexLists", "raytracingcontext_8cc.html#a493e44d995d52ee0f6da1c591ed3d8af", null ],
     [ "lightGridResourceTables", "raytracingcontext_8cc.html#a8df44d7b69c0a715b3215a417f557053", null ],
     [ "lightGridShader", "raytracingcontext_8cc.html#a497e94175eb81185043e01e626727568", null ],
-    [ "MaterialPropertyMappings", "raytracingcontext_8cc.html#a7fcf56918270aea13192f2189e5737ca", null ],
+    [ "MaterialPropertyMappings", "raytracingcontext_8cc.html#abd79b9b95427cbb95aef29ce990d7ff9", null ],
     [ "maxAllowedInstances", "raytracingcontext_8cc.html#a4b03512dcb00e845301f82fe2841c23f", null ],
     [ "numInstancesToFlush", "raytracingcontext_8cc.html#a54a29d6aeec342bf784cc6122a996f4c", null ],
     [ "numRegisteredInstances", "raytracingcontext_8cc.html#af20dac3ead3fad4b1a6584eb313a838f", null ],

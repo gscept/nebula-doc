@@ -680,7 +680,6 @@ var annotated_dup =
       [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
       [ "MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
       [ "MaterialLoader", "class_materials_1_1_material_loader.html", "class_materials_1_1_material_loader" ],
-      [ "MaterialTemplateValue", "struct_materials_1_1_material_template_value.html", "struct_materials_1_1_material_template_value" ],
       [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
       [ "MaterialVariant", "struct_materials_1_1_material_variant.html", "struct_materials_1_1_material_variant" ],
       [ "ShaderConfigBatchConstant", "struct_materials_1_1_shader_config_batch_constant.html", "struct_materials_1_1_shader_config_batch_constant" ],
@@ -689,7 +688,9 @@ var annotated_dup =
       [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ]
     ] ],
     [ "MaterialTemplates", "namespace_material_templates.html", [
-      [ "Entry", "struct_material_templates_1_1_entry.html", "struct_material_templates_1_1_entry" ]
+      [ "Entry", "struct_material_templates_1_1_entry.html", "struct_material_templates_1_1_entry" ],
+      [ "MaterialTemplateTexture", "struct_material_templates_1_1_material_template_texture.html", "struct_material_templates_1_1_material_template_texture" ],
+      [ "MaterialTemplateValue", "struct_material_templates_1_1_material_template_value.html", "struct_material_templates_1_1_material_template_value" ]
     ] ],
     [ "Math", "namespace_math.html", [
       [ "AngularPFeedbackLoop", "class_math_1_1_angular_p_feedback_loop.html", "class_math_1_1_angular_p_feedback_loop" ],

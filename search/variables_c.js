@@ -54,7 +54,7 @@ var searchData=
   ['loadbits_51',['loadBits',['../struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a0953f805d6dae93ffa690958351b13aa',1,'Terrain::TerrainContext::TerrainRuntimeInfo']]],
   ['loadcontext_52',['loadContext',['../class_models_1_1_primitive_node.html#a3584005df1bedb01ad8fb1f21fcd08e0',1,'Models::PrimitiveNode']]],
   ['loadedbits_53',['loadedBits',['../struct_models_1_1_model_streaming_data.html#af486941209c0a843d80adbd0781a6c43',1,'Models::ModelStreamingData::loadedBits'],['../class_resources_1_1_resource_loader.html#a7155c9bbbbc9224b9f7e88dfbf3fb3ff',1,'Resources::ResourceLoader::loadedBits']]],
-  ['loadermap_54',['loaderMap',['../class_materials_1_1_material_loader.html#ae7bbea671402264a74e7e1a911d98507',1,'Materials::MaterialLoader']]],
+  ['loadermap_54',['LoaderMap',['../namespace_materials.html#a603e08681edefee41c4b7739ff4d14f9',1,'Materials']]],
   ['loaders_55',['loaders',['../class_resources_1_1_resource_server.html#a9666c96cb9ebe23136f818c7b1a3f70e',1,'Resources::ResourceServer']]],
   ['loaderutil_56',['loaderUtil',['../class_i_o_1_1_b_xml_reader.html#a84a681f128159749f301df16a0653434',1,'IO::BXmlReader']]],
   ['loadlistener_57',['loadListener',['../namespace_static_u_i.html#ae9b75b2b501397b4f0e37ff9fc0db7f6',1,'StaticUI']]],

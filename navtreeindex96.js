@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"envelopesamplebuffer_8h_source.html":[10,0,0,6,17,7],
+"environment_8h.html":[10,0,0,3,17,8],
 "environment_8h_source.html":[10,0,0,3,17,8],
 "environmentcontext_8cc.html":[10,0,0,6,11,7],
 "environmentcontext_8cc.html#a05c928d3e4d055666fa4a907c1859ddc":[10,0,0,6,11,7,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "frameplugin_8cc.html#a77f5e4db78be13d003454b0dd9fd551d":[10,0,0,6,9,19,0],
 "frameplugin_8h.html":[10,0,0,6,9,20],
 "frameplugin_8h.html#a4e62341c1aec9076d99280fb9f0d9e9c":[10,0,0,6,9,20,3],
-"frameplugin_8h.html#a668aac697837cf510a381b2d452bb921":[10,0,0,6,9,20,4],
-"frameplugin_8h.html#a77f5e4db78be13d003454b0dd9fd551d":[10,0,0,6,9,20,2],
-"frameplugin_8h_source.html":[10,0,0,6,9,20]
+"frameplugin_8h.html#a668aac697837cf510a381b2d452bb921":[10,0,0,6,9,20,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084":[10,0,0,6,5,31,3],
+"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,31,3,2],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[10,0,0,6,5,31,3,1],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084ae4bf8b84258be913c6fbc1b7a306d73f":[10,0,0,6,5,31,3,0],
 "gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7":[10,0,0,6,5,31,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "httprequestreader_8h.html#a5b345d5e36955f027cf632f6f95e38a9":[10,0,0,3,6,25,1],
 "httprequestreader_8h_source.html":[10,0,0,3,6,25],
 "httprequestwriter_8cc.html":[10,0,0,3,6,26],
-"httprequestwriter_8cc.html#a2cdc6436848e601cee66e0a3bbedf65c":[10,0,0,3,6,26,0],
-"httprequestwriter_8h.html":[10,0,0,3,6,27],
-"httprequestwriter_8h_source.html":[10,0,0,3,6,27]
+"httprequestwriter_8cc.html#a2cdc6436848e601cee66e0a3bbedf65c":[10,0,0,3,6,26,0]
 };
