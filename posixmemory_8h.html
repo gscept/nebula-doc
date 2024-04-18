@@ -129,6 +129,8 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a63ff6e5092040b583339eab8e78d2f63" id="r_a63ff6e5092040b583339eab8e78d2f63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63ff6e5092040b583339eab8e78d2f63">MEMORY_POSIXMEMORY_H</a></td></tr>
 <tr class="separator:a63ff6e5092040b583339eab8e78d2f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8097079d2f12f1969a251a5acd67a922" id="r_a8097079d2f12f1969a251a5acd67a922"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8097079d2f12f1969a251a5acd67a922">StackAlloc</a>(size)&#160;&#160;&#160;alloca(size);</td></tr>
+<tr class="separator:a8097079d2f12f1969a251a5acd67a922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -153,9 +155,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a13ae93b4a505f65296e8afd5cd682b79" id="r_a13ae93b4a505f65296e8afd5cd682b79"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a13ae93b4a505f65296e8afd5cd682b79">Memory::FreeVirtual</a> (void *ptr, size_t size)</td></tr>
 <tr class="memdesc:a13ae93b4a505f65296e8afd5cd682b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">free virtual memory  <br /></td></tr>
 <tr class="separator:a13ae93b4a505f65296e8afd5cd682b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749588060e8e43906e34f48565a7698b" id="r_a749588060e8e43906e34f48565a7698b"><td class="memItemLeft" align="right" valign="top">__forceinline void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a749588060e8e43906e34f48565a7698b">Memory::StackAlloc</a> (size_t size)</td></tr>
-<tr class="memdesc:a749588060e8e43906e34f48565a7698b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory on the stack.  <br /></td></tr>
-<tr class="separator:a749588060e8e43906e34f48565a7698b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b30970207f199d34ccd289fb784f8c1" id="r_a1b30970207f199d34ccd289fb784f8c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_memory.html#a1b30970207f199d34ccd289fb784f8c1">Memory::Copy</a> (const void *from, void *to, size_t numBytes)</td></tr>
 <tr class="memdesc:a1b30970207f199d34ccd289fb784f8c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy a chunk of memory (note the argument order is different from memcpy()!!!)  <br /></td></tr>
 <tr class="separator:a1b30970207f199d34ccd289fb784f8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +203,23 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8097079d2f12f1969a251a5acd67a922" name="a8097079d2f12f1969a251a5acd67a922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8097079d2f12f1969a251a5acd67a922">&#9670;&#160;</a></span>StackAlloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StackAlloc</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">size</span></td><td>)</td>
+          <td>&#160;&#160;&#160;alloca(size);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -211,7 +227,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="dir_80f14fc2f23c119c66a6dd40ada12f99.html">posix</a></li><li class="navelem"><a class="el" href="posixmemory_8h.html">posixmemory.h</a></li>
 				<li class="footer">
-					Generated on Wed Apr 17 2024 19:59:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Apr 18 2024 14:08:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -2,6 +2,7 @@ var posixmemory_8h =
 [
     [ "Memory::TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "MEMORY_POSIXMEMORY_H", "posixmemory_8h.html#a63ff6e5092040b583339eab8e78d2f63", null ],
+    [ "StackAlloc", "posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922", null ],
     [ "Alloc", "posixmemory_8h.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "AllocVirtual", "posixmemory_8h.html#a6f1e350799da9a033ab78c19c7a21436", null ],
     [ "Clear", "posixmemory_8h.html#ad8504a1916282a835f1e16e3912e4c87", null ],
@@ -18,6 +19,5 @@ var posixmemory_8h =
     [ "IsOverlapping", "posixmemory_8h.html#a99416bac8add00c17d3b011239d7e6eb", null ],
     [ "Move", "posixmemory_8h.html#a1103820d68788c85bbb28a62e05d99e2", null ],
     [ "MoveElements", "posixmemory_8h.html#a93f89988ee4e0842958f8c0c4210e179", null ],
-    [ "Realloc", "posixmemory_8h.html#a66c839285702633f8178be0224273a14", null ],
-    [ "StackAlloc", "posixmemory_8h.html#a749588060e8e43906e34f48565a7698b", null ]
+    [ "Realloc", "posixmemory_8h.html#a66c839285702633f8178be0224273a14", null ]
 ];

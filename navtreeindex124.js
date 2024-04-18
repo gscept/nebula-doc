@@ -1,6 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"scalar_8h.html#a38a5710a712b6c220e094f9fcb0ac7e9":[10,0,0,3,12,21,38],
 "scalar_8h.html#a39eef807d14aa928b8fff5894b59ffc4":[10,0,0,3,12,21,30],
 "scalar_8h.html#a3d85ae259b25812836c7262dc391e5b6":[10,0,0,3,12,21,77],
 "scalar_8h.html#a3fffb637b09d54c410f3abc848a51010":[10,0,0,3,12,21,68],
@@ -249,5 +248,6 @@ var NAVTREEINDEX124 =
 "shadersemantics_8h.html#a7c83ab7f12c074436a33c9aa87dbe9c0":[10,0,0,6,5,74,119],
 "shadersemantics_8h.html#a7d90cecf689795e1c88fa2fbf2f40ae7":[10,0,0,6,5,74,29],
 "shadersemantics_8h.html#a7eaa0c0278e75cc48ff996902e7e9bd6":[10,0,0,6,5,74,115],
-"shadersemantics_8h.html#a83317229787b6fb37116684d1a595743":[10,0,0,6,5,74,131]
+"shadersemantics_8h.html#a83317229787b6fb37116684d1a595743":[10,0,0,6,5,74,131],
+"shadersemantics_8h.html#a83c16800ec366d78284ee7b3b0a0b174":[10,0,0,6,5,74,57]
 };
