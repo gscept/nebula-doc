@@ -11,6 +11,7 @@ var materialloader_8cc =
     [ "LoaderFunc", "materialloader_8cc.html#af09d97178629e229384bdb4d5c815739", null ],
     [ "__ImplementClass", "materialloader_8cc.html#a1f98ed34bfde73baf9721c689c07ce5b", null ],
     [ "LoadFloat", "materialloader_8cc.html#a5636bc79c691a61803c2246845b4a42a", null ],
+    [ "LoadMaterialParameter", "materialloader_8cc.html#a13c0a8bea388e671f68017b824f66653", null ],
     [ "LoadTexture", "materialloader_8cc.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
     [ "LoadVec3", "materialloader_8cc.html#a5cb5def1927276ed42cd7d6306fefa9d", null ],
     [ "LoadVec4", "materialloader_8cc.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],

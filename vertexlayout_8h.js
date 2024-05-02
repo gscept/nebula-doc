@@ -20,6 +20,7 @@ var vertexlayout_8h =
     [ "CreateVertexLayout", "vertexlayout_8h.html#a82f27ffc999589324aa184ce535eb33b", null ],
     [ "DestroyVertexLayout", "vertexlayout_8h.html#ac9e0cfb567e21f5a7cb98d2252fcd3e1", null ],
     [ "VertexLayoutGetComponents", "vertexlayout_8h.html#a5245b5a68c7a809b949802524671f703", null ],
+    [ "VertexLayoutGetName", "vertexlayout_8h.html#adb6ce533dc0b99418695f9de4be0880f", null ],
     [ "VertexLayoutGetSize", "vertexlayout_8h.html#a6d3fb13bc18843e87da031b70558b4a0", null ],
     [ "VertexLayoutGetStreamSize", "vertexlayout_8h.html#af359ca2ecf74cbc1bea0777b733e3403", null ],
     [ "MaxNumVertexStreams", "vertexlayout_8h.html#ac3cb46b91a052fb94240d3de1c9ce93c", null ]

@@ -24,6 +24,7 @@ var namespace_materials =
     [ "DestroyMaterial", "namespace_materials.html#a06c57eb8a5d53212c0ace2abda9d9986", null ],
     [ "DestroyMaterialInstance", "namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a", null ],
     [ "LoadFloat", "namespace_materials.html#a5636bc79c691a61803c2246845b4a42a", null ],
+    [ "LoadMaterialParameter", "namespace_materials.html#a13c0a8bea388e671f68017b824f66653", null ],
     [ "LoadTexture", "namespace_materials.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
     [ "LoadVec3", "namespace_materials.html#a5cb5def1927276ed42cd7d6306fefa9d", null ],
     [ "LoadVec4", "namespace_materials.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],

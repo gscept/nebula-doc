@@ -15,7 +15,7 @@ var class_resources_1_1_resource_server =
     [ "GetId", "class_resources_1_1_resource_server.html#a58d004c2538b7d9b27f98bd495917e99", null ],
     [ "GetName", "class_resources_1_1_resource_server.html#a9585d4a00804ea277afe3127417380b8", null ],
     [ "GetState", "class_resources_1_1_resource_server.html#a9f3b4ef24d3ebdc889af9ad68be191cb", null ],
-    [ "GetStreamPool", "class_resources_1_1_resource_server.html#a63a930063bbac36a9e9191d059502c69", null ],
+    [ "GetStreamLoader", "class_resources_1_1_resource_server.html#ade9d1bfef4a9d2276a307961f7fd7bbe", null ],
     [ "GetTag", "class_resources_1_1_resource_server.html#abe0523c0d843863689fd872a6d6aa70b", null ],
     [ "GetType", "class_resources_1_1_resource_server.html#a812b97aba4e7f11a0b2167bb093f320a", null ],
     [ "GetUsage", "class_resources_1_1_resource_server.html#aad51898d12e5b801e40f3525c11b2529", null ],

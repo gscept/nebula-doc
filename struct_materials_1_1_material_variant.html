@@ -124,14 +124,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3ca1bdaaea2f96d52890511c3784767" id="r_aa3ca1bdaaea2f96d52890511c3784767"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ca1bdaaea2f96d52890511c3784767">Get</a> () const</td></tr>
 <tr class="memdesc:aa3ca1bdaaea2f96d52890511c3784767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pointer.  <br /></td></tr>
 <tr class="separator:aa3ca1bdaaea2f96d52890511c3784767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5365902602b0654e31bfd521ad7b8728" id="r_a5365902602b0654e31bfd521ad7b8728"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5365902602b0654e31bfd521ad7b8728"><td class="memTemplItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5365902602b0654e31bfd521ad7b8728">Get</a> () const</td></tr>
-<tr class="memdesc:a5365902602b0654e31bfd521ad7b8728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get.  <br /></td></tr>
-<tr class="separator:a5365902602b0654e31bfd521ad7b8728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25099ff4a6e8eb952fff3600072619c9" id="r_a25099ff4a6e8eb952fff3600072619c9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a25099ff4a6e8eb952fff3600072619c9"><td class="memTemplItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a25099ff4a6e8eb952fff3600072619c9">ConstGet</a> () const</td></tr>
+<tr class="memdesc:a25099ff4a6e8eb952fff3600072619c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const get.  <br /></td></tr>
+<tr class="separator:a25099ff4a6e8eb952fff3600072619c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ce0b310a4e1cbacfa44ce38081137a" id="r_a93ce0b310a4e1cbacfa44ce38081137a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a93ce0b310a4e1cbacfa44ce38081137a"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a93ce0b310a4e1cbacfa44ce38081137a">Get</a> ()</td></tr>
+<tr class="memdesc:a93ce0b310a4e1cbacfa44ce38081137a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable get.  <br /></td></tr>
+<tr class="separator:a93ce0b310a4e1cbacfa44ce38081137a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1621f6666e8d0e3d7c27a53f8491f035" id="r_a1621f6666e8d0e3d7c27a53f8491f035"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1621f6666e8d0e3d7c27a53f8491f035"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1621f6666e8d0e3d7c27a53f8491f035">Set</a> (const T &amp;data, void *<a class="el" href="#a6b081702fd85789d0730d9daf12a5822">mem</a>)</td></tr>
 <tr class="memdesc:a1621f6666e8d0e3d7c27a53f8491f035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set.  <br /></td></tr>
 <tr class="separator:a1621f6666e8d0e3d7c27a53f8491f035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c8e92561b9363f0e7081dd14b3da25" id="r_aa8c8e92561b9363f0e7081dd14b3da25"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa8c8e92561b9363f0e7081dd14b3da25"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa8c8e92561b9363f0e7081dd14b3da25">Set</a> (void *<a class="el" href="#a6b081702fd85789d0730d9daf12a5822">mem</a>)</td></tr>
+<tr class="memdesc:aa8c8e92561b9363f0e7081dd14b3da25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set from raw memory.  <br /></td></tr>
+<tr class="separator:aa8c8e92561b9363f0e7081dd14b3da25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -252,8 +260,66 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a25099ff4a6e8eb952fff3600072619c9" name="a25099ff4a6e8eb952fff3600072619c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25099ff4a6e8eb952fff3600072619c9">&#9670;&#160;</a></span>ConstGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T &amp; Materials::MaterialVariant::ConstGet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const get. </p>
+
+</div>
+</div>
+<a id="a93ce0b310a4e1cbacfa44ce38081137a" name="a93ce0b310a4e1cbacfa44ce38081137a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ce0b310a4e1cbacfa44ce38081137a">&#9670;&#160;</a></span>Get() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; Materials::MaterialVariant::Get </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutable get. </p>
+
+</div>
+</div>
 <a id="aa3ca1bdaaea2f96d52890511c3784767" name="aa3ca1bdaaea2f96d52890511c3784767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ca1bdaaea2f96d52890511c3784767">&#9670;&#160;</a></span>Get() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ca1bdaaea2f96d52890511c3784767">&#9670;&#160;</a></span>Get() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,35 +342,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get pointer. </p>
-
-</div>
-</div>
-<a id="a5365902602b0654e31bfd521ad7b8728" name="a5365902602b0654e31bfd521ad7b8728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5365902602b0654e31bfd521ad7b8728">&#9670;&#160;</a></span>Get() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const T &amp; Materials::MaterialVariant::Get </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get. </p>
 
 </div>
 </div>
@@ -363,7 +400,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a1621f6666e8d0e3d7c27a53f8491f035" name="a1621f6666e8d0e3d7c27a53f8491f035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1621f6666e8d0e3d7c27a53f8491f035">&#9670;&#160;</a></span>Set()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1621f6666e8d0e3d7c27a53f8491f035">&#9670;&#160;</a></span>Set() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,6 +429,35 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Set. </p>
+
+</div>
+</div>
+<a id="aa8c8e92561b9363f0e7081dd14b3da25" name="aa8c8e92561b9363f0e7081dd14b3da25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c8e92561b9363f0e7081dd14b3da25">&#9670;&#160;</a></span>Set() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Materials::MaterialVariant::Set </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>mem</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set from raw memory. </p>
 
 </div>
 </div>
@@ -448,7 +514,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_materials.html">Materials</a></li><li class="navelem"><a class="el" href="struct_materials_1_1_material_variant.html">MaterialVariant</a></li>
 				<li class="footer">
-					Generated on Sun Apr 28 2024 17:18:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu May 2 2024 23:38:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
