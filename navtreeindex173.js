@@ -1,5 +1,7 @@
 var NAVTREEINDEX173 =
 {
+"xmlwriter_8h.html":[10,0,0,3,9,74],
+"xmlwriter_8h_source.html":[10,0,0,3,9,74],
 "ziparchive_8cc.html":[10,0,0,3,9,8,2],
 "ziparchive_8cc.html#aa5e9e002faaaa63d71e58108195ea7cd":[10,0,0,3,9,8,2,0],
 "ziparchive_8h.html":[10,0,0,3,9,8,3],

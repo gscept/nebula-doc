@@ -131,6 +131,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f29a11f03179c2317f9315cde70c0b5"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0f29a11f03179c2317f9315cde70c0b5">Alloc</a> ()</td></tr>
 <tr class="memdesc:a0f29a11f03179c2317f9315cde70c0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate new object, and calls constructor, but beware because this allocator does not run the destructors  <br /></td></tr>
 <tr class="separator:a0f29a11f03179c2317f9315cde70c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2ea3fc593bcdd08b8a933de892dbd6" id="r_aad2ea3fc593bcdd08b8a933de892dbd6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aad2ea3fc593bcdd08b8a933de892dbd6"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aad2ea3fc593bcdd08b8a933de892dbd6">Alloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num)</td></tr>
+<tr class="memdesc:aad2ea3fc593bcdd08b8a933de892dbd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate several new objects of a specific type.  <br /></td></tr>
+<tr class="separator:aad2ea3fc593bcdd08b8a933de892dbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07cdfc4472bcdb8cb47e82de00af5fbd" id="r_a07cdfc4472bcdb8cb47e82de00af5fbd"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cdfc4472bcdb8cb47e82de00af5fbd">Alloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
 <tr class="memdesc:a07cdfc4472bcdb8cb47e82de00af5fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate new chunk of size  <br /></td></tr>
 <tr class="separator:a07cdfc4472bcdb8cb47e82de00af5fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,7 +273,7 @@ template&lt;int ChunkSize&gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0f29a11f03179c2317f9315cde70c0b5" name="a0f29a11f03179c2317f9315cde70c0b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f29a11f03179c2317f9315cde70c0b5">&#9670;&#160;</a></span>Alloc() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f29a11f03179c2317f9315cde70c0b5">&#9670;&#160;</a></span>Alloc() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,8 +303,39 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aad2ea3fc593bcdd08b8a933de892dbd6" name="aad2ea3fc593bcdd08b8a933de892dbd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2ea3fc593bcdd08b8a933de892dbd6">&#9670;&#160;</a></span>Alloc() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int ChunkSize&gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; ChunkSize &gt;::Alloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>num</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allocate several new objects of a specific type. </p>
+
+</div>
+</div>
 <a id="a07cdfc4472bcdb8cb47e82de00af5fbd" name="a07cdfc4472bcdb8cb47e82de00af5fbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07cdfc4472bcdb8cb47e82de00af5fbd">&#9670;&#160;</a></span>Alloc() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cdfc4472bcdb8cb47e82de00af5fbd">&#9670;&#160;</a></span>Alloc() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,7 +562,7 @@ template&lt;int ChunkSize&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li><li class="navelem"><a class="el" href="class_memory_1_1_arena_allocator.html">ArenaAllocator</a></li>
 				<li class="footer">
-					Generated on Fri May 3 2024 17:38:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri May 3 2024 17:57:05 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

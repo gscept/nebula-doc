@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"decalcontext_8cc.html#ada9d567cc924f0261be1c2a8fd29f268":[10,0,0,6,7,0,13],
+"decalcontext_8cc.html#af692b55657c2831a37dc54ea3afa6f48":[10,0,0,6,7,0,14],
 "decalcontext_8h.html":[10,0,0,6,7,1],
 "decalcontext_8h_source.html":[10,0,0,6,7,1],
 "defaulthttprequesthandler_8cc.html":[10,0,0,3,6,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "entitypool_8cc.html":[10,0,0,1,3,16],
 "entitypool_8h.html":[10,0,0,1,3,17],
 "entitypool_8h_source.html":[10,0,0,1,3,17],
-"envelopecurve_8cc.html":[10,0,0,6,17,4],
-"envelopecurve_8h.html":[10,0,0,6,17,5],
-"envelopecurve_8h_source.html":[10,0,0,6,17,5]
+"envelopecurve_8cc.html":[10,0,0,6,17,4]
 };

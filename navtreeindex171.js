@@ -1,5 +1,7 @@
 var NAVTREEINDEX171 =
 {
+"vkshader_8cc.html#a5aeae7e97e9a1e829732eb8f179685b7":[10,0,0,6,5,5,42,40],
+"vkshader_8cc.html#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0":[10,0,0,6,5,5,42,9],
 "vkshader_8cc.html#a605796f14bffca2980f4a58c95d985f4":[10,0,0,6,5,5,42,29],
 "vkshader_8cc.html#a63dd47698408af8d684a3b42a9303ece":[10,0,0,6,5,5,42,39],
 "vkshader_8cc.html#a68ba96d8d5a0ef5c777c65e84b9e02e0":[10,0,0,6,5,5,42,45],
@@ -247,7 +249,5 @@ var NAVTREEINDEX171 =
 "win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
 "win32criticalsection_8h.html":[10,0,0,3,18,6,2],
 "win32criticalsection_8h.html#a04b575446acc6fe7ec8b6d213eab2082":[10,0,0,3,18,6,2,1],
-"win32criticalsection_8h_source.html":[10,0,0,3,18,6,2],
-"win32displaydevice_8cc.html":[10,0,0,6,5,6,0],
-"win32displaydevice_8cc.html#a25333cb0019c686b4f4a381768268cc2":[10,0,0,6,5,6,0,1]
+"win32criticalsection_8h_source.html":[10,0,0,3,18,6,2]
 };

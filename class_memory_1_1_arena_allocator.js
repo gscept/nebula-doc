@@ -5,6 +5,7 @@ var class_memory_1_1_arena_allocator =
     [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html#a41d46e483d29b1eeb365617db279e07e", null ],
     [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html#a32f17a0a7f62bcc103ac614ea968f9a9", null ],
     [ "Alloc", "class_memory_1_1_arena_allocator.html#a0f29a11f03179c2317f9315cde70c0b5", null ],
+    [ "Alloc", "class_memory_1_1_arena_allocator.html#aad2ea3fc593bcdd08b8a933de892dbd6", null ],
     [ "Alloc", "class_memory_1_1_arena_allocator.html#a07cdfc4472bcdb8cb47e82de00af5fbd", null ],
     [ "NewChunk", "class_memory_1_1_arena_allocator.html#af01d3d5ad4bcd98ff0b9892a0a90cb17", null ],
     [ "operator=", "class_memory_1_1_arena_allocator.html#aa01abc3b629955f513500fd454bd6730", null ],
