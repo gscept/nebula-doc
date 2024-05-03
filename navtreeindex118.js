@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"namespace_vulkan.html#a603853419d77ab846c328e8b2944db16":[8,0,83,53],
+"namespace_vulkan.html#a60f33defd4885696bfcfda1cc3afd896":[8,0,83,170],
 "namespace_vulkan.html#a60fe4aa7ec4659aa4c37b5e6b8550fb9":[8,0,83,206],
 "namespace_vulkan.html#a618745042f8b98617efb28c6bd9a2505":[8,0,83,153],
 "namespace_vulkan.html#a62c87b67db2b5dcfa1f1d5e7758f952a":[8,0,83,162],
@@ -232,8 +234,8 @@ var NAVTREEINDEX118 =
 "namespacemembers_type.html":[8,1,3],
 "namespacemembers_u.html":[8,1,0,21],
 "namespacemembers_v.html":[8,1,0,22],
-"namespacemembers_vars.html":[8,1,2,0],
 "namespacemembers_vars.html":[8,1,2],
+"namespacemembers_vars.html":[8,1,2,0],
 "namespacemembers_vars_a.html":[8,1,2,1],
 "namespacemembers_vars_b.html":[8,1,2,2],
 "namespacemembers_vars_c.html":[8,1,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "namespacemembers_vars_l.html":[8,1,2,11],
 "namespacemembers_vars_m.html":[8,1,2,12],
 "namespacemembers_vars_n.html":[8,1,2,13],
-"namespacemembers_vars_o.html":[8,1,2,14],
-"namespacemembers_vars_p.html":[8,1,2,15],
-"namespacemembers_vars_r.html":[8,1,2,16]
+"namespacemembers_vars_o.html":[8,1,2,14]
 };

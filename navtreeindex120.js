@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"osxsingleton_8h.html#a46f888b724aa7b248905e0a78e9630da":[10,0,0,3,1,1,0,7],
+"osxsingleton_8h.html#a60044d7c40c042e675a575c216d94947":[10,0,0,3,1,1,0,6],
 "osxsingleton_8h.html#a75f803d2aac92e98072993a810a64a99":[10,0,0,3,1,1,0,1],
 "osxsingleton_8h.html#a77e9605e52e56b1566d7d0de4c82e70f":[10,0,0,3,1,1,0,4],
 "osxsingleton_8h.html#a90622683d9e8c91682ba26b2fae8125f":[10,0,0,3,1,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "posixcalendartime_8h.html":[10,0,0,3,19,2,1],
 "posixcalendartime_8h_source.html":[10,0,0,3,19,2,1],
 "posixconsolehandler_8cc.html":[10,0,0,3,9,5,2],
-"posixconsolehandler_8cc.html#a766c4d552431ef3ad2f78c4ea8f9fb58":[10,0,0,3,9,5,2,0],
-"posixconsolehandler_8h.html":[10,0,0,3,9,5,3],
-"posixconsolehandler_8h.html#aca370a0bc3d0612c1259e38868a3b0d1":[10,0,0,3,9,5,3,1]
+"posixconsolehandler_8cc.html#a766c4d552431ef3ad2f78c4ea8f9fb58":[10,0,0,3,9,5,2,0]
 };

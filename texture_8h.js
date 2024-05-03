@@ -58,6 +58,7 @@ var texture_8h =
     [ "TextureGetBindlessHandle", "texture_8h.html#ac9ab339cb38df148448a0fb60b961e86", null ],
     [ "TextureGetDefaultLayout", "texture_8h.html#a6261a365b72c9eaff825e9e3c9730f7b", null ],
     [ "TextureGetDimensions", "texture_8h.html#a44216caf743e036b1393e755c23b2246", null ],
+    [ "TextureGetName", "texture_8h.html#a4ffa895ac016367a00891f4790fda456", null ],
     [ "TextureGetNumLayers", "texture_8h.html#a34ad84778aedacc66ec5b06084ba4871", null ],
     [ "TextureGetNumMips", "texture_8h.html#a7c0f6c56f09971ad7deba5fa061f8a89", null ],
     [ "TextureGetNumSamples", "texture_8h.html#af71a30451d1fd92e2373faa9793b467b", null ],

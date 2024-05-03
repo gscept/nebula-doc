@@ -2,6 +2,7 @@ var texture_8cc =
 [
     [ "TextureGenerateMipmaps", "texture_8cc.html#a216650c21c270adf9da585fe6306b5de", null ],
     [ "TextureGetAdjustedInfo", "texture_8cc.html#aff15dbed1186ff3c92dabda92361aa78", null ],
+    [ "TextureGetCreated", "texture_8cc.html#ada5dcc6d982eac048400aa1ecb0b8e01", null ],
     [ "TextureUpdate", "texture_8cc.html#a29eed11488946eeb12f6d80a230476db", null ],
     [ "Black2D", "texture_8cc.html#a5314e024a73c578ffd7f6c7c09e8a78a", null ],
     [ "Blue2D", "texture_8cc.html#a64e2a01dabd55c8ed509f9f152761124", null ],

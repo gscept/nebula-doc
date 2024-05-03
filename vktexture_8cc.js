@@ -13,6 +13,7 @@ var vktexture_8cc =
     [ "TextureGetBindlessHandle", "vktexture_8cc.html#ac9ab339cb38df148448a0fb60b961e86", null ],
     [ "TextureGetDefaultLayout", "vktexture_8cc.html#a6261a365b72c9eaff825e9e3c9730f7b", null ],
     [ "TextureGetDimensions", "vktexture_8cc.html#a44216caf743e036b1393e755c23b2246", null ],
+    [ "TextureGetName", "vktexture_8cc.html#a4ffa895ac016367a00891f4790fda456", null ],
     [ "TextureGetNumLayers", "vktexture_8cc.html#a34ad84778aedacc66ec5b06084ba4871", null ],
     [ "TextureGetNumMips", "vktexture_8cc.html#a7c0f6c56f09971ad7deba5fa061f8a89", null ],
     [ "TextureGetNumSamples", "vktexture_8cc.html#af71a30451d1fd92e2373faa9793b467b", null ],
