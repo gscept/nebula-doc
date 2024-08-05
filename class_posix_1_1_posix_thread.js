@@ -25,7 +25,7 @@ var class_posix_1_1_posix_thread =
     [ "Stop", "class_posix_1_1_posix_thread.html#aabcf352bdf3d8b5849a47928dc043237", null ],
     [ "ThreadProc", "class_posix_1_1_posix_thread.html#adbdc848438c56a57d0457d5d6c28919c", null ],
     [ "ThreadStopRequested", "class_posix_1_1_posix_thread.html#afc16e5bba2b07a4be30b91d0fc4a12f0", null ],
-    [ "YieldThread", "class_posix_1_1_posix_thread.html#a162d5332f752dbb2c28724bbda32d6b1", null ],
+    [ "YieldThread", "class_posix_1_1_posix_thread.html#a20ddb7804900e5cb5313e5b43170a67d", null ],
     [ "affinity", "class_posix_1_1_posix_thread.html#af74ff87ed5d0d9fea549ecc10be39bf1", null ],
     [ "name", "class_posix_1_1_posix_thread.html#a0423acb097d268ed1a63597bf6a089e3", null ],
     [ "priority", "class_posix_1_1_posix_thread.html#a8b18c22ba627c34d84e7b24d8bcc7902", null ],

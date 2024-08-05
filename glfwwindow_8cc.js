@@ -8,7 +8,7 @@ var glfwwindow_8cc =
     [ "EmbedWindow", "glfwwindow_8cc.html#a89d6cac8e9d9468d7b7871edce95fb41", null ],
     [ "EnableCallbacks", "glfwwindow_8cc.html#a8e9b29acc80df508c9202a0d3b10de5a", null ],
     [ "FocusFunc", "glfwwindow_8cc.html#ac95bdf04f365d7f62a19674a89254c07", null ],
-    [ "InternalSetupFunction", "glfwwindow_8cc.html#add8e5342ecc982b18f0ce36f302e3de7", null ],
+    [ "InternalSetupFunction", "glfwwindow_8cc.html#a9af694dbc1216f0fc7d7c07c1e508529", null ],
     [ "KeyFunc", "glfwwindow_8cc.html#a1ea01fe0ebe261162a5776cdbbe93b5f", null ],
     [ "MouseButtonFunc", "glfwwindow_8cc.html#ab08ffea6c3cd316c015445a53b135e50", null ],
     [ "MouseFunc", "glfwwindow_8cc.html#a62f7e8bbaeb43d6dc7f6dbc776af6b25", null ],

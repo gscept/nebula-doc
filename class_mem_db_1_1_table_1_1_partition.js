@@ -13,8 +13,8 @@ var class_mem_db_1_1_table_1_1_partition =
     [ "numRows", "class_mem_db_1_1_table_1_1_partition.html#aa722e3303c1ba930de287042dee4dc7e", null ],
     [ "partitionId", "class_mem_db_1_1_table_1_1_partition.html#a7c9ece2f1f7a99c491d9055fc7d8d608", null ],
     [ "previous", "class_mem_db_1_1_table_1_1_partition.html#aa5f5711001c63184907f07dbeba982d5", null ],
-    [ "table", "class_mem_db_1_1_table_1_1_partition.html#a739945a2a2765333fbfd767ea4e2a3f7", null ],
     [ "Table", "class_mem_db_1_1_table_1_1_partition.html#a4cf86ecafb468dac05760ace42e2597d", null ],
+    [ "table", "class_mem_db_1_1_table_1_1_partition.html#a739945a2a2765333fbfd767ea4e2a3f7", null ],
     [ "validRows", "class_mem_db_1_1_table_1_1_partition.html#aed5bdbae65640951199bbe0bc5dd3274", null ],
     [ "version", "class_mem_db_1_1_table_1_1_partition.html#aca1271443149e07718f794123eff8c74", null ]
 ];

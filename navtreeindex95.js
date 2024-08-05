@@ -1,15 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"decalcontext_8cc.html#ada9d567cc924f0261be1c2a8fd29f268":[10,0,0,6,7,0,13],
-"decalcontext_8cc.html#af692b55657c2831a37dc54ea3afa6f48":[10,0,0,6,7,0,14],
-"decalcontext_8h.html":[10,0,0,6,7,1],
-"decalcontext_8h_source.html":[10,0,0,6,7,1],
-"defaulthttprequesthandler_8cc.html":[10,0,0,3,6,5],
-"defaulthttprequesthandler_8cc.html#a6decdd7a5ab6430a150529543b461825":[10,0,0,3,6,5,0],
-"defaulthttprequesthandler_8h.html":[10,0,0,3,6,6],
-"defaulthttprequesthandler_8h.html#a23046db7035a683610cfa4a561161f17":[10,0,0,3,6,6,1],
-"defaulthttprequesthandler_8h_source.html":[10,0,0,3,6,6],
-"delegate_8h.html":[10,0,0,3,20,18],
 "delegate_8h_source.html":[10,0,0,3,20,18],
 "delegatetable_8cc.html":[10,0,0,3,14,6],
 "delegatetable_8h.html":[10,0,0,3,14,7],
@@ -249,5 +239,15 @@ var NAVTREEINDEX95 =
 "entitypool_8cc.html":[10,0,0,1,3,16],
 "entitypool_8h.html":[10,0,0,1,3,17],
 "entitypool_8h_source.html":[10,0,0,1,3,17],
-"envelopecurve_8cc.html":[10,0,0,6,17,4]
+"envelopecurve_8cc.html":[10,0,0,6,17,4],
+"envelopecurve_8h.html":[10,0,0,6,17,5],
+"envelopecurve_8h_source.html":[10,0,0,6,17,5],
+"envelopesamplebuffer_8cc.html":[10,0,0,6,17,6],
+"envelopesamplebuffer_8h.html":[10,0,0,6,17,7],
+"envelopesamplebuffer_8h_source.html":[10,0,0,6,17,7],
+"environment_8h.html":[10,0,0,3,17,8],
+"environment_8h_source.html":[10,0,0,3,17,8],
+"environmentcontext_8cc.html":[10,0,0,6,11,7],
+"environmentcontext_8cc.html#a05c928d3e4d055666fa4a907c1859ddc":[10,0,0,6,11,7,16],
+"environmentcontext_8cc.html#a1f40e80c6cf2f4c7b7f2d4bdf1f1b306":[10,0,0,6,11,7,2]
 };

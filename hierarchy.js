@@ -188,6 +188,7 @@ var hierarchy =
     [ "Util::_smallvector< Util::Array< Vulkan::VkReflectionInfo::UniformBuffer >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::Blob, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::Delegate, 0 >", "struct_util_1_1__smallvector.html", null ],
+    [ "Util::_smallvector< Util::Delegate< void(const Ptr< Messaging::Message > &)>, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::Dictionary< uint, uint >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::FixedArray< Characters::SkeletonJobJoint >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::FixedArray< Math::mat4 >, 0 >", "struct_util_1_1__smallvector.html", null ],
@@ -378,23 +379,6 @@ var hierarchy =
     [ "Memory::ArenaAllocator< sizeof(Frame::FrameCode)>", "class_memory_1_1_arena_allocator.html", null ],
     [ "Memory::ArenaAllocator< sizeof(Terrain::OccupancyQuadTree::Node) *64 >", "class_memory_1_1_arena_allocator.html", null ],
     [ "Util::Array< TYPE, SMALL_VECTOR_SIZE >", "class_util_1_1_array.html", [
-      [ "Util::PinnedArray< 0xFFFF, INTERFACE_TYPE >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Math::bbox >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< float, float > >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, float >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, uint32 >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, uint64 >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, NodeInstanceFlags >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Materials::MaterialId >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, const MaterialTemplates::Entry * >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Models::ModelContext::NodeInstanceState >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Models::NodeType >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Models::ModelNode * >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, CoreGraphics::MeshId >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, CoreGraphics::PrimitiveGroup >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< uint32, uint32 > >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, void * >", "class_util_1_1_pinned_array.html", null ],
-      [ "Util::PinnedArray< 0xFFFF, Math::mat4 >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::PinnedArray< MAX_ALLOCS, TYPE >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::TrivialArray< TYPE >", "class_util_1_1_trivial_array.html", null ]
     ] ],
@@ -411,7 +395,9 @@ var hierarchy =
     [ "Util::Array< ColumnBuffer >", "class_util_1_1_array.html", null ],
     [ "Util::Array< const Attr::AttributeDefinitionBase * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< const char * >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< const MaterialTemplates::Entry * >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< const MaterialTemplates::Entry * >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, const MaterialTemplates::Entry * >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< const Messaging::Id * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< const pjson::value_variant * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< CoreAnimation::AnimationId >", "class_util_1_1_array.html", null ],
@@ -430,8 +416,12 @@ var hierarchy =
     [ "Util::Array< CoreGraphics::EventId >", "class_util_1_1_array.html", null ],
     [ "Util::Array< CoreGraphics::FrameProfilingMarker >", "class_util_1_1_array.html", null ],
     [ "Util::Array< CoreGraphics::IndexType::Code >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< CoreGraphics::MeshId >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< CoreGraphics::PrimitiveGroup >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< CoreGraphics::MeshId >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, CoreGraphics::MeshId >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
+    [ "Util::Array< CoreGraphics::PrimitiveGroup >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, CoreGraphics::PrimitiveGroup >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< CoreGraphics::QueueType >", "class_util_1_1_array.html", null ],
     [ "Util::Array< CoreGraphics::RenderEvent >", "class_util_1_1_array.html", null ],
     [ "Util::Array< CoreGraphics::RenderShape >", "class_util_1_1_array.html", null ],
@@ -457,7 +447,9 @@ var hierarchy =
     [ "Util::Array< DeviceMemory >", "class_util_1_1_array.html", null ],
     [ "Util::Array< DrawFunc >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Fibers::FiberWaitContext >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< float >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< float >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, float >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Frame::FrameOp * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Frame::FrameOp::BufferDependency >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Frame::FrameOp::Compiled * >", "class_util_1_1_array.html", null ],
@@ -489,17 +481,25 @@ var hierarchy =
     [ "Util::Array< IndexT, 8 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Input::InputEvent >", "class_util_1_1_array.html", null ],
     [ "Util::Array< int >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< INTERFACE_TYPE >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< INTERFACE_TYPE >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, INTERFACE_TYPE >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< IO::ZipDirEntry >", "class_util_1_1_array.html", null ],
     [ "Util::Array< IO::ZipFileEntry >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Jobs2::JobNode * >", "class_util_1_1_array.html", null ],
     [ "Util::Array< KEYTYPE >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Materials::MaterialId >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Materials::MaterialId >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Materials::MaterialId >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Materials::ShaderConfigBatchTexture * >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Math::bbox >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Math::bbox >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Math::bbox >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Math::ClipStatus::Type >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Math::float2 >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Math::mat4 >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Math::mat4 >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Math::mat4 >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Math::matrix44 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Math::rectangle< int > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Math::uint2 >", "class_util_1_1_array.html", null ],
@@ -516,11 +516,19 @@ var hierarchy =
     [ "Util::Array< Memory::RangeAllocator::RangeAllocatorNode >", "class_util_1_1_array.html", null ],
     [ "Util::Array< MessageQueue >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Models::CharacterSkinNode::Fragment >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Models::ModelContext::NodeInstanceState >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Models::ModelNode * >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Models::NodeType >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Models::ModelContext::NodeInstanceState >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Models::ModelContext::NodeInstanceState >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
+    [ "Util::Array< Models::ModelNode * >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Models::ModelNode * >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
+    [ "Util::Array< Models::NodeType >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Models::NodeType >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Models::ShaderStateNode::DrawPacket * >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< NodeInstanceFlags >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< NodeInstanceFlags >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, NodeInstanceFlags >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Physics::Actor >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Physics::Material, 16 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Physics::Scene, 8 >", "class_util_1_1_array.html", null ],
@@ -563,18 +571,24 @@ var hierarchy =
     [ "Util::Array< Timing::Time >", "class_util_1_1_array.html", null ],
     [ "Util::Array< uint >", "class_util_1_1_array.html", null ],
     [ "Util::Array< uint16_t >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< uint32 >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< uint32 >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, uint32 >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< uint32_t >", "class_util_1_1_array.html", null ],
     [ "Util::Array< uint32_t, 8 >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< uint64 >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< uint64 >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, uint64 >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< UIRenderFunc >", "class_util_1_1_array.html", null ],
     [ "Util::Array< ultralight::Command >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Array< CoreGraphics::FrameProfilingMarker > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Array< Materials::ShaderConfigBatchTexture * > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Array< Ptr< Messaging::Port > > >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::Array< Util::Delegate< void(const Ptr< Messaging::Message > &)> > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Array< Vulkan::VkReflectionInfo::UniformBuffer > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Blob >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Delegate >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::Delegate< void(const Ptr< Messaging::Message > &)> >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Dictionary< uint, uint > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::FixedArray< Characters::SkeletonJobJoint > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::FixedArray< Math::mat4 > >", "class_util_1_1_array.html", null ],
@@ -666,9 +680,13 @@ var hierarchy =
     [ "Util::Array< Util::String >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::StringAtom >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::StringAtomTableBase::StaticString >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Util::Tuple< float, float > >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::Tuple< float, float > >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< float, float > >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Util::Tuple< IndexT, CoreGraphics::BufferId, CoreGraphics::TextureId > >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Util::Tuple< uint32, uint32 > >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::Tuple< uint32, uint32 > >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< uint32, uint32 > >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< Util::Tuple< VkDevice, VkAccelerationStructureKHR > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Tuple< VkDevice, VkBuffer > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::Tuple< VkDevice, VkCommandPool, VkCommandBuffer > >", "class_util_1_1_array.html", null ],
@@ -693,7 +711,9 @@ var hierarchy =
     [ "Util::Array< VkSparseImageOpaqueMemoryBindInfo >", "class_util_1_1_array.html", null ],
     [ "Util::Array< VkSparseMemoryBind >", "class_util_1_1_array.html", null ],
     [ "Util::Array< VkVertexInputAttributeDescription >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< void * >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< void * >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, void * >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array< void *, 16 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Vulkan::GraphicsDeviceState::PendingDeletes >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Vulkan::GraphicsDeviceState::SparseBufferBind >", "class_util_1_1_array.html", null ],
@@ -932,6 +952,8 @@ var hierarchy =
     [ "Util::Delegate< T >", "class_util_1_1_delegate.html", null ],
     [ "Vulkan::VkDeferredCommand::Delegate", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html", null ],
     [ "Util::Delegate< RETTYPE(ARGTYPES...)>", "class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html", null ],
+    [ "Util::Delegate< void(const Ptr< Messaging::Message > &)>", "class_util_1_1_delegate.html", null ],
+    [ "Util::Delegate< void(Physics::ActorId *, SizeT)>", "class_util_1_1_delegate.html", null ],
     [ "Util::Delegate< void(Ptr< IO::JsonReader > const &, const char *name, void *)>", "class_util_1_1_delegate.html", null ],
     [ "Util::Delegate< void(Ptr< IO::JsonWriter > const &, const char *name, void *)>", "class_util_1_1_delegate.html", null ],
     [ "Messaging::DelegateTable", "class_messaging_1_1_delegate_table.html", null ],
@@ -2234,7 +2256,7 @@ var hierarchy =
     [ "CoreGraphics::MeshLoader::StreamMeshLoadMetaData", "struct_core_graphics_1_1_mesh_loader_1_1_stream_mesh_load_meta_data.html", null ],
     [ "StreamShaderLoader", "class_core_graphics_1_1_stream_shader_loader.html", null ],
     [ "StreamTextureCache", "class_core_graphics_1_1_stream_texture_cache.html", null ],
-    [ "Util.String", "struct_util_1_1_string.html", null ],
+    [ "Util::String", "struct_util_1_1_string.html", null ],
     [ "Attr::StringArrayTypeClass", "class_attr_1_1_string_array_type_class.html", null ],
     [ "Util::StringAtom", "class_util_1_1_string_atom.html", null ],
     [ "Util::StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", [

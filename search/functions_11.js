@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quadtree_0',['QuadTree',['../class_util_1_1_quad_tree.html#a3a157e2ca7135d049cb8a3f79277bffe',1,'Util::QuadTree']]],
+  ['quadtree_0',['QuadTree',['../class_util_1_1_quad_tree.html#a9b42c34a4f4b7e232c364b9fd11e50ff',1,'Util::QuadTree']]],
   ['quadtreeinjectfunction_1',['QuadtreeInjectFunction',['../namespace_visibility.html#a29b6c9fc80332e720048debfa9981fb4',1,'Visibility']]],
   ['quadtreeresolvefunction_2',['QuadtreeResolveFunction',['../namespace_visibility.html#a870740731b013f784b58043a6d554171',1,'Visibility']]],
   ['quat_3',['quat',['../struct_math_1_1quat.html#a2fce55b556e2fff2fb4006734174de8c',1,'Math::quat::quat()'],['../struct_math_1_1quat.html#a135466e423cca475b014d98871a1ac4f',1,'Math::quat::quat(quat const &amp;)=default'],['../struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45',1,'Math::quat::quat(scalar x, scalar y, scalar z, scalar w)'],['../struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a',1,'Math::quat::quat(const vec4 &amp;rhs)'],['../struct_math_1_1quat.html#a186a3ae66c236cf10f192b99a8d31fc1',1,'Math::quat::quat(const __m128 &amp;rhs)']]],

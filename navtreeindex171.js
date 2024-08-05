@@ -1,15 +1,5 @@
 var NAVTREEINDEX171 =
 {
-"vkshader_8cc.html#a5aeae7e97e9a1e829732eb8f179685b7":[10,0,0,6,5,5,42,40],
-"vkshader_8cc.html#a5c6c7d8fc64ff7e4bf39ae3e0d2c66f0":[10,0,0,6,5,5,42,9],
-"vkshader_8cc.html#a605796f14bffca2980f4a58c95d985f4":[10,0,0,6,5,5,42,29],
-"vkshader_8cc.html#a63dd47698408af8d684a3b42a9303ece":[10,0,0,6,5,5,42,39],
-"vkshader_8cc.html#a68ba96d8d5a0ef5c777c65e84b9e02e0":[10,0,0,6,5,5,42,45],
-"vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52b":[10,0,0,6,5,5,42,0],
-"vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba05d3e8a67c8e33ae2cbbaf328fc87593":[10,0,0,6,5,5,42,0,12],
-"vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba1c4741ae673af0a4fdb2a490a2bec349":[10,0,0,6,5,5,42,0,10],
-"vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba3fa93367c1469bf17e499769044f10fb":[10,0,0,6,5,5,42,0,0],
-"vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba5b1ae32162b19c41b8d0d8b767be7f95":[10,0,0,6,5,5,42,0,7],
 "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba64202385f32cf5b065408fb36806677c":[10,0,0,6,5,5,42,0,2],
 "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba6922439958eb71f78717833d7fa0374c":[10,0,0,6,5,5,42,0,13],
 "vkshader_8cc.html#a74f966241b06f18d7362ec77fee0a52ba8084f701294fab1a971d937a0dc80323":[10,0,0,6,5,5,42,0,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX171 =
 "win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
 "win32criticalsection_8h.html":[10,0,0,3,18,6,2],
 "win32criticalsection_8h.html#a04b575446acc6fe7ec8b6d213eab2082":[10,0,0,3,18,6,2,1],
-"win32criticalsection_8h_source.html":[10,0,0,3,18,6,2]
+"win32criticalsection_8h_source.html":[10,0,0,3,18,6,2],
+"win32displaydevice_8cc.html":[10,0,0,6,5,6,0],
+"win32displaydevice_8cc.html#a25333cb0019c686b4f4a381768268cc2":[10,0,0,6,5,6,0,1],
+"win32displaydevice_8cc.html#acdfe5eda6306f0a5dcafd6f161ca43cc":[10,0,0,6,5,6,0,2],
+"win32displaydevice_8h.html":[10,0,0,6,5,6,1],
+"win32displaydevice_8h_source.html":[10,0,0,6,5,6,1],
+"win32environment_8cc.html":[10,0,0,3,17,4,1],
+"win32environment_8h.html":[10,0,0,3,17,4,2],
+"win32environment_8h_source.html":[10,0,0,3,17,4,2],
+"win32event_8h.html":[10,0,0,3,18,6,3],
+"win32event_8h_source.html":[10,0,0,3,18,6,3]
 };

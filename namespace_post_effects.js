@@ -110,6 +110,6 @@ var namespace_post_effects =
     [ "xDirectionHBAO", "namespace_post_effects.html#a77e119e31d8039e41c7685cb9042c2f1", null ],
     [ "yDirectionBlur", "namespace_post_effects.html#a4743ad202db04265c7ba4f99d2802b4b", null ],
     [ "yDirectionHBAO", "namespace_post_effects.html#ab7973248e778277a756be7f2dee66d7b", null ],
-    [ "zbuffer", "namespace_post_effects.html#ab474762951b4df8269e0f9c56585187c", null ],
-    [ "zBuffer", "namespace_post_effects.html#ae4ee51618c4b17dac4a2203a8304c6d7", null ]
+    [ "zBuffer", "namespace_post_effects.html#ae4ee51618c4b17dac4a2203a8304c6d7", null ],
+    [ "zbuffer", "namespace_post_effects.html#ab474762951b4df8269e0f9c56585187c", null ]
 ];
