@@ -20,6 +20,5 @@ var class_vulkan_1_1_vk_types =
     [ "AsVkShaderVisibility", "class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032", null ],
     [ "AsVkSize", "class_vulkan_1_1_vk_types.html#aa1043b7cb89888163b1d0bccc01a70f7", null ],
     [ "AsVkVertexType", "class_vulkan_1_1_vk_types.html#a5563d011d12cc9b3d6449631c75afa06", null ],
-    [ "IsCompressedFormat", "class_vulkan_1_1_vk_types.html#a9113e7d3e58327906103d671078606c6", null ],
-    [ "IsDepthFormat", "class_vulkan_1_1_vk_types.html#a5b9530bc0b105d36903bdd8c3a66b8ba", null ]
+    [ "IsCompressedFormat", "class_vulkan_1_1_vk_types.html#a9113e7d3e58327906103d671078606c6", null ]
 ];

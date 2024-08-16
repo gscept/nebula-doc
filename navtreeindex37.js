@@ -1,12 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"class_http_1_1_http_nz_stream.html#a1f8788b2fbd05f08314093b800d8ca75":[9,0,29,9,0],
-"class_http_1_1_http_nz_stream.html#a328292fee8e8c0209f410a7fbb907cfa":[8,0,32,9,1],
-"class_http_1_1_http_nz_stream.html#a328292fee8e8c0209f410a7fbb907cfa":[9,0,29,9,1],
-"class_http_1_1_http_nz_stream.html#a42cda116b38e2018a20d8f75e49c1ea5":[8,0,32,9,2],
-"class_http_1_1_http_nz_stream.html#a42cda116b38e2018a20d8f75e49c1ea5":[9,0,29,9,2],
-"class_http_1_1_http_nz_stream.html#ada26afb43a112719a83ac99b427c6776":[8,0,32,9,3],
-"class_http_1_1_http_nz_stream.html#ada26afb43a112719a83ac99b427c6776":[9,0,29,9,3],
 "class_http_1_1_http_request.html":[8,0,32,10],
 "class_http_1_1_http_request.html":[9,0,29,10],
 "class_http_1_1_http_request.html#a234cca251143a5c204773dc54612e205":[8,0,32,10,11],
@@ -249,5 +242,12 @@ var NAVTREEINDEX37 =
 "class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90":[9,0,29,18,0],
 "class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a378b83da466e2a3cdfed69358391d24b":[8,0,32,18,0,0],
 "class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a378b83da466e2a3cdfed69358391d24b":[9,0,29,18,0,0],
-"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a3d7626752febfcd89d6f69bf88ab2b9e":[8,0,32,18,0,9]
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a3d7626752febfcd89d6f69bf88ab2b9e":[8,0,32,18,0,9],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a3d7626752febfcd89d6f69bf88ab2b9e":[9,0,29,18,0,9],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a4f80e5678f8d350476795b11948a05cd":[8,0,32,18,0,2],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a4f80e5678f8d350476795b11948a05cd":[9,0,29,18,0,2],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a6bb4ebc6845b5974b561388a5789d369":[8,0,32,18,0,5],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a6bb4ebc6845b5974b561388a5789d369":[9,0,29,18,0,5],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a7063c4de11a95fcd552e4b5342e2f053":[8,0,32,18,0,6],
+"class_http_1_1_http_status.html#aa46049e29842dce69741efaf764afc90a7063c4de11a95fcd552e4b5342e2f053":[9,0,29,18,0,6]
 };

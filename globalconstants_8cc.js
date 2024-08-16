@@ -11,7 +11,7 @@ var globalconstants_8cc =
     [ "GetTickResourceTable", "globalconstants_8cc.html#ac94f213ba6c168901d7a14df67e142f2", null ],
     [ "GetViewConstants", "globalconstants_8cc.html#add91dcd9b892d18c06dcb0a0474107a9", null ],
     [ "SetGlobalEnvironmentTextures", "globalconstants_8cc.html#a08764bcc5eeac2bd2bc4f0b6f236e799", null ],
-    [ "SetupBufferConstants", "globalconstants_8cc.html#a15cba38e3f66e0142d2f1118765836b4", null ],
+    [ "SetupBufferConstants", "globalconstants_8cc.html#a66ade62c274bcf0c649dee00be28acaf", null ],
     [ "UpdateShadowConstants", "globalconstants_8cc.html#a3b8e04c79872b0f1d38e3cc0eac944ad", null ],
     [ "UpdateTickParams", "globalconstants_8cc.html#a1c4c355e67b0f703af1659ada4249a85", null ],
     [ "UpdateViewConstants", "globalconstants_8cc.html#a371833c69bd54f5c34ecc9c49e2df042", null ],

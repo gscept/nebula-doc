@@ -27,8 +27,7 @@ var pass_8h =
     [ "PassGetAttachments", "pass_8h.html#aacbc2032879e687af40a61dc793d5d9e", null ],
     [ "PassGetName", "pass_8h.html#a73d0881e447fb7b9549ac1ee64293fb0", null ],
     [ "PassGetNumSubpassAttachments", "pass_8h.html#a7e5395b21fa5b7f01b54d7d3b41aa19c", null ],
-    [ "PassGetRects", "pass_8h.html#a9016a40a59649f74368a42bdce431eec", null ],
     [ "PassGetResourceTable", "pass_8h.html#ac116135f1d71b4a39fe7c2a12f4a77ce", null ],
-    [ "PassGetViewports", "pass_8h.html#a1e83723c42fdf52dfa73814a1d143cde", null ],
+    [ "PassSetRenderTargetParameters", "pass_8h.html#a865e7621b9fbbf184e772b8c0c95d107", null ],
     [ "PassWindowResizeCallback", "pass_8h.html#a7eb4dafaf07e6885492a4e8b74234419", null ]
 ];

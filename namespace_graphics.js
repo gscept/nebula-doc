@@ -46,7 +46,7 @@ var namespace_graphics =
     [ "RegisterTexture", "namespace_graphics.html#a19cdcd72746cd5a3eb911a66bdf6e811", null ],
     [ "ReregisterTexture", "namespace_graphics.html#ac3f031f2c7ccb90477937c5def535a33", null ],
     [ "SetGlobalEnvironmentTextures", "namespace_graphics.html#a08764bcc5eeac2bd2bc4f0b6f236e799", null ],
-    [ "SetupBufferConstants", "namespace_graphics.html#a15cba38e3f66e0142d2f1118765836b4", null ],
+    [ "SetupBufferConstants", "namespace_graphics.html#a66ade62c274bcf0c649dee00be28acaf", null ],
     [ "UnregisterTexture", "namespace_graphics.html#a3766a4d1a20ed62ca32890a0e42ce700", null ],
     [ "UpdateShadowConstants", "namespace_graphics.html#a3b8e04c79872b0f1d38e3cc0eac944ad", null ],
     [ "UpdateTickParams", "namespace_graphics.html#a1c4c355e67b0f703af1659ada4249a85", null ],

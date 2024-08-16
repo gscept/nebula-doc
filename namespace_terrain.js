@@ -56,7 +56,6 @@ var namespace_terrain =
     [ "colorIndex", "namespace_terrain.html#a74e05869f8a2ec24722d924690e7cc43", null ],
     [ "constantsBuffer", "namespace_terrain.html#a788922671b7acd42b67b8c6a66b0acc7", null ],
     [ "debugRender", "namespace_terrain.html#a1ae045e53e542291f5ccdbb92c4f23bf", null ],
-    [ "frameOpAllocator", "namespace_terrain.html#a2857feb07f21d817c53b52d365e32346", null ],
     [ "gpuSubTextures", "namespace_terrain.html#acef5b93fd4a20198ca8dba62b9b09266", null ],
     [ "indexBuffer", "namespace_terrain.html#a1a978a891f6a3b20769b8db20bf5f81e", null ],
     [ "indirectionBuffer", "namespace_terrain.html#a5e0fa14c39e3a14f4a8a4e5907b2b16b", null ],

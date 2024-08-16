@@ -5,7 +5,6 @@ var interlocked_8h =
     [ "Threading::Interlocked::AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", "struct_threading_1_1_interlocked_1_1_atomic_pointer" ],
     [ "AtomicCounter", "interlocked_8h.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b", null ],
     [ "AtomicCounter64", "interlocked_8h.html#a078e9fa3177309d06608c7c4445044e6", null ],
-    [ "int64", "interlocked_8h.html#a4390ef824f28371f3e467dea4e89f2fc", null ],
     [ "Add", "interlocked_8h.html#a881046af8286fa2d4be7426e89665b8c", null ],
     [ "Add", "interlocked_8h.html#a4d3daac37901893baa21fd5c07e5b0d2", null ],
     [ "And", "interlocked_8h.html#a4361680cfe1182dc0b41f83d1ae4b698", null ],

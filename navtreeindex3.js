@@ -1,10 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"char_8h_source.html":[10,0,0,4,0,2],
-"charactercontext_8cc.html":[10,0,0,6,2,0],
-"charactercontext_8cc.html#a21e80b2d8993ce540b525aa8e7c7390a":[10,0,0,6,2,0,3],
-"charactercontext_8cc.html#a22c6edfca5da8858300b143216009e1a":[10,0,0,6,2,0,4],
-"charactercontext_8cc.html#a34affec1c456d2bd96ce2d7debe4f2c8":[10,0,0,6,2,0,5],
 "charactercontext_8cc.html#a969705a559fb41ba2b6edd841dbd09f8":[10,0,0,6,2,0,1],
 "charactercontext_8cc.html#ac883e3ed3ac83bd705ce8f00b014fdf7":[10,0,0,6,2,0,2],
 "charactercontext_8h.html":[10,0,0,6,2,1],
@@ -16,12 +11,12 @@ var NAVTREEINDEX3 =
 "charactercontext_8h.html#ae4ad265a7161cf04bbaee511c95ae613ad341542e1f38c5e70845977233564931":[10,0,0,6,2,1,3,2],
 "charactercontext_8h.html#ae4ad265a7161cf04bbaee511c95ae613af978c16aa539b5335082e261b1397363":[10,0,0,6,2,1,3,0],
 "charactercontext_8h_source.html":[10,0,0,6,2,1],
-"characternode_8cc.html":[10,0,0,6,16,0,0],
-"characternode_8h.html":[10,0,0,6,16,0,1],
-"characternode_8h_source.html":[10,0,0,6,16,0,1],
-"characterskinnode_8cc.html":[10,0,0,6,16,0,2],
-"characterskinnode_8h.html":[10,0,0,6,16,0,3],
-"characterskinnode_8h_source.html":[10,0,0,6,16,0,3],
+"characternode_8cc.html":[10,0,0,6,17,0,0],
+"characternode_8h.html":[10,0,0,6,17,0,1],
+"characternode_8h_source.html":[10,0,0,6,17,0,1],
+"characterskinnode_8cc.html":[10,0,0,6,17,0,2],
+"characterskinnode_8h.html":[10,0,0,6,17,0,3],
+"characterskinnode_8h_source.html":[10,0,0,6,17,0,3],
 "class_animation_1_1_anim_event_handler_base.html":[8,0,0,0],
 "class_animation_1_1_anim_event_handler_base.html":[9,0,0,0],
 "class_animation_1_1_anim_event_handler_base.html#a3708c7d5a36dab2d4e7ce6fb859599de":[8,0,0,0,6],
@@ -249,5 +244,10 @@ var NAVTREEINDEX3 =
 "class_animation_1_1_anim_job.html#ae1b6ef1c5c7a79bdbafce941f82888dc":[8,0,0,3,44],
 "class_animation_1_1_anim_job.html#ae1b6ef1c5c7a79bdbafce941f82888dc":[9,0,0,3,44],
 "class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3":[8,0,0,3,57],
-"class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3":[9,0,0,3,57]
+"class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3":[9,0,0,3,57],
+"class_animation_1_1_anim_job.html#ae905d4e08c6a520a71334052cc1de63f":[8,0,0,3,61],
+"class_animation_1_1_anim_job.html#ae905d4e08c6a520a71334052cc1de63f":[9,0,0,3,61],
+"class_animation_1_1_anim_job.html#aeb03dcb1b43f80ee65ac7664e3c2419d":[8,0,0,3,40],
+"class_animation_1_1_anim_job.html#aeb03dcb1b43f80ee65ac7664e3c2419d":[9,0,0,3,40],
+"class_animation_1_1_anim_job.html#aee9e396e37dbca9ebea73be11a9b39ac":[8,0,0,3,64]
 };

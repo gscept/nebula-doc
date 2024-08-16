@@ -1,15 +1,15 @@
 var class_fog_1_1_volumetric_fog_context =
 [
-    [ "FogBoxVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#aeba61fad3488d1a4e8e805c3fa514fdc", null ],
-    [ "FogGenericVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#ac9acc6d4fda2b5373f24c6d27fc3356b", null ],
-    [ "FogSphereVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#a86cf471ecc7a1ccd9bafe8b59c9bb318", null ],
+    [ "FogBoxVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#ab304a3f39ad7ecd064afec8288eb54dd", null ],
+    [ "FogGenericVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#afe9bafcab70daf92d62159373d2e758d", null ],
+    [ "FogSphereVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#a8116a6da9fe4ec50227c902a8b8c8bb9", null ],
     [ "FogVolumeType", "class_fog_1_1_volumetric_fog_context.html#ac270b37b647f631af021b08228e0176a", [
       [ "BoxVolume", "class_fog_1_1_volumetric_fog_context.html#ac270b37b647f631af021b08228e0176aaa24b14fb51f1f5593408805e569712a6", null ],
       [ "SphereVolume", "class_fog_1_1_volumetric_fog_context.html#ac270b37b647f631af021b08228e0176aa25cc17ad7197032c3c1cb026e455285d", null ]
     ] ],
     [ "~VolumetricFogContext", "class_fog_1_1_volumetric_fog_context.html#a7d6f1f019f7c90de430f13e90a0c5f9d", null ],
     [ "Alloc", "class_fog_1_1_volumetric_fog_context.html#af5324485c1184824a610c1578ca07a4d", null ],
-    [ "Create", "class_fog_1_1_volumetric_fog_context.html#a5218526345db6f68b3611013576e2556", null ],
+    [ "Create", "class_fog_1_1_volumetric_fog_context.html#ada84062cd7d0438a627011b95cf4c56b", null ],
     [ "Dealloc", "class_fog_1_1_volumetric_fog_context.html#a54da31bc756e671be244ce241a60d788", null ],
     [ "Discard", "class_fog_1_1_volumetric_fog_context.html#a83835690ea84a8abeaf88bb7658459c8", null ],
     [ "GetTransform", "class_fog_1_1_volumetric_fog_context.html#a4b935911f8d10a056c8c823bf421fd33", null ],

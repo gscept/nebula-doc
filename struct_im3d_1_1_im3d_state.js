@@ -6,7 +6,6 @@ var struct_im3d_1_1_im3d_state =
     [ "depthLinesPipeline", "struct_im3d_1_1_im3d_state.html#ac517c16cca3784fe94cf5cd864aa7f56", null ],
     [ "depthTriangles", "struct_im3d_1_1_im3d_state.html#aacf3536e29903cc641828c4b897fb199", null ],
     [ "depthTrianglesPipeline", "struct_im3d_1_1_im3d_state.html#a0e7a1eef88ca560c3f332703290f75fe", null ],
-    [ "frameOpAllocator", "struct_im3d_1_1_im3d_state.html#aa09d66b62178edd338452b23b60002b2", null ],
     [ "gridColor", "struct_im3d_1_1_im3d_state.html#abcc00d22667d89d220e60873d8b61aab", null ],
     [ "gridOffset", "struct_im3d_1_1_im3d_state.html#a114fe30c705b2ac3636740735d8bf7fe", null ],
     [ "gridSize", "struct_im3d_1_1_im3d_state.html#afea04051f01446f3aaf549f3d7576313", null ],

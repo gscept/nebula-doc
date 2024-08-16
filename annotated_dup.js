@@ -166,9 +166,9 @@ var annotated_dup =
       [ "AntiAliasQuality", "class_core_graphics_1_1_anti_alias_quality.html", "class_core_graphics_1_1_anti_alias_quality" ],
       [ "BarrierCreateInfo", "struct_core_graphics_1_1_barrier_create_info.html", "struct_core_graphics_1_1_barrier_create_info" ],
       [ "BarrierId", "struct_core_graphics_1_1_barrier_id.html", null ],
+      [ "BarrierScope", "struct_core_graphics_1_1_barrier_scope.html", "struct_core_graphics_1_1_barrier_scope" ],
       [ "BarrierStackEntry", "struct_core_graphics_1_1_barrier_stack_entry.html", "struct_core_graphics_1_1_barrier_stack_entry" ],
       [ "BaseVertex", "struct_core_graphics_1_1_base_vertex.html", "struct_core_graphics_1_1_base_vertex" ],
-      [ "BatchGroup", "class_core_graphics_1_1_batch_group.html", "class_core_graphics_1_1_batch_group" ],
       [ "BlasCreateInfo", "struct_core_graphics_1_1_blas_create_info.html", "struct_core_graphics_1_1_blas_create_info" ],
       [ "BlasId", "struct_core_graphics_1_1_blas_id.html", null ],
       [ "BlasInstanceCreateInfo", "struct_core_graphics_1_1_blas_instance_create_info.html", "struct_core_graphics_1_1_blas_instance_create_info" ],
@@ -370,7 +370,6 @@ var annotated_dup =
       [ "ImguiContext", "class_dynui_1_1_imgui_context.html", "class_dynui_1_1_imgui_context" ],
       [ "ImguiInputHandler", "class_dynui_1_1_imgui_input_handler.html", "class_dynui_1_1_imgui_input_handler" ],
       [ "ImguiProfiler", "class_dynui_1_1_imgui_profiler.html", "class_dynui_1_1_imgui_profiler" ],
-      [ "ImguiRendererParams", "struct_dynui_1_1_imgui_renderer_params.html", "struct_dynui_1_1_imgui_renderer_params" ],
       [ "ImguiRTPlugin", "class_dynui_1_1_imgui_r_t_plugin.html", "class_dynui_1_1_imgui_r_t_plugin" ],
       [ "ImguiTextureId", "struct_dynui_1_1_imgui_texture_id.html", "struct_dynui_1_1_imgui_texture_id" ]
     ] ],
@@ -413,7 +412,9 @@ var annotated_dup =
       [ "FrameSubpassFullscreenEffect", "class_frame_1_1_frame_subpass_fullscreen_effect.html", "class_frame_1_1_frame_subpass_fullscreen_effect" ],
       [ "FrameSubpassOrderedBatch", "class_frame_1_1_frame_subpass_ordered_batch.html", "class_frame_1_1_frame_subpass_ordered_batch" ],
       [ "FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ],
-      [ "FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ]
+      [ "FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ],
+      [ "TextureExport", "struct_frame_1_1_texture_export.html", "struct_frame_1_1_texture_export" ],
+      [ "TextureImport", "struct_frame_1_1_texture_import.html", "struct_frame_1_1_texture_import" ]
     ] ],
     [ "FrameSync", "namespace_frame_sync.html", [
       [ "FrameSyncTimer", "class_frame_sync_1_1_frame_sync_timer.html", "class_frame_sync_1_1_frame_sync_timer" ]
@@ -682,10 +683,7 @@ var annotated_dup =
       [ "MaterialLoader", "class_materials_1_1_material_loader.html", "class_materials_1_1_material_loader" ],
       [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
       [ "MaterialVariant", "struct_materials_1_1_material_variant.html", "struct_materials_1_1_material_variant" ],
-      [ "ShaderConfigBatchConstant", "struct_materials_1_1_shader_config_batch_constant.html", "struct_materials_1_1_shader_config_batch_constant" ],
-      [ "ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", "struct_materials_1_1_shader_config_batch_texture" ],
-      [ "ShaderConfigConstant", "struct_materials_1_1_shader_config_constant.html", "struct_materials_1_1_shader_config_constant" ],
-      [ "ShaderConfigTexture", "struct_materials_1_1_shader_config_texture.html", "struct_materials_1_1_shader_config_texture" ]
+      [ "ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", "struct_materials_1_1_shader_config_batch_texture" ]
     ] ],
     [ "MaterialTemplates", "namespace_material_templates.html", [
       [ "Entry", "struct_material_templates_1_1_entry.html", "struct_material_templates_1_1_entry" ],
@@ -1218,7 +1216,7 @@ var annotated_dup =
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
     [ "InstanceServerBase", "class_instancing_1_1_instance_server_base.html", null ],
     [ "Interface", "class_i_o_1_1_interface.html", null ],
-    [ "Interlocked", "class_threading_1_1_interlocked.html", "class_threading_1_1_interlocked" ],
+    [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Level", "class_level.html", null ],

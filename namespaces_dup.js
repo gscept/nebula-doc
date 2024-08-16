@@ -95,6 +95,7 @@ var namespaces_dup =
     [ "RenderUtil", "namespace_render_util.html", "namespace_render_util" ],
     [ "Resources", "namespace_resources.html", "namespace_resources" ],
     [ "Scripting", "namespace_scripting.html", "namespace_scripting" ],
+    [ "Shared", "namespace_shared.html", null ],
     [ "SoLoud", "namespace_so_loud.html", null ],
     [ "StaticUI", "namespace_static_u_i.html", "namespace_static_u_i" ],
     [ "std", "namespacestd.html", "namespacestd" ],

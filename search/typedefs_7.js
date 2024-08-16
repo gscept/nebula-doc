@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['handle_0',['Handle',['../class_o_s_x_1_1_o_s_x_f_s_wrapper.html#a3f432be68271fdcf59e02e31e4027791',1,'OSX::OSXFSWrapper::Handle'],['../class_posix_1_1_posix_f_s_wrapper.html#a2f383e248aa6806d5228ca374dc47098',1,'Posix::PosixFSWrapper::Handle'],['../class_win32_1_1_win32_f_s_wrapper.html#a65745e2470667ae925c19cba1d1b4e15',1,'Win32::Win32FSWrapper::Handle']]],
-  ['hour_1',['Hour',['../class_base_1_1_calendar_time_base.html#a462627df105d15da359c321f023e3bbd',1,'Base::CalendarTimeBase']]]
+  ['handle_0',['Handle',['../class_o_s_x_1_1_o_s_x_f_s_wrapper.html#a1a97c81fad4ff4060438365c52a7e5d5',1,'OSX::OSXFSWrapper::Handle'],['../class_posix_1_1_posix_f_s_wrapper.html#a8a0cbb2c399c3a28f121e90584bbf987',1,'Posix::PosixFSWrapper::Handle'],['../class_win32_1_1_win32_f_s_wrapper.html#a36ec01bb514791a5c0b80ea2ea5f8fce',1,'Win32::Win32FSWrapper::Handle']]],
+  ['hour_1',['Hour',['../class_base_1_1_calendar_time_base.html#a624310c86bde7d38f6a7d161f8a46933',1,'Base::CalendarTimeBase']]]
 ];

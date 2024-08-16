@@ -1,9 +1,7 @@
 var class_graphics_feature_1_1_graphics_feature_unit =
 [
     [ "TerrainInstance", "struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html", "struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance" ],
-    [ "UIRenderFunc", "class_graphics_feature_1_1_graphics_feature_unit.html#a636722026f86e63670da656e3a9de05d", null ],
     [ "~GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html#ace45286aad84d1c3c5e6446a3fbec077", null ],
-    [ "AddRenderUICallback", "class_graphics_feature_1_1_graphics_feature_unit.html#abfed649756878a9e64cff3655dff348c", null ],
     [ "GetDefaultStage", "class_graphics_feature_1_1_graphics_feature_unit.html#abbd9478dfc0b8eea414055ff9ecd04f9", null ],
     [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6cb80e3f50cdada2af3535412a7a7516", null ],
     [ "GetDefaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a71a9bf572ab6715dc4424efeaa4aa271", null ],
@@ -32,6 +30,5 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "r_show_frame_inspector", "class_graphics_feature_1_1_graphics_feature_unit.html#a97b34977c5411a682e56bb05e61b0718", null ],
     [ "terrain", "class_graphics_feature_1_1_graphics_feature_unit.html#a40f6e2b599291dda7612a0fd73c6ac4b", null ],
     [ "title", "class_graphics_feature_1_1_graphics_feature_unit.html#ada8ebdddd284f1f2b17d054c447502b1", null ],
-    [ "uiCallbacks", "class_graphics_feature_1_1_graphics_feature_unit.html#ae367d7e9c9576d7a489fe1d4f68a3bab", null ],
     [ "wnd", "class_graphics_feature_1_1_graphics_feature_unit.html#a63bd391ca7b5c12fddea3cd3af9db5a6", null ]
 ];

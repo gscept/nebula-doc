@@ -14,6 +14,5 @@ var class_models_1_1_shader_state_node =
     [ "materialName", "class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3", null ],
     [ "materialRes", "class_models_1_1_shader_state_node.html#a077216bda479757f274322f9dcdd0e1e", null ],
     [ "NumMaxOffsets", "class_models_1_1_shader_state_node.html#a6e876d51a099c74d835d0212897c37f5", null ],
-    [ "NumTables", "class_models_1_1_shader_state_node.html#a4c53e8eb798ae3c0ac4741356b01dbc8", null ],
     [ "resourceTables", "class_models_1_1_shader_state_node.html#a51f1f7198917849df1103ea66d31a049", null ]
 ];

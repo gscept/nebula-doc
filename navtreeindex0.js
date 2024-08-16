@@ -32,7 +32,7 @@ var NAVTREEINDEX0 =
 "_debug.html":[2,2],
 "_debug.html#NebulaDebugSystem":[2,2,0],
 "_entity_8cs.html":[10,0,0,0,7,2,0,3],
-"_entity_8cs.html#a4dbe2754e3cc12f7e56a8d90785b69a5":[10,0,0,0,7,2,0,3,2],
+"_entity_8cs.html#a539f62a2c66ba3f0c21ceca66bf002d4":[10,0,0,0,7,2,0,3,2],
 "_frame.html":[4,2],
 "_frame.html#NebulaFrameSystem":[4,2,0],
 "_frame.html#Operations":[4,2,0,1],
@@ -59,7 +59,6 @@ var NAVTREEINDEX0 =
 "_jobs.html#NebulaJobSystem":[2,7,0],
 "_list_extensions_8cs.html":[10,0,0,0,7,2,1,0],
 "_main_8cs.html":[10,0,0,0,7,2,3],
-"_main_8cs.html#a4dbe2754e3cc12f7e56a8d90785b69a5":[10,0,0,0,7,2,3,3],
 "_math.html":[2,8],
 "_math.html#NebulaMath":[2,8,0],
 "_math_helper_8cs.html":[10,0,0,0,7,2,2,5],
@@ -136,7 +135,6 @@ var NAVTREEINDEX0 =
 "_vector3_8cs.html":[10,0,0,0,7,2,2,14],
 "_vector4_8cs.html":[10,0,0,0,7,2,2,15],
 "_world_8cs.html":[10,0,0,0,7,2,0,9],
-"_world_8cs.html#a4dbe2754e3cc12f7e56a8d90785b69a5":[10,0,0,0,7,2,0,9,1],
 "accelerationstructure_8h.html":[10,0,0,6,5,7],
 "accelerationstructure_8h.html#a061358eeb4bea66046d619b16edf4e76":[10,0,0,6,5,7,11],
 "accelerationstructure_8h.html#a15810c71bf587d9022b51494d948bace":[10,0,0,6,5,7,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "animevent_8h.html#ac35185532751a0efd1edb9e44b11409b":[10,0,0,6,4,10,3],
 "animevent_8h_source.html":[10,0,0,6,4,10],
 "animeventemitter_8cc.html":[10,0,0,6,4,11],
-"animeventemitter_8h.html":[10,0,0,6,4,12]
+"animeventemitter_8h.html":[10,0,0,6,4,12],
+"animeventemitter_8h_source.html":[10,0,0,6,4,12],
+"animeventhandlerbase_8cc.html":[10,0,0,6,0,0]
 };

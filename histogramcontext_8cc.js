@@ -15,8 +15,5 @@ var histogramcontext_8cc =
     [ "mip", "histogramcontext_8cc.html#a411589b433cb5e70aadb5713fab42ada", null ],
     [ "offset", "histogramcontext_8cc.html#a8a5b70ae32b02bef6962b3bbd5008067", null ],
     [ "previousLum", "histogramcontext_8cc.html#ac7f3e2b5a3ea6420a750bcb911ff05e6", null ],
-    [ "size", "histogramcontext_8cc.html#a825e3364318c29cbd82bce236358bcea", null ],
-    [ "sourceTexture", "histogramcontext_8cc.html#a1ce5f063f3489b1d69deb0c27b75c0a4", null ],
-    [ "sourceTextureBinding", "histogramcontext_8cc.html#ac4ef4934292a8c8c256f84f1f89a978d", null ],
-    [ "sourceTextureDimensions", "histogramcontext_8cc.html#ac987ebf7e31a8fec2c0baa3ba7dc9f9c", null ]
+    [ "size", "histogramcontext_8cc.html#a825e3364318c29cbd82bce236358bcea", null ]
 ];

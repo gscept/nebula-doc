@@ -16,7 +16,6 @@ var class_im3d_1_1_im3d_context =
     [ "DrawSphere", "class_im3d_1_1_im3d_context.html#ac5d57096963a609db17b5ac7c34ead06", null ],
     [ "DrawText", "class_im3d_1_1_im3d_context.html#af768f2f99e528db993d242abe0ba0c94", null ],
     [ "HandleInput", "class_im3d_1_1_im3d_context.html#a8b5153e80c4dd293042ddf40446c1789", null ],
-    [ "NewFrame", "class_im3d_1_1_im3d_context.html#af0605641997ef22d8c313f5673d6f7e8", null ],
     [ "OnPrepareView", "class_im3d_1_1_im3d_context.html#a5493eaa9a43e36acd8cdf777095934b8", null ],
     [ "Render", "class_im3d_1_1_im3d_context.html#a4aeeb309b34f25dcf4ae89ec889a705f", null ],
     [ "SetGizmoSize", "class_im3d_1_1_im3d_context.html#a3b4b42b77f39280936cadd30d5685ce7", null ],

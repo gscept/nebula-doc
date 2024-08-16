@@ -90,6 +90,7 @@ var struct_util_1_1_string =
     [ "Get", "struct_util_1_1_string.html#abc0d13322b8bb7b27348df983b15ba3c", null ],
     [ "GetFileExtension", "struct_util_1_1_string.html#ac4e55d61654a012c6d26aef6bbbf0709", null ],
     [ "GetLastSlash", "struct_util_1_1_string.html#a88e843ff9ab038ffe8d806f2bc3d084b", null ],
+    [ "Hash", "struct_util_1_1_string.html#a850a1bf45fb284302e8793fb06101e32", null ],
     [ "HashCode", "struct_util_1_1_string.html#ada8f89ec7e062b1cd5350fa38b68664e", null ],
     [ "Hex", "struct_util_1_1_string.html#adf3889f1573f7f7f6b4543b3018c4065", null ],
     [ "IsAlNum", "struct_util_1_1_string.html#affd9896559e74f0651a2210e6d34ff0c", null ],

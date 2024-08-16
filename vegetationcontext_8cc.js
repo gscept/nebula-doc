@@ -7,7 +7,6 @@ var vegetationcontext_8cc =
     [ "combinedMeshLayout", "vegetationcontext_8cc.html#a6dc69c0a29e45d73b00be5e6ecd991b9", null ],
     [ "combinedMeshLayoutWithColor", "vegetationcontext_8cc.html#ad67e81d42cd60d081b5652cefaf35d1c", null ],
     [ "drawCountBuffer", "vegetationcontext_8cc.html#ad07bf7af17b48c5e3ce1fdeec1be22c0", null ],
-    [ "frameOpAllocator", "vegetationcontext_8cc.html#a3f46af30c67de8c4ceee1f87c66a53c3", null ],
     [ "grassArgumentsBuffer", "vegetationcontext_8cc.html#a4c68fc442b7d6af0b12bfdc9893a68a7", null ],
     [ "grassDrawCallsBuffer", "vegetationcontext_8cc.html#ad38216b7c7de2c69183f9b0bed77f924", null ],
     [ "grassDrawsThisFrame", "vegetationcontext_8cc.html#a51284a56258a1b76d5310e707b5fd0a3", null ],

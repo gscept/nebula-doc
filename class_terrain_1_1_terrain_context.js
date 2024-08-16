@@ -2,8 +2,8 @@ var class_terrain_1_1_terrain_context =
 [
     [ "TerrainLoadInfo", "struct_terrain_1_1_terrain_context_1_1_terrain_load_info.html", "struct_terrain_1_1_terrain_context_1_1_terrain_load_info" ],
     [ "TerrainRuntimeInfo", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info" ],
-    [ "TerrainAllocator", "class_terrain_1_1_terrain_context.html#ab4171369bee982697d65eadff56fdde9", null ],
-    [ "TerrainBiomeAllocator", "class_terrain_1_1_terrain_context.html#a1af7ac34353287661cf0df1042a81b63", null ],
+    [ "TerrainAllocator", "class_terrain_1_1_terrain_context.html#a9847bc65ecdb8053d13e2efbd2e939be", null ],
+    [ "TerrainBiomeAllocator", "class_terrain_1_1_terrain_context.html#ac48d2d7abdef9ff693e9533b92350e3b", null ],
     [ "TerrainContext", "class_terrain_1_1_terrain_context.html#a6d15038fd6d17f8bf3ffe6fa5693d7c0", null ],
     [ "~TerrainContext", "class_terrain_1_1_terrain_context.html#aa9233d808254ad54d8fd2fb8a491b869", null ],
     [ "__DeclareContext", "class_terrain_1_1_terrain_context.html#ad6720579ec5c4c6250a30edb02aa9388", null ],

@@ -1,7 +1,7 @@
 var class_ti_xml_string =
 [
     [ "Rep", "struct_ti_xml_string_1_1_rep.html", "struct_ti_xml_string_1_1_rep" ],
-    [ "size_type", "class_ti_xml_string.html#abeb2c1893a04c17904f7c06546d0b971", null ],
+    [ "size_type", "class_ti_xml_string.html#a404b47c69d151b23ccd3c4b668f02f40", null ],
     [ "TiXmlString", "class_ti_xml_string.html#a342f61e0fc2244df300b73aedf6d3fef", null ],
     [ "TiXmlString", "class_ti_xml_string.html#ac80fe17693a438c9ab2591664743fcb6", null ],
     [ "TiXmlString", "class_ti_xml_string.html#aa3b32bd2891a757c9f36c21db44c81d2", null ],

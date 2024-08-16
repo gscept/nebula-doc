@@ -18,7 +18,6 @@ var class_vulkan_1_1_vk_shape_renderer =
     [ "Open", "class_vulkan_1_1_vk_shape_renderer.html#a7399623f31b02383e9a3a60b224afff4", null ],
     [ "comps", "class_vulkan_1_1_vk_shape_renderer.html#ac4b1e7b75fb69c7944485f4b8522c9a4", null ],
     [ "diffuseColor", "class_vulkan_1_1_vk_shape_renderer.html#a5aa48a6c594b72b736b98111a6cae332", null ],
-    [ "frameOpAllocator", "class_vulkan_1_1_vk_shape_renderer.html#a2d2e68c85012e33b5d07f601956798ab", null ],
     [ "ibos", "class_vulkan_1_1_vk_shape_renderer.html#aaa90c9bd9d856837efa96f28fdc660e0", null ],
     [ "indexBufferActiveIndex", "class_vulkan_1_1_vk_shape_renderer.html#ad6a718c33fdcd9334d9bcd1282694f4b", null ],
     [ "indexBufferCapacity", "class_vulkan_1_1_vk_shape_renderer.html#a1bb49faf5573fb6f3466c1a7fae49fe7", null ],

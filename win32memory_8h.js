@@ -4,6 +4,7 @@ var win32memory_8h =
     [ "__MEMORY_CHECKPOINT", "win32memory_8h.html#a5afec4d80443efe3b9ef905a15db205f", null ],
     [ "__MEMORY_VALIDATE", "win32memory_8h.html#a7122d116345856de0b86258e2c8f307a", null ],
     [ "StackAlloc", "win32memory_8h.html#a8097079d2f12f1969a251a5acd67a922", null ],
+    [ "StackFree", "win32memory_8h.html#a0643aaeaa5007252d8f0d4cbd6b4e2a6", null ],
     [ "Alloc", "win32memory_8h.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "AllocVirtual", "win32memory_8h.html#a6f1e350799da9a033ab78c19c7a21436", null ],
     [ "CommitVirtual", "win32memory_8h.html#a3e556ad80994209cf526414f6df18f8c", null ],

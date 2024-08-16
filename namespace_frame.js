@@ -23,6 +23,8 @@ var namespace_frame =
     [ "FrameSubpassOrderedBatch", "class_frame_1_1_frame_subpass_ordered_batch.html", "class_frame_1_1_frame_subpass_ordered_batch" ],
     [ "FrameSubpassPlugin", "class_frame_1_1_frame_subpass_plugin.html", "class_frame_1_1_frame_subpass_plugin" ],
     [ "FrameSwap", "class_frame_1_1_frame_swap.html", "class_frame_1_1_frame_swap" ],
+    [ "TextureExport", "struct_frame_1_1_texture_export.html", "struct_frame_1_1_texture_export" ],
+    [ "TextureImport", "struct_frame_1_1_texture_import.html", "struct_frame_1_1_texture_import" ],
     [ "DependencyIntent", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016ee", [
       [ "Read", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea7a1a5f3e79fdc91edf2f5ead9d66abb4", null ],
       [ "Write", "namespace_frame.html#a22a2d5b736f497a8c8fd5048b71016eea1129c0e4d43f2d121652a7302712cff6", null ]
@@ -32,6 +34,8 @@ var namespace_frame =
     [ "__ImplementSingleton", "namespace_frame.html#a2893c3c63457f2738cc732bf295b253f", null ],
     [ "AddCallback", "namespace_frame.html#a77f5e4db78be13d003454b0dd9fd551d", null ],
     [ "AddSubgraph", "namespace_frame.html#acfffd2c5528f64f7eb515b0c8195e460", null ],
+    [ "DrawBatch", "namespace_frame.html#a9210d235cc8954c3a3d89fd6536e100f", null ],
+    [ "DrawBatch", "namespace_frame.html#aa58def95399c8daca0913c47622e0eac", null ],
     [ "GetCallback", "namespace_frame.html#a4e62341c1aec9076d99280fb9f0d9e9c", null ],
     [ "GetSubgraph", "namespace_frame.html#ab480302c73e122eab06e7fd41a76ca54", null ],
     [ "InitPluginTable", "namespace_frame.html#a668aac697837cf510a381b2d452bb921", null ],

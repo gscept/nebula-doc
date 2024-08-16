@@ -16,7 +16,7 @@ var material_8h =
     [ "DestroyMaterialInstance", "material_8h.html#a0c2a832b23ecdb65bf032f2b5659c57a", null ],
     [ "MaterialAddLODTexture", "material_8h.html#a761d385f6830fe925838499947374d73", null ],
     [ "MaterialApply", "material_8h.html#a167d28dfc2c66baa34f15ad32ddd18db", null ],
-    [ "MaterialGetBatchIndex", "material_8h.html#a01083591a8dc573d51e10de61818c434", null ],
+    [ "MaterialGetBatchIndex", "material_8h.html#a1c900da8f987194da903526772b76255", null ],
     [ "MaterialGetBufferBinding", "material_8h.html#a418d6d7c4f0185b4f5f282ec22529e33", null ],
     [ "MaterialGetSortCode", "material_8h.html#a4dfe854e4796687cc5a291a12868b5b3", null ],
     [ "MaterialGetTemplate", "material_8h.html#a756cc83e5acc0aaaf806c649a7bd0ff3", null ],

@@ -3,6 +3,7 @@ var posixmemory_8h =
     [ "Memory::TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "MEMORY_POSIXMEMORY_H", "posixmemory_8h.html#a63ff6e5092040b583339eab8e78d2f63", null ],
     [ "StackAlloc", "posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922", null ],
+    [ "StackFree", "posixmemory_8h.html#a0643aaeaa5007252d8f0d4cbd6b4e2a6", null ],
     [ "Alloc", "posixmemory_8h.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "AllocVirtual", "posixmemory_8h.html#a6f1e350799da9a033ab78c19c7a21436", null ],
     [ "Clear", "posixmemory_8h.html#ad8504a1916282a835f1e16e3912e4c87", null ],

@@ -1,6 +1,6 @@
 var class_win32_1_1_win32_f_s_wrapper =
 [
-    [ "Handle", "class_win32_1_1_win32_f_s_wrapper.html#a65745e2470667ae925c19cba1d1b4e15", null ],
+    [ "Handle", "class_win32_1_1_win32_f_s_wrapper.html#a36ec01bb514791a5c0b80ea2ea5f8fce", null ],
     [ "CloseFile", "class_win32_1_1_win32_f_s_wrapper.html#ae180463d0a8670ebd3297384e420517a", null ],
     [ "ConvertToWidePath", "class_win32_1_1_win32_f_s_wrapper.html#a59e3ed91591ec2aedceaf0ebc55255ea", null ],
     [ "CreateDirectory", "class_win32_1_1_win32_f_s_wrapper.html#ab49a54deb7027b48d6529a139093d216", null ],

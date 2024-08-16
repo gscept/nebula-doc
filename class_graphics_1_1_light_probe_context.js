@@ -1,6 +1,6 @@
 var class_graphics_1_1_light_probe_context =
 [
-    [ "LightProbeAllocator", "class_graphics_1_1_light_probe_context.html#a569e36a8f7c9dde26faa6339db4a0f23", null ],
+    [ "LightProbeAllocator", "class_graphics_1_1_light_probe_context.html#a3d05640f27a90a7654ffe860331ecfdb", null ],
     [ "LightProbeContext", "class_graphics_1_1_light_probe_context.html#a1c3c235a007ee6ce9e43177d62369811", null ],
     [ "~LightProbeContext", "class_graphics_1_1_light_probe_context.html#a3189a5d7571f39c746d53c6eebab3323", null ],
     [ "__DeclareContext", "class_graphics_1_1_light_probe_context.html#afeb6022d54ee8b7b91df5a49e07c583b", null ],

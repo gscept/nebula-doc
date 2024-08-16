@@ -1,8 +1,8 @@
 var class_i_o_1_1_stream =
 [
-    [ "Offset", "class_i_o_1_1_stream.html#afae972c99743017844bca86c4bd85f18", null ],
-    [ "Position", "class_i_o_1_1_stream.html#a5f0ed31e47ffa399d3b98c8a50c294ac", null ],
-    [ "Size", "class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545", null ],
+    [ "Offset", "class_i_o_1_1_stream.html#a22c13b07e5d317ce047d17da228390ad", null ],
+    [ "Position", "class_i_o_1_1_stream.html#a44ef6e42f948b844382a64f8bc9dd975", null ],
+    [ "Size", "class_i_o_1_1_stream.html#a808a14c42951a0a07ad5fe445d06ccbd", null ],
     [ "AccessMode", "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67e", [
       [ "ReadAccess", "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea7470fc81234309709e4d7b3e3fcc8359", null ],
       [ "WriteAccess", "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea425babb72c2efac8f5d6219c7b85335f", null ],

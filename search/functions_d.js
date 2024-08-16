@@ -35,7 +35,7 @@ var searchData=
   ['materialapply_32',['MaterialApply',['../namespace_materials.html#a167d28dfc2c66baa34f15ad32ddd18db',1,'Materials']]],
   ['materialbuffer_33',['MaterialBuffer',['../struct_materials_1_1_material_buffer.html#a186ed5640551098557cf5a7df9411956',1,'Materials::MaterialBuffer']]],
   ['materialconstant_34',['MaterialConstant',['../struct_materials_1_1_material_constant.html#a484e8607dd5318415efc5e8e1a54ac21',1,'Materials::MaterialConstant']]],
-  ['materialgetbatchindex_35',['MaterialGetBatchIndex',['../namespace_materials.html#a01083591a8dc573d51e10de61818c434',1,'Materials']]],
+  ['materialgetbatchindex_35',['MaterialGetBatchIndex',['../namespace_materials.html#a1c900da8f987194da903526772b76255',1,'Materials']]],
   ['materialgetbufferbinding_36',['MaterialGetBufferBinding',['../namespace_materials.html#a418d6d7c4f0185b4f5f282ec22529e33',1,'Materials']]],
   ['materialgetsortcode_37',['MaterialGetSortCode',['../namespace_materials.html#a4dfe854e4796687cc5a291a12868b5b3',1,'Materials']]],
   ['materialgettemplate_38',['MaterialGetTemplate',['../namespace_materials.html#a756cc83e5acc0aaaf806c649a7bd0ff3',1,'Materials']]],

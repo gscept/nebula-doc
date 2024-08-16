@@ -12,7 +12,6 @@ var namespace_vegetation =
     [ "combinedMeshLayout", "namespace_vegetation.html#a6dc69c0a29e45d73b00be5e6ecd991b9", null ],
     [ "combinedMeshLayoutWithColor", "namespace_vegetation.html#ad67e81d42cd60d081b5652cefaf35d1c", null ],
     [ "drawCountBuffer", "namespace_vegetation.html#ad07bf7af17b48c5e3ce1fdeec1be22c0", null ],
-    [ "frameOpAllocator", "namespace_vegetation.html#a3f46af30c67de8c4ceee1f87c66a53c3", null ],
     [ "grassArgumentsBuffer", "namespace_vegetation.html#a4c68fc442b7d6af0b12bfdc9893a68a7", null ],
     [ "grassDrawCallsBuffer", "namespace_vegetation.html#ad38216b7c7de2c69183f9b0bed77f924", null ],
     [ "grassDrawsThisFrame", "namespace_vegetation.html#a51284a56258a1b76d5310e707b5fd0a3", null ],

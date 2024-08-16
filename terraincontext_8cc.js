@@ -34,7 +34,6 @@ var terraincontext_8cc =
     [ "cachedSunDirection", "terraincontext_8cc.html#a27cd907187f665a8aa3a5365b7b116c2", null ],
     [ "constantsBuffer", "terraincontext_8cc.html#a788922671b7acd42b67b8c6a66b0acc7", null ],
     [ "debugRender", "terraincontext_8cc.html#a1ae045e53e542291f5ccdbb92c4f23bf", null ],
-    [ "frameOpAllocator", "terraincontext_8cc.html#a2857feb07f21d817c53b52d365e32346", null ],
     [ "gpuSubTextures", "terraincontext_8cc.html#acef5b93fd4a20198ca8dba62b9b09266", null ],
     [ "indexBuffer", "terraincontext_8cc.html#a1a978a891f6a3b20769b8db20bf5f81e", null ],
     [ "indirectionBuffer", "terraincontext_8cc.html#a5e0fa14c39e3a14f4a8a4e5907b2b16b", null ],

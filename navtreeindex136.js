@@ -1,9 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"struct_game_1_1_entity_mapping.html#ac425b2c728e50ad0c997a26410cc3a9d":[9,0,23,12,1],
-"struct_game_1_1_entity_table_create_info.html":[8,0,26,14],
-"struct_game_1_1_entity_table_create_info.html":[9,0,23,14],
-"struct_game_1_1_entity_table_create_info.html#a4593c446396240a5c271f858a5aabd36":[8,0,26,14,1],
 "struct_game_1_1_entity_table_create_info.html#a4593c446396240a5c271f858a5aabd36":[9,0,23,14,1],
 "struct_game_1_1_entity_table_create_info.html#a578301532af2e65a673576b1171d916a":[8,0,26,14,0],
 "struct_game_1_1_entity_table_create_info.html#a578301532af2e65a673576b1171d916a":[9,0,23,14,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX136 =
 "struct_game_1_1_velocity_1_1_traits.html#afe47c07d7bd36a8f7ab150bd2a14ec3a":[9,0,23,36,0,7],
 "struct_game_1_1_world_1_1_add_staged_component_command.html":[8,0,26,37,0],
 "struct_game_1_1_world_1_1_add_staged_component_command.html":[9,0,23,37,0],
-"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,26,37,0,0]
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,26,37,0,0],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[9,0,23,37,0,0],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[8,0,26,37,0,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[9,0,23,37,0,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[8,0,26,37,0,1]
 };

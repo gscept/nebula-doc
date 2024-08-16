@@ -6,7 +6,6 @@ var downsamplingcontext_8cc =
     [ "colorBufferConstants", "downsamplingcontext_8cc.html#a6dc6dea3c9603a96a3df2f5a2e03f3d8", null ],
     [ "colorBufferCounter", "downsamplingcontext_8cc.html#a764f1cf60301a5461257780fe2fcfabf", null ],
     [ "colorDownsampleResourceTable", "downsamplingcontext_8cc.html#a1e32c3fa0b885242921045c7e94107b4", null ],
-    [ "depthBuffer", "downsamplingcontext_8cc.html#a3ca1accbcf4bbdd03dbd3cdd797401ee", null ],
     [ "depthBufferConstants", "downsamplingcontext_8cc.html#ae39b51b0deb9ec80079dff32c180fb6c", null ],
     [ "depthBufferCounter", "downsamplingcontext_8cc.html#a285b944ad9d30582b59296697163411b", null ],
     [ "depthDownsampleResourceTable", "downsamplingcontext_8cc.html#a3d911d269d7b922b74b8d40b2c9ca82b", null ],
@@ -19,6 +18,5 @@ var downsamplingcontext_8cc =
     [ "extractProgram", "downsamplingcontext_8cc.html#aa5149c747490e2f66a483c9da4d55e9e", null ],
     [ "extractResourceTable", "downsamplingcontext_8cc.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b", null ],
     [ "extractShader", "downsamplingcontext_8cc.html#a0bc5995084efe75d05e1a46ae562f035", null ],
-    [ "state", "downsamplingcontext_8cc.html#a81c5bd024a491a0a2617718ec009691e", null ],
-    [ "zbuffer", "downsamplingcontext_8cc.html#ab474762951b4df8269e0f9c56585187c", null ]
+    [ "state", "downsamplingcontext_8cc.html#a81c5bd024a491a0a2617718ec009691e", null ]
 ];

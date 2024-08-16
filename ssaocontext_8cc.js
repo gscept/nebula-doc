@@ -17,8 +17,6 @@ var ssaocontext_8cc =
     [ "downsample", "ssaocontext_8cc.html#ac3c769605aa5ebafe7c5bc5120c8c843", null ],
     [ "farZ", "ssaocontext_8cc.html#a5da165c09e73dbcb006075aad617f3b8", null ],
     [ "focalLength", "ssaocontext_8cc.html#a2bad494a181ecea57f8359ff09404d15", null ],
-    [ "fullHeight", "ssaocontext_8cc.html#a398f7faf87384c5c2ccb94d7d30610c9", null ],
-    [ "fullWidth", "ssaocontext_8cc.html#a148368afb94cdb3f58ed962e9d746181", null ],
     [ "hbaoShader", "ssaocontext_8cc.html#ac2ba0711272cd4e7911965b6c3e01a79", null ],
     [ "hbaoTable", "ssaocontext_8cc.html#ab17f5f549ba5855dc341069a27c61dc2", null ],
     [ "height", "ssaocontext_8cc.html#acdd6236edb9638125677a1874b6998f5", null ],
@@ -34,7 +32,6 @@ var ssaocontext_8cc =
     [ "r2Var", "ssaocontext_8cc.html#a3e88500e3c0e8a24a611d4dda7f54f50", null ],
     [ "radius", "ssaocontext_8cc.html#ab4cd699ff05e5e8631afeee1d4ad240c", null ],
     [ "sceneScale", "ssaocontext_8cc.html#a1025c4984557ab982071034abc9c3389", null ],
-    [ "ssaoOutput", "ssaocontext_8cc.html#ac37852bc5185089da79a9e0da11d592a", null ],
     [ "ssaoState", "ssaocontext_8cc.html#ae0e51c1121d657f697914d71d82e5b06", null ],
     [ "strength", "ssaocontext_8cc.html#aaf8de416423d8139caaf997c5c5b90e3", null ],
     [ "strengthVar", "ssaocontext_8cc.html#a23a5980f0ec058f989ea1a8f19f5a5ea", null ],
@@ -49,6 +46,5 @@ var ssaocontext_8cc =
     [ "xDirectionBlur", "ssaocontext_8cc.html#a38cdd709c1bf375ae3243638e7792c68", null ],
     [ "xDirectionHBAO", "ssaocontext_8cc.html#a77e119e31d8039e41c7685cb9042c2f1", null ],
     [ "yDirectionBlur", "ssaocontext_8cc.html#a4743ad202db04265c7ba4f99d2802b4b", null ],
-    [ "yDirectionHBAO", "ssaocontext_8cc.html#ab7973248e778277a756be7f2dee66d7b", null ],
-    [ "zBuffer", "ssaocontext_8cc.html#ae4ee51618c4b17dac4a2203a8304c6d7", null ]
+    [ "yDirectionHBAO", "ssaocontext_8cc.html#ab7973248e778277a756be7f2dee66d7b", null ]
 ];

@@ -2,6 +2,7 @@ var namespace_fog =
 [
     [ "VolumetricFogContext", "class_fog_1_1_volumetric_fog_context.html", "class_fog_1_1_volumetric_fog_context" ],
     [ "__ImplementContext", "namespace_fog.html#af81679b45aebe83c1878effd1840d253", null ],
+    [ "blurConstants", "namespace_fog.html#a488eae0fb9916a44616b66e277113f18", null ],
     [ "blurShader", "namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8", null ],
     [ "blurState", "namespace_fog.html#a84ffcd30dc6233549dba20920fc833af", null ],
     [ "blurXProgram", "namespace_fog.html#aeffc9b09e22de5b733cb99eb2af6ff99", null ],
@@ -16,13 +17,9 @@ var namespace_fog =
     [ "fogBoxes", "namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa", null ],
     [ "fogSpheres", "namespace_fog.html#a7177334b2e4a4b62713e32be604955e7", null ],
     [ "fogState", "namespace_fog.html#a88933b38b8de1902351fc367dd570f6c", null ],
-    [ "fogVolumeTexture0", "namespace_fog.html#a78533a115fdaf91aa54c376ba90def7f", null ],
-    [ "fogVolumeTexture1", "namespace_fog.html#a2073cad2d856b1cf4840e41890fce2e3", null ],
-    [ "frameOpAllocator", "namespace_fog.html#aa5b5a4c04a6a718f58d3649911d17504", null ],
     [ "renderProgram", "namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d", null ],
     [ "resourceTables", "namespace_fog.html#aea865870e59ab75b2039701111e65007", null ],
     [ "showUI", "namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2", null ],
     [ "stagingClusterFogLists", "namespace_fog.html#aa82e6e9c167c9eed80e23931af0e9c90", null ],
-    [ "turbidity", "namespace_fog.html#a2ec118697792665cd7ead061d1e70969", null ],
-    [ "zBuffer", "namespace_fog.html#a3d896bc33c813bf88010d324a0c0d3da", null ]
+    [ "turbidity", "namespace_fog.html#a2ec118697792665cd7ead061d1e70969", null ]
 ];

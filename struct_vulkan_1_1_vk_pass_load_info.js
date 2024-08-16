@@ -9,10 +9,8 @@ var struct_vulkan_1_1_vk_pass_load_info =
     [ "framebuffer", "struct_vulkan_1_1_vk_pass_load_info.html#adee6ab0f18306da1fcad846ac8157ad1", null ],
     [ "name", "struct_vulkan_1_1_vk_pass_load_info.html#ab8912f4db9f66ec4b8b5e98ac23bbbc9", null ],
     [ "pass", "struct_vulkan_1_1_vk_pass_load_info.html#a8a5c312b0307a461ec9eb01e135951d3", null ],
-    [ "passBlockBuffer", "struct_vulkan_1_1_vk_pass_load_info.html#a5dd8a978c0f22093645ead75ff0eafdb", null ],
     [ "rects", "struct_vulkan_1_1_vk_pass_load_info.html#a5bfbfcda300267716c6ea58fbef7522d", null ],
     [ "renderArea", "struct_vulkan_1_1_vk_pass_load_info.html#a607da9c146be1c7e5a3c3724dd5b6a96", null ],
-    [ "renderTargetDimensionsVar", "struct_vulkan_1_1_vk_pass_load_info.html#a004ef5decc1119666d7ffd0b8604cded", null ],
     [ "subpasses", "struct_vulkan_1_1_vk_pass_load_info.html#ad65d468a424f900208c368377ce2715d", null ],
     [ "viewports", "struct_vulkan_1_1_vk_pass_load_info.html#ab5d28b535c2fa82d2cacd8af9aa6faf7", null ]
 ];
