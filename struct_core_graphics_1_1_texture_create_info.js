@@ -2,6 +2,7 @@ var struct_core_graphics_1_1_texture_create_info =
 [
     [ "TextureCreateInfo", "struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377", null ],
     [ "alias", "struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6", null ],
+    [ "allowCast", "struct_core_graphics_1_1_texture_create_info.html#a6ef0bd9214c2efb335b4df6bc116546b", null ],
     [ "bindless", "struct_core_graphics_1_1_texture_create_info.html#a78e58b07c181b16d2462f6ac420f129b", null ],
     [ "clear", "struct_core_graphics_1_1_texture_create_info.html#a785951e9a8f347185dce0448b752ec2f", null ],
     [ "clearColorF4", "struct_core_graphics_1_1_texture_create_info.html#a65e2dd7f8cb911777b2d8640ed35f1bd", null ],

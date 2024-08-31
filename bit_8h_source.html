@@ -333,12 +333,12 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> </div>
 <div class="foldopen" id="foldopen00245" data-start="{" data-end="}">
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">  245</a></span><a class="code hl_function" href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">BitmaskConvert</a>(<a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* table)</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="namespace_util.html#a8181ea677b3f2874b3ba54b0dcd0a37d">  245</a></span><a class="code hl_function" href="namespace_util.html#a8181ea677b3f2874b3ba54b0dcd0a37d">BitmaskConvert</a>(<a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* table, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> numEntries = 0xFFFFFFFF)</div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>{</div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> ret = 0x0;</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> usageFlags = mask;</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> flagIndex = 0;</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordflow">while</span> (usageFlags != 0x0)</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordflow">while</span> (usageFlags != 0x0 &amp;&amp; flagIndex &lt; numEntries)</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    {</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        <span class="keywordflow">if</span> (usageFlags &amp; (1 &lt;&lt; flagIndex))</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        {</div>
@@ -357,7 +357,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespace_util_html_a1eb384b35f323f7d0be9e9aee86a55df"><div class="ttname"><a href="namespace_util.html#a1eb384b35f323f7d0be9e9aee86a55df">Util::LastOne</a></div><div class="ttdeci">uint LastOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:199</div></div>
 <div class="ttc" id="anamespace_util_html_a32469c5919e2ef24ec6de1835eb11804"><div class="ttname"><a href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">Util::SetBit</a></div><div class="ttdeci">constexpr uint64 SetBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:21</div></div>
 <div class="ttc" id="anamespace_util_html_a5c94977ecc1a4eacc0fe8a31e3703f56"><div class="ttname"><a href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">Util::HasBit</a></div><div class="ttdeci">constexpr bool HasBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:30</div></div>
-<div class="ttc" id="anamespace_util_html_a94623fbc05f6493597c53a719dc29a1d"><div class="ttname"><a href="namespace_util.html#a94623fbc05f6493597c53a719dc29a1d">Util::BitmaskConvert</a></div><div class="ttdeci">uint BitmaskConvert(uint mask, const uint *table)</div><div class="ttdef"><b>Definition</b> bit.h:245</div></div>
+<div class="ttc" id="anamespace_util_html_a8181ea677b3f2874b3ba54b0dcd0a37d"><div class="ttname"><a href="namespace_util.html#a8181ea677b3f2874b3ba54b0dcd0a37d">Util::BitmaskConvert</a></div><div class="ttdeci">uint BitmaskConvert(uint mask, const uint *table, const uint numEntries=0xFFFFFFFF)</div><div class="ttdef"><b>Definition</b> bit.h:245</div></div>
 <div class="ttc" id="anamespace_util_html_a99dcfa539a8cc8bf24d1b587c8253031"><div class="ttname"><a href="namespace_util.html#a99dcfa539a8cc8bf24d1b587c8253031">Util::Lsb</a></div><div class="ttdeci">uint Lsb(uint value, byte bit)</div><div class="ttdef"><b>Definition</b> bit.h:229</div></div>
 <div class="ttc" id="anamespace_util_html_ac2a252ffc6631479969e6decdf946859"><div class="ttname"><a href="namespace_util.html#ac2a252ffc6631479969e6decdf946859">Util::FirstOne</a></div><div class="ttdeci">uint FirstOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:169</div></div>
 <div class="ttc" id="anamespace_util_html_ad5f64b391adf598adaea6a06ae4bb6f5"><div class="ttname"><a href="namespace_util.html#ad5f64b391adf598adaea6a06ae4bb6f5">Util::PopCnt</a></div><div class="ttdeci">uint PopCnt(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:151</div></div>
@@ -379,7 +379,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="bit_8h.html">bit.h</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:15 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -288,8 +288,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0a06b9869425a09447d8fe8402097db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf4ca3f529aa960bc3975e645606e01" id="r_a6cf4ca3f529aa960bc3975e645606e01"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkCommandPool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a></td></tr>
 <tr class="separator:a6cf4ca3f529aa960bc3975e645606e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff0a26e1c5284115833c659be706a18" id="r_abff0a26e1c5284115833c659be706a18"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFF, VkDevice, VkCommandBuffer, VkCommandPool, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a>, <a class="el" href="struct_vulkan_1_1_vk_pipeline_bundle.html">VkPipelineBundle</a>, <a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a>, <a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a>, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a></td></tr>
-<tr class="separator:abff0a26e1c5284115833c659be706a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57701d5ed070d6ccf53f09937d698cb4" id="r_a57701d5ed070d6ccf53f09937d698cb4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0x1000, VkDevice, VkCommandBuffer, VkCommandPool, <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a>, <a class="el" href="struct_vulkan_1_1_vk_pipeline_bundle.html">VkPipelineBundle</a>, <a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a>, <a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a>, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57701d5ed070d6ccf53f09937d698cb4">VkCommandBufferAllocator</a></td></tr>
+<tr class="separator:a57701d5ed070d6ccf53f09937d698cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51da7dde0a3a1b7eb845fbe1204f9be8" id="r_a51da7dde0a3a1b7eb845fbe1204f9be8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, <a class="el" href="struct_vulkan_1_1_vk_event_info.html">VkEventInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51da7dde0a3a1b7eb845fbe1204f9be8">VkEventAllocator</a></td></tr>
 <tr class="separator:a51da7dde0a3a1b7eb845fbe1204f9be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a17520378c094c967e2ffe6579c1e83" id="r_a3a17520378c094c967e2ffe6579c1e83"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, <a class="el" href="struct_vulkan_1_1_vk_fence_info.html">VkFenceInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a17520378c094c967e2ffe6579c1e83">VkFenceAllocator</a></td></tr>
@@ -667,6 +667,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a26290f814323eff2f7b9e1d8bdbd475a" id="r_a26290f814323eff2f7b9e1d8bdbd475a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26290f814323eff2f7b9e1d8bdbd475a">ClearPending</a> ()</td></tr>
 <tr class="memdesc:a26290f814323eff2f7b9e1d8bdbd475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear pending resources.  <br /></td></tr>
 <tr class="separator:a26290f814323eff2f7b9e1d8bdbd475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ef106fef650c4adf198081dec77934c" id="r_a0ef106fef650c4adf198081dec77934c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ef106fef650c4adf198081dec77934c">DeviceLost</a> ()</td></tr>
+<tr class="memdesc:a0ef106fef650c4adf198081dec77934c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle VK Results.  <br /></td></tr>
+<tr class="separator:a0ef106fef650c4adf198081dec77934c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3a200cbaa8736229ea8b661ea6a4b76" id="r_af3a200cbaa8736229ea8b661ea6a4b76"><td class="memItemLeft" align="right" valign="top">VkCommandBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3a200cbaa8736229ea8b661ea6a4b76">GetMainBuffer</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:af3a200cbaa8736229ea8b661ea6a4b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">get main command buffer  <br /></td></tr>
 <tr class="separator:af3a200cbaa8736229ea8b661ea6a4b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -851,7 +854,7 @@ Variables</h2></td></tr>
 <tr class="separator:a3d15a80259875b607528737d449b2a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9560ead2c17ee24b461ca22d37e4c5ae" id="r_a9560ead2c17ee24b461ca22d37e4c5ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0a06b9869425a09447d8fe8402097db7">VkBufferSparseExtensionAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9560ead2c17ee24b461ca22d37e4c5ae">bufferSparseExtensionAllocator</a></td></tr>
 <tr class="separator:a9560ead2c17ee24b461ca22d37e4c5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3d3ddac1aeb7f44ef2469482cdde60">commandBuffers</a></td></tr>
+<tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a57701d5ed070d6ccf53f09937d698cb4">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3d3ddac1aeb7f44ef2469482cdde60">commandBuffers</a></td></tr>
 <tr class="separator:afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6a9172b9a58d5ffdfb9b79a15696fe" id="r_a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6a9172b9a58d5ffdfb9b79a15696fe">commandBufferPools</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -877,6 +880,8 @@ Variables</h2></td></tr>
 <tr class="separator:ae09e85a3c76a75987429d30340d97757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848d3448cc9846d12c0f1e035e9fb263" id="r_a848d3448cc9846d12c0f1e035e9fb263"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a848d3448cc9846d12c0f1e035e9fb263">setupLock</a></td></tr>
 <tr class="separator:a848d3448cc9846d12c0f1e035e9fb263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300a0add096c6dd766a3ad4002107a06" id="r_a300a0add096c6dd766a3ad4002107a06"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a300a0add096c6dd766a3ad4002107a06">submitLock</a></td></tr>
+<tr class="separator:a300a0add096c6dd766a3ad4002107a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f9ab2495caba15b64d22cbf1c9a383" id="r_ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f9ab2495caba15b64d22cbf1c9a383">state</a></td></tr>
 <tr class="separator:ab9f9ab2495caba15b64d22cbf1c9a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79bf021c4d4d8ae56ac9fe9163e95380" id="r_a79bf021c4d4d8ae56ac9fe9163e95380"><td class="memItemLeft" align="right" valign="top">VkDebugUtilsMessengerEXT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79bf021c4d4d8ae56ac9fe9163e95380">VkErrorDebugMessageHandle</a> = nullptr</td></tr>
@@ -1101,14 +1106,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abff0a26e1c5284115833c659be706a18" name="abff0a26e1c5284115833c659be706a18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abff0a26e1c5284115833c659be706a18">&#9670;&#160;</a></span>VkCommandBufferAllocator</h2>
+<a id="a57701d5ed070d6ccf53f09937d698cb4" name="a57701d5ed070d6ccf53f09937d698cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57701d5ed070d6ccf53f09937d698cb4">&#9670;&#160;</a></span>VkCommandBufferAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFF , VkDevice , VkCommandBuffer , VkCommandPool , <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a> , <a class="el" href="struct_vulkan_1_1_vk_pipeline_bundle.html">VkPipelineBundle</a> , <a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a> , <a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a> , <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a>&gt; <a class="el" href="#abff0a26e1c5284115833c659be706a18">Vulkan::VkCommandBufferAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0x1000 , VkDevice , VkCommandBuffer , VkCommandPool , <a class="el" href="namespace_core_graphics.html#a7c36fb4add6954deba60317251ca5c41">CoreGraphics::CmdPipelineBuildBits</a> , <a class="el" href="struct_vulkan_1_1_vk_pipeline_bundle.html">VkPipelineBundle</a> , <a class="el" href="struct_vulkan_1_1_viewport_bundle.html">ViewportBundle</a> , <a class="el" href="struct_vulkan_1_1_scissor_bundle.html">ScissorBundle</a> , <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a>&gt; <a class="el" href="#a57701d5ed070d6ccf53f09937d698cb4">Vulkan::VkCommandBufferAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2601,6 +2606,25 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add VkBuffer for late delete. </p>
+
+</div>
+</div>
+<a id="a0ef106fef650c4adf198081dec77934c" name="a0ef106fef650c4adf198081dec77934c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef106fef650c4adf198081dec77934c">&#9670;&#160;</a></span>DeviceLost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::DeviceLost </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle VK Results. </p>
 
 </div>
 </div>
@@ -4354,7 +4378,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a> Vulkan::commandBuffers</td>
+          <td class="memname"><a class="el" href="#a57701d5ed070d6ccf53f09937d698cb4">VkCommandBufferAllocator</a> Vulkan::commandBuffers</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4683,6 +4707,28 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html">Vulkan::GraphicsDeviceState</a> Vulkan::state</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a300a0add096c6dd766a3ad4002107a06" name="a300a0add096c6dd766a3ad4002107a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300a0add096c6dd766a3ad4002107a06">&#9670;&#160;</a></span>submitLock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a> Vulkan::submitLock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -5095,7 +5141,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

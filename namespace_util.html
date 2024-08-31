@@ -329,8 +329,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1867fc2527acfbcb4ad6b79d500375e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dcfa539a8cc8bf24d1b587c8253031" id="r_a99dcfa539a8cc8bf24d1b587c8253031"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99dcfa539a8cc8bf24d1b587c8253031">Lsb</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> value, byte bit)</td></tr>
 <tr class="separator:a99dcfa539a8cc8bf24d1b587c8253031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94623fbc05f6493597c53a719dc29a1d" id="r_a94623fbc05f6493597c53a719dc29a1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94623fbc05f6493597c53a719dc29a1d">BitmaskConvert</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *table)</td></tr>
-<tr class="separator:a94623fbc05f6493597c53a719dc29a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8181ea677b3f2874b3ba54b0dcd0a37d" id="r_a8181ea677b3f2874b3ba54b0dcd0a37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8181ea677b3f2874b3ba54b0dcd0a37d">BitmaskConvert</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *table, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> numEntries=0xFFFFFFFF)</td></tr>
+<tr class="separator:a8181ea677b3f2874b3ba54b0dcd0a37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ae1584667288e11bb603d2a97f8f3b5" id="r_a3ae1584667288e11bb603d2a97f8f3b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae1584667288e11bb603d2a97f8f3b5">__ImplementInterfaceSingleton</a> (<a class="el" href="class_util_1_1_global_string_atom_table.html">Util::GlobalStringAtomTable</a>)</td></tr>
 <tr class="separator:a3ae1584667288e11bb603d2a97f8f3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34088cd8354fbb1c5ba2201b7b7b766a" id="r_a34088cd8354fbb1c5ba2201b7b7b766a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34088cd8354fbb1c5ba2201b7b7b766a">__ImplementSingleton</a> (<a class="el" href="class_util_1_1_local_string_atom_table.html">Util::LocalStringAtomTable</a>)</td></tr>
@@ -631,8 +631,8 @@ template&lt;class... Ts, std::size_t... Is&gt; </div>
 
 </div>
 </div>
-<a id="a94623fbc05f6493597c53a719dc29a1d" name="a94623fbc05f6493597c53a719dc29a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94623fbc05f6493597c53a719dc29a1d">&#9670;&#160;</a></span>BitmaskConvert()</h2>
+<a id="a8181ea677b3f2874b3ba54b0dcd0a37d" name="a8181ea677b3f2874b3ba54b0dcd0a37d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8181ea677b3f2874b3ba54b0dcd0a37d">&#9670;&#160;</a></span>BitmaskConvert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +648,12 @@ template&lt;class... Ts, std::size_t... Is&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *</td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *</td>          <td class="paramname"><span class="paramname"><em>table</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>numEntries</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0xFFFFFFFF</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2182,7 +2187,7 @@ template&lt;typename A , typename B &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,6 +1,5 @@
 var namespace_resources =
 [
-    [ "PartialLoadBits", "struct_resources_1_1_partial_load_bits.html", "struct_resources_1_1_partial_load_bits" ],
     [ "Resource", "class_resources_1_1_resource.html", "class_resources_1_1_resource" ],
     [ "ResourceLoader", "class_resources_1_1_resource_loader.html", "class_resources_1_1_resource_loader" ],
     [ "ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", "class_resources_1_1_resource_loader_thread" ],
@@ -8,16 +7,24 @@ var namespace_resources =
     [ "ResourceServer", "class_resources_1_1_resource_server.html", "class_resources_1_1_resource_server" ],
     [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ],
     [ "ResourceName", "namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0", null ],
+    [ "LoadFlags", "namespace_resources.html#a305b234380258a0076c514b34823e6d3", [
+      [ "None", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a36ff6a12493e52abfa154642f52ee25c", null ],
+      [ "Create", "namespace_resources.html#a305b234380258a0076c514b34823e6d3af2e60e5688db4c61f02220dc7e308b3c", null ],
+      [ "Update", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5", null ]
+    ] ],
     [ "__ImplementAbstractClass", "namespace_resources.html#aa8df5f2671da4e2262c34977d2fb8ad1", null ],
     [ "__ImplementAbstractClass", "namespace_resources.html#ad3dbe98c3458b2938f9d6e38e18a4a3d", null ],
     [ "__ImplementClass", "namespace_resources.html#a1570093987e1f2f558b60ebeff736064", null ],
     [ "__ImplementClass", "namespace_resources.html#a2ed351b42086ddb8433b6b652fd60b88", null ],
+    [ "__ImplementEnumBitOperators", "namespace_resources.html#a142fa7a1c41b3001cefd87e3104b8cf6", null ],
     [ "__ImplementInterfaceSingleton", "namespace_resources.html#ab004bd1df5940b1b5cbc80eefa0f6db3", null ],
-    [ "_LoadInternal", "namespace_resources.html#a988fecb41cdf56f5406815115d266e48", null ],
+    [ "_LoadInternal", "namespace_resources.html#a78883854e56bf8fbe800f435a0a88ef7", null ],
+    [ "ApplyLoadOutput", "namespace_resources.html#a7a106a0a530a8777590a24a81758777f", null ],
     [ "CreateResource", "namespace_resources.html#a567df1d20a8e2a34ca067ce0cb52bb65", null ],
     [ "CreateResource", "namespace_resources.html#a06149171c66844225680ba6cdadbd323", null ],
     [ "CreateResourceListener", "namespace_resources.html#ac6bbb528dfb2faf5a59ab5ad623cb667", null ],
     [ "DiscardResource", "namespace_resources.html#a2d3a81bbde504d7a472e9a6eae66e10e", null ],
+    [ "DispatchJob", "namespace_resources.html#ad9a4b62b7590ac530cb7d9dc0891c5dd", null ],
     [ "GetStreamLoader", "namespace_resources.html#a22c3d9a469ed6333b4faecbd1bfbe3ac", null ],
     [ "ID_24_8_24_8_NAMED_TYPE", "namespace_resources.html#a0f620f0504bb8ee43e707f788746c789", null ],
     [ "ReloadResource", "namespace_resources.html#a6c6eac045904ef7b6d659587c5a416fc", null ],

@@ -123,8 +123,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">SparseImageBind</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html">UploadRingBuffer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -172,8 +170,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abbddaf3fdb505a5280c9c68709d15cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac04a711c426290f153e68fa9cd8277ae" id="r_ac04a711c426290f153e68fa9cd8277ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html">ConstantsRingBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac04a711c426290f153e68fa9cd8277ae">constantBufferRings</a></td></tr>
 <tr class="separator:ac04a711c426290f153e68fa9cd8277ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a295a4fceec685ffb7f95f7a279fd306e" id="r_a295a4fceec685ffb7f95f7a279fd306e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html">UploadRingBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a295a4fceec685ffb7f95f7a279fd306e">uploadRingBuffers</a></td></tr>
-<tr class="separator:a295a4fceec685ffb7f95f7a279fd306e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af35b09c1bb3f8f892d955fc4ea4c2425" id="r_af35b09c1bb3f8f892d955fc4ea4c2425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35b09c1bb3f8f892d955fc4ea4c2425">uploadAllocationsToFlush</a></td></tr>
+<tr class="separator:af35b09c1bb3f8f892d955fc4ea4c2425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2adc67a6a957dbad3454fcef3aaf480" id="r_aa2adc67a6a957dbad3454fcef3aaf480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2adc67a6a957dbad3454fcef3aaf480">uploadAllocationsToFree</a></td></tr>
+<tr class="separator:aa2adc67a6a957dbad3454fcef3aaf480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fef2d3455fb1c18bc88316d8e53e38" id="r_a12fef2d3455fb1c18bc88316d8e53e38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12fef2d3455fb1c18bc88316d8e53e38">uploadBuffer</a></td></tr>
 <tr class="separator:a12fef2d3455fb1c18bc88316d8e53e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42b2dbd628b340e7c0f55c2e099bbdc3" id="r_a42b2dbd628b340e7c0f55c2e099bbdc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html">SparseImageBind</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b2dbd628b340e7c0f55c2e099bbdc3">sparseImageBinds</a></td></tr>
@@ -249,14 +249,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3dbdcd406c280f75279b3253d9147589 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4321c5ba04e80e504fb542b72c6c024 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_ae4321c5ba04e80e504fb542b72c6c024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CoreGraphics::CmdBufferPoolId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#ae4321c5ba04e80e504fb542b72c6c024">setupTransferCommandBufferPool</a></td></tr>
 <tr class="separator:ae4321c5ba04e80e504fb542b72c6c024 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b280b5c33fca3d8466bd015e8a4fef6 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a4b280b5c33fca3d8466bd015e8a4fef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a4b280b5c33fca3d8466bd015e8a4fef6">setupTransferCommandBuffer</a></td></tr>
-<tr class="separator:a4b280b5c33fca3d8466bd015e8a4fef6 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69fc43fe7e0ee54800757075eee6cd5b inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a69fc43fe7e0ee54800757075eee6cd5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a69fc43fe7e0ee54800757075eee6cd5b">handoverTransferCommandBuffer</a></td></tr>
-<tr class="separator:a69fc43fe7e0ee54800757075eee6cd5b inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35be7dca29af25b8afcbc4e47660634f inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a35be7dca29af25b8afcbc4e47660634f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a35be7dca29af25b8afcbc4e47660634f">setupTransferCommandBuffers</a></td></tr>
+<tr class="separator:a35be7dca29af25b8afcbc4e47660634f inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab09c9f45c120a59ee0b27a5334a4cfc inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_aab09c9f45c120a59ee0b27a5334a4cfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#aab09c9f45c120a59ee0b27a5334a4cfc">handoverTransferCommandBuffers</a></td></tr>
+<tr class="separator:aab09c9f45c120a59ee0b27a5334a4cfc inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f4287ac094e446405d963a5b84c4a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a57f4287ac094e446405d963a5b84c4a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CoreGraphics::CmdBufferPoolId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a57f4287ac094e446405d963a5b84c4a1">setupGraphicsCommandBufferPool</a></td></tr>
 <tr class="separator:a57f4287ac094e446405d963a5b84c4a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefcb4a29f22b43e4546cc0b5946403cb inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_aefcb4a29f22b43e4546cc0b5946403cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#aefcb4a29f22b43e4546cc0b5946403cb">setupGraphicsCommandBuffer</a></td></tr>
-<tr class="separator:aefcb4a29f22b43e4546cc0b5946403cb inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fad12d722b9fc8075e3a07b66150a46 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a2fad12d722b9fc8075e3a07b66150a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a2fad12d722b9fc8075e3a07b66150a46">setupGraphicsCommandBuffers</a></td></tr>
+<tr class="separator:a2fad12d722b9fc8075e3a07b66150a46 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0281210e4b526c19896b9caeae4ced11 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a0281210e4b526c19896b9caeae4ced11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_fence_id.html">CoreGraphics::FenceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a0281210e4b526c19896b9caeae4ced11">presentFences</a></td></tr>
 <tr class="separator:a0281210e4b526c19896b9caeae4ced11 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ede3ea9a6b1795dbda01c705e9f0c5 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_aa1ede3ea9a6b1795dbda01c705e9f0c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_semaphore_id.html">CoreGraphics::SemaphoreId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#aa1ede3ea9a6b1795dbda01c705e9f0c5">renderingFinishedSemaphores</a></td></tr>
@@ -283,8 +283,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9e41a55df9ab3c706c4e4b03d659a5a9 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db2bc5ae5ffe68141934069b16c72a3 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a8db2bc5ae5ffe68141934069b16c72a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a8db2bc5ae5ffe68141934069b16c72a3">indexBuffer</a></td></tr>
 <tr class="separator:a8db2bc5ae5ffe68141934069b16c72a3 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1601a54938dca4ba6caeca9bed46a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a8f1601a54938dca4ba6caeca9bed46a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a8f1601a54938dca4ba6caeca9bed46a1">globalUploadBufferPoolSize</a></td></tr>
-<tr class="separator:a8f1601a54938dca4ba6caeca9bed46a1 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c34e285cf6f5699fc13b5325df64176 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a6c34e285cf6f5699fc13b5325df64176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_memory_1_1_range_allocator.html">Memory::RangeAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a6c34e285cf6f5699fc13b5325df64176">uploadAllocator</a></td></tr>
 <tr class="separator:a6c34e285cf6f5699fc13b5325df64176 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d6893827a436f593c12cde4f32632a5 inherit pub_attribs_struct_core_graphics_1_1_graphics_device_state" id="r_a3d6893827a436f593c12cde4f32632a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_graphics_device_state.html#a3d6893827a436f593c12cde4f32632a5">maxNumBufferedFrames</a> = 1</td></tr>
@@ -913,6 +911,34 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af35b09c1bb3f8f892d955fc4ea4c2425" name="af35b09c1bb3f8f892d955fc4ea4c2425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af35b09c1bb3f8f892d955fc4ea4c2425">&#9670;&#160;</a></span>uploadAllocationsToFlush</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>&gt; Vulkan::GraphicsDeviceState::uploadAllocationsToFlush</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2adc67a6a957dbad3454fcef3aaf480" name="aa2adc67a6a957dbad3454fcef3aaf480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2adc67a6a957dbad3454fcef3aaf480">&#9670;&#160;</a></span>uploadAllocationsToFree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>&gt; &gt; Vulkan::GraphicsDeviceState::uploadAllocationsToFree</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a12fef2d3455fb1c18bc88316d8e53e38" name="a12fef2d3455fb1c18bc88316d8e53e38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12fef2d3455fb1c18bc88316d8e53e38">&#9670;&#160;</a></span>uploadBuffer</h2>
 
@@ -921,20 +947,6 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Vulkan::GraphicsDeviceState::uploadBuffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a295a4fceec685ffb7f95f7a279fd306e" name="a295a4fceec685ffb7f95f7a279fd306e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a295a4fceec685ffb7f95f7a279fd306e">&#9670;&#160;</a></span>uploadRingBuffers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_vulkan_1_1_graphics_device_state_1_1_upload_ring_buffer.html">UploadRingBuffer</a>&gt; Vulkan::GraphicsDeviceState::uploadRingBuffers</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1049,7 +1061,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="struct_vulkan_1_1_graphics_device_state.html">GraphicsDeviceState</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

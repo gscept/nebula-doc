@@ -100,7 +100,6 @@ $(function(){initNavTree('class_resources_1_1_resource_loader.html',''); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
@@ -134,7 +133,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1___placeholder_resource.html">_PlaceholderResource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_stream_data.html">StreamData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1___stream_data.html">_StreamData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_load_state.html">LoadState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_init_output.html">ResourceInitOutput</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoadOutput</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_stream_output.html">ResourceStreamOutput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -237,31 +246,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9a6bdc2f9217057536944df883e80cd4 inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the class FourCC code  <br /></td></tr>
 <tr class="separator:a9a6bdc2f9217057536944df883e80cd4 inherit pub_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:a06b17ad4e197cb7d06969ee0cedb67f2" id="r_a06b17ad4e197cb7d06969ee0cedb67f2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2">SubresourceLoadStatus</a> { <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2a28dbf68fdd64ac9abab876a1e0da3516">Full</a>
-, <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2a481c07bc36245ebe72b7942f2753f77d">Partial</a>
-, <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2a338557a84ba9996b87cbcab2a22cddf3">Rejected</a>
- }</td></tr>
-<tr class="separator:a06b17ad4e197cb7d06969ee0cedb67f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a747bc95b90b4ae5761d754b1b4a7feb4" id="r_a747bc95b90b4ae5761d754b1b4a7feb4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747bc95b90b4ae5761d754b1b4a7feb4">InitializeResource</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream, bool immediate=false)=0</td></tr>
-<tr class="memdesc:a747bc95b90b4ae5761d754b1b4a7feb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and create the resource, optionally load if no subresource management is necessary.  <br /></td></tr>
-<tr class="separator:a747bc95b90b4ae5761d754b1b4a7feb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949a320442980eceb3af3c1f63d0fda5" id="r_a949a320442980eceb3af3c1f63d0fda5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949a320442980eceb3af3c1f63d0fda5">StreamResource</a> (const ResourceId entry, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#ad9ee667f20d51dd21dd5e8f029127bf4">requestedBits</a>)</td></tr>
-<tr class="memdesc:a949a320442980eceb3af3c1f63d0fda5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream resource.  <br /></td></tr>
-<tr class="separator:a949a320442980eceb3af3c1f63d0fda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96292e114f5f1791ab5fcd2184fc4632" id="r_a96292e114f5f1791ab5fcd2184fc4632"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96292e114f5f1791ab5fcd2184fc4632">UpdateLoaderSyncState</a> ()</td></tr>
+<tr class="memdesc:a96292e114f5f1791ab5fcd2184fc4632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update loader internal state.  <br /></td></tr>
+<tr class="separator:a96292e114f5f1791ab5fcd2184fc4632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956fc11446f705037a93ce8ba09bfe3c" id="r_a956fc11446f705037a93ce8ba09bfe3c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_init_output.html">ResourceInitOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a956fc11446f705037a93ce8ba09bfe3c">InitializeResource</a> (const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a> &amp;job, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream)=0</td></tr>
+<tr class="memdesc:a956fc11446f705037a93ce8ba09bfe3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and create the resource, optionally load if no subresource management is necessary.  <br /></td></tr>
+<tr class="separator:a956fc11446f705037a93ce8ba09bfe3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22e674f9e9469a0e0cc68a425e3a9d5" id="r_ab22e674f9e9469a0e0cc68a425e3a9d5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_stream_output.html">ResourceStreamOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab22e674f9e9469a0e0cc68a425e3a9d5">StreamResource</a> (const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a> &amp;job)</td></tr>
+<tr class="memdesc:ab22e674f9e9469a0e0cc68a425e3a9d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream resource.  <br /></td></tr>
+<tr class="separator:ab22e674f9e9469a0e0cc68a425e3a9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41fe4930c83d888a2a955fc63ba1df19" id="r_a41fe4930c83d888a2a955fc63ba1df19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41fe4930c83d888a2a955fc63ba1df19">ReloadFromStream</a> (const Resources::ResourceId <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream)</td></tr>
 <tr class="memdesc:a41fe4930c83d888a2a955fc63ba1df19"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a reload  <br /></td></tr>
 <tr class="separator:a41fe4930c83d888a2a955fc63ba1df19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6d77c9e85bef55cedcec1527fe5477d" id="r_ae6d77c9e85bef55cedcec1527fe5477d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2">SubresourceLoadStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d77c9e85bef55cedcec1527fe5477d">StreamMaxLOD</a> (const Resources::ResourceId &amp;<a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const float lod, bool immediate)</td></tr>
-<tr class="memdesc:ae6d77c9e85bef55cedcec1527fe5477d"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a lod update  <br /></td></tr>
-<tr class="separator:ae6d77c9e85bef55cedcec1527fe5477d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7aece69cd88b976319b430d4d856fe0" id="r_ac7aece69cd88b976319b430d4d856fe0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7aece69cd88b976319b430d4d856fe0">LodMask</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod, bool stream) const</td></tr>
-<tr class="memdesc:ac7aece69cd88b976319b430d4d856fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD.  <br /></td></tr>
-<tr class="separator:ac7aece69cd88b976319b430d4d856fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e42faa3d0c7fa6a3d42ec636969bcc" id="r_ac7e42faa3d0c7fa6a3d42ec636969bcc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7e42faa3d0c7fa6a3d42ec636969bcc">LodMask</a> (const <a class="el" href="struct_resources_1_1_resource_loader_1_1___stream_data.html">_StreamData</a> &amp;stream, float lod, bool <a class="el" href="#a5c4698bf7c230a4841f37bf38cce102c">async</a>) const</td></tr>
+<tr class="memdesc:ac7e42faa3d0c7fa6a3d42ec636969bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create load mask based on LOD. This will be used to determine if the resoure is fully loaded.  <br /></td></tr>
+<tr class="separator:ac7e42faa3d0c7fa6a3d42ec636969bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba54d3e45afcab7cbecbc8cd89c3f2a" id="r_a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba54d3e45afcab7cbecbc8cd89c3f2a">RequestLOD</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, float lod) const</td></tr>
 <tr class="memdesc:a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set lod factor for resource.  <br /></td></tr>
 <tr class="separator:a6ba54d3e45afcab7cbecbc8cd89c3f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,15 +275,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aaa0b8d6d71f96224a8465c8d9a40efc4" id="r_aaa0b8d6d71f96224a8465c8d9a40efc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa0b8d6d71f96224a8465c8d9a40efc4">SetupIdFromEntry</a> (const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> entry, ResourceId &amp;cacheEntry)</td></tr>
 <tr class="memdesc:aaa0b8d6d71f96224a8465c8d9a40efc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct resource ID based on loader entry.  <br /></td></tr>
 <tr class="separator:aaa0b8d6d71f96224a8465c8d9a40efc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14c00e8649449118b049042f57fa7bea" id="r_a14c00e8649449118b049042f57fa7bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14c00e8649449118b049042f57fa7bea">LoadImmediate</a> (<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> &amp;res)</td></tr>
-<tr class="memdesc:a14c00e8649449118b049042f57fa7bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load immediately.  <br /></td></tr>
-<tr class="separator:a14c00e8649449118b049042f57fa7bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab79621547cb09ec356d2cab4c1a3ba38" id="r_ab79621547cb09ec356d2cab4c1a3ba38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab79621547cb09ec356d2cab4c1a3ba38">LoadAsync</a> (<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> res)</td></tr>
-<tr class="memdesc:ab79621547cb09ec356d2cab4c1a3ba38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load async.  <br /></td></tr>
-<tr class="separator:ab79621547cb09ec356d2cab4c1a3ba38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53018e8c92dc1eea0ea44dce80e7bd14" id="r_a53018e8c92dc1eea0ea44dce80e7bd14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53018e8c92dc1eea0ea44dce80e7bd14">RunCallbacks</a> (<a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a> status, const Resources::ResourceId <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a53018e8c92dc1eea0ea44dce80e7bd14"><td class="mdescLeft">&#160;</td><td class="mdescRight">run callbacks  <br /></td></tr>
 <tr class="separator:a53018e8c92dc1eea0ea44dce80e7bd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129d8359931ef9a53ccf0d9f6c832c83" id="r_a129d8359931ef9a53ccf0d9f6c832c83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129d8359931ef9a53ccf0d9f6c832c83">EnqueueJob</a> (const std::function&lt; void()&gt; &amp;func)</td></tr>
+<tr class="memdesc:a129d8359931ef9a53ccf0d9f6c832c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issue async job.  <br /></td></tr>
+<tr class="separator:a129d8359931ef9a53ccf0d9f6c832c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ccfd6a299e2321746261baf39c552f8" id="r_a6ccfd6a299e2321746261baf39c552f8"><td class="memItemLeft" align="right" valign="top">Resources::ResourceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ccfd6a299e2321746261baf39c552f8">GetPlaceholder</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;name)</td></tr>
 <tr class="memdesc:a6ccfd6a299e2321746261baf39c552f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get placeholder based on resource name  <br /></td></tr>
 <tr class="separator:a6ccfd6a299e2321746261baf39c552f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +306,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5c4698bf7c230a4841f37bf38cce102c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02194c42ad1fb8f97f6a175e670962f8" id="r_a02194c42ad1fb8f97f6a175e670962f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_resources_1_1_resource_loader_thread.html">ResourceLoaderThread</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02194c42ad1fb8f97f6a175e670962f8">streamerThread</a></td></tr>
 <tr class="separator:a02194c42ad1fb8f97f6a175e670962f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9896a2f760673426544641755dbab09" id="r_ae9896a2f760673426544641755dbab09"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9896a2f760673426544641755dbab09">preJobFunc</a></td></tr>
+<tr class="separator:ae9896a2f760673426544641755dbab09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1f8db06f00b6b9ca05ab00ebf99a83" id="r_a2a1f8db06f00b6b9ca05ab00ebf99a83"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a1f8db06f00b6b9ca05ab00ebf99a83">postJobFunc</a></td></tr>
+<tr class="separator:a2a1f8db06f00b6b9ca05ab00ebf99a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43c49464ece65214161292899c0f6412" id="r_a43c49464ece65214161292899c0f6412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c49464ece65214161292899c0f6412">streamerThreadName</a></td></tr>
 <tr class="separator:a43c49464ece65214161292899c0f6412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ee201d6912e07060488a19da9585bb" id="r_a78ee201d6912e07060488a19da9585bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ee201d6912e07060488a19da9585bb">pendingLoads</a></td></tr>
@@ -318,6 +320,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aadc919baf1ec6f3d40bd0f5e15aa6954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557ff512a3bc8976053ce97f9725e5a1" id="r_a557ff512a3bc8976053ce97f9725e5a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html">_PendingStreamLod</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557ff512a3bc8976053ce97f9725e5a1">pendingStreamQueue</a></td></tr>
 <tr class="separator:a557ff512a3bc8976053ce97f9725e5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf91545cb3b5c0c63f80b1cfddc9749" id="r_a6bf91545cb3b5c0c63f80b1cfddc9749"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoadOutput</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf91545cb3b5c0c63f80b1cfddc9749">loadOutputs</a></td></tr>
+<tr class="separator:a6bf91545cb3b5c0c63f80b1cfddc9749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54513238d691a15562aff00075dfbbe3" id="r_a54513238d691a15562aff00075dfbbe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54513238d691a15562aff00075dfbbe3">dependentJobs</a></td></tr>
+<tr class="separator:a54513238d691a15562aff00075dfbbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e569b83ad80cd274569464ad9563e9" id="r_a16e569b83ad80cd274569464ad9563e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e569b83ad80cd274569464ad9563e9">ids</a></td></tr>
 <tr class="separator:a16e569b83ad80cd274569464ad9563e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad304af2b835fa1b2af1cf1e43d94cbee" id="r_ad304af2b835fa1b2af1cf1e43d94cbee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_pool.html">Ids::IdPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad304af2b835fa1b2af1cf1e43d94cbee">resourceInstanceIndexPool</a></td></tr>
@@ -330,10 +336,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1ae713e94ea4edf9d09069e23582fab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e75699ff49349392926ac2fd76fca6" id="r_a66e75699ff49349392926ac2fd76fca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e75699ff49349392926ac2fd76fca6">states</a></td></tr>
 <tr class="separator:a66e75699ff49349392926ac2fd76fca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9ee667f20d51dd21dd5e8f029127bf4" id="r_ad9ee667f20d51dd21dd5e8f029127bf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ee667f20d51dd21dd5e8f029127bf4">requestedBits</a></td></tr>
-<tr class="separator:ad9ee667f20d51dd21dd5e8f029127bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7155c9bbbbc9224b9f7e88dfbf3fb3ff" id="r_a7155c9bbbbc9224b9f7e88dfbf3fb3ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7155c9bbbbc9224b9f7e88dfbf3fb3ff">loadedBits</a></td></tr>
-<tr class="separator:a7155c9bbbbc9224b9f7e88dfbf3fb3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ddc1a644b8a7bfa4883e11bd66c62f6" id="r_a7ddc1a644b8a7bfa4883e11bd66c62f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1_load_state.html">LoadState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ddc1a644b8a7bfa4883e11bd66c62f6">loadStates</a></td></tr>
+<tr class="separator:a7ddc1a644b8a7bfa4883e11bd66c62f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bb835c776e3d0a467ebb0f11f51121" id="r_a05bb835c776e3d0a467ebb0f11f51121"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; ResourceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05bb835c776e3d0a467ebb0f11f51121">resources</a></td></tr>
 <tr class="separator:a05bb835c776e3d0a467ebb0f11f51121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5909e6262ece29aff605243d61e4902" id="r_ad5909e6262ece29aff605243d61e4902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1___callbacks.html">_Callbacks</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5909e6262ece29aff605243d61e4902">callbacks</a></td></tr>
@@ -342,8 +346,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a9c7d05ce95699416b4c84b89e577e038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc9ce1ecd97564d4bc8e1bef5e01c095" id="r_adc9ce1ecd97564d4bc8e1bef5e01c095"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1___load_meta_data.html">_LoadMetaData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9ce1ecd97564d4bc8e1bef5e01c095">metaData</a></td></tr>
 <tr class="separator:adc9ce1ecd97564d4bc8e1bef5e01c095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f5913c16091cb6ffab21eea2cf2423" id="r_a85f5913c16091cb6ffab21eea2cf2423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1_stream_data.html">StreamData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85f5913c16091cb6ffab21eea2cf2423">streams</a></td></tr>
-<tr class="separator:a85f5913c16091cb6ffab21eea2cf2423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d8264069bbfbfc312c1534fc6aa2ed" id="r_a51d8264069bbfbfc312c1534fc6aa2ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1___stream_data.html">_StreamData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d8264069bbfbfc312c1534fc6aa2ed">streamDatas</a></td></tr>
+<tr class="separator:a51d8264069bbfbfc312c1534fc6aa2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a552e2062f374a071ac862f013cb44bda" id="r_a552e2062f374a071ac862f013cb44bda"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a552e2062f374a071ac862f013cb44bda">uniqueResourceId</a></td></tr>
 <tr class="separator:a552e2062f374a071ac862f013cb44bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a653b1ed065a38fff8d06aaa365e66ce0" id="r_a653b1ed065a38fff8d06aaa365e66ce0"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653b1ed065a38fff8d06aaa365e66ce0">uniqueId</a></td></tr>
@@ -369,8 +373,12 @@ Private Member Functions</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:a9171c2710c5c83af83fe94f1c1436578" id="r_a9171c2710c5c83af83fe94f1c1436578"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9171c2710c5c83af83fe94f1c1436578">ResourceServer</a></td></tr>
 <tr class="separator:a9171c2710c5c83af83fe94f1c1436578"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aaa6df28cf34f9fa5dbbe6b1159cbc9" id="r_a6aaa6df28cf34f9fa5dbbe6b1159cbc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aaa6df28cf34f9fa5dbbe6b1159cbc9">_LoadInternal</a> (<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *loader, const <a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> res)</td></tr>
-<tr class="separator:a6aaa6df28cf34f9fa5dbbe6b1159cbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3928e96c67ec97011f75edd436f5f5" id="r_afa3928e96c67ec97011f75edd436f5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3928e96c67ec97011f75edd436f5f5">ApplyLoadOutput</a> (<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *loader, const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoader::ResourceLoadOutput</a> &amp;output)</td></tr>
+<tr class="separator:afa3928e96c67ec97011f75edd436f5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97fb5ed32355628b31a4d4811fde0fbf" id="r_a97fb5ed32355628b31a4d4811fde0fbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fb5ed32355628b31a4d4811fde0fbf">DispatchJob</a> (<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *loader, const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoader::ResourceLoadJob</a> &amp;job)</td></tr>
+<tr class="separator:a97fb5ed32355628b31a4d4811fde0fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2878e55f5fc345fafe1be0b7a0faa8b7" id="r_a2878e55f5fc345fafe1be0b7a0faa8b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoadOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2878e55f5fc345fafe1be0b7a0faa8b7">_LoadInternal</a> (<a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *loader, <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoader::ResourceLoadJob</a> job)</td></tr>
+<tr class="separator:a2878e55f5fc345fafe1be0b7a0faa8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -379,34 +387,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a3d9102870430bcbda9f1749c740d701e inherit pub_static_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump refcounting leaks, call at end of application (NEBULA_DEBUG builds only!)  <br /></td></tr>
 <tr class="separator:a3d9102870430bcbda9f1749c740d701e inherit pub_static_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a06b17ad4e197cb7d06969ee0cedb67f2" name="a06b17ad4e197cb7d06969ee0cedb67f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06b17ad4e197cb7d06969ee0cedb67f2">&#9670;&#160;</a></span>SubresourceLoadStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2">Resources::ResourceLoader::SubresourceLoadStatus</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a06b17ad4e197cb7d06969ee0cedb67f2a28dbf68fdd64ac9abab876a1e0da3516" name="a06b17ad4e197cb7d06969ee0cedb67f2a28dbf68fdd64ac9abab876a1e0da3516"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a06b17ad4e197cb7d06969ee0cedb67f2a481c07bc36245ebe72b7942f2753f77d" name="a06b17ad4e197cb7d06969ee0cedb67f2a481c07bc36245ebe72b7942f2753f77d"></a>Partial&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a06b17ad4e197cb7d06969ee0cedb67f2a338557a84ba9996b87cbcab2a22cddf3" name="a06b17ad4e197cb7d06969ee0cedb67f2a338557a84ba9996b87cbcab2a22cddf3"></a>Rejected&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a65c3c0ef0a3f49120507d39893cf14a3" name="a65c3c0ef0a3f49120507d39893cf14a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65c3c0ef0a3f49120507d39893cf14a3">&#9670;&#160;</a></span>ResourceLoader()</h2>
@@ -623,6 +603,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>discard container </p>
+
+</div>
+</div>
+<a id="a129d8359931ef9a53ccf0d9f6c832c83" name="a129d8359931ef9a53ccf0d9f6c832c83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a129d8359931ef9a53ccf0d9f6c832c83">&#9670;&#160;</a></span>EnqueueJob()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resources::ResourceLoader::EnqueueJob </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Issue async job. </p>
 
 </div>
 </div>
@@ -869,8 +876,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a747bc95b90b4ae5761d754b1b4a7feb4" name="a747bc95b90b4ae5761d754b1b4a7feb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a747bc95b90b4ae5761d754b1b4a7feb4">&#9670;&#160;</a></span>InitializeResource()</h2>
+<a id="a956fc11446f705037a93ce8ba09bfe3c" name="a956fc11446f705037a93ce8ba09bfe3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956fc11446f705037a93ce8ba09bfe3c">&#9670;&#160;</a></span>InitializeResource()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -879,24 +886,14 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="struct_resources_1_1_resource_unknown_id.html">ResourceUnknownId</a> Resources::ResourceLoader::InitializeResource </td>
+          <td class="memname">virtual <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_init_output.html">ResourceInitOutput</a> Resources::ResourceLoader::InitializeResource </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>entry</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>job</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -908,34 +905,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Initialize and create the resource, optionally load if no subresource management is necessary. </p>
 
-<p>Implemented in <a class="el" href="class_characters_1_1_skeleton_loader.html#a1fbc282109f3f18909256c6d29c08e0e">Characters::SkeletonLoader</a>, <a class="el" href="class_core_animation_1_1_animation_loader.html#ab58ece928c6d6c79bce0ae4f533fed4a">CoreAnimation::AnimationLoader</a>, <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a40f2aa2a6e17e7085ba53f4e75da704c">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_shader_loader.html#aa3343f7836c59e851c8e6fed0f4e6150">CoreGraphics::ShaderLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#a0f96ca848c9547b9609e28c693145024">CoreGraphics::TextureLoader</a>, <a class="el" href="class_materials_1_1_material_loader.html#a5752d826807fa1677f7c0fa89c6e1280">Materials::MaterialLoader</a>, <a class="el" href="class_models_1_1_model_loader.html#a7dbe8272fc815e021062e765a0a937d7">Models::ModelLoader</a>, and <a class="el" href="class_physics_1_1_stream_actor_pool.html#a0302c0cc8ff5e93500c95ca4e4193865">Physics::StreamActorPool</a>.</p>
-
-</div>
-</div>
-<a id="ab79621547cb09ec356d2cab4c1a3ba38" name="ab79621547cb09ec356d2cab4c1a3ba38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab79621547cb09ec356d2cab4c1a3ba38">&#9670;&#160;</a></span>LoadAsync()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Resources::ResourceLoader::LoadAsync </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Load async. </p>
+<p>Implemented in <a class="el" href="class_characters_1_1_skeleton_loader.html#a4b5084e8c516638943a7c8a2a8431595">Characters::SkeletonLoader</a>, <a class="el" href="class_core_animation_1_1_animation_loader.html#ad3d42e62691c483e9de642ec986a2f5a">CoreAnimation::AnimationLoader</a>, <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a451d2e022fb0c8a9f55ce5f7b1921d8d">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_shader_loader.html#a6a55dd00dac28d43023eb61187f36e09">CoreGraphics::ShaderLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#a07197c8f0475d24f2f639eedc0a98bfa">CoreGraphics::TextureLoader</a>, <a class="el" href="class_materials_1_1_material_loader.html#a7c065328c1653e5ccb7279a1f273b4ff">Materials::MaterialLoader</a>, <a class="el" href="class_models_1_1_model_loader.html#a2c7f452989749529b31ce2a53d8f4df5">Models::ModelLoader</a>, and <a class="el" href="class_physics_1_1_stream_actor_pool.html#af7c10046a832677dd39d7730c682fd54">Physics::StreamActorPool</a>.</p>
 
 </div>
 </div>
@@ -966,35 +936,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a14c00e8649449118b049042f57fa7bea" name="a14c00e8649449118b049042f57fa7bea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14c00e8649449118b049042f57fa7bea">&#9670;&#160;</a></span>LoadImmediate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a> Resources::ResourceLoader::LoadImmediate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Load immediately. </p>
-
-</div>
-</div>
-<a id="ac7aece69cd88b976319b430d4d856fe0" name="ac7aece69cd88b976319b430d4d856fe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7aece69cd88b976319b430d4d856fe0">&#9670;&#160;</a></span>LodMask()</h2>
+<a id="ac7e42faa3d0c7fa6a3d42ec636969bcc" name="ac7e42faa3d0c7fa6a3d42ec636969bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e42faa3d0c7fa6a3d42ec636969bcc">&#9670;&#160;</a></span>LodMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1005,7 +948,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Resources::ResourceLoader::LodMask </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></td>          <td class="paramname"><span class="paramname"><em>entry</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1___stream_data.html">_StreamData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1015,7 +958,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;) const</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>async</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -1025,9 +968,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create load mask based on LOD. </p>
+<p>Create load mask based on LOD. This will be used to determine if the resoure is fully loaded. </p>
 
-<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a8d546f7acd91e0d0e2e4c91bb33122fd">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#a44b0b3afc2d6460415c04d071207afa2">CoreGraphics::TextureLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a10741e510f7baac232d7c57607ed12d5">Models::ModelLoader</a>.</p>
+<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#aedbea6aeb3fda9df11f8d18f8dce2a8d">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#a972664f5c3a6a13ae138792bd8d9d5b8">CoreGraphics::TextureLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a919d3c18d246670f23ef384722ace333">Models::ModelLoader</a>.</p>
 
 </div>
 </div>
@@ -1271,8 +1214,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae6d77c9e85bef55cedcec1527fe5477d" name="ae6d77c9e85bef55cedcec1527fe5477d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6d77c9e85bef55cedcec1527fe5477d">&#9670;&#160;</a></span>StreamMaxLOD()</h2>
+<a id="ab22e674f9e9469a0e0cc68a425e3a9d5" name="ab22e674f9e9469a0e0cc68a425e3a9d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab22e674f9e9469a0e0cc68a425e3a9d5">&#9670;&#160;</a></span>StreamResource()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1281,55 +1224,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a06b17ad4e197cb7d06969ee0cedb67f2">ResourceLoader::SubresourceLoadStatus</a> Resources::ResourceLoader::StreamMaxLOD </td>
+          <td class="memname"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_stream_output.html">ResourceLoader::ResourceStreamOutput</a> Resources::ResourceLoader::StreamResource </td>
           <td>(</td>
-          <td class="paramtype">const Resources::ResourceId &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>job</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>lod</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>perform a lod update </p>
-
-</div>
-</div>
-<a id="a949a320442980eceb3af3c1f63d0fda5" name="a949a320442980eceb3af3c1f63d0fda5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949a320442980eceb3af3c1f63d0fda5">&#9670;&#160;</a></span>StreamResource()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Resources::ResourceLoader::StreamResource </td>
-          <td>(</td>
-          <td class="paramtype">const ResourceId</td>          <td class="paramname"><span class="paramname"><em>entry</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>frameIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>requestedBits</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1340,6 +1238,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Stream resource. </p>
+
+<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#afba15824880a270beeeaea91261dab0b">CoreGraphics::MeshLoader</a>, <a class="el" href="class_core_graphics_1_1_texture_loader.html#ab962166ea20e8dc58768db681c660a59">CoreGraphics::TextureLoader</a>, and <a class="el" href="class_models_1_1_model_loader.html#a001a352244744b8e5002aec270617e1a">Models::ModelLoader</a>.</p>
 
 </div>
 </div>
@@ -1399,9 +1299,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
-<a id="a6aaa6df28cf34f9fa5dbbe6b1159cbc9" name="a6aaa6df28cf34f9fa5dbbe6b1159cbc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aaa6df28cf34f9fa5dbbe6b1159cbc9">&#9670;&#160;</a></span>_LoadInternal</h2>
+<a id="a96292e114f5f1791ab5fcd2184fc4632" name="a96292e114f5f1791ab5fcd2184fc4632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96292e114f5f1791ab5fcd2184fc4632">&#9670;&#160;</a></span>UpdateLoaderSyncState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1410,14 +1309,103 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe">Resource::State</a> _LoadInternal </td>
+          <td class="memname">void Resources::ResourceLoader::UpdateLoaderSyncState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update loader internal state. </p>
+
+<p>Reimplemented in <a class="el" href="class_core_graphics_1_1_mesh_loader.html#a6ab4ef7f18edee9c626d7514bff808a5">CoreGraphics::MeshLoader</a>, and <a class="el" href="class_core_graphics_1_1_texture_loader.html#a4340e658043b23fbcf4f67492d0e9453">CoreGraphics::TextureLoader</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a2878e55f5fc345fafe1be0b7a0faa8b7" name="a2878e55f5fc345fafe1be0b7a0faa8b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2878e55f5fc345fafe1be0b7a0faa8b7">&#9670;&#160;</a></span>_LoadInternal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoadOutput</a> _LoadInternal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoader::ResourceLoadJob</a></td>          <td class="paramname"><span class="paramname"><em>job</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Enqueue resource load output</p>
+
+</div>
+</div>
+<a id="afa3928e96c67ec97011f75edd436f5f5" name="afa3928e96c67ec97011f75edd436f5f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3928e96c67ec97011f75edd436f5f5">&#9670;&#160;</a></span>ApplyLoadOutput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ApplyLoadOutput </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoader::ResourceLoadOutput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>output</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97fb5ed32355628b31a4d4811fde0fbf" name="a97fb5ed32355628b31a4d4811fde0fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97fb5ed32355628b31a4d4811fde0fbf">&#9670;&#160;</a></span>DispatchJob</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DispatchJob </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoader::ResourceLoadJob</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>job</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1542,6 +1530,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a54513238d691a15562aff00075dfbbe3" name="a54513238d691a15562aff00075dfbbe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54513238d691a15562aff00075dfbbe3">&#9670;&#160;</a></span>dependentJobs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_job.html">ResourceLoadJob</a>&gt; Resources::ResourceLoader::dependentJobs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a91e608664995ca1ba5a97e702e25d562" name="a91e608664995ca1ba5a97e702e25d562"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91e608664995ca1ba5a97e702e25d562">&#9670;&#160;</a></span>failResourceId</h2>
 
@@ -1608,8 +1618,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7155c9bbbbc9224b9f7e88dfbf3fb3ff" name="a7155c9bbbbc9224b9f7e88dfbf3fb3ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7155c9bbbbc9224b9f7e88dfbf3fb3ff">&#9670;&#160;</a></span>loadedBits</h2>
+<a id="a6bf91545cb3b5c0c63f80b1cfddc9749" name="a6bf91545cb3b5c0c63f80b1cfddc9749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf91545cb3b5c0c63f80b1cfddc9749">&#9670;&#160;</a></span>loadOutputs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1618,7 +1628,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&gt; Resources::ResourceLoader::loadedBits</td>
+          <td class="memname"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1_resource_load_output.html">ResourceLoadOutput</a>&gt; Resources::ResourceLoader::loadOutputs</td>
         </tr>
       </table>
   </td>
@@ -1641,6 +1651,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1___pending_resource_load.html">_PendingResourceLoad</a>&gt; Resources::ResourceLoader::loads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ddc1a644b8a7bfa4883e11bd66c62f6" name="a7ddc1a644b8a7bfa4883e11bd66c62f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ddc1a644b8a7bfa4883e11bd66c62f6">&#9670;&#160;</a></span>loadStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1_load_state.html">LoadState</a>&gt; Resources::ResourceLoader::loadStates</td>
         </tr>
       </table>
   </td>
@@ -1852,8 +1884,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9ee667f20d51dd21dd5e8f029127bf4" name="ad9ee667f20d51dd21dd5e8f029127bf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9ee667f20d51dd21dd5e8f029127bf4">&#9670;&#160;</a></span>requestedBits</h2>
+<a id="a2a1f8db06f00b6b9ca05ab00ebf99a83" name="a2a1f8db06f00b6b9ca05ab00ebf99a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a1f8db06f00b6b9ca05ab00ebf99a83">&#9670;&#160;</a></span>postJobFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1862,7 +1894,29 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&gt; Resources::ResourceLoader::requestedBits</td>
+          <td class="memname">std::function&lt;void()&gt; Resources::ResourceLoader::postJobFunc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9896a2f760673426544641755dbab09" name="ae9896a2f760673426544641755dbab09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9896a2f760673426544641755dbab09">&#9670;&#160;</a></span>preJobFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void()&gt; Resources::ResourceLoader::preJobFunc</td>
         </tr>
       </table>
   </td>
@@ -1962,6 +2016,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a51d8264069bbfbfc312c1534fc6aa2ed" name="a51d8264069bbfbfc312c1534fc6aa2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d8264069bbfbfc312c1534fc6aa2ed">&#9670;&#160;</a></span>streamDatas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1___stream_data.html">_StreamData</a>&gt; Resources::ResourceLoader::streamDatas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a02194c42ad1fb8f97f6a175e670962f8" name="a02194c42ad1fb8f97f6a175e670962f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02194c42ad1fb8f97f6a175e670962f8">&#9670;&#160;</a></span>streamerThread</h2>
 
@@ -1995,28 +2071,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> Resources::ResourceLoader::streamerThreadName</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a85f5913c16091cb6ffab21eea2cf2423" name="a85f5913c16091cb6ffab21eea2cf2423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85f5913c16091cb6ffab21eea2cf2423">&#9670;&#160;</a></span>streams</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_resources_1_1_resource_loader_1_1_stream_data.html">StreamData</a>&gt; Resources::ResourceLoader::streams</td>
         </tr>
       </table>
   </td>
@@ -2129,7 +2183,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_loader.html">ResourceLoader</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

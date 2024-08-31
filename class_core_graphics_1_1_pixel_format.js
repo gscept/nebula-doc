@@ -51,6 +51,8 @@ var class_core_graphics_1_1_pixel_format =
       [ "B5G6R5A1", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a8dbdeea67b4ac5ea608e72e272e367da", null ],
       [ "B4G4R4A4", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0ac99c0487a6fd12f766ce5948cc97ac1a", null ],
       [ "NumPixelFormats", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a7e4d06bc7131b6620b6fa288aec45c92", null ],
+      [ "BC1", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0aad526654dd0e6b307030469bf35b9c5f", null ],
+      [ "BC3", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a2b370a9a0d68ab175c832309ddea14cf", null ],
       [ "InvalidPixelFormat", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a461e763b73451663dce75e4abe3ca188", null ]
     ] ],
     [ "FromString", "class_core_graphics_1_1_pixel_format.html#a457732da10609d8cc1689a4d949f1198", null ],

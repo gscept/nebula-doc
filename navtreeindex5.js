@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"class_app_1_1_game_application_1_1_game_app_exit_handler.html#a6131bd7e6042aa821d3d7efc45dbae09":[9,0,1,2,0,0],
+"class_app_1_1_game_application_1_1_game_app_exit_handler.html#aaaccb9dd21ed482679781a61c0c7781c":[8,0,2,2,0,1],
 "class_app_1_1_game_application_1_1_game_app_exit_handler.html#aaaccb9dd21ed482679781a61c0c7781c":[9,0,1,2,0,1],
 "class_app_1_1_render_application.html":[8,0,2,3],
 "class_app_1_1_render_application.html":[9,0,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "class_attr_1_1_attribute.html#a795b7b6464225df8b87bc3c519f3c760":[8,0,3,1,50],
 "class_attr_1_1_attribute.html#a795b7b6464225df8b87bc3c519f3c760":[9,0,2,1,50],
 "class_attr_1_1_attribute.html#a7ab20a3134433c3c80c27eb79fd872bc":[8,0,3,1,0],
-"class_attr_1_1_attribute.html#a7ab20a3134433c3c80c27eb79fd872bc":[9,0,2,1,0],
-"class_attr_1_1_attribute.html#a7b223a086bd85c519f179f7bf7289238":[8,0,3,1,40],
-"class_attr_1_1_attribute.html#a7b223a086bd85c519f179f7bf7289238":[9,0,2,1,40]
+"class_attr_1_1_attribute.html#a7ab20a3134433c3c80c27eb79fd872bc":[9,0,2,1,0]
 };

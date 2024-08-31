@@ -20,5 +20,6 @@ var namespace_threading =
     [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ],
     [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ],
     [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ],
-    [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ]
+    [ "InvalidThreadId", "namespace_threading.html#a5620c6c1016951cd2f56ba670b5412ed", null ],
+    [ "MainThreadId", "namespace_threading.html#a34ae22f686c08542f9e38ac04c31072f", null ]
 ];

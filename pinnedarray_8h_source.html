@@ -813,115 +813,121 @@ $(function(){initNavTree('pinnedarray_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span> </div>
 <div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>    <span class="comment">// Rounded up to the page size so we don&#39;t waste memory we allocate anyways</span></div>
 <div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalBytesNeeded = <a class="code hl_function" href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a>(totalByteSize, pageSize);</div>
-<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(totalBytesNeeded &lt;= MAX_ALLOCS * <span class="keyword">sizeof</span>(TYPE));</div>
-<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> roundedUpNewCapacity = totalBytesNeeded / <span class="keyword">sizeof</span>(TYPE);</div>
-<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> offset = <a class="code hl_function" href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a>(this-&gt;capacity * <span class="keyword">sizeof</span>(TYPE), pageSize);</div>
-<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>    <span class="keywordflow">if</span> (totalBytesNeeded &gt; offset)</div>
-<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>    {</div>
-<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>        <span class="comment">// The amount of bytes we need to commit is the difference between the new and the old capacity</span></div>
-<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>        <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> commitSize = <a class="code hl_function" href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a>((roundedUpNewCapacity - this-&gt;capacity) * <span class="keyword">sizeof</span>(TYPE), pageSize);</div>
-<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>        this-&gt;capacity = roundedUpNewCapacity;</div>
-<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>        </div>
-<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>        <a class="code hl_function" href="namespace_memory.html#a3e556ad80994209cf526414f6df18f8c">Memory::CommitVirtual</a>(((<span class="keywordtype">byte</span>*)this-&gt;elements) + offset, commitSize);</div>
-<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>    }</div>
-<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>}</div>
+<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span> </div>
+<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span><span class="preprocessor">#if NEBULA_DEBUG</span></div>
+<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    <span class="keywordflow">if</span> (totalBytesNeeded &gt; MAX_ALLOCS * <span class="keyword">sizeof</span>(TYPE))</div>
+<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>    {</div>
+<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>        <a class="code hl_function" href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a>(<span class="stringliteral">&quot;[PinnedArray] MAX_ALLOCS &#39;%d&#39; and item size &#39;%d&#39; will waste &#39;%d&#39; byte(s) due to alignment of page size &#39;%d&#39;&quot;</span>, MAX_ALLOCS, <span class="keyword">sizeof</span>(TYPE), totalBytesNeeded - MAX_ALLOCS * <span class="keyword">sizeof</span>(TYPE), pageSize);</div>
+<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>    }</div>
+<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> roundedUpNewCapacity = totalBytesNeeded / <span class="keyword">sizeof</span>(TYPE);</div>
+<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> offset = <a class="code hl_function" href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a>(this-&gt;capacity * <span class="keyword">sizeof</span>(TYPE), pageSize);</div>
+<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>    <span class="keywordflow">if</span> (totalBytesNeeded &gt; offset)</div>
+<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>    {</div>
+<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>        <span class="comment">// The amount of bytes we need to commit is the difference between the new and the old capacity</span></div>
+<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>        <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> commitSize = <a class="code hl_function" href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a>((roundedUpNewCapacity - this-&gt;capacity) * <span class="keyword">sizeof</span>(TYPE), pageSize);</div>
+<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>        this-&gt;capacity = roundedUpNewCapacity;</div>
+<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>        </div>
+<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span>        <a class="code hl_function" href="namespace_memory.html#a3e556ad80994209cf526414f6df18f8c">Memory::CommitVirtual</a>(((<span class="keywordtype">byte</span>*)this-&gt;elements) + offset, commitSize);</div>
+<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>    }</div>
+<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>}</div>
 </div>
-<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span> </div>
-<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
-<div class="foldopen" id="foldopen00738" data-start="{" data-end="}">
-<div class="line"><a id="l00738" name="l00738"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">  738</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Delete</a>()</div>
-<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>{</div>
-<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>    this-&gt;grow = 16;</div>
-<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span> </div>
-<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>    <span class="keywordflow">if</span> (this-&gt;capacity &gt; 0)</div>
-<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>    {</div>
-<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>        <span class="comment">// If in small vector, run destructor</span></div>
-<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>        this-&gt;DestroyRange(0, this-&gt;count);</div>
-<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>        <a class="code hl_function" href="namespace_memory.html#a13ae93b4a505f65296e8afd5cd682b79">Memory::FreeVirtual</a>(this-&gt;elements, this-&gt;capacity * <span class="keyword">sizeof</span>(TYPE));</div>
-<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    }</div>
-<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>    this-&gt;elements = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    this-&gt;capacity = 0;</div>
-<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    this-&gt;count = 0;</div>
-<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>}</div>
+<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span> </div>
+<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00744" data-start="{" data-end="}">
+<div class="line"><a id="l00744" name="l00744"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">  744</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Delete</a>()</div>
+<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>{</div>
+<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>    this-&gt;grow = 16;</div>
+<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span> </div>
+<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>    <span class="keywordflow">if</span> (this-&gt;capacity &gt; 0)</div>
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    {</div>
+<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>        <span class="comment">// If in small vector, run destructor</span></div>
+<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>        this-&gt;DestroyRange(0, this-&gt;count);</div>
+<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>        <a class="code hl_function" href="namespace_memory.html#a13ae93b4a505f65296e8afd5cd682b79">Memory::FreeVirtual</a>(this-&gt;elements, this-&gt;capacity * <span class="keyword">sizeof</span>(TYPE));</div>
+<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>    }</div>
+<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    this-&gt;elements = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    this-&gt;capacity = 0;</div>
+<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>    this-&gt;count = 0;</div>
+<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>}</div>
 </div>
-<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span> </div>
-<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
-<div class="foldopen" id="foldopen00758" data-start="{" data-end="}">
-<div class="line"><a id="l00758" name="l00758"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">  758</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Copy</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_pinned_array.html">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;</a>&amp; src)</div>
-<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>{</div>
-<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span><span class="preprocessor">#if NEBULA_BOUNDSCHECKS</span></div>
-<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span><span class="comment">// Make sure array is either empty, or stack array before copy</span></div>
-<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;stackElements.data() == this-&gt;elements);</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span> </div>
-<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>    this-&gt;GrowTo(src.<a class="code hl_variable" href="class_util_1_1_array.html#a27ecb528c6ec3d9f042b636f7f7a738e">capacity</a>);</div>
-<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span>    this-&gt;grow = src.<a class="code hl_variable" href="class_util_1_1_array.html#a5f49560321b88327e23c097fcc6a262d">grow</a>;</div>
-<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>    this-&gt;count = src.<a class="code hl_variable" href="class_util_1_1_array.html#a27ffa25351f3c984656d336f316f0bc5">count</a>;</div>
-<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
-<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;count; i++)</div>
-<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>    {</div>
-<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>        this-&gt;elements[i] = src.<a class="code hl_variable" href="class_util_1_1_array.html#a528055b2d8a9c90b1a410a0d1b98d498">elements</a>[i];</div>
-<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>    }</div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>}</div>
+<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span> </div>
+<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00764" data-start="{" data-end="}">
+<div class="line"><a id="l00764" name="l00764"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">  764</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Copy</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_pinned_array.html">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;</a>&amp; src)</div>
+<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>{</div>
+<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span><span class="preprocessor">#if NEBULA_BOUNDSCHECKS</span></div>
+<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span><span class="comment">// Make sure array is either empty, or stack array before copy</span></div>
+<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;stackElements.data() == this-&gt;elements);</div>
+<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span> </div>
+<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>    this-&gt;GrowTo(src.<a class="code hl_variable" href="class_util_1_1_array.html#a27ecb528c6ec3d9f042b636f7f7a738e">capacity</a>);</div>
+<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>    this-&gt;grow = src.<a class="code hl_variable" href="class_util_1_1_array.html#a5f49560321b88327e23c097fcc6a262d">grow</a>;</div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>    this-&gt;count = src.<a class="code hl_variable" href="class_util_1_1_array.html#a27ffa25351f3c984656d336f316f0bc5">count</a>;</div>
+<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i;</div>
+<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>    <span class="keywordflow">for</span> (i = 0; i &lt; this-&gt;count; i++)</div>
+<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>    {</div>
+<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>        this-&gt;elements[i] = src.<a class="code hl_variable" href="class_util_1_1_array.html#a528055b2d8a9c90b1a410a0d1b98d498">elements</a>[i];</div>
+<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>    }</div>
+<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>}</div>
 </div>
-<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span> </div>
-<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
-<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
-<div class="foldopen" id="foldopen00780" data-start="{" data-end="}">
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">  780</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Move</a>(<a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromIndex, <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toIndex)</div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>{</div>
-<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span><span class="preprocessor">#if NEBULA_BOUNDSCHECKS</span></div>
-<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;elements);</div>
-<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(fromIndex &lt; this-&gt;count);</div>
-<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span> </div>
-<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span><span class="comment">// nothing to move?</span></div>
-<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>    <span class="keywordflow">if</span> (fromIndex == toIndex)</div>
-<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    {</div>
-<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    }</div>
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span> </div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span><span class="keyword">template</span>&lt;<span class="keywordtype">int</span> MAX_ALLOCS, <span class="keyword">class</span> TYPE&gt;</div>
+<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span><span class="keyword">inline</span> <span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00786" data-start="{" data-end="}">
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno"><a class="line" href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">  786</a></span><a class="code hl_function" href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">PinnedArray&lt;MAX_ALLOCS, TYPE&gt;::Move</a>(<a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> fromIndex, <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> toIndex)</div>
+<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>{</div>
+<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span><span class="preprocessor">#if NEBULA_BOUNDSCHECKS</span></div>
+<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(this-&gt;elements);</div>
+<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(fromIndex &lt; this-&gt;count);</div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span> </div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>    <span class="comment">// compute number of elements to move</span></div>
-<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num = this-&gt;count - fromIndex;</div>
-<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span> </div>
-<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>    <span class="comment">// check if array needs to grow</span></div>
-<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> neededSize = toIndex + num;</div>
-<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>    <span class="keywordflow">while</span> (neededSize &gt; this-&gt;capacity)</div>
-<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    {</div>
-<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>        this-&gt;Grow();</div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    }</div>
-<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span> </div>
-<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    <span class="keywordflow">if</span> (fromIndex &gt; toIndex)</div>
-<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    {</div>
-<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>        <span class="comment">// this is a backward move</span></div>
-<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>        this-&gt;MoveRange(&amp;this-&gt;elements[toIndex], &amp;this-&gt;elements[fromIndex], num);</div>
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>        this-&gt;DestroyRange(fromIndex + num - 1, this-&gt;count);</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    }</div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span><span class="comment">// nothing to move?</span></div>
+<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    <span class="keywordflow">if</span> (fromIndex == toIndex)</div>
+<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>    {</div>
+<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    }</div>
+<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span> </div>
+<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    <span class="comment">// compute number of elements to move</span></div>
+<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> num = this-&gt;count - fromIndex;</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span> </div>
+<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>    <span class="comment">// check if array needs to grow</span></div>
+<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> neededSize = toIndex + num;</div>
+<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    <span class="keywordflow">while</span> (neededSize &gt; this-&gt;capacity)</div>
+<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>    {</div>
+<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>        this-&gt;Grow();</div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>    }</div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span> </div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    <span class="keywordflow">if</span> (fromIndex &gt; toIndex)</div>
 <div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>    {</div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>        <span class="comment">// this is a forward move</span></div>
-<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>        <span class="keywordtype">int</span> i;  <span class="comment">// NOTE: this must remain signed for the following loop to work!!!</span></div>
-<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>        <span class="keywordflow">for</span> (i = num - 1; i &gt;= 0; --i)</div>
-<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>        {</div>
-<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>            this-&gt;elements[toIndex + i] = this-&gt;elements[fromIndex + i];</div>
-<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>        }</div>
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span> </div>
-<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>        <span class="comment">// destroy freed elements</span></div>
-<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>        this-&gt;DestroyRange(fromIndex, toIndex);</div>
-<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>    }</div>
-<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span> </div>
-<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>    <span class="comment">// adjust array size</span></div>
-<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>    this-&gt;count = toIndex + num;</div>
-<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>}</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>        <span class="comment">// this is a backward move</span></div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>        this-&gt;MoveRange(&amp;this-&gt;elements[toIndex], &amp;this-&gt;elements[fromIndex], num);</div>
+<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>        this-&gt;DestroyRange(fromIndex + num - 1, this-&gt;count);</div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>    }</div>
+<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>    {</div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>        <span class="comment">// this is a forward move</span></div>
+<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>        <span class="keywordtype">int</span> i;  <span class="comment">// NOTE: this must remain signed for the following loop to work!!!</span></div>
+<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>        <span class="keywordflow">for</span> (i = num - 1; i &gt;= 0; --i)</div>
+<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>        {</div>
+<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>            this-&gt;elements[toIndex + i] = this-&gt;elements[fromIndex + i];</div>
+<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>        }</div>
+<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span> </div>
+<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>        <span class="comment">// destroy freed elements</span></div>
+<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>        this-&gt;DestroyRange(fromIndex, toIndex);</div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>    }</div>
+<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span> </div>
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>    <span class="comment">// adjust array size</span></div>
+<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>    this-&gt;count = toIndex + num;</div>
+<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>}</div>
 </div>
 </div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span> </div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span> </div>
+<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>} <span class="comment">// namespace Util</span></div>
 </div>
 </div>
 </div>
@@ -961,17 +967,17 @@ $(function(){initNavTree('pinnedarray_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aclass_util_1_1_array_html_a528055b2d8a9c90b1a410a0d1b98d498"><div class="ttname"><a href="class_util_1_1_array.html#a528055b2d8a9c90b1a410a0d1b98d498">Util::Array::elements</a></div><div class="ttdeci">TYPE * elements</div><div class="ttdef"><b>Definition</b> array.h:248</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html_a5f49560321b88327e23c097fcc6a262d"><div class="ttname"><a href="class_util_1_1_array.html#a5f49560321b88327e23c097fcc6a262d">Util::Array::grow</a></div><div class="ttdeci">SizeT grow</div><div class="ttdef"><b>Definition</b> array.h:245</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html"><div class="ttname"><a href="class_util_1_1_pinned_array.html">Util::PinnedArray</a></div><div class="ttdef"><b>Definition</b> pinnedarray.h:17</div></div>
-<div class="ttc" id="aclass_util_1_1_pinned_array_html_a16e93e5b77b2d617f357e71fb056b976"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">Util::PinnedArray::Copy</a></div><div class="ttdeci">void Copy(const PinnedArray&lt; MAX_ALLOCS, TYPE &gt; &amp;src)</div><div class="ttdoc">Copy from array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:758</div></div>
+<div class="ttc" id="aclass_util_1_1_pinned_array_html_a16e93e5b77b2d617f357e71fb056b976"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a16e93e5b77b2d617f357e71fb056b976">Util::PinnedArray::Copy</a></div><div class="ttdeci">void Copy(const PinnedArray&lt; MAX_ALLOCS, TYPE &gt; &amp;src)</div><div class="ttdoc">Copy from array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:764</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a1818ea24b109913729877164f6c7b61c"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a1818ea24b109913729877164f6c7b61c">Util::PinnedArray::InsertSorted</a></div><div class="ttdeci">IndexT InsertSorted(const TYPE &amp;elm)</div><div class="ttdoc">insert element into sorted array, return index where element was included</div><div class="ttdef"><b>Definition</b> pinnedarray.h:372</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a1a3a889cabed2431bed6140de0add77f"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a1a3a889cabed2431bed6140de0add77f">Util::PinnedArray::~PinnedArray</a></div><div class="ttdeci">~PinnedArray()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:205</div></div>
-<div class="ttc" id="aclass_util_1_1_pinned_array_html_a22d53d62121372d7c303d358c576e3ad"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">Util::PinnedArray::Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdoc">Delete array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:738</div></div>
+<div class="ttc" id="aclass_util_1_1_pinned_array_html_a22d53d62121372d7c303d358c576e3ad"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a22d53d62121372d7c303d358c576e3ad">Util::PinnedArray::Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdoc">Delete array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:744</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a2dcbd0fcc3bf992b440b948f43adf933"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a2dcbd0fcc3bf992b440b948f43adf933">Util::PinnedArray::PinnedArray</a></div><div class="ttdeci">PinnedArray(SizeT capacity, SizeT grow)</div><div class="ttdoc">Construct from capacity and grow.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:122</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a32838862123bc545db1a6d59437e0b71"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a32838862123bc545db1a6d59437e0b71">Util::PinnedArray::GrowTo</a></div><div class="ttdeci">void GrowTo(SizeT newCapacity)</div><div class="ttdoc">Grow array by size.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:704</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a3397b55753b60ab045ada205b8191f16"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a3397b55753b60ab045ada205b8191f16">Util::PinnedArray::Append</a></div><div class="ttdeci">void Append(const TYPE &amp;&amp;elm)</div><div class="ttdoc">Append single element as rhs.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:314</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a3777da2686cca6ab5b6c5e4d24317e84"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a3777da2686cca6ab5b6c5e4d24317e84">Util::PinnedArray::PinnedArray</a></div><div class="ttdeci">PinnedArray(std::initializer_list&lt; TYPE &gt; list)</div><div class="ttdoc">Construct from initializer list.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:184</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a39cf32a3793a594054f3099cfea45d5a"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a39cf32a3793a594054f3099cfea45d5a">Util::PinnedArray::InsertAtEndOfIdenticalRange</a></div><div class="ttdeci">IndexT InsertAtEndOfIdenticalRange(IndexT startIndex, const TYPE &amp;elm)</div><div class="ttdoc">insert element at the first non-identical position, return index of inclusion position</div><div class="ttdef"><b>Definition</b> pinnedarray.h:461</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a41b27a518ed30ccde23f1fb92f08869c"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a41b27a518ed30ccde23f1fb92f08869c">Util::PinnedArray::AppendArray</a></div><div class="ttdeci">void AppendArray(const TYPE *arr, const SizeT count)</div><div class="ttdoc">Append contents of C array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:505</div></div>
-<div class="ttc" id="aclass_util_1_1_pinned_array_html_a449f709dc5c941c1674fd8d15f19d137"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">Util::PinnedArray::Move</a></div><div class="ttdeci">void Move(IndexT fromIndex, IndexT toIndex)</div><div class="ttdoc">move elements, grows array if needed</div><div class="ttdef"><b>Definition</b> pinnedarray.h:780</div></div>
+<div class="ttc" id="aclass_util_1_1_pinned_array_html_a449f709dc5c941c1674fd8d15f19d137"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a449f709dc5c941c1674fd8d15f19d137">Util::PinnedArray::Move</a></div><div class="ttdeci">void Move(IndexT fromIndex, IndexT toIndex)</div><div class="ttdoc">move elements, grows array if needed</div><div class="ttdef"><b>Definition</b> pinnedarray.h:786</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a47da8ed3296bb442a7bf5c9ae461400c"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a47da8ed3296bb442a7bf5c9ae461400c">Util::PinnedArray::Reserve</a></div><div class="ttdeci">void Reserve(const SizeT count)</div><div class="ttdoc">Reserve an amount of memory (commits to memory)</div><div class="ttdef"><b>Definition</b> pinnedarray.h:571</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a4fdd86c8437c098c3a9dcf6a51de28d5"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a4fdd86c8437c098c3a9dcf6a51de28d5">Util::PinnedArray::AppendArray</a></div><div class="ttdeci">void AppendArray(const PinnedArray&lt; MAX_ALLOCS, TYPE &gt; &amp;src)</div><div class="ttdoc">Append contents of another array.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:483</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_a57147b78c2ab872c2cd848a28fa70624"><div class="ttname"><a href="class_util_1_1_pinned_array.html#a57147b78c2ab872c2cd848a28fa70624">Util::PinnedArray::Fit</a></div><div class="ttdeci">void Fit()</div><div class="ttdoc">Fit array to capacity.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:654</div></div>
@@ -993,6 +999,7 @@ $(function(){initNavTree('pinnedarray_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_adea9e0a3a171c9b13ef73ce421d8c6c1"><div class="ttname"><a href="class_util_1_1_pinned_array.html#adea9e0a3a171c9b13ef73ce421d8c6c1">Util::PinnedArray::operator=</a></div><div class="ttdeci">void operator=(PinnedArray&lt; MAX_ALLOCS, TYPE &gt; &amp;&amp;rhs) noexcept</div><div class="ttdoc">move operator</div><div class="ttdef"><b>Definition</b> pinnedarray.h:246</div></div>
 <div class="ttc" id="aclass_util_1_1_pinned_array_html_afa6197d7c531818826b89cb257386722"><div class="ttname"><a href="class_util_1_1_pinned_array.html#afa6197d7c531818826b89cb257386722">Util::PinnedArray::PinnedArray</a></div><div class="ttdeci">PinnedArray()</div><div class="ttdoc">Default constructor.</div><div class="ttdef"><b>Definition</b> pinnedarray.h:99</div></div>
 <div class="ttc" id="adebug_8cc_html_a83e91a4134b9809e0890140c63387824"><div class="ttname"><a href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a></div><div class="ttdeci">void __cdecl n_error(const char *msg,...)</div><div class="ttdoc">This function is called when a serious situation is encountered which requires abortion of the applic...</div><div class="ttdef"><b>Definition</b> debug.cc:138</div></div>
+<div class="ttc" id="adebug_8cc_html_af49bb380724a6d5744e97bae90dbb5ae"><div class="ttname"><a href="debug_8cc.html#af49bb380724a6d5744e97bae90dbb5ae">n_printf</a></div><div class="ttdeci">void __cdecl n_printf(const char *msg,...)</div><div class="ttdoc">Nebula's printf replacement.</div><div class="ttdef"><b>Definition</b> debug.cc:209</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
 <div class="ttc" id="anamespace_math_html_a830feebf365bd62d5956c9b13d35138f"><div class="ttname"><a href="namespace_math.html#a830feebf365bd62d5956c9b13d35138f">Math::align</a></div><div class="ttdeci">__forceinline unsigned int align(unsigned int alignant, unsigned int alignment)</div><div class="ttdef"><b>Definition</b> scalar.h:722</div></div>
 <div class="ttc" id="anamespace_math_html_abe3dc1bce65d07a608490d232305c132"><div class="ttname"><a href="namespace_math.html#abe3dc1bce65d07a608490d232305c132">Math::max</a></div><div class="ttdeci">__forceinline TYPE max(TYPE a, TYPE b)</div><div class="ttdef"><b>Definition</b> scalar.h:359</div></div>
@@ -1013,7 +1020,7 @@ $(function(){initNavTree('pinnedarray_8h_source.html',''); initResizable(true); 
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="pinnedarray_8h.html">pinnedarray.h</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

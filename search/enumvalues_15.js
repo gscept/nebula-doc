@@ -25,7 +25,7 @@ var searchData=
   ['unloaded_22',['Unloaded',['../class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbea5b968b9f1184fdfaeb6faa3588e9affb',1,'Resources::Resource']]],
   ['unorderedlist_23',['UnorderedList',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9af3bba4cfe4b830b6546cfe3f1898ab23',1,'Http::HtmlElement']]],
   ['up_24',['Up',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a732d8c1e79b72eb7fdac85f05c14671a',1,'Input::Key']]],
-  ['update_25',['Update',['../struct_resources_1_1_resource_loader_1_1___pending_resource_load.html#adeca43dee46034901bd04ca321fc67deaf110a6e0461562ce0cd10d356cc6afa1',1,'Resources::ResourceLoader::_PendingResourceLoad']]],
+  ['update_25',['Update',['../namespace_resources.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5',1,'Resources']]],
   ['updatebuffer_26',['UpdateBuffer',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15bad686a8be82f5c20f783116e5fb7ad917',1,'CoreGraphics::DrawThread::UpdateBuffer'],['../struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cae5bb801d5e2664a08776691b56054e92',1,'Vulkan::VkDeferredCommand::UpdateBuffer']]],
   ['updateimage_27',['UpdateImage',['../struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca1801d8ea0cb08dec2dfcb5287126103e',1,'Vulkan::VkDeferredCommand']]],
   ['usagecpu_28',['UsageCpu',['../namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4',1,'CoreGraphics::GpuBufferTypes']]],

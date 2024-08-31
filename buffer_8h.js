@@ -59,6 +59,8 @@ var buffer_8h =
     [ "BufferUpdate", "buffer_8h.html#aea79756d79dfcb5c648512d16c73421e", null ],
     [ "BufferUpdate", "buffer_8h.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
     [ "BufferUpdateArray", "buffer_8h.html#a1eb5b9e2891b25326d97ef539fc6e61b", null ],
+    [ "BufferUpdateArray", "buffer_8h.html#a61d4d17fb25c48b6314e308c7ab71319", null ],
+    [ "BufferUpdateArray", "buffer_8h.html#a12e2a33bf899e5a81f92c9115db0fed5", null ],
     [ "BufferUpload", "buffer_8h.html#a09cc2fb4abc1e3ffcd177038560fc866", null ],
     [ "BufferUpload", "buffer_8h.html#a26cd09613a3eaea39325bed85306739a", null ],
     [ "CreateBuffer", "buffer_8h.html#a4db4487de9d70ebbdb1ed39e752b5309", null ],

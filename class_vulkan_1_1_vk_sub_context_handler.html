@@ -138,15 +138,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10d423e88a0f4d853acfd98cc86cb0de" id="r_a10d423e88a0f4d853acfd98cc86cb0de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10d423e88a0f4d853acfd98cc86cb0de">SetToNextContext</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:a10d423e88a0f4d853acfd98cc86cb0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">set to next context of type  <br /></td></tr>
 <tr class="separator:a10d423e88a0f4d853acfd98cc86cb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98697e5d52cd9200762def76f7707b44" id="r_a98697e5d52cd9200762def76f7707b44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98697e5d52cd9200762def76f7707b44">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmds)</td></tr>
-<tr class="memdesc:a98697e5d52cd9200762def76f7707b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submission to context to execute later, supports waiting for a queue  <br /></td></tr>
-<tr class="separator:a98697e5d52cd9200762def76f7707b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9847b80bc47c9a2399c344ad606e09f5" id="r_a9847b80bc47c9a2399c344ad606e09f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9847b80bc47c9a2399c344ad606e09f5">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt; waitEvents)</td></tr>
+<tr class="memdesc:a9847b80bc47c9a2399c344ad606e09f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submission to context to execute later, supports waiting for a queue  <br /></td></tr>
+<tr class="separator:a9847b80bc47c9a2399c344ad606e09f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826387aa03b8eba6063ef88e1af611d3" id="r_a826387aa03b8eba6063ef88e1af611d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a826387aa03b8eba6063ef88e1af611d3">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCommandBuffer &gt; cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt; waitEvents)</td></tr>
+<tr class="memdesc:a826387aa03b8eba6063ef88e1af611d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submissions to context to execute later, supports waiting for a queue  <br /></td></tr>
+<tr class="separator:a826387aa03b8eba6063ef88e1af611d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa82a4677f9ccd324322397d26b1b9d38" id="r_aa82a4677f9ccd324322397d26b1b9d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82a4677f9ccd324322397d26b1b9d38">GetNextTimelineIndex</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:aa82a4677f9ccd324322397d26b1b9d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the next submission id for a specific queue.  <br /></td></tr>
 <tr class="separator:aa82a4677f9ccd324322397d26b1b9d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46b009f35c195e743168f2c6140380e9" id="r_a46b009f35c195e743168f2c6140380e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b009f35c195e743168f2c6140380e9">AppendWaitTimeline</a> (<a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkPipelineStageFlags waitFlags, <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> waitType)</td></tr>
-<tr class="memdesc:a46b009f35c195e743168f2c6140380e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a wait for a submission timeline index.  <br /></td></tr>
-<tr class="separator:a46b009f35c195e743168f2c6140380e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12c7a7a8a9a4aaa949fef911e9efb0c4" id="r_a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
 <tr class="memdesc:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse image bind timeline operation  <br /></td></tr>
 <tr class="separator:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +203,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a807dd5ac4d190e0fa27be8e36630ceed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b6c696d6077df731d3bff0ad7893e9" id="r_ad6b6c696d6077df731d3bff0ad7893e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html">SparseBindSubmission</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b6c696d6077df731d3bff0ad7893e9">sparseBindSubmissions</a></td></tr>
 <tr class="separator:ad6b6c696d6077df731d3bff0ad7893e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace72a70d1d4ed8ee47a2db8a17382684" id="r_ace72a70d1d4ed8ee47a2db8a17382684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace72a70d1d4ed8ee47a2db8a17382684">submissionLock</a></td></tr>
+<tr class="separator:ace72a70d1d4ed8ee47a2db8a17382684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -334,8 +336,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a98697e5d52cd9200762def76f7707b44" name="a98697e5d52cd9200762def76f7707b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98697e5d52cd9200762def76f7707b44">&#9670;&#160;</a></span>AppendSubmissionTimeline()</h2>
+<a id="a826387aa03b8eba6063ef88e1af611d3" name="a826387aa03b8eba6063ef88e1af611d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826387aa03b8eba6063ef88e1af611d3">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,45 +350,45 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VkCommandBuffer</td>          <td class="paramname"><span class="paramname"><em>cmds</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCommandBuffer &gt;</td>          <td class="paramname"><span class="paramname"><em>cmds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>waitEvents</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>append submission to context to execute later, supports waiting for a queue </p>
+<p>append submissions to context to execute later, supports waiting for a queue </p>
 
 </div>
 </div>
-<a id="a46b009f35c195e743168f2c6140380e9" name="a46b009f35c195e743168f2c6140380e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46b009f35c195e743168f2c6140380e9">&#9670;&#160;</a></span>AppendWaitTimeline()</h2>
+<a id="a9847b80bc47c9a2399c344ad606e09f5" name="a9847b80bc47c9a2399c344ad606e09f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9847b80bc47c9a2399c344ad606e09f5">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Vulkan::VkSubContextHandler::AppendWaitTimeline </td>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::AppendSubmissionTimeline </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VkPipelineStageFlags</td>          <td class="paramname"><span class="paramname"><em>waitFlags</em></span>, </td>
+          <td class="paramtype">VkCommandBuffer</td>          <td class="paramname"><span class="paramname"><em>cmds</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>waitType</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>waitEvents</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Append a wait for a submission timeline index. </p>
+<p>append submission to context to execute later, supports waiting for a queue </p>
 
 </div>
 </div>
@@ -855,6 +857,28 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ace72a70d1d4ed8ee47a2db8a17382684" name="ace72a70d1d4ed8ee47a2db8a17382684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace72a70d1d4ed8ee47a2db8a17382684">&#9670;&#160;</a></span>submissionLock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a> Vulkan::VkSubContextHandler::submissionLock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a807dd5ac4d190e0fa27be8e36630ceed" name="a807dd5ac4d190e0fa27be8e36630ceed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a807dd5ac4d190e0fa27be8e36630ceed">&#9670;&#160;</a></span>submissions</h2>
 
@@ -888,7 +912,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_sub_context_handler.html">VkSubContextHandler</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

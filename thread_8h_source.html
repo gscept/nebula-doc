@@ -133,7 +133,11 @@ $(function(){initNavTree('thread_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#error &quot;Threading::Thread not implemented on this platform!&quot;</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_threading.html">Threading</a></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">extern</span> <a class="code hl_typedef" href="namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86">Threading::ThreadId</a> <a class="code hl_variable" href="namespace_threading.html#a34ae22f686c08542f9e38ac04c31072f">MainThreadId</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="aclass_linux_1_1_linux_thread_html"><div class="ttname"><a href="class_linux_1_1_linux_thread.html">Linux::LinuxThread</a></div><div class="ttdoc">Linux implementation of Threading::Thread.</div><div class="ttdef"><b>Definition</b> linuxthread.h:20</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_thread_html"><div class="ttname"><a href="class_posix_1_1_posix_thread.html">Posix::PosixThread</a></div><div class="ttdoc">Posix implementation of thread class.</div><div class="ttdef"><b>Definition</b> posixthread.h:23</div></div>
 <div class="ttc" id="aclass_threading_1_1_thread_html"><div class="ttname"><a href="class_threading_1_1_thread.html">Thread</a></div></div>
@@ -141,6 +145,8 @@ $(function(){initNavTree('thread_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
 <div class="ttc" id="alinuxthread_8h_html"><div class="ttname"><a href="linuxthread_8h.html">linuxthread.h</a></div></div>
 <div class="ttc" id="anamespace_threading_html"><div class="ttname"><a href="namespace_threading.html">Threading</a></div><div class="ttdoc">The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.</div><div class="ttdef"><b>Definition</b> jobs2.h:16</div></div>
+<div class="ttc" id="anamespace_threading_html_a34ae22f686c08542f9e38ac04c31072f"><div class="ttname"><a href="namespace_threading.html#a34ae22f686c08542f9e38ac04c31072f">Threading::MainThreadId</a></div><div class="ttdeci">Threading::ThreadId MainThreadId</div><div class="ttdef"><b>Definition</b> thread.cc:21</div></div>
+<div class="ttc" id="anamespace_threading_html_a5a3ee688d0de0946e6d8f66b15736b86"><div class="ttname"><a href="namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86">Threading::ThreadId</a></div><div class="ttdeci">pthread_t ThreadId</div><div class="ttdef"><b>Definition</b> linuxthreadid.h:15</div></div>
 <div class="ttc" id="aposixthread_8h_html"><div class="ttname"><a href="posixthread_8h.html">posixthread.h</a></div></div>
 <div class="ttc" id="artti_8h_html_ac4164ef10ce5c2eac425c3866991b464"><div class="ttname"><a href="rtti_8h.html#ac4164ef10ce5c2eac425c3866991b464">__DeclareClass</a></div><div class="ttdeci">#define __DeclareClass(type)</div></div>
 <div class="ttc" id="awin32thread_8h_html"><div class="ttname"><a href="win32thread_8h.html">win32thread.h</a></div></div>
@@ -151,7 +157,7 @@ $(function(){initNavTree('thread_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_f19f8a5dc6a389547889a45c5da0c6cd.html">threading</a></li><li class="navelem"><a class="el" href="thread_8h.html">thread.h</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:12 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -7,6 +7,5 @@ var struct_core_graphics_1_1_texture_stream_data =
     [ "nextLayerToLoad", "struct_core_graphics_1_1_texture_stream_data.html#a7d5dac850943fd93a00b9a7acdbbce99", null ],
     [ "numLayers", "struct_core_graphics_1_1_texture_stream_data.html#adb01ee95776e6cf3be2d0a74b38d03f4", null ],
     [ "numLayersToLoad", "struct_core_graphics_1_1_texture_stream_data.html#adbff0c4fb450370a73623c4c913b6e32", null ],
-    [ "numMips", "struct_core_graphics_1_1_texture_stream_data.html#aa70c6c6e33bcc349a83ba283deed1418", null ],
-    [ "partialLoadBits", "struct_core_graphics_1_1_texture_stream_data.html#ad8e122f13a71f7a66113c6fc0e6cae37", null ]
+    [ "numMips", "struct_core_graphics_1_1_texture_stream_data.html#aa70c6c6e33bcc349a83ba283deed1418", null ]
 ];

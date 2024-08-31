@@ -1056,6 +1056,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a1eb5b9e2891b25326d97ef539fc6e61b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1eb5b9e2891b25326d97ef539fc6e61b">BufferUpdateArray</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const TYPE *data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> count, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset=0)</td></tr>
 <tr class="memdesc:a1eb5b9e2891b25326d97ef539fc6e61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">update buffer data as array  <br /></td></tr>
 <tr class="separator:a1eb5b9e2891b25326d97ef539fc6e61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d4d17fb25c48b6314e308c7ab71319" id="r_a61d4d17fb25c48b6314e308c7ab71319"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
+<tr class="memitem:a61d4d17fb25c48b6314e308c7ab71319"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a61d4d17fb25c48b6314e308c7ab71319">BufferUpdateArray</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE &gt; &amp;data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset=0)</td></tr>
+<tr class="memdesc:a61d4d17fb25c48b6314e308c7ab71319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update buffer data as array.  <br /></td></tr>
+<tr class="separator:a61d4d17fb25c48b6314e308c7ab71319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e2a33bf899e5a81f92c9115db0fed5" id="r_a12e2a33bf899e5a81f92c9115db0fed5"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
+<tr class="memitem:a12e2a33bf899e5a81f92c9115db0fed5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a12e2a33bf899e5a81f92c9115db0fed5">BufferUpdateArray</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; TYPE &gt; &amp;data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset=0)</td></tr>
+<tr class="memdesc:a12e2a33bf899e5a81f92c9115db0fed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update buffer data as array.  <br /></td></tr>
+<tr class="separator:a12e2a33bf899e5a81f92c9115db0fed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09cc2fb4abc1e3ffcd177038560fc866" id="r_a09cc2fb4abc1e3ffcd177038560fc866"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
 <tr class="memitem:a09cc2fb4abc1e3ffcd177038560fc866"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a09cc2fb4abc1e3ffcd177038560fc866">BufferUpload</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const TYPE *data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> count=1, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset=0)</td></tr>
 <tr class="memdesc:a09cc2fb4abc1e3ffcd177038560fc866"><td class="mdescLeft">&#160;</td><td class="mdescRight">upload data from pointer directly to buffer through submission context  <br /></td></tr>
@@ -1122,8 +1130,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1d55b2c21f56e000acffd1b7ad440452"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new command buffer  <br /></td></tr>
 <tr class="separator:a1d55b2c21f56e000acffd1b7ad440452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb65c0a21c13243912914d0a252ad7b6" id="r_abb65c0a21c13243912914d0a252ad7b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb65c0a21c13243912914d0a252ad7b6">DestroyCmdBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:abb65c0a21c13243912914d0a252ad7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy command buffer  <br /></td></tr>
+<tr class="memdesc:abb65c0a21c13243912914d0a252ad7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the command buffer immediately (use with caution as buffer might be in use by GPU)  <br /></td></tr>
 <tr class="separator:abb65c0a21c13243912914d0a252ad7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad497be380c4ddb19631a4b862386857" id="r_aad497be380c4ddb19631a4b862386857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad497be380c4ddb19631a4b862386857">DeferredDestroyCmdBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:aad497be380c4ddb19631a4b862386857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issue command buffer for deletion (happens when GPU is finished with it)  <br /></td></tr>
+<tr class="separator:aad497be380c4ddb19631a4b862386857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ed8b65eb99a3b1e3c5646c9c06a2319" id="r_a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed8b65eb99a3b1e3c5646c9c06a2319">CmdBeginRecord</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_begin_info.html">CmdBufferBeginInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin recording to command buffer  <br /></td></tr>
 <tr class="separator:a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1444,33 +1455,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a9cf53547aa552ba5b72b0a03a7b805b2" id="r_a9cf53547aa552ba5b72b0a03a7b805b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf53547aa552ba5b72b0a03a7b805b2">LockTransferSetupCommandBuffer</a> ()</td></tr>
 <tr class="memdesc:a9cf53547aa552ba5b72b0a03a7b805b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock resource command buffer.  <br /></td></tr>
 <tr class="separator:a9cf53547aa552ba5b72b0a03a7b805b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad113613dbe0be7382aecb4ac3fc6bb5e" id="r_ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad113613dbe0be7382aecb4ac3fc6bb5e">UnlockTransferSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on resource command buffer.  <br /></td></tr>
-<tr class="separator:ad113613dbe0be7382aecb4ac3fc6bb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb43ef0af913ce0baa78cb335b6c72ff" id="r_acb43ef0af913ce0baa78cb335b6c72ff"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb43ef0af913ce0baa78cb335b6c72ff">LockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:acb43ef0af913ce0baa78cb335b6c72ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock immediate graphics command buffer.  <br /></td></tr>
-<tr class="separator:acb43ef0af913ce0baa78cb335b6c72ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370339ade584ee567b80cd9af5eb67c2" id="r_a370339ade584ee567b80cd9af5eb67c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370339ade584ee567b80cd9af5eb67c2">UnlockGraphicsSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:a370339ade584ee567b80cd9af5eb67c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on immediate graphics command buffer.  <br /></td></tr>
-<tr class="separator:a370339ade584ee567b80cd9af5eb67c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5775a44ed1871f5dafee1e67e7afee" id="r_aff5775a44ed1871f5dafee1e67e7afee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff5775a44ed1871f5dafee1e67e7afee">UnlockTransferSetupCommandBuffer</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
+<tr class="memdesc:aff5775a44ed1871f5dafee1e67e7afee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on resource command buffer.  <br /></td></tr>
+<tr class="separator:aff5775a44ed1871f5dafee1e67e7afee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b56722a2c37c1ea4d4c0f9d286f9c9a" id="r_a3b56722a2c37c1ea4d4c0f9d286f9c9a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b56722a2c37c1ea4d4c0f9d286f9c9a">LockGraphicsSetupCommandBuffer</a> (const char *name=nullptr)</td></tr>
+<tr class="memdesc:a3b56722a2c37c1ea4d4c0f9d286f9c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock immediate graphics command buffer.  <br /></td></tr>
+<tr class="separator:a3b56722a2c37c1ea4d4c0f9d286f9c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209ecc66e8724a8ad08ee30516d96f84" id="r_a209ecc66e8724a8ad08ee30516d96f84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a209ecc66e8724a8ad08ee30516d96f84">UnlockGraphicsSetupCommandBuffer</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
+<tr class="memdesc:a209ecc66e8724a8ad08ee30516d96f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on immediate graphics command buffer.  <br /></td></tr>
+<tr class="separator:a209ecc66e8724a8ad08ee30516d96f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc4d6e76cf5726e5142e4d5c7a450e30" id="r_acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4d6e76cf5726e5142e4d5c7a450e30">LockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
 <tr class="memdesc:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock handover transfer command buffer.  <br /></td></tr>
 <tr class="separator:acc4d6e76cf5726e5142e4d5c7a450e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6bfb51adc6eb9f0bce256a0b1f57109" id="r_af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6bfb51adc6eb9f0bce256a0b1f57109">UnlockTransferHandoverSetupCommandBuffer</a> ()</td></tr>
-<tr class="memdesc:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
-<tr class="separator:af6bfb51adc6eb9f0bce256a0b1f57109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3a5899193fa091b3daa94d71bf4f3b" id="r_aee3a5899193fa091b3daa94d71bf4f3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3a5899193fa091b3daa94d71bf4f3b">NextSubmissionIndex</a> (const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
-<tr class="memdesc:aee3a5899193fa091b3daa94d71bf4f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next submission index for a specific queue.  <br /></td></tr>
-<tr class="separator:aee3a5899193fa091b3daa94d71bf4f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929e886c69678230ebe9ea15d1fec0ee" id="r_a929e886c69678230ebe9ea15d1fec0ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a929e886c69678230ebe9ea15d1fec0ee">UnlockTransferHandoverSetupCommandBuffer</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
+<tr class="memdesc:a929e886c69678230ebe9ea15d1fec0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release lock on handover command buffer.  <br /></td></tr>
+<tr class="separator:a929e886c69678230ebe9ea15d1fec0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eb20bc717e5df47c70e8aa8cb956bfb" id="r_a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eb20bc717e5df47c70e8aa8cb956bfb">PollSubmissionIndex</a> (const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
 <tr class="memdesc:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll a submission for completion.  <br /></td></tr>
 <tr class="separator:a1eb20bc717e5df47c70e8aa8cb956bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad62a38424b0e014c8e7c27c2941fbb51" id="r_ad62a38424b0e014c8e7c27c2941fbb51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62a38424b0e014c8e7c27c2941fbb51">SubmitCommandBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmds, <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
-<tr class="memdesc:ad62a38424b0e014c8e7c27c2941fbb51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a command buffer, but doesn't necessarily execute it immediately.  <br /></td></tr>
-<tr class="separator:ad62a38424b0e014c8e7c27c2941fbb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44fbf03e0108c7374eedd28e55926157" id="r_a44fbf03e0108c7374eedd28e55926157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44fbf03e0108c7374eedd28e55926157">WaitForSubmission</a> (<a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a> index, <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
-<tr class="memdesc:a44fbf03e0108c7374eedd28e55926157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for a submission.  <br /></td></tr>
-<tr class="separator:a44fbf03e0108c7374eedd28e55926157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196f1bea031cafeb4021e9548006cf00" id="r_a196f1bea031cafeb4021e9548006cf00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196f1bea031cafeb4021e9548006cf00">SubmitCommandBuffers</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> &gt; &amp;cmds, <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt; waitEvents=nullptr)</td></tr>
+<tr class="memdesc:a196f1bea031cafeb4021e9548006cf00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a command buffer, but doesn't necessarily execute it immediately.  <br /></td></tr>
+<tr class="separator:a196f1bea031cafeb4021e9548006cf00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24a69e09d952540ac22a9fb324e8448a" id="r_a24a69e09d952540ac22a9fb324e8448a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24a69e09d952540ac22a9fb324e8448a">SubmitImmediateCommandBuffers</a> ()</td></tr>
+<tr class="memdesc:a24a69e09d952540ac22a9fb324e8448a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit immediate command buffers.  <br /></td></tr>
+<tr class="separator:a24a69e09d952540ac22a9fb324e8448a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab31b127c1b83d7155cffb2de2c4ace80" id="r_ab31b127c1b83d7155cffb2de2c4ace80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31b127c1b83d7155cffb2de2c4ace80">UnlockConstantUpdates</a> ()</td></tr>
 <tr class="memdesc:ab31b127c1b83d7155cffb2de2c4ace80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock constants.  <br /></td></tr>
 <tr class="separator:ab31b127c1b83d7155cffb2de2c4ace80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1526,17 +1534,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a8e7755eb7fb4d2b8e40e81072626e647" id="r_a8e7755eb7fb4d2b8e40e81072626e647"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e7755eb7fb4d2b8e40e81072626e647">GetIndexBuffer</a> ()</td></tr>
 <tr class="memdesc:a8e7755eb7fb4d2b8e40e81072626e647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get index buffer.  <br /></td></tr>
 <tr class="separator:a8e7755eb7fb4d2b8e40e81072626e647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bd2ee637d64cf24cef5a87373f34088" id="r_a3bd2ee637d64cf24cef5a87373f34088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bd2ee637d64cf24cef5a87373f34088">AllocateUpload</a> (const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
-<tr class="memdesc:a3bd2ee637d64cf24cef5a87373f34088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate upload memory.  <br /></td></tr>
-<tr class="separator:a3bd2ee637d64cf24cef5a87373f34088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4aee5a8faac67f8e9b990a6cb573fa3" id="r_ae4aee5a8faac67f8e9b990a6cb573fa3"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
-<tr class="memitem:ae4aee5a8faac67f8e9b990a6cb573fa3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae4aee5a8faac67f8e9b990a6cb573fa3">Upload</a> (const TYPE &amp;data, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
-<tr class="memdesc:ae4aee5a8faac67f8e9b990a6cb573fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload single item to GPU source buffer.  <br /></td></tr>
-<tr class="separator:ae4aee5a8faac67f8e9b990a6cb573fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c8d9e85d2c5e14ec8fd780061d021d0" id="r_a9c8d9e85d2c5e14ec8fd780061d021d0"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
-<tr class="memitem:a9c8d9e85d2c5e14ec8fd780061d021d0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9c8d9e85d2c5e14ec8fd780061d021d0">UploadArray</a> (const TYPE *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> elements, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
-<tr class="memdesc:a9c8d9e85d2c5e14ec8fd780061d021d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload array of items to GPU source buffer.  <br /></td></tr>
-<tr class="separator:a9c8d9e85d2c5e14ec8fd780061d021d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435c6b0f2ebeb9d8d1cf393f685f40f1" id="r_a435c6b0f2ebeb9d8d1cf393f685f40f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435c6b0f2ebeb9d8d1cf393f685f40f1">AllocateUpload</a> (const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
+<tr class="memdesc:a435c6b0f2ebeb9d8d1cf393f685f40f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate upload memory.  <br /></td></tr>
+<tr class="separator:a435c6b0f2ebeb9d8d1cf393f685f40f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4efc680a2e506d61a0c18ac69cc312c2" id="r_a4efc680a2e506d61a0c18ac69cc312c2"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
+<tr class="memitem:a4efc680a2e506d61a0c18ac69cc312c2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4efc680a2e506d61a0c18ac69cc312c2">Upload</a> (const TYPE &amp;data, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
+<tr class="memdesc:a4efc680a2e506d61a0c18ac69cc312c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload single item to GPU source buffer.  <br /></td></tr>
+<tr class="separator:a4efc680a2e506d61a0c18ac69cc312c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6742827e8a845d5e1173fe442d6620f" id="r_ae6742827e8a845d5e1173fe442d6620f"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
+<tr class="memitem:ae6742827e8a845d5e1173fe442d6620f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae6742827e8a845d5e1173fe442d6620f">UploadArray</a> (const TYPE *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> elements, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment=1)</td></tr>
+<tr class="memdesc:ae6742827e8a845d5e1173fe442d6620f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload array of items to GPU source buffer.  <br /></td></tr>
+<tr class="separator:ae6742827e8a845d5e1173fe442d6620f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad67116898c753db46ad84dffcdddb641" id="r_ad67116898c753db46ad84dffcdddb641"><td class="memTemplParams" colspan="2">template&lt;class TYPE &gt; </td></tr>
 <tr class="memitem:ad67116898c753db46ad84dffcdddb641"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad67116898c753db46ad84dffcdddb641">Upload</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buffer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, const TYPE &amp;data)</td></tr>
 <tr class="memdesc:ad67116898c753db46ad84dffcdddb641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload item to GPU source buffer with preallocated memory.  <br /></td></tr>
@@ -1546,11 +1554,17 @@ Functions</h2></td></tr>
 <tr class="memdesc:abc2ec736df57c882bc117a63981f3643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload array of items GPU source buffer with preallocated memory.  <br /></td></tr>
 <tr class="separator:abc2ec736df57c882bc117a63981f3643"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0e43ae7122a694f2d794eaf67079310" id="r_af0e43ae7122a694f2d794eaf67079310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e43ae7122a694f2d794eaf67079310">UploadInternal</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> buffer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset, const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
-<tr class="memdesc:af0e43ae7122a694f2d794eaf67079310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload memory to upload buffer with alignment, return offset.  <br /></td></tr>
+<tr class="memdesc:af0e43ae7122a694f2d794eaf67079310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload memory to upload buffer with given offset, return offset.  <br /></td></tr>
 <tr class="separator:af0e43ae7122a694f2d794eaf67079310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3388c975ba1a55c14b7331f6554cf3dd" id="r_a3388c975ba1a55c14b7331f6554cf3dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3388c975ba1a55c14b7331f6554cf3dd">FlushUpload</a> ()</td></tr>
-<tr class="memdesc:a3388c975ba1a55c14b7331f6554cf3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush upload buffer.  <br /></td></tr>
-<tr class="separator:a3388c975ba1a55c14b7331f6554cf3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a271cc9cb05151bdb2c2003c0709035" id="r_a5a271cc9cb05151bdb2c2003c0709035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a271cc9cb05151bdb2c2003c0709035">FreeUploads</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;allocations)</td></tr>
+<tr class="memdesc:a5a271cc9cb05151bdb2c2003c0709035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free upload allocations directly.  <br /></td></tr>
+<tr class="separator:a5a271cc9cb05151bdb2c2003c0709035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec5e0f9ec44c081cdbe838b9307b755" id="r_a5ec5e0f9ec44c081cdbe838b9307b755"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ec5e0f9ec44c081cdbe838b9307b755">FlushUploads</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;allocations)</td></tr>
+<tr class="memdesc:a5ec5e0f9ec44c081cdbe838b9307b755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush upload allocations directly.  <br /></td></tr>
+<tr class="separator:a5ec5e0f9ec44c081cdbe838b9307b755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88101da7d7814b3b9f38f23d1a771809" id="r_a88101da7d7814b3b9f38f23d1a771809"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88101da7d7814b3b9f38f23d1a771809">EnqueueUploadsFlushAndFree</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;allocations)</td></tr>
+<tr class="memdesc:a88101da7d7814b3b9f38f23d1a771809"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue uploads to flush and free at immediate submit.  <br /></td></tr>
+<tr class="separator:a88101da7d7814b3b9f38f23d1a771809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e0270ba6309296c21067f6ff87e2d0a" id="r_a4e0270ba6309296c21067f6ff87e2d0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e0270ba6309296c21067f6ff87e2d0a">ReloadShaderProgram</a> (const CoreGraphics::ShaderProgramId &amp;pro)</td></tr>
 <tr class="memdesc:a4e0270ba6309296c21067f6ff87e2d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trigger reloading a shader  <br /></td></tr>
 <tr class="separator:a4e0270ba6309296c21067f6ff87e2d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1633,9 +1647,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3e092d26f5a0e12d8c17c5e9c34697a7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a7c6181f333ec8bbadc23a8a3e236ba96">ConstantBufferOffset</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3e092d26f5a0e12d8c17c5e9c34697a7">SetConstants</a> (const TYPE *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numElements)</td></tr>
 <tr class="memdesc:a3e092d26f5a0e12d8c17c5e9c34697a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate range of memory and set data as an array of elements, return offset (thread safe)  <br /></td></tr>
 <tr class="separator:a3e092d26f5a0e12d8c17c5e9c34697a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31517abd6cc98f606686145f67fc25c0" id="r_a31517abd6cc98f606686145f67fc25c0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a31517abd6cc98f606686145f67fc25c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a31517abd6cc98f606686145f67fc25c0">UploadArray</a> (const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment)</td></tr>
-<tr class="separator:a31517abd6cc98f606686145f67fc25c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b4040323154a2d7823f0d275b99364" id="r_a87b4040323154a2d7823f0d275b99364"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a87b4040323154a2d7823f0d275b99364"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a87b4040323154a2d7823f0d275b99364">UploadArray</a> (const void *data, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numBytes, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> alignment)</td></tr>
+<tr class="separator:a87b4040323154a2d7823f0d275b99364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b6b3783916d2e2699f0ff0ccdea325e" id="r_a4b6b3783916d2e2699f0ff0ccdea325e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b6b3783916d2e2699f0ff0ccdea325e">CreateImage</a> (const <a class="el" href="struct_core_graphics_1_1_image_create_info_file.html">ImageCreateInfoFile</a> &amp;info)</td></tr>
 <tr class="memdesc:a4b6b3783916d2e2699f0ff0ccdea325e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create image from file path  <br /></td></tr>
 <tr class="separator:a4b6b3783916d2e2699f0ff0ccdea325e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2123,13 +2137,13 @@ Functions</h2></td></tr>
 <tr class="separator:a6f2805dd8f15c2b00bba9a2c3c33d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22c70d17634e00da7e57b7e29ef500ce" id="r_a22c70d17634e00da7e57b7e29ef500ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c70d17634e00da7e57b7e29ef500ce">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_texture_loader.html">CoreGraphics::TextureLoader</a>, 'TXLO', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
 <tr class="separator:a22c70d17634e00da7e57b7e29ef500ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5616df8b6f0f7d47284960965e362ae7" id="r_a5616df8b6f0f7d47284960965e362ae7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5616df8b6f0f7d47284960965e362ae7">UploadToTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, gliml::context &amp;ctx, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> layer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mip)</td></tr>
-<tr class="memdesc:a5616df8b6f0f7d47284960965e362ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to upload texture data to GPU memory May fail if the upload buffer is full, in which case the function returns false.  <br /></td></tr>
-<tr class="separator:a5616df8b6f0f7d47284960965e362ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3cbfda4f9d34f60ec987aed46a6675b" id="r_aa3cbfda4f9d34f60ec987aed46a6675b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3cbfda4f9d34f60ec987aed46a6675b">LoadMips</a> (<a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bitsToLoad, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const char *name)</td></tr>
-<tr class="separator:aa3cbfda4f9d34f60ec987aed46a6675b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab58690570bea93c2286a95619f452964" id="r_ab58690570bea93c2286a95619f452964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58690570bea93c2286a95619f452964">FinishMips</a> (<a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mipBits, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const char *name)</td></tr>
-<tr class="separator:ab58690570bea93c2286a95619f452964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6957049bbd67d0fb9ec6f8ef9fcdd9" id="r_a1c6957049bbd67d0fb9ec6f8ef9fcdd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6957049bbd67d0fb9ec6f8ef9fcdd9">UploadToTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, gliml::context &amp;ctx, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> layer, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mip, <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &amp;outAlloc)</td></tr>
+<tr class="memdesc:a1c6957049bbd67d0fb9ec6f8ef9fcdd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to upload texture data to GPU memory May fail if the upload buffer is full, in which case the function returns false.  <br /></td></tr>
+<tr class="separator:a1c6957049bbd67d0fb9ec6f8ef9fcdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744662b9f2be468a33dd36c57938237c" id="r_a744662b9f2be468a33dd36c57938237c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a744662b9f2be468a33dd36c57938237c">LoadMips</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, <a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bitsToLoad, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;rangesToFlush)</td></tr>
+<tr class="separator:a744662b9f2be468a33dd36c57938237c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7d728e44d6c654a490d94fb33900cc" id="r_aad7d728e44d6c654a490d94fb33900cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7d728e44d6c654a490d94fb33900cc">FinishMips</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> transferCommands, <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> handoverCommands, <a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *streamData, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mipBits, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture, const char *name)</td></tr>
+<tr class="separator:aad7d728e44d6c654a490d94fb33900cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c0035b07f4e1b53fd314007e45ecac" id="r_ae6c0035b07f4e1b53fd314007e45ecac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_texture_view_id.html">TextureViewId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6c0035b07f4e1b53fd314007e45ecac">CreateTextureView</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_create_info.html">TextureViewCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:ae6c0035b07f4e1b53fd314007e45ecac"><td class="mdescLeft">&#160;</td><td class="mdescRight">create texture view  <br /></td></tr>
 <tr class="separator:ae6c0035b07f4e1b53fd314007e45ecac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2181,7 +2195,7 @@ Functions</h2></td></tr>
 <tr class="separator:a3b6bb584018694464b890d8977a7077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f34d6bc40a4dca8ac7ac68fb7ed87b" id="r_a92f34d6bc40a4dca8ac7ac68fb7ed87b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f34d6bc40a4dca8ac7ac68fb7ed87b">N_DECLARE_COUNTER</a> (N_INDEX_MEMORY, <a class="el" href="namespace_ids.html#a6709ae98a294176cf1e6cea57c873c3e">Index</a> Memory)</td></tr>
 <tr class="separator:a92f34d6bc40a4dca8ac7ac68fb7ed87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a623539cb3cb9233729f5b192145c0eca" id="r_a623539cb3cb9233729f5b192145c0eca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623539cb3cb9233729f5b192145c0eca">N_DECLARE_COUNTER</a> (N_UPLOAD_MEMORY, <a class="el" href="#ae4aee5a8faac67f8e9b990a6cb573fa3">Upload</a> Memory)</td></tr>
+<tr class="memitem:a623539cb3cb9233729f5b192145c0eca" id="r_a623539cb3cb9233729f5b192145c0eca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623539cb3cb9233729f5b192145c0eca">N_DECLARE_COUNTER</a> (N_UPLOAD_MEMORY, <a class="el" href="#a4efc680a2e506d61a0c18ac69cc312c2">Upload</a> Memory)</td></tr>
 <tr class="separator:a623539cb3cb9233729f5b192145c0eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d96cbb5e9004475aa79fe881ac0fc9" id="r_a82d96cbb5e9004475aa79fe881ac0fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d96cbb5e9004475aa79fe881ac0fc9">AddSubmissionEvent</a> (const <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &amp;event)</td></tr>
 <tr class="separator:a82d96cbb5e9004475aa79fe881ac0fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2270,6 +2284,8 @@ Variables</h2></td></tr>
 <tr class="separator:a389e003e78b6e840ca1c2349d6d6fc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a595fa84e0ce4114d94787320b0b3402d" id="r_a595fa84e0ce4114d94787320b0b3402d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a595fa84e0ce4114d94787320b0b3402d">MeshShadersSupported</a> = false</td></tr>
 <tr class="separator:a595fa84e0ce4114d94787320b0b3402d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d450cae6bc44a4ad49884622551c723" id="r_a7d450cae6bc44a4ad49884622551c723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d450cae6bc44a4ad49884622551c723">NvidiaCheckpointsSupported</a> = false</td></tr>
+<tr class="separator:a7d450cae6bc44a4ad49884622551c723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6936cf77c25ef98ccdb3b8fbbb80c033" id="r_a6936cf77c25ef98ccdb3b8fbbb80c033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5b91aa8d9d536bc0f7dc97e74061b59d">ImageAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6936cf77c25ef98ccdb3b8fbbb80c033">imageAllocator</a></td></tr>
 <tr class="separator:a6936cf77c25ef98ccdb3b8fbbb80c033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a578969293a0f2252be7b0d49f19550fe" id="r_a578969293a0f2252be7b0d49f19550fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_memory_pool.html">MemoryPool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578969293a0f2252be7b0d49f19550fe">Pools</a></td></tr>
@@ -2323,12 +2339,6 @@ Variables</h2></td></tr>
 <tr class="separator:ac3cb46b91a052fb94240d3de1c9ce93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab03ca88f64edd6738ee304fc9d280aad" id="r_ab03ca88f64edd6738ee304fc9d280aad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_stack.html">Util::Stack</a>&lt; <a class="el" href="struct_core_graphics_1_1_barrier_stack_entry.html">BarrierStackEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab03ca88f64edd6738ee304fc9d280aad">BarrierStack</a></td></tr>
 <tr class="separator:ab03ca88f64edd6738ee304fc9d280aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5c85a740e20d8d02addb51bb50d5db" id="r_a6f5c85a740e20d8d02addb51bb50d5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5c85a740e20d8d02addb51bb50d5db">handoverWait</a></td></tr>
-<tr class="separator:a6f5c85a740e20d8d02addb51bb50d5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca2a4a2c7235e31c04908bd3ed185b0" id="r_a3ca2a4a2c7235e31c04908bd3ed185b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca2a4a2c7235e31c04908bd3ed185b0">graphicsWait</a></td></tr>
-<tr class="separator:a3ca2a4a2c7235e31c04908bd3ed185b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d880064062895c1b5c40038e8fb1300" id="r_a8d880064062895c1b5c40038e8fb1300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d880064062895c1b5c40038e8fb1300">uploadWait</a></td></tr>
-<tr class="separator:a8d880064062895c1b5c40038e8fb1300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c0719f6f8a5bb09fa43bbc0d8cb0392" id="r_a4c0719f6f8a5bb09fa43bbc0d8cb0392"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c0719f6f8a5bb09fa43bbc0d8cb0392">vertexAllocationMutex</a></td></tr>
 <tr class="separator:a4c0719f6f8a5bb09fa43bbc0d8cb0392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2885fcdc6f7b720c19f09ebb18ab114" id="r_ae2885fcdc6f7b720c19f09ebb18ab114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2885fcdc6f7b720c19f09ebb18ab114">UploadLock</a></td></tr>
@@ -4174,14 +4184,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3bd2ee637d64cf24cef5a87373f34088" name="a3bd2ee637d64cf24cef5a87373f34088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bd2ee637d64cf24cef5a87373f34088">&#9670;&#160;</a></span>AllocateUpload()</h2>
+<a id="a435c6b0f2ebeb9d8d1cf393f685f40f1" name="a435c6b0f2ebeb9d8d1cf393f685f40f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435c6b0f2ebeb9d8d1cf393f685f40f1">&#9670;&#160;</a></span>AllocateUpload()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::AllocateUpload </td>
+          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::AllocateUpload </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>numBytes</em></span>, </td>
         </tr>
@@ -5039,7 +5049,7 @@ template&lt;class TYPE &gt; </div>
 </div>
 </div>
 <a id="a1eb5b9e2891b25326d97ef539fc6e61b" name="a1eb5b9e2891b25326d97ef539fc6e61b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb5b9e2891b25326d97ef539fc6e61b">&#9670;&#160;</a></span>BufferUpdateArray()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb5b9e2891b25326d97ef539fc6e61b">&#9670;&#160;</a></span>BufferUpdateArray() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5078,6 +5088,66 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>update buffer data as array </p>
+
+</div>
+</div>
+<a id="a61d4d17fb25c48b6314e308c7ab71319" name="a61d4d17fb25c48b6314e308c7ab71319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d4d17fb25c48b6314e308c7ab71319">&#9670;&#160;</a></span>BufferUpdateArray() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferUpdateArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update buffer data as array. </p>
+
+</div>
+</div>
+<a id="a12e2a33bf899e5a81f92c9115db0fed5" name="a12e2a33bf899e5a81f92c9115db0fed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12e2a33bf899e5a81f92c9115db0fed5">&#9670;&#160;</a></span>BufferUpdateArray() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::BufferUpdateArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; TYPE &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>offset</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update buffer data as array. </p>
 
 </div>
 </div>
@@ -7655,6 +7725,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="aad497be380c4ddb19631a4b862386857" name="aad497be380c4ddb19631a4b862386857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad497be380c4ddb19631a4b862386857">&#9670;&#160;</a></span>DeferredDestroyCmdBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::DeferredDestroyCmdBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Issue command buffer for deletion (happens when GPU is finished with it) </p>
+
+</div>
+</div>
 <a id="a7281b57d79c9b765f0aa562f646bf025" name="a7281b57d79c9b765f0aa562f646bf025"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7281b57d79c9b765f0aa562f646bf025">&#9670;&#160;</a></span>DelayedDeleteBlas()</h2>
 
@@ -7951,7 +8040,7 @@ template&lt;class TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>destroy command buffer </p>
+<p>Destroy the command buffer immediately (use with caution as buffer might be in use by GPU) </p>
 
 </div>
 </div>
@@ -8430,6 +8519,25 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a88101da7d7814b3b9f38f23d1a771809" name="a88101da7d7814b3b9f38f23d1a771809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88101da7d7814b3b9f38f23d1a771809">&#9670;&#160;</a></span>EnqueueUploadsFlushAndFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::EnqueueUploadsFlushAndFree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>allocations</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Queue uploads to flush and free at immediate submit. </p>
+
+</div>
+</div>
 <a id="a182739cb7cc2c0838eb7594c5c2bff0b" name="a182739cb7cc2c0838eb7594c5c2bff0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a182739cb7cc2c0838eb7594c5c2bff0b">&#9670;&#160;</a></span>EventHostReset()</h2>
 
@@ -8764,8 +8872,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="ab58690570bea93c2286a95619f452964" name="ab58690570bea93c2286a95619f452964"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab58690570bea93c2286a95619f452964">&#9670;&#160;</a></span>FinishMips()</h2>
+<a id="aad7d728e44d6c654a490d94fb33900cc" name="aad7d728e44d6c654a490d94fb33900cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7d728e44d6c654a490d94fb33900cc">&#9670;&#160;</a></span>FinishMips()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8773,6 +8881,16 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::FinishMips </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>transferCommands</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>handoverCommands</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *</td>          <td class="paramname"><span class="paramname"><em>streamData</em></span>, </td>
         </tr>
         <tr>
@@ -8833,22 +8951,22 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a3388c975ba1a55c14b7331f6554cf3dd" name="a3388c975ba1a55c14b7331f6554cf3dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3388c975ba1a55c14b7331f6554cf3dd">&#9670;&#160;</a></span>FlushUpload()</h2>
+<a id="a5ec5e0f9ec44c081cdbe838b9307b755" name="a5ec5e0f9ec44c081cdbe838b9307b755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec5e0f9ec44c081cdbe838b9307b755">&#9670;&#160;</a></span>FlushUploads()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CoreGraphics::FlushUpload </td>
+          <td class="memname">void CoreGraphics::FlushUploads </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>allocations</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Flush upload buffer. </p>
+<p>Flush upload allocations directly. </p>
 
 </div>
 </div>
@@ -8868,6 +8986,25 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>free memory </p>
+
+</div>
+</div>
+<a id="a5a271cc9cb05151bdb2c2003c0709035" name="a5a271cc9cb05151bdb2c2003c0709035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a271cc9cb05151bdb2c2003c0709035">&#9670;&#160;</a></span>FreeUploads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::FreeUploads </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>allocations</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free upload allocations directly. </p>
 
 </div>
 </div>
@@ -9441,8 +9578,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="aa3cbfda4f9d34f60ec987aed46a6675b" name="aa3cbfda4f9d34f60ec987aed46a6675b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3cbfda4f9d34f60ec987aed46a6675b">&#9670;&#160;</a></span>LoadMips()</h2>
+<a id="a744662b9f2be468a33dd36c57938237c" name="a744662b9f2be468a33dd36c57938237c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744662b9f2be468a33dd36c57938237c">&#9670;&#160;</a></span>LoadMips()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9450,6 +9587,11 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> CoreGraphics::LoadMips </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_texture_stream_data.html">TextureStreamData</a> *</td>          <td class="paramname"><span class="paramname"><em>streamData</em></span>, </td>
         </tr>
         <tr>
@@ -9465,7 +9607,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>rangesToFlush</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9491,8 +9633,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="acb43ef0af913ce0baa78cb335b6c72ff" name="acb43ef0af913ce0baa78cb335b6c72ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb43ef0af913ce0baa78cb335b6c72ff">&#9670;&#160;</a></span>LockGraphicsSetupCommandBuffer()</h2>
+<a id="a3b56722a2c37c1ea4d4c0f9d286f9c9a" name="a3b56722a2c37c1ea4d4c0f9d286f9c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b56722a2c37c1ea4d4c0f9d286f9c9a">&#9670;&#160;</a></span>LockGraphicsSetupCommandBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9500,7 +9642,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> CoreGraphics::LockGraphicsSetupCommandBuffer </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -9964,7 +10106,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ae4aee5a8faac67f8e9b990a6cb573fa3">Upload</a></td>          <td class="paramname"><span class="paramname"><em>Memory</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a4efc680a2e506d61a0c18ac69cc312c2">Upload</a></td>          <td class="paramname"><span class="paramname"><em>Memory</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -10008,25 +10150,6 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>Progress to next frame. </p>
-
-</div>
-</div>
-<a id="aee3a5899193fa091b3daa94d71bf4f3b" name="aee3a5899193fa091b3daa94d71bf4f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee3a5899193fa091b3daa94d71bf4f3b">&#9670;&#160;</a></span>NextSubmissionIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> CoreGraphics::NextSubmissionIndex </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>queue</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the next submission index for a specific queue. </p>
 
 </div>
 </div>
@@ -12137,26 +12260,50 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="ad62a38424b0e014c8e7c27c2941fbb51" name="ad62a38424b0e014c8e7c27c2941fbb51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad62a38424b0e014c8e7c27c2941fbb51">&#9670;&#160;</a></span>SubmitCommandBuffer()</h2>
+<a id="a196f1bea031cafeb4021e9548006cf00" name="a196f1bea031cafeb4021e9548006cf00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196f1bea031cafeb4021e9548006cf00">&#9670;&#160;</a></span>SubmitCommandBuffers()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> CoreGraphics::SubmitCommandBuffer </td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> CoreGraphics::SubmitCommandBuffers </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmds</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cmds</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>waitEvents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Submit a command buffer, but doesn't necessarily execute it immediately. </p>
+
+</div>
+</div>
+<a id="a24a69e09d952540ac22a9fb324e8448a" name="a24a69e09d952540ac22a9fb324e8448a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a69e09d952540ac22a9fb324e8448a">&#9670;&#160;</a></span>SubmitImmediateCommandBuffers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::SubmitImmediateCommandBuffers </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Submit immediate command buffers. </p>
 
 </div>
 </div>
@@ -13396,8 +13543,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a370339ade584ee567b80cd9af5eb67c2" name="a370339ade584ee567b80cd9af5eb67c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370339ade584ee567b80cd9af5eb67c2">&#9670;&#160;</a></span>UnlockGraphicsSetupCommandBuffer()</h2>
+<a id="a209ecc66e8724a8ad08ee30516d96f84" name="a209ecc66e8724a8ad08ee30516d96f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a209ecc66e8724a8ad08ee30516d96f84">&#9670;&#160;</a></span>UnlockGraphicsSetupCommandBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13405,7 +13552,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::UnlockGraphicsSetupCommandBuffer </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -13415,8 +13562,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="af6bfb51adc6eb9f0bce256a0b1f57109" name="af6bfb51adc6eb9f0bce256a0b1f57109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6bfb51adc6eb9f0bce256a0b1f57109">&#9670;&#160;</a></span>UnlockTransferHandoverSetupCommandBuffer()</h2>
+<a id="a929e886c69678230ebe9ea15d1fec0ee" name="a929e886c69678230ebe9ea15d1fec0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929e886c69678230ebe9ea15d1fec0ee">&#9670;&#160;</a></span>UnlockTransferHandoverSetupCommandBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13424,7 +13571,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::UnlockTransferHandoverSetupCommandBuffer </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -13434,8 +13581,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="ad113613dbe0be7382aecb4ac3fc6bb5e" name="ad113613dbe0be7382aecb4ac3fc6bb5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad113613dbe0be7382aecb4ac3fc6bb5e">&#9670;&#160;</a></span>UnlockTransferSetupCommandBuffer()</h2>
+<a id="aff5775a44ed1871f5dafee1e67e7afee" name="aff5775a44ed1871f5dafee1e67e7afee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5775a44ed1871f5dafee1e67e7afee">&#9670;&#160;</a></span>UnlockTransferSetupCommandBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13443,7 +13590,7 @@ template&lt;class TYPE &gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::UnlockTransferSetupCommandBuffer </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -13534,8 +13681,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="ae4aee5a8faac67f8e9b990a6cb573fa3" name="ae4aee5a8faac67f8e9b990a6cb573fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4aee5a8faac67f8e9b990a6cb573fa3">&#9670;&#160;</a></span>Upload() <span class="overload">[3/3]</span></h2>
+<a id="a4efc680a2e506d61a0c18ac69cc312c2" name="a4efc680a2e506d61a0c18ac69cc312c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4efc680a2e506d61a0c18ac69cc312c2">&#9670;&#160;</a></span>Upload() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13546,7 +13693,7 @@ template&lt;class TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::Upload </td>
+          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::Upload </td>
           <td>(</td>
           <td class="paramtype">const TYPE &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
@@ -13567,8 +13714,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a9c8d9e85d2c5e14ec8fd780061d021d0" name="a9c8d9e85d2c5e14ec8fd780061d021d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c8d9e85d2c5e14ec8fd780061d021d0">&#9670;&#160;</a></span>UploadArray() <span class="overload">[1/2]</span></h2>
+<a id="ae6742827e8a845d5e1173fe442d6620f" name="ae6742827e8a845d5e1173fe442d6620f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6742827e8a845d5e1173fe442d6620f">&#9670;&#160;</a></span>UploadArray() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13579,7 +13726,7 @@ template&lt;class TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::UploadArray </td>
+          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::UploadArray </td>
           <td>(</td>
           <td class="paramtype">const TYPE *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
@@ -13605,8 +13752,8 @@ template&lt;class TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a31517abd6cc98f606686145f67fc25c0" name="a31517abd6cc98f606686145f67fc25c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31517abd6cc98f606686145f67fc25c0">&#9670;&#160;</a></span>UploadArray() <span class="overload">[2/2]</span></h2>
+<a id="a87b4040323154a2d7823f0d275b99364" name="a87b4040323154a2d7823f0d275b99364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b4040323154a2d7823f0d275b99364">&#9670;&#160;</a></span>UploadArray() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13617,7 +13764,7 @@ template&lt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::UploadArray </td>
+          <td class="memname"><a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; CoreGraphics::UploadArray </td>
           <td>(</td>
           <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
@@ -13670,13 +13817,12 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Upload memory to upload buffer with alignment, return offset. </p>
-<p>Upload memory to upload buffer with given offset, return offset </p>
+<p>Upload memory to upload buffer with given offset, return offset. </p>
 
 </div>
 </div>
-<a id="a5616df8b6f0f7d47284960965e362ae7" name="a5616df8b6f0f7d47284960965e362ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5616df8b6f0f7d47284960965e362ae7">&#9670;&#160;</a></span>UploadToTexture()</h2>
+<a id="a1c6957049bbd67d0fb9ec6f8ef9fcdd9" name="a1c6957049bbd67d0fb9ec6f8ef9fcdd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6957049bbd67d0fb9ec6f8ef9fcdd9">&#9670;&#160;</a></span>UploadToTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13704,7 +13850,12 @@ template&lt;&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>mip</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>mip</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_memory_1_1_range_allocation.html">Memory::RangeAllocation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outAlloc</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13862,29 +14013,6 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>wait for an individual queue to finish </p>
-
-</div>
-</div>
-<a id="a44fbf03e0108c7374eedd28e55926157" name="a44fbf03e0108c7374eedd28e55926157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44fbf03e0108c7374eedd28e55926157">&#9670;&#160;</a></span>WaitForSubmission()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreGraphics::WaitForSubmission </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">SubmissionWaitEvent</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Wait for a submission. </p>
 
 </div>
 </div>
@@ -14388,20 +14516,6 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a3ca2a4a2c7235e31c04908bd3ed185b0" name="a3ca2a4a2c7235e31c04908bd3ed185b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ca2a4a2c7235e31c04908bd3ed185b0">&#9670;&#160;</a></span>graphicsWait</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> CoreGraphics::graphicsWait</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a927d2e8f3808c8ecc5aa735f4190f0c4" name="a927d2e8f3808c8ecc5aa735f4190f0c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a927d2e8f3808c8ecc5aa735f4190f0c4">&#9670;&#160;</a></span>Green2D</h2>
 
@@ -14410,20 +14524,6 @@ template&lt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> CoreGraphics::Green2D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6f5c85a740e20d8d02addb51bb50d5db" name="a6f5c85a740e20d8d02addb51bb50d5db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f5c85a740e20d8d02addb51bb50d5db">&#9670;&#160;</a></span>handoverWait</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> CoreGraphics::handoverWait</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -14532,6 +14632,20 @@ template&lt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool CoreGraphics::MeshShadersSupported = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d450cae6bc44a4ad49884622551c723" name="a7d450cae6bc44a4ad49884622551c723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d450cae6bc44a4ad49884622551c723">&#9670;&#160;</a></span>NvidiaCheckpointsSupported</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CoreGraphics::NvidiaCheckpointsSupported = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -14700,20 +14814,6 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a8d880064062895c1b5c40038e8fb1300" name="a8d880064062895c1b5c40038e8fb1300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d880064062895c1b5c40038e8fb1300">&#9670;&#160;</a></span>uploadWait</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a> CoreGraphics::uploadWait</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a389e003e78b6e840ca1c2349d6d6fc1f" name="a389e003e78b6e840ca1c2349d6d6fc1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a389e003e78b6e840ca1c2349d6d6fc1f">&#9670;&#160;</a></span>VariableRateShadingSupported</h2>
 
@@ -14847,7 +14947,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -161,8 +161,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1d55b2c21f56e000acffd1b7ad440452"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new command buffer  <br /></td></tr>
 <tr class="separator:a1d55b2c21f56e000acffd1b7ad440452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb65c0a21c13243912914d0a252ad7b6" id="r_abb65c0a21c13243912914d0a252ad7b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#abb65c0a21c13243912914d0a252ad7b6">CoreGraphics::DestroyCmdBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:abb65c0a21c13243912914d0a252ad7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy command buffer  <br /></td></tr>
+<tr class="memdesc:abb65c0a21c13243912914d0a252ad7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the command buffer immediately (use with caution as buffer might be in use by GPU)  <br /></td></tr>
 <tr class="separator:abb65c0a21c13243912914d0a252ad7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad497be380c4ddb19631a4b862386857" id="r_aad497be380c4ddb19631a4b862386857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aad497be380c4ddb19631a4b862386857">CoreGraphics::DeferredDestroyCmdBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:aad497be380c4ddb19631a4b862386857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issue command buffer for deletion (happens when GPU is finished with it)  <br /></td></tr>
+<tr class="separator:aad497be380c4ddb19631a4b862386857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ed8b65eb99a3b1e3c5646c9c06a2319" id="r_a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7ed8b65eb99a3b1e3c5646c9c06a2319">CoreGraphics::CmdBeginRecord</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_begin_info.html">CmdBufferBeginInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin recording to command buffer  <br /></td></tr>
 <tr class="separator:a7ed8b65eb99a3b1e3c5646c9c06a2319"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,7 +328,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#abff0a26e1c5284115833c659be706a18">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60">Vulkan::commandBuffers</a></td></tr>
+<tr class="memitem:afe3d3ddac1aeb7f44ef2469482cdde60" id="r_afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a57701d5ed070d6ccf53f09937d698cb4">VkCommandBufferAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60">Vulkan::commandBuffers</a></td></tr>
 <tr class="separator:afe3d3ddac1aeb7f44ef2469482cdde60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6a9172b9a58d5ffdfb9b79a15696fe" id="r_a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_vulkan.html#a6cf4ca3f529aa960bc3975e645606e01">VkCommandBufferPoolAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_vulkan.html#a2b6a9172b9a58d5ffdfb9b79a15696fe">Vulkan::commandBufferPools</a> (0x00FFFFFF)</td></tr>
 <tr class="separator:a2b6a9172b9a58d5ffdfb9b79a15696fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,7 +342,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="dir_8e0a6479ef4d2ba532242f7a47e99014.html">vk</a></li><li class="navelem"><a class="el" href="vkcommandbuffer_8cc.html">vkcommandbuffer.cc</a></li>
 				<li class="footer">
-					Generated on Fri Aug 16 2024 16:53:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Aug 31 2024 05:24:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

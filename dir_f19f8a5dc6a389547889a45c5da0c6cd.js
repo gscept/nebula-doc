@@ -21,7 +21,7 @@ var dir_f19f8a5dc6a389547889a45c5da0c6cd =
     [ "safepriorityqueue.h", "safepriorityqueue_8h.html", "safepriorityqueue_8h" ],
     [ "safequeue.h", "safequeue_8h.html", "safequeue_8h" ],
     [ "spinlock.h", "spinlock_8h.html", "spinlock_8h" ],
-    [ "thread.cc", "thread_8cc.html", null ],
+    [ "thread.cc", "thread_8cc.html", "thread_8cc" ],
     [ "thread.h", "thread_8h.html", null ],
     [ "threadbarrier.h", "threadbarrier_8h.html", null ],
     [ "threadid.h", "threadid_8h.html", null ]

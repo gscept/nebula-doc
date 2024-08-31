@@ -62,6 +62,7 @@ var vkcommandbuffer_8cc =
     [ "CmdWaitEvent", "vkcommandbuffer_8cc.html#a5a3dcca8f1b1abcd92e9df134db4d14f", null ],
     [ "CreateCmdBuffer", "vkcommandbuffer_8cc.html#a1d55b2c21f56e000acffd1b7ad440452", null ],
     [ "CreateCmdBufferPool", "vkcommandbuffer_8cc.html#a7ef7aad75bac475939a94b5d89944d7a", null ],
+    [ "DeferredDestroyCmdBuffer", "vkcommandbuffer_8cc.html#aad497be380c4ddb19631a4b862386857", null ],
     [ "DestroyCmdBuffer", "vkcommandbuffer_8cc.html#abb65c0a21c13243912914d0a252ad7b6", null ],
     [ "DestroyCmdBufferPool", "vkcommandbuffer_8cc.html#af3475d835bb7062d447d9ea4873f776e", null ],
     [ "commandBufferCritSect", "vkcommandbuffer_8cc.html#a0cc9677d592393abbbe0f701c0b835d1", null ],

@@ -11,7 +11,7 @@ var searchData=
   ['vkblasinstanceallocator_8',['VkBlasInstanceAllocator',['../namespace_vulkan.html#a6fc76130c06245b8b94bb2a9cd2e044c',1,'Vulkan']]],
   ['vkbufferallocator_9',['VkBufferAllocator',['../namespace_vulkan.html#a093f0889a85045ab986534dcce975fc4',1,'Vulkan']]],
   ['vkbuffersparseextensionallocator_10',['VkBufferSparseExtensionAllocator',['../namespace_vulkan.html#a0a06b9869425a09447d8fe8402097db7',1,'Vulkan']]],
-  ['vkcommandbufferallocator_11',['VkCommandBufferAllocator',['../namespace_vulkan.html#abff0a26e1c5284115833c659be706a18',1,'Vulkan']]],
+  ['vkcommandbufferallocator_11',['VkCommandBufferAllocator',['../namespace_vulkan.html#a57701d5ed070d6ccf53f09937d698cb4',1,'Vulkan']]],
   ['vkcommandbufferpoolallocator_12',['VkCommandBufferPoolAllocator',['../namespace_vulkan.html#a6cf4ca3f529aa960bc3975e645606e01',1,'Vulkan']]],
   ['vkeventallocator_13',['VkEventAllocator',['../namespace_vulkan.html#a51da7dde0a3a1b7eb845fbe1204f9be8',1,'Vulkan']]],
   ['vkfenceallocator_14',['VkFenceAllocator',['../namespace_vulkan.html#a3a17520378c094c967e2ffe6579c1e83',1,'Vulkan']]],

@@ -939,7 +939,6 @@ var annotated_dup =
       [ "NodeLookupUtil", "class_render_util_1_1_node_lookup_util.html", "class_render_util_1_1_node_lookup_util" ]
     ] ],
     [ "Resources", "namespace_resources.html", [
-      [ "PartialLoadBits", "struct_resources_1_1_partial_load_bits.html", "struct_resources_1_1_partial_load_bits" ],
       [ "Resource", "class_resources_1_1_resource.html", "class_resources_1_1_resource" ],
       [ "ResourceLoader", "class_resources_1_1_resource_loader.html", "class_resources_1_1_resource_loader" ],
       [ "ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", "class_resources_1_1_resource_loader_thread" ],
