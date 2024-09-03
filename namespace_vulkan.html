@@ -617,15 +617,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aa835139bcbfe3dca555bad143617ea37" id="r_aa835139bcbfe3dca555bad143617ea37"><td class="memItemLeft" align="right" valign="top">VkPhysicalDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa835139bcbfe3dca555bad143617ea37">GetCurrentPhysicalDevice</a> ()</td></tr>
 <tr class="memdesc:aa835139bcbfe3dca555bad143617ea37"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the currently activated physical device  <br /></td></tr>
 <tr class="separator:aa835139bcbfe3dca555bad143617ea37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68a281031919269764b5afdbf7415d86" id="r_a68a281031919269764b5afdbf7415d86"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a281031919269764b5afdbf7415d86">GetCurrentProperties</a> ()</td></tr>
-<tr class="memdesc:a68a281031919269764b5afdbf7415d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current device properties  <br /></td></tr>
-<tr class="separator:a68a281031919269764b5afdbf7415d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15773ef233d79c75b38ff2c8b087547e" id="r_a15773ef233d79c75b38ff2c8b087547e"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceAccelerationStructurePropertiesKHR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15773ef233d79c75b38ff2c8b087547e">GetCurrentAccelerationStructureProperties</a> ()</td></tr>
-<tr class="memdesc:a15773ef233d79c75b38ff2c8b087547e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current device acceleration structure properties.  <br /></td></tr>
-<tr class="separator:a15773ef233d79c75b38ff2c8b087547e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e4eb2c95f2b7c1e3953501d4c93e9d" id="r_a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceRayTracingPipelinePropertiesKHR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e4eb2c95f2b7c1e3953501d4c93e9d">GetCurrentRaytracingProperties</a> ()</td></tr>
-<tr class="memdesc:a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current device raytracing properties.  <br /></td></tr>
-<tr class="separator:a90e4eb2c95f2b7c1e3953501d4c93e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a428c995a178b949e5969a24c5c197a99" id="r_a428c995a178b949e5969a24c5c197a99"><td class="memItemLeft" align="right" valign="top">VkPhysicalDeviceFeatures&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a428c995a178b949e5969a24c5c197a99">GetCurrentFeatures</a> ()</td></tr>
 <tr class="memdesc:a428c995a178b949e5969a24c5c197a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current device features  <br /></td></tr>
 <tr class="separator:a428c995a178b949e5969a24c5c197a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -757,9 +748,9 @@ Functions</h2></td></tr>
 <tr class="separator:a9fb2ce4cdadad12035289b084d2b9b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c7fa14c0559e365ef6846d577a9b499" id="r_a3c7fa14c0559e365ef6846d577a9b499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c7fa14c0559e365ef6846d577a9b499">UpdateOccupancy</a> (uint32_t *occupancyList, uint32_t &amp;slotsUsed, const <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> vis)</td></tr>
 <tr class="separator:a3c7fa14c0559e365ef6846d577a9b499"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aeae7e97e9a1e829732eb8f179685b7" id="r_a5aeae7e97e9a1e829732eb8f179685b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aeae7e97e9a1e829732eb8f179685b7">ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, const VkPhysicalDeviceProperties props, AnyFX::ShaderEffect *effect, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
-<tr class="memdesc:a5aeae7e97e9a1e829732eb8f179685b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">create descriptor set layout  <br /></td></tr>
-<tr class="separator:a5aeae7e97e9a1e829732eb8f179685b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1d74b37046292e6368033c7bfc83a9" id="r_acf1d74b37046292e6368033c7bfc83a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf1d74b37046292e6368033c7bfc83a9">ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, AnyFX::ShaderEffect *effect, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
+<tr class="memdesc:acf1d74b37046292e6368033c7bfc83a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">create descriptor set layout  <br /></td></tr>
+<tr class="separator:acf1d74b37046292e6368033c7bfc83a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada6b41628d323ccc9ff149bd8bf1a794" id="r_ada6b41628d323ccc9ff149bd8bf1a794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada6b41628d323ccc9ff149bd8bf1a794">ShaderCleanup</a> (VkDevice dev, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; &amp;buffers, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
 <tr class="memdesc:ada6b41628d323ccc9ff149bd8bf1a794"><td class="mdescLeft">&#160;</td><td class="mdescRight">cleanup shader  <br /></td></tr>
 <tr class="separator:ada6b41628d323ccc9ff149bd8bf1a794"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2697,25 +2688,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a15773ef233d79c75b38ff2c8b087547e" name="a15773ef233d79c75b38ff2c8b087547e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15773ef233d79c75b38ff2c8b087547e">&#9670;&#160;</a></span>GetCurrentAccelerationStructureProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VkPhysicalDeviceAccelerationStructurePropertiesKHR Vulkan::GetCurrentAccelerationStructureProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the current device acceleration structure properties. </p>
-
-</div>
-</div>
 <a id="aabca9311986678028f13b754db51aa45" name="aabca9311986678028f13b754db51aa45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabca9311986678028f13b754db51aa45">&#9670;&#160;</a></span>GetCurrentDevice()</h2>
 
@@ -2773,25 +2745,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a68a281031919269764b5afdbf7415d86" name="a68a281031919269764b5afdbf7415d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68a281031919269764b5afdbf7415d86">&#9670;&#160;</a></span>GetCurrentProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VkPhysicalDeviceProperties Vulkan::GetCurrentProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get the current device properties </p>
-
-</div>
-</div>
 <a id="a2459dc449f270ca8ff5a51765fde3dab" name="a2459dc449f270ca8ff5a51765fde3dab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2459dc449f270ca8ff5a51765fde3dab">&#9670;&#160;</a></span>GetCurrentQueue()</h2>
 
@@ -2808,25 +2761,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get currently active queue of type </p>
-
-</div>
-</div>
-<a id="a90e4eb2c95f2b7c1e3953501d4c93e9d" name="a90e4eb2c95f2b7c1e3953501d4c93e9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90e4eb2c95f2b7c1e3953501d4c93e9d">&#9670;&#160;</a></span>GetCurrentRaytracingProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VkPhysicalDeviceRayTracingPipelinePropertiesKHR Vulkan::GetCurrentRaytracingProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the current device raytracing properties. </p>
 
 </div>
 </div>
@@ -3613,8 +3547,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5aeae7e97e9a1e829732eb8f179685b7" name="a5aeae7e97e9a1e829732eb8f179685b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aeae7e97e9a1e829732eb8f179685b7">&#9670;&#160;</a></span>ShaderSetup()</h2>
+<a id="acf1d74b37046292e6368033c7bfc83a9" name="acf1d74b37046292e6368033c7bfc83a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1d74b37046292e6368033c7bfc83a9">&#9670;&#160;</a></span>ShaderSetup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3628,11 +3562,6 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VkPhysicalDeviceProperties</td>          <td class="paramname"><span class="paramname"><em>props</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5141,7 +5070,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Mon Sep 2 2024 13:37:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Sep 3 2024 09:31:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

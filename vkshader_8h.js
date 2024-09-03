@@ -13,6 +13,6 @@ var vkshader_8h =
     [ "UniformBufferMap", "vkshader_8h.html#ae51c44637f4efaa072fa1a845da70a3a", null ],
     [ "ShaderCleanup", "vkshader_8h.html#ada6b41628d323ccc9ff149bd8bf1a794", null ],
     [ "ShaderGetProgramReflection", "vkshader_8h.html#a908ca764c0c1a7f4d69bceea28bbff09", null ],
-    [ "ShaderSetup", "vkshader_8h.html#a5aeae7e97e9a1e829732eb8f179685b7", null ],
+    [ "ShaderSetup", "vkshader_8h.html#acf1d74b37046292e6368033c7bfc83a9", null ],
     [ "VkShaderCreateSignature", "vkshader_8h.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ]
 ];
