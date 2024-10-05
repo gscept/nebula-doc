@@ -152,6 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a047995eb4a907dc28b44da1c5abb25e7" id="r_a047995eb4a907dc28b44da1c5abb25e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047995eb4a907dc28b44da1c5abb25e7">DequeueAll</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE &gt; &amp;outArray)</td></tr>
 <tr class="memdesc:a047995eb4a907dc28b44da1c5abb25e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">dequeue all events (only requires one lock)  <br /></td></tr>
 <tr class="separator:a047995eb4a907dc28b44da1c5abb25e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7755e50dd688e3a3fce9121f40dde679" id="r_a7755e50dd688e3a3fce9121f40dde679"><td class="memTemplParams" colspan="2">template&lt;int STACK_SIZE&gt; </td></tr>
+<tr class="memitem:a7755e50dd688e3a3fce9121f40dde679"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7755e50dd688e3a3fce9121f40dde679">DequeueAll</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE, STACK_SIZE &gt; &amp;outArray)</td></tr>
+<tr class="memdesc:a7755e50dd688e3a3fce9121f40dde679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dequeue all events to an array with a stack size.  <br /></td></tr>
+<tr class="separator:a7755e50dd688e3a3fce9121f40dde679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e2a08821b91f6afe46624375e5dfbc" id="r_a34e2a08821b91f6afe46624375e5dfbc"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e2a08821b91f6afe46624375e5dfbc">Peek</a> () const</td></tr>
 <tr class="memdesc:a34e2a08821b91f6afe46624375e5dfbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">access to element at front of queue without removing it  <br /></td></tr>
 <tr class="separator:a34e2a08821b91f6afe46624375e5dfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,7 +270,7 @@ template&lt;class TYPE &gt; </div>
 </div>
 </div>
 <a id="a047995eb4a907dc28b44da1c5abb25e7" name="a047995eb4a907dc28b44da1c5abb25e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a047995eb4a907dc28b44da1c5abb25e7">&#9670;&#160;</a></span>DequeueAll()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a047995eb4a907dc28b44da1c5abb25e7">&#9670;&#160;</a></span>DequeueAll() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,6 +287,29 @@ template&lt;class TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>dequeue all events (only requires one lock) </p>
+
+</div>
+</div>
+<a id="a7755e50dd688e3a3fce9121f40dde679" name="a7755e50dd688e3a3fce9121f40dde679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7755e50dd688e3a3fce9121f40dde679">&#9670;&#160;</a></span>DequeueAll() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE &gt; </div>
+<div class="memtemplate">
+template&lt;int STACK_SIZE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; TYPE &gt;::DequeueAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE, STACK_SIZE &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>outArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dequeue all events to an array with a stack size. </p>
 
 </div>
 </div>
@@ -666,7 +693,7 @@ template&lt;class TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_threading.html">Threading</a></li><li class="navelem"><a class="el" href="class_threading_1_1_safe_queue.html">SafeQueue</a></li>
 				<li class="footer">
-					Generated on Sat Oct 5 2024 16:26:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Oct 5 2024 16:49:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

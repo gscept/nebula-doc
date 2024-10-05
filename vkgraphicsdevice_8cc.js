@@ -84,7 +84,7 @@ var vkgraphicsdevice_8cc =
     [ "SetVisualizeMipMaps", "vkgraphicsdevice_8cc.html#a9b2370140cbf06085fa6bb7110ed05cc", null ],
     [ "SparseBufferBind", "vkgraphicsdevice_8cc.html#a62c87b67db2b5dcfa1f1d5e7758f952a", null ],
     [ "SparseTextureBind", "vkgraphicsdevice_8cc.html#a33631508e7e7b011fed57eba8d97233e", null ],
-    [ "SubmitCommandBuffers", "vkgraphicsdevice_8cc.html#a196f1bea031cafeb4021e9548006cf00", null ],
+    [ "SubmitCommandBuffers", "vkgraphicsdevice_8cc.html#aa97aae90061f09bd425189780a8c6487", null ],
     [ "SubmitImmediateCommandBuffers", "vkgraphicsdevice_8cc.html#a24a69e09d952540ac22a9fb324e8448a", null ],
     [ "UnlockConstantUpdates", "vkgraphicsdevice_8cc.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],
     [ "UnlockGraphicsSetupCommandBuffer", "vkgraphicsdevice_8cc.html#a209ecc66e8724a8ad08ee30516d96f84", null ],

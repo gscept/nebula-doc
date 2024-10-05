@@ -114,9 +114,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ab23c7375935b93d3deeacd768a664a58" id="r_ab23c7375935b93d3deeacd768a664a58"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:ab23c7375935b93d3deeacd768a664a58"><td class="memTemplItemLeft" align="right" valign="top">TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab23c7375935b93d3deeacd768a664a58">ArrayAlloc</a> (size_t size)</td></tr>
 <tr class="separator:ab23c7375935b93d3deeacd768a664a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70fd19e810bc4813371c518a66cf98a4" id="r_a70fd19e810bc4813371c518a66cf98a4"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
+<tr class="memitem:a70fd19e810bc4813371c518a66cf98a4"><td class="memTemplItemLeft" align="right" valign="top">TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a70fd19e810bc4813371c518a66cf98a4">ArrayAllocStack</a> (size_t size)</td></tr>
+<tr class="separator:a70fd19e810bc4813371c518a66cf98a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a816b8a89c2d743344e2c6431ae23ea0a" id="r_a816b8a89c2d743344e2c6431ae23ea0a"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:a816b8a89c2d743344e2c6431ae23ea0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a816b8a89c2d743344e2c6431ae23ea0a">ArrayFree</a> (size_t size, TYPE *buffer)</td></tr>
 <tr class="separator:a816b8a89c2d743344e2c6431ae23ea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c73174626615daed4ee97a5d5c86163" id="r_a1c73174626615daed4ee97a5d5c86163"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
+<tr class="memitem:a1c73174626615daed4ee97a5d5c86163"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c73174626615daed4ee97a5d5c86163">ArrayFreeStack</a> (size_t size, TYPE *buffer)</td></tr>
+<tr class="separator:a1c73174626615daed4ee97a5d5c86163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab23c7375935b93d3deeacd768a664a58" name="ab23c7375935b93d3deeacd768a664a58"></a>
@@ -129,6 +135,25 @@ template&lt;typename TYPE &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">TYPE * ArrayAlloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70fd19e810bc4813371c518a66cf98a4" name="a70fd19e810bc4813371c518a66cf98a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70fd19e810bc4813371c518a66cf98a4">&#9670;&#160;</a></span>ArrayAllocStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TYPE &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">TYPE * ArrayAllocStack </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
           <td></td>
@@ -161,6 +186,29 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a1c73174626615daed4ee97a5d5c86163" name="a1c73174626615daed4ee97a5d5c86163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c73174626615daed4ee97a5d5c86163">&#9670;&#160;</a></span>ArrayFreeStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TYPE &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ArrayFreeStack </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TYPE *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -168,7 +216,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="foundation_2memory_2memory_8h.html">memory.h</a></li>
 				<li class="footer">
-					Generated on Sat Oct 5 2024 16:26:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Oct 5 2024 16:49:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

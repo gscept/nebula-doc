@@ -9,8 +9,8 @@ var class_vulkan_1_1_vk_sub_context_handler =
     [ "AppendPresentSignal", "class_vulkan_1_1_vk_sub_context_handler.html#abee777b00c02ff1cafb4b93e4bb17c1c", null ],
     [ "AppendSparseBind", "class_vulkan_1_1_vk_sub_context_handler.html#a5305aa2c4f7c49f8a629d7134d5b84c6", null ],
     [ "AppendSparseBind", "class_vulkan_1_1_vk_sub_context_handler.html#a12c7a7a8a9a4aaa949fef911e9efb0c4", null ],
-    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a826387aa03b8eba6063ef88e1af611d3", null ],
-    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a9847b80bc47c9a2399c344ad606e09f5", null ],
+    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#aad640431c5c4a66ce15d781fb61d3016", null ],
+    [ "AppendSubmissionTimeline", "class_vulkan_1_1_vk_sub_context_handler.html#a23714ecd080a3f4ab51e2f43ebc000c6", null ],
     [ "Discard", "class_vulkan_1_1_vk_sub_context_handler.html#a45928051be690bbc2b29f22276e5d703", null ],
     [ "FlushSparseBinds", "class_vulkan_1_1_vk_sub_context_handler.html#ab08a607d6ff7d7efacedf999f739fed4", null ],
     [ "FlushSubmissions", "class_vulkan_1_1_vk_sub_context_handler.html#a4aea8ffb9de88cc9069aba4aab90a45c", null ],
@@ -33,5 +33,5 @@ var class_vulkan_1_1_vk_sub_context_handler =
     [ "semaphoreSubmissionIds", "class_vulkan_1_1_vk_sub_context_handler.html#ab316e11042115bdb33a83077457f520c", null ],
     [ "sparseBindSubmissions", "class_vulkan_1_1_vk_sub_context_handler.html#ad6b6c696d6077df731d3bff0ad7893e9", null ],
     [ "submissionLock", "class_vulkan_1_1_vk_sub_context_handler.html#ace72a70d1d4ed8ee47a2db8a17382684", null ],
-    [ "submissions", "class_vulkan_1_1_vk_sub_context_handler.html#a807dd5ac4d190e0fa27be8e36630ceed", null ]
+    [ "submissions", "class_vulkan_1_1_vk_sub_context_handler.html#a5e915841b17e30f6de834f64709cd5fa", null ]
 ];

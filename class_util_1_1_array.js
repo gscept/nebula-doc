@@ -87,6 +87,7 @@ var class_util_1_1_array =
     [ "Sort", "class_util_1_1_array.html#a5c62ac9a1c35fb2f37670c8599f087dd", null ],
     [ "SortWithFunc", "class_util_1_1_array.html#a72cec9422ebb3b76bb81b34a7f809d63", null ],
     [ "TypeSize", "class_util_1_1_array.html#a54498cfef1535dab13da4bd524550bc1", null ],
+    [ "FixedArray", "class_util_1_1_array.html#adf44ec60efb6563402bc9be01ff178a6", null ],
     [ "capacity", "class_util_1_1_array.html#a27ecb528c6ec3d9f042b636f7f7a738e", null ],
     [ "count", "class_util_1_1_array.html#a27ffa25351f3c984656d336f316f0bc5", null ],
     [ "elements", "class_util_1_1_array.html#a528055b2d8a9c90b1a410a0d1b98d498", null ],

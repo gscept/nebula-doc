@@ -63,7 +63,7 @@ var graphicsdevice_8h =
     [ "SetConstantsInternal", "graphicsdevice_8h.html#ab87bf8e5711475e972071860cb9fe80f", null ],
     [ "SetRenderWireframe", "graphicsdevice_8h.html#ae6379e41dbee3a93be1c65e43ba15014", null ],
     [ "SetVisualizeMipMaps", "graphicsdevice_8h.html#a9b2370140cbf06085fa6bb7110ed05cc", null ],
-    [ "SubmitCommandBuffers", "graphicsdevice_8h.html#a196f1bea031cafeb4021e9548006cf00", null ],
+    [ "SubmitCommandBuffers", "graphicsdevice_8h.html#aa97aae90061f09bd425189780a8c6487", null ],
     [ "SubmitImmediateCommandBuffers", "graphicsdevice_8h.html#a24a69e09d952540ac22a9fb324e8448a", null ],
     [ "UnlockConstantUpdates", "graphicsdevice_8h.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],
     [ "UnlockGraphicsSetupCommandBuffer", "graphicsdevice_8h.html#a209ecc66e8724a8ad08ee30516d96f84", null ],

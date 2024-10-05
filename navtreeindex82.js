@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"class_util_1_1_ring_buffer.html#a273d09c3231c1379f10c4464e671889c":[9,0,69,38,0],
+"class_util_1_1_ring_buffer.html#a322359e8f02307f769f5744d5c8b4797":[8,0,81,38,19],
+"class_util_1_1_ring_buffer.html#a322359e8f02307f769f5744d5c8b4797":[9,0,69,38,19],
+"class_util_1_1_ring_buffer.html#a362680d4bb894e50d44b57c1c4e58d06":[8,0,81,38,1],
+"class_util_1_1_ring_buffer.html#a362680d4bb894e50d44b57c1c4e58d06":[9,0,69,38,1],
+"class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[8,0,81,38,17],
+"class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[9,0,69,38,17],
+"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[8,0,81,38,10],
+"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[9,0,69,38,10],
+"class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[8,0,81,38,3],
 "class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[9,0,69,38,3],
 "class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[8,0,81,38,18],
 "class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[9,0,69,38,18],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "class_util_1_1_string_atom.html#a26b1f34b09169e19b55c312e971eed25":[9,0,69,46,0],
 "class_util_1_1_string_atom.html#a2dbd13e391bf10f418b2c5c9d55f5e81":[8,0,81,46,15],
 "class_util_1_1_string_atom.html#a2dbd13e391bf10f418b2c5c9d55f5e81":[9,0,69,46,15],
-"class_util_1_1_string_atom.html#a36d6e47c8cbd3b91759130338b92b21f":[8,0,81,46,8],
-"class_util_1_1_string_atom.html#a36d6e47c8cbd3b91759130338b92b21f":[9,0,69,46,8],
-"class_util_1_1_string_atom.html#a43434c4f70e1c8854c03c14c1dddc7b8":[8,0,81,46,7],
-"class_util_1_1_string_atom.html#a43434c4f70e1c8854c03c14c1dddc7b8":[9,0,69,46,7],
-"class_util_1_1_string_atom.html#a45ee75c8eb6016a7130cbfb5e8fb5794":[8,0,81,46,17],
-"class_util_1_1_string_atom.html#a45ee75c8eb6016a7130cbfb5e8fb5794":[9,0,69,46,17],
-"class_util_1_1_string_atom.html#a4e66ae99b93a582f61c4cc504b6952d9":[8,0,81,46,11],
-"class_util_1_1_string_atom.html#a4e66ae99b93a582f61c4cc504b6952d9":[9,0,69,46,11],
-"class_util_1_1_string_atom.html#a50ad295d6e35c55764b4bd7fa43759ea":[8,0,81,46,24],
-"class_util_1_1_string_atom.html#a50ad295d6e35c55764b4bd7fa43759ea":[9,0,69,46,24],
-"class_util_1_1_string_atom.html#a51707ccdd95f52105494b930fb304b91":[8,0,81,46,29]
+"class_util_1_1_string_atom.html#a36d6e47c8cbd3b91759130338b92b21f":[8,0,81,46,8]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX173 =
 {
+"win32memory_8cc.html#a2a2dbbd792702e177d8e343572cc5b2a":[10,0,0,3,13,3,2,14],
+"win32memory_8cc.html#a302b8099d0bbcc9bccfd578814e5b4f3":[10,0,0,3,13,3,2,0],
+"win32memory_8cc.html#a3e556ad80994209cf526414f6df18f8c":[10,0,0,3,13,3,2,2],
+"win32memory_8cc.html#a537d0449b3add52430bfd4590069c270":[10,0,0,3,13,3,2,16],
+"win32memory_8cc.html#a5fdcd1c134edecdd8dca05ed4bc9e683":[10,0,0,3,13,3,2,13],
+"win32memory_8cc.html#a6055e491858cd969e93326d9b3e4b420":[10,0,0,3,13,3,2,6],
+"win32memory_8cc.html#a66c839285702633f8178be0224273a14":[10,0,0,3,13,3,2,18],
+"win32memory_8cc.html#a68089d5b4fe7cce3875d69acd943bcc3":[10,0,0,3,13,3,2,19],
+"win32memory_8cc.html#a6f1e350799da9a033ab78c19c7a21436":[10,0,0,3,13,3,2,1],
+"win32memory_8cc.html#a7a14be8456d9a48c1c3ff9a221f09900":[10,0,0,3,13,3,2,5],
+"win32memory_8cc.html#a86107594327f3a001230df9802cd4422":[10,0,0,3,13,3,2,10],
+"win32memory_8cc.html#a8a78ac480e1496dde67c9605cef959ef":[10,0,0,3,13,3,2,20],
 "win32memory_8cc.html#a99416bac8add00c17d3b011239d7e6eb":[10,0,0,3,13,3,2,9],
 "win32memory_8cc.html#aaa8d8403dca7d813a59dd1f07728349d":[10,0,0,3,13,3,2,11],
 "win32memory_8cc.html#aacd6e0e3d90cc8724a07d52c8f1acb43":[10,0,0,3,13,3,2,4],

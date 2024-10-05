@@ -132,27 +132,66 @@ $(function(){initNavTree('foundation_2memory_2memory_8h_source.html',''); initRe
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> TYPE&gt;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">void</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>TYPE*</div>
 <div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">   45</a></span><a class="code hl_function" href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">ArrayFree</a>(<span class="keywordtype">size_t</span> size, TYPE* buffer)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="foundation_2memory_2memory_8h.html#a70fd19e810bc4813371c518a66cf98a4">   45</a></span><a class="code hl_function" href="foundation_2memory_2memory_8h.html#a70fd19e810bc4813371c518a66cf98a4">ArrayAllocStack</a>(<span class="keywordtype">size_t</span> size)</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_destructible&lt;TYPE&gt;::value)</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; size; ++i)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            buffer[i].~TYPE();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        }</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_function" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code hl_enumvalue" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, (<span class="keywordtype">void</span>*)buffer);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    TYPE* buffer = (TYPE*)<a class="code hl_define" href="posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922">StackAlloc</a>(size * <span class="keyword">sizeof</span>(TYPE));</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_constructible&lt;TYPE&gt;::value)</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; size; ++i)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            ::new(&amp;buffer[i]) TYPE;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordflow">return</span> buffer;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> TYPE&gt;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">   63</a></span><a class="code hl_function" href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">ArrayFree</a>(<span class="keywordtype">size_t</span> size, TYPE* buffer)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_destructible&lt;TYPE&gt;::value)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; size; ++i)</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            buffer[i].~TYPE();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_function" href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a>(<a class="code hl_enumvalue" href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a>, (<span class="keywordtype">void</span>*)buffer);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
+</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> TYPE&gt;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">void</span></div>
+<div class="foldopen" id="foldopen00080" data-start="{" data-end="}">
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="foundation_2memory_2memory_8h.html#a1c73174626615daed4ee97a5d5c86163">   80</a></span><a class="code hl_function" href="foundation_2memory_2memory_8h.html#a1c73174626615daed4ee97a5d5c86163">ArrayFreeStack</a>(<span class="keywordtype">size_t</span> size, TYPE* buffer)</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>{</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_trivially_destructible&lt;TYPE&gt;::value)</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; size; ++i)</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            buffer[i].~TYPE();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        }</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <a class="code hl_define" href="posixmemory_8h.html#a0643aaeaa5007252d8f0d4cbd6b4e2a6">StackFree</a>((<span class="keywordtype">void</span>*)buffer);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}</div>
 </div>
 <div class="ttc" id="afoundation_2core_2config_8h_html"><div class="ttname"><a href="foundation_2core_2config_8h.html">config.h</a></div><div class="ttdoc">Nebula compiler specific defines and configuration.</div></div>
-<div class="ttc" id="afoundation_2memory_2memory_8h_html_a816b8a89c2d743344e2c6431ae23ea0a"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">ArrayFree</a></div><div class="ttdeci">void ArrayFree(size_t size, TYPE *buffer)</div><div class="ttdef"><b>Definition</b> memory.h:45</div></div>
+<div class="ttc" id="afoundation_2memory_2memory_8h_html_a1c73174626615daed4ee97a5d5c86163"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a1c73174626615daed4ee97a5d5c86163">ArrayFreeStack</a></div><div class="ttdeci">void ArrayFreeStack(size_t size, TYPE *buffer)</div><div class="ttdef"><b>Definition</b> memory.h:80</div></div>
+<div class="ttc" id="afoundation_2memory_2memory_8h_html_a70fd19e810bc4813371c518a66cf98a4"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a70fd19e810bc4813371c518a66cf98a4">ArrayAllocStack</a></div><div class="ttdeci">TYPE * ArrayAllocStack(size_t size)</div><div class="ttdef"><b>Definition</b> memory.h:45</div></div>
+<div class="ttc" id="afoundation_2memory_2memory_8h_html_a816b8a89c2d743344e2c6431ae23ea0a"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a816b8a89c2d743344e2c6431ae23ea0a">ArrayFree</a></div><div class="ttdeci">void ArrayFree(size_t size, TYPE *buffer)</div><div class="ttdef"><b>Definition</b> memory.h:63</div></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html_ab23c7375935b93d3deeacd768a664a58"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#ab23c7375935b93d3deeacd768a664a58">ArrayAlloc</a></div><div class="ttdeci">TYPE * ArrayAlloc(size_t size)</div><div class="ttdef"><b>Definition</b> memory.h:27</div></div>
 <div class="ttc" id="anamespace_memory_html_a302b8099d0bbcc9bccfd578814e5b4f3"><div class="ttname"><a href="namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3">Memory::Alloc</a></div><div class="ttdeci">void * Alloc(HeapType heapType, size_t size, size_t alignment)</div><div class="ttdoc">Allocate a block of memory from one of the global heaps.</div><div class="ttdef"><b>Definition</b> osxmemory.cc:56</div></div>
 <div class="ttc" id="anamespace_memory_html_a6055e491858cd969e93326d9b3e4b420"><div class="ttname"><a href="namespace_memory.html#a6055e491858cd969e93326d9b3e4b420">Memory::Free</a></div><div class="ttdeci">void Free(HeapType heapType, void *ptr)</div><div class="ttdoc">Free a block of memory.</div><div class="ttdef"><b>Definition</b> osxmemory.cc:136</div></div>
 <div class="ttc" id="anamespace_memory_html_a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe"><div class="ttname"><a href="namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe">Memory::ObjectArrayHeap</a></div><div class="ttdeci">@ ObjectArrayHeap</div><div class="ttdef"><b>Definition</b> osxmemoryconfig.h:28</div></div>
 <div class="ttc" id="aposixmemory_8h_html"><div class="ttname"><a href="posixmemory_8h.html">posixmemory.h</a></div><div class="ttdoc">Memory subsystem features for the Posix platform.</div></div>
+<div class="ttc" id="aposixmemory_8h_html_a0643aaeaa5007252d8f0d4cbd6b4e2a6"><div class="ttname"><a href="posixmemory_8h.html#a0643aaeaa5007252d8f0d4cbd6b4e2a6">StackFree</a></div><div class="ttdeci">#define StackFree(ptr)</div><div class="ttdef"><b>Definition</b> posixmemory.h:31</div></div>
+<div class="ttc" id="aposixmemory_8h_html_a8097079d2f12f1969a251a5acd67a922"><div class="ttname"><a href="posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922">StackAlloc</a></div><div class="ttdeci">#define StackAlloc(size)</div><div class="ttdef"><b>Definition</b> posixmemory.h:30</div></div>
 <div class="ttc" id="awin32memory_8h_html"><div class="ttname"><a href="win32memory_8h.html">win32memory.h</a></div><div class="ttdoc">Memory subsystem features for win32.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -161,7 +200,7 @@ $(function(){initNavTree('foundation_2memory_2memory_8h_source.html',''); initRe
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="foundation_2memory_2memory_8h.html">memory.h</a></li>
 				<li class="footer">
-					Generated on Sat Oct 5 2024 16:26:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Oct 5 2024 16:49:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

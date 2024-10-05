@@ -128,9 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc2b6395afe4f1dc8b6ea510eafeca26" id="r_adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc2b6395afe4f1dc8b6ea510eafeca26">PrepareEntities</a> (const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> *transforms, const <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> *ranges, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> *entities, const uint32_t *entityFlags, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
 <tr class="memdesc:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare system with entities to insert into the structure  <br /></td></tr>
 <tr class="separator:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6da7782f67328f674dc7bf8a580918d9" id="r_a6da7782f67328f674dc7bf8a580918d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6da7782f67328f674dc7bf8a580918d9">Run</a> (const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *previousSystemCompletionCounters, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;extraCounters)</td></tr>
-<tr class="memdesc:a6da7782f67328f674dc7bf8a580918d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">run system  <br /></td></tr>
-<tr class="separator:a6da7782f67328f674dc7bf8a580918d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523b9fb81996ad9b3a1edc9796553472" id="r_a523b9fb81996ad9b3a1edc9796553472"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523b9fb81996ad9b3a1edc9796553472">Run</a> (const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *previousSystemCompletionCounters, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *, true &gt; &amp;extraCounters)</td></tr>
+<tr class="memdesc:a523b9fb81996ad9b3a1edc9796553472"><td class="mdescLeft">&#160;</td><td class="mdescRight">run system  <br /></td></tr>
+<tr class="separator:a523b9fb81996ad9b3a1edc9796553472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa73fc6eb88563709c7754855a3bca46f" id="r_aa73fc6eb88563709c7754855a3bca46f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa73fc6eb88563709c7754855a3bca46f">GetCompletionCounter</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i) const</td></tr>
 <tr class="memdesc:aa73fc6eb88563709c7754855a3bca46f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return completion counter for an observer.  <br /></td></tr>
 <tr class="separator:aa73fc6eb88563709c7754855a3bca46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,8 +295,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6da7782f67328f674dc7bf8a580918d9" name="a6da7782f67328f674dc7bf8a580918d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6da7782f67328f674dc7bf8a580918d9">&#9670;&#160;</a></span>Run()</h2>
+<a id="a523b9fb81996ad9b3a1edc9796553472" name="a523b9fb81996ad9b3a1edc9796553472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523b9fb81996ad9b3a1edc9796553472">&#9670;&#160;</a></span>Run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +312,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>extraCounters</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *, true &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>extraCounters</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -324,7 +324,7 @@ Protected Attributes</h2></td></tr>
 
 <p>run system </p>
 
-<p>Reimplemented in <a class="el" href="class_visibility_1_1_bruteforce_system.html#a398e73f106ef8fa98a27a87020981c5e">Visibility::BruteforceSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_visibility_1_1_bruteforce_system.html#ad72e9e0ab04471d3c6f8ef9c34959208">Visibility::BruteforceSystem</a>.</p>
 
 </div>
 </div>
@@ -428,7 +428,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_visibility.html">Visibility</a></li><li class="navelem"><a class="el" href="class_visibility_1_1_visibility_system.html">VisibilitySystem</a></li>
 				<li class="footer">
-					Generated on Sat Oct 5 2024 16:26:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Oct 5 2024 16:49:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

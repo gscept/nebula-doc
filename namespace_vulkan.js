@@ -69,7 +69,7 @@ var namespace_vulkan =
     [ "VkFenceAllocator", "namespace_vulkan.html#a3a17520378c094c967e2ffe6579c1e83", null ],
     [ "VkPassAllocator", "namespace_vulkan.html#a6510b11c5c340d2013fed7aa9eef18d8", null ],
     [ "VkResourcePipelineAllocator", "namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b", null ],
-    [ "VkResourceTableAllocator", "namespace_vulkan.html#afdd771e09a781d6e0c1089ff9c1da27d", null ],
+    [ "VkResourceTableAllocator", "namespace_vulkan.html#a7233b9eaed72c33d4cb812284577ef84", null ],
     [ "VkResourceTableLayoutAllocator", "namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312", null ],
     [ "VkSamplerAllocator", "namespace_vulkan.html#a16e223a26b6bd185eff874a64ee29e07", null ],
     [ "VkSemaphoreAllocator", "namespace_vulkan.html#ad54f8dc5d631c9d61e3cceb082a400a0", null ],

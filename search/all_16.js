@@ -376,7 +376,7 @@ var searchData=
   ['vkresourcepipelineallocator_373',['VkResourcePipelineAllocator',['../namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b',1,'Vulkan']]],
   ['vkresourcetable_2ecc_374',['vkresourcetable.cc',['../vkresourcetable_8cc.html',1,'']]],
   ['vkresourcetable_2eh_375',['vkresourcetable.h',['../vkresourcetable_8h.html',1,'']]],
-  ['vkresourcetableallocator_376',['VkResourceTableAllocator',['../namespace_vulkan.html#afdd771e09a781d6e0c1089ff9c1da27d',1,'Vulkan']]],
+  ['vkresourcetableallocator_376',['VkResourceTableAllocator',['../namespace_vulkan.html#a7233b9eaed72c33d4cb812284577ef84',1,'Vulkan']]],
   ['vkresourcetablelayoutallocator_377',['VkResourceTableLayoutAllocator',['../namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312',1,'Vulkan']]],
   ['vksampler_2ecc_378',['vksampler.cc',['../vksampler_8cc.html',1,'']]],
   ['vksampler_2eh_379',['vksampler.h',['../vksampler_8h.html',1,'']]],

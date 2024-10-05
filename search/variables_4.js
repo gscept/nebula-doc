@@ -159,7 +159,7 @@ var searchData=
   ['drawpackets_156',['drawPackets',['../struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html#aa49ad64e34d7b93f2cf5f461d681eac2',1,'Visibility::ObserverContext::VisibilityDrawList']]],
   ['drawqueuecount_157',['drawQueueCount',['../struct_vulkan_1_1_graphics_device_state.html#a33821c15e89b5d918a39f81ebe5ce9d2',1,'Vulkan::GraphicsDeviceState']]],
   ['drawqueuefamily_158',['drawQueueFamily',['../struct_vulkan_1_1_graphics_device_state.html#ab95a254d75b2523d8a5636becfb742f0',1,'Vulkan::GraphicsDeviceState']]],
-  ['draws_159',['draws',['../struct_visibility_1_1_observer_context_1_1_visibility_batch_command.html#a1bc393b95409c5da9087a965d2723a79',1,'Visibility::ObserverContext::VisibilityBatchCommand']]],
+  ['draws_159',['draws',['../struct_visibility_1_1_observer_context_1_1_visibility_batch_command.html#ae0e028e9689a9af5729558036a29b6e6',1,'Visibility::ObserverContext::VisibilityBatchCommand']]],
   ['drivername_160',['driverName',['../class_core_graphics_1_1_adapter_info.html#aec8cfdaf1f6876186811213b591e4290',1,'CoreGraphics::AdapterInfo']]],
   ['driverversionhighpart_161',['driverVersionHighPart',['../class_core_graphics_1_1_adapter_info.html#a7f548efc1dc566d86f8b38ad4264a460',1,'CoreGraphics::AdapterInfo']]],
   ['driverversionlowpart_162',['driverVersionLowPart',['../class_core_graphics_1_1_adapter_info.html#a384feae6033b9c031c1316ef5a3341d4',1,'CoreGraphics::AdapterInfo']]],
