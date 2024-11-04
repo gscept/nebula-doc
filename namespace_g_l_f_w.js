@@ -24,7 +24,6 @@ var namespace_g_l_f_w =
     [ "ScrollFunc", "namespace_g_l_f_w.html#a14b95e4501b7be157d41b65dda1f85fa", null ],
     [ "staticCharFunc", "namespace_g_l_f_w.html#afc3800304e300d9eb6241e2efcf44ff1", null ],
     [ "staticCloseFunc", "namespace_g_l_f_w.html#a5e81fb38cb2f7ab9257857ab596f3bed", null ],
-    [ "staticDropFunc", "namespace_g_l_f_w.html#ad8fc3f60f53d20b176a9f858081413b4", null ],
     [ "staticFocusFunc", "namespace_g_l_f_w.html#a9e82f553b8d16ccd4ddfb658ec96e4e7", null ],
     [ "staticKeyFunc", "namespace_g_l_f_w.html#a4e75d8dcc87a63db6a345b8f8bc5e19a", null ],
     [ "staticMouseButtonFunc", "namespace_g_l_f_w.html#a1c3a63fe79c7c38f6d63d0aa5a8e1580", null ],

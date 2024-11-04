@@ -1,15 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"struct_core_graphics_1_1_resource_table_buffer.html":[8,0,14,92],
-"struct_core_graphics_1_1_resource_table_buffer.html":[9,0,12,91],
-"struct_core_graphics_1_1_resource_table_buffer.html#a14c5d0421bf0872ab8b18c63587422f5":[8,0,14,92,3],
-"struct_core_graphics_1_1_resource_table_buffer.html#a14c5d0421bf0872ab8b18c63587422f5":[9,0,12,91,3],
-"struct_core_graphics_1_1_resource_table_buffer.html#a3abbbf8ece912db887804ec31162d25c":[8,0,14,92,8],
-"struct_core_graphics_1_1_resource_table_buffer.html#a3abbbf8ece912db887804ec31162d25c":[9,0,12,91,8],
-"struct_core_graphics_1_1_resource_table_buffer.html#a56ecb4610af7c23b8d63e8652fb3cabd":[8,0,14,92,2],
-"struct_core_graphics_1_1_resource_table_buffer.html#a56ecb4610af7c23b8d63e8652fb3cabd":[9,0,12,91,2],
-"struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[8,0,14,92,10],
-"struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[9,0,12,91,10],
 "struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[8,0,14,92,5],
 "struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[9,0,12,91,5],
 "struct_core_graphics_1_1_resource_table_buffer.html#a8039b1085e0cb822cffe4e503933c469":[8,0,14,92,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX132 =
 "struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[8,0,14,111,0],
 "struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[9,0,12,110,0],
 "struct_core_graphics_1_1_semaphore_create_info.html":[8,0,14,112],
-"struct_core_graphics_1_1_semaphore_create_info.html":[9,0,12,111]
+"struct_core_graphics_1_1_semaphore_create_info.html":[9,0,12,111],
+"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[8,0,14,112,0],
+"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[9,0,12,111,0],
+"struct_core_graphics_1_1_semaphore_id.html":[8,0,14,113],
+"struct_core_graphics_1_1_semaphore_id.html":[9,0,12,112],
+"struct_core_graphics_1_1_shader_create_info.html":[8,0,14,114],
+"struct_core_graphics_1_1_shader_create_info.html":[9,0,12,113],
+"struct_core_graphics_1_1_shader_create_info.html#a26b0240e44691419d05e4f45b3b0f464":[8,0,14,114,0],
+"struct_core_graphics_1_1_shader_create_info.html#a26b0240e44691419d05e4f45b3b0f464":[9,0,12,113,0],
+"struct_core_graphics_1_1_shader_create_info.html#adcce178d1e35c4959b607adcb550d327":[8,0,14,114,1],
+"struct_core_graphics_1_1_shader_create_info.html#adcce178d1e35c4959b607adcb550d327":[9,0,12,113,1]
 };
