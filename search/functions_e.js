@@ -29,7 +29,7 @@ var searchData=
   ['neb2pxmat_26',['Neb2PxMat',['../utils_8h.html#a312d66bdd23edb3c3f3e78787498f925',1,'utils.h']]],
   ['neb2pxpnt_27',['Neb2PxPnt',['../utils_8h.html#ae8c168e7dbfdff40e2eb8342ee7c967a',1,'utils.h']]],
   ['neb2pxquat_28',['Neb2PxQuat',['../utils_8h.html#a9da82e228f6def04de8e96ecd79f9063',1,'utils.h']]],
-  ['neb2pxtrans_29',['Neb2PxTrans',['../utils_8h.html#a7466137d7af0db1fb2b9597216689a0c',1,'Neb2PxTrans(const Math::mat4 &amp;mat):&#160;utils.h'],['../utils_8h.html#aeb08125d52f8e826a23cdd5c6c042589',1,'Neb2PxTrans(const Math::vec3 &amp;position, const Math::quat &amp;orientation):&#160;utils.h']]],
+  ['neb2pxtrans_29',['Neb2PxTrans',['../utils_8h.html#a7466137d7af0db1fb2b9597216689a0c',1,'Neb2PxTrans(const Math::mat4 &amp;mat):&#160;utils.h'],['../utils_8h.html#aeb08125d52f8e826a23cdd5c6c042589',1,'Neb2PxTrans(const Math::vec3 &amp;position, const Math::quat &amp;orientation):&#160;utils.h'],['../utils_8h.html#a7d84befa1158e89bf45a32a93b65d07a',1,'Neb2PxTrans(const Math::transform &amp;trans):&#160;utils.h']]],
   ['neb2pxvec_30',['Neb2PxVec',['../utils_8h.html#ab606979b743deb04cfbb904230413b63',1,'utils.h']]],
   ['neb2pxvec4_31',['Neb2PxVec4',['../utils_8h.html#a7d6a3604bdece8c8614743b1e2fb7907',1,'utils.h']]],
   ['nebula3_5fclose_5ffile_5ffunc_32',['nebula3_close_file_func',['../ionebula3_8cc.html#a3573948d65bed6500aba42b8f1ef6570',1,'ionebula3.cc']]],

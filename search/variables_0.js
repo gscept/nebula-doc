@@ -33,5 +33,6 @@ var searchData=
   ['_5fpackedvalue_30',['_packedValue',['../struct_mathf_1_1_color.html#a943e8be3193f2811540aeea6c1368da0',1,'Mathf::Color']]],
   ['_5fplanes_31',['_planes',['../class_mathf_1_1_bounding_frustum.html#a4f1207278220bc0faa805d868f9ec161',1,'Mathf::BoundingFrustum']]],
   ['_5fplus1_32',['_plus1',['../namespace_math.html#afc6d0bf4e6846efaeaa85ea625d29bed',1,'Math']]],
-  ['_5fsign_33',['_sign',['../namespace_math.html#a2975c4082f732d7c9c67429dc05dc6dd',1,'Math']]]
+  ['_5fsign_33',['_sign',['../namespace_math.html#a2975c4082f732d7c9c67429dc05dc6dd',1,'Math']]],
+  ['_5fzero_34',['_zero',['../namespace_math.html#a141fa411e364bb74745ef972ae265b2e',1,'Math']]]
 ];

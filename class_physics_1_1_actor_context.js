@@ -1,5 +1,6 @@
 var class_physics_1_1_actor_context =
 [
+    [ "ShapeArrayType", "class_physics_1_1_actor_context.html#a4f3e2af4781b1114464274a5c6f71e55", null ],
     [ "AllocateActorId", "class_physics_1_1_actor_context.html#ac3f81a6cf4d4eb411f7e6ffcb68dd328", null ],
     [ "AllocateActorId", "class_physics_1_1_actor_context.html#a8a4a8203c0b13021d8a0506e5b0582a6", null ],
     [ "ApplyImpulseAtPos", "class_physics_1_1_actor_context.html#a39eccc951d304a457424b0c0bd2d964e", null ],
@@ -14,11 +15,16 @@ var class_physics_1_1_actor_context =
     [ "GetPositionOrientation", "class_physics_1_1_actor_context.html#a4a1ba2bd590955f52a04f55ae1b61aa2", null ],
     [ "GetPxActor", "class_physics_1_1_actor_context.html#af909a9ff0a4989358d6334dc6a840a68", null ],
     [ "GetPxDynamic", "class_physics_1_1_actor_context.html#a65ebbc517cf0d5d8900340333041efd4", null ],
+    [ "GetShapeCount", "class_physics_1_1_actor_context.html#aeb85330db1acb12ec480983962c3baad", null ],
+    [ "GetShapes", "class_physics_1_1_actor_context.html#ab038f9f8c0a2633bb64edfdcd69dbc7d", null ],
+    [ "GetShapeTransform", "class_physics_1_1_actor_context.html#acc455aa703e7f65406311b6b339cf3b5", null ],
     [ "GetTransform", "class_physics_1_1_actor_context.html#abdf823c0c0f7cb91c92a119532f7b46b", null ],
     [ "IsValid", "class_physics_1_1_actor_context.html#ac64ce1f887b21698be82c8b6c94ff1a0", null ],
     [ "SetAngularVelocity", "class_physics_1_1_actor_context.html#ad04cf85d765206bdb46ea961af3c657c", null ],
+    [ "SetCollisionFeedback", "class_physics_1_1_actor_context.html#a0e685a53b2e7fddd062d9a8b0d6d0684", null ],
     [ "SetLinearVelocity", "class_physics_1_1_actor_context.html#ae7ca581d9d60f3a28d9a2480a6ff5f4c", null ],
     [ "SetPositionOrientation", "class_physics_1_1_actor_context.html#a963f49c0c0c56b904a45999c39e092f2", null ],
+    [ "SetShapeTransform", "class_physics_1_1_actor_context.html#abf7771b86b46d51c363174586dcd85df", null ],
     [ "SetTransform", "class_physics_1_1_actor_context.html#ace5fe68b654e8c5c5db404eccf9cded2", null ],
     [ "PhysxState", "class_physics_1_1_actor_context.html#adfcf2b2d64925281939607c900344a44", null ],
     [ "StreamActorPool", "class_physics_1_1_actor_context.html#aff85409699d4cb9d186084d3f480cc03", null ],

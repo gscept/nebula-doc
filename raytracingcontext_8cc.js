@@ -26,7 +26,7 @@ var raytracingcontext_8cc =
     [ "objects", "raytracingcontext_8cc.html#a29d59b48693d6e906ae36e24bb5258e5", null ],
     [ "raytracingBundle", "raytracingcontext_8cc.html#a630126188028bee203400229f7844903", null ],
     [ "raytracingTestTables", "raytracingcontext_8cc.html#a72503e334a1390e6d29e9d0716a5d194", null ],
-    [ "state", "raytracingcontext_8cc.html#a4e60d1ade2458b2e337d2f96a3a03820", null ],
+    [ "state", "raytracingcontext_8cc.html#a4d0a3a9f743bf682a699baaae3fecbee", null ],
     [ "toplevelAccelerationStructure", "raytracingcontext_8cc.html#abae74f37b928cda0b6aa1f69626d34ea", null ],
     [ "topLevelNeedsBuild", "raytracingcontext_8cc.html#a7ba2f5e4b8b174d27aaca486b6bc06b7", null ],
     [ "topLevelNeedsReconstruction", "raytracingcontext_8cc.html#a9accab6d42a845d2ea69a3d9e3f6bbe9", null ],

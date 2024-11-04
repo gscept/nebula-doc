@@ -57,5 +57,6 @@ var vec3_8h =
     [ "_mask_xyz", "vec3_8h.html#ade79a3ee806f5706749458bb5b677c98", null ],
     [ "_minus1", "vec3_8h.html#a9e69e19127b31c770b31f61aec8e723b", null ],
     [ "_plus1", "vec3_8h.html#afc6d0bf4e6846efaeaa85ea625d29bed", null ],
-    [ "_sign", "vec3_8h.html#a2975c4082f732d7c9c67429dc05dc6dd", null ]
+    [ "_sign", "vec3_8h.html#a2975c4082f732d7c9c67429dc05dc6dd", null ],
+    [ "_zero", "vec3_8h.html#a141fa411e364bb74745ef972ae265b2e", null ]
 ];

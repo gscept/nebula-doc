@@ -106,7 +106,9 @@ $(function(){initNavTree('namespace_math.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Half precision (16 bit) float implementation. </p>
+<div class="textblock"><p>Different curves. </p>
+<p>Half precision (16 bit) float implementation.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2024 Individual contributors, see AUTHORS file</dd></dl>
 <p>Based on <a href="https://github.com/acgessler/half_float">https://github.com/acgessler/half_float</a></p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -117,6 +119,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1bbox.html">bbox</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_nebula.html">Nebula</a>'s bounding box class.  <a href="class_math_1_1bbox.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1_bezier_cubic.html">BezierCubic</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1byte4.html">byte4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +184,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1sphere.html">sphere</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 3-dimensional sphere.  <a href="class_math_1_1sphere.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1transform.html">transform</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple transform using position, quaternion, and scale.  <a href="class_math_1_1transform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_1_1transform44.html">transform44</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 4x4 matrix which is described by translation, rotation and scale.  <a href="class_math_1_1transform44.html#details">More...</a><br /></td></tr>
@@ -262,6 +269,10 @@ Functions</h2></td></tr>
 <tr class="separator:aa3336b811691e30c5f74f34c58e97a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf6b24f1985e449737e4a801f7d7f90" id="r_adcf6b24f1985e449737e4a801f7d7f90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf6b24f1985e449737e4a801f7d7f90">ispointinside</a> (const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;p, const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
 <tr class="separator:adcf6b24f1985e449737e4a801f7d7f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e67ec8d9200daa16ac40ad7be45536" id="r_a50e67ec8d9200daa16ac40ad7be45536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50e67ec8d9200daa16ac40ad7be45536">fromeuler</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;v)</td></tr>
+<tr class="separator:a50e67ec8d9200daa16ac40ad7be45536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab938599c0f29c51b92d5bca3f35b7df5" id="r_ab938599c0f29c51b92d5bca3f35b7df5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab938599c0f29c51b92d5bca3f35b7df5">aseuler</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
+<tr class="separator:ab938599c0f29c51b92d5bca3f35b7df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d2b600b17f33766e9b360bfd4eb6b63" id="r_a9d2b600b17f33766e9b360bfd4eb6b63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2b600b17f33766e9b360bfd4eb6b63">skewsymmetric</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;v)</td></tr>
 <tr class="separator:a9d2b600b17f33766e9b360bfd4eb6b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a4a7929a543ac06c867931b4c4976a1" id="r_a9a4a7929a543ac06c867931b4c4976a1"><td class="memItemLeft" align="right" valign="top">__forceinline bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a4a7929a543ac06c867931b4c4976a1">isidentity</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
@@ -613,6 +624,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a4956ee96f6acd2c8e6c16127a0f34aa6" id="r_a4956ee96f6acd2c8e6c16127a0f34aa6"><td class="memTemplParams" colspan="2">template&lt;int x, int y, int z, int w&gt; </td></tr>
 <tr class="memitem:a4956ee96f6acd2c8e6c16127a0f34aa6"><td class="memTemplItemLeft" align="right" valign="top">__forceinline __m128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4956ee96f6acd2c8e6c16127a0f34aa6">swizzle</a> (__m128 v)</td></tr>
 <tr class="separator:a4956ee96f6acd2c8e6c16127a0f34aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a05176e27a4b4cf40916255f102f38" id="r_a52a05176e27a4b4cf40916255f102f38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1transform.html">transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a05176e27a4b4cf40916255f102f38">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;b)</td></tr>
+<tr class="separator:a52a05176e27a4b4cf40916255f102f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb83fdddb0c0e9dd43d51820d8f2f861" id="r_aeb83fdddb0c0e9dd43d51820d8f2f861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_math_1_1transform.html">transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb83fdddb0c0e9dd43d51820d8f2f861">lerp</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;b, float t)</td></tr>
+<tr class="separator:aeb83fdddb0c0e9dd43d51820d8f2f861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508ef7dbe880a50f0cff5750964b64f5" id="r_a508ef7dbe880a50f0cff5750964b64f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1point.html">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a508ef7dbe880a50f0cff5750964b64f5">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;b)</td></tr>
+<tr class="memdesc:a508ef7dbe880a50f0cff5750964b64f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms a position (applies scale, rotation and offset)  <br /></td></tr>
+<tr class="separator:a508ef7dbe880a50f0cff5750964b64f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc52f3605c68e49fbd6655622f49780" id="r_abbc52f3605c68e49fbd6655622f49780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vector.html">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbc52f3605c68e49fbd6655622f49780">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;b)</td></tr>
+<tr class="memdesc:abbc52f3605c68e49fbd6655622f49780"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms a vector (ignores position)  <br /></td></tr>
+<tr class="separator:abbc52f3605c68e49fbd6655622f49780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ccdb4a7be6df5698476973ec490ed9b" id="r_a2ccdb4a7be6df5698476973ec490ed9b"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="struct_math_1_1vec2.html">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ccdb4a7be6df5698476973ec490ed9b">lerp</a> (const <a class="el" href="struct_math_1_1vec2.html">vec2</a> &amp;v0, const <a class="el" href="struct_math_1_1vec2.html">vec2</a> &amp;v1, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> s)</td></tr>
 <tr class="separator:a2ccdb4a7be6df5698476973ec490ed9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a504b8d20d4a47e521d40177ff5436" id="r_a85a504b8d20d4a47e521d40177ff5436"><td class="memItemLeft" align="right" valign="top">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85a504b8d20d4a47e521d40177ff5436">operator-</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;lhs)</td></tr>
@@ -896,6 +917,8 @@ Variables</h2></td></tr>
 <tr class="separator:a9e69e19127b31c770b31f61aec8e723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6d0bf4e6846efaeaa85ea625d29bed" id="r_afc6d0bf4e6846efaeaa85ea625d29bed"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6d0bf4e6846efaeaa85ea625d29bed">_plus1</a> = _mm_setr_ps(1.0f, 1.0f, 1.0f, 1.0f)</td></tr>
 <tr class="separator:afc6d0bf4e6846efaeaa85ea625d29bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141fa411e364bb74745ef972ae265b2e" id="r_a141fa411e364bb74745ef972ae265b2e"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141fa411e364bb74745ef972ae265b2e">_zero</a> = _mm_setr_ps(0.0f, 0.0f, 0.0f, 0.0f)</td></tr>
+<tr class="separator:a141fa411e364bb74745ef972ae265b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2975c4082f732d7c9c67429dc05dc6dd" id="r_a2975c4082f732d7c9c67429dc05dc6dd"><td class="memItemLeft" align="right" valign="top">static const __m128i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2975c4082f732d7c9c67429dc05dc6dd">_sign</a> = _mm_setr_epi32(0x80000000, 0x80000000, 0x80000000, 0x80000000)</td></tr>
 <tr class="separator:a2975c4082f732d7c9c67429dc05dc6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade79a3ee806f5706749458bb5b677c98" id="r_ade79a3ee806f5706749458bb5b677c98"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade79a3ee806f5706749458bb5b677c98">_mask_xyz</a> = _mm_castsi128_ps(_mm_setr_epi32( 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0 ))</td></tr>
@@ -1351,6 +1374,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get angular distance. </p>
+
+</div>
+</div>
+<a id="ab938599c0f29c51b92d5bca3f35b7df5" name="ab938599c0f29c51b92d5bca3f35b7df5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab938599c0f29c51b92d5bca3f35b7df5">&#9670;&#160;</a></span>aseuler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1vec3.html">vec3</a> Math::aseuler </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2701,6 +2741,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a50e67ec8d9200daa16ac40ad7be45536" name="a50e67ec8d9200daa16ac40ad7be45536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e67ec8d9200daa16ac40ad7be45536">&#9670;&#160;</a></span>fromeuler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::fromeuler </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae25ca97d65e13a62c089394ede63291a" name="ae25ca97d65e13a62c089394ede63291a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae25ca97d65e13a62c089394ede63291a">&#9670;&#160;</a></span>get_normal()</h2>
 
@@ -3638,8 +3695,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aeb83fdddb0c0e9dd43d51820d8f2f861" name="aeb83fdddb0c0e9dd43d51820d8f2f861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb83fdddb0c0e9dd43d51820d8f2f861">&#9670;&#160;</a></span>lerp() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_math_1_1transform.html">transform</a> Math::lerp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2ccdb4a7be6df5698476973ec490ed9b" name="a2ccdb4a7be6df5698476973ec490ed9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ccdb4a7be6df5698476973ec490ed9b">&#9670;&#160;</a></span>lerp() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ccdb4a7be6df5698476973ec490ed9b">&#9670;&#160;</a></span>lerp() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3665,7 +3756,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afe854631933ae7a736b3ab9fd4106dc4" name="afe854631933ae7a736b3ab9fd4106dc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe854631933ae7a736b3ab9fd4106dc4">&#9670;&#160;</a></span>lerp() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe854631933ae7a736b3ab9fd4106dc4">&#9670;&#160;</a></span>lerp() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3691,7 +3782,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8f3f8be4efa220223ab1f4b5627492f7" name="a8f3f8be4efa220223ab1f4b5627492f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f3f8be4efa220223ab1f4b5627492f7">&#9670;&#160;</a></span>lerp() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3f8be4efa220223ab1f4b5627492f7">&#9670;&#160;</a></span>lerp() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3717,7 +3808,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6c0b0cb0c439733998607acc2deebfac" name="a6c0b0cb0c439733998607acc2deebfac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c0b0cb0c439733998607acc2deebfac">&#9670;&#160;</a></span>lerp() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0b0cb0c439733998607acc2deebfac">&#9670;&#160;</a></span>lerp() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5085,7 +5176,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a3fea9abef4b36fed19e3e536c9eaf37d" name="a3fea9abef4b36fed19e3e536c9eaf37d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fea9abef4b36fed19e3e536c9eaf37d">&#9670;&#160;</a></span>operator*() <span class="overload">[1/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fea9abef4b36fed19e3e536c9eaf37d">&#9670;&#160;</a></span>operator*() <span class="overload">[1/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5106,7 +5197,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a3faf95daed248758b056e21df01d725f" name="a3faf95daed248758b056e21df01d725f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3faf95daed248758b056e21df01d725f">&#9670;&#160;</a></span>operator*() <span class="overload">[2/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3faf95daed248758b056e21df01d725f">&#9670;&#160;</a></span>operator*() <span class="overload">[2/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5127,7 +5218,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a86a7e17bba227e50704ad8d59d6c0212" name="a86a7e17bba227e50704ad8d59d6c0212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a7e17bba227e50704ad8d59d6c0212">&#9670;&#160;</a></span>operator*() <span class="overload">[3/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a7e17bba227e50704ad8d59d6c0212">&#9670;&#160;</a></span>operator*() <span class="overload">[3/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5148,7 +5239,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="adac474fccc4fdfa473a865e3ad3ab6aa" name="adac474fccc4fdfa473a865e3ad3ab6aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adac474fccc4fdfa473a865e3ad3ab6aa">&#9670;&#160;</a></span>operator*() <span class="overload">[4/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adac474fccc4fdfa473a865e3ad3ab6aa">&#9670;&#160;</a></span>operator*() <span class="overload">[4/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5169,7 +5260,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a49ce4e604c3801ff09f9a78b4692e770" name="a49ce4e604c3801ff09f9a78b4692e770"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49ce4e604c3801ff09f9a78b4692e770">&#9670;&#160;</a></span>operator*() <span class="overload">[5/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ce4e604c3801ff09f9a78b4692e770">&#9670;&#160;</a></span>operator*() <span class="overload">[5/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5190,7 +5281,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ad21b9fbbb95c4bec69e5511a8263dc0d" name="ad21b9fbbb95c4bec69e5511a8263dc0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad21b9fbbb95c4bec69e5511a8263dc0d">&#9670;&#160;</a></span>operator*() <span class="overload">[6/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21b9fbbb95c4bec69e5511a8263dc0d">&#9670;&#160;</a></span>operator*() <span class="overload">[6/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5211,7 +5302,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="aa590b2acbb6f31bb4c544e1b03c178a4" name="aa590b2acbb6f31bb4c544e1b03c178a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa590b2acbb6f31bb4c544e1b03c178a4">&#9670;&#160;</a></span>operator*() <span class="overload">[7/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa590b2acbb6f31bb4c544e1b03c178a4">&#9670;&#160;</a></span>operator*() <span class="overload">[7/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5231,8 +5322,99 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a508ef7dbe880a50f0cff5750964b64f5" name="a508ef7dbe880a50f0cff5750964b64f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a508ef7dbe880a50f0cff5750964b64f5">&#9670;&#160;</a></span>operator*() <span class="overload">[8/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1point.html">point</a> Math::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>transforms a position (applies scale, rotation and offset) </p>
+
+</div>
+</div>
+<a id="a52a05176e27a4b4cf40916255f102f38" name="a52a05176e27a4b4cf40916255f102f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a05176e27a4b4cf40916255f102f38">&#9670;&#160;</a></span>operator*() <span class="overload">[9/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_math_1_1transform.html">transform</a> Math::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbc52f3605c68e49fbd6655622f49780" name="abbc52f3605c68e49fbd6655622f49780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc52f3605c68e49fbd6655622f49780">&#9670;&#160;</a></span>operator*() <span class="overload">[10/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1vector.html">vector</a> Math::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>transforms a vector (ignores position) </p>
+
+</div>
+</div>
 <a id="a5e952f0177a09a1572fe4d3b10af9ecb" name="a5e952f0177a09a1572fe4d3b10af9ecb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e952f0177a09a1572fe4d3b10af9ecb">&#9670;&#160;</a></span>operator*() <span class="overload">[8/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e952f0177a09a1572fe4d3b10af9ecb">&#9670;&#160;</a></span>operator*() <span class="overload">[11/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5253,7 +5435,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a4d1fc16945967376b26f2d83b92b79c5" name="a4d1fc16945967376b26f2d83b92b79c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d1fc16945967376b26f2d83b92b79c5">&#9670;&#160;</a></span>operator*() <span class="overload">[9/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1fc16945967376b26f2d83b92b79c5">&#9670;&#160;</a></span>operator*() <span class="overload">[12/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5274,7 +5456,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="aba26d11e1af3122ae3b15884fcac5818" name="aba26d11e1af3122ae3b15884fcac5818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba26d11e1af3122ae3b15884fcac5818">&#9670;&#160;</a></span>operator*() <span class="overload">[10/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba26d11e1af3122ae3b15884fcac5818">&#9670;&#160;</a></span>operator*() <span class="overload">[13/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5295,7 +5477,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a899866d2c474c61ba1d9ff4eb5881e8c" name="a899866d2c474c61ba1d9ff4eb5881e8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a899866d2c474c61ba1d9ff4eb5881e8c">&#9670;&#160;</a></span>operator*() <span class="overload">[11/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a899866d2c474c61ba1d9ff4eb5881e8c">&#9670;&#160;</a></span>operator*() <span class="overload">[14/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5316,7 +5498,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a8d002828cee3f1172f1de7fcb1ad7745" name="a8d002828cee3f1172f1de7fcb1ad7745"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d002828cee3f1172f1de7fcb1ad7745">&#9670;&#160;</a></span>operator*() <span class="overload">[12/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d002828cee3f1172f1de7fcb1ad7745">&#9670;&#160;</a></span>operator*() <span class="overload">[15/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5337,7 +5519,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ab884f7ab0873844af42e962ee4e326e1" name="ab884f7ab0873844af42e962ee4e326e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab884f7ab0873844af42e962ee4e326e1">&#9670;&#160;</a></span>operator*() <span class="overload">[13/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab884f7ab0873844af42e962ee4e326e1">&#9670;&#160;</a></span>operator*() <span class="overload">[16/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5358,7 +5540,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="aa9b15450e27be9d68e55a5511d16bdb4" name="aa9b15450e27be9d68e55a5511d16bdb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9b15450e27be9d68e55a5511d16bdb4">&#9670;&#160;</a></span>operator*() <span class="overload">[14/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b15450e27be9d68e55a5511d16bdb4">&#9670;&#160;</a></span>operator*() <span class="overload">[17/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5387,7 +5569,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a97d6b01ab41c9def06343143fd8914a2" name="a97d6b01ab41c9def06343143fd8914a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d6b01ab41c9def06343143fd8914a2">&#9670;&#160;</a></span>operator*() <span class="overload">[15/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d6b01ab41c9def06343143fd8914a2">&#9670;&#160;</a></span>operator*() <span class="overload">[18/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5416,7 +5598,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="abd0af6c7dede8d27dbe0a02c2d04ddf6" name="abd0af6c7dede8d27dbe0a02c2d04ddf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd0af6c7dede8d27dbe0a02c2d04ddf6">&#9670;&#160;</a></span>operator*() <span class="overload">[16/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd0af6c7dede8d27dbe0a02c2d04ddf6">&#9670;&#160;</a></span>operator*() <span class="overload">[19/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7969,6 +8151,28 @@ template&lt;int x, int y, int z, int w&gt; </div>
 
 </div>
 </div>
+<a id="a141fa411e364bb74745ef972ae265b2e" name="a141fa411e364bb74745ef972ae265b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141fa411e364bb74745ef972ae265b2e">&#9670;&#160;</a></span>_zero</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const __m128 Math::_zero = _mm_setr_ps(0.0f, 0.0f, 0.0f, 0.0f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa08d02d82bc77a47ef571ced0b753922" name="aa08d02d82bc77a47ef571ced0b753922"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa08d02d82bc77a47ef571ced0b753922">&#9670;&#160;</a></span>maskW</h2>
 
@@ -8240,7 +8444,7 @@ template&lt;int x, int y, int z, int w&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li>
 				<li class="footer">
-					Generated on Mon Nov 4 2024 12:30:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Nov 4 2024 20:09:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

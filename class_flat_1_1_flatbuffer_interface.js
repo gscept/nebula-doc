@@ -2,6 +2,7 @@ var class_flat_1_1_flatbuffer_interface =
 [
     [ "BufferToText", "class_flat_1_1_flatbuffer_interface.html#ae09ed368e6fb740356877f0b89b2775e", null ],
     [ "Compile", "class_flat_1_1_flatbuffer_interface.html#a52526c3ace8b4630e69961f2f0e0416a", null ],
+    [ "CompileSchema", "class_flat_1_1_flatbuffer_interface.html#a741483c4e51bd5933f610f7c8f601eb3", null ],
     [ "DeserializeFlatbuffer", "class_flat_1_1_flatbuffer_interface.html#acbbf7c16efe414c7274cd04befb2146f", null ],
     [ "DeserializeFlatbufferFile", "class_flat_1_1_flatbuffer_interface.html#a122b37a5d25469e2a0a234a69cf598b5", null ],
     [ "HasSchema", "class_flat_1_1_flatbuffer_interface.html#ab7565eaace058a195f247cbcbe9e3664", null ],

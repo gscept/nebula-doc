@@ -1,9 +1,7 @@
 var struct_physics_1_1_actor_info =
 [
-    [ "colliders", "struct_physics_1_1_actor_info.html#a9ed5b907175ee99c52e13b952824f969", null ],
-    [ "collisionGroup", "struct_physics_1_1_actor_info.html#ae63a63b7dfa16cef7a515e9c841ae9a1", null ],
-    [ "densities", "struct_physics_1_1_actor_info.html#a20415f33645ffeecc113dc51f6f2bcca", null ],
-    [ "feedbackFlag", "struct_physics_1_1_actor_info.html#a106901e930ee9249d4b025e3e007b079", null ],
+    [ "body", "struct_physics_1_1_actor_info.html#a656834316b6d8c625979c7e9e5942f00", null ],
     [ "instanceCount", "struct_physics_1_1_actor_info.html#a08df911b2ba001415c147ac4c9c187f7", null ],
-    [ "shapes", "struct_physics_1_1_actor_info.html#a1354d8818978e030f3f08cbe8dc932b7", null ]
+    [ "name", "struct_physics_1_1_actor_info.html#a6d799f24192a9e0fb1510d221a0ebdf3", null ],
+    [ "transform", "struct_physics_1_1_actor_info.html#a7216fe099ec0917c3dfd840147399dc9", null ]
 ];
