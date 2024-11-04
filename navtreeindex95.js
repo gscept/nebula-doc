@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"debugui_8h_source.html":[10,0,0,5,0,5],
+"decalcontext_8cc.html":[10,0,0,6,7,0],
+"decalcontext_8cc.html#a04907986cb59293b62a713b4eff5dfef":[10,0,0,6,7,0,0],
+"decalcontext_8cc.html#a051ec609c55107566d769361759b3668":[10,0,0,6,7,0,1],
 "decalcontext_8cc.html#a1affaef47e93b91ba55c69670e82e74c":[10,0,0,6,7,0,6],
 "decalcontext_8cc.html#a42ede2dd57191c3a5a04b2dd9ed686cd":[10,0,0,6,7,0,8],
 "decalcontext_8cc.html#a489acc54f56561d8a4f52aae7fcf626a":[10,0,0,6,7,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "drawfullscreenquad_8h_source.html":[10,0,0,6,24,1],
 "drawthread_8cc.html":[10,0,0,6,5,25],
 "drawthread_8h.html":[10,0,0,6,5,26],
-"drawthread_8h.html#af51dd23020a9b038366cd4f0df54401f":[10,0,0,6,5,26,4],
-"drawthread_8h_source.html":[10,0,0,6,5,26],
-"embeddedmemorystream_8cc.html":[10,0,0,3,9,22],
-"embeddedmemorystream_8cc.html#addd6b62746c8fee41c15bf444f27c9c8":[10,0,0,3,9,22,0],
-"embeddedmemorystream_8h.html":[10,0,0,3,9,23]
+"drawthread_8h.html#af51dd23020a9b038366cd4f0df54401f":[10,0,0,6,5,26,4]
 };

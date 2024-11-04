@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"framecopy_8h_source.html":[10,0,0,6,9,11],
+"framemipmap_8cc.html":[10,0,0,6,9,14],
+"framemipmap_8h.html":[10,0,0,6,9,15],
+"framemipmap_8h_source.html":[10,0,0,6,9,15],
 "frameop_8cc.html":[10,0,0,6,9,16],
 "frameop_8h.html":[10,0,0,6,9,17],
 "frameop_8h.html#a22a2d5b736f497a8c8fd5048b71016ee":[10,0,0,6,9,17,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "game_8cc.html#ab7e4a61756415c610a160873a17fac4c":[10,0,0,0,7,0,4,5],
 "game_8cc.html#ad1c7a241f123fa83b81b69805f4e8b0d":[10,0,0,0,7,0,4,1],
 "game_8cc.html#ad63e6e6464b623c3b562a33fc1aae446":[10,0,0,0,7,0,4,13],
-"game_8cc.html#adefc42d5b34fc59b011c39c3ecb1eb9b":[10,0,0,0,7,0,4,11],
-"game_8cc.html#ae2b7f4114ec4b56ebbb9cb181e569c2c":[10,0,0,0,7,0,4,0],
-"game_8cc.html#ae4954593c0adfea7e40b518e7e7ebe56":[10,0,0,0,7,0,4,10],
-"game_8h.html":[10,0,0,0,7,0,5],
-"game_8h.html#a214be03fbb8819a0c441e0221fdc203a":[10,0,0,0,7,0,5,12]
+"game_8cc.html#adefc42d5b34fc59b011c39c3ecb1eb9b":[10,0,0,0,7,0,4,11]
 };

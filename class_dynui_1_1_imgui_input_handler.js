@@ -5,6 +5,7 @@ var class_dynui_1_1_imgui_input_handler =
     [ "__DeclareClass", "class_dynui_1_1_imgui_input_handler.html#ae62351c5c7d2745f4f055b3fac40b3e8", null ],
     [ "BeginCapture", "class_dynui_1_1_imgui_input_handler.html#a5585137038e39aada8e68d8fcde853c1", null ],
     [ "EndCapture", "class_dynui_1_1_imgui_input_handler.html#a421dd7c5ebdf847f07a33f2845f4a1f8", null ],
+    [ "OnBeginFrame", "class_dynui_1_1_imgui_input_handler.html#a4302574c25305663368654daaf314d0c", null ],
     [ "OnEvent", "class_dynui_1_1_imgui_input_handler.html#ac0f483e5d0c3991b5d2235ebf10a1d19", null ],
     [ "inputEvents", "class_dynui_1_1_imgui_input_handler.html#a8a7b7ddb55cb41223299f1abf4f0a355", null ]
 ];

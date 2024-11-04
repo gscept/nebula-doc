@@ -20,5 +20,7 @@ var namespace_dynui =
     [ "ImguiDrawFunction", "namespace_dynui.html#ab64b8f8a678ff5bfcc7d85d4747b6214", null ],
     [ "RecursiveDrawGpuMarker", "namespace_dynui.html#a335ab4fee1ce03724bee671f6db0f760", null ],
     [ "RecursiveDrawScope", "namespace_dynui.html#a15cd05e51cba07b079239834c586dc00", null ],
+    [ "KeysToRelease", "namespace_dynui.html#a50ba4ffcce07770384a8b00d663e7016", null ],
+    [ "NebulaToImguiKeyCodes", "namespace_dynui.html#a13c27de4ed0775ba1ca6c170249b47dd", null ],
     [ "ui_opacity", "namespace_dynui.html#a3fa97ee624c7d26bdce33d49f656d617", null ]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"drawthread_8h_source.html":[10,0,0,6,5,26],
+"embeddedmemorystream_8cc.html":[10,0,0,3,9,22],
+"embeddedmemorystream_8cc.html#addd6b62746c8fee41c15bf444f27c9c8":[10,0,0,3,9,22,0],
+"embeddedmemorystream_8h.html":[10,0,0,3,9,23],
 "embeddedmemorystream_8h_source.html":[10,0,0,3,9,23],
 "emitterattrs_8cc.html":[10,0,0,6,18,0],
 "emitterattrs_8h.html":[10,0,0,6,18,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "framecompute_8h.html":[10,0,0,6,9,9],
 "framecompute_8h_source.html":[10,0,0,6,9,9],
 "framecopy_8cc.html":[10,0,0,6,9,10],
-"framecopy_8h.html":[10,0,0,6,9,11],
-"framecopy_8h_source.html":[10,0,0,6,9,11],
-"framemipmap_8cc.html":[10,0,0,6,9,14],
-"framemipmap_8h.html":[10,0,0,6,9,15],
-"framemipmap_8h_source.html":[10,0,0,6,9,15]
+"framecopy_8h.html":[10,0,0,6,9,11]
 };
