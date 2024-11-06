@@ -1,14 +1,10 @@
 var class_ids_1_1_id_allocator =
 [
-    [ "IdAllocator", "class_ids_1_1_id_allocator.html#a0f549e614a1793520ec83a460e20fee6", null ],
+    [ "IdAllocator", "class_ids_1_1_id_allocator.html#aaf5c9a1eaadee5c766b5f8d93363030b", null ],
     [ "Alloc", "class_ids_1_1_id_allocator.html#a8574607ee4e1fa9e3a2399b36f44b1ae", null ],
-    [ "ConstGet", "class_ids_1_1_id_allocator.html#a56d84890ad4c83b619c5d57545f06ec1", null ],
-    [ "Dealloc", "class_ids_1_1_id_allocator.html#a976afda2c7a24110c122c5de28fad26b", null ],
-    [ "FreeIds", "class_ids_1_1_id_allocator.html#a5890830b90aca227907d9fbecde5c2ab", null ],
-    [ "Get", "class_ids_1_1_id_allocator.html#ab60382da46ef5db1623ebb73daeb1ec4", null ],
-    [ "Set", "class_ids_1_1_id_allocator.html#af83e38b200f27ecc3f9045d666d03a52", null ],
-    [ "Set", "class_ids_1_1_id_allocator.html#a69449838eb465d64c9381c50031c5b57", null ],
-    [ "Size", "class_ids_1_1_id_allocator.html#ae52c92e148ac60ba245ca3c3a4c39b3d", null ],
-    [ "maxId", "class_ids_1_1_id_allocator.html#a8bae02e4fc2995ef148e798e9cce563d", null ],
-    [ "pool", "class_ids_1_1_id_allocator.html#a2114f40d41edb2e3f430444aa29fb577", null ]
+    [ "Dealloc", "class_ids_1_1_id_allocator.html#aea944069b76775ada57080df48e5f547", null ],
+    [ "FreeIds", "class_ids_1_1_id_allocator.html#a0a6fbd31e5f7400de1b363aab4149a58", null ],
+    [ "Size", "class_ids_1_1_id_allocator.html#a0dbca75dcba2fbc8c701c149c08bae8d", null ],
+    [ "freeIds", "class_ids_1_1_id_allocator.html#a8b189ab53cfe8764c83c417ce304db49", null ],
+    [ "maxId", "class_ids_1_1_id_allocator.html#a73a0869fb60575070e9f6192051f237b", null ]
 ];

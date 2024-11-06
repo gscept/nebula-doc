@@ -115,7 +115,7 @@ var searchData=
   ['registerview_112',['RegisterView',['../class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add',1,'GraphicsFeature::CameraManager']]],
   ['reinitializecomponent_113',['ReinitializeComponent',['../class_game_1_1_world.html#a5b642b3e50a0f439789760cd63a32a6a',1,'Game::World']]],
   ['relation_114',['Relation',['../class_db_1_1_relation.html#a16759d4e4a4c2536d855be16918318ee',1,'Db::Relation']]],
-  ['release_115',['Release',['../class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5',1,'Core::RefCounted::Release()'],['../class_ids_1_1_id_allocator_safe.html#a7677b19779a7c5172b93a57a40485fc9',1,'Ids::IdAllocatorSafe::Release()'],['../class_memory_1_1_arena_allocator.html#ae034794f80dbe1312763087d5057e44c',1,'Memory::ArenaAllocator::Release()'],['../class_util_1_1_array_allocator_safe.html#a853740032ea0f3e99386bfb3f84c7f63',1,'Util::ArrayAllocatorSafe::Release()']]],
+  ['release_115',['Release',['../class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5',1,'Core::RefCounted::Release()'],['../class_memory_1_1_arena_allocator.html#ae034794f80dbe1312763087d5057e44c',1,'Memory::ArenaAllocator::Release()'],['../class_util_1_1_array_allocator_safe.html#a853740032ea0f3e99386bfb3f84c7f63',1,'Util::ArrayAllocatorSafe::Release()']]],
   ['releaseconnection_116',['ReleaseConnection',['../class_http_1_1_http_client_registry.html#a343c2dc0be48f2abcb0f5b6b86b4e666',1,'Http::HttpClientRegistry']]],
   ['releasedatasets_117',['ReleaseDatasets',['../namespace_game.html#afca219253f3d0b2360830d0f4c487625',1,'Game']]],
   ['releasekeyboardcapture_118',['ReleaseKeyboardCapture',['../class_base_1_1_input_server_base.html#a316d6450c75e8a4e712039402c717533',1,'Base::InputServerBase']]],

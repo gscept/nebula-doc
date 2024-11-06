@@ -47,7 +47,7 @@ var searchData=
   ['accum_44',['accum',['../struct_profiling_1_1_profiling_scope.html#a8b3c795f3b5efd6dbc73c7847670c0ce',1,'Profiling::ProfilingScope']]],
   ['accumtime_45',['accumTime',['../class_debug_1_1_debug_timer.html#a4fa47deeeb76e36744b5b6acca37150a',1,'Debug::DebugTimer']]],
   ['acos_46',['acos',['../namespace_math.html#ad5c0ae163b8fd828adcc2e1a14476c9c',1,'Math']]],
-  ['acquire_47',['Acquire',['../class_ids_1_1_id_allocator_safe.html#a4ada2963dcfccc8ce142262358d301c5',1,'Ids::IdAllocatorSafe::Acquire()'],['../class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea',1,'Util::ArrayAllocatorSafe::Acquire()']]],
+  ['acquire_47',['Acquire',['../class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea',1,'Util::ArrayAllocatorSafe']]],
   ['action_48',['Action',['../class_frame_1_1_frame_event.html#ae009bb082ac756276826da5669d8bc30',1,'Frame::FrameEvent']]],
   ['action_5fcount_49',['Action_Count',['../namespace_im3d.html#ae232108477a95ef85b9ad9da9618c850ab96b10c6abaa15cbc218c47cc3c956dc',1,'Im3d']]],
   ['action_5fgizmolocal_50',['Action_GizmoLocal',['../namespace_im3d.html#ae232108477a95ef85b9ad9da9618c850a222da4416065a1fa4b9315da86c65f61',1,'Im3d']]],

@@ -29,7 +29,7 @@ var searchData=
   ['id_5fbits_26',['ID_BITS',['../idgenerationpool_8h.html#aa37ff74213f6f654147d18c2648a9f51',1,'idgenerationpool.h']]],
   ['id_5finvalid_27',['Id_Invalid',['../namespace_im3d.html#a5f3232b1ee0469a941cf691c391da3bf',1,'Im3d']]],
   ['id_5fmask_28',['ID_MASK',['../idgenerationpool_8h.html#adc6d5f2d29f2a2cb5d5f2c719eaf2ba1',1,'idgenerationpool.h']]],
-  ['idallocator_29',['IdAllocator',['../class_ids_1_1_id_allocator.html',1,'Ids::IdAllocator&lt; TYPES &gt;'],['../class_ids_1_1_id_allocator.html#a0f549e614a1793520ec83a460e20fee6',1,'Ids::IdAllocator::IdAllocator()']]],
+  ['idallocator_29',['IdAllocator',['../class_ids_1_1_id_allocator.html',1,'Ids::IdAllocator&lt; TYPES &gt;'],['../class_ids_1_1_id_allocator.html#aaf5c9a1eaadee5c766b5f8d93363030b',1,'Ids::IdAllocator::IdAllocator()']]],
   ['idallocator_2eh_30',['idallocator.h',['../idallocator_8h.html',1,'']]],
   ['idallocator_3c_20audio_3a_3aclipid_2c_20math_3a_3apoint_2c_20math_3a_3avector_2c_20float_2c_20float_2c_20float_2c_20float_2c_20bool_2c_20float_20_3e_31',['IdAllocator&lt; Audio::ClipId, Math::point, Math::vector, float, float, float, float, bool, float &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20soloud_3a_3awav_2c_20uint_20_3e_32',['IdAllocator&lt; SoLoud::Wav, uint &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],

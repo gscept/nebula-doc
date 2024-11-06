@@ -10,7 +10,7 @@ var searchData=
   ['acceptsmessage_7',['AcceptsMessage',['../class_messaging_1_1_port.html#a8ab25ad3d255a156294d4a7afb431f18',1,'Messaging::Port']]],
   ['accessmodesinfilter_8',['AccessModesInFilter',['../namespace_game.html#afc7f424437e3e6d8b2ad4250901443e2',1,'Game']]],
   ['acos_9',['acos',['../namespace_math.html#ad5c0ae163b8fd828adcc2e1a14476c9c',1,'Math']]],
-  ['acquire_10',['Acquire',['../class_ids_1_1_id_allocator_safe.html#a4ada2963dcfccc8ce142262358d301c5',1,'Ids::IdAllocatorSafe::Acquire()'],['../class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea',1,'Util::ArrayAllocatorSafe::Acquire()']]],
+  ['acquire_10',['Acquire',['../class_util_1_1_array_allocator_safe.html#a02654a00830a12aca5e356b20e716eea',1,'Util::ArrayAllocatorSafe']]],
   ['actorid_11',['ActorId',['../struct_physics_1_1_actor_id.html#a25fdf795187537eb90f5ceb38ddc652f',1,'Physics::ActorId::ActorId()'],['../struct_physics_1_1_actor_id.html#a35afa792f5140f51a7ff5603c7b0290a',1,'Physics::ActorId::ActorId(uint32_t i)']]],
   ['adapterexists_12',['AdapterExists',['../class_base_1_1_display_device_base.html#a3106acdcfea0b9170d4f87ab1bffc9fc',1,'Base::DisplayDeviceBase::AdapterExists()'],['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#ac3d746d20e3e8ee6571ce98b48d7eb05',1,'GLFW::GLFWDisplayDevice::AdapterExists()']]],
   ['adapterinfo_13',['AdapterInfo',['../class_core_graphics_1_1_adapter_info.html#a1a554091dfb97ce43b690c9bf37e3d1c',1,'CoreGraphics::AdapterInfo']]],
