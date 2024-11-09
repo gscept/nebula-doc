@@ -1,5 +1,16 @@
 var NAVTREEINDEX45 =
 {
+"class_i_o_1_1_stream_reader.html#aaf9db58f60ec81033aa107ba317a0454":[8,0,38,43,9],
+"class_i_o_1_1_stream_reader.html#aaf9db58f60ec81033aa107ba317a0454":[9,0,34,42,9],
+"class_i_o_1_1_stream_reader.html#ab31b32d8438fabd239cd21f37a1fa6ac":[8,0,38,43,6],
+"class_i_o_1_1_stream_reader.html#ab31b32d8438fabd239cd21f37a1fa6ac":[9,0,34,42,6],
+"class_i_o_1_1_stream_reader.html#ae14099edd9b86dbd2e467e231e161bc5":[8,0,38,43,3],
+"class_i_o_1_1_stream_reader.html#ae14099edd9b86dbd2e467e231e161bc5":[9,0,34,42,3],
+"class_i_o_1_1_stream_writer.html":[8,0,38,44],
+"class_i_o_1_1_stream_writer.html":[9,0,34,43],
+"class_i_o_1_1_stream_writer.html#a05899d7b1f53d16b34a5e35d13a54099":[8,0,38,44,11],
+"class_i_o_1_1_stream_writer.html#a05899d7b1f53d16b34a5e35d13a54099":[9,0,34,43,11],
+"class_i_o_1_1_stream_writer.html#a0cf3068d1cb0b7a851143bb2a3424211":[8,0,38,44,4],
 "class_i_o_1_1_stream_writer.html#a0cf3068d1cb0b7a851143bb2a3424211":[9,0,34,43,4],
 "class_i_o_1_1_stream_writer.html#a236273379c275d2eba08a774fdc230f3":[8,0,38,44,6],
 "class_i_o_1_1_stream_writer.html#a236273379c275d2eba08a774fdc230f3":[9,0,34,43,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX45 =
 "class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[8,0,38,50,21],
 "class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[9,0,34,49,21],
 "class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[8,0,38,50,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[9,0,34,49,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[8,0,38,50,0,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[9,0,34,49,0,0],
-"class_i_o_1_1_xml_writer.html":[8,0,38,51],
-"class_i_o_1_1_xml_writer.html":[9,0,34,50],
-"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[8,0,38,51,8],
-"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[9,0,34,50,8],
-"class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045":[8,0,38,51,9],
-"class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045":[9,0,34,50,9],
-"class_i_o_1_1_xml_writer.html#a2385a56f9cd8ffbe10ad12b9b1641275":[8,0,38,51,7],
-"class_i_o_1_1_xml_writer.html#a2385a56f9cd8ffbe10ad12b9b1641275":[9,0,34,50,7],
-"class_i_o_1_1_xml_writer.html#a2b33ed09b4773bed7f8f40992e25254a":[8,0,38,51,2]
+"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[9,0,34,49,0]
 };

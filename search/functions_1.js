@@ -107,7 +107,7 @@ var searchData=
   ['allocatebuffer_104',['AllocateBuffer',['../namespace_mem_db.html#a1c2480daefd34a5a2dfe399d32f8dc78',1,'MemDb']]],
   ['allocateconstantbuffermemory_105',['AllocateConstantBufferMemory',['../namespace_core_graphics.html#a1eee2dce617b2cfa06d52dceb8be7447',1,'CoreGraphics']]],
   ['allocateconstantmemory_106',['AllocateConstantMemory',['../class_materials_1_1_material_loader.html#a10f1055ec48b72bc5d49123283580545',1,'Materials::MaterialLoader']]],
-  ['allocateentity_107',['AllocateEntity',['../class_game_1_1_world.html#ad1827b2493d6bd822e169e8eda3a2c67',1,'Game::World']]],
+  ['allocateentityid_107',['AllocateEntityId',['../class_game_1_1_world.html#a147c3683c5f623233439b89c7a5cada4',1,'Game::World']]],
   ['allocateexclusiveblock_108',['AllocateExclusiveBlock',['../struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7',1,'CoreGraphics::MemoryPool']]],
   ['allocateglobalconstants_109',['AllocateGlobalConstants',['../namespace_graphics.html#a8e63bcb086482ce918c6360ccc648fce',1,'Graphics']]],
   ['allocateindices_110',['AllocateIndices',['../namespace_core_graphics.html#af2310250546b6d7d7f6dceaf54efa82a',1,'CoreGraphics::AllocateIndices(const SizeT numIndices, const IndexType::Code indexType)'],['../namespace_core_graphics.html#a7ef9620da9cc6ab7df35fb116a900f77',1,'CoreGraphics::AllocateIndices(const SizeT bytes)']]],

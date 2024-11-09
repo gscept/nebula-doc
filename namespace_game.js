@@ -38,6 +38,7 @@ var namespace_game =
     [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
     [ "Velocity", "struct_game_1_1_velocity.html", "struct_game_1_1_velocity" ],
     [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ],
+    [ "WorldHash", "struct_game_1_1_world_hash.html", null ],
     [ "AccessModeArray", "namespace_game.html#a8dd4d21b325a41cb3f0e56ccfc2444a8", null ],
     [ "ComponentArray", "namespace_game.html#a149b84fe123ad1661f46185ffad55dc9", null ],
     [ "ComponentId", "namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8", null ],
@@ -45,6 +46,7 @@ var namespace_game =
     [ "Filter", "namespace_game.html#a1662e5ccb92417291ab5653883de7145", null ],
     [ "InclusiveTableMask", "namespace_game.html#a2aa320391917088b2e65f9bba2984a23", null ],
     [ "ProcessorHandle", "namespace_game.html#a74b0ad357b08d17f221b65b804193303", null ],
+    [ "WorldId", "namespace_game.html#acb632603de54984831d4e696a1c904b4", null ],
     [ "AccessMode", "namespace_game.html#a65d276183efa9f25a5dc430be10c207e", [
       [ "READ", "namespace_game.html#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1", null ],
       [ "WRITE", "namespace_game.html#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826", null ]
@@ -90,7 +92,8 @@ var namespace_game =
     [ "GetExclusiveTableMask", "namespace_game.html#aad1b1e4ddbfb12638cd2216a6d6c0683", null ],
     [ "GetInclusiveTableMask", "namespace_game.html#aa3ad58a396dca9e5057ebf33486a5df8", null ],
     [ "GetTemplateId", "namespace_game.html#ac40d0603244073898c48179e980cf72a", null ],
-    [ "GetWorld", "namespace_game.html#a5a1fc702bececa64ef3f9c222eb5fcf1", null ],
+    [ "GetWorld", "namespace_game.html#ad32ebbdd3a3b51b2366aacd894a5a031", null ],
+    [ "GetWorld", "namespace_game.html#aad3d6db368f0ad6118d67b0f343408eb", null ],
     [ "InspectorDrawField", "namespace_game.html#ac2247dc4f0d783267771be372cd00fa4", null ],
     [ "Query", "namespace_game.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "RegisterType", "namespace_game.html#a076ce96b111e19c998dff2e8ec658339", null ],

@@ -205,11 +205,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_world.html">World</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_world_hash.html">WorldHash</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a0c9c4162a88a58417e2ba2b2762ac0e8" id="r_a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a></td></tr>
 <tr class="separator:a0c9c4162a88a58417e2ba2b2762ac0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb632603de54984831d4e696a1c904b4" id="r_acb632603de54984831d4e696a1c904b4"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb632603de54984831d4e696a1c904b4">WorldId</a></td></tr>
+<tr class="separator:acb632603de54984831d4e696a1c904b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149b84fe123ad1661f46185ffad55dc9" id="r_a149b84fe123ad1661f46185ffad55dc9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a149b84fe123ad1661f46185ffad55dc9">ComponentArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&gt;</td></tr>
 <tr class="separator:a149b84fe123ad1661f46185ffad55dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dd4d21b325a41cb3f0e56ccfc2444a8" id="r_a8dd4d21b325a41cb3f0e56ccfc2444a8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd4d21b325a41cb3f0e56ccfc2444a8">AccessModeArray</a> = <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="#a65d276183efa9f25a5dc430be10c207e">AccessMode</a>&gt;</td></tr>
@@ -239,9 +243,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5a1fc702bececa64ef3f9c222eb5fcf1" id="r_a5a1fc702bececa64ef3f9c222eb5fcf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1fc702bececa64ef3f9c222eb5fcf1">GetWorld</a> (uint32_t worldHash)</td></tr>
-<tr class="memdesc:a5a1fc702bececa64ef3f9c222eb5fcf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a world by hash  <br /></td></tr>
-<tr class="separator:a5a1fc702bececa64ef3f9c222eb5fcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32ebbdd3a3b51b2366aacd894a5a031" id="r_ad32ebbdd3a3b51b2366aacd894a5a031"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad32ebbdd3a3b51b2366aacd894a5a031">GetWorld</a> (<a class="el" href="struct_game_1_1_world_hash.html">WorldHash</a> worldHash)</td></tr>
+<tr class="memdesc:ad32ebbdd3a3b51b2366aacd894a5a031"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a world by hash  <br /></td></tr>
+<tr class="separator:ad32ebbdd3a3b51b2366aacd894a5a031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3d6db368f0ad6118d67b0f343408eb" id="r_aad3d6db368f0ad6118d67b0f343408eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3d6db368f0ad6118d67b0f343408eb">GetWorld</a> (<a class="el" href="#acb632603de54984831d4e696a1c904b4">WorldId</a> worldId)</td></tr>
+<tr class="memdesc:aad3d6db368f0ad6118d67b0f343408eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a world by id  <br /></td></tr>
+<tr class="separator:aad3d6db368f0ad6118d67b0f343408eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afca219253f3d0b2360830d0f4c487625" id="r_afca219253f3d0b2360830d0f4c487625"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca219253f3d0b2360830d0f4c487625">ReleaseDatasets</a> ()</td></tr>
 <tr class="memdesc:afca219253f3d0b2360830d0f4c487625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recycles all current datasets allocated memory to be reused.  <br /></td></tr>
 <tr class="separator:afca219253f3d0b2360830d0f4c487625"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -474,6 +481,20 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Opaque processor handle. </p>
+
+</div>
+</div>
+<a id="acb632603de54984831d4e696a1c904b4" name="acb632603de54984831d4e696a1c904b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb632603de54984831d4e696a1c904b4">&#9670;&#160;</a></span>WorldId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint32_t <a class="el" href="#acb632603de54984831d4e696a1c904b4">Game::WorldId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1478,8 +1499,8 @@ template&lt;typename COMPONENT &gt; </div>
 
 </div>
 </div>
-<a id="a5a1fc702bececa64ef3f9c222eb5fcf1" name="a5a1fc702bececa64ef3f9c222eb5fcf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a1fc702bececa64ef3f9c222eb5fcf1">&#9670;&#160;</a></span>GetWorld()</h2>
+<a id="ad32ebbdd3a3b51b2366aacd894a5a031" name="ad32ebbdd3a3b51b2366aacd894a5a031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32ebbdd3a3b51b2366aacd894a5a031">&#9670;&#160;</a></span>GetWorld() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1487,13 +1508,32 @@ template&lt;typename COMPONENT &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::GetWorld </td>
           <td>(</td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_world_hash.html">WorldHash</a></td>          <td class="paramname"><span class="paramname"><em>hash</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>returns a world by hash </p>
+
+</div>
+</div>
+<a id="aad3d6db368f0ad6118d67b0f343408eb" name="aad3d6db368f0ad6118d67b0f343408eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3d6db368f0ad6118d67b0f343408eb">&#9670;&#160;</a></span>GetWorld() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_1_1_world.html">World</a> * Game::GetWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acb632603de54984831d4e696a1c904b4">WorldId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns a world by id </p>
 
 </div>
 </div>
@@ -1670,7 +1710,7 @@ template&lt;typename COMPONENT_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Sat Nov 9 2024 12:31:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 9 2024 15:33:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -65,7 +65,7 @@ var searchData=
   ['windowsetcursorvisible_62',['WindowSetCursorVisible',['../namespace_core_graphics.html#ae2282a8c04cbcc013dc5f39ad0b34f14',1,'CoreGraphics']]],
   ['windowsettitle_63',['WindowSetTitle',['../namespace_core_graphics.html#aa878d56d4c7c6d41ae09ddc3c597c1b8',1,'CoreGraphics']]],
   ['winproc_64',['WinProc',['../class_win32_1_1_win32_display_device.html#aeeea746feebd78440adbca001a0ae7e5',1,'Win32::Win32DisplayDevice']]],
-  ['world_65',['World',['../class_nebula_1_1_game_1_1_world.html#a9341b3e66202578ee7aa12e02ef477c4',1,'Nebula.Game.World.World()'],['../class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee',1,'Nebula.Game.World.World(uint id)'],['../class_game_1_1_world.html#a3b53f0b04a63b2d135095d4a9d207052',1,'Game::World::World()']]],
+  ['world_65',['World',['../class_nebula_1_1_game_1_1_world.html#a9341b3e66202578ee7aa12e02ef477c4',1,'Nebula.Game.World.World()'],['../class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee',1,'Nebula.Game.World.World(uint id)'],['../class_game_1_1_world.html#a691af70b3f962c583d1b8b8fca6c55e2',1,'Game::World::World()']]],
   ['worldgetdefaultworldid_66',['WorldGetDefaultWorldId',['../namespace_scripting_1_1_api.html#ad63e6e6464b623c3b562a33fc1aae446',1,'Scripting::Api']]],
   ['worldsizetopixels_67',['worldSizeToPixels',['../struct_im3d_1_1_context.html#aed11f8cdde1bf0f9620d08bcae422420',1,'Im3d::Context']]],
   ['wrapangle_68',['WrapAngle',['../class_mathf_1_1_math_helper.html#a33656d274c7e3df6ed59149784f0578d',1,'Mathf::MathHelper']]],

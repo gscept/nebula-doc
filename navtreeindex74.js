@@ -1,5 +1,16 @@
 var NAVTREEINDEX74 =
 {
+"class_threading_1_1_safe_priority_queue.html#ab8de1a0e3d4e0f39f36d5438e72c0c95":[8,0,78,8,11],
+"class_threading_1_1_safe_priority_queue.html#ab8de1a0e3d4e0f39f36d5438e72c0c95":[9,0,68,8,11],
+"class_threading_1_1_safe_queue.html":[8,0,78,9],
+"class_threading_1_1_safe_queue.html":[9,0,68,9],
+"class_threading_1_1_safe_queue.html#a047995eb4a907dc28b44da1c5abb25e7":[8,0,78,9,4],
+"class_threading_1_1_safe_queue.html#a047995eb4a907dc28b44da1c5abb25e7":[9,0,68,9,4],
+"class_threading_1_1_safe_queue.html#a22b967e6d16df77112d6802a0fd481ab":[8,0,78,9,15],
+"class_threading_1_1_safe_queue.html#a22b967e6d16df77112d6802a0fd481ab":[9,0,68,9,15],
+"class_threading_1_1_safe_queue.html#a2d4d6c1ca9aa66ee93c216c951f43785":[8,0,78,9,8],
+"class_threading_1_1_safe_queue.html#a2d4d6c1ca9aa66ee93c216c951f43785":[9,0,68,9,8],
+"class_threading_1_1_safe_queue.html#a34e2a08821b91f6afe46624375e5dfbc":[8,0,78,9,13],
 "class_threading_1_1_safe_queue.html#a34e2a08821b91f6afe46624375e5dfbc":[9,0,68,9,13],
 "class_threading_1_1_safe_queue.html#a473971f82efe4ffae80a2c9c8add67e5":[8,0,78,9,9],
 "class_threading_1_1_safe_queue.html#a473971f82efe4ffae80a2c9c8add67e5":[9,0,68,9,9],
@@ -238,16 +249,5 @@ var NAVTREEINDEX74 =
 "class_ti_xml_handle.html":[9,0,174],
 "class_ti_xml_handle.html#a236d7855e1e56ccc7b980630c48c7fd7":[9,0,174,1],
 "class_ti_xml_handle.html#a32585942abb28e03eea9c5223f38a659":[9,0,174,3],
-"class_ti_xml_handle.html#a3eaf2d2d4c087cd8a48da261042e75bc":[9,0,174,10],
-"class_ti_xml_handle.html#a57a639ab0ac99ff9358f675a1b73049a":[9,0,174,5],
-"class_ti_xml_handle.html#a586ebaca4a4d0909db65a765d95d5e59":[9,0,174,8],
-"class_ti_xml_handle.html#a58a9b3e3d710a603038e6e291eb6d580":[9,0,174,13],
-"class_ti_xml_handle.html#a9903b035444ee36450fe00ede403f920":[9,0,174,2],
-"class_ti_xml_handle.html#aa7a8756af3ac24f0b2d469e500b85824":[9,0,174,14],
-"class_ti_xml_handle.html#aba18fd7bdefb942ecdea4bf4b8e29ec8":[9,0,174,0],
-"class_ti_xml_handle.html#ac5429de14bb78b16288bac5bf33c6858":[9,0,174,15],
-"class_ti_xml_handle.html#ac56814c76757eecc5bd951d3ed710dd2":[9,0,174,6],
-"class_ti_xml_handle.html#ad8e5dcf6a87882674203157f29f8e4db":[9,0,174,12],
-"class_ti_xml_handle.html#af0643f8683f3f2b779b8c9d78c67b2c0":[9,0,174,9],
-"class_ti_xml_handle.html#afa2eb82bacfb6e4c3dd5351ce28e5d7a":[9,0,174,11]
+"class_ti_xml_handle.html#a3eaf2d2d4c087cd8a48da261042e75bc":[9,0,174,10]
 };

@@ -460,7 +460,8 @@ var annotated_dup =
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
       [ "Velocity", "struct_game_1_1_velocity.html", "struct_game_1_1_velocity" ],
-      [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ]
+      [ "World", "class_game_1_1_world.html", "class_game_1_1_world" ],
+      [ "WorldHash", "struct_game_1_1_world_hash.html", null ]
     ] ],
     [ "Gcc", "namespace_gcc.html", [
       [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
