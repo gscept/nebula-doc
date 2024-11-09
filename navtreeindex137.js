@@ -1,5 +1,9 @@
 var NAVTREEINDEX137 =
 {
+"struct_game_1_1_dataset_1_1_view.html#abb3d1fa4ae2de9c546d029f3514ec949":[8,0,26,9,0,1],
+"struct_game_1_1_dataset_1_1_view.html#abb3d1fa4ae2de9c546d029f3514ec949":[9,0,23,9,0,1],
+"struct_game_1_1_dataset_1_1_view.html#afe02550889b721fbdc58f4839258159e":[8,0,26,9,0,4],
+"struct_game_1_1_dataset_1_1_view.html#afe02550889b721fbdc58f4839258159e":[9,0,23,9,0,4],
 "struct_game_1_1_entity.html":[8,0,26,10],
 "struct_game_1_1_entity.html":[9,0,23,10],
 "struct_game_1_1_entity.html#a2d941489e7f7e3ce4e402f338a130634":[8,0,26,10,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX137 =
 "struct_game_1_1_time_manager_1_1_state.html":[8,0,26,0,0],
 "struct_game_1_1_time_manager_1_1_state.html":[9,0,23,0,0],
 "struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[8,0,26,0,0,2],
-"struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[9,0,23,0,0,2],
-"struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[8,0,26,0,0,1],
-"struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[9,0,23,0,0,1],
-"struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[8,0,26,0,0,7],
-"struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[9,0,23,0,0,7]
+"struct_game_1_1_time_manager_1_1_state.html#a042662991b0410c0b1fdb58932f79b2c":[9,0,23,0,0,2]
 };
