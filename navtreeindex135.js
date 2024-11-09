@@ -1,5 +1,13 @@
 var NAVTREEINDEX135 =
 {
+"struct_core_graphics_1_1_vertex_layout_id.html":[9,0,12,151],
+"struct_core_graphics_1_1_vertex_layout_info.html":[8,0,14,153],
+"struct_core_graphics_1_1_vertex_layout_info.html":[9,0,12,152],
+"struct_core_graphics_1_1_vertex_layout_info.html#a07b21f79c503e1e3d3f4f9611392729c":[8,0,14,153,0],
+"struct_core_graphics_1_1_vertex_layout_info.html#a07b21f79c503e1e3d3f4f9611392729c":[9,0,12,152,0],
+"struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[8,0,14,153,2],
+"struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[9,0,12,152,2],
+"struct_core_graphics_1_1_vertex_layout_info.html#ae2d7d4d1f809b82074fc9236c461efeb":[8,0,14,153,1],
 "struct_core_graphics_1_1_vertex_layout_info.html#ae2d7d4d1f809b82074fc9236c461efeb":[9,0,12,152,1],
 "struct_core_graphics_1_1_vertex_stream.html":[8,0,14,154],
 "struct_core_graphics_1_1_vertex_stream.html":[9,0,12,153],
@@ -241,13 +249,5 @@ var NAVTREEINDEX135 =
 "struct_frame_1_1_frame_op_1_1_compiled.html#af73c4838094e4f46429e61b740f06591":[8,0,24,8,3,3],
 "struct_frame_1_1_frame_op_1_1_compiled.html#af73c4838094e4f46429e61b740f06591":[9,0,21,8,3,3],
 "struct_frame_1_1_frame_op_1_1_texture_dependency.html":[8,0,24,8,4],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html":[9,0,21,8,4],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a1b7b3d838f12ed5503ac5b0fd649bdc1":[8,0,24,8,4,3],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a1b7b3d838f12ed5503ac5b0fd649bdc1":[9,0,21,8,4,3],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a2570b127ca7d599df6db3062333fe994":[8,0,24,8,4,0],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a2570b127ca7d599df6db3062333fe994":[9,0,21,8,4,0],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a3c60903996e42e88868ff3d020374721":[8,0,24,8,4,2],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#a3c60903996e42e88868ff3d020374721":[9,0,21,8,4,2],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#af3e34e4c9eff5b953ee5603c7c84699e":[8,0,24,8,4,1],
-"struct_frame_1_1_frame_op_1_1_texture_dependency.html#af3e34e4c9eff5b953ee5603c7c84699e":[9,0,21,8,4,1]
+"struct_frame_1_1_frame_op_1_1_texture_dependency.html":[9,0,21,8,4]
 };

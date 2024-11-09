@@ -1,5 +1,13 @@
 var NAVTREEINDEX164 =
 {
+"struct_vulkan_1_1_vk_shader_cache_1_1_descriptor_set_binding.html#ae3762e40734f5d240001c1075c80134c":[8,0,84,35,1,2],
+"struct_vulkan_1_1_vk_shader_cache_1_1_descriptor_set_binding.html#ae3762e40734f5d240001c1075c80134c":[9,0,72,35,1,2],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html":[8,0,84,35,2],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html":[9,0,72,35,2],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a1e65083a90f87dbf7882106011a7181a":[8,0,84,35,2,4],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a1e65083a90f87dbf7882106011a7181a":[9,0,72,35,2,4],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a34dbb593ec60f9bd48ee2b1fe11a6e1f":[8,0,84,35,2,3],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a34dbb593ec60f9bd48ee2b1fe11a6e1f":[9,0,72,35,2,3],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a41e6681994e452a4a5f5eac0e7f876d2":[8,0,84,35,2,5],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#a41e6681994e452a4a5f5eac0e7f876d2":[9,0,72,35,2,5],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info.html#acdee5778b2eb09a9f4c49d7d1e7d2de2":[8,0,84,35,2,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX164 =
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html":[8,0,84,42,1],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html":[9,0,72,42,1],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html#a53cee20d34cec6856abb3f463c4f5028":[8,0,84,42,1,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html#a53cee20d34cec6856abb3f463c4f5028":[9,0,72,42,1,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html#add42e52522874695320253abf5bdb8ba":[8,0,84,42,1,0],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html#add42e52522874695320253abf5bdb8ba":[9,0,72,42,1,0],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html":[8,0,84,42,2],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html":[9,0,72,42,2],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a17878c11725864f8d72fd366c77e55e3":[8,0,84,42,2,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a17878c11725864f8d72fd366c77e55e3":[9,0,72,42,2,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a21b4d1727caac85bc7178029197f08ca":[8,0,84,42,2,3],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html#a21b4d1727caac85bc7178029197f08ca":[9,0,72,42,2,3]
+"struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html#a53cee20d34cec6856abb3f463c4f5028":[9,0,72,42,1,1]
 };

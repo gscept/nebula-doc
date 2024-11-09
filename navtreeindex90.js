@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"class_win32_1_1_win32_display_device.html#a96ea47489305fb1119dc496d4b3bcb46":[8,0,85,6,16],
+"class_win32_1_1_win32_display_device.html#a96ea47489305fb1119dc496d4b3bcb46":[9,0,73,6,16],
+"class_win32_1_1_win32_display_device.html#aa2fa4bc8cd1462ecc7d5870b3995cac3":[8,0,85,6,30],
+"class_win32_1_1_win32_display_device.html#aa2fa4bc8cd1462ecc7d5870b3995cac3":[9,0,73,6,30],
+"class_win32_1_1_win32_display_device.html#aaea13e8523ba517bab1cadb851a01bcf":[8,0,85,6,7],
+"class_win32_1_1_win32_display_device.html#aaea13e8523ba517bab1cadb851a01bcf":[9,0,73,6,7],
+"class_win32_1_1_win32_display_device.html#ab29b62676e00df79706e5222259625f3":[8,0,85,6,33],
+"class_win32_1_1_win32_display_device.html#ab29b62676e00df79706e5222259625f3":[9,0,73,6,33],
 "class_win32_1_1_win32_display_device.html#ab69f9b859ca87558c0b1095ad3f1866c":[8,0,85,6,38],
 "class_win32_1_1_win32_display_device.html#ab69f9b859ca87558c0b1095ad3f1866c":[9,0,73,6,38],
 "class_win32_1_1_win32_display_device.html#abb6646b2056650ec33ea38a92d719b86":[8,0,85,6,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "class_win32_1_1_win32_ip_address.html#a64f830d7fcaa0c7d1606e89178adbaaf":[9,0,73,13,5],
 "class_win32_1_1_win32_ip_address.html#a67b7db0ef5b354bc9df8e7a4a1d106ea":[8,0,85,13,1],
 "class_win32_1_1_win32_ip_address.html#a67b7db0ef5b354bc9df8e7a4a1d106ea":[9,0,73,13,1],
-"class_win32_1_1_win32_ip_address.html#a7a7471bb3397f9caa135d05eaaea9372":[8,0,85,13,13],
-"class_win32_1_1_win32_ip_address.html#a7a7471bb3397f9caa135d05eaaea9372":[9,0,73,13,13],
-"class_win32_1_1_win32_ip_address.html#a7c73ecf0a5a3fc15d54a3b167b6a53c1":[8,0,85,13,14],
-"class_win32_1_1_win32_ip_address.html#a7c73ecf0a5a3fc15d54a3b167b6a53c1":[9,0,73,13,14],
-"class_win32_1_1_win32_ip_address.html#a85931fb610c45f99634be00aabd276b4":[8,0,85,13,9],
-"class_win32_1_1_win32_ip_address.html#a85931fb610c45f99634be00aabd276b4":[9,0,73,13,9],
-"class_win32_1_1_win32_ip_address.html#a9019871e2f0f38961c984600a426cdff":[8,0,85,13,3],
-"class_win32_1_1_win32_ip_address.html#a9019871e2f0f38961c984600a426cdff":[9,0,73,13,3],
-"class_win32_1_1_win32_ip_address.html#a92938f140077469739c3033e42e7c9b0":[8,0,85,13,7]
+"class_win32_1_1_win32_ip_address.html#a7a7471bb3397f9caa135d05eaaea9372":[8,0,85,13,13]
 };

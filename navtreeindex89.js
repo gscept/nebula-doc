@@ -1,5 +1,13 @@
 var NAVTREEINDEX89 =
 {
+"class_vulkan_1_1_vk_text_renderer.html#a0d78a210392f43f91ac87ec472647211":[8,0,84,43,10],
+"class_vulkan_1_1_vk_text_renderer.html#a0d78a210392f43f91ac87ec472647211":[9,0,72,43,10],
+"class_vulkan_1_1_vk_text_renderer.html#a202fb2c70ab057c7a659f2296b5582ac":[8,0,84,43,19],
+"class_vulkan_1_1_vk_text_renderer.html#a202fb2c70ab057c7a659f2296b5582ac":[9,0,72,43,19],
+"class_vulkan_1_1_vk_text_renderer.html#a251180f07d2429169246c19bd27a4d6d":[8,0,84,43,14],
+"class_vulkan_1_1_vk_text_renderer.html#a251180f07d2429169246c19bd27a4d6d":[9,0,72,43,14],
+"class_vulkan_1_1_vk_text_renderer.html#a2d649184bdedece033524338f7d62298":[8,0,84,43,15],
+"class_vulkan_1_1_vk_text_renderer.html#a2d649184bdedece033524338f7d62298":[9,0,72,43,15],
 "class_vulkan_1_1_vk_text_renderer.html#a3347514a877922077ccbf118eeafba15":[8,0,84,43,9],
 "class_vulkan_1_1_vk_text_renderer.html#a3347514a877922077ccbf118eeafba15":[9,0,72,43,9],
 "class_vulkan_1_1_vk_text_renderer.html#a3cf35cec12134203eab0536632c0777e":[8,0,84,43,21],
@@ -241,13 +249,5 @@ var NAVTREEINDEX89 =
 "class_win32_1_1_win32_display_device.html#a9419eba607cec846b947ef43edc0ad11":[8,0,85,6,36],
 "class_win32_1_1_win32_display_device.html#a9419eba607cec846b947ef43edc0ad11":[9,0,73,6,36],
 "class_win32_1_1_win32_display_device.html#a9642e17d3b7bdb8e544e54000563888b":[8,0,85,6,29],
-"class_win32_1_1_win32_display_device.html#a9642e17d3b7bdb8e544e54000563888b":[9,0,73,6,29],
-"class_win32_1_1_win32_display_device.html#a96ea47489305fb1119dc496d4b3bcb46":[8,0,85,6,16],
-"class_win32_1_1_win32_display_device.html#a96ea47489305fb1119dc496d4b3bcb46":[9,0,73,6,16],
-"class_win32_1_1_win32_display_device.html#aa2fa4bc8cd1462ecc7d5870b3995cac3":[8,0,85,6,30],
-"class_win32_1_1_win32_display_device.html#aa2fa4bc8cd1462ecc7d5870b3995cac3":[9,0,73,6,30],
-"class_win32_1_1_win32_display_device.html#aaea13e8523ba517bab1cadb851a01bcf":[8,0,85,6,7],
-"class_win32_1_1_win32_display_device.html#aaea13e8523ba517bab1cadb851a01bcf":[9,0,73,6,7],
-"class_win32_1_1_win32_display_device.html#ab29b62676e00df79706e5222259625f3":[8,0,85,6,33],
-"class_win32_1_1_win32_display_device.html#ab29b62676e00df79706e5222259625f3":[9,0,73,6,33]
+"class_win32_1_1_win32_display_device.html#a9642e17d3b7bdb8e544e54000563888b":[9,0,73,6,29]
 };

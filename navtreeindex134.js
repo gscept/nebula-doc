@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"struct_core_graphics_1_1_texture_copy.html#ab6fbb021699c705d9bf34bbd1fedf9a5":[9,0,12,129,3],
+"struct_core_graphics_1_1_texture_copy.html#aba7c3b690c5a8835d86f5cf5efc83fd8":[8,0,14,130,1],
+"struct_core_graphics_1_1_texture_copy.html#aba7c3b690c5a8835d86f5cf5efc83fd8":[9,0,12,129,1],
+"struct_core_graphics_1_1_texture_create_info.html":[8,0,14,131],
+"struct_core_graphics_1_1_texture_create_info.html":[9,0,12,130],
+"struct_core_graphics_1_1_texture_create_info.html#a07bb9bc8c609ce52e01bb7152e723c9a":[8,0,14,131,25],
+"struct_core_graphics_1_1_texture_create_info.html#a07bb9bc8c609ce52e01bb7152e723c9a":[9,0,12,130,25],
+"struct_core_graphics_1_1_texture_create_info.html#a08b6d3528f6637e38cb521e58cd9c95d":[8,0,14,131,22],
 "struct_core_graphics_1_1_texture_create_info.html#a08b6d3528f6637e38cb521e58cd9c95d":[9,0,12,130,22],
 "struct_core_graphics_1_1_texture_create_info.html#a15b9b2a8640db7daba69ade4f35684bb":[8,0,14,131,17],
 "struct_core_graphics_1_1_texture_create_info.html#a15b9b2a8640db7daba69ade4f35684bb":[9,0,12,130,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "struct_core_graphics_1_1_vertex_layout_create_info.html#a3dcfae6664d4c6a0f007cacb1851422f":[9,0,12,150,0],
 "struct_core_graphics_1_1_vertex_layout_create_info.html#af4e63e973d5029b012b7b80596593a18":[8,0,14,151,1],
 "struct_core_graphics_1_1_vertex_layout_create_info.html#af4e63e973d5029b012b7b80596593a18":[9,0,12,150,1],
-"struct_core_graphics_1_1_vertex_layout_id.html":[8,0,14,152],
-"struct_core_graphics_1_1_vertex_layout_id.html":[9,0,12,151],
-"struct_core_graphics_1_1_vertex_layout_info.html":[8,0,14,153],
-"struct_core_graphics_1_1_vertex_layout_info.html":[9,0,12,152],
-"struct_core_graphics_1_1_vertex_layout_info.html#a07b21f79c503e1e3d3f4f9611392729c":[8,0,14,153,0],
-"struct_core_graphics_1_1_vertex_layout_info.html#a07b21f79c503e1e3d3f4f9611392729c":[9,0,12,152,0],
-"struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[8,0,14,153,2],
-"struct_core_graphics_1_1_vertex_layout_info.html#a1d9b256a805bccf6c67688eeb7f31446":[9,0,12,152,2],
-"struct_core_graphics_1_1_vertex_layout_info.html#ae2d7d4d1f809b82074fc9236c461efeb":[8,0,14,153,1]
+"struct_core_graphics_1_1_vertex_layout_id.html":[8,0,14,152]
 };

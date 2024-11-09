@@ -1,5 +1,13 @@
 var NAVTREEINDEX137 =
 {
+"struct_game_1_1_entity.html":[8,0,26,10],
+"struct_game_1_1_entity.html":[9,0,23,10],
+"struct_game_1_1_entity.html#a2d941489e7f7e3ce4e402f338a130634":[8,0,26,10,15],
+"struct_game_1_1_entity.html#a2d941489e7f7e3ce4e402f338a130634":[9,0,23,10,15],
+"struct_game_1_1_entity.html#a39b65201a4eaf7ae3c014ed8d47af16e":[8,0,26,10,5],
+"struct_game_1_1_entity.html#a39b65201a4eaf7ae3c014ed8d47af16e":[9,0,23,10,5],
+"struct_game_1_1_entity.html#a43d7bf96b402ba3ceff215cd04c35201":[8,0,26,10,12],
+"struct_game_1_1_entity.html#a43d7bf96b402ba3ceff215cd04c35201":[9,0,23,10,12],
 "struct_game_1_1_entity.html#a4b7112bc0fdf8f15441fc62147d13995":[8,0,26,10,6],
 "struct_game_1_1_entity.html#a4b7112bc0fdf8f15441fc62147d13995":[9,0,23,10,6],
 "struct_game_1_1_entity.html#a57f6cdbb919d7aec464d50ba99db5167":[8,0,26,10,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX137 =
 "struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[8,0,26,0,0,1],
 "struct_game_1_1_time_manager_1_1_state.html#a09f9ec57fc84f08dfc3338ac46ff01cf":[9,0,23,0,0,1],
 "struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[8,0,26,0,0,7],
-"struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[9,0,23,0,0,7],
-"struct_game_1_1_time_manager_1_1_state.html#a3448a6a4d9521f2977e35bc939e809df":[8,0,26,0,0,4],
-"struct_game_1_1_time_manager_1_1_state.html#a3448a6a4d9521f2977e35bc939e809df":[9,0,23,0,0,4],
-"struct_game_1_1_time_manager_1_1_state.html#a81f660411b74b60fd4ece8030e2454cb":[8,0,26,0,0,3],
-"struct_game_1_1_time_manager_1_1_state.html#a81f660411b74b60fd4ece8030e2454cb":[9,0,23,0,0,3],
-"struct_game_1_1_time_manager_1_1_state.html#a8918c5442822b5f567ed7294edae3072":[8,0,26,0,0,0],
-"struct_game_1_1_time_manager_1_1_state.html#a8918c5442822b5f567ed7294edae3072":[9,0,23,0,0,0],
-"struct_game_1_1_time_manager_1_1_state.html#a9570e75d69c68ece8d23049976ed8c2d":[8,0,26,0,0,5],
-"struct_game_1_1_time_manager_1_1_state.html#a9570e75d69c68ece8d23049976ed8c2d":[9,0,23,0,0,5]
+"struct_game_1_1_time_manager_1_1_state.html#a1f2f4f7f6ea49d60bb10d216c2577d38":[9,0,23,0,0,7]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX130 =
 {
+"struct_core_graphics_1_1_buffer_with_staging.html#a1cf935eb7446f6c8ee51b5bd9a18f4c4":[9,0,12,25,4],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[8,0,14,26,5],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[9,0,12,25,5],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[8,0,14,26,9],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[9,0,12,25,9],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2a7c4d2eb208f14276b41fa0e038efa6":[8,0,14,26,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2a7c4d2eb208f14276b41fa0e038efa6":[9,0,12,25,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[8,0,14,26,0],
 "struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[9,0,12,25,0],
 "struct_core_graphics_1_1_buffer_with_staging.html#aa3a6cfaf21f744b98dd259cb15f6fc8c":[8,0,14,26,6],
 "struct_core_graphics_1_1_buffer_with_staging.html#aa3a6cfaf21f744b98dd259cb15f6fc8c":[9,0,12,25,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX130 =
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a5562a9315dc9d4a8b50be14145fbef49":[9,0,12,48,1],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[8,0,14,49,10],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[9,0,12,48,10],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[8,0,14,49,9],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[9,0,12,48,9],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[8,0,14,49,5],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[9,0,12,48,5],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a8c1f30018084ea440077e08ccd3a1cd6":[8,0,14,49,6],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a8c1f30018084ea440077e08ccd3a1cd6":[9,0,12,48,6],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a93a01842207d24728fe24de425305716":[8,0,14,49,2],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a93a01842207d24728fe24de425305716":[9,0,12,48,2],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a9d1f52226e56c8b7357e49c91c23c8af":[8,0,14,49,8]
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[8,0,14,49,9]
 };

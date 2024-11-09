@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"class_threading_1_1_safe_priority_queue.html#a90a53a9d345e372b1ba100e0712c2d5b":[8,0,78,8,13],
+"class_threading_1_1_safe_priority_queue.html#a90a53a9d345e372b1ba100e0712c2d5b":[9,0,68,8,13],
+"class_threading_1_1_safe_priority_queue.html#a969b583cf9230dae6da6be80ac1525de":[8,0,78,8,2],
+"class_threading_1_1_safe_priority_queue.html#a969b583cf9230dae6da6be80ac1525de":[9,0,68,8,2],
+"class_threading_1_1_safe_priority_queue.html#a9708df7c66b4c1c29a946d1988966bab":[8,0,78,8,7],
+"class_threading_1_1_safe_priority_queue.html#a9708df7c66b4c1c29a946d1988966bab":[9,0,68,8,7],
+"class_threading_1_1_safe_priority_queue.html#a9b37593fed9960c4cac8288cf30914b1":[8,0,78,8,5],
+"class_threading_1_1_safe_priority_queue.html#a9b37593fed9960c4cac8288cf30914b1":[9,0,68,8,5],
 "class_threading_1_1_safe_priority_queue.html#ab8de1a0e3d4e0f39f36d5438e72c0c95":[8,0,78,8,11],
 "class_threading_1_1_safe_priority_queue.html#ab8de1a0e3d4e0f39f36d5438e72c0c95":[9,0,68,8,11],
 "class_threading_1_1_safe_queue.html":[8,0,78,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "class_ti_xml_element.html#adaa2473feda44c96ece00ec701aee484":[9,0,173,25],
 "class_ti_xml_element.html#adb3212c0c62ab98dba77b68d41c3fa9e":[9,0,173,13],
 "class_ti_xml_element.html#ae04bad29ddb281a7e6c662b3882e9928":[9,0,173,17],
-"class_ti_xml_element.html#ae4e4f9dc2f5fe815a2b13be73a8f1fb8":[9,0,173,26],
-"class_ti_xml_element.html#af0f814ecbd43d50d4cdbdf4354d3da39":[9,0,173,11],
-"class_ti_xml_element.html#af5cd4156e082ef3bf23adfe0ed173340":[9,0,173,14],
-"class_ti_xml_element.html#af95c9165159fd9dfdcc5b894a3fcf85b":[9,0,173,15],
-"class_ti_xml_element.html#affb5acf86ef8741359a4d09ab1c8cfe9":[9,0,173,16],
-"class_ti_xml_handle.html":[9,0,174],
-"class_ti_xml_handle.html#a236d7855e1e56ccc7b980630c48c7fd7":[9,0,174,1],
-"class_ti_xml_handle.html#a32585942abb28e03eea9c5223f38a659":[9,0,174,3],
-"class_ti_xml_handle.html#a3eaf2d2d4c087cd8a48da261042e75bc":[9,0,174,10]
+"class_ti_xml_element.html#ae4e4f9dc2f5fe815a2b13be73a8f1fb8":[9,0,173,26]
 };

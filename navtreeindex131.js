@@ -1,5 +1,13 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[9,0,12,48,9],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[8,0,14,49,5],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[9,0,12,48,5],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a8c1f30018084ea440077e08ccd3a1cd6":[8,0,14,49,6],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a8c1f30018084ea440077e08ccd3a1cd6":[9,0,12,48,6],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a93a01842207d24728fe24de425305716":[8,0,14,49,2],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a93a01842207d24728fe24de425305716":[9,0,12,48,2],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a9d1f52226e56c8b7357e49c91c23c8af":[8,0,14,49,8],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a9d1f52226e56c8b7357e49c91c23c8af":[9,0,12,48,8],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#ab5ae6848b1f1d84c21d0efb62e7f58a7":[8,0,14,49,11],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#ab5ae6848b1f1d84c21d0efb62e7f58a7":[9,0,12,48,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_nvx3_header.html#ad0718d1562bbb513fc17682967218115":[9,0,12,69,1],
 "struct_core_graphics_1_1_nvx3_header.html#af350918e5fbd99d1f787a5444b7516cf":[8,0,14,70,3],
 "struct_core_graphics_1_1_nvx3_header.html#af350918e5fbd99d1f787a5444b7516cf":[9,0,12,69,3],
-"struct_core_graphics_1_1_nvx3_meshlet.html":[8,0,14,71],
-"struct_core_graphics_1_1_nvx3_meshlet.html":[9,0,12,70],
-"struct_core_graphics_1_1_nvx3_meshlet.html#a50d1b897a9e7c9eee2a05003041218cf":[8,0,14,71,0],
-"struct_core_graphics_1_1_nvx3_meshlet.html#a50d1b897a9e7c9eee2a05003041218cf":[9,0,12,70,0],
-"struct_core_graphics_1_1_nvx3_meshlet.html#aa33aaf4129d55f211b10a5c348599012":[8,0,14,71,1],
-"struct_core_graphics_1_1_nvx3_meshlet.html#aa33aaf4129d55f211b10a5c348599012":[9,0,12,70,1],
-"struct_core_graphics_1_1_nvx3_meshlet.html#ab2e88134a64cc43bd9ca71c7f43c7e4c":[8,0,14,71,2],
-"struct_core_graphics_1_1_nvx3_meshlet.html#ab2e88134a64cc43bd9ca71c7f43c7e4c":[9,0,12,70,2],
-"struct_core_graphics_1_1_nvx3_vertex_range.html":[8,0,14,73]
+"struct_core_graphics_1_1_nvx3_meshlet.html":[8,0,14,71]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"class_vulkan_1_1_vk_display_device.html#a9fe19d7f1f452cd27d8dac474323e1e7":[8,0,84,23,3],
+"class_vulkan_1_1_vk_display_device.html#a9fe19d7f1f452cd27d8dac474323e1e7":[9,0,72,23,3],
+"class_vulkan_1_1_vk_display_device.html#aacd82e2c61785de635d0733c91fa1aff":[8,0,84,23,6],
+"class_vulkan_1_1_vk_display_device.html#aacd82e2c61785de635d0733c91fa1aff":[9,0,72,23,6],
+"class_vulkan_1_1_vk_display_device.html#ab5664bbdb318e8a28cf8ef81cf3cf171":[8,0,84,23,2],
+"class_vulkan_1_1_vk_display_device.html#ab5664bbdb318e8a28cf8ef81cf3cf171":[9,0,72,23,2],
+"class_vulkan_1_1_vk_display_device.html#ad955ad0454c0a6a21a251958624de69d":[8,0,84,23,4],
+"class_vulkan_1_1_vk_display_device.html#ad955ad0454c0a6a21a251958624de69d":[9,0,72,23,4],
 "class_vulkan_1_1_vk_display_device.html#ae4daee92bd0826b0655c8e6f68c8c070":[8,0,84,23,7],
 "class_vulkan_1_1_vk_display_device.html#ae4daee92bd0826b0655c8e6f68c8c070":[9,0,72,23,7],
 "class_vulkan_1_1_vk_instance_renderer.html":[8,0,84,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "class_vulkan_1_1_vk_shader_cache.html#a02e64e3ea4ee282f7aad72496cad5b95":[8,0,84,35,14],
 "class_vulkan_1_1_vk_shader_cache.html#a02e64e3ea4ee282f7aad72496cad5b95":[9,0,72,35,14],
 "class_vulkan_1_1_vk_shader_cache.html#a1272b0fd57d8c8c3e00da59da9d3dbc9":[8,0,84,35,17],
-"class_vulkan_1_1_vk_shader_cache.html#a1272b0fd57d8c8c3e00da59da9d3dbc9":[9,0,72,35,17],
-"class_vulkan_1_1_vk_shader_cache.html#a16b1d3e9ea9de2931029e643d5272ebd":[8,0,84,35,36],
-"class_vulkan_1_1_vk_shader_cache.html#a16b1d3e9ea9de2931029e643d5272ebd":[9,0,72,35,36],
-"class_vulkan_1_1_vk_shader_cache.html#a1b801b6075e36fb55cd685245d1cdce4":[8,0,84,35,19],
-"class_vulkan_1_1_vk_shader_cache.html#a1b801b6075e36fb55cd685245d1cdce4":[9,0,72,35,19],
-"class_vulkan_1_1_vk_shader_cache.html#a1d366979e17ff5f95447ec1f7f389dfe":[8,0,84,35,24],
-"class_vulkan_1_1_vk_shader_cache.html#a1d366979e17ff5f95447ec1f7f389dfe":[9,0,72,35,24],
-"class_vulkan_1_1_vk_shader_cache.html#a2caefb62f75f40d31f5a09c6bcdad54c":[8,0,84,35,25],
-"class_vulkan_1_1_vk_shader_cache.html#a2caefb62f75f40d31f5a09c6bcdad54c":[9,0,72,35,25]
+"class_vulkan_1_1_vk_shader_cache.html#a1272b0fd57d8c8c3e00da59da9d3dbc9":[9,0,72,35,17]
 };
