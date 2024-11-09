@@ -433,6 +433,7 @@ var annotated_dup =
       [ "ComponentRegisterInfo", "struct_game_1_1_component_register_info.html", "struct_game_1_1_component_register_info" ],
       [ "ComponentSerialization", "class_game_1_1_component_serialization.html", "class_game_1_1_component_serialization" ],
       [ "Dataset", "struct_game_1_1_dataset.html", "struct_game_1_1_dataset" ],
+      [ "EditorState", "class_game_1_1_editor_state.html", "class_game_1_1_editor_state" ],
       [ "Entity", "struct_game_1_1_entity.html", "struct_game_1_1_entity" ],
       [ "EntityCreateInfo", "struct_game_1_1_entity_create_info.html", "struct_game_1_1_entity_create_info" ],
       [ "EntityMapping", "struct_game_1_1_entity_mapping.html", "struct_game_1_1_entity_mapping" ],

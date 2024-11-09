@@ -107,7 +107,12 @@ $(function(){initNavTree('namespace_game.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Game Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>. </p>
+<p>A state singleton that keeps track of the state of the level editor.</p>
+<dl class="section note"><dt>Note</dt><dd>Though the editor is an external library, we still need to keep track of the editors state from the game layer in some way, which is why this exists.</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2024 Individual contributors, see AUTHORS file </dd></dl>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game_1_1_time_manager.html">TimeManager</a></td></tr>
@@ -140,6 +145,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_dataset.html">Dataset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dataset that contains views into category tables.  <a href="struct_game_1_1_dataset.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_1_1_editor_state.html">EditorState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_entity.html">Entity</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An entity is essentially just an Id with some utility functions attached.  <a href="struct_game_1_1_entity.html#details">More...</a><br /></td></tr>
@@ -343,6 +350,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a1afaab50883f3577da9a5e3f77ea8087" id="r_a1afaab50883f3577da9a5e3f77ea8087"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a1afaab50883f3577da9a5e3f77ea8087"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1afaab50883f3577da9a5e3f77ea8087">ComponentDrawFuncT&lt; Game::Scale &gt;</a> (<a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
 <tr class="separator:a1afaab50883f3577da9a5e3f77ea8087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45bece3ad1e9429ae2919ea18f5c6ad" id="r_aa45bece3ad1e9429ae2919ea18f5c6ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45bece3ad1e9429ae2919ea18f5c6ad">__ImplementSingleton</a> (<a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>)</td></tr>
+<tr class="separator:aa45bece3ad1e9429ae2919ea18f5c6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0034b34d272ba9724134e915f84c9ec0" id="r_a0034b34d272ba9724134e915f84c9ec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0034b34d272ba9724134e915f84c9ec0">__ImplementClass</a> (<a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a>, 'GAFE', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="separator:a0034b34d272ba9724134e915f84c9ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ad58a396dca9e5057ebf33486a5df8" id="r_aa3ad58a396dca9e5057ebf33486a5df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2aa320391917088b2e65f9bba2984a23">InclusiveTableMask</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ad58a396dca9e5057ebf33486a5df8">GetInclusiveTableMask</a> (<a class="el" href="#a1662e5ccb92417291ab5653883de7145">Filter</a>)</td></tr>
@@ -593,8 +602,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa45bece3ad1e9429ae2919ea18f5c6ad" name="aa45bece3ad1e9429ae2919ea18f5c6ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45bece3ad1e9429ae2919ea18f5c6ad">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::__ImplementSingleton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa4ff23edac94487d2f00bee5bfa35e79" name="aa4ff23edac94487d2f00bee5bfa35e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4ff23edac94487d2f00bee5bfa35e79">&#9670;&#160;</a></span>__ImplementSingleton()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ff23edac94487d2f00bee5bfa35e79">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1710,7 +1736,7 @@ template&lt;typename COMPONENT_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li>
 				<li class="footer">
-					Generated on Sat Nov 9 2024 21:09:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 9 2024 21:22:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

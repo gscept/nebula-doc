@@ -14,6 +14,8 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "componentserialization.h", "componentserialization_8h.html", "componentserialization_8h" ],
     [ "dataset.cc", "application_2game_2dataset_8cc.html", null ],
     [ "dataset.h", "application_2game_2dataset_8h.html", "application_2game_2dataset_8h" ],
+    [ "editorstate.cc", "editorstate_8cc.html", "editorstate_8cc" ],
+    [ "editorstate.h", "editorstate_8h.html", "editorstate_8h" ],
     [ "entity.cc", "application_2game_2entity_8cc.html", null ],
     [ "entity.h", "application_2game_2entity_8h.html", "application_2game_2entity_8h" ],
     [ "entitypool.cc", "entitypool_8cc.html", null ],

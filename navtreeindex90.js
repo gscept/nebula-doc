@@ -1,5 +1,15 @@
 var NAVTREEINDEX90 =
 {
+"class_win32_1_1_win32_display_device.html#a6b589dd57c4511ae434c84dda55e3fd1":[8,0,85,6,8],
+"class_win32_1_1_win32_display_device.html#a6b589dd57c4511ae434c84dda55e3fd1":[9,0,73,6,8],
+"class_win32_1_1_win32_display_device.html#a75a55f8acc4b0c4b181eaf9a67cda2c9":[8,0,85,6,23],
+"class_win32_1_1_win32_display_device.html#a75a55f8acc4b0c4b181eaf9a67cda2c9":[9,0,73,6,23],
+"class_win32_1_1_win32_display_device.html#a75ae465ade1979684faa2cbf0bdbbc58":[8,0,85,6,17],
+"class_win32_1_1_win32_display_device.html#a75ae465ade1979684faa2cbf0bdbbc58":[9,0,73,6,17],
+"class_win32_1_1_win32_display_device.html#a8d16adbd04e08615c5091bb6cec38865":[8,0,85,6,24],
+"class_win32_1_1_win32_display_device.html#a8d16adbd04e08615c5091bb6cec38865":[9,0,73,6,24],
+"class_win32_1_1_win32_display_device.html#a92a3c5db0da162d0f32204b8709babdb":[8,0,85,6,2],
+"class_win32_1_1_win32_display_device.html#a92a3c5db0da162d0f32204b8709babdb":[9,0,73,6,2],
 "class_win32_1_1_win32_display_device.html#a9419eba607cec846b947ef43edc0ad11":[8,0,85,6,36],
 "class_win32_1_1_win32_display_device.html#a9419eba607cec846b947ef43edc0ad11":[9,0,73,6,36],
 "class_win32_1_1_win32_display_device.html#a9642e17d3b7bdb8e544e54000563888b":[8,0,85,6,29],
@@ -239,15 +249,5 @@ var NAVTREEINDEX90 =
 "class_win32_1_1_win32_ip_address.html#a09e1fe4b625b96514f06e4f1580ab8f3":[9,0,73,13,16],
 "class_win32_1_1_win32_ip_address.html#a1f5174bc6d97e6516252030840f77fa5":[8,0,85,13,2],
 "class_win32_1_1_win32_ip_address.html#a1f5174bc6d97e6516252030840f77fa5":[9,0,73,13,2],
-"class_win32_1_1_win32_ip_address.html#a2175e00d3c8d4eb84abb2fb2eb97bfd3":[8,0,85,13,15],
-"class_win32_1_1_win32_ip_address.html#a2175e00d3c8d4eb84abb2fb2eb97bfd3":[9,0,73,13,15],
-"class_win32_1_1_win32_ip_address.html#a357beb63ee1f969e07287c483d788ff8":[8,0,85,13,21],
-"class_win32_1_1_win32_ip_address.html#a357beb63ee1f969e07287c483d788ff8":[9,0,73,13,21],
-"class_win32_1_1_win32_ip_address.html#a4b28f81b2d1c066f7261a4b1ec94804d":[8,0,85,13,18],
-"class_win32_1_1_win32_ip_address.html#a4b28f81b2d1c066f7261a4b1ec94804d":[9,0,73,13,18],
-"class_win32_1_1_win32_ip_address.html#a579b5c0c60dcd1507c40dbcbfb30a1a4":[8,0,85,13,10],
-"class_win32_1_1_win32_ip_address.html#a579b5c0c60dcd1507c40dbcbfb30a1a4":[9,0,73,13,10],
-"class_win32_1_1_win32_ip_address.html#a5f9e8e842c53f4061a1f6d23d2eed56e":[8,0,85,13,19],
-"class_win32_1_1_win32_ip_address.html#a5f9e8e842c53f4061a1f6d23d2eed56e":[9,0,73,13,19],
-"class_win32_1_1_win32_ip_address.html#a64f830d7fcaa0c7d1606e89178adbaaf":[8,0,85,13,5]
+"class_win32_1_1_win32_ip_address.html#a2175e00d3c8d4eb84abb2fb2eb97bfd3":[8,0,85,13,15]
 };

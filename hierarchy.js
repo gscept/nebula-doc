@@ -1091,6 +1091,7 @@ var hierarchy =
     [ "Im3d::DrawList", "struct_im3d_1_1_draw_list.html", null ],
     [ "Models::ShaderStateNode::DrawPacket", "struct_models_1_1_shader_state_node_1_1_draw_packet.html", null ],
     [ "CoreGraphics::DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", null ],
+    [ "Game::EditorState", "class_game_1_1_editor_state.html", null ],
     [ "Util::PriorityArray< TYPE >::Element", "struct_util_1_1_priority_array_1_1_element.html", null ],
     [ "Particles::EmitterAttrs", "class_particles_1_1_emitter_attrs.html", null ],
     [ "Particles::EmitterMesh", "class_particles_1_1_emitter_mesh.html", null ],
