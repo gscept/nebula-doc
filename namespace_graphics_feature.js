@@ -8,6 +8,7 @@ var namespace_graphics_feature =
     [ "__ImplementSingleton", "namespace_graphics_feature.html#ae659d32c6ca4c3b6bc369fbb73bd3d9a", null ],
     [ "__ImplementSingleton", "namespace_graphics_feature.html#a9b5405c82f735ab6d7af8ec95db2d75b", null ],
     [ "__ImplementSingleton", "namespace_graphics_feature.html#a62012029d73a813f22b98257dc7cc9d5", null ],
+    [ "DeregisterLight", "namespace_graphics_feature.html#a91f0367616e0ee630b36f8f8536904a7", null ],
     [ "DeregisterModelEntity", "namespace_graphics_feature.html#a3970d9c01daef3582c895e23b0702add", null ],
     [ "RegisterModelEntity", "namespace_graphics_feature.html#a83287cbffa3ebdd55938489814758c30", null ],
     [ "UpdateCameraSettings", "namespace_graphics_feature.html#ad63588a7f122e271f3464ef574315be0", null ]

@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a":[8,0,14,48,33],
+"struct_core_graphics_1_1_graphics_device_state.html#a6e757242b84a727ae71a20091f09c65a":[9,0,12,47,33],
 "struct_core_graphics_1_1_graphics_device_state.html#a760ce6fe27d3dc4ef96b35f8a421ad22":[8,0,14,48,32],
 "struct_core_graphics_1_1_graphics_device_state.html#a760ce6fe27d3dc4ef96b35f8a421ad22":[9,0,12,47,32],
 "struct_core_graphics_1_1_graphics_device_state.html#a797091871150d0e049733e3d2a05eb03":[8,0,14,48,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_nvx2_header.html#a468b78b03268f3b06be516e598afb2cd":[8,0,14,67,0],
 "struct_core_graphics_1_1_nvx2_header.html#a468b78b03268f3b06be516e598afb2cd":[9,0,12,66,0],
 "struct_core_graphics_1_1_nvx2_header.html#a5bc9e84e8885c803b5ea169fdfa680ce":[8,0,14,67,4],
-"struct_core_graphics_1_1_nvx2_header.html#a5bc9e84e8885c803b5ea169fdfa680ce":[9,0,12,66,4],
-"struct_core_graphics_1_1_nvx2_header.html#a89899b1db137285c203651ca3262b593":[8,0,14,67,3],
-"struct_core_graphics_1_1_nvx2_header.html#a89899b1db137285c203651ca3262b593":[9,0,12,66,3]
+"struct_core_graphics_1_1_nvx2_header.html#a5bc9e84e8885c803b5ea169fdfa680ce":[9,0,12,66,4]
 };

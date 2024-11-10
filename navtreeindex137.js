@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_game_1_1_blueprint_manager_1_1_template.html#ac4182087d70e5009cdc4e802e7ce01ef":[9,0,23,3,2,2],
+"struct_game_1_1_blueprint_manager_1_1_template.html#adf8cad26512336aed9b19e407c9eedf1":[8,0,26,3,2,0],
 "struct_game_1_1_blueprint_manager_1_1_template.html#adf8cad26512336aed9b19e407c9eedf1":[9,0,23,3,2,0],
 "struct_game_1_1_component_decay_buffer.html":[8,0,26,4],
 "struct_game_1_1_component_decay_buffer.html":[9,0,23,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_game_1_1_position_1_1_traits.html#aefbf621f76a45cf19a6c12960af908db":[9,0,23,28,0,4],
 "struct_game_1_1_processor_job_context.html":[8,0,26,31],
 "struct_game_1_1_processor_job_context.html":[9,0,23,31],
-"struct_game_1_1_processor_job_context.html#a0cc87513ac19303513bd033c45f301a6":[8,0,26,31,0],
-"struct_game_1_1_processor_job_context.html#a0cc87513ac19303513bd033c45f301a6":[9,0,23,31,0],
-"struct_game_1_1_processor_job_context.html#ad309b40abcf815490d3ad712cfcca511":[8,0,26,31,1]
+"struct_game_1_1_processor_job_context.html#a0cc87513ac19303513bd033c45f301a6":[8,0,26,31,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX166 =
 {
+"tcpserver_8cc.html":[10,0,0,3,15,17],
+"tcpserver_8h.html":[10,0,0,3,15,18],
 "tcpserver_8h_source.html":[10,0,0,3,15,18],
 "terraincontext_8cc.html":[10,0,0,6,25,1],
 "terraincontext_8cc.html#a0385dc05567de81b0ce23027b6a332ba":[10,0,0,6,25,1,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX166 =
 "texture_8h.html#ac0e97b4c71baf4c1056c72f4aa0c5c03":[10,0,0,6,5,85,42],
 "texture_8h.html#ac3a68d254443da2bfa9183a064542ceb":[10,0,0,6,5,85,34],
 "texture_8h.html#ac9ab339cb38df148448a0fb60b961e86":[10,0,0,6,5,85,23],
-"texture_8h.html#aeefb6ced01944c2f39442433cbe6876c":[10,0,0,6,5,85,15],
-"texture_8h.html#af0ea79a9d9ca8359605cd7a6b75756b8":[10,0,0,6,5,85,14],
-"texture_8h.html#af71a30451d1fd92e2373faa9793b467b":[10,0,0,6,5,85,29]
+"texture_8h.html#aeefb6ced01944c2f39442433cbe6876c":[10,0,0,6,5,85,15]
 };

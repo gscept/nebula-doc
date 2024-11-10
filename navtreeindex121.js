@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"osxsingleton_8h.html#a90622683d9e8c91682ba26b2fae8125f":[10,0,0,3,1,1,0,3],
+"osxsingleton_8h.html#ac1a7badb214ae8dc87d0bf11c5b6b0d6":[10,0,0,3,1,1,0,0],
 "osxsingleton_8h_source.html":[10,0,0,3,1,1,0],
 "osxsysfunc_8h.html":[10,0,0,3,1,1,1],
 "osxsysfunc_8h_source.html":[10,0,0,3,1,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "posixcalendartime_8h_source.html":[10,0,0,3,19,2,1],
 "posixconsolehandler_8cc.html":[10,0,0,3,9,5,2],
 "posixconsolehandler_8cc.html#a766c4d552431ef3ad2f78c4ea8f9fb58":[10,0,0,3,9,5,2,0],
-"posixconsolehandler_8h.html":[10,0,0,3,9,5,3],
-"posixconsolehandler_8h.html#aca370a0bc3d0612c1259e38868a3b0d1":[10,0,0,3,9,5,3,1],
-"posixconsolehandler_8h_source.html":[10,0,0,3,9,5,3]
+"posixconsolehandler_8h.html":[10,0,0,3,9,5,3]
 };
