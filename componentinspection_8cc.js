@@ -10,5 +10,6 @@ var componentinspection_8cc =
     [ "ComponentDrawFuncT< Math::mat4 >", "componentinspection_8cc.html#a6641483215c75b6ad07eb9b134de1043", null ],
     [ "ComponentDrawFuncT< Math::vec3 >", "componentinspection_8cc.html#afd97ac9c83086f37b20b4eb6df4c67d4", null ],
     [ "ComponentDrawFuncT< uint >", "componentinspection_8cc.html#ae3a9047033bff93bd84f6a8de2d44b49", null ],
+    [ "ComponentDrawFuncT< Util::Colour >", "componentinspection_8cc.html#a27f1a2d4e1cf45a9a45524b97761259c", null ],
     [ "ComponentDrawFuncT< Util::StringAtom >", "componentinspection_8cc.html#a817bf5713eb5c787ece371bad3fc8214", null ]
 ];

@@ -1,5 +1,17 @@
 var NAVTREEINDEX144 =
 {
+"struct_math_1_1int3.html#af4c6ef633870be08f792e3970b3c22ae":[9,0,41,13,2],
+"struct_math_1_1int4.html":[8,0,46,14],
+"struct_math_1_1int4.html":[9,0,41,14],
+"struct_math_1_1int4.html#a49189270f8bb6b4d2b024f94c16b5d2f":[8,0,46,14,4],
+"struct_math_1_1int4.html#a49189270f8bb6b4d2b024f94c16b5d2f":[9,0,41,14,4],
+"struct_math_1_1int4.html#a6322d51901672f3e86993c33129876c2":[8,0,46,14,1],
+"struct_math_1_1int4.html#a6322d51901672f3e86993c33129876c2":[9,0,41,14,1],
+"struct_math_1_1int4.html#acea288177e9fa67aa2444332a9cc9437":[8,0,46,14,2],
+"struct_math_1_1int4.html#acea288177e9fa67aa2444332a9cc9437":[9,0,41,14,2],
+"struct_math_1_1int4.html#ae3d584a87a57b6a2d9ab11c443a010c8":[8,0,46,14,3],
+"struct_math_1_1int4.html#ae3d584a87a57b6a2d9ab11c443a010c8":[9,0,41,14,3],
+"struct_math_1_1int4.html#aed18b8aa24bb677c80add1a267bfae9d":[8,0,46,14,0],
 "struct_math_1_1int4.html#aed18b8aa24bb677c80add1a267bfae9d":[9,0,41,14,0],
 "struct_math_1_1mat4.html":[8,0,46,16],
 "struct_math_1_1mat4.html":[9,0,41,16],
@@ -237,17 +249,5 @@ var NAVTREEINDEX144 =
 "struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e":[9,0,41,23,15],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[8,0,46,23,17],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[9,0,41,23,17],
-"struct_math_1_1randxorstate.html":[8,0,46,24],
-"struct_math_1_1randxorstate.html":[9,0,41,24],
-"struct_math_1_1randxorstate.html#a81597c6032245ffb672b832eb8dddb57":[8,0,46,24,0],
-"struct_math_1_1randxorstate.html#a81597c6032245ffb672b832eb8dddb57":[9,0,41,24,0],
-"struct_math_1_1uint2.html":[8,0,46,29],
-"struct_math_1_1uint2.html":[9,0,41,29],
-"struct_math_1_1uint2.html#a0e60469059801dd79337528c7ff552db":[8,0,46,29,1],
-"struct_math_1_1uint2.html#a0e60469059801dd79337528c7ff552db":[9,0,41,29,1],
-"struct_math_1_1uint2.html#a1711cbdd7a350d074629385d3097f617":[8,0,46,29,0],
-"struct_math_1_1uint2.html#a1711cbdd7a350d074629385d3097f617":[9,0,41,29,0],
-"struct_math_1_1uint2.html#a836c891df9d28d80789deaed37191ce8":[8,0,46,29,2],
-"struct_math_1_1uint2.html#a836c891df9d28d80789deaed37191ce8":[9,0,41,29,2],
-"struct_math_1_1uint3.html":[8,0,46,30]
+"struct_math_1_1randxorstate.html":[8,0,46,24]
 };

@@ -2514,7 +2514,9 @@ var hierarchy =
       [ "Game::Velocity", "struct_game_1_1_velocity.html", null ]
     ] ],
     [ "Im3d::Vec4", "struct_im3d_1_1_vec4.html", null ],
-    [ "Math::vec4", "struct_math_1_1vec4.html", null ],
+    [ "Math::vec4", "struct_math_1_1vec4.html", [
+      [ "Util::Colour", "class_util_1_1_colour.html", null ]
+    ] ],
     [ "Im3d::Vector< T >", "struct_im3d_1_1_vector.html", null ],
     [ "Math::vector", "struct_math_1_1vector.html", null ],
     [ "Im3d::Vector< bool >", "struct_im3d_1_1_vector.html", null ],
