@@ -1,5 +1,9 @@
 var NAVTREEINDEX136 =
 {
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[9,0,21,8,0,2],
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[8,0,24,8,0,1],
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[9,0,21,8,0,1],
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a9b9ccc16dd7bfbd5a89901f199bb063d":[8,0,24,8,0,3],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a9b9ccc16dd7bfbd5a89901f199bb063d":[9,0,21,8,0,3],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ab20012a4bc74e1aed73f8de2a54a2e47":[8,0,24,8,0,0],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ab20012a4bc74e1aed73f8de2a54a2e47":[9,0,21,8,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX136 =
 "struct_game_1_1_blueprint_manager_1_1_component_entry.html":[9,0,23,3,1],
 "struct_game_1_1_blueprint_manager_1_1_component_entry.html#a0f84701e78f4e019ef6949900c82591a":[8,0,26,3,1,0],
 "struct_game_1_1_blueprint_manager_1_1_component_entry.html#a0f84701e78f4e019ef6949900c82591a":[9,0,23,3,1,0],
-"struct_game_1_1_blueprint_manager_1_1_template.html":[8,0,26,3,2],
-"struct_game_1_1_blueprint_manager_1_1_template.html":[9,0,23,3,2],
-"struct_game_1_1_blueprint_manager_1_1_template.html#a80e45ec39d6082487e9be1c163298f79":[8,0,26,3,2,1],
-"struct_game_1_1_blueprint_manager_1_1_template.html#a80e45ec39d6082487e9be1c163298f79":[9,0,23,3,2,1],
-"struct_game_1_1_blueprint_manager_1_1_template.html#ac4182087d70e5009cdc4e802e7ce01ef":[8,0,26,3,2,2]
+"struct_game_1_1_blueprint_manager_1_1_template.html":[8,0,26,3,2]
 };

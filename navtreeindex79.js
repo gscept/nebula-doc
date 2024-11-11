@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"class_util_1_1_dictionary.html#a10b1c220821cff7e1ce9f15f4438bb10":[9,0,69,16,28],
+"class_util_1_1_dictionary.html#a180b4c0af117bfc856c5c0ebaa576792":[8,0,81,16,9],
+"class_util_1_1_dictionary.html#a180b4c0af117bfc856c5c0ebaa576792":[9,0,69,16,9],
+"class_util_1_1_dictionary.html#a1ceba8a0a1c28e654fafde882c0bef22":[8,0,81,16,7],
 "class_util_1_1_dictionary.html#a1ceba8a0a1c28e654fafde882c0bef22":[9,0,69,16,7],
 "class_util_1_1_dictionary.html#a27d60565894fee03bda8440bdac7e394":[8,0,81,16,29],
 "class_util_1_1_dictionary.html#a27d60565894fee03bda8440bdac7e394":[9,0,69,16,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "class_util_1_1_fixed_table.html#adfc6c5c268a1180829d5f1a581cc3999":[9,0,69,19,20],
 "class_util_1_1_four_c_c.html":[8,0,81,20],
 "class_util_1_1_four_c_c.html":[9,0,69,20],
-"class_util_1_1_four_c_c.html#a1dcc651d5bb717aa3fd887379d8b9cb0":[8,0,81,20,15],
-"class_util_1_1_four_c_c.html#a1dcc651d5bb717aa3fd887379d8b9cb0":[9,0,69,20,15],
-"class_util_1_1_four_c_c.html#a37ed533470edb94e3c70ff50c9c66794":[8,0,81,20,4],
-"class_util_1_1_four_c_c.html#a37ed533470edb94e3c70ff50c9c66794":[9,0,69,20,4],
-"class_util_1_1_four_c_c.html#a39665ecfeb40db5ee832a0c9b3691642":[8,0,81,20,8]
+"class_util_1_1_four_c_c.html#a1dcc651d5bb717aa3fd887379d8b9cb0":[8,0,81,20,15]
 };

@@ -13,9 +13,10 @@ var class_render_util_1_1_free_camera_util =
     [ "SetRightStrafeKey", "class_render_util_1_1_free_camera_util.html#a0d9467a60e90fc701d4e40dd7b98dce1", null ],
     [ "SetRotateButton", "class_render_util_1_1_free_camera_util.html#a5674d859e5da75c019c0212314faeec3", null ],
     [ "SetRotationSpeed", "class_render_util_1_1_free_camera_util.html#a3caa2de0eb6c767a9fb99939eba07537", null ],
+    [ "SetTargetPosition", "class_render_util_1_1_free_camera_util.html#a6c0083b22a1a6785d0a6e4d88f88378a", null ],
     [ "Setup", "class_render_util_1_1_free_camera_util.html#a8d399f747f8e15f76305d02bf3c3caca", null ],
     [ "SetUpKey", "class_render_util_1_1_free_camera_util.html#a02c553e00451358d01fdc3076177dfe8", null ],
-    [ "Update", "class_render_util_1_1_free_camera_util.html#af6fb00a053427db784a20c588cb4b042", null ],
+    [ "Update", "class_render_util_1_1_free_camera_util.html#a5d45871447693e1640b4e12cae590aa6", null ],
     [ "accelerateButton", "class_render_util_1_1_free_camera_util.html#a723acf1d143226f7909e54971821974b", null ],
     [ "backwardsKey", "class_render_util_1_1_free_camera_util.html#a81c56bc67ee2682df23bbb89e5bee268", null ],
     [ "cameraTransform", "class_render_util_1_1_free_camera_util.html#a61b14e504a40a685d3505f93decf71d0", null ],
@@ -30,6 +31,7 @@ var class_render_util_1_1_free_camera_util =
     [ "rightStrafeKey", "class_render_util_1_1_free_camera_util.html#a78bbe8ff99dd6cf863a1296f2b6cb033", null ],
     [ "rotateButton", "class_render_util_1_1_free_camera_util.html#a466042abdd59b41e673d1f7a31ad3014", null ],
     [ "rotationSpeed", "class_render_util_1_1_free_camera_util.html#a932e92361d2aca290575059dfffd6469", null ],
+    [ "targetPosition", "class_render_util_1_1_free_camera_util.html#a03fa5b61d1f39d2699e5c630e688f6ba", null ],
     [ "upKey", "class_render_util_1_1_free_camera_util.html#a00d3f53bca3355a74cd8509e8a5cb0df", null ],
     [ "viewAngles", "class_render_util_1_1_free_camera_util.html#a28c92c5b6f91a51d54975de920f84b05", null ]
 ];

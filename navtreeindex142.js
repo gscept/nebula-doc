@@ -1,5 +1,9 @@
 var NAVTREEINDEX142 =
 {
+"struct_im3d_1_1_vertex_data.html#acc7fb65428dd76cf447b6eb24aa94c20":[9,0,31,22,1],
+"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[8,0,34,22,3],
+"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[9,0,31,22,3],
+"struct_im3d_1_1internal_1_1_composite_t.html":[8,0,34,0,0],
 "struct_im3d_1_1internal_1_1_composite_t.html":[9,0,31,0,0],
 "struct_im3d_1_1internal_1_1_float_t.html":[8,0,34,0,1],
 "struct_im3d_1_1internal_1_1_float_t.html":[9,0,31,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX142 =
 "struct_jobs_1_1_private_memory.html#ae7e9a0148515389b1ba56deaf44dd051":[9,0,35,11,0],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html":[8,0,41,0,0],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html":[9,0,37,0,0],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[8,0,41,0,0,4],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[9,0,37,0,0,4],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[8,0,41,0,0,5],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[9,0,37,0,0,5],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a8e63cff798aabfb36c13af058506de2a":[8,0,41,0,0,0]
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[8,0,41,0,0,4]
 };
