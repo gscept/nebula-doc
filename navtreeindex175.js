@@ -1,17 +1,5 @@
 var NAVTREEINDEX175 =
 {
-"winmemory_8h.html#ad8504a1916282a835f1e16e3912e4c87":[10,0,0,3,13,3,8,0],
-"winmemory_8h_source.html":[10,0,0,3,13,3,8],
-"world_8cc.html":[10,0,0,1,3,33],
-"world_8cc.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33":[10,0,0,1,3,33,0],
-"world_8h.html":[10,0,0,1,3,34],
-"world_8h.html#a076ce96b111e19c998dff2e8ec658339":[10,0,0,1,3,34,6],
-"world_8h_source.html":[10,0,0,1,3,34],
-"writer_8cc.html":[10,0,0,0,2,23],
-"writer_8cc.html#a97d28459a66db3c920254a27606470f2":[10,0,0,0,2,23,0],
-"writer_8h.html":[10,0,0,0,2,24],
-"writer_8h_source.html":[10,0,0,0,2,24],
-"xmlreader_8cc.html":[10,0,0,3,9,71],
 "xmlreader_8cc.html#a0b5f68e51e611582bfad2307a52b10b3":[10,0,0,3,9,71,0],
 "xmlreader_8h.html":[10,0,0,3,9,72],
 "xmlreader_8h_source.html":[10,0,0,3,9,72],

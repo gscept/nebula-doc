@@ -50,7 +50,7 @@ var searchData=
   ['graphicseventhandler_47',['graphicsEventHandler',['../class_g_l_f_w_1_1_g_l_f_w_display_device.html#ab4f3dde8cf46e64e16cb9d2f12a637c5',1,'GLFW::GLFWDisplayDevice']]],
   ['graphicsinterface_48',['graphicsInterface',['../class_app_1_1_render_application.html#aa6510b060c3e6ced1de3dcacfda4bd76',1,'App::RenderApplication']]],
   ['graphicslayout_49',['graphicsLayout',['../struct_vulkan_1_1_vk_pipeline_bundle.html#a3f18d3d88c660d63489bef1bf33829cd',1,'Vulkan::VkPipelineBundle']]],
-  ['graphicsmanagerhandle_50',['graphicsManagerHandle',['../class_graphics_feature_1_1_graphics_feature_unit.html#a322e1693a67eaebaa5ee87c9d72ab350',1,'GraphicsFeature::GraphicsFeatureUnit']]],
+  ['graphicsmanager_50',['graphicsManager',['../class_graphics_feature_1_1_graphics_feature_unit.html#a63705d2842bae96027ead1cce153977d',1,'GraphicsFeature::GraphicsFeatureUnit']]],
   ['graphicsserver_51',['graphicsServer',['../class_app_1_1_viewer_application.html#a9f676370c7e6e243df63f3bea257b928',1,'App::ViewerApplication']]],
   ['graphicsshaderinfos_52',['graphicsShaderInfos',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a30d3d895e3c057a36e07d7f7a5b9d1f4',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['grassargumentsbuffer_53',['grassArgumentsBuffer',['../namespace_vegetation.html#a4c68fc442b7d6af0b12bfdc9893a68a7',1,'Vegetation']]],

@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.12.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: Game::ManagerAPI Struct Reference</title>
+		<title>Nebula: ManagerAPI Struct Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -97,253 +97,18 @@ $(function(){initNavTree('struct_game_1_1_manager_a_p_i.html',''); initResizable
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_game_1_1_manager_a_p_i-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Game::ManagerAPI Struct Reference</div></div>
+  <div class="headertitle"><div class="title">ManagerAPI Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="manager_8h_source.html">manager.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A Manager is just a bundle of function pointers to static or global functions that is called by the <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">Game::FeatureUnit</a> it is attached to. </p>
-<p>The managers context/state can be implemented as the developer sees fit, but will most likely be some global or static singleton.</p>
+<div class="textblock"><p>Managers are objects which care about some specific functionality of a feature. </p>
+<p>They should be subclassed by applications to implement aspects of the application (mainly game play related functionality).</p>
+<p>Managers are created and triggered by game features. The frame trigger functions are invoked when the gameserver triggers the game feature.</p>
 <dl class="section see"><dt>See also</dt><dd>NebulaApplicationGameManagers</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ae38d618fff00b320042b8e195aa1055d" id="r_ae38d618fff00b320042b8e195aa1055d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38d618fff00b320042b8e195aa1055d">OnActivate</a> )() = nullptr</td></tr>
-<tr class="memdesc:ae38d618fff00b320042b8e195aa1055d"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when attached to game server  <br /></td></tr>
-<tr class="separator:ae38d618fff00b320042b8e195aa1055d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83655f0c54565a84d8087aa699a5e532" id="r_a83655f0c54565a84d8087aa699a5e532"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83655f0c54565a84d8087aa699a5e532">OnDeactivate</a> )() = nullptr</td></tr>
-<tr class="memdesc:a83655f0c54565a84d8087aa699a5e532"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when removed from game server  <br /></td></tr>
-<tr class="separator:a83655f0c54565a84d8087aa699a5e532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a143dc8a31f86568aed29c52f238efff4" id="r_a143dc8a31f86568aed29c52f238efff4"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a143dc8a31f86568aed29c52f238efff4">OnBeginFrame</a> )() = nullptr</td></tr>
-<tr class="memdesc:a143dc8a31f86568aed29c52f238efff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame by the game server  <br /></td></tr>
-<tr class="separator:a143dc8a31f86568aed29c52f238efff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc8bce1c82c13d55eb3fa134d4339d13" id="r_acc8bce1c82c13d55eb3fa134d4339d13"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc8bce1c82c13d55eb3fa134d4339d13">OnBeforeViews</a> )() = nullptr</td></tr>
-<tr class="memdesc:acc8bce1c82c13d55eb3fa134d4339d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called between begin frame and before views.  <br /></td></tr>
-<tr class="separator:acc8bce1c82c13d55eb3fa134d4339d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213db586e71375078ac76fe4bdd3fb12" id="r_a213db586e71375078ac76fe4bdd3fb12"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213db586e71375078ac76fe4bdd3fb12">OnFrame</a> )() = nullptr</td></tr>
-<tr class="memdesc:a213db586e71375078ac76fe4bdd3fb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">called per-frame by the game server  <br /></td></tr>
-<tr class="separator:a213db586e71375078ac76fe4bdd3fb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb0383b4d2cd9178dd8171cd114d47aa" id="r_acb0383b4d2cd9178dd8171cd114d47aa"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb0383b4d2cd9178dd8171cd114d47aa">OnEndFrame</a> )() = nullptr</td></tr>
-<tr class="memdesc:acb0383b4d2cd9178dd8171cd114d47aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after frame by the game server  <br /></td></tr>
-<tr class="separator:acb0383b4d2cd9178dd8171cd114d47aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfbc8d3736a35d7a97c2862162e0626e" id="r_adfbc8d3736a35d7a97c2862162e0626e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbc8d3736a35d7a97c2862162e0626e">OnDecay</a> )() = nullptr</td></tr>
-<tr class="memdesc:adfbc8d3736a35d7a97c2862162e0626e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before cleaning up managed properties decay buffers  <br /></td></tr>
-<tr class="separator:adfbc8d3736a35d7a97c2862162e0626e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f215d522f8986e00a890a958cd88106" id="r_a9f215d522f8986e00a890a958cd88106"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f215d522f8986e00a890a958cd88106">OnLoad</a> )(<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td></tr>
-<tr class="memdesc:a9f215d522f8986e00a890a958cd88106"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after loading game state  <br /></td></tr>
-<tr class="separator:a9f215d522f8986e00a890a958cd88106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783de79289d5616b85df1c66bff6741c" id="r_a783de79289d5616b85df1c66bff6741c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783de79289d5616b85df1c66bff6741c">OnSave</a> )(<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td></tr>
-<tr class="memdesc:a783de79289d5616b85df1c66bff6741c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before saving game state  <br /></td></tr>
-<tr class="separator:a783de79289d5616b85df1c66bff6741c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd9300a9f24ac97bb710cb5e4d324cd" id="r_aabd9300a9f24ac97bb710cb5e4d324cd"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabd9300a9f24ac97bb710cb5e4d324cd">OnCleanup</a> )(<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td></tr>
-<tr class="memdesc:aabd9300a9f24ac97bb710cb5e4d324cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before unloading game state  <br /></td></tr>
-<tr class="separator:aabd9300a9f24ac97bb710cb5e4d324cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf23471e60a7743b4fcfcdb8f1ebb34b" id="r_aaf23471e60a7743b4fcfcdb8f1ebb34b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf23471e60a7743b4fcfcdb8f1ebb34b">OnStart</a> )(<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td></tr>
-<tr class="memdesc:aaf23471e60a7743b4fcfcdb8f1ebb34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">called by Game::Server::Start()  <br /></td></tr>
-<tr class="separator:aaf23471e60a7743b4fcfcdb8f1ebb34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8923987d7004c14f6b31f057c5f72d08" id="r_a8923987d7004c14f6b31f057c5f72d08"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8923987d7004c14f6b31f057c5f72d08">OnRenderDebug</a> )() = nullptr</td></tr>
-<tr class="memdesc:a8923987d7004c14f6b31f057c5f72d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">render a debug visualization  <br /></td></tr>
-<tr class="separator:a8923987d7004c14f6b31f057c5f72d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae38d618fff00b320042b8e195aa1055d" name="ae38d618fff00b320042b8e195aa1055d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae38d618fff00b320042b8e195aa1055d">&#9670;&#160;</a></span>OnActivate</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnActivate) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called when attached to game server </p>
-
-</div>
-</div>
-<a id="acc8bce1c82c13d55eb3fa134d4339d13" name="acc8bce1c82c13d55eb3fa134d4339d13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc8bce1c82c13d55eb3fa134d4339d13">&#9670;&#160;</a></span>OnBeforeViews</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnBeforeViews) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Called between begin frame and before views. </p>
-
-</div>
-</div>
-<a id="a143dc8a31f86568aed29c52f238efff4" name="a143dc8a31f86568aed29c52f238efff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a143dc8a31f86568aed29c52f238efff4">&#9670;&#160;</a></span>OnBeginFrame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnBeginFrame) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called before frame by the game server </p>
-
-</div>
-</div>
-<a id="aabd9300a9f24ac97bb710cb5e4d324cd" name="aabd9300a9f24ac97bb710cb5e4d324cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabd9300a9f24ac97bb710cb5e4d324cd">&#9670;&#160;</a></span>OnCleanup</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnCleanup) (<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called before unloading game state </p>
-
-</div>
-</div>
-<a id="a83655f0c54565a84d8087aa699a5e532" name="a83655f0c54565a84d8087aa699a5e532"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83655f0c54565a84d8087aa699a5e532">&#9670;&#160;</a></span>OnDeactivate</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnDeactivate) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called when removed from game server </p>
-
-</div>
-</div>
-<a id="adfbc8d3736a35d7a97c2862162e0626e" name="adfbc8d3736a35d7a97c2862162e0626e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfbc8d3736a35d7a97c2862162e0626e">&#9670;&#160;</a></span>OnDecay</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnDecay) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called before cleaning up managed properties decay buffers </p>
-
-</div>
-</div>
-<a id="acb0383b4d2cd9178dd8171cd114d47aa" name="acb0383b4d2cd9178dd8171cd114d47aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb0383b4d2cd9178dd8171cd114d47aa">&#9670;&#160;</a></span>OnEndFrame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnEndFrame) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called after frame by the game server </p>
-
-</div>
-</div>
-<a id="a213db586e71375078ac76fe4bdd3fb12" name="a213db586e71375078ac76fe4bdd3fb12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a213db586e71375078ac76fe4bdd3fb12">&#9670;&#160;</a></span>OnFrame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnFrame) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called per-frame by the game server </p>
-
-</div>
-</div>
-<a id="a9f215d522f8986e00a890a958cd88106" name="a9f215d522f8986e00a890a958cd88106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f215d522f8986e00a890a958cd88106">&#9670;&#160;</a></span>OnLoad</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnLoad) (<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called after loading game state </p>
-
-</div>
-</div>
-<a id="a8923987d7004c14f6b31f057c5f72d08" name="a8923987d7004c14f6b31f057c5f72d08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8923987d7004c14f6b31f057c5f72d08">&#9670;&#160;</a></span>OnRenderDebug</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnRenderDebug) () = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>render a debug visualization </p>
-
-</div>
-</div>
-<a id="a783de79289d5616b85df1c66bff6741c" name="a783de79289d5616b85df1c66bff6741c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a783de79289d5616b85df1c66bff6741c">&#9670;&#160;</a></span>OnSave</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnSave) (<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called before saving game state </p>
-
-</div>
-</div>
-<a id="aaf23471e60a7743b4fcfcdb8f1ebb34b" name="aaf23471e60a7743b4fcfcdb8f1ebb34b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf23471e60a7743b4fcfcdb8f1ebb34b">&#9670;&#160;</a></span>OnStart</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* Game::ManagerAPI::OnStart) (<a class="el" href="class_game_1_1_world.html">World</a> *) = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>called by Game::Server::Start() </p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020-2024 Individual contributors, see AUTHORS file </dd></dl>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/github/workspace/code/application/game/<a class="el" href="manager_8h_source.html">manager.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -351,9 +116,9 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_manager_a_p_i.html">ManagerAPI</a></li>
+				<li class="navelem"><a class="el" href="struct_game_1_1_manager_a_p_i.html">ManagerAPI</a></li>
 				<li class="footer">
-					Generated on Mon Nov 11 2024 22:21:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Nov 12 2024 21:16:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

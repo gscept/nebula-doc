@@ -124,7 +124,7 @@ var searchData=
   ['ioserver_121',['IoServer',['../class_i_o_1_1_io_server.html#af376c735cdcde95e7830826d2b50c3d7',1,'IO::IoServer']]],
   ['irand_122',['irand',['../namespace_math.html#a7c79b7000187099c110e1555d11b4a3c',1,'Math']]],
   ['isa_123',['IsA',['../class_core_1_1_ref_counted.html#a24230554796b3177e5977cb2061a8765',1,'Core::RefCounted::IsA(const Rtti &amp;rtti) const'],['../class_core_1_1_ref_counted.html#ad899f2245d7c73ce6e3da5deee42be25',1,'Core::RefCounted::IsA(const Util::String &amp;rttiName) const'],['../class_core_1_1_ref_counted.html#a1fb6c8bbf30ab9b35232b3bc54287745',1,'Core::RefCounted::IsA(const Util::FourCC &amp;rttiFourCC) const']]],
-  ['isactive_124',['IsActive',['../class_game_1_1_feature_unit.html#a69800a7653cbaa2ebeb373281874eb29',1,'Game::FeatureUnit::IsActive()'],['../class_animation_1_1_anim_job.html#a0d48f185cc292f83f8bb692f0592ee07',1,'Animation::AnimJob::IsActive()']]],
+  ['isactive_124',['IsActive',['../class_game_1_1_feature_unit.html#a69800a7653cbaa2ebeb373281874eb29',1,'Game::FeatureUnit::IsActive()'],['../class_game_1_1_manager.html#ae5e4c19d43baca0c8ddcb5f17d2f0d89',1,'Game::Manager::IsActive()'],['../class_animation_1_1_anim_job.html#a0d48f185cc292f83f8bb692f0592ee07',1,'Animation::AnimJob::IsActive()']]],
   ['isalnum_125',['IsAlNum',['../struct_util_1_1_string.html#affd9896559e74f0651a2210e6d34ff0c',1,'Util::String']]],
   ['isalpha_126',['IsAlpha',['../class_ti_xml_base.html#ae22522b2e8e1ac43102d16394f639fc8',1,'TiXmlBase::IsAlpha()'],['../struct_util_1_1_string.html#a09b810fb15c24a5236fb0364fd7bd1a9',1,'Util::String::IsAlpha()']]],
   ['isalphanum_127',['IsAlphaNum',['../class_ti_xml_base.html#a321919055c115c78ded17f85a793f368',1,'TiXmlBase']]],

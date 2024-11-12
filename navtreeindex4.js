@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"class_animation_1_1_anim_job.html#ae1b6ef1c5c7a79bdbafce941f82888dc":[9,0,0,3,44],
+"class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3":[8,0,0,3,57],
+"class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3":[9,0,0,3,57],
 "class_animation_1_1_anim_job.html#ae905d4e08c6a520a71334052cc1de63f":[8,0,0,3,61],
 "class_animation_1_1_anim_job.html#ae905d4e08c6a520a71334052cc1de63f":[9,0,0,3,61],
 "class_animation_1_1_anim_job.html#aeb03dcb1b43f80ee65ac7664e3c2419d":[8,0,0,3,40],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "class_app_1_1_game_application.html#aa2f6a3c6b0701bc83a6c33ef0ecd69cd":[9,0,1,2,6],
 "class_app_1_1_game_application.html#abee65b64066d8b116690fcf4dfcbf861":[8,0,2,2,4],
 "class_app_1_1_game_application.html#abee65b64066d8b116690fcf4dfcbf861":[9,0,1,2,4],
-"class_app_1_1_game_application.html#ae3180e6be19de988bb8554636b95f1c7":[8,0,2,2,5],
-"class_app_1_1_game_application.html#ae3180e6be19de988bb8554636b95f1c7":[9,0,1,2,5],
-"class_app_1_1_game_application_1_1_game_app_exit_handler.html":[8,0,2,2,0],
-"class_app_1_1_game_application_1_1_game_app_exit_handler.html":[9,0,1,2,0]
+"class_app_1_1_game_application.html#ae3180e6be19de988bb8554636b95f1c7":[8,0,2,2,5]
 };

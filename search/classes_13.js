@@ -89,7 +89,7 @@ var searchData=
   ['stacktrace_86',['StackTrace',['../class_debug_1_1_stack_trace.html',1,'']]],
   ['stackwalkertostring_87',['StackWalkerToString',['../class_stack_walker_to_string.html',1,'']]],
   ['stage_88',['Stage',['../class_graphics_1_1_stage.html',1,'Graphics']]],
-  ['state_89',['State',['../struct_game_1_1_game_server_1_1_state.html',1,'Game::GameServer::State'],['../struct_game_1_1_time_manager_1_1_state.html',1,'Game::TimeManager::State']]],
+  ['state_89',['State',['../struct_game_1_1_game_server_1_1_state.html',1,'Game::GameServer::State'],['../struct_game_1_1_time_1_1_state.html',1,'Game::Time::State']]],
   ['staticmessagehandler_90',['StaticMessageHandler',['../class_messaging_1_1_static_message_handler.html',1,'Messaging']]],
   ['staticstring_91',['StaticString',['../struct_util_1_1_string_atom_table_base_1_1_static_string.html',1,'Util::StringAtomTableBase']]],
   ['staticuicontext_92',['StaticUIContext',['../class_static_u_i_1_1_static_u_i_context.html',1,'StaticUI']]],

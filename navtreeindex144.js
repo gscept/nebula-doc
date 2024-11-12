@@ -1,15 +1,5 @@
 var NAVTREEINDEX144 =
 {
-"struct_math_1_1float4.html#ac511de32cd6437e3dee96435f114fa3e":[9,0,41,9,1],
-"struct_math_1_1float4.html#ae7b2b05a57a28d4383527caa2e13bd2d":[8,0,46,9,4],
-"struct_math_1_1float4.html#ae7b2b05a57a28d4383527caa2e13bd2d":[9,0,41,9,4],
-"struct_math_1_1int2.html":[8,0,46,12],
-"struct_math_1_1int2.html":[9,0,41,12],
-"struct_math_1_1int2.html#a2e891d71c09b53177f0674aeb7b14171":[8,0,46,12,0],
-"struct_math_1_1int2.html#a2e891d71c09b53177f0674aeb7b14171":[9,0,41,12,0],
-"struct_math_1_1int2.html#a38b1d4c0384bed0d45cbdfa0c49ea5af":[8,0,46,12,2],
-"struct_math_1_1int2.html#a38b1d4c0384bed0d45cbdfa0c49ea5af":[9,0,41,12,2],
-"struct_math_1_1int2.html#a45090b652caea61cbfa5bf0a03c227dc":[8,0,46,12,1],
 "struct_math_1_1int2.html#a45090b652caea61cbfa5bf0a03c227dc":[9,0,41,12,1],
 "struct_math_1_1int3.html":[8,0,46,13],
 "struct_math_1_1int3.html":[9,0,41,13],
@@ -249,5 +239,15 @@ var NAVTREEINDEX144 =
 "struct_math_1_1quat.html#a7ddeeb8a3a5523e98acb31249c1fefb6":[9,0,41,23,6],
 "struct_math_1_1quat.html#a90f73676a30edfe11782b2cf2ab237c3":[8,0,46,23,12],
 "struct_math_1_1quat.html#a90f73676a30edfe11782b2cf2ab237c3":[9,0,41,23,12],
-"struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[8,0,46,23,3]
+"struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[8,0,46,23,3],
+"struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[9,0,41,23,3],
+"struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[8,0,46,23,18],
+"struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[9,0,41,23,18],
+"struct_math_1_1quat.html#aaa2bc98ffb4c548ead505efd3261d9a4":[8,0,46,23,19],
+"struct_math_1_1quat.html#aaa2bc98ffb4c548ead505efd3261d9a4":[9,0,41,23,19],
+"struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7":[8,0,46,23,10],
+"struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7":[9,0,41,23,10],
+"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[8,0,46,23,2],
+"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[9,0,41,23,2],
+"struct_math_1_1quat.html#ab67cf54268e54bfa7934a3570c7af0ff":[8,0,46,23,23]
 };

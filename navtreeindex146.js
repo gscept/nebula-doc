@@ -1,15 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750":[9,0,41,35,17],
-"struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7":[8,0,46,35,19],
-"struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7":[9,0,41,35,19],
-"struct_math_1_1vector.html#a3d792c01b10c0415bdadf21e7ccc3687":[8,0,46,35,29],
-"struct_math_1_1vector.html#a3d792c01b10c0415bdadf21e7ccc3687":[9,0,41,35,29],
-"struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822":[8,0,46,35,23],
-"struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822":[9,0,41,35,23],
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[8,0,46,35,3],
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[9,0,41,35,3],
-"struct_math_1_1vector.html#a5605535db505100d18ed88dc0c64acad":[8,0,46,35,6],
 "struct_math_1_1vector.html#a5605535db505100d18ed88dc0c64acad":[9,0,41,35,6],
 "struct_math_1_1vector.html#a5947958eba43f69d2925b743cadacc50":[8,0,46,35,18],
 "struct_math_1_1vector.html#a5947958eba43f69d2925b743cadacc50":[9,0,41,35,18],
@@ -249,5 +239,15 @@ var NAVTREEINDEX146 =
 "struct_mathf_1_1_color.html#a1a256fc51b256f3119b8af3af17c569e":[9,0,42,3,166],
 "struct_mathf_1_1_color.html#a1d16a992dda89d50df2596a7228ea050":[8,0,47,3,18],
 "struct_mathf_1_1_color.html#a1d16a992dda89d50df2596a7228ea050":[9,0,42,3,18],
-"struct_mathf_1_1_color.html#a1d179f3914bc599f423b1adc58a8f8bc":[8,0,47,3,79]
+"struct_mathf_1_1_color.html#a1d179f3914bc599f423b1adc58a8f8bc":[8,0,47,3,79],
+"struct_mathf_1_1_color.html#a1d179f3914bc599f423b1adc58a8f8bc":[9,0,42,3,79],
+"struct_mathf_1_1_color.html#a1ed3f0e79cf08ec71f8d357531443608":[8,0,47,3,56],
+"struct_mathf_1_1_color.html#a1ed3f0e79cf08ec71f8d357531443608":[9,0,42,3,56],
+"struct_mathf_1_1_color.html#a210197c7f08ae6220d739da9b4c8d819":[8,0,47,3,162],
+"struct_mathf_1_1_color.html#a210197c7f08ae6220d739da9b4c8d819":[9,0,42,3,162],
+"struct_mathf_1_1_color.html#a23cc9c9a138e008db269f784b64fa2b3":[8,0,47,3,45],
+"struct_mathf_1_1_color.html#a23cc9c9a138e008db269f784b64fa2b3":[9,0,42,3,45],
+"struct_mathf_1_1_color.html#a2aee606d0c4ca0b0df4d58d7b045e9ec":[8,0,47,3,93],
+"struct_mathf_1_1_color.html#a2aee606d0c4ca0b0df4d58d7b045e9ec":[9,0,42,3,93],
+"struct_mathf_1_1_color.html#a2c88993af3bf5825ece7c4fab43bb97d":[8,0,47,3,163]
 };

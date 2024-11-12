@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"class_core_1_1_rtti.html#a999e4ae9e6df49add7973d9a30eaa67d":[9,0,10,8,23],
 "class_core_1_1_rtti.html#a99f60ad3a4224f8599de4ccf1beb249e":[8,0,12,8,12],
 "class_core_1_1_rtti.html#a99f60ad3a4224f8599de4ccf1beb249e":[9,0,10,8,12],
 "class_core_1_1_rtti.html#a9be23ddf4fe296ac8de63557b7b2d166":[8,0,12,8,15],
@@ -19,8 +18,8 @@ var NAVTREEINDEX15 =
 "class_core_1_1_rtti.html#af26b3ee1ec06ca39320df79537ffaad6":[9,0,10,8,4],
 "class_core_1_1_rtti.html#aff5493aa054f61c337e466debb54091b":[8,0,12,8,7],
 "class_core_1_1_rtti.html#aff5493aa054f61c337e466debb54091b":[9,0,10,8,7],
-"class_core_1_1_singleton.html":[9,0,149],
-"class_core_1_1_sys_func.html":[9,0,157],
+"class_core_1_1_singleton.html":[9,0,150],
+"class_core_1_1_sys_func.html":[9,0,158],
 "class_core_animation_1_1_anim_clip.html":[8,0,13,4],
 "class_core_animation_1_1_anim_clip.html":[9,0,11,4],
 "class_core_animation_1_1_anim_clip.html#a2671f22a542d1efd09b36ba412f3c349":[8,0,13,4,6],
@@ -242,12 +241,13 @@ var NAVTREEINDEX15 =
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcc2ff65955345f53050eb0cb2c502c5":[9,0,11,24,0,4],
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcf087416ba56c23dd69ca94c31e914f":[8,0,13,24,0,1],
 "class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcf087416ba56c23dd69ca94c31e914f":[9,0,11,24,0,1],
-"class_core_animation_1_1_stream_animation_loader.html":[9,0,154],
+"class_core_animation_1_1_stream_animation_loader.html":[9,0,155],
 "class_core_graphics_1_1_adapter.html":[8,0,14,4],
 "class_core_graphics_1_1_adapter.html":[9,0,12,3],
 "class_core_graphics_1_1_adapter.html#a02dd30505bc0838dec360ea0e0fa4114":[8,0,14,4,1],
 "class_core_graphics_1_1_adapter.html#a02dd30505bc0838dec360ea0e0fa4114":[9,0,12,3,1],
 "class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111d":[8,0,14,4,0],
 "class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111d":[9,0,12,3,0],
-"class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111da1fc6537c011b00bafaf936ddc1961afd":[8,0,14,4,0,1]
+"class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111da1fc6537c011b00bafaf936ddc1961afd":[8,0,14,4,0,1],
+"class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111da1fc6537c011b00bafaf936ddc1961afd":[9,0,12,3,0,1]
 };

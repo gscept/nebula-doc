@@ -224,7 +224,7 @@ var searchData=
   ['setgloballight_221',['SetGlobalLight',['../class_lighting_1_1_c_s_m_util.html#a3a8d238440ce936b4548cf54611bb74a',1,'Lighting::CSMUtil']]],
   ['setgloballighttransform_222',['SetGlobalLightTransform',['../class_lighting_1_1_light_context.html#a7b500da9c69fd780112318edeb560af7',1,'Lighting::LightContext']]],
   ['setgloballightviewprojtransform_223',['SetGlobalLightViewProjTransform',['../class_lighting_1_1_light_context.html#a47660f237a712504b4ed36335c7d0e4c',1,'Lighting::LightContext']]],
-  ['setglobaltimefactor_224',['SetGlobalTimeFactor',['../namespace_game_1_1_time_manager.html#aafc474ad355ec86c18b44ea8fbe6a900',1,'Game::TimeManager']]],
+  ['setglobaltimefactor_224',['SetGlobalTimeFactor',['../namespace_game_1_1_time.html#a8bbec80ba5d33bf0e03ae758501d6755',1,'Game::Time']]],
   ['setglobalturbidity_225',['SetGlobalTurbidity',['../class_fog_1_1_volumetric_fog_context.html#a736a7c3a9b562ac285631c12085dae50',1,'Fog::VolumetricFogContext']]],
   ['setgoal_226',['SetGoal',['../class_math_1_1_angular_p_feedback_loop.html#ada9708937a598c1da154b03d818c92e3',1,'Math::AngularPFeedbackLoop::SetGoal()'],['../class_math_1_1_p_feedback_loop.html#acb82048f9fb389d7887ff05384c752e6',1,'Math::PFeedbackLoop::SetGoal()'],['../class_math_1_1_p_i_d_feedback_loop.html#a31b90eb7d0c3694773057d15aa260e2b',1,'Math::PIDFeedbackLoop::SetGoal()']]],
   ['setgraphicsdebugging_227',['SetGraphicsDebugging',['../class_graphics_feature_1_1_graphics_feature_unit.html#a9b26b90dc72e3657c2f6a752d4e1f9b6',1,'GraphicsFeature::GraphicsFeatureUnit']]],

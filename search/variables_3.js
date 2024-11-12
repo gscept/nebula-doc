@@ -16,7 +16,7 @@ var searchData=
   ['camera_13',['camera',['../class_app_1_1_viewer_application.html#a3e58ab42cfd0b1d1a7d531d3ba28e445',1,'App::ViewerApplication::camera'],['../class_graphics_1_1_view.html#a4b5bfeda37071171e731676696b7e646',1,'Graphics::View::camera']]],
   ['cameraallocator_14',['cameraAllocator',['../class_graphics_1_1_camera_context.html#ac24164f617361d116566eceebda414c4',1,'Graphics::CameraContext']]],
   ['cameraentity_15',['cameraEntity',['../class_lighting_1_1_c_s_m_util.html#a5cb3a12de8059f98ca9f517dd78eb3e9',1,'Lighting::CSMUtil']]],
-  ['cameramanagerhandle_16',['cameraManagerHandle',['../class_graphics_feature_1_1_graphics_feature_unit.html#aa248797a53d0f335811b86a5558d6a18',1,'GraphicsFeature::GraphicsFeatureUnit']]],
+  ['cameramanager_16',['cameraManager',['../class_graphics_feature_1_1_graphics_feature_unit.html#aa220ebeecff3629862a5dd25f8a54fe5',1,'GraphicsFeature::GraphicsFeatureUnit']]],
   ['cameratransform_17',['cameraTransform',['../class_render_util_1_1_free_camera_util.html#a61b14e504a40a685d3505f93decf71d0',1,'RenderUtil::FreeCameraUtil::cameraTransform'],['../class_render_util_1_1_maya_camera_util.html#a00f17d4f968b6701477a9aac63cb1794',1,'RenderUtil::MayaCameraUtil::cameraTransform']]],
   ['canvasheight_18',['canvasHeight',['../class_http_1_1_svg_page_writer.html#ad496bf086778ca64dd7fc40f3724e90c',1,'Http::SvgPageWriter']]],
   ['canvaswidth_19',['canvasWidth',['../class_http_1_1_svg_page_writer.html#a195580b8bae70a3f3931cdef420e796d',1,'Http::SvgPageWriter']]],

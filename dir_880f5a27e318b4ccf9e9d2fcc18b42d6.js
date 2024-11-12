@@ -28,7 +28,7 @@ var dir_880f5a27e318b4ccf9e9d2fcc18b42d6 =
     [ "frameevent.h", "application_2game_2frameevent_8h.html", "application_2game_2frameevent_8h" ],
     [ "gameserver.cc", "gameserver_8cc.html", "gameserver_8cc" ],
     [ "gameserver.h", "gameserver_8h.html", "gameserver_8h" ],
-    [ "manager.cc", "manager_8cc.html", null ],
+    [ "manager.cc", "manager_8cc.html", "manager_8cc" ],
     [ "manager.h", "manager_8h.html", "manager_8h" ],
     [ "processor.cc", "processor_8cc.html", null ],
     [ "processor.h", "processor_8h.html", "processor_8h" ],

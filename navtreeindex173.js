@@ -1,17 +1,5 @@
 var NAVTREEINDEX173 =
 {
-"vkshader_8cc.html#a07f663b210509fc69bc86f3e6c155472":[10,0,0,6,5,5,42,20],
-"vkshader_8cc.html#a0ae4d4d57550c8f850422f4a66112efb":[10,0,0,6,5,5,42,5],
-"vkshader_8cc.html#a0bc04710eb3962c274957f5b62f5ac63":[10,0,0,6,5,5,42,7],
-"vkshader_8cc.html#a124c6bbd44811cbbb51b6c2c30269bf4":[10,0,0,6,5,5,42,42],
-"vkshader_8cc.html#a18d382f43282a8da4e9cb134bc51c3ec":[10,0,0,6,5,5,42,30],
-"vkshader_8cc.html#a1e7cc94877a73c12393c3ec2c4dac6f0":[10,0,0,6,5,5,42,26],
-"vkshader_8cc.html#a1f10f2fc74273ce8f2745c056c5d8e88":[10,0,0,6,5,5,42,27],
-"vkshader_8cc.html#a2e73a526edd8136eaf540e4d8ffa52f1":[10,0,0,6,5,5,42,4],
-"vkshader_8cc.html#a3872c11ac0392d504b101f815c4708bb":[10,0,0,6,5,5,42,35],
-"vkshader_8cc.html#a3bfd75ea3ef475736e3bdf23d4c2d75c":[10,0,0,6,5,5,42,18],
-"vkshader_8cc.html#a3c7fa14c0559e365ef6846d577a9b499":[10,0,0,6,5,5,42,41],
-"vkshader_8cc.html#a4352ed4f576df9dbb30d0271189dd765":[10,0,0,6,5,5,42,16],
 "vkshader_8cc.html#a46f9ae4c7d8e3d00921da599d936967d":[10,0,0,6,5,5,42,13],
 "vkshader_8cc.html#a507da60a4bcdaddecec4923b059114d5":[10,0,0,6,5,5,42,24],
 "vkshader_8cc.html#a526e2fce2a12e14a60c4c5fb94153fc8":[10,0,0,6,5,5,42,28],
@@ -249,5 +237,17 @@ var NAVTREEINDEX173 =
 "weakptr_8h.html":[10,0,0,3,1,26],
 "weakptr_8h_source.html":[10,0,0,3,1,26],
 "win32barrier_8h.html":[10,0,0,3,18,6,0],
-"win32barrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,18,6,0,0]
+"win32barrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,18,6,0,0],
+"win32barrier_8h_source.html":[10,0,0,3,18,6,0],
+"win32calendartime_8cc.html":[10,0,0,3,19,3,0],
+"win32calendartime_8h.html":[10,0,0,3,19,3,1],
+"win32calendartime_8h.html#a58fdec10f062d5648ad4749e41993f32":[10,0,0,3,19,3,1,1],
+"win32calendartime_8h_source.html":[10,0,0,3,19,3,1],
+"win32consolehandler_8cc.html":[10,0,0,3,9,7,0],
+"win32consolehandler_8cc.html#a0b81bd59f6ffce05eaf754337f16a060":[10,0,0,3,9,7,0,0],
+"win32consolehandler_8h.html":[10,0,0,3,9,7,1],
+"win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
+"win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
+"win32cpu_8h.html":[10,0,0,3,17,4,0],
+"win32cpu_8h_source.html":[10,0,0,3,17,4,0]
 };

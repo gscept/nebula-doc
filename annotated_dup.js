@@ -420,9 +420,9 @@ var annotated_dup =
       [ "FrameSyncTimer", "class_frame_sync_1_1_frame_sync_timer.html", "class_frame_sync_1_1_frame_sync_timer" ]
     ] ],
     [ "Game", "namespace_game.html", [
-      [ "TimeManager", "namespace_game_1_1_time_manager.html", [
-        [ "State", "struct_game_1_1_time_manager_1_1_state.html", "struct_game_1_1_time_manager_1_1_state" ],
-        [ "TimeSourceState", "struct_game_1_1_time_manager_1_1_time_source_state.html", "struct_game_1_1_time_manager_1_1_time_source_state" ]
+      [ "Time", "namespace_game_1_1_time.html", [
+        [ "State", "struct_game_1_1_time_1_1_state.html", "struct_game_1_1_time_1_1_state" ],
+        [ "TimeSourceState", "struct_game_1_1_time_1_1_time_source_state.html", "struct_game_1_1_time_1_1_time_source_state" ]
       ] ],
       [ "AngularVelocity", "struct_game_1_1_angular_velocity.html", "struct_game_1_1_angular_velocity" ],
       [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
@@ -444,8 +444,7 @@ var annotated_dup =
       [ "FrameEvent", "class_game_1_1_frame_event.html", "class_game_1_1_frame_event" ],
       [ "FramePipeline", "class_game_1_1_frame_pipeline.html", "class_game_1_1_frame_pipeline" ],
       [ "GameServer", "class_game_1_1_game_server.html", "class_game_1_1_game_server" ],
-      [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", "struct_game_1_1_manager_a_p_i" ],
-      [ "ManagerHandle", "struct_game_1_1_manager_handle.html", null ],
+      [ "Manager", "class_game_1_1_manager.html", "class_game_1_1_manager" ],
       [ "Message", "class_game_1_1_message.html", "class_game_1_1_message" ],
       [ "MessageListener", "struct_game_1_1_message_listener.html", "struct_game_1_1_message_listener" ],
       [ "MessageListenerId", "struct_game_1_1_message_listener_id.html", null ],
@@ -458,6 +457,7 @@ var annotated_dup =
       [ "ProcessorJobInput", "struct_game_1_1_processor_job_input.html", "struct_game_1_1_processor_job_input" ],
       [ "Scale", "struct_game_1_1_scale.html", "struct_game_1_1_scale" ],
       [ "TemplateId", "struct_game_1_1_template_id.html", null ],
+      [ "TimeManager", "class_game_1_1_time_manager.html", "class_game_1_1_time_manager" ],
       [ "TimeSource", "struct_game_1_1_time_source.html", "struct_game_1_1_time_source" ],
       [ "TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", "struct_game_1_1_time_source_create_info" ],
       [ "Velocity", "struct_game_1_1_velocity.html", "struct_game_1_1_velocity" ],
@@ -1239,6 +1239,7 @@ var annotated_dup =
     [ "Library", "class_system_1_1_library.html", null ],
     [ "LinuxThreadId", "class_linux_1_1_linux_thread_id.html", null ],
     [ "ListExt", "class_list_ext.html", "class_list_ext" ],
+    [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", null ],
     [ "MemoryPool", "class_memory_1_1_memory_pool.html", null ],
     [ "MiniDump", "class_debug_1_1_mini_dump.html", null ],
     [ "NebulaSettings", "class_system_1_1_nebula_settings.html", null ],

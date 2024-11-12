@@ -1,15 +1,5 @@
 var NAVTREEINDEX150 =
 {
-"struct_mathf_1_1_quaternion.html#ac43256b93dc67888f8b450958dbe59d1":[9,0,42,9,54],
-"struct_mathf_1_1_quaternion.html#ac97286ce1ff800ea067904f923111057":[8,0,47,9,18],
-"struct_mathf_1_1_quaternion.html#ac97286ce1ff800ea067904f923111057":[9,0,42,9,18],
-"struct_mathf_1_1_quaternion.html#acbaabde1c2211762604f472fd7d16579":[8,0,47,9,26],
-"struct_mathf_1_1_quaternion.html#acbaabde1c2211762604f472fd7d16579":[9,0,42,9,26],
-"struct_mathf_1_1_quaternion.html#ace017390c479ffd0420ac9d41dfe5e0e":[8,0,47,9,44],
-"struct_mathf_1_1_quaternion.html#ace017390c479ffd0420ac9d41dfe5e0e":[9,0,42,9,44],
-"struct_mathf_1_1_quaternion.html#acefe6b28b799413b5cbf54f8773b3c9c":[8,0,47,9,36],
-"struct_mathf_1_1_quaternion.html#acefe6b28b799413b5cbf54f8773b3c9c":[9,0,42,9,36],
-"struct_mathf_1_1_quaternion.html#ad00d90f8d06a2efad4242f83d8ff7517":[8,0,47,9,39],
 "struct_mathf_1_1_quaternion.html#ad00d90f8d06a2efad4242f83d8ff7517":[9,0,42,9,39],
 "struct_mathf_1_1_quaternion.html#ad5f7543df41369f9b7cdeabf939ee6c7":[8,0,47,9,43],
 "struct_mathf_1_1_quaternion.html#ad5f7543df41369f9b7cdeabf939ee6c7":[9,0,42,9,43],
@@ -249,5 +239,15 @@ var NAVTREEINDEX150 =
 "struct_mathf_1_1_vector2.html#a8de81e23d9cf50d45dff50d382c8d83e":[9,0,42,12,52],
 "struct_mathf_1_1_vector2.html#a8efa6ecd9a2984852db92a1764506f98":[8,0,47,12,47],
 "struct_mathf_1_1_vector2.html#a8efa6ecd9a2984852db92a1764506f98":[9,0,42,12,47],
-"struct_mathf_1_1_vector2.html#a902d3add3ba400e8494004a733165c64":[8,0,47,12,46]
+"struct_mathf_1_1_vector2.html#a902d3add3ba400e8494004a733165c64":[8,0,47,12,46],
+"struct_mathf_1_1_vector2.html#a902d3add3ba400e8494004a733165c64":[9,0,42,12,46],
+"struct_mathf_1_1_vector2.html#a956563e3e9ab2f10c051f8fd25e4856e":[8,0,47,12,45],
+"struct_mathf_1_1_vector2.html#a956563e3e9ab2f10c051f8fd25e4856e":[9,0,42,12,45],
+"struct_mathf_1_1_vector2.html#a9592479f48bab21ca9c4257a8c7fd339":[8,0,47,12,57],
+"struct_mathf_1_1_vector2.html#a9592479f48bab21ca9c4257a8c7fd339":[9,0,42,12,57],
+"struct_mathf_1_1_vector2.html#a9a7de53d0ffc943fef3020b5d87a12dc":[8,0,47,12,26],
+"struct_mathf_1_1_vector2.html#a9a7de53d0ffc943fef3020b5d87a12dc":[9,0,42,12,26],
+"struct_mathf_1_1_vector2.html#a9b081329600037ce458febe8629dee1c":[8,0,47,12,25],
+"struct_mathf_1_1_vector2.html#a9b081329600037ce458febe8629dee1c":[9,0,42,12,25],
+"struct_mathf_1_1_vector2.html#a9bded400fe11f925b9ba906e5f0dface":[8,0,47,12,91]
 };

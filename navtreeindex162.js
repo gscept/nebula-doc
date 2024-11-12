@@ -1,15 +1,5 @@
 var NAVTREEINDEX162 =
 {
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html":[9,0,72,20,6],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#a4534a51076854397fadd24fcaa22e4d5":[8,0,84,20,6,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#a4534a51076854397fadd24fcaa22e4d5":[9,0,72,20,6,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#aaa0ef60380076a2a0c08c7dbbde9d553":[8,0,84,20,6,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#aaa0ef60380076a2a0c08c7dbbde9d553":[9,0,72,20,6,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#abfe801bed9bda292db5dd50bed99baa7":[8,0,84,20,6,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_compute_pipeline_bind_command.html#abfe801bed9bda292db5dd50bed99baa7":[9,0,72,20,6,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html":[8,0,84,20,7],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html":[9,0,72,20,7],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6a4b1e90470515f0b3cc04b99c5c2132":[8,0,84,20,7,2],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6a4b1e90470515f0b3cc04b99c5c2132":[9,0,72,20,7,2],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6e3e9417413b562c51b5fd9a24d2c489":[8,0,84,20,7,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6e3e9417413b562c51b5fd9a24d2c489":[9,0,72,20,7,0],
@@ -249,5 +239,15 @@ var NAVTREEINDEX162 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#a5e37bab5a958ec21b69f9941cc4145cc":[9,0,72,20,30,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#a8cf40b2eb7a78b8dfc7270cddddef552":[8,0,84,20,30,2],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#a8cf40b2eb7a78b8dfc7270cddddef552":[9,0,72,20,30,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#ac1574908608f6d34ef9ffc68d1c48df6":[8,0,84,20,30,1]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#ac1574908608f6d34ef9ffc68d1c48df6":[8,0,84,20,30,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#ac1574908608f6d34ef9ffc68d1c48df6":[9,0,72,20,30,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#af8b25e62230cbed0289cd0e23a307430":[8,0,84,20,30,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html#af8b25e62230cbed0289cd0e23a307430":[9,0,72,20,30,0],
+"struct_vulkan_1_1_vk_deferred_command.html":[8,0,84,21],
+"struct_vulkan_1_1_vk_deferred_command.html":[9,0,72,21],
+"struct_vulkan_1_1_vk_deferred_command.html#a024aaaf34b660a86e101fd790ddf2b3d":[8,0,84,21,4],
+"struct_vulkan_1_1_vk_deferred_command.html#a024aaaf34b660a86e101fd790ddf2b3d":[9,0,72,21,4],
+"struct_vulkan_1_1_vk_deferred_command.html#a34fd44e835fd114d8786783c9e6fe7a9":[8,0,84,21,3],
+"struct_vulkan_1_1_vk_deferred_command.html#a34fd44e835fd114d8786783c9e6fe7a9":[9,0,72,21,3],
+"struct_vulkan_1_1_vk_deferred_command.html#a442aa17d91d6b90e2506f2450b88b7d1":[8,0,84,21,2]
 };

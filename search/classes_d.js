@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['managerapi_0',['ManagerAPI',['../struct_game_1_1_manager_a_p_i.html',1,'Game']]],
-  ['managerhandle_1',['ManagerHandle',['../struct_game_1_1_manager_handle.html',1,'Game']]],
+  ['manager_0',['Manager',['../class_game_1_1_manager.html',1,'Game']]],
+  ['managerapi_1',['ManagerAPI',['../struct_game_1_1_manager_a_p_i.html',1,'']]],
   ['mat3_2',['Mat3',['../struct_im3d_1_1_mat3.html',1,'Im3d']]],
   ['mat4_3',['Mat4',['../struct_im3d_1_1_mat4.html',1,'Im3d']]],
   ['mat4_4',['mat4',['../struct_math_1_1mat4.html',1,'Math']]],

@@ -1,15 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"struct_im3d_1_1_mat3.html#a5d4327ef2b6d3aa52def5b14ffbab74d":[9,0,31,11,8],
-"struct_im3d_1_1_mat3.html#a772a0fd6d0cfbcd3459fb2bb3a951264":[8,0,34,11,0],
-"struct_im3d_1_1_mat3.html#a772a0fd6d0cfbcd3459fb2bb3a951264":[9,0,31,11,0],
-"struct_im3d_1_1_mat3.html#a864e6fe89b82b02759e548f6f996a795":[8,0,34,11,12],
-"struct_im3d_1_1_mat3.html#a864e6fe89b82b02759e548f6f996a795":[9,0,31,11,12],
-"struct_im3d_1_1_mat3.html#a8dc207fb0ebbc1b024015fc201628581":[8,0,34,11,5],
-"struct_im3d_1_1_mat3.html#a8dc207fb0ebbc1b024015fc201628581":[9,0,31,11,5],
-"struct_im3d_1_1_mat3.html#a8e28fdde3fe22b933c649e6c53a26983":[8,0,34,11,11],
-"struct_im3d_1_1_mat3.html#a8e28fdde3fe22b933c649e6c53a26983":[9,0,31,11,11],
-"struct_im3d_1_1_mat3.html#aaf9edbb753eaa31944a93a58607c8e56":[8,0,34,11,2],
 "struct_im3d_1_1_mat3.html#aaf9edbb753eaa31944a93a58607c8e56":[9,0,31,11,2],
 "struct_im3d_1_1_mat3.html#ab150f4170a325cca1947b46b183b35b5":[8,0,34,11,6],
 "struct_im3d_1_1_mat3.html#ab150f4170a325cca1947b46b183b35b5":[9,0,31,11,6],
@@ -249,5 +239,15 @@ var NAVTREEINDEX141 =
 "struct_im3d_1_1_vertex_data.html#a6819f53c1d6386d005c5e4766b4b301e":[9,0,31,22,0],
 "struct_im3d_1_1_vertex_data.html#ac422e9cd061bfcd7321f672096bca27e":[8,0,34,22,2],
 "struct_im3d_1_1_vertex_data.html#ac422e9cd061bfcd7321f672096bca27e":[9,0,31,22,2],
-"struct_im3d_1_1_vertex_data.html#acc7fb65428dd76cf447b6eb24aa94c20":[8,0,34,22,1]
+"struct_im3d_1_1_vertex_data.html#acc7fb65428dd76cf447b6eb24aa94c20":[8,0,34,22,1],
+"struct_im3d_1_1_vertex_data.html#acc7fb65428dd76cf447b6eb24aa94c20":[9,0,31,22,1],
+"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[8,0,34,22,3],
+"struct_im3d_1_1_vertex_data.html#aff59be7b7996a25ef954dfbf75b52463":[9,0,31,22,3],
+"struct_im3d_1_1internal_1_1_composite_t.html":[8,0,34,0,0],
+"struct_im3d_1_1internal_1_1_composite_t.html":[9,0,31,0,0],
+"struct_im3d_1_1internal_1_1_float_t.html":[8,0,34,0,1],
+"struct_im3d_1_1internal_1_1_float_t.html":[9,0,31,0,1],
+"struct_im3d_1_1internal_1_1_int_t.html":[8,0,34,0,2],
+"struct_im3d_1_1internal_1_1_int_t.html":[9,0,31,0,2],
+"struct_im3d_1_1internal_1_1_mat_t.html":[8,0,34,0,3]
 };

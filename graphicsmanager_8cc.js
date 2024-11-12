@@ -1,6 +1,6 @@
 var graphicsmanager_8cc =
 [
-    [ "__ImplementSingleton", "graphicsmanager_8cc.html#a62012029d73a813f22b98257dc7cc9d5", null ],
+    [ "__ImplementClass", "graphicsmanager_8cc.html#a0582dcbf4a3ffc8dace2fd718d19956a", null ],
     [ "DeregisterLight", "graphicsmanager_8cc.html#a91f0367616e0ee630b36f8f8536904a7", null ],
     [ "DeregisterModelEntity", "graphicsmanager_8cc.html#a3970d9c01daef3582c895e23b0702add", null ],
     [ "IO::JsonReader::Get< Graphics::GraphicsEntityId >", "graphicsmanager_8cc.html#a612dbaba526f0b21cb57e40ff782b31a", null ],

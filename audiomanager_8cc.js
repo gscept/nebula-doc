@@ -1,5 +1,6 @@
 var audiomanager_8cc =
 [
+    [ "__ImplementClass", "audiomanager_8cc.html#abce06dca8ce3746074e6e2259f24b0db", null ],
     [ "__ImplementSingleton", "audiomanager_8cc.html#a8c64b95e60bf5d1211f39248b12ddad9", null ],
     [ "HandlePlayAudioEvent", "audiomanager_8cc.html#aa34437b4992bbddfec2236a58724d0cd", null ],
     [ "HandlePlaySpatialAudioEvent", "audiomanager_8cc.html#a6e80d4e9fb0a4343bf400006176ab99b", null ],
