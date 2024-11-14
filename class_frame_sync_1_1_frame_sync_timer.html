@@ -110,7 +110,7 @@ $(function(){initNavTree('class_frame_sync_1_1_frame_sync_timer.html',''); initR
 <p><code>#include &lt;<a class="el" href="framesynctimer_8h_source.html">framesynctimer.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A thread-local time source object which is synchronized with the sync point in the FrameSyncHandlerThread. </p>
-<p>Time values are thread-locally cached and thus no thread-synchronization is necessary when reading time values. <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html" title="A thread-local time source object which is synchronized with the sync point in the FrameSyncHandlerTh...">FrameSyncTimer</a> objects are updated inside the FrameSyncHandler::ArriveAtSyncPoint() method.</p>
+<p><a class="el" href="namespace_time.html" title="These are the standard time source objects provided by Application layer:">Time</a> values are thread-locally cached and thus no thread-synchronization is necessary when reading time values. <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html" title="A thread-local time source object which is synchronized with the sync point in the FrameSyncHandlerTh...">FrameSyncTimer</a> objects are updated inside the FrameSyncHandler::ArriveAtSyncPoint() method.</p>
 <p>Threads interested in the master time create a <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html" title="A thread-local time source object which is synchronized with the sync point in the FrameSyncHandlerTh...">FrameSyncTimer</a> singleton and register it with FrameSyncHandlerThread through the GraphicsInterface singleton.</p>
 <p>Please note that when calling the Start()/Stop()/Reset() methods, that the ENTIRE master time will be affected (these methods go straight through to the FrameSyncHandler object).</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2009 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
@@ -1036,7 +1036,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_frame_sync.html">FrameSync</a></li><li class="navelem"><a class="el" href="class_frame_sync_1_1_frame_sync_timer.html">FrameSyncTimer</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 19:21:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Nov 14 2024 22:10:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

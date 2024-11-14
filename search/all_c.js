@@ -86,7 +86,7 @@ var searchData=
   ['lessfrag_83',['LessFrag',['../class_db_1_1_sqlite3_filter_set.html#ab033968f4eaf5b73b3397cf92328e7a2',1,'Db::Sqlite3FilterSet']]],
   ['lessorequalcompare_84',['LessOrEqualCompare',['../namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656adbb5f0be4ec07ce13a6c57b1b9b6cdee',1,'CoreGraphics']]],
   ['letters_85',['Letters',['../class_input_1_1_key.html#a7c40d7f95cb4ee2fa9c66b2100a09bfea46c9cb1c1e8f2099fbc34421316296f2',1,'Input::Key']]],
-  ['level_86',['Level',['../class_level.html',1,'Level'],['../class_util_1_1_quad_tree_1_1_node.html#ae2c0e91a86c40eb6090df4e0e738b1f9',1,'Util::QuadTree::Node::Level() const']]],
+  ['level_86',['Level',['../class_util_1_1_quad_tree_1_1_node.html#ae2c0e91a86c40eb6090df4e0e738b1f9',1,'Util::QuadTree::Node']]],
   ['level_87',['level',['../class_util_1_1_quad_tree_1_1_node.html#ab0560e81a939ce8fe5055e94a9ea5a44',1,'Util::QuadTree::Node']]],
   ['level_20interface_88',['The Graphics High-level Interface',['../_graphics.html#NebulaGraphicsSystem',1,'']]],
   ['level_2ecc_89',['level.cc',['../level_8cc.html',1,'']]],

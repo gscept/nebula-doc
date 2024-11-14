@@ -6,6 +6,8 @@ var class_memory_1_1_range_allocator =
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html#aa6a0387994eef32907ee3536f066f2db", null ],
     [ "~RangeAllocator", "class_memory_1_1_range_allocator.html#a039573073c71852bdbcd13e77616a198", null ],
     [ "Alloc", "class_memory_1_1_range_allocator.html#ab19da88005520fc6331345a4b0b212b6", null ],
+    [ "BinFromSize", "class_memory_1_1_range_allocator.html#a142020bbffb75574ab122c5e8392498b", null ],
+    [ "BucketFromSize", "class_memory_1_1_range_allocator.html#a3cf87219ad0c57d3aeb80c549803eb52", null ],
     [ "Clear", "class_memory_1_1_range_allocator.html#a0e4abb8e176f8e7432556f15e30ca322", null ],
     [ "Dealloc", "class_memory_1_1_range_allocator.html#ae1436f45cf48b9bcbb02e751916fc878", null ],
     [ "Empty", "class_memory_1_1_range_allocator.html#aa24d1617e2a3fdcaffe6ad6951245cc0", null ],
@@ -19,5 +21,7 @@ var class_memory_1_1_range_allocator =
     [ "freeNodes", "class_memory_1_1_range_allocator.html#adac2fc7246da52d5a045da181cd466c4", null ],
     [ "freeStorage", "class_memory_1_1_range_allocator.html#ac4daf378313faa04030d21f69b6b98e4", null ],
     [ "nodes", "class_memory_1_1_range_allocator.html#a193439f1b4b3e9f89c1fb2729e5691b2", null ],
+    [ "NUM_BINS_PER_BUCKET", "class_memory_1_1_range_allocator.html#a4b91d70509f474ef524654bdf9e141d0", null ],
+    [ "NUM_BUCKETS", "class_memory_1_1_range_allocator.html#a3b8880b36cc72be8e7d3fe8bbdb0fc3b", null ],
     [ "size", "class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4", null ]
 ];

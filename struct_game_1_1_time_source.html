@@ -106,8 +106,13 @@ $(function(){initNavTree('struct_game_1_1_time_source.html',''); initResizable(t
 
 <p><code>#include &lt;<a class="el" href="timemanager_8h_source.html">timemanager.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A generic time source POD struct which is created and deleted by the <a class="el" href="class_game_1_1_time_manager.html">TimeManager</a>. </p>
-<p>You can get TimeSources by calling the Game::TimeManager::GetTimeSource function. </p>
+<div class="textblock"><p>An object that keeps track of running time and frame time (delta time). </p>
+<p>Each time source tracks its own time independently from the other time sources, they can also be paused and unpaused independentlty from each other, and they may also run faster or slower then realtime.</p>
+<dl class="section note"><dt>Note</dt><dd>You should never create TimeSources by using <code>new</code>. Instead, use <a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470" title="create a timesource. The global time manager handles the timesources.">Game::Time::CreateTimeSource</a>.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo</a></b></dt><dd>These are currently not thread safe.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470" title="create a timesource. The global time manager handles the timesources.">Game::Time::CreateTimeSource</a> </dd>
+<dd>
+<a class="el" href="namespace_game_1_1_time.html#aeb1fa870d1519db57e65d3ce34d872c1" title="get a time source by hash">Game::Time::GetTimeSource</a> </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -218,7 +223,7 @@ Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 19:21:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Nov 14 2024 22:10:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

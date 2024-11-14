@@ -1,7 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"sqlite3database_8h.html#aef8e81865e93304692d59ad69a28d41f":[10,0,0,0,2,0,3,2],
-"sqlite3database_8h.html#af3a2c5f686b1d73863841c7b06abf17f":[10,0,0,0,2,0,3,10],
 "sqlite3database_8h.html#af8b50b3a799f9eef398efcbc2b9da55c":[10,0,0,0,2,0,3,6],
 "sqlite3database_8h_source.html":[10,0,0,0,2,0,3],
 "sqlite3dataset_8cc.html":[10,0,0,0,2,0,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX127 =
 "struct_base_1_1_game_pad_base_1_1_button_state.html#aa3231cd41d5761a6d286b1748348ab23":[9,0,5,3,0,1],
 "struct_base_1_1_mouse_base_1_1_button_state.html":[8,0,6,9,0],
 "struct_base_1_1_mouse_base_1_1_button_state.html":[9,0,5,9,0],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[8,0,6,9,0,2]
+"struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[8,0,6,9,0,2],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[9,0,5,9,0,2],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[8,0,6,9,0,0]
 };

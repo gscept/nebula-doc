@@ -1,7 +1,11 @@
 var namespace_game =
 [
-    [ "Time", "namespace_game_1_1_time.html", "namespace_game_1_1_time" ],
-    [ "TimeManager", "namespace_game_1_1_time_manager.html", null ],
+    [ "Time", "namespace_game_1_1_time.html", [
+      [ "CreateTimeSource", "namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470", null ],
+      [ "GetGlobalTimeFactor", "namespace_game_1_1_time.html#af53a59836f71c8772f25f2c726422b62", null ],
+      [ "GetTimeSource", "namespace_game_1_1_time.html#aeb1fa870d1519db57e65d3ce34d872c1", null ],
+      [ "SetGlobalTimeFactor", "namespace_game_1_1_time.html#a8bbec80ba5d33bf0e03ae758501d6755", null ]
+    ] ],
     [ "AngularVelocity", "struct_game_1_1_angular_velocity.html", "struct_game_1_1_angular_velocity" ],
     [ "BlueprintId", "struct_game_1_1_blueprint_id.html", null ],
     [ "BlueprintManager", "class_game_1_1_blueprint_manager.html", "class_game_1_1_blueprint_manager" ],

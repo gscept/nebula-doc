@@ -13,7 +13,8 @@ var indexSectionsWithContent =
   10: "ow",
   11: "_abcdefghiklmnopqrstvwz",
   12: "_abcdefghijlmnoprstuvwx",
-  13: "abcdefghijlmnprstu"
+  13: "bcg",
+  14: "abcdefghijlmnprstu"
 };
 
 var indexSectionNames =
@@ -31,7 +32,8 @@ var indexSectionNames =
   10: "events",
   11: "related",
   12: "defines",
-  13: "pages"
+  13: "groups",
+  14: "pages"
 };
 
 var indexSectionLabels =
@@ -49,6 +51,7 @@ var indexSectionLabels =
   10: "Events",
   11: "Friends",
   12: "Macros",
-  13: "Pages"
+  13: "Modules",
+  14: "Pages"
 };
 

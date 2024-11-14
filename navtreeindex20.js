@@ -11,7 +11,7 @@ var NAVTREEINDEX20 =
 "class_core_graphics_1_1_text_element.html#adad2c9f088901cb866cf5a3530608fee":[9,0,12,126,1],
 "class_core_graphics_1_1_text_element.html#afdf38b13c185bea15395aa7e57db3de5":[8,0,14,127,10],
 "class_core_graphics_1_1_text_element.html#afdf38b13c185bea15395aa7e57db3de5":[9,0,12,126,10],
-"class_core_graphics_1_1_text_renderer.html":[9,0,163],
+"class_core_graphics_1_1_text_renderer.html":[9,0,161],
 "class_core_graphics_1_1_texture_loader.html":[8,0,14,135],
 "class_core_graphics_1_1_texture_loader.html":[9,0,12,134],
 "class_core_graphics_1_1_texture_loader.html#a07197c8f0475d24f2f639eedc0a98bfa":[8,0,14,135,5],

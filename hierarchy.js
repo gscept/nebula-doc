@@ -252,7 +252,6 @@ var hierarchy =
     [ "Util::_smallvector< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::TextureHandle >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< uint, uint >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< uint32_t, uint32_t >, 0 >", "struct_util_1_1__smallvector.html", null ],
-    [ "Util::_smallvector< Util::KeyValuePair< uint32_t, uint32_t >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< uint32_t, Util::Array< CoreGraphics::BufferId > >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::FourCC, const Attr::AttributeDefinitionBase * >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Util::FourCC, const Core::Rtti * >, 0 >", "struct_util_1_1__smallvector.html", null ],
@@ -678,7 +677,6 @@ var hierarchy =
     [ "Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::TextureHandle >, 1 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< uint, uint > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< uint32_t, uint32_t > >", "class_util_1_1_array.html", null ],
-    [ "Util::Array< Util::KeyValuePair< uint32_t, uint32_t >, STACK_SIZE >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< uint32_t, Util::Array< CoreGraphics::BufferId > > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::FourCC, const Attr::AttributeDefinitionBase * > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Util::FourCC, const Core::Rtti * > >", "class_util_1_1_array.html", null ],
@@ -1218,7 +1216,6 @@ var hierarchy =
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::GeometryHandle >, 1 > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::RenderBufferHandle >, 1 > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::TextureHandle >, 1 > >", "class_util_1_1_fixed_array.html", null ],
-    [ "Util::FixedArray< Util::Array< Util::KeyValuePair< uint32_t, uint32_t >, STACK_SIZE > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< Util::String, const Attr::AttributeDefinitionBase * >, 1 > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< Util::String, const Core::Rtti * >, 1 > >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Util::Array< Util::KeyValuePair< Util::String, IndexT >, 1 > >", "class_util_1_1_fixed_array.html", null ],
@@ -1388,7 +1385,6 @@ var hierarchy =
     [ "Util::HashTable< uint, StaticUI::UltralightRenderer::GeometryHandle >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< uint, StaticUI::UltralightRenderer::RenderBufferHandle >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< uint, StaticUI::UltralightRenderer::TextureHandle >", "class_util_1_1_hash_table.html", null ],
-    [ "Util::HashTable< uint32_t, uint32_t, 32, 1 >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Util::String, const Attr::AttributeDefinitionBase * >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Util::String, const Core::Rtti *, 1024 >", "class_util_1_1_hash_table.html", null ],
     [ "Util::HashTable< Util::String, IndexT >", "class_util_1_1_hash_table.html", null ],
@@ -1567,7 +1563,6 @@ var hierarchy =
     [ "Util::KeyValuePair< Util::StringAtom, Vulkan::VkShaderCache::VkReflectionInfo::Variable >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< VkFence, Util::Array< Vulkan::VkDeferredCommand > >", "class_util_1_1_key_value_pair.html", null ],
     [ "Jobs2::Lambda", "struct_jobs2_1_1_lambda.html", null ],
-    [ "Level", "class_level.html", null ],
     [ "Base::Library", "class_base_1_1_library.html", [
       [ "Win32::Win32Library", "class_win32_1_1_win32_library.html", null ]
     ] ],
@@ -1599,7 +1594,6 @@ var hierarchy =
     [ "ultralight::Logger", null, [
       [ "StaticUI::Logger", "struct_static_u_i_1_1_logger.html", null ]
     ] ],
-    [ "ManagerAPI", "struct_game_1_1_manager_a_p_i.html", null ],
     [ "Im3d::Mat3", "struct_im3d_1_1_mat3.html", null ],
     [ "Im3d::Mat4", "struct_im3d_1_1_mat4.html", null ],
     [ "Math::mat4", "struct_math_1_1mat4.html", null ],
@@ -2333,7 +2327,6 @@ var hierarchy =
       [ "StackWalkerToString", "class_stack_walker_to_string.html", null ]
     ] ],
     [ "Game::GameServer::State", "struct_game_1_1_game_server_1_1_state.html", null ],
-    [ "Game::Time::State", "struct_game_1_1_time_1_1_state.html", null ],
     [ "Messaging::StaticMessageHandler", "class_messaging_1_1_static_message_handler.html", null ],
     [ "Util::StringAtomTableBase::StaticString", "struct_util_1_1_string_atom_table_base_1_1_static_string.html", null ],
     [ "StreamAnimationLoader", "class_core_animation_1_1_stream_animation_loader.html", null ],
@@ -2451,7 +2444,6 @@ var hierarchy =
     [ "Timer", "class_timing_1_1_timer.html", null ],
     [ "Game::TimeSource", "struct_game_1_1_time_source.html", null ],
     [ "Game::TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", null ],
-    [ "Game::Time::TimeSourceState", "struct_game_1_1_time_1_1_time_source_state.html", null ],
     [ "IO::XmlReader::TinyXmlInitHelper", "class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html", null ],
     [ "TiXmlAttributeSet", "class_ti_xml_attribute_set.html", null ],
     [ "TiXmlBase", "class_ti_xml_base.html", [

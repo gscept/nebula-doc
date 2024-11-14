@@ -109,7 +109,14 @@ $(function(){initNavTree('class_game_1_1_packed_level.html',''); initResizable(t
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="level_8h_source.html">level.h</a>&gt;</code></p>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a level that can be instantiated into a world. </p>
+<p>A packed level contains all information of a level in memory-packed entity groups that correspont to a table in the game world. When instantiating, the entity groups are effectively just mem-copied into the game world, and then initialized.</p>
+<p>PackedLevels are loaded directly via a game world and should not be created using <code>new</code>.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_1_1_world.html#a03b6a6a49a50942a9468a05bad7e4962" title="preload a level that can be instantiated">Game::World::PreloadLevel</a> </dd>
+<dd>
+<a class="el" href="class_game_1_1_world.html#a5b69b76c704088f23364d5c2397d455b" title="unload a preloaded level">Game::World::UnloadLevel</a> </dd></dl>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_1_1_packed_level_1_1_entity_group.html">EntityGroup</a></td></tr>
@@ -290,7 +297,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_packed_level.html">PackedLevel</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 19:21:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Nov 14 2024 22:10:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

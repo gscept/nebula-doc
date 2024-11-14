@@ -105,11 +105,7 @@ $(function(){initNavTree('namespace_memory.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Memory Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Allocates memory using the TLSF method (<a href="http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf">http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf</a>), with extended handling of padding to better suit GPUs. </p>
-<p>Doesn't manage memory itself but is meant to be used with a memory allocation of maxSize. Fast O(1) insertion and deletion and with minimal fragmentation.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2023 Individual contributors, see AUTHORS file </dd></dl>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_arena_allocator.html">ArenaAllocator</a></td></tr>
@@ -119,8 +115,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates small memory blocks from an array of fixed-size memory pools.  <a href="class_memory_1_1_pool_array_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocation.html">RangeAllocation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a range allocated by the <a class="el" href="class_memory_1_1_range_allocator.html" title="Allocates memory ranges using the TLSF method, with extended handling of padding to better suit GPUs.">Memory::RangeAllocator</a>.  <a href="struct_memory_1_1_range_allocation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_memory_1_1_range_allocator.html">RangeAllocator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory ranges using the TLSF method, with extended handling of padding to better suit GPUs.  <a href="class_memory_1_1_range_allocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_ring_alloc.html">RingAlloc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,12 +346,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad3881f3155d64563b618c89b3ea66a14" id="r_ad3881f3155d64563b618c89b3ea66a14"><td class="memItemLeft" align="right" valign="top">__forceinline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3881f3155d64563b618c89b3ea66a14">CopyToGraphicsMemory</a> (const void *from, void *to, size_t numBytes)</td></tr>
 <tr class="memdesc:ad3881f3155d64563b618c89b3ea66a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data from a system memory buffer to graphics resource memory.  <br /></td></tr>
 <tr class="separator:ad3881f3155d64563b618c89b3ea66a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6c20877e9b5650262be247e0a775a12" id="r_ac6c20877e9b5650262be247e0a775a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6c20877e9b5650262be247e0a775a12">BucketFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
-<tr class="memdesc:ac6c20877e9b5650262be247e0a775a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bucket from index.  <br /></td></tr>
-<tr class="separator:ac6c20877e9b5650262be247e0a775a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44892613b078c57e47d8f5767a9a8ed1" id="r_a44892613b078c57e47d8f5767a9a8ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44892613b078c57e47d8f5767a9a8ed1">BinFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bucket)</td></tr>
-<tr class="memdesc:a44892613b078c57e47d8f5767a9a8ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin from index.  <br /></td></tr>
-<tr class="separator:a44892613b078c57e47d8f5767a9a8ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd6e0e3d90cc8724a07d52c8f1acb43" id="r_aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd6e0e3d90cc8724a07d52c8f1acb43">DumpTotalMemoryStatus</a> ()</td></tr>
 <tr class="memdesc:aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump detail memory status information.  <br /></td></tr>
 <tr class="separator:aacd6e0e3d90cc8724a07d52c8f1acb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -397,10 +389,6 @@ Variables</h2></td></tr>
 <tr class="separator:af9280f6da84132a1ac13d132c35cba90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bda6b459546d2c0d7de871bbaeea53b" id="r_a1bda6b459546d2c0d7de871bbaeea53b"><td class="memItemLeft" align="right" valign="top">void *volatile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bda6b459546d2c0d7de871bbaeea53b">PosixProcessHeap</a> = 0</td></tr>
 <tr class="separator:a1bda6b459546d2c0d7de871bbaeea53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8a92ddbae57facc1c3c84cb9c09c6d" id="r_a3d8a92ddbae57facc1c3c84cb9c09c6d"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8a92ddbae57facc1c3c84cb9c09c6d">NUM_BUCKETS</a> = 0x20</td></tr>
-<tr class="separator:a3d8a92ddbae57facc1c3c84cb9c09c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3070d843b8ee064a283eb106bd39839c" id="r_a3070d843b8ee064a283eb106bd39839c"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3070d843b8ee064a283eb106bd39839c">NUM_BINS_PER_BUCKET</a> = 0x10</td></tr>
-<tr class="separator:a3070d843b8ee064a283eb106bd39839c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a78ac480e1496dde67c9605cef959ef" id="r_a8a78ac480e1496dde67c9605cef959ef"><td class="memItemLeft" align="right" valign="top">HANDLE volatile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a78ac480e1496dde67c9605cef959ef">Win32ProcessHeap</a> = 0</td></tr>
 <tr class="separator:a8a78ac480e1496dde67c9605cef959ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68089d5b4fe7cce3875d69acd943bcc3" id="r_a68089d5b4fe7cce3875d69acd943bcc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a876b4d169c56fbc6a73614d357a46a56">HeapType</a> volatile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68089d5b4fe7cce3875d69acd943bcc3">MemoryLoggingHeapType</a> = <a class="el" href="#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778">InvalidHeapType</a></td></tr>
@@ -782,64 +770,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>allocate a range of virtual memory space </p>
-
-</div>
-</div>
-<a id="a44892613b078c57e47d8f5767a9a8ed1" name="a44892613b078c57e47d8f5767a9a8ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44892613b078c57e47d8f5767a9a8ed1">&#9670;&#160;</a></span>BinFromSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::BinFromSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>bucket</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get bin from index. </p>
-
-</div>
-</div>
-<a id="ac6c20877e9b5650262be247e0a775a12" name="ac6c20877e9b5650262be247e0a775a12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6c20877e9b5650262be247e0a775a12">&#9670;&#160;</a></span>BucketFromSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::BucketFromSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get bucket from index. </p>
 
 </div>
 </div>
@@ -1431,50 +1361,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a3070d843b8ee064a283eb106bd39839c" name="a3070d843b8ee064a283eb106bd39839c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3070d843b8ee064a283eb106bd39839c">&#9670;&#160;</a></span>NUM_BINS_PER_BUCKET</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::NUM_BINS_PER_BUCKET = 0x10</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3d8a92ddbae57facc1c3c84cb9c09c6d" name="a3d8a92ddbae57facc1c3c84cb9c09c6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8a92ddbae57facc1c3c84cb9c09c6d">&#9670;&#160;</a></span>NUM_BUCKETS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::NUM_BUCKETS = 0x20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1bda6b459546d2c0d7de871bbaeea53b" name="a1bda6b459546d2c0d7de871bbaeea53b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bda6b459546d2c0d7de871bbaeea53b">&#9670;&#160;</a></span>PosixProcessHeap</h2>
 
@@ -1538,7 +1424,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 19:21:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Nov 14 2024 22:11:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

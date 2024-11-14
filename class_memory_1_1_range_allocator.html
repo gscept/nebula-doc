@@ -103,13 +103,18 @@ $(function(){initNavTree('class_memory_1_1_range_allocator.html',''); initResiza
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_memory_1_1_range_allocator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Memory::RangeAllocator Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="rangeallocator_8h_source.html">rangeallocator.h</a>&gt;</code></p>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Allocates memory ranges using the TLSF method, with extended handling of padding to better suit GPUs. </p>
+<p>Doesn't manage memory itself but is meant to be used with a memory allocation/buffer of maxSize. Fast O(1) insertion and deletion and with minimal fragmentation.</p>
+<p>More details: <a href="http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf">http://www.gii.upv.es/tlsf/files/ecrts04_tlsf.pdf</a> </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a></td></tr>
@@ -123,22 +128,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0d61f260aa375b7611c9a14734c41a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
 <tr class="separator:a0d61f260aa375b7611c9a14734c41a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6a0387994eef32907ee3536f066f2db" id="r_aa6a0387994eef32907ee3536f066f2db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6a0387994eef32907ee3536f066f2db">RangeAllocator</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> maxNumAllocs)</td></tr>
-<tr class="memdesc:aa6a0387994eef32907ee3536f066f2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memdesc:aa6a0387994eef32907ee3536f066f2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with predetermined size and max allowed number of allocations.  <br /></td></tr>
 <tr class="separator:aa6a0387994eef32907ee3536f066f2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a039573073c71852bdbcd13e77616a198" id="r_a039573073c71852bdbcd13e77616a198"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a039573073c71852bdbcd13e77616a198">~RangeAllocator</a> ()</td></tr>
 <tr class="memdesc:a039573073c71852bdbcd13e77616a198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:a039573073c71852bdbcd13e77616a198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e4abb8e176f8e7432556f15e30ca322" id="r_a0e4abb8e176f8e7432556f15e30ca322"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e4abb8e176f8e7432556f15e30ca322">Clear</a> ()</td></tr>
-<tr class="memdesc:a0e4abb8e176f8e7432556f15e30ca322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear allocator.  <br /></td></tr>
+<tr class="memdesc:a0e4abb8e176f8e7432556f15e30ca322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the allocator.  <br /></td></tr>
 <tr class="separator:a0e4abb8e176f8e7432556f15e30ca322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24d1617e2a3fdcaffe6ad6951245cc0" id="r_aa24d1617e2a3fdcaffe6ad6951245cc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24d1617e2a3fdcaffe6ad6951245cc0">Empty</a> ()</td></tr>
-<tr class="memdesc:aa24d1617e2a3fdcaffe6ad6951245cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty.  <br /></td></tr>
+<tr class="memdesc:aa24d1617e2a3fdcaffe6ad6951245cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the allocator is empty.  <br /></td></tr>
 <tr class="separator:aa24d1617e2a3fdcaffe6ad6951245cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab19da88005520fc6331345a4b0b212b6" id="r_ab19da88005520fc6331345a4b0b212b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_memory_1_1_range_allocation.html">RangeAllocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab19da88005520fc6331345a4b0b212b6">Alloc</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> alignment=1)</td></tr>
-<tr class="memdesc:ab19da88005520fc6331345a4b0b212b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory.  <br /></td></tr>
+<tr class="memdesc:ab19da88005520fc6331345a4b0b212b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate range.  <br /></td></tr>
 <tr class="separator:ab19da88005520fc6331345a4b0b212b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1436f45cf48b9bcbb02e751916fc878" id="r_ae1436f45cf48b9bcbb02e751916fc878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1436f45cf48b9bcbb02e751916fc878">Dealloc</a> (const <a class="el" href="struct_memory_1_1_range_allocation.html">RangeAllocation</a> &amp;allocation)</td></tr>
-<tr class="memdesc:ae1436f45cf48b9bcbb02e751916fc878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate memory.  <br /></td></tr>
+<tr class="memdesc:ae1436f45cf48b9bcbb02e751916fc878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate range.  <br /></td></tr>
 <tr class="separator:ae1436f45cf48b9bcbb02e751916fc878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -155,6 +160,12 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ab0981337b7f76f16842473610dc80c78" id="r_ab0981337b7f76f16842473610dc80c78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0981337b7f76f16842473610dc80c78">IndexFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, bool round=false)</td></tr>
 <tr class="memdesc:ab0981337b7f76f16842473610dc80c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin index from size.  <br /></td></tr>
 <tr class="separator:ab0981337b7f76f16842473610dc80c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf87219ad0c57d3aeb80c549803eb52" id="r_a3cf87219ad0c57d3aeb80c549803eb52"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cf87219ad0c57d3aeb80c549803eb52">BucketFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>)</td></tr>
+<tr class="memdesc:a3cf87219ad0c57d3aeb80c549803eb52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bucket from index.  <br /></td></tr>
+<tr class="separator:a3cf87219ad0c57d3aeb80c549803eb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142020bbffb75574ab122c5e8392498b" id="r_a142020bbffb75574ab122c5e8392498b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a142020bbffb75574ab122c5e8392498b">BinFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> bucket)</td></tr>
+<tr class="memdesc:a142020bbffb75574ab122c5e8392498b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin from index.  <br /></td></tr>
+<tr class="separator:a142020bbffb75574ab122c5e8392498b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -166,14 +177,21 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa3265fc664e967b0acd4259020cf4410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87762048775fbe6ff0ced0182c5aed54" id="r_a87762048775fbe6ff0ced0182c5aed54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87762048775fbe6ff0ced0182c5aed54">bucketUsageMask</a></td></tr>
 <tr class="separator:a87762048775fbe6ff0ced0182c5aed54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdcd3fc9da676f6ac1cb1cb380233ac5" id="r_abdcd3fc9da676f6ac1cb1cb380233ac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdcd3fc9da676f6ac1cb1cb380233ac5">binMasks</a> [<a class="el" href="namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d">NUM_BUCKETS</a>]</td></tr>
+<tr class="memitem:abdcd3fc9da676f6ac1cb1cb380233ac5" id="r_abdcd3fc9da676f6ac1cb1cb380233ac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdcd3fc9da676f6ac1cb1cb380233ac5">binMasks</a> [<a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a>]</td></tr>
 <tr class="separator:abdcd3fc9da676f6ac1cb1cb380233ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec574fbfb1e01364f02774cfccbc988e" id="r_aec574fbfb1e01364f02774cfccbc988e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec574fbfb1e01364f02774cfccbc988e">binHeads</a> [<a class="el" href="namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d">NUM_BUCKETS</a> *<a class="el" href="namespace_memory.html#a3070d843b8ee064a283eb106bd39839c">NUM_BINS_PER_BUCKET</a>]</td></tr>
+<tr class="memitem:aec574fbfb1e01364f02774cfccbc988e" id="r_aec574fbfb1e01364f02774cfccbc988e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec574fbfb1e01364f02774cfccbc988e">binHeads</a> [<a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a> *<a class="el" href="#a4b91d70509f474ef524654bdf9e141d0">NUM_BINS_PER_BUCKET</a>]</td></tr>
 <tr class="separator:aec574fbfb1e01364f02774cfccbc988e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193439f1b4b3e9f89c1fb2729e5691b2" id="r_a193439f1b4b3e9f89c1fb2729e5691b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_memory_1_1_range_allocator_1_1_range_allocator_node.html">RangeAllocatorNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a193439f1b4b3e9f89c1fb2729e5691b2">nodes</a></td></tr>
 <tr class="separator:a193439f1b4b3e9f89c1fb2729e5691b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adac2fc7246da52d5a045da181cd466c4" id="r_adac2fc7246da52d5a045da181cd466c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adac2fc7246da52d5a045da181cd466c4">freeNodes</a></td></tr>
 <tr class="separator:adac2fc7246da52d5a045da181cd466c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a3b8880b36cc72be8e7d3fe8bbdb0fc3b" id="r_a3b8880b36cc72be8e7d3fe8bbdb0fc3b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a> = 0x20</td></tr>
+<tr class="separator:a3b8880b36cc72be8e7d3fe8bbdb0fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b91d70509f474ef524654bdf9e141d0" id="r_a4b91d70509f474ef524654bdf9e141d0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b91d70509f474ef524654bdf9e141d0">NUM_BINS_PER_BUCKET</a> = 0x10</td></tr>
+<tr class="separator:a4b91d70509f474ef524654bdf9e141d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d61f260aa375b7611c9a14734c41a8f" name="a0d61f260aa375b7611c9a14734c41a8f"></a>
@@ -230,7 +248,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor. </p>
+<p>Construct with predetermined size and max allowed number of allocations. </p>
 
 </div>
 </div>
@@ -289,7 +307,67 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Allocate memory. </p>
+<p>Allocate range. </p>
+<p>Returns a range using the TLSF method.</p>
+<dl class="section note"><dt>Note</dt><dd>Note that this doesn't actually allocate any memory, but instead returns a partial range within [0 -&gt; size] that you can use with an external buffer to keep track of memory chunks </dd></dl>
+
+</div>
+</div>
+<a id="a142020bbffb75574ab122c5e8392498b" name="a142020bbffb75574ab122c5e8392498b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142020bbffb75574ab122c5e8392498b">&#9670;&#160;</a></span>BinFromSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::BinFromSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>bucket</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get bin from index. </p>
+
+</div>
+</div>
+<a id="a3cf87219ad0c57d3aeb80c549803eb52" name="a3cf87219ad0c57d3aeb80c549803eb52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf87219ad0c57d3aeb80c549803eb52">&#9670;&#160;</a></span>BucketFromSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::BucketFromSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get bucket from index. </p>
 
 </div>
 </div>
@@ -316,7 +394,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Clear allocator. </p>
+<p>Clears the allocator. </p>
 
 </div>
 </div>
@@ -343,7 +421,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Deallocate memory. </p>
+<p>Deallocate range. </p>
 
 </div>
 </div>
@@ -370,7 +448,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Empty. </p>
+<p>Checks if the allocator is empty. </p>
 
 </div>
 </div>
@@ -474,7 +552,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::binHeads[<a class="el" href="namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d">NUM_BUCKETS</a> *<a class="el" href="namespace_memory.html#a3070d843b8ee064a283eb106bd39839c">NUM_BINS_PER_BUCKET</a>]</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::binHeads[<a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a> *<a class="el" href="#a4b91d70509f474ef524654bdf9e141d0">NUM_BINS_PER_BUCKET</a>]</td>
         </tr>
       </table>
   </td>
@@ -496,7 +574,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::binMasks[<a class="el" href="namespace_memory.html#a3d8a92ddbae57facc1c3c84cb9c09c6d">NUM_BUCKETS</a>]</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::binMasks[<a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a>]</td>
         </tr>
       </table>
   </td>
@@ -618,6 +696,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4b91d70509f474ef524654bdf9e141d0" name="a4b91d70509f474ef524654bdf9e141d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b91d70509f474ef524654bdf9e141d0">&#9670;&#160;</a></span>NUM_BINS_PER_BUCKET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BINS_PER_BUCKET = 0x10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b8880b36cc72be8e7d3fe8bbdb0fc3b" name="a3b8880b36cc72be8e7d3fe8bbdb0fc3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">&#9670;&#160;</a></span>NUM_BUCKETS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BUCKETS = 0x20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a128d13e3cc062f0d51839a7b1db974f4" name="a128d13e3cc062f0d51839a7b1db974f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a128d13e3cc062f0d51839a7b1db974f4">&#9670;&#160;</a></span>size</h2>
 
@@ -650,7 +772,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li><li class="navelem"><a class="el" href="class_memory_1_1_range_allocator.html">RangeAllocator</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 19:21:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Thu Nov 14 2024 22:11:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

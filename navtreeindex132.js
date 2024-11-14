@@ -1,7 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"struct_core_graphics_1_1_mesh_resource_id.html":[9,0,12,63],
-"struct_core_graphics_1_1_normal_vertex.html":[8,0,14,65],
 "struct_core_graphics_1_1_normal_vertex.html":[9,0,12,64],
 "struct_core_graphics_1_1_normal_vertex.html#a50a3143a05f2921070505adc66b6dfcc":[8,0,14,65,0],
 "struct_core_graphics_1_1_normal_vertex.html#a50a3143a05f2921070505adc66b6dfcc":[9,0,12,64,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX132 =
 "struct_core_graphics_1_1_resource_table_buffer.html#af3319a857f96efd669e9ea3ceb352a38":[9,0,12,91,7],
 "struct_core_graphics_1_1_resource_table_create_info.html":[8,0,14,93],
 "struct_core_graphics_1_1_resource_table_create_info.html":[9,0,12,92],
-"struct_core_graphics_1_1_resource_table_create_info.html#a73b262c2d5e702e55753d1a1ef9db37f":[8,0,14,93,0]
+"struct_core_graphics_1_1_resource_table_create_info.html#a73b262c2d5e702e55753d1a1ef9db37f":[8,0,14,93,0],
+"struct_core_graphics_1_1_resource_table_create_info.html#a73b262c2d5e702e55753d1a1ef9db37f":[9,0,12,92,0],
+"struct_core_graphics_1_1_resource_table_create_info.html#a9a6245c7a8eb6b7933eff96f7b91c321":[8,0,14,93,1]
 };
