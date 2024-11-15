@@ -1169,6 +1169,7 @@ var hierarchy =
     [ "Util::FixedArray< Fibers::Fiber >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Fibers::FiberQueue::Job >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< float >", "class_util_1_1_fixed_array.html", null ],
+    [ "Util::FixedArray< Game::ComponentDecayBuffer >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Math::mat4 >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Math::scalar >", "class_util_1_1_fixed_array.html", null ],
     [ "Util::FixedArray< Math::vec4 >", "class_util_1_1_fixed_array.html", null ],

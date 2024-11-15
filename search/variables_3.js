@@ -154,7 +154,7 @@ var searchData=
   ['completioncounters_151',['completionCounters',['../struct_visibility_1_1_visibility_system_1_1_observer.html#ac49f06e7dc7a02cf72eac94503566b41',1,'Visibility::VisibilitySystem::Observer']]],
   ['completionevent_152',['completionEvent',['../class_linux_1_1_linux_completion_counter.html#afc8003f4f2989f0d97129fdb3f97770e',1,'Linux::LinuxCompletionCounter::completionEvent'],['../class_models_1_1_model_context.html#ab98964ed68726e1a4addd432c37d4d85',1,'Models::ModelContext::completionEvent']]],
   ['completions_153',['completions',['../imguiconsole_8cc.html#a905a7dbc09b4c15f4bc481267f8dfd89',1,'imguiconsole.cc']]],
-  ['componentdecaytable_154',['componentDecayTable',['../namespace_game.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33',1,'Game']]],
+  ['componentdecaytable_154',['componentDecayTable',['../class_game_1_1_world.html#a749d5b7e753cd0073ffc42051ad1701e',1,'Game::World']]],
   ['componentdescriptions_155',['componentDescriptions',['../class_mem_db_1_1_attribute_registry.html#a0833ed9d150f340445c62721832df19a',1,'MemDb::AttributeRegistry']]],
   ['componentid_156',['componentId',['../struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72',1,'Game::World::AddStagedComponentCommand::componentId'],['../struct_game_1_1_world_1_1_remove_component_command.html#aaa9a10383d3f721f7fa550b19b4c2574',1,'Game::World::RemoveComponentCommand::componentId']]],
   ['componentinitializationenabled_157',['componentInitializationEnabled',['../class_game_1_1_world.html#a17da8fc6d3e6e5cdf11a56b2c9d78c2f',1,'Game::World']]],

@@ -132,6 +132,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a89f86552f1483af4be2cd598ccc999c7" id="r_a89f86552f1483af4be2cd598ccc999c7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_core_1_1_ref_counted.html#a7b0781624ef6a697396163f2d2040ba8">__DeclareClass</a>(<a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a>) public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f86552f1483af4be2cd598ccc999c7">~FeatureUnit</a> ()</td></tr>
 <tr class="memdesc:a89f86552f1483af4be2cd598ccc999c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:a89f86552f1483af4be2cd598ccc999c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78956d30d734aba5b6d0443d91a3c21" id="r_ac78956d30d734aba5b6d0443d91a3c21"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT_TYPE &gt; </td></tr>
+<tr class="memitem:ac78956d30d734aba5b6d0443d91a3c21"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac78956d30d734aba5b6d0443d91a3c21">RegisterComponentType</a> (<a class="el" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a>&lt; COMPONENT_TYPE &gt; info={})</td></tr>
+<tr class="memdesc:ac78956d30d734aba5b6d0443d91a3c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a component type.  <br /></td></tr>
+<tr class="separator:ac78956d30d734aba5b6d0443d91a3c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38c927dfe3c44d0c723829b5a81d9cff" id="r_a38c927dfe3c44d0c723829b5a81d9cff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38c927dfe3c44d0c723829b5a81d9cff">OnAttach</a> ()</td></tr>
 <tr class="memdesc:a38c927dfe3c44d0c723829b5a81d9cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from <a class="el" href="class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7" title="add game feature">GameServer::AttachGameFeature()</a>  <br /></td></tr>
 <tr class="separator:a38c927dfe3c44d0c723829b5a81d9cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -826,6 +830,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac78956d30d734aba5b6d0443d91a3c21" name="ac78956d30d734aba5b6d0443d91a3c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78956d30d734aba5b6d0443d91a3c21">&#9670;&#160;</a></span>RegisterComponentType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename COMPONENT_TYPE &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> Game::FeatureUnit::RegisterComponentType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_component_register_info.html">ComponentRegisterInfo</a>&lt; COMPONENT_TYPE &gt;</td>          <td class="paramname"><span class="paramname"><em>info</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a component type. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>We should register the component ids to the feature unit and deregister them when the feature is detached or destroyed. </dd></dl>
+
+</div>
+</div>
 <a id="acc292cfceb420cd303b47c95d9f13060" name="acc292cfceb420cd303b47c95d9f13060"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc292cfceb420cd303b47c95d9f13060">&#9670;&#160;</a></span>RemoveManager()</h2>
 
@@ -962,7 +996,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_feature_unit.html">FeatureUnit</a></li>
 				<li class="footer">
-					Generated on Thu Nov 14 2024 22:10:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 15 2024 23:38:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

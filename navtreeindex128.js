@@ -1,7 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[9,0,5,9,0,0],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[8,0,6,9,0,1],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[9,0,5,9,0,1],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a7f8857e2d0396f5c4643c07c897c6fb3":[8,0,6,9,0,3],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a7f8857e2d0396f5c4643c07c897c6fb3":[9,0,5,9,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX128 =
 "struct_core_animation_1_1_nax2_group.html#a3d74b32aea12c8fd4c0e2187afe44b30":[9,0,11,16,1],
 "struct_core_animation_1_1_nax2_group.html#a41c0549ee89d082d0900f4005e02ddcf":[8,0,13,16,4],
 "struct_core_animation_1_1_nax2_group.html#a41c0549ee89d082d0900f4005e02ddcf":[9,0,11,16,4],
-"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[8,0,13,16,7]
+"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[8,0,13,16,7],
+"struct_core_animation_1_1_nax2_group.html#a7660a7d605d47537d2c9dae51b70a4da":[9,0,11,16,7],
+"struct_core_animation_1_1_nax2_group.html#a87d7b731d3f50989590f95b1cb52f9f1":[8,0,13,16,5]
 };

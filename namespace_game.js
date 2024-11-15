@@ -109,9 +109,7 @@ var namespace_game =
     [ "GetWorld", "namespace_game.html#aad3d6db368f0ad6118d67b0f343408eb", null ],
     [ "InspectorDrawField", "namespace_game.html#ac2247dc4f0d783267771be372cd00fa4", null ],
     [ "Query", "namespace_game.html#a3e2891686998c0318e52a525428b783f", null ],
-    [ "RegisterType", "namespace_game.html#a076ce96b111e19c998dff2e8ec658339", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
-    [ "componentDecayTable", "namespace_game.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33", null ],
     [ "filterAllocator", "namespace_game.html#ab1c701d66de83f0b410b6da8c9930662", null ],
     [ "viewAllocator", "namespace_game.html#a662616bb8ef6d0cf976776a3ca6bd272", null ]
 ];

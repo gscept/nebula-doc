@@ -1,7 +1,5 @@
 var NAVTREEINDEX174 =
 {
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,4],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,15],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,28],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b":[10,0,0,3,13,3,5,0,5],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b":[10,0,0,3,13,3,5,0,16],
@@ -103,9 +101,11 @@ var NAVTREEINDEX174 =
 "winmemory_8h.html#ad8504a1916282a835f1e16e3912e4c87":[10,0,0,3,13,3,8,0],
 "winmemory_8h_source.html":[10,0,0,3,13,3,8],
 "world_8cc.html":[10,0,0,1,3,33],
-"world_8cc.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33":[10,0,0,1,3,33,0],
+"world_8cc.html#aad3d6db368f0ad6118d67b0f343408eb":[10,0,0,1,3,33,1],
+"world_8cc.html#ad32ebbdd3a3b51b2366aacd894a5a031":[10,0,0,1,3,33,0],
 "world_8h.html":[10,0,0,1,3,34],
-"world_8h.html#a076ce96b111e19c998dff2e8ec658339":[10,0,0,1,3,34,6],
+"world_8h.html#aad3d6db368f0ad6118d67b0f343408eb":[10,0,0,1,3,34,7],
+"world_8h.html#ad32ebbdd3a3b51b2366aacd894a5a031":[10,0,0,1,3,34,6],
 "world_8h_source.html":[10,0,0,1,3,34],
 "writer_8cc.html":[10,0,0,0,2,23],
 "writer_8cc.html#a97d28459a66db3c920254a27606470f2":[10,0,0,0,2,23,0],

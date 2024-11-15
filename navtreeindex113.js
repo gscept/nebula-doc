@@ -1,7 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"namespace_jobs.html#a9b32afec688877624e62c83226c488a5":[8,0,39,14],
-"namespace_jobs.html#aa221982e386fb56b0ce262a475b369e0":[8,0,39,26],
 "namespace_jobs.html#aacc44e096d05e2cfeb2f4027f7860934":[8,0,39,28],
 "namespace_jobs.html#ab1ad9f1ab4512aa465ef5558f9de398f":[8,0,39,31],
 "namespace_jobs.html#ab70e6178a4935ee38dfdeface9866453":[8,0,39,20],
@@ -249,5 +247,7 @@ var NAVTREEINDEX113 =
 "namespace_math.html#a508ef7dbe880a50f0cff5750964b64f5":[8,0,46,237],
 "namespace_math.html#a50b738cba92e38a644a4862be73b3922":[8,0,46,131],
 "namespace_math.html#a50e67ec8d9200daa16ac40ad7be45536":[8,0,46,118],
-"namespace_math.html#a510fbc915472127fe199417d98a04fe4":[8,0,46,88]
+"namespace_math.html#a510fbc915472127fe199417d98a04fe4":[8,0,46,88],
+"namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68":[8,0,46,116],
+"namespace_math.html#a526ab74d73f05cce62d051ae488d35a4":[8,0,46,274]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"class_core_graphics_1_1_nvx3_stream_reader.html#a5e50c477584be7f194f7cb930bbe0eacaedb1d1c449c41b609ce90fe1d6ac9171":[8,0,14,72,0,16],
-"class_core_graphics_1_1_nvx3_stream_reader.html#a5e50c477584be7f194f7cb930bbe0eacaedb1d1c449c41b609ce90fe1d6ac9171":[9,0,12,71,0,16],
-"class_core_graphics_1_1_nvx3_stream_reader.html#a65cae9e2c3e486942cfd5996f78dfd0b":[8,0,14,72,35],
-"class_core_graphics_1_1_nvx3_stream_reader.html#a65cae9e2c3e486942cfd5996f78dfd0b":[9,0,12,71,35],
 "class_core_graphics_1_1_nvx3_stream_reader.html#a6b9c4d572de5182188d085ce1470a722":[8,0,14,72,26],
 "class_core_graphics_1_1_nvx3_stream_reader.html#a6b9c4d572de5182188d085ce1470a722":[9,0,12,71,26],
 "class_core_graphics_1_1_nvx3_stream_reader.html#a6cbcdf9e7ad5c9cd725ef45801d2f149":[8,0,14,72,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX18 =
 "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba4a7d9552711e22a258e0a09d1a8edc45":[9,0,12,81,0,0],
 "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba62989349ce3f9c7372a9bf3ab715d9ef":[8,0,14,82,0,6],
 "class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba62989349ce3f9c7372a9bf3ab715d9ef":[9,0,12,81,0,6],
-"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba87e54ca92e2ff1b5715223ad4f4e9936":[8,0,14,82,0,2]
+"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba87e54ca92e2ff1b5715223ad4f4e9936":[8,0,14,82,0,2],
+"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba87e54ca92e2ff1b5715223ad4f4e9936":[9,0,12,81,0,2],
+"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba95ba5eb014af8734de0e8366fea80092":[8,0,14,82,0,7],
+"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba95ba5eb014af8734de0e8366fea80092":[9,0,12,81,0,7],
+"class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba99634739c1407bdd7b21994fddf90c78":[8,0,14,82,0,4]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX155 =
 {
-"struct_resources_1_1_resource_loader_1_1___pending_resource_unload.html#a509fa1a588af12083918ae00aef3222c":[9,0,62,1,3,0],
-"struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html":[8,0,70,1,4],
 "struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html":[9,0,62,1,4],
 "struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html#a134eb972391befcae13940e71ad5a959":[8,0,70,1,4,0],
 "struct_resources_1_1_resource_loader_1_1___pending_stream_lod.html#a134eb972391befcae13940e71ad5a959":[9,0,62,1,4,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX155 =
 "struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#ad8b8c42df8adfc3dce935dbca9f1d684":[9,0,67,6,0,4],
 "struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af2a8735ea26ea0b91562032bee93f99e":[8,0,77,6,0,9],
 "struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af2a8735ea26ea0b91562032bee93f99e":[9,0,67,6,0,9],
-"struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af49caf535ea09003c8cec11a5c7fc020":[8,0,77,6,0,7]
+"struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af49caf535ea09003c8cec11a5c7fc020":[8,0,77,6,0,7],
+"struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af49caf535ea09003c8cec11a5c7fc020":[9,0,67,6,0,7],
+"struct_terrain_1_1_occupancy_quad_tree_1_1_node.html#af7645f9e49a61faf13f8fc84094f8f6e":[8,0,77,6,0,3]
 };

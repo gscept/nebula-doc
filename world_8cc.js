@@ -1,4 +1,5 @@
 var world_8cc =
 [
-    [ "componentDecayTable", "world_8cc.html#a34dc6b5e2f72f2c4db9dc1e198e1bf33", null ]
+    [ "GetWorld", "world_8cc.html#ad32ebbdd3a3b51b2366aacd894a5a031", null ],
+    [ "GetWorld", "world_8cc.html#aad3d6db368f0ad6118d67b0f343408eb", null ]
 ];
