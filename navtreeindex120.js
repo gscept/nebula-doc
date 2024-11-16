@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"namespacemembers_s.html":[8,1,0,19],
+"namespacemembers_t.html":[8,1,0,20],
 "namespacemembers_type.html":[8,1,3],
 "namespacemembers_u.html":[8,1,0,21],
 "namespacemembers_v.html":[8,1,0,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074":[10,0,0,3,13,1,5,0,21],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a475fbbdf4ec2c28bb4f476fc59eae074":[10,0,0,3,13,1,5,0,34],
 "osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71":[10,0,0,3,13,1,5,0,1],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71":[10,0,0,3,13,1,5,0,12],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71":[10,0,0,3,13,1,5,0,25],
-"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a7e990a6e7e8c4633f049b29f701ae778":[10,0,0,3,13,1,5,0,10]
+"osxmemoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71":[10,0,0,3,13,1,5,0,12]
 };

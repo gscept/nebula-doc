@@ -464,7 +464,7 @@ var searchData=
   ['setupacceptedmessages_461',['SetupAcceptedMessages',['../class_messaging_1_1_port.html#a03b3e9c0cc288cd9c2e9449558c3e201',1,'Messaging::Port']]],
   ['setupadapter_462',['SetupAdapter',['../namespace_vulkan.html#afff44f1f61ad100eb6d96b7906b23cc5',1,'Vulkan']]],
   ['setupappfromcmdlineargs_463',['SetupAppFromCmdLineArgs',['../class_app_1_1_game_application.html#a6a63cd9aff5888ad08ee3ee6dc5b3c4c',1,'App::GameApplication']]],
-  ['setuparealight_464',['SetupAreaLight',['../class_lighting_1_1_light_context.html#ad499f39ca8c86ec04a5d935f447f1761',1,'Lighting::LightContext']]],
+  ['setuparealight_464',['SetupAreaLight',['../class_lighting_1_1_light_context.html#ac40efc46c98d9852a2094945a4f2233c',1,'Lighting::LightContext']]],
   ['setupblueprints_465',['SetupBlueprints',['../class_game_1_1_blueprint_manager.html#af51f3e0c853e532810f12572676439c6',1,'Game::BlueprintManager']]],
   ['setupboxvolume_466',['SetupBoxVolume',['../class_fog_1_1_volumetric_fog_context.html#ab724f3df358bf38a8fb971dc83dc7e21',1,'Fog::VolumetricFogContext']]],
   ['setupbufferconstants_467',['SetupBufferConstants',['../namespace_graphics.html#a66ade62c274bcf0c649dee00be28acaf',1,'Graphics']]],

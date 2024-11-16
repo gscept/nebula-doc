@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"class_linux_1_1_linux_event.html#ade22fe1f1f4412657122880cad469231":[8,0,42,1,1],
+"class_linux_1_1_linux_event.html#ade22fe1f1f4412657122880cad469231":[9,0,38,1,1],
 "class_linux_1_1_linux_event.html#ae2988133007ac24a2c61ec93de48f7f5":[8,0,42,1,2],
 "class_linux_1_1_linux_event.html#ae2988133007ac24a2c61ec93de48f7f5":[9,0,38,1,2],
 "class_linux_1_1_linux_rendezvous.html":[8,0,42,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "class_math_1_1_p_feedback_loop.html":[9,0,41,18],
 "class_math_1_1_p_feedback_loop.html#a2670e0e5ebe8d201dce0609850d9cdb7":[8,0,46,18,11],
 "class_math_1_1_p_feedback_loop.html#a2670e0e5ebe8d201dce0609850d9cdb7":[9,0,41,18,11],
-"class_math_1_1_p_feedback_loop.html#a4a5f71dc0eefb0ee91bd0a7f2f58d715":[8,0,46,18,10],
-"class_math_1_1_p_feedback_loop.html#a4a5f71dc0eefb0ee91bd0a7f2f58d715":[9,0,41,18,10],
-"class_math_1_1_p_feedback_loop.html#a55d1dc60a2c6bba3aa6164aa04aa3431":[8,0,46,18,3]
+"class_math_1_1_p_feedback_loop.html#a4a5f71dc0eefb0ee91bd0a7f2f58d715":[8,0,46,18,10]
 };

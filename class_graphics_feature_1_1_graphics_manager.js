@@ -5,6 +5,7 @@ var class_graphics_feature_1_1_graphics_manager =
     [ "InitModel", "class_graphics_feature_1_1_graphics_manager.html#ad3c36ca206ff301c2606fc9a43388735", null ],
     [ "InitPointLight", "class_graphics_feature_1_1_graphics_manager.html#a1b70f80f6866d4496e95a72243ebf274", null ],
     [ "InitSpotLight", "class_graphics_feature_1_1_graphics_manager.html#a80aea8847de1eeba1a34666e7c343cc2", null ],
+    [ "InitUpdateLightTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#a4e5d9b9a8666dec6f3085c19b91c060c", null ],
     [ "InitUpdateModelTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#a814f5f30c6b7a8c3b5c37decf5b2b61c", null ],
     [ "OnActivate", "class_graphics_feature_1_1_graphics_manager.html#a0a5bb89cb8cfd2ba1d44837194ed79ac", null ],
     [ "OnCleanup", "class_graphics_feature_1_1_graphics_manager.html#a36f01f0d2e029b9240bccc72f2a962aa", null ],

@@ -4,7 +4,7 @@ var searchData=
   ['animallocator_1',['AnimAllocator',['../namespace_core_animation.html#a709a6f4aba3bf926074375dae00e65ab',1,'CoreAnimation']]],
   ['animationresourceallocator_2',['AnimationResourceAllocator',['../namespace_core_animation.html#a4b1fb6e8655f25c5a3b977299208703b',1,'CoreAnimation']]],
   ['api_3',['Api',['../_entity_8cs.html#a539f62a2c66ba3f0c21ceca66bf002d4',1,'Entity.cs']]],
-  ['arealightallocator_4',['AreaLightAllocator',['../class_lighting_1_1_light_context.html#aa4ec2fb58b3d8648c980dd1da5cd2400',1,'Lighting::LightContext']]],
+  ['arealightallocator_4',['AreaLightAllocator',['../class_lighting_1_1_light_context.html#ab4cdd365f79c681c0e317db12375e9ef',1,'Lighting::LightContext']]],
   ['arraycreator_5',['ArrayCreator',['../class_core_1_1_rtti.html#a244a6ee0759252ca21b7118ae5e019d2',1,'Core::Rtti']]],
   ['arrayt_6',['ArrayT',['../class_util_1_1_array.html#a6c0e458e27ac290bd7c70fb8d7195618',1,'Util::Array']]],
   ['atomiccounter_7',['AtomicCounter',['../namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b',1,'Threading']]],

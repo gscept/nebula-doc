@@ -1,7 +1,7 @@
 var class_lighting_1_1_light_context =
 [
     [ "ConstantBufferSet", "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html", "struct_lighting_1_1_light_context_1_1_constant_buffer_set" ],
-    [ "AreaLightAllocator", "class_lighting_1_1_light_context.html#aa4ec2fb58b3d8648c980dd1da5cd2400", null ],
+    [ "AreaLightAllocator", "class_lighting_1_1_light_context.html#ab4cdd365f79c681c0e317db12375e9ef", null ],
     [ "DirectionalLightAllocator", "class_lighting_1_1_light_context.html#a52b9db9a86de8295bd66f09b35b8b3a5", null ],
     [ "GenericLightAllocator", "class_lighting_1_1_light_context.html#a51167431f992a98f6460a10305e4092b", null ],
     [ "PointLightAllocator", "class_lighting_1_1_light_context.html#aaa17c5a234059057dcdb698e593cc20a", null ],
@@ -51,7 +51,7 @@ var class_lighting_1_1_light_context =
     [ "SetRotation", "class_lighting_1_1_light_context.html#a462ddcb1f9e74df0c8753ed69f800e04", null ],
     [ "SetScale", "class_lighting_1_1_light_context.html#a11a5534f904bafd6714c746869482bfe", null ],
     [ "SetTransform", "class_lighting_1_1_light_context.html#a86b97ff245cea95e6f70343bdeeb895e", null ],
-    [ "SetupAreaLight", "class_lighting_1_1_light_context.html#ad499f39ca8c86ec04a5d935f447f1761", null ],
+    [ "SetupAreaLight", "class_lighting_1_1_light_context.html#ac40efc46c98d9852a2094945a4f2233c", null ],
     [ "SetupGlobalLight", "class_lighting_1_1_light_context.html#a45e8ac7a4a0dfed24d8b559c2dc9f25e", null ],
     [ "SetupPointLight", "class_lighting_1_1_light_context.html#a2e445530d62f37813a43c663ca7e7e62", null ],
     [ "SetupSpotLight", "class_lighting_1_1_light_context.html#a77a0ff9a6498a93f626f9c5786ef5b70", null ],

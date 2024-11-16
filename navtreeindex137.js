@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_game_1_1_angular_velocity_1_1_traits.html#a85b15164dc3afb39a930b35b6b66b871":[8,0,26,1,0,1],
+"struct_game_1_1_angular_velocity_1_1_traits.html#a85b15164dc3afb39a930b35b6b66b871":[9,0,23,0,0,1],
 "struct_game_1_1_angular_velocity_1_1_traits.html#a9864a62ce2e3c4be671e0e2dfd279d44":[8,0,26,1,0,5],
 "struct_game_1_1_angular_velocity_1_1_traits.html#a9864a62ce2e3c4be671e0e2dfd279d44":[9,0,23,0,0,5],
 "struct_game_1_1_angular_velocity_1_1_traits.html#ab5e640e93aba052de5a79a0ad4965c36":[8,0,26,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_graphics_1_1_context_entity_id.html":[8,0,30,3],
 "struct_graphics_1_1_context_entity_id.html":[9,0,27,3],
 "struct_graphics_1_1_frame_context.html":[8,0,30,5],
-"struct_graphics_1_1_frame_context.html":[9,0,27,5],
-"struct_graphics_1_1_frame_context.html#a5e41354ef03768076dfc7892191fb521":[8,0,30,5,2],
-"struct_graphics_1_1_frame_context.html#a5e41354ef03768076dfc7892191fb521":[9,0,27,5,2]
+"struct_graphics_1_1_frame_context.html":[9,0,27,5]
 };
