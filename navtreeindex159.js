@@ -1,5 +1,11 @@
 var NAVTREEINDEX159 =
 {
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a6a6da6dc2611b0f8f36e1e2e56aa66c1":[8,0,82,48,0,2],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a6a6da6dc2611b0f8f36e1e2e56aa66c1":[9,0,69,48,0,2],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a71634bf6d669ee43b74e88509cf01341":[8,0,82,48,0,0],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#a71634bf6d669ee43b74e88509cf01341":[9,0,69,48,0,0],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675":[8,0,82,48,0,4],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675":[9,0,69,48,0,4],
 "struct_util_1_1_string_atom_table_base_1_1_static_string.html#ae3b5b4d199d1af1931deeaf1ed04ecf3":[8,0,82,48,0,1],
 "struct_util_1_1_string_atom_table_base_1_1_static_string.html#ae3b5b4d199d1af1931deeaf1ed04ecf3":[9,0,69,48,0,1],
 "struct_util_1_1get__template__type.html":[8,0,82,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_descriptor_set_binding.html#aec3ae5f128d885716b5e776044f90a49":[8,0,85,5,1],
 "struct_vulkan_1_1_descriptor_set_binding.html#aec3ae5f128d885716b5e776044f90a49":[9,0,72,5,1],
 "struct_vulkan_1_1_geometry_setup.html":[8,0,85,6],
-"struct_vulkan_1_1_geometry_setup.html":[9,0,72,6],
-"struct_vulkan_1_1_geometry_setup.html#a10c620eeec3721fd747147f3922c1e0e":[8,0,85,6,3],
-"struct_vulkan_1_1_geometry_setup.html#a10c620eeec3721fd747147f3922c1e0e":[9,0,72,6,3],
-"struct_vulkan_1_1_geometry_setup.html#a639a4ea8271750e9b502bb99906fce8c":[8,0,85,6,0],
-"struct_vulkan_1_1_geometry_setup.html#a639a4ea8271750e9b502bb99906fce8c":[9,0,72,6,0],
-"struct_vulkan_1_1_geometry_setup.html#aa0260055b7324459f0995afa4e4995b5":[8,0,85,6,2],
-"struct_vulkan_1_1_geometry_setup.html#aa0260055b7324459f0995afa4e4995b5":[9,0,72,6,2]
+"struct_vulkan_1_1_geometry_setup.html":[9,0,72,6]
 };

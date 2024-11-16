@@ -120,6 +120,7 @@ $(function(){initNavTree('graphicsmanager_8cc.html',''); initResizable(true); })
 <code>#include &quot;<a class="el" href="jsonreader_8h_source.html">io/jsonreader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="jsonwriter_8h_source.html">io/jsonwriter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lightcontext_8h_source.html">lighting/lightcontext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="componentinspection_8h_source.html">game/componentinspection.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -142,8 +143,39 @@ Functions</h2></td></tr>
 <tr class="memitem:a85243f8dab7fdaf1ed21c3b430877daf" id="r_a85243f8dab7fdaf1ed21c3b430877daf"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a85243f8dab7fdaf1ed21c3b430877daf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a85243f8dab7fdaf1ed21c3b430877daf">IO::JsonWriter::Add&lt; Graphics::GraphicsEntityId &gt;</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> const &amp;id, <a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;val)</td></tr>
 <tr class="separator:a85243f8dab7fdaf1ed21c3b430877daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b19b60adec96f337a60743ba782b8c" id="r_aa8b19b60adec96f337a60743ba782b8c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa8b19b60adec96f337a60743ba782b8c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa8b19b60adec96f337a60743ba782b8c">Game::ComponentDrawFuncT&lt; GraphicsFeature::AreaLightShape &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:aa8b19b60adec96f337a60743ba782b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aa8b19b60adec96f337a60743ba782b8c" name="aa8b19b60adec96f337a60743ba782b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b19b60adec96f337a60743ba782b8c">&#9670;&#160;</a></span>Game::ComponentDrawFuncT&lt; GraphicsFeature::AreaLightShape &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="namespace_game.html#a6a4d308c9f0cfe129a20fd00c87e7ab2">Game::ComponentDrawFuncT</a>&lt; GraphicsFeature::AreaLightShape &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *</td>          <td class="paramname"><span class="paramname"><em>commit</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a612dbaba526f0b21cb57e40ff782b31a" name="a612dbaba526f0b21cb57e40ff782b31a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a612dbaba526f0b21cb57e40ff782b31a">&#9670;&#160;</a></span>IO::JsonReader::Get&lt; Graphics::GraphicsEntityId &gt;()</h2>
 
@@ -197,7 +229,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_2d159f25e9659ae0b75ab38b7905759a.html">addons</a></li><li class="navelem"><a class="el" href="dir_1ac21e01a8bb7d8c2bb65101e5183392.html">graphicsfeature</a></li><li class="navelem"><a class="el" href="dir_9d17aaefe9e4f6b347f5bb4183eaf2e1.html">managers</a></li><li class="navelem"><a class="el" href="graphicsmanager_8cc.html">graphicsmanager.cc</a></li>
 				<li class="footer">
-					Generated on Sat Nov 16 2024 21:36:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 16 2024 22:37:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

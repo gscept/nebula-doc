@@ -193,9 +193,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43aebcdc27851ee0e6ad4f048f2eda70" id="r_a43aebcdc27851ee0e6ad4f048f2eda70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43aebcdc27851ee0e6ad4f048f2eda70">ToUpper</a> ()</td></tr>
 <tr class="memdesc:a43aebcdc27851ee0e6ad4f048f2eda70"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert string to upper case  <br /></td></tr>
 <tr class="separator:a43aebcdc27851ee0e6ad4f048f2eda70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13788f635234f466a79afcf7406d4b8b" id="r_a13788f635234f466a79afcf7406d4b8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13788f635234f466a79afcf7406d4b8b">FirstCharToUpper</a> ()</td></tr>
-<tr class="memdesc:a13788f635234f466a79afcf7406d4b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert first char of string to upper case  <br /></td></tr>
-<tr class="separator:a13788f635234f466a79afcf7406d4b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e333d02969cca9765baf8678ee943cc" id="r_a1e333d02969cca9765baf8678ee943cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e333d02969cca9765baf8678ee943cc">Capitalize</a> ()</td></tr>
+<tr class="memdesc:a1e333d02969cca9765baf8678ee943cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert first char of string to upper case  <br /></td></tr>
+<tr class="separator:a1e333d02969cca9765baf8678ee943cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6818962b410d50b72ccdd8c4a2a6067" id="r_ad6818962b410d50b72ccdd8c4a2a6067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6818962b410d50b72ccdd8c4a2a6067">CamelCaseToWords</a> ()</td></tr>
+<tr class="memdesc:ad6818962b410d50b72ccdd8c4a2a6067"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert spaces before each capital letter in the string.  <br /></td></tr>
+<tr class="separator:ad6818962b410d50b72ccdd8c4a2a6067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab31581c26788d5d61384d337b7df7c27" id="r_ab31581c26788d5d61384d337b7df7c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31581c26788d5d61384d337b7df7c27">Tokenize</a> (const <a class="el" href="struct_util_1_1_string.html">String</a> &amp;whiteSpace, <a class="el" href="class_util_1_1_array.html">Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a> &gt; &amp;outTokens) const</td></tr>
 <tr class="memdesc:ab31581c26788d5d61384d337b7df7c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">tokenize string into a provided <a class="el" href="struct_util_1_1_string.html" title="Nebula&#39;s universal string class.">String</a> array (faster if tokens array can be reused)  <br /></td></tr>
 <tr class="separator:ab31581c26788d5d61384d337b7df7c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1645,6 +1648,44 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ad6818962b410d50b72ccdd8c4a2a6067" name="ad6818962b410d50b72ccdd8c4a2a6067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6818962b410d50b72ccdd8c4a2a6067">&#9670;&#160;</a></span>CamelCaseToWords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Util::String::CamelCaseToWords </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>insert spaces before each capital letter in the string. </p>
+
+</div>
+</div>
+<a id="a1e333d02969cca9765baf8678ee943cc" name="a1e333d02969cca9765baf8678ee943cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e333d02969cca9765baf8678ee943cc">&#9670;&#160;</a></span>Capitalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Util::String::Capitalize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convert first char of string to upper case </p>
+
+</div>
+</div>
 <a id="a58a7744176f2c5fe1fc01213f8c462bb" name="a58a7744176f2c5fe1fc01213f8c462bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58a7744176f2c5fe1fc01213f8c462bb">&#9670;&#160;</a></span>ChangeAssignPrefix()</h2>
 
@@ -2156,25 +2197,6 @@ template&lt;typename T &gt; </div>
 
 <p>return start index of substring, or InvalidIndex if not found </p>
 <p>Return the index of a substring, or InvalidIndex if not found. </p>
-
-</div>
-</div>
-<a id="a13788f635234f466a79afcf7406d4b8b" name="a13788f635234f466a79afcf7406d4b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13788f635234f466a79afcf7406d4b8b">&#9670;&#160;</a></span>FirstCharToUpper()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Util::String::FirstCharToUpper </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>convert first char of string to upper case </p>
 
 </div>
 </div>
@@ -5162,7 +5184,7 @@ template&lt;typename T &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="struct_util_1_1_string.html">String</a></li>
 				<li class="footer">
-					Generated on Sat Nov 16 2024 21:36:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 16 2024 22:37:34 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

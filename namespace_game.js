@@ -83,6 +83,7 @@ var namespace_game =
     [ "ComponentDrawFuncT< Game::Position >", "namespace_game.html#a412e84c2477d34900795372f557af9ed", null ],
     [ "ComponentDrawFuncT< Game::Scale >", "namespace_game.html#af34f291a6036a74007aa8f16e4252c51", null ],
     [ "ComponentDrawFuncT< Game::Scale >", "namespace_game.html#a1afaab50883f3577da9a5e3f77ea8087", null ],
+    [ "ComponentDrawFuncT< GraphicsFeature::AreaLightShape >", "namespace_game.html#a8ea607856a40f6f16d93239be175cdaf", null ],
     [ "ComponentDrawFuncT< int >", "namespace_game.html#aa917b2d0e641b379e6abf7ab94aaa93e", null ],
     [ "ComponentDrawFuncT< int >", "namespace_game.html#a94a89a2b6af69b68a3ef0ef20cf9770b", null ],
     [ "ComponentDrawFuncT< Math::mat4 >", "namespace_game.html#a6641483215c75b6ad07eb9b134de1043", null ],

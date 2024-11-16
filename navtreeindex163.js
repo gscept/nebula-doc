@@ -1,5 +1,11 @@
 var NAVTREEINDEX163 =
 {
+"struct_vulkan_1_1_vk_event_info.html#a9714bc9dc88b7ff27311ef1778ee6897":[8,0,85,24,1],
+"struct_vulkan_1_1_vk_event_info.html#a9714bc9dc88b7ff27311ef1778ee6897":[9,0,72,24,1],
+"struct_vulkan_1_1_vk_event_info.html#acf916fc32dcb0a2d32cfb0597910ef6f":[8,0,85,24,9],
+"struct_vulkan_1_1_vk_event_info.html#acf916fc32dcb0a2d32cfb0597910ef6f":[9,0,72,24,9],
+"struct_vulkan_1_1_vk_event_info.html#adda008f27cb06b681e0015144e4d5d98":[8,0,85,24,6],
+"struct_vulkan_1_1_vk_event_info.html#adda008f27cb06b681e0015144e4d5d98":[9,0,72,24,6],
 "struct_vulkan_1_1_vk_event_info.html#ae1e84e227d3b0a9ba271632174b1cd2c":[8,0,85,24,7],
 "struct_vulkan_1_1_vk_event_info.html#ae1e84e227d3b0a9ba271632174b1cd2c":[9,0,72,24,7],
 "struct_vulkan_1_1_vk_event_info.html#aff7c005595569a8fdbf48c5ef947ed11":[8,0,85,24,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX163 =
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a33c60fb99c4bdf7d5f4c003b3f68cfd5":[8,0,85,36,21],
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a33c60fb99c4bdf7d5f4c003b3f68cfd5":[9,0,72,36,21],
 "struct_vulkan_1_1_vk_shader_program_runtime_info.html#a366a8329c8a8fac4a1cbebb518e75bc7":[8,0,85,36,25],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a366a8329c8a8fac4a1cbebb518e75bc7":[9,0,72,36,25],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a36a5640035282240a29fe845ce3b3aad":[8,0,85,36,27],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a36a5640035282240a29fe845ce3b3aad":[9,0,72,36,27],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a4d844dd177e54434c91000a1977547cd":[8,0,85,36,26],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a4d844dd177e54434c91000a1977547cd":[9,0,72,36,26],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a5365c3f44fd68d835bc89225a4d6a1e5":[8,0,85,36,20],
-"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a5365c3f44fd68d835bc89225a4d6a1e5":[9,0,72,36,20]
+"struct_vulkan_1_1_vk_shader_program_runtime_info.html#a366a8329c8a8fac4a1cbebb518e75bc7":[9,0,72,36,25]
 };
