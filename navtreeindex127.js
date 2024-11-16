@@ -1,7 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"sqlite3dataset_8cc.html":[10,0,0,0,2,0,4],
-"sqlite3dataset_8cc.html#a746463a693133355c7cd7b4f455afa28":[10,0,0,0,2,0,4,0],
 "sqlite3dataset_8h.html":[10,0,0,0,2,0,5],
 "sqlite3dataset_8h.html#a5d59cf4e4c4727548e45ce1f66fb45d1":[10,0,0,0,2,0,5,1],
 "sqlite3dataset_8h_source.html":[10,0,0,0,2,0,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX127 =
 "struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[9,0,5,9,0,2],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[8,0,6,9,0,0],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[9,0,5,9,0,0],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[8,0,6,9,0,1]
+"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[8,0,6,9,0,1],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[9,0,5,9,0,1],
+"struct_base_1_1_mouse_base_1_1_button_state.html#a7f8857e2d0396f5c4643c07c897c6fb3":[8,0,6,9,0,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX173 =
 {
-"vktexture_8cc.html#a5e38b0756a22c26d8f97b9118849c787":[10,0,0,6,5,5,58,38],
-"vktexture_8cc.html#a5ef4a623d97c2a3c08936f5a8973db5c":[10,0,0,6,5,5,58,6],
 "vktexture_8cc.html#a6261a365b72c9eaff825e9e3c9730f7b":[10,0,0,6,5,5,58,11],
 "vktexture_8cc.html#a6dd00d464c5e422fa60cbcbd43fe196d":[10,0,0,6,5,5,58,0],
 "vktexture_8cc.html#a6f5cae0d06cf5d781c2c49924961e080":[10,0,0,6,5,5,58,36],
@@ -249,5 +247,7 @@ var NAVTREEINDEX173 =
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,13,3,5,0,13],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe":[10,0,0,3,13,3,5,0,26],
 "win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,4],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,15]
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,15],
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ad89580c5de6d2ecb0b5057c0928cced4":[10,0,0,3,13,3,5,0,28],
+"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56ae34d853c3ca6f2bdef446a3871a4100b":[10,0,0,3,13,3,5,0,5]
 };

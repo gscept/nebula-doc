@@ -1,7 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"class_visibility_1_1_visibility_system.html#acb8d90bef6511544bd9a6a6ad26dde74":[8,0,84,13,8],
-"class_visibility_1_1_visibility_system.html#acb8d90bef6511544bd9a6a6ad26dde74":[9,0,71,13,8],
 "class_visibility_1_1_visibility_system.html#adc2b6395afe4f1dc8b6ea510eafeca26":[8,0,84,13,5],
 "class_visibility_1_1_visibility_system.html#adc2b6395afe4f1dc8b6ea510eafeca26":[9,0,71,13,5],
 "class_vulkan_1_1_vk_command_buffer_thread.html":[8,0,85,20],
@@ -249,5 +247,7 @@ var NAVTREEINDEX87 =
 "class_vulkan_1_1_vk_scheduler.html#a26f49e005a20e714bdb4e3bdda5c3af6":[8,0,85,34,8],
 "class_vulkan_1_1_vk_scheduler.html#a26f49e005a20e714bdb4e3bdda5c3af6":[9,0,72,34,8],
 "class_vulkan_1_1_vk_scheduler.html#a3674e8e6a1673257d588981466b21871":[8,0,85,34,23],
-"class_vulkan_1_1_vk_scheduler.html#a3674e8e6a1673257d588981466b21871":[9,0,72,34,23]
+"class_vulkan_1_1_vk_scheduler.html#a3674e8e6a1673257d588981466b21871":[9,0,72,34,23],
+"class_vulkan_1_1_vk_scheduler.html#a37431db168ea21c27340d604b8eeb8aa":[8,0,85,34,9],
+"class_vulkan_1_1_vk_scheduler.html#a37431db168ea21c27340d604b8eeb8aa":[9,0,72,34,9]
 };

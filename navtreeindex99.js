@@ -1,7 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"geometryhelpers_8cc.html":[10,0,0,6,24,4],
-"geometryhelpers_8h.html":[10,0,0,6,24,5],
 "geometryhelpers_8h_source.html":[10,0,0,6,24,5],
 "glfwdisplaydevice_8cc.html":[10,0,0,6,5,2,0],
 "glfwdisplaydevice_8cc.html#a36a270a314fe677c6410c67c3a47817f":[10,0,0,6,5,2,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX99 =
 "graphicsdevice_8h.html#a209ecc66e8724a8ad08ee30516d96f84":[10,0,0,6,5,30,66],
 "graphicsdevice_8h.html#a24a69e09d952540ac22a9fb324e8448a":[10,0,0,6,5,30,64],
 "graphicsdevice_8h.html#a27e93875d9ff1eaf0b77f8b0b97277b2":[10,0,0,6,5,30,37],
-"graphicsdevice_8h.html#a2812bc928ad13aa049f1d226948e0a74":[10,0,0,6,5,30,105]
+"graphicsdevice_8h.html#a2812bc928ad13aa049f1d226948e0a74":[10,0,0,6,5,30,105],
+"graphicsdevice_8h.html#a2da92ab7c30fa81b638c9794f6edd7c1":[10,0,0,6,5,30,75],
+"graphicsdevice_8h.html#a32027f43597c37147fb3151d01bd8d24":[10,0,0,6,5,30,38]
 };

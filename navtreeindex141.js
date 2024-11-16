@@ -1,7 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"struct_im3d_1_1_vec3.html#ab3df391069ebf43f739a62946c4054c0":[8,0,34,19,2],
-"struct_im3d_1_1_vec3.html#ab3df391069ebf43f739a62946c4054c0":[9,0,31,19,2],
 "struct_im3d_1_1_vec3.html#add1a05667093f3fda09e18e66808632d":[8,0,34,19,5],
 "struct_im3d_1_1_vec3.html#add1a05667093f3fda09e18e66808632d":[9,0,31,19,5],
 "struct_im3d_1_1_vec3.html#ae057f27ff34a4a828b1ba3c72da7b762":[8,0,34,19,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX141 =
 "struct_jobs_1_1_create_job_port_info.html#aa5866e7ed4ae0422f123204334325dcc":[8,0,39,1,1],
 "struct_jobs_1_1_create_job_port_info.html#aa5866e7ed4ae0422f123204334325dcc":[9,0,35,1,1],
 "struct_jobs_1_1_create_job_port_info.html#ac0adf83832514db145afeedf43960217":[8,0,39,1,2],
-"struct_jobs_1_1_create_job_port_info.html#ac0adf83832514db145afeedf43960217":[9,0,35,1,2]
+"struct_jobs_1_1_create_job_port_info.html#ac0adf83832514db145afeedf43960217":[9,0,35,1,2],
+"struct_jobs_1_1_create_job_port_info.html#ad570491dd8f8da52855a3ed099b9c375":[8,0,39,1,3],
+"struct_jobs_1_1_create_job_port_info.html#ad570491dd8f8da52855a3ed099b9c375":[9,0,35,1,3]
 };
