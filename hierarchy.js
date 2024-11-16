@@ -2511,7 +2511,7 @@ var hierarchy =
     ] ],
     [ "Im3d::Vec4", "struct_im3d_1_1_vec4.html", null ],
     [ "Math::vec4", "struct_math_1_1vec4.html", [
-      [ "Util::Colour", "class_util_1_1_colour.html", null ]
+      [ "Util::Color", "class_util_1_1_color.html", null ]
     ] ],
     [ "Im3d::Vector< T >", "struct_im3d_1_1_vector.html", null ],
     [ "Math::vector", "struct_math_1_1vector.html", null ],

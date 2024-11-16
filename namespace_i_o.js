@@ -161,7 +161,7 @@ var namespace_i_o =
     [ "JsonReader::Get< Util::Array< uint32_t > >", "namespace_i_o.html#aa2dfe8e691f7f8541708189b7b609254", null ],
     [ "JsonReader::Get< Util::Array< Util::String > >", "namespace_i_o.html#abcec3cb8e365ded93101adc842ceca69", null ],
     [ "JsonReader::Get< Util::Array< Util::String > >", "namespace_i_o.html#abcec3cb8e365ded93101adc842ceca69", null ],
-    [ "JsonReader::Get< Util::Colour >", "namespace_i_o.html#abece44c1f75bd921475e48bda8daf417", null ],
+    [ "JsonReader::Get< Util::Color >", "namespace_i_o.html#a0c287fb1f4431478ff80f922ce1bcf21", null ],
     [ "JsonReader::Get< Util::FourCC >", "namespace_i_o.html#a4623eae9875000e8bc8d258b7d917ebb", null ],
     [ "JsonReader::Get< Util::FourCC >", "namespace_i_o.html#a4623eae9875000e8bc8d258b7d917ebb", null ],
     [ "JsonReader::Get< Util::String >", "namespace_i_o.html#afe92930599308ffd729d63daa2e61b85", null ],

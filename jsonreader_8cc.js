@@ -12,7 +12,7 @@ var jsonreader_8cc =
     [ "JsonReader::Get< Util::Array< int > >", "jsonreader_8cc.html#a70d80523fa8550a0129162a5b6f5ea87", null ],
     [ "JsonReader::Get< Util::Array< uint32_t > >", "jsonreader_8cc.html#aa2dfe8e691f7f8541708189b7b609254", null ],
     [ "JsonReader::Get< Util::Array< Util::String > >", "jsonreader_8cc.html#abcec3cb8e365ded93101adc842ceca69", null ],
-    [ "JsonReader::Get< Util::Colour >", "jsonreader_8cc.html#abece44c1f75bd921475e48bda8daf417", null ],
+    [ "JsonReader::Get< Util::Color >", "jsonreader_8cc.html#a0c287fb1f4431478ff80f922ce1bcf21", null ],
     [ "JsonReader::Get< Util::FourCC >", "jsonreader_8cc.html#a4623eae9875000e8bc8d258b7d917ebb", null ],
     [ "JsonReader::Get< Util::String >", "jsonreader_8cc.html#afe92930599308ffd729d63daa2e61b85", null ],
     [ "JsonReader::Get< Util::StringAtom >", "jsonreader_8cc.html#a69fa7b57dc29d1b080c75acca901db64", null ],

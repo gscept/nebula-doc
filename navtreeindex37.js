@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"class_http_1_1_http_client_registry.html#acf3c69f084b53fecfcc8c74021f77efe":[8,0,32,5,6],
+"class_http_1_1_http_client_registry.html#acf3c69f084b53fecfcc8c74021f77efe":[9,0,29,5,6],
 "class_http_1_1_http_client_registry.html#ae95c6ad9c9b6a1f46bb9d87ba3fcdc77":[8,0,32,5,11],
 "class_http_1_1_http_client_registry.html#ae95c6ad9c9b6a1f46bb9d87ba3fcdc77":[9,0,29,5,11],
 "class_http_1_1_http_client_registry.html#aed38a3771f7f1010e43adfbffb5310b6":[8,0,32,5,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "class_http_1_1_http_server.html#a184e0dc35124475d39d4c25b01328689":[8,0,32,16,15],
 "class_http_1_1_http_server.html#a184e0dc35124475d39d4c25b01328689":[9,0,29,16,15],
 "class_http_1_1_http_server.html#a232229bea000699303a2c66dce00afba":[8,0,32,16,13],
-"class_http_1_1_http_server.html#a232229bea000699303a2c66dce00afba":[9,0,29,16,13],
-"class_http_1_1_http_server.html#a382b883a95728fdae8be9b6b4b26142d":[8,0,32,16,19],
-"class_http_1_1_http_server.html#a382b883a95728fdae8be9b6b4b26142d":[9,0,29,16,19]
+"class_http_1_1_http_server.html#a232229bea000699303a2c66dce00afba":[9,0,29,16,13]
 };

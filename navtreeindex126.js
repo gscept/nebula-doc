@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"shadersemantics_8h.html#a1c8bd87c61741d615fba9a5abba309f0":[10,0,0,6,5,72,3],
+"shadersemantics_8h.html#a24580b7251aebcb1f571634de2919442":[10,0,0,6,5,72,98],
 "shadersemantics_8h.html#a282bfa7c4838c79c28f2b54db0e84268":[10,0,0,6,5,72,105],
 "shadersemantics_8h.html#a28d9218e5a7bd8b611f72fb5ede2d43e":[10,0,0,6,5,72,42],
 "shadersemantics_8h.html#a293afa39d26486f4033997eee16267d8":[10,0,0,6,5,72,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "sqlite3database_8h.html#aef8e81865e93304692d59ad69a28d41f":[10,0,0,0,2,0,3,2],
 "sqlite3database_8h.html#af3a2c5f686b1d73863841c7b06abf17f":[10,0,0,0,2,0,3,10],
 "sqlite3database_8h.html#af8b50b3a799f9eef398efcbc2b9da55c":[10,0,0,0,2,0,3,6],
-"sqlite3database_8h_source.html":[10,0,0,0,2,0,3],
-"sqlite3dataset_8cc.html":[10,0,0,0,2,0,4],
-"sqlite3dataset_8cc.html#a746463a693133355c7cd7b4f455afa28":[10,0,0,0,2,0,4,0]
+"sqlite3database_8h_source.html":[10,0,0,0,2,0,3]
 };

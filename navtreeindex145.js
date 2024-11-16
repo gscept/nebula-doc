@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd":[8,0,46,33,24],
+"struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd":[9,0,41,33,24],
 "struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf":[8,0,46,33,26],
 "struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf":[9,0,41,33,26],
 "struct_math_1_1vec3.html#a8d0be2b45b2d2c39ae35abe74057f724":[8,0,46,33,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "struct_mathf_1_1_bounding_sphere.html#a3653a27dfc563101991deabf8d250d89":[8,0,47,2,7],
 "struct_mathf_1_1_bounding_sphere.html#a3653a27dfc563101991deabf8d250d89":[9,0,42,2,7],
 "struct_mathf_1_1_bounding_sphere.html#a368b78967d57df76265e176f9cf85e89":[8,0,47,2,17],
-"struct_mathf_1_1_bounding_sphere.html#a368b78967d57df76265e176f9cf85e89":[9,0,42,2,17],
-"struct_mathf_1_1_bounding_sphere.html#a46522a1cdf9a93cb25cf16e70395c45e":[8,0,47,2,24],
-"struct_mathf_1_1_bounding_sphere.html#a46522a1cdf9a93cb25cf16e70395c45e":[9,0,42,2,24]
+"struct_mathf_1_1_bounding_sphere.html#a368b78967d57df76265e176f9cf85e89":[9,0,42,2,17]
 };

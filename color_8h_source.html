@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.12.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: /github/workspace/code/foundation/util/colour.h Source File</title>
+		<title>Nebula: /github/workspace/code/foundation/util/color.h Source File</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
+$(function(){initNavTree('color_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -97,10 +97,10 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">colour.h</div></div>
+  <div class="headertitle"><div class="title">color.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="colour_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="color_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">core/types.h</a>&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="vec4_8h.html">math/vec4.h</a>&quot;</span></div>
@@ -109,23 +109,23 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_util.html">Util</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_util_1_1_colour.html">Colour</a> : <span class="keyword">public</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_util_1_1_color.html">Color</a> : <span class="keyword">public</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>   <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">   20</a></span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a2f04f1296695fde334ba8b215ff3ca61">   21</a></span>       <a class="code hl_function" href="class_util_1_1_colour.html#a2f04f1296695fde334ba8b215ff3ca61">Colour</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_colour.html">Colour</a>&amp; c) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>(<span class="keywordtype">float</span> r, <span class="keywordtype">float</span> g, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> a);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; <a class="code hl_variable" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">Math::vec3</a>&amp; <a class="code hl_variable" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>(uint32_t argb);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>       <a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour</a>(uint8_t r, uint8_t g, uint8_t b, uint8_t a);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">   20</a></span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#ae38ca7847fa9e1d21af21d7646b1b2de">   21</a></span>       <a class="code hl_function" href="class_util_1_1_color.html#ae38ca7847fa9e1d21af21d7646b1b2de">Color</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_color.html">Color</a>&amp; c) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>(<span class="keywordtype">float</span> r, <span class="keywordtype">float</span> g, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> a);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; <a class="code hl_variable" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">Math::vec3</a>&amp; <a class="code hl_variable" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>(uint32_t argb);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>       <a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color</a>(uint8_t r, uint8_t g, uint8_t b, uint8_t a);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
 </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>__forceinline</div>
 <div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a042ba96003dae5a67c6906c50fd0e98e">   38</a></span><a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour::Colour</a>(<span class="keywordtype">float</span> r, <span class="keywordtype">float</span> g, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> a) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(r,g,b,a)</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a8fb56689a94c0738734dfba71b640f83">   38</a></span><a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color::Color</a>(<span class="keywordtype">float</span> r, <span class="keywordtype">float</span> g, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> a) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(r,g,b,a)</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
 </div>
@@ -133,7 +133,7 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>__forceinline</div>
 <div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a9f705673d1a8da7b76e5005036d7e8c1">   46</a></span><a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour::Colour</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; v) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(v)</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a0085e2b6e6f57cbb94e1b733b40cb2af">   46</a></span><a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color::Color</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">Math::vec4</a>&amp; v) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(v)</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
 </div>
@@ -141,7 +141,7 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>__forceinline</div>
 <div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a3e5efa476f168b8d14a4467b80599a91">   54</a></span><a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour::Colour</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">Math::vec3</a>&amp; v) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(v,1.0f)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a408501f3d91c42dcb532161628e3d0f8">   54</a></span><a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color::Color</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec3.html">Math::vec3</a>&amp; v) : <a class="code hl_namespace" href="namespace_math.html">Math</a>::<a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(v,1.0f)</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
 </div>
@@ -149,7 +149,7 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>__forceinline</div>
 <div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#a481c256e7d86c7ddd72f77cc19710ccb">   62</a></span><a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour::Colour</a>(uint32_t argb)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a0086c46bf6c19fad28f1c50eb6165dd3">   62</a></span><a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color::Color</a>(uint32_t argb)</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">const</span> <span class="keywordtype">float</span> scale = 1.0f / 255.0f;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    this-&gt;<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a> = _mm_setr_ps(scale * ((argb &gt;&gt; 16) &amp; 0xFF), scale * ((argb &gt;&gt; 8) &amp; 0xFF), scale * (argb &amp; 0xFF), scale * ((argb &gt;&gt; 24) &amp; 0xFF));</div>
@@ -158,16 +158,16 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>__forceinline</div>
 <div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="class_util_1_1_colour.html#aabc189cef9ca4d4e01b96a8fd9d2e298">   71</a></span><a class="code hl_function" href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Colour::Colour</a>(uint8_t r, uint8_t g, uint8_t b, uint8_t a)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="class_util_1_1_color.html#a1250af40bba9583dd3ea2576e14f3473">   71</a></span><a class="code hl_function" href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Color::Color</a>(uint8_t r, uint8_t g, uint8_t b, uint8_t a)</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>{</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">const</span> <span class="keywordtype">float</span> scale = 1.0f / 255.0f;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    this-&gt;<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a> = _mm_setr_ps(scale * r, scale * g, scale * b, scale * a);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
 </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}</div>
-<div class="ttc" id="aclass_util_1_1_colour_html"><div class="ttname"><a href="class_util_1_1_colour.html">Util::Colour</a></div><div class="ttdoc">For now just a wrapper around Math::vec4 for type safety.</div><div class="ttdef"><b>Definition</b> colour.h:18</div></div>
-<div class="ttc" id="aclass_util_1_1_colour_html_a2f04f1296695fde334ba8b215ff3ca61"><div class="ttname"><a href="class_util_1_1_colour.html#a2f04f1296695fde334ba8b215ff3ca61">Util::Colour::Colour</a></div><div class="ttdeci">Colour(const Colour &amp;c)=default</div></div>
-<div class="ttc" id="aclass_util_1_1_colour_html_a8021b486b64fa2fab534bae692f61b0b"><div class="ttname"><a href="class_util_1_1_colour.html#a8021b486b64fa2fab534bae692f61b0b">Util::Colour::Colour</a></div><div class="ttdeci">Colour()=default</div></div>
+<div class="ttc" id="aclass_util_1_1_color_html"><div class="ttname"><a href="class_util_1_1_color.html">Util::Color</a></div><div class="ttdoc">For now just a wrapper around Math::vec4 for type safety.</div><div class="ttdef"><b>Definition</b> color.h:18</div></div>
+<div class="ttc" id="aclass_util_1_1_color_html_a04db0f860a4e17b7309f10399045fc47"><div class="ttname"><a href="class_util_1_1_color.html#a04db0f860a4e17b7309f10399045fc47">Util::Color::Color</a></div><div class="ttdeci">Color()=default</div></div>
+<div class="ttc" id="aclass_util_1_1_color_html_ae38ca7847fa9e1d21af21d7646b1b2de"><div class="ttname"><a href="class_util_1_1_color.html#ae38ca7847fa9e1d21af21d7646b1b2de">Util::Color::Color</a></div><div class="ttdeci">Color(const Color &amp;c)=default</div></div>
 <div class="ttc" id="anamespace_math_html"><div class="ttname"><a href="namespace_math.html">Math</a></div><div class="ttdoc">Different curves.</div><div class="ttdef"><b>Definition</b> angularpfeedbackloop.h:17</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
 <div class="ttc" id="astruct_math_1_1vec3_html"><div class="ttname"><a href="struct_math_1_1vec3.html">Math::vec3</a></div><div class="ttdoc">A 3D vector.</div><div class="ttdef"><b>Definition</b> vec3.h:40</div></div>
@@ -181,9 +181,9 @@ $(function(){initNavTree('colour_8h_source.html',''); initResizable(true); });
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="colour_8h.html">colour.h</a></li>
+				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="color_8h.html">color.h</a></li>
 				<li class="footer">
-					Generated on Sat Nov 16 2024 09:37:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 16 2024 19:38:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

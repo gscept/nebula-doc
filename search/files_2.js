@@ -31,7 +31,7 @@ var searchData=
   ['clustercontext_2eh_28',['clustercontext.h',['../clustercontext_8h.html',1,'']]],
   ['clusterutil_2eh_29',['clusterutil.h',['../clusterutil_8h.html',1,'']]],
   ['color_2ecs_30',['Color.cs',['../_color_8cs.html',1,'']]],
-  ['colour_2eh_31',['colour.h',['../colour_8h.html',1,'']]],
+  ['color_2eh_31',['color.h',['../color_8h.html',1,'']]],
   ['column_2ecc_32',['column.cc',['../column_8cc.html',1,'']]],
   ['column_2eh_33',['column.h',['../column_8h.html',1,'']]],
   ['command_2ecc_34',['command.cc',['../command_8cc.html',1,'']]],

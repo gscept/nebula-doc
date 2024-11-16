@@ -1,6 +1,7 @@
 var class_graphics_feature_1_1_graphics_manager =
 [
     [ "~GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html#ab6af21899c225c999443b48c7b04826c", null ],
+    [ "InitAreaLight", "class_graphics_feature_1_1_graphics_manager.html#a7e91ceab9abb147a21f6019f0b301181", null ],
     [ "InitModel", "class_graphics_feature_1_1_graphics_manager.html#ad3c36ca206ff301c2606fc9a43388735", null ],
     [ "InitPointLight", "class_graphics_feature_1_1_graphics_manager.html#a1b70f80f6866d4496e95a72243ebf274", null ],
     [ "InitSpotLight", "class_graphics_feature_1_1_graphics_manager.html#a80aea8847de1eeba1a34666e7c343cc2", null ],

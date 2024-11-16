@@ -12,7 +12,7 @@ var componentinspection_8h =
     [ "ComponentDrawFuncT< Math::mat4 >", "componentinspection_8h.html#a9329ebc601485593f452cf615f85ca9c", null ],
     [ "ComponentDrawFuncT< Math::vec3 >", "componentinspection_8h.html#a01feb20b2f38bc1f963ed782b9cbddfe", null ],
     [ "ComponentDrawFuncT< uint >", "componentinspection_8h.html#ae28d1f0362bda69b558b827498e1c6f0", null ],
-    [ "ComponentDrawFuncT< Util::Colour >", "componentinspection_8h.html#af12ed429e25552697be800461fe045ea", null ],
+    [ "ComponentDrawFuncT< Util::Color >", "componentinspection_8h.html#a38c38a0279a315e8a4637e7cba347aa5", null ],
     [ "ComponentDrawFuncT< Util::StringAtom >", "componentinspection_8h.html#a6a027e6647155857ca9df6bb72cd66f2", null ],
     [ "InspectorDrawField", "componentinspection_8h.html#ac2247dc4f0d783267771be372cd00fa4", null ]
 ];
