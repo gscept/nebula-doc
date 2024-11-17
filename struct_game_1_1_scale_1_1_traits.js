@@ -4,6 +4,8 @@ var struct_game_1_1_scale_1_1_traits =
     [ "type", "struct_game_1_1_scale_1_1_traits.html#a0bf035f85cf7ba733e09195adbe6408d", null ],
     [ "Traits", "struct_game_1_1_scale_1_1_traits.html#a350a2a11deae123a1900448e4d236a18", null ],
     [ "field_byte_offsets", "struct_game_1_1_scale_1_1_traits.html#a29899ea1fca006172b4029e0c0a67903", null ],
+    [ "field_descriptions", "struct_game_1_1_scale_1_1_traits.html#ab896b3677958f883763b8355406f3d4c", null ],
+    [ "field_hide_in_inspector", "struct_game_1_1_scale_1_1_traits.html#afac8af770e8984917a2dba17927b15c6", null ],
     [ "field_names", "struct_game_1_1_scale_1_1_traits.html#a55851dac0c79f2640401609eb082b213", null ],
     [ "field_typenames", "struct_game_1_1_scale_1_1_traits.html#a191bc724da24b253385284d0c7aa7f65", null ],
     [ "fixed_column_index", "struct_game_1_1_scale_1_1_traits.html#ae21f6d510079a0686936045866a6ff0d", null ],

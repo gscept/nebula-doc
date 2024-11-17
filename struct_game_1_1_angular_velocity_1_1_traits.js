@@ -4,6 +4,8 @@ var struct_game_1_1_angular_velocity_1_1_traits =
     [ "type", "struct_game_1_1_angular_velocity_1_1_traits.html#a85b15164dc3afb39a930b35b6b66b871", null ],
     [ "Traits", "struct_game_1_1_angular_velocity_1_1_traits.html#a3e1cd23b7e2179c95df2e46395189c58", null ],
     [ "field_byte_offsets", "struct_game_1_1_angular_velocity_1_1_traits.html#a3b0600deaabd29a117f8f8c0ee054628", null ],
+    [ "field_descriptions", "struct_game_1_1_angular_velocity_1_1_traits.html#a6459d08e41597b7c0035c2314e539c4f", null ],
+    [ "field_hide_in_inspector", "struct_game_1_1_angular_velocity_1_1_traits.html#a767e8cd77d863901d4f031eb19977776", null ],
     [ "field_names", "struct_game_1_1_angular_velocity_1_1_traits.html#a4bc9e1b06c07485d1f3a87a198360dde", null ],
     [ "field_typenames", "struct_game_1_1_angular_velocity_1_1_traits.html#a9864a62ce2e3c4be671e0e2dfd279d44", null ],
     [ "fully_qualified_name", "struct_game_1_1_angular_velocity_1_1_traits.html#af9b77a1c3792e619e6fab3e6f068da5a", null ],
