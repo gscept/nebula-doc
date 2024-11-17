@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3":[9,0,46,11,11],
+"class_models_1_1_shader_state_node.html#af8da0315892253b355e1abe79f67e350":[8,0,51,11,8],
+"class_models_1_1_shader_state_node.html#af8da0315892253b355e1abe79f67e350":[9,0,46,11,8],
+"class_models_1_1_transform_node.html":[8,0,51,12],
+"class_models_1_1_transform_node.html":[9,0,46,12],
+"class_models_1_1_transform_node.html#a032009323a145a2689a86425cb3101d1":[8,0,51,12,14],
 "class_models_1_1_transform_node.html#a032009323a145a2689a86425cb3101d1":[9,0,46,12,14],
 "class_models_1_1_transform_node.html#a09f7aef0e06fd1110fc40e7184c80228":[8,0,51,12,6],
 "class_models_1_1_transform_node.html#a09f7aef0e06fd1110fc40e7184c80228":[9,0,46,12,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[9,0,48,0,13,2],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[8,0,54,0,13,0],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[9,0,48,0,13,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[8,0,54,0,13,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[9,0,48,0,13,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[8,0,54,0,13,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[9,0,48,0,13,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,54,0,13,0,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[9,0,48,0,13,0,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[8,0,54,0,13,0,0,0]
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[8,0,54,0,13,0,1]
 };

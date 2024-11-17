@@ -1,5 +1,13 @@
 var NAVTREEINDEX173 =
 {
+"vkswapchain_8cc.html#a4aae10714ff88f126e2b762b77bc8936":[10,0,0,6,5,5,54,5],
+"vkswapchain_8cc.html#a9a4f42b898ccd8b801228b8a64665896":[10,0,0,6,5,5,54,0],
+"vkswapchain_8cc.html#a9c74330d34d2958a947934b0b3db68d1":[10,0,0,6,5,5,54,6],
+"vkswapchain_8cc.html#a9fd2010168f47d2727b6a6c6371b512a":[10,0,0,6,5,5,54,2],
+"vkswapchain_8cc.html#abec07d5809b39413e12f8ba8c679482b":[10,0,0,6,5,5,54,1],
+"vkswapchain_8cc.html#ace94f22287466a027b637129bea5f7c1":[10,0,0,6,5,5,54,7],
+"vkswapchain_8cc.html#ae2855f910dde861ee1fed78a191cb89f":[10,0,0,6,5,5,54,3],
+"vkswapchain_8h.html":[10,0,0,6,5,5,55],
 "vkswapchain_8h.html#a81c23fd7e79dfc0a84a6133ef8b13965":[10,0,0,6,5,5,55,0],
 "vkswapchain_8h_source.html":[10,0,0,6,5,5,55],
 "vktextrenderer_8cc.html":[10,0,0,6,5,5,56],
@@ -241,13 +249,5 @@ var NAVTREEINDEX173 =
 "win32memoryconfig_8cc.html#a779eb7178f1887e9759e90511acd5a05":[10,0,0,3,13,3,4,0],
 "win32memoryconfig_8cc.html#ae173ee11e0f1aa1ad9b8603e40ecbd4b":[10,0,0,3,13,3,4,1],
 "win32memoryconfig_8h.html":[10,0,0,3,13,3,5],
-"win32memoryconfig_8h.html#a539aa16970df013f09322414ef1c51b0":[10,0,0,3,13,3,5,6],
-"win32memoryconfig_8h.html#a779eb7178f1887e9759e90511acd5a05":[10,0,0,3,13,3,5,7],
-"win32memoryconfig_8h.html#a79b92aa463a3205dc0a2e7c96f0a40bc":[10,0,0,3,13,3,5,1],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56":[10,0,0,3,13,3,5,0],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a":[10,0,0,3,13,3,5,0,9],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a":[10,0,0,3,13,3,5,0,22],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0703cd4b80c126a5d35db2df65e80d9a":[10,0,0,3,13,3,5,0,35],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0890a1b1b86a9e676f9a2f7374b5b823":[10,0,0,3,13,3,5,0,6],
-"win32memoryconfig_8h.html#a876b4d169c56fbc6a73614d357a46a56a0890a1b1b86a9e676f9a2f7374b5b823":[10,0,0,3,13,3,5,0,17]
+"win32memoryconfig_8h.html#a539aa16970df013f09322414ef1c51b0":[10,0,0,3,13,3,5,6]
 };

@@ -15,7 +15,7 @@ var searchData=
   ['deadsceneids_12',['deadSceneIds',['../class_physics_1_1_physx_state.html#a8861987ee59e27870bcc9597f4247545',1,'Physics::PhysxState']]],
   ['dealloc_13',['Dealloc',['../struct_graphics_1_1_graphics_context_state.html#a818072b302de53391956ae8bb9cdad89',1,'Graphics::GraphicsContextState']]],
   ['deallocqueue_14',['deallocQueue',['../class_game_1_1_world.html#ad13b7b82c38945edd6daa56d607b6823',1,'Game::World']]],
-  ['debug_15',['debug',['../class_scripting_1_1_script_server.html#aa7c532a1e3789dd52994e3d2c1f86c92',1,'Scripting::ScriptServer']]],
+  ['debug_15',['debug',['../class_scripting_1_1_script_server.html#aa7c532a1e3789dd52994e3d2c1f86c92',1,'Scripting::ScriptServer::debug'],['../class_game_1_1_component_inspection.html#ab1416e699c065eb72c191acae900a936',1,'Game::ComponentInspection::debug']]],
   ['debugcounters_16',['debugCounters',['../class_debug_1_1_debug_server.html#a85acf5fe4214a01ae21fd68609b2befe',1,'Debug::DebugServer']]],
   ['debuggerenabled_17',['debuggerEnabled',['../class_scripting_1_1_n_sharp_server.html#ad4a0ef77dc61a2d46ddc6d19fb6de3f0',1,'Scripting::NSharpServer']]],
   ['debughudenabled_18',['debugHudEnabled',['../class_animation_1_1_anim_sequencer.html#a0bf5e0e4b20d6854353f035ff7d3006e',1,'Animation::AnimSequencer']]],

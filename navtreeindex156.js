@@ -1,5 +1,13 @@
 var NAVTREEINDEX156 =
 {
+"struct_terrain_1_1_biome_settings_builder.html#ac8387b02e3559f5f72515a5e605078f6":[9,0,67,4,8],
+"struct_terrain_1_1_biome_settings_builder.html#ae6eb8808b20e52a73e8c64bad44618a9":[8,0,77,4,6],
+"struct_terrain_1_1_biome_settings_builder.html#ae6eb8808b20e52a73e8c64bad44618a9":[9,0,67,4,6],
+"struct_terrain_1_1_biome_settings_builder.html#af57bb2068f7dabd65faf20942169c058":[8,0,77,4,7],
+"struct_terrain_1_1_biome_settings_builder.html#af57bb2068f7dabd65faf20942169c058":[9,0,67,4,7],
+"struct_terrain_1_1_indirection_entry.html":[8,0,77,5],
+"struct_terrain_1_1_indirection_entry.html":[9,0,67,5],
+"struct_terrain_1_1_indirection_entry.html#a329df6d5821d0ba61b9c47959277a633":[8,0,77,5,2],
 "struct_terrain_1_1_indirection_entry.html#a329df6d5821d0ba61b9c47959277a633":[9,0,67,5,2],
 "struct_terrain_1_1_indirection_entry.html#a4c65efd50b2db3d5a9b6a85a0d2c5015":[8,0,77,5,1],
 "struct_terrain_1_1_indirection_entry.html#a4c65efd50b2db3d5a9b6a85a0d2c5015":[9,0,67,5,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX156 =
 "struct_threading_1_1_asserting_scope.html":[9,0,68,2],
 "struct_threading_1_1_asserting_scope.html#a6c768e0248968c54d9ac3225d84ef0ef":[8,0,78,2,2],
 "struct_threading_1_1_asserting_scope.html#a6c768e0248968c54d9ac3225d84ef0ef":[9,0,68,2,2],
-"struct_threading_1_1_asserting_scope.html#abffd1fb1c2507939b971a759f13fad22":[8,0,78,2,1],
-"struct_threading_1_1_asserting_scope.html#abffd1fb1c2507939b971a759f13fad22":[9,0,68,2,1],
-"struct_threading_1_1_asserting_scope.html#afb0fd1bbd7b3e30bd3807d7b26855d95":[8,0,78,2,0],
-"struct_threading_1_1_asserting_scope.html#afb0fd1bbd7b3e30bd3807d7b26855d95":[9,0,68,2,0],
-"struct_threading_1_1_critical_scope.html":[8,0,78,3],
-"struct_threading_1_1_critical_scope.html":[9,0,68,3],
-"struct_threading_1_1_critical_scope.html#a49c930fee20b9c787f9dfb5a7f86b712":[8,0,78,3,2],
-"struct_threading_1_1_critical_scope.html#a49c930fee20b9c787f9dfb5a7f86b712":[9,0,68,3,2],
-"struct_threading_1_1_critical_scope.html#aa7fde064c0737ef43ed32ac065b64f22":[8,0,78,3,1]
+"struct_threading_1_1_asserting_scope.html#abffd1fb1c2507939b971a759f13fad22":[8,0,78,2,1]
 };

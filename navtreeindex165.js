@@ -1,5 +1,13 @@
 var NAVTREEINDEX165 =
 {
+"struct_vulkan_1_1_vk_texture_mapping_info.html#a32b79bad2dc5ffab4cc3e333d7c63a14":[8,0,85,45,2],
+"struct_vulkan_1_1_vk_texture_mapping_info.html#a32b79bad2dc5ffab4cc3e333d7c63a14":[9,0,72,45,2],
+"struct_vulkan_1_1_vk_texture_mapping_info.html#a6a2217919a68a504fddcd1438a9f77ab":[8,0,85,45,1],
+"struct_vulkan_1_1_vk_texture_mapping_info.html#a6a2217919a68a504fddcd1438a9f77ab":[9,0,72,45,1],
+"struct_vulkan_1_1_vk_texture_mapping_info.html#ac746c937a81ff45fe32f66ab99ced108":[8,0,85,45,0],
+"struct_vulkan_1_1_vk_texture_mapping_info.html#ac746c937a81ff45fe32f66ab99ced108":[9,0,72,45,0],
+"struct_vulkan_1_1_vk_texture_runtime_info.html":[8,0,85,46],
+"struct_vulkan_1_1_vk_texture_runtime_info.html":[9,0,72,46],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a21ced2a42e5991fadfa6f310089d96d0":[8,0,85,46,1],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a21ced2a42e5991fadfa6f310089d96d0":[9,0,72,46,1],
 "struct_vulkan_1_1_vk_texture_runtime_info.html#a6a476846f068f22a19ef859b9d7f798a":[8,0,85,46,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX165 =
 "terraincontext_8cc.html#abcf62b0b0e002c2505eddab6b26f0f1b":[10,0,0,6,25,1,66],
 "terraincontext_8cc.html#abf09ddc53ca8dcd1c71385a97f7570e2":[10,0,0,6,25,1,102],
 "terraincontext_8cc.html#ac0e59a9c1157a442bb663d368ee9cf2f":[10,0,0,6,25,1,57],
-"terraincontext_8cc.html#ac1c2681ff2fdb6317a3ae9dad6fce680":[10,0,0,6,25,1,53],
-"terraincontext_8cc.html#ac37ebb943f90117a1a7ddb3ce7ab05e8":[10,0,0,6,25,1,129],
-"terraincontext_8cc.html#ac57a4c58159c5751b4650a405c87385e":[10,0,0,6,25,1,41],
-"terraincontext_8cc.html#ac71fdcc6aff267d14a13c95f684164d0":[10,0,0,6,25,1,10],
-"terraincontext_8cc.html#ac766a96b788fbb8237eb3788ae619fb2":[10,0,0,6,25,1,94],
-"terraincontext_8cc.html#ac8f201626bbc27a84e5037704b36ac06":[10,0,0,6,25,1,69],
-"terraincontext_8cc.html#ace013dcb2e57a15867b92506c9a557c1":[10,0,0,6,25,1,7],
-"terraincontext_8cc.html#acea7f53fa46346557c8e7bcfbd25e193":[10,0,0,6,25,1,85],
-"terraincontext_8cc.html#acef5b93fd4a20198ca8dba62b9b09266":[10,0,0,6,25,1,28]
+"terraincontext_8cc.html#ac1c2681ff2fdb6317a3ae9dad6fce680":[10,0,0,6,25,1,53]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_graphics_device_create_info.html#a7b00a44e3fbe2a5b66f5ce1b8faf75a3":[9,0,12,46,6],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a8a6703bcf6226cb48aca54ab4bb25bdf":[8,0,14,47,2],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a8a6703bcf6226cb48aca54ab4bb25bdf":[9,0,12,46,2],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a952b8114a4bb4707fb5016e0346147fb":[8,0,14,47,5],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a952b8114a4bb4707fb5016e0346147fb":[9,0,12,46,5],
+"struct_core_graphics_1_1_graphics_device_create_info.html#abc34acacc476861a0134f8ab87ca1cf6":[8,0,14,47,1],
+"struct_core_graphics_1_1_graphics_device_create_info.html#abc34acacc476861a0134f8ab87ca1cf6":[9,0,12,46,1],
+"struct_core_graphics_1_1_graphics_device_create_info.html#ac48d8331442e510ade0aff2c4a58ae16":[8,0,14,47,8],
 "struct_core_graphics_1_1_graphics_device_create_info.html#ac48d8331442e510ade0aff2c4a58ae16":[9,0,12,46,8],
 "struct_core_graphics_1_1_graphics_device_create_info.html#ad92877e32c7a5a4ed9ea9937660b0bb4":[8,0,14,47,3],
 "struct_core_graphics_1_1_graphics_device_create_info.html#ad92877e32c7a5a4ed9ea9937660b0bb4":[9,0,12,46,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aa177e53699796737f6b6e0d978a3e39c":[9,0,12,61,0,2],
 "struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aec5a588e75f4e7f60852c06eca95d0f0":[8,0,14,62,0,3],
 "struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aec5a588e75f4e7f60852c06eca95d0f0":[9,0,12,61,0,3],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html":[8,0,14,62,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html":[9,0,12,61,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a2cde4a95722b8d1cccc7c97255bfde02":[8,0,14,62,2,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a2cde4a95722b8d1cccc7c97255bfde02":[9,0,12,61,2,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a3ff3e28b6658cbf6e99e2de1167b7511":[8,0,14,62,2,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a3ff3e28b6658cbf6e99e2de1167b7511":[9,0,12,61,2,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a61ea6384fa4e4d0fc7c1c081b2ebc1be":[8,0,14,62,2,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a61ea6384fa4e4d0fc7c1c081b2ebc1be":[9,0,12,61,2,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html":[8,0,14,62,1]
+"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html":[8,0,14,62,2]
 };

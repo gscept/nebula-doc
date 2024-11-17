@@ -132,6 +132,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a814f5f30c6b7a8c3b5c37decf5b2b61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e5d9b9a8666dec6f3085c19b91c060c" id="r_a4e5d9b9a8666dec6f3085c19b91c060c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5d9b9a8666dec6f3085c19b91c060c">InitUpdateLightTransformProcessor</a> ()</td></tr>
 <tr class="separator:a4e5d9b9a8666dec6f3085c19b91c060c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cbcf9a343b5a4a1705d556a1d6f1994" id="r_a9cbcf9a343b5a4a1705d556a1d6f1994"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cbcf9a343b5a4a1705d556a1d6f1994">InitUpdateDecalTransformProcessor</a> ()</td></tr>
+<tr class="separator:a9cbcf9a343b5a4a1705d556a1d6f1994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -147,6 +149,9 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a7e91ceab9abb147a21f6019f0b301181" id="r_a7e91ceab9abb147a21f6019f0b301181"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e91ceab9abb147a21f6019f0b301181">InitAreaLight</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, AreaLight *light)</td></tr>
 <tr class="memdesc:a7e91ceab9abb147a21f6019f0b301181"><td class="mdescLeft">&#160;</td><td class="mdescRight">called automatically when an area light needs to be initialized  <br /></td></tr>
 <tr class="separator:a7e91ceab9abb147a21f6019f0b301181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2505924192bbe650a4c4fe16c90aa7" id="r_afa2505924192bbe650a4c4fe16c90aa7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa2505924192bbe650a4c4fe16c90aa7">InitDecal</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, Decal *decal)</td></tr>
+<tr class="memdesc:afa2505924192bbe650a4c4fe16c90aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">called automatically when a decal needs to be initialized  <br /></td></tr>
+<tr class="separator:afa2505924192bbe650a4c4fe16c90aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -259,6 +264,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="afa2505924192bbe650a4c4fe16c90aa7" name="afa2505924192bbe650a4c4fe16c90aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2505924192bbe650a4c4fe16c90aa7">&#9670;&#160;</a></span>InitDecal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsManager::InitDecal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Decal *</td>          <td class="paramname"><span class="paramname"><em>decal</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called automatically when a decal needs to be initialized </p>
+
+</div>
+</div>
 <a id="ad3c36ca206ff301c2606fc9a43388735" name="ad3c36ca206ff301c2606fc9a43388735"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3c36ca206ff301c2606fc9a43388735">&#9670;&#160;</a></span>InitModel()</h2>
 
@@ -364,6 +405,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called automatically when a spot light needs to be initialized </p>
+
+</div>
+</div>
+<a id="a9cbcf9a343b5a4a1705d556a1d6f1994" name="a9cbcf9a343b5a4a1705d556a1d6f1994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cbcf9a343b5a4a1705d556a1d6f1994">&#9670;&#160;</a></span>InitUpdateDecalTransformProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphicsFeature::GraphicsManager::InitUpdateDecalTransformProcessor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -542,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics_feature.html">GraphicsFeature</a></li><li class="navelem"><a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsManager</a></li>
 				<li class="footer">
-					Generated on Sun Nov 17 2024 15:32:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 17 2024 18:31:02 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

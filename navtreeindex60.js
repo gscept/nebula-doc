@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[9,0,48,0,13,0,1],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[8,0,54,0,13,0,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[9,0,48,0,13,0,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,54,0,13,0,0,1],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[9,0,48,0,13,0,0,1],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[8,0,54,0,13,0,0,0],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[9,0,48,0,13,0,0,0],
 "class_nebula_1_1_game_1_1_world.html":[8,0,54,0,14],
 "class_nebula_1_1_game_1_1_world.html":[9,0,48,0,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "class_net_1_1_std_tcp_client_connection.html#a0298a47c06fbb35044379d3ccf1be9bf":[9,0,50,5,13],
 "class_net_1_1_std_tcp_client_connection.html#a032911574effdb03cf74eea8d799fa58":[8,0,56,5,4],
 "class_net_1_1_std_tcp_client_connection.html#a032911574effdb03cf74eea8d799fa58":[9,0,50,5,4],
-"class_net_1_1_std_tcp_client_connection.html#a1db00fe7ce61c2f42136ef88e69bc950":[8,0,56,5,0],
-"class_net_1_1_std_tcp_client_connection.html#a1db00fe7ce61c2f42136ef88e69bc950":[9,0,50,5,0],
-"class_net_1_1_std_tcp_client_connection.html#a1dc4e46238f9652ecd6b22a5848785df":[8,0,56,5,9],
-"class_net_1_1_std_tcp_client_connection.html#a1dc4e46238f9652ecd6b22a5848785df":[9,0,50,5,9],
-"class_net_1_1_std_tcp_client_connection.html#a285fc45cc93b9e9ac184e94b7aeb2842":[8,0,56,5,1],
-"class_net_1_1_std_tcp_client_connection.html#a285fc45cc93b9e9ac184e94b7aeb2842":[9,0,50,5,1],
-"class_net_1_1_std_tcp_client_connection.html#a5483b46bbfcaa013d870873fa3240cd1":[8,0,56,5,3]
+"class_net_1_1_std_tcp_client_connection.html#a1db00fe7ce61c2f42136ef88e69bc950":[8,0,56,5,0]
 };

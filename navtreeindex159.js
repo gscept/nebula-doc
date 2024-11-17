@@ -1,5 +1,13 @@
 var NAVTREEINDEX159 =
 {
+"struct_util_1_1_string.html#aee2999bc2ace7081975997dd3868903b":[8,0,82,46,3],
+"struct_util_1_1_string.html#aee2999bc2ace7081975997dd3868903b":[9,0,69,46,3],
+"struct_util_1_1_string.html#aee2c863307ea04dcbf12ac4fb2ed6f60":[8,0,82,46,35],
+"struct_util_1_1_string.html#aee2c863307ea04dcbf12ac4fb2ed6f60":[9,0,69,46,35],
+"struct_util_1_1_string.html#aee3c243b715ff6d5f17041dcada8aef5":[8,0,82,46,175],
+"struct_util_1_1_string.html#aee3c243b715ff6d5f17041dcada8aef5":[9,0,69,46,175],
+"struct_util_1_1_string.html#af18ef6791f8d503f25a7d7b86d440686":[8,0,82,46,44],
+"struct_util_1_1_string.html#af18ef6791f8d503f25a7d7b86d440686":[9,0,69,46,44],
 "struct_util_1_1_string.html#af4f4b3af5399f58e8ffec92079de65c0":[8,0,82,46,101],
 "struct_util_1_1_string.html#af4f4b3af5399f58e8ffec92079de65c0":[9,0,69,46,101],
 "struct_util_1_1_string.html#af877cfd380985775b9deb448d9aac4b9":[8,0,82,46,51],
@@ -241,13 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,85,3,1],
 "struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[9,0,72,3,1],
 "struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,85,3,2],
-"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[9,0,72,3,2],
-"struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[8,0,85,3,0],
-"struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[9,0,72,3,0],
-"struct_vulkan_1_1_derivative_layout.html":[8,0,85,4],
-"struct_vulkan_1_1_derivative_layout.html":[9,0,72,4],
-"struct_vulkan_1_1_derivative_layout.html#a2929cdf8a0be421086f16317dec41b40":[8,0,85,4,0],
-"struct_vulkan_1_1_derivative_layout.html#a2929cdf8a0be421086f16317dec41b40":[9,0,72,4,0],
-"struct_vulkan_1_1_derivative_layout.html#a301ddf14ef85fbfd655cc73d9fff9777":[8,0,85,4,5],
-"struct_vulkan_1_1_derivative_layout.html#a301ddf14ef85fbfd655cc73d9fff9777":[9,0,72,4,5]
+"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[9,0,72,3,2]
 };

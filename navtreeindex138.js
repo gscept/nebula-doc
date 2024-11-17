@@ -1,5 +1,13 @@
 var NAVTREEINDEX138 =
 {
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,26,38,0,0],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[9,0,23,37,0,0],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[8,0,26,38,0,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[9,0,23,37,0,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[8,0,26,38,0,1],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[9,0,23,37,0,1],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[8,0,26,38,0,3],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[9,0,23,37,0,3],
 "struct_game_1_1_world_1_1_allocate_instance_command.html":[8,0,26,38,1],
 "struct_game_1_1_world_1_1_allocate_instance_command.html":[9,0,23,37,1],
 "struct_game_1_1_world_1_1_allocate_instance_command.html#a8381440d6e539596a8147af47b110390":[8,0,26,38,1,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX138 =
 "struct_im3d_1_1_app_data.html#a318b3b2733ef2d5542c21a903ecfefe0":[8,0,34,1,7],
 "struct_im3d_1_1_app_data.html#a318b3b2733ef2d5542c21a903ecfefe0":[9,0,31,1,7],
 "struct_im3d_1_1_app_data.html#a43ac74ba936a9f5f9c7edb2de18812d8":[8,0,34,1,9],
-"struct_im3d_1_1_app_data.html#a43ac74ba936a9f5f9c7edb2de18812d8":[9,0,31,1,9],
-"struct_im3d_1_1_app_data.html#a4a11e6e64d7d5c8ed816d409c84dc676":[8,0,34,1,6],
-"struct_im3d_1_1_app_data.html#a4a11e6e64d7d5c8ed816d409c84dc676":[9,0,31,1,6],
-"struct_im3d_1_1_app_data.html#a5f323d779ccb4cc44d0b27ba86af9b72":[8,0,34,1,15],
-"struct_im3d_1_1_app_data.html#a5f323d779ccb4cc44d0b27ba86af9b72":[9,0,31,1,15],
-"struct_im3d_1_1_app_data.html#a781d6d9c92a3854c3c24bb46ea189ad3":[8,0,34,1,5],
-"struct_im3d_1_1_app_data.html#a781d6d9c92a3854c3c24bb46ea189ad3":[9,0,31,1,5],
-"struct_im3d_1_1_app_data.html#a7c9c5ff179709f8c735cdddcd7708e89":[8,0,34,1,10],
-"struct_im3d_1_1_app_data.html#a7c9c5ff179709f8c735cdddcd7708e89":[9,0,31,1,10]
+"struct_im3d_1_1_app_data.html#a43ac74ba936a9f5f9c7edb2de18812d8":[9,0,31,1,9]
 };
