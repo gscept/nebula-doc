@@ -9,9 +9,13 @@ var componentinspection_8h =
     [ "ComponentDrawFuncT< Game::Position >", "componentinspection_8h.html#a412e84c2477d34900795372f557af9ed", null ],
     [ "ComponentDrawFuncT< Game::Scale >", "componentinspection_8h.html#a1afaab50883f3577da9a5e3f77ea8087", null ],
     [ "ComponentDrawFuncT< int >", "componentinspection_8h.html#a94a89a2b6af69b68a3ef0ef20cf9770b", null ],
+    [ "ComponentDrawFuncT< int64 >", "componentinspection_8h.html#a8cad92efa72848604951f182679ab115", null ],
     [ "ComponentDrawFuncT< Math::mat4 >", "componentinspection_8h.html#a9329ebc601485593f452cf615f85ca9c", null ],
+    [ "ComponentDrawFuncT< Math::quat >", "componentinspection_8h.html#a0a0f62ba0768022e122ced409d31b2e6", null ],
     [ "ComponentDrawFuncT< Math::vec3 >", "componentinspection_8h.html#a01feb20b2f38bc1f963ed782b9cbddfe", null ],
+    [ "ComponentDrawFuncT< Math::vec4 >", "componentinspection_8h.html#a7aeb0c738418d884907d63ed522497bc", null ],
     [ "ComponentDrawFuncT< uint >", "componentinspection_8h.html#ae28d1f0362bda69b558b827498e1c6f0", null ],
+    [ "ComponentDrawFuncT< uint64 >", "componentinspection_8h.html#a5244e6496aae773e169c23aef6a73b21", null ],
     [ "ComponentDrawFuncT< Util::Color >", "componentinspection_8h.html#a38c38a0279a315e8a4637e7cba347aa5", null ],
     [ "ComponentDrawFuncT< Util::StringAtom >", "componentinspection_8h.html#a6a027e6647155857ca9df6bb72cd66f2", null ],
     [ "InspectorDrawField", "componentinspection_8h.html#ac2247dc4f0d783267771be372cd00fa4", null ]
