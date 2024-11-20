@@ -1,5 +1,8 @@
 var NAVTREEINDEX137 =
 {
+"struct_frame_1_1_texture_export.html#ada4d23e229026713e80469f4962afac0":[9,0,21,23,2],
+"struct_frame_1_1_texture_import.html":[8,0,24,24],
+"struct_frame_1_1_texture_import.html":[9,0,21,24],
 "struct_frame_1_1_texture_import.html#a1c6b95e4df774815070965bfb942c6e3":[8,0,24,24,1],
 "struct_frame_1_1_texture_import.html#a1c6b95e4df774815070965bfb942c6e3":[9,0,21,24,1],
 "struct_frame_1_1_texture_import.html#a2bbd489c404236b84bf25ca0c9558b3a":[8,0,24,24,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX137 =
 "struct_game_1_1_time_source.html#a0eba3a97e0562c506b1e08354b6d7256":[9,0,23,34,4],
 "struct_game_1_1_time_source.html#a587be2525e1d7937588fb770d4c551a6":[8,0,26,35,3],
 "struct_game_1_1_time_source.html#a587be2525e1d7937588fb770d4c551a6":[9,0,23,34,3],
-"struct_game_1_1_time_source.html#ab1afeafcfe9eb9bb7a6e4424fa6eee04":[8,0,26,35,1],
-"struct_game_1_1_time_source.html#ab1afeafcfe9eb9bb7a6e4424fa6eee04":[9,0,23,34,1],
-"struct_game_1_1_time_source.html#acd1d58ee3860c48815df91aa94ea1cb9":[8,0,26,35,0],
-"struct_game_1_1_time_source.html#acd1d58ee3860c48815df91aa94ea1cb9":[9,0,23,34,0]
+"struct_game_1_1_time_source.html#ab1afeafcfe9eb9bb7a6e4424fa6eee04":[8,0,26,35,1]
 };

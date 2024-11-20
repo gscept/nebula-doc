@@ -1,5 +1,8 @@
 var NAVTREEINDEX130 =
 {
+"struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[8,0,14,14,6],
+"struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[9,0,12,13,6],
+"struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[8,0,14,14,7],
 "struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[9,0,12,13,7],
 "struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[8,0,14,14,8],
 "struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[9,0,12,13,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX130 =
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[8,0,14,0,0,1],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[9,0,12,0,0,1],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[8,0,14,0,0,0],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[9,0,12,0,0,0],
-"struct_core_graphics_1_1_graphics_device_create_info.html":[8,0,14,47],
-"struct_core_graphics_1_1_graphics_device_create_info.html":[9,0,12,46],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[8,0,14,47,9]
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[9,0,12,0,0,0]
 };

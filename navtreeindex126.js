@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"shader_8h_source.html":[10,0,0,6,5,65],
+"shaderconfig_8cc.html":[10,0,0,6,16,6],
+"shaderconfig_8h.html":[10,0,0,6,16,7],
 "shaderconfig_8h_source.html":[10,0,0,6,16,7],
 "shaderfeature_8cc.html":[10,0,0,6,5,66],
 "shaderfeature_8h.html":[10,0,0,6,5,67],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "snowcontext_8cc.html":[10,0,0,6,28,4],
 "snowcontext_8h.html":[10,0,0,6,28,5],
 "snowcontext_8h_source.html":[10,0,0,6,28,5],
-"socket_8cc.html":[10,0,0,3,15,1,1],
-"socket_8h.html":[10,0,0,3,15,1,2],
-"socket_8h_source.html":[10,0,0,3,15,1,2],
-"sparsebuffer_8h.html":[10,0,0,6,5,77]
+"socket_8cc.html":[10,0,0,3,15,1,1]
 };

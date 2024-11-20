@@ -40,12 +40,13 @@ var namespace_visibility =
     ] ],
     [ "__ImplementClass", "namespace_visibility.html#a91b19f7c82e1ce6ca5cd22a2821cf445", null ],
     [ "__ImplementContext", "namespace_visibility.html#a2a17d4f8b9513a6778518e0a9457371f", null ],
-    [ "__ImplementContext", "namespace_visibility.html#a06f4530601c2ad82ed79040d86fb93fc", null ],
+    [ "__ImplementContext", "namespace_visibility.html#a116446ba51653dc8420484fd6f3bb957", null ],
     [ "__ImplementEnumBitOperators", "namespace_visibility.html#a982d77d750af8fe2566a1c400698858d", null ],
     [ "__ImplementEnumBitOperators", "namespace_visibility.html#ab0f4d39e1ef7b9e376271c96ab7eb43d", null ],
     [ "QuadtreeInjectFunction", "namespace_visibility.html#a29b6c9fc80332e720048debfa9981fb4", null ],
     [ "QuadtreeResolveFunction", "namespace_visibility.html#a870740731b013f784b58043a6d554171", null ],
     [ "VisibilityDependencyJob", "namespace_visibility.html#a7a6755d868caaaea3e74a98ac83f1b3b", null ],
     [ "VisibilityDrawListUpdateJob", "namespace_visibility.html#a7c40333f5fd1a488b1523d90b6673e5f", null ],
+    [ "ObservableState", "namespace_visibility.html#a2677f63ab4271b71df144d85091d1a68", null ],
     [ "waitEvents", "namespace_visibility.html#a408b356cec20a3eb810596308cfada1c", null ]
 ];

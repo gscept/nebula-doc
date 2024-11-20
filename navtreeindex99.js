@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"gameserver_8cc.html":[10,0,0,1,3,26],
+"gameserver_8cc.html#a84d23932cc3378e918db65cf24fec44c":[10,0,0,1,3,26,0],
 "gameserver_8cc.html#aa4ff23edac94487d2f00bee5bfa35e79":[10,0,0,1,3,26,1],
 "gameserver_8h.html":[10,0,0,1,3,27],
 "gameserver_8h_source.html":[10,0,0,1,3,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada685b1269b3cce946da3611c8e6ac7a1c":[10,0,0,6,5,29,2,4],
 "gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada76adfc12c1b35660c6efe7e2888cac13":[10,0,0,6,5,29,2,0],
 "gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada82b562f349e9150e60bb2f3372c9c550":[10,0,0,6,5,29,2,3],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303adadcd81dcceb44a39eb04f8067f8d6588c":[10,0,0,6,5,29,2,1],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303adae270f2443b18b2674e91ebfc9b941bcd":[10,0,0,6,5,29,2,2],
-"gpubuffertypes_8h_source.html":[10,0,0,6,5,29]
+"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303adadcd81dcceb44a39eb04f8067f8d6588c":[10,0,0,6,5,29,2,1]
 };

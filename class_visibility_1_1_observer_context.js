@@ -25,6 +25,7 @@ var class_visibility_1_1_observer_context =
     [ "Setup", "class_visibility_1_1_observer_context.html#aeda9051acb23f8e468d82827d0253977", null ],
     [ "WaitForVisibility", "class_visibility_1_1_observer_context.html#a2dc07f16f772f5301abec1519fc0addb", null ],
     [ "ObservableContext", "class_visibility_1_1_observer_context.html#a90bf437c88e2f4be60c9bcb17e79db9f", null ],
+    [ "ObservableGlobalState", "class_visibility_1_1_observer_context.html#a9162a293ca60132d6c07e4ba193da97c", null ],
     [ "jobHostSync", "class_visibility_1_1_observer_context.html#a1d5a5ca7e5caa5062182cee94ac09174", null ],
     [ "jobInternalSync", "class_visibility_1_1_observer_context.html#acfc683f44641523b5154b601dd59cb89", null ],
     [ "jobInternalSync2", "class_visibility_1_1_observer_context.html#a5e9c8bed9cc87843cb9d6125dd839c96", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX119 =
 {
+"namespace_vulkan.html#a120a8fcc98ee4e1d96119398c3ebebde":[8,0,85,129],
+"namespace_vulkan.html#a124c6bbd44811cbbb51b6c2c30269bf4":[8,0,85,175],
+"namespace_vulkan.html#a1432c58a8f2ecfda7ee54011cc3c787c":[8,0,85,127],
 "namespace_vulkan.html#a16e223a26b6bd185eff874a64ee29e07":[8,0,85,71],
 "namespace_vulkan.html#a196da1dcc2615daed9a3bf3fb0ad37fc":[8,0,85,150],
 "namespace_vulkan.html#a19c465c022826df01bb020e63a04c672":[8,0,85,215],
@@ -246,8 +249,5 @@ var NAVTREEINDEX119 =
 "namespacemembers_f.html":[8,1,0,6],
 "namespacemembers_func.html":[8,1,1],
 "namespacemembers_func.html":[8,1,1,0],
-"namespacemembers_func_a.html":[8,1,1,1],
-"namespacemembers_func_b.html":[8,1,1,2],
-"namespacemembers_func_c.html":[8,1,1,3],
-"namespacemembers_func_d.html":[8,1,1,4]
+"namespacemembers_func_a.html":[8,1,1,1]
 };
