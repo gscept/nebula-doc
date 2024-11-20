@@ -1,5 +1,13 @@
 var NAVTREEINDEX145 =
 {
+"struct_math_1_1vec2.html#abd312b45c5b22202ac69443c101965cb":[8,0,46,32,9],
+"struct_math_1_1vec2.html#abd312b45c5b22202ac69443c101965cb":[9,0,41,32,9],
+"struct_math_1_1vec2.html#ac74fa40f18e61def2eb944cf143842fe":[8,0,46,32,10],
+"struct_math_1_1vec2.html#ac74fa40f18e61def2eb944cf143842fe":[9,0,41,32,10],
+"struct_math_1_1vec2.html#ad0e24f1902dbf369f80e05c042b9c72f":[8,0,46,32,26],
+"struct_math_1_1vec2.html#ad0e24f1902dbf369f80e05c042b9c72f":[9,0,41,32,26],
+"struct_math_1_1vec2.html#ae22a3f478e1cbb4f57133e548e4d57b3":[8,0,46,32,2],
+"struct_math_1_1vec2.html#ae22a3f478e1cbb4f57133e548e4d57b3":[9,0,41,32,2],
 "struct_math_1_1vec2.html#afb91b2d0c7d864bb5e9a8e81724cf93d":[8,0,46,32,31],
 "struct_math_1_1vec2.html#afb91b2d0c7d864bb5e9a8e81724cf93d":[9,0,41,32,31],
 "struct_math_1_1vec2.html#afccdceba6e329ed82a1c917ebdfc2fba":[8,0,46,32,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX145 =
 "struct_mathf_1_1_bounding_box.html#a87adeff41c121ac9ed35fd89f4d55c73":[8,0,47,0,22],
 "struct_mathf_1_1_bounding_box.html#a87adeff41c121ac9ed35fd89f4d55c73":[9,0,42,0,22],
 "struct_mathf_1_1_bounding_box.html#a8f349b9735a4193f176f6c00ab59916a":[8,0,47,0,17],
-"struct_mathf_1_1_bounding_box.html#a8f349b9735a4193f176f6c00ab59916a":[9,0,42,0,17],
-"struct_mathf_1_1_bounding_box.html#a93abcd158b5e02a72b6c1de837ff5896":[8,0,47,0,1],
-"struct_mathf_1_1_bounding_box.html#a93abcd158b5e02a72b6c1de837ff5896":[9,0,42,0,1],
-"struct_mathf_1_1_bounding_box.html#a967bc3b1db75a73c1cd82fcb9e927d67":[8,0,47,0,19],
-"struct_mathf_1_1_bounding_box.html#a967bc3b1db75a73c1cd82fcb9e927d67":[9,0,42,0,19],
-"struct_mathf_1_1_bounding_box.html#a98d8e33e7b097912f4f89b605e42d773":[8,0,47,0,11],
-"struct_mathf_1_1_bounding_box.html#a98d8e33e7b097912f4f89b605e42d773":[9,0,42,0,11],
-"struct_mathf_1_1_bounding_box.html#ab5233fbd2892ee7949d456b488b3dcab":[8,0,47,0,28],
-"struct_mathf_1_1_bounding_box.html#ab5233fbd2892ee7949d456b488b3dcab":[9,0,42,0,28]
+"struct_mathf_1_1_bounding_box.html#a8f349b9735a4193f176f6c00ab59916a":[9,0,42,0,17]
 };

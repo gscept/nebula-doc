@@ -1,5 +1,13 @@
 var NAVTREEINDEX129 =
 {
+"struct_core_animation_1_1_animation_create_info.html#a71b3ee569a4a9c4e51da3db87e118b54":[9,0,11,0,1],
+"struct_core_animation_1_1_animation_create_info.html#aa73bbc6a24386735bcad8ae1acae6378":[8,0,13,0,2],
+"struct_core_animation_1_1_animation_create_info.html#aa73bbc6a24386735bcad8ae1acae6378":[9,0,11,0,2],
+"struct_core_animation_1_1_animation_create_info.html#afac0e1c89d5250f7ca7c881ecf78c358":[8,0,13,0,3],
+"struct_core_animation_1_1_animation_create_info.html#afac0e1c89d5250f7ca7c881ecf78c358":[9,0,11,0,3],
+"struct_core_animation_1_1_animation_create_info.html#afd904475493f132f04719c6b90b54f80":[8,0,13,0,0],
+"struct_core_animation_1_1_animation_create_info.html#afd904475493f132f04719c6b90b54f80":[9,0,11,0,0],
+"struct_core_animation_1_1_animation_id.html":[8,0,13,1],
 "struct_core_animation_1_1_animation_id.html":[9,0,11,1],
 "struct_core_animation_1_1_animation_resource_id.html":[8,0,13,3],
 "struct_core_animation_1_1_animation_resource_id.html":[9,0,11,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX129 =
 "struct_core_graphics_1_1_blas_create_info.html#ab03e5ee50583a63acd5fde6056f81e98":[9,0,12,13,0],
 "struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[8,0,14,14,6],
 "struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[9,0,12,13,6],
-"struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[8,0,14,14,7],
-"struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[9,0,12,13,7],
-"struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[8,0,14,14,8],
-"struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[9,0,12,13,8],
-"struct_core_graphics_1_1_blas_id.html":[8,0,14,15],
-"struct_core_graphics_1_1_blas_id.html":[9,0,12,14],
-"struct_core_graphics_1_1_blas_instance_create_info.html":[8,0,14,16],
-"struct_core_graphics_1_1_blas_instance_create_info.html":[9,0,12,15],
-"struct_core_graphics_1_1_blas_instance_create_info.html#a561f48a0ce7d220097833ad4116564ba":[8,0,14,16,3]
+"struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[8,0,14,14,7]
 };

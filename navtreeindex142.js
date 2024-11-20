@@ -1,5 +1,13 @@
 var NAVTREEINDEX142 =
 {
+"struct_jobs2_1_1_jobs2_context.html":[8,0,40,4],
+"struct_jobs2_1_1_jobs2_context.html":[9,0,36,4],
+"struct_jobs2_1_1_jobs2_context.html#a154b766bb050235656e43edb73b38fa1":[8,0,40,4,0],
+"struct_jobs2_1_1_jobs2_context.html#a154b766bb050235656e43edb73b38fa1":[9,0,36,4,0],
+"struct_jobs2_1_1_jobs2_context.html#a29debc6acbf54a7c5797d2f60dd5ab38":[8,0,40,4,1],
+"struct_jobs2_1_1_jobs2_context.html#a29debc6acbf54a7c5797d2f60dd5ab38":[9,0,36,4,1],
+"struct_jobs2_1_1_jobs2_context.html#a2bed685ac0c083d347f1045fedd29a78":[8,0,40,4,5],
+"struct_jobs2_1_1_jobs2_context.html#a2bed685ac0c083d347f1045fedd29a78":[9,0,36,4,5],
 "struct_jobs2_1_1_jobs2_context.html#a3d6004ca712a3b72c2df87a9a40d268a":[8,0,40,4,7],
 "struct_jobs2_1_1_jobs2_context.html#a3d6004ca712a3b72c2df87a9a40d268a":[9,0,36,4,7],
 "struct_jobs2_1_1_jobs2_context.html#a416dce3ae1388b5b04007291042ed183":[8,0,40,4,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX142 =
 "struct_materials_1_1_material_buffer.html#a53d397a36997f72e18d532e1e7e2a24a":[8,0,44,0,5],
 "struct_materials_1_1_material_buffer.html#a53d397a36997f72e18d532e1e7e2a24a":[9,0,39,0,5],
 "struct_materials_1_1_material_buffer.html#a570123a9cfdad08bf20d96c3a6f9ca98":[8,0,44,0,1],
-"struct_materials_1_1_material_buffer.html#a570123a9cfdad08bf20d96c3a6f9ca98":[9,0,39,0,1],
-"struct_materials_1_1_material_buffer.html#a5918d6fecc8180f242aec49aeaa7f6be":[8,0,44,0,6],
-"struct_materials_1_1_material_buffer.html#a5918d6fecc8180f242aec49aeaa7f6be":[9,0,39,0,6],
-"struct_materials_1_1_material_buffer.html#a782b573171c3179cd3697e23c2f5decb":[8,0,44,0,11],
-"struct_materials_1_1_material_buffer.html#a782b573171c3179cd3697e23c2f5decb":[9,0,39,0,11],
-"struct_materials_1_1_material_buffer.html#a8a8c81ff71e74c5cb2fafe5e8be64711":[8,0,44,0,10],
-"struct_materials_1_1_material_buffer.html#a8a8c81ff71e74c5cb2fafe5e8be64711":[9,0,39,0,10],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[8,0,44,0,3],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[9,0,39,0,3]
+"struct_materials_1_1_material_buffer.html#a570123a9cfdad08bf20d96c3a6f9ca98":[9,0,39,0,1]
 };

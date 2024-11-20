@@ -36,7 +36,7 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "imagefileformat.cc", "imagefileformat_8cc.html", null ],
     [ "imagefileformat.h", "imagefileformat_8h.html", "imagefileformat_8h" ],
     [ "indextype.h", "indextype_8h.html", "indextype_8h" ],
-    [ "memory.cc", "memory_8cc.html", "memory_8cc" ],
+    [ "memory.cc", "render_2coregraphics_2memory_8cc.html", "render_2coregraphics_2memory_8cc" ],
     [ "memory.h", "render_2coregraphics_2memory_8h.html", "render_2coregraphics_2memory_8h" ],
     [ "mesh.cc", "mesh_8cc.html", "mesh_8cc" ],
     [ "mesh.h", "mesh_8h.html", "mesh_8h" ],

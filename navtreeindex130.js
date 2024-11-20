@@ -1,5 +1,13 @@
 var NAVTREEINDEX130 =
 {
+"struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[9,0,12,13,7],
+"struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[8,0,14,14,8],
+"struct_core_graphics_1_1_blas_create_info.html#ac1fbb05fb2c22a95a91b754362ad5545":[9,0,12,13,8],
+"struct_core_graphics_1_1_blas_id.html":[8,0,14,15],
+"struct_core_graphics_1_1_blas_id.html":[9,0,12,14],
+"struct_core_graphics_1_1_blas_instance_create_info.html":[8,0,14,16],
+"struct_core_graphics_1_1_blas_instance_create_info.html":[9,0,12,15],
+"struct_core_graphics_1_1_blas_instance_create_info.html#a561f48a0ce7d220097833ad4116564ba":[8,0,14,16,3],
 "struct_core_graphics_1_1_blas_instance_create_info.html#a561f48a0ce7d220097833ad4116564ba":[9,0,12,15,3],
 "struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1":[8,0,14,16,4],
 "struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1":[9,0,12,15,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX130 =
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[9,0,12,0,0,0],
 "struct_core_graphics_1_1_graphics_device_create_info.html":[8,0,14,47],
 "struct_core_graphics_1_1_graphics_device_create_info.html":[9,0,12,46],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[8,0,14,47,9],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[9,0,12,46,9],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a2dd3f91cc5ee97ca8c98539ed443d91c":[8,0,14,47,7],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a2dd3f91cc5ee97ca8c98539ed443d91c":[9,0,12,46,7],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a46f0dbca877f664bed3076670145aea1":[8,0,14,47,4],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a46f0dbca877f664bed3076670145aea1":[9,0,12,46,4],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a4c1852099db4fd83f95bc1ff5d0484dc":[8,0,14,47,10],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a4c1852099db4fd83f95bc1ff5d0484dc":[9,0,12,46,10],
-"struct_core_graphics_1_1_graphics_device_create_info.html#a7b00a44e3fbe2a5b66f5ce1b8faf75a3":[8,0,14,47,6]
+"struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[8,0,14,47,9]
 };

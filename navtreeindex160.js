@@ -1,5 +1,13 @@
 var NAVTREEINDEX160 =
 {
+"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[8,0,85,2,0],
+"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[9,0,72,2,0],
+"struct_vulkan_1_1_command_buffer_pools.html":[8,0,85,3],
+"struct_vulkan_1_1_command_buffer_pools.html":[9,0,72,3],
+"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,85,3,1],
+"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[9,0,72,3,1],
+"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,85,3,2],
+"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[9,0,72,3,2],
 "struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[8,0,85,3,0],
 "struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[9,0,72,3,0],
 "struct_vulkan_1_1_derivative_layout.html":[8,0,85,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX160 =
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[8,0,85,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[9,0,72,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[8,0,85,10,1,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[9,0,72,10,1,1],
-"struct_vulkan_1_1_scene_setup.html":[8,0,85,11],
-"struct_vulkan_1_1_scene_setup.html":[9,0,72,11],
-"struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73":[8,0,85,11,1],
-"struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73":[9,0,72,11,1],
-"struct_vulkan_1_1_scene_setup.html#a6bf2da585463ec3e18a8b8bd3dec67ae":[8,0,85,11,2],
-"struct_vulkan_1_1_scene_setup.html#a6bf2da585463ec3e18a8b8bd3dec67ae":[9,0,72,11,2],
-"struct_vulkan_1_1_scene_setup.html#ac1483ff086f77d119e1384f6ac89b9eb":[8,0,85,11,3],
-"struct_vulkan_1_1_scene_setup.html#ac1483ff086f77d119e1384f6ac89b9eb":[9,0,72,11,3]
+"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[9,0,72,10,1,1]
 };

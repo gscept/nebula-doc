@@ -1,5 +1,13 @@
 var NAVTREEINDEX164 =
 {
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6394d93249ded25ea9cac3cb93998d43":[8,0,85,35,4,4],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6394d93249ded25ea9cac3cb93998d43":[9,0,72,35,4,4],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6b0150e51817a4bfad9c68b39639e83b":[8,0,85,35,4,10],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6b0150e51817a4bfad9c68b39639e83b":[9,0,72,35,4,10],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6ff8659601b191a10e0a099c65d00041":[8,0,85,35,4,3],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6ff8659601b191a10e0a099c65d00041":[9,0,72,35,4,3],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#aa5365413d6b59a20a382128b741d57bc":[8,0,85,35,4,7],
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#aa5365413d6b59a20a382128b741d57bc":[9,0,72,35,4,7],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#ab2b768596128d1663fe24cfa41cd12e5":[8,0,85,35,4,5],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#ab2b768596128d1663fe24cfa41cd12e5":[9,0,72,35,4,5],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#ac3142d7bca9c308a8284df356c130ab3":[8,0,85,35,4,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX164 =
 "struct_vulkan_1_1_vk_texture_load_info.html#a5c05df3f3425d6916c07eed4d0977425":[8,0,85,44,7],
 "struct_vulkan_1_1_vk_texture_load_info.html#a5c05df3f3425d6916c07eed4d0977425":[9,0,72,44,7],
 "struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3":[8,0,85,44,3],
-"struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3":[9,0,72,44,3],
-"struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff":[8,0,85,44,6],
-"struct_vulkan_1_1_vk_texture_load_info.html#abf9ffab4986d030ec183a1ee42130aff":[9,0,72,44,6],
-"struct_vulkan_1_1_vk_texture_load_info.html#afa0d61401ea2178451243167c40eb376":[8,0,85,44,0],
-"struct_vulkan_1_1_vk_texture_load_info.html#afa0d61401ea2178451243167c40eb376":[9,0,72,44,0],
-"struct_vulkan_1_1_vk_texture_mapping_info.html":[8,0,85,45],
-"struct_vulkan_1_1_vk_texture_mapping_info.html":[9,0,72,45],
-"struct_vulkan_1_1_vk_texture_mapping_info.html#a24586318256068e84d0a3684f488b746":[8,0,85,45,3],
-"struct_vulkan_1_1_vk_texture_mapping_info.html#a24586318256068e84d0a3684f488b746":[9,0,72,45,3]
+"struct_vulkan_1_1_vk_texture_load_info.html#a9368a38adef8c017dcf392b8790068a3":[9,0,72,44,3]
 };

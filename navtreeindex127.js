@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"sparsebuffer_8h.html#a07cc8aca500533831bf2fdc70aaeae9f":[10,0,0,6,5,77,2],
+"sparsebuffer_8h.html#a598caa89620a72c38fa8ca21c40d4737":[10,0,0,6,5,77,3],
+"sparsebuffer_8h_source.html":[10,0,0,6,5,77],
+"sparsetable_8h.html":[10,0,0,3,20,47],
+"sparsetable_8h_source.html":[10,0,0,3,20,47],
+"sphere_8cc.html":[10,0,0,3,12,25],
+"sphere_8h.html":[10,0,0,3,12,26],
+"sphere_8h_source.html":[10,0,0,3,12,26],
 "spinlock_8h.html":[10,0,0,3,18,20],
 "spinlock_8h_source.html":[10,0,0,3,18,20],
 "sqlite3command_8cc.html":[10,0,0,0,2,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "stringbuffer_8cc.html":[10,0,0,3,20,55],
 "stringbuffer_8h.html":[10,0,0,3,20,56],
 "stringbuffer_8h_source.html":[10,0,0,3,20,56],
-"struct_attr_1_1_attribute_table_1_1_column_info.html":[8,0,3,5,0],
-"struct_attr_1_1_attribute_table_1_1_column_info.html":[9,0,2,5,0],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#a75009b7d0082aca50e2da9e64b1bb5b0":[8,0,3,5,0,1],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#a75009b7d0082aca50e2da9e64b1bb5b0":[9,0,2,5,0,1],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#abac22025b947c7ebd6be820ea232ed0d":[8,0,3,5,0,0],
-"struct_attr_1_1_attribute_table_1_1_column_info.html#abac22025b947c7ebd6be820ea232ed0d":[9,0,2,5,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html":[8,0,4,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html":[9,0,3,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html#a017f3dc3d15ad37db9777d5536429c16":[8,0,4,0,0,2]
+"struct_attr_1_1_attribute_table_1_1_column_info.html":[8,0,3,5,0]
 };

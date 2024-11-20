@@ -1,5 +1,13 @@
 var NAVTREEINDEX159 =
 {
+"struct_util_1_1_string.html#aebf8e9cf30a39a2b851c909458680110":[8,0,82,46,31],
+"struct_util_1_1_string.html#aebf8e9cf30a39a2b851c909458680110":[9,0,69,46,31],
+"struct_util_1_1_string.html#aed0b04c9b09020d244cdcdb52f9fe69b":[8,0,82,46,161],
+"struct_util_1_1_string.html#aed0b04c9b09020d244cdcdb52f9fe69b":[9,0,69,46,161],
+"struct_util_1_1_string.html#aed8596ccb06cf5a8801e58e8a2eea5d0":[8,0,82,46,144],
+"struct_util_1_1_string.html#aed8596ccb06cf5a8801e58e8a2eea5d0":[9,0,69,46,144],
+"struct_util_1_1_string.html#aeda89378dfe54ce67db311605acbdfe8":[8,0,82,46,73],
+"struct_util_1_1_string.html#aeda89378dfe54ce67db311605acbdfe8":[9,0,69,46,73],
 "struct_util_1_1_string.html#aee2999bc2ace7081975997dd3868903b":[8,0,82,46,3],
 "struct_util_1_1_string.html#aee2999bc2ace7081975997dd3868903b":[9,0,69,46,3],
 "struct_util_1_1_string.html#aee2c863307ea04dcbf12ac4fb2ed6f60":[8,0,82,46,35],
@@ -241,13 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a56c7c6e81504e669544b79d8a61d5033":[8,0,85,2,2],
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a56c7c6e81504e669544b79d8a61d5033":[9,0,72,2,2],
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439":[8,0,85,2,1],
-"struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439":[9,0,72,2,1],
-"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[8,0,85,2,0],
-"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[9,0,72,2,0],
-"struct_vulkan_1_1_command_buffer_pools.html":[8,0,85,3],
-"struct_vulkan_1_1_command_buffer_pools.html":[9,0,72,3],
-"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,85,3,1],
-"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[9,0,72,3,1],
-"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,85,3,2],
-"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[9,0,72,3,2]
+"struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439":[9,0,72,2,1]
 };

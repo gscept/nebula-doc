@@ -1,5 +1,13 @@
 var NAVTREEINDEX163 =
 {
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ab6741b24b4c2a4b879da1c7438736c39":[8,0,85,21,0,20],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ab6741b24b4c2a4b879da1c7438736c39":[9,0,72,21,0,20],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#abf8476738437c890da105e72dc9ad394":[8,0,85,21,0,7],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#abf8476738437c890da105e72dc9ad394":[9,0,72,21,0,7],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ac3692678e63755bcddd98bb061ba663f":[8,0,85,21,0,14],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ac3692678e63755bcddd98bb061ba663f":[9,0,72,21,0,14],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ace5909ce59db8fb92b47a9c9e32e2b40":[8,0,85,21,0,40],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ace5909ce59db8fb92b47a9c9e32e2b40":[9,0,72,21,0,40],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ada79e8c53bc4a9523d7709b8c81efa31":[8,0,85,21,0,41],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ada79e8c53bc4a9523d7709b8c81efa31":[9,0,72,21,0,41],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#adaafec415bcede2c58a93bda986a557c":[8,0,85,21,0,38],
@@ -241,13 +249,5 @@ var NAVTREEINDEX163 =
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a464f706f18f6aaf6565155d6001efef4":[8,0,85,35,4,6],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a464f706f18f6aaf6565155d6001efef4":[9,0,72,35,4,6],
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a5815825f8c21db3ffe07ac27d2768153":[8,0,85,35,4,1],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a5815825f8c21db3ffe07ac27d2768153":[9,0,72,35,4,1],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6394d93249ded25ea9cac3cb93998d43":[8,0,85,35,4,4],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6394d93249ded25ea9cac3cb93998d43":[9,0,72,35,4,4],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6b0150e51817a4bfad9c68b39639e83b":[8,0,85,35,4,10],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6b0150e51817a4bfad9c68b39639e83b":[9,0,72,35,4,10],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6ff8659601b191a10e0a099c65d00041":[8,0,85,35,4,3],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6ff8659601b191a10e0a099c65d00041":[9,0,72,35,4,3],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#aa5365413d6b59a20a382128b741d57bc":[8,0,85,35,4,7],
-"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#aa5365413d6b59a20a382128b741d57bc":[9,0,72,35,4,7]
+"struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a5815825f8c21db3ffe07ac27d2768153":[9,0,72,35,4,1]
 };

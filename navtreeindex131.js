@@ -1,5 +1,13 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[9,0,12,46,9],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a2dd3f91cc5ee97ca8c98539ed443d91c":[8,0,14,47,7],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a2dd3f91cc5ee97ca8c98539ed443d91c":[9,0,12,46,7],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a46f0dbca877f664bed3076670145aea1":[8,0,14,47,4],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a46f0dbca877f664bed3076670145aea1":[9,0,12,46,4],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a4c1852099db4fd83f95bc1ff5d0484dc":[8,0,14,47,10],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a4c1852099db4fd83f95bc1ff5d0484dc":[9,0,12,46,10],
+"struct_core_graphics_1_1_graphics_device_create_info.html#a7b00a44e3fbe2a5b66f5ce1b8faf75a3":[8,0,14,47,6],
 "struct_core_graphics_1_1_graphics_device_create_info.html#a7b00a44e3fbe2a5b66f5ce1b8faf75a3":[9,0,12,46,6],
 "struct_core_graphics_1_1_graphics_device_create_info.html#a8a6703bcf6226cb48aca54ab4bb25bdf":[8,0,14,47,2],
 "struct_core_graphics_1_1_graphics_device_create_info.html#a8a6703bcf6226cb48aca54ab4bb25bdf":[9,0,12,46,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_mesh_id.html":[9,0,12,60],
 "struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html":[8,0,14,62,0],
 "struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html":[9,0,12,61,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#a27261a4715a0b4fb62b56a94e493c65e":[8,0,14,62,0,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#a27261a4715a0b4fb62b56a94e493c65e":[9,0,12,61,0,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#a87901c519e15d1769e8adc42f5101539":[8,0,14,62,0,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#a87901c519e15d1769e8adc42f5101539":[9,0,12,61,0,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aa177e53699796737f6b6e0d978a3e39c":[8,0,14,62,0,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aa177e53699796737f6b6e0d978a3e39c":[9,0,12,61,0,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aec5a588e75f4e7f60852c06eca95d0f0":[8,0,14,62,0,3],
-"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#aec5a588e75f4e7f60852c06eca95d0f0":[9,0,12,61,0,3],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html":[8,0,14,62,2]
+"struct_core_graphics_1_1_mesh_loader_1_1_finished_mesh.html#a27261a4715a0b4fb62b56a94e493c65e":[8,0,14,62,0,1]
 };

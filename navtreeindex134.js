@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"struct_core_graphics_1_1_second_u_v_vertex.html":[9,0,12,110],
+"struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[8,0,14,111,0],
+"struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[9,0,12,110,0],
+"struct_core_graphics_1_1_semaphore_create_info.html":[8,0,14,112],
+"struct_core_graphics_1_1_semaphore_create_info.html":[9,0,12,111],
+"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[8,0,14,112,0],
+"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[9,0,12,111,0],
+"struct_core_graphics_1_1_semaphore_id.html":[8,0,14,113],
 "struct_core_graphics_1_1_semaphore_id.html":[9,0,12,112],
 "struct_core_graphics_1_1_shader_create_info.html":[8,0,14,114],
 "struct_core_graphics_1_1_shader_create_info.html":[9,0,12,113],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "struct_core_graphics_1_1_texture_sparse_page_size.html#aa1c03056a1bc88ca618436232df81bce":[9,0,12,138,2],
 "struct_core_graphics_1_1_texture_stream_data.html":[8,0,14,140],
 "struct_core_graphics_1_1_texture_stream_data.html":[9,0,12,139],
-"struct_core_graphics_1_1_texture_stream_data.html#a28275473b950a521a9b046f5f404569d":[8,0,14,140,1],
-"struct_core_graphics_1_1_texture_stream_data.html#a28275473b950a521a9b046f5f404569d":[9,0,12,139,1],
-"struct_core_graphics_1_1_texture_stream_data.html#a303ff4c068c8998e663bcd67c2a3d1e7":[8,0,14,140,3],
-"struct_core_graphics_1_1_texture_stream_data.html#a303ff4c068c8998e663bcd67c2a3d1e7":[9,0,12,139,3],
-"struct_core_graphics_1_1_texture_stream_data.html#a3f1b9924d5a05ec96d95928cb35a3204":[8,0,14,140,2],
-"struct_core_graphics_1_1_texture_stream_data.html#a3f1b9924d5a05ec96d95928cb35a3204":[9,0,12,139,2],
-"struct_core_graphics_1_1_texture_stream_data.html#a7d5dac850943fd93a00b9a7acdbbce99":[8,0,14,140,4],
-"struct_core_graphics_1_1_texture_stream_data.html#a7d5dac850943fd93a00b9a7acdbbce99":[9,0,12,139,4],
-"struct_core_graphics_1_1_texture_stream_data.html#aa70c6c6e33bcc349a83ba283deed1418":[8,0,14,140,7]
+"struct_core_graphics_1_1_texture_stream_data.html#a28275473b950a521a9b046f5f404569d":[8,0,14,140,1]
 };
