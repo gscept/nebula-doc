@@ -113,10 +113,17 @@ $(function(){initNavTree('class_mem_db_1_1_table.html',''); initResizable(true);
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="memdb_2table_8h_source.html">table.h</a>&gt;</code></p>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A table of columns (attributes) and rows. </p>
+<p>A <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> in <a class="el" href="namespace_mem_db.html" title="Attribute.">MemDb</a> is a collection of rows with attributes (columns) Tables are organized into Partitions, which help manage memory and improve performance. Each <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> has a fixed capacity and contains column buffers for storing attribute data. The <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> maintains a list of all partitions, including free partitions for recycling, and keeps track of active partitions that contain valid rows.</p>
+<p>Attributes in a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> are defined by an array of AttributeIds. Each attribute is associated with a specific index in the columns array of each <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a>, which is managed by a hash table mapping <a class="el" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a> to column index.</p>
+<p>The <a class="el" href="class_mem_db_1_1_table_signature.html" title="Basically a bitfield with packed ComponentIds.">TableSignature</a> of a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> contains a bitfield where each bit represents the presence or absence of an attribute. This allows for quick checks if a table contains a specific set of attributes.</p>
+<p>Partitions are linked together in a chain, starting from the first active partition, which helps in efficiently iterating over all partitions that contain entities. Each <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> maintains its own list of free indices for row reuse, as well as bitfields for tracking modified and valid rows. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a partition within a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> in <a class="el" href="namespace_mem_db.html" title="Attribute.">MemDb</a>.  <a href="class_mem_db_1_1_table_1_1_partition.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -1333,7 +1340,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table.html">Table</a></li>
 				<li class="footer">
-					Generated on Thu Nov 21 2024 18:58:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 22 2024 10:33:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

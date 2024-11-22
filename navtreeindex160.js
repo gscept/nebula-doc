@@ -1,5 +1,13 @@
 var NAVTREEINDEX160 =
 {
+"struct_vulkan_1_1_buffer_mapping.html#a506debb8867f9c786dcf9f0f5c04d1ea":[9,0,72,1,1],
+"struct_vulkan_1_1_buffer_mapping.html#adbc727bd9dbcab0d2ae0e47bdfb8e806":[8,0,85,1,0],
+"struct_vulkan_1_1_buffer_mapping.html#adbc727bd9dbcab0d2ae0e47bdfb8e806":[9,0,72,1,0],
+"struct_vulkan_1_1_buffer_sparse_page_table.html":[8,0,85,2],
+"struct_vulkan_1_1_buffer_sparse_page_table.html":[9,0,72,2],
+"struct_vulkan_1_1_buffer_sparse_page_table.html#a0faf1ffb019b5d17c07db2f8146db428":[8,0,85,2,3],
+"struct_vulkan_1_1_buffer_sparse_page_table.html#a0faf1ffb019b5d17c07db2f8146db428":[9,0,72,2,3],
+"struct_vulkan_1_1_buffer_sparse_page_table.html#a56c7c6e81504e669544b79d8a61d5033":[8,0,85,2,2],
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a56c7c6e81504e669544b79d8a61d5033":[9,0,72,2,2],
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439":[8,0,85,2,1],
 "struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439":[9,0,72,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX160 =
 "struct_vulkan_1_1_query_bundle.html#ae091b2035955d2f5fc36acf14c6e65ce":[9,0,72,10,4],
 "struct_vulkan_1_1_query_bundle.html#affc005a043644cafc46ff427a119f41d":[8,0,85,10,3],
 "struct_vulkan_1_1_query_bundle.html#affc005a043644cafc46ff427a119f41d":[9,0,72,10,3],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html":[8,0,85,10,0],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html":[9,0,72,10,0],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867":[8,0,85,10,0,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867":[9,0,72,10,0,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a8a643f5dac495cfdf4d961e94568ae05":[8,0,85,10,0,0],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a8a643f5dac495cfdf4d961e94568ae05":[9,0,72,10,0,0],
-"struct_vulkan_1_1_query_bundle_1_1_query_state.html":[8,0,85,10,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_state.html":[9,0,72,10,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[8,0,85,10,1,0]
+"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html":[8,0,85,10,0]
 };

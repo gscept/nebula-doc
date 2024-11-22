@@ -1,5 +1,13 @@
 var NAVTREEINDEX135 =
 {
+"struct_core_graphics_1_1_texture_sparse_page_size.html":[8,0,14,139],
+"struct_core_graphics_1_1_texture_sparse_page_size.html":[9,0,12,138],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#a1a3a8027ef738e0a8b01ec6dcc29e2c9":[8,0,14,139,1],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#a1a3a8027ef738e0a8b01ec6dcc29e2c9":[9,0,12,138,1],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#a5fc3d8387e311038c18523efb6dc0e43":[8,0,14,139,0],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#a5fc3d8387e311038c18523efb6dc0e43":[9,0,12,138,0],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#aa1c03056a1bc88ca618436232df81bce":[8,0,14,139,2],
+"struct_core_graphics_1_1_texture_sparse_page_size.html#aa1c03056a1bc88ca618436232df81bce":[9,0,12,138,2],
 "struct_core_graphics_1_1_texture_stream_data.html":[8,0,14,140],
 "struct_core_graphics_1_1_texture_stream_data.html":[9,0,12,139],
 "struct_core_graphics_1_1_texture_stream_data.html#a28275473b950a521a9b046f5f404569d":[8,0,14,140,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX135 =
 "struct_fibers_1_1fiber__ctx__t.html#a240e90bfb34104fc7efef9bd191fc891":[9,0,18,1,3],
 "struct_fibers_1_1fiber__ctx__t.html#a51a093acde4c9e595084f73efb323cc6":[8,0,20,1,2],
 "struct_fibers_1_1fiber__ctx__t.html#a51a093acde4c9e595084f73efb323cc6":[9,0,18,1,2],
-"struct_fibers_1_1fiber__ctx__t.html#aa3c0a21e5f13e543426efed83fb86ee8":[8,0,20,1,0],
-"struct_fibers_1_1fiber__ctx__t.html#aa3c0a21e5f13e543426efed83fb86ee8":[9,0,18,1,0],
-"struct_fibers_1_1fiber__ctx__t.html#ae7a663f888d846e082cc5bcc6f9557f5":[8,0,20,1,1],
-"struct_fibers_1_1fiber__ctx__t.html#ae7a663f888d846e082cc5bcc6f9557f5":[9,0,18,1,1],
-"struct_fibers_1_1fiber__t.html":[8,0,20,2],
-"struct_fibers_1_1fiber__t.html":[9,0,18,2],
-"struct_fibers_1_1fiber__t.html#a746464d76f55ee9a167b122e3583d3a0":[8,0,20,2,1],
-"struct_fibers_1_1fiber__t.html#a746464d76f55ee9a167b122e3583d3a0":[9,0,18,2,1],
-"struct_fibers_1_1fiber__t.html#a8d7a8f204bdd30e70418d958008ca895":[8,0,20,2,0]
+"struct_fibers_1_1fiber__ctx__t.html#aa3c0a21e5f13e543426efed83fb86ee8":[8,0,20,1,0]
 };

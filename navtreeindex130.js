@@ -1,5 +1,13 @@
 var NAVTREEINDEX130 =
 {
+"struct_core_graphics_1_1_blas_create_info.html#a703eedea49978f0acee749adeb167a90":[8,0,14,14,3],
+"struct_core_graphics_1_1_blas_create_info.html#a703eedea49978f0acee749adeb167a90":[9,0,12,13,3],
+"struct_core_graphics_1_1_blas_create_info.html#a958459b54be6dff870852adb3470d280":[8,0,14,14,4],
+"struct_core_graphics_1_1_blas_create_info.html#a958459b54be6dff870852adb3470d280":[9,0,12,13,4],
+"struct_core_graphics_1_1_blas_create_info.html#a963efa57abe00b7305488c7e11b55bfc":[8,0,14,14,5],
+"struct_core_graphics_1_1_blas_create_info.html#a963efa57abe00b7305488c7e11b55bfc":[9,0,12,13,5],
+"struct_core_graphics_1_1_blas_create_info.html#ab03e5ee50583a63acd5fde6056f81e98":[8,0,14,14,0],
+"struct_core_graphics_1_1_blas_create_info.html#ab03e5ee50583a63acd5fde6056f81e98":[9,0,12,13,0],
 "struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[8,0,14,14,6],
 "struct_core_graphics_1_1_blas_create_info.html#ab2ac2652610a4dd29979fa97f2cda0ea":[9,0,12,13,6],
 "struct_core_graphics_1_1_blas_create_info.html#ab4001ce268d6373e4877b976c1acb646":[8,0,14,14,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX130 =
 "struct_core_graphics_1_1_fence_create_info.html":[8,0,14,44],
 "struct_core_graphics_1_1_fence_create_info.html":[9,0,12,43],
 "struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[8,0,14,44,0],
-"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[9,0,12,43,0],
-"struct_core_graphics_1_1_fence_id.html":[8,0,14,45],
-"struct_core_graphics_1_1_fence_id.html":[9,0,12,44],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[8,0,14,0,0],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[9,0,12,0,0],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[8,0,14,0,0,1],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[9,0,12,0,0,1],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[8,0,14,0,0,0],
-"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[9,0,12,0,0,0]
+"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[9,0,12,43,0]
 };

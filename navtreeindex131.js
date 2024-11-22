@@ -1,5 +1,13 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_fence_id.html":[8,0,14,45],
+"struct_core_graphics_1_1_fence_id.html":[9,0,12,44],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[8,0,14,0,0],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[9,0,12,0,0],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[8,0,14,0,0,1],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#a92528fa8ff7f2fb9e6fb14ad860c08b3":[9,0,12,0,0,1],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[8,0,14,0,0,0],
+"struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html#aa050816b3e977d475bd6b936b0d57317":[9,0,12,0,0,0],
 "struct_core_graphics_1_1_graphics_device_create_info.html":[8,0,14,47],
 "struct_core_graphics_1_1_graphics_device_create_info.html":[9,0,12,46],
 "struct_core_graphics_1_1_graphics_device_create_info.html#a28dfa0859f813d0175f45416184afd17":[8,0,14,47,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[8,0,14,60,7],
 "struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[9,0,12,59,7],
 "struct_core_graphics_1_1_mesh_create_info.html#a7a3fd8f248ab97ecab6497ad4648623d":[8,0,14,60,1],
-"struct_core_graphics_1_1_mesh_create_info.html#a7a3fd8f248ab97ecab6497ad4648623d":[9,0,12,59,1],
-"struct_core_graphics_1_1_mesh_create_info.html#ad56ac1adeaa020e57b9db6efc0dd87f7":[8,0,14,60,9],
-"struct_core_graphics_1_1_mesh_create_info.html#ad56ac1adeaa020e57b9db6efc0dd87f7":[9,0,12,59,9],
-"struct_core_graphics_1_1_mesh_create_info.html#aecdda02c0105812c195c867da16e0bc6":[8,0,14,60,6],
-"struct_core_graphics_1_1_mesh_create_info.html#aecdda02c0105812c195c867da16e0bc6":[9,0,12,59,6],
-"struct_core_graphics_1_1_mesh_create_info.html#af1bd80a89f4dac451ab293a6c84c3994":[8,0,14,60,8],
-"struct_core_graphics_1_1_mesh_create_info.html#af1bd80a89f4dac451ab293a6c84c3994":[9,0,12,59,8],
-"struct_core_graphics_1_1_mesh_id.html":[8,0,14,61],
-"struct_core_graphics_1_1_mesh_id.html":[9,0,12,60]
+"struct_core_graphics_1_1_mesh_create_info.html#a7a3fd8f248ab97ecab6497ad4648623d":[9,0,12,59,1]
 };

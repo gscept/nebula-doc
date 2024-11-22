@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"struct_core_graphics_1_1_sampler_create_info.html#ac2b55a269fed8bb754fa6964ec367618":[8,0,14,109,15],
+"struct_core_graphics_1_1_sampler_create_info.html#ac2b55a269fed8bb754fa6964ec367618":[9,0,12,108,15],
+"struct_core_graphics_1_1_sampler_create_info.html#ac38e7242705bd88c3ee14854ce0b04e5":[8,0,14,109,8],
+"struct_core_graphics_1_1_sampler_create_info.html#ac38e7242705bd88c3ee14854ce0b04e5":[9,0,12,108,8],
+"struct_core_graphics_1_1_sampler_create_info.html#af3e42650d58e05fab957f8b312d31737":[8,0,14,109,6],
+"struct_core_graphics_1_1_sampler_create_info.html#af3e42650d58e05fab957f8b312d31737":[9,0,12,108,6],
+"struct_core_graphics_1_1_sampler_create_info.html#afa0200bd0ab501886e6abdce445436b2":[8,0,14,109,7],
+"struct_core_graphics_1_1_sampler_create_info.html#afa0200bd0ab501886e6abdce445436b2":[9,0,12,108,7],
 "struct_core_graphics_1_1_sampler_id.html":[8,0,14,110],
 "struct_core_graphics_1_1_sampler_id.html":[9,0,12,109],
 "struct_core_graphics_1_1_second_u_v_vertex.html":[8,0,14,111],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "struct_core_graphics_1_1_texture_sparse_page_offset.html#a8d1db5f0bb793912971f8104da3a7cfb":[8,0,14,138,1],
 "struct_core_graphics_1_1_texture_sparse_page_offset.html#a8d1db5f0bb793912971f8104da3a7cfb":[9,0,12,137,1],
 "struct_core_graphics_1_1_texture_sparse_page_offset.html#aa7304b5f9a515f6b41ed25aa5e0f34c4":[8,0,14,138,0],
-"struct_core_graphics_1_1_texture_sparse_page_offset.html#aa7304b5f9a515f6b41ed25aa5e0f34c4":[9,0,12,137,0],
-"struct_core_graphics_1_1_texture_sparse_page_size.html":[8,0,14,139],
-"struct_core_graphics_1_1_texture_sparse_page_size.html":[9,0,12,138],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#a1a3a8027ef738e0a8b01ec6dcc29e2c9":[8,0,14,139,1],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#a1a3a8027ef738e0a8b01ec6dcc29e2c9":[9,0,12,138,1],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#a5fc3d8387e311038c18523efb6dc0e43":[8,0,14,139,0],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#a5fc3d8387e311038c18523efb6dc0e43":[9,0,12,138,0],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#aa1c03056a1bc88ca618436232df81bce":[8,0,14,139,2],
-"struct_core_graphics_1_1_texture_sparse_page_size.html#aa1c03056a1bc88ca618436232df81bce":[9,0,12,138,2]
+"struct_core_graphics_1_1_texture_sparse_page_offset.html#aa7304b5f9a515f6b41ed25aa5e0f34c4":[9,0,12,137,0]
 };

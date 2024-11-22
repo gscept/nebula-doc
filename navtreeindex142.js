@@ -1,5 +1,13 @@
 var NAVTREEINDEX142 =
 {
+"struct_jobs2_1_1_job_system_init_info.html#a79a66f17357b4c4b2c8a689f5b53da4d":[9,0,36,5,4],
+"struct_jobs2_1_1_job_system_init_info.html#a7c38225c34a8fd7e9f2d70054755f18e":[8,0,40,5,1],
+"struct_jobs2_1_1_job_system_init_info.html#a7c38225c34a8fd7e9f2d70054755f18e":[9,0,36,5,1],
+"struct_jobs2_1_1_job_system_init_info.html#aa3891657aae2d8003b61fd8a366bf756":[8,0,40,5,0],
+"struct_jobs2_1_1_job_system_init_info.html#aa3891657aae2d8003b61fd8a366bf756":[9,0,36,5,0],
+"struct_jobs2_1_1_job_system_init_info.html#ad1961105c57acb200f96c12a1a47e552":[8,0,40,5,6],
+"struct_jobs2_1_1_job_system_init_info.html#ad1961105c57acb200f96c12a1a47e552":[9,0,36,5,6],
+"struct_jobs2_1_1_job_system_init_info.html#adf2b7b3b047e5323a2307f7f91f6b99b":[8,0,40,5,3],
 "struct_jobs2_1_1_job_system_init_info.html#adf2b7b3b047e5323a2307f7f91f6b99b":[9,0,36,5,3],
 "struct_jobs2_1_1_job_system_init_info.html#ae1fcce4987a54e27e01c3db19bfbb52b":[8,0,40,5,5],
 "struct_jobs2_1_1_job_system_init_info.html#ae1fcce4987a54e27e01c3db19bfbb52b":[9,0,36,5,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX142 =
 "struct_material_templates_1_1_material_template_value.html#ab6f000c1515849830505135a6183a5bb":[9,0,40,2,4],
 "struct_material_templates_1_1_material_template_value.html#acac483684ccf87091eb437c686ce35ab":[8,0,45,2,6],
 "struct_material_templates_1_1_material_template_value.html#acac483684ccf87091eb437c686ce35ab":[9,0,40,2,6],
-"struct_material_templates_1_1_material_template_value.html#af3879d05df3fdbb92e1668229920da90":[8,0,45,2,9],
-"struct_material_templates_1_1_material_template_value.html#af3879d05df3fdbb92e1668229920da90":[9,0,40,2,9],
-"struct_materials_1_1_material_buffer.html":[8,0,44,0],
-"struct_materials_1_1_material_buffer.html":[9,0,39,0],
-"struct_materials_1_1_material_buffer.html#a186ed5640551098557cf5a7df9411956":[8,0,44,0,0],
-"struct_materials_1_1_material_buffer.html#a186ed5640551098557cf5a7df9411956":[9,0,39,0,0],
-"struct_materials_1_1_material_buffer.html#a2f6b6b83c0f8c6913154fa0c6a963e8c":[8,0,44,0,4],
-"struct_materials_1_1_material_buffer.html#a2f6b6b83c0f8c6913154fa0c6a963e8c":[9,0,39,0,4],
-"struct_materials_1_1_material_buffer.html#a53d397a36997f72e18d532e1e7e2a24a":[8,0,44,0,5]
+"struct_material_templates_1_1_material_template_value.html#af3879d05df3fdbb92e1668229920da90":[8,0,45,2,9]
 };

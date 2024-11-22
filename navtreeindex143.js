@@ -1,5 +1,13 @@
 var NAVTREEINDEX143 =
 {
+"struct_material_templates_1_1_material_template_value.html#af3879d05df3fdbb92e1668229920da90":[9,0,40,2,9],
+"struct_materials_1_1_material_buffer.html":[8,0,44,0],
+"struct_materials_1_1_material_buffer.html":[9,0,39,0],
+"struct_materials_1_1_material_buffer.html#a186ed5640551098557cf5a7df9411956":[8,0,44,0,0],
+"struct_materials_1_1_material_buffer.html#a186ed5640551098557cf5a7df9411956":[9,0,39,0,0],
+"struct_materials_1_1_material_buffer.html#a2f6b6b83c0f8c6913154fa0c6a963e8c":[8,0,44,0,4],
+"struct_materials_1_1_material_buffer.html#a2f6b6b83c0f8c6913154fa0c6a963e8c":[9,0,39,0,4],
+"struct_materials_1_1_material_buffer.html#a53d397a36997f72e18d532e1e7e2a24a":[8,0,44,0,5],
 "struct_materials_1_1_material_buffer.html#a53d397a36997f72e18d532e1e7e2a24a":[9,0,39,0,5],
 "struct_materials_1_1_material_buffer.html#a570123a9cfdad08bf20d96c3a6f9ca98":[8,0,44,0,1],
 "struct_materials_1_1_material_buffer.html#a570123a9cfdad08bf20d96c3a6f9ca98":[9,0,39,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX143 =
 "struct_math_1_1mat4.html#a8ff10577252cbd8748a2896f86ee5747":[9,0,41,16,31],
 "struct_math_1_1mat4.html#a94e96852d76651ca23ed891a1f9159bf":[8,0,46,16,47],
 "struct_math_1_1mat4.html#a94e96852d76651ca23ed891a1f9159bf":[9,0,41,16,47],
-"struct_math_1_1mat4.html#a9911a4f5da7f383aa0b346f6d0064843":[8,0,46,16,45],
-"struct_math_1_1mat4.html#a9911a4f5da7f383aa0b346f6d0064843":[9,0,41,16,45],
-"struct_math_1_1mat4.html#aaad7b49cd6644313fa64418740b3d079":[8,0,46,16,35],
-"struct_math_1_1mat4.html#aaad7b49cd6644313fa64418740b3d079":[9,0,41,16,35],
-"struct_math_1_1mat4.html#aace6055760cb847ac41d29b7298a2258":[8,0,46,16,26],
-"struct_math_1_1mat4.html#aace6055760cb847ac41d29b7298a2258":[9,0,41,16,26],
-"struct_math_1_1mat4.html#aafe93b11625cb15fde9272d5084cfdb8":[8,0,46,16,7],
-"struct_math_1_1mat4.html#aafe93b11625cb15fde9272d5084cfdb8":[9,0,41,16,7],
-"struct_math_1_1mat4.html#ab24b6e0f32ad254c90a755ab5d99396d":[8,0,46,16,17]
+"struct_math_1_1mat4.html#a9911a4f5da7f383aa0b346f6d0064843":[8,0,46,16,45]
 };

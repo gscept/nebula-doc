@@ -108,7 +108,12 @@ $(function(){initNavTree('class_mem_db_1_1_table_1_1_partition.html',''); initRe
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="memdb_2table_8h_source.html">table.h</a>&gt;</code></p>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a partition within a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> in <a class="el" href="namespace_mem_db.html" title="Attribute.">MemDb</a>. </p>
+<p>A <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> is a segment of a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a> that contains a fixed number of rows and manages memory for attribute data through column buffers. Each <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> has a unique partition ID and maintains metadata about its contents, such as the number of rows it currently holds.</p>
+<p>Partitions are linked together in a chain within a <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a>, starting from the first active partition, which allows efficient iteration over all partitions that contain valid rows. Each <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> keeps track of free indices using an array, enabling reuse of memory for deleted rows.</p>
+<p>Column buffers in a <a class="el" href="class_mem_db_1_1_table_1_1_partition.html" title="Represents a partition within a Table in MemDb.">Partition</a> store data for each attribute defined in the <a class="el" href="class_mem_db_1_1_table.html" title="A table of columns (attributes) and rows.">Table</a>. The columns array contains these buffers, and a bitfield tracks whether each row is valid (i.e., not deleted) or modified. This information is used for operations like defragmentation and garbage collection within the partition. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a739945a2a2765333fbfd767ea4e2a3f7" id="r_a739945a2a2765333fbfd767ea4e2a3f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mem_db_1_1_table.html">Table</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a739945a2a2765333fbfd767ea4e2a3f7">table</a> = nullptr</td></tr>
@@ -501,7 +506,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_mem_db.html">MemDb</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table.html">Table</a></li><li class="navelem"><a class="el" href="class_mem_db_1_1_table_1_1_partition.html">Partition</a></li>
 				<li class="footer">
-					Generated on Thu Nov 21 2024 18:58:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Nov 22 2024 10:33:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

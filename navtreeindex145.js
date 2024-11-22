@@ -1,5 +1,13 @@
 var NAVTREEINDEX145 =
 {
+"struct_math_1_1vec2.html#a9cdf9af82e6bb20d662f5ef9b023136c":[9,0,41,32,18],
+"struct_math_1_1vec2.html#aa0560d94ec74ab842044b3f505416281":[8,0,46,32,3],
+"struct_math_1_1vec2.html#aa0560d94ec74ab842044b3f505416281":[9,0,41,32,3],
+"struct_math_1_1vec2.html#aa15b96501c113a702e3273f831c0de2c":[8,0,46,32,25],
+"struct_math_1_1vec2.html#aa15b96501c113a702e3273f831c0de2c":[9,0,41,32,25],
+"struct_math_1_1vec2.html#aa77c6ba7a14b02cfac0118e013a08c38":[8,0,46,32,1],
+"struct_math_1_1vec2.html#aa77c6ba7a14b02cfac0118e013a08c38":[9,0,41,32,1],
+"struct_math_1_1vec2.html#aa8eedfaba5813375d6b990c2a9b1a23b":[8,0,46,32,4],
 "struct_math_1_1vec2.html#aa8eedfaba5813375d6b990c2a9b1a23b":[9,0,41,32,4],
 "struct_math_1_1vec2.html#aae58d1e1327979459b5ceb3d4ca225e7":[8,0,46,32,7],
 "struct_math_1_1vec2.html#aae58d1e1327979459b5ceb3d4ca225e7":[9,0,41,32,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX145 =
 "struct_mathf_1_1_bounding_box.html#a7cb3d43a90863c900a05d9c05fc3a5a2":[9,0,42,0,26],
 "struct_mathf_1_1_bounding_box.html#a7cea001604e817767e94cd9b0ac1ead2":[8,0,47,0,6],
 "struct_mathf_1_1_bounding_box.html#a7cea001604e817767e94cd9b0ac1ead2":[9,0,42,0,6],
-"struct_mathf_1_1_bounding_box.html#a7db0486ac203788a4bca3208aa9fd434":[8,0,47,0,36],
-"struct_mathf_1_1_bounding_box.html#a7db0486ac203788a4bca3208aa9fd434":[9,0,42,0,36],
-"struct_mathf_1_1_bounding_box.html#a834e3a742524cf87a779cd91046c677c":[8,0,47,0,29],
-"struct_mathf_1_1_bounding_box.html#a834e3a742524cf87a779cd91046c677c":[9,0,42,0,29],
-"struct_mathf_1_1_bounding_box.html#a83bdbbc19984468d6524c3c9e9827398":[8,0,47,0,37],
-"struct_mathf_1_1_bounding_box.html#a83bdbbc19984468d6524c3c9e9827398":[9,0,42,0,37],
-"struct_mathf_1_1_bounding_box.html#a8504fb4f1812110cd5ceca0ebd4e6f29":[8,0,47,0,15],
-"struct_mathf_1_1_bounding_box.html#a8504fb4f1812110cd5ceca0ebd4e6f29":[9,0,42,0,15],
-"struct_mathf_1_1_bounding_box.html#a87adeff41c121ac9ed35fd89f4d55c73":[8,0,47,0,22]
+"struct_mathf_1_1_bounding_box.html#a7db0486ac203788a4bca3208aa9fd434":[8,0,47,0,36]
 };
