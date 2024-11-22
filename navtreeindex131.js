@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[8,0,14,44,0],
+"struct_core_graphics_1_1_fence_create_info.html#adfbd71efd76b2dcc6ab43f9f9fe04799":[9,0,12,43,0],
 "struct_core_graphics_1_1_fence_id.html":[8,0,14,45],
 "struct_core_graphics_1_1_fence_id.html":[9,0,12,44],
 "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html":[8,0,14,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_core_graphics_1_1_mesh_create_info.html#a64682c1b53c699291dc6c3aea6a5db78":[8,0,14,60,2],
 "struct_core_graphics_1_1_mesh_create_info.html#a64682c1b53c699291dc6c3aea6a5db78":[9,0,12,59,2],
 "struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[8,0,14,60,7],
-"struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[9,0,12,59,7],
-"struct_core_graphics_1_1_mesh_create_info.html#a7a3fd8f248ab97ecab6497ad4648623d":[8,0,14,60,1],
-"struct_core_graphics_1_1_mesh_create_info.html#a7a3fd8f248ab97ecab6497ad4648623d":[9,0,12,59,1]
+"struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[9,0,12,59,7]
 };

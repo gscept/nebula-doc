@@ -1,5 +1,7 @@
 var NAVTREEINDEX174 =
 {
+"win32memory_8h.html#a13ae93b4a505f65296e8afd5cd682b79":[10,0,0,3,13,3,3,12],
+"win32memory_8h.html#a302b8099d0bbcc9bccfd578814e5b4f3":[10,0,0,3,13,3,3,5],
 "win32memory_8h.html#a3e556ad80994209cf526414f6df18f8c":[10,0,0,3,13,3,3,7],
 "win32memory_8h.html#a5afec4d80443efe3b9ef905a15db205f":[10,0,0,3,13,3,3,1],
 "win32memory_8h.html#a6055e491858cd969e93326d9b3e4b420":[10,0,0,3,13,3,3,11],

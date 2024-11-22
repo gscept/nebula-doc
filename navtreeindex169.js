@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"vertexlayout_8h.html#ac9e0cfb567e21f5a7cb98d2252fcd3e1":[10,0,0,6,5,95,10],
+"vertexlayout_8h.html#adb6ce533dc0b99418695f9de4be0880f":[10,0,0,6,5,95,12],
 "vertexlayout_8h.html#af359ca2ecf74cbc1bea0777b733e3403":[10,0,0,6,5,95,14],
 "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791":[10,0,0,6,5,95,8],
 "vertexlayout_8h.html#af4bde55a3078526840bee06aa34d4791a4bbb8f967da6d1a610596d7257179c2b":[10,0,0,6,5,95,8,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "vkcommandbufferthread_8h.html":[10,0,0,6,5,5,9],
 "vkcommandbufferthread_8h_source.html":[10,0,0,6,5,5,9],
 "vkdeferredcommand_8cc.html":[10,0,0,6,5,5,10],
-"vkdeferredcommand_8h.html":[10,0,0,6,5,5,11],
-"vkdeferredcommand_8h_source.html":[10,0,0,6,5,5,11],
-"vkdepthstenciltarget_8cc.html":[10,0,0,6,5,5,12]
+"vkdeferredcommand_8h.html":[10,0,0,6,5,5,11]
 };

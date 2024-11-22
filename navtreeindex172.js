@@ -1,5 +1,7 @@
 var NAVTREEINDEX172 =
 {
+"vkmemory_8cc.html#aa76704e9ec01dd66fb18531c671d95b7":[10,0,0,6,5,5,24,8],
+"vkmemory_8cc.html#abb0b2172b98ff2488bed296cd9c2bcfc":[10,0,0,6,5,5,24,12],
 "vkmemory_8cc.html#acd86ec248bc000dd836f1e15d90820e3":[10,0,0,6,5,5,24,10],
 "vkmemory_8cc.html#ad48f9feb90086a6621fb9898995e28d6":[10,0,0,6,5,5,24,9],
 "vkmemory_8h.html":[10,0,0,6,5,5,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX172 =
 "vkshaderprogram_8h.html#a1b8f16d639a12a71560196bc11f1a75a":[10,0,0,6,5,5,47,3],
 "vkshaderprogram_8h.html#a380503ee9434913f89742ded11c6dbe3":[10,0,0,6,5,5,47,6],
 "vkshaderprogram_8h.html#a4e7ae0822cd6bf8d0fb7b462089c929d":[10,0,0,6,5,5,47,4],
-"vkshaderprogram_8h.html#a54d6a062501d61e23a1f7699ef2558b8":[10,0,0,6,5,5,47,11],
-"vkshaderprogram_8h.html#a75a830679100749d4440e676389b6e5c":[10,0,0,6,5,5,47,5],
-"vkshaderprogram_8h.html#ad012bd312fcb119f840bfedb519577f8":[10,0,0,6,5,5,47,8]
+"vkshaderprogram_8h.html#a54d6a062501d61e23a1f7699ef2558b8":[10,0,0,6,5,5,47,11]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX170 =
 {
+"vkdeferredcommand_8h_source.html":[10,0,0,6,5,5,11],
+"vkdepthstenciltarget_8cc.html":[10,0,0,6,5,5,12],
 "vkdepthstenciltarget_8cc.html#a0b4827f02e28518f08cedd72c907f2b2":[10,0,0,6,5,5,12,0],
 "vkdepthstenciltarget_8h.html":[10,0,0,6,5,5,13],
 "vkdepthstenciltarget_8h_source.html":[10,0,0,6,5,5,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX170 =
 "vkloader_8cc.html#a79e90d61dcd355ccdafdfc8a2f5722fc":[10,0,0,6,5,5,22,87],
 "vkloader_8cc.html#a7aa1ff6704782049c936dd25eeaa7bd5":[10,0,0,6,5,5,22,48],
 "vkloader_8cc.html#a7dd15e218b5409072c101a36bce4093d":[10,0,0,6,5,5,22,24],
-"vkloader_8cc.html#a7de8db72f5bd287e99e6407189dec08c":[10,0,0,6,5,5,22,25],
-"vkloader_8cc.html#a8029913a4739ebee620565549637bcee":[10,0,0,6,5,5,22,150],
-"vkloader_8cc.html#a83ebd2c66cc0630f3650abca4d8590d0":[10,0,0,6,5,5,22,119]
+"vkloader_8cc.html#a7de8db72f5bd287e99e6407189dec08c":[10,0,0,6,5,5,22,25]
 };

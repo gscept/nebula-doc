@@ -298,7 +298,7 @@ var searchData=
   ['cmdbuffergetvkpool_295',['CmdBufferGetVkPool',['../namespace_vulkan.html#ad444ab70d1ebb2905d1aef9c16279934',1,'Vulkan']]],
   ['cmdbufferid_296',['CmdBufferId',['../struct_core_graphics_1_1_cmd_buffer_id.html',1,'CoreGraphics']]],
   ['cmdbuffermarkerbundle_297',['CmdBufferMarkerBundle',['../struct_core_graphics_1_1_cmd_buffer_marker_bundle.html',1,'CoreGraphics']]],
-  ['cmdbufferpoolcreateinfo_298',['CmdBufferPoolCreateInfo',['../struct_core_graphics_1_1_cmd_buffer_pool_create_info.html',1,'CoreGraphics']]],
+  ['cmdbufferpoolcreateinfo_298',['CmdBufferPoolCreateInfo',['../struct_core_graphics_1_1_cmd_buffer_pool_create_info.html',1,'CoreGraphics::CmdBufferPoolCreateInfo'],['../struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a6684f010f85fb3947e80f01e7bc7eaff',1,'CoreGraphics::CmdBufferPoolCreateInfo::CmdBufferPoolCreateInfo()']]],
   ['cmdbufferpoolgetvk_299',['CmdBufferPoolGetVk',['../namespace_vulkan.html#a5c38914055380d49573d73dfb2e74ae2',1,'Vulkan']]],
   ['cmdbufferpoolgetvkdevice_300',['CmdBufferPoolGetVkDevice',['../namespace_vulkan.html#af8ead512dc5640042cb354a43190dcea',1,'Vulkan']]],
   ['cmdbufferpoolid_301',['CmdBufferPoolId',['../struct_core_graphics_1_1_cmd_buffer_pool_id.html',1,'CoreGraphics']]],
