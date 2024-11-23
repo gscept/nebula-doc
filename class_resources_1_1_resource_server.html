@@ -185,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d2702a08b244fedb9576bcc6faf849f" id="r_a6d2702a08b244fedb9576bcc6faf849f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d2702a08b244fedb9576bcc6faf849f">RegisterStreamLoader</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ext, const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;loaderClass)</td></tr>
 <tr class="memdesc:a6d2702a08b244fedb9576bcc6faf849f"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a stream pool, which takes an extension and the RTTI of the resource type to create  <br /></td></tr>
 <tr class="separator:a6d2702a08b244fedb9576bcc6faf849f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7300cc103fc3199f4526bbb54f61bf78" id="r_a7300cc103fc3199f4526bbb54f61bf78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7300cc103fc3199f4526bbb54f61bf78">DeregisterStreamLoader</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ext, const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;loaderClass)</td></tr>
+<tr class="memdesc:a7300cc103fc3199f4526bbb54f61bf78"><td class="mdescLeft">&#160;</td><td class="mdescRight">deregisters a stream pool  <br /></td></tr>
+<tr class="separator:a7300cc103fc3199f4526bbb54f61bf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade9d1bfef4a9d2276a307961f7fd7bbe" id="r_ade9d1bfef4a9d2276a307961f7fd7bbe"><td class="memTemplParams" colspan="2">template&lt;class POOL_TYPE &gt; </td></tr>
 <tr class="memitem:ade9d1bfef4a9d2276a307961f7fd7bbe"><td class="memTemplItemLeft" align="right" valign="top">POOL_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ade9d1bfef4a9d2276a307961f7fd7bbe">GetStreamLoader</a> () const</td></tr>
 <tr class="memdesc:ade9d1bfef4a9d2276a307961f7fd7bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stream pool for later use  <br /></td></tr>
@@ -614,6 +617,29 @@ template&lt;class METADATA &gt; </div>
 </div><div class="memdoc">
 
 <p>Create single-fire listener for resource. When resource is loaded, the callbacks will be invoked and the listener is destroyed. </p>
+
+</div>
+</div>
+<a id="a7300cc103fc3199f4526bbb54f61bf78" name="a7300cc103fc3199f4526bbb54f61bf78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7300cc103fc3199f4526bbb54f61bf78">&#9670;&#160;</a></span>DeregisterStreamLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resources::ResourceServer::DeregisterStreamLoader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ext</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loaderClass</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>deregisters a stream pool </p>
 
 </div>
 </div>
@@ -1209,7 +1235,7 @@ template&lt;class POOL_TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_resources_1_1_resource_server.html">ResourceServer</a></li>
 				<li class="footer">
-					Generated on Sat Nov 23 2024 19:32:23 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Nov 23 2024 20:24:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
