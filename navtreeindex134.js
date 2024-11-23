@@ -1,5 +1,11 @@
 var NAVTREEINDEX134 =
 {
+"struct_core_graphics_1_1_sampler_create_info.html#a27e259770522a4301c296b8aa198d8cf":[8,0,14,109,11],
+"struct_core_graphics_1_1_sampler_create_info.html#a27e259770522a4301c296b8aa198d8cf":[9,0,12,108,11],
+"struct_core_graphics_1_1_sampler_create_info.html#a325a5e79130d30c70333296afa41c14d":[8,0,14,109,10],
+"struct_core_graphics_1_1_sampler_create_info.html#a325a5e79130d30c70333296afa41c14d":[9,0,12,108,10],
+"struct_core_graphics_1_1_sampler_create_info.html#a5091e94c063ba4c423f1502e6499e96f":[8,0,14,109,9],
+"struct_core_graphics_1_1_sampler_create_info.html#a5091e94c063ba4c423f1502e6499e96f":[9,0,12,108,9],
 "struct_core_graphics_1_1_sampler_create_info.html#a579631977fd1350391e043f22bba65a9":[8,0,14,109,1],
 "struct_core_graphics_1_1_sampler_create_info.html#a579631977fd1350391e043f22bba65a9":[9,0,12,108,1],
 "struct_core_graphics_1_1_sampler_create_info.html#a62ea22ec797b04887316276ddfc8b313":[8,0,14,109,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX134 =
 "struct_core_graphics_1_1_texture_loader_1_1_mip_load_main_thread.html#a8f7d29302d2c06b9de4bf5fbe640072e":[8,0,14,135,1,3],
 "struct_core_graphics_1_1_texture_loader_1_1_mip_load_main_thread.html#a8f7d29302d2c06b9de4bf5fbe640072e":[9,0,12,134,1,3],
 "struct_core_graphics_1_1_texture_relative_dimensions.html":[8,0,14,136],
-"struct_core_graphics_1_1_texture_relative_dimensions.html":[9,0,12,135],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#a63b7325c5677a82952b3f0353c725869":[8,0,14,136,1],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#a63b7325c5677a82952b3f0353c725869":[9,0,12,135,1],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#ab0e8cd15eb5aa059fab7acb0994ac67c":[8,0,14,136,2],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#ab0e8cd15eb5aa059fab7acb0994ac67c":[9,0,12,135,2],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#ac742aa787cd4ca1c8914bb097c5654d7":[8,0,14,136,0],
-"struct_core_graphics_1_1_texture_relative_dimensions.html#ac742aa787cd4ca1c8914bb097c5654d7":[9,0,12,135,0]
+"struct_core_graphics_1_1_texture_relative_dimensions.html":[9,0,12,135]
 };

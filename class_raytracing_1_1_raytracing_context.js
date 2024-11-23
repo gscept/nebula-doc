@@ -7,6 +7,7 @@ var class_raytracing_1_1_raytracing_context =
     [ "Alloc", "class_raytracing_1_1_raytracing_context.html#ab1cfc7b9d1acb91a8ab2ab6ae2974759", null ],
     [ "Create", "class_raytracing_1_1_raytracing_context.html#ae4eccefe00ce9db6da7aa6efa051df69", null ],
     [ "Dealloc", "class_raytracing_1_1_raytracing_context.html#a2c7c8fa2fa8c73c762f0644b2757673f", null ],
+    [ "Discard", "class_raytracing_1_1_raytracing_context.html#a3d5effa0143f75cd59093bc05acd72b6", null ],
     [ "InvalidateBLAS", "class_raytracing_1_1_raytracing_context.html#a14106743c6beb85a4dd80471e098f4ce", null ],
     [ "OnRenderDebug", "class_raytracing_1_1_raytracing_context.html#a68fe8aae66090993bd2ab018ec0fec7f", null ],
     [ "ReconstructTopLevelAcceleration", "class_raytracing_1_1_raytracing_context.html#af0982bd7f8ef2e029a7f562954308874", null ],

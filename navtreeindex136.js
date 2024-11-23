@@ -1,5 +1,11 @@
 var NAVTREEINDEX136 =
 {
+"struct_fibers_1_1_fiber_queue_1_1_job.html#aea95086926df35489eceeddb8f00ec87":[9,0,18,4,0,0],
+"struct_fibers_1_1_fiber_queue_create_info.html":[8,0,20,5],
+"struct_fibers_1_1_fiber_queue_create_info.html":[9,0,18,5],
+"struct_fibers_1_1_fiber_queue_create_info.html#ac8ebfd8e013988c6af563b38f7837cd5":[8,0,20,5,0],
+"struct_fibers_1_1_fiber_queue_create_info.html#ac8ebfd8e013988c6af563b38f7837cd5":[9,0,18,5,0],
+"struct_fibers_1_1_fiber_queue_create_info.html#ade28c2d85f21aa414c092e6d7be86ef1":[8,0,20,5,1],
 "struct_fibers_1_1_fiber_queue_create_info.html#ade28c2d85f21aa414c092e6d7be86ef1":[9,0,18,5,1],
 "struct_fibers_1_1_fiber_wait_context.html":[8,0,20,7],
 "struct_fibers_1_1_fiber_wait_context.html":[9,0,18,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX136 =
 "struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html#acfea8c6c98ee423eb10dfba69c7b7123":[9,0,21,18,0,0],
 "struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html":[8,0,24,19,0],
 "struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html":[9,0,21,19,0],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#a0e194e3115c74d5ec9bb3396c9b7251b":[8,0,24,19,0,1],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#a0e194e3115c74d5ec9bb3396c9b7251b":[9,0,21,19,0,1],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#a825b92048b46ebcf998c3785c3fa2596":[8,0,24,19,0,2],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#a825b92048b46ebcf998c3785c3fa2596":[9,0,21,19,0,2],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#aedc5ecf66070be5c1cb1567282512448":[8,0,24,19,0,0],
-"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#aedc5ecf66070be5c1cb1567282512448":[9,0,21,19,0,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html":[8,0,24,20,0]
+"struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#a0e194e3115c74d5ec9bb3396c9b7251b":[8,0,24,19,0,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX109 =
 {
+"namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397":[8,0,14,189,0],
+"namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69":[8,0,14,189,1],
+"namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeafe56d4cdb0de51fd2a4d4677068dd630":[8,0,14,189,3],
+"namespace_core_graphics.html#abaeb0f80c9574b6735e2871063629e3b":[8,0,14,307],
 "namespace_core_graphics.html#abb0b2172b98ff2488bed296cd9c2bcfc":[8,0,14,482],
 "namespace_core_graphics.html#abb65c0a21c13243912914d0a252ad7b6":[8,0,14,387],
 "namespace_core_graphics.html#abb89c006055f05dbe633d86e01f08667":[8,0,14,242],
@@ -245,9 +249,5 @@ var NAVTREEINDEX109 =
 "namespace_core_graphics.html#aff3c92c476840e5554665e5129fa5fc8":[8,0,14,567],
 "namespace_core_graphics.html#aff5775a44ed1871f5dafee1e67e7afee":[8,0,14,632],
 "namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c":[8,0,14,459],
-"namespace_core_graphics_1_1_gpu_buffer_types.html":[8,0,14,0],
-"namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084":[8,0,14,0,3],
-"namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[8,0,14,0,3,2],
-"namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[8,0,14,0,3,1],
-"namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084ae4bf8b84258be913c6fbc1b7a306d73f":[8,0,14,0,3,0]
+"namespace_core_graphics_1_1_gpu_buffer_types.html":[8,0,14,0]
 };

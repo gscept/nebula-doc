@@ -2284,6 +2284,7 @@ var hierarchy =
     [ "CoreGraphics::SemaphoreId", "struct_core_graphics_1_1_semaphore_id.html", null ],
     [ "Game::ComponentSerialization::Serializer", "struct_game_1_1_component_serialization_1_1_serializer.html", null ],
     [ "Util::Set< KEYTYPE >", "class_util_1_1_set.html", null ],
+    [ "Util::Set< CoreGraphics::SamplerId >", "class_util_1_1_set.html", null ],
     [ "Util::Set< Ids::Id32 >", "class_util_1_1_set.html", null ],
     [ "Util::Set< uint32_t >", "class_util_1_1_set.html", null ],
     [ "CoreGraphics::GpuBufferTypes::SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", null ],

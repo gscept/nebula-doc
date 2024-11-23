@@ -1,5 +1,11 @@
 var NAVTREEINDEX173 =
 {
+"vkshader_8h_source.html":[10,0,0,6,5,5,43],
+"vkshaderpool_8cc.html":[10,0,0,6,5,5,44],
+"vkshaderpool_8cc.html#a707b3e499321fabe99ea05f9143bc305":[10,0,0,6,5,5,44,0],
+"vkshaderpool_8h.html":[10,0,0,6,5,5,45],
+"vkshaderpool_8h.html#a9744ae7569760a865a105690a52a1e3c":[10,0,0,6,5,5,45,8],
+"vkshaderpool_8h_source.html":[10,0,0,6,5,5,45],
 "vkshaderprogram_8cc.html":[10,0,0,6,5,5,46],
 "vkshaderprogram_8cc.html#a0013c20eba13b02459adb8fc480aca54":[10,0,0,6,5,5,46,6],
 "vkshaderprogram_8cc.html#a0125d1bedd5cd165c8b6c67206046538":[10,0,0,6,5,5,46,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX173 =
 "win32ipaddress_8h.html":[10,0,0,3,15,3,1],
 "win32ipaddress_8h_source.html":[10,0,0,3,15,3,1],
 "win32library_8cc.html":[10,0,0,3,17,4,3],
-"win32library_8h.html":[10,0,0,3,17,4,4],
-"win32library_8h_source.html":[10,0,0,3,17,4,4],
-"win32memory_8cc.html":[10,0,0,3,13,3,2],
-"win32memory_8cc.html#a02d9d956fa2bc0294cabf3bfcd74ecc8":[10,0,0,3,13,3,2,12],
-"win32memory_8cc.html#a05533d2c6154b45946e2e915fdcbb173":[10,0,0,3,13,3,2,8],
-"win32memory_8cc.html#a13ae93b4a505f65296e8afd5cd682b79":[10,0,0,3,13,3,2,7],
-"win32memory_8cc.html#a2a2dbbd792702e177d8e343572cc5b2a":[10,0,0,3,13,3,2,14]
+"win32library_8h.html":[10,0,0,3,17,4,4]
 };
