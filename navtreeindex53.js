@@ -1,5 +1,17 @@
 var NAVTREEINDEX53 =
 {
+"class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030":[8,0,46,11,26],
+"class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030":[9,0,41,11,26],
+"class_math_1_1half.html#a858b21560e3785579f8a04eeec839e95":[8,0,46,11,23],
+"class_math_1_1half.html#a858b21560e3785579f8a04eeec839e95":[9,0,41,11,23],
+"class_math_1_1half.html#a8e9bbbef288814eba62928e02d7c543d":[8,0,46,11,12],
+"class_math_1_1half.html#a8e9bbbef288814eba62928e02d7c543d":[9,0,41,11,12],
+"class_math_1_1half.html#a8faff79ae4ca01c65b271ddae14a7dcd":[8,0,46,11,25],
+"class_math_1_1half.html#a8faff79ae4ca01c65b271ddae14a7dcd":[9,0,41,11,25],
+"class_math_1_1half.html#a9cbdfaa3b2125e727c307a33c71d8889":[8,0,46,11,11],
+"class_math_1_1half.html#a9cbdfaa3b2125e727c307a33c71d8889":[9,0,41,11,11],
+"class_math_1_1half.html#ab0f7194560e2dd145833b2f11aa5318e":[8,0,46,11,3],
+"class_math_1_1half.html#ab0f7194560e2dd145833b2f11aa5318e":[9,0,41,11,3],
 "class_math_1_1half.html#ab72d4f23d03b12fdd3c1ade45e1624a6":[8,0,46,11,8],
 "class_math_1_1half.html#ab72d4f23d03b12fdd3c1ade45e1624a6":[9,0,41,11,8],
 "class_math_1_1half.html#aba59fdf7dcc65f6ac814d698f3757d1a":[8,0,46,11,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX53 =
 "class_mathf_1_1_bounding_frustum.html#a1116b6c2c4b77186a7f007b02a8b5c01":[8,0,47,1,2],
 "class_mathf_1_1_bounding_frustum.html#a1116b6c2c4b77186a7f007b02a8b5c01":[9,0,42,1,2],
 "class_mathf_1_1_bounding_frustum.html#a124bdd26992684c9347c83d9b7357afa":[8,0,47,1,35],
-"class_mathf_1_1_bounding_frustum.html#a124bdd26992684c9347c83d9b7357afa":[9,0,42,1,35],
-"class_mathf_1_1_bounding_frustum.html#a1a448c5ee0b1a2ad35c6f7366e111601":[8,0,47,1,11],
-"class_mathf_1_1_bounding_frustum.html#a1a448c5ee0b1a2ad35c6f7366e111601":[9,0,42,1,11],
-"class_mathf_1_1_bounding_frustum.html#a284190366ec65386911f775175839d18":[8,0,47,1,40],
-"class_mathf_1_1_bounding_frustum.html#a284190366ec65386911f775175839d18":[9,0,42,1,40],
-"class_mathf_1_1_bounding_frustum.html#a2da0a8985db5f0139f8fa1c8ddd753fc":[8,0,47,1,19],
-"class_mathf_1_1_bounding_frustum.html#a2da0a8985db5f0139f8fa1c8ddd753fc":[9,0,42,1,19],
-"class_mathf_1_1_bounding_frustum.html#a318edf948c10f8e8b9d24443b9f2ac23":[8,0,47,1,18],
-"class_mathf_1_1_bounding_frustum.html#a318edf948c10f8e8b9d24443b9f2ac23":[9,0,42,1,18],
-"class_mathf_1_1_bounding_frustum.html#a331a5d3ca5a0f415a5ac65c4f45b62bc":[8,0,47,1,8],
-"class_mathf_1_1_bounding_frustum.html#a331a5d3ca5a0f415a5ac65c4f45b62bc":[9,0,42,1,8],
-"class_mathf_1_1_bounding_frustum.html#a3f6ff1a65ba27de3d9db07cee472a1e0":[8,0,47,1,21],
-"class_mathf_1_1_bounding_frustum.html#a3f6ff1a65ba27de3d9db07cee472a1e0":[9,0,42,1,21]
+"class_mathf_1_1_bounding_frustum.html#a124bdd26992684c9347c83d9b7357afa":[9,0,42,1,35]
 };

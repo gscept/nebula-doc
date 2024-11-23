@@ -20,5 +20,7 @@ var struct_im3d_1_1_im3d_state =
     [ "trianglesPipeline", "struct_im3d_1_1_im3d_state.html#a2bf48449accde03ab6417837ae2d6123", null ],
     [ "vbo", "struct_im3d_1_1_im3d_state.html#afdfedccad07e6acbc3385dab50153009", null ],
     [ "vertexPtr", "struct_im3d_1_1_im3d_state.html#a65d1da81c669c9def372de10153cb11a", null ],
+    [ "viewPortPosition", "struct_im3d_1_1_im3d_state.html#ae019a6d7263815e160fa59cd89af450c", null ],
+    [ "viewPortSize", "struct_im3d_1_1_im3d_state.html#ad3d8078fa94239f769bda32a17333df5", null ],
     [ "vlo", "struct_im3d_1_1_im3d_state.html#a311a2e6f0f66f871c156e75f743be3a1", null ]
 ];

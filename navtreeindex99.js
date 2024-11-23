@@ -1,5 +1,17 @@
 var NAVTREEINDEX99 =
 {
+"gamecontentserverbase_8cc.html#abf96c9d56f909878a0be8245406008da":[10,0,0,3,9,1,0,1],
+"gamecontentserverbase_8cc.html#afb75c20e907e8c20125c079e11c9571e":[10,0,0,3,9,1,0,0],
+"gamecontentserverbase_8h.html":[10,0,0,3,9,1,1],
+"gamecontentserverbase_8h_source.html":[10,0,0,3,9,1,1],
+"gamepad_8cc.html":[10,0,0,4,0,3],
+"gamepad_8h.html":[10,0,0,4,0,4],
+"gamepad_8h_source.html":[10,0,0,4,0,4],
+"gamepadbase_8cc.html":[10,0,0,4,0,0,0],
+"gamepadbase_8cc.html#a7c22758adc52e4298a4f4f308bd869fd":[10,0,0,4,0,0,0,0],
+"gamepadbase_8h.html":[10,0,0,4,0,0,1],
+"gamepadbase_8h.html#ad761fc433a36d1adba0eb03bda34f047":[10,0,0,4,0,0,1,2],
+"gamepadbase_8h_source.html":[10,0,0,4,0,0,1],
 "gameserver_8cc.html":[10,0,0,1,3,26],
 "gameserver_8cc.html#a84d23932cc3378e918db65cf24fec44c":[10,0,0,1,3,26,0],
 "gameserver_8cc.html#aa4ff23edac94487d2f00bee5bfa35e79":[10,0,0,1,3,26,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX99 =
 "globalstringatomtable_8h_source.html":[10,0,0,3,20,26],
 "gpubuffertypes_8h.html":[10,0,0,6,5,29],
 "gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084":[10,0,0,6,5,29,3],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,29,3,2],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a8fa1f23a15e4342fedee696914665971":[10,0,0,6,5,29,3,1],
-"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084ae4bf8b84258be913c6fbc1b7a306d73f":[10,0,0,6,5,29,3,0],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7":[10,0,0,6,5,29,1],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a207b73eb1749b53656c88f1795d197d7":[10,0,0,6,5,29,1,1],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a461daa6874a04298c8b6b0ec88218afd":[10,0,0,6,5,29,1,3],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7a6f0cf8c982592262ecef8c2e135be1e1":[10,0,0,6,5,29,1,2],
-"gpubuffertypes_8h.html#a6aab867c39446cc5bc75dec8870052f7afe0d6aef5eee37b1b0a27f205c4442f8":[10,0,0,6,5,29,1,0],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ad":[10,0,0,6,5,29,2],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada685b1269b3cce946da3611c8e6ac7a1c":[10,0,0,6,5,29,2,4],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada76adfc12c1b35660c6efe7e2888cac13":[10,0,0,6,5,29,2,0],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303ada82b562f349e9150e60bb2f3372c9c550":[10,0,0,6,5,29,2,3],
-"gpubuffertypes_8h.html#ace9b9ef8933f3b3ba27d907ddfd303adadcd81dcceb44a39eb04f8067f8d6588c":[10,0,0,6,5,29,2,1]
+"gpubuffertypes_8h.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4":[10,0,0,6,5,29,3,2]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX136 =
 {
+"struct_fibers_1_1_fiber_wait_context.html":[9,0,18,7],
+"struct_fibers_1_1_fiber_wait_context.html#a0d6f914750341ede9f24c4955a0c9459":[8,0,20,7,2],
+"struct_fibers_1_1_fiber_wait_context.html#a0d6f914750341ede9f24c4955a0c9459":[9,0,18,7,2],
+"struct_fibers_1_1_fiber_wait_context.html#a5c86dd78d04abbb68f05650691fb5a4e":[8,0,20,7,1],
+"struct_fibers_1_1_fiber_wait_context.html#a5c86dd78d04abbb68f05650691fb5a4e":[9,0,18,7,1],
+"struct_fibers_1_1_fiber_wait_context.html#a66aadf99bb0fc49b39b919cc834e6ff5":[8,0,20,7,0],
+"struct_fibers_1_1_fiber_wait_context.html#a66aadf99bb0fc49b39b919cc834e6ff5":[9,0,18,7,0],
+"struct_fibers_1_1fiber__ctx__t.html":[8,0,20,1],
+"struct_fibers_1_1fiber__ctx__t.html":[9,0,18,1],
+"struct_fibers_1_1fiber__ctx__t.html#a240e90bfb34104fc7efef9bd191fc891":[8,0,20,1,3],
+"struct_fibers_1_1fiber__ctx__t.html#a240e90bfb34104fc7efef9bd191fc891":[9,0,18,1,3],
+"struct_fibers_1_1fiber__ctx__t.html#a51a093acde4c9e595084f73efb323cc6":[8,0,20,1,2],
 "struct_fibers_1_1fiber__ctx__t.html#a51a093acde4c9e595084f73efb323cc6":[9,0,18,1,2],
 "struct_fibers_1_1fiber__ctx__t.html#aa3c0a21e5f13e543426efed83fb86ee8":[8,0,20,1,0],
 "struct_fibers_1_1fiber__ctx__t.html#aa3c0a21e5f13e543426efed83fb86ee8":[9,0,18,1,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX136 =
 "struct_frame_1_1_frame_subpass_fullscreen_effect_1_1_compiled_impl.html#aedc5ecf66070be5c1cb1567282512448":[9,0,21,19,0,0],
 "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html":[8,0,24,20,0],
 "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html":[9,0,21,20,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[8,0,24,20,0,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[9,0,21,20,0,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad57128ba6298f55a3400680c1a8d9943":[8,0,24,20,0,1],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad57128ba6298f55a3400680c1a8d9943":[9,0,21,20,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html":[8,0,24,21,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html":[9,0,21,21,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a3278b30870048c12601787130d648bdf":[8,0,24,21,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a3278b30870048c12601787130d648bdf":[9,0,21,21,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a4603741bfc6292087bf60a9df6065127":[8,0,24,21,0,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a4603741bfc6292087bf60a9df6065127":[9,0,21,21,0,0],
-"struct_frame_1_1_frame_swap_1_1_compiled_impl.html":[8,0,24,22,0],
-"struct_frame_1_1_frame_swap_1_1_compiled_impl.html":[9,0,21,22,0],
-"struct_frame_1_1_frame_swap_1_1_compiled_impl.html#a4bc69f1eb21ae46790a99f04b9381d64":[8,0,24,22,0,0]
+"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[8,0,24,20,0,0]
 };

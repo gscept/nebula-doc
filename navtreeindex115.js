@@ -1,5 +1,17 @@
 var NAVTREEINDEX115 =
 {
+"namespace_math.html#af74024b487bd7089dc9c598d94634b82":[8,0,46,331],
+"namespace_math.html#af7498f34e2e25b919c28a30845da2191":[8,0,46,117],
+"namespace_math.html#af7bd9928fe931e2928df8e327b83fb92":[8,0,46,363],
+"namespace_math.html#af9ba7c344bb01502eefe4e45c844a5d2":[8,0,46,50],
+"namespace_math.html#af9c90d6799f58f5df2f037429c58e009":[8,0,46,114],
+"namespace_math.html#afb16681ddab5e68acfd000b9ee1e9000":[8,0,46,115],
+"namespace_math.html#afba05de6b95dc578e9452b790b1e6897":[8,0,46,100],
+"namespace_math.html#afc6d0bf4e6846efaeaa85ea625d29bed":[8,0,46,359],
+"namespace_math.html#afe4d5c3096f54cf813284f4ef270ba80":[8,0,46,146],
+"namespace_math.html#afe854631933ae7a736b3ab9fd4106dc4":[8,0,46,165],
+"namespace_math.html#afeaeb0a6478e48897a2612cf1e2d899b":[8,0,46,299],
+"namespace_mathf.html":[8,0,47],
 "namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991":[8,0,47,16],
 "namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a0557fa923dcee4d0f86b1409f5c2167f":[8,0,47,16,1],
 "namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a5835bab1ade0060909e31a06af2e2cde":[8,0,47,16,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX115 =
 "namespace_o_s_x.html#a1abe7e790061aa6f22dea4550144ca4a":[8,0,57,16],
 "namespace_o_s_x.html#a90759a039348cb435ca3f9120ad79832":[8,0,57,14],
 "namespace_o_s_x.html#aa4ac0775d0bed74d384390785552bac7":[8,0,57,13],
-"namespace_o_s_x.html#aa4c037ec33ce8beebfff3ad9e9a12945":[8,0,57,15],
-"namespace_o_s_x.html#ae149ad0d6c7ec496d6141202373f40b8":[8,0,57,12],
-"namespace_o_s_x.html#af801309d08155ddfc089363990844fe4":[8,0,57,11],
-"namespace_particles.html":[8,0,58],
-"namespace_particles.html#a0b026d4a9f0fabbe8bd01ec16ceb5b9e":[8,0,58,24],
-"namespace_particles.html#a1241c4b27737bb0980c8cf704dfaf574":[8,0,58,37],
-"namespace_particles.html#a13118ac718cf9cbeebd90706e60504fa":[8,0,58,33],
-"namespace_particles.html#a1ae10c88323fb838f1204006cf6c7f22":[8,0,58,20],
-"namespace_particles.html#a1db36c23bd8d5a3c6e7c7d8291674732":[8,0,58,11],
-"namespace_particles.html#a25292140df89ba68be7e72a9d3676abf":[8,0,58,12],
-"namespace_particles.html#a25345a24450b7aa807d5e06742fb68ca":[8,0,58,14],
-"namespace_particles.html#a374692d43bfc5f8fbda6cedb68e21583":[8,0,58,30],
-"namespace_particles.html#a447cdd993f347255eb53f4d0697870b4":[8,0,58,36]
+"namespace_o_s_x.html#aa4c037ec33ce8beebfff3ad9e9a12945":[8,0,57,15]
 };

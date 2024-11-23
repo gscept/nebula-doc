@@ -15,6 +15,11 @@ var class_im3d_1_1_im3d_context =
     [ "DrawSphere", "class_im3d_1_1_im3d_context.html#afd889df62e2dfdcb8c75632255a5952b", null ],
     [ "DrawSphere", "class_im3d_1_1_im3d_context.html#ac5d57096963a609db17b5ac7c34ead06", null ],
     [ "DrawText", "class_im3d_1_1_im3d_context.html#af768f2f99e528db993d242abe0ba0c94", null ],
+    [ "GetGizmoSize", "class_im3d_1_1_im3d_context.html#a93be5f2f74a7ebbc57d5dfd6342ddbac", null ],
+    [ "GetGridColor", "class_im3d_1_1_im3d_context.html#a8fbc0baa90f49a1f1e3a5df4f8c55fe1", null ],
+    [ "GetGridOffset", "class_im3d_1_1_im3d_context.html#a6959cc12949619a924ca4e908fc921ab", null ],
+    [ "GetGridSize", "class_im3d_1_1_im3d_context.html#a245bed19ad2693cbdd4805a8fc7be8ef", null ],
+    [ "GetGridStatus", "class_im3d_1_1_im3d_context.html#ad6bd59f29402af98d4102bd1e34aa039", null ],
     [ "HandleInput", "class_im3d_1_1_im3d_context.html#a8b5153e80c4dd293042ddf40446c1789", null ],
     [ "OnPrepareView", "class_im3d_1_1_im3d_context.html#a5493eaa9a43e36acd8cdf777095934b8", null ],
     [ "Render", "class_im3d_1_1_im3d_context.html#a4aeeb309b34f25dcf4ae89ec889a705f", null ],
@@ -22,5 +27,6 @@ var class_im3d_1_1_im3d_context =
     [ "SetGridColor", "class_im3d_1_1_im3d_context.html#ae1fbe87c89c52a7aa7ccb8e1d69a769d", null ],
     [ "SetGridOffset", "class_im3d_1_1_im3d_context.html#ad18c3cdf4f819addc1c0443c858e45a5", null ],
     [ "SetGridSize", "class_im3d_1_1_im3d_context.html#a680eec02574add7c7227cb71622f298f", null ],
-    [ "SetGridStatus", "class_im3d_1_1_im3d_context.html#a302e4f1e7100a10dfb69a09cd9e0d437", null ]
+    [ "SetGridStatus", "class_im3d_1_1_im3d_context.html#a302e4f1e7100a10dfb69a09cd9e0d437", null ],
+    [ "SetViewportRect", "class_im3d_1_1_im3d_context.html#a229b736870d702d910a9e609c9cee801", null ]
 ];

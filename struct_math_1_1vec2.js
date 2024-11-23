@@ -8,6 +8,7 @@ var struct_math_1_1vec2 =
     [ "all", "struct_math_1_1vec2.html#a8f3c44fc77a493384aef4e37436191d2", null ],
     [ "any", "struct_math_1_1vec2.html#a106a3e9cc5aa29c56c3c12b44af4769a", null ],
     [ "as", "struct_math_1_1vec2.html#aae58d1e1327979459b5ceb3d4ca225e7", null ],
+    [ "divide", "struct_math_1_1vec2.html#aa44545abe9f0f54a517e7af8900647cb", null ],
     [ "ge", "struct_math_1_1vec2.html#a108f2c77335b9a5d050a66aff7ccd6b6", null ],
     [ "gt", "struct_math_1_1vec2.html#abd312b45c5b22202ac69443c101965cb", null ],
     [ "le", "struct_math_1_1vec2.html#ac74fa40f18e61def2eb944cf143842fe", null ],
