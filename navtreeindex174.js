@@ -1,5 +1,9 @@
 var NAVTREEINDEX174 =
 {
+"win32ipaddress_8h.html":[10,0,0,3,15,3,1],
+"win32ipaddress_8h_source.html":[10,0,0,3,15,3,1],
+"win32library_8cc.html":[10,0,0,3,17,4,3],
+"win32library_8h.html":[10,0,0,3,17,4,4],
 "win32library_8h_source.html":[10,0,0,3,17,4,4],
 "win32memory_8cc.html":[10,0,0,3,13,3,2],
 "win32memory_8cc.html#a02d9d956fa2bc0294cabf3bfcd74ecc8":[10,0,0,3,13,3,2,12],

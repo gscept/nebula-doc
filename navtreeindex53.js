@@ -1,5 +1,9 @@
 var NAVTREEINDEX53 =
 {
+"class_math_1_1half.html#a61c985409f5aadc624fdefa92cfbbe29":[8,0,46,11,24],
+"class_math_1_1half.html#a61c985409f5aadc624fdefa92cfbbe29":[9,0,41,11,24],
+"class_math_1_1half.html#a679265420d942781eb0450b2bb8ad74b":[8,0,46,11,35],
+"class_math_1_1half.html#a679265420d942781eb0450b2bb8ad74b":[9,0,41,11,35],
 "class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030":[8,0,46,11,26],
 "class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030":[9,0,41,11,26],
 "class_math_1_1half.html#a858b21560e3785579f8a04eeec839e95":[8,0,46,11,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX53 =
 "class_math_1_1transform44.html#ae3dccbc7ff91a8ef2201cfa2ee7bd11f":[8,0,46,28,5],
 "class_math_1_1transform44.html#ae3dccbc7ff91a8ef2201cfa2ee7bd11f":[9,0,41,28,5],
 "class_mathf_1_1_bounding_frustum.html":[8,0,47,1],
-"class_mathf_1_1_bounding_frustum.html":[9,0,42,1],
-"class_mathf_1_1_bounding_frustum.html#a1116b6c2c4b77186a7f007b02a8b5c01":[8,0,47,1,2],
-"class_mathf_1_1_bounding_frustum.html#a1116b6c2c4b77186a7f007b02a8b5c01":[9,0,42,1,2],
-"class_mathf_1_1_bounding_frustum.html#a124bdd26992684c9347c83d9b7357afa":[8,0,47,1,35],
-"class_mathf_1_1_bounding_frustum.html#a124bdd26992684c9347c83d9b7357afa":[9,0,42,1,35]
+"class_mathf_1_1_bounding_frustum.html":[9,0,42,1]
 };

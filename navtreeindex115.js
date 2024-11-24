@@ -1,5 +1,9 @@
 var NAVTREEINDEX115 =
 {
+"namespace_math.html#af1c89e638d173a3be3b6bcbf3a139e35":[8,0,46,73],
+"namespace_math.html#af247ff82218f51e8e93f6d6a2d87ebc0":[8,0,46,222],
+"namespace_math.html#af26078392670d9eb3bc6bfb843eed313":[8,0,46,301],
+"namespace_math.html#af37c20b541c17665f460549db762e6e0":[8,0,46,369],
 "namespace_math.html#af4878073465cb27592baa0fb77c3bcb8":[8,0,46,113],
 "namespace_math.html#af4e635c7c8a30ccf39f7e9c75d84e739":[8,0,46,342],
 "namespace_math.html#af6b1c02cfb8e98744a20cacfdc83fcdb":[8,0,46,168],
@@ -245,9 +249,5 @@ var NAVTREEINDEX115 =
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e":[8,0,54,0,15,4],
 "namespace_nebula_engine.html":[8,0,55],
 "namespace_net.html":[8,0,56],
-"namespace_net.html#a00fcfba6a88bbc001a563aa5bb70673b":[8,0,56,10],
-"namespace_net.html#a21d66666e7c635f426db0f8d7ed312e0":[8,0,56,13],
-"namespace_net.html#a326177f82bb07d69d39db7af9da4f2d8":[8,0,56,8],
-"namespace_net.html#a44efa2a40f21dc9c71f5c2c2e027a97f":[8,0,56,11],
-"namespace_net.html#aa6bdf154896a21ded69d9f07ce661c62":[8,0,56,9]
+"namespace_net.html#a00fcfba6a88bbc001a563aa5bb70673b":[8,0,56,10]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"class_models_1_1_shader_state_node.html#a51f1f7198917849df1103ea66d31a049":[9,0,46,11,14],
+"class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7":[8,0,51,11,1],
+"class_models_1_1_shader_state_node.html#a58f935eda14c27020fec6f8de2e848a7":[9,0,46,11,1],
+"class_models_1_1_shader_state_node.html#a60ac8c403b867ba577411414a64a03d5":[8,0,51,11,10],
 "class_models_1_1_shader_state_node.html#a60ac8c403b867ba577411414a64a03d5":[9,0,46,11,10],
 "class_models_1_1_shader_state_node.html#a6e876d51a099c74d835d0212897c37f5":[8,0,51,11,13],
 "class_models_1_1_shader_state_node.html#a6e876d51a099c74d835d0212897c37f5":[9,0,46,11,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "class_nebula_1_1_game_1_1_template_manager.html#a1b412f138fa628ff2843884d2416aa52":[9,0,48,0,13,9],
 "class_nebula_1_1_game_1_1_template_manager.html#a2e73a8c6b7e96d118f4a766b4e96169f":[8,0,54,0,13,1],
 "class_nebula_1_1_game_1_1_template_manager.html#a2e73a8c6b7e96d118f4a766b4e96169f":[9,0,48,0,13,1],
-"class_nebula_1_1_game_1_1_template_manager.html#a368fb7110d0e3fcdf9ffab88bc54a3f9":[8,0,54,0,13,6],
-"class_nebula_1_1_game_1_1_template_manager.html#a368fb7110d0e3fcdf9ffab88bc54a3f9":[9,0,48,0,13,6],
-"class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[8,0,54,0,13,8],
-"class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[9,0,48,0,13,8],
-"class_nebula_1_1_game_1_1_template_manager.html#a669c0fa0477c89a233180e7030413452":[8,0,54,0,13,4]
+"class_nebula_1_1_game_1_1_template_manager.html#a368fb7110d0e3fcdf9ffab88bc54a3f9":[8,0,54,0,13,6]
 };
