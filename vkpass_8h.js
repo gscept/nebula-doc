@@ -3,10 +3,11 @@ var vkpass_8h =
     [ "Vulkan::VkPassLoadInfo", "struct_vulkan_1_1_vk_pass_load_info.html", "struct_vulkan_1_1_vk_pass_load_info" ],
     [ "Vulkan::VkPassRuntimeInfo", "struct_vulkan_1_1_vk_pass_runtime_info.html", "struct_vulkan_1_1_vk_pass_runtime_info" ],
     [ "VkPassAllocator", "vkpass_8h.html#a6510b11c5c340d2013fed7aa9eef18d8", null ],
-    [ "PassGetVkDevice", "vkpass_8h.html#aa63e582fc4adf613de349efb3748c2ec", null ],
-    [ "PassGetVkFramebuffer", "vkpass_8h.html#a5de35b5fdf62c154b1d14b2d7566003f", null ],
-    [ "PassGetVkFramebufferInfo", "vkpass_8h.html#aa2210a140da21aabd6d9f788df53e432", null ],
-    [ "PassGetVkNumAttachments", "vkpass_8h.html#a7fa4baafc3d2c6ad440767d63c0fe1a0", null ],
-    [ "PassGetVkRenderPass", "vkpass_8h.html#ab21c1397b1acfbe97323d1ca587d9a2f", null ],
-    [ "PassGetVkRenderPassBeginInfo", "vkpass_8h.html#afafe9325a69fa346f3139c03b995f1d5", null ]
+    [ "PassGetVkDevice", "vkpass_8h.html#a672c1eac68d75a34d42003c448a5c2fe", null ],
+    [ "PassGetVkFramebuffer", "vkpass_8h.html#a3043558d6aad3053f182ef054effe602", null ],
+    [ "PassGetVkFramebufferInfo", "vkpass_8h.html#ac9580c2d974260214b73b4cb8a64eb48", null ],
+    [ "PassGetVkNumAttachments", "vkpass_8h.html#a33db2b3a1b8e247459c444bcb1ac9517", null ],
+    [ "PassGetVkRenderPass", "vkpass_8h.html#af079204f5ded45f20bf645c7ef0eec41", null ],
+    [ "PassGetVkRenderPassBeginInfo", "vkpass_8h.html#aca389733d0f7df9ee92188174cc9dab2", null ],
+    [ "PassGetVkViewportInfo", "vkpass_8h.html#a1c858b178726e8f330904a57fbe68ec3", null ]
 ];

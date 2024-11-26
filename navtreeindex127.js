@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"skeleton_8h.html#a045aa3c288ead42327274369c3f6fd5b":[10,0,0,6,2,4,4],
 "skeleton_8h.html#a0fdb8ac30689d89e9e4a49a1b120a8ef":[10,0,0,6,2,4,7],
 "skeleton_8h.html#a826eefce7e5b4be166ae0bd47f80362e":[10,0,0,6,2,4,8],
 "skeleton_8h.html#a96dd831b66787aff7e8646fc18969985":[10,0,0,6,2,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "streamwriter_8h.html":[10,0,0,3,9,64],
 "streamwriter_8h_source.html":[10,0,0,3,9,64],
 "string_8cc.html":[10,0,0,3,20,49],
-"string_8cc.html#a03387b57d45ea4682f89d27f3ac32fcb":[10,0,0,3,20,49,1],
-"string_8cc.html#a4081eb1dbd288fad7d8311cb8a967aee":[10,0,0,3,20,49,2]
+"string_8cc.html#a03387b57d45ea4682f89d27f3ac32fcb":[10,0,0,3,20,49,1]
 };
