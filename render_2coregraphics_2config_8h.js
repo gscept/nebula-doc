@@ -140,6 +140,7 @@ var render_2coregraphics_2config_8h =
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a65db791f4647f05bf849c69a88daec58", null ],
     [ "__ImplementEnumBitOperators", "render_2coregraphics_2config_8h.html#a0d0132a778d8ffc51f3f5f61014188c7", null ],
     [ "__ImplementEnumComparisonOperators", "render_2coregraphics_2config_8h.html#a796080d4231e75483779c742662a1539", null ],
+    [ "ConvertToQueue", "render_2coregraphics_2config_8h.html#af4a93a38d76e94b93014f0083164e6ee", null ],
     [ "PipelineStageFromString", "render_2coregraphics_2config_8h.html#a912f7d692681b72949e224530df049ca", null ],
     [ "PipelineStageWrites", "render_2coregraphics_2config_8h.html#a89bdba4b6e350cbf230b43fec9d9c3ee", null ],
     [ "QueueNameFromQueueType", "render_2coregraphics_2config_8h.html#a534908a5c8340dbbbc8b4beda3f7761c", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"namespace_math.html#af1b234b51cca87e1e7a24d94bff4fe3a":[8,0,46,285],
 "namespace_math.html#af1c89e638d173a3be3b6bcbf3a139e35":[8,0,46,73],
 "namespace_math.html#af247ff82218f51e8e93f6d6a2d87ebc0":[8,0,46,222],
 "namespace_math.html#af26078392670d9eb3bc6bfb843eed313":[8,0,46,301],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9fac64c693e4c67dce69078f8ba39c52743":[8,0,54,0,15,1],
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e":[8,0,54,0,15,4],
 "namespace_nebula_engine.html":[8,0,55],
-"namespace_net.html":[8,0,56],
-"namespace_net.html#a00fcfba6a88bbc001a563aa5bb70673b":[8,0,56,10]
+"namespace_net.html":[8,0,56]
 };

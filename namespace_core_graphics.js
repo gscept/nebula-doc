@@ -617,6 +617,7 @@ var namespace_core_graphics =
     [ "CmdUpdateBuffer", "namespace_core_graphics.html#a1f84f7fb7847458916467b4788aaae71", null ],
     [ "CmdWaitEvent", "namespace_core_graphics.html#a5a3dcca8f1b1abcd92e9df134db4d14f", null ],
     [ "ConstantTypeToString", "namespace_core_graphics.html#ab1262da19888f376694f7a84cfdbfbfb", null ],
+    [ "ConvertToQueue", "namespace_core_graphics.html#af4a93a38d76e94b93014f0083164e6ee", null ],
     [ "CountDescriptors", "namespace_core_graphics.html#a61a6451166a8faa370b0cd2b53827a2a", null ],
     [ "CreateBarrier", "namespace_core_graphics.html#ae6a1a00bc356d6916f74f171ab2a13bf", null ],
     [ "CreateBlas", "namespace_core_graphics.html#a95af5407e0297628183f77307459bbd4", null ],
