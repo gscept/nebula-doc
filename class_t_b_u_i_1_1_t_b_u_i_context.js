@@ -12,7 +12,11 @@ var class_t_b_u_i_1_1_t_b_u_i_context =
     [ "OnWindowResized", "class_t_b_u_i_1_1_t_b_u_i_context.html#a6e614a310e24685b25c119b41ec446d2", null ],
     [ "ProcessInput", "class_t_b_u_i_1_1_t_b_u_i_context.html#a66c5f62b28808e14a4fbb13d8604b445", null ],
     [ "Render", "class_t_b_u_i_1_1_t_b_u_i_context.html#a49c5727b43051cd82841917753d4c000", null ],
+    [ "clipboardInterface", "class_t_b_u_i_1_1_t_b_u_i_context.html#ad82286789701dda0d8ffb20d2e845c2a", null ],
+    [ "fileInterface", "class_t_b_u_i_1_1_t_b_u_i_context.html#a9bff57900d72fbe82d6742d19fac8d7d", null ],
     [ "renderer", "class_t_b_u_i_1_1_t_b_u_i_context.html#aca700d5a942d78567444f60c3a6f5af7", null ],
     [ "state", "class_t_b_u_i_1_1_t_b_u_i_context.html#a234bb995872f5a2c0c4e64b8b6f7e7e6", null ],
+    [ "stbFontRenderer", "class_t_b_u_i_1_1_t_b_u_i_context.html#adfc1c2f28b4fe29ab09caabfccc31120", null ],
+    [ "systemInterface", "class_t_b_u_i_1_1_t_b_u_i_context.html#ad4baabdbcec7d48000ecd210e7e08693", null ],
     [ "views", "class_t_b_u_i_1_1_t_b_u_i_context.html#aa24a651b95e23acfcc8368b9cb2993ab", null ]
 ];

@@ -981,10 +981,14 @@ var annotated_dup =
     [ "TBUI", "namespace_t_b_u_i.html", [
       [ "TBUIBatch", "struct_t_b_u_i_1_1_t_b_u_i_batch.html", "struct_t_b_u_i_1_1_t_b_u_i_batch" ],
       [ "TBUIBitmap", "class_t_b_u_i_1_1_t_b_u_i_bitmap.html", "class_t_b_u_i_1_1_t_b_u_i_bitmap" ],
+      [ "TBUIClipboardInterface", "class_t_b_u_i_1_1_t_b_u_i_clipboard_interface.html", "class_t_b_u_i_1_1_t_b_u_i_clipboard_interface" ],
       [ "TBUIContext", "class_t_b_u_i_1_1_t_b_u_i_context.html", "class_t_b_u_i_1_1_t_b_u_i_context" ],
       [ "TBUIFile", "class_t_b_u_i_1_1_t_b_u_i_file.html", "class_t_b_u_i_1_1_t_b_u_i_file" ],
+      [ "TBUIFileInterface", "class_t_b_u_i_1_1_t_b_u_i_file_interface.html", "class_t_b_u_i_1_1_t_b_u_i_file_interface" ],
       [ "TBUIInputHandler", "class_t_b_u_i_1_1_t_b_u_i_input_handler.html", "class_t_b_u_i_1_1_t_b_u_i_input_handler" ],
       [ "TBUIRenderer", "class_t_b_u_i_1_1_t_b_u_i_renderer.html", "class_t_b_u_i_1_1_t_b_u_i_renderer" ],
+      [ "TBUISTBFontRenderer", "class_t_b_u_i_1_1_t_b_u_i_s_t_b_font_renderer.html", "class_t_b_u_i_1_1_t_b_u_i_s_t_b_font_renderer" ],
+      [ "TBUISystemInterface", "class_t_b_u_i_1_1_t_b_u_i_system_interface.html", "class_t_b_u_i_1_1_t_b_u_i_system_interface" ],
       [ "TBUIVertex", "struct_t_b_u_i_1_1_t_b_u_i_vertex.html", "struct_t_b_u_i_1_1_t_b_u_i_vertex" ],
       [ "TBUIView", "class_t_b_u_i_1_1_t_b_u_i_view.html", null ]
     ] ],

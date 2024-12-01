@@ -249,6 +249,7 @@ var hierarchy =
     [ "Util::_smallvector< Util::KeyValuePair< Models::ModelNode *, Models::ModelContext::MaterialInstanceContext >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::MeshLoader::FinishedMesh > >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::TextureLoader::MipHandoverLoaderThread > >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
+    [ "Util::_smallvector< Util::KeyValuePair< size_t, Ptr< IO::FileStream > >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< Terrain::TileCacheEntry, Terrain::TextureTileCache::Node * >, 0 >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::GeometryHandle >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
     [ "Util::_smallvector< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::RenderBufferHandle >, SMALL_VECTOR_SIZE >", "struct_util_1_1__smallvector.html", null ],
@@ -677,6 +678,7 @@ var hierarchy =
     [ "Util::Array< Util::KeyValuePair< Models::ModelNode *, Models::ModelContext::MaterialInstanceContext > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::MeshLoader::FinishedMesh > >, 1 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::TextureLoader::MipHandoverLoaderThread > >, 1 >", "class_util_1_1_array.html", null ],
+    [ "Util::Array< Util::KeyValuePair< size_t, Ptr< IO::FileStream > > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< Terrain::TileCacheEntry, Terrain::TextureTileCache::Node * > >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::GeometryHandle >, 1 >", "class_util_1_1_array.html", null ],
     [ "Util::Array< Util::KeyValuePair< uint, StaticUI::UltralightRenderer::RenderBufferHandle >, 1 >", "class_util_1_1_array.html", null ],
@@ -1049,6 +1051,7 @@ var hierarchy =
     [ "Util::Dictionary< IndexT, Vulkan::VkPipelineDatabase::Tier2Node * >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< MaterialTemplates::BatchGroup, MaterialTemplates::Entry::Pass * >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Models::ModelNode *, Models::ModelContext::MaterialInstanceContext >", "class_util_1_1_dictionary.html", null ],
+    [ "Util::Dictionary< size_t, Ptr< IO::FileStream > >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< Terrain::TileCacheEntry, Terrain::TextureTileCache::Node * >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< uint, uint >", "class_util_1_1_dictionary.html", null ],
     [ "Util::Dictionary< uint32_t, uint32_t >", "class_util_1_1_dictionary.html", null ],
@@ -1525,6 +1528,7 @@ var hierarchy =
     [ "Util::KeyValuePair< Models::ModelNode *, Models::ModelContext::MaterialInstanceContext >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::MeshLoader::FinishedMesh > >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Resources::ResourceId, Util::Array< CoreGraphics::TextureLoader::MipHandoverLoaderThread > >", "class_util_1_1_key_value_pair.html", null ],
+    [ "Util::KeyValuePair< size_t, Ptr< IO::FileStream > >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< Terrain::TileCacheEntry, Terrain::TextureTileCache::Node * >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< uint, StaticUI::UltralightRenderer::GeometryHandle >", "class_util_1_1_key_value_pair.html", null ],
     [ "Util::KeyValuePair< uint, StaticUI::UltralightRenderer::RenderBufferHandle >", "class_util_1_1_key_value_pair.html", null ],
@@ -2383,11 +2387,23 @@ var hierarchy =
     [ "tb::TBBitmap", null, [
       [ "TBUI::TBUIBitmap", "class_t_b_u_i_1_1_t_b_u_i_bitmap.html", null ]
     ] ],
+    [ "tb::TBClipboardInterface", null, [
+      [ "TBUI::TBUIClipboardInterface", "class_t_b_u_i_1_1_t_b_u_i_clipboard_interface.html", null ]
+    ] ],
     [ "tb::TBFile", null, [
       [ "TBUI::TBUIFile", "class_t_b_u_i_1_1_t_b_u_i_file.html", null ]
     ] ],
+    [ "tb::TBFileInterface", null, [
+      [ "TBUI::TBUIFileInterface", "class_t_b_u_i_1_1_t_b_u_i_file_interface.html", null ]
+    ] ],
+    [ "tb::TBFontRenderer", null, [
+      [ "TBUI::TBUISTBFontRenderer", "class_t_b_u_i_1_1_t_b_u_i_s_t_b_font_renderer.html", null ]
+    ] ],
     [ "tb::TBRendererBatcher", null, [
       [ "TBUI::TBUIRenderer", "class_t_b_u_i_1_1_t_b_u_i_renderer.html", null ]
+    ] ],
+    [ "tb::TBSystemInterface", null, [
+      [ "TBUI::TBUISystemInterface", "class_t_b_u_i_1_1_t_b_u_i_system_interface.html", null ]
     ] ],
     [ "TBUI::TBUIBatch", "struct_t_b_u_i_1_1_t_b_u_i_batch.html", null ],
     [ "TBUI::TBUIContext::TBUIState", "struct_t_b_u_i_1_1_t_b_u_i_context_1_1_t_b_u_i_state.html", null ],
