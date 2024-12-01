@@ -116,7 +116,7 @@ $(function(){initNavTree('class_input_1_1_input_handler.html',''); initResizable
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 
-<p>Inherited by <a class="el" href="class_base_1_1_game_pad_base.html">Base::GamePadBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html">Im3d::Im3dInputHandler</a>.</p>
+<p>Inherited by <a class="el" href="class_base_1_1_game_pad_base.html">Base::GamePadBase</a>, <a class="el" href="class_base_1_1_keyboard_base.html">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html">Dynui::ImguiInputHandler</a>, <a class="el" href="class_im3d_1_1_im3d_input_handler.html">Im3d::Im3dInputHandler</a>, and <a class="el" href="class_t_b_u_i_1_1_t_b_u_i_input_handler.html">TBUI::TBUIInputHandler</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -331,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Begin capturing input to this input handler.</p>
 <p>This method must be overriden in a subclass, the derived method must call ObtainMouseCapture(), ObtainKeyboardCapture(), or both, depending on what type input events you want to capture. An input handler which captures input gets all input events of the given type exclusively. </p>
 
-<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#a63eb4d53a33e20c4cacd33a60bcf1f4b">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a43972203d109589f0f14a31ddd3be392">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a5585137038e39aada8e68d8fcde853c1">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html#a3d426fdf14f41d748d3c19449a9f3086">Im3d::Im3dInputHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#a63eb4d53a33e20c4cacd33a60bcf1f4b">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a43972203d109589f0f14a31ddd3be392">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a5585137038e39aada8e68d8fcde853c1">Dynui::ImguiInputHandler</a>, <a class="el" href="class_im3d_1_1_im3d_input_handler.html#a3d426fdf14f41d748d3c19449a9f3086">Im3d::Im3dInputHandler</a>, and <a class="el" href="class_t_b_u_i_1_1_t_b_u_i_input_handler.html#a1f6bdbd05665e91a37a6ee9eb35860b9">TBUI::TBUIInputHandler</a>.</p>
 
 </div>
 </div>
@@ -362,7 +362,7 @@ Additional Inherited Members</h2></td></tr>
 <p>End capturing input to this input handler.</p>
 <p>Override this method in a subclass and release the captures obtained in <a class="el" href="#a00812a3c66c154a712c3a9002f0b7765" title="capture input to this event handler">BeginCapture()</a>. </p>
 
-<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#a5307ce1e5a999ee59a8afbe06a9b50dd">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a916445fe6afb48bdd0730c8fc87ab1a2">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a421dd7c5ebdf847f07a33f2845f4a1f8">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html#a8d119a9d445a13e9873feb42da67a207">Im3d::Im3dInputHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#a5307ce1e5a999ee59a8afbe06a9b50dd">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a916445fe6afb48bdd0730c8fc87ab1a2">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a421dd7c5ebdf847f07a33f2845f4a1f8">Dynui::ImguiInputHandler</a>, <a class="el" href="class_im3d_1_1_im3d_input_handler.html#a8d119a9d445a13e9873feb42da67a207">Im3d::Im3dInputHandler</a>, and <a class="el" href="class_t_b_u_i_1_1_t_b_u_i_input_handler.html#a4ad60a8294d039f7b91f6865721bd9cc">TBUI::TBUIInputHandler</a>.</p>
 
 </div>
 </div>
@@ -474,7 +474,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called on <a class="el" href="class_base_1_1_input_server_base.html#ac2f41ffbef4d0aa50bbae7000edef7a0" title="call before processing window events">InputServer::BeginFrame()</a> </p>
 
-<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#af8e4477e1c3da913f09772bc7de9f237">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#aca17b91be41a35d7196a9548c77eaed6">Base::MouseBase</a>, and <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a4302574c25305663368654daaf314d0c">Dynui::ImguiInputHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#af8e4477e1c3da913f09772bc7de9f237">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#aca17b91be41a35d7196a9548c77eaed6">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#a4302574c25305663368654daaf314d0c">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_t_b_u_i_1_1_t_b_u_i_input_handler.html#a10cda0f6f37afe86013a25ce5649e26d">TBUI::TBUIInputHandler</a>.</p>
 
 </div>
 </div>
@@ -530,7 +530,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called when an input event should be processed </p>
 
-<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#af89792d3978585347987aaab21618d2f">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a1c367f18f5943fecfe64de181bea4a69">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#ac0f483e5d0c3991b5d2235ebf10a1d19">Dynui::ImguiInputHandler</a>, and <a class="el" href="class_im3d_1_1_im3d_input_handler.html#afd4c565f91ae66102ea5d2630a53bf4f">Im3d::Im3dInputHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="class_base_1_1_keyboard_base.html#af89792d3978585347987aaab21618d2f">Base::KeyboardBase</a>, <a class="el" href="class_base_1_1_mouse_base.html#a1c367f18f5943fecfe64de181bea4a69">Base::MouseBase</a>, <a class="el" href="class_dynui_1_1_imgui_input_handler.html#ac0f483e5d0c3991b5d2235ebf10a1d19">Dynui::ImguiInputHandler</a>, <a class="el" href="class_im3d_1_1_im3d_input_handler.html#afd4c565f91ae66102ea5d2630a53bf4f">Im3d::Im3dInputHandler</a>, and <a class="el" href="class_t_b_u_i_1_1_t_b_u_i_input_handler.html#a22d8090da978a54a62bd7c5913d26309">TBUI::TBUIInputHandler</a>.</p>
 
 </div>
 </div>
@@ -729,7 +729,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_input.html">Input</a></li><li class="navelem"><a class="el" href="class_input_1_1_input_handler.html">InputHandler</a></li>
 				<li class="footer">
-					Generated on Fri Nov 29 2024 21:52:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Dec 1 2024 16:01:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -102,6 +102,10 @@ var namespaces_dup =
     [ "StaticUI", "namespace_static_u_i.html", "namespace_static_u_i" ],
     [ "std", "namespacestd.html", "namespacestd" ],
     [ "System", "namespace_system.html", "namespace_system" ],
+    [ "tb", "namespacetb.html", [
+      [ "clipboard", "namespacetb.html#a69b2c5cf46950b135fbae392b175bd01", null ]
+    ] ],
+    [ "TBUI", "namespace_t_b_u_i.html", "namespace_t_b_u_i" ],
     [ "Terrain", "namespace_terrain.html", "namespace_terrain" ],
     [ "Threading", "namespace_threading.html", "namespace_threading" ],
     [ "Time", "namespace_time.html", null ],

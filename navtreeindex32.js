@@ -57,7 +57,7 @@ var NAVTREEINDEX32 =
 "class_game_1_1_filter_builder.html#afd4a4fce65a28256bf8b4bf91cc69c71":[9,0,23,16,11],
 "class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c":[8,0,26,17,8],
 "class_game_1_1_filter_builder.html#afd835d06417740f2becb8848c484ba7c":[9,0,23,16,8],
-"class_game_1_1_frame_builder.html":[9,0,102],
+"class_game_1_1_frame_builder.html":[9,0,103],
 "class_game_1_1_frame_event.html":[8,0,26,18],
 "class_game_1_1_frame_event.html":[9,0,23,17],
 "class_game_1_1_frame_event.html#a00b05dc28f15344739081f52802a3600":[8,0,26,18,3],

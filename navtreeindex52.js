@@ -99,7 +99,7 @@ var NAVTREEINDEX52 =
 "class_math_1_1_p_i_d_feedback_loop.html#ae1c57d9e1701c6c776e7df137caae0b8":[9,0,41,19,17],
 "class_math_1_1_p_i_d_feedback_loop.html#aeafcce1552e1699f39cb9233d140e9db":[8,0,46,19,0],
 "class_math_1_1_p_i_d_feedback_loop.html#aeafcce1552e1699f39cb9233d140e9db":[9,0,41,19,0],
-"class_math_1_1_p_quat_feedback_loop.html":[9,0,140],
+"class_math_1_1_p_quat_feedback_loop.html":[9,0,141],
 "class_math_1_1bbox.html":[8,0,46,1],
 "class_math_1_1bbox.html":[9,0,41,1],
 "class_math_1_1bbox.html#a005d9b8a278c49a25fcb76f78312f94f":[8,0,46,1,1],
