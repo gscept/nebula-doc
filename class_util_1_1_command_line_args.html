@@ -196,6 +196,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa70365a235c78018ca1b0bcebc62599d" id="r_aa70365a235c78018ca1b0bcebc62599d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa70365a235c78018ca1b0bcebc62599d">AppendCommandString</a> (const <a class="el" href="class_util_1_1_command_line_args.html">CommandLineArgs</a> &amp;otherArgs)</td></tr>
 <tr class="memdesc:aa70365a235c78018ca1b0bcebc62599d"><td class="mdescLeft">&#160;</td><td class="mdescRight">append other command string  <br /></td></tr>
 <tr class="separator:aa70365a235c78018ca1b0bcebc62599d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013f12e6ae48278f55658cdcba0fe97b" id="r_a013f12e6ae48278f55658cdcba0fe97b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Dictionary</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a>, <a class="el" href="struct_util_1_1_string.html">String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013f12e6ae48278f55658cdcba0fe97b">GetPairs</a> () const</td></tr>
+<tr class="memdesc:a013f12e6ae48278f55658cdcba0fe97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get any key value pairs from args  <br /></td></tr>
+<tr class="separator:a013f12e6ae48278f55658cdcba0fe97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -205,11 +208,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a621a18916a7725161cdbd1634e6a948f" id="r_a621a18916a7725161cdbd1634e6a948f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a621a18916a7725161cdbd1634e6a948f">FindArgIndex</a> (const <a class="el" href="struct_util_1_1_string.html">String</a> &amp;argName, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> start=0) const</td></tr>
 <tr class="memdesc:a621a18916a7725161cdbd1634e6a948f"><td class="mdescLeft">&#160;</td><td class="mdescRight">find index of argument, fails hard with error msg if not found  <br /></td></tr>
 <tr class="separator:a621a18916a7725161cdbd1634e6a948f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de1390df943bf340d1864a93f1961e3" id="r_a0de1390df943bf340d1864a93f1961e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0de1390df943bf340d1864a93f1961e3">ParseIntoGroups</a> (const <a class="el" href="class_util_1_1_array.html">Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a> &gt; &amp;Tokenized)</td></tr>
+<tr class="memdesc:a0de1390df943bf340d1864a93f1961e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort out any explicit key=value arguments into separate structure  <br /></td></tr>
+<tr class="separator:a0de1390df943bf340d1864a93f1961e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aaf2ffe8bffb1fffbeeafd40f13c87bf7" id="r_aaf2ffe8bffb1fffbeeafd40f13c87bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2ffe8bffb1fffbeeafd40f13c87bf7">args</a></td></tr>
 <tr class="separator:aaf2ffe8bffb1fffbeeafd40f13c87bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c46560ebe8f0565ee21d793c464bed" id="r_ad6c46560ebe8f0565ee21d793c464bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Dictionary</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a>, <a class="el" href="struct_util_1_1_string.html">String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6c46560ebe8f0565ee21d793c464bed">keyPairs</a></td></tr>
+<tr class="separator:ad6c46560ebe8f0565ee21d793c464bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad0843b2ff474f0ee714140ad4baf34b5" name="ad0843b2ff474f0ee714140ad4baf34b5"></a>
@@ -672,6 +680,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a013f12e6ae48278f55658cdcba0fe97b" name="a013f12e6ae48278f55658cdcba0fe97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013f12e6ae48278f55658cdcba0fe97b">&#9670;&#160;</a></span>GetPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Dictionary</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a>, <a class="el" href="struct_util_1_1_string.html">String</a> &gt; &amp; Util::CommandLineArgs::GetPairs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get any key value pairs from args </p>
+
+</div>
+</div>
 <a id="a99ef287a484d4f2f0bdab8f0f3d02cb0" name="a99ef287a484d4f2f0bdab8f0f3d02cb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99ef287a484d4f2f0bdab8f0f3d02cb0">&#9670;&#160;</a></span>GetString()</h2>
 
@@ -853,6 +888,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0de1390df943bf340d1864a93f1961e3" name="a0de1390df943bf340d1864a93f1961e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de1390df943bf340d1864a93f1961e3">&#9670;&#160;</a></span>ParseIntoGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Util::CommandLineArgs::ParseIntoGroups </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">String</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>Tokenized</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sort out any explicit key=value arguments into separate structure </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aaf2ffe8bffb1fffbeeafd40f13c87bf7" name="aaf2ffe8bffb1fffbeeafd40f13c87bf7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf2ffe8bffb1fffbeeafd40f13c87bf7">&#9670;&#160;</a></span>args</h2>
@@ -876,6 +938,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6c46560ebe8f0565ee21d793c464bed" name="ad6c46560ebe8f0565ee21d793c464bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6c46560ebe8f0565ee21d793c464bed">&#9670;&#160;</a></span>keyPairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Dictionary</a>&lt;<a class="el" href="struct_util_1_1_string.html">String</a>,<a class="el" href="struct_util_1_1_string.html">String</a>&gt; Util::CommandLineArgs::keyPairs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/code/foundation/util/<a class="el" href="commandlineargs_8h_source.html">commandlineargs.h</a></li>
 <li>/github/workspace/code/foundation/util/<a class="el" href="commandlineargs_8cc.html">commandlineargs.cc</a></li>
@@ -887,7 +971,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_command_line_args.html">CommandLineArgs</a></li>
 				<li class="footer">
-					Generated on Mon Dec 2 2024 17:45:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Dec 7 2024 20:38:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

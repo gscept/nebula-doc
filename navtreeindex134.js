@@ -1,5 +1,11 @@
 var NAVTREEINDEX134 =
 {
+"struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[9,0,12,91,10],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[8,0,14,92,5],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[9,0,12,91,5],
+"struct_core_graphics_1_1_resource_table_buffer.html#a8039b1085e0cb822cffe4e503933c469":[8,0,14,92,1],
+"struct_core_graphics_1_1_resource_table_buffer.html#a8039b1085e0cb822cffe4e503933c469":[9,0,12,91,1],
+"struct_core_graphics_1_1_resource_table_buffer.html#a809b0a95f9073e674b5e061fa5303e59":[8,0,14,92,9],
 "struct_core_graphics_1_1_resource_table_buffer.html#a809b0a95f9073e674b5e061fa5303e59":[9,0,12,91,9],
 "struct_core_graphics_1_1_resource_table_buffer.html#a965e136ff907cc351e6ce4386b53257e":[8,0,14,92,11],
 "struct_core_graphics_1_1_resource_table_buffer.html#a965e136ff907cc351e6ce4386b53257e":[9,0,12,91,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX134 =
 "struct_core_graphics_1_1_semaphore_id.html":[9,0,12,112],
 "struct_core_graphics_1_1_shader_create_info.html":[8,0,14,114],
 "struct_core_graphics_1_1_shader_create_info.html":[9,0,12,113],
-"struct_core_graphics_1_1_shader_create_info.html#a26b0240e44691419d05e4f45b3b0f464":[8,0,14,114,0],
-"struct_core_graphics_1_1_shader_create_info.html#a26b0240e44691419d05e4f45b3b0f464":[9,0,12,113,0],
-"struct_core_graphics_1_1_shader_create_info.html#adcce178d1e35c4959b607adcb550d327":[8,0,14,114,1],
-"struct_core_graphics_1_1_shader_create_info.html#adcce178d1e35c4959b607adcb550d327":[9,0,12,113,1],
-"struct_core_graphics_1_1_shader_id.html":[8,0,14,116],
-"struct_core_graphics_1_1_shader_id.html":[9,0,12,115],
-"struct_core_graphics_1_1_skin_vertex.html":[8,0,14,119]
+"struct_core_graphics_1_1_shader_create_info.html#a26b0240e44691419d05e4f45b3b0f464":[8,0,14,114,0]
 };

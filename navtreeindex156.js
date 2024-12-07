@@ -1,5 +1,11 @@
 var NAVTREEINDEX156 =
 {
+"struct_resources_1_1_resource_loader_1_1___callbacks.html":[9,0,62,1,0],
+"struct_resources_1_1_resource_loader_1_1___callbacks.html#a5ef2c4291245b487c81bb05155a7887b":[8,0,70,1,0,1],
+"struct_resources_1_1_resource_loader_1_1___callbacks.html#a5ef2c4291245b487c81bb05155a7887b":[9,0,62,1,0,1],
+"struct_resources_1_1_resource_loader_1_1___callbacks.html#af068562e240d7b07871eb84498836f68":[8,0,70,1,0,0],
+"struct_resources_1_1_resource_loader_1_1___callbacks.html#af068562e240d7b07871eb84498836f68":[9,0,62,1,0,0],
+"struct_resources_1_1_resource_loader_1_1___load_meta_data.html":[8,0,70,1,1],
 "struct_resources_1_1_resource_loader_1_1___load_meta_data.html":[9,0,62,1,1],
 "struct_resources_1_1_resource_loader_1_1___load_meta_data.html#a0103846307685c3ed082c82367b51c1a":[8,0,70,1,1,0],
 "struct_resources_1_1_resource_loader_1_1___load_meta_data.html#a0103846307685c3ed082c82367b51c1a":[9,0,62,1,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX156 =
 "struct_terrain_1_1_biome_settings.html#aed1c19a374d888fca125e63ce8abd07d":[9,0,68,3,3],
 "struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69":[8,0,79,3,0],
 "struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69":[9,0,68,3,0],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69a6687de69f3b65fd6346d5d8217ecffab":[8,0,79,3,0,2],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69a6687de69f3b65fd6346d5d8217ecffab":[9,0,68,3,0,2],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69a714b57685f9bec1ea29ec2d865c1eb0b":[8,0,79,3,0,0],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69a714b57685f9bec1ea29ec2d865c1eb0b":[9,0,68,3,0,0],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69acbeccc74b56789d1d525c2b81b006f8e":[8,0,79,3,0,1],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69acbeccc74b56789d1d525c2b81b006f8e":[9,0,68,3,0,1],
-"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69ad3f95607104f01565cd8ce0cd06f658d":[8,0,79,3,0,4]
+"struct_terrain_1_1_biome_settings.html#afb28c896afea6cbaf7d2d236aa1bfa69a6687de69f3b65fd6346d5d8217ecffab":[8,0,79,3,0,2]
 };

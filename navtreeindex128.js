@@ -1,5 +1,11 @@
 var NAVTREEINDEX128 =
 {
+"sqlite3database_8cc.html#a3a0e433aa9fd236b077ff422f7f8e3e6":[10,0,0,0,2,0,2,0],
+"sqlite3database_8cc.html#a69fd218e76c5c30e433fdf14d80ae286":[10,0,0,0,2,0,2,8],
+"sqlite3database_8cc.html#a747e9b164aad04cfd99bb4231fb61f02":[10,0,0,0,2,0,2,5],
+"sqlite3database_8cc.html#a85c0ef7b5cdf8b5152a4b3e5fc986f3f":[10,0,0,0,2,0,2,4],
+"sqlite3database_8cc.html#a877b5a66548a8cd368a687cee66a2689":[10,0,0,0,2,0,2,3],
+"sqlite3database_8cc.html#a9361775cfd9a85f7d0905656e4ba219f":[10,0,0,0,2,0,2,9],
 "sqlite3database_8cc.html#a9cb8fe99dfb6d40d9ff2515302652119":[10,0,0,0,2,0,2,7],
 "sqlite3database_8cc.html#aba433e56610b8cdd267be1ec9cc8eb72":[10,0,0,0,2,0,2,6],
 "sqlite3database_8cc.html#ac61a6fd3bf32969e89730b3ba5060fa8":[10,0,0,0,2,0,2,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX128 =
 "struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[9,0,3,0,0,0],
 "struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[8,0,4,0,0,3],
 "struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[9,0,3,0,0,3],
-"struct_audio_1_1_audio_emitter_id.html":[8,0,4,1],
-"struct_audio_1_1_audio_emitter_id.html":[9,0,3,1],
-"struct_audio_1_1_clip_id.html":[8,0,4,3],
-"struct_audio_1_1_clip_id.html":[9,0,3,3],
-"struct_audio_1_1_clip_instance_id.html":[8,0,4,4],
-"struct_audio_1_1_clip_instance_id.html":[9,0,3,4],
-"struct_base_1_1_game_pad_base_1_1_button_state.html":[8,0,6,3,0]
+"struct_audio_1_1_audio_emitter_id.html":[8,0,4,1]
 };

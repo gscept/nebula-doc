@@ -1,5 +1,11 @@
 var NAVTREEINDEX129 =
 {
+"struct_audio_1_1_audio_emitter_id.html":[9,0,3,1],
+"struct_audio_1_1_clip_id.html":[8,0,4,3],
+"struct_audio_1_1_clip_id.html":[9,0,3,3],
+"struct_audio_1_1_clip_instance_id.html":[8,0,4,4],
+"struct_audio_1_1_clip_instance_id.html":[9,0,3,4],
+"struct_base_1_1_game_pad_base_1_1_button_state.html":[8,0,6,3,0],
 "struct_base_1_1_game_pad_base_1_1_button_state.html":[9,0,5,3,0],
 "struct_base_1_1_game_pad_base_1_1_button_state.html#a03b1f1ff47865051d8fbea9748c96e1f":[8,0,6,3,0,0],
 "struct_base_1_1_game_pad_base_1_1_button_state.html#a03b1f1ff47865051d8fbea9748c96e1f":[9,0,5,3,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX129 =
 "struct_core_animation_1_1_nax2_curve.html":[9,0,11,15],
 "struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[8,0,13,15,1],
 "struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[9,0,11,15,1],
-"struct_core_animation_1_1_nax2_curve.html#a3726dcb0166126ec06170cdde7788cec":[8,0,13,15,6],
-"struct_core_animation_1_1_nax2_curve.html#a3726dcb0166126ec06170cdde7788cec":[9,0,11,15,6],
-"struct_core_animation_1_1_nax2_curve.html#a63273a9f0dfd38b53b50c4ce0098046c":[8,0,13,15,4],
-"struct_core_animation_1_1_nax2_curve.html#a63273a9f0dfd38b53b50c4ce0098046c":[9,0,11,15,4],
-"struct_core_animation_1_1_nax2_curve.html#a76e92463abf1b01bf707118f00085fc4":[8,0,13,15,0],
-"struct_core_animation_1_1_nax2_curve.html#a76e92463abf1b01bf707118f00085fc4":[9,0,11,15,0],
-"struct_core_animation_1_1_nax2_curve.html#a9ac189c14b5301c286ee03f92ec66dda":[8,0,13,15,2]
+"struct_core_animation_1_1_nax2_curve.html#a3726dcb0166126ec06170cdde7788cec":[8,0,13,15,6]
 };

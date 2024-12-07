@@ -1,5 +1,11 @@
 var NAVTREEINDEX132 =
 {
+"struct_core_graphics_1_1_graphics_device_create_info.html#abc34acacc476861a0134f8ab87ca1cf6":[9,0,12,46,1],
+"struct_core_graphics_1_1_graphics_device_create_info.html#ac48d8331442e510ade0aff2c4a58ae16":[8,0,14,47,8],
+"struct_core_graphics_1_1_graphics_device_create_info.html#ac48d8331442e510ade0aff2c4a58ae16":[9,0,12,46,8],
+"struct_core_graphics_1_1_graphics_device_create_info.html#ad92877e32c7a5a4ed9ea9937660b0bb4":[8,0,14,47,3],
+"struct_core_graphics_1_1_graphics_device_create_info.html#ad92877e32c7a5a4ed9ea9937660b0bb4":[9,0,12,46,3],
+"struct_core_graphics_1_1_graphics_device_create_info.html#aeb97368ea8ad7bf9ba9ef3c1993647a1":[8,0,14,47,11],
 "struct_core_graphics_1_1_graphics_device_create_info.html#aeb97368ea8ad7bf9ba9ef3c1993647a1":[9,0,12,46,11],
 "struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html":[8,0,14,47,0],
 "struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html":[9,0,12,46,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX132 =
 "struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a2cde4a95722b8d1cccc7c97255bfde02":[9,0,12,61,2,1],
 "struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a3ff3e28b6658cbf6e99e2de1167b7511":[8,0,14,62,2,2],
 "struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a3ff3e28b6658cbf6e99e2de1167b7511":[9,0,12,61,2,2],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a61ea6384fa4e4d0fc7c1c081b2ebc1be":[8,0,14,62,2,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a61ea6384fa4e4d0fc7c1c081b2ebc1be":[9,0,12,61,2,0],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html":[8,0,14,62,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html":[9,0,12,61,1],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html#a5ec8f2af7fc8b221bc30e27b1671a0be":[8,0,14,62,1,3],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html#a5ec8f2af7fc8b221bc30e27b1671a0be":[9,0,12,61,1,3],
-"struct_core_graphics_1_1_mesh_loader_1_1_meshes_to_submit.html#a63c1cdbf53864e9cb1694fbb8735bdef":[8,0,14,62,1,1]
+"struct_core_graphics_1_1_mesh_loader_1_1_mesh_stream_data.html#a61ea6384fa4e4d0fc7c1c081b2ebc1be":[8,0,14,62,2,0]
 };

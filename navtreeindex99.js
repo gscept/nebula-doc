@@ -1,5 +1,11 @@
 var NAVTREEINDEX99 =
 {
+"framesubpassorderedbatch_8h.html":[10,0,0,6,9,41],
+"framesubpassorderedbatch_8h_source.html":[10,0,0,6,9,41],
+"framesubpassplugin_8cc.html":[10,0,0,6,9,42],
+"framesubpassplugin_8h.html":[10,0,0,6,9,43],
+"framesubpassplugin_8h_source.html":[10,0,0,6,9,43],
+"frameswap_8cc.html":[10,0,0,6,9,44],
 "frameswap_8h.html":[10,0,0,6,9,45],
 "frameswap_8h_source.html":[10,0,0,6,9,45],
 "framesynctimer_8cc.html":[10,0,0,3,5,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX99 =
 "glfwdisplaydevice_8cc.html#a8112b260985bed4e8d7002cddc6cb96a":[10,0,0,6,5,2,0,2],
 "glfwdisplaydevice_8h.html":[10,0,0,6,5,2,1],
 "glfwdisplaydevice_8h_source.html":[10,0,0,6,5,2,1],
-"glfwgraphicsdisplayeventhandler_8cc.html":[10,0,0,6,12,0,0],
-"glfwgraphicsdisplayeventhandler_8cc.html#a3451569dd3e776ebac7ced92f60efc89":[10,0,0,6,12,0,0,0],
-"glfwgraphicsdisplayeventhandler_8h.html":[10,0,0,6,12,0,1],
-"glfwgraphicsdisplayeventhandler_8h_source.html":[10,0,0,6,12,0,1],
-"glfwinputdisplayeventhandler_8cc.html":[10,0,0,6,13,0,0],
-"glfwinputdisplayeventhandler_8cc.html#a1836498e78a357d4b78f2e8ee77cf6e0":[10,0,0,6,13,0,0,0],
-"glfwinputdisplayeventhandler_8h.html":[10,0,0,6,13,0,1]
+"glfwgraphicsdisplayeventhandler_8cc.html":[10,0,0,6,12,0,0]
 };

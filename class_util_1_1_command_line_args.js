@@ -21,6 +21,7 @@ var class_util_1_1_command_line_args =
     [ "GetMat4AtIndex", "class_util_1_1_command_line_args.html#ad2da668c6f2cb2ce570fed0c70de418d", null ],
     [ "GetMat4s", "class_util_1_1_command_line_args.html#a0ffb3caf9936c522db471e32e489339d", null ],
     [ "GetNumArgs", "class_util_1_1_command_line_args.html#a6077f73d5773b09cec5f3df44679ffe9", null ],
+    [ "GetPairs", "class_util_1_1_command_line_args.html#a013f12e6ae48278f55658cdcba0fe97b", null ],
     [ "GetString", "class_util_1_1_command_line_args.html#a99ef287a484d4f2f0bdab8f0f3d02cb0", null ],
     [ "GetStringAtIndex", "class_util_1_1_command_line_args.html#aa9b451e496bf4703830453101c3b609c", null ],
     [ "GetStrings", "class_util_1_1_command_line_args.html#af1fcbcb99c2a23ee651bf13f8c6c986c", null ],
@@ -29,5 +30,7 @@ var class_util_1_1_command_line_args =
     [ "GetVec4s", "class_util_1_1_command_line_args.html#ae07a493e3e5f53d188b3fd382c4048d6", null ],
     [ "HasArg", "class_util_1_1_command_line_args.html#a47fdac987dfcea0eb4af0bad2c8a9084", null ],
     [ "IsEmpty", "class_util_1_1_command_line_args.html#a3cb349b3a6c86a640327b50535092ace", null ],
-    [ "args", "class_util_1_1_command_line_args.html#aaf2ffe8bffb1fffbeeafd40f13c87bf7", null ]
+    [ "ParseIntoGroups", "class_util_1_1_command_line_args.html#a0de1390df943bf340d1864a93f1961e3", null ],
+    [ "args", "class_util_1_1_command_line_args.html#aaf2ffe8bffb1fffbeeafd40f13c87bf7", null ],
+    [ "keyPairs", "class_util_1_1_command_line_args.html#ad6c46560ebe8f0565ee21d793c464bed", null ]
 ];
