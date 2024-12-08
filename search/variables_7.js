@@ -8,7 +8,7 @@ var searchData=
   ['gamefeatures_5',['gameFeatures',['../class_game_1_1_game_server.html#a7fe75523f9d644fda26edcfac213a3fb',1,'Game::GameServer']]],
   ['gameserver_6',['gameServer',['../class_app_1_1_game_application.html#a8db4eb2d2a56a10839f946eaa48c4bc6',1,'App::GameApplication']]],
   ['genentry_7',['genEntry',['../struct_core_graphics_1_1_ray_dispatch_table.html#a5261c2a0af1abfc4198bf681be5cbaed',1,'CoreGraphics::RayDispatchTable']]],
-  ['generation_8',['generation',['../struct_game_1_1_entity.html#a98f7d62bc1a00dca19c2feccc0bb10f3',1,'Game::Entity']]],
+  ['generation_8',['generation',['../struct_game_1_1_entity.html#aa4b0892f050a9d21020bd80657318178',1,'Game::Entity']]],
   ['generation_5fbits_9',['GENERATION_BITS',['../idgenerationpool_8h.html#ac96779ecc1480bc8eaf0cb3fb3131549',1,'idgenerationpool.h']]],
   ['generation_5fmask_10',['GENERATION_MASK',['../idgenerationpool_8h.html#a3705c11faf63267819a2e6db6b39b26c',1,'idgenerationpool.h']]],
   ['generations_11',['generations',['../class_game_1_1_entity_pool.html#a6f015f327fcdcafcb0f950d030eaadff',1,'Game::EntityPool::generations'],['../class_ids_1_1_id_generation_pool.html#aa5585b67f66ab1befeb2cab4f930ef60',1,'Ids::IdGenerationPool::generations']]],
@@ -83,5 +83,6 @@ var searchData=
   ['growthenabled_80',['growthEnabled',['../struct_util_1_1_global_string_atom_table_1_1_debug_info.html#ad734b2fd2d055dc00137e45952a8de95',1,'Util::GlobalStringAtomTable::DebugInfo']]],
   ['gs_81',['gs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a0cc906c1b882f9049a3c94cf98c468f2',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['guid_82',['guid',['../class_util_1_1_variant.html#a242cb6863104beb4a7bf15573d2c0300',1,'Util::Variant::guid'],['../class_core_graphics_1_1_adapter_info.html#aca343942371955ebece8bf37c74834a6',1,'CoreGraphics::AdapterInfo::guid']]],
-  ['guidarray_83',['guidArray',['../class_util_1_1_variant.html#a4942c009383facc829976d4187d8261f',1,'Util::Variant']]]
+  ['guidarray_83',['guidArray',['../class_util_1_1_variant.html#a4942c009383facc829976d4187d8261f',1,'Util::Variant']]],
+  ['guidtoentity_84',['guidToEntity',['../class_base_game_feature_1_1_level_parser.html#ac5733859d872dac148cdc2bda6b5d49b',1,'BaseGameFeature::LevelParser']]]
 ];

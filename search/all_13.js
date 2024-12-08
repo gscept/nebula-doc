@@ -208,7 +208,7 @@ var searchData=
   ['serializehelper_205',['SerializeHelper',['../class_flat_1_1_flatbuffer_interface.html#a341a44377e5884ab77ddcb4400f3ea51',1,'Flat::FlatbufferInterface']]],
   ['serializeinstance_206',['SerializeInstance',['../class_mem_db_1_1_table.html#a9e299fafdd18a725fb867da348c48f67',1,'MemDb::Table']]],
   ['serializejson_207',['serializeJson',['../struct_game_1_1_component_serialization_1_1_serializer.html#a21b2fe4896979ab7d529db1de2ab45f7',1,'Game::ComponentSerialization::Serializer']]],
-  ['serializejsonfunc_208',['SerializeJsonFunc',['../class_game_1_1_component_serialization.html#a7cd41d8dba2e7b787853ec90a7809dd8',1,'Game::ComponentSerialization']]],
+  ['serializejsonfunc_208',['SerializeJsonFunc',['../class_game_1_1_component_serialization.html#a31f7a8ac54d33c76fb3a67c5b1acf134',1,'Game::ComponentSerialization']]],
   ['serializer_209',['Serializer',['../struct_game_1_1_component_serialization_1_1_serializer.html',1,'Game::ComponentSerialization']]],
   ['serializers_210',['serializers',['../class_game_1_1_component_serialization.html#ac3adc49523749c0e1d28189a3f9c8dcc',1,'Game::ComponentSerialization']]],
   ['serializetotext_211',['SerializeToText',['../class_flat_1_1_flatbuffer_interface.html#a915fef973e0bd3a6aa427c1b80db429a',1,'Flat::FlatbufferInterface']]],

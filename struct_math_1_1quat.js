@@ -19,6 +19,7 @@ var struct_math_1_1quat =
     [ "y_axis", "struct_math_1_1quat.html#a163ddf76bfca7d2213e2ec63e496b1b1", null ],
     [ "z_axis", "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5", null ],
     [ "mat4", "struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4", null ],
+    [ "v", "struct_math_1_1quat.html#a6d700c78070d3251f5f684cc6ebc7c1d", null ],
     [ "vec", "struct_math_1_1quat.html#aaa2bc98ffb4c548ead505efd3261d9a4", null ],
     [ "w", "struct_math_1_1quat.html#abf74f5288260c8742755147f70be99a8", null ],
     [ "x", "struct_math_1_1quat.html#aca8226cc2ce032fae41103fa58dc54db", null ],

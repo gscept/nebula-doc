@@ -3,7 +3,7 @@ var searchData=
   ['scalar_0',['scalar',['../namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243',1,'Math']]],
   ['scriptmoduleinit_1',['ScriptModuleInit',['../namespace_scripting.html#aa987be647ecdd960d07d8e61270ff233',1,'Scripting']]],
   ['second_2',['Second',['../class_base_1_1_calendar_time_base.html#a11a22ad1e4b903416185e5760a92a7d4',1,'Base::CalendarTimeBase']]],
-  ['serializejsonfunc_3',['SerializeJsonFunc',['../class_game_1_1_component_serialization.html#a7cd41d8dba2e7b787853ec90a7809dd8',1,'Game::ComponentSerialization']]],
+  ['serializejsonfunc_3',['SerializeJsonFunc',['../class_game_1_1_component_serialization.html#a31f7a8ac54d33c76fb3a67c5b1acf134',1,'Game::ComponentSerialization']]],
   ['shaderallocator_4',['ShaderAllocator',['../namespace_vulkan.html#a603853419d77ab846c328e8b2944db16',1,'Vulkan']]],
   ['shaderprogramallocator_5',['ShaderProgramAllocator',['../namespace_vulkan.html#a1b8f16d639a12a71560196bc11f1a75a',1,'Vulkan']]],
   ['shadowcasterallocator_6',['ShadowCasterAllocator',['../class_lighting_1_1_light_context.html#aa09be9cf4dc36908085f723dace7f900',1,'Lighting::LightContext']]],

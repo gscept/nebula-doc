@@ -99,7 +99,8 @@ $(function(){initNavTree('componentinspection_8cc.html',''); initResizable(true)
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">componentinspection.cc File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -110,6 +111,10 @@ $(function(){initNavTree('componentinspection_8cc.html',''); initResizable(true)
 <code>#include &quot;imgui.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="mat4_8h_source.html">math/mat4.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="editorstate_8h_source.html">editorstate.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cvar_8h_source.html">core/cvar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="im3dcontext_8h_source.html">dynui/im3d/im3dcontext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="world_8h_source.html">game/world.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -119,54 +124,59 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a644a8ebb1c48664b26bb80977d9da24c" id="r_a644a8ebb1c48664b26bb80977d9da24c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a644a8ebb1c48664b26bb80977d9da24c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a644a8ebb1c48664b26bb80977d9da24c">Game::ComponentDrawFuncT&lt; Game::Entity &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a644a8ebb1c48664b26bb80977d9da24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6abc6679818e393d5933873d4f6ccbfd" id="r_a6abc6679818e393d5933873d4f6ccbfd"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a6abc6679818e393d5933873d4f6ccbfd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6abc6679818e393d5933873d4f6ccbfd">Game::ComponentDrawFuncT&lt; bool &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a6abc6679818e393d5933873d4f6ccbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa917b2d0e641b379e6abf7ab94aaa93e" id="r_aa917b2d0e641b379e6abf7ab94aaa93e"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa917b2d0e641b379e6abf7ab94aaa93e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa917b2d0e641b379e6abf7ab94aaa93e">Game::ComponentDrawFuncT&lt; int &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:aa917b2d0e641b379e6abf7ab94aaa93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f720296c47b717eb19a5fe5ab739e3" id="r_aa6f720296c47b717eb19a5fe5ab739e3"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa6f720296c47b717eb19a5fe5ab739e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa6f720296c47b717eb19a5fe5ab739e3">Game::ComponentDrawFuncT&lt; int64 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:aa6f720296c47b717eb19a5fe5ab739e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3a9047033bff93bd84f6a8de2d44b49" id="r_ae3a9047033bff93bd84f6a8de2d44b49"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ae3a9047033bff93bd84f6a8de2d44b49"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae3a9047033bff93bd84f6a8de2d44b49">Game::ComponentDrawFuncT&lt; uint &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ae3a9047033bff93bd84f6a8de2d44b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94b2f9b75aa6bb915c14770cdfd0c2dc" id="r_a94b2f9b75aa6bb915c14770cdfd0c2dc"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a94b2f9b75aa6bb915c14770cdfd0c2dc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a94b2f9b75aa6bb915c14770cdfd0c2dc">Game::ComponentDrawFuncT&lt; uint64 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a94b2f9b75aa6bb915c14770cdfd0c2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52e8612b533533b39e2f19e75eb5012" id="r_ab52e8612b533533b39e2f19e75eb5012"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ab52e8612b533533b39e2f19e75eb5012"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab52e8612b533533b39e2f19e75eb5012">Game::ComponentDrawFuncT&lt; float &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ab52e8612b533533b39e2f19e75eb5012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a817bf5713eb5c787ece371bad3fc8214" id="r_a817bf5713eb5c787ece371bad3fc8214"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a817bf5713eb5c787ece371bad3fc8214"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a817bf5713eb5c787ece371bad3fc8214">Game::ComponentDrawFuncT&lt; Util::StringAtom &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a817bf5713eb5c787ece371bad3fc8214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6641483215c75b6ad07eb9b134de1043" id="r_a6641483215c75b6ad07eb9b134de1043"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a6641483215c75b6ad07eb9b134de1043"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a6641483215c75b6ad07eb9b134de1043">Game::ComponentDrawFuncT&lt; Math::mat4 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a6641483215c75b6ad07eb9b134de1043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd97ac9c83086f37b20b4eb6df4c67d4" id="r_afd97ac9c83086f37b20b4eb6df4c67d4"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:afd97ac9c83086f37b20b4eb6df4c67d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#afd97ac9c83086f37b20b4eb6df4c67d4">Game::ComponentDrawFuncT&lt; Math::vec3 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:afd97ac9c83086f37b20b4eb6df4c67d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab17cb87b1efa0382985185f825d7412a" id="r_ab17cb87b1efa0382985185f825d7412a"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ab17cb87b1efa0382985185f825d7412a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab17cb87b1efa0382985185f825d7412a">Game::ComponentDrawFuncT&lt; Math::vec4 &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ab17cb87b1efa0382985185f825d7412a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac31b47593b1b5c0a3f3762420e1b2c17" id="r_ac31b47593b1b5c0a3f3762420e1b2c17"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ac31b47593b1b5c0a3f3762420e1b2c17"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac31b47593b1b5c0a3f3762420e1b2c17">Game::ComponentDrawFuncT&lt; Math::quat &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ac31b47593b1b5c0a3f3762420e1b2c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f2cdd5d993dd9c53cbadb380ae289cc" id="r_a7f2cdd5d993dd9c53cbadb380ae289cc"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a7f2cdd5d993dd9c53cbadb380ae289cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7f2cdd5d993dd9c53cbadb380ae289cc">Game::ComponentDrawFuncT&lt; Game::Position &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:a7f2cdd5d993dd9c53cbadb380ae289cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48982062a1ce4b0bdeb531e61a9a0c0" id="r_ab48982062a1ce4b0bdeb531e61a9a0c0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ab48982062a1ce4b0bdeb531e61a9a0c0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ab48982062a1ce4b0bdeb531e61a9a0c0">Game::ComponentDrawFuncT&lt; Game::Orientation &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ab48982062a1ce4b0bdeb531e61a9a0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34f291a6036a74007aa8f16e4252c51" id="r_af34f291a6036a74007aa8f16e4252c51"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:af34f291a6036a74007aa8f16e4252c51"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#af34f291a6036a74007aa8f16e4252c51">Game::ComponentDrawFuncT&lt; Game::Scale &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:af34f291a6036a74007aa8f16e4252c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1fafbff68dd14c368b742f1aebf7cae" id="r_ae1fafbff68dd14c368b742f1aebf7cae"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ae1fafbff68dd14c368b742f1aebf7cae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ae1fafbff68dd14c368b742f1aebf7cae">Game::ComponentDrawFuncT&lt; Util::Color &gt;</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
-<tr class="separator:ae1fafbff68dd14c368b742f1aebf7cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4209e541370c18b421e36045d100ed69" id="r_a4209e541370c18b421e36045d100ed69"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a4209e541370c18b421e36045d100ed69"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4209e541370c18b421e36045d100ed69">Game::ComponentDrawFuncT&lt; Game::Entity &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a4209e541370c18b421e36045d100ed69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e9c623fb505f232e9d71d079d20fb2" id="r_ad2e9c623fb505f232e9d71d079d20fb2"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ad2e9c623fb505f232e9d71d079d20fb2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ad2e9c623fb505f232e9d71d079d20fb2">Game::ComponentDrawFuncT&lt; bool &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:ad2e9c623fb505f232e9d71d079d20fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95c72f81e4a0fe019448fdd5fa7b14b" id="r_aa95c72f81e4a0fe019448fdd5fa7b14b"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa95c72f81e4a0fe019448fdd5fa7b14b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aa95c72f81e4a0fe019448fdd5fa7b14b">Game::ComponentDrawFuncT&lt; int &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:aa95c72f81e4a0fe019448fdd5fa7b14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44c18cf53689cbfb692443e7ad9362c" id="r_af44c18cf53689cbfb692443e7ad9362c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:af44c18cf53689cbfb692443e7ad9362c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#af44c18cf53689cbfb692443e7ad9362c">Game::ComponentDrawFuncT&lt; int64 &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:af44c18cf53689cbfb692443e7ad9362c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a1e9494adcd07f5d101a850ff7570c" id="r_ac7a1e9494adcd07f5d101a850ff7570c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ac7a1e9494adcd07f5d101a850ff7570c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ac7a1e9494adcd07f5d101a850ff7570c">Game::ComponentDrawFuncT&lt; uint &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:ac7a1e9494adcd07f5d101a850ff7570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0cbae4454ed455a9480ed0b8d51f040" id="r_ad0cbae4454ed455a9480ed0b8d51f040"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ad0cbae4454ed455a9480ed0b8d51f040"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ad0cbae4454ed455a9480ed0b8d51f040">Game::ComponentDrawFuncT&lt; uint64 &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:ad0cbae4454ed455a9480ed0b8d51f040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9cd77ed171b97646f02382f0a1d285" id="r_aec9cd77ed171b97646f02382f0a1d285"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aec9cd77ed171b97646f02382f0a1d285"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#aec9cd77ed171b97646f02382f0a1d285">Game::ComponentDrawFuncT&lt; float &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:aec9cd77ed171b97646f02382f0a1d285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7523b4ced6f19987221f90a23c0267dd" id="r_a7523b4ced6f19987221f90a23c0267dd"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a7523b4ced6f19987221f90a23c0267dd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a7523b4ced6f19987221f90a23c0267dd">Game::ComponentDrawFuncT&lt; Util::StringAtom &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a7523b4ced6f19987221f90a23c0267dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0a7deef971b93c3e899663172521a1" id="r_a4a0a7deef971b93c3e899663172521a1"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a4a0a7deef971b93c3e899663172521a1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4a0a7deef971b93c3e899663172521a1">Game::ComponentDrawFuncT&lt; Math::mat4 &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a4a0a7deef971b93c3e899663172521a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51710cf8255c8c11724c6bb948285c2b" id="r_a51710cf8255c8c11724c6bb948285c2b"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a51710cf8255c8c11724c6bb948285c2b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a51710cf8255c8c11724c6bb948285c2b">Game::ComponentDrawFuncT&lt; Math::vec3 &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a51710cf8255c8c11724c6bb948285c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312d441ba4498d9fc78f9348cd60b86c" id="r_a312d441ba4498d9fc78f9348cd60b86c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a312d441ba4498d9fc78f9348cd60b86c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a312d441ba4498d9fc78f9348cd60b86c">Game::ComponentDrawFuncT&lt; Math::vec4 &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a312d441ba4498d9fc78f9348cd60b86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3bccd96592fe5864cd58f999209ac4" id="r_abd3bccd96592fe5864cd58f999209ac4"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:abd3bccd96592fe5864cd58f999209ac4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#abd3bccd96592fe5864cd58f999209ac4">Game::ComponentDrawFuncT&lt; Math::quat &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:abd3bccd96592fe5864cd58f999209ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4044f9c3ff44120ed60e722781fd3390" id="r_a4044f9c3ff44120ed60e722781fd3390"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a4044f9c3ff44120ed60e722781fd3390"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a4044f9c3ff44120ed60e722781fd3390">Game::ComponentDrawFuncT&lt; Game::Position &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a4044f9c3ff44120ed60e722781fd3390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7b3044e5eb154b1b84e103107ae2db" id="r_a9e7b3044e5eb154b1b84e103107ae2db"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a9e7b3044e5eb154b1b84e103107ae2db"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a9e7b3044e5eb154b1b84e103107ae2db">Game::ComponentDrawFuncT&lt; Game::Orientation &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a9e7b3044e5eb154b1b84e103107ae2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace839059fcd518de7763a37752e1e946" id="r_ace839059fcd518de7763a37752e1e946"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ace839059fcd518de7763a37752e1e946"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#ace839059fcd518de7763a37752e1e946">Game::ComponentDrawFuncT&lt; Game::Scale &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:ace839059fcd518de7763a37752e1e946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac67e6796fa9a010f9228396268f902" id="r_a1ac67e6796fa9a010f9228396268f902"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a1ac67e6796fa9a010f9228396268f902"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_game.html#a1ac67e6796fa9a010f9228396268f902">Game::ComponentDrawFuncT&lt; Util::Color &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="separator:a1ac67e6796fa9a010f9228396268f902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a640176c78e3db0e076af15a69645dea1" id="r_a640176c78e3db0e076af15a69645dea1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_game.html#a640176c78e3db0e076af15a69645dea1">Game::cl_draw_entity_references</a></td></tr>
+<tr class="separator:a640176c78e3db0e076af15a69645dea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -175,7 +185,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a class="el" href="dir_880f5a27e318b4ccf9e9d2fcc18b42d6.html">game</a></li><li class="navelem"><a class="el" href="componentinspection_8cc.html">componentinspection.cc</a></li>
 				<li class="footer">
-					Generated on Sat Dec 7 2024 20:56:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Dec 8 2024 20:28:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

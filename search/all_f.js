@@ -339,9 +339,11 @@ var searchData=
   ['overlapbuffer_336',['overlapBuffer',['../class_physics_1_1_physx_state.html#a0ff13b047898c06b4907c92ed2be0b47',1,'Physics::PhysxState']]],
   ['overlapped_337',['overlapped',['../struct_i_o_1_1_file_watcher_platform.html#ac3783f48d187e283a815d0a519ac30e8',1,'IO::FileWatcherPlatform']]],
   ['overlaps_338',['Overlaps',['../struct_core_graphics_1_1_texture_subresource_info.html#a89d7b286fc68c8f20bec756fb401fc1c',1,'CoreGraphics::TextureSubresourceInfo::Overlaps()'],['../struct_core_graphics_1_1_buffer_subresource_info.html#a7f5bd51d37982789d1665a5c7b9dc41f',1,'CoreGraphics::BufferSubresourceInfo::Overlaps()']]],
-  ['override_339',['Override',['../class_game_1_1_world.html#ac10768d028a058baff2cb9342f1c8331',1,'Game::World']]],
-  ['overridenebulaapp_340',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
-  ['overriderootdirectory_341',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
-  ['owners_342',['owners',['../class_util_1_1_array_allocator_safe.html#a99b2743209da0f914e565066e0b7b845',1,'Util::ArrayAllocatorSafe']]],
-  ['ownstimer_343',['ownsTimer',['../class_graphics_1_1_graphics_server.html#aec6869bc4fb161f22b7d7128270db8a1',1,'Graphics::GraphicsServer']]]
+  ['overridabletype_339',['OverridableType',['../class_game_1_1_component_serialization.html#a4b1ee407c47e2a1c22cc23aa7b2b78d2',1,'Game::ComponentSerialization']]],
+  ['override_340',['Override',['../class_game_1_1_component_serialization.html#ac38d35313fe633181f6062a307b81f84',1,'Game::ComponentSerialization::Override()'],['../class_game_1_1_world.html#ac10768d028a058baff2cb9342f1c8331',1,'Game::World::Override()']]],
+  ['overridenebulaapp_341',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
+  ['overriderootdirectory_342',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
+  ['overridetype_343',['OverrideType',['../class_game_1_1_component_serialization.html#a68ab8c699716a045371d2d6e19c4176c',1,'Game::ComponentSerialization']]],
+  ['owners_344',['owners',['../class_util_1_1_array_allocator_safe.html#a99b2743209da0f914e565066e0b7b845',1,'Util::ArrayAllocatorSafe']]],
+  ['ownstimer_345',['ownsTimer',['../class_graphics_1_1_graphics_server.html#aec6869bc4fb161f22b7d7128270db8a1',1,'Graphics::GraphicsServer']]]
 ];

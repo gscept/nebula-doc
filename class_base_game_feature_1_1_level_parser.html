@@ -130,7 +130,8 @@ $(function(){initNavTree('class_base_game_feature_1_1_level_parser.html',''); in
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>(C) 2015-2024 Individual contributors, see AUTHORS file </p>
+</div><!-- fragment --><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo</a></b></dt><dd>This class is a (working) mess right now, and should be refactored. An idea is to first load the json into an intermediate format/struct that contains all the loaded entities, not as actual entities but as smaller objects with kvp properties. This would require us to rewrite serialization somewhat, but we might gain quite a bit of flexibility from it if we move away from the json reader directly. This would be similar to how we parse and use gltfs. This would also make it easier to load subscenes, as they would be parsed directly into this structure/format.</dd></dl>
+<p>(C) 2024 Individual contributors, see AUTHORS file </p>
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 <table class="memberdecls">
@@ -145,9 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6e11b26a39061464b14787a9e45e9ad" id="r_ad6e11b26a39061464b14787a9e45e9ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6e11b26a39061464b14787a9e45e9ad">SetWorld</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *<a class="el" href="#ab37ef1a2d679bcb8af752d59f0a9898e">world</a>)</td></tr>
 <tr class="memdesc:ad6e11b26a39061464b14787a9e45e9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the world that we want to load the levels into.  <br /></td></tr>
 <tr class="separator:ad6e11b26a39061464b14787a9e45e9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70e48a500c61959aa86dcff8d929d518" id="r_a70e48a500c61959aa86dcff8d929d518"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70e48a500c61959aa86dcff8d929d518">LoadJsonLevel</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;reader)</td></tr>
-<tr class="memdesc:a70e48a500c61959aa86dcff8d929d518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a level from a json file in work:levels.  <br /></td></tr>
-<tr class="separator:a70e48a500c61959aa86dcff8d929d518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5f1a9f17d8f72c9f7574a107d3a468" id="r_a2f5f1a9f17d8f72c9f7574a107d3a468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f5f1a9f17d8f72c9f7574a107d3a468">LoadJsonLevel</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;reader)</td></tr>
+<tr class="memdesc:a2f5f1a9f17d8f72c9f7574a107d3a468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a level from a json file in work:levels.  <br /></td></tr>
+<tr class="separator:a2f5f1a9f17d8f72c9f7574a107d3a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_core_1_1_ref_counted"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_core_1_1_ref_counted')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
 <tr class="memitem:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted" id="r_a14dc836b93eb63762debfe24642c377f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_1_1_ref_counted.html#a14dc836b93eb63762debfe24642c377f">RefCounted</a> ()</td></tr>
 <tr class="memdesc:a14dc836b93eb63762debfe24642c377f inherit pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
@@ -191,6 +192,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8af20c4fd981efc20d82dc1be8a70800" id="r_a8af20c4fd981efc20d82dc1be8a70800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8af20c4fd981efc20d82dc1be8a70800">LoadEntity</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;reader)</td></tr>
 <tr class="memdesc:a8af20c4fd981efc20d82dc1be8a70800"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a single object  <br /></td></tr>
 <tr class="separator:a8af20c4fd981efc20d82dc1be8a70800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891805670d4ce64c4c5044e442420797" id="r_a891805670d4ce64c4c5044e442420797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a891805670d4ce64c4c5044e442420797">LoadComponents</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;reader, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a891805670d4ce64c4c5044e442420797"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse all components for an entity  <br /></td></tr>
+<tr class="separator:a891805670d4ce64c4c5044e442420797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bdf135644a28c8ada328c4c20996811" id="r_a6bdf135644a28c8ada328c4c20996811"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bdf135644a28c8ada328c4c20996811">BeginLoad</a> ()</td></tr>
 <tr class="memdesc:a6bdf135644a28c8ada328c4c20996811"><td class="mdescLeft">&#160;</td><td class="mdescRight">called at beginning of load  <br /></td></tr>
 <tr class="separator:a6bdf135644a28c8ada328c4c20996811"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,6 +224,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a992e08cee5d6ae92dbdd88e69749031a" id="r_a992e08cee5d6ae92dbdd88e69749031a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a992e08cee5d6ae92dbdd88e69749031a">invalidAttrs</a></td></tr>
 <tr class="separator:a992e08cee5d6ae92dbdd88e69749031a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5733859d872dac148cdc2bda6b5d49b" id="r_ac5733859d872dac148cdc2bda6b5d49b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_guid.html">Util::Guid</a>, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5733859d872dac148cdc2bda6b5d49b">guidToEntity</a></td></tr>
+<tr class="separator:ac5733859d872dac148cdc2bda6b5d49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab37ef1a2d679bcb8af752d59f0a9898e" id="r_ab37ef1a2d679bcb8af752d59f0a9898e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_1_1_world.html">Game::World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab37ef1a2d679bcb8af752d59f0a9898e">world</a></td></tr>
 <tr class="separator:ab37ef1a2d679bcb8af752d59f0a9898e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -415,6 +421,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a891805670d4ce64c4c5044e442420797" name="a891805670d4ce64c4c5044e442420797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891805670d4ce64c4c5044e442420797">&#9670;&#160;</a></span>LoadComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseGameFeature::LevelParser::LoadComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>reader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse all components for an entity </p>
+
+</div>
+</div>
 <a id="a8af20c4fd981efc20d82dc1be8a70800" name="a8af20c4fd981efc20d82dc1be8a70800"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8af20c4fd981efc20d82dc1be8a70800">&#9670;&#160;</a></span>LoadEntity()</h2>
 
@@ -442,14 +479,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a70e48a500c61959aa86dcff8d929d518" name="a70e48a500c61959aa86dcff8d929d518"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70e48a500c61959aa86dcff8d929d518">&#9670;&#160;</a></span>LoadJsonLevel()</h2>
+<a id="a2f5f1a9f17d8f72c9f7574a107d3a468" name="a2f5f1a9f17d8f72c9f7574a107d3a468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5f1a9f17d8f72c9f7574a107d3a468">&#9670;&#160;</a></span>LoadJsonLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool BaseGameFeature::LevelParser::LoadJsonLevel </td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> &gt; BaseGameFeature::LevelParser::LoadJsonLevel </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>reader</em></span></td><td>)</td>
           <td></td>
@@ -512,6 +549,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac5733859d872dac148cdc2bda6b5d49b" name="ac5733859d872dac148cdc2bda6b5d49b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5733859d872dac148cdc2bda6b5d49b">&#9670;&#160;</a></span>guidToEntity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;<a class="el" href="class_util_1_1_guid.html">Util::Guid</a>, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&gt; BaseGameFeature::LevelParser::guidToEntity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a992e08cee5d6ae92dbdd88e69749031a" name="a992e08cee5d6ae92dbdd88e69749031a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a992e08cee5d6ae92dbdd88e69749031a">&#9670;&#160;</a></span>invalidAttrs</h2>
 
@@ -567,7 +626,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_base_game_feature.html">BaseGameFeature</a></li><li class="navelem"><a class="el" href="class_base_game_feature_1_1_level_parser.html">LevelParser</a></li>
 				<li class="footer">
-					Generated on Sat Dec 7 2024 20:56:11 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Dec 8 2024 20:28:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -234,7 +234,7 @@ var searchData=
   ['drawcone_231',['DrawCone',['../class_im3d_1_1_im3d_context.html#a457e64442177137b7905ea43a6fb37b1',1,'Im3d::Im3dContext']]],
   ['drawcylinder_232',['DrawCylinder',['../class_im3d_1_1_im3d_context.html#a79da7afad01291afa2de27897de0f704',1,'Im3d::Im3dContext::DrawCylinder()'],['../namespace_im3d.html#a59e9d203010e3962a9b298627695b34b',1,'Im3d::DrawCylinder()']]],
   ['drawindexedprimitives_233',['DrawIndexedPrimitives',['../class_vulkan_1_1_vk_shape_renderer.html#a62def4482a9fa2695f240d5b4b889156',1,'Vulkan::VkShapeRenderer']]],
-  ['drawinspector_234',['DrawInspector',['../class_game_1_1_component_inspection.html#acc4d7c79b07c12ad679a65491589643a',1,'Game::ComponentInspection']]],
+  ['drawinspector_234',['DrawInspector',['../class_game_1_1_component_inspection.html#aeb212e8eaad3ee406d19450a04f4a8a1',1,'Game::ComponentInspection']]],
   ['drawline_235',['DrawLine',['../class_im3d_1_1_im3d_context.html#a2f2b18f122906ae8860a9e9b5eaa0d73',1,'Im3d::Im3dContext::DrawLine()'],['../class_physics_1_1_visual_debugger.html#ac2dae87195703f418e0199ec45358408',1,'Physics::VisualDebugger::DrawLine()'],['../namespace_im3d.html#ab76d4c741d1a0e1f13e5a837a753e5a7',1,'Im3d::DrawLine()']]],
   ['drawmesh_236',['DrawMesh',['../class_vulkan_1_1_vk_shape_renderer.html#afa74efe45222d1913f066960066c2e32',1,'Vulkan::VkShapeRenderer']]],
   ['draworientedbox_237',['DrawOrientedBox',['../class_im3d_1_1_im3d_context.html#a393ba96fcb57e3e641e0fd0461dd821f',1,'Im3d::Im3dContext']]],

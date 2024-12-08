@@ -122,10 +122,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0277b7d0af9402aba5fed7d150af021a" id="r_a0277b7d0af9402aba5fed7d150af021a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0277b7d0af9402aba5fed7d150af021a">DeserializeJsonFunc</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a>&gt; const&amp;, const char* name, void*)&gt;</td></tr>
-<tr class="separator:a0277b7d0af9402aba5fed7d150af021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd41d8dba2e7b787853ec90a7809dd8" id="r_a7cd41d8dba2e7b787853ec90a7809dd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cd41d8dba2e7b787853ec90a7809dd8">SerializeJsonFunc</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a>&gt; const&amp;, const char* name, void*)&gt;</td></tr>
-<tr class="separator:a7cd41d8dba2e7b787853ec90a7809dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1ee407c47e2a1c22cc23aa7b2b78d2" id="r_a4b1ee407c47e2a1c22cc23aa7b2b78d2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a> { <a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2afcd85f3d0e97b618fe2fb80f1fe077be">ENTITY</a>
+, <a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2a8db9a117fbda0dbabd4f857196c40bd1">RESOURCE</a>
+, <a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2ab223267f2401fb7c12665ca22f7c3036">NUM_OVERRIDABLE_TYPES</a>
+ }</td></tr>
+<tr class="separator:a4b1ee407c47e2a1c22cc23aa7b2b78d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018f85ba98d73978070751b3d1827b6e" id="r_a018f85ba98d73978070751b3d1827b6e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a> = std::function&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a>&gt; const&amp;, const char* name, void*)&gt;</td></tr>
+<tr class="separator:a018f85ba98d73978070751b3d1827b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f7a8ac54d33c76fb3a67c5b1acf134" id="r_a31f7a8ac54d33c76fb3a67c5b1acf134"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a> = std::function&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a>&gt; const&amp;, const char* name, void*)&gt;</td></tr>
+<tr class="separator:a31f7a8ac54d33c76fb3a67c5b1acf134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -144,6 +149,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6032a55e9a00a520149a44f1171f1fc7" id="r_a6032a55e9a00a520149a44f1171f1fc7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6032a55e9a00a520149a44f1171f1fc7">Serialize</a> (<a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a> &gt; const &amp;writer, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *ptr)</td></tr>
 <tr class="memdesc:a6032a55e9a00a520149a44f1171f1fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ptr points to the value that should be stored  <br /></td></tr>
 <tr class="separator:a6032a55e9a00a520149a44f1171f1fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38d35313fe633181f6062a307b81f84" id="r_ac38d35313fe633181f6062a307b81f84"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac38d35313fe633181f6062a307b81f84">Override</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, <a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a> deserialize, <a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a> serialize)</td></tr>
+<tr class="memdesc:ac38d35313fe633181f6062a307b81f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">override a specific components serialization and deserialization funcs  <br /></td></tr>
+<tr class="separator:ac38d35313fe633181f6062a307b81f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ab8c699716a045371d2d6e19c4176c" id="r_a68ab8c699716a045371d2d6e19c4176c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68ab8c699716a045371d2d6e19c4176c">OverrideType</a> (<a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a> type, <a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a> deserialize, <a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a> serialize)</td></tr>
+<tr class="memdesc:a68ab8c699716a045371d2d6e19c4176c"><td class="mdescLeft">&#160;</td><td class="mdescRight">override a specific type serializer. This will be called instead of a standard variant.  <br /></td></tr>
+<tr class="separator:a68ab8c699716a045371d2d6e19c4176c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f0c8ff5282af584ba8ca19b4ec188e" id="r_a52f0c8ff5282af584ba8ca19b4ec188e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52f0c8ff5282af584ba8ca19b4ec188e">GetTypeDeserializeFunc</a> (<a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a> type)</td></tr>
+<tr class="memdesc:a52f0c8ff5282af584ba8ca19b4ec188e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the deserialize override for a specific type.  <br /></td></tr>
+<tr class="separator:a52f0c8ff5282af584ba8ca19b4ec188e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7451031a95bf913125d947853ffc15fa" id="r_a7451031a95bf913125d947853ffc15fa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7451031a95bf913125d947853ffc15fa">GetTypeSerializeFunc</a> (<a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a> type)</td></tr>
+<tr class="memdesc:a7451031a95bf913125d947853ffc15fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the serialize override for a specific type.  <br /></td></tr>
+<tr class="separator:a7451031a95bf913125d947853ffc15fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -159,6 +176,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ac3adc49523749c0e1d28189a3f9c8dcc" id="r_ac3adc49523749c0e1d28189a3f9c8dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_component_serialization_1_1_serializer.html">Serializer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3adc49523749c0e1d28189a3f9c8dcc">serializers</a></td></tr>
 <tr class="separator:ac3adc49523749c0e1d28189a3f9c8dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c79b50b094b14e7c624c8e49774431a" id="r_a6c79b50b094b14e7c624c8e49774431a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_game_1_1_component_serialization_1_1_serializer.html">Serializer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c79b50b094b14e7c624c8e49774431a">typeOverrides</a> [<a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2ab223267f2401fb7c12665ca22f7c3036">NUM_OVERRIDABLE_TYPES</a>]</td></tr>
+<tr class="separator:a6c79b50b094b14e7c624c8e49774431a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -166,31 +185,51 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aee564c7b6d491d0cfa79c0986bdbee2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a0277b7d0af9402aba5fed7d150af021a" name="a0277b7d0af9402aba5fed7d150af021a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0277b7d0af9402aba5fed7d150af021a">&#9670;&#160;</a></span>DeserializeJsonFunc</h2>
+<a id="a018f85ba98d73978070751b3d1827b6e" name="a018f85ba98d73978070751b3d1827b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018f85ba98d73978070751b3d1827b6e">&#9670;&#160;</a></span>DeserializeJsonFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a0277b7d0af9402aba5fed7d150af021a">Game::ComponentSerialization::DeserializeJsonFunc</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a>&gt; const&amp;, const char* name, void*)&gt;</td>
+          <td class="memname">using <a class="el" href="#a018f85ba98d73978070751b3d1827b6e">Game::ComponentSerialization::DeserializeJsonFunc</a> = std::function&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_reader.html">IO::JsonReader</a>&gt; const&amp;, const char* name, void*)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7cd41d8dba2e7b787853ec90a7809dd8" name="a7cd41d8dba2e7b787853ec90a7809dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd41d8dba2e7b787853ec90a7809dd8">&#9670;&#160;</a></span>SerializeJsonFunc</h2>
+<a id="a31f7a8ac54d33c76fb3a67c5b1acf134" name="a31f7a8ac54d33c76fb3a67c5b1acf134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f7a8ac54d33c76fb3a67c5b1acf134">&#9670;&#160;</a></span>SerializeJsonFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a7cd41d8dba2e7b787853ec90a7809dd8">Game::ComponentSerialization::SerializeJsonFunc</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a>&gt; const&amp;, const char* name, void*)&gt;</td>
+          <td class="memname">using <a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">Game::ComponentSerialization::SerializeJsonFunc</a> = std::function&lt;void(<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a>&gt; const&amp;, const char* name, void*)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a4b1ee407c47e2a1c22cc23aa7b2b78d2" name="a4b1ee407c47e2a1c22cc23aa7b2b78d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">&#9670;&#160;</a></span>OverridableType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">Game::ComponentSerialization::OverridableType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4b1ee407c47e2a1c22cc23aa7b2b78d2afcd85f3d0e97b618fe2fb80f1fe077be" name="a4b1ee407c47e2a1c22cc23aa7b2b78d2afcd85f3d0e97b618fe2fb80f1fe077be"></a>ENTITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4b1ee407c47e2a1c22cc23aa7b2b78d2a8db9a117fbda0dbabd4f857196c40bd1" name="a4b1ee407c47e2a1c22cc23aa7b2b78d2a8db9a117fbda0dbabd4f857196c40bd1"></a>RESOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4b1ee407c47e2a1c22cc23aa7b2b78d2ab223267f2401fb7c12665ca22f7c3036" name="a4b1ee407c47e2a1c22cc23aa7b2b78d2ab223267f2401fb7c12665ca22f7c3036"></a>NUM_OVERRIDABLE_TYPES&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -310,6 +349,60 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a52f0c8ff5282af584ba8ca19b4ec188e" name="a52f0c8ff5282af584ba8ca19b4ec188e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f0c8ff5282af584ba8ca19b4ec188e">&#9670;&#160;</a></span>GetTypeDeserializeFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a018f85ba98d73978070751b3d1827b6e">ComponentSerialization::DeserializeJsonFunc</a> &amp; Game::ComponentSerialization::GetTypeDeserializeFunc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the deserialize override for a specific type. </p>
+
+</div>
+</div>
+<a id="a7451031a95bf913125d947853ffc15fa" name="a7451031a95bf913125d947853ffc15fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7451031a95bf913125d947853ffc15fa">&#9670;&#160;</a></span>GetTypeSerializeFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">ComponentSerialization::SerializeJsonFunc</a> &amp; Game::ComponentSerialization::GetTypeSerializeFunc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the serialize override for a specific type. </p>
+
+</div>
+</div>
 <a id="ae66ce5c8e05275f3817ab8c612fbdf81" name="ae66ce5c8e05275f3817ab8c612fbdf81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66ce5c8e05275f3817ab8c612fbdf81">&#9670;&#160;</a></span>Instance()</h2>
 
@@ -334,6 +427,78 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The registry's constructor is called by the <a class="el" href="#ae66ce5c8e05275f3817ab8c612fbdf81" title="The registry&#39;s constructor is called by the Instance() method, and nobody else.">Instance()</a> method, and nobody else. </p>
+
+</div>
+</div>
+<a id="ac38d35313fe633181f6062a307b81f84" name="ac38d35313fe633181f6062a307b81f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38d35313fe633181f6062a307b81f84">&#9670;&#160;</a></span>Override()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::ComponentSerialization::Override </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a></td>          <td class="paramname"><span class="paramname"><em>deserialize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a></td>          <td class="paramname"><span class="paramname"><em>serialize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>override a specific components serialization and deserialization funcs </p>
+
+</div>
+</div>
+<a id="a68ab8c699716a045371d2d6e19c4176c" name="a68ab8c699716a045371d2d6e19c4176c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ab8c699716a045371d2d6e19c4176c">&#9670;&#160;</a></span>OverrideType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::ComponentSerialization::OverrideType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2">OverridableType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a018f85ba98d73978070751b3d1827b6e">DeserializeJsonFunc</a></td>          <td class="paramname"><span class="paramname"><em>deserialize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a31f7a8ac54d33c76fb3a67c5b1acf134">SerializeJsonFunc</a></td>          <td class="paramname"><span class="paramname"><em>serialize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>override a specific type serializer. This will be called instead of a standard variant. </p>
 
 </div>
 </div>
@@ -476,6 +641,28 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
+<a id="a6c79b50b094b14e7c624c8e49774431a" name="a6c79b50b094b14e7c624c8e49774431a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c79b50b094b14e7c624c8e49774431a">&#9670;&#160;</a></span>typeOverrides</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_game_1_1_component_serialization_1_1_serializer.html">Serializer</a> Game::ComponentSerialization::typeOverrides[<a class="el" href="#a4b1ee407c47e2a1c22cc23aa7b2b78d2ab223267f2401fb7c12665ca22f7c3036">NUM_OVERRIDABLE_TYPES</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/code/application/game/<a class="el" href="componentserialization_8h_source.html">componentserialization.h</a></li>
 <li>/github/workspace/code/application/game/<a class="el" href="componentserialization_8cc.html">componentserialization.cc</a></li>
@@ -487,7 +674,7 @@ template&lt;typename TYPE &gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_component_serialization.html">ComponentSerialization</a></li>
 				<li class="footer">
-					Generated on Sat Dec 7 2024 20:56:13 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Dec 8 2024 20:28:22 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
