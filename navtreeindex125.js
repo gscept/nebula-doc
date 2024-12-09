@@ -1,5 +1,15 @@
 var NAVTREEINDEX125 =
 {
+"render_2coregraphics_2config_8h.html#a38a5681183dbfc34a76409f4cbd1fa4fa9affd425bbfb6c10d34f1dec85ab172b":[10,0,0,6,5,18,26,1],
+"render_2coregraphics_2config_8h.html#a38a5681183dbfc34a76409f4cbd1fa4faa15f9768fc4c557c5731e0cfcbd61e76":[10,0,0,6,5,18,26,0],
+"render_2coregraphics_2config_8h.html#a480395b0e010361d50dc4ab44107a0bd":[10,0,0,6,5,18,7],
+"render_2coregraphics_2config_8h.html#a534908a5c8340dbbbc8b4beda3f7761c":[10,0,0,6,5,18,37],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9":[10,0,0,6,5,18,27],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9a14203e0ebab3eb99d2416d8e8f9ed13a":[10,0,0,6,5,18,27,1],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9a3c6001560a69d7dca978d3b91aeebfa5":[10,0,0,6,5,18,27,4],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9a4c98d1d4ed8972021b1666251f4ea505":[10,0,0,6,5,18,27,5],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9a9131b8e4b32582eaab6a78e4a5073d33":[10,0,0,6,5,18,27,3],
+"render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9ad81733300389b5f173749364076a2023":[10,0,0,6,5,18,27,0],
 "render_2coregraphics_2config_8h.html#a53780de3ee1c11ad2e8b1032aa4a12d9ad8c63fec1561bc5dcd4a6f82c49b94dc":[10,0,0,6,5,18,27,2],
 "render_2coregraphics_2config_8h.html#a568329cbe71680eca84fb6d109717fb2":[10,0,0,6,5,18,15],
 "render_2coregraphics_2config_8h.html#a65db791f4647f05bf849c69a88daec58":[10,0,0,6,5,18,31],
@@ -239,15 +249,5 @@ var NAVTREEINDEX125 =
 "rtplugin_8cc.html":[10,0,0,6,23,0,0],
 "rtplugin_8cc.html#ac60cde920c877c36710bd1f3e414a12c":[10,0,0,6,23,0,0,0],
 "rtplugin_8h.html":[10,0,0,6,23,0,1],
-"rtplugin_8h_source.html":[10,0,0,6,23,0,1],
-"rtpluginregistry_8cc.html":[10,0,0,6,23,0,2],
-"rtpluginregistry_8cc.html#a0ed859bc8c70043a0a7c374a052a5297":[10,0,0,6,23,0,2,0],
-"rtpluginregistry_8cc.html#a95fa210736afc686a019f33e3fce1e47":[10,0,0,6,23,0,2,1],
-"rtpluginregistry_8h.html":[10,0,0,6,23,0,3],
-"rtpluginregistry_8h_source.html":[10,0,0,6,23,0,3],
-"rtti_8cc.html":[10,0,0,3,1,20],
-"rtti_8h.html":[10,0,0,3,1,21],
-"rtti_8h.html#a23f75c8dc506755c4a43ff54fa4a8cfa":[10,0,0,3,1,21,3],
-"rtti_8h.html#a26411e1a0489b3c8f31176af339527f6":[10,0,0,3,1,21,15],
-"rtti_8h.html#a3458826cf8d56165f2de92e59bde4c03":[10,0,0,3,1,21,6]
+"rtplugin_8h_source.html":[10,0,0,6,23,0,1]
 };

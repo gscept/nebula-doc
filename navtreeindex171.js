@@ -1,5 +1,15 @@
 var NAVTREEINDEX171 =
 {
+"vkbuffer_8cc.html#add898b7a6ecf569c19cc7a084b7d337f":[10,0,0,6,5,5,4,17],
+"vkbuffer_8cc.html#adf8061714da864f6e76b61f80627c14c":[10,0,0,6,5,5,4,5],
+"vkbuffer_8cc.html#aee8a0acbaa9cc2aca1083320303f81a2":[10,0,0,6,5,5,4,8],
+"vkbuffer_8cc.html#af20a09bef40353962f8af187b0ca2a93":[10,0,0,6,5,5,4,2],
+"vkbuffer_8h.html":[10,0,0,6,5,5,5],
+"vkbuffer_8h.html#a093f0889a85045ab986534dcce975fc4":[10,0,0,6,5,5,5,4],
+"vkbuffer_8h.html#a0a06b9869425a09447d8fe8402097db7":[10,0,0,6,5,5,5,5],
+"vkbuffer_8h.html#a22999bd78f257b6cfb07792797b1d121":[10,0,0,6,5,5,5,6],
+"vkbuffer_8h.html#a74b6e5ed55c82d94ed15ecc850984db6":[10,0,0,6,5,5,5,7],
+"vkbuffer_8h.html#ab6aa4e7ce992dd3dc77cc9a8a4d9920f":[10,0,0,6,5,5,5,8],
 "vkbuffer_8h_source.html":[10,0,0,6,5,5,5],
 "vkcommandbuffer_8cc.html":[10,0,0,6,5,5,6],
 "vkcommandbuffer_8cc.html#a0599dbfbb480bb1db4c1230e535ccc69":[10,0,0,6,5,5,6,44],
@@ -239,15 +249,5 @@ var NAVTREEINDEX171 =
 "vkgraphicsdevice_8h.html#a0ef106fef650c4adf198081dec77934c":[10,0,0,6,5,5,21,2],
 "vkgraphicsdevice_8h.html#a120a8fcc98ee4e1d96119398c3ebebde":[10,0,0,6,5,5,21,11],
 "vkgraphicsdevice_8h.html#a2459dc449f270ca8ff5a51765fde3dab":[10,0,0,6,5,5,21,6],
-"vkgraphicsdevice_8h.html#a26290f814323eff2f7b9e1d8bdbd475a":[10,0,0,6,5,5,21,0],
-"vkgraphicsdevice_8h.html#a29c2d04819b039528a68c0d6bb4839ee":[10,0,0,6,5,5,21,12],
-"vkgraphicsdevice_8h.html#a33631508e7e7b011fed57eba8d97233e":[10,0,0,6,5,5,21,18],
-"vkgraphicsdevice_8h.html#a33b805dc3b4a9076ca4b1d9966d08a80":[10,0,0,6,5,5,21,10],
-"vkgraphicsdevice_8h.html#a3f1a0612b99c18072f3393f65af32cf6":[10,0,0,6,5,5,21,13],
-"vkgraphicsdevice_8h.html#a42726dfba00581bfff8e469f757f8f56":[10,0,0,6,5,5,21,7],
-"vkgraphicsdevice_8h.html#a428c995a178b949e5969a24c5c197a99":[10,0,0,6,5,5,21,4],
-"vkgraphicsdevice_8h.html#a62c87b67db2b5dcfa1f1d5e7758f952a":[10,0,0,6,5,5,21,17],
-"vkgraphicsdevice_8h.html#aa835139bcbfe3dca555bad143617ea37":[10,0,0,6,5,5,21,5],
-"vkgraphicsdevice_8h.html#aabca9311986678028f13b754db51aa45":[10,0,0,6,5,5,21,3],
-"vkgraphicsdevice_8h.html#ac3e2165bac2d784b9431a57a6c075f6d":[10,0,0,6,5,5,21,15]
+"vkgraphicsdevice_8h.html#a26290f814323eff2f7b9e1d8bdbd475a":[10,0,0,6,5,5,21,0]
 };

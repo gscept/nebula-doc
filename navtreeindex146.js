@@ -1,5 +1,15 @@
 var NAVTREEINDEX146 =
 {
+"struct_math_1_1vec2.html#a471718f07b852493468025ab9f0740e1":[8,0,46,32,24],
+"struct_math_1_1vec2.html#a471718f07b852493468025ab9f0740e1":[9,0,41,32,24],
+"struct_math_1_1vec2.html#a4b4a363d16ffdcdc316ea7d2c760e62e":[8,0,46,32,18],
+"struct_math_1_1vec2.html#a4b4a363d16ffdcdc316ea7d2c760e62e":[9,0,41,32,18],
+"struct_math_1_1vec2.html#a4c9680b78e4399c103b6b0eddfc1a255":[8,0,46,32,23],
+"struct_math_1_1vec2.html#a4c9680b78e4399c103b6b0eddfc1a255":[9,0,41,32,23],
+"struct_math_1_1vec2.html#a59cae2d21146e5aa359dc0245c74d214":[8,0,46,32,25],
+"struct_math_1_1vec2.html#a59cae2d21146e5aa359dc0245c74d214":[9,0,41,32,25],
+"struct_math_1_1vec2.html#a5c6a64f589a30b9320f69abf6f68d898":[8,0,46,32,21],
+"struct_math_1_1vec2.html#a5c6a64f589a30b9320f69abf6f68d898":[9,0,41,32,21],
 "struct_math_1_1vec2.html#a61f384398857690347510ec6cba8f009":[8,0,46,32,31],
 "struct_math_1_1vec2.html#a61f384398857690347510ec6cba8f009":[9,0,41,32,31],
 "struct_math_1_1vec2.html#a66de7d291dc2c7830310d4ad61719197":[8,0,46,32,16],
@@ -239,15 +249,5 @@ var NAVTREEINDEX146 =
 "struct_mathf_1_1_bounding_box.html#a3fdbdb55bf34d8ef60ae30c5ea0dbe20":[8,0,47,0,21],
 "struct_mathf_1_1_bounding_box.html#a3fdbdb55bf34d8ef60ae30c5ea0dbe20":[9,0,42,0,21],
 "struct_mathf_1_1_bounding_box.html#a407b315442d32320f463ed351c442c32":[8,0,47,0,32],
-"struct_mathf_1_1_bounding_box.html#a407b315442d32320f463ed351c442c32":[9,0,42,0,32],
-"struct_mathf_1_1_bounding_box.html#a46bd328514490fbaef87319ba33c0a04":[8,0,47,0,13],
-"struct_mathf_1_1_bounding_box.html#a46bd328514490fbaef87319ba33c0a04":[9,0,42,0,13],
-"struct_mathf_1_1_bounding_box.html#a5104f28e2222b474854201e830978401":[8,0,47,0,27],
-"struct_mathf_1_1_bounding_box.html#a5104f28e2222b474854201e830978401":[9,0,42,0,27],
-"struct_mathf_1_1_bounding_box.html#a55ff4426e9d7a0278f7876e27de93a77":[8,0,47,0,30],
-"struct_mathf_1_1_bounding_box.html#a55ff4426e9d7a0278f7876e27de93a77":[9,0,42,0,30],
-"struct_mathf_1_1_bounding_box.html#a5abea5432d5ed4c26940ba0d8dee2d48":[8,0,47,0,25],
-"struct_mathf_1_1_bounding_box.html#a5abea5432d5ed4c26940ba0d8dee2d48":[9,0,42,0,25],
-"struct_mathf_1_1_bounding_box.html#a5b664390ae3c577169a7f3339169852a":[8,0,47,0,0],
-"struct_mathf_1_1_bounding_box.html#a5b664390ae3c577169a7f3339169852a":[9,0,42,0,0]
+"struct_mathf_1_1_bounding_box.html#a407b315442d32320f463ed351c442c32":[9,0,42,0,32]
 };

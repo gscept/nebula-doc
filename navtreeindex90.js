@@ -1,5 +1,15 @@
 var NAVTREEINDEX90 =
 {
+"class_vulkan_1_1_vk_shape_renderer.html#afda5dcd72bd77c6803a7b05a7026d353":[8,0,87,41,25],
+"class_vulkan_1_1_vk_shape_renderer.html#afda5dcd72bd77c6803a7b05a7026d353":[9,0,73,41,25],
+"class_vulkan_1_1_vk_sub_context_handler.html":[8,0,87,42],
+"class_vulkan_1_1_vk_sub_context_handler.html":[9,0,73,42],
+"class_vulkan_1_1_vk_sub_context_handler.html#a03d90a88403164b56e02f502417ac796":[8,0,87,42,24],
+"class_vulkan_1_1_vk_sub_context_handler.html#a03d90a88403164b56e02f502417ac796":[9,0,73,42,24],
+"class_vulkan_1_1_vk_sub_context_handler.html#a10d423e88a0f4d853acfd98cc86cb0de":[8,0,87,42,21],
+"class_vulkan_1_1_vk_sub_context_handler.html#a10d423e88a0f4d853acfd98cc86cb0de":[9,0,73,42,21],
+"class_vulkan_1_1_vk_sub_context_handler.html#a12c7a7a8a9a4aaa949fef911e9efb0c4":[8,0,87,42,8],
+"class_vulkan_1_1_vk_sub_context_handler.html#a12c7a7a8a9a4aaa949fef911e9efb0c4":[9,0,73,42,8],
 "class_vulkan_1_1_vk_sub_context_handler.html#a17f8e7ef1524e22f6ab2014763fec967":[8,0,87,42,18],
 "class_vulkan_1_1_vk_sub_context_handler.html#a17f8e7ef1524e22f6ab2014763fec967":[9,0,73,42,18],
 "class_vulkan_1_1_vk_sub_context_handler.html#a23714ecd080a3f4ab51e2f43ebc000c6":[8,0,87,42,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX90 =
 "class_win32_1_1_win32_cpu.html#ab447ee01a7e3cc659f3d96aa140e4d7e":[8,0,88,4,0],
 "class_win32_1_1_win32_cpu.html#ab447ee01a7e3cc659f3d96aa140e4d7e":[9,0,74,4,0],
 "class_win32_1_1_win32_cpu.html#acbb84911b661362a9c3e768ae35d24da":[8,0,88,4,9],
-"class_win32_1_1_win32_cpu.html#acbb84911b661362a9c3e768ae35d24da":[9,0,74,4,9],
-"class_win32_1_1_win32_cpu.html#acca78b14850240203b361ca49a2e7e46":[8,0,88,4,3],
-"class_win32_1_1_win32_cpu.html#acca78b14850240203b361ca49a2e7e46":[9,0,74,4,3],
-"class_win32_1_1_win32_cpu.html#adab3e8e3a0ad5298eec2442448446ef6":[8,0,88,4,1],
-"class_win32_1_1_win32_cpu.html#adab3e8e3a0ad5298eec2442448446ef6":[9,0,74,4,1],
-"class_win32_1_1_win32_cpu.html#adcf50aed56fbb781aef141952b456fca":[8,0,88,4,2],
-"class_win32_1_1_win32_cpu.html#adcf50aed56fbb781aef141952b456fca":[9,0,74,4,2],
-"class_win32_1_1_win32_cpu.html#adf853a2a82dcd230f40d217760724bf9":[8,0,88,4,6],
-"class_win32_1_1_win32_cpu.html#adf853a2a82dcd230f40d217760724bf9":[9,0,74,4,6],
-"class_win32_1_1_win32_critical_section.html":[8,0,88,5],
-"class_win32_1_1_win32_critical_section.html":[9,0,74,5]
+"class_win32_1_1_win32_cpu.html#acbb84911b661362a9c3e768ae35d24da":[9,0,74,4,9]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX91 =
 {
+"class_win32_1_1_win32_cpu.html#acca78b14850240203b361ca49a2e7e46":[8,0,88,4,3],
+"class_win32_1_1_win32_cpu.html#acca78b14850240203b361ca49a2e7e46":[9,0,74,4,3],
+"class_win32_1_1_win32_cpu.html#adab3e8e3a0ad5298eec2442448446ef6":[8,0,88,4,1],
+"class_win32_1_1_win32_cpu.html#adab3e8e3a0ad5298eec2442448446ef6":[9,0,74,4,1],
+"class_win32_1_1_win32_cpu.html#adcf50aed56fbb781aef141952b456fca":[8,0,88,4,2],
+"class_win32_1_1_win32_cpu.html#adcf50aed56fbb781aef141952b456fca":[9,0,74,4,2],
+"class_win32_1_1_win32_cpu.html#adf853a2a82dcd230f40d217760724bf9":[8,0,88,4,6],
+"class_win32_1_1_win32_cpu.html#adf853a2a82dcd230f40d217760724bf9":[9,0,74,4,6],
+"class_win32_1_1_win32_critical_section.html":[8,0,88,5],
+"class_win32_1_1_win32_critical_section.html":[9,0,74,5],
 "class_win32_1_1_win32_critical_section.html#a078a9cb77f320a99891945feb1621c44":[8,0,88,5,1],
 "class_win32_1_1_win32_critical_section.html#a078a9cb77f320a99891945feb1621c44":[9,0,74,5,1],
 "class_win32_1_1_win32_critical_section.html#a4ead4836804f1c7c1d842fb9336466ad":[8,0,88,5,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX91 =
 "class_win32_1_1_win32_guid.html#a7eb6e13f23feeaf332e983a8ce24f64a":[8,0,88,11,16],
 "class_win32_1_1_win32_guid.html#a7eb6e13f23feeaf332e983a8ce24f64a":[9,0,74,11,16],
 "class_win32_1_1_win32_guid.html#a91ef6e01e0d53a95bd476027f16b2150":[8,0,88,11,17],
-"class_win32_1_1_win32_guid.html#a91ef6e01e0d53a95bd476027f16b2150":[9,0,74,11,17],
-"class_win32_1_1_win32_guid.html#a9c560d8c1881dbc3971d05a214e562cd":[8,0,88,11,12],
-"class_win32_1_1_win32_guid.html#a9c560d8c1881dbc3971d05a214e562cd":[9,0,74,11,12],
-"class_win32_1_1_win32_guid.html#aa5d3acbfaca6a06a4cd9c544b573a7d1":[8,0,88,11,14],
-"class_win32_1_1_win32_guid.html#aa5d3acbfaca6a06a4cd9c544b573a7d1":[9,0,74,11,14],
-"class_win32_1_1_win32_guid.html#aab4c681fa017ecc7e70832dda446b266":[8,0,88,11,1],
-"class_win32_1_1_win32_guid.html#aab4c681fa017ecc7e70832dda446b266":[9,0,74,11,1],
-"class_win32_1_1_win32_guid.html#aad8a511522b8765bed4101727d1b79b5":[8,0,88,11,3],
-"class_win32_1_1_win32_guid.html#aad8a511522b8765bed4101727d1b79b5":[9,0,74,11,3],
-"class_win32_1_1_win32_guid.html#ab1c12714367929c665fd5f5884d11392":[8,0,88,11,7],
-"class_win32_1_1_win32_guid.html#ab1c12714367929c665fd5f5884d11392":[9,0,74,11,7]
+"class_win32_1_1_win32_guid.html#a91ef6e01e0d53a95bd476027f16b2150":[9,0,74,11,17]
 };

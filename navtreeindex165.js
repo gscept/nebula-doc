@@ -1,5 +1,15 @@
 var NAVTREEINDEX165 =
 {
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a981c4131c7482dc4e059333bc55c2816":[8,0,87,33,1,3],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a981c4131c7482dc4e059333bc55c2816":[9,0,73,33,1,3],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a9af49d0f108e8773bae7b962db1cc3ed":[8,0,87,33,1,4],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a9af49d0f108e8773bae7b962db1cc3ed":[9,0,73,33,1,4],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#ad9a783c93092a9aa54f05617c4de31db":[8,0,87,33,1,1],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#ad9a783c93092a9aa54f05617c4de31db":[9,0,73,33,1,1],
+"struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html":[8,0,87,35,0],
+"struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html":[9,0,73,35,0],
+"struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#a58c6b36b820ec1039209266fe43a67b3":[8,0,87,35,0,0],
+"struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#a58c6b36b820ec1039209266fe43a67b3":[9,0,73,35,0,0],
 "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#acb4c5a81583d90c751dab2b6d94eb175":[8,0,87,35,0,1],
 "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#acb4c5a81583d90c751dab2b6d94eb175":[9,0,73,35,0,1],
 "struct_vulkan_1_1_vk_shader_cache_1_1_descriptor_set_binding.html":[8,0,87,35,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX165 =
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a39e86d4e740e43b2f583774e1482e88a":[8,0,87,42,0,2],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a39e86d4e740e43b2f583774e1482e88a":[9,0,73,42,0,2],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a671dc41fc52a56cc4bbe25b8d0b61f63":[8,0,87,42,0,10],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a671dc41fc52a56cc4bbe25b8d0b61f63":[9,0,73,42,0,10],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a72bdb2c1c851e8633c0147683a09c2da":[8,0,87,42,0,4],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a72bdb2c1c851e8633c0147683a09c2da":[9,0,73,42,0,4],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a8b36ba77a20ded848c18131a93e44fbb":[8,0,87,42,0,3],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a8b36ba77a20ded848c18131a93e44fbb":[9,0,73,42,0,3],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a9cbb13c52f38891ed0b27369881ac8b4":[8,0,87,42,0,7],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a9cbb13c52f38891ed0b27369881ac8b4":[9,0,73,42,0,7],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa18e92b737020aa906c421943dd266ef":[8,0,87,42,0,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa18e92b737020aa906c421943dd266ef":[9,0,73,42,0,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa50369a838befa84ef42a51fab2eaf0b":[8,0,87,42,0,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa50369a838befa84ef42a51fab2eaf0b":[9,0,73,42,0,1]
+"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a671dc41fc52a56cc4bbe25b8d0b61f63":[9,0,73,42,0,10]
 };

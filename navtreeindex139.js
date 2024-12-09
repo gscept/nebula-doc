@@ -1,5 +1,15 @@
 var NAVTREEINDEX139 =
 {
+"struct_game_1_1_processor_job_context.html":[8,0,26,30],
+"struct_game_1_1_processor_job_context.html":[9,0,23,29],
+"struct_game_1_1_processor_job_context.html#a0cc87513ac19303513bd033c45f301a6":[8,0,26,30,0],
+"struct_game_1_1_processor_job_context.html#a0cc87513ac19303513bd033c45f301a6":[9,0,23,29,0],
+"struct_game_1_1_processor_job_context.html#ad309b40abcf815490d3ad712cfcca511":[8,0,26,30,1],
+"struct_game_1_1_processor_job_context.html#ad309b40abcf815490d3ad712cfcca511":[9,0,23,29,1],
+"struct_game_1_1_processor_job_input.html":[8,0,26,31],
+"struct_game_1_1_processor_job_input.html":[9,0,23,30],
+"struct_game_1_1_processor_job_input.html#a5bc0819b802216307cc1aa5c7d8c5030":[8,0,26,31,1],
+"struct_game_1_1_processor_job_input.html#a5bc0819b802216307cc1aa5c7d8c5030":[9,0,23,30,1],
 "struct_game_1_1_processor_job_input.html#a8ee221bd30dfa785454f5e60f9d5ed89":[8,0,26,31,0],
 "struct_game_1_1_processor_job_input.html#a8ee221bd30dfa785454f5e60f9d5ed89":[9,0,23,30,0],
 "struct_game_1_1_template_id.html":[8,0,26,33],
@@ -239,15 +249,5 @@ var NAVTREEINDEX139 =
 "struct_ids_1_1_id.html#a530ca47940feee5e65b973f007b24b13":[8,0,33,0,1],
 "struct_ids_1_1_id.html#a530ca47940feee5e65b973f007b24b13":[9,0,30,0,1],
 "struct_ids_1_1_id.html#a60fab0a6a9d137ef7c821a3e0061113a":[8,0,33,0,10],
-"struct_ids_1_1_id.html#a60fab0a6a9d137ef7c821a3e0061113a":[9,0,30,0,10],
-"struct_ids_1_1_id.html#a715b258e1887820f99f64c435d4609c0":[8,0,33,0,6],
-"struct_ids_1_1_id.html#a715b258e1887820f99f64c435d4609c0":[9,0,30,0,6],
-"struct_ids_1_1_id.html#a733a524515287117396fca099674ea19":[8,0,33,0,7],
-"struct_ids_1_1_id.html#a733a524515287117396fca099674ea19":[9,0,30,0,7],
-"struct_ids_1_1_id.html#a805e9878712e4f8c6169fc9b57d9d89d":[8,0,33,0,11],
-"struct_ids_1_1_id.html#a805e9878712e4f8c6169fc9b57d9d89d":[9,0,30,0,11],
-"struct_ids_1_1_id.html#a8bb94d58c7df2c91fca1e142c6f1183c":[8,0,33,0,12],
-"struct_ids_1_1_id.html#a8bb94d58c7df2c91fca1e142c6f1183c":[9,0,30,0,12],
-"struct_ids_1_1_id.html#a98d6c21979592fc173cbb33e409b84fe":[8,0,33,0,8],
-"struct_ids_1_1_id.html#a98d6c21979592fc173cbb33e409b84fe":[9,0,30,0,8]
+"struct_ids_1_1_id.html#a60fab0a6a9d137ef7c821a3e0061113a":[9,0,30,0,10]
 };

@@ -98,6 +98,7 @@ $(function(){initNavTree('class_i_o_1_1_io_server.html',''); initResizable(true)
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -116,6 +117,11 @@ $(function(){initNavTree('class_i_o_1_1_io_server.html',''); initResizable(true)
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a413c6be9a6eb27604bebf7d200d4a545" id="r_a413c6be9a6eb27604bebf7d200d4a545"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413c6be9a6eb27604bebf7d200d4a545">FileMapFunc</a> = void(const <a class="el" href="struct_util_1_1_string.html">Util::String</a>&amp; file, const <a class="el" href="struct_util_1_1_string.html">Util::String</a>&amp; folder)</td></tr>
+<tr class="separator:a413c6be9a6eb27604bebf7d200d4a545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af376c735cdcde95e7830826d2b50c3d7" id="r_af376c735cdcde95e7830826d2b50c3d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af376c735cdcde95e7830826d2b50c3d7">IoServer</a> ()</td></tr>
@@ -154,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0d0c02e503bd536f10688b2eb3baf5a" id="r_ae0d0c02e503bd536f10688b2eb3baf5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0d0c02e503bd536f10688b2eb3baf5a">CreateDirectory</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;uri) const</td></tr>
 <tr class="memdesc:ae0d0c02e503bd536f10688b2eb3baf5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create all missing directories in the path  <br /></td></tr>
 <tr class="separator:ae0d0c02e503bd536f10688b2eb3baf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf131ee69c5a82bd9f977c7bb7d15efa" id="r_acf131ee69c5a82bd9f977c7bb7d15efa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf131ee69c5a82bd9f977c7bb7d15efa">EnsureDirectoriesForFile</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;uri) const</td></tr>
+<tr class="memdesc:acf131ee69c5a82bd9f977c7bb7d15efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">create all missing directories  <br /></td></tr>
+<tr class="separator:acf131ee69c5a82bd9f977c7bb7d15efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e2799e1144fdbc67681d3804980e3d" id="r_ac8e2799e1144fdbc67681d3804980e3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e2799e1144fdbc67681d3804980e3d">DeleteDirectory</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
 <tr class="memdesc:ac8e2799e1144fdbc67681d3804980e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete an empty directory  <br /></td></tr>
 <tr class="separator:ac8e2799e1144fdbc67681d3804980e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +202,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7516c663cac79540cec5cb71b3b957c6" id="r_a7516c663cac79540cec5cb71b3b957c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7516c663cac79540cec5cb71b3b957c6">ListDirectories</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false, bool prioritizeArchive=true) const</td></tr>
 <tr class="memdesc:a7516c663cac79540cec5cb71b3b957c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">list all subdirectories matching a pattern in a directory  <br /></td></tr>
 <tr class="separator:a7516c663cac79540cec5cb71b3b957c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a0094658e4bfa938b94b4147491801" id="r_ac8a0094658e4bfa938b94b4147491801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a0094658e4bfa938b94b4147491801">IterateFolders</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, <a class="el" href="#a413c6be9a6eb27604bebf7d200d4a545">FileMapFunc</a> iter)</td></tr>
+<tr class="memdesc:ac8a0094658e4bfa938b94b4147491801"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterate through all files in hierarchy and call provided function  <br /></td></tr>
+<tr class="separator:ac8a0094658e4bfa938b94b4147491801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a610555ddacba229a5267b1463f1fc9f0" id="r_a610555ddacba229a5267b1463f1fc9f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_1_1_u_r_i.html">URI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610555ddacba229a5267b1463f1fc9f0">CreateTemporaryFilename</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
 <tr class="memdesc:a610555ddacba229a5267b1463f1fc9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a temporary file name  <br /></td></tr>
 <tr class="separator:a610555ddacba229a5267b1463f1fc9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +306,21 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
 <tr class="separator:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a413c6be9a6eb27604bebf7d200d4a545" name="a413c6be9a6eb27604bebf7d200d4a545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a413c6be9a6eb27604bebf7d200d4a545">&#9670;&#160;</a></span>FileMapFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a413c6be9a6eb27604bebf7d200d4a545">IO::IoServer::FileMapFunc</a> = void(const <a class="el" href="struct_util_1_1_string.html">Util::String</a>&amp; file, const <a class="el" href="struct_util_1_1_string.html">Util::String</a>&amp; folder)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af376c735cdcde95e7830826d2b50c3d7" name="af376c735cdcde95e7830826d2b50c3d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af376c735cdcde95e7830826d2b50c3d7">&#9670;&#160;</a></span>IoServer()</h2>
@@ -582,6 +609,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="acf131ee69c5a82bd9f977c7bb7d15efa" name="acf131ee69c5a82bd9f977c7bb7d15efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf131ee69c5a82bd9f977c7bb7d15efa">&#9670;&#160;</a></span>EnsureDirectoriesForFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IO::IoServer::EnsureDirectoriesForFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>uri</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create all missing directories </p>
+
+</div>
+</div>
 <a id="a4b5fb3d65ed5ad69c5bb786f67193e3f" name="a4b5fb3d65ed5ad69c5bb786f67193e3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b5fb3d65ed5ad69c5bb786f67193e3f">&#9670;&#160;</a></span>FileExists()</h2>
 
@@ -703,6 +749,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return read only status of a file </p>
+
+</div>
+</div>
+<a id="ac8a0094658e4bfa938b94b4147491801" name="ac8a0094658e4bfa938b94b4147491801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8a0094658e4bfa938b94b4147491801">&#9670;&#160;</a></span>IterateFolders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::IoServer::IterateFolders </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pattern</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a413c6be9a6eb27604bebf7d200d4a545">FileMapFunc</a></td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>iterate through all files in hierarchy and call provided function </p>
 
 </div>
 </div>
@@ -1269,7 +1343,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_i_o.html">IO</a></li><li class="navelem"><a class="el" href="class_i_o_1_1_io_server.html">IoServer</a></li>
 				<li class="footer">
-					Generated on Sun Dec 8 2024 20:47:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Dec 9 2024 22:37:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

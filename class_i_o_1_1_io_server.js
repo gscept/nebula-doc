@@ -1,5 +1,6 @@
 var class_i_o_1_1_io_server =
 [
+    [ "FileMapFunc", "class_i_o_1_1_io_server.html#a413c6be9a6eb27604bebf7d200d4a545", null ],
     [ "IoServer", "class_i_o_1_1_io_server.html#af376c735cdcde95e7830826d2b50c3d7", null ],
     [ "~IoServer", "class_i_o_1_1_io_server.html#a13d377d6d188a29d1e84eb8565614e53", null ],
     [ "__DeclareClass", "class_i_o_1_1_io_server.html#ad848530fcdae87842d7c8d6abe0317d9", null ],
@@ -13,12 +14,14 @@ var class_i_o_1_1_io_server =
     [ "DeleteDirectory", "class_i_o_1_1_io_server.html#ac8e2799e1144fdbc67681d3804980e3d", null ],
     [ "DeleteFile", "class_i_o_1_1_io_server.html#a804cff67f10e9543d741f02a652ed916", null ],
     [ "DirectoryExists", "class_i_o_1_1_io_server.html#ae7851af91886c14eb2d1555e9cdcc4d4", null ],
+    [ "EnsureDirectoriesForFile", "class_i_o_1_1_io_server.html#acf131ee69c5a82bd9f977c7bb7d15efa", null ],
     [ "FileExists", "class_i_o_1_1_io_server.html#a4b5fb3d65ed5ad69c5bb786f67193e3f", null ],
     [ "GetFileWriteTime", "class_i_o_1_1_io_server.html#ae07c519545c77dadabb914f12f8323cf", null ],
     [ "IsArchiveFileSystemEnabled", "class_i_o_1_1_io_server.html#a425a509f1a8d02b2d928d1159dbcb433", null ],
     [ "IsArchiveMounted", "class_i_o_1_1_io_server.html#a24c38aea59ca466572baf7b3d1ef4b52", null ],
     [ "IsLocked", "class_i_o_1_1_io_server.html#aafc62769207581d34bf75b1c8bccd715", null ],
     [ "IsReadOnly", "class_i_o_1_1_io_server.html#aa372e2e59277d84329d6e514097ac93f", null ],
+    [ "IterateFolders", "class_i_o_1_1_io_server.html#ac8a0094658e4bfa938b94b4147491801", null ],
     [ "ListDirectories", "class_i_o_1_1_io_server.html#a7516c663cac79540cec5cb71b3b957c6", null ],
     [ "ListFiles", "class_i_o_1_1_io_server.html#af78f5b21722450046721153f36e8ed4f", null ],
     [ "MountArchive", "class_i_o_1_1_io_server.html#ad45531f3fd4dd71a880aa8c5e5010136", null ],
