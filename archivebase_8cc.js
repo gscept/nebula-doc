@@ -1,4 +1,4 @@
 var archivebase_8cc =
 [
-    [ "__ImplementClass", "archivebase_8cc.html#a7efc3658cbdd261bebcb49c46b6332f6", null ]
+    [ "IO::__ImplementClass", "namespace_i_o.html#a7efc3658cbdd261bebcb49c46b6332f6", null ]
 ];

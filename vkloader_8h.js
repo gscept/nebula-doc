@@ -158,6 +158,6 @@ var vkloader_8h =
     [ "_DEC_VK", "vkloader_8h.html#a2cb6fff901a9f3d4728cf1015bec1aa1", null ],
     [ "_DEC_VK", "vkloader_8h.html#a8fc60f898a0d8db5856cfd752b63e92e", null ],
     [ "_DEC_VK", "vkloader_8h.html#a5d397352d0e0cd6a7147a1eef910f9de", null ],
-    [ "InitInstance", "vkloader_8h.html#a8029913a4739ebee620565549637bcee", null ],
-    [ "InitVulkan", "vkloader_8h.html#ade7a5db44a5f40d1657ed0c9c63f8477", null ]
+    [ "Vulkan::InitInstance", "namespace_vulkan.html#a8029913a4739ebee620565549637bcee", null ],
+    [ "Vulkan::InitVulkan", "namespace_vulkan.html#ade7a5db44a5f40d1657ed0c9c63f8477", null ]
 ];

@@ -1242,7 +1242,7 @@ var annotated_dup =
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
     [ "InstanceServerBase", "class_instancing_1_1_instance_server_base.html", null ],
     [ "Interface", "class_i_o_1_1_interface.html", null ],
-    [ "Interlocked", "class_threading_1_1_interlocked.html", null ],
+    [ "Interlocked", "class_threading_1_1_interlocked.html", "class_threading_1_1_interlocked" ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Library", "class_system_1_1_library.html", null ],

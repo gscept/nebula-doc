@@ -10,5 +10,5 @@ var posixmemory_8cc =
     [ "operator new[]", "posixmemory_8cc.html#ab66889ac451e3ac22c568c24a1de0798", null ],
     [ "operator new[]", "posixmemory_8cc.html#ab9f5ce3d626e483e1b875ae4713e1a02", null ],
     [ "operator new[]", "posixmemory_8cc.html#abc662e08dffa62cae36e6cc379545a7e", null ],
-    [ "PosixProcessHeap", "posixmemory_8cc.html#a1bda6b459546d2c0d7de871bbaeea53b", null ]
+    [ "Memory::PosixProcessHeap", "namespace_memory.html#a1bda6b459546d2c0d7de871bbaeea53b", null ]
 ];

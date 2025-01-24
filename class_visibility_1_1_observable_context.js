@@ -2,7 +2,7 @@ var class_visibility_1_1_observable_context =
 [
     [ "AtomIsActive", "class_visibility_1_1_observable_context.html#aa4b6c50f73b7dfa6f058c0a4d7eae84e", null ],
     [ "AtomTransform", "class_visibility_1_1_observable_context.html#a6eb230fb0e73b85923004977e4001165", null ],
-    [ "ObservableAllocator", "class_visibility_1_1_observable_context.html#a540076f77d96f5e23e1c317a4b5ef55f", null ],
+    [ "ObservableAllocator", "class_visibility_1_1_observable_context.html#ac2b24c8bfeedd68eeb49e2ffa4d2aac8", null ],
     [ "__DeclareContext", "class_visibility_1_1_observable_context.html#aafbdc24a1d5e501b0d2164bdd4f13f1b", null ],
     [ "Alloc", "class_visibility_1_1_observable_context.html#a72c8230383dc62a3f8cc95feea5f35e1", null ],
     [ "Create", "class_visibility_1_1_observable_context.html#addb3da43d39a884efa064d5b9e8ba6cb", null ],

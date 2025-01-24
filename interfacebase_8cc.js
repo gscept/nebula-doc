@@ -1,4 +1,4 @@
 var interfacebase_8cc =
 [
-    [ "__ImplementClass", "interfacebase_8cc.html#a97276fec52ce78cec936154ca492b9d9", null ]
+    [ "Interface::__ImplementClass", "namespace_interface.html#a97276fec52ce78cec936154ca492b9d9", null ]
 ];

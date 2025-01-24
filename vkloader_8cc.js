@@ -150,7 +150,7 @@ var vkloader_8cc =
     [ "_DEF_VK", "vkloader_8cc.html#aa8fdd44a309671545bf0abcc3ffc295d", null ],
     [ "_DEF_VK", "vkloader_8cc.html#a1f707cea543771c440fef066af947158", null ],
     [ "_DEF_VK", "vkloader_8cc.html#acb591c04f97994383a0caf37d448546b", null ],
-    [ "InitInstance", "vkloader_8cc.html#a8029913a4739ebee620565549637bcee", null ],
-    [ "InitVulkan", "vkloader_8cc.html#ade7a5db44a5f40d1657ed0c9c63f8477", null ],
-    [ "VkDebugObjectName", "vkloader_8cc.html#ac4a93bc3374d5332a037c4c60de74dd4", null ]
+    [ "Vulkan::InitInstance", "namespace_vulkan.html#a8029913a4739ebee620565549637bcee", null ],
+    [ "Vulkan::InitVulkan", "namespace_vulkan.html#ade7a5db44a5f40d1657ed0c9c63f8477", null ],
+    [ "Vulkan::VkDebugObjectName", "namespace_vulkan.html#ac4a93bc3374d5332a037c4c60de74dd4", null ]
 ];

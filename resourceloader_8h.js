@@ -13,10 +13,10 @@ var resourceloader_8h =
     [ "Resources::ResourceLoader::_PendingResourceUnload", "struct_resources_1_1_resource_loader_1_1___pending_resource_unload.html", "struct_resources_1_1_resource_loader_1_1___pending_resource_unload" ],
     [ "Resources::ResourceLoader::_Callbacks", "struct_resources_1_1_resource_loader_1_1___callbacks.html", "struct_resources_1_1_resource_loader_1_1___callbacks" ],
     [ "Resources::ResourceLoader::_PlaceholderResource", "struct_resources_1_1_resource_loader_1_1___placeholder_resource.html", "struct_resources_1_1_resource_loader_1_1___placeholder_resource" ],
-    [ "LoadFlags", "resourceloader_8h.html#a305b234380258a0076c514b34823e6d3", [
-      [ "None", "resourceloader_8h.html#a305b234380258a0076c514b34823e6d3a36ff6a12493e52abfa154642f52ee25c", null ],
-      [ "Create", "resourceloader_8h.html#a305b234380258a0076c514b34823e6d3af2e60e5688db4c61f02220dc7e308b3c", null ],
-      [ "Update", "resourceloader_8h.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5", null ]
+    [ "Resources::LoadFlags", "namespace_resources.html#a305b234380258a0076c514b34823e6d3", [
+      [ "Resources::None", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a36ff6a12493e52abfa154642f52ee25c", null ],
+      [ "Resources::Create", "namespace_resources.html#a305b234380258a0076c514b34823e6d3af2e60e5688db4c61f02220dc7e308b3c", null ],
+      [ "Resources::Update", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5", null ]
     ] ],
-    [ "__ImplementEnumBitOperators", "resourceloader_8h.html#a142fa7a1c41b3001cefd87e3104b8cf6", null ]
+    [ "Resources::__ImplementEnumBitOperators", "namespace_resources.html#a142fa7a1c41b3001cefd87e3104b8cf6", null ]
 ];

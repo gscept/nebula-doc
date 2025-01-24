@@ -1,4 +1,4 @@
 var nvx3streamreader_8cc =
 [
-    [ "__ImplementClass", "nvx3streamreader_8cc.html#ae874c9a2d9d45594fdafd6f3af560e34", null ]
+    [ "CoreGraphics::__ImplementClass", "namespace_core_graphics.html#ae874c9a2d9d45594fdafd6f3af560e34", null ]
 ];

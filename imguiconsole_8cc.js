@@ -1,8 +1,8 @@
 var imguiconsole_8cc =
 [
     [ "completion_t", "structcompletion__t.html", "structcompletion__t" ],
-    [ "__ImplementClass", "imguiconsole_8cc.html#a5b2665e00f36a71ce30b123c09a9f636", null ],
-    [ "__ImplementInterfaceSingleton", "imguiconsole_8cc.html#ade0789354735a8035bc0548bf8f9458e", null ],
+    [ "Dynui::__ImplementClass", "namespace_dynui.html#a5b2665e00f36a71ce30b123c09a9f636", null ],
+    [ "Dynui::__ImplementInterfaceSingleton", "namespace_dynui.html#ade0789354735a8035bc0548bf8f9458e", null ],
     [ "ListAllCVars", "imguiconsole_8cc.html#a236fde2623b3549ebb6fccd84b15f5a1", null ],
     [ "ListHistory", "imguiconsole_8cc.html#a71e8392593c691217e37524f7d765e7c", null ],
     [ "TextEditCallback", "imguiconsole_8cc.html#ac343ec638b42e94e8a2c42efeca1a3e3", null ],

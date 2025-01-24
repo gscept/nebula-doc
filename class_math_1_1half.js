@@ -29,7 +29,7 @@ var class_math_1_1half =
     [ "BITS_MANTISSA", "class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030", null ],
     [ "exp", "class_math_1_1half.html#a0d3ca863b0699c60700f2ec4fddd7a79", null ],
     [ "frac", "class_math_1_1half.html#a1f0bc278fc8ada8058499c74c5e82a6c", null ],
-    [ "ieee", "class_math_1_1half.html#a4964a328485e46e3a16036cb2bcd918c", null ],
+    [ "ieee", "class_math_1_1half.html#adfdc97af4347a4ac63aa6cd8ad89a5b4", null ],
     [ "MAX_EXPONENT", "class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd", null ],
     [ "MAX_EXPONENT10", "class_math_1_1half.html#a2661f2b3fc80b70105a201f2970a3a28", null ],
     [ "MAX_EXPONENT_VALUE", "class_math_1_1half.html#ac956ed975b2bac6482863816d6fab591", null ],

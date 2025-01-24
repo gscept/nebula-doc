@@ -1,12 +1,12 @@
 var class_lighting_1_1_light_context =
 [
     [ "ConstantBufferSet", "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html", "struct_lighting_1_1_light_context_1_1_constant_buffer_set" ],
-    [ "AreaLightAllocator", "class_lighting_1_1_light_context.html#ab4cdd365f79c681c0e317db12375e9ef", null ],
-    [ "DirectionalLightAllocator", "class_lighting_1_1_light_context.html#a52b9db9a86de8295bd66f09b35b8b3a5", null ],
-    [ "GenericLightAllocator", "class_lighting_1_1_light_context.html#a51167431f992a98f6460a10305e4092b", null ],
-    [ "PointLightAllocator", "class_lighting_1_1_light_context.html#aaa17c5a234059057dcdb698e593cc20a", null ],
-    [ "ShadowCasterAllocator", "class_lighting_1_1_light_context.html#aa09be9cf4dc36908085f723dace7f900", null ],
-    [ "SpotLightAllocator", "class_lighting_1_1_light_context.html#adc1e2578a8917c22c88b3b28044d05ac", null ],
+    [ "AreaLightAllocator", "class_lighting_1_1_light_context.html#a288e224bb91b290a15958727e5b622ba", null ],
+    [ "DirectionalLightAllocator", "class_lighting_1_1_light_context.html#ad275440e68767fb5977b1db0cfbf6462", null ],
+    [ "GenericLightAllocator", "class_lighting_1_1_light_context.html#abc9c85ff70e2aa10e5a27c522f604266", null ],
+    [ "PointLightAllocator", "class_lighting_1_1_light_context.html#a95955300f9196955ff74d670289e95ee", null ],
+    [ "ShadowCasterAllocator", "class_lighting_1_1_light_context.html#ab76e0ad71d9ab6daa1a552c4cf03e058", null ],
+    [ "SpotLightAllocator", "class_lighting_1_1_light_context.html#a938e58d0e8d8bef6fbbda7761c91edf1", null ],
     [ "AreaLightShape", "class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8", [
       [ "Disk", "class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8a380dbc8d9d2c8a17f6ebb0b2c62d3e85", null ],
       [ "Rectangle", "class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8ace9291906a4c3b042650b70d7f3b152e", null ],

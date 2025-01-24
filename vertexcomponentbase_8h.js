@@ -1,5 +1,5 @@
 var vertexcomponentbase_8h =
 [
     [ "Base::VertexComponentBase", "class_base_1_1_vertex_component_base.html", "class_base_1_1_vertex_component_base" ],
-    [ "CreateVertexLayout", "vertexcomponentbase_8h.html#a82f27ffc999589324aa184ce535eb33b", null ]
+    [ "CoreGraphics::CreateVertexLayout", "namespace_core_graphics.html#a82f27ffc999589324aa184ce535eb33b", null ]
 ];
