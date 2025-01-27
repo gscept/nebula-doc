@@ -71,7 +71,7 @@ var commandbuffer_8h =
     [ "CoreGraphics::CmdSetIndexBuffer", "namespace_core_graphics.html#aee0786cc4f7d13e416bb7f1a63d37267", null ],
     [ "CoreGraphics::CmdSetPrimitiveTopology", "namespace_core_graphics.html#a5226e862b60f3049eabf74456c8994e9", null ],
     [ "CoreGraphics::CmdSetRayTracingPipeline", "namespace_core_graphics.html#afc5ef0e21befec1aed797dfc0564537f", null ],
-    [ "CoreGraphics::CmdSetResourceTable", "namespace_core_graphics.html#a724c6ef3fdf6daf18357e2c5707e128f", null ],
+    [ "CoreGraphics::CmdSetResourceTable", "namespace_core_graphics.html#a483f369447a6d7a54b82c13020f5ccf8", null ],
     [ "CoreGraphics::CmdSetResourceTable", "namespace_core_graphics.html#a0599dbfbb480bb1db4c1230e535ccc69", null ],
     [ "CoreGraphics::CmdSetScissorRect", "namespace_core_graphics.html#a6ecb4a854ece2a4fbf101ad8127cdbdf", null ],
     [ "CoreGraphics::CmdSetScissors", "namespace_core_graphics.html#aaf5ad671d50a0f705fcd33d4eac45987", null ],

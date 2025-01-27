@@ -126,7 +126,7 @@ var namespace_vulkan =
     [ "BlasGetVkBuffer", "namespace_vulkan.html#a34fbad8d1bd2ce5b06a60be0084773c0", null ],
     [ "BlasGetVkBuild", "namespace_vulkan.html#a407d08db0df24aea1b3cef481f070e0d", null ],
     [ "BlasGetVkDevice", "namespace_vulkan.html#aa35f0f528492b6c13a7a3eb3a8c7b725", null ],
-    [ "BlasGetVkRanges", "namespace_vulkan.html#a49a0e809460ff498bb29991e1d9bbefe", null ],
+    [ "BlasGetVkRanges", "namespace_vulkan.html#afadb3825fc302721505f35eb8b4fc5ed", null ],
     [ "BufferGetVk", "namespace_vulkan.html#a22999bd78f257b6cfb07792797b1d121", null ],
     [ "BufferGetVkDevice", "namespace_vulkan.html#a74b6e5ed55c82d94ed15ecc850984db6", null ],
     [ "BufferGetVkMemory", "namespace_vulkan.html#ab6aa4e7ce992dd3dc77cc9a8a4d9920f", null ],

@@ -48,6 +48,7 @@ var scalar_8h =
     [ "Math::fless", "namespace_math.html#ae32588469e649ac585e70e56446976a9", null ],
     [ "Math::floor", "namespace_math.html#af4878073465cb27592baa0fb77c3bcb8", null ],
     [ "Math::fmod", "namespace_math.html#afb16681ddab5e68acfd000b9ee1e9000", null ],
+    [ "Math::fract", "namespace_math.html#a920e619eaaa76729b4c4d31c3af08a64", null ],
     [ "Math::frnd", "namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68", null ],
     [ "Math::irand", "namespace_math.html#a7c79b7000187099c110e1555d11b4a3c", null ],
     [ "Math::isdenormal", "namespace_math.html#a954e142af6151fd4bdbcbc0acb2339b9", null ],

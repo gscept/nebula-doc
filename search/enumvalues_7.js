@@ -22,7 +22,7 @@ var searchData=
   ['glfw_5fwindow_19',['GLFW_Window',['../namespace_core_graphics.html#abeab42c5dae749cac79b848b7fc93fecaea64dd57fe95e3c7f49a7d44e21e8f0b',1,'CoreGraphics']]],
   ['global_20',['Global',['../namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826a4cc6684df7b4a92b1dec6fce3264fac8',1,'CoreGraphics']]],
   ['gltfobject_21',['GLTFObject',['../namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a04c178c0ae0ed1ef62a7fcdf9535e5d6',1,'Raytracing']]],
-  ['graphics_22',['Graphics',['../namespace_visibility.html#ac768cf015c50fa52ea8ff874abeb8880a7e75a4af24ccecfb91be719add60052a',1,'Visibility']]],
+  ['graphics_22',['Graphics',['../namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a13a9172112a256bd4a2fe9c304666fb0',1,'Materials::Graphics'],['../namespace_visibility.html#ac768cf015c50fa52ea8ff874abeb8880a7e75a4af24ccecfb91be719add60052a',1,'Visibility::Graphics']]],
   ['graphicspipeline_23',['GraphicsPipeline',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba292d7857ecc182db6318aaaf7f5b4e78',1,'CoreGraphics::DrawThread::GraphicsPipeline'],['../namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69',1,'CoreGraphics::GraphicsPipeline']]],
   ['graphicsqueuesupport_24',['GraphicsQueueSupport',['../namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72ae94066452f87087f5b186c87d3024f90',1,'CoreGraphics']]],
   ['graphicsqueuetype_25',['GraphicsQueueType',['../namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9ad81733300389b5f173749364076a2023',1,'CoreGraphics']]],

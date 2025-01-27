@@ -83,7 +83,7 @@ var searchData=
   ['hashtable_80',['HashTable',['../class_util_1_1_hash_table.html',1,'Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;'],['../class_util_1_1_hash_table.html#a6168ec5e95041586c9f69037e90591cb',1,'Util::HashTable::HashTable()'],['../class_util_1_1_hash_table.html#a7b47f9feddc4608cdd32c47ed96d770c',1,'Util::HashTable::HashTable(const HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt; &amp;rhs)'],['../class_util_1_1_hash_table.html#a2338141dd260d398b004f7fe53e886b6',1,'Util::HashTable::HashTable(HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt; &amp;&amp;rhs)']]],
   ['hashtable_2eh_81',['hashtable.h',['../hashtable_8h.html',1,'']]],
   ['hashtable_3c_20const_20materialtemplates_3a_3aentry_20_2a_2c_20visibility_3a_3aobservercontext_3a_3avisibilitybatchcommand_20_3e_82',['HashTable&lt; const MaterialTemplates::Entry *, Visibility::ObserverContext::VisibilityBatchCommand &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
-  ['hashtable_3c_20coregraphics_3a_3ameshid_2c_20util_3a_3atuple_3c_20uint_2c_20coregraphics_3a_3ablasid_20_3e_20_3e_83',['HashTable&lt; CoreGraphics::MeshId, Util::Tuple&lt; uint, CoreGraphics::BlasId &gt; &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
+  ['hashtable_3c_20coregraphics_3a_3ameshid_2c_20util_3a_3atuple_3c_20uint_2c_20util_3a_3aarray_3c_20coregraphics_3a_3ablasid_20_3e_20_3e_20_3e_83',['HashTable&lt; CoreGraphics::MeshId, Util::Tuple&lt; uint, Util::Array&lt; CoreGraphics::BlasId &gt; &gt; &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20game_3a_3ablueprintid_2c_20memdb_3a_3atableid_20_3e_84',['HashTable&lt; Game::BlueprintId, MemDb::TableId &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20game_3a_3amessagelistenerid_2c_20indext_20_3e_85',['HashTable&lt; Game::MessageListenerId, IndexT &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
   ['hashtable_3c_20game_3a_3aworldhash_2c_20worldid_2c_2032_2c_201_20_3e_86',['HashTable&lt; Game::WorldHash, WorldId, 32, 1 &gt;',['../class_util_1_1_hash_table.html',1,'Util']]],
@@ -221,7 +221,7 @@ var searchData=
   ['hostbuffer_218',['HostBuffer',['../struct_core_graphics_1_1_buffer_with_staging.html#aa3a6cfaf21f744b98dd259cb15f6fc8c',1,'CoreGraphics::BufferWithStaging']]],
   ['hostbuffer_219',['hostBuffer',['../struct_materials_1_1_material_buffer.html#afb77e3bb649aef6f17e6a659a41e584d',1,'Materials::MaterialBuffer']]],
   ['hostbuffercreateinfo_220',['hostBufferCreateInfo',['../struct_materials_1_1_material_buffer.html#af281102aca47b899f2c45c0731480283',1,'Materials::MaterialBuffer']]],
-  ['hostbufferdata_221',['hostBufferData',['../struct_materials_1_1_material_buffer.html#a8a8c81ff71e74c5cb2fafe5e8be64711',1,'Materials::MaterialBuffer']]],
+  ['hostbufferdata_221',['hostBufferData',['../struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e',1,'Materials::MaterialBuffer']]],
   ['hostbuffers_222',['hostBuffers',['../struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532',1,'CoreGraphics::BufferWithStaging::hostBuffers'],['../struct_core_graphics_1_1_pinned_buffer.html#a849c2364313c1f4daae77bb8f9e1936a',1,'CoreGraphics::PinnedBuffer::hostBuffers']]],
   ['hostcached_223',['HostCached',['../namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077a6f1e9e77271714f0a11a9fa3ca0c4251',1,'CoreGraphics']]],
   ['hosterrortoerrorcode_224',['HostErrorToErrorCode',['../class_posix_1_1_posix_socket.html#a7cb5ee5753b0c9ba849b94ff2330afe7',1,'Posix::PosixSocket']]],
@@ -320,5 +320,6 @@ var searchData=
   ['hullshaderread_317',['HullShaderRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a6469d9bc08c7a29cee63fbbb72b38e9c',1,'CoreGraphics']]],
   ['hullshadervisibility_318',['HullShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1a349de41576db40e07ccf806c4edff001',1,'CoreGraphics']]],
   ['hullshaderwrite_319',['HullShaderWrite',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a0f6c56db4f19a62872d76203c0795975',1,'CoreGraphics']]],
-  ['hwnd_320',['hWnd',['../class_win32_1_1_win32_display_device.html#a67d79a4238e5492ed41f4571d06dd1f6',1,'Win32::Win32DisplayDevice']]]
+  ['hwnd_320',['hWnd',['../class_win32_1_1_win32_display_device.html#a67d79a4238e5492ed41f4571d06dd1f6',1,'Win32::Win32DisplayDevice']]],
+  ['hysteresis_321',['hysteresis',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a1e3d5d312a34459c231c80b85f3c24be',1,'GI::DDGIContext::VolumeSetup::hysteresis'],['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a7a3ccfd5402bd2327d5e2050cce42f66',1,'GI::DDGIContext::Volume::hysteresis']]]
 ];

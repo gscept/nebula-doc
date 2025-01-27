@@ -404,7 +404,7 @@ $(function(){initNavTree('resourceserver_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    <a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> i = this-&gt;<a class="code hl_variable" href="class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936">typeMap</a>.FindIndex(&amp;POOL_TYPE::RTTI);</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    <span class="keywordflow">if</span> (i != <a class="code hl_variable" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a>)</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    {</div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>POOL_TYPE*<span class="keyword">&gt;</span>(this-&gt;<a class="code hl_variable" href="class_resources_1_1_resource_server.html#a9666c96cb9ebe23136f818c7b1a3f70e">loaders</a>[i].get());</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>POOL_TYPE*<span class="keyword">&gt;</span>(this-&gt;<a class="code hl_variable" href="class_resources_1_1_resource_server.html#a9666c96cb9ebe23136f818c7b1a3f70e">loaders</a>[this-&gt;<a class="code hl_variable" href="class_resources_1_1_resource_server.html#a447f36779bdc5b450bc915b72e81e936">typeMap</a>.ValueAtIndex(i)].get());</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    }</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    <a class="code hl_function" href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a>(<span class="stringliteral">&quot;No loader registered for this type&quot;</span>);</div>
@@ -580,7 +580,7 @@ $(function(){initNavTree('resourceserver_8h_source.html',''); initResizable(true
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_74dd771dbdc6a1e1992854f8f6560177.html">resource</a></li><li class="navelem"><a class="el" href="dir_b01bbc06703354ce86ca09ef125e942f.html">resources</a></li><li class="navelem"><a class="el" href="resourceserver_8h.html">resourceserver.h</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

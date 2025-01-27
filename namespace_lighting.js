@@ -14,6 +14,7 @@ var namespace_lighting =
     [ "combineProgram", "namespace_lighting.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "combineShader", "namespace_lighting.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
     [ "combineState", "namespace_lighting.html#a42db24996966f299392cf50a0356fce2", null ],
+    [ "consts", "namespace_lighting.html#a5151b7729d50085fdec941a6423bfdd3", null ],
     [ "csmUtil", "namespace_lighting.html#ab0aaa69cffadc74914be9308b6f7b20c", null ],
     [ "cullProgram", "namespace_lighting.html#a4631b178546d59ffad08e86592f87073", null ],
     [ "debugProgram", "namespace_lighting.html#a45f299995780015f0fb9182048042989", null ],

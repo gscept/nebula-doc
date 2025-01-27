@@ -1,6 +1,7 @@
 var materialloader_8cc =
 [
     [ "Materials::MaterialBuffer< INTERFACE_TYPE >", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
+    [ "ALLOC_AND_BIND_MATERIAL", "materialloader_8cc.html#af97117b7c9ae7e5740533a8555182129", null ],
     [ "ALLOC_MATERIAL", "materialloader_8cc.html#a46d53fe78234994294715f4fbf406e26", null ],
     [ "MATERIAL_LIST", "materialloader_8cc.html#a4fa957af2ee141f7c5669899427d8f81", null ],
     [ "PROPERTIES_LIST", "materialloader_8cc.html#a62c48134eee660cb366870c39ce85dd8", null ],
@@ -22,7 +23,7 @@ var materialloader_8cc =
     [ "Materials::graphicsDirty", "namespace_materials.html#ac37785012da1cde7b693eb85392965ee", null ],
     [ "Materials::LoaderMap", "namespace_materials.html#a603e08681edefee41c4b7739ff4d14f9", null ],
     [ "Materials::materialBindingBuffer", "namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c", null ],
-    [ "Materials::state", "namespace_materials.html#a8b551f846f286d6f4cffc7dc6c190e3a", null ],
+    [ "Materials::materialLoaderState", "namespace_materials.html#a59fe8b7be75c5714fc3fe8b5377b76d1", null ],
     [ "Materials::variantAllocator", "namespace_materials.html#ae0df99b4267083a9b8fdf98d2a210a6e", null ],
     [ "Materials::variantAllocatorLock", "namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e", null ]
 ];

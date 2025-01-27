@@ -69,7 +69,7 @@ var searchData=
   ['host_66',['host',['../class_i_o_1_1_u_r_i.html#a1df73816d7849dda8a9ebbe858929d10',1,'IO::URI']]],
   ['hostbuffer_67',['hostBuffer',['../struct_materials_1_1_material_buffer.html#afb77e3bb649aef6f17e6a659a41e584d',1,'Materials::MaterialBuffer']]],
   ['hostbuffercreateinfo_68',['hostBufferCreateInfo',['../struct_materials_1_1_material_buffer.html#af281102aca47b899f2c45c0731480283',1,'Materials::MaterialBuffer']]],
-  ['hostbufferdata_69',['hostBufferData',['../struct_materials_1_1_material_buffer.html#a8a8c81ff71e74c5cb2fafe5e8be64711',1,'Materials::MaterialBuffer']]],
+  ['hostbufferdata_69',['hostBufferData',['../struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e',1,'Materials::MaterialBuffer']]],
   ['hostbuffers_70',['hostBuffers',['../struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532',1,'CoreGraphics::BufferWithStaging::hostBuffers'],['../struct_core_graphics_1_1_pinned_buffer.html#a849c2364313c1f4daae77bb8f9e1936a',1,'CoreGraphics::PinnedBuffer::hostBuffers']]],
   ['hostfxr_71',['hostfxr',['../class_scripting_1_1_n_sharp_server.html#a421d509c4ecbd11647e401f95f9ceda9',1,'Scripting::NSharpServer']]],
   ['hostname_72',['hostName',['../class_posix_1_1_posix_ip_address.html#a89c73d1958ee6b9b42bc14734626a68f',1,'Posix::PosixIpAddress::hostName'],['../class_win32_1_1_win32_ip_address.html#a357beb63ee1f969e07287c483d788ff8',1,'Win32::Win32IpAddress::hostName']]],
@@ -82,5 +82,6 @@ var searchData=
   ['httpserver_79',['httpServer',['../class_http_1_1_http_message_handler.html#aad5990233115f3db7011c2445b820283',1,'Http::HttpMessageHandler']]],
   ['httpserverproxy_80',['httpServerProxy',['../class_debug_1_1_debug_handler.html#a0ea0562c19027e295cb110c4ec1a75df',1,'Debug::DebugHandler']]],
   ['httpstatus_81',['httpStatus',['../class_http_1_1_http_response_reader.html#ac3a179266c5c836b7f2ab55c1236f869',1,'Http::HttpResponseReader']]],
-  ['hwnd_82',['hWnd',['../class_win32_1_1_win32_display_device.html#a67d79a4238e5492ed41f4571d06dd1f6',1,'Win32::Win32DisplayDevice']]]
+  ['hwnd_82',['hWnd',['../class_win32_1_1_win32_display_device.html#a67d79a4238e5492ed41f4571d06dd1f6',1,'Win32::Win32DisplayDevice']]],
+  ['hysteresis_83',['hysteresis',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a1e3d5d312a34459c231c80b85f3c24be',1,'GI::DDGIContext::VolumeSetup::hysteresis'],['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a7a3ccfd5402bd2327d5e2050cce42f66',1,'GI::DDGIContext::Volume::hysteresis']]]
 ];

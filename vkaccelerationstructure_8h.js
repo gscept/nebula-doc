@@ -10,7 +10,7 @@ var vkaccelerationstructure_8h =
     [ "Vulkan::BlasGetVkBuffer", "namespace_vulkan.html#a34fbad8d1bd2ce5b06a60be0084773c0", null ],
     [ "Vulkan::BlasGetVkBuild", "namespace_vulkan.html#a407d08db0df24aea1b3cef481f070e0d", null ],
     [ "Vulkan::BlasGetVkDevice", "namespace_vulkan.html#aa35f0f528492b6c13a7a3eb3a8c7b725", null ],
-    [ "Vulkan::BlasGetVkRanges", "namespace_vulkan.html#a49a0e809460ff498bb29991e1d9bbefe", null ],
+    [ "Vulkan::BlasGetVkRanges", "namespace_vulkan.html#afadb3825fc302721505f35eb8b4fc5ed", null ],
     [ "Vulkan::TlasGetVk", "namespace_vulkan.html#a60f33defd4885696bfcfda1cc3afd896", null ],
     [ "Vulkan::TlasGetVkBuffer", "namespace_vulkan.html#ab632709a908ae10bdba1df4152c25912", null ],
     [ "Vulkan::TlasGetVkBuild", "namespace_vulkan.html#a930b6bfeb03e85dd2e9e5ce6a969245d", null ],

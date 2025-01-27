@@ -124,5 +124,6 @@ var searchData=
   ['vkwritetimestampcommand_121',['VkWriteTimestampCommand',['../struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_write_timestamp_command.html',1,'Vulkan::VkCommandBufferThread']]],
   ['voidptrtypeclass_122',['VoidPtrTypeClass',['../class_attr_1_1_void_ptr_type_class.html',1,'Attr']]],
   ['volume_123',['Volume',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html',1,'GI::DDGIContext']]],
-  ['volumetricfogcontext_124',['VolumetricFogContext',['../class_fog_1_1_volumetric_fog_context.html',1,'Fog']]]
+  ['volumesetup_124',['VolumeSetup',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html',1,'GI::DDGIContext']]],
+  ['volumetricfogcontext_125',['VolumetricFogContext',['../class_fog_1_1_volumetric_fog_context.html',1,'Fog']]]
 ];

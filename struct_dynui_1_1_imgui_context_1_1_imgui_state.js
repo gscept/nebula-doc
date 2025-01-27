@@ -1,6 +1,7 @@
 var struct_dynui_1_1_imgui_context_1_1_imgui_state =
 [
     [ "boldFont", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#ac87c23b488916ec16fdd3ad2cf41f833", null ],
+    [ "colorMaskConstant", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#aa0c3d88466a6ae57490fe2916fdeb07d", null ],
     [ "dockOverViewport", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af3975623169bb43538828a02c15876c1", null ],
     [ "fontTexture", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a03ec715834d41a54ee9cf66fe4353c96", null ],
     [ "ibos", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a722724cbb3db75473d7676158683db92", null ],
@@ -11,6 +12,8 @@ var struct_dynui_1_1_imgui_context_1_1_imgui_state =
     [ "packedTextureInfo", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af9a3fcf3f43142fc9f255866fc693eeb", null ],
     [ "pipeline", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a2ce389902ed30dbe7831f25ba38cb938", null ],
     [ "prog", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a4fae72449e18c181a90637ee174cd7df", null ],
+    [ "rangeMaxConstant", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#ab737e8401cb24098ff42baaccc5bed1a", null ],
+    [ "rangeMinConstant", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a225365fa25e75d2c32b5557ea88e11a0", null ],
     [ "resourceTable", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#af8fab9579e8fdc37b70bbe43ecefcdef", null ],
     [ "smallFont", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a28be81f6f37c6814e54ba4e6eb2449e6", null ],
     [ "textProjectionConstant", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html#a98d721d9cf3a81032cd990b5d94d07e2", null ],

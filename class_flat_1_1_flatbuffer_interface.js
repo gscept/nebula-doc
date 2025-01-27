@@ -11,6 +11,7 @@ var class_flat_1_1_flatbuffer_interface =
     [ "Init", "class_flat_1_1_flatbuffer_interface.html#a3aee2e0e98ce593051dad0dc2312485d", null ],
     [ "LoadSchema", "class_flat_1_1_flatbuffer_interface.html#a2113594f8d9cbd3bababfe2a134f92c2", null ],
     [ "ParseJson", "class_flat_1_1_flatbuffer_interface.html#a6d765a197f8d3c2eecc67793b52ae622", null ],
+    [ "ParseJson", "class_flat_1_1_flatbuffer_interface.html#ab5624ce5b4333be2ead686c6f76148d0", null ],
     [ "SerializeFlatbuffer", "class_flat_1_1_flatbuffer_interface.html#a4cb149369980de4fbb900ab8c6c7acb5", null ],
     [ "SerializeHelper", "class_flat_1_1_flatbuffer_interface.html#a341a44377e5884ab77ddcb4400f3ea51", null ]
 ];

@@ -116,6 +116,7 @@ var namespace_math =
     [ "floor", "namespace_math.html#af4878073465cb27592baa0fb77c3bcb8", null ],
     [ "fmadd", "namespace_math.html#af9c90d6799f58f5df2f037429c58e009", null ],
     [ "fmod", "namespace_math.html#afb16681ddab5e68acfd000b9ee1e9000", null ],
+    [ "fract", "namespace_math.html#a920e619eaaa76729b4c4d31c3af08a64", null ],
     [ "frnd", "namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68", null ],
     [ "from_euler", "namespace_math.html#af7498f34e2e25b919c28a30845da2191", null ],
     [ "fromeuler", "namespace_math.html#a50e67ec8d9200daa16ac40ad7be45536", null ],

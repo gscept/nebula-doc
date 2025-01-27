@@ -134,6 +134,8 @@ Macros</h2></td></tr>
 <tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d53fe78234994294715f4fbf406e26" id="r_a46d53fe78234994294715f4fbf406e26"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46d53fe78234994294715f4fbf406e26">ALLOC_MATERIAL</a>(x)</td></tr>
 <tr class="separator:a46d53fe78234994294715f4fbf406e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97117b7c9ae7e5740533a8555182129" id="r_af97117b7c9ae7e5740533a8555182129"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af97117b7c9ae7e5740533a8555182129">ALLOC_AND_BIND_MATERIAL</a>(x,  editor)</td></tr>
+<tr class="separator:af97117b7c9ae7e5740533a8555182129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)</td></tr>
 <tr class="separator:a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a618c2e7d70c13a7d7f980ce67333f0ee" id="r_a618c2e7d70c13a7d7f980ce67333f0ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a>(x)</td></tr>
@@ -165,7 +167,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a603e08681edefee41c4b7739ff4d14f9" id="r_a603e08681edefee41c4b7739ff4d14f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; MaterialTemplates::MaterialProperties, <a class="el" href="namespace_materials.html#af09d97178629e229384bdb4d5c815739">LoaderFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a603e08681edefee41c4b7739ff4d14f9">Materials::LoaderMap</a></td></tr>
 <tr class="separator:a603e08681edefee41c4b7739ff4d14f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b551f846f286d6f4cffc7dc6c190e3a" id="r_a8b551f846f286d6f4cffc7dc6c190e3a"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memitem:a59fe8b7be75c5714fc3fe8b5377b76d1" id="r_a59fe8b7be75c5714fc3fe8b5377b76d1"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f86690cda2b973aa3bf6a3ce941529a" id="r_a1f86690cda2b973aa3bf6a3ce941529a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a> MaterialInterfaces::MaterialBindings&#160;&#160;&#160;<a class="el" href="namespace_materials.html#af0c095831149e9fc10a53f29686b2dd6">Materials::bindings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a1f86690cda2b973aa3bf6a3ce941529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,10 +191,41 @@ Variables</h2></td></tr>
 <tr class="separator:a19166a9f237e17f8f8157bcca9fef6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed6c2853b260176734d1d786634261e3" id="r_aed6c2853b260176734d1d786634261e3"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="namespace_materials.html#a074e52da8ff386c3eb7ab98913bebbd7">Materials::dirtySet</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aed6c2853b260176734d1d786634261e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b551f846f286d6f4cffc7dc6c190e3a" id="r_a8b551f846f286d6f4cffc7dc6c190e3a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a8b551f846f286d6f4cffc7dc6c190e3a">Materials::state</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a8b551f846f286d6f4cffc7dc6c190e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59fe8b7be75c5714fc3fe8b5377b76d1" id="r_a59fe8b7be75c5714fc3fe8b5377b76d1"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a59fe8b7be75c5714fc3fe8b5377b76d1">Materials::materialLoaderState</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a59fe8b7be75c5714fc3fe8b5377b76d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af97117b7c9ae7e5740533a8555182129" name="af97117b7c9ae7e5740533a8555182129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af97117b7c9ae7e5740533a8555182129">&#9670;&#160;</a></span>ALLOC_AND_BIND_MATERIAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ALLOC_AND_BIND_MATERIAL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>editor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">        <a class="code hl_typedef" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> <span class="keywordtype">id</span> = materialLoaderState.x##s.Alloc();\</div>
+<div class="line">        if (materialLoaderState.bindings.x##s != materialLoaderState.x##s.deviceAddress)\</div>
+<div class="line">        {\</div>
+<div class="line">            materialLoaderState.bindings.x##s = materialLoaderState.x##s.deviceAddress;\</div>
+<div class="line">            materialLoaderState.dirtySet.bits = 0x3;\</div>
+<div class="line">        }\</div>
+<div class="line">        MaterialInterfaces::x&amp; material = materialLoaderState.x##s.Get(<span class="keywordtype">id</span>);\</div>
+<div class="line">        materialLoaderState.x##s.dirty = <span class="keyword">true</span>;\</div>
+<div class="line">        Materials::MaterialSetBufferBinding(mat, <span class="keywordtype">id</span>);</div>
+<div class="ttc" id="anamespace_ids_html_aa0d7db4adc4f444ebea663b861bfcd1c"><div class="ttname"><a href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></div><div class="ttdeci">uint32_t Id32</div><div class="ttdef"><b>Definition</b> id.h:138</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a46d53fe78234994294715f4fbf406e26" name="a46d53fe78234994294715f4fbf406e26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46d53fe78234994294715f4fbf406e26">&#9670;&#160;</a></span>ALLOC_MATERIAL</h2>
 
@@ -207,12 +240,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_typedef" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> <span class="keywordtype">id</span> = state.x##s.Alloc();\</div>
-<div class="line">    state.bindings.x##s = <a class="code hl_function" href="namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c">CoreGraphics::BufferGetDeviceAddress</a>(state.x##s.deviceBuffer);\</div>
-<div class="line">    MaterialInterfaces::x&amp; material = state.x##s.Get(<span class="keywordtype">id</span>);\</div>
-<div class="line">    state.x##s.dirty = <span class="keyword">true</span>;</div>
-<div class="ttc" id="anamespace_core_graphics_html_adf8061714da864f6e76b61f80627c14c"><div class="ttname"><a href="namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c">CoreGraphics::BufferGetDeviceAddress</a></div><div class="ttdeci">CoreGraphics::DeviceAddress BufferGetDeviceAddress(const BufferId id)</div><div class="ttdoc">Get buffer device address.</div><div class="ttdef"><b>Definition</b> vkbuffer.cc:548</div></div>
-<div class="ttc" id="anamespace_ids_html_aa0d7db4adc4f444ebea663b861bfcd1c"><div class="ttname"><a href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a></div><div class="ttdeci">uint32_t Id32</div><div class="ttdef"><b>Definition</b> id.h:138</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_typedef" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> <span class="keywordtype">id</span> = materialLoaderState.x##s.Alloc();\</div>
+<div class="line">    if (materialLoaderState.bindings.x##s != materialLoaderState.x##s.deviceAddress)\</div>
+<div class="line">    {\</div>
+<div class="line">        materialLoaderState.bindings.x##s = materialLoaderState.x##s.deviceAddress;\</div>
+<div class="line">        materialLoaderState.dirtySet.bits = 0x3;\</div>
+<div class="line">    }\</div>
+<div class="line">    MaterialInterfaces::x&amp; material = materialLoaderState.x##s.Get(<span class="keywordtype">id</span>);\</div>
+<div class="line">    materialLoaderState.x##s.dirty = <span class="keyword">true</span>;\</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -234,7 +269,7 @@ Variables</h2></td></tr>
 <div class="line">X(BlendAddMaterial) \</div>
 <div class="line">X(SkyboxMaterial) \</div>
 <div class="line">X(TerrainMaterial) \</div>
-<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:153</div></div>
+<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:121</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -292,11 +327,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">            <span class="keywordflow">if</span> (state.x##s.hostBuffer != CoreGraphics::InvalidBufferId) \</div>
-<div class="line">            { \</div>
-<div class="line">                hostBuffers.Append({.buf = state.x##s.hostBuffer});\</div>
-<div class="line">                deviceBuffers.Append({.buf = state.x##s.deviceBuffer});\</div>
-<div class="line">            }</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (materialLoaderState.x##s.dirty)\</div>
+<div class="line">    {\</div>
+<div class="line">        if (materialLoaderState.x##s.hostBuffer != CoreGraphics::InvalidBufferId) \</div>
+<div class="line">        { \</div>
+<div class="line">            hostBuffers.Append({.buf = materialLoaderState.x##s.hostBuffer});\</div>
+<div class="line">            deviceBuffers.Append({.buf = materialLoaderState.x##s.deviceBuffer});\</div>
+<div class="line">        }\</div>
+<div class="line">        anyDirty = <span class="keyword">true</span>;\</div>
+<div class="line">    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -314,7 +353,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        state.x##s.Flush(<span class="keywordtype">id</span>, queue);</div>
+<b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">if</span> (materialLoaderState.x##s.dirty)\</div>
+<div class="line">        {\</div>
+<div class="line">            materialLoaderState.x##s.Flush(cmdBuf, queue);\</div>
+<div class="line">            materialLoaderState.x##s.dirty = <span class="keyword">false</span>;\</div>
+<div class="line">        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -333,8 +376,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">case</span> MaterialTemplates::MaterialProperties::x:\</div>
-<div class="line">    <span class="keywordflow">return</span> state.x##<a class="code hl_namespace" href="namespace_materials.html">Materials</a>.deviceBuffer;\</div>
-<div class="ttc" id="anamespace_materials_html"><div class="ttname"><a href="namespace_materials.html">Materials</a></div><div class="ttdoc">Material special version of variant.</div><div class="ttdef"><b>Definition</b> material.cc:11</div></div>
+<div class="line">    <span class="keywordflow">return</span> materialLoaderState.x##<a class="code hl_namespace" href="namespace_materials.html">Materials</a>.deviceBuffer;\</div>
+<div class="ttc" id="anamespace_materials_html"><div class="ttname"><a href="namespace_materials.html">Materials</a></div><div class="ttdoc">Material special version of variant.</div><div class="ttdef"><b>Definition</b> material.cc:12</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -345,7 +388,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="materialloader_8cc.html">materialloader.cc</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

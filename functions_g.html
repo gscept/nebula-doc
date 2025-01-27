@@ -121,14 +121,14 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>GenerateDrawLists()&#160;:&#160;<a class="el" href="class_visibility_1_1_observer_context.html#a885b4c076f49895bd94bef3264950655">Visibility::ObserverContext</a></li>
 <li>GenerateStackTrace()&#160;:&#160;<a class="el" href="class_win32_1_1_win32_stack_trace.html#a9c4d2f2d2960454ec93ac456b7fd9520">Win32::Win32StackTrace</a></li>
 <li>generation&#160;:&#160;<a class="el" href="struct_game_1_1_entity.html#aa4b0892f050a9d21020bd80657318178">Game::Entity</a></li>
-<li>generations&#160;:&#160;<a class="el" href="class_game_1_1_entity_pool.html#a6f015f327fcdcafcb0f950d030eaadff">Game::EntityPool</a>, <a class="el" href="class_ids_1_1_id_generation_pool.html#aa5585b67f66ab1befeb2cab4f930ef60">Ids::IdGenerationPool</a></li>
+<li>generations&#160;:&#160;<a class="el" href="class_game_1_1_entity_pool.html#a6f015f327fcdcafcb0f950d030eaadff">Game::EntityPool</a>, <a class="el" href="class_ids_1_1_id_allocator_safe.html#a418800523c6d97e3c7a05542535cedec">Ids::IdAllocatorSafe&lt; MAX_ALLOCS, TYPES &gt;</a>, <a class="el" href="class_ids_1_1_id_generation_pool.html#aa5585b67f66ab1befeb2cab4f930ef60">Ids::IdGenerationPool</a></li>
 <li>GenericDecalAllocator&#160;:&#160;<a class="el" href="class_decals_1_1_decal_context.html#a8e314fc7de3acaf1ef73e7fb3b46ff2b">Decals::DecalContext</a></li>
 <li>genericDecalAllocator&#160;:&#160;<a class="el" href="class_decals_1_1_decal_context.html#ab38d3073da57bac5bcf0425bfa322849">Decals::DecalContext</a></li>
 <li>GenericLightAllocator&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#abc9c85ff70e2aa10e5a27c522f604266">Lighting::LightContext</a></li>
 <li>genericLightAllocator&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#aa8d978cd16a210c4980c38370c8fdf61">Lighting::LightContext</a></li>
 <li>geo&#160;:&#160;<a class="el" href="struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73">Vulkan::SceneSetup</a></li>
-<li>geometries&#160;:&#160;<a class="el" href="struct_vulkan_1_1_geometry_setup.html#aa0260055b7324459f0995afa4e4995b5">Vulkan::GeometrySetup</a></li>
 <li>Geometry&#160;:&#160;<a class="el" href="class_frame_1_1_frame_batch_type.html#a56e994192b9111c140e30a94285bebb3a879a990a459dd05921bcd27420169d50">Frame::FrameBatchType</a></li>
+<li>geometry&#160;:&#160;<a class="el" href="struct_vulkan_1_1_geometry_setup.html#a125efde12369cd02a257fbc89e0b62b9">Vulkan::GeometrySetup</a></li>
 <li>geometryId&#160;:&#160;<a class="el" href="class_static_u_i_1_1_ultralight_renderer.html#a4eafa7906a2c4b577d91f024101873cf">StaticUI::UltralightRenderer</a></li>
 <li>geometryInfo&#160;:&#160;<a class="el" href="struct_vulkan_1_1_instance_setup.html#a439f8b70a7166d6ab11edc2bcab044a4">Vulkan::InstanceSetup</a>, <a class="el" href="struct_vulkan_1_1_scene_setup.html#a6bf2da585463ec3e18a8b8bd3dec67ae">Vulkan::SceneSetup</a></li>
 <li>geometryMap&#160;:&#160;<a class="el" href="class_static_u_i_1_1_ultralight_renderer.html#ae2599a7f63a62be67a859c8d3fcfd339">StaticUI::UltralightRenderer</a></li>
@@ -482,8 +482,10 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getLayerCount()&#160;:&#160;<a class="el" href="struct_im3d_1_1_context.html#aeb16f59dc7a51720983b6add2e5e9caf">Im3d::Context</a></li>
 <li>getLayerId()&#160;:&#160;<a class="el" href="struct_im3d_1_1_context.html#a593d69524762434126ae3c14ad22f4c2">Im3d::Context</a></li>
 <li>GetLayout()&#160;:&#160;<a class="el" href="class_core_graphics_1_1_mesh_loader.html#a6a84213e064ead84b2396a5ddb6039e6">CoreGraphics::MeshLoader</a></li>
+<li>GetLightGridResourceTable()&#160;:&#160;<a class="el" href="class_raytracing_1_1_raytracing_context.html#af375ee5e9927bbd841a7994844f5d1c9">Raytracing::RaytracingContext</a></li>
 <li>GetLightIndexBuffer()&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#a1d3bf6471252db355eaf2ee9d014d330">Lighting::LightContext</a></li>
 <li>GetLightsBuffer()&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#a44d7a78a1ef423e1eb238d28750e0317">Lighting::LightContext</a></li>
+<li>GetLightUniforms()&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#a26b0c5b6383c8f11b3879c1f520fe716">Lighting::LightContext</a></li>
 <li>GetLimits()&#160;:&#160;<a class="el" href="class_particles_1_1_envelope_curve.html#a56baf4452a81adfac7e37e9df81f8c97">Particles::EnvelopeCurve</a></li>
 <li>GetLinearVelocity()&#160;:&#160;<a class="el" href="class_physics_1_1_actor_context.html#a4e63d566b59c2e55cb8c472eaf2ddd49">Physics::ActorContext</a></li>
 <li>GetLineThickness()&#160;:&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#a668d96e4ca349561756a8c5b7db930bf">CoreGraphics::RenderShape</a></li>
@@ -588,6 +590,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>GetNumUsed()&#160;:&#160;<a class="el" href="class_ids_1_1_id_pool.html#a785e811e93d3ba1ad0c3cabf55ba92b3">Ids::IdPool</a></li>
 <li>GetNumVertices()&#160;:&#160;<a class="el" href="class_core_graphics_1_1_nvx3_stream_reader.html#ad9dda271303db11a64f991537f95be44">CoreGraphics::Nvx3StreamReader</a>, <a class="el" href="class_core_graphics_1_1_primitive_group.html#a7f7e0f03aa05d946e284c8ad0c065272">CoreGraphics::PrimitiveGroup</a>, <a class="el" href="class_core_graphics_1_1_render_shape.html#a6d0632d0cd2692f1ffe81c524dd82568">CoreGraphics::RenderShape</a></li>
 <li>GetObject()&#160;:&#160;<a class="el" href="class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a3beb215ffbf7eba1c15e7a1e8255d77e">Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;</a>, <a class="el" href="class_util_1_1_variant.html#a87f034a5e3036a30ebf0f5150191d0da">Util::Variant</a></li>
+<li>GetObjectBindingBuffer()&#160;:&#160;<a class="el" href="class_raytracing_1_1_raytracing_context.html#a391115af262fab96f7919cb62e4def68">Raytracing::RaytracingContext</a></li>
 <li>GetObserverTransform()&#160;:&#160;<a class="el" href="class_lighting_1_1_light_context.html#a9f4c125972f482cdf8d837373f27bd20">Lighting::LightContext</a></li>
 <li>getoffset()&#160;:&#160;<a class="el" href="class_math_1_1transform44.html#accdc55561f28e86ebd0ddc7f281d854e">Math::transform44</a></li>
 <li>GetOp()&#160;:&#160;<a class="el" href="class_frame_1_1_frame_script.html#a537d9fbcc9808fce7aa9c49f0a6df7eb">Frame::FrameScript</a></li>
@@ -651,6 +654,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getR()&#160;:&#160;<a class="el" href="struct_im3d_1_1_color.html#a36760fb4c59cbd4749bbfdef6951aa0c">Im3d::Color</a></li>
 <li>GetRawBuffer()&#160;:&#160;<a class="el" href="class_net_1_1_debug_packet.html#a0fce04093ed36b9826d3608713ba5642">Net::DebugPacket</a></li>
 <li>GetRawPointer()&#160;:&#160;<a class="el" href="class_i_o_1_1_cached_stream.html#a7bcd70eec9b9fc40af6c5abd492e116b">IO::CachedStream</a>, <a class="el" href="class_i_o_1_1_memory_stream.html#afc801e20410529fd16ea9bce74041c7f">IO::MemoryStream</a></li>
+<li>GetRaytracingTable()&#160;:&#160;<a class="el" href="class_raytracing_1_1_raytracing_context.html#a7460a7dcdeb20064811874b167626f71">Raytracing::RaytracingContext</a></li>
 <li>GetReadWriteColumnIndices()&#160;:&#160;<a class="el" href="class_attr_1_1_attribute_table.html#a450a0158a7ec2b4d1e77f5810cee1a79">Attr::AttributeTable</a></li>
 <li>GetRecvBufSize()&#160;:&#160;<a class="el" href="class_posix_1_1_posix_socket.html#accd4125ae774fb093bff177365f4dbf1">Posix::PosixSocket</a>, <a class="el" href="class_win32_1_1_win32_socket.html#ab3d500892d1be229a94a1884a96dbedf">Win32::Win32Socket</a></li>
 <li>GetRecvStream()&#160;:&#160;<a class="el" href="class_net_1_1_message_client.html#a434e55736b699e5590f42d76985849b5">Net::MessageClient</a>, <a class="el" href="class_net_1_1_message_client_connection.html#a35e3c5edb98768417cb9c63fbc568ff4">Net::MessageClientConnection</a>, <a class="el" href="class_net_1_1_std_tcp_client.html#aad703c8561002c68467e2574fc4a6f11">Net::StdTcpClient</a>, <a class="el" href="class_net_1_1_std_tcp_client_connection.html#a57774bbfee998374702aad8ac6da3918">Net::StdTcpClientConnection</a></li>
@@ -773,6 +777,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>GetTiny()&#160;:&#160;<a class="el" href="struct_ids_1_1_id.html#a00589f8af899faf2a23db2b02b492828">Ids::Id</a></li>
 <li>GetTitle()&#160;:&#160;<a class="el" href="class_base_1_1_game_content_server_base.html#a76076a7d919002fa6ec18b2deeb6c706">Base::GameContentServerBase</a></li>
 <li>GetTitleId()&#160;:&#160;<a class="el" href="class_base_1_1_game_content_server_base.html#ae4a02125b9147ffee3f0906bb7ca67ab">Base::GameContentServerBase</a></li>
+<li>GetTLAS()&#160;:&#160;<a class="el" href="class_raytracing_1_1_raytracing_context.html#a8037ca8b220a81fedea03ec014ce10be">Raytracing::RaytracingContext</a></li>
 <li>GetToByteOrder()&#160;:&#160;<a class="el" href="class_system_1_1_byte_order.html#a2efa96e59b8cf08c95797b287b8cd3b8">System::ByteOrder</a></li>
 <li>GetToolDirectory()&#160;:&#160;<a class="el" href="class_core_1_1_core_server.html#a52ccfc362c819b00909014d73f5227b2">Core::CoreServer</a></li>
 <li>GetTopology()&#160;:&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#aa635027debab677af8c54dc1d7daeec4">CoreGraphics::RenderShape</a></li>
@@ -899,7 +904,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>GreaterEqualFrag&#160;:&#160;<a class="el" href="class_db_1_1_sqlite3_filter_set.html#a9839d460f760497c88c8bbb4e6f2016d">Db::Sqlite3FilterSet</a></li>
 <li>GreaterFrag&#160;:&#160;<a class="el" href="class_db_1_1_sqlite3_filter_set.html#aa1daaa21245c8329856701909442b3c1">Db::Sqlite3FilterSet</a></li>
 <li>Green&#160;:&#160;<a class="el" href="struct_mathf_1_1_color.html#a13774b1b7e9f092149b4f03c2d444961">Mathf.Color</a>, <a class="el" href="class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9a40c9845ace18e03b2ae9885d44fc9ebf">Particles::EmitterAttrs</a></li>
-<li>green&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_texture_swizzle.html#af51e3b47f02d8267dc1522f804fbf277">CoreGraphics::TextureSwizzle</a></li>
+<li>green&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_texture_swizzle.html#af51e3b47f02d8267dc1522f804fbf277">CoreGraphics::TextureSwizzle</a>, <a class="el" href="struct_dynui_1_1_imgui_texture_id.html#a140c6d2013fd9a52cc500ff3ff4363a6">Dynui::ImguiTextureId</a></li>
 <li>greenOffset&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_image_load_info.html#af8b2cbf81382267960e0d5bae7e0342e">CoreGraphics::ImageLoadInfo</a></li>
 <li>GreenYellow&#160;:&#160;<a class="el" href="struct_mathf_1_1_color.html#a15134eb792be0ffb658c2906433e0aa6">Mathf.Color</a></li>
 <li>gridColor&#160;:&#160;<a class="el" href="struct_im3d_1_1_im3d_state.html#abcc00d22667d89d220e60873d8b61aab">Im3d::Im3dState</a></li>
@@ -911,7 +916,6 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>groupDataPtr&#160;:&#160;<a class="el" href="class_core_graphics_1_1_nvx3_stream_reader.html#abdde9d12a33d46f11f355daa4acd7d0c">CoreGraphics::Nvx3StreamReader</a></li>
 <li>groupDataSize&#160;:&#160;<a class="el" href="class_core_graphics_1_1_nvx3_stream_reader.html#a38c3af12d7b6bcef790d85d68138c89f">CoreGraphics::Nvx3StreamReader</a></li>
 <li>groupIndex&#160;:&#160;<a class="el" href="class_core_graphics_1_1_render_shape.html#a412bc9a3c6d45a63260828de7c38ec5c">CoreGraphics::RenderShape</a></li>
-<li>groups&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_nvx3_elements.html#a44ccb84e886e06040d9829a78acd3421">CoreGraphics::Nvx3Elements</a></li>
 <li>groupSize&#160;:&#160;<a class="el" href="struct_jobs2_1_1_job_context.html#a4f1c28ec6fda3ccdb0f29f1ee296ec87">Jobs2::JobContext</a></li>
 <li>Grow()&#160;:&#160;<a class="el" href="class_util_1_1_array.html#a94e5c60a35108f52970bfcfbd30df5ff">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</a>, <a class="el" href="class_util_1_1_array_stack.html#abc1aeccad29a8cdaa18e38e64a20d48b">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>, <a class="el" href="class_util_1_1_pinned_array.html#a8c7677846779ab2b0f04ead8310f8802">Util::PinnedArray&lt; MAX_ALLOCS, TYPE &gt;</a>, <a class="el" href="class_util_1_1_queue.html#a5e5547ee34c23cc5dcfe7e3859db8dd5">Util::Queue&lt; TYPE &gt;</a></li>
 <li>grow&#160;:&#160;<a class="el" href="class_ids_1_1_id_pool.html#aafbcfe93fd34624febc65fa1a03bceb0">Ids::IdPool</a>, <a class="el" href="class_util_1_1_array.html#a5f49560321b88327e23c097fcc6a262d">Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;</a>, <a class="el" href="class_util_1_1_array_stack.html#a4f3e359e9537f9f7c3b8d12617bdcc9e">Util::ArrayStack&lt; TYPE, STACK_SIZE &gt;</a>, <a class="el" href="class_util_1_1_queue.html#aaea5763e46eb2252c52c3e1bfd41ced5">Util::Queue&lt; TYPE &gt;</a></li>
@@ -935,7 +939,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:59 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

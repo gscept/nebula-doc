@@ -464,7 +464,8 @@ var annotated_dup =
       [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
     ] ],
     [ "GI", "namespace_g_i.html", [
-      [ "DDGIContext", "class_g_i_1_1_d_d_g_i_context.html", "class_g_i_1_1_d_d_g_i_context" ]
+      [ "DDGIContext", "class_g_i_1_1_d_d_g_i_context.html", "class_g_i_1_1_d_d_g_i_context" ],
+      [ "DDGIOptions", "union_g_i_1_1_d_d_g_i_options.html", "union_g_i_1_1_d_d_g_i_options" ]
     ] ],
     [ "GLFW", "namespace_g_l_f_w.html", [
       [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],

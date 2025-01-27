@@ -157,6 +157,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f22ad619c51bf99d8b55f3712aa7495" id="r_a6f22ad619c51bf99d8b55f3712aa7495"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f22ad619c51bf99d8b55f3712aa7495">UpdateViewResources</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a6f22ad619c51bf99d8b55f3712aa7495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update view constants.  <br /></td></tr>
 <tr class="separator:a6f22ad619c51bf99d8b55f3712aa7495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af375ee5e9927bbd841a7994844f5d1c9" id="r_af375ee5e9927bbd841a7994844f5d1c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af375ee5e9927bbd841a7994844f5d1c9">GetLightGridResourceTable</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
+<tr class="memdesc:af375ee5e9927bbd841a7994844f5d1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get light grid resources.  <br /></td></tr>
+<tr class="separator:af375ee5e9927bbd841a7994844f5d1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8037ca8b220a81fedea03ec014ce10be" id="r_a8037ca8b220a81fedea03ec014ce10be"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8037ca8b220a81fedea03ec014ce10be">GetTLAS</a> ()</td></tr>
+<tr class="memdesc:a8037ca8b220a81fedea03ec014ce10be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get TLAS.  <br /></td></tr>
+<tr class="separator:a8037ca8b220a81fedea03ec014ce10be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a391115af262fab96f7919cb62e4def68" id="r_a391115af262fab96f7919cb62e4def68"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a391115af262fab96f7919cb62e4def68">GetObjectBindingBuffer</a> ()</td></tr>
+<tr class="memdesc:a391115af262fab96f7919cb62e4def68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get object binding buffer.  <br /></td></tr>
+<tr class="separator:a391115af262fab96f7919cb62e4def68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7460a7dcdeb20064811874b167626f71" id="r_a7460a7dcdeb20064811874b167626f71"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7460a7dcdeb20064811874b167626f71">GetRaytracingTable</a> (const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
+<tr class="memdesc:a7460a7dcdeb20064811874b167626f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get raytracing table.  <br /></td></tr>
+<tr class="separator:a7460a7dcdeb20064811874b167626f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68fe8aae66090993bd2ab018ec0fec7f" id="r_a68fe8aae66090993bd2ab018ec0fec7f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68fe8aae66090993bd2ab018ec0fec7f">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:a68fe8aae66090993bd2ab018ec0fec7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug rendering  <br /></td></tr>
 <tr class="separator:a68fe8aae66090993bd2ab018ec0fec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -422,6 +434,114 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af375ee5e9927bbd841a7994844f5d1c9" name="af375ee5e9927bbd841a7994844f5d1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af375ee5e9927bbd841a7994844f5d1c9">&#9670;&#160;</a></span>GetLightGridResourceTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> Raytracing::RaytracingContext::GetLightGridResourceTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get light grid resources. </p>
+
+</div>
+</div>
+<a id="a391115af262fab96f7919cb62e4def68" name="a391115af262fab96f7919cb62e4def68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a391115af262fab96f7919cb62e4def68">&#9670;&#160;</a></span>GetObjectBindingBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> Raytracing::RaytracingContext::GetObjectBindingBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get object binding buffer. </p>
+
+</div>
+</div>
+<a id="a7460a7dcdeb20064811874b167626f71" name="a7460a7dcdeb20064811874b167626f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7460a7dcdeb20064811874b167626f71">&#9670;&#160;</a></span>GetRaytracingTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> Raytracing::RaytracingContext::GetRaytracingTable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get raytracing table. </p>
+
+</div>
+</div>
+<a id="a8037ca8b220a81fedea03ec014ce10be" name="a8037ca8b220a81fedea03ec014ce10be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8037ca8b220a81fedea03ec014ce10be">&#9670;&#160;</a></span>GetTLAS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a> Raytracing::RaytracingContext::GetTLAS </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get TLAS. </p>
 
 </div>
 </div>
@@ -747,7 +867,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_raytracing.html">Raytracing</a></li><li class="navelem"><a class="el" href="class_raytracing_1_1_raytracing_context.html">RaytracingContext</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:57 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

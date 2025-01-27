@@ -21,7 +21,7 @@ var render_2coregraphics_2config_8h =
     [ "NEBULA_MARKER_WHITE", "render_2coregraphics_2config_8h.html#a7657a7d4546084dee1ebc0ab82a53294", null ],
     [ "NEBULA_WHOLE_BUFFER_SIZE", "render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0", null ],
     [ "SHADER_POSTEFFECT_DEFAULT_FEATURE_MASK", "render_2coregraphics_2config_8h.html#ae6a21d034256aaf05dba72da8162e2fe", null ],
-    [ "CoreGraphics::ConstantBufferOffset", "namespace_core_graphics.html#a7c6181f333ec8bbadc23a8a3e236ba96", null ],
+    [ "CoreGraphics::ConstantBufferOffset", "namespace_core_graphics.html#a97bc0aa0ce135d5dac7f465c83022c2e", null ],
     [ "CoreGraphics::BarrierDomain", "namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826", [
       [ "CoreGraphics::BarrierDomain::Global", "namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826a4cc6684df7b4a92b1dec6fce3264fac8", null ],
       [ "CoreGraphics::BarrierDomain::Pass", "namespace_core_graphics.html#ae711b5fe9f98259c9a86e455b15a7826ab9b57aae83585e17ede4570dcede353c", null ]

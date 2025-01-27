@@ -6,7 +6,7 @@ var globalconstants_8h =
     [ "Graphics::DestroyGlobalConstants", "namespace_graphics.html#abfaaf601521367e20816530a221653ed", null ],
     [ "Graphics::FlushUpdates", "namespace_graphics.html#ad1770ae0ad7fcee7974da629b13ed4e6", null ],
     [ "Graphics::GetFrameResourceTable", "namespace_graphics.html#a5e961733b7439059ef620415bde505f4", null ],
-    [ "Graphics::GetOffsets", "namespace_graphics.html#aacf4b6277d3c73f18faf94c213db7597", null ],
+    [ "Graphics::GetOffsets", "namespace_graphics.html#a2fa9c9a72f99576c8337114054620aa1", null ],
     [ "Graphics::GetShadowViewConstants", "namespace_graphics.html#a94f879a633507b284186bb98f37d418d", null ],
     [ "Graphics::GetTickParams", "namespace_graphics.html#aaa2d30ac74b50c3ff246fdb45fc5d9de", null ],
     [ "Graphics::GetTickResourceTable", "namespace_graphics.html#ac94f213ba6c168901d7a14df67e142f2", null ],

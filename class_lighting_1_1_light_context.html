@@ -158,9 +158,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f404c39766905f5a475619109b23dd4" id="r_a5f404c39766905f5a475619109b23dd4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f404c39766905f5a475619109b23dd4">Discard</a> ()</td></tr>
 <tr class="memdesc:a5f404c39766905f5a475619109b23dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard light context  <br /></td></tr>
 <tr class="separator:a5f404c39766905f5a475619109b23dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45e8ac7a4a0dfed24d8b559c2dc9f25e" id="r_a45e8ac7a4a0dfed24d8b559c2dc9f25e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e8ac7a4a0dfed24d8b559c2dc9f25e">SetupGlobalLight</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;color, const float intensity, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;ambient, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;backlight, const float backlightFactor, const float zenith, const float azimuth, bool castShadows=false)</td></tr>
-<tr class="memdesc:a45e8ac7a4a0dfed24d8b559c2dc9f25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup entity as global light  <br /></td></tr>
-<tr class="separator:a45e8ac7a4a0dfed24d8b559c2dc9f25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a095d1805e6256d4d913bf17f2c63b8a7" id="r_a095d1805e6256d4d913bf17f2c63b8a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a095d1805e6256d4d913bf17f2c63b8a7">SetupGlobalLight</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;color, const float intensity, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;ambient, const float zenith, const float azimuth, bool castShadows=false)</td></tr>
+<tr class="memdesc:a095d1805e6256d4d913bf17f2c63b8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup entity as global light  <br /></td></tr>
+<tr class="separator:a095d1805e6256d4d913bf17f2c63b8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e445530d62f37813a43c663ca7e7e62" id="r_a2e445530d62f37813a43c663ca7e7e62"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e445530d62f37813a43c663ca7e7e62">SetupPointLight</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;color, const float intensity, const float range, bool castShadows=false, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> projection=CoreGraphics::InvalidTextureId)</td></tr>
 <tr class="memdesc:a2e445530d62f37813a43c663ca7e7e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup entity as point light source.  <br /></td></tr>
 <tr class="separator:a2e445530d62f37813a43c663ca7e7e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,6 +247,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a44d7a78a1ef423e1eb238d28750e0317" id="r_a44d7a78a1ef423e1eb238d28750e0317"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44d7a78a1ef423e1eb238d28750e0317">GetLightsBuffer</a> ()</td></tr>
 <tr class="memdesc:a44d7a78a1ef423e1eb238d28750e0317"><td class="mdescLeft">&#160;</td><td class="mdescRight">get light lists buffer  <br /></td></tr>
 <tr class="separator:a44d7a78a1ef423e1eb238d28750e0317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b0c5b6383c8f11b3879c1f520fe716" id="r_a26b0c5b6383c8f11b3879c1f520fe716"><td class="memItemLeft" align="right" valign="top">static const LightsCluster::LightUniforms &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26b0c5b6383c8f11b3879c1f520fe716">GetLightUniforms</a> ()</td></tr>
+<tr class="memdesc:a26b0c5b6383c8f11b3879c1f520fe716"><td class="mdescLeft">&#160;</td><td class="mdescRight">get light uniforms  <br /></td></tr>
+<tr class="separator:a26b0c5b6383c8f11b3879c1f520fe716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -300,13 +303,11 @@ Private Types</h2></td></tr>
 <tr class="separator:af34b58667b66d0e633d0c3f4ac89d965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23fd9e01871d3865df1d922915b6bc8f" id="r_a23fd9e01871d3865df1d922915b6bc8f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa249a2385282548af5386357ed0b8dae6">DirectionalLight_Direction</a>
-, <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa8902760f506a586c7a791b1c52b6402c">DirectionalLight_Backlight</a>
-, <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fabdbc773f0883914359f2f75da01667c7">DirectionalLight_BacklightOffset</a>
 , <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa1ddd0575b18583748242d1fe1edc2f11">DirectionalLight_Ambient</a>
-, <br />
-&#160;&#160;<a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa786d684adcd52b9ab7910c3799850d6c">DirectionalLight_Transform</a>
+, <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa786d684adcd52b9ab7910c3799850d6c">DirectionalLight_Transform</a>
 , <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa15bf9883b63eff5f84c6510200730421">DirectionalLight_ViewProjTransform</a>
-, <a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa2e00d9417f68178b5e68dcf262ae32de">DirectionalLight_CascadeObservers</a>
+, <br />
+&#160;&#160;<a class="el" href="#a23fd9e01871d3865df1d922915b6bc8fa2e00d9417f68178b5e68dcf262ae32de">DirectionalLight_CascadeObservers</a>
 <br />
  }</td></tr>
 <tr class="separator:a23fd9e01871d3865df1d922915b6bc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,8 +322,8 @@ Private Types</h2></td></tr>
 <tr class="separator:a938e58d0e8d8bef6fbbda7761c91edf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a288e224bb91b290a15958727e5b622ba" id="r_a288e224bb91b290a15958727e5b622ba"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1transform44.html">Math::transform44</a>, <a class="el" href="#a89ba4e0e100389f0bd12352823d527c8">AreaLightShape</a>, <a class="el" href="struct_lighting_1_1_light_context_1_1_constant_buffer_set.html">ConstantBufferSet</a>, <a class="el" href="struct_lighting_1_1_light_context_1_1_constant_buffer_set.html">ConstantBufferSet</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt;, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a288e224bb91b290a15958727e5b622ba">AreaLightAllocator</a></td></tr>
 <tr class="separator:a288e224bb91b290a15958727e5b622ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad275440e68767fb5977b1db0cfbf6462" id="r_ad275440e68767fb5977b1db0cfbf6462"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, float, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad275440e68767fb5977b1db0cfbf6462">DirectionalLightAllocator</a></td></tr>
-<tr class="separator:ad275440e68767fb5977b1db0cfbf6462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169e5086a55f8633043ef490ac9f1195" id="r_a169e5086a55f8633043ef490ac9f1195"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169e5086a55f8633043ef490ac9f1195">DirectionalLightAllocator</a></td></tr>
+<tr class="separator:a169e5086a55f8633043ef490ac9f1195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76e0ad71d9ab6daa1a552c4cf03e058" id="r_ab76e0ad71d9ab6daa1a552c4cf03e058"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76e0ad71d9ab6daa1a552c4cf03e058">ShadowCasterAllocator</a></td></tr>
 <tr class="separator:ab76e0ad71d9ab6daa1a552c4cf03e058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -356,7 +357,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aa4d876c84373caf775fc261c31ab41e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b4ef29aae032f15073bd7ba9b4f80fd" id="r_a6b4ef29aae032f15073bd7ba9b4f80fd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a288e224bb91b290a15958727e5b622ba">AreaLightAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b4ef29aae032f15073bd7ba9b4f80fd">areaLightAllocator</a></td></tr>
 <tr class="separator:a6b4ef29aae032f15073bd7ba9b4f80fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f9bd8604eb44a0ab7ff921c8ea8d2e" id="r_a82f9bd8604eb44a0ab7ff921c8ea8d2e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ad275440e68767fb5977b1db0cfbf6462">DirectionalLightAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82f9bd8604eb44a0ab7ff921c8ea8d2e">directionalLightAllocator</a></td></tr>
+<tr class="memitem:a82f9bd8604eb44a0ab7ff921c8ea8d2e" id="r_a82f9bd8604eb44a0ab7ff921c8ea8d2e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a169e5086a55f8633043ef490ac9f1195">DirectionalLightAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82f9bd8604eb44a0ab7ff921c8ea8d2e">directionalLightAllocator</a></td></tr>
 <tr class="separator:a82f9bd8604eb44a0ab7ff921c8ea8d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad66bd2275c20bed3161ce283bcb528" id="r_a1ad66bd2275c20bed3161ce283bcb528"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ab76e0ad71d9ab6daa1a552c4cf03e058">ShadowCasterAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad66bd2275c20bed3161ce283bcb528">shadowCasterAllocator</a></td></tr>
 <tr class="separator:a1ad66bd2275c20bed3161ce283bcb528"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -397,8 +398,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad275440e68767fb5977b1db0cfbf6462" name="ad275440e68767fb5977b1db0cfbf6462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad275440e68767fb5977b1db0cfbf6462">&#9670;&#160;</a></span>DirectionalLightAllocator</h2>
+<a id="a169e5086a55f8633043ef490ac9f1195" name="a169e5086a55f8633043ef490ac9f1195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169e5086a55f8633043ef490ac9f1195">&#9670;&#160;</a></span>DirectionalLightAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, float, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&gt; &gt; <a class="el" href="#ad275440e68767fb5977b1db0cfbf6462">Lighting::LightContext::DirectionalLightAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1vector.html">Math::vector</a>, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&gt; &gt; <a class="el" href="#a169e5086a55f8633043ef490ac9f1195">Lighting::LightContext::DirectionalLightAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -561,8 +562,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fa249a2385282548af5386357ed0b8dae6" name="a23fd9e01871d3865df1d922915b6bc8fa249a2385282548af5386357ed0b8dae6"></a>DirectionalLight_Direction&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fa8902760f506a586c7a791b1c52b6402c" name="a23fd9e01871d3865df1d922915b6bc8fa8902760f506a586c7a791b1c52b6402c"></a>DirectionalLight_Backlight&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fabdbc773f0883914359f2f75da01667c7" name="a23fd9e01871d3865df1d922915b6bc8fabdbc773f0883914359f2f75da01667c7"></a>DirectionalLight_BacklightOffset&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fa1ddd0575b18583748242d1fe1edc2f11" name="a23fd9e01871d3865df1d922915b6bc8fa1ddd0575b18583748242d1fe1edc2f11"></a>DirectionalLight_Ambient&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fa786d684adcd52b9ab7910c3799850d6c" name="a23fd9e01871d3865df1d922915b6bc8fa786d684adcd52b9ab7910c3799850d6c"></a>DirectionalLight_Transform&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a23fd9e01871d3865df1d922915b6bc8fa15bf9883b63eff5f84c6510200730421" name="a23fd9e01871d3865df1d922915b6bc8fa15bf9883b63eff5f84c6510200730421"></a>DirectionalLight_ViewProjTransform&#160;</td><td class="fielddoc"></td></tr>
@@ -1086,6 +1085,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get light lists buffer </p>
+
+</div>
+</div>
+<a id="a26b0c5b6383c8f11b3879c1f520fe716" name="a26b0c5b6383c8f11b3879c1f520fe716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b0c5b6383c8f11b3879c1f520fe716">&#9670;&#160;</a></span>GetLightUniforms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const LightsCluster::LightUniforms &amp; Lighting::LightContext::GetLightUniforms </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get light uniforms </p>
 
 </div>
 </div>
@@ -1751,8 +1777,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a45e8ac7a4a0dfed24d8b559c2dc9f25e" name="a45e8ac7a4a0dfed24d8b559c2dc9f25e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45e8ac7a4a0dfed24d8b559c2dc9f25e">&#9670;&#160;</a></span>SetupGlobalLight()</h2>
+<a id="a095d1805e6256d4d913bf17f2c63b8a7" name="a095d1805e6256d4d913bf17f2c63b8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a095d1805e6256d4d913bf17f2c63b8a7">&#9670;&#160;</a></span>SetupGlobalLight()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1779,16 +1805,6 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ambient</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>backlight</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>backlightFactor</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2060,7 +2076,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad275440e68767fb5977b1db0cfbf6462">LightContext::DirectionalLightAllocator</a> Lighting::LightContext::directionalLightAllocator</td>
+          <td class="memname"><a class="el" href="#a169e5086a55f8633043ef490ac9f1195">LightContext::DirectionalLightAllocator</a> Lighting::LightContext::directionalLightAllocator</td>
         </tr>
       </table>
   </td>
@@ -2193,7 +2209,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_lighting.html">Lighting</a></li><li class="navelem"><a class="el" href="class_lighting_1_1_light_context.html">LightContext</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

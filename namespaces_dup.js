@@ -76,6 +76,11 @@ var namespaces_dup =
     [ "Nebula", "namespace_nebula.html", "namespace_nebula" ],
     [ "NebulaEngine", "namespace_nebula_engine.html", "namespace_nebula_engine" ],
     [ "Net", "namespace_net.html", "namespace_net" ],
+    [ "Options", "namespace_options.html", [
+      [ "InitOptions", "namespace_options.html#afd486daee66f02aa5b18c33c29ed6274", null ],
+      [ "LevelSettings", "namespace_options.html#abd5bd0150d6b6a97b2a357a585f48670", null ],
+      [ "ProjectSettings", "namespace_options.html#a0c36b31a21f4500813471a2d61eadfaf", null ]
+    ] ],
     [ "OSX", "namespace_o_s_x.html", "namespace_o_s_x" ],
     [ "Particles", "namespace_particles.html", "namespace_particles" ],
     [ "Physics", "namespace_physics.html", "namespace_physics" ],

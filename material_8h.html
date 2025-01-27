@@ -147,6 +147,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ad7a6e28085a3dd447558c38d9bc4cf54" id="r_ad7a6e28085a3dd447558c38d9bc4cf54"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54">Materials::BindlessBufferDirtyBits</a> { <a class="el" href="namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a13a9172112a256bd4a2fe9c304666fb0">Materials::Graphics</a> = 0x1
+, <a class="el" href="namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a75531aab5d4eee18d89e4a697b8e368d">Materials::Compute</a> = 0x2
+, <a class="el" href="namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54acdf5b7a4dc3e159f2922593dd48ba361">Materials::All</a> = Graphics | Compute
+ }</td></tr>
+<tr class="separator:ad7a6e28085a3dd447558c38d9bc4cf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a792ab47893a5cb0a53a6bd92906a68aa" id="r_a792ab47893a5cb0a53a6bd92906a68aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<a class="el" href="namespace_materials.html#a792ab47893a5cb0a53a6bd92906a68aaa19f158ac3f001604c6d926b9eba851e1">Materials::Material_MinLOD</a>
 , <a class="el" href="namespace_materials.html#a792ab47893a5cb0a53a6bd92906a68aaa915d55a7350e197f8f7a94152fd99773">Materials::Material_LODTextures</a>
@@ -220,7 +225,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c2a832b23ecdb65bf032f2b5659c57a" id="r_a0c2a832b23ecdb65bf032f2b5659c57a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a">Materials::DestroyMaterialInstance</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> materialInstance)</td></tr>
 <tr class="memdesc:a0c2a832b23ecdb65bf032f2b5659c57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy material instance.  <br /></td></tr>
 <tr class="separator:a0c2a832b23ecdb65bf032f2b5659c57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f9588f549b15565214244d0f1b455a" id="r_ad6f9588f549b15565214244d0f1b455a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a7c6181f333ec8bbadc23a8a3e236ba96">CoreGraphics::ConstantBufferOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ad6f9588f549b15565214244d0f1b455a">Materials::MaterialInstanceAllocate</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> mat, const <a class="el" href="namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b">BatchIndex</a> batch)</td></tr>
+<tr class="memitem:ad6f9588f549b15565214244d0f1b455a" id="r_ad6f9588f549b15565214244d0f1b455a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a97bc0aa0ce135d5dac7f465c83022c2e">CoreGraphics::ConstantBufferOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#ad6f9588f549b15565214244d0f1b455a">Materials::MaterialInstanceAllocate</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> mat, const <a class="el" href="namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b">BatchIndex</a> batch)</td></tr>
 <tr class="memdesc:ad6f9588f549b15565214244d0f1b455a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate instance constants, call per frame when instance constants are needed.  <br /></td></tr>
 <tr class="separator:ad6f9588f549b15565214244d0f1b455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6a746471186914c029e3ad70df1726" id="r_a2b6a746471186914c029e3ad70df1726"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a2b6a746471186914c029e3ad70df1726">Materials::MaterialInstanceApply</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> id, const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
@@ -242,7 +247,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="material_8h.html">material.h</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

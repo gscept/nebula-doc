@@ -101,6 +101,7 @@ $(function(){initNavTree('class_g_i_1_1_d_d_g_i_context.html',''); initResizable
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_g_i_1_1_d_d_g_i_context-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GI::DDGIContext Class Reference</div></div>
@@ -115,29 +116,53 @@ $(function(){initNavTree('class_g_i_1_1_d_d_g_i_context.html',''); initResizable
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_g_i_1_1_d_d_g_i_context_1_1_volume.html">Volume</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html">VolumeSetup</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
 <tr class="memitem:a5f7c9d16c570f554676aa86e981cf44e" id="r_a5f7c9d16c570f554676aa86e981cf44e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_g_i_1_1_d_d_g_i_context_1_1_volume.html">Volume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f7c9d16c570f554676aa86e981cf44e">DDGIVolumeAllocator</a></td></tr>
 <tr class="separator:a5f7c9d16c570f554676aa86e981cf44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794ea11521b1ef6cd50830ab8a444e9a" id="r_a794ea11521b1ef6cd50830ab8a444e9a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794ea11521b1ef6cd50830ab8a444e9a">ContributorAllocator</a></td></tr>
-<tr class="separator:a794ea11521b1ef6cd50830ab8a444e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a69bc4ccb1956bda1ea18f2d22c0eddcf" id="r_a69bc4ccb1956bda1ea18f2d22c0eddcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="graphicscontext_8h.html#ae1a3f3fff31efb7a5a3abe397e7bdf98">__DeclareContext</a>() public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bc4ccb1956bda1ea18f2d22c0eddcf">~DDGIContext</a> ()</td></tr>
 <tr class="memdesc:a69bc4ccb1956bda1ea18f2d22c0eddcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:a69bc4ccb1956bda1ea18f2d22c0eddcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af91b28da1ff30a99811b253825e4a013" id="r_af91b28da1ff30a99811b253825e4a013"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91b28da1ff30a99811b253825e4a013">SetupVolume</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:af91b28da1ff30a99811b253825e4a013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create volume.  <br /></td></tr>
-<tr class="separator:af91b28da1ff30a99811b253825e4a013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a7db3c867b3be1c4dedae6bf7588ea7d4" id="r_a7db3c867b3be1c4dedae6bf7588ea7d4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db3c867b3be1c4dedae6bf7588ea7d4">Create</a> ()</td></tr>
+<tr class="memdesc:a7db3c867b3be1c4dedae6bf7588ea7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup light context  <br /></td></tr>
+<tr class="separator:a7db3c867b3be1c4dedae6bf7588ea7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809ee31ea001da8fc645521f0367e04d" id="r_a809ee31ea001da8fc645521f0367e04d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a809ee31ea001da8fc645521f0367e04d">Discard</a> ()</td></tr>
+<tr class="memdesc:a809ee31ea001da8fc645521f0367e04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard light context  <br /></td></tr>
+<tr class="separator:a809ee31ea001da8fc645521f0367e04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82421d61311fea51e8c143ee1eb6d825" id="r_a82421d61311fea51e8c143ee1eb6d825"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82421d61311fea51e8c143ee1eb6d825">SetupVolume</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html">VolumeSetup</a> &amp;setup)</td></tr>
+<tr class="memdesc:a82421d61311fea51e8c143ee1eb6d825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create volume.  <br /></td></tr>
+<tr class="separator:a82421d61311fea51e8c143ee1eb6d825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1226e3d18b7b825c812451c74dbe60" id="r_a3a1226e3d18b7b825c812451c74dbe60"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1226e3d18b7b825c812451c74dbe60">SetPosition</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;position)</td></tr>
+<tr class="memdesc:a3a1226e3d18b7b825c812451c74dbe60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume position.  <br /></td></tr>
+<tr class="separator:a3a1226e3d18b7b825c812451c74dbe60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60bc5128796f93b059a8b5ecc8707507" id="r_a60bc5128796f93b059a8b5ecc8707507"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60bc5128796f93b059a8b5ecc8707507">SetSize</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;size)</td></tr>
+<tr class="memdesc:a60bc5128796f93b059a8b5ecc8707507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume scale.  <br /></td></tr>
+<tr class="separator:a60bc5128796f93b059a8b5ecc8707507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118a0a85e709486e3532853a473d9dba" id="r_a118a0a85e709486e3532853a473d9dba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118a0a85e709486e3532853a473d9dba">UpdateActiveVolumes</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a118a0a85e709486e3532853a473d9dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare light lists  <br /></td></tr>
+<tr class="separator:a118a0a85e709486e3532853a473d9dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0fe4217578da5aa329445cbb716adf" id="r_ade0fe4217578da5aa329445cbb716adf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0fe4217578da5aa329445cbb716adf">OnRenderDebug</a> (uint32_t flags)</td></tr>
+<tr class="separator:ade0fe4217578da5aa329445cbb716adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c271175c17901541ca8f4ebd729150" id="r_ab6c271175c17901541ca8f4ebd729150"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c271175c17901541ca8f4ebd729150">Alloc</a> ()</td></tr>
+<tr class="memdesc:ab6c271175c17901541ca8f4ebd729150"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a new slice for this context  <br /></td></tr>
+<tr class="separator:ab6c271175c17901541ca8f4ebd729150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726d4d9bbc99e797386a1fa7652e12bf" id="r_a726d4d9bbc99e797386a1fa7652e12bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726d4d9bbc99e797386a1fa7652e12bf">Dealloc</a> (<a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
+<tr class="memdesc:a726d4d9bbc99e797386a1fa7652e12bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate a slice  <br /></td></tr>
+<tr class="separator:a726d4d9bbc99e797386a1fa7652e12bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:aea837afd63774619cb5c9b4f7e9fcccb" id="r_aea837afd63774619cb5c9b4f7e9fcccb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a5f7c9d16c570f554676aa86e981cf44e">DDGIVolumeAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea837afd63774619cb5c9b4f7e9fcccb">allocator</a></td></tr>
-<tr class="separator:aea837afd63774619cb5c9b4f7e9fcccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c83655c61cd0a09882517da98984d3c" id="r_a7c83655c61cd0a09882517da98984d3c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a794ea11521b1ef6cd50830ab8a444e9a">ContributorAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c83655c61cd0a09882517da98984d3c">contributorAllocator</a></td></tr>
-<tr class="separator:a7c83655c61cd0a09882517da98984d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c08668f9d9b397dffdc28a4777a181" id="r_af2c08668f9d9b397dffdc28a4777a181"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a5f7c9d16c570f554676aa86e981cf44e">DDGIVolumeAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2c08668f9d9b397dffdc28a4777a181">ddgiVolumeAllocator</a></td></tr>
+<tr class="separator:af2c08668f9d9b397dffdc28a4777a181"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -158,28 +183,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a07a3787fb69d5d6e5340462ca571dc40 inherit pro_static_methods_class_graphics_1_1_graphics_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a794ea11521b1ef6cd50830ab8a444e9a" name="a794ea11521b1ef6cd50830ab8a444e9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794ea11521b1ef6cd50830ab8a444e9a">&#9670;&#160;</a></span>ContributorAllocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; <a class="el" href="#a794ea11521b1ef6cd50830ab8a444e9a">GI::DDGIContext::ContributorAllocator</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5f7c9d16c570f554676aa86e981cf44e" name="a5f7c9d16c570f554676aa86e981cf44e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f7c9d16c570f554676aa86e981cf44e">&#9670;&#160;</a></span>DDGIVolumeAllocator</h2>
 
@@ -231,8 +234,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af91b28da1ff30a99811b253825e4a013" name="af91b28da1ff30a99811b253825e4a013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af91b28da1ff30a99811b253825e4a013">&#9670;&#160;</a></span>SetupVolume()</h2>
+<a id="ab6c271175c17901541ca8f4ebd729150" name="ab6c271175c17901541ca8f4ebd729150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c271175c17901541ca8f4ebd729150">&#9670;&#160;</a></span>Alloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,26 +244,25 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GI::DDGIContext::SetupVolume </td>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> GI::DDGIContext::Alloc </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create volume. </p>
+<p>allocate a new slice for this context </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aea837afd63774619cb5c9b4f7e9fcccb" name="aea837afd63774619cb5c9b4f7e9fcccb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea837afd63774619cb5c9b4f7e9fcccb">&#9670;&#160;</a></span>allocator</h2>
+<a id="a7db3c867b3be1c4dedae6bf7588ea7d4" name="a7db3c867b3be1c4dedae6bf7588ea7d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db3c867b3be1c4dedae6bf7588ea7d4">&#9670;&#160;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +271,91 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a5f7c9d16c570f554676aa86e981cf44e">DDGIContext::DDGIVolumeAllocator</a> GI::DDGIContext::allocator</td>
+          <td class="memname">void GI::DDGIContext::Create </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>setup light context </p>
+
+</div>
+</div>
+<a id="a726d4d9bbc99e797386a1fa7652e12bf" name="a726d4d9bbc99e797386a1fa7652e12bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726d4d9bbc99e797386a1fa7652e12bf">&#9670;&#160;</a></span>Dealloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::Dealloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>deallocate a slice </p>
+
+</div>
+</div>
+<a id="a809ee31ea001da8fc645521f0367e04d" name="a809ee31ea001da8fc645521f0367e04d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809ee31ea001da8fc645521f0367e04d">&#9670;&#160;</a></span>Discard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::Discard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>discard light context </p>
+
+</div>
+</div>
+<a id="ade0fe4217578da5aa329445cbb716adf" name="ade0fe4217578da5aa329445cbb716adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0fe4217578da5aa329445cbb716adf">&#9670;&#160;</a></span>OnRenderDebug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::OnRenderDebug </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>flags</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -281,8 +367,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c83655c61cd0a09882517da98984d3c" name="a7c83655c61cd0a09882517da98984d3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c83655c61cd0a09882517da98984d3c">&#9670;&#160;</a></span>contributorAllocator</h2>
+<a id="a3a1226e3d18b7b825c812451c74dbe60" name="a3a1226e3d18b7b825c812451c74dbe60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1226e3d18b7b825c812451c74dbe60">&#9670;&#160;</a></span>SetPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +377,132 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a794ea11521b1ef6cd50830ab8a444e9a">ContributorAllocator</a> GI::DDGIContext::contributorAllocator</td>
+          <td class="memname">void GI::DDGIContext::SetPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set volume position. </p>
+
+</div>
+</div>
+<a id="a60bc5128796f93b059a8b5ecc8707507" name="a60bc5128796f93b059a8b5ecc8707507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60bc5128796f93b059a8b5ecc8707507">&#9670;&#160;</a></span>SetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::SetSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set volume scale. </p>
+
+</div>
+</div>
+<a id="a82421d61311fea51e8c143ee1eb6d825" name="a82421d61311fea51e8c143ee1eb6d825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82421d61311fea51e8c143ee1eb6d825">&#9670;&#160;</a></span>SetupVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::SetupVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html">VolumeSetup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>setup</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create volume. </p>
+
+</div>
+</div>
+<a id="a118a0a85e709486e3532853a473d9dba" name="a118a0a85e709486e3532853a473d9dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118a0a85e709486e3532853a473d9dba">&#9670;&#160;</a></span>UpdateActiveVolumes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GI::DDGIContext::UpdateActiveVolumes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>prepare light lists </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af2c08668f9d9b397dffdc28a4777a181" name="af2c08668f9d9b397dffdc28a4777a181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c08668f9d9b397dffdc28a4777a181">&#9670;&#160;</a></span>ddgiVolumeAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5f7c9d16c570f554676aa86e981cf44e">DDGIContext::DDGIVolumeAllocator</a> GI::DDGIContext::ddgiVolumeAllocator</td>
         </tr>
       </table>
   </td>
@@ -314,7 +525,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_g_i.html">GI</a></li><li class="navelem"><a class="el" href="class_g_i_1_1_d_d_g_i_context.html">DDGIContext</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

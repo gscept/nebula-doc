@@ -205,9 +205,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad1770ae0ad7fcee7974da629b13ed4e6" id="r_ad1770ae0ad7fcee7974da629b13ed4e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1770ae0ad7fcee7974da629b13ed4e6">FlushUpdates</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants by recording update command to command buffer.  <br /></td></tr>
 <tr class="separator:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf4b6277d3c73f18faf94c213db7597" id="r_aacf4b6277d3c73f18faf94c213db7597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf4b6277d3c73f18faf94c213db7597">GetOffsets</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;tickOffset, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;viewOffset, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;shadowOffset)</td></tr>
-<tr class="memdesc:aacf4b6277d3c73f18faf94c213db7597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get frame constant offsets.  <br /></td></tr>
-<tr class="separator:aacf4b6277d3c73f18faf94c213db7597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa9c9a72f99576c8337114054620aa1" id="r_a2fa9c9a72f99576c8337114054620aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fa9c9a72f99576c8337114054620aa1">GetOffsets</a> (<a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;tickOffset, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;viewOffset, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;shadowOffset)</td></tr>
+<tr class="memdesc:a2fa9c9a72f99576c8337114054620aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get frame constant offsets.  <br /></td></tr>
+<tr class="separator:a2fa9c9a72f99576c8337114054620aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2d30ac74b50c3ff246fdb45fc5d9de" id="r_aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="memItemLeft" align="right" valign="top">const Shared::PerTickParams &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2d30ac74b50c3ff246fdb45fc5d9de">GetTickParams</a> ()</td></tr>
 <tr class="memdesc:aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get tick params constant buffer.  <br /></td></tr>
 <tr class="separator:aaa2d30ac74b50c3ff246fdb45fc5d9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -767,8 +767,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="aacf4b6277d3c73f18faf94c213db7597" name="aacf4b6277d3c73f18faf94c213db7597"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacf4b6277d3c73f18faf94c213db7597">&#9670;&#160;</a></span>GetOffsets()</h2>
+<a id="a2fa9c9a72f99576c8337114054620aa1" name="a2fa9c9a72f99576c8337114054620aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa9c9a72f99576c8337114054620aa1">&#9670;&#160;</a></span>GetOffsets()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -776,17 +776,17 @@ template&lt;typename ... CONTEXTS&gt; </div>
         <tr>
           <td class="memname">void Graphics::GetOffsets </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tickOffset</em></span>, </td>
+          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tickOffset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>viewOffset</em></span>, </td>
+          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>viewOffset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shadowOffset</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shadowOffset</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1335,14 +1335,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a5f7c20884f689385b834eb9510be75d9" name="a5f7c20884f689385b834eb9510be75d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f7c20884f689385b834eb9510be75d9">&#9670;&#160;</a></span>shadowViewCboOffset</h2>
+<a id="a6dc4b07d1358abd57a92e26f9900db7e" name="a6dc4b07d1358abd57a92e26f9900db7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dc4b07d1358abd57a92e26f9900db7e">&#9670;&#160;</a></span>shadowViewCboOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Graphics::shadowViewCboOffset</td>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Graphics::shadowViewCboOffset</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1461,14 +1461,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a8cd2d0627680676ab4f2e7cdc38cf059" name="a8cd2d0627680676ab4f2e7cdc38cf059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cd2d0627680676ab4f2e7cdc38cf059">&#9670;&#160;</a></span>tickCboOffset</h2>
+<a id="a7a7b4d6c72a0231869f676dbf895a932" name="a7a7b4d6c72a0231869f676dbf895a932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7b4d6c72a0231869f676dbf895a932">&#9670;&#160;</a></span>tickCboOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Graphics::tickCboOffset</td>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Graphics::tickCboOffset</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1517,14 +1517,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="aec87fee8565edff289f21a86f72f52a9" name="aec87fee8565edff289f21a86f72f52a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec87fee8565edff289f21a86f72f52a9">&#9670;&#160;</a></span>viewCboOffset</h2>
+<a id="a7595dfef1859fc9e6c178d9a50c9ad64" name="a7595dfef1859fc9e6c178d9a50c9ad64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7595dfef1859fc9e6c178d9a50c9ad64">&#9670;&#160;</a></span>viewCboOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Graphics::viewCboOffset</td>
+          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Graphics::viewCboOffset</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1566,7 +1566,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_graphics.html">Graphics</a></li>
 				<li class="footer">
-					Generated on Fri Jan 24 2025 18:35:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jan 27 2025 16:36:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

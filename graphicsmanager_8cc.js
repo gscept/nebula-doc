@@ -1,6 +1,7 @@
 var graphicsmanager_8cc =
 [
     [ "GraphicsFeature::__ImplementClass", "namespace_graphics_feature.html#a0582dcbf4a3ffc8dace2fd718d19956a", null ],
+    [ "GraphicsFeature::DeregisterDDGIVolume", "namespace_graphics_feature.html#a7bfbf8b96db0915dac8162075618e327", null ],
     [ "GraphicsFeature::DeregisterDecal", "namespace_graphics_feature.html#ab0bfb40a185d2a59084a4c1ee6635ff5", null ],
     [ "GraphicsFeature::DeregisterLight", "namespace_graphics_feature.html#a91f0367616e0ee630b36f8f8536904a7", null ],
     [ "GraphicsFeature::DeregisterModelEntity", "namespace_graphics_feature.html#a3970d9c01daef3582c895e23b0702add", null ],

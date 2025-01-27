@@ -7,6 +7,11 @@ var material_8h =
     [ "Materials::BatchIndex", "namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b", null ],
     [ "Materials::MaterialAllocator", "namespace_materials.html#adb3e08de170e50244b3c02cc3aeb9a1b", null ],
     [ "Materials::MaterialInstanceAllocator", "namespace_materials.html#a35832df49e8586e0f1b29d3422a3c706", null ],
+    [ "Materials::BindlessBufferDirtyBits", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54", [
+      [ "Materials::Graphics", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a13a9172112a256bd4a2fe9c304666fb0", null ],
+      [ "Materials::Compute", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a75531aab5d4eee18d89e4a697b8e368d", null ],
+      [ "Materials::All", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54acdf5b7a4dc3e159f2922593dd48ba361", null ]
+    ] ],
     [ "Materials::MaterialInstanceMembers", "namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf", [
       [ "Materials::MaterialInstance_Offsets", "namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeafac32bdb5b27a44dceb98548434124858d", null ]
     ] ],
