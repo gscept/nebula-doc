@@ -1,5 +1,6 @@
 var NAVTREEINDEX159 =
 {
+"vkloader_8h.html#a6cda8e4590b89463aabe0f0948025d01":[10,0,0,7,5,5,23,28],
 "vkloader_8h.html#a6d0cb2c00a168542cfe886524533468b":[10,0,0,7,5,5,23,47],
 "vkloader_8h.html#a6d7209d5c897c86567f8bc73651442f9":[10,0,0,7,5,5,23,64],
 "vkloader_8h.html#a6dc91be59f5c4cc66e52b41def35f6f4":[10,0,0,7,5,5,23,138],
@@ -248,6 +249,5 @@ var NAVTREEINDEX159 =
 "win32singleton_8h.html#a2a8ad85fba9955f0c14a6151337273f6":[10,0,0,3,1,3,1,5],
 "win32singleton_8h.html#a39f3d403cfb36b31e4b18dfb6b7bcc3e":[10,0,0,3,1,3,1,2],
 "win32singleton_8h.html#a46f888b724aa7b248905e0a78e9630da":[10,0,0,3,1,3,1,7],
-"win32singleton_8h.html#a60044d7c40c042e675a575c216d94947":[10,0,0,3,1,3,1,6],
-"win32singleton_8h.html#a75f803d2aac92e98072993a810a64a99":[10,0,0,3,1,3,1,1]
+"win32singleton_8h.html#a60044d7c40c042e675a575c216d94947":[10,0,0,3,1,3,1,6]
 };

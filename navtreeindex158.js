@@ -1,5 +1,6 @@
 var NAVTREEINDEX158 =
 {
+"vkcommandbufferthread_8cc.html":[10,0,0,7,5,5,8],
 "vkcommandbufferthread_8h.html":[10,0,0,7,5,5,9],
 "vkcommandbufferthread_8h_source.html":[10,0,0,7,5,5,9],
 "vkdeferredcommand_8cc.html":[10,0,0,7,5,5,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX158 =
 "vkloader_8h.html#a646d0c93e014876ee77ec140c8b3f373":[10,0,0,7,5,5,23,79],
 "vkloader_8h.html#a647b063214d4aceaf0145df50f9303f3":[10,0,0,7,5,5,23,36],
 "vkloader_8h.html#a64c04970937a1be4911b6c402bd135a7":[10,0,0,7,5,5,23,92],
-"vkloader_8h.html#a66bc3b04ecfc2846f9920fc001800dd4":[10,0,0,7,5,5,23,87],
-"vkloader_8h.html#a6cda8e4590b89463aabe0f0948025d01":[10,0,0,7,5,5,23,28]
+"vkloader_8h.html#a66bc3b04ecfc2846f9920fc001800dd4":[10,0,0,7,5,5,23,87]
 };

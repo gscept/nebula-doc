@@ -1,5 +1,6 @@
 var NAVTREEINDEX145 =
 {
+"struct_physics_1_1_actor_info.html#a6d799f24192a9e0fb1510d221a0ebdf3":[9,0,53,3,2],
 "struct_physics_1_1_actor_info.html#a7216fe099ec0917c3dfd840147399dc9":[8,0,60,3,3],
 "struct_physics_1_1_actor_info.html#a7216fe099ec0917c3dfd840147399dc9":[9,0,53,3,3],
 "struct_physics_1_1_actor_resource_id.html":[8,0,60,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX145 =
 "struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#a90c915a804671d7d9f84711e5d9d7e1e":[8,0,71,1,5,0],
 "struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#a90c915a804671d7d9f84711e5d9d7e1e":[9,0,62,1,5,0],
 "struct_resources_1_1_resource_loader_1_1___stream_data.html":[8,0,71,1,6],
-"struct_resources_1_1_resource_loader_1_1___stream_data.html":[9,0,62,1,6],
-"struct_resources_1_1_resource_loader_1_1___stream_data.html#a544b3e15964f429cf4126ade25ac4f01":[8,0,71,1,6,1]
+"struct_resources_1_1_resource_loader_1_1___stream_data.html":[9,0,62,1,6]
 };

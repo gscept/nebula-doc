@@ -196,6 +196,7 @@ var namespace_vulkan =
     [ "TlasGetVkDevice", "namespace_vulkan.html#a3aa084cc4563e63cb6acefd92aa8d77e", null ],
     [ "TlasGetVkRanges", "namespace_vulkan.html#aa9ef6a49b3945056e3455a037890a83f", null ],
     [ "UpdateOccupancy", "namespace_vulkan.html#a3c7fa14c0559e365ef6846d577a9b499", null ],
+    [ "UpdateValueDescriptorSet", "namespace_vulkan.html#a2b29d7204fbe42e122bdd1370a1cc7b8", null ],
     [ "VertexLayoutGetVkBindInfo", "namespace_vulkan.html#a9d7ad23a594f68d635e4e35eeb61125d", null ],
     [ "VkShaderCreateSignature", "namespace_vulkan.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ],
     [ "VkShaderProgramCreateShader", "namespace_vulkan.html#a4e7ae0822cd6bf8d0fb7b462089c929d", null ],

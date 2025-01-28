@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"win32singleton_8h.html#a75f803d2aac92e98072993a810a64a99":[10,0,0,3,1,3,1,1],
 "win32singleton_8h.html#a77e9605e52e56b1566d7d0de4c82e70f":[10,0,0,3,1,3,1,4],
 "win32singleton_8h.html#a90622683d9e8c91682ba26b2fae8125f":[10,0,0,3,1,3,1,3],
 "win32singleton_8h.html#ac1a7badb214ae8dc87d0bf11c5b6b0d6":[10,0,0,3,1,3,1,0],

@@ -58,6 +58,7 @@ var vkshader_8cc =
     [ "CoreGraphics::ShaderHasResourceTable", "namespace_core_graphics.html#a63dd47698408af8d684a3b42a9303ece", null ],
     [ "Vulkan::ShaderSetup", "namespace_vulkan.html#ab0cd4f856140b9d8bc7d2cdafd452109", null ],
     [ "Vulkan::UpdateOccupancy", "namespace_vulkan.html#a3c7fa14c0559e365ef6846d577a9b499", null ],
+    [ "Vulkan::UpdateValueDescriptorSet", "namespace_vulkan.html#a2b29d7204fbe42e122bdd1370a1cc7b8", null ],
     [ "Vulkan::VkShaderCreateSignature", "namespace_vulkan.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ],
     [ "Vulkan::shaderAlloc", "namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc", null ],
     [ "Vulkan::VkShaderDescriptorSetCache", "namespace_vulkan.html#a9082a05116971436ae8abc11368f9941", null ],
