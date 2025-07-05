@@ -243,7 +243,7 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_stack_trace.html#a32ae0fcb04b25e31795e72227f2ea685":[9,0,74,21,1],
 "class_win32_1_1_win32_stack_trace.html#a9c4d2f2d2960454ec93ac456b7fd9520":[8,0,89,21,0],
 "class_win32_1_1_win32_stack_trace.html#a9c4d2f2d2960454ec93ac456b7fd9520":[9,0,74,21,0],
-"class_win32_1_1_win32_stacktrace.html":[9,0,186],
+"class_win32_1_1_win32_stacktrace.html":[9,0,187],
 "class_win32_1_1_win32_string_converter.html":[8,0,89,22],
 "class_win32_1_1_win32_string_converter.html":[9,0,74,22],
 "class_win32_1_1_win32_string_converter.html#a956a50ec2899e983ee322c3fc111bab4":[8,0,89,22,1],

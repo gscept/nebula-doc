@@ -54,7 +54,7 @@ var NAVTREEINDEX91 =
 "class_win32_1_1_win32_heap.html#abf194bed03a48a919735eba2c1948d88":[9,0,74,12,7],
 "class_win32_1_1_win32_heap.html#ac77984b825299896067eeaea5ced8f62":[8,0,89,12,2],
 "class_win32_1_1_win32_heap.html#ac77984b825299896067eeaea5ced8f62":[9,0,74,12,2],
-"class_win32_1_1_win32_interlocked.html":[9,0,184],
+"class_win32_1_1_win32_interlocked.html":[9,0,185],
 "class_win32_1_1_win32_ip_address.html":[8,0,89,13],
 "class_win32_1_1_win32_ip_address.html":[9,0,74,13],
 "class_win32_1_1_win32_ip_address.html#a07cc48d535f6a4a7435a66db48511c9c":[8,0,89,13,8],

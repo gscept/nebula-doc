@@ -1286,6 +1286,7 @@ var annotated_dup =
     [ "TextRenderer", "class_core_graphics_1_1_text_renderer.html", null ],
     [ "Thread", "class_threading_1_1_thread.html", null ],
     [ "ThreadBarrier", "class_threading_1_1_thread_barrier.html", null ],
+    [ "ThreadLocalMiniHeap", "struct_thread_local_mini_heap.html", "struct_thread_local_mini_heap" ],
     [ "Timer", "class_timing_1_1_timer.html", null ],
     [ "TiXmlAttribute", "class_ti_xml_attribute.html", "class_ti_xml_attribute" ],
     [ "TiXmlAttributeSet", "class_ti_xml_attribute_set.html", "class_ti_xml_attribute_set" ],

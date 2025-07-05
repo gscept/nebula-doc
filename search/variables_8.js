@@ -35,7 +35,7 @@ var searchData=
   ['headersize_32',['HeaderSize',['../class_net_1_1_debug_packet.html#a2a99b2312789fbbfe4279e6723d9d426',1,'Net::DebugPacket']]],
   ['headerstream_33',['headerStream',['../class_net_1_1_tcp_message_codec.html#aa6159530e943e7d1d1fedad4d2b3be39',1,'Net::TcpMessageCodec']]],
   ['headindex_34',['headIndex',['../class_util_1_1_ring_buffer.html#ab8c6a7c53207ae8cfc3184b1805ad617',1,'Util::RingBuffer']]],
-  ['heap_35',['heap',['../struct_util_1_1_string.html#a479aef3453813c303ea86b375af46e4f',1,'Util.String.heap'],['../class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176',1,'Win32::Win32Heap::heap'],['../struct_core_graphics_1_1_memory_pool.html#adc7f1cd997d739f9d723c7a656edf4fe',1,'CoreGraphics::MemoryPool::heap']]],
+  ['heap_35',['heap',['../struct_util_1_1_string.html#a479aef3453813c303ea86b375af46e4f',1,'Util.String.heap'],['../struct_thread_local_mini_heap.html#a8bd1ea296eb800787efe6b1cb9812cee',1,'ThreadLocalMiniHeap::heap'],['../class_win32_1_1_win32_heap.html#a20b4cfcec112df93de16e2bf68b0e176',1,'Win32::Win32Heap::heap'],['../struct_core_graphics_1_1_memory_pool.html#adc7f1cd997d739f9d723c7a656edf4fe',1,'CoreGraphics::MemoryPool::heap']]],
   ['heap_5fmemory_5ftype_36',['HEAP_MEMORY_TYPE',['../class_mem_db_1_1_table.html#af4766d6e3df9a7f4abaa19947e64cf3e',1,'MemDb::Table']]],
   ['heapbuffer_37',['heapBuffer',['../struct_util_1_1_string.html#ae4be14b8e160ba6cfb54b9e93942ed12',1,'Util::String']]],
   ['heapbuffersize_38',['heapBufferSize',['../struct_util_1_1_string.html#a58c1716e64a0c1408b6c8d5fb48f2065',1,'Util.String.heapBufferSize'],['../struct_util_1_1_string.html#aa7fa4a359cc4816f908fe395c5761c3d',1,'Util.String::heapBufferSize']]],

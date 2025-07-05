@@ -1437,6 +1437,7 @@ var hierarchy =
       [ "Resources::ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", null ]
     ] ],
     [ "ThreadBarrier", "class_threading_1_1_thread_barrier.html", null ],
+    [ "ThreadLocalMiniHeap", "struct_thread_local_mini_heap.html", null ],
     [ "Terrain::TileCacheEntry", "struct_terrain_1_1_tile_cache_entry.html", null ],
     [ "Physics::VisualDebugger::TimedDrawData", "class_physics_1_1_visual_debugger_1_1_timed_draw_data.html", null ],
     [ "Vulkan::VkSubContextHandler::TimelineSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html", null ],

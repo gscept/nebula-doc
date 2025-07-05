@@ -1,7 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"namespace_vegetation.html#aadc5374246c8a70df9b9f26b06bb80ef":[8,0,86,49],
-"namespace_vegetation.html#aca0bfbf68f1df256babc7dd153d1a335":[8,0,86,42],
 "namespace_vegetation.html#acae708a842246e465bd781e473041cd9":[8,0,86,45],
 "namespace_vegetation.html#acc15ca09787528df1556b3a8601305f3":[8,0,86,52],
 "namespace_vegetation.html#ad07bf7af17b48c5e3ce1fdeec1be22c0":[8,0,86,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX113 =
 "namespace_vulkan.html#af86184826a46e108c5bde1e012093fe4":[8,0,88,204],
 "namespace_vulkan.html#af88a6569d668598bd5bebe68807cdc3c":[8,0,88,224],
 "namespace_vulkan.html#af8ead512dc5640042cb354a43190dcea":[8,0,88,114],
-"namespace_vulkan.html#af8eefb56d9573559b0346f7c09a1cde1":[8,0,88,111]
+"namespace_vulkan.html#af8eefb56d9573559b0346f7c09a1cde1":[8,0,88,111],
+"namespace_vulkan.html#af9d89422145215753c0362bbeddae4bc":[8,0,88,100],
+"namespace_vulkan.html#afaba6c843293bfa275b7a15d88a70d91":[8,0,88,227]
 };

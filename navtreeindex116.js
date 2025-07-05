@@ -1,7 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"pythonserver_8h.html":[10,0,0,0,9,0,4],
-"pythonserver_8h_source.html":[10,0,0,0,9,0,4],
 "quadtree_8h.html":[10,0,0,3,20,35],
 "quadtree_8h_source.html":[10,0,0,3,20,35],
 "quadtreesystem_8cc.html":[10,0,0,7,27,0,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX116 =
 "shadersemantics_8h.html#a11f3d33fa7d731812c9bfa20e7fa7db6":[10,0,0,7,5,72,135],
 "shadersemantics_8h.html#a11f69f6ed45a5f76496f3ec4ca255184":[10,0,0,7,5,72,30],
 "shadersemantics_8h.html#a128b57e212b0357de4296551fa04dbdb":[10,0,0,7,5,72,93],
-"shadersemantics_8h.html#a13b5cecd640ebaef891c2ded363cb80b":[10,0,0,7,5,72,124]
+"shadersemantics_8h.html#a13b5cecd640ebaef891c2ded363cb80b":[10,0,0,7,5,72,124],
+"shadersemantics_8h.html#a15027467fb6bb15227592917cc1d79f2":[10,0,0,7,5,72,136],
+"shadersemantics_8h.html#a152274632aaa1a46ac180ad97192086d":[10,0,0,7,5,72,98]
 };

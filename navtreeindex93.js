@@ -126,7 +126,7 @@ var NAVTREEINDEX93 =
 "class_win32_1_1_win32_timer.html#ae9bac55dbcd3b80ef5b56f8415b062f3":[9,0,74,26,8],
 "class_win32_1_1_win32_timer.html#af545d9cbd85dd9b73d63f6a86c10c4c1":[8,0,89,26,2],
 "class_win32_1_1_win32_timer.html#af545d9cbd85dd9b73d63f6a86c10c4c1":[9,0,74,26,2],
-"class_win32_1_1_win_thread_id.html":[9,0,187],
+"class_win32_1_1_win_thread_id.html":[9,0,188],
 "classcore.html":[9,0,91],
 "classes.html":[9,1],
 "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html":[8,0,76,0],
