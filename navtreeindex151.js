@@ -1,5 +1,7 @@
 var NAVTREEINDEX151 =
 {
+"struct_vulkan_1_1_command_buffer_pools.html":[8,0,88,3],
+"struct_vulkan_1_1_command_buffer_pools.html":[9,0,73,3],
 "struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,88,3,1],
 "struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[9,0,73,3,1],
 "struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,88,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX151 =
 "struct_vulkan_1_1_scene_setup.html":[8,0,88,11],
 "struct_vulkan_1_1_scene_setup.html":[9,0,73,11],
 "struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73":[8,0,88,11,1],
-"struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73":[9,0,73,11,1],
-"struct_vulkan_1_1_scene_setup.html#a6bf2da585463ec3e18a8b8bd3dec67ae":[8,0,88,11,2],
-"struct_vulkan_1_1_scene_setup.html#a6bf2da585463ec3e18a8b8bd3dec67ae":[9,0,73,11,2]
+"struct_vulkan_1_1_scene_setup.html#a2439a573d7faecee7f379b0cd3006a73":[9,0,73,11,1]
 };

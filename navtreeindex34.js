@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[8,0,30,4,6],
+"class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[9,0,27,4,6],
 "class_graphics_1_1_environment_context.html#a5c5f0ed64012b881e5162e604b7c6d0e":[8,0,30,4,8],
 "class_graphics_1_1_environment_context.html#a5c5f0ed64012b881e5162e604b7c6d0e":[9,0,27,4,8],
 "class_graphics_1_1_environment_context.html#a61e0351cf80e99de130b3a8ebfa7aecb":[8,0,30,4,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "class_graphics_feature_1_1_camera_manager.html#a8eb142cf84589a7f964a8301c0785a2e":[9,0,28,0,5],
 "class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917":[8,0,31,0,7],
 "class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917":[9,0,28,0,7],
-"class_graphics_feature_1_1_camera_manager.html#a98492c2baccee7c0c32ac59abe5f70f6":[8,0,31,0,1],
-"class_graphics_feature_1_1_camera_manager.html#a98492c2baccee7c0c32ac59abe5f70f6":[9,0,28,0,1],
-"class_graphics_feature_1_1_camera_manager.html#aa207df71a9f7dc64e2afc32cb978b1a6":[8,0,31,0,6]
+"class_graphics_feature_1_1_camera_manager.html#a98492c2baccee7c0c32ac59abe5f70f6":[8,0,31,0,1]
 };

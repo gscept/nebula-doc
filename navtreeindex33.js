@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"class_game_1_1_world.html#a5030a9b1045eef41b9848f1c02a751c3":[9,0,23,37,76],
+"class_game_1_1_world.html#a523ac87e9323e97818508981b747d636":[8,0,26,38,68],
 "class_game_1_1_world.html#a523ac87e9323e97818508981b747d636":[9,0,23,37,68],
 "class_game_1_1_world.html#a53daa98da4c6c32fda1779ec4ae151fd":[8,0,26,38,77],
 "class_game_1_1_world.html#a53daa98da4c6c32fda1779ec4ae151fd":[9,0,23,37,77],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26":[8,0,30,4,9],
 "class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26":[9,0,27,4,9],
 "class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2":[8,0,30,4,1],
-"class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2":[9,0,27,4,1],
-"class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[8,0,30,4,6],
-"class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[9,0,27,4,6]
+"class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2":[9,0,27,4,1]
 };

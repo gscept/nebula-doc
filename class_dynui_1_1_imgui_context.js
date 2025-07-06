@@ -6,6 +6,7 @@ var class_dynui_1_1_imgui_context =
     [ "__DeclarePluginContext", "class_dynui_1_1_imgui_context.html#ac2892d59a3dbb70cee517550b579f071", null ],
     [ "Create", "class_dynui_1_1_imgui_context.html#a749808f2a669e262971831dde911743c", null ],
     [ "Discard", "class_dynui_1_1_imgui_context.html#ae28df194270b1c4718829a1c42aa7cd2", null ],
+    [ "EndFrame", "class_dynui_1_1_imgui_context.html#a281d241fe632365a0d78d1295610b795", null ],
     [ "HandleInput", "class_dynui_1_1_imgui_context.html#ac792ccbe38687117c232e6f6aa5d2db6", null ],
     [ "NewFrame", "class_dynui_1_1_imgui_context.html#a7d72dd686573e48093c3d8ec1c9ce173", null ],
     [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
