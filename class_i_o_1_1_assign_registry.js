@@ -10,6 +10,7 @@ var class_i_o_1_1_assign_registry =
     [ "GetAssign", "class_i_o_1_1_assign_registry.html#a3d5a5b027e0be78ed478d63c55c733ae", null ],
     [ "HasAssign", "class_i_o_1_1_assign_registry.html#a08966a9a8619165e8da7b6521fa2ab59", null ],
     [ "IsValid", "class_i_o_1_1_assign_registry.html#aac365c7dc98ffad64ca5d5fb2c7c2532", null ],
+    [ "PrintAll", "class_i_o_1_1_assign_registry.html#a38b34da157590d73b9b4fa11dba239a4", null ],
     [ "ResolveAssigns", "class_i_o_1_1_assign_registry.html#ae25a1dbc3a7d0028ddc8c589a15c7804", null ],
     [ "ResolveAssignsInString", "class_i_o_1_1_assign_registry.html#aeb98160ed07cbd0b3ab19255bfa00ca8", null ],
     [ "SetAssign", "class_i_o_1_1_assign_registry.html#a152442f32d00b27d6244ef49358c7623", null ],

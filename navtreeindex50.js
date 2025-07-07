@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"class_lighting_1_1_light_context.html#aed2000c34973ae2ef548adf0be92ed25":[8,0,41,1,48],
+"class_lighting_1_1_light_context.html#aed2000c34973ae2ef548adf0be92ed25":[9,0,37,1,48],
 "class_lighting_1_1_light_context.html#aede3dd89f4bd7e3761d8f108495315b5":[8,0,41,1,31],
 "class_lighting_1_1_light_context.html#aede3dd89f4bd7e3761d8f108495315b5":[9,0,37,1,31],
 "class_linux_1_1_file_watcher.html":[9,0,100],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "class_math_1_1_clip_status.html":[8,0,46,5],
 "class_math_1_1_clip_status.html":[9,0,41,5],
 "class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6":[8,0,46,5,0],
-"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6":[9,0,41,5,0],
-"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a":[8,0,46,5,0,1],
-"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a":[9,0,41,5,0,1]
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6":[9,0,41,5,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX160 =
 {
+"win32readwritelock_8h_source.html":[10,0,0,3,18,6,6],
+"win32registry_8cc.html":[10,0,0,3,17,4,7],
 "win32registry_8h.html":[10,0,0,3,17,4,8],
 "win32registry_8h_source.html":[10,0,0,3,17,4,8],
 "win32singleton_8h.html":[10,0,0,3,1,3,1],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"class_posix_1_1_posix_process.html#a1c283b745cb48ff31f6e311c9aa1c237":[9,0,56,12,9],
+"class_posix_1_1_posix_process.html#a2cdf4bd9139989d54c3346590e836906":[8,0,64,12,6],
 "class_posix_1_1_posix_process.html#a2cdf4bd9139989d54c3346590e836906":[9,0,56,12,6],
 "class_posix_1_1_posix_process.html#a3c6fb93108ef9048ba3031e1c89cb96f":[8,0,64,12,5],
 "class_posix_1_1_posix_process.html#a3c6fb93108ef9048ba3031e1c89cb96f":[9,0,56,12,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1aebd8f746e26745b790a717fc77ef9ae1":[9,0,56,15,0,16],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1af365deb0383021ec63b337ccf772ddf6":[8,0,64,15,0,3],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1af365deb0383021ec63b337ccf772ddf6":[9,0,56,15,0,3],
-"class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26ba":[8,0,64,15,2],
-"class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26ba":[9,0,56,15,2],
-"class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26baa5e9f4fa965c972d375d5470257e14ed9":[8,0,64,15,2,1]
+"class_posix_1_1_posix_socket.html#ac241458fd40b9aaadf7fc716fe3a26ba":[8,0,64,15,2]
 };

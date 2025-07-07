@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"functions_l.html":[9,3,0,12],
+"functions_m.html":[9,3,0,13],
 "functions_n.html":[9,3,0,14],
 "functions_o.html":[9,3,0,15],
 "functions_p.html":[9,3,0,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "histogramcontext_8h.html":[10,0,0,7,20,5],
 "histogramcontext_8h_source.html":[10,0,0,7,20,5],
 "historyconsolehandler_8cc.html":[10,0,0,3,9,36],
-"historyconsolehandler_8h.html":[10,0,0,3,9,37],
-"historyconsolehandler_8h_source.html":[10,0,0,3,9,37],
-"htmlelement_8cc.html":[10,0,0,3,6,2,0]
+"historyconsolehandler_8h.html":[10,0,0,3,9,37]
 };
