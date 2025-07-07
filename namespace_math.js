@@ -296,7 +296,7 @@ var namespace_math =
     [ "rad2deg", "namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29", null ],
     [ "rand", "namespace_math.html#a84d4b4302f8bfa05bfdc1026522372e7", null ],
     [ "rand", "namespace_math.html#a08abe5b000f1a6276d831437d0597811", null ],
-    [ "randxor", "namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532", null ],
+    [ "randxor", "namespace_math.html#abccf568637b8fb07f228698de34cdcc4", null ],
     [ "recip", "namespace_math.html#a2974bd29af86727a6155238de7470b0c", null ],
     [ "reciprocal", "namespace_math.html#a4894cf218c208c4ac9883cb0f35b41a8", null ],
     [ "reciprocal", "namespace_math.html#a88d35ffc78e7f2c9a053f727e9df1fdc", null ],

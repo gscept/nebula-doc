@@ -1,9 +1,9 @@
 var class_vegetation_1_1_vegetation_context =
 [
     [ "VegetationAllocator", "class_vegetation_1_1_vegetation_context.html#ab7a1793610a4a2af8238b8b475e942bf", null ],
-    [ "VegetationType", "class_vegetation_1_1_vegetation_context.html#a6b3c1984e19b0de2107217fdabefb84a", [
-      [ "GrassType", "class_vegetation_1_1_vegetation_context.html#a6b3c1984e19b0de2107217fdabefb84aaecb29609a2e383c3f7d59aed7d149f68", null ],
-      [ "MeshType", "class_vegetation_1_1_vegetation_context.html#a6b3c1984e19b0de2107217fdabefb84aa7687f581db5afebfbfa8525bb9812268", null ]
+    [ "VegetationType", "class_vegetation_1_1_vegetation_context.html#a6eaf4fccf1a28b4c19de1d7d204ce74e", [
+      [ "GrassType", "class_vegetation_1_1_vegetation_context.html#a6eaf4fccf1a28b4c19de1d7d204ce74eaecb29609a2e383c3f7d59aed7d149f68", null ],
+      [ "MeshType", "class_vegetation_1_1_vegetation_context.html#a6eaf4fccf1a28b4c19de1d7d204ce74ea7687f581db5afebfbfa8525bb9812268", null ]
     ] ],
     [ "VegetationContext", "class_vegetation_1_1_vegetation_context.html#a17e5a2581cb1a80a33cda44d0a79e7dd", null ],
     [ "~VegetationContext", "class_vegetation_1_1_vegetation_context.html#a752effc55d99bf251123408e1e68cceb", null ],

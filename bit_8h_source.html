@@ -108,9 +108,9 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">constexpr</span> uint64_t </div>
 <div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">   21</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">   21</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(uint64_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">return</span> mask | (1ULL &lt;&lt; bit);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
@@ -119,16 +119,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">   30</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">   30</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(uint64_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> mask &amp; (1ULL &lt;&lt; bit);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
 </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">constexpr</span> uint32_t</div>
 <div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespace_util.html#ace97aafdb9dec71c7d94958dbaa65d97">   39</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespace_util.html#a0de8af212928554a8a6e9c1d59ec5b0c">   39</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(uint32_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> mask | (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
@@ -137,16 +137,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespace_util.html#a559a7a7139fa77cbf28c620a97aa614e">   48</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespace_util.html#a90a7525d26556c681db9e399b4ac3c17">   48</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(uint32_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">return</span> mask &amp; (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
 </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">constexpr</span> uint16_t</div>
 <div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespace_util.html#ab41151ea39925673ec5f223a7eacf520">   57</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespace_util.html#aaebda1f96f30748504958d72dbc71c9a">   57</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(uint16_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> mask | (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
@@ -155,16 +155,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="namespace_util.html#adc7d7177fb7c733ce2a4bac52d61e7dc">   66</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="namespace_util.html#a8a9c7037e399f5dbc9142063c92b1fdb">   66</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(uint16_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>{</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">return</span> mask &amp; (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">constexpr</span> int64_t</div>
 <div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="namespace_util.html#aa73ad094ccb945cb6cfa59b8b9a1a7b1">   75</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="namespace_util.html#a2a96afe20123e5018c928de8e94b1b3b">   75</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(int64_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>{</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> mask | (1LL &lt;&lt; bit);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
@@ -173,16 +173,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespace_util.html#abf6f87de2965e1bd5ccf45f48c14ef29">   84</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespace_util.html#a5aae34ef8980c1a8f7072dcfd34358a4">   84</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(int64_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>{</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordflow">return</span> mask &amp; (1LL &lt;&lt; bit);</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
 </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">constexpr</span> int32_t</div>
 <div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="namespace_util.html#a2a86c99896c2a818350b124592d5867c">   93</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="namespace_util.html#a5d5b3595dc404fb2f811e18ce9f997cf">   93</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(int32_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>{</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordflow">return</span> mask | (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
@@ -191,16 +191,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="namespace_util.html#a865e97c189979f35eaedc69446db24ff">  102</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="namespace_util.html#a7ea3cbcf3b13a1e53325befba2df4f31">  102</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(int32_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordflow">return</span> mask &amp; (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}</div>
 </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#aa0d0fdc87fd135ef2bedb030901cdb9c">int16</a></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">constexpr</span> int16_t</div>
 <div class="foldopen" id="foldopen00111" data-start="{" data-end="}">
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="namespace_util.html#adbcadd541631cff951e1856ea4ae5906">  111</a></span><a class="code hl_function" href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">SetBit</a>(<a class="code hl_typedef" href="types_8h.html#aa0d0fdc87fd135ef2bedb030901cdb9c">int16</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="namespace_util.html#a1daa07bb1e1f8673599da1f0b25b2d8d">  111</a></span><a class="code hl_function" href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">SetBit</a>(int16_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>{</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">return</span> mask | (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>}</div>
@@ -209,16 +209,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">constexpr</span> <span class="keywordtype">bool</span></div>
 <div class="foldopen" id="foldopen00120" data-start="{" data-end="}">
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="namespace_util.html#ad79c549d8ff8d445ac5f1da15fb8fbf1">  120</a></span><a class="code hl_function" href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">HasBit</a>(<a class="code hl_typedef" href="types_8h.html#aa0d0fdc87fd135ef2bedb030901cdb9c">int16</a> mask, <a class="code hl_typedef" href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> bit)</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="namespace_util.html#a3bd1e5ae27baefe6621ee55cd2592801">  120</a></span><a class="code hl_function" href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">HasBit</a>(int16_t mask, uint8_t bit)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>{</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> mask &amp; (1 &lt;&lt; bit);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}</div>
 </div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">constexpr</span> <a class="code hl_typedef" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">constexpr</span> uint32_t</div>
 <div class="foldopen" id="foldopen00129" data-start="{" data-end="}">
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="namespace_util.html#ae530f444bfb138d60bb349da54c370fc">  129</a></span><a class="code hl_function" href="namespace_util.html#ae530f444bfb138d60bb349da54c370fc">CountBits</a>(<a class="code hl_typedef" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> i)</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="namespace_util.html#af824dcc90a0d9ba780a213b023a043c2">  129</a></span><a class="code hl_function" href="namespace_util.html#af824dcc90a0d9ba780a213b023a043c2">CountBits</a>(uint32_t i)</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>{</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    i = i - ((i &gt;&gt; 1) &amp; 0x55555555);</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    i = (i &amp; 0x33333333) + ((i &gt;&gt; 2) &amp; 0x33333333);</div>
@@ -246,9 +246,9 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">inline</span> uint64_t</div>
 <div class="foldopen" id="foldopen00160" data-start="{" data-end="}">
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="namespace_util.html#a3be0a76e20499597d3245544646b6979">  160</a></span><a class="code hl_function" href="namespace_util.html#ad5f64b391adf598adaea6a06ae4bb6f5">PopCnt</a>(<a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="namespace_util.html#a79d9ee7bc95a27843a7cd32108184351">  160</a></span><a class="code hl_function" href="namespace_util.html#ad5f64b391adf598adaea6a06ae4bb6f5">PopCnt</a>(uint64_t value)</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>{</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keywordflow">return</span> _mm_popcnt_u64(value);</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>}</div>
@@ -272,7 +272,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div>
 <div class="foldopen" id="foldopen00184" data-start="{" data-end="}">
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="namespace_util.html#adabe836d54b457469b20392f79621225">  184</a></span><a class="code hl_function" href="namespace_util.html#ac2a252ffc6631479969e6decdf946859">FirstOne</a>(<a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="namespace_util.html#a804147f07d60eb0ed0548c18d92f3186">  184</a></span><a class="code hl_function" href="namespace_util.html#ac2a252ffc6631479969e6decdf946859">FirstOne</a>(uint64_t value)</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>{</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">#if __WIN32__</span></div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    DWORD count = 0;</div>
@@ -302,7 +302,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div>
 <div class="foldopen" id="foldopen00214" data-start="{" data-end="}">
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="namespace_util.html#a1867fc2527acfbcb4ad6b79d500375e3">  214</a></span><a class="code hl_function" href="namespace_util.html#a1eb384b35f323f7d0be9e9aee86a55df">LastOne</a>(<a class="code hl_typedef" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="namespace_util.html#a08e66a94c1f1516319ac94b4e744bf69">  214</a></span><a class="code hl_function" href="namespace_util.html#a1eb384b35f323f7d0be9e9aee86a55df">LastOne</a>(uint64_t value)</div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>{</div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="preprocessor">#if __WIN32__</span></div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    DWORD count = 0;</div>
@@ -355,23 +355,16 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
 <div class="ttc" id="anamespace_util_html_a1eb384b35f323f7d0be9e9aee86a55df"><div class="ttname"><a href="namespace_util.html#a1eb384b35f323f7d0be9e9aee86a55df">Util::LastOne</a></div><div class="ttdeci">uint LastOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:199</div></div>
-<div class="ttc" id="anamespace_util_html_a32469c5919e2ef24ec6de1835eb11804"><div class="ttname"><a href="namespace_util.html#a32469c5919e2ef24ec6de1835eb11804">Util::SetBit</a></div><div class="ttdeci">constexpr uint64 SetBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:21</div></div>
-<div class="ttc" id="anamespace_util_html_a5c94977ecc1a4eacc0fe8a31e3703f56"><div class="ttname"><a href="namespace_util.html#a5c94977ecc1a4eacc0fe8a31e3703f56">Util::HasBit</a></div><div class="ttdeci">constexpr bool HasBit(uint64 mask, uint8 bit)</div><div class="ttdef"><b>Definition</b> bit.h:30</div></div>
+<div class="ttc" id="anamespace_util_html_a69f3ea026b6745da2ae07a0fff05de91"><div class="ttname"><a href="namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91">Util::HasBit</a></div><div class="ttdeci">constexpr bool HasBit(uint64_t mask, uint8_t bit)</div><div class="ttdef"><b>Definition</b> bit.h:30</div></div>
+<div class="ttc" id="anamespace_util_html_a77aa7653dee3a23ea1c62d5cc65d94cf"><div class="ttname"><a href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">Util::SetBit</a></div><div class="ttdeci">constexpr uint64_t SetBit(uint64_t mask, uint8_t bit)</div><div class="ttdef"><b>Definition</b> bit.h:21</div></div>
 <div class="ttc" id="anamespace_util_html_a8181ea677b3f2874b3ba54b0dcd0a37d"><div class="ttname"><a href="namespace_util.html#a8181ea677b3f2874b3ba54b0dcd0a37d">Util::BitmaskConvert</a></div><div class="ttdeci">uint BitmaskConvert(uint mask, const uint *table, const uint numEntries=0xFFFFFFFF)</div><div class="ttdef"><b>Definition</b> bit.h:245</div></div>
 <div class="ttc" id="anamespace_util_html_a99dcfa539a8cc8bf24d1b587c8253031"><div class="ttname"><a href="namespace_util.html#a99dcfa539a8cc8bf24d1b587c8253031">Util::Lsb</a></div><div class="ttdeci">uint Lsb(uint value, byte bit)</div><div class="ttdef"><b>Definition</b> bit.h:229</div></div>
 <div class="ttc" id="anamespace_util_html_ac2a252ffc6631479969e6decdf946859"><div class="ttname"><a href="namespace_util.html#ac2a252ffc6631479969e6decdf946859">Util::FirstOne</a></div><div class="ttdeci">uint FirstOne(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:169</div></div>
 <div class="ttc" id="anamespace_util_html_ad5f64b391adf598adaea6a06ae4bb6f5"><div class="ttname"><a href="namespace_util.html#ad5f64b391adf598adaea6a06ae4bb6f5">Util::PopCnt</a></div><div class="ttdeci">uint PopCnt(uint value)</div><div class="ttdef"><b>Definition</b> bit.h:151</div></div>
-<div class="ttc" id="anamespace_util_html_ae530f444bfb138d60bb349da54c370fc"><div class="ttname"><a href="namespace_util.html#ae530f444bfb138d60bb349da54c370fc">Util::CountBits</a></div><div class="ttdeci">constexpr uint32 CountBits(uint32 i)</div><div class="ttdef"><b>Definition</b> bit.h:129</div></div>
 <div class="ttc" id="anamespace_util_html_af3fee714ad3302f91750deae67a94852"><div class="ttname"><a href="namespace_util.html#af3fee714ad3302f91750deae67a94852">Util::HashCombine</a></div><div class="ttdeci">void HashCombine(uint32_t &amp;s, const T &amp;v)</div><div class="ttdoc">Combine hashes.</div><div class="ttdef"><b>Definition</b> bit.h:141</div></div>
+<div class="ttc" id="anamespace_util_html_af824dcc90a0d9ba780a213b023a043c2"><div class="ttname"><a href="namespace_util.html#af824dcc90a0d9ba780a213b023a043c2">Util::CountBits</a></div><div class="ttdeci">constexpr uint32_t CountBits(uint32_t i)</div><div class="ttdef"><b>Definition</b> bit.h:129</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
-<div class="ttc" id="atypes_8h_html_a33a5e996e7a90acefb8b1c0bea47e365"><div class="ttname"><a href="types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition</b> types.h:42</div></div>
-<div class="ttc" id="atypes_8h_html_a7cde0074dfd288f2d70c0e035dacb28a"><div class="ttname"><a href="types_8h.html#a7cde0074dfd288f2d70c0e035dacb28a">int64</a></div><div class="ttdeci">int64_t int64</div><div class="ttdef"><b>Definition</b> types.h:37</div></div>
 <div class="ttc" id="atypes_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition</b> types.h:31</div></div>
-<div class="ttc" id="atypes_8h_html_aa0d0fdc87fd135ef2bedb030901cdb9c"><div class="ttname"><a href="types_8h.html#aa0d0fdc87fd135ef2bedb030901cdb9c">int16</a></div><div class="ttdeci">int16_t int16</div><div class="ttdef"><b>Definition</b> types.h:41</div></div>
-<div class="ttc" id="atypes_8h_html_ab7903878916593daecbeb95b98115ab0"><div class="ttname"><a href="types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a></div><div class="ttdeci">int32_t int32</div><div class="ttdef"><b>Definition</b> types.h:39</div></div>
-<div class="ttc" id="atypes_8h_html_abc0f5bc07737e498f287334775dff2b6"><div class="ttname"><a href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></div><div class="ttdeci">uint64_t uint64</div><div class="ttdef"><b>Definition</b> types.h:36</div></div>
-<div class="ttc" id="atypes_8h_html_ac2a9e79eb120216f855626495b7bd18a"><div class="ttname"><a href="types_8h.html#ac2a9e79eb120216f855626495b7bd18a">uint16</a></div><div class="ttdeci">uint16_t uint16</div><div class="ttdef"><b>Definition</b> types.h:40</div></div>
-<div class="ttc" id="atypes_8h_html_acbd4acd0d29e2d6c43104827f77d9cd2"><div class="ttname"><a href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition</b> types.h:38</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -379,7 +372,7 @@ $(function(){initNavTree('bit_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="bit_8h.html">bit.h</a></li>
 				<li class="footer">
-					Generated on Mon Jul 7 2025 15:07:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 7 2025 17:24:09 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

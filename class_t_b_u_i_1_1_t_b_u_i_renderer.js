@@ -1,6 +1,6 @@
 var class_t_b_u_i_1_1_t_b_u_i_renderer =
 [
-    [ "CreateBitmap", "class_t_b_u_i_1_1_t_b_u_i_renderer.html#a60cceb1d931d219499c66906ed842fbd", null ],
+    [ "CreateBitmap", "class_t_b_u_i_1_1_t_b_u_i_renderer.html#a74da0e24ee04bc3b195dbaa39be7ef6c", null ],
     [ "GetCmdBufferId", "class_t_b_u_i_1_1_t_b_u_i_renderer.html#ac2e602edcf7456533774f159de30d8cb", null ],
     [ "RenderBatch", "class_t_b_u_i_1_1_t_b_u_i_renderer.html#a2c81de1b769d6535c717ed29f5e3ac6f", null ],
     [ "RenderView", "class_t_b_u_i_1_1_t_b_u_i_renderer.html#a3b6d5af672fa0c8d30bb5486f0084ad1", null ],

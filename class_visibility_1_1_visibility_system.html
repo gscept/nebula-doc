@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a735fc071abb98d1150b7fb33878a86e1" id="r_a735fc071abb98d1150b7fb33878a86e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735fc071abb98d1150b7fb33878a86e1">PrepareObservers</a> (const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> *transforms, bool *orthoFlags, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt; *results, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
 <tr class="memdesc:a735fc071abb98d1150b7fb33878a86e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup observers  <br /></td></tr>
 <tr class="separator:a735fc071abb98d1150b7fb33878a86e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc2b6395afe4f1dc8b6ea510eafeca26" id="r_adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc2b6395afe4f1dc8b6ea510eafeca26">PrepareEntities</a> (const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> *transforms, const <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> *ranges, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> *entities, const uint32_t *entityFlags, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
-<tr class="memdesc:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare system with entities to insert into the structure  <br /></td></tr>
-<tr class="separator:adc2b6395afe4f1dc8b6ea510eafeca26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0775f8885c9f464d66be0ab70fec948d" id="r_a0775f8885c9f464d66be0ab70fec948d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0775f8885c9f464d66be0ab70fec948d">PrepareEntities</a> (const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> *transforms, const uint32_t *ranges, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> *entities, const uint32_t *entityFlags, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> count)</td></tr>
+<tr class="memdesc:a0775f8885c9f464d66be0ab70fec948d"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare system with entities to insert into the structure  <br /></td></tr>
+<tr class="separator:a0775f8885c9f464d66be0ab70fec948d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a523b9fb81996ad9b3a1edc9796553472" id="r_a523b9fb81996ad9b3a1edc9796553472"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523b9fb81996ad9b3a1edc9796553472">Run</a> (const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *previousSystemCompletionCounters, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; const <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *, true &gt; &amp;extraCounters)</td></tr>
 <tr class="memdesc:a523b9fb81996ad9b3a1edc9796553472"><td class="mdescLeft">&#160;</td><td class="mdescRight">run system  <br /></td></tr>
 <tr class="separator:a523b9fb81996ad9b3a1edc9796553472"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,8 +208,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adc2b6395afe4f1dc8b6ea510eafeca26" name="adc2b6395afe4f1dc8b6ea510eafeca26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc2b6395afe4f1dc8b6ea510eafeca26">&#9670;&#160;</a></span>PrepareEntities()</h2>
+<a id="a0775f8885c9f464d66be0ab70fec948d" name="a0775f8885c9f464d66be0ab70fec948d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0775f8885c9f464d66be0ab70fec948d">&#9670;&#160;</a></span>PrepareEntities()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +225,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> *</td>          <td class="paramname"><span class="paramname"><em>ranges</em></span>, </td>
+          <td class="paramtype">const uint32_t *</td>          <td class="paramname"><span class="paramname"><em>ranges</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -428,7 +428,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_visibility.html">Visibility</a></li><li class="navelem"><a class="el" href="class_visibility_1_1_visibility_system.html">VisibilitySystem</a></li>
 				<li class="footer">
-					Generated on Mon Jul 7 2025 15:07:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 7 2025 17:24:25 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

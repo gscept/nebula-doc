@@ -27,12 +27,12 @@ var namespace_terrain =
       [ "MaskLoaded", "namespace_terrain.html#aac7d170f1f33b77bfb06121ec42b7b76af7f9bfe630c99829dfe48a4720be298f", null ],
       [ "WeightsLoaded", "namespace_terrain.html#aac7d170f1f33b77bfb06121ec42b7b76a42be1ec3abc415e6f7790c5750ae8cdd", null ]
     ] ],
-    [ "SubTextureUpdateState", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199", [
-      [ "NoChange", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199a4bac8cdf0a968472b519b3b295d0d48b", null ],
-      [ "Deleted", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199a5fe6005bf6e415c950c011fb65f12b8f", null ],
-      [ "Created", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199a0eceeb45861f9585dd7a97a3e36f85c6", null ],
-      [ "Grew", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199a0c78fcf8d86b214d67879d4d287d6f0f", null ],
-      [ "Shrank", "namespace_terrain.html#adbc376225f7b7a972247d971534a7199a9893840ceb7c291e924cd85710ff1caa", null ]
+    [ "SubTextureUpdateState", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8", [
+      [ "NoChange", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8a4bac8cdf0a968472b519b3b295d0d48b", null ],
+      [ "Deleted", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8a5fe6005bf6e415c950c011fb65f12b8f", null ],
+      [ "Created", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8a0eceeb45861f9585dd7a97a3e36f85c6", null ],
+      [ "Grew", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8a0c78fcf8d86b214d67879d4d287d6f0f", null ],
+      [ "Shrank", "namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8a9893840ceb7c291e924cd85710ff1caa", null ]
     ] ],
     [ "__ImplementContext", "namespace_terrain.html#ace013dcb2e57a15867b92506c9a557c1", null ],
     [ "IndirectionClear", "namespace_terrain.html#aff9bbefdafcfa1540d1d013a3b63cf98", null ],

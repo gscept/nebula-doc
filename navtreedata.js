@@ -180,11 +180,11 @@ var NAVTREEINDEX =
 "historyconsolehandler_8h_source.html",
 "ioserver_8h_source.html",
 "namespace_attr.html#a2fe397cf4355964561fd5609d72d9c76",
-"namespace_core_graphics.html#a1acbcca02497b8fb8034da337c56318d",
-"namespace_core_graphics.html#a6c88d760a827ae4024263aa9f482699d",
-"namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeab9b94aa834e5393d4daf134d2034bc69",
+"namespace_core_graphics.html#a1c6957049bbd67d0fb9ec6f8ef9fcdd9",
+"namespace_core_graphics.html#a6e645491c00cc78987cec6e82f5e53ff",
+"namespace_core_graphics.html#ac116135f1d71b4a39fe7c2a12f4a77ce",
 "namespace_core_graphics_1_1_gpu_buffer_types.html#a31231718357b90f66f94b8c2cbd63084a5dd366b96a857af0e454e53560f871d4",
-"namespace_game.html#aad3d6db368f0ad6118d67b0f343408eb",
+"namespace_game.html#aa95c72f81e4a0fe019448fdd5fa7b14b",
 "namespace_i_o.html#ae24c407836094514f73db0dd0017c069",
 "namespace_im3d.html#adfe4a0b9fb4ea816281ef05dc50a7d29a9e7a5747e890bbdcf8e5191b882593c9",
 "namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29",
@@ -223,7 +223,7 @@ var NAVTREEINDEX =
 "struct_mathf_1_1_vector2.html#a238c76feaaa8f3117e88af2ada19cf84",
 "struct_mathf_1_1_vector3.html#a5e2986739c70fdc0580a5056f48bb805",
 "struct_mathf_1_1_vector4.html#a66244441c305156814d7c41935f9d4d9",
-"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#aef094e0574c338af06818b1b486dcb87",
+"struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#ada93af2db76debb392cc9a27d9c497c8",
 "struct_physics_1_1_actor_info.html#a656834316b6d8c625979c7e9e5942f00",
 "struct_resources_1_1_resource_loader_1_1___stream_data.html",
 "struct_terrain_1_1_indirection_entry.html#a4c65efd50b2db3d5a9b6a85a0d2c5015",
@@ -237,9 +237,9 @@ var NAVTREEINDEX =
 "struct_vulkan_1_1_vk_shader_cache_1_1_vk_shader_setup_info.html#a6b0150e51817a4bfad9c68b39639e83b",
 "struct_vulkan_1_1_vk_texture_load_info.html#afa0d61401ea2178451243167c40eb376",
 "tinystr_8h_source.html",
-"vkbarrier_8cc.html#a8e90a25ed6079f4c2a9af768273a776f",
-"vkloader_8h.html#a5d397352d0e0cd6a7147a1eef910f9de",
-"win32readwritelock_8h_source.html"
+"vkcommandbuffer_8h_source.html",
+"vkloader_8h.html#a66bc3b04ecfc2846f9920fc001800dd4",
+"win32singleton_8h.html#a60044d7c40c042e675a575c216d94947"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

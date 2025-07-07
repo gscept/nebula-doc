@@ -5,7 +5,7 @@ var vkfence_8cc =
     [ "Vulkan::FenceGetVk", "namespace_vulkan.html#adc6a23107ea283731bc6d651f5ff606d", null ],
     [ "CoreGraphics::FencePeek", "namespace_core_graphics.html#ae407521380a3daeb0552f17aa0139834", null ],
     [ "CoreGraphics::FenceReset", "namespace_core_graphics.html#ab1b590aef9497083b4009460366ab581", null ],
-    [ "CoreGraphics::FenceWait", "namespace_core_graphics.html#a640e7eb562c98b58dfea622c810d89d8", null ],
-    [ "CoreGraphics::FenceWaitAndReset", "namespace_core_graphics.html#a9d3e58525597a3e2d8fec9235138aa56", null ],
+    [ "CoreGraphics::FenceWait", "namespace_core_graphics.html#a991624b03b4f61cce15956b31718d8f2", null ],
+    [ "CoreGraphics::FenceWaitAndReset", "namespace_core_graphics.html#a4872ed5afd70aad1548364a35491550b", null ],
     [ "Vulkan::fenceAllocator", "namespace_vulkan.html#ad28f43eeb1f65562f0eb24bd960a133f", null ]
 ];

@@ -9,5 +9,5 @@ var vkpass_8h =
     [ "Vulkan::PassGetVkNumAttachments", "namespace_vulkan.html#a33db2b3a1b8e247459c444bcb1ac9517", null ],
     [ "Vulkan::PassGetVkRenderPass", "namespace_vulkan.html#af079204f5ded45f20bf645c7ef0eec41", null ],
     [ "Vulkan::PassGetVkRenderPassBeginInfo", "namespace_vulkan.html#aca389733d0f7df9ee92188174cc9dab2", null ],
-    [ "Vulkan::PassGetVkViewportInfo", "namespace_vulkan.html#a1c858b178726e8f330904a57fbe68ec3", null ]
+    [ "Vulkan::PassGetVkViewportInfo", "namespace_vulkan.html#a17cee563f3c37da2b3a1613cff57e19c", null ]
 ];

@@ -119,7 +119,7 @@ The CoreGraphics Subsystem</h1>
 <p>In most cases, the rendering is done through what is called a FrameScript. However, we might want to implement plugins for the frame script, such as when we want to write some custom rendering code, but also have it executed in between two passes in a frame script. To do so, we simply register a callback as such:</p>
 <div class="fragment"><div class="line"><a class="code hl_function" href="namespace_frame.html#a77f5e4db78be13d003454b0dd9fd551d">Frame::AddCallback</a>(<span class="stringliteral">&quot;MyFramePluginName&quot;</span>, [](<a class="code hl_typedef" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>) { ... });</div>
 <div class="ttc" id="anamespace_frame_html_a77f5e4db78be13d003454b0dd9fd551d"><div class="ttname"><a href="namespace_frame.html#a77f5e4db78be13d003454b0dd9fd551d">Frame::AddCallback</a></div><div class="ttdeci">void AddCallback(const Util::StringAtom name, std::function&lt; void(const CoreGraphics::CmdBufferId, IndexT, IndexT)&gt; func)</div><div class="ttdoc">add function callback to global dictionary</div><div class="ttdef"><b>Definition</b> frameplugin.cc:106</div></div>
-<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
+<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:39</div></div>
 </div><!-- fragment --><p>And then replace the ... with the code from before. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -129,7 +129,7 @@ The CoreGraphics Subsystem</h1>
 			<ul>
 				<li class="navelem"><a class="el" href="render.html">Render Systems</a></li>
 				<li class="footer">
-					Generated on Mon Jul 7 2025 15:07:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 7 2025 17:24:18 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

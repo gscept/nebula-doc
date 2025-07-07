@@ -108,17 +108,17 @@ var hierarchy =
       [ "Util::PinnedArray< MAX_ALLOCS, Threading::ThreadId >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::PinnedArray< 0xFFFF, Threading::ThreadId >", "class_util_1_1_pinned_array.html", null ]
     ] ],
-    [ "Util::Array< uint32 >", "class_util_1_1_array.html", [
-      [ "Util::PinnedArray< 0xFFFF, uint32 >", "class_util_1_1_pinned_array.html", null ]
+    [ "Util::Array< uint32_t >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, uint32_t >", "class_util_1_1_pinned_array.html", null ]
     ] ],
-    [ "Util::Array< uint64 >", "class_util_1_1_array.html", [
-      [ "Util::PinnedArray< 0xFFFF, uint64 >", "class_util_1_1_pinned_array.html", null ]
+    [ "Util::Array< uint64_t >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, uint64_t >", "class_util_1_1_pinned_array.html", null ]
     ] ],
     [ "Util::Array< Util::Tuple< float, float > >", "class_util_1_1_array.html", [
       [ "Util::PinnedArray< 0xFFFF, Util::Tuple< float, float > >", "class_util_1_1_pinned_array.html", null ]
     ] ],
-    [ "Util::Array< Util::Tuple< uint32, uint32 > >", "class_util_1_1_array.html", [
-      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< uint32, uint32 > >", "class_util_1_1_pinned_array.html", null ]
+    [ "Util::Array< Util::Tuple< uint32_t, uint32_t > >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, Util::Tuple< uint32_t, uint32_t > >", "class_util_1_1_pinned_array.html", null ]
     ] ],
     [ "Util::Array< void * >", "class_util_1_1_array.html", [
       [ "Util::PinnedArray< 0xFFFF, void * >", "class_util_1_1_pinned_array.html", null ]
@@ -145,7 +145,7 @@ var hierarchy =
       [ "Ids::IdAllocator< VkDevice, VkDescriptorSetLayout, Util::Array< VkDescriptorPoolSize >, Util::Array< Util::Pair< CoreGraphics::SamplerId, uint32_t > >, Util::HashTable< uint32_t, bool >, Util::Array< VkDescriptorPool >, Util::Array< uint > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkPipelineLayout >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkSampler, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< VkDevice, VkSemaphore, CoreGraphics::SemaphoreType, uint64 >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< VkDevice, VkSemaphore, CoreGraphics::SemaphoreType, uint64_t >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkReflectionInfo, VkShaderSetupInfo, VkShaderRuntimeInfo, Util::Array< CoreGraphics::ShaderProgramId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkShaderProgramSetupInfo, VkProgramReflectionInfo, VkShaderProgramRuntimeInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkSurfaceKHR, VkSwapchainKHR, uint, CoreGraphics::DisplayMode, Util::Array< VkImage >, Util::Array< VkImageView >, VkQueue, CoreGraphics::QueueType, CoreGraphics::CmdBufferPoolId >", "class_ids_1_1_id_allocator.html", null ],
@@ -168,14 +168,14 @@ var hierarchy =
       [ "Ids::IdAllocator< float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplates::Entry * >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * > >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32 >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, bool >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, bool >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::Array< ParticleSystemRuntime >, Graphics::ContextEntityId, ParticleRuntime, Graphics::GraphicsEntityId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Memory::RangeAllocation, Raytracing::UpdateType, uint, Util::FixedArray< CoreGraphics::BlasId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< TerrainLoadInfo, TerrainRuntimeInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< BiomeSettings, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::MeshId, uint, IndexT, float, float, VegetationType >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::mat4, bool, Graphics::GraphicsEntityId, VisibilityEntityType, VisibilityResultArray, Graphics::GraphicsEntityId, DependencyMode, VisibilityDrawList, Memory::ArenaAllocator< 1024 > >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Graphics::GraphicsEntityId, uint32 >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Graphics::GraphicsEntityId, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Audio::ClipId, Math::point, Math::vector, float, float, float, float, bool, float >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< SoLoud::Wav, uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Vulkan::VkShaderCache::VkReflectionInfo, Vulkan::VkShaderCache::VkShaderSetupInfo, Vulkan::VkShaderCache::VkShaderRuntimeInfo, VkShaderProgramAllocator >", "class_ids_1_1_id_allocator.html", null ],

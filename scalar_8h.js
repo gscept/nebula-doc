@@ -78,7 +78,7 @@ var scalar_8h =
     [ "Math::rad2deg", "namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29", null ],
     [ "Math::rand", "namespace_math.html#a84d4b4302f8bfa05bfdc1026522372e7", null ],
     [ "Math::rand", "namespace_math.html#a08abe5b000f1a6276d831437d0597811", null ],
-    [ "Math::randxor", "namespace_math.html#a2e8d7984ef03f3b9d1d868ae6632b532", null ],
+    [ "Math::randxor", "namespace_math.html#abccf568637b8fb07f228698de34cdcc4", null ],
     [ "Math::round", "namespace_math.html#a5d8379e7f5000d6abbf7f7998b5247c4", null ],
     [ "Math::roundtopow2", "namespace_math.html#aeaf609a6f7ae59cf94ebe1d6aa5e5640", null ],
     [ "Math::saturate", "namespace_math.html#a89b23d57e90959ad38665960b4d3ede6", null ],

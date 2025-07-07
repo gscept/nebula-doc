@@ -142,30 +142,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a352478be2693c70b157d5152dd25d601" id="r_a352478be2693c70b157d5152dd25d601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a352478be2693c70b157d5152dd25d601">ProfilingClear</a> ()</td></tr>
 <tr class="memdesc:a352478be2693c70b157d5152dd25d601"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all scopes  <br /></td></tr>
 <tr class="separator:a352478be2693c70b157d5152dd25d601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aae1001e25d260c708a347e26d854af" id="r_a4aae1001e25d260c708a347e26d854af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aae1001e25d260c708a347e26d854af">ProfilingIncreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
-<tr class="memdesc:a4aae1001e25d260c708a347e26d854af"><td class="mdescLeft">&#160;</td><td class="mdescRight">increment profiling counter  <br /></td></tr>
-<tr class="separator:a4aae1001e25d260c708a347e26d854af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed4a468cc81f8e986ebd8e51c24e485" id="r_a7ed4a468cc81f8e986ebd8e51c24e485"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed4a468cc81f8e986ebd8e51c24e485">ProfilingDecreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
-<tr class="memdesc:a7ed4a468cc81f8e986ebd8e51c24e485"><td class="mdescLeft">&#160;</td><td class="mdescRight">decrement profiling counter  <br /></td></tr>
-<tr class="separator:a7ed4a468cc81f8e986ebd8e51c24e485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37fdbc46ecd7650aa2b8610b72c7309e" id="r_a37fdbc46ecd7650aa2b8610b72c7309e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37fdbc46ecd7650aa2b8610b72c7309e">ProfilingGetCounters</a> ()</td></tr>
-<tr class="memdesc:a37fdbc46ecd7650aa2b8610b72c7309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return table of counters  <br /></td></tr>
-<tr class="separator:a37fdbc46ecd7650aa2b8610b72c7309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12c2f12d73d18c425ed486e7c52cd9d9" id="r_a12c2f12d73d18c425ed486e7c52cd9d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c2f12d73d18c425ed486e7c52cd9d9">ProfilingSetupBudgetCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> budget)</td></tr>
-<tr class="memdesc:a12c2f12d73d18c425ed486e7c52cd9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a profiling budget counter.  <br /></td></tr>
-<tr class="separator:a12c2f12d73d18c425ed486e7c52cd9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd03f638a7f3780332ef50a7cad1973" id="r_a4bd03f638a7f3780332ef50a7cad1973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd03f638a7f3780332ef50a7cad1973">ProfilingBudgetIncreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
-<tr class="memdesc:a4bd03f638a7f3780332ef50a7cad1973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment budget counter.  <br /></td></tr>
-<tr class="separator:a4bd03f638a7f3780332ef50a7cad1973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d47489aa1dbbcb7a09e18a65e4b2d9d" id="r_a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d47489aa1dbbcb7a09e18a65e4b2d9d">ProfilingBudgetDecreaseCounter</a> (const char *id, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> value)</td></tr>
-<tr class="memdesc:a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement budget counter.  <br /></td></tr>
-<tr class="separator:a9d47489aa1dbbcb7a09e18a65e4b2d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76aa35245c35c3d08b2f4b612db2ffe5" id="r_a76aa35245c35c3d08b2f4b612db2ffe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76aa35245c35c3d08b2f4b612db2ffe5">ProfilingIncreaseCounter</a> (const char *id, uint64_t value)</td></tr>
+<tr class="memdesc:a76aa35245c35c3d08b2f4b612db2ffe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">increment profiling counter  <br /></td></tr>
+<tr class="separator:a76aa35245c35c3d08b2f4b612db2ffe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6876095d7b3b3adf2da08e5e3e07d7f" id="r_ad6876095d7b3b3adf2da08e5e3e07d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6876095d7b3b3adf2da08e5e3e07d7f">ProfilingDecreaseCounter</a> (const char *id, uint64_t value)</td></tr>
+<tr class="memdesc:ad6876095d7b3b3adf2da08e5e3e07d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">decrement profiling counter  <br /></td></tr>
+<tr class="separator:ad6876095d7b3b3adf2da08e5e3e07d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae15952b7c4813a2a97829a6fa4f290ed" id="r_ae15952b7c4813a2a97829a6fa4f290ed"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, uint64_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae15952b7c4813a2a97829a6fa4f290ed">ProfilingGetCounters</a> ()</td></tr>
+<tr class="memdesc:ae15952b7c4813a2a97829a6fa4f290ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">return table of counters  <br /></td></tr>
+<tr class="separator:ae15952b7c4813a2a97829a6fa4f290ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88d29614312541ac98cdcf008d75633" id="r_ab88d29614312541ac98cdcf008d75633"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88d29614312541ac98cdcf008d75633">ProfilingSetupBudgetCounter</a> (const char *id, uint64_t budget)</td></tr>
+<tr class="memdesc:ab88d29614312541ac98cdcf008d75633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a profiling budget counter.  <br /></td></tr>
+<tr class="separator:ab88d29614312541ac98cdcf008d75633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7d82c0e3f339bc123c04dd4aa438f9" id="r_afc7d82c0e3f339bc123c04dd4aa438f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7d82c0e3f339bc123c04dd4aa438f9">ProfilingBudgetIncreaseCounter</a> (const char *id, uint64_t value)</td></tr>
+<tr class="memdesc:afc7d82c0e3f339bc123c04dd4aa438f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment budget counter.  <br /></td></tr>
+<tr class="separator:afc7d82c0e3f339bc123c04dd4aa438f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4881e8ba6f5799de5ba0c799b40a060" id="r_ae4881e8ba6f5799de5ba0c799b40a060"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4881e8ba6f5799de5ba0c799b40a060">ProfilingBudgetDecreaseCounter</a> (const char *id, uint64_t value)</td></tr>
+<tr class="memdesc:ae4881e8ba6f5799de5ba0c799b40a060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement budget counter.  <br /></td></tr>
+<tr class="separator:ae4881e8ba6f5799de5ba0c799b40a060"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73a13f1ea0095c745ec458242bcc8f12" id="r_a73a13f1ea0095c745ec458242bcc8f12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a13f1ea0095c745ec458242bcc8f12">ProfilingBudgetResetCounter</a> (const char *id)</td></tr>
 <tr class="memdesc:a73a13f1ea0095c745ec458242bcc8f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset budget counter.  <br /></td></tr>
 <tr class="separator:a73a13f1ea0095c745ec458242bcc8f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0df09e01d96d875d069028b0e526575b" id="r_a0df09e01d96d875d069028b0e526575b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df09e01d96d875d069028b0e526575b">ProfilingGetBudgetCounters</a> ()</td></tr>
-<tr class="memdesc:a0df09e01d96d875d069028b0e526575b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return set of budget counters.  <br /></td></tr>
-<tr class="separator:a0df09e01d96d875d069028b0e526575b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012eef3efaedd5750d6acda67b24f4a3" id="r_a012eef3efaedd5750d6acda67b24f4a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint64_t, uint64_t &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012eef3efaedd5750d6acda67b24f4a3">ProfilingGetBudgetCounters</a> ()</td></tr>
+<tr class="memdesc:a012eef3efaedd5750d6acda67b24f4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return set of budget counters.  <br /></td></tr>
+<tr class="separator:a012eef3efaedd5750d6acda67b24f4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -184,14 +184,14 @@ Variables</h2></td></tr>
 <tr class="separator:a4d257d4a130194bd762b2dcd513db54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b517ae2f8ca36866f1779461bb3bdff" id="r_a7b517ae2f8ca36866f1779461bb3bdff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b517ae2f8ca36866f1779461bb3bdff">counterLock</a></td></tr>
 <tr class="separator:a7b517ae2f8ca36866f1779461bb3bdff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ed7e1d051f0b0642c72ace139ee946d" id="r_a4ed7e1d051f0b0642c72ace139ee946d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ed7e1d051f0b0642c72ace139ee946d">counters</a></td></tr>
-<tr class="separator:a4ed7e1d051f0b0642c72ace139ee946d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956f3f2e2927f2c1add2fe9e74455b7a" id="r_a956f3f2e2927f2c1add2fe9e74455b7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a956f3f2e2927f2c1add2fe9e74455b7a">budgetCounters</a></td></tr>
-<tr class="separator:a956f3f2e2927f2c1add2fe9e74455b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f5dd0b1a57d854713f44af48a8799b" id="r_ac0f5dd0b1a57d854713f44af48a8799b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f5dd0b1a57d854713f44af48a8799b">counters</a></td></tr>
+<tr class="separator:ac0f5dd0b1a57d854713f44af48a8799b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3137551188af6a913f956df993bf8b0" id="r_ac3137551188af6a913f956df993bf8b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint64_t, uint64_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3137551188af6a913f956df993bf8b0">budgetCounters</a></td></tr>
+<tr class="separator:ac3137551188af6a913f956df993bf8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9d47489aa1dbbcb7a09e18a65e4b2d9d" name="a9d47489aa1dbbcb7a09e18a65e4b2d9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d47489aa1dbbcb7a09e18a65e4b2d9d">&#9670;&#160;</a></span>ProfilingBudgetDecreaseCounter()</h2>
+<a id="ae4881e8ba6f5799de5ba0c799b40a060" name="ae4881e8ba6f5799de5ba0c799b40a060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4881e8ba6f5799de5ba0c799b40a060">&#9670;&#160;</a></span>ProfilingBudgetDecreaseCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +204,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -213,8 +213,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bd03f638a7f3780332ef50a7cad1973" name="a4bd03f638a7f3780332ef50a7cad1973"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd03f638a7f3780332ef50a7cad1973">&#9670;&#160;</a></span>ProfilingBudgetIncreaseCounter()</h2>
+<a id="afc7d82c0e3f339bc123c04dd4aa438f9" name="afc7d82c0e3f339bc123c04dd4aa438f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7d82c0e3f339bc123c04dd4aa438f9">&#9670;&#160;</a></span>ProfilingBudgetIncreaseCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,8 +274,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ed4a468cc81f8e986ebd8e51c24e485" name="a7ed4a468cc81f8e986ebd8e51c24e485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ed4a468cc81f8e986ebd8e51c24e485">&#9670;&#160;</a></span>ProfilingDecreaseCounter()</h2>
+<a id="ad6876095d7b3b3adf2da08e5e3e07d7f" name="ad6876095d7b3b3adf2da08e5e3e07d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6876095d7b3b3adf2da08e5e3e07d7f">&#9670;&#160;</a></span>ProfilingDecreaseCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +288,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,14 +297,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0df09e01d96d875d069028b0e526575b" name="a0df09e01d96d875d069028b0e526575b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0df09e01d96d875d069028b0e526575b">&#9670;&#160;</a></span>ProfilingGetBudgetCounters()</h2>
+<a id="a012eef3efaedd5750d6acda67b24f4a3" name="a012eef3efaedd5750d6acda67b24f4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a012eef3efaedd5750d6acda67b24f4a3">&#9670;&#160;</a></span>ProfilingGetBudgetCounters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt; &amp; Profiling::ProfilingGetBudgetCounters </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint64_t, uint64_t &gt; &gt; &amp; Profiling::ProfilingGetBudgetCounters </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -335,14 +335,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a37fdbc46ecd7650aa2b8610b72c7309e" name="a37fdbc46ecd7650aa2b8610b72c7309e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37fdbc46ecd7650aa2b8610b72c7309e">&#9670;&#160;</a></span>ProfilingGetCounters()</h2>
+<a id="ae15952b7c4813a2a97829a6fa4f290ed" name="ae15952b7c4813a2a97829a6fa4f290ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae15952b7c4813a2a97829a6fa4f290ed">&#9670;&#160;</a></span>ProfilingGetCounters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &amp; Profiling::ProfilingGetCounters </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, uint64_t &gt; &amp; Profiling::ProfilingGetCounters </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -392,8 +392,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4aae1001e25d260c708a347e26d854af" name="a4aae1001e25d260c708a347e26d854af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aae1001e25d260c708a347e26d854af">&#9670;&#160;</a></span>ProfilingIncreaseCounter()</h2>
+<a id="a76aa35245c35c3d08b2f4b612db2ffe5" name="a76aa35245c35c3d08b2f4b612db2ffe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76aa35245c35c3d08b2f4b612db2ffe5">&#9670;&#160;</a></span>ProfilingIncreaseCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +406,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -491,8 +491,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a12c2f12d73d18c425ed486e7c52cd9d9" name="a12c2f12d73d18c425ed486e7c52cd9d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12c2f12d73d18c425ed486e7c52cd9d9">&#9670;&#160;</a></span>ProfilingSetupBudgetCounter()</h2>
+<a id="ab88d29614312541ac98cdcf008d75633" name="ab88d29614312541ac98cdcf008d75633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88d29614312541ac98cdcf008d75633">&#9670;&#160;</a></span>ProfilingSetupBudgetCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +505,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>budget</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>budget</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -515,14 +515,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a956f3f2e2927f2c1add2fe9e74455b7a" name="a956f3f2e2927f2c1add2fe9e74455b7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a956f3f2e2927f2c1add2fe9e74455b7a">&#9670;&#160;</a></span>budgetCounters</h2>
+<a id="ac3137551188af6a913f956df993bf8b0" name="ac3137551188af6a913f956df993bf8b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3137551188af6a913f956df993bf8b0">&#9670;&#160;</a></span>budgetCounters</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt; Profiling::budgetCounters</td>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint64_t, uint64_t &gt; &gt; Profiling::budgetCounters</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -571,14 +571,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ed7e1d051f0b0642c72ace139ee946d" name="a4ed7e1d051f0b0642c72ace139ee946d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ed7e1d051f0b0642c72ace139ee946d">&#9670;&#160;</a></span>counters</h2>
+<a id="ac0f5dd0b1a57d854713f44af48a8799b" name="ac0f5dd0b1a57d854713f44af48a8799b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f5dd0b1a57d854713f44af48a8799b">&#9670;&#160;</a></span>counters</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; Profiling::counters</td>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, uint64_t &gt; Profiling::counters</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -650,7 +650,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_profiling.html">Profiling</a></li>
 				<li class="footer">
-					Generated on Mon Jul 7 2025 15:07:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 7 2025 17:24:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

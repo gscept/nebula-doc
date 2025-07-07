@@ -138,30 +138,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10d423e88a0f4d853acfd98cc86cb0de" id="r_a10d423e88a0f4d853acfd98cc86cb0de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10d423e88a0f4d853acfd98cc86cb0de">SetToNextContext</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="memdesc:a10d423e88a0f4d853acfd98cc86cb0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">set to next context of type  <br /></td></tr>
 <tr class="separator:a10d423e88a0f4d853acfd98cc86cb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23714ecd080a3f4ab51e2f43ebc000c6" id="r_a23714ecd080a3f4ab51e2f43ebc000c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23714ecd080a3f4ab51e2f43ebc000c6">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>, 8 &gt; waitEvents)</td></tr>
-<tr class="memdesc:a23714ecd080a3f4ab51e2f43ebc000c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submission to context to execute later, supports waiting for a queue  <br /></td></tr>
-<tr class="separator:a23714ecd080a3f4ab51e2f43ebc000c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad640431c5c4a66ce15d781fb61d3016" id="r_aad640431c5c4a66ce15d781fb61d3016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad640431c5c4a66ce15d781fb61d3016">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCommandBuffer, 16 &gt; cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>, 8 &gt; waitEvents)</td></tr>
-<tr class="memdesc:aad640431c5c4a66ce15d781fb61d3016"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submissions to context to execute later, supports waiting for a queue  <br /></td></tr>
-<tr class="separator:aad640431c5c4a66ce15d781fb61d3016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa82a4677f9ccd324322397d26b1b9d38" id="r_aa82a4677f9ccd324322397d26b1b9d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82a4677f9ccd324322397d26b1b9d38">GetNextTimelineIndex</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
-<tr class="memdesc:aa82a4677f9ccd324322397d26b1b9d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the next submission id for a specific queue.  <br /></td></tr>
-<tr class="separator:aa82a4677f9ccd324322397d26b1b9d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12c7a7a8a9a4aaa949fef911e9efb0c4" id="r_a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
+<tr class="memitem:a9ae0eaded8ec2738e91960243f01c967" id="r_a9ae0eaded8ec2738e91960243f01c967"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ae0eaded8ec2738e91960243f01c967">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>, 8 &gt; waitEvents)</td></tr>
+<tr class="memdesc:a9ae0eaded8ec2738e91960243f01c967"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submission to context to execute later, supports waiting for a queue  <br /></td></tr>
+<tr class="separator:a9ae0eaded8ec2738e91960243f01c967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2cd75274ab50831aa8e0a69347a31d" id="r_a2b2cd75274ab50831aa8e0a69347a31d"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b2cd75274ab50831aa8e0a69347a31d">AppendSubmissionTimeline</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCommandBuffer, 16 &gt; cmds, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_submission_wait_event.html">CoreGraphics::SubmissionWaitEvent</a>, 8 &gt; waitEvents)</td></tr>
+<tr class="memdesc:a2b2cd75274ab50831aa8e0a69347a31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">append submissions to context to execute later, supports waiting for a queue  <br /></td></tr>
+<tr class="separator:a2b2cd75274ab50831aa8e0a69347a31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace79f936e0e32bf327680ef97ec64edf" id="r_ace79f936e0e32bf327680ef97ec64edf"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace79f936e0e32bf327680ef97ec64edf">GetNextTimelineIndex</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
+<tr class="memdesc:ace79f936e0e32bf327680ef97ec64edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the next submission id for a specific queue.  <br /></td></tr>
+<tr class="separator:ace79f936e0e32bf327680ef97ec64edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c7a7a8a9a4aaa949fef911e9efb0c4" id="r_a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c7a7a8a9a4aaa949fef911e9efb0c4">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkImage img, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;opaqueBinds, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseImageMemoryBind &gt; &amp;pageBinds)</td></tr>
 <tr class="memdesc:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse image bind timeline operation  <br /></td></tr>
 <tr class="separator:a12c7a7a8a9a4aaa949fef911e9efb0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5305aa2c4f7c49f8a629d7134d5b84c6" id="r_a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5305aa2c4f7c49f8a629d7134d5b84c6">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkBuffer buf, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;binds)</td></tr>
-<tr class="memdesc:a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse buffer bind timeline operation  <br /></td></tr>
-<tr class="separator:a5305aa2c4f7c49f8a629d7134d5b84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a243a9c66a1daaddd00a56ea627c0ee" id="r_a4a243a9c66a1daaddd00a56ea627c0ee"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a243a9c66a1daaddd00a56ea627c0ee">AppendSparseBind</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, const VkBuffer buf, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSparseMemoryBind &gt; &amp;binds)</td></tr>
+<tr class="memdesc:a4a243a9c66a1daaddd00a56ea627c0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a sparse buffer bind timeline operation  <br /></td></tr>
+<tr class="separator:a4a243a9c66a1daaddd00a56ea627c0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee777b00c02ff1cafb4b93e4bb17c1c" id="r_abee777b00c02ff1cafb4b93e4bb17c1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee777b00c02ff1cafb4b93e4bb17c1c">AppendPresentSignal</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkSemaphore sem)</td></tr>
 <tr class="memdesc:abee777b00c02ff1cafb4b93e4bb17c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append present signal.  <br /></td></tr>
 <tr class="separator:abee777b00c02ff1cafb4b93e4bb17c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aea8ffb9de88cc9069aba4aab90a45c" id="r_a4aea8ffb9de88cc9069aba4aab90a45c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aea8ffb9de88cc9069aba4aab90a45c">FlushSubmissions</a> (VkFence fence)</td></tr>
 <tr class="memdesc:a4aea8ffb9de88cc9069aba4aab90a45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush submissions.  <br /></td></tr>
 <tr class="separator:a4aea8ffb9de88cc9069aba4aab90a45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae43e87d13e1ae182a026a7cf2f77ea" id="r_acae43e87d13e1ae182a026a7cf2f77ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae43e87d13e1ae182a026a7cf2f77ea">Wait</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> index)</td></tr>
-<tr class="memdesc:acae43e87d13e1ae182a026a7cf2f77ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for timeline index  <br /></td></tr>
-<tr class="separator:acae43e87d13e1ae182a026a7cf2f77ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af010180d54dc1010b451cea192fefc9f" id="r_af010180d54dc1010b451cea192fefc9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af010180d54dc1010b451cea192fefc9f">Wait</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, uint64_t index)</td></tr>
+<tr class="memdesc:af010180d54dc1010b451cea192fefc9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for timeline index  <br /></td></tr>
+<tr class="separator:af010180d54dc1010b451cea192fefc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a922ecd0579c16fe9051adb59b79a14d3" id="r_a922ecd0579c16fe9051adb59b79a14d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a922ecd0579c16fe9051adb59b79a14d3">Poll</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, uint64_t index)</td></tr>
 <tr class="memdesc:a922ecd0579c16fe9051adb59b79a14d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">check to see if timeline index has passed  <br /></td></tr>
 <tr class="separator:a922ecd0579c16fe9051adb59b79a14d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,8 +182,8 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ade53ca40bafff2cf521074624ef56e94" id="r_ade53ca40bafff2cf521074624ef56e94"><td class="memItemLeft" align="right" valign="top">VkSemaphore&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade53ca40bafff2cf521074624ef56e94">GetSemaphore</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="separator:ade53ca40bafff2cf521074624ef56e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac54bae1ffc67e3db7ee6c9adf7e4a6" id="r_acac54bae1ffc67e3db7ee6c9adf7e4a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac54bae1ffc67e3db7ee6c9adf7e4a6">GetSemaphoreId</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
-<tr class="separator:acac54bae1ffc67e3db7ee6c9adf7e4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fa4fab8650299e3aadebfcd0f3262d" id="r_a02fa4fab8650299e3aadebfcd0f3262d"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02fa4fab8650299e3aadebfcd0f3262d">GetSemaphoreId</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
+<tr class="separator:a02fa4fab8650299e3aadebfcd0f3262d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f8e7ef1524e22f6ab2014763fec967" id="r_a17f8e7ef1524e22f6ab2014763fec967"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f8e7ef1524e22f6ab2014763fec967">IncrementSemaphoreId</a> (const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type)</td></tr>
 <tr class="separator:a17f8e7ef1524e22f6ab2014763fec967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -197,8 +197,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aab52afb2a9258dc9311765d8aa0f74fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e5dfcf572a3565010c0745b5f24843" id="r_a78e5dfcf572a3565010c0745b5f24843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSemaphore &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e5dfcf572a3565010c0745b5f24843">semaphores</a></td></tr>
 <tr class="separator:a78e5dfcf572a3565010c0745b5f24843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab316e11042115bdb33a83077457f520c" id="r_ab316e11042115bdb33a83077457f520c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab316e11042115bdb33a83077457f520c">semaphoreSubmissionIds</a></td></tr>
-<tr class="separator:ab316e11042115bdb33a83077457f520c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d84cc43fd13c2a5c18aa2eac6a39db" id="r_a80d84cc43fd13c2a5c18aa2eac6a39db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint64_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d84cc43fd13c2a5c18aa2eac6a39db">semaphoreSubmissionIds</a></td></tr>
+<tr class="separator:a80d84cc43fd13c2a5c18aa2eac6a39db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e915841b17e30f6de834f64709cd5fa" id="r_a5e915841b17e30f6de834f64709cd5fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission2.html">TimelineSubmission2</a>, 16 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e915841b17e30f6de834f64709cd5fa">submissions</a></td></tr>
 <tr class="separator:a5e915841b17e30f6de834f64709cd5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b6c696d6077df731d3bff0ad7893e9" id="r_ad6b6c696d6077df731d3bff0ad7893e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html">SparseBindSubmission</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b6c696d6077df731d3bff0ad7893e9">sparseBindSubmissions</a></td></tr>
@@ -275,14 +275,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a5305aa2c4f7c49f8a629d7134d5b84c6" name="a5305aa2c4f7c49f8a629d7134d5b84c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5305aa2c4f7c49f8a629d7134d5b84c6">&#9670;&#160;</a></span>AppendSparseBind() <span class="overload">[1/2]</span></h2>
+<a id="a4a243a9c66a1daaddd00a56ea627c0ee" name="a4a243a9c66a1daaddd00a56ea627c0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a243a9c66a1daaddd00a56ea627c0ee">&#9670;&#160;</a></span>AppendSparseBind() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::AppendSparseBind </td>
+          <td class="memname">uint64_t Vulkan::VkSubContextHandler::AppendSparseBind </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -336,14 +336,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aad640431c5c4a66ce15d781fb61d3016" name="aad640431c5c4a66ce15d781fb61d3016"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad640431c5c4a66ce15d781fb61d3016">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[1/2]</span></h2>
+<a id="a2b2cd75274ab50831aa8e0a69347a31d" name="a2b2cd75274ab50831aa8e0a69347a31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2cd75274ab50831aa8e0a69347a31d">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::AppendSubmissionTimeline </td>
+          <td class="memname">uint64_t Vulkan::VkSubContextHandler::AppendSubmissionTimeline </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -364,14 +364,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a23714ecd080a3f4ab51e2f43ebc000c6" name="a23714ecd080a3f4ab51e2f43ebc000c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23714ecd080a3f4ab51e2f43ebc000c6">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[2/2]</span></h2>
+<a id="a9ae0eaded8ec2738e91960243f01c967" name="a9ae0eaded8ec2738e91960243f01c967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae0eaded8ec2738e91960243f01c967">&#9670;&#160;</a></span>AppendSubmissionTimeline() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::AppendSubmissionTimeline </td>
+          <td class="memname">uint64_t Vulkan::VkSubContextHandler::AppendSubmissionTimeline </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -449,14 +449,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aa82a4677f9ccd324322397d26b1b9d38" name="aa82a4677f9ccd324322397d26b1b9d38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82a4677f9ccd324322397d26b1b9d38">&#9670;&#160;</a></span>GetNextTimelineIndex()</h2>
+<a id="ace79f936e0e32bf327680ef97ec64edf" name="ace79f936e0e32bf327680ef97ec64edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace79f936e0e32bf327680ef97ec64edf">&#9670;&#160;</a></span>GetNextTimelineIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::GetNextTimelineIndex </td>
+          <td class="memname">uint64_t Vulkan::VkSubContextHandler::GetNextTimelineIndex </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
@@ -512,8 +512,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="acac54bae1ffc67e3db7ee6c9adf7e4a6" name="acac54bae1ffc67e3db7ee6c9adf7e4a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acac54bae1ffc67e3db7ee6c9adf7e4a6">&#9670;&#160;</a></span>GetSemaphoreId()</h2>
+<a id="a02fa4fab8650299e3aadebfcd0f3262d" name="a02fa4fab8650299e3aadebfcd0f3262d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fa4fab8650299e3aadebfcd0f3262d">&#9670;&#160;</a></span>GetSemaphoreId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,7 +522,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a> Vulkan::VkSubContextHandler::GetSemaphoreId </td>
+          <td class="memname">uint64_t Vulkan::VkSubContextHandler::GetSemaphoreId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
@@ -650,8 +650,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="acae43e87d13e1ae182a026a7cf2f77ea" name="acae43e87d13e1ae182a026a7cf2f77ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae43e87d13e1ae182a026a7cf2f77ea">&#9670;&#160;</a></span>Wait()</h2>
+<a id="af010180d54dc1010b451cea192fefc9f" name="af010180d54dc1010b451cea192fefc9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af010180d54dc1010b451cea192fefc9f">&#9670;&#160;</a></span>Wait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,7 +664,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -813,8 +813,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab316e11042115bdb33a83077457f520c" name="ab316e11042115bdb33a83077457f520c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab316e11042115bdb33a83077457f520c">&#9670;&#160;</a></span>semaphoreSubmissionIds</h2>
+<a id="a80d84cc43fd13c2a5c18aa2eac6a39db" name="a80d84cc43fd13c2a5c18aa2eac6a39db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d84cc43fd13c2a5c18aa2eac6a39db">&#9670;&#160;</a></span>semaphoreSubmissionIds</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -823,7 +823,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="types_8h.html#abc0f5bc07737e498f287334775dff2b6">uint64</a>&gt; &gt; Vulkan::VkSubContextHandler::semaphoreSubmissionIds</td>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;uint64_t&gt; &gt; Vulkan::VkSubContextHandler::semaphoreSubmissionIds</td>
         </tr>
       </table>
   </td>
@@ -912,7 +912,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_sub_context_handler.html">VkSubContextHandler</a></li>
 				<li class="footer">
-					Generated on Mon Jul 7 2025 15:07:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 7 2025 17:24:26 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

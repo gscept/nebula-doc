@@ -7,8 +7,8 @@ var struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission =
     [ "imageMemoryBinds", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a72bdb2c1c851e8633c0147683a09c2da", null ],
     [ "imageOpaqueBindInfos", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa18e92b737020aa906c421943dd266ef", null ],
     [ "opaqueMemoryBinds", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa60fc77518b8f22dd0731ae92de5b9a0", null ],
-    [ "signalIndices", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a9cbb13c52f38891ed0b27369881ac8b4", null ],
+    [ "signalIndices", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a406033cebfc08f96154f23eec74549b4", null ],
     [ "signalSemaphores", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a17942f4542d51894f427c4fc0bab3ebf", null ],
-    [ "waitIndices", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a2c6de18e1826dbd8c25e33a70f76d2a7", null ],
+    [ "waitIndices", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a64be8e534f9a2837e6e612bec47b8c79", null ],
     [ "waitSemaphores", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a671dc41fc52a56cc4bbe25b8d0b61f63", null ]
 ];
