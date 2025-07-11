@@ -619,7 +619,7 @@ var searchData=
   ['getsendstream_616',['GetSendStream',['../class_net_1_1_message_client.html#acaa996f182dac48554eea8e13056ce1a',1,'Net::MessageClient::GetSendStream()'],['../class_net_1_1_message_client_connection.html#a90f363408ef11edd50ec7c3ba34ce6cb',1,'Net::MessageClientConnection::GetSendStream()'],['../class_net_1_1_std_tcp_client.html#ae48a5a5f8249ec81790ed1b37fb43098',1,'Net::StdTcpClient::GetSendStream()'],['../class_net_1_1_std_tcp_client_connection.html#a92d19d58bfa1244b9d5654b59fd053ce',1,'Net::StdTcpClientConnection::GetSendStream()']]],
   ['getserveraddress_617',['GetServerAddress',['../class_net_1_1_std_tcp_client.html#a88011898b10e3984de6bcfee7f0e7007',1,'Net::StdTcpClient']]],
   ['getsettings_618',['GetSettings',['../class_graphics_1_1_camera_context.html#a2a539130af8f0f6a42fac938471dc3b7',1,'Graphics::CameraContext']]],
-  ['getsettingsjson_619',['GetSettingsJson',['../namespace_posix.html#acb59b7b8b7b6f53c74bfe285cf3651e9',1,'Posix']]],
+  ['getsettingsjson_619',['GetSettingsJson',['../namespace_posix.html#ab42975ec56b08f2f1e902d2611feb663',1,'Posix']]],
   ['getshader_620',['GetShader',['../class_base_1_1_shader_server_base.html#af299d7aa23a768357307f44b407379e2',1,'Base::ShaderServerBase::GetShader()'],['../class_base_1_1_instance_renderer_base.html#a1fb9d2a955b0dd73cc04fd480d234136',1,'Base::InstanceRendererBase::GetShader()']]],
   ['getshaderprogram_621',['GetShaderProgram',['../class_vulkan_1_1_vk_shader_cache.html#aae476077b5ea807b46ce4d15918c4485',1,'Vulkan::VkShaderCache']]],
   ['getshadowview_622',['GetShadowView',['../class_lighting_1_1_c_s_m_util.html#a00dc5778fba5dbcc3bff550bcbf7572a',1,'Lighting::CSMUtil']]],

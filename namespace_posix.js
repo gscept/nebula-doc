@@ -25,7 +25,7 @@ var namespace_posix =
     [ "__ImplementClass", "namespace_posix.html#a766c4d552431ef3ad2f78c4ea8f9fb58", null ],
     [ "__ImplementClass", "namespace_posix.html#ac74961a87ae2fde940501a66a3e9b09e", null ],
     [ "__ImplementClass", "namespace_posix.html#a16574665b5fe886e2c86958cf51abf71", null ],
-    [ "GetSettingsJson", "namespace_posix.html#acb59b7b8b7b6f53c74bfe285cf3651e9", null ],
+    [ "GetSettingsJson", "namespace_posix.html#ab42975ec56b08f2f1e902d2611feb663", null ],
     [ "operator!=", "namespace_posix.html#ae092e2b58efbc313132c6c234dcccb88", null ],
     [ "operator<", "namespace_posix.html#adf86f6d7dc7b52904df46312f4967200", null ],
     [ "operator==", "namespace_posix.html#a2518ea191d36b453464e745d632ecd19", null ],
