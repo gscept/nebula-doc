@@ -1,5 +1,9 @@
 var NAVTREEINDEX157 =
 {
+"tinystr_8h.html#ace60487cee20f188d1d8c0f4504549da":[10,0,0,0,12,1,13],
+"tinystr_8h.html#ad56c73c4b133b623f29fdf9e5240296d":[10,0,0,0,12,1,6],
+"tinystr_8h.html#ad5a4ecbced1596c900ac7d7a51660357":[10,0,0,0,12,1,16],
+"tinystr_8h.html#ae341476cd6b94ee32e3e93110a759581":[10,0,0,0,12,1,3],
 "tinystr_8h_source.html":[10,0,0,0,12,1],
 "tinyxml_8cc.html":[10,0,0,0,12,2],
 "tinyxml_8cc.html#ac0c147e77b1e4e394525503de1c45531":[10,0,0,0,12,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX157 =
 "vkbarrier_8cc.html#a8e90a25ed6079f4c2a9af768273a776f":[10,0,0,7,5,5,2,1],
 "vkbarrier_8h.html":[10,0,0,7,5,5,3],
 "vkbarrier_8h_source.html":[10,0,0,7,5,5,3],
-"vkbuffer_8cc.html":[10,0,0,7,5,5,4],
-"vkbuffer_8h.html":[10,0,0,7,5,5,5],
-"vkbuffer_8h_source.html":[10,0,0,7,5,5,5],
-"vkcommandbuffer_8cc.html":[10,0,0,7,5,5,6],
-"vkcommandbuffer_8h.html":[10,0,0,7,5,5,7]
+"vkbuffer_8cc.html":[10,0,0,7,5,5,4]
 };

@@ -163,7 +163,7 @@ var searchData=
   ['linux_160',['Linux',['../namespace_linux.html',1,'Linux'],['../namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43ea54d4597d6c9d6bbba0f5ea9ab56d7a23',1,'System::Linux']]],
   ['linuxcompletioncounter_161',['LinuxCompletionCounter',['../class_linux_1_1_linux_completion_counter.html',1,'Linux::LinuxCompletionCounter'],['../class_linux_1_1_linux_completion_counter.html#aef8c2cbf2206325aff8d542a5ea59d31',1,'Linux::LinuxCompletionCounter::LinuxCompletionCounter()']]],
   ['linuxcompletioncounter_2eh_162',['linuxcompletioncounter.h',['../linuxcompletioncounter_8h.html',1,'']]],
-  ['linuxevent_163',['LinuxEvent',['../class_linux_1_1_linux_event.html',1,'Linux::LinuxEvent'],['../class_linux_1_1_linux_event.html#ade22fe1f1f4412657122880cad469231',1,'Linux::LinuxEvent::LinuxEvent(bool manualReset=false)'],['../class_linux_1_1_linux_event.html#ae2988133007ac24a2c61ec93de48f7f5',1,'Linux::LinuxEvent::LinuxEvent(LinuxEvent &amp;&amp;ev)']]],
+  ['linuxevent_163',['LinuxEvent',['../class_linux_1_1_linux_event.html',1,'Linux::LinuxEvent'],['../class_linux_1_1_linux_event.html#ade22fe1f1f4412657122880cad469231',1,'Linux::LinuxEvent::LinuxEvent(bool manualReset=false)'],['../class_linux_1_1_linux_event.html#ae2988133007ac24a2c61ec93de48f7f5',1,'Linux::LinuxEvent::LinuxEvent(LinuxEvent &amp;&amp;ev)'],['../class_linux_1_1_linux_event.html#a019bb96e9384f26381b92800aa650d88',1,'Linux::LinuxEvent::LinuxEvent(const LinuxEvent &amp;ev)=default']]],
   ['linuxevent_2eh_164',['linuxevent.h',['../linuxevent_8h.html',1,'']]],
   ['linuxfilewatcher_2ecc_165',['linuxfilewatcher.cc',['../linuxfilewatcher_8cc.html',1,'']]],
   ['linuxfilewatcher_2eh_166',['linuxfilewatcher.h',['../linuxfilewatcher_8h.html',1,'']]],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"class_particles_1_1_envelope_sample_buffer.html#af44242bec339d93355b8f2408cd5b274":[9,0,52,3,3],
+"class_particles_1_1_envelope_sample_buffer.html#afe72055949736561806f0c3a21ba82c3":[8,0,59,3,9],
+"class_particles_1_1_envelope_sample_buffer.html#afe72055949736561806f0c3a21ba82c3":[9,0,52,3,9],
+"class_particles_1_1_particle_context.html":[8,0,59,5],
 "class_particles_1_1_particle_context.html":[9,0,52,5],
 "class_particles_1_1_particle_context.html#a08d525349a5e4f0d88e4fa3faad92c39":[8,0,59,5,19],
 "class_particles_1_1_particle_context.html#a08d525349a5e4f0d88e4fa3faad92c39":[9,0,52,5,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "class_physics_1_1_stream_actor_pool.html#a6ce8b2aae06c0d48fd0d700a246cb435":[8,0,60,23,6],
 "class_physics_1_1_stream_actor_pool.html#a6ce8b2aae06c0d48fd0d700a246cb435":[9,0,53,23,6],
 "class_physics_1_1_stream_actor_pool.html#a98172c8e02661359d4e40818680ce9d8":[8,0,60,23,15],
-"class_physics_1_1_stream_actor_pool.html#a98172c8e02661359d4e40818680ce9d8":[9,0,53,23,15],
-"class_physics_1_1_stream_actor_pool.html#aa13ff1c13c8c747b7c31fc30cc5698b6":[8,0,60,23,0],
-"class_physics_1_1_stream_actor_pool.html#aa13ff1c13c8c747b7c31fc30cc5698b6":[9,0,53,23,0],
-"class_physics_1_1_stream_actor_pool.html#ac599672e3cb472b2ba772808e16a18ae":[8,0,60,23,10],
-"class_physics_1_1_stream_actor_pool.html#ac599672e3cb472b2ba772808e16a18ae":[9,0,53,23,10]
+"class_physics_1_1_stream_actor_pool.html#a98172c8e02661359d4e40818680ce9d8":[9,0,53,23,15]
 };

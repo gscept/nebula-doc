@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"histogramcontext_8h.html":[10,0,0,7,20,5],
+"histogramcontext_8h_source.html":[10,0,0,7,20,5],
+"historyconsolehandler_8cc.html":[10,0,0,3,9,36],
+"historyconsolehandler_8h.html":[10,0,0,3,9,37],
 "historyconsolehandler_8h_source.html":[10,0,0,3,9,37],
 "htmlelement_8cc.html":[10,0,0,3,6,2,0],
 "htmlelement_8h.html":[10,0,0,3,6,2,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "ionebula3_8h.html":[10,0,0,3,9,8,1],
 "ionebula3_8h.html#ad60d99458fdf754d61d6b64eec323ce3":[10,0,0,3,9,8,1,0],
 "ionebula3_8h_source.html":[10,0,0,3,9,8,1],
-"iopagehandler_8cc.html":[10,0,0,3,9,3,2],
-"iopagehandler_8h.html":[10,0,0,3,9,3,3],
-"iopagehandler_8h_source.html":[10,0,0,3,9,3,3],
-"ioserver_8cc.html":[10,0,0,3,9,44],
-"ioserver_8h.html":[10,0,0,3,9,45]
+"iopagehandler_8cc.html":[10,0,0,3,9,3,2]
 };
