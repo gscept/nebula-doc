@@ -842,8 +842,8 @@ $(function(){initNavTree('mat4_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>    <a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> dist = 1.0f / (zf - zn);</div>
 <div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[0] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(2.0f / w, 0.0f, 0.0f, 0.0f);</div>
 <div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[1] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 2.0f / h, 0.0f, 0.0f);</div>
-<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, dist, 0.0f);</div>
-<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0, -dist * zn, 1.0f);</div>
+<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, 2.0f * dist, 0.0f);</div>
+<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0, -dist * (zf + zn), 1.0f);</div>
 <div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>    <span class="keywordflow">return</span> m;</div>
 <div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>}</div>
 </div>
@@ -857,8 +857,8 @@ $(function(){initNavTree('mat4_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>    <a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> dist = 1.0f / (zn - zf);</div>
 <div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[0] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(2.0f / w, 0.0f, 0.0f, 0.0f);</div>
 <div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[1] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 2.0f / h, 0.0f, 0.0f);</div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, dist, 0.0f);</div>
-<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0, dist * zn, 1.0f);</div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, 2.0f * dist, 0.0f);</div>
+<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0, dist * (zf + zn), 1.0f);</div>
 <div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>    <span class="keywordflow">return</span> m;</div>
 <div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>}</div>
 </div>
@@ -874,8 +874,8 @@ $(function(){initNavTree('mat4_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>    <a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> dist = 1.0f / (zf - zn);</div>
 <div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[0] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(2.0f * divwidth, 0.0f, 0.0f, 0.0f);</div>
 <div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[1] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 2.0f * divheight, 0.0f, 0.0f);</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, dist, 0.0f);</div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(-(l+r) * divwidth, - (b+t) * divheight, -dist *  zn, 1.0f);</div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, 2.0f * dist, 0.0f);</div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(-(l+r) * divwidth, - (b+t) * divheight, -dist *  (zf + zn), 1.0f);</div>
 <div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>    <span class="keywordflow">return</span> m;</div>
 <div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>}</div>
 </div>
@@ -891,8 +891,8 @@ $(function(){initNavTree('mat4_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>    <a class="code hl_typedef" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> dist = 1.0f / (zn - zf);</div>
 <div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[0] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(2.0f * divwidth, 0.0f, 0.0f, 0.0f);</div>
 <div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[1] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 2.0f * divheight, 0.0f, 0.0f);</div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, dist, 0.0f);</div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(-(l+r) * divwidth, - (b+t) * divheight, dist *  zn, 1.0f);</div>
+<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[2] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0.0f, 0.0f, 2.0f * dist, 0.0f);</div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>    m.<a class="code hl_variable" href="struct_math_1_1mat4.html#a83c6b6d31dbb2e3640bccfc06798024a">r</a>[3] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(-(l+r) * divwidth, - (b+t) * divheight, dist * (zf + zn), 1.0f);</div>
 <div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>    <span class="keywordflow">return</span> m;</div>
 <div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>}</div>
 </div>
@@ -1392,7 +1392,7 @@ $(function(){initNavTree('mat4_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="mat4_8h.html">mat4.h</a></li>
 				<li class="footer">
-					Generated on Sat Jul 12 2025 18:52:04 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Mon Jul 28 2025 19:34:40 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
