@@ -20,7 +20,7 @@ var class_multiplayer_1_1_base_multiplayer_client =
     [ "connectionId", "class_multiplayer_1_1_base_multiplayer_client.html#a7ef1333da08bc8382bcccba8f7b5cf18", null ],
     [ "connectionStatus", "class_multiplayer_1_1_base_multiplayer_client.html#abab747bc3fdabd0623bd7fc03d8c1f5f", null ],
     [ "isOpen", "class_multiplayer_1_1_base_multiplayer_client.html#ac57b406c0e5baeee472cbaf440a4d0eb", null ],
-    [ "maxMessagesPerFrame", "class_multiplayer_1_1_base_multiplayer_client.html#a384a3df1e56338fd45ac20f0f0df9898", null ],
+    [ "MaxMessagesPerFrame", "class_multiplayer_1_1_base_multiplayer_client.html#a373eeb6deb5f6fbab4f59725d7605334", null ],
     [ "netInterface", "class_multiplayer_1_1_base_multiplayer_client.html#ab191eb58b7c1c3be9113acdfe8947e2e", null ],
     [ "ping", "class_multiplayer_1_1_base_multiplayer_client.html#aa7424c7989538c317519e176d714ead4", null ],
     [ "timeoutTimer", "class_multiplayer_1_1_base_multiplayer_client.html#af21cb5aaaebf372b5a4d2e7c4a3a8916", null ]
