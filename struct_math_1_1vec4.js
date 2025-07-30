@@ -11,6 +11,7 @@ var struct_math_1_1vec4 =
     [ "load_float3", "struct_math_1_1vec4.html#ab2f7971d00609e220a72d2c1fc4ca328", null ],
     [ "load_ubyte4n", "struct_math_1_1vec4.html#a0edcef2eb672f76237219df1275a8bbe", null ],
     [ "loadu", "struct_math_1_1vec4.html#a0c2a7be147f8be26a9e6dd3cee83ff6c", null ],
+    [ "operator vec3", "struct_math_1_1vec4.html#aa271a223b0e2ffa1cdd5fd59c058915a", null ],
     [ "operator!=", "struct_math_1_1vec4.html#a8d58a920edc846a7fa1f393ee704a49a", null ],
     [ "operator*=", "struct_math_1_1vec4.html#abcddb8e8cb8d69419ebe2c6602340e26", null ],
     [ "operator*=", "struct_math_1_1vec4.html#a514dd2f5b06abc8159337009cf0c57ce", null ],

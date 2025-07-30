@@ -40,6 +40,7 @@ var vec3_8h =
     [ "Math::operator+", "namespace_math.html#a0b7ded3e52385ed7c55b69e53e722a78", null ],
     [ "Math::operator-", "namespace_math.html#a85a504b8d20d4a47e521d40177ff5436", null ],
     [ "Math::operator-", "namespace_math.html#a2ddfa74368dc93c87ff19efc8028ef47", null ],
+    [ "Math::operator/", "namespace_math.html#a22ead4004ab757bb4b7b3bb9fa7f5ead", null ],
     [ "Math::permute", "namespace_math.html#a526ab74d73f05cce62d051ae488d35a4", null ],
     [ "Math::reciprocal", "namespace_math.html#a4894cf218c208c4ac9883cb0f35b41a8", null ],
     [ "Math::reciprocalapprox", "namespace_math.html#afeaeb0a6478e48897a2612cf1e2d899b", null ],

@@ -139,7 +139,7 @@ var searchData=
   ['display_136',['display',['../class_app_1_1_render_application.html#aa1e593156826f1439fe182498d1a6a3e',1,'App::RenderApplication']]],
   ['displaydevice_137',['displayDevice',['../class_graphics_1_1_graphics_server.html#adcbdd012a3344561567d90504351ea6d',1,'Graphics::GraphicsServer']]],
   ['displaymode_138',['displayMode',['../struct_core_graphics_1_1_swapchain_create_info.html#a3a1661e5bc18ad43f5418529d9215f25',1,'CoreGraphics::SwapchainCreateInfo']]],
-  ['distance_139',['distance',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a984ac99fda9ad2bc6abaeff1ecc7564c',1,'GI::DDGIContext::Volume']]],
+  ['distance_139',['distance',['../struct_math_1_1plane.html#a7dd8d8d75f29f6509ba05b43ac5e11cc',1,'Math::plane::distance'],['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a984ac99fda9ad2bc6abaeff1ecc7564c',1,'GI::DDGIContext::Volume::distance']]],
   ['distanceexponent_140',['distanceExponent',['../struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a9f5c8a64614d4f022109b69afb2da521',1,'GI::DDGIContext::VolumeSetup::distanceExponent'],['../struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a1ea71da7502c56333d541f7675aed9a4',1,'GI::DDGIContext::Volume::distanceExponent']]],
   ['distribute_141',['distribute',['../class_messaging_1_1_message.html#ae66e9201f69a3f463047aa6f1a22ed54',1,'Messaging::Message']]],
   ['distributedmessages_142',['distributedMessages',['../class_game_1_1_message.html#a7026143280464c6048fdaa1be11f8300',1,'Game::Message']]],

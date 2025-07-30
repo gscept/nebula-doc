@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"stdtcpclientconnection_8h.html":[10,0,0,3,15,2,3],
 "stdtcpclientconnection_8h_source.html":[10,0,0,3,15,2,3],
 "stdtcpserver_8cc.html":[10,0,0,3,15,2,4],
 "stdtcpserver_8h.html":[10,0,0,3,15,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "struct_core_1_1_c_var_create_info.html":[9,0,10,2],
 "struct_core_1_1_c_var_create_info.html#a028ebed532cdd9b27d5ed59535c9c512":[8,0,12,2,0],
 "struct_core_1_1_c_var_create_info.html#a028ebed532cdd9b27d5ed59535c9c512":[9,0,10,2,0],
-"struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[8,0,12,2,3],
-"struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[9,0,10,2,3]
+"struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[8,0,12,2,3]
 };

@@ -272,6 +272,7 @@ var namespace_math =
     [ "operator-", "namespace_math.html#a2a56c839cbb421664b2292247a8817a0", null ],
     [ "operator-", "namespace_math.html#a7e47c766f3c01bfeeb2e2eae0a3bb4c6", null ],
     [ "operator-", "namespace_math.html#a82851e734896747dcb93cef26482052d", null ],
+    [ "operator/", "namespace_math.html#a22ead4004ab757bb4b7b3bb9fa7f5ead", null ],
     [ "operator/", "namespace_math.html#ab2e0128c34ad4f4ae853e939d4af5ba7", null ],
     [ "operator/", "namespace_math.html#abf0fcf967edb9ebfeec428ae676b2a10", null ],
     [ "operator/", "namespace_math.html#a500fe204f63011fd4104d931ed8044b3", null ],

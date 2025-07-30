@@ -13,6 +13,8 @@ var struct_math_1_1mat4 =
     [ "loadu", "struct_math_1_1mat4.html#abc0b99b6fdb2631213e4839cedf1ae13", null ],
     [ "operator!=", "struct_math_1_1mat4.html#ad744759143d8e26538b7c7cdf408545a", null ],
     [ "operator==", "struct_math_1_1mat4.html#a4033e1cb148562803230cbba87a1ab63", null ],
+    [ "operator[]", "struct_math_1_1mat4.html#a2ca3cc96a3a5088e4f3c814fe68bd7ed", null ],
+    [ "operator[]", "struct_math_1_1mat4.html#a91c42b94aabf9ebdd36847cf673e90f7", null ],
     [ "scale", "struct_math_1_1mat4.html#aea436587532c12ad2d1ae0ad1ad998bd", null ],
     [ "scale", "struct_math_1_1mat4.html#a76a895ea468acd08d174bca75506f84e", null ],
     [ "set", "struct_math_1_1mat4.html#ac2cf58a9ff3395a8d29bd9eb767000e2", null ],

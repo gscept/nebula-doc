@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[8,0,24,16,0],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html":[9,0,21,16,0],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a26de061085407be2eacd7d6390068762":[8,0,24,16,0,8],
 "struct_frame_1_1_frame_submission_1_1_compiled_impl.html#a26de061085407be2eacd7d6390068762":[9,0,21,16,0,8],
@@ -187,12 +188,14 @@ var NAVTREEINDEX127 =
 "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#af812c9cbf2f51332c51c48233fc69c5c":[9,0,25,0,1,3],
 "struct_game_1_1_angular_velocity.html":[8,0,26,1],
 "struct_game_1_1_angular_velocity.html":[9,0,23,0],
-"struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[8,0,26,1,5],
-"struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[9,0,23,0,5],
+"struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[8,0,26,1,6],
+"struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[9,0,23,0,6],
 "struct_game_1_1_angular_velocity.html#a3959d9556fb78a43462eb592b72c616b":[8,0,26,1,2],
 "struct_game_1_1_angular_velocity.html#a3959d9556fb78a43462eb592b72c616b":[9,0,23,0,2],
-"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[8,0,26,1,6],
-"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[9,0,23,0,6],
+"struct_game_1_1_angular_velocity.html#a3d2717326af66c184d69e9080ad29bd4":[8,0,26,1,5],
+"struct_game_1_1_angular_velocity.html#a3d2717326af66c184d69e9080ad29bd4":[9,0,23,0,5],
+"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[8,0,26,1,7],
+"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[9,0,23,0,7],
 "struct_game_1_1_angular_velocity.html#ac7f5c05bf98a578c40ad6cbb2ff5dda9":[8,0,26,1,3],
 "struct_game_1_1_angular_velocity.html#ac7f5c05bf98a578c40ad6cbb2ff5dda9":[9,0,23,0,3],
 "struct_game_1_1_angular_velocity.html#ad757b319ecdfea6841330be5579e59e0":[8,0,26,1,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b":[8,0,26,4,2],
 "struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b":[9,0,23,3,2],
 "struct_game_1_1_component_register_info.html":[8,0,26,7],
-"struct_game_1_1_component_register_info.html":[9,0,23,6],
-"struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33":[8,0,26,7,2],
-"struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33":[9,0,23,6,2],
-"struct_game_1_1_component_register_info.html#a7e60a51223c2a698274d20fa77d5d4ab":[8,0,26,7,1]
+"struct_game_1_1_component_register_info.html":[9,0,23,6]
 };

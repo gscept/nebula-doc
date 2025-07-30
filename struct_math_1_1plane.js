@@ -12,5 +12,7 @@ var struct_math_1_1plane =
     [ "b", "struct_math_1_1plane.html#a6be6b09865740da1c4d8ea87b0778917", null ],
     [ "c", "struct_math_1_1plane.html#a44f56b4cb932224c90fcb8f0faae184f", null ],
     [ "d", "struct_math_1_1plane.html#a2a718115ddea08ef6788ebabc771d284", null ],
+    [ "distance", "struct_math_1_1plane.html#a7dd8d8d75f29f6509ba05b43ac5e11cc", null ],
+    [ "normal", "struct_math_1_1plane.html#ae420d5d9802125a53f1300a27843a009", null ],
     [ "vec", "struct_math_1_1plane.html#a5eedca868379e67b138f60bf01d5538c", null ]
 ];

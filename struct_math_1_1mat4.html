@@ -131,6 +131,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad744759143d8e26538b7c7cdf408545a" id="r_ad744759143d8e26538b7c7cdf408545a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad744759143d8e26538b7c7cdf408545a">operator!=</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;rhs) const</td></tr>
 <tr class="memdesc:ad744759143d8e26538b7c7cdf408545a"><td class="mdescLeft">&#160;</td><td class="mdescRight">inequality operator  <br /></td></tr>
 <tr class="separator:ad744759143d8e26538b7c7cdf408545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca3cc96a3a5088e4f3c814fe68bd7ed" id="r_a2ca3cc96a3a5088e4f3c814fe68bd7ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca3cc96a3a5088e4f3c814fe68bd7ed">operator[]</a> (size_t const i)</td></tr>
+<tr class="memdesc:a2ca3cc96a3a5088e4f3c814fe68bd7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">row element accessor  <br /></td></tr>
+<tr class="separator:a2ca3cc96a3a5088e4f3c814fe68bd7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c42b94aabf9ebdd36847cf673e90f7" id="r_a91c42b94aabf9ebdd36847cf673e90f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_math_1_1vec4.html">vec4</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91c42b94aabf9ebdd36847cf673e90f7">operator[]</a> (size_t const i) const</td></tr>
+<tr class="memdesc:a91c42b94aabf9ebdd36847cf673e90f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">readonly row element accessor  <br /></td></tr>
+<tr class="separator:a91c42b94aabf9ebdd36847cf673e90f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b49e725a7dc6f9063fb18d3fd55dbb7" id="r_a7b49e725a7dc6f9063fb18d3fd55dbb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b49e725a7dc6f9063fb18d3fd55dbb7">load</a> (const <a class="el" href="namespace_math.html#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> *ptr)</td></tr>
 <tr class="memdesc:a7b49e725a7dc6f9063fb18d3fd55dbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load content from 16-byte-aligned memory  <br /></td></tr>
 <tr class="separator:a7b49e725a7dc6f9063fb18d3fd55dbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -593,6 +599,44 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>equality operator </p>
+
+</div>
+</div>
+<a id="a2ca3cc96a3a5088e4f3c814fe68bd7ed" name="a2ca3cc96a3a5088e4f3c814fe68bd7ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca3cc96a3a5088e4f3c814fe68bd7ed">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp; Math::mat4::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">size_t const</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>row element accessor </p>
+
+</div>
+</div>
+<a id="a91c42b94aabf9ebdd36847cf673e90f7" name="a91c42b94aabf9ebdd36847cf673e90f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c42b94aabf9ebdd36847cf673e90f7">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1vec4.html">vec4</a> const  &amp; Math::mat4::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">size_t const</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>readonly row element accessor </p>
 
 </div>
 </div>
@@ -1309,7 +1353,7 @@ Static Public Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="struct_math_1_1mat4.html">mat4</a></li>
 				<li class="footer">
-					Generated on Mon Jul 28 2025 19:34:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Jul 30 2025 18:37:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

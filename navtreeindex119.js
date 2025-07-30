@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[9,0,10,2,3],
 "struct_core_1_1_c_var_create_info.html#a5c898714e6636996842af891b5c81a7e":[8,0,12,2,1],
 "struct_core_1_1_c_var_create_info.html#a5c898714e6636996842af891b5c81a7e":[9,0,10,2,1],
 "struct_core_1_1_c_var_create_info.html#a9bb07ee507516a9dbed926f5fb65d282":[8,0,12,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "struct_core_graphics_1_1_barrier_scope.html#a6a0ccd058eee14374b22338b8c2371db":[9,0,12,10,0],
 "struct_core_graphics_1_1_barrier_scope.html#a8d6291ffe889e658b8764d6ba4f63859":[8,0,14,11,10],
 "struct_core_graphics_1_1_barrier_scope.html#a8d6291ffe889e658b8764d6ba4f63859":[9,0,12,10,10],
-"struct_core_graphics_1_1_barrier_scope.html#a9b6bbfd22970d87f22d6cb46e6fcc6df":[8,0,14,11,2],
-"struct_core_graphics_1_1_barrier_scope.html#a9b6bbfd22970d87f22d6cb46e6fcc6df":[9,0,12,10,2]
+"struct_core_graphics_1_1_barrier_scope.html#a9b6bbfd22970d87f22d6cb46e6fcc6df":[8,0,14,11,2]
 };
