@@ -123,6 +123,8 @@ Macros</h2></td></tr>
 <tr class="separator:ac7e3cfa2df1402f4205cfc664746b0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab531bea7af4793af364614efe14741d8" id="r_ab531bea7af4793af364614efe14741d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab531bea7af4793af364614efe14741d8">N_COLORVALUE</a>(r,  g,  b,  a)</td></tr>
 <tr class="separator:ab531bea7af4793af364614efe14741d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3cededc1be847c1da27c55c54552a8" id="r_abf3cededc1be847c1da27c55c54552a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf3cededc1be847c1da27c55c54552a8">N_IP_ADDR</a>(a,  b,  c,  d)</td></tr>
+<tr class="separator:abf3cededc1be847c1da27c55c54552a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5eb6b4755b74c50cb76155d08b6e2ff" id="r_ac5eb6b4755b74c50cb76155d08b6e2ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5eb6b4755b74c50cb76155d08b6e2ff">BITS_TO_BYTES</a>(x)</td></tr>
 <tr class="separator:ac5eb6b4755b74c50cb76155d08b6e2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c1e0708f6f9b121ca602cd8ceddd670" id="r_a4c1e0708f6f9b121ca602cd8ceddd670"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c1e0708f6f9b121ca602cd8ceddd670">BYTES_TO_BITS</a>(x)</td></tr>
@@ -269,8 +271,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((((a)&amp;0xff)&lt;&lt;24)|(((r)&amp;0xff)&lt;&lt;16)|(((g)&amp;0xff)&lt;&lt;8)|((b)&amp;0xff)))</div>
-<div class="ttc" id="atypes_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition</b> types.h:31</div></div>
+<b>Value:</b><div class="fragment"><div class="line">((uint32_t)((((a)&amp;0xff)&lt;&lt;24)|(((r)&amp;0xff)&lt;&lt;16)|(((g)&amp;0xff)&lt;&lt;8)|((b)&amp;0xff)))</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -320,8 +321,41 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a053ee346948af06b621d58f6506e7d8a">N_RGBA</a>((<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((r)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((g)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((b)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((a)*255.f))</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a053ee346948af06b621d58f6506e7d8a">N_RGBA</a>((uint32_t)((r)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((g)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((b)*255.f),(<a class="code hl_typedef" href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>)((a)*255.f))</div>
 <div class="ttc" id="atypes_8h_html_a053ee346948af06b621d58f6506e7d8a"><div class="ttname"><a href="#a053ee346948af06b621d58f6506e7d8a">N_RGBA</a></div><div class="ttdeci">#define N_RGBA(r, g, b, a)</div><div class="ttdef"><b>Definition</b> types.h:69</div></div>
+<div class="ttc" id="atypes_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition</b> types.h:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abf3cededc1be847c1da27c55c54552a8" name="abf3cededc1be847c1da27c55c54552a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3cededc1be847c1da27c55c54552a8">&#9670;&#160;</a></span>N_IP_ADDR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N_IP_ADDR</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">(uint32_t)((((a)&amp;0xff)&lt;&lt;24)|(((b)&amp;0xff)&lt;&lt;16)|(((c)&amp;0xff)&lt;&lt;8)|((d)&amp;0xff))</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -772,7 +806,7 @@ template&lt;class MASK, class BITS&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_999e4b83a7aab2205e484f6a00e051c0.html">core</a></li><li class="navelem"><a class="el" href="types_8h.html">types.h</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 18:37:46 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Jul 30 2025 18:59:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

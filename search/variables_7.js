@@ -76,7 +76,7 @@ var searchData=
   ['gridcolor_73',['gridColor',['../struct_im3d_1_1_im3d_state.html#abcc00d22667d89d220e60873d8b61aab',1,'Im3d::Im3dState']]],
   ['gridoffset_74',['gridOffset',['../struct_im3d_1_1_im3d_state.html#a114fe30c705b2ac3636740735d8bf7fe',1,'Im3d::Im3dState']]],
   ['gridsize_75',['gridSize',['../struct_im3d_1_1_im3d_state.html#afea04051f01446f3aaf549f3d7576313',1,'Im3d::Im3dState']]],
-  ['group_76',['group',['../class_debug_1_1_debug_counter.html#ace00e1ae0be36124e1846982c6938596',1,'Debug::DebugCounter::group'],['../class_debug_1_1_debug_timer.html#a65d463ae2275615a1ea67e7049a3f944',1,'Debug::DebugTimer::group'],['../class_vulkan_1_1_vk_text_renderer.html#ae9d21b020e3dcee8ee90ac76494ea4eb',1,'Vulkan::VkTextRenderer::group']]],
+  ['group_76',['group',['../class_multiplayer_1_1_client_connection.html#ac5b8ce9e8cca5bfddce493524ff94973',1,'Multiplayer::ClientConnection::group'],['../class_debug_1_1_debug_counter.html#ace00e1ae0be36124e1846982c6938596',1,'Debug::DebugCounter::group'],['../class_debug_1_1_debug_timer.html#a65d463ae2275615a1ea67e7049a3f944',1,'Debug::DebugTimer::group'],['../class_vulkan_1_1_vk_text_renderer.html#ae9d21b020e3dcee8ee90ac76494ea4eb',1,'Vulkan::VkTextRenderer::group']]],
   ['groupcompletioncounter_77',['groupCompletionCounter',['../struct_jobs2_1_1_job_context.html#a7327a4a261a0afe1fa5ede150947b4c0',1,'Jobs2::JobContext']]],
   ['groupdataptr_78',['groupDataPtr',['../class_core_graphics_1_1_nvx3_stream_reader.html#abdde9d12a33d46f11f355daa4acd7d0c',1,'CoreGraphics::Nvx3StreamReader']]],
   ['groupdatasize_79',['groupDataSize',['../class_core_graphics_1_1_nvx3_stream_reader.html#a38c3af12d7b6bcef790d85d68138c89f',1,'CoreGraphics::Nvx3StreamReader']]],

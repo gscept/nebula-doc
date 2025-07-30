@@ -235,6 +235,12 @@ var hierarchy =
     [ "CoreGraphics::BarrierId", "struct_core_graphics_1_1_barrier_id.html", null ],
     [ "CoreGraphics::BarrierScope", "struct_core_graphics_1_1_barrier_scope.html", null ],
     [ "CoreGraphics::BarrierStackEntry", "struct_core_graphics_1_1_barrier_stack_entry.html", null ],
+    [ "Multiplayer::BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html", [
+      [ "Multiplayer::StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", null ]
+    ] ],
+    [ "Multiplayer::BaseMultiplayerServer", "class_multiplayer_1_1_base_multiplayer_server.html", [
+      [ "Multiplayer::StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", null ]
+    ] ],
     [ "Vulkan::VkPipelineDatabase::BaseNode", "struct_vulkan_1_1_vk_pipeline_database_1_1_base_node.html", [
       [ "Vulkan::VkPipelineDatabase::Tier1Node", "struct_vulkan_1_1_vk_pipeline_database_1_1_tier1_node.html", null ],
       [ "Vulkan::VkPipelineDatabase::Tier2Node", "struct_vulkan_1_1_vk_pipeline_database_1_1_tier2_node.html", null ],
@@ -322,6 +328,8 @@ var hierarchy =
     [ "Characters::CharacterJoint", "struct_characters_1_1_character_joint.html", null ],
     [ "CharacterMaterialSkinNode", "class_characters_1_1_character_material_skin_node.html", null ],
     [ "CharacterNode", "class_characters_1_1_character_node.html", null ],
+    [ "Multiplayer::ClientConnection", "class_multiplayer_1_1_client_connection.html", null ],
+    [ "Multiplayer::ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", null ],
     [ "Audio::ClipId", "struct_audio_1_1_clip_id.html", null ],
     [ "Audio::ClipInstanceId", "struct_audio_1_1_clip_instance_id.html", null ],
     [ "Math::ClipStatus", "class_math_1_1_clip_status.html", null ],
@@ -1028,6 +1036,7 @@ var hierarchy =
         [ "AudioFeature::AudioFeatureUnit", "class_audio_feature_1_1_audio_feature_unit.html", null ],
         [ "BaseGameFeature::BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html", null ],
         [ "GraphicsFeature::GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html", null ],
+        [ "Multiplayer::MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", null ],
         [ "PhysicsFeature::PhysicsFeatureUnit", "class_physics_feature_1_1_physics_feature_unit.html", null ],
         [ "Scripting::ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", null ]
       ] ],
@@ -1265,6 +1274,7 @@ var hierarchy =
     [ "CoreGraphics::SemaphoreCreateInfo", "struct_core_graphics_1_1_semaphore_create_info.html", null ],
     [ "CoreGraphics::SemaphoreId", "struct_core_graphics_1_1_semaphore_id.html", null ],
     [ "Game::ComponentSerialization::Serializer", "struct_game_1_1_component_serialization_1_1_serializer.html", null ],
+    [ "Multiplayer::ServerProcessorContext", "struct_multiplayer_1_1_server_processor_context.html", null ],
     [ "Util::Set< KEYTYPE >", "class_util_1_1_set.html", null ],
     [ "CoreGraphics::GpuBufferTypes::SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", null ],
     [ "Materials::ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", null ],

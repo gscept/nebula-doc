@@ -3,6 +3,7 @@ var class_game_1_1_processor =
     [ "ForEach", "class_game_1_1_processor.html#ae187f73a5a8a087b6826a984c8e6ae40", null ],
     [ "ForEachModified", "class_game_1_1_processor.html#ad256578e93a4e7d1ce5ca36046fd4998", null ],
     [ "UpdateExpander", "class_game_1_1_processor.html#a3eac60fe6434ca2a1ed5116afa7ec0af", null ],
+    [ "active", "class_game_1_1_processor.html#a39191af03e659e4e7ae37ca073882682", null ],
     [ "async", "class_game_1_1_processor.html#aaba9b83fce05ccae2f1a43e19d0a1af8", null ],
     [ "cache", "class_game_1_1_processor.html#af36b022637eacae2d15897d429807601", null ],
     [ "cacheValid", "class_game_1_1_processor.html#a675a7e58a0eeb2cbb63c185245b2b27a", null ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX34 =
 {
+"class_graphics_1_1_camera_settings.html#ac98181a07b16afd0c780b89e78baad43":[8,0,30,2,12],
+"class_graphics_1_1_camera_settings.html#ac98181a07b16afd0c780b89e78baad43":[9,0,27,2,12],
+"class_graphics_1_1_camera_settings.html#acaefdd209912f92248a8c24f53cbca20":[8,0,30,2,23],
+"class_graphics_1_1_camera_settings.html#acaefdd209912f92248a8c24f53cbca20":[9,0,27,2,23],
+"class_graphics_1_1_environment_context.html":[8,0,30,4],
+"class_graphics_1_1_environment_context.html":[9,0,27,4],
+"class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26":[8,0,30,4,9],
+"class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26":[9,0,27,4,9],
+"class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2":[8,0,30,4,1],
+"class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2":[9,0,27,4,1],
 "class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[8,0,30,4,6],
 "class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996":[9,0,27,4,6],
 "class_graphics_1_1_environment_context.html#a5c5f0ed64012b881e5162e604b7c6d0e":[8,0,30,4,8],
@@ -16,7 +26,7 @@ var NAVTREEINDEX34 =
 "class_graphics_1_1_environment_context.html#afbace756e3ffc00c03c63b9386498854":[9,0,27,4,5],
 "class_graphics_1_1_environment_context.html#afbdcdf3ff99f30e6ec2d3d70d4c96d4e":[8,0,30,4,7],
 "class_graphics_1_1_environment_context.html#afbdcdf3ff99f30e6ec2d3d70d4c96d4e":[9,0,27,4,7],
-"class_graphics_1_1_global_constants.html":[9,0,110],
+"class_graphics_1_1_global_constants.html":[9,0,111],
 "class_graphics_1_1_graphics_context.html":[8,0,30,7],
 "class_graphics_1_1_graphics_context.html":[9,0,27,7],
 "class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40":[8,0,30,7,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX34 =
 "class_graphics_1_1_view.html#adf8eafe1a6ec5cbca8c95313c5f96697":[9,0,27,14,2],
 "class_graphics_feature_1_1_camera_manager.html":[8,0,31,0],
 "class_graphics_feature_1_1_camera_manager.html":[9,0,28,0],
-"class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add":[8,0,31,0,8],
-"class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add":[9,0,28,0,8],
-"class_graphics_feature_1_1_camera_manager.html#a680ef847acfdc87b510d58be3b8befe4":[8,0,31,0,10],
-"class_graphics_feature_1_1_camera_manager.html#a680ef847acfdc87b510d58be3b8befe4":[9,0,28,0,10],
-"class_graphics_feature_1_1_camera_manager.html#a8b2b204c56f3224b6049912ccf7c9ec1":[8,0,31,0,9],
-"class_graphics_feature_1_1_camera_manager.html#a8b2b204c56f3224b6049912ccf7c9ec1":[9,0,28,0,9],
-"class_graphics_feature_1_1_camera_manager.html#a8eb142cf84589a7f964a8301c0785a2e":[8,0,31,0,5],
-"class_graphics_feature_1_1_camera_manager.html#a8eb142cf84589a7f964a8301c0785a2e":[9,0,28,0,5],
-"class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917":[8,0,31,0,7],
-"class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917":[9,0,28,0,7],
-"class_graphics_feature_1_1_camera_manager.html#a98492c2baccee7c0c32ac59abe5f70f6":[8,0,31,0,1]
+"class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add":[8,0,31,0,8]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX42 =
 {
+"class_i_o_1_1_json_reader.html#a2e6f6f69b51ebadaa6d92912bedaf13f":[8,0,38,32,42],
+"class_i_o_1_1_json_reader.html#a2e6f6f69b51ebadaa6d92912bedaf13f":[9,0,34,31,42],
+"class_i_o_1_1_json_reader.html#a2f6db773f522e7c688d833feaf7d5366":[8,0,38,32,2],
+"class_i_o_1_1_json_reader.html#a2f6db773f522e7c688d833feaf7d5366":[9,0,34,31,2],
+"class_i_o_1_1_json_reader.html#a3123c50e704febc2d0436422d1be548c":[8,0,38,32,43],
+"class_i_o_1_1_json_reader.html#a3123c50e704febc2d0436422d1be548c":[9,0,34,31,43],
+"class_i_o_1_1_json_reader.html#a3406ab5c883f42c7f37d3ec7a02401f1":[8,0,38,32,77],
+"class_i_o_1_1_json_reader.html#a3406ab5c883f42c7f37d3ec7a02401f1":[9,0,34,31,77],
+"class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[8,0,38,32,36],
+"class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[8,0,38,32,37],
 "class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[9,0,34,31,36],
 "class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[9,0,34,31,37],
 "class_i_o_1_1_json_reader.html#a3e6d30a75b17795dff4bd295ad14e764":[8,0,38,32,69],
@@ -239,15 +249,5 @@ var NAVTREEINDEX42 =
 "class_i_o_1_1_json_writer.html#af09cb3728f524208e61e6874b2d014f9":[8,0,38,33,52],
 "class_i_o_1_1_json_writer.html#af09cb3728f524208e61e6874b2d014f9":[9,0,34,32,52],
 "class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f":[8,0,38,33,44],
-"class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f":[9,0,34,32,44],
-"class_i_o_1_1_log_file_console_handler.html":[8,0,38,34],
-"class_i_o_1_1_log_file_console_handler.html":[9,0,34,33],
-"class_i_o_1_1_log_file_console_handler.html#a4e6d4f7c1a30f91da62e39ab1e7fd624":[8,0,38,34,7],
-"class_i_o_1_1_log_file_console_handler.html#a4e6d4f7c1a30f91da62e39ab1e7fd624":[9,0,34,33,7],
-"class_i_o_1_1_log_file_console_handler.html#a57e44070cec78d602ac971bf7e2880f8":[8,0,38,34,8],
-"class_i_o_1_1_log_file_console_handler.html#a57e44070cec78d602ac971bf7e2880f8":[9,0,34,33,8],
-"class_i_o_1_1_log_file_console_handler.html#a6114239bdbaf8c9a1025c990622c1f12":[8,0,38,34,6],
-"class_i_o_1_1_log_file_console_handler.html#a6114239bdbaf8c9a1025c990622c1f12":[9,0,34,33,6],
-"class_i_o_1_1_log_file_console_handler.html#a7b49f8a3b4558bdb96a206512317ae2b":[8,0,38,34,0],
-"class_i_o_1_1_log_file_console_handler.html#a7b49f8a3b4558bdb96a206512317ae2b":[9,0,34,33,0]
+"class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f":[9,0,34,32,44]
 };

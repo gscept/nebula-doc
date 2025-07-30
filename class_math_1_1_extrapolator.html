@@ -99,8 +99,7 @@ $(function(){initNavTree('class_math_1_1_extrapolator.html',''); initResizable(t
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_math_1_1_extrapolator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Math::Extrapolator&lt; TYPE &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -110,17 +109,21 @@ $(function(){initNavTree('class_math_1_1_extrapolator.html',''); initResizable(t
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class TYPE&gt;<br />
 class Math::Extrapolator&lt; TYPE &gt;</div><p><a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> maintains state about updates for remote entities, and will generate smooth guesses about where those entities will be based on previously received data. </p>
-<p>This implementation is based on <a href="http://www.mindcontrol.org/~hplus/epic/">http://www.mindcontrol.org/~hplus/epic/</a> Its adapted for use with point and vector class.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2009 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
+<p>This implementation is based on <a href="http://www.mindcontrol.org/~hplus/epic/">http://www.mindcontrol.org/~hplus/epic/</a> Its adapted for use with nebula classes.</p>
+<p>You create one <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> per quantity you want to interpolate.</p>
+<p>You then feed it updates about where your entity was ("positions") at some point in time. Optionally, you can also give the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> information about the velocity at that point in time. After that, you can ask the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> for position values for some given real time. Optionally, you can also ask for the velocity at the same time.</p>
+<p>The <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> will assume that an entity stops in place if it hasn't received updates for some time about the entity. It will also keep a running estimate of the latency and frequency of updates.</p>
+<p><a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> requires a globally synchronized clock. It does not do any management to deal with clock skew.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Jon Watte (C) 2009 Radon Labs GmbH (C) 2013-2025 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c9c7278403a7ad3647287c1ad744f34" id="r_a9c9c7278403a7ad3647287c1ad744f34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c9c7278403a7ad3647287c1ad744f34">Extrapolator</a> ()</td></tr>
 <tr class="memdesc:a9c9c7278403a7ad3647287c1ad744f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="separator:a9c9c7278403a7ad3647287c1ad744f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e435942f92e16b3affed799d70911e" id="r_a16e435942f92e16b3affed799d70911e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e435942f92e16b3affed799d70911e">~Extrapolator</a> ()</td></tr>
-<tr class="memdesc:a16e435942f92e16b3affed799d70911e"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
-<tr class="separator:a16e435942f92e16b3affed799d70911e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849ef8d718b1a3dec6ba0d6d5aa7e46c" id="r_a849ef8d718b1a3dec6ba0d6d5aa7e46c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a849ef8d718b1a3dec6ba0d6d5aa7e46c">~Extrapolator</a> ()=default</td></tr>
+<tr class="memdesc:a849ef8d718b1a3dec6ba0d6d5aa7e46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
+<tr class="separator:a849ef8d718b1a3dec6ba0d6d5aa7e46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c0610332077e783fcab3b0ecc599e3" id="r_aa9c0610332077e783fcab3b0ecc599e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3">AddSample</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> packetTime, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> curTime, const TYPE &amp;pos)</td></tr>
 <tr class="memdesc:aa9c0610332077e783fcab3b0ecc599e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">add sample without velocity, velocity is compute from positions  <br /></td></tr>
 <tr class="separator:aa9c0610332077e783fcab3b0ecc599e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,15 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8dcae60c25b8e3d106fdf07387bf0797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af0a922a4722a0bcafb5462d2bd993d" id="r_a3af0a922a4722a0bcafb5462d2bd993d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3af0a922a4722a0bcafb5462d2bd993d">EstimateUpdateTime</a> () const</td></tr>
 <tr class="separator:a3af0a922a4722a0bcafb5462d2bd993d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
 <tr class="memitem:ab51b52cc122e5a7885f6309b41f06b54" id="r_ab51b52cc122e5a7885f6309b41f06b54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab51b52cc122e5a7885f6309b41f06b54">Estimates</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> packetTime, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> curTime)</td></tr>
 <tr class="memdesc:ab51b52cc122e5a7885f6309b41f06b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">is this packet newer than already received  <br /></td></tr>
 <tr class="separator:ab51b52cc122e5a7885f6309b41f06b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
 <tr class="memitem:ad20bce070cac377f35c544c8c248eec3" id="r_ad20bce070cac377f35c544c8c248eec3"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad20bce070cac377f35c544c8c248eec3">snapPos</a></td></tr>
 <tr class="separator:ad20bce070cac377f35c544c8c248eec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab477831cc2aa696dd232859a70fa263c" id="r_ab477831cc2aa696dd232859a70fa263c"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab477831cc2aa696dd232859a70fa263c">snapVel</a></td></tr>
@@ -193,8 +193,8 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
-<a id="a16e435942f92e16b3affed799d70911e" name="a16e435942f92e16b3affed799d70911e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16e435942f92e16b3affed799d70911e">&#9670;&#160;</a></span>~Extrapolator()</h2>
+<a id="a849ef8d718b1a3dec6ba0d6d5aa7e46c" name="a849ef8d718b1a3dec6ba0d6d5aa7e46c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849ef8d718b1a3dec6ba0d6d5aa7e46c">&#9670;&#160;</a></span>~Extrapolator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +213,7 @@ template&lt;class TYPE&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,6 +250,16 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>add sample without velocity, velocity is compute from positions </p>
+<p>When you receive data about a remote entity, call <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a> to tell the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> about it.</p>
+<p>The <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> will throw away a sample with a time that's before any other time it's already gotten, and return false; else it will use the sample to improve its interpolation guess, and return true. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packetTime</td><td>The globally synchronized time at which the packet was sent (and thus the data valid). </td></tr>
+    <tr><td class="paramname">curTime</td><td>The globally synchronized time at which you put the data into the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> (i e, "now"). </td></tr>
+    <tr><td class="paramname">pos</td><td>The position sample valid for packetTime. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if packetTime is strictly greater than the previous packetTime, else false. </dd></dl>
 
 </div>
 </div>
@@ -285,6 +295,23 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>add sample with given velocity </p>
+<p>When you receive data about a remote entity, call <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a> to tell the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> about it.</p>
+<p>The <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> will throw away a sample with a time that's before any other time it's already gotten, and return false; else it will use the sample to improve its interpolation guess, and return true.</p>
+<p>If you get velocity information with your position updates, you can make the guess that <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> makes better, by passing that information along with your position sample. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packetTime</td><td>The globally synchronized time at which the packet was sent (and thus the data valid). </td></tr>
+    <tr><td class="paramname">curTime</td><td>The globally synchronized time at which you put the data into the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a> (i e, "now"). </td></tr>
+    <tr><td class="paramname">pos</td><td>The position sample valid for packetTime. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if packetTime is strictly greater than the previous packetTime, else false. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vel</td><td>The velocity of the entity at the time of packetTime. Used to improve the guess about entity position. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -304,7 +331,9 @@ template&lt;class TYPE&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the current estimation of latency between the sender and this interpolator. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the current estimation of latency between the sender and this interpolator.</dd>
+<dd>
+the current estimation of latency between the sender and this interpolator. This is updated after each <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>, and re-set on <a class="el" href="#aa1b860a1e6962054df260966aa7ec3d7" title="Re-set the Extrapolator&#39;s idea of time, velocity and position.">Reset()</a>. </dd></dl>
 
 </div>
 </div>
@@ -315,9 +344,6 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::Estimates </td>
@@ -330,11 +356,6 @@ template&lt;class TYPE&gt; </div>
           <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>curTime</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>is this packet newer than already received </p>
@@ -357,7 +378,9 @@ template&lt;class TYPE&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the current estimation of frequency of updates that the sender will send. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the current estimation of frequency of updates that the sender will send.</dd>
+<dd>
+the current estimation of frequency of updates that the sender will send. This is updated after each <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>, and re-set on <a class="el" href="#aa1b860a1e6962054df260966aa7ec3d7" title="Re-set the Extrapolator&#39;s idea of time, velocity and position.">Reset()</a>. </dd></dl>
 
 </div>
 </div>
@@ -383,6 +406,15 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Return an estimate of the interpolated position at a given global time (which typically will be greater than the curTime passed into <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>). </p>
+<p>Return an estimate of the interpolated value at a given global time (which typically will be greater than the curTime passed into <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">forTime</td><td>The time at which to interpolate the entity. It should be greater than the last packetTime, and less than the last curTime plus some allowable slop (determined by EstimateFreqency()). </td></tr>
+    <tr><td class="paramname">oPos</td><td>The interpolated value for the given time. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if forTime is out of range (at which point the oPos will still make sense, but movement will be clamped); true when forTime is within range. </dd></dl>
 
 </div>
 </div>
@@ -413,6 +445,16 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Return an estimate of the interpolated position at a given global time (which typically will be greater than the curTime passed into <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>). </p>
+<p>Return an estimate of the interpolated value at a given global time (which typically will be greater than the curTime passed into <a class="el" href="#aa9c0610332077e783fcab3b0ecc599e3" title="add sample without velocity, velocity is compute from positions">AddSample()</a>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">forTime</td><td>The time at which to interpolate the entity. It should be greater than the last packetTime, and less than the last curTime plus some allowable slop (determined by EstimateFreqency()). </td></tr>
+    <tr><td class="paramname">oPos</td><td>The interpolated position for the given time. </td></tr>
+    <tr><td class="paramname">oVel</td><td>The interpolated velocity for the given time. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if forTime is out of range (at which point the oPos will still make sense, but velocity will be zero); true when forTime is within range. </dd></dl>
 
 </div>
 </div>
@@ -443,6 +485,15 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Re-set the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a>'s idea of time, velocity and position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packetTime</td><td>The packet time to reset to. </td></tr>
+    <tr><td class="paramname">curTime</td><td>The current time to reset to. </td></tr>
+    <tr><td class="paramname">pos</td><td>The position to reset to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The velocity will be re-set to 0. </dd></dl>
 
 </div>
 </div>
@@ -478,6 +529,15 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Re-set the <a class="el" href="class_math_1_1_extrapolator.html" title="Extrapolator maintains state about updates for remote entities, and will generate smooth guesses abou...">Extrapolator</a>'s idea of time, velocity and position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packetTime</td><td>The packet time to reset to. </td></tr>
+    <tr><td class="paramname">curTime</td><td>The current time to reset to. </td></tr>
+    <tr><td class="paramname">pos</td><td>The position to reset to. </td></tr>
+    <tr><td class="paramname">vel</td><td>The velocity to reset to. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -489,19 +549,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TYPE <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::aimPos</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -513,19 +565,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::aimTime</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -537,19 +581,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TYPE <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::lastPacketPos</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -561,19 +597,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::lastPacketTime</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -585,19 +613,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::latency</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -609,19 +629,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TYPE <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::snapPos</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -633,19 +645,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::snapTime</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -657,19 +661,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TYPE <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::snapVel</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -681,19 +677,11 @@ template&lt;class TYPE&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class TYPE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> <a class="el" href="class_math_1_1_extrapolator.html">Math::Extrapolator</a>&lt; TYPE &gt;::updateTime</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -708,7 +696,7 @@ template&lt;class TYPE&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_math.html">Math</a></li><li class="navelem"><a class="el" href="class_math_1_1_extrapolator.html">Extrapolator</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 18:37:52 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Jul 30 2025 18:59:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

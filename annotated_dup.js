@@ -799,6 +799,16 @@ var annotated_dup =
       [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
       [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ]
     ] ],
+    [ "Multiplayer", "namespace_multiplayer.html", [
+      [ "BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html", "class_multiplayer_1_1_base_multiplayer_client" ],
+      [ "BaseMultiplayerServer", "class_multiplayer_1_1_base_multiplayer_server.html", "class_multiplayer_1_1_base_multiplayer_server" ],
+      [ "ClientConnection", "class_multiplayer_1_1_client_connection.html", "class_multiplayer_1_1_client_connection" ],
+      [ "ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", "struct_multiplayer_1_1_client_processor_context" ],
+      [ "MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", "class_multiplayer_1_1_multiplayer_feature_unit" ],
+      [ "ServerProcessorContext", "struct_multiplayer_1_1_server_processor_context.html", "struct_multiplayer_1_1_server_processor_context" ],
+      [ "StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", "class_multiplayer_1_1_standard_multiplayer_client" ],
+      [ "StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", "class_multiplayer_1_1_standard_multiplayer_server" ]
+    ] ],
     [ "nanobind", "namespacenanobind.html", [
       [ "detail", "namespacenanobind_1_1detail.html", [
         [ "type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ],

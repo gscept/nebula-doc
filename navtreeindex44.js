@@ -1,5 +1,15 @@
 var NAVTREEINDEX44 =
 {
+"class_i_o_1_1_stream.html#a98378181bdd7126bc4190a8dcbb6b8af":[8,0,38,41,10],
+"class_i_o_1_1_stream.html#a98378181bdd7126bc4190a8dcbb6b8af":[9,0,34,40,10],
+"class_i_o_1_1_stream.html#a9de7268497f11bcd1944224151f30e89":[8,0,38,41,37],
+"class_i_o_1_1_stream.html#a9de7268497f11bcd1944224151f30e89":[9,0,34,40,37],
+"class_i_o_1_1_stream.html#aa233f0ecc64354aed84bebd2efd5519e":[8,0,38,41,42],
+"class_i_o_1_1_stream.html#aa233f0ecc64354aed84bebd2efd5519e":[9,0,34,40,42],
+"class_i_o_1_1_stream.html#ab2792e4106da3f95f97a867c8760bd43":[8,0,38,41,28],
+"class_i_o_1_1_stream.html#ab2792e4106da3f95f97a867c8760bd43":[9,0,34,40,28],
+"class_i_o_1_1_stream.html#abb5c62f5e15cd729367789c61098a031":[8,0,38,41,34],
+"class_i_o_1_1_stream.html#abb5c62f5e15cd729367789c61098a031":[9,0,34,40,34],
 "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67e":[8,0,38,41,3],
 "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67e":[9,0,34,40,3],
 "class_i_o_1_1_stream.html#abb8e00d30e5ca5b456466fdeb563e67ea425babb72c2efac8f5d6219c7b85335f":[8,0,38,41,3,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX44 =
 "class_i_o_1_1_write_stream.html#acce730317b4682e2dec4f038e41fee1a":[8,0,38,49,0],
 "class_i_o_1_1_write_stream.html#acce730317b4682e2dec4f038e41fee1a":[9,0,34,48,0],
 "class_i_o_1_1_write_stream.html#ae3269860eaa30fd97a97be95072c0be0":[8,0,38,49,3],
-"class_i_o_1_1_write_stream.html#ae3269860eaa30fd97a97be95072c0be0":[9,0,34,48,3],
-"class_i_o_1_1_xml_reader.html":[8,0,38,50],
-"class_i_o_1_1_xml_reader.html":[9,0,34,49],
-"class_i_o_1_1_xml_reader.html#a167a403d98406f28e76e9c297745a133":[8,0,38,50,27],
-"class_i_o_1_1_xml_reader.html#a167a403d98406f28e76e9c297745a133":[9,0,34,49,27],
-"class_i_o_1_1_xml_reader.html#a1b97b6c3ad26be16d9b24238ff0a2e0e":[8,0,38,50,6],
-"class_i_o_1_1_xml_reader.html#a1b97b6c3ad26be16d9b24238ff0a2e0e":[9,0,34,49,6],
-"class_i_o_1_1_xml_reader.html#a1ca0871b02a1fa4dc3a6d8d0ac557f92":[8,0,38,50,32],
-"class_i_o_1_1_xml_reader.html#a1ca0871b02a1fa4dc3a6d8d0ac557f92":[9,0,34,49,32],
-"class_i_o_1_1_xml_reader.html#a1ffe64f17cc44789a8aadf992a41230b":[8,0,38,50,7],
-"class_i_o_1_1_xml_reader.html#a1ffe64f17cc44789a8aadf992a41230b":[9,0,34,49,7]
+"class_i_o_1_1_write_stream.html#ae3269860eaa30fd97a97be95072c0be0":[9,0,34,48,3]
 };

@@ -122,9 +122,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af84a23b2d92e821e3bb409b239eea655" id="r_af84a23b2d92e821e3bb409b239eea655"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af84a23b2d92e821e3bb409b239eea655">~FrameEvent</a> ()</td></tr>
 <tr class="separator:af84a23b2d92e821e3bb409b239eea655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4ec64c06ebabed8345b29c86d723c36" id="r_ab4ec64c06ebabed8345b29c86d723c36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4ec64c06ebabed8345b29c86d723c36">Run</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
+<tr class="memdesc:ab4ec64c06ebabed8345b29c86d723c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the frame event.  <br /></td></tr>
 <tr class="separator:ab4ec64c06ebabed8345b29c86d723c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00b05dc28f15344739081f52802a3600" id="r_a00b05dc28f15344739081f52802a3600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00b05dc28f15344739081f52802a3600">AddProcessor</a> (<a class="el" href="class_game_1_1_processor.html">Processor</a> *processor)</td></tr>
+<tr class="memdesc:a00b05dc28f15344739081f52802a3600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a processor to the frame event.  <br /></td></tr>
 <tr class="separator:a00b05dc28f15344739081f52802a3600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc52a17bffa5949c8c7c8e4c8faf377" id="r_aafc52a17bffa5949c8c7c8e4c8faf377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc52a17bffa5949c8c7c8e4c8faf377">RemoveProcessor</a> (<a class="el" href="class_game_1_1_processor.html">Processor</a> *processor)</td></tr>
+<tr class="memdesc:aafc52a17bffa5949c8c7c8e4c8faf377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a processor for the frame event. Does not free the memory, you need to handle this yourself.  <br /></td></tr>
+<tr class="separator:aafc52a17bffa5949c8c7c8e4c8faf377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad620cc6452672addfce39d406a889749" id="r_ad620cc6452672addfce39d406a889749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad620cc6452672addfce39d406a889749">Prefilter</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world, bool force=false)</td></tr>
 <tr class="memdesc:ad620cc6452672addfce39d406a889749"><td class="mdescLeft">&#160;</td><td class="mdescRight">prefilter all processors. Should not be done per frame - instead use CacheTable if you need to do incremental caching  <br /></td></tr>
 <tr class="separator:ad620cc6452672addfce39d406a889749"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +216,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Adds a processor to the frame event. </p>
+
 </div>
 </div>
 <a id="aa1d07dc6a3b5bd77848d3be9772fa1d7" name="aa1d07dc6a3b5bd77848d3be9772fa1d7"></a>
@@ -276,6 +283,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aafc52a17bffa5949c8c7c8e4c8faf377" name="aafc52a17bffa5949c8c7c8e4c8faf377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc52a17bffa5949c8c7c8e4c8faf377">&#9670;&#160;</a></span>RemoveProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::FrameEvent::RemoveProcessor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_processor.html">Processor</a> *</td>          <td class="paramname"><span class="paramname"><em>processor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a processor for the frame event. Does not free the memory, you need to handle this yourself. </p>
+
+</div>
+</div>
 <a id="ab4ec64c06ebabed8345b29c86d723c36" name="ab4ec64c06ebabed8345b29c86d723c36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4ec64c06ebabed8345b29c86d723c36">&#9670;&#160;</a></span>Run()</h2>
 
@@ -290,6 +316,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Runs the frame event. </p>
 
 </div>
 </div>
@@ -403,7 +431,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_game.html">Game</a></li><li class="navelem"><a class="el" href="class_game_1_1_frame_event.html">FrameEvent</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 18:37:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Jul 30 2025 18:59:47 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

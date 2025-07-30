@@ -72,6 +72,7 @@ var namespaces_dup =
     [ "Messaging", "namespace_messaging.html", "namespace_messaging" ],
     [ "Models", "namespace_models.html", "namespace_models" ],
     [ "Msg", "namespace_msg.html", null ],
+    [ "Multiplayer", "namespace_multiplayer.html", "namespace_multiplayer" ],
     [ "nanobind", "namespacenanobind.html", "namespacenanobind" ],
     [ "Nebula", "namespace_nebula.html", "namespace_nebula" ],
     [ "NebulaEngine", "namespace_nebula_engine.html", "namespace_nebula_engine" ],

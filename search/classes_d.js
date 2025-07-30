@@ -61,5 +61,6 @@ var searchData=
   ['mouserayutil_58',['MouseRayUtil',['../class_render_util_1_1_mouse_ray_util.html',1,'RenderUtil']]],
   ['msg_59',['Msg',['../interface_nebula_1_1_game_1_1_msg.html',1,'Nebula::Game']]],
   ['msgdispatcher_60',['MsgDispatcher',['../class_nebula_1_1_game_1_1_msg_dispatcher.html',1,'Nebula::Game']]],
-  ['msgevent_61',['MsgEvent',['../class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html',1,'Nebula::Game::MsgDispatcher']]]
+  ['msgevent_61',['MsgEvent',['../class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html',1,'Nebula::Game::MsgDispatcher']]],
+  ['multiplayerfeatureunit_62',['MultiplayerFeatureUnit',['../class_multiplayer_1_1_multiplayer_feature_unit.html',1,'Multiplayer']]]
 ];

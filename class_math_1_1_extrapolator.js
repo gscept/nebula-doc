@@ -1,7 +1,7 @@
 var class_math_1_1_extrapolator =
 [
     [ "Extrapolator", "class_math_1_1_extrapolator.html#a9c9c7278403a7ad3647287c1ad744f34", null ],
-    [ "~Extrapolator", "class_math_1_1_extrapolator.html#a16e435942f92e16b3affed799d70911e", null ],
+    [ "~Extrapolator", "class_math_1_1_extrapolator.html#a849ef8d718b1a3dec6ba0d6d5aa7e46c", null ],
     [ "AddSample", "class_math_1_1_extrapolator.html#aa9c0610332077e783fcab3b0ecc599e3", null ],
     [ "AddSample", "class_math_1_1_extrapolator.html#a5e08682a7e57c5fdc957802833298d0c", null ],
     [ "EstimateLatency", "class_math_1_1_extrapolator.html#a8dcae60c25b8e3d106fdf07387bf0797", null ],

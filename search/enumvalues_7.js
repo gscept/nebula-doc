@@ -1,7 +1,7 @@
 var searchData=
 [
   ['g_0',['G',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a7010c5db7792649b70a9846fd4764c38',1,'Input::Key']]],
-  ['game_1',['Game',['../class_input_1_1_input_priority.html#aa7eed44392ac8e54bdfb64c4647fbb91a1f2cb06b7a942e1bef3e7f10e4dc5ee6',1,'Input::InputPriority']]],
+  ['game_1',['Game',['../class_input_1_1_input_priority.html#aa7eed44392ac8e54bdfb64c4647fbb91a1f2cb06b7a942e1bef3e7f10e4dc5ee6',1,'Input::InputPriority::Game'],['../namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a63d72051e901c069f8aa1b32aa0c43bb',1,'Multiplayer::Game']]],
   ['gamepadbuttondown_2',['GamePadButtonDown',['../class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6aa4d5c2f07cf9f15560cf4229f078684e',1,'Input::InputEvent']]],
   ['gamepadbuttonup_3',['GamePadButtonUp',['../class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6ad4b2e9b17c77b38e9d2d75e94b244946',1,'Input::InputEvent']]],
   ['general_4',['General',['../namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3a0db377921f4ce762c62526131097968f',1,'CoreGraphics']]],

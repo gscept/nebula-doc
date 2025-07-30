@@ -1,0 +1,45 @@
+var namespace_multiplayer =
+[
+    [ "BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html", "class_multiplayer_1_1_base_multiplayer_client" ],
+    [ "BaseMultiplayerServer", "class_multiplayer_1_1_base_multiplayer_server.html", "class_multiplayer_1_1_base_multiplayer_server" ],
+    [ "ClientConnection", "class_multiplayer_1_1_client_connection.html", "class_multiplayer_1_1_client_connection" ],
+    [ "ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", "struct_multiplayer_1_1_client_processor_context" ],
+    [ "MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", "class_multiplayer_1_1_multiplayer_feature_unit" ],
+    [ "ServerProcessorContext", "struct_multiplayer_1_1_server_processor_context.html", "struct_multiplayer_1_1_server_processor_context" ],
+    [ "StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", "class_multiplayer_1_1_standard_multiplayer_client" ],
+    [ "StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", "class_multiplayer_1_1_standard_multiplayer_server" ],
+    [ "ClientGroup", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73", [
+      [ "DontCare", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a60a3629ef6a8f991f45d7a85f2458544", null ],
+      [ "Lobby", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a0d4c3d1b3f0c14e4aae9e9598ed745db", null ],
+      [ "Game", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a63d72051e901c069f8aa1b32aa0c43bb", null ],
+      [ "Monitoring", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a423e555c5ec3885f2bb5d9d2d6627f63", null ],
+      [ "NumClientGroups", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a34943ae6cb1ec4e7ddd88a165f31769f", null ]
+    ] ],
+    [ "ConnectionStatus", "namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679a", [
+      [ "Disconnected", "namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679aaef70e46fd3bbc21e3e1f0b6815e750c0", null ],
+      [ "TryingToConnect", "namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679aa3e9aa29a6d731687493b8b3cbe8bbc61", null ],
+      [ "Connected", "namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679aa2ec0d16e4ca169baedb9b2d50ec5c6d7", null ]
+    ] ],
+    [ "__ImplementClass", "namespace_multiplayer.html#a21e8bf31e008ea352a46e52feff0b765", null ],
+    [ "__ImplementSingleton", "namespace_multiplayer.html#a45dd6e0a4cec2b2c77b40a2047b9d194", null ],
+    [ "DebugOutput", "namespace_multiplayer.html#acd38c91a4450e8435608e372f841aa2d", null ],
+    [ "InitSteamDatagramConnectionSockets", "namespace_multiplayer.html#a4db90e9e6b654ed0cd508f9d3cb059fa", null ],
+    [ "InterpolatePositions", "namespace_multiplayer.html#af9dd8b7089b56e6e13082cd26d528899", null ],
+    [ "SetServerProcessorsActive", "namespace_multiplayer.html#a65fe137a50cc735a07b1e503731c6488", null ],
+    [ "SetupClientProcessors", "namespace_multiplayer.html#a228396f88b269772b0fe834ce183324f", null ],
+    [ "SetupServerProcessors", "namespace_multiplayer.html#a6c58b9e9dfa06ad2666b524880f00723", null ],
+    [ "ShutdownClientProcessors", "namespace_multiplayer.html#a21ac627b31ad4f74ff342ec4158b8089", null ],
+    [ "ShutdownServerProcessors", "namespace_multiplayer.html#aac97c024d6f8f08d1888c634f95c5b1d", null ],
+    [ "ShutdownSteamDatagramConnectionSockets", "namespace_multiplayer.html#a720489833c6b5c33c2adc0fefbad4cf1", null ],
+    [ "SteamNetConnectionStatusChangedCallback", "namespace_multiplayer.html#a9dc2aeae9a8b56d2c30bd53c19500c5f", null ],
+    [ "SvSteamNetConnectionStatusChangedCallback", "namespace_multiplayer.html#afb91a4ca246586cc6c35658269b7243c", null ],
+    [ "SyncPositions", "namespace_multiplayer.html#a04baa78c288c5e563b880d4bbfcb6d8b", null ],
+    [ "UnpackEntity", "namespace_multiplayer.html#afe081f8cffff2913978b4d98d8a67c95", null ],
+    [ "callbackInstance", "namespace_multiplayer.html#a732a452e61eb513e34e9fee71230a02a", null ],
+    [ "callbackServerInstance", "namespace_multiplayer.html#ae21a6319622c6b8042117f49f69c242d", null ],
+    [ "context", "namespace_multiplayer.html#a063b41fa1cdd70d55793ec781d8767c0", null ],
+    [ "context", "namespace_multiplayer.html#a92f48654c730c65a192cc75013da0063", null ],
+    [ "frameEvent", "namespace_multiplayer.html#a44c87d69f7dadfd3426799ee1f888da1", null ],
+    [ "frameEvent", "namespace_multiplayer.html#a44c87d69f7dadfd3426799ee1f888da1", null ],
+    [ "logTimeZero", "namespace_multiplayer.html#a92436c69ece20d1cb101a9f05d29c79b", null ]
+];

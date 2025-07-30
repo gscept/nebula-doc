@@ -7,6 +7,7 @@ var class_game_1_1_frame_event =
     [ "CacheTable", "class_game_1_1_frame_event.html#aa1d07dc6a3b5bd77848d3be9772fa1d7", null ],
     [ "GetBatches", "class_game_1_1_frame_event.html#a3077f6b0c099254de3e46982c1d322f9", null ],
     [ "Prefilter", "class_game_1_1_frame_event.html#ad620cc6452672addfce39d406a889749", null ],
+    [ "RemoveProcessor", "class_game_1_1_frame_event.html#aafc52a17bffa5949c8c7c8e4c8faf377", null ],
     [ "Run", "class_game_1_1_frame_event.html#ab4ec64c06ebabed8345b29c86d723c36", null ],
     [ "batches", "class_game_1_1_frame_event.html#a5af10d63c9e501cbc01c5ef0d0106a67", null ],
     [ "FramePipeline", "class_game_1_1_frame_event.html#ad5d7ea3d05e6f20c852bee01063e3fcf", null ],
