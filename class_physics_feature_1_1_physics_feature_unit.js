@@ -8,6 +8,8 @@ var class_physics_feature_1_1_physics_feature_unit =
     [ "OnDeactivate", "class_physics_feature_1_1_physics_feature_unit.html#a7d48a0213446b44544278208bdbf8df8", null ],
     [ "OnDecay", "class_physics_feature_1_1_physics_feature_unit.html#a428336e4544d7c614eb8fbcdaf0caa58", null ],
     [ "OnRenderDebug", "class_physics_feature_1_1_physics_feature_unit.html#a791a9d346d02ad49a6df068efb843ab3", null ],
+    [ "cl_debug_draw_physics", "class_physics_feature_1_1_physics_feature_unit.html#a53e91e69cf725987990b06861454189a", null ],
+    [ "debugDrawPhysicsLastValue", "class_physics_feature_1_1_physics_feature_unit.html#a0655d769231321caef1bc10231ddc759", null ],
     [ "physicsWorlds", "class_physics_feature_1_1_physics_feature_unit.html#a92a2c6c1c5c12ffd22291572b1fae57d", null ],
     [ "simulating", "class_physics_feature_1_1_physics_feature_unit.html#a0342ff6d8e5ba14b2134e12ab90c5bee", null ]
 ];

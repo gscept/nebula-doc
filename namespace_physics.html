@@ -109,12 +109,11 @@ $(function(){initNavTree('namespace_physics.html',''); initResizable(true); });
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Diverse functions for manipulating physics actors. </p>
 <p>Implements a resource loader for physics actors.</p>
-<p><a class="el" href="namespace_physics.html" title="Diverse functions for manipulating physics actors.">Physics</a> shape enums.</p>
 <p>Physics::DebugUI.</p>
 <p>callback interfaces for PhysX</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2019-2020 Individual contributors, see AUTHORS file</dd>
 <dd>
-(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
+(C) 2020-2025 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -142,6 +141,14 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_body_info.html">BodyInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character.html">Character</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_character_context.html">CharacterContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_create_info.html">CharacterCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_id.html">CharacterId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_constraint.html">Constraint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_constraint_id.html">ConstraintId</a></td></tr>
@@ -151,6 +158,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_constraint_resource_id.html">ConstraintResourceId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_contact_event.html">ContactEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_debug_draw_interface.html">DebugDrawInterface</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_debug_state.html">DebugState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_error_callback.html">ErrorCallback</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +184,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a069b2bc96207046ed3fc8d45f7e7a912" id="r_a069b2bc96207046ed3fc8d45f7e7a912"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069b2bc96207046ed3fc8d45f7e7a912">CharacterCollision</a> = <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt;<a class="el" href="#aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee">CharacterCollisionBitsMax</a>&gt;</td></tr>
+<tr class="separator:a069b2bc96207046ed3fc8d45f7e7a912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4be4935a750e3efb636ec09c8724869" id="r_ac4be4935a750e3efb636ec09c8724869"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4be4935a750e3efb636ec09c8724869">UpdateFunctionType</a> = void (*) (const <a class="el" href="struct_physics_1_1_actor.html">Actor</a>&amp;)</td></tr>
 <tr class="separator:ac4be4935a750e3efb636ec09c8724869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec146a67924686f56d93c0b669414d1d" id="r_aec146a67924686f56d93c0b669414d1d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec146a67924686f56d93c0b669414d1d">EventCallbackType</a> = void (*) (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_physics_1_1_contact_event.html">ContactEvent</a>&gt;&amp;)</td></tr>
@@ -180,45 +193,38 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a1e9a434f6e49131173bd01944ff4d64b" id="r_a1e9a434f6e49131173bd01944ff4d64b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9a434f6e49131173bd01944ff4d64b">CollsionGroups</a> { <br />
-&#160;&#160;<a class="el" href="#a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c">Default</a> = 0
-, <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0">Static</a> = 1
-, <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70">Kinematic</a> = 3
-, <a class="el" href="#a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147">Debris</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="#a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161">SensorTrigger</a> = 5
-, <a class="el" href="#a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4">Characters</a> = 6
-<br />
- }</td></tr>
-<tr class="separator:a1e9a434f6e49131173bd01944ff4d64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0791d702e1e021959c9af906b492bff" id="r_ad0791d702e1e021959c9af906b492bff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0791d702e1e021959c9af906b492bff">MeshTopologyType</a> { <a class="el" href="#ad0791d702e1e021959c9af906b492bffa254186107fd13d5592dec3949dbcd905">Convex</a> = 0
-, <a class="el" href="#ad0791d702e1e021959c9af906b492bffa6c5fccbde6f7689fba28226ffb4a963c">ConvexHull</a> = 1
-, <a class="el" href="#ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06">Triangles</a> = 2
-, <a class="el" href="#ad0791d702e1e021959c9af906b492bffad349afc4ab06f20fb69205346863c555">HeightField</a> = 3
- }</td></tr>
-<tr class="separator:ad0791d702e1e021959c9af906b492bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab314f5785bbdfd095bec6645da31053c" id="r_ab314f5785bbdfd095bec6645da31053c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab314f5785bbdfd095bec6645da31053c">ColliderType</a> { <br />
-&#160;&#160;<a class="el" href="#ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2">ColliderSphere</a> = 0
-, <a class="el" href="#ab314f5785bbdfd095bec6645da31053ca90b5e59087a04e6266370f2bafa8e505">ColliderCube</a> = 1
-, <a class="el" href="#ab314f5785bbdfd095bec6645da31053ca942d34167f541200e84a42a628dd1fcb">ColliderCapsule</a> = 2
-, <a class="el" href="#ab314f5785bbdfd095bec6645da31053ca7e81b759b806a657f8c99d33945218f1">ColliderPlane</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="#ab314f5785bbdfd095bec6645da31053cad597f515adbc974c103076f29f2853cd">ColliderMesh</a> = 4
-<br />
- }</td></tr>
-<tr class="separator:ab314f5785bbdfd095bec6645da31053c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84683982878b1fb79fdf30ea55833d3c" id="r_a84683982878b1fb79fdf30ea55833d3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84683982878b1fb79fdf30ea55833d3c">PhysicsIdType</a> { <a class="el" href="#a84683982878b1fb79fdf30ea55833d3ca4d3aa4c4cd1766a1773ebde235478393">ActorIdType</a>
 , <a class="el" href="#a84683982878b1fb79fdf30ea55833d3caf576a98f2daf26915c616e54e98750c2">MeshIdType</a>
  }</td></tr>
 <tr class="separator:a84683982878b1fb79fdf30ea55833d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a303c363e8dc20be9dd9232685b2e81e3" id="r_a303c363e8dc20be9dd9232685b2e81e3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> { <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0">Static</a> = 1
-, <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70">Kinematic</a> = 3
+<tr class="memitem:a303c363e8dc20be9dd9232685b2e81e3" id="r_a303c363e8dc20be9dd9232685b2e81e3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> { <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a02e521a19b147e35cf3f7d189a5b02fc">Static</a>
+, <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a1fc607d02b98e98a8447e620d7d4e6a5">Kinematic</a>
 , <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3a11255276fb3a95e0be1d8f5d0753ebec">Dynamic</a>
  }</td></tr>
 <tr class="separator:a303c363e8dc20be9dd9232685b2e81e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d54ea11338b8a55acf106743180ab1" id="r_aa1d54ea11338b8a55acf106743180ab1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d54ea11338b8a55acf106743180ab1">CharacterCollisionBits</a> { <a class="el" href="#aa1d54ea11338b8a55acf106743180ab1a34e042d0953b6e46f002028c5cb91423">Sides</a> = 0
+, <a class="el" href="#aa1d54ea11338b8a55acf106743180ab1a5df615c99dec2bc5ee65b93899df7b73">Up</a> = 1
+, <a class="el" href="#aa1d54ea11338b8a55acf106743180ab1af5260d31d0a3d55a6a748b0af0fe1ff5">Down</a> = 2
+, <a class="el" href="#aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee">CharacterCollisionBitsMax</a>
+ }</td></tr>
+<tr class="separator:aa1d54ea11338b8a55acf106743180ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aa280f33abe774e8ac43c5069b9d8965a" id="r_aa280f33abe774e8ac43c5069b9d8965a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa280f33abe774e8ac43c5069b9d8965a">SetDebugDrawInterface</a> (<a class="el" href="struct_physics_1_1_debug_draw_interface.html">DebugDrawInterface</a> const &amp;interface)</td></tr>
+<tr class="separator:aa280f33abe774e8ac43c5069b9d8965a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618fc67a7de06855288928cea8475c4c" id="r_a618fc67a7de06855288928cea8475c4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a618fc67a7de06855288928cea8475c4c">UpdateDebugDrawingParameters</a> ()</td></tr>
+<tr class="separator:a618fc67a7de06855288928cea8475c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0c090f69cd4d143229060fab3a663c" id="r_a9a0c090f69cd4d143229060fab3a663c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0c090f69cd4d143229060fab3a663c">EnableDebugDrawing</a> (bool enabled)</td></tr>
+<tr class="separator:a9a0c090f69cd4d143229060fab3a663c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8057fd9bff1aedbc154d0b04ab63b6e0" id="r_a8057fd9bff1aedbc154d0b04ab63b6e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8057fd9bff1aedbc154d0b04ab63b6e0">ApplyBounds</a> (PxBounds3 const &amp;box)</td></tr>
+<tr class="separator:a8057fd9bff1aedbc154d0b04ab63b6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45fc01cb1762cca3d002be8b74e03001" id="r_a45fc01cb1762cca3d002be8b74e03001"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45fc01cb1762cca3d002be8b74e03001">DebugVisualizeScene</a> (PxScene *scene)</td></tr>
+<tr class="separator:a45fc01cb1762cca3d002be8b74e03001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279f700acce717fdeb9e33753ae63be9" id="r_a279f700acce717fdeb9e33753ae63be9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a279f700acce717fdeb9e33753ae63be9">CheckAndResetModified</a> (<a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *cvar)</td></tr>
+<tr class="separator:a279f700acce717fdeb9e33753ae63be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125e0679c185e5a40d863da0bd186290" id="r_a125e0679c185e5a40d863da0bd186290"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125e0679c185e5a40d863da0bd186290">DrawPhysicsDebug</a> ()</td></tr>
+<tr class="separator:a125e0679c185e5a40d863da0bd186290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d566277e1bc1471d4256f142e524f84" id="r_a1d566277e1bc1471d4256f142e524f84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d566277e1bc1471d4256f142e524f84">RenderUI</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> camera)</td></tr>
 <tr class="separator:a1d566277e1bc1471d4256f142e524f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65bfab3b3a913500b671e66bbc35affb" id="r_a65bfab3b3a913500b671e66bbc35affb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65bfab3b3a913500b671e66bbc35affb">RenderMaterialsUI</a> ()</td></tr>
@@ -294,12 +300,86 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a6dcca2dc00ff5be82b67a0d810db35f6" id="r_a6dcca2dc00ff5be82b67a0d810db35f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_character.html">Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dcca2dc00ff5be82b67a0d810db35f6">controllers</a></td></tr>
+<tr class="separator:a6dcca2dc00ff5be82b67a0d810db35f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1dfc6233813e1956e5267ced3e76f7" id="r_a0d1dfc6233813e1956e5267ced3e76f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d1dfc6233813e1956e5267ced3e76f7">controllerIdPool</a></td></tr>
+<tr class="separator:a0d1dfc6233813e1956e5267ced3e76f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c221290cf041571cb651d5e1e84f3b8" id="r_a7c221290cf041571cb651d5e1e84f3b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;cl_debug_draw_physics&quot;, &quot;0&quot;, &quot;Set to 1 will enable physics debug drawing&quot;)</td></tr>
+<tr class="separator:a7c221290cf041571cb651d5e1e84f3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2efad4380036c8b12df53b12c2aa93" id="r_a7b2efad4380036c8b12df53b12c2aa93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b2efad4380036c8b12df53b12c2aa93">cl_physics_draw_scale</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale&quot;, &quot;1.0&quot;, &quot;Visualization drawing scale.&quot;)</td></tr>
+<tr class="separator:a7b2efad4380036c8b12df53b12c2aa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6fa060cae7eb15491ac24e8168b843" id="r_aad6fa060cae7eb15491ac24e8168b843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6fa060cae7eb15491ac24e8168b843">cl_physics_draw_scale_points</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;1.0&quot;, &quot;Point visualization drawing scale.&quot;)</td></tr>
+<tr class="separator:aad6fa060cae7eb15491ac24e8168b843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c6e1c789d06ded65be98c6af61d9d8" id="r_a35c6e1c789d06ded65be98c6af61d9d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35c6e1c789d06ded65be98c6af61d9d8">cl_physics_draw_scale_lines</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;1.0&quot;, &quot;Line visualization drawing scale.&quot;)</td></tr>
+<tr class="separator:a35c6e1c789d06ded65be98c6af61d9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a4ce3a9aa7a37b192ebd004c5bb8ca" id="r_aa3a4ce3a9aa7a37b192ebd004c5bb8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a4ce3a9aa7a37b192ebd004c5bb8ca">cl_physics_draw_scale_triangles</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;1.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td></tr>
+<tr class="separator:aa3a4ce3a9aa7a37b192ebd004c5bb8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0676c6a1cae98f995a10c0bc277a86b" id="r_af0676c6a1cae98f995a10c0bc277a86b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0676c6a1cae98f995a10c0bc277a86b">cl_physics_draw_world_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_world_axes&quot;, &quot;0&quot;, &quot;Visualize the world axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:af0676c6a1cae98f995a10c0bc277a86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac362b1eba383d1348c12349f4729ad60" id="r_ac362b1eba383d1348c12349f4729ad60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac362b1eba383d1348c12349f4729ad60">cl_physics_draw_body_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_axes&quot;, &quot;0&quot;, &quot;Visualize a bodies axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:ac362b1eba383d1348c12349f4729ad60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2ab6ba0a77b070bb0cfea39796a87e" id="r_a3b2ab6ba0a77b070bb0cfea39796a87e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b2ab6ba0a77b070bb0cfea39796a87e">cl_physics_draw_body_mass_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_mass_axes&quot;, &quot;0&quot;, &quot;Visualize a body's mass axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a3b2ab6ba0a77b070bb0cfea39796a87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4f41b24976aae14eda218e30f16a88" id="r_a1c4f41b24976aae14eda218e30f16a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c4f41b24976aae14eda218e30f16a88">cl_physics_draw_body_lin_velocity</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_lin_velocity&quot;, &quot;0&quot;, &quot;Visualize the bodies linear velocity. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a1c4f41b24976aae14eda218e30f16a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2560747a6ceeb0999c46582c4c06c859" id="r_a2560747a6ceeb0999c46582c4c06c859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2560747a6ceeb0999c46582c4c06c859">cl_physics_draw_body_ang_velocity</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_ang_velocity&quot;, &quot;0&quot;, &quot;Visualize the bodies angular velocity. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a2560747a6ceeb0999c46582c4c06c859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7725f0216fc0e0201346bda0f8c4c2c" id="r_ae7725f0216fc0e0201346bda0f8c4c2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7725f0216fc0e0201346bda0f8c4c2c">cl_physics_draw_contact_point</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_point&quot;, &quot;0&quot;, &quot; Visualize contact points. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:ae7725f0216fc0e0201346bda0f8c4c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc1c5fd5bf4bfc26ff7c5202cff706c" id="r_aefc1c5fd5bf4bfc26ff7c5202cff706c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc1c5fd5bf4bfc26ff7c5202cff706c">cl_physics_draw_contact_normal</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_normal&quot;, &quot;0&quot;, &quot;Visualize contact normals. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:aefc1c5fd5bf4bfc26ff7c5202cff706c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ddbc2ac02f403b6c3a42734b891f4b" id="r_a19ddbc2ac02f403b6c3a42734b891f4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19ddbc2ac02f403b6c3a42734b891f4b">cl_physics_draw_contact_error</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_error&quot;, &quot;0&quot;, &quot; Visualize contact errors. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a19ddbc2ac02f403b6c3a42734b891f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4db155d8af1bb44a93d39410d913233" id="r_ac4db155d8af1bb44a93d39410d913233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4db155d8af1bb44a93d39410d913233">cl_physics_draw_contact_force</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_force&quot;, &quot;0&quot;, &quot;Visualize Contact forces. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:ac4db155d8af1bb44a93d39410d913233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc2113c6dd157dd203f6c68061e8f2a" id="r_a0bc2113c6dd157dd203f6c68061e8f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc2113c6dd157dd203f6c68061e8f2a">cl_physics_draw_actor_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_actor_axes&quot;, &quot;0&quot;, &quot;Visualize actor axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a0bc2113c6dd157dd203f6c68061e8f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2832aad9a672426aea9952f8aa045b47" id="r_a2832aad9a672426aea9952f8aa045b47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2832aad9a672426aea9952f8aa045b47">cl_physics_draw_collision_aabbs</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_aabbs&quot;, &quot;0&quot;, &quot;Visualize bounds (AABBs in world space). Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a2832aad9a672426aea9952f8aa045b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2cddd546a939557a05dde5be375ad8" id="r_aba2cddd546a939557a05dde5be375ad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba2cddd546a939557a05dde5be375ad8">cl_physics_draw_collision_shapes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_shapes&quot;, &quot;1&quot;, &quot;Shape visualization. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:aba2cddd546a939557a05dde5be375ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae269f33e2715b025fd076c614638de" id="r_a6ae269f33e2715b025fd076c614638de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae269f33e2715b025fd076c614638de">cl_physics_draw_collision_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_axes&quot;, &quot;0&quot;, &quot;Shape axis visualization. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a6ae269f33e2715b025fd076c614638de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52d1646e54651d28f78446f12467fe7c" id="r_a52d1646e54651d28f78446f12467fe7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52d1646e54651d28f78446f12467fe7c">cl_physics_draw_collision_compounds</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_compounds&quot;, &quot;0&quot;, &quot;Compound visualization (compound AABBs in world space). Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a52d1646e54651d28f78446f12467fe7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2511b793a1dc1eb57db0eebe2e0504" id="r_a7a2511b793a1dc1eb57db0eebe2e0504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a2511b793a1dc1eb57db0eebe2e0504">cl_physics_draw_collision_fnormals</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_fnormals&quot;, &quot;0&quot;, &quot;Mesh &amp; convex face normals. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a7a2511b793a1dc1eb57db0eebe2e0504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad51ba559cfda44b8a37e35de688470" id="r_a1ad51ba559cfda44b8a37e35de688470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad51ba559cfda44b8a37e35de688470">cl_physics_draw_collision_edges</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_edges&quot;, &quot;0&quot;, &quot;Active edges for meshes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a1ad51ba559cfda44b8a37e35de688470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9b1eca625fc47dd65816b7d32e4883" id="r_aeb9b1eca625fc47dd65816b7d32e4883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb9b1eca625fc47dd65816b7d32e4883">cl_physics_draw_collision_static</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_static&quot;, &quot;0&quot;, &quot;Static pruning structures. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:aeb9b1eca625fc47dd65816b7d32e4883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c87a1d27be7a4ff56963f9257faad2f" id="r_a8c87a1d27be7a4ff56963f9257faad2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c87a1d27be7a4ff56963f9257faad2f">cl_physics_draw_collision_dynamic</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_dynamic&quot;, &quot;0&quot;, &quot;Dynamic pruning structures. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a8c87a1d27be7a4ff56963f9257faad2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ddde183c4a364bab0ce2621f763f2b" id="r_a44ddde183c4a364bab0ce2621f763f2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ddde183c4a364bab0ce2621f763f2b">cl_physics_draw_joint_local_frames</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_joint_local_frames&quot;, &quot;0&quot;, &quot;Visualize joint local axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a44ddde183c4a364bab0ce2621f763f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276afa3b5199d259c40c2da75b5777ee" id="r_a276afa3b5199d259c40c2da75b5777ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276afa3b5199d259c40c2da75b5777ee">cl_physics_draw_joint_limits</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_joint_limits&quot;, &quot;0&quot;, &quot;Visualize joint limits. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:a276afa3b5199d259c40c2da75b5777ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50951aae276bae421f367f9f4eb5de1" id="r_ad50951aae276bae421f367f9f4eb5de1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50951aae276bae421f367f9f4eb5de1">cl_physics_draw_cull_box</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_cull_box&quot;, &quot;0&quot;, &quot;Visualize culling box. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:ad50951aae276bae421f367f9f4eb5de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfd355920d8d038eb51540821be48f5" id="r_accfd355920d8d038eb51540821be48f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accfd355920d8d038eb51540821be48f5">cl_physics_draw_mbp_regions</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_mbp_regions&quot;, &quot;0&quot;, &quot;MBP regions. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
+<tr class="separator:accfd355920d8d038eb51540821be48f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2e2e34dd6422f73fcd1878e79a42ac" id="r_a4f2e2e34dd6422f73fcd1878e79a42ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_1_1_debug_state.html">DebugState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2e2e34dd6422f73fcd1878e79a42ac">dstate</a></td></tr>
+<tr class="separator:a4f2e2e34dd6422f73fcd1878e79a42ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7e67f29d053fb99802313566779814" id="r_a5d7e67f29d053fb99802313566779814"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_1_1_physx_state.html">PhysxState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d7e67f29d053fb99802313566779814">state</a></td></tr>
 <tr class="separator:a5d7e67f29d053fb99802313566779814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7349cf74a45ddd8711ccea28d9cc1a" id="r_a1c7349cf74a45ddd8711ccea28d9cc1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c7349cf74a45ddd8711ccea28d9cc1a">actorPool</a> = nullptr</td></tr>
 <tr class="separator:a1c7349cf74a45ddd8711ccea28d9cc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a069b2bc96207046ed3fc8d45f7e7a912" name="a069b2bc96207046ed3fc8d45f7e7a912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069b2bc96207046ed3fc8d45f7e7a912">&#9670;&#160;</a></span>CharacterCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a069b2bc96207046ed3fc8d45f7e7a912">Physics::CharacterCollision</a> = <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt;<a class="el" href="#aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee">CharacterCollisionBitsMax</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aec146a67924686f56d93c0b669414d1d" name="aec146a67924686f56d93c0b669414d1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec146a67924686f56d93c0b669414d1d">&#9670;&#160;</a></span>EventCallbackType</h2>
 
@@ -341,72 +421,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0" name="a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70" name="a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70"></a>Kinematic&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a02e521a19b147e35cf3f7d189a5b02fc" name="a303c363e8dc20be9dd9232685b2e81e3a02e521a19b147e35cf3f7d189a5b02fc"></a>Static&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a1fc607d02b98e98a8447e620d7d4e6a5" name="a303c363e8dc20be9dd9232685b2e81e3a1fc607d02b98e98a8447e620d7d4e6a5"></a>Kinematic&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a11255276fb3a95e0be1d8f5d0753ebec" name="a303c363e8dc20be9dd9232685b2e81e3a11255276fb3a95e0be1d8f5d0753ebec"></a>Dynamic&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="ab314f5785bbdfd095bec6645da31053c" name="ab314f5785bbdfd095bec6645da31053c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab314f5785bbdfd095bec6645da31053c">&#9670;&#160;</a></span>ColliderType</h2>
+<a id="aa1d54ea11338b8a55acf106743180ab1" name="aa1d54ea11338b8a55acf106743180ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d54ea11338b8a55acf106743180ab1">&#9670;&#160;</a></span>CharacterCollisionBits</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#ab314f5785bbdfd095bec6645da31053c">Physics::ColliderType</a></td>
+          <td class="memname">enum <a class="el" href="#aa1d54ea11338b8a55acf106743180ab1">Physics::CharacterCollisionBits</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2" name="ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2"></a>ColliderSphere&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab314f5785bbdfd095bec6645da31053ca90b5e59087a04e6266370f2bafa8e505" name="ab314f5785bbdfd095bec6645da31053ca90b5e59087a04e6266370f2bafa8e505"></a>ColliderCube&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab314f5785bbdfd095bec6645da31053ca942d34167f541200e84a42a628dd1fcb" name="ab314f5785bbdfd095bec6645da31053ca942d34167f541200e84a42a628dd1fcb"></a>ColliderCapsule&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab314f5785bbdfd095bec6645da31053ca7e81b759b806a657f8c99d33945218f1" name="ab314f5785bbdfd095bec6645da31053ca7e81b759b806a657f8c99d33945218f1"></a>ColliderPlane&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab314f5785bbdfd095bec6645da31053cad597f515adbc974c103076f29f2853cd" name="ab314f5785bbdfd095bec6645da31053cad597f515adbc974c103076f29f2853cd"></a>ColliderMesh&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a1e9a434f6e49131173bd01944ff4d64b" name="a1e9a434f6e49131173bd01944ff4d64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e9a434f6e49131173bd01944ff4d64b">&#9670;&#160;</a></span>CollsionGroups</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a1e9a434f6e49131173bd01944ff4d64b">Physics::CollsionGroups</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c" name="a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c"></a>Default&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0" name="a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0"></a>Static&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70" name="a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70"></a>Kinematic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147" name="a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147"></a>Debris&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161" name="a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161"></a>SensorTrigger&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4" name="a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4"></a>Characters&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ad0791d702e1e021959c9af906b492bff" name="ad0791d702e1e021959c9af906b492bff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0791d702e1e021959c9af906b492bff">&#9670;&#160;</a></span>MeshTopologyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#ad0791d702e1e021959c9af906b492bff">Physics::MeshTopologyType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad0791d702e1e021959c9af906b492bffa254186107fd13d5592dec3949dbcd905" name="ad0791d702e1e021959c9af906b492bffa254186107fd13d5592dec3949dbcd905"></a>Convex&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad0791d702e1e021959c9af906b492bffa6c5fccbde6f7689fba28226ffb4a963c" name="ad0791d702e1e021959c9af906b492bffa6c5fccbde6f7689fba28226ffb4a963c"></a>ConvexHull&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06" name="ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06"></a>Triangles&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad0791d702e1e021959c9af906b492bffad349afc4ab06f20fb69205346863c555" name="ad0791d702e1e021959c9af906b492bffad349afc4ab06f20fb69205346863c555"></a>HeightField&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa1d54ea11338b8a55acf106743180ab1a34e042d0953b6e46f002028c5cb91423" name="aa1d54ea11338b8a55acf106743180ab1a34e042d0953b6e46f002028c5cb91423"></a>Sides&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa1d54ea11338b8a55acf106743180ab1a5df615c99dec2bc5ee65b93899df7b73" name="aa1d54ea11338b8a55acf106743180ab1a5df615c99dec2bc5ee65b93899df7b73"></a>Up&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa1d54ea11338b8a55acf106743180ab1af5260d31d0a3d55a6a748b0af0fe1ff5" name="aa1d54ea11338b8a55acf106743180ab1af5260d31d0a3d55a6a748b0af0fe1ff5"></a>Down&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee" name="aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee"></a>CharacterCollisionBitsMax&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -614,6 +651,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8057fd9bff1aedbc154d0b04ab63b6e0" name="a8057fd9bff1aedbc154d0b04ab63b6e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8057fd9bff1aedbc154d0b04ab63b6e0">&#9670;&#160;</a></span>ApplyBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ApplyBounds </td>
+          <td>(</td>
+          <td class="paramtype">PxBounds3 const &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad332aeaa2b0e5a6a7603896e53edf338" name="ad332aeaa2b0e5a6a7603896e53edf338"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad332aeaa2b0e5a6a7603896e53edf338">&#9670;&#160;</a></span>BeginSimulating()</h2>
 
@@ -634,6 +688,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>explicit calls to simulate and fetch results. Do not mix with Update! </p>
+
+</div>
+</div>
+<a id="a279f700acce717fdeb9e33753ae63be9" name="a279f700acce717fdeb9e33753ae63be9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279f700acce717fdeb9e33753ae63be9">&#9670;&#160;</a></span>CheckAndResetModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::CheckAndResetModified </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *</td>          <td class="paramname"><span class="paramname"><em>cvar</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -793,6 +864,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a45fc01cb1762cca3d002be8b74e03001" name="a45fc01cb1762cca3d002be8b74e03001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45fc01cb1762cca3d002be8b74e03001">&#9670;&#160;</a></span>DebugVisualizeScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::DebugVisualizeScene </td>
+          <td>(</td>
+          <td class="paramtype">PxScene *</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab23ccb60b91a7e41592288f856e68ef2" name="ab23ccb60b91a7e41592288f856e68ef2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab23ccb60b91a7e41592288f856e68ef2">&#9670;&#160;</a></span>DestroyActorInstance()</h2>
 
@@ -820,6 +908,40 @@ Variables</h2></td></tr>
           <td class="memname">void Physics::DestroyScene </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>sceneId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a125e0679c185e5a40d863da0bd186290" name="a125e0679c185e5a40d863da0bd186290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a125e0679c185e5a40d863da0bd186290">&#9670;&#160;</a></span>DrawPhysicsDebug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::DrawPhysicsDebug </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a0c090f69cd4d143229060fab3a663c" name="a9a0c090f69cd4d143229060fab3a663c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0c090f69cd4d143229060fab3a663c">&#9670;&#160;</a></span>EnableDebugDrawing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::EnableDebugDrawing </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enabled</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1101,6 +1223,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa280f33abe774e8ac43c5069b9d8965a" name="aa280f33abe774e8ac43c5069b9d8965a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa280f33abe774e8ac43c5069b9d8965a">&#9670;&#160;</a></span>SetDebugDrawInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::SetDebugDrawInterface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_debug_draw_interface.html">DebugDrawInterface</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>interface</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d8a186d066bc76626cea4e607f5a3fc" name="a5d8a186d066bc76626cea4e607f5a3fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d8a186d066bc76626cea4e607f5a3fc">&#9670;&#160;</a></span>SetEventCallback()</h2>
 
@@ -1249,6 +1388,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a618fc67a7de06855288928cea8475c4c" name="a618fc67a7de06855288928cea8475c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618fc67a7de06855288928cea8475c4c">&#9670;&#160;</a></span>UpdateDebugDrawingParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::UpdateDebugDrawingParameters </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a1c7349cf74a45ddd8711ccea28d9cc1a" name="a1c7349cf74a45ddd8711ccea28d9cc1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c7349cf74a45ddd8711ccea28d9cc1a">&#9670;&#160;</a></span>actorPool</h2>
@@ -1258,6 +1414,426 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a> * Physics::actorPool = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c221290cf041571cb651d5e1e84f3b8" name="a7c221290cf041571cb651d5e1e84f3b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c221290cf041571cb651d5e1e84f3b8">&#9670;&#160;</a></span>cl_debug_draw_physics</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_debug_draw_physics = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;cl_debug_draw_physics&quot;, &quot;0&quot;, &quot;Set to 1 will enable physics debug drawing&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc2113c6dd157dd203f6c68061e8f2a" name="a0bc2113c6dd157dd203f6c68061e8f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc2113c6dd157dd203f6c68061e8f2a">&#9670;&#160;</a></span>cl_physics_draw_actor_axes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_actor_axes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_actor_axes&quot;, &quot;0&quot;, &quot;Visualize actor axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2560747a6ceeb0999c46582c4c06c859" name="a2560747a6ceeb0999c46582c4c06c859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2560747a6ceeb0999c46582c4c06c859">&#9670;&#160;</a></span>cl_physics_draw_body_ang_velocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_body_ang_velocity = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_ang_velocity&quot;, &quot;0&quot;, &quot;Visualize the bodies angular velocity. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac362b1eba383d1348c12349f4729ad60" name="ac362b1eba383d1348c12349f4729ad60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac362b1eba383d1348c12349f4729ad60">&#9670;&#160;</a></span>cl_physics_draw_body_axes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_body_axes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_axes&quot;, &quot;0&quot;, &quot;Visualize a bodies axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c4f41b24976aae14eda218e30f16a88" name="a1c4f41b24976aae14eda218e30f16a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c4f41b24976aae14eda218e30f16a88">&#9670;&#160;</a></span>cl_physics_draw_body_lin_velocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_body_lin_velocity = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_lin_velocity&quot;, &quot;0&quot;, &quot;Visualize the bodies linear velocity. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b2ab6ba0a77b070bb0cfea39796a87e" name="a3b2ab6ba0a77b070bb0cfea39796a87e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2ab6ba0a77b070bb0cfea39796a87e">&#9670;&#160;</a></span>cl_physics_draw_body_mass_axes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_body_mass_axes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_mass_axes&quot;, &quot;0&quot;, &quot;Visualize a body's mass axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2832aad9a672426aea9952f8aa045b47" name="a2832aad9a672426aea9952f8aa045b47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2832aad9a672426aea9952f8aa045b47">&#9670;&#160;</a></span>cl_physics_draw_collision_aabbs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_aabbs = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_aabbs&quot;, &quot;0&quot;, &quot;Visualize bounds (AABBs in world space). Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ae269f33e2715b025fd076c614638de" name="a6ae269f33e2715b025fd076c614638de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae269f33e2715b025fd076c614638de">&#9670;&#160;</a></span>cl_physics_draw_collision_axes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_axes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_axes&quot;, &quot;0&quot;, &quot;Shape axis visualization. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52d1646e54651d28f78446f12467fe7c" name="a52d1646e54651d28f78446f12467fe7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52d1646e54651d28f78446f12467fe7c">&#9670;&#160;</a></span>cl_physics_draw_collision_compounds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_compounds = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_compounds&quot;, &quot;0&quot;, &quot;Compound visualization (compound AABBs in world space). Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c87a1d27be7a4ff56963f9257faad2f" name="a8c87a1d27be7a4ff56963f9257faad2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c87a1d27be7a4ff56963f9257faad2f">&#9670;&#160;</a></span>cl_physics_draw_collision_dynamic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_dynamic = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_dynamic&quot;, &quot;0&quot;, &quot;Dynamic pruning structures. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ad51ba559cfda44b8a37e35de688470" name="a1ad51ba559cfda44b8a37e35de688470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad51ba559cfda44b8a37e35de688470">&#9670;&#160;</a></span>cl_physics_draw_collision_edges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_edges = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_edges&quot;, &quot;0&quot;, &quot;Active edges for meshes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a2511b793a1dc1eb57db0eebe2e0504" name="a7a2511b793a1dc1eb57db0eebe2e0504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2511b793a1dc1eb57db0eebe2e0504">&#9670;&#160;</a></span>cl_physics_draw_collision_fnormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_fnormals = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_fnormals&quot;, &quot;0&quot;, &quot;Mesh &amp; convex face normals. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba2cddd546a939557a05dde5be375ad8" name="aba2cddd546a939557a05dde5be375ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2cddd546a939557a05dde5be375ad8">&#9670;&#160;</a></span>cl_physics_draw_collision_shapes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_shapes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_shapes&quot;, &quot;1&quot;, &quot;Shape visualization. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb9b1eca625fc47dd65816b7d32e4883" name="aeb9b1eca625fc47dd65816b7d32e4883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb9b1eca625fc47dd65816b7d32e4883">&#9670;&#160;</a></span>cl_physics_draw_collision_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_collision_static = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_collision_static&quot;, &quot;0&quot;, &quot;Static pruning structures. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19ddbc2ac02f403b6c3a42734b891f4b" name="a19ddbc2ac02f403b6c3a42734b891f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ddbc2ac02f403b6c3a42734b891f4b">&#9670;&#160;</a></span>cl_physics_draw_contact_error</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_contact_error = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_error&quot;, &quot;0&quot;, &quot; Visualize contact errors. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4db155d8af1bb44a93d39410d913233" name="ac4db155d8af1bb44a93d39410d913233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4db155d8af1bb44a93d39410d913233">&#9670;&#160;</a></span>cl_physics_draw_contact_force</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_contact_force = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_force&quot;, &quot;0&quot;, &quot;Visualize Contact forces. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefc1c5fd5bf4bfc26ff7c5202cff706c" name="aefc1c5fd5bf4bfc26ff7c5202cff706c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc1c5fd5bf4bfc26ff7c5202cff706c">&#9670;&#160;</a></span>cl_physics_draw_contact_normal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_contact_normal = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_normal&quot;, &quot;0&quot;, &quot;Visualize contact normals. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7725f0216fc0e0201346bda0f8c4c2c" name="ae7725f0216fc0e0201346bda0f8c4c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7725f0216fc0e0201346bda0f8c4c2c">&#9670;&#160;</a></span>cl_physics_draw_contact_point</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_contact_point = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_contact_point&quot;, &quot;0&quot;, &quot; Visualize contact points. Will enable contact information. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad50951aae276bae421f367f9f4eb5de1" name="ad50951aae276bae421f367f9f4eb5de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50951aae276bae421f367f9f4eb5de1">&#9670;&#160;</a></span>cl_physics_draw_cull_box</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_cull_box = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_cull_box&quot;, &quot;0&quot;, &quot;Visualize culling box. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a276afa3b5199d259c40c2da75b5777ee" name="a276afa3b5199d259c40c2da75b5777ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276afa3b5199d259c40c2da75b5777ee">&#9670;&#160;</a></span>cl_physics_draw_joint_limits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_joint_limits = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_joint_limits&quot;, &quot;0&quot;, &quot;Visualize joint limits. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44ddde183c4a364bab0ce2621f763f2b" name="a44ddde183c4a364bab0ce2621f763f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ddde183c4a364bab0ce2621f763f2b">&#9670;&#160;</a></span>cl_physics_draw_joint_local_frames</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_joint_local_frames = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_joint_local_frames&quot;, &quot;0&quot;, &quot;Visualize joint local axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accfd355920d8d038eb51540821be48f5" name="accfd355920d8d038eb51540821be48f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accfd355920d8d038eb51540821be48f5">&#9670;&#160;</a></span>cl_physics_draw_mbp_regions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_mbp_regions = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_mbp_regions&quot;, &quot;0&quot;, &quot;MBP regions. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b2efad4380036c8b12df53b12c2aa93" name="a7b2efad4380036c8b12df53b12c2aa93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b2efad4380036c8b12df53b12c2aa93">&#9670;&#160;</a></span>cl_physics_draw_scale</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale&quot;, &quot;1.0&quot;, &quot;Visualization drawing scale.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35c6e1c789d06ded65be98c6af61d9d8" name="a35c6e1c789d06ded65be98c6af61d9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c6e1c789d06ded65be98c6af61d9d8">&#9670;&#160;</a></span>cl_physics_draw_scale_lines</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_lines = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;1.0&quot;, &quot;Line visualization drawing scale.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad6fa060cae7eb15491ac24e8168b843" name="aad6fa060cae7eb15491ac24e8168b843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6fa060cae7eb15491ac24e8168b843">&#9670;&#160;</a></span>cl_physics_draw_scale_points</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_points = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;1.0&quot;, &quot;Point visualization drawing scale.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3a4ce3a9aa7a37b192ebd004c5bb8ca" name="aa3a4ce3a9aa7a37b192ebd004c5bb8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a4ce3a9aa7a37b192ebd004c5bb8ca">&#9670;&#160;</a></span>cl_physics_draw_scale_triangles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_triangles = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;1.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0676c6a1cae98f995a10c0bc277a86b" name="af0676c6a1cae98f995a10c0bc277a86b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0676c6a1cae98f995a10c0bc277a86b">&#9670;&#160;</a></span>cl_physics_draw_world_axes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_world_axes = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_world_axes&quot;, &quot;0&quot;, &quot;Visualize the world axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d1dfc6233813e1956e5267ced3e76f7" name="a0d1dfc6233813e1956e5267ced3e76f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1dfc6233813e1956e5267ced3e76f7">&#9670;&#160;</a></span>controllerIdPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a> Physics::controllerIdPool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6dcca2dc00ff5be82b67a0d810db35f6" name="a6dcca2dc00ff5be82b67a0d810db35f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcca2dc00ff5be82b67a0d810db35f6">&#9670;&#160;</a></span>controllers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_physics_1_1_character.html">Character</a>&gt; Physics::controllers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f2e2e34dd6422f73fcd1878e79a42ac" name="a4f2e2e34dd6422f73fcd1878e79a42ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2e2e34dd6422f73fcd1878e79a42ac">&#9670;&#160;</a></span>dstate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_debug_state.html">DebugState</a> Physics::dstate</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1285,7 +1861,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_physics.html">Physics</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 20:09:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Aug 1 2025 19:36:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

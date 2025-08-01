@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"class_multiplayer_1_1_multiplayer_feature_unit.html#a889c08ae7da83d1fe2fc2c00944d6a8e":[8,0,53,4,2],
 "class_multiplayer_1_1_multiplayer_feature_unit.html#a889c08ae7da83d1fe2fc2c00944d6a8e":[9,0,47,4,2],
 "class_multiplayer_1_1_multiplayer_feature_unit.html#a8d655462acc96beec901b9ffe42bc40a":[8,0,53,4,1],
 "class_multiplayer_1_1_multiplayer_feature_unit.html#a8d655462acc96beec901b9ffe42bc40a":[9,0,47,4,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "class_nebula_1_1_game_1_1_template_manager.html#a368fb7110d0e3fcdf9ffab88bc54a3f9":[8,0,55,0,13,6],
 "class_nebula_1_1_game_1_1_template_manager.html#a368fb7110d0e3fcdf9ffab88bc54a3f9":[9,0,49,0,13,6],
 "class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[8,0,55,0,13,8],
-"class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[9,0,49,0,13,8]
+"class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[9,0,49,0,13,8],
+"class_nebula_1_1_game_1_1_template_manager.html#a669c0fa0477c89a233180e7030413452":[8,0,55,0,13,4]
 };

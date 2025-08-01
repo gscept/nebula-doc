@@ -113,40 +113,25 @@ $(function(){initNavTree('bitfield_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">static_assert</span>(NUMBITS &gt; 0);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">   29</a></span>    <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField</a>();</div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#aabb45dde7bce7faba7a5b47853e8ba60">   31</a></span>    <span class="keyword">constexpr</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#aabb45dde7bce7faba7a5b47853e8ba60">BitField</a>(std::initializer_list&lt;unsigned int&gt; list);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a2f58dfa1d09465a88bfa68b3ab3c2f89">   33</a></span>    <a class="code hl_function" href="class_util_1_1_bit_field.html#a2f58dfa1d09465a88bfa68b3ab3c2f89">BitField</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; rhs) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a0cd0a8ad119f7d2ff21c6da5ef608982">   36</a></span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a0cd0a8ad119f7d2ff21c6da5ef608982">operator==</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; rhs) <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a1e8b3ad31adf0e6aaf0a0e71dd7a3b29">   38</a></span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a1e8b3ad31adf0e6aaf0a0e71dd7a3b29">operator!=</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#ab3e25e3c5127c40077f76a79d7a0cd87">   41</a></span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab3e25e3c5127c40077f76a79d7a0cd87">IsSet</a>(<span class="keyword">const</span> uint64_t bitIndex) <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#ac3bf8f9d5b843ad6addbc8a8f92f22fe">   43</a></span>    <span class="keyword">template</span> &lt;u<span class="keywordtype">int</span>64_t bitIndex&gt; <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ac3bf8f9d5b843ad6addbc8a8f92f22fe">IsSet</a>() <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#ab036c8d6fb0c1074ba39186e6f8b9a82">   45</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab036c8d6fb0c1074ba39186e6f8b9a82">Clear</a>();</div>
-<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a3eebc739fefa9e2385071563dc4d0652">   47</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a3eebc739fefa9e2385071563dc4d0652">IsNull</a>() <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#aa5f5dceaef506ccf8b000f688e389a2f">   49</a></span>    <span class="keyword">constexpr</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#aa5f5dceaef506ccf8b000f688e389a2f">SetBit</a>(<span class="keyword">const</span> uint64_t bitIndex);</div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#aa44b278fa71baf769b3e9e8e2cdceb8d">   51</a></span>    <span class="keyword">constexpr</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#aa44b278fa71baf769b3e9e8e2cdceb8d">SetBitIf</a>(<span class="keyword">const</span> uint64_t bitIndex, uint64_t cond);</div>
-<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a4f3eb46f221162bdcb031d8ba4868ca5">   53</a></span>    <span class="keyword">template</span> &lt;u<span class="keywordtype">int</span>64_t bitIndex&gt; <span class="keyword">constexpr</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a4f3eb46f221162bdcb031d8ba4868ca5">SetBit</a>();</div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a1266081a204fd2ca7a1504be8bf39d4f">   55</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a1266081a204fd2ca7a1504be8bf39d4f">ClearBit</a>(<span class="keyword">const</span> uint64_t bitIndex);</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    </div>
-<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a554c4daeb43ffc0f4df0abbd5b45ec3b">   62</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#a554c4daeb43ffc0f4df0abbd5b45ec3b">SectionIsNull</a>(uint64_t section) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
-<div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#adbe87295761aca90e415f3e9a36c035d">   65</a></span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a> <a class="code hl_function" href="class_util_1_1_bit_field.html#adbe87295761aca90e415f3e9a36c035d">Or</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; b0, <span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; b1);</div>
-<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#a79de983a3a0f93201632442a29926c90">   67</a></span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a> <a class="code hl_function" href="class_util_1_1_bit_field.html#a79de983a3a0f93201632442a29926c90">And</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; b0, <span class="keyword">const</span> <a class="code hl_function" href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">BitField&lt;NUMBITS&gt;</a>&amp; b1);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">private</span>:</div>
@@ -183,6 +168,7 @@ $(function(){initNavTree('bitfield_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd">   93</a></span>    <a class="code hl_typedef" href="class_util_1_1_bit_field.html#a9e5bbdaaa8fb252c1e553ab5c3e7eeba">TYPE</a> <a class="code hl_variable" href="class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd">bits</a>[<a class="code hl_variable" href="class_util_1_1_bit_field.html#af2cd1e9b20a20775b65170febd24edf2">size</a>];</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
+</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
@@ -391,28 +377,12 @@ $(function(){initNavTree('bitfield_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>}</div>
 </div>
-</div>
 <div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>} <span class="comment">// namespace Util</span></div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html"><div class="ttname"><a href="class_util_1_1_bit_field.html">Util::BitField</a></div><div class="ttdoc">Implements large bit field.</div><div class="ttdef"><b>Definition</b> bitfield.h:24</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_a0cd0a8ad119f7d2ff21c6da5ef608982"><div class="ttname"><a href="class_util_1_1_bit_field.html#a0cd0a8ad119f7d2ff21c6da5ef608982">Util::BitField::operator==</a></div><div class="ttdeci">constexpr bool operator==(const BitField&lt; NUMBITS &gt; &amp;rhs) const</div><div class="ttdoc">equality operator</div><div class="ttdef"><b>Definition</b> bitfield.h:129</div></div>
-<div class="ttc" id="aclass_util_1_1_bit_field_html_a0f0dcbd31af95d756dc7a5fdb877f334"><div class="ttname"><a href="class_util_1_1_bit_field.html#a0f0dcbd31af95d756dc7a5fdb877f334">Util::BitField::BASE</a></div><div class="ttdeci">static constexpr uint64_t BASE</div><div class="ttdef"><b>Definition</b> bitfield.h:70</div></div>
+<div class="ttc" id="aclass_util_1_1_bit_field_html_a0f0dcbd31af95d756dc7a5fdb877f334"><div class="ttname"><a href="class_util_1_1_bit_field.html#a0f0dcbd31af95d756dc7a5fdb877f334">Util::BitField&lt; CharacterCollisionBitsMax &gt;::BASE</a></div><div class="ttdeci">static constexpr uint64_t BASE</div><div class="ttdef"><b>Definition</b> bitfield.h:70</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_a1266081a204fd2ca7a1504be8bf39d4f"><div class="ttname"><a href="class_util_1_1_bit_field.html#a1266081a204fd2ca7a1504be8bf39d4f">Util::BitField::ClearBit</a></div><div class="ttdeci">void ClearBit(const uint64_t bitIndex)</div><div class="ttdoc">clear a bit by index</div><div class="ttdef"><b>Definition</b> bitfield.h:255</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_a1e8b3ad31adf0e6aaf0a0e71dd7a3b29"><div class="ttname"><a href="class_util_1_1_bit_field.html#a1e8b3ad31adf0e6aaf0a0e71dd7a3b29">Util::BitField::operator!=</a></div><div class="ttdeci">constexpr bool operator!=(const BitField&lt; NUMBITS &gt; &amp;rhs) const</div><div class="ttdoc">inequality operator</div><div class="ttdef"><b>Definition</b> bitfield.h:146</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_a2f58dfa1d09465a88bfa68b3ab3c2f89"><div class="ttname"><a href="class_util_1_1_bit_field.html#a2f58dfa1d09465a88bfa68b3ab3c2f89">Util::BitField::BitField</a></div><div class="ttdeci">BitField(const BitField&lt; NUMBITS &gt; &amp;rhs)=default</div><div class="ttdoc">copy constructor</div></div>
@@ -427,10 +397,10 @@ $(function(){initNavTree('bitfield_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclass_util_1_1_bit_field_html_ab036c8d6fb0c1074ba39186e6f8b9a82"><div class="ttname"><a href="class_util_1_1_bit_field.html#ab036c8d6fb0c1074ba39186e6f8b9a82">Util::BitField::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">clear content</div><div class="ttdef"><b>Definition</b> bitfield.h:183</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_ab12026b6b7e05428f63072fef9d89b17"><div class="ttname"><a href="class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17">Util::BitField::BitField</a></div><div class="ttdeci">BitField()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> bitfield.h:99</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_ab3e25e3c5127c40077f76a79d7a0cd87"><div class="ttname"><a href="class_util_1_1_bit_field.html#ab3e25e3c5127c40077f76a79d7a0cd87">Util::BitField::IsSet</a></div><div class="ttdeci">constexpr bool IsSet(const uint64_t bitIndex) const</div><div class="ttdoc">Check if single bit is set.</div><div class="ttdef"><b>Definition</b> bitfield.h:156</div></div>
-<div class="ttc" id="aclass_util_1_1_bit_field_html_ab96eadb1e4bdad9c8b90de4f655920fd"><div class="ttname"><a href="class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd">Util::BitField::bits</a></div><div class="ttdeci">TYPE bits[size]</div><div class="ttdef"><b>Definition</b> bitfield.h:93</div></div>
+<div class="ttc" id="aclass_util_1_1_bit_field_html_ab96eadb1e4bdad9c8b90de4f655920fd"><div class="ttname"><a href="class_util_1_1_bit_field.html#ab96eadb1e4bdad9c8b90de4f655920fd">Util::BitField&lt; CharacterCollisionBitsMax &gt;::bits</a></div><div class="ttdeci">TYPE bits[size]</div><div class="ttdef"><b>Definition</b> bitfield.h:93</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_ac3bf8f9d5b843ad6addbc8a8f92f22fe"><div class="ttname"><a href="class_util_1_1_bit_field.html#ac3bf8f9d5b843ad6addbc8a8f92f22fe">Util::BitField::IsSet</a></div><div class="ttdeci">constexpr bool IsSet() const</div><div class="ttdoc">Check if single bit is set.</div><div class="ttdef"><b>Definition</b> bitfield.h:170</div></div>
 <div class="ttc" id="aclass_util_1_1_bit_field_html_adbe87295761aca90e415f3e9a36c035d"><div class="ttname"><a href="class_util_1_1_bit_field.html#adbe87295761aca90e415f3e9a36c035d">Util::BitField::Or</a></div><div class="ttdeci">static constexpr BitField&lt; NUMBITS &gt; Or(const BitField&lt; NUMBITS &gt; &amp;b0, const BitField&lt; NUMBITS &gt; &amp;b1)</div><div class="ttdoc">set bitfield to OR combination</div><div class="ttdef"><b>Definition</b> bitfield.h:279</div></div>
-<div class="ttc" id="aclass_util_1_1_bit_field_html_af2cd1e9b20a20775b65170febd24edf2"><div class="ttname"><a href="class_util_1_1_bit_field.html#af2cd1e9b20a20775b65170febd24edf2">Util::BitField::size</a></div><div class="ttdeci">static const int size</div><div class="ttdef"><b>Definition</b> bitfield.h:71</div></div>
+<div class="ttc" id="aclass_util_1_1_bit_field_html_af2cd1e9b20a20775b65170febd24edf2"><div class="ttname"><a href="class_util_1_1_bit_field.html#af2cd1e9b20a20775b65170febd24edf2">Util::BitField&lt; CharacterCollisionBitsMax &gt;::size</a></div><div class="ttdeci">static const int size</div><div class="ttdef"><b>Definition</b> bitfield.h:71</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
 <div class="ttc" id="anamespace_util_html"><div class="ttname"><a href="namespace_util.html">Util</a></div><div class="ttdoc">A pinned array is an array which manages its own virtual memory.</div><div class="ttdef"><b>Definition</b> String.cs:6</div></div>
 <div class="ttc" id="anamespace_util_html_a77aa7653dee3a23ea1c62d5cc65d94cf"><div class="ttname"><a href="namespace_util.html#a77aa7653dee3a23ea1c62d5cc65d94cf">Util::SetBit</a></div><div class="ttdeci">constexpr uint64_t SetBit(uint64_t mask, uint8_t bit)</div><div class="ttdef"><b>Definition</b> bit.h:21</div></div>
@@ -448,7 +418,7 @@ $(function(){initNavTree('bitfield_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="bitfield_8h.html">bitfield.h</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 20:08:56 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Aug 1 2025 19:36:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

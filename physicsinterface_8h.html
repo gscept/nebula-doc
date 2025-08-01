@@ -107,7 +107,10 @@ $(function(){initNavTree('physicsinterface_8h.html',''); initResizable(true); })
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="time_8h_source.html">timing/time.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bitfield_8h_source.html">util/bitfield.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="color_8h_source.html">util/color.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="delegate_8h_source.html">util/delegate.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="set_8h_source.html">util/set.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="arraystack_8h_source.html">util/arraystack.h</a>&quot;</code><br />
@@ -135,17 +138,27 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_id.html">Physics::CharacterId</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_constraint_id.html">Physics::ConstraintId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_aggregate_id.html">Physics::AggregateId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_actor.html">Physics::Actor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character.html">Physics::Character</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_constraint.html">Physics::Constraint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_aggregate.html">Physics::Aggregate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_contact_event.html">Physics::ContactEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_create_info.html">Physics::CharacterCreateInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_create_info_1_1_capsule_info.html">Physics::CharacterCreateInfo::CapsuleInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_character_create_info_1_1_box_info.html">Physics::CharacterCreateInfo::BoxInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">physx scene classes, foundation and physics are duplicated here for convenience instead of static getters, might be removed later on  <a href="struct_physics_1_1_scene.html#details">More...</a><br /></td></tr>
@@ -159,6 +172,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a069b2bc96207046ed3fc8d45f7e7a912" id="r_a069b2bc96207046ed3fc8d45f7e7a912"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a069b2bc96207046ed3fc8d45f7e7a912">Physics::CharacterCollision</a> = <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt;<a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee">CharacterCollisionBitsMax</a>&gt;</td></tr>
+<tr class="separator:a069b2bc96207046ed3fc8d45f7e7a912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4be4935a750e3efb636ec09c8724869" id="r_ac4be4935a750e3efb636ec09c8724869"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ac4be4935a750e3efb636ec09c8724869">Physics::UpdateFunctionType</a> = void (*) (const <a class="el" href="struct_physics_1_1_actor.html">Actor</a>&amp;)</td></tr>
 <tr class="separator:ac4be4935a750e3efb636ec09c8724869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec146a67924686f56d93c0b669414d1d" id="r_aec146a67924686f56d93c0b669414d1d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#aec146a67924686f56d93c0b669414d1d">Physics::EventCallbackType</a> = void (*) (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_physics_1_1_contact_event.html">ContactEvent</a>&gt;&amp;)</td></tr>
@@ -166,11 +181,17 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a303c363e8dc20be9dd9232685b2e81e3" id="r_a303c363e8dc20be9dd9232685b2e81e3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> { <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0">Physics::Static</a> = 1
-, <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70">Physics::Kinematic</a> = 3
+<tr class="memitem:a303c363e8dc20be9dd9232685b2e81e3" id="r_a303c363e8dc20be9dd9232685b2e81e3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> { <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a02e521a19b147e35cf3f7d189a5b02fc">Physics::Static</a>
+, <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a1fc607d02b98e98a8447e620d7d4e6a5">Physics::Kinematic</a>
 , <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a11255276fb3a95e0be1d8f5d0753ebec">Physics::Dynamic</a>
  }</td></tr>
 <tr class="separator:a303c363e8dc20be9dd9232685b2e81e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d54ea11338b8a55acf106743180ab1" id="r_aa1d54ea11338b8a55acf106743180ab1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1">Physics::CharacterCollisionBits</a> { <a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1a34e042d0953b6e46f002028c5cb91423">Physics::Sides</a> = 0
+, <a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1a5df615c99dec2bc5ee65b93899df7b73">Physics::Up</a> = 1
+, <a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1af5260d31d0a3d55a6a748b0af0fe1ff5">Physics::Down</a> = 2
+, <a class="el" href="namespace_physics.html#aa1d54ea11338b8a55acf106743180ab1a91c47bab0930a83b7f984bd4f3117aee">Physics::CharacterCollisionBitsMax</a>
+ }</td></tr>
+<tr class="separator:aa1d54ea11338b8a55acf106743180ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -228,7 +249,7 @@ Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_574d321306f111fe13f289f4f129e456.html">physics</a></li><li class="navelem"><a class="el" href="physicsinterface_8h.html">physicsinterface.h</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 20:09:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Aug 1 2025 19:36:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -1,5 +1,6 @@
 var utils_8h =
 [
+    [ "Neb2PxExtentedVec3", "utils_8h.html#a975fe05e15fa0c8b09647b5d8c1c2a9e", null ],
     [ "Neb2PxMat", "utils_8h.html#a312d66bdd23edb3c3f3e78787498f925", null ],
     [ "Neb2PxPnt", "utils_8h.html#ae8c168e7dbfdff40e2eb8342ee7c967a", null ],
     [ "Neb2PxQuat", "utils_8h.html#a9da82e228f6def04de8e96ecd79f9063", null ],

@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.13.2"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: /github/workspace/code/physics/physics/shapes.h File Reference</title>
+		<title>Nebula: /github/workspace/code/physics/physics/charactercontext.h File Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('shapes_8h.html',''); initResizable(true); });
+$(function(){initNavTree('physics_2physics_2charactercontext_8h.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -98,58 +98,37 @@ $(function(){initNavTree('shapes_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">shapes.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">charactercontext.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="shapes_8h_source.html">Go to the source code of this file.</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section copyright"><dt>Copyright</dt><dd>(C) 2025 Individual contributors, see AUTHORS file </dd></dl>
+</div><div class="textblock"><code>#include &quot;<a class="el" href="physicsinterface_8h_source.html">physicsinterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bitfield_8h_source.html">util/bitfield.h</a>&quot;</code><br />
+</div>
+<p><a href="physics_2physics_2charactercontext_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_1_1_character_context.html">Physics::CharacterContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html">Physics</a></td></tr>
 <tr class="memdesc:namespace_physics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diverse functions for manipulating physics actors. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a1e9a434f6e49131173bd01944ff4d64b" id="r_a1e9a434f6e49131173bd01944ff4d64b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64b">Physics::CollsionGroups</a> { <br />
-&#160;&#160;<a class="el" href="namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba414e8a1709eb2cb9c9ae7fe0a752d74c">Physics::Default</a> = 0
-, <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a93724a06ac2f39afb4043c7f214ecdd0">Physics::Static</a> = 1
-, <a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3a7e159a222b692580e20034039f75cf70">Physics::Kinematic</a> = 3
-, <a class="el" href="namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64baad8a022a340874923bcfdc5efaaee147">Physics::Debris</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba28933acf8233f5986f038d3b2cf78161">Physics::SensorTrigger</a> = 5
-, <a class="el" href="namespace_physics.html#a1e9a434f6e49131173bd01944ff4d64ba1c8deac9117c112577c1be288b656fe4">Physics::Characters</a> = 6
-<br />
- }</td></tr>
-<tr class="separator:a1e9a434f6e49131173bd01944ff4d64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0791d702e1e021959c9af906b492bff" id="r_ad0791d702e1e021959c9af906b492bff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ad0791d702e1e021959c9af906b492bff">Physics::MeshTopologyType</a> { <a class="el" href="namespace_physics.html#ad0791d702e1e021959c9af906b492bffa254186107fd13d5592dec3949dbcd905">Physics::Convex</a> = 0
-, <a class="el" href="namespace_physics.html#ad0791d702e1e021959c9af906b492bffa6c5fccbde6f7689fba28226ffb4a963c">Physics::ConvexHull</a> = 1
-, <a class="el" href="namespace_physics.html#ad0791d702e1e021959c9af906b492bffa9df17b0c490894d67632f049c6122e06">Physics::Triangles</a> = 2
-, <a class="el" href="namespace_physics.html#ad0791d702e1e021959c9af906b492bffad349afc4ab06f20fb69205346863c555">Physics::HeightField</a> = 3
- }</td></tr>
-<tr class="separator:ad0791d702e1e021959c9af906b492bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab314f5785bbdfd095bec6645da31053c" id="r_ab314f5785bbdfd095bec6645da31053c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053c">Physics::ColliderType</a> { <br />
-&#160;&#160;<a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca8a942729a433fe7225dae4971cdd2ed2">Physics::ColliderSphere</a> = 0
-, <a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca90b5e59087a04e6266370f2bafa8e505">Physics::ColliderCube</a> = 1
-, <a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca942d34167f541200e84a42a628dd1fcb">Physics::ColliderCapsule</a> = 2
-, <a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053ca7e81b759b806a657f8c99d33945218f1">Physics::ColliderPlane</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="namespace_physics.html#ab314f5785bbdfd095bec6645da31053cad597f515adbc974c103076f29f2853cd">Physics::ColliderMesh</a> = 4
-<br />
- }</td></tr>
-<tr class="separator:ab314f5785bbdfd095bec6645da31053c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_574d321306f111fe13f289f4f129e456.html">physics</a></li><li class="navelem"><a class="el" href="dir_352832f12b9478246c52b270ca81d862.html">physics</a></li><li class="navelem"><a class="el" href="shapes_8h.html">shapes.h</a></li>
+				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_574d321306f111fe13f289f4f129e456.html">physics</a></li><li class="navelem"><a class="el" href="dir_352832f12b9478246c52b270ca81d862.html">physics</a></li><li class="navelem"><a class="el" href="physics_2physics_2charactercontext_8h.html">charactercontext.h</a></li>
 				<li class="footer">
-					Generated on Wed Jul 30 2025 20:09:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Aug 1 2025 19:36:48 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

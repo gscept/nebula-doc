@@ -8,6 +8,7 @@ var class_game_1_1_world =
     [ "~World", "class_game_1_1_world.html#a5d547e0324c78353d3e36c3f5b80d81b", null ],
     [ "AddComponent", "class_game_1_1_world.html#ac9e196ca15b461ff0fe4f47ca5aa30a8", null ],
     [ "AddComponent", "class_game_1_1_world.html#a232ba79ff713516e2ab54648e07e6d62", null ],
+    [ "AddComponent", "class_game_1_1_world.html#ad98a0fb7a2f440e299e3b7f7a40fa3fd", null ],
     [ "AddStagedComponentsToEntity", "class_game_1_1_world.html#a068588c5f92f3f4d1cbbf05f39a37516", null ],
     [ "AllocateEntityId", "class_game_1_1_world.html#a147c3683c5f623233439b89c7a5cada4", null ],
     [ "AllocateInstance", "class_game_1_1_world.html#a05cb2e78cfca254cbaaacd32dd15fe1a", null ],

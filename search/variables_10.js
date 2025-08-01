@@ -217,10 +217,11 @@ var searchData=
   ['prv_214',['prv',['../struct_fibers_1_1fiber__ctx__t.html#a240e90bfb34104fc7efef9bd191fc891',1,'Fibers::fiber_ctx_t']]],
   ['ps_215',['ps',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#a901a0824338afdffcfd5b08d9bb97789',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['ptr_216',['ptr',['../class_ptr.html#abf0aa4a5a4a7a11865708b3a1c5c4db0',1,'Ptr::ptr'],['../class_weak_ptr.html#af9417ffb5fbd0e2b7c90f7007d96986e',1,'WeakPtr::ptr'],['../struct_threading_1_1_interlocked_1_1_atomic_pointer.html#a4a8ef50ff209e5d4073e3cb3f92a3c8b',1,'Threading::Interlocked::AtomicPointer::ptr'],['../class_util_1_1_blob.html#a4e0f4e91b2efbbcb385b0607e6ec84f4',1,'Util::Blob::ptr'],['../struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675',1,'Util::StringAtomTableBase::StaticString::ptr']]],
-  ['push_217',['push',['../struct_core_graphics_1_1_resource_pipeline_create_info.html#aae8baa64ac6097a86f864a52db14d214',1,'CoreGraphics::ResourcePipelineCreateInfo']]],
-  ['putcomputefencethisframe_218',['putComputeFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#aa820a812b14fef17a1cbf0b6ce0b3878',1,'Vulkan::VkScheduler']]],
-  ['putdrawfencethisframe_219',['putDrawFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#ac6457f014fea16ea29e6e5176273d175',1,'Vulkan::VkScheduler']]],
-  ['putsparsefencethisframe_220',['putSparseFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#a4608734f33bdf711c3872232aaef4b30',1,'Vulkan::VkScheduler']]],
-  ['puttransferfencethisframe_221',['putTransferFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#a593071fdf8f000d9dfcf8843e7d8838f',1,'Vulkan::VkScheduler']]],
-  ['pvd_222',['pvd',['../class_physics_1_1_physx_state.html#a552f3df0d7f362157357dfc71ee4b5ee',1,'Physics::PhysxState']]]
+  ['purple_217',['purple',['../class_util_1_1_color.html#a6188dfe82361f6639ab334c0e5c7aff4',1,'Util::Color']]],
+  ['push_218',['push',['../struct_core_graphics_1_1_resource_pipeline_create_info.html#aae8baa64ac6097a86f864a52db14d214',1,'CoreGraphics::ResourcePipelineCreateInfo']]],
+  ['putcomputefencethisframe_219',['putComputeFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#aa820a812b14fef17a1cbf0b6ce0b3878',1,'Vulkan::VkScheduler']]],
+  ['putdrawfencethisframe_220',['putDrawFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#ac6457f014fea16ea29e6e5176273d175',1,'Vulkan::VkScheduler']]],
+  ['putsparsefencethisframe_221',['putSparseFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#a4608734f33bdf711c3872232aaef4b30',1,'Vulkan::VkScheduler']]],
+  ['puttransferfencethisframe_222',['putTransferFenceThisFrame',['../class_vulkan_1_1_vk_scheduler.html#a593071fdf8f000d9dfcf8843e7d8838f',1,'Vulkan::VkScheduler']]],
+  ['pvd_223',['pvd',['../class_physics_1_1_physx_state.html#a552f3df0d7f362157357dfc71ee4b5ee',1,'Physics::PhysxState']]]
 ];
