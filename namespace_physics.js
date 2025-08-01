@@ -80,7 +80,7 @@ var namespace_physics =
     [ "RenderMaterialsUI", "namespace_physics.html#a65bfab3b3a913500b671e66bbc35affb", null ],
     [ "RenderUI", "namespace_physics.html#a1d566277e1bc1471d4256f142e524f84", null ],
     [ "SetActiveActorCallback", "namespace_physics.html#ac291472e0e5f0264d8199c1584d7d4c7", null ],
-    [ "SetDebugDrawInterface", "namespace_physics.html#aa280f33abe774e8ac43c5069b9d8965a", null ],
+    [ "SetDebugDrawInterface", "namespace_physics.html#a74f874abae75269e04cb9e2d69087efd", null ],
     [ "SetEventCallback", "namespace_physics.html#a5d8a186d066bc76626cea4e607f5a3fc", null ],
     [ "SetOnSleepCallback", "namespace_physics.html#a9af299c4259dad92ae554d3a2c2a8b79", null ],
     [ "SetOnWakeCallback", "namespace_physics.html#ac9faf5b2dec3610772037a5bff6b639f", null ],
