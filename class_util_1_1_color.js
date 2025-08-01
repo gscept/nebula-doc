@@ -7,6 +7,8 @@ var class_util_1_1_color =
     [ "Color", "class_util_1_1_color.html#a408501f3d91c42dcb532161628e3d0f8", null ],
     [ "Color", "class_util_1_1_color.html#a0086c46bf6c19fad28f1c50eb6165dd3", null ],
     [ "Color", "class_util_1_1_color.html#a1250af40bba9583dd3ea2576e14f3473", null ],
+    [ "ARGB", "class_util_1_1_color.html#a7aae2660ce855f887547e2ded19883e8", null ],
+    [ "RGBA", "class_util_1_1_color.html#aa0a8ff0d82f610f4762be1248848cdae", null ],
     [ "black", "class_util_1_1_color.html#ad4f159b0ff9cf29a3e16576a8c732800", null ],
     [ "blue", "class_util_1_1_color.html#a37777b7940839c7197f46d9dea8f3088", null ],
     [ "gray", "class_util_1_1_color.html#ac3a7702e0a072f34016e121d5f554f82", null ],

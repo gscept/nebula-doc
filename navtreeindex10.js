@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"class_base_1_1_game_pad_base.html#afb1847546de815125ed8093ad00e0ca1":[8,0,6,3,9],
+"class_base_1_1_game_pad_base.html#afb1847546de815125ed8093ad00e0ca1":[9,0,5,3,9],
+"class_base_1_1_game_pad_base.html#aff604d55c7c83693336ed54feb13e15e":[8,0,6,3,28],
 "class_base_1_1_game_pad_base.html#aff604d55c7c83693336ed54feb13e15e":[9,0,5,3,28],
 "class_base_1_1_input_server_base.html":[8,0,6,4],
 "class_base_1_1_input_server_base.html":[9,0,5,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "class_base_1_1_library.html#add3a35a798b6f0a8f644934c64e6e9b0":[8,0,6,8,4],
 "class_base_1_1_library.html#add3a35a798b6f0a8f644934c64e6e9b0":[9,0,5,8,4],
 "class_base_1_1_mouse_base.html":[8,0,6,9],
-"class_base_1_1_mouse_base.html":[9,0,5,9],
-"class_base_1_1_mouse_base.html#a0b5f9c20a48feef04953ed3aaab79094":[8,0,6,9,14],
-"class_base_1_1_mouse_base.html#a0b5f9c20a48feef04953ed3aaab79094":[9,0,5,9,14],
-"class_base_1_1_mouse_base.html#a103ac998eb43e510e0eae84eca5f062d":[8,0,6,9,26]
+"class_base_1_1_mouse_base.html":[9,0,5,9]
 };

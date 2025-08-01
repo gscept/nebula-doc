@@ -99,6 +99,7 @@ $(function(){initNavTree('class_util_1_1_color.html',''); initResizable(true); }
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_util_1_1_color-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Util::Color Class Reference</div></div>
@@ -107,7 +108,7 @@ $(function(){initNavTree('class_util_1_1_color.html',''); initResizable(true); }
 
 <p><code>#include &lt;<a class="el" href="color_8h_source.html">color.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>For now just a wrapper around <a class="el" href="struct_math_1_1vec4.html" title="A 4D vector.">Math::vec4</a> for type safety. </p>
+<div class="textblock"><p>Represents colors by four single point (32-bit) floating point numbers. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2025 Individual contributors, see AUTHORS file </dd></dl>
 </div>
 <p>Inherits <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a>.</p>
@@ -119,17 +120,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae38ca7847fa9e1d21af21d7646b1b2de" id="r_ae38ca7847fa9e1d21af21d7646b1b2de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38ca7847fa9e1d21af21d7646b1b2de">Color</a> (const <a class="el" href="class_util_1_1_color.html">Color</a> &amp;c)=default</td></tr>
 <tr class="separator:ae38ca7847fa9e1d21af21d7646b1b2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb56689a94c0738734dfba71b640f83" id="r_a8fb56689a94c0738734dfba71b640f83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb56689a94c0738734dfba71b640f83">Color</a> (float r, float g, float b, float a)</td></tr>
+<tr class="memdesc:a8fb56689a94c0738734dfba71b640f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from individual single precision floats.  <br /></td></tr>
 <tr class="separator:a8fb56689a94c0738734dfba71b640f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0085e2b6e6f57cbb94e1b733b40cb2af" id="r_a0085e2b6e6f57cbb94e1b733b40cb2af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0085e2b6e6f57cbb94e1b733b40cb2af">Color</a> (const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;<a class="el" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>)</td></tr>
-<tr class="memdesc:a0085e2b6e6f57cbb94e1b733b40cb2af"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy constructor from vec4  <br /></td></tr>
+<tr class="memdesc:a0085e2b6e6f57cbb94e1b733b40cb2af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor from vec4.  <br /></td></tr>
 <tr class="separator:a0085e2b6e6f57cbb94e1b733b40cb2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a408501f3d91c42dcb532161628e3d0f8" id="r_a408501f3d91c42dcb532161628e3d0f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a408501f3d91c42dcb532161628e3d0f8">Color</a> (const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;<a class="el" href="struct_math_1_1vec4.html#a73704ccc69f8b4bdebadd4fe70477eec">v</a>)</td></tr>
-<tr class="memdesc:a408501f3d91c42dcb532161628e3d0f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy constructor from <a class="el" href="struct_math_1_1vec3.html" title="A 3D vector.">vec3</a>, alpha is set to 1  <br /></td></tr>
+<tr class="memdesc:a408501f3d91c42dcb532161628e3d0f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor from <a class="el" href="struct_math_1_1vec3.html" title="A 3D vector.">vec3</a>, alpha is set to 1.  <br /></td></tr>
 <tr class="separator:a408501f3d91c42dcb532161628e3d0f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0086c46bf6c19fad28f1c50eb6165dd3" id="r_a0086c46bf6c19fad28f1c50eb6165dd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0086c46bf6c19fad28f1c50eb6165dd3">Color</a> (uint32_t argb)</td></tr>
 <tr class="memdesc:a0086c46bf6c19fad28f1c50eb6165dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts byte order A|R|G|B to 0..1 floats  <br /></td></tr>
 <tr class="separator:a0086c46bf6c19fad28f1c50eb6165dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1250af40bba9583dd3ea2576e14f3473" id="r_a1250af40bba9583dd3ea2576e14f3473"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1250af40bba9583dd3ea2576e14f3473">Color</a> (uint8_t r, uint8_t g, uint8_t b, uint8_t a)</td></tr>
+<tr class="memdesc:a1250af40bba9583dd3ea2576e14f3473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from individual 8 bit channels.  <br /></td></tr>
 <tr class="separator:a1250af40bba9583dd3ea2576e14f3473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_math_1_1vec4"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_struct_math_1_1vec4')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a></td></tr>
 <tr class="memitem:a6fd182d28d22b351110ea79ba28b26ac inherit pub_methods_struct_math_1_1vec4" id="r_a6fd182d28d22b351110ea79ba28b26ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_math_1_1vec4.html#a6fd182d28d22b351110ea79ba28b26ac">vec4</a> ()=default</td></tr>
@@ -221,25 +224,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa271a223b0e2ffa1cdd5fd59c058915a inherit pub_methods_struct_math_1_1vec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">implicit <a class="el" href="struct_math_1_1vec3.html" title="A 3D vector.">vec3</a> conversion operator  <br /></td></tr>
 <tr class="separator:aa271a223b0e2ffa1cdd5fd59c058915a inherit pub_methods_struct_math_1_1vec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa0a8ff0d82f610f4762be1248848cdae" id="r_aa0a8ff0d82f610f4762be1248848cdae"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a8ff0d82f610f4762be1248848cdae">RGBA</a> (uint32_t rgba)</td></tr>
+<tr class="memdesc:aa0a8ff0d82f610f4762be1248848cdae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create color from unsigned int (A|R|G|B) -&gt; 0..1 floats.  <br /></td></tr>
+<tr class="separator:aa0a8ff0d82f610f4762be1248848cdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aae2660ce855f887547e2ded19883e8" id="r_a7aae2660ce855f887547e2ded19883e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aae2660ce855f887547e2ded19883e8">ARGB</a> (uint32_t argb)</td></tr>
+<tr class="memdesc:a7aae2660ce855f887547e2ded19883e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create color from unsigned int (R|G|B|A) -&gt; 0..1 floats.  <br /></td></tr>
+<tr class="separator:a7aae2660ce855f887547e2ded19883e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac6e06f1af7bf9b8eebeb0618acc85863" id="r_ac6e06f1af7bf9b8eebeb0618acc85863"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e06f1af7bf9b8eebeb0618acc85863">red</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF0000FF)</td></tr>
+<tr class="memitem:ac6e06f1af7bf9b8eebeb0618acc85863" id="r_ac6e06f1af7bf9b8eebeb0618acc85863"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e06f1af7bf9b8eebeb0618acc85863">red</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFF0000)</td></tr>
+<tr class="memdesc:ac6e06f1af7bf9b8eebeb0618acc85863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xFF0000)  <br /></td></tr>
 <tr class="separator:ac6e06f1af7bf9b8eebeb0618acc85863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4079295df8ba364ce1bdcec3327d009b" id="r_a4079295df8ba364ce1bdcec3327d009b"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4079295df8ba364ce1bdcec3327d009b">green</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0x00FF00FF)</td></tr>
+<tr class="memitem:a4079295df8ba364ce1bdcec3327d009b" id="r_a4079295df8ba364ce1bdcec3327d009b"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4079295df8ba364ce1bdcec3327d009b">green</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF00FF00)</td></tr>
+<tr class="memdesc:a4079295df8ba364ce1bdcec3327d009b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0x00FF00)  <br /></td></tr>
 <tr class="separator:a4079295df8ba364ce1bdcec3327d009b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37777b7940839c7197f46d9dea8f3088" id="r_a37777b7940839c7197f46d9dea8f3088"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37777b7940839c7197f46d9dea8f3088">blue</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0x0000FFFF)</td></tr>
+<tr class="memitem:a37777b7940839c7197f46d9dea8f3088" id="r_a37777b7940839c7197f46d9dea8f3088"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37777b7940839c7197f46d9dea8f3088">blue</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF0000FF)</td></tr>
+<tr class="memdesc:a37777b7940839c7197f46d9dea8f3088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0x0000FF)  <br /></td></tr>
 <tr class="separator:a37777b7940839c7197f46d9dea8f3088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bc201fbcf55bea9b5230e5ca00341c7" id="r_a5bc201fbcf55bea9b5230e5ca00341c7"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc201fbcf55bea9b5230e5ca00341c7">yellow</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFF00FF)</td></tr>
+<tr class="memitem:a5bc201fbcf55bea9b5230e5ca00341c7" id="r_a5bc201fbcf55bea9b5230e5ca00341c7"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc201fbcf55bea9b5230e5ca00341c7">yellow</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFFFF00)</td></tr>
+<tr class="memdesc:a5bc201fbcf55bea9b5230e5ca00341c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xFFFF00)  <br /></td></tr>
 <tr class="separator:a5bc201fbcf55bea9b5230e5ca00341c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6188dfe82361f6639ab334c0e5c7aff4" id="r_a6188dfe82361f6639ab334c0e5c7aff4"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6188dfe82361f6639ab334c0e5c7aff4">purple</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xA020F0FF)</td></tr>
+<tr class="memitem:a6188dfe82361f6639ab334c0e5c7aff4" id="r_a6188dfe82361f6639ab334c0e5c7aff4"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6188dfe82361f6639ab334c0e5c7aff4">purple</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFA020F0)</td></tr>
+<tr class="memdesc:a6188dfe82361f6639ab334c0e5c7aff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xA020F0)  <br /></td></tr>
 <tr class="separator:a6188dfe82361f6639ab334c0e5c7aff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affce8f2c41741f0d9cfd18399133e6ac" id="r_affce8f2c41741f0d9cfd18399133e6ac"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affce8f2c41741f0d9cfd18399133e6ac">orange</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFA500FF)</td></tr>
+<tr class="memitem:affce8f2c41741f0d9cfd18399133e6ac" id="r_affce8f2c41741f0d9cfd18399133e6ac"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affce8f2c41741f0d9cfd18399133e6ac">orange</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFFA500)</td></tr>
+<tr class="memdesc:affce8f2c41741f0d9cfd18399133e6ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xFFA500)  <br /></td></tr>
 <tr class="separator:affce8f2c41741f0d9cfd18399133e6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f159b0ff9cf29a3e16576a8c732800" id="r_ad4f159b0ff9cf29a3e16576a8c732800"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4f159b0ff9cf29a3e16576a8c732800">black</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0x000000FF)</td></tr>
+<tr class="memitem:ad4f159b0ff9cf29a3e16576a8c732800" id="r_ad4f159b0ff9cf29a3e16576a8c732800"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4f159b0ff9cf29a3e16576a8c732800">black</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF000000)</td></tr>
+<tr class="memdesc:ad4f159b0ff9cf29a3e16576a8c732800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0x000000)  <br /></td></tr>
 <tr class="separator:ad4f159b0ff9cf29a3e16576a8c732800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4feb9110ff02e0497f01689e4e4974" id="r_a8f4feb9110ff02e0497f01689e4e4974"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f4feb9110ff02e0497f01689e4e4974">white</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFFFFFF)</td></tr>
+<tr class="memdesc:a8f4feb9110ff02e0497f01689e4e4974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xFFFFFF)  <br /></td></tr>
 <tr class="separator:a8f4feb9110ff02e0497f01689e4e4974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3a7702e0a072f34016e121d5f554f82" id="r_ac3a7702e0a072f34016e121d5f554f82"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3a7702e0a072f34016e121d5f554f82">gray</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xBEBEBEFF)</td></tr>
+<tr class="memitem:ac3a7702e0a072f34016e121d5f554f82" id="r_ac3a7702e0a072f34016e121d5f554f82"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_util_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3a7702e0a072f34016e121d5f554f82">gray</a> = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFBEBEBE)</td></tr>
+<tr class="memdesc:ac3a7702e0a072f34016e121d5f554f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined color. (0xBEBEBE)  <br /></td></tr>
 <tr class="separator:ac3a7702e0a072f34016e121d5f554f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -346,6 +367,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Construct from individual single precision floats. </p>
+
 </div>
 </div>
 <a id="a0085e2b6e6f57cbb94e1b733b40cb2af" name="a0085e2b6e6f57cbb94e1b733b40cb2af"></a>
@@ -363,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>copy constructor from vec4 </p>
+<p>Copy constructor from vec4. </p>
 
 </div>
 </div>
@@ -382,7 +405,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>copy constructor from <a class="el" href="struct_math_1_1vec3.html" title="A 3D vector.">vec3</a>, alpha is set to 1 </p>
+<p>Copy constructor from <a class="el" href="struct_math_1_1vec3.html" title="A 3D vector.">vec3</a>, alpha is set to 1. </p>
 
 </div>
 </div>
@@ -410,6 +433,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">__forceinline Util::Color::Color </td>
@@ -432,7 +458,69 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Construct from individual 8 bit channels. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7aae2660ce855f887547e2ded19883e8" name="a7aae2660ce855f887547e2ded19883e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aae2660ce855f887547e2ded19883e8">&#9670;&#160;</a></span>ARGB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::ARGB </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>argb</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create color from unsigned int (R|G|B|A) -&gt; 0..1 floats. </p>
+
+</div>
+</div>
+<a id="aa0a8ff0d82f610f4762be1248848cdae" name="aa0a8ff0d82f610f4762be1248848cdae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a8ff0d82f610f4762be1248848cdae">&#9670;&#160;</a></span>RGBA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::RGBA </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>rgba</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create color from unsigned int (A|R|G|B) -&gt; 0..1 floats. </p>
 
 </div>
 </div>
@@ -447,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::black = <a class="el" href="class_util_1_1_color.html">Color</a>(0x000000FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::black = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF000000)</td>
         </tr>
       </table>
   </td>
@@ -456,6 +544,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0x000000) </p>
 
 </div>
 </div>
@@ -469,7 +559,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::blue = <a class="el" href="class_util_1_1_color.html">Color</a>(0x0000FFFF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::blue = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF0000FF)</td>
         </tr>
       </table>
   </td>
@@ -478,6 +568,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0x0000FF) </p>
 
 </div>
 </div>
@@ -491,7 +583,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::gray = <a class="el" href="class_util_1_1_color.html">Color</a>(0xBEBEBEFF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::gray = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFBEBEBE)</td>
         </tr>
       </table>
   </td>
@@ -500,6 +592,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0xBEBEBE) </p>
 
 </div>
 </div>
@@ -513,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::green = <a class="el" href="class_util_1_1_color.html">Color</a>(0x00FF00FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::green = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF00FF00)</td>
         </tr>
       </table>
   </td>
@@ -522,6 +616,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0x00FF00) </p>
 
 </div>
 </div>
@@ -535,7 +631,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::orange = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFA500FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::orange = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFFA500)</td>
         </tr>
       </table>
   </td>
@@ -544,6 +640,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0xFFA500) </p>
 
 </div>
 </div>
@@ -557,7 +655,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::purple = <a class="el" href="class_util_1_1_color.html">Color</a>(0xA020F0FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::purple = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFA020F0)</td>
         </tr>
       </table>
   </td>
@@ -566,6 +664,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0xA020F0) </p>
 
 </div>
 </div>
@@ -579,7 +679,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::red = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFF0000FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::red = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFF0000)</td>
         </tr>
       </table>
   </td>
@@ -588,6 +688,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0xFF0000) </p>
 
 </div>
 </div>
@@ -611,6 +713,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Predefined color. (0xFFFFFF) </p>
+
 </div>
 </div>
 <a id="a5bc201fbcf55bea9b5230e5ca00341c7" name="a5bc201fbcf55bea9b5230e5ca00341c7"></a>
@@ -623,7 +727,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::yellow = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFF00FF)</td>
+          <td class="memname">const <a class="el" href="class_util_1_1_color.html">Color</a> Util::Color::yellow = <a class="el" href="class_util_1_1_color.html">Color</a>(0xFFFFFF00)</td>
         </tr>
       </table>
   </td>
@@ -632,6 +736,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Predefined color. (0xFFFF00) </p>
 
 </div>
 </div>
@@ -646,7 +752,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_util.html">Util</a></li><li class="navelem"><a class="el" href="class_util_1_1_color.html">Color</a></li>
 				<li class="footer">
-					Generated on Fri Aug 1 2025 20:54:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Aug 1 2025 22:11:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

@@ -243,11 +243,11 @@ var NAVTREEINDEX1 =
 "category_8h_source.html":[10,0,0,1,3,4],
 "char_8h.html":[10,0,0,4,0,2],
 "char_8h_source.html":[10,0,0,4,0,2],
+"charactermanager_8cc.html":[10,0,0,0,9,0,0],
+"charactermanager_8h.html":[10,0,0,0,9,0,1],
+"charactermanager_8h_source.html":[10,0,0,0,9,0,1],
 "characternode_8cc.html":[10,0,0,7,17,0,0],
 "characternode_8h.html":[10,0,0,7,17,0,1],
 "characternode_8h_source.html":[10,0,0,7,17,0,1],
-"characterskinnode_8cc.html":[10,0,0,7,17,0,2],
-"characterskinnode_8h.html":[10,0,0,7,17,0,3],
-"characterskinnode_8h_source.html":[10,0,0,7,17,0,3],
-"class_animation_1_1_anim_event_handler_base.html":[8,0,0,0]
+"characterskinnode_8cc.html":[10,0,0,7,17,0,2]
 };

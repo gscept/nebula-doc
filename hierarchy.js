@@ -1055,6 +1055,7 @@ var hierarchy =
         [ "Game::TimeManager", "class_game_1_1_time_manager.html", null ],
         [ "GraphicsFeature::CameraManager", "class_graphics_feature_1_1_camera_manager.html", null ],
         [ "GraphicsFeature::GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html", null ],
+        [ "PhysicsFeature::CharacterManager", "class_physics_feature_1_1_character_manager.html", null ],
         [ "PhysicsFeature::PhysicsManager", "class_physics_feature_1_1_physics_manager.html", null ]
       ] ],
       [ "Graphics::GraphicsServer", "class_graphics_1_1_graphics_server.html", null ],
