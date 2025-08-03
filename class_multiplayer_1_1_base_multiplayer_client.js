@@ -15,6 +15,7 @@ var class_multiplayer_1_1_base_multiplayer_client =
     [ "PollConnectionChanges", "class_multiplayer_1_1_base_multiplayer_client.html#a89935f14741e9a6b29513f7f8929c45f", null ],
     [ "PollIncomingMessages", "class_multiplayer_1_1_base_multiplayer_client.html#a43832531364cee939f34a5bfffe0ebb6", null ],
     [ "PushPendingMessages", "class_multiplayer_1_1_base_multiplayer_client.html#a0d5865a25944f9c68c7696c0b40977ab", null ],
+    [ "Send", "class_multiplayer_1_1_base_multiplayer_client.html#a7e24b69cac5a92ddad547b28ede14829", null ],
     [ "SyncAll", "class_multiplayer_1_1_base_multiplayer_client.html#a607504397dd836c16180756c13fff91a", null ],
     [ "TryConnect", "class_multiplayer_1_1_base_multiplayer_client.html#a9b9cdc001194e5ea8ed5341aeb0ad9e0", null ],
     [ "connectionId", "class_multiplayer_1_1_base_multiplayer_client.html#a7ef1333da08bc8382bcccba8f7b5cf18", null ],

@@ -4,6 +4,7 @@ var class_input_1_1_input_event =
       [ "InvalidType", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a10ad28318110d2b6b51b8f6c4c1b0290", null ],
       [ "AppObtainFocus", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a697bac108564244baa4a24bb088d0e06", null ],
       [ "AppLoseFocus", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a1882fc96547f67b7550a9683d8cadb59", null ],
+      [ "AppClose", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a53aadb3e30b95b72a5357fafbcba9066", null ],
       [ "Reset", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a72a56515f0b775028e7ceeb9a7ef47ac", null ],
       [ "KeyDown", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6adca9c8103d4dcf90489e1181d1de2796", null ],
       [ "KeyUp", "class_input_1_1_input_event.html#a790f07f475f65c3673d617947cb3b8f6a16939a9fb963c3fe3b83e160ed9be082", null ],

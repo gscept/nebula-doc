@@ -134,21 +134,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4dd291b48851ff7261b8bef8a6217989"><td class="mdescLeft">&#160;</td><td class="mdescRight">broadcast message to all clients  <br /></td></tr>
 <tr class="separator:a4dd291b48851ff7261b8bef8a6217989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9549c96b031cc69591eacea547553a8c" id="r_a9549c96b031cc69591eacea547553a8c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9549c96b031cc69591eacea547553a8c">OnClientIsConnecting</a> (<a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a> *connection)</td></tr>
+<tr class="memdesc:a9549c96b031cc69591eacea547553a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when client is trying to connect. Override and return true if the connection should be accepted.  <br /></td></tr>
 <tr class="separator:a9549c96b031cc69591eacea547553a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa21fd5b7460bcbbeebdc76188634ee1d" id="r_aa21fd5b7460bcbbeebdc76188634ee1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa21fd5b7460bcbbeebdc76188634ee1d">OnClientConnected</a> (<a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a> *connection)</td></tr>
+<tr class="memdesc:aa21fd5b7460bcbbeebdc76188634ee1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when client has successfully connected to the server.  <br /></td></tr>
 <tr class="separator:aa21fd5b7460bcbbeebdc76188634ee1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba0cd9fbd95d4793380d5396f83beb1a" id="r_aba0cd9fbd95d4793380d5396f83beb1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0cd9fbd95d4793380d5396f83beb1a">OnClientDisconnected</a> (<a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a> *connection)</td></tr>
+<tr class="memdesc:aba0cd9fbd95d4793380d5396f83beb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when client has disconnected from the server.  <br /></td></tr>
 <tr class="separator:aba0cd9fbd95d4793380d5396f83beb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bcfddc1460eba2b16edba270f127fc5" id="r_a0bcfddc1460eba2b16edba270f127fc5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bcfddc1460eba2b16edba270f127fc5">OnMessageReceived</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> recvTime, uint32_t connectionId, byte *data, size_t size)</td></tr>
-<tr class="separator:a0bcfddc1460eba2b16edba270f127fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23e95e96483331148db52ad5fdca32ea" id="r_a23e95e96483331148db52ad5fdca32ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23e95e96483331148db52ad5fdca32ea">OnMessageReceived</a> (<a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a> *connection, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> recvTime, byte *data, size_t size)</td></tr>
+<tr class="memdesc:a23e95e96483331148db52ad5fdca32ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message has been received from a client.  <br /></td></tr>
+<tr class="separator:a23e95e96483331148db52ad5fdca32ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10221d045c8749347046d861f9985df6" id="r_a10221d045c8749347046d861f9985df6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10221d045c8749347046d861f9985df6">OnFrame</a> ()</td></tr>
+<tr class="memdesc:a10221d045c8749347046d861f9985df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every "frame".  <br /></td></tr>
+<tr class="separator:a10221d045c8749347046d861f9985df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40f7770623e01d481c331d500b8c9ce" id="r_af40f7770623e01d481c331d500b8c9ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af40f7770623e01d481c331d500b8c9ce">OnTick</a> ()</td></tr>
+<tr class="memdesc:af40f7770623e01d481c331d500b8c9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every <code>tickInterval</code> seconds, after OnFrame.  <br /></td></tr>
+<tr class="separator:af40f7770623e01d481c331d500b8c9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc551987df9141905176b6b15763efa" id="r_a7cc551987df9141905176b6b15763efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc551987df9141905176b6b15763efa">GetTickInterval</a> () const</td></tr>
+<tr class="memdesc:a7cc551987df9141905176b6b15763efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the interval between ticks, in seconds.  <br /></td></tr>
+<tr class="separator:a7cc551987df9141905176b6b15763efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b6ab71f50ec487f27bde793f51c9ac" id="r_a27b6ab71f50ec487f27bde793f51c9ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b6ab71f50ec487f27bde793f51c9ac">SetTickInterval</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> interval)</td></tr>
+<tr class="memdesc:a27b6ab71f50ec487f27bde793f51c9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the interval (seconds) between ticks.  <br /></td></tr>
+<tr class="separator:a27b6ab71f50ec487f27bde793f51c9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6df00d0045c0cf65332fc4f191cfe954" id="r_a6df00d0045c0cf65332fc4f191cfe954"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df00d0045c0cf65332fc4f191cfe954">SetClientGroupPollInterval</a> (<a class="el" href="namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73">ClientGroup</a> group, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> msBetweenTicks)</td></tr>
 <tr class="separator:a6df00d0045c0cf65332fc4f191cfe954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15dce6fd3319e788adb73b2ca880a7d7" id="r_a15dce6fd3319e788adb73b2ca880a7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15dce6fd3319e788adb73b2ca880a7d7">SyncAll</a> ()</td></tr>
+<tr class="memdesc:a15dce6fd3319e788adb73b2ca880a7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for connection changes, polls messages and calls OnFrame/OnTick.  <br /></td></tr>
 <tr class="separator:a15dce6fd3319e788adb73b2ca880a7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a160ab6c0d05d401f3894f06aee60bb26" id="r_a160ab6c0d05d401f3894f06aee60bb26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a160ab6c0d05d401f3894f06aee60bb26">OnNetConnectionStatusChanged</a> (SteamNetConnectionStatusChangedCallback_t *info)</td></tr>
+<tr class="memdesc:a160ab6c0d05d401f3894f06aee60bb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used internally by GameNetworkingSockets at connection status changes.  <br /></td></tr>
 <tr class="separator:a160ab6c0d05d401f3894f06aee60bb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff7fb8a04581637ad54ac8015774576f" id="r_aff7fb8a04581637ad54ac8015774576f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff7fb8a04581637ad54ac8015774576f">GetSendTickInterval</a> () const</td></tr>
-<tr class="separator:aff7fb8a04581637ad54ac8015774576f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -164,8 +180,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a58e93ebbc3fc2caba1541f0918c951fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f14cb31c7ebb5ae5d8767edcf7b8f80" id="r_a0f14cb31c7ebb5ae5d8767edcf7b8f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f14cb31c7ebb5ae5d8767edcf7b8f80">PollConnectionChanges</a> ()</td></tr>
 <tr class="separator:a0f14cb31c7ebb5ae5d8767edcf7b8f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53984735f3a89322ab67cb0dbd3a8b8" id="r_aa53984735f3a89322ab67cb0dbd3a8b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa53984735f3a89322ab67cb0dbd3a8b8">PushPendingMessages</a> ()</td></tr>
-<tr class="separator:aa53984735f3a89322ab67cb0dbd3a8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -185,10 +199,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2f7fabdcd2483a632db6203e09ede476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ded640bfd9bdcc6288a13f797127be" id="r_a29ded640bfd9bdcc6288a13f797127be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ded640bfd9bdcc6288a13f797127be">pollGroupIntervals</a> [(int) <a class="el" href="namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a34943ae6cb1ec4e7ddd88a165f31769f">ClientGroup::NumClientGroups</a>]</td></tr>
 <tr class="separator:a29ded640bfd9bdcc6288a13f797127be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f5fecfc2eb7e7963c9bf7f865980a59" id="r_a3f5fecfc2eb7e7963c9bf7f865980a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timing_1_1_timer.html">Timing::Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f5fecfc2eb7e7963c9bf7f865980a59">sendTimer</a></td></tr>
-<tr class="separator:a3f5fecfc2eb7e7963c9bf7f865980a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d4c85326b225d402d8c5b8ff3ed9d9" id="r_a86d4c85326b225d402d8c5b8ff3ed9d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d4c85326b225d402d8c5b8ff3ed9d9">sendTickInterval</a></td></tr>
-<tr class="separator:a86d4c85326b225d402d8c5b8ff3ed9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84431c513882a86b288d3d71026df765" id="r_a84431c513882a86b288d3d71026df765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timing_1_1_timer.html">Timing::Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84431c513882a86b288d3d71026df765">tickTimer</a></td></tr>
+<tr class="separator:a84431c513882a86b288d3d71026df765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d75955c28ea6f6f145b855985b655f" id="r_ad6d75955c28ea6f6f145b855985b655f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d75955c28ea6f6f145b855985b655f">tickInterval</a></td></tr>
+<tr class="separator:ad6d75955c28ea6f6f145b855985b655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaa3667aa4b010407148005b902cececd" name="aaa3667aa4b010407148005b902cececd"></a>
@@ -317,8 +331,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aff7fb8a04581637ad54ac8015774576f" name="aff7fb8a04581637ad54ac8015774576f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff7fb8a04581637ad54ac8015774576f">&#9670;&#160;</a></span>GetSendTickInterval()</h2>
+<a id="a7cc551987df9141905176b6b15763efa" name="a7cc551987df9141905176b6b15763efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc551987df9141905176b6b15763efa">&#9670;&#160;</a></span>GetTickInterval()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +341,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Multiplayer::BaseMultiplayerServer::GetSendTickInterval </td>
+          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Multiplayer::BaseMultiplayerServer::GetTickInterval </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -339,6 +353,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the interval between ticks, in seconds. </p>
 
 </div>
 </div>
@@ -392,6 +408,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when client has successfully connected to the server. </p>
+
 <p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#ac557fdb62921f8380522a7308126a55f">Multiplayer::StandardMultiplayerServer</a>.</p>
 
 </div>
@@ -418,6 +436,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called when client has disconnected from the server. </p>
 
 <p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#aa8252c68afc0a203c8988454bf056691">Multiplayer::StandardMultiplayerServer</a>.</p>
 
@@ -446,12 +466,43 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when client is trying to connect. Override and return true if the connection should be accepted. </p>
+
 <p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#a9a295f92955ed6811b12d560b9b5964b">Multiplayer::StandardMultiplayerServer</a>.</p>
 
 </div>
 </div>
-<a id="a0bcfddc1460eba2b16edba270f127fc5" name="a0bcfddc1460eba2b16edba270f127fc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bcfddc1460eba2b16edba270f127fc5">&#9670;&#160;</a></span>OnMessageReceived()</h2>
+<a id="a10221d045c8749347046d861f9985df6" name="a10221d045c8749347046d861f9985df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10221d045c8749347046d861f9985df6">&#9670;&#160;</a></span>OnFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::BaseMultiplayerServer::OnFrame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called every "frame". </p>
+
+<p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#a5c7ffbb8e633e7415b6e9e8c0af222c0">Multiplayer::StandardMultiplayerServer</a>.</p>
+
+</div>
+</div>
+<a id="a23e95e96483331148db52ad5fdca32ea" name="a23e95e96483331148db52ad5fdca32ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e95e96483331148db52ad5fdca32ea">&#9670;&#160;</a></span>OnMessageReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,12 +513,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Multiplayer::BaseMultiplayerServer::OnMessageReceived </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>recvTime</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a> *</td>          <td class="paramname"><span class="paramname"><em>connection</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>connectionId</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>recvTime</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -487,7 +538,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#a592a9b26e2dc53c27f01096877420fb0">Multiplayer::StandardMultiplayerServer</a>.</p>
+<p>Called when a message has been received from a client. </p>
+
+<p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#ab086f607a224250581976562c87b0703">Multiplayer::StandardMultiplayerServer</a>.</p>
 
 </div>
 </div>
@@ -505,6 +558,37 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Used internally by GameNetworkingSockets at connection status changes. </p>
+
+</div>
+</div>
+<a id="af40f7770623e01d481c331d500b8c9ce" name="af40f7770623e01d481c331d500b8c9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af40f7770623e01d481c331d500b8c9ce">&#9670;&#160;</a></span>OnTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::BaseMultiplayerServer::OnTick </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called every <code>tickInterval</code> seconds, after OnFrame. </p>
+
+<p>Reimplemented in <a class="el" href="class_multiplayer_1_1_standard_multiplayer_server.html#aa9186e9641ae49bc51f3cceea98f556e">Multiplayer::StandardMultiplayerServer</a>.</p>
 
 </div>
 </div>
@@ -587,31 +671,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa53984735f3a89322ab67cb0dbd3a8b8" name="aa53984735f3a89322ab67cb0dbd3a8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa53984735f3a89322ab67cb0dbd3a8b8">&#9670;&#160;</a></span>PushPendingMessages()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Multiplayer::BaseMultiplayerServer::PushPendingMessages </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6df00d0045c0cf65332fc4f191cfe954" name="a6df00d0045c0cf65332fc4f191cfe954"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6df00d0045c0cf65332fc4f191cfe954">&#9670;&#160;</a></span>SetClientGroupPollInterval()</h2>
 
@@ -633,6 +692,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a27b6ab71f50ec487f27bde793f51c9ac" name="a27b6ab71f50ec487f27bde793f51c9ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b6ab71f50ec487f27bde793f51c9ac">&#9670;&#160;</a></span>SetTickInterval()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::BaseMultiplayerServer::SetTickInterval </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>interval</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the interval (seconds) between ticks. </p>
+
+</div>
+</div>
 <a id="a15dce6fd3319e788adb73b2ca880a7d7" name="a15dce6fd3319e788adb73b2ca880a7d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15dce6fd3319e788adb73b2ca880a7d7">&#9670;&#160;</a></span>SyncAll()</h2>
 
@@ -647,6 +733,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks for connection changes, polls messages and calls OnFrame/OnTick. </p>
 
 </div>
 </div>
@@ -841,8 +929,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a86d4c85326b225d402d8c5b8ff3ed9d9" name="a86d4c85326b225d402d8c5b8ff3ed9d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86d4c85326b225d402d8c5b8ff3ed9d9">&#9670;&#160;</a></span>sendTickInterval</h2>
+<a id="ad6d75955c28ea6f6f145b855985b655f" name="ad6d75955c28ea6f6f145b855985b655f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d75955c28ea6f6f145b855985b655f">&#9670;&#160;</a></span>tickInterval</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +939,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Multiplayer::BaseMultiplayerServer::sendTickInterval</td>
+          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Multiplayer::BaseMultiplayerServer::tickInterval</td>
         </tr>
       </table>
   </td>
@@ -863,8 +951,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3f5fecfc2eb7e7963c9bf7f865980a59" name="a3f5fecfc2eb7e7963c9bf7f865980a59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5fecfc2eb7e7963c9bf7f865980a59">&#9670;&#160;</a></span>sendTimer</h2>
+<a id="a84431c513882a86b288d3d71026df765" name="a84431c513882a86b288d3d71026df765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84431c513882a86b288d3d71026df765">&#9670;&#160;</a></span>tickTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -873,7 +961,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_timing_1_1_timer.html">Timing::Timer</a> Multiplayer::BaseMultiplayerServer::sendTimer</td>
+          <td class="memname"><a class="el" href="class_timing_1_1_timer.html">Timing::Timer</a> Multiplayer::BaseMultiplayerServer::tickTimer</td>
         </tr>
       </table>
   </td>
@@ -896,7 +984,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_multiplayer.html">Multiplayer</a></li><li class="navelem"><a class="el" href="class_multiplayer_1_1_base_multiplayer_server.html">BaseMultiplayerServer</a></li>
 				<li class="footer">
-					Generated on Fri Aug 1 2025 22:11:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Aug 3 2025 21:38:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

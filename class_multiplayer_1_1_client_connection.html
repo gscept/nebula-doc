@@ -131,6 +131,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0df3aa955b8576d6ccc977435cb8c577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3d15e54eec807d0158e704068d3875" id="r_abc3d15e54eec807d0158e704068d3875"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc3d15e54eec807d0158e704068d3875">GetConnectionId</a> () const</td></tr>
 <tr class="separator:abc3d15e54eec807d0158e704068d3875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312faddea04a7d3af472c834da88490b" id="r_a312faddea04a7d3af472c834da88490b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312faddea04a7d3af472c834da88490b">GetCurrentPing</a> () const</td></tr>
+<tr class="memdesc:a312faddea04a7d3af472c834da88490b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the estimated current packet roundtrip time (server-&gt;client-&gt;server).  <br /></td></tr>
+<tr class="separator:a312faddea04a7d3af472c834da88490b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c60a40dc2b7a6dd43cd0340c31c15c0" id="r_a4c60a40dc2b7a6dd43cd0340c31c15c0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c60a40dc2b7a6dd43cd0340c31c15c0">GetUserData</a> () const</td></tr>
+<tr class="separator:a4c60a40dc2b7a6dd43cd0340c31c15c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9a36d996e2a26a04f02538fc259477" id="r_a7c9a36d996e2a26a04f02538fc259477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9a36d996e2a26a04f02538fc259477">SetUserData</a> (uint64_t)</td></tr>
+<tr class="separator:a7c9a36d996e2a26a04f02538fc259477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -140,6 +147,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac5b8ce9e8cca5bfddce493524ff94973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa5adf77dedf52f5bae333ba5d720725" id="r_aaa5adf77dedf52f5bae333ba5d720725"><td class="memItemLeft" align="right" valign="top">HSteamNetConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa5adf77dedf52f5bae333ba5d720725">connectionId</a> = k_HSteamNetConnection_Invalid</td></tr>
 <tr class="separator:aaa5adf77dedf52f5bae333ba5d720725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5197b95ec74c0a51909b1c43679a96c" id="r_ad5197b95ec74c0a51909b1c43679a96c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5197b95ec74c0a51909b1c43679a96c">userData</a></td></tr>
+<tr class="separator:ad5197b95ec74c0a51909b1c43679a96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a15f3e0d07823e65e38e9a15036635fb2" name="a15f3e0d07823e65e38e9a15036635fb2"></a>
@@ -239,6 +248,50 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a312faddea04a7d3af472c834da88490b" name="a312faddea04a7d3af472c834da88490b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312faddea04a7d3af472c834da88490b">&#9670;&#160;</a></span>GetCurrentPing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Multiplayer::ClientConnection::GetCurrentPing </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the estimated current packet roundtrip time (server-&gt;client-&gt;server). </p>
+
+</div>
+</div>
+<a id="a4c60a40dc2b7a6dd43cd0340c31c15c0" name="a4c60a40dc2b7a6dd43cd0340c31c15c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c60a40dc2b7a6dd43cd0340c31c15c0">&#9670;&#160;</a></span>GetUserData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Multiplayer::ClientConnection::GetUserData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e8d8e9153c64bbc5c31cafbb9fcd526" name="a3e8d8e9153c64bbc5c31cafbb9fcd526"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e8d8e9153c64bbc5c31cafbb9fcd526">&#9670;&#160;</a></span>Initialize()</h2>
 
@@ -292,6 +345,31 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c9a36d996e2a26a04f02538fc259477" name="a7c9a36d996e2a26a04f02538fc259477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c9a36d996e2a26a04f02538fc259477">&#9670;&#160;</a></span>SetUserData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::ClientConnection::SetUserData </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -390,6 +468,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad5197b95ec74c0a51909b1c43679a96c" name="ad5197b95ec74c0a51909b1c43679a96c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5197b95ec74c0a51909b1c43679a96c">&#9670;&#160;</a></span>userData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Multiplayer::ClientConnection::userData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/code/addons/multiplayer/server/<a class="el" href="clientconnection_8h_source.html">clientconnection.h</a></li>
 <li>/github/workspace/code/addons/multiplayer/server/<a class="el" href="clientconnection_8cc.html">clientconnection.cc</a></li>
@@ -401,7 +501,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_multiplayer.html">Multiplayer</a></li><li class="navelem"><a class="el" href="class_multiplayer_1_1_client_connection.html">ClientConnection</a></li>
 				<li class="footer">
-					Generated on Fri Aug 1 2025 22:11:28 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Aug 3 2025 21:38:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
