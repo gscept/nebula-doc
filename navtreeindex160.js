@@ -1,5 +1,7 @@
 var NAVTREEINDEX160 =
 {
+"vkevent_8h.html":[10,0,0,7,5,5,17],
+"vkevent_8h_source.html":[10,0,0,7,5,5,17],
 "vkfence_8cc.html":[10,0,0,7,5,5,18],
 "vkfence_8h.html":[10,0,0,7,5,5,19],
 "vkfence_8h_source.html":[10,0,0,7,5,5,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX160 =
 "vkloader_8h.html#a7984268833d2695aaff6a8a9fc41bd50":[10,0,0,7,5,5,23,125],
 "vkloader_8h.html#a8074107fd40b774edcaa6c2e289dd0e4":[10,0,0,7,5,5,23,33],
 "vkloader_8h.html#a80ce22de4c4370c248abde2827743717":[10,0,0,7,5,5,23,136],
-"vkloader_8h.html#a81ac00a78d0a024aea60a6909b6e8a60":[10,0,0,7,5,5,23,76],
-"vkloader_8h.html#a827f9980ffbff8446f01e21971b73703":[10,0,0,7,5,5,23,109],
-"vkloader_8h.html#a84ee33c519eac757ed639feb5523d136":[10,0,0,7,5,5,23,91]
+"vkloader_8h.html#a81ac00a78d0a024aea60a6909b6e8a60":[10,0,0,7,5,5,23,76]
 };

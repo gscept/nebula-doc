@@ -1,5 +1,7 @@
 var NAVTREEINDEX100 =
 {
+"inputserverbase_8cc.html":[10,0,0,4,0,0,2],
+"inputserverbase_8h.html":[10,0,0,4,0,0,3],
 "inputserverbase_8h_source.html":[10,0,0,4,0,0,3],
 "instancerenderer_8cc.html":[10,0,0,7,14,2],
 "instancerenderer_8h.html":[10,0,0,7,14,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX100 =
 "mouse_8h_source.html":[10,0,0,4,0,16],
 "mousebase_8cc.html":[10,0,0,4,0,0,6],
 "mousebase_8h.html":[10,0,0,4,0,0,7],
-"mousebase_8h_source.html":[10,0,0,4,0,0,7],
-"mousebutton_8cc.html":[10,0,0,4,0,17],
-"mousebutton_8h.html":[10,0,0,4,0,18]
+"mousebase_8h_source.html":[10,0,0,4,0,0,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX146 =
 {
+"struct_nebula_1_1_game_1_1_resource_descriptor.html#a00e8229761d578bd93eb30ef2fd1d7fb":[9,0,49,0,12,0],
+"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html":[8,0,60,0,0],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html":[9,0,53,0,0],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a2331740c6c167fdbe5d36d16e0b1d73f":[8,0,60,0,0,4],
 "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html#a2331740c6c167fdbe5d36d16e0b1d73f":[9,0,53,0,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX146 =
 "struct_physics_1_1_character_create_info.html#ad214f581987953b7745eb5bbec8bd340":[9,0,54,14,6],
 "struct_physics_1_1_character_create_info_1_1_box_info.html":[8,0,61,14,0],
 "struct_physics_1_1_character_create_info_1_1_box_info.html":[9,0,54,14,0],
-"struct_physics_1_1_character_create_info_1_1_box_info.html#a92a3474e83d74d0c2227c0b2f5842b36":[8,0,61,14,0,0],
-"struct_physics_1_1_character_create_info_1_1_box_info.html#a92a3474e83d74d0c2227c0b2f5842b36":[9,0,54,14,0,0],
-"struct_physics_1_1_character_create_info_1_1_capsule_info.html":[8,0,61,14,1]
+"struct_physics_1_1_character_create_info_1_1_box_info.html#a92a3474e83d74d0c2227c0b2f5842b36":[8,0,61,14,0,0]
 };

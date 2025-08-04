@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"shadersemantics_8h.html#aec4e8add0d011da1ba49cf553726096c":[10,0,0,7,5,72,116],
+"shadersemantics_8h.html#aee0810d52c8749fdc65996c2fdb00bb8":[10,0,0,7,5,72,67],
 "shadersemantics_8h.html#aef356439fe6b099e011e135e1cf8f0cd":[10,0,0,7,5,72,105],
 "shadersemantics_8h.html#aef6ecdbdcf485863cce55abee957b95f":[10,0,0,7,5,72,13],
 "shadersemantics_8h.html#af16efca9944c815d0519a1fa0a7d730c":[10,0,0,7,5,72,137],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#ac5ee16b261fcb8df3d5e61e956525cb7":[8,0,8,0,0,12],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#ac5ee16b261fcb8df3d5e61e956525cb7":[9,0,7,0,0,12],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#ac93cbe13a095a4847d377259374f9107":[8,0,8,0,0,6],
-"struct_characters_1_1_character_context_1_1_animation_runtime.html#ac93cbe13a095a4847d377259374f9107":[9,0,7,0,0,6],
-"struct_characters_1_1_character_context_1_1_animation_runtime.html#ae09a81dd87f2c85e93d2da5fb06ce3ad":[8,0,8,0,0,3],
-"struct_characters_1_1_character_context_1_1_animation_runtime.html#ae09a81dd87f2c85e93d2da5fb06ce3ad":[9,0,7,0,0,3]
+"struct_characters_1_1_character_context_1_1_animation_runtime.html#ac93cbe13a095a4847d377259374f9107":[9,0,7,0,0,6]
 };

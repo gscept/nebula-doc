@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"struct_mathf_1_1_vector4.html#ae4ee99073586740f3bfb8063eee0ce4e":[9,0,42,14,9],
+"struct_mathf_1_1_vector4.html#ae99b61c2de74a7ff318a264e1d3c59d9":[8,0,47,14,82],
 "struct_mathf_1_1_vector4.html#ae99b61c2de74a7ff318a264e1d3c59d9":[9,0,42,14,82],
 "struct_mathf_1_1_vector4.html#aeb180ce36776876efe35279d2211d9cb":[8,0,47,14,70],
 "struct_mathf_1_1_vector4.html#aeb180ce36776876efe35279d2211d9cb":[9,0,42,14,70],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "struct_nebula_1_1_game_1_1_entity_id.html#abab24206a9ffd89da5e9881fb1d02ad4":[9,0,49,0,2,0],
 "struct_nebula_1_1_game_1_1_resource_descriptor.html":[8,0,55,0,12],
 "struct_nebula_1_1_game_1_1_resource_descriptor.html":[9,0,49,0,12],
-"struct_nebula_1_1_game_1_1_resource_descriptor.html#a00e8229761d578bd93eb30ef2fd1d7fb":[8,0,55,0,12,0],
-"struct_nebula_1_1_game_1_1_resource_descriptor.html#a00e8229761d578bd93eb30ef2fd1d7fb":[9,0,49,0,12,0],
-"struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html":[8,0,60,0,0]
+"struct_nebula_1_1_game_1_1_resource_descriptor.html#a00e8229761d578bd93eb30ef2fd1d7fb":[8,0,55,0,12,0]
 };

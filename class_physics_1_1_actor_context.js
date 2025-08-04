@@ -6,6 +6,7 @@ var class_physics_1_1_actor_context =
     [ "ApplyImpulseAtPos", "class_physics_1_1_actor_context.html#a39eccc951d304a457424b0c0bd2d964e", null ],
     [ "CreateBox", "class_physics_1_1_actor_context.html#a3a11e2401472a49514b6a61676e07053", null ],
     [ "CreateCapsule", "class_physics_1_1_actor_context.html#a35697450a0ea38d22723cdd769059b5a", null ],
+    [ "CreateConvexHull", "class_physics_1_1_actor_context.html#aa961ab0e9ee69ac3dc9497b5e845613c", null ],
     [ "CreatePlane", "class_physics_1_1_actor_context.html#a49766ed089836816fdac69af9b4a263f", null ],
     [ "CreateSphere", "class_physics_1_1_actor_context.html#ae7224e24fe22ce6b2b448d4022a29f5b", null ],
     [ "DiscardActor", "class_physics_1_1_actor_context.html#a00218f901892a66a8611a57a624a63f4", null ],

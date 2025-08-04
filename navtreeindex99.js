@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"globals_y.html":[10,1,0,25],
+"globals_z.html":[10,1,0,26],
 "globalstringatomtable_8cc.html":[10,0,0,3,20,26],
 "globalstringatomtable_8h.html":[10,0,0,3,20,27],
 "globalstringatomtable_8h_source.html":[10,0,0,3,20,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "inputpriority_8h_source.html":[10,0,0,4,0,8],
 "inputserver_8cc.html":[10,0,0,4,0,9],
 "inputserver_8h.html":[10,0,0,4,0,10],
-"inputserver_8h_source.html":[10,0,0,4,0,10],
-"inputserverbase_8cc.html":[10,0,0,4,0,0,2],
-"inputserverbase_8h.html":[10,0,0,4,0,0,3]
+"inputserver_8h_source.html":[10,0,0,4,0,10]
 };

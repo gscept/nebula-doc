@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"struct_core_animation_1_1_nax3_anim_event.html#a41e59f53df4f65e5a14bb0ae0deac6c6":[8,0,13,19,1],
+"struct_core_animation_1_1_nax3_anim_event.html#a41e59f53df4f65e5a14bb0ae0deac6c6":[9,0,11,19,1],
 "struct_core_animation_1_1_nax3_anim_event.html#a5aac376a87742567362402d484e39d45":[8,0,13,19,2],
 "struct_core_animation_1_1_nax3_anim_event.html#a5aac376a87742567362402d484e39d45":[9,0,11,19,2],
 "struct_core_animation_1_1_nax3_clip.html":[8,0,13,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "struct_core_graphics_1_1_buffer_create_info.html#ae3359aa6f7eba465fa46840a284fc41f":[8,0,14,21,0],
 "struct_core_graphics_1_1_buffer_create_info.html#ae3359aa6f7eba465fa46840a284fc41f":[9,0,12,20,0],
 "struct_core_graphics_1_1_buffer_id.html":[8,0,14,22],
-"struct_core_graphics_1_1_buffer_id.html":[9,0,12,21],
-"struct_core_graphics_1_1_buffer_set.html":[8,0,14,23],
-"struct_core_graphics_1_1_buffer_set.html":[9,0,12,22]
+"struct_core_graphics_1_1_buffer_id.html":[9,0,12,21]
 };

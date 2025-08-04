@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"class_posix_1_1_posix_memory_pool.html#a1123aeb6314549e81c7d639b816af645":[9,0,57,11,9],
+"class_posix_1_1_posix_memory_pool.html#a158f5a9c7e6b326d7214dfa1c12dab8f":[8,0,65,11,7],
 "class_posix_1_1_posix_memory_pool.html#a158f5a9c7e6b326d7214dfa1c12dab8f":[9,0,57,11,7],
 "class_posix_1_1_posix_memory_pool.html#a1c1ece6b8810aa607eb43ca03dcc9f60":[8,0,65,11,4],
 "class_posix_1_1_posix_memory_pool.html#a1c1ece6b8810aa607eb43ca03dcc9f60":[9,0,57,11,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1ab3e6876ebeb5ad22417ca655888112c7":[9,0,57,15,0,5],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1abc16831ba84891ca4fd6a98c14f00cda":[8,0,65,15,0,34],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1abc16831ba84891ca4fd6a98c14f00cda":[9,0,57,15,0,34],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1acb55a9dd1766a5c21ee06c12771eb288":[8,0,65,15,0,11],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1acb55a9dd1766a5c21ee06c12771eb288":[9,0,57,15,0,11],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1acb58c233e721a12829f5c5b34be2310e":[8,0,65,15,0,28]
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1acb55a9dd1766a5c21ee06c12771eb288":[8,0,65,15,0,11]
 };
