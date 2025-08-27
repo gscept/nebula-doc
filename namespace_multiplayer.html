@@ -166,6 +166,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4db90e9e6b654ed0cd508f9d3cb059fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720489833c6b5c33c2adc0fefbad4cf1" id="r_a720489833c6b5c33c2adc0fefbad4cf1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720489833c6b5c33c2adc0fefbad4cf1">ShutdownSteamDatagramConnectionSockets</a> ()</td></tr>
 <tr class="separator:a720489833c6b5c33c2adc0fefbad4cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad09235f440d3b8af60396700d3eaaebb" id="r_ad09235f440d3b8af60396700d3eaaebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad09235f440d3b8af60396700d3eaaebb">RefreshConfigCVars</a> (bool force=false)</td></tr>
+<tr class="separator:ad09235f440d3b8af60396700d3eaaebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb91a4ca246586cc6c35658269b7243c" id="r_afb91a4ca246586cc6c35658269b7243c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb91a4ca246586cc6c35658269b7243c">SvSteamNetConnectionStatusChangedCallback</a> (SteamNetConnectionStatusChangedCallback_t *info)</td></tr>
 <tr class="separator:afb91a4ca246586cc6c35658269b7243c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04baa78c288c5e563b880d4bbfcb6d8b" id="r_a04baa78c288c5e563b880d4bbfcb6d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04baa78c288c5e563b880d4bbfcb6d8b">SyncPositions</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, NetworkId const &amp;netId, NetworkTransform &amp;netTransform, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;pos)</td></tr>
@@ -187,6 +189,32 @@ Variables</h2></td></tr>
 <tr class="separator:a44c87d69f7dadfd3426799ee1f888da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92436c69ece20d1cb101a9f05d29c79b" id="r_a92436c69ece20d1cb101a9f05d29c79b"><td class="memItemLeft" align="right" valign="top">SteamNetworkingMicroseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92436c69ece20d1cb101a9f05d29c79b">logTimeZero</a></td></tr>
 <tr class="separator:a92436c69ece20d1cb101a9f05d29c79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94f3af359e2a12b76822f4cf5dcc22dd" id="r_a94f3af359e2a12b76822f4cf5dcc22dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f3af359e2a12b76822f4cf5dcc22dd">net_fake_packet_lag_send</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_send&quot;, &quot;0&quot;, &quot;Delay all outbound packets by N ms&quot;)</td></tr>
+<tr class="separator:a94f3af359e2a12b76822f4cf5dcc22dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5384bee23ec2dc06f4fbd8669c2bbf29" id="r_a5384bee23ec2dc06f4fbd8669c2bbf29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5384bee23ec2dc06f4fbd8669c2bbf29">net_fake_packet_lag_recv</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_recv&quot;, &quot;0&quot;, &quot;Delay all inbound packets by N ms&quot;)</td></tr>
+<tr class="separator:a5384bee23ec2dc06f4fbd8669c2bbf29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f31a0c00590411c0960fdf4271880cc" id="r_a0f31a0c00590411c0960fdf4271880cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f31a0c00590411c0960fdf4271880cc">net_fake_packet_loss_send</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_loss_send&quot;, &quot;0&quot;, &quot;[0--100] Randomly discard N percent of packets sent&quot;)</td></tr>
+<tr class="separator:a0f31a0c00590411c0960fdf4271880cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af371eeb70b1935835f5bf258ff53ef6e" id="r_af371eeb70b1935835f5bf258ff53ef6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af371eeb70b1935835f5bf258ff53ef6e">net_fake_packet_loss_recv</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_loss_recv&quot;, &quot;0&quot;, &quot;[0--100] Randomly discard N percent of packets received&quot;)</td></tr>
+<tr class="separator:af371eeb70b1935835f5bf258ff53ef6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1ab772d76e772bcca15a025226d8ae" id="r_a3c1ab772d76e772bcca15a025226d8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c1ab772d76e772bcca15a025226d8ae">net_fake_packet_jitter_send_avg</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_avg&quot;, &quot;0&quot;, &quot;A random jitter time is generated using an exponential distribution using this value as the mean (ms). The default is zero, which disables random jitter.&quot;)</td></tr>
+<tr class="separator:a3c1ab772d76e772bcca15a025226d8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3761b411de656e422eec57596aa2c8" id="r_aac3761b411de656e422eec57596aa2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3761b411de656e422eec57596aa2c8">net_fake_packet_jitter_send_pct</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_pct&quot;, &quot;0&quot;, &quot;Odds (0-100) that a random jitter value for the packet will be generated. Otherwise, a jitter value of zero is used, and the packet will only be delayed by the jitter system if necessary to retain order, due to the jitter of a previous packet.&quot;)</td></tr>
+<tr class="separator:aac3761b411de656e422eec57596aa2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4839dd5ff686e9afadd7098bf6272261" id="r_a4839dd5ff686e9afadd7098bf6272261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4839dd5ff686e9afadd7098bf6272261">net_fake_packet_jitter_send_max</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_max&quot;, &quot;0&quot;, &quot;Limit the random jitter time to this value (ms). Default 0.&quot;)</td></tr>
+<tr class="separator:a4839dd5ff686e9afadd7098bf6272261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad96d0d1eb8366a548a3e3c453aa3c53c" id="r_ad96d0d1eb8366a548a3e3c453aa3c53c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad96d0d1eb8366a548a3e3c453aa3c53c">net_fake_packet_jitter_recv_avg</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_avg&quot;, &quot;0&quot;, &quot;A random jitter time is generated using an exponential distribution using this value as the mean (ms). The default is zero, which disables random jitter.&quot;)</td></tr>
+<tr class="separator:ad96d0d1eb8366a548a3e3c453aa3c53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf44d710cda93d2b6eb51524720f749d" id="r_adf44d710cda93d2b6eb51524720f749d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf44d710cda93d2b6eb51524720f749d">net_fake_packet_jitter_recv_pct</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_pct&quot;, &quot;0&quot;, &quot;Odds (0-100) that a random jitter value for the packet will be generated. Otherwise, a jitter value of zero is used, and the packet will only be delayed by the jitter system if necessary to retain order, due to the jitter of a previous packet.&quot;)</td></tr>
+<tr class="separator:adf44d710cda93d2b6eb51524720f749d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e6b871b462ddd04451ed932dfb244e" id="r_ab9e6b871b462ddd04451ed932dfb244e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e6b871b462ddd04451ed932dfb244e">net_fake_packet_jitter_recv_max</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_max&quot;, &quot;0&quot;, &quot;Limit the random jitter time to this value (ms). Default 0.&quot;)</td></tr>
+<tr class="separator:ab9e6b871b462ddd04451ed932dfb244e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ae2e7fb2231fc6b432bac9f0fd32be" id="r_a12ae2e7fb2231fc6b432bac9f0fd32be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12ae2e7fb2231fc6b432bac9f0fd32be">net_fake_packet_reorder_send</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_reorder_send&quot;, &quot;0&quot;, &quot;0-100 Percentage of packets to add additional delay to. If other packet(s) are sent/received within this delay window (that doesn't also randomly receive the same extra delay), then the packets become reordered.&quot;)</td></tr>
+<tr class="separator:a12ae2e7fb2231fc6b432bac9f0fd32be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fbf7d25c19e85446aa4c8d16cfa98d" id="r_a50fbf7d25c19e85446aa4c8d16cfa98d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fbf7d25c19e85446aa4c8d16cfa98d">net_fake_packet_reorder_recv</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_reorder_recv&quot;, &quot;0&quot;, &quot;0-100 Percentage of packets to add additional delay to. If other packet(s) are sent/received within this delay window (that doesn't also randomly receive the same extra delay), then the packets become reordered.&quot;)</td></tr>
+<tr class="separator:a50fbf7d25c19e85446aa4c8d16cfa98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e8e01c63cb040ed956def4d18010ae" id="r_a79e8e01c63cb040ed956def4d18010ae"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79e8e01c63cb040ed956def4d18010ae">NEBULA_DEFAULT_TICK_RATE</a> = 1.0/8.0</td></tr>
+<tr class="separator:a79e8e01c63cb040ed956def4d18010ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21a6319622c6b8042117f49f69c242d" id="r_ae21a6319622c6b8042117f49f69c242d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_multiplayer_1_1_base_multiplayer_server.html">BaseMultiplayerServer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21a6319622c6b8042117f49f69c242d">callbackServerInstance</a> = nullptr</td></tr>
 <tr class="separator:ae21a6319622c6b8042117f49f69c242d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f48654c730c65a192cc75013da0063" id="r_a92f48654c730c65a192cc75013da0063"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_multiplayer_1_1_server_processor_context.html">ServerProcessorContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f48654c730c65a192cc75013da0063">context</a></td></tr>
@@ -376,6 +404,23 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad09235f440d3b8af60396700d3eaaebb" name="ad09235f440d3b8af60396700d3eaaebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad09235f440d3b8af60396700d3eaaebb">&#9670;&#160;</a></span>RefreshConfigCVars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::RefreshConfigCVars </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -741,6 +786,188 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a79e8e01c63cb040ed956def4d18010ae" name="a79e8e01c63cb040ed956def4d18010ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e8e01c63cb040ed956def4d18010ae">&#9670;&#160;</a></span>NEBULA_DEFAULT_TICK_RATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double Multiplayer::NEBULA_DEFAULT_TICK_RATE = 1.0/8.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad96d0d1eb8366a548a3e3c453aa3c53c" name="ad96d0d1eb8366a548a3e3c453aa3c53c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96d0d1eb8366a548a3e3c453aa3c53c">&#9670;&#160;</a></span>net_fake_packet_jitter_recv_avg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_recv_avg = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_avg&quot;, &quot;0&quot;, &quot;A random jitter time is generated using an exponential distribution using this value as the mean (ms). The default is zero, which disables random jitter.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9e6b871b462ddd04451ed932dfb244e" name="ab9e6b871b462ddd04451ed932dfb244e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e6b871b462ddd04451ed932dfb244e">&#9670;&#160;</a></span>net_fake_packet_jitter_recv_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_recv_max = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_max&quot;, &quot;0&quot;, &quot;Limit the random jitter time to this value (ms). Default 0.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf44d710cda93d2b6eb51524720f749d" name="adf44d710cda93d2b6eb51524720f749d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf44d710cda93d2b6eb51524720f749d">&#9670;&#160;</a></span>net_fake_packet_jitter_recv_pct</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_recv_pct = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_recv_pct&quot;, &quot;0&quot;, &quot;Odds (0-100) that a random jitter value for the packet will be generated. Otherwise, a jitter value of zero is used, and the packet will only be delayed by the jitter system if necessary to retain order, due to the jitter of a previous packet.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c1ab772d76e772bcca15a025226d8ae" name="a3c1ab772d76e772bcca15a025226d8ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1ab772d76e772bcca15a025226d8ae">&#9670;&#160;</a></span>net_fake_packet_jitter_send_avg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_send_avg = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_avg&quot;, &quot;0&quot;, &quot;A random jitter time is generated using an exponential distribution using this value as the mean (ms). The default is zero, which disables random jitter.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4839dd5ff686e9afadd7098bf6272261" name="a4839dd5ff686e9afadd7098bf6272261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4839dd5ff686e9afadd7098bf6272261">&#9670;&#160;</a></span>net_fake_packet_jitter_send_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_send_max = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_max&quot;, &quot;0&quot;, &quot;Limit the random jitter time to this value (ms). Default 0.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac3761b411de656e422eec57596aa2c8" name="aac3761b411de656e422eec57596aa2c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3761b411de656e422eec57596aa2c8">&#9670;&#160;</a></span>net_fake_packet_jitter_send_pct</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_jitter_send_pct = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_jitter_send_pct&quot;, &quot;0&quot;, &quot;Odds (0-100) that a random jitter value for the packet will be generated. Otherwise, a jitter value of zero is used, and the packet will only be delayed by the jitter system if necessary to retain order, due to the jitter of a previous packet.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5384bee23ec2dc06f4fbd8669c2bbf29" name="a5384bee23ec2dc06f4fbd8669c2bbf29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5384bee23ec2dc06f4fbd8669c2bbf29">&#9670;&#160;</a></span>net_fake_packet_lag_recv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_lag_recv = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_recv&quot;, &quot;0&quot;, &quot;Delay all inbound packets by N ms&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94f3af359e2a12b76822f4cf5dcc22dd" name="a94f3af359e2a12b76822f4cf5dcc22dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f3af359e2a12b76822f4cf5dcc22dd">&#9670;&#160;</a></span>net_fake_packet_lag_send</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_lag_send = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_send&quot;, &quot;0&quot;, &quot;Delay all outbound packets by N ms&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af371eeb70b1935835f5bf258ff53ef6e" name="af371eeb70b1935835f5bf258ff53ef6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af371eeb70b1935835f5bf258ff53ef6e">&#9670;&#160;</a></span>net_fake_packet_loss_recv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_loss_recv = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_loss_recv&quot;, &quot;0&quot;, &quot;[0--100] Randomly discard N percent of packets received&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f31a0c00590411c0960fdf4271880cc" name="a0f31a0c00590411c0960fdf4271880cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f31a0c00590411c0960fdf4271880cc">&#9670;&#160;</a></span>net_fake_packet_loss_send</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_loss_send = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_loss_send&quot;, &quot;0&quot;, &quot;[0--100] Randomly discard N percent of packets sent&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50fbf7d25c19e85446aa4c8d16cfa98d" name="a50fbf7d25c19e85446aa4c8d16cfa98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fbf7d25c19e85446aa4c8d16cfa98d">&#9670;&#160;</a></span>net_fake_packet_reorder_recv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_reorder_recv = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_reorder_recv&quot;, &quot;0&quot;, &quot;0-100 Percentage of packets to add additional delay to. If other packet(s) are sent/received within this delay window (that doesn't also randomly receive the same extra delay), then the packets become reordered.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12ae2e7fb2231fc6b432bac9f0fd32be" name="a12ae2e7fb2231fc6b432bac9f0fd32be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ae2e7fb2231fc6b432bac9f0fd32be">&#9670;&#160;</a></span>net_fake_packet_reorder_send</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_fake_packet_reorder_send = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_reorder_send&quot;, &quot;0&quot;, &quot;0-100 Percentage of packets to add additional delay to. If other packet(s) are sent/received within this delay window (that doesn't also randomly receive the same extra delay), then the packets become reordered.&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -748,7 +975,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_multiplayer.html">Multiplayer</a></li>
 				<li class="footer">
-					Generated on Mon Aug 4 2025 21:42:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Aug 27 2025 21:31:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

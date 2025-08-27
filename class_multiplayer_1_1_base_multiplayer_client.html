@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e24b69cac5a92ddad547b28ede14829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b9cdc001194e5ea8ed5341aeb0ad9e0" id="r_a9b9cdc001194e5ea8ed5341aeb0ad9e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b9cdc001194e5ea8ed5341aeb0ad9e0">TryConnect</a> ()</td></tr>
 <tr class="separator:a9b9cdc001194e5ea8ed5341aeb0ad9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fb047c75ab6644c808b7fa58a83a05" id="r_aa8fb047c75ab6644c808b7fa58a83a05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8fb047c75ab6644c808b7fa58a83a05">SetHostIp</a> (uint32_t ip)</td></tr>
+<tr class="separator:aa8fb047c75ab6644c808b7fa58a83a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa48082921077d29072617b79dcfa70d4" id="r_aa48082921077d29072617b79dcfa70d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa48082921077d29072617b79dcfa70d4">OnIsConnecting</a> ()</td></tr>
 <tr class="separator:aa48082921077d29072617b79dcfa70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc47f3f6a4daa193d1a324918a6083fb" id="r_acc47f3f6a4daa193d1a324918a6083fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc47f3f6a4daa193d1a324918a6083fb">OnConnected</a> ()</td></tr>
@@ -168,6 +170,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:aa1701c4cdd7067515036871805912378" id="r_aa1701c4cdd7067515036871805912378"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1701c4cdd7067515036871805912378">hostIp</a></td></tr>
+<tr class="separator:aa1701c4cdd7067515036871805912378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7424c7989538c317519e176d714ead4" id="r_aa7424c7989538c317519e176d714ead4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7424c7989538c317519e176d714ead4">ping</a></td></tr>
 <tr class="separator:aa7424c7989538c317519e176d714ead4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac57b406c0e5baeee472cbaf440a4d0eb" id="r_ac57b406c0e5baeee472cbaf440a4d0eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57b406c0e5baeee472cbaf440a4d0eb">isOpen</a></td></tr>
@@ -580,6 +584,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa8fb047c75ab6644c808b7fa58a83a05" name="aa8fb047c75ab6644c808b7fa58a83a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fb047c75ab6644c808b7fa58a83a05">&#9670;&#160;</a></span>SetHostIp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Multiplayer::BaseMultiplayerClient::SetHostIp </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>ip</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a607504397dd836c16180756c13fff91a" name="a607504397dd836c16180756c13fff91a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a607504397dd836c16180756c13fff91a">&#9670;&#160;</a></span>SyncAll()</h2>
 
@@ -648,6 +677,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679a">ConnectionStatus</a> Multiplayer::BaseMultiplayerClient::connectionStatus = <a class="el" href="namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679aaef70e46fd3bbc21e3e1f0b6815e750c0">ConnectionStatus::Disconnected</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1701c4cdd7067515036871805912378" name="aa1701c4cdd7067515036871805912378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1701c4cdd7067515036871805912378">&#9670;&#160;</a></span>hostIp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Multiplayer::BaseMultiplayerClient::hostIp</td>
         </tr>
       </table>
   </td>
@@ -780,7 +831,7 @@ Protected Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_multiplayer.html">Multiplayer</a></li><li class="navelem"><a class="el" href="class_multiplayer_1_1_base_multiplayer_client.html">BaseMultiplayerClient</a></li>
 				<li class="footer">
-					Generated on Mon Aug 4 2025 21:42:10 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Aug 27 2025 21:31:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

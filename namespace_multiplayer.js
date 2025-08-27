@@ -25,6 +25,7 @@ var namespace_multiplayer =
     [ "DebugOutput", "namespace_multiplayer.html#acd38c91a4450e8435608e372f841aa2d", null ],
     [ "InitSteamDatagramConnectionSockets", "namespace_multiplayer.html#a4db90e9e6b654ed0cd508f9d3cb059fa", null ],
     [ "InterpolatePositions", "namespace_multiplayer.html#af9dd8b7089b56e6e13082cd26d528899", null ],
+    [ "RefreshConfigCVars", "namespace_multiplayer.html#ad09235f440d3b8af60396700d3eaaebb", null ],
     [ "SetServerProcessorsActive", "namespace_multiplayer.html#a65fe137a50cc735a07b1e503731c6488", null ],
     [ "SetupClientProcessors", "namespace_multiplayer.html#a228396f88b269772b0fe834ce183324f", null ],
     [ "SetupServerProcessors", "namespace_multiplayer.html#a6c58b9e9dfa06ad2666b524880f00723", null ],
@@ -41,5 +42,18 @@ var namespace_multiplayer =
     [ "context", "namespace_multiplayer.html#a92f48654c730c65a192cc75013da0063", null ],
     [ "frameEvent", "namespace_multiplayer.html#a44c87d69f7dadfd3426799ee1f888da1", null ],
     [ "frameEvent", "namespace_multiplayer.html#a44c87d69f7dadfd3426799ee1f888da1", null ],
-    [ "logTimeZero", "namespace_multiplayer.html#a92436c69ece20d1cb101a9f05d29c79b", null ]
+    [ "logTimeZero", "namespace_multiplayer.html#a92436c69ece20d1cb101a9f05d29c79b", null ],
+    [ "NEBULA_DEFAULT_TICK_RATE", "namespace_multiplayer.html#a79e8e01c63cb040ed956def4d18010ae", null ],
+    [ "net_fake_packet_jitter_recv_avg", "namespace_multiplayer.html#ad96d0d1eb8366a548a3e3c453aa3c53c", null ],
+    [ "net_fake_packet_jitter_recv_max", "namespace_multiplayer.html#ab9e6b871b462ddd04451ed932dfb244e", null ],
+    [ "net_fake_packet_jitter_recv_pct", "namespace_multiplayer.html#adf44d710cda93d2b6eb51524720f749d", null ],
+    [ "net_fake_packet_jitter_send_avg", "namespace_multiplayer.html#a3c1ab772d76e772bcca15a025226d8ae", null ],
+    [ "net_fake_packet_jitter_send_max", "namespace_multiplayer.html#a4839dd5ff686e9afadd7098bf6272261", null ],
+    [ "net_fake_packet_jitter_send_pct", "namespace_multiplayer.html#aac3761b411de656e422eec57596aa2c8", null ],
+    [ "net_fake_packet_lag_recv", "namespace_multiplayer.html#a5384bee23ec2dc06f4fbd8669c2bbf29", null ],
+    [ "net_fake_packet_lag_send", "namespace_multiplayer.html#a94f3af359e2a12b76822f4cf5dcc22dd", null ],
+    [ "net_fake_packet_loss_recv", "namespace_multiplayer.html#af371eeb70b1935835f5bf258ff53ef6e", null ],
+    [ "net_fake_packet_loss_send", "namespace_multiplayer.html#a0f31a0c00590411c0960fdf4271880cc", null ],
+    [ "net_fake_packet_reorder_recv", "namespace_multiplayer.html#a50fbf7d25c19e85446aa4c8d16cfa98d", null ],
+    [ "net_fake_packet_reorder_send", "namespace_multiplayer.html#a12ae2e7fb2231fc6b432bac9f0fd32be", null ]
 ];
