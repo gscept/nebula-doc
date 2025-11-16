@@ -31,7 +31,7 @@ var class_lighting_1_1_light_context =
     [ "GetIntensity", "class_lighting_1_1_light_context.html#a32a96dd49f694f7f201b41e2f5e13a25", null ],
     [ "GetLightIndexBuffer", "class_lighting_1_1_light_context.html#a1d3bf6471252db355eaf2ee9d014d330", null ],
     [ "GetLightsBuffer", "class_lighting_1_1_light_context.html#a44d7a78a1ef423e1eb238d28750e0317", null ],
-    [ "GetLightUniforms", "class_lighting_1_1_light_context.html#a26b0c5b6383c8f11b3879c1f520fe716", null ],
+    [ "GetLightUniforms", "class_lighting_1_1_light_context.html#a3ad1b38e0a204c84247e692c860525d1", null ],
     [ "GetObserverTransform", "class_lighting_1_1_light_context.html#a9f4c125972f482cdf8d837373f27bd20", null ],
     [ "GetPosition", "class_lighting_1_1_light_context.html#a32df66d2902b7388dd96daae251c5f2d", null ],
     [ "GetRotation", "class_lighting_1_1_light_context.html#a349eb9d30b383c3eabaabce43cbf1571", null ],

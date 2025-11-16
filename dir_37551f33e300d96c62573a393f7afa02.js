@@ -30,6 +30,8 @@ var dir_37551f33e300d96c62573a393f7afa02 =
     [ "event.h", "render_2coregraphics_2event_8h.html", "render_2coregraphics_2event_8h" ],
     [ "fence.h", "fence_8h.html", "fence_8h" ],
     [ "gpubuffertypes.h", "gpubuffertypes_8h.html", "gpubuffertypes_8h" ],
+    [ "gpulangshaderloader.cc", "gpulangshaderloader_8cc.html", "gpulangshaderloader_8cc" ],
+    [ "gpulangshaderloader.h", "gpulangshaderloader_8h.html", "gpulangshaderloader_8h" ],
     [ "graphicsdevice.h", "graphicsdevice_8h.html", "graphicsdevice_8h" ],
     [ "image.cc", "image_8cc.html", "image_8cc" ],
     [ "image.h", "image_8h.html", "image_8h" ],

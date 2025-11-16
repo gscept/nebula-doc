@@ -202,6 +202,8 @@ var annotated_dup =
       [ "FenceCreateInfo", "struct_core_graphics_1_1_fence_create_info.html", "struct_core_graphics_1_1_fence_create_info" ],
       [ "FenceId", "struct_core_graphics_1_1_fence_id.html", null ],
       [ "Gliml", "class_core_graphics_1_1_gliml.html", "class_core_graphics_1_1_gliml" ],
+      [ "GPULangShaderCreateInfo", "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html", "struct_core_graphics_1_1_g_p_u_lang_shader_create_info" ],
+      [ "GPULangShaderLoader", "class_core_graphics_1_1_g_p_u_lang_shader_loader.html", "class_core_graphics_1_1_g_p_u_lang_shader_loader" ],
       [ "GraphicsDeviceCreateInfo", "struct_core_graphics_1_1_graphics_device_create_info.html", "struct_core_graphics_1_1_graphics_device_create_info" ],
       [ "GraphicsDeviceState", "struct_core_graphics_1_1_graphics_device_state.html", "struct_core_graphics_1_1_graphics_device_state" ],
       [ "GraphicsDeviceThreadState", "struct_core_graphics_1_1_graphics_device_thread_state.html", "struct_core_graphics_1_1_graphics_device_thread_state" ],
@@ -688,6 +690,11 @@ var annotated_dup =
       [ "Entry", "struct_material_templates_1_1_entry.html", "struct_material_templates_1_1_entry" ],
       [ "MaterialTemplateTexture", "struct_material_templates_1_1_material_template_texture.html", "struct_material_templates_1_1_material_template_texture" ],
       [ "MaterialTemplateValue", "struct_material_templates_1_1_material_template_value.html", "struct_material_templates_1_1_material_template_value" ]
+    ] ],
+    [ "MaterialTemplatesGPULang", "namespace_material_templates_g_p_u_lang.html", [
+      [ "Entry", "struct_material_templates_g_p_u_lang_1_1_entry.html", "struct_material_templates_g_p_u_lang_1_1_entry" ],
+      [ "MaterialTemplateTexture", "struct_material_templates_g_p_u_lang_1_1_material_template_texture.html", "struct_material_templates_g_p_u_lang_1_1_material_template_texture" ],
+      [ "MaterialTemplateValue", "struct_material_templates_g_p_u_lang_1_1_material_template_value.html", "struct_material_templates_g_p_u_lang_1_1_material_template_value" ]
     ] ],
     [ "Math", "namespace_math.html", [
       [ "AngularPFeedbackLoop", "class_math_1_1_angular_p_feedback_loop.html", "class_math_1_1_angular_p_feedback_loop" ],

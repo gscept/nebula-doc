@@ -7,7 +7,7 @@ var searchData=
   ['samplervariabletype_4',['SamplerVariableType',['../namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0eae267ee318bfd0b7e36bca5693e3cc125',1,'CoreGraphics']]],
   ['sampletexture_5',['SampleTexture',['../namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a13c40a39586e358e06a6bc15437b3300',1,'CoreGraphics']]],
   ['saturday_6',['Saturday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73eacff61ac40c6926697c66705a793a786f',1,'Base::CalendarTimeBase']]],
-  ['scalar_7',['Scalar',['../struct_material_templates_1_1_material_template_value.html#a5cec53c29d139bda9e81bd1918aa740da00ee40c5a5572434ba92fb8359433276',1,'MaterialTemplates::MaterialTemplateValue']]],
+  ['scalar_7',['Scalar',['../struct_material_templates_1_1_material_template_value.html#a5cec53c29d139bda9e81bd1918aa740da00ee40c5a5572434ba92fb8359433276',1,'MaterialTemplates::MaterialTemplateValue::Scalar'],['../struct_material_templates_g_p_u_lang_1_1_material_template_value.html#afff2f533d6bd3d6212dc5489cab3e2caa70f239fd8349c3c3a4aded8b545989f9',1,'MaterialTemplatesGPULang::MaterialTemplateValue::Scalar']]],
   ['scale_8',['Scale',['../class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7',1,'CoreAnimation::CurveType']]],
   ['scissorrect_9',['ScissorRect',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba24629cc7f63a7f5d4771580311a3e01e',1,'CoreGraphics::DrawThread']]],
   ['scissorrectarray_10',['ScissorRectArray',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba8a4ede326403ab97f58c1965099f15dd',1,'CoreGraphics::DrawThread']]],

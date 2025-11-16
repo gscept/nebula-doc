@@ -13,7 +13,7 @@ var clustercontext_8cc =
     [ "Clustering::invYResolution", "namespace_clustering.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
     [ "Clustering::numThreads", "namespace_clustering.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
     [ "Clustering::state", "namespace_clustering.html#a9478e7be8f54e63dd4bd2c4cf968d13a", null ],
-    [ "Clustering::uniforms", "namespace_clustering.html#a11145f09fdde8b2ae3bbb83c5a85d62f", null ],
+    [ "Clustering::uniforms", "namespace_clustering.html#a7cdb3fe75647c075795d5fb63496de25", null ],
     [ "Clustering::window", "namespace_clustering.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
     [ "Clustering::xResolution", "namespace_clustering.html#a581f331c494a300ae88fa56b64571df4", null ],
     [ "Clustering::yResolution", "namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e", null ],

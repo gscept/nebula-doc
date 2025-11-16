@@ -197,7 +197,7 @@ var searchData=
   ['nebula_5fsemantic_5fsky2_194',['NEBULA_SEMANTIC_SKY2',['../shadersemantics_8h.html#ad52c538ee237ae02b68354d76c7ceddf',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5fskyblendfactor_195',['NEBULA_SEMANTIC_SKYBLENDFACTOR',['../shadersemantics_8h.html#a6f141d21903772700b2a0eef0774bcf0',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5fskyrotationfactor_196',['NEBULA_SEMANTIC_SKYROTATIONFACTOR',['../shadersemantics_8h.html#a3d03d8b730ecabb20cc7321004f15762',1,'shadersemantics.h']]],
-  ['nebula_5fsemantic_5fstrenght_197',['NEBULA_SEMANTIC_STRENGHT',['../shadersemantics_8h.html#ab4c2883721e4a53c3999d41fde1474d9',1,'shadersemantics.h']]],
+  ['nebula_5fsemantic_5fstrength_197',['NEBULA_SEMANTIC_STRENGTH',['../shadersemantics_8h.html#a2e5a41ab4ddec553f2ca0b0b47039a33',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5ftananglebias_198',['NEBULA_SEMANTIC_TANANGLEBIAS',['../shadersemantics_8h.html#ae9957066f851f78f0f3ab1de42596fdb',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5ftexelsize_199',['NEBULA_SEMANTIC_TEXELSIZE',['../shadersemantics_8h.html#a13b5cecd640ebaef891c2ded363cb80b',1,'shadersemantics.h']]],
   ['nebula_5fsemantic_5ftime_200',['NEBULA_SEMANTIC_TIME',['../shadersemantics_8h.html#a5c6e3bc0ac8c67622faa52f08ee970ad',1,'shadersemantics.h']]],

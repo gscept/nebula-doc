@@ -3,6 +3,7 @@ var shader_8h =
     [ "CoreGraphics::ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
     [ "CoreGraphics::DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
     [ "CoreGraphics::ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", "struct_core_graphics_1_1_shader_create_info" ],
+    [ "CoreGraphics::GPULangShaderCreateInfo", "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html", "struct_core_graphics_1_1_g_p_u_lang_shader_create_info" ],
     [ "CoreGraphics::RayTracingBits", "union_core_graphics_1_1_ray_tracing_bits.html", "union_core_graphics_1_1_ray_tracing_bits" ],
     [ "CoreGraphics::ShaderConstantType", "namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0e", [
       [ "CoreGraphics::UnknownVariableType", "namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0ea29e862b0e756c9b941969e7d9bfd83fd", null ],
@@ -22,6 +23,7 @@ var shader_8h =
       [ "CoreGraphics::SamplerHandleType", "namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0ea402276621311852a3b39a8a50a4d2913", null ]
     ] ],
     [ "CoreGraphics::ConstantTypeToString", "namespace_core_graphics.html#ab1262da19888f376694f7a84cfdbfbfb", null ],
+    [ "CoreGraphics::CreateShader", "namespace_core_graphics.html#aed31fcf4fb389aec44142f1126bfe421", null ],
     [ "CoreGraphics::CreateShader", "namespace_core_graphics.html#a9a25a7223bd07bafaf8b22160c130598", null ],
     [ "CoreGraphics::DestroyShader", "namespace_core_graphics.html#ab51cbce5faa9017eae977a65d25ac310", null ],
     [ "CoreGraphics::ID_24_8_24_8_NAMED_TYPE", "namespace_core_graphics.html#ac06e538c4a02ddc63a0241babd91a133", null ],

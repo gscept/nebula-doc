@@ -6,6 +6,6 @@ var bindlessregistry_8cc =
     [ "Graphics::ReregisterTexture", "namespace_graphics.html#ac3f031f2c7ccb90477937c5def535a33", null ],
     [ "Graphics::UnregisterTexture", "namespace_graphics.html#a3766a4d1a20ed62ca32890a0e42ce700", null ],
     [ "Graphics::bindResourceCriticalSection", "namespace_graphics.html#aaaaf0c2b35c4bc2cb8e57624311ad4e1", null ],
-    [ "Graphics::state", "namespace_graphics.html#a2c63a35e0f77cf4654fd1318aaa3fb32", null ],
+    [ "Graphics::state", "namespace_graphics.html#ac556c40294a2eb27562338f91a0c372f", null ],
     [ "Graphics::texturePool", "namespace_graphics.html#a9f0fb254d9ff102566c212fb72f67967", null ]
 ];

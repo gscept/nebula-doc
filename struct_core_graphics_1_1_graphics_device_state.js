@@ -6,6 +6,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "_declare_counter", "struct_core_graphics_1_1_graphics_device_state.html#a4be2caed70ec7b4cc4977af1b8766e4e", null ],
     [ "_declare_counter", "struct_core_graphics_1_1_graphics_device_state.html#af5f8d2750e23be7c5138fae8138632c8", null ],
     [ "_declare_counter", "struct_core_graphics_1_1_graphics_device_state.html#a81060ef472863318ccbeffb75c3f937c", null ],
+    [ "backbufferFinishedSemaphores", "struct_core_graphics_1_1_graphics_device_state.html#affb06c650c0ea79dc80ad77209a04e6a", null ],
     [ "backBuffers", "struct_core_graphics_1_1_graphics_device_state.html#a3dbdcd406c280f75279b3253d9147589", null ],
     [ "currentBufferedFrameIndex", "struct_core_graphics_1_1_graphics_device_state.html#a826766920f805de2b7df4cd541a121c2", null ],
     [ "currentFrameIndex", "struct_core_graphics_1_1_graphics_device_state.html#ad0d93252140848d8c28dfd703f2298a1", null ],

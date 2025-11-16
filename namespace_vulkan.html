@@ -629,6 +629,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac3e2165bac2d784b9431a57a6c075f6d" id="r_ac3e2165bac2d784b9431a57a6c075f6d"><td class="memItemLeft" align="right" valign="top">VkSemaphore&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e2165bac2d784b9431a57a6c075f6d">GetRenderingSemaphore</a> ()</td></tr>
 <tr class="memdesc:ac3e2165bac2d784b9431a57a6c075f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get final rendering semaphore  <br /></td></tr>
 <tr class="separator:ac3e2165bac2d784b9431a57a6c075f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84760c4b9206547f9829ff29f3a2e794" id="r_a84760c4b9206547f9829ff29f3a2e794"><td class="memItemLeft" align="right" valign="top">VkSemaphore&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84760c4b9206547f9829ff29f3a2e794">GetBackbufferSemaphore</a> ()</td></tr>
+<tr class="memdesc:a84760c4b9206547f9829ff29f3a2e794"><td class="mdescLeft">&#160;</td><td class="mdescRight">get final rendering semaphore  <br /></td></tr>
+<tr class="separator:a84760c4b9206547f9829ff29f3a2e794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29c2d04819b039528a68c0d6bb4839ee" id="r_a29c2d04819b039528a68c0d6bb4839ee"><td class="memItemLeft" align="right" valign="top">VkFence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29c2d04819b039528a68c0d6bb4839ee">GetPresentFence</a> ()</td></tr>
 <tr class="memdesc:a29c2d04819b039528a68c0d6bb4839ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the present fence  <br /></td></tr>
 <tr class="separator:a29c2d04819b039528a68c0d6bb4839ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -749,13 +752,27 @@ Functions</h2></td></tr>
 <tr class="memitem:a9fb2ce4cdadad12035289b084d2b9b89" id="r_a9fb2ce4cdadad12035289b084d2b9b89"><td class="memItemLeft" align="right" valign="top">VkSemaphore&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb2ce4cdadad12035289b084d2b9b89">SemaphoreGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_semaphore_id.html">CoreGraphics::SemaphoreId</a> &amp;<a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a9fb2ce4cdadad12035289b084d2b9b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">get vulkan sampler  <br /></td></tr>
 <tr class="separator:a9fb2ce4cdadad12035289b084d2b9b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7fa14c0559e365ef6846d577a9b499" id="r_a3c7fa14c0559e365ef6846d577a9b499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c7fa14c0559e365ef6846d577a9b499">UpdateOccupancy</a> (uint32_t *occupancyList, uint32_t &amp;slotsUsed, const <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> vis)</td></tr>
-<tr class="separator:a3c7fa14c0559e365ef6846d577a9b499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da6269b27881ad2c49593cda2922974" id="r_a7da6269b27881ad2c49593cda2922974"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da6269b27881ad2c49593cda2922974">UpdateOccupancy</a> (uint32_t *occupancyList, bool &amp;slotUsed, const <a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> vis)</td></tr>
+<tr class="separator:a7da6269b27881ad2c49593cda2922974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b29d7204fbe42e122bdd1370a1cc7b8" id="r_a2b29d7204fbe42e122bdd1370a1cc7b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b29d7204fbe42e122bdd1370a1cc7b8">UpdateValueDescriptorSet</a> (bool &amp;dynamic, uint32_t &amp;num, uint32_t &amp;numDyn, const unsigned set)</td></tr>
 <tr class="separator:a2b29d7204fbe42e122bdd1370a1cc7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0cd4f856140b9d8bc7d2cdafd452109" id="r_ab0cd4f856140b9d8bc7d2cdafd452109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cd4f856140b9d8bc7d2cdafd452109">ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, AnyFX::ShaderEffect *effect, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
 <tr class="memdesc:ab0cd4f856140b9d8bc7d2cdafd452109"><td class="mdescLeft">&#160;</td><td class="mdescRight">create descriptor set layout  <br /></td></tr>
 <tr class="separator:ab0cd4f856140b9d8bc7d2cdafd452109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014d0527f6133e90486093cd49a40ed0" id="r_a014d0527f6133e90486093cd49a40ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#af58ae851ead53eadb0d199bdcb9d4e07">CoreGraphics::SamplerFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014d0527f6133e90486093cd49a40ed0">SamplerFilterFromGPULang</a> (GPULang::Serialization::Filter filter)</td></tr>
+<tr class="separator:a014d0527f6133e90486093cd49a40ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33a5514746d293036fd364f89cfab32" id="r_ae33a5514746d293036fd364f89cfab32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a73b93d326e114bbc8216744dfff973b3">CoreGraphics::SamplerMipMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae33a5514746d293036fd364f89cfab32">SamplerMipFilterFromGPULang</a> (GPULang::Serialization::Filter filter)</td></tr>
+<tr class="separator:ae33a5514746d293036fd364f89cfab32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1009dce15882ef9f2f96ee6859159b38" id="r_a1009dce15882ef9f2f96ee6859159b38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656">CoreGraphics::SamplerCompareOperation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1009dce15882ef9f2f96ee6859159b38">SamplerCompareOpFromGPULang</a> (GPULang::Serialization::CompareMode mode)</td></tr>
+<tr class="separator:a1009dce15882ef9f2f96ee6859159b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d085857072e1926c9600ff11df331e6" id="r_a6d085857072e1926c9600ff11df331e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82">CoreGraphics::SamplerAddressMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d085857072e1926c9600ff11df331e6">SamplerAddressModeFromGPULang</a> (GPULang::Serialization::AddressMode address)</td></tr>
+<tr class="separator:a6d085857072e1926c9600ff11df331e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c03fd368ad982347a3d7f0ab061b86d" id="r_a5c03fd368ad982347a3d7f0ab061b86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a04662a7a5672968559bf1b9122674fe7">CoreGraphics::SamplerBorderMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c03fd368ad982347a3d7f0ab061b86d">SamplerBorderModeFromGPULang</a> (GPULang::Serialization::BorderColor color)</td></tr>
+<tr class="separator:a5c03fd368ad982347a3d7f0ab061b86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2ce54bb5ae315624651185d8717d11" id="r_a9b2ce54bb5ae315624651185d8717d11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b2ce54bb5ae315624651185d8717d11">ShaderVisibilityFromGPULang</a> (const GPULang::ShaderUsage usage)</td></tr>
+<tr class="separator:a9b2ce54bb5ae315624651185d8717d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f282c3b44489b491cac34d61434f5aa" id="r_a4f282c3b44489b491cac34d61434f5aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f282c3b44489b491cac34d61434f5aa">ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, GPULang::Loader *loader, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
+<tr class="separator:a4f282c3b44489b491cac34d61434f5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27c54ba8d9dfd685bff2b87498b9c6f2" id="r_a27c54ba8d9dfd685bff2b87498b9c6f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27c54ba8d9dfd685bff2b87498b9c6f2">ShaderCleanup</a> (VkDevice dev, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt; &amp;buffers, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
 <tr class="memdesc:a27c54ba8d9dfd685bff2b87498b9c6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">cleanup shader  <br /></td></tr>
 <tr class="separator:a27c54ba8d9dfd685bff2b87498b9c6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -770,18 +787,46 @@ Functions</h2></td></tr>
 <tr class="memitem:a0013c20eba13b02459adb8fc480aca54" id="r_a0013c20eba13b02459adb8fc480aca54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0013c20eba13b02459adb8fc480aca54">VkShaderProgramSetup</a> (const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, AnyFX::VkProgram *program, const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
 <tr class="memdesc:a0013c20eba13b02459adb8fc480aca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program  <br /></td></tr>
 <tr class="separator:a0013c20eba13b02459adb8fc480aca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996b0fa771ae293144bcffc0912d8e2f" id="r_a996b0fa771ae293144bcffc0912d8e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996b0fa771ae293144bcffc0912d8e2f">VkShaderProgramSetup</a> (const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, GPULang::Deserialize::Program *program, const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
+<tr class="memdesc:a996b0fa771ae293144bcffc0912d8e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program  <br /></td></tr>
+<tr class="separator:a996b0fa771ae293144bcffc0912d8e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7ae0822cd6bf8d0fb7b462089c929d" id="r_a4e7ae0822cd6bf8d0fb7b462089c929d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7ae0822cd6bf8d0fb7b462089c929d">VkShaderProgramCreateShader</a> (const VkDevice dev, VkShaderModule *shader, unsigned binarySize, char *binary)</td></tr>
 <tr class="memdesc:a4e7ae0822cd6bf8d0fb7b462089c929d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create shader object  <br /></td></tr>
 <tr class="separator:a4e7ae0822cd6bf8d0fb7b462089c929d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698a51aedd91e34f23dcc5fa2690a23d" id="r_a698a51aedd91e34f23dcc5fa2690a23d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698a51aedd91e34f23dcc5fa2690a23d">VkShaderProgramCreateShader</a> (const VkDevice dev, VkShaderModule *shader, GPULang::Deserialize::Program::Shader *binary)</td></tr>
+<tr class="memdesc:a698a51aedd91e34f23dcc5fa2690a23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create shader object  <br /></td></tr>
+<tr class="separator:a698a51aedd91e34f23dcc5fa2690a23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d6a062501d61e23a1f7699ef2558b8" id="r_a54d6a062501d61e23a1f7699ef2558b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d6a062501d61e23a1f7699ef2558b8">VkShaderProgramSetupAsGraphics</a> (AnyFX::VkProgram *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
 <tr class="memdesc:a54d6a062501d61e23a1f7699ef2558b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a graphics program  <br /></td></tr>
 <tr class="separator:a54d6a062501d61e23a1f7699ef2558b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9270c8e0ed5c7a50ff81f331ab637bd2" id="r_a9270c8e0ed5c7a50ff81f331ab637bd2"><td class="memItemLeft" align="right" valign="top">VkStencilOp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9270c8e0ed5c7a50ff81f331ab637bd2">StencilOpFromGPULang</a> (GPULang::Serialization::StencilOp op)</td></tr>
+<tr class="separator:a9270c8e0ed5c7a50ff81f331ab637bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34810f9221258e1a1db0b8e696216e7" id="r_ac34810f9221258e1a1db0b8e696216e7"><td class="memItemLeft" align="right" valign="top">VkCompareOp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34810f9221258e1a1db0b8e696216e7">CompareOpFromGPULang</a> (GPULang::Serialization::CompareMode mode)</td></tr>
+<tr class="separator:ac34810f9221258e1a1db0b8e696216e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a319fa8ad5fc7a1c9e8c6a25a7876e975" id="r_a319fa8ad5fc7a1c9e8c6a25a7876e975"><td class="memItemLeft" align="right" valign="top">VkPolygonMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319fa8ad5fc7a1c9e8c6a25a7876e975">PolygonModeFromGPULang</a> (GPULang::Serialization::RasterizationMode mode)</td></tr>
+<tr class="separator:a319fa8ad5fc7a1c9e8c6a25a7876e975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ee47378911e8989f8ee587667d17da" id="r_a61ee47378911e8989f8ee587667d17da"><td class="memItemLeft" align="right" valign="top">VkFrontFace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61ee47378911e8989f8ee587667d17da">PolygonModeFromGPULang</a> (GPULang::Serialization::WindingOrderMode mode)</td></tr>
+<tr class="separator:a61ee47378911e8989f8ee587667d17da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae592f2efdaf9d22f2a0e6f36f4157c" id="r_aeae592f2efdaf9d22f2a0e6f36f4157c"><td class="memItemLeft" align="right" valign="top">VkLogicOp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeae592f2efdaf9d22f2a0e6f36f4157c">LogicOpFromGPULang</a> (GPULang::Serialization::LogicOp op)</td></tr>
+<tr class="separator:aeae592f2efdaf9d22f2a0e6f36f4157c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d5f8a5a233ffdc84d1d2eb3105893f" id="r_a27d5f8a5a233ffdc84d1d2eb3105893f"><td class="memItemLeft" align="right" valign="top">VkBlendFactor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27d5f8a5a233ffdc84d1d2eb3105893f">BlendFactorFromGPULang</a> (GPULang::Serialization::BlendFactor factor)</td></tr>
+<tr class="separator:a27d5f8a5a233ffdc84d1d2eb3105893f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5b9df419d2c5bdbaa6e7ce20bf3547" id="r_a4f5b9df419d2c5bdbaa6e7ce20bf3547"><td class="memItemLeft" align="right" valign="top">VkBlendOp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f5b9df419d2c5bdbaa6e7ce20bf3547">BlendOpFromGPULang</a> (GPULang::Serialization::BlendOp op)</td></tr>
+<tr class="separator:a4f5b9df419d2c5bdbaa6e7ce20bf3547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da292adcd83f4a9fe3475826dbc8cd5" id="r_a8da292adcd83f4a9fe3475826dbc8cd5"><td class="memItemLeft" align="right" valign="top">VkCullModeFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8da292adcd83f4a9fe3475826dbc8cd5">CullModeFromGPULang</a> (GPULang::Serialization::CullMode mode)</td></tr>
+<tr class="separator:a8da292adcd83f4a9fe3475826dbc8cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b4b67b687310f798b4646a2cd5ae61" id="r_a05b4b67b687310f798b4646a2cd5ae61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b4b67b687310f798b4646a2cd5ae61">VkShaderProgramSetupAsGraphics</a> (GPULang::Deserialize::Program *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
+<tr class="memdesc:a05b4b67b687310f798b4646a2cd5ae61"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a graphics program  <br /></td></tr>
+<tr class="separator:a05b4b67b687310f798b4646a2cd5ae61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae04d3c64f87a3f01928552040f790c3e" id="r_ae04d3c64f87a3f01928552040f790c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04d3c64f87a3f01928552040f790c3e">VkShaderProgramSetupAsCompute</a> (<a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;setup, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
 <tr class="memdesc:ae04d3c64f87a3f01928552040f790c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
 <tr class="separator:ae04d3c64f87a3f01928552040f790c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea25b509f3f0f8aa2f6cc18925444229" id="r_aea25b509f3f0f8aa2f6cc18925444229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea25b509f3f0f8aa2f6cc18925444229">VkShaderProgramSetupAsRaytracing</a> (AnyFX::VkProgram *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;setup, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
 <tr class="memdesc:aea25b509f3f0f8aa2f6cc18925444229"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
 <tr class="separator:aea25b509f3f0f8aa2f6cc18925444229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4eec9ac5e42e3d99d2da603b316a085" id="r_aa4eec9ac5e42e3d99d2da603b316a085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4eec9ac5e42e3d99d2da603b316a085">VkShaderProgramSetupAsRaytracing</a> (GPULang::Deserialize::Program *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;setup, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
+<tr class="memdesc:aa4eec9ac5e42e3d99d2da603b316a085"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
+<tr class="separator:aa4eec9ac5e42e3d99d2da603b316a085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0125d1bedd5cd165c8b6c67206046538" id="r_a0125d1bedd5cd165c8b6c67206046538"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0125d1bedd5cd165c8b6c67206046538">VkShaderProgramGetRaytracingLibrary</a> (const CoreGraphics::ShaderProgramId <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a0125d1bedd5cd165c8b6c67206046538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get raytracing library pipepline.  <br /></td></tr>
 <tr class="separator:a0125d1bedd5cd165c8b6c67206046538"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2411,6 +2456,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a27d5f8a5a233ffdc84d1d2eb3105893f" name="a27d5f8a5a233ffdc84d1d2eb3105893f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d5f8a5a233ffdc84d1d2eb3105893f">&#9670;&#160;</a></span>BlendFactorFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkBlendFactor Vulkan::BlendFactorFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::BlendFactor</td>          <td class="paramname"><span class="paramname"><em>factor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f5b9df419d2c5bdbaa6e7ce20bf3547" name="a4f5b9df419d2c5bdbaa6e7ce20bf3547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5b9df419d2c5bdbaa6e7ce20bf3547">&#9670;&#160;</a></span>BlendOpFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkBlendOp Vulkan::BlendOpFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::BlendOp</td>          <td class="paramname"><span class="paramname"><em>op</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a22999bd78f257b6cfb07792797b1d121" name="a22999bd78f257b6cfb07792797b1d121"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22999bd78f257b6cfb07792797b1d121">&#9670;&#160;</a></span>BufferGetVk()</h2>
 
@@ -2582,6 +2661,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac34810f9221258e1a1db0b8e696216e7" name="ac34810f9221258e1a1db0b8e696216e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34810f9221258e1a1db0b8e696216e7">&#9670;&#160;</a></span>CompareOpFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkCompareOp Vulkan::CompareOpFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::CompareMode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8da292adcd83f4a9fe3475826dbc8cd5" name="a8da292adcd83f4a9fe3475826dbc8cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da292adcd83f4a9fe3475826dbc8cd5">&#9670;&#160;</a></span>CullModeFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkCullModeFlags Vulkan::CullModeFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::CullMode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0b2d59d816e5a30a49466896c0ff3f6b" name="a0b2d59d816e5a30a49466896c0ff3f6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b2d59d816e5a30a49466896c0ff3f6b">&#9670;&#160;</a></span>DelayedDeleteVkBuffer()</h2>
 
@@ -2690,6 +2803,25 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>flush a mapped memory region </p>
+
+</div>
+</div>
+<a id="a84760c4b9206547f9829ff29f3a2e794" name="a84760c4b9206547f9829ff29f3a2e794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84760c4b9206547f9829ff29f3a2e794">&#9670;&#160;</a></span>GetBackbufferSemaphore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkSemaphore Vulkan::GetBackbufferSemaphore </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get final rendering semaphore </p>
 
 </div>
 </div>
@@ -3062,6 +3194,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aeae592f2efdaf9d22f2a0e6f36f4157c" name="aeae592f2efdaf9d22f2a0e6f36f4157c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae592f2efdaf9d22f2a0e6f36f4157c">&#9670;&#160;</a></span>LogicOpFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkLogicOp Vulkan::LogicOpFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::LogicOp</td>          <td class="paramname"><span class="paramname"><em>op</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a672c1eac68d75a34d42003c448a5c2fe" name="a672c1eac68d75a34d42003c448a5c2fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a672c1eac68d75a34d42003c448a5c2fe">&#9670;&#160;</a></span>PassGetVkDevice()</h2>
 
@@ -3196,6 +3345,40 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get vk viewport info for subpass </p>
+
+</div>
+</div>
+<a id="a319fa8ad5fc7a1c9e8c6a25a7876e975" name="a319fa8ad5fc7a1c9e8c6a25a7876e975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319fa8ad5fc7a1c9e8c6a25a7876e975">&#9670;&#160;</a></span>PolygonModeFromGPULang() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkPolygonMode Vulkan::PolygonModeFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::RasterizationMode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61ee47378911e8989f8ee587667d17da" name="a61ee47378911e8989f8ee587667d17da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ee47378911e8989f8ee587667d17da">&#9670;&#160;</a></span>PolygonModeFromGPULang() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkFrontFace Vulkan::PolygonModeFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::WindingOrderMode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3411,6 +3594,74 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6d085857072e1926c9600ff11df331e6" name="a6d085857072e1926c9600ff11df331e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d085857072e1926c9600ff11df331e6">&#9670;&#160;</a></span>SamplerAddressModeFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a9342f4b3d2df5d0e33c3f83c41b2af82">CoreGraphics::SamplerAddressMode</a> Vulkan::SamplerAddressModeFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::AddressMode</td>          <td class="paramname"><span class="paramname"><em>address</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c03fd368ad982347a3d7f0ab061b86d" name="a5c03fd368ad982347a3d7f0ab061b86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c03fd368ad982347a3d7f0ab061b86d">&#9670;&#160;</a></span>SamplerBorderModeFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a04662a7a5672968559bf1b9122674fe7">CoreGraphics::SamplerBorderMode</a> Vulkan::SamplerBorderModeFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::BorderColor</td>          <td class="paramname"><span class="paramname"><em>color</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1009dce15882ef9f2f96ee6859159b38" name="a1009dce15882ef9f2f96ee6859159b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1009dce15882ef9f2f96ee6859159b38">&#9670;&#160;</a></span>SamplerCompareOpFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a420f8662494773bb0f3d98a5aa3a1656">CoreGraphics::SamplerCompareOperation</a> Vulkan::SamplerCompareOpFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::CompareMode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a014d0527f6133e90486093cd49a40ed0" name="a014d0527f6133e90486093cd49a40ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014d0527f6133e90486093cd49a40ed0">&#9670;&#160;</a></span>SamplerFilterFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#af58ae851ead53eadb0d199bdcb9d4e07">CoreGraphics::SamplerFilter</a> Vulkan::SamplerFilterFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::Filter</td>          <td class="paramname"><span class="paramname"><em>filter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad58db3f16c836e9337a95d2745ecf853" name="ad58db3f16c836e9337a95d2745ecf853"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad58db3f16c836e9337a95d2745ecf853">&#9670;&#160;</a></span>SamplerGetVk()</h2>
 
@@ -3427,6 +3678,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get vulkan sampler </p>
+
+</div>
+</div>
+<a id="ae33a5514746d293036fd364f89cfab32" name="ae33a5514746d293036fd364f89cfab32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae33a5514746d293036fd364f89cfab32">&#9670;&#160;</a></span>SamplerMipFilterFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a73b93d326e114bbc8216744dfff973b3">CoreGraphics::SamplerMipMode</a> Vulkan::SamplerMipFilterFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::Filter</td>          <td class="paramname"><span class="paramname"><em>filter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3576,7 +3844,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab0cd4f856140b9d8bc7d2cdafd452109" name="ab0cd4f856140b9d8bc7d2cdafd452109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0cd4f856140b9d8bc7d2cdafd452109">&#9670;&#160;</a></span>ShaderSetup()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cd4f856140b9d8bc7d2cdafd452109">&#9670;&#160;</a></span>ShaderSetup() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3638,6 +3906,92 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4f282c3b44489b491cac34d61434f5aa" name="a4f282c3b44489b491cac34d61434f5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f282c3b44489b491cac34d61434f5aa">&#9670;&#160;</a></span>ShaderSetup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::ShaderSetup </td>
+          <td>(</td>
+          <td class="paramtype">VkDevice</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPULang::Loader *</td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>constantRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>immutableSamplers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>setLayouts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>setLayoutMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pipelineLayout</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resourceSlotMapping</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>constantBindings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b2ce54bb5ae315624651185d8717d11" name="a9b2ce54bb5ae315624651185d8717d11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b2ce54bb5ae315624651185d8717d11">&#9670;&#160;</a></span>ShaderVisibilityFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1">CoreGraphics::ShaderVisibility</a> Vulkan::ShaderVisibilityFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">const GPULang::ShaderUsage</td>          <td class="paramname"><span class="paramname"><em>usage</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a62c87b67db2b5dcfa1f1d5e7758f952a" name="a62c87b67db2b5dcfa1f1d5e7758f952a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62c87b67db2b5dcfa1f1d5e7758f952a">&#9670;&#160;</a></span>SparseBufferBind()</h2>
 
@@ -3686,6 +4040,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>perform a set of sparse image binding operations </p>
+
+</div>
+</div>
+<a id="a9270c8e0ed5c7a50ff81f331ab637bd2" name="a9270c8e0ed5c7a50ff81f331ab637bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9270c8e0ed5c7a50ff81f331ab637bd2">&#9670;&#160;</a></span>StencilOpFromGPULang()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkStencilOp Vulkan::StencilOpFromGPULang </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Serialization::StencilOp</td>          <td class="paramname"><span class="paramname"><em>op</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3898,8 +4269,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c7fa14c0559e365ef6846d577a9b499" name="a3c7fa14c0559e365ef6846d577a9b499"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7fa14c0559e365ef6846d577a9b499">&#9670;&#160;</a></span>UpdateOccupancy()</h2>
+<a id="a7da6269b27881ad2c49593cda2922974" name="a7da6269b27881ad2c49593cda2922974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7da6269b27881ad2c49593cda2922974">&#9670;&#160;</a></span>UpdateOccupancy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3912,7 +4283,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t &amp;</td>          <td class="paramname"><span class="paramname"><em>slotsUsed</em></span>, </td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>slotUsed</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3993,8 +4364,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a698a51aedd91e34f23dcc5fa2690a23d" name="a698a51aedd91e34f23dcc5fa2690a23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698a51aedd91e34f23dcc5fa2690a23d">&#9670;&#160;</a></span>VkShaderProgramCreateShader() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::VkShaderProgramCreateShader </td>
+          <td>(</td>
+          <td class="paramtype">const VkDevice</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkShaderModule *</td>          <td class="paramname"><span class="paramname"><em>shader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPULang::Deserialize::Program::Shader *</td>          <td class="paramname"><span class="paramname"><em>binary</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create shader object </p>
+
+</div>
+</div>
 <a id="a4e7ae0822cd6bf8d0fb7b462089c929d" name="a4e7ae0822cd6bf8d0fb7b462089c929d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e7ae0822cd6bf8d0fb7b462089c929d">&#9670;&#160;</a></span>VkShaderProgramCreateShader()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7ae0822cd6bf8d0fb7b462089c929d">&#9670;&#160;</a></span>VkShaderProgramCreateShader() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4121,7 +4520,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0013c20eba13b02459adb8fc480aca54" name="a0013c20eba13b02459adb8fc480aca54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0013c20eba13b02459adb8fc480aca54">&#9670;&#160;</a></span>VkShaderProgramSetup()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0013c20eba13b02459adb8fc480aca54">&#9670;&#160;</a></span>VkShaderProgramSetup() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4140,6 +4539,39 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">AnyFX::VkProgram *</td>          <td class="paramname"><span class="paramname"><em>program</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pipelineLayout</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program </p>
+
+</div>
+</div>
+<a id="a996b0fa771ae293144bcffc0912d8e2f" name="a996b0fa771ae293144bcffc0912d8e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996b0fa771ae293144bcffc0912d8e2f">&#9670;&#160;</a></span>VkShaderProgramSetup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::VkShaderProgramSetup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shaderName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPULang::Deserialize::Program *</td>          <td class="paramname"><span class="paramname"><em>program</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4177,7 +4609,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a54d6a062501d61e23a1f7699ef2558b8" name="a54d6a062501d61e23a1f7699ef2558b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54d6a062501d61e23a1f7699ef2558b8">&#9670;&#160;</a></span>VkShaderProgramSetupAsGraphics()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d6a062501d61e23a1f7699ef2558b8">&#9670;&#160;</a></span>VkShaderProgramSetupAsGraphics() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4204,8 +4636,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a05b4b67b687310f798b4646a2cd5ae61" name="a05b4b67b687310f798b4646a2cd5ae61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b4b67b687310f798b4646a2cd5ae61">&#9670;&#160;</a></span>VkShaderProgramSetupAsGraphics() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::VkShaderProgramSetupAsGraphics </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Deserialize::Program *</td>          <td class="paramname"><span class="paramname"><em>program</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shaderName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>runtime</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create this program as a graphics program </p>
+
+</div>
+</div>
 <a id="aea25b509f3f0f8aa2f6cc18925444229" name="aea25b509f3f0f8aa2f6cc18925444229"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea25b509f3f0f8aa2f6cc18925444229">&#9670;&#160;</a></span>VkShaderProgramSetupAsRaytracing()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea25b509f3f0f8aa2f6cc18925444229">&#9670;&#160;</a></span>VkShaderProgramSetupAsRaytracing() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4214,6 +4674,39 @@ Variables</h2></td></tr>
           <td class="memname">void Vulkan::VkShaderProgramSetupAsRaytracing </td>
           <td>(</td>
           <td class="paramtype">AnyFX::VkProgram *</td>          <td class="paramname"><span class="paramname"><em>program</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shaderName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>setup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>runtime</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create this program as a compute program (can be done immediately) </p>
+
+</div>
+</div>
+<a id="aa4eec9ac5e42e3d99d2da603b316a085" name="aa4eec9ac5e42e3d99d2da603b316a085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4eec9ac5e42e3d99d2da603b316a085">&#9670;&#160;</a></span>VkShaderProgramSetupAsRaytracing() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::VkShaderProgramSetupAsRaytracing </td>
+          <td>(</td>
+          <td class="paramtype">GPULang::Deserialize::Program *</td>          <td class="paramname"><span class="paramname"><em>program</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5129,7 +5622,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Mon Sep 8 2025 18:55:37 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 16 2025 18:27:43 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

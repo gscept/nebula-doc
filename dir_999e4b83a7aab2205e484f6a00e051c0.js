@@ -23,6 +23,7 @@ var dir_999e4b83a7aab2205e484f6a00e051c0 =
     [ "rtti.cc", "rtti_8cc.html", null ],
     [ "rtti.h", "rtti_8h.html", "rtti_8h" ],
     [ "rttimacros.h", "rttimacros_8h.html", "rttimacros_8h" ],
+    [ "simd.h", "simd_8h.html", null ],
     [ "singleton.h", "singleton_8h.html", null ],
     [ "sysfunc.h", "sysfunc_8h.html", null ],
     [ "types.h", "types_8h.html", "types_8h" ],

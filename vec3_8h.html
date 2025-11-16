@@ -107,10 +107,7 @@ $(function(){initNavTree('vec3_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">core/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scalar_8h_source.html">math/scalar.h</a>&quot;</code><br />
-<code>#include &lt;xmmintrin.h&gt;</code><br />
-<code>#include &lt;emmintrin.h&gt;</code><br />
-<code>#include &lt;smmintrin.h&gt;</code><br />
-<code>#include &lt;immintrin.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="simd_8h_source.html">core/simd.h</a>&quot;</code><br />
 </div>
 <p><a href="vec3_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -235,24 +232,24 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a067dba3ae188346fbdb6d40a482f22f7" id="r_a067dba3ae188346fbdb6d40a482f22f7"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a067dba3ae188346fbdb6d40a482f22f7">Math::_id_x</a> = _mm_setr_ps(1.0f, 0.0f, 0.0f, 0.0f)</td></tr>
-<tr class="separator:a067dba3ae188346fbdb6d40a482f22f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3a5400f57b852810b4395043f508911" id="r_ae3a5400f57b852810b4395043f508911"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ae3a5400f57b852810b4395043f508911">Math::_id_y</a> = _mm_setr_ps(0.0f, 1.0f, 0.0f, 0.0f)</td></tr>
-<tr class="separator:ae3a5400f57b852810b4395043f508911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00909cb7568a115e737fe885e6891e5c" id="r_a00909cb7568a115e737fe885e6891e5c"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a00909cb7568a115e737fe885e6891e5c">Math::_id_z</a> = _mm_setr_ps(0.0f, 0.0f, 1.0f, 0.0f)</td></tr>
-<tr class="separator:a00909cb7568a115e737fe885e6891e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f994ad2e9b7301aeab7bc616112035e" id="r_a8f994ad2e9b7301aeab7bc616112035e"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a8f994ad2e9b7301aeab7bc616112035e">Math::_id_w</a> = _mm_setr_ps(0.0f, 0.0f, 0.0f, 1.0f)</td></tr>
-<tr class="separator:a8f994ad2e9b7301aeab7bc616112035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e69e19127b31c770b31f61aec8e723b" id="r_a9e69e19127b31c770b31f61aec8e723b"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a9e69e19127b31c770b31f61aec8e723b">Math::_minus1</a> = _mm_setr_ps(-1.0f, -1.0f, -1.0f, -1.0f)</td></tr>
-<tr class="separator:a9e69e19127b31c770b31f61aec8e723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc6d0bf4e6846efaeaa85ea625d29bed" id="r_afc6d0bf4e6846efaeaa85ea625d29bed"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#afc6d0bf4e6846efaeaa85ea625d29bed">Math::_plus1</a> = _mm_setr_ps(1.0f, 1.0f, 1.0f, 1.0f)</td></tr>
-<tr class="separator:afc6d0bf4e6846efaeaa85ea625d29bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a141fa411e364bb74745ef972ae265b2e" id="r_a141fa411e364bb74745ef972ae265b2e"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a141fa411e364bb74745ef972ae265b2e">Math::_zero</a> = _mm_setr_ps(0.0f, 0.0f, 0.0f, 0.0f)</td></tr>
-<tr class="separator:a141fa411e364bb74745ef972ae265b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2975c4082f732d7c9c67429dc05dc6dd" id="r_a2975c4082f732d7c9c67429dc05dc6dd"><td class="memItemLeft" align="right" valign="top">static const __m128i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a2975c4082f732d7c9c67429dc05dc6dd">Math::_sign</a> = _mm_setr_epi32(0x80000000, 0x80000000, 0x80000000, 0x80000000)</td></tr>
-<tr class="separator:a2975c4082f732d7c9c67429dc05dc6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade79a3ee806f5706749458bb5b677c98" id="r_ade79a3ee806f5706749458bb5b677c98"><td class="memItemLeft" align="right" valign="top">static const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ade79a3ee806f5706749458bb5b677c98">Math::_mask_xyz</a> = _mm_castsi128_ps(_mm_setr_epi32( 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0 ))</td></tr>
-<tr class="separator:ade79a3ee806f5706749458bb5b677c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed3e175afec1d301357fbed3ece56039" id="r_aed3e175afec1d301357fbed3ece56039"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#aed3e175afec1d301357fbed3ece56039">Math::_id_x</a> = set_f32x4(1.0f, 0.0f, 0.0f, 0.0f)</td></tr>
+<tr class="separator:aed3e175afec1d301357fbed3ece56039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5edf8208b4eb0beb54648e82439c6e" id="r_a6f5edf8208b4eb0beb54648e82439c6e"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a6f5edf8208b4eb0beb54648e82439c6e">Math::_id_y</a> = set_f32x4(0.0f, 1.0f, 0.0f, 0.0f)</td></tr>
+<tr class="separator:a6f5edf8208b4eb0beb54648e82439c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8272c2d93d43fa18ad6cda5a775b9f23" id="r_a8272c2d93d43fa18ad6cda5a775b9f23"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a8272c2d93d43fa18ad6cda5a775b9f23">Math::_id_z</a> = set_f32x4(0.0f, 0.0f, 1.0f, 0.0f)</td></tr>
+<tr class="separator:a8272c2d93d43fa18ad6cda5a775b9f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c520c7ad4668723878531ab2696d936" id="r_a0c520c7ad4668723878531ab2696d936"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a0c520c7ad4668723878531ab2696d936">Math::_id_w</a> = set_f32x4(0.0f, 0.0f, 0.0f, 1.0f)</td></tr>
+<tr class="separator:a0c520c7ad4668723878531ab2696d936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51e3b5bd638b8efd94d281388c061ce" id="r_ad51e3b5bd638b8efd94d281388c061ce"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ad51e3b5bd638b8efd94d281388c061ce">Math::_minus1</a> = set_f32x4(-1.0f, -1.0f, -1.0f, -1.0f)</td></tr>
+<tr class="separator:ad51e3b5bd638b8efd94d281388c061ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0385185c6e1abc4995ae1e2890e93028" id="r_a0385185c6e1abc4995ae1e2890e93028"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a0385185c6e1abc4995ae1e2890e93028">Math::_plus1</a> = set_f32x4(1.0f, 1.0f, 1.0f, 1.0f)</td></tr>
+<tr class="separator:a0385185c6e1abc4995ae1e2890e93028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031f11f9b458906638587bc118279894" id="r_a031f11f9b458906638587bc118279894"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#a031f11f9b458906638587bc118279894">Math::_zero</a> = set_f32x4(0.0f, 0.0f, 0.0f, 0.0f)</td></tr>
+<tr class="separator:a031f11f9b458906638587bc118279894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab824176302ce331b0073df55e7367fbc" id="r_ab824176302ce331b0073df55e7367fbc"><td class="memItemLeft" align="right" valign="top">static const i32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ab824176302ce331b0073df55e7367fbc">Math::_sign</a> = set_i32x4(0x80000000, 0x80000000, 0x80000000, 0x80000000)</td></tr>
+<tr class="separator:ab824176302ce331b0073df55e7367fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d03eeb5d8d99cffa1304a96c8495c2" id="r_ac3d03eeb5d8d99cffa1304a96c8495c2"><td class="memItemLeft" align="right" valign="top">static const f32x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_math.html#ac3d03eeb5d8d99cffa1304a96c8495c2">Math::_mask_xyz</a> = cast_i32x4_to_f32x4(set_i32x4( 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0 ))</td></tr>
+<tr class="separator:ac3d03eeb5d8d99cffa1304a96c8495c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -261,7 +258,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_b1848cd272221e872cac0c15a21863f6.html">math</a></li><li class="navelem"><a class="el" href="vec3_8h.html">vec3.h</a></li>
 				<li class="footer">
-					Generated on Mon Sep 8 2025 18:55:29 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 16 2025 18:27:35 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

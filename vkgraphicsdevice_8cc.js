@@ -39,6 +39,7 @@ var vkgraphicsdevice_8cc =
     [ "CoreGraphics::FinishQueries", "namespace_core_graphics.html#a849bf1e32873efb57d6189190336efd4", null ],
     [ "CoreGraphics::FlushUploads", "namespace_core_graphics.html#a5ec5e0f9ec44c081cdbe838b9307b755", null ],
     [ "CoreGraphics::FreeUploads", "namespace_core_graphics.html#a5a271cc9cb05151bdb2c2003c0709035", null ],
+    [ "Vulkan::GetBackbufferSemaphore", "namespace_vulkan.html#a84760c4b9206547f9829ff29f3a2e794", null ],
     [ "CoreGraphics::GetBufferedFrameIndex", "namespace_core_graphics.html#a662198a2db21f4c73693ac378362e2fa", null ],
     [ "CoreGraphics::GetConstantBuffer", "namespace_core_graphics.html#a67c4124c7c1dc75a4a175b73d640685a", null ],
     [ "Vulkan::GetCurrentDevice", "namespace_vulkan.html#aabca9311986678028f13b754db51aa45", null ],

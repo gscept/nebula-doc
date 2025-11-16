@@ -1,5 +1,5 @@
 var framescripts_8cc =
 [
-    [ "Frame::DrawBatch", "namespace_frame.html#a9210d235cc8954c3a3d89fd6536e100f", null ],
-    [ "Frame::DrawBatch", "namespace_frame.html#aa58def95399c8daca0913c47622e0eac", null ]
+    [ "Frame::DrawBatch", "namespace_frame.html#ad05611e373be7f58e20f1766836af952", null ],
+    [ "Frame::DrawBatch", "namespace_frame.html#ab1c75fe2d2ce74a7940d8538d55aa6e7", null ]
 ];

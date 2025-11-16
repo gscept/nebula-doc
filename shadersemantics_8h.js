@@ -122,7 +122,7 @@ var shadersemantics_8h =
     [ "NEBULA_SEMANTIC_SKY2", "shadersemantics_8h.html#ad52c538ee237ae02b68354d76c7ceddf", null ],
     [ "NEBULA_SEMANTIC_SKYBLENDFACTOR", "shadersemantics_8h.html#a6f141d21903772700b2a0eef0774bcf0", null ],
     [ "NEBULA_SEMANTIC_SKYROTATIONFACTOR", "shadersemantics_8h.html#a3d03d8b730ecabb20cc7321004f15762", null ],
-    [ "NEBULA_SEMANTIC_STRENGHT", "shadersemantics_8h.html#ab4c2883721e4a53c3999d41fde1474d9", null ],
+    [ "NEBULA_SEMANTIC_STRENGTH", "shadersemantics_8h.html#a2e5a41ab4ddec553f2ca0b0b47039a33", null ],
     [ "NEBULA_SEMANTIC_TANANGLEBIAS", "shadersemantics_8h.html#ae9957066f851f78f0f3ab1de42596fdb", null ],
     [ "NEBULA_SEMANTIC_TEXELSIZE", "shadersemantics_8h.html#a13b5cecd640ebaef891c2ded363cb80b", null ],
     [ "NEBULA_SEMANTIC_TIME", "shadersemantics_8h.html#a5c6e3bc0ac8c67622faa52f08ee970ad", null ],

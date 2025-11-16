@@ -119,10 +119,8 @@ $(function(){initNavTree('lightcontext_8cc.html',''); initResizable(true); });
 <code>#include &quot;materials/materialtemplates.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="materialloader_8h_source.html">materials/materialloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globalconstants_8h_source.html">graphics/globalconstants.h</a>&quot;</code><br />
-<code>#include &quot;system_shaders/shared.h&quot;</code><br />
-<code>#include &quot;system_shaders/lights_cluster.h&quot;</code><br />
-<code>#include &quot;system_shaders/combine.h&quot;</code><br />
-<code>#include &quot;system_shaders/csmblur.h&quot;</code><br />
+<code>#include &quot;gpulang/render/system_shaders/shared.h&quot;</code><br />
+<code>#include &quot;gpulang/render/system_shaders/combine.h&quot;</code><br />
 <code>#include &quot;frame/default.h&quot;</code><br />
 <code>#include &quot;frame/shadows.h&quot;</code><br />
 </div><table class="memberdecls">
@@ -152,8 +150,8 @@ Variables</h2></td></tr>
 <tr class="separator:a43d8f8943526c7239633fa1c4f468021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e999576db4fee3734f2a02db63a4488" id="r_a3e999576db4fee3734f2a02db63a4488"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_ring_buffer.html">Util::RingBuffer</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#aa5fe20d364aa0d6c986ca7487dc6e0b4">Lighting::shadowcastingLocalLights</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a3e999576db4fee3734f2a02db63a4488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6985df920a67c9779c28c3c1aa7e5e19" id="r_a6985df920a67c9779c28c3c1aa7e5e19"><td class="memItemLeft" >&#160;&#160;&#160;Shared::ShadowViewConstants&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a5d27df8c5c7858fb2bb1e3c87a7e285d">Lighting::shadowMatrixUniforms</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a6985df920a67c9779c28c3c1aa7e5e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1f10a44c488f3480f026ca682effee" id="r_ade1f10a44c488f3480f026ca682effee"><td class="memItemLeft" >&#160;&#160;&#160;Shared::ShadowViewConstants::STRUCT&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a57a5ac7ca6f202eba36a5b1856b79390">Lighting::shadowMatrixUniforms</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ade1f10a44c488f3480f026ca682effee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adae156841e73c2e360cdc598a517e26d" id="r_adae156841e73c2e360cdc598a517e26d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a5ff54976d5d786434a189b17327e74b1">Lighting::localLightShadows</a> = CoreGraphics::InvalidTextureId&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:adae156841e73c2e360cdc598a517e26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7873f0e636738190ca0c37a5b3d339" id="r_a3e7873f0e636738190ca0c37a5b3d339"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a5ee0ec7b142258658bdbde0837f4a782">Lighting::globalLightShadowMap</a> = CoreGraphics::InvalidTextureId&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -164,10 +162,10 @@ Variables</h2></td></tr>
 <tr class="separator:ace4188cbd04ce811f358e6f96d2bf16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4874f0bb062d83a4daa1e990f2dc71fb" id="r_a4874f0bb062d83a4daa1e990f2dc71fb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#ab6851f5d4fe86107879a11564e1e9efc">Lighting::terrainSize</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a4874f0bb062d83a4daa1e990f2dc71fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa10d4b71b8928e51718663b968391d04" id="r_aa10d4b71b8928e51718663b968391d04"><td class="memItemLeft" >&#160;&#160;&#160;MaterialTemplates::BatchGroup&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#afc3cd2e2de8469efc489613257043430">Lighting::spotlightsBatchCode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:aa10d4b71b8928e51718663b968391d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a696d1ae2c1b54a5e85b89cb213bd8442" id="r_a696d1ae2c1b54a5e85b89cb213bd8442"><td class="memItemLeft" >&#160;&#160;&#160;MaterialTemplates::BatchGroup&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a0caca75c15b5cdf26d7a498e60670518">Lighting::globalLightsBatchCode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a696d1ae2c1b54a5e85b89cb213bd8442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895d2dc58cdd8495aeb16c70fd1c4668" id="r_a895d2dc58cdd8495aeb16c70fd1c4668"><td class="memItemLeft" >&#160;&#160;&#160;MaterialTemplatesGPULang::BatchGroup&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a41a365d520352240f5ebc799b4394dae">Lighting::spotlightsBatchCode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a895d2dc58cdd8495aeb16c70fd1c4668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99cc8d42ea46aca171a9a7f3b92f5382" id="r_a99cc8d42ea46aca171a9a7f3b92f5382"><td class="memItemLeft" >&#160;&#160;&#160;MaterialTemplatesGPULang::BatchGroup&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#aacfc902af132185bd81d21aa44d6a48c">Lighting::globalLightsBatchCode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a99cc8d42ea46aca171a9a7f3b92f5382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adce31173a5a221f32ad73a145b03a79f" id="r_adce31173a5a221f32ad73a145b03a79f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_lighting_1_1_c_s_m_util.html">CSMUtil</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#ab0aaa69cffadc74914be9308b6f7b20c">Lighting::csmUtil</a> { Shared::NUM_CASCADES }&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:adce31173a5a221f32ad73a145b03a79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f39c46329886f6efde4b15e41bbd9bf" id="r_a2f39c46329886f6efde4b15e41bbd9bf"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_lighting.html#a2f39c46329886f6efde4b15e41bbd9bf">Lighting::lightServerState</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -196,10 +194,10 @@ Variables</h2></td></tr>
 <tr class="separator:aa71cc077c362c296b31bf03ef3c35e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bf5fb80a1281a4869999f6f16156ea2" id="r_a3bf5fb80a1281a4869999f6f16156ea2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a0b07a12ab4cefc1eb394d5b2d00946b7">Lighting::numThreadsThisFrame</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a3bf5fb80a1281a4869999f6f16156ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dc6141c08a99bea6a6598df3549ce12" id="r_a9dc6141c08a99bea6a6598df3549ce12"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::LightLists&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a47c086ca48789cc872b43a35043ca5a1">Lighting::lightList</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a9dc6141c08a99bea6a6598df3549ce12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48886bf228dd59f8f62dc10fbbaea715" id="r_a48886bf228dd59f8f62dc10fbbaea715"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::LightUniforms&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a5151b7729d50085fdec941a6423bfdd3">Lighting::consts</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a48886bf228dd59f8f62dc10fbbaea715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fadc7573e895ae145c8f2e56256ac83" id="r_a7fadc7573e895ae145c8f2e56256ac83"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::LightLists::STRUCT&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#af8542245822d46bc4ffd3501bde5f867">Lighting::lightList</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a7fadc7573e895ae145c8f2e56256ac83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf310cbbbc7537dd5ee907a94db70002" id="r_aaf310cbbbc7537dd5ee907a94db70002"><td class="memItemLeft" >&#160;&#160;&#160;LightsCluster::LightUniforms::STRUCT&#160;&#160;&#160;<a class="el" href="namespace_lighting.html#a9a011ccf4c7b4eda2b7843d991933fa4">Lighting::consts</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aaf310cbbbc7537dd5ee907a94db70002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71acdb2f03b2780def308cd94c24b306" id="r_a71acdb2f03b2780def308cd94c24b306"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_lighting.html#a71acdb2f03b2780def308cd94c24b306">Lighting::clusterState</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a71acdb2f03b2780def308cd94c24b306"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42db24996966f299392cf50a0356fce2" id="r_a42db24996966f299392cf50a0356fce2"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -243,7 +241,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_768ee4f5bc33f9e2fc60f1898cd79fc7.html">lighting</a></li><li class="navelem"><a class="el" href="lightcontext_8cc.html">lightcontext.cc</a></li>
 				<li class="footer">
-					Generated on Mon Sep 8 2025 18:55:30 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 16 2025 18:27:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

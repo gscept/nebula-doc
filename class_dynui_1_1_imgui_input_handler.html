@@ -122,12 +122,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adfab5ddb63a619cbef4cc809eef9cb1b" id="r_adfab5ddb63a619cbef4cc809eef9cb1b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfab5ddb63a619cbef4cc809eef9cb1b">~ImguiInputHandler</a> ()</td></tr>
 <tr class="memdesc:adfab5ddb63a619cbef4cc809eef9cb1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="separator:adfab5ddb63a619cbef4cc809eef9cb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5585137038e39aada8e68d8fcde853c1" id="r_a5585137038e39aada8e68d8fcde853c1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5585137038e39aada8e68d8fcde853c1">BeginCapture</a> ()</td></tr>
-<tr class="memdesc:a5585137038e39aada8e68d8fcde853c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">capture input to this event handler  <br /></td></tr>
-<tr class="separator:a5585137038e39aada8e68d8fcde853c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a421dd7c5ebdf847f07a33f2845f4a1f8" id="r_a421dd7c5ebdf847f07a33f2845f4a1f8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421dd7c5ebdf847f07a33f2845f4a1f8">EndCapture</a> ()</td></tr>
-<tr class="memdesc:a421dd7c5ebdf847f07a33f2845f4a1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">end input capturing to this event handler  <br /></td></tr>
-<tr class="separator:a421dd7c5ebdf847f07a33f2845f4a1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3544136e3f01297a024cd7f0500036" id="r_a8a3544136e3f01297a024cd7f0500036"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3544136e3f01297a024cd7f0500036">BeginCapture</a> () override</td></tr>
+<tr class="memdesc:a8a3544136e3f01297a024cd7f0500036"><td class="mdescLeft">&#160;</td><td class="mdescRight">capture input to this event handler  <br /></td></tr>
+<tr class="separator:a8a3544136e3f01297a024cd7f0500036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01da98eebf3eb977edd12f3847181c19" id="r_a01da98eebf3eb977edd12f3847181c19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01da98eebf3eb977edd12f3847181c19">EndCapture</a> () override</td></tr>
+<tr class="memdesc:a01da98eebf3eb977edd12f3847181c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">end input capturing to this event handler  <br /></td></tr>
+<tr class="separator:a01da98eebf3eb977edd12f3847181c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4302574c25305663368654daaf314d0c" id="r_a4302574c25305663368654daaf314d0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4302574c25305663368654daaf314d0c">OnBeginFrame</a> () override</td></tr>
 <tr class="memdesc:a4302574c25305663368654daaf314d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset key inputs  <br /></td></tr>
 <tr class="separator:a4302574c25305663368654daaf314d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,9 +184,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac0f483e5d0c3991b5d2235ebf10a1d19" id="r_ac0f483e5d0c3991b5d2235ebf10a1d19"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f483e5d0c3991b5d2235ebf10a1d19">OnEvent</a> (const <a class="el" href="class_input_1_1_input_event.html">Input::InputEvent</a> &amp;inputEvent)</td></tr>
-<tr class="memdesc:ac0f483e5d0c3991b5d2235ebf10a1d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when an input event should be processed  <br /></td></tr>
-<tr class="separator:ac0f483e5d0c3991b5d2235ebf10a1d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3153f80754200dd7d45b512eb1271106" id="r_a3153f80754200dd7d45b512eb1271106"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3153f80754200dd7d45b512eb1271106">OnEvent</a> (const <a class="el" href="class_input_1_1_input_event.html">Input::InputEvent</a> &amp;inputEvent) override</td></tr>
+<tr class="memdesc:a3153f80754200dd7d45b512eb1271106"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when an input event should be processed  <br /></td></tr>
+<tr class="separator:a3153f80754200dd7d45b512eb1271106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_input_1_1_input_handler"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_input_1_1_input_handler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_input_1_1_input_handler.html">Input::InputHandler</a></td></tr>
 <tr class="memitem:afc3473c7c86dd0c51219f5b1e46b86f9 inherit pro_methods_class_input_1_1_input_handler" id="r_afc3473c7c86dd0c51219f5b1e46b86f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_input_1_1_input_handler.html#afc3473c7c86dd0c51219f5b1e46b86f9">OnAttach</a> ()</td></tr>
 <tr class="memdesc:afc3473c7c86dd0c51219f5b1e46b86f9 inherit pro_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the handler is attached to the input server  <br /></td></tr>
@@ -306,8 +306,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5585137038e39aada8e68d8fcde853c1" name="a5585137038e39aada8e68d8fcde853c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5585137038e39aada8e68d8fcde853c1">&#9670;&#160;</a></span>BeginCapture()</h2>
+<a id="a8a3544136e3f01297a024cd7f0500036" name="a8a3544136e3f01297a024cd7f0500036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3544136e3f01297a024cd7f0500036">&#9670;&#160;</a></span>BeginCapture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -335,8 +335,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a421dd7c5ebdf847f07a33f2845f4a1f8" name="a421dd7c5ebdf847f07a33f2845f4a1f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a421dd7c5ebdf847f07a33f2845f4a1f8">&#9670;&#160;</a></span>EndCapture()</h2>
+<a id="a01da98eebf3eb977edd12f3847181c19" name="a01da98eebf3eb977edd12f3847181c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01da98eebf3eb977edd12f3847181c19">&#9670;&#160;</a></span>EndCapture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +353,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -393,8 +393,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0f483e5d0c3991b5d2235ebf10a1d19" name="ac0f483e5d0c3991b5d2235ebf10a1d19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0f483e5d0c3991b5d2235ebf10a1d19">&#9670;&#160;</a></span>OnEvent()</h2>
+<a id="a3153f80754200dd7d45b512eb1271106" name="a3153f80754200dd7d45b512eb1271106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3153f80754200dd7d45b512eb1271106">&#9670;&#160;</a></span>OnEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,7 +411,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -456,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_dynui.html">Dynui</a></li><li class="navelem"><a class="el" href="class_dynui_1_1_imgui_input_handler.html">ImguiInputHandler</a></li>
 				<li class="footer">
-					Generated on Mon Sep 8 2025 18:55:33 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 16 2025 18:27:39 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

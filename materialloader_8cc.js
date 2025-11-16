@@ -12,7 +12,7 @@ var materialloader_8cc =
     [ "Materials::LoaderFunc", "namespace_materials.html#af09d97178629e229384bdb4d5c815739", null ],
     [ "Materials::__ImplementClass", "namespace_materials.html#a1f98ed34bfde73baf9721c689c07ce5b", null ],
     [ "Materials::LoadFloat", "namespace_materials.html#a5636bc79c691a61803c2246845b4a42a", null ],
-    [ "Materials::LoadMaterialParameter", "namespace_materials.html#a13c0a8bea388e671f68017b824f66653", null ],
+    [ "Materials::LoadMaterialParameter", "namespace_materials.html#a056a6d4dba7e98f8431cefea2fd2a0c3", null ],
     [ "Materials::LoadTexture", "namespace_materials.html#a1e4d10e6d301c86f8fa26c58de7d6be0", null ],
     [ "Materials::LoadVec3", "namespace_materials.html#a5cb5def1927276ed42cd7d6306fefa9d", null ],
     [ "Materials::LoadVec4", "namespace_materials.html#ac83d1ce912ecd1b48199ef3a3ce9b695", null ],

@@ -3,6 +3,7 @@ var vkgraphicsdevice_8h =
     [ "Vulkan::ClearPending", "namespace_vulkan.html#a26290f814323eff2f7b9e1d8bdbd475a", null ],
     [ "Vulkan::DelayedDeleteVkBuffer", "namespace_vulkan.html#a0b2d59d816e5a30a49466896c0ff3f6b", null ],
     [ "Vulkan::DeviceLost", "namespace_vulkan.html#a0ef106fef650c4adf198081dec77934c", null ],
+    [ "Vulkan::GetBackbufferSemaphore", "namespace_vulkan.html#a84760c4b9206547f9829ff29f3a2e794", null ],
     [ "Vulkan::GetCurrentDevice", "namespace_vulkan.html#aabca9311986678028f13b754db51aa45", null ],
     [ "Vulkan::GetCurrentFeatures", "namespace_vulkan.html#a428c995a178b949e5969a24c5c197a99", null ],
     [ "Vulkan::GetCurrentPhysicalDevice", "namespace_vulkan.html#aa835139bcbfe3dca555bad143617ea37", null ],

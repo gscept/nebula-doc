@@ -68,8 +68,8 @@ var hierarchy =
       [ "Util::PinnedArray< MAX_ALLOCS, TYPE >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::TrivialArray< TYPE >", "class_util_1_1_trivial_array.html", null ]
     ] ],
-    [ "Util::Array< const MaterialTemplates::Entry * >", "class_util_1_1_array.html", [
-      [ "Util::PinnedArray< 0xFFFF, const MaterialTemplates::Entry * >", "class_util_1_1_pinned_array.html", null ]
+    [ "Util::Array< const MaterialTemplatesGPULang::Entry * >", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFFF, const MaterialTemplatesGPULang::Entry * >", "class_util_1_1_pinned_array.html", null ]
     ] ],
     [ "Util::Array< CoreGraphics::MeshId >", "class_util_1_1_array.html", [
       [ "Util::PinnedArray< 0xFFFF, CoreGraphics::MeshId >", "class_util_1_1_pinned_array.html", null ]
@@ -165,7 +165,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Math::transform44, AreaLightShape, ConstantBufferSet, ConstantBufferSet, Util::FixedArray< uint >, bool, Graphics::GraphicsEntityId, bool >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::vector, Math::vec3, Math::mat4, Math::mat4, Util::Array< Graphics::GraphicsEntityId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::mat4, Math::mat4 >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplates::Entry * >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplatesGPULang::Entry * >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, bool >", "class_ids_1_1_id_allocator.html", null ],
@@ -466,6 +466,7 @@ var hierarchy =
     [ "Nebula.Game.EntityTemplate", "class_nebula_1_1_game_1_1_entity_template.html", null ],
     [ "CoreGraphics::RayDispatchTable::Entry", "struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html", null ],
     [ "MaterialTemplates::Entry", "struct_material_templates_1_1_entry.html", null ],
+    [ "MaterialTemplatesGPULang::Entry", "struct_material_templates_g_p_u_lang_1_1_entry.html", null ],
     [ "Terrain::TileCacheEntry::Entry", "struct_terrain_1_1_tile_cache_entry_1_1_entry.html", null ],
     [ "Particles::EnvelopeCurve", "class_particles_1_1_envelope_curve.html", null ],
     [ "Particles::EnvelopeSampleBuffer", "class_particles_1_1_envelope_sample_buffer.html", null ],
@@ -577,6 +578,7 @@ var hierarchy =
     [ "ultralight::GPUDriver", null, [
       [ "StaticUI::UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html", null ]
     ] ],
+    [ "CoreGraphics::GPULangShaderCreateInfo", "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html", null ],
     [ "Dynui::Graph", "class_dynui_1_1_graph.html", null ],
     [ "Graphics::GraphicsContext", "class_graphics_1_1_graphics_context.html", [
       [ "Characters::CharacterContext", "class_characters_1_1_character_context.html", null ],
@@ -750,7 +752,9 @@ var hierarchy =
     [ "Models::ModelContext::MaterialInstanceContext", "struct_models_1_1_model_context_1_1_material_instance_context.html", null ],
     [ "Materials::MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
     [ "MaterialTemplates::MaterialTemplateTexture", "struct_material_templates_1_1_material_template_texture.html", null ],
+    [ "MaterialTemplatesGPULang::MaterialTemplateTexture", "struct_material_templates_g_p_u_lang_1_1_material_template_texture.html", null ],
     [ "MaterialTemplates::MaterialTemplateValue", "struct_material_templates_1_1_material_template_value.html", null ],
+    [ "MaterialTemplatesGPULang::MaterialTemplateValue", "struct_material_templates_g_p_u_lang_1_1_material_template_value.html", null ],
     [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", null ],
     [ "Materials::MaterialVariant", "struct_materials_1_1_material_variant.html", null ],
     [ "Mathf.MathHelper", "class_mathf_1_1_math_helper.html", null ],
@@ -862,6 +866,7 @@ var hierarchy =
     [ "MemDb::Table::Partition", "class_mem_db_1_1_table_1_1_partition.html", null ],
     [ "Pass", "class_core_graphics_1_1_pass.html", null ],
     [ "MaterialTemplates::Entry::Pass", "struct_material_templates_1_1_entry_1_1_pass.html", null ],
+    [ "MaterialTemplatesGPULang::Entry::Pass", "struct_material_templates_g_p_u_lang_1_1_entry_1_1_pass.html", null ],
     [ "CoreGraphics::PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", null ],
     [ "CoreGraphics::PassId", "struct_core_graphics_1_1_pass_id.html", null ],
     [ "Vulkan::GraphicsDeviceState::PendingDeletes", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html", null ],
@@ -1202,6 +1207,7 @@ var hierarchy =
       [ "Resources::ResourceLoader", "class_resources_1_1_resource_loader.html", [
         [ "Characters::SkeletonLoader", "class_characters_1_1_skeleton_loader.html", null ],
         [ "CoreAnimation::AnimationLoader", "class_core_animation_1_1_animation_loader.html", null ],
+        [ "CoreGraphics::GPULangShaderLoader", "class_core_graphics_1_1_g_p_u_lang_shader_loader.html", null ],
         [ "CoreGraphics::MeshLoader", "class_core_graphics_1_1_mesh_loader.html", null ],
         [ "CoreGraphics::ShaderLoader", "class_core_graphics_1_1_shader_loader.html", null ],
         [ "CoreGraphics::TextureLoader", "class_core_graphics_1_1_texture_loader.html", null ],

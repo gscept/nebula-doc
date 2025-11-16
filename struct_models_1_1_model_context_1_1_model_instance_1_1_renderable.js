@@ -6,7 +6,7 @@ var struct_models_1_1_model_context_1_1_model_instance_1_1_renderable =
     [ "nodeLodDistances", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a2ab388232d3f7f0c982de543599fd275", null ],
     [ "nodeLods", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#ad12f478c33b5de6f781b40679af10272", null ],
     [ "nodeMaterials", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a9f53d274f68754eb5224c2420e7de7f1", null ],
-    [ "nodeMaterialTemplates", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a906c8562730b50b23e00ce63e30191e6", null ],
+    [ "nodeMaterialTemplates", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a022c0ad2b379ec33755b2317b8fefba9", null ],
     [ "nodeMeshes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a426fe5dd07f53ca469f359d1858fe6e8", null ],
     [ "nodePrimitiveGroup", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#ada93af2db76debb392cc9a27d9c497c8", null ],
     [ "nodes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a68b591718415e256729e5a4d06c83d58", null ],

@@ -17,9 +17,9 @@ var namespace_fog =
     [ "fogBoxes", "namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa", null ],
     [ "fogSpheres", "namespace_fog.html#a7177334b2e4a4b62713e32be604955e7", null ],
     [ "fogState", "namespace_fog.html#ae372405daf8279573b35e55d55f4bf78", null ],
+    [ "r_show_fog_params", "namespace_fog.html#ab14e4ee303719cbfd816711508ee178e", null ],
     [ "renderProgram", "namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d", null ],
     [ "resourceTables", "namespace_fog.html#aea865870e59ab75b2039701111e65007", null ],
-    [ "showUI", "namespace_fog.html#a0817ac657ae13bd15e30a516112edfc2", null ],
     [ "stagingClusterFogLists", "namespace_fog.html#aa82e6e9c167c9eed80e23931af0e9c90", null ],
     [ "turbidity", "namespace_fog.html#a2ec118697792665cd7ead061d1e70969", null ]
 ];

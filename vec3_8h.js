@@ -51,13 +51,13 @@ var vec3_8h =
     [ "Math::splat_x", "namespace_math.html#a31804deda00c1fbee2d75c0cfad2708f", null ],
     [ "Math::splat_y", "namespace_math.html#a95a6357ced1f3b9bb20b394ecb885ddc", null ],
     [ "Math::splat_z", "namespace_math.html#a276a8f571c50339fccd8c8e860332aae", null ],
-    [ "Math::_id_w", "namespace_math.html#a8f994ad2e9b7301aeab7bc616112035e", null ],
-    [ "Math::_id_x", "namespace_math.html#a067dba3ae188346fbdb6d40a482f22f7", null ],
-    [ "Math::_id_y", "namespace_math.html#ae3a5400f57b852810b4395043f508911", null ],
-    [ "Math::_id_z", "namespace_math.html#a00909cb7568a115e737fe885e6891e5c", null ],
-    [ "Math::_mask_xyz", "namespace_math.html#ade79a3ee806f5706749458bb5b677c98", null ],
-    [ "Math::_minus1", "namespace_math.html#a9e69e19127b31c770b31f61aec8e723b", null ],
-    [ "Math::_plus1", "namespace_math.html#afc6d0bf4e6846efaeaa85ea625d29bed", null ],
-    [ "Math::_sign", "namespace_math.html#a2975c4082f732d7c9c67429dc05dc6dd", null ],
-    [ "Math::_zero", "namespace_math.html#a141fa411e364bb74745ef972ae265b2e", null ]
+    [ "Math::_id_w", "namespace_math.html#a0c520c7ad4668723878531ab2696d936", null ],
+    [ "Math::_id_x", "namespace_math.html#aed3e175afec1d301357fbed3ece56039", null ],
+    [ "Math::_id_y", "namespace_math.html#a6f5edf8208b4eb0beb54648e82439c6e", null ],
+    [ "Math::_id_z", "namespace_math.html#a8272c2d93d43fa18ad6cda5a775b9f23", null ],
+    [ "Math::_mask_xyz", "namespace_math.html#ac3d03eeb5d8d99cffa1304a96c8495c2", null ],
+    [ "Math::_minus1", "namespace_math.html#ad51e3b5bd638b8efd94d281388c061ce", null ],
+    [ "Math::_plus1", "namespace_math.html#a0385185c6e1abc4995ae1e2890e93028", null ],
+    [ "Math::_sign", "namespace_math.html#ab824176302ce331b0073df55e7367fbc", null ],
+    [ "Math::_zero", "namespace_math.html#a031f11f9b458906638587bc118279894", null ]
 ];

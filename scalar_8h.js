@@ -60,6 +60,7 @@ var scalar_8h =
     [ "Math::max", "namespace_math.html#a9c1295accbd7c2aaaeb8cee14c4053eb", null ],
     [ "Math::min", "namespace_math.html#a919d6c3f6ad40f7bd09d26a3910d4e6a", null ],
     [ "Math::min", "namespace_math.html#a3683c8dc0cde3ad531fa7de74623b940", null ],
+    [ "Math::min", "namespace_math.html#a8254c10a05745bacc6fb889ab5eb673b", null ],
     [ "Math::min", "namespace_math.html#acd30d7eece47c0590175c16139f52d96", null ],
     [ "Math::min", "namespace_math.html#af117fbd60f5cfaab6776a775d81de8ae", null ],
     [ "Math::modangle", "namespace_math.html#a785e41db821be551e879139c47b59d39", null ],
