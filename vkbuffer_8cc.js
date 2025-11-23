@@ -8,7 +8,7 @@ var vkbuffer_8cc =
     [ "CoreGraphics::BufferGetDeviceAddress", "namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c", null ],
     [ "CoreGraphics::BufferGetElementSize", "namespace_core_graphics.html#af10db65d1f1d8d279de4c53afb5345bd", null ],
     [ "CoreGraphics::BufferGetSize", "namespace_core_graphics.html#a1cd288811461d7a13815fb27b0b090f7", null ],
-    [ "CoreGraphics::BufferGetType", "namespace_core_graphics.html#aee8a0acbaa9cc2aca1083320303f81a2", null ],
+    [ "CoreGraphics::BufferGetType", "namespace_core_graphics.html#af3ed6b1b3a4ed822a56108c42281cdf7", null ],
     [ "CoreGraphics::BufferGetUploadMaxSize", "namespace_core_graphics.html#a6e645491c00cc78987cec6e82f5e53ff", null ],
     [ "Vulkan::BufferGetVk", "namespace_vulkan.html#a22999bd78f257b6cfb07792797b1d121", null ],
     [ "Vulkan::BufferGetVkDevice", "namespace_vulkan.html#a74b6e5ed55c82d94ed15ecc850984db6", null ],

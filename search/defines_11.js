@@ -7,5 +7,6 @@ var searchData=
   ['sqrt_5fln2_4',['SQRT_LN2',['../ssaocontext_8cc.html#ada03cc261d3709c384786bfcc370020c',1,'ssaocontext.cc']]],
   ['stackalloc_5',['StackAlloc',['../posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922',1,'posixmemory.h']]],
   ['stackfree_6',['StackFree',['../posixmemory_8h.html#a0643aaeaa5007252d8f0d4cbd6b4e2a6',1,'posixmemory.h']]],
-  ['stb_5ftruetype_5fimplementation_7',['STB_TRUETYPE_IMPLEMENTATION',['../vktextrenderer_8cc.html#afaa2f2d0d9d6726cfae6da070e736347',1,'vktextrenderer.cc']]]
+  ['stb_5fimage_5fimplementation_7',['STB_IMAGE_IMPLEMENTATION',['../glfwwindow_8cc.html#a18372412ad2fc3ce1e3240b3cf0efe78',1,'glfwwindow.cc']]],
+  ['stb_5ftruetype_5fimplementation_8',['STB_TRUETYPE_IMPLEMENTATION',['../vktextrenderer_8cc.html#afaa2f2d0d9d6726cfae6da070e736347',1,'vktextrenderer.cc']]]
 ];

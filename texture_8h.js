@@ -38,13 +38,13 @@ var texture_8h =
       [ "CoreGraphics::TextureCubeArray", "namespace_core_graphics.html#a1ee7114fb950f691d35fddcdf5c40ddcac323ea52d529efed20b55dcabc978d9c", null ]
     ] ],
     [ "CoreGraphics::TextureUsage", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1", [
-      [ "CoreGraphics::InvalidTextureUsage", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a1537b8e3c0dedf81f421d308313876fb", null ],
-      [ "CoreGraphics::SampleTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a13c40a39586e358e06a6bc15437b3300", null ],
-      [ "CoreGraphics::RenderTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417", null ],
-      [ "CoreGraphics::ReadWriteTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b", null ],
-      [ "CoreGraphics::TransferSourceTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1ae520c0daadae5e1cf4cb85e8ea3d5af3", null ],
-      [ "CoreGraphics::TransferDestinationTexture", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1ae530bcf1485fd77f72c8c09e4c0130c7", null ],
-      [ "CoreGraphics::DeviceExclusive", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666", null ]
+      [ "CoreGraphics::TextureUsage::InvalidTextureUsage", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1af1a3bcb8c1756118d5b48ece1b01799b", null ],
+      [ "CoreGraphics::TextureUsage::Sample", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1ac5dd1b2697720fe692c529688d3f4f8d", null ],
+      [ "CoreGraphics::TextureUsage::Render", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a5e520da5341f2fec6d3bbfe7ef357922", null ],
+      [ "CoreGraphics::TextureUsage::ReadWrite", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a70a2a84088d405a2e3f1e3accaa16723", null ],
+      [ "CoreGraphics::TextureUsage::TransferSource", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a8c4df84c9e73cf86122034f85efac361", null ],
+      [ "CoreGraphics::TextureUsage::TransferDestination", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a9cecc9065ff3b79e09391fcbfb7b9ce9", null ],
+      [ "CoreGraphics::TextureUsage::DeviceExclusive", "namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a291605e5d732017f97187213156c1c89", null ]
     ] ],
     [ "CoreGraphics::__ImplementEnumBitOperators", "namespace_core_graphics.html#af0ea79a9d9ca8359605cd7a6b75756b8", null ],
     [ "CoreGraphics::_DECL_ACQUIRE_RELEASE", "namespace_core_graphics.html#aeefb6ced01944c2f39442433cbe6876c", null ],

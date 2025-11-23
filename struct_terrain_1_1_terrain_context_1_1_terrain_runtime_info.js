@@ -4,9 +4,11 @@ var struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info =
       [ "HeightMapLoaded", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ffa55aa6ecc67c8e08921b1ecc704773d46", null ],
       [ "DecisionMapLoaded", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ad95b45467ec86ffc66d5c257800a71ffa290147669a90b5a9e974475bd638fc8a", null ]
     ] ],
-    [ "decisionMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a235a336acea2430ac7cb65be2f9938a9", null ],
+    [ "decisionMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a31e10eaf50a7fd212906ca02359b992c", null ],
+    [ "decisionMapResource", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a7b36142351838539262424f352475940", null ],
     [ "enableRayTracing", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a350776c00344039d2a22fdbaeac98f45", null ],
-    [ "heightMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a17c2883186286d1dd6314c190bcf0a52", null ],
+    [ "heightMap", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a9cca058e94bcf49069d126a393598c2e", null ],
+    [ "heightMapResource", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#ac582217a08996932b138376ca5dfc969", null ],
     [ "ibo", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a3e00a5966f24b9b4d9c894719fa5d4fb", null ],
     [ "loadBits", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#a0953f805d6dae93ffa690958351b13aa", null ],
     [ "lowresGenerated", "struct_terrain_1_1_terrain_context_1_1_terrain_runtime_info.html#adbe2880f2fd88ea184750d2d613122ca", null ],

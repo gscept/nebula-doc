@@ -949,7 +949,7 @@ var searchData=
   ['gpulangshaderloader_946',['GPULangShaderLoader',['../class_core_graphics_1_1_g_p_u_lang_shader_loader.html',1,'CoreGraphics::GPULangShaderLoader'],['../class_core_graphics_1_1_g_p_u_lang_shader_loader.html#aa099e7b50c2d3833cb99fa0669995d7d',1,'CoreGraphics::GPULangShaderLoader::GPULangShaderLoader()']]],
   ['gpulangshaderloader_2ecc_947',['gpulangshaderloader.cc',['../gpulangshaderloader_8cc.html',1,'']]],
   ['gpulangshaderloader_2eh_948',['gpulangshaderloader.h',['../gpulangshaderloader_8h.html',1,'']]],
-  ['gpusubtextures_949',['gpuSubTextures',['../namespace_terrain.html#acef5b93fd4a20198ca8dba62b9b09266',1,'Terrain']]],
+  ['gpusubtextures_949',['gpuSubTextures',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a5d62d280658684f935f66493c554127f',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
   ['grad_950',['grad',['../class_math_1_1noise.html#a44aff0f5bcd2c699e5de36d990b4b8a6',1,'Math::noise']]],
   ['graph_951',['Graph',['../class_dynui_1_1_graph.html',1,'Dynui::Graph'],['../class_dynui_1_1_graph.html#ace1bd21928ca87ae0eef0c408afb505e',1,'Dynui::Graph::Graph()']]],
   ['graphics_952',['Graphics',['../namespace_graphics.html',1,'Graphics'],['../namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a13a9172112a256bd4a2fe9c304666fb0',1,'Materials::Graphics'],['../namespace_visibility.html#ac768cf015c50fa52ea8ff874abeb8880a7e75a4af24ccecfb91be719add60052a',1,'Visibility::Graphics'],['../_graphics.html',1,'Graphics']]],

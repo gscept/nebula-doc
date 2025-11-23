@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"class_posix_1_1_posix_console_handler.html#a2a160d6e8540a88b4151be80bb6eae74":[9,0,58,1,0],
-"class_posix_1_1_posix_console_handler.html#a35c0da834eded4199b6c8fc2bbdd6a10":[8,0,66,1,1],
 "class_posix_1_1_posix_console_handler.html#a35c0da834eded4199b6c8fc2bbdd6a10":[9,0,58,1,1],
 "class_posix_1_1_posix_console_handler.html#a3db345c6cf3f42b466eeee9713693220":[8,0,66,1,3],
 "class_posix_1_1_posix_console_handler.html#a3db345c6cf3f42b466eeee9713693220":[9,0,58,1,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX66 =
 "class_posix_1_1_posix_ip_address.html#a068bbd7f7840dffb2b5eff42c3d0407c":[9,0,58,10,10],
 "class_posix_1_1_posix_ip_address.html#a143bbfdc4872beef0ec2c3408f0381f1":[8,0,66,10,0],
 "class_posix_1_1_posix_ip_address.html#a143bbfdc4872beef0ec2c3408f0381f1":[9,0,58,10,0],
-"class_posix_1_1_posix_ip_address.html#a1c0e20283f19942e004297c7dad6ff92":[8,0,66,10,15]
+"class_posix_1_1_posix_ip_address.html#a1c0e20283f19942e004297c7dad6ff92":[8,0,66,10,15],
+"class_posix_1_1_posix_ip_address.html#a1c0e20283f19942e004297c7dad6ff92":[9,0,58,10,15],
+"class_posix_1_1_posix_ip_address.html#a3e7b6911e8833a987a099b6115a65644":[8,0,66,10,17]
 };

@@ -174,6 +174,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_core_graphics_1_1_anti_alias_quality.html">AntiAliasQuality</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anti-alias quality levels.  <a href="class_core_graphics_1_1_anti_alias_quality.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_barrier_context.html">BarrierContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_barrier_create_info.html">BarrierCreateInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_core_graphics_1_1_barrier_id.html">BarrierId</a></td></tr>
@@ -505,8 +507,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a69a2149611f82168dbee3ce5db03cbe5" id="r_a69a2149611f82168dbee3ce5db03cbe5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a2149611f82168dbee3ce5db03cbe5">BufferUsageFlags</a></td></tr>
-<tr class="separator:a69a2149611f82168dbee3ce5db03cbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaecf95f10896b6f1cd4274f1d909e918" id="r_aaecf95f10896b6f1cd4274f1d909e918"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaecf95f10896b6f1cd4274f1d909e918">BufferQueueSupportFlags</a></td></tr>
 <tr class="separator:aaecf95f10896b6f1cd4274f1d909e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1677e6a7eb61ba86c79b1cfe128894ba" id="r_a1677e6a7eb61ba86c79b1cfe128894ba"><td class="memItemLeft" align="right" valign="top">typedef uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1677e6a7eb61ba86c79b1cfe128894ba">ConstantBufferOffset</a></td></tr>
@@ -548,29 +548,29 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a3079209b5f67cbf12c32c1dcaa1e6077a752593519100585f5c285a3c9e226611">DeviceAndHost</a>
  }</td></tr>
 <tr class="separator:a3079209b5f67cbf12c32c1dcaa1e6077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee332c41e7404fe6e42769ca6d1712b" id="r_a9ee332c41e7404fe6e42769ca6d1712b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712b">BufferUsageFlag</a> { <br />
-&#160;&#160;<a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba4c2148d5c316fa1d08ead25575033e32">InvalidBufferUsage</a> = 0x0
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba30428a5523c0108d894c10ebd8c163ae">TransferBufferSource</a> = 0x1
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712bacd37d3f821efac33c44047818fd9adc0">TransferBufferDestination</a> = 0x2
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712bacccea0a4a93c3b8f5cd1c3fce7543a11">ConstantBuffer</a> = 0x4
+<tr class="memitem:a29247b4d5605a3e18444b15c701489ed" id="r_a29247b4d5605a3e18444b15c701489ed"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29247b4d5605a3e18444b15c701489ed">BufferUsage</a> { <br />
+&#160;&#160;<a class="el" href="#a29247b4d5605a3e18444b15c701489eda97f06d46adba97a89da53e4598bf4af0">InvalidBufferUsage</a> = 0x0
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda8c4df84c9e73cf86122034f85efac361">TransferSource</a> = 0x1
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda9cecc9065ff3b79e09391fcbfb7b9ce9">TransferDestination</a> = 0x2
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489edaf09d0dd3c08eeabc5b432609f31d0a8c">ConstantBuffer</a> = 0x4
 , <br />
-&#160;&#160;<a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba21668041bfee6037966f5645aeea120d">ConstantTexelBuffer</a> = 0x8
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712bae2a31811082ddd86e7e7416a1f42178a">ReadWriteBuffer</a> = 0x10
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712bae020e32f4ed376820eb2ae399854b6b1">ReadWriteTexelBuffer</a> = 0x20
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712baa4b755a98be7b500c793ba81f321bb98">VertexBuffer</a> = 0x40
+&#160;&#160;<a class="el" href="#a29247b4d5605a3e18444b15c701489edad6a6dae82ba28b795050a61d1d2bd521">ConstantTexelBuffer</a> = 0x8
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda70a2a84088d405a2e3f1e3accaa16723">ReadWrite</a> = 0x10
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda3903028181445e84060e1441ef426d1f">ReadWriteTexelBuffer</a> = 0x20
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489edab22b929ba52471a02d18bb3a4e4472e6">Vertex</a> = 0x40
 , <br />
-&#160;&#160;<a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba5e45ae185b91dc2d87d514222c33a5a3">IndexBuffer</a> = 0x80
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba66fb5ef5f52f7362d6cf73f720a2bb99">IndirectBuffer</a> = 0x100
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712baf0e8b837b72517479bf933c19d1345bd">ShaderAddress</a> = 0x200
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712baa5818aa1c4c71e0ec9fe30da49dfce36">AccelerationStructureData</a> = 0x400
+&#160;&#160;<a class="el" href="#a29247b4d5605a3e18444b15c701489eda88fa71f0a6e0dfedbb46d91cc0b37a50">Index</a> = 0x80
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda2737349e4921b08b4b5a97a2cf46d5df">IndirectDraw</a> = 0x100
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda1f0dd9dff9083df257398de1f9aa2e83">ShaderAddress</a> = 0x200
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda95b1ba01f103b383b2f8765deb44b7b4">AccelerationStructureData</a> = 0x400
 , <br />
-&#160;&#160;<a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba0cc2a9ea85744146021633dd36af9d8f">AccelerationStructureScratch</a> = 0x800
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba3c6a1a4d52a8811ed7fbca58c2a13a51">AccelerationStructureInput</a> = 0x1000
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712baeb905e872e1d1122a24e4f838b1306e0">AccelerationStructureInstances</a> = 0x2000
-, <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712ba69301b0ec771c7483f4822e78496bb07">ShaderTable</a> = 0x4000
+&#160;&#160;<a class="el" href="#a29247b4d5605a3e18444b15c701489eda21fe779344a84f4d256b050c8e55270a">AccelerationStructureScratch</a> = 0x800
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda407f6f57d55c94994442a238690212d8">AccelerationStructureInput</a> = 0x1000
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda9c5cf4fa50aa6d1a93f9e3181bd95d30">AccelerationStructureInstances</a> = 0x2000
+, <a class="el" href="#a29247b4d5605a3e18444b15c701489eda6c53b7532daa7fcffc584a75937450a7">ShaderTable</a> = 0x4000
 <br />
  }</td></tr>
-<tr class="separator:a9ee332c41e7404fe6e42769ca6d1712b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a29247b4d5605a3e18444b15c701489ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad24b93f2e36b36169fd9b20c3f54b72" id="r_aad24b93f2e36b36169fd9b20c3f54b72"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad24b93f2e36b36169fd9b20c3f54b72">BufferQueueSupport</a> { <a class="el" href="#aad24b93f2e36b36169fd9b20c3f54b72a65eb8ea6b0462e34dfef9fc4c8d1b10e">AutomaticQueueSupport</a> = 0x0
 , <a class="el" href="#aad24b93f2e36b36169fd9b20c3f54b72ae94066452f87087f5b186c87d3024f90">GraphicsQueueSupport</a> = 0x1
 , <a class="el" href="#aad24b93f2e36b36169fd9b20c3f54b72a0337a6a91045da552f138ca1b2ca3ce0">ComputeQueueSupport</a> = 0x2
@@ -902,15 +902,15 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a6b2308ed69f339e21d38bba252611f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">cube map face  <a href="#a6b2308ed69f339e21d38bba252611f1d">More...</a><br /></td></tr>
 <tr class="separator:a6b2308ed69f339e21d38bba252611f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f17fdc4f0fe0d1e874946cf6c153f1" id="r_a65f17fdc4f0fe0d1e874946cf6c153f1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1">TextureUsage</a> { <br />
-&#160;&#160;<a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a1537b8e3c0dedf81f421d308313876fb">InvalidTextureUsage</a> = 0x0
-, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a13c40a39586e358e06a6bc15437b3300">SampleTexture</a> = 0x1
-, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417">RenderTexture</a> = 0x2
-, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b">ReadWriteTexture</a> = 0x4
+<tr class="memitem:a65f17fdc4f0fe0d1e874946cf6c153f1" id="r_a65f17fdc4f0fe0d1e874946cf6c153f1"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1">TextureUsage</a> { <br />
+&#160;&#160;<a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1af1a3bcb8c1756118d5b48ece1b01799b">InvalidTextureUsage</a> = 0x0
+, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1ac5dd1b2697720fe692c529688d3f4f8d">Sample</a> = 0x1
+, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a5e520da5341f2fec6d3bbfe7ef357922">Render</a> = 0x2
+, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a70a2a84088d405a2e3f1e3accaa16723">ReadWrite</a> = 0x4
 , <br />
-&#160;&#160;<a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1ae520c0daadae5e1cf4cb85e8ea3d5af3">TransferSourceTexture</a> = 0x8
-, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1ae530bcf1485fd77f72c8c09e4c0130c7">TransferDestinationTexture</a> = 0x10
-, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666">DeviceExclusive</a> = 0x20
+&#160;&#160;<a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a8c4df84c9e73cf86122034f85efac361">TransferSource</a> = 0x8
+, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a9cecc9065ff3b79e09391fcbfb7b9ce9">TransferDestination</a> = 0x10
+, <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1a291605e5d732017f97187213156c1c89">DeviceExclusive</a> = 0x20
 <br />
  }</td></tr>
 <tr class="memdesc:a65f17fdc4f0fe0d1e874946cf6c153f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of texture usage  <a href="#a65f17fdc4f0fe0d1e874946cf6c153f1">More...</a><br /></td></tr>
@@ -1021,15 +1021,17 @@ Functions</h2></td></tr>
 <tr class="separator:a82f27ffc999589324aa184ce535eb33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67050084402d3e7884ce0ff03921bad1" id="r_a67050084402d3e7884ce0ff03921bad1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67050084402d3e7884ce0ff03921bad1">_DECL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>)</td></tr>
 <tr class="separator:a67050084402d3e7884ce0ff03921bad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4578954a534e560c9c8cb766d8e621" id="r_a2d4578954a534e560c9c8cb766d8e621"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d4578954a534e560c9c8cb766d8e621">__ImplementEnumBitOperators</a> (<a class="el" href="#a29247b4d5605a3e18444b15c701489ed">CoreGraphics::BufferUsage</a>)</td></tr>
+<tr class="separator:a2d4578954a534e560c9c8cb766d8e621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db4487de9d70ebbdb1ed39e752b5309" id="r_a4db4487de9d70ebbdb1ed39e752b5309"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4db4487de9d70ebbdb1ed39e752b5309">CreateBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_create_info.html">BufferCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a4db4487de9d70ebbdb1ed39e752b5309"><td class="mdescLeft">&#160;</td><td class="mdescRight">create buffer  <br /></td></tr>
 <tr class="separator:a4db4487de9d70ebbdb1ed39e752b5309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6e728397762cdbbf468f5f474207357" id="r_ac6e728397762cdbbf468f5f474207357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e728397762cdbbf468f5f474207357">DestroyBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ac6e728397762cdbbf468f5f474207357"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy buffer  <br /></td></tr>
 <tr class="separator:ac6e728397762cdbbf468f5f474207357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee8a0acbaa9cc2aca1083320303f81a2" id="r_aee8a0acbaa9cc2aca1083320303f81a2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a69a2149611f82168dbee3ce5db03cbe5">BufferUsageFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee8a0acbaa9cc2aca1083320303f81a2">BufferGetType</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:aee8a0acbaa9cc2aca1083320303f81a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of buffer  <br /></td></tr>
-<tr class="separator:aee8a0acbaa9cc2aca1083320303f81a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ed6b1b3a4ed822a56108c42281cdf7" id="r_af3ed6b1b3a4ed822a56108c42281cdf7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a29247b4d5605a3e18444b15c701489ed">BufferUsage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3ed6b1b3a4ed822a56108c42281cdf7">BufferGetType</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:af3ed6b1b3a4ed822a56108c42281cdf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get type of buffer  <br /></td></tr>
+<tr class="separator:af3ed6b1b3a4ed822a56108c42281cdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cd288811461d7a13815fb27b0b090f7" id="r_a1cd288811461d7a13815fb27b0b090f7"><td class="memItemLeft" align="right" valign="top">const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd288811461d7a13815fb27b0b090f7">BufferGetSize</a> (const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a1cd288811461d7a13815fb27b0b090f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get buffer size, which is the number of elements  <br /></td></tr>
 <tr class="separator:a1cd288811461d7a13815fb27b0b090f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1393,6 +1395,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa878d56d4c7c6d41ae09ddc3c597c1b8" id="r_aa878d56d4c7c6d41ae09ddc3c597c1b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa878d56d4c7c6d41ae09ddc3c597c1b8">WindowSetTitle</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;title)</td></tr>
 <tr class="memdesc:aa878d56d4c7c6d41ae09ddc3c597c1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set title for window  <br /></td></tr>
 <tr class="separator:aa878d56d4c7c6d41ae09ddc3c597c1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ac968ab890284867c48593b25c009d" id="r_a11ac968ab890284867c48593b25c009d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ac968ab890284867c48593b25c009d">WindowSetIcon</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;icon)</td></tr>
+<tr class="memdesc:a11ac968ab890284867c48593b25c009d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> window icon.  <br /></td></tr>
+<tr class="separator:a11ac968ab890284867c48593b25c009d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb674964e13f878674f4e90683e78479" id="r_aeb674964e13f878674f4e90683e78479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb674964e13f878674f4e90683e78479">WindowApplyFullscreen</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, <a class="el" href="class_core_graphics_1_1_adapter.html#a3f6dbe4ae484d3bcb64e5db878a1111d">Adapter::Code</a> monitor, bool b)</td></tr>
 <tr class="memdesc:aeb674964e13f878674f4e90683e78479"><td class="mdescLeft">&#160;</td><td class="mdescRight">toggle fullscreen  <br /></td></tr>
 <tr class="separator:aeb674964e13f878674f4e90683e78479"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2207,7 +2212,7 @@ Functions</h2></td></tr>
 <tr class="separator:a366b2bcc61c6357c357317c01fb3101b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a003988bbf801bb4c0ced12c640f67fef" id="r_a003988bbf801bb4c0ced12c640f67fef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a003988bbf801bb4c0ced12c640f67fef">N_DECLARE_COUNTER</a> (N_CONSTANT_MEMORY, Graphics Constant Memory)</td></tr>
 <tr class="separator:a003988bbf801bb4c0ced12c640f67fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b6bb584018694464b890d8977a7077c" id="r_a3b6bb584018694464b890d8977a7077c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6bb584018694464b890d8977a7077c">N_DECLARE_COUNTER</a> (N_VERTEX_MEMORY, <a class="el" href="#aed8b029205bc57b3c286ddc8021a5147ab22b929ba52471a02d18bb3a4e4472e6">Vertex</a> Memory)</td></tr>
+<tr class="memitem:a3b6bb584018694464b890d8977a7077c" id="r_a3b6bb584018694464b890d8977a7077c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6bb584018694464b890d8977a7077c">N_DECLARE_COUNTER</a> (N_VERTEX_MEMORY, <a class="el" href="#a29247b4d5605a3e18444b15c701489edab22b929ba52471a02d18bb3a4e4472e6">Vertex</a> Memory)</td></tr>
 <tr class="separator:a3b6bb584018694464b890d8977a7077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f34d6bc40a4dca8ac7ac68fb7ed87b" id="r_a92f34d6bc40a4dca8ac7ac68fb7ed87b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f34d6bc40a4dca8ac7ac68fb7ed87b">N_DECLARE_COUNTER</a> (N_INDEX_MEMORY, <a class="el" href="namespace_ids.html#a6709ae98a294176cf1e6cea57c873c3e">Index</a> Memory)</td></tr>
 <tr class="separator:a92f34d6bc40a4dca8ac7ac68fb7ed87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2424,20 +2429,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#aaecf95f10896b6f1cd4274f1d909e918">CoreGraphics::BufferQueueSupportFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69a2149611f82168dbee3ce5db03cbe5" name="a69a2149611f82168dbee3ce5db03cbe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a2149611f82168dbee3ce5db03cbe5">&#9670;&#160;</a></span>BufferUsageFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a69a2149611f82168dbee3ce5db03cbe5">CoreGraphics::BufferUsageFlags</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2723,34 +2714,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ee332c41e7404fe6e42769ca6d1712b" name="a9ee332c41e7404fe6e42769ca6d1712b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ee332c41e7404fe6e42769ca6d1712b">&#9670;&#160;</a></span>BufferUsageFlag</h2>
+<a id="a29247b4d5605a3e18444b15c701489ed" name="a29247b4d5605a3e18444b15c701489ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29247b4d5605a3e18444b15c701489ed">&#9670;&#160;</a></span>BufferUsage</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#a9ee332c41e7404fe6e42769ca6d1712b">CoreGraphics::BufferUsageFlag</a></td>
+          <td class="memname">enum class <a class="el" href="#a29247b4d5605a3e18444b15c701489ed">CoreGraphics::BufferUsage</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba4c2148d5c316fa1d08ead25575033e32" name="a9ee332c41e7404fe6e42769ca6d1712ba4c2148d5c316fa1d08ead25575033e32"></a>InvalidBufferUsage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba30428a5523c0108d894c10ebd8c163ae" name="a9ee332c41e7404fe6e42769ca6d1712ba30428a5523c0108d894c10ebd8c163ae"></a>TransferBufferSource&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712bacd37d3f821efac33c44047818fd9adc0" name="a9ee332c41e7404fe6e42769ca6d1712bacd37d3f821efac33c44047818fd9adc0"></a>TransferBufferDestination&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712bacccea0a4a93c3b8f5cd1c3fce7543a11" name="a9ee332c41e7404fe6e42769ca6d1712bacccea0a4a93c3b8f5cd1c3fce7543a11"></a>ConstantBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba21668041bfee6037966f5645aeea120d" name="a9ee332c41e7404fe6e42769ca6d1712ba21668041bfee6037966f5645aeea120d"></a>ConstantTexelBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712bae2a31811082ddd86e7e7416a1f42178a" name="a9ee332c41e7404fe6e42769ca6d1712bae2a31811082ddd86e7e7416a1f42178a"></a>ReadWriteBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712bae020e32f4ed376820eb2ae399854b6b1" name="a9ee332c41e7404fe6e42769ca6d1712bae020e32f4ed376820eb2ae399854b6b1"></a>ReadWriteTexelBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712baa4b755a98be7b500c793ba81f321bb98" name="a9ee332c41e7404fe6e42769ca6d1712baa4b755a98be7b500c793ba81f321bb98"></a>VertexBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba5e45ae185b91dc2d87d514222c33a5a3" name="a9ee332c41e7404fe6e42769ca6d1712ba5e45ae185b91dc2d87d514222c33a5a3"></a>IndexBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba66fb5ef5f52f7362d6cf73f720a2bb99" name="a9ee332c41e7404fe6e42769ca6d1712ba66fb5ef5f52f7362d6cf73f720a2bb99"></a>IndirectBuffer&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712baf0e8b837b72517479bf933c19d1345bd" name="a9ee332c41e7404fe6e42769ca6d1712baf0e8b837b72517479bf933c19d1345bd"></a>ShaderAddress&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712baa5818aa1c4c71e0ec9fe30da49dfce36" name="a9ee332c41e7404fe6e42769ca6d1712baa5818aa1c4c71e0ec9fe30da49dfce36"></a>AccelerationStructureData&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba0cc2a9ea85744146021633dd36af9d8f" name="a9ee332c41e7404fe6e42769ca6d1712ba0cc2a9ea85744146021633dd36af9d8f"></a>AccelerationStructureScratch&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba3c6a1a4d52a8811ed7fbca58c2a13a51" name="a9ee332c41e7404fe6e42769ca6d1712ba3c6a1a4d52a8811ed7fbca58c2a13a51"></a>AccelerationStructureInput&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712baeb905e872e1d1122a24e4f838b1306e0" name="a9ee332c41e7404fe6e42769ca6d1712baeb905e872e1d1122a24e4f838b1306e0"></a>AccelerationStructureInstances&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ee332c41e7404fe6e42769ca6d1712ba69301b0ec771c7483f4822e78496bb07" name="a9ee332c41e7404fe6e42769ca6d1712ba69301b0ec771c7483f4822e78496bb07"></a>ShaderTable&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda97f06d46adba97a89da53e4598bf4af0" name="a29247b4d5605a3e18444b15c701489eda97f06d46adba97a89da53e4598bf4af0"></a>InvalidBufferUsage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda8c4df84c9e73cf86122034f85efac361" name="a29247b4d5605a3e18444b15c701489eda8c4df84c9e73cf86122034f85efac361"></a>TransferSource&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda9cecc9065ff3b79e09391fcbfb7b9ce9" name="a29247b4d5605a3e18444b15c701489eda9cecc9065ff3b79e09391fcbfb7b9ce9"></a>TransferDestination&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489edaf09d0dd3c08eeabc5b432609f31d0a8c" name="a29247b4d5605a3e18444b15c701489edaf09d0dd3c08eeabc5b432609f31d0a8c"></a>ConstantBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489edad6a6dae82ba28b795050a61d1d2bd521" name="a29247b4d5605a3e18444b15c701489edad6a6dae82ba28b795050a61d1d2bd521"></a>ConstantTexelBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda70a2a84088d405a2e3f1e3accaa16723" name="a29247b4d5605a3e18444b15c701489eda70a2a84088d405a2e3f1e3accaa16723"></a>ReadWrite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda3903028181445e84060e1441ef426d1f" name="a29247b4d5605a3e18444b15c701489eda3903028181445e84060e1441ef426d1f"></a>ReadWriteTexelBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489edab22b929ba52471a02d18bb3a4e4472e6" name="a29247b4d5605a3e18444b15c701489edab22b929ba52471a02d18bb3a4e4472e6"></a>Vertex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda88fa71f0a6e0dfedbb46d91cc0b37a50" name="a29247b4d5605a3e18444b15c701489eda88fa71f0a6e0dfedbb46d91cc0b37a50"></a>Index&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda2737349e4921b08b4b5a97a2cf46d5df" name="a29247b4d5605a3e18444b15c701489eda2737349e4921b08b4b5a97a2cf46d5df"></a>IndirectDraw&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda1f0dd9dff9083df257398de1f9aa2e83" name="a29247b4d5605a3e18444b15c701489eda1f0dd9dff9083df257398de1f9aa2e83"></a>ShaderAddress&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda95b1ba01f103b383b2f8765deb44b7b4" name="a29247b4d5605a3e18444b15c701489eda95b1ba01f103b383b2f8765deb44b7b4"></a>AccelerationStructureData&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda21fe779344a84f4d256b050c8e55270a" name="a29247b4d5605a3e18444b15c701489eda21fe779344a84f4d256b050c8e55270a"></a>AccelerationStructureScratch&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda407f6f57d55c94994442a238690212d8" name="a29247b4d5605a3e18444b15c701489eda407f6f57d55c94994442a238690212d8"></a>AccelerationStructureInput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda9c5cf4fa50aa6d1a93f9e3181bd95d30" name="a29247b4d5605a3e18444b15c701489eda9c5cf4fa50aa6d1a93f9e3181bd95d30"></a>AccelerationStructureInstances&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29247b4d5605a3e18444b15c701489eda6c53b7532daa7fcffc584a75937450a7" name="a29247b4d5605a3e18444b15c701489eda6c53b7532daa7fcffc584a75937450a7"></a>ShaderTable&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -3369,22 +3368,30 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1">CoreGraphics::TextureUsage</a></td>
+          <td class="memname">enum class <a class="el" href="#a65f17fdc4f0fe0d1e874946cf6c153f1">CoreGraphics::TextureUsage</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>type of texture usage </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a1537b8e3c0dedf81f421d308313876fb" name="a65f17fdc4f0fe0d1e874946cf6c153f1a1537b8e3c0dedf81f421d308313876fb"></a>InvalidTextureUsage&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a13c40a39586e358e06a6bc15437b3300" name="a65f17fdc4f0fe0d1e874946cf6c153f1a13c40a39586e358e06a6bc15437b3300"></a>SampleTexture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417" name="a65f17fdc4f0fe0d1e874946cf6c153f1a272c5e314e79d96033962fdb1d1bf417"></a>RenderTexture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b" name="a65f17fdc4f0fe0d1e874946cf6c153f1a35cd0b4b4068b022331d0e194a9bdd8b"></a>ReadWriteTexture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1ae520c0daadae5e1cf4cb85e8ea3d5af3" name="a65f17fdc4f0fe0d1e874946cf6c153f1ae520c0daadae5e1cf4cb85e8ea3d5af3"></a>TransferSourceTexture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1ae530bcf1485fd77f72c8c09e4c0130c7" name="a65f17fdc4f0fe0d1e874946cf6c153f1ae530bcf1485fd77f72c8c09e4c0130c7"></a>TransferDestinationTexture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666" name="a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666"></a>DeviceExclusive&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1af1a3bcb8c1756118d5b48ece1b01799b" name="a65f17fdc4f0fe0d1e874946cf6c153f1af1a3bcb8c1756118d5b48ece1b01799b"></a>InvalidTextureUsage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1ac5dd1b2697720fe692c529688d3f4f8d" name="a65f17fdc4f0fe0d1e874946cf6c153f1ac5dd1b2697720fe692c529688d3f4f8d"></a>Sample&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a5e520da5341f2fec6d3bbfe7ef357922" name="a65f17fdc4f0fe0d1e874946cf6c153f1a5e520da5341f2fec6d3bbfe7ef357922"></a>Render&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a70a2a84088d405a2e3f1e3accaa16723" name="a65f17fdc4f0fe0d1e874946cf6c153f1a70a2a84088d405a2e3f1e3accaa16723"></a>ReadWrite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a8c4df84c9e73cf86122034f85efac361" name="a65f17fdc4f0fe0d1e874946cf6c153f1a8c4df84c9e73cf86122034f85efac361"></a>TransferSource&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a9cecc9065ff3b79e09391fcbfb7b9ce9" name="a65f17fdc4f0fe0d1e874946cf6c153f1a9cecc9065ff3b79e09391fcbfb7b9ce9"></a>TransferDestination&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65f17fdc4f0fe0d1e874946cf6c153f1a291605e5d732017f97187213156c1c89" name="a65f17fdc4f0fe0d1e874946cf6c153f1a291605e5d732017f97187213156c1c89"></a>DeviceExclusive&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -3656,7 +3663,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a74c5a2c923a453d3f4e2ef454e06356d" name="a74c5a2c923a453d3f4e2ef454e06356d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74c5a2c923a453d3f4e2ef454e06356d">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c5a2c923a453d3f4e2ef454e06356d">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3673,7 +3680,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad812444e793e7d6801637308e7528406" name="ad812444e793e7d6801637308e7528406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad812444e793e7d6801637308e7528406">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad812444e793e7d6801637308e7528406">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3690,7 +3697,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2003ec6c592c3ae6738c6a57d98057dc" name="a2003ec6c592c3ae6738c6a57d98057dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2003ec6c592c3ae6738c6a57d98057dc">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2003ec6c592c3ae6738c6a57d98057dc">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3707,7 +3714,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab34a07aa75620b6e647fac66e185868b" name="ab34a07aa75620b6e647fac66e185868b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab34a07aa75620b6e647fac66e185868b">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34a07aa75620b6e647fac66e185868b">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3724,7 +3731,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5023fe13f086dfbe4e8eb5edd14d7269" name="a5023fe13f086dfbe4e8eb5edd14d7269"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5023fe13f086dfbe4e8eb5edd14d7269">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5023fe13f086dfbe4e8eb5edd14d7269">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3740,8 +3747,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2d4578954a534e560c9c8cb766d8e621" name="a2d4578954a534e560c9c8cb766d8e621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4578954a534e560c9c8cb766d8e621">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[6/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::__ImplementEnumBitOperators </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a29247b4d5605a3e18444b15c701489ed">CoreGraphics::BufferUsage</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afd3cdd804894952885c00a1c737543d9" name="afd3cdd804894952885c00a1c737543d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd3cdd804894952885c00a1c737543d9">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3cdd804894952885c00a1c737543d9">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3758,7 +3782,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a65db791f4647f05bf849c69a88daec58" name="a65db791f4647f05bf849c69a88daec58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65db791f4647f05bf849c69a88daec58">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65db791f4647f05bf849c69a88daec58">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3775,7 +3799,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af0ea79a9d9ca8359605cd7a6b75756b8" name="af0ea79a9d9ca8359605cd7a6b75756b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0ea79a9d9ca8359605cd7a6b75756b8">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ea79a9d9ca8359605cd7a6b75756b8">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3792,7 +3816,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0d0132a778d8ffc51f3f5f61014188c7" name="a0d0132a778d8ffc51f3f5f61014188c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d0132a778d8ffc51f3f5f61014188c7">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0132a778d8ffc51f3f5f61014188c7">&#9670;&#160;</a></span>__ImplementEnumBitOperators() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4849,14 +4873,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aee8a0acbaa9cc2aca1083320303f81a2" name="aee8a0acbaa9cc2aca1083320303f81a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee8a0acbaa9cc2aca1083320303f81a2">&#9670;&#160;</a></span>BufferGetType()</h2>
+<a id="af3ed6b1b3a4ed822a56108c42281cdf7" name="af3ed6b1b3a4ed822a56108c42281cdf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ed6b1b3a4ed822a56108c42281cdf7">&#9670;&#160;</a></span>BufferGetType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="#a69a2149611f82168dbee3ce5db03cbe5">BufferUsageFlags</a> CoreGraphics::BufferGetType </td>
+          <td class="memname">const <a class="el" href="#a29247b4d5605a3e18444b15c701489ed">BufferUsage</a> CoreGraphics::BufferGetType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
@@ -10284,7 +10308,7 @@ template&lt;class TYPE&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aed8b029205bc57b3c286ddc8021a5147ab22b929ba52471a02d18bb3a4e4472e6">Vertex</a></td>          <td class="paramname"><span class="paramname"><em>Memory</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a29247b4d5605a3e18444b15c701489edab22b929ba52471a02d18bb3a4e4472e6">Vertex</a></td>          <td class="paramname"><span class="paramname"><em>Memory</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -14535,6 +14559,29 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a11ac968ab890284867c48593b25c009d" name="a11ac968ab890284867c48593b25c009d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ac968ab890284867c48593b25c009d">&#9670;&#160;</a></span>WindowSetIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::WindowSetIcon </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>icon</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> window icon. </p>
+
+</div>
+</div>
 <a id="aa878d56d4c7c6d41ae09ddc3c597c1b8" name="aa878d56d4c7c6d41ae09ddc3c597c1b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa878d56d4c7c6d41ae09ddc3c597c1b8">&#9670;&#160;</a></span>WindowSetTitle()</h2>
 
@@ -15465,7 +15512,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Sun Nov 16 2025 18:27:38 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 23 2025 20:42:49 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

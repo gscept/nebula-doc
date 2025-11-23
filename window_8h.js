@@ -22,5 +22,6 @@ var window_8h =
     [ "CoreGraphics::WindowResize", "namespace_core_graphics.html#ada10787b447ee1f09860af2c923f0b85", null ],
     [ "CoreGraphics::WindowSetCursorLocked", "namespace_core_graphics.html#ae100690893107c2f5bb23f6ecdfe7ff2", null ],
     [ "CoreGraphics::WindowSetCursorVisible", "namespace_core_graphics.html#ae2282a8c04cbcc013dc5f39ad0b34f14", null ],
+    [ "CoreGraphics::WindowSetIcon", "namespace_core_graphics.html#a11ac968ab890284867c48593b25c009d", null ],
     [ "CoreGraphics::WindowSetTitle", "namespace_core_graphics.html#aa878d56d4c7c6d41ae09ddc3c597c1b8", null ]
 ];

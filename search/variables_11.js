@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['quadspertilex_0',['quadsPerTileX',['../struct_terrain_1_1_terrain_setup_settings.html#ab21fcf9da43992f0e5a7e899b3a7d880',1,'Terrain::TerrainSetupSettings']]],
-  ['quadspertiley_1',['quadsPerTileY',['../struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3',1,'Terrain::TerrainSetupSettings']]],
+  ['quadspertilex_0',['quadsPerTileX',['../struct_terrain_1_1_terrain_setup_settings.html#ab21fcf9da43992f0e5a7e899b3a7d880',1,'Terrain::TerrainSetupSettings::quadsPerTileX'],['../struct_terrain_1_1_terrain_create_info.html#aab470a34afd1c4c375025f2525e49cb8',1,'Terrain::TerrainCreateInfo::quadsPerTileX']]],
+  ['quadspertiley_1',['quadsPerTileY',['../struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3',1,'Terrain::TerrainSetupSettings::quadsPerTileY'],['../struct_terrain_1_1_terrain_create_info.html#afd7c099bcc80c27a2052f4a2e9677082',1,'Terrain::TerrainCreateInfo::quadsPerTileY']]],
   ['queries_2',['queries',['../struct_vulkan_1_1_graphics_device_state.html#a05bbb346b129b29499b53230954b5ae4',1,'Vulkan::GraphicsDeviceState']]],
   ['query_3',['query',['../class_i_o_1_1_u_r_i.html#a89b1b61ff5b6d1adbbcb031578f4cd6a',1,'IO::URI']]],
   ['querybuffer_4',['queryBuffer',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a27d7acd315d6e95aed15bb068e6dedd3',1,'Vulkan::GraphicsDeviceState::Queries']]],

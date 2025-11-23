@@ -229,6 +229,7 @@ var NAVTREEINDEX98 =
 "glfwinputserver_8h.html":[10,0,0,4,0,1,1],
 "glfwinputserver_8h_source.html":[10,0,0,4,0,1,1],
 "glfwwindow_8cc.html":[10,0,0,7,5,2,2],
+"glfwwindow_8cc.html#a18372412ad2fc3ce1e3240b3cf0efe78":[10,0,0,7,5,2,2,0],
 "glfwwindow_8h.html":[10,0,0,7,5,2,3],
 "glfwwindow_8h_source.html":[10,0,0,7,5,2,3],
 "glimltypes_8cc.html":[10,0,0,7,5,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "globals_defs.html":[10,1,6,0],
 "globals_defs_a.html":[10,1,6,1],
 "globals_defs_b.html":[10,1,6,2],
-"globals_defs_c.html":[10,1,6,3],
-"globals_defs_d.html":[10,1,6,4]
+"globals_defs_c.html":[10,1,6,3]
 };

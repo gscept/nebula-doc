@@ -45,7 +45,7 @@ var searchData=
   ['globalvertexbuffermemorysize_42',['globalVertexBufferMemorySize',['../struct_core_graphics_1_1_graphics_device_create_info.html#a50de7b9a204abf61db7e15e147bc1678',1,'CoreGraphics::GraphicsDeviceCreateInfo']]],
   ['glyphtexture_43',['glyphTexture',['../class_vulkan_1_1_vk_text_renderer.html#a8378d5b6a51bb8e8a2c5f9870d58aa0e',1,'Vulkan::VkTextRenderer']]],
   ['goal_44',['goal',['../class_math_1_1_angular_p_feedback_loop.html#a93486309abf33c27fe780dbd4c30d2e1',1,'Math::AngularPFeedbackLoop::goal'],['../class_math_1_1_p_feedback_loop.html#a4a5f71dc0eefb0ee91bd0a7f2f58d715',1,'Math::PFeedbackLoop::goal'],['../class_math_1_1_p_i_d_feedback_loop.html#a0d8a5319ee249cfcd504d171df8efc0e',1,'Math::PIDFeedbackLoop::goal']]],
-  ['gpusubtextures_45',['gpuSubTextures',['../namespace_terrain.html#acef5b93fd4a20198ca8dba62b9b09266',1,'Terrain']]],
+  ['gpusubtextures_45',['gpuSubTextures',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a5d62d280658684f935f66493c554127f',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
   ['graphicscmdbuf_46',['graphicsCmdBuf',['../struct_core_graphics_1_1_texture_loader_1_1_mip_load_main_thread.html#a40b8ecbf5bb828901fdbe22ca272c515',1,'CoreGraphics::TextureLoader::MipLoadMainThread']]],
   ['graphicscommandbuffer_47',['graphicsCommandBuffer',['../struct_core_graphics_1_1_graphics_device_thread_state.html#a0042610707136ef909155667b1b34a8d',1,'CoreGraphics::GraphicsDeviceThreadState']]],
   ['graphicsdevice_48',['graphicsDevice',['../class_graphics_1_1_graphics_server.html#ac5ee010ecaff55497d7e83275de6746a',1,'Graphics::GraphicsServer']]],

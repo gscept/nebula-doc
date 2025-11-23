@@ -1,6 +1,5 @@
 var class_graphics_feature_1_1_graphics_feature_unit =
 [
-    [ "TerrainInstance", "struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance.html", "struct_graphics_feature_1_1_graphics_feature_unit_1_1_terrain_instance" ],
     [ "~GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html#ace45286aad84d1c3c5e6446a3fbec077", null ],
     [ "GetDefaultStage", "class_graphics_feature_1_1_graphics_feature_unit.html#abbd9478dfc0b8eea414055ff9ecd04f9", null ],
     [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6cb80e3f50cdada2af3535412a7a7516", null ],
@@ -15,7 +14,6 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "OnRenderDebug", "class_graphics_feature_1_1_graphics_feature_unit.html#ac7e06010d557132310ee543d44aed5ea", null ],
     [ "SetFrameScript", "class_graphics_feature_1_1_graphics_feature_unit.html#a3cd43f3b3ab0c8eb782501573fdc8aa7", null ],
     [ "SetGraphicsDebugging", "class_graphics_feature_1_1_graphics_feature_unit.html#a9b26b90dc72e3657c2f6a752d4e1f9b6", null ],
-    [ "SetupTerrainBiome", "class_graphics_feature_1_1_graphics_feature_unit.html#adbcb13fb016fb236029452d0afdea0f8", null ],
     [ "SetWindowTitle", "class_graphics_feature_1_1_graphics_feature_unit.html#a4e2719dd5440a46e691a75a49898b6ad", null ],
     [ "cameraManager", "class_graphics_feature_1_1_graphics_feature_unit.html#aa220ebeecff3629862a5dd25f8a54fe5", null ],
     [ "defaultFrameScript", "class_graphics_feature_1_1_graphics_feature_unit.html#a2be09d3a20469029a35d24fa1b3df3d3", null ],
@@ -28,7 +26,6 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "inputServer", "class_graphics_feature_1_1_graphics_feature_unit.html#a388f21a3f8a074c3ed96c110ff55d4bb", null ],
     [ "r_debug", "class_graphics_feature_1_1_graphics_feature_unit.html#ad69b2a11a1aa5c031615e974ebf040bc", null ],
     [ "r_show_frame_inspector", "class_graphics_feature_1_1_graphics_feature_unit.html#a97b34977c5411a682e56bb05e61b0718", null ],
-    [ "terrain", "class_graphics_feature_1_1_graphics_feature_unit.html#a40f6e2b599291dda7612a0fd73c6ac4b", null ],
     [ "title", "class_graphics_feature_1_1_graphics_feature_unit.html#ada8ebdddd284f1f2b17d054c447502b1", null ],
     [ "wnd", "class_graphics_feature_1_1_graphics_feature_unit.html#a63bd391ca7b5c12fddea3cd3af9db5a6", null ]
 ];

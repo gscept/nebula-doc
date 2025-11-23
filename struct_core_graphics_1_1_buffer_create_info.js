@@ -10,5 +10,5 @@ var struct_core_graphics_1_1_buffer_create_info =
     [ "queueSupport", "struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8", null ],
     [ "size", "struct_core_graphics_1_1_buffer_create_info.html#a4fb6a69f414266686279a406005c4c79", null ],
     [ "sparse", "struct_core_graphics_1_1_buffer_create_info.html#a2be9b732d74371093f49af07dce2cd6b", null ],
-    [ "usageFlags", "struct_core_graphics_1_1_buffer_create_info.html#aab774e10144702354bfe757f4345f77e", null ]
+    [ "usageFlags", "struct_core_graphics_1_1_buffer_create_info.html#a9213fa2e16977526108e92d70d193f71", null ]
 ];

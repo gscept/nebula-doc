@@ -36,7 +36,7 @@ var searchData=
   ['destroypipeline_33',['DestroyPipeline',['../struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13caeb47eb4a631f7bb2da2f4e53fb34cefe',1,'Vulkan::VkDeferredCommand']]],
   ['deviceandhost_34',['DeviceAndHost',['../namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077a752593519100585f5c285a3c9e226611',1,'CoreGraphics']]],
   ['deviceclose_35',['DeviceClose',['../class_core_graphics_1_1_render_event.html#a1892f02eb3d46166ae7dd876e6d9b51ea025d48e3f01502a0c7a55d4cc92f11a2',1,'CoreGraphics::RenderEvent']]],
-  ['deviceexclusive_36',['DeviceExclusive',['../namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1aa9025c83f6ecdddff421504381987666',1,'CoreGraphics']]],
+  ['deviceexclusive_36',['DeviceExclusive',['../namespace_core_graphics.html#a65f17fdc4f0fe0d1e874946cf6c153f1a291605e5d732017f97187213156c1c89',1,'CoreGraphics']]],
   ['devicelocal_37',['DeviceLocal',['../namespace_core_graphics.html#a3079209b5f67cbf12c32c1dcaa1e6077a1ea9ad9651bba47cd372e25950c819a5',1,'CoreGraphics']]],
   ['devicelost_38',['DeviceLost',['../class_core_graphics_1_1_render_event.html#a1892f02eb3d46166ae7dd876e6d9b51ea77c93ab56aed3170a54ce3080ed6d51c',1,'CoreGraphics::RenderEvent']]],
   ['deviceopen_39',['DeviceOpen',['../class_core_graphics_1_1_render_event.html#a1892f02eb3d46166ae7dd876e6d9b51eaea73e28f22b20ef71f60f50e2429ca89',1,'CoreGraphics::RenderEvent']]],

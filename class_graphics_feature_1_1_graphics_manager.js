@@ -7,6 +7,7 @@ var class_graphics_feature_1_1_graphics_manager =
     [ "InitModel", "class_graphics_feature_1_1_graphics_manager.html#ad3c36ca206ff301c2606fc9a43388735", null ],
     [ "InitPointLight", "class_graphics_feature_1_1_graphics_manager.html#a1b70f80f6866d4496e95a72243ebf274", null ],
     [ "InitSpotLight", "class_graphics_feature_1_1_graphics_manager.html#a80aea8847de1eeba1a34666e7c343cc2", null ],
+    [ "InitTerrain", "class_graphics_feature_1_1_graphics_manager.html#a06b2214373378f43bb360c27b1c47849", null ],
     [ "InitUpdateDDGIVolumeTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#ae909e02297fb55982426721bcc07d540", null ],
     [ "InitUpdateDecalTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#a9cbcf9a343b5a4a1705d556a1d6f1994", null ],
     [ "InitUpdateLightTransformProcessor", "class_graphics_feature_1_1_graphics_manager.html#a4e5d9b9a8666dec6f3085c19b91c060c", null ],

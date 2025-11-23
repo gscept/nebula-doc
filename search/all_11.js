@@ -1,8 +1,8 @@
 var searchData=
 [
   ['q_0',['Q',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18ad5bfeba9fc7abba44fc0831423dbd338',1,'Input::Key']]],
-  ['quadspertilex_1',['quadsPerTileX',['../struct_terrain_1_1_terrain_setup_settings.html#ab21fcf9da43992f0e5a7e899b3a7d880',1,'Terrain::TerrainSetupSettings']]],
-  ['quadspertiley_2',['quadsPerTileY',['../struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3',1,'Terrain::TerrainSetupSettings']]],
+  ['quadspertilex_1',['quadsPerTileX',['../struct_terrain_1_1_terrain_setup_settings.html#ab21fcf9da43992f0e5a7e899b3a7d880',1,'Terrain::TerrainSetupSettings::quadsPerTileX'],['../struct_terrain_1_1_terrain_create_info.html#aab470a34afd1c4c375025f2525e49cb8',1,'Terrain::TerrainCreateInfo::quadsPerTileX']]],
+  ['quadspertiley_2',['quadsPerTileY',['../struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3',1,'Terrain::TerrainSetupSettings::quadsPerTileY'],['../struct_terrain_1_1_terrain_create_info.html#afd7c099bcc80c27a2052f4a2e9677082',1,'Terrain::TerrainCreateInfo::quadsPerTileY']]],
   ['quadtree_3',['QuadTree',['../class_quad_tree.html',1,'QuadTree'],['../class_util_1_1_quad_tree.html',1,'Util::QuadTree&lt; TYPE &gt;'],['../class_util_1_1_quad_tree_1_1_node.html#a009693126720467d5749af2b5e409c13',1,'Util::QuadTree::Node::QuadTree()'],['../class_util_1_1_quad_tree.html#a3a157e2ca7135d049cb8a3f79277bffe',1,'Util::QuadTree::QuadTree()']]],
   ['quadtree_2eh_4',['quadtree.h',['../quadtree_8h.html',1,'']]],
   ['quadtreeinjectfunction_5',['QuadtreeInjectFunction',['../namespace_visibility.html#a29b6c9fc80332e720048debfa9981fb4',1,'Visibility']]],

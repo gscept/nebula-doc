@@ -1,5 +1,6 @@
 var glfwwindow_8cc =
 [
+    [ "STB_IMAGE_IMPLEMENTATION", "glfwwindow_8cc.html#a18372412ad2fc3ce1e3240b3cf0efe78", null ],
     [ "GLFW::CharFunc", "namespace_g_l_f_w.html#a34f9083c7726405998ec64d4ae1d9673", null ],
     [ "GLFW::CloseFunc", "namespace_g_l_f_w.html#a54e082a773c72e3abb362434d2152183", null ],
     [ "CoreGraphics::CreateWindow", "namespace_core_graphics.html#afe20d65b902f713882bfe8f3b8174a96", null ],
@@ -30,6 +31,7 @@ var glfwwindow_8cc =
     [ "CoreGraphics::WindowResize", "namespace_core_graphics.html#ada10787b447ee1f09860af2c923f0b85", null ],
     [ "CoreGraphics::WindowSetCursorLocked", "namespace_core_graphics.html#ae100690893107c2f5bb23f6ecdfe7ff2", null ],
     [ "CoreGraphics::WindowSetCursorVisible", "namespace_core_graphics.html#ae2282a8c04cbcc013dc5f39ad0b34f14", null ],
+    [ "CoreGraphics::WindowSetIcon", "namespace_core_graphics.html#a11ac968ab890284867c48593b25c009d", null ],
     [ "CoreGraphics::WindowSetTitle", "namespace_core_graphics.html#aa878d56d4c7c6d41ae09ddc3c597c1b8", null ],
     [ "CoreGraphics::CurrentWindow", "namespace_core_graphics.html#a37aab015edf8e1a85c05d828473b8806", null ],
     [ "CoreGraphics::glfwWindowAllocator", "namespace_core_graphics.html#a3e635b47ada97adfd1af0873058ae47d", null ]
