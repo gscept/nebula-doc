@@ -4,6 +4,7 @@ var class_terrain_1_1_occupancy_quad_tree =
     [ "OccupancyQuadTree", "class_terrain_1_1_occupancy_quad_tree.html#ad0d3961949d10011ba2f17c0bbe0c0f2", null ],
     [ "~OccupancyQuadTree", "class_terrain_1_1_occupancy_quad_tree.html#abc46b3cb9239d918515a671e7b9a9219", null ],
     [ "Allocate", "class_terrain_1_1_occupancy_quad_tree.html#a185c716db49687480b6894d08fced265", null ],
+    [ "Clear", "class_terrain_1_1_occupancy_quad_tree.html#ae52730b9ec48e3e496d8f0f291c5cc0e", null ],
     [ "Deallocate", "class_terrain_1_1_occupancy_quad_tree.html#aefd61507205984c7f021460925d7fdd0", null ],
     [ "DebugRender", "class_terrain_1_1_occupancy_quad_tree.html#a5b45e09f2fcda4e70383dbbe7b1ca965", null ],
     [ "IsOccupied", "class_terrain_1_1_occupancy_quad_tree.html#a58e1450a4a8509f1006687f7c6705a63", null ],

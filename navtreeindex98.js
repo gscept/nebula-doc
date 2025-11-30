@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"framesubpassbatch_8cc.html":[10,0,0,7,9,36],
+"framesubpassbatch_8cc.html#a12b2c3bfae1fb5bc3fc4c23df2e0d2f6":[10,0,0,7,9,36,1],
+"framesubpassbatch_8cc.html#aabf7d4ef5f5e11135c0744ed883ea90d":[10,0,0,7,9,36,0],
+"framesubpassbatch_8h.html":[10,0,0,7,9,37],
 "framesubpassbatch_8h_source.html":[10,0,0,7,9,37],
 "framesubpassfullscreeneffect_8cc.html":[10,0,0,7,9,38],
 "framesubpassfullscreeneffect_8h.html":[10,0,0,7,9,39],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "globals_b.html":[10,1,0,2],
 "globals_c.html":[10,1,0,3],
 "globals_d.html":[10,1,0,4],
-"globals_defs.html":[10,1,6],
-"globals_defs.html":[10,1,6,0],
-"globals_defs_a.html":[10,1,6,1],
-"globals_defs_b.html":[10,1,6,2],
-"globals_defs_c.html":[10,1,6,3]
+"globals_defs.html":[10,1,6]
 };

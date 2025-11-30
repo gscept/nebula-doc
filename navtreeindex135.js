@@ -1,5 +1,9 @@
 var NAVTREEINDEX135 =
 {
+"struct_jobs_1_1_job_port_id.html":[8,0,39,7],
+"struct_jobs_1_1_job_port_id.html":[9,0,35,7],
+"struct_jobs_1_1_job_sync_id.html":[8,0,39,8],
+"struct_jobs_1_1_job_sync_id.html":[9,0,35,8],
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html":[8,0,39,9,0],
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html":[9,0,35,9,0],
 "struct_jobs_1_1_job_thread_1_1_job_thread_command.html#a224cd5623988d43e3abe0f363563d22b":[8,0,39,9,0,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX135 =
 "struct_materials_1_1_material_buffer.html#a782b573171c3179cd3697e23c2f5decb":[8,0,44,0,12],
 "struct_materials_1_1_material_buffer.html#a782b573171c3179cd3697e23c2f5decb":[9,0,39,0,12],
 "struct_materials_1_1_material_buffer.html#a7c816e1db19f8f1560a2b480ed4963e5":[8,0,44,0,5],
-"struct_materials_1_1_material_buffer.html#a7c816e1db19f8f1560a2b480ed4963e5":[9,0,39,0,5],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[8,0,44,0,3],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[9,0,39,0,3],
-"struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e":[8,0,44,0,11],
-"struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e":[9,0,39,0,11]
+"struct_materials_1_1_material_buffer.html#a7c816e1db19f8f1560a2b480ed4963e5":[9,0,39,0,5]
 };

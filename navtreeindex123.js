@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"struct_core_graphics_1_1_fence_id.html":[9,0,12,45],
+"struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html":[8,0,14,48],
+"struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html":[9,0,12,47],
+"struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html#a4db75ded3fb3648ea176cfc9abc1960b":[8,0,14,48,0],
 "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html#a4db75ded3fb3648ea176cfc9abc1960b":[9,0,12,47,0],
 "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html#abd02aa075fb20a7bbf8a874a4b026ccc":[8,0,14,48,1],
 "struct_core_graphics_1_1_g_p_u_lang_shader_create_info.html#abd02aa075fb20a7bbf8a874a4b026ccc":[9,0,12,47,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_mesh_create_info.html#a364146c5cb51b859704829e6c4552f2f":[9,0,12,62,4],
 "struct_core_graphics_1_1_mesh_create_info.html#a4313777bc8cae7c79d552e2be135acc2":[8,0,14,63,0],
 "struct_core_graphics_1_1_mesh_create_info.html#a4313777bc8cae7c79d552e2be135acc2":[9,0,12,62,0],
-"struct_core_graphics_1_1_mesh_create_info.html#a47c36799f3a39450fb2f93e7cffa8312":[8,0,14,63,2],
-"struct_core_graphics_1_1_mesh_create_info.html#a47c36799f3a39450fb2f93e7cffa8312":[9,0,12,62,2],
-"struct_core_graphics_1_1_mesh_create_info.html#a64682c1b53c699291dc6c3aea6a5db78":[8,0,14,63,1],
-"struct_core_graphics_1_1_mesh_create_info.html#a64682c1b53c699291dc6c3aea6a5db78":[9,0,12,62,1],
-"struct_core_graphics_1_1_mesh_create_info.html#a6e7fb9bc52d6785dbcefd9f60887b746":[8,0,14,63,6]
+"struct_core_graphics_1_1_mesh_create_info.html#a47c36799f3a39450fb2f93e7cffa8312":[8,0,14,63,2]
 };

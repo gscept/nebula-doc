@@ -1,5 +1,9 @@
 var NAVTREEINDEX120 =
 {
+"struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[9,0,3,0,0,3],
+"struct_audio_1_1_audio_emitter_id.html":[8,0,4,1],
+"struct_audio_1_1_audio_emitter_id.html":[9,0,3,1],
+"struct_audio_1_1_clip_id.html":[8,0,4,3],
 "struct_audio_1_1_clip_id.html":[9,0,3,3],
 "struct_audio_1_1_clip_instance_id.html":[8,0,4,4],
 "struct_audio_1_1_clip_instance_id.html":[9,0,3,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX120 =
 "struct_core_animation_1_1_animation_resource_id.html":[9,0,11,3],
 "struct_core_animation_1_1_nax2_curve.html":[8,0,13,15],
 "struct_core_animation_1_1_nax2_curve.html":[9,0,11,15],
-"struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[8,0,13,15,1],
-"struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[9,0,11,15,1],
-"struct_core_animation_1_1_nax2_curve.html#a3726dcb0166126ec06170cdde7788cec":[8,0,13,15,6],
-"struct_core_animation_1_1_nax2_curve.html#a3726dcb0166126ec06170cdde7788cec":[9,0,11,15,6],
-"struct_core_animation_1_1_nax2_curve.html#a63273a9f0dfd38b53b50c4ce0098046c":[8,0,13,15,4]
+"struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[8,0,13,15,1]
 };

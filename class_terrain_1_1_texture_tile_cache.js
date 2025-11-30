@@ -9,6 +9,7 @@ var class_terrain_1_1_texture_tile_cache =
     [ "InsertBefore", "class_terrain_1_1_texture_tile_cache.html#ac7bdd309dded73b892c5ae39b0c88bf2", null ],
     [ "InsertBeginning", "class_terrain_1_1_texture_tile_cache.html#a348b532ef80c73043b7baf5b9a1bb504", null ],
     [ "Remove", "class_terrain_1_1_texture_tile_cache.html#aa4b7425e04b3e4398bca39e59c393ff9", null ],
+    [ "Reset", "class_terrain_1_1_texture_tile_cache.html#a6c2f1c2a4b59f335c253d5642710f81b", null ],
     [ "Setup", "class_terrain_1_1_texture_tile_cache.html#aa9721869b407f15e339d95e6e2a39738", null ],
     [ "head", "class_terrain_1_1_texture_tile_cache.html#a6adbe40daa0ff915dd186afdc8dfed28", null ],
     [ "lookup", "class_terrain_1_1_texture_tile_cache.html#ae5b174f6d8650f1c20570266eb3647d9", null ],

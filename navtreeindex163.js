@@ -1,5 +1,17 @@
 var NAVTREEINDEX163 =
 {
+"win32environment_8cc.html":[10,0,0,3,17,4,1],
+"win32environment_8h.html":[10,0,0,3,17,4,2],
+"win32environment_8h_source.html":[10,0,0,3,17,4,2],
+"win32event_8h.html":[10,0,0,3,18,6,3],
+"win32event_8h_source.html":[10,0,0,3,18,6,3],
+"win32fiber_8cc.html":[10,0,0,3,3,1,0],
+"win32filetime_8cc.html":[10,0,0,3,9,7,2],
+"win32filetime_8h.html":[10,0,0,3,9,7,3],
+"win32filetime_8h_source.html":[10,0,0,3,9,7,3],
+"win32filewatcher_8cc.html":[10,0,0,3,9,7,4],
+"win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301":[10,0,0,3,9,7,4,0],
+"win32filewatcher_8h.html":[10,0,0,3,9,7,5],
 "win32filewatcher_8h_source.html":[10,0,0,3,9,7,5],
 "win32fswrapper_8cc.html":[10,0,0,3,9,7,6],
 "win32fswrapper_8h.html":[10,0,0,3,9,7,7],

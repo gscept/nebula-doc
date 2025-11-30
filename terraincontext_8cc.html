@@ -233,6 +233,8 @@ Variables</h2></td></tr>
 <tr class="separator:acb9074385ca3f30247ead5a0b125d98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab430ff2ddaa9b25ed38f1e64458be3b" id="r_aab430ff2ddaa9b25ed38f1e64458be3b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &gt;&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#ae6710b3e8c89212ab7d11d2d3d2e9dca">Terrain::biomeTextures</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aab430ff2ddaa9b25ed38f1e64458be3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091f0e7abd0ee1b73840f713cf81c98d" id="r_a091f0e7abd0ee1b73840f713cf81c98d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_terrain_1_1_biome_material.html">BiomeMaterial</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a27fe7d0fb09b2039f6d81f3fcbc10017">Terrain::biomeResources</a> [Terrain::MAX_BIOMES][<a class="el" href="struct_terrain_1_1_biome_settings.html#a8c06c4cacc0de9cae63519aa949f8bbbad3f95607104f01565cd8ce0cd06f658d">BiomeSettings::BiomeMaterialLayer::NumLayers</a>]&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a091f0e7abd0ee1b73840f713cf81c98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0db70ceb42958216e618cc5f403a228a" id="r_a0db70ceb42958216e618cc5f403a228a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a8781bdf118f503ef3d8bf4dcf0b824de">Terrain::biomeMasks</a> [Terrain::MAX_BIOMES]&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a0db70ceb42958216e618cc5f403a228a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9080bc9e4a117a64772fcae0fac1c76" id="r_af9080bc9e4a117a64772fcae0fac1c76"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#af8c5f8123ae996513107d1d0c8d8d323">Terrain::biomeWeights</a> [Terrain::MAX_BIOMES]&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -245,8 +247,6 @@ Variables</h2></td></tr>
 <tr class="separator:a7f85d40cb8a0ec0c290c96ad70510122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a888f82229f65280cc78616857a6b3ddd" id="r_a888f82229f65280cc78616857a6b3ddd"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a4577dc2c2ccaa9cfc047f6c83fd13bbc">Terrain::sun</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a888f82229f65280cc78616857a6b3ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57691cb7dff70660561a4729f0b85f93" id="r_a57691cb7dff70660561a4729f0b85f93"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a9ceff026bd4e909c64da8abd6b010a43">Terrain::terrainShadowMap</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a57691cb7dff70660561a4729f0b85f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a755ac6fea61a5638a0467d289b8de1e4" id="r_a755ac6fea61a5638a0467d289b8de1e4"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_math_1_1vec4.html">Math::vec4</a>&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#a27cd907187f665a8aa3a5365b7b116c2">Terrain::cachedSunDirection</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a755ac6fea61a5638a0467d289b8de1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd162842a4a2c45eef2a0656814d5cf" id="r_abbd162842a4a2c45eef2a0656814d5cf"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="namespace_terrain.html#aad49c5ca6a6488a10bbd12ca3b30c88d">Terrain::shadowMapInvalid</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -345,7 +345,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_7ce72730e6b9c94a8fd79b6a1165ab77.html">terrain</a></li><li class="navelem"><a class="el" href="terraincontext_8cc.html">terraincontext.cc</a></li>
 				<li class="footer">
-					Generated on Sun Nov 23 2025 22:12:19 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sun Nov 30 2025 22:40:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

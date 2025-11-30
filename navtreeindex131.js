@@ -1,5 +1,9 @@
 var NAVTREEINDEX131 =
 {
+"struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#a45391798daaa2512693a424f3ed44fd8":[8,0,31,0,0,0],
+"struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#a45391798daaa2512693a424f3ed44fd8":[9,0,28,0,0,0],
+"struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#af86a0791edc7f4875b59fc5a1cec351f":[8,0,31,0,0,2],
+"struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#af86a0791edc7f4875b59fc5a1cec351f":[9,0,28,0,0,2],
 "struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#afc98bc3ead9bd66298f8fbe555069dac":[8,0,31,0,0,1],
 "struct_graphics_feature_1_1_camera_manager_1_1_view_data.html#afc98bc3ead9bd66298f8fbe555069dac":[9,0,28,0,0,1],
 "struct_http_1_1_http_client_registry_1_1_connection.html":[8,0,32,5,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX131 =
 "struct_im3d_1_1_context.html#a1ea2fa63d244fd3b8fd40e8cbd07b2c3":[8,0,34,4,60],
 "struct_im3d_1_1_context.html#a1ea2fa63d244fd3b8fd40e8cbd07b2c3":[9,0,31,4,60],
 "struct_im3d_1_1_context.html#a1ea4ed6a14123ba1cd48312d1e3ad5d2":[8,0,34,4,7],
-"struct_im3d_1_1_context.html#a1ea4ed6a14123ba1cd48312d1e3ad5d2":[9,0,31,4,7],
-"struct_im3d_1_1_context.html#a2a6cffb52e704b279cd2b9df573fb4b4":[8,0,34,4,96],
-"struct_im3d_1_1_context.html#a2a6cffb52e704b279cd2b9df573fb4b4":[9,0,31,4,96],
-"struct_im3d_1_1_context.html#a2b26b7aca569c5a2fca9bf9dba77dbc7":[8,0,34,4,45],
-"struct_im3d_1_1_context.html#a2b26b7aca569c5a2fca9bf9dba77dbc7":[9,0,31,4,45]
+"struct_im3d_1_1_context.html#a1ea4ed6a14123ba1cd48312d1e3ad5d2":[9,0,31,4,7]
 };

@@ -42,7 +42,7 @@ var searchData=
   ['terrainresolveprogram_39',['terrainResolveProgram',['../namespace_terrain.html#a78b6c4158d55facea17195ef60d2c16f',1,'Terrain']]],
   ['terrainsetupcallback_40',['terrainSetupCallback',['../namespace_terrain.html#a63e3da99794edfce362a40e26f0f83c7',1,'Terrain']]],
   ['terrainshader_41',['terrainShader',['../namespace_terrain.html#a863465787d8848c9f220df69169c50b8',1,'Terrain']]],
-  ['terrainshadowmap_42',['terrainShadowMap',['../namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e',1,'Lighting::terrainShadowMap'],['../namespace_terrain.html#a9ceff026bd4e909c64da8abd6b010a43',1,'Terrain::terrainShadowMap']]],
+  ['terrainshadowmap_42',['terrainShadowMap',['../namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e',1,'Lighting']]],
   ['terrainshadowmapsize_43',['TerrainShadowMapSize',['../namespace_terrain.html#a7456c26ccb83826f07bb2be89b27ce39',1,'Terrain']]],
   ['terrainshadowmapsize_44',['terrainShadowMapSize',['../namespace_lighting.html#a7d694d7b0d15f9ddc02fdc452744972e',1,'Lighting']]],
   ['terrainshadowprogram_45',['terrainShadowProgram',['../namespace_terrain.html#a891042a817500f74705fc08c161c23b2',1,'Terrain']]],

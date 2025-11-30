@@ -134,7 +134,7 @@ var searchData=
   ['materialname_131',['materialName',['../class_models_1_1_shader_state_node.html#ae837adeb02e5b42294ccc61427e00ea3',1,'Models::ShaderStateNode']]],
   ['materialnametable_132',['materialNameTable',['../class_physics_1_1_physx_state.html#a25ba9e4e21ed42ed5fce45e320dcbf14',1,'Physics::PhysxState']]],
   ['materialpropertymappings_133',['MaterialPropertyMappings',['../namespace_raytracing.html#abd79b9b95427cbb95aef29ce990d7ff9',1,'Raytracing']]],
-  ['materialres_134',['materialRes',['../class_models_1_1_shader_state_node.html#a077216bda479757f274322f9dcdd0e1e',1,'Models::ShaderStateNode']]],
+  ['materialres_134',['materialRes',['../class_models_1_1_shader_state_node.html#a077216bda479757f274322f9dcdd0e1e',1,'Models::ShaderStateNode::materialRes'],['../struct_terrain_1_1_biome_material.html#a3db3adfefe250edb06f3b23866823b5c',1,'Terrain::BiomeMaterial::materialRes']]],
   ['materials_135',['materials',['../class_physics_1_1_physx_state.html#adfee4cac461197182be255b3e07c0c6f',1,'Physics::PhysxState::materials'],['../struct_terrain_1_1_biome_settings.html#aed1c19a374d888fca125e63ce8abd07d',1,'Terrain::BiomeSettings::materials']]],
   ['materialtextureloadsection_136',['materialTextureLoadSection',['../namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac',1,'Materials']]],
   ['materialuniforms_137',['materialUniforms',['../namespace_vegetation.html#a378a772f33ec03aa3211f745d1902353',1,'Vegetation']]],
