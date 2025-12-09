@@ -1,5 +1,17 @@
 var NAVTREEINDEX162 =
 {
+"vkloader_8cc.html#af14384dcac1d1d4db1edebe3c7db7894":[10,0,0,7,5,5,22,116],
+"vkloader_8cc.html#af230bf4bfb71752333142e2b9f67d45a":[10,0,0,7,5,5,22,136],
+"vkloader_8cc.html#af3c30372490ffdd3ee13f622479bb74c":[10,0,0,7,5,5,22,127],
+"vkloader_8cc.html#af556a9516fb34b12a66eadcb26928810":[10,0,0,7,5,5,22,77],
+"vkloader_8cc.html#af90798b38f3d23ed39f3533b19f0645c":[10,0,0,7,5,5,22,125],
+"vkloader_8cc.html#afa06c6f0e04374bf6e88dc6f80b3cb78":[10,0,0,7,5,5,22,68],
+"vkloader_8cc.html#afcebc10b3f2842bdf313f09071467102":[10,0,0,7,5,5,22,9],
+"vkloader_8cc.html#aff7b42a6ddc6263e5fdd1251680b450f":[10,0,0,7,5,5,22,35],
+"vkloader_8h.html":[10,0,0,7,5,5,23],
+"vkloader_8h.html#a014b4f2f7d08d594bd7469e30a86a551":[10,0,0,7,5,5,23,9],
+"vkloader_8h.html#a05b1e6a98f019bf29c790d257521a6c5":[10,0,0,7,5,5,23,119],
+"vkloader_8h.html#a05b9490e9e9799fb773c58591b78df07":[10,0,0,7,5,5,23,1],
 "vkloader_8h.html#a06c6c88c1f1e487c12df40ec93e19e22":[10,0,0,7,5,5,23,57],
 "vkloader_8h.html#a074660eb809a6e872148b4e23318db01":[10,0,0,7,5,5,23,110],
 "vkloader_8h.html#a08f9ffc0e32ddb63db35dfcd0d625f78":[10,0,0,7,5,5,23,126],
@@ -237,17 +249,5 @@ var NAVTREEINDEX162 =
 "win32calendartime_8h.html":[10,0,0,3,19,3,1],
 "win32calendartime_8h.html#a58fdec10f062d5648ad4749e41993f32":[10,0,0,3,19,3,1,1],
 "win32calendartime_8h_source.html":[10,0,0,3,19,3,1],
-"win32consolehandler_8cc.html":[10,0,0,3,9,7,0],
-"win32consolehandler_8h.html":[10,0,0,3,9,7,1],
-"win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
-"win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
-"win32cpu_8h.html":[10,0,0,3,17,4,0],
-"win32cpu_8h_source.html":[10,0,0,3,17,4,0],
-"win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
-"win32criticalsection_8h.html":[10,0,0,3,18,6,2],
-"win32criticalsection_8h.html#a04b575446acc6fe7ec8b6d213eab2082":[10,0,0,3,18,6,2,1],
-"win32criticalsection_8h_source.html":[10,0,0,3,18,6,2],
-"win32displaydevice_8cc.html":[10,0,0,7,5,6,0],
-"win32displaydevice_8h.html":[10,0,0,7,5,6,1],
-"win32displaydevice_8h_source.html":[10,0,0,7,5,6,1]
+"win32consolehandler_8cc.html":[10,0,0,3,9,7,0]
 };

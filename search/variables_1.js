@@ -133,11 +133,12 @@ var searchData=
   ['attrs_130',['attrs',['../class_attr_1_1_attribute_container.html#ae29c505b3b0ab9605857f555813ca9b0',1,'Attr::AttributeContainer::attrs'],['../class_http_1_1_html_page_writer.html#a218f6a46fc7a89f835ffd1a6aff05cbc',1,'Http::HtmlPageWriter::attrs'],['../class_i_o_1_1_b_xml_loader_util.html#addae936866f920cfb3899fa1714ecdac',1,'IO::BXmlLoaderUtil::attrs'],['../struct_vulkan_1_1_vertex_layout_vk_bind_info.html#a0fb80839cc7783533f0f6d26363c1029',1,'Vulkan::VertexLayoutVkBindInfo::attrs'],['../struct_vulkan_1_1_derivative_layout.html#a301ddf14ef85fbfd655cc73d9fff9777',1,'Vulkan::DerivativeLayout::attrs'],['../struct_vulkan_1_1_bind_info.html#ae493624b90e5fab3b92ae109c9c06075',1,'Vulkan::BindInfo::attrs']]],
   ['audioserver_131',['audioServer',['../class_audio_feature_1_1_audio_feature_unit.html#afe4c09da0e4071299a7e54a66445a11a',1,'AudioFeature::AudioFeatureUnit']]],
   ['audiothreadcore_132',['AudioThreadCore',['../class_o_s_x_1_1_o_s_x_cpu.html#a5d9305809a61c7faefb33fcf92011a23',1,'OSX::OSXCpu::AudioThreadCore'],['../class_posix_1_1_posix_cpu.html#a7f630174cee2067e8e40abdab8bbc152',1,'Posix::PosixCpu::AudioThreadCore'],['../class_win32_1_1_win32_cpu.html#adab3e8e3a0ad5298eec2442448446ef6',1,'Win32::Win32Cpu::AudioThreadCore']]],
-  ['availphysical_133',['availPhysical',['../struct_memory_1_1_total_memory_status.html#ac422bfbe19a0d328e2cb03b3bc100391',1,'Memory::TotalMemoryStatus']]],
-  ['availvirtual_134',['availVirtual',['../struct_memory_1_1_total_memory_status.html#ab06f85080806490660c5ce8008d9ae2d',1,'Memory::TotalMemoryStatus']]],
-  ['average_135',['average',['../class_dynui_1_1_graph.html#a53dd8b7d4bf6b8f01623bcc2037f4e1f',1,'Dynui::Graph']]],
-  ['averageframetime_136',['averageFrameTime',['../class_dynui_1_1_imgui_profiler.html#a18214b96f889932208aeb8d24892e51d',1,'Dynui::ImguiProfiler']]],
-  ['averagesum_137',['averageSum',['../class_dynui_1_1_graph.html#add71fc3aaf3a3739ea06b663aabf0d55',1,'Dynui::Graph']]],
-  ['awakeactors_138',['awakeActors',['../class_physics_1_1_physx_state.html#a011b755eb97ff2f0ba784df2e3061f7e',1,'Physics::PhysxState']]],
-  ['axisvalues_139',['axisValues',['../class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e',1,'Base::GamePadBase']]]
+  ['availpagefile_133',['availPageFile',['../struct_memory_1_1_total_memory_status.html#a8104443acec0689e24999cee5bd36c74',1,'Memory::TotalMemoryStatus']]],
+  ['availphysical_134',['availPhysical',['../struct_memory_1_1_total_memory_status.html#ac422bfbe19a0d328e2cb03b3bc100391',1,'Memory::TotalMemoryStatus::availPhysical'],['../struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba',1,'Memory::TotalMemoryStatus::availPhysical']]],
+  ['availvirtual_135',['availVirtual',['../struct_memory_1_1_total_memory_status.html#ab06f85080806490660c5ce8008d9ae2d',1,'Memory::TotalMemoryStatus::availVirtual'],['../struct_memory_1_1_total_memory_status.html#a37f3f1b4271783805ba5804b655408da',1,'Memory::TotalMemoryStatus::availVirtual']]],
+  ['average_136',['average',['../class_dynui_1_1_graph.html#a53dd8b7d4bf6b8f01623bcc2037f4e1f',1,'Dynui::Graph']]],
+  ['averageframetime_137',['averageFrameTime',['../class_dynui_1_1_imgui_profiler.html#a18214b96f889932208aeb8d24892e51d',1,'Dynui::ImguiProfiler']]],
+  ['averagesum_138',['averageSum',['../class_dynui_1_1_graph.html#add71fc3aaf3a3739ea06b663aabf0d55',1,'Dynui::Graph']]],
+  ['awakeactors_139',['awakeActors',['../class_physics_1_1_physx_state.html#a011b755eb97ff2f0ba784df2e3061f7e',1,'Physics::PhysxState']]],
+  ['axisvalues_140',['axisValues',['../class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e',1,'Base::GamePadBase']]]
 ];

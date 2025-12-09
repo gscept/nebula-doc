@@ -1,5 +1,17 @@
 var NAVTREEINDEX149 =
 {
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#a530ef6b633eccc48075259431371bf7f":[9,0,65,2,0,1],
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#a6e84218029d6a9148c047d132373899a":[8,0,74,3,0,0],
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#a6e84218029d6a9148c047d132373899a":[9,0,65,2,0,0],
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#aef1b918a53cd630f618b51dbbf438b7d":[8,0,74,3,0,2],
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#aef1b918a53cd630f618b51dbbf438b7d":[9,0,65,2,0,2],
+"struct_static_u_i_1_1_logger.html":[8,0,77,0],
+"struct_static_u_i_1_1_logger.html":[9,0,66,0],
+"struct_static_u_i_1_1_logger.html#aeb175fa1f3f83593f3036a4db8b9c8d0":[8,0,77,0,0],
+"struct_static_u_i_1_1_logger.html#aeb175fa1f3f83593f3036a4db8b9c8d0":[9,0,66,0,0],
+"struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html":[8,0,77,2,0],
+"struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html":[9,0,66,2,0],
+"struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html#a6f9364516f4500eed8ec0685393ee4af":[8,0,77,2,0,2],
 "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html#a6f9364516f4500eed8ec0685393ee4af":[9,0,66,2,0,2],
 "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html#a7f717d10a6ff0d1293d38c7ee1e9c3e2":[8,0,77,2,0,0],
 "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html#a7f717d10a6ff0d1293d38c7ee1e9c3e2":[9,0,66,2,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX149 =
 "struct_terrain_1_1_sub_texture_update_job_uniforms.html#ab71fdad89ebf610eea745edbc275816b":[9,0,70,11,0],
 "struct_terrain_1_1_sub_texture_update_job_uniforms.html#ad479063bb1d7c19efc91d353637f4537":[8,0,82,11,1],
 "struct_terrain_1_1_sub_texture_update_job_uniforms.html#ad479063bb1d7c19efc91d353637f4537":[9,0,70,11,1],
-"struct_terrain_1_1_sub_texture_update_job_uniforms.html#af07fe5ed63a6cea956f89efce7948d91":[8,0,82,11,2],
-"struct_terrain_1_1_sub_texture_update_job_uniforms.html#af07fe5ed63a6cea956f89efce7948d91":[9,0,70,11,2],
-"struct_terrain_1_1_terrain_biome_id.html":[8,0,82,12],
-"struct_terrain_1_1_terrain_biome_id.html":[9,0,70,12],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html":[8,0,82,13,0],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html":[9,0,70,13,0],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0461e33e82683c4db254c4f19cc31978":[8,0,82,13,0,19],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0461e33e82683c4db254c4f19cc31978":[9,0,70,13,0,19],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0c74792bb7359a7a0c8ba2a147fa3352":[8,0,82,13,0,52],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0c74792bb7359a7a0c8ba2a147fa3352":[9,0,70,13,0,52],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201":[8,0,82,13,0,45],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201":[9,0,70,13,0,45],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a13c46628e11e08cd96a85a87ea87dc6e":[8,0,82,13,0,18]
+"struct_terrain_1_1_sub_texture_update_job_uniforms.html#af07fe5ed63a6cea956f89efce7948d91":[8,0,82,11,2]
 };
