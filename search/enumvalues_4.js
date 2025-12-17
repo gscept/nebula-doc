@@ -6,7 +6,7 @@ var searchData=
   ['d24x8_3',['D24X8',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0af8ad2f2e7a1eed0d6de4a6f21e222cd6',1,'CoreGraphics::PixelFormat']]],
   ['d32_4',['D32',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0aadb694340b8ee39a6596722828827f11',1,'CoreGraphics::PixelFormat']]],
   ['d32s8_5',['D32S8',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a94a013f4c9adf60c326a0c0cde7e9395',1,'CoreGraphics::PixelFormat']]],
-  ['dds_6',['DDS',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7a542cb2e86192acb666f7d91df2802f39',1,'CoreGraphics::ImageFileFormat::DDS'],['../namespace_core_graphics.html#ab1f14818932ccbe546b651b341302c88a0a7a22a1301a52bb3c01cd0c860afdfd',1,'CoreGraphics::DDS']]],
+  ['dds_6',['DDS',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7a542cb2e86192acb666f7d91df2802f39',1,'CoreGraphics::ImageFileFormat']]],
   ['decal_5ftransform_7',['Decal_Transform',['../class_decals_1_1_decal_context.html#a713b9edd7801b348b2ad735c35cf5a70a417c4d512f3cefa5577c0f8e8702ffa6',1,'Decals::DecalContext']]],
   ['decal_5ftype_8',['Decal_Type',['../class_decals_1_1_decal_context.html#a713b9edd7801b348b2ad735c35cf5a70a13b383f341a3b36eb8f6a65d83a6f7bb',1,'Decals::DecalContext']]],
   ['decal_5ftypedid_9',['Decal_TypedId',['../class_decals_1_1_decal_context.html#a713b9edd7801b348b2ad735c35cf5a70a17d7a218d326df8e8194fcf6e54f7849',1,'Decals::DecalContext']]],

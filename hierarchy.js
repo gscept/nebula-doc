@@ -653,6 +653,7 @@ var hierarchy =
     [ "Im3d::Im3dState", "struct_im3d_1_1_im3d_state.html", null ],
     [ "CoreGraphics::ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", null ],
     [ "CoreGraphics::ImageCreateInfoFile", "struct_core_graphics_1_1_image_create_info_file.html", null ],
+    [ "CoreGraphics::ImageLoadInfo::ImageData", "union_core_graphics_1_1_image_load_info_1_1_image_data.html", null ],
     [ "CoreGraphics::ImageDimensions", "struct_core_graphics_1_1_image_dimensions.html", null ],
     [ "CoreGraphics::ImageFileFormat", "class_core_graphics_1_1_image_file_format.html", null ],
     [ "CoreGraphics::ImageId", "struct_core_graphics_1_1_image_id.html", null ],

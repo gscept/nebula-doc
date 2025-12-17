@@ -1,5 +1,8 @@
 var NAVTREEINDEX98 =
 {
+"framesubpass_8cc.html":[10,0,0,7,9,34],
+"framesubpass_8h.html":[10,0,0,7,9,35],
+"framesubpass_8h_source.html":[10,0,0,7,9,35],
 "framesubpassbatch_8cc.html":[10,0,0,7,9,36],
 "framesubpassbatch_8cc.html#a12b2c3bfae1fb5bc3fc4c23df2e0d2f6":[10,0,0,7,9,36,1],
 "framesubpassbatch_8cc.html#aabf7d4ef5f5e11135c0744ed883ea90d":[10,0,0,7,9,36,0],
@@ -233,7 +236,6 @@ var NAVTREEINDEX98 =
 "glfwinputserver_8h.html":[10,0,0,4,0,1,1],
 "glfwinputserver_8h_source.html":[10,0,0,4,0,1,1],
 "glfwwindow_8cc.html":[10,0,0,7,5,2,2],
-"glfwwindow_8cc.html#a18372412ad2fc3ce1e3240b3cf0efe78":[10,0,0,7,5,2,2,0],
 "glfwwindow_8h.html":[10,0,0,7,5,2,3],
 "glfwwindow_8h_source.html":[10,0,0,7,5,2,3],
 "glimltypes_8cc.html":[10,0,0,7,5,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "globals.html":[10,1,0,0],
 "globals_a.html":[10,1,0,1],
 "globals_b.html":[10,1,0,2],
-"globals_c.html":[10,1,0,3],
-"globals_d.html":[10,1,0,4],
-"globals_defs.html":[10,1,6]
+"globals_c.html":[10,1,0,3]
 };

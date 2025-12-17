@@ -24,6 +24,7 @@ var class_vulkan_1_1_vk_sub_context_handler =
     [ "Poll", "class_vulkan_1_1_vk_sub_context_handler.html#a922ecd0579c16fe9051adb59b79a14d3", null ],
     [ "SetToNextContext", "class_vulkan_1_1_vk_sub_context_handler.html#a10d423e88a0f4d853acfd98cc86cb0de", null ],
     [ "Setup", "class_vulkan_1_1_vk_sub_context_handler.html#aaa73acf53c1c62eb9b8abb2b9028cd31", null ],
+    [ "SubmitImmediate", "class_vulkan_1_1_vk_sub_context_handler.html#aa61105636eb9ed00f851bd79e33172fa", null ],
     [ "Wait", "class_vulkan_1_1_vk_sub_context_handler.html#af010180d54dc1010b451cea192fefc9f", null ],
     [ "WaitIdle", "class_vulkan_1_1_vk_sub_context_handler.html#a03d90a88403164b56e02f502417ac796", null ],
     [ "GetQueue", "class_vulkan_1_1_vk_sub_context_handler.html#a757b0afd514fab7fd680addc07d257f0", null ],

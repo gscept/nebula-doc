@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"globals_d.html":[10,1,0,4],
+"globals_defs.html":[10,1,6],
 "globals_defs.html":[10,1,6,0],
 "globals_defs_a.html":[10,1,6,1],
 "globals_defs_b.html":[10,1,6,2],
@@ -71,11 +73,11 @@ var NAVTREEINDEX99 =
 "globalstringatomtable_8cc.html":[10,0,0,3,20,26],
 "globalstringatomtable_8h.html":[10,0,0,3,20,27],
 "globalstringatomtable_8h_source.html":[10,0,0,3,20,27],
-"gpubuffertypes_8h.html":[10,0,0,7,5,29],
-"gpubuffertypes_8h_source.html":[10,0,0,7,5,29],
-"gpulangshaderloader_8cc.html":[10,0,0,7,5,30],
-"gpulangshaderloader_8h.html":[10,0,0,7,5,31],
-"gpulangshaderloader_8h_source.html":[10,0,0,7,5,31],
+"gpubuffertypes_8h.html":[10,0,0,7,5,30],
+"gpubuffertypes_8h_source.html":[10,0,0,7,5,30],
+"gpulangshaderloader_8cc.html":[10,0,0,7,5,31],
+"gpulangshaderloader_8h.html":[10,0,0,7,5,32],
+"gpulangshaderloader_8h_source.html":[10,0,0,7,5,32],
 "graphicscontext_8cc.html":[10,0,0,7,12,11],
 "graphicscontext_8h.html":[10,0,0,7,12,12],
 "graphicscontext_8h.html#a3cac5283f38308a752d0ae8335c95845":[10,0,0,7,12,12,5],
@@ -85,8 +87,8 @@ var NAVTREEINDEX99 =
 "graphicscontext_8h.html#ac6ecabb8b5294ad9d9e26b72abdd8a93":[10,0,0,7,12,12,8],
 "graphicscontext_8h.html#ae1a3f3fff31efb7a5a3abe397e7bdf98":[10,0,0,7,12,12,6],
 "graphicscontext_8h_source.html":[10,0,0,7,12,12],
-"graphicsdevice_8h.html":[10,0,0,7,5,32],
-"graphicsdevice_8h_source.html":[10,0,0,7,5,32],
+"graphicsdevice_8h.html":[10,0,0,7,5,33],
+"graphicsdevice_8h_source.html":[10,0,0,7,5,33],
 "graphicsentity_8h.html":[10,0,0,7,12,13],
 "graphicsentity_8h_source.html":[10,0,0,7,12,13],
 "graphicsfeatureunit_8cc.html":[10,0,0,0,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "im3d_8h.html#a578c0633326f57849eac5e020bffecb0":[10,0,0,0,3,2,1,14],
 "im3d_8h.html#abbf6d2f1bbfd04c23fe60d4820d3fc41":[10,0,0,0,3,2,1,15],
 "im3d_8h_source.html":[10,0,0,0,3,2,1],
-"im3d__config_8h.html":[10,0,0,0,3,2,2],
-"im3d__config_8h.html#a48e3bcd455e0b30be070564eb3e47dc0":[10,0,0,0,3,2,2,2],
-"im3d__config_8h.html#a4f63ea6212fcdc172e46b271c04df9be":[10,0,0,0,3,2,2,8]
+"im3d__config_8h.html":[10,0,0,0,3,2,2]
 };

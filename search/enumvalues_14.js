@@ -55,7 +55,7 @@ var searchData=
   ['texturevariabletype_52',['TextureVariableType',['../namespace_core_graphics.html#ae31deee4c7320b0c63dd787789cb7e0ea9b1a0bbe0f87ffdd2b62575a9bb6293e',1,'CoreGraphics']]],
   ['textureview_5floadinfo_53',['TextureView_LoadInfo',['../namespace_vulkan.html#ab936bac24db013ca39477d4ee7cbd2c1a69ebd0cacae49b77daf57160f717a9b7',1,'Vulkan']]],
   ['textureview_5fruntimeinfo_54',['TextureView_RuntimeInfo',['../namespace_vulkan.html#ab936bac24db013ca39477d4ee7cbd2c1a9b2218f20552e3c15de281d7811af7f9',1,'Vulkan']]],
-  ['tga_55',['TGA',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7a29e11be7f8218c517e48a15633eafd96',1,'CoreGraphics::ImageFileFormat']]],
+  ['tga_55',['TGA',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7a29e11be7f8218c517e48a15633eafd96',1,'CoreGraphics::ImageFileFormat::TGA'],['../namespace_core_graphics.html#ab1f14818932ccbe546b651b341302c88aa9d79dc9496d85982fe48724efa6c5cb',1,'CoreGraphics::TGA']]],
   ['thursday_56',['Thursday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73eae3f57ff78498c899ffa77bca9e0f87c2',1,'Base::CalendarTimeBase']]],
   ['tilde_57',['Tilde',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a4b0ec7b394b77b7a278791a70f7ce16e',1,'Input::Key']]],
   ['timeline_58',['Timeline',['../namespace_core_graphics.html#add7c6631ce669ff848c73d8d6fb3982fac6061129c32f2cb70e9d9caaabb9fabc',1,'CoreGraphics']]],

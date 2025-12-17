@@ -36,7 +36,7 @@ var class_vulkan_1_1_vk_shape_renderer =
     [ "unindexed", "class_vulkan_1_1_vk_shape_renderer.html#a55ef4237d8cc09ab87f1ea961633aa82", null ],
     [ "vbos", "class_vulkan_1_1_vk_shape_renderer.html#aed6f60819bb421ba7ca373a67c881ef4", null ],
     [ "vertexBufferActiveIndex", "class_vulkan_1_1_vk_shape_renderer.html#af22d43db2a5e8e6cdb16fd5d048c883b", null ],
-    [ "vertexBufferCapacity", "class_vulkan_1_1_vk_shape_renderer.html#a1eb9454406523b7a79cb3d16c43f54c7", null ],
+    [ "vertexBufferCapacity", "class_vulkan_1_1_vk_shape_renderer.html#acd1d4c5c62d4829e0b514c0b5c3a3fb2", null ],
     [ "vertexBufferOffset", "class_vulkan_1_1_vk_shape_renderer.html#a80987c356d9c4acf42942570e23887a2", null ],
     [ "vertexBufferPtr", "class_vulkan_1_1_vk_shape_renderer.html#a4be1afdba9c95d58533b281b775849ab", null ],
     [ "vertexLayout", "class_vulkan_1_1_vk_shape_renderer.html#aace0ac4e68be7764209f50d24f5f3948", null ]

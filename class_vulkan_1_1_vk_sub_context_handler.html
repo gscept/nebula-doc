@@ -162,6 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4aea8ffb9de88cc9069aba4aab90a45c" id="r_a4aea8ffb9de88cc9069aba4aab90a45c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aea8ffb9de88cc9069aba4aab90a45c">FlushSubmissions</a> (VkFence fence)</td></tr>
 <tr class="memdesc:a4aea8ffb9de88cc9069aba4aab90a45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush submissions.  <br /></td></tr>
 <tr class="separator:a4aea8ffb9de88cc9069aba4aab90a45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61105636eb9ed00f851bd79e33172fa" id="r_aa61105636eb9ed00f851bd79e33172fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61105636eb9ed00f851bd79e33172fa">SubmitImmediate</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, VkCommandBuffer cmdBuf, VkFence fence=VK_NULL_HANDLE)</td></tr>
+<tr class="memdesc:aa61105636eb9ed00f851bd79e33172fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a single command buffer immediately on the queue. Use with utmost care!  <br /></td></tr>
+<tr class="separator:aa61105636eb9ed00f851bd79e33172fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af010180d54dc1010b451cea192fefc9f" id="r_af010180d54dc1010b451cea192fefc9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af010180d54dc1010b451cea192fefc9f">Wait</a> (<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> type, uint64_t index)</td></tr>
 <tr class="memdesc:af010180d54dc1010b451cea192fefc9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">wait for timeline index  <br /></td></tr>
 <tr class="separator:af010180d54dc1010b451cea192fefc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -676,6 +679,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aa61105636eb9ed00f851bd79e33172fa" name="aa61105636eb9ed00f851bd79e33172fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61105636eb9ed00f851bd79e33172fa">&#9670;&#160;</a></span>SubmitImmediate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Vulkan::VkSubContextHandler::SubmitImmediate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkCommandBuffer</td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkFence</td>          <td class="paramname"><span class="paramname"><em>fence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">VK_NULL_HANDLE</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Submit a single command buffer immediately on the queue. Use with utmost care! </p>
+
+</div>
+</div>
 <a id="af010180d54dc1010b451cea192fefc9f" name="af010180d54dc1010b451cea192fefc9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af010180d54dc1010b451cea192fefc9f">&#9670;&#160;</a></span>Wait()</h2>
 
@@ -938,7 +969,7 @@ Friends</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li><li class="navelem"><a class="el" href="class_vulkan_1_1_vk_sub_context_handler.html">VkSubContextHandler</a></li>
 				<li class="footer">
-					Generated on Tue Dec 9 2025 17:46:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Dec 17 2025 12:34:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

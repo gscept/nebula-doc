@@ -7,5 +7,6 @@ var fence_8h =
     [ "CoreGraphics::FencePeek", "namespace_core_graphics.html#ae407521380a3daeb0552f17aa0139834", null ],
     [ "CoreGraphics::FenceReset", "namespace_core_graphics.html#ab1b590aef9497083b4009460366ab581", null ],
     [ "CoreGraphics::FenceWait", "namespace_core_graphics.html#a991624b03b4f61cce15956b31718d8f2", null ],
-    [ "CoreGraphics::FenceWaitAndReset", "namespace_core_graphics.html#a4872ed5afd70aad1548364a35491550b", null ]
+    [ "CoreGraphics::FenceWaitAndReset", "namespace_core_graphics.html#a4872ed5afd70aad1548364a35491550b", null ],
+    [ "CoreGraphics::FENCE_WAIT_FOREVER", "namespace_core_graphics.html#ae39160af62e271e9c38c451f5257eafe", null ]
 ];

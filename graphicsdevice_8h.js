@@ -63,6 +63,7 @@ var graphicsdevice_8h =
     [ "CoreGraphics::SetConstantsInternal", "namespace_core_graphics.html#ab87bf8e5711475e972071860cb9fe80f", null ],
     [ "CoreGraphics::SetRenderWireframe", "namespace_core_graphics.html#ae6379e41dbee3a93be1c65e43ba15014", null ],
     [ "CoreGraphics::SetVisualizeMipMaps", "namespace_core_graphics.html#a9b2370140cbf06085fa6bb7110ed05cc", null ],
+    [ "CoreGraphics::SubmitCommandBufferImmediate", "namespace_core_graphics.html#a7836dac6a1e91f3b75493d0dc27bf96c", null ],
     [ "CoreGraphics::SubmitCommandBuffers", "namespace_core_graphics.html#aa97aae90061f09bd425189780a8c6487", null ],
     [ "CoreGraphics::SubmitImmediateCommandBuffers", "namespace_core_graphics.html#a24a69e09d952540ac22a9fb324e8448a", null ],
     [ "CoreGraphics::UnlockConstantUpdates", "namespace_core_graphics.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],

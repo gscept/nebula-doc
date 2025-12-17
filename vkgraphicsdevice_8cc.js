@@ -85,6 +85,7 @@ var vkgraphicsdevice_8cc =
     [ "CoreGraphics::SetVisualizeMipMaps", "namespace_core_graphics.html#a9b2370140cbf06085fa6bb7110ed05cc", null ],
     [ "Vulkan::SparseBufferBind", "namespace_vulkan.html#a62c87b67db2b5dcfa1f1d5e7758f952a", null ],
     [ "Vulkan::SparseTextureBind", "namespace_vulkan.html#a33631508e7e7b011fed57eba8d97233e", null ],
+    [ "CoreGraphics::SubmitCommandBufferImmediate", "namespace_core_graphics.html#a7836dac6a1e91f3b75493d0dc27bf96c", null ],
     [ "CoreGraphics::SubmitCommandBuffers", "namespace_core_graphics.html#aa97aae90061f09bd425189780a8c6487", null ],
     [ "CoreGraphics::SubmitImmediateCommandBuffers", "namespace_core_graphics.html#a24a69e09d952540ac22a9fb324e8448a", null ],
     [ "CoreGraphics::UnlockConstantUpdates", "namespace_core_graphics.html#ab31b127c1b83d7155cffb2de2c4ace80", null ],

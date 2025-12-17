@@ -99,6 +99,7 @@ $(function(){initNavTree('image_8cc.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">image.cc File Reference</div></div>
@@ -108,6 +109,8 @@ $(function(){initNavTree('image_8cc.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="ioserver_8h_source.html">io/ioserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stream_8h_source.html">io/stream.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="image_8h_source.html">image.h</a>&quot;</code><br />
+<code>#include &quot;stb_image.h&quot;</code><br />
+<code>#include &quot;stb_image_write.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -115,47 +118,89 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_core_graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a18372412ad2fc3ce1e3240b3cf0efe78" id="r_a18372412ad2fc3ce1e3240b3cf0efe78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18372412ad2fc3ce1e3240b3cf0efe78">STB_IMAGE_IMPLEMENTATION</a></td></tr>
+<tr class="separator:a18372412ad2fc3ce1e3240b3cf0efe78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe397a94e8feddc652f92ef40ce9597" id="r_aefe397a94e8feddc652f92ef40ce9597"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefe397a94e8feddc652f92ef40ce9597">STB_IMAGE_WRITE_IMPLEMENTATION</a></td></tr>
+<tr class="separator:aefe397a94e8feddc652f92ef40ce9597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aa2cb8313ea4fe52bc91f370005543516" id="r_aa2cb8313ea4fe52bc91f370005543516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334">ImageChannelPrimitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#aa2cb8313ea4fe52bc91f370005543516">CoreGraphics::ToImagePrimitive</a> (<a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a> code)</td></tr>
+<tr class="separator:aa2cb8313ea4fe52bc91f370005543516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b6b3783916d2e2699f0ff0ccdea325e" id="r_a4b6b3783916d2e2699f0ff0ccdea325e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a4b6b3783916d2e2699f0ff0ccdea325e">CoreGraphics::CreateImage</a> (const <a class="el" href="struct_core_graphics_1_1_image_create_info_file.html">ImageCreateInfoFile</a> &amp;info)</td></tr>
 <tr class="memdesc:a4b6b3783916d2e2699f0ff0ccdea325e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create image from file path  <br /></td></tr>
 <tr class="separator:a4b6b3783916d2e2699f0ff0ccdea325e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d358c7dd064ec5fd18633eeaa7dac22" id="r_a8d358c7dd064ec5fd18633eeaa7dac22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8d358c7dd064ec5fd18633eeaa7dac22">CoreGraphics::CreateImage</a> (const <a class="el" href="struct_core_graphics_1_1_image_create_info_data.html">ImageCreateInfoData</a> &amp;info)</td></tr>
 <tr class="memdesc:a8d358c7dd064ec5fd18633eeaa7dac22"><td class="mdescLeft">&#160;</td><td class="mdescRight">create image from data buffer  <br /></td></tr>
 <tr class="separator:a8d358c7dd064ec5fd18633eeaa7dac22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da352dff3df27a0c298a368d4a6933b" id="r_a6da352dff3df27a0c298a368d4a6933b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6da352dff3df27a0c298a368d4a6933b">CoreGraphics::CreateImage</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex, <a class="el" href="namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147">CoreGraphics::PipelineStage</a> stage)</td></tr>
+<tr class="memdesc:a6da352dff3df27a0c298a368d4a6933b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create image from a texture and the pipeline stage it was last used with.  <br /></td></tr>
+<tr class="separator:a6da352dff3df27a0c298a368d4a6933b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6472525af47a7d821096b3739475fc50" id="r_a6472525af47a7d821096b3739475fc50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6472525af47a7d821096b3739475fc50">CoreGraphics::DestroyImage</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a6472525af47a7d821096b3739475fc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy image  <br /></td></tr>
 <tr class="separator:a6472525af47a7d821096b3739475fc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a373cb9728bc8d9cfb9081cde28b89760" id="r_a373cb9728bc8d9cfb9081cde28b89760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_image_dimensions.html">ImageDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a373cb9728bc8d9cfb9081cde28b89760">CoreGraphics::ImageGetDimensions</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a373cb9728bc8d9cfb9081cde28b89760"><td class="mdescLeft">&#160;</td><td class="mdescRight">get image dimensions  <br /></td></tr>
 <tr class="separator:a373cb9728bc8d9cfb9081cde28b89760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e917550308e5f57b916415efb3b20d4" id="r_a8e917550308e5f57b916415efb3b20d4"><td class="memItemLeft" align="right" valign="top">const byte *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a8e917550308e5f57b916415efb3b20d4">CoreGraphics::ImageGetBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a8e917550308e5f57b916415efb3b20d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to buffer  <br /></td></tr>
-<tr class="separator:a8e917550308e5f57b916415efb3b20d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7423b5a5bde7ad8fcd6e311b7ccae64b" id="r_a7423b5a5bde7ad8fcd6e311b7ccae64b"><td class="memItemLeft" align="right" valign="top">const byte *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7423b5a5bde7ad8fcd6e311b7ccae64b">CoreGraphics::ImageGetRedPtr</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a7423b5a5bde7ad8fcd6e311b7ccae64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to first element of red channel  <br /></td></tr>
-<tr class="separator:a7423b5a5bde7ad8fcd6e311b7ccae64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ab08739776035572b241f885e2c0b0c" id="r_a2ab08739776035572b241f885e2c0b0c"><td class="memItemLeft" align="right" valign="top">const byte *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a2ab08739776035572b241f885e2c0b0c">CoreGraphics::ImageGetGreenPtr</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a2ab08739776035572b241f885e2c0b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to first element of green channel  <br /></td></tr>
-<tr class="separator:a2ab08739776035572b241f885e2c0b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a7baecff11a7f91f5332735faef9c23" id="r_a9a7baecff11a7f91f5332735faef9c23"><td class="memItemLeft" align="right" valign="top">const byte *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9a7baecff11a7f91f5332735faef9c23">CoreGraphics::ImageGetBluePtr</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a9a7baecff11a7f91f5332735faef9c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to first element of blue channel  <br /></td></tr>
-<tr class="separator:a9a7baecff11a7f91f5332735faef9c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26ac95d29d2a3f3a20d00230cfd279a3" id="r_a26ac95d29d2a3f3a20d00230cfd279a3"><td class="memItemLeft" align="right" valign="top">const byte *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a26ac95d29d2a3f3a20d00230cfd279a3">CoreGraphics::ImageGetAlphaPtr</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a26ac95d29d2a3f3a20d00230cfd279a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to first element if alpha channel  <br /></td></tr>
-<tr class="separator:a26ac95d29d2a3f3a20d00230cfd279a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cdc3d35a1532179f441d64b060ff2e" id="r_a49cdc3d35a1532179f441d64b060ff2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a5dd4f281954ce1405c92d62a427f839a">ubyte</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a49cdc3d35a1532179f441d64b060ff2e">CoreGraphics::ImageGetBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a49cdc3d35a1532179f441d64b060ff2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pointer to buffer.  <br /></td></tr>
+<tr class="separator:a49cdc3d35a1532179f441d64b060ff2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d6296fc48ee86a02f32a6870a85fa2f" id="r_a4d6296fc48ee86a02f32a6870a85fa2f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a4d6296fc48ee86a02f32a6870a85fa2f">CoreGraphics::ImageGetPixelStride</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memdesc:a4d6296fc48ee86a02f32a6870a85fa2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pixel stride, using the above pointers makes it possible to get all reds, blues, greens, etc.  <br /></td></tr>
+<tr class="memdesc:a4d6296fc48ee86a02f32a6870a85fa2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pixel stride in bytes.  <br /></td></tr>
 <tr class="separator:a4d6296fc48ee86a02f32a6870a85fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cbfaacace3150a56dac6b63498b166" id="r_ab0cbfaacace3150a56dac6b63498b166"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ab0cbfaacace3150a56dac6b63498b166">CoreGraphics::ImageGetChannelStride</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:ab0cbfaacace3150a56dac6b63498b166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get channel stride in bytes.  <br /></td></tr>
+<tr class="separator:ab0cbfaacace3150a56dac6b63498b166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1023e70a0db939c39e2322661ef8579" id="r_ac1023e70a0db939c39e2322661ef8579"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ac1023e70a0db939c39e2322661ef8579">CoreGraphics::half_to_float</a> (uint16_t h)</td></tr>
+<tr class="separator:ac1023e70a0db939c39e2322661ef8579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9322946f024d0bf020cbc69602d82eda" id="r_a9322946f024d0bf020cbc69602d82eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a9322946f024d0bf020cbc69602d82eda">CoreGraphics::ImageConvertPrimitive</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334">ImageChannelPrimitive</a> primitive, bool denormalize)</td></tr>
+<tr class="memdesc:a9322946f024d0bf020cbc69602d82eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert image primitive.  <br /></td></tr>
+<tr class="separator:a9322946f024d0bf020cbc69602d82eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970b8b03823ea9ad322bdea1d38bfccd" id="r_a970b8b03823ea9ad322bdea1d38bfccd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a970b8b03823ea9ad322bdea1d38bfccd">CoreGraphics::ImageSaveToFile</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_core_graphics.html#ab1f14818932ccbe546b651b341302c88">ImageContainer</a> container, const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;path)</td></tr>
+<tr class="memdesc:a970b8b03823ea9ad322bdea1d38bfccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save image to file.  <br /></td></tr>
+<tr class="separator:a970b8b03823ea9ad322bdea1d38bfccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a64b36f89586c83a3a00987362e11d7" id="r_a7a64b36f89586c83a3a00987362e11d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a8e938721ff7b2b1538a60163b1760334">ImageChannelPrimitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a7a64b36f89586c83a3a00987362e11d7">CoreGraphics::ImageGetChannelPrimitive</a> (const <a class="el" href="struct_core_graphics_1_1_image_id.html">ImageId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a7a64b36f89586c83a3a00987362e11d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get channel primitive  <br /></td></tr>
 <tr class="separator:a7a64b36f89586c83a3a00987362e11d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:ad408f47f3ef39ffa187ee5cf03bfcc64" id="r_ad408f47f3ef39ffa187ee5cf03bfcc64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_pool_id.html">CmdBufferPoolId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#ad408f47f3ef39ffa187ee5cf03bfcc64">CoreGraphics::cmdPool</a> = CmdBufferPoolId::Invalid()</td></tr>
+<tr class="separator:ad408f47f3ef39ffa187ee5cf03bfcc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6936cf77c25ef98ccdb3b8fbbb80c033" id="r_a6936cf77c25ef98ccdb3b8fbbb80c033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_core_graphics.html#a5b91aa8d9d536bc0f7dc97e74061b59d">ImageAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_core_graphics.html#a6936cf77c25ef98ccdb3b8fbbb80c033">CoreGraphics::imageAllocator</a></td></tr>
 <tr class="separator:a6936cf77c25ef98ccdb3b8fbbb80c033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a18372412ad2fc3ce1e3240b3cf0efe78" name="a18372412ad2fc3ce1e3240b3cf0efe78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18372412ad2fc3ce1e3240b3cf0efe78">&#9670;&#160;</a></span>STB_IMAGE_IMPLEMENTATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STB_IMAGE_IMPLEMENTATION</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefe397a94e8feddc652f92ef40ce9597" name="aefe397a94e8feddc652f92ef40ce9597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefe397a94e8feddc652f92ef40ce9597">&#9670;&#160;</a></span>STB_IMAGE_WRITE_IMPLEMENTATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STB_IMAGE_WRITE_IMPLEMENTATION</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -163,7 +208,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_37551f33e300d96c62573a393f7afa02.html">coregraphics</a></li><li class="navelem"><a class="el" href="image_8cc.html">image.cc</a></li>
 				<li class="footer">
-					Generated on Tue Dec 9 2025 17:45:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Dec 17 2025 12:34:45 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

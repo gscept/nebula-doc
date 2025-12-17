@@ -343,7 +343,7 @@ var searchData=
   ['creategraphicsentity_340',['CreateGraphicsEntity',['../class_graphics_1_1_graphics_server.html#a63c5cb4f30478967bfe88ded84ff20aa',1,'Graphics::GraphicsServer']]],
   ['creategraphicspipeline_341',['CreateGraphicsPipeline',['../namespace_core_graphics.html#a9c2e23eb110d02773db21bf38c2a5c03',1,'CoreGraphics']]],
   ['createid_342',['CreateId',['../namespace_ids.html#a9c227cc79e4573d3b839e0763d7d1407',1,'Ids']]],
-  ['createimage_343',['CreateImage',['../namespace_core_graphics.html#a4b6b3783916d2e2699f0ff0ccdea325e',1,'CoreGraphics::CreateImage(const ImageCreateInfoFile &amp;info)'],['../namespace_core_graphics.html#a8d358c7dd064ec5fd18633eeaa7dac22',1,'CoreGraphics::CreateImage(const ImageCreateInfoData &amp;info)']]],
+  ['createimage_343',['CreateImage',['../namespace_core_graphics.html#a4b6b3783916d2e2699f0ff0ccdea325e',1,'CoreGraphics::CreateImage(const ImageCreateInfoFile &amp;info)'],['../namespace_core_graphics.html#a8d358c7dd064ec5fd18633eeaa7dac22',1,'CoreGraphics::CreateImage(const ImageCreateInfoData &amp;info)'],['../namespace_core_graphics.html#a6da352dff3df27a0c298a368d4a6933b',1,'CoreGraphics::CreateImage(const CoreGraphics::TextureId tex, CoreGraphics::PipelineStage stage)']]],
   ['createjob_344',['CreateJob',['../namespace_jobs.html#af1a0500babaf3a835fa53d06dc9ba52e',1,'Jobs']]],
   ['createjobport_345',['CreateJobPort',['../namespace_jobs.html#adb1daec4e4d880ba7121fb9fe40b9a69',1,'Jobs']]],
   ['createjobsync_346',['CreateJobSync',['../namespace_jobs.html#a8579448747ff5333a12a52da7e834b4a',1,'Jobs']]],
