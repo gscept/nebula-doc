@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"mediatype_8h_source.html":[10,0,0,3,9,52],
 "memdb_2attribute_8h.html":[10,0,0,0,5,0],
 "memdb_2attribute_8h_source.html":[10,0,0,0,5,0],
 "memdb_2database_8cc.html":[10,0,0,0,5,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "namespace_clustering.html#afab15f66fc118e8eb9cd1c8edbce5ca7":[8,0,9,15],
 "namespace_clustering.html#aff256b6872dc6f3d89367e93006e18ba":[8,0,9,18],
 "namespace_commands.html":[8,0,10],
-"namespace_console_hook.html":[8,0,11],
-"namespace_core.html":[8,0,12]
+"namespace_console_hook.html":[8,0,11]
 };

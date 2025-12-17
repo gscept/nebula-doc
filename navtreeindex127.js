@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_texture_relative_dimensions.html":[9,0,12,138],
 "struct_core_graphics_1_1_texture_relative_dimensions.html#a63b7325c5677a82952b3f0353c725869":[8,0,14,139,1],
 "struct_core_graphics_1_1_texture_relative_dimensions.html#a63b7325c5677a82952b3f0353c725869":[9,0,12,138,1],
 "struct_core_graphics_1_1_texture_relative_dimensions.html#ab0e8cd15eb5aa059fab7acb0994ac67c":[8,0,14,139,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "struct_dynui_1_1_imgui_texture_id.html#a8710c6c8d1678eb15967bca68544a2c7":[9,0,17,8,1],
 "struct_dynui_1_1_imgui_texture_id.html#ab382165c3ef88cdeb3ca929ced665856":[8,0,19,8,10],
 "struct_dynui_1_1_imgui_texture_id.html#ab382165c3ef88cdeb3ca929ced665856":[9,0,17,8,10],
-"struct_dynui_1_1_imgui_texture_id.html#ab9f6f7a59878a35196c6af88e4a13def":[8,0,19,8,3],
-"struct_dynui_1_1_imgui_texture_id.html#ab9f6f7a59878a35196c6af88e4a13def":[9,0,17,8,3]
+"struct_dynui_1_1_imgui_texture_id.html#ab9f6f7a59878a35196c6af88e4a13def":[8,0,19,8,3]
 };

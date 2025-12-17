@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"namespace_fog.html#a7a4c727f473154d88429d0fa974fafd9":[8,0,23,9],
 "namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d":[8,0,23,18],
 "namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8":[8,0,23,3],
 "namespace_fog.html#a895f1c12753fab63a2ac06e20f30fab8":[8,0,23,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "namespace_graphics.html#aff7327d8c202a36f5a8534cd8a0e598b":[8,0,30,33],
 "namespace_graphics_feature.html":[8,0,31],
 "namespace_graphics_feature.html#a0582dcbf4a3ffc8dace2fd718d19956a":[8,0,31,6],
-"namespace_graphics_feature.html#a0e37119a5f3524e85ac78818906fc13a":[8,0,31,5],
-"namespace_graphics_feature.html#a26fd20dda0cc6c82de211f9331bcf323":[8,0,31,3]
+"namespace_graphics_feature.html#a0e37119a5f3524e85ac78818906fc13a":[8,0,31,5]
 };

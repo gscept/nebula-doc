@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html#a1f9bcbd10856b0dbcf7d4c83214d3756":[9,0,12,85,0,2],
 "struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html#a1ff7b069de9c4bfaa11d2e3a70d30617":[8,0,14,86,0,0],
 "struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html#a1ff7b069de9c4bfaa11d2e3a70d30617":[9,0,12,85,0,0],
 "struct_core_graphics_1_1_ray_dispatch_table_1_1_entry.html#a40034597e5ae6d657269a2cb5f550c12":[8,0,14,86,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "struct_core_graphics_1_1_resource_table_tlas.html#adfaeb1ea8877e77838bc4591bc16a338":[9,0,12,110,1],
 "struct_core_graphics_1_1_sampler_create_info.html":[8,0,14,112],
 "struct_core_graphics_1_1_sampler_create_info.html":[9,0,12,111],
-"struct_core_graphics_1_1_sampler_create_info.html#a14cd2db1473bdbac9b48147018258c20":[8,0,14,112,5],
-"struct_core_graphics_1_1_sampler_create_info.html#a14cd2db1473bdbac9b48147018258c20":[9,0,12,111,5]
+"struct_core_graphics_1_1_sampler_create_info.html#a14cd2db1473bdbac9b48147018258c20":[8,0,14,112,5]
 };

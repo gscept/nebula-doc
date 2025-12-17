@@ -1,6 +1,7 @@
 var image_8cc =
 [
     [ "STB_IMAGE_IMPLEMENTATION", "image_8cc.html#a18372412ad2fc3ce1e3240b3cf0efe78", null ],
+    [ "STB_IMAGE_WRITE_16_IMPLEMENTATION", "image_8cc.html#a1e8c1dd8c84511b5ed34a68491d50d72", null ],
     [ "STB_IMAGE_WRITE_IMPLEMENTATION", "image_8cc.html#aefe397a94e8feddc652f92ef40ce9597", null ],
     [ "CoreGraphics::CreateImage", "namespace_core_graphics.html#a6da352dff3df27a0c298a368d4a6933b", null ],
     [ "CoreGraphics::CreateImage", "namespace_core_graphics.html#a8d358c7dd064ec5fd18633eeaa7dac22", null ],

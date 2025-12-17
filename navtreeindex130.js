@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"struct_game_1_1_dataset.html#af9b8a3eff69a59f381960e9078287e2c":[8,0,26,9,3],
 "struct_game_1_1_dataset.html#af9b8a3eff69a59f381960e9078287e2c":[9,0,23,8,3],
 "struct_game_1_1_dataset_1_1_view.html":[8,0,26,9,0],
 "struct_game_1_1_dataset_1_1_view.html":[9,0,23,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "struct_graphics_1_1_graphics_context_state.html#ac243828bd7676d169b23dcf8892b0585":[8,0,30,9,6],
 "struct_graphics_1_1_graphics_context_state.html#ac243828bd7676d169b23dcf8892b0585":[9,0,27,9,6],
 "struct_graphics_1_1_graphics_context_state.html#ac980bbf0956b353c5e7bf4b8b4deb2bf":[8,0,30,9,5],
-"struct_graphics_1_1_graphics_context_state.html#ac980bbf0956b353c5e7bf4b8b4deb2bf":[9,0,27,9,5],
-"struct_graphics_1_1_graphics_context_state.html#afeae260b7c03b46d2da27e76ee86258b":[8,0,30,9,1]
+"struct_graphics_1_1_graphics_context_state.html#ac980bbf0956b353c5e7bf4b8b4deb2bf":[9,0,27,9,5]
 };
