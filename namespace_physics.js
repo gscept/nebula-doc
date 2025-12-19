@@ -72,6 +72,7 @@ var namespace_physics =
     [ "GetNrMaterials", "namespace_physics.html#a3b0738dc40f8ee43d14b350d394ba542", null ],
     [ "GetScene", "namespace_physics.html#a06a97b72f4565260a296050f0559b9c2", null ],
     [ "GetShapeCopy", "namespace_physics.html#a7540681513bb3c99db73f19e3cd41882", null ],
+    [ "LoadCollisionFilters", "namespace_physics.html#aef5e276eb0788f39099bc2abb3e51484", null ],
     [ "LoadMaterialTable", "namespace_physics.html#ab7ef80ee0552de677b13f2f99451a8a5", null ],
     [ "LookupMaterial", "namespace_physics.html#ae94c2d0fe8bca1aaa94b979253d03be2", null ],
     [ "PostSceneUpdates", "namespace_physics.html#a72eb78f81c7d024e72ef120ca0502c2d", null ],

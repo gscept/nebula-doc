@@ -149,6 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf343099dff59a32224ba24f4b9e1418" id="r_aaf343099dff59a32224ba24f4b9e1418"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf343099dff59a32224ba24f4b9e1418">Dequeue</a> ()</td></tr>
 <tr class="memdesc:aaf343099dff59a32224ba24f4b9e1418"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove the element from the front of the queue  <br /></td></tr>
 <tr class="separator:aaf343099dff59a32224ba24f4b9e1418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425b425bb8abe2a2c2e418b6d2ab4763" id="r_a425b425bb8abe2a2c2e418b6d2ab4763"><td class="memItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425b425bb8abe2a2c2e418b6d2ab4763">DequeueSafe</a> (const TYPE &amp;failed)</td></tr>
+<tr class="memdesc:a425b425bb8abe2a2c2e418b6d2ab4763"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove the element from the front of the queue and returns the failed object if empty  <br /></td></tr>
+<tr class="separator:a425b425bb8abe2a2c2e418b6d2ab4763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a047995eb4a907dc28b44da1c5abb25e7" id="r_a047995eb4a907dc28b44da1c5abb25e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047995eb4a907dc28b44da1c5abb25e7">DequeueAll</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE &gt; &amp;outArray)</td></tr>
 <tr class="memdesc:a047995eb4a907dc28b44da1c5abb25e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">dequeue all events (only requires one lock)  <br /></td></tr>
 <tr class="separator:a047995eb4a907dc28b44da1c5abb25e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,6 +313,27 @@ template&lt;int STACK_SIZE&gt; </div>
 </div><div class="memdoc">
 
 <p>Dequeue all events to an array with a stack size. </p>
+
+</div>
+</div>
+<a id="a425b425bb8abe2a2c2e418b6d2ab4763" name="a425b425bb8abe2a2c2e418b6d2ab4763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a425b425bb8abe2a2c2e418b6d2ab4763">&#9670;&#160;</a></span>DequeueSafe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">TYPE <a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; TYPE &gt;::DequeueSafe </td>
+          <td>(</td>
+          <td class="paramtype">const TYPE &amp;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>remove the element from the front of the queue and returns the failed object if empty </p>
 
 </div>
 </div>
@@ -693,7 +717,7 @@ template&lt;class TYPE&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_threading.html">Threading</a></li><li class="navelem"><a class="el" href="class_threading_1_1_safe_queue.html">SafeQueue</a></li>
 				<li class="footer">
-					Generated on Wed Dec 17 2025 12:42:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Dec 19 2025 21:14:53 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

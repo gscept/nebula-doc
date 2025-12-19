@@ -28,8 +28,9 @@ var searchData=
   ['queue_3c_20resources_3a_3aresourceloader_3a_3a_5fpendingstreamlod_20_3e_25',['Queue&lt; Resources::ResourceLoader::_PendingStreamLod &gt;',['../class_util_1_1_queue.html',1,'Util']]],
   ['queue_3c_20resources_3a_3aresourceloader_3a_3aresourceloadoutput_20_3e_26',['Queue&lt; Resources::ResourceLoader::ResourceLoadOutput &gt;',['../class_util_1_1_queue.html',1,'Util']]],
   ['queue_3c_20std_3a_3afunction_3c_20void_28_29_3e_20_3e_27',['Queue&lt; std::function&lt; void()&gt; &gt;',['../class_util_1_1_queue.html',1,'Util']]],
-  ['queue_3c_20uint32_5ft_20_3e_28',['Queue&lt; uint32_t &gt;',['../class_util_1_1_queue.html',1,'Util']]],
-  ['queue_3c_20util_3a_3akeyvaluepair_3c_20pritype_2c_20type_20_3e_20_3e_29',['Queue&lt; Util::KeyValuePair&lt; PRITYPE, TYPE &gt; &gt;',['../class_util_1_1_queue.html',1,'Util']]],
-  ['queue_3c_20util_3a_3astringatom_20_3e_30',['Queue&lt; Util::StringAtom &gt;',['../class_util_1_1_queue.html',1,'Util']]],
-  ['queue_3c_20vulkan_3a_3avkshaderserver_3a_3a_5fpendingview_20_3e_31',['Queue&lt; Vulkan::VkShaderServer::_PendingView &gt;',['../class_util_1_1_queue.html',1,'Util']]]
+  ['queue_3c_20ubyte_20_2a_20_3e_28',['Queue&lt; ubyte * &gt;',['../class_util_1_1_queue.html',1,'Util']]],
+  ['queue_3c_20uint32_5ft_20_3e_29',['Queue&lt; uint32_t &gt;',['../class_util_1_1_queue.html',1,'Util']]],
+  ['queue_3c_20util_3a_3akeyvaluepair_3c_20pritype_2c_20type_20_3e_20_3e_30',['Queue&lt; Util::KeyValuePair&lt; PRITYPE, TYPE &gt; &gt;',['../class_util_1_1_queue.html',1,'Util']]],
+  ['queue_3c_20util_3a_3astringatom_20_3e_31',['Queue&lt; Util::StringAtom &gt;',['../class_util_1_1_queue.html',1,'Util']]],
+  ['queue_3c_20vulkan_3a_3avkshaderserver_3a_3a_5fpendingview_20_3e_32',['Queue&lt; Vulkan::VkShaderServer::_PendingView &gt;',['../class_util_1_1_queue.html',1,'Util']]]
 ];

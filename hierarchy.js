@@ -22,6 +22,7 @@ var hierarchy =
     [ "CoreGraphics::Adapter", "class_core_graphics_1_1_adapter.html", null ],
     [ "CoreGraphics::AdapterInfo", "class_core_graphics_1_1_adapter_info.html", null ],
     [ "Game::World::AddStagedComponentCommand", "struct_game_1_1_world_1_1_add_staged_component_command.html", null ],
+    [ "Navigation::AgentContext", "class_navigation_1_1_agent_context.html", null ],
     [ "Physics::Aggregate", "struct_physics_1_1_aggregate.html", null ],
     [ "Physics::AggregateContext", "class_physics_1_1_aggregate_context.html", null ],
     [ "Physics::AggregateId", "struct_physics_1_1_aggregate_id.html", null ],
@@ -125,6 +126,7 @@ var hierarchy =
     ] ],
     [ "Util::ArrayAllocator< TYPES >", "class_util_1_1_array_allocator.html", null ],
     [ "Util::ArrayAllocator< TYPES... >", "class_util_1_1_array_allocator.html", [
+      [ "Ids::IdAllocator< CrowdAgentId, int, NavMeshId, Math::point >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::StringAtom, Util::FixedArray< Ptr< JobThread > >, uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< CreateJobInfo, std::function< void()>, PrivateMemory >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< std::function< void()>, Threading::Event *, std::atomic_uint *, bool >", "class_ids_1_1_id_allocator.html", null ],
@@ -194,6 +196,7 @@ var hierarchy =
       [ "Ids::IdAllocatorSafe< 0xFFFF, CoreGraphics::TextureViewId, IndexT >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFF, VkTextureSwapInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFF, TextureSparsePageTable, VkSparseImageMemoryRequirements, Util::Array< VkSparseMemoryBind >, Util::Array< VkSparseImageMemoryBind >, Util::Array< CoreGraphics::Alloc > >", "class_ids_1_1_id_allocator_safe.html", null ],
+      [ "Ids::IdAllocatorSafe< 0xff, Util::StringAtom, dtNavMesh *, dtNavMeshQuery *, NavMeshT >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFFFF, Physics::ActorInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFFFF, Physics::ConstraintInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFFFF, Physics::AggregateInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
@@ -406,6 +409,7 @@ var hierarchy =
     [ "Jobs::CreateJobSyncInfo", "struct_jobs_1_1_create_job_sync_info.html", null ],
     [ "Threading::CriticalScope", "struct_threading_1_1_critical_scope.html", null ],
     [ "CriticalSection", "class_threading_1_1_critical_section.html", null ],
+    [ "Navigation::CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
     [ "Lighting::CSMUtil", "class_lighting_1_1_c_s_m_util.html", null ],
     [ "CoreAnimation::CurveType", "class_core_animation_1_1_curve_type.html", null ],
     [ "Core::CVar", "struct_core_1_1_c_var.html", null ],
@@ -449,6 +453,9 @@ var hierarchy =
     [ "Im3d::DrawList", "struct_im3d_1_1_draw_list.html", null ],
     [ "Models::ShaderStateNode::DrawPacket", "struct_models_1_1_shader_state_node_1_1_draw_packet.html", null ],
     [ "CoreGraphics::DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", null ],
+    [ "duDebugDraw", null, [
+      [ "Navigation::DebugDraw", "struct_navigation_1_1_debug_draw.html", null ]
+    ] ],
     [ "Game::EditorState", "class_game_1_1_editor_state.html", null ],
     [ "Util::PriorityArray< TYPE >::Element", "struct_util_1_1_priority_array_1_1_element.html", null ],
     [ "Particles::EmitterAttrs", "class_particles_1_1_emitter_attrs.html", null ],
@@ -559,6 +566,7 @@ var hierarchy =
     [ "GameContentServer", "class_i_o_1_1_game_content_server.html", null ],
     [ "GamePad", "class_input_1_1_game_pad.html", null ],
     [ "Gcc::GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", null ],
+    [ "Base::GenericMemoryPool", "class_base_1_1_generic_memory_pool.html", null ],
     [ "RenderUtil::Geometry", "struct_render_util_1_1_geometry.html", null ],
     [ "StaticUI::UltralightRenderer::GeometryHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html", null ],
     [ "RenderUtil::GeometryHelpers", "class_render_util_1_1_geometry_helpers.html", null ],
@@ -802,6 +810,7 @@ var hierarchy =
     [ "Nebula.Game.MsgDispatcher", "class_nebula_1_1_game_1_1_msg_dispatcher.html", null ],
     [ "Nebula.Game.MsgDispatcher.MsgEvent", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html", null ],
     [ "Nebula.Game.NativeComponent", "interface_nebula_1_1_game_1_1_native_component.html", null ],
+    [ "Navigation::NavMeshId", "struct_navigation_1_1_nav_mesh_id.html", null ],
     [ "CoreAnimation::Nax2Curve", "struct_core_animation_1_1_nax2_curve.html", null ],
     [ "CoreAnimation::Nax2Group", "struct_core_animation_1_1_nax2_group.html", null ],
     [ "CoreAnimation::Nax2Header", "struct_core_animation_1_1_nax2_header.html", null ],
@@ -879,6 +888,7 @@ var hierarchy =
     [ "PhysicsInterface", "class_physics_1_1_physics_interface.html", null ],
     [ "Physics::PhysicsResourceId", "struct_physics_1_1_physics_resource_id.html", null ],
     [ "Math::PIDFeedbackLoop", "class_math_1_1_p_i_d_feedback_loop.html", null ],
+    [ "NavigationFeature::NavigationManager::Pids", "struct_navigation_feature_1_1_navigation_manager_1_1_pids.html", null ],
     [ "CoreGraphics::PinnedBuffer< STORAGE >", "struct_core_graphics_1_1_pinned_buffer.html", null ],
     [ "Vulkan::Pipeline", "struct_vulkan_1_1_pipeline.html", null ],
     [ "CoreGraphics::PipelineCreateInfo", "struct_core_graphics_1_1_pipeline_create_info.html", null ],
@@ -1052,6 +1062,7 @@ var hierarchy =
         [ "BaseGameFeature::BaseGameFeatureUnit", "class_base_game_feature_1_1_base_game_feature_unit.html", null ],
         [ "GraphicsFeature::GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html", null ],
         [ "Multiplayer::MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", null ],
+        [ "NavigationFeature::NavigationFeatureUnit", "class_navigation_feature_1_1_navigation_feature_unit.html", null ],
         [ "PhysicsFeature::PhysicsFeatureUnit", "class_physics_feature_1_1_physics_feature_unit.html", null ],
         [ "Scripting::ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", null ]
       ] ],
@@ -1062,6 +1073,7 @@ var hierarchy =
         [ "Game::TimeManager", "class_game_1_1_time_manager.html", null ],
         [ "GraphicsFeature::CameraManager", "class_graphics_feature_1_1_camera_manager.html", null ],
         [ "GraphicsFeature::GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html", null ],
+        [ "NavigationFeature::NavigationManager", "class_navigation_feature_1_1_navigation_manager.html", null ],
         [ "PhysicsFeature::CharacterManager", "class_physics_feature_1_1_character_manager.html", null ],
         [ "PhysicsFeature::PhysicsManager", "class_physics_feature_1_1_physics_manager.html", null ]
       ] ],
@@ -1072,7 +1084,9 @@ var hierarchy =
       [ "Http::HttpRequestHandler", "class_http_1_1_http_request_handler.html", [
         [ "Debug::ConsolePageHandler", "class_debug_1_1_console_page_handler.html", null ],
         [ "Debug::CorePageHandler", "class_debug_1_1_core_page_handler.html", null ],
-        [ "Debug::DebugPageHandler", "class_debug_1_1_debug_page_handler.html", null ],
+        [ "Debug::DebugPageHandler", "class_debug_1_1_debug_page_handler.html", [
+          [ "Navigation::NavigationPageHandler", "class_navigation_1_1_navigation_page_handler.html", null ]
+        ] ],
         [ "Debug::DisplayPageHandler", "class_debug_1_1_display_page_handler.html", null ],
         [ "Debug::HelloWorldRequestHandler", "class_debug_1_1_hello_world_request_handler.html", null ],
         [ "Debug::IoPageHandler", "class_debug_1_1_io_page_handler.html", null ],
@@ -1215,6 +1229,7 @@ var hierarchy =
         [ "CoreGraphics::TextureLoader", "class_core_graphics_1_1_texture_loader.html", null ],
         [ "Materials::MaterialLoader", "class_materials_1_1_material_loader.html", null ],
         [ "Models::ModelLoader", "class_models_1_1_model_loader.html", null ],
+        [ "Navigation::StreamNavMeshCache", "class_navigation_1_1_stream_nav_mesh_cache.html", null ],
         [ "Physics::StreamActorPool", "class_physics_1_1_stream_actor_pool.html", null ]
       ] ],
       [ "Resources::ResourceSaver", "class_resources_1_1_resource_saver.html", null ],

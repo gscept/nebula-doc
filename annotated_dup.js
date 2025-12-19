@@ -78,6 +78,7 @@ var annotated_dup =
       [ "DisplayDeviceBase", "class_base_1_1_display_device_base.html", "class_base_1_1_display_device_base" ],
       [ "GameContentServerBase", "class_base_1_1_game_content_server_base.html", "class_base_1_1_game_content_server_base" ],
       [ "GamePadBase", "class_base_1_1_game_pad_base.html", "class_base_1_1_game_pad_base" ],
+      [ "GenericMemoryPool", "class_base_1_1_generic_memory_pool.html", "class_base_1_1_generic_memory_pool" ],
       [ "InputServerBase", "class_base_1_1_input_server_base.html", "class_base_1_1_input_server_base" ],
       [ "InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", "class_base_1_1_instance_renderer_base" ],
       [ "InstanceServerBase", "class_base_1_1_instance_server_base.html", "class_base_1_1_instance_server_base" ],
@@ -823,6 +824,18 @@ var annotated_dup =
         [ "type_caster< Util::Dictionary< Key, Value > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ],
         [ "type_caster< Util::String >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4" ]
       ] ]
+    ] ],
+    [ "Navigation", "namespace_navigation.html", [
+      [ "AgentContext", "class_navigation_1_1_agent_context.html", "class_navigation_1_1_agent_context" ],
+      [ "CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
+      [ "DebugDraw", "struct_navigation_1_1_debug_draw.html", "struct_navigation_1_1_debug_draw" ],
+      [ "NavigationPageHandler", "class_navigation_1_1_navigation_page_handler.html", "class_navigation_1_1_navigation_page_handler" ],
+      [ "NavMeshId", "struct_navigation_1_1_nav_mesh_id.html", null ],
+      [ "StreamNavMeshCache", "class_navigation_1_1_stream_nav_mesh_cache.html", "class_navigation_1_1_stream_nav_mesh_cache" ]
+    ] ],
+    [ "NavigationFeature", "namespace_navigation_feature.html", [
+      [ "NavigationFeatureUnit", "class_navigation_feature_1_1_navigation_feature_unit.html", "class_navigation_feature_1_1_navigation_feature_unit" ],
+      [ "NavigationManager", "class_navigation_feature_1_1_navigation_manager.html", "class_navigation_feature_1_1_navigation_manager" ]
     ] ],
     [ "Nebula", "namespace_nebula.html", [
       [ "Game", "namespace_nebula_1_1_game.html", [

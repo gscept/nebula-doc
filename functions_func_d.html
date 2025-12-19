@@ -115,6 +115,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>DeallocateMemory()&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_memory_pool.html#abba6cb8751196b2f9ebdcd29fd525dfc">CoreGraphics::MemoryPool</a></li>
 <li>DeAllocateMessageQueue()&#160;:&#160;<a class="el" href="class_game_1_1_message.html#a2868dc76ee092de057fdc82eeabffd42">Game::Message&lt; MSG, TYPES &gt;</a></li>
 <li>DebugCounter()&#160;:&#160;<a class="el" href="class_debug_1_1_debug_counter.html#a0235a8ebd616023c8d60a250107bb3c2">Debug::DebugCounter</a></li>
+<li>DebugDraw()&#160;:&#160;<a class="el" href="struct_navigation_1_1_debug_draw.html#aa290dbab04e7756367c8e1eece9a1398">Navigation::DebugDraw</a></li>
 <li>DebugGenAnimJobRectangle()&#160;:&#160;<a class="el" href="class_animation_1_1_anim_sequencer.html#a06429e93db8b2db0fe0ec87e3f588224">Animation::AnimSequencer</a></li>
 <li>DebugGenTrackLines()&#160;:&#160;<a class="el" href="class_animation_1_1_anim_sequencer.html#ac0c7c290dec75561b1b424b2912f9013">Animation::AnimSequencer</a></li>
 <li>DebugHandler()&#160;:&#160;<a class="el" href="class_debug_1_1_debug_handler.html#a719eda563cff5a8f3430d7d2b310fa98">Debug::DebugHandler</a></li>
@@ -158,6 +159,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>DeleteTable()&#160;:&#160;<a class="el" href="class_db_1_1_database.html#a23ce96fc47272c1a4b64a4409a7ece1e">Db::Database</a>, <a class="el" href="class_mem_db_1_1_database.html#acf0273d65fa9fc6aad162ad8a0e653cc">MemDb::Database</a></li>
 <li>DeleteTextElementsByThreadId()&#160;:&#160;<a class="el" href="class_base_1_1_text_renderer_base.html#a9740dd1103c2496e91fad29c68759a62">Base::TextRendererBase</a></li>
 <li>denorm_min()&#160;:&#160;<a class="el" href="classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#aa83c93af97ab3fc329383cf7980d65f7">std::numeric_limits&lt; Math::half &gt;</a></li>
+<li>depthMask()&#160;:&#160;<a class="el" href="struct_navigation_1_1_debug_draw.html#abebcd8f81e7c3ae44bae251d496ee2fd">Navigation::DebugDraw</a></li>
 <li>DepthStencil()&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html#ae1ad66c2b5d978b61204d064c2f3d3da">CoreGraphics::TextureSubresourceInfo</a></li>
 <li>DepthStencilNoLayer()&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html#a39b669267ef65c7494dbdd026aec94b6">CoreGraphics::TextureSubresourceInfo</a></li>
 <li>DepthStencilNoMip()&#160;:&#160;<a class="el" href="struct_core_graphics_1_1_texture_subresource_info.html#a8eb62a30b1fa2cdb11626f2c9441abe9">CoreGraphics::TextureSubresourceInfo</a></li>
@@ -165,6 +167,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>Dequeue()&#160;:&#160;<a class="el" href="class_fibers_1_1_fiber_queue.html#ada878c5bcb884ee6c17ca0d091e12c80">Fibers::FiberQueue</a>, <a class="el" href="class_threading_1_1_lock_free_queue.html#a42456bf1b4879601845d6d47dc57f0fa">Threading::LockFreeQueue&lt; TYPE &gt;</a>, <a class="el" href="class_threading_1_1_safe_priority_queue.html#a7778d95f76a412e383370c0d6b9d0b56">Threading::SafePriorityQueue&lt; PRITYPE, TYPE &gt;</a>, <a class="el" href="class_threading_1_1_safe_queue.html#aaf343099dff59a32224ba24f4b9e1418">Threading::SafeQueue&lt; TYPE &gt;</a>, <a class="el" href="class_util_1_1_array_queue.html#ae01f7323ca98a6c44b8cd986905f2209">Util::ArrayQueue&lt; TYPE &gt;</a>, <a class="el" href="class_util_1_1_queue.html#acc308d7bbbfb99a3f60e33047dd122e3">Util::Queue&lt; TYPE &gt;</a></li>
 <li>DequeueAll()&#160;:&#160;<a class="el" href="class_threading_1_1_safe_queue.html#a047995eb4a907dc28b44da1c5abb25e7">Threading::SafeQueue&lt; TYPE &gt;</a></li>
 <li>DequeueMessages()&#160;:&#160;<a class="el" href="class_net_1_1_tcp_message_codec.html#a23ae2db96248619d17acd38d642a7cbf">Net::TcpMessageCodec</a></li>
+<li>DequeueSafe()&#160;:&#160;<a class="el" href="class_threading_1_1_safe_queue.html#a425b425bb8abe2a2c2e418b6d2ab4763">Threading::SafeQueue&lt; TYPE &gt;</a></li>
 <li>Deregister()&#160;:&#160;<a class="el" href="class_game_1_1_message.html#ad14119129f547bc0b5994c7b741aeb79">Game::Message&lt; MSG, TYPES &gt;</a></li>
 <li>DeregisterAll()&#160;:&#160;<a class="el" href="class_game_1_1_message.html#ad4b9ef394af2231f04b3fcf3221523af">Game::Message&lt; MSG, TYPES &gt;</a></li>
 <li>DeregisterStreamLoader()&#160;:&#160;<a class="el" href="class_resources_1_1_resource_server.html#a7300cc103fc3199f4526bbb54f61bf78">Resources::ResourceServer</a></li>
@@ -242,8 +245,8 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>DrawBox()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#ae8b28872054df43c05ee1ef9ca5253f9">Im3d::Im3dContext</a></li>
 <li>DrawBufferedIndexedPrimitives()&#160;:&#160;<a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a730366c1f83eed35cd93aa0082fd4fb0">Vulkan::VkShapeRenderer</a></li>
 <li>DrawBufferedPrimitives()&#160;:&#160;<a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#ae73b3d0809e6a57b1e87747bff79776f">Vulkan::VkShapeRenderer</a></li>
-<li>DrawCone()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#a457e64442177137b7905ea43a6fb37b1">Im3d::Im3dContext</a></li>
-<li>DrawCylinder()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#a79da7afad01291afa2de27897de0f704">Im3d::Im3dContext</a></li>
+<li>DrawCone()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#ab6e18a2d5f1311ae658d592e1dbaf92c">Im3d::Im3dContext</a></li>
+<li>DrawCylinder()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#adbf9462858e9b6b4c7dc5a69e0b5e287">Im3d::Im3dContext</a></li>
 <li>DrawIndexedPrimitives()&#160;:&#160;<a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a62def4482a9fa2695f240d5b4b889156">Vulkan::VkShapeRenderer</a></li>
 <li>DrawInspector()&#160;:&#160;<a class="el" href="class_game_1_1_component_inspection.html#aeb212e8eaad3ee406d19450a04f4a8a1">Game::ComponentInspection</a></li>
 <li>DrawLine()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#a433ae3843529d0e1cf2d394def9a8181">Im3d::Im3dContext</a>, <a class="el" href="class_physics_1_1_visual_debugger.html#ac2dae87195703f418e0199ec45358408">Physics::VisualDebugger</a></li>
@@ -252,6 +255,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 <li>DrawPlane()&#160;:&#160;<a class="el" href="class_physics_1_1_visual_debugger.html#a35dff1885d8086cedd9768eaa10e601c">Physics::VisualDebugger</a></li>
 <li>DrawPoint()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#ac9e256cdca0804e925b35b9e9396e122">Im3d::Im3dContext</a></li>
 <li>DrawPrimitives()&#160;:&#160;<a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a5555f39d131ea718e45d376df03a84d4">Vulkan::VkShapeRenderer</a></li>
+<li>DrawQuad()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#aa7e1c04ac835329739c8106a79aae205">Im3d::Im3dContext</a></li>
 <li>DrawShapes()&#160;:&#160;<a class="el" href="class_base_1_1_shape_renderer_base.html#a5afde7cf15ce8284de6946bbbaa31130">Base::ShapeRendererBase</a>, <a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a2f1f2e6a31b7632c3bb0552fc7ab62a1">Vulkan::VkShapeRenderer</a></li>
 <li>DrawSimpleShape()&#160;:&#160;<a class="el" href="class_vulkan_1_1_vk_shape_renderer.html#a24216496ca7edadb2a660a0d5b060959">Vulkan::VkShapeRenderer</a></li>
 <li>DrawSphere()&#160;:&#160;<a class="el" href="class_im3d_1_1_im3d_context.html#ae1c66bfbf8a19a5dcec41b01a05316eb">Im3d::Im3dContext</a></li>
@@ -276,7 +280,7 @@ $(function(){initNavTree('functions_func_d.html',''); initResizable(true); });
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Wed Dec 17 2025 12:42:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Dec 19 2025 21:14:55 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

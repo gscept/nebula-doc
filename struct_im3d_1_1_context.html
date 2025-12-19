@@ -198,6 +198,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8550120d4318fad7d3c4a357846ca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33fa62822df2f31c3ff2e22f66b23f53" id="r_a33fa62822df2f31c3ff2e22f66b23f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33fa62822df2f31c3ff2e22f66b23f53">popId</a> ()</td></tr>
 <tr class="separator:a33fa62822df2f31c3ff2e22f66b23f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d16066ec9a6a716d0f0c24a5cd93231" id="r_a1d16066ec9a6a716d0f0c24a5cd93231"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d16066ec9a6a716d0f0c24a5cd93231">idWasActivated</a> ()</td></tr>
+<tr class="separator:a1d16066ec9a6a716d0f0c24a5cd93231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a003823ea873bcfeb287e52c2bac8a" id="r_aa2a003823ea873bcfeb287e52c2bac8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_im3d_1_1_app_data.html">AppData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a003823ea873bcfeb287e52c2bac8a">getAppData</a> ()</td></tr>
 <tr class="separator:aa2a003823ea873bcfeb287e52c2bac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8667f9e58e9baf2652f383235a75746f" id="r_a8667f9e58e9baf2652f383235a75746f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8667f9e58e9baf2652f383235a75746f">gizmoAxisTranslation_Behavior</a> (<a class="el" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a> _id, const <a class="el" href="struct_im3d_1_1_vec3.html">Vec3</a> &amp;_origin, const <a class="el" href="struct_im3d_1_1_vec3.html">Vec3</a> &amp;_axis, float _snap, float _worldHeight, float _worldSize, <a class="el" href="struct_im3d_1_1_vec3.html">Vec3</a> *_out_)</td></tr>
@@ -263,6 +265,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a39439ce2a1e0f94868e867c576497902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4a0da4ffddb73c2c78f12404bc32659" id="r_ab4a0da4ffddb73c2c78f12404bc32659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a0da4ffddb73c2c78f12404bc32659">m_appHotId</a></td></tr>
 <tr class="separator:ab4a0da4ffddb73c2c78f12404bc32659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bc84153d37caa6f85e0b3dda45298d" id="r_a18bc84153d37caa6f85e0b3dda45298d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18bc84153d37caa6f85e0b3dda45298d">m_appIdActivated</a></td></tr>
+<tr class="separator:a18bc84153d37caa6f85e0b3dda45298d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d850385e4328b03488ad3b73e66fe6" id="r_a73d850385e4328b03488ad3b73e66fe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_im3d_1_1_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d850385e4328b03488ad3b73e66fe6">m_gizmoStateVec3</a></td></tr>
 <tr class="separator:a73d850385e4328b03488ad3b73e66fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa959635c3d35bcd5f650548445e63ae9" id="r_aa959635c3d35bcd5f650548445e63ae9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_im3d_1_1_mat3.html">Mat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa959635c3d35bcd5f650548445e63ae9">m_gizmoStateMat3</a></td></tr>
@@ -1308,6 +1312,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1d16066ec9a6a716d0f0c24a5cd93231" name="a1d16066ec9a6a716d0f0c24a5cd93231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d16066ec9a6a716d0f0c24a5cd93231">&#9670;&#160;</a></span>idWasActivated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Im3d::Context::idWasActivated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a028eb741fc493c6c335a2c977f42b095" name="a028eb741fc493c6c335a2c977f42b095"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a028eb741fc493c6c335a2c977f42b095">&#9670;&#160;</a></span>isKeyDown()</h2>
 
@@ -2276,6 +2305,20 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a18bc84153d37caa6f85e0b3dda45298d" name="a18bc84153d37caa6f85e0b3dda45298d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18bc84153d37caa6f85e0b3dda45298d">&#9670;&#160;</a></span>m_appIdActivated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_im3d.html#a3527224ef63046767381b01d728efd5a">Id</a> Im3d::Context::m_appIdActivated</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac2caf204c3566ab232e1556fb07cd869" name="ac2caf204c3566ab232e1556fb07cd869"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2caf204c3566ab232e1556fb07cd869">&#9670;&#160;</a></span>m_colorStack</h2>
 
@@ -2985,7 +3028,7 @@ Private Attributes</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_im3d.html">Im3d</a></li><li class="navelem"><a class="el" href="struct_im3d_1_1_context.html">Context</a></li>
 				<li class="footer">
-					Generated on Wed Dec 17 2025 12:42:17 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Dec 19 2025 21:14:51 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

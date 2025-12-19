@@ -4,6 +4,7 @@ var namespace_base =
     [ "DisplayDeviceBase", "class_base_1_1_display_device_base.html", "class_base_1_1_display_device_base" ],
     [ "GameContentServerBase", "class_base_1_1_game_content_server_base.html", "class_base_1_1_game_content_server_base" ],
     [ "GamePadBase", "class_base_1_1_game_pad_base.html", "class_base_1_1_game_pad_base" ],
+    [ "GenericMemoryPool", "class_base_1_1_generic_memory_pool.html", "class_base_1_1_generic_memory_pool" ],
     [ "InputServerBase", "class_base_1_1_input_server_base.html", "class_base_1_1_input_server_base" ],
     [ "InstanceRendererBase", "class_base_1_1_instance_renderer_base.html", "class_base_1_1_instance_renderer_base" ],
     [ "InstanceServerBase", "class_base_1_1_instance_server_base.html", "class_base_1_1_instance_server_base" ],

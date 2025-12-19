@@ -1,0 +1,25 @@
+var class_base_1_1_generic_memory_pool =
+[
+    [ "GenericMemoryPool", "class_base_1_1_generic_memory_pool.html#a4880b62676bb500b9d6ab2067259fd99", null ],
+    [ "~GenericMemoryPool", "class_base_1_1_generic_memory_pool.html#a8718c04d793940dfee7d1f4c276e9995", null ],
+    [ "Alloc", "class_base_1_1_generic_memory_pool.html#a3c2ec005c82bdb7b3ef1ca68d44a8ced", null ],
+    [ "ComputeAlignedBlockSize", "class_base_1_1_generic_memory_pool.html#ad30ff5ee239387b0b0d3f05c8b8af6d6", null ],
+    [ "Free", "class_base_1_1_generic_memory_pool.html#a27211c9743cb2dceb0fc2871aeacaa73", null ],
+    [ "GetAlignedBlockSize", "class_base_1_1_generic_memory_pool.html#a8c7a616ce27ee04a65b0b36486fcc108", null ],
+    [ "GetBlockSize", "class_base_1_1_generic_memory_pool.html#a23d99a763d2f5a2db424b775032b3200", null ],
+    [ "GetNumBlocks", "class_base_1_1_generic_memory_pool.html#a76ac9a8db602fb9a7cb1cb184ccbabe4", null ],
+    [ "GetPoolSize", "class_base_1_1_generic_memory_pool.html#aadf3354d71dd4a5a3c62dfd8a746fabc", null ],
+    [ "IsPoolBlock", "class_base_1_1_generic_memory_pool.html#ab4e4db460d6bc33f1bcea03d4aa08e36", null ],
+    [ "Setup", "class_base_1_1_generic_memory_pool.html#ac3ed3a42d4951e6c328bc3aa525b106c", null ],
+    [ "alignedBlockSize", "class_base_1_1_generic_memory_pool.html#ae52d8faf2f2268cb2ae42ac89041d08c", null ],
+    [ "BlockAlign", "class_base_1_1_generic_memory_pool.html#a4adb55144a8270b9e4ee12c99856c849", null ],
+    [ "blockSize", "class_base_1_1_generic_memory_pool.html#a6c032aa717754f336969bc5c2eaf081c", null ],
+    [ "FreeBlockPattern", "class_base_1_1_generic_memory_pool.html#a0129981898f5466c75120d66875149ad", null ],
+    [ "freeList", "class_base_1_1_generic_memory_pool.html#a4b150b54ce7729b5dccf5bbe029e3785", null ],
+    [ "heapType", "class_base_1_1_generic_memory_pool.html#a2c945544abb8c6e19048fc163c6afb19", null ],
+    [ "NewBlockPattern", "class_base_1_1_generic_memory_pool.html#a86109710ca60bb73b3543a827fa82c8c", null ],
+    [ "numBlocks", "class_base_1_1_generic_memory_pool.html#a8ed4dee97df438c98e2210b1ba760c75", null ],
+    [ "poolEnd", "class_base_1_1_generic_memory_pool.html#a1aa59f39c10224315b6deb8bdb49d1b3", null ],
+    [ "poolSize", "class_base_1_1_generic_memory_pool.html#ae4285c2731a4c8ea20f730c8bf3d098b", null ],
+    [ "poolStart", "class_base_1_1_generic_memory_pool.html#aa31cf46f2f668a413cabc54c931c6c1c", null ]
+];
