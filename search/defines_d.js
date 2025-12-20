@@ -230,6 +230,5 @@ var searchData=
   ['nominmax_227',['NOMINMAX',['../pythonserver_8cc.html#a9f918755b601cf4bffca775992e6fb90',1,'NOMINMAX:&#160;pythonserver.cc'],['../foundation_2core_2win32_2precompiled_8h.html#a9f918755b601cf4bffca775992e6fb90',1,'NOMINMAX:&#160;precompiled.h']]],
   ['noopenfile_228',['NOOPENFILE',['../foundation_2core_2win32_2precompiled_8h.html#a2d7186e4a6dfcc0011461ce1e8b70a05',1,'precompiled.h']]],
   ['noprofiler_229',['NOPROFILER',['../foundation_2core_2win32_2precompiled_8h.html#af883320ccbc88fe5ff2d8733ec0a034f',1,'precompiled.h']]],
-  ['noservice_230',['NOSERVICE',['../foundation_2core_2win32_2precompiled_8h.html#a14ac98af6281e748377693d824e41ca9',1,'precompiled.h']]],
-  ['nosound_231',['NOSOUND',['../foundation_2core_2win32_2precompiled_8h.html#af40cddcc88a6ebeed4f75d4bbbed195e',1,'precompiled.h']]]
+  ['noservice_230',['NOSERVICE',['../foundation_2core_2win32_2precompiled_8h.html#a14ac98af6281e748377693d824e41ca9',1,'precompiled.h']]]
 ];

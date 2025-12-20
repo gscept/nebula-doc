@@ -1,6 +1,5 @@
 var NAVTREEINDEX155 =
 {
-"struct_visibility_1_1_portal_system_load_info.html":[9,0,76,9],
 "struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[8,0,91,9,0],
 "struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[9,0,76,9,0],
 "struct_visibility_1_1_quadtree_system_load_info.html":[8,0,91,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX155 =
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#a354396340271d0cf4699eb4ce4c0c93d":[9,0,77,7,2,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#ab6f25ddc53807a535e475b28d80a6d3f":[8,0,92,7,2,1],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#ab6f25ddc53807a535e475b28d80a6d3f":[9,0,77,7,2,1],
-"struct_vulkan_1_1_graphics_device_state_1_1_queries.html":[8,0,92,7,3]
+"struct_vulkan_1_1_graphics_device_state_1_1_queries.html":[8,0,92,7,3],
+"struct_vulkan_1_1_graphics_device_state_1_1_queries.html":[9,0,77,7,3]
 };

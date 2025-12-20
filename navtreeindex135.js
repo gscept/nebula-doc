@@ -1,6 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[8,0,34,0,5,0],
 "struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[8,0,34,0,6,0],
 "struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[8,0,34,0,7,0],
 "struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[8,0,34,0,8,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX135 =
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[8,0,41,0,0,4],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[9,0,37,0,0,4],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[8,0,41,0,0,5],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[9,0,37,0,0,5]
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[9,0,37,0,0,5],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a8e63cff798aabfb36c13af058506de2a":[8,0,41,0,0,0]
 };

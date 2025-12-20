@@ -14,7 +14,6 @@ var foundation_2core_2win32_2precompiled_8h =
     [ "NOOPENFILE", "foundation_2core_2win32_2precompiled_8h.html#a2d7186e4a6dfcc0011461ce1e8b70a05", null ],
     [ "NOPROFILER", "foundation_2core_2win32_2precompiled_8h.html#af883320ccbc88fe5ff2d8733ec0a034f", null ],
     [ "NOSERVICE", "foundation_2core_2win32_2precompiled_8h.html#a14ac98af6281e748377693d824e41ca9", null ],
-    [ "NOSOUND", "foundation_2core_2win32_2precompiled_8h.html#af40cddcc88a6ebeed4f75d4bbbed195e", null ],
     [ "OEMRESOURCE", "foundation_2core_2win32_2precompiled_8h.html#a3a75770af38d05856eb2e9d1867b471c", null ],
     [ "WIN32_LEAN_AND_MEAN", "foundation_2core_2win32_2precompiled_8h.html#ac7bef5d85e3dcd73eef56ad39ffc84a9", null ]
 ];

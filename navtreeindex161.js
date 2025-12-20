@@ -1,6 +1,5 @@
 var NAVTREEINDEX161 =
 {
-"textureloader_8cc.html":[10,0,0,7,5,89],
 "textureloader_8h.html":[10,0,0,7,5,90],
 "textureloader_8h_source.html":[10,0,0,7,5,90],
 "texturepagehandler_8cc.html":[10,0,0,7,5,1,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX161 =
 "utils_8h.html#a7466137d7af0db1fb2b9597216689a0c":[10,0,0,6,0,12,4],
 "utils_8h.html#a7d6a3604bdece8c8614743b1e2fb7907":[10,0,0,6,0,12,8],
 "utils_8h.html#a7d84befa1158e89bf45a32a93b65d07a":[10,0,0,6,0,12,5],
-"utils_8h.html#a975fe05e15fa0c8b09647b5d8c1c2a9e":[10,0,0,6,0,12,0]
+"utils_8h.html#a975fe05e15fa0c8b09647b5d8c1c2a9e":[10,0,0,6,0,12,0],
+"utils_8h.html#a9da82e228f6def04de8e96ecd79f9063":[10,0,0,6,0,12,3]
 };
