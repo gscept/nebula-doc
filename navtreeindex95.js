@@ -1,7 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"class_win32_1_1_win32_thread.html#a5a62fdb91f4b6522194b759822030212":[8,0,93,24,20],
-"class_win32_1_1_win32_thread.html#a5a62fdb91f4b6522194b759822030212":[9,0,78,24,20],
 "class_win32_1_1_win32_thread.html#a5cb157e7a6ab8c56b9de74e00cb30e14":[8,0,93,24,27],
 "class_win32_1_1_win32_thread.html#a5cb157e7a6ab8c56b9de74e00cb30e14":[9,0,78,24,27],
 "class_win32_1_1_win32_thread.html#a64f5e8a4eccd3c154375224ac5382e15":[8,0,93,24,26],
@@ -187,6 +185,7 @@ var NAVTREEINDEX95 =
 "command_8h_source.html":[10,0,0,0,2,4],
 "commandbuffer_8cc.html":[10,0,0,7,5,17],
 "commandbuffer_8h.html":[10,0,0,7,5,18],
+"commandbuffer_8h.html#a98576756c606cc338a090ecca5971c13":[10,0,0,7,5,18,12],
 "commandbuffer_8h.html#ab829a3f35fa76844e33e53693eeac120":[10,0,0,7,5,18,11],
 "commandbuffer_8h_source.html":[10,0,0,7,5,18],
 "commandlineargs_8cc.html":[10,0,0,3,20,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX95 =
 "curlhttpclient_8cc.html":[10,0,0,3,6,0,0],
 "curlhttpclient_8h.html":[10,0,0,3,6,0,1],
 "curlhttpclient_8h_source.html":[10,0,0,3,6,0,1],
-"curves_8cc.html":[10,0,0,3,12,4]
+"curves_8cc.html":[10,0,0,3,12,4],
+"curves_8h.html":[10,0,0,3,12,5]
 };

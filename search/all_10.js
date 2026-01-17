@@ -494,7 +494,7 @@ var searchData=
   ['posixfswrapper_491',['PosixFSWrapper',['../class_posix_1_1_posix_f_s_wrapper.html',1,'Posix::PosixFSWrapper'],['../class_posix_1_1_posix_file_time.html#a3b31240af53d8c2842434bc0368bb5f6',1,'Posix::PosixFileTime::PosixFSWrapper()']]],
   ['posixfswrapper_2ecc_492',['posixfswrapper.cc',['../posixfswrapper_8cc.html',1,'']]],
   ['posixfswrapper_2eh_493',['posixfswrapper.h',['../posixfswrapper_8h.html',1,'']]],
-  ['posixguid_494',['PosixGuid',['../class_posix_1_1_posix_guid.html',1,'Posix::PosixGuid'],['../class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955',1,'Posix::PosixGuid::PosixGuid()'],['../class_posix_1_1_posix_guid.html#a0b9d74b078206634327459112f8a465d',1,'Posix::PosixGuid::PosixGuid(const PosixGuid &amp;rhs)'],['../class_posix_1_1_posix_guid.html#a8ef22329281c8bace092ba8c9dd96310',1,'Posix::PosixGuid::PosixGuid(const unsigned char *ptr, SizeT size)']]],
+  ['posixguid_494',['PosixGuid',['../class_posix_1_1_posix_guid.html',1,'Posix::PosixGuid'],['../class_posix_1_1_posix_guid.html#a9ac837fdd046c54791c36c709c90d955',1,'Posix::PosixGuid::PosixGuid()'],['../class_posix_1_1_posix_guid.html#a8ef22329281c8bace092ba8c9dd96310',1,'Posix::PosixGuid::PosixGuid(const unsigned char *ptr, SizeT size)']]],
   ['posixguid_2ecc_495',['posixguid.cc',['../posixguid_8cc.html',1,'']]],
   ['posixguid_2eh_496',['posixguid.h',['../posixguid_8h.html',1,'']]],
   ['posixheap_497',['PosixHeap',['../class_posix_1_1_posix_heap.html',1,'Posix::PosixHeap'],['../class_posix_1_1_posix_heap.html#a07e26033c576d3d3a84b22508dab337f',1,'Posix::PosixHeap::PosixHeap(const char *name)'],['../class_posix_1_1_posix_heap.html#a8d1bcebbc630f7b4a9524887f00e68dd',1,'Posix::PosixHeap::PosixHeap()']]],

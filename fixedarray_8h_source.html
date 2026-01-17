@@ -802,25 +802,21 @@ $(function(){initNavTree('fixedarray_8h_source.html',''); initResizable(true); }
 <div class="foldopen" id="foldopen00747" data-start="{" data-end="}">
 <div class="line"><a id="l00747" name="l00747"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_array.html#a7d28542eab596372557a492952228f73">  747</a></span><a class="code hl_function" href="class_util_1_1_fixed_array.html#a7d28542eab596372557a492952228f73">FixedArray&lt;TYPE, StackAlloc&gt;::resize</a>(<span class="keywordtype">size_t</span> s)</div>
 <div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>{</div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    <span class="keywordflow">if</span> (s &gt; this-&gt;capacity)</div>
-<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    {</div>
-<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>        this-&gt;GrowTo(s);</div>
-<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>    }</div>
-<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>    this-&gt;<a class="code hl_variable" href="class_util_1_1_fixed_array.html#af995538fbd0a6c0195cb8156dbb43c00">count</a> = s;</div>
-<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>}</div>
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    <a class="code hl_function" href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a>(<span class="stringliteral">&quot;Trying to resize a fixed array&quot;</span>);</div>
+<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>}</div>
 </div>
-<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span> </div>
-<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE, <span class="keywordtype">bool</span> StackAlloc&gt; <span class="keywordtype">size_t</span></div>
-<div class="foldopen" id="foldopen00760" data-start="{" data-end="}">
-<div class="line"><a id="l00760" name="l00760"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">  760</a></span><a class="code hl_function" href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">FixedArray&lt;TYPE, StackAlloc&gt;::size</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_util_1_1_fixed_array.html#af995538fbd0a6c0195cb8156dbb43c00">count</a>;</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>}</div>
+<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span> </div>
+<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> TYPE, <span class="keywordtype">bool</span> StackAlloc&gt; <span class="keywordtype">size_t</span></div>
+<div class="foldopen" id="foldopen00756" data-start="{" data-end="}">
+<div class="line"><a id="l00756" name="l00756"></a><span class="lineno"><a class="line" href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">  756</a></span><a class="code hl_function" href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">FixedArray&lt;TYPE, StackAlloc&gt;::size</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_util_1_1_fixed_array.html#af995538fbd0a6c0195cb8156dbb43c00">count</a>;</div>
+<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>}</div>
 </div>
-<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span> </div>
-<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>} <span class="comment">// namespace Util</span></div>
-<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span> </div>
+<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>} <span class="comment">// namespace Util</span></div>
+<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="aarray_8h_html"><div class="ttname"><a href="array_8h.html">array.h</a></div></div>
 <div class="ttc" id="aclass_math_1_1half_html"><div class="ttname"><a href="class_math_1_1half.html">Math::half</a></div><div class="ttdef"><b>Definition</b> half.h:20</div></div>
 <div class="ttc" id="aclass_util_1_1_array_html"><div class="ttname"><a href="class_util_1_1_array.html">Util::Array</a></div><div class="ttdoc">Nebula&#39;s dynamic array class.</div><div class="ttdef"><b>Definition</b> array.h:60</div></div>
@@ -842,7 +838,7 @@ $(function(){initNavTree('fixedarray_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a5a969284d862a0fc6a3a061e47fdb965"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a5a969284d862a0fc6a3a061e47fdb965">Util::FixedArray::Begin</a></div><div class="ttdeci">Iterator Begin() const</div><div class="ttdoc">get iterator to first element</div><div class="ttdef"><b>Definition</b> fixedarray.h:598</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a63225caf9c855143b34fbf707e5e91f0"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a63225caf9c855143b34fbf707e5e91f0">Util::FixedArray::FixedArray</a></div><div class="ttdeci">FixedArray(const SizeT s)</div><div class="ttdoc">constructor with size</div><div class="ttdef"><b>Definition</b> fixedarray.h:195</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a63d052970907349169c1f569c07e16d8"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a63d052970907349169c1f569c07e16d8">Util::FixedArray::ByteSize</a></div><div class="ttdeci">const SizeT ByteSize() const</div><div class="ttdoc">get total byte size</div><div class="ttdef"><b>Definition</b> fixedarray.h:541</div></div>
-<div class="ttc" id="aclass_util_1_1_fixed_array_html_a658a5853ce5d392c9dba90b956ccbd28"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">Util::FixedArray::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition</b> fixedarray.h:760</div></div>
+<div class="ttc" id="aclass_util_1_1_fixed_array_html_a658a5853ce5d392c9dba90b956ccbd28"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a658a5853ce5d392c9dba90b956ccbd28">Util::FixedArray::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition</b> fixedarray.h:756</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a721af7e5b882d26e150ef6e4640df8a9"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a721af7e5b882d26e150ef6e4640df8a9">Util::FixedArray::Size</a></div><div class="ttdeci">const SizeT Size() const</div><div class="ttdoc">get number of elements</div><div class="ttdef"><b>Definition</b> fixedarray.h:532</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a7d28542eab596372557a492952228f73"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a7d28542eab596372557a492952228f73">Util::FixedArray::resize</a></div><div class="ttdeci">void resize(size_t size)</div><div class="ttdef"><b>Definition</b> fixedarray.h:747</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_a864e14fa2044ab6f437c9581bfedb044"><div class="ttname"><a href="class_util_1_1_fixed_array.html#a864e14fa2044ab6f437c9581bfedb044">Util::FixedArray::FixedArray</a></div><div class="ttdeci">FixedArray(const FixedArray&lt; TYPE, true &gt; &amp;rhs)</div><div class="ttdoc">copy constructor</div><div class="ttdef"><b>Definition</b> fixedarray.h:218</div></div>
@@ -869,6 +865,7 @@ $(function(){initNavTree('fixedarray_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_afb163d251ecfd174d388b8fd4c905f84"><div class="ttname"><a href="class_util_1_1_fixed_array.html#afb163d251ecfd174d388b8fd4c905f84">Util::FixedArray::FixedArray</a></div><div class="ttdeci">FixedArray(Array&lt; TYPE &gt; &amp;&amp;rhs)</div><div class="ttdoc">move from array</div><div class="ttdef"><b>Definition</b> fixedarray.h:290</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_afdaa8376e3fcac7acd5c867d9f53adf9"><div class="ttname"><a href="class_util_1_1_fixed_array.html#afdaa8376e3fcac7acd5c867d9f53adf9">Util::FixedArray::begin</a></div><div class="ttdeci">Iterator begin() const</div><div class="ttdoc">for range-based iteration (C++11)</div><div class="ttdef"><b>Definition</b> fixedarray.h:729</div></div>
 <div class="ttc" id="aclass_util_1_1_fixed_array_html_aff74bf89a7a5dff9191d0464f5d50d68"><div class="ttname"><a href="class_util_1_1_fixed_array.html#aff74bf89a7a5dff9191d0464f5d50d68">Util::FixedArray::Sort</a></div><div class="ttdeci">void Sort()</div><div class="ttdoc">sort the array</div><div class="ttdef"><b>Definition</b> fixedarray.h:650</div></div>
+<div class="ttc" id="adebug_8cc_html_a83e91a4134b9809e0890140c63387824"><div class="ttname"><a href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a></div><div class="ttdeci">void __cdecl n_error(const char *msg,...)</div><div class="ttdoc">This function is called when a serious situation is encountered which requires abortion of the applic...</div><div class="ttdef"><b>Definition</b> debug.cc:138</div></div>
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:50</div></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html_a1c73174626615daed4ee97a5d5c86163"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a1c73174626615daed4ee97a5d5c86163">ArrayFreeStack</a></div><div class="ttdeci">void ArrayFreeStack(size_t size, TYPE *buffer)</div><div class="ttdef"><b>Definition</b> memory.h:134</div></div>
 <div class="ttc" id="afoundation_2memory_2memory_8h_html_a70fd19e810bc4813371c518a66cf98a4"><div class="ttname"><a href="foundation_2memory_2memory_8h.html#a70fd19e810bc4813371c518a66cf98a4">ArrayAllocStack</a></div><div class="ttdeci">TYPE * ArrayAllocStack(size_t size)</div><div class="ttdef"><b>Definition</b> memory.h:87</div></div>
@@ -888,7 +885,7 @@ $(function(){initNavTree('fixedarray_8h_source.html',''); initResizable(true); }
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_3efd1eb2182038baf5731b057d5f9c3b.html">util</a></li><li class="navelem"><a class="el" href="fixedarray_8h.html">fixedarray.h</a></li>
 				<li class="footer">
-					Generated on Sat Jan 17 2026 12:13:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 17 2026 12:24:14 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

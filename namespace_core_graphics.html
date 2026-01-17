@@ -1301,6 +1301,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adf9f8a377d66671106d4f924252494b2" id="r_adf9f8a377d66671106d4f924252494b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9f8a377d66671106d4f924252494b2">CmdEndPipelineQueries</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:adf9f8a377d66671106d4f924252494b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">End pipeline statistics.  <br /></td></tr>
 <tr class="separator:adf9f8a377d66671106d4f924252494b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc3cb945bfb599bd83573d85a3e6ef89" id="r_afc3cb945bfb599bd83573d85a3e6ef89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc3cb945bfb599bd83573d85a3e6ef89">CmdBeginMarker</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;color, const char *name)</td></tr>
+<tr class="separator:afc3cb945bfb599bd83573d85a3e6ef89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab425d5a37e25a52a72b300471b18c5fa" id="r_ab425d5a37e25a52a72b300471b18c5fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab425d5a37e25a52a72b300471b18c5fa">CmdEndMarker</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="separator:ab425d5a37e25a52a72b300471b18c5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f67d948327943ec7063163ee67304c" id="r_af6f67d948327943ec7063163ee67304c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f67d948327943ec7063163ee67304c">CmdInsertMarker</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;color, const char *name)</td></tr>
+<tr class="separator:af6f67d948327943ec7063163ee67304c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac30a5d216cba8fe40aebb7d733f854e2" id="r_ac30a5d216cba8fe40aebb7d733f854e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30a5d216cba8fe40aebb7d733f854e2">CmdFinishQueries</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ac30a5d216cba8fe40aebb7d733f854e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish queries.  <br /></td></tr>
 <tr class="separator:ac30a5d216cba8fe40aebb7d733f854e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5679,6 +5685,40 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
+<a id="afc3cb945bfb599bd83573d85a3e6ef89" name="afc3cb945bfb599bd83573d85a3e6ef89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc3cb945bfb599bd83573d85a3e6ef89">&#9670;&#160;</a></span>CmdBeginMarker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdBeginMarker </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a456c22cfedfa4bbb5c601e6fd77b1878" name="a456c22cfedfa4bbb5c601e6fd77b1878"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a456c22cfedfa4bbb5c601e6fd77b1878">&#9670;&#160;</a></span>CmdBeginPass()</h2>
 
@@ -6192,6 +6232,31 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
+<a id="ab425d5a37e25a52a72b300471b18c5fa" name="ab425d5a37e25a52a72b300471b18c5fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab425d5a37e25a52a72b300471b18c5fa">&#9670;&#160;</a></span>CmdEndMarker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdEndMarker </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5943127ca55a89035c2dcbfe095dc61d" name="a5943127ca55a89035c2dcbfe095dc61d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5943127ca55a89035c2dcbfe095dc61d">&#9670;&#160;</a></span>CmdEndOcclusionQueries()</h2>
 
@@ -6342,6 +6407,40 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Handover. </p>
+
+</div>
+</div>
+<a id="af6f67d948327943ec7063163ee67304c" name="af6f67d948327943ec7063163ee67304c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f67d948327943ec7063163ee67304c">&#9670;&#160;</a></span>CmdInsertMarker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdInsertMarker </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -15645,7 +15744,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Sat Jan 17 2026 12:13:44 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Sat Jan 17 2026 12:24:21 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

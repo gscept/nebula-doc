@@ -28,6 +28,7 @@ var vkcommandbuffer_8cc =
     [ "CoreGraphics::CmdEndPass", "namespace_core_graphics.html#afa1cfaff29d586f6286347f79a93d5a0", null ],
     [ "CoreGraphics::CmdEndPipelineQueries", "namespace_core_graphics.html#adf9f8a377d66671106d4f924252494b2", null ],
     [ "CoreGraphics::CmdEndRecord", "namespace_core_graphics.html#aa19ebec9a07ab8d531f3e6c265d8b2fc", null ],
+    [ "CoreGraphics::CmdFinishQueries", "namespace_core_graphics.html#ac30a5d216cba8fe40aebb7d733f854e2", null ],
     [ "CoreGraphics::CmdHandover", "namespace_core_graphics.html#aa9dbd592b7ca612de92651c15e4da7ca", null ],
     [ "CoreGraphics::CmdNextSubpass", "namespace_core_graphics.html#abaeb0f80c9574b6735e2871063629e3b", null ],
     [ "CoreGraphics::CmdPushComputeConstants", "namespace_core_graphics.html#a366b2bcc61c6357c357317c01fb3101b", null ],

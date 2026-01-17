@@ -1,5 +1,9 @@
 var NAVTREEINDEX164 =
 {
+"win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
+"win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
+"win32cpu_8h.html":[10,0,0,3,17,4,0],
+"win32cpu_8h_source.html":[10,0,0,3,17,4,0],
 "win32criticalsection_8cc.html":[10,0,0,3,18,6,1],
 "win32criticalsection_8h.html":[10,0,0,3,18,6,2],
 "win32criticalsection_8h.html#a04b575446acc6fe7ec8b6d213eab2082":[10,0,0,3,18,6,2,1],

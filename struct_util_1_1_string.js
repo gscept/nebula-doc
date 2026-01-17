@@ -50,6 +50,7 @@ var struct_util_1_1_string =
     [ "ContainsCharFromSet", "struct_util_1_1_string.html#a875bbfc29c62967c63dae86b0f822590", null ],
     [ "ConvertBackslashes", "struct_util_1_1_string.html#a845dcfaf074a6bc132724ae71bdda944", null ],
     [ "CopyToBuffer", "struct_util_1_1_string.html#aa78e5e4225eade961eb7d4a70dafadce", null ],
+    [ "data", "struct_util_1_1_string.html#adbd467cdaeecb76185269024dcd64848", null ],
     [ "Delete", "struct_util_1_1_string.html#a549d0c3529a82b7c6c6a8eeb8eee92aa", null ],
     [ "empty", "struct_util_1_1_string.html#adefb6d4881dfe025b0c5a89da381bb8d", null ],
     [ "EndsWithString", "struct_util_1_1_string.html#aec598621abbbb1363b833a5a88dcbdeb", null ],
