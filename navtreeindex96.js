@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"curves_8h.html":[10,0,0,3,12,5],
 "curves_8h_source.html":[10,0,0,3,12,5],
 "curvetype_8cc.html":[10,0,0,7,4,22],
 "curvetype_8h.html":[10,0,0,7,4,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "dir_74dd771dbdc6a1e1992854f8f6560177.html":[10,0,0,8],
 "dir_75b55a7411d3fdc69460bcf948be59bb.html":[10,0,0,7,28],
 "dir_768ee4f5bc33f9e2fc60f1898cd79fc7.html":[10,0,0,7,15],
-"dir_784e7a454372ebcf5f550f4608c88955.html":[10,0,0,7,23],
-"dir_78fa18e68da72083c2d2a2968060df43.html":[10,0,0,7,13]
+"dir_784e7a454372ebcf5f550f4608c88955.html":[10,0,0,7,23]
 };

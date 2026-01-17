@@ -29,6 +29,7 @@ var dir_3efd1eb2182038baf5731b057d5f9c3b =
     [ "globalstringatomtable.cc", "globalstringatomtable_8cc.html", "globalstringatomtable_8cc" ],
     [ "globalstringatomtable.h", "globalstringatomtable_8h.html", "globalstringatomtable_8h" ],
     [ "guid.h", "guid_8h.html", null ],
+    [ "hash.h", "hash_8h.html", "hash_8h" ],
     [ "hashtable.h", "hashtable_8h.html", "hashtable_8h" ],
     [ "keyvaluepair.h", "keyvaluepair_8h.html", "keyvaluepair_8h" ],
     [ "list.h", "list_8h.html", "list_8h" ],

@@ -629,6 +629,7 @@ var hierarchy =
     [ "Attr::GuidArrayTypeClass", "class_attr_1_1_guid_array_type_class.html", null ],
     [ "Attr::GuidTypeClass", "class_attr_1_1_guid_type_class.html", null ],
     [ "Math::half", "class_math_1_1half.html", null ],
+    [ "Hash", "class_util_1_1_hash.html", null ],
     [ "Util::HashTable< KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE >", "class_util_1_1_hash_table.html", null ],
     [ "Heap", "class_memory_1_1_heap.html", null ],
     [ "Http::HtmlElement", "class_http_1_1_html_element.html", null ],
