@@ -1,17 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"struct_mathf_1_1_point.html#aa05d41ac8aa86691d74d531c23d3d40d":[9,0,43,8,3],
-"struct_mathf_1_1_point.html#ac6f04cb527427869da425324d9950c42":[8,0,48,8,9],
-"struct_mathf_1_1_point.html#ac6f04cb527427869da425324d9950c42":[9,0,43,8,9],
-"struct_mathf_1_1_point.html#ac9952cfe5fd76b1575cba59287fdf60c":[8,0,48,8,5],
-"struct_mathf_1_1_point.html#ac9952cfe5fd76b1575cba59287fdf60c":[9,0,43,8,5],
-"struct_mathf_1_1_point.html#ad4862cee951444833bc7363650a5c2a8":[8,0,48,8,8],
-"struct_mathf_1_1_point.html#ad4862cee951444833bc7363650a5c2a8":[9,0,43,8,8],
-"struct_mathf_1_1_point.html#ae246018f9315e4252a9b62877a63a7b7":[8,0,48,8,10],
-"struct_mathf_1_1_point.html#ae246018f9315e4252a9b62877a63a7b7":[9,0,43,8,10],
-"struct_mathf_1_1_quaternion.html":[8,0,48,9],
-"struct_mathf_1_1_quaternion.html":[9,0,43,9],
-"struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[8,0,48,9,37],
 "struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[9,0,43,9,37],
 "struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[8,0,48,9,15],
 "struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[9,0,43,9,15],
@@ -249,5 +237,17 @@ var NAVTREEINDEX143 =
 "struct_mathf_1_1_rectangle.html#ae2d5c37d9b571f77ad6db8c48eb8432e":[9,0,43,11,10],
 "struct_mathf_1_1_rectangle.html#ae36afd8daf3b0ccc11ee8cb20741bf10":[8,0,48,11,40],
 "struct_mathf_1_1_rectangle.html#ae36afd8daf3b0ccc11ee8cb20741bf10":[9,0,43,11,40],
-"struct_mathf_1_1_rectangle.html#ae485228e36c17365f30cbf4f6eacf4a6":[8,0,48,11,29]
+"struct_mathf_1_1_rectangle.html#ae485228e36c17365f30cbf4f6eacf4a6":[8,0,48,11,29],
+"struct_mathf_1_1_rectangle.html#ae485228e36c17365f30cbf4f6eacf4a6":[9,0,43,11,29],
+"struct_mathf_1_1_rectangle.html#aed693ab50c2537e5db36d9ccd48b474c":[8,0,48,11,9],
+"struct_mathf_1_1_rectangle.html#aed693ab50c2537e5db36d9ccd48b474c":[9,0,43,11,9],
+"struct_mathf_1_1_rectangle.html#af0e87859e31405828c1adc046e7dcfe6":[8,0,48,11,43],
+"struct_mathf_1_1_rectangle.html#af0e87859e31405828c1adc046e7dcfe6":[9,0,43,11,43],
+"struct_mathf_1_1_rectangle.html#af1d9e1257b272b0b6b6c8024943e724b":[8,0,48,11,32],
+"struct_mathf_1_1_rectangle.html#af1d9e1257b272b0b6b6c8024943e724b":[9,0,43,11,32],
+"struct_mathf_1_1_vector2.html":[8,0,48,12],
+"struct_mathf_1_1_vector2.html":[9,0,43,12],
+"struct_mathf_1_1_vector2.html#a006e4de4fbc0cabbf3aa1db4901b1088":[8,0,48,12,15],
+"struct_mathf_1_1_vector2.html#a006e4de4fbc0cabbf3aa1db4901b1088":[9,0,43,12,15],
+"struct_mathf_1_1_vector2.html#a014c213b5fd4db42aeff9f8d67dcd318":[8,0,48,12,31]
 };

@@ -1,17 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"struct_mathf_1_1_matrix.html#a580e45d6df88f2474673d0c0f035d139":[9,0,43,5,86],
-"struct_mathf_1_1_matrix.html#a58ee78e88617731ed92f9c0b630e26fd":[8,0,48,5,3],
-"struct_mathf_1_1_matrix.html#a58ee78e88617731ed92f9c0b630e26fd":[9,0,43,5,3],
-"struct_mathf_1_1_matrix.html#a590acc9a13aed4cecbd888ff6d57e227":[8,0,48,5,30],
-"struct_mathf_1_1_matrix.html#a590acc9a13aed4cecbd888ff6d57e227":[9,0,43,5,30],
-"struct_mathf_1_1_matrix.html#a5b293b3e9bdae29a537f1a84dafbc2fa":[8,0,48,5,1],
-"struct_mathf_1_1_matrix.html#a5b293b3e9bdae29a537f1a84dafbc2fa":[9,0,43,5,1],
-"struct_mathf_1_1_matrix.html#a5f8c61508d952898ed4a8a20e8258490":[8,0,48,5,107],
-"struct_mathf_1_1_matrix.html#a5f8c61508d952898ed4a8a20e8258490":[9,0,43,5,107],
-"struct_mathf_1_1_matrix.html#a60a4cbeda9c6bfe6f02c9ded1d39a364":[8,0,48,5,63],
-"struct_mathf_1_1_matrix.html#a60a4cbeda9c6bfe6f02c9ded1d39a364":[9,0,43,5,63],
-"struct_mathf_1_1_matrix.html#a62e48bddffc22ab29559334dec76c8c8":[8,0,48,5,81],
 "struct_mathf_1_1_matrix.html#a62e48bddffc22ab29559334dec76c8c8":[9,0,43,5,81],
 "struct_mathf_1_1_matrix.html#a66010909ca27c536306c615d54c99612":[8,0,48,5,70],
 "struct_mathf_1_1_matrix.html#a66010909ca27c536306c615d54c99612":[9,0,43,5,70],
@@ -249,5 +237,17 @@ var NAVTREEINDEX142 =
 "struct_mathf_1_1_point.html#a6c52cf6ceeec7186117d5644b8335175":[9,0,43,8,15],
 "struct_mathf_1_1_point.html#a84f06b7f1b6b0db8cf540f68b5665273":[8,0,48,8,7],
 "struct_mathf_1_1_point.html#a84f06b7f1b6b0db8cf540f68b5665273":[9,0,43,8,7],
-"struct_mathf_1_1_point.html#aa05d41ac8aa86691d74d531c23d3d40d":[8,0,48,8,3]
+"struct_mathf_1_1_point.html#aa05d41ac8aa86691d74d531c23d3d40d":[8,0,48,8,3],
+"struct_mathf_1_1_point.html#aa05d41ac8aa86691d74d531c23d3d40d":[9,0,43,8,3],
+"struct_mathf_1_1_point.html#ac6f04cb527427869da425324d9950c42":[8,0,48,8,9],
+"struct_mathf_1_1_point.html#ac6f04cb527427869da425324d9950c42":[9,0,43,8,9],
+"struct_mathf_1_1_point.html#ac9952cfe5fd76b1575cba59287fdf60c":[8,0,48,8,5],
+"struct_mathf_1_1_point.html#ac9952cfe5fd76b1575cba59287fdf60c":[9,0,43,8,5],
+"struct_mathf_1_1_point.html#ad4862cee951444833bc7363650a5c2a8":[8,0,48,8,8],
+"struct_mathf_1_1_point.html#ad4862cee951444833bc7363650a5c2a8":[9,0,43,8,8],
+"struct_mathf_1_1_point.html#ae246018f9315e4252a9b62877a63a7b7":[8,0,48,8,10],
+"struct_mathf_1_1_point.html#ae246018f9315e4252a9b62877a63a7b7":[9,0,43,8,10],
+"struct_mathf_1_1_quaternion.html":[8,0,48,9],
+"struct_mathf_1_1_quaternion.html":[9,0,43,9],
+"struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[8,0,48,9,37]
 };

@@ -15,7 +15,7 @@ var class_raytracing_1_1_raytracing_context =
     [ "InvalidateBLAS", "class_raytracing_1_1_raytracing_context.html#a14106743c6beb85a4dd80471e098f4ce", null ],
     [ "OnRenderDebug", "class_raytracing_1_1_raytracing_context.html#a68fe8aae66090993bd2ab018ec0fec7f", null ],
     [ "ReconstructTopLevelAcceleration", "class_raytracing_1_1_raytracing_context.html#af0982bd7f8ef2e029a7f562954308874", null ],
-    [ "SetupMesh", "class_raytracing_1_1_raytracing_context.html#a80fa4b193b4512f98813b91a774dd29e", null ],
+    [ "SetupMesh", "class_raytracing_1_1_raytracing_context.html#a39163839a06676956f6d387e2e3aacbf", null ],
     [ "SetupModel", "class_raytracing_1_1_raytracing_context.html#ac3f84750154a7c8293a6311ee3103b5c", null ],
     [ "UpdateTransforms", "class_raytracing_1_1_raytracing_context.html#aa0a4d43cf3c4b20727a5be1de34247bd", null ],
     [ "UpdateViewResources", "class_raytracing_1_1_raytracing_context.html#a6f22ad619c51bf99d8b55f3712aa7495", null ],

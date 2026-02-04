@@ -1,17 +1,5 @@
 var NAVTREEINDEX151 =
 {
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201":[8,0,84,13,0,45],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201":[9,0,72,13,0,45],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a13c46628e11e08cd96a85a87ea87dc6e":[8,0,84,13,0,18],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a13c46628e11e08cd96a85a87ea87dc6e":[9,0,72,13,0,18],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a188b3de870df29a0e9dada73835bdc59":[8,0,84,13,0,5],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a188b3de870df29a0e9dada73835bdc59":[9,0,72,13,0,5],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a1a041cdad3fbe6924bd99ff3891e1339":[8,0,84,13,0,24],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a1a041cdad3fbe6924bd99ff3891e1339":[9,0,72,13,0,24],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a1a34a7a6ec8f137256f577082dfffc77":[8,0,84,13,0,51],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a1a34a7a6ec8f137256f577082dfffc77":[9,0,72,13,0,51],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a20fb7c008aa1d52dc3315efa7796cf79":[8,0,84,13,0,48],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a20fb7c008aa1d52dc3315efa7796cf79":[9,0,72,13,0,48],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a23261bcaefc4761d4c30c6a1b86a4dca":[8,0,84,13,0,6],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a23261bcaefc4761d4c30c6a1b86a4dca":[9,0,72,13,0,6],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a27b8c79b02d61bcde4fa0c049629d109":[8,0,84,13,0,50],
@@ -249,5 +237,17 @@ var NAVTREEINDEX151 =
 "struct_terrain_1_1_terrain_setup_settings.html#ae2a5ec54536a7f57c7a1d8f9da2acf82":[8,0,84,16,0],
 "struct_terrain_1_1_terrain_setup_settings.html#ae2a5ec54536a7f57c7a1d8f9da2acf82":[9,0,72,16,0],
 "struct_terrain_1_1_terrain_tri.html":[8,0,84,17],
-"struct_terrain_1_1_terrain_tri.html":[9,0,72,17]
+"struct_terrain_1_1_terrain_tri.html":[9,0,72,17],
+"struct_terrain_1_1_terrain_tri.html#a0f13ccbd60bf5b8f342b0cd177354e07":[8,0,84,17,2],
+"struct_terrain_1_1_terrain_tri.html#a0f13ccbd60bf5b8f342b0cd177354e07":[9,0,72,17,2],
+"struct_terrain_1_1_terrain_tri.html#a90e62e372275291b9345850da1921958":[8,0,84,17,1],
+"struct_terrain_1_1_terrain_tri.html#a90e62e372275291b9345850da1921958":[9,0,72,17,1],
+"struct_terrain_1_1_terrain_tri.html#ad472d56e8bd04c8c4db598ee07b2d558":[8,0,84,17,0],
+"struct_terrain_1_1_terrain_tri.html#ad472d56e8bd04c8c4db598ee07b2d558":[9,0,72,17,0],
+"struct_terrain_1_1_terrain_vert.html":[8,0,84,18],
+"struct_terrain_1_1_terrain_vert.html":[9,0,72,18],
+"struct_terrain_1_1_terrain_vert.html#abda12545d2702472ca83ed717920fa9b":[8,0,84,18,0],
+"struct_terrain_1_1_terrain_vert.html#abda12545d2702472ca83ed717920fa9b":[9,0,72,18,0],
+"struct_terrain_1_1_terrain_vert.html#ac1958780e59fed03cd8b6904e59e5bb4":[8,0,84,18,1],
+"struct_terrain_1_1_terrain_vert.html#ac1958780e59fed03cd8b6904e59e5bb4":[9,0,72,18,1]
 };

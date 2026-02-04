@@ -14,7 +14,7 @@ var searchData=
   ['objectref_2ecc_11',['objectref.cc',['../objectref_8cc.html',1,'']]],
   ['objectref_2eh_12',['objectref.h',['../objectref_8h.html',1,'']]],
   ['objects_13',['Creating Nebula Objects',['../_core.html#CreatingNebulaObjects',1,'']]],
-  ['objects_14',['objects',['../class_util_1_1_array_allocator.html#a7720be9fd4101bdee5fcda46f343d72a',1,'Util::ArrayAllocator::objects'],['../class_util_1_1_array_allocator_safe.html#a9cac7bfbe2cdc99f66bd9c511138c83b',1,'Util::ArrayAllocatorSafe::objects'],['../namespace_raytracing.html#a29d59b48693d6e906ae36e24bb5258e5',1,'Raytracing::objects']]],
+  ['objects_14',['objects',['../class_util_1_1_array_allocator.html#a7720be9fd4101bdee5fcda46f343d72a',1,'Util::ArrayAllocator::objects'],['../class_util_1_1_array_allocator_safe.html#a9cac7bfbe2cdc99f66bd9c511138c83b',1,'Util::ArrayAllocatorSafe::objects'],['../namespace_raytracing.html#a39288876956525aa040f5d694d6a9d3f',1,'Raytracing::objects']]],
   ['objecttype_15',['ObjectType',['../namespace_raytracing.html#ae9ef996590909701eba502ae02607f53',1,'Raytracing']]],
   ['objptr_16',['objPtr',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#aeca97af3a0126339b897f7ada2838058',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
   ['obs_17',['obs',['../class_visibility_1_1_visibility_system.html#a74b7605a9c9c79c9738c8ae487e250fc',1,'Visibility::VisibilitySystem']]],

@@ -114,11 +114,12 @@ $(function(){initNavTree('raytracingcontext_8cc.html',''); initResizable(true); 
 <code>#include &quot;<a class="el" href="globalconstants_8h_source.html">graphics/globalconstants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shaderconfig_8h_source.html">materials/shaderconfig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="materialloader_8h_source.html">materials/materialloader.h</a>&quot;</code><br />
-<code>#include &quot;render/raytracing/shaders/raytracetest.h&quot;</code><br />
-<code>#include &quot;render/raytracing/shaders/brdfhit.h&quot;</code><br />
-<code>#include &quot;render/raytracing/shaders/bsdfhit.h&quot;</code><br />
-<code>#include &quot;render/raytracing/shaders/gltfhit.h&quot;</code><br />
-<code>#include &quot;render/raytracing/shaders/light_grid_cs.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="meshloader_8h_source.html">coregraphics/meshloader.h</a>&quot;</code><br />
+<code>#include &quot;gpulang/render/raytracing/shaders/raytracetest.h&quot;</code><br />
+<code>#include &quot;gpulang/render/raytracing/shaders/brdfhit.h&quot;</code><br />
+<code>#include &quot;gpulang/render/raytracing/shaders/bsdfhit.h&quot;</code><br />
+<code>#include &quot;gpulang/render/raytracing/shaders/gltfhit.h&quot;</code><br />
+<code>#include &quot;gpulang/render/raytracing/shaders/light_grid_cs.h&quot;</code><br />
 <code>#include &quot;frame/default.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="lightcontext_8h_source.html">lighting/lightcontext.h</a>&quot;</code><br />
 </div><table class="memberdecls">
@@ -167,12 +168,10 @@ Variables</h2></td></tr>
 <tr class="separator:a6b2308d894906c181ad4fb41b302e2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa66bf143e51b526ff595d96f4e6dc41c" id="r_aa66bf143e51b526ff595d96f4e6dc41c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#a237db6606b6f253a84d7c72daa5c2291">Raytracing::raytracingTestOutputTable</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aa66bf143e51b526ff595d96f4e6dc41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2efc92674377daafa02e03f69e4f728f" id="r_a2efc92674377daafa02e03f69e4f728f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#a7e2947a5e25a53ff14629bc2fbe135ee">Raytracing::geometryBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a2efc92674377daafa02e03f69e4f728f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa50528f2661679949e7b11ce966d28b4" id="r_aa50528f2661679949e7b11ce966d28b4"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#af18221e3a9577fb57e84a26771541ade">Raytracing::objectBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:aa50528f2661679949e7b11ce966d28b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7edebf704a0b0833344a63ed7e8d140" id="r_ac7edebf704a0b0833344a63ed7e8d140"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; Raytracetest::Object &gt;&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#a29d59b48693d6e906ae36e24bb5258e5">Raytracing::objects</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ac7edebf704a0b0833344a63ed7e8d140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413494a439c923e12d889ea540e31fd0" id="r_a413494a439c923e12d889ea540e31fd0"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; Raytracetest::TlasInstance &gt;&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#a39288876956525aa040f5d694d6a9d3f">Raytracing::objects</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a413494a439c923e12d889ea540e31fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86f04cca9eb1077c4aabce5f60baeb90" id="r_a86f04cca9eb1077c4aabce5f60baeb90"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#a0f339818794cf463bdbe8b97842e8861">Raytracing::gridBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a86f04cca9eb1077c4aabce5f60baeb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16270d2b7c435bb9a08dee5e090aa5f" id="r_aa16270d2b7c435bb9a08dee5e090aa5f"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="namespace_raytracing.html#aefa77a32e5d2e02d4917d8103ec793e4">Raytracing::lightGridConstants</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -199,8 +198,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad4bf514f5d98804171afffaf92cd8d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22d887e365af663520afa407a5555c49" id="r_a22d887e365af663520afa407a5555c49"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raytracing.html#a22d887e365af663520afa407a5555c49">Raytracing::state</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a22d887e365af663520afa407a5555c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd79b9b95427cbb95aef29ce990d7ff9" id="r_abd79b9b95427cbb95aef29ce990d7ff9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raytracing.html#abd79b9b95427cbb95aef29ce990d7ff9">Raytracing::MaterialPropertyMappings</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) MaterialTemplates::MaterialProperties::Num]</td></tr>
-<tr class="separator:abd79b9b95427cbb95aef29ce990d7ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467a6aafea35471e709f2921ca660045" id="r_a467a6aafea35471e709f2921ca660045"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raytracing.html#a467a6aafea35471e709f2921ca660045">Raytracing::MaterialPropertyMappings</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) MaterialTemplatesGPULang::MaterialProperties::Num]</td></tr>
+<tr class="separator:a467a6aafea35471e709f2921ca660045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -209,7 +208,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_1b90afad260f23f413704951d8ed521c.html">raytracing</a></li><li class="navelem"><a class="el" href="raytracingcontext_8cc.html">raytracingcontext.cc</a></li>
 				<li class="footer">
-					Generated on Sat Jan 31 2026 11:58:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 4 2026 11:59:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

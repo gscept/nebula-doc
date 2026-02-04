@@ -5,7 +5,7 @@ var material_8h =
     [ "Materials::MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
     [ "Materials::MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
     [ "Materials::BatchIndex", "namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b", null ],
-    [ "Materials::MaterialAllocator", "namespace_materials.html#a1ff312c442c551241acd2110ee077205", null ],
+    [ "Materials::MaterialAllocator", "namespace_materials.html#af4ea655bf74c473e1ba54292ee6978d4", null ],
     [ "Materials::MaterialInstanceAllocator", "namespace_materials.html#a35832df49e8586e0f1b29d3422a3c706", null ],
     [ "Materials::BindlessBufferDirtyBits", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54", [
       [ "Materials::Graphics", "namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a13a9172112a256bd4a2fe9c304666fb0", null ],
@@ -15,7 +15,7 @@ var material_8h =
     [ "Materials::MaterialInstanceMembers", "namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeaf", [
       [ "Materials::MaterialInstance_Offsets", "namespace_materials.html#a3ca82e39b18cbe12bdf7c1c5241cbeafac32bdb5b27a44dceb98548434124858d", null ]
     ] ],
-    [ "Materials::CreateMaterial", "namespace_materials.html#a637e7fca1b1f61891a69644a3a36b288", null ],
+    [ "Materials::CreateMaterial", "namespace_materials.html#a5dc1e29245f7fd859d001764f972d0bb", null ],
     [ "Materials::CreateMaterialInstance", "namespace_materials.html#aefb2567a55de957f33eb6eb753f1dd41", null ],
     [ "Materials::DestroyMaterial", "namespace_materials.html#a06c57eb8a5d53212c0ace2abda9d9986", null ],
     [ "Materials::DestroyMaterialInstance", "namespace_materials.html#a0c2a832b23ecdb65bf032f2b5659c57a", null ],
@@ -23,6 +23,7 @@ var material_8h =
     [ "Materials::MaterialApply", "namespace_materials.html#a167d28dfc2c66baa34f15ad32ddd18db", null ],
     [ "Materials::MaterialGetBatchIndex", "namespace_materials.html#a08e0c25aefabb96aad11adba6382c97a", null ],
     [ "Materials::MaterialGetBufferBinding", "namespace_materials.html#a418d6d7c4f0185b4f5f282ec22529e33", null ],
+    [ "Materials::MaterialGetName", "namespace_materials.html#ad80d347e4e720b28b740a252affdd4d0", null ],
     [ "Materials::MaterialGetSortCode", "namespace_materials.html#a4dfe854e4796687cc5a291a12868b5b3", null ],
     [ "Materials::MaterialGetTemplate", "namespace_materials.html#a2220fd4e7f564dd8662930bd99562e1a", null ],
     [ "Materials::MaterialInstanceAllocate", "namespace_materials.html#ad6f9588f549b15565214244d0f1b455a", null ],

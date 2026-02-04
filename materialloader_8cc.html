@@ -110,8 +110,7 @@ $(function(){initNavTree('materialloader_8cc.html',''); initResizable(true); });
 <div class="textblock"><code>#include &quot;<a class="el" href="materialloader_8h_source.html">materialloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bxmlreader_8h_source.html">io/bxmlreader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceserver_8h_source.html">resources/resourceserver.h</a>&quot;</code><br />
-<code>#include &quot;materials/materialtemplates.h&quot;</code><br />
-<code>#include &quot;materials/material_interfaces.h&quot;</code><br />
+<code>#include &quot;materials/gpulang/material_interfaces.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -165,12 +164,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a603e08681edefee41c4b7739ff4d14f9" id="r_a603e08681edefee41c4b7739ff4d14f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; MaterialTemplates::MaterialProperties, <a class="el" href="namespace_materials.html#af09d97178629e229384bdb4d5c815739">LoaderFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a603e08681edefee41c4b7739ff4d14f9">Materials::LoaderMap</a></td></tr>
-<tr class="separator:a603e08681edefee41c4b7739ff4d14f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9944bdb8b64a4fdfa27a8609077be335" id="r_a9944bdb8b64a4fdfa27a8609077be335"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; MaterialTemplatesGPULang::MaterialProperties, <a class="el" href="namespace_materials.html#af09d97178629e229384bdb4d5c815739">LoaderFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_materials.html#a9944bdb8b64a4fdfa27a8609077be335">Materials::LoaderMap</a></td></tr>
+<tr class="separator:a9944bdb8b64a4fdfa27a8609077be335"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59fe8b7be75c5714fc3fe8b5377b76d1" id="r_a59fe8b7be75c5714fc3fe8b5377b76d1"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f86690cda2b973aa3bf6a3ce941529a" id="r_a1f86690cda2b973aa3bf6a3ce941529a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a> MaterialInterfaces::MaterialBindings&#160;&#160;&#160;<a class="el" href="namespace_materials.html#af0c095831149e9fc10a53f29686b2dd6">Materials::bindings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a1f86690cda2b973aa3bf6a3ce941529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084003fe2bea60ae1b2fb25563a719d2" id="r_a084003fe2bea60ae1b2fb25563a719d2"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="#a4fa957af2ee141f7c5669899427d8f81">MATERIAL_LIST</a> MaterialInterfaces::MaterialPointers::STRUCT&#160;&#160;&#160;<a class="el" href="namespace_materials.html#a4ddf17a18bfd1907af2426c134c90198">Materials::bindings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a084003fe2bea60ae1b2fb25563a719d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae704a829c044e61a97507ba8970b7b45" id="r_ae704a829c044e61a97507ba8970b7b45"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_with_staging.html">CoreGraphics::BufferWithStaging</a>&#160;&#160;&#160;<a class="el" href="namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c">Materials::materialBindingBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ae704a829c044e61a97507ba8970b7b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2727a7ecfd192a285a3832cf48e3440" id="r_ad2727a7ecfd192a285a3832cf48e3440"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;&#160;&#160;<a class="el" href="namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e">Materials::variantAllocatorLock</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -269,7 +268,7 @@ Variables</h2></td></tr>
 <div class="line">X(BlendAddMaterial) \</div>
 <div class="line">X(SkyboxMaterial) \</div>
 <div class="line">X(TerrainMaterial) \</div>
-<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:121</div></div>
+<div class="ttc" id="amaterialloader_8cc_html_a618c2e7d70c13a7d7f980ce67333f0ee"><div class="ttname"><a href="#a618c2e7d70c13a7d7f980ce67333f0ee">X</a></div><div class="ttdeci">#define X(x)</div><div class="ttdef"><b>Definition</b> materialloader.cc:120</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -388,7 +387,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a class="el" href="dir_8a73ff51bed2503411b1d33e42562129.html">materials</a></li><li class="navelem"><a class="el" href="materialloader_8cc.html">materialloader.cc</a></li>
 				<li class="footer">
-					Generated on Sat Jan 31 2026 11:58:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 4 2026 11:59:42 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

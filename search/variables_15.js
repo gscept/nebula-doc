@@ -83,7 +83,5 @@ var searchData=
   ['uvminmax_80',['uvMinMax',['../struct_particles_1_1_particle.html#aed9bebf99b14180ddcdd8aae9fd7b9be',1,'Particles::Particle']]],
   ['uvscalefactor_81',['uvScaleFactor',['../struct_terrain_1_1_biome_parameters.html#a221daa738bd1f4a332c495da1db6447c',1,'Terrain::BiomeParameters']]],
   ['uvtoviewa_82',['uvToViewA',['../namespace_post_effects.html#ab4ba2ef55482f915b0844abed95d53bc',1,'PostEffects']]],
-  ['uvtoviewavar_83',['uvToViewAVar',['../namespace_post_effects.html#af053d3fea1191bf1ce3eb5dc16b34f12',1,'PostEffects']]],
-  ['uvtoviewb_84',['uvToViewB',['../namespace_post_effects.html#aec19a7a7684ac8d32d2ffaee5a8d360e',1,'PostEffects']]],
-  ['uvtoviewbvar_85',['uvToViewBVar',['../namespace_post_effects.html#a9d43557e3dbbff37c03acbb249ed2ed6',1,'PostEffects']]]
+  ['uvtoviewb_83',['uvToViewB',['../namespace_post_effects.html#aec19a7a7684ac8d32d2ffaee5a8d360e',1,'PostEffects']]]
 ];

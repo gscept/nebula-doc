@@ -219,7 +219,7 @@ var searchData=
   ['array_3c_20ptr_3c_20net_3a_3atcpclientconnection_20_3e_20_3e_216',['Array&lt; Ptr&lt; Net::TcpClientConnection &gt; &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20ptr_3c_20rendermodules_3a_3artplugin_20_3e_20_3e_217',['Array&lt; Ptr&lt; RenderModules::RTPlugin &gt; &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20ptr_3c_20resources_3a_3aresourceloader_20_3e_20_3e_218',['Array&lt; Ptr&lt; Resources::ResourceLoader &gt; &gt;',['../class_util_1_1_array.html',1,'Util']]],
-  ['array_3c_20raytracetest_3a_3aobject_20_3e_219',['Array&lt; Raytracetest::Object &gt;',['../class_util_1_1_array.html',1,'Util']]],
+  ['array_3c_20raytracetest_3a_3atlasinstance_20_3e_219',['Array&lt; Raytracetest::TlasInstance &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20resources_3a_3aresourceloader_3a_3a_5fcallbacks_20_3e_220',['Array&lt; Resources::ResourceLoader::_Callbacks &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20resources_3a_3aresourceloader_3a_3a_5fpendingresourceunload_20_3e_221',['Array&lt; Resources::ResourceLoader::_PendingResourceUnload &gt;',['../class_util_1_1_array.html',1,'Util']]],
   ['array_3c_20resources_3a_3aresourceloader_3a_3a_5fpendingstreamlod_20_3e_222',['Array&lt; Resources::ResourceLoader::_PendingStreamLod &gt;',['../class_util_1_1_array.html',1,'Util']]],
