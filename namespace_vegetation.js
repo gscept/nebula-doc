@@ -30,7 +30,7 @@ var namespace_vegetation =
     [ "indirectMeshArgumentsBuffer", "namespace_vegetation.html#a6772e4b9552f3842c37df2ad3ce92515", null ],
     [ "indirectMeshDrawCallsBuffer", "namespace_vegetation.html#a7a04b829130ed4fa8bb6425ab3717398", null ],
     [ "layouts", "namespace_vegetation.html#afd164941b4c13433344a63c53a1c7776", null ],
-    [ "materialUniforms", "namespace_vegetation.html#a378a772f33ec03aa3211f745d1902353", null ],
+    [ "materialUniforms", "namespace_vegetation.html#a8cfd66c942b8770044434d956e794442", null ],
     [ "materialUniformsBuffer", "namespace_vegetation.html#a9e02a4e1fe22f9a3dabbcc9c23e8232b", null ],
     [ "maxHeight", "namespace_vegetation.html#a23374bba0db1fc70c069b172f0a66efa", null ],
     [ "MaxNumIndirectDraws", "namespace_vegetation.html#a8824912bb77b1e824b9479441f34c171", null ],

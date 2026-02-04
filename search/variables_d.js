@@ -138,7 +138,7 @@ var searchData=
   ['materialres_135',['materialRes',['../class_models_1_1_shader_state_node.html#a077216bda479757f274322f9dcdd0e1e',1,'Models::ShaderStateNode::materialRes'],['../struct_terrain_1_1_biome_material.html#a3db3adfefe250edb06f3b23866823b5c',1,'Terrain::BiomeMaterial::materialRes']]],
   ['materials_136',['materials',['../class_physics_1_1_physx_state.html#adfee4cac461197182be255b3e07c0c6f',1,'Physics::PhysxState::materials'],['../struct_terrain_1_1_biome_settings.html#aed1c19a374d888fca125e63ce8abd07d',1,'Terrain::BiomeSettings::materials']]],
   ['materialtextureloadsection_137',['materialTextureLoadSection',['../namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac',1,'Materials']]],
-  ['materialuniforms_138',['materialUniforms',['../namespace_vegetation.html#a378a772f33ec03aa3211f745d1902353',1,'Vegetation']]],
+  ['materialuniforms_138',['materialUniforms',['../namespace_vegetation.html#a8cfd66c942b8770044434d956e794442',1,'Vegetation']]],
   ['materialuniformsbuffer_139',['materialUniformsBuffer',['../namespace_vegetation.html#a9e02a4e1fe22f9a3dabbcc9c23e8232b',1,'Vegetation']]],
   ['matrix_140',['matrix',['../class_math_1_1transform44.html#aa79ad3ff11c9d81e0410c9d8feb3b058',1,'Math::transform44']]],
   ['max_141',['Max',['../struct_mathf_1_1_bounding_box.html#abd4e6876751e40f7db6d43964a80de4a',1,'Mathf::BoundingBox']]],
