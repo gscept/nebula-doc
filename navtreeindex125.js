@@ -1,13 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"struct_core_graphics_1_1_nvx2_group.html#aad828ccc15f729e21706eb5fd82d47c1":[8,0,14,69,4],
-"struct_core_graphics_1_1_nvx2_group.html#aad828ccc15f729e21706eb5fd82d47c1":[9,0,12,68,4],
-"struct_core_graphics_1_1_nvx2_group.html#abc12642f9e36cbe2ba14693aa3f4b196":[8,0,14,69,2],
-"struct_core_graphics_1_1_nvx2_group.html#abc12642f9e36cbe2ba14693aa3f4b196":[9,0,12,68,2],
-"struct_core_graphics_1_1_nvx2_group.html#ad5d56dec640062afa6b98113dfa5f7fa":[8,0,14,69,1],
-"struct_core_graphics_1_1_nvx2_group.html#ad5d56dec640062afa6b98113dfa5f7fa":[9,0,12,68,1],
-"struct_core_graphics_1_1_nvx2_header.html":[8,0,14,70],
-"struct_core_graphics_1_1_nvx2_header.html":[9,0,12,69],
 "struct_core_graphics_1_1_nvx2_header.html#a33fc85caa31131794fd25be04f1b4208":[8,0,14,70,2],
 "struct_core_graphics_1_1_nvx2_header.html#a33fc85caa31131794fd25be04f1b4208":[9,0,12,69,2],
 "struct_core_graphics_1_1_nvx2_header.html#a468b78b03268f3b06be516e598afb2cd":[8,0,14,70,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX125 =
 "struct_core_graphics_1_1_resource_table_create_info.html#ad04dcc4cc07d14df1cc898270a728dff":[8,0,14,96,1],
 "struct_core_graphics_1_1_resource_table_create_info.html#ad04dcc4cc07d14df1cc898270a728dff":[9,0,12,95,1],
 "struct_core_graphics_1_1_resource_table_id.html":[8,0,14,97],
-"struct_core_graphics_1_1_resource_table_id.html":[9,0,12,96]
+"struct_core_graphics_1_1_resource_table_id.html":[9,0,12,96],
+"struct_core_graphics_1_1_resource_table_input_attachment.html":[8,0,14,98],
+"struct_core_graphics_1_1_resource_table_input_attachment.html":[9,0,12,97],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a08ff7438349ef0af0dd4034718cda347":[8,0,14,98,0],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a08ff7438349ef0af0dd4034718cda347":[9,0,12,97,0],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a17d9aa9bcb81ae9bceb5c69a70673110":[8,0,14,98,3],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a17d9aa9bcb81ae9bceb5c69a70673110":[9,0,12,97,3],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a1ea4227e4ddfcc24ce233780b94f4f90":[8,0,14,98,1],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a1ea4227e4ddfcc24ce233780b94f4f90":[9,0,12,97,1]
 };

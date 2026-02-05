@@ -174,7 +174,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Util::Array< ParticleSystemRuntime >, Graphics::ContextEntityId, ParticleRuntime, Graphics::GraphicsEntityId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Memory::RangeAllocation, Raytracing::UpdateType, uint, Util::FixedArray< CoreGraphics::BlasId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< TerrainLoadInfo, TerrainRuntimeInfo, TerrainInstanceInfo >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< BiomeSettings, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< BiomeSettings >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::MeshId, uint, IndexT, float, float, VegetationType >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::mat4, bool, Graphics::GraphicsEntityId, VisibilityEntityType, VisibilityResultArray, Graphics::GraphicsEntityId, DependencyMode, VisibilityDrawList, Memory::ArenaAllocator< 1024 > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Graphics::GraphicsEntityId, uint32_t >", "class_ids_1_1_id_allocator.html", null ],

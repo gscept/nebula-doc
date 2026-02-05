@@ -1,13 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"struct_game_1_1_entity_mapping.html":[9,0,23,12],
-"struct_game_1_1_entity_mapping.html#a3b76ec7015e1943196d406ff4c4816b9":[8,0,26,13,0],
-"struct_game_1_1_entity_mapping.html#a3b76ec7015e1943196d406ff4c4816b9":[9,0,23,12,0],
-"struct_game_1_1_entity_mapping.html#ac425b2c728e50ad0c997a26410cc3a9d":[8,0,26,13,1],
-"struct_game_1_1_entity_mapping.html#ac425b2c728e50ad0c997a26410cc3a9d":[9,0,23,12,1],
-"struct_game_1_1_entity_table_create_info.html":[8,0,26,15],
-"struct_game_1_1_entity_table_create_info.html":[9,0,23,14],
-"struct_game_1_1_entity_table_create_info.html#a4593c446396240a5c271f858a5aabd36":[8,0,26,15,1],
 "struct_game_1_1_entity_table_create_info.html#a4593c446396240a5c271f858a5aabd36":[9,0,23,14,1],
 "struct_game_1_1_entity_table_create_info.html#a578301532af2e65a673576b1171d916a":[8,0,26,15,0],
 "struct_game_1_1_entity_table_create_info.html#a578301532af2e65a673576b1171d916a":[9,0,23,14,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX131 =
 "struct_i_o_1_1_event_handler_data.html":[9,0,34,20],
 "struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[8,0,38,21,1],
 "struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[9,0,34,20,1],
-"struct_i_o_1_1_event_handler_data.html#a5162167e2a264371d77134c73fbdd60f":[8,0,38,21,2]
+"struct_i_o_1_1_event_handler_data.html#a5162167e2a264371d77134c73fbdd60f":[8,0,38,21,2],
+"struct_i_o_1_1_event_handler_data.html#a5162167e2a264371d77134c73fbdd60f":[9,0,34,20,2],
+"struct_i_o_1_1_event_handler_data.html#aa9722e4ac6f9cd3fc4edd78ca834e78f":[8,0,38,21,3],
+"struct_i_o_1_1_event_handler_data.html#aa9722e4ac6f9cd3fc4edd78ca834e78f":[9,0,34,20,3],
+"struct_i_o_1_1_event_handler_data.html#ac3ef30bb6c50c8a4d84aee8d3d068229":[8,0,38,21,0],
+"struct_i_o_1_1_event_handler_data.html#ac3ef30bb6c50c8a4d84aee8d3d068229":[9,0,34,20,0],
+"struct_i_o_1_1_file_watcher_platform.html":[8,0,38,26],
+"struct_i_o_1_1_file_watcher_platform.html":[9,0,34,25],
+"struct_i_o_1_1_file_watcher_platform.html#a11cbe79d3738f9768f3847f11d243598":[8,0,38,26,1]
 };

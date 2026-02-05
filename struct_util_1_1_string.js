@@ -154,6 +154,7 @@ var struct_util_1_1_string =
     [ "Strip", "struct_util_1_1_string.html#a4ac333d93ffbec8610ce9a93ea722100", null ],
     [ "StripAssignPrefix", "struct_util_1_1_string.html#a5790a7f8a7967ddebbabfc21b6ab771b", null ],
     [ "StripFileExtension", "struct_util_1_1_string.html#af62f6fa3f7030ff95663a9e5e2667230", null ],
+    [ "StripSubpath", "struct_util_1_1_string.html#a4feb3ae8a5917eb04a57303528b44a40", null ],
     [ "StrLen", "struct_util_1_1_string.html#aa6e6d63cef14336efd8667ad33119050", null ],
     [ "SubstituteChar", "struct_util_1_1_string.html#a6ffd041e5eea000748407bb4858f3cd5", null ],
     [ "SubstituteString", "struct_util_1_1_string.html#a3de260ea686555b218ac9b6af163abe1", null ],

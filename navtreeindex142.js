@@ -1,13 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"struct_mathf_1_1_matrix.html#a62e48bddffc22ab29559334dec76c8c8":[9,0,43,5,81],
-"struct_mathf_1_1_matrix.html#a66010909ca27c536306c615d54c99612":[8,0,48,5,70],
-"struct_mathf_1_1_matrix.html#a66010909ca27c536306c615d54c99612":[9,0,43,5,70],
-"struct_mathf_1_1_matrix.html#a66b17217ffdafc153a2ebbdc61b7e674":[8,0,48,5,65],
-"struct_mathf_1_1_matrix.html#a66b17217ffdafc153a2ebbdc61b7e674":[9,0,43,5,65],
-"struct_mathf_1_1_matrix.html#a6792745bbd1310633213d61c97906725":[8,0,48,5,58],
-"struct_mathf_1_1_matrix.html#a6792745bbd1310633213d61c97906725":[9,0,43,5,58],
-"struct_mathf_1_1_matrix.html#a683db81667f45ccda24ac8f0ff16b9e6":[8,0,48,5,74],
 "struct_mathf_1_1_matrix.html#a683db81667f45ccda24ac8f0ff16b9e6":[9,0,43,5,74],
 "struct_mathf_1_1_matrix.html#a6ba7299690296508a2e16ae5ecf964e1":[8,0,48,5,79],
 "struct_mathf_1_1_matrix.html#a6ba7299690296508a2e16ae5ecf964e1":[9,0,43,5,79],
@@ -249,5 +241,13 @@ var NAVTREEINDEX142 =
 "struct_mathf_1_1_point.html#ae246018f9315e4252a9b62877a63a7b7":[9,0,43,8,10],
 "struct_mathf_1_1_quaternion.html":[8,0,48,9],
 "struct_mathf_1_1_quaternion.html":[9,0,43,9],
-"struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[8,0,48,9,37]
+"struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[8,0,48,9,37],
+"struct_mathf_1_1_quaternion.html#a0b15ad660ec9f8b578efb7b9a09a4856":[9,0,43,9,37],
+"struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[8,0,48,9,15],
+"struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[9,0,43,9,15],
+"struct_mathf_1_1_quaternion.html#a14496127dcb616200c0dc9f4f2439f59":[8,0,48,9,3],
+"struct_mathf_1_1_quaternion.html#a14496127dcb616200c0dc9f4f2439f59":[9,0,43,9,3],
+"struct_mathf_1_1_quaternion.html#a18899b0e6cc8326ea852c9dc2580eeee":[8,0,48,9,13],
+"struct_mathf_1_1_quaternion.html#a18899b0e6cc8326ea852c9dc2580eeee":[9,0,43,9,13],
+"struct_mathf_1_1_quaternion.html#a1a5d86287a09b246b7b9b11265885502":[8,0,48,9,59]
 };

@@ -3,7 +3,7 @@ var searchData=
   ['id_0',['Id',['../struct_ids_1_1_id.html',1,'Ids::Id'],['../class_messaging_1_1_id.html',1,'Messaging::Id']]],
   ['idallocator_1',['IdAllocator',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20audio_3a_3aclipid_2c_20math_3a_3apoint_2c_20math_3a_3avector_2c_20float_2c_20float_2c_20float_2c_20float_2c_20bool_2c_20float_20_3e_2',['IdAllocator&lt; Audio::ClipId, Math::point, Math::vector, float, float, float, float, bool, float &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
-  ['idallocator_3c_20biomesettings_2c_20uint32_5ft_20_3e_3',['IdAllocator&lt; BiomeSettings, uint32_t &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
+  ['idallocator_3c_20biomesettings_20_3e_3',['IdAllocator&lt; BiomeSettings &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20coregraphics_3a_3atextureid_2c_20coregraphics_3a_3atextureid_2c_20coregraphics_3a_3atextureid_2c_20coregraphics_3a_3atextureid_2c_20coregraphics_3a_3ameshid_2c_20uint_2c_20indext_2c_20float_2c_20float_2c_20vegetationtype_20_3e_4',['IdAllocator&lt; CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::MeshId, uint, IndexT, float, float, VegetationType &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20createjobinfo_2c_20std_3a_3afunction_3c_20void_28_29_3e_2c_20privatememory_20_3e_5',['IdAllocator&lt; CreateJobInfo, std::function&lt; void()&gt;, PrivateMemory &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],
   ['idallocator_3c_20crowdagentid_2c_20int_2c_20navmeshid_2c_20math_3a_3apoint_20_3e_6',['IdAllocator&lt; CrowdAgentId, int, NavMeshId, Math::point &gt;',['../class_ids_1_1_id_allocator.html',1,'Ids']]],

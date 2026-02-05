@@ -1,13 +1,5 @@
 var NAVTREEINDEX139 =
 {
-"struct_math_1_1vec3.html#a90fb69cfdef71c938d12e0ceb8f07989":[9,0,42,33,5],
-"struct_math_1_1vec3.html#a9108c38c5fcf057197e2aa7c56338b17":[8,0,47,33,22],
-"struct_math_1_1vec3.html#a9108c38c5fcf057197e2aa7c56338b17":[9,0,42,33,22],
-"struct_math_1_1vec3.html#ab617041ab73e4ada418ffb975c639978":[8,0,47,33,24],
-"struct_math_1_1vec3.html#ab617041ab73e4ada418ffb975c639978":[9,0,42,33,24],
-"struct_math_1_1vec3.html#abd3773c21ea5225eef94d7d00229a5a2":[8,0,47,33,11],
-"struct_math_1_1vec3.html#abd3773c21ea5225eef94d7d00229a5a2":[9,0,42,33,11],
-"struct_math_1_1vec3.html#abe65e29f1a4c630099732d5d872518fc":[8,0,47,33,16],
 "struct_math_1_1vec3.html#abe65e29f1a4c630099732d5d872518fc":[9,0,42,33,16],
 "struct_math_1_1vec3.html#ac3281c0137eda03720b60113aff771ae":[8,0,47,33,8],
 "struct_math_1_1vec3.html#ac3281c0137eda03720b60113aff771ae":[9,0,42,33,8],
@@ -249,5 +241,13 @@ var NAVTREEINDEX139 =
 "struct_mathf_1_1_bounding_sphere.html#a46522a1cdf9a93cb25cf16e70395c45e":[9,0,43,2,24],
 "struct_mathf_1_1_bounding_sphere.html#a4709e022885e6c5a4a04f20ebd088d7e":[8,0,48,2,8],
 "struct_mathf_1_1_bounding_sphere.html#a4709e022885e6c5a4a04f20ebd088d7e":[9,0,43,2,8],
-"struct_mathf_1_1_bounding_sphere.html#a4f5d0d4f169ddfb55975ec172e0976bc":[8,0,48,2,12]
+"struct_mathf_1_1_bounding_sphere.html#a4f5d0d4f169ddfb55975ec172e0976bc":[8,0,48,2,12],
+"struct_mathf_1_1_bounding_sphere.html#a4f5d0d4f169ddfb55975ec172e0976bc":[9,0,43,2,12],
+"struct_mathf_1_1_bounding_sphere.html#a549a23fc3374cfcf575928bdb3d24f53":[8,0,48,2,19],
+"struct_mathf_1_1_bounding_sphere.html#a549a23fc3374cfcf575928bdb3d24f53":[9,0,43,2,19],
+"struct_mathf_1_1_bounding_sphere.html#a55ce6f40ceec6a90c5788e9be8b49cbd":[8,0,48,2,3],
+"struct_mathf_1_1_bounding_sphere.html#a55ce6f40ceec6a90c5788e9be8b49cbd":[9,0,43,2,3],
+"struct_mathf_1_1_bounding_sphere.html#a562a10c63b33d2f97dcab68e6e419c77":[8,0,48,2,34],
+"struct_mathf_1_1_bounding_sphere.html#a562a10c63b33d2f97dcab68e6e419c77":[9,0,43,2,34],
+"struct_mathf_1_1_bounding_sphere.html#a566eda627cb497ad3f66ef5e48837fdc":[8,0,48,2,27]
 };
