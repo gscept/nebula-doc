@@ -58,6 +58,6 @@ var shader_8h =
     [ "CoreGraphics::ShaderGetResourceSlot", "namespace_core_graphics.html#afd7d2a5e3c1622da4fda6ab53b9646f1", null ],
     [ "CoreGraphics::ShaderGetResourceTableLayout", "namespace_core_graphics.html#aed86a5f967a8dc018ebe208afbbf0a49", null ],
     [ "CoreGraphics::ShaderHasResourceTable", "namespace_core_graphics.html#a63dd47698408af8d684a3b42a9303ece", null ],
-    [ "CoreGraphics::ShaderProgramGetName", "namespace_core_graphics.html#ac150ec480ba3a5a62913bd15336e4ead", null ],
+    [ "CoreGraphics::ShaderProgramGetName", "namespace_core_graphics.html#aec9f1e70ed0a8160d59a7e2413031f9b", null ],
     [ "CoreGraphics::ShaderProgramGetRaytracingBits", "namespace_core_graphics.html#a2ec1ad8565cd6d6c1f654fee95dc03ba", null ]
 ];

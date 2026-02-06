@@ -1,6 +1,5 @@
 var NAVTREEINDEX137 =
 {
-"struct_materials_1_1_shader_config_batch_texture.html":[9,0,39,7],
 "struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[8,0,44,7,0],
 "struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[9,0,39,7,0],
 "struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[8,0,44,7,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX137 =
 "struct_math_1_1point.html#a1b68db4ff58de6c95343dc31e258b8f7":[9,0,42,21,18],
 "struct_math_1_1point.html#a1cfbd292f08abf43ea2069740bad4aad":[8,0,47,21,26],
 "struct_math_1_1point.html#a1cfbd292f08abf43ea2069740bad4aad":[9,0,42,21,26],
-"struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2":[8,0,47,21,14]
+"struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2":[8,0,47,21,14],
+"struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2":[9,0,42,21,14]
 };

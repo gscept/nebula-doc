@@ -1,6 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"namespace_vulkan.html#a8737933eb7ba322b12d126c1b21a0da6":[8,0,92,223],
 "namespace_vulkan.html#a88ad874a9f4913b57f2617644ec20af1":[8,0,92,98],
 "namespace_vulkan.html#a8d3f7772d3b56af84e4d24f03ce124b8":[8,0,92,90],
 "namespace_vulkan.html#a8d8ad8372c106288ac8b7ea72d012edd":[8,0,92,73],
@@ -249,5 +248,6 @@ var NAVTREEINDEX116 =
 "navigationmanager_8cc.html":[10,0,0,0,7,1,0],
 "navigationmanager_8h.html":[10,0,0,0,7,1,1],
 "navigationmanager_8h_source.html":[10,0,0,0,7,1,1],
-"navigationpagehandler_8cc.html":[10,0,0,0,7,0,2]
+"navigationpagehandler_8cc.html":[10,0,0,0,7,0,2],
+"navigationpagehandler_8h.html":[10,0,0,0,7,0,3]
 };
