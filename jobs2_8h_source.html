@@ -340,235 +340,247 @@ $(function(){initNavTree('jobs2_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>)</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>{</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(numInvocations &gt; 0);</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(doneCounter != <span class="keyword">nullptr</span> ? *doneCounter &gt; 0 : <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="comment">// Copy over wait counters</span></div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordflow">if</span> (waitCounters.Size() &gt; 0)</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    {</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        memcpy(node-&gt;job.waitCounters, waitCounters.Begin(), waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    }</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    node-&gt;job.l = std::move(func);</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    node-&gt;job.func = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    node-&gt;job.remainingGroups = numJobs;</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    node-&gt;job.numInvocations = numInvocations;</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    node-&gt;job.groupSize = groupSize;</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    node-&gt;job.numWaitCounters = (<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>)waitCounters.Size();</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    node-&gt;job.doneCounter = doneCounter;</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    node-&gt;job.signalEvent = signalEvent;</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    node-&gt;sequence = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <span class="comment">// Add to end of linked list</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Enter();</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <span class="comment">// First, set head node if nullptr</span></div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head = node;</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    <span class="comment">// Then add node to end of list</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail-&gt;next = node;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail = node;</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Leave();</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordflow">if</span> (numInvocations == 0)</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    {</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keywordflow">if</span> (doneCounter != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        {</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>            <a class="code hl_function" href="namespace_threading_1_1_interlocked.html#aa944bee59952acdd27f9bc870a76a7b1">Threading::Interlocked::Exchange</a>(doneCounter, 0);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        }</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        <span class="comment">// If we have a signal event and no invocations, just signal the event and return</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        <span class="keywordflow">if</span> (signalEvent != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        {</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            signalEvent-&gt;Signal();</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    }</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(doneCounter != <span class="keyword">nullptr</span> ? *doneCounter &gt; 0 : <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <span class="comment">// Copy over wait counters</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <span class="keywordflow">if</span> (waitCounters.Size() &gt; 0)</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    {</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        memcpy(node-&gt;job.waitCounters, waitCounters.Begin(), waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    }</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    node-&gt;job.l = std::move(func);</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    node-&gt;job.func = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    node-&gt;job.remainingGroups = numJobs;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    node-&gt;job.numInvocations = numInvocations;</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    node-&gt;job.groupSize = groupSize;</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    node-&gt;job.numWaitCounters = (<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>)waitCounters.Size();</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    node-&gt;job.doneCounter = doneCounter;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    node-&gt;job.signalEvent = signalEvent;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    node-&gt;sequence = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="comment">// Add to end of linked list</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Enter();</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="comment">// Trigger threads to wake up and compete for jobs</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="class_ptr.html">Ptr&lt;JobThread&gt;</a>&amp; thread : <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.threads)</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    {</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        thread-&gt;SignalWorkAvailable();</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    }</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>}</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="comment">// First, set head node if nullptr</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head = node;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="comment">// Then add node to end of list</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail-&gt;next = node;</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail = node;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Leave();</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="comment">// Trigger threads to wake up and compete for jobs</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="class_ptr.html">Ptr&lt;JobThread&gt;</a>&amp; thread : <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.threads)</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    {</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>        thread-&gt;SignalWorkAvailable();</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    }</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>}</div>
 </div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> LAMBDA&gt; <span class="keywordtype">void</span></div>
-<div class="foldopen" id="foldopen00288" data-start="{" data-end="}">
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a6b3e00f236d08d4f41e00d709483d928">  288</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    LAMBDA&amp;&amp; func</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>)</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>{</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(func, numInvocations, numInvocations, waitCounters, doneCounter, signalEvent);</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>}</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> LAMBDA&gt; <span class="keywordtype">void</span></div>
+<div class="foldopen" id="foldopen00300" data-start="{" data-end="}">
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a6b3e00f236d08d4f41e00d709483d928">  300</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    LAMBDA&amp;&amp; func</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>)</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>{</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    <a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(func, numInvocations, numInvocations, waitCounters, doneCounter, signalEvent);</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>}</div>
 </div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span></div>
-<div class="foldopen" id="foldopen00303" data-start="{" data-end="}">
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a38f6ea9ea4e38361fd072a1d626ccea8">  303</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize</div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    , <span class="keyword">const</span> CTX&amp; context</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>)</div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>{</div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keyword">static_assert</span>(std::is_trivially_destructible&lt;CTX&gt;::value, <span class="stringliteral">&quot;Job context has to be trivially destructible&quot;</span>);</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(numInvocations &gt; 0);</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(doneCounter != <span class="keyword">nullptr</span> ? *doneCounter &gt; 0 : <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    <span class="keyword">auto</span> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    <span class="comment">// Copy over wait counters</span></div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>    <span class="keywordflow">if</span> (waitCounters.Size() &gt; 0)</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    {</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX));</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        memcpy(node-&gt;job.waitCounters, waitCounters.Begin(), waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    }</div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span> </div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    <span class="comment">// Move context</span></div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    node-&gt;job.data = (<span class="keywordtype">void</span>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    <span class="keyword">auto</span> data = <span class="keyword">reinterpret_cast&lt;</span>CTX*<span class="keyword">&gt;</span>(node-&gt;job.data);</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    *data = context;</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    node-&gt;job.l.callable = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    node-&gt;job.func = func;</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    node-&gt;job.remainingGroups = numJobs;</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    node-&gt;job.numInvocations = numInvocations;</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    node-&gt;job.groupSize = groupSize;</div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    node-&gt;job.numWaitCounters = (<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>)waitCounters.Size();</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    node-&gt;job.doneCounter = doneCounter;</div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    node-&gt;job.signalEvent = signalEvent;</div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    node-&gt;sequence = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    <span class="comment">// Add to end of linked list</span></div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Enter();</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    <span class="comment">// First, set head node if nullptr</span></div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head = node;</div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span> </div>
-<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>    <span class="comment">// Then add node to end of list</span></div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail-&gt;next = node;</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail = node;</div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
-<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Leave();</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span></div>
+<div class="foldopen" id="foldopen00315" data-start="{" data-end="}">
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a38f6ea9ea4e38361fd072a1d626ccea8">  315</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>    , <span class="keyword">const</span> CTX&amp; context</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>)</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>{</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    <span class="keyword">static_assert</span>(std::is_trivially_destructible&lt;CTX&gt;::value, <span class="stringliteral">&quot;Job context has to be trivially destructible&quot;</span>);</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(numInvocations &gt; 0);</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(doneCounter != <span class="keyword">nullptr</span> ? *doneCounter &gt; 0 : <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span> </div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    <span class="keyword">auto</span> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span> </div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    <span class="comment">// Copy over wait counters</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    <span class="keywordflow">if</span> (waitCounters.Size() &gt; 0)</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    {</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX));</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        memcpy(node-&gt;job.waitCounters, waitCounters.Begin(), waitCounters.Size() * <span class="keyword">sizeof</span>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    }</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span> </div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    <span class="comment">// Move context</span></div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    node-&gt;job.data = (<span class="keywordtype">void</span>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    <span class="keyword">auto</span> data = <span class="keyword">reinterpret_cast&lt;</span>CTX*<span class="keyword">&gt;</span>(node-&gt;job.data);</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>    *data = context;</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    node-&gt;job.l.callable = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    node-&gt;job.func = func;</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    node-&gt;job.remainingGroups = numJobs;</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>    node-&gt;job.numInvocations = numInvocations;</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    node-&gt;job.groupSize = groupSize;</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>    node-&gt;job.numWaitCounters = (<a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>)waitCounters.Size();</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    node-&gt;job.doneCounter = doneCounter;</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    node-&gt;job.signalEvent = signalEvent;</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>    node-&gt;sequence = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span> </div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    <span class="comment">// Add to end of linked list</span></div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Enter();</div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>    <span class="comment">// Trigger threads to wake up and compete for jobs</span></div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="class_ptr.html">Ptr&lt;JobThread&gt;</a>&amp; thread : <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.threads)</div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    {</div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>        thread-&gt;SignalWorkAvailable();</div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    }</div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>}</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>    <span class="comment">// First, set head node if nullptr</span></div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.head = node;</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span> </div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    <span class="comment">// Then add node to end of list</span></div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>        <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail-&gt;next = node;</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.tail = node;</div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.jobLock.Leave();</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span> </div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    <span class="comment">// Trigger threads to wake up and compete for jobs</span></div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="class_ptr.html">Ptr&lt;JobThread&gt;</a>&amp; thread : <a class="code hl_variable" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">ctx</a>.threads)</div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>    {</div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>        thread-&gt;SignalWorkAvailable();</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>    }</div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>}</div>
 </div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span> </div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span></div>
-<div class="foldopen" id="foldopen00375" data-start="{" data-end="}">
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#af280c11ed45894194b228ab8a74a05c8">  375</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
-<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func</div>
-<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
-<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>    , <span class="keyword">const</span> CTX&amp; context</div>
-<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
-<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>)</div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>{</div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>    <a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(func, numInvocations, numInvocations, context, waitCounters, doneCounter, signalEvent);</div>
-<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>}</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span> </div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span></div>
+<div class="foldopen" id="foldopen00387" data-start="{" data-end="}">
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#af280c11ed45894194b228ab8a74a05c8">  387</a></span><a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>    , <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>    , <span class="keyword">const</span> CTX&amp; context</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>    , <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_fixed_array.html">Util::FixedArray&lt;const Threading::AtomicCounter*, true&gt;</a>&amp; waitCounters = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>    , <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>* doneCounter = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>    , Threading::Event* signalEvent = <span class="keyword">nullptr</span></div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>)</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>{</div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>    <a class="code hl_function" href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">JobDispatch</a>(func, numInvocations, numInvocations, context, waitCounters, doneCounter, signalEvent);</div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>}</div>
 </div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span> </div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span> </div>
-<div class="foldopen" id="foldopen00391" data-start="{" data-end="}">
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">  391</a></span><a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <span class="keyword">const</span> CTX&amp; context)</div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>{</div>
-<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>    <span class="keyword">static_assert</span>(std::is_trivially_destructible&lt;CTX&gt;::value, <span class="stringliteral">&quot;Job context has to be trivially destructible&quot;</span>);</div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(numInvocations &gt; 0);</div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_variable" href="namespace_jobs2.html#a3ba2dc1e42cccb235a414abe88d3d3bb">sequenceThread</a> == Threading::Thread::GetMyThreadId());</div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_variable" href="namespace_jobs2.html#a552a701d44bf6ad7e5d6b508f6fa8cfb">sequenceNode</a> != <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span> </div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span> </div>
-<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
-<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>);</div>
-<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>        dynamicAllocSize += <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
-<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
-<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
-<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span> </div>
-<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>    {</div>
-<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>        node-&gt;job.numWaitCounters = 1;</div>
-<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>));</div>
-<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>        memcpy(node-&gt;job.waitCounters, &amp;<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a>, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    }</div>
-<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>    {</div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>        node-&gt;job.numWaitCounters = 0;</div>
-<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>        node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>    }</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span> </div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00403" data-start="{" data-end="}">
+<div class="line"><a id="l00403" name="l00403"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">  403</a></span><a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <span class="keyword">const</span> CTX&amp; context)</div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>{</div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>    <span class="keyword">static_assert</span>(std::is_trivially_destructible&lt;CTX&gt;::value, <span class="stringliteral">&quot;Job context has to be trivially destructible&quot;</span>);</div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(numInvocations &gt; 0);</div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_variable" href="namespace_jobs2.html#a3ba2dc1e42cccb235a414abe88d3d3bb">sequenceThread</a> == Threading::Thread::GetMyThreadId());</div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_variable" href="namespace_jobs2.html#a552a701d44bf6ad7e5d6b508f6fa8cfb">sequenceNode</a> != <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span> </div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>    <span class="comment">// Calculate the number of actual jobs based on invocations and group size</span></div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numJobs = <a class="code hl_function" href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a>(numInvocations / <span class="keywordtype">float</span>(groupSize));</div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span> </div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    <span class="comment">// Calculate allocation size which is node + counters + data context</span></div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> dynamicAllocSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>);</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>        dynamicAllocSize += <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*);</div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>    <span class="keyword">auto</span> mem = <a class="code hl_function" href="namespace_jobs2.html#ab4799a23175610f12cb3f97d260b8730">JobAlloc&lt;char&gt;</a>(dynamicAllocSize);</div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>    <span class="keyword">auto</span> node = (<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>*)mem;</div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span> </div>
-<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>    <span class="comment">// Move context</span></div>
-<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>    node-&gt;job.data = (<span class="keywordtype">void</span>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
-<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>    <span class="keyword">auto</span> data = <span class="keyword">reinterpret_cast&lt;</span>CTX*<span class="keyword">&gt;</span>(node-&gt;job.data);</div>
-<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>    *data = context;</div>
-<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span> </div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>    node-&gt;job.l.callable = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>    node-&gt;job.func = func;</div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>    node-&gt;job.remainingGroups = numJobs;</div>
-<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
-<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>    node-&gt;job.numInvocations = numInvocations;</div>
-<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>    node-&gt;job.groupSize = groupSize;</div>
-<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span>    </div>
-<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>    node-&gt;job.doneCounter = (<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX));</div>
-<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>    *node-&gt;job.doneCounter = 1;</div>
-<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> = node-&gt;job.doneCounter;</div>
-<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>    node-&gt;job.signalEvent = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span> </div>
-<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>    <span class="comment">// The remainingGroups counter for the sequence node is the length of the sequence chain</span></div>
-<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a> == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>        <a class="code hl_variable" href="namespace_jobs2.html#a552a701d44bf6ad7e5d6b508f6fa8cfb">sequenceNode</a>-&gt;sequence = node;</div>
-<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>        <a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a>-&gt;next = node;</div>
-<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span> </div>
-<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>    <a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a> = node;</div>
-<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span> </div>
-<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>    <span class="comment">// Queue job</span></div>
-<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>    <span class="comment">//ctx.queuedJobs.Append(node);</span></div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>}</div>
-</div>
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>    {</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>        node-&gt;job.numWaitCounters = 1;</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>        node-&gt;job.waitCounters = (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>**)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>));</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>        memcpy(node-&gt;job.waitCounters, &amp;<a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a>, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*));</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>    }</div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>    {</div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span>        node-&gt;job.numWaitCounters = 0;</div>
+<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>        node-&gt;job.waitCounters = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>    }</div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span> </div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>    <span class="comment">// Move context</span></div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>    node-&gt;job.data = (<span class="keywordtype">void</span>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>));</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>    <span class="keyword">auto</span> data = <span class="keyword">reinterpret_cast&lt;</span>CTX*<span class="keyword">&gt;</span>(node-&gt;job.data);</div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>    *data = context;</div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span> </div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>    node-&gt;job.l.callable = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>    node-&gt;job.func = func;</div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>    node-&gt;job.remainingGroups = numJobs;</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>    node-&gt;job.groupCompletionCounter = numJobs;</div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>    node-&gt;job.numInvocations = numInvocations;</div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>    node-&gt;job.groupSize = groupSize;</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>    </div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>    node-&gt;job.doneCounter = (<a class="code hl_typedef" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>*)(mem + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_jobs2_1_1_job_node.html">JobNode</a>) + <span class="keyword">sizeof</span>(CTX));</div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>    *node-&gt;job.doneCounter = 1;</div>
+<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>    <a class="code hl_variable" href="namespace_jobs2.html#a5c5548726d03b00273aebe550fadcf89">prevDoneCounter</a> = node-&gt;job.doneCounter;</div>
+<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>    node-&gt;job.signalEvent = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>    node-&gt;next = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span> </div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span> </div>
-<div class="foldopen" id="foldopen00454" data-start="{" data-end="}">
-<div class="line"><a id="l00454" name="l00454"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad">  454</a></span><a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, <span class="keyword">const</span> CTX&amp; context)</div>
-<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span>{</div>
-<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>    <a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(func, numInvocations, numInvocations, context);</div>
-<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>}</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>    <span class="comment">// The remainingGroups counter for the sequence node is the length of the sequence chain</span></div>
+<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a> == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>        <a class="code hl_variable" href="namespace_jobs2.html#a552a701d44bf6ad7e5d6b508f6fa8cfb">sequenceNode</a>-&gt;sequence = node;</div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span>        <a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a>-&gt;next = node;</div>
+<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span> </div>
+<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>    <a class="code hl_variable" href="namespace_jobs2.html#a66824710821a0450f8dc90c4538b9b50">sequenceTail</a> = node;</div>
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span> </div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    <span class="comment">// Queue job</span></div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>    <span class="comment">//ctx.queuedJobs.Append(node);</span></div>
+<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>}</div>
 </div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span> </div>
-<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>} <span class="comment">// namespace Jobs2</span></div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span> </div>
+<div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> CTX&gt; <span class="keywordtype">void</span> </div>
+<div class="foldopen" id="foldopen00466" data-start="{" data-end="}">
+<div class="line"><a id="l00466" name="l00466"></a><span class="lineno"><a class="line" href="namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad">  466</a></span><a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467">JobFunc</a>&amp; func, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInvocations, <span class="keyword">const</span> CTX&amp; context)</div>
+<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>{</div>
+<div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span>    <a class="code hl_function" href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">JobAppendSequence</a>(func, numInvocations, numInvocations, context);</div>
+<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>}</div>
+</div>
+<div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span> </div>
+<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span>} <span class="comment">// namespace Jobs2</span></div>
 <div class="ttc" id="aclass_jobs2_1_1_job_thread_html_a0358a99c219dbc531b36a9507bf31e3d"><div class="ttname"><a href="class_jobs2_1_1_job_thread.html#a0358a99c219dbc531b36a9507bf31e3d">Jobs2::JobThread::JobThread</a></div><div class="ttdeci">JobThread()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> jobs2.cc:19</div></div>
 <div class="ttc" id="aclass_jobs2_1_1_job_thread_html_a0d36e7564d350538696931eaa084cfef"><div class="ttname"><a href="class_jobs2_1_1_job_thread.html#a0d36e7564d350538696931eaa084cfef">Jobs2::JobThread::DoWork</a></div><div class="ttdeci">virtual void DoWork() override</div><div class="ttdoc">this method runs in the thread context</div><div class="ttdef"><b>Definition</b> jobs2.cc:58</div></div>
 <div class="ttc" id="aclass_jobs2_1_1_job_thread_html_a5d56c6b03a3ff244e86d4b0540be642e"><div class="ttname"><a href="class_jobs2_1_1_job_thread.html#a5d56c6b03a3ff244e86d4b0540be642e">Jobs2::JobThread::wakeupEvent</a></div><div class="ttdeci">Threading::Event wakeupEvent</div><div class="ttdef"><b>Definition</b> jobs2.h:143</div></div>
@@ -601,8 +613,9 @@ $(function(){initNavTree('jobs2_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespace_jobs2_html_ae7ceff6df92eaeefcc62b5b42ede81f7"><div class="ttname"><a href="namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7">Jobs2::CompletionCounter</a></div><div class="ttdeci">volatile long CompletionCounter</div><div class="ttdef"><b>Definition</b> jobs2.h:41</div></div>
 <div class="ttc" id="anamespace_jobs2_html_aeabcfb01fb42b745463a89731f3d5f24"><div class="ttname"><a href="namespace_jobs2.html#aeabcfb01fb42b745463a89731f3d5f24">Jobs2::JobNewFrame</a></div><div class="ttdeci">void JobNewFrame()</div><div class="ttdoc">Progress to new buffer.</div><div class="ttdef"><b>Definition</b> jobs2.cc:253</div></div>
 <div class="ttc" id="anamespace_jobs2_html_afa45e0b1404f7a504ddfef65f1d0f612"><div class="ttname"><a href="namespace_jobs2.html#afa45e0b1404f7a504ddfef65f1d0f612">Jobs2::JobDispatch</a></div><div class="ttdeci">void JobDispatch(LAMBDA &amp;&amp;func, const SizeT numInvocations, const SizeT groupSize, const Util::FixedArray&lt; const Threading::AtomicCounter *, true &gt; &amp;waitCounters=nullptr, Threading::AtomicCounter *doneCounter=nullptr, Threading::Event *signalEvent=nullptr)</div><div class="ttdef"><b>Definition</b> jobs2.h:223</div></div>
-<div class="ttc" id="anamespace_jobs2_html_afed0db3844c71360126a8a9f9f1e9753"><div class="ttname"><a href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">Jobs2::JobAppendSequence</a></div><div class="ttdeci">void JobAppendSequence(const JobFunc &amp;func, const SizeT numInvocations, const SizeT groupSize, const CTX &amp;context)</div><div class="ttdoc">Append job to sequence with an automatic dependency on the previous job.</div><div class="ttdef"><b>Definition</b> jobs2.h:391</div></div>
+<div class="ttc" id="anamespace_jobs2_html_afed0db3844c71360126a8a9f9f1e9753"><div class="ttname"><a href="namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753">Jobs2::JobAppendSequence</a></div><div class="ttdeci">void JobAppendSequence(const JobFunc &amp;func, const SizeT numInvocations, const SizeT groupSize, const CTX &amp;context)</div><div class="ttdoc">Append job to sequence with an automatic dependency on the previous job.</div><div class="ttdef"><b>Definition</b> jobs2.h:403</div></div>
 <div class="ttc" id="anamespace_math_html_a630b2fbd47cf47992dd768f92d2427dd"><div class="ttname"><a href="namespace_math.html#a630b2fbd47cf47992dd768f92d2427dd">Math::ceil</a></div><div class="ttdeci">__forceinline float ceil(float val)</div><div class="ttdoc">Floating point ceiling.</div><div class="ttdef"><b>Definition</b> scalar.h:542</div></div>
+<div class="ttc" id="anamespace_threading_1_1_interlocked_html_aa944bee59952acdd27f9bc870a76a7b1"><div class="ttname"><a href="namespace_threading_1_1_interlocked.html#aa944bee59952acdd27f9bc870a76a7b1">Threading::Interlocked::Exchange</a></div><div class="ttdeci">int Exchange(int volatile *dest, int value)</div><div class="ttdoc">interlocked exchange</div><div class="ttdef"><b>Definition</b> gccinterlocked.cc:94</div></div>
 <div class="ttc" id="anamespace_threading_html"><div class="ttname"><a href="namespace_threading.html">Threading</a></div><div class="ttdoc">The Jobs2 system provides a set of threads and a pool of jobs from which threads can pickup work.</div><div class="ttdef"><b>Definition</b> jobs2.h:16</div></div>
 <div class="ttc" id="anamespace_threading_html_a5a3ee688d0de0946e6d8f66b15736b86"><div class="ttname"><a href="namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86">Threading::ThreadId</a></div><div class="ttdeci">pthread_t ThreadId</div><div class="ttdef"><b>Definition</b> linuxthreadid.h:15</div></div>
 <div class="ttc" id="anamespace_threading_html_a5e1a0a87f18165bfb9f1bd8dbc8da48b"><div class="ttname"><a href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a></div><div class="ttdeci">volatile int AtomicCounter</div><div class="ttdef"><b>Definition</b> interlocked.h:19</div></div>
@@ -665,7 +678,7 @@ $(function(){initNavTree('jobs2_8h_source.html',''); initResizable(true); });
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_1f70dc8d08ae2b4bc921a7c9530622ab.html">jobs2</a></li><li class="navelem"><a class="el" href="jobs2_8h.html">jobs2.h</a></li>
 				<li class="footer">
-					Generated on Thu Feb 5 2026 18:52:58 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Fri Feb 6 2026 20:09:41 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
