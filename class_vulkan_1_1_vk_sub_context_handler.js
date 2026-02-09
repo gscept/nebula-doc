@@ -35,5 +35,7 @@ var class_vulkan_1_1_vk_sub_context_handler =
     [ "semaphoreSubmissionIds", "class_vulkan_1_1_vk_sub_context_handler.html#a80d84cc43fd13c2a5c18aa2eac6a39db", null ],
     [ "sparseBindSubmissions", "class_vulkan_1_1_vk_sub_context_handler.html#ad6b6c696d6077df731d3bff0ad7893e9", null ],
     [ "submissionLock", "class_vulkan_1_1_vk_sub_context_handler.html#ace72a70d1d4ed8ee47a2db8a17382684", null ],
-    [ "submissions", "class_vulkan_1_1_vk_sub_context_handler.html#a5e915841b17e30f6de834f64709cd5fa", null ]
+    [ "submissions", "class_vulkan_1_1_vk_sub_context_handler.html#a5e915841b17e30f6de834f64709cd5fa", null ],
+    [ "submitInfos", "class_vulkan_1_1_vk_sub_context_handler.html#a5e0eb7472eabe9639000c30794cae39b", null ],
+    [ "timelineInfos", "class_vulkan_1_1_vk_sub_context_handler.html#a71f4a7762a6d9837d10cbcfd9abbd42c", null ]
 ];

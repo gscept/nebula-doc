@@ -90,7 +90,7 @@ var searchData=
   ['boundingfrustum_87',['BoundingFrustum',['../class_mathf_1_1_bounding_frustum.html#ad083746a4a1ff79e3ca974744a0bbac4',1,'Mathf::BoundingFrustum']]],
   ['boundingsphere_88',['BoundingSphere',['../struct_mathf_1_1_bounding_sphere.html#a78bd2325ec26c34e8213e0359cadc4fc',1,'Mathf::BoundingSphere']]],
   ['broadcast_89',['Broadcast',['../class_multiplayer_1_1_base_multiplayer_server.html#a4dd291b48851ff7261b8bef8a6217989',1,'Multiplayer::BaseMultiplayerServer::Broadcast()'],['../class_net_1_1_std_tcp_server.html#a381e6018d435caef5c38382177fbc08c',1,'Net::StdTcpServer::Broadcast()']]],
-  ['bucketfromsize_90',['BucketFromSize',['../class_memory_1_1_range_allocator.html#a3cf87219ad0c57d3aeb80c549803eb52',1,'Memory::RangeAllocator']]],
+  ['bucketfromsize_90',['BucketFromSize',['../class_memory_1_1_range_allocator.html#a831981d291d6791737cd1efa5ef3f162',1,'Memory::RangeAllocator']]],
   ['buffer_91',['Buffer',['../struct_core_graphics_1_1_buffer_set.html#a56cc39be04f8dfa52801270af956a917',1,'CoreGraphics::BufferSet']]],
   ['buffercopywithstaging_92',['BufferCopyWithStaging',['../namespace_core_graphics.html#a4d7c954f644790be4c5fd7cc259ae390',1,'CoreGraphics']]],
   ['buffercreateinfo_93',['BufferCreateInfo',['../struct_core_graphics_1_1_buffer_create_info.html#ae3359aa6f7eba465fa46840a284fc41f',1,'CoreGraphics::BufferCreateInfo']]],

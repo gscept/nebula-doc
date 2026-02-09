@@ -410,7 +410,7 @@ var searchData=
   ['bruteforcesystemloadinfo_407',['BruteforceSystemLoadInfo',['../struct_visibility_1_1_bruteforce_system_load_info.html',1,'Visibility']]],
   ['bsdfobject_408',['BSDFObject',['../namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e',1,'Raytracing']]],
   ['bucket_409',['bucket',['../union_memory_1_1_range_allocator_1_1_bin_index.html#a95efcbcb343c53516f0240522e83e328',1,'Memory::RangeAllocator::BinIndex']]],
-  ['bucketfromsize_410',['BucketFromSize',['../class_memory_1_1_range_allocator.html#a3cf87219ad0c57d3aeb80c549803eb52',1,'Memory::RangeAllocator']]],
+  ['bucketfromsize_410',['BucketFromSize',['../class_memory_1_1_range_allocator.html#a831981d291d6791737cd1efa5ef3f162',1,'Memory::RangeAllocator']]],
   ['bucketindex_411',['bucketIndex',['../class_util_1_1_hash_table_1_1_iterator.html#a15138f95fe2db5f9af3513a650bf6b99',1,'Util::HashTable::Iterator']]],
   ['bucketusagemask_412',['bucketUsageMask',['../class_memory_1_1_range_allocator.html#a87762048775fbe6ff0ced0182c5aed54',1,'Memory::RangeAllocator']]],
   ['budgetcounter_413',['budgetCounter',['../struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df',1,'CoreGraphics::MemoryPool']]],

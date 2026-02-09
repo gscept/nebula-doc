@@ -1,5 +1,11 @@
 var NAVTREEINDEX159 =
 {
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a981c4131c7482dc4e059333bc55c2816":[9,0,77,33,1,3],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a9af49d0f108e8773bae7b962db1cc3ed":[8,0,92,33,1,4],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#a9af49d0f108e8773bae7b962db1cc3ed":[9,0,77,33,1,4],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#ad9a783c93092a9aa54f05617c4de31db":[8,0,92,33,1,1],
+"struct_vulkan_1_1_vk_reflection_info_1_1_variable.html#ad9a783c93092a9aa54f05617c4de31db":[9,0,77,33,1,1],
+"struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html":[8,0,92,35,0],
 "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html":[9,0,77,35,0],
 "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#a58c6b36b820ec1039209266fe43a67b3":[8,0,92,35,0,0],
 "struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html#a58c6b36b820ec1039209266fe43a67b3":[9,0,77,35,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a671dc41fc52a56cc4bbe25b8d0b61f63":[9,0,77,42,0,10],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a72bdb2c1c851e8633c0147683a09c2da":[8,0,92,42,0,4],
 "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a72bdb2c1c851e8633c0147683a09c2da":[9,0,77,42,0,4],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a8b36ba77a20ded848c18131a93e44fbb":[8,0,92,42,0,3],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a8b36ba77a20ded848c18131a93e44fbb":[9,0,77,42,0,3],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa18e92b737020aa906c421943dd266ef":[8,0,92,42,0,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa18e92b737020aa906c421943dd266ef":[9,0,77,42,0,5],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa50369a838befa84ef42a51fab2eaf0b":[8,0,92,42,0,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa50369a838befa84ef42a51fab2eaf0b":[9,0,77,42,0,1],
-"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#aa60fc77518b8f22dd0731ae92de5b9a0":[8,0,92,42,0,6]
+"struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html#a8b36ba77a20ded848c18131a93e44fbb":[8,0,92,42,0,3]
 };

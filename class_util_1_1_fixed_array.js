@@ -33,6 +33,7 @@ var class_util_1_1_fixed_array =
     [ "operator=", "class_util_1_1_fixed_array.html#a96b88ff0796407205987b87e1475f235", null ],
     [ "operator==", "class_util_1_1_fixed_array.html#a469fe068d65ae5f2fd7828744cc3ab28", null ],
     [ "operator[]", "class_util_1_1_fixed_array.html#a33eea96e5fb9171a381a478ba2ca1f1d", null ],
+    [ "Reset", "class_util_1_1_fixed_array.html#adc082fff36b55231967e914997504f67", null ],
     [ "Resize", "class_util_1_1_fixed_array.html#adba79d8a96ad96e066f447b02fc798d9", null ],
     [ "resize", "class_util_1_1_fixed_array.html#a7d28542eab596372557a492952228f73", null ],
     [ "SetSize", "class_util_1_1_fixed_array.html#adca52a0660aca748d0c1f6112ea0f76c", null ],
