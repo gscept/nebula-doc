@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"class_messaging_1_1_batch_message.html":[8,0,51,1],
+"class_messaging_1_1_batch_message.html":[9,0,46,1],
 "class_messaging_1_1_batch_message.html#a291ea41bd545b8976a9d9607160dbaa7":[8,0,51,1,4],
 "class_messaging_1_1_batch_message.html#a291ea41bd545b8976a9d9607160dbaa7":[9,0,46,1,4],
 "class_messaging_1_1_batch_message.html#a478f6eb6820e8ba4ae0f5b8dc8882dcd":[8,0,51,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "class_messaging_1_1_run_through_handler_thread.html":[8,0,51,13],
 "class_messaging_1_1_run_through_handler_thread.html":[9,0,46,13],
 "class_messaging_1_1_run_through_handler_thread.html#a0a6ebe9ea933f5fa7a2f465d9aa4028e":[8,0,51,13,1],
-"class_messaging_1_1_run_through_handler_thread.html#a0a6ebe9ea933f5fa7a2f465d9aa4028e":[9,0,46,13,1],
-"class_messaging_1_1_run_through_handler_thread.html#a8abf4ff77d1bd106edd570b006605aac":[8,0,51,13,3],
-"class_messaging_1_1_run_through_handler_thread.html#a8abf4ff77d1bd106edd570b006605aac":[9,0,46,13,3]
+"class_messaging_1_1_run_through_handler_thread.html#a0a6ebe9ea933f5fa7a2f465d9aa4028e":[9,0,46,13,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[8,0,48,9,15],
+"struct_mathf_1_1_quaternion.html#a12e001a6ed3452f5d509b8dd55d4c45c":[9,0,43,9,15],
 "struct_mathf_1_1_quaternion.html#a14496127dcb616200c0dc9f4f2439f59":[8,0,48,9,3],
 "struct_mathf_1_1_quaternion.html#a14496127dcb616200c0dc9f4f2439f59":[9,0,43,9,3],
 "struct_mathf_1_1_quaternion.html#a18899b0e6cc8326ea852c9dc2580eeee":[8,0,48,9,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "struct_mathf_1_1_vector2.html#a006e4de4fbc0cabbf3aa1db4901b1088":[8,0,48,12,15],
 "struct_mathf_1_1_vector2.html#a006e4de4fbc0cabbf3aa1db4901b1088":[9,0,43,12,15],
 "struct_mathf_1_1_vector2.html#a014c213b5fd4db42aeff9f8d67dcd318":[8,0,48,12,31],
-"struct_mathf_1_1_vector2.html#a014c213b5fd4db42aeff9f8d67dcd318":[9,0,43,12,31],
-"struct_mathf_1_1_vector2.html#a055791da6f26ae6dc451c73e64126d96":[8,0,48,12,24],
-"struct_mathf_1_1_vector2.html#a055791da6f26ae6dc451c73e64126d96":[9,0,43,12,24]
+"struct_mathf_1_1_vector2.html#a014c213b5fd4db42aeff9f8d67dcd318":[9,0,43,12,31]
 };

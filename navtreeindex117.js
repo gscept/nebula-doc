@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"navigationfeatureunit_8cc.html":[10,0,0,0,7,5],
+"navigationfeatureunit_8h.html":[10,0,0,0,7,6],
 "navigationfeatureunit_8h_source.html":[10,0,0,0,7,6],
 "navigationmanager_8cc.html":[10,0,0,0,7,1,0],
 "navigationmanager_8h.html":[10,0,0,0,7,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "posixheap_8h.html":[10,0,0,3,13,3,1],
 "posixheap_8h.html#af0f3173b318a2169b3aae6c5db85adcb":[10,0,0,3,13,3,1,1],
 "posixheap_8h_source.html":[10,0,0,3,13,3,1],
-"posixipaddress_8cc.html":[10,0,0,3,15,0,0],
-"posixipaddress_8h.html":[10,0,0,3,15,0,1],
-"posixipaddress_8h.html#acec5cf59a9003e429e16b6514489ccf8":[10,0,0,3,15,0,1,1]
+"posixipaddress_8cc.html":[10,0,0,3,15,0,0]
 };

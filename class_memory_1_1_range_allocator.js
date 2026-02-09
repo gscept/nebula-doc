@@ -23,5 +23,6 @@ var class_memory_1_1_range_allocator =
     [ "nodes", "class_memory_1_1_range_allocator.html#a193439f1b4b3e9f89c1fb2729e5691b2", null ],
     [ "NUM_BINS_PER_BUCKET", "class_memory_1_1_range_allocator.html#a4b91d70509f474ef524654bdf9e141d0", null ],
     [ "NUM_BUCKETS", "class_memory_1_1_range_allocator.html#a3b8880b36cc72be8e7d3fe8bbdb0fc3b", null ],
+    [ "numAllocs", "class_memory_1_1_range_allocator.html#a919ba969fd9d980d83a98b30afe35851", null ],
     [ "size", "class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4", null ]
 ];

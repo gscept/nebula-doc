@@ -122,8 +122,8 @@ var NAVTREEINDEX55 =
 "class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f":[9,0,45,3,2],
 "class_memory_1_1_range_allocator.html#a0e4abb8e176f8e7432556f15e30ca322":[8,0,50,3,8],
 "class_memory_1_1_range_allocator.html#a0e4abb8e176f8e7432556f15e30ca322":[9,0,45,3,8],
-"class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4":[8,0,50,3,23],
-"class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4":[9,0,45,3,23],
+"class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4":[8,0,50,3,24],
+"class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4":[9,0,45,3,24],
 "class_memory_1_1_range_allocator.html#a142020bbffb75574ab122c5e8392498b":[8,0,50,3,6],
 "class_memory_1_1_range_allocator.html#a142020bbffb75574ab122c5e8392498b":[9,0,45,3,6],
 "class_memory_1_1_range_allocator.html#a193439f1b4b3e9f89c1fb2729e5691b2":[8,0,50,3,20],
@@ -140,6 +140,8 @@ var NAVTREEINDEX55 =
 "class_memory_1_1_range_allocator.html#a831981d291d6791737cd1efa5ef3f162":[9,0,45,3,7],
 "class_memory_1_1_range_allocator.html#a87762048775fbe6ff0ced0182c5aed54":[8,0,50,3,16],
 "class_memory_1_1_range_allocator.html#a87762048775fbe6ff0ced0182c5aed54":[9,0,45,3,16],
+"class_memory_1_1_range_allocator.html#a919ba969fd9d980d83a98b30afe35851":[8,0,50,3,23],
+"class_memory_1_1_range_allocator.html#a919ba969fd9d980d83a98b30afe35851":[9,0,45,3,23],
 "class_memory_1_1_range_allocator.html#aa24d1617e2a3fdcaffe6ad6951245cc0":[8,0,50,3,10],
 "class_memory_1_1_range_allocator.html#aa24d1617e2a3fdcaffe6ad6951245cc0":[9,0,45,3,10],
 "class_memory_1_1_range_allocator.html#aa3265fc664e967b0acd4259020cf4410":[8,0,50,3,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "class_messaging_1_1_async_port.html#ae6aa632b7a02353bb3230e7053e06263":[8,0,51,0,12],
 "class_messaging_1_1_async_port.html#ae6aa632b7a02353bb3230e7053e06263":[9,0,46,0,12],
 "class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[8,0,51,0,15],
-"class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[9,0,46,0,15],
-"class_messaging_1_1_batch_message.html":[8,0,51,1],
-"class_messaging_1_1_batch_message.html":[9,0,46,1]
+"class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[9,0,46,0,15]
 };

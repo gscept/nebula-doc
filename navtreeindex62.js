@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"class_net_1_1_std_tcp_server.html#ae605d55b6921520e337175ab79963d61":[8,0,60,6,6],
+"class_net_1_1_std_tcp_server.html#ae605d55b6921520e337175ab79963d61":[9,0,54,6,6],
 "class_net_1_1_std_tcp_server.html#aed168a5e61b6f189228b5e07441a04ac":[8,0,60,6,1],
 "class_net_1_1_std_tcp_server.html#aed168a5e61b6f189228b5e07441a04ac":[9,0,54,6,1],
 "class_net_1_1_std_tcp_server.html#aef8b3f5edd66cf8c77e3f8cabfd1fab6":[8,0,60,6,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "class_o_s_x_1_1_o_s_x_heap.html#a511278de552275fb424428f70907f3ee":[9,0,55,6,1],
 "class_o_s_x_1_1_o_s_x_heap.html#a781476b8464a6a4d4e3f254ea01c2cf7":[8,0,62,6,6],
 "class_o_s_x_1_1_o_s_x_heap.html#a781476b8464a6a4d4e3f254ea01c2cf7":[9,0,55,6,6],
-"class_o_s_x_1_1_o_s_x_heap.html#a7f2e90d118787ba38a04994b5ec94ca1":[8,0,62,6,8],
-"class_o_s_x_1_1_o_s_x_heap.html#a7f2e90d118787ba38a04994b5ec94ca1":[9,0,55,6,8],
-"class_o_s_x_1_1_o_s_x_heap.html#a9afe4d37c7d746648f28d6b88f671f51":[8,0,62,6,7]
+"class_o_s_x_1_1_o_s_x_heap.html#a7f2e90d118787ba38a04994b5ec94ca1":[8,0,62,6,8]
 };
