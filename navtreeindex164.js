@@ -1,5 +1,17 @@
 var NAVTREEINDEX164 =
 {
+"vktypes_8h.html":[10,0,0,7,5,6,63],
+"vktypes_8h_source.html":[10,0,0,7,5,6,63],
+"vkvertexlayout_8cc.html":[10,0,0,7,5,6,64],
+"vkvertexlayout_8h.html":[10,0,0,7,5,6,65],
+"vkvertexlayout_8h_source.html":[10,0,0,7,5,6,65],
+"volumetricfogcontext_8cc.html":[10,0,0,7,8,0],
+"volumetricfogcontext_8h.html":[10,0,0,7,8,1],
+"volumetricfogcontext_8h_source.html":[10,0,0,7,8,1],
+"weakptr_8h.html":[10,0,0,3,1,27],
+"weakptr_8h_source.html":[10,0,0,3,1,27],
+"win32barrier_8h.html":[10,0,0,3,18,6,0],
+"win32barrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,18,6,0,0],
 "win32barrier_8h_source.html":[10,0,0,3,18,6,0],
 "win32calendartime_8cc.html":[10,0,0,3,19,3,0],
 "win32calendartime_8h.html":[10,0,0,3,19,3,1],

@@ -117,7 +117,7 @@ $(function(){initNavTree('class_memory_1_1_range_allocator.html',''); initResiza
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_memory_1_1_range_allocator_1_1_range_allocator_node.html">RangeAllocatorNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,9 +169,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3b8880b36cc72be8e7d3fe8bbdb0fc3b" id="r_a3b8880b36cc72be8e7d3fe8bbdb0fc3b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a> = 0x20</td></tr>
+<tr class="memitem:a3b8880b36cc72be8e7d3fe8bbdb0fc3b" id="r_a3b8880b36cc72be8e7d3fe8bbdb0fc3b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8880b36cc72be8e7d3fe8bbdb0fc3b">NUM_BUCKETS</a> = 32u</td></tr>
 <tr class="separator:a3b8880b36cc72be8e7d3fe8bbdb0fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b91d70509f474ef524654bdf9e141d0" id="r_a4b91d70509f474ef524654bdf9e141d0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b91d70509f474ef524654bdf9e141d0">NUM_BINS_PER_BUCKET</a> = 0x10</td></tr>
+<tr class="memitem:a4b91d70509f474ef524654bdf9e141d0" id="r_a4b91d70509f474ef524654bdf9e141d0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b91d70509f474ef524654bdf9e141d0">NUM_BINS_PER_BUCKET</a> = 8u</td></tr>
 <tr class="separator:a4b91d70509f474ef524654bdf9e141d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -185,7 +185,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:ab0981337b7f76f16842473610dc80c78" id="r_ab0981337b7f76f16842473610dc80c78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0981337b7f76f16842473610dc80c78">IndexFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, bool round=false)</td></tr>
+<tr class="memitem:ab0981337b7f76f16842473610dc80c78" id="r_ab0981337b7f76f16842473610dc80c78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_memory_1_1_range_allocator_1_1_bin_index.html">BinIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0981337b7f76f16842473610dc80c78">IndexFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>, bool round=false)</td></tr>
 <tr class="memdesc:ab0981337b7f76f16842473610dc80c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin index from size.  <br /></td></tr>
 <tr class="separator:ab0981337b7f76f16842473610dc80c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a831981d291d6791737cd1efa5ef3f162" id="r_a831981d291d6791737cd1efa5ef3f162"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831981d291d6791737cd1efa5ef3f162">BucketFromSize</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="el" href="#a128d13e3cc062f0d51839a7b1db974f4">size</a>)</td></tr>
@@ -464,7 +464,7 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="union_memory_1_1_range_allocator_1_1_bin_index.html">RangeAllocator::BinIndex</a> Memory::RangeAllocator::IndexFromSize </td>
+          <td class="memname"><a class="el" href="struct_memory_1_1_range_allocator_1_1_bin_index.html">RangeAllocator::BinIndex</a> Memory::RangeAllocator::IndexFromSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -652,7 +652,7 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BINS_PER_BUCKET = 0x10</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BINS_PER_BUCKET = 8u</td>
         </tr>
       </table>
   </td>
@@ -674,7 +674,7 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BUCKETS = 0x20</td>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Memory::RangeAllocator::NUM_BUCKETS = 32u</td>
         </tr>
       </table>
   </td>
@@ -724,7 +724,7 @@ Static Private Member Functions</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_memory.html">Memory</a></li><li class="navelem"><a class="el" href="class_memory_1_1_range_allocator.html">RangeAllocator</a></li>
 				<li class="footer">
-					Generated on Mon Feb 9 2026 16:03:00 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Tue Feb 10 2026 21:57:32 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

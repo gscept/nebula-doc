@@ -1,5 +1,17 @@
 var NAVTREEINDEX136 =
 {
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[8,0,41,0,0,4],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[9,0,37,0,0,4],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[8,0,41,0,0,5],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a31dc54b9da30eadb392509b6b0536726":[9,0,37,0,0,5],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a8e63cff798aabfb36c13af058506de2a":[8,0,41,0,0,0],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a8e63cff798aabfb36c13af058506de2a":[9,0,37,0,0,0],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a95e218baf99b1ebf56e179eec9ea528f":[8,0,41,0,0,2],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a95e218baf99b1ebf56e179eec9ea528f":[9,0,37,0,0,2],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a9e901298094df389e6668fae7ce27c59":[8,0,41,0,0,3],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a9e901298094df389e6668fae7ce27c59":[9,0,37,0,0,3],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#af2544034b9f7d1d353912cb3db0b0a96":[8,0,41,0,0,1],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#af2544034b9f7d1d353912cb3db0b0a96":[9,0,37,0,0,1],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html":[8,0,41,1,0],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html":[9,0,37,1,0],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html#a4eadd02d5ebadb858125d4f3e48d10c9":[8,0,41,1,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX136 =
 "struct_materials_1_1_material_variant.html#a5b1cd43e0f7436ead11a0cabff84c157":[8,0,44,6,0],
 "struct_materials_1_1_material_variant.html#a5b1cd43e0f7436ead11a0cabff84c157":[9,0,39,6,0],
 "struct_materials_1_1_material_variant.html#a67966f0d0b802e121822708f3a01be3a":[8,0,44,6,1],
-"struct_materials_1_1_material_variant.html#a67966f0d0b802e121822708f3a01be3a":[9,0,39,6,1],
-"struct_materials_1_1_material_variant.html#a6b081702fd85789d0730d9daf12a5822":[8,0,44,6,11],
-"struct_materials_1_1_material_variant.html#a6b081702fd85789d0730d9daf12a5822":[9,0,39,6,11],
-"struct_materials_1_1_material_variant.html#a6e6b7c493a1facc2c95a177ee067bf75":[8,0,44,6,8],
-"struct_materials_1_1_material_variant.html#a6e6b7c493a1facc2c95a177ee067bf75":[9,0,39,6,8],
-"struct_materials_1_1_material_variant.html#a8e7c3610848fe2d8bdbcd389e6d232cd":[8,0,44,6,2],
-"struct_materials_1_1_material_variant.html#a8e7c3610848fe2d8bdbcd389e6d232cd":[9,0,39,6,2],
-"struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[8,0,44,6,12],
-"struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[9,0,39,6,12],
-"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[8,0,44,6,5],
-"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[9,0,39,6,5],
-"struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[8,0,44,6,7],
-"struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[9,0,39,6,7]
+"struct_materials_1_1_material_variant.html#a67966f0d0b802e121822708f3a01be3a":[9,0,39,6,1]
 };

@@ -1,6 +1,6 @@
 var class_memory_1_1_range_allocator =
 [
-    [ "BinIndex", "union_memory_1_1_range_allocator_1_1_bin_index.html", "union_memory_1_1_range_allocator_1_1_bin_index" ],
+    [ "BinIndex", "struct_memory_1_1_range_allocator_1_1_bin_index.html", "struct_memory_1_1_range_allocator_1_1_bin_index" ],
     [ "RangeAllocatorNode", "struct_memory_1_1_range_allocator_1_1_range_allocator_node.html", "struct_memory_1_1_range_allocator_1_1_range_allocator_node" ],
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f", null ],
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html#aa6a0387994eef32907ee3536f066f2db", null ],

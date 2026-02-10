@@ -258,7 +258,7 @@ var hierarchy =
     [ "Vulkan::BindInfo", "struct_vulkan_1_1_bind_info.html", null ],
     [ "BindlessRegistry", "class_graphics_1_1_bindless_registry.html", null ],
     [ "Graphics::BindlessRegistryCreateInfo", "struct_graphics_1_1_bindless_registry_create_info.html", null ],
-    [ "Memory::RangeAllocator::BinIndex", "union_memory_1_1_range_allocator_1_1_bin_index.html", null ],
+    [ "Memory::RangeAllocator::BinIndex", "struct_memory_1_1_range_allocator_1_1_bin_index.html", null ],
     [ "Terrain::BiomeMaterial", "struct_terrain_1_1_biome_material.html", null ],
     [ "Terrain::BiomeMaterialBuilder", "struct_terrain_1_1_biome_material_builder.html", null ],
     [ "Terrain::BiomeParameters", "struct_terrain_1_1_biome_parameters.html", null ],

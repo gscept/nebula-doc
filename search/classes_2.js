@@ -20,7 +20,7 @@ var searchData=
   ['bindinfo_17',['BindInfo',['../struct_vulkan_1_1_bind_info.html',1,'Vulkan']]],
   ['bindlessregistry_18',['BindlessRegistry',['../class_graphics_1_1_bindless_registry.html',1,'']]],
   ['bindlessregistrycreateinfo_19',['BindlessRegistryCreateInfo',['../struct_graphics_1_1_bindless_registry_create_info.html',1,'Graphics']]],
-  ['binindex_20',['BinIndex',['../union_memory_1_1_range_allocator_1_1_bin_index.html',1,'Memory::RangeAllocator']]],
+  ['binindex_20',['BinIndex',['../struct_memory_1_1_range_allocator_1_1_bin_index.html',1,'Memory::RangeAllocator']]],
   ['biomematerial_21',['BiomeMaterial',['../struct_terrain_1_1_biome_material.html',1,'Terrain']]],
   ['biomematerialbuilder_22',['BiomeMaterialBuilder',['../struct_terrain_1_1_biome_material_builder.html',1,'Terrain']]],
   ['biomeparameters_23',['BiomeParameters',['../struct_terrain_1_1_biome_parameters.html',1,'Terrain']]],
