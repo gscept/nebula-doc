@@ -25,7 +25,6 @@ var shader_8h =
     [ "CoreGraphics::CreateShader", "namespace_core_graphics.html#aed31fcf4fb389aec44142f1126bfe421", null ],
     [ "CoreGraphics::DestroyShader", "namespace_core_graphics.html#ab51cbce5faa9017eae977a65d25ac310", null ],
     [ "CoreGraphics::ID_24_8_24_8_NAMED_TYPE", "namespace_core_graphics.html#ac06e538c4a02ddc63a0241babd91a133", null ],
-    [ "CoreGraphics::ReloadShader", "namespace_core_graphics.html#a2e73a526edd8136eaf540e4d8ffa52f1", null ],
     [ "CoreGraphics::ShaderCalculateConstantBufferIndex", "namespace_core_graphics.html#a0f795b95d5beb28435a1d2bc8a894455", null ],
     [ "CoreGraphics::ShaderCreateConstantBuffer", "namespace_core_graphics.html#a0bc04710eb3962c274957f5b62f5ac63", null ],
     [ "CoreGraphics::ShaderCreateConstantBuffer", "namespace_core_graphics.html#ab9ce5244baa1fdbc21ce09b8dac6747f", null ],

@@ -787,7 +787,6 @@ var namespace_core_graphics =
     [ "PollSubmissionIndex", "namespace_core_graphics.html#ae4059994b4d15c8258da9ef2b3482eea", null ],
     [ "QueueNameFromQueueType", "namespace_core_graphics.html#a534908a5c8340dbbbc8b4beda3f7761c", null ],
     [ "QueueTypeFromString", "namespace_core_graphics.html#af5ed525892b3570297f4b0caaeba1804", null ],
-    [ "ReloadShader", "namespace_core_graphics.html#a2e73a526edd8136eaf540e4d8ffa52f1", null ],
     [ "ReloadShaderProgram", "namespace_core_graphics.html#a4e0270ba6309296c21067f6ff87e2d0a", null ],
     [ "RemoveBackBufferTexture", "namespace_core_graphics.html#a3a05e954d212f863c3aca7b142cd7bda", null ],
     [ "RemoveEventHandler", "namespace_core_graphics.html#a588a75a39120fcd501dfea74bea1763b", null ],

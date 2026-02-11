@@ -1,6 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"shader_8h_source.html":[10,0,0,7,5,68],
 "shaderconfig_8cc.html":[10,0,0,7,16,6],
 "shaderconfig_8h.html":[10,0,0,7,16,7],
 "shaderconfig_8h_source.html":[10,0,0,7,16,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX119 =
 "stage_8cc.html":[10,0,0,7,12,16],
 "stage_8h.html":[10,0,0,7,12,17],
 "stage_8h_source.html":[10,0,0,7,12,17],
-"standardmultiplayerclient_8cc.html":[10,0,0,0,6,0,4]
+"standardmultiplayerclient_8cc.html":[10,0,0,0,6,0,4],
+"standardmultiplayerclient_8h.html":[10,0,0,0,6,0,5]
 };

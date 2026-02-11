@@ -1,6 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"struct_jobs2_1_1_jobs2_context.html":[8,0,39,4],
 "struct_jobs2_1_1_jobs2_context.html":[9,0,36,4],
 "struct_jobs2_1_1_jobs2_context.html#a154b766bb050235656e43edb73b38fa1":[8,0,39,4,0],
 "struct_jobs2_1_1_jobs2_context.html#a154b766bb050235656e43edb73b38fa1":[9,0,36,4,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX135 =
 "struct_material_templates_g_p_u_lang_1_1_entry.html#a02ec3a95719b6a731ad34eed546af475":[8,0,45,0,12],
 "struct_material_templates_g_p_u_lang_1_1_entry.html#a02ec3a95719b6a731ad34eed546af475":[9,0,41,0,12],
 "struct_material_templates_g_p_u_lang_1_1_entry.html#a18dece111594b97f99093b364dffd558":[8,0,45,0,1],
-"struct_material_templates_g_p_u_lang_1_1_entry.html#a18dece111594b97f99093b364dffd558":[9,0,41,0,1]
+"struct_material_templates_g_p_u_lang_1_1_entry.html#a18dece111594b97f99093b364dffd558":[9,0,41,0,1],
+"struct_material_templates_g_p_u_lang_1_1_entry.html#a468a5015f75396b2c0a73932c7f2c060":[8,0,45,0,3]
 };

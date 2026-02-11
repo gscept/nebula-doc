@@ -1,6 +1,5 @@
 var NAVTREEINDEX134 =
 {
-"struct_im3d_1_1_vec2.html":[8,0,33,18],
 "struct_im3d_1_1_vec2.html":[9,0,31,18],
 "struct_im3d_1_1_vec2.html#a0ee88e1352e59daabffb80a72057ad1b":[8,0,33,18,3],
 "struct_im3d_1_1_vec2.html#a0ee88e1352e59daabffb80a72057ad1b":[9,0,31,18,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX134 =
 "struct_jobs2_1_1_job_system_init_info.html#adf2b7b3b047e5323a2307f7f91f6b99b":[8,0,39,5,3],
 "struct_jobs2_1_1_job_system_init_info.html#adf2b7b3b047e5323a2307f7f91f6b99b":[9,0,36,5,3],
 "struct_jobs2_1_1_job_system_init_info.html#ae1fcce4987a54e27e01c3db19bfbb52b":[8,0,39,5,5],
-"struct_jobs2_1_1_job_system_init_info.html#ae1fcce4987a54e27e01c3db19bfbb52b":[9,0,36,5,5]
+"struct_jobs2_1_1_job_system_init_info.html#ae1fcce4987a54e27e01c3db19bfbb52b":[9,0,36,5,5],
+"struct_jobs2_1_1_jobs2_context.html":[8,0,39,4]
 };

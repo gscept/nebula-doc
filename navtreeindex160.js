@@ -1,6 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"svglinechartwriter_8h.html":[10,0,0,3,6,4,1],
 "svglinechartwriter_8h_source.html":[10,0,0,3,6,4,1],
 "svgpagewriter_8cc.html":[10,0,0,3,6,4,2],
 "svgpagewriter_8h.html":[10,0,0,3,6,4,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX160 =
 "union_core_graphics_1_1_input_assembly_key.html#ad69c67eb9efb53e3019b2a3d28277da4":[8,0,13,60,6],
 "union_core_graphics_1_1_input_assembly_key.html#ad69c67eb9efb53e3019b2a3d28277da4":[9,0,12,59,6],
 "union_core_graphics_1_1_input_assembly_key.html#ae4b398831e774daf99dda28d82b1790c":[8,0,13,60,3],
-"union_core_graphics_1_1_input_assembly_key.html#ae4b398831e774daf99dda28d82b1790c":[9,0,12,59,3]
+"union_core_graphics_1_1_input_assembly_key.html#ae4b398831e774daf99dda28d82b1790c":[9,0,12,59,3],
+"union_core_graphics_1_1_input_assembly_key.html#ae4ecb1c6547d0f712a23819bcb10d2ae":[8,0,13,60,4]
 };
