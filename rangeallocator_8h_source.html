@@ -219,8 +219,8 @@ $(function(){initNavTree('rangeallocator_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="class_memory_1_1_range_allocator.html#aa6a0387994eef32907ee3536f066f2db">  142</a></span><a class="code hl_function" href="class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f">RangeAllocator::RangeAllocator</a>(<a class="code hl_typedef" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="code hl_variable" href="class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4">size</a>, <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> maxNumAllocs)</div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>{   </div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    this-&gt;size = <a class="code hl_variable" href="class_memory_1_1_range_allocator.html#a128d13e3cc062f0d51839a7b1db974f4">size</a>;</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_range_allocator.html#adac2fc7246da52d5a045da181cd466c4">freeNodes</a>.Resize(maxNumAllocs);</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_range_allocator.html#a193439f1b4b3e9f89c1fb2729e5691b2">nodes</a>.Resize(maxNumAllocs);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_range_allocator.html#adac2fc7246da52d5a045da181cd466c4">freeNodes</a>.Resize(maxNumAllocs + 1);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_range_allocator.html#a193439f1b4b3e9f89c1fb2729e5691b2">nodes</a>.Resize(maxNumAllocs + 1);</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    this-&gt;<a class="code hl_variable" href="class_memory_1_1_range_allocator.html#a919ba969fd9d980d83a98b30afe35851">numAllocs</a> = 0;</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="comment">// Clear the allocator</span></div>
@@ -712,7 +712,7 @@ $(function(){initNavTree('rangeallocator_8h_source.html',''); initResizable(true
 			<ul>
 				<li class="navelem"><a class="el" href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a class="el" href="dir_95721ede6f5af11f857e00d39fc9cf1f.html">foundation</a></li><li class="navelem"><a class="el" href="dir_667462bf3902e31e6469e5425fdef989.html">memory</a></li><li class="navelem"><a class="el" href="rangeallocator_8h.html">rangeallocator.h</a></li>
 				<li class="footer">
-					Generated on Tue Feb 10 2026 23:52:24 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 11 2026 10:48:03 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>
