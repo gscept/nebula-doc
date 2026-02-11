@@ -1,7 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"vktypes_8h.html":[10,0,0,7,5,6,63],
-"vktypes_8h_source.html":[10,0,0,7,5,6,63],
 "vkvertexlayout_8cc.html":[10,0,0,7,5,6,64],
 "vkvertexlayout_8h.html":[10,0,0,7,5,6,65],
 "vkvertexlayout_8h_source.html":[10,0,0,7,5,6,65],

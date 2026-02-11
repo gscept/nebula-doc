@@ -1,7 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"struct_im3d_1_1internal_1_1_scalar_t.html":[8,0,34,0,4],
-"struct_im3d_1_1internal_1_1_scalar_t.html":[9,0,31,0,4],
 "struct_im3d_1_1internal_1_1_type_traits.html":[8,0,34,0,5],
 "struct_im3d_1_1internal_1_1_type_traits.html":[9,0,31,0,5],
 "struct_im3d_1_1internal_1_1_type_traits.html#a8088b4b14e512505879a34ee04749110":[8,0,34,0,5,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX135 =
 "struct_jobs_1_1_private_memory.html#ae7e9a0148515389b1ba56deaf44dd051":[8,0,39,11,0],
 "struct_jobs_1_1_private_memory.html#ae7e9a0148515389b1ba56deaf44dd051":[9,0,35,11,0],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html":[8,0,41,0,0],
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html":[9,0,37,0,0]
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html":[9,0,37,0,0],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[8,0,41,0,0,4],
+"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a28f8da62d76465da4b4fa6f25681328d":[9,0,37,0,0,4]
 };

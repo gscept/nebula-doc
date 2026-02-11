@@ -1,7 +1,5 @@
 var NAVTREEINDEX151 =
 {
-"struct_terrain_1_1_sub_texture_update_job_uniforms.html#af07fe5ed63a6cea956f89efce7948d91":[9,0,72,11,2],
-"struct_terrain_1_1_terrain_biome_id.html":[8,0,84,12],
 "struct_terrain_1_1_terrain_biome_id.html":[9,0,72,12],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html":[8,0,84,13,0],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html":[9,0,72,13,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX151 =
 "struct_terrain_1_1_terrain_create_info.html#afd7c099bcc80c27a2052f4a2e9677082":[9,0,72,14,7],
 "struct_terrain_1_1_terrain_quad.html":[8,0,84,15],
 "struct_terrain_1_1_terrain_quad.html":[9,0,72,15],
-"struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[8,0,84,15,2]
+"struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[8,0,84,15,2],
+"struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[9,0,72,15,2],
+"struct_terrain_1_1_terrain_quad.html#ad06e29ea1fbe7f13e04a7ec178dd8d2b":[8,0,84,15,0]
 };

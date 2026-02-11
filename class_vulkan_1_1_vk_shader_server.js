@@ -11,7 +11,6 @@ var class_vulkan_1_1_vk_shader_server =
     [ "Open", "class_vulkan_1_1_vk_shader_server.html#ad21f39ab957e14dbb88eb698535f3cde", null ],
     [ "UpdateResources", "class_vulkan_1_1_vk_shader_server.html#a837b8c51253a0f8c6026f20f38b4c59e", null ],
     [ "bindResourceCriticalSection", "class_vulkan_1_1_vk_shader_server.html#a511118844a02b070bb45c4f00cfa93e8", null ],
-    [ "factory", "class_vulkan_1_1_vk_shader_server.html#ad4758f95f0232ad03009d8fa2a06b9c3", null ],
     [ "pendingViewDeletes", "class_vulkan_1_1_vk_shader_server.html#ad6a05cc32ebfcabf65568761fa216de0", null ],
     [ "pendingViews", "class_vulkan_1_1_vk_shader_server.html#ac0e5259f487cb823c982d0c8e84a4a68", null ]
 ];

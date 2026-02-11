@@ -785,10 +785,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a707b3e499321fabe99ea05f9143bc305" id="r_a707b3e499321fabe99ea05f9143bc305"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a707b3e499321fabe99ea05f9143bc305">__ImplementClass</a> (<a class="el" href="class_vulkan_1_1_vk_shader_cache.html">Vulkan::VkShaderCache</a>, 'VKSL', Resources::ResourceStreamCache)</td></tr>
 <tr class="separator:a707b3e499321fabe99ea05f9143bc305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0013c20eba13b02459adb8fc480aca54" id="r_a0013c20eba13b02459adb8fc480aca54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0013c20eba13b02459adb8fc480aca54">VkShaderProgramSetup</a> (const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, AnyFX::VkProgram *program, const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
-<tr class="memdesc:a0013c20eba13b02459adb8fc480aca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program  <br /></td></tr>
 <tr class="separator:a0013c20eba13b02459adb8fc480aca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996b0fa771ae293144bcffc0912d8e2f" id="r_a996b0fa771ae293144bcffc0912d8e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996b0fa771ae293144bcffc0912d8e2f">VkShaderProgramSetup</a> (const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, GPULang::Deserialize::Program *program, const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
-<tr class="memdesc:a996b0fa771ae293144bcffc0912d8e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program  <br /></td></tr>
+<tr class="memdesc:a996b0fa771ae293144bcffc0912d8e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup from GPULang program  <br /></td></tr>
 <tr class="separator:a996b0fa771ae293144bcffc0912d8e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7ae0822cd6bf8d0fb7b462089c929d" id="r_a4e7ae0822cd6bf8d0fb7b462089c929d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7ae0822cd6bf8d0fb7b462089c929d">VkShaderProgramCreateShader</a> (const VkDevice dev, VkShaderModule *shader, unsigned binarySize, char *binary)</td></tr>
 <tr class="memdesc:a4e7ae0822cd6bf8d0fb7b462089c929d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create shader object  <br /></td></tr>
@@ -797,7 +796,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:a698a51aedd91e34f23dcc5fa2690a23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create shader object  <br /></td></tr>
 <tr class="separator:a698a51aedd91e34f23dcc5fa2690a23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d6a062501d61e23a1f7699ef2558b8" id="r_a54d6a062501d61e23a1f7699ef2558b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d6a062501d61e23a1f7699ef2558b8">VkShaderProgramSetupAsGraphics</a> (AnyFX::VkProgram *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
-<tr class="memdesc:a54d6a062501d61e23a1f7699ef2558b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a graphics program  <br /></td></tr>
 <tr class="separator:a54d6a062501d61e23a1f7699ef2558b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9270c8e0ed5c7a50ff81f331ab637bd2" id="r_a9270c8e0ed5c7a50ff81f331ab637bd2"><td class="memItemLeft" align="right" valign="top">VkStencilOp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9270c8e0ed5c7a50ff81f331ab637bd2">StencilOpFromGPULang</a> (GPULang::Serialization::StencilOp op)</td></tr>
 <tr class="separator:a9270c8e0ed5c7a50ff81f331ab637bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -822,7 +820,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae04d3c64f87a3f01928552040f790c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
 <tr class="separator:ae04d3c64f87a3f01928552040f790c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea25b509f3f0f8aa2f6cc18925444229" id="r_aea25b509f3f0f8aa2f6cc18925444229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea25b509f3f0f8aa2f6cc18925444229">VkShaderProgramSetupAsRaytracing</a> (AnyFX::VkProgram *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;setup, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
-<tr class="memdesc:aea25b509f3f0f8aa2f6cc18925444229"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
 <tr class="separator:aea25b509f3f0f8aa2f6cc18925444229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4eec9ac5e42e3d99d2da603b316a085" id="r_aa4eec9ac5e42e3d99d2da603b316a085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4eec9ac5e42e3d99d2da603b316a085">VkShaderProgramSetupAsRaytracing</a> (GPULang::Deserialize::Program *program, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, <a class="el" href="struct_vulkan_1_1_vk_shader_program_setup_info.html">VkShaderProgramSetupInfo</a> &amp;setup, <a class="el" href="struct_vulkan_1_1_vk_shader_program_runtime_info.html">VkShaderProgramRuntimeInfo</a> &amp;runtime)</td></tr>
 <tr class="memdesc:aa4eec9ac5e42e3d99d2da603b316a085"><td class="mdescLeft">&#160;</td><td class="mdescRight">create this program as a compute program (can be done immediately)  <br /></td></tr>
@@ -4548,8 +4545,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program </p>
-
 </div>
 </div>
 <a id="a996b0fa771ae293144bcffc0912d8e2f" name="a996b0fa771ae293144bcffc0912d8e2f"></a>
@@ -4581,7 +4576,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>setup from <a class="el" href="namespace_any_f_x.html" title="Implements a shader effect (using AnyFX) in Vulkan.">AnyFX</a> program </p>
+<p>setup from GPULang program </p>
 
 </div>
 </div>
@@ -4631,8 +4626,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>create this program as a graphics program </p>
 
 </div>
 </div>
@@ -4692,8 +4685,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>create this program as a compute program (can be done immediately) </p>
 
 </div>
 </div>
@@ -5622,7 +5613,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Wed Feb 11 2026 16:45:54 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 11 2026 16:48:36 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

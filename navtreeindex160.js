@@ -1,7 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html":[9,0,77,41,1],
-"struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html#a4b4e6ebb9fb188cd157b458ba11272b6":[8,0,92,41,1,0],
 "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html#a4b4e6ebb9fb188cd157b458ba11272b6":[9,0,77,41,1,0],
 "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html#a73d723d7873222f6089c2fd8aaf618d4":[8,0,92,41,1,2],
 "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html#a73d723d7873222f6089c2fd8aaf618d4":[9,0,77,41,1,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX160 =
 "tbuiview_8h_source.html":[10,0,0,0,13,7],
 "tcpclient_8cc.html":[10,0,0,3,15,11],
 "tcpclient_8h.html":[10,0,0,3,15,12],
-"tcpclient_8h_source.html":[10,0,0,3,15,12]
+"tcpclient_8h_source.html":[10,0,0,3,15,12],
+"tcpclientconnection_8cc.html":[10,0,0,3,15,13],
+"tcpclientconnection_8h.html":[10,0,0,3,15,14]
 };

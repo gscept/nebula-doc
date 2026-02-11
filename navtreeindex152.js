@@ -1,7 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"struct_terrain_1_1_terrain_quad.html#a124790d3d2f8646e2fc8ef3c5dfc58c4":[9,0,72,15,2],
-"struct_terrain_1_1_terrain_quad.html#ad06e29ea1fbe7f13e04a7ec178dd8d2b":[8,0,84,15,0],
 "struct_terrain_1_1_terrain_quad.html#ad06e29ea1fbe7f13e04a7ec178dd8d2b":[9,0,72,15,0],
 "struct_terrain_1_1_terrain_quad.html#ad117728b1c290d7e44a147eac26bd5ba":[8,0,84,15,3],
 "struct_terrain_1_1_terrain_quad.html#ad117728b1c290d7e44a147eac26bd5ba":[9,0,72,15,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX152 =
 "struct_util_1_1_priority_array_1_1_element.html#a518aca4e8c3615d9aadc11961b705024":[9,0,74,34,0,0],
 "struct_util_1_1_priority_array_1_1_element.html#a893f6a833b4eab1593cf845eb293870e":[8,0,89,34,0,1],
 "struct_util_1_1_priority_array_1_1_element.html#a893f6a833b4eab1593cf845eb293870e":[9,0,74,34,0,1],
-"struct_util_1_1_sparse_table_1_1_table_entry.html":[8,0,89,44,0]
+"struct_util_1_1_sparse_table_1_1_table_entry.html":[8,0,89,44,0],
+"struct_util_1_1_sparse_table_1_1_table_entry.html":[9,0,74,44,0],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[8,0,89,44,0,2]
 };
