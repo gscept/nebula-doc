@@ -1,9 +1,5 @@
 var NAVTREEINDEX156 =
 {
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#abe2b5dcdb42a1c24c4f73599e365cd57":[8,0,92,7,0,1],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#abe2b5dcdb42a1c24c4f73599e365cd57":[9,0,77,7,0,1],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer_1_1_flushed_ranges.html":[8,0,92,7,0,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer_1_1_flushed_ranges.html":[9,0,77,7,0,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer_1_1_flushed_ranges.html#ab2a5bf51990bb41fb986d9061a8a1680":[8,0,92,7,0,0,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer_1_1_flushed_ranges.html#ab2a5bf51990bb41fb986d9061a8a1680":[9,0,77,7,0,0,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html":[8,0,92,7,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX156 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6e3e9417413b562c51b5fd9a24d2c489":[8,0,92,20,7,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a6e3e9417413b562c51b5fd9a24d2c489":[9,0,77,20,7,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a9a29faa77c00c2513adbf22765d15ba8":[8,0,92,20,7,4],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a9a29faa77c00c2513adbf22765d15ba8":[9,0,77,20,7,4]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#a9a29faa77c00c2513adbf22765d15ba8":[9,0,77,20,7,4],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ab1bd8fd31be6c6a3c5a8f251bccf3ce6":[8,0,92,20,7,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ab1bd8fd31be6c6a3c5a8f251bccf3ce6":[9,0,77,20,7,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[8,0,92,20,7,6],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[9,0,77,20,7,6]
 };

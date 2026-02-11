@@ -1,9 +1,5 @@
 var NAVTREEINDEX157 =
 {
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ab1bd8fd31be6c6a3c5a8f251bccf3ce6":[8,0,92,20,7,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ab1bd8fd31be6c6a3c5a8f251bccf3ce6":[9,0,77,20,7,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[8,0,92,20,7,6],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[9,0,77,20,7,6],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[8,0,92,20,7,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[9,0,77,20,7,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[8,0,92,20,7,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX157 =
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13c":[8,0,92,21,1],
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13c":[9,0,77,21,1],
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca065255c559700b933f89668c6a75c9b3":[8,0,92,21,1,2],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca065255c559700b933f89668c6a75c9b3":[9,0,77,21,1,2]
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca065255c559700b933f89668c6a75c9b3":[9,0,77,21,1,2],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf":[8,0,92,21,1,1],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf":[9,0,77,21,1,1],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca1801d8ea0cb08dec2dfcb5287126103e":[8,0,92,21,1,7],
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca1801d8ea0cb08dec2dfcb5287126103e":[9,0,77,21,1,7]
 };

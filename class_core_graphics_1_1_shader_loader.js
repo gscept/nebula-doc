@@ -3,8 +3,6 @@ var class_core_graphics_1_1_shader_loader =
     [ "ShaderLoader", "class_core_graphics_1_1_shader_loader.html#a279a21b4f0e6e444c31271b5da8e8e41", null ],
     [ "~ShaderLoader", "class_core_graphics_1_1_shader_loader.html#aba5feff1da4334b675643fe438fe3a77", null ],
     [ "__DeclareClass", "class_core_graphics_1_1_shader_loader.html#adba8802a2e32114bea37184c6e4683ec", null ],
-    [ "InitializeResource", "class_core_graphics_1_1_shader_loader.html#ac4e780361d3e50b13d513e816b16d146", null ],
-    [ "ReloadFromStream", "class_core_graphics_1_1_shader_loader.html#a0457e8055fc32076e66acd2586c8fc77", null ],
     [ "Unload", "class_core_graphics_1_1_shader_loader.html#aec9b64a99f75ccef69251860dce210f5", null ],
     [ "CoreGraphics::CmdSetShaderProgram", "class_core_graphics_1_1_shader_loader.html#ab94d030d4c4a367764fbe945c40223b9", null ],
     [ "VkPipelineDatabase", "class_core_graphics_1_1_shader_loader.html#a36c800d26c0558499c2f5373afe352d7", null ],

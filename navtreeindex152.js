@@ -1,9 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"struct_terrain_1_1_terrain_quad.html#afd2847fa8488d0a006db60891d80571a":[8,0,84,15,1],
-"struct_terrain_1_1_terrain_quad.html#afd2847fa8488d0a006db60891d80571a":[9,0,72,15,1],
-"struct_terrain_1_1_terrain_setup_settings.html":[8,0,84,16],
-"struct_terrain_1_1_terrain_setup_settings.html":[9,0,72,16],
 "struct_terrain_1_1_terrain_setup_settings.html#a04b8872e9756e8e0f4670b23ef7c2d48":[8,0,84,16,4],
 "struct_terrain_1_1_terrain_setup_settings.html#a04b8872e9756e8e0f4670b23ef7c2d48":[9,0,72,16,4],
 "struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3":[8,0,84,16,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX152 =
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[8,0,89,44,0,2],
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1610cf1ad5731d6a6ea1cb95f18b4134":[9,0,74,44,0,2],
 "struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[8,0,89,44,0,0],
-"struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[9,0,74,44,0,0]
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a1c5d58d4c95b6523728d110715f8a4fe":[9,0,74,44,0,0],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a5195a3343091445840e784cf11a286b0":[8,0,89,44,0,1],
+"struct_util_1_1_sparse_table_1_1_table_entry.html#a5195a3343091445840e784cf11a286b0":[9,0,74,44,0,1],
+"struct_util_1_1_string.html":[8,0,89,46],
+"struct_util_1_1_string.html":[9,0,74,46]
 };

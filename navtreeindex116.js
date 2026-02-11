@@ -1,9 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52baff838ab70797e5f209e02342f443fef8":[8,0,92,80,8],
-"namespace_vulkan.html#a74fd5cbb4d02f644386428772fe4153b":[8,0,92,225],
-"namespace_vulkan.html#a75a830679100749d4440e676389b6e5c":[8,0,92,196],
-"namespace_vulkan.html#a79bf021c4d4d8ae56ac9fe9163e95380":[8,0,92,251],
 "namespace_vulkan.html#a7a8b624a354cd06aab9b91eec35c74a6":[8,0,92,101],
 "namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b":[8,0,92,68],
 "namespace_vulkan.html#a7c03b485da68cac4ec979432fba840b6":[8,0,92,181],
@@ -249,5 +245,9 @@ var NAVTREEINDEX116 =
 "namespacetb.html#a69b2c5cf46950b135fbae392b175bd01":[8,0,82,0],
 "namespacetyti.html":[8,0,88],
 "namespacetyti_1_1pylog.html":[8,0,88,0],
-"namespacetyti_1_1pylog.html#a218ab8da1f32414450dfd39b98ef26be":[8,0,88,0,1]
+"namespacetyti_1_1pylog.html#a218ab8da1f32414450dfd39b98ef26be":[8,0,88,0,1],
+"namespacetyti_1_1pylog.html#a34cdd1452e1e279e12bc47fe56a1ce95":[8,0,88,0,2],
+"namespacetyti_1_1pylog_1_1detail.html":[8,0,88,0,0],
+"namespacetyti_1_1pylog_1_1detail.html#a5db1c40698339b08db16e5f6e26a336b":[8,0,88,0,0,0],
+"namespacetyti_1_1pylog_1_1detail.html#a75413cfd97fde8a3e25b3beda520d7e6":[8,0,88,0,0,1]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"class_mem_db_1_1_table_1_1_partition.html#a7c9ece2f1f7a99c491d9055fc7d8d608":[8,0,49,8,0,11],
-"class_mem_db_1_1_table_1_1_partition.html#a7c9ece2f1f7a99c491d9055fc7d8d608":[9,0,44,8,0,11],
-"class_mem_db_1_1_table_1_1_partition.html#a8f7c8236892dd683c21a7f0da9764faf":[8,0,49,8,0,2],
-"class_mem_db_1_1_table_1_1_partition.html#a8f7c8236892dd683c21a7f0da9764faf":[9,0,44,8,0,2],
 "class_mem_db_1_1_table_1_1_partition.html#a9bea6d6ec357aabde3854384fffbb340":[8,0,49,8,0,0],
 "class_mem_db_1_1_table_1_1_partition.html#a9bea6d6ec357aabde3854384fffbb340":[9,0,44,8,0,0],
 "class_mem_db_1_1_table_1_1_partition.html#aa5f5711001c63184907f07dbeba982d5":[8,0,49,8,0,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX55 =
 "class_messaging_1_1_async_port.html#ae6aa632b7a02353bb3230e7053e06263":[8,0,51,0,12],
 "class_messaging_1_1_async_port.html#ae6aa632b7a02353bb3230e7053e06263":[9,0,46,0,12],
 "class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[8,0,51,0,15],
-"class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[9,0,46,0,15]
+"class_messaging_1_1_async_port.html#ae8df8aaa8627da0f332dc18c17377fe8":[9,0,46,0,15],
+"class_messaging_1_1_batch_message.html":[8,0,51,1],
+"class_messaging_1_1_batch_message.html":[9,0,46,1],
+"class_messaging_1_1_batch_message.html#a291ea41bd545b8976a9d9607160dbaa7":[8,0,51,1,4],
+"class_messaging_1_1_batch_message.html#a291ea41bd545b8976a9d9607160dbaa7":[9,0,46,1,4]
 };

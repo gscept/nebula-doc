@@ -1,9 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"struct_physics_1_1_material.html#a9262c851e6a33644838c3059508b8779":[9,0,57,24,1],
-"struct_physics_1_1_material.html#a9622477468b7eac4ef397d598bfd6d72":[8,0,64,24,3],
-"struct_physics_1_1_material.html#a9622477468b7eac4ef397d598bfd6d72":[9,0,57,24,3],
-"struct_physics_1_1_material.html#a9f202398e3ed549b80ef6d5caa10aaa8":[8,0,64,24,0],
 "struct_physics_1_1_material.html#a9f202398e3ed549b80ef6d5caa10aaa8":[9,0,57,24,0],
 "struct_physics_1_1_physics_resource_id.html":[8,0,64,25],
 "struct_physics_1_1_physics_resource_id.html":[9,0,57,25],
@@ -249,5 +245,9 @@ var NAVTREEINDEX149 =
 "struct_scripting_1_1_n_sharp_server_1_1_assembly.html#a6e84218029d6a9148c047d132373899a":[8,0,76,3,0,0],
 "struct_scripting_1_1_n_sharp_server_1_1_assembly.html#a6e84218029d6a9148c047d132373899a":[9,0,67,2,0,0],
 "struct_scripting_1_1_n_sharp_server_1_1_assembly.html#aef1b918a53cd630f618b51dbbf438b7d":[8,0,76,3,0,2],
-"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#aef1b918a53cd630f618b51dbbf438b7d":[9,0,67,2,0,2]
+"struct_scripting_1_1_n_sharp_server_1_1_assembly.html#aef1b918a53cd630f618b51dbbf438b7d":[9,0,67,2,0,2],
+"struct_static_u_i_1_1_logger.html":[8,0,79,0],
+"struct_static_u_i_1_1_logger.html":[9,0,68,0],
+"struct_static_u_i_1_1_logger.html#aeb175fa1f3f83593f3036a4db8b9c8d0":[8,0,79,0,0],
+"struct_static_u_i_1_1_logger.html#aeb175fa1f3f83593f3036a4db8b9c8d0":[9,0,68,0,0]
 };

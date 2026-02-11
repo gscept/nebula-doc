@@ -1,9 +1,5 @@
 var NAVTREEINDEX163 =
 {
-"vkloader_8cc.html#adf1594339752db9da1604dc661b980d1":[10,0,0,7,5,6,22,89],
-"vkloader_8cc.html#adfaef94104816a5d9a9375931ab983e9":[10,0,0,7,5,6,22,49],
-"vkloader_8cc.html#ae1376b1471c64e8f114db7822529d769":[10,0,0,7,5,6,22,40],
-"vkloader_8cc.html#ae20a1bd604e873963c9a0fd10345c42a":[10,0,0,7,5,6,22,2],
 "vkloader_8cc.html#ae294053cb27887a3d108abfe882b9b8f":[10,0,0,7,5,6,22,57],
 "vkloader_8cc.html#ae4da3db2f8f696de5abc41c6514fd522":[10,0,0,7,5,6,22,22],
 "vkloader_8cc.html#ae5ec4ea9b607b3487881d00d7373c4ab":[10,0,0,7,5,6,22,92],
@@ -249,5 +245,9 @@ var NAVTREEINDEX163 =
 "vktypes_8h_source.html":[10,0,0,7,5,6,63],
 "vkvertexlayout_8cc.html":[10,0,0,7,5,6,64],
 "vkvertexlayout_8h.html":[10,0,0,7,5,6,65],
-"vkvertexlayout_8h_source.html":[10,0,0,7,5,6,65]
+"vkvertexlayout_8h_source.html":[10,0,0,7,5,6,65],
+"volumetricfogcontext_8cc.html":[10,0,0,7,8,0],
+"volumetricfogcontext_8h.html":[10,0,0,7,8,1],
+"volumetricfogcontext_8h_source.html":[10,0,0,7,8,1],
+"weakptr_8h.html":[10,0,0,3,1,27]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"class_i_o_1_1_binary_writer.html#a98741ac4f5f86ac238d6182188e90feb":[9,0,34,5,30],
-"class_i_o_1_1_binary_writer.html#aa09e3410a7196c7575a6c4f5bf9b1f8e":[8,0,38,6,24],
-"class_i_o_1_1_binary_writer.html#aa09e3410a7196c7575a6c4f5bf9b1f8e":[9,0,34,5,24],
-"class_i_o_1_1_binary_writer.html#aa8c560aa848c13e0ec768de64ebf957b":[8,0,38,6,33],
 "class_i_o_1_1_binary_writer.html#aa8c560aa848c13e0ec768de64ebf957b":[9,0,34,5,33],
 "class_i_o_1_1_binary_writer.html#aab0fd61a3a7258d2d083b71f02787755":[8,0,38,6,29],
 "class_i_o_1_1_binary_writer.html#aab0fd61a3a7258d2d083b71f02787755":[9,0,34,5,29],
@@ -249,5 +245,9 @@ var NAVTREEINDEX40 =
 "class_i_o_1_1_excel_xml_reader.html#a57f419f693daa2e3501b2e1ce77eabf3":[9,0,34,21,7],
 "class_i_o_1_1_excel_xml_reader.html#a69a475590c7e6f5f0c09bebfdbd1009d":[8,0,38,22,16],
 "class_i_o_1_1_excel_xml_reader.html#a69a475590c7e6f5f0c09bebfdbd1009d":[9,0,34,21,16],
-"class_i_o_1_1_excel_xml_reader.html#a6f9dc2121084b53d1e91539569964be0":[8,0,38,22,8]
+"class_i_o_1_1_excel_xml_reader.html#a6f9dc2121084b53d1e91539569964be0":[8,0,38,22,8],
+"class_i_o_1_1_excel_xml_reader.html#a6f9dc2121084b53d1e91539569964be0":[9,0,34,21,8],
+"class_i_o_1_1_excel_xml_reader.html#aa349bfa4e8b60e2ecbd83679d9adb6d1":[8,0,38,22,3],
+"class_i_o_1_1_excel_xml_reader.html#aa349bfa4e8b60e2ecbd83679d9adb6d1":[9,0,34,21,3],
+"class_i_o_1_1_excel_xml_reader.html#aa57fe14e5d7fe36878f66344ba460e06":[8,0,38,22,15]
 };
