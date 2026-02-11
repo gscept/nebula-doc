@@ -1,8 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"vkvertexlayout_8cc.html":[10,0,0,7,5,6,64],
-"vkvertexlayout_8h.html":[10,0,0,7,5,6,65],
-"vkvertexlayout_8h_source.html":[10,0,0,7,5,6,65],
 "volumetricfogcontext_8cc.html":[10,0,0,7,8,0],
 "volumetricfogcontext_8h.html":[10,0,0,7,8,1],
 "volumetricfogcontext_8h_source.html":[10,0,0,7,8,1],
