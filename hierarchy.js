@@ -1311,7 +1311,6 @@ var hierarchy =
     [ "Util::Set< KEYTYPE >", "class_util_1_1_set.html", null ],
     [ "CoreGraphics::GpuBufferTypes::SetupFlags", "struct_core_graphics_1_1_gpu_buffer_types_1_1_setup_flags.html", null ],
     [ "Materials::ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", null ],
-    [ "CoreGraphics::ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", null ],
     [ "CoreGraphics::ShaderFeature", "class_core_graphics_1_1_shader_feature.html", null ],
     [ "CoreGraphics::ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
     [ "CoreGraphics::ShaderIdentifier", "class_core_graphics_1_1_shader_identifier.html", null ],

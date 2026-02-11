@@ -273,7 +273,6 @@ var annotated_dup =
       [ "SecondUVVertex", "struct_core_graphics_1_1_second_u_v_vertex.html", "struct_core_graphics_1_1_second_u_v_vertex" ],
       [ "SemaphoreCreateInfo", "struct_core_graphics_1_1_semaphore_create_info.html", "struct_core_graphics_1_1_semaphore_create_info" ],
       [ "SemaphoreId", "struct_core_graphics_1_1_semaphore_id.html", null ],
-      [ "ShaderCreateInfo", "struct_core_graphics_1_1_shader_create_info.html", "struct_core_graphics_1_1_shader_create_info" ],
       [ "ShaderFeature", "class_core_graphics_1_1_shader_feature.html", "class_core_graphics_1_1_shader_feature" ],
       [ "ShaderId", "struct_core_graphics_1_1_shader_id.html", null ],
       [ "ShaderIdentifier", "class_core_graphics_1_1_shader_identifier.html", "class_core_graphics_1_1_shader_identifier" ],

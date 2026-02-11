@@ -1,13 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"win32barrier_8h_source.html":[10,0,0,3,18,6,0],
-"win32calendartime_8cc.html":[10,0,0,3,19,3,0],
-"win32calendartime_8h.html":[10,0,0,3,19,3,1],
-"win32calendartime_8h.html#a58fdec10f062d5648ad4749e41993f32":[10,0,0,3,19,3,1,1],
-"win32calendartime_8h_source.html":[10,0,0,3,19,3,1],
-"win32consolehandler_8cc.html":[10,0,0,3,9,7,0],
-"win32consolehandler_8h.html":[10,0,0,3,9,7,1],
-"win32consolehandler_8h.html#a285e643e9ecdb1ffec0c7643d10816ec":[10,0,0,3,9,7,1,1],
 "win32consolehandler_8h_source.html":[10,0,0,3,9,7,1],
 "win32cpu_8h.html":[10,0,0,3,17,4,0],
 "win32cpu_8h_source.html":[10,0,0,3,17,4,0],

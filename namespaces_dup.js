@@ -1,7 +1,6 @@
 var namespaces_dup =
 [
     [ "Animation", "namespace_animation.html", "namespace_animation" ],
-    [ "AnyFX", "namespace_any_f_x.html", null ],
     [ "App", "namespace_app.html", "namespace_app" ],
     [ "Attr", "namespace_attr.html", "namespace_attr" ],
     [ "Audio", "namespace_audio.html", "namespace_audio" ],
