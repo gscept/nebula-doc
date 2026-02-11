@@ -1,6 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#a9e901298094df389e6668fae7ce27c59":[9,0,37,0,0,3],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#af2544034b9f7d1d353912cb3db0b0a96":[8,0,41,0,0,1],
 "struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html#af2544034b9f7d1d353912cb3db0b0a96":[9,0,37,0,0,1],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html":[8,0,41,1,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX136 =
 "struct_materials_1_1_material_variant.html#a8e7c3610848fe2d8bdbcd389e6d232cd":[9,0,39,6,2],
 "struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[8,0,44,6,12],
 "struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[9,0,39,6,12],
-"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[8,0,44,6,5]
+"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[8,0,44,6,5],
+"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[9,0,39,6,5]
 };

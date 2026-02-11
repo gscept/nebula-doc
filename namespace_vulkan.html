@@ -118,6 +118,7 @@ $(function(){initNavTree('namespace_vulkan.html',''); initResizable(true); });
 <p>The <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> sub-context handler is responsible for negotiating queue submissions.</p>
 <p>Implements a <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> immediate shape and primitive renderer (debug meshes, random primitives, wireframes etc)</p>
 <p>Implements a shader variation (shader program within effect) in <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>.</p>
+<p>Implements a shader effect (using <a class="el" href="namespace_any_f_x.html">AnyFX</a>) in <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>.</p>
 <p><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> semaphore (cross-queue synchronization primitive)</p>
 <p>Implements a scheduler interface which serves to perform <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> operations which might be requested anywhere in the code to be executed when actually relevant.</p>
 <p><a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> sampler implemention.</p>
@@ -779,9 +780,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a908ca764c0c1a7f4d69bceea28bbff09" id="r_a908ca764c0c1a7f4d69bceea28bbff09"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_vulkan_1_1_vk_program_reflection_info.html">VkProgramReflectionInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a908ca764c0c1a7f4d69bceea28bbff09">ShaderGetProgramReflection</a> (const CoreGraphics::ShaderProgramId shaderProgramId)</td></tr>
 <tr class="memdesc:a908ca764c0c1a7f4d69bceea28bbff09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use direct resource ids, not the State, Shader or Variable type ids.  <br /></td></tr>
 <tr class="separator:a908ca764c0c1a7f4d69bceea28bbff09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0cd4f856140b9d8bc7d2cdafd452109" id="r_ab0cd4f856140b9d8bc7d2cdafd452109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cd4f856140b9d8bc7d2cdafd452109">ShaderSetup</a> (VkDevice dev, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, AnyFX::ShaderEffect *effect, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;constantRange, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;immutableSamplers, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;setLayouts, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;setLayoutMap, <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;resourceSlotMapping, <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;constantBindings)</td></tr>
-<tr class="memdesc:ab0cd4f856140b9d8bc7d2cdafd452109"><td class="mdescLeft">&#160;</td><td class="mdescRight">create descriptor set layout  <br /></td></tr>
-<tr class="separator:ab0cd4f856140b9d8bc7d2cdafd452109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a707b3e499321fabe99ea05f9143bc305" id="r_a707b3e499321fabe99ea05f9143bc305"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a707b3e499321fabe99ea05f9143bc305">__ImplementClass</a> (<a class="el" href="class_vulkan_1_1_vk_shader_cache.html">Vulkan::VkShaderCache</a>, 'VKSL', Resources::ResourceStreamCache)</td></tr>
 <tr class="separator:a707b3e499321fabe99ea05f9143bc305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996b0fa771ae293144bcffc0912d8e2f" id="r_a996b0fa771ae293144bcffc0912d8e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996b0fa771ae293144bcffc0912d8e2f">VkShaderProgramSetup</a> (const <a class="el" href="namespace_ids.html#a61207b7267061ba0aa27b77a4b75d2ab">Ids::Id24</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;shaderName, GPULang::Deserialize::Program *program, const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;pipelineLayout)</td></tr>
@@ -3834,71 +3832,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0cd4f856140b9d8bc7d2cdafd452109" name="ab0cd4f856140b9d8bc7d2cdafd452109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0cd4f856140b9d8bc7d2cdafd452109">&#9670;&#160;</a></span>ShaderSetup() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Vulkan::ShaderSetup </td>
-          <td>(</td>
-          <td class="paramtype">VkDevice</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">AnyFX::ShaderEffect *</td>          <td class="paramname"><span class="paramname"><em>effect</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_pipeline_push_constant_range.html">CoreGraphics::ResourcePipelinePushConstantRange</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>constantRange</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>immutableSamplers</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; uint32_t, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>setLayouts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>setLayoutMap</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pipelineLayout</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resourceSlotMapping</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>constantBindings</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>create descriptor set layout </p>
-
-</div>
-</div>
 <a id="a4f282c3b44489b491cac34d61434f5aa" name="a4f282c3b44489b491cac34d61434f5aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f282c3b44489b491cac34d61434f5aa">&#9670;&#160;</a></span>ShaderSetup() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f282c3b44489b491cac34d61434f5aa">&#9670;&#160;</a></span>ShaderSetup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5519,7 +5454,7 @@ Variables</h2></td></tr>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_vulkan.html">Vulkan</a></li>
 				<li class="footer">
-					Generated on Wed Feb 11 2026 17:47:31 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 11 2026 17:48:27 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

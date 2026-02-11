@@ -1,8 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"weakptr_8h_source.html":[10,0,0,3,1,27],
-"win32barrier_8h.html":[10,0,0,3,18,6,0],
-"win32barrier_8h.html#afb26199f6865efb368df6d1c3a13a17f":[10,0,0,3,18,6,0,0],
 "win32barrier_8h_source.html":[10,0,0,3,18,6,0],
 "win32calendartime_8cc.html":[10,0,0,3,19,3,0],
 "win32calendartime_8h.html":[10,0,0,3,19,3,1],

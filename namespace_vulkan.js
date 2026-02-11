@@ -194,7 +194,6 @@ var namespace_vulkan =
     [ "SetupSparse", "namespace_vulkan.html#af7f656ea311c15b8b8634cc6c38ebfa7", null ],
     [ "ShaderCleanup", "namespace_vulkan.html#a27c54ba8d9dfd685bff2b87498b9c6f2", null ],
     [ "ShaderGetProgramReflection", "namespace_vulkan.html#a908ca764c0c1a7f4d69bceea28bbff09", null ],
-    [ "ShaderSetup", "namespace_vulkan.html#ab0cd4f856140b9d8bc7d2cdafd452109", null ],
     [ "ShaderSetup", "namespace_vulkan.html#a4f282c3b44489b491cac34d61434f5aa", null ],
     [ "ShaderVisibilityFromGPULang", "namespace_vulkan.html#a9b2ce54bb5ae315624651185d8717d11", null ],
     [ "SparseBufferBind", "namespace_vulkan.html#a62c87b67db2b5dcfa1f1d5e7758f952a", null ],

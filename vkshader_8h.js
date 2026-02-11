@@ -13,7 +13,6 @@ var vkshader_8h =
     [ "Vulkan::UniformBufferMap", "namespace_vulkan.html#ae51c44637f4efaa072fa1a845da70a3a", null ],
     [ "Vulkan::ShaderCleanup", "namespace_vulkan.html#a27c54ba8d9dfd685bff2b87498b9c6f2", null ],
     [ "Vulkan::ShaderGetProgramReflection", "namespace_vulkan.html#a908ca764c0c1a7f4d69bceea28bbff09", null ],
-    [ "Vulkan::ShaderSetup", "namespace_vulkan.html#ab0cd4f856140b9d8bc7d2cdafd452109", null ],
     [ "Vulkan::ShaderSetup", "namespace_vulkan.html#a4f282c3b44489b491cac34d61434f5aa", null ],
     [ "Vulkan::VkShaderCreateSignature", "namespace_vulkan.html#a124c6bbd44811cbbb51b6c2c30269bf4", null ]
 ];

@@ -1,6 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"struct_game_1_1_entity_create_info.html#abfca209b4f410f112e909e680f5233bd":[9,0,23,11,0],
 "struct_game_1_1_entity_mapping.html":[8,0,26,13],
 "struct_game_1_1_entity_mapping.html":[9,0,23,12],
 "struct_game_1_1_entity_mapping.html#a3b76ec7015e1943196d406ff4c4816b9":[8,0,26,13,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX131 =
 "struct_i_o_1_1_b_x_m_l_file_node.html#a8b1d07881446e7c6225d41fa0f383a97":[9,0,34,8,4],
 "struct_i_o_1_1_event_handler_data.html":[8,0,38,21],
 "struct_i_o_1_1_event_handler_data.html":[9,0,34,20],
-"struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[8,0,38,21,1]
+"struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[8,0,38,21,1],
+"struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[9,0,34,20,1]
 };
