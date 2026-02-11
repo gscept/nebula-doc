@@ -18,10 +18,8 @@ var vkshader_8cc =
       [ "Vulkan::NumShaders", "namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bab184a3fe081692db7d23d36179dd666b", null ]
     ] ],
     [ "CoreGraphics::CreateShader", "namespace_core_graphics.html#aed31fcf4fb389aec44142f1126bfe421", null ],
-    [ "CoreGraphics::CreateShader", "namespace_core_graphics.html#a9a25a7223bd07bafaf8b22160c130598", null ],
     [ "CoreGraphics::DeleteShader", "namespace_core_graphics.html#a5680a0c80fafb8c6e935aea92e6af5ed", null ],
     [ "CoreGraphics::DestroyShader", "namespace_core_graphics.html#ab51cbce5faa9017eae977a65d25ac310", null ],
-    [ "CoreGraphics::ReloadShader", "namespace_core_graphics.html#a2e73a526edd8136eaf540e4d8ffa52f1", null ],
     [ "Vulkan::SamplerAddressModeFromGPULang", "namespace_vulkan.html#a6d085857072e1926c9600ff11df331e6", null ],
     [ "Vulkan::SamplerBorderModeFromGPULang", "namespace_vulkan.html#a5c03fd368ad982347a3d7f0ab061b86d", null ],
     [ "Vulkan::SamplerCompareOpFromGPULang", "namespace_vulkan.html#a1009dce15882ef9f2f96ee6859159b38", null ],
@@ -59,7 +57,6 @@ var vkshader_8cc =
     [ "CoreGraphics::ShaderGetShaderProgram", "namespace_core_graphics.html#ab6c0b800ef8452cac45073e44c852e55", null ],
     [ "CoreGraphics::ShaderHasResourceTable", "namespace_core_graphics.html#a63dd47698408af8d684a3b42a9303ece", null ],
     [ "CoreGraphics::ShaderProgramGetName", "namespace_core_graphics.html#aec9f1e70ed0a8160d59a7e2413031f9b", null ],
-    [ "Vulkan::ShaderSetup", "namespace_vulkan.html#ab0cd4f856140b9d8bc7d2cdafd452109", null ],
     [ "Vulkan::ShaderSetup", "namespace_vulkan.html#a4f282c3b44489b491cac34d61434f5aa", null ],
     [ "Vulkan::ShaderVisibilityFromGPULang", "namespace_vulkan.html#a9b2ce54bb5ae315624651185d8717d11", null ],
     [ "Vulkan::UpdateOccupancy", "namespace_vulkan.html#a7da6269b27881ad2c49593cda2922974", null ],
