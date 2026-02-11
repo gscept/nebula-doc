@@ -1,6 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"processor_8h.html":[10,0,0,1,3,31],
 "processor_8h_source.html":[10,0,0,1,3,31],
 "processorid_8h.html":[10,0,0,1,3,32],
 "processorid_8h_source.html":[10,0,0,1,3,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX118 =
 "serverprocessors_8h_source.html":[10,0,0,0,6,1,5],
 "set_8h.html":[10,0,0,3,20,47],
 "set_8h_source.html":[10,0,0,3,20,47],
-"shader_8cc.html":[10,0,0,7,5,67]
+"shader_8cc.html":[10,0,0,7,5,67],
+"shader_8h.html":[10,0,0,7,5,68]
 };

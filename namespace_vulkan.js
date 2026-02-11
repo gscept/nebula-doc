@@ -107,7 +107,6 @@ var namespace_vulkan =
     [ "__ImplementClass", "namespace_vulkan.html#ac28fd7610a9cb89f445744d79b1e7bd9", null ],
     [ "__ImplementClass", "namespace_vulkan.html#a4579ec78feda9ed28c4e3e53c4330ad1", null ],
     [ "__ImplementClass", "namespace_vulkan.html#af3685bf29039523f94ba4f93b1906447", null ],
-    [ "__ImplementClass", "namespace_vulkan.html#a707b3e499321fabe99ea05f9143bc305", null ],
     [ "__ImplementClass", "namespace_vulkan.html#a80952978f47f24d0776d27e906752725", null ],
     [ "__ImplementClass", "namespace_vulkan.html#a0105172ebf45bf0d33e406877a0bc5b6", null ],
     [ "__ImplementClass", "namespace_vulkan.html#a8d3f7772d3b56af84e4d24f03ce124b8", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"struct_util_1_1_string.html#aee42c96678e751058353edc5f83a8897":[8,0,88,46,13],
 "struct_util_1_1_string.html#aee42c96678e751058353edc5f83a8897":[9,0,74,46,13],
 "struct_util_1_1_string.html#af3acffd789b7ce47a0d273de7fe54e68":[8,0,88,46,117],
 "struct_util_1_1_string.html#af3acffd789b7ce47a0d273de7fe54e68":[9,0,74,46,117],
@@ -249,5 +248,6 @@ var NAVTREEINDEX154 =
 "struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,91,3,2],
 "struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[9,0,77,3,2],
 "struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[8,0,91,3,0],
-"struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[9,0,77,3,0]
+"struct_vulkan_1_1_command_buffer_pools.html#a8ee29ccc0305f24a39ca8de8e177494b":[9,0,77,3,0],
+"struct_vulkan_1_1_derivative_layout.html":[8,0,91,4]
 };
