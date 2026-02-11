@@ -819,7 +819,6 @@ var namespace_core_graphics =
     [ "SetConstants", "namespace_core_graphics.html#a6c88d760a827ae4024263aa9f482699d", null ],
     [ "SetConstantsInternal", "namespace_core_graphics.html#ab87bf8e5711475e972071860cb9fe80f", null ],
     [ "SetRenderWireframe", "namespace_core_graphics.html#ae6379e41dbee3a93be1c65e43ba15014", null ],
-    [ "SetShaderProgram", "namespace_core_graphics.html#a9744ae7569760a865a105690a52a1e3c", null ],
     [ "SetupDescriptorSize", "namespace_core_graphics.html#a3938d995ec46e64e9bbf355a08ff46dd", null ],
     [ "SetupMemoryPools", "namespace_core_graphics.html#a72df248eb706bb4664edd60392adea9d", null ],
     [ "SetupPass", "namespace_core_graphics.html#af96c7800e3a4810d9784429db4ca15e8", null ],

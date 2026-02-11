@@ -45,7 +45,6 @@ var dir_8e0a6479ef4d2ba532242f7a47e99014 =
     [ "vkshader.cc", "vkshader_8cc.html", "vkshader_8cc" ],
     [ "vkshader.h", "vkshader_8h.html", "vkshader_8h" ],
     [ "vkshaderpool.cc", "vkshaderpool_8cc.html", "vkshaderpool_8cc" ],
-    [ "vkshaderpool.h", "vkshaderpool_8h.html", "vkshaderpool_8h" ],
     [ "vkshaderprogram.cc", "vkshaderprogram_8cc.html", "vkshaderprogram_8cc" ],
     [ "vkshaderprogram.h", "vkshaderprogram_8h.html", "vkshaderprogram_8h" ],
     [ "vkshaderserver.cc", "vkshaderserver_8cc.html", "vkshaderserver_8cc" ],

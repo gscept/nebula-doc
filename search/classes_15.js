@@ -7,7 +7,7 @@ var searchData=
   ['uintattrid_4',['UIntAttrId',['../class_attr_1_1_u_int_attr_id.html',1,'Attr']]],
   ['uinttypeclass_5',['UIntTypeClass',['../class_attr_1_1_u_int_type_class.html',1,'Attr']]],
   ['ultralightrenderer_6',['UltralightRenderer',['../class_static_u_i_1_1_ultralight_renderer.html',1,'StaticUI']]],
-  ['uniformbuffer_7',['UniformBuffer',['../struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html',1,'Vulkan::VkReflectionInfo::UniformBuffer'],['../struct_vulkan_1_1_vk_shader_cache_1_1_vk_reflection_info_1_1_uniform_buffer.html',1,'Vulkan::VkShaderCache::VkReflectionInfo::UniformBuffer']]],
+  ['uniformbuffer_7',['UniformBuffer',['../struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html',1,'Vulkan::VkReflectionInfo']]],
   ['unindexeddraws_8',['UnindexedDraws',['../struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html',1,'Vulkan::VkShapeRenderer']]],
   ['uri_9',['URI',['../class_i_o_1_1_u_r_i.html',1,'IO']]],
   ['ushorttypeclass_10',['UShortTypeClass',['../class_attr_1_1_u_short_type_class.html',1,'Attr']]]

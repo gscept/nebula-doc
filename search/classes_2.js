@@ -66,7 +66,7 @@ var searchData=
   ['buffercreateinfo_63',['BufferCreateInfo',['../struct_core_graphics_1_1_buffer_create_info.html',1,'CoreGraphics']]],
   ['bufferdependency_64',['BufferDependency',['../struct_frame_1_1_frame_op_1_1_buffer_dependency.html',1,'Frame::FrameOp']]],
   ['bufferid_65',['BufferId',['../struct_core_graphics_1_1_buffer_id.html',1,'CoreGraphics']]],
-  ['buffermapping_66',['BufferMapping',['../struct_vulkan_1_1_buffer_mapping.html',1,'Vulkan::BufferMapping'],['../struct_vulkan_1_1_vk_shader_cache_1_1_buffer_mapping.html',1,'Vulkan::VkShaderCache::BufferMapping']]],
+  ['buffermapping_66',['BufferMapping',['../struct_vulkan_1_1_buffer_mapping.html',1,'Vulkan']]],
   ['bufferset_67',['BufferSet',['../struct_core_graphics_1_1_buffer_set.html',1,'CoreGraphics']]],
   ['buffersetup_68',['BufferSetup',['../class_core_graphics_1_1_buffer_setup.html',1,'']]],
   ['buffersparsepage_69',['BufferSparsePage',['../struct_core_graphics_1_1_buffer_sparse_page.html',1,'CoreGraphics']]],

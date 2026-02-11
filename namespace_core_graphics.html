@@ -110,7 +110,6 @@ $(function(){initNavTree('namespace_core_graphics.html',''); initResizable(true)
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Acceleration structures are used to enable ray tracing on the GPU by dividing the scene into a BVH. </p>
 <p>Window related stuff.</p>
-<p>Implements a shader loader from stream into a <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> shader.</p>
 <p>Implements a <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> command buffer.</p>
 <p>Vertex layout declares the interface between application and vertex shader.</p>
 <p>A texture view is used on a texture to change the format, mip or layer range used to sample from in a shader.</p>
@@ -2271,8 +2270,6 @@ Functions</h2></td></tr>
 <tr class="separator:a5680a0c80fafb8c6e935aea92e6af5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c0b800ef8452cac45073e44c852e55" id="r_ab6c0b800ef8452cac45073e44c852e55"><td class="memItemLeft" align="right" valign="top">CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c0b800ef8452cac45073e44c852e55">ShaderGetShaderProgram</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> shaderId, const <a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a> mask)</td></tr>
 <tr class="separator:ab6c0b800ef8452cac45073e44c852e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9744ae7569760a865a105690a52a1e3c" id="r_a9744ae7569760a865a105690a52a1e3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9744ae7569760a865a105690a52a1e3c">SetShaderProgram</a> (const CoreGraphics::ShaderProgramId pro, const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue, const bool bindSharedResources)</td></tr>
-<tr class="separator:a9744ae7569760a865a105690a52a1e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dd00d464c5e422fa60cbcbd43fe196d" id="r_a6dd00d464c5e422fa60cbcbd43fe196d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dd00d464c5e422fa60cbcbd43fe196d">_IMPL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a>, <a class="el" href="namespace_vulkan.html#a19c465c022826df01bb020e63a04c672">textureAllocator</a>)</td></tr>
 <tr class="separator:a6dd00d464c5e422fa60cbcbd43fe196d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ef4a623d97c2a3c08936f5a8973db5c" id="r_a5ef4a623d97c2a3c08936f5a8973db5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ef4a623d97c2a3c08936f5a8973db5c">SetupTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
@@ -11557,32 +11554,6 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
-<a id="a9744ae7569760a865a105690a52a1e3c" name="a9744ae7569760a865a105690a52a1e3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9744ae7569760a865a105690a52a1e3c">&#9670;&#160;</a></span>SetShaderProgram()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreGraphics::SetShaderProgram </td>
-          <td>(</td>
-          <td class="paramtype">const CoreGraphics::ShaderProgramId</td>          <td class="paramname"><span class="paramname"><em>pro</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>bindSharedResources</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3938d995ec46e64e9bbf355a08ff46dd" name="a3938d995ec46e64e9bbf355a08ff46dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3938d995ec46e64e9bbf355a08ff46dd">&#9670;&#160;</a></span>SetupDescriptorSize()</h2>
 
@@ -15627,7 +15598,7 @@ template&lt;&gt; </div>
 			<ul>
 				<li class="navelem"><a class="el" href="namespace_core_graphics.html">CoreGraphics</a></li>
 				<li class="footer">
-					Generated on Wed Feb 11 2026 18:54:20 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
+					Generated on Wed Feb 11 2026 18:55:50 for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>
 			</ul>
 		</div>

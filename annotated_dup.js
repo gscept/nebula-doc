@@ -1187,7 +1187,6 @@ var annotated_dup =
       [ "VkProgramReflectionInfo", "struct_vulkan_1_1_vk_program_reflection_info.html", "struct_vulkan_1_1_vk_program_reflection_info" ],
       [ "VkReflectionInfo", "struct_vulkan_1_1_vk_reflection_info.html", "struct_vulkan_1_1_vk_reflection_info" ],
       [ "VkScheduler", "class_vulkan_1_1_vk_scheduler.html", "class_vulkan_1_1_vk_scheduler" ],
-      [ "VkShaderCache", "class_vulkan_1_1_vk_shader_cache.html", "class_vulkan_1_1_vk_shader_cache" ],
       [ "VkShaderProgramRuntimeInfo", "struct_vulkan_1_1_vk_shader_program_runtime_info.html", "struct_vulkan_1_1_vk_shader_program_runtime_info" ],
       [ "VkShaderProgramSetupInfo", "struct_vulkan_1_1_vk_shader_program_setup_info.html", "struct_vulkan_1_1_vk_shader_program_setup_info" ],
       [ "VkShaderRuntimeInfo", "struct_vulkan_1_1_vk_shader_runtime_info.html", "struct_vulkan_1_1_vk_shader_runtime_info" ],
