@@ -1,6 +1,5 @@
 var dir_9ca153d2197e5a64e112f2977692b41a =
 [
-    [ "glfw", "dir_e32bf2807c7ab5895d567bc2d9912be9.html", "dir_e32bf2807c7ab5895d567bc2d9912be9" ],
     [ "bindlessregistry.cc", "bindlessregistry_8cc.html", "bindlessregistry_8cc" ],
     [ "bindlessregistry.h", "bindlessregistry_8h.html", "bindlessregistry_8h" ],
     [ "cameracontext.cc", "cameracontext_8cc.html", "cameracontext_8cc" ],
@@ -13,6 +12,8 @@ var dir_9ca153d2197e5a64e112f2977692b41a =
     [ "globalconstants.h", "globalconstants_8h.html", "globalconstants_8h" ],
     [ "graphicscontext.cc", "graphicscontext_8cc.html", null ],
     [ "graphicscontext.h", "graphicscontext_8h.html", "graphicscontext_8h" ],
+    [ "graphicsdisplayeventhandler.cc", "graphicsdisplayeventhandler_8cc.html", "graphicsdisplayeventhandler_8cc" ],
+    [ "graphicsdisplayeventhandler.h", "graphicsdisplayeventhandler_8h.html", "graphicsdisplayeventhandler_8h" ],
     [ "graphicsentity.h", "graphicsentity_8h.html", "graphicsentity_8h" ],
     [ "graphicsserver.cc", "graphicsserver_8cc.html", "graphicsserver_8cc" ],
     [ "graphicsserver.h", "graphicsserver_8h.html", "graphicsserver_8h" ],

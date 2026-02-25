@@ -10,6 +10,7 @@ var class_g_l_f_w_1_1_g_l_f_w_display_device =
     [ "GetAvailableDisplayModes", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#aeb4b371ff8a35e4acf5304ed9a4c6f59", null ],
     [ "GetCurrentAdapterDisplayMode", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a35c1f94bb9a62d50cb802111c68b95e8", null ],
     [ "GetMonitor", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#af9df3f3819c36cc768429dc875135f5c", null ],
+    [ "GetMonitors", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a4be711f3373629a0074f9506ba2ebd5e", null ],
     [ "Open", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a37b88922809ba79690417f290ebeaf5f", null ],
     [ "ProcessWindowMessages", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a83add9c36992a5de300fa09cee25307b", null ],
     [ "SupportsDisplayMode", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a5e9fedf6a68c4bc089b585d5fe92ea3e", null ],
@@ -21,13 +22,14 @@ var class_g_l_f_w_1_1_g_l_f_w_display_device =
     [ "FocusFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a964ce8d3c343ebe4a6a40cf18e89ad49", null ],
     [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a97604a443adb412f1f3209718fde667b", null ],
     [ "GLFWWindow", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a0accf8cfff3131ca809514b0e2a387c8", null ],
-    [ "InternalSetupFunction", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ae340e1d4f9d6185e52c1adf8b16acf4f", null ],
+    [ "InternalSetupFunction", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a9ebe6557d7775a0cc8a95150fe467779", null ],
     [ "KeyFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a541ec2c65cb04cfa2477830789d98ce2", null ],
     [ "MouseButtonFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a0060e71cd0b331ee8a12ed40cfe63d4d", null ],
     [ "MouseFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a8c006bb74afd234c26e5ead69ab7174b", null ],
+    [ "MoveFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#afcc62b022bdfbc28afa3c769cfe85353", null ],
     [ "OGL4RenderDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ad621b02ce6c11ddc9f44283e9ee8263a", null ],
     [ "ResizeFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#afaf3698d197000af66660c4a7fc25e3a", null ],
     [ "ScrollFunc", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#abecd05a27152b1bf18f2415cdc7b1050", null ],
-    [ "graphicsEventHandler", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ab4f3dde8cf46e64e16cb9d2f12a637c5", null ],
-    [ "inputEventHandler", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#ab3f7fd74f302b55a79bfcc9a12dd3159", null ]
+    [ "graphicsEventHandler", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a01844751c37e38f407a49211413cc543", null ],
+    [ "inputEventHandler", "class_g_l_f_w_1_1_g_l_f_w_display_device.html#a749bd1f2eed34f1c96de24a03b7a57e6", null ]
 ];

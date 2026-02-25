@@ -1,8 +1,8 @@
 var namespace_profiling =
 [
-    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
     [ "ProfilingScope", "struct_profiling_1_1_profiling_scope.html", "struct_profiling_1_1_profiling_scope" ],
     [ "ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", "struct_profiling_1_1_profiling_scope_lock" ],
+    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ],
     [ "ProfilingBudgetDecreaseCounter", "namespace_profiling.html#ae4881e8ba6f5799de5ba0c799b40a060", null ],
     [ "ProfilingBudgetIncreaseCounter", "namespace_profiling.html#afc7d82c0e3f339bc123c04dd4aa438f9", null ],
     [ "ProfilingBudgetResetCounter", "namespace_profiling.html#a73a13f1ea0095c745ec458242bcc8f12", null ],
@@ -25,7 +25,8 @@ var namespace_profiling =
     [ "counterLock", "namespace_profiling.html#a7b517ae2f8ca36866f1779461bb3bdff", null ],
     [ "counters", "namespace_profiling.html#ac0f5dd0b1a57d854713f44af48a8799b", null ],
     [ "ProfilingContextCounter", "namespace_profiling.html#a4d60d513010822696af79c86b0f2ef0f", null ],
-    [ "ProfilingContextIndex", "namespace_profiling.html#a4d257d4a130194bd762b2dcd513db54e", null ],
+    [ "ProfilingContextIndex", "namespace_profiling.html#aa2ec6481d2bfda40e67b41fdccf930aa", null ],
     [ "profilingContexts", "namespace_profiling.html#ab7252369a1455050d9ea3dfc23e4e273", null ],
+    [ "profilingContextsLastFrame", "namespace_profiling.html#a7fae1630d24b0160f4b0872f36114a0f", null ],
     [ "scopesByCategory", "namespace_profiling.html#a9b0638e8afabed9aefe444442a0920a9", null ]
 ];

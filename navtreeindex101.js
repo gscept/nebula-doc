@@ -1,7 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"linuxthreadid_8h_source.html":[10,0,0,3,18,3,5],
-"linuxthreadlocaldata_8cc.html":[10,0,0,3,18,3,6],
 "linuxthreadlocaldata_8h.html":[10,0,0,3,18,3,7],
 "linuxthreadlocaldata_8h_source.html":[10,0,0,3,18,3,7],
 "linuxthreadlocalptr_8cc.html":[10,0,0,3,18,3,8],
@@ -32,13 +30,13 @@ var NAVTREEINDEX101 =
 "material_8h.html":[10,0,0,7,16,1],
 "material_8h_source.html":[10,0,0,7,16,1],
 "materialloader_8cc.html":[10,0,0,7,16,2],
+"materialloader_8cc.html#a3c0dfdfb47173b86bba39faab272e56c":[10,0,0,7,16,2,6],
 "materialloader_8cc.html#a46d53fe78234994294715f4fbf406e26":[10,0,0,7,16,2,2],
 "materialloader_8cc.html#a4fa957af2ee141f7c5669899427d8f81":[10,0,0,7,16,2,3],
-"materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee":[10,0,0,7,16,2,5],
-"materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee":[10,0,0,7,16,2,6],
-"materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee":[10,0,0,7,16,2,7],
 "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee":[10,0,0,7,16,2,8],
 "materialloader_8cc.html#a62c48134eee660cb366870c39ce85dd8":[10,0,0,7,16,2,4],
+"materialloader_8cc.html#ab4b976f17db4d4bc54faf0b1385d8087":[10,0,0,7,16,2,7],
+"materialloader_8cc.html#adc070ea74636399d6271f0302cd34b1f":[10,0,0,7,16,2,5],
 "materialloader_8cc.html#af97117b7c9ae7e5740533a8555182129":[10,0,0,7,16,2,1],
 "materialloader_8h.html":[10,0,0,7,16,3],
 "materialloader_8h_source.html":[10,0,0,7,16,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX101 =
 "namespace_base_game_feature.html#a7f3f97f04b2d5d90e6f1506d236a6e2e":[8,0,6,3],
 "namespace_base_game_feature.html#aa871baa711e7f7e229097861d228dc81":[8,0,6,2],
 "namespace_characters.html":[8,0,7],
-"namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b":[8,0,7,17]
+"namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b":[8,0,7,17],
+"namespace_characters.html#a0fdb8ac30689d89e9e4a49a1b120a8ef":[8,0,7,27],
+"namespace_characters.html#a21e80b2d8993ce540b525aa8e7c7390a":[8,0,7,21]
 };

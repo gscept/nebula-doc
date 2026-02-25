@@ -1,7 +1,7 @@
 var namespace_graphics_feature =
 [
-    [ "CameraManager", "class_graphics_feature_1_1_camera_manager.html", "class_graphics_feature_1_1_camera_manager" ],
     [ "GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html", "class_graphics_feature_1_1_graphics_feature_unit" ],
+    [ "CameraManager", "class_graphics_feature_1_1_camera_manager.html", "class_graphics_feature_1_1_camera_manager" ],
     [ "GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html", "class_graphics_feature_1_1_graphics_manager" ],
     [ "ViewHandle", "namespace_graphics_feature.html#a26fd20dda0cc6c82de211f9331bcf323", null ],
     [ "__ImplementClass", "namespace_graphics_feature.html#ad84f5a1b1151e73e31361ffbf3ce086c", null ],

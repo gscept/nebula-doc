@@ -2,7 +2,7 @@ var half_8h =
 [
     [ "Math::half", "class_math_1_1half.html", "class_math_1_1half" ],
     [ "Math::half::Float", "union_math_1_1half_1_1_float.html", "union_math_1_1half_1_1_float" ],
-    [ "std::numeric_limits< Math::half >", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4" ],
+    [ "std::numeric_limits&lt; Math::half &gt;", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html", "classstd_1_1numeric__limits_3_01_math_1_1half_01_4" ],
     [ "Math::operator*", "namespace_math.html#aa9b15450e27be9d68e55a5511d16bdb4", null ],
     [ "Math::operator*", "namespace_math.html#a97d6b01ab41c9def06343143fd8914a2", null ],
     [ "Math::operator*", "namespace_math.html#abd0af6c7dede8d27dbe0a02c2d04ddf6", null ],

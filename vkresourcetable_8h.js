@@ -2,7 +2,7 @@ var vkresourcetable_8h =
 [
     [ "Vulkan::WriteInfo", "struct_vulkan_1_1_write_info.html", "struct_vulkan_1_1_write_info" ],
     [ "Vulkan::VkResourcePipelineAllocator", "namespace_vulkan.html#a7b4355cb3c8b93c731aa6dbe3ed94e4b", null ],
-    [ "Vulkan::VkResourceTableAllocator", "namespace_vulkan.html#a7233b9eaed72c33d4cb812284577ef84", null ],
+    [ "Vulkan::VkResourceTableAllocator", "namespace_vulkan.html#a5f03d54a7329cbb0f8f589713eb95937", null ],
     [ "Vulkan::VkResourceTableLayoutAllocator", "namespace_vulkan.html#aae9613067c1ef53d433d2924f2d10312", null ],
     [ "Vulkan::WriteType", "namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1e", [
       [ "Vulkan::WriteType::Image", "namespace_vulkan.html#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08", null ],

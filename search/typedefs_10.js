@@ -18,5 +18,5 @@ var searchData=
   ['spotlightallocator_15',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a938e58d0e8d8bef6fbbda7761c91edf1',1,'Lighting::LightContext']]],
   ['stackarray_16',['StackArray',['../namespace_util.html#a87b3071227d8c725c43e4263dd4e91b6',1,'Util']]],
   ['stubtype_17',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#a81c23fd7e79dfc0a84a6133ef8b13965',1,'Vulkan']]]
+  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#a4afc1233d8fc9fa7c51c866b173e70d7',1,'Vulkan']]]
 ];

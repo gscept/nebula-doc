@@ -1,13 +1,13 @@
 var namespace_jobs2 =
 [
-    [ "Callable", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
     [ "CallableStub", "struct_jobs2_1_1_callable_stub.html", "struct_jobs2_1_1_callable_stub" ],
+    [ "Callable", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
+    [ "Lambda", "struct_jobs2_1_1_lambda.html", "struct_jobs2_1_1_lambda" ],
     [ "JobContext", "struct_jobs2_1_1_job_context.html", "struct_jobs2_1_1_job_context" ],
     [ "JobNode", "struct_jobs2_1_1_job_node.html", "struct_jobs2_1_1_job_node" ],
     [ "Jobs2Context", "struct_jobs2_1_1_jobs2_context.html", "struct_jobs2_1_1_jobs2_context" ],
-    [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
     [ "JobThread", "class_jobs2_1_1_job_thread.html", "class_jobs2_1_1_job_thread" ],
-    [ "Lambda", "struct_jobs2_1_1_lambda.html", "struct_jobs2_1_1_lambda" ],
+    [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ],
     [ "CompletionCounter", "namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7", null ],
     [ "JobFunc", "namespace_jobs2.html#a91eaa5760dde2e7031e9cdda0c43f467", null ],
     [ "__ImplementClass", "namespace_jobs2.html#a154abe3ecf3d846f6fff9995f4756e8a", null ],

@@ -1,6 +1,5 @@
 var class_dynui_1_1_imgui_context =
 [
-    [ "ImguiState", "struct_dynui_1_1_imgui_context_1_1_imgui_state.html", "struct_dynui_1_1_imgui_context_1_1_imgui_state" ],
     [ "ImguiContext", "class_dynui_1_1_imgui_context.html#ac646e39858f39a148513f7554476b573", null ],
     [ "~ImguiContext", "class_dynui_1_1_imgui_context.html#a7ba6117f2567f8af0bc32c3bb531f81b", null ],
     [ "__DeclarePluginContext", "class_dynui_1_1_imgui_context.html#ac2892d59a3dbb70cee517550b579f071", null ],
@@ -12,6 +11,5 @@ var class_dynui_1_1_imgui_context =
     [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
     [ "RecoverImGuiContextErrors", "class_dynui_1_1_imgui_context.html#af90a56be8d9abdd6365499d10c686f9b", null ],
     [ "ResetKeyDownState", "class_dynui_1_1_imgui_context.html#a06e73f4f16ed1d2ba7744fce05048b3b", null ],
-    [ "SetRectSize", "class_dynui_1_1_imgui_context.html#aa05aeab643f1f67519ff63f1734e8512", null ],
-    [ "state", "class_dynui_1_1_imgui_context.html#ad7b7bf24063d1e7a884de3f0f8142b2e", null ]
+    [ "SetRectSize", "class_dynui_1_1_imgui_context.html#aa05aeab643f1f67519ff63f1734e8512", null ]
 ];

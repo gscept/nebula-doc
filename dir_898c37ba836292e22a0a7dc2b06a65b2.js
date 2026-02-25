@@ -9,6 +9,8 @@ var dir_898c37ba836292e22a0a7dc2b06a65b2 =
     [ "imguiaddon.h", "imguiaddon_8h.html", "imguiaddon_8h" ],
     [ "imguicontext.cc", "imguicontext_8cc.html", "imguicontext_8cc" ],
     [ "imguicontext.h", "imguicontext_8h.html", "imguicontext_8h" ],
+    [ "imguidisplayeventhandler.cc", "imguidisplayeventhandler_8cc.html", "imguidisplayeventhandler_8cc" ],
+    [ "imguidisplayeventhandler.h", "imguidisplayeventhandler_8h.html", "imguidisplayeventhandler_8h" ],
     [ "imguiinputhandler.cc", "imguiinputhandler_8cc.html", "imguiinputhandler_8cc" ],
     [ "imguiinputhandler.h", "imguiinputhandler_8h.html", "imguiinputhandler_8h" ],
     [ "imguirtplugin.cc", "imguirtplugin_8cc.html", "imguirtplugin_8cc" ],

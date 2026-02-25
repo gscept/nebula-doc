@@ -1,12 +1,12 @@
 var namespace_multiplayer =
 [
     [ "BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html", "class_multiplayer_1_1_base_multiplayer_client" ],
+    [ "ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", "struct_multiplayer_1_1_client_processor_context" ],
+    [ "StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", "class_multiplayer_1_1_standard_multiplayer_client" ],
+    [ "MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", "class_multiplayer_1_1_multiplayer_feature_unit" ],
     [ "BaseMultiplayerServer", "class_multiplayer_1_1_base_multiplayer_server.html", "class_multiplayer_1_1_base_multiplayer_server" ],
     [ "ClientConnection", "class_multiplayer_1_1_client_connection.html", "class_multiplayer_1_1_client_connection" ],
-    [ "ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", "struct_multiplayer_1_1_client_processor_context" ],
-    [ "MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html", "class_multiplayer_1_1_multiplayer_feature_unit" ],
     [ "ServerProcessorContext", "struct_multiplayer_1_1_server_processor_context.html", "struct_multiplayer_1_1_server_processor_context" ],
-    [ "StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", "class_multiplayer_1_1_standard_multiplayer_client" ],
     [ "StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", "class_multiplayer_1_1_standard_multiplayer_server" ],
     [ "ClientGroup", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73", [
       [ "DontCare", "namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a60a3629ef6a8f991f45d7a85f2458544", null ],

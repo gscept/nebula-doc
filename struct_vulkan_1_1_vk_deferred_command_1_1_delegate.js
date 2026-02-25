@@ -6,11 +6,11 @@ var struct_vulkan_1_1_vk_deferred_command_1_1_delegate =
     [ "buffer", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a726abb531d79293de9a9bccf1fe381c5", null ],
     [ "buffers", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a65dcbdef6afd171cf01987a75fe7d614", null ],
     [ "bufferUpd", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a5b141b14085cee8383ec7457e16f00ce", null ],
-    [ "clearValue", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aede7d465703acb88016598a2b5be06cb", null ],
     [ "clearValue", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#abf8476738437c890da105e72dc9ad394", null ],
+    [ "clearValue", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aede7d465703acb88016598a2b5be06cb", null ],
     [ "cmdbufferfree", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a01c30d22ee73bd3d1af945e08f07e537", null ],
-    [ "data", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ab0938c805a94ad16cb2323668992bb2c", null ],
     [ "data", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a9d15473485c434283020574f0e6346ff", null ],
+    [ "data", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ab0938c805a94ad16cb2323668992bb2c", null ],
     [ "descSetBind", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a147cbb67a21c22f868872b803192d18a", null ],
     [ "face", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a81305b6a36d1524407d8905e21503fcd", null ],
     [ "fence", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aadaecae26c025448f8d465c6ee51fe3b", null ],
@@ -40,6 +40,6 @@ var struct_vulkan_1_1_vk_deferred_command_1_1_delegate =
     [ "right", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a437a5203f18c4c78a3180465b45742fd", null ],
     [ "sets", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#adaafec415bcede2c58a93bda986a557c", null ],
     [ "size", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a88329f30cfecd67a4b5be5e9ee0cc6b1", null ],
-    [ "type", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ace5909ce59db8fb92b47a9c9e32e2b40", null ],
-    [ "type", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ada79e8c53bc4a9523d7709b8c81efa31", null ]
+    [ "type", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ada79e8c53bc4a9523d7709b8c81efa31", null ],
+    [ "type", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#ace5909ce59db8fb92b47a9c9e32e2b40", null ]
 ];

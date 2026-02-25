@@ -19,8 +19,8 @@ var namespace_scripting =
     [ "AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
     [ "DotNET_API", "struct_scripting_1_1_dot_n_e_t___a_p_i.html", "struct_scripting_1_1_dot_n_e_t___a_p_i" ],
     [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html", "class_scripting_1_1_n_sharp_server" ],
-    [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
     [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ],
+    [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
     [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ],
     [ "ScriptModuleInit", "namespace_scripting.html#aa987be647ecdd960d07d8e61270ff233", null ],
     [ "HostFxrStatusCode", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810", [

@@ -90,7 +90,7 @@ var shadersemantics_8h =
     [ "NEBULA_SEMANTIC_NEGINVR2", "shadersemantics_8h.html#a4097e95ccd82454a14169365fad8e08c", null ],
     [ "NEBULA_SEMANTIC_NORMALBUFFER", "shadersemantics_8h.html#afd81cdd519e08f081010aaba1e2ee4e3", null ],
     [ "NEBULA_SEMANTIC_NUMENVMIPS", "shadersemantics_8h.html#ad0c795c9b18f86131568ced9321dd963", null ],
-    [ "NEBULA_SEMANTIC_OBJECTID", "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f", null ],
+    [ "NEBULA_SEMANTIC_OBJECTID", "shadersemantics_8h.html#a75e9c9b7a96c8724c324869e05b9a3a4", null ],
     [ "NEBULA_SEMANTIC_OBJECTID", "shadersemantics_8h.html#a520ddcf177ec361a52c31f8adf97f79f", null ],
     [ "NEBULA_SEMANTIC_OBJECTIDARRAY", "shadersemantics_8h.html#ae5d73e95e2152925f7aaeda85fac3702", null ],
     [ "NEBULA_SEMANTIC_OCCLUSIONCONSTANTS", "shadersemantics_8h.html#a128b57e212b0357de4296551fa04dbdb", null ],

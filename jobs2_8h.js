@@ -1,7 +1,7 @@
 var jobs2_8h =
 [
-    [ "Jobs2::CallableStub< ARGS >", "struct_jobs2_1_1_callable_stub.html", "struct_jobs2_1_1_callable_stub" ],
-    [ "Jobs2::Callable< LAMBDA, ARGS >", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
+    [ "Jobs2::CallableStub&lt; ARGS &gt;", "struct_jobs2_1_1_callable_stub.html", "struct_jobs2_1_1_callable_stub" ],
+    [ "Jobs2::Callable&lt; LAMBDA, ARGS &gt;", "struct_jobs2_1_1_callable.html", "struct_jobs2_1_1_callable" ],
     [ "Jobs2::Lambda", "struct_jobs2_1_1_lambda.html", "struct_jobs2_1_1_lambda" ],
     [ "Jobs2::JobContext", "struct_jobs2_1_1_job_context.html", "struct_jobs2_1_1_job_context" ],
     [ "Jobs2::JobNode", "struct_jobs2_1_1_job_node.html", "struct_jobs2_1_1_job_node" ],

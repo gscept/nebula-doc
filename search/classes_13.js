@@ -133,8 +133,7 @@ var searchData=
   ['svgtestpagehandler_130',['SvgTestPageHandler',['../class_debug_1_1_svg_test_page_handler.html',1,'Debug']]],
   ['swapchaincreateinfo_131',['SwapchainCreateInfo',['../struct_core_graphics_1_1_swapchain_create_info.html',1,'CoreGraphics']]],
   ['swapchainid_132',['SwapchainId',['../struct_core_graphics_1_1_swapchain_id.html',1,'CoreGraphics']]],
-  ['swapinfo_133',['SwapInfo',['../struct_graphics_1_1_graphics_server_1_1_swap_info.html',1,'Graphics::GraphicsServer']]],
-  ['synccommand_134',['SyncCommand',['../struct_core_graphics_1_1_draw_thread_1_1_sync_command.html',1,'CoreGraphics::DrawThread']]],
-  ['sysfunc_135',['SysFunc',['../class_core_1_1_sys_func.html',1,'SysFunc'],['../class_o_s_x_1_1_sys_func.html',1,'OSX::SysFunc'],['../class_posix_1_1_sys_func.html',1,'Posix::SysFunc'],['../class_win32_1_1_sys_func.html',1,'Win32::SysFunc']]],
-  ['systeminfo_136',['SystemInfo',['../class_system_1_1_system_info.html',1,'']]]
+  ['synccommand_133',['SyncCommand',['../struct_core_graphics_1_1_draw_thread_1_1_sync_command.html',1,'CoreGraphics::DrawThread']]],
+  ['sysfunc_134',['SysFunc',['../class_core_1_1_sys_func.html',1,'SysFunc'],['../class_o_s_x_1_1_sys_func.html',1,'OSX::SysFunc'],['../class_posix_1_1_sys_func.html',1,'Posix::SysFunc'],['../class_win32_1_1_sys_func.html',1,'Win32::SysFunc']]],
+  ['systeminfo_135',['SystemInfo',['../class_system_1_1_system_info.html',1,'']]]
 ];

@@ -1,13 +1,13 @@
 var materialloader_8cc =
 [
-    [ "Materials::MaterialBuffer< INTERFACE_TYPE >", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
+    [ "Materials::MaterialBuffer&lt; INTERFACE_TYPE &gt;", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
     [ "ALLOC_AND_BIND_MATERIAL", "materialloader_8cc.html#af97117b7c9ae7e5740533a8555182129", null ],
     [ "ALLOC_MATERIAL", "materialloader_8cc.html#a46d53fe78234994294715f4fbf406e26", null ],
     [ "MATERIAL_LIST", "materialloader_8cc.html#a4fa957af2ee141f7c5669899427d8f81", null ],
     [ "PROPERTIES_LIST", "materialloader_8cc.html#a62c48134eee660cb366870c39ce85dd8", null ],
-    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
-    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
-    [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
+    [ "X", "materialloader_8cc.html#adc070ea74636399d6271f0302cd34b1f", null ],
+    [ "X", "materialloader_8cc.html#a3c0dfdfb47173b86bba39faab272e56c", null ],
+    [ "X", "materialloader_8cc.html#ab4b976f17db4d4bc54faf0b1385d8087", null ],
     [ "X", "materialloader_8cc.html#a618c2e7d70c13a7d7f980ce67333f0ee", null ],
     [ "Materials::LoaderFunc", "namespace_materials.html#af09d97178629e229384bdb4d5c815739", null ],
     [ "Materials::__ImplementClass", "namespace_materials.html#a1f98ed34bfde73baf9721c689c07ce5b", null ],

@@ -1,6 +1,6 @@
 var vkresourcetable_8cc =
 [
-    [ "CoreGraphics::AddBinding", "namespace_core_graphics.html#a03668e10ba7b40917f82ff56022cda76", null ],
+    [ "CoreGraphics::AddBinding", "namespace_core_graphics.html#aaa2c7259413d2be5dc5c4672dc88e8c7", null ],
     [ "CoreGraphics::CountDescriptors", "namespace_core_graphics.html#a61a6451166a8faa370b0cd2b53827a2a", null ],
     [ "CoreGraphics::CreateResourcePipeline", "namespace_core_graphics.html#a85b965a9110541f29d80c5c8902ab52a", null ],
     [ "CoreGraphics::CreateResourceTable", "namespace_core_graphics.html#a49058c3b2c2d01a79e80638ab519abf8", null ],

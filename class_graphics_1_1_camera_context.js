@@ -13,7 +13,6 @@ var class_graphics_1_1_camera_context =
     [ "GetTransform", "class_graphics_1_1_camera_context.html#a0324c9d153a8220bd1d3b8997c441aaf", null ],
     [ "GetView", "class_graphics_1_1_camera_context.html#a1eede3d740a84b45c49f83c5b645014e", null ],
     [ "GetViewProjection", "class_graphics_1_1_camera_context.html#a53f1745ab49eb13947674fe264a6d299", null ],
-    [ "OnWindowResized", "class_graphics_1_1_camera_context.html#ab27bfdc09e76e8bd8d3868849112b3cb", null ],
     [ "SetLODCamera", "class_graphics_1_1_camera_context.html#a7231d47347d0fe28492d4c9f9b002097", null ],
     [ "SetupOrthographic", "class_graphics_1_1_camera_context.html#a95e25dca0496f91258106762b753a8a4", null ],
     [ "SetupProjectionFov", "class_graphics_1_1_camera_context.html#a6daa4d0d9200f28273a49edd1f85cf05", null ],

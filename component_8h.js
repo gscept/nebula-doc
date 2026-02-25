@@ -1,7 +1,7 @@
 var component_8h =
 [
     [ "Game::ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", "struct_game_1_1_component_decay_buffer" ],
-    [ "Game::ComponentRegisterInfo< COMPONENT_TYPE >", "struct_game_1_1_component_register_info.html", "struct_game_1_1_component_register_info" ],
+    [ "Game::ComponentRegisterInfo&lt; COMPONENT_TYPE &gt;", "struct_game_1_1_component_register_info.html", "struct_game_1_1_component_register_info" ],
     [ "Game::ComponentInterface", "class_game_1_1_component_interface.html", "class_game_1_1_component_interface" ],
     [ "Game::ComponentFlags", "namespace_game.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "Game::COMPONENTFLAG_NONE", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],

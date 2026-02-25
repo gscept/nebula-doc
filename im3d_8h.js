@@ -11,7 +11,7 @@ var im3d_8h =
     [ "Im3d::TextData", "struct_im3d_1_1_text_data.html", "struct_im3d_1_1_text_data" ],
     [ "Im3d::TextDrawList", "struct_im3d_1_1_text_draw_list.html", "struct_im3d_1_1_text_draw_list" ],
     [ "Im3d::AppData", "struct_im3d_1_1_app_data.html", "struct_im3d_1_1_app_data" ],
-    [ "Im3d::Vector< T >", "struct_im3d_1_1_vector.html", "struct_im3d_1_1_vector" ],
+    [ "Im3d::Vector&lt; T &gt;", "struct_im3d_1_1_vector.html", "struct_im3d_1_1_vector" ],
     [ "Im3d::Context", "struct_im3d_1_1_context.html", "struct_im3d_1_1_context" ],
     [ "IM3D_API", "im3d_8h.html#a522cf27437167324f2a32a62d84e6c77", null ],
     [ "IM3D_THREAD_LOCAL", "im3d_8h.html#a578c0633326f57849eac5e020bffecb0", null ],

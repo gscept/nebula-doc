@@ -1,8 +1,8 @@
 var class_core_graphics_1_1_draw_thread =
 [
     [ "Command", "struct_core_graphics_1_1_draw_thread_1_1_command.html", "struct_core_graphics_1_1_draw_thread_1_1_command" ],
-    [ "CommandBuffer", "struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html", "struct_core_graphics_1_1_draw_thread_1_1_command_buffer" ],
     [ "SyncCommand", "struct_core_graphics_1_1_draw_thread_1_1_sync_command.html", "struct_core_graphics_1_1_draw_thread_1_1_sync_command" ],
+    [ "CommandBuffer", "struct_core_graphics_1_1_draw_thread_1_1_command_buffer.html", "struct_core_graphics_1_1_draw_thread_1_1_command_buffer" ],
     [ "CommandType", "class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15b", [
       [ "BeginCommand", "class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15bac4614faa4c8b327941663987dfb19c77", null ],
       [ "ResetCommand", "class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba86039280a96de62fb92d87b8f72b31fd", null ],

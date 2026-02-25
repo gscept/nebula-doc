@@ -1,7 +1,7 @@
 var class_visibility_1_1_visibility_system =
 [
-    [ "Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", "struct_visibility_1_1_visibility_system_1_1_entity" ],
     [ "Observer", "struct_visibility_1_1_visibility_system_1_1_observer.html", "struct_visibility_1_1_visibility_system_1_1_observer" ],
+    [ "Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", "struct_visibility_1_1_visibility_system_1_1_entity" ],
     [ "VisibilitySystem", "class_visibility_1_1_visibility_system.html#a4baac3e8a5d30bfeb692e949d062d543", null ],
     [ "GetCompletionCounter", "class_visibility_1_1_visibility_system.html#aa73fc6eb88563709c7754855a3bca46f", null ],
     [ "GetCompletionCounters", "class_visibility_1_1_visibility_system.html#ac88884d316950523fe586dd47d686afc", null ],

@@ -37,7 +37,7 @@ var class_input_1_1_input_event =
     [ "SetKey", "class_input_1_1_input_event.html#a0c6d706837d00e19a52ce8e1f0812831", null ],
     [ "SetMouseButton", "class_input_1_1_input_event.html#afe48c4ee3d64d04084d8f5b08820ee76", null ],
     [ "SetNormMousePos", "class_input_1_1_input_event.html#a67abfce431c5b0d41660c5def3e097b8", null ],
-    [ "SetType", "class_input_1_1_input_event.html#af9c58cf557ed6350ebeaa155c60433d5", null ],
+    [ "SetType", "class_input_1_1_input_event.html#a3fb2cd83de80ea1dadecb53409fe8772", null ],
     [ "TypeToString", "class_input_1_1_input_event.html#a23a991d340c2765a9721293bee798e23", null ],
     [ "absMousePos", "class_input_1_1_input_event.html#a18848007c3847f83eaf75d12d8cf55fa", null ],
     [ "character", "class_input_1_1_input_event.html#a7ed86cd33079f4c76ee0f4911f025630", null ],

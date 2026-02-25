@@ -24,8 +24,8 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "globalLight", "class_graphics_feature_1_1_graphics_feature_unit.html#a221e381ac6dee7fef291b9c550c24045", null ],
     [ "graphicsManager", "class_graphics_feature_1_1_graphics_feature_unit.html#a63705d2842bae96027ead1cce153977d", null ],
     [ "inputServer", "class_graphics_feature_1_1_graphics_feature_unit.html#a388f21a3f8a074c3ed96c110ff55d4bb", null ],
+    [ "mainWindow", "class_graphics_feature_1_1_graphics_feature_unit.html#a252f842f39eda6bbad986358e55407ee", null ],
     [ "r_debug", "class_graphics_feature_1_1_graphics_feature_unit.html#ad69b2a11a1aa5c031615e974ebf040bc", null ],
     [ "r_show_frame_inspector", "class_graphics_feature_1_1_graphics_feature_unit.html#a97b34977c5411a682e56bb05e61b0718", null ],
-    [ "title", "class_graphics_feature_1_1_graphics_feature_unit.html#ada8ebdddd284f1f2b17d054c447502b1", null ],
-    [ "wnd", "class_graphics_feature_1_1_graphics_feature_unit.html#a63bd391ca7b5c12fddea3cd3af9db5a6", null ]
+    [ "title", "class_graphics_feature_1_1_graphics_feature_unit.html#ada8ebdddd284f1f2b17d054c447502b1", null ]
 ];

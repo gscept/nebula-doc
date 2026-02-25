@@ -1,8 +1,8 @@
 var class_models_1_1_model_context =
 [
-    [ "MaterialInstanceContext", "struct_models_1_1_model_context_1_1_material_instance_context.html", "struct_models_1_1_model_context_1_1_material_instance_context" ],
-    [ "ModelInstance", "struct_models_1_1_model_context_1_1_model_instance.html", "struct_models_1_1_model_context_1_1_model_instance" ],
     [ "NodeInstanceState", "struct_models_1_1_model_context_1_1_node_instance_state.html", "struct_models_1_1_model_context_1_1_node_instance_state" ],
+    [ "ModelInstance", "struct_models_1_1_model_context_1_1_model_instance.html", "struct_models_1_1_model_context_1_1_model_instance" ],
+    [ "MaterialInstanceContext", "struct_models_1_1_model_context_1_1_material_instance_context.html", "struct_models_1_1_model_context_1_1_material_instance_context" ],
     [ "ModelContextAllocator", "class_models_1_1_model_context.html#a39cc19ab7d8da197c64f0de81a2a69fa", null ],
     [ "ModelContext", "class_models_1_1_model_context.html#aafffb9ddfd69fbef4894de9ec3748205", null ],
     [ "~ModelContext", "class_models_1_1_model_context.html#a7013431eb553ad333a960ef5583a2667", null ],

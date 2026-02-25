@@ -1,7 +1,7 @@
 var class_ti_xml_base =
 [
-    [ "Entity", "struct_ti_xml_base_1_1_entity.html", "struct_ti_xml_base_1_1_entity" ],
     [ "StringToBuffer", "class_ti_xml_base_1_1_string_to_buffer.html", "class_ti_xml_base_1_1_string_to_buffer" ],
+    [ "Entity", "struct_ti_xml_base_1_1_entity.html", "struct_ti_xml_base_1_1_entity" ],
     [ "TiXmlBase", "class_ti_xml_base.html#ac6753fe8a2c89669038fcf281cb301bf", null ],
     [ "~TiXmlBase", "class_ti_xml_base.html#ad1837ecb25a913612fa1115f090cbb56", null ],
     [ "TiXmlBase", "class_ti_xml_base.html#a626975d7fb27b0a471142ca582b561b4", null ],

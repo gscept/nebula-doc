@@ -1,7 +1,7 @@
 var class_particles_1_1_emitter_attrs =
 [
-    [ "BoolAttributes", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes" ],
     [ "IntAttributes", "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html", "struct_particles_1_1_emitter_attrs_1_1_int_attributes" ],
+    [ "BoolAttributes", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes" ],
     [ "BoolAttr", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7a", [
       [ "Looping", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa8597312337becc3b564ecbab36472792", null ],
       [ "RandomizeRotation", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aaa675996b2bc376cb9d50c9c3b2d3b49a", null ],

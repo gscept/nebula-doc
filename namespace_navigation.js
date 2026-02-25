@@ -4,10 +4,10 @@ var namespace_navigation =
       [ "GenerateNavMesh", "namespace_navigation_1_1_recast.html#a0b85a1ab8c81434d960efebe5784e237", null ],
       [ "SetupConfig", "namespace_navigation_1_1_recast.html#a005e56adde3b730d518fd2c2e6ba7e11", null ]
     ] ],
-    [ "AgentContext", "class_navigation_1_1_agent_context.html", "class_navigation_1_1_agent_context" ],
-    [ "CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
     [ "DebugDraw", "struct_navigation_1_1_debug_draw.html", "struct_navigation_1_1_debug_draw" ],
     [ "NavigationPageHandler", "class_navigation_1_1_navigation_page_handler.html", "class_navigation_1_1_navigation_page_handler" ],
+    [ "CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
+    [ "AgentContext", "class_navigation_1_1_agent_context.html", "class_navigation_1_1_agent_context" ],
     [ "NavMeshId", "struct_navigation_1_1_nav_mesh_id.html", null ],
     [ "StreamNavMeshCache", "class_navigation_1_1_stream_nav_mesh_cache.html", "class_navigation_1_1_stream_nav_mesh_cache" ],
     [ "NavigationIdType", "namespace_navigation.html#a7b03024af9c90a1c931fc369431c537c", [

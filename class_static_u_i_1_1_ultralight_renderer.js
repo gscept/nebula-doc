@@ -1,8 +1,8 @@
 var class_static_u_i_1_1_ultralight_renderer =
 [
-    [ "GeometryHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle" ],
-    [ "RenderBufferHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_render_buffer_handle.html", "struct_static_u_i_1_1_ultralight_renderer_1_1_render_buffer_handle" ],
     [ "TextureHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_texture_handle.html", "struct_static_u_i_1_1_ultralight_renderer_1_1_texture_handle" ],
+    [ "RenderBufferHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_render_buffer_handle.html", "struct_static_u_i_1_1_ultralight_renderer_1_1_render_buffer_handle" ],
+    [ "GeometryHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle.html", "struct_static_u_i_1_1_ultralight_renderer_1_1_geometry_handle" ],
     [ "UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html#a92023d8ce2a9660fc3dc3ff838e79202", null ],
     [ "~UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html#a342029fc4a1566167664e6a65a679592", null ],
     [ "BeginSynchronize", "class_static_u_i_1_1_ultralight_renderer.html#aa74a40216e1a7e938c2c60a9a5300c04", null ],

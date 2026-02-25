@@ -40,7 +40,6 @@ var vktexture_8cc =
     [ "CoreGraphics::TextureSparseUpdate", "namespace_core_graphics.html#a942e4bf5458de8f1c518f3996e79a6c6", null ],
     [ "CoreGraphics::TextureSparseUpdate", "namespace_core_graphics.html#a5e38b0756a22c26d8f97b9118849c787", null ],
     [ "CoreGraphics::TextureSparseUpdate", "namespace_core_graphics.html#ac99809c6722630ed7f23ec192b50a817", null ],
-    [ "CoreGraphics::TextureWindowResized", "namespace_core_graphics.html#afe3a6ac5bf0f7a13169172eaed3b1b07", null ],
     [ "Vulkan::textureAllocator", "namespace_vulkan.html#a19c465c022826df01bb020e63a04c672", null ],
     [ "Vulkan::textureSparseExtensionAllocator", "namespace_vulkan.html#afc016b35546c68c33624512531c2fe2b", null ],
     [ "Vulkan::textureStencilExtensionAllocator", "namespace_vulkan.html#a07bb79f4c2ca83994f40c4c2409505ad", null ],

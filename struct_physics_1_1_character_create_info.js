@@ -1,7 +1,7 @@
 var struct_physics_1_1_character_create_info =
 [
-    [ "BoxInfo", "struct_physics_1_1_character_create_info_1_1_box_info.html", "struct_physics_1_1_character_create_info_1_1_box_info" ],
     [ "CapsuleInfo", "struct_physics_1_1_character_create_info_1_1_capsule_info.html", "struct_physics_1_1_character_create_info_1_1_capsule_info" ],
+    [ "BoxInfo", "struct_physics_1_1_character_create_info_1_1_box_info.html", "struct_physics_1_1_character_create_info_1_1_box_info" ],
     [ "box", "struct_physics_1_1_character_create_info.html#a51461fc68c197f3d3376bdcb20e618dc", null ],
     [ "capsule", "struct_physics_1_1_character_create_info.html#a62c5c8583fcdf4da304097902f5def51", null ],
     [ "contactOffset", "struct_physics_1_1_character_create_info.html#a10535d00d37720c78860c6a9d0456e6d", null ],

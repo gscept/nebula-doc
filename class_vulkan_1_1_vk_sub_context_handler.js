@@ -1,9 +1,9 @@
 var class_vulkan_1_1_vk_sub_context_handler =
 [
-    [ "SparseBindSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission" ],
-    [ "SubmissionList", "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list" ],
     [ "TimelineSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission" ],
     [ "TimelineSubmission2", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission2.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission2" ],
+    [ "SubmissionList", "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list" ],
+    [ "SparseBindSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission" ],
     [ "VkSubContextHandler", "class_vulkan_1_1_vk_sub_context_handler.html#ab6592842510c9838ba44ca40d813d4ed", null ],
     [ "~VkSubContextHandler", "class_vulkan_1_1_vk_sub_context_handler.html#ae67e23189807e1293a53d0627b3d8197", null ],
     [ "AppendSignalSemaphore", "class_vulkan_1_1_vk_sub_context_handler.html#a581ef6a2764d7d4d6456a24e9139d6f9", null ],

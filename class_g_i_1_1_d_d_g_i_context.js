@@ -1,7 +1,7 @@
 var class_g_i_1_1_d_d_g_i_context =
 [
-    [ "Volume", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html", "struct_g_i_1_1_d_d_g_i_context_1_1_volume" ],
     [ "VolumeSetup", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup" ],
+    [ "Volume", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html", "struct_g_i_1_1_d_d_g_i_context_1_1_volume" ],
     [ "DDGIVolumeAllocator", "class_g_i_1_1_d_d_g_i_context.html#a5f7c9d16c570f554676aa86e981cf44e", null ],
     [ "~DDGIContext", "class_g_i_1_1_d_d_g_i_context.html#a69bc4ccb1956bda1ea18f2d22c0eddcf", null ],
     [ "Alloc", "class_g_i_1_1_d_d_g_i_context.html#ab6c271175c17901541ca8f4ebd729150", null ],

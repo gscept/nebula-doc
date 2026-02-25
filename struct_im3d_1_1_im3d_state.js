@@ -10,7 +10,6 @@ var struct_im3d_1_1_im3d_state =
     [ "gridOffset", "struct_im3d_1_1_im3d_state.html#a114fe30c705b2ac3636740735d8bf7fe", null ],
     [ "gridSize", "struct_im3d_1_1_im3d_state.html#afea04051f01446f3aaf549f3d7576313", null ],
     [ "im3dShader", "struct_im3d_1_1_im3d_state.html#a2c8d47b87945074521d824eddb9b8e32", null ],
-    [ "inputHandler", "struct_im3d_1_1_im3d_state.html#ad93144a479d6368616b53eb836003dc9", null ],
     [ "lines", "struct_im3d_1_1_im3d_state.html#a837d7277451556787879a9c49fc3917b", null ],
     [ "linesPipeline", "struct_im3d_1_1_im3d_state.html#ab0188bb9faaa76064eadf9aeb66a382d", null ],
     [ "points", "struct_im3d_1_1_im3d_state.html#a7cb05eb26ab2fdc6d3c337e8d3e656d3", null ],

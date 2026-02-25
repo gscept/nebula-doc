@@ -22,7 +22,8 @@ var profiling_8cc =
     [ "Profiling::counterLock", "namespace_profiling.html#a7b517ae2f8ca36866f1779461bb3bdff", null ],
     [ "Profiling::counters", "namespace_profiling.html#ac0f5dd0b1a57d854713f44af48a8799b", null ],
     [ "Profiling::ProfilingContextCounter", "namespace_profiling.html#a4d60d513010822696af79c86b0f2ef0f", null ],
-    [ "Profiling::ProfilingContextIndex", "namespace_profiling.html#a4d257d4a130194bd762b2dcd513db54e", null ],
+    [ "Profiling::ProfilingContextIndex", "namespace_profiling.html#aa2ec6481d2bfda40e67b41fdccf930aa", null ],
     [ "Profiling::profilingContexts", "namespace_profiling.html#ab7252369a1455050d9ea3dfc23e4e273", null ],
+    [ "Profiling::profilingContextsLastFrame", "namespace_profiling.html#a7fae1630d24b0160f4b0872f36114a0f", null ],
     [ "Profiling::scopesByCategory", "namespace_profiling.html#a9b0638e8afabed9aefe444442a0920a9", null ]
 ];

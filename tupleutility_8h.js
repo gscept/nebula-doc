@@ -1,11 +1,11 @@
 var tupleutility_8h =
 [
-    [ "Util::get_template_type< C< T > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
-    [ "Util::get_template_type< C< T, I > >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4" ],
-    [ "Util::get_template_type< C< I, T > >", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4" ],
-    [ "Util::get_template_type< const C< T > & >", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4" ],
-    [ "Util::get_template_type< C< I, T > & >", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_6_01_4" ],
-    [ "Util::get_template_type< C< T, I > & >", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4" ],
+    [ "Util::get_template_type&lt; C&lt; T &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
+    [ "Util::get_template_type&lt; C&lt; T, I &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4" ],
+    [ "Util::get_template_type&lt; C&lt; I, T &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4" ],
+    [ "Util::get_template_type&lt; const C&lt; T &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4" ],
+    [ "Util::get_template_type&lt; C&lt; I, T &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_6_01_4" ],
+    [ "Util::get_template_type&lt; C&lt; T, I &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4" ],
     [ "Util::get_template_type_t", "namespace_util.html#ae1c0ba58693827acd3c85fff898c00e6", null ],
     [ "Util::Pair", "namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3", null ],
     [ "Util::Tuple", "namespace_util.html#ad8f63293b6e3a30890b850ecb295f53f", null ],

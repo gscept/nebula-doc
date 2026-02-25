@@ -1,11 +1,11 @@
 var struct_vulkan_1_1_graphics_device_state =
 [
     [ "ConstantsRingBuffer", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html", "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer" ],
+    [ "SparseImageBind", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind" ],
+    [ "SparseBufferBind", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind" ],
     [ "PendingDeletes", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes" ],
     [ "PendingMarkers", "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html", "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers" ],
     [ "Queries", "struct_vulkan_1_1_graphics_device_state_1_1_queries.html", "struct_vulkan_1_1_graphics_device_state_1_1_queries" ],
-    [ "SparseBufferBind", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind" ],
-    [ "SparseImageBind", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind" ],
     [ "_declare_counter", "struct_vulkan_1_1_graphics_device_state.html#ae88737803dc0af347e87754edb25b745", null ],
     [ "_declare_timer", "struct_vulkan_1_1_graphics_device_state.html#a4d25b653d373ff8b2fdc20099c7f9249", null ],
     [ "accelerationStructureDeviceProps", "struct_vulkan_1_1_graphics_device_state.html#a36920c6c71ae9c85cb8ff401be02ed48", null ],

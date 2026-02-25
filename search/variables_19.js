@@ -11,6 +11,6 @@ var searchData=
   ['ydirectionhbao_8',['yDirectionHBAO',['../namespace_post_effects.html#ab7973248e778277a756be7f2dee66d7b',1,'PostEffects']]],
   ['year_9',['year',['../class_base_1_1_calendar_time_base.html#aedf8f831a0ca2b7eb9d01d6be863fcfa',1,'Base::CalendarTimeBase']]],
   ['yellow_10',['yellow',['../class_util_1_1_color.html#a5bc201fbcf55bea9b5230e5ca00341c7',1,'Util::Color']]],
-  ['ypos_11',['yPos',['../class_core_graphics_1_1_display_mode.html#a95573d27b9562ac5150a56fb6d3a3232',1,'CoreGraphics::DisplayMode']]],
+  ['ypos_11',['yPos',['../class_core_graphics_1_1_display_mode.html#ac18e80e7beadac53a29a1f604b63973b',1,'CoreGraphics::DisplayMode']]],
   ['yresolution_12',['yResolution',['../namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e',1,'Clustering']]]
 ];

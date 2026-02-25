@@ -81,6 +81,5 @@ var texture_8h =
     [ "CoreGraphics::TextureTypeFromString", "namespace_core_graphics.html#a5346ed350033cb47650845080c1ad794", null ],
     [ "CoreGraphics::TextureUpdate", "namespace_core_graphics.html#a29eed11488946eeb12f6d80a230476db", null ],
     [ "CoreGraphics::TextureUsageFromString", "namespace_core_graphics.html#a6f2805dd8f15c2b00bba9a2c3c33d019", null ],
-    [ "CoreGraphics::TextureWindowResized", "namespace_core_graphics.html#afe3a6ac5bf0f7a13169172eaed3b1b07", null ],
     [ "CoreGraphics::TextureAutoMips", "namespace_core_graphics.html#a6e5cf5412647a07dde5eae8f31aeda9d", null ]
 ];

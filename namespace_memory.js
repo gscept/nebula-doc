@@ -1,12 +1,12 @@
 var namespace_memory =
 [
     [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html", "class_memory_1_1_arena_allocator" ],
+    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ],
     [ "RangeAllocation", "struct_memory_1_1_range_allocation.html", "struct_memory_1_1_range_allocation" ],
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
     [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
     [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "HeapType", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56", [
       [ "DefaultHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577", null ],
       [ "ObjectHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71", null ],
@@ -130,6 +130,10 @@ var namespace_memory =
     [ "__HeapReAlloc16", "namespace_memory.html#abadaff872cd52ba019c4f3cf1342c981", null ],
     [ "__HeapSize16", "namespace_memory.html#ab70087a05c0020566ed6eb1e48c05b66", null ],
     [ "__HeapUnalignPointer16", "namespace_memory.html#a539aa16970df013f09322414ef1c51b0", null ],
+    [ "align", "namespace_memory.html#a00bb8ce51f66e403de1499fee96f0517", null ],
+    [ "align_down", "namespace_memory.html#a7df8837b7191440cb21279e5381f63a7", null ],
+    [ "align_downptr", "namespace_memory.html#a0c5854b0c1516ae4cfa6b0f6367bd1f9", null ],
+    [ "alignptr", "namespace_memory.html#ab942d12508c342d147b3851006602925", null ],
     [ "Alloc", "namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3", null ],
     [ "AllocVirtual", "namespace_memory.html#a6f1e350799da9a033ab78c19c7a21436", null ],
     [ "BinMask", "namespace_memory.html#a174b6943e210c445f75dc31d8652ad52", null ],

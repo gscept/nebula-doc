@@ -1,9 +1,9 @@
 var class_util_1_1_bit_field =
 [
     [ "BitType", "struct_util_1_1_bit_field_1_1_bit_type.html", "struct_util_1_1_bit_field_1_1_bit_type" ],
-    [ "BitType< 16 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4" ],
-    [ "BitType< 32 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4" ],
-    [ "BitType< 64 >", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4" ],
+    [ "BitType&lt; 16 &gt;", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4" ],
+    [ "BitType&lt; 32 &gt;", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4" ],
+    [ "BitType&lt; 64 &gt;", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html", "struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4" ],
     [ "TYPE", "class_util_1_1_bit_field.html#a9e5bbdaaa8fb252c1e553ab5c3e7eeba", null ],
     [ "BitField", "class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17", null ],
     [ "BitField", "class_util_1_1_bit_field.html#aabb45dde7bce7faba7a5b47853e8ba60", null ],

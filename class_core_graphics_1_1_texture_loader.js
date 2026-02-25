@@ -1,7 +1,7 @@
 var class_core_graphics_1_1_texture_loader =
 [
-    [ "MipHandoverLoaderThread", "struct_core_graphics_1_1_texture_loader_1_1_mip_handover_loader_thread.html", "struct_core_graphics_1_1_texture_loader_1_1_mip_handover_loader_thread" ],
     [ "MipLoadMainThread", "struct_core_graphics_1_1_texture_loader_1_1_mip_load_main_thread.html", "struct_core_graphics_1_1_texture_loader_1_1_mip_load_main_thread" ],
+    [ "MipHandoverLoaderThread", "struct_core_graphics_1_1_texture_loader_1_1_mip_handover_loader_thread.html", "struct_core_graphics_1_1_texture_loader_1_1_mip_handover_loader_thread" ],
     [ "TextureLoader", "class_core_graphics_1_1_texture_loader.html#adf88f3026f336d91a88e57fb0b981a01", null ],
     [ "~TextureLoader", "class_core_graphics_1_1_texture_loader.html#a6d1cb2422bcd70dbbfe6fbd1ae1f6e01", null ],
     [ "__DeclareClass", "class_core_graphics_1_1_texture_loader.html#afa6102a2293b18e963c7a134bdb56ff6", null ],
