@@ -7,9 +7,9 @@ var class_post_effects_1_1_histogram_context =
     [ "Create", "class_post_effects_1_1_histogram_context.html#a330946b368b0c1d78d4d8f9ca0d911a6", null ],
     [ "Dealloc", "class_post_effects_1_1_histogram_context.html#aa4d5b0317a96c62e0ffcc129e09e326b", null ],
     [ "Discard", "class_post_effects_1_1_histogram_context.html#a902643fb768dd8e334dad1684be829c0", null ],
+    [ "Resize", "class_post_effects_1_1_histogram_context.html#a03209b261dc1bc69767ca6be50c8d7a4", null ],
     [ "Setup", "class_post_effects_1_1_histogram_context.html#a41f4599cc24caac5427fd73b0b1ef022", null ],
     [ "SetWindow", "class_post_effects_1_1_histogram_context.html#ad2070d1e3b7cb63d376107727b5898c5", null ],
     [ "UpdateConstants", "class_post_effects_1_1_histogram_context.html#a172eefa4f95011569fb485d76fa00e29", null ],
-    [ "UpdateViewResources", "class_post_effects_1_1_histogram_context.html#a4f4eed17a6135bb66a4e31a9a4f4a443", null ],
-    [ "WindowResized", "class_post_effects_1_1_histogram_context.html#a6c4bed122f9e10d15205ac24c9f9c2a8", null ]
+    [ "UpdateViewResources", "class_post_effects_1_1_histogram_context.html#a4f4eed17a6135bb66a4e31a9a4f4a443", null ]
 ];

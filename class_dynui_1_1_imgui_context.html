@@ -121,8 +121,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac792ccbe38687117c232e6f6aa5d2db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle event  <br /></td></tr>
 <tr class="memitem:a06e73f4f16ed1d2ba7744fce05048b3b" id="r_a06e73f4f16ed1d2ba7744fce05048b3b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a06e73f4f16ed1d2ba7744fce05048b3b">ResetKeyDownState</a> ()</td></tr>
 <tr class="memdesc:a06e73f4f16ed1d2ba7744fce05048b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset key events  <br /></td></tr>
-<tr class="memitem:a23081620c0509e3cfcb86fed0b74e2a3" id="r_a23081620c0509e3cfcb86fed0b74e2a3"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a23081620c0509e3cfcb86fed0b74e2a3">OnWindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> windowId, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
-<tr class="memdesc:a23081620c0509e3cfcb86fed0b74e2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called if the window size has changed  <br /></td></tr>
+<tr class="memitem:a8f6a718a826cfd313ed067b4c1cd37be" id="r_a8f6a718a826cfd313ed067b4c1cd37be"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8f6a718a826cfd313ed067b4c1cd37be">OnViewportResized</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
+<tr class="memdesc:a8f6a718a826cfd313ed067b4c1cd37be"><td class="mdescLeft">&#160;</td><td class="mdescRight">called if the window size has changed  <br /></td></tr>
 <tr class="memitem:a7d72dd686573e48093c3d8ec1c9ce173" id="r_a7d72dd686573e48093c3d8ec1c9ce173"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7d72dd686573e48093c3d8ec1c9ce173">NewFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a7d72dd686573e48093c3d8ec1c9ce173"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <br /></td></tr>
 <tr class="memitem:a281d241fe632365a0d78d1295610b795" id="r_a281d241fe632365a0d78d1295610b795"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a281d241fe632365a0d78d1295610b795">EndFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
@@ -352,8 +352,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a23081620c0509e3cfcb86fed0b74e2a3" name="a23081620c0509e3cfcb86fed0b74e2a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23081620c0509e3cfcb86fed0b74e2a3">&#9670;&#160;</a></span>OnWindowResized()</h2>
+<a id="a8f6a718a826cfd313ed067b4c1cd37be" name="a8f6a718a826cfd313ed067b4c1cd37be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6a718a826cfd313ed067b4c1cd37be">&#9670;&#160;</a></span>OnViewportResized()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,9 +362,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Dynui::ImguiContext::OnWindowResized </td>
+          <td class="memname">void Dynui::ImguiContext::OnViewportResized </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>windowId</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

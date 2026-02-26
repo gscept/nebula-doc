@@ -117,8 +117,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4a9f49414d2daf2cf60defa52ae7227f"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard context  <br /></td></tr>
 <tr class="memitem:a6fc783a29891ea2eb0360cd177019ecb" id="r_a6fc783a29891ea2eb0360cd177019ecb"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6fc783a29891ea2eb0360cd177019ecb">Setup</a> ()</td></tr>
 <tr class="memdesc:a6fc783a29891ea2eb0360cd177019ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup bloom context  <br /></td></tr>
-<tr class="memitem:a88c796bad2a5396836b2f4036a25de05" id="r_a88c796bad2a5396836b2f4036a25de05"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a88c796bad2a5396836b2f4036a25de05">WindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> windowId, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
-<tr class="memdesc:a88c796bad2a5396836b2f4036a25de05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle window resize.  <br /></td></tr>
+<tr class="memitem:ac23aaa56f25738e17e857580d5d769d7" id="r_ac23aaa56f25738e17e857580d5d769d7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac23aaa56f25738e17e857580d5d769d7">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
+<tr class="memdesc:ac23aaa56f25738e17e857580d5d769d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle window resize.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -320,6 +320,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac23aaa56f25738e17e857580d5d769d7" name="ac23aaa56f25738e17e857580d5d769d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23aaa56f25738e17e857580d5d769d7">&#9670;&#160;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::BloomContext::Resize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle window resize. </p>
+
+</div>
+</div>
 <a id="a6fc783a29891ea2eb0360cd177019ecb" name="a6fc783a29891ea2eb0360cd177019ecb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fc783a29891ea2eb0360cd177019ecb">&#9670;&#160;</a></span>Setup()</h2>
 
@@ -344,42 +380,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>setup bloom context </p>
-
-</div>
-</div>
-<a id="a88c796bad2a5396836b2f4036a25de05" name="a88c796bad2a5396836b2f4036a25de05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88c796bad2a5396836b2f4036a25de05">&#9670;&#160;</a></span>WindowResized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PostEffects::BloomContext::WindowResized </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>windowId</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handle window resize. </p>
 
 </div>
 </div>

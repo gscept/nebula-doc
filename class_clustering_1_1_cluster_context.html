@@ -121,8 +121,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a86fc792f6589126e016e10169103e5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">update constants  <br /></td></tr>
 <tr class="memitem:a956e4406dde2cd2551dd080d1c9dda96" id="r_a956e4406dde2cd2551dd080d1c9dda96"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a956e4406dde2cd2551dd080d1c9dda96">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:a956e4406dde2cd2551dd080d1c9dda96"><td class="mdescLeft">&#160;</td><td class="mdescRight">implement me  <br /></td></tr>
-<tr class="memitem:ac065f05f11f4ff345465b80f2e23f5cd" id="r_ac065f05f11f4ff345465b80f2e23f5cd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac065f05f11f4ff345465b80f2e23f5cd">WindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> id, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
-<tr class="memdesc:ac065f05f11f4ff345465b80f2e23f5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update when window resized.  <br /></td></tr>
+<tr class="memitem:a0ced646250103ea8cdb90fc5ca719c04" id="r_a0ced646250103ea8cdb90fc5ca719c04"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a0ced646250103ea8cdb90fc5ca719c04">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
+<tr class="memdesc:a0ced646250103ea8cdb90fc5ca719c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update when framescript resizes.  <br /></td></tr>
 <tr class="memitem:ae9cff5280d4597d5de0bcb8d21f2ea93" id="r_ae9cff5280d4597d5de0bcb8d21f2ea93"><td class="memItemLeft">static const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae9cff5280d4597d5de0bcb8d21f2ea93">GetClusterBuffer</a> ()</td></tr>
 <tr class="memdesc:ae9cff5280d4597d5de0bcb8d21f2ea93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get cluster AABB buffer.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -360,6 +360,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ced646250103ea8cdb90fc5ca719c04" name="a0ced646250103ea8cdb90fc5ca719c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ced646250103ea8cdb90fc5ca719c04">&#9670;&#160;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Clustering::ClusterContext::Resize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update when framescript resizes. </p>
+
+</div>
+</div>
 <a id="abcb888e6d7c1bb8bab700a04217dc8a1" name="abcb888e6d7c1bb8bab700a04217dc8a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcb888e6d7c1bb8bab700a04217dc8a1">&#9670;&#160;</a></span>UpdateClusters()</h2>
 
@@ -411,42 +447,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>update constants </p>
-
-</div>
-</div>
-<a id="ac065f05f11f4ff345465b80f2e23f5cd" name="ac065f05f11f4ff345465b80f2e23f5cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac065f05f11f4ff345465b80f2e23f5cd">&#9670;&#160;</a></span>WindowResized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Clustering::ClusterContext::WindowResized </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update when window resized. </p>
 
 </div>
 </div>

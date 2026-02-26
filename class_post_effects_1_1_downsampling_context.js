@@ -5,6 +5,6 @@ var class_post_effects_1_1_downsampling_context =
     [ "Create", "class_post_effects_1_1_downsampling_context.html#aa0b2bd63ed967f1c594c933a119ebdbb", null ],
     [ "Dealloc", "class_post_effects_1_1_downsampling_context.html#a4b98be3b7c29863db5abfcb2ec8166bd", null ],
     [ "Discard", "class_post_effects_1_1_downsampling_context.html#a9dc49ebd409652aba2bd31be054644f8", null ],
-    [ "Setup", "class_post_effects_1_1_downsampling_context.html#a998db1fcb91f1fffc4f9dc7e416c9122", null ],
-    [ "WindowResized", "class_post_effects_1_1_downsampling_context.html#aaa5a7d42f7a3c5440a9f9c9e95fce853", null ]
+    [ "Resize", "class_post_effects_1_1_downsampling_context.html#a6be1649b6228e6f8d3c105a098edc06c", null ],
+    [ "Setup", "class_post_effects_1_1_downsampling_context.html#a998db1fcb91f1fffc4f9dc7e416c9122", null ]
 ];

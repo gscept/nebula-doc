@@ -110,8 +110,8 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memdesc:a9dc49ebd409652aba2bd31be054644f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard context  <br /></td></tr>
 <tr class="memitem:a998db1fcb91f1fffc4f9dc7e416c9122" id="r_a998db1fcb91f1fffc4f9dc7e416c9122"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a998db1fcb91f1fffc4f9dc7e416c9122">Setup</a> ()</td></tr>
 <tr class="memdesc:a998db1fcb91f1fffc4f9dc7e416c9122"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup bloom context  <br /></td></tr>
-<tr class="memitem:aaa5a7d42f7a3c5440a9f9c9e95fce853" id="r_aaa5a7d42f7a3c5440a9f9c9e95fce853"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aaa5a7d42f7a3c5440a9f9c9e95fce853">WindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> windowId, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
-<tr class="memdesc:aaa5a7d42f7a3c5440a9f9c9e95fce853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle window resize.  <br /></td></tr>
+<tr class="memitem:a6be1649b6228e6f8d3c105a098edc06c" id="r_a6be1649b6228e6f8d3c105a098edc06c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6be1649b6228e6f8d3c105a098edc06c">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
+<tr class="memdesc:a6be1649b6228e6f8d3c105a098edc06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle window resize.  <br /></td></tr>
 <tr class="memitem:acb50b34390bfecde49a2e5c50e10bb79" id="r_acb50b34390bfecde49a2e5c50e10bb79"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#acb50b34390bfecde49a2e5c50e10bb79">Alloc</a> ()</td></tr>
 <tr class="memdesc:acb50b34390bfecde49a2e5c50e10bb79"><td class="mdescLeft">&#160;</td><td class="mdescRight">implement an empty alloc  <br /></td></tr>
 <tr class="memitem:a4b98be3b7c29863db5abfcb2ec8166bd" id="r_a4b98be3b7c29863db5abfcb2ec8166bd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a4b98be3b7c29863db5abfcb2ec8166bd">Dealloc</a> (<a class="el" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> id)</td></tr>
@@ -267,6 +267,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6be1649b6228e6f8d3c105a098edc06c" name="a6be1649b6228e6f8d3c105a098edc06c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be1649b6228e6f8d3c105a098edc06c">&#9670;&#160;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::DownsamplingContext::Resize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle window resize. </p>
+
+</div>
+</div>
 <a id="a998db1fcb91f1fffc4f9dc7e416c9122" name="a998db1fcb91f1fffc4f9dc7e416c9122"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a998db1fcb91f1fffc4f9dc7e416c9122">&#9670;&#160;</a></span>Setup()</h2>
 
@@ -291,42 +327,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>setup bloom context </p>
-
-</div>
-</div>
-<a id="aaa5a7d42f7a3c5440a9f9c9e95fce853" name="aaa5a7d42f7a3c5440a9f9c9e95fce853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5a7d42f7a3c5440a9f9c9e95fce853">&#9670;&#160;</a></span>WindowResized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PostEffects::DownsamplingContext::WindowResized </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>windowId</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handle window resize. </p>
 
 </div>
 </div>

@@ -179,8 +179,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aed2000c34973ae2ef548adf0be92ed25"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare light lists  <br /></td></tr>
 <tr class="memitem:aede3dd89f4bd7e3761d8f108495315b5" id="r_aede3dd89f4bd7e3761d8f108495315b5"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aede3dd89f4bd7e3761d8f108495315b5">RunFrameScriptJobs</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:aede3dd89f4bd7e3761d8f108495315b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">run framescript when visibility is done  <br /></td></tr>
-<tr class="memitem:a0b40e9097221b10ac4aa431de84198dc" id="r_a0b40e9097221b10ac4aa431de84198dc"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a0b40e9097221b10ac4aa431de84198dc">WindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> windowId, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
-<tr class="memdesc:a0b40e9097221b10ac4aa431de84198dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">React to window resize event.  <br /></td></tr>
+<tr class="memitem:a944484b2fe5a7547a57d2accff333b28" id="r_a944484b2fe5a7547a57d2accff333b28"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a944484b2fe5a7547a57d2accff333b28">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
+<tr class="memdesc:a944484b2fe5a7547a57d2accff333b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">React to window resize event.  <br /></td></tr>
 <tr class="memitem:a8783ef45fe4cc78d67a0bb1762a02cec" id="r_a8783ef45fe4cc78d67a0bb1762a02cec"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8783ef45fe4cc78d67a0bb1762a02cec">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:a8783ef45fe4cc78d67a0bb1762a02cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">render debug  <br /></td></tr>
 <tr class="memitem:aa064651f484a9cafa615d386cf412e36" id="r_aa064651f484a9cafa615d386cf412e36"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa064651f484a9cafa615d386cf412e36">SetupTerrainShadows</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> <a class="el" href="namespace_lighting.html#afd0bf47770d5d51c28ce8df9f2be3e3e">terrainShadowMap</a>, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> worldSize)</td></tr>
@@ -1249,6 +1249,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a944484b2fe5a7547a57d2accff333b28" name="a944484b2fe5a7547a57d2accff333b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944484b2fe5a7547a57d2accff333b28">&#9670;&#160;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lighting::LightContext::Resize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>React to window resize event. </p>
+
+</div>
+</div>
 <a id="aede3dd89f4bd7e3761d8f108495315b5" name="aede3dd89f4bd7e3761d8f108495315b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aede3dd89f4bd7e3761d8f108495315b5">&#9670;&#160;</a></span>RunFrameScriptJobs()</h2>
 
@@ -1918,42 +1954,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>prepare light lists </p>
-
-</div>
-</div>
-<a id="a0b40e9097221b10ac4aa431de84198dc" name="a0b40e9097221b10ac4aa431de84198dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b40e9097221b10ac4aa431de84198dc">&#9670;&#160;</a></span>WindowResized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Lighting::LightContext::WindowResized </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>windowId</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>React to window resize event. </p>
 
 </div>
 </div>

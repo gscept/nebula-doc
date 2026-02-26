@@ -65,6 +65,7 @@ var vkgraphicsdevice_8cc =
     [ "CoreGraphics::GetRenderWireframe", "namespace_core_graphics.html#a1dc8e53abc0d8787adee7bdb96c1509c", null ],
     [ "CoreGraphics::GetVertexBuffer", "namespace_core_graphics.html#a3897877ec43202efebe916ad0282a954", null ],
     [ "CoreGraphics::GetVisualizeMipMaps", "namespace_core_graphics.html#abd86829484124c749d3f6e2c6b02bb06", null ],
+    [ "CoreGraphics::InvalidateGraphicsPipelineCache", "namespace_core_graphics.html#afc6887fb12c55c7a0cda15eff50966bc", null ],
     [ "Vulkan::InvalidatePipeline", "namespace_vulkan.html#a18143254e5579b5aaceb859a818b2206", null ],
     [ "CoreGraphics::IsWindowResizing", "namespace_core_graphics.html#af459839f7c07365aee1a78af7f230425", null ],
     [ "CoreGraphics::LockConstantUpdates", "namespace_core_graphics.html#af17143d9dca5187c25e697dcd2d94d92", null ],

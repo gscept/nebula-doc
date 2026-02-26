@@ -7,6 +7,6 @@ var class_post_effects_1_1_bloom_context =
     [ "Create", "class_post_effects_1_1_bloom_context.html#aeed0ff34525367f28b9290a748265e37", null ],
     [ "Dealloc", "class_post_effects_1_1_bloom_context.html#acf00b8524cf5fee9e3c162d6ad4fd138", null ],
     [ "Discard", "class_post_effects_1_1_bloom_context.html#a4a9f49414d2daf2cf60defa52ae7227f", null ],
-    [ "Setup", "class_post_effects_1_1_bloom_context.html#a6fc783a29891ea2eb0360cd177019ecb", null ],
-    [ "WindowResized", "class_post_effects_1_1_bloom_context.html#a88c796bad2a5396836b2f4036a25de05", null ]
+    [ "Resize", "class_post_effects_1_1_bloom_context.html#ac23aaa56f25738e17e857580d5d769d7", null ],
+    [ "Setup", "class_post_effects_1_1_bloom_context.html#a6fc783a29891ea2eb0360cd177019ecb", null ]
 ];

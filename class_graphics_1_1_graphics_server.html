@@ -122,8 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a25940fa06cd4d669661ece13ffa7c101"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard graphics entity  <br /></td></tr>
 <tr class="memitem:ae06cabcaa05d27d01ec5a96106da2f61" id="r_ae06cabcaa05d27d01ec5a96106da2f61"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae06cabcaa05d27d01ec5a96106da2f61">IsValidGraphicsEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ae06cabcaa05d27d01ec5a96106da2f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if graphics entity is valid  <br /></td></tr>
-<tr class="memitem:a53c96bfbee401c0d14a19631c122378f" id="r_a53c96bfbee401c0d14a19631c122378f"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a53c96bfbee401c0d14a19631c122378f">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, void(*)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport)</td></tr>
-<tr class="memdesc:a53c96bfbee401c0d14a19631c122378f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view with a new framescript  <br /></td></tr>
+<tr class="memitem:ac47cc63b8a72a63ca2ba0ce31b4e245f" id="r_ac47cc63b8a72a63ca2ba0ce31b4e245f"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac47cc63b8a72a63ca2ba0ce31b4e245f">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, bool(*)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport)</td></tr>
+<tr class="memdesc:ac47cc63b8a72a63ca2ba0ce31b4e245f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view with a new framescript  <br /></td></tr>
 <tr class="memitem:a15ddd78ef8b116fddf9a33b16b7cf302" id="r_a15ddd78ef8b116fddf9a33b16b7cf302"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a15ddd78ef8b116fddf9a33b16b7cf302">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:a15ddd78ef8b116fddf9a33b16b7cf302"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view without a framescript  <br /></td></tr>
 <tr class="memitem:ab77409d2d529ef2d400087451081f716" id="r_ab77409d2d529ef2d400087451081f716"><td class="memItemLeft">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab77409d2d529ef2d400087451081f716">GetView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
@@ -531,8 +531,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a53c96bfbee401c0d14a19631c122378f" name="a53c96bfbee401c0d14a19631c122378f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53c96bfbee401c0d14a19631c122378f">&#9670;&#160;</a></span>CreateView() <span class="overload">[2/2]</span></h2>
+<a id="ac47cc63b8a72a63ca2ba0ce31b4e245f" name="ac47cc63b8a72a63ca2ba0ce31b4e245f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47cc63b8a72a63ca2ba0ce31b4e245f">&#9670;&#160;</a></span>CreateView() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>render&#160;</em></span>)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), </td>
+          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>render&#160;</em></span>)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

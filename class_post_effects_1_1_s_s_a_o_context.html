@@ -119,8 +119,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a19fac2b19b54027725c36a5ca87bb177"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup bloom context  <br /></td></tr>
 <tr class="memitem:a8b37d4192663cbba0a060cd8636d7284" id="r_a8b37d4192663cbba0a060cd8636d7284"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8b37d4192663cbba0a060cd8636d7284">UpdateViewDependentResources</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a8b37d4192663cbba0a060cd8636d7284"><td class="mdescLeft">&#160;</td><td class="mdescRight">update view resources  <br /></td></tr>
-<tr class="memitem:a4713bdaecc6e65dab88ab1ba253db15e" id="r_a4713bdaecc6e65dab88ab1ba253db15e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a4713bdaecc6e65dab88ab1ba253db15e">WindowResized</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> id, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
-<tr class="memdesc:a4713bdaecc6e65dab88ab1ba253db15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update when window resized.  <br /></td></tr>
+<tr class="memitem:a847cab39aa4cbbce59e252bcbbccc63b" id="r_a847cab39aa4cbbce59e252bcbbccc63b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a847cab39aa4cbbce59e252bcbbccc63b">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#a0519448bec51881f4fe30d816287693f">width</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> <a class="el" href="namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5">height</a>)</td></tr>
+<tr class="memdesc:a847cab39aa4cbbce59e252bcbbccc63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update when window resized.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -322,6 +322,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a847cab39aa4cbbce59e252bcbbccc63b" name="a847cab39aa4cbbce59e252bcbbccc63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847cab39aa4cbbce59e252bcbbccc63b">&#9670;&#160;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::SSAOContext::Resize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>framescriptHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update when window resized. </p>
+
+</div>
+</div>
 <a id="a19fac2b19b54027725c36a5ca87bb177" name="a19fac2b19b54027725c36a5ca87bb177"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19fac2b19b54027725c36a5ca87bb177">&#9670;&#160;</a></span>Setup()</h2>
 
@@ -377,42 +413,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>update view resources </p>
-
-</div>
-</div>
-<a id="a4713bdaecc6e65dab88ab1ba253db15e" name="a4713bdaecc6e65dab88ab1ba253db15e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4713bdaecc6e65dab88ab1ba253db15e">&#9670;&#160;</a></span>WindowResized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PostEffects::SSAOContext::WindowResized </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update when window resized. </p>
 
 </div>
 </div>

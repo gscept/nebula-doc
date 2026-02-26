@@ -8,7 +8,7 @@ var class_dynui_1_1_imgui_context =
     [ "EndFrame", "class_dynui_1_1_imgui_context.html#a281d241fe632365a0d78d1295610b795", null ],
     [ "HandleInput", "class_dynui_1_1_imgui_context.html#ac792ccbe38687117c232e6f6aa5d2db6", null ],
     [ "NewFrame", "class_dynui_1_1_imgui_context.html#a7d72dd686573e48093c3d8ec1c9ce173", null ],
-    [ "OnWindowResized", "class_dynui_1_1_imgui_context.html#a23081620c0509e3cfcb86fed0b74e2a3", null ],
+    [ "OnViewportResized", "class_dynui_1_1_imgui_context.html#a8f6a718a826cfd313ed067b4c1cd37be", null ],
     [ "RecoverImGuiContextErrors", "class_dynui_1_1_imgui_context.html#af90a56be8d9abdd6365499d10c686f9b", null ],
     [ "ResetKeyDownState", "class_dynui_1_1_imgui_context.html#a06e73f4f16ed1d2ba7744fce05048b3b", null ],
     [ "SetRectSize", "class_dynui_1_1_imgui_context.html#aa05aeab643f1f67519ff63f1734e8512", null ]

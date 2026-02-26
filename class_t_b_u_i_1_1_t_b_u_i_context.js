@@ -9,7 +9,7 @@ var class_t_b_u_i_1_1_t_b_u_i_context =
     [ "DestroyView", "class_t_b_u_i_1_1_t_b_u_i_context.html#a2e06ec55f78862318778149759a99e80", null ],
     [ "Discard", "class_t_b_u_i_1_1_t_b_u_i_context.html#ad61ec7956ddb3bc8048b031a87bf0456", null ],
     [ "FrameUpdate", "class_t_b_u_i_1_1_t_b_u_i_context.html#a6274024e84e33e9613317569bd562b87", null ],
-    [ "OnWindowResized", "class_t_b_u_i_1_1_t_b_u_i_context.html#a6e614a310e24685b25c119b41ec446d2", null ],
+    [ "OnViewportResized", "class_t_b_u_i_1_1_t_b_u_i_context.html#acf0fe9217c389a6ea47243aaa24c3dc2", null ],
     [ "ProcessInput", "class_t_b_u_i_1_1_t_b_u_i_context.html#a66c5f62b28808e14a4fbb13d8604b445", null ],
     [ "Render", "class_t_b_u_i_1_1_t_b_u_i_context.html#a49c5727b43051cd82841917753d4c000", null ],
     [ "clipboardInterface", "class_t_b_u_i_1_1_t_b_u_i_context.html#ad82286789701dda0d8ffb20d2e845c2a", null ],

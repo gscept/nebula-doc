@@ -754,6 +754,7 @@ var namespace_core_graphics =
     [ "ImageGetPixelStride", "namespace_core_graphics.html#a4d6296fc48ee86a02f32a6870a85fa2f", null ],
     [ "ImageLayoutFromString", "namespace_core_graphics.html#affdd8c2aa026f771f650f973ef298d3c", null ],
     [ "ImageSaveToFile", "namespace_core_graphics.html#a970b8b03823ea9ad322bdea1d38bfccd", null ],
+    [ "InvalidateGraphicsPipelineCache", "namespace_core_graphics.html#afc6887fb12c55c7a0cda15eff50966bc", null ],
     [ "IsWindowResizing", "namespace_core_graphics.html#af459839f7c07365aee1a78af7f230425", null ],
     [ "LoadMips", "namespace_core_graphics.html#a744662b9f2be468a33dd36c57938237c", null ],
     [ "LockConstantUpdates", "namespace_core_graphics.html#af17143d9dca5187c25e697dcd2d94d92", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"namespace_debug.html#a7010565c0c93ad83ed8a678c934dd8c9":[8,0,16,23],
 "namespace_debug.html#a702971b1b98deac5e57cf2a511d1bad6":[8,0,16,43],
 "namespace_debug.html#a7042fce4c03b2394b58f5fb6d4358ef7":[8,0,16,38],
 "namespace_debug.html#a78813d3d66196bb1920a21d19ed65bb1":[8,0,16,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "namespace_game_1_1_time.html#af53a59836f71c8772f25f2c726422b62":[8,0,25,0,1],
 "namespace_gcc.html":[8,0,26],
 "namespace_graphics.html":[8,0,29],
-"namespace_graphics.html#a003c4ea073606d8685b2b764da792db3":[8,0,29,82],
-"namespace_graphics.html#a05c928d3e4d055666fa4a907c1859ddc":[8,0,29,75]
+"namespace_graphics.html#a003c4ea073606d8685b2b764da792db3":[8,0,29,82]
 };

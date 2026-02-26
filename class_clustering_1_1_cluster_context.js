@@ -8,7 +8,7 @@ var class_clustering_1_1_cluster_context =
     [ "GetClusterDimensions", "class_clustering_1_1_cluster_context.html#a76a18fc7e411285f7f89683c0c2ed0e0", null ],
     [ "GetNumClusters", "class_clustering_1_1_cluster_context.html#adcaa3fd5b72980252fc28b34e7696b48", null ],
     [ "OnRenderDebug", "class_clustering_1_1_cluster_context.html#a956e4406dde2cd2551dd080d1c9dda96", null ],
+    [ "Resize", "class_clustering_1_1_cluster_context.html#a0ced646250103ea8cdb90fc5ca719c04", null ],
     [ "UpdateClusters", "class_clustering_1_1_cluster_context.html#abcb888e6d7c1bb8bab700a04217dc8a1", null ],
-    [ "UpdateResources", "class_clustering_1_1_cluster_context.html#a86fc792f6589126e016e10169103e5d1", null ],
-    [ "WindowResized", "class_clustering_1_1_cluster_context.html#ac065f05f11f4ff345465b80f2e23f5cd", null ]
+    [ "UpdateResources", "class_clustering_1_1_cluster_context.html#a86fc792f6589126e016e10169103e5d1", null ]
 ];
