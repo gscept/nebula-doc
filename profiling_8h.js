@@ -26,6 +26,6 @@ var profiling_8h =
     [ "Profiling::ProfilingNewFrame", "namespace_profiling.html#a2b1fcb5423b52bf44ab35db7dc08c397", null ],
     [ "Profiling::ProfilingPopScope", "namespace_profiling.html#a4d91ef62a48f28917a4137594ee12cf2", null ],
     [ "Profiling::ProfilingPushScope", "namespace_profiling.html#aa4ab426d9fcd5a10a97714aaa78a063d", null ],
-    [ "Profiling::ProfilingRegisterThread", "namespace_profiling.html#aa3a2d859fbe9ec549597bdd1ba435941", null ],
+    [ "Profiling::ProfilingRegisterThread", "namespace_profiling.html#a37ee2427ae65d423db54e3e714044def", null ],
     [ "Profiling::ProfilingSetupBudgetCounter", "namespace_profiling.html#ab88d29614312541ac98cdcf008d75633", null ]
 ];

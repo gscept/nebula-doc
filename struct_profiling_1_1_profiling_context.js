@@ -1,6 +1,7 @@
 var struct_profiling_1_1_profiling_context =
 [
-    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html#a48fabfc0750ad2dfed60fec89aaabb62", null ],
+    [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html#addbaa1785a18c3ac7daad207f4277041", null ],
+    [ "priority", "struct_profiling_1_1_profiling_context.html#a4d78b590a88b7e202ba7726f5202c53b", null ],
     [ "scopes", "struct_profiling_1_1_profiling_context.html#a22e6886cd0544582d2eaac0efb9282a9", null ],
     [ "threadId", "struct_profiling_1_1_profiling_context.html#a50a9cb275100ba86caf213111a38ad9b", null ],
     [ "threadName", "struct_profiling_1_1_profiling_context.html#a3a6e9d53b941a6b48e7608d9771e7bdd", null ],
