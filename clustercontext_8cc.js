@@ -1,13 +1,13 @@
 var clustercontext_8cc =
 [
     [ "Clustering::__ImplementPluginContext", "namespace_clustering.html#a5b48c99eaa40bf6675db97e6951b5599", null ],
+    [ "Clustering::ClusterBlockSizeX", "namespace_clustering.html#ab8b087601b8ba9f85b460b1039a57180", null ],
+    [ "Clustering::ClusterBlockSizeY", "namespace_clustering.html#a479cd9d4189873d49cbe4e2e970571f0", null ],
+    [ "Clustering::ClusterBlockSizeZ", "namespace_clustering.html#aea44ae7b9dce6a9f4d90d900a3020d31", null ],
     [ "Clustering::clusterBuffer", "namespace_clustering.html#a695d86a5977a02832e13f3b8e75b72f3", null ],
     [ "Clustering::clusterDimensions", "namespace_clustering.html#aee3093d03cc338873dd8551aea6b20b7", null ],
     [ "Clustering::clusterGenerateProgram", "namespace_clustering.html#ade21b71e57fed04002e9e0ca68aa2c8c", null ],
     [ "Clustering::clusterShader", "namespace_clustering.html#ae6636f1b803d11291cdf2aceac96eb4f", null ],
-    [ "Clustering::ClusterSubdivsX", "namespace_clustering.html#a52c7f2f74a299331d363fb4506ecdb34", null ],
-    [ "Clustering::ClusterSubdivsY", "namespace_clustering.html#a401874a8255d8aa9b032f868991911f5", null ],
-    [ "Clustering::ClusterSubdivsZ", "namespace_clustering.html#aed10d2d6cfa9c9843c710a84d2f5f066", null ],
     [ "Clustering::constantBuffer", "namespace_clustering.html#a33703f24ab0dd9c5cba528ce6a7126f8", null ],
     [ "Clustering::invXResolution", "namespace_clustering.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
     [ "Clustering::invYResolution", "namespace_clustering.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
