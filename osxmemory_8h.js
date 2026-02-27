@@ -23,10 +23,10 @@ var osxmemory_8h =
     [ "operator new[]", "osxmemory_8h.html#a1649c8c7d5f8b1128df76c167bf93c21", null ],
     [ "Memory::Realloc", "namespace_memory.html#a66c839285702633f8178be0224273a14", null ],
     [ "Memory::HeapTypeAllocCount", "namespace_memory.html#a4f05b0dffadc15f46b2db37a2b3c9240", null ],
-    [ "Memory::HeapTypeAllocSize", "namespace_memory.html#a5c716011c35bc95c6462f9289163f748", null ],
+    [ "Memory::HeapTypeAllocSize", "namespace_memory.html#afce860af57b8db62470b2abba75f4758", null ],
     [ "Memory::MemoryLoggingEnabled", "namespace_memory.html#a77f86f941cdf22fe314c5f3b8636f078", null ],
     [ "Memory::MemoryLoggingThreshold", "namespace_memory.html#a8027aa793a26eaeefd1f86e66ccf0e26", null ],
     [ "Memory::MemoryLoogingHeapType", "namespace_memory.html#aa4c51e930a857aaac4da5c6552f36dce", null ],
     [ "Memory::TotalAllocCount", "namespace_memory.html#a22db429734eafa34e0a11a9024a97a08", null ],
-    [ "Memory::TotalAllocSize", "namespace_memory.html#a1905ca63007c1a28f70bfdd3ad717427", null ]
+    [ "Memory::TotalAllocSize", "namespace_memory.html#a1c954cd05be99abf338cf8043dcd44f7", null ]
 ];

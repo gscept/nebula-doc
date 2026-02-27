@@ -1,12 +1,15 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[8,0,13,6,2],
+"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[9,0,12,5,2],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[8,0,13,6,0],
 "struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[9,0,12,5,0],
 "struct_core_graphics_1_1_tlas_id.html":[8,0,13,7],
 "struct_core_graphics_1_1_tlas_id.html":[9,0,12,6],
 "struct_core_graphics_1_1_vertex_alloc.html":[8,0,13,68],
 "struct_core_graphics_1_1_vertex_alloc.html":[9,0,12,67],
-"struct_core_graphics_1_1_vertex_alloc.html#a389aafd8fbf75e79d8a6133408697ee0":[8,0,13,68,2],
-"struct_core_graphics_1_1_vertex_alloc.html#a389aafd8fbf75e79d8a6133408697ee0":[9,0,12,67,2],
+"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[8,0,13,68,2],
+"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[9,0,12,67,2],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[8,0,13,68,0],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[9,0,12,67,0],
 "struct_core_graphics_1_1_vertex_alloc.html#abeac5140e4a030de879a77ca0e559e4f":[8,0,13,68,1],
@@ -31,8 +34,8 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_vertex_stream.html":[9,0,12,69],
 "struct_core_graphics_1_1_vertex_stream.html#a12b88fc2260c7bb2319fab5b0b5bb777":[8,0,13,70,0],
 "struct_core_graphics_1_1_vertex_stream.html#a12b88fc2260c7bb2319fab5b0b5bb777":[9,0,12,69,0],
-"struct_core_graphics_1_1_vertex_stream.html#a41c131d8db580f0fddd56fdcbd51a554":[8,0,13,70,1],
-"struct_core_graphics_1_1_vertex_stream.html#a41c131d8db580f0fddd56fdcbd51a554":[9,0,12,69,1],
+"struct_core_graphics_1_1_vertex_stream.html#a43d0f5456635d767b895526652ee351e":[8,0,13,70,1],
+"struct_core_graphics_1_1_vertex_stream.html#a43d0f5456635d767b895526652ee351e":[9,0,12,69,1],
 "struct_core_graphics_1_1_vertex_stream.html#a879adcd9daba3826c17647976518d16f":[8,0,13,70,2],
 "struct_core_graphics_1_1_vertex_stream.html#a879adcd9daba3826c17647976518d16f":[9,0,12,69,2],
 "struct_core_graphics_1_1_window_create_info.html":[8,0,13,159],
@@ -246,8 +249,5 @@ var NAVTREEINDEX128 =
 "struct_frame_1_1_frame_mipmap_1_1_compiled_impl.html#ad6baf3a4a87147d7f70971c2b07ec293":[9,0,21,7,0,1],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html":[8,0,23,8,4],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html":[9,0,21,8,4],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[8,0,23,8,4,2],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[9,0,21,8,4,2],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[8,0,23,8,4,1],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[9,0,21,8,4,1]
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[8,0,23,8,4,2]
 };

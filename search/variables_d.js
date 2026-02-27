@@ -230,7 +230,7 @@ var searchData=
   ['memoryloogingheaptype_227',['MemoryLoogingHeapType',['../namespace_memory.html#aa4c51e930a857aaac4da5c6552f36dce',1,'Memory']]],
   ['memorypools_228',['memoryPools',['../class_memory_1_1_pool_array_allocator.html#a640ed5694d7f0a63b0784e537d49678b',1,'Memory::PoolArrayAllocator']]],
   ['memoryprops_229',['memoryProps',['../struct_vulkan_1_1_graphics_device_state.html#a9383787d88fc67a910d0952dbe5cdcd2',1,'Vulkan::GraphicsDeviceState']]],
-  ['memoryrangegranularity_230',['MemoryRangeGranularity',['../namespace_core_graphics.html#a89a4979ce63e041a4d1108d5bdb55f43',1,'CoreGraphics']]],
+  ['memoryrangegranularity_230',['MemoryRangeGranularity',['../namespace_core_graphics.html#aff7a0f817201418f105bcaa9e0588e5b',1,'CoreGraphics']]],
   ['memoryreqs_231',['memoryReqs',['../struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439',1,'Vulkan::BufferSparsePageTable::memoryReqs'],['../struct_vulkan_1_1_texture_sparse_page_table.html#ac5914265a7571322bc2b3fbafbe7b166',1,'Vulkan::TextureSparsePageTable::memoryReqs']]],
   ['memorytype_232',['memoryType',['../struct_core_graphics_1_1_memory_pool.html#a1c71746d5ddda8bb8660714db5dccea5',1,'CoreGraphics::MemoryPool']]],
   ['mergeprogram_233',['mergeProgram',['../namespace_post_effects.html#ab73b046c23392e52048f226a7d4792ed',1,'PostEffects']]],

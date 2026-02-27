@@ -14,7 +14,7 @@ var struct_core_graphics_1_1_graphics_device_state =
     [ "frameResourceTableCompute", "struct_core_graphics_1_1_graphics_device_state.html#ac9c5adca294bbafa512e0e7f1fd635c8", null ],
     [ "frameResourceTableGraphics", "struct_core_graphics_1_1_graphics_device_state.html#a797091871150d0e049733e3d2a05eb03", null ],
     [ "globalConstantBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a24eec180b233aa5df141afa79e754045", null ],
-    [ "globalConstantBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#aea0703fe02f27157052eee90d4f75ba5", null ],
+    [ "globalConstantBufferMaxValue", "struct_core_graphics_1_1_graphics_device_state.html#aec857d2a7a4546c5137ff7171bd6c49a", null ],
     [ "handoverTransferCommandBuffers", "struct_core_graphics_1_1_graphics_device_state.html#aab09c9f45c120a59ee0b27a5334a4cfc", null ],
     [ "indexAllocator", "struct_core_graphics_1_1_graphics_device_state.html#a9e41a55df9ab3c706c4e4b03d659a5a9", null ],
     [ "indexBuffer", "struct_core_graphics_1_1_graphics_device_state.html#a8db2bc5ae5ffe68141934069b16c72a3", null ],

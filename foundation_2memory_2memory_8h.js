@@ -1,7 +1,10 @@
 var foundation_2memory_2memory_8h =
 [
     [ "ThreadLocalMiniHeap", "struct_thread_local_mini_heap.html", "struct_thread_local_mini_heap" ],
+    [ "Memory::align", "namespace_memory.html#a45254c2f9bd894c654344a2618c63558", null ],
+    [ "Memory::align", "namespace_memory.html#a4ae6c993ab9c4188184ddfb08738fa3e", null ],
     [ "Memory::align", "namespace_memory.html#a00bb8ce51f66e403de1499fee96f0517", null ],
+    [ "Memory::align_down", "namespace_memory.html#a15e72b0703c0e064cf008d2ca740dd50", null ],
     [ "Memory::align_down", "namespace_memory.html#a7df8837b7191440cb21279e5381f63a7", null ],
     [ "Memory::align_downptr", "namespace_memory.html#a0c5854b0c1516ae4cfa6b0f6367bd1f9", null ],
     [ "Memory::alignptr", "namespace_memory.html#ab942d12508c342d147b3851006602925", null ],

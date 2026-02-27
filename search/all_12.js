@@ -62,7 +62,7 @@ var searchData=
   ['randxorstate_59',['randxorstate',['../struct_math_1_1randxorstate.html',1,'Math']]],
   ['range_60',['Range',['../class_lighting_1_1_light_context.html#a86b725b8886d8156019631d7d898e7e1a07b94fc8601597307d62507415c36c36',1,'Lighting::LightContext']]],
   ['rangeallocation_61',['RangeAllocation',['../struct_memory_1_1_range_allocation.html',1,'Memory']]],
-  ['rangeallocator_62',['RangeAllocator',['../class_memory_1_1_range_allocator.html',1,'Memory::RangeAllocator'],['../class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f',1,'Memory::RangeAllocator::RangeAllocator()'],['../class_memory_1_1_range_allocator.html#aa6a0387994eef32907ee3536f066f2db',1,'Memory::RangeAllocator::RangeAllocator(uint size, SizeT maxNumAllocs)']]],
+  ['rangeallocator_62',['RangeAllocator',['../class_memory_1_1_range_allocator.html',1,'Memory::RangeAllocator'],['../class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f',1,'Memory::RangeAllocator::RangeAllocator()'],['../class_memory_1_1_range_allocator.html#afc8b5635350c22a2185327ec906a351c',1,'Memory::RangeAllocator::RangeAllocator(size_t size, SizeT maxNumAllocs)']]],
   ['rangeallocator_2eh_63',['rangeallocator.h',['../rangeallocator_8h.html',1,'']]],
   ['rangeallocatornode_64',['RangeAllocatorNode',['../struct_memory_1_1_range_allocator_1_1_range_allocator_node.html',1,'Memory::RangeAllocator::RangeAllocatorNode'],['../struct_memory_1_1_range_allocator_1_1_range_allocator_node.html#aa98cbcce9fdcf339ed5c276e5bdf636c',1,'Memory::RangeAllocator::RangeAllocatorNode::RangeAllocatorNode()']]],
   ['rangeinfos_65',['rangeInfos',['../struct_vulkan_1_1_scene_setup.html#ac1483ff086f77d119e1384f6ac89b9eb',1,'Vulkan::SceneSetup']]],

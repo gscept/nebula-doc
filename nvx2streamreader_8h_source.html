@@ -128,8 +128,8 @@ $(function(){initNavTree('nvx2streamreader_8h_source.html','',''); });
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> GetNumIndices() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> GetVertexWidth() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> GetNumEdges() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> GetBaseVertexOffset() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> GetBaseIndexOffset() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">size_t</span> GetBaseVertexOffset() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">size_t</span> GetBaseIndexOffset() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_array.html">Util::Array&lt;CoreGraphics::VertexComponent&gt;</a>&amp; GetVertexComponents() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> ConvertVertexBufferEndianess(<span class="keywordtype">void</span>* vertexPtr, <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numVertices, <span class="keyword">const</span> <a class="code hl_class" href="class_util_1_1_array.html">Util::Array&lt;CoreGraphics::VertexComponent&gt;</a>&amp; vertexComps);</div>
@@ -279,14 +279,14 @@ $(function(){initNavTree('nvx2streamreader_8h_source.html','',''); });
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>}</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> </div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="keyword">inline</span> <span class="keywordtype">size_t</span></div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>Nvx2StreamReader::GetBaseVertexOffset()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keywordflow">return</span> this-&gt;vertexAllocation.offset;</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>}</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="keyword">inline</span> <a class="code hl_typedef" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="keyword">inline</span> <span class="keywordtype">size_t</span></div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>Nvx2StreamReader::GetBaseIndexOffset()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <span class="keywordflow">return</span> this-&gt;indexAllocation.offset;</div>

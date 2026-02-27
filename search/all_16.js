@@ -192,7 +192,7 @@ var searchData=
   ['vertexlayoutvkbindinfo_189',['VertexLayoutVkBindInfo',['../struct_vulkan_1_1_vertex_layout_vk_bind_info.html',1,'Vulkan']]],
   ['vertexlist_190',['VertexList',['../struct_im3d_1_1_context.html#a62da6e6f4e2eb5577f7ef34e4dd70175',1,'Im3d::Context']]],
   ['vertexoffset_191',['VertexOffset',['../namespace_dynui.html#a19f881b5efdf1871421860a09b042f8f',1,'Dynui']]],
-  ['vertexoffset_192',['vertexOffset',['../struct_core_graphics_1_1_blas_create_info.html#a33be3d51c1845ec4755c0d2846643aec',1,'CoreGraphics::BlasCreateInfo']]],
+  ['vertexoffset_192',['vertexOffset',['../struct_core_graphics_1_1_blas_create_info.html#a4d686d004574672726e1fd01d726ade0',1,'CoreGraphics::BlasCreateInfo']]],
   ['vertexptr_193',['vertexPtr',['../struct_im3d_1_1_im3d_state.html#a65d1da81c669c9def372de10153cb11a',1,'Im3d::Im3dState::vertexPtr'],['../class_vulkan_1_1_vk_text_renderer.html#a3cf35cec12134203eab0536632c0777e',1,'Vulkan::VkTextRenderer::vertexPtr'],['../namespace_particles.html#a447cdd993f347255eb53f4d0697870b4',1,'Particles::vertexPtr']]],
   ['vertexptrs_194',['vertexPtrs',['../struct_dynui_1_1_imgui_state.html#a6f5f6b4c356f76a29847d1bb66ff350f',1,'Dynui::ImguiState::vertexPtrs'],['../struct_t_b_u_i_1_1_t_b_u_i_context_1_1_t_b_u_i_state.html#a486fd2c99c53e9e51fe414c0f477ae3e',1,'TBUI::TBUIContext::TBUIState::vertexPtrs']]],
   ['vertexshader_195',['VertexShader',['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba3fa93367c1469bf17e499769044f10fb',1,'Vulkan']]],

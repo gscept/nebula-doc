@@ -512,8 +512,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8029913a4739ebee620565549637bcee"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a> instance, loads function pointers directly from driver  <br /></td></tr>
 <tr class="memitem:a88ad874a9f4913b57f2617644ec20af1" id="r_a88ad874a9f4913b57f2617644ec20af1"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a88ad874a9f4913b57f2617644ec20af1">AllocateMemory</a> (const VkDevice dev, const VkImage &amp;img, <a class="el" href="namespace_core_graphics.html#a6d05babede644415820eca607bed06ce">CoreGraphics::MemoryPoolType</a> type)</td></tr>
 <tr class="memdesc:a88ad874a9f4913b57f2617644ec20af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate memory for an image  <br /></td></tr>
-<tr class="memitem:a1ebb92e5f374901a2665eca3c775bbcd" id="r_a1ebb92e5f374901a2665eca3c775bbcd"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1ebb92e5f374901a2665eca3c775bbcd">AllocateMemory</a> (const VkDevice dev, const VkBuffer &amp;buf, <a class="el" href="namespace_core_graphics.html#a6d05babede644415820eca607bed06ce">CoreGraphics::MemoryPoolType</a> type, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> alignment=1)</td></tr>
-<tr class="memdesc:a1ebb92e5f374901a2665eca3c775bbcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate memory for a buffer  <br /></td></tr>
+<tr class="memitem:a8a8dd6915b0e234bc4fa27e2a6f3338c" id="r_a8a8dd6915b0e234bc4fa27e2a6f3338c"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8a8dd6915b0e234bc4fa27e2a6f3338c">AllocateMemory</a> (const VkDevice dev, const VkBuffer &amp;buf, <a class="el" href="namespace_core_graphics.html#a6d05babede644415820eca607bed06ce">CoreGraphics::MemoryPoolType</a> type, size_t alignment=1)</td></tr>
+<tr class="memdesc:a8a8dd6915b0e234bc4fa27e2a6f3338c"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate memory for a buffer  <br /></td></tr>
 <tr class="memitem:a9011a204d25cdee2b190eda374b1c1ac" id="r_a9011a204d25cdee2b190eda374b1c1ac"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9011a204d25cdee2b190eda374b1c1ac">AllocateMemory</a> (const VkDevice dev, VkMemoryRequirements reqs, VkDeviceSize allocSize)</td></tr>
 <tr class="memdesc:a9011a204d25cdee2b190eda374b1c1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate memory for sparse memory  <br /></td></tr>
 <tr class="memitem:a52e71a4b4144ffe4d9ff135f7a6544a8" id="r_a52e71a4b4144ffe4d9ff135f7a6544a8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a52e71a4b4144ffe4d9ff135f7a6544a8">Flush</a> (const VkDevice dev, const <a class="el" href="struct_core_graphics_1_1_alloc.html">CoreGraphics::Alloc</a> &amp;alloc, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> offset, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
@@ -1937,8 +1937,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ebb92e5f374901a2665eca3c775bbcd" name="a1ebb92e5f374901a2665eca3c775bbcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ebb92e5f374901a2665eca3c775bbcd">&#9670;&#160;</a></span>AllocateMemory() <span class="overload">[1/3]</span></h2>
+<a id="a8a8dd6915b0e234bc4fa27e2a6f3338c" name="a8a8dd6915b0e234bc4fa27e2a6f3338c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8dd6915b0e234bc4fa27e2a6f3338c">&#9670;&#160;</a></span>AllocateMemory() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1961,7 +1961,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>alignment</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>alignment</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

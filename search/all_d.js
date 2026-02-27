@@ -404,7 +404,7 @@ var searchData=
   ['memorypools_401',['memoryPools',['../class_memory_1_1_pool_array_allocator.html#a640ed5694d7f0a63b0784e537d49678b',1,'Memory::PoolArrayAllocator']]],
   ['memorypooltype_402',['MemoryPoolType',['../namespace_core_graphics.html#a6d05babede644415820eca607bed06ce',1,'CoreGraphics']]],
   ['memoryprops_403',['memoryProps',['../struct_vulkan_1_1_graphics_device_state.html#a9383787d88fc67a910d0952dbe5cdcd2',1,'Vulkan::GraphicsDeviceState']]],
-  ['memoryrangegranularity_404',['MemoryRangeGranularity',['../namespace_core_graphics.html#a89a4979ce63e041a4d1108d5bdb55f43',1,'CoreGraphics']]],
+  ['memoryrangegranularity_404',['MemoryRangeGranularity',['../namespace_core_graphics.html#aff7a0f817201418f105bcaa9e0588e5b',1,'CoreGraphics']]],
   ['memoryread_405',['MemoryRead',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a575da5d1d4109b111267b2e044af2aad',1,'CoreGraphics']]],
   ['memoryreqs_406',['memoryReqs',['../struct_vulkan_1_1_buffer_sparse_page_table.html#a82fac9799a610978fc9184aa45030439',1,'Vulkan::BufferSparsePageTable::memoryReqs'],['../struct_vulkan_1_1_texture_sparse_page_table.html#ac5914265a7571322bc2b3fbafbe7b166',1,'Vulkan::TextureSparsePageTable::memoryReqs']]],
   ['memorystream_407',['MemoryStream',['../class_i_o_1_1_memory_stream.html',1,'IO::MemoryStream'],['../class_i_o_1_1_memory_stream.html#af6e6da4806037ee519eba59b6e6d1ee1',1,'IO::MemoryStream::MemoryStream()']]],

@@ -1,7 +1,7 @@
 var vkbuffer_8cc =
 [
     [ "CoreGraphics::_IMPL_ACQUIRE_RELEASE", "namespace_core_graphics.html#a101f4aa1b87ed06db11fbeb34d58ecdf", null ],
-    [ "CoreGraphics::BufferCopyWithStaging", "namespace_core_graphics.html#a4d7c954f644790be4c5fd7cc259ae390", null ],
+    [ "CoreGraphics::BufferCopyWithStaging", "namespace_core_graphics.html#a44dba10f5c95b3f55222189a94e312db", null ],
     [ "CoreGraphics::BufferFill", "namespace_core_graphics.html#af20a09bef40353962f8af187b0ca2a93", null ],
     [ "CoreGraphics::BufferFlush", "namespace_core_graphics.html#a46e838f3c96de7782a5cef64e590adb4", null ],
     [ "CoreGraphics::BufferGetByteSize", "namespace_core_graphics.html#ac6e13070751d0091c66e1e389e4dd9f4", null ],
@@ -21,8 +21,8 @@ var vkbuffer_8cc =
     [ "CoreGraphics::BufferSparseGetPageSize", "namespace_core_graphics.html#a84a7efbf263bce5405112adb0747af18", null ],
     [ "CoreGraphics::BufferSparseMakeResident", "namespace_core_graphics.html#a36b3084401e3964c9fe1997625223ed1", null ],
     [ "CoreGraphics::BufferUnmap", "namespace_core_graphics.html#ab3f34ed09e59cda9795bfb52397ec122", null ],
-    [ "CoreGraphics::BufferUpdate", "namespace_core_graphics.html#a1d04d4e290e85eaae03bcbac4f579b91", null ],
-    [ "CoreGraphics::BufferUpload", "namespace_core_graphics.html#a26cd09613a3eaea39325bed85306739a", null ],
+    [ "CoreGraphics::BufferUpdate", "namespace_core_graphics.html#a645c40019484cc787a072447f65aef17", null ],
+    [ "CoreGraphics::BufferUpload", "namespace_core_graphics.html#a01995baeda2315ced5afa2652ef6079f", null ],
     [ "CoreGraphics::CreateBuffer", "namespace_core_graphics.html#a4db4487de9d70ebbdb1ed39e752b5309", null ],
     [ "CoreGraphics::DestroyBuffer", "namespace_core_graphics.html#ac6e728397762cdbbf468f5f474207357", null ],
     [ "Vulkan::bufferAllocator", "namespace_vulkan.html#a3d15a80259875b607528737d449b2a87", null ],

@@ -116,7 +116,7 @@ var namespace_vulkan =
     [ "__ImplementSingleton", "namespace_vulkan.html#a21114b5c282be51d1853e444d8c519bc", null ],
     [ "__ImplementSingleton", "namespace_vulkan.html#a9302e7a46091f6cd7002a70df5e1c791", null ],
     [ "__ImplementSingleton", "namespace_vulkan.html#a457410d6e00dae9ad0fea899624d8eb2", null ],
-    [ "AllocateMemory", "namespace_vulkan.html#a1ebb92e5f374901a2665eca3c775bbcd", null ],
+    [ "AllocateMemory", "namespace_vulkan.html#a8a8dd6915b0e234bc4fa27e2a6f3338c", null ],
     [ "AllocateMemory", "namespace_vulkan.html#a88ad874a9f4913b57f2617644ec20af1", null ],
     [ "AllocateMemory", "namespace_vulkan.html#a9011a204d25cdee2b190eda374b1c1ac", null ],
     [ "BarrierGetVk", "namespace_vulkan.html#af9d89422145215753c0362bbeddae4bc", null ],

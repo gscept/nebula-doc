@@ -8,7 +8,7 @@ var searchData=
   ['randomfloat_5',['RandomFloat',['../namespace_util.html#ae237b3ce33a6eea3f5e7c7155b48f545',1,'Util']]],
   ['randomfloatntp_6',['RandomFloatNTP',['../namespace_util.html#a642cdeaf4c99cb9df42f40f245c6f07e',1,'Util']]],
   ['randxor_7',['randxor',['../namespace_math.html#abccf568637b8fb07f228698de34cdcc4',1,'Math']]],
-  ['rangeallocator_8',['RangeAllocator',['../class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f',1,'Memory::RangeAllocator::RangeAllocator()'],['../class_memory_1_1_range_allocator.html#aa6a0387994eef32907ee3536f066f2db',1,'Memory::RangeAllocator::RangeAllocator(uint size, SizeT maxNumAllocs)']]],
+  ['rangeallocator_8',['RangeAllocator',['../class_memory_1_1_range_allocator.html#a0d61f260aa375b7611c9a14734c41a8f',1,'Memory::RangeAllocator::RangeAllocator()'],['../class_memory_1_1_range_allocator.html#afc8b5635350c22a2185327ec906a351c',1,'Memory::RangeAllocator::RangeAllocator(size_t size, SizeT maxNumAllocs)']]],
   ['rangeallocatornode_9',['RangeAllocatorNode',['../struct_memory_1_1_range_allocator_1_1_range_allocator_node.html#aa98cbcce9fdcf339ed5c276e5bdf636c',1,'Memory::RangeAllocator::RangeAllocatorNode']]],
   ['raw_10',['Raw',['../class_ti_xml_text.html#ae7cd12ab07ba4835256f8979132cdc76',1,'TiXmlText::Raw()'],['../class_http_1_1_html_page_writer.html#a19d1095f002fd767bd410ea81c2940b4',1,'Http::HtmlPageWriter::Raw()']]],
   ['ray_11',['Ray',['../struct_im3d_1_1_ray.html#abd7ef0cea37d20745340e57baa76fca7',1,'Im3d::Ray::Ray()'],['../struct_im3d_1_1_ray.html#af545f0d5afc9d31932e0b04a6f88508f',1,'Im3d::Ray::Ray(const Vec3 &amp;_origin, const Vec3 &amp;_direction)'],['../struct_mathf_1_1_ray.html#a6130f66ffc96cefc49f825c7758c7961',1,'Mathf.Ray.Ray()']]],

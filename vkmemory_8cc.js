@@ -1,6 +1,6 @@
 var vkmemory_8cc =
 [
-    [ "Vulkan::AllocateMemory", "namespace_vulkan.html#a1ebb92e5f374901a2665eca3c775bbcd", null ],
+    [ "Vulkan::AllocateMemory", "namespace_vulkan.html#a8a8dd6915b0e234bc4fa27e2a6f3338c", null ],
     [ "Vulkan::AllocateMemory", "namespace_vulkan.html#a88ad874a9f4913b57f2617644ec20af1", null ],
     [ "Vulkan::AllocateMemory", "namespace_vulkan.html#a9011a204d25cdee2b190eda374b1c1ac", null ],
     [ "CoreGraphics::DiscardMemoryPools", "namespace_core_graphics.html#a088e9232651624ec224562b65d5f4720", null ],

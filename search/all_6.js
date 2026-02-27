@@ -607,7 +607,7 @@ var searchData=
   ['freenodeiterator_604',['freeNodeIterator',['../class_memory_1_1_range_allocator.html#aa3265fc664e967b0acd4259020cf4410',1,'Memory::RangeAllocator']]],
   ['freenodes_605',['freeNodes',['../class_memory_1_1_range_allocator.html#adac2fc7246da52d5a045da181cd466c4',1,'Memory::RangeAllocator']]],
   ['freepartitions_606',['freePartitions',['../class_mem_db_1_1_table.html#a3ad67c67e198bb2bf35b631c46432305',1,'MemDb::Table']]],
-  ['freestorage_607',['freeStorage',['../class_memory_1_1_range_allocator.html#ac4daf378313faa04030d21f69b6b98e4',1,'Memory::RangeAllocator']]],
+  ['freestorage_607',['freeStorage',['../class_memory_1_1_range_allocator.html#adf067035fcf6d80903285b2fe88121a7',1,'Memory::RangeAllocator']]],
   ['freetail_608',['freeTail',['../class_threading_1_1_lock_free_queue.html#ab5abc3d0dc7a069af7f65a220e6bcba8',1,'Threading::LockFreeQueue']]],
   ['freeuploads_609',['FreeUploads',['../namespace_core_graphics.html#a5a271cc9cb05151bdb2c2003c0709035',1,'CoreGraphics']]],
   ['freevalues_610',['freeValues',['../class_util_1_1_fixed_pool.html#a23af237e480378d2d79e9c2fa1031253',1,'Util::FixedPool']]],
