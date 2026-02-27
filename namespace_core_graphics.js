@@ -676,7 +676,6 @@ var namespace_core_graphics =
     [ "DelayedDeleteTlas", "namespace_core_graphics.html#ab9968336794619b9a0de63f3bce6b11b", null ],
     [ "DelayedFreeMemory", "namespace_core_graphics.html#ad0cde60f22ae803f0e981db0e0b29544", null ],
     [ "DeleteShader", "namespace_core_graphics.html#a5680a0c80fafb8c6e935aea92e6af5ed", null ],
-    [ "DeleteTexture", "namespace_core_graphics.html#a27c5668c8f2f7619b99dec24a36d3fe6", null ],
     [ "DestroyBarrier", "namespace_core_graphics.html#a5ef880bff8bd6c660a0956880c133787", null ],
     [ "DestroyBlas", "namespace_core_graphics.html#aaa837496fdb0025c96105b6e6241552a", null ],
     [ "DestroyBlasInstance", "namespace_core_graphics.html#a4979d59d9dd84483b11dff5f23cef3de", null ],

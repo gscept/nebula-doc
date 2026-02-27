@@ -2,7 +2,6 @@ var vktexture_8cc =
 [
     [ "CoreGraphics::_IMPL_ACQUIRE_RELEASE", "namespace_core_graphics.html#a6dd00d464c5e422fa60cbcbd43fe196d", null ],
     [ "CoreGraphics::CreateTexture", "namespace_core_graphics.html#afd701776510676d10ed7784f494fdc98", null ],
-    [ "CoreGraphics::DeleteTexture", "namespace_core_graphics.html#a27c5668c8f2f7619b99dec24a36d3fe6", null ],
     [ "CoreGraphics::DestroyTexture", "namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],
     [ "N_DECLARE_COUNTER", "vktexture_8cc.html#a2de630b16ec2c0fdc6fef88395296ac2", null ],
     [ "Vulkan::SetupSparse", "namespace_vulkan.html#af7f656ea311c15b8b8634cc6c38ebfa7", null ],

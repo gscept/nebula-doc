@@ -1,6 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"posixsysteminfo_8cc.html":[10,0,0,3,17,3,7],
 "posixsysteminfo_8h.html":[10,0,0,3,17,3,8],
 "posixsysteminfo_8h_source.html":[10,0,0,3,17,3,8],
 "posixthread_8cc.html":[10,0,0,3,18,5,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX118 =
 "safequeue_8h.html":[10,0,0,3,18,19],
 "safequeue_8h_source.html":[10,0,0,3,18,19],
 "sampler_8h.html":[10,0,0,7,5,65],
-"sampler_8h_source.html":[10,0,0,7,5,65]
+"sampler_8h_source.html":[10,0,0,7,5,65],
+"sampletype_8cc.html":[10,0,0,7,4,27]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"struct_mathf_1_1_quaternion.html#a7afdf4591a353afc579692ad8fd226a3":[9,0,43,9,2],
 "struct_mathf_1_1_quaternion.html#a80cfd02bbf189d3883fb13c4dc9b6892":[8,0,47,9,11],
 "struct_mathf_1_1_quaternion.html#a80cfd02bbf189d3883fb13c4dc9b6892":[9,0,43,9,11],
 "struct_mathf_1_1_quaternion.html#a880859e5729fe3bf2f4bb83b21fcf755":[8,0,47,9,55],
@@ -249,5 +248,6 @@ var NAVTREEINDEX143 =
 "struct_mathf_1_1_vector2.html#a55b33ccb03d4f5f8b123ef8480b2b5e8":[9,0,43,12,14],
 "struct_mathf_1_1_vector2.html#a565af51dbf0bb7ac776f04e3f15ac377":[8,0,47,12,53],
 "struct_mathf_1_1_vector2.html#a565af51dbf0bb7ac776f04e3f15ac377":[9,0,43,12,53],
-"struct_mathf_1_1_vector2.html#a5a24dffb2a1fda499d8f18776d37927d":[8,0,47,12,48]
+"struct_mathf_1_1_vector2.html#a5a24dffb2a1fda499d8f18776d37927d":[8,0,47,12,48],
+"struct_mathf_1_1_vector2.html#a5a24dffb2a1fda499d8f18776d37927d":[9,0,43,12,48]
 };

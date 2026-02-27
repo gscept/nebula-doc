@@ -1,6 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"namespace_vulkan.html#ac4a93bc3374d5332a037c4c60de74dd4":[8,0,91,252],
 "namespace_vulkan.html#ac8820489c1d4ddc8aca28742c44ce1fe":[8,0,91,257],
 "namespace_vulkan.html#ac9580c2d974260214b73b4cb8a64eb48":[8,0,91,143],
 "namespace_vulkan.html#aca389733d0f7df9ee92188174cc9dab2":[8,0,91,146],
@@ -249,5 +248,6 @@ var NAVTREEINDEX116 =
 "nvx3streamreader_8h_source.html":[10,0,0,7,5,49],
 "objectref_8cc.html":[10,0,0,3,18,14],
 "objectref_8h.html":[10,0,0,3,18,15],
-"objectref_8h_source.html":[10,0,0,3,18,15]
+"objectref_8h_source.html":[10,0,0,3,18,15],
+"occupancyquadtree_8h.html":[10,0,0,7,25,0]
 };

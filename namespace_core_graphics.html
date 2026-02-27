@@ -1617,7 +1617,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ab6c0b800ef8452cac45073e44c852e55" id="r_ab6c0b800ef8452cac45073e44c852e55"><td class="memItemLeft">CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight"><a class="el" href="#ab6c0b800ef8452cac45073e44c852e55">ShaderGetShaderProgram</a> (const <a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> shaderId, const <a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a> mask)</td></tr>
 <tr class="memitem:a6dd00d464c5e422fa60cbcbd43fe196d" id="r_a6dd00d464c5e422fa60cbcbd43fe196d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6dd00d464c5e422fa60cbcbd43fe196d">_IMPL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a>, <a class="el" href="namespace_vulkan.html#a19c465c022826df01bb020e63a04c672">textureAllocator</a>)</td></tr>
 <tr class="memitem:a5ef4a623d97c2a3c08936f5a8973db5c" id="r_a5ef4a623d97c2a3c08936f5a8973db5c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5ef4a623d97c2a3c08936f5a8973db5c">SetupTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memitem:a27c5668c8f2f7619b99dec24a36d3fe6" id="r_a27c5668c8f2f7619b99dec24a36d3fe6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a27c5668c8f2f7619b99dec24a36d3fe6">DeleteTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:a5e38b0756a22c26d8f97b9118849c787" id="r_a5e38b0756a22c26d8f97b9118849c787"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5e38b0756a22c26d8f97b9118849c787">TextureSparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> source)</td></tr>
 <tr class="memitem:a942e4bf5458de8f1c518f3996e79a6c6" id="r_a942e4bf5458de8f1c518f3996e79a6c6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a942e4bf5458de8f1c518f3996e79a6c6">TextureSparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &amp;region, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf)</td></tr>
 <tr class="memitem:ac99809c6722630ed7f23ec192b50a817" id="r_ac99809c6722630ed7f23ec192b50a817"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac99809c6722630ed7f23ec192b50a817">TextureSparseUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> mip, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> layer, char *buf)</td></tr>
@@ -7595,23 +7594,6 @@ template&lt;class TYPE&gt; </div>
           <td class="memname">void CoreGraphics::DeleteShader </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_shader_id.html">ShaderId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a27c5668c8f2f7619b99dec24a36d3fe6" name="a27c5668c8f2f7619b99dec24a36d3fe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27c5668c8f2f7619b99dec24a36d3fe6">&#9670;&#160;</a></span>DeleteTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CoreGraphics::DeleteTexture </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

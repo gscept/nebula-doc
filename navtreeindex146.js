@@ -1,6 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"struct_mathf_1_1_vector4.html#aa7604981d17262fe164361ec7e358002":[9,0,43,14,103],
 "struct_mathf_1_1_vector4.html#aaae400371708e898a369bc3276c2a403":[8,0,47,14,1],
 "struct_mathf_1_1_vector4.html#aaae400371708e898a369bc3276c2a403":[9,0,43,14,1],
 "struct_mathf_1_1_vector4.html#aafd766488ef773a32effb96c0fb79998":[8,0,47,14,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX146 =
 "struct_models_1_1_model_context_1_1_node_instance_state.html#ad546b0eee6202d11c735d6e7d86018a7":[9,0,47,4,0,5],
 "struct_models_1_1_model_context_1_1_node_instance_state.html#adb0371b420cd7d620d8108a001e3ed79":[8,0,51,4,0,3],
 "struct_models_1_1_model_context_1_1_node_instance_state.html#adb0371b420cd7d620d8108a001e3ed79":[9,0,47,4,0,3],
-"struct_models_1_1_model_create_info.html":[8,0,51,3]
+"struct_models_1_1_model_create_info.html":[8,0,51,3],
+"struct_models_1_1_model_create_info.html":[9,0,47,3]
 };
