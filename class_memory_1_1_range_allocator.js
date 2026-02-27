@@ -12,7 +12,7 @@ var class_memory_1_1_range_allocator =
     [ "Dealloc", "class_memory_1_1_range_allocator.html#ae1436f45cf48b9bcbb02e751916fc878", null ],
     [ "Empty", "class_memory_1_1_range_allocator.html#aa24d1617e2a3fdcaffe6ad6951245cc0", null ],
     [ "IndexFromSize", "class_memory_1_1_range_allocator.html#ab0981337b7f76f16842473610dc80c78", null ],
-    [ "InsertNode", "class_memory_1_1_range_allocator.html#a36e193c4935f3fa5662f3f7a5f18a976", null ],
+    [ "InsertNode", "class_memory_1_1_range_allocator.html#a88f5d8082da9d0d63cb2f68249f40b9b", null ],
     [ "RemoveNode", "class_memory_1_1_range_allocator.html#a1c2d86f230113a91da4302c2ad6a5154", null ],
     [ "binHeads", "class_memory_1_1_range_allocator.html#aec574fbfb1e01364f02774cfccbc988e", null ],
     [ "binMasks", "class_memory_1_1_range_allocator.html#abdcd3fc9da676f6ac1cb1cb380233ac5", null ],
