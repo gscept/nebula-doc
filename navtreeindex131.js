@@ -1,8 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"struct_game_1_1_game_server_1_1_state.html#ae1ea1fd157c273f628dafbe8690e6350":[8,0,25,31,0,2],
-"struct_game_1_1_game_server_1_1_state.html#ae1ea1fd157c273f628dafbe8690e6350":[9,0,23,30,0,2],
-"struct_game_1_1_message_1_1_message_queue_id.html":[8,0,25,35,0],
 "struct_game_1_1_message_1_1_message_queue_id.html":[9,0,23,34,0],
 "struct_game_1_1_message_listener.html":[8,0,25,34],
 "struct_game_1_1_message_listener.html":[9,0,23,33],
@@ -249,5 +246,8 @@ var NAVTREEINDEX131 =
 "struct_ids_1_1_id.html#a203ad78e73d3e9aabd358aa51a31833a":[8,0,32,0,15],
 "struct_ids_1_1_id.html#a203ad78e73d3e9aabd358aa51a31833a":[9,0,30,0,15],
 "struct_ids_1_1_id.html#a2273519f70ee5f438f5900469b05f91b":[8,0,32,0,2],
-"struct_ids_1_1_id.html#a2273519f70ee5f438f5900469b05f91b":[9,0,30,0,2]
+"struct_ids_1_1_id.html#a2273519f70ee5f438f5900469b05f91b":[9,0,30,0,2],
+"struct_ids_1_1_id.html#a3ba2967e3666879f1caf25472dc8154c":[8,0,32,0,3],
+"struct_ids_1_1_id.html#a3ba2967e3666879f1caf25472dc8154c":[9,0,30,0,3],
+"struct_ids_1_1_id.html#a530ca47940feee5e65b973f007b24b13":[8,0,32,0,1]
 };
