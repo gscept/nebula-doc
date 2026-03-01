@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"displaydevicebase_8cc.html":[10,0,0,7,5,0,0],
+"displaydevicebase_8h.html":[10,0,0,7,5,0,1],
 "displaydevicebase_8h_source.html":[10,0,0,7,5,0,1],
 "displayevent_8h.html":[10,0,0,7,5,22],
 "displayevent_8h_source.html":[10,0,0,7,5,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "frameblit_8h.html":[10,0,0,7,9,5],
 "frameblit_8h_source.html":[10,0,0,7,9,5],
 "framecode_8cc.html":[10,0,0,7,9,6],
-"framecode_8h.html":[10,0,0,7,9,7],
-"framecode_8h_source.html":[10,0,0,7,9,7],
-"framecompute_8cc.html":[10,0,0,7,9,8]
+"framecode_8h.html":[10,0,0,7,9,7]
 };

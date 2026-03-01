@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[8,0,13,6,0],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[9,0,12,5,0],
 "struct_core_graphics_1_1_tlas_id.html":[8,0,13,7],
 "struct_core_graphics_1_1_tlas_id.html":[9,0,12,6],
 "struct_core_graphics_1_1_vertex_alloc.html":[8,0,13,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html":[9,0,21,8,4],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[8,0,23,8,4,2],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[9,0,21,8,4,2],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[8,0,23,8,4,1],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[9,0,21,8,4,1],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a9b9ccc16dd7bfbd5a89901f199bb063d":[8,0,23,8,4,3]
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[8,0,23,8,4,1]
 };

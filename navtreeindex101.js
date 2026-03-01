@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"linuxthreadid_8h_source.html":[10,0,0,3,18,3,5],
+"linuxthreadlocaldata_8cc.html":[10,0,0,3,18,3,6],
 "linuxthreadlocaldata_8h.html":[10,0,0,3,18,3,7],
 "linuxthreadlocaldata_8h_source.html":[10,0,0,3,18,3,7],
 "linuxthreadlocalptr_8cc.html":[10,0,0,3,18,3,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "namespace_base_game_feature.html#a7f3f97f04b2d5d90e6f1506d236a6e2e":[8,0,6,3],
 "namespace_base_game_feature.html#aa871baa711e7f7e229097861d228dc81":[8,0,6,2],
 "namespace_characters.html":[8,0,7],
-"namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b":[8,0,7,17],
-"namespace_characters.html#a0fdb8ac30689d89e9e4a49a1b120a8ef":[8,0,7,27],
-"namespace_characters.html#a21e80b2d8993ce540b525aa8e7c7390a":[8,0,7,21]
+"namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b":[8,0,7,17]
 };

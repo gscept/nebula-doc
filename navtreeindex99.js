@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"gamepad_8cc.html":[10,0,0,4,0,3],
+"gamepad_8h.html":[10,0,0,4,0,4],
 "gamepad_8h_source.html":[10,0,0,4,0,4],
 "gamepadbase_8cc.html":[10,0,0,4,0,0,0],
 "gamepadbase_8h.html":[10,0,0,4,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "idgenerationpool_8cc.html":[10,0,0,3,7,2],
 "idgenerationpool_8h.html":[10,0,0,3,7,3],
 "idgenerationpool_8h.html#a3705c11faf63267819a2e6db6b39b26c":[10,0,0,3,7,3,6],
-"idgenerationpool_8h.html#a476384ecf2a4f9c60d479a6f535d4cdd":[10,0,0,3,7,3,1],
-"idgenerationpool_8h.html#aa37ff74213f6f654147d18c2648a9f51":[10,0,0,3,7,3,7],
-"idgenerationpool_8h.html#ac96779ecc1480bc8eaf0cb3fb3131549":[10,0,0,3,7,3,5]
+"idgenerationpool_8h.html#a476384ecf2a4f9c60d479a6f535d4cdd":[10,0,0,3,7,3,1]
 };
