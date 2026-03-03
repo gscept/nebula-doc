@@ -13,6 +13,6 @@ var namespace_graphics_feature =
     [ "DeregisterDecal", "namespace_graphics_feature.html#ab0bfb40a185d2a59084a4c1ee6635ff5", null ],
     [ "DeregisterLight", "namespace_graphics_feature.html#a91f0367616e0ee630b36f8f8536904a7", null ],
     [ "DeregisterModelEntity", "namespace_graphics_feature.html#a3970d9c01daef3582c895e23b0702add", null ],
-    [ "RegisterModelEntity", "namespace_graphics_feature.html#a83287cbffa3ebdd55938489814758c30", null ],
+    [ "RegisterModelEntity", "namespace_graphics_feature.html#a9f4adbef120a17261b8bdb6873e0fd03", null ],
     [ "UpdateCameraSettings", "namespace_graphics_feature.html#ad63588a7f122e271f3464ef574315be0", null ]
 ];

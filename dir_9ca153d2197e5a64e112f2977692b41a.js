@@ -17,8 +17,6 @@ var dir_9ca153d2197e5a64e112f2977692b41a =
     [ "graphicsentity.h", "graphicsentity_8h.html", "graphicsentity_8h" ],
     [ "graphicsserver.cc", "graphicsserver_8cc.html", "graphicsserver_8cc" ],
     [ "graphicsserver.h", "graphicsserver_8h.html", "graphicsserver_8h" ],
-    [ "stage.cc", "stage_8cc.html", "stage_8cc" ],
-    [ "stage.h", "stage_8h.html", "stage_8h" ],
     [ "view.cc", "view_8cc.html", "view_8cc" ],
     [ "view.h", "view_8h.html", "view_8h" ]
 ];

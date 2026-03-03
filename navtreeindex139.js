@@ -1,7 +1,5 @@
 var NAVTREEINDEX139 =
 {
-"struct_math_1_1vec4.html#a95b15e3fa02bbd8c3487f0d6ca8ec3be":[9,0,42,34,3],
-"struct_math_1_1vec4.html#a9760a63d9d1d9fc5013ba2ecf7ea5229":[8,0,46,34,7],
 "struct_math_1_1vec4.html#a9760a63d9d1d9fc5013ba2ecf7ea5229":[9,0,42,34,7],
 "struct_math_1_1vec4.html#a98e888c2b4b525a4dd60f679200be15f":[8,0,46,34,18],
 "struct_math_1_1vec4.html#a98e888c2b4b525a4dd60f679200be15f":[9,0,42,34,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX139 =
 "struct_mathf_1_1_color.html#a062a7347ff2427df94e5a8ca1695bac6":[9,0,43,3,70],
 "struct_mathf_1_1_color.html#a07672efca7026d9a8522437431661f7c":[8,0,47,3,102],
 "struct_mathf_1_1_color.html#a07672efca7026d9a8522437431661f7c":[9,0,43,3,102],
-"struct_mathf_1_1_color.html#a081bab11aa68b8699a4872445ec275c3":[8,0,47,3,78]
+"struct_mathf_1_1_color.html#a081bab11aa68b8699a4872445ec275c3":[8,0,47,3,78],
+"struct_mathf_1_1_color.html#a081bab11aa68b8699a4872445ec275c3":[9,0,43,3,78],
+"struct_mathf_1_1_color.html#a0be4ae5cc02cd27106f4078fda3e3d05":[8,0,47,3,74]
 };

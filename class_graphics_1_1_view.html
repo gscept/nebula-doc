@@ -95,8 +95,8 @@ $(function(){initNavTree('class_graphics_1_1_view.html','','class_graphics_1_1_v
 
 <p><code>#include &lt;<a class="el" href="view_8h_source.html">view.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A view describes a camera which can observe a <a class="el" href="class_graphics_1_1_stage.html" title="A stage contains a list of graphics entities, which can be rendered through a View.">Stage</a>. </p>
-<p>The view processes the attached <a class="el" href="class_graphics_1_1_stage.html" title="A stage contains a list of graphics entities, which can be rendered through a View.">Stage</a> through its FrameScript each frame.</p>
+<div class="textblock"><p>A view describes a camera which can observe a Stage. </p>
+<p>The view processes the attached Stage through its FrameScript each frame.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2017-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abfd3e47ce771dcb570444094948d4503"><td class="mdescLeft">&#160;</td><td class="mdescRight">set camera  <br /></td></tr>
 <tr class="memitem:a146ee32ff912da640a7ccb3ebdcafc26" id="r_a146ee32ff912da640a7ccb3ebdcafc26"><td class="memItemLeft">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a146ee32ff912da640a7ccb3ebdcafc26">GetCamera</a> ()</td></tr>
 <tr class="memdesc:a146ee32ff912da640a7ccb3ebdcafc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">get camera  <br /></td></tr>
-<tr class="memitem:a50500cf4042e1781b57feb0954ed2485" id="r_a50500cf4042e1781b57feb0954ed2485"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a50500cf4042e1781b57feb0954ed2485">SetStage</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt; &amp;<a class="el" href="#a8f911f3dc82bb97e9ac62251686a9d98">stage</a>)</td></tr>
-<tr class="memdesc:a50500cf4042e1781b57feb0954ed2485"><td class="mdescLeft">&#160;</td><td class="mdescRight">set stage  <br /></td></tr>
-<tr class="memitem:a9a3aaa7db58d57499641de1d1bb76561" id="r_a9a3aaa7db58d57499641de1d1bb76561"><td class="memItemLeft">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9a3aaa7db58d57499641de1d1bb76561">GetStage</a> () const</td></tr>
-<tr class="memdesc:a9a3aaa7db58d57499641de1d1bb76561"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stage  <br /></td></tr>
+<tr class="memitem:a2b25a5b577df7c361f7367545587d2f1" id="r_a2b25a5b577df7c361f7367545587d2f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2b25a5b577df7c361f7367545587d2f1">SetStageMask</a> (const uint16_t stage)</td></tr>
+<tr class="memdesc:a2b25a5b577df7c361f7367545587d2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set stage  <br /></td></tr>
+<tr class="memitem:a6fe2e77ef4f6bd75b336e7accf73e6ae" id="r_a6fe2e77ef4f6bd75b336e7accf73e6ae"><td class="memItemLeft">const uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a6fe2e77ef4f6bd75b336e7accf73e6ae">GetStageMask</a> () const</td></tr>
+<tr class="memdesc:a6fe2e77ef4f6bd75b336e7accf73e6ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stage  <br /></td></tr>
 <tr class="memitem:a1e77efacc918b49831794b5507a741aa" id="r_a1e77efacc918b49831794b5507a741aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1e77efacc918b49831794b5507a741aa">IsEnabled</a> () const</td></tr>
 <tr class="memdesc:a1e77efacc918b49831794b5507a741aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether view is enabled  <br /></td></tr>
 <tr class="memitem:ac3f08e027802c1a9befdd8910fb0586e" id="r_ac3f08e027802c1a9befdd8910fb0586e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac3f08e027802c1a9befdd8910fb0586e">Enable</a> ()</td></tr>
@@ -164,9 +164,9 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ab6c673a849db191a76331e25e980917c" id="r_ab6c673a849db191a76331e25e980917c"><td class="memItemLeft"><a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab6c673a849db191a76331e25e980917c">viewport</a></td></tr>
+<tr class="memitem:aea1e8db604b084a38d86574772a6e753" id="r_aea1e8db604b084a38d86574772a6e753"><td class="memItemLeft">uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#aea1e8db604b084a38d86574772a6e753">stageMask</a></td></tr>
 <tr class="memitem:a105124d96ad21f3851fb3ef93ff21276" id="r_a105124d96ad21f3851fb3ef93ff21276"><td class="memItemLeft">bool(*&#160;</td><td class="memItemRight"><a class="el" href="#a105124d96ad21f3851fb3ef93ff21276">func</a> )(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;<a class="el" href="#ab6c673a849db191a76331e25e980917c">viewport</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
 <tr class="memitem:a4b5bfeda37071171e731676696b7e646" id="r_a4b5bfeda37071171e731676696b7e646"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4b5bfeda37071171e731676696b7e646">camera</a></td></tr>
-<tr class="memitem:a8f911f3dc82bb97e9ac62251686a9d98" id="r_a8f911f3dc82bb97e9ac62251686a9d98"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8f911f3dc82bb97e9ac62251686a9d98">stage</a></td></tr>
 <tr class="memitem:abf43df2f8f5382d171c07b0b734fed43" id="r_abf43df2f8f5382d171c07b0b734fed43"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abf43df2f8f5382d171c07b0b734fed43">enabled</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
@@ -336,8 +336,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a3aaa7db58d57499641de1d1bb76561" name="a9a3aaa7db58d57499641de1d1bb76561"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3aaa7db58d57499641de1d1bb76561">&#9670;&#160;</a></span>GetStage()</h2>
+<a id="a6fe2e77ef4f6bd75b336e7accf73e6ae" name="a6fe2e77ef4f6bd75b336e7accf73e6ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe2e77ef4f6bd75b336e7accf73e6ae">&#9670;&#160;</a></span>GetStageMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,7 +346,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt; &amp; Graphics::View::GetStage </td>
+          <td class="memname">const uint16_t Graphics::View::GetStageMask </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -499,8 +499,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a50500cf4042e1781b57feb0954ed2485" name="a50500cf4042e1781b57feb0954ed2485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50500cf4042e1781b57feb0954ed2485">&#9670;&#160;</a></span>SetStage()</h2>
+<a id="a2b25a5b577df7c361f7367545587d2f1" name="a2b25a5b577df7c361f7367545587d2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b25a5b577df7c361f7367545587d2f1">&#9670;&#160;</a></span>SetStageMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,9 +509,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Graphics::View::SetStage </td>
+          <td class="memname">void Graphics::View::SetStageMask </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_stage.html">Stage</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stage</em></span></td><td>)</td>
+          <td class="paramtype">const uint16_t</td>          <td class="paramname"><span class="paramname"><em>stage</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -662,8 +662,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f911f3dc82bb97e9ac62251686a9d98" name="a8f911f3dc82bb97e9ac62251686a9d98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f911f3dc82bb97e9ac62251686a9d98">&#9670;&#160;</a></span>stage</h2>
+<a id="aea1e8db604b084a38d86574772a6e753" name="aea1e8db604b084a38d86574772a6e753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea1e8db604b084a38d86574772a6e753">&#9670;&#160;</a></span>stageMask</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,7 +672,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_stage.html">Stage</a>&gt; Graphics::View::stage</td>
+          <td class="memname">uint16_t Graphics::View::stageMask</td>
         </tr>
       </table>
   </td>

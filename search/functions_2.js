@@ -69,7 +69,7 @@ var searchData=
   ['binindex_66',['BinIndex',['../struct_memory_1_1_range_allocator_1_1_bin_index.html#ac87f156b400ea2ec613902ee09471f0d',1,'Memory::RangeAllocator::BinIndex']]],
   ['binmask_67',['BinMask',['../namespace_memory.html#a11c64a388fa13ededed8f8ab3d9084f9',1,'Memory']]],
   ['binmaskroundedup_68',['BinMaskRoundedUp',['../namespace_memory.html#ad6169f43eeeceab9e348dd4562284db6',1,'Memory']]],
-  ['bitfield_69',['BitField',['../class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17',1,'Util::BitField::BitField()'],['../class_util_1_1_bit_field.html#aabb45dde7bce7faba7a5b47853e8ba60',1,'Util::BitField::BitField(std::initializer_list&lt; unsigned int &gt; list)'],['../class_util_1_1_bit_field.html#a2f58dfa1d09465a88bfa68b3ab3c2f89',1,'Util::BitField::BitField(const BitField&lt; NUMBITS &gt; &amp;rhs)=default']]],
+  ['bitfield_69',['BitField',['../class_util_1_1_bit_field.html#ab12026b6b7e05428f63072fef9d89b17',1,'Util::BitField::BitField()'],['../class_util_1_1_bit_field.html#aabb45dde7bce7faba7a5b47853e8ba60',1,'Util::BitField::BitField(std::initializer_list&lt; unsigned int &gt; list)'],['../class_util_1_1_bit_field.html#a2f58dfa1d09465a88bfa68b3ab3c2f89',1,'Util::BitField::BitField(const BitField&lt; NUMBITS &gt; &amp;rhs)=default'],['../class_util_1_1_bit_field.html#a526e945a70f2b3508e2b46718cd3f42d',1,'Util::BitField::BitField(const uint64_t mask)']]],
   ['bitmaskconvert_70',['BitmaskConvert',['../namespace_util.html#a8181ea677b3f2874b3ba54b0dcd0a37d',1,'Util']]],
   ['blank_71',['Blank',['../class_ti_xml_text.html#a0fd9005b279def46859b72f336b158da',1,'TiXmlText']]],
   ['blasgetvk_72',['BlasGetVk',['../namespace_vulkan.html#a7a8b624a354cd06aab9b91eec35c74a6',1,'Vulkan']]],

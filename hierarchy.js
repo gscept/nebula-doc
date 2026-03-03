@@ -170,13 +170,13 @@ var hierarchy =
       [ "Ids::IdAllocator< Util::StringAtom, float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplatesGPULang::Entry * >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * > >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, bool >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, uint16_t, bool >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::Array< ParticleSystemRuntime >, Graphics::ContextEntityId, ParticleRuntime, Graphics::GraphicsEntityId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Memory::RangeAllocation, Raytracing::UpdateType, uint, Util::FixedArray< CoreGraphics::BlasId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< TerrainLoadInfo, TerrainRuntimeInfo, TerrainInstanceInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< BiomeSettings >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::TextureId, CoreGraphics::MeshId, uint, IndexT, float, float, VegetationType >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Math::mat4, bool, Graphics::GraphicsEntityId, VisibilityEntityType, VisibilityResultArray, Graphics::GraphicsEntityId, DependencyMode, VisibilityDrawList, Memory::ArenaAllocator< 1024 >, Util::FixedArray< uint64_t >, Util::FixedArray< Math::ClipStatus::Type > >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Math::mat4, bool, Graphics::GraphicsEntityId, VisibilityEntityType, uint16_t, VisibilityResultArray, Graphics::GraphicsEntityId, DependencyMode, VisibilityDrawList, Memory::ArenaAllocator< 1024 >, Util::FixedArray< uint64_t >, Util::FixedArray< Math::ClipStatus::Type > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Graphics::GraphicsEntityId, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Audio::ClipId, Math::point, Math::vector, float, float, float, float, bool, float >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< SoLoud::Wav, uint >", "class_ids_1_1_id_allocator.html", null ],
@@ -1079,7 +1079,6 @@ var hierarchy =
         [ "PhysicsFeature::PhysicsManager", "class_physics_feature_1_1_physics_manager.html", null ]
       ] ],
       [ "Graphics::GraphicsServer", "class_graphics_1_1_graphics_server.html", null ],
-      [ "Graphics::Stage", "class_graphics_1_1_stage.html", null ],
       [ "Graphics::View", "class_graphics_1_1_view.html", null ],
       [ "Http::HttpClientRegistry", "class_http_1_1_http_client_registry.html", null ],
       [ "Http::HttpRequestHandler", "class_http_1_1_http_request_handler.html", [

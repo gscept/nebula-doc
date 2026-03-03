@@ -1,13 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"class_win32_1_1_win32_event.html":[8,0,92,17],
-"class_win32_1_1_win32_event.html":[9,0,78,17],
-"class_win32_1_1_win32_event.html#a0cca656364749be3436c4c523f506a5b":[8,0,92,17,10],
-"class_win32_1_1_win32_event.html#a0cca656364749be3436c4c523f506a5b":[9,0,78,17,10],
-"class_win32_1_1_win32_event.html#a5caa1938f045a6f1541500eeb64d4e45":[8,0,92,17,2],
-"class_win32_1_1_win32_event.html#a5caa1938f045a6f1541500eeb64d4e45":[9,0,78,17,2],
-"class_win32_1_1_win32_event.html#a63359824792fb6dd9e0f5fb95dbbf45d":[8,0,92,17,9],
-"class_win32_1_1_win32_event.html#a63359824792fb6dd9e0f5fb95dbbf45d":[9,0,78,17,9],
 "class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4":[8,0,92,17,1],
 "class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4":[9,0,78,17,1],
 "class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9":[8,0,92,17,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_memory_pool.html":[9,0,78,7],
 "class_win32_1_1_win32_memory_pool.html#a176a51a3a7284f382afc56ca8c43aed3":[8,0,92,7,21],
 "class_win32_1_1_win32_memory_pool.html#a176a51a3a7284f382afc56ca8c43aed3":[9,0,78,7,21],
-"class_win32_1_1_win32_memory_pool.html#a2872d93603af4c4f41a97a4147442c11":[8,0,92,7,20]
+"class_win32_1_1_win32_memory_pool.html#a2872d93603af4c4f41a97a4147442c11":[8,0,92,7,20],
+"class_win32_1_1_win32_memory_pool.html#a2872d93603af4c4f41a97a4147442c11":[9,0,78,7,20],
+"class_win32_1_1_win32_memory_pool.html#a2c8935ba2db6938eddc7583197353365":[8,0,92,7,17],
+"class_win32_1_1_win32_memory_pool.html#a2c8935ba2db6938eddc7583197353365":[9,0,78,7,17],
+"class_win32_1_1_win32_memory_pool.html#a33ae9e58b4819fdcadb4338bfe5372fe":[8,0,92,7,11],
+"class_win32_1_1_win32_memory_pool.html#a33ae9e58b4819fdcadb4338bfe5372fe":[9,0,78,7,11],
+"class_win32_1_1_win32_memory_pool.html#a47cf53b458f122378b12fc0f2871dd15":[8,0,92,7,1],
+"class_win32_1_1_win32_memory_pool.html#a47cf53b458f122378b12fc0f2871dd15":[9,0,78,7,1],
+"class_win32_1_1_win32_memory_pool.html#a5d8e0094ab41a6fe4b923c921f80c9d4":[8,0,92,7,19]
 };

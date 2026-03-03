@@ -1,13 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"class_vulkan_1_1_vk_scheduler.html#a8f53e956d7916429fae4af5336530170":[8,0,91,25,3],
-"class_vulkan_1_1_vk_scheduler.html#a8f53e956d7916429fae4af5336530170":[9,0,77,25,3],
-"class_vulkan_1_1_vk_scheduler.html#a9e95704df16fe82dc44fd66cf3b88fc6":[8,0,91,25,16],
-"class_vulkan_1_1_vk_scheduler.html#a9e95704df16fe82dc44fd66cf3b88fc6":[9,0,77,25,16],
-"class_vulkan_1_1_vk_scheduler.html#a9fd3914a4b09d761194268a78545dc0f":[8,0,91,25,14],
-"class_vulkan_1_1_vk_scheduler.html#a9fd3914a4b09d761194268a78545dc0f":[9,0,77,25,14],
-"class_vulkan_1_1_vk_scheduler.html#aa820a812b14fef17a1cbf0b6ce0b3878":[8,0,91,25,26],
-"class_vulkan_1_1_vk_scheduler.html#aa820a812b14fef17a1cbf0b6ce0b3878":[9,0,77,25,26],
 "class_vulkan_1_1_vk_scheduler.html#aad5668e89f0af2a86e24562fb8d50871":[8,0,91,25,19],
 "class_vulkan_1_1_vk_scheduler.html#aad5668e89f0af2a86e24562fb8d50871":[9,0,77,25,19],
 "class_vulkan_1_1_vk_scheduler.html#abafc81dbaa7cda4c5947225eda7b012b":[8,0,91,25,17],
@@ -249,5 +241,13 @@ var NAVTREEINDEX90 =
 "class_vulkan_1_1_vk_text_renderer.html#ae9d21b020e3dcee8ee90ac76494ea4eb":[8,0,91,37,13],
 "class_vulkan_1_1_vk_text_renderer.html#ae9d21b020e3dcee8ee90ac76494ea4eb":[9,0,77,37,13],
 "class_vulkan_1_1_vk_text_renderer.html#af187dba3384ac9ca7b6c0a3b5f110f1c":[8,0,91,37,4],
-"class_vulkan_1_1_vk_text_renderer.html#af187dba3384ac9ca7b6c0a3b5f110f1c":[9,0,77,37,4]
+"class_vulkan_1_1_vk_text_renderer.html#af187dba3384ac9ca7b6c0a3b5f110f1c":[9,0,77,37,4],
+"class_vulkan_1_1_vk_types.html":[8,0,91,45],
+"class_vulkan_1_1_vk_types.html":[9,0,77,45],
+"class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d":[8,0,91,45,8],
+"class_vulkan_1_1_vk_types.html#a0561e565cc4cf3263675a9ca087ca49d":[9,0,77,45,8],
+"class_vulkan_1_1_vk_types.html#a09778cc9e7e78f0de30bca40fc06c3a4":[8,0,91,45,12],
+"class_vulkan_1_1_vk_types.html#a09778cc9e7e78f0de30bca40fc06c3a4":[9,0,77,45,12],
+"class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880":[8,0,91,45,2],
+"class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880":[9,0,77,45,2]
 };

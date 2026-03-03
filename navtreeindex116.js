@@ -1,5 +1,10 @@
 var NAVTREEINDEX116 =
 {
+"namespace_vulkan.html#ac28fd7610a9cb89f445744d79b1e7bd9":[8,0,91,83],
+"namespace_vulkan.html#ac34810f9221258e1a1db0b8e696216e7":[8,0,91,116],
+"namespace_vulkan.html#ac3e2165bac2d784b9431a57a6c075f6d":[8,0,91,135],
+"namespace_vulkan.html#ac4a93bc3374d5332a037c4c60de74dd4":[8,0,91,252],
+"namespace_vulkan.html#ac8820489c1d4ddc8aca28742c44ce1fe":[8,0,91,257],
 "namespace_vulkan.html#ac9580c2d974260214b73b4cb8a64eb48":[8,0,91,143],
 "namespace_vulkan.html#aca389733d0f7df9ee92188174cc9dab2":[8,0,91,146],
 "namespace_vulkan.html#acc288f307b256fc3aae4a9bab70ce8a9":[8,0,91,111],
@@ -244,10 +249,5 @@ var NAVTREEINDEX116 =
 "nvx3fileformatstructs_8h_source.html":[10,0,0,7,5,47],
 "nvx3streamreader_8cc.html":[10,0,0,7,5,48],
 "nvx3streamreader_8h.html":[10,0,0,7,5,49],
-"nvx3streamreader_8h_source.html":[10,0,0,7,5,49],
-"objectref_8cc.html":[10,0,0,3,18,14],
-"objectref_8h.html":[10,0,0,3,18,15],
-"objectref_8h_source.html":[10,0,0,3,18,15],
-"occupancyquadtree_8h.html":[10,0,0,7,25,0],
-"occupancyquadtree_8h_source.html":[10,0,0,7,25,0]
+"nvx3streamreader_8h_source.html":[10,0,0,7,5,49]
 };

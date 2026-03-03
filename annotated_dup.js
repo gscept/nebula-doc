@@ -493,7 +493,6 @@ var annotated_dup =
       [ "GraphicsEntityId", "struct_graphics_1_1_graphics_entity_id.html", null ],
       [ "FrameContext", "struct_graphics_1_1_frame_context.html", "struct_graphics_1_1_frame_context" ],
       [ "GraphicsServer", "class_graphics_1_1_graphics_server.html", "class_graphics_1_1_graphics_server" ],
-      [ "Stage", "class_graphics_1_1_stage.html", "class_graphics_1_1_stage" ],
       [ "View", "class_graphics_1_1_view.html", "class_graphics_1_1_view" ],
       [ "LightProbeContext", "class_graphics_1_1_light_probe_context.html", "class_graphics_1_1_light_probe_context" ]
     ] ],

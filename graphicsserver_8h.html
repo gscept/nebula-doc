@@ -96,7 +96,6 @@ $(function(){initNavTree('graphicsserver_8h.html','',''); });
 <code>#include &quot;<a class="el" href="framesynctimer_8h_source.html">framesync/framesynctimer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idgenerationpool_8h_source.html">ids/idgenerationpool.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="stage_8h_source.html">stage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsentity_8h_source.html">graphicsentity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsdevice_8h_source.html">coregraphics/graphicsdevice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="displaydevice_8h_source.html">coregraphics/displaydevice.h</a>&quot;</code><br />
@@ -125,12 +124,19 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a58397d37149d05cca58a4a9b450a6e64" id="r_a58397d37149d05cca58a4a9b450a6e64"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a58397d37149d05cca58a4a9b450a6e64">Graphics::GetStageMask</a> (const uint16_t stageIndex)</td></tr>
 <tr class="memitem:a11a61dfd7f732656a09ecd77b4895486" id="r_a11a61dfd7f732656a09ecd77b4895486"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a11a61dfd7f732656a09ecd77b4895486">Graphics::CreateEntity</a> ()</td></tr>
 <tr class="memitem:aff7327d8c202a36f5a8534cd8a0e598b" id="r_aff7327d8c202a36f5a8534cd8a0e598b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#aff7327d8c202a36f5a8534cd8a0e598b">Graphics::DestroyEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60" id="r_ac2d20843571a372465d8dba316e0cc60"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#ac2d20843571a372465d8dba316e0cc60">Graphics::RegisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f" id="r_ae29c9e9fcf92d0cd5e781c7efffd9b0f"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#ae29c9e9fcf92d0cd5e781c7efffd9b0f">Graphics::DeregisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2737a465294a7958b3a05e5b61a12810" id="r_a2737a465294a7958b3a05e5b61a12810"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">Graphics::PRIMARY_STAGE_MASK</a> = 0x1</td></tr>
+<tr class="memitem:a62ad3342d89bba399f66ceab697c624d" id="r_a62ad3342d89bba399f66ceab697c624d"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a62ad3342d89bba399f66ceab697c624d">Graphics::SHADOW_STAGE_MASK</a> = 0x2</td></tr>
+<tr class="memitem:a780aaa72a310643213227d7634ad66b1" id="r_a780aaa72a310643213227d7634ad66b1"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a780aaa72a310643213227d7634ad66b1">Graphics::DEFAULT_STAGE_MASK</a> = <a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="namespace_graphics.html#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

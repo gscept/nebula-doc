@@ -1,13 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"displaydevicebase_8cc.html":[10,0,0,7,5,0,0],
-"displaydevicebase_8h.html":[10,0,0,7,5,0,1],
-"displaydevicebase_8h_source.html":[10,0,0,7,5,0,1],
-"displayevent_8h.html":[10,0,0,7,5,22],
-"displayevent_8h_source.html":[10,0,0,7,5,22],
-"displayeventhandler_8cc.html":[10,0,0,7,5,23],
-"displayeventhandler_8h.html":[10,0,0,7,5,24],
-"displayeventhandler_8h_source.html":[10,0,0,7,5,24],
 "displaymode_8h.html":[10,0,0,7,5,25],
 "displaymode_8h_source.html":[10,0,0,7,5,25],
 "displaypagehandler_8cc.html":[10,0,0,7,5,1,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX97 =
 "frameblit_8h.html":[10,0,0,7,9,5],
 "frameblit_8h_source.html":[10,0,0,7,9,5],
 "framecode_8cc.html":[10,0,0,7,9,6],
-"framecode_8h.html":[10,0,0,7,9,7]
+"framecode_8h.html":[10,0,0,7,9,7],
+"framecode_8h_source.html":[10,0,0,7,9,7],
+"framecompute_8cc.html":[10,0,0,7,9,8],
+"framecompute_8h.html":[10,0,0,7,9,9],
+"framecompute_8h_source.html":[10,0,0,7,9,9],
+"framecopy_8cc.html":[10,0,0,7,9,10],
+"framecopy_8h.html":[10,0,0,7,9,11],
+"framecopy_8h_source.html":[10,0,0,7,9,11],
+"framemipmap_8cc.html":[10,0,0,7,9,14]
 };

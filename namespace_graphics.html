@@ -117,10 +117,8 @@ Classes</h2></td></tr>
 <tr class="memitem:FrameContext" id="r_FrameContext"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_graphics_1_1_frame_context.html">FrameContext</a></td></tr>
 <tr class="memitem:GraphicsServer" id="r_GraphicsServer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_graphics_server.html">GraphicsServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graphics server is the main singleton for the <a class="el" href="namespace_graphics.html" title="Implements the shader server used by Vulkan.">Graphics</a> subsystem.  <a href="class_graphics_1_1_graphics_server.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Stage" id="r_Stage"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_stage.html">Stage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stage contains a list of graphics entities, which can be rendered through a <a class="el" href="class_graphics_1_1_view.html" title="A view describes a camera which can observe a Stage.">View</a>.  <a href="class_graphics_1_1_stage.html#details">More...</a><br /></td></tr>
 <tr class="memitem:View" id="r_View"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_view.html">View</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A view describes a camera which can observe a <a class="el" href="class_graphics_1_1_stage.html" title="A stage contains a list of graphics entities, which can be rendered through a View.">Stage</a>.  <a href="class_graphics_1_1_view.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A view describes a camera which can observe a Stage.  <a href="class_graphics_1_1_view.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LightProbeContext" id="r_LightProbeContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_light_probe_context.html">LightProbeContext</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a light probe component to graphics entities.  <a href="class_graphics_1_1_light_probe_context.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -179,13 +177,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a485c4a3741be5bef49a946394b817640" id="r_a485c4a3741be5bef49a946394b817640"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a485c4a3741be5bef49a946394b817640">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_graphics_display_event_handler.html">Graphics::GraphicsDisplayEventHandler</a>, 'WGEH', <a class="el" href="class_core_graphics_1_1_display_event_handler.html">CoreGraphics::DisplayEventHandler</a>)</td></tr>
 <tr class="memitem:ab25e54000e4b72509be503cc9635b081" id="r_ab25e54000e4b72509be503cc9635b081"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab25e54000e4b72509be503cc9635b081">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>, 'GFXS', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:a591078e2b9fc77c122e1b3e117354302" id="r_a591078e2b9fc77c122e1b3e117354302"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a591078e2b9fc77c122e1b3e117354302">__ImplementSingleton</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>)</td></tr>
+<tr class="memitem:a58397d37149d05cca58a4a9b450a6e64" id="r_a58397d37149d05cca58a4a9b450a6e64"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a58397d37149d05cca58a4a9b450a6e64">GetStageMask</a> (const uint16_t stageIndex)</td></tr>
 <tr class="memitem:a11a61dfd7f732656a09ecd77b4895486" id="r_a11a61dfd7f732656a09ecd77b4895486"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a11a61dfd7f732656a09ecd77b4895486">CreateEntity</a> ()</td></tr>
 <tr class="memitem:aff7327d8c202a36f5a8534cd8a0e598b" id="r_aff7327d8c202a36f5a8534cd8a0e598b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aff7327d8c202a36f5a8534cd8a0e598b">DestroyEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60" id="r_ac2d20843571a372465d8dba316e0cc60"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac2d20843571a372465d8dba316e0cc60">RegisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f" id="r_ae29c9e9fcf92d0cd5e781c7efffd9b0f"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae29c9e9fcf92d0cd5e781c7efffd9b0f">DeregisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memitem:aae660d4d348061c4b17aec169308899f" id="r_aae660d4d348061c4b17aec169308899f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aae660d4d348061c4b17aec169308899f">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_stage.html">Graphics::Stage</a>, 'STAG', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:a3e2ab7341b441a793512f2287ee7c33a" id="r_a3e2ab7341b441a793512f2287ee7c33a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3e2ab7341b441a793512f2287ee7c33a">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>, 'VIEW', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:a7eae413ac63ff9ea24afc48f80ea8fb0" id="r_a7eae413ac63ff9ea24afc48f80ea8fb0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7eae413ac63ff9ea24afc48f80ea8fb0">__ImplementContext</a> (<a class="el" href="class_graphics_1_1_light_probe_context.html">LightProbeContext</a>, <a class="el" href="class_graphics_1_1_light_probe_context.html#a7d0f6c1f242d2461be6814b06fb0ace4">LightProbeContext::lightProbeAllocator</a>)</td></tr>
 </table><table class="memberdecls">
@@ -232,6 +230,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a9a91bcb803fd4bb6abed3cddbb0a0ad7" id="r_a9a91bcb803fd4bb6abed3cddbb0a0ad7"><td class="memItemLeft anon">&#160;&#160;&#160;DirtySet&#160;&#160;&#160;<a class="el" href="#aadda66171635f5ad281f5214130d1134">Graphics::viewConstantsDirty</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac7f1e1c2913a329103ab86832d2c0d6e" id="r_ac7f1e1c2913a329103ab86832d2c0d6e"><td class="memItemLeft anon">&#160;&#160;&#160;DirtySet&#160;&#160;&#160;<a class="el" href="#af5fdc5d0145d2ff98196b0a2b41f479a">Graphics::shadowViewConstantsDirty</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac6b63c6955384a895cae49ee7ba060e7" id="r_ac6b63c6955384a895cae49ee7ba060e7"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#ac6b63c6955384a895cae49ee7ba060e7">globalConstantState</a></td></tr>
+<tr class="memitem:a2737a465294a7958b3a05e5b61a12810" id="r_a2737a465294a7958b3a05e5b61a12810"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> = 0x1</td></tr>
+<tr class="memitem:a62ad3342d89bba399f66ceab697c624d" id="r_a62ad3342d89bba399f66ceab697c624d"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a> = 0x2</td></tr>
+<tr class="memitem:a780aaa72a310643213227d7634ad66b1" id="r_a780aaa72a310643213227d7634ad66b1"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a780aaa72a310643213227d7634ad66b1">DEFAULT_STAGE_MASK</a> = <a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="af1b24cb04cf0a3f0739b066dd7050e9e" name="af1b24cb04cf0a3f0739b066dd7050e9e"></a>
@@ -278,7 +279,7 @@ Variables</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a485c4a3741be5bef49a946394b817640" name="a485c4a3741be5bef49a946394b817640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a485c4a3741be5bef49a946394b817640">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a485c4a3741be5bef49a946394b817640">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,7 +305,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab25e54000e4b72509be503cc9635b081" name="ab25e54000e4b72509be503cc9635b081"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab25e54000e4b72509be503cc9635b081">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25e54000e4b72509be503cc9635b081">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,34 +330,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aae660d4d348061c4b17aec169308899f" name="aae660d4d348061c4b17aec169308899f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae660d4d348061c4b17aec169308899f">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_core.html#a0c671025313676e7d965fe0f944f4e20">Graphics::__ImplementClass</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_graphics_1_1_stage.html">Graphics::Stage</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'STAG'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3e2ab7341b441a793512f2287ee7c33a" name="a3e2ab7341b441a793512f2287ee7c33a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2ab7341b441a793512f2287ee7c33a">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2ab7341b441a793512f2287ee7c33a">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -780,6 +755,31 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="a58397d37149d05cca58a4a9b450a6e64" name="a58397d37149d05cca58a4a9b450a6e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58397d37149d05cca58a4a9b450a6e64">&#9670;&#160;</a></span>GetStageMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t Graphics::GetStageMask </td>
+          <td>(</td>
+          <td class="paramtype">const uint16_t</td>          <td class="paramname"><span class="paramname"><em>stageIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a78119aa0098a40b394fa6cec4791f0b9" name="a78119aa0098a40b394fa6cec4791f0b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78119aa0098a40b394fa6cec4791f0b9">&#9670;&#160;</a></span>GetTickParams()</h2>
 
@@ -1133,6 +1133,28 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="a780aaa72a310643213227d7634ad66b1" name="a780aaa72a310643213227d7634ad66b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780aaa72a310643213227d7634ad66b1">&#9670;&#160;</a></span>DEFAULT_STAGE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t Graphics::DEFAULT_STAGE_MASK = <a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a74411be0c6361031a445c3ba5ab92338" name="a74411be0c6361031a445c3ba5ab92338"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74411be0c6361031a445c3ba5ab92338">&#9670;&#160;</a></span>defaultEnvironmentMap</h2>
 
@@ -1287,6 +1309,28 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="a2737a465294a7958b3a05e5b61a12810" name="a2737a465294a7958b3a05e5b61a12810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2737a465294a7958b3a05e5b61a12810">&#9670;&#160;</a></span>PRIMARY_STAGE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t Graphics::PRIMARY_STAGE_MASK = 0x1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a76e5f57edf2e865d13a24d4efc2e24c4" name="a76e5f57edf2e865d13a24d4efc2e24c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76e5f57edf2e865d13a24d4efc2e24c4">&#9670;&#160;</a></span>r_show_env_params</h2>
 
@@ -1311,6 +1355,28 @@ template&lt;typename ... CONTEXTS&gt; </div>
           <td class="memname">float Graphics::saturation</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62ad3342d89bba399f66ceab697c624d" name="a62ad3342d89bba399f66ceab697c624d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ad3342d89bba399f66ceab697c624d">&#9670;&#160;</a></span>SHADOW_STAGE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t Graphics::SHADOW_STAGE_MASK = 0x2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

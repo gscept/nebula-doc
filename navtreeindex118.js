@@ -1,5 +1,10 @@
 var NAVTREEINDEX118 =
 {
+"posixsysfunc_8cc.html":[10,0,0,3,1,2,1],
+"posixsysfunc_8h.html":[10,0,0,3,1,2,2],
+"posixsysfunc_8h_source.html":[10,0,0,3,1,2,2],
+"posixsysteminfo_8cc.html":[10,0,0,3,17,3,7],
+"posixsysteminfo_8h.html":[10,0,0,3,17,3,8],
 "posixsysteminfo_8h_source.html":[10,0,0,3,17,3,8],
 "posixthread_8cc.html":[10,0,0,3,18,5,5],
 "posixthread_8h.html":[10,0,0,3,18,5,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX118 =
 "safeflag_8h_source.html":[10,0,0,3,18,17],
 "safepriorityqueue_8h.html":[10,0,0,3,18,18],
 "safepriorityqueue_8h_source.html":[10,0,0,3,18,18],
-"safequeue_8h.html":[10,0,0,3,18,19],
-"safequeue_8h_source.html":[10,0,0,3,18,19],
-"sampler_8h.html":[10,0,0,7,5,65],
-"sampler_8h_source.html":[10,0,0,7,5,65],
-"sampletype_8cc.html":[10,0,0,7,4,27],
-"sampletype_8h.html":[10,0,0,7,4,28]
+"safequeue_8h.html":[10,0,0,3,18,19]
 };

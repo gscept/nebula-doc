@@ -1,7 +1,6 @@
 var class_graphics_feature_1_1_graphics_feature_unit =
 [
     [ "~GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html#ace45286aad84d1c3c5e6446a3fbec077", null ],
-    [ "GetDefaultStage", "class_graphics_feature_1_1_graphics_feature_unit.html#abbd9478dfc0b8eea414055ff9ecd04f9", null ],
     [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6cb80e3f50cdada2af3535412a7a7516", null ],
     [ "GetDefaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a71a9bf572ab6715dc4424efeaa4aa271", null ],
     [ "OnActivate", "class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6", null ],
@@ -17,7 +16,6 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "SetWindowTitle", "class_graphics_feature_1_1_graphics_feature_unit.html#a4e2719dd5440a46e691a75a49898b6ad", null ],
     [ "cameraManager", "class_graphics_feature_1_1_graphics_feature_unit.html#aa220ebeecff3629862a5dd25f8a54fe5", null ],
     [ "defaultFrameScript", "class_graphics_feature_1_1_graphics_feature_unit.html#a2be09d3a20469029a35d24fa1b3df3d3", null ],
-    [ "defaultStage", "class_graphics_feature_1_1_graphics_feature_unit.html#a44c7d455b25c62dad5a3ef9d586d35ae", null ],
     [ "defaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6bf8b197de2123b3eba2bc227e508cca", null ],
     [ "defaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a7774ab1f3abc63c43184040c68434943", null ],
     [ "gfxServer", "class_graphics_feature_1_1_graphics_feature_unit.html#a14b82a6c7985431e4ed677633866b4e5", null ],
