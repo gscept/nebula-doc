@@ -14,6 +14,7 @@ var class_win32_1_1_win32_f_s_wrapper =
     [ "GetAppDataDirectory", "class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69", null ],
     [ "GetBinDirectory", "class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be", null ],
     [ "GetCurrentDirectory", "class_win32_1_1_win32_f_s_wrapper.html#a0b32f5676e3e6c18e15907761c868307", null ],
+    [ "GetFileSize", "class_win32_1_1_win32_f_s_wrapper.html#a3de251a2448fb2a909732f2c2fd16f50", null ],
     [ "GetFileSize", "class_win32_1_1_win32_f_s_wrapper.html#ae2ed6ae62e421e04d8d48661a0397a51", null ],
     [ "GetFileWriteTime", "class_win32_1_1_win32_f_s_wrapper.html#a502b72456e1ec67396a61bb2b2323a03", null ],
     [ "GetHomeDirectory", "class_win32_1_1_win32_f_s_wrapper.html#ad488bbc2e0113d94728153df00e416ba", null ],

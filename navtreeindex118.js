@@ -1,5 +1,9 @@
 var NAVTREEINDEX118 =
 {
+"posixsocket_8cc.html":[10,0,0,3,15,0,2],
+"posixsocket_8h.html":[10,0,0,3,15,0,3],
+"posixsocket_8h.html#a14ccfa186c9e3b23f320974992fc8b75":[10,0,0,3,15,0,3,1],
+"posixsocket_8h_source.html":[10,0,0,3,15,0,3],
 "posixsysfunc_8cc.html":[10,0,0,3,1,2,1],
 "posixsysfunc_8h.html":[10,0,0,3,1,2,2],
 "posixsysfunc_8h_source.html":[10,0,0,3,1,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX118 =
 "safefilestream_8cc.html":[10,0,0,3,9,55],
 "safefilestream_8h.html":[10,0,0,3,9,56],
 "safefilestream_8h_source.html":[10,0,0,3,9,56],
-"safeflag_8h.html":[10,0,0,3,18,17],
-"safeflag_8h_source.html":[10,0,0,3,18,17],
-"safepriorityqueue_8h.html":[10,0,0,3,18,18],
-"safepriorityqueue_8h_source.html":[10,0,0,3,18,18],
-"safequeue_8h.html":[10,0,0,3,18,19]
+"safeflag_8h.html":[10,0,0,3,18,17]
 };

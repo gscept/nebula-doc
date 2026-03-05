@@ -1,5 +1,9 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_swapchain_create_info.html#af373e269e9c97e70f02aa69528391706":[8,0,13,129,2],
+"struct_core_graphics_1_1_swapchain_create_info.html#af373e269e9c97e70f02aa69528391706":[9,0,12,128,2],
+"struct_core_graphics_1_1_swapchain_id.html":[8,0,13,128],
+"struct_core_graphics_1_1_swapchain_id.html":[9,0,12,127],
 "struct_core_graphics_1_1_texture_barrier.html":[8,0,13,14],
 "struct_core_graphics_1_1_texture_barrier.html":[9,0,12,13],
 "struct_core_graphics_1_1_texture_barrier.html#a276f32f269719e48f2e0676398cf6988":[8,0,13,14,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_texture_view_create_info.html#af7c9da45b9a97253d649753671a47dee":[8,0,13,144,7],
 "struct_core_graphics_1_1_texture_view_create_info.html#af7c9da45b9a97253d649753671a47dee":[9,0,12,143,7],
 "struct_core_graphics_1_1_texture_view_id.html":[8,0,13,143],
-"struct_core_graphics_1_1_texture_view_id.html":[9,0,12,142],
-"struct_core_graphics_1_1_tlas_create_info.html":[8,0,13,6],
-"struct_core_graphics_1_1_tlas_create_info.html":[9,0,12,5],
-"struct_core_graphics_1_1_tlas_create_info.html#a718eafd3b52ca83d6d402b98f5c5818a":[8,0,13,6,1],
-"struct_core_graphics_1_1_tlas_create_info.html#a718eafd3b52ca83d6d402b98f5c5818a":[9,0,12,5,1]
+"struct_core_graphics_1_1_texture_view_id.html":[9,0,12,142]
 };

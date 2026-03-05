@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"framecopy_8cc.html":[10,0,0,7,9,10],
+"framecopy_8h.html":[10,0,0,7,9,11],
+"framecopy_8h_source.html":[10,0,0,7,9,11],
+"framemipmap_8cc.html":[10,0,0,7,9,14],
 "framemipmap_8h.html":[10,0,0,7,9,15],
 "framemipmap_8h_source.html":[10,0,0,7,9,15],
 "frameop_8cc.html":[10,0,0,7,9,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "gamepad_8cc.html":[10,0,0,4,0,3],
 "gamepad_8h.html":[10,0,0,4,0,4],
 "gamepad_8h_source.html":[10,0,0,4,0,4],
-"gamepadbase_8cc.html":[10,0,0,4,0,0,0],
-"gamepadbase_8h.html":[10,0,0,4,0,0,1],
-"gamepadbase_8h.html#ad761fc433a36d1adba0eb03bda34f047":[10,0,0,4,0,0,1,2],
-"gamepadbase_8h_source.html":[10,0,0,4,0,0,1],
-"gameserver_8cc.html":[10,0,0,1,3,26]
+"gamepadbase_8cc.html":[10,0,0,4,0,0,0]
 };

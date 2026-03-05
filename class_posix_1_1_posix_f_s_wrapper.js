@@ -11,6 +11,7 @@ var class_posix_1_1_posix_f_s_wrapper =
     [ "FileExists", "class_posix_1_1_posix_f_s_wrapper.html#ab9c0705427743bf777870cbea2cde871", null ],
     [ "Flush", "class_posix_1_1_posix_f_s_wrapper.html#a0ba0459155b6dc8baba25d16843a3ff1", null ],
     [ "GetBinDirectory", "class_posix_1_1_posix_f_s_wrapper.html#adbbc9173b6739e438feaa4d6cfd198dc", null ],
+    [ "GetFileSize", "class_posix_1_1_posix_f_s_wrapper.html#a659f253188eae0d6b2ad6256fb3e1471", null ],
     [ "GetFileSize", "class_posix_1_1_posix_f_s_wrapper.html#ad11e07dff0ace33c6145d86af2f19f0c", null ],
     [ "GetFileWriteTime", "class_posix_1_1_posix_f_s_wrapper.html#a338d4d7c2f676b8a29b7797673247325", null ],
     [ "GetHomeDirectory", "class_posix_1_1_posix_f_s_wrapper.html#ae9569650a58ed9fbf7e02801ad8b993d", null ],

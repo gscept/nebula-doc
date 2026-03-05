@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"class_ptr.html#aef4944a6a634a61b108da95ce0f9bcd1":[9,0,147,3],
+"class_quad_tree.html":[9,0,148],
 "class_raytracing_1_1_raytracing_context.html":[8,0,71,1],
 "class_raytracing_1_1_raytracing_context.html":[9,0,63,1],
 "class_raytracing_1_1_raytracing_context.html#a09a8f046cfa0c695469bec8b52075ce3":[8,0,71,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "class_render_util_1_1_free_camera_util.html#acb663d003e0a706dd5d58401b7c779cf":[8,0,73,1,21],
 "class_render_util_1_1_free_camera_util.html#acb663d003e0a706dd5d58401b7c779cf":[9,0,65,1,21],
 "class_render_util_1_1_free_camera_util.html#acfa7840c3252d819b4999ebc76403f3a":[8,0,73,1,8],
-"class_render_util_1_1_free_camera_util.html#acfa7840c3252d819b4999ebc76403f3a":[9,0,65,1,8],
-"class_render_util_1_1_free_camera_util.html#ad9a5820de6b79150bdc4ff3ba0404f62":[8,0,73,1,24],
-"class_render_util_1_1_free_camera_util.html#ad9a5820de6b79150bdc4ff3ba0404f62":[9,0,65,1,24]
+"class_render_util_1_1_free_camera_util.html#acfa7840c3252d819b4999ebc76403f3a":[9,0,65,1,8]
 };
