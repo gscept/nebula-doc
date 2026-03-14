@@ -94,6 +94,7 @@ $(function(){initNavTree('namespacemembers_c.html','',''); });
 <h3 class="doxsection"><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>cachedSunDirection&#160;:&#160;<a class="el" href="namespace_terrain.html#a27cd907187f665a8aa3a5365b7b116c2">Terrain</a></li>
 <li>CachePipeline()&#160;:&#160;<a class="el" href="namespace_vulkan.html#a78cbf414b469b0929fc65f9b1fb992c7">Vulkan</a></li>
+<li>CalculateCSMSplits()&#160;:&#160;<a class="el" href="namespace_lighting.html#a2732d47b1759362d55309f5270c0f158">Lighting</a></li>
 <li>CalculatePerezDistribution()&#160;:&#160;<a class="el" href="namespace_graphics.html#ac96399889b3b370f950dca49c973290b">Graphics</a></li>
 <li>CalculateZenithLuminanceYxy()&#160;:&#160;<a class="el" href="namespace_graphics.html#a1f40e80c6cf2f4c7b7f2d4bdf1f1b306">Graphics</a></li>
 <li>CallableShader&#160;:&#160;<a class="el" href="namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52ba6922439958eb71f78717833d7fa0374c">Vulkan</a></li>
@@ -222,11 +223,11 @@ $(function(){initNavTree('namespacemembers_c.html','',''); });
 <li>CmdSetGraphicsPipeline()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#acceae3e7d1adae86095edfa9c57452dc">CoreGraphics</a></li>
 <li>CmdSetIndexBuffer()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a0d94b2fbab6ca26d19f972f405b2201f">CoreGraphics</a></li>
 <li>CmdSetPrimitiveTopology()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a5226e862b60f3049eabf74456c8994e9">CoreGraphics</a></li>
-<li>CmdSetRayTracingPipeline()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#afc5ef0e21befec1aed797dfc0564537f">CoreGraphics</a></li>
+<li>CmdSetRayTracingPipeline()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#aedf75ba7450fdbcc08aebb0f8450d799">CoreGraphics</a></li>
 <li>CmdSetResourceTable()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a483f369447a6d7a54b82c13020f5ccf8">CoreGraphics</a></li>
 <li>CmdSetScissorRect()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a6ecb4a854ece2a4fbf101ad8127cdbdf">CoreGraphics</a></li>
 <li>CmdSetScissors()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#aaf5ad671d50a0f705fcd33d4eac45987">CoreGraphics</a></li>
-<li>CmdSetShaderProgram()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a28c3c342693b606fb19b6a0db695cbfd">CoreGraphics</a></li>
+<li>CmdSetShaderProgram()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#aece8342ce00b34e96459994bc3987cd6">CoreGraphics</a></li>
 <li>CmdSetStencilReadMask()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a603a87f7d79ec3b27b91b442e830b656">CoreGraphics</a></li>
 <li>CmdSetStencilRef()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a23dd7fac6dac29f8cf2c5dd4e9652e29">CoreGraphics</a></li>
 <li>CmdSetStencilWriteMask()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a56fcbd901182052924e25bb4860b1995">CoreGraphics</a></li>
@@ -310,9 +311,7 @@ $(function(){initNavTree('namespacemembers_c.html','',''); });
 <li>ComponentSetData()&#160;:&#160;<a class="el" href="namespace_scripting_1_1_api.html#a939d2476a20f8ccf89f02bfb5dc902d1">Scripting::Api</a></li>
 <li>ComponentsInFilter()&#160;:&#160;<a class="el" href="namespace_game.html#a70da0079ee1504e3cecf2ac59e23e9b8">Game</a></li>
 <li>Compute&#160;:&#160;<a class="el" href="namespace_materials.html#ad7a6e28085a3dd447558c38d9bc4cf54a75531aab5d4eee18d89e4a697b8e368d">Materials</a></li>
-<li>ComputeAABB()&#160;:&#160;<a class="el" href="namespace_lighting.html#adb9ed6742b33f38d357431832e48077d">Lighting</a></li>
 <li>computeDirty&#160;:&#160;<a class="el" href="namespace_graphics.html#a3c43731d43aabfbcba0a8fdffc642bc7">Graphics</a>, <a class="el" href="namespace_materials.html#a9a2fe8308c947c205a49248b501052a4">Materials</a></li>
-<li>ComputeFrustumPoints()&#160;:&#160;<a class="el" href="namespace_lighting.html#acb47d76ec1f470ab54147272590565e4">Lighting</a></li>
 <li>ComputePipeline&#160;:&#160;<a class="el" href="namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eea8ca44051bb3e98cc92a34ddc08975274">CoreGraphics</a></li>
 <li>ComputeQueueSupport&#160;:&#160;<a class="el" href="namespace_core_graphics.html#aad24b93f2e36b36169fd9b20c3f54b72a0337a6a91045da552f138ca1b2ca3ce0">CoreGraphics</a></li>
 <li>ComputeQueueType&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9a14203e0ebab3eb99d2416d8e8f9ed13a">CoreGraphics</a></li>
@@ -398,13 +397,13 @@ $(function(){initNavTree('namespacemembers_c.html','',''); });
 <li>CreateTimeSource()&#160;:&#160;<a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470">Game::Time</a></li>
 <li>CreateTlas()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a2ba3e383c295b160af9efde6aa63bbe3">CoreGraphics</a></li>
 <li>CreateVertexLayout()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#a82f27ffc999589324aa184ce535eb33b">CoreGraphics</a></li>
+<li>CreateView()&#160;:&#160;<a class="el" href="namespace_graphics.html#aac1b4755ba02fa230dc3450d613d6a99">Graphics</a></li>
 <li>CreateWindow()&#160;:&#160;<a class="el" href="namespace_core_graphics.html#afe20d65b902f713882bfe8f3b8174a96">CoreGraphics</a></li>
 <li>Creation&#160;:&#160;<a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a77079cf547dba1d5a809574ce07a44f2">IO</a></li>
 <li>Cross()&#160;:&#160;<a class="el" href="namespace_im3d.html#adcbfc6385bd3ca45fa4af62c5a4474ea">Im3d</a></li>
 <li>cross()&#160;:&#160;<a class="el" href="namespace_math.html#a039c5f32bd6f10c344b6efd4dfe37c58">Math</a></li>
 <li>cross3()&#160;:&#160;<a class="el" href="namespace_math.html#acf650ae3a0f39867cc6b54cfd3a4a317">Math</a></li>
 <li>CrowsAgentStateToString()&#160;:&#160;<a class="el" href="namespace_navigation.html#a8d7084ca741567754796e69f56eede53">Navigation</a></li>
-<li>csmUtil&#160;:&#160;<a class="el" href="namespace_lighting.html#ab0aaa69cffadc74914be9308b6f7b20c">Lighting</a></li>
 <li>ctx&#160;:&#160;<a class="el" href="namespace_jobs2.html#a5024ab14716e1ca71effa71a87ddca25">Jobs2</a></li>
 <li>CubicFilter&#160;:&#160;<a class="el" href="namespace_core_graphics.html#af58ae851ead53eadb0d199bdcb9d4e07ad919357100ae9b0d383aedb916bcb1cd">CoreGraphics</a></li>
 <li>CullModeFromGPULang()&#160;:&#160;<a class="el" href="namespace_vulkan.html#a8da292adcd83f4a9fe3475826dbc8cd5">Vulkan</a></li>

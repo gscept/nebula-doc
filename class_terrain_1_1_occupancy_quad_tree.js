@@ -12,7 +12,7 @@ var class_terrain_1_1_occupancy_quad_tree =
     [ "RecursiveDeallocate", "class_terrain_1_1_occupancy_quad_tree.html#a205415e0fdf1ee1dd173859b4509b227", null ],
     [ "RecursiveDebugRender", "class_terrain_1_1_occupancy_quad_tree.html#a3e9b389f095f678fbd9c82c37ed4cfc2", null ],
     [ "RecursiveSearch", "class_terrain_1_1_occupancy_quad_tree.html#a5e909263ad83b7d12531230d54054ada", null ],
-    [ "Setup", "class_terrain_1_1_occupancy_quad_tree.html#a62b6e790c5b012c0a860adfdc87b2766", null ],
+    [ "Setup", "class_terrain_1_1_occupancy_quad_tree.html#a87028eb7edbac6b7c845b6484c9fad16", null ],
     [ "allocator", "class_terrain_1_1_occupancy_quad_tree.html#a392fe38de4d365b2a866b78ed9fe6067", null ],
     [ "minSize", "class_terrain_1_1_occupancy_quad_tree.html#a4006f6ecac147a23664a8bb6988dff8b", null ],
     [ "topLevelNodes", "class_terrain_1_1_occupancy_quad_tree.html#a51f78d87b0c54177362157bb4297c3b1", null ]

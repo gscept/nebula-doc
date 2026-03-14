@@ -199,6 +199,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a9d2b600b17f33766e9b360bfd4eb6b63" id="r_a9d2b600b17f33766e9b360bfd4eb6b63"><td class="memItemLeft"><a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9d2b600b17f33766e9b360bfd4eb6b63">skewsymmetric</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;v)</td></tr>
 <tr class="memitem:a9a4a7929a543ac06c867931b4c4976a1" id="r_a9a4a7929a543ac06c867931b4c4976a1"><td class="memItemLeft">__forceinline bool&#160;</td><td class="memItemRight"><a class="el" href="#a9a4a7929a543ac06c867931b4c4976a1">isidentity</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
 <tr class="memitem:a9ba1642f6a661c35eaa9bcdc790c4c46" id="r_a9ba1642f6a661c35eaa9bcdc790c4c46"><td class="memItemLeft">__forceinline <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9ba1642f6a661c35eaa9bcdc790c4c46">determinant</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
+<tr class="memitem:aeb4cbe38460910f2a4c81a04f77624c2" id="r_aeb4cbe38460910f2a4c81a04f77624c2"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb4cbe38460910f2a4c81a04f77624c2">transpose</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
 <tr class="memitem:afe4d5c3096f54cf813284f4ef270ba80" id="r_afe4d5c3096f54cf813284f4ef270ba80"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#afe4d5c3096f54cf813284f4ef270ba80">inverse</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
 <tr class="memitem:ab426d3708ee46161768586a495feaf16" id="r_ab426d3708ee46161768586a495feaf16"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab426d3708ee46161768586a495feaf16">lookatlh</a> (const <a class="el" href="struct_math_1_1point.html">point</a> &amp;eye, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;at, const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;up)</td></tr>
 <tr class="memitem:a5cfd61de2b9a2619eccd9839a1ee9bbb" id="r_a5cfd61de2b9a2619eccd9839a1ee9bbb"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5cfd61de2b9a2619eccd9839a1ee9bbb">lookatrh</a> (const <a class="el" href="struct_math_1_1point.html">point</a> &amp;eye, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;at, const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;up)</td></tr>
@@ -229,7 +230,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a9aa096dd00d03acd7ef9d27c6ac44d0d" id="r_a9aa096dd00d03acd7ef9d27c6ac44d0d"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9aa096dd00d03acd7ef9d27c6ac44d0d">translation</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;t)</td></tr>
 <tr class="memitem:a3eec12d1b9924b3448cd9f0c3073c027" id="r_a3eec12d1b9924b3448cd9f0c3073c027"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3eec12d1b9924b3448cd9f0c3073c027">trs</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;position, const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;rotation, const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;scale)</td></tr>
 <tr class="memdesc:a3eec12d1b9924b3448cd9f0c3073c027"><td class="mdescLeft">&#160;</td><td class="mdescRight">A short hand for creating a TRS (translation, rotation, scale) matrix from pos, rot and scale.  <br /></td></tr>
-<tr class="memitem:aeb4cbe38460910f2a4c81a04f77624c2" id="r_aeb4cbe38460910f2a4c81a04f77624c2"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb4cbe38460910f2a4c81a04f77624c2">transpose</a> (const <a class="el" href="struct_math_1_1mat4.html">mat4</a> &amp;m)</td></tr>
+<tr class="memitem:a9111b00c35f97080b5cf5a039a0708ae" id="r_a9111b00c35f97080b5cf5a039a0708ae"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9111b00c35f97080b5cf5a039a0708ae">lookat</a> (<a class="el" href="struct_math_1_1point.html">point</a> eye, <a class="el" href="struct_math_1_1point.html">point</a> at, <a class="el" href="struct_math_1_1vector.html">vector</a> up)</td></tr>
+<tr class="memitem:ac6cdc53b3884d250eb2e1dceee79b8c1" id="r_ac6cdc53b3884d250eb2e1dceee79b8c1"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac6cdc53b3884d250eb2e1dceee79b8c1">lookto</a> (<a class="el" href="struct_math_1_1point.html">point</a> eye, <a class="el" href="struct_math_1_1vector.html">vector</a> direction, <a class="el" href="struct_math_1_1vector.html">vector</a> up)</td></tr>
+<tr class="memitem:a75c32a6bc9e4e4c894a6130680e0546a" id="r_a75c32a6bc9e4e4c894a6130680e0546a"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a75c32a6bc9e4e4c894a6130680e0546a">perspfov</a> (<a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> fovy, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> aspect, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zn, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zf)</td></tr>
+<tr class="memitem:afbb04fa340c41b23d3c56851538a1999" id="r_afbb04fa340c41b23d3c56851538a1999"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#afbb04fa340c41b23d3c56851538a1999">persp</a> (<a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> w, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> h, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zn, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zf)</td></tr>
+<tr class="memitem:aaec38023e2a735b729baee243ee688f2" id="r_aaec38023e2a735b729baee243ee688f2"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#aaec38023e2a735b729baee243ee688f2">perspoffcenter</a> (<a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> l, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> r, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> b, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> t, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zn, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zf)</td></tr>
+<tr class="memitem:a7a20ced7b9ad690f00d301a3f2b398df" id="r_a7a20ced7b9ad690f00d301a3f2b398df"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7a20ced7b9ad690f00d301a3f2b398df">ortho</a> (<a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> w, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> h, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zn, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zf)</td></tr>
+<tr class="memitem:a51f056b74bf1518135a26a8b599e41ba" id="r_a51f056b74bf1518135a26a8b599e41ba"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a51f056b74bf1518135a26a8b599e41ba">orthooffcenter</a> (<a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> l, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> r, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> b, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> t, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zn, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> zf)</td></tr>
 <tr class="memitem:ae25ca97d65e13a62c089394ede63291a" id="r_ae25ca97d65e13a62c089394ede63291a"><td class="memItemLeft"><a class="el" href="struct_math_1_1vector.html">vector</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae25ca97d65e13a62c089394ede63291a">get_normal</a> (const <a class="el" href="struct_math_1_1plane.html">plane</a> &amp;<a class="el" href="struct_math_1_1plane.html">plane</a>)</td></tr>
 <tr class="memitem:a25f7aa73ce6c2adc8dfcf7bd59c0ba06" id="r_a25f7aa73ce6c2adc8dfcf7bd59c0ba06"><td class="memItemLeft"><a class="el" href="struct_math_1_1point.html">point</a>&#160;</td><td class="memItemRight"><a class="el" href="#a25f7aa73ce6c2adc8dfcf7bd59c0ba06">get_point</a> (const <a class="el" href="struct_math_1_1plane.html">plane</a> &amp;<a class="el" href="struct_math_1_1plane.html">plane</a>)</td></tr>
 <tr class="memitem:a2c4dc0f72919dd333a1ba0353ddc7091" id="r_a2c4dc0f72919dd333a1ba0353ddc7091"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2c4dc0f72919dd333a1ba0353ddc7091">intersectline</a> (const <a class="el" href="struct_math_1_1plane.html">plane</a> &amp;<a class="el" href="struct_math_1_1plane.html">plane</a>, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;startPoint, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;endPoint, <a class="el" href="struct_math_1_1point.html">point</a> &amp;outIntersectPoint)</td></tr>
@@ -3873,6 +3880,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9111b00c35f97080b5cf5a039a0708ae" name="a9111b00c35f97080b5cf5a039a0708ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9111b00c35f97080b5cf5a039a0708ae">&#9670;&#160;</a></span>lookat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::lookat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">point</a></td>          <td class="paramname"><span class="paramname"><em>eye</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">point</a></td>          <td class="paramname"><span class="paramname"><em>at</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vector.html">vector</a></td>          <td class="paramname"><span class="paramname"><em>up</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab426d3708ee46161768586a495feaf16" name="ab426d3708ee46161768586a495feaf16"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab426d3708ee46161768586a495feaf16">&#9670;&#160;</a></span>lookatlh()</h2>
 
@@ -3919,6 +3952,32 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>up</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6cdc53b3884d250eb2e1dceee79b8c1" name="ac6cdc53b3884d250eb2e1dceee79b8c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cdc53b3884d250eb2e1dceee79b8c1">&#9670;&#160;</a></span>lookto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::lookto </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">point</a></td>          <td class="paramname"><span class="paramname"><em>eye</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vector.html">vector</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1vector.html">vector</a></td>          <td class="paramname"><span class="paramname"><em>up</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5846,6 +5905,37 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a7a20ced7b9ad690f00d301a3f2b398df" name="a7a20ced7b9ad690f00d301a3f2b398df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a20ced7b9ad690f00d301a3f2b398df">&#9670;&#160;</a></span>ortho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::ortho </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>w</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1f207474dabe8da4f09a8b4647d4da1d" name="a1f207474dabe8da4f09a8b4647d4da1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f207474dabe8da4f09a8b4647d4da1d">&#9670;&#160;</a></span>ortholh()</h2>
 
@@ -5861,6 +5951,47 @@ template&lt;&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51f056b74bf1518135a26a8b599e41ba" name="a51f056b74bf1518135a26a8b599e41ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f056b74bf1518135a26a8b599e41ba">&#9670;&#160;</a></span>orthooffcenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::orthooffcenter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>l</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6067,6 +6198,37 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="afbb04fa340c41b23d3c56851538a1999" name="afbb04fa340c41b23d3c56851538a1999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb04fa340c41b23d3c56851538a1999">&#9670;&#160;</a></span>persp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::persp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>w</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a276fb0e689d95eadee35b134d79b4a66" name="a276fb0e689d95eadee35b134d79b4a66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a276fb0e689d95eadee35b134d79b4a66">&#9670;&#160;</a></span>perspective_div()</h2>
 
@@ -6078,6 +6240,37 @@ template&lt;&gt; </div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75c32a6bc9e4e4c894a6130680e0546a" name="a75c32a6bc9e4e4c894a6130680e0546a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c32a6bc9e4e4c894a6130680e0546a">&#9670;&#160;</a></span>perspfov()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::perspfov </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>fovy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>aspect</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6161,6 +6354,47 @@ template&lt;&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>zf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaec38023e2a735b729baee243ee688f2" name="aaec38023e2a735b729baee243ee688f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec38023e2a735b729baee243ee688f2">&#9670;&#160;</a></span>perspoffcenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__forceinline <a class="el" href="struct_math_1_1mat4.html">mat4</a> Math::perspoffcenter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>l</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

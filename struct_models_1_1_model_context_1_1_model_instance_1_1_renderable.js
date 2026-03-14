@@ -9,6 +9,7 @@ var struct_models_1_1_model_context_1_1_model_instance_1_1_renderable =
     [ "nodeMaterialTemplates", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a022c0ad2b379ec33755b2317b8fefba9", null ],
     [ "nodeMeshes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a426fe5dd07f53ca469f359d1858fe6e8", null ],
     [ "nodePrimitiveGroup", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#ada93af2db76debb392cc9a27d9c497c8", null ],
+    [ "nodePrimitiveGroupIndex", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a1d7412a3e899bd6cd3cc1c1888a6b71e", null ],
     [ "nodes", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a68b591718415e256729e5a4d06c83d58", null ],
     [ "nodeSortId", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#aa983038e523ee8e2708f070ca9e8ff9c", null ],
     [ "nodeSpecialData", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html#a67d8647d53961ef790da3c01255e094a", null ],

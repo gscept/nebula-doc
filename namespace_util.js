@@ -28,6 +28,7 @@ var namespace_util =
     [ "KeyValuePair", "class_util_1_1_key_value_pair.html", "class_util_1_1_key_value_pair" ],
     [ "List", "class_util_1_1_list.html", "class_util_1_1_list" ],
     [ "LocalStringAtomTable", "class_util_1_1_local_string_atom_table.html", "class_util_1_1_local_string_atom_table" ],
+    [ "OccupancyQuadTree", "class_util_1_1_occupancy_quad_tree.html", "class_util_1_1_occupancy_quad_tree" ],
     [ "PinnedArray", "class_util_1_1_pinned_array.html", "class_util_1_1_pinned_array" ],
     [ "PriorityArray", "class_util_1_1_priority_array.html", "class_util_1_1_priority_array" ],
     [ "QuadTree", "class_util_1_1_quad_tree.html", "class_util_1_1_quad_tree" ],

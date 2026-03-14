@@ -1,23 +1,28 @@
 var class_graphics_1_1_camera_context =
 [
-    [ "CameraAllocator", "class_graphics_1_1_camera_context.html#aa64d3fb17b5e826ce941ae727b25938f", null ],
+    [ "CameraAllocator", "class_graphics_1_1_camera_context.html#a9feb9133ccc6dfa5e8234c3148207d57", null ],
     [ "CameraContext", "class_graphics_1_1_camera_context.html#a2db88644454b692fcfe33ecb3fcd8b39", null ],
     [ "~CameraContext", "class_graphics_1_1_camera_context.html#a0062d3da85fb7253cac2ad5208917a13", null ],
     [ "__DeclareContext", "class_graphics_1_1_camera_context.html#ab03cf4136df0e57405ba55d9ecc36fb1", null ],
+    [ "AddLODCamera", "class_graphics_1_1_camera_context.html#abdb63e0729c1be80964da4442ad49eec", null ],
     [ "Alloc", "class_graphics_1_1_camera_context.html#ae2eecb2f6c7946c313043e30005423e0", null ],
     [ "Create", "class_graphics_1_1_camera_context.html#a15435fc5535f92a3a8f6f8db49920909", null ],
     [ "Dealloc", "class_graphics_1_1_camera_context.html#ada9c35f84fbdffa5a597d53e34dfd6b8", null ],
     [ "GetLODCamera", "class_graphics_1_1_camera_context.html#a89cf59fc13b5ca26c4702d3cebcdf6cf", null ],
+    [ "GetLODCameras", "class_graphics_1_1_camera_context.html#af4632fe8f4fd4234be1b78b9f83f4ea4", null ],
     [ "GetProjection", "class_graphics_1_1_camera_context.html#a9a7f75cb858ec5b50e3ce81c61e8d693", null ],
     [ "GetSettings", "class_graphics_1_1_camera_context.html#a2a539130af8f0f6a42fac938471dc3b7", null ],
+    [ "GetStageMask", "class_graphics_1_1_camera_context.html#a3b709ac8f39afa2cba8c4bb596ab94a1", null ],
     [ "GetTransform", "class_graphics_1_1_camera_context.html#a0324c9d153a8220bd1d3b8997c441aaf", null ],
     [ "GetView", "class_graphics_1_1_camera_context.html#a1eede3d740a84b45c49f83c5b645014e", null ],
     [ "GetViewProjection", "class_graphics_1_1_camera_context.html#a53f1745ab49eb13947674fe264a6d299", null ],
+    [ "RemoveLODCamera", "class_graphics_1_1_camera_context.html#ab38000d34085caedfcb0651ebd970549", null ],
     [ "SetLODCamera", "class_graphics_1_1_camera_context.html#a7231d47347d0fe28492d4c9f9b002097", null ],
-    [ "SetupOrthographic", "class_graphics_1_1_camera_context.html#a95e25dca0496f91258106762b753a8a4", null ],
-    [ "SetupProjectionFov", "class_graphics_1_1_camera_context.html#a6daa4d0d9200f28273a49edd1f85cf05", null ],
+    [ "SetupOrthographic", "class_graphics_1_1_camera_context.html#a7ab61d20c9313510797584f3f478c9c1", null ],
+    [ "SetupProjectionFov", "class_graphics_1_1_camera_context.html#a61892d43eb263a4f039e26d90886a0fa", null ],
     [ "SetView", "class_graphics_1_1_camera_context.html#a3c58916aa68c8c9eb444e1c70775ebd6", null ],
     [ "UpdateCameras", "class_graphics_1_1_camera_context.html#a0275c4108bc68eb0ce2b6bfc01aea9ac", null ],
     [ "cameraAllocator", "class_graphics_1_1_camera_context.html#ac24164f617361d116566eceebda414c4", null ],
-    [ "lodCamera", "class_graphics_1_1_camera_context.html#a52c45fddec99b96caf3a001783b7acdb", null ]
+    [ "lodCamera", "class_graphics_1_1_camera_context.html#a52c45fddec99b96caf3a001783b7acdb", null ],
+    [ "LodCameras", "class_graphics_1_1_camera_context.html#adcf13236590b2c52caa21c100c4a3343", null ]
 ];

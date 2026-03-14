@@ -115,10 +115,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5d46360f6fd33a0a8d2a3528b692eb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup decal context  <br /></td></tr>
 <tr class="memitem:af0d24e5a5f181c4c2a5713be5f6f48b4" id="r_af0d24e5a5f181c4c2a5713be5f6f48b4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#af0d24e5a5f181c4c2a5713be5f6f48b4">Discard</a> ()</td></tr>
 <tr class="memdesc:af0d24e5a5f181c4c2a5713be5f6f48b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard decal context  <br /></td></tr>
-<tr class="memitem:aa32ae7031a90af32bda2b439635e4517" id="r_aa32ae7031a90af32bda2b439635e4517"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa32ae7031a90af32bda2b439635e4517">SetupDecalPBR</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform, const Resources::ResourceId albedo, const Resources::ResourceId normal, const Resources::ResourceId material)</td></tr>
-<tr class="memdesc:aa32ae7031a90af32bda2b439635e4517"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup as albedo-normal-material decal  <br /></td></tr>
-<tr class="memitem:af24b42daa0e43cf32c48820345e7949d" id="r_af24b42daa0e43cf32c48820345e7949d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#af24b42daa0e43cf32c48820345e7949d">SetupDecalEmissive</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform, const Resources::ResourceId emissive)</td></tr>
-<tr class="memdesc:af24b42daa0e43cf32c48820345e7949d"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup as emissive decal  <br /></td></tr>
+<tr class="memitem:a9d32cde5be20fb0507f49e7bc42c2318" id="r_a9d32cde5be20fb0507f49e7bc42c2318"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9d32cde5be20fb0507f49e7bc42c2318">SetupDecalPBR</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform, const Resources::ResourceId albedo, const Resources::ResourceId normal, const Resources::ResourceId material, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>)</td></tr>
+<tr class="memdesc:a9d32cde5be20fb0507f49e7bc42c2318"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup as albedo-normal-material decal  <br /></td></tr>
+<tr class="memitem:a9218457b0aafb0245b0b880b44d6881b" id="r_a9218457b0aafb0245b0b880b44d6881b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9218457b0aafb0245b0b880b44d6881b">SetupDecalEmissive</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform, const Resources::ResourceId emissive, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>)</td></tr>
+<tr class="memdesc:a9218457b0aafb0245b0b880b44d6881b"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup as emissive decal  <br /></td></tr>
 <tr class="memitem:a859e157123eb311569c05a442db7f16e" id="r_a859e157123eb311569c05a442db7f16e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a859e157123eb311569c05a442db7f16e">SetAlbedoTexture</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const Resources::ResourceId albedo)</td></tr>
 <tr class="memdesc:a859e157123eb311569c05a442db7f16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set albedo texture for a PBR decal  <br /></td></tr>
 <tr class="memitem:ae97a6e4ac26f1ed7bedc259733690e58" id="r_ae97a6e4ac26f1ed7bedc259733690e58"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae97a6e4ac26f1ed7bedc259733690e58">SetNormalTexture</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const Resources::ResourceId normal)</td></tr>
@@ -131,8 +131,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:af7cc530ad925baea40660cbe8ea5d780"><td class="mdescLeft">&#160;</td><td class="mdescRight">set transform of decal  <br /></td></tr>
 <tr class="memitem:a7632d92c6741af36ee450e0ae14f3bf4" id="r_a7632d92c6741af36ee450e0ae14f3bf4"><td class="memItemLeft">static <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7632d92c6741af36ee450e0ae14f3bf4">GetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
 <tr class="memdesc:a7632d92c6741af36ee450e0ae14f3bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get transform of decal  <br /></td></tr>
-<tr class="memitem:a8ca875294bf746a35e03fee73822dfb4" id="r_a8ca875294bf746a35e03fee73822dfb4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8ca875294bf746a35e03fee73822dfb4">UpdateViewDependentResources</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:a8ca875294bf746a35e03fee73822dfb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">update view dependent resources  <br /></td></tr>
+<tr class="memitem:adc07d72b48b9e65351736865855475e4" id="r_adc07d72b48b9e65351736865855475e4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#adc07d72b48b9e65351736865855475e4">UpdateDecals</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:adc07d72b48b9e65351736865855475e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">update view dependent resources  <br /></td></tr>
 <tr class="memitem:aa704f7196e335840a7d184aeec3a48f1" id="r_aa704f7196e335840a7d184aeec3a48f1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa704f7196e335840a7d184aeec3a48f1">OnRenderDebug</a> (uint32_t flags)</td></tr>
 <tr class="memdesc:aa704f7196e335840a7d184aeec3a48f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">render debug  <br /></td></tr>
 </table><table class="memberdecls">
@@ -144,6 +144,7 @@ Private Types</h2></td></tr>
 <tr class="memitem:a713b9edd7801b348b2ad735c35cf5a70" id="r_a713b9edd7801b348b2ad735c35cf5a70"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#a713b9edd7801b348b2ad735c35cf5a70a417c4d512f3cefa5577c0f8e8702ffa6">Decal_Transform</a>
 , <a class="el" href="#a713b9edd7801b348b2ad735c35cf5a70a13b383f341a3b36eb8f6a65d83a6f7bb">Decal_Type</a>
 , <a class="el" href="#a713b9edd7801b348b2ad735c35cf5a70a17d7a218d326df8e8194fcf6e54f7849">Decal_TypedId</a>
+, <a class="el" href="#a713b9edd7801b348b2ad735c35cf5a70aa11acf981983d18da49cf91e74c1d14c">Decal_StageMask</a>
  }</td></tr>
 <tr class="memitem:ac14f638227bc520041f7e0fab65275f5" id="r_ac14f638227bc520041f7e0fab65275f5"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#ac14f638227bc520041f7e0fab65275f5a101cfc42e26f6be312f4a1914c1f0e73">DecalPBR_Albedo</a>
 , <a class="el" href="#ac14f638227bc520041f7e0fab65275f5a46432f338eae4b17a9aca22e4d44a26f">DecalPBR_Normal</a>
@@ -151,7 +152,7 @@ Private Types</h2></td></tr>
  }</td></tr>
 <tr class="memitem:a2e434ef9c44ddde244c137dbeae78681" id="r_a2e434ef9c44ddde244c137dbeae78681"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#a2e434ef9c44ddde244c137dbeae78681a6f7279a95848b248f19f0e3732848e35">DecalEmissive_Emissive</a>
  }</td></tr>
-<tr class="memitem:a8e314fc7de3acaf1ef73e7fb3b46ff2b" id="r_a8e314fc7de3acaf1ef73e7fb3b46ff2b"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="#a058eeeedcbaf70bf19edac1402fa3e59">DecalType</a>, <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8e314fc7de3acaf1ef73e7fb3b46ff2b">GenericDecalAllocator</a></td></tr>
+<tr class="memitem:a67e21300960ad66ad67149b0e28110eb" id="r_a67e21300960ad66ad67149b0e28110eb"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="#a058eeeedcbaf70bf19edac1402fa3e59">DecalType</a>, <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a67e21300960ad66ad67149b0e28110eb">GenericDecalAllocator</a></td></tr>
 <tr class="memitem:ab7389d2ab4e3c005da994c3f54bf4cb5" id="r_ab7389d2ab4e3c005da994c3f54bf4cb5"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Resources::ResourceId, Resources::ResourceId, Resources::ResourceId &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab7389d2ab4e3c005da994c3f54bf4cb5">PBRDecalAllocator</a></td></tr>
 <tr class="memitem:aa8e43c27cd9948bf271a8bfa57963f00" id="r_aa8e43c27cd9948bf271a8bfa57963f00"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Resources::ResourceId &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa8e43c27cd9948bf271a8bfa57963f00">EmissiveDecalAllocator</a></td></tr>
 </table><table class="memberdecls">
@@ -168,7 +169,7 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ab38d3073da57bac5bcf0425bfa322849" id="r_ab38d3073da57bac5bcf0425bfa322849"><td class="memItemLeft">static <a class="el" href="#a8e314fc7de3acaf1ef73e7fb3b46ff2b">GenericDecalAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab38d3073da57bac5bcf0425bfa322849">genericDecalAllocator</a></td></tr>
+<tr class="memitem:ab38d3073da57bac5bcf0425bfa322849" id="r_ab38d3073da57bac5bcf0425bfa322849"><td class="memItemLeft">static <a class="el" href="#a67e21300960ad66ad67149b0e28110eb">GenericDecalAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab38d3073da57bac5bcf0425bfa322849">genericDecalAllocator</a></td></tr>
 <tr class="memitem:af42ca17b8a0b38d5f1fa4bdf7f13b83d" id="r_af42ca17b8a0b38d5f1fa4bdf7f13b83d"><td class="memItemLeft">static <a class="el" href="#ab7389d2ab4e3c005da994c3f54bf4cb5">PBRDecalAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#af42ca17b8a0b38d5f1fa4bdf7f13b83d">pbrDecalAllocator</a></td></tr>
 <tr class="memitem:aefc86009c2b744d4464646e8007ef9f5" id="r_aefc86009c2b744d4464646e8007ef9f5"><td class="memItemLeft">static <a class="el" href="#aa8e43c27cd9948bf271a8bfa57963f00">EmissiveDecalAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#aefc86009c2b744d4464646e8007ef9f5">emissiveDecalAllocator</a></td></tr>
 </table><table class="memberdecls">
@@ -203,8 +204,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e314fc7de3acaf1ef73e7fb3b46ff2b" name="a8e314fc7de3acaf1ef73e7fb3b46ff2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e314fc7de3acaf1ef73e7fb3b46ff2b">&#9670;&#160;</a></span>GenericDecalAllocator</h2>
+<a id="a67e21300960ad66ad67149b0e28110eb" name="a67e21300960ad66ad67149b0e28110eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e21300960ad66ad67149b0e28110eb">&#9670;&#160;</a></span>GenericDecalAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +214,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="#a058eeeedcbaf70bf19edac1402fa3e59">DecalType</a>, <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> &gt; <a class="el" href="#a8e314fc7de3acaf1ef73e7fb3b46ff2b">Decals::DecalContext::GenericDecalAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="#a058eeeedcbaf70bf19edac1402fa3e59">DecalType</a>, <a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> &gt; <a class="el" href="#a67e21300960ad66ad67149b0e28110eb">Decals::DecalContext::GenericDecalAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -271,6 +272,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a713b9edd7801b348b2ad735c35cf5a70a417c4d512f3cefa5577c0f8e8702ffa6" name="a713b9edd7801b348b2ad735c35cf5a70a417c4d512f3cefa5577c0f8e8702ffa6"></a>Decal_Transform&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a713b9edd7801b348b2ad735c35cf5a70a13b383f341a3b36eb8f6a65d83a6f7bb" name="a713b9edd7801b348b2ad735c35cf5a70a13b383f341a3b36eb8f6a65d83a6f7bb"></a>Decal_Type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a713b9edd7801b348b2ad735c35cf5a70a17d7a218d326df8e8194fcf6e54f7849" name="a713b9edd7801b348b2ad735c35cf5a70a17d7a218d326df8e8194fcf6e54f7849"></a>Decal_TypedId&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a713b9edd7801b348b2ad735c35cf5a70aa11acf981983d18da49cf91e74c1d14c" name="a713b9edd7801b348b2ad735c35cf5a70aa11acf981983d18da49cf91e74c1d14c"></a>Decal_StageMask&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -744,8 +746,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af24b42daa0e43cf32c48820345e7949d" name="af24b42daa0e43cf32c48820345e7949d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af24b42daa0e43cf32c48820345e7949d">&#9670;&#160;</a></span>SetupDecalEmissive()</h2>
+<a id="a9218457b0aafb0245b0b880b44d6881b" name="a9218457b0aafb0245b0b880b44d6881b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9218457b0aafb0245b0b880b44d6881b">&#9670;&#160;</a></span>SetupDecalEmissive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -766,7 +768,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>emissive</em></span>&#160;)</td>
+          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>emissive</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stageMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -780,8 +787,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa32ae7031a90af32bda2b439635e4517" name="aa32ae7031a90af32bda2b439635e4517"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa32ae7031a90af32bda2b439635e4517">&#9670;&#160;</a></span>SetupDecalPBR()</h2>
+<a id="a9d32cde5be20fb0507f49e7bc42c2318" name="a9d32cde5be20fb0507f49e7bc42c2318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d32cde5be20fb0507f49e7bc42c2318">&#9670;&#160;</a></span>SetupDecalPBR()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -812,7 +819,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
+          <td class="paramtype">const Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>material</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stageMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -826,8 +838,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ca875294bf746a35e03fee73822dfb4" name="a8ca875294bf746a35e03fee73822dfb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ca875294bf746a35e03fee73822dfb4">&#9670;&#160;</a></span>UpdateViewDependentResources()</h2>
+<a id="adc07d72b48b9e65351736865855475e4" name="adc07d72b48b9e65351736865855475e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc07d72b48b9e65351736865855475e4">&#9670;&#160;</a></span>UpdateDecals()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,14 +848,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Decals::DecalContext::UpdateViewDependentResources </td>
+          <td class="memname">void Decals::DecalContext::UpdateDecals </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -890,7 +898,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a8e314fc7de3acaf1ef73e7fb3b46ff2b">DecalContext::GenericDecalAllocator</a> Decals::DecalContext::genericDecalAllocator</td>
+          <td class="memname"><a class="el" href="#a67e21300960ad66ad67149b0e28110eb">DecalContext::GenericDecalAllocator</a> Decals::DecalContext::genericDecalAllocator</td>
         </tr>
       </table>
   </td>

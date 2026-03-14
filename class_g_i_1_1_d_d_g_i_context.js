@@ -12,6 +12,6 @@ var class_g_i_1_1_d_d_g_i_context =
     [ "SetPosition", "class_g_i_1_1_d_d_g_i_context.html#a3a1226e3d18b7b825c812451c74dbe60", null ],
     [ "SetSize", "class_g_i_1_1_d_d_g_i_context.html#a60bc5128796f93b059a8b5ecc8707507", null ],
     [ "SetupVolume", "class_g_i_1_1_d_d_g_i_context.html#a82421d61311fea51e8c143ee1eb6d825", null ],
-    [ "UpdateActiveVolumes", "class_g_i_1_1_d_d_g_i_context.html#a118a0a85e709486e3532853a473d9dba", null ],
+    [ "UpdateActiveVolumes", "class_g_i_1_1_d_d_g_i_context.html#a714dfe3092b715c1e0254bdfee53eb90", null ],
     [ "ddgiVolumeAllocator", "class_g_i_1_1_d_d_g_i_context.html#af2c08668f9d9b397dffdc28a4777a181", null ]
 ];

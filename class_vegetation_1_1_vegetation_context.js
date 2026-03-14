@@ -15,6 +15,6 @@ var class_vegetation_1_1_vegetation_context =
     [ "Setup", "class_vegetation_1_1_vegetation_context.html#a1659a3cf6a1d5059c9c347cf6c57b869", null ],
     [ "SetupGrass", "class_vegetation_1_1_vegetation_context.html#a5c08e054b75c171a97d8792c08230a30", null ],
     [ "SetupMesh", "class_vegetation_1_1_vegetation_context.html#a84c74e2f4682a08b0d1e6d2817be3501", null ],
-    [ "UpdateViewResources", "class_vegetation_1_1_vegetation_context.html#a0f831e199d216292a6939d5961318c4b", null ],
+    [ "UpdateViewResources", "class_vegetation_1_1_vegetation_context.html#a4a61a5e5f529159be2f3950d5f8e87d0", null ],
     [ "vegetationAllocator", "class_vegetation_1_1_vegetation_context.html#aece545d53b113e56f066766510f87d3a", null ]
 ];

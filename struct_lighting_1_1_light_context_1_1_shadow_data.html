@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.16.1"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: /github/workspace/code/render/lighting/csmutil.h File Reference</title>
+		<title>Nebula: Lighting::LightContext::ShadowData Struct Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('csmutil_8h.html','',''); });
+$(function(){initNavTree('struct_lighting_1_1_light_context_1_1_shadow_data.html','','struct_lighting_1_1_light_context_1_1_shadow_data-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -89,61 +89,62 @@ $(function(){initNavTree('csmutil_8h.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">csmutil.h File Reference</div></div>
+  <div class="headertitle"><div class="title">Lighting::LightContext::ShadowData Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="refcounted_8h_source.html">core/refcounted.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="frustum_8h_source.html">math/frustum.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="mat4_8h_source.html">math/mat4.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="graphicsentity_8h_source.html">graphics/graphicsentity.h</a>&quot;</code><br />
-</div>
-<p><a href="csmutil_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:Lighting_3A_3ACSMUtil" id="r_Lighting_3A_3ACSMUtil"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_lighting_1_1_c_s_m_util.html">Lighting::CSMUtil</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class for creating and rendering Cascading Shadow Maps.  <a href="class_lighting_1_1_c_s_m_util.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Lighting_3A_3ACSMUtil_3A_3ACascadeFrustum" id="r_Lighting_3A_3ACSMUtil_3A_3ACascadeFrustum"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html">Lighting::CSMUtil::CascadeFrustum</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:Lighting" id="r_Lighting"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_lighting.html">Lighting</a></td></tr>
-<tr class="memdesc:namespace_lighting"><td class="mdescLeft">&#160;</td><td class="mdescRight">The lighting subsystem allows for attaching light source functionality to a GraphicsEntityId. <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a7fbf1534f9e0f0bfdb86fb928902474c" id="r_a7fbf1534f9e0f0bfdb86fb928902474c"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a7fbf1534f9e0f0bfdb86fb928902474c">FLT_MAX</a>&#160;&#160;&#160;3.402823466e+38F</td></tr>
-<tr class="memitem:a890322b63a2fab56b8ff916c08368df6" id="r_a890322b63a2fab56b8ff916c08368df6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a890322b63a2fab56b8ff916c08368df6">FLT_MIN</a>&#160;&#160;&#160;1.175494351e-38F</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aaa6e519c760b4b1e6639b74d8fc2e9ef" id="r_aaa6e519c760b4b1e6639b74d8fc2e9ef"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight"><a class="el" href="#aaa6e519c760b4b1e6639b74d8fc2e9ef">shadowMap</a></td></tr>
+<tr class="memitem:acbbf799175c50b3c8a1a43f617cbb2a7" id="r_acbbf799175c50b3c8a1a43f617cbb2a7"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#acbbf799175c50b3c8a1a43f617cbb2a7">shadowView</a></td></tr>
+<tr class="memitem:a69c55bd77173c1b423d556314caaefc6" id="r_a69c55bd77173c1b423d556314caaefc6"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a69c55bd77173c1b423d556314caaefc6">shadowPass</a></td></tr>
 </table>
-<a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a7fbf1534f9e0f0bfdb86fb928902474c" name="a7fbf1534f9e0f0bfdb86fb928902474c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fbf1534f9e0f0bfdb86fb928902474c">&#9670;&#160;</a></span>FLT_MAX</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aaa6e519c760b4b1e6639b74d8fc2e9ef" name="aaa6e519c760b4b1e6639b74d8fc2e9ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6e519c760b4b1e6639b74d8fc2e9ef">&#9670;&#160;</a></span>shadowMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLT_MAX&#160;&#160;&#160;3.402823466e+38F</td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> Lighting::LightContext::ShadowData::shadowMap</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a890322b63a2fab56b8ff916c08368df6" name="a890322b63a2fab56b8ff916c08368df6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a890322b63a2fab56b8ff916c08368df6">&#9670;&#160;</a></span>FLT_MIN</h2>
+<a id="a69c55bd77173c1b423d556314caaefc6" name="a69c55bd77173c1b423d556314caaefc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c55bd77173c1b423d556314caaefc6">&#9670;&#160;</a></span>shadowPass</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLT_MIN&#160;&#160;&#160;1.175494351e-38F</td>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> Lighting::LightContext::ShadowData::shadowPass</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<a id="acbbf799175c50b3c8a1a43f617cbb2a7" name="acbbf799175c50b3c8a1a43f617cbb2a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbbf799175c50b3c8a1a43f617cbb2a7">&#9670;&#160;</a></span>shadowView</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> Lighting::LightContext::ShadowData::shadowView</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>/github/workspace/code/render/lighting/<a class="el" href="lightcontext_8h_source.html">lightcontext.h</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -157,7 +158,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a href="dir_933e88acd4f6f83648c4ee8940d06fa2.html">render</a></li><li class="navelem"><a href="dir_768ee4f5bc33f9e2fc60f1898cd79fc7.html">lighting</a></li><li class="navelem"><a href="csmutil_8h.html">csmutil.h</a></li>
+				<li class="navelem"><a href="namespace_lighting.html">Lighting</a></li><li class="navelem"><a href="class_lighting_1_1_light_context.html">LightContext</a></li><li class="navelem"><a href="struct_lighting_1_1_light_context_1_1_shadow_data.html">ShadowData</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

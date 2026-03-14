@@ -17,8 +17,8 @@ var class_raytracing_1_1_raytracing_context =
     [ "ReconstructTopLevelAcceleration", "class_raytracing_1_1_raytracing_context.html#af0982bd7f8ef2e029a7f562954308874", null ],
     [ "SetupMesh", "class_raytracing_1_1_raytracing_context.html#a3ec9845db1721ad3ca60ca130e965e03", null ],
     [ "SetupModel", "class_raytracing_1_1_raytracing_context.html#ac3f84750154a7c8293a6311ee3103b5c", null ],
+    [ "UpdateResources", "class_raytracing_1_1_raytracing_context.html#a9d8cfecfa09421b973734fa4b7f704d1", null ],
     [ "UpdateTransforms", "class_raytracing_1_1_raytracing_context.html#aa0a4d43cf3c4b20727a5be1de34247bd", null ],
-    [ "UpdateViewResources", "class_raytracing_1_1_raytracing_context.html#a6f22ad619c51bf99d8b55f3712aa7495", null ],
     [ "WaitForJobs", "class_raytracing_1_1_raytracing_context.html#a8c641c717248628701352c738171f337", null ],
     [ "raytracingContextAllocator", "class_raytracing_1_1_raytracing_context.html#a6e694e1c5fa01383ffdf6effe1ad538f", null ]
 ];

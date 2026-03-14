@@ -1,7 +1,7 @@
 var class_decals_1_1_decal_context =
 [
     [ "EmissiveDecalAllocator", "class_decals_1_1_decal_context.html#aa8e43c27cd9948bf271a8bfa57963f00", null ],
-    [ "GenericDecalAllocator", "class_decals_1_1_decal_context.html#a8e314fc7de3acaf1ef73e7fb3b46ff2b", null ],
+    [ "GenericDecalAllocator", "class_decals_1_1_decal_context.html#a67e21300960ad66ad67149b0e28110eb", null ],
     [ "PBRDecalAllocator", "class_decals_1_1_decal_context.html#ab7389d2ab4e3c005da994c3f54bf4cb5", null ],
     [ "DecalType", "class_decals_1_1_decal_context.html#a058eeeedcbaf70bf19edac1402fa3e59", [
       [ "PBRDecal", "class_decals_1_1_decal_context.html#a058eeeedcbaf70bf19edac1402fa3e59a2e0023907b8258621ecc86e9b58cb652", null ],
@@ -21,9 +21,9 @@ var class_decals_1_1_decal_context =
     [ "SetMaterialTexture", "class_decals_1_1_decal_context.html#af20a85643b605c541a595608e9b78dd8", null ],
     [ "SetNormalTexture", "class_decals_1_1_decal_context.html#ae97a6e4ac26f1ed7bedc259733690e58", null ],
     [ "SetTransform", "class_decals_1_1_decal_context.html#af7cc530ad925baea40660cbe8ea5d780", null ],
-    [ "SetupDecalEmissive", "class_decals_1_1_decal_context.html#af24b42daa0e43cf32c48820345e7949d", null ],
-    [ "SetupDecalPBR", "class_decals_1_1_decal_context.html#aa32ae7031a90af32bda2b439635e4517", null ],
-    [ "UpdateViewDependentResources", "class_decals_1_1_decal_context.html#a8ca875294bf746a35e03fee73822dfb4", null ],
+    [ "SetupDecalEmissive", "class_decals_1_1_decal_context.html#a9218457b0aafb0245b0b880b44d6881b", null ],
+    [ "SetupDecalPBR", "class_decals_1_1_decal_context.html#a9d32cde5be20fb0507f49e7bc42c2318", null ],
+    [ "UpdateDecals", "class_decals_1_1_decal_context.html#adc07d72b48b9e65351736865855475e4", null ],
     [ "emissiveDecalAllocator", "class_decals_1_1_decal_context.html#aefc86009c2b744d4464646e8007ef9f5", null ],
     [ "genericDecalAllocator", "class_decals_1_1_decal_context.html#ab38d3073da57bac5bcf0425bfa322849", null ],
     [ "pbrDecalAllocator", "class_decals_1_1_decal_context.html#af42ca17b8a0b38d5f1fa4bdf7f13b83d", null ]

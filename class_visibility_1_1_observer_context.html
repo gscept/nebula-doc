@@ -110,10 +110,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8c20c3ad733b5d31cb9763eca02c8d36" id="r_a8c20c3ad733b5d31cb9763eca02c8d36"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8c20c3ad733b5d31cb9763eca02c8d36">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a> entityType, uint16_t stageMask=0xFFFF, bool isOrtho=false)</td></tr>
-<tr class="memdesc:a8c20c3ad733b5d31cb9763eca02c8d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup entity  <br /></td></tr>
-<tr class="memitem:af7162b741d8a1afd0bb5fa577492d8a4" id="r_af7162b741d8a1afd0bb5fa577492d8a4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#af7162b741d8a1afd0bb5fa577492d8a4">MakeDependency</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> a, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> b, const <a class="el" href="namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2">DependencyMode</a> mode)</td></tr>
-<tr class="memdesc:af7162b741d8a1afd0bb5fa577492d8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup a dependency between observers  <br /></td></tr>
+<tr class="memitem:ab563186ceb08001a35254068f6a4deab" id="r_ab563186ceb08001a35254068f6a4deab"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab563186ceb08001a35254068f6a4deab">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a> entityType, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=0xFFFF, bool isOrtho=false)</td></tr>
+<tr class="memdesc:ab563186ceb08001a35254068f6a4deab"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup entity  <br /></td></tr>
 <tr class="memitem:af8a95f6a03913ef59e6f8442cffc80c1" id="r_af8a95f6a03913ef59e6f8442cffc80c1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#af8a95f6a03913ef59e6f8442cffc80c1">RunVisibilityTests</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:af8a95f6a03913ef59e6f8442cffc80c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">run visibility testing  <br /></td></tr>
 <tr class="memitem:a885b4c076f49895bd94bef3264950655" id="r_a885b4c076f49895bd94bef3264950655"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a885b4c076f49895bd94bef3264950655">GenerateDrawLists</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
@@ -149,8 +147,22 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
+<tr class="memitem:aebcadfd04286e0f9c80cec6a3db7d5aa" id="r_aebcadfd04286e0f9c80cec6a3db7d5aa"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <br />
+&#160;&#160;<a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaac7f7a70519085497b1fcbc148f85f975">Observer_IsOrtho</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaaf3347b0bdc73bcd3b45756cc3ca437f5">Observer_EntityId</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaa1b7c193b830fbdf8c4a2da0bdad02e0f">Observer_EntityType</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaaa8d5ff804f4381021e8bf7784f19eea8">Observer_StageMask</a>
+, <br />
+&#160;&#160;<a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaa93847f0c2536a680fc274e79a5ff6045">Observer_ResultArray</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaa76dbf32d9d58938582352b1176c468e5">Observer_DrawList</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaa996acbfd268f9fb45c3004d98060dcb8">Observer_DrawListAllocator</a>
+, <a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaa9bc7f36bc71be00eda82f27e63c094a2">Observer_IndexBuffer</a>
+, <br />
+&#160;&#160;<a class="el" href="#aebcadfd04286e0f9c80cec6a3db7d5aaae824750a9f0d7871b32fa43f46c4db7d">Observer_IndexedClipStatuses</a>
+<br />
+ }</td></tr>
 <tr class="memitem:a02c2e0dab20ecdae6b4a088c3f7f62de" id="r_a02c2e0dab20ecdae6b4a088c3f7f62de"><td class="memItemLeft">typedef <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a02c2e0dab20ecdae6b4a088c3f7f62de">VisibilityResultArray</a></td></tr>
-<tr class="memitem:a68a50426346fe8c92020886d09e23e1b" id="r_a68a50426346fe8c92020886d09e23e1b"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a>, uint16_t, <a class="el" href="#a02c2e0dab20ecdae6b4a088c3f7f62de">VisibilityResultArray</a>, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2">DependencyMode</a>, <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html">VisibilityDrawList</a>, <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; uint64_t &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a68a50426346fe8c92020886d09e23e1b">ObserverAllocator</a></td></tr>
+<tr class="memitem:af7b1cbea9fb9e3c332d1e739f7a08655" id="r_af7b1cbea9fb9e3c332d1e739f7a08655"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>, <a class="el" href="#a02c2e0dab20ecdae6b4a088c3f7f62de">VisibilityResultArray</a>, <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html">VisibilityDrawList</a>, <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 1024 &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; uint64_t &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af7b1cbea9fb9e3c332d1e739f7a08655">ObserverAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -165,7 +177,7 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:af7df75d0d2d251df1852c3a40120228c" id="r_af7df75d0d2d251df1852c3a40120228c"><td class="memItemLeft">static <a class="el" href="#a68a50426346fe8c92020886d09e23e1b">ObserverAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#af7df75d0d2d251df1852c3a40120228c">observerAllocator</a></td></tr>
+<tr class="memitem:af7df75d0d2d251df1852c3a40120228c" id="r_af7df75d0d2d251df1852c3a40120228c"><td class="memItemLeft">static <a class="el" href="#af7b1cbea9fb9e3c332d1e739f7a08655">ObserverAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#af7df75d0d2d251df1852c3a40120228c">observerAllocator</a></td></tr>
 <tr class="memitem:a3b63176bdbd8f445014bd2d692a5459c" id="r_a3b63176bdbd8f445014bd2d692a5459c"><td class="memItemLeft">static <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_visibility_1_1_visibility_system.html">VisibilitySystem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3b63176bdbd8f445014bd2d692a5459c">systems</a></td></tr>
 <tr class="memdesc:a3b63176bdbd8f445014bd2d692a5459c"><td class="mdescLeft">&#160;</td><td class="mdescRight">keep as ordinary array of pointers, no need to have them cache aligned  <br /></td></tr>
 </table><table class="memberdecls">
@@ -202,8 +214,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a68a50426346fe8c92020886d09e23e1b" name="a68a50426346fe8c92020886d09e23e1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68a50426346fe8c92020886d09e23e1b">&#9670;&#160;</a></span>ObserverAllocator</h2>
+<a id="af7b1cbea9fb9e3c332d1e739f7a08655" name="af7b1cbea9fb9e3c332d1e739f7a08655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b1cbea9fb9e3c332d1e739f7a08655">&#9670;&#160;</a></span>ObserverAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +224,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> , bool , <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> , <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a> , uint16_t , <a class="el" href="#a02c2e0dab20ecdae6b4a088c3f7f62de">VisibilityResultArray</a> , <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> , <a class="el" href="namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2">DependencyMode</a> , <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html">VisibilityDrawList</a> , <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;1024&gt; , <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;uint64_t&gt; , <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a>&gt; &gt; <a class="el" href="#a68a50426346fe8c92020886d09e23e1b">Visibility::ObserverContext::ObserverAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; bool , <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> , <a class="el" href="namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a">VisibilityEntityType</a> , <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> , <a class="el" href="#a02c2e0dab20ecdae6b4a088c3f7f62de">VisibilityResultArray</a> , <a class="el" href="struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html">VisibilityDrawList</a> , <a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt;1024&gt; , <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;uint64_t&gt; , <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6">Math::ClipStatus::Type</a>&gt; &gt; <a class="el" href="#af7b1cbea9fb9e3c332d1e739f7a08655">Visibility::ObserverContext::ObserverAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -243,6 +255,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="aebcadfd04286e0f9c80cec6a3db7d5aa" name="aebcadfd04286e0f9c80cec6a3db7d5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebcadfd04286e0f9c80cec6a3db7d5aa">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaac7f7a70519085497b1fcbc148f85f975" name="aebcadfd04286e0f9c80cec6a3db7d5aaac7f7a70519085497b1fcbc148f85f975"></a>Observer_IsOrtho&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaaf3347b0bdc73bcd3b45756cc3ca437f5" name="aebcadfd04286e0f9c80cec6a3db7d5aaaf3347b0bdc73bcd3b45756cc3ca437f5"></a>Observer_EntityId&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaa1b7c193b830fbdf8c4a2da0bdad02e0f" name="aebcadfd04286e0f9c80cec6a3db7d5aaa1b7c193b830fbdf8c4a2da0bdad02e0f"></a>Observer_EntityType&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaaa8d5ff804f4381021e8bf7784f19eea8" name="aebcadfd04286e0f9c80cec6a3db7d5aaaa8d5ff804f4381021e8bf7784f19eea8"></a>Observer_StageMask&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaa93847f0c2536a680fc274e79a5ff6045" name="aebcadfd04286e0f9c80cec6a3db7d5aaa93847f0c2536a680fc274e79a5ff6045"></a>Observer_ResultArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaa76dbf32d9d58938582352b1176c468e5" name="aebcadfd04286e0f9c80cec6a3db7d5aaa76dbf32d9d58938582352b1176c468e5"></a>Observer_DrawList&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaa996acbfd268f9fb45c3004d98060dcb8" name="aebcadfd04286e0f9c80cec6a3db7d5aaa996acbfd268f9fb45c3004d98060dcb8"></a>Observer_DrawListAllocator&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaa9bc7f36bc71be00eda82f27e63c094a2" name="aebcadfd04286e0f9c80cec6a3db7d5aaa9bc7f36bc71be00eda82f27e63c094a2"></a>Observer_IndexBuffer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aebcadfd04286e0f9c80cec6a3db7d5aaae824750a9f0d7871b32fa43f46c4db7d" name="aebcadfd04286e0f9c80cec6a3db7d5aaae824750a9f0d7871b32fa43f46c4db7d"></a>Observer_IndexedClipStatuses&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -569,42 +615,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af7162b741d8a1afd0bb5fa577492d8a4" name="af7162b741d8a1afd0bb5fa577492d8a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7162b741d8a1afd0bb5fa577492d8a4">&#9670;&#160;</a></span>MakeDependency()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visibility::ObserverContext::MakeDependency </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_visibility.html#a47a876bcf3d8720e03cfb89ec39a04d2">DependencyMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>setup a dependency between observers </p>
-
-</div>
-</div>
 <a id="ad39d8381fc455ab56f7b2f0bd9a95890" name="ad39d8381fc455ab56f7b2f0bd9a95890"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad39d8381fc455ab56f7b2f0bd9a95890">&#9670;&#160;</a></span>OnRenderDebug()</h2>
 
@@ -659,8 +669,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c20c3ad733b5d31cb9763eca02c8d36" name="a8c20c3ad733b5d31cb9763eca02c8d36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c20c3ad733b5d31cb9763eca02c8d36">&#9670;&#160;</a></span>Setup()</h2>
+<a id="ab563186ceb08001a35254068f6a4deab" name="ab563186ceb08001a35254068f6a4deab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab563186ceb08001a35254068f6a4deab">&#9670;&#160;</a></span>Setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -681,7 +691,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>stageMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0xFFFF</span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stageMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0xFFFF</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -871,7 +881,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a68a50426346fe8c92020886d09e23e1b">ObserverContext::ObserverAllocator</a> Visibility::ObserverContext::observerAllocator</td>
+          <td class="memname"><a class="el" href="#af7b1cbea9fb9e3c332d1e739f7a08655">ObserverContext::ObserverAllocator</a> Visibility::ObserverContext::observerAllocator</td>
         </tr>
       </table>
   </td>

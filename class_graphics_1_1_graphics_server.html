@@ -101,11 +101,6 @@ $(function(){initNavTree('class_graphics_1_1_graphics_server.html','','class_gra
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a3060456a6b0d2a2a38f883542242f4a3" id="r_a3060456a6b0d2a2a38f883542242f4a3"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">PreViewCallback</a> = void(*)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)</td></tr>
-<tr class="memitem:a72414bd956b35c783b0b8b5ed9d709a5" id="r_a72414bd956b35c783b0b8b5ed9d709a5"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">PostViewCallback</a> = void(*)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d7e3f0b2b39cddc09067e5b31c198b1" id="r_a6d7e3f0b2b39cddc09067e5b31c198b1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6d7e3f0b2b39cddc09067e5b31c198b1">GraphicsServer</a> ()</td></tr>
@@ -122,22 +117,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a25940fa06cd4d669661ece13ffa7c101"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard graphics entity  <br /></td></tr>
 <tr class="memitem:ae06cabcaa05d27d01ec5a96106da2f61" id="r_ae06cabcaa05d27d01ec5a96106da2f61"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae06cabcaa05d27d01ec5a96106da2f61">IsValidGraphicsEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:ae06cabcaa05d27d01ec5a96106da2f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if graphics entity is valid  <br /></td></tr>
-<tr class="memitem:a16cc92b29d110ce3f4ce8771d81bd686" id="r_a16cc92b29d110ce3f4ce8771d81bd686"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a16cc92b29d110ce3f4ce8771d81bd686">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, bool(*)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport, uint16_t stage=<a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a>)</td></tr>
-<tr class="memdesc:a16cc92b29d110ce3f4ce8771d81bd686"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view with a new framescript  <br /></td></tr>
-<tr class="memitem:a15ddd78ef8b116fddf9a33b16b7cf302" id="r_a15ddd78ef8b116fddf9a33b16b7cf302"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a15ddd78ef8b116fddf9a33b16b7cf302">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
-<tr class="memdesc:a15ddd78ef8b116fddf9a33b16b7cf302"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view without a framescript  <br /></td></tr>
-<tr class="memitem:ab77409d2d529ef2d400087451081f716" id="r_ab77409d2d529ef2d400087451081f716"><td class="memItemLeft">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab77409d2d529ef2d400087451081f716">GetView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
-<tr class="memdesc:ab77409d2d529ef2d400087451081f716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view by name.  <br /></td></tr>
-<tr class="memitem:aae0bf5efd2a2f61a3f3cd14a6364e85a" id="r_aae0bf5efd2a2f61a3f3cd14a6364e85a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae0bf5efd2a2f61a3f3cd14a6364e85a">DiscardView</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;view)</td></tr>
-<tr class="memdesc:aae0bf5efd2a2f61a3f3cd14a6364e85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard view  <br /></td></tr>
-<tr class="memitem:a6b0bfe99b36aee2442f6b96d1540d3e6" id="r_a6b0bfe99b36aee2442f6b96d1540d3e6"><td class="memItemLeft">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a6b0bfe99b36aee2442f6b96d1540d3e6">GetCurrentView</a> () const</td></tr>
-<tr class="memdesc:a6b0bfe99b36aee2442f6b96d1540d3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get current view  <br /></td></tr>
-<tr class="memitem:a21c0ce7b323098c4f658ae26f0d6f012" id="r_a21c0ce7b323098c4f658ae26f0d6f012"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a21c0ce7b323098c4f658ae26f0d6f012">SetCurrentView</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;view)</td></tr>
-<tr class="memdesc:a21c0ce7b323098c4f658ae26f0d6f012"><td class="mdescLeft">&#160;</td><td class="mdescRight">set current view (do not use unless you know what you are doing since this is normally handled by the graphicssserver)  <br /></td></tr>
-<tr class="memitem:ad284fcb98833193da7a496bd199067aa" id="r_ad284fcb98833193da7a496bd199067aa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad284fcb98833193da7a496bd199067aa">AddPreViewCall</a> (<a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">PreViewCallback</a> callback)</td></tr>
-<tr class="memdesc:ad284fcb98833193da7a496bd199067aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add callback for rendering before the views are processed.  <br /></td></tr>
-<tr class="memitem:a48621e053443fa4d61428250e6df8950" id="r_a48621e053443fa4d61428250e6df8950"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48621e053443fa4d61428250e6df8950">AddPostViewCall</a> (<a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">PostViewCallback</a> callback)</td></tr>
-<tr class="memdesc:a48621e053443fa4d61428250e6df8950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add callback for rendering after the views are processed.  <br /></td></tr>
+<tr class="memitem:a4bd2f85a3618162f0d6bc4ea47e4306d" id="r_a4bd2f85a3618162f0d6bc4ea47e4306d"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4bd2f85a3618162f0d6bc4ea47e4306d">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name, bool(*renderFunction)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">PRIMARY_STAGE_MASK</a>, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; preViewCallback=nullptr, std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; postViewCallback=nullptr)</td></tr>
+<tr class="memdesc:a4bd2f85a3618162f0d6bc4ea47e4306d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view with a new framescript  <br /></td></tr>
+<tr class="memitem:ac605273a7b08bd60833a28033fde9f93" id="r_ac605273a7b08bd60833a28033fde9f93"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac605273a7b08bd60833a28033fde9f93">CreateView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
+<tr class="memdesc:ac605273a7b08bd60833a28033fde9f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new view without a framescript  <br /></td></tr>
+<tr class="memitem:a56d740eb96fd52573a88ec52f10c24a9" id="r_a56d740eb96fd52573a88ec52f10c24a9"><td class="memItemLeft">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a56d740eb96fd52573a88ec52f10c24a9">GetView</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
+<tr class="memdesc:a56d740eb96fd52573a88ec52f10c24a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view by name.  <br /></td></tr>
+<tr class="memitem:a103004bc2d565445d60df66121b23428" id="r_a103004bc2d565445d60df66121b23428"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a103004bc2d565445d60df66121b23428">DiscardView</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> view)</td></tr>
+<tr class="memdesc:a103004bc2d565445d60df66121b23428"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard view  <br /></td></tr>
+<tr class="memitem:afefb5a3ada7234292ead7252bc06f7d2" id="r_afefb5a3ada7234292ead7252bc06f7d2"><td class="memItemLeft">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#afefb5a3ada7234292ead7252bc06f7d2">GetCurrentView</a> () const</td></tr>
+<tr class="memdesc:afefb5a3ada7234292ead7252bc06f7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get current view  <br /></td></tr>
+<tr class="memitem:adf577afabbc9d7778f8bf7aef0dc30f4" id="r_adf577afabbc9d7778f8bf7aef0dc30f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adf577afabbc9d7778f8bf7aef0dc30f4">SetCurrentView</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> view)</td></tr>
+<tr class="memdesc:adf577afabbc9d7778f8bf7aef0dc30f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set current view (do not use unless you know what you are doing since this is normally handled by the graphicssserver)  <br /></td></tr>
+<tr class="memitem:a6f2acafad5d2c59bb194b59f11c8251f" id="r_a6f2acafad5d2c59bb194b59f11c8251f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f2acafad5d2c59bb194b59f11c8251f">AddEndFrameCall</a> (void(*func)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex))</td></tr>
+<tr class="memdesc:a6f2acafad5d2c59bb194b59f11c8251f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add callback to run just before frame is finished.  <br /></td></tr>
 <tr class="memitem:a20ec791e41638321c070e4c41dc752df" id="r_a20ec791e41638321c070e4c41dc752df"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a20ec791e41638321c070e4c41dc752df">SetResizeCall</a> (void(*)(const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>))</td></tr>
 <tr class="memdesc:a20ec791e41638321c070e4c41dc752df"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> a function to be run when resize.  <br /></td></tr>
 <tr class="memitem:a8b8b71f6297b5b295832d37329be3d19" id="r_a8b8b71f6297b5b295832d37329be3d19"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8b8b71f6297b5b295832d37329be3d19">AddWindow</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> window)</td></tr>
@@ -150,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a60661e4aef7a07edbe0f3663b83713ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup pre game logic graphics calls.  <br /></td></tr>
 <tr class="memitem:a810f979dedc87521cbafeebe9d7de117" id="r_a810f979dedc87521cbafeebe9d7de117"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a810f979dedc87521cbafeebe9d7de117">SetupPostLogicCalls</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a7b763d69e6745e4beb2f99ce55ddb448">ViewIndependentCall</a> &gt; &amp;calls)</td></tr>
 <tr class="memdesc:a810f979dedc87521cbafeebe9d7de117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup post game logic graphics calls.  <br /></td></tr>
-<tr class="memitem:a18a0e4728f8e76edf46e61a5a2e05d35" id="r_a18a0e4728f8e76edf46e61a5a2e05d35"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a18a0e4728f8e76edf46e61a5a2e05d35">SetupPreLogicViewCalls</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memitem:a18a0e4728f8e76edf46e61a5a2e05d35" id="r_a18a0e4728f8e76edf46e61a5a2e05d35"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a18a0e4728f8e76edf46e61a5a2e05d35">SetupPreLogicViewCalls</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
 <tr class="memdesc:a18a0e4728f8e76edf46e61a5a2e05d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup per-view calls.  <br /></td></tr>
-<tr class="memitem:ac8e707650f0bc9db677ef048bed24042" id="r_ac8e707650f0bc9db677ef048bed24042"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac8e707650f0bc9db677ef048bed24042">SetupPostLogicViewCalls</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
+<tr class="memitem:ac8e707650f0bc9db677ef048bed24042" id="r_ac8e707650f0bc9db677ef048bed24042"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac8e707650f0bc9db677ef048bed24042">SetupPostLogicViewCalls</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt; &amp;calls)</td></tr>
 <tr class="memdesc:ac8e707650f0bc9db677ef048bed24042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup per-view calls.  <br /></td></tr>
 <tr class="memitem:accff918b4e8f3222833da75787e1cc94" id="r_accff918b4e8f3222833da75787e1cc94"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#accff918b4e8f3222833da75787e1cc94">RunPreLogic</a> ()</td></tr>
 <tr class="memdesc:accff918b4e8f3222833da75787e1cc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run pre-logic calls.  <br /></td></tr>
@@ -217,11 +210,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6810a79144da349709d08a801296ef39" id="r_a6810a79144da349709d08a801296ef39"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_frame_context.html">FrameContext</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6810a79144da349709d08a801296ef39">frameContext</a></td></tr>
 <tr class="memitem:a6a58a7d42845291fa5b9ab1e371dc960" id="r_a6a58a7d42845291fa5b9ab1e371dc960"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_context_function_bundle.html">GraphicsContextFunctionBundle</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6a58a7d42845291fa5b9ab1e371dc960">contexts</a></td></tr>
 <tr class="memitem:a53b0c69e86fd6bec4a31b39af9afcba4" id="r_a53b0c69e86fd6bec4a31b39af9afcba4"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_context_state.html">GraphicsContextState</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a53b0c69e86fd6bec4a31b39af9afcba4">states</a></td></tr>
-<tr class="memitem:a4b9a981722194af0c862e355dd899b26" id="r_a4b9a981722194af0c862e355dd899b26"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4b9a981722194af0c862e355dd899b26">viewsByName</a></td></tr>
-<tr class="memitem:ad4d7e3edab5bec92c6eb801299e589e5" id="r_ad4d7e3edab5bec92c6eb801299e589e5"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad4d7e3edab5bec92c6eb801299e589e5">views</a></td></tr>
-<tr class="memitem:af332b6d381b5d8a8fbafc7a20f62571c" id="r_af332b6d381b5d8a8fbafc7a20f62571c"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af332b6d381b5d8a8fbafc7a20f62571c">currentView</a></td></tr>
-<tr class="memitem:aa29faaa33ae1bbb3811c7c4e60f50747" id="r_aa29faaa33ae1bbb3811c7c4e60f50747"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">PreViewCallback</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa29faaa33ae1bbb3811c7c4e60f50747">preViewCallbacks</a></td></tr>
-<tr class="memitem:a18d85b572eb803cf0113b27ae788b109" id="r_a18d85b572eb803cf0113b27ae788b109"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">PostViewCallback</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a18d85b572eb803cf0113b27ae788b109">postViewCallbacks</a></td></tr>
+<tr class="memitem:a1d5ff951f63d7162d10abd9be73bd1f2" id="r_a1d5ff951f63d7162d10abd9be73bd1f2"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1d5ff951f63d7162d10abd9be73bd1f2">viewsByName</a></td></tr>
+<tr class="memitem:ab8758d122b041947aa24f5cf675a6e33" id="r_ab8758d122b041947aa24f5cf675a6e33"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab8758d122b041947aa24f5cf675a6e33">views</a></td></tr>
+<tr class="memitem:a0ed8ea2e869941000b9b0795f8e952f5" id="r_a0ed8ea2e869941000b9b0795f8e952f5"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0ed8ea2e869941000b9b0795f8e952f5">currentView</a></td></tr>
+<tr class="memitem:afe6415203f4f4dab91a56430ec60d965" id="r_afe6415203f4f4dab91a56430ec60d965"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#afe6415203f4f4dab91a56430ec60d965">preViewCallbacks</a></td></tr>
+<tr class="memitem:aa23c71d86526541e1994f1ce996e0adc" id="r_aa23c71d86526541e1994f1ce996e0adc"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa23c71d86526541e1994f1ce996e0adc">postViewCallbacks</a></td></tr>
+<tr class="memitem:ac347cdd69dced62a60b4849fa459bb95" id="r_ac347cdd69dced62a60b4849fa459bb95"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac347cdd69dced62a60b4849fa459bb95">endFrameCallbacks</a></td></tr>
 <tr class="memitem:afa93b5bb358657a65a560fb187b06314" id="r_afa93b5bb358657a65a560fb187b06314"><td class="memItemLeft">void(*&#160;</td><td class="memItemRight"><a class="el" href="#afa93b5bb358657a65a560fb187b06314">resizeCall</a> )(const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>)</td></tr>
 <tr class="memitem:adcbdd012a3344561567d90504351ea6d" id="r_adcbdd012a3344561567d90504351ea6d"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_core_graphics_1_1_display_device.html">CoreGraphics::DisplayDevice</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adcbdd012a3344561567d90504351ea6d">displayDevice</a></td></tr>
 <tr class="memitem:ac5ee010ecaff55497d7e83275de6746a" id="r_ac5ee010ecaff55497d7e83275de6746a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac5ee010ecaff55497d7e83275de6746a">graphicsDevice</a></td></tr>
@@ -230,8 +224,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac40c55319b31fc4f5861a3fff82e9078" id="r_ac40c55319b31fc4f5861a3fff82e9078"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_core_graphics_1_1_text_renderer.html">CoreGraphics::TextRenderer</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac40c55319b31fc4f5861a3fff82e9078">textRenderer</a></td></tr>
 <tr class="memitem:acac2a01615d0f5a9c11e5855c3aacde2" id="r_acac2a01615d0f5a9c11e5855c3aacde2"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a7b763d69e6745e4beb2f99ce55ddb448">ViewIndependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acac2a01615d0f5a9c11e5855c3aacde2">preLogicCalls</a></td></tr>
 <tr class="memitem:a48d86e4f14a5cc9e9fdb1a9939af962b" id="r_a48d86e4f14a5cc9e9fdb1a9939af962b"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a7b763d69e6745e4beb2f99ce55ddb448">ViewIndependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a48d86e4f14a5cc9e9fdb1a9939af962b">postLogicCalls</a></td></tr>
-<tr class="memitem:a6adc8dc26a03ba5120d929c74701bd42" id="r_a6adc8dc26a03ba5120d929c74701bd42"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6adc8dc26a03ba5120d929c74701bd42">preLogicViewCalls</a></td></tr>
-<tr class="memitem:ad6cb86b97d6f11f23d1b57e4c791627b" id="r_ad6cb86b97d6f11f23d1b57e4c791627b"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad6cb86b97d6f11f23d1b57e4c791627b">postLogicViewCalls</a></td></tr>
+<tr class="memitem:a6adc8dc26a03ba5120d929c74701bd42" id="r_a6adc8dc26a03ba5120d929c74701bd42"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6adc8dc26a03ba5120d929c74701bd42">preLogicViewCalls</a></td></tr>
+<tr class="memitem:ad6cb86b97d6f11f23d1b57e4c791627b" id="r_ad6cb86b97d6f11f23d1b57e4c791627b"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad6cb86b97d6f11f23d1b57e4c791627b">postLogicViewCalls</a></td></tr>
 <tr class="memitem:aaff4071da2b3d66538163e88da914a95" id="r_aaff4071da2b3d66538163e88da914a95"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaff4071da2b3d66538163e88da914a95">windows</a></td></tr>
 <tr class="memitem:a2e3c44be5d0b597a614b29fdd4020e53" id="r_a2e3c44be5d0b597a614b29fdd4020e53"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2e3c44be5d0b597a614b29fdd4020e53">maxWindowWidth</a></td></tr>
 <tr class="memitem:ac5329bcf27205dda8fe2f3f88c1d7764" id="r_ac5329bcf27205dda8fe2f3f88c1d7764"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac5329bcf27205dda8fe2f3f88c1d7764">maxWindowHeight</a></td></tr>
@@ -246,35 +240,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted" id="r_a46880dfb2181b1d2726c59d7de4a4af4"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">~RefCounted</a> ()</td></tr>
 <tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 inherit pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a72414bd956b35c783b0b8b5ed9d709a5" name="a72414bd956b35c783b0b8b5ed9d709a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72414bd956b35c783b0b8b5ed9d709a5">&#9670;&#160;</a></span>PostViewCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">Graphics::GraphicsServer::PostViewCallback</a> = void(*)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3060456a6b0d2a2a38f883542242f4a3" name="a3060456a6b0d2a2a38f883542242f4a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3060456a6b0d2a2a38f883542242f4a3">&#9670;&#160;</a></span>PreViewCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">Graphics::GraphicsServer::PreViewCallback</a> = void(*)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6d7e3f0b2b39cddc09067e5b31c198b1" name="a6d7e3f0b2b39cddc09067e5b31c198b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d7e3f0b2b39cddc09067e5b31c198b1">&#9670;&#160;</a></span>GraphicsServer()</h2>
@@ -373,57 +338,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a48621e053443fa4d61428250e6df8950" name="a48621e053443fa4d61428250e6df8950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48621e053443fa4d61428250e6df8950">&#9670;&#160;</a></span>AddPostViewCall()</h2>
+<a id="a6f2acafad5d2c59bb194b59f11c8251f" name="a6f2acafad5d2c59bb194b59f11c8251f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2acafad5d2c59bb194b59f11c8251f">&#9670;&#160;</a></span>AddEndFrameCall()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Graphics::GraphicsServer::AddPostViewCall </td>
+          <td class="memname">void Graphics::GraphicsServer::AddEndFrameCall </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">PostViewCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Add callback for rendering after the views are processed. </p>
-
-</div>
-</div>
-<a id="ad284fcb98833193da7a496bd199067aa" name="ad284fcb98833193da7a496bd199067aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad284fcb98833193da7a496bd199067aa">&#9670;&#160;</a></span>AddPreViewCall()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Graphics::GraphicsServer::AddPreViewCall </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">PreViewCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add callback for rendering before the views are processed. </p>
+<p>Add callback to run just before frame is finished. </p>
 
 </div>
 </div>
@@ -484,14 +414,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a15ddd78ef8b116fddf9a33b16b7cf302" name="a15ddd78ef8b116fddf9a33b16b7cf302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15ddd78ef8b116fddf9a33b16b7cf302">&#9670;&#160;</a></span>CreateView() <span class="overload">[1/2]</span></h2>
+<a id="ac605273a7b08bd60833a28033fde9f93" name="ac605273a7b08bd60833a28033fde9f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac605273a7b08bd60833a28033fde9f93">&#9670;&#160;</a></span>CreateView() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; Graphics::GraphicsServer::CreateView </td>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> Graphics::GraphicsServer::CreateView </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
@@ -503,21 +433,21 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a16cc92b29d110ce3f4ce8771d81bd686" name="a16cc92b29d110ce3f4ce8771d81bd686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16cc92b29d110ce3f4ce8771d81bd686">&#9670;&#160;</a></span>CreateView() <span class="overload">[2/2]</span></h2>
+<a id="a4bd2f85a3618162f0d6bc4ea47e4306d" name="a4bd2f85a3618162f0d6bc4ea47e4306d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd2f85a3618162f0d6bc4ea47e4306d">&#9670;&#160;</a></span>CreateView() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; Graphics::GraphicsServer::CreateView </td>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> Graphics::GraphicsServer::CreateView </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>render&#160;</em></span>)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), </td>
+          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>renderFunction&#160;</em></span>)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>), </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -527,7 +457,17 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>stage</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stageMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">PRIMARY_STAGE_MASK</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt;</td>          <td class="paramname"><span class="paramname"><em>preViewCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt;</td>          <td class="paramname"><span class="paramname"><em>postViewCallback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -555,8 +495,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aae0bf5efd2a2f61a3f3cd14a6364e85a" name="aae0bf5efd2a2f61a3f3cd14a6364e85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae0bf5efd2a2f61a3f3cd14a6364e85a">&#9670;&#160;</a></span>DiscardView()</h2>
+<a id="a103004bc2d565445d60df66121b23428" name="a103004bc2d565445d60df66121b23428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103004bc2d565445d60df66121b23428">&#9670;&#160;</a></span>DiscardView()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +504,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Graphics::GraphicsServer::DiscardView </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a></td>          <td class="paramname"><span class="paramname"><em>view</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -593,27 +533,19 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6b0bfe99b36aee2442f6b96d1540d3e6" name="a6b0bfe99b36aee2442f6b96d1540d3e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0bfe99b36aee2442f6b96d1540d3e6">&#9670;&#160;</a></span>GetCurrentView()</h2>
+<a id="afefb5a3ada7234292ead7252bc06f7d2" name="afefb5a3ada7234292ead7252bc06f7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefb5a3ada7234292ead7252bc06f7d2">&#9670;&#160;</a></span>GetCurrentView()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp; Graphics::GraphicsServer::GetCurrentView </td>
+          <td class="memname">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> Graphics::GraphicsServer::GetCurrentView </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>get current view </p>
@@ -701,27 +633,19 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab77409d2d529ef2d400087451081f716" name="ab77409d2d529ef2d400087451081f716"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab77409d2d529ef2d400087451081f716">&#9670;&#160;</a></span>GetView()</h2>
+<a id="a56d740eb96fd52573a88ec52f10c24a9" name="a56d740eb96fd52573a88ec52f10c24a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d740eb96fd52573a88ec52f10c24a9">&#9670;&#160;</a></span>GetView()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp; Graphics::GraphicsServer::GetView </td>
+          <td class="memname">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> Graphics::GraphicsServer::GetView </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get view by name. </p>
@@ -941,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a21c0ce7b323098c4f658ae26f0d6f012" name="a21c0ce7b323098c4f658ae26f0d6f012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c0ce7b323098c4f658ae26f0d6f012">&#9670;&#160;</a></span>SetCurrentView()</h2>
+<a id="adf577afabbc9d7778f8bf7aef0dc30f4" name="adf577afabbc9d7778f8bf7aef0dc30f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf577afabbc9d7778f8bf7aef0dc30f4">&#9670;&#160;</a></span>SetCurrentView()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -950,7 +874,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Graphics::GraphicsServer::SetCurrentView </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">View</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a></td>          <td class="paramname"><span class="paramname"><em>view</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1026,7 +950,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Graphics::GraphicsServer::SetupPostLogicViewCalls </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>calls</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>calls</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1080,7 +1004,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Graphics::GraphicsServer::SetupPreLogicViewCalls </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>calls</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>calls</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1137,8 +1061,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af332b6d381b5d8a8fbafc7a20f62571c" name="af332b6d381b5d8a8fbafc7a20f62571c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af332b6d381b5d8a8fbafc7a20f62571c">&#9670;&#160;</a></span>currentView</h2>
+<a id="a0ed8ea2e869941000b9b0795f8e952f5" name="a0ed8ea2e869941000b9b0795f8e952f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ed8ea2e869941000b9b0795f8e952f5">&#9670;&#160;</a></span>currentView</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1147,7 +1071,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">View</a>&gt; Graphics::GraphicsServer::currentView</td>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a> Graphics::GraphicsServer::currentView</td>
         </tr>
       </table>
   </td>
@@ -1170,6 +1094,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_core_graphics_1_1_display_device.html">CoreGraphics::DisplayDevice</a>&gt; Graphics::GraphicsServer::displayDevice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac347cdd69dced62a60b4849fa459bb95" name="ac347cdd69dced62a60b4849fa459bb95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac347cdd69dced62a60b4849fa459bb95">&#9670;&#160;</a></span>endFrameCallbacks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;std::function&lt;void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt; Graphics::GraphicsServer::endFrameCallbacks</td>
         </tr>
       </table>
   </td>
@@ -1367,7 +1313,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a>&gt; Graphics::GraphicsServer::postLogicViewCalls</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a>&gt; Graphics::GraphicsServer::postLogicViewCalls</td>
         </tr>
       </table>
   </td>
@@ -1379,8 +1325,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a18d85b572eb803cf0113b27ae788b109" name="a18d85b572eb803cf0113b27ae788b109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18d85b572eb803cf0113b27ae788b109">&#9670;&#160;</a></span>postViewCallbacks</h2>
+<a id="aa23c71d86526541e1994f1ce996e0adc" name="aa23c71d86526541e1994f1ce996e0adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa23c71d86526541e1994f1ce996e0adc">&#9670;&#160;</a></span>postViewCallbacks</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1389,7 +1335,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="#a72414bd956b35c783b0b8b5ed9d709a5">PostViewCallback</a>&gt; Graphics::GraphicsServer::postViewCallbacks</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;std::function&lt;void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt; Graphics::GraphicsServer::postViewCallbacks</td>
         </tr>
       </table>
   </td>
@@ -1433,7 +1379,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a>&gt; Graphics::GraphicsServer::preLogicViewCalls</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a>&gt; Graphics::GraphicsServer::preLogicViewCalls</td>
         </tr>
       </table>
   </td>
@@ -1445,8 +1391,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa29faaa33ae1bbb3811c7c4e60f50747" name="aa29faaa33ae1bbb3811c7c4e60f50747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa29faaa33ae1bbb3811c7c4e60f50747">&#9670;&#160;</a></span>preViewCallbacks</h2>
+<a id="afe6415203f4f4dab91a56430ec60d965" name="afe6415203f4f4dab91a56430ec60d965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe6415203f4f4dab91a56430ec60d965">&#9670;&#160;</a></span>preViewCallbacks</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1455,7 +1401,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="#a3060456a6b0d2a2a38f883542242f4a3">PreViewCallback</a>&gt; Graphics::GraphicsServer::preViewCallbacks</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;std::function&lt;void(<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>)&gt; &gt; Graphics::GraphicsServer::preViewCallbacks</td>
         </tr>
       </table>
   </td>
@@ -1599,8 +1545,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4d7e3edab5bec92c6eb801299e589e5" name="ad4d7e3edab5bec92c6eb801299e589e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d7e3edab5bec92c6eb801299e589e5">&#9670;&#160;</a></span>views</h2>
+<a id="ab8758d122b041947aa24f5cf675a6e33" name="ab8758d122b041947aa24f5cf675a6e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8758d122b041947aa24f5cf675a6e33">&#9670;&#160;</a></span>views</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1609,7 +1555,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">View</a>&gt; &gt; Graphics::GraphicsServer::views</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&gt; Graphics::GraphicsServer::views</td>
         </tr>
       </table>
   </td>
@@ -1621,8 +1567,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b9a981722194af0c862e355dd899b26" name="a4b9a981722194af0c862e355dd899b26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b9a981722194af0c862e355dd899b26">&#9670;&#160;</a></span>viewsByName</h2>
+<a id="a1d5ff951f63d7162d10abd9be73bd1f2" name="a1d5ff951f63d7162d10abd9be73bd1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d5ff951f63d7162d10abd9be73bd1f2">&#9670;&#160;</a></span>viewsByName</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1631,7 +1577,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">View</a>&gt; &gt; Graphics::GraphicsServer::viewsByName</td>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>&gt; Graphics::GraphicsServer::viewsByName</td>
         </tr>
       </table>
   </td>

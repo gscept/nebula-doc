@@ -447,7 +447,7 @@ $(function(){initNavTree('vec4_8h_source.html','',''); });
 <div class="foldopen" id="foldopen00397" data-start="{" data-end="}">
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno"><a class="line" href="namespace_math.html#a2863610898d7645d9278b2b7e97c5063">  397</a></span><a class="code hl_function" href="namespace_math.html#a2863610898d7645d9278b2b7e97c5063">length3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>&amp; v)</div>
 <div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>{</div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>    <span class="keywordflow">return</span> _mm_cvtss_f32(_mm_sqrt_ss(_mm_dp_ps(v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>, 0x71)));</div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>    <span class="keywordflow">return</span> _mm_cvtss_f32(_mm_sqrt_ss(_mm_dp_ps(v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>, v.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>, 0x7F)));</div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>}</div>
 </div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span> </div>
@@ -1042,7 +1042,7 @@ $(function(){initNavTree('vec4_8h_source.html','',''); });
 <div class="line"><a id="l00992" name="l00992"></a><span class="lineno">  992</span>    temp = _mm_sub_ps(temp, delta);</div>
 <div class="line"><a id="l00993" name="l00993"></a><span class="lineno">  993</span>    temp = _mm_max_ps(temp, delta);</div>
 <div class="line"><a id="l00994" name="l00994"></a><span class="lineno">  994</span>    temp = _mm_cmple_ps(temp, epsilon.<a class="code hl_variable" href="struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1">vec</a>);</div>
-<div class="line"><a id="l00995" name="l00995"></a><span class="lineno">  995</span>    <span class="keywordflow">return</span> (_mm_movemask_ps(temp) == 0x7) != 0;</div>
+<div class="line"><a id="l00995" name="l00995"></a><span class="lineno">  995</span>    <span class="keywordflow">return</span> (_mm_movemask_ps(temp) &amp; 7) == 0x7;</div>
 <div class="line"><a id="l00996" name="l00996"></a><span class="lineno">  996</span>}</div>
 </div>
 <div class="line"><a id="l00997" name="l00997"></a><span class="lineno">  997</span> </div>

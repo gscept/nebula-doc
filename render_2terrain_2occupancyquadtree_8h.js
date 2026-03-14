@@ -1,4 +1,4 @@
-var occupancyquadtree_8h =
+var render_2terrain_2occupancyquadtree_8h =
 [
     [ "Terrain::OccupancyQuadTree", "class_terrain_1_1_occupancy_quad_tree.html", "class_terrain_1_1_occupancy_quad_tree" ],
     [ "Terrain::OccupancyQuadTree::Node", "struct_terrain_1_1_occupancy_quad_tree_1_1_node.html", "struct_terrain_1_1_occupancy_quad_tree_1_1_node" ],

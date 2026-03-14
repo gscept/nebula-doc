@@ -160,6 +160,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a969284d862a0fc6a3a061e47fdb965"><td class="mdescLeft">&#160;</td><td class="mdescRight">get iterator to first element  <br /></td></tr>
 <tr class="memitem:a28e3fa6afe852cc7cde42c4c7d92a58e" id="r_a28e3fa6afe852cc7cde42c4c7d92a58e"><td class="memItemLeft"><a class="el" href="#ab1d924767224bd913c1e8fd88177ffb6">Iterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a28e3fa6afe852cc7cde42c4c7d92a58e">End</a> () const</td></tr>
 <tr class="memdesc:a28e3fa6afe852cc7cde42c4c7d92a58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get iterator past last element  <br /></td></tr>
+<tr class="memitem:a9414b558a866d8b62187c3400bafc0ef" id="r_a9414b558a866d8b62187c3400bafc0ef"><td class="memItemLeft">TYPE &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9414b558a866d8b62187c3400bafc0ef">Front</a> () const</td></tr>
+<tr class="memdesc:a9414b558a866d8b62187c3400bafc0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">return reference to first element  <br /></td></tr>
+<tr class="memitem:a8bff42f14f6de9d3c8b919930502815f" id="r_a8bff42f14f6de9d3c8b919930502815f"><td class="memItemLeft">TYPE &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a8bff42f14f6de9d3c8b919930502815f">Back</a> () const</td></tr>
+<tr class="memdesc:a8bff42f14f6de9d3c8b919930502815f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return reference to last element  <br /></td></tr>
 <tr class="memitem:a3813d3c323f1a52a642010cd4c86e9e8" id="r_a3813d3c323f1a52a642010cd4c86e9e8"><td class="memItemLeft"><a class="el" href="#ab1d924767224bd913c1e8fd88177ffb6">Iterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3813d3c323f1a52a642010cd4c86e9e8">Find</a> (const TYPE &amp;val) const</td></tr>
 <tr class="memdesc:a3813d3c323f1a52a642010cd4c86e9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">find identical element in unsorted array (slow)  <br /></td></tr>
 <tr class="memitem:a915a0ca1265861fb47fba2c455cd3abb" id="r_a915a0ca1265861fb47fba2c455cd3abb"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a915a0ca1265861fb47fba2c455cd3abb">FindIndex</a> (const TYPE &amp;val) const</td></tr>
@@ -501,6 +505,35 @@ template&lt;class TYPE, bool StackAlloc&gt; </div>
 
 </div>
 </div>
+<a id="a8bff42f14f6de9d3c8b919930502815f" name="a8bff42f14f6de9d3c8b919930502815f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bff42f14f6de9d3c8b919930502815f">&#9670;&#160;</a></span>Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, bool StackAlloc&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TYPE &amp; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; TYPE, <a class="el" href="posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922">StackAlloc</a> &gt;::Back </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return reference to last element </p>
+
+</div>
+</div>
 <a id="a5a969284d862a0fc6a3a061e47fdb965" name="a5a969284d862a0fc6a3a061e47fdb965"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a969284d862a0fc6a3a061e47fdb965">&#9670;&#160;</a></span>Begin()</h2>
 
@@ -797,6 +830,35 @@ template&lt;class TYPE, bool StackAlloc&gt; </div>
 </div><div class="memdoc">
 
 <p>find index of identical element in unsorted array (slow) </p>
+
+</div>
+</div>
+<a id="a9414b558a866d8b62187c3400bafc0ef" name="a9414b558a866d8b62187c3400bafc0ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9414b558a866d8b62187c3400bafc0ef">&#9670;&#160;</a></span>Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, bool StackAlloc&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TYPE &amp; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; TYPE, <a class="el" href="posixmemory_8h.html#a8097079d2f12f1969a251a5acd67a922">StackAlloc</a> &gt;::Front </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return reference to first element </p>
 
 </div>
 </div>

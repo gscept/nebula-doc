@@ -88,6 +88,7 @@ var namespace_post_effects =
     [ "uvToViewA", "namespace_post_effects.html#ab4ba2ef55482f915b0844abed95d53bc", null ],
     [ "uvToViewB", "namespace_post_effects.html#aec19a7a7684ac8d32d2ffaee5a8d360e", null ],
     [ "vars", "namespace_post_effects.html#ac6c6f51a7d283e3718d962b556ac14ec", null ],
+    [ "viewHistogramBuffers", "namespace_post_effects.html#a08473ea563c0642a3384c8f438fc4df9", null ],
     [ "width", "namespace_post_effects.html#a0519448bec51881f4fe30d816287693f", null ],
     [ "xDirectionBlur", "namespace_post_effects.html#a38cdd709c1bf375ae3243638e7792c68", null ],
     [ "xDirectionHBAO", "namespace_post_effects.html#a77e119e31d8039e41c7685cb9042c2f1", null ],

@@ -15,5 +15,6 @@ var histogramcontext_8cc =
     [ "PostEffects::mip", "namespace_post_effects.html#a411589b433cb5e70aadb5713fab42ada", null ],
     [ "PostEffects::offset", "namespace_post_effects.html#a8a5b70ae32b02bef6962b3bbd5008067", null ],
     [ "PostEffects::previousLum", "namespace_post_effects.html#ac7f3e2b5a3ea6420a750bcb911ff05e6", null ],
-    [ "PostEffects::size", "namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea", null ]
+    [ "PostEffects::size", "namespace_post_effects.html#a825e3364318c29cbd82bce236358bcea", null ],
+    [ "PostEffects::viewHistogramBuffers", "namespace_post_effects.html#a08473ea563c0642a3384c8f438fc4df9", null ]
 ];

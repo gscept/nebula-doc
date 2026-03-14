@@ -8,7 +8,7 @@ var class_graphics_feature_1_1_camera_manager =
     [ "IsViewHandleValid", "class_graphics_feature_1_1_camera_manager.html#a8eb142cf84589a7f964a8301c0785a2e", null ],
     [ "OnActivate", "class_graphics_feature_1_1_camera_manager.html#aa207df71a9f7dc64e2afc32cb978b1a6", null ],
     [ "OnDeactivate", "class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917", null ],
-    [ "RegisterView", "class_graphics_feature_1_1_camera_manager.html#a0d81a4809dac5672052897f66e9f8add", null ],
+    [ "RegisterView", "class_graphics_feature_1_1_camera_manager.html#a2c11c8ed2e0f1f61008ed005f0539115", null ],
     [ "viewHandleMap", "class_graphics_feature_1_1_camera_manager.html#a8b2b204c56f3224b6049912ccf7c9ec1", null ],
     [ "viewHandlePool", "class_graphics_feature_1_1_camera_manager.html#a680ef847acfdc87b510d58be3b8befe4", null ]
 ];

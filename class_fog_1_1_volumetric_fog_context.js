@@ -1,7 +1,7 @@
 var class_fog_1_1_volumetric_fog_context =
 [
     [ "FogBoxVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#aeba61fad3488d1a4e8e805c3fa514fdc", null ],
-    [ "FogGenericVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#ac9acc6d4fda2b5373f24c6d27fc3356b", null ],
+    [ "FogGenericVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#a22c3de5e1015546afeaa0f9d04faa114", null ],
     [ "FogSphereVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#a86cf471ecc7a1ccd9bafe8b59c9bb318", null ],
     [ "FogVolumeType", "class_fog_1_1_volumetric_fog_context.html#ac270b37b647f631af021b08228e0176a", [
       [ "BoxVolume", "class_fog_1_1_volumetric_fog_context.html#ac270b37b647f631af021b08228e0176aaa24b14fb51f1f5593408805e569712a6", null ],
@@ -22,9 +22,9 @@ var class_fog_1_1_volumetric_fog_context =
     [ "SetSphereRadius", "class_fog_1_1_volumetric_fog_context.html#a93f3cfe63197f79517175a28048f2c66", null ],
     [ "SetTransform", "class_fog_1_1_volumetric_fog_context.html#a20529d10762732cfabd070ed0c7fb868", null ],
     [ "SetTurbidity", "class_fog_1_1_volumetric_fog_context.html#a27916583a05b15980e05d729653f83e7", null ],
-    [ "SetupBoxVolume", "class_fog_1_1_volumetric_fog_context.html#ab724f3df358bf38a8fb971dc83dc7e21", null ],
-    [ "SetupSphereVolume", "class_fog_1_1_volumetric_fog_context.html#aa010dd8a0039a1b618c11c5162a81d53", null ],
-    [ "UpdateViewDependentResources", "class_fog_1_1_volumetric_fog_context.html#a5da6be6dedbf0a7ae53551ceea7fef9c", null ],
+    [ "SetupBoxVolume", "class_fog_1_1_volumetric_fog_context.html#a2f7bcdb3c60770b5b9fa40de7eb1234d", null ],
+    [ "SetupSphereVolume", "class_fog_1_1_volumetric_fog_context.html#a182e62d16e50924be618a99cca3e22ae", null ],
+    [ "UpdateFogVolumes", "class_fog_1_1_volumetric_fog_context.html#a8050075393d237d143d609e560146cec", null ],
     [ "fogBoxVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#a0b52fa94ddb2e243bef39a496dc9825e", null ],
     [ "fogGenericVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#abe942eb68f8dec0cb19c56dc6ec25886", null ],
     [ "fogSphereVolumeAllocator", "class_fog_1_1_volumetric_fog_context.html#aa715b25017516cda4119193c9c62a0e2", null ]

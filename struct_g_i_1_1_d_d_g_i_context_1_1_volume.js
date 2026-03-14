@@ -27,6 +27,7 @@ var struct_g_i_1_1_d_d_g_i_context_1_1_volume =
     [ "relocateProbesTable", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a8e4cc702c4eed2eda709b4c5bc3786f3", null ],
     [ "scrollSpace", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a0a2c25aadc45d467f051c3ef28c4849a", null ],
     [ "size", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a7663d1ce73b53bd26211d877706ea62d", null ],
+    [ "stageMask", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a98b3bcd69bf5b4b8c491ca0599531c62", null ],
     [ "states", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a573a1b5e322d17bbc38cdc06b892239b", null ],
     [ "updateProbesTable", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a1f33bc8dd0f29b8fd87f10ded25ac428", null ],
     [ "viewBias", "struct_g_i_1_1_d_d_g_i_context_1_1_volume.html#a7f874f4267fbff3503a9b40b13229921", null ],

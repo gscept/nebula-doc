@@ -12,7 +12,7 @@ var class_terrain_1_1_terrain_context =
     [ "ClearCache", "class_terrain_1_1_terrain_context.html#ae11a98fa0d465618e24dff796f26ec58", null ],
     [ "Create", "class_terrain_1_1_terrain_context.html#a787f2f253c563afa977cf122cc55c6da", null ],
     [ "CreateBiome", "class_terrain_1_1_terrain_context.html#aa79a7b94ed3c1432a993a07d8f3f0953", null ],
-    [ "CullPatches", "class_terrain_1_1_terrain_context.html#a2ea385aab6eb745c1db71c746e106b06", null ],
+    [ "CullPatches", "class_terrain_1_1_terrain_context.html#ab81f4dc07a2935adb91f07f8b87d9958", null ],
     [ "Dealloc", "class_terrain_1_1_terrain_context.html#a2538441cfad244dc8d661f4d55c898ac", null ],
     [ "DestroyBiome", "class_terrain_1_1_terrain_context.html#a12a21deb674f6b05043ab4cb55bbbe11", null ],
     [ "Discard", "class_terrain_1_1_terrain_context.html#a3a6523b8b6c523ad5392d47a2c048a12", null ],
@@ -24,7 +24,7 @@ var class_terrain_1_1_terrain_context =
     [ "SetSun", "class_terrain_1_1_terrain_context.html#a8edcdc6de680d9ca55517ecf07476837", null ],
     [ "SetupTerrain", "class_terrain_1_1_terrain_context.html#a8b73c9113604c6f71b59dfb2e42c9d4d", null ],
     [ "SetVisible", "class_terrain_1_1_terrain_context.html#a7c22e1d151d62118fce51816290f4274", null ],
-    [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#ac360ac01ab7dc9a5368add4fd9af9586", null ],
+    [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#a81bd8bf2e64df4f51f158bc333d557f0", null ],
     [ "terrainAllocator", "class_terrain_1_1_terrain_context.html#a785a9c05be711e76a56eb157c273c22c", null ],
     [ "terrainBiomeAllocator", "class_terrain_1_1_terrain_context.html#abeb472f0e4040aa1739c0fa8f5bbbc06", null ]
 ];

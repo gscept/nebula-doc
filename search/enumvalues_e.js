@@ -110,10 +110,11 @@ var searchData=
   ['numpixelformats_107',['NumPixelFormats',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a7e4d06bc7131b6620b6fa288aec45c92',1,'CoreGraphics::PixelFormat']]],
   ['numplanes_108',['NumPlanes',['../class_math_1_1frustum.html#aa0d62270b679f07666d434a93c0896c0a3e7886f9d2b3ef6fe04677b50b748fc6',1,'Math::frustum']]],
   ['numquerytypes_109',['NumQueryTypes',['../namespace_core_graphics.html#a38a5681183dbfc34a76409f4cbd1fa4fa97398454918cced48c497f04bf3816cd',1,'CoreGraphics']]],
-  ['numqueuetypes_110',['NumQueueTypes',['../namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9a3c6001560a69d7dca978d3b91aeebfa5',1,'CoreGraphics']]],
-  ['numsampletypes_111',['NumSampleTypes',['../class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcc2ff65955345f53050eb0cb2c502c5',1,'CoreAnimation::SampleType']]],
-  ['numshaders_112',['NumShaders',['../class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393',1,'Base::ShapeRendererBase::NumShaders'],['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bab184a3fe081692db7d23d36179dd666b',1,'Vulkan::NumShaders']]],
-  ['numshapetypes_113',['NumShapeTypes',['../class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a4863fa87945542c92448b9df8e262639',1,'CoreGraphics::RenderShape']]],
-  ['numtopologies_114',['NumTopologies',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbaf8dfc05d86c7b200109d6c9f30b27769',1,'CoreGraphics::PrimitiveTopology']]],
-  ['numtypes_115',['NumTypes',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba86a31736aa9c519ffa51cca47e1259f2',1,'Util::Variant::NumTypes'],['../namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457',1,'CoreGraphics::NumTypes']]]
+  ['numqueues_110',['NumQueues',['../namespace_graphics.html#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914',1,'Graphics']]],
+  ['numqueuetypes_111',['NumQueueTypes',['../namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9a3c6001560a69d7dca978d3b91aeebfa5',1,'CoreGraphics']]],
+  ['numsampletypes_112',['NumSampleTypes',['../class_core_animation_1_1_sample_type.html#abc001f369c80baade04b7f8b3aef1c40adcc2ff65955345f53050eb0cb2c502c5',1,'CoreAnimation::SampleType']]],
+  ['numshaders_113',['NumShaders',['../class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1faeecca78563d6c297365bc1113f1d5393',1,'Base::ShapeRendererBase::NumShaders'],['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52bab184a3fe081692db7d23d36179dd666b',1,'Vulkan::NumShaders']]],
+  ['numshapetypes_114',['NumShapeTypes',['../class_core_graphics_1_1_render_shape.html#a672b897b6d21a6f30691f79fe6690641a4863fa87945542c92448b9df8e262639',1,'CoreGraphics::RenderShape']]],
+  ['numtopologies_115',['NumTopologies',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dbaf8dfc05d86c7b200109d6c9f30b27769',1,'CoreGraphics::PrimitiveTopology']]],
+  ['numtypes_116',['NumTypes',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba86a31736aa9c519ffa51cca47e1259f2',1,'Util::Variant::NumTypes'],['../namespace_core_graphics.html#af4bde55a3078526840bee06aa34d4791a86e30d8e0831512671e7ed103ad7c457',1,'CoreGraphics::NumTypes']]]
 ];

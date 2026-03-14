@@ -99,6 +99,7 @@ $(function(){initNavTree('graphicscontext_8h.html','',''); });
 <code>#include &quot;<a class="el" href="idgenerationpool_8h_source.html">ids/idgenerationpool.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="arraystack_8h_source.html">util/arraystack.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="view_8h_source.html">graphics/view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsentity_8h_source.html">graphicsentity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="window_8h_source.html">coregraphics/window.h</a>&quot;</code><br />
 </div>
@@ -143,7 +144,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a>() \</div>
 <div class="line">__state.Defragment = Defragment;</div>
-<div class="ttc" id="agraphicscontext_8h_html_a3cac5283f38308a752d0ae8335c95845"><div class="ttname"><a href="#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a></div><div class="ttdeci">#define __CreatePluginContext()</div><div class="ttdef"><b>Definition</b> graphicscontext.h:98</div></div>
+<div class="ttc" id="agraphicscontext_8h_html_a3cac5283f38308a752d0ae8335c95845"><div class="ttname"><a href="#a3cac5283f38308a752d0ae8335c95845">__CreatePluginContext</a></div><div class="ttdeci">#define __CreatePluginContext()</div><div class="ttdef"><b>Definition</b> graphicscontext.h:111</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -182,7 +183,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#ab5ade09cae86ffa2215d42900391a3b2">__DeclarePluginContext</a>(); \</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> Defragment();</div>
-<div class="ttc" id="agraphicscontext_8h_html_ab5ade09cae86ffa2215d42900391a3b2"><div class="ttname"><a href="#ab5ade09cae86ffa2215d42900391a3b2">__DeclarePluginContext</a></div><div class="ttdeci">#define __DeclarePluginContext()</div><div class="ttdef"><b>Definition</b> graphicscontext.h:29</div></div>
+<div class="ttc" id="agraphicscontext_8h_html_ab5ade09cae86ffa2215d42900391a3b2"><div class="ttname"><a href="#ab5ade09cae86ffa2215d42900391a3b2">__DeclarePluginContext</a></div><div class="ttdeci">#define __DeclarePluginContext()</div><div class="ttdef"><b>Definition</b> graphicscontext.h:30</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -206,6 +207,7 @@ Macros</h2></td></tr>
 <div class="line"><span class="keyword">public</span>:\</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> RegisterEntity(<span class="keyword">const</span> <a class="code hl_struct" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> <span class="keywordtype">id</span>);\</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> DeregisterEntity(<span class="keyword">const</span> <a class="code hl_struct" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> <span class="keywordtype">id</span>);\</div>
+<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> DeregisterEntityImmediate(<span class="keyword">const</span> <a class="code hl_struct" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> <span class="keywordtype">id</span>);\</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">bool</span> IsEntityRegistered(<span class="keyword">const</span> <a class="code hl_struct" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> <span class="keywordtype">id</span>);\</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> Destroy(); \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a> GetContextId(<span class="keyword">const</span> <a class="code hl_struct" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> <span class="keywordtype">id</span>); \</div>
@@ -213,9 +215,9 @@ Macros</h2></td></tr>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> BeginBulkRegister(); \</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> EndBulkRegister(); \</div>
 <div class="line"><span class="keyword">private</span>:</div>
-<div class="ttc" id="astruct_graphics_1_1_context_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:130</div></div>
-<div class="ttc" id="astruct_graphics_1_1_graphics_context_function_bundle_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_function_bundle.html">Graphics::GraphicsContextFunctionBundle</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:113</div></div>
-<div class="ttc" id="astruct_graphics_1_1_graphics_context_state_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a></div><div class="ttdoc">A graphics context is a resource which holds a contextual representation for a graphics entity.</div><div class="ttdef"><b>Definition</b> graphicscontext.h:133</div></div>
+<div class="ttc" id="astruct_graphics_1_1_context_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_context_entity_id.html">Graphics::ContextEntityId</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:143</div></div>
+<div class="ttc" id="astruct_graphics_1_1_graphics_context_function_bundle_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_function_bundle.html">Graphics::GraphicsContextFunctionBundle</a></div><div class="ttdef"><b>Definition</b> graphicscontext.h:126</div></div>
+<div class="ttc" id="astruct_graphics_1_1_graphics_context_state_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a></div><div class="ttdoc">A graphics context is a resource which holds a contextual representation for a graphics entity.</div><div class="ttdef"><b>Definition</b> graphicscontext.h:146</div></div>
 <div class="ttc" id="astruct_graphics_1_1_graphics_entity_id_html"><div class="ttname"><a href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></div><div class="ttdoc">The graphics entity is only an Id, to which we can attach GraphicsContexts.</div><div class="ttdef"><b>Definition</b> graphicsentity.h:16</div></div>
 </div><!-- fragment -->
 </div>
@@ -243,7 +245,7 @@ Macros</h2></td></tr>
 <div class="line">{\</div>
 <div class="line">    Graphics::GraphicsContext::InternalDefragment(idAllocator, std::forward&lt;Graphics::GraphicsContextState&gt;(__state));\</div>
 <div class="line">}</div>
-<div class="ttc" id="agraphicscontext_8h_html_a3d444f7e771b2ab69dec1066eb826356"><div class="ttname"><a href="#a3d444f7e771b2ab69dec1066eb826356">__ImplementPluginContext</a></div><div class="ttdeci">#define __ImplementPluginContext(ctx)</div><div class="ttdef"><b>Definition</b> graphicscontext.h:49</div></div>
+<div class="ttc" id="agraphicscontext_8h_html_a3d444f7e771b2ab69dec1066eb826356"><div class="ttname"><a href="#a3d444f7e771b2ab69dec1066eb826356">__ImplementPluginContext</a></div><div class="ttdeci">#define __ImplementPluginContext(ctx)</div><div class="ttdef"><b>Definition</b> graphicscontext.h:51</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -102,6 +102,7 @@ $(function(){initNavTree('graphicsserver_8h.html','',''); });
 <code>#include &quot;<a class="el" href="shaderserver_8h_source.html">coregraphics/shaderserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shaperenderer_8h_source.html">coregraphics/shaperenderer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textrenderer_8h_source.html">coregraphics/textrenderer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="view_8h_source.html">graphics/view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="debughandler_8h_source.html">debug/debughandler.h</a>&quot;</code><br />
 </div>
 <p><a href="graphicsserver_8h_source.html">Go to the source code of this file.</a></p>
@@ -120,23 +121,18 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a7b763d69e6745e4beb2f99ce55ddb448" id="r_a7b763d69e6745e4beb2f99ce55ddb448"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a7b763d69e6745e4beb2f99ce55ddb448">Graphics::ViewIndependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
-<tr class="memitem:a9610f2852247451a9ffee8337a59d9f7" id="r_a9610f2852247451a9ffee8337a59d9f7"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a9610f2852247451a9ffee8337a59d9f7">Graphics::ViewDependentCall</a> = void(*)(const <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>&gt;&amp; view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
+<tr class="memitem:adbfe72d4f892536e2729a5f0f0e554b4" id="r_adbfe72d4f892536e2729a5f0f0e554b4"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#adbfe72d4f892536e2729a5f0f0e554b4">Graphics::ViewDependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a58397d37149d05cca58a4a9b450a6e64" id="r_a58397d37149d05cca58a4a9b450a6e64"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a58397d37149d05cca58a4a9b450a6e64">Graphics::GetStageMask</a> (const uint16_t stageIndex)</td></tr>
 <tr class="memitem:a11a61dfd7f732656a09ecd77b4895486" id="r_a11a61dfd7f732656a09ecd77b4895486"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a11a61dfd7f732656a09ecd77b4895486">Graphics::CreateEntity</a> ()</td></tr>
 <tr class="memitem:aff7327d8c202a36f5a8534cd8a0e598b" id="r_aff7327d8c202a36f5a8534cd8a0e598b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#aff7327d8c202a36f5a8534cd8a0e598b">Graphics::DestroyEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60" id="r_ac2d20843571a372465d8dba316e0cc60"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#ac2d20843571a372465d8dba316e0cc60">Graphics::RegisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f" id="r_ae29c9e9fcf92d0cd5e781c7efffd9b0f"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#ae29c9e9fcf92d0cd5e781c7efffd9b0f">Graphics::DeregisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2737a465294a7958b3a05e5b61a12810" id="r_a2737a465294a7958b3a05e5b61a12810"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">Graphics::PRIMARY_STAGE_MASK</a> = 0x1</td></tr>
-<tr class="memitem:a62ad3342d89bba399f66ceab697c624d" id="r_a62ad3342d89bba399f66ceab697c624d"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a62ad3342d89bba399f66ceab697c624d">Graphics::SHADOW_STAGE_MASK</a> = 0x2</td></tr>
-<tr class="memitem:a780aaa72a310643213227d7634ad66b1" id="r_a780aaa72a310643213227d7634ad66b1"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#a780aaa72a310643213227d7634ad66b1">Graphics::DEFAULT_STAGE_MASK</a> = <a class="el" href="namespace_graphics.html#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="namespace_graphics.html#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td></tr>
+<tr class="memitem:ac56a266f3ffe6f929f49b3fec12fd887" id="r_ac56a266f3ffe6f929f49b3fec12fd887"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
+<tr class="memitem:ac56a266f3ffe6f929f49b3fec12fd887 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_graphics.html#ac56a266f3ffe6f929f49b3fec12fd887">Graphics::DeregisterEntityImmediate</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

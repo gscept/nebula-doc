@@ -16,6 +16,7 @@ var struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup =
     [ "options", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#aa155e667fc12c63b02de37d1adc083f9", null ],
     [ "position", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a5478fe843f80d22570c4a9cb478df63e", null ],
     [ "size", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a7a66b4209146104750e4ae2a6003f3b5", null ],
+    [ "stageMask", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a8bd64737368aa9a51640e6b37e1314cd", null ],
     [ "updateBudget", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#a3e512f86b60c26074dfea1d498d39628", null ],
     [ "viewBias", "struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#aadff90c0bf495b3f0ce5501b4ec69d38", null ]
 ];

@@ -9,5 +9,5 @@ var class_post_effects_1_1_s_s_a_o_context =
     [ "Discard", "class_post_effects_1_1_s_s_a_o_context.html#a3db728d809c9bf324be3363b5cecd308", null ],
     [ "Resize", "class_post_effects_1_1_s_s_a_o_context.html#a847cab39aa4cbbce59e252bcbbccc63b", null ],
     [ "Setup", "class_post_effects_1_1_s_s_a_o_context.html#a19fac2b19b54027725c36a5ca87bb177", null ],
-    [ "UpdateViewDependentResources", "class_post_effects_1_1_s_s_a_o_context.html#a8b37d4192663cbba0a060cd8636d7284", null ]
+    [ "UpdateViewDependentResources", "class_post_effects_1_1_s_s_a_o_context.html#a4fa9d3509e9170cb4394cf5bd3934da7", null ]
 ];

@@ -493,7 +493,8 @@ var annotated_dup =
       [ "GraphicsEntityId", "struct_graphics_1_1_graphics_entity_id.html", null ],
       [ "FrameContext", "struct_graphics_1_1_frame_context.html", "struct_graphics_1_1_frame_context" ],
       [ "GraphicsServer", "class_graphics_1_1_graphics_server.html", "class_graphics_1_1_graphics_server" ],
-      [ "View", "class_graphics_1_1_view.html", "class_graphics_1_1_view" ],
+      [ "ViewId", "struct_graphics_1_1_view_id.html", null ],
+      [ "ViewCreateInfo", "struct_graphics_1_1_view_create_info.html", "struct_graphics_1_1_view_create_info" ],
       [ "LightProbeContext", "class_graphics_1_1_light_probe_context.html", "class_graphics_1_1_light_probe_context" ]
     ] ],
     [ "GraphicsFeature", "namespace_graphics_feature.html", [
@@ -669,7 +670,6 @@ var annotated_dup =
       [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ]
     ] ],
     [ "Lighting", "namespace_lighting.html", [
-      [ "CSMUtil", "class_lighting_1_1_c_s_m_util.html", "class_lighting_1_1_c_s_m_util" ],
       [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ]
     ] ],
     [ "Linux", "namespace_linux.html", [
@@ -1103,6 +1103,7 @@ var annotated_dup =
       [ "KeyValuePair", "class_util_1_1_key_value_pair.html", "class_util_1_1_key_value_pair" ],
       [ "List", "class_util_1_1_list.html", "class_util_1_1_list" ],
       [ "LocalStringAtomTable", "class_util_1_1_local_string_atom_table.html", "class_util_1_1_local_string_atom_table" ],
+      [ "OccupancyQuadTree", "class_util_1_1_occupancy_quad_tree.html", "class_util_1_1_occupancy_quad_tree" ],
       [ "PinnedArray", "class_util_1_1_pinned_array.html", "class_util_1_1_pinned_array" ],
       [ "PriorityArray", "class_util_1_1_priority_array.html", "class_util_1_1_priority_array" ],
       [ "QuadTree", "class_util_1_1_quad_tree.html", "class_util_1_1_quad_tree" ],
@@ -1344,6 +1345,7 @@ var annotated_dup =
     [ "TiXmlText", "class_ti_xml_text.html", "class_ti_xml_text" ],
     [ "TiXmlUnknown", "class_ti_xml_unknown.html", "class_ti_xml_unknown" ],
     [ "VertexLayoutBase", "class_base_1_1_vertex_layout_base.html", null ],
+    [ "View", "class_graphics_1_1_view.html", null ],
     [ "WeakPtr", "class_weak_ptr.html", "class_weak_ptr" ],
     [ "Win32Barrier", "class_win32_1_1_win32_barrier.html", null ],
     [ "Win32Interlocked", "class_win32_1_1_win32_interlocked.html", null ],

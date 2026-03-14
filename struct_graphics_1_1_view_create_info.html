@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.16.1"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: Lighting::CSMUtil::CascadeFrustum Struct Reference</title>
+		<title>Nebula: Graphics::ViewCreateInfo Struct Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html','','struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum-members'); });
+$(function(){initNavTree('struct_graphics_1_1_view_create_info.html','','struct_graphics_1_1_view_create_info-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -89,98 +89,70 @@ $(function(){initNavTree('struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.htm
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Lighting::CSMUtil::CascadeFrustum Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Graphics::ViewCreateInfo Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="view_8h_source.html">view.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a28f8da62d76465da4b4fa6f25681328d" id="r_a28f8da62d76465da4b4fa6f25681328d"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a28f8da62d76465da4b4fa6f25681328d">rightSlope</a></td></tr>
-<tr class="memitem:a95e218baf99b1ebf56e179eec9ea528f" id="r_a95e218baf99b1ebf56e179eec9ea528f"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a95e218baf99b1ebf56e179eec9ea528f">leftSlope</a></td></tr>
-<tr class="memitem:a31dc54b9da30eadb392509b6b0536726" id="r_a31dc54b9da30eadb392509b6b0536726"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a31dc54b9da30eadb392509b6b0536726">topSlope</a></td></tr>
-<tr class="memitem:a8e63cff798aabfb36c13af058506de2a" id="r_a8e63cff798aabfb36c13af058506de2a"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a8e63cff798aabfb36c13af058506de2a">bottomSlope</a></td></tr>
-<tr class="memitem:a9e901298094df389e6668fae7ce27c59" id="r_a9e901298094df389e6668fae7ce27c59"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a9e901298094df389e6668fae7ce27c59">nearPlane</a></td></tr>
-<tr class="memitem:af2544034b9f7d1d353912cb3db0b0a96" id="r_af2544034b9f7d1d353912cb3db0b0a96"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#af2544034b9f7d1d353912cb3db0b0a96">farPlane</a></td></tr>
+<tr class="memitem:afe39b82df580fe5dd2fc3469d2cc9119" id="r_afe39b82df580fe5dd2fc3469d2cc9119"><td class="memItemLeft">bool(*&#160;</td><td class="memItemRight"><a class="el" href="#afe39b82df580fe5dd2fc3469d2cc9119">frameScript</a> )(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;<a class="el" href="#a5718573a26a2ef065eec3827c12e9c27">viewport</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex) = nullptr</td></tr>
+<tr class="memitem:a5718573a26a2ef065eec3827c12e9c27" id="r_a5718573a26a2ef065eec3827c12e9c27"><td class="memItemLeft"><a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5718573a26a2ef065eec3827c12e9c27">viewport</a></td></tr>
+<tr class="memitem:a2c73f94e65c760878036d8b4364505ce" id="r_a2c73f94e65c760878036d8b4364505ce"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2c73f94e65c760878036d8b4364505ce">camera</a> = Graphics::InvalidGraphicsEntityId</td></tr>
+<tr class="memitem:aa4771ee5bfce9686b75ad595b111cd01" id="r_aa4771ee5bfce9686b75ad595b111cd01"><td class="memItemLeft"><a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa4771ee5bfce9686b75ad595b111cd01">stageMask</a> = <a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a8e63cff798aabfb36c13af058506de2a" name="a8e63cff798aabfb36c13af058506de2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e63cff798aabfb36c13af058506de2a">&#9670;&#160;</a></span>bottomSlope</h2>
+<a id="a2c73f94e65c760878036d8b4364505ce" name="a2c73f94e65c760878036d8b4364505ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c73f94e65c760878036d8b4364505ce">&#9670;&#160;</a></span>camera</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::bottomSlope</td>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> Graphics::ViewCreateInfo::camera = Graphics::InvalidGraphicsEntityId</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af2544034b9f7d1d353912cb3db0b0a96" name="af2544034b9f7d1d353912cb3db0b0a96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2544034b9f7d1d353912cb3db0b0a96">&#9670;&#160;</a></span>farPlane</h2>
+<a id="afe39b82df580fe5dd2fc3469d2cc9119" name="afe39b82df580fe5dd2fc3469d2cc9119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe39b82df580fe5dd2fc3469d2cc9119">&#9670;&#160;</a></span>frameScript</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::farPlane</td>
+          <td class="memname">bool(* Graphics::ViewCreateInfo::frameScript) (const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;<a class="el" href="#a5718573a26a2ef065eec3827c12e9c27">viewport</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex) = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a95e218baf99b1ebf56e179eec9ea528f" name="a95e218baf99b1ebf56e179eec9ea528f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e218baf99b1ebf56e179eec9ea528f">&#9670;&#160;</a></span>leftSlope</h2>
+<a id="aa4771ee5bfce9686b75ad595b111cd01" name="aa4771ee5bfce9686b75ad595b111cd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4771ee5bfce9686b75ad595b111cd01">&#9670;&#160;</a></span>stageMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::leftSlope</td>
+          <td class="memname"><a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> Graphics::ViewCreateInfo::stageMask = <a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9e901298094df389e6668fae7ce27c59" name="a9e901298094df389e6668fae7ce27c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e901298094df389e6668fae7ce27c59">&#9670;&#160;</a></span>nearPlane</h2>
+<a id="a5718573a26a2ef065eec3827c12e9c27" name="a5718573a26a2ef065eec3827c12e9c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5718573a26a2ef065eec3827c12e9c27">&#9670;&#160;</a></span>viewport</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::nearPlane</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a28f8da62d76465da4b4fa6f25681328d" name="a28f8da62d76465da4b4fa6f25681328d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28f8da62d76465da4b4fa6f25681328d">&#9670;&#160;</a></span>rightSlope</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::rightSlope</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a31dc54b9da30eadb392509b6b0536726" name="a31dc54b9da30eadb392509b6b0536726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31dc54b9da30eadb392509b6b0536726">&#9670;&#160;</a></span>topSlope</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Lighting::CSMUtil::CascadeFrustum::topSlope</td>
+          <td class="memname"><a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt;int&gt; Graphics::ViewCreateInfo::viewport</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,7 +160,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/code/render/lighting/<a class="el" href="csmutil_8h_source.html">csmutil.h</a></li>
+<li>/github/workspace/code/render/graphics/<a class="el" href="view_8h_source.html">view.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -203,7 +175,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="namespace_lighting.html">Lighting</a></li><li class="navelem"><a href="class_lighting_1_1_c_s_m_util.html">CSMUtil</a></li><li class="navelem"><a href="struct_lighting_1_1_c_s_m_util_1_1_cascade_frustum.html">CascadeFrustum</a></li>
+				<li class="navelem"><a href="namespace_graphics.html">Graphics</a></li><li class="navelem"><a href="struct_graphics_1_1_view_create_info.html">ViewCreateInfo</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

@@ -132,7 +132,7 @@ $(function(){initNavTree('imguigraph_8h_source.html','',''); });
 <div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_dynui_1_1_graph.html#a0b01accb714a4c91cee580dc710f2245">   50</a></span><a class="code hl_function" href="class_dynui_1_1_graph.html#a0b01accb714a4c91cee580dc710f2245">Graph::AddValue</a>(<span class="keywordtype">float</span> val)</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>{</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordflow">if</span>(val &lt; <a class="code hl_define" href="csmutil_8h.html#a7fbf1534f9e0f0bfdb86fb928902474c">FLT_MAX</a>)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordflow">if</span>(val &lt; FLT_MAX)</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        this-&gt;<a class="code hl_variable" href="class_dynui_1_1_graph.html#a4b407c7faa7cb6660eeeab3228195497">buffer</a>.Add(val);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
 </div>
@@ -178,7 +178,6 @@ $(function(){initNavTree('imguigraph_8h_source.html','',''); });
 <div class="ttc" id="aclass_dynui_1_1_graph_html_aed722281352575da7a2a587034f92e66"><div class="ttname"><a href="class_dynui_1_1_graph.html#aed722281352575da7a2a587034f92e66">Dynui::Graph::_min</a></div><div class="ttdeci">float _min</div><div class="ttdef"><b>Definition</b> imguigraph.h:35</div></div>
 <div class="ttc" id="aclass_util_1_1_ring_buffer_html"><div class="ttname"><a href="class_util_1_1_ring_buffer.html">Util::RingBuffer</a></div><div class="ttdoc">A ring buffer stores up to a maximum number of elements in a circular fashion.</div><div class="ttdef"><b>Definition</b> ringbuffer.h:21</div></div>
 <div class="ttc" id="aclass_util_1_1_ring_buffer_html_a19209cfd05cb81b5f5691bc9f949b223"><div class="ttname"><a href="class_util_1_1_ring_buffer.html#a19209cfd05cb81b5f5691bc9f949b223">Util::RingBuffer::GetBuffer</a></div><div class="ttdeci">TYPE * GetBuffer()</div><div class="ttdoc">get real linear underlying buffer</div><div class="ttdef"><b>Definition</b> ringbuffer.h:368</div></div>
-<div class="ttc" id="acsmutil_8h_html_a7fbf1534f9e0f0bfdb86fb928902474c"><div class="ttname"><a href="csmutil_8h.html#a7fbf1534f9e0f0bfdb86fb928902474c">FLT_MAX</a></div><div class="ttdeci">#define FLT_MAX</div><div class="ttdef"><b>Definition</b> csmutil.h:17</div></div>
 <div class="ttc" id="anamespace_dynui_html"><div class="ttname"><a href="namespace_dynui.html">Dynui</a></div><div class="ttdoc">Imgui Profiler UI.</div><div class="ttdef"><b>Definition</b> imguiconsole.cc:277</div></div>
 <div class="ttc" id="aringbuffer_8h_html"><div class="ttname"><a href="ringbuffer_8h.html">ringbuffer.h</a></div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>

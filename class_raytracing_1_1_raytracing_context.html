@@ -126,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa0a4d43cf3c4b20727a5be1de34247bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update transforms.  <br /></td></tr>
 <tr class="memitem:a8c641c717248628701352c738171f337" id="r_a8c641c717248628701352c738171f337"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8c641c717248628701352c738171f337">WaitForJobs</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a8c641c717248628701352c738171f337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for jobs to finish.  <br /></td></tr>
-<tr class="memitem:a6f22ad619c51bf99d8b55f3712aa7495" id="r_a6f22ad619c51bf99d8b55f3712aa7495"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6f22ad619c51bf99d8b55f3712aa7495">UpdateViewResources</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:a6f22ad619c51bf99d8b55f3712aa7495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update view constants.  <br /></td></tr>
+<tr class="memitem:a9d8cfecfa09421b973734fa4b7f704d1" id="r_a9d8cfecfa09421b973734fa4b7f704d1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9d8cfecfa09421b973734fa4b7f704d1">UpdateResources</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
+<tr class="memdesc:a9d8cfecfa09421b973734fa4b7f704d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update view constants.  <br /></td></tr>
 <tr class="memitem:af375ee5e9927bbd841a7994844f5d1c9" id="r_af375ee5e9927bbd841a7994844f5d1c9"><td class="memItemLeft">static <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#af375ee5e9927bbd841a7994844f5d1c9">GetLightGridResourceTable</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
 <tr class="memdesc:af375ee5e9927bbd841a7994844f5d1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get light grid resources.  <br /></td></tr>
 <tr class="memitem:a8037ca8b220a81fedea03ec014ce10be" id="r_a8037ca8b220a81fedea03ec014ce10be"><td class="memItemLeft">static <a class="el" href="struct_core_graphics_1_1_tlas_id.html">CoreGraphics::TlasId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8037ca8b220a81fedea03ec014ce10be">GetTLAS</a> ()</td></tr>
@@ -705,6 +705,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d8cfecfa09421b973734fa4b7f704d1" name="a9d8cfecfa09421b973734fa4b7f704d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8cfecfa09421b973734fa4b7f704d1">&#9670;&#160;</a></span>UpdateResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raytracing::RaytracingContext::UpdateResources </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update view constants. </p>
+
+</div>
+</div>
 <a id="aa0a4d43cf3c4b20727a5be1de34247bd" name="aa0a4d43cf3c4b20727a5be1de34247bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0a4d43cf3c4b20727a5be1de34247bd">&#9670;&#160;</a></span>UpdateTransforms()</h2>
 
@@ -729,37 +756,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update transforms. </p>
-
-</div>
-</div>
-<a id="a6f22ad619c51bf99d8b55f3712aa7495" name="a6f22ad619c51bf99d8b55f3712aa7495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f22ad619c51bf99d8b55f3712aa7495">&#9670;&#160;</a></span>UpdateViewResources()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raytracing::RaytracingContext::UpdateViewResources </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_graphics_1_1_view.html">Graphics::View</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update view constants. </p>
 
 </div>
 </div>

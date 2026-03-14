@@ -117,8 +117,8 @@ Classes</h2></td></tr>
 <tr class="memitem:FrameContext" id="r_FrameContext"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_graphics_1_1_frame_context.html">FrameContext</a></td></tr>
 <tr class="memitem:GraphicsServer" id="r_GraphicsServer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_graphics_server.html">GraphicsServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graphics server is the main singleton for the <a class="el" href="namespace_graphics.html" title="Implements the shader server used by Vulkan.">Graphics</a> subsystem.  <a href="class_graphics_1_1_graphics_server.html#details">More...</a><br /></td></tr>
-<tr class="memitem:View" id="r_View"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_view.html">View</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A view describes a camera which can observe a Stage.  <a href="class_graphics_1_1_view.html#details">More...</a><br /></td></tr>
+<tr class="memitem:ViewId" id="r_ViewId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td></tr>
+<tr class="memitem:ViewCreateInfo" id="r_ViewCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_graphics_1_1_view_create_info.html">ViewCreateInfo</a></td></tr>
 <tr class="memitem:LightProbeContext" id="r_LightProbeContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_light_probe_context.html">LightProbeContext</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a light probe component to graphics entities.  <a href="class_graphics_1_1_light_probe_context.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -126,7 +126,28 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:af1b24cb04cf0a3f0739b066dd7050e9e" id="r_af1b24cb04cf0a3f0739b066dd7050e9e"><td class="memItemLeft">typedef uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#af1b24cb04cf0a3f0739b066dd7050e9e">BindlessIndex</a></td></tr>
 <tr class="memitem:a7b763d69e6745e4beb2f99ce55ddb448" id="r_a7b763d69e6745e4beb2f99ce55ddb448"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a7b763d69e6745e4beb2f99ce55ddb448">ViewIndependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
-<tr class="memitem:a9610f2852247451a9ffee8337a59d9f7" id="r_a9610f2852247451a9ffee8337a59d9f7"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a9610f2852247451a9ffee8337a59d9f7">ViewDependentCall</a> = void(*)(const <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>&gt;&amp; view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
+<tr class="memitem:adbfe72d4f892536e2729a5f0f0e554b4" id="r_adbfe72d4f892536e2729a5f0f0e554b4"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#adbfe72d4f892536e2729a5f0f0e554b4">ViewDependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td></tr>
+<tr class="memitem:ac442540a16289a6dd1915a994ba88f09" id="r_ac442540a16289a6dd1915a994ba88f09"><td class="memItemLeft">typedef uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a></td></tr>
+<tr class="memitem:aef5a90df4be30965306478f700b00f83" id="r_aef5a90df4be30965306478f700b00f83"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Shared::ViewConstants::STRUCT, Shared::ShadowViewConstants::STRUCT, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt;, <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>, bool(*)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex), <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>, bool &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aef5a90df4be30965306478f700b00f83">ViewAllocator</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a84a96b71ceae397c5458a00ea585799a" id="r_a84a96b71ceae397c5458a00ea585799a"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a> { <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa70ec51fb0ae909b6c7578c79ad642385">GraphicsQueue</a>
+, <a class="el" href="#a84a96b71ceae397c5458a00ea585799aada4df6ed57842f733a977688998864bf">ComputeQueue</a>
+, <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">NumQueues</a>
+ }</td></tr>
+<tr class="memitem:a8621f50c772bd5322aa0be0d22a31c48" id="r_a8621f50c772bd5322aa0be0d22a31c48"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <br />
+&#160;&#160;<a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48adb3a0d2527ba38864c57d79d69d9691e">View_ViewConstants</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48a0cdb702d6fccdb770c2c507e3fcc2b90">View_ShadowConstants</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48af92d63f039fbdab59faac6c5a0adfa66">View_OutputTarget</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48a6aafd7f8ff55842e29f211606e835f66">View_Viewport</a>
+, <br />
+&#160;&#160;<a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48aa7d2b4e7a94c30dfc8fe2ba0c22e2e4f">View_StageMask</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48ad6899f4268d4b1886c070480e183a731">View_FrameScriptFunc</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48a924c34b6810189bda654387fd21719b8">View_Camera</a>
+, <a class="el" href="#a8621f50c772bd5322aa0be0d22a31c48ad17f84a3880f715ac02d3b646eef92f2">View_Enabled</a>
+<br />
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -158,33 +179,68 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6781b16449e9faff14afe934aee3bb41"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> camera params.  <br /></td></tr>
 <tr class="memitem:ad1770ae0ad7fcee7974da629b13ed4e6" id="r_ad1770ae0ad7fcee7974da629b13ed4e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad1770ae0ad7fcee7974da629b13ed4e6">FlushUpdates</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> buf, const <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queue)</td></tr>
 <tr class="memdesc:ad1770ae0ad7fcee7974da629b13ed4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush constants by recording update command to command buffer.  <br /></td></tr>
-<tr class="memitem:a980149225c78eb59a2b5651982832e2c" id="r_a980149225c78eb59a2b5651982832e2c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a980149225c78eb59a2b5651982832e2c">GetOffsets</a> (uint64_t &amp;tickOffset, uint64_t &amp;viewOffset, uint64_t &amp;shadowOffset)</td></tr>
-<tr class="memdesc:a980149225c78eb59a2b5651982832e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get frame constant offsets.  <br /></td></tr>
+<tr class="memitem:a6e83140b1cedece2a9fb7996ef01d6b0" id="r_a6e83140b1cedece2a9fb7996ef01d6b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6e83140b1cedece2a9fb7996ef01d6b0">GetOffsets</a> (uint64_t &amp;tickOffset, uint64_t &amp;viewOffset, uint64_t &amp;shadowOffset, const <a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a> table)</td></tr>
+<tr class="memdesc:a6e83140b1cedece2a9fb7996ef01d6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get frame constant offsets.  <br /></td></tr>
 <tr class="memitem:a78119aa0098a40b394fa6cec4791f0b9" id="r_a78119aa0098a40b394fa6cec4791f0b9"><td class="memItemLeft">const Shared::PerTickParams::STRUCT &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a78119aa0098a40b394fa6cec4791f0b9">GetTickParams</a> ()</td></tr>
 <tr class="memdesc:a78119aa0098a40b394fa6cec4791f0b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get tick params constant buffer.  <br /></td></tr>
-<tr class="memitem:a343966d57e2226202afe16e4210c8da1" id="r_a343966d57e2226202afe16e4210c8da1"><td class="memItemLeft">const Shared::ViewConstants::STRUCT &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a343966d57e2226202afe16e4210c8da1">GetViewConstants</a> ()</td></tr>
-<tr class="memdesc:a343966d57e2226202afe16e4210c8da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current view constants.  <br /></td></tr>
-<tr class="memitem:a204885ba4ea4c42fb3c99861000ad1b2" id="r_a204885ba4ea4c42fb3c99861000ad1b2"><td class="memItemLeft">const Shared::ShadowViewConstants::STRUCT &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a204885ba4ea4c42fb3c99861000ad1b2">GetShadowViewConstants</a> ()</td></tr>
-<tr class="memdesc:a204885ba4ea4c42fb3c99861000ad1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current shadow view constnats.  <br /></td></tr>
 <tr class="memitem:a08764bcc5eeac2bd2bc4f0b6f236e799" id="r_a08764bcc5eeac2bd2bc4f0b6f236e799"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a08764bcc5eeac2bd2bc4f0b6f236e799">SetGlobalEnvironmentTextures</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &amp;env, const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> &amp;irr, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numMips)</td></tr>
 <tr class="memdesc:a08764bcc5eeac2bd2bc4f0b6f236e799"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> global irradiance and cubemaps.  <br /></td></tr>
 <tr class="memitem:a66ade62c274bcf0c649dee00be28acaf" id="r_a66ade62c274bcf0c649dee00be28acaf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a66ade62c274bcf0c649dee00be28acaf">SetupBufferConstants</a> ()</td></tr>
 <tr class="memdesc:a66ade62c274bcf0c649dee00be28acaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup gbuffer bindings.  <br /></td></tr>
-<tr class="memitem:a5e961733b7439059ef620415bde505f4" id="r_a5e961733b7439059ef620415bde505f4"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5e961733b7439059ef620415bde505f4">GetFrameResourceTable</a> (uint32_t bufferIndex)</td></tr>
-<tr class="memdesc:a5e961733b7439059ef620415bde505f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for graphics.  <br /></td></tr>
-<tr class="memitem:ac94f213ba6c168901d7a14df67e142f2" id="r_ac94f213ba6c168901d7a14df67e142f2"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac94f213ba6c168901d7a14df67e142f2">GetTickResourceTable</a> (uint32_t bufferIndex)</td></tr>
-<tr class="memdesc:ac94f213ba6c168901d7a14df67e142f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for graphics.  <br /></td></tr>
+<tr class="memitem:a0c8348d0e3d04a750882d5c0f59d2aa6" id="r_a0c8348d0e3d04a750882d5c0f59d2aa6"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0c8348d0e3d04a750882d5c0f59d2aa6">GetFrameResourceTable</a> (uint32_t bufferIndex, <a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a> table)</td></tr>
+<tr class="memdesc:a0c8348d0e3d04a750882d5c0f59d2aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for queue.  <br /></td></tr>
+<tr class="memitem:a81d49bd29958e5338cfb82420f442b50" id="r_a81d49bd29958e5338cfb82420f442b50"><td class="memItemLeft">const std::array&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a81d49bd29958e5338cfb82420f442b50">GetFrameResourceTables</a> (uint32_t bufferIndex)</td></tr>
+<tr class="memdesc:a81d49bd29958e5338cfb82420f442b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource tables for all queues.  <br /></td></tr>
+<tr class="memitem:ab81989393c247ae5d55fa375ff8df386" id="r_ab81989393c247ae5d55fa375ff8df386"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab81989393c247ae5d55fa375ff8df386">GetTickResourceTable</a> (uint32_t bufferIndex, <a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a> table)</td></tr>
+<tr class="memdesc:ab81989393c247ae5d55fa375ff8df386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for queue.  <br /></td></tr>
+<tr class="memitem:ae19ee048812ba6859f9353307c98537d" id="r_ae19ee048812ba6859f9353307c98537d"><td class="memItemLeft">const std::array&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae19ee048812ba6859f9353307c98537d">GetTickResourceTables</a> (uint32_t bufferIndex)</td></tr>
+<tr class="memdesc:ae19ee048812ba6859f9353307c98537d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get per-tick resource table for all queues.  <br /></td></tr>
+<tr class="memitem:aa10633911a70315bc111230484569e4a" id="r_aa10633911a70315bc111230484569e4a"><td class="memItemLeft">const std::array&lt; <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa10633911a70315bc111230484569e4a">GetTableQueues</a> ()</td></tr>
+<tr class="memdesc:aa10633911a70315bc111230484569e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the different per-queue resource tables.  <br /></td></tr>
 <tr class="memitem:a485c4a3741be5bef49a946394b817640" id="r_a485c4a3741be5bef49a946394b817640"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a485c4a3741be5bef49a946394b817640">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_graphics_display_event_handler.html">Graphics::GraphicsDisplayEventHandler</a>, 'WGEH', <a class="el" href="class_core_graphics_1_1_display_event_handler.html">CoreGraphics::DisplayEventHandler</a>)</td></tr>
 <tr class="memitem:ab25e54000e4b72509be503cc9635b081" id="r_ab25e54000e4b72509be503cc9635b081"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab25e54000e4b72509be503cc9635b081">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>, 'GFXS', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:a591078e2b9fc77c122e1b3e117354302" id="r_a591078e2b9fc77c122e1b3e117354302"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a591078e2b9fc77c122e1b3e117354302">__ImplementSingleton</a> (<a class="el" href="class_graphics_1_1_graphics_server.html">Graphics::GraphicsServer</a>)</td></tr>
-<tr class="memitem:a58397d37149d05cca58a4a9b450a6e64" id="r_a58397d37149d05cca58a4a9b450a6e64"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a58397d37149d05cca58a4a9b450a6e64">GetStageMask</a> (const uint16_t stageIndex)</td></tr>
 <tr class="memitem:a11a61dfd7f732656a09ecd77b4895486" id="r_a11a61dfd7f732656a09ecd77b4895486"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a11a61dfd7f732656a09ecd77b4895486">CreateEntity</a> ()</td></tr>
 <tr class="memitem:aff7327d8c202a36f5a8534cd8a0e598b" id="r_aff7327d8c202a36f5a8534cd8a0e598b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aff7327d8c202a36f5a8534cd8a0e598b">DestroyEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60" id="r_ac2d20843571a372465d8dba316e0cc60"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ac2d20843571a372465d8dba316e0cc60 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac2d20843571a372465d8dba316e0cc60">RegisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f" id="r_ae29c9e9fcf92d0cd5e781c7efffd9b0f"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
 <tr class="memitem:ae29c9e9fcf92d0cd5e781c7efffd9b0f template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae29c9e9fcf92d0cd5e781c7efffd9b0f">DeregisterEntity</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
-<tr class="memitem:a3e2ab7341b441a793512f2287ee7c33a" id="r_a3e2ab7341b441a793512f2287ee7c33a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3e2ab7341b441a793512f2287ee7c33a">__ImplementClass</a> (<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>, 'VIEW', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
+<tr class="memitem:ac56a266f3ffe6f929f49b3fec12fd887" id="r_ac56a266f3ffe6f929f49b3fec12fd887"><td class="memTemplParams" colspan="2">template&lt;typename ... CONTEXTS&gt; </td></tr>
+<tr class="memitem:ac56a266f3ffe6f929f49b3fec12fd887 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac56a266f3ffe6f929f49b3fec12fd887">DeregisterEntityImmediate</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memitem:aac1b4755ba02fa230dc3450d613d6a99" id="r_aac1b4755ba02fa230dc3450d613d6a99"><td class="memItemLeft"><a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a>&#160;</td><td class="memItemRight"><a class="el" href="#aac1b4755ba02fa230dc3450d613d6a99">CreateView</a> (const <a class="el" href="struct_graphics_1_1_view_create_info.html">ViewCreateInfo</a> &amp;info)</td></tr>
+<tr class="memdesc:aac1b4755ba02fa230dc3450d613d6a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new view.  <br /></td></tr>
+<tr class="memitem:a7a686c40276f32cc29a4c403fb5fae49" id="r_a7a686c40276f32cc29a4c403fb5fae49"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a686c40276f32cc29a4c403fb5fae49">DestroyView</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a7a686c40276f32cc29a4c403fb5fae49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy view.  <br /></td></tr>
+<tr class="memitem:af1d7d77384343d717e174f2ab56bb2e3" id="r_af1d7d77384343d717e174f2ab56bb2e3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af1d7d77384343d717e174f2ab56bb2e3">ViewApply</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:af1d7d77384343d717e174f2ab56bb2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply view.  <br /></td></tr>
+<tr class="memitem:a67a72a4ff431386b73697a8de39cd41a" id="r_a67a72a4ff431386b73697a8de39cd41a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a67a72a4ff431386b73697a8de39cd41a">ViewRender</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)</td></tr>
+<tr class="memdesc:a67a72a4ff431386b73697a8de39cd41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render view.  <br /></td></tr>
+<tr class="memitem:a30abef482930f5e324d1b157304a378f" id="r_a30abef482930f5e324d1b157304a378f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a30abef482930f5e324d1b157304a378f">ViewSetFrameScript</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, bool(*func)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex))</td></tr>
+<tr class="memdesc:a30abef482930f5e324d1b157304a378f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view frame script.  <br /></td></tr>
+<tr class="memitem:a0831691d3ca6d4ee1650a15db6ef62c3" id="r_a0831691d3ca6d4ee1650a15db6ef62c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0831691d3ca6d4ee1650a15db6ef62c3">ViewSetViewport</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
+<tr class="memdesc:a0831691d3ca6d4ee1650a15db6ef62c3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view viewport.  <br /></td></tr>
+<tr class="memitem:a431daae78b8c43c07ff9413ded911344" id="r_a431daae78b8c43c07ff9413ded911344"><td class="memItemLeft">const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a431daae78b8c43c07ff9413ded911344">ViewGetViewport</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a431daae78b8c43c07ff9413ded911344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view viewport.  <br /></td></tr>
+<tr class="memitem:acaa54f6ebd2c9729822800067af7c46c" id="r_acaa54f6ebd2c9729822800067af7c46c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acaa54f6ebd2c9729822800067af7c46c">ViewSetCamera</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> &amp;camera)</td></tr>
+<tr class="memdesc:acaa54f6ebd2c9729822800067af7c46c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view camera.  <br /></td></tr>
+<tr class="memitem:ac23ba45563880d0396b291be534d5ba2" id="r_ac23ba45563880d0396b291be534d5ba2"><td class="memItemLeft">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac23ba45563880d0396b291be534d5ba2">ViewGetCamera</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:ac23ba45563880d0396b291be534d5ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view camera.  <br /></td></tr>
+<tr class="memitem:a9647655331e265003304fc7f8cba0aa8" id="r_a9647655331e265003304fc7f8cba0aa8"><td class="memItemLeft">Shared::ViewConstants::STRUCT &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9647655331e265003304fc7f8cba0aa8">ViewGetViewConstants</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a9647655331e265003304fc7f8cba0aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view constants.  <br /></td></tr>
+<tr class="memitem:a01c9c12fa6444f654c0dbd851b55cd5d" id="r_a01c9c12fa6444f654c0dbd851b55cd5d"><td class="memItemLeft">Shared::ShadowViewConstants::STRUCT &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a01c9c12fa6444f654c0dbd851b55cd5d">ViewGetShadowConstants</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a01c9c12fa6444f654c0dbd851b55cd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shadow view constants.  <br /></td></tr>
+<tr class="memitem:ac5169fad484c1a401524be053b1e7f42" id="r_ac5169fad484c1a401524be053b1e7f42"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac5169fad484c1a401524be053b1e7f42">ViewSetStageMask</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stage)</td></tr>
+<tr class="memdesc:ac5169fad484c1a401524be053b1e7f42"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view stage.  <br /></td></tr>
+<tr class="memitem:a694379af30e646711a897decae333d3d" id="r_a694379af30e646711a897decae333d3d"><td class="memItemLeft">const <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#a694379af30e646711a897decae333d3d">ViewGetStageMask</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a694379af30e646711a897decae333d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get view stage.  <br /></td></tr>
+<tr class="memitem:a8c85ea4740bc8da4efaa31596a2a2b66" id="r_a8c85ea4740bc8da4efaa31596a2a2b66"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c85ea4740bc8da4efaa31596a2a2b66">ViewEnable</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a8c85ea4740bc8da4efaa31596a2a2b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable view.  <br /></td></tr>
+<tr class="memitem:a02b413ad4f12e977e992836413ae41d9" id="r_a02b413ad4f12e977e992836413ae41d9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02b413ad4f12e977e992836413ae41d9">ViewDisable</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a02b413ad4f12e977e992836413ae41d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable view.  <br /></td></tr>
+<tr class="memitem:a7b1ed9964bba6aff2ec6c2188743bd73" id="r_a7b1ed9964bba6aff2ec6c2188743bd73"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7b1ed9964bba6aff2ec6c2188743bd73">ViewIsEnabled</a> (const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a7b1ed9964bba6aff2ec6c2188743bd73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if view is enabled.  <br /></td></tr>
+<tr class="memitem:ad5a747bf6f2d6846d4d603397bc5c546" id="r_ad5a747bf6f2d6846d4d603397bc5c546"><td class="memItemLeft">static constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad5a747bf6f2d6846d4d603397bc5c546">StageMaskFromIndex</a> (const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stageIndex)</td></tr>
 <tr class="memitem:a7eae413ac63ff9ea24afc48f80ea8fb0" id="r_a7eae413ac63ff9ea24afc48f80ea8fb0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7eae413ac63ff9ea24afc48f80ea8fb0">__ImplementContext</a> (<a class="el" href="class_graphics_1_1_light_probe_context.html">LightProbeContext</a>, <a class="el" href="class_graphics_1_1_light_probe_context.html#a7d0f6c1f242d2461be6814b06fb0ace4">LightProbeContext::lightProbeAllocator</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -210,8 +266,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a9964025838d14be67010e27100a402ab" id="r_a9964025838d14be67010e27100a402ab"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;&#160;&#160;<a class="el" href="#a76e5f57edf2e865d13a24d4efc2e24c4">Graphics::r_show_env_params</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ab843a75fedc41681ec40258ccce92549" id="r_ab843a75fedc41681ec40258ccce92549"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#ab843a75fedc41681ec40258ccce92549">envState</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">struct {&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a65ba26afb38e551121ef5cb6c0135964" id="r_a65ba26afb38e551121ef5cb6c0135964"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a8344a86968ae4dc8211b362a65fd4824">Graphics::frameResourceTables</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a8c0cebca762eba9e46589e0603cdff83" id="r_a8c0cebca762eba9e46589e0603cdff83"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a890bc0ebd84f16b277361637b4f0dee5">Graphics::tickResourceTables</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:af6d1e0e33695c0d06d6337d238bac1a1" id="r_af6d1e0e33695c0d06d6337d238bac1a1"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a6042b5f84bd09b0a7bfa34526623c264">Graphics::frameResourceTables</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a012adde03fcae9b090eefb0f044e66fd" id="r_a012adde03fcae9b090eefb0f044e66fd"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> &gt;&#160;&#160;&#160;<a class="el" href="#ab7ff38bc48b6778b3fe36e0ba13829eb">Graphics::tickResourceTables</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac7112c98728f6c86200181f57f646bed" id="r_ac7112c98728f6c86200181f57f646bed"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">CoreGraphics::ResourcePipelineId</a>&#160;&#160;&#160;<a class="el" href="#a3e836041d48bb488575019ebaff5231e">Graphics::tableLayout</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:af6cf3effc201a26d19e26978a9903c28" id="r_af6cf3effc201a26d19e26978a9903c28"><td class="memItemLeft anon">&#160;&#160;&#160;Shared::PerTickParams::STRUCT&#160;&#160;&#160;<a class="el" href="#ab5ea5f82204cfe049dd6dc21b974d2cf">Graphics::tickParams</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">&#160;&#160;&#160;union <b>DirtySet</b> {&#160;</td><td class="memItemRight"></td></tr>
@@ -222,17 +278,19 @@ Variables</h2></td></tr>
 <tr class="memitem:aa81cea14f463aae93352d76010ccf41e" id="r_aa81cea14f463aae93352d76010ccf41e"><td class="memItemLeft anon">&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="#aeb2692e7c64090fb027ce662c28ae035">Graphics::bits</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:aae39d47bcfac4ed7930483076426a9fc" id="r_aae39d47bcfac4ed7930483076426a9fc"><td class="memItemLeft anonEnd">&#160;&#160;&#160;}&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a18153694974cdb2e16a2e0e954ef0a28" id="r_a18153694974cdb2e16a2e0e954ef0a28"><td class="memItemLeft anon">&#160;&#160;&#160;DirtySet&#160;&#160;&#160;<a class="el" href="#a003c4ea073606d8685b2b764da792db3">Graphics::tickParamsDirty</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a30d3b007d6d06437c84f12be1dae6193" id="r_a30d3b007d6d06437c84f12be1dae6193"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#a48287be0ba3f6744cbd98ae33619531a">Graphics::tickCboOffset</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:a44e20f44dfc70eb0b32d5c109130cc11" id="r_a44e20f44dfc70eb0b32d5c109130cc11"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#a6eca14f1be9056282ba901d2948192be">Graphics::viewCboOffset</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:aa368690fb72bb2080d0d2b57a06bc68a" id="r_aa368690fb72bb2080d0d2b57a06bc68a"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#a252ec90e8663b9866ae5baefa8c3f368">Graphics::shadowViewCboOffset</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:afa70e4ee35211909e0b1157457eb5fe0" id="r_afa70e4ee35211909e0b1157457eb5fe0"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#ac907293ce60b5205680f5e2d4939e4d9">Graphics::tickCboOffset</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a8a163246591632d0528e3a8210e70756" id="r_a8a163246591632d0528e3a8210e70756"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#a6ef095bea151436f025865375df38fae">Graphics::viewCboOffset</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:ad1bf53876c5dd87f87d64b13ba25d0ec" id="r_ad1bf53876c5dd87f87d64b13ba25d0ec"><td class="memItemLeft anon">&#160;&#160;&#160;uint64_t&#160;&#160;&#160;<a class="el" href="#acd50484bbda1fa34786177243b7662c4">Graphics::shadowViewCboOffset</a> [(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a6ee5f9d083ba58c7d737bc6580b60af7" id="r_a6ee5f9d083ba58c7d737bc6580b60af7"><td class="memItemLeft anon">&#160;&#160;&#160;Shared::ViewConstants::STRUCT&#160;&#160;&#160;<a class="el" href="#aa2c43db81d54f711247c5abf6627bcd7">Graphics::viewConstants</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a0740fd75602ed88a1caa5065e80614f7" id="r_a0740fd75602ed88a1caa5065e80614f7"><td class="memItemLeft anon">&#160;&#160;&#160;Shared::ShadowViewConstants::STRUCT&#160;&#160;&#160;<a class="el" href="#a95d71de5135df46379d4a12c980aedc5">Graphics::shadowViewConstants</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a9a91bcb803fd4bb6abed3cddbb0a0ad7" id="r_a9a91bcb803fd4bb6abed3cddbb0a0ad7"><td class="memItemLeft anon">&#160;&#160;&#160;DirtySet&#160;&#160;&#160;<a class="el" href="#aadda66171635f5ad281f5214130d1134">Graphics::viewConstantsDirty</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac7f1e1c2913a329103ab86832d2c0d6e" id="r_ac7f1e1c2913a329103ab86832d2c0d6e"><td class="memItemLeft anon">&#160;&#160;&#160;DirtySet&#160;&#160;&#160;<a class="el" href="#af5fdc5d0145d2ff98196b0a2b41f479a">Graphics::shadowViewConstantsDirty</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac6b63c6955384a895cae49ee7ba060e7" id="r_ac6b63c6955384a895cae49ee7ba060e7"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#ac6b63c6955384a895cae49ee7ba060e7">globalConstantState</a></td></tr>
-<tr class="memitem:a2737a465294a7958b3a05e5b61a12810" id="r_a2737a465294a7958b3a05e5b61a12810"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> = 0x1</td></tr>
-<tr class="memitem:a62ad3342d89bba399f66ceab697c624d" id="r_a62ad3342d89bba399f66ceab697c624d"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a> = 0x2</td></tr>
-<tr class="memitem:a780aaa72a310643213227d7634ad66b1" id="r_a780aaa72a310643213227d7634ad66b1"><td class="memItemLeft">static constexpr uint16_t&#160;</td><td class="memItemRight"><a class="el" href="#a780aaa72a310643213227d7634ad66b1">DEFAULT_STAGE_MASK</a> = <a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td></tr>
+<tr class="memitem:a16b2b9b22b795340d7b2ea8c6fdf5ad9" id="r_a16b2b9b22b795340d7b2ea8c6fdf5ad9"><td class="memItemLeft"><a class="el" href="#aef5a90df4be30965306478f700b00f83">ViewAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a16b2b9b22b795340d7b2ea8c6fdf5ad9">viewAllocator</a></td></tr>
+<tr class="memitem:a81e0a223880451039c41b9901949a8bb" id="r_a81e0a223880451039c41b9901949a8bb"><td class="memItemLeft">static constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#a81e0a223880451039c41b9901949a8bb">PRIMARY_STAGE_MASK</a> = 0x1</td></tr>
+<tr class="memitem:a5aa2e45f2a26da2b6c1e844ef635549e" id="r_a5aa2e45f2a26da2b6c1e844ef635549e"><td class="memItemLeft">static constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5aa2e45f2a26da2b6c1e844ef635549e">SHADOW_STAGE_MASK</a> = 0x2</td></tr>
+<tr class="memitem:ab7e60dc0515b73f6d60c0654457ebf7a" id="r_ab7e60dc0515b73f6d60c0654457ebf7a"><td class="memItemLeft">static constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab7e60dc0515b73f6d60c0654457ebf7a">DEFAULT_STAGE_MASK</a> = <a class="el" href="#a81e0a223880451039c41b9901949a8bb">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a5aa2e45f2a26da2b6c1e844ef635549e">SHADOW_STAGE_MASK</a></td></tr>
+<tr class="memitem:ad16e327acbe3f1107d52309b1b3359e0" id="r_ad16e327acbe3f1107d52309b1b3359e0"><td class="memItemLeft">static constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad16e327acbe3f1107d52309b1b3359e0">ALL_STAGE_MASK</a> = 0xFFFF</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="af1b24cb04cf0a3f0739b066dd7050e9e" name="af1b24cb04cf0a3f0739b066dd7050e9e"></a>
@@ -249,14 +307,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9610f2852247451a9ffee8337a59d9f7" name="a9610f2852247451a9ffee8337a59d9f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9610f2852247451a9ffee8337a59d9f7">&#9670;&#160;</a></span>ViewDependentCall</h2>
+<a id="ac442540a16289a6dd1915a994ba88f09" name="ac442540a16289a6dd1915a994ba88f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac442540a16289a6dd1915a994ba88f09">&#9670;&#160;</a></span>StageMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a9610f2852247451a9ffee8337a59d9f7">Graphics::ViewDependentCall</a> = void(*)(const <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_graphics_1_1_view.html">Graphics::View</a>&gt;&amp; view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td>
+          <td class="memname">typedef uint16_t <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef5a90df4be30965306478f700b00f83" name="aef5a90df4be30965306478f700b00f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5a90df4be30965306478f700b00f83">&#9670;&#160;</a></span>ViewAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; Shared::ViewConstants::STRUCT, Shared::ShadowViewConstants::STRUCT, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>, <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt;int&gt;, <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>, bool (*)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt;int&gt;&amp; viewport, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex), <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a>, bool&gt; <a class="el" href="#aef5a90df4be30965306478f700b00f83">Graphics::ViewAllocator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbfe72d4f892536e2729a5f0f0e554b4" name="adbfe72d4f892536e2729a5f0f0e554b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbfe72d4f892536e2729a5f0f0e554b4">&#9670;&#160;</a></span>ViewDependentCall</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#adbfe72d4f892536e2729a5f0f0e554b4">Graphics::ViewDependentCall</a> = void(*)(const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> view, const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a>&amp; ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -277,9 +363,61 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a8621f50c772bd5322aa0be0d22a31c48" name="a8621f50c772bd5322aa0be0d22a31c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8621f50c772bd5322aa0be0d22a31c48">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48adb3a0d2527ba38864c57d79d69d9691e" name="a8621f50c772bd5322aa0be0d22a31c48adb3a0d2527ba38864c57d79d69d9691e"></a>View_ViewConstants&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48a0cdb702d6fccdb770c2c507e3fcc2b90" name="a8621f50c772bd5322aa0be0d22a31c48a0cdb702d6fccdb770c2c507e3fcc2b90"></a>View_ShadowConstants&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48af92d63f039fbdab59faac6c5a0adfa66" name="a8621f50c772bd5322aa0be0d22a31c48af92d63f039fbdab59faac6c5a0adfa66"></a>View_OutputTarget&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48a6aafd7f8ff55842e29f211606e835f66" name="a8621f50c772bd5322aa0be0d22a31c48a6aafd7f8ff55842e29f211606e835f66"></a>View_Viewport&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48aa7d2b4e7a94c30dfc8fe2ba0c22e2e4f" name="a8621f50c772bd5322aa0be0d22a31c48aa7d2b4e7a94c30dfc8fe2ba0c22e2e4f"></a>View_StageMask&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48ad6899f4268d4b1886c070480e183a731" name="a8621f50c772bd5322aa0be0d22a31c48ad6899f4268d4b1886c070480e183a731"></a>View_FrameScriptFunc&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48a924c34b6810189bda654387fd21719b8" name="a8621f50c772bd5322aa0be0d22a31c48a924c34b6810189bda654387fd21719b8"></a>View_Camera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8621f50c772bd5322aa0be0d22a31c48ad17f84a3880f715ac02d3b646eef92f2" name="a8621f50c772bd5322aa0be0d22a31c48ad17f84a3880f715ac02d3b646eef92f2"></a>View_Enabled&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a84a96b71ceae397c5458a00ea585799a" name="a84a96b71ceae397c5458a00ea585799a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a96b71ceae397c5458a00ea585799a">&#9670;&#160;</a></span>GlobalTables</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a84a96b71ceae397c5458a00ea585799a">Graphics::GlobalTables</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a84a96b71ceae397c5458a00ea585799aa70ec51fb0ae909b6c7578c79ad642385" name="a84a96b71ceae397c5458a00ea585799aa70ec51fb0ae909b6c7578c79ad642385"></a>GraphicsQueue&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84a96b71ceae397c5458a00ea585799aada4df6ed57842f733a977688998864bf" name="a84a96b71ceae397c5458a00ea585799aada4df6ed57842f733a977688998864bf"></a>ComputeQueue&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914" name="a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914"></a>NumQueues&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a485c4a3741be5bef49a946394b817640" name="a485c4a3741be5bef49a946394b817640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a485c4a3741be5bef49a946394b817640">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a485c4a3741be5bef49a946394b817640">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,7 +443,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab25e54000e4b72509be503cc9635b081" name="ab25e54000e4b72509be503cc9635b081"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab25e54000e4b72509be503cc9635b081">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25e54000e4b72509be503cc9635b081">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,32 +457,6 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">'GFXS'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e2ab7341b441a793512f2287ee7c33a" name="a3e2ab7341b441a793512f2287ee7c33a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2ab7341b441a793512f2287ee7c33a">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_core.html#a0c671025313676e7d965fe0f944f4e20">Graphics::__ImplementClass</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_graphics_1_1_view.html">Graphics::View</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'VIEW'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -576,6 +688,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aac1b4755ba02fa230dc3450d613d6a99" name="aac1b4755ba02fa230dc3450d613d6a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1b4755ba02fa230dc3450d613d6a99">&#9670;&#160;</a></span>CreateView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a> Graphics::CreateView </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_create_info.html">ViewCreateInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new view. </p>
+
+</div>
+</div>
 <a id="ae29c9e9fcf92d0cd5e781c7efffd9b0f" name="ae29c9e9fcf92d0cd5e781c7efffd9b0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae29c9e9fcf92d0cd5e781c7efffd9b0f">&#9670;&#160;</a></span>DeregisterEntity()</h2>
 
@@ -589,6 +720,33 @@ template&lt;typename ... CONTEXTS&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void Graphics::DeregisterEntity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac56a266f3ffe6f929f49b3fec12fd887" name="ac56a266f3ffe6f929f49b3fec12fd887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56a266f3ffe6f929f49b3fec12fd887">&#9670;&#160;</a></span>DeregisterEntityImmediate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ... CONTEXTS&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::DeregisterEntityImmediate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
           <td></td>
@@ -666,6 +824,25 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="a7a686c40276f32cc29a4c403fb5fae49" name="a7a686c40276f32cc29a4c403fb5fae49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a686c40276f32cc29a4c403fb5fae49">&#9670;&#160;</a></span>DestroyView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::DestroyView </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy view. </p>
+
+</div>
+</div>
 <a id="ad1770ae0ad7fcee7974da629b13ed4e6" name="ad1770ae0ad7fcee7974da629b13ed4e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1770ae0ad7fcee7974da629b13ed4e6">&#9670;&#160;</a></span>FlushUpdates()</h2>
 
@@ -689,8 +866,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a5e961733b7439059ef620415bde505f4" name="a5e961733b7439059ef620415bde505f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e961733b7439059ef620415bde505f4">&#9670;&#160;</a></span>GetFrameResourceTable()</h2>
+<a id="a0c8348d0e3d04a750882d5c0f59d2aa6" name="a0c8348d0e3d04a750882d5c0f59d2aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8348d0e3d04a750882d5c0f59d2aa6">&#9670;&#160;</a></span>GetFrameResourceTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -698,18 +875,41 @@ template&lt;typename ... CONTEXTS&gt; </div>
         <tr>
           <td class="memname">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> Graphics::GetFrameResourceTable </td>
           <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get per-tick resource table for queue. </p>
+
+</div>
+</div>
+<a id="a81d49bd29958e5338cfb82420f442b50" name="a81d49bd29958e5338cfb82420f442b50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d49bd29958e5338cfb82420f442b50">&#9670;&#160;</a></span>GetFrameResourceTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::array&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt; Graphics::GetFrameResourceTables </td>
+          <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get per-tick resource table for graphics. </p>
+<p>Get per-tick resource tables for all queues. </p>
 
 </div>
 </div>
-<a id="a980149225c78eb59a2b5651982832e2c" name="a980149225c78eb59a2b5651982832e2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a980149225c78eb59a2b5651982832e2c">&#9670;&#160;</a></span>GetOffsets()</h2>
+<a id="a6e83140b1cedece2a9fb7996ef01d6b0" name="a6e83140b1cedece2a9fb7996ef01d6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e83140b1cedece2a9fb7996ef01d6b0">&#9670;&#160;</a></span>GetOffsets()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -727,7 +927,12 @@ template&lt;typename ... CONTEXTS&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint64_t &amp;</td>          <td class="paramname"><span class="paramname"><em>shadowOffset</em></span>&#160;)</td>
+          <td class="paramtype">uint64_t &amp;</td>          <td class="paramname"><span class="paramname"><em>shadowOffset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -736,14 +941,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a204885ba4ea4c42fb3c99861000ad1b2" name="a204885ba4ea4c42fb3c99861000ad1b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a204885ba4ea4c42fb3c99861000ad1b2">&#9670;&#160;</a></span>GetShadowViewConstants()</h2>
+<a id="aa10633911a70315bc111230484569e4a" name="aa10633911a70315bc111230484569e4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10633911a70315bc111230484569e4a">&#9670;&#160;</a></span>GetTableQueues()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const Shared::ShadowViewConstants::STRUCT &amp; Graphics::GetShadowViewConstants </td>
+          <td class="memname">const std::array&lt; <a class="el" href="namespace_core_graphics.html#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt; Graphics::GetTableQueues </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -751,32 +956,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Get current shadow view constnats. </p>
-
-</div>
-</div>
-<a id="a58397d37149d05cca58a4a9b450a6e64" name="a58397d37149d05cca58a4a9b450a6e64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58397d37149d05cca58a4a9b450a6e64">&#9670;&#160;</a></span>GetStageMask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr uint16_t Graphics::GetStageMask </td>
-          <td>(</td>
-          <td class="paramtype">const uint16_t</td>          <td class="paramname"><span class="paramname"><em>stageIndex</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Get the different per-queue resource tables. </p>
 
 </div>
 </div>
@@ -799,8 +979,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="ac94f213ba6c168901d7a14df67e142f2" name="ac94f213ba6c168901d7a14df67e142f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac94f213ba6c168901d7a14df67e142f2">&#9670;&#160;</a></span>GetTickResourceTable()</h2>
+<a id="ab81989393c247ae5d55fa375ff8df386" name="ab81989393c247ae5d55fa375ff8df386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81989393c247ae5d55fa375ff8df386">&#9670;&#160;</a></span>GetTickResourceTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,32 +988,36 @@ template&lt;typename ... CONTEXTS&gt; </div>
         <tr>
           <td class="memname">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> Graphics::GetTickResourceTable </td>
           <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a84a96b71ceae397c5458a00ea585799a">GlobalTables</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get per-tick resource table for queue. </p>
+
+</div>
+</div>
+<a id="ae19ee048812ba6859f9353307c98537d" name="ae19ee048812ba6859f9353307c98537d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae19ee048812ba6859f9353307c98537d">&#9670;&#160;</a></span>GetTickResourceTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::array&lt; <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>,(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a> &gt; Graphics::GetTickResourceTables </td>
+          <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get per-tick resource table for graphics. </p>
-
-</div>
-</div>
-<a id="a343966d57e2226202afe16e4210c8da1" name="a343966d57e2226202afe16e4210c8da1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a343966d57e2226202afe16e4210c8da1">&#9670;&#160;</a></span>GetViewConstants()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Shared::ViewConstants::STRUCT &amp; Graphics::GetViewConstants </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get current view constants. </p>
+<p>Get per-tick resource table for all queues. </p>
 
 </div>
 </div>
@@ -982,6 +1166,31 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="ad5a747bf6f2d6846d4d603397bc5c546" name="ad5a747bf6f2d6846d4d603397bc5c546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a747bf6f2d6846d4d603397bc5c546">&#9670;&#160;</a></span>StageMaskFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a> Graphics::StageMaskFromIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>stageIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3766a4d1a20ed62ca32890a0e42ce700" name="a3766a4d1a20ed62ca32890a0e42ce700"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3766a4d1a20ed62ca32890a0e42ce700">&#9670;&#160;</a></span>UnregisterTexture()</h2>
 
@@ -1062,7 +1271,325 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
+<a id="af1d7d77384343d717e174f2ab56bb2e3" name="af1d7d77384343d717e174f2ab56bb2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1d7d77384343d717e174f2ab56bb2e3">&#9670;&#160;</a></span>ViewApply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewApply </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply view. </p>
+
+</div>
+</div>
+<a id="a02b413ad4f12e977e992836413ae41d9" name="a02b413ad4f12e977e992836413ae41d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b413ad4f12e977e992836413ae41d9">&#9670;&#160;</a></span>ViewDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewDisable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable view. </p>
+
+</div>
+</div>
+<a id="a8c85ea4740bc8da4efaa31596a2a2b66" name="a8c85ea4740bc8da4efaa31596a2a2b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c85ea4740bc8da4efaa31596a2a2b66">&#9670;&#160;</a></span>ViewEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewEnable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable view. </p>
+
+</div>
+</div>
+<a id="ac23ba45563880d0396b291be534d5ba2" name="ac23ba45563880d0396b291be534d5ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23ba45563880d0396b291be534d5ba2">&#9670;&#160;</a></span>ViewGetCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> &amp; Graphics::ViewGetCamera </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get view camera. </p>
+
+</div>
+</div>
+<a id="a01c9c12fa6444f654c0dbd851b55cd5d" name="a01c9c12fa6444f654c0dbd851b55cd5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c9c12fa6444f654c0dbd851b55cd5d">&#9670;&#160;</a></span>ViewGetShadowConstants()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shared::ShadowViewConstants::STRUCT &amp; Graphics::ViewGetShadowConstants </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get shadow view constants. </p>
+
+</div>
+</div>
+<a id="a694379af30e646711a897decae333d3d" name="a694379af30e646711a897decae333d3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a694379af30e646711a897decae333d3d">&#9670;&#160;</a></span>ViewGetStageMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> Graphics::ViewGetStageMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get view stage. </p>
+
+</div>
+</div>
+<a id="a9647655331e265003304fc7f8cba0aa8" name="a9647655331e265003304fc7f8cba0aa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9647655331e265003304fc7f8cba0aa8">&#9670;&#160;</a></span>ViewGetViewConstants()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shared::ViewConstants::STRUCT &amp; Graphics::ViewGetViewConstants </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get view constants. </p>
+
+</div>
+</div>
+<a id="a431daae78b8c43c07ff9413ded911344" name="a431daae78b8c43c07ff9413ded911344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431daae78b8c43c07ff9413ded911344">&#9670;&#160;</a></span>ViewGetViewport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp; Graphics::ViewGetViewport </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get view viewport. </p>
+
+</div>
+</div>
+<a id="a7b1ed9964bba6aff2ec6c2188743bd73" name="a7b1ed9964bba6aff2ec6c2188743bd73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b1ed9964bba6aff2ec6c2188743bd73">&#9670;&#160;</a></span>ViewIsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Graphics::ViewIsEnabled </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if view is enabled. </p>
+
+</div>
+</div>
+<a id="a67a72a4ff431386b73697a8de39cd41a" name="a67a72a4ff431386b73697a8de39cd41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67a72a4ff431386b73697a8de39cd41a">&#9670;&#160;</a></span>ViewRender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Graphics::ViewRender </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>frameIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>time</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>bufferIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Render view. </p>
+
+</div>
+</div>
+<a id="acaa54f6ebd2c9729822800067af7c46c" name="acaa54f6ebd2c9729822800067af7c46c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa54f6ebd2c9729822800067af7c46c">&#9670;&#160;</a></span>ViewSetCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewSetCamera </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">GraphicsEntityId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view camera. </p>
+
+</div>
+</div>
+<a id="a30abef482930f5e324d1b157304a378f" name="a30abef482930f5e324d1b157304a378f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30abef482930f5e324d1b157304a378f">&#9670;&#160;</a></span>ViewSetFrameScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewSetFrameScript </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;viewport, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> frameIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> bufferIndex)&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view frame script. </p>
+
+</div>
+</div>
+<a id="ac5169fad484c1a401524be053b1e7f42" name="ac5169fad484c1a401524be053b1e7f42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5169fad484c1a401524be053b1e7f42">&#9670;&#160;</a></span>ViewSetStageMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewSetStageMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stage</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view stage. </p>
+
+</div>
+</div>
+<a id="a0831691d3ca6d4ee1650a15db6ef62c3" name="a0831691d3ca6d4ee1650a15db6ef62c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0831691d3ca6d4ee1650a15db6ef62c3">&#9670;&#160;</a></span>ViewSetViewport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::ViewSetViewport </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_view_id.html">ViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>rect</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> view viewport. </p>
+
+</div>
+</div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ad16e327acbe3f1107d52309b1b3359e0" name="ad16e327acbe3f1107d52309b1b3359e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16e327acbe3f1107d52309b1b3359e0">&#9670;&#160;</a></span>ALL_STAGE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a> Graphics::ALL_STAGE_MASK = 0xFFFF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaaaf0c2b35c4bc2cb8e57624311ad4e1" name="aaaaf0c2b35c4bc2cb8e57624311ad4e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaaaf0c2b35c4bc2cb8e57624311ad4e1">&#9670;&#160;</a></span>bindResourceCriticalSection</h2>
 
@@ -1133,8 +1660,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a780aaa72a310643213227d7634ad66b1" name="a780aaa72a310643213227d7634ad66b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a780aaa72a310643213227d7634ad66b1">&#9670;&#160;</a></span>DEFAULT_STAGE_MASK</h2>
+<a id="ab7e60dc0515b73f6d60c0654457ebf7a" name="ab7e60dc0515b73f6d60c0654457ebf7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e60dc0515b73f6d60c0654457ebf7a">&#9670;&#160;</a></span>DEFAULT_STAGE_MASK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1143,7 +1670,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t Graphics::DEFAULT_STAGE_MASK = <a class="el" href="#a2737a465294a7958b3a05e5b61a12810">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a62ad3342d89bba399f66ceab697c624d">SHADOW_STAGE_MASK</a></td>
+          <td class="memname"><a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a> Graphics::DEFAULT_STAGE_MASK = <a class="el" href="#a81e0a223880451039c41b9901949a8bb">PRIMARY_STAGE_MASK</a> | <a class="el" href="#a5aa2e45f2a26da2b6c1e844ef635549e">SHADOW_STAGE_MASK</a></td>
         </tr>
       </table>
   </td>
@@ -1239,14 +1766,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a8344a86968ae4dc8211b362a65fd4824" name="a8344a86968ae4dc8211b362a65fd4824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8344a86968ae4dc8211b362a65fd4824">&#9670;&#160;</a></span>frameResourceTables</h2>
+<a id="a6042b5f84bd09b0a7bfa34526623c264" name="a6042b5f84bd09b0a7bfa34526623c264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6042b5f84bd09b0a7bfa34526623c264">&#9670;&#160;</a></span>frameResourceTables</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&gt; Graphics::frameResourceTables</td>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&gt; Graphics::frameResourceTables[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1309,8 +1836,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a2737a465294a7958b3a05e5b61a12810" name="a2737a465294a7958b3a05e5b61a12810"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2737a465294a7958b3a05e5b61a12810">&#9670;&#160;</a></span>PRIMARY_STAGE_MASK</h2>
+<a id="a81e0a223880451039c41b9901949a8bb" name="a81e0a223880451039c41b9901949a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81e0a223880451039c41b9901949a8bb">&#9670;&#160;</a></span>PRIMARY_STAGE_MASK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1319,7 +1846,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t Graphics::PRIMARY_STAGE_MASK = 0x1</td>
+          <td class="memname"><a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a> Graphics::PRIMARY_STAGE_MASK = 0x1</td>
         </tr>
       </table>
   </td>
@@ -1359,8 +1886,8 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a62ad3342d89bba399f66ceab697c624d" name="a62ad3342d89bba399f66ceab697c624d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62ad3342d89bba399f66ceab697c624d">&#9670;&#160;</a></span>SHADOW_STAGE_MASK</h2>
+<a id="a5aa2e45f2a26da2b6c1e844ef635549e" name="a5aa2e45f2a26da2b6c1e844ef635549e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa2e45f2a26da2b6c1e844ef635549e">&#9670;&#160;</a></span>SHADOW_STAGE_MASK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1369,7 +1896,7 @@ template&lt;typename ... CONTEXTS&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t Graphics::SHADOW_STAGE_MASK = 0x2</td>
+          <td class="memname"><a class="el" href="#ac442540a16289a6dd1915a994ba88f09">StageMask</a> Graphics::SHADOW_STAGE_MASK = 0x2</td>
         </tr>
       </table>
   </td>
@@ -1381,14 +1908,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a252ec90e8663b9866ae5baefa8c3f368" name="a252ec90e8663b9866ae5baefa8c3f368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a252ec90e8663b9866ae5baefa8c3f368">&#9670;&#160;</a></span>shadowViewCboOffset</h2>
+<a id="acd50484bbda1fa34786177243b7662c4" name="acd50484bbda1fa34786177243b7662c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd50484bbda1fa34786177243b7662c4">&#9670;&#160;</a></span>shadowViewCboOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t Graphics::shadowViewCboOffset</td>
+          <td class="memname">uint64_t Graphics::shadowViewCboOffset[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1507,14 +2034,14 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a48287be0ba3f6744cbd98ae33619531a" name="a48287be0ba3f6744cbd98ae33619531a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48287be0ba3f6744cbd98ae33619531a">&#9670;&#160;</a></span>tickCboOffset</h2>
+<a id="ac907293ce60b5205680f5e2d4939e4d9" name="ac907293ce60b5205680f5e2d4939e4d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac907293ce60b5205680f5e2d4939e4d9">&#9670;&#160;</a></span>tickCboOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t Graphics::tickCboOffset</td>
+          <td class="memname">uint64_t Graphics::tickCboOffset[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1549,28 +2076,42 @@ template&lt;typename ... CONTEXTS&gt; </div>
 
 </div>
 </div>
-<a id="a890bc0ebd84f16b277361637b4f0dee5" name="a890bc0ebd84f16b277361637b4f0dee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a890bc0ebd84f16b277361637b4f0dee5">&#9670;&#160;</a></span>tickResourceTables</h2>
+<a id="ab7ff38bc48b6778b3fe36e0ba13829eb" name="ab7ff38bc48b6778b3fe36e0ba13829eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7ff38bc48b6778b3fe36e0ba13829eb">&#9670;&#160;</a></span>tickResourceTables</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&gt; Graphics::tickResourceTables</td>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&gt; Graphics::tickResourceTables[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6eca14f1be9056282ba901d2948192be" name="a6eca14f1be9056282ba901d2948192be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eca14f1be9056282ba901d2948192be">&#9670;&#160;</a></span>viewCboOffset</h2>
+<a id="a16b2b9b22b795340d7b2ea8c6fdf5ad9" name="a16b2b9b22b795340d7b2ea8c6fdf5ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b2b9b22b795340d7b2ea8c6fdf5ad9">&#9670;&#160;</a></span>viewAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t Graphics::viewCboOffset</td>
+          <td class="memname"><a class="el" href="#aef5a90df4be30965306478f700b00f83">ViewAllocator</a> Graphics::viewAllocator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ef095bea151436f025865375df38fae" name="a6ef095bea151436f025865375df38fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ef095bea151436f025865375df38fae">&#9670;&#160;</a></span>viewCboOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Graphics::viewCboOffset[(<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>) <a class="el" href="#a84a96b71ceae397c5458a00ea585799aa739bbc164d7ae7537a72d8d829c4f914">GlobalTables::NumQueues</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">

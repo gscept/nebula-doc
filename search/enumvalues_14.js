@@ -121,7 +121,5 @@ var searchData=
   ['tube_118',['Tube',['../class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8ad70188f9e47cbdf2c73e82661025bcd1',1,'Lighting::LightContext']]],
   ['tuesday_119',['Tuesday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73ea793ba5a4b41d7d17a38dfd96d706716d',1,'Base::CalendarTimeBase']]],
   ['twobutton_120',['TwoButton',['../class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188aa7d9916eac5b46947e205055351530d2',1,'Base::GamePadBase']]],
-  ['type_121',['Type',['../class_lighting_1_1_light_context.html#a86b725b8886d8156019631d7d898e7e1a3cdb817d3feb3ef244a06a3098e9331b',1,'Lighting::LightContext']]],
-  ['typecount_122',['TYPECOUNT',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a8334037fb3fe05c67d6110975b38a8bf',1,'TiXmlNode']]],
-  ['typedlightid_123',['TypedLightId',['../class_lighting_1_1_light_context.html#a86b725b8886d8156019631d7d898e7e1a1add0aef732b77183efd347ec18fcc4e',1,'Lighting::LightContext']]]
+  ['typecount_121',['TYPECOUNT',['../class_ti_xml_node.html#a836eded4920ab9e9ef28496f48cd95a2a8334037fb3fe05c67d6110975b38a8bf',1,'TiXmlNode']]]
 ];

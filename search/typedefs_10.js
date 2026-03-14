@@ -15,8 +15,9 @@ var searchData=
   ['skeletonallocator_12',['SkeletonAllocator',['../namespace_characters.html#a96dd831b66787aff7e8646fc18969985',1,'Characters']]],
   ['skeletonresourceallocator_13',['SkeletonResourceAllocator',['../namespace_characters.html#a599b18f5b1d17bf8ab1487b077b879fb',1,'Characters']]],
   ['socket_14',['SOCKET',['../namespace_posix.html#ae29d6c343123481f15c9a743ad298bf7',1,'Posix']]],
-  ['spotlightallocator_15',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a938e58d0e8d8bef6fbbda7761c91edf1',1,'Lighting::LightContext']]],
+  ['spotlightallocator_15',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a8a26739be6c475fcfaae5580e5fa2367',1,'Lighting::LightContext']]],
   ['stackarray_16',['StackArray',['../namespace_util.html#a87b3071227d8c725c43e4263dd4e91b6',1,'Util']]],
-  ['stubtype_17',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#a4afc1233d8fc9fa7c51c866b173e70d7',1,'Vulkan']]]
+  ['stagemask_17',['StageMask',['../namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09',1,'Graphics']]],
+  ['stubtype_18',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
+  ['swapchainallocator_19',['SwapchainAllocator',['../namespace_vulkan.html#a4afc1233d8fc9fa7c51c866b173e70d7',1,'Vulkan']]]
 ];

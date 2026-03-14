@@ -21,7 +21,7 @@ var class_particles_1_1_particle_context =
     [ "GetParticleVertexBuffer", "class_particles_1_1_particle_context.html#a8c1b78123a06dc4773730e1c0263fd7f", null ],
     [ "GetParticleVertexLayout", "class_particles_1_1_particle_context.html#a6e185a4fece32ac18403e7bd7c2a4e74", null ],
     [ "HideParticle", "class_particles_1_1_particle_context.html#a696eeeba6ca677d6122b66c495816cf9", null ],
-    [ "OnPrepareView", "class_particles_1_1_particle_context.html#a82d9162ef0696d5ef3c52951ffed5809", null ],
+    [ "OnPrepareView", "class_particles_1_1_particle_context.html#a00c4869e3b9c2b2f082fb0e093629343", null ],
     [ "OnRenderDebug", "class_particles_1_1_particle_context.html#a08d525349a5e4f0d88e4fa3faad92c39", null ],
     [ "Play", "class_particles_1_1_particle_context.html#ae85a44e5762aa392a097a7b4b24a3443", null ],
     [ "RunParticleStep", "class_particles_1_1_particle_context.html#a529f58da7d2644bfbd64d91c88bdab20", null ],

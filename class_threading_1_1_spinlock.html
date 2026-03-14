@@ -103,8 +103,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab95038072d2570192f2497420c8b4ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="memitem:ad45a2f51d73daa2d9afda93a8ed63dad" id="r_ad45a2f51d73daa2d9afda93a8ed63dad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad45a2f51d73daa2d9afda93a8ed63dad">operator=</a> (<a class="el" href="#a984277d58e5ea673b9b26c55185dcd3f">Spinlock</a> &amp;&amp;rhs)</td></tr>
 <tr class="memdesc:ad45a2f51d73daa2d9afda93a8ed63dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move operator.  <br /></td></tr>
-<tr class="memitem:a635a8bc353120263571801f9b718314a" id="r_a635a8bc353120263571801f9b718314a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a635a8bc353120263571801f9b718314a">Lock</a> ()</td></tr>
-<tr class="memdesc:a635a8bc353120263571801f9b718314a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock.  <br /></td></tr>
+<tr class="memitem:a7d56f1d07a1b576bcce8edbd37d85656" id="r_a7d56f1d07a1b576bcce8edbd37d85656"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7d56f1d07a1b576bcce8edbd37d85656">Lock</a> ()</td></tr>
+<tr class="memdesc:a7d56f1d07a1b576bcce8edbd37d85656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock, returns true if it locked.  <br /></td></tr>
 <tr class="memitem:acea09d3e09363bbe7e9e12b7865b9e01" id="r_acea09d3e09363bbe7e9e12b7865b9e01"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acea09d3e09363bbe7e9e12b7865b9e01">Unlock</a> ()</td></tr>
 <tr class="memdesc:acea09d3e09363bbe7e9e12b7865b9e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -168,8 +168,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a635a8bc353120263571801f9b718314a" name="a635a8bc353120263571801f9b718314a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a635a8bc353120263571801f9b718314a">&#9670;&#160;</a></span>Lock()</h2>
+<a id="a7d56f1d07a1b576bcce8edbd37d85656" name="a7d56f1d07a1b576bcce8edbd37d85656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d56f1d07a1b576bcce8edbd37d85656">&#9670;&#160;</a></span>Lock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +178,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Threading::Spinlock::Lock </td>
+          <td class="memname">bool Threading::Spinlock::Lock </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -191,7 +191,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Lock. </p>
+<p>Lock, returns true if it locked. </p>
 
 </div>
 </div>

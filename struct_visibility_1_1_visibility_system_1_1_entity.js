@@ -5,5 +5,5 @@ var struct_visibility_1_1_visibility_system_1_1_entity =
     [ "entities", "struct_visibility_1_1_visibility_system_1_1_entity.html#a404668c1943cabba1a4d9fdcbf7256ed", null ],
     [ "entityFlags", "struct_visibility_1_1_visibility_system_1_1_entity.html#a19377a28b36eb13b478eb97c4786b10f", null ],
     [ "ids", "struct_visibility_1_1_visibility_system_1_1_entity.html#a3342093959c66e65234cd48c165488d8", null ],
-    [ "stages", "struct_visibility_1_1_visibility_system_1_1_entity.html#a666004fee99a5393c59a62e4e454ee12", null ]
+    [ "stages", "struct_visibility_1_1_visibility_system_1_1_entity.html#a77e18b643e391353ac0a7303575062e6", null ]
 ];

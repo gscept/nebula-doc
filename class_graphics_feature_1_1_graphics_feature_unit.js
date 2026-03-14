@@ -1,7 +1,7 @@
 var class_graphics_feature_1_1_graphics_feature_unit =
 [
     [ "~GraphicsFeatureUnit", "class_graphics_feature_1_1_graphics_feature_unit.html#ace45286aad84d1c3c5e6446a3fbec077", null ],
-    [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6cb80e3f50cdada2af3535412a7a7516", null ],
+    [ "GetDefaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a293ceb0136f4143149933aa0723dec33", null ],
     [ "GetDefaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a71a9bf572ab6715dc4424efeaa4aa271", null ],
     [ "OnActivate", "class_graphics_feature_1_1_graphics_feature_unit.html#a0079bade7c1a9f901d28c54bb17e0ad6", null ],
     [ "OnAttach", "class_graphics_feature_1_1_graphics_feature_unit.html#a6648289196e9f5a7e46daa95ade589da", null ],
@@ -16,7 +16,7 @@ var class_graphics_feature_1_1_graphics_feature_unit =
     [ "SetWindowTitle", "class_graphics_feature_1_1_graphics_feature_unit.html#a4e2719dd5440a46e691a75a49898b6ad", null ],
     [ "cameraManager", "class_graphics_feature_1_1_graphics_feature_unit.html#aa220ebeecff3629862a5dd25f8a54fe5", null ],
     [ "defaultFrameScript", "class_graphics_feature_1_1_graphics_feature_unit.html#a2be09d3a20469029a35d24fa1b3df3d3", null ],
-    [ "defaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#a6bf8b197de2123b3eba2bc227e508cca", null ],
+    [ "defaultView", "class_graphics_feature_1_1_graphics_feature_unit.html#acbd806d160e312ed2705ad1219349d32", null ],
     [ "defaultViewHandle", "class_graphics_feature_1_1_graphics_feature_unit.html#a7774ab1f3abc63c43184040c68434943", null ],
     [ "gfxServer", "class_graphics_feature_1_1_graphics_feature_unit.html#a14b82a6c7985431e4ed677633866b4e5", null ],
     [ "globalLight", "class_graphics_feature_1_1_graphics_feature_unit.html#a221e381ac6dee7fef291b9c550c24045", null ],

@@ -4,7 +4,7 @@ var searchData=
   ['observablecontext_1',['ObservableContext',['../class_visibility_1_1_observable_context.html',1,'Visibility']]],
   ['observer_2',['Observer',['../struct_visibility_1_1_visibility_system_1_1_observer.html',1,'Visibility::VisibilitySystem']]],
   ['observercontext_3',['ObserverContext',['../class_visibility_1_1_observer_context.html',1,'Visibility']]],
-  ['occupancyquadtree_4',['OccupancyQuadTree',['../class_terrain_1_1_occupancy_quad_tree.html',1,'Terrain']]],
+  ['occupancyquadtree_4',['OccupancyQuadTree',['../class_terrain_1_1_occupancy_quad_tree.html',1,'Terrain::OccupancyQuadTree'],['../class_util_1_1_occupancy_quad_tree.html',1,'Util::OccupancyQuadTree']]],
   ['octreesystem_5',['OctreeSystem',['../class_visibility_1_1_octree_system.html',1,'Visibility']]],
   ['octreesystemloadinfo_6',['OctreeSystemLoadInfo',['../struct_visibility_1_1_octree_system_load_info.html',1,'Visibility']]],
   ['orientation_7',['Orientation',['../struct_game_1_1_orientation.html',1,'Game']]],
