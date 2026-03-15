@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_math_1_1int4.html#ae3d584a87a57b6a2d9ab11c443a010c8":[9,0,42,22,3],
+"struct_math_1_1int4.html#aed18b8aa24bb677c80add1a267bfae9d":[8,0,46,22,0],
 "struct_math_1_1int4.html#aed18b8aa24bb677c80add1a267bfae9d":[9,0,42,22,0],
 "struct_math_1_1mat4.html":[8,0,46,8],
 "struct_math_1_1mat4.html":[9,0,42,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e":[9,0,42,15,15],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[8,0,46,15,17],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[9,0,42,15,17],
-"struct_math_1_1randxorstate.html":[8,0,46,28],
-"struct_math_1_1randxorstate.html":[9,0,42,28],
-"struct_math_1_1randxorstate.html#a37124aee0ecaeb84843344a951ef9e36":[8,0,46,28,0]
+"struct_math_1_1randxorstate.html":[8,0,46,28]
 };

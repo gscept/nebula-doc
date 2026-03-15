@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[8,0,91,7,0],
+"struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[9,0,77,7,0],
 "struct_vulkan_1_1_command_buffer_pools.html":[8,0,91,8],
 "struct_vulkan_1_1_command_buffer_pools.html":[9,0,77,8],
 "struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,91,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "struct_vulkan_1_1_query_bundle_1_1_query_chunk.html":[8,0,91,10,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_chunk.html":[9,0,77,10,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867":[8,0,91,10,0,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867":[9,0,77,10,0,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a8a643f5dac495cfdf4d961e94568ae05":[8,0,91,10,0,0],
-"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a8a643f5dac495cfdf4d961e94568ae05":[9,0,77,10,0,0]
+"struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867":[9,0,77,10,0,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"framesynctimer_8h.html":[10,0,0,3,5,1],
+"framesynctimer_8h_source.html":[10,0,0,3,5,1],
 "freecamerautil_8cc.html":[10,0,0,7,24,2],
 "freecamerautil_8h.html":[10,0,0,7,24,3],
 "freecamerautil_8h_source.html":[10,0,0,7,24,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "globals_func_q.html":[10,1,1,13],
 "globals_func_r.html":[10,1,1,14],
 "globals_func_s.html":[10,1,1,15],
-"globals_func_t.html":[10,1,1,16],
-"globals_func_u.html":[10,1,1,17],
-"globals_g.html":[10,1,0,7]
+"globals_func_t.html":[10,1,1,16]
 };

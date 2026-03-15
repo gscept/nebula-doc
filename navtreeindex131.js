@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_game_1_1_world_1_1_add_staged_component_command.html":[9,0,23,38,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,25,39,2,0],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[9,0,23,38,2,0],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[8,0,25,39,2,2],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[9,0,23,38,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_im3d_1_1_app_data.html#a4a11e6e64d7d5c8ed816d409c84dc676":[9,0,31,11,6],
 "struct_im3d_1_1_app_data.html#a5f323d779ccb4cc44d0b27ba86af9b72":[8,0,33,11,15],
 "struct_im3d_1_1_app_data.html#a5f323d779ccb4cc44d0b27ba86af9b72":[9,0,31,11,15],
-"struct_im3d_1_1_app_data.html#a781d6d9c92a3854c3c24bb46ea189ad3":[8,0,33,11,5],
-"struct_im3d_1_1_app_data.html#a781d6d9c92a3854c3c24bb46ea189ad3":[9,0,31,11,5],
-"struct_im3d_1_1_app_data.html#a7c9c5ff179709f8c735cdddcd7708e89":[8,0,33,11,10]
+"struct_im3d_1_1_app_data.html#a781d6d9c92a3854c3c24bb46ea189ad3":[8,0,33,11,5]
 };

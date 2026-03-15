@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"osxmemoryconfig_8cc.html":[10,0,0,3,13,2,4],
+"osxmemoryconfig_8h.html":[10,0,0,3,13,2,5],
 "osxmemoryconfig_8h_source.html":[10,0,0,3,13,2,5],
 "osxmemorypool_8cc.html":[10,0,0,3,13,2,6],
 "osxmemorypool_8h.html":[10,0,0,3,13,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "profiling_8h.html#a5eee84ef65067a50d984f1b95e108ec3":[10,0,0,3,16,1,11],
 "profiling_8h.html#a978804f7e1d648af9f2118b8c05e6718":[10,0,0,3,16,1,5],
 "profiling_8h.html#ac296a4fcc63f2545159b1889320879c0":[10,0,0,3,16,1,6],
-"profiling_8h.html#aef31b4f3a1b1dd5cdc6491dc197ac7d3":[10,0,0,3,16,1,9],
-"profiling_8h_source.html":[10,0,0,3,16,1],
-"ptr_8h.html":[10,0,0,3,1,15]
+"profiling_8h.html#aef31b4f3a1b1dd5cdc6491dc197ac7d3":[10,0,0,3,16,1,9]
 };

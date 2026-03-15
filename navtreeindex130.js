@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"struct_g_i_1_1_d_d_g_i_context_1_1_volume_setup.html#af812c9cbf2f51332c51c48233fc69c5c":[9,0,25,1,0,3],
+"struct_game_1_1_angular_velocity.html":[8,0,25,5],
 "struct_game_1_1_angular_velocity.html":[9,0,23,4],
 "struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[8,0,25,5,6],
 "struct_game_1_1_angular_velocity.html#a3527f9cb750d8560cfcb683fa8f7d0c7":[9,0,23,4,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "struct_game_1_1_time_source_create_info.html":[9,0,23,7],
 "struct_game_1_1_time_source_create_info.html#a7073f71fd8fdbd4d03a2db05b2e30500":[8,0,25,8,0],
 "struct_game_1_1_time_source_create_info.html#a7073f71fd8fdbd4d03a2db05b2e30500":[9,0,23,7,0],
-"struct_game_1_1_world_1_1_add_staged_component_command.html":[8,0,25,39,2],
-"struct_game_1_1_world_1_1_add_staged_component_command.html":[9,0,23,38,2],
-"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,25,39,2,0]
+"struct_game_1_1_world_1_1_add_staged_component_command.html":[8,0,25,39,2]
 };

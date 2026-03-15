@@ -5,6 +5,7 @@ var class_im3d_1_1_im3d_context =
     [ "__DeclarePluginContext", "class_im3d_1_1_im3d_context.html#a90aad961734fd0c2a6b641fd29945512", null ],
     [ "Create", "class_im3d_1_1_im3d_context.html#ab28a77da68724ead6db9ef394e817ad4", null ],
     [ "Discard", "class_im3d_1_1_im3d_context.html#aaa9f513a163fe198939163fe51b87868", null ],
+    [ "DrawAxes", "class_im3d_1_1_im3d_context.html#a8b84a4e7938b519050f6991bc15297f0", null ],
     [ "DrawBox", "class_im3d_1_1_im3d_context.html#ae8b28872054df43c05ee1ef9ca5253f9", null ],
     [ "DrawBox", "class_im3d_1_1_im3d_context.html#a3ec6950182d8af73a95f0702af3e11c2", null ],
     [ "DrawCone", "class_im3d_1_1_im3d_context.html#ab6e18a2d5f1311ae658d592e1dbaf92c", null ],

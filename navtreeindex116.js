@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"namespace_win32.html#a0b81bd59f6ffce05eaf754337f16a060":[8,0,92,27],
+"namespace_win32.html#a25333cb0019c686b4f4a381768268cc2":[8,0,92,28],
 "namespace_win32.html#a27e972b298114e37f5f95ead203544d0":[8,0,92,29],
 "namespace_win32.html#a7683ab7a87b01042a7663734b59920c9":[8,0,92,34],
 "namespace_win32.html#a8566938ddf4207605d837c7f4ab11312":[8,0,92,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "osxmemory_8h.html#a86107594327f3a001230df9802cd4422":[10,0,0,3,13,2,3,15],
 "osxmemory_8h.html#aaa8d8403dca7d813a59dd1f07728349d":[10,0,0,3,13,2,3,16],
 "osxmemory_8h.html#af2243bb4c2126b7b2b393e06090fbe59":[10,0,0,3,13,2,3,19],
-"osxmemory_8h_source.html":[10,0,0,3,13,2,3],
-"osxmemoryconfig_8cc.html":[10,0,0,3,13,2,4],
-"osxmemoryconfig_8h.html":[10,0,0,3,13,2,5]
+"osxmemory_8h_source.html":[10,0,0,3,13,2,3]
 };
