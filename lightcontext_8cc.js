@@ -9,6 +9,7 @@ var lightcontext_8cc =
     [ "Lighting::clusterPointLights", "namespace_lighting.html#ad0f7c5aa043a958b5888a60d73c23290", null ],
     [ "Lighting::clusterSpotLights", "namespace_lighting.html#a3a54cafa925aba0da75b3f395eeddd18", null ],
     [ "Lighting::clusterState", "namespace_lighting.html#a71acdb2f03b2780def308cd94c24b306", null ],
+    [ "Lighting::combineConstants", "namespace_lighting.html#a2f67227728520039fbcb0ccdca7ab2b9", null ],
     [ "Lighting::combineProgram", "namespace_lighting.html#ac9b3ff12e8b8cc4d1d6fc430bb7767a7", null ],
     [ "Lighting::combineShader", "namespace_lighting.html#a48c953d21fe4fcf25a9741418fedaa81", null ],
     [ "Lighting::combineState", "namespace_lighting.html#a42db24996966f299392cf50a0356fce2", null ],

@@ -140,5 +140,6 @@ var searchData=
   ['averageframetime_137',['averageFrameTime',['../class_dynui_1_1_imgui_profiler.html#a18214b96f889932208aeb8d24892e51d',1,'Dynui::ImguiProfiler']]],
   ['averagesum_138',['averageSum',['../class_dynui_1_1_graph.html#add71fc3aaf3a3739ea06b663aabf0d55',1,'Dynui::Graph']]],
   ['awakeactors_139',['awakeActors',['../class_physics_1_1_physx_state.html#a011b755eb97ff2f0ba784df2e3061f7e',1,'Physics::PhysxState']]],
-  ['axisvalues_140',['axisValues',['../class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e',1,'Base::GamePadBase']]]
+  ['axisvalues_140',['axisValues',['../class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e',1,'Base::GamePadBase']]],
+  ['azimuth_141',['azimuth',['../struct_lighting_1_1_light_context_1_1_directional_light_setup_info.html#a863ef304adb6f3dcb73a3169dfec6d73',1,'Lighting::LightContext::DirectionalLightSetupInfo']]]
 ];

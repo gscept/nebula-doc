@@ -1,9 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a559be9e194069665dc52688195b6ee79":[9,0,60,7,0,2],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a55dc71993356b07c7174713ff8b9be75":[8,0,67,7,0,29],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a55dc71993356b07c7174713ff8b9be75":[9,0,60,7,0,29],
-"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a56fc526c584b2feb2c02661dec3bd343":[8,0,67,7,0,4],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a56fc526c584b2feb2c02661dec3bd343":[9,0,60,7,0,4],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a5be299af0b6b5d47923300da2ed6caec":[8,0,67,7,0,43],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a5be299af0b6b5d47923300da2ed6caec":[9,0,60,7,0,43],
@@ -249,5 +245,9 @@ var NAVTREEINDEX68 =
 "class_posix_1_1_posix_timer.html#afd3a74db7bb20cbd78b2e7f43e9b2676":[8,0,67,19,11],
 "class_posix_1_1_posix_timer.html#afd3a74db7bb20cbd78b2e7f43e9b2676":[9,0,60,19,11],
 "class_posix_1_1_sys_func.html":[8,0,67,0],
-"class_posix_1_1_sys_func.html":[9,0,60,0]
+"class_posix_1_1_sys_func.html":[9,0,60,0],
+"class_posix_1_1_sys_func.html#a04c8efe9fe69f9966104dde95e0ae9a9":[8,0,67,0,4],
+"class_posix_1_1_sys_func.html#a04c8efe9fe69f9966104dde95e0ae9a9":[9,0,60,0,4],
+"class_posix_1_1_sys_func.html#a072ea014ac41b047a02cb6279e6b5865":[8,0,67,0,1],
+"class_posix_1_1_sys_func.html#a072ea014ac41b047a02cb6279e6b5865":[9,0,60,0,1]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657a0b1709d8749a84b88047fa5d71a68b0d":[8,0,90,15,1],
-"namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657a0e1a8d42a3c195007a9b2e4fea008f31":[8,0,90,15,2],
-"namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657a5744eb47ce41606b5bb03a0bcdb47623":[8,0,90,15,3],
 "namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657ac8de9c38ef34efc67b1dae3d35ead2f3":[8,0,90,15,0],
 "namespace_visibility.html#aa4d9cebde35941d990d86ae57009e657ad5093a0cb21aaa950ecccbda86b86bab":[8,0,90,15,4],
 "namespace_visibility.html#aadd1e1c716fb55a3b0e5b348c5b1fe4a":[8,0,90,16],
@@ -249,5 +246,8 @@ var NAVTREEINDEX115 =
 "namespace_vulkan.html#afe3582cd47efe6eb85ecd5d274a13bb3":[8,0,91,158],
 "namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60":[8,0,91,216],
 "namespace_vulkan.html#afff44f1f61ad100eb6d96b7906b23cc5":[8,0,91,170],
-"namespace_win32.html":[8,0,92]
+"namespace_win32.html":[8,0,92],
+"namespace_win32.html#a0b81bd59f6ffce05eaf754337f16a060":[8,0,92,27],
+"namespace_win32.html#a25333cb0019c686b4f4a381768268cc2":[8,0,92,28],
+"namespace_win32.html#a27e972b298114e37f5f95ead203544d0":[8,0,92,29]
 };
