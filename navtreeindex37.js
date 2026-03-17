@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"class_http_1_1_http_request_writer.html#aaab733d5f7586f45067a391c60ccaab1":[8,0,31,14,9],
+"class_http_1_1_http_request_writer.html#aaab733d5f7586f45067a391c60ccaab1":[9,0,29,14,9],
+"class_http_1_1_http_request_writer.html#ab6b9643b7575bf88e3861b9456cc23f1":[8,0,31,14,6],
+"class_http_1_1_http_request_writer.html#ab6b9643b7575bf88e3861b9456cc23f1":[9,0,29,14,6],
+"class_http_1_1_http_request_writer.html#acb4538f78710cbeed052106e6311cd17":[8,0,31,14,2],
+"class_http_1_1_http_request_writer.html#acb4538f78710cbeed052106e6311cd17":[9,0,29,14,2],
+"class_http_1_1_http_response_reader.html":[8,0,31,15],
+"class_http_1_1_http_response_reader.html":[9,0,29,15],
 "class_http_1_1_http_response_reader.html#a05f396c0332f72a59ee101521321c30b":[8,0,31,15,4],
 "class_http_1_1_http_response_reader.html#a05f396c0332f72a59ee101521321c30b":[9,0,29,15,4],
 "class_http_1_1_http_response_reader.html#a55aded1ac0a07cf68e7065d5ec3dbd55":[8,0,31,15,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "class_http_1_1_svg_line_chart_writer.html#ad73dc21bf12368a15598263be2b0597b":[8,0,31,22,16],
 "class_http_1_1_svg_line_chart_writer.html#ad73dc21bf12368a15598263be2b0597b":[9,0,29,22,16],
 "class_http_1_1_svg_page_writer.html":[8,0,31,23],
-"class_http_1_1_svg_page_writer.html":[9,0,29,23],
-"class_http_1_1_svg_page_writer.html#a18695af27a14d7f3ea787ffd97043b67":[8,0,31,23,20],
-"class_http_1_1_svg_page_writer.html#a18695af27a14d7f3ea787ffd97043b67":[9,0,29,23,20],
-"class_http_1_1_svg_page_writer.html#a195580b8bae70a3f3931cdef420e796d":[8,0,31,23,23],
-"class_http_1_1_svg_page_writer.html#a195580b8bae70a3f3931cdef420e796d":[9,0,29,23,23],
-"class_http_1_1_svg_page_writer.html#a19ba5f886661d116ef4cd8b9e77d56a0":[8,0,31,23,10],
-"class_http_1_1_svg_page_writer.html#a19ba5f886661d116ef4cd8b9e77d56a0":[9,0,29,23,10],
-"class_http_1_1_svg_page_writer.html#a1cc1e6b1100a2e5f0ce449afe5334418":[8,0,31,23,15],
-"class_http_1_1_svg_page_writer.html#a1cc1e6b1100a2e5f0ce449afe5334418":[9,0,29,23,15]
+"class_http_1_1_svg_page_writer.html":[9,0,29,23]
 };

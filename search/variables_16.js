@@ -98,7 +98,7 @@ var searchData=
   ['viewdistance_95',['viewDistance',['../class_render_util_1_1_maya_camera_util.html#a7269b41c9984edac84aa69c457099865',1,'RenderUtil::MayaCameraUtil']]],
   ['viewhandlemap_96',['viewHandleMap',['../class_graphics_feature_1_1_camera_manager.html#a8b2b204c56f3224b6049912ccf7c9ec1',1,'GraphicsFeature::CameraManager']]],
   ['viewhandlepool_97',['viewHandlePool',['../class_graphics_feature_1_1_camera_manager.html#a680ef847acfdc87b510d58be3b8befe4',1,'GraphicsFeature::CameraManager']]],
-  ['viewhistogrambuffers_98',['viewHistogramBuffers',['../namespace_post_effects.html#a08473ea563c0642a3384c8f438fc4df9',1,'PostEffects']]],
+  ['viewhistogrambuffers_98',['viewHistogramBuffers',['../namespace_post_effects.html#a4e21d74a5295343c50b94b02d2653fe6',1,'PostEffects']]],
   ['viewlistener_99',['viewListener',['../namespace_static_u_i.html#a42bc674028fe850c5f9ee83d49f2fc3a',1,'StaticUI']]],
   ['viewport_100',['viewport',['../struct_dynui_1_1_im_gui_secondary_window_data.html#a9916d62b6da2af4556fef1c3a4ef7a83',1,'Dynui::ImGuiSecondaryWindowData::viewport'],['../class_vulkan_1_1_vk_depth_stencil_target.html#af46f3f4c091eed7aee3e83426227a55b',1,'Vulkan::VkDepthStencilTarget::viewport'],['../struct_graphics_1_1_view_create_info.html#a5718573a26a2ef065eec3827c12e9c27',1,'Graphics::ViewCreateInfo::viewport']]],
   ['viewportinfo_101',['viewportInfo',['../struct_vulkan_1_1_vk_pass_runtime_info.html#aa2406faf27ab887aabff73327f0b5b9b',1,'Vulkan::VkPassRuntimeInfo']]],

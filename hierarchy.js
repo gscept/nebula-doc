@@ -1577,6 +1577,7 @@ var hierarchy =
     [ "MemDb::Dataset::View", "struct_mem_db_1_1_dataset_1_1_view.html", null ],
     [ "Graphics::ViewCreateInfo", "struct_graphics_1_1_view_create_info.html", null ],
     [ "GraphicsFeature::CameraManager::ViewData", "struct_graphics_feature_1_1_camera_manager_1_1_view_data.html", null ],
+    [ "PostEffects::ViewData", "struct_post_effects_1_1_view_data.html", null ],
     [ "Graphics::ViewId", "struct_graphics_1_1_view_id.html", null ],
     [ "Vulkan::ViewportBundle", "struct_vulkan_1_1_viewport_bundle.html", null ],
     [ "Visibility::ObserverContext::VisibilityBatchCommand", "struct_visibility_1_1_observer_context_1_1_visibility_batch_command.html", null ],

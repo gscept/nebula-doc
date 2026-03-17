@@ -1,5 +1,15 @@
 var NAVTREEINDEX139 =
 {
+"struct_math_1_1vec4.html#a3c8ad5effbd72296de167f078c7fc420":[8,0,46,34,34],
+"struct_math_1_1vec4.html#a3c8ad5effbd72296de167f078c7fc420":[9,0,42,34,34],
+"struct_math_1_1vec4.html#a514dd2f5b06abc8159337009cf0c57ce":[8,0,46,34,14],
+"struct_math_1_1vec4.html#a514dd2f5b06abc8159337009cf0c57ce":[9,0,42,34,14],
+"struct_math_1_1vec4.html#a5d02ff8256fd5667ff249146b8b84e14":[8,0,46,34,1],
+"struct_math_1_1vec4.html#a5d02ff8256fd5667ff249146b8b84e14":[9,0,42,34,1],
+"struct_math_1_1vec4.html#a6fd182d28d22b351110ea79ba28b26ac":[8,0,46,34,0],
+"struct_math_1_1vec4.html#a6fd182d28d22b351110ea79ba28b26ac":[9,0,42,34,0],
+"struct_math_1_1vec4.html#a7032e5f788d441df2ce7a1fbbc1806d7":[8,0,46,34,24],
+"struct_math_1_1vec4.html#a7032e5f788d441df2ce7a1fbbc1806d7":[9,0,42,34,24],
 "struct_math_1_1vec4.html#a713618585b3db00c6ee64080dd7527d5":[8,0,46,34,28],
 "struct_math_1_1vec4.html#a713618585b3db00c6ee64080dd7527d5":[9,0,42,34,28],
 "struct_math_1_1vec4.html#a73007904a7449db7dea8976f55e8aec1":[8,0,46,34,30],
@@ -239,15 +249,5 @@ var NAVTREEINDEX139 =
 "struct_mathf_1_1_bounding_sphere.html#acf37054fd094eec07c249735f90a8dd5":[8,0,47,2,11],
 "struct_mathf_1_1_bounding_sphere.html#acf37054fd094eec07c249735f90a8dd5":[9,0,43,2,11],
 "struct_mathf_1_1_bounding_sphere.html#ad3e332ff5360b4d53e084694fde1ede4":[8,0,47,2,22],
-"struct_mathf_1_1_bounding_sphere.html#ad3e332ff5360b4d53e084694fde1ede4":[9,0,43,2,22],
-"struct_mathf_1_1_bounding_sphere.html#ad68579c10f16d3163f5a0e653fb5f4ff":[8,0,47,2,31],
-"struct_mathf_1_1_bounding_sphere.html#ad68579c10f16d3163f5a0e653fb5f4ff":[9,0,43,2,31],
-"struct_mathf_1_1_bounding_sphere.html#ae73cb5e52e4e55dd95018d6a45e4ee5f":[8,0,47,2,6],
-"struct_mathf_1_1_bounding_sphere.html#ae73cb5e52e4e55dd95018d6a45e4ee5f":[9,0,43,2,6],
-"struct_mathf_1_1_bounding_sphere.html#aed758abff6d197265631cebcfb91c01f":[8,0,47,2,1],
-"struct_mathf_1_1_bounding_sphere.html#aed758abff6d197265631cebcfb91c01f":[9,0,43,2,1],
-"struct_mathf_1_1_bounding_sphere.html#aeddd3d6999a7bb639ec598af40273931":[8,0,47,2,15],
-"struct_mathf_1_1_bounding_sphere.html#aeddd3d6999a7bb639ec598af40273931":[9,0,43,2,15],
-"struct_mathf_1_1_bounding_sphere.html#af03701edf7d813ee991462427886f319":[8,0,47,2,20],
-"struct_mathf_1_1_bounding_sphere.html#af03701edf7d813ee991462427886f319":[9,0,43,2,20]
+"struct_mathf_1_1_bounding_sphere.html#ad3e332ff5360b4d53e084694fde1ede4":[9,0,43,2,22]
 };

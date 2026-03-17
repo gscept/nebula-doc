@@ -1,5 +1,15 @@
 var NAVTREEINDEX137 =
 {
+"struct_math_1_1byte4.html#a8f30c506b459d98ec11476ff53403337":[8,0,46,27,0],
+"struct_math_1_1byte4.html#a8f30c506b459d98ec11476ff53403337":[9,0,42,27,0],
+"struct_math_1_1byte4.html#adcf64a90b6315eae5fa1267831b4cab6":[8,0,46,27,2],
+"struct_math_1_1byte4.html#adcf64a90b6315eae5fa1267831b4cab6":[9,0,42,27,2],
+"struct_math_1_1byte4u.html":[8,0,46,26],
+"struct_math_1_1byte4u.html":[9,0,42,26],
+"struct_math_1_1byte4u.html#a43a3e2929ba48500740c902534413e2c":[8,0,46,26,2],
+"struct_math_1_1byte4u.html#a43a3e2929ba48500740c902534413e2c":[9,0,42,26,2],
+"struct_math_1_1byte4u.html#a8d602698e392fc88e40d41003cd748c9":[8,0,46,26,0],
+"struct_math_1_1byte4u.html#a8d602698e392fc88e40d41003cd748c9":[9,0,42,26,0],
 "struct_math_1_1byte4u.html#aacf91c6923cb1c7343e64e4221bc508f":[8,0,46,26,4],
 "struct_math_1_1byte4u.html#aacf91c6923cb1c7343e64e4221bc508f":[9,0,42,26,4],
 "struct_math_1_1byte4u.html#ad53f6d540e67c6b8afdaa97e00988222":[8,0,46,26,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX137 =
 "struct_math_1_1point.html#a806c57b6f84a55473e54bb2876755c8d":[8,0,46,13,6],
 "struct_math_1_1point.html#a806c57b6f84a55473e54bb2876755c8d":[9,0,42,13,6],
 "struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[8,0,46,13,2],
-"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[9,0,42,13,2],
-"struct_math_1_1point.html#a85cf584d3e0b2b66b2255c9066e722b9":[8,0,46,13,4],
-"struct_math_1_1point.html#a85cf584d3e0b2b66b2255c9066e722b9":[9,0,42,13,4],
-"struct_math_1_1point.html#a8b405637ddea30b87ed2e75c14ed288b":[8,0,46,13,7],
-"struct_math_1_1point.html#a8b405637ddea30b87ed2e75c14ed288b":[9,0,42,13,7],
-"struct_math_1_1point.html#aa04de3183ac910d1e8f4ab7b03b82d7d":[8,0,46,13,0],
-"struct_math_1_1point.html#aa04de3183ac910d1e8f4ab7b03b82d7d":[9,0,42,13,0],
-"struct_math_1_1point.html#aab24a9aaead7b2e5230e8960d73522b4":[8,0,46,13,12],
-"struct_math_1_1point.html#aab24a9aaead7b2e5230e8960d73522b4":[9,0,42,13,12],
-"struct_math_1_1point.html#abb758daf0a379de7bc2f946ecbac5fdb":[8,0,46,13,8],
-"struct_math_1_1point.html#abb758daf0a379de7bc2f946ecbac5fdb":[9,0,42,13,8]
+"struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550":[9,0,42,13,2]
 };

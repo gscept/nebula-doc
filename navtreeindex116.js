@@ -1,5 +1,15 @@
 var NAVTREEINDEX116 =
 {
+"namespace_vulkan.html#afc016b35546c68c33624512531c2fe2b":[8,0,91,239],
+"namespace_vulkan.html#afd75f6ad63b82f363b15909b97c43400":[8,0,91,217],
+"namespace_vulkan.html#afdb21df9bcff1590021f4a5eff4182e1":[8,0,91,73],
+"namespace_vulkan.html#afe3582cd47efe6eb85ecd5d274a13bb3":[8,0,91,158],
+"namespace_vulkan.html#afe3d3ddac1aeb7f44ef2469482cdde60":[8,0,91,216],
+"namespace_vulkan.html#afff44f1f61ad100eb6d96b7906b23cc5":[8,0,91,170],
+"namespace_win32.html":[8,0,92],
+"namespace_win32.html#a0b81bd59f6ffce05eaf754337f16a060":[8,0,92,27],
+"namespace_win32.html#a25333cb0019c686b4f4a381768268cc2":[8,0,92,28],
+"namespace_win32.html#a27e972b298114e37f5f95ead203544d0":[8,0,92,29],
 "namespace_win32.html#a7683ab7a87b01042a7663734b59920c9":[8,0,92,34],
 "namespace_win32.html#a8566938ddf4207605d837c7f4ab11312":[8,0,92,30],
 "namespace_win32.html#acdfe5eda6306f0a5dcafd6f161ca43cc":[8,0,92,31],
@@ -239,15 +249,5 @@ var NAVTREEINDEX116 =
 "osxmemory_8h.html#a2f4c1f2844efb2ea8057c83f1c9d3f99":[10,0,0,3,13,2,3,4],
 "osxmemory_8h.html#a300669d394130c8ecfa940a1138f3f77":[10,0,0,3,13,2,3,3],
 "osxmemory_8h.html#a33f3de1695b8816fcf5710e3de36ef4e":[10,0,0,3,13,2,3,18],
-"osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b":[10,0,0,3,13,2,3,5],
-"osxmemory_8h.html#a5afec4d80443efe3b9ef905a15db205f":[10,0,0,3,13,2,3,1],
-"osxmemory_8h.html#a5cf48dc77bff1d634ec12422258d9f3b":[10,0,0,3,13,2,3,6],
-"osxmemory_8h.html#a7122d116345856de0b86258e2c8f307a":[10,0,0,3,13,2,3,2],
-"osxmemory_8h.html#a86107594327f3a001230df9802cd4422":[10,0,0,3,13,2,3,15],
-"osxmemory_8h.html#aaa8d8403dca7d813a59dd1f07728349d":[10,0,0,3,13,2,3,16],
-"osxmemory_8h.html#af2243bb4c2126b7b2b393e06090fbe59":[10,0,0,3,13,2,3,19],
-"osxmemory_8h_source.html":[10,0,0,3,13,2,3],
-"osxmemoryconfig_8cc.html":[10,0,0,3,13,2,4],
-"osxmemoryconfig_8h.html":[10,0,0,3,13,2,5],
-"osxmemoryconfig_8h_source.html":[10,0,0,3,13,2,5]
+"osxmemory_8h.html#a51c2e4de1ee6fbd34ba914d85503008b":[10,0,0,3,13,2,3,5]
 };

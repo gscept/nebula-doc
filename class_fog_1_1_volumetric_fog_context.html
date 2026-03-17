@@ -125,7 +125,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a7d6f1f019f7c90de430f13e90a0c5f9d" id="r_a7d6f1f019f7c90de430f13e90a0c5f9d"><td class="memItemLeft">virtual <a class="el" href="graphicscontext_8h.html#ae1a3f3fff31efb7a5a3abe397e7bdf98">__DeclareContext</a>() public&#160;</td><td class="memItemRight"><a class="el" href="#a7d6f1f019f7c90de430f13e90a0c5f9d">~VolumetricFogContext</a> ()</td></tr>
 <tr class="memdesc:a7d6f1f019f7c90de430f13e90a0c5f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <br /></td></tr>
 <tr class="memitem:a736a7c3a9b562ac285631c12085dae50" id="r_a736a7c3a9b562ac285631c12085dae50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a736a7c3a9b562ac285631c12085dae50">SetGlobalTurbidity</a> (float f)</td></tr>
-<tr class="memdesc:a736a7c3a9b562ac285631c12085dae50"><td class="mdescLeft">&#160;</td><td class="mdescRight">set global turbidity (fog density)  <br /></td></tr>
+<tr class="memdesc:a736a7c3a9b562ac285631c12085dae50"><td class="mdescLeft">&#160;</td><td class="mdescRight">set global turbidity (fog turbidity)  <br /></td></tr>
 <tr class="memitem:adf5236a17ea56d1cfea8950fb837ce64" id="r_adf5236a17ea56d1cfea8950fb837ce64"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adf5236a17ea56d1cfea8950fb837ce64">SetGlobalAbsorption</a> (const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;<a class="el" href="namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e">color</a>)</td></tr>
 <tr class="memdesc:adf5236a17ea56d1cfea8950fb837ce64"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the global fog absorption color  <br /></td></tr>
 </table><table class="memberdecls">
@@ -149,10 +149,18 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memdesc:a27916583a05b15980e05d729653f83e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">set volume turbidity  <br /></td></tr>
 <tr class="memitem:a64bb9fbd4ae4bb3c9aaa5dadc1b19ccc" id="r_a64bb9fbd4ae4bb3c9aaa5dadc1b19ccc"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a64bb9fbd4ae4bb3c9aaa5dadc1b19ccc">SetAbsorption</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;absorption)</td></tr>
 <tr class="memdesc:a64bb9fbd4ae4bb3c9aaa5dadc1b19ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">set volume absorption  <br /></td></tr>
+<tr class="memitem:adb54e4ab24a9855c14a7053cde1b35c1" id="r_adb54e4ab24a9855c14a7053cde1b35c1"><td class="memItemLeft">static const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#adb54e4ab24a9855c14a7053cde1b35c1">GetGlobalFogAbsorption</a> ()</td></tr>
+<tr class="memdesc:adb54e4ab24a9855c14a7053cde1b35c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global fog color.  <br /></td></tr>
+<tr class="memitem:a8b0692625eb3046800271e3a7f6198dd" id="r_a8b0692625eb3046800271e3a7f6198dd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8b0692625eb3046800271e3a7f6198dd">SetGlobalFogAbsorption</a> (const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;<a class="el" href="namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e">color</a>)</td></tr>
+<tr class="memdesc:a8b0692625eb3046800271e3a7f6198dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global fog color.  <br /></td></tr>
+<tr class="memitem:affe9a59fc39629430e3d9696bb639eaf" id="r_affe9a59fc39629430e3d9696bb639eaf"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#affe9a59fc39629430e3d9696bb639eaf">GetGlobalFogTurbidity</a> ()</td></tr>
+<tr class="memdesc:affe9a59fc39629430e3d9696bb639eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global particle turbidity.  <br /></td></tr>
+<tr class="memitem:a1d6231e7f9647dbe7f9b78ba1329a61b" id="r_a1d6231e7f9647dbe7f9b78ba1329a61b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a1d6231e7f9647dbe7f9b78ba1329a61b">SetGlobalFogTurbidity</a> (float <a class="el" href="namespace_fog.html#a2ec118697792665cd7ead061d1e70969">turbidity</a>)</td></tr>
+<tr class="memdesc:a1d6231e7f9647dbe7f9b78ba1329a61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global particle turbidity.  <br /></td></tr>
 <tr class="memitem:a8050075393d237d143d609e560146cec" id="r_a8050075393d237d143d609e560146cec"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8050075393d237d143d609e560146cec">UpdateFogVolumes</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a8050075393d237d143d609e560146cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare light lists  <br /></td></tr>
 <tr class="memitem:acd04f482da5c03b2addf8808dc26df23" id="r_acd04f482da5c03b2addf8808dc26df23"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#acd04f482da5c03b2addf8808dc26df23">RenderUI</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
-<tr class="memdesc:acd04f482da5c03b2addf8808dc26df23"><td class="mdescLeft">&#160;</td><td class="mdescRight">render IMGUI  <br /></td></tr>
+<tr class="memdesc:acd04f482da5c03b2addf8808dc26df23"><td class="mdescLeft">&#160;</td><td class="mdescRight">render ui  <br /></td></tr>
 <tr class="memitem:a4b935911f8d10a056c8c823bf421fd33" id="r_a4b935911f8d10a056c8c823bf421fd33"><td class="memItemLeft">static <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4b935911f8d10a056c8c823bf421fd33">GetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
 <tr class="memdesc:a4b935911f8d10a056c8c823bf421fd33"><td class="mdescLeft">&#160;</td><td class="mdescRight">get transform  <br /></td></tr>
 <tr class="memitem:a20529d10762732cfabd070ed0c7fb868" id="r_a20529d10762732cfabd070ed0c7fb868"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a20529d10762732cfabd070ed0c7fb868">SetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;mat)</td></tr>
@@ -492,6 +500,60 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adb54e4ab24a9855c14a7053cde1b35c1" name="adb54e4ab24a9855c14a7053cde1b35c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb54e4ab24a9855c14a7053cde1b35c1">&#9670;&#160;</a></span>GetGlobalFogAbsorption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp; Fog::VolumetricFogContext::GetGlobalFogAbsorption </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get global fog color. </p>
+
+</div>
+</div>
+<a id="affe9a59fc39629430e3d9696bb639eaf" name="affe9a59fc39629430e3d9696bb639eaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe9a59fc39629430e3d9696bb639eaf">&#9670;&#160;</a></span>GetGlobalFogTurbidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Fog::VolumetricFogContext::GetGlobalFogTurbidity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get global particle turbidity. </p>
+
+</div>
+</div>
 <a id="a4b935911f8d10a056c8c823bf421fd33" name="a4b935911f8d10a056c8c823bf421fd33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b935911f8d10a056c8c823bf421fd33">&#9670;&#160;</a></span>GetTransform()</h2>
 
@@ -542,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>render IMGUI </p>
+<p>render ui </p>
 
 </div>
 </div>
@@ -635,6 +697,60 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a8b0692625eb3046800271e3a7f6198dd" name="a8b0692625eb3046800271e3a7f6198dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0692625eb3046800271e3a7f6198dd">&#9670;&#160;</a></span>SetGlobalFogAbsorption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Fog::VolumetricFogContext::SetGlobalFogAbsorption </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set global fog color. </p>
+
+</div>
+</div>
+<a id="a1d6231e7f9647dbe7f9b78ba1329a61b" name="a1d6231e7f9647dbe7f9b78ba1329a61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6231e7f9647dbe7f9b78ba1329a61b">&#9670;&#160;</a></span>SetGlobalFogTurbidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Fog::VolumetricFogContext::SetGlobalFogTurbidity </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>turbidity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set global particle turbidity. </p>
+
+</div>
+</div>
 <a id="a736a7c3a9b562ac285631c12085dae50" name="a736a7c3a9b562ac285631c12085dae50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a736a7c3a9b562ac285631c12085dae50">&#9670;&#160;</a></span>SetGlobalTurbidity()</h2>
 
@@ -658,7 +774,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>set global turbidity (fog density) </p>
+<p>set global turbidity (fog turbidity) </p>
 
 </div>
 </div>

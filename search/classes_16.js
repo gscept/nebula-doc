@@ -46,7 +46,7 @@ var searchData=
   ['vertexstream_43',['VertexStream',['../struct_core_graphics_1_1_vertex_stream.html',1,'CoreGraphics']]],
   ['view_44',['View',['../struct_game_1_1_dataset_1_1_view.html',1,'Game::Dataset::View'],['../class_graphics_1_1_view.html',1,'View'],['../struct_mem_db_1_1_dataset_1_1_view.html',1,'MemDb::Dataset::View']]],
   ['viewcreateinfo_45',['ViewCreateInfo',['../struct_graphics_1_1_view_create_info.html',1,'Graphics']]],
-  ['viewdata_46',['ViewData',['../struct_graphics_feature_1_1_camera_manager_1_1_view_data.html',1,'GraphicsFeature::CameraManager']]],
+  ['viewdata_46',['ViewData',['../struct_graphics_feature_1_1_camera_manager_1_1_view_data.html',1,'GraphicsFeature::CameraManager::ViewData'],['../struct_post_effects_1_1_view_data.html',1,'PostEffects::ViewData']]],
   ['viewerapplication_47',['ViewerApplication',['../class_app_1_1_viewer_application.html',1,'App']]],
   ['viewid_48',['ViewId',['../struct_graphics_1_1_view_id.html',1,'Graphics']]],
   ['viewportbundle_49',['ViewportBundle',['../struct_vulkan_1_1_viewport_bundle.html',1,'Vulkan']]],

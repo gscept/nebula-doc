@@ -107,6 +107,7 @@ $(function(){initNavTree('namespace_post_effects.html','',''); });
 Classes</h2></td></tr>
 <tr class="memitem:BloomContext" id="r_BloomContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_bloom_context.html">BloomContext</a></td></tr>
 <tr class="memitem:DownsamplingContext" id="r_DownsamplingContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_downsampling_context.html">DownsamplingContext</a></td></tr>
+<tr class="memitem:ViewData" id="r_ViewData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_view_data.html">ViewData</a></td></tr>
 <tr class="memitem:HistogramContext" id="r_HistogramContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_histogram_context.html">HistogramContext</a></td></tr>
 <tr class="memitem:SSAOContext" id="r_SSAOContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_s_s_a_o_context.html">SSAOContext</a></td></tr>
 <tr class="memitem:SSRContext" id="r_SSRContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_s_s_r_context.html">SSRContext</a></td></tr>
@@ -155,6 +156,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a24bc687c566439dc611bc2ead3182e33" id="r_a24bc687c566439dc611bc2ead3182e33"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="#ac77c065ec5f9fad9c8e6ff881ded8ff3">PostEffects::histogramShader</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:addbd66fb67f4b600273fc7556ea7f20a" id="r_addbd66fb67f4b600273fc7556ea7f20a"><td class="memItemLeft anon">&#160;&#160;&#160;CoreGraphics::ShaderProgramId&#160;&#160;&#160;<a class="el" href="#a833b217d8bb1acb3f251be209330ef62">PostEffects::histogramCategorizeProgram</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac9670ddd0cc3ee16a5fb5bc10a4d8339" id="r_ac9670ddd0cc3ee16a5fb5bc10a4d8339"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#ad7eb2d1326a536c1f2d0f48c949f956d">PostEffects::histogramCounters</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:af1a9fa85d655e2820388551e758b1986" id="r_af1a9fa85d655e2820388551e758b1986"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="#af2ad3f94ebd6f45f0053e30c0bfb1f39">PostEffects::histogramTable</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a9caf988419217b022da5c70fef060dd4" id="r_a9caf988419217b022da5c70fef060dd4"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#a129c4ff0aefb1699afe4ce600c660aa6">PostEffects::histogramConstants</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a863db4541e333fbb1abc0b729efc85b1" id="r_a863db4541e333fbb1abc0b729efc85b1"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#abac3db91ba40acf97f3b11c23532bccd">PostEffects::histogramClearCountersBuffer</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a4c96312a2b38540926125f3786d29d70" id="r_a4c96312a2b38540926125f3786d29d70"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="#ae7ce87193916130e033c00ca4ab7a42d">PostEffects::histogramResourceTable</a>&#160;</td><td class="memItemRight"></td></tr>
@@ -167,7 +169,7 @@ Variables</h2></td></tr>
 <tr class="memitem:adf32ce337d8cae13a0d2c3854a12314c" id="r_adf32ce337d8cae13a0d2c3854a12314c"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;&#160;&#160;<a class="el" href="#a200a553b887af8250a1d039d5fcd46ce">PostEffects::minLuminance</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a944b22a6d38240829638ca7d0782b36d" id="r_a944b22a6d38240829638ca7d0782b36d"><td class="memItemLeft anon">&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="#a6b5fdeebcd1eaa927c1da45cd1d6b861">PostEffects::logMinLuminance</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a36656261b909d1e6448c82c9d4363f5f" id="r_a36656261b909d1e6448c82c9d4363f5f"><td class="memItemLeft anon">&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="#ac7f3e2b5a3ea6420a750bcb911ff05e6">PostEffects::previousLum</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:ac232d07d4b92513c723326b54d1b6113" id="r_ac232d07d4b92513c723326b54d1b6113"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a08473ea563c0642a3384c8f438fc4df9">PostEffects::viewHistogramBuffers</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a35bcc8dd3af3dc51a618062aeb9eb903" id="r_a35bcc8dd3af3dc51a618062aeb9eb903"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>, <a class="el" href="struct_post_effects_1_1_view_data.html">ViewData</a> &gt;&#160;&#160;&#160;<a class="el" href="#a4e21d74a5295343c50b94b02d2653fe6">PostEffects::viewHistogramBuffers</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:af59e09edf19dd81e29e0e1b6a3343694" id="r_af59e09edf19dd81e29e0e1b6a3343694"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#af59e09edf19dd81e29e0e1b6a3343694">histogramState</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">struct {&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a12f2e4ce9cb418dacf464feefd53de4f" id="r_a12f2e4ce9cb418dacf464feefd53de4f"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;&#160;&#160;<a class="el" href="#ac2ba0711272cd4e7911965b6c3e01a79">PostEffects::hbaoShader</a>&#160;</td><td class="memItemRight"></td></tr>
@@ -881,6 +883,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af2ad3f94ebd6f45f0053e30c0bfb1f39" name="af2ad3f94ebd6f45f0053e30c0bfb1f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ad3f94ebd6f45f0053e30c0bfb1f39">&#9670;&#160;</a></span>histogramTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> PostEffects::histogramTable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a19651e46a523e9f9e6b60260c2405250" name="a19651e46a523e9f9e6b60260c2405250"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19651e46a523e9f9e6b60260c2405250">&#9670;&#160;</a></span>intermediateBloomBufferViews</h2>
 
@@ -1427,14 +1443,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a08473ea563c0642a3384c8f438fc4df9" name="a08473ea563c0642a3384c8f438fc4df9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08473ea563c0642a3384c8f438fc4df9">&#9670;&#160;</a></span>viewHistogramBuffers</h2>
+<a id="a4e21d74a5295343c50b94b02d2653fe6" name="a4e21d74a5295343c50b94b02d2653fe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e21d74a5295343c50b94b02d2653fe6">&#9670;&#160;</a></span>viewHistogramBuffers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>, <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&gt; PostEffects::viewHistogramBuffers</td>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="struct_graphics_1_1_view_id.html">Graphics::ViewId</a>, <a class="el" href="struct_post_effects_1_1_view_data.html">ViewData</a>&gt; PostEffects::viewHistogramBuffers</td>
         </tr>
       </table>
 </div><div class="memdoc">
