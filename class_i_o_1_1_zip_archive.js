@@ -10,6 +10,7 @@ var class_i_o_1_1_zip_archive =
     [ "FindDirEntry", "class_i_o_1_1_zip_archive.html#ad0769a9e8a26b378645af9bbbe31b5ca", null ],
     [ "FindFileEntry", "class_i_o_1_1_zip_archive.html#af4524000f7acc73779e29b81ee1a7604", null ],
     [ "FindFileEntry", "class_i_o_1_1_zip_archive.html#a409bf2a30d2b95a8bec3fc8d778dff4d", null ],
+    [ "GetIOInfo", "class_i_o_1_1_zip_archive.html#a261d3f3f6339f04d0492866c60797815", null ],
     [ "ListDirectories", "class_i_o_1_1_zip_archive.html#ab67126a079d06d0b59423178f3503d4e", null ],
     [ "ListFiles", "class_i_o_1_1_zip_archive.html#ad8a338320ef4afd61ebfea9ec252e6f7", null ],
     [ "ParseTableOfContents", "class_i_o_1_1_zip_archive.html#a64bcaf956b9646fb289b332cbf49e048", null ],

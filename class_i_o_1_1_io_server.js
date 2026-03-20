@@ -17,6 +17,7 @@ var class_i_o_1_1_io_server =
     [ "EnsureDirectoriesForFile", "class_i_o_1_1_io_server.html#acf131ee69c5a82bd9f977c7bb7d15efa", null ],
     [ "FileExists", "class_i_o_1_1_io_server.html#a4b5fb3d65ed5ad69c5bb786f67193e3f", null ],
     [ "GetFileWriteTime", "class_i_o_1_1_io_server.html#ae07c519545c77dadabb914f12f8323cf", null ],
+    [ "GetIOInfo", "class_i_o_1_1_io_server.html#ab3302e9629e9badf7c01c0120c4b2054", null ],
     [ "IsArchiveFileSystemEnabled", "class_i_o_1_1_io_server.html#a425a509f1a8d02b2d928d1159dbcb433", null ],
     [ "IsArchiveMounted", "class_i_o_1_1_io_server.html#a24c38aea59ca466572baf7b3d1ef4b52", null ],
     [ "IsLocked", "class_i_o_1_1_io_server.html#aafc62769207581d34bf75b1c8bccd715", null ],

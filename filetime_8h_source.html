@@ -119,9 +119,23 @@ $(function(){initNavTree('filetime_8h_source.html','',''); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#error &quot;FileTime class not implemented on this platform!&quot;</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_i_o.html">IO</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="struct_i_o_1_1_i_o_stat.html">   40</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_i_o_1_1_i_o_stat.html">IOStat</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381">   42</a></span>    uint64_t <a class="code hl_variable" href="struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381">size</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="struct_i_o_1_1_i_o_stat.html#a3f5543688acc3a7228d2080d44824d2e">   43</a></span>    <a class="code hl_class" href="class_i_o_1_1_file_time.html">FileTime</a> <a class="code hl_variable" href="struct_i_o_1_1_i_o_stat.html#a3f5543688acc3a7228d2080d44824d2e">accessTime</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="struct_i_o_1_1_i_o_stat.html#aa3b14cf2e0fa0eb8d38f2cf05866304b">   44</a></span>    <a class="code hl_class" href="class_i_o_1_1_file_time.html">FileTime</a> <a class="code hl_variable" href="struct_i_o_1_1_i_o_stat.html#aa3b14cf2e0fa0eb8d38f2cf05866304b">modifiedTime</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="struct_i_o_1_1_i_o_stat.html#a1535f6bff8abaf7113db4985f8128efd">   45</a></span>    <a class="code hl_class" href="class_i_o_1_1_file_time.html">FileTime</a> <a class="code hl_variable" href="struct_i_o_1_1_i_o_stat.html#a1535f6bff8abaf7113db4985f8128efd">creationTime</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
+</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>} <span class="comment">// namespace IO</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="ttc" id="aclass_i_o_1_1_file_time_html"><div class="ttname"><a href="class_i_o_1_1_file_time.html">FileTime</a></div><div class="ttdoc">Defines a file-access timestamp.</div></div>
 <div class="ttc" id="aclass_o_s_x_1_1_o_s_x_file_time_html"><div class="ttname"><a href="class_o_s_x_1_1_o_s_x_file_time.html">OSX::OSXFileTime</a></div><div class="ttdoc">Wraps file-system related timestamps on OSX.</div><div class="ttdef"><b>Definition</b> osxfiletime.h:17</div></div>
 <div class="ttc" id="aclass_win32_1_1_win32_file_time_html"><div class="ttname"><a href="class_win32_1_1_win32_file_time.html">Win32::Win32FileTime</a></div><div class="ttdoc">Implements a Win32-specific file-access time stamp.</div><div class="ttdef"><b>Definition</b> win32filetime.h:19</div></div>
@@ -129,6 +143,11 @@ $(function(){initNavTree('filetime_8h_source.html','',''); });
 <div class="ttc" id="anamespace_i_o_html"><div class="ttname"><a href="namespace_i_o.html">IO</a></div><div class="ttdoc">Instances of wrapped stream classes.</div><div class="ttdef"><b>Definition</b> multiplayerfeatureunit.cc:289</div></div>
 <div class="ttc" id="aosxfiletime_8h_html"><div class="ttname"><a href="osxfiletime_8h.html">osxfiletime.h</a></div></div>
 <div class="ttc" id="aposixfiletime_8h_html"><div class="ttname"><a href="posixfiletime_8h.html">posixfiletime.h</a></div></div>
+<div class="ttc" id="astruct_i_o_1_1_i_o_stat_html"><div class="ttname"><a href="struct_i_o_1_1_i_o_stat.html">IO::IOStat</a></div><div class="ttdef"><b>Definition</b> filetime.h:41</div></div>
+<div class="ttc" id="astruct_i_o_1_1_i_o_stat_html_a1535f6bff8abaf7113db4985f8128efd"><div class="ttname"><a href="struct_i_o_1_1_i_o_stat.html#a1535f6bff8abaf7113db4985f8128efd">IO::IOStat::creationTime</a></div><div class="ttdeci">FileTime creationTime</div><div class="ttdef"><b>Definition</b> filetime.h:45</div></div>
+<div class="ttc" id="astruct_i_o_1_1_i_o_stat_html_a3f5543688acc3a7228d2080d44824d2e"><div class="ttname"><a href="struct_i_o_1_1_i_o_stat.html#a3f5543688acc3a7228d2080d44824d2e">IO::IOStat::accessTime</a></div><div class="ttdeci">FileTime accessTime</div><div class="ttdef"><b>Definition</b> filetime.h:43</div></div>
+<div class="ttc" id="astruct_i_o_1_1_i_o_stat_html_aa3b14cf2e0fa0eb8d38f2cf05866304b"><div class="ttname"><a href="struct_i_o_1_1_i_o_stat.html#aa3b14cf2e0fa0eb8d38f2cf05866304b">IO::IOStat::modifiedTime</a></div><div class="ttdeci">FileTime modifiedTime</div><div class="ttdef"><b>Definition</b> filetime.h:44</div></div>
+<div class="ttc" id="astruct_i_o_1_1_i_o_stat_html_af5917572f57313316d0d13c7318f1381"><div class="ttname"><a href="struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381">IO::IOStat::size</a></div><div class="ttdeci">uint64_t size</div><div class="ttdef"><b>Definition</b> filetime.h:42</div></div>
 <div class="ttc" id="awin32filetime_8h_html"><div class="ttname"><a href="win32filetime_8h.html">win32filetime.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

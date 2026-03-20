@@ -20,6 +20,7 @@ var namespace_i_o =
     [ "EmbeddedMemoryStream", "class_i_o_1_1_embedded_memory_stream.html", "class_i_o_1_1_embedded_memory_stream" ],
     [ "ExcelXmlReader", "class_i_o_1_1_excel_xml_reader.html", "class_i_o_1_1_excel_xml_reader" ],
     [ "FileStream", "class_i_o_1_1_file_stream.html", "class_i_o_1_1_file_stream" ],
+    [ "IOStat", "struct_i_o_1_1_i_o_stat.html", "struct_i_o_1_1_i_o_stat" ],
     [ "WatchEvent", "struct_i_o_1_1_watch_event.html", "struct_i_o_1_1_watch_event" ],
     [ "EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
     [ "FileWatcher", "class_i_o_1_1_file_watcher.html", "class_i_o_1_1_file_watcher" ],

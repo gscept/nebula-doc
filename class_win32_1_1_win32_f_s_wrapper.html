@@ -129,6 +129,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae2ed6ae62e421e04d8d48661a0397a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">get size of a file in bytes  <br /></td></tr>
 <tr class="memitem:a3de251a2448fb2a909732f2c2fd16f50" id="r_a3de251a2448fb2a909732f2c2fd16f50"><td class="memItemLeft">static <a class="el" href="class_i_o_1_1_stream.html#a769f9b8e1ddb980e3b79b1f3502c7545">IO::Stream::Size</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3de251a2448fb2a909732f2c2fd16f50">GetFileSize</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
 <tr class="memdesc:a3de251a2448fb2a909732f2c2fd16f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">get size of a file in bytes  <br /></td></tr>
+<tr class="memitem:ab20b694481e2d31c48d9e1498c24ae51" id="r_ab20b694481e2d31c48d9e1498c24ae51"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab20b694481e2d31c48d9e1498c24ae51">GetIOInfo</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;uri, <a class="el" href="struct_i_o_1_1_i_o_stat.html">IO::IOStat</a> &amp;outInfo)</td></tr>
+<tr class="memdesc:ab20b694481e2d31c48d9e1498c24ae51"><td class="mdescLeft">&#160;</td><td class="mdescRight">get file/folder io info via stat  <br /></td></tr>
 <tr class="memitem:a37fee4fb443cb298a334d8a17febaa8d" id="r_a37fee4fb443cb298a334d8a17febaa8d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a37fee4fb443cb298a334d8a17febaa8d">SetReadOnly</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;path, bool readOnly)</td></tr>
 <tr class="memdesc:a37fee4fb443cb298a334d8a17febaa8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set read-only status of a file  <br /></td></tr>
 <tr class="memitem:a2b83c93be73fa49257a5498346f4913d" id="r_a2b83c93be73fa49257a5498346f4913d"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a2b83c93be73fa49257a5498346f4913d">IsReadOnly</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
@@ -675,6 +677,37 @@ Static Private Member Functions</h2></td></tr>
 
 <p>get path to the current application directory (for home: standard assign) </p>
 <p>This method should return the installation directory of the application. </p>
+
+</div>
+</div>
+<a id="ab20b694481e2d31c48d9e1498c24ae51" name="ab20b694481e2d31c48d9e1498c24ae51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab20b694481e2d31c48d9e1498c24ae51">&#9670;&#160;</a></span>GetIOInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Win32::Win32FSWrapper::GetIOInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>uri</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_i_o_1_1_i_o_stat.html">IO::IOStat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outInfo</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get file/folder io info via stat </p>
 
 </div>
 </div>

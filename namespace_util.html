@@ -251,6 +251,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8181ea677b3f2874b3ba54b0dcd0a37d" id="r_a8181ea677b3f2874b3ba54b0dcd0a37d"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8181ea677b3f2874b3ba54b0dcd0a37d">BitmaskConvert</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> mask, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *table, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> numEntries=0xFFFFFFFF)</td></tr>
 <tr class="memitem:a3ae1584667288e11bb603d2a97f8f3b5" id="r_a3ae1584667288e11bb603d2a97f8f3b5"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3ae1584667288e11bb603d2a97f8f3b5">__ImplementInterfaceSingleton</a> (<a class="el" href="class_util_1_1_global_string_atom_table.html">Util::GlobalStringAtomTable</a>)</td></tr>
 <tr class="memitem:ae6a58b1f6bd0b004446075b0f84850f5" id="r_ae6a58b1f6bd0b004446075b0f84850f5"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#ae6a58b1f6bd0b004446075b0f84850f5">Hash</a> (const uint8_t *key, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> len, uint32_t seed=4711)</td></tr>
+<tr class="memdesc:ae6a58b1f6bd0b004446075b0f84850f5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> based on murmurhash3.  <br /></td></tr>
+<tr class="memitem:a9146299f0b9c917d2f9138f595ddbb0f" id="r_a9146299f0b9c917d2f9138f595ddbb0f"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a9146299f0b9c917d2f9138f595ddbb0f">HashCombineFast</a> (uint32_t hash1, uint32_t hash2)</td></tr>
+<tr class="memdesc:a9146299f0b9c917d2f9138f595ddbb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> combine function, based on boost::hash_combine.  <br /></td></tr>
 <tr class="memitem:a34088cd8354fbb1c5ba2201b7b7b766a" id="r_a34088cd8354fbb1c5ba2201b7b7b766a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a34088cd8354fbb1c5ba2201b7b7b766a">__ImplementSingleton</a> (<a class="el" href="class_util_1_1_local_string_atom_table.html">Util::LocalStringAtomTable</a>)</td></tr>
 <tr class="memitem:aab2638a959006c26586a1cfe736b69a2" id="r_aab2638a959006c26586a1cfe736b69a2"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#aab2638a959006c26586a1cfe736b69a2">FastRandom</a> ()</td></tr>
 <tr class="memdesc:aab2638a959006c26586a1cfe736b69a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">XorShift128 implementation.  <br /></td></tr>
@@ -1208,10 +1211,12 @@ template&lt;int INDEX, typename... T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>seed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4711</span>&#160;)</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>seed</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> based on murmurhash3. </p>
 
 </div>
 </div>
@@ -1245,6 +1250,37 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Combine hashes. </p>
+
+</div>
+</div>
+<a id="a9146299f0b9c917d2f9138f595ddbb0f" name="a9146299f0b9c917d2f9138f595ddbb0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9146299f0b9c917d2f9138f595ddbb0f">&#9670;&#160;</a></span>HashCombineFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Util::HashCombineFast </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash2</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> combine function, based on boost::hash_combine. </p>
 
 </div>
 </div>

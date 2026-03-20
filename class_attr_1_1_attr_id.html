@@ -99,7 +99,7 @@ $(function(){initNavTree('class_attr_1_1_attr_id.html','','class_attr_1_1_attr_i
 <p><a class="el" href="class_attr_1_1_attribute.html" title="A compiletime-typesafe key/value pair.">Attribute</a> IDs are compile-time safe, since each attribute ID represents its own C++ type.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div>
-<p>Inherited by <a class="el" href="class_attr_1_1_blob_attr_id.html">Attr::BlobAttrId</a>, <a class="el" href="class_attr_1_1_bool_attr_id.html">Attr::BoolAttrId</a>, <a class="el" href="class_attr_1_1_float_attr_id.html">Attr::FloatAttrId</a>, <a class="el" href="class_attr_1_1_guid_attr_id.html">Attr::GuidAttrId</a>, <a class="el" href="class_attr_1_1_int_attr_id.html">Attr::IntAttrId</a>, <a class="el" href="class_attr_1_1_mat4_attr_id.html">Attr::Mat4AttrId</a>, <a class="el" href="class_attr_1_1_string_attr_id.html">Attr::StringAttrId</a>, <a class="el" href="class_attr_1_1_u_int_attr_id.html">Attr::UIntAttrId</a>, and <a class="el" href="class_attr_1_1_vec4_attr_id.html">Attr::Vec4AttrId</a>.</p>
+<p>Inherited by <a class="el" href="class_attr_1_1_blob_attr_id.html">Attr::BlobAttrId</a>, <a class="el" href="class_attr_1_1_bool_attr_id.html">Attr::BoolAttrId</a>, <a class="el" href="class_attr_1_1_float_attr_id.html">Attr::FloatAttrId</a>, <a class="el" href="class_attr_1_1_guid_attr_id.html">Attr::GuidAttrId</a>, <a class="el" href="class_attr_1_1_int64_attr_id.html">Attr::Int64AttrId</a>, <a class="el" href="class_attr_1_1_int_attr_id.html">Attr::IntAttrId</a>, <a class="el" href="class_attr_1_1_mat4_attr_id.html">Attr::Mat4AttrId</a>, <a class="el" href="class_attr_1_1_string_attr_id.html">Attr::StringAttrId</a>, <a class="el" href="class_attr_1_1_u_int_attr_id.html">Attr::UIntAttrId</a>, and <a class="el" href="class_attr_1_1_vec4_attr_id.html">Attr::Vec4AttrId</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -149,6 +149,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a00b3f41f26067afb3cbd87fcc288a96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get int default value  <br /></td></tr>
 <tr class="memitem:a3b47648b7ec0fb157f0bdc1b83f32225" id="r_a3b47648b7ec0fb157f0bdc1b83f32225"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3b47648b7ec0fb157f0bdc1b83f32225">GetUIntDefValue</a> () const</td></tr>
 <tr class="memdesc:a3b47648b7ec0fb157f0bdc1b83f32225"><td class="mdescLeft">&#160;</td><td class="mdescRight">get uint default value  <br /></td></tr>
+<tr class="memitem:aaaa8cf7f480f5c8a4b6bd4b4106892ed" id="r_aaaa8cf7f480f5c8a4b6bd4b4106892ed"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aaaa8cf7f480f5c8a4b6bd4b4106892ed">GetInt64DefValue</a> () const</td></tr>
+<tr class="memdesc:aaaa8cf7f480f5c8a4b6bd4b4106892ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">get int default value  <br /></td></tr>
+<tr class="memitem:adaf0e44614f8c6ea82050b571f204c32" id="r_adaf0e44614f8c6ea82050b571f204c32"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#adaf0e44614f8c6ea82050b571f204c32">GetUInt64DefValue</a> () const</td></tr>
+<tr class="memdesc:adaf0e44614f8c6ea82050b571f204c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">get uint default value  <br /></td></tr>
 <tr class="memitem:a52df70e41d239bc3c6dfbefb23f2059b" id="r_a52df70e41d239bc3c6dfbefb23f2059b"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a52df70e41d239bc3c6dfbefb23f2059b">GetFloatDefValue</a> () const</td></tr>
 <tr class="memdesc:a52df70e41d239bc3c6dfbefb23f2059b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get floar default value  <br /></td></tr>
 <tr class="memitem:ae8640b1440cdde7701e6dfe6c2bc8994" id="r_ae8640b1440cdde7701e6dfe6c2bc8994"><td class="memItemLeft">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ae8640b1440cdde7701e6dfe6c2bc8994">GetStringDefValue</a> () const</td></tr>
@@ -559,6 +563,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaaa8cf7f480f5c8a4b6bd4b4106892ed" name="aaaa8cf7f480f5c8a4b6bd4b4106892ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa8cf7f480f5c8a4b6bd4b4106892ed">&#9670;&#160;</a></span>GetInt64DefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Attr::AttrId::GetInt64DefValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get int default value </p>
+
+</div>
+</div>
 <a id="a00b3f41f26067afb3cbd87fcc288a96d" name="a00b3f41f26067afb3cbd87fcc288a96d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00b3f41f26067afb3cbd87fcc288a96d">&#9670;&#160;</a></span>GetIntDefValue()</h2>
 
@@ -718,6 +749,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get attribute type name </p>
+
+</div>
+</div>
+<a id="adaf0e44614f8c6ea82050b571f204c32" name="adaf0e44614f8c6ea82050b571f204c32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf0e44614f8c6ea82050b571f204c32">&#9670;&#160;</a></span>GetUInt64DefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Attr::AttrId::GetUInt64DefValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get uint default value </p>
 
 </div>
 </div>

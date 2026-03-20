@@ -2,10 +2,13 @@ var class_win32_1_1_win32_file_time =
 [
     [ "Win32FileTime", "class_win32_1_1_win32_file_time.html#afa4b063ebcbb72d30987ed8bb09cc015", null ],
     [ "Win32FileTime", "class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e", null ],
+    [ "Win32FileTime", "class_win32_1_1_win32_file_time.html#a9196a2c159daaf5e9511fa4b701d098e", null ],
+    [ "AsEpochTime", "class_win32_1_1_win32_file_time.html#af8a15ce94a6ba55b6a88c00dca4878b9", null ],
     [ "AsString", "class_win32_1_1_win32_file_time.html#a6173798d7f8d5bd12a1975cd65789b6e", null ],
     [ "GetHighBits", "class_win32_1_1_win32_file_time.html#a933620c785441ca9ac49a27a8763fa9b", null ],
     [ "GetLowBits", "class_win32_1_1_win32_file_time.html#a128e6e13d6b08d447dd9a1adfee55c36", null ],
     [ "SetBits", "class_win32_1_1_win32_file_time.html#a4a40f51ffcdb62bbee6a93a7bf36453f", null ],
+    [ "SetFromEpochTime", "class_win32_1_1_win32_file_time.html#a121a9ffcab6ded1fd247849d118aaf37", null ],
     [ "operator!=", "class_win32_1_1_win32_file_time.html#a39157c846b2f5bd63792cd065ca1c1c5", null ],
     [ "operator<", "class_win32_1_1_win32_file_time.html#a25a3be5c2deb8095703111dd0f75430d", null ],
     [ "operator==", "class_win32_1_1_win32_file_time.html#a9097702009466ca2ebf318e2111d72f2", null ],

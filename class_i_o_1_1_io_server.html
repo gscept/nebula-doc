@@ -155,6 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a203e673055fd5473bbd3fa1a05d64801"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the write-time of a file  <br /></td></tr>
 <tr class="memitem:ae07c519545c77dadabb914f12f8323cf" id="r_ae07c519545c77dadabb914f12f8323cf"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_file_time.html">FileTime</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae07c519545c77dadabb914f12f8323cf">GetFileWriteTime</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
 <tr class="memdesc:ae07c519545c77dadabb914f12f8323cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the last write-time of a file  <br /></td></tr>
+<tr class="memitem:ab3302e9629e9badf7c01c0120c4b2054" id="r_ab3302e9629e9badf7c01c0120c4b2054"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab3302e9629e9badf7c01c0120c4b2054">GetIOInfo</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;uri, <a class="el" href="struct_i_o_1_1_i_o_stat.html">IOStat</a> &amp;outInfo, bool prioritizeArchive) const</td></tr>
+<tr class="memdesc:ab3302e9629e9badf7c01c0120c4b2054"><td class="mdescLeft">&#160;</td><td class="mdescRight">get file/folder information (size, access time, modified time, creation time) via stat calls  <br /></td></tr>
 <tr class="memitem:af78f5b21722450046721153f36e8ed4f" id="r_af78f5b21722450046721153f36e8ed4f"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af78f5b21722450046721153f36e8ed4f">ListFiles</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false) const</td></tr>
 <tr class="memdesc:af78f5b21722450046721153f36e8ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list all files matching a pattern in a directory  <br /></td></tr>
 <tr class="memitem:a7516c663cac79540cec5cb71b3b957c6" id="r_a7516c663cac79540cec5cb71b3b957c6"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7516c663cac79540cec5cb71b3b957c6">ListDirectories</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;dir, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;pattern, bool asFullPath=false, bool prioritizeArchive=true) const</td></tr>
@@ -587,6 +589,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return the last write-time of a file </p>
+
+</div>
+</div>
+<a id="ab3302e9629e9badf7c01c0120c4b2054" name="ab3302e9629e9badf7c01c0120c4b2054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3302e9629e9badf7c01c0120c4b2054">&#9670;&#160;</a></span>GetIOInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IO::IoServer::GetIOInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>uri</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_i_o_1_1_i_o_stat.html">IOStat</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outInfo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>prioritizeArchive</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get file/folder information (size, access time, modified time, creation time) via stat calls </p>
 
 </div>
 </div>

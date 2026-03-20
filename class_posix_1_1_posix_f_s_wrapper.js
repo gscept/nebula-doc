@@ -15,6 +15,7 @@ var class_posix_1_1_posix_f_s_wrapper =
     [ "GetFileSize", "class_posix_1_1_posix_f_s_wrapper.html#ad11e07dff0ace33c6145d86af2f19f0c", null ],
     [ "GetFileWriteTime", "class_posix_1_1_posix_f_s_wrapper.html#a338d4d7c2f676b8a29b7797673247325", null ],
     [ "GetHomeDirectory", "class_posix_1_1_posix_f_s_wrapper.html#ae9569650a58ed9fbf7e02801ad8b993d", null ],
+    [ "GetIOInfo", "class_posix_1_1_posix_f_s_wrapper.html#aa1eaf566ddac74ecc36db0cc41f0990d", null ],
     [ "GetTempDirectory", "class_posix_1_1_posix_f_s_wrapper.html#a6a95c690c524f3a21ed72e0b5adc93aa", null ],
     [ "GetUserDirectory", "class_posix_1_1_posix_f_s_wrapper.html#a3ffda6d4de32f01a1dff4f94bd3a9f01", null ],
     [ "IsDeviceName", "class_posix_1_1_posix_f_s_wrapper.html#a5decf66ebac1d9f45a187c3604c70fa3", null ],

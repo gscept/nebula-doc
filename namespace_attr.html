@@ -119,6 +119,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typed attribute id for guid type.  <a href="class_attr_1_1_guid_attr_id.html#details">More...</a><br /></td></tr>
 <tr class="memitem:IntAttrId" id="r_IntAttrId"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_int_attr_id.html">IntAttrId</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typed attribute id for integer type.  <a href="class_attr_1_1_int_attr_id.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Int64AttrId" id="r_Int64AttrId"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_int64_attr_id.html">Int64AttrId</a></td></tr>
 <tr class="memitem:Mat4AttrId" id="r_Mat4AttrId"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_mat4_attr_id.html">Mat4AttrId</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typed attribute id for <a class="el" href="struct_math_1_1mat4.html" title="A 4x4 single point precision float matrix.">mat4</a> type.  <a href="class_attr_1_1_mat4_attr_id.html#details">More...</a><br /></td></tr>
 <tr class="memitem:StringAttrId" id="r_StringAttrId"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_string_attr_id.html">StringAttrId</a></td></tr>
@@ -131,7 +132,6 @@ Classes</h2></td></tr>
 <tr class="memitem:IntTypeClass" id="r_IntTypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_int_type_class.html">IntTypeClass</a></td></tr>
 <tr class="memitem:UIntTypeClass" id="r_UIntTypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_u_int_type_class.html">UIntTypeClass</a></td></tr>
 <tr class="memitem:Int64TypeClass" id="r_Int64TypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_int64_type_class.html">Int64TypeClass</a></td></tr>
-<tr class="memitem:UInt64TypeClass" id="r_UInt64TypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_u_int64_type_class.html">UInt64TypeClass</a></td></tr>
 <tr class="memitem:FloatTypeClass" id="r_FloatTypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_float_type_class.html">FloatTypeClass</a></td></tr>
 <tr class="memitem:DoubleTypeClass" id="r_DoubleTypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_double_type_class.html">DoubleTypeClass</a></td></tr>
 <tr class="memitem:BoolTypeClass" id="r_BoolTypeClass"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_attr_1_1_bool_type_class.html">BoolTypeClass</a></td></tr>
@@ -170,34 +170,32 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a2b7daf9227370752198a18b74237c9f9">IntType</a> = Util::Variant::Int
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3af7227232fae3a519493950e7a9ecf912">UIntType</a> = Util::Variant::UInt
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab77efe4d803d75695386030f2e719e1e">Int64Type</a> = Util::Variant::Int64
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a03fba3f42248e8ec7d725197d2715988">UInt64Type</a> = Util::Variant::UInt64
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a4ea4c9d345143bc0769c7fe5861d286b">FloatType</a> = Util::Variant::Float
 , <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a4ea4c9d345143bc0769c7fe5861d286b">FloatType</a> = Util::Variant::Float
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a98057cf9418e34e421f38ec7b50c2228">DoubleType</a> = Util::Variant::Double
+&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a98057cf9418e34e421f38ec7b50c2228">DoubleType</a> = Util::Variant::Double
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a900264641fdeb05fad968104c6cd3b7e">BoolType</a> = Util::Variant::Bool
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a24696ec9b001a74940319df6cc92d664">Vec2Type</a> = Util::Variant::Vec2
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a0c66d6e029a33dc727033f6c6b996432">Vec4Type</a> = Util::Variant::Vec4
 , <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a0c66d6e029a33dc727033f6c6b996432">Vec4Type</a> = Util::Variant::Vec4
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a4dfbe3920268caa3e5487a02df9d0070">QuaternionType</a> = Util::Variant::Quaternion
+&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a4dfbe3920268caa3e5487a02df9d0070">QuaternionType</a> = Util::Variant::Quaternion
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab9beacced80856e55c3cfb3e2277602a">StringType</a> = Util::Variant::String
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a8cfe5ef0c0dd8a59ed5b04b26f2d5ab2">Mat4Type</a> = Util::Variant::Mat4
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a5eaab653d37f15b157884e1975422518">Transform44Type</a> = Util::Variant::Transform44
 , <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a5eaab653d37f15b157884e1975422518">Transform44Type</a> = Util::Variant::Transform44
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3acdc04823eff2f199d20e01a84cb914db">BlobType</a> = Util::Variant::Blob
+&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3acdc04823eff2f199d20e01a84cb914db">BlobType</a> = Util::Variant::Blob
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3afd4fddc97eeff2e23489824a5b724616">GuidType</a> = Util::Variant::Guid
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3af1aaefcc9f0c6588f76fc08929b71be6">VoidPtrType</a> = Util::Variant::VoidPtr
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab85fcf2514e683ceccdbf624aa616ecd">IntArrayType</a> = Util::Variant::IntArray
 , <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab85fcf2514e683ceccdbf624aa616ecd">IntArrayType</a> = Util::Variant::IntArray
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3abea9892c29445ae443c8be12e6ba8431">FloatArrayType</a> = Util::Variant::FloatArray
+&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3abea9892c29445ae443c8be12e6ba8431">FloatArrayType</a> = Util::Variant::FloatArray
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a5605d3fa8ab9b4c33cfe8a4af0ed5b88">BoolArrayType</a> = Util::Variant::BoolArray
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3abf9091cb3662a406e2f1ebb591f46114">Vec2ArrayType</a> = Util::Variant::Vec2Array
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a9037ac75adc3f8a227d11b09cac2fe76">Vec4ArrayType</a> = Util::Variant::Vec4Array
 , <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a9037ac75adc3f8a227d11b09cac2fe76">Vec4ArrayType</a> = Util::Variant::Vec4Array
-, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab452c44663332a23da45d432988386aa">StringArrayType</a> = Util::Variant::StringArray
+&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ab452c44663332a23da45d432988386aa">StringArrayType</a> = Util::Variant::StringArray
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ac0438d0dd8ee7f95ffe2334fb802f68b">Mat4ArrayType</a> = Util::Variant::Mat4Array
 , <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3ac3935bbbac80311fefcd622b99bfece4">BlobArrayType</a> = Util::Variant::BlobArray
-, <br />
-&#160;&#160;<a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a448d5beaf56d9763326068b63216d693">GuidArrayType</a> = Util::Variant::GuidArray
+, <a class="el" href="#a2bdbf3eb528c8ac1da768d63483748b3a448d5beaf56d9763326068b63216d693">GuidArrayType</a> = Util::Variant::GuidArray
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -275,7 +273,6 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3a2b7daf9227370752198a18b74237c9f9" name="a2bdbf3eb528c8ac1da768d63483748b3a2b7daf9227370752198a18b74237c9f9"></a>IntType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3af7227232fae3a519493950e7a9ecf912" name="a2bdbf3eb528c8ac1da768d63483748b3af7227232fae3a519493950e7a9ecf912"></a>UIntType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3ab77efe4d803d75695386030f2e719e1e" name="a2bdbf3eb528c8ac1da768d63483748b3ab77efe4d803d75695386030f2e719e1e"></a>Int64Type&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3a03fba3f42248e8ec7d725197d2715988" name="a2bdbf3eb528c8ac1da768d63483748b3a03fba3f42248e8ec7d725197d2715988"></a>UInt64Type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3a4ea4c9d345143bc0769c7fe5861d286b" name="a2bdbf3eb528c8ac1da768d63483748b3a4ea4c9d345143bc0769c7fe5861d286b"></a>FloatType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3a98057cf9418e34e421f38ec7b50c2228" name="a2bdbf3eb528c8ac1da768d63483748b3a98057cf9418e34e421f38ec7b50c2228"></a>DoubleType&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2bdbf3eb528c8ac1da768d63483748b3a900264641fdeb05fad968104c6cd3b7e" name="a2bdbf3eb528c8ac1da768d63483748b3a900264641fdeb05fad968104c6cd3b7e"></a>BoolType&#160;</td><td class="fielddoc"></td></tr>

@@ -118,6 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a54cc14aee0abc2773d8beb6f60f08408"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from int  <br /></td></tr>
 <tr class="memitem:a2fa11c1cd6e41b04e542b6eb4a6653ed" id="r_a2fa11c1cd6e41b04e542b6eb4a6653ed"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2fa11c1cd6e41b04e542b6eb4a6653ed">Attribute</a> (const <a class="el" href="class_attr_1_1_u_int_attr_id.html">UIntAttrId</a> &amp;id, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> val)</td></tr>
 <tr class="memdesc:a2fa11c1cd6e41b04e542b6eb4a6653ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from uint attribute id  <br /></td></tr>
+<tr class="memitem:a1690f31bcffd5baedabefd5cef25e30b" id="r_a1690f31bcffd5baedabefd5cef25e30b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1690f31bcffd5baedabefd5cef25e30b">Attribute</a> (const <a class="el" href="class_attr_1_1_int64_attr_id.html">Int64AttrId</a> &amp;id, int64_t val)</td></tr>
+<tr class="memdesc:a1690f31bcffd5baedabefd5cef25e30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from int64  <br /></td></tr>
 <tr class="memitem:a94083107a221a6e68c6008738b04a291" id="r_a94083107a221a6e68c6008738b04a291"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a94083107a221a6e68c6008738b04a291">Attribute</a> (const <a class="el" href="class_attr_1_1_mat4_attr_id.html">Mat4AttrId</a> &amp;id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;val)</td></tr>
 <tr class="memdesc:a94083107a221a6e68c6008738b04a291"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from matrix44  <br /></td></tr>
 <tr class="memitem:a0f10f70b88c71f888da78e1eef8d8d62" id="r_a0f10f70b88c71f888da78e1eef8d8d62"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0f10f70b88c71f888da78e1eef8d8d62">Attribute</a> (const <a class="el" href="class_attr_1_1_string_attr_id.html">StringAttrId</a> &amp;id, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;val)</td></tr>
@@ -200,6 +202,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9054ba2411098643b8282cd7323feaca"><td class="mdescLeft">&#160;</td><td class="mdescRight">set int content  <br /></td></tr>
 <tr class="memitem:a648a38c19b520beda43197d4b1e8bcb3" id="r_a648a38c19b520beda43197d4b1e8bcb3"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a648a38c19b520beda43197d4b1e8bcb3">GetUInt</a> () const</td></tr>
 <tr class="memdesc:a648a38c19b520beda43197d4b1e8bcb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">get int content  <br /></td></tr>
+<tr class="memitem:afe9b60a5059d9e564465f560668a5e39" id="r_afe9b60a5059d9e564465f560668a5e39"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe9b60a5059d9e564465f560668a5e39">SetInt64</a> (int64_t val)</td></tr>
+<tr class="memdesc:afe9b60a5059d9e564465f560668a5e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">set int64 content  <br /></td></tr>
+<tr class="memitem:a3c6cba434e3537b8c7c67842f0affa3f" id="r_a3c6cba434e3537b8c7c67842f0affa3f"><td class="memItemLeft">int64_t&#160;</td><td class="memItemRight"><a class="el" href="#a3c6cba434e3537b8c7c67842f0affa3f">GetInt64</a> () const</td></tr>
+<tr class="memdesc:a3c6cba434e3537b8c7c67842f0affa3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get int64 content  <br /></td></tr>
 <tr class="memitem:ab43994f83359a2548c0880f422fbaa15" id="r_ab43994f83359a2548c0880f422fbaa15"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab43994f83359a2548c0880f422fbaa15">SetFloat</a> (float val)</td></tr>
 <tr class="memdesc:ab43994f83359a2548c0880f422fbaa15"><td class="mdescLeft">&#160;</td><td class="mdescRight">set float content  <br /></td></tr>
 <tr class="memitem:ab93e6674f6f3e6cfc3294ebb4349ccd5" id="r_ab93e6674f6f3e6cfc3294ebb4349ccd5"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#ab93e6674f6f3e6cfc3294ebb4349ccd5">GetFloat</a> () const</td></tr>
@@ -269,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7ab20a3134433c3c80c27eb79fd872bc" name="a7ab20a3134433c3c80c27eb79fd872bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ab20a3134433c3c80c27eb79fd872bc">&#9670;&#160;</a></span>Attribute() <span class="overload">[1/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab20a3134433c3c80c27eb79fd872bc">&#9670;&#160;</a></span>Attribute() <span class="overload">[1/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +302,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a410867cf2fa6aeb2aa1183812cd63993" name="a410867cf2fa6aeb2aa1183812cd63993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a410867cf2fa6aeb2aa1183812cd63993">&#9670;&#160;</a></span>Attribute() <span class="overload">[2/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a410867cf2fa6aeb2aa1183812cd63993">&#9670;&#160;</a></span>Attribute() <span class="overload">[2/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a4c54e054b8e82f34b20cb89fa9fad6e3" name="a4c54e054b8e82f34b20cb89fa9fad6e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c54e054b8e82f34b20cb89fa9fad6e3">&#9670;&#160;</a></span>Attribute() <span class="overload">[3/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c54e054b8e82f34b20cb89fa9fad6e3">&#9670;&#160;</a></span>Attribute() <span class="overload">[3/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +356,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="acc7b87014c4a19b4079222f797af554a" name="acc7b87014c4a19b4079222f797af554a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc7b87014c4a19b4079222f797af554a">&#9670;&#160;</a></span>Attribute() <span class="overload">[4/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7b87014c4a19b4079222f797af554a">&#9670;&#160;</a></span>Attribute() <span class="overload">[4/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +383,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a22dfd34427eea7061758ea22b512a7de" name="a22dfd34427eea7061758ea22b512a7de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22dfd34427eea7061758ea22b512a7de">&#9670;&#160;</a></span>Attribute() <span class="overload">[5/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a22dfd34427eea7061758ea22b512a7de">&#9670;&#160;</a></span>Attribute() <span class="overload">[5/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -408,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a1cb3c5553e51a5fbfd3a495b5ba1027b" name="a1cb3c5553e51a5fbfd3a495b5ba1027b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cb3c5553e51a5fbfd3a495b5ba1027b">&#9670;&#160;</a></span>Attribute() <span class="overload">[6/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb3c5553e51a5fbfd3a495b5ba1027b">&#9670;&#160;</a></span>Attribute() <span class="overload">[6/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a54cc14aee0abc2773d8beb6f60f08408" name="a54cc14aee0abc2773d8beb6f60f08408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54cc14aee0abc2773d8beb6f60f08408">&#9670;&#160;</a></span>Attribute() <span class="overload">[7/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54cc14aee0abc2773d8beb6f60f08408">&#9670;&#160;</a></span>Attribute() <span class="overload">[7/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a2fa11c1cd6e41b04e542b6eb4a6653ed" name="a2fa11c1cd6e41b04e542b6eb4a6653ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fa11c1cd6e41b04e542b6eb4a6653ed">&#9670;&#160;</a></span>Attribute() <span class="overload">[8/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa11c1cd6e41b04e542b6eb4a6653ed">&#9670;&#160;</a></span>Attribute() <span class="overload">[8/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,8 +506,39 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1690f31bcffd5baedabefd5cef25e30b" name="a1690f31bcffd5baedabefd5cef25e30b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1690f31bcffd5baedabefd5cef25e30b">&#9670;&#160;</a></span>Attribute() <span class="overload">[9/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Attr::Attribute::Attribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_attr_1_1_int64_attr_id.html">Int64AttrId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>construct from int64 </p>
+
+</div>
+</div>
 <a id="a94083107a221a6e68c6008738b04a291" name="a94083107a221a6e68c6008738b04a291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94083107a221a6e68c6008738b04a291">&#9670;&#160;</a></span>Attribute() <span class="overload">[9/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94083107a221a6e68c6008738b04a291">&#9670;&#160;</a></span>Attribute() <span class="overload">[10/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,7 +569,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a0f10f70b88c71f888da78e1eef8d8d62" name="a0f10f70b88c71f888da78e1eef8d8d62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f10f70b88c71f888da78e1eef8d8d62">&#9670;&#160;</a></span>Attribute() <span class="overload">[10/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f10f70b88c71f888da78e1eef8d8d62">&#9670;&#160;</a></span>Attribute() <span class="overload">[11/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +600,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aac4ac90c1c7d53dd5c931bd8e3caf3ad" name="aac4ac90c1c7d53dd5c931bd8e3caf3ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac4ac90c1c7d53dd5c931bd8e3caf3ad">&#9670;&#160;</a></span>Attribute() <span class="overload">[11/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4ac90c1c7d53dd5c931bd8e3caf3ad">&#9670;&#160;</a></span>Attribute() <span class="overload">[12/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -594,7 +631,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="adebdf311cde744a4072fb0e7635311da" name="adebdf311cde744a4072fb0e7635311da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adebdf311cde744a4072fb0e7635311da">&#9670;&#160;</a></span>Attribute() <span class="overload">[12/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adebdf311cde744a4072fb0e7635311da">&#9670;&#160;</a></span>Attribute() <span class="overload">[13/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,7 +662,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aaeb4ca064d80dadbd5c75acdc907a01c" name="aaeb4ca064d80dadbd5c75acdc907a01c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb4ca064d80dadbd5c75acdc907a01c">&#9670;&#160;</a></span>Attribute() <span class="overload">[13/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb4ca064d80dadbd5c75acdc907a01c">&#9670;&#160;</a></span>Attribute() <span class="overload">[14/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -896,6 +933,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get int content </p>
+
+</div>
+</div>
+<a id="a3c6cba434e3537b8c7c67842f0affa3f" name="a3c6cba434e3537b8c7c67842f0affa3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6cba434e3537b8c7c67842f0affa3f">&#9670;&#160;</a></span>GetInt64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t Attr::Attribute::GetInt64 </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get int64 content </p>
 
 </div>
 </div>
@@ -1860,6 +1924,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set int content </p>
+
+</div>
+</div>
+<a id="afe9b60a5059d9e564465f560668a5e39" name="afe9b60a5059d9e564465f560668a5e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9b60a5059d9e564465f560668a5e39">&#9670;&#160;</a></span>SetInt64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Attr::Attribute::SetInt64 </td>
+          <td>(</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set int64 content </p>
 
 </div>
 </div>

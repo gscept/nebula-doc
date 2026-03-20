@@ -17,6 +17,8 @@ var class_attr_1_1_attribute_container =
     [ "GetGuid", "class_attr_1_1_attribute_container.html#a14216b233f853c22bec810d2d25e3dbe", null ],
     [ "GetInt", "class_attr_1_1_attribute_container.html#a9676d7deeb03d90e64185b61ee676dfa", null ],
     [ "GetInt", "class_attr_1_1_attribute_container.html#a7558bb3287d92f457c0aa609f1627e7b", null ],
+    [ "GetInt64", "class_attr_1_1_attribute_container.html#a4fd4929cf1bf445932e53fb0af2327ec", null ],
+    [ "GetInt64", "class_attr_1_1_attribute_container.html#ae31d1b427cd9eeba4ad986a213631d92", null ],
     [ "GetMat4", "class_attr_1_1_attribute_container.html#ac5eff0a1c9f554f5b8acd1d282e22873", null ],
     [ "GetMat4", "class_attr_1_1_attribute_container.html#a999c2b9cc834a17fd74773c240f881ec", null ],
     [ "GetString", "class_attr_1_1_attribute_container.html#ab76e08b7bee18c6677e281aa362a3886", null ],
@@ -32,6 +34,7 @@ var class_attr_1_1_attribute_container =
     [ "SetFloat4", "class_attr_1_1_attribute_container.html#a483be55242434b29f70e69e3c254059a", null ],
     [ "SetGuid", "class_attr_1_1_attribute_container.html#a8752aa584adb751653b2972ded5ba875", null ],
     [ "SetInt", "class_attr_1_1_attribute_container.html#a22490a95e5d4698f5f4c122357bd46e8", null ],
+    [ "SetInt64", "class_attr_1_1_attribute_container.html#a5c327e89f02c664e21f5d4a98867476c", null ],
     [ "SetMatrix44", "class_attr_1_1_attribute_container.html#a9ddc33c1d94ae5756cc207e0c3553250", null ],
     [ "SetString", "class_attr_1_1_attribute_container.html#a5ebde696265c4fafaf175866f7bd1c7a", null ],
     [ "attrs", "class_attr_1_1_attribute_container.html#ae29c505b3b0ab9605857f555813ca9b0", null ]

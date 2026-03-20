@@ -90,6 +90,7 @@ var namespace_util =
     [ "HasBit", "namespace_util.html#a69f3ea026b6745da2ae07a0fff05de91", null ],
     [ "Hash", "namespace_util.html#ae6a58b1f6bd0b004446075b0f84850f5", null ],
     [ "HashCombine", "namespace_util.html#af3fee714ad3302f91750deae67a94852", null ],
+    [ "HashCombineFast", "namespace_util.html#a9146299f0b9c917d2f9138f595ddbb0f", null ],
     [ "LastBitSetIndex", "namespace_util.html#af9846a40abf21325086a76073212884f", null ],
     [ "LastBitSetIndex", "namespace_util.html#ae3e881adfa9044eef02949bb998ebdea", null ],
     [ "Lsb", "namespace_util.html#a99dcfa539a8cc8bf24d1b587c8253031", null ],

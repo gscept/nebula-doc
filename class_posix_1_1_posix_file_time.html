@@ -104,6 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad7b3d2d67d1c356961088fefcff92417"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="memitem:acb955752a24187c87034943d1b38a3c0" id="r_acb955752a24187c87034943d1b38a3c0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acb955752a24187c87034943d1b38a3c0">PosixFileTime</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;str)</td></tr>
 <tr class="memdesc:acb955752a24187c87034943d1b38a3c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from string  <br /></td></tr>
+<tr class="memitem:a136e0f19270884c37378f8e2e890c873" id="r_a136e0f19270884c37378f8e2e890c873"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a136e0f19270884c37378f8e2e890c873">PosixFileTime</a> (uint64_t epochTime)</td></tr>
+<tr class="memdesc:a136e0f19270884c37378f8e2e890c873"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from epoch time  <br /></td></tr>
 <tr class="memitem:a73df113346c363821fc33302e8fa16c1" id="r_a73df113346c363821fc33302e8fa16c1"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a73df113346c363821fc33302e8fa16c1">GetHighBits</a> () const</td></tr>
 <tr class="memdesc:a73df113346c363821fc33302e8fa16c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get high bits of internal time structure (resolution is platform dependent!)  <br /></td></tr>
 <tr class="memitem:a12017af3e2bc8c8acc24662fd8e387c1" id="r_a12017af3e2bc8c8acc24662fd8e387c1"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a12017af3e2bc8c8acc24662fd8e387c1">GetLowBits</a> () const</td></tr>
@@ -112,6 +114,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a362c4c39666a90602f922b1bd52c6b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">set both parts of time (platform dependent)  <br /></td></tr>
 <tr class="memitem:af789d1b635cffe1b57e295a4378ec162" id="r_af789d1b635cffe1b57e295a4378ec162"><td class="memItemLeft"><a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#af789d1b635cffe1b57e295a4378ec162">AsString</a> () const</td></tr>
 <tr class="memdesc:af789d1b635cffe1b57e295a4378ec162"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert to string  <br /></td></tr>
+<tr class="memitem:a96a7a317db9d3d1c7cef3279ba4e97b5" id="r_a96a7a317db9d3d1c7cef3279ba4e97b5"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a96a7a317db9d3d1c7cef3279ba4e97b5">AsEpochTime</a> () const</td></tr>
+<tr class="memdesc:a96a7a317db9d3d1c7cef3279ba4e97b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert to epoch time  <br /></td></tr>
+<tr class="memitem:a0762a97b525243f730c09deab596e83d" id="r_a0762a97b525243f730c09deab596e83d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0762a97b525243f730c09deab596e83d">SetFromEpochTime</a> (uint64_t epochTime)</td></tr>
+<tr class="memdesc:a0762a97b525243f730c09deab596e83d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set from epoch time  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -132,7 +138,7 @@ Friends</h2></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad7b3d2d67d1c356961088fefcff92417" name="ad7b3d2d67d1c356961088fefcff92417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7b3d2d67d1c356961088fefcff92417">&#9670;&#160;</a></span>PosixFileTime() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b3d2d67d1c356961088fefcff92417">&#9670;&#160;</a></span>PosixFileTime() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +165,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a id="acb955752a24187c87034943d1b38a3c0" name="acb955752a24187c87034943d1b38a3c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb955752a24187c87034943d1b38a3c0">&#9670;&#160;</a></span>PosixFileTime() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb955752a24187c87034943d1b38a3c0">&#9670;&#160;</a></span>PosixFileTime() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +183,61 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a136e0f19270884c37378f8e2e890c873" name="a136e0f19270884c37378f8e2e890c873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136e0f19270884c37378f8e2e890c873">&#9670;&#160;</a></span>PosixFileTime() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Posix::PosixFileTime::PosixFileTime </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>epochTime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>construct from epoch time </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a96a7a317db9d3d1c7cef3279ba4e97b5" name="a96a7a317db9d3d1c7cef3279ba4e97b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a7a317db9d3d1c7cef3279ba4e97b5">&#9670;&#160;</a></span>AsEpochTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Posix::PosixFileTime::AsEpochTime </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert to epoch time </p>
+
+</div>
+</div>
 <a id="af789d1b635cffe1b57e295a4378ec162" name="af789d1b635cffe1b57e295a4378ec162"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af789d1b635cffe1b57e295a4378ec162">&#9670;&#160;</a></span>AsString()</h2>
 
@@ -279,6 +339,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set both parts of time (platform dependent) </p>
+
+</div>
+</div>
+<a id="a0762a97b525243f730c09deab596e83d" name="a0762a97b525243f730c09deab596e83d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0762a97b525243f730c09deab596e83d">&#9670;&#160;</a></span>SetFromEpochTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Posix::PosixFileTime::SetFromEpochTime </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>epochTime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set from epoch time </p>
 
 </div>
 </div>

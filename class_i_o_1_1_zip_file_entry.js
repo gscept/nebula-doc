@@ -10,6 +10,8 @@ var class_i_o_1_1_zip_file_entry =
     [ "Setup", "class_i_o_1_1_zip_file_entry.html#afa450c5cdb9857ed2addb4568524401a", null ],
     [ "ZipArchive", "class_i_o_1_1_zip_file_entry.html#ab753f20188551f2384d38d68be6637e2", null ],
     [ "archiveCritSect", "class_i_o_1_1_zip_file_entry.html#af48a8a042740fd92cfc3a057de932cc7", null ],
+    [ "compressedSize", "class_i_o_1_1_zip_file_entry.html#a6bf04c42567bf3e35b497f197116e627", null ],
+    [ "createdTime", "class_i_o_1_1_zip_file_entry.html#aea7f3481f746f4bb74da9c2f4f9ccbde", null ],
     [ "filePosInfo", "class_i_o_1_1_zip_file_entry.html#aae6f26352ea1fde4baff9dd4f02d98ea", null ],
     [ "name", "class_i_o_1_1_zip_file_entry.html#a00400af25c112e6e86161da656addc3a", null ],
     [ "uncompressedSize", "class_i_o_1_1_zip_file_entry.html#abdc45123f57e8a43d2afa35782e7c41f", null ],

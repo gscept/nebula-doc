@@ -109,7 +109,7 @@ var searchData=
   ['win32event_106',['Win32Event',['../class_win32_1_1_win32_event.html',1,'Win32::Win32Event'],['../class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329',1,'Win32::Win32Event::Win32Event(bool manualReset=false)'],['../class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4',1,'Win32::Win32Event::Win32Event(Win32Event &amp;&amp;rhs)']]],
   ['win32event_2eh_107',['win32event.h',['../win32event_8h.html',1,'']]],
   ['win32fiber_2ecc_108',['win32fiber.cc',['../win32fiber_8cc.html',1,'']]],
-  ['win32filetime_109',['Win32FileTime',['../class_win32_1_1_win32_file_time.html',1,'Win32::Win32FileTime'],['../class_win32_1_1_win32_file_time.html#afa4b063ebcbb72d30987ed8bb09cc015',1,'Win32::Win32FileTime::Win32FileTime()'],['../class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e',1,'Win32::Win32FileTime::Win32FileTime(const Util::String &amp;str)']]],
+  ['win32filetime_109',['Win32FileTime',['../class_win32_1_1_win32_file_time.html',1,'Win32::Win32FileTime'],['../class_win32_1_1_win32_file_time.html#afa4b063ebcbb72d30987ed8bb09cc015',1,'Win32::Win32FileTime::Win32FileTime()'],['../class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e',1,'Win32::Win32FileTime::Win32FileTime(const Util::String &amp;str)'],['../class_win32_1_1_win32_file_time.html#a9196a2c159daaf5e9511fa4b701d098e',1,'Win32::Win32FileTime::Win32FileTime(uint64_t epochTime)']]],
   ['win32filetime_2ecc_110',['win32filetime.cc',['../win32filetime_8cc.html',1,'']]],
   ['win32filetime_2eh_111',['win32filetime.h',['../win32filetime_8h.html',1,'']]],
   ['win32filewatcher_2ecc_112',['win32filewatcher.cc',['../win32filewatcher_8cc.html',1,'']]],
