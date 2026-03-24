@@ -103,6 +103,7 @@ $(function(){initNavTree('vkpass_8h.html','',''); });
 Classes</h2></td></tr>
 <tr class="memitem:Vulkan_3A_3AVkPassLoadInfo" id="r_Vulkan_3A_3AVkPassLoadInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_vulkan_1_1_vk_pass_load_info.html">Vulkan::VkPassLoadInfo</a></td></tr>
 <tr class="memitem:Vulkan_3A_3AVkPassRuntimeInfo" id="r_Vulkan_3A_3AVkPassRuntimeInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_vulkan_1_1_vk_pass_runtime_info.html">Vulkan::VkPassRuntimeInfo</a></td></tr>
+<tr class="memitem:Vulkan_3A_3ARenderPassShaderInterface" id="r_Vulkan_3A_3ARenderPassShaderInterface"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_vulkan_1_1_render_pass_shader_interface.html">Vulkan::RenderPassShaderInterface</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -112,6 +113,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a6510b11c5c340d2013fed7aa9eef18d8" id="r_a6510b11c5c340d2013fed7aa9eef18d8"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_pass_load_info.html">VkPassLoadInfo</a>, <a class="el" href="struct_vulkan_1_1_vk_pass_runtime_info.html">VkPassRuntimeInfo</a>, VkRenderPassBeginInfo, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#a6510b11c5c340d2013fed7aa9eef18d8">Vulkan::VkPassAllocator</a></td></tr>
+<tr class="memitem:a801ef814eb592ba9ffc1fd0b56bced8b" id="r_a801ef814eb592ba9ffc1fd0b56bced8b"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkRenderingAttachmentInfo &gt;, VkRenderingAttachmentInfo, VkRenderingInfo, VkPipelineRenderingCreateInfo, VkPipelineViewportStateCreateInfo, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkFormat &gt;, <a class="el" href="struct_vulkan_1_1_render_pass_shader_interface.html">RenderPassShaderInterface</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#a801ef814eb592ba9ffc1fd0b56bced8b">Vulkan::VkPassRenderAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -119,6 +121,18 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_vulkan.html#a6a9b86a3cff68d4568b4a17b707e8695a90bfb8a58dcd6e5e9d1e7a12c516e14c">Vulkan::Pass_VkRuntimeInfo</a>
 , <a class="el" href="namespace_vulkan.html#a6a9b86a3cff68d4568b4a17b707e8695a49e24ec05794040372d0e6f538cd65d3">Vulkan::Pass_VkRenderPassBeginInfo</a>
 , <a class="el" href="namespace_vulkan.html#a6a9b86a3cff68d4568b4a17b707e8695a9b1260233645a76708672f62a1b26d70">Vulkan::Pass_SubpassAttachments</a>
+ }</td></tr>
+<tr class="memitem:a2da8b37a05aef67b219750c220cec434" id="r_a2da8b37a05aef67b219750c220cec434"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434a741b878e759b03cb89263f3232892697">Vulkan::PassRender_Attachments</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434a58d8a4d802c5f73159719d75a1978ec1">Vulkan::PassRender_DepthAttachment</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434a862870c005eab45cab1cef7ec17ef2ea">Vulkan::PassRender_BeginInfo</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434a08c09178d643e74051975a67a7635a7f">Vulkan::PassRender_PipelineInfo</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434ab7fe74c596e11da253ef6ee752909ef6">Vulkan::PassRender_ViewportInfo</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434ab1036af16e26be345c77aec53b9fcde2">Vulkan::PassRender_PipelineInfoColorFormats</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434a0e5e4a696506bf2f038ece1a60f9a9e2">Vulkan::PassRender_ShaderInterface</a>
+, <a class="el" href="namespace_vulkan.html#a2da8b37a05aef67b219750c220cec434afc5ba772047e1dd5d163476c00251ad3">Vulkan::PassRender_Samples</a>
+<br />
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -137,6 +151,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a3043558d6aad3053f182ef054effe602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get framebuffer.  <br /></td></tr>
 <tr class="memitem:af079204f5ded45f20bf645c7ef0eec41" id="r_af079204f5ded45f20bf645c7ef0eec41"><td class="memItemLeft">const VkRenderPass&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#af079204f5ded45f20bf645c7ef0eec41">Vulkan::PassGetVkRenderPass</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:af079204f5ded45f20bf645c7ef0eec41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pass.  <br /></td></tr>
+<tr class="memitem:ab7294b866969da04e49dd4ca24b1f9a5" id="r_ab7294b866969da04e49dd4ca24b1f9a5"><td class="memItemLeft">const VkRenderingInfo&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#ab7294b866969da04e49dd4ca24b1f9a5">Vulkan::RenderPassGetVk</a> (const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">CoreGraphics::RenderPassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:ab7294b866969da04e49dd4ca24b1f9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get rendering info from render pass.  <br /></td></tr>
+<tr class="memitem:a8c12b675f7652a010b03224f4d279fec" id="r_a8c12b675f7652a010b03224f4d279fec"><td class="memItemLeft">const VkPipelineRenderingCreateInfo &amp;&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#a8c12b675f7652a010b03224f4d279fec">Vulkan::RenderPassGetVkPipelineInfo</a> (const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">CoreGraphics::RenderPassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a8c12b675f7652a010b03224f4d279fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pipeline create info.  <br /></td></tr>
+<tr class="memitem:ad143a6b60ca336dc4343f9c533cff449" id="r_ad143a6b60ca336dc4343f9c533cff449"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_vulkan.html#ad143a6b60ca336dc4343f9c533cff449">Vulkan::RenderPassGetResourceTable</a> (const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">CoreGraphics::RenderPassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:ad143a6b60ca336dc4343f9c533cff449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get resource table for render pass.  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

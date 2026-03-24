@@ -235,8 +235,10 @@ Classes</h2></td></tr>
 <tr class="memitem:Nvx3Elements" id="r_Nvx3Elements"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_nvx3_elements.html">Nvx3Elements</a></td></tr>
 <tr class="memitem:Nvx3StreamReader" id="r_Nvx3StreamReader"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_core_graphics_1_1_nvx3_stream_reader.html">Nvx3StreamReader</a></td></tr>
 <tr class="memitem:PassId" id="r_PassId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_pass_id.html">PassId</a></td></tr>
+<tr class="memitem:RenderPassId" id="r_RenderPassId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a></td></tr>
 <tr class="memitem:Subpass" id="r_Subpass"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_subpass.html">Subpass</a></td></tr>
 <tr class="memitem:PassCreateInfo" id="r_PassCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_pass_create_info.html">PassCreateInfo</a></td></tr>
+<tr class="memitem:RenderPassCreateInfo" id="r_RenderPassCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_render_pass_create_info.html">RenderPassCreateInfo</a></td></tr>
 <tr class="memitem:PinnedBuffer" id="r_PinnedBuffer"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_pinned_buffer.html">PinnedBuffer</a></td></tr>
 <tr class="memitem:PipelineId" id="r_PipelineId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a></td></tr>
 <tr class="memitem:PipelineCreateInfo" id="r_PipelineCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a></td></tr>
@@ -907,6 +909,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:abaeb0f80c9574b6735e2871063629e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress to next subpass.  <br /></td></tr>
 <tr class="memitem:afa1cfaff29d586f6286347f79a93d5a0" id="r_afa1cfaff29d586f6286347f79a93d5a0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afa1cfaff29d586f6286347f79a93d5a0">CmdEndPass</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:afa1cfaff29d586f6286347f79a93d5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">End pass.  <br /></td></tr>
+<tr class="memitem:ae44339e68831d8b0ef40faf0db7f49e5" id="r_ae44339e68831d8b0ef40faf0db7f49e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae44339e68831d8b0ef40faf0db7f49e5">CmdBeginRenderPass</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">CoreGraphics::RenderPassId</a> pass)</td></tr>
+<tr class="memdesc:ae44339e68831d8b0ef40faf0db7f49e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin render pass.  <br /></td></tr>
+<tr class="memitem:a84726b8849abde198caa53657f25550e" id="r_a84726b8849abde198caa53657f25550e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a84726b8849abde198caa53657f25550e">CmdEndRenderPass</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a84726b8849abde198caa53657f25550e"><td class="mdescLeft">&#160;</td><td class="mdescRight">End render pass.  <br /></td></tr>
 <tr class="memitem:a31ef943d1eb2c9a0693f4d8f4687d5f4" id="r_a31ef943d1eb2c9a0693f4d8f4687d5f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a31ef943d1eb2c9a0693f4d8f4687d5f4">CmdDraw</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;pg)</td></tr>
 <tr class="memdesc:a31ef943d1eb2c9a0693f4d8f4687d5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw primitives.  <br /></td></tr>
 <tr class="memitem:a885f0e46d1c09c35f96dd4a6bce1892f" id="r_a885f0e46d1c09c35f96dd4a6bce1892f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a885f0e46d1c09c35f96dd4a6bce1892f">CmdDraw</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numInstances, const <a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a> &amp;pg)</td></tr>
@@ -1321,6 +1327,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac116135f1d71b4a39fe7c2a12f4a77ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pass resource table.  <br /></td></tr>
 <tr class="memitem:a73d0881e447fb7b9549ac1ee64293fb0" id="r_a73d0881e447fb7b9549ac1ee64293fb0"><td class="memItemLeft">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="#a73d0881e447fb7b9549ac1ee64293fb0">PassGetName</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">CoreGraphics::PassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a73d0881e447fb7b9549ac1ee64293fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get name  <br /></td></tr>
+<tr class="memitem:abcf3e350bd0680d8ac14f93395c69970" id="r_abcf3e350bd0680d8ac14f93395c69970"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a>&#160;</td><td class="memItemRight"><a class="el" href="#abcf3e350bd0680d8ac14f93395c69970">CreateRenderPass</a> (const <a class="el" href="struct_core_graphics_1_1_render_pass_create_info.html">RenderPassCreateInfo</a> &amp;info)</td></tr>
+<tr class="memdesc:abcf3e350bd0680d8ac14f93395c69970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create pass for dynamic rendering.  <br /></td></tr>
+<tr class="memitem:a57fd6b6c75b5d7d6690558783daf83ea" id="r_a57fd6b6c75b5d7d6690558783daf83ea"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a57fd6b6c75b5d7d6690558783daf83ea">DestroyRenderPass</a> (<a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a> pass)</td></tr>
+<tr class="memdesc:a57fd6b6c75b5d7d6690558783daf83ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy render pass.  <br /></td></tr>
+<tr class="memitem:a5f09c7acf8e6abe95891cdba1bc21dbf" id="r_a5f09c7acf8e6abe95891cdba1bc21dbf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5f09c7acf8e6abe95891cdba1bc21dbf">RenderPassSetRenderTargetParameters</a> (const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf, const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; Shared::RenderTargetParameters &gt; &amp;viewports)</td></tr>
+<tr class="memdesc:a5f09c7acf8e6abe95891cdba1bc21dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> viewports.  <br /></td></tr>
+<tr class="memitem:a7955437a14217dedf07ecf3104c002a7" id="r_a7955437a14217dedf07ecf3104c002a7"><td class="memItemLeft">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7955437a14217dedf07ecf3104c002a7">RenderPassGetNumSamples</a> (const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a7955437a14217dedf07ecf3104c002a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of samples pass is rendering to.  <br /></td></tr>
 <tr class="memitem:a9c2e23eb110d02773db21bf38c2a5c03" id="r_a9c2e23eb110d02773db21bf38c2a5c03"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9c2e23eb110d02773db21bf38c2a5c03">CreateGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">PipelineCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a9c2e23eb110d02773db21bf38c2a5c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new pipeline.  <br /></td></tr>
 <tr class="memitem:adf9233acad3f14f94999d43e62c74fbb" id="r_adf9233acad3f14f94999d43e62c74fbb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adf9233acad3f14f94999d43e62c74fbb">DestroyGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
@@ -1560,6 +1574,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5676bc0a98a9888b07a850e29ea45cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reload texture view by creating a new backend view with the old texture (assuming it's changed)  <br /></td></tr>
 <tr class="memitem:a9033943468b4cec19038ae08d52c9eb9" id="r_a9033943468b4cec19038ae08d52c9eb9"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_texture_id.html">TextureId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9033943468b4cec19038ae08d52c9eb9">TextureViewGetTexture</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">TextureViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:a9033943468b4cec19038ae08d52c9eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get texture  <br /></td></tr>
+<tr class="memitem:aed2de52aa974cf0d7f2786eec25264f6" id="r_aed2de52aa974cf0d7f2786eec25264f6"><td class="memItemLeft"><a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a>&#160;</td><td class="memItemRight"><a class="el" href="#aed2de52aa974cf0d7f2786eec25264f6">TextureViewGetPixelFormat</a> (const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">TextureViewId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:aed2de52aa974cf0d7f2786eec25264f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pixel format of view.  <br /></td></tr>
 <tr class="memitem:a462aee55181892b38fcf61425387ec57" id="r_a462aee55181892b38fcf61425387ec57"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a462aee55181892b38fcf61425387ec57">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_thread_safe_display_event_handler.html">CoreGraphics::ThreadSafeDisplayEventHandler</a>, 'TDEH', <a class="el" href="class_core_graphics_1_1_display_event_handler.html">CoreGraphics::DisplayEventHandler</a>)</td></tr>
 <tr class="memitem:a2cc011b9f527d9a4fabc2e0d34905377" id="r_a2cc011b9f527d9a4fabc2e0d34905377"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2cc011b9f527d9a4fabc2e0d34905377">__ImplementClass</a> (<a class="el" href="class_core_graphics_1_1_thread_safe_render_event_handler.html">CoreGraphics::ThreadSafeRenderEventHandler</a>, 'TREH', <a class="el" href="class_core_graphics_1_1_render_event_handler.html">CoreGraphics::RenderEventHandler</a>)</td></tr>
 <tr class="memitem:ac9e0cfb567e21f5a7cb98d2252fcd3e1" id="r_ac9e0cfb567e21f5a7cb98d2252fcd3e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac9e0cfb567e21f5a7cb98d2252fcd3e1">DestroyVertexLayout</a> (const <a class="el" href="struct_core_graphics_1_1_vertex_layout_id.html">VertexLayoutId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
@@ -1593,6 +1609,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a90eff12089c50198bcda13ad2d20f2c6" id="r_a90eff12089c50198bcda13ad2d20f2c6"><td class="memItemLeft"><a class="el" href="class_math_1_1rectangle.html">Math::rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a90eff12089c50198bcda13ad2d20f2c6">VkScissorToRect</a> (const VkRect2D &amp;sc)</td></tr>
 <tr class="memitem:a8f8f8a51187a21095a52da6dce248fad" id="r_a8f8f8a51187a21095a52da6dce248fad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8f8f8a51187a21095a52da6dce248fad">GetSubpassInfo</a> (const <a class="el" href="struct_vulkan_1_1_vk_pass_load_info.html">VkPassLoadInfo</a> &amp;loadInfo, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkSubpassDescription &gt; &amp;outDescs, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSubpassDependency &gt; &amp;outDeps, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentDescription &gt; &amp;outAttachments, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &amp;usedAttachmentCounts, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkPipelineViewportStateCreateInfo &gt; &amp;outPipelineInfos, uint32_t &amp;numUsedAttachmentsTotal)</td></tr>
 <tr class="memitem:af96c7800e3a4810d9784429db4ca15e8" id="r_af96c7800e3a4810d9784429db4ca15e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af96c7800e3a4810d9784429db4ca15e8">SetupPass</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">PassId</a> pid)</td></tr>
+<tr class="memitem:ac3cead1ed2eaa58be42920aefaafb2e6" id="r_ac3cead1ed2eaa58be42920aefaafb2e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac3cead1ed2eaa58be42920aefaafb2e6">PassRenderEnd</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
 <tr class="memitem:ad1ab9be192071d56c7c12a40c6e4c8b0" id="r_ad1ab9be192071d56c7c12a40c6e4c8b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad1ab9be192071d56c7c12a40c6e4c8b0">AddBinding</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, VkDescriptorSetLayoutBinding, 128, 128 &gt; &amp;bindings, const VkDescriptorSetLayoutBinding &amp;binding, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, VkDescriptorBindingFlags &gt; &amp;flags)</td></tr>
 <tr class="memitem:a61a6451166a8faa370b0cd2b53827a2a" id="r_a61a6451166a8faa370b0cd2b53827a2a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a61a6451166a8faa370b0cd2b53827a2a">CountDescriptors</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counters, const VkDescriptorSetLayoutBinding &amp;binding)</td></tr>
 <tr class="memitem:a3938d995ec46e64e9bbf355a08ff46dd" id="r_a3938d995ec46e64e9bbf355a08ff46dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3938d995ec46e64e9bbf355a08ff46dd">SetupDescriptorSize</a> (VkDescriptorPoolSize &amp;size, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counter, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt; &amp;outSizes)</td></tr>
@@ -5022,6 +5039,29 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
+<a id="ae44339e68831d8b0ef40faf0db7f49e5" name="ae44339e68831d8b0ef40faf0db7f49e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44339e68831d8b0ef40faf0db7f49e5">&#9670;&#160;</a></span>CmdBeginRenderPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdBeginRenderPass </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">CoreGraphics::RenderPassId</a></td>          <td class="paramname"><span class="paramname"><em>pass</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin render pass. </p>
+
+</div>
+</div>
 <a id="a6263428ea92aa3c570453f3c68a61b45" name="a6263428ea92aa3c570453f3c68a61b45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6263428ea92aa3c570453f3c68a61b45">&#9670;&#160;</a></span>CmdBlit()</h2>
 
@@ -5587,6 +5627,25 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>end recording command buffer, it may be submitted after this is done </p>
+
+</div>
+</div>
+<a id="a84726b8849abde198caa53657f25550e" name="a84726b8849abde198caa53657f25550e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84726b8849abde198caa53657f25550e">&#9670;&#160;</a></span>CmdEndRenderPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::CmdEndRenderPass </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>End render pass. </p>
 
 </div>
 </div>
@@ -7042,6 +7101,25 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
+<a id="abcf3e350bd0680d8ac14f93395c69970" name="abcf3e350bd0680d8ac14f93395c69970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf3e350bd0680d8ac14f93395c69970">&#9670;&#160;</a></span>CreateRenderPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a> CoreGraphics::CreateRenderPass </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_pass_create_info.html">RenderPassCreateInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create pass for dynamic rendering. </p>
+
+</div>
+</div>
 <a id="a85b965a9110541f29d80c5c8902ab52a" name="a85b965a9110541f29d80c5c8902ab52a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85b965a9110541f29d80c5c8902ab52a">&#9670;&#160;</a></span>CreateResourcePipeline()</h2>
 
@@ -7900,6 +7978,25 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Destroy raytracing pipeline. </p>
+
+</div>
+</div>
+<a id="a57fd6b6c75b5d7d6690558783daf83ea" name="a57fd6b6c75b5d7d6690558783daf83ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57fd6b6c75b5d7d6690558783daf83ea">&#9670;&#160;</a></span>DestroyRenderPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::DestroyRenderPass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a></td>          <td class="paramname"><span class="paramname"><em>pass</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy render pass. </p>
 
 </div>
 </div>
@@ -9975,6 +10072,23 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
+<a id="ac3cead1ed2eaa58be42920aefaafb2e6" name="ac3cead1ed2eaa58be42920aefaafb2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3cead1ed2eaa58be42920aefaafb2e6">&#9670;&#160;</a></span>PassRenderEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::PassRenderEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a865e7621b9fbbf184e772b8c0c95d107" name="a865e7621b9fbbf184e772b8c0c95d107"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a865e7621b9fbbf184e772b8c0c95d107">&#9670;&#160;</a></span>PassSetRenderTargetParameters()</h2>
 
@@ -10194,6 +10308,53 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>remove a render event handler </p>
+
+</div>
+</div>
+<a id="a7955437a14217dedf07ecf3104c002a7" name="a7955437a14217dedf07ecf3104c002a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7955437a14217dedf07ecf3104c002a7">&#9670;&#160;</a></span>RenderPassGetNumSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> CoreGraphics::RenderPassGetNumSamples </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get number of samples pass is rendering to. </p>
+
+</div>
+</div>
+<a id="a5f09c7acf8e6abe95891cdba1bc21dbf" name="a5f09c7acf8e6abe95891cdba1bc21dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f09c7acf8e6abe95891cdba1bc21dbf">&#9670;&#160;</a></span>RenderPassSetRenderTargetParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::RenderPassSetRenderTargetParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a></td>          <td class="paramname"><span class="paramname"><em>cmdBuf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_render_pass_id.html">RenderPassId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; Shared::RenderTargetParameters &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>viewports</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> viewports. </p>
 
 </div>
 </div>
@@ -12996,6 +13157,25 @@ template&lt;class TYPE&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed2de52aa974cf0d7f2786eec25264f6" name="aed2de52aa974cf0d7f2786eec25264f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2de52aa974cf0d7f2786eec25264f6">&#9670;&#160;</a></span>TextureViewGetPixelFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0">CoreGraphics::PixelFormat::Code</a> CoreGraphics::TextureViewGetPixelFormat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">TextureViewId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get pixel format of view. </p>
 
 </div>
 </div>

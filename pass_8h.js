@@ -1,8 +1,10 @@
 var pass_8h =
 [
     [ "CoreGraphics::PassId", "struct_core_graphics_1_1_pass_id.html", null ],
+    [ "CoreGraphics::RenderPassId", "struct_core_graphics_1_1_render_pass_id.html", null ],
     [ "CoreGraphics::Subpass", "struct_core_graphics_1_1_subpass.html", "struct_core_graphics_1_1_subpass" ],
     [ "CoreGraphics::PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", "struct_core_graphics_1_1_pass_create_info" ],
+    [ "CoreGraphics::RenderPassCreateInfo", "struct_core_graphics_1_1_render_pass_create_info.html", "struct_core_graphics_1_1_render_pass_create_info" ],
     [ "CoreGraphics::AttachmentFlagBits", "namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90", [
       [ "CoreGraphics::AttachmentFlagBits::NoFlags", "namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90abdf7f7baecec8138e4b85f027dfefc31", null ],
       [ "CoreGraphics::AttachmentFlagBits::Clear", "namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90adc30bc0c7914db5918da4263fce93ad2", null ],
@@ -23,11 +25,15 @@ var pass_8h =
     [ "CoreGraphics::__ImplementEnumComparisonOperators", "namespace_core_graphics.html#a589b878d7cb4ecd70b4e85dfe3114358", null ],
     [ "CoreGraphics::AttachmentFlagsFromString", "namespace_core_graphics.html#a9608c99e4d87ee7820334656d39c3aca", null ],
     [ "CoreGraphics::CreatePass", "namespace_core_graphics.html#a71a740f7332b35c3356911a074be91fe", null ],
+    [ "CoreGraphics::CreateRenderPass", "namespace_core_graphics.html#abcf3e350bd0680d8ac14f93395c69970", null ],
     [ "CoreGraphics::DestroyPass", "namespace_core_graphics.html#ac8d46dd2e8e34733ab25b03ede3010a2", null ],
+    [ "CoreGraphics::DestroyRenderPass", "namespace_core_graphics.html#a57fd6b6c75b5d7d6690558783daf83ea", null ],
     [ "CoreGraphics::PassGetAttachments", "namespace_core_graphics.html#aacbc2032879e687af40a61dc793d5d9e", null ],
     [ "CoreGraphics::PassGetName", "namespace_core_graphics.html#a73d0881e447fb7b9549ac1ee64293fb0", null ],
     [ "CoreGraphics::PassGetNumSubpassAttachments", "namespace_core_graphics.html#a7e5395b21fa5b7f01b54d7d3b41aa19c", null ],
     [ "CoreGraphics::PassGetResourceTable", "namespace_core_graphics.html#ac116135f1d71b4a39fe7c2a12f4a77ce", null ],
     [ "CoreGraphics::PassSetRenderTargetParameters", "namespace_core_graphics.html#a865e7621b9fbbf184e772b8c0c95d107", null ],
-    [ "CoreGraphics::PassWindowResizeCallback", "namespace_core_graphics.html#a7eb4dafaf07e6885492a4e8b74234419", null ]
+    [ "CoreGraphics::PassWindowResizeCallback", "namespace_core_graphics.html#a7eb4dafaf07e6885492a4e8b74234419", null ],
+    [ "CoreGraphics::RenderPassGetNumSamples", "namespace_core_graphics.html#a7955437a14217dedf07ecf3104c002a7", null ],
+    [ "CoreGraphics::RenderPassSetRenderTargetParameters", "namespace_core_graphics.html#a5f09c7acf8e6abe95891cdba1bc21dbf", null ]
 ];
