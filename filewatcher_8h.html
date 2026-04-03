@@ -103,6 +103,7 @@ $(function(){initNavTree('filewatcher_8h.html','',''); });
 <code>#include &quot;<a class="el" href="thread_8h_source.html">threading/thread.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="safequeue_8h_source.html">threading/safequeue.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="bitfield_8h_source.html">util/bitfield.h</a>&quot;</code><br />
 </div>
 <p><a href="filewatcher_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,12 +131,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespace_i_o.html#acef052ae33a08af8aee1ba3eb7508355a7505df66802ee1bbb3645630d6a26ed4">IO::Modified</a>
  }</td></tr>
 <tr class="memitem:afb5f907a10c3c222da7b652646d8d739" id="r_afb5f907a10c3c222da7b652646d8d739"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739">IO::WatchFlags</a> { <br />
-&#160;&#160;<a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a130d5a8a9d0616bac832ca8b3818fff5">IO::NameChanged</a> = N_BIT(0)
-, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a945f48729c745ddd5147368037669696">IO::SizeChanged</a> = N_BIT(1)
-, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a3b31e8a01e5ab0764b0df0fb77798cf3">IO::Write</a> = N_BIT(2)
-, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739ae80e44a5bb37ee7e0e1ca1d0dbe48356">IO::Access</a> = N_BIT(3)
+&#160;&#160;<a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a130d5a8a9d0616bac832ca8b3818fff5">IO::NameChanged</a> = 0
+, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a945f48729c745ddd5147368037669696">IO::SizeChanged</a> = 1
+, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a3b31e8a01e5ab0764b0df0fb77798cf3">IO::Write</a> = 2
+, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739ae80e44a5bb37ee7e0e1ca1d0dbe48356">IO::Access</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a77079cf547dba1d5a809574ce07a44f2">IO::Creation</a> = N_BIT(4)
+&#160;&#160;<a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739a77079cf547dba1d5a809574ce07a44f2">IO::Creation</a> = 4
 <br />
  }</td></tr>
 </table>

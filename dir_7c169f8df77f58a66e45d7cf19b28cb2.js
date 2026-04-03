@@ -71,6 +71,8 @@ var dir_7c169f8df77f58a66e45d7cf19b28cb2 =
     [ "textwriter.h", "textwriter_8h.html", "textwriter_8h" ],
     [ "uri.cc", "uri_8cc.html", "uri_8cc" ],
     [ "uri.h", "uri_8h.html", "uri_8h" ],
+    [ "urn.cc", "urn_8cc.html", "urn_8cc" ],
+    [ "urn.h", "urn_8h.html", "urn_8h" ],
     [ "xmlreader.cc", "xmlreader_8cc.html", "xmlreader_8cc" ],
     [ "xmlreader.h", "xmlreader_8h.html", "xmlreader_8h" ],
     [ "xmlwriter.cc", "xmlwriter_8cc.html", "xmlwriter_8cc" ],

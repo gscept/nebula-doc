@@ -51,6 +51,7 @@ var namespace_i_o =
     [ "TextReader", "class_i_o_1_1_text_reader.html", "class_i_o_1_1_text_reader" ],
     [ "TextWriter", "class_i_o_1_1_text_writer.html", "class_i_o_1_1_text_writer" ],
     [ "URI", "class_i_o_1_1_u_r_i.html", "class_i_o_1_1_u_r_i" ],
+    [ "URN", "class_i_o_1_1_u_r_n.html", "class_i_o_1_1_u_r_n" ],
     [ "BXMLFileHeader", "struct_i_o_1_1_b_x_m_l_file_header.html", "struct_i_o_1_1_b_x_m_l_file_header" ],
     [ "BXMLFileAttr", "struct_i_o_1_1_b_x_m_l_file_attr.html", "struct_i_o_1_1_b_x_m_l_file_attr" ],
     [ "BXMLFileNode", "struct_i_o_1_1_b_x_m_l_file_node.html", "struct_i_o_1_1_b_x_m_l_file_node" ],

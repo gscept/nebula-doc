@@ -175,6 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9d5838690e7f67b08e84b1d685b17495"><td class="mdescLeft">&#160;</td><td class="mdescRight">return start index of substring, or InvalidIndex if not found  <br /></td></tr>
 <tr class="memitem:a8a505b32eb1d71d4e22b67856b61ee8f" id="r_a8a505b32eb1d71d4e22b67856b61ee8f"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8a505b32eb1d71d4e22b67856b61ee8f">FindCharIndex</a> (char c, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> startIndex=0) const</td></tr>
 <tr class="memdesc:a8a505b32eb1d71d4e22b67856b61ee8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of character in string, or InvalidIndex if not found  <br /></td></tr>
+<tr class="memitem:a14ce971952a30a77db09072bb192a8f4" id="r_a14ce971952a30a77db09072bb192a8f4"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a14ce971952a30a77db09072bb192a8f4">FindCharIndexReverse</a> (char c, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> startIndex=0) const</td></tr>
+<tr class="memdesc:a14ce971952a30a77db09072bb192a8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return index of character in string, or InvalidIndex if not found  <br /></td></tr>
 <tr class="memitem:ae192b4e10f7ae64eb36d4f208f580755" id="r_ae192b4e10f7ae64eb36d4f208f580755"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae192b4e10f7ae64eb36d4f208f580755">BeginsWithString</a> (const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;s) const</td></tr>
 <tr class="memdesc:ae192b4e10f7ae64eb36d4f208f580755"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if string begins with string  <br /></td></tr>
 <tr class="memitem:aec598621abbbb1363b833a5a88dcbdeb" id="r_aec598621abbbb1363b833a5a88dcbdeb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aec598621abbbb1363b833a5a88dcbdeb">EndsWithString</a> (const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;s) const</td></tr>
@@ -363,6 +365,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4feb3ae8a5917eb04a57303528b44a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">strip subpath  <br /></td></tr>
 <tr class="memitem:a3d7039b573e752330deae5a9a0b0c36c" id="r_a3d7039b573e752330deae5a9a0b0c36c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3d7039b573e752330deae5a9a0b0c36c">ReplaceIllegalFilenameChars</a> (char replacement)</td></tr>
 <tr class="memdesc:a3d7039b573e752330deae5a9a0b0c36c"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace illegal filename characters  <br /></td></tr>
+<tr class="memitem:afdd2ca0530d6260e5457fa00f46b0055" id="r_afdd2ca0530d6260e5457fa00f46b0055"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afdd2ca0530d6260e5457fa00f46b0055">AppendPath</a> (const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;path)</td></tr>
+<tr class="memdesc:afdd2ca0530d6260e5457fa00f46b0055"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a directory/file to the path (adds separator if necessary)  <br /></td></tr>
 <tr class="memitem:ac03758d2de3242eeda42fc9bb12a32eb" id="r_ac03758d2de3242eeda42fc9bb12a32eb"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#ac03758d2de3242eeda42fc9bb12a32eb">c_str</a> () const</td></tr>
 <tr class="memdesc:ac03758d2de3242eeda42fc9bb12a32eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">helpers to interface with libraries that expect std::string like apis  <br /></td></tr>
 <tr class="memitem:aa7396745037dc0d90f6e2d86848ddf23" id="r_aa7396745037dc0d90f6e2d86848ddf23"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#aa7396745037dc0d90f6e2d86848ddf23">length</a> () const</td></tr>
@@ -435,6 +439,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae99f72a77091235ee0e853db1e918af3" id="r_ae99f72a77091235ee0e853db1e918af3"><td class="memTemplParams" colspan="2">template&lt;typename INTEGER&gt; </td></tr>
 <tr class="memitem:ae99f72a77091235ee0e853db1e918af3 template"><td class="memItemLeft">static <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae99f72a77091235ee0e853db1e918af3">Hex</a> (INTEGER i)</td></tr>
 <tr class="memdesc:ae99f72a77091235ee0e853db1e918af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct a hex string from an int  <br /></td></tr>
+<tr class="memitem:a9ef237704c8328f5087301c82bffe7e4" id="r_a9ef237704c8328f5087301c82bffe7e4"><td class="memItemLeft">static <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9ef237704c8328f5087301c82bffe7e4">AppendPath</a> (const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;base, const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;path)</td></tr>
+<tr class="memdesc:a9ef237704c8328f5087301c82bffe7e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a directory/file to the path (adds separator if necessary)  <br /></td></tr>
 <tr class="memitem:ac5f28e747e4b17b978243eddbafb9996" id="r_ac5f28e747e4b17b978243eddbafb9996"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac5f28e747e4b17b978243eddbafb9996">IsDigit</a> (char c)</td></tr>
 <tr class="memdesc:ac5f28e747e4b17b978243eddbafb9996"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if provided character is a digit (0..9)  <br /></td></tr>
 <tr class="memitem:a6a9703da51436b15332d5046e1f5d38f" id="r_a6a9703da51436b15332d5046e1f5d38f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a6a9703da51436b15332d5046e1f5d38f">IsAlpha</a> (char c)</td></tr>
@@ -953,6 +959,64 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>append <a class="el" href="struct_math_1_1mat4.html" title="A 4x4 single point precision float matrix.">mat4</a> value </p>
+
+</div>
+</div>
+<a id="a9ef237704c8328f5087301c82bffe7e4" name="a9ef237704c8328f5087301c82bffe7e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ef237704c8328f5087301c82bffe7e4">&#9670;&#160;</a></span>AppendPath() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> Util.String::AppendPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>append a directory/file to the path (adds separator if necessary) </p>
+
+</div>
+</div>
+<a id="afdd2ca0530d6260e5457fa00f46b0055" name="afdd2ca0530d6260e5457fa00f46b0055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd2ca0530d6260e5457fa00f46b0055">&#9670;&#160;</a></span>AppendPath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Util.String::AppendPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acb6218f1838c7e18968ffa5fc4341fea">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>append a directory/file to the path (adds separator if necessary) </p>
 
 </div>
 </div>
@@ -2038,6 +2102,30 @@ template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Util.String::FindCharIndex </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>startIndex</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return index of character in string, or InvalidIndex if not found </p>
+<p>Return index of character in string, or InvalidIndex if not found. </p>
+
+</div>
+</div>
+<a id="a14ce971952a30a77db09072bb192a8f4" name="a14ce971952a30a77db09072bb192a8f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14ce971952a30a77db09072bb192a8f4">&#9670;&#160;</a></span>FindCharIndexReverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Util.String::FindCharIndexReverse </td>
           <td>(</td>
           <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
         </tr>

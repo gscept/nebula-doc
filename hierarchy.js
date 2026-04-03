@@ -1545,6 +1545,7 @@ var hierarchy =
     [ "Vulkan::VkReflectionInfo::UniformBuffer", "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html", null ],
     [ "Vulkan::VkShapeRenderer::UnindexedDraws", "struct_vulkan_1_1_vk_shape_renderer_1_1_unindexed_draws.html", null ],
     [ "IO::URI", "class_i_o_1_1_u_r_i.html", null ],
+    [ "IO::URN", "class_i_o_1_1_u_r_n.html", null ],
     [ "Attr::UShortTypeClass", "class_attr_1_1_u_short_type_class.html", null ],
     [ "Vulkan::VkReflectionInfo::Variable", "struct_vulkan_1_1_vk_reflection_info_1_1_variable.html", null ],
     [ "Util::Variant", "class_util_1_1_variant.html", null ],

@@ -109,10 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af61b5a0af54143e0dcd66b9717e8678b" id="r_af61b5a0af54143e0dcd66b9717e8678b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af61b5a0af54143e0dcd66b9717e8678b">Setup</a> ()</td></tr>
 <tr class="memdesc:af61b5a0af54143e0dcd66b9717e8678b"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts watcher thread  <br /></td></tr>
 <tr class="memitem:aff7b97a7a1c6664d1f3b24e2c6ea0d14" id="r_aff7b97a7a1c6664d1f3b24e2c6ea0d14"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aff7b97a7a1c6664d1f3b24e2c6ea0d14">SetSpeed</a> (double speed)</td></tr>
-<tr class="memitem:aee1f3fc558d004d976b152cd2c0be163" id="r_aee1f3fc558d004d976b152cd2c0be163"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee1f3fc558d004d976b152cd2c0be163">Watch</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> const &amp;folder, bool recursive, <a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739">WatchFlags</a> flags, <a class="el" href="namespace_i_o.html#a123285c6d91c8f0f00da55e7ac54ae3c">WatchDelegate</a> const &amp;callback)</td></tr>
-<tr class="memdesc:aee1f3fc558d004d976b152cd2c0be163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register Folder.  <br /></td></tr>
+<tr class="memitem:a36c1528e52d8b7231ef195e338367161" id="r_a36c1528e52d8b7231ef195e338367161"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a36c1528e52d8b7231ef195e338367161">Watch</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> const &amp;folder, bool recursive, <a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; 8 &gt; flags, <a class="el" href="namespace_i_o.html#a123285c6d91c8f0f00da55e7ac54ae3c">WatchDelegate</a> const &amp;callback)</td></tr>
+<tr class="memdesc:a36c1528e52d8b7231ef195e338367161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register Folder.  <br /></td></tr>
 <tr class="memitem:ae0f3485ec5784390d78e925cda3e80b9" id="r_ae0f3485ec5784390d78e925cda3e80b9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0f3485ec5784390d78e925cda3e80b9">Unwatch</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> const &amp;folder)</td></tr>
 <tr class="memdesc:ae0f3485ec5784390d78e925cda3e80b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">unregister  <br /></td></tr>
+<tr class="memitem:a7e034deb9469e3ceb273d60a0871fcf9" id="r_a7e034deb9469e3ceb273d60a0871fcf9"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7e034deb9469e3ceb273d60a0871fcf9">IsWatched</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> const &amp;folder) const</td></tr>
+<tr class="memdesc:a7e034deb9469e3ceb273d60a0871fcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if folder is watched  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -278,6 +280,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7e034deb9469e3ceb273d60a0871fcf9" name="a7e034deb9469e3ceb273d60a0871fcf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e034deb9469e3ceb273d60a0871fcf9">&#9670;&#160;</a></span>IsWatched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IO::FileWatcher::IsWatched </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>check if folder is watched </p>
+
+</div>
+</div>
 <a id="aff7b97a7a1c6664d1f3b24e2c6ea0d14" name="aff7b97a7a1c6664d1f3b24e2c6ea0d14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff7b97a7a1c6664d1f3b24e2c6ea0d14">&#9670;&#160;</a></span>SetSpeed()</h2>
 
@@ -360,8 +381,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aee1f3fc558d004d976b152cd2c0be163" name="aee1f3fc558d004d976b152cd2c0be163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee1f3fc558d004d976b152cd2c0be163">&#9670;&#160;</a></span>Watch()</h2>
+<a id="a36c1528e52d8b7231ef195e338367161" name="a36c1528e52d8b7231ef195e338367161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c1528e52d8b7231ef195e338367161">&#9670;&#160;</a></span>Watch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +400,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_i_o.html#afb5f907a10c3c222da7b652646d8d739">WatchFlags</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; 8 &gt;</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
