@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"class_vulkan_1_1_vk_shape_renderer.html#afda5dcd72bd77c6803a7b05a7026d353":[9,0,77,36,25],
+"class_vulkan_1_1_vk_sub_context_handler.html":[8,0,91,37],
 "class_vulkan_1_1_vk_sub_context_handler.html":[9,0,77,37],
 "class_vulkan_1_1_vk_sub_context_handler.html#a02fa4fab8650299e3aadebfcd0f3262d":[8,0,91,37,18],
 "class_vulkan_1_1_vk_sub_context_handler.html#a02fa4fab8650299e3aadebfcd0f3262d":[9,0,77,37,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "class_win32_1_1_win32_cpu.html#a12bf6e547082c8dd45ee3150ffa50575":[9,0,78,10,4],
 "class_win32_1_1_win32_cpu.html#a7fb91e273e982ab959529e08e954bf9e":[8,0,92,10,8],
 "class_win32_1_1_win32_cpu.html#a7fb91e273e982ab959529e08e954bf9e":[9,0,78,10,8],
-"class_win32_1_1_win32_cpu.html#a9650ff2835fc51732430628eaa2c1adc":[8,0,92,10,5],
-"class_win32_1_1_win32_cpu.html#a9650ff2835fc51732430628eaa2c1adc":[9,0,78,10,5],
-"class_win32_1_1_win32_cpu.html#a9cfd5358b3648b9b008deb9886aa5a53":[8,0,92,10,7]
+"class_win32_1_1_win32_cpu.html#a9650ff2835fc51732430628eaa2c1adc":[8,0,92,10,5]
 };

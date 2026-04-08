@@ -79,6 +79,7 @@ var class_util_1_1_array =
     [ "Realloc", "class_util_1_1_array.html#a8d80dd817d50ad7193a10754cfea59c3", null ],
     [ "Reserve", "class_util_1_1_array.html#a17951e57470f74b738be4d2e48a4db33", null ],
     [ "Reset", "class_util_1_1_array.html#a88dd82819335e2faf3b087b67c28021c", null ],
+    [ "Reset", "class_util_1_1_array.html#a6e5065b3c7a267e2ce600ca1b8e83ed9", null ],
     [ "Resize", "class_util_1_1_array.html#ae106abd354f15ebd834a4008554a4640", null ],
     [ "Resize", "class_util_1_1_array.html#aca1073b2654a732fa44b91e7c04901c5", null ],
     [ "resize", "class_util_1_1_array.html#aa053c2225c51a5acedf879ca823f7e22", null ],

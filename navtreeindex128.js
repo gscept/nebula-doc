@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_texture_create_info.html#ab9b94c66ec1ab9caafaeb279df28dd41":[9,0,12,137,18],
+"struct_core_graphics_1_1_texture_create_info.html#ac2c7dfd689bda7d421b7f31d5d20a880":[8,0,13,138,10],
 "struct_core_graphics_1_1_texture_create_info.html#ac2c7dfd689bda7d421b7f31d5d20a880":[9,0,12,137,10],
 "struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259":[8,0,13,138,6],
 "struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259":[9,0,12,137,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "struct_dynui_1_1_im_gui_secondary_window_data.html":[9,0,17,5],
 "struct_dynui_1_1_im_gui_secondary_window_data.html#a8fd03fdd8714523ff8e6d74d1564ea54":[8,0,18,5,1],
 "struct_dynui_1_1_im_gui_secondary_window_data.html#a8fd03fdd8714523ff8e6d74d1564ea54":[9,0,17,5,1],
-"struct_dynui_1_1_im_gui_secondary_window_data.html#a9916d62b6da2af4556fef1c3a4ef7a83":[8,0,18,5,2],
-"struct_dynui_1_1_im_gui_secondary_window_data.html#a9916d62b6da2af4556fef1c3a4ef7a83":[9,0,17,5,2],
-"struct_dynui_1_1_im_gui_secondary_window_data.html#abae7c4709c23eeaf74adb0d684b6c504":[8,0,18,5,0]
+"struct_dynui_1_1_im_gui_secondary_window_data.html#a9916d62b6da2af4556fef1c3a4ef7a83":[8,0,18,5,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"refcounted_8cc.html":[10,0,0,3,1,16],
+"refcounted_8h.html":[10,0,0,3,1,17],
 "refcounted_8h_source.html":[10,0,0,3,1,17],
 "refcountedlist_8cc.html":[10,0,0,3,1,18],
 "refcountedlist_8h.html":[10,0,0,3,1,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "shadersemantics_8h.html#a3d03d8b730ecabb20cc7321004f15762":[10,0,0,7,5,75,115],
 "shadersemantics_8h.html#a3d7a73f3c8a8a0e8dc569aca1ed1eac2":[10,0,0,7,5,75,1],
 "shadersemantics_8h.html#a3f0ece8bc7993e505177206e1e7a08e3":[10,0,0,7,5,75,106],
-"shadersemantics_8h.html#a4097e95ccd82454a14169365fad8e08c":[10,0,0,7,5,75,81],
-"shadersemantics_8h.html#a4a1bec6d20d10bd8e690001306159221":[10,0,0,7,5,75,58],
-"shadersemantics_8h.html#a50dbba5edc4bf197f92ef14b37782d25":[10,0,0,7,5,75,66]
+"shadersemantics_8h.html#a4097e95ccd82454a14169365fad8e08c":[10,0,0,7,5,75,81]
 };

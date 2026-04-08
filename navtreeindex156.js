@@ -1,5 +1,7 @@
 var NAVTREEINDEX156 =
 {
+"struct_visibility_1_1_observer_context_1_1_visibility_draw_command.html#aee213ecbc7cb0673d84a2db576f64f0b":[9,0,76,12,1,3],
+"struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html":[8,0,90,12,3],
 "struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html":[9,0,76,12,3],
 "struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html#a93daf64d054a281adce47530095fd265":[8,0,90,12,3,1],
 "struct_visibility_1_1_observer_context_1_1_visibility_draw_list.html#a93daf64d054a281adce47530095fd265":[9,0,76,12,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX156 =
 "struct_vulkan_1_1_graphics_device_state.html#af9dd9761262267c8b415a1fda0ec00e6":[9,0,77,19,41],
 "struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d":[8,0,91,19,52],
 "struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d":[9,0,77,19,52],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[8,0,91,19,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[9,0,77,19,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#a75dc690738e445a276ab1a6feaa4c5a7":[8,0,91,19,0,4]
+"struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[8,0,91,19,0]
 };

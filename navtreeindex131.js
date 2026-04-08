@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[8,0,25,5,7],
+"struct_game_1_1_angular_velocity.html#a6e82c648aa3423302772ddc48e2c92fa":[9,0,23,4,7],
 "struct_game_1_1_angular_velocity.html#a90fb69cfdef71c938d12e0ceb8f07989":[8,0,25,5,3],
 "struct_game_1_1_angular_velocity.html#a90fb69cfdef71c938d12e0ceb8f07989":[9,0,23,4,3],
 "struct_game_1_1_angular_velocity.html#ad757b319ecdfea6841330be5579e59e0":[8,0,25,5,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[8,0,25,39,2,1],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[9,0,23,38,2,1],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[8,0,25,39,2,3],
-"struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[9,0,23,38,2,3],
-"struct_game_1_1_world_1_1_allocate_instance_command.html":[8,0,25,39,0],
-"struct_game_1_1_world_1_1_allocate_instance_command.html":[9,0,23,38,0]
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[9,0,23,38,2,3]
 };

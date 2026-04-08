@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"class_win32_1_1_win32_string_converter.html":[9,0,78,24],
+"class_win32_1_1_win32_string_converter.html#a956a50ec2899e983ee322c3fc111bab4":[8,0,92,24,1],
 "class_win32_1_1_win32_string_converter.html#a956a50ec2899e983ee322c3fc111bab4":[9,0,78,24,1],
 "class_win32_1_1_win32_string_converter.html#ad6daf8c264b0596e75cf1472e6ea600e":[8,0,92,24,0],
 "class_win32_1_1_win32_string_converter.html#ad6daf8c264b0596e75cf1472e6ea600e":[9,0,78,24,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "componentserialization_8cc.html#ae0a6d99b1ac462ebad8b2e012a823dc9":[10,0,0,1,3,10,0],
 "componentserialization_8h.html":[10,0,0,1,3,11],
 "componentserialization_8h_source.html":[10,0,0,1,3,11],
-"console_8cc.html":[10,0,0,3,9,18],
-"console_8h.html":[10,0,0,3,9,19],
-"console_8h_source.html":[10,0,0,3,9,19]
+"console_8cc.html":[10,0,0,3,9,18]
 };

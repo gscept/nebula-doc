@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"functions_func_r.html":[9,3,1,18],
+"functions_func_s.html":[9,3,1,19],
 "functions_func_t.html":[9,3,1,20],
 "functions_func_u.html":[9,3,1,21],
 "functions_func_v.html":[9,3,1,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "guidattrid_8h_source.html":[10,0,0,0,0,18],
 "half_8h.html":[10,0,0,3,12,9],
 "half_8h_source.html":[10,0,0,3,12,9],
-"handler_8cc.html":[10,0,0,3,14,10],
-"handler_8h.html":[10,0,0,3,14,11],
-"handler_8h_source.html":[10,0,0,3,14,11]
+"handler_8cc.html":[10,0,0,3,14,10]
 };

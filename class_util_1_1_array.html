@@ -271,6 +271,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a21c07be11835fbb8c32d6abad65d5034" id="r_a21c07be11835fbb8c32d6abad65d5034"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a21c07be11835fbb8c32d6abad65d5034">Destroy</a> (TYPE *elm)</td></tr>
 <tr class="memdesc:a21c07be11835fbb8c32d6abad65d5034"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy an element (call destructor without freeing memory)  <br /></td></tr>
+<tr class="memitem:a6e5065b3c7a267e2ce600ca1b8e83ed9" id="r_a6e5065b3c7a267e2ce600ca1b8e83ed9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6e5065b3c7a267e2ce600ca1b8e83ed9">Reset</a> (TYPE *elm)</td></tr>
+<tr class="memdesc:a6e5065b3c7a267e2ce600ca1b8e83ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy and immediately reconstruct an element in-place  <br /></td></tr>
 <tr class="memitem:a42bccad7983ff1dbf733fbe604b28505" id="r_a42bccad7983ff1dbf733fbe604b28505"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a42bccad7983ff1dbf733fbe604b28505">Copy</a> (const <a class="el" href="#ae4de26f5cd93b6f295f55d6c5b7a1a45">Array</a>&lt; TYPE, SMALL_VECTOR_SIZE &gt; &amp;src)</td></tr>
 <tr class="memdesc:a42bccad7983ff1dbf733fbe604b28505"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy content  <br /></td></tr>
 <tr class="memitem:a646a4ae6e570e2b3cd10751c022b16e9" id="r_a646a4ae6e570e2b3cd10751c022b16e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a646a4ae6e570e2b3cd10751c022b16e9">Delete</a> ()</td></tr>
@@ -2244,7 +2246,7 @@ template&lt;class TYPE, int SMALL_VECTOR_SIZE&gt; </div>
 </div>
 </div>
 <a id="a88dd82819335e2faf3b087b67c28021c" name="a88dd82819335e2faf3b087b67c28021c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88dd82819335e2faf3b087b67c28021c">&#9670;&#160;</a></span>Reset()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a88dd82819335e2faf3b087b67c28021c">&#9670;&#160;</a></span>Reset() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2263,6 +2265,35 @@ template&lt;class TYPE, int SMALL_VECTOR_SIZE&gt; </div>
 <p>reset array (does NOT call destructors) </p>
 <p>This is identical with <a class="el" href="#a4c0061fb8490171264d86c805f94068b" title="clear array (calls destructors)">Clear()</a>, but does NOT call destructors (it just resets the _size member.</p>
 <p>USE WITH CARE! </p>
+
+</div>
+</div>
+<a id="a6e5065b3c7a267e2ce600ca1b8e83ed9" name="a6e5065b3c7a267e2ce600ca1b8e83ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e5065b3c7a267e2ce600ca1b8e83ed9">&#9670;&#160;</a></span>Reset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, int SMALL_VECTOR_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; TYPE, SMALL_VECTOR_SIZE &gt;::Reset </td>
+          <td>(</td>
+          <td class="paramtype">TYPE *</td>          <td class="paramname"><span class="paramname"><em>elm</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destroy and immediately reconstruct an element in-place </p>
 
 </div>
 </div>
