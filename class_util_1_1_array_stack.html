@@ -217,11 +217,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ddebb1fc0e24396cd385e8f6be4f9ab" id="r_a7ddebb1fc0e24396cd385e8f6be4f9ab"><td class="memItemLeft"><a class="el" href="#aed444fe3290d1b9c0c16f145502201e9">Iterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7ddebb1fc0e24396cd385e8f6be4f9ab">begin</a> () const</td></tr>
 <tr class="memdesc:a7ddebb1fc0e24396cd385e8f6be4f9ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">for range-based iteration  <br /></td></tr>
 <tr class="memitem:accaf946fd4274749bd5524a440be4c79" id="r_accaf946fd4274749bd5524a440be4c79"><td class="memItemLeft"><a class="el" href="#aed444fe3290d1b9c0c16f145502201e9">Iterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#accaf946fd4274749bd5524a440be4c79">end</a> () const</td></tr>
+<tr class="memitem:ad1012c1995fb5915364938f3f5931e1f" id="r_ad1012c1995fb5915364938f3f5931e1f"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#ad1012c1995fb5915364938f3f5931e1f">size</a> () const</td></tr>
+<tr class="memitem:a6dde0537af162ea7a43b9c9016fed996" id="r_a6dde0537af162ea7a43b9c9016fed996"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6dde0537af162ea7a43b9c9016fed996">push_back</a> (const TYPE &amp;item)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a215bc8bcf2c09b642af1f1da879bb541" id="r_a215bc8bcf2c09b642af1f1da879bb541"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a215bc8bcf2c09b642af1f1da879bb541">Destroy</a> (TYPE *elm)</td></tr>
 <tr class="memdesc:a215bc8bcf2c09b642af1f1da879bb541"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy an element (call destructor without freeing memory)  <br /></td></tr>
+<tr class="memitem:aa6513cd7c87a5fd56885332d2f6c6f6f" id="r_aa6513cd7c87a5fd56885332d2f6c6f6f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa6513cd7c87a5fd56885332d2f6c6f6f">Reset</a> (TYPE *elm)</td></tr>
+<tr class="memdesc:aa6513cd7c87a5fd56885332d2f6c6f6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy and immediately reconstruct an element in-place  <br /></td></tr>
 <tr class="memitem:a6eca25cdd91b0b3cc05d417690ee20ab" id="r_a6eca25cdd91b0b3cc05d417690ee20ab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6eca25cdd91b0b3cc05d417690ee20ab">Copy</a> (const <a class="el" href="#a69799b7ac144dbfd06fa28c11fe89350">ArrayStack</a>&lt; TYPE, STACK_SIZE &gt; &amp;src)</td></tr>
 <tr class="memdesc:a6eca25cdd91b0b3cc05d417690ee20ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy content  <br /></td></tr>
 <tr class="memitem:abf1894b8cd6c3c6877a1df3c45283c1b" id="r_abf1894b8cd6c3c6877a1df3c45283c1b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abf1894b8cd6c3c6877a1df3c45283c1b">Delete</a> ()</td></tr>
@@ -1585,6 +1589,25 @@ template&lt;class TYPE, int STACK_SIZE&gt; </div>
 
 </div>
 </div>
+<a id="a6dde0537af162ea7a43b9c9016fed996" name="a6dde0537af162ea7a43b9c9016fed996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dde0537af162ea7a43b9c9016fed996">&#9670;&#160;</a></span>push_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, int STACK_SIZE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt; TYPE, STACK_SIZE &gt;::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const TYPE &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c510c4a7e7aa119caeb01eb06db96e6" name="a4c510c4a7e7aa119caeb01eb06db96e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c510c4a7e7aa119caeb01eb06db96e6">&#9670;&#160;</a></span>Realloc()</h2>
 
@@ -1635,7 +1658,7 @@ template&lt;class TYPE, int STACK_SIZE&gt; </div>
 </div>
 </div>
 <a id="af9c53324cd28c115495b1eec6b461d57" name="af9c53324cd28c115495b1eec6b461d57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9c53324cd28c115495b1eec6b461d57">&#9670;&#160;</a></span>Reset()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c53324cd28c115495b1eec6b461d57">&#9670;&#160;</a></span>Reset() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1657,6 +1680,35 @@ template&lt;class TYPE, int STACK_SIZE&gt; </div>
 
 </div>
 </div>
+<a id="aa6513cd7c87a5fd56885332d2f6c6f6f" name="aa6513cd7c87a5fd56885332d2f6c6f6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6513cd7c87a5fd56885332d2f6c6f6f">&#9670;&#160;</a></span>Reset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, int STACK_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt; TYPE, STACK_SIZE &gt;::Reset </td>
+          <td>(</td>
+          <td class="paramtype">TYPE *</td>          <td class="paramname"><span class="paramname"><em>elm</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destroy and immediately reconstruct an element in-place </p>
+
+</div>
+</div>
 <a id="ae74cee49eca92ea93f4d3f8ffbf791ac" name="ae74cee49eca92ea93f4d3f8ffbf791ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae74cee49eca92ea93f4d3f8ffbf791ac">&#9670;&#160;</a></span>Size()</h2>
 
@@ -1675,6 +1727,25 @@ template&lt;class TYPE, int STACK_SIZE&gt; </div>
 </div><div class="memdoc">
 
 <p>get number of elements in array </p>
+
+</div>
+</div>
+<a id="ad1012c1995fb5915364938f3f5931e1f" name="ad1012c1995fb5915364938f3f5931e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1012c1995fb5915364938f3f5931e1f">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE, int STACK_SIZE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="class_util_1_1_array_stack.html">Util::ArrayStack</a>&lt; TYPE, STACK_SIZE &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

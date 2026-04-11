@@ -136,8 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af9621757262769461d5804bc3eea492e"><td class="mdescLeft">&#160;</td><td class="mdescRight">less-eqial operator  <br /></td></tr>
 <tr class="memitem:a756584d4a980fc61f559fd822630afac" id="r_a756584d4a980fc61f559fd822630afac"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a756584d4a980fc61f559fd822630afac">IsValid</a> () const</td></tr>
 <tr class="memdesc:a756584d4a980fc61f559fd822630afac"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if the blob contains data  <br /></td></tr>
-<tr class="memitem:aef59370dfd6ca45ec9eaf1e4bd6a15d2" id="r_aef59370dfd6ca45ec9eaf1e4bd6a15d2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aef59370dfd6ca45ec9eaf1e4bd6a15d2">Reserve</a> (size_t <a class="el" href="#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>)</td></tr>
-<tr class="memdesc:aef59370dfd6ca45ec9eaf1e4bd6a15d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve N bytes  <br /></td></tr>
+<tr class="memitem:a326732975bd0b551ac3dc117593cacd3" id="r_a326732975bd0b551ac3dc117593cacd3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a326732975bd0b551ac3dc117593cacd3">SetSize</a> (size_t <a class="el" href="#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>)</td></tr>
+<tr class="memdesc:a326732975bd0b551ac3dc117593cacd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set size in bytes, allocating if needed  <br /></td></tr>
 <tr class="memitem:a5f86afa2066cacc9b22f9870c969d4b0" id="r_a5f86afa2066cacc9b22f9870c969d4b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5f86afa2066cacc9b22f9870c969d4b0">Trim</a> (size_t <a class="el" href="#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>)</td></tr>
 <tr class="memdesc:a5f86afa2066cacc9b22f9870c969d4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim the size member (without re-allocating!)  <br /></td></tr>
 <tr class="memitem:a4a74d2e6fc37a19790e640388dbe495f" id="r_a4a74d2e6fc37a19790e640388dbe495f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4a74d2e6fc37a19790e640388dbe495f">Set</a> (const void *<a class="el" href="#a4e0f4e91b2efbbcb385b0607e6ec84f4">ptr</a>, size_t <a class="el" href="#afd2a5c2174e37f3d3b2299e6de3c1666">size</a>)</td></tr>
@@ -877,33 +877,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aef59370dfd6ca45ec9eaf1e4bd6a15d2" name="aef59370dfd6ca45ec9eaf1e4bd6a15d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef59370dfd6ca45ec9eaf1e4bd6a15d2">&#9670;&#160;</a></span>Reserve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Util::Blob::Reserve </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>reserve N bytes </p>
-
-</div>
-</div>
 <a id="a4a74d2e6fc37a19790e640388dbe495f" name="a4a74d2e6fc37a19790e640388dbe495f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a74d2e6fc37a19790e640388dbe495f">&#9670;&#160;</a></span>Set()</h2>
 
@@ -1012,6 +985,33 @@ Static Private Attributes</h2></td></tr>
 
 <p>set from file </p>
 <p>loads binary from file </p>
+
+</div>
+</div>
+<a id="a326732975bd0b551ac3dc117593cacd3" name="a326732975bd0b551ac3dc117593cacd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326732975bd0b551ac3dc117593cacd3">&#9670;&#160;</a></span>SetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Util::Blob::SetSize </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set size in bytes, allocating if needed </p>
 
 </div>
 </div>
