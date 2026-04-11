@@ -1,5 +1,7 @@
 var NAVTREEINDEX165 =
 {
+"win32displaydevice_8cc.html":[10,0,0,7,5,7,0],
+"win32displaydevice_8h.html":[10,0,0,7,5,7,1],
 "win32displaydevice_8h_source.html":[10,0,0,7,5,7,1],
 "win32environment_8cc.html":[10,0,0,3,17,4,1],
 "win32environment_8h.html":[10,0,0,3,17,4,2],

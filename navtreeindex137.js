@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_material_templates_1_1_entry.html#a12c5eb482482b2b37b240be25e380a9b":[9,0,40,2,5],
+"struct_material_templates_1_1_entry.html#a1eddb6644539aba9e808f26b0a325240":[8,0,44,2,4],
 "struct_material_templates_1_1_entry.html#a1eddb6644539aba9e808f26b0a325240":[9,0,40,2,4],
 "struct_material_templates_1_1_entry.html#a31de36acd369105ca21ad130f2a02117":[8,0,44,2,2],
 "struct_material_templates_1_1_entry.html#a31de36acd369105ca21ad130f2a02117":[9,0,40,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_materials_1_1_material_variant.html#af3433691bcece50ef576c9a682b8810f":[9,0,39,6,3],
 "struct_materials_1_1_shader_config_batch_texture.html":[8,0,43,7],
 "struct_materials_1_1_shader_config_batch_texture.html":[9,0,39,7],
-"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[8,0,43,7,0],
-"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[9,0,39,7,0],
-"struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[8,0,43,7,1]
+"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[8,0,43,7,0]
 };

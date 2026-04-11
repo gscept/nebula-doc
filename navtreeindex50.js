@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"class_jobs_1_1_job_thread.html#ae45942ecea9f1445be0b06190777ce82":[9,0,35,4,4],
+"class_jobs_1_1_job_thread.html#ae913be40914f685b06cc0504e7d52c2f":[8,0,38,4,11],
 "class_jobs_1_1_job_thread.html#ae913be40914f685b06cc0504e7d52c2f":[9,0,35,4,11],
 "class_legacy_1_1_nvx2_stream_reader.html":[9,0,135],
 "class_legacy_1_1_nvx3_stream_reader.html":[9,0,136],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "class_linux_1_1_linux_thread.html#a87e0a0068f28316b6ed2a283630f23f4":[8,0,41,3,4],
 "class_linux_1_1_linux_thread.html#a87e0a0068f28316b6ed2a283630f23f4":[9,0,38,3,4],
 "class_linux_1_1_linux_thread.html#a97aed0f4efb2dbe82cc625c35a221c3b":[8,0,41,3,27],
-"class_linux_1_1_linux_thread.html#a97aed0f4efb2dbe82cc625c35a221c3b":[9,0,38,3,27],
-"class_linux_1_1_linux_thread.html#a993499d4decb59192380d6a121aad325":[8,0,41,3,8],
-"class_linux_1_1_linux_thread.html#a993499d4decb59192380d6a121aad325":[9,0,38,3,8]
+"class_linux_1_1_linux_thread.html#a97aed0f4efb2dbe82cc625c35a221c3b":[9,0,38,3,27]
 };

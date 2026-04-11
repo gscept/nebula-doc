@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"namespace_nebula.html":[8,0,57],
+"namespace_nebula_1_1_game.html":[8,0,57,0],
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f":[8,0,57,0,15],
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9fa8fcb50af7be99005d23a7264cd8acb0d":[8,0,57,0,15,0],
 "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9fa923429f6615c415f1eb55b1feaf1f3fe":[8,0,57,0,15,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "namespace_post_effects.html#ac70c875fe2061ae67052676105031d64":[8,0,68,53],
 "namespace_post_effects.html#ac77c065ec5f9fad9c8e6ff881ded8ff3":[8,0,68,48],
 "namespace_post_effects.html#ac7f3e2b5a3ea6420a750bcb911ff05e6":[8,0,68,67],
-"namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5":[8,0,68,41],
-"namespace_post_effects.html#ad16b264ff9de9ac76abb528886446ac6":[8,0,68,23],
-"namespace_post_effects.html#ad7eb2d1326a536c1f2d0f48c949f956d":[8,0,68,45]
+"namespace_post_effects.html#acdd6236edb9638125677a1874b6998f5":[8,0,68,41]
 };

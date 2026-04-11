@@ -72,6 +72,7 @@ var class_i_o_1_1_json_reader =
     [ "HasNode", "class_i_o_1_1_json_reader.html#a580e5347e03232f7d5566a07c46b7682", null ],
     [ "IsArray", "class_i_o_1_1_json_reader.html#a0ebea76e65d47d2542c7082f4467b62e", null ],
     [ "IsObject", "class_i_o_1_1_json_reader.html#ad6e22941dcc7078ff3937da3af97b0da", null ],
+    [ "IsString", "class_i_o_1_1_json_reader.html#a95fea9b38c387fb177f18d5e98b92e3a", null ],
     [ "Open", "class_i_o_1_1_json_reader.html#a4608be97eae01f2517269bb2b3d47a49", null ],
     [ "SetToFirstChild", "class_i_o_1_1_json_reader.html#a3e6d30a75b17795dff4bd295ad14e764", null ],
     [ "SetToNextChild", "class_i_o_1_1_json_reader.html#aaddab2984a0e70291b8034e0f5c63170", null ],

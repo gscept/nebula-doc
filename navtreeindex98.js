@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"excelxmlreader_8h_source.html":[10,0,0,3,9,25],
+"exithandler_8cc.html":[10,0,0,3,1,11],
 "exithandler_8h.html":[10,0,0,3,1,12],
 "exithandler_8h_source.html":[10,0,0,3,1,12],
 "extrapolator_8h.html":[10,0,0,3,12,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "functions_eval_r.html":[9,3,5,18],
 "functions_eval_s.html":[9,3,5,19],
 "functions_eval_t.html":[9,3,5,20],
-"functions_eval_u.html":[9,3,5,21],
-"functions_eval_v.html":[9,3,5,22],
-"functions_eval_w.html":[9,3,5,23]
+"functions_eval_u.html":[9,3,5,21]
 };

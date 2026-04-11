@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"dir_33a8f262685cfb8bf940760178db603b.html":[10,0,0,3,5],
+"dir_33bd0eb162c38d8a458e5b4a16f1c771.html":[10,0,0,3,9,5],
 "dir_343e18e6636bbbe0205c0acdcfb8715c.html":[10,0,0,4],
 "dir_350534c32e147e6de170d54660d51d80.html":[10,0,0,3,18,0],
 "dir_352832f12b9478246c52b270ca81d862.html":[10,0,0,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "euler_8h.html#afd0632773646eed497f0762824ab14b4":[10,0,0,3,12,6,20],
 "euler_8h_source.html":[10,0,0,3,12,6],
 "excelxmlreader_8cc.html":[10,0,0,3,9,24],
-"excelxmlreader_8h.html":[10,0,0,3,9,25],
-"excelxmlreader_8h_source.html":[10,0,0,3,9,25],
-"exithandler_8cc.html":[10,0,0,3,1,11]
+"excelxmlreader_8h.html":[10,0,0,3,9,25]
 };

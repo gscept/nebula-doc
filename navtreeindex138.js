@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[9,0,39,7,0],
+"struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[8,0,43,7,1],
 "struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[9,0,39,7,1],
 "struct_math_1_1_bezier_cubic.html":[8,0,46,3],
 "struct_math_1_1_bezier_cubic.html":[9,0,42,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "struct_math_1_1point.html#a1cfbd292f08abf43ea2069740bad4aad":[9,0,42,13,26],
 "struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2":[8,0,46,13,14],
 "struct_math_1_1point.html#a222f359a00b888c51c9e592bf43ca8c2":[9,0,42,13,14],
-"struct_math_1_1point.html#a23123a4a2d2ab5caf3fe20678b977493":[8,0,46,13,9],
-"struct_math_1_1point.html#a23123a4a2d2ab5caf3fe20678b977493":[9,0,42,13,9],
-"struct_math_1_1point.html#a27c2b31c052f5092612a5f6c4ac1e0e8":[8,0,46,13,15]
+"struct_math_1_1point.html#a23123a4a2d2ab5caf3fe20678b977493":[8,0,46,13,9]
 };
