@@ -4,6 +4,7 @@ var imguicontext_8cc =
     [ "Dynui::ImGuiSecondaryWindowData", "struct_dynui_1_1_im_gui_secondary_window_data.html", "struct_dynui_1_1_im_gui_secondary_window_data" ],
     [ "Dynui::ImGuiWindowHandle", "struct_dynui_1_1_im_gui_window_handle.html", "struct_dynui_1_1_im_gui_window_handle" ],
     [ "Dynui::__ImplementPluginContext", "namespace_dynui.html#ac30d999a3f97cb82b19b146cf0b7e5e3", null ],
+    [ "Dynui::ImGuiCloseButton", "namespace_dynui.html#a6f9851c6915d6f1d5c42715aa116408c", null ],
     [ "Dynui::ImguiDrawFunction", "namespace_dynui.html#a960ab720f7f43911fd79843bff02e16a", null ],
     [ "Dynui::ImguiBoldFont", "namespace_dynui.html#af75861cd3b6fd42da282da1f6c58f279", null ],
     [ "Dynui::ImguiItFont", "namespace_dynui.html#a440d84c587bd9c29d970285491e6853c", null ],

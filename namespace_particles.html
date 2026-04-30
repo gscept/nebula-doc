@@ -93,8 +93,12 @@ $(function(){initNavTree('namespace_particles.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="struct_particles_1_1_particle.html" title="The particle structure holds the current state of a single particle and common data for particle-job ...">Particle</a> context controls playing and enabling/disabling of particle emitters inside a model. </p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file </dd></dl>
+<div class="textblock"><p><a class="el" href="struct_particles_1_1_particle.html" title="The particle structure holds the current state of a single particle and common data for particle-job ...">Particle</a> context controls playing and enabling/disabling of particle attrs inside a model. </p>
+<p>A ParticleResource contains the data for a particle effect, such as attrs and meshes.</p>
+<p>The loader for particle effects.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2018-2020 Individual contributors, see AUTHORS file</dd>
+<dd>
+(C) 2026 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -112,28 +116,44 @@ Classes</h2></td></tr>
 <tr class="memitem:ParticleJobSliceOutputData" id="r_ParticleJobSliceOutputData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a></td></tr>
 <tr class="memitem:ParticleJobContext" id="r_ParticleJobContext"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_particles_1_1_particle_job_context.html">ParticleJobContext</a></td></tr>
 <tr class="memitem:ParticleContext" id="r_ParticleContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_particles_1_1_particle_context.html">ParticleContext</a></td></tr>
+<tr class="memitem:ParticleLoader" id="r_ParticleLoader"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_particles_1_1_particle_loader.html">ParticleLoader</a></td></tr>
+<tr class="memitem:ParticleResourceId" id="r_ParticleResourceId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_particles_1_1_particle_resource_id.html">ParticleResourceId</a></td></tr>
+<tr class="memitem:ParticleEmitters" id="r_ParticleEmitters"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a6b7774555eac24d3d4fee976940eceff" id="r_a6b7774555eac24d3d4fee976940eceff"><td class="memItemLeft">typedef unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a6b7774555eac24d3d4fee976940eceff">JOB_ID</a></td></tr>
 <tr class="memitem:a97c26170398a5cbf672f235b3c21d403" id="r_a97c26170398a5cbf672f235b3c21d403"><td class="memItemLeft">typedef Base::ParticleRenderInfoBase&#160;</td><td class="memItemRight"><a class="el" href="#a97c26170398a5cbf672f235b3c21d403">ParticleRenderInfo</a></td></tr>
+<tr class="memitem:a0d31d61ec21c5b6be76b6e072dc3df27" id="r_a0d31d61ec21c5b6be76b6e072dc3df27"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF, <a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0d31d61ec21c5b6be76b6e072dc3df27">ParticleResourceAllocator</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad7c92b692c30981e324d6ad493301758" id="r_ad7c92b692c30981e324d6ad493301758"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#ad7c92b692c30981e324d6ad493301758ab0855b4e6be43e8a77683d312bfbe4c7">ParticleResource_Resource</a>
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1db36c23bd8d5a3c6e7c7d8291674732" id="r_a1db36c23bd8d5a3c6e7c7d8291674732"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1db36c23bd8d5a3c6e7c7d8291674732">__ImplementContext</a> (<a class="el" href="class_particles_1_1_particle_context.html">ParticleContext</a>, <a class="el" href="class_particles_1_1_particle_context.html#a59fe7110ee2b1b1aca1f05f9b11c2e48">ParticleContext::particleContextAllocator</a>)</td></tr>
-<tr class="memitem:a25292140df89ba68be7e72a9d3676abf" id="r_a25292140df89ba68be7e72a9d3676abf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a25292140df89ba68be7e72a9d3676abf">JobStep</a> (const <a class="el" href="struct_particles_1_1_particle_job_uniform_data.html">ParticleJobUniformData</a> *perSystemUniforms, const float stepTime, unsigned int numParticles, const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_input, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_output, <a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *sliceOutput)</td></tr>
-<tr class="memdesc:a25292140df89ba68be7e72a9d3676abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">update particle system step  <br /></td></tr>
+<tr class="memitem:ace829e02062074ed61297f19cd4e3f30" id="r_ace829e02062074ed61297f19cd4e3f30"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ace829e02062074ed61297f19cd4e3f30">JobStep</a> (const <a class="el" href="struct_particles_1_1_particle_job_uniform_data.html">ParticleJobUniformData</a> *perSystemUniforms, const float stepTime, unsigned int numParticles, const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_input, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_output, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *livingParticles, <a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *sliceOutput)</td></tr>
 <tr class="memitem:aac6f7feb079adb563be3300d33af7760" id="r_aac6f7feb079adb563be3300d33af7760"><td class="memItemLeft">const float *&#160;</td><td class="memItemRight"><a class="el" href="#aac6f7feb079adb563be3300d33af7760">LookupEnvelopeSamples</a> (const float sampleBuffer[<a class="el" href="#a374692d43bfc5f8fbda6cedb68e21583">ParticleSystemNumEnvelopeSamples</a> *<a class="el" href="class_particles_1_1_emitter_attrs.html#aeefa58badb0252b30380969a6fe9d8d9acd0ae1faee09d3cd343f87a239172fb7">EmitterAttrs::NumEnvelopeAttrs</a>], <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sampleIndex)</td></tr>
 <tr class="memdesc:aac6f7feb079adb563be3300d33af7760"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: JobStepAndVlist does the same as JobStep, but it also generates the vertex list.  <br /></td></tr>
 <tr class="memitem:a9f62cb49a7bb1d8af1c3e70cc3397e88" id="r_a9f62cb49a7bb1d8af1c3e70cc3397e88"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f62cb49a7bb1d8af1c3e70cc3397e88">UpdateBbox</a> (const <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;v, <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;<a class="el" href="namespace_math.html#a919d6c3f6ad40f7bd09d26a3910d4e6a">min</a>, <a class="el" href="struct_math_1_1vec4.html">vec4</a> &amp;<a class="el" href="namespace_math.html#abe3dc1bce65d07a608490d232305c132">max</a>)</td></tr>
 <tr class="memdesc:a9f62cb49a7bb1d8af1c3e70cc3397e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">update bounding box (min, max) with vector v  <br /></td></tr>
-<tr class="memitem:ad40f8bfe1262f5bea4f32e54befaf421" id="r_ad40f8bfe1262f5bea4f32e54befaf421"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad40f8bfe1262f5bea4f32e54befaf421">ParticleUpdateAge</a> (const float stepTime, const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;in, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;out)</td></tr>
-<tr class="memdesc:ad40f8bfe1262f5bea4f32e54befaf421"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the age of one particle  <br /></td></tr>
 <tr class="memitem:a25345a24450b7aa807d5e06742fb68ca" id="r_a25345a24450b7aa807d5e06742fb68ca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a25345a24450b7aa807d5e06742fb68ca">ParticleStep</a> (const <a class="el" href="struct_particles_1_1_particle_job_uniform_data.html">ParticleJobUniformData</a> *perSystemUniforms, const float stepTime, const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;in, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;out, <a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *sliceOutput)</td></tr>
-<tr class="memdesc:a25345a24450b7aa807d5e06742fb68ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">integrate the particle state with a given time-step  <br /></td></tr>
+<tr class="memdesc:a25345a24450b7aa807d5e06742fb68ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">integrate the particle state with a given time-step, retursn true if input particle is valid  <br /></td></tr>
+<tr class="memitem:a25292140df89ba68be7e72a9d3676abf" id="r_a25292140df89ba68be7e72a9d3676abf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a25292140df89ba68be7e72a9d3676abf">JobStep</a> (const <a class="el" href="struct_particles_1_1_particle_job_uniform_data.html">ParticleJobUniformData</a> *perSystemUniforms, const float stepTime, unsigned int numParticles, const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_input, <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *particles_output, <a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *sliceOutput)</td></tr>
+<tr class="memdesc:a25292140df89ba68be7e72a9d3676abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">update particle system step  <br /></td></tr>
+<tr class="memitem:a9939d39ff7554def5e5973d7c92254c6" id="r_a9939d39ff7554def5e5973d7c92254c6"><td class="memItemLeft">const <a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9939d39ff7554def5e5973d7c92254c6">ParticleResourceGetEmitters</a> (const <a class="el" href="struct_particles_1_1_particle_resource_id.html">ParticleResourceId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
+<tr class="memdesc:a9939d39ff7554def5e5973d7c92254c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get attrs.  <br /></td></tr>
+<tr class="memitem:a6417df91ab80f261812aef18d98fe56f" id="r_a6417df91ab80f261812aef18d98fe56f"><td class="memItemLeft"><a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a6417df91ab80f261812aef18d98fe56f">ParticleResourceGetMutableEmitters</a> (const <a class="el" href="struct_particles_1_1_particle_resource_id.html">ParticleResourceId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a9f16a7aaf58455ec6a0036af160546f5" id="r_a9f16a7aaf58455ec6a0036af160546f5"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a9f16a7aaf58455ec6a0036af160546f5">FloatAttrNames</a> []</td></tr>
+<tr class="memitem:a9485c700e29f165ad77783f66a651ba3" id="r_a9485c700e29f165ad77783f66a651ba3"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a9485c700e29f165ad77783f66a651ba3">BoolAttrNames</a> []</td></tr>
+<tr class="memitem:a5be54a7087cc199a040ae87fda081e33" id="r_a5be54a7087cc199a040ae87fda081e33"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a5be54a7087cc199a040ae87fda081e33">IntAttrNames</a> []</td></tr>
+<tr class="memitem:ab5369e31ff852b4657b2a3d3cf067f66" id="r_ab5369e31ff852b4657b2a3d3cf067f66"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#ab5369e31ff852b4657b2a3d3cf067f66">Float4AttrNames</a> []</td></tr>
+<tr class="memitem:a9fa6ec71180f949da8e27f9d88ef6c7d" id="r_a9fa6ec71180f949da8e27f9d88ef6c7d"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a9fa6ec71180f949da8e27f9d88ef6c7d">EnvelopeAttrNames</a> []</td></tr>
 <tr class="memitem:a374692d43bfc5f8fbda6cedb68e21583" id="r_a374692d43bfc5f8fbda6cedb68e21583"><td class="memItemLeft">static const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a374692d43bfc5f8fbda6cedb68e21583">ParticleSystemNumEnvelopeSamples</a> = 192</td></tr>
 <tr class="memdesc:a374692d43bfc5f8fbda6cedb68e21583"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of samples in envelope curves  <br /></td></tr>
 <tr class="memitem:a8965f021c236ba0417be69c04a037d87" id="r_a8965f021c236ba0417be69c04a037d87"><td class="memItemLeft">static const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8965f021c236ba0417be69c04a037d87">MaxNumRenderedParticles</a> = 65535</td></tr>
@@ -147,6 +167,7 @@ Variables</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">struct {&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:abe29eda85ef99ba458c4dd5f34286ad6" id="r_abe29eda85ef99ba458c4dd5f34286ad6"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#a1ae10c88323fb838f1204006cf6c7f22">Particles::geometryVbo</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ab0b4fb5bef0e7a303435a69ea41194d5" id="r_ab0b4fb5bef0e7a303435a69ea41194d5"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#ae172d2b2b6f3c7db93f4facf5031cf80">Particles::geometryIbo</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a42ffca380f77d63519fe4a000586293f" id="r_a42ffca380f77d63519fe4a000586293f"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a> &gt;&#160;&#160;&#160;<a class="el" href="#af025cc6cb7e8e5e51b14d2016772a10b">Particles::vertexAllocs</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:ac42e510252dd63fcc65fc5b344670139" id="r_ac42e510252dd63fcc65fc5b344670139"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;&#160;&#160;<a class="el" href="#ad1abed319d1282822f0193a872da9877">Particles::vbos</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a8cf93e65f8e03c3d568d8562dfa6993c" id="r_a8cf93e65f8e03c3d568d8562dfa6993c"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &gt;&#160;&#160;&#160;<a class="el" href="#a68a5ed14b22d31966157326e0813148f">Particles::vboSizes</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:af45482c4251196ae46dbbbf9d5323e62" id="r_af45482c4251196ae46dbbbf9d5323e62"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; byte * &gt;&#160;&#160;&#160;<a class="el" href="#ac4144306d977314bb227454d6ef7ac65">Particles::mappedVertices</a>&#160;</td><td class="memItemRight"></td></tr>
@@ -157,6 +178,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a57430240f573f0bb95a027960bc46497" id="r_a57430240f573f0bb95a027960bc46497"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_core_graphics_1_1_primitive_group.html">CoreGraphics::PrimitiveGroup</a>&#160;&#160;&#160;<a class="el" href="#aea46a9d16799861c566d261aea1af430">Particles::primGroup</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a7000e0d43857a2223fe873c50ef55ff9" id="r_a7000e0d43857a2223fe873c50ef55ff9"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;&#160;&#160;<a class="el" href="#a0b026d4a9f0fabbe8bd01ec16ceb5b9e">Particles::numParticlesThisFrame</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a28e3f80b30db55e60e3d93cc0b5eeea3" id="r_a28e3f80b30db55e60e3d93cc0b5eeea3"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#a28e3f80b30db55e60e3d93cc0b5eeea3">state</a></td></tr>
+<tr class="memitem:a00a322f26d7d6cd4fc00c813db7c7909" id="r_a00a322f26d7d6cd4fc00c813db7c7909"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a00a322f26d7d6cd4fc00c813db7c7909">DefaultEmitterMesh</a></td></tr>
+<tr class="memitem:abf4cbdecf1b2025e72d7eb04cd7c7729" id="r_abf4cbdecf1b2025e72d7eb04cd7c7729"><td class="memItemLeft"><a class="el" href="#a0d31d61ec21c5b6be76b6e072dc3df27">ParticleResourceAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#abf4cbdecf1b2025e72d7eb04cd7c7729">particleResourceAllocator</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a6b7774555eac24d3d4fee976940eceff" name="a6b7774555eac24d3d4fee976940eceff"></a>
@@ -187,6 +210,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d31d61ec21c5b6be76b6e072dc3df27" name="a0d31d61ec21c5b6be76b6e072dc3df27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d31d61ec21c5b6be76b6e072dc3df27">&#9670;&#160;</a></span>ParticleResourceAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF, <a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a>&gt; <a class="el" href="#a0d31d61ec21c5b6be76b6e072dc3df27">Particles::ParticleResourceAllocator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad7c92b692c30981e324d6ad493301758" name="ad7c92b692c30981e324d6ad493301758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c92b692c30981e324d6ad493301758">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad7c92b692c30981e324d6ad493301758ab0855b4e6be43e8a77683d312bfbe4c7" name="ad7c92b692c30981e324d6ad493301758ab0855b4e6be43e8a77683d312bfbe4c7"></a>ParticleResource_Resource&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a1db36c23bd8d5a3c6e7c7d8291674732" name="a1db36c23bd8d5a3c6e7c7d8291674732"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1db36c23bd8d5a3c6e7c7d8291674732">&#9670;&#160;</a></span>__ImplementContext()</h2>
@@ -209,8 +264,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a25292140df89ba68be7e72a9d3676abf" name="a25292140df89ba68be7e72a9d3676abf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25292140df89ba68be7e72a9d3676abf">&#9670;&#160;</a></span>JobStep()</h2>
+<a id="ace829e02062074ed61297f19cd4e3f30" name="ace829e02062074ed61297f19cd4e3f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace829e02062074ed61297f19cd4e3f30">&#9670;&#160;</a></span>JobStep() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,6 +301,11 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="struct_particles_1_1_particle.html">Particle</a> *</td>          <td class="paramname"><span class="paramname"><em>livingParticles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *</td>          <td class="paramname"><span class="paramname"><em>sliceOutput</em></span>&#160;)</td>
         </tr>
       </table>
@@ -254,6 +314,47 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25292140df89ba68be7e72a9d3676abf" name="a25292140df89ba68be7e72a9d3676abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25292140df89ba68be7e72a9d3676abf">&#9670;&#160;</a></span>JobStep() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particles::JobStep </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_particles_1_1_particle_job_uniform_data.html">ParticleJobUniformData</a> *</td>          <td class="paramname"><span class="paramname"><em>perSystemUniforms</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>stepTime</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>numParticles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> *</td>          <td class="paramname"><span class="paramname"><em>particles_input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_particles_1_1_particle.html">Particle</a> *</td>          <td class="paramname"><span class="paramname"><em>particles_output</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_particles_1_1_particle_job_slice_output_data.html">ParticleJobSliceOutputData</a> *</td>          <td class="paramname"><span class="paramname"><em>sliceOutput</em></span>&#160;)</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 <p>update particle system step </p>
@@ -281,6 +382,42 @@ Variables</h2></td></tr>
 
 <p>NOTE: JobStepAndVlist does the same as JobStep, but it also generates the vertex list. </p>
 <p>It could be in one function, but then we would always have to check a boolean value for each particle. Thats bad for the SPU, since it doesnt have any branch prediction, and it would have to throw away commands and fetch new commands from the program in each iteration lookup samples at index "sampleIndex" in sample-table </p>
+
+</div>
+</div>
+<a id="a9939d39ff7554def5e5973d7c92254c6" name="a9939d39ff7554def5e5973d7c92254c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9939d39ff7554def5e5973d7c92254c6">&#9670;&#160;</a></span>ParticleResourceGetEmitters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a> &amp; Particles::ParticleResourceGetEmitters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_particles_1_1_particle_resource_id.html">ParticleResourceId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get attrs. </p>
+
+</div>
+</div>
+<a id="a6417df91ab80f261812aef18d98fe56f" name="a6417df91ab80f261812aef18d98fe56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6417df91ab80f261812aef18d98fe56f">&#9670;&#160;</a></span>ParticleResourceGetMutableEmitters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_particles_1_1_particle_emitters.html">ParticleEmitters</a> &amp; Particles::ParticleResourceGetMutableEmitters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_particles_1_1_particle_resource_id.html">ParticleResourceId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -318,35 +455,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>integrate the particle state with a given time-step </p>
-
-</div>
-</div>
-<a id="ad40f8bfe1262f5bea4f32e54befaf421" name="ad40f8bfe1262f5bea4f32e54befaf421"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad40f8bfe1262f5bea4f32e54befaf421">&#9670;&#160;</a></span>ParticleUpdateAge()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__forceinline void Particles::ParticleUpdateAge </td>
-          <td>(</td>
-          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>stepTime</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_particles_1_1_particle.html">Particle</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>update the age of one particle </p>
+<p>integrate the particle state with a given time-step, retursn true if input particle is valid </p>
 
 </div>
 </div>
@@ -393,6 +502,58 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9485c700e29f165ad77783f66a651ba3" name="a9485c700e29f165ad77783f66a651ba3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9485c700e29f165ad77783f66a651ba3">&#9670;&#160;</a></span>BoolAttrNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Particles::BoolAttrNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                = </div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;Looping&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;StretchToStart&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;RenderOldestFirst&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ViewAngleFade&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Billboard&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a00a322f26d7d6cd4fc00c813db7c7909" name="a00a322f26d7d6cd4fc00c813db7c7909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00a322f26d7d6cd4fc00c813db7c7909">&#9670;&#160;</a></span>DefaultEmitterMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a> Particles::DefaultEmitterMesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa2d0f9ec985a20ca75122393dfeb61cd" name="aa2d0f9ec985a20ca75122393dfeb61cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2d0f9ec985a20ca75122393dfeb61cd">&#9670;&#160;</a></span>DefaultStepTime</h2>
 
@@ -405,6 +566,111 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a9fa6ec71180f949da8e27f9d88ef6c7d" name="a9fa6ec71180f949da8e27f9d88ef6c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa6ec71180f949da8e27f9d88ef6c7d">&#9670;&#160;</a></span>EnvelopeAttrNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Particles::EnvelopeAttrNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                    = </div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;Red&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Green&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Blue&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Alpha&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;EmissionFrequency&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;LifeTime&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;StartVelocity&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;RotationVelocity&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Size&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SpreadMin&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SpreadMax&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;AirResistance&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;VelocityFactor&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Mass&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;TimeManipulator&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Alignment0&quot;</span></div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab5369e31ff852b4657b2a3d3cf067f66" name="ab5369e31ff852b4657b2a3d3cf067f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5369e31ff852b4657b2a3d3cf067f66">&#9670;&#160;</a></span>Float4AttrNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Particles::Float4AttrNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                  = </div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;WindDirection&quot;</span></div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9f16a7aaf58455ec6a0036af160546f5" name="a9f16a7aaf58455ec6a0036af160546f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f16a7aaf58455ec6a0036af160546f5">&#9670;&#160;</a></span>FloatAttrNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Particles::FloatAttrNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                 = </div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;EmissionDuration&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ActivityDistance&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;StartRotationMin&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;StartRotationMax&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Gravity&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ParticleStretch&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;VelocityRandomize&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;RotationRandomize&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SizeRandomize&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;PrecalcTime&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;StartDelay&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;TextureTile&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;PhasesPerSecond&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae172d2b2b6f3c7db93f4facf5031cf80" name="ae172d2b2b6f3c7db93f4facf5031cf80"></a>
@@ -433,6 +699,33 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a5be54a7087cc199a040ae87fda081e33" name="a5be54a7087cc199a040ae87fda081e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be54a7087cc199a040ae87fda081e33">&#9670;&#160;</a></span>IntAttrNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* Particles::IntAttrNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                               = </div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;StretchDetail&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;AnimPhases&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a61628fb050f081bc95c83635c38d0876" name="a61628fb050f081bc95c83635c38d0876"></a>
@@ -593,6 +886,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="abf4cbdecf1b2025e72d7eb04cd7c7729" name="abf4cbdecf1b2025e72d7eb04cd7c7729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4cbdecf1b2025e72d7eb04cd7c7729">&#9670;&#160;</a></span>particleResourceAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0d31d61ec21c5b6be76b6e072dc3df27">ParticleResourceAllocator</a> Particles::particleResourceAllocator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a374692d43bfc5f8fbda6cedb68e21583" name="a374692d43bfc5f8fbda6cedb68e21583"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a374692d43bfc5f8fbda6cedb68e21583">&#9670;&#160;</a></span>ParticleSystemNumEnvelopeSamples</h2>
 
@@ -681,6 +988,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&gt; Particles::vboSizes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af025cc6cb7e8e5e51b14d2016772a10b" name="af025cc6cb7e8e5e51b14d2016772a10b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af025cc6cb7e8e5e51b14d2016772a10b">&#9670;&#160;</a></span>vertexAllocs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_vertex_alloc.html">CoreGraphics::VertexAlloc</a>&gt; Particles::vertexAllocs</td>
         </tr>
       </table>
 </div><div class="memdoc">

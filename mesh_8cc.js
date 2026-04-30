@@ -14,6 +14,7 @@ var mesh_8cc =
     [ "CoreGraphics::MeshGetVertexLayout", "namespace_core_graphics.html#a2b9303da83aabdc2f7b4e092a6dc552b", null ],
     [ "CoreGraphics::MeshGetVertexOffset", "namespace_core_graphics.html#ad9aa147e18375bc2f8e87b05442d6f68", null ],
     [ "CoreGraphics::MeshSetVertexBuffer", "namespace_core_graphics.html#ad9953f6a3f01efc752359b6bfeb626b7", null ],
+    [ "CoreGraphics::MeshSetVertexOffset", "namespace_core_graphics.html#a4c219840e2c79073b1f35c65040020f7", null ],
     [ "CoreGraphics::DiskMesh", "namespace_core_graphics.html#a4a8a9800efe6c8f38748586ccaabf2fc", null ],
     [ "CoreGraphics::meshAllocator", "namespace_core_graphics.html#a159d42ca6eb5363ef2773376cc6497b0", null ],
     [ "CoreGraphics::RectangleMesh", "namespace_core_graphics.html#a0ae3c884023b8f1345f5fe73eec15ccc", null ]

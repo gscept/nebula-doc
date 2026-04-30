@@ -899,7 +899,10 @@ var annotated_dup =
       [ "ParticleJobUniformData", "struct_particles_1_1_particle_job_uniform_data.html", "struct_particles_1_1_particle_job_uniform_data" ],
       [ "ParticleJobSliceOutputData", "struct_particles_1_1_particle_job_slice_output_data.html", "struct_particles_1_1_particle_job_slice_output_data" ],
       [ "ParticleJobContext", "struct_particles_1_1_particle_job_context.html", "struct_particles_1_1_particle_job_context" ],
-      [ "ParticleContext", "class_particles_1_1_particle_context.html", "class_particles_1_1_particle_context" ]
+      [ "ParticleContext", "class_particles_1_1_particle_context.html", "class_particles_1_1_particle_context" ],
+      [ "ParticleLoader", "class_particles_1_1_particle_loader.html", "class_particles_1_1_particle_loader" ],
+      [ "ParticleResourceId", "struct_particles_1_1_particle_resource_id.html", null ],
+      [ "ParticleEmitters", "struct_particles_1_1_particle_emitters.html", "struct_particles_1_1_particle_emitters" ]
     ] ],
     [ "Physics", "namespace_physics.html", [
       [ "ShapeHandle", "struct_physics_1_1_shape_handle.html", "struct_physics_1_1_shape_handle" ],

@@ -17,7 +17,7 @@ var searchData=
   ['uniformbuffersbyname_14',['uniformBuffersByName',['../struct_vulkan_1_1_vk_reflection_info.html#a385a1b278a5726bde390e23498c41e0b',1,'Vulkan::VkReflectionInfo']]],
   ['uniformbuffersmask_15',['uniformBuffersMask',['../struct_vulkan_1_1_vk_reflection_info.html#ad53d48819f8f62c28930e2d45453c8d5',1,'Vulkan::VkReflectionInfo']]],
   ['uniformbuffersperset_16',['uniformBuffersPerSet',['../struct_vulkan_1_1_vk_reflection_info.html#a57f48e71d43f94836abd75eb65984924',1,'Vulkan::VkReflectionInfo']]],
-  ['uniformdata_17',['uniformData',['../struct_particles_1_1_particle_job_context.html#ac743d147e74844c0c47746421bcbe4d3',1,'Particles::ParticleJobContext::uniformData'],['../struct_particles_1_1_particle_context_1_1_particle_system_runtime.html#a09c5c17a2eef99157de105a70e614317',1,'Particles::ParticleContext::ParticleSystemRuntime::uniformData']]],
+  ['uniformdata_17',['uniformData',['../struct_particles_1_1_particle_job_context.html#ac743d147e74844c0c47746421bcbe4d3',1,'Particles::ParticleJobContext']]],
   ['uniforms_18',['uniforms',['../struct_jobs_1_1_job_func_context.html#ae1a43c9079cf28752691250f38326ecb',1,'Jobs::JobFuncContext::uniforms'],['../namespace_clustering.html#a7cdb3fe75647c075795d5fb63496de25',1,'Clustering::uniforms']]],
   ['uniformsizes_19',['uniformSizes',['../struct_jobs_1_1_job_func_context.html#a2fa18febc2f306c133585dd6cc966d73',1,'Jobs::JobFuncContext']]],
   ['unindexed_20',['unindexed',['../class_vulkan_1_1_vk_shape_renderer.html#a55ef4237d8cc09ab87f1ea961633aa82',1,'Vulkan::VkShapeRenderer']]],

@@ -12,5 +12,9 @@ var dir_6a45671fc6fac75fb76a42ab672583e8 =
     [ "particlecontext.cc", "particlecontext_8cc.html", "particlecontext_8cc" ],
     [ "particlecontext.h", "particlecontext_8h.html", "particlecontext_8h" ],
     [ "particlejob.cc", "particlejob_8cc.html", "particlejob_8cc" ],
-    [ "particlerenderinfo.h", "particlerenderinfo_8h.html", "particlerenderinfo_8h" ]
+    [ "particleloader.cc", "particleloader_8cc.html", "particleloader_8cc" ],
+    [ "particleloader.h", "particleloader_8h.html", "particleloader_8h" ],
+    [ "particlerenderinfo.h", "particlerenderinfo_8h.html", "particlerenderinfo_8h" ],
+    [ "particleresource.cc", "particleresource_8cc.html", "particleresource_8cc" ],
+    [ "particleresource.h", "particleresource_8h.html", "particleresource_8h" ]
 ];

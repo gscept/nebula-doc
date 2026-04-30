@@ -237,7 +237,7 @@ var searchData=
   ['default_5fstage_5fmask_234',['DEFAULT_STAGE_MASK',['../namespace_graphics.html#ab7e60dc0515b73f6d60c0654457ebf7a',1,'Graphics']]],
   ['default_5fworld_235',['DEFAULT_WORLD',['../class_nebula_1_1_game_1_1_world.html#af20fa92d152b272fb6cd5b801c5e037d',1,'Nebula::Game::World']]],
   ['defaultcenterofinterest_236',['defaultCenterOfInterest',['../class_render_util_1_1_maya_camera_util.html#ad6c95782b3ed8e388bf998acb5a6ef78',1,'RenderUtil::MayaCameraUtil']]],
-  ['defaultemittermesh_237',['DefaultEmitterMesh',['../class_particles_1_1_particle_context.html#a654189a239fb09df20091a57ee5109ab',1,'Particles::ParticleContext']]],
+  ['defaultemittermesh_237',['DefaultEmitterMesh',['../namespace_particles.html#a00a322f26d7d6cd4fc00c813db7c7909',1,'Particles']]],
   ['defaultenvironmentmap_238',['defaultEnvironmentMap',['../namespace_graphics.html#a74411be0c6361031a445c3ba5ab92338',1,'Graphics']]],
   ['defaulteyepos_239',['defaultEyePos',['../class_render_util_1_1_free_camera_util.html#a8376a8c41a138ed3bbf48fea361d8bd7',1,'RenderUtil::FreeCameraUtil::defaultEyePos'],['../class_render_util_1_1_maya_camera_util.html#a8a698d0c91807415f8d681f3ca735b8d',1,'RenderUtil::MayaCameraUtil::defaultEyePos']]],
   ['defaulteyevec_240',['defaultEyeVec',['../class_render_util_1_1_free_camera_util.html#acb663d003e0a706dd5d58401b7c779cf',1,'RenderUtil::FreeCameraUtil']]],

@@ -18,6 +18,8 @@ var jobs2_8h =
     [ "Jobs2::JobAlloc", "namespace_jobs2.html#a10dcfcd06d6b6f553f80c4e5c2499586", null ],
     [ "Jobs2::JobAppendSequence", "namespace_jobs2.html#a0d2fef55952e65782c911c87d3e2c4ad", null ],
     [ "Jobs2::JobAppendSequence", "namespace_jobs2.html#afed0db3844c71360126a8a9f9f1e9753", null ],
+    [ "Jobs2::JobAppendSequence", "namespace_jobs2.html#ac7de7ca0b4c945455efd652dda32674b", null ],
+    [ "Jobs2::JobAppendSequence", "namespace_jobs2.html#a2d59a6dee1acc6ec421e81eb3aa00d93", null ],
     [ "Jobs2::JobBeginSequence", "namespace_jobs2.html#a87da978006b6f3e708693a6341428582", null ],
     [ "Jobs2::JobDispatch", "namespace_jobs2.html#af280c11ed45894194b228ab8a74a05c8", null ],
     [ "Jobs2::JobDispatch", "namespace_jobs2.html#a38f6ea9ea4e38361fd072a1d626ccea8", null ],

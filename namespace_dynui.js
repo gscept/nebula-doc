@@ -22,6 +22,7 @@ var namespace_dynui =
     [ "__ImplementClass", "namespace_dynui.html#a0e5d20caac8cced6b73b673ec6206b70", null ],
     [ "__ImplementInterfaceSingleton", "namespace_dynui.html#ade0789354735a8035bc0548bf8f9458e", null ],
     [ "__ImplementPluginContext", "namespace_dynui.html#ac30d999a3f97cb82b19b146cf0b7e5e3", null ],
+    [ "ImGuiCloseButton", "namespace_dynui.html#a6f9851c6915d6f1d5c42715aa116408c", null ],
     [ "ImguiDrawFunction", "namespace_dynui.html#a960ab720f7f43911fd79843bff02e16a", null ],
     [ "RecursiveDrawGpuMarker", "namespace_dynui.html#a335ab4fee1ce03724bee671f6db0f760", null ],
     [ "RecursiveDrawScope", "namespace_dynui.html#a15cd05e51cba07b079239834c586dc00", null ],

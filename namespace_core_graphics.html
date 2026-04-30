@@ -105,6 +105,7 @@ $(function(){initNavTree('namespace_core_graphics.html','',''); });
 <p>A pinned buffer is a type of GPU buffer which handles virtual paging automatically.</p>
 <p>Container type for meshes.</p>
 <p>Implements a mesh loader from stream into <a class="el" href="namespace_vulkan.html" title="Vulkan implementation of GPU acceleration structure.">Vulkan</a>.</p>
+<p>Mesh collects vertex and index buffers with primitive groups which can be used to render with.</p>
 <p>The <a class="el" href="namespace_graphics.html" title="Implements the shader server used by Vulkan.">Graphics</a> Device is the engine which drives the graphics abstraction layer.</p>
 <p>Implements a window using <a class="el" href="namespace_g_l_f_w.html">GLFW</a>.</p>
 <p>An event is a signal and wait type object which is used for in-queue GPU sync.</p>
@@ -222,7 +223,6 @@ Classes</h2></td></tr>
 <tr class="memitem:MeshId" id="r_MeshId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a></td></tr>
 <tr class="memitem:VertexStream" id="r_VertexStream"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_vertex_stream.html">VertexStream</a></td></tr>
 <tr class="memitem:MeshCreateInfo" id="r_MeshCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_mesh_create_info.html">MeshCreateInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh collects vertex and index buffers with primitive groups which can be used to render with.  <a href="struct_core_graphics_1_1_mesh_create_info.html#details">More...</a><br /></td></tr>
 <tr class="memitem:_5F_5FMesh" id="r__5F_5FMesh"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_____mesh.html">__Mesh</a></td></tr>
 <tr class="memitem:MeshLoader" id="r_MeshLoader"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_core_graphics_1_1_mesh_loader.html">MeshLoader</a></td></tr>
 <tr class="memitem:MeshResourceId" id="r_MeshResourceId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_mesh_resource_id.html">MeshResourceId</a></td></tr>
@@ -1287,6 +1287,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad9953f6a3f01efc752359b6bfeb626b7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> vertex buffer.  <br /></td></tr>
 <tr class="memitem:ad9aa147e18375bc2f8e87b05442d6f68" id="r_ad9aa147e18375bc2f8e87b05442d6f68"><td class="memItemLeft">const uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#ad9aa147e18375bc2f8e87b05442d6f68">MeshGetVertexOffset</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream)</td></tr>
 <tr class="memdesc:ad9aa147e18375bc2f8e87b05442d6f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mesh vertex offset.  <br /></td></tr>
+<tr class="memitem:a4c219840e2c79073b1f35c65040020f7" id="r_a4c219840e2c79073b1f35c65040020f7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c219840e2c79073b1f35c65040020f7">MeshSetVertexOffset</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> stream, uint64_t offset)</td></tr>
+<tr class="memdesc:a4c219840e2c79073b1f35c65040020f7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> mesh vertex offset.  <br /></td></tr>
 <tr class="memitem:addc58d88bd2414386cc0eeffc8c54528" id="r_addc58d88bd2414386cc0eeffc8c54528"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_buffer_id.html">BufferId</a>&#160;</td><td class="memItemRight"><a class="el" href="#addc58d88bd2414386cc0eeffc8c54528">MeshGetIndexBuffer</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
 <tr class="memdesc:addc58d88bd2414386cc0eeffc8c54528"><td class="mdescLeft">&#160;</td><td class="mdescRight">get index buffer  <br /></td></tr>
 <tr class="memitem:a8cc1b5e6a11e16f55c1ef6b494a9d81f" id="r_a8cc1b5e6a11e16f55c1ef6b494a9d81f"><td class="memItemLeft">const uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a8cc1b5e6a11e16f55c1ef6b494a9d81f">MeshGetIndexOffset</a> (const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a> <a class="el" href="namespace_resources.html#ad22ccd03e1b48797e5c6c2bc3a662f70">id</a>)</td></tr>
@@ -9757,6 +9759,34 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> vertex buffer. </p>
+
+</div>
+</div>
+<a id="a4c219840e2c79073b1f35c65040020f7" name="a4c219840e2c79073b1f35c65040020f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c219840e2c79073b1f35c65040020f7">&#9670;&#160;</a></span>MeshSetVertexOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::MeshSetVertexOffset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">MeshId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> mesh vertex offset. </p>
 
 </div>
 </div>

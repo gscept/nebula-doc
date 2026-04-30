@@ -777,6 +777,7 @@ var namespace_core_graphics =
     [ "MeshResourceGetMesh", "namespace_core_graphics.html#aab98eacdee2c9042401fe5a2abf91a36", null ],
     [ "MeshResourceGetNumMeshes", "namespace_core_graphics.html#a4b0e1f89fa7fcd277f770b16826ebb5a", null ],
     [ "MeshSetVertexBuffer", "namespace_core_graphics.html#ad9953f6a3f01efc752359b6bfeb626b7", null ],
+    [ "MeshSetVertexOffset", "namespace_core_graphics.html#a4c219840e2c79073b1f35c65040020f7", null ],
     [ "N_DECLARE_COUNTER", "namespace_core_graphics.html#a003988bbf801bb4c0ced12c640f67fef", null ],
     [ "N_DECLARE_COUNTER", "namespace_core_graphics.html#ad48f9feb90086a6621fb9898995e28d6", null ],
     [ "N_DECLARE_COUNTER", "namespace_core_graphics.html#acd86ec248bc000dd836f1e15d90820e3", null ],

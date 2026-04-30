@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"class_util_1_1_ring_buffer.html#a763408326ccfa795902268a48aeaf11c":[9,0,74,35,12],
+"class_util_1_1_ring_buffer.html#aa28daccf449317b0911b12b8894f4ebe":[8,0,88,35,15],
+"class_util_1_1_ring_buffer.html#aa28daccf449317b0911b12b8894f4ebe":[9,0,74,35,15],
+"class_util_1_1_ring_buffer.html#aa2f83ef86e14e8272b7d4c9d394c6dda":[8,0,88,35,26],
+"class_util_1_1_ring_buffer.html#aa2f83ef86e14e8272b7d4c9d394c6dda":[9,0,74,35,26],
+"class_util_1_1_ring_buffer.html#aa7bee85aa4034cc56784504854603e16":[8,0,88,35,16],
+"class_util_1_1_ring_buffer.html#aa7bee85aa4034cc56784504854603e16":[9,0,74,35,16],
+"class_util_1_1_ring_buffer.html#aaa5317f5763490a3e443972b8242b082":[8,0,88,35,11],
 "class_util_1_1_ring_buffer.html#aaa5317f5763490a3e443972b8242b082":[9,0,74,35,11],
 "class_util_1_1_ring_buffer.html#ab029a2938670755f8dce851f50d454f1":[8,0,88,35,24],
 "class_util_1_1_ring_buffer.html#ab029a2938670755f8dce851f50d454f1":[9,0,74,35,24],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "class_util_1_1_string_atom.html#a546c2e23b63ec4c47d205ca40160a3d2":[9,0,74,42,33],
 "class_util_1_1_string_atom.html#a5a8a777f56bef9c0f18a86ef0c0230fd":[8,0,88,42,2],
 "class_util_1_1_string_atom.html#a5a8a777f56bef9c0f18a86ef0c0230fd":[9,0,74,42,2],
-"class_util_1_1_string_atom.html#a6e1cdb00dd4c2c52f516ea687e299c79":[8,0,88,42,26],
-"class_util_1_1_string_atom.html#a6e1cdb00dd4c2c52f516ea687e299c79":[9,0,74,42,26],
-"class_util_1_1_string_atom.html#a828b4f4c3127ee0134c34425e33d8b92":[8,0,88,42,10],
-"class_util_1_1_string_atom.html#a828b4f4c3127ee0134c34425e33d8b92":[9,0,74,42,10],
-"class_util_1_1_string_atom.html#a917690ca280e69d1964608cb33770f3a":[8,0,88,42,13],
-"class_util_1_1_string_atom.html#a917690ca280e69d1964608cb33770f3a":[9,0,74,42,13],
-"class_util_1_1_string_atom.html#a937cf428c3a1929d36720d994b1f0542":[8,0,88,42,5],
-"class_util_1_1_string_atom.html#a937cf428c3a1929d36720d994b1f0542":[9,0,74,42,5],
-"class_util_1_1_string_atom.html#a9a0d4445fe35730cda3a018454a68dc0":[8,0,88,42,9]
+"class_util_1_1_string_atom.html#a6e1cdb00dd4c2c52f516ea687e299c79":[8,0,88,42,26]
 };

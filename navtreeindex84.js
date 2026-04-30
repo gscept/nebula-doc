@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"class_util_1_1_pinned_array.html#a71439767ff86ad32fc777c28fac7f3b1":[9,0,74,29,15],
+"class_util_1_1_pinned_array.html#a77435469f09ef244a2c0e76840fd972d":[8,0,88,29,30],
+"class_util_1_1_pinned_array.html#a77435469f09ef244a2c0e76840fd972d":[9,0,74,29,30],
+"class_util_1_1_pinned_array.html#a7b9ee5de4ff396896b652be383de080a":[8,0,88,29,14],
+"class_util_1_1_pinned_array.html#a7b9ee5de4ff396896b652be383de080a":[9,0,74,29,14],
+"class_util_1_1_pinned_array.html#a7cc994eaead89d6e5238fef72585685d":[8,0,88,29,16],
+"class_util_1_1_pinned_array.html#a7cc994eaead89d6e5238fef72585685d":[9,0,74,29,16],
+"class_util_1_1_pinned_array.html#a7f817fd3fc5b987444108dc2a3b85332":[8,0,88,29,17],
 "class_util_1_1_pinned_array.html#a7f817fd3fc5b987444108dc2a3b85332":[9,0,74,29,17],
 "class_util_1_1_pinned_array.html#a816c52d98a295b300e636403a978610f":[8,0,88,29,26],
 "class_util_1_1_pinned_array.html#a816c52d98a295b300e636403a978610f":[9,0,74,29,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[9,0,74,35,18],
 "class_util_1_1_ring_buffer.html#a6f5f6df2059f70e1ba46b62ecffde867":[8,0,88,35,7],
 "class_util_1_1_ring_buffer.html#a6f5f6df2059f70e1ba46b62ecffde867":[9,0,74,35,7],
-"class_util_1_1_ring_buffer.html#a763408326ccfa795902268a48aeaf11c":[8,0,88,35,12],
-"class_util_1_1_ring_buffer.html#a763408326ccfa795902268a48aeaf11c":[9,0,74,35,12],
-"class_util_1_1_ring_buffer.html#aa28daccf449317b0911b12b8894f4ebe":[8,0,88,35,15],
-"class_util_1_1_ring_buffer.html#aa28daccf449317b0911b12b8894f4ebe":[9,0,74,35,15],
-"class_util_1_1_ring_buffer.html#aa2f83ef86e14e8272b7d4c9d394c6dda":[8,0,88,35,26],
-"class_util_1_1_ring_buffer.html#aa2f83ef86e14e8272b7d4c9d394c6dda":[9,0,74,35,26],
-"class_util_1_1_ring_buffer.html#aa7bee85aa4034cc56784504854603e16":[8,0,88,35,16],
-"class_util_1_1_ring_buffer.html#aa7bee85aa4034cc56784504854603e16":[9,0,74,35,16],
-"class_util_1_1_ring_buffer.html#aaa5317f5763490a3e443972b8242b082":[8,0,88,35,11]
+"class_util_1_1_ring_buffer.html#a763408326ccfa795902268a48aeaf11c":[8,0,88,35,12]
 };

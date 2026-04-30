@@ -35,6 +35,7 @@ var class_models_1_1_model_context =
     [ "SetTransform", "class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370", null ],
     [ "Setup", "class_models_1_1_model_context.html#a315526a1348e1fcb7c0aafb01bf99ceb", null ],
     [ "Setup", "class_models_1_1_model_context.html#a7aa9061f7bdbd7050ccd48a85647a056", null ],
+    [ "Setup", "class_models_1_1_model_context.html#a4db640d11bc254d4e47a9d5ef50a10e1", null ],
     [ "SetupMaterialInstanceContext", "class_models_1_1_model_context.html#ab49c385b8191c675f323042687d44252", null ],
     [ "SetupMaterialInstanceContext", "class_models_1_1_model_context.html#a1fb5364c5dbe289f01787fb8744453ab", null ],
     [ "UpdateTransforms", "class_models_1_1_model_context.html#a57ffe6a1457748279c411c2a55f288df", null ],

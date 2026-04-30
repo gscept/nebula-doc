@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"class_multiplayer_1_1_base_multiplayer_client.html#aa1701c4cdd7067515036871805912378":[9,0,48,0,21],
+"class_multiplayer_1_1_base_multiplayer_client.html#aa48082921077d29072617b79dcfa70d4":[8,0,53,0,8],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa48082921077d29072617b79dcfa70d4":[9,0,48,0,8],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa7424c7989538c317519e176d714ead4":[8,0,53,0,25],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa7424c7989538c317519e176d714ead4":[9,0,48,0,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "class_navigation_feature_1_1_navigation_feature_unit.html#a5c37a175766801e72e51774f48dc15d9":[9,0,51,1,1],
 "class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817":[8,0,56,1,4],
 "class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817":[9,0,51,1,4],
-"class_navigation_feature_1_1_navigation_feature_unit.html#ab2b7cf6ca6de9ba5cb77331a4f42ca09":[8,0,56,1,0],
-"class_navigation_feature_1_1_navigation_feature_unit.html#ab2b7cf6ca6de9ba5cb77331a4f42ca09":[9,0,51,1,0],
-"class_navigation_feature_1_1_navigation_manager.html":[8,0,56,0]
+"class_navigation_feature_1_1_navigation_feature_unit.html#ab2b7cf6ca6de9ba5cb77331a4f42ca09":[8,0,56,1,0]
 };

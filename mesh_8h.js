@@ -19,5 +19,6 @@ var mesh_8h =
     [ "CoreGraphics::MeshGetVertexBuffer", "namespace_core_graphics.html#aa87a73ce15ffe2a317ca44ddf772e551", null ],
     [ "CoreGraphics::MeshGetVertexLayout", "namespace_core_graphics.html#a2b9303da83aabdc2f7b4e092a6dc552b", null ],
     [ "CoreGraphics::MeshGetVertexOffset", "namespace_core_graphics.html#ad9aa147e18375bc2f8e87b05442d6f68", null ],
-    [ "CoreGraphics::MeshSetVertexBuffer", "namespace_core_graphics.html#ad9953f6a3f01efc752359b6bfeb626b7", null ]
+    [ "CoreGraphics::MeshSetVertexBuffer", "namespace_core_graphics.html#ad9953f6a3f01efc752359b6bfeb626b7", null ],
+    [ "CoreGraphics::MeshSetVertexOffset", "namespace_core_graphics.html#a4c219840e2c79073b1f35c65040020f7", null ]
 ];

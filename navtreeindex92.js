@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[9,0,78,21,4],
+"class_win32_1_1_win32_console_handler.html":[8,0,92,3],
+"class_win32_1_1_win32_console_handler.html":[9,0,78,3],
+"class_win32_1_1_win32_console_handler.html#a0f055b83b8b4d2234fc9fb357117c7f0":[8,0,92,3,8],
+"class_win32_1_1_win32_console_handler.html#a0f055b83b8b4d2234fc9fb357117c7f0":[9,0,78,3,8],
+"class_win32_1_1_win32_console_handler.html#a2874f72c34b5e61b789ec1230d75de7b":[8,0,92,3,11],
+"class_win32_1_1_win32_console_handler.html#a2874f72c34b5e61b789ec1230d75de7b":[9,0,78,3,11],
+"class_win32_1_1_win32_console_handler.html#a39eef0079dd4dbb8359213cda8c7dc68":[8,0,92,3,1],
 "class_win32_1_1_win32_console_handler.html#a39eef0079dd4dbb8359213cda8c7dc68":[9,0,78,3,1],
 "class_win32_1_1_win32_console_handler.html#a4676fc0ec0197610115abbc1b8dea03b":[8,0,92,3,6],
 "class_win32_1_1_win32_console_handler.html#a4676fc0ec0197610115abbc1b8dea03b":[9,0,78,3,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be":[9,0,78,5,12],
 "class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[8,0,92,5,20],
 "class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[9,0,78,5,20],
-"class_win32_1_1_win32_file_time.html":[8,0,92,4],
-"class_win32_1_1_win32_file_time.html":[9,0,78,4],
-"class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e":[8,0,92,4,1],
-"class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e":[9,0,78,4,1],
-"class_win32_1_1_win32_file_time.html#a121a9ffcab6ded1fd247849d118aaf37":[8,0,92,4,8],
-"class_win32_1_1_win32_file_time.html#a121a9ffcab6ded1fd247849d118aaf37":[9,0,78,4,8],
-"class_win32_1_1_win32_file_time.html#a128e6e13d6b08d447dd9a1adfee55c36":[8,0,92,4,6],
-"class_win32_1_1_win32_file_time.html#a128e6e13d6b08d447dd9a1adfee55c36":[9,0,78,4,6],
-"class_win32_1_1_win32_file_time.html#a1973ab6e37a33715ba7e50d497ca7524":[8,0,92,4,13]
+"class_win32_1_1_win32_file_time.html":[8,0,92,4]
 };

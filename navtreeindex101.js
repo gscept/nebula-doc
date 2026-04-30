@@ -1,5 +1,14 @@
 var NAVTREEINDEX101 =
 {
+"inputhandler_8cc.html":[10,0,0,4,0,6],
+"inputhandler_8h.html":[10,0,0,4,0,7],
+"inputhandler_8h_source.html":[10,0,0,4,0,7],
+"inputpriority_8h.html":[10,0,0,4,0,8],
+"inputpriority_8h_source.html":[10,0,0,4,0,8],
+"inputserver_8cc.html":[10,0,0,4,0,9],
+"inputserver_8h.html":[10,0,0,4,0,10],
+"inputserver_8h_source.html":[10,0,0,4,0,10],
+"inputserverbase_8cc.html":[10,0,0,4,0,0,2],
 "inputserverbase_8h.html":[10,0,0,4,0,0,3],
 "inputserverbase_8h_source.html":[10,0,0,4,0,0,3],
 "instancerenderer_8cc.html":[10,0,0,7,14,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX101 =
 "modelloader_8h.html":[10,0,0,7,17,6],
 "modelloader_8h.html#aaa734d53691484833116f1ecf27ae3f0":[10,0,0,7,17,6,1],
 "modelloader_8h_source.html":[10,0,0,7,17,6],
-"modelnode_8cc.html":[10,0,0,7,17,0,4],
-"modelnode_8h.html":[10,0,0,7,17,0,5],
-"modelnode_8h_source.html":[10,0,0,7,17,0,5],
-"mouse_8cc.html":[10,0,0,4,0,15],
-"mouse_8h.html":[10,0,0,4,0,16],
-"mouse_8h_source.html":[10,0,0,4,0,16],
-"mousebase_8cc.html":[10,0,0,4,0,0,6],
-"mousebase_8h.html":[10,0,0,4,0,0,7],
-"mousebase_8h_source.html":[10,0,0,4,0,0,7],
-"mousebutton_8cc.html":[10,0,0,4,0,17]
+"modelnode_8cc.html":[10,0,0,7,17,0,4]
 };

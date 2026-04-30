@@ -156,6 +156,7 @@ var namespace_i_o =
     [ "JsonReader::Get< Math::vec4 >", "namespace_i_o.html#ab9137abca1f12845f13a0a601414243f", null ],
     [ "JsonReader::Get< Math::vector >", "namespace_i_o.html#ae54854d100ea6bc373374f5de32143d0", null ],
     [ "JsonReader::Get< Math::vector >", "namespace_i_o.html#ae54854d100ea6bc373374f5de32143d0", null ],
+    [ "JsonReader::Get< Particles::EnvelopeCurve >", "namespace_i_o.html#abff0234b4eec2ef1853ca706be9a3b6a", null ],
     [ "JsonReader::Get< Util::Array< float > >", "namespace_i_o.html#a38e324793f021757a80e07893629994c", null ],
     [ "JsonReader::Get< Util::Array< float > >", "namespace_i_o.html#a38e324793f021757a80e07893629994c", null ],
     [ "JsonReader::Get< Util::Array< int > >", "namespace_i_o.html#a70d80523fa8550a0129162a5b6f5ea87", null ],

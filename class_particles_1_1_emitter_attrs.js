@@ -4,7 +4,6 @@ var class_particles_1_1_emitter_attrs =
     [ "BoolAttributes", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes" ],
     [ "BoolAttr", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7a", [
       [ "Looping", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa8597312337becc3b564ecbab36472792", null ],
-      [ "RandomizeRotation", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aaa675996b2bc376cb9d50c9c3b2d3b49a", null ],
       [ "StretchToStart", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa82b047f64d2faa25a2e3b3aeb73697fe", null ],
       [ "RenderOldestFirst", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa525ab83379c2ba8584ff35026576d88f", null ],
       [ "ViewAngleFade", "class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa758bc282cc67279b2d7ed539609f4d13", null ],

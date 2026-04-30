@@ -45,6 +45,7 @@ var struct_util_1_1_string =
     [ "c_str", "struct_util_1_1_string.html#ac03758d2de3242eeda42fc9bb12a32eb", null ],
     [ "CamelCaseToWords", "struct_util_1_1_string.html#a4d7d9798c88fb933a1138e5edc736913", null ],
     [ "Capitalize", "struct_util_1_1_string.html#a59853da5ac837ae6c7abfc477529b3b2", null ],
+    [ "ChangeAssignMapping", "struct_util_1_1_string.html#aa80ff4f9a024c5cef99faf56929f5504", null ],
     [ "ChangeAssignPrefix", "struct_util_1_1_string.html#accea06f057c9dd7167149c1b86cbf5f2", null ],
     [ "ChangeFileExtension", "struct_util_1_1_string.html#a20c961fde6ffad18d2548287837ffa6b", null ],
     [ "CheckFileExtension", "struct_util_1_1_string.html#ab6deea2a6e7cd0a4ec9baaaa3741e70c", null ],

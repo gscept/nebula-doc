@@ -28,13 +28,14 @@ var searchData=
   ['im3d_5fvec4_5fapp_25',['IM3D_VEC4_APP',['../im3d__config_8h.html#a4f63ea6212fcdc172e46b271c04df9be',1,'im3d_config.h']]],
   ['im3d_5fversion_26',['IM3D_VERSION',['../im3d_8h.html#abbf6d2f1bbfd04c23fe60d4820d3fc41',1,'im3d.h']]],
   ['im3d_5fvertex_5falignment_27',['IM3D_VERTEX_ALIGNMENT',['../im3d__config_8h.html#a99d786f7f3b560e4f8e3d7c42e59ec92',1,'im3d_config.h']]],
-  ['implement_5fnode_5fallocator_28',['IMPLEMENT_NODE_ALLOCATOR',['../modelloader_8h.html#aaa734d53691484833116f1ecf27ae3f0',1,'modelloader.h']]],
-  ['implementnebulaapplication_29',['ImplementNebulaApplication',['../appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079',1,'appentry.h']]],
-  ['inv_5fln2_30',['INV_LN2',['../ssaocontext_8cc.html#a50507e4765774b478d72c5777bad8b23',1,'ssaocontext.cc']]],
-  ['io_5ffiletime_5fh_31',['IO_FILETIME_H',['../filetime_8h.html#aeb38cc2cbc48fbbfe2ea9af6b9e79bb3',1,'filetime.h']]],
-  ['io_5fstream_5fh_32',['IO_STREAM_H',['../stream_8h.html#a8a0ed90a918dd7449bd9839544d1c925',1,'stream.h']]],
-  ['io_5fstreamreader_5fh_33',['IO_STREAMREADER_H',['../streamreader_8h.html#a2a0267978e39790b128d7cdef9577a9c',1,'streamreader.h']]],
-  ['io_5ftextreader_5fh_34',['IO_TEXTREADER_H',['../textreader_8h.html#a8241ccf15a5cb66d92e6faf3377bd7ca',1,'textreader.h']]],
-  ['io_5ftextwriter_5fh_35',['IO_TEXTWRITER_H',['../textwriter_8h.html#a1d538a0a6a43d6df89b7ac78ccb2c880',1,'textwriter.h']]],
-  ['io_5furi_5fh_36',['IO_URI_H',['../uri_8h.html#ad00ecf764060a2f018c33f264e9dd495',1,'uri.h']]]
+  ['imgui_5fdefine_5fmath_5foperators_28',['IMGUI_DEFINE_MATH_OPERATORS',['../imguicontext_8h.html#adf4d73301961430d50d7edd96f92ce38',1,'imguicontext.h']]],
+  ['implement_5fnode_5fallocator_29',['IMPLEMENT_NODE_ALLOCATOR',['../modelloader_8h.html#aaa734d53691484833116f1ecf27ae3f0',1,'modelloader.h']]],
+  ['implementnebulaapplication_30',['ImplementNebulaApplication',['../appentry_8h.html#a2961dd122007c1dfb0e3c097066c6079',1,'appentry.h']]],
+  ['inv_5fln2_31',['INV_LN2',['../ssaocontext_8cc.html#a50507e4765774b478d72c5777bad8b23',1,'ssaocontext.cc']]],
+  ['io_5ffiletime_5fh_32',['IO_FILETIME_H',['../filetime_8h.html#aeb38cc2cbc48fbbfe2ea9af6b9e79bb3',1,'filetime.h']]],
+  ['io_5fstream_5fh_33',['IO_STREAM_H',['../stream_8h.html#a8a0ed90a918dd7449bd9839544d1c925',1,'stream.h']]],
+  ['io_5fstreamreader_5fh_34',['IO_STREAMREADER_H',['../streamreader_8h.html#a2a0267978e39790b128d7cdef9577a9c',1,'streamreader.h']]],
+  ['io_5ftextreader_5fh_35',['IO_TEXTREADER_H',['../textreader_8h.html#a8241ccf15a5cb66d92e6faf3377bd7ca',1,'textreader.h']]],
+  ['io_5ftextwriter_5fh_36',['IO_TEXTWRITER_H',['../textwriter_8h.html#a1d538a0a6a43d6df89b7ac78ccb2c880',1,'textwriter.h']]],
+  ['io_5furi_5fh_37',['IO_URI_H',['../uri_8h.html#ad00ecf764060a2f018c33f264e9dd495',1,'uri.h']]]
 ];
