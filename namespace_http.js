@@ -1,5 +1,6 @@
 var namespace_http =
 [
+    [ "AttachRequestHandler", "class_http_1_1_attach_request_handler.html", "class_http_1_1_attach_request_handler" ],
     [ "DefaultHttpRequestHandler", "class_http_1_1_default_http_request_handler.html", "class_http_1_1_default_http_request_handler" ],
     [ "HtmlElement", "class_http_1_1_html_element.html", "class_http_1_1_html_element" ],
     [ "HtmlPageWriter", "class_http_1_1_html_page_writer.html", "class_http_1_1_html_page_writer" ],
@@ -9,8 +10,6 @@ var namespace_http =
     [ "HttpMessageHandler", "class_http_1_1_http_message_handler.html", "class_http_1_1_http_message_handler" ],
     [ "HttpMethod", "class_http_1_1_http_method.html", "class_http_1_1_http_method" ],
     [ "HttpNzStream", "class_http_1_1_http_nz_stream.html", "class_http_1_1_http_nz_stream" ],
-    [ "AttachRequestHandler", "class_http_1_1_attach_request_handler.html", "class_http_1_1_attach_request_handler" ],
-    [ "RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", "class_http_1_1_remove_request_handler" ],
     [ "HttpRequest", "class_http_1_1_http_request.html", "class_http_1_1_http_request" ],
     [ "HttpRequestHandler", "class_http_1_1_http_request_handler.html", "class_http_1_1_http_request_handler" ],
     [ "HttpRequestReader", "class_http_1_1_http_request_reader.html", "class_http_1_1_http_request_reader" ],
@@ -22,6 +21,7 @@ var namespace_http =
     [ "HttpStatus", "class_http_1_1_http_status.html", "class_http_1_1_http_status" ],
     [ "HttpStream", "class_http_1_1_http_stream.html", "class_http_1_1_http_stream" ],
     [ "NebulaHttpClient", "class_http_1_1_nebula_http_client.html", "class_http_1_1_nebula_http_client" ],
+    [ "RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", "class_http_1_1_remove_request_handler" ],
     [ "SvgLineChartWriter", "class_http_1_1_svg_line_chart_writer.html", "class_http_1_1_svg_line_chart_writer" ],
     [ "SvgPageWriter", "class_http_1_1_svg_page_writer.html", "class_http_1_1_svg_page_writer" ],
     [ "__ImplementClass", "namespace_http.html#af42b64eaff3413bf3153755414a7f66b", null ],

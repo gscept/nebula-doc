@@ -1,7 +1,7 @@
 var namespace_g_i =
 [
-    [ "DDGIOptions", "union_g_i_1_1_d_d_g_i_options.html", "union_g_i_1_1_d_d_g_i_options" ],
     [ "DDGIContext", "class_g_i_1_1_d_d_g_i_context.html", "class_g_i_1_1_d_d_g_i_context" ],
+    [ "DDGIOptions", "union_g_i_1_1_d_d_g_i_options.html", "union_g_i_1_1_d_d_g_i_options" ],
     [ "__ImplementContext", "namespace_g_i.html#acd5d618b35f9d40268e7e6cb4eccc870", null ],
     [ "SphericalFibonacci", "namespace_g_i.html#a3fb342c414ec7955c5decbd061284089", null ],
     [ "clusterGIVolumeIndexLists", "namespace_g_i.html#abf1cbb315c7414de0cf874da2acefe10", null ],

@@ -1,9 +1,9 @@
 var namespace_core =
 [
     [ "CoreServer", "class_core_1_1_core_server.html", "class_core_1_1_core_server" ],
-    [ "CVarValue", "struct_core_1_1_c_var_value.html", "struct_core_1_1_c_var_value" ],
     [ "CVar", "struct_core_1_1_c_var.html", "struct_core_1_1_c_var" ],
     [ "CVarCreateInfo", "struct_core_1_1_c_var_create_info.html", "struct_core_1_1_c_var_create_info" ],
+    [ "CVarValue", "struct_core_1_1_c_var_value.html", "struct_core_1_1_c_var_value" ],
     [ "ExitHandler", "class_core_1_1_exit_handler.html", "class_core_1_1_exit_handler" ],
     [ "Factory", "class_core_1_1_factory.html", "class_core_1_1_factory" ],
     [ "RefCounted", "class_core_1_1_ref_counted.html", "class_core_1_1_ref_counted" ],

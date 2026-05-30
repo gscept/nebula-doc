@@ -2,10 +2,10 @@ var namespace_post_effects =
 [
     [ "BloomContext", "class_post_effects_1_1_bloom_context.html", "class_post_effects_1_1_bloom_context" ],
     [ "DownsamplingContext", "class_post_effects_1_1_downsampling_context.html", "class_post_effects_1_1_downsampling_context" ],
-    [ "ViewData", "struct_post_effects_1_1_view_data.html", "struct_post_effects_1_1_view_data" ],
     [ "HistogramContext", "class_post_effects_1_1_histogram_context.html", "class_post_effects_1_1_histogram_context" ],
     [ "SSAOContext", "class_post_effects_1_1_s_s_a_o_context.html", "class_post_effects_1_1_s_s_a_o_context" ],
     [ "SSRContext", "class_post_effects_1_1_s_s_r_context.html", "class_post_effects_1_1_s_s_r_context" ],
+    [ "ViewData", "struct_post_effects_1_1_view_data.html", "struct_post_effects_1_1_view_data" ],
     [ "__ImplementPluginContext", "namespace_post_effects.html#a3ba62f689620fdd9e7d80c8a41c5e416", null ],
     [ "__ImplementPluginContext", "namespace_post_effects.html#a1b8bcba7e18c234b3b737842126f3e41", null ],
     [ "__ImplementPluginContext", "namespace_post_effects.html#aed34b8776b2f2a1d9d23b1d7c49b90a0", null ],

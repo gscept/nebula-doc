@@ -1,11 +1,11 @@
 var namespace_materials =
 [
+    [ "MaterialBuffer", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
+    [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
     [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
     [ "MaterialInstanceId", "struct_materials_1_1_material_instance_id.html", null ],
-    [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
-    [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
-    [ "MaterialBuffer", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
     [ "MaterialLoader", "class_materials_1_1_material_loader.html", "class_materials_1_1_material_loader" ],
+    [ "MaterialTexture", "struct_materials_1_1_material_texture.html", "struct_materials_1_1_material_texture" ],
     [ "MaterialVariant", "struct_materials_1_1_material_variant.html", "struct_materials_1_1_material_variant" ],
     [ "ShaderConfigBatchTexture", "struct_materials_1_1_shader_config_batch_texture.html", "struct_materials_1_1_shader_config_batch_texture" ],
     [ "BatchIndex", "namespace_materials.html#ad316064c8fe52b179aaadbec06d6f43b", null ],

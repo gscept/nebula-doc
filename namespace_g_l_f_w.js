@@ -1,7 +1,7 @@
 var namespace_g_l_f_w =
 [
-    [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ],
     [ "GLFWDisplayDevice", "class_g_l_f_w_1_1_g_l_f_w_display_device.html", "class_g_l_f_w_1_1_g_l_f_w_display_device" ],
+    [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ],
     [ "__ImplementClass", "namespace_g_l_f_w.html#a64a86b3d4dd0cb4a7e54bbb1827767bd", null ],
     [ "__ImplementClass", "namespace_g_l_f_w.html#a8e1b76acc101f942dfcf0aae421ea2c5", null ],
     [ "__ImplementSingleton", "namespace_g_l_f_w.html#a36a270a314fe677c6410c67c3a47817f", null ],

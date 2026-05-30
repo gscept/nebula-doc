@@ -1,12 +1,12 @@
 var namespace_memory =
 [
     [ "ArenaAllocator", "class_memory_1_1_arena_allocator.html", "class_memory_1_1_arena_allocator" ],
-    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", "class_memory_1_1_pool_array_allocator" ],
     [ "RangeAllocation", "struct_memory_1_1_range_allocation.html", "struct_memory_1_1_range_allocation" ],
     [ "RangeAllocator", "class_memory_1_1_range_allocator.html", "class_memory_1_1_range_allocator" ],
     [ "RingAlloc", "struct_memory_1_1_ring_alloc.html", "struct_memory_1_1_ring_alloc" ],
     [ "RingAllocator", "class_memory_1_1_ring_allocator.html", "class_memory_1_1_ring_allocator" ],
+    [ "TotalMemoryStatus", "struct_memory_1_1_total_memory_status.html", "struct_memory_1_1_total_memory_status" ],
     [ "HeapType", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56", [
       [ "DefaultHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a35ed2889233f9f600bd896693a6cf577", null ],
       [ "ObjectHeap", "namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71", null ],

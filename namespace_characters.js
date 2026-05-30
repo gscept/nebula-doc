@@ -1,13 +1,13 @@
 var namespace_characters =
 [
-    [ "CharacterJobContext", "struct_characters_1_1_character_job_context.html", "struct_characters_1_1_character_job_context" ],
     [ "CharacterContext", "class_characters_1_1_character_context.html", "class_characters_1_1_character_context" ],
-    [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
-    [ "Nsk3Skeleton", "struct_characters_1_1_nsk3_skeleton.html", "struct_characters_1_1_nsk3_skeleton" ],
-    [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
-    [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
+    [ "CharacterJobContext", "struct_characters_1_1_character_job_context.html", "struct_characters_1_1_character_job_context" ],
     [ "CharacterJoint", "struct_characters_1_1_character_joint.html", "struct_characters_1_1_character_joint" ],
+    [ "Nsk3Header", "struct_characters_1_1_nsk3_header.html", "struct_characters_1_1_nsk3_header" ],
+    [ "Nsk3Joint", "struct_characters_1_1_nsk3_joint.html", "struct_characters_1_1_nsk3_joint" ],
+    [ "Nsk3Skeleton", "struct_characters_1_1_nsk3_skeleton.html", "struct_characters_1_1_nsk3_skeleton" ],
     [ "SkeletonCreateInfo", "struct_characters_1_1_skeleton_create_info.html", "struct_characters_1_1_skeleton_create_info" ],
+    [ "SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
     [ "SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", "struct_characters_1_1_skeleton_job_joint" ],
     [ "SkeletonLoader", "class_characters_1_1_skeleton_loader.html", "class_characters_1_1_skeleton_loader" ],
     [ "SkeletonResourceId", "struct_characters_1_1_skeleton_resource_id.html", null ],

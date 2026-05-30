@@ -1,7 +1,7 @@
 var namespace_raytracing =
 [
-    [ "RaytracingSetupSettings", "struct_raytracing_1_1_raytracing_setup_settings.html", "struct_raytracing_1_1_raytracing_setup_settings" ],
     [ "RaytracingContext", "class_raytracing_1_1_raytracing_context.html", "class_raytracing_1_1_raytracing_context" ],
+    [ "RaytracingSetupSettings", "struct_raytracing_1_1_raytracing_setup_settings.html", "struct_raytracing_1_1_raytracing_setup_settings" ],
     [ "ObjectType", "namespace_raytracing.html#ae9ef996590909701eba502ae02607f53", [
       [ "BRDFObject", "namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a4e651dcdd637d109180a3fa19a15f00c", null ],
       [ "BSDFObject", "namespace_raytracing.html#ae9ef996590909701eba502ae02607f53a97b29a239fc14ca22c1202b58f77972e", null ],

@@ -1,11 +1,11 @@
 var namespace_resources =
 [
     [ "Resource", "class_resources_1_1_resource.html", "class_resources_1_1_resource" ],
-    [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ],
     [ "ResourceLoader", "class_resources_1_1_resource_loader.html", "class_resources_1_1_resource_loader" ],
     [ "ResourceLoaderThread", "class_resources_1_1_resource_loader_thread.html", "class_resources_1_1_resource_loader_thread" ],
     [ "ResourceSaver", "class_resources_1_1_resource_saver.html", "class_resources_1_1_resource_saver" ],
     [ "ResourceServer", "class_resources_1_1_resource_server.html", "class_resources_1_1_resource_server" ],
+    [ "ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ],
     [ "ResourceName", "namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0", null ],
     [ "LoadFlags", "namespace_resources.html#a305b234380258a0076c514b34823e6d3", [
       [ "None", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a36ff6a12493e52abfa154642f52ee25c", null ],

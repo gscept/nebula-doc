@@ -1,8 +1,8 @@
 var namespace_physics_feature =
 [
     [ "CharacterManager", "class_physics_feature_1_1_character_manager.html", "class_physics_feature_1_1_character_manager" ],
-    [ "PhysicsManager", "class_physics_feature_1_1_physics_manager.html", "class_physics_feature_1_1_physics_manager" ],
     [ "PhysicsFeatureUnit", "class_physics_feature_1_1_physics_feature_unit.html", "class_physics_feature_1_1_physics_feature_unit" ],
+    [ "PhysicsManager", "class_physics_feature_1_1_physics_manager.html", "class_physics_feature_1_1_physics_manager" ],
     [ "__ImplementClass", "namespace_physics_feature.html#ac048d915baf0c16c0ac282fdbe897887", null ],
     [ "__ImplementClass", "namespace_physics_feature.html#ab558b8ecc28d6ccad9082d9ba1adb06e", null ],
     [ "__ImplementClass", "namespace_physics_feature.html#abdacd6cb56ae8cbb6c95e5962b2ec344", null ],
