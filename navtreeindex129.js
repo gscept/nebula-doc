@@ -1,5 +1,14 @@
 var NAVTREEINDEX129 =
 {
+"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[8,0,13,152,2],
+"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[9,0,12,151,2],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[8,0,13,152,0],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[9,0,12,151,0],
+"struct_core_graphics_1_1_tlas_id.html":[8,0,13,153],
+"struct_core_graphics_1_1_tlas_id.html":[9,0,12,152],
+"struct_core_graphics_1_1_vertex_alloc.html":[8,0,13,154],
+"struct_core_graphics_1_1_vertex_alloc.html":[9,0,12,153],
+"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[8,0,13,154,2],
 "struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[9,0,12,153,2],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[8,0,13,154,0],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[9,0,12,153,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX129 =
 "struct_frame_1_1_frame_mipmap_1_1_compiled_impl.html#ad6baf3a4a87147d7f70971c2b07ec293":[9,0,21,7,0,1],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html":[8,0,23,8,4],
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html":[9,0,21,8,4],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[8,0,23,8,4,2],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[9,0,21,8,4,2],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[8,0,23,8,4,1],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a94dc3c751c249ab49d2287f9d6ce8c40":[9,0,21,8,4,1],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a9b9ccc16dd7bfbd5a89901f199bb063d":[8,0,23,8,4,3],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a9b9ccc16dd7bfbd5a89901f199bb063d":[9,0,21,8,4,3],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ab20012a4bc74e1aed73f8de2a54a2e47":[8,0,23,8,4,0],
-"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ab20012a4bc74e1aed73f8de2a54a2e47":[9,0,21,8,4,0],
-"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html":[8,0,23,8,0],
-"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html":[9,0,21,8,0]
+"struct_frame_1_1_frame_op_1_1_buffer_dependency.html#a6c87d618f7e311063acdf54fe74d1629":[8,0,23,8,4,2]
 };

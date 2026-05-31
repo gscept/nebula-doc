@@ -1,5 +1,14 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_texture_barrier.html":[8,0,13,133],
+"struct_core_graphics_1_1_texture_barrier.html":[9,0,12,132],
+"struct_core_graphics_1_1_texture_barrier.html#a276f32f269719e48f2e0676398cf6988":[8,0,13,133,3],
+"struct_core_graphics_1_1_texture_barrier.html#a276f32f269719e48f2e0676398cf6988":[9,0,12,132,3],
+"struct_core_graphics_1_1_texture_barrier.html#a7108fd5eedf91a52e60aff298c84c28a":[8,0,13,133,2],
+"struct_core_graphics_1_1_texture_barrier.html#a7108fd5eedf91a52e60aff298c84c28a":[9,0,12,132,2],
+"struct_core_graphics_1_1_texture_barrier.html#ab8ce940233e18a29434c219075d84eba":[8,0,13,133,1],
+"struct_core_graphics_1_1_texture_barrier.html#ab8ce940233e18a29434c219075d84eba":[9,0,12,132,1],
+"struct_core_graphics_1_1_texture_barrier.html#ac922def4eff9b12f4175a0685c6113cc":[8,0,13,133,0],
 "struct_core_graphics_1_1_texture_barrier.html#ac922def4eff9b12f4175a0685c6113cc":[9,0,12,132,0],
 "struct_core_graphics_1_1_texture_barrier_info.html":[8,0,13,134],
 "struct_core_graphics_1_1_texture_barrier_info.html":[9,0,12,133],
@@ -240,14 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_tlas_create_info.html":[8,0,13,152],
 "struct_core_graphics_1_1_tlas_create_info.html":[9,0,12,151],
 "struct_core_graphics_1_1_tlas_create_info.html#a718eafd3b52ca83d6d402b98f5c5818a":[8,0,13,152,1],
-"struct_core_graphics_1_1_tlas_create_info.html#a718eafd3b52ca83d6d402b98f5c5818a":[9,0,12,151,1],
-"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[8,0,13,152,2],
-"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[9,0,12,151,2],
-"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[8,0,13,152,0],
-"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[9,0,12,151,0],
-"struct_core_graphics_1_1_tlas_id.html":[8,0,13,153],
-"struct_core_graphics_1_1_tlas_id.html":[9,0,12,152],
-"struct_core_graphics_1_1_vertex_alloc.html":[8,0,13,154],
-"struct_core_graphics_1_1_vertex_alloc.html":[9,0,12,153],
-"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[8,0,13,154,2]
+"struct_core_graphics_1_1_tlas_create_info.html#a718eafd3b52ca83d6d402b98f5c5818a":[9,0,12,151,1]
 };

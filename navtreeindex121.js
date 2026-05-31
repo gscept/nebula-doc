@@ -1,5 +1,14 @@
 var NAVTREEINDEX121 =
 {
+"standardmultiplayerclient_8h_source.html":[10,0,0,0,6,0,5],
+"standardmultiplayerserver_8cc.html":[10,0,0,0,6,1,6],
+"standardmultiplayerserver_8h.html":[10,0,0,0,6,1,7],
+"standardmultiplayerserver_8h_source.html":[10,0,0,0,6,1,7],
+"staticmessagehandler_8cc.html":[10,0,0,3,14,27],
+"staticmessagehandler_8h.html":[10,0,0,3,14,28],
+"staticmessagehandler_8h.html#a166d2866000027be976828fce9e2c914":[10,0,0,3,14,28,6],
+"staticmessagehandler_8h.html#a1843b6c0c1f35e7414a7470cb84db976":[10,0,0,3,14,28,2],
+"staticmessagehandler_8h.html#a24fa76c1318a288541cdf3145dd8c0e1":[10,0,0,3,14,28,4],
 "staticmessagehandler_8h.html#a3dc13ee0cf441a3ac9ceb880be1a2d00":[10,0,0,3,14,28,3],
 "staticmessagehandler_8h.html#a4edff12b09540974e0d667dde97d7160":[10,0,0,3,14,28,7],
 "staticmessagehandler_8h.html#a612d9bc2d9fd8f6073f326d661216a5f":[10,0,0,3,14,28,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX121 =
 "struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[8,0,7,6,3],
 "struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[9,0,7,6,3],
 "struct_characters_1_1_skeleton_id.html":[8,0,7,7],
-"struct_characters_1_1_skeleton_id.html":[9,0,7,7],
-"struct_characters_1_1_skeleton_job_joint.html":[8,0,7,8],
-"struct_characters_1_1_skeleton_job_joint.html":[9,0,7,8],
-"struct_characters_1_1_skeleton_job_joint.html#a123035d7758df5dab8ba6913c3ad3fa3":[8,0,7,8,4],
-"struct_characters_1_1_skeleton_job_joint.html#a123035d7758df5dab8ba6913c3ad3fa3":[9,0,7,8,4],
-"struct_characters_1_1_skeleton_job_joint.html#a2caab8ef8ac71afe9ac51b8172245a1b":[8,0,7,8,8],
-"struct_characters_1_1_skeleton_job_joint.html#a2caab8ef8ac71afe9ac51b8172245a1b":[9,0,7,8,8],
-"struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22":[8,0,7,8,3],
-"struct_characters_1_1_skeleton_job_joint.html#a36f515522110268a1e98351dd65f2f22":[9,0,7,8,3],
-"struct_characters_1_1_skeleton_job_joint.html#a3a58ef987a124f3cc4514e30bc528de9":[8,0,7,8,7]
+"struct_characters_1_1_skeleton_id.html":[9,0,7,7]
 };

@@ -1,6 +1,7 @@
 var class_multiplayer_1_1_multiplayer_feature_unit =
 [
     [ "~MultiplayerFeatureUnit", "class_multiplayer_1_1_multiplayer_feature_unit.html#ad720cbd710d1b8d85650d81b2a726a97", null ],
+    [ "DrawNetworkDebugInfo", "class_multiplayer_1_1_multiplayer_feature_unit.html#a15f85b6278811518602e06b8b6dfb655", null ],
     [ "IsServer", "class_multiplayer_1_1_multiplayer_feature_unit.html#a8d655462acc96beec901b9ffe42bc40a", null ],
     [ "OnActivate", "class_multiplayer_1_1_multiplayer_feature_unit.html#a889c08ae7da83d1fe2fc2c00944d6a8e", null ],
     [ "OnAttach", "class_multiplayer_1_1_multiplayer_feature_unit.html#a3059ceb04cadcd3b9b21d5502b0df920", null ],

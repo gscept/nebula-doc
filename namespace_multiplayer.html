@@ -169,6 +169,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a063b41fa1cdd70d55793ec781d8767c0" id="r_a063b41fa1cdd70d55793ec781d8767c0"><td class="memItemLeft">static <a class="el" href="struct_multiplayer_1_1_client_processor_context.html">ClientProcessorContext</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a063b41fa1cdd70d55793ec781d8767c0">context</a></td></tr>
 <tr class="memitem:a44c87d69f7dadfd3426799ee1f888da1" id="r_a44c87d69f7dadfd3426799ee1f888da1"><td class="memItemLeft">static <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="#a44c87d69f7dadfd3426799ee1f888da1">frameEvent</a></td></tr>
 <tr class="memitem:a92436c69ece20d1cb101a9f05d29c79b" id="r_a92436c69ece20d1cb101a9f05d29c79b"><td class="memItemLeft">SteamNetworkingMicroseconds&#160;</td><td class="memItemRight"><a class="el" href="#a92436c69ece20d1cb101a9f05d29c79b">logTimeZero</a></td></tr>
+<tr class="memitem:af440e9cd007bfef33c3a39f0d5735bee" id="r_af440e9cd007bfef33c3a39f0d5735bee"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af440e9cd007bfef33c3a39f0d5735bee">net_debug</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_debug&quot;, &quot;0&quot;, &quot;Enable net debugger window&quot;)</td></tr>
 <tr class="memitem:a94f3af359e2a12b76822f4cf5dcc22dd" id="r_a94f3af359e2a12b76822f4cf5dcc22dd"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a94f3af359e2a12b76822f4cf5dcc22dd">net_fake_packet_lag_send</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_send&quot;, &quot;0&quot;, &quot;Delay all outbound packets by N ms&quot;)</td></tr>
 <tr class="memitem:a5384bee23ec2dc06f4fbd8669c2bbf29" id="r_a5384bee23ec2dc06f4fbd8669c2bbf29"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a5384bee23ec2dc06f4fbd8669c2bbf29">net_fake_packet_lag_recv</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_lag_recv&quot;, &quot;0&quot;, &quot;Delay all inbound packets by N ms&quot;)</td></tr>
 <tr class="memitem:a0f31a0c00590411c0960fdf4271880cc" id="r_a0f31a0c00590411c0960fdf4271880cc"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0f31a0c00590411c0960fdf4271880cc">net_fake_packet_loss_send</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_fake_packet_loss_send&quot;, &quot;0&quot;, &quot;[0--100] Randomly discard N percent of packets sent&quot;)</td></tr>
@@ -758,6 +759,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const double Multiplayer::NEBULA_DEFAULT_TICK_RATE = 1.0/8.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af440e9cd007bfef33c3a39f0d5735bee" name="af440e9cd007bfef33c3a39f0d5735bee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af440e9cd007bfef33c3a39f0d5735bee">&#9670;&#160;</a></span>net_debug</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Multiplayer::net_debug = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;net_debug&quot;, &quot;0&quot;, &quot;Enable net debugger window&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

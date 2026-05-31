@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"class_win32_1_1_win32_f_s_wrapper.html#ae2ed6ae62e421e04d8d48661a0397a51":[9,0,78,10,15],
+"class_win32_1_1_win32_f_s_wrapper.html#ae35f8ee9eb13b105217288c07da0fcb4":[8,0,92,10,4],
+"class_win32_1_1_win32_f_s_wrapper.html#ae35f8ee9eb13b105217288c07da0fcb4":[9,0,78,10,4],
+"class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be":[8,0,92,10,12],
+"class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be":[9,0,78,10,12],
+"class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[8,0,92,10,20],
+"class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[9,0,78,10,20],
+"class_win32_1_1_win32_file_time.html":[8,0,92,9],
 "class_win32_1_1_win32_file_time.html":[9,0,78,9],
 "class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e":[8,0,92,9,1],
 "class_win32_1_1_win32_file_time.html#a11be77a1895b36cd6e8fb3e3e4a98d2e":[9,0,78,9,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "class_win32_1_1_win32_process.html#a8e0a861368bcccfbd9ddcc81bc3dd824":[8,0,92,17,6],
 "class_win32_1_1_win32_process.html#a8e0a861368bcccfbd9ddcc81bc3dd824":[9,0,78,17,6],
 "class_win32_1_1_win32_process.html#ab27dd89cbece549c07c4ee35789b1154":[8,0,92,17,7],
-"class_win32_1_1_win32_process.html#ab27dd89cbece549c07c4ee35789b1154":[9,0,78,17,7],
-"class_win32_1_1_win32_process.html#ab5dae8b23b83c84c9d2b7c9221507219":[8,0,92,17,12],
-"class_win32_1_1_win32_process.html#ab5dae8b23b83c84c9d2b7c9221507219":[9,0,78,17,12],
-"class_win32_1_1_win32_process.html#acb5262f7d5df7eef96dc63a80f588ade":[8,0,92,17,19],
-"class_win32_1_1_win32_process.html#acb5262f7d5df7eef96dc63a80f588ade":[9,0,78,17,19],
-"class_win32_1_1_win32_process.html#ad08479c87ff232867b1e3942f669caa8":[8,0,92,17,15],
-"class_win32_1_1_win32_process.html#ad08479c87ff232867b1e3942f669caa8":[9,0,78,17,15],
-"class_win32_1_1_win32_process.html#ad7e75f32cf27e654cd48643a4c4ecd17":[8,0,92,17,0],
-"class_win32_1_1_win32_process.html#ad7e75f32cf27e654cd48643a4c4ecd17":[9,0,78,17,0]
+"class_win32_1_1_win32_process.html#ab27dd89cbece549c07c4ee35789b1154":[9,0,78,17,7]
 };

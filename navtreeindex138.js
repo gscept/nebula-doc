@@ -1,5 +1,14 @@
 var NAVTREEINDEX138 =
 {
+"struct_materials_1_1_material_instance_id.html":[9,0,39,3],
+"struct_materials_1_1_material_texture.html":[8,0,43,5],
+"struct_materials_1_1_material_texture.html":[9,0,39,5],
+"struct_materials_1_1_material_texture.html#ab99964caa56071efde08c8e5ff58fe45":[8,0,43,5,0],
+"struct_materials_1_1_material_texture.html#ab99964caa56071efde08c8e5ff58fe45":[9,0,39,5,0],
+"struct_materials_1_1_material_texture.html#acbc48058a2ebac4c40c8faa66e5ba1bd":[8,0,43,5,1],
+"struct_materials_1_1_material_texture.html#acbc48058a2ebac4c40c8faa66e5ba1bd":[9,0,39,5,1],
+"struct_materials_1_1_material_variant.html":[8,0,43,6],
+"struct_materials_1_1_material_variant.html":[9,0,39,6],
 "struct_materials_1_1_material_variant.html#a119f87254949b2d228a8d908fe9b0afb":[8,0,43,6,13],
 "struct_materials_1_1_material_variant.html#a119f87254949b2d228a8d908fe9b0afb":[9,0,39,6,13],
 "struct_materials_1_1_material_variant.html#a1621f6666e8d0e3d7c27a53f8491f035":[8,0,43,6,9],
@@ -240,14 +249,5 @@ var NAVTREEINDEX138 =
 "struct_math_1_1mat4.html#af479f0ed413d9d972b8302b929f2015d":[9,0,42,16,4],
 "struct_math_1_1mat4.html#afe85e5950325f376974333b5dc441785":[8,0,46,16,0],
 "struct_math_1_1mat4.html#afe85e5950325f376974333b5dc441785":[9,0,42,16,0],
-"struct_math_1_1plane.html":[8,0,46,20],
-"struct_math_1_1plane.html":[9,0,42,20],
-"struct_math_1_1plane.html#a0c346ba7797060e8d9c35ffe4ca0fa91":[8,0,46,20,8],
-"struct_math_1_1plane.html#a0c346ba7797060e8d9c35ffe4ca0fa91":[9,0,42,20,8],
-"struct_math_1_1plane.html#a17fc655209f77ad478b50b71ff250b2b":[8,0,46,20,0],
-"struct_math_1_1plane.html#a17fc655209f77ad478b50b71ff250b2b":[9,0,42,20,0],
-"struct_math_1_1plane.html#a1caff83babf40e6c8af9642a7e78fd2b":[8,0,46,20,5],
-"struct_math_1_1plane.html#a1caff83babf40e6c8af9642a7e78fd2b":[9,0,42,20,5],
-"struct_math_1_1plane.html#a2862d582e09eb788507417a6b3e5ef17":[8,0,46,20,7],
-"struct_math_1_1plane.html#a2862d582e09eb788507417a6b3e5ef17":[9,0,42,20,7]
+"struct_math_1_1plane.html":[8,0,46,20]
 };

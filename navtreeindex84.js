@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"class_util_1_1_pinned_array.html#a57147b78c2ab872c2cd848a28fa70624":[9,0,74,34,18],
+"class_util_1_1_pinned_array.html#a615d5a83b7a35dae876644fcb7ff38e8":[8,0,88,34,28],
+"class_util_1_1_pinned_array.html#a615d5a83b7a35dae876644fcb7ff38e8":[9,0,74,34,28],
+"class_util_1_1_pinned_array.html#a69cacd3567b0a783008561be73a87956":[8,0,88,34,22],
+"class_util_1_1_pinned_array.html#a69cacd3567b0a783008561be73a87956":[9,0,74,34,22],
+"class_util_1_1_pinned_array.html#a69e09f4bd5055e238e4a8e2d213e8db5":[8,0,88,34,3],
+"class_util_1_1_pinned_array.html#a69e09f4bd5055e238e4a8e2d213e8db5":[9,0,74,34,3],
+"class_util_1_1_pinned_array.html#a71439767ff86ad32fc777c28fac7f3b1":[8,0,88,34,15],
 "class_util_1_1_pinned_array.html#a71439767ff86ad32fc777c28fac7f3b1":[9,0,74,34,15],
 "class_util_1_1_pinned_array.html#a77435469f09ef244a2c0e76840fd972d":[8,0,88,34,30],
 "class_util_1_1_pinned_array.html#a77435469f09ef244a2c0e76840fd972d":[9,0,74,34,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "class_util_1_1_ring_buffer.html#a362680d4bb894e50d44b57c1c4e58d06":[9,0,74,40,1],
 "class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[8,0,88,40,17],
 "class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[9,0,74,40,17],
-"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[8,0,88,40,10],
-"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[9,0,74,40,10],
-"class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[8,0,88,40,3],
-"class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[9,0,74,40,3],
-"class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[8,0,88,40,18],
-"class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[9,0,74,40,18],
-"class_util_1_1_ring_buffer.html#a6f5f6df2059f70e1ba46b62ecffde867":[8,0,88,40,7],
-"class_util_1_1_ring_buffer.html#a6f5f6df2059f70e1ba46b62ecffde867":[9,0,74,40,7],
-"class_util_1_1_ring_buffer.html#a763408326ccfa795902268a48aeaf11c":[8,0,88,40,12]
+"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[8,0,88,40,10]
 };

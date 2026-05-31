@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[9,0,78,2,2],
+"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[8,0,92,2,5],
+"class_win32_1_1_win32_calendar_time.html#a9bcd210e1e46dd7fc2a631249ee9fd87":[9,0,78,2,5],
+"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[8,0,92,2,6],
+"class_win32_1_1_win32_calendar_time.html#aad41a086bdb7a62cd1cfa7ed7ccc7e3d":[9,0,78,2,6],
+"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[8,0,92,2,0],
+"class_win32_1_1_win32_calendar_time.html#ac83dc52f115814b01cde24cba825fc05":[9,0,78,2,0],
+"class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[8,0,92,2,4],
 "class_win32_1_1_win32_calendar_time.html#ad0953b688bca4327b92a2c0d9441d07b":[9,0,78,2,4],
 "class_win32_1_1_win32_console_handler.html":[8,0,92,3],
 "class_win32_1_1_win32_console_handler.html":[9,0,78,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_f_s_wrapper.html#adfbdf61158f3adae28043b5d7f23a1fe":[9,0,78,10,6],
 "class_win32_1_1_win32_f_s_wrapper.html#ae180463d0a8670ebd3297384e420517a":[8,0,92,10,1],
 "class_win32_1_1_win32_f_s_wrapper.html#ae180463d0a8670ebd3297384e420517a":[9,0,78,10,1],
-"class_win32_1_1_win32_f_s_wrapper.html#ae2ed6ae62e421e04d8d48661a0397a51":[8,0,92,10,15],
-"class_win32_1_1_win32_f_s_wrapper.html#ae2ed6ae62e421e04d8d48661a0397a51":[9,0,78,10,15],
-"class_win32_1_1_win32_f_s_wrapper.html#ae35f8ee9eb13b105217288c07da0fcb4":[8,0,92,10,4],
-"class_win32_1_1_win32_f_s_wrapper.html#ae35f8ee9eb13b105217288c07da0fcb4":[9,0,78,10,4],
-"class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be":[8,0,92,10,12],
-"class_win32_1_1_win32_f_s_wrapper.html#ae8916cab903bfa503bfa2de9b7db47be":[9,0,78,10,12],
-"class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[8,0,92,10,20],
-"class_win32_1_1_win32_f_s_wrapper.html#aedef67e29dc3e149ee6898df2dfe519d":[9,0,78,10,20],
-"class_win32_1_1_win32_file_time.html":[8,0,92,9]
+"class_win32_1_1_win32_f_s_wrapper.html#ae2ed6ae62e421e04d8d48661a0397a51":[8,0,92,10,15]
 };

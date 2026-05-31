@@ -2,6 +2,7 @@ var class_multiplayer_1_1_client_connection =
 [
     [ "ClientConnection", "class_multiplayer_1_1_client_connection.html#a15f3e0d07823e65e38e9a15036635fb2", null ],
     [ "~ClientConnection", "class_multiplayer_1_1_client_connection.html#acf5b06856dd0990f0cc2ab26da0b194c", null ],
+    [ "DrawNetworkDebugInfo", "class_multiplayer_1_1_client_connection.html#a8513285b493ebe4cb88f004a1ec30d3b", null ],
     [ "GetClientGroup", "class_multiplayer_1_1_client_connection.html#a0df3aa955b8576d6ccc977435cb8c577", null ],
     [ "GetConnectionId", "class_multiplayer_1_1_client_connection.html#abc3d15e54eec807d0158e704068d3875", null ],
     [ "GetCurrentPing", "class_multiplayer_1_1_client_connection.html#a312faddea04a7d3af472c834da88490b", null ],

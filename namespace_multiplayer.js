@@ -44,6 +44,7 @@ var namespace_multiplayer =
     [ "frameEvent", "namespace_multiplayer.html#a44c87d69f7dadfd3426799ee1f888da1", null ],
     [ "logTimeZero", "namespace_multiplayer.html#a92436c69ece20d1cb101a9f05d29c79b", null ],
     [ "NEBULA_DEFAULT_TICK_RATE", "namespace_multiplayer.html#a79e8e01c63cb040ed956def4d18010ae", null ],
+    [ "net_debug", "namespace_multiplayer.html#af440e9cd007bfef33c3a39f0d5735bee", null ],
     [ "net_fake_packet_jitter_recv_avg", "namespace_multiplayer.html#ad96d0d1eb8366a548a3e3c453aa3c53c", null ],
     [ "net_fake_packet_jitter_recv_max", "namespace_multiplayer.html#ab9e6b871b462ddd04451ed932dfb244e", null ],
     [ "net_fake_packet_jitter_recv_pct", "namespace_multiplayer.html#adf44d710cda93d2b6eb51524720f749d", null ],

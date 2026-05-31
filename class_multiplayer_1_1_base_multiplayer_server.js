@@ -5,6 +5,7 @@ var class_multiplayer_1_1_base_multiplayer_server =
     [ "AddClientConnection", "class_multiplayer_1_1_base_multiplayer_server.html#a4128172530a667c0a6f30cab8f1c800d", null ],
     [ "Broadcast", "class_multiplayer_1_1_base_multiplayer_server.html#a4dd291b48851ff7261b8bef8a6217989", null ],
     [ "Close", "class_multiplayer_1_1_base_multiplayer_server.html#a36f703ff9b0131ee8331fd766c9c8753", null ],
+    [ "DrawNetworkDebugInfo", "class_multiplayer_1_1_base_multiplayer_server.html#a0de8b83912dc4c9673f530b8f3264669", null ],
     [ "GetTickInterval", "class_multiplayer_1_1_base_multiplayer_server.html#a7cc551987df9141905176b6b15763efa", null ],
     [ "IsOpen", "class_multiplayer_1_1_base_multiplayer_server.html#ab25959ba576a19911895e37d9e339e0c", null ],
     [ "OnClientConnected", "class_multiplayer_1_1_base_multiplayer_server.html#aa21fd5b7460bcbbeebdc76188634ee1d", null ],

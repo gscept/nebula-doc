@@ -1,5 +1,14 @@
 var NAVTREEINDEX165 =
 {
+"vksemaphore_8h.html":[10,0,0,7,5,6,41],
+"vksemaphore_8h_source.html":[10,0,0,7,5,6,41],
+"vkshader_8cc.html":[10,0,0,7,5,6,42],
+"vkshader_8h.html":[10,0,0,7,5,6,43],
+"vkshader_8h_source.html":[10,0,0,7,5,6,43],
+"vkshaderprogram_8cc.html":[10,0,0,7,5,6,44],
+"vkshaderprogram_8h.html":[10,0,0,7,5,6,45],
+"vkshaderprogram_8h_source.html":[10,0,0,7,5,6,45],
+"vkshaderserver_8cc.html":[10,0,0,7,5,6,46],
 "vkshaderserver_8h.html":[10,0,0,7,5,6,47],
 "vkshaderserver_8h_source.html":[10,0,0,7,5,6,47],
 "vkshaperenderer_8cc.html":[10,0,0,7,5,6,48],

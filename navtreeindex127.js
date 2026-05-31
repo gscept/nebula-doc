@@ -1,5 +1,14 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a39940a3ec1c35ab46ec5dd4a973a765a":[8,0,13,104,0],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a39940a3ec1c35ab46ec5dd4a973a765a":[9,0,12,103,0],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a76287607dd17e7799b11f2cb5f66bea8":[8,0,13,104,2],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a76287607dd17e7799b11f2cb5f66bea8":[9,0,12,103,2],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a7b940c92fda08a32375f8afc6a65d41e":[8,0,13,104,3],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a7b940c92fda08a32375f8afc6a65d41e":[9,0,12,103,3],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a84784a0e91bcea136a8168b6882ff4a5":[8,0,13,104,6],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#a84784a0e91bcea136a8168b6882ff4a5":[9,0,12,103,6],
+"struct_core_graphics_1_1_resource_table_layout_create_info.html#ac65bb4642d3d1c8ca9435c32e65a783a":[8,0,13,104,4],
 "struct_core_graphics_1_1_resource_table_layout_create_info.html#ac65bb4642d3d1c8ca9435c32e65a783a":[9,0,12,103,4],
 "struct_core_graphics_1_1_resource_table_layout_create_info.html#ada299392756ae1e6986199228ac2754a":[8,0,13,104,5],
 "struct_core_graphics_1_1_resource_table_layout_create_info.html#ada299392756ae1e6986199228ac2754a":[9,0,12,103,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_swapchain_create_info.html#af373e269e9c97e70f02aa69528391706":[8,0,13,130,2],
 "struct_core_graphics_1_1_swapchain_create_info.html#af373e269e9c97e70f02aa69528391706":[9,0,12,129,2],
 "struct_core_graphics_1_1_swapchain_id.html":[8,0,13,131],
-"struct_core_graphics_1_1_swapchain_id.html":[9,0,12,130],
-"struct_core_graphics_1_1_texture_barrier.html":[8,0,13,133],
-"struct_core_graphics_1_1_texture_barrier.html":[9,0,12,132],
-"struct_core_graphics_1_1_texture_barrier.html#a276f32f269719e48f2e0676398cf6988":[8,0,13,133,3],
-"struct_core_graphics_1_1_texture_barrier.html#a276f32f269719e48f2e0676398cf6988":[9,0,12,132,3],
-"struct_core_graphics_1_1_texture_barrier.html#a7108fd5eedf91a52e60aff298c84c28a":[8,0,13,133,2],
-"struct_core_graphics_1_1_texture_barrier.html#a7108fd5eedf91a52e60aff298c84c28a":[9,0,12,132,2],
-"struct_core_graphics_1_1_texture_barrier.html#ab8ce940233e18a29434c219075d84eba":[8,0,13,133,1],
-"struct_core_graphics_1_1_texture_barrier.html#ab8ce940233e18a29434c219075d84eba":[9,0,12,132,1],
-"struct_core_graphics_1_1_texture_barrier.html#ac922def4eff9b12f4175a0685c6113cc":[8,0,13,133,0]
+"struct_core_graphics_1_1_swapchain_id.html":[9,0,12,130]
 };

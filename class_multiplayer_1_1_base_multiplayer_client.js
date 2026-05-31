@@ -3,6 +3,7 @@ var class_multiplayer_1_1_base_multiplayer_client =
     [ "BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html#aec776977d66e2de762667cc2b4e4073d", null ],
     [ "~BaseMultiplayerClient", "class_multiplayer_1_1_base_multiplayer_client.html#ae03f0312045edbb9f45c990c7391b158", null ],
     [ "Close", "class_multiplayer_1_1_base_multiplayer_client.html#a16c4c79a1f29bff184efc6b36be78b90", null ],
+    [ "DrawNetworkDebugInfo", "class_multiplayer_1_1_base_multiplayer_client.html#a9a5259c195cc70df562de3affcd673e9", null ],
     [ "GetConnectionStatus", "class_multiplayer_1_1_base_multiplayer_client.html#ab309ed283b19006a2e2db48e70ee5ba7", null ],
     [ "GetCurrentPing", "class_multiplayer_1_1_base_multiplayer_client.html#abb9db53d11a288d8354caea0fd58f850", null ],
     [ "IsOpen", "class_multiplayer_1_1_base_multiplayer_client.html#a6b6432f4030a07d629328d24628bccf3", null ],

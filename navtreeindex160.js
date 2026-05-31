@@ -1,5 +1,14 @@
 var NAVTREEINDEX160 =
 {
+"struct_vulkan_1_1_vk_fence_info.html":[8,0,91,26],
+"struct_vulkan_1_1_vk_fence_info.html":[9,0,77,26],
+"struct_vulkan_1_1_vk_fence_info.html#a81305907cadcaafc03a61cee07ace1b2":[8,0,91,26,0],
+"struct_vulkan_1_1_vk_fence_info.html#a81305907cadcaafc03a61cee07ace1b2":[9,0,77,26,0],
+"struct_vulkan_1_1_vk_pass_load_info.html":[8,0,91,29],
+"struct_vulkan_1_1_vk_pass_load_info.html":[9,0,77,29],
+"struct_vulkan_1_1_vk_pass_load_info.html#a405e122ac14c4516411d22774836a583":[8,0,91,29,0],
+"struct_vulkan_1_1_vk_pass_load_info.html#a405e122ac14c4516411d22774836a583":[9,0,77,29,0],
+"struct_vulkan_1_1_vk_pass_load_info.html#a5bfbfcda300267716c6ea58fbef7522d":[8,0,91,29,9],
 "struct_vulkan_1_1_vk_pass_load_info.html#a5bfbfcda300267716c6ea58fbef7522d":[9,0,77,29,9],
 "struct_vulkan_1_1_vk_pass_load_info.html#a607da9c146be1c7e5a3c3724dd5b6a96":[8,0,91,29,10],
 "struct_vulkan_1_1_vk_pass_load_info.html#a607da9c146be1c7e5a3c3724dd5b6a96":[9,0,77,29,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX160 =
 "struct_vulkan_1_1_vk_shader_setup_info.html#a6e5ae9107a63e6615ce9b9db82293cbe":[8,0,91,40,8],
 "struct_vulkan_1_1_vk_shader_setup_info.html#a6e5ae9107a63e6615ce9b9db82293cbe":[9,0,77,40,8],
 "struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74":[8,0,91,40,9],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74":[9,0,77,40,9],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a852e1d8c01f732997b8756d0ed454484":[8,0,91,40,5],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a852e1d8c01f732997b8756d0ed454484":[9,0,77,40,5],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a9d780c2c3a7421db59052cc58929b93c":[8,0,91,40,10],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a9d780c2c3a7421db59052cc58929b93c":[9,0,77,40,10],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a9e97316f285a8bd21caef1f45d59fb1a":[8,0,91,40,1],
-"struct_vulkan_1_1_vk_shader_setup_info.html#a9e97316f285a8bd21caef1f45d59fb1a":[9,0,77,40,1],
-"struct_vulkan_1_1_vk_shader_setup_info.html#abcf1ea71be274ac86791215d4bea4796":[8,0,91,40,2],
-"struct_vulkan_1_1_vk_shader_setup_info.html#abcf1ea71be274ac86791215d4bea4796":[9,0,77,40,2],
-"struct_vulkan_1_1_vk_shader_setup_info.html#abf144a25d15b9d466ba7de8fb81b38f3":[8,0,91,40,7]
+"struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74":[9,0,77,40,9]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX156 =
 {
+"struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html#a21c9e0d9c953aac64ef1264c51ad8a62":[8,0,88,27,0],
+"struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html#a21c9e0d9c953aac64ef1264c51ad8a62":[9,0,74,27,0],
+"struct_vegetation_1_1_combined_mesh_vertex.html":[8,0,89,0],
+"struct_vegetation_1_1_combined_mesh_vertex.html":[9,0,75,0],
+"struct_vegetation_1_1_combined_mesh_vertex.html#a82933977ca84b551f186974baae974da":[8,0,89,0,3],
+"struct_vegetation_1_1_combined_mesh_vertex.html#a82933977ca84b551f186974baae974da":[9,0,75,0,3],
+"struct_vegetation_1_1_combined_mesh_vertex.html#a88d8d55b6e60283ae00078b61545c7c1":[8,0,89,0,2],
+"struct_vegetation_1_1_combined_mesh_vertex.html#a88d8d55b6e60283ae00078b61545c7c1":[9,0,75,0,2],
+"struct_vegetation_1_1_combined_mesh_vertex.html#ac1de822cdb7936a1b749b5aa0b180d32":[8,0,89,0,1],
 "struct_vegetation_1_1_combined_mesh_vertex.html#ac1de822cdb7936a1b749b5aa0b180d32":[9,0,75,0,1],
 "struct_vegetation_1_1_combined_mesh_vertex.html#adf065f28682287042fbf9c57c00af6ad":[8,0,89,0,0],
 "struct_vegetation_1_1_combined_mesh_vertex.html#adf065f28682287042fbf9c57c00af6ad":[9,0,75,0,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX156 =
 "struct_vulkan_1_1_graphics_device_state.html#a295379b6bdc465c5a22c1c7f780037cf":[8,0,91,7,30],
 "struct_vulkan_1_1_graphics_device_state.html#a295379b6bdc465c5a22c1c7f780037cf":[9,0,77,7,30],
 "struct_vulkan_1_1_graphics_device_state.html#a2ea445eb65fd46743dcd888a13c66e48":[8,0,91,7,11],
-"struct_vulkan_1_1_graphics_device_state.html#a2ea445eb65fd46743dcd888a13c66e48":[9,0,77,7,11],
-"struct_vulkan_1_1_graphics_device_state.html#a3174ef54d06fac688e39422e58864634":[8,0,91,7,28],
-"struct_vulkan_1_1_graphics_device_state.html#a3174ef54d06fac688e39422e58864634":[9,0,77,7,28],
-"struct_vulkan_1_1_graphics_device_state.html#a33821c15e89b5d918a39f81ebe5ce9d2":[8,0,91,7,24],
-"struct_vulkan_1_1_graphics_device_state.html#a33821c15e89b5d918a39f81ebe5ce9d2":[9,0,77,7,24],
-"struct_vulkan_1_1_graphics_device_state.html#a36920c6c71ae9c85cb8ff401be02ed48":[8,0,91,7,8],
-"struct_vulkan_1_1_graphics_device_state.html#a36920c6c71ae9c85cb8ff401be02ed48":[9,0,77,7,8],
-"struct_vulkan_1_1_graphics_device_state.html#a3897075b4c77b32528c9948008033068":[8,0,91,7,12],
-"struct_vulkan_1_1_graphics_device_state.html#a3897075b4c77b32528c9948008033068":[9,0,77,7,12],
-"struct_vulkan_1_1_graphics_device_state.html#a42b2dbd628b340e7c0f55c2e099bbdc3":[8,0,91,7,43]
+"struct_vulkan_1_1_graphics_device_state.html#a2ea445eb65fd46743dcd888a13c66e48":[9,0,77,7,11]
 };

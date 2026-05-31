@@ -9,6 +9,7 @@ var multiplayerfeatureunit_8cc =
     [ "Multiplayer::RefreshConfigCVars", "namespace_multiplayer.html#ad09235f440d3b8af60396700d3eaaebb", null ],
     [ "Multiplayer::ShutdownSteamDatagramConnectionSockets", "namespace_multiplayer.html#a720489833c6b5c33c2adc0fefbad4cf1", null ],
     [ "Multiplayer::logTimeZero", "namespace_multiplayer.html#a92436c69ece20d1cb101a9f05d29c79b", null ],
+    [ "Multiplayer::net_debug", "namespace_multiplayer.html#af440e9cd007bfef33c3a39f0d5735bee", null ],
     [ "Multiplayer::net_fake_packet_jitter_recv_avg", "namespace_multiplayer.html#ad96d0d1eb8366a548a3e3c453aa3c53c", null ],
     [ "Multiplayer::net_fake_packet_jitter_recv_max", "namespace_multiplayer.html#ab9e6b871b462ddd04451ed932dfb244e", null ],
     [ "Multiplayer::net_fake_packet_jitter_recv_pct", "namespace_multiplayer.html#adf44d710cda93d2b6eb51524720f749d", null ],

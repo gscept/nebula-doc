@@ -1,5 +1,14 @@
 var NAVTREEINDEX163 =
 {
+"union_g_i_1_1_d_d_g_i_options.html#ac05bc91ca6b8ef1726622fe307119ff4":[9,0,25,1,3],
+"union_g_i_1_1_d_d_g_i_options.html#ad16ad39796ed92a80ae90d907b57599c":[8,0,27,1,1],
+"union_g_i_1_1_d_d_g_i_options.html#ad16ad39796ed92a80ae90d907b57599c":[9,0,25,1,1],
+"union_math_1_1half_1_1_float.html":[8,0,46,11,0],
+"union_math_1_1half_1_1_float.html":[9,0,42,11,0],
+"union_math_1_1half_1_1_float.html#a0c4de62f2a3be25c188270f1f6eb5b2e":[8,0,46,11,0,3],
+"union_math_1_1half_1_1_float.html#a0c4de62f2a3be25c188270f1f6eb5b2e":[9,0,42,11,0,3],
+"union_math_1_1half_1_1_float.html#a274c0edffdd490935f1fe4be3feaaf7e":[8,0,46,11,0,0],
+"union_math_1_1half_1_1_float.html#a274c0edffdd490935f1fe4be3feaaf7e":[9,0,42,11,0,0],
 "union_math_1_1half_1_1_float.html#a62b54a85b402d0588641ab4a79528478":[8,0,46,11,0,1],
 "union_math_1_1half_1_1_float.html#a62b54a85b402d0588641ab4a79528478":[9,0,42,11,0,1],
 "union_math_1_1half_1_1_float.html#abc49236c5be32ba5b012a9ad45ead77a":[8,0,46,11,0,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX163 =
 "vkloader_8cc.html#a9a93a449f332c103afe1ca0f63f1eafa":[10,0,0,7,5,6,22,77],
 "vkloader_8cc.html#a9daa8bd6826eba1a35cf187a58e9ce8e":[10,0,0,7,5,6,22,145],
 "vkloader_8cc.html#aa05a5f3e308dcb8f4acbbd5175fa12c0":[10,0,0,7,5,6,22,11],
-"vkloader_8cc.html#aa12e703e70a553dee44dc3dbf8e958b4":[10,0,0,7,5,6,22,6],
-"vkloader_8cc.html#aa1fe3089bf2a8ba507e9afb71828f02d":[10,0,0,7,5,6,22,68],
-"vkloader_8cc.html#aa5cb627d6fcf9599e2fa46b4dddf3fc8":[10,0,0,7,5,6,22,19],
-"vkloader_8cc.html#aa6aabefb93576234f3329ef606ff007a":[10,0,0,7,5,6,22,39],
-"vkloader_8cc.html#aa78f97785c18c7e9e0242de616d334e9":[10,0,0,7,5,6,22,33],
-"vkloader_8cc.html#aa8fdd44a309671545bf0abcc3ffc295d":[10,0,0,7,5,6,22,150],
-"vkloader_8cc.html#aab97a3bb002d0e9260def1559fdebcba":[10,0,0,7,5,6,22,81],
-"vkloader_8cc.html#aabff961414c9952d618d534ddec3bc0c":[10,0,0,7,5,6,22,106],
-"vkloader_8cc.html#aad6662e346376cfee9d9c9d1d6bb5f94":[10,0,0,7,5,6,22,18],
-"vkloader_8cc.html#aae3b3956074934635507cbce6096fb28":[10,0,0,7,5,6,22,56]
+"vkloader_8cc.html#aa12e703e70a553dee44dc3dbf8e958b4":[10,0,0,7,5,6,22,6]
 };

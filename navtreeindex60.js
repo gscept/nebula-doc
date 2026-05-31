@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[9,0,51,0,3],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3":[8,0,56,0,2],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3":[9,0,51,0,2],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a5c37a175766801e72e51774f48dc15d9":[8,0,56,0,1],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a5c37a175766801e72e51774f48dc15d9":[9,0,51,0,1],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817":[8,0,56,0,4],
+"class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817":[9,0,51,0,4],
+"class_navigation_feature_1_1_navigation_feature_unit.html#ab2b7cf6ca6de9ba5cb77331a4f42ca09":[8,0,56,0,0],
 "class_navigation_feature_1_1_navigation_feature_unit.html#ab2b7cf6ca6de9ba5cb77331a4f42ca09":[9,0,51,0,0],
 "class_navigation_feature_1_1_navigation_manager.html":[8,0,56,1],
 "class_navigation_feature_1_1_navigation_manager.html":[9,0,51,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[9,0,52,0,13,0,0,0],
 "class_nebula_1_1_game_1_1_world.html":[8,0,57,0,14],
 "class_nebula_1_1_game_1_1_world.html":[9,0,52,0,14],
-"class_nebula_1_1_game_1_1_world.html#a20016bb45daaae16ebf8575f068bcca7":[8,0,57,0,14,7],
-"class_nebula_1_1_game_1_1_world.html#a20016bb45daaae16ebf8575f068bcca7":[9,0,52,0,14,7],
-"class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee":[8,0,57,0,14,1],
-"class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee":[9,0,52,0,14,1],
-"class_nebula_1_1_game_1_1_world.html#a77459cc1b9c5b52963914e6074d9c3d9":[8,0,57,0,14,3],
-"class_nebula_1_1_game_1_1_world.html#a77459cc1b9c5b52963914e6074d9c3d9":[9,0,52,0,14,3],
-"class_nebula_1_1_game_1_1_world.html#a7797bd51b7dfe8193d72cb5ad899c2c7":[8,0,57,0,14,8],
-"class_nebula_1_1_game_1_1_world.html#a7797bd51b7dfe8193d72cb5ad899c2c7":[9,0,52,0,14,8],
-"class_nebula_1_1_game_1_1_world.html#a85cf519013d3501722338c9b20860133":[8,0,57,0,14,2]
+"class_nebula_1_1_game_1_1_world.html#a20016bb45daaae16ebf8575f068bcca7":[8,0,57,0,14,7]
 };
