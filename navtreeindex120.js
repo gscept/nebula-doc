@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"semaphore_8h.html":[10,0,0,7,5,66],
+"semaphore_8h_source.html":[10,0,0,7,5,66],
 "serverprocessors_8cc.html":[10,0,0,0,6,1,4],
 "serverprocessors_8cc.html#a8ac959fb460a2f22fd85027779add92b":[10,0,0,0,6,1,4,1],
 "serverprocessors_8h.html":[10,0,0,0,6,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "stack_8h.html":[10,0,0,3,20,52],
 "stack_8h_source.html":[10,0,0,3,20,52],
 "stacktrace_8h.html":[10,0,0,3,2,15],
-"stacktrace_8h_source.html":[10,0,0,3,2,15],
-"standardmultiplayerclient_8cc.html":[10,0,0,0,6,0,4],
-"standardmultiplayerclient_8h.html":[10,0,0,0,6,0,5]
+"stacktrace_8h_source.html":[10,0,0,3,2,15]
 };

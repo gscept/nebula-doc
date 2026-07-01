@@ -9,6 +9,7 @@ var class_game_1_1_frame_event_1_1_batch =
     [ "GetProcessors", "class_game_1_1_frame_event_1_1_batch.html#afea212af1efe62e1798dfcdf09a3989b", null ],
     [ "Prefilter", "class_game_1_1_frame_event_1_1_batch.html#aaeb51219beb2acc7ded1847261005097", null ],
     [ "TryInsert", "class_game_1_1_frame_event_1_1_batch.html#ae27869ef6a4261d09923854a1b7bd192", null ],
+    [ "TryRemove", "class_game_1_1_frame_event_1_1_batch.html#afe0af71db3479bbd03252e84f919f0ae", null ],
     [ "async", "class_game_1_1_frame_event_1_1_batch.html#a90abf5f8b5176fbf7f920a2b2b5c7391", null ],
     [ "order", "class_game_1_1_frame_event_1_1_batch.html#a39b26bdb8e52145ec671c13b60e91678", null ],
     [ "processors", "class_game_1_1_frame_event_1_1_batch.html#a22a814392560f035ff2e42ebc806d6fd", null ]

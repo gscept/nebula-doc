@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"struct_mathf_1_1_vector4.html#a38b20924421204cce0c1d6509442f0c6":[9,0,43,14,27],
+"struct_mathf_1_1_vector4.html#a3964fbda827982a6c6ae1a024ba385e6":[8,0,47,14,98],
 "struct_mathf_1_1_vector4.html#a3964fbda827982a6c6ae1a024ba385e6":[9,0,43,14,98],
 "struct_mathf_1_1_vector4.html#a3b9ca7f2a8d1ecf2f9ed22c9188a9310":[8,0,47,14,96],
 "struct_mathf_1_1_vector4.html#a3b9ca7f2a8d1ecf2f9ed22c9188a9310":[9,0,43,14,96],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "struct_memory_1_1_ring_allocator_1_1_interval.html#a28e1277f58cc008d7a5f48afdc5e61ac":[9,0,45,5,0,1],
 "struct_memory_1_1_total_memory_status.html":[8,0,49,6],
 "struct_memory_1_1_total_memory_status.html":[9,0,45,6],
-"struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[8,0,49,6,2],
-"struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[9,0,45,6,2],
-"struct_memory_1_1_total_memory_status.html#a3186ab0aaf32f9cbf2c24c2203b036b7":[8,0,49,6,9]
+"struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[8,0,49,6,2]
 };

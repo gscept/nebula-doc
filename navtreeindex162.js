@@ -1,5 +1,7 @@
 var NAVTREEINDEX162 =
 {
+"tbuiclipboardinterface_8h_source.html":[10,0,0,0,13,0,5],
+"tbuicontext_8cc.html":[10,0,0,0,13,2],
 "tbuicontext_8h.html":[10,0,0,0,13,3],
 "tbuicontext_8h_source.html":[10,0,0,0,13,3],
 "tbuifile_8cc.html":[10,0,0,0,13,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX162 =
 "union_g_i_1_1_d_d_g_i_options.html#a79165db5b75fabd0403ff4685bebf635":[9,0,25,1,4],
 "union_g_i_1_1_d_d_g_i_options.html#a7b48d7063139e384c2b2753bc01f46a0":[8,0,27,1,0],
 "union_g_i_1_1_d_d_g_i_options.html#a7b48d7063139e384c2b2753bc01f46a0":[9,0,25,1,0],
-"union_g_i_1_1_d_d_g_i_options.html#ab49ca20363427a68c0c38ac947e32b3a":[8,0,27,1,5],
-"union_g_i_1_1_d_d_g_i_options.html#ab49ca20363427a68c0c38ac947e32b3a":[9,0,25,1,5],
-"union_g_i_1_1_d_d_g_i_options.html#ac05bc91ca6b8ef1726622fe307119ff4":[8,0,27,1,3]
+"union_g_i_1_1_d_d_g_i_options.html#ab49ca20363427a68c0c38ac947e32b3a":[8,0,27,1,5]
 };

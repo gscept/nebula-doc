@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"standardmultiplayerclient_8cc.html":[10,0,0,0,6,0,4],
+"standardmultiplayerclient_8h.html":[10,0,0,0,6,0,5],
 "standardmultiplayerclient_8h_source.html":[10,0,0,0,6,0,5],
 "standardmultiplayerserver_8cc.html":[10,0,0,0,6,1,6],
 "standardmultiplayerserver_8h.html":[10,0,0,0,6,1,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "struct_characters_1_1_skeleton_create_info.html#ab4396777485a113cf6b7e454342bd6f9":[8,0,7,6,0],
 "struct_characters_1_1_skeleton_create_info.html#ab4396777485a113cf6b7e454342bd6f9":[9,0,7,6,0],
 "struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[8,0,7,6,3],
-"struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[9,0,7,6,3],
-"struct_characters_1_1_skeleton_id.html":[8,0,7,7],
-"struct_characters_1_1_skeleton_id.html":[9,0,7,7]
+"struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff":[9,0,7,6,3]
 };

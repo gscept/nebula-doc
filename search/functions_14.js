@@ -194,8 +194,9 @@ var searchData=
   ['tryacquire_191',['TryAcquire',['../class_util_1_1_array_allocator_safe.html#ac2c0f0b36513a3bb66566bdf2864dbfc',1,'Util::ArrayAllocatorSafe']]],
   ['tryconnect_192',['TryConnect',['../class_multiplayer_1_1_base_multiplayer_client.html#a9b9cdc001194e5ea8ed5341aeb0ad9e0',1,'Multiplayer::BaseMultiplayerClient']]],
   ['tryinsert_193',['TryInsert',['../class_game_1_1_frame_event_1_1_batch.html#ae27869ef6a4261d09923854a1b7bd192',1,'Game::FrameEvent::Batch']]],
-  ['type_194',['Type',['../class_ti_xml_node.html#a0f4dd916b2afc2ab2f1a84f3e2b8fd5d',1,'TiXmlNode']]],
-  ['typepunning_195',['TypePunning',['../namespace_util.html#af7614736305c0cc6fb19c936c31edf52',1,'Util::TypePunning(B &amp;v)'],['../namespace_util.html#ad4a275c00b23a5152b1fc6ad7f79b2a6',1,'Util::TypePunning(const B &amp;v)']]],
-  ['typesize_196',['TypeSize',['../class_mem_db_1_1_attribute_registry.html#aa9634291c4e68b72e38ff7dabd0c888e',1,'MemDb::AttributeRegistry::TypeSize()'],['../class_util_1_1_array.html#a54498cfef1535dab13da4bd524550bc1',1,'Util::Array::TypeSize()']]],
-  ['typetostring_197',['TypeToString',['../class_util_1_1_variant.html#a96bacf0255c661f4f16a8bd350a73d4d',1,'Util::Variant::TypeToString()'],['../class_input_1_1_input_event.html#a23a991d340c2765a9721293bee798e23',1,'Input::InputEvent::TypeToString()']]]
+  ['tryremove_194',['TryRemove',['../class_game_1_1_frame_event_1_1_batch.html#afe0af71db3479bbd03252e84f919f0ae',1,'Game::FrameEvent::Batch']]],
+  ['type_195',['Type',['../class_ti_xml_node.html#a0f4dd916b2afc2ab2f1a84f3e2b8fd5d',1,'TiXmlNode']]],
+  ['typepunning_196',['TypePunning',['../namespace_util.html#af7614736305c0cc6fb19c936c31edf52',1,'Util::TypePunning(B &amp;v)'],['../namespace_util.html#ad4a275c00b23a5152b1fc6ad7f79b2a6',1,'Util::TypePunning(const B &amp;v)']]],
+  ['typesize_197',['TypeSize',['../class_mem_db_1_1_attribute_registry.html#aa9634291c4e68b72e38ff7dabd0c888e',1,'MemDb::AttributeRegistry::TypeSize()'],['../class_util_1_1_array.html#a54498cfef1535dab13da4bd524550bc1',1,'Util::Array::TypeSize()']]],
+  ['typetostring_198',['TypeToString',['../class_util_1_1_variant.html#a96bacf0255c661f4f16a8bd350a73d4d',1,'Util::Variant::TypeToString()'],['../class_input_1_1_input_event.html#a23a991d340c2765a9721293bee798e23',1,'Input::InputEvent::TypeToString()']]]
 ];

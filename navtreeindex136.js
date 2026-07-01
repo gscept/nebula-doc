@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html":[9,0,31,0,7],
+"struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html#a34cb0a6823d1b75068922758662efc98":[8,0,33,0,7,0],
 "struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html#a34cb0a6823d1b75068922758662efc98":[9,0,31,0,7,0],
 "struct_im3d_1_1internal_1_1_vec_t.html":[8,0,33,0,4],
 "struct_im3d_1_1internal_1_1_vec_t.html":[9,0,31,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "struct_lighting_1_1_light_context_1_1_directional_light_setup_info.html#aab4b7971fb818b11bbd48702783bc9a7":[9,0,37,0,0,3],
 "struct_lighting_1_1_light_context_1_1_directional_light_setup_info.html#af68df9c905288ec38e79872fce712a75":[8,0,40,0,0,1],
 "struct_lighting_1_1_light_context_1_1_directional_light_setup_info.html#af68df9c905288ec38e79872fce712a75":[9,0,37,0,0,1],
-"struct_lighting_1_1_light_context_1_1_point_light_setup_info.html":[8,0,40,0,1],
-"struct_lighting_1_1_light_context_1_1_point_light_setup_info.html":[9,0,37,0,1],
-"struct_lighting_1_1_light_context_1_1_point_light_setup_info.html#a5b70f9974804f006211ebeb517136f0a":[8,0,40,0,1,0]
+"struct_lighting_1_1_light_context_1_1_point_light_setup_info.html":[8,0,40,0,1]
 };

@@ -3,6 +3,8 @@ var NAVTREEINDEX32 =
 "class_game_1_1_frame_event_1_1_batch.html#adaf5a9fbf547796bb6ede4e98c49554f":[9,0,23,17,0,5],
 "class_game_1_1_frame_event_1_1_batch.html#ae27869ef6a4261d09923854a1b7bd192":[8,0,25,18,0,8],
 "class_game_1_1_frame_event_1_1_batch.html#ae27869ef6a4261d09923854a1b7bd192":[9,0,23,17,0,8],
+"class_game_1_1_frame_event_1_1_batch.html#afe0af71db3479bbd03252e84f919f0ae":[8,0,25,18,0,9],
+"class_game_1_1_frame_event_1_1_batch.html#afe0af71db3479bbd03252e84f919f0ae":[9,0,23,17,0,9],
 "class_game_1_1_frame_event_1_1_batch.html#afea212af1efe62e1798dfcdf09a3989b":[8,0,25,18,0,6],
 "class_game_1_1_frame_event_1_1_batch.html#afea212af1efe62e1798dfcdf09a3989b":[9,0,23,17,0,6],
 "class_game_1_1_frame_pipeline.html":[8,0,25,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "class_game_1_1_processor.html#af36b022637eacae2d15897d429807601":[9,0,23,27,5],
 "class_game_1_1_processor_builder.html":[8,0,25,29],
 "class_game_1_1_processor_builder.html":[9,0,23,28],
-"class_game_1_1_processor_builder.html#a0b27deaaa44933f7f92cc502bfd36f59":[8,0,25,29,13],
-"class_game_1_1_processor_builder.html#a0b27deaaa44933f7f92cc502bfd36f59":[9,0,23,28,13],
-"class_game_1_1_processor_builder.html#a0be7233bc74831e9f6e5f1c2342d4747":[8,0,25,29,11]
+"class_game_1_1_processor_builder.html#a0b27deaaa44933f7f92cc502bfd36f59":[8,0,25,29,13]
 };

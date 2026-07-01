@@ -1,5 +1,7 @@
 var NAVTREEINDEX165 =
 {
+"vkscheduler_8h_source.html":[10,0,0,7,5,6,39],
+"vksemaphore_8cc.html":[10,0,0,7,5,6,40],
 "vksemaphore_8h.html":[10,0,0,7,5,6,41],
 "vksemaphore_8h_source.html":[10,0,0,7,5,6,41],
 "vkshader_8cc.html":[10,0,0,7,5,6,42],

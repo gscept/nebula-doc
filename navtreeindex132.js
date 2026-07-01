@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"struct_game_1_1_game_server_1_1_state.html":[9,0,23,19,0],
+"struct_game_1_1_game_server_1_1_state.html#a35961d9052b755591848cfc911da6294":[8,0,25,20,0,0],
 "struct_game_1_1_game_server_1_1_state.html#a35961d9052b755591848cfc911da6294":[9,0,23,19,0,0],
 "struct_game_1_1_game_server_1_1_state.html#ab5776f985935a811dfcc0edb980c97dc":[8,0,25,20,0,1],
 "struct_game_1_1_game_server_1_1_state.html#ab5776f985935a811dfcc0edb980c97dc":[9,0,23,19,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "struct_i_o_1_1_i_o_stat.html#a3f5543688acc3a7228d2080d44824d2e":[9,0,34,31,0],
 "struct_i_o_1_1_i_o_stat.html#aa3b14cf2e0fa0eb8d38f2cf05866304b":[8,0,37,32,2],
 "struct_i_o_1_1_i_o_stat.html#aa3b14cf2e0fa0eb8d38f2cf05866304b":[9,0,34,31,2],
-"struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381":[8,0,37,32,3],
-"struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381":[9,0,34,31,3],
-"struct_i_o_1_1_stream_cache_1_1_cache_entry.html":[8,0,37,43,0]
+"struct_i_o_1_1_i_o_stat.html#af5917572f57313316d0d13c7318f1381":[8,0,37,32,3]
 };

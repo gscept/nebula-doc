@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"class_vulkan_1_1_vk_shape_renderer.html#a62def4482a9fa2695f240d5b4b889156":[9,0,77,41,8],
+"class_vulkan_1_1_vk_shape_renderer.html#a730366c1f83eed35cd93aa0082fd4fb0":[8,0,91,41,6],
 "class_vulkan_1_1_vk_shape_renderer.html#a730366c1f83eed35cd93aa0082fd4fb0":[9,0,77,41,6],
 "class_vulkan_1_1_vk_shape_renderer.html#a7399623f31b02383e9a3a60b224afff4":[8,0,91,41,15],
 "class_vulkan_1_1_vk_shape_renderer.html#a7399623f31b02383e9a3a60b224afff4":[9,0,77,41,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "class_win32_1_1_win32_calendar_time.html#a34dd280bc47e36a488a718b38dd34d4a":[9,0,78,2,3],
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[8,0,92,2,1],
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[9,0,78,2,1],
-"class_win32_1_1_win32_calendar_time.html#a74d6e044ddc97631555a49dd0580dbb6":[8,0,92,2,7],
-"class_win32_1_1_win32_calendar_time.html#a74d6e044ddc97631555a49dd0580dbb6":[9,0,78,2,7],
-"class_win32_1_1_win32_calendar_time.html#a8d693b54e231b31ecb1d1718db403708":[8,0,92,2,2]
+"class_win32_1_1_win32_calendar_time.html#a74d6e044ddc97631555a49dd0580dbb6":[8,0,92,2,7]
 };

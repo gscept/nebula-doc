@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"struct_core_graphics_1_1_alloc_range.html#a6e8882aab60285b88dc9aaaed66c9ad4":[8,0,13,7,1],
+"struct_core_graphics_1_1_alloc_range.html#a6e8882aab60285b88dc9aaaed66c9ad4":[9,0,12,6,1],
 "struct_core_graphics_1_1_alloc_range.html#af5ae529c09b6f97620e8c94f222ced7e":[8,0,13,7,0],
 "struct_core_graphics_1_1_alloc_range.html#af5ae529c09b6f97620e8c94f222ced7e":[9,0,12,6,0],
 "struct_core_graphics_1_1_barrier_context.html":[8,0,13,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_cmd_buffer_clear_info.html":[8,0,13,29],
 "struct_core_graphics_1_1_cmd_buffer_clear_info.html":[9,0,12,28],
 "struct_core_graphics_1_1_cmd_buffer_clear_info.html#aa6b3b762b3f309d6599cd4e1e42e9e3e":[8,0,13,29,0],
-"struct_core_graphics_1_1_cmd_buffer_clear_info.html#aa6b3b762b3f309d6599cd4e1e42e9e3e":[9,0,12,28,0],
-"struct_core_graphics_1_1_cmd_buffer_create_info.html":[8,0,13,30],
-"struct_core_graphics_1_1_cmd_buffer_create_info.html":[9,0,12,29]
+"struct_core_graphics_1_1_cmd_buffer_clear_info.html#aa6b3b762b3f309d6599cd4e1e42e9e3e":[9,0,12,28,0]
 };

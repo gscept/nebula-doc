@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a727c38c6c76585e93c2eab60fcc1643e" id="r_a727c38c6c76585e93c2eab60fcc1643e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a727c38c6c76585e93c2eab60fcc1643e">Execute</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
 <tr class="memitem:ae27869ef6a4261d09923854a1b7bd192" id="r_ae27869ef6a4261d09923854a1b7bd192"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae27869ef6a4261d09923854a1b7bd192">TryInsert</a> (<a class="el" href="class_game_1_1_processor.html">Processor</a> *processor)</td></tr>
 <tr class="memdesc:ae27869ef6a4261d09923854a1b7bd192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to insert a processor into the batch.  <br /></td></tr>
+<tr class="memitem:afe0af71db3479bbd03252e84f919f0ae" id="r_afe0af71db3479bbd03252e84f919f0ae"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afe0af71db3479bbd03252e84f919f0ae">TryRemove</a> (<a class="el" href="class_game_1_1_processor.html">Processor</a> *processor)</td></tr>
+<tr class="memdesc:afe0af71db3479bbd03252e84f919f0ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to remove a processor from the batch, if it exists in the batch.  <br /></td></tr>
 <tr class="memitem:aaeb51219beb2acc7ded1847261005097" id="r_aaeb51219beb2acc7ded1847261005097"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaeb51219beb2acc7ded1847261005097">Prefilter</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world, bool force=false)</td></tr>
 <tr class="memdesc:aaeb51219beb2acc7ded1847261005097"><td class="mdescLeft">&#160;</td><td class="mdescRight">prefilter all processors. Should not be done per frame - instead use CacheTable if you need to do incremental caching  <br /></td></tr>
 <tr class="memitem:aa45dcc2bc0c3a2477d657ed6fb4363dc" id="r_aa45dcc2bc0c3a2477d657ed6fb4363dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa45dcc2bc0c3a2477d657ed6fb4363dc">CacheTable</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a>, <a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a> const &amp;)</td></tr>
@@ -339,6 +341,26 @@ Private Attributes</h2></td></tr>
 
 <p>Try to insert a processor into the batch. </p>
 <p>Can reject the processor if the batch is executed async, and the processor is not allowed to run simultaneously as the other processor. In this case, use linear probing to insert the processor into a new batch </p>
+
+</div>
+</div>
+<a id="afe0af71db3479bbd03252e84f919f0ae" name="afe0af71db3479bbd03252e84f919f0ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0af71db3479bbd03252e84f919f0ae">&#9670;&#160;</a></span>TryRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::FrameEvent::Batch::TryRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_processor.html">Processor</a> *</td>          <td class="paramname"><span class="paramname"><em>processor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to remove a processor from the batch, if it exists in the batch. </p>
+<p>returns true if removed. </p>
 
 </div>
 </div>
