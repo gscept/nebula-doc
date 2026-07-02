@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"class_navigation_1_1_stream_nav_mesh_cache.html#ac85bc7a089ce9ebf51f21687cf307bce":[9,0,50,5,7],
+"class_navigation_1_1_stream_nav_mesh_cache.html#ae30b5abc2940f33a53c42678b0dcc52c":[8,0,55,6,0],
+"class_navigation_1_1_stream_nav_mesh_cache.html#ae30b5abc2940f33a53c42678b0dcc52c":[9,0,50,5,0],
+"class_navigation_feature_1_1_navigation_feature_unit.html":[8,0,56,0],
 "class_navigation_feature_1_1_navigation_feature_unit.html":[9,0,51,0],
 "class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[8,0,56,0,3],
 "class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[9,0,51,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[9,0,52,0,13,0,1],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[8,0,57,0,13,0,0],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[9,0,52,0,13,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,57,0,13,0,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[9,0,52,0,13,0,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[8,0,57,0,13,0,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[9,0,52,0,13,0,0,0],
-"class_nebula_1_1_game_1_1_world.html":[8,0,57,0,14]
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,57,0,13,0,0,1]
 };

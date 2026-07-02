@@ -1,5 +1,9 @@
 var NAVTREEINDEX164 =
 {
+"vkloader_8cc.html#a96c9bcb5fc42ad03b3ed786e59fd5579":[10,0,0,7,5,6,22,29],
+"vkloader_8cc.html#a9a0e6a9494eda92d24c1f25a22dfe7ae":[10,0,0,7,5,6,22,32],
+"vkloader_8cc.html#a9a93a449f332c103afe1ca0f63f1eafa":[10,0,0,7,5,6,22,77],
+"vkloader_8cc.html#a9daa8bd6826eba1a35cf187a58e9ce8e":[10,0,0,7,5,6,22,145],
 "vkloader_8cc.html#aa05a5f3e308dcb8f4acbbd5175fa12c0":[10,0,0,7,5,6,22,11],
 "vkloader_8cc.html#aa12e703e70a553dee44dc3dbf8e958b4":[10,0,0,7,5,6,22,6],
 "vkloader_8cc.html#aa1fe3089bf2a8ba507e9afb71828f02d":[10,0,0,7,5,6,22,68],
@@ -245,9 +249,5 @@ var NAVTREEINDEX164 =
 "vkresourcetable_8cc.html":[10,0,0,7,5,6,34],
 "vkresourcetable_8h.html":[10,0,0,7,5,6,35],
 "vkresourcetable_8h_source.html":[10,0,0,7,5,6,35],
-"vksampler_8cc.html":[10,0,0,7,5,6,36],
-"vksampler_8h.html":[10,0,0,7,5,6,37],
-"vksampler_8h_source.html":[10,0,0,7,5,6,37],
-"vkscheduler_8cc.html":[10,0,0,7,5,6,38],
-"vkscheduler_8h.html":[10,0,0,7,5,6,39]
+"vksampler_8cc.html":[10,0,0,7,5,6,36]
 };

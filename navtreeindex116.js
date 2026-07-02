@@ -1,5 +1,9 @@
 var NAVTREEINDEX116 =
 {
+"namespace_visibility.html":[8,0,90],
+"namespace_visibility.html#a116446ba51653dc8420484fd6f3bb957":[8,0,90,19],
+"namespace_visibility.html#a2677f63ab4271b71df144d85091d1a68":[8,0,90,26],
+"namespace_visibility.html#a29b6c9fc80332e720048debfa9981fb4":[8,0,90,22],
 "namespace_visibility.html#a2a17d4f8b9513a6778518e0a9457371f":[8,0,90,18],
 "namespace_visibility.html#a408b356cec20a3eb810596308cfada1c":[8,0,90,27],
 "namespace_visibility.html#a7a6755d868caaaea3e74a98ac83f1b3b":[8,0,90,24],
@@ -245,9 +249,5 @@ var NAVTREEINDEX116 =
 "namespace_vulkan.html#aeae592f2efdaf9d22f2a0e6f36f4157c":[8,0,91,146],
 "namespace_vulkan.html#aeb96c92a8ff8bcf06569be7d18b15034":[8,0,91,256],
 "namespace_vulkan.html#aee64dd49808654799f8a0d43f1c55967":[8,0,91,79],
-"namespace_vulkan.html#af079204f5ded45f20bf645c7ef0eec41":[8,0,91,151],
-"namespace_vulkan.html#af085bb964d6d4e9e378561f2fe614700":[8,0,91,217],
-"namespace_vulkan.html#af27b9b36ca12e885d7df00e6c1a0e5bc":[8,0,91,243],
-"namespace_vulkan.html#af3197321a51b5de61edafd4e17abca06":[8,0,91,83],
-"namespace_vulkan.html#af3685bf29039523f94ba4f93b1906447":[8,0,91,87]
+"namespace_vulkan.html#af079204f5ded45f20bf645c7ef0eec41":[8,0,91,151]
 };

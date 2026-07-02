@@ -1,5 +1,9 @@
 var NAVTREEINDEX161 =
 {
+"struct_vulkan_1_1_vk_shader_setup_info.html#a6a03106e6dffa9319fa6ebdb00697ba8":[8,0,91,40,11],
+"struct_vulkan_1_1_vk_shader_setup_info.html#a6a03106e6dffa9319fa6ebdb00697ba8":[9,0,77,40,11],
+"struct_vulkan_1_1_vk_shader_setup_info.html#a6e5ae9107a63e6615ce9b9db82293cbe":[8,0,91,40,8],
+"struct_vulkan_1_1_vk_shader_setup_info.html#a6e5ae9107a63e6615ce9b9db82293cbe":[9,0,77,40,8],
 "struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74":[8,0,91,40,9],
 "struct_vulkan_1_1_vk_shader_setup_info.html#a748d12c1a72b78b87e2589042d8b5f74":[9,0,77,40,9],
 "struct_vulkan_1_1_vk_shader_setup_info.html#a852e1d8c01f732997b8756d0ed454484":[8,0,91,40,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX161 =
 "tbuibatch_8h.html":[10,0,0,0,13,0,0],
 "tbuibatch_8h_source.html":[10,0,0,0,13,0,0],
 "tbuibitmap_8cc.html":[10,0,0,0,13,0,1],
-"tbuibitmap_8h.html":[10,0,0,0,13,0,2],
-"tbuibitmap_8h_source.html":[10,0,0,0,13,0,2],
-"tbuiclipboard_8cc.html":[10,0,0,0,13,0,3],
-"tbuiclipboardinterface_8cc.html":[10,0,0,0,13,0,4],
-"tbuiclipboardinterface_8h.html":[10,0,0,0,13,0,5]
+"tbuibitmap_8h.html":[10,0,0,0,13,0,2]
 };

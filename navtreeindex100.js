@@ -1,5 +1,9 @@
 var NAVTREEINDEX100 =
 {
+"globals_vars.html":[10,1,2],
+"globals_w.html":[10,1,0,23],
+"globals_x.html":[10,1,0,24],
+"globals_y.html":[10,1,0,25],
 "globals_z.html":[10,1,0,26],
 "globalstringatomtable_8cc.html":[10,0,0,3,20,26],
 "globalstringatomtable_8h.html":[10,0,0,3,20,27],
@@ -245,9 +249,5 @@ var NAVTREEINDEX100 =
 "imguiprofiler_8cc.html":[10,0,0,0,3,3,0],
 "imguiprofiler_8h.html":[10,0,0,0,3,3,1],
 "imguiprofiler_8h_source.html":[10,0,0,0,3,3,1],
-"imguirtplugin_8cc.html":[10,0,0,0,3,13],
-"imguirtplugin_8h.html":[10,0,0,0,3,14],
-"imguirtplugin_8h_source.html":[10,0,0,0,3,14],
-"index.html":[],
-"index.html":[0]
+"imguirtplugin_8cc.html":[10,0,0,0,3,13]
 };
