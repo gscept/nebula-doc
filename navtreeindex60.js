@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"class_navigation_1_1_stream_nav_mesh_cache.html#a2a2b01b693677de0f998a428a18e48ef":[9,0,50,5,6],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a4dd3c39d801d907cbafc8a18b1c36a51":[8,0,55,6,1],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a4dd3c39d801d907cbafc8a18b1c36a51":[9,0,50,5,1],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a69bfb58836b9cf1c0a9dd89d3396b036":[8,0,55,6,3],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a69bfb58836b9cf1c0a9dd89d3396b036":[9,0,50,5,3],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a90a1092a2ebfad81aa4568136068df1b":[8,0,55,6,2],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a90a1092a2ebfad81aa4568136068df1b":[9,0,50,5,2],
+"class_navigation_1_1_stream_nav_mesh_cache.html#ac85bc7a089ce9ebf51f21687cf307bce":[8,0,55,6,7],
 "class_navigation_1_1_stream_nav_mesh_cache.html#ac85bc7a089ce9ebf51f21687cf307bce":[9,0,50,5,7],
 "class_navigation_1_1_stream_nav_mesh_cache.html#ae30b5abc2940f33a53c42678b0dcc52c":[8,0,55,6,0],
 "class_navigation_1_1_stream_nav_mesh_cache.html#ae30b5abc2940f33a53c42678b0dcc52c":[9,0,50,5,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "class_nebula_1_1_game_1_1_template_manager.html#ae47e07a517f6d043b1f22bb7e416e0e1":[9,0,52,0,13,5],
 "class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[8,0,57,0,13,3],
 "class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[9,0,52,0,13,3],
-"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[8,0,57,0,13,2],
-"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[9,0,52,0,13,2],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[8,0,57,0,13,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[9,0,52,0,13,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[8,0,57,0,13,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[9,0,52,0,13,0,1],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[8,0,57,0,13,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[9,0,52,0,13,0,0],
-"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,57,0,13,0,0,1]
+"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[8,0,57,0,13,2]
 };

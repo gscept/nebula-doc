@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"class_win32_1_1_sys_func.html#ad324ffcaea329a534eb652c56c5a0ed5":[8,0,92,1,1],
+"class_win32_1_1_sys_func.html#ad324ffcaea329a534eb652c56c5a0ed5":[9,0,78,1,1],
+"class_win32_1_1_sys_func.html#adac9de075b17277a31dbda95f7c6bf16":[8,0,92,1,3],
+"class_win32_1_1_sys_func.html#adac9de075b17277a31dbda95f7c6bf16":[9,0,78,1,3],
+"class_win32_1_1_win32_barrier.html":[9,0,189],
+"class_win32_1_1_win32_calendar_time.html":[8,0,92,2],
+"class_win32_1_1_win32_calendar_time.html":[9,0,78,2],
+"class_win32_1_1_win32_calendar_time.html#a34dd280bc47e36a488a718b38dd34d4a":[8,0,92,2,3],
 "class_win32_1_1_win32_calendar_time.html#a34dd280bc47e36a488a718b38dd34d4a":[9,0,78,2,3],
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[8,0,92,2,1],
 "class_win32_1_1_win32_calendar_time.html#a4ee120be23acee021639f4265c7a4f2b":[9,0,78,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_f_s_wrapper.html#ab49a54deb7027b48d6529a139093d216":[9,0,78,10,3],
 "class_win32_1_1_win32_f_s_wrapper.html#ac813ee4c1d7ae8ed5fff6c165d2b647f":[8,0,92,10,5],
 "class_win32_1_1_win32_f_s_wrapper.html#ac813ee4c1d7ae8ed5fff6c165d2b647f":[9,0,78,10,5],
-"class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[8,0,92,10,23],
-"class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[9,0,78,10,23],
-"class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69":[8,0,92,10,11],
-"class_win32_1_1_win32_f_s_wrapper.html#acc51edbde5601d6d5431a658431b7b69":[9,0,78,10,11],
-"class_win32_1_1_win32_f_s_wrapper.html#acd3849aad0f25ec8cc78e8b530ba82b7":[8,0,92,10,9],
-"class_win32_1_1_win32_f_s_wrapper.html#acd3849aad0f25ec8cc78e8b530ba82b7":[9,0,78,10,9],
-"class_win32_1_1_win32_f_s_wrapper.html#ad27abdd157105d19e93db4de3ef90f8d":[8,0,92,10,36],
-"class_win32_1_1_win32_f_s_wrapper.html#ad27abdd157105d19e93db4de3ef90f8d":[9,0,78,10,36],
-"class_win32_1_1_win32_f_s_wrapper.html#ad488bbc2e0113d94728153df00e416ba":[8,0,92,10,17]
+"class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[8,0,92,10,23]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[9,0,52,0,13,2],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[8,0,57,0,13,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[9,0,52,0,13,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[8,0,57,0,13,0,1],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template.html#aeafdb467ff692d46e4ca321c5ed9866d":[9,0,52,0,13,0,1],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[8,0,57,0,13,0,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html":[9,0,52,0,13,0,0],
+"class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[8,0,57,0,13,0,0,1],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc":[9,0,52,0,13,0,0,1],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[8,0,57,0,13,0,0,0],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ae46e53c75d29d88b1d23c15e69a4cef4":[9,0,52,0,13,0,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "class_net_1_1_std_tcp_client.html#aed6295a2ef32c81032e27ebe78d36f7f":[9,0,54,4,12],
 "class_net_1_1_std_tcp_client_connection.html":[8,0,59,5],
 "class_net_1_1_std_tcp_client_connection.html":[9,0,54,5],
-"class_net_1_1_std_tcp_client_connection.html#a0298a47c06fbb35044379d3ccf1be9bf":[8,0,59,5,13],
-"class_net_1_1_std_tcp_client_connection.html#a0298a47c06fbb35044379d3ccf1be9bf":[9,0,54,5,13],
-"class_net_1_1_std_tcp_client_connection.html#a032911574effdb03cf74eea8d799fa58":[8,0,59,5,4],
-"class_net_1_1_std_tcp_client_connection.html#a032911574effdb03cf74eea8d799fa58":[9,0,54,5,4],
-"class_net_1_1_std_tcp_client_connection.html#a1db00fe7ce61c2f42136ef88e69bc950":[8,0,59,5,0],
-"class_net_1_1_std_tcp_client_connection.html#a1db00fe7ce61c2f42136ef88e69bc950":[9,0,54,5,0],
-"class_net_1_1_std_tcp_client_connection.html#a1dc4e46238f9652ecd6b22a5848785df":[8,0,59,5,9],
-"class_net_1_1_std_tcp_client_connection.html#a1dc4e46238f9652ecd6b22a5848785df":[9,0,54,5,9],
-"class_net_1_1_std_tcp_client_connection.html#a285fc45cc93b9e9ac184e94b7aeb2842":[8,0,59,5,1]
+"class_net_1_1_std_tcp_client_connection.html#a0298a47c06fbb35044379d3ccf1be9bf":[8,0,59,5,13]
 };
