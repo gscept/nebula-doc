@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba43ec5dcb518cb202595f946b0bd92244":[8,0,5,3,1,0],
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba43ec5dcb518cb202595f946b0bd92244":[9,0,5,3,1,0],
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba8becc8175e5530e8b3d70e176b9d13a2":[8,0,5,3,1,2],
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba8becc8175e5530e8b3d70e176b9d13a2":[9,0,5,3,1,2],
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba99ef3a8e1099e22011c66af06a75a9e3":[8,0,5,3,1,7],
+"class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59ba99ef3a8e1099e22011c66af06a75a9e3":[9,0,5,3,1,7],
 "class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59baad336231fc39e40ecc876e922990198e":[8,0,5,3,1,3],
 "class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59baad336231fc39e40ecc876e922990198e":[9,0,5,3,1,3],
 "class_base_1_1_game_pad_base.html#ac63bb653809b786492dab9bba729b59bad1dff3682b6e6c112bf6b0ffdfaa3646":[8,0,5,3,1,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "class_base_1_1_instance_server_base.html#abb928a62ad652ad094fe8dd5c1d77876":[8,0,5,7,18],
 "class_base_1_1_instance_server_base.html#abb928a62ad652ad094fe8dd5c1d77876":[9,0,5,7,18],
 "class_base_1_1_instance_server_base.html#ac8ff63123878c65581b27cae76071de3":[8,0,5,7,1],
-"class_base_1_1_instance_server_base.html#ac8ff63123878c65581b27cae76071de3":[9,0,5,7,1],
-"class_base_1_1_instance_server_base.html#ad5ccecc71a35ea9f40e7871b41b1a4f5":[8,0,5,7,5],
-"class_base_1_1_instance_server_base.html#ad5ccecc71a35ea9f40e7871b41b1a4f5":[9,0,5,7,5],
-"class_base_1_1_instance_server_base.html#ad7f4f8ae71b161d6a2f6ec566acc302a":[8,0,5,7,14],
-"class_base_1_1_instance_server_base.html#ad7f4f8ae71b161d6a2f6ec566acc302a":[9,0,5,7,14],
-"class_base_1_1_instance_server_base.html#ae67bf49fe933b7cbb717fd3fd185c4b9":[8,0,5,7,7],
-"class_base_1_1_instance_server_base.html#ae67bf49fe933b7cbb717fd3fd185c4b9":[9,0,5,7,7]
+"class_base_1_1_instance_server_base.html#ac8ff63123878c65581b27cae76071de3":[9,0,5,7,1]
 };

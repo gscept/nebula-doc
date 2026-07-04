@@ -1,5 +1,11 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_graphics_1_1_buffer_with_staging.html#a1cf935eb7446f6c8ee51b5bd9a18f4c4":[8,0,13,27,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1cf935eb7446f6c8ee51b5bd9a18f4c4":[9,0,12,26,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[8,0,13,27,4],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[9,0,12,26,4],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[8,0,13,27,7],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[9,0,12,26,7],
 "struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[8,0,13,27,0],
 "struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[9,0,12,26,0],
 "struct_core_graphics_1_1_buffer_with_staging.html#aa3a6cfaf21f744b98dd259cb15f6fc8c":[8,0,13,27,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_graphics_device_thread_state.html":[8,0,13,52],
 "struct_core_graphics_1_1_graphics_device_thread_state.html":[9,0,12,51],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a0042610707136ef909155667b1b34a8d":[8,0,13,52,3],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a0042610707136ef909155667b1b34a8d":[9,0,12,51,3],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a5562a9315dc9d4a8b50be14145fbef49":[8,0,13,52,1],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a5562a9315dc9d4a8b50be14145fbef49":[9,0,12,51,1],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[8,0,13,52,10],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[9,0,12,51,10],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[8,0,13,52,9],
-"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[9,0,12,51,9]
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a0042610707136ef909155667b1b34a8d":[9,0,12,51,3]
 };

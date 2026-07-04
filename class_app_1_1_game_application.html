@@ -150,6 +150,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a21fb7eeecd44d12cc8613c45a3f1d882" id="r_a21fb7eeecd44d12cc8613c45a3f1d882"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_io_interface.html">IO::IoInterface</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a21fb7eeecd44d12cc8613c45a3f1d882">ioInterface</a></td></tr>
 <tr class="memitem:a2044f850ef6d28163601aa2d36f0bada" id="r_a2044f850ef6d28163601aa2d36f0bada"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_base_game_feature_1_1_base_game_feature_unit.html">BaseGameFeature::BaseGameFeatureUnit</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2044f850ef6d28163601aa2d36f0bada">baseGameFeature</a></td></tr>
 <tr class="memitem:a8db4eb2d2a56a10839f946eaa48c4bc6" id="r_a8db4eb2d2a56a10839f946eaa48c4bc6"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_game_server.html">Game::GameServer</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8db4eb2d2a56a10839f946eaa48c4bc6">gameServer</a></td></tr>
+<tr class="memitem:a27d52b8ce0c16ef52e1240c6adcc0571" id="r_a27d52b8ce0c16ef52e1240c6adcc0571"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a27d52b8ce0c16ef52e1240c6adcc0571">quitRequested</a></td></tr>
 <tr class="memitem:a771832e50060b89c5f526d0dca1dbedf" id="r_a771832e50060b89c5f526d0dca1dbedf"><td class="memItemLeft"><a class="el" href="class_app_1_1_game_application_1_1_game_app_exit_handler.html">GameAppExitHandler</a>&#160;</td><td class="memItemRight"><a class="el" href="#a771832e50060b89c5f526d0dca1dbedf">exitHandler</a></td></tr>
 <tr class="inherit_header pro_attribs_class_app_1_1_application"><td colspan="2">Protected Attributes inherited from <a class="el" href="class_app_1_1_application.html">App::Application</a></td></tr>
 <tr class="memitem:a0373fa3a2a2c57c7a7f3e195f95e3118 pro_attribs_class_app_1_1_application" id="r_a0373fa3a2a2c57c7a7f3e195f95e3118"><td class="memItemLeft"><a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="class_app_1_1_application.html#a0373fa3a2a2c57c7a7f3e195f95e3118">companyName</a></td></tr>
@@ -176,6 +177,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:aa2f6a3c6b0701bc83a6c33ef0ecd69cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">run the application  <br /></td></tr>
 <tr class="memitem:a66975b9f7ab9cb781be0579b6ed9f4b1" id="r_a66975b9f7ab9cb781be0579b6ed9f4b1"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a66975b9f7ab9cb781be0579b6ed9f4b1">StepFrame</a> ()</td></tr>
 <tr class="memdesc:a66975b9f7ab9cb781be0579b6ed9f4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">step one frame  <br /></td></tr>
+<tr class="memitem:abc25648cb8c6a334ca0bef60e2ab7e9e" id="r_abc25648cb8c6a334ca0bef60e2ab7e9e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc25648cb8c6a334ca0bef60e2ab7e9e">SetQuitRequested</a> (bool b)</td></tr>
+<tr class="memdesc:abc25648cb8c6a334ca0bef60e2ab7e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set quit requested flag  <br /></td></tr>
+<tr class="memitem:a3a51a73d8cdc21fd13395f418c1270cb" id="r_a3a51a73d8cdc21fd13395f418c1270cb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3a51a73d8cdc21fd13395f418c1270cb">IsQuitRequested</a> () const</td></tr>
+<tr class="memdesc:a3a51a73d8cdc21fd13395f418c1270cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if quit was requested  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -355,6 +360,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3a51a73d8cdc21fd13395f418c1270cb" name="a3a51a73d8cdc21fd13395f418c1270cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a51a73d8cdc21fd13395f418c1270cb">&#9670;&#160;</a></span>IsQuitRequested()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool App::GameApplication::IsQuitRequested </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if quit was requested </p>
+
+</div>
+</div>
 <a id="ae3180e6be19de988bb8554636b95f1c7" name="ae3180e6be19de988bb8554636b95f1c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3180e6be19de988bb8554636b95f1c7">&#9670;&#160;</a></span>Open()</h2>
 
@@ -412,6 +444,33 @@ Additional Inherited Members</h2></td></tr>
 <p>This method will return when the application wishes to exit. </p>
 
 <p>Reimplemented from <a class="el" href="class_app_1_1_application.html#a82d230a63a07ad96622de89d012a7b70">App::Application</a>.</p>
+
+</div>
+</div>
+<a id="abc25648cb8c6a334ca0bef60e2ab7e9e" name="abc25648cb8c6a334ca0bef60e2ab7e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc25648cb8c6a334ca0bef60e2ab7e9e">&#9670;&#160;</a></span>SetQuitRequested()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void App::GameApplication::SetQuitRequested </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set quit requested flag </p>
 
 </div>
 </div>
@@ -687,6 +746,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_io_server.html">IO::IoServer</a>&gt; App::GameApplication::ioServer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27d52b8ce0c16ef52e1240c6adcc0571" name="a27d52b8ce0c16ef52e1240c6adcc0571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d52b8ce0c16ef52e1240c6adcc0571">&#9670;&#160;</a></span>quitRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool App::GameApplication::quitRequested</td>
         </tr>
       </table>
   </td>

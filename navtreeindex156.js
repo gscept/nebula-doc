@@ -1,5 +1,11 @@
 var NAVTREEINDEX156 =
 {
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675":[8,0,88,49,0,4],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ab36e158a79a3f1e53017e028e6b21675":[9,0,74,49,0,4],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ae3b5b4d199d1af1931deeaf1ed04ecf3":[8,0,88,49,0,1],
+"struct_util_1_1_string_atom_table_base_1_1_static_string.html#ae3b5b4d199d1af1931deeaf1ed04ecf3":[9,0,74,49,0,1],
+"struct_util_1_1get__template__type.html":[8,0,88,21],
+"struct_util_1_1get__template__type.html":[9,0,74,21],
 "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html":[8,0,88,23],
 "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html":[9,0,74,23],
 "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html#a74795f2e51ca48152384020cf576763f":[8,0,88,23,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX156 =
 "struct_vulkan_1_1_descriptor_set_binding.html#aec3ae5f128d885716b5e776044f90a49":[8,0,91,5,1],
 "struct_vulkan_1_1_descriptor_set_binding.html#aec3ae5f128d885716b5e776044f90a49":[9,0,77,5,1],
 "struct_vulkan_1_1_geometry_setup.html":[8,0,91,6],
-"struct_vulkan_1_1_geometry_setup.html":[9,0,77,6],
-"struct_vulkan_1_1_geometry_setup.html#a125efde12369cd02a257fbc89e0b62b9":[8,0,91,6,2],
-"struct_vulkan_1_1_geometry_setup.html#a125efde12369cd02a257fbc89e0b62b9":[9,0,77,6,2],
-"struct_vulkan_1_1_geometry_setup.html#a4eb0aeb67d479de3223701f675680f10":[8,0,91,6,3],
-"struct_vulkan_1_1_geometry_setup.html#a4eb0aeb67d479de3223701f675680f10":[9,0,77,6,3],
-"struct_vulkan_1_1_geometry_setup.html#a639a4ea8271750e9b502bb99906fce8c":[8,0,91,6,0],
-"struct_vulkan_1_1_geometry_setup.html#a639a4ea8271750e9b502bb99906fce8c":[9,0,77,6,0]
+"struct_vulkan_1_1_geometry_setup.html":[9,0,77,6]
 };

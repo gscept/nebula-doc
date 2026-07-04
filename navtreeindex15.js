@@ -1,5 +1,11 @@
 var NAVTREEINDEX15 =
 {
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[8,0,12,13,0],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[9,0,11,13,0],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[8,0,12,13,0,2],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[9,0,11,13,0,2],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea353fd00abb12d137ecfd2e27fc63cca6":[8,0,12,13,0,3],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea353fd00abb12d137ecfd2e27fc63cca6":[9,0,11,13,0,3],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea58db3ed43dc9c0eafb965d84bd573d0e":[8,0,12,13,0,7],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea58db3ed43dc9c0eafb965d84bd573d0e":[9,0,11,13,0,7],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea7b898285d73d05438e9ec5f8a9d515d4":[8,0,12,13,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "class_core_graphics_1_1_display_event_handler.html":[9,0,12,38],
 "class_core_graphics_1_1_display_event_handler.html#a18582497cb1c766e2bfd9493992bc439":[8,0,13,39,0],
 "class_core_graphics_1_1_display_event_handler.html#a18582497cb1c766e2bfd9493992bc439":[9,0,12,38,0],
-"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[8,0,13,39,5],
-"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[9,0,12,38,5],
-"class_core_graphics_1_1_display_event_handler.html#a9d5fbcba0b0dfb4bc88abb04782c5d52":[8,0,13,39,6],
-"class_core_graphics_1_1_display_event_handler.html#a9d5fbcba0b0dfb4bc88abb04782c5d52":[9,0,12,38,6],
-"class_core_graphics_1_1_display_event_handler.html#ad0736ec44f26b763947d32adbd17c1b1":[8,0,13,39,1],
-"class_core_graphics_1_1_display_event_handler.html#ad0736ec44f26b763947d32adbd17c1b1":[9,0,12,38,1],
-"class_core_graphics_1_1_display_event_handler.html#ad285e77a370b5fad2ccb6f190e18cd1a":[8,0,13,39,4]
+"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[8,0,13,39,5]
 };

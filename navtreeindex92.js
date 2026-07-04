@@ -1,5 +1,11 @@
 var NAVTREEINDEX92 =
 {
+"class_win32_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708":[8,0,92,1,8],
+"class_win32_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708":[9,0,78,1,8],
+"class_win32_1_1_sys_func.html#abd3ec9772466b50d45e0f8e2cfdfd83f":[8,0,92,1,4],
+"class_win32_1_1_sys_func.html#abd3ec9772466b50d45e0f8e2cfdfd83f":[9,0,78,1,4],
+"class_win32_1_1_sys_func.html#abf607064b934ffb531f3a355c53e6b5a":[8,0,92,1,9],
+"class_win32_1_1_sys_func.html#abf607064b934ffb531f3a355c53e6b5a":[9,0,78,1,9],
 "class_win32_1_1_sys_func.html#ad324ffcaea329a534eb652c56c5a0ed5":[8,0,92,1,1],
 "class_win32_1_1_sys_func.html#ad324ffcaea329a534eb652c56c5a0ed5":[9,0,78,1,1],
 "class_win32_1_1_sys_func.html#adac9de075b17277a31dbda95f7c6bf16":[8,0,92,1,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX92 =
 "class_win32_1_1_win32_f_s_wrapper.html#a9199235528dfa37c66d23e6906fe9078":[9,0,78,10,21],
 "class_win32_1_1_win32_f_s_wrapper.html#a96b7e790ea8158d9cc1c53372c711989":[8,0,92,10,35],
 "class_win32_1_1_win32_f_s_wrapper.html#a96b7e790ea8158d9cc1c53372c711989":[9,0,78,10,35],
-"class_win32_1_1_win32_f_s_wrapper.html#ab20b694481e2d31c48d9e1498c24ae51":[8,0,92,10,18],
-"class_win32_1_1_win32_f_s_wrapper.html#ab20b694481e2d31c48d9e1498c24ae51":[9,0,78,10,18],
-"class_win32_1_1_win32_f_s_wrapper.html#ab49a54deb7027b48d6529a139093d216":[8,0,92,10,3],
-"class_win32_1_1_win32_f_s_wrapper.html#ab49a54deb7027b48d6529a139093d216":[9,0,78,10,3],
-"class_win32_1_1_win32_f_s_wrapper.html#ac813ee4c1d7ae8ed5fff6c165d2b647f":[8,0,92,10,5],
-"class_win32_1_1_win32_f_s_wrapper.html#ac813ee4c1d7ae8ed5fff6c165d2b647f":[9,0,78,10,5],
-"class_win32_1_1_win32_f_s_wrapper.html#acb3cc3f2badaa2020356765e51350b62":[8,0,92,10,23]
+"class_win32_1_1_win32_f_s_wrapper.html#ab20b694481e2d31c48d9e1498c24ae51":[8,0,92,10,18]
 };

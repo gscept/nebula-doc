@@ -1,5 +1,11 @@
 var NAVTREEINDEX125 =
 {
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a5562a9315dc9d4a8b50be14145fbef49":[8,0,13,52,1],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a5562a9315dc9d4a8b50be14145fbef49":[9,0,12,51,1],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[8,0,13,52,10],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a5ccd9f1dd49bb32e202d1f42187f8ad2":[9,0,12,51,10],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[8,0,13,52,9],
+"struct_core_graphics_1_1_graphics_device_thread_state.html#a79b1b83c67bb600ae6bb1064606f5371":[9,0,12,51,9],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[8,0,13,52,5],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a87bf4e404d81bf51bbad2ca07f6873a0":[9,0,12,51,5],
 "struct_core_graphics_1_1_graphics_device_thread_state.html#a8c1f30018084ea440077e08ccd3a1cd6":[8,0,13,52,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX125 =
 "struct_core_graphics_1_1_nvx3_header.html#a463762b69b3616c320b6fe544d444489":[8,0,13,74,6],
 "struct_core_graphics_1_1_nvx3_header.html#a463762b69b3616c320b6fe544d444489":[9,0,12,73,6],
 "struct_core_graphics_1_1_nvx3_header.html#a4fd3e34f87bd813baf878011f427b63c":[8,0,13,74,7],
-"struct_core_graphics_1_1_nvx3_header.html#a4fd3e34f87bd813baf878011f427b63c":[9,0,12,73,7],
-"struct_core_graphics_1_1_nvx3_header.html#a93283211005a750c730ab199665b3b6f":[8,0,13,74,0],
-"struct_core_graphics_1_1_nvx3_header.html#a93283211005a750c730ab199665b3b6f":[9,0,12,73,0],
-"struct_core_graphics_1_1_nvx3_header.html#abe45e5c0bd8766471a14a94822f6f0b5":[8,0,13,74,1],
-"struct_core_graphics_1_1_nvx3_header.html#abe45e5c0bd8766471a14a94822f6f0b5":[9,0,12,73,1],
-"struct_core_graphics_1_1_nvx3_header.html#ac3192da8cc5abcf9918a028110ab36d4":[8,0,13,74,8],
-"struct_core_graphics_1_1_nvx3_header.html#ac3192da8cc5abcf9918a028110ab36d4":[9,0,12,73,8]
+"struct_core_graphics_1_1_nvx3_header.html#a4fd3e34f87bd813baf878011f427b63c":[9,0,12,73,7]
 };

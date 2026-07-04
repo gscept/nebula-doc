@@ -1,5 +1,11 @@
 var NAVTREEINDEX160 =
 {
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aecde78772c6b7dd5b1838a6a8c8229c1":[8,0,91,22,0,34],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aecde78772c6b7dd5b1838a6a8c8229c1":[9,0,77,22,0,34],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aede7d465703acb88016598a2b5be06cb":[8,0,91,22,0,7],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aede7d465703acb88016598a2b5be06cb":[9,0,77,22,0,7],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aef695e2a790005e5ddc43f9fc40bf0ab":[8,0,91,22,0,0],
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#aef695e2a790005e5ddc43f9fc40bf0ab":[9,0,77,22,0,0],
 "struct_vulkan_1_1_vk_event_info.html":[8,0,91,25],
 "struct_vulkan_1_1_vk_event_info.html":[9,0,77,25],
 "struct_vulkan_1_1_vk_event_info.html#a0ae86b27d6f26dc3744832d9fbb1814c":[8,0,91,25,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX160 =
 "struct_vulkan_1_1_vk_shader_program_setup_info.html#ab2c81994335b2d96a3d4bd89bb910933":[8,0,91,37,2],
 "struct_vulkan_1_1_vk_shader_program_setup_info.html#ab2c81994335b2d96a3d4bd89bb910933":[9,0,77,37,2],
 "struct_vulkan_1_1_vk_shader_runtime_info.html":[8,0,91,38],
-"struct_vulkan_1_1_vk_shader_runtime_info.html":[9,0,77,38],
-"struct_vulkan_1_1_vk_shader_runtime_info.html#af13ff63f28f5558bd982a2d28d35503c":[8,0,91,38,0],
-"struct_vulkan_1_1_vk_shader_runtime_info.html#af13ff63f28f5558bd982a2d28d35503c":[9,0,77,38,0],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[8,0,91,39,0],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[9,0,77,39,0],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[8,0,91,39,0,0],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[9,0,77,39,0,0]
+"struct_vulkan_1_1_vk_shader_runtime_info.html":[9,0,77,38]
 };

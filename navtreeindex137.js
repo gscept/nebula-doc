@@ -1,5 +1,11 @@
 var NAVTREEINDEX137 =
 {
+"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#ab01ae582821fcc874ef51aa991678a6d":[9,0,37,0,3,5],
+"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aceaa772a02aa2ad9d875d2bc9c00028c":[8,0,40,0,3,2],
+"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aceaa772a02aa2ad9d875d2bc9c00028c":[9,0,37,0,3,2],
+"struct_lighting_1_1_light_context_1_1_constant_buffer_set.html":[8,0,40,0,4],
+"struct_lighting_1_1_light_context_1_1_constant_buffer_set.html":[9,0,37,0,4],
+"struct_lighting_1_1_light_context_1_1_constant_buffer_set.html#a4eadd02d5ebadb858125d4f3e48d10c9":[8,0,40,0,4,0],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html#a4eadd02d5ebadb858125d4f3e48d10c9":[9,0,37,0,4,0],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html#abdba38b9d7494c45cb3f292e50bb1165":[8,0,40,0,4,1],
 "struct_lighting_1_1_light_context_1_1_constant_buffer_set.html#abdba38b9d7494c45cb3f292e50bb1165":[9,0,37,0,4,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX137 =
 "struct_materials_1_1_material_buffer.html#a782b573171c3179cd3697e23c2f5decb":[9,0,39,0,12],
 "struct_materials_1_1_material_buffer.html#a7c816e1db19f8f1560a2b480ed4963e5":[8,0,43,0,5],
 "struct_materials_1_1_material_buffer.html#a7c816e1db19f8f1560a2b480ed4963e5":[9,0,39,0,5],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[8,0,43,0,3],
-"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[9,0,39,0,3],
-"struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e":[8,0,43,0,11],
-"struct_materials_1_1_material_buffer.html#ad05a982fd519e8e83d939c5c8413824e":[9,0,39,0,11],
-"struct_materials_1_1_material_buffer.html#ad9b62034277f562cc519873cfe5a6937":[8,0,43,0,8],
-"struct_materials_1_1_material_buffer.html#ad9b62034277f562cc519873cfe5a6937":[9,0,39,0,8],
-"struct_materials_1_1_material_buffer.html#af281102aca47b899f2c45c0731480283":[8,0,43,0,10]
+"struct_materials_1_1_material_buffer.html#aab15cc846fbf2c6d0b076717e194674f":[8,0,43,0,3]
 };

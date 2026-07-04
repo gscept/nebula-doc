@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"class_navigation_1_1_stream_nav_mesh_cache.html":[9,0,50,5],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a02cb41a50bc5f4fd4718f3eb99b5e110":[8,0,55,6,4],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a02cb41a50bc5f4fd4718f3eb99b5e110":[9,0,50,5,4],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a1a6788332657f9fbc36433103b97d7bf":[8,0,55,6,5],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a1a6788332657f9fbc36433103b97d7bf":[9,0,50,5,5],
+"class_navigation_1_1_stream_nav_mesh_cache.html#a2a2b01b693677de0f998a428a18e48ef":[8,0,55,6,6],
 "class_navigation_1_1_stream_nav_mesh_cache.html#a2a2b01b693677de0f998a428a18e48ef":[9,0,50,5,6],
 "class_navigation_1_1_stream_nav_mesh_cache.html#a4dd3c39d801d907cbafc8a18b1c36a51":[8,0,55,6,1],
 "class_navigation_1_1_stream_nav_mesh_cache.html#a4dd3c39d801d907cbafc8a18b1c36a51":[9,0,50,5,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "class_nebula_1_1_game_1_1_template_manager.html#a41f0410c77abcbe2eddcd2eefd9dbd97":[9,0,52,0,13,8],
 "class_nebula_1_1_game_1_1_template_manager.html#a669c0fa0477c89a233180e7030413452":[8,0,57,0,13,4],
 "class_nebula_1_1_game_1_1_template_manager.html#a669c0fa0477c89a233180e7030413452":[9,0,52,0,13,4],
-"class_nebula_1_1_game_1_1_template_manager.html#ad0f44a5273c926b706cc0841f3c5c920":[8,0,57,0,13,7],
-"class_nebula_1_1_game_1_1_template_manager.html#ad0f44a5273c926b706cc0841f3c5c920":[9,0,52,0,13,7],
-"class_nebula_1_1_game_1_1_template_manager.html#ae47e07a517f6d043b1f22bb7e416e0e1":[8,0,57,0,13,5],
-"class_nebula_1_1_game_1_1_template_manager.html#ae47e07a517f6d043b1f22bb7e416e0e1":[9,0,52,0,13,5],
-"class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[8,0,57,0,13,3],
-"class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[9,0,52,0,13,3],
-"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[8,0,57,0,13,2]
+"class_nebula_1_1_game_1_1_template_manager.html#ad0f44a5273c926b706cc0841f3c5c920":[8,0,57,0,13,7]
 };

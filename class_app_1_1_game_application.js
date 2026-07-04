@@ -6,8 +6,10 @@ var class_app_1_1_game_application =
     [ "CleanupGameFeatures", "class_app_1_1_game_application.html#a3e51a6169a8d02007f30bb6b037868d6", null ],
     [ "Close", "class_app_1_1_game_application.html#abee65b64066d8b116690fcf4dfcbf861", null ],
     [ "IsEditorEnabled", "class_app_1_1_game_application.html#a4500d639866205309566132d3d75ffc2", null ],
+    [ "IsQuitRequested", "class_app_1_1_game_application.html#a3a51a73d8cdc21fd13395f418c1270cb", null ],
     [ "Open", "class_app_1_1_game_application.html#ae3180e6be19de988bb8554636b95f1c7", null ],
     [ "Run", "class_app_1_1_game_application.html#aa2f6a3c6b0701bc83a6c33ef0ecd69cd", null ],
+    [ "SetQuitRequested", "class_app_1_1_game_application.html#abc25648cb8c6a334ca0bef60e2ab7e9e", null ],
     [ "SetupAppFromCmdLineArgs", "class_app_1_1_game_application.html#a6a63cd9aff5888ad08ee3ee6dc5b3c4c", null ],
     [ "SetupGameFeatures", "class_app_1_1_game_application.html#a89597ec50cea9feaecb0d0c27132c6d2", null ],
     [ "StepFrame", "class_app_1_1_game_application.html#a66975b9f7ab9cb781be0579b6ed9f4b1", null ],
@@ -20,5 +22,6 @@ var class_app_1_1_game_application =
     [ "gameServer", "class_app_1_1_game_application.html#a8db4eb2d2a56a10839f946eaa48c4bc6", null ],
     [ "ioInterface", "class_app_1_1_game_application.html#a21fb7eeecd44d12cc8613c45a3f1d882", null ],
     [ "ioServer", "class_app_1_1_game_application.html#a2c7b1a7224e1fc421a0672b47c9f138b", null ],
+    [ "quitRequested", "class_app_1_1_game_application.html#a27d52b8ce0c16ef52e1240c6adcc0571", null ],
     [ "resourceServer", "class_app_1_1_game_application.html#a01977992e372e19d319e5ecbf4a13895", null ]
 ];

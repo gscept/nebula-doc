@@ -356,7 +356,7 @@ var searchData=
   ['setquat_353',['SetQuat',['../class_util_1_1_variant.html#a8c9e04c1ff36b8b8a677da7efb51b6b5',1,'Util::Variant']]],
   ['setquaternion_354',['SetQuaternion',['../struct_util_1_1_string.html#ab935e0a95ec3df1d97bf24eb51bc4d09',1,'Util::String']]],
   ['setquery_355',['SetQuery',['../class_i_o_1_1_u_r_i.html#ae4d3747e0a84bdbf47d3397d92f7d361',1,'IO::URI::SetQuery()'],['../class_i_o_1_1_u_r_n.html#a75cd220d399e707222a68c594bd6e066',1,'IO::URN::SetQuery()']]],
-  ['setquitrequested_356',['SetQuitRequested',['../class_base_1_1_input_server_base.html#ae1ecaa30ddeea505d907967f4f7a7174',1,'Base::InputServerBase::SetQuitRequested()'],['../class_app_1_1_render_application.html#a1728fac9d1137cf2f82a8da87fe171af',1,'App::RenderApplication::SetQuitRequested()']]],
+  ['setquitrequested_356',['SetQuitRequested',['../class_app_1_1_game_application.html#abc25648cb8c6a334ca0bef60e2ab7e9e',1,'App::GameApplication::SetQuitRequested()'],['../class_base_1_1_input_server_base.html#ae1ecaa30ddeea505d907967f4f7a7174',1,'Base::InputServerBase::SetQuitRequested()'],['../class_app_1_1_render_application.html#a1728fac9d1137cf2f82a8da87fe171af',1,'App::RenderApplication::SetQuitRequested()']]],
   ['setr_357',['setR',['../struct_im3d_1_1_color.html#a6bc22c04f8de7431b7cb32c4a788ea7f',1,'Im3d::Color']]],
   ['setrange_358',['SetRange',['../class_lighting_1_1_light_context.html#a33aaf99c79b9c093d9700297db0bf4c5',1,'Lighting::LightContext']]],
   ['setraw_359',['SetRaw',['../class_ti_xml_text.html#a92c9161eda1bbe4568cec2e3ca8821f3',1,'TiXmlText']]],

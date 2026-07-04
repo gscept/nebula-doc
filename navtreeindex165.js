@@ -1,5 +1,11 @@
 var NAVTREEINDEX165 =
 {
+"vkloader_8h.html#afd71ac8fe57e03f90a47ff49bbf8f167":[10,0,0,7,5,6,23,87],
+"vkloader_8h.html#afd7e9e1cfb2e0947e1bfec73d5e66246":[10,0,0,7,5,6,23,155],
+"vkloader_8h_source.html":[10,0,0,7,5,6,23],
+"vkmemory_8cc.html":[10,0,0,7,5,6,24],
+"vkmemory_8h.html":[10,0,0,7,5,6,25],
+"vkmemory_8h_source.html":[10,0,0,7,5,6,25],
 "vkpass_8cc.html":[10,0,0,7,5,6,26],
 "vkpass_8h.html":[10,0,0,7,5,6,27],
 "vkpass_8h_source.html":[10,0,0,7,5,6,27],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX158 =
 {
+"struct_vulkan_1_1_texture_sparse_page_table.html#a11bba2d7a406e5f34df73ae1a998674d":[8,0,91,14,3],
+"struct_vulkan_1_1_texture_sparse_page_table.html#a11bba2d7a406e5f34df73ae1a998674d":[9,0,77,14,3],
+"struct_vulkan_1_1_texture_sparse_page_table.html#a45ff8ed634d53a7115b47b62e4e57795":[8,0,91,14,0],
+"struct_vulkan_1_1_texture_sparse_page_table.html#a45ff8ed634d53a7115b47b62e4e57795":[9,0,77,14,0],
+"struct_vulkan_1_1_texture_sparse_page_table.html#a676a954c3b74c63b4e63a885966afde4":[8,0,91,14,2],
+"struct_vulkan_1_1_texture_sparse_page_table.html#a676a954c3b74c63b4e63a885966afde4":[9,0,77,14,2],
 "struct_vulkan_1_1_texture_sparse_page_table.html#ac5914265a7571322bc2b3fbafbe7b166":[8,0,91,14,1],
 "struct_vulkan_1_1_texture_sparse_page_table.html#ac5914265a7571322bc2b3fbafbe7b166":[9,0,77,14,1],
 "struct_vulkan_1_1_vertex_layout_vk_bind_info.html":[8,0,91,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#a7f706ca855eeeb8847013e065a0aac84":[8,0,91,21,12,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#a7f706ca855eeeb8847013e065a0aac84":[9,0,77,21,12,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#aa3327ff75fb670ab3feab2b711715254":[8,0,91,21,12,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#aa3327ff75fb670ab3feab2b711715254":[9,0,77,21,12,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#afcdb51ae65d969cc641fb412a87b6195":[8,0,91,21,12,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#afcdb51ae65d969cc641fb412a87b6195":[9,0,77,21,12,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_reset_event_command.html":[8,0,91,21,22],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_reset_event_command.html":[9,0,77,21,22],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_reset_event_command.html#a6608dc52c8e812cb440ba8375b304908":[8,0,91,21,22,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_reset_event_command.html#a6608dc52c8e812cb440ba8375b304908":[9,0,77,21,22,0]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_push_constants_command.html#aa3327ff75fb670ab3feab2b711715254":[9,0,77,21,12,2]
 };

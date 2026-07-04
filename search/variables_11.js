@@ -20,5 +20,5 @@ var searchData=
   ['queues_17',['queues',['../class_vulkan_1_1_vk_sub_context_handler.html#a28380350ee2b01d301c3b249c3f1270e',1,'Vulkan::VkSubContextHandler']]],
   ['queuesupport_18',['queueSupport',['../struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8',1,'CoreGraphics::BufferCreateInfo']]],
   ['queuetype_19',['queueType',['../class_frame_1_1_frame_event.html#ae82b041825dcbec2c96aa8c369187f6c',1,'Frame::FrameEvent']]],
-  ['quitrequested_20',['quitRequested',['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication']]]
+  ['quitrequested_20',['quitRequested',['../class_app_1_1_game_application.html#a27d52b8ce0c16ef52e1240c6adcc0571',1,'App::GameApplication::quitRequested'],['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication::quitRequested']]]
 ];

@@ -1,5 +1,11 @@
 var NAVTREEINDEX31 =
 {
+"class_game_1_1_blueprint_manager.html#afc517b30e46fd5ba5da45ba90bc54cb7":[8,0,25,3,5],
+"class_game_1_1_blueprint_manager.html#afc517b30e46fd5ba5da45ba90bc54cb7":[9,0,23,2,5],
+"class_game_1_1_blueprint_manager.html#afd04e6df3ffde70f165815db04ad8db3":[8,0,25,3,19],
+"class_game_1_1_blueprint_manager.html#afd04e6df3ffde70f165815db04ad8db3":[9,0,23,2,19],
+"class_game_1_1_component_inspection.html":[8,0,25,5],
+"class_game_1_1_component_inspection.html":[9,0,23,4],
 "class_game_1_1_component_inspection.html#a03ef42949a0409658aa5f4c4ec824761":[8,0,25,5,8],
 "class_game_1_1_component_inspection.html#a03ef42949a0409658aa5f4c4ec824761":[9,0,23,4,8],
 "class_game_1_1_component_inspection.html#a4c5b383d9bc7608822efc2d1ba9060cb":[8,0,25,5,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX31 =
 "class_game_1_1_frame_event_1_1_batch.html#a90abf5f8b5176fbf7f920a2b2b5c7391":[9,0,23,17,0,10],
 "class_game_1_1_frame_event_1_1_batch.html#a9770c0c2f2059d757020a106adcff228":[8,0,25,18,0,1],
 "class_game_1_1_frame_event_1_1_batch.html#a9770c0c2f2059d757020a106adcff228":[9,0,23,17,0,1],
-"class_game_1_1_frame_event_1_1_batch.html#aa45dcc2bc0c3a2477d657ed6fb4363dc":[8,0,25,18,0,2],
-"class_game_1_1_frame_event_1_1_batch.html#aa45dcc2bc0c3a2477d657ed6fb4363dc":[9,0,23,17,0,2],
-"class_game_1_1_frame_event_1_1_batch.html#aaca670d5fcf4663056bb8172d2fca28f":[8,0,25,18,0,0],
-"class_game_1_1_frame_event_1_1_batch.html#aaca670d5fcf4663056bb8172d2fca28f":[9,0,23,17,0,0],
-"class_game_1_1_frame_event_1_1_batch.html#aaeb51219beb2acc7ded1847261005097":[8,0,25,18,0,7],
-"class_game_1_1_frame_event_1_1_batch.html#aaeb51219beb2acc7ded1847261005097":[9,0,23,17,0,7],
-"class_game_1_1_frame_event_1_1_batch.html#adaf5a9fbf547796bb6ede4e98c49554f":[8,0,25,18,0,5]
+"class_game_1_1_frame_event_1_1_batch.html#aa45dcc2bc0c3a2477d657ed6fb4363dc":[8,0,25,18,0,2]
 };

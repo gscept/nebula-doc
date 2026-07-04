@@ -86,6 +86,6 @@ var searchData=
   ['quicksortwithfunc_83',['QuickSortWithFunc',['../class_util_1_1_array.html#ae158c93fbf3ec7525c25aa406c9536d0',1,'Util::Array']]],
   ['quiet_5fnan_84',['quiet_NaN',['../classstd_1_1numeric__limits_3_01_math_1_1half_01_4.html#a62425c49e1a4c2a70413d312d0c1e6be',1,'std::numeric_limits&lt; Math::half &gt;']]],
   ['quit_85',['quit',['../class_ti_xml_string.html#aa6008ae51286a342cd366fbf1e3eeafc',1,'TiXmlString']]],
-  ['quitrequested_86',['quitRequested',['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication']]],
+  ['quitrequested_86',['quitRequested',['../class_app_1_1_game_application.html#a27d52b8ce0c16ef52e1240c6adcc0571',1,'App::GameApplication::quitRequested'],['../class_app_1_1_render_application.html#ac29e33a2e416a9eed8503e932467bf50',1,'App::RenderApplication::quitRequested']]],
   ['quote_87',['Quote',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18abd831153eb47340b315d82145c7db0d8',1,'Input::Key']]]
 ];

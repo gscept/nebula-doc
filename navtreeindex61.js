@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"class_nebula_1_1_game_1_1_template_manager.html#ad0f44a5273c926b706cc0841f3c5c920":[9,0,52,0,13,7],
+"class_nebula_1_1_game_1_1_template_manager.html#ae47e07a517f6d043b1f22bb7e416e0e1":[8,0,57,0,13,5],
+"class_nebula_1_1_game_1_1_template_manager.html#ae47e07a517f6d043b1f22bb7e416e0e1":[9,0,52,0,13,5],
+"class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[8,0,57,0,13,3],
+"class_nebula_1_1_game_1_1_template_manager.html#aea3ff15ccfd1f1321c05040212ac9bcc":[9,0,52,0,13,3],
+"class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[8,0,57,0,13,2],
 "class_nebula_1_1_game_1_1_template_manager.html#af5b7357e33365fde7412f6eebc7c5bef":[9,0,52,0,13,2],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[8,0,57,0,13,0],
 "class_nebula_1_1_game_1_1_template_manager_1_1_template.html":[9,0,52,0,13,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "class_net_1_1_std_tcp_client.html#ac1740a8e7aa50dbabc21523d05ce1584":[9,0,54,4,9],
 "class_net_1_1_std_tcp_client.html#ae48a5a5f8249ec81790ed1b37fb43098":[8,0,59,4,7],
 "class_net_1_1_std_tcp_client.html#ae48a5a5f8249ec81790ed1b37fb43098":[9,0,54,4,7],
-"class_net_1_1_std_tcp_client.html#aeb78eec528657c40c7f0a0357e2ff0f8":[8,0,59,4,19],
-"class_net_1_1_std_tcp_client.html#aeb78eec528657c40c7f0a0357e2ff0f8":[9,0,54,4,19],
-"class_net_1_1_std_tcp_client.html#aed6295a2ef32c81032e27ebe78d36f7f":[8,0,59,4,12],
-"class_net_1_1_std_tcp_client.html#aed6295a2ef32c81032e27ebe78d36f7f":[9,0,54,4,12],
-"class_net_1_1_std_tcp_client_connection.html":[8,0,59,5],
-"class_net_1_1_std_tcp_client_connection.html":[9,0,54,5],
-"class_net_1_1_std_tcp_client_connection.html#a0298a47c06fbb35044379d3ccf1be9bf":[8,0,59,5,13]
+"class_net_1_1_std_tcp_client.html#aeb78eec528657c40c7f0a0357e2ff0f8":[8,0,59,4,19]
 };
