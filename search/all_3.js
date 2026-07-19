@@ -1098,7 +1098,7 @@ var searchData=
   ['cvarsbegin_1095',['CVarsBegin',['../namespace_core.html#ae95c11822b648c72c88a506544862d8e',1,'Core']]],
   ['cvarsend_1096',['CVarsEnd',['../namespace_core.html#acb0657dac12efc9bf74d90cd1b865ac8',1,'Core']]],
   ['cvarsetmodified_1097',['CVarSetModified',['../namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b',1,'Core']]],
-  ['cvartable_1098',['cVarTable',['../namespace_core.html#a5f5432314133baa387959a4d61387d9e',1,'Core']]],
+  ['cvartable_1098',['CVarTable',['../namespace_core.html#ac17be672a0caf09b94c5e30cfd00e80f',1,'Core']]],
   ['cvartype_1099',['CVarType',['../namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0',1,'Core']]],
   ['cvarvalue_1100',['CVarValue',['../struct_core_1_1_c_var_value.html',1,'Core']]],
   ['cvarwritefloat_1101',['CVarWriteFloat',['../namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a',1,'Core']]],

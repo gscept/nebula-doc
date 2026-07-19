@@ -18,11 +18,11 @@ var cvar_8cc =
     [ "Core::CVarsBegin", "namespace_core.html#ae95c11822b648c72c88a506544862d8e", null ],
     [ "Core::CVarsEnd", "namespace_core.html#acb0657dac12efc9bf74d90cd1b865ac8", null ],
     [ "Core::CVarSetModified", "namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b", null ],
+    [ "Core::CVarTable", "namespace_core.html#ac17be672a0caf09b94c5e30cfd00e80f", null ],
     [ "Core::CVarWriteFloat", "namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a", null ],
     [ "Core::CVarWriteInt", "namespace_core.html#a3bd097f816d1999ea559213e6ad49929", null ],
     [ "Core::CVarWriteString", "namespace_core.html#aded8776d18d4246527d8d92e6eef7944", null ],
     [ "Core::cVarOffset", "namespace_core.html#a29b95c93003334b160163af18ca4e263", null ],
     [ "Core::cVars", "namespace_core.html#ab00285b01c523b9b68082ea87e24c83f", null ],
-    [ "Core::cVarTable", "namespace_core.html#a5f5432314133baa387959a4d61387d9e", null ],
     [ "Core::MAX_CVARS", "namespace_core.html#a2bb1d40293785cc3adf9a182e59f1318", null ]
 ];

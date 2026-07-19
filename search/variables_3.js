@@ -327,6 +327,5 @@ var searchData=
   ['curvetype_324',['curveType',['../class_core_animation_1_1_anim_curve.html#a7f121ec7d5eac77bacd7a10724652d5d',1,'CoreAnimation::AnimCurve::curveType'],['../struct_core_animation_1_1_nax3_curve.html#aa472f319da501eb3e978684e780bd3e9',1,'CoreAnimation::Nax3Curve::curveType']]],
   ['curworkrequests_325',['curWorkRequests',['../class_http_1_1_http_request_handler.html#a5809429ada3bbbadfae6acc5ebcf55ed',1,'Http::HttpRequestHandler']]],
   ['cvaroffset_326',['cVarOffset',['../namespace_core.html#a29b95c93003334b160163af18ca4e263',1,'Core']]],
-  ['cvars_327',['cVars',['../namespace_core.html#ab00285b01c523b9b68082ea87e24c83f',1,'Core']]],
-  ['cvartable_328',['cVarTable',['../namespace_core.html#a5f5432314133baa387959a4d61387d9e',1,'Core']]]
+  ['cvars_327',['cVars',['../namespace_core.html#ab00285b01c523b9b68082ea87e24c83f',1,'Core']]]
 ];

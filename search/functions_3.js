@@ -452,7 +452,8 @@ var searchData=
   ['cvarsbegin_449',['CVarsBegin',['../namespace_core.html#ae95c11822b648c72c88a506544862d8e',1,'Core']]],
   ['cvarsend_450',['CVarsEnd',['../namespace_core.html#acb0657dac12efc9bf74d90cd1b865ac8',1,'Core']]],
   ['cvarsetmodified_451',['CVarSetModified',['../namespace_core.html#ac43c2b0fd9b6ac676b3558e721b9054b',1,'Core']]],
-  ['cvarwritefloat_452',['CVarWriteFloat',['../namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a',1,'Core']]],
-  ['cvarwriteint_453',['CVarWriteInt',['../namespace_core.html#a3bd097f816d1999ea559213e6ad49929',1,'Core']]],
-  ['cvarwritestring_454',['CVarWriteString',['../namespace_core.html#aded8776d18d4246527d8d92e6eef7944',1,'Core']]]
+  ['cvartable_452',['CVarTable',['../namespace_core.html#ac17be672a0caf09b94c5e30cfd00e80f',1,'Core']]],
+  ['cvarwritefloat_453',['CVarWriteFloat',['../namespace_core.html#a07b8e2eb1597b75490e7a82c38a8524a',1,'Core']]],
+  ['cvarwriteint_454',['CVarWriteInt',['../namespace_core.html#a3bd097f816d1999ea559213e6ad49929',1,'Core']]],
+  ['cvarwritestring_455',['CVarWriteString',['../namespace_core.html#aded8776d18d4246527d8d92e6eef7944',1,'Core']]]
 ];
