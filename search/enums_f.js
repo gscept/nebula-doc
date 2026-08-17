@@ -4,7 +4,7 @@ var searchData=
   ['physicsidtype_1',['PhysicsIdType',['../namespace_physics.html#a84683982878b1fb79fdf30ea55833d3c',1,'Physics']]],
   ['pipelinestage_2',['PipelineStage',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147',1,'CoreGraphics']]],
   ['planeindex_3',['PlaneIndex',['../class_math_1_1frustum.html#aa0d62270b679f07666d434a93c0896c0',1,'Math::frustum']]],
-  ['planeintersectiontype_4',['PlaneIntersectionType',['../namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991',1,'Mathf']]],
+  ['planeintersectiontype_4',['PlaneIntersectionType',['../namespace_nebula.html#a5e730f0d87d1c46c4fb555d37c4a5838',1,'Nebula']]],
   ['platformtype_5',['PlatformType',['../namespace_system.html#a3670ed208c6b97c3a03bda3ad3f6f43e',1,'System']]],
   ['playmode_6',['PlayMode',['../class_particles_1_1_particle_context.html#aa87312d492932b13f5658631fb5edc42',1,'Particles::ParticleContext']]],
   ['primitivemode_7',['PrimitiveMode',['../namespace_im3d.html#ab90a913d61061cda22239509a962f0eb',1,'Im3d']]],

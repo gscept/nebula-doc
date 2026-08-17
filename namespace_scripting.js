@@ -4,7 +4,7 @@ var namespace_scripting =
       [ "ComponentGetData", "namespace_scripting_1_1_api.html#a3016420c8e45f373f958f6c6be3ebbc5", null ],
       [ "ComponentGetId", "namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d", null ],
       [ "ComponentSetData", "namespace_scripting_1_1_api.html#a939d2476a20f8ccf89f02bfb5dc902d1", null ],
-      [ "EntityCreateFromTemplate", "namespace_scripting_1_1_api.html#a5536eedbe81908d6158bfee180405645", null ],
+      [ "EntityCreate", "namespace_scripting_1_1_api.html#a0c7801a5998ab8055cfdb50dfce55189", null ],
       [ "EntityDelete", "namespace_scripting_1_1_api.html#ac16123837fd359becab944b61767446b", null ],
       [ "EntityGetOrientation", "namespace_scripting_1_1_api.html#aa922ae9d5ad1916d331221b227c878ce", null ],
       [ "EntityGetPosition", "namespace_scripting_1_1_api.html#a6c450f4ee72ef0ef6016b85d80ea3607", null ],
@@ -22,6 +22,7 @@ var namespace_scripting =
     [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
     [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ],
     [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ],
+    [ "DotNetString", "namespace_scripting.html#a504027b89f8942b24c9abd372bd7a04d", null ],
     [ "ScriptModuleInit", "namespace_scripting.html#aa987be647ecdd960d07d8e61270ff233", null ],
     [ "HostFxrStatusCode", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810", [
       [ "Success", "namespace_scripting.html#a1e7ab3a3e15a715b9461d1bcf402d810a350a85188464c214b50437cf57736590", null ],
@@ -36,8 +37,8 @@ var namespace_scripting =
     [ "__ImplementSingleton", "namespace_scripting.html#ad878306dc92d2888112113730a26e689", null ],
     [ "__ImplementSingleton", "namespace_scripting.html#a2c27daa28856b01f1dd63550aa1780b9", null ],
     [ "__ImplementSingleton", "namespace_scripting.html#a2e6fc41ae5433520e79d0fe96d11437b", null ],
-    [ "LoadAssemblyAndGetExport", "namespace_scripting.html#a5a4259fbf88880aa0db79245f346e511", null ],
-    [ "LoadAssemblyAndGetExport", "namespace_scripting.html#ac59ead1ce4393e30ad628f8da5c58056", null ],
+    [ "LoadAssemblyAndGetExport", "namespace_scripting.html#a27a15c3ed72308bdd7d26ed90b00b02f", null ],
+    [ "LoadAssemblyAndGetExport", "namespace_scripting.html#a537906ffc3346a510cebf2641636fc74", null ],
     [ "N_Assert", "namespace_scripting.html#a871a293856d620e03914d6791ccfeff8", null ],
     [ "N_Error", "namespace_scripting.html#a10e569060d03931835e5292c88733821", null ],
     [ "N_Log", "namespace_scripting.html#aeb1c667fa51350103b1418746b4552d1", null ],
@@ -47,6 +48,6 @@ var namespace_scripting =
     [ "ScriptingCalloc", "namespace_scripting.html#aa35d58a52fb08490e189587016d0f88e", null ],
     [ "ScriptingDealloc", "namespace_scripting.html#a8c664ab9f3743ef4acd56859aadb0c56", null ],
     [ "ScriptingRealloc", "namespace_scripting.html#aa7caf9e9ce8b97b18abbf0a8d9573cc1", null ],
-    [ "ToWideString", "namespace_scripting.html#ad14faad696102c86c7e3b78effcbffee", null ],
+    [ "ToWideString", "namespace_scripting.html#a1dc5bc26dbf85b820542f65d7f696023", null ],
     [ "api", "namespace_scripting.html#a76932edbbe20c7a61317893897d359dc", null ]
 ];

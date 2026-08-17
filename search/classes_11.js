@@ -4,7 +4,7 @@ var searchData=
   ['quadtreesystem_1',['QuadtreeSystem',['../class_visibility_1_1_quadtree_system.html',1,'Visibility']]],
   ['quadtreesystemloadinfo_2',['QuadtreeSystemLoadInfo',['../struct_visibility_1_1_quadtree_system_load_info.html',1,'Visibility']]],
   ['quat_3',['quat',['../struct_math_1_1quat.html',1,'Math']]],
-  ['quaternion_4',['Quaternion',['../struct_mathf_1_1_quaternion.html',1,'Mathf']]],
+  ['quaternion_4',['Quaternion',['../struct_nebula_1_1_quaternion.html',1,'Nebula']]],
   ['quaterniontypeclass_5',['QuaternionTypeClass',['../class_attr_1_1_quaternion_type_class.html',1,'Attr']]],
   ['quatx_6',['QuatX',['../struct_quat_x.html',1,'']]],
   ['queries_7',['Queries',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html',1,'Vulkan::GraphicsDeviceState']]],

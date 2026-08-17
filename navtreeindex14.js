@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"class_core_1_1_ref_counted.html#a2a17eaae465f60357bbd299eba8ff194":[9,0,10,6,7],
-"class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5":[8,0,11,6,14],
 "class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5":[9,0,10,6,14],
 "class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e":[8,0,11,6,4],
 "class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e":[9,0,10,6,4],
@@ -187,7 +185,7 @@ var NAVTREEINDEX14 =
 "class_core_animation_1_1_anim_key_buffer.html#ae7b017bdd2a5012f5024fc4e64914835":[9,0,11,8,14],
 "class_core_animation_1_1_anim_key_buffer.html#ae9cbeef9b8fe91815aedd0b5f7e89f91":[8,0,12,8,12],
 "class_core_animation_1_1_anim_key_buffer.html#ae9cbeef9b8fe91815aedd0b5f7e89f91":[9,0,11,8,12],
-"class_core_animation_1_1_anim_resource.html":[9,0,80],
+"class_core_animation_1_1_anim_resource.html":[9,0,79],
 "class_core_animation_1_1_anim_sample_buffer.html":[8,0,12,9],
 "class_core_animation_1_1_anim_sample_buffer.html":[9,0,11,9],
 "class_core_animation_1_1_anim_sample_buffer.html#a069b18e57084c0dba1de7644ab9ed2bf":[8,0,12,9,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "class_core_animation_1_1_curve_type.html":[8,0,12,13],
 "class_core_animation_1_1_curve_type.html":[9,0,11,13],
 "class_core_animation_1_1_curve_type.html#a1fd6ad445fe8f99239f8579f66352e04":[8,0,12,13,1],
-"class_core_animation_1_1_curve_type.html#a1fd6ad445fe8f99239f8579f66352e04":[9,0,11,13,1]
+"class_core_animation_1_1_curve_type.html#a1fd6ad445fe8f99239f8579f66352e04":[9,0,11,13,1],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[8,0,12,13,0],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[9,0,11,13,0]
 };

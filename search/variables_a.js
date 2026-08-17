@@ -22,6 +22,5 @@ var searchData=
   ['jointindexmap_19',['jointIndexMap',['../struct_characters_1_1_skeleton_create_info.html#a83e97afdf374fb748314af8ffac3348d',1,'Characters::SkeletonCreateInfo']]],
   ['jointpalette_20',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
   ['jointpalettes_21',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
-  ['joints_22',['joints',['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo']]],
-  ['json_23',['json',['../class_nebula_1_1_game_1_1_template_manager_1_1_template_1_1_property_data.html#ad55711a650b3f7a9032d9a794da591cc',1,'Nebula::Game::TemplateManager::Template::PropertyData']]]
+  ['joints_22',['joints',['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo']]]
 ];

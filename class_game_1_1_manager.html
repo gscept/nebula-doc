@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_game_1_1
 </div>
 <p>Inherits <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>.</p>
 
-<p>Inherited by <a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_blueprint_manager.html">Game::BlueprintManager</a>, <a class="el" href="class_game_1_1_time_manager.html">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationFeature::NavigationManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsFeature::PhysicsManager</a>.</p>
+<p>Inherited by <a class="el" href="class_audio_feature_1_1_audio_manager.html">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_hierarchy_manager.html">Game::HierarchyManager</a>, <a class="el" href="class_game_1_1_time_manager.html">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationFeature::NavigationManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsFeature::PhysicsManager</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -135,6 +135,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ae5e4c19d43baca0c8ddcb5f17d2f0d89" id="r_ae5e4c19d43baca0c8ddcb5f17d2f0d89"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae5e4c19d43baca0c8ddcb5f17d2f0d89">IsActive</a> () const</td></tr>
 <tr class="memdesc:ae5e4c19d43baca0c8ddcb5f17d2f0d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if currently active  <br /></td></tr>
 <tr class="memitem:a6e3199af113fa63151fa325a5d0466a7" id="r_a6e3199af113fa63151fa325a5d0466a7"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a6e3199af113fa63151fa325a5d0466a7">OnActivate</a> ()</td></tr>
+<tr class="memdesc:a6e3199af113fa63151fa325a5d0466a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when added to game server  <br /></td></tr>
 <tr class="memitem:a41009d7a4b305847e48efadfcfb00fa7" id="r_a41009d7a4b305847e48efadfcfb00fa7"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a41009d7a4b305847e48efadfcfb00fa7">OnDeactivate</a> ()</td></tr>
 <tr class="memdesc:a41009d7a4b305847e48efadfcfb00fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when removed from game server  <br /></td></tr>
 <tr class="memitem:af9774f490a71ecd2b6f77d4360d04090" id="r_af9774f490a71ecd2b6f77d4360d04090"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#af9774f490a71ecd2b6f77d4360d04090">OnBeginFrame</a> ()</td></tr>
@@ -275,7 +276,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_manager.html#a44dce18dece577ae260d4bfeb9e986b1">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_blueprint_manager.html#a3d5b5bee0d9456899014384f6c7f0faf">Game::BlueprintManager</a>, <a class="el" href="class_game_1_1_time_manager.html#ac2c052b0b0809716180bffc35854cbf7">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html#aa207df71a9f7dc64e2afc32cb978b1a6">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a0a5bb89cb8cfd2ba1d44837194ed79ac">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html#a57641efc8c518a7769f92ce2a9ea332f">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html#aab636be565bff8e5e8b40f7ca51319b1">PhysicsFeature::PhysicsManager</a>.</p>
+<p>called when added to game server </p>
+
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_manager.html#a44dce18dece577ae260d4bfeb9e986b1">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_hierarchy_manager.html#a72e8466fe9796b10082a03e2df8819ca">Game::HierarchyManager</a>, <a class="el" href="class_game_1_1_time_manager.html#ac2c052b0b0809716180bffc35854cbf7">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html#aa207df71a9f7dc64e2afc32cb978b1a6">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a0a5bb89cb8cfd2ba1d44837194ed79ac">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html#a57641efc8c518a7769f92ce2a9ea332f">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html#aab636be565bff8e5e8b40f7ca51319b1">PhysicsFeature::PhysicsManager</a>.</p>
 
 </div>
 </div>
@@ -331,7 +334,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called before frame by the feature </p>
 
-<p>Reimplemented in <a class="el" href="class_game_1_1_time_manager.html#a1e2eec6f46daf57b50fcd5f536756c32">Game::TimeManager</a>.</p>
+<p>Reimplemented in <a class="el" href="class_game_1_1_hierarchy_manager.html#a5a8b8eadfe9a35af73cab0d3dffaa451">Game::HierarchyManager</a>, and <a class="el" href="class_game_1_1_time_manager.html#a1e2eec6f46daf57b50fcd5f536756c32">Game::TimeManager</a>.</p>
 
 </div>
 </div>
@@ -389,7 +392,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called when removed from game server </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_manager.html#ab13329aa5af3049c69ff904d8e10edba">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_blueprint_manager.html#ada4832ef8087c07ea2f95b97f3709a00">Game::BlueprintManager</a>, <a class="el" href="class_game_1_1_time_manager.html#a995cf45f818aa181af5b9de719ec5c9b">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a155a99fb73524790c2ca688928ccd566">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html#a1a065854b5cc17912cef5cfd33e2427b">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html#a3adec5d05b41eaf7f7cbdf52da4145ed">PhysicsFeature::PhysicsManager</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_manager.html#ab13329aa5af3049c69ff904d8e10edba">AudioFeature::AudioManager</a>, <a class="el" href="class_game_1_1_hierarchy_manager.html#ab2042fb401f78b1022757d40ee1b1400">Game::HierarchyManager</a>, <a class="el" href="class_game_1_1_time_manager.html#a995cf45f818aa181af5b9de719ec5c9b">Game::TimeManager</a>, <a class="el" href="class_graphics_feature_1_1_camera_manager.html#a9170798e58a9a28453e33df601da5917">GraphicsFeature::CameraManager</a>, <a class="el" href="class_graphics_feature_1_1_graphics_manager.html#a155a99fb73524790c2ca688928ccd566">GraphicsFeature::GraphicsManager</a>, <a class="el" href="class_physics_feature_1_1_character_manager.html#a1a065854b5cc17912cef5cfd33e2427b">PhysicsFeature::CharacterManager</a>, and <a class="el" href="class_physics_feature_1_1_physics_manager.html#a3adec5d05b41eaf7f7cbdf52da4145ed">PhysicsFeature::PhysicsManager</a>.</p>
 
 </div>
 </div>
@@ -446,6 +449,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called after frame by the feature </p>
+
+<p>Reimplemented in <a class="el" href="class_game_1_1_hierarchy_manager.html#a53b26197af23ef47f674c69f4d4487ce">Game::HierarchyManager</a>.</p>
 
 </div>
 </div>

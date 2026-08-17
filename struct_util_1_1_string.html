@@ -476,6 +476,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6ac4e7004fdf432542d2e0d4411a3fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if provided character is a lower case character  <br /></td></tr>
 <tr class="memitem:a503851d9b660b413e6cdc58a112bb44e" id="r_a503851d9b660b413e6cdc58a112bb44e"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a503851d9b660b413e6cdc58a112bb44e">IsUpper</a> (char c)</td></tr>
 <tr class="memdesc:a503851d9b660b413e6cdc58a112bb44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if provided character is an upper-case character  <br /></td></tr>
+<tr class="memitem:ab242beafe937ea4c561e4a61b0b2792c" id="r_ab242beafe937ea4c561e4a61b0b2792c"><td class="memItemLeft">static char&#160;</td><td class="memItemRight"><a class="el" href="#ab242beafe937ea4c561e4a61b0b2792c">ToLower</a> (char c)</td></tr>
+<tr class="memdesc:ab242beafe937ea4c561e4a61b0b2792c"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert char to lowercase  <br /></td></tr>
+<tr class="memitem:a717a7c274e180b45d55050bb3ae66142" id="r_a717a7c274e180b45d55050bb3ae66142"><td class="memItemLeft">static char&#160;</td><td class="memItemRight"><a class="el" href="#a717a7c274e180b45d55050bb3ae66142">ToUpper</a> (char c)</td></tr>
+<tr class="memdesc:a717a7c274e180b45d55050bb3ae66142"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert char to uppercase  <br /></td></tr>
 <tr class="memitem:a4a624f51c5f89f86fc04a06347ebf1f0" id="r_a4a624f51c5f89f86fc04a06347ebf1f0"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a4a624f51c5f89f86fc04a06347ebf1f0">StrCmp</a> (const char *str0, const char *str1)</td></tr>
 <tr class="memdesc:a4a624f51c5f89f86fc04a06347ebf1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">lowlevel string compare wrapper function  <br /></td></tr>
 <tr class="memitem:aa6e6d63cef14336efd8667ad33119050" id="r_aa6e6d63cef14336efd8667ad33119050"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#aa6e6d63cef14336efd8667ad33119050">StrLen</a> (const char *str)</td></tr>
@@ -4761,7 +4765,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="aa9bcf447013e3fd0f09eadc38c47a3de" name="aa9bcf447013e3fd0f09eadc38c47a3de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9bcf447013e3fd0f09eadc38c47a3de">&#9670;&#160;</a></span>ToLower()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9bcf447013e3fd0f09eadc38c47a3de">&#9670;&#160;</a></span>ToLower() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4779,8 +4783,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ab242beafe937ea4c561e4a61b0b2792c" name="ab242beafe937ea4c561e4a61b0b2792c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab242beafe937ea4c561e4a61b0b2792c">&#9670;&#160;</a></span>ToLower() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Util.String::ToLower </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert char to lowercase </p>
+
+</div>
+</div>
 <a id="afc105104995d7d6d2cf0317fccf63956" name="afc105104995d7d6d2cf0317fccf63956"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc105104995d7d6d2cf0317fccf63956">&#9670;&#160;</a></span>ToUpper()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc105104995d7d6d2cf0317fccf63956">&#9670;&#160;</a></span>ToUpper() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4795,6 +4826,33 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>convert string to upper case </p>
+
+</div>
+</div>
+<a id="a717a7c274e180b45d55050bb3ae66142" name="a717a7c274e180b45d55050bb3ae66142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717a7c274e180b45d55050bb3ae66142">&#9670;&#160;</a></span>ToUpper() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Util.String::ToUpper </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert char to uppercase </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['khaki_0',['Khaki',['../struct_mathf_1_1_color.html#aee4f393930389c15c7f34ff8203cb876',1,'Mathf::Color']]]
+  ['khaki_0',['Khaki',['../struct_nebula_1_1_color.html#adeb87bac02a9793889e369173b743dd7',1,'Nebula::Color']]]
 ];

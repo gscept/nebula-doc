@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['a_0',['A',['../struct_mathf_1_1_color.html#a5db6e19a4f27ee7f54bcd757855a349d',1,'Mathf::Color']]],
+  ['a_0',['A',['../struct_nebula_1_1_color.html#a97ca9a1bd4f7a91e4ac5c212de269bbd',1,'Nebula::Color']]],
   ['active_1',['Active',['../class_nebula_1_1_game_1_1_property.html#ae6bcf2a1519bb757d33681ecea357da8',1,'Nebula::Game::Property']]],
-  ['aliceblue_2',['AliceBlue',['../struct_mathf_1_1_color.html#a68f13a668460ab51a6a71c20d6271c6e',1,'Mathf::Color']]],
-  ['antiquewhite_3',['AntiqueWhite',['../struct_mathf_1_1_color.html#a684161d2ea2b1bc0d1ed01707cef1d07',1,'Mathf::Color']]],
-  ['aqua_4',['Aqua',['../struct_mathf_1_1_color.html#a84bd9b4eedf5cdf809edc59fd6dfa0e4',1,'Mathf::Color']]],
-  ['aquamarine_5',['Aquamarine',['../struct_mathf_1_1_color.html#a3191b6cd891044b7b1f051f2911da5fd',1,'Mathf::Color']]],
-  ['azure_6',['Azure',['../struct_mathf_1_1_color.html#a71636b65e65e183fed35a382997bd932',1,'Mathf::Color']]]
+  ['aliceblue_2',['AliceBlue',['../struct_nebula_1_1_color.html#aed4db54fa7dd85f9ceb3bece4dbe9e7a',1,'Nebula::Color']]],
+  ['antiquewhite_3',['AntiqueWhite',['../struct_nebula_1_1_color.html#ad03adbf87fc2db7269ea5bff179ebc51',1,'Nebula::Color']]],
+  ['aqua_4',['Aqua',['../struct_nebula_1_1_color.html#a92bbe0c9f52cf341ff1192f01861a250',1,'Nebula::Color']]],
+  ['aquamarine_5',['Aquamarine',['../struct_nebula_1_1_color.html#aac968f920f68176931276214b4877001',1,'Nebula::Color']]],
+  ['azure_6',['Azure',['../struct_nebula_1_1_color.html#abbdd64b17630501dcac53dfc44a59ea2',1,'Nebula::Color']]]
 ];

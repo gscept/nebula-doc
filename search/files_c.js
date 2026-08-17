@@ -13,7 +13,7 @@ var searchData=
   ['materialtemplatetypes_2eh_10',['materialtemplatetypes.h',['../materialtemplatetypes_8h.html',1,'']]],
   ['materialvariant_2eh_11',['materialvariant.h',['../materialvariant_8h.html',1,'']]],
   ['math_2edox_12',['math.dox',['../math_8dox.html',1,'']]],
-  ['mathhelper_2ecs_13',['MathHelper.cs',['../_math_helper_8cs.html',1,'']]],
+  ['mathf_2ecs_13',['Mathf.cs',['../_mathf_8cs.html',1,'']]],
   ['matrix_2ecs_14',['Matrix.cs',['../_matrix_8cs.html',1,'']]],
   ['mayacamerautil_2ecc_15',['mayacamerautil.cc',['../mayacamerautil_8cc.html',1,'']]],
   ['mayacamerautil_2eh_16',['mayacamerautil.h',['../mayacamerautil_8h.html',1,'']]],

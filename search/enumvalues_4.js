@@ -51,7 +51,7 @@ var searchData=
   ['discard_48',['Discard',['../namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90ad94b42030b9785fd754d5c1754961269',1,'CoreGraphics']]],
   ['discardstencil_49',['DiscardStencil',['../namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90ae1117aa638bfa968b8dd24c2e871ad5f',1,'CoreGraphics']]],
   ['disconnected_50',['Disconnected',['../namespace_multiplayer.html#a5633532d8cd8f85929332c1f82fe679aaef70e46fd3bbc21e3e1f0b6815e750c0',1,'Multiplayer']]],
-  ['disjoint_51',['Disjoint',['../namespace_mathf.html#ac15c2256406c4a571525594919bfef86a283bfcf8a8bdcf8394b2b04307cc7896',1,'Mathf']]],
+  ['disjoint_51',['Disjoint',['../namespace_nebula.html#a55436ac389c7597fa466ac7fb3caeb90a283bfcf8a8bdcf8394b2b04307cc7896',1,'Nebula']]],
   ['disk_52',['Disk',['../class_lighting_1_1_light_context.html#a89ba4e0e100389f0bd12352823d527c8a380dbc8d9d2c8a17f6ebb0b2c62d3e85',1,'Lighting::LightContext']]],
   ['dispatch_53',['Dispatch',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba3292921bcccae2e86810e5472237d4c5',1,'CoreGraphics::DrawThread']]],
   ['div_54',['Div',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9aead2253fe99d7181585ec2480b410d19',1,'Http::HtmlElement']]],

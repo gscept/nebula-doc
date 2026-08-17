@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['g_0',['G',['../struct_mathf_1_1_color.html#a6bbab8144d9376f4e83a9e75380baa7b',1,'Mathf::Color']]],
-  ['gainsboro_1',['Gainsboro',['../struct_mathf_1_1_color.html#a081bab11aa68b8699a4872445ec275c3',1,'Mathf::Color']]],
-  ['ghostwhite_2',['GhostWhite',['../struct_mathf_1_1_color.html#a1d179f3914bc599f423b1adc58a8f8bc',1,'Mathf::Color']]],
-  ['gold_3',['Gold',['../struct_mathf_1_1_color.html#a4334ab62838e604428fde45d9f925cda',1,'Mathf::Color']]],
-  ['goldenrod_4',['Goldenrod',['../struct_mathf_1_1_color.html#a0209033150444b4038a4e06bcbf7c8f9',1,'Mathf::Color']]],
-  ['gray_5',['Gray',['../struct_mathf_1_1_color.html#ae961cedf69b9614f49281c5f6ba858c0',1,'Mathf::Color']]],
-  ['green_6',['Green',['../struct_mathf_1_1_color.html#a13774b1b7e9f092149b4f03c2d444961',1,'Mathf::Color']]],
-  ['greenyellow_7',['GreenYellow',['../struct_mathf_1_1_color.html#a15134eb792be0ffb658c2906433e0aa6',1,'Mathf::Color']]]
+  ['g_0',['G',['../struct_nebula_1_1_color.html#af13e5fcf19e18a6e000c557945cb0a18',1,'Nebula::Color']]],
+  ['gainsboro_1',['Gainsboro',['../struct_nebula_1_1_color.html#a2becd763f8ddc5fed043953cadb728bc',1,'Nebula::Color']]],
+  ['ghostwhite_2',['GhostWhite',['../struct_nebula_1_1_color.html#ac727968eed1568e81f20064c15f38725',1,'Nebula::Color']]],
+  ['gold_3',['Gold',['../struct_nebula_1_1_color.html#aea2bfd982111d53830f512ed77f72511',1,'Nebula::Color']]],
+  ['goldenrod_4',['Goldenrod',['../struct_nebula_1_1_color.html#ab290206bf1a436b55ffce639782cfaca',1,'Nebula::Color']]],
+  ['gray_5',['Gray',['../struct_nebula_1_1_color.html#aa7293c17809be70eeaa82339cbe4491c',1,'Nebula::Color']]],
+  ['green_6',['Green',['../struct_nebula_1_1_color.html#a148ed6f7589b38d1b44dc2d7e2e8e3a0',1,'Nebula::Color']]],
+  ['greenyellow_7',['GreenYellow',['../struct_nebula_1_1_color.html#a2c01581c8ba13533f980186a41823bf6',1,'Nebula::Color']]]
 ];

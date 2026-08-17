@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[8,0,12,13,0],
-"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[9,0,11,13,0],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[8,0,12,13,0,2],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[9,0,11,13,0,2],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea353fd00abb12d137ecfd2e27fc63cca6":[8,0,12,13,0,3],
@@ -151,8 +149,8 @@ var NAVTREEINDEX15 =
 "class_core_graphics_1_1_anti_alias_quality.html#a8f1394776ae4dc9f0e182238eda539a1a8b971b7e92fcf7d86bc4e1c72b871c06":[9,0,12,7,0,3],
 "class_core_graphics_1_1_anti_alias_quality.html#a9de6485494ba5af9044abc294c7b7c89":[8,0,13,8,2],
 "class_core_graphics_1_1_anti_alias_quality.html#a9de6485494ba5af9044abc294c7b7c89":[9,0,12,7,2],
-"class_core_graphics_1_1_buffer_setup.html":[9,0,87],
-"class_core_graphics_1_1_display_device.html":[9,0,98],
+"class_core_graphics_1_1_buffer_setup.html":[9,0,86],
+"class_core_graphics_1_1_display_device.html":[9,0,97],
 "class_core_graphics_1_1_display_event.html":[8,0,13,38],
 "class_core_graphics_1_1_display_event.html":[9,0,12,37],
 "class_core_graphics_1_1_display_event.html#a04abf5d968305f9f5fd908bc30fa65ad":[8,0,13,38,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "class_core_graphics_1_1_display_event_handler.html":[9,0,12,38],
 "class_core_graphics_1_1_display_event_handler.html#a18582497cb1c766e2bfd9493992bc439":[8,0,13,39,0],
 "class_core_graphics_1_1_display_event_handler.html#a18582497cb1c766e2bfd9493992bc439":[9,0,12,38,0],
-"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[8,0,13,39,5]
+"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[8,0,13,39,5],
+"class_core_graphics_1_1_display_event_handler.html#a8d056e62f7f6ea32041c9a4a3f1e086d":[9,0,12,38,5],
+"class_core_graphics_1_1_display_event_handler.html#a9d5fbcba0b0dfb4bc88abb04782c5d52":[8,0,13,39,6]
 };

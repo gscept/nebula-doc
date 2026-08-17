@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"characterskinnode_8h.html":[10,0,0,7,17,0,3],
-"characterskinnode_8h_source.html":[10,0,0,7,17,0,3],
 "class_animation_1_1_anim_event_handler_base.html":[8,0,0,0],
 "class_animation_1_1_anim_event_handler_base.html":[9,0,0,0],
 "class_animation_1_1_anim_event_handler_base.html#a3708c7d5a36dab2d4e7ce6fb859599de":[8,0,0,0,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0a7adf9c895b87e3ebfa07471dcda7ce72":[8,0,0,4,0,2],
 "class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0a7adf9c895b87e3ebfa07471dcda7ce72":[9,0,0,4,0,2],
 "class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0a848f4bee3993e5dc20bb7fe01e708fa1":[8,0,0,4,0,1],
-"class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0a848f4bee3993e5dc20bb7fe01e708fa1":[9,0,0,4,0,1]
+"class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0a848f4bee3993e5dc20bb7fe01e708fa1":[9,0,0,4,0,1],
+"class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0aae6daadf434e5132be0590c6ef612c9c":[8,0,0,4,0,3],
+"class_animation_1_1_anim_job_enqueue_mode.html#afab7dadb2a0f95d69394d2eabc1375f0aae6daadf434e5132be0590c6ef612c9c":[9,0,0,4,0,3]
 };

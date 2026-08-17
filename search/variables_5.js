@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['e_0',['E',['../class_mathf_1_1_math_helper.html#a895f4f7bde14ce48b14dfb81603e086f',1,'Mathf::MathHelper']]],
+  ['e_0',['E',['../class_nebula_1_1_mathf.html#aad80b5e2c4fff0d810e4d110da54e543',1,'Nebula::Mathf']]],
   ['editorenabled_1',['editorEnabled',['../class_app_1_1_game_application.html#afe13bf19f4d337a24619cde928aacd9b',1,'App::GameApplication']]],
   ['elapsedtime_2',['elapsedTime',['../namespace_g_i.html#ab59b0b17eec720cbb9ad3cefeedea08f',1,'GI']]],
   ['element_3',['element',['../struct_util_1_1_allocator_lock.html#a82e4abf5e79e6bf9d851d38a7ebcb5dc',1,'Util::AllocatorLock::element'],['../struct_util_1_1_priority_array_1_1_element.html#a518aca4e8c3615d9aadc11961b705024',1,'Util::PriorityArray::Element::element'],['../class_util_1_1_quad_tree_1_1_node.html#a120f6a2e1cdf804d1dd4215731b1138b',1,'Util::QuadTree::Node::element']]],
@@ -14,7 +14,7 @@ var searchData=
   ['emitterallocator_11',['emitterAllocator',['../class_audio_1_1_audio_device.html#a224520a0ee63ec0eb961e71da1c28492',1,'Audio::AudioDevice']]],
   ['emitterattrs_12',['emitterAttrs',['../class_models_1_1_particle_system_node.html#a98c0b11f8e9f53363bddeac4cdb44b3b',1,'Models::ParticleSystemNode']]],
   ['emittermesh_13',['emitterMesh',['../class_models_1_1_particle_system_node.html#a576014c5e4c126d8d11beda6550bd579',1,'Models::ParticleSystemNode::emitterMesh'],['../struct_particles_1_1_particle_context_1_1_particle_system_runtime.html#a32f16ca40ee2d83c74755cf1ee15afda',1,'Particles::ParticleContext::ParticleSystemRuntime::emitterMesh']]],
-  ['emptyrectangle_14',['emptyRectangle',['../struct_mathf_1_1_rectangle.html#ae485228e36c17365f30cbf4f6eacf4a6',1,'Mathf::Rectangle']]],
+  ['emptyrectangle_14',['emptyRectangle',['../struct_nebula_1_1_rectangle.html#a92ae1f3da45130774444b9eeb89022bd',1,'Nebula::Rectangle']]],
   ['emptysetlayout_15',['EmptySetLayout',['../namespace_vulkan.html#a71b839109cd6d61b041e8860e30faeff',1,'Vulkan']]],
   ['enabled_16',['enabled',['../struct_physics_1_1_debug_state.html#a505fa8319b4c59e66e7d2278d3c2106d',1,'Physics::DebugState::enabled'],['../struct_vulkan_1_1_query_bundle.html#ae091b2035955d2f5fc36acf14c6e65ce',1,'Vulkan::QueryBundle::enabled'],['../class_frame_1_1_frame_op.html#ad3161cfb22c9f7af6aa8fda8c9dd6c11',1,'Frame::FrameOp::enabled']]],
   ['enablegpucrashanalytics_17',['enableGPUCrashAnalytics',['../struct_core_graphics_1_1_graphics_device_create_info_1_1_features.html#acc172a5587558b36dd155fdb6586f3cb',1,'CoreGraphics::GraphicsDeviceCreateInfo::Features']]],

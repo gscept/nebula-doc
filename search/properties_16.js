@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_0',['Zero',['../struct_mathf_1_1_point.html#a074396abda76781655c1bf6ebe4cd843',1,'Mathf.Point.Zero'],['../struct_mathf_1_1_vector2.html#a9e04e42ed27b2bb920413e61fb868b69',1,'Mathf.Vector2.Zero'],['../struct_mathf_1_1_vector3.html#a9a0b25c4a0ecef1a7f5e33ca5eaa3390',1,'Mathf.Vector3.Zero'],['../struct_mathf_1_1_vector4.html#aa7604981d17262fe164361ec7e358002',1,'Mathf.Vector4.Zero']]]
+  ['zero_0',['Zero',['../struct_nebula_1_1_point.html#aafdbf2593b93f4aea2d91c61e3f900e4',1,'Nebula.Point.Zero'],['../struct_nebula_1_1_vector2.html#a13277672a1b8b4c8091488cbe74bafe8',1,'Nebula.Vector2.Zero'],['../struct_nebula_1_1_vector3.html#a285bb398a725faab9d494cfc24d30b52',1,'Nebula.Vector3.Zero'],['../struct_nebula_1_1_vector4.html#ad1d6fe8b699d14ff546741f5c128a74c',1,'Nebula.Vector4.Zero']]]
 ];

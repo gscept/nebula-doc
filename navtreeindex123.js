@@ -1,13 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html":[8,0,13,3],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html":[9,0,12,2],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a25814387a4aaf603105b80d28d3d7fcf":[8,0,13,3,1],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a25814387a4aaf603105b80d28d3d7fcf":[9,0,12,2,1],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a462c28dda3730102569c66889f058d0d":[8,0,13,3,0],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a462c28dda3730102569c66889f058d0d":[9,0,12,2,0],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[8,0,13,3,2],
-"struct_core_graphics_1_1_acceleration_structure_barrier_info.html#a8152d21bd56510137121f0121328eba1":[9,0,12,2,2],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#abe164976bddec83311497e6e25dcbd20":[8,0,13,3,3],
 "struct_core_graphics_1_1_acceleration_structure_barrier_info.html#abe164976bddec83311497e6e25dcbd20":[9,0,12,2,3],
 "struct_core_graphics_1_1_alloc.html":[8,0,13,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_buffer_with_staging.html":[8,0,13,27],
 "struct_core_graphics_1_1_buffer_with_staging.html":[9,0,12,26],
 "struct_core_graphics_1_1_buffer_with_staging.html#a0fd88c4803ad9adf968529e8f601f915":[8,0,13,27,1],
-"struct_core_graphics_1_1_buffer_with_staging.html#a0fd88c4803ad9adf968529e8f601f915":[9,0,12,26,1]
+"struct_core_graphics_1_1_buffer_with_staging.html#a0fd88c4803ad9adf968529e8f601f915":[9,0,12,26,1],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1cf935eb7446f6c8ee51b5bd9a18f4c4":[8,0,13,27,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1cf935eb7446f6c8ee51b5bd9a18f4c4":[9,0,12,26,3],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[8,0,13,27,4],
+"struct_core_graphics_1_1_buffer_with_staging.html#a1e2d3e9334f4dc83df3ae143d34a8b1d":[9,0,12,26,4],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[8,0,13,27,7],
+"struct_core_graphics_1_1_buffer_with_staging.html#a2930cb7d9f88c10a7406036d45812532":[9,0,12,26,7],
+"struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[8,0,13,27,0],
+"struct_core_graphics_1_1_buffer_with_staging.html#a63e245e51d05caa3d44d0497832c9039":[9,0,12,26,0]
 };

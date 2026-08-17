@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_base_1_1
 <div class="textblock"><p><a class="el" href="namespace_base.html">Base</a> class for loading and handling dynamic libraries. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2023 Individual contributors, see AUTHORS file </dd></dl>
 </div>
-<p>Inherited by <a class="el" href="class_win32_1_1_win32_library.html">Win32::Win32Library</a>.</p>
+<p>Inherited by <a class="el" href="class_posix_1_1_posix_library.html">Posix::PosixLibrary</a>, and <a class="el" href="class_win32_1_1_win32_library.html">Win32::Win32Library</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -182,7 +182,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Base::Library::Close </td>
+          <td class="memname">virtual void <a class="el" href="class_posix_1_1_posix_library.html#ac1f40171f85113bc3369c09eab514307">Base::Library::Close</a> </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -197,7 +197,7 @@ Protected Attributes</h2></td></tr>
 
 <p>close the library </p>
 
-<p>Implemented in <a class="el" href="class_win32_1_1_win32_library.html#a31fb6a7c3c699e00805ab77ddfd93fde">Win32::Win32Library</a>.</p>
+<p>Implemented in <a class="el" href="class_posix_1_1_posix_library.html#ac1f40171f85113bc3369c09eab514307">Posix::PosixLibrary</a>, and <a class="el" href="class_win32_1_1_win32_library.html#a31fb6a7c3c699e00805ab77ddfd93fde">Win32::Win32Library</a>.</p>
 
 </div>
 </div>
@@ -211,7 +211,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void * Base::Library::GetExport </td>
+          <td class="memname">virtual void * <a class="el" href="class_posix_1_1_posix_library.html#a04b11bd69115235954943900550a4b97">Base::Library::GetExport</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td> const</td>
@@ -226,7 +226,7 @@ Protected Attributes</h2></td></tr>
 
 <p>get address to exported function (ex. GetProcAddress) </p>
 
-<p>Implemented in <a class="el" href="class_win32_1_1_win32_library.html#ae6c0aed5b42b252183e8245861621b61">Win32::Win32Library</a>.</p>
+<p>Implemented in <a class="el" href="class_posix_1_1_posix_library.html#a04b11bd69115235954943900550a4b97">Posix::PosixLibrary</a>, and <a class="el" href="class_win32_1_1_win32_library.html#ae6c0aed5b42b252183e8245861621b61">Win32::Win32Library</a>.</p>
 
 </div>
 </div>
@@ -240,7 +240,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool Base::Library::IsLoaded </td>
+          <td class="memname">virtual bool <a class="el" href="class_posix_1_1_posix_library.html#aa9ab3e058667440b76a18f5c77e7a2d0">Base::Library::IsLoaded</a> </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -255,7 +255,7 @@ Protected Attributes</h2></td></tr>
 
 <p>gets the state of the library </p>
 
-<p>Implemented in <a class="el" href="class_win32_1_1_win32_library.html#a6247fd490f52ab311616d36df66019ac">Win32::Win32Library</a>.</p>
+<p>Implemented in <a class="el" href="class_posix_1_1_posix_library.html#aa9ab3e058667440b76a18f5c77e7a2d0">Posix::PosixLibrary</a>, and <a class="el" href="class_win32_1_1_win32_library.html#a6247fd490f52ab311616d36df66019ac">Win32::Win32Library</a>.</p>
 
 </div>
 </div>
@@ -269,7 +269,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool Base::Library::Load </td>
+          <td class="memname">virtual bool <a class="el" href="class_posix_1_1_posix_library.html#a587e9d86e005608267bd12e386f1bc05">Base::Library::Load</a> </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -284,7 +284,7 @@ Protected Attributes</h2></td></tr>
 
 <p>load library </p>
 
-<p>Implemented in <a class="el" href="class_win32_1_1_win32_library.html#a0eac1db11e7341e88183afabf618fe37">Win32::Win32Library</a>.</p>
+<p>Implemented in <a class="el" href="class_posix_1_1_posix_library.html#a587e9d86e005608267bd12e386f1bc05">Posix::PosixLibrary</a>, and <a class="el" href="class_win32_1_1_win32_library.html#a0eac1db11e7341e88183afabf618fe37">Win32::Win32Library</a>.</p>
 
 </div>
 </div>

@@ -38,6 +38,7 @@ var namespace_util =
     [ "PriorityArray", "class_util_1_1_priority_array.html", "class_util_1_1_priority_array" ],
     [ "QuadTree", "class_util_1_1_quad_tree.html", "class_util_1_1_quad_tree" ],
     [ "Queue", "class_util_1_1_queue.html", "class_util_1_1_queue" ],
+    [ "Random", "class_util_1_1_random.html", "class_util_1_1_random" ],
     [ "RandomNumberTable", "class_util_1_1_random_number_table.html", "class_util_1_1_random_number_table" ],
     [ "RandomUnion", "union_util_1_1_random_union.html", "union_util_1_1_random_union" ],
     [ "RingBuffer", "class_util_1_1_ring_buffer.html", "class_util_1_1_ring_buffer" ],

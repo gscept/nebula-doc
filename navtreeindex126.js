@@ -1,13 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"struct_core_graphics_1_1_nvx3_header.html#a93283211005a750c730ab199665b3b6f":[8,0,13,74,0],
-"struct_core_graphics_1_1_nvx3_header.html#a93283211005a750c730ab199665b3b6f":[9,0,12,73,0],
-"struct_core_graphics_1_1_nvx3_header.html#abe45e5c0bd8766471a14a94822f6f0b5":[8,0,13,74,1],
-"struct_core_graphics_1_1_nvx3_header.html#abe45e5c0bd8766471a14a94822f6f0b5":[9,0,12,73,1],
-"struct_core_graphics_1_1_nvx3_header.html#ac3192da8cc5abcf9918a028110ab36d4":[8,0,13,74,8],
-"struct_core_graphics_1_1_nvx3_header.html#ac3192da8cc5abcf9918a028110ab36d4":[9,0,12,73,8],
-"struct_core_graphics_1_1_nvx3_header.html#ad0718d1562bbb513fc17682967218115":[8,0,13,74,2],
-"struct_core_graphics_1_1_nvx3_header.html#ad0718d1562bbb513fc17682967218115":[9,0,12,73,2],
 "struct_core_graphics_1_1_nvx3_header.html#ae1c6f66376bf9a9233adcee98d7cabc1":[8,0,13,74,3],
 "struct_core_graphics_1_1_nvx3_header.html#ae1c6f66376bf9a9233adcee98d7cabc1":[9,0,12,73,3],
 "struct_core_graphics_1_1_nvx3_header.html#ae9f82ed65d2abc4206a486d98bcfc707":[8,0,13,74,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX126 =
 "struct_core_graphics_1_1_resource_table_input_attachment.html#a201795b646c6d580b2c24fee46920b6a":[8,0,13,101,8],
 "struct_core_graphics_1_1_resource_table_input_attachment.html#a201795b646c6d580b2c24fee46920b6a":[9,0,12,100,8],
 "struct_core_graphics_1_1_resource_table_input_attachment.html#a5ab4b9046cad739c8fe4dec6113207c4":[8,0,13,101,7],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#a5ab4b9046cad739c8fe4dec6113207c4":[9,0,12,100,7]
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a5ab4b9046cad739c8fe4dec6113207c4":[9,0,12,100,7],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a6d0d9fa0ca4931a6dcb3e09ce386877d":[8,0,13,101,4],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#a6d0d9fa0ca4931a6dcb3e09ce386877d":[9,0,12,100,4],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aa0a847c45c5fd553bf174ee8498035f7":[8,0,13,101,5],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aa0a847c45c5fd553bf174ee8498035f7":[9,0,12,100,5],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aea4c6186e05ea28fd5ed1863437a488a":[8,0,13,101,6],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aea4c6186e05ea28fd5ed1863437a488a":[9,0,12,100,6],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aec9c43f9489348446da67b5fc8766836":[8,0,13,101,2],
+"struct_core_graphics_1_1_resource_table_input_attachment.html#aec9c43f9489348446da67b5fc8766836":[9,0,12,100,2]
 };

@@ -66,7 +66,6 @@ var namespaces_dup =
     [ "MaterialTemplates", "namespace_material_templates.html", "namespace_material_templates" ],
     [ "MaterialTemplatesGPULang", "namespace_material_templates_g_p_u_lang.html", "namespace_material_templates_g_p_u_lang" ],
     [ "Math", "namespace_math.html", "namespace_math" ],
-    [ "Mathf", "namespace_mathf.html", "namespace_mathf" ],
     [ "MemDb", "namespace_mem_db.html", "namespace_mem_db" ],
     [ "Memory", "namespace_memory.html", "namespace_memory" ],
     [ "Messaging", "namespace_messaging.html", "namespace_messaging" ],

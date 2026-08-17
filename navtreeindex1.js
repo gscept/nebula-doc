@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"arrayallocator_8h.html":[10,0,0,3,20,4],
 "arrayallocator_8h_source.html":[10,0,0,3,20,4],
 "arrayallocatorsafe_8h.html":[10,0,0,3,20,5],
 "arrayallocatorsafe_8h.html#a084e74e59d389e514218913f611adadb":[10,0,0,3,20,5,3],
@@ -187,9 +188,6 @@ var NAVTREEINDEX1 =
 "bloomcontext_8cc.html":[10,0,0,7,20,0],
 "bloomcontext_8h.html":[10,0,0,7,20,1],
 "bloomcontext_8h_source.html":[10,0,0,7,20,1],
-"blueprintmanager_8cc.html":[10,0,0,1,2,1,0],
-"blueprintmanager_8h.html":[10,0,0,1,2,1,1],
-"blueprintmanager_8h_source.html":[10,0,0,1,2,1,1],
 "boolattrid_8h.html":[10,0,0,0,0,14],
 "boolattrid_8h_source.html":[10,0,0,0,0,14],
 "boxsystem_8cc.html":[10,0,0,7,27,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "characternode_8cc.html":[10,0,0,7,17,0,0],
 "characternode_8h.html":[10,0,0,7,17,0,1],
 "characternode_8h_source.html":[10,0,0,7,17,0,1],
-"characterskinnode_8cc.html":[10,0,0,7,17,0,2]
+"characterskinnode_8cc.html":[10,0,0,7,17,0,2],
+"characterskinnode_8h.html":[10,0,0,7,17,0,3],
+"characterskinnode_8h_source.html":[10,0,0,7,17,0,3]
 };

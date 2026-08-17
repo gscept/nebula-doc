@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['r_0',['R',['../struct_mathf_1_1_color.html#a880f45246a584bf2ac7ac75c416ac275',1,'Mathf::Color']]],
-  ['red_1',['Red',['../struct_mathf_1_1_color.html#aae8c46f51704be696fc4e63dd7138835',1,'Mathf::Color']]],
-  ['right_2',['Right',['../class_mathf_1_1_bounding_frustum.html#a284190366ec65386911f775175839d18',1,'Mathf.BoundingFrustum.Right'],['../struct_mathf_1_1_matrix.html#a4e81069dd78554d2ecda46a4143a7f31',1,'Mathf.Matrix.Right'],['../struct_mathf_1_1_rectangle.html#ad9e8ed7354acb0c8450190393b6a6b4d',1,'Mathf.Rectangle.Right'],['../struct_mathf_1_1_vector3.html#a5d6f4df1426f6b376b299c82964f4aa1',1,'Mathf.Vector3.Right']]],
-  ['rosybrown_3',['RosyBrown',['../struct_mathf_1_1_color.html#aaeef8cc1268bf7b14d7b1df6fb9425e2',1,'Mathf::Color']]],
-  ['royalblue_4',['RoyalBlue',['../struct_mathf_1_1_color.html#a383ba40e6ac24dacf75a3f1890b68e46',1,'Mathf::Color']]]
+  ['r_0',['R',['../struct_nebula_1_1_color.html#aa721583bcc958d7853e75f0033d0ebdf',1,'Nebula::Color']]],
+  ['red_1',['Red',['../struct_nebula_1_1_color.html#a4999c5e144411566f7d6f49419bc296d',1,'Nebula::Color']]],
+  ['right_2',['Right',['../class_nebula_1_1_bounding_frustum.html#a0d50354a0e1f5015df3094a3f9e6bc78',1,'Nebula.BoundingFrustum.Right'],['../struct_nebula_1_1_matrix.html#ad5dbf0c3d19a93238d998dc832f6e2e7',1,'Nebula.Matrix.Right'],['../struct_nebula_1_1_rectangle.html#a81a15ba36b60f05b1e9a48e8186d2241',1,'Nebula.Rectangle.Right'],['../struct_nebula_1_1_vector3.html#a7d73deaa91cc4ec7865b7881ae459836',1,'Nebula.Vector3.Right']]],
+  ['rosybrown_3',['RosyBrown',['../struct_nebula_1_1_color.html#abc893e592b301312020a70dffb538bee',1,'Nebula::Color']]],
+  ['royalblue_4',['RoyalBlue',['../struct_nebula_1_1_color.html#ac6e1f7e016fc2ec68e85289f932a22d0',1,'Nebula::Color']]]
 ];

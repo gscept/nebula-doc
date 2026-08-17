@@ -1,13 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"struct_core_graphics_1_1_resource_table_input_attachment.html#a6d0d9fa0ca4931a6dcb3e09ce386877d":[8,0,13,101,4],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#a6d0d9fa0ca4931a6dcb3e09ce386877d":[9,0,12,100,4],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aa0a847c45c5fd553bf174ee8498035f7":[8,0,13,101,5],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aa0a847c45c5fd553bf174ee8498035f7":[9,0,12,100,5],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aea4c6186e05ea28fd5ed1863437a488a":[8,0,13,101,6],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aea4c6186e05ea28fd5ed1863437a488a":[9,0,12,100,6],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aec9c43f9489348446da67b5fc8766836":[8,0,13,101,2],
-"struct_core_graphics_1_1_resource_table_input_attachment.html#aec9c43f9489348446da67b5fc8766836":[9,0,12,100,2],
 "struct_core_graphics_1_1_resource_table_layout_acceleration_structure.html":[8,0,13,102],
 "struct_core_graphics_1_1_resource_table_layout_acceleration_structure.html":[9,0,12,101],
 "struct_core_graphics_1_1_resource_table_layout_acceleration_structure.html#a74c9b057e29a94d9c1d12a12c9a5ac53":[8,0,13,102,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_subpass.html#aef2e8ffb410c69796ad77d167dd07a05":[8,0,13,128,4],
 "struct_core_graphics_1_1_subpass.html#aef2e8ffb410c69796ad77d167dd07a05":[9,0,12,127,4],
 "struct_core_graphics_1_1_subpass_info.html":[8,0,13,129],
-"struct_core_graphics_1_1_subpass_info.html":[9,0,12,128]
+"struct_core_graphics_1_1_subpass_info.html":[9,0,12,128],
+"struct_core_graphics_1_1_subpass_info.html#a69f776acdd33be226d9fb0328ee1be5b":[8,0,13,129,1],
+"struct_core_graphics_1_1_subpass_info.html#a69f776acdd33be226d9fb0328ee1be5b":[9,0,12,128,1],
+"struct_core_graphics_1_1_subpass_info.html#a8cc26650110898729b975d6e706af22c":[8,0,13,129,6],
+"struct_core_graphics_1_1_subpass_info.html#a8cc26650110898729b975d6e706af22c":[9,0,12,128,6],
+"struct_core_graphics_1_1_subpass_info.html#a94f6461d931c1ae6c82f78b0ab3084ea":[8,0,13,129,4],
+"struct_core_graphics_1_1_subpass_info.html#a94f6461d931c1ae6c82f78b0ab3084ea":[9,0,12,128,4],
+"struct_core_graphics_1_1_subpass_info.html#ab5d5b05c7df62d863c0e32313efff3cd":[8,0,13,129,0],
+"struct_core_graphics_1_1_subpass_info.html#ab5d5b05c7df62d863c0e32313efff3cd":[9,0,12,128,0]
 };

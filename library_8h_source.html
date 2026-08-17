@@ -124,13 +124,20 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('library_8h_sou
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">typedef</span> <a class="code hl_class" href="class_win32_1_1_win32_library.html">Win32::Win32Library</a> <a class="code hl_class" href="class_system_1_1_library.html">Library</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#error &quot;System::Library not implemented on this platform!&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="posixlibrary_8h.html">posix/posixlibrary.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_system.html">System</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespace_system.html#afeb8cc67f96af7a67ee3bdac62e6fb88">   21</a></span><span class="keyword">typedef</span> <a class="code hl_class" href="class_posix_1_1_posix_library.html">Posix::PosixLibrary</a> <a class="code hl_typedef" href="namespace_system.html#afeb8cc67f96af7a67ee3bdac62e6fb88">Library</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    </div>
+<div class="ttc" id="aclass_posix_1_1_posix_library_html"><div class="ttname"><a href="class_posix_1_1_posix_library.html">Posix::PosixLibrary</a></div><div class="ttdoc">Load and handle an external shared library on POSIX platforms.</div><div class="ttdef"><b>Definition</b> posixlibrary.h:17</div></div>
 <div class="ttc" id="aclass_system_1_1_library_html"><div class="ttname"><a href="class_system_1_1_library.html">Library</a></div><div class="ttdoc">Use to load dynamic libraries and their addresses.</div></div>
 <div class="ttc" id="aclass_win32_1_1_win32_library_html"><div class="ttname"><a href="class_win32_1_1_win32_library.html">Win32::Win32Library</a></div><div class="ttdoc">Load and handle an external DLL.</div><div class="ttdef"><b>Definition</b> win32library.h:20</div></div>
 <div class="ttc" id="anamespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div><div class="ttdef"><b>Definition</b> osxsysfunc.h:15</div></div>
+<div class="ttc" id="anamespace_system_html_afeb8cc67f96af7a67ee3bdac62e6fb88"><div class="ttname"><a href="namespace_system.html#afeb8cc67f96af7a67ee3bdac62e6fb88">System::Library</a></div><div class="ttdeci">Posix::PosixLibrary Library</div><div class="ttdef"><b>Definition</b> library.h:21</div></div>
+<div class="ttc" id="aposixlibrary_8h_html"><div class="ttname"><a href="posixlibrary_8h.html">posixlibrary.h</a></div></div>
 <div class="ttc" id="awin32library_8h_html"><div class="ttname"><a href="win32library_8h.html">win32library.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

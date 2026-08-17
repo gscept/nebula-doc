@@ -2,6 +2,7 @@ var namespace_system =
 [
     [ "ByteOrder", "class_system_1_1_byte_order.html", "class_system_1_1_byte_order" ],
     [ "Cpu", "class_system_1_1_cpu.html", "class_system_1_1_cpu" ],
+    [ "Library", "namespace_system.html#afeb8cc67f96af7a67ee3bdac62e6fb88", null ],
     [ "CpuArchType", "namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214a", [
       [ "X86_32", "namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214aa12a3d2266f957f2512b7c121063f3086", null ],
       [ "X86_64", "namespace_system.html#a5551c48b1a0c9642042c5ea3de7a214aa394e5dd68da2c3bf860d3504cba26e4a", null ],

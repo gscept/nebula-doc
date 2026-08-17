@@ -65,7 +65,7 @@ var searchData=
   ['freeimage_62',['FreeImage',['../struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13cae036012aea017ed6a725b2f2bd580f59',1,'Vulkan::VkDeferredCommand']]],
   ['freememory_63',['FreeMemory',['../struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf',1,'Vulkan::VkDeferredCommand']]],
   ['friday_64',['Friday',['../class_base_1_1_calendar_time_base.html#a4a142889ee8ae09d44542b7a36a5b73eadc9225e3e4c80d8d9afa7b4aac31cf84',1,'Base::CalendarTimeBase']]],
-  ['front_65',['Front',['../namespace_mathf.html#a23f74d96adb76d196c6a2a64e0a0b991a5835bab1ade0060909e31a06af2e2cde',1,'Mathf']]],
+  ['front_65',['Front',['../namespace_nebula.html#a5e730f0d87d1c46c4fb555d37c4a5838a5835bab1ade0060909e31a06af2e2cde',1,'Nebula']]],
   ['frustumplane_5fbottom_66',['FrustumPlane_Bottom',['../namespace_im3d.html#adfe4a0b9fb4ea816281ef05dc50a7d29a830519cd14e1cc20d508f6f9ce04ab4b',1,'Im3d']]],
   ['frustumplane_5fcount_67',['FrustumPlane_Count',['../namespace_im3d.html#adfe4a0b9fb4ea816281ef05dc50a7d29a49611f5f200938756762a365b993f8d7',1,'Im3d']]],
   ['frustumplane_5ffar_68',['FrustumPlane_Far',['../namespace_im3d.html#adfe4a0b9fb4ea816281ef05dc50a7d29ac4da66f8cebdbe9b6f76b1db4582f24b',1,'Im3d']]],
