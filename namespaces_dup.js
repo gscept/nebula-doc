@@ -72,7 +72,6 @@ var namespaces_dup =
     [ "Models", "namespace_models.html", "namespace_models" ],
     [ "Msg", "namespace_msg.html", null ],
     [ "Multiplayer", "namespace_multiplayer.html", "namespace_multiplayer" ],
-    [ "nanobind", "namespacenanobind.html", "namespacenanobind" ],
     [ "Navigation", "namespace_navigation.html", "namespace_navigation" ],
     [ "NavigationFeature", "namespace_navigation_feature.html", "namespace_navigation_feature" ],
     [ "Nebula", "namespace_nebula.html", "namespace_nebula" ],
@@ -92,13 +91,6 @@ var namespaces_dup =
     [ "Posix", "namespace_posix.html", "namespace_posix" ],
     [ "PostEffects", "namespace_post_effects.html", "namespace_post_effects" ],
     [ "Profiling", "namespace_profiling.html", "namespace_profiling" ],
-    [ "Python", "namespace_python.html", [
-      [ "NB_MODULE", "namespace_python.html#a36af739709366f2e68eddafc4b75d3ea", null ],
-      [ "NB_MODULE", "namespace_python.html#afdb321b9b04333694036509e409ab1c4", null ],
-      [ "RegisterNebulaModules", "namespace_python.html#a1a51436bcbd384afd15605661986f539", null ],
-      [ "VariantToPyType", "namespace_python.html#ad5799d95db209cd19806664696f2efcc", null ],
-      [ "VariantToPyType", "namespace_python.html#a8a0fe7fc5111c6c2920672614a676a3b", null ]
-    ] ],
     [ "Raytracing", "namespace_raytracing.html", "namespace_raytracing" ],
     [ "RenderModules", "namespace_render_modules.html", "namespace_render_modules" ],
     [ "RenderUtil", "namespace_render_util.html", "namespace_render_util" ],
@@ -123,7 +115,6 @@ var namespaces_dup =
       [ "Sleep", "namespace_timing.html#a60ecc2f2142ee97d39169048e5cf29a9", null ],
       [ "TicksToSeconds", "namespace_timing.html#ae00b365e7a8436ebb12705bd633b8234", null ]
     ] ],
-    [ "tyti", "namespacetyti.html", "namespacetyti" ],
     [ "Util", "namespace_util.html", "namespace_util" ],
     [ "Vegetation", "namespace_vegetation.html", "namespace_vegetation" ],
     [ "Visibility", "namespace_visibility.html", "namespace_visibility" ],

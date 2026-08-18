@@ -125,10 +125,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2113594f8d9cbd3bababfe2a134f92c2" id="r_a2113594f8d9cbd3bababfe2a134f92c2"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a2113594f8d9cbd3bababfe2a134f92c2">LoadSchema</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;file)</td></tr>
 <tr class="memitem:af85c81da0d38a7561d04a235c17c58b0" id="r_af85c81da0d38a7561d04a235c17c58b0"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#af85c81da0d38a7561d04a235c17c58b0">CompileSchema</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;file, <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;outFile)</td></tr>
 <tr class="memitem:a6d765a197f8d3c2eecc67793b52ae622" id="r_a6d765a197f8d3c2eecc67793b52ae622"><td class="memItemLeft">static <a class="el" href="class_util_1_1_blob.html">Util::Blob</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6d765a197f8d3c2eecc67793b52ae622">ParseJson</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;file)</td></tr>
-<tr class="memitem:ab5624ce5b4333be2ead686c6f76148d0" id="r_ab5624ce5b4333be2ead686c6f76148d0"><td class="memItemLeft">static <a class="el" href="class_util_1_1_blob.html">Util::Blob</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab5624ce5b4333be2ead686c6f76148d0">ParseJson</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;file, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;schema)</td></tr>
+<tr class="memitem:ab5624ce5b4333be2ead686c6f76148d0" id="r_ab5624ce5b4333be2ead686c6f76148d0"><td class="memItemLeft">static <a class="el" href="class_util_1_1_blob.html">Util::Blob</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab5624ce5b4333be2ead686c6f76148d0">ParseJson</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;file, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;schema)</td></tr>
 <tr class="memitem:ab7565eaace058a195f247cbcbe9e3664" id="r_ab7565eaace058a195f247cbcbe9e3664"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab7565eaace058a195f247cbcbe9e3664">HasSchema</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> identifier)</td></tr>
 <tr class="memitem:a341a44377e5884ab77ddcb4400f3ea51" id="r_a341a44377e5884ab77ddcb4400f3ea51"><td class="memTemplParams" colspan="2">template&lt;typename BaseT, typename ItemT&gt; </td></tr>
-<tr class="memitem:a341a44377e5884ab77ddcb4400f3ea51 template"><td class="memItemLeft">static <a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a341a44377e5884ab77ddcb4400f3ea51">SerializeHelper</a> (ItemT const &amp;item, const char *ident)</td></tr>
+<tr class="memitem:a341a44377e5884ab77ddcb4400f3ea51 template"><td class="memItemLeft">static <a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a341a44377e5884ab77ddcb4400f3ea51">SerializeHelper</a> (ItemT const &amp;item, const char *ident)</td></tr>
 <tr class="memdesc:a341a44377e5884ab77ddcb4400f3ea51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function, use SerializeFlatbuffer macro instead.  <br /></td></tr>
 <tr class="memitem:a4cb149369980de4fbb900ab8c6c7acb5" id="r_a4cb149369980de4fbb900ab8c6c7acb5"><td class="memTemplParams" colspan="2">template&lt;typename BaseT, typename ItemT&gt; </td></tr>
 <tr class="memitem:a4cb149369980de4fbb900ab8c6c7acb5 template"><td class="memItemLeft">static <a class="el" href="class_util_1_1_blob.html">Util::Blob</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4cb149369980de4fbb900ab8c6c7acb5">SerializeFlatbuffer</a> (ItemT const &amp;item)</td></tr>
@@ -138,8 +138,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acbbf7c16efe414c7274cd04befb2146f" id="r_acbbf7c16efe414c7274cd04befb2146f"><td class="memTemplParams" colspan="2">template&lt;typename BaseT, typename ItemT&gt; </td></tr>
 <tr class="memitem:acbbf7c16efe414c7274cd04befb2146f template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#acbbf7c16efe414c7274cd04befb2146f">DeserializeFlatbuffer</a> (ItemT &amp;item, const uint8_t *buf)</td></tr>
 <tr class="memitem:aaa694e6ed57ba7349561a945bdcebe9e" id="r_aaa694e6ed57ba7349561a945bdcebe9e"><td class="memTemplParams" colspan="2">template&lt;typename BaseT, typename ItemT&gt; </td></tr>
-<tr class="memitem:aaa694e6ed57ba7349561a945bdcebe9e template"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aaa694e6ed57ba7349561a945bdcebe9e">DeserializeJsonFlatbuffer</a> (ItemT &amp;item, const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;file, const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;rootName)</td></tr>
-<tr class="memitem:ae09ed368e6fb740356877f0b89b2775e" id="r_ae09ed368e6fb740356877f0b89b2775e"><td class="memItemLeft">static <a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae09ed368e6fb740356877f0b89b2775e">BufferToText</a> (const uint8_t *buffer, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> identifier)</td></tr>
+<tr class="memitem:aaa694e6ed57ba7349561a945bdcebe9e template"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aaa694e6ed57ba7349561a945bdcebe9e">DeserializeJsonFlatbuffer</a> (ItemT &amp;item, const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;file, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;rootName)</td></tr>
+<tr class="memitem:ae09ed368e6fb740356877f0b89b2775e" id="r_ae09ed368e6fb740356877f0b89b2775e"><td class="memItemLeft">static <a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae09ed368e6fb740356877f0b89b2775e">BufferToText</a> (const uint8_t *buffer, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> identifier)</td></tr>
 <tr class="memitem:a52526c3ace8b4630e69961f2f0e0416a" id="r_a52526c3ace8b4630e69961f2f0e0416a"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a52526c3ace8b4630e69961f2f0e0416a">Compile</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;source, <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;targetFolder, const char *ident)</td></tr>
 <tr class="memdesc:a52526c3ace8b4630e69961f2f0e0416a"><td class="mdescLeft">&#160;</td><td class="mdescRight">compile flatbuffer json to binary  <br /></td></tr>
 </table><table class="memberdecls">
@@ -158,7 +158,7 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_util_1_1_string.html">Util::String</a> FlatbufferInterface::BufferToText </td>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> FlatbufferInterface::BufferToText </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>, </td>
         </tr>
@@ -353,7 +353,7 @@ template&lt;typename BaseT, typename ItemT&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rootName</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rootName</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -484,7 +484,7 @@ template&lt;typename BaseT, typename ItemT&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>schema</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>schema</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -537,7 +537,7 @@ template&lt;typename BaseT, typename ItemT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_util_1_1_string.html">Util::String</a> Flat::FlatbufferInterface::SerializeHelper </td>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Flat::FlatbufferInterface::SerializeHelper </td>
           <td>(</td>
           <td class="paramtype">ItemT const &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span>, </td>
         </tr>

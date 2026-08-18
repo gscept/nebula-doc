@@ -221,9 +221,7 @@ var searchData=
   ['ptr_3c_20resources_3a_3aresourcemanager_20_3e_218',['Ptr&lt; Resources::ResourceManager &gt;',['../class_ptr.html',1,'']]],
   ['ptr_3c_20resources_3a_3aresourceserver_20_3e_219',['Ptr&lt; Resources::ResourceServer &gt;',['../class_ptr.html',1,'']]],
   ['ptr_3c_20scripting_3a_3ansharpserver_20_3e_220',['Ptr&lt; Scripting::NSharpServer &gt;',['../class_ptr.html',1,'']]],
-  ['ptr_3c_20scripting_3a_3ascriptserver_20_3e_221',['Ptr&lt; Scripting::ScriptServer &gt;',['../class_ptr.html',1,'']]],
-  ['ptr_3c_20tbui_3a_3atbuiinputhandler_20_3e_222',['Ptr&lt; TBUI::TBUIInputHandler &gt;',['../class_ptr.html',1,'']]],
-  ['pundoubleull_223',['PunDoubleULL',['../union_system_1_1_byte_order_1_1_pun_double_u_l_l.html',1,'System::ByteOrder']]],
-  ['punfloatul_224',['PunFloatUL',['../union_system_1_1_byte_order_1_1_pun_float_u_l.html',1,'System::ByteOrder']]],
-  ['pythonserver_225',['PythonServer',['../class_scripting_1_1_python_server.html',1,'Scripting']]]
+  ['ptr_3c_20tbui_3a_3atbuiinputhandler_20_3e_221',['Ptr&lt; TBUI::TBUIInputHandler &gt;',['../class_ptr.html',1,'']]],
+  ['pundoubleull_222',['PunDoubleULL',['../union_system_1_1_byte_order_1_1_pun_double_u_l_l.html',1,'System::ByteOrder']]],
+  ['punfloatul_223',['PunFloatUL',['../union_system_1_1_byte_order_1_1_pun_float_u_l.html',1,'System::ByteOrder']]]
 ];

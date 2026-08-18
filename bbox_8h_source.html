@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bbox_8h_source
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>    ws[1] = <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(1.0f);</div>
 <div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span> </div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>    <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> px[2];</div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>    <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> <a class="code hl_namespace" href="namespacenanobind.html">py</a>[2];</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>    <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> py[2];</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>    <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a> pz[2];</div>
 <div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span> </div>
 <div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>    <span class="comment">// this corresponds to the permute phase in the original function</span></div>
@@ -525,8 +525,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bbox_8h_source
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>    px[0] = xs[1] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(1, 1, 0, 0) + xs[0] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0, 0, 1, 1);</div>
 <div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span>    px[1] = xs[1] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0, 0, 1, 1) + xs[0] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(1, 1, 0, 0);</div>
 <div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span> </div>
-<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>    <a class="code hl_namespace" href="namespacenanobind.html">py</a>[0] = ys[0];</div>
-<div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>    <a class="code hl_namespace" href="namespacenanobind.html">py</a>[1] = ys[1];</div>
+<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>    py[0] = ys[0];</div>
+<div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>    py[1] = ys[1];</div>
 <div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span> </div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span>    pz[0] = zs[1] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(1, 0, 0, 1) + zs[0] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0, 1, 1, 0);</div>
 <div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span>    pz[1] = zs[1] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(0, 1, 1, 0) + zs[0] * <a class="code hl_struct" href="struct_math_1_1vec4.html">vec4</a>(1, 0, 0, 1);</div>
@@ -546,19 +546,19 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bbox_8h_source
 <div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>        <span class="comment">// transform the x component of 4 points simultaneously </span></div>
 <div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>        xs[i] = </div>
 <div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[2], pz[i],</div>
-<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[1], <a class="code hl_namespace" href="namespacenanobind.html">py</a>[i],</div>
+<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[1], py[i],</div>
 <div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(x_columns[0], px[i], x_columns[3])));</div>
 <div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span> </div>
 <div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span>        <span class="comment">// transform the y component of 4 points simultaneously </span></div>
 <div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span>        ys[i] = </div>
 <div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[2], pz[i],</div>
-<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[1], <a class="code hl_namespace" href="namespacenanobind.html">py</a>[i],</div>
+<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[1], py[i],</div>
 <div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(y_columns[0], px[i], y_columns[3])));</div>
 <div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span> </div>
 <div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>        <span class="comment">// transform the z component of 4 points simultaneously </span></div>
 <div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span>        zs[i] = </div>
 <div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span>            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[2], pz[i],</div>
-<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[1], <a class="code hl_namespace" href="namespacenanobind.html">py</a>[i],</div>
+<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[1], py[i],</div>
 <div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(z_columns[0], px[i], z_columns[3])));</div>
 <div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span> </div>
 <div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>        <span class="keywordflow">if</span> (isOrtho)</div>
@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bbox_8h_source
 <div class="line"><a id="l00512" name="l00512"></a><span class="lineno">  512</span>            <span class="comment">// transform the w component of 4 points simultaneously </span></div>
 <div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>            ws[i] =</div>
 <div class="line"><a id="l00514" name="l00514"></a><span class="lineno">  514</span>                <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[2], pz[i],</div>
-<div class="line"><a id="l00515" name="l00515"></a><span class="lineno">  515</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[1], <a class="code hl_namespace" href="namespacenanobind.html">py</a>[i],</div>
+<div class="line"><a id="l00515" name="l00515"></a><span class="lineno">  515</span>                    <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[1], py[i],</div>
 <div class="line"><a id="l00516" name="l00516"></a><span class="lineno">  516</span>                            <a class="code hl_function" href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">multiplyadd</a>(w_columns[0], px[i], w_columns[3])));</div>
 <div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>        }</div>
 <div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span> </div>
@@ -686,7 +686,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('bbox_8h_source
 <div class="ttc" id="anamespace_math_html_ac60c89413abc847d7282cc8411b5f089"><div class="ttname"><a href="namespace_math.html#ac60c89413abc847d7282cc8411b5f089">Math::multiplyadd</a></div><div class="ttdeci">__forceinline vec3 multiplyadd(const vec3 &amp;v0, const vec3 &amp;v1, const vec3 &amp;v2)</div><div class="ttdef"><b>Definition</b> vec3.h:396</div></div>
 <div class="ttc" id="anamespace_math_html_aeeb92731f898b836b0375bce0533c99a"><div class="ttname"><a href="namespace_math.html#aeeb92731f898b836b0375bce0533c99a">Math::xyz</a></div><div class="ttdeci">__forceinline vec3 xyz(const point &amp;v)</div><div class="ttdef"><b>Definition</b> point.h:528</div></div>
 <div class="ttc" id="anamespace_math_html_af74024b487bd7089dc9c598d94634b82"><div class="ttname"><a href="namespace_math.html#af74024b487bd7089dc9c598d94634b82">Math::splat_w</a></div><div class="ttdeci">__forceinline vec4 splat_w(const vec4 &amp;v)</div><div class="ttdef"><b>Definition</b> vec4.h:1049</div></div>
-<div class="ttc" id="anamespacenanobind_html"><div class="ttname"><a href="namespacenanobind.html">nanobind</a></div><div class="ttdef"><b>Definition</b> conversion.h:35</div></div>
 <div class="ttc" id="asse_8h_html"><div class="ttname"><a href="sse_8h.html">sse.h</a></div><div class="ttdoc">SSE support functions.</div></div>
 <div class="ttc" id="astruct_math_1_1mat4_html"><div class="ttname"><a href="struct_math_1_1mat4.html">Math::mat4</a></div><div class="ttdoc">A 4x4 single point precision float matrix.</div><div class="ttdef"><b>Definition</b> mat4.h:49</div></div>
 <div class="ttc" id="astruct_math_1_1mat4_html_a02a744d11609237f5e9e814337d1d23c"><div class="ttname"><a href="struct_math_1_1mat4.html#a02a744d11609237f5e9e814337d1d23c">Math::mat4::y_axis</a></div><div class="ttdeci">vec4 y_axis</div><div class="ttdef"><b>Definition</b> mat4.h:121</div></div>

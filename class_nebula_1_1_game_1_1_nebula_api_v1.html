@@ -130,10 +130,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1385b97361521ed07e990371c588dd3c" id="r_a1385b97361521ed07e990371c588dd3c"><td class="memItemLeft">static <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1385b97361521ed07e990371c588dd3c">GetScale</a> (UInt64 entityId)</td></tr>
 <tr class="memitem:a234eb6aecc96f145b90633e93f52b570" id="r_a234eb6aecc96f145b90633e93f52b570"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a234eb6aecc96f145b90633e93f52b570">SetScale</a> (UInt64 entityId, <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> position)</td></tr>
 <tr class="memitem:a19fe55f3b3141ca8065986313098d4e5" id="r_a19fe55f3b3141ca8065986313098d4e5"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a19fe55f3b3141ca8065986313098d4e5">HasComponent</a> (UInt64 entityId, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> componentId)</td></tr>
-<tr class="memitem:afd39c23b5daf7aeda029e886daa256a6" id="r_afd39c23b5daf7aeda029e886daa256a6"><td class="memItemLeft">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#afd39c23b5daf7aeda029e886daa256a6">GetComponentId</a> (string name)</td></tr>
 <tr class="memitem:a6b59789a61bd11e1b55c393f0bfe4c5d" id="r_a6b59789a61bd11e1b55c393f0bfe4c5d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6b59789a61bd11e1b55c393f0bfe4c5d">GetComponentData</a> (UInt64 entityId, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> componentId, IntPtr data, int dataSize)</td></tr>
 <tr class="memitem:a947b8c0078d2218bd3ad0481bf6e0c64" id="r_a947b8c0078d2218bd3ad0481bf6e0c64"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a947b8c0078d2218bd3ad0481bf6e0c64">SetComponentData</a> (UInt64 entityId, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> componentId, IntPtr data, int dataSize)</td></tr>
 <tr class="memitem:a54dca603c04665108e303e6502b0f2cf" id="r_a54dca603c04665108e303e6502b0f2cf"><td class="memItemLeft">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a54dca603c04665108e303e6502b0f2cf">GetDefaultWorldId</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af4e85a9eaa8bd341e765a716860860d3" id="r_af4e85a9eaa8bd341e765a716860860d3"><td class="memItemLeft">static unsafe <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#af4e85a9eaa8bd341e765a716860860d3">GetComponentId</a> (string name)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5574624f9b9feb272b5231119b957aa2" id="r_a5574624f9b9feb272b5231119b957aa2"><td class="memItemLeft">static <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5574624f9b9feb272b5231119b957aa2">GetComponentIdUtf8</a> (IntPtr name, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> length)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad65845d4ccda58796e3e4d4ce6d62e7b" name="ad65845d4ccda58796e3e4d4ce6d62e7b"></a>
@@ -201,19 +208,56 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afd39c23b5daf7aeda029e886daa256a6" name="afd39c23b5daf7aeda029e886daa256a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd39c23b5daf7aeda029e886daa256a6">&#9670;&#160;</a></span>GetComponentId()</h2>
+<a id="af4e85a9eaa8bd341e765a716860860d3" name="af4e85a9eaa8bd341e765a716860860d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e85a9eaa8bd341e765a716860860d3">&#9670;&#160;</a></span>GetComponentId()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Nebula.Game.NebulaApiV1.GetComponentId </td>
+          <td class="memname">unsafe <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Nebula.Game.NebulaApiV1.GetComponentId </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5574624f9b9feb272b5231119b957aa2" name="a5574624f9b9feb272b5231119b957aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5574624f9b9feb272b5231119b957aa2">&#9670;&#160;</a></span>GetComponentIdUtf8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Nebula.Game.NebulaApiV1.GetComponentIdUtf8 </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>length</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

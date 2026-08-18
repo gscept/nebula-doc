@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.17.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: Nebula.Game.MsgDispatcher.MsgEvent Class Reference</title>
+		<title>Nebula: Nebula.Game.MsgDispatcher.IMessageChannel Interface Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html','','class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event-members'); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html','','interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -112,21 +112,43 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Nebula.Game.MsgDispatcher.MsgEvent Class Reference</div></div>
+  <div class="headertitle"><div class="title">Nebula.Game.MsgDispatcher.IMessageChannel Interface Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Inherited by <a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html">Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d5411803ff8aad23562552ec25b0a4b" id="r_a5d5411803ff8aad23562552ec25b0a4b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d5411803ff8aad23562552ec25b0a4b">Dispatch&lt; T &gt;</a> (T msg)</td></tr>
+<tr class="memitem:a56a36006e783f92160bf4a1c6be1b73a" id="r_a56a36006e783f92160bf4a1c6be1b73a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a56a36006e783f92160bf4a1c6be1b73a">Remove</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-events" class="groupheader"><a id="events" name="events"></a>
-Events</h2></td></tr>
-<tr class="memitem:a312cc9c5dc96a6a2e0a79f5218ed001c" id="r_a312cc9c5dc96a6a2e0a79f5218ed001c"><td class="memItemLeft"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html#aa5ef86a35e88ed889d684c4e2d2d6cd1">HandleMessage</a>&#160;</td><td class="memItemRight"><a class="el" href="#a312cc9c5dc96a6a2e0a79f5218ed001c">OnMessageEvent</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a4d06642851312ac12a9377c185b85238" id="r_a4d06642851312ac12a9377c185b85238"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4d06642851312ac12a9377c185b85238">IsEmpty</a><code> [get]</code></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a5d5411803ff8aad23562552ec25b0a4b" name="a5d5411803ff8aad23562552ec25b0a4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d5411803ff8aad23562552ec25b0a4b">&#9670;&#160;</a></span>Dispatch&lt; T &gt;()</h2>
+<a id="a56a36006e783f92160bf4a1c6be1b73a" name="a56a36006e783f92160bf4a1c6be1b73a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a36006e783f92160bf4a1c6be1b73a">&#9670;&#160;</a></span>Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.MsgDispatcher.IMessageChannel.Remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html#a0d153ed29e5b735bb94bb29defe586b5">Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;</a>.</p>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a4d06642851312ac12a9377c185b85238" name="a4d06642851312ac12a9377c185b85238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d06642851312ac12a9377c185b85238">&#9670;&#160;</a></span>IsEmpty</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,46 +157,21 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Nebula.Game.MsgDispatcher.MsgEvent.Dispatch&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
-          <td></td>
+          <td class="memname">bool Nebula.Game.MsgDispatcher.IMessageChannel.IsEmpty</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>struct</em></td><td>&#160;</td></tr>
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a></em></td><td>&#160;</td></tr>
-</table>
-</dd>
-</dl>
-</div>
+
+<p>Implemented in <a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html#a46e2e97879d7ac9490ee9b604357a170">Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a name="doc-event-members" id="doc-event-members"></a><h2 id="header-doc-event-members" class="groupheader">Event Documentation</h2>
-<a id="a312cc9c5dc96a6a2e0a79f5218ed001c" name="a312cc9c5dc96a6a2e0a79f5218ed001c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a312cc9c5dc96a6a2e0a79f5218ed001c">&#9670;&#160;</a></span>OnMessageEvent</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html#aa5ef86a35e88ed889d684c4e2d2d6cd1">HandleMessage</a> Nebula.Game.MsgDispatcher.MsgEvent.OnMessageEvent</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this interface was generated from the following file:<ul>
 <li>/github/workspace/code/addons/nsharp/NebulaEngine/engine/<a class="el" href="_msg_dispatcher_8cs.html">MsgDispatcher.cs</a></li>
 </ul>
 </div><!-- contents -->
@@ -190,7 +187,7 @@ Events</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="namespace_nebula.html">Nebula</a></li><li class="navelem"><a href="namespace_nebula_1_1_game.html">Game</a></li><li class="navelem"><a href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a></li><li class="navelem"><a href="class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html">MsgEvent</a></li>
+				<li class="navelem"><a href="namespace_nebula.html">Nebula</a></li><li class="navelem"><a href="namespace_nebula_1_1_game.html">Game</a></li><li class="navelem"><a href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a></li><li class="navelem"><a href="interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html">IMessageChannel</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

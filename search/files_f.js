@@ -115,8 +115,5 @@ var searchData=
   ['profiling_2eh_112',['profiling.h',['../profiling_8h.html',1,'']]],
   ['property_2ecs_113',['Property.cs',['../_property_8cs.html',1,'']]],
   ['propertymanager_2ecs_114',['PropertyManager.cs',['../_property_manager_8cs.html',1,'']]],
-  ['ptr_2eh_115',['ptr.h',['../ptr_8h.html',1,'']]],
-  ['pyloghook_2eh_116',['PyLogHook.h',['../_py_log_hook_8h.html',1,'']]],
-  ['pythonserver_2ecc_117',['pythonserver.cc',['../pythonserver_8cc.html',1,'']]],
-  ['pythonserver_2eh_118',['pythonserver.h',['../pythonserver_8h.html',1,'']]]
+  ['ptr_2eh_115',['ptr.h',['../ptr_8h.html',1,'']]]
 ];

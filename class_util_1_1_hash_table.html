@@ -124,7 +124,7 @@ class Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;</div><
 <p>The default capacity is 128. Matching the capacity against the number of expected elements in the hash table is one key to get optimal insertion and search times, the other is to provide a good (and fast) hash code computation which produces as few collissions as possible for the key type.</p>
 <p>The key class must implement the following method in order to work with the <a class="el" href="class_util_1_1_hash_table.html" title="Organizes key/value pairs by a hash code.">HashTable</a>: <br  />
  uint32_t HashCode() const;</p>
-<p>The <a class="el" href="struct_util_1_1_string.html" title="Nebula&#39;s universal string class.">Util::String</a> class implements this method as an example. Internally the hash table is implemented as a fixed array of sorted arrays. The fixed array is indexed by the hash code of the key, the sorted arrays contain all values with identical keys.</p>
+<p>The <a class="el" href="class_util_1_1_string.html" title="Nebula&#39;s universal string class.">Util::String</a> class implements this method as an example. Internally the hash table is implemented as a fixed array of sorted arrays. The fixed array is indexed by the hash code of the key, the sorted arrays contain all values with identical keys.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2006 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>

@@ -126,7 +126,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('imguiconsole_8
 <code>#include &quot;<a class="el" href="textwriter_8h_source.html">io/textwriter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ioserver_8h_source.html">io/ioserver.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="foundation_2app_2application_8h_source.html">app/application.h</a>&quot;</code><br />
-<code>#include &quot;nanobind/nanobind.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="cvar_8h_source.html">core/cvar.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -143,7 +142,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a71e8392593c691217e37524f7d765e7c" id="r_a71e8392593c691217e37524f7d765e7c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a71e8392593c691217e37524f7d765e7c">ListHistory</a> (ImGuiInputTextCallbackData *data)</td></tr>
 <tr class="memitem:a236fde2623b3549ebb6fccd84b15f5a1" id="r_a236fde2623b3549ebb6fccd84b15f5a1"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#a236fde2623b3549ebb6fccd84b15f5a1">ListAllCVars</a> ()</td></tr>
 <tr class="memitem:a59ada744d3c199549628f514431051a7" id="r_a59ada744d3c199549628f514431051a7"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a59ada744d3c199549628f514431051a7">TextEditCVars</a> (ImGuiInputTextCallbackData *data)</td></tr>
-<tr class="memitem:a78f3472ac23041fa44e5dea951e852f0" id="r_a78f3472ac23041fa44e5dea951e852f0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a78f3472ac23041fa44e5dea951e852f0">TextEditPython</a> (ImGuiInputTextCallbackData *data)</td></tr>
 <tr class="memitem:ac343ec638b42e94e8a2c42efeca1a3e3" id="r_ac343ec638b42e94e8a2c42efeca1a3e3"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ac343ec638b42e94e8a2c42efeca1a3e3">TextEditCallback</a> (ImGuiInputTextCallbackData *data)</td></tr>
 <tr class="memitem:a5b2665e00f36a71ce30b123c09a9f636" id="r_a5b2665e00f36a71ce30b123c09a9f636"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="namespace_dynui.html#a5b2665e00f36a71ce30b123c09a9f636">Dynui::__ImplementClass</a> (<a class="el" href="class_dynui_1_1_imgui_console.html">Dynui::ImguiConsole</a>, 'IMCO', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:ade0789354735a8035bc0548bf8f9458e" id="r_ade0789354735a8035bc0548bf8f9458e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="namespace_dynui.html#ade0789354735a8035bc0548bf8f9458e">Dynui::__ImplementInterfaceSingleton</a> (<a class="el" href="class_dynui_1_1_imgui_console.html">Dynui::ImguiConsole</a>)</td></tr>
@@ -151,7 +149,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a905a7dbc09b4c15f4bc481267f8dfd89" id="r_a905a7dbc09b4c15f4bc481267f8dfd89"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="structcompletion__t.html">completion_t</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a905a7dbc09b4c15f4bc481267f8dfd89">completions</a></td></tr>
-<tr class="memitem:a3bcbdea0c23e9483a04dcbbc87d08668" id="r_a3bcbdea0c23e9483a04dcbbc87d08668"><td class="memItemLeft">static <a class="el" href="struct_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3bcbdea0c23e9483a04dcbbc87d08668">selectedCompletion</a></td></tr>
+<tr class="memitem:a3bcbdea0c23e9483a04dcbbc87d08668" id="r_a3bcbdea0c23e9483a04dcbbc87d08668"><td class="memItemLeft">static <a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3bcbdea0c23e9483a04dcbbc87d08668">selectedCompletion</a></td></tr>
 <tr class="memitem:a96151dc66764498f19cd53f3acceb034" id="r_a96151dc66764498f19cd53f3acceb034"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a96151dc66764498f19cd53f3acceb034">open_autocomplete</a> = false</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -231,23 +229,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a78f3472ac23041fa44e5dea951e852f0" name="a78f3472ac23041fa44e5dea951e852f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78f3472ac23041fa44e5dea951e852f0">&#9670;&#160;</a></span>TextEditPython()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int TextEditPython </td>
-          <td>(</td>
-          <td class="paramtype">ImGuiInputTextCallbackData *</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
 <a id="a905a7dbc09b4c15f4bc481267f8dfd89" name="a905a7dbc09b4c15f4bc481267f8dfd89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a905a7dbc09b4c15f4bc481267f8dfd89">&#9670;&#160;</a></span>completions</h2>
@@ -295,7 +276,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_util_1_1_string.html">Util::String</a> selectedCompletion</td>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> selectedCompletion</td>
         </tr>
       </table>
   </td>

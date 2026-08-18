@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.17.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: tyti::pylog::detail Namespace Reference</title>
+		<title>Nebula: Nebula.Game.IMessageHandler&lt; T &gt; Interface Template Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('namespacetyti_1_1pylog_1_1detail.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('interface_nebula_1_1_game_1_1_i_message_handler-1-g.html','','interface_nebula_1_1_game_1_1_i_message_handler-1-g-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -112,68 +112,35 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespacetyti_
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">tyti::pylog::detail Namespace Reference</div></div>
+  <div class="headertitle"><div class="title">Nebula.Game.IMessageHandler&lt; T &gt; Interface Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5db1c40698339b08db16e5f6e26a336b" id="r_a5db1c40698339b08db16e5f6e26a336b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a5db1c40698339b08db16e5f6e26a336b template"><td class="memItemLeft">nanobind::object&#160;</td><td class="memItemRight"><a class="el" href="#a5db1c40698339b08db16e5f6e26a336b">LogHookMakeObject</a> (T t)</td></tr>
-<tr class="memitem:a75413cfd97fde8a3e25b3beda520d7e6" id="r_a75413cfd97fde8a3e25b3beda520d7e6"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a75413cfd97fde8a3e25b3beda520d7e6 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a75413cfd97fde8a3e25b3beda520d7e6">redirect_syspipe</a> (T t, const char *pipename)</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aabd28331e44732b167b2361e75eb299e" id="r_aabd28331e44732b167b2361e75eb299e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aabd28331e44732b167b2361e75eb299e">OnMessage</a> (in T message)</td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a5db1c40698339b08db16e5f6e26a336b" name="a5db1c40698339b08db16e5f6e26a336b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5db1c40698339b08db16e5f6e26a336b">&#9670;&#160;</a></span>LogHookMakeObject()</h2>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aabd28331e44732b167b2361e75eb299e" name="aabd28331e44732b167b2361e75eb299e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd28331e44732b167b2361e75eb299e">&#9670;&#160;</a></span>OnMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">nanobind::object tyti::pylog::detail::LogHookMakeObject </td>
+          <td class="memname">void Nebula.Game.IMessageHandler&lt; T &gt;.OnMessage </td>
           <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td class="paramtype">in T</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a75413cfd97fde8a3e25b3beda520d7e6" name="a75413cfd97fde8a3e25b3beda520d7e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75413cfd97fde8a3e25b3beda520d7e6">&#9670;&#160;</a></span>redirect_syspipe()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void tyti::pylog::detail::redirect_syspipe </td>
-          <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>pipename</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li>/github/workspace/code/addons/nsharp/NebulaEngine/engine/<a class="el" href="_msg_8cs.html">Msg.cs</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -187,7 +154,7 @@ template&lt;typename T&gt; </div>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="namespacetyti.html">tyti</a></li><li class="navelem"><a href="namespacetyti_1_1pylog.html">pylog</a></li><li class="navelem"><a href="namespacetyti_1_1pylog_1_1detail.html">detail</a></li>
+				<li class="navelem"><a href="namespace_nebula.html">Nebula</a></li><li class="navelem"><a href="namespace_nebula_1_1_game.html">Game</a></li><li class="navelem"><a href="interface_nebula_1_1_game_1_1_i_message_handler-1-g.html">IMessageHandler&lt; T &gt;</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

@@ -120,8 +120,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5daea934bc171ff25ef67114681238d7" id="r_a5daea934bc171ff25ef67114681238d7"><td class="memItemLeft">virtual <a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">Nebula.Game.FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a5daea934bc171ff25ef67114681238d7">AcceptedEvents</a> ()</td></tr>
 <tr class="memdesc:a5daea934bc171ff25ef67114681238d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override in subclass to tell the property manager which methods to call for this class.  <br /></td></tr>
-<tr class="memitem:a5b941a15d2015e9b15abeaa636c881f1" id="r_a5b941a15d2015e9b15abeaa636c881f1"><td class="memItemLeft">virtual System.Type[]&#160;</td><td class="memItemRight"><a class="el" href="#a5b941a15d2015e9b15abeaa636c881f1">AcceptedMessages</a> ()</td></tr>
-<tr class="memdesc:a5b941a15d2015e9b15abeaa636c881f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override in subclass.  <br /></td></tr>
 <tr class="memitem:a15ab44b1b8a2489ffec5e65d08a2c628" id="r_a15ab44b1b8a2489ffec5e65d08a2c628"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a15ab44b1b8a2489ffec5e65d08a2c628">OnMessage</a> (in <a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a> msg)</td></tr>
 <tr class="memdesc:a15ab44b1b8a2489ffec5e65d08a2c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is sent to the property's associated entity.  <br /></td></tr>
 <tr class="memitem:ad8930b48e3a15445846f2a5ab8fe9170" id="r_ad8930b48e3a15445846f2a5ab8fe9170"><td class="memItemLeft">override string&#160;</td><td class="memItemRight"><a class="el" href="#ad8930b48e3a15445846f2a5ab8fe9170">ToString</a> ()</td></tr>
@@ -139,6 +137,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a041e69c99baa1ded033eead5d9c82aba" id="r_a041e69c99baa1ded033eead5d9c82aba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a041e69c99baa1ded033eead5d9c82aba">Destroy</a> ()</td></tr>
 <tr class="memdesc:a041e69c99baa1ded033eead5d9c82aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the property.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2f3b506c9fe2337b8006e666432c62c5" id="r_a2f3b506c9fe2337b8006e666432c62c5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a2f3b506c9fe2337b8006e666432c62c5">RegisterMessages</a> ()</td></tr>
+<tr class="memitem:a6fae5b47028dbd43e0746f0bfeacc115" id="r_a6fae5b47028dbd43e0746f0bfeacc115"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6fae5b47028dbd43e0746f0bfeacc115">RegisterMessage&lt; T &gt;</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-methods" class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Package Functions</h2></td></tr>
+<tr class="memitem:a8ad4fe24c9c806568ecb3fd1528c78d1" id="r_a8ad4fe24c9c806568ecb3fd1528c78d1"><td class="memItemLeft"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a8ad4fe24c9c806568ecb3fd1528c78d1">GetAcceptedEvents</a> ()</td></tr>
+<tr class="memitem:abe74dc1b1419ca53921079a2aa2bbc7a" id="r_abe74dc1b1419ca53921079a2aa2bbc7a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abe74dc1b1419ca53921079a2aa2bbc7a">AttachMessages</a> ()</td></tr>
+<tr class="memitem:a39d1edf2b9e177f9da382252accbedf1" id="r_a39d1edf2b9e177f9da382252accbedf1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a39d1edf2b9e177f9da382252accbedf1">DetachMessages</a> ()</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ae6bcf2a1519bb757d33681ecea357da8" id="r_ae6bcf2a1519bb757d33681ecea357da8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae6bcf2a1519bb757d33681ecea357da8">Active</a><code> [get, set]</code></td></tr>
@@ -152,6 +161,8 @@ Properties</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:acebee534bb7397709d605a9afd9e804d" id="r_acebee534bb7397709d605a9afd9e804d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acebee534bb7397709d605a9afd9e804d">active</a> = false</td></tr>
 <tr class="memitem:aadb292dac03184fb2f213b2d645d28ff" id="r_aadb292dac03184fb2f213b2d645d28ff"><td class="memItemLeft"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a>&#160;</td><td class="memItemRight"><a class="el" href="#aadb292dac03184fb2f213b2d645d28ff">entity</a> = null</td></tr>
+<tr class="memitem:a93cce2d809556acd3bc3eaca921a97ff" id="r_a93cce2d809556acd3bc3eaca921a97ff"><td class="memItemLeft"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a93cce2d809556acd3bc3eaca921a97ff">acceptedEvents</a></td></tr>
+<tr class="memitem:aa5eea1881fd903c1216091609df176f8" id="r_aa5eea1881fd903c1216091609df176f8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa5eea1881fd903c1216091609df176f8">acceptedEventsCached</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5daea934bc171ff25ef67114681238d7" name="a5daea934bc171ff25ef67114681238d7"></a>
@@ -181,8 +192,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5b941a15d2015e9b15abeaa636c881f1" name="a5b941a15d2015e9b15abeaa636c881f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b941a15d2015e9b15abeaa636c881f1">&#9670;&#160;</a></span>AcceptedMessages()</h2>
+<a id="abe74dc1b1419ca53921079a2aa2bbc7a" name="abe74dc1b1419ca53921079a2aa2bbc7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe74dc1b1419ca53921079a2aa2bbc7a">&#9670;&#160;</a></span>AttachMessages()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +202,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual System.Type[] Nebula.Game.Property.AcceptedMessages </td>
+          <td class="memname">void Nebula.Game.Property.AttachMessages </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -199,12 +210,10 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Override in subclass. </p>
 
 </div>
 </div>
@@ -233,6 +242,56 @@ Private Attributes</h2></td></tr>
 
 <p>Destroys the property. </p>
 <p>You should not call this manually, it is called automatically by destroying an entity, or removing the property </p>
+
+</div>
+</div>
+<a id="a39d1edf2b9e177f9da382252accbedf1" name="a39d1edf2b9e177f9da382252accbedf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39d1edf2b9e177f9da382252accbedf1">&#9670;&#160;</a></span>DetachMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Property.DetachMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ad4fe24c9c806568ecb3fd1528c78d1" name="a8ad4fe24c9c806568ecb3fd1528c78d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ad4fe24c9c806568ecb3fd1528c78d1">&#9670;&#160;</a></span>GetAcceptedEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a>[] Nebula.Game.Property.GetAcceptedEvents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -406,6 +465,64 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6fae5b47028dbd43e0746f0bfeacc115" name="a6fae5b47028dbd43e0746f0bfeacc115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fae5b47028dbd43e0746f0bfeacc115">&#9670;&#160;</a></span>RegisterMessage&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Property.RegisterMessage&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a2f3b506c9fe2337b8006e666432c62c5" name="a2f3b506c9fe2337b8006e666432c62c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3b506c9fe2337b8006e666432c62c5">&#9670;&#160;</a></span>RegisterMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Nebula.Game.Property.RegisterMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad8930b48e3a15445846f2a5ab8fe9170" name="ad8930b48e3a15445846f2a5ab8fe9170"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8930b48e3a15445846f2a5ab8fe9170">&#9670;&#160;</a></span>ToString()</h2>
 
@@ -434,6 +551,50 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a93cce2d809556acd3bc3eaca921a97ff" name="a93cce2d809556acd3bc3eaca921a97ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93cce2d809556acd3bc3eaca921a97ff">&#9670;&#160;</a></span>acceptedEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a> [] Nebula.Game.Property.acceptedEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5eea1881fd903c1216091609df176f8" name="aa5eea1881fd903c1216091609df176f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5eea1881fd903c1216091609df176f8">&#9670;&#160;</a></span>acceptedEventsCached</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nebula.Game.Property.acceptedEventsCached</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acebee534bb7397709d605a9afd9e804d" name="acebee534bb7397709d605a9afd9e804d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acebee534bb7397709d605a9afd9e804d">&#9670;&#160;</a></span>active</h2>
 

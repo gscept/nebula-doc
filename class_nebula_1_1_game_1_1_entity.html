@@ -125,10 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1f3c8128ffbe612287ee29ad1bf1007f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity is valid (not destroyed).  <br /></td></tr>
 <tr class="memitem:aac8118c95f3e58ec4b7145ac72114ae6" id="r_aac8118c95f3e58ec4b7145ac72114ae6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aac8118c95f3e58ec4b7145ac72114ae6">HasComponent&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:aac8118c95f3e58ec4b7145ac72114ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity has some unmanaged component.  <br /></td></tr>
-<tr class="memitem:a33d0ab480961cbc82f5682e63e1e7002" id="r_a33d0ab480961cbc82f5682e63e1e7002"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a33d0ab480961cbc82f5682e63e1e7002">SetComponent&lt; T &gt;</a> (in T component)</td></tr>
-<tr class="memdesc:a33d0ab480961cbc82f5682e63e1e7002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of a native, unmanaged component.  <br /></td></tr>
-<tr class="memitem:a435fbb7597b8d5138996c3b338b96e8a" id="r_a435fbb7597b8d5138996c3b338b96e8a"><td class="memItemLeft">T&#160;</td><td class="memItemRight"><a class="el" href="#a435fbb7597b8d5138996c3b338b96e8a">GetComponent&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a435fbb7597b8d5138996c3b338b96e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value copy of the native, unmanaged component.  <br /></td></tr>
+<tr class="memitem:ab23936b184342c5fca7b81cd2901397d" id="r_ab23936b184342c5fca7b81cd2901397d"><td class="memItemLeft">unsafe void&#160;</td><td class="memItemRight"><a class="el" href="#ab23936b184342c5fca7b81cd2901397d">SetComponent&lt; T &gt;</a> (in T component)</td></tr>
+<tr class="memdesc:ab23936b184342c5fca7b81cd2901397d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of a native, unmanaged component.  <br /></td></tr>
+<tr class="memitem:a520ea8f183e98218415f0259f07139a7" id="r_a520ea8f183e98218415f0259f07139a7"><td class="memItemLeft">unsafe T&#160;</td><td class="memItemRight"><a class="el" href="#a520ea8f183e98218415f0259f07139a7">GetComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a520ea8f183e98218415f0259f07139a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value copy of the native, unmanaged component.  <br /></td></tr>
 <tr class="memitem:a3d895b4d48f44dcd08e15fe7f163f57b" id="r_a3d895b4d48f44dcd08e15fe7f163f57b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3d895b4d48f44dcd08e15fe7f163f57b">HasProperty&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:a3d895b4d48f44dcd08e15fe7f163f57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the entity has a certain property.  <br /></td></tr>
 <tr class="memitem:a261261274e934abc8f96aa935e7ed913" id="r_a261261274e934abc8f96aa935e7ed913"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a261261274e934abc8f96aa935e7ed913">AddProperty</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
@@ -160,6 +160,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pac-methods" class="groupheader"><a id="pac-methods" name="pac-methods"></a>
 Package Functions</h2></td></tr>
 <tr class="memitem:a57536aca47a92c871ef75df39924b77e" id="r_a57536aca47a92c871ef75df39924b77e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a57536aca47a92c871ef75df39924b77e">Entity</a> (<a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a> world, UInt64 entityId)</td></tr>
+<tr class="memitem:a16b7d81094d892bc7875f79ead8a673c" id="r_a16b7d81094d892bc7875f79ead8a673c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16b7d81094d892bc7875f79ead8a673c">RegisterMessage&lt; T &gt;</a> (IMessageHandler&lt; T &gt; handler)</td></tr>
+<tr class="memitem:a50a91017e28ea931447810bdb7fe34b3" id="r_a50a91017e28ea931447810bdb7fe34b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a50a91017e28ea931447810bdb7fe34b3">UnregisterMessages</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -173,7 +175,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8c4af39616fcbf18ca6588ca6d406de7" id="r_a8c4af39616fcbf18ca6588ca6d406de7"><td class="memItemLeft"><a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8c4af39616fcbf18ca6588ca6d406de7">world</a> = null</td></tr>
 <tr class="memitem:a5a122330c7aec7f360e6eedbf444caf8" id="r_a5a122330c7aec7f360e6eedbf444caf8"><td class="memItemLeft">UInt64&#160;</td><td class="memItemRight"><a class="el" href="#a5a122330c7aec7f360e6eedbf444caf8">id</a> = 0xFFFFFFFFFFFFFFFF</td></tr>
 <tr class="memitem:a790464f81d9d230c51d95f72e2763cbd" id="r_a790464f81d9d230c51d95f72e2763cbd"><td class="memItemLeft">List&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a790464f81d9d230c51d95f72e2763cbd">properties</a></td></tr>
-<tr class="memitem:ac0796a076a367bf012b3c26dd4484c8d" id="r_ac0796a076a367bf012b3c26dd4484c8d"><td class="memItemLeft"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac0796a076a367bf012b3c26dd4484c8d">dispatcher</a> = new <a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a>()</td></tr>
+<tr class="memitem:ac0796a076a367bf012b3c26dd4484c8d" id="r_ac0796a076a367bf012b3c26dd4484c8d"><td class="memItemLeft"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac0796a076a367bf012b3c26dd4484c8d">dispatcher</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57536aca47a92c871ef75df39924b77e" name="a57536aca47a92c871ef75df39924b77e"></a>
@@ -262,8 +264,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a435fbb7597b8d5138996c3b338b96e8a" name="a435fbb7597b8d5138996c3b338b96e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a435fbb7597b8d5138996c3b338b96e8a">&#9670;&#160;</a></span>GetComponent&lt; T &gt;()</h2>
+<a id="a520ea8f183e98218415f0259f07139a7" name="a520ea8f183e98218415f0259f07139a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a520ea8f183e98218415f0259f07139a7">&#9670;&#160;</a></span>GetComponent&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +274,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T Nebula.Game.Entity.GetComponent&lt; T &gt; </td>
+          <td class="memname">unsafe T Nebula.Game.Entity.GetComponent&lt; T &gt; </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -286,7 +288,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets a value copy of the native, unmanaged component. </p>
-<p>This method does allocate and copy memory, thus should be used sparringly in time-critical code. </p>
+<p>This method copies the component through a stack-backed buffer. </p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -516,6 +518,39 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a16b7d81094d892bc7875f79ead8a673c" name="a16b7d81094d892bc7875f79ead8a673c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b7d81094d892bc7875f79ead8a673c">&#9670;&#160;</a></span>RegisterMessage&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Entity.RegisterMessage&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">IMessageHandler&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>handler</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="a8d3f1a4c283588d5b43781e238be0d0f" name="a8d3f1a4c283588d5b43781e238be0d0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d3f1a4c283588d5b43781e238be0d0f">&#9670;&#160;</a></span>Send&lt; T &gt;()</h2>
 
@@ -544,7 +579,6 @@ Private Attributes</h2></td></tr>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>struct</em></td><td>&#160;</td></tr>
 <tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a></em></td><td>&#160;</td></tr>
 </table>
 </dd>
@@ -553,8 +587,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a33d0ab480961cbc82f5682e63e1e7002" name="a33d0ab480961cbc82f5682e63e1e7002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d0ab480961cbc82f5682e63e1e7002">&#9670;&#160;</a></span>SetComponent&lt; T &gt;()</h2>
+<a id="ab23936b184342c5fca7b81cd2901397d" name="ab23936b184342c5fca7b81cd2901397d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23936b184342c5fca7b81cd2901397d">&#9670;&#160;</a></span>SetComponent&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +597,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Nebula.Game.Entity.SetComponent&lt; T &gt; </td>
+          <td class="memname">unsafe void Nebula.Game.Entity.SetComponent&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype">in T</td>          <td class="paramname"><span class="paramname"><em>component</em></span></td><td>)</td>
           <td></td>
@@ -577,7 +611,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the value of a native, unmanaged component. </p>
-<p>This method does allocate and copy memory, thus should be used sparringly in time-critical code. </p>
+<p>This method copies the component through a stack-backed buffer. </p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -698,6 +732,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a50a91017e28ea931447810bdb7fe34b3" name="a50a91017e28ea931447810bdb7fe34b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a91017e28ea931447810bdb7fe34b3">&#9670;&#160;</a></span>UnregisterMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Entity.UnregisterMessages </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="ac0796a076a367bf012b3c26dd4484c8d" name="ac0796a076a367bf012b3c26dd4484c8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0796a076a367bf012b3c26dd4484c8d">&#9670;&#160;</a></span>dispatcher</h2>
@@ -709,7 +768,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a> Nebula.Game.Entity.dispatcher = new <a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a>()</td>
+          <td class="memname"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a> Nebula.Game.Entity.dispatcher</td>
         </tr>
       </table>
   </td>

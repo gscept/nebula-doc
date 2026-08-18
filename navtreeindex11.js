@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"class_base_1_1_instance_server_base.html#ad7f4f8ae71b161d6a2f6ec566acc302a":[8,0,5,7,14],
-"class_base_1_1_instance_server_base.html#ad7f4f8ae71b161d6a2f6ec566acc302a":[9,0,5,7,14],
 "class_base_1_1_instance_server_base.html#ae67bf49fe933b7cbb717fd3fd185c4b9":[8,0,5,7,7],
 "class_base_1_1_instance_server_base.html#ae67bf49fe933b7cbb717fd3fd185c4b9":[9,0,5,7,7],
 "class_base_1_1_instance_server_base.html#af0de70618567a85cbe002c60c3390a94":[8,0,5,7,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "class_base_1_1_shader_server_base.html#afb44e35a3b7e083304cbd551417e2219":[8,0,5,12,0],
 "class_base_1_1_shader_server_base.html#afb44e35a3b7e083304cbd551417e2219":[9,0,5,12,0],
 "class_base_1_1_shape_renderer_base.html":[8,0,5,13],
-"class_base_1_1_shape_renderer_base.html":[9,0,5,13]
+"class_base_1_1_shape_renderer_base.html":[9,0,5,13],
+"class_base_1_1_shape_renderer_base.html#a0705c272e37ea408e9c2e67b379d5425":[8,0,5,13,18],
+"class_base_1_1_shape_renderer_base.html#a0705c272e37ea408e9c2e67b379d5425":[9,0,5,13,18]
 };

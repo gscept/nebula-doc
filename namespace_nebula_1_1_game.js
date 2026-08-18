@@ -3,6 +3,7 @@ var namespace_nebula_1_1_game =
     [ "ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", "class_nebula_1_1_game_1_1_component_manager" ],
     [ "Entity", "class_nebula_1_1_game_1_1_entity.html", "class_nebula_1_1_game_1_1_entity" ],
     [ "EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", "struct_nebula_1_1_game_1_1_entity_id" ],
+    [ "IMessageHandler&lt; T &gt;", "interface_nebula_1_1_game_1_1_i_message_handler-1-g.html", "interface_nebula_1_1_game_1_1_i_message_handler-1-g" ],
     [ "INebulaApi", "interface_nebula_1_1_game_1_1_i_nebula_api.html", null ],
     [ "Msg", "interface_nebula_1_1_game_1_1_msg.html", null ],
     [ "MsgDispatcher", "class_nebula_1_1_game_1_1_msg_dispatcher.html", "class_nebula_1_1_game_1_1_msg_dispatcher" ],

@@ -2,6 +2,7 @@ var game_8cc =
 [
     [ "Scripting::Api::ComponentGetData", "namespace_scripting_1_1_api.html#a3016420c8e45f373f958f6c6be3ebbc5", null ],
     [ "Scripting::Api::ComponentGetId", "namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d", null ],
+    [ "Scripting::Api::ComponentGetIdUtf8", "namespace_scripting_1_1_api.html#a00b56f1f3a8d896cfb81773621d1c1fd", null ],
     [ "Scripting::Api::ComponentSetData", "namespace_scripting_1_1_api.html#a939d2476a20f8ccf89f02bfb5dc902d1", null ],
     [ "Scripting::Api::EntityCreate", "namespace_scripting_1_1_api.html#a0c7801a5998ab8055cfdb50dfce55189", null ],
     [ "Scripting::Api::EntityDelete", "namespace_scripting_1_1_api.html#ac16123837fd359becab944b61767446b", null ],

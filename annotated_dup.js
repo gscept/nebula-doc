@@ -804,13 +804,6 @@ var annotated_dup =
       [ "StandardMultiplayerClient", "class_multiplayer_1_1_standard_multiplayer_client.html", "class_multiplayer_1_1_standard_multiplayer_client" ],
       [ "StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", "class_multiplayer_1_1_standard_multiplayer_server" ]
     ] ],
-    [ "nanobind", "namespacenanobind.html", [
-      [ "detail", "namespacenanobind_1_1detail.html", [
-        [ "type_caster&lt; Util::String &gt;", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4" ],
-        [ "type_caster&lt; Util::Dictionary&lt; Key, Value &gt; &gt;", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ],
-        [ "type_caster&lt; Util::Array&lt; Type &gt; &gt;", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ]
-      ] ]
-    ] ],
     [ "Navigation", "namespace_navigation.html", [
       [ "AgentContext", "class_navigation_1_1_agent_context.html", "class_navigation_1_1_agent_context" ],
       [ "CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
@@ -828,6 +821,7 @@ var annotated_dup =
         [ "ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", "class_nebula_1_1_game_1_1_component_manager" ],
         [ "Entity", "class_nebula_1_1_game_1_1_entity.html", "class_nebula_1_1_game_1_1_entity" ],
         [ "EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", "struct_nebula_1_1_game_1_1_entity_id" ],
+        [ "IMessageHandler&lt; T &gt;", "interface_nebula_1_1_game_1_1_i_message_handler-1-g.html", "interface_nebula_1_1_game_1_1_i_message_handler-1-g" ],
         [ "INebulaApi", "interface_nebula_1_1_game_1_1_i_nebula_api.html", null ],
         [ "Msg", "interface_nebula_1_1_game_1_1_msg.html", null ],
         [ "MsgDispatcher", "class_nebula_1_1_game_1_1_msg_dispatcher.html", "class_nebula_1_1_game_1_1_msg_dispatcher" ],
@@ -1005,9 +999,7 @@ var annotated_dup =
       [ "AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
       [ "DotNET_API", "struct_scripting_1_1_dot_n_e_t___a_p_i.html", "struct_scripting_1_1_dot_n_e_t___a_p_i" ],
       [ "NSharpServer", "class_scripting_1_1_n_sharp_server.html", "class_scripting_1_1_n_sharp_server" ],
-      [ "PythonServer", "class_scripting_1_1_python_server.html", "class_scripting_1_1_python_server" ],
-      [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ],
-      [ "ScriptServer", "class_scripting_1_1_script_server.html", "class_scripting_1_1_script_server" ]
+      [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ]
     ] ],
     [ "StaticUI", "namespace_static_u_i.html", [
       [ "Logger", "struct_static_u_i_1_1_logger.html", "struct_static_u_i_1_1_logger" ],
@@ -1125,11 +1117,11 @@ var annotated_dup =
       [ "SimpleTree", "class_util_1_1_simple_tree.html", "class_util_1_1_simple_tree" ],
       [ "SparseTable", "class_util_1_1_sparse_table.html", "class_util_1_1_sparse_table" ],
       [ "Stack", "class_util_1_1_stack.html", "class_util_1_1_stack" ],
-      [ "String", "struct_util_1_1_string.html", "struct_util_1_1_string" ],
+      [ "String", "class_util_1_1_string.html", "class_util_1_1_string" ],
       [ "StringAtom", "class_util_1_1_string_atom.html", "class_util_1_1_string_atom" ],
       [ "StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", "class_util_1_1_string_atom_table_base" ],
       [ "StringBuffer", "class_util_1_1_string_buffer.html", "class_util_1_1_string_buffer" ],
-      [ "StringMarshaler", "class_util_1_1_string_marshaler.html", "class_util_1_1_string_marshaler" ],
+      [ "StringInterop", "class_util_1_1_string_interop.html", "class_util_1_1_string_interop" ],
       [ "TrivialArray", "class_util_1_1_trivial_array.html", "class_util_1_1_trivial_array" ],
       [ "Variant", "class_util_1_1_variant.html", "class_util_1_1_variant" ]
     ] ],

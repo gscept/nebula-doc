@@ -1,6 +1,7 @@
 var class_nebula_1_1_debug =
 [
-    [ "Assert", "class_nebula_1_1_debug.html#a358d0f4b0452420b7dba94f9602d13a2", null ],
+    [ "Assert", "class_nebula_1_1_debug.html#a513378a02681cbf058a0a192a1d06ab9", null ],
     [ "Assert", "class_nebula_1_1_debug.html#a08705401ce0ad4876efec76cf3b9e651", null ],
-    [ "Log", "class_nebula_1_1_debug.html#a2e2c4701c4dc2eade6bc4816022438d7", null ]
+    [ "Log", "class_nebula_1_1_debug.html#a3c417f71cf36e83e256fb11673f75735", null ],
+    [ "Print", "class_nebula_1_1_debug.html#a384fbecf99257c634fba1f635980d4db", null ]
 ];

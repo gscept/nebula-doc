@@ -118,13 +118,20 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2e2c4701c4dc2eade6bc4816022438d7" id="r_a2e2c4701c4dc2eade6bc4816022438d7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a2e2c4701c4dc2eade6bc4816022438d7">Log</a> (string val)</td></tr>
-<tr class="memitem:a358d0f4b0452420b7dba94f9602d13a2" id="r_a358d0f4b0452420b7dba94f9602d13a2"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a358d0f4b0452420b7dba94f9602d13a2">Assert</a> (bool value)</td></tr>
+<tr class="memitem:a513378a02681cbf058a0a192a1d06ab9" id="r_a513378a02681cbf058a0a192a1d06ab9"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a513378a02681cbf058a0a192a1d06ab9">Assert</a> ([MarshalAs(UnmanagedType.I1)] bool value)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3c417f71cf36e83e256fb11673f75735" id="r_a3c417f71cf36e83e256fb11673f75735"><td class="memItemLeft">static unsafe void&#160;</td><td class="memItemRight"><a class="el" href="#a3c417f71cf36e83e256fb11673f75735">Log</a> (string val)</td></tr>
 <tr class="memitem:a08705401ce0ad4876efec76cf3b9e651" id="r_a08705401ce0ad4876efec76cf3b9e651"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a08705401ce0ad4876efec76cf3b9e651">Assert</a> (bool value, string message)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a384fbecf99257c634fba1f635980d4db" id="r_a384fbecf99257c634fba1f635980d4db"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a384fbecf99257c634fba1f635980d4db">Print</a> (IntPtr data, int isStdout)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a358d0f4b0452420b7dba94f9602d13a2" name="a358d0f4b0452420b7dba94f9602d13a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a358d0f4b0452420b7dba94f9602d13a2">&#9670;&#160;</a></span>Assert() <span class="overload">[1/2]</span></h2>
+<a id="a513378a02681cbf058a0a192a1d06ab9" name="a513378a02681cbf058a0a192a1d06ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a513378a02681cbf058a0a192a1d06ab9">&#9670;&#160;</a></span>Assert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,7 +139,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Nebula.Debug.Assert </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.I1)] bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -145,6 +152,9 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Nebula.Debug.Assert </td>
@@ -157,23 +167,65 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2e2c4701c4dc2eade6bc4816022438d7" name="a2e2c4701c4dc2eade6bc4816022438d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e2c4701c4dc2eade6bc4816022438d7">&#9670;&#160;</a></span>Log()</h2>
+<a id="a3c417f71cf36e83e256fb11673f75735" name="a3c417f71cf36e83e256fb11673f75735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c417f71cf36e83e256fb11673f75735">&#9670;&#160;</a></span>Log()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Nebula.Debug.Log </td>
+          <td class="memname">unsafe void Nebula.Debug.Log </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a384fbecf99257c634fba1f635980d4db" name="a384fbecf99257c634fba1f635980d4db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384fbecf99257c634fba1f635980d4db">&#9670;&#160;</a></span>Print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Debug.Print </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>isStdout</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

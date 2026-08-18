@@ -111,14 +111,11 @@ var searchData=
   ['transformable_108',['Transformable',['../struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html',1,'Models::ModelContext::ModelInstance']]],
   ['transformnode_109',['TransformNode',['../class_models_1_1_transform_node.html',1,'Models']]],
   ['trivialarray_110',['TrivialArray',['../class_util_1_1_trivial_array.html',1,'Util']]],
-  ['type_5fcaster_3c_20util_3a_3aarray_3c_20type_20_3e_20_3e_111',['type_caster&lt; Util::Array&lt; Type &gt; &gt;',['../structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html',1,'nanobind::detail']]],
-  ['type_5fcaster_3c_20util_3a_3adictionary_3c_20key_2c_20value_20_3e_20_3e_112',['type_caster&lt; Util::Dictionary&lt; Key, Value &gt; &gt;',['../structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html',1,'nanobind::detail']]],
-  ['type_5fcaster_3c_20util_3a_3astring_20_3e_113',['type_caster&lt; Util::String &gt;',['../structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html',1,'nanobind::detail']]],
-  ['typetraits_114',['TypeTraits',['../struct_im3d_1_1internal_1_1_type_traits.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20float_20_3e_115',['TypeTraits&lt; float &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20int_20_3e_116',['TypeTraits&lt; int &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20mat4_20_3e_117',['TypeTraits&lt; Mat4 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_mat4_01_4.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20vec2_20_3e_118',['TypeTraits&lt; Vec2 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec2_01_4.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20vec3_20_3e_119',['TypeTraits&lt; Vec3 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html',1,'Im3d::internal']]],
-  ['typetraits_3c_20vec4_20_3e_120',['TypeTraits&lt; Vec4 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html',1,'Im3d::internal']]]
+  ['typetraits_111',['TypeTraits',['../struct_im3d_1_1internal_1_1_type_traits.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20float_20_3e_112',['TypeTraits&lt; float &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20int_20_3e_113',['TypeTraits&lt; int &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20mat4_20_3e_114',['TypeTraits&lt; Mat4 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_mat4_01_4.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20vec2_20_3e_115',['TypeTraits&lt; Vec2 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec2_01_4.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20vec3_20_3e_116',['TypeTraits&lt; Vec3 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html',1,'Im3d::internal']]],
+  ['typetraits_3c_20vec4_20_3e_117',['TypeTraits&lt; Vec4 &gt;',['../struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html',1,'Im3d::internal']]]
 ];

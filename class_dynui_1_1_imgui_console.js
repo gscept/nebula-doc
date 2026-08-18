@@ -1,10 +1,6 @@
 var class_dynui_1_1_imgui_console =
 [
     [ "LogEntry", "struct_dynui_1_1_imgui_console_1_1_log_entry.html", "struct_dynui_1_1_imgui_console_1_1_log_entry" ],
-    [ "CommandMode", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9", [
-      [ "Python", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff", null ],
-      [ "CVar", "class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9a10ea2835e3d4bb84bb39656ae948cd9e", null ]
-    ] ],
     [ "LogMessageType", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12", [
       [ "N_MESSAGE", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12a26399f732b3eb5aa0fa32922eb7f8689", null ],
       [ "N_INPUT", "class_dynui_1_1_imgui_console.html#adbede0230aaed6288488cf5f7d6dce12a22674b798802a46f469e0b98afe38142", null ],
@@ -25,13 +21,11 @@ var class_dynui_1_1_imgui_console =
     [ "Render", "class_dynui_1_1_imgui_console.html#a50412990942953ffb873f5ca6369ba59", null ],
     [ "RenderContent", "class_dynui_1_1_imgui_console.html#aba57ffc168b20aa8e5a1d9decb3ce28d", null ],
     [ "Setup", "class_dynui_1_1_imgui_console.html#acc2ba3685798087d8e59392e0d62be4e", null ],
-    [ "cmdMode", "class_dynui_1_1_imgui_console.html#a77938936faedb6a41473826bcf946618", null ],
     [ "command", "class_dynui_1_1_imgui_console.html#a7b0a20a973d16d7f7871f22b2a190ae6", null ],
     [ "consoleBuffer", "class_dynui_1_1_imgui_console.html#a240aa037ee64412b355fd9454b7e4c6c", null ],
     [ "persistentHistory", "class_dynui_1_1_imgui_console.html#aac62c4fb749585cc94aca7d97caa610b", null ],
     [ "previousCommandIndex", "class_dynui_1_1_imgui_console.html#aaabf0da98a27a02ae3b56901748a2ebe", null ],
     [ "previousCommands", "class_dynui_1_1_imgui_console.html#a6ec1f82f90da09cc06347c1526b154da", null ],
-    [ "scriptServer", "class_dynui_1_1_imgui_console.html#ae7790b9749081151d562db24a3a441ea", null ],
     [ "scrollToBottom", "class_dynui_1_1_imgui_console.html#a90b87662a6b0324ccfd1c00cda3cb633", null ],
     [ "selectedSuggestion", "class_dynui_1_1_imgui_console.html#a1efca5d9d5c8eba3fab418592f71db6c", null ],
     [ "visible", "class_dynui_1_1_imgui_console.html#ae9a2bf462a8ae56728378aa53afc1283", null ]

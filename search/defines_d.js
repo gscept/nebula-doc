@@ -222,7 +222,7 @@ var searchData=
   ['nomcx_219',['NOMCX',['../foundation_2core_2win32_2precompiled_8h.html#a256fe1caeb996b1142c3eb51097fef0e',1,'precompiled.h']]],
   ['nomemmgr_220',['NOMEMMGR',['../foundation_2core_2win32_2precompiled_8h.html#a8b2f514658ba28ae0ea3b8b96edf520e',1,'precompiled.h']]],
   ['nometafile_221',['NOMETAFILE',['../foundation_2core_2win32_2precompiled_8h.html#a37618c72c08b2464576612b2ac595b30',1,'precompiled.h']]],
-  ['nominmax_222',['NOMINMAX',['../pythonserver_8cc.html#a9f918755b601cf4bffca775992e6fb90',1,'NOMINMAX:&#160;pythonserver.cc'],['../foundation_2core_2win32_2precompiled_8h.html#a9f918755b601cf4bffca775992e6fb90',1,'NOMINMAX:&#160;precompiled.h']]],
+  ['nominmax_222',['NOMINMAX',['../foundation_2core_2win32_2precompiled_8h.html#a9f918755b601cf4bffca775992e6fb90',1,'precompiled.h']]],
   ['noopenfile_223',['NOOPENFILE',['../foundation_2core_2win32_2precompiled_8h.html#a2d7186e4a6dfcc0011461ce1e8b70a05',1,'precompiled.h']]],
   ['noprofiler_224',['NOPROFILER',['../foundation_2core_2win32_2precompiled_8h.html#af883320ccbc88fe5ff2d8733ec0a034f',1,'precompiled.h']]],
   ['noservice_225',['NOSERVICE',['../foundation_2core_2win32_2precompiled_8h.html#a14ac98af6281e748377693d824e41ca9',1,'precompiled.h']]]

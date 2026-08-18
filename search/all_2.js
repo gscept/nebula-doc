@@ -122,7 +122,7 @@ var searchData=
   ['beginrow_119',['BeginRow',['../class_db_1_1_writer.html#a78acbca9887154d7886944fbe21fb5e8',1,'Db::Writer']]],
   ['beginsetup_120',['BeginSetup',['../class_util_1_1_sparse_table.html#a5897d12ffd049378b5e0cc77e0dae79d',1,'Util::SparseTable']]],
   ['beginsimulating_121',['BeginSimulating',['../class_physics_1_1_physx_state.html#a6327ece43031b32bdff846a6215116ab',1,'Physics::PhysxState::BeginSimulating()'],['../namespace_physics.html#ad332aeaa2b0e5a6a7603896e53edf338',1,'Physics::BeginSimulating()']]],
-  ['beginswithstring_122',['BeginsWithString',['../struct_util_1_1_string.html#ae192b4e10f7ae64eb36d4f208f580755',1,'Util::String']]],
+  ['beginswithstring_122',['BeginsWithString',['../class_util_1_1_string.html#aabacde2d46f56a3efcdf56ef6e13be6a',1,'Util::String']]],
   ['beginsynchronize_123',['BeginSynchronize',['../class_static_u_i_1_1_ultralight_renderer.html#aa74a40216e1a7e938c2c60a9a5300c04',1,'StaticUI::UltralightRenderer']]],
   ['begintextgroup_124',['BeginTextGroup',['../class_http_1_1_svg_page_writer.html#a39d48e67df3cdc1cd091c200e1493d26',1,'Http::SvgPageWriter']]],
   ['begintransaction_125',['BeginTransaction',['../class_db_1_1_database.html#a0e68662b11045de18e1eeeaf5bd292a2',1,'Db::Database::BeginTransaction()'],['../class_db_1_1_sqlite3_database.html#a9b0750df0841ef991d2d7d0706d9eea9',1,'Db::Sqlite3Database::BeginTransaction()']]],

@@ -440,9 +440,6 @@ var hierarchy =
     [ "Vulkan::DerivativeLayout", "struct_vulkan_1_1_derivative_layout.html", null ],
     [ "CoreGraphics::DerivativeStateId", "struct_core_graphics_1_1_derivative_state_id.html", null ],
     [ "Vulkan::DescriptorSetBinding", "struct_vulkan_1_1_descriptor_set_binding.html", null ],
-    [ "nanobind::detail::dict_caster", null, [
-      [ "nanobind::detail::type_caster< Util::Dictionary< Key, Value > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_dictionary_3_01_key_00_01_value_01_4_01_4.html", null ]
-    ] ],
     [ "Util::Dictionary&lt; KEYTYPE, VALUETYPE &gt;", "class_util_1_1_dictionary.html", null ],
     [ "Lighting::LightContext::DirectionalLightSetupInfo", "struct_lighting_1_1_light_context_1_1_directional_light_setup_info.html", null ],
     [ "DisplayDevice", "class_core_graphics_1_1_display_device.html", null ],
@@ -634,9 +631,6 @@ var hierarchy =
     [ "HttpClient", "class_simple_1_1_http_client.html", null ],
     [ "Http::HttpMethod", "class_http_1_1_http_method.html", null ],
     [ "Http::HttpStatus", "class_http_1_1_http_status.html", null ],
-    [ "ICustomMarshaler", null, [
-      [ "Util.StringMarshaler", "class_util_1_1_string_marshaler.html", null ]
-    ] ],
     [ "Ids::Id", "struct_ids_1_1_id.html", null ],
     [ "Messaging::Id", "class_messaging_1_1_id.html", null ],
     [ "Ids::IdGenerationPool", "class_ids_1_1_id_generation_pool.html", null ],
@@ -665,6 +659,10 @@ var hierarchy =
     [ "CoreGraphics::ImageFileFormat", "class_core_graphics_1_1_image_file_format.html", null ],
     [ "CoreGraphics::ImageId", "struct_core_graphics_1_1_image_id.html", null ],
     [ "CoreGraphics::ImageLoadInfo", "struct_core_graphics_1_1_image_load_info.html", null ],
+    [ "Nebula.Game.MsgDispatcher.IMessageChannel", "interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html", [
+      [ "Nebula.Game.MsgDispatcher.MessageChannel< T >", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html", null ]
+    ] ],
+    [ "Nebula.Game.IMessageHandler&lt; T &gt;", "interface_nebula_1_1_game_1_1_i_message_handler-1-g.html", null ],
     [ "ImguiRenderer", "class_dynui_1_1_imgui_renderer.html", null ],
     [ "ImguiRTPlugin", "class_imgui_1_1_imgui_r_t_plugin.html", null ],
     [ "Dynui::ImGuiSecondaryWindowData", "struct_dynui_1_1_im_gui_secondary_window_data.html", null ],
@@ -743,9 +741,6 @@ var hierarchy =
     [ "Util::List&lt; RefCounted * &gt;", "class_util_1_1_list.html", [
       [ "Core::RefCountedList", "class_core_1_1_ref_counted_list.html", null ]
     ] ],
-    [ "list_caster", null, [
-      [ "nanobind::detail::type_caster< Util::Array< Type > >", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_array_3_01_type_01_4_01_4.html", null ]
-    ] ],
     [ "Audio::AudioDevice::Listener", "struct_audio_1_1_audio_device_1_1_listener.html", null ],
     [ "ListExt", "class_list_ext.html", null ],
     [ "Models::PrimitiveNode::LoadContext", "struct_models_1_1_primitive_node_1_1_load_context.html", null ],
@@ -812,7 +807,6 @@ var hierarchy =
     [ "RenderUtil::MouseRayUtil", "class_render_util_1_1_mouse_ray_util.html", null ],
     [ "Nebula.Game.Msg", "interface_nebula_1_1_game_1_1_msg.html", null ],
     [ "Nebula.Game.MsgDispatcher", "class_nebula_1_1_game_1_1_msg_dispatcher.html", null ],
-    [ "Nebula.Game.MsgDispatcher.MsgEvent", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html", null ],
     [ "Nebula.Game.NativeComponent", "interface_nebula_1_1_game_1_1_native_component.html", null ],
     [ "Navigation::NavMeshId", "struct_navigation_1_1_nav_mesh_id.html", null ],
     [ "CoreAnimation::Nax2Curve", "struct_core_animation_1_1_nax2_curve.html", null ],
@@ -1244,9 +1238,6 @@ var hierarchy =
       [ "Resources::ResourceSaver", "class_resources_1_1_resource_saver.html", null ],
       [ "Resources::ResourceServer", "class_resources_1_1_resource_server.html", null ],
       [ "Scripting::NSharpServer", "class_scripting_1_1_n_sharp_server.html", null ],
-      [ "Scripting::ScriptServer", "class_scripting_1_1_script_server.html", [
-        [ "Scripting::PythonServer", "class_scripting_1_1_python_server.html", null ]
-      ] ],
       [ "Threading::ObjectRef", "class_threading_1_1_object_ref.html", null ],
       [ "Visibility::VisibilityContainer", "class_visibility_1_1_visibility_container.html", null ],
       [ "Win32::Win32Socket", "class_win32_1_1_win32_socket.html", null ],
@@ -1358,7 +1349,7 @@ var hierarchy =
     [ "CoreGraphics::MeshLoader::StreamMeshLoadMetaData", "struct_core_graphics_1_1_mesh_loader_1_1_stream_mesh_load_meta_data.html", null ],
     [ "StreamShaderLoader", "class_core_graphics_1_1_stream_shader_loader.html", null ],
     [ "StreamTextureCache", "class_core_graphics_1_1_stream_texture_cache.html", null ],
-    [ "Util.String", "struct_util_1_1_string.html", null ],
+    [ "Util::String", "class_util_1_1_string.html", null ],
     [ "Attr::StringArrayTypeClass", "class_attr_1_1_string_array_type_class.html", null ],
     [ "Util::StringAtom", "class_util_1_1_string_atom.html", null ],
     [ "Util::StringAtomTableBase", "class_util_1_1_string_atom_table_base.html", [
@@ -1366,6 +1357,7 @@ var hierarchy =
       [ "Util::LocalStringAtomTable", "class_util_1_1_local_string_atom_table.html", null ]
     ] ],
     [ "Util::StringBuffer", "class_util_1_1_string_buffer.html", null ],
+    [ "Util.StringInterop", "class_util_1_1_string_interop.html", null ],
     [ "TiXmlBase::StringToBuffer", "class_ti_xml_base_1_1_string_to_buffer.html", null ],
     [ "Attr::StringTypeClass", "class_attr_1_1_string_type_class.html", null ],
     [ "Vulkan::VkSubContextHandler::SubmissionList", "struct_vulkan_1_1_vk_sub_context_handler_1_1_submission_list.html", null ],
@@ -1528,7 +1520,6 @@ var hierarchy =
     [ "Math::transform44", "class_math_1_1transform44.html", null ],
     [ "Attr::Transform44TypeClass", "class_attr_1_1_transform44_type_class.html", null ],
     [ "Models::ModelContext::ModelInstance::Transformable", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html", null ],
-    [ "nanobind::detail::type_caster&lt; Util::String &gt;", "structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html", null ],
     [ "Im3d::internal::TypeTraits&lt; T &gt;", "struct_im3d_1_1internal_1_1_type_traits.html", null ],
     [ "Im3d::internal::TypeTraits&lt; float &gt;", "struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html", null ],
     [ "Im3d::internal::TypeTraits&lt; int &gt;", "struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html", null ],

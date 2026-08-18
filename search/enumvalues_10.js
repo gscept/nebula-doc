@@ -84,6 +84,5 @@ var searchData=
   ['primitiveswireframetriangles_81',['PrimitivesWireframeTriangles',['../class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1fa0ae4e35ba8ad6220c61768050ea44c1a',1,'Base::ShapeRendererBase']]],
   ['print_82',['Print',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18aef06ff11be91b809d864f2da0854db10',1,'Input::Key']]],
   ['pushrange_83',['PushRange',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba83b5a9f86b63b718b1ad76b1855c7895',1,'CoreGraphics::DrawThread']]],
-  ['put_84',['Put',['../class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518a3c5078278f54502de61c9d4cac625056',1,'Http::HttpMethod']]],
-  ['python_85',['Python',['../class_dynui_1_1_imgui_console.html#a7f4cc6f591937692932afc448a4571b9aeac45ad6ac40d5b54af373b3c62631ff',1,'Dynui::ImguiConsole']]]
+  ['put_84',['Put',['../class_http_1_1_http_method.html#aa6a7f3d79b33c3a27b25fec67e029518a3c5078278f54502de61c9d4cac625056',1,'Http::HttpMethod']]]
 ];

@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"class_core_1_1_ref_counted.html#a353c6c54386b8c54b3af751a43567db5":[9,0,10,6,14],
-"class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e":[8,0,11,6,4],
 "class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e":[9,0,10,6,4],
 "class_core_1_1_ref_counted.html#a3f176af998aaceb4f3cfb8c1860e87a5":[8,0,11,6,11],
 "class_core_1_1_ref_counted.html#a3f176af998aaceb4f3cfb8c1860e87a5":[9,0,10,6,11],
@@ -81,8 +79,8 @@ var NAVTREEINDEX14 =
 "class_core_1_1_rtti.html#af26b3ee1ec06ca39320df79537ffaad6":[9,0,10,8,4],
 "class_core_1_1_rtti.html#aff5493aa054f61c337e466debb54091b":[8,0,11,8,7],
 "class_core_1_1_rtti.html#aff5493aa054f61c337e466debb54091b":[9,0,10,8,7],
-"class_core_1_1_singleton.html":[9,0,153],
-"class_core_1_1_sys_func.html":[9,0,161],
+"class_core_1_1_singleton.html":[9,0,152],
+"class_core_1_1_sys_func.html":[9,0,160],
 "class_core_animation_1_1_anim_clip.html":[8,0,12,4],
 "class_core_animation_1_1_anim_clip.html":[9,0,11,4],
 "class_core_animation_1_1_anim_clip.html#a2671f22a542d1efd09b36ba412f3c349":[8,0,12,4,6],
@@ -185,7 +183,7 @@ var NAVTREEINDEX14 =
 "class_core_animation_1_1_anim_key_buffer.html#ae7b017bdd2a5012f5024fc4e64914835":[9,0,11,8,14],
 "class_core_animation_1_1_anim_key_buffer.html#ae9cbeef9b8fe91815aedd0b5f7e89f91":[8,0,12,8,12],
 "class_core_animation_1_1_anim_key_buffer.html#ae9cbeef9b8fe91815aedd0b5f7e89f91":[9,0,11,8,12],
-"class_core_animation_1_1_anim_resource.html":[9,0,79],
+"class_core_animation_1_1_anim_resource.html":[9,0,78],
 "class_core_animation_1_1_anim_sample_buffer.html":[8,0,12,9],
 "class_core_animation_1_1_anim_sample_buffer.html":[9,0,11,9],
 "class_core_animation_1_1_anim_sample_buffer.html#a069b18e57084c0dba1de7644ab9ed2bf":[8,0,12,9,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "class_core_animation_1_1_curve_type.html#a1fd6ad445fe8f99239f8579f66352e04":[8,0,12,13,1],
 "class_core_animation_1_1_curve_type.html#a1fd6ad445fe8f99239f8579f66352e04":[9,0,11,13,1],
 "class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[8,0,12,13,0],
-"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[9,0,11,13,0]
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991be":[9,0,11,13,0],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[8,0,12,13,0,2],
+"class_core_animation_1_1_curve_type.html#a4e6db2c4bba7040f0ffd18d90a0991bea0d82e3aafe7a967d16e7d3eb3dcc24f7":[9,0,11,13,0,2]
 };

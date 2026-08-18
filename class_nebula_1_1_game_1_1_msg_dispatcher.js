@@ -1,8 +1,10 @@
 var class_nebula_1_1_game_1_1_msg_dispatcher =
 [
-    [ "MsgEvent", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event.html", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_msg_event" ],
-    [ "AttachHandler", "class_nebula_1_1_game_1_1_msg_dispatcher.html#abe4eded388ad916229835fc89a2066a2", null ],
-    [ "Dispatch< T >", "class_nebula_1_1_game_1_1_msg_dispatcher.html#a4d0218ab8c9faf8bc7fd21044993b1a5", null ],
-    [ "HandleMessage", "class_nebula_1_1_game_1_1_msg_dispatcher.html#aa5ef86a35e88ed889d684c4e2d2d6cd1", null ],
-    [ "events", "class_nebula_1_1_game_1_1_msg_dispatcher.html#adc6aebb5aa2baeb4410ef2bc47a44a5a", null ]
+    [ "IMessageChannel", "interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html", "interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel" ],
+    [ "MessageChannel&lt; T &gt;", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html", "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g" ],
+    [ "Dispatch< T >", "class_nebula_1_1_game_1_1_msg_dispatcher.html#a90f8217a664d5bc59236df07524e8017", null ],
+    [ "Register< T >", "class_nebula_1_1_game_1_1_msg_dispatcher.html#a1e57d795b118563ed910227d802b0f4b", null ],
+    [ "Unregister", "class_nebula_1_1_game_1_1_msg_dispatcher.html#a45e9a2c6681551746750217a46a828cc", null ],
+    [ "channels", "class_nebula_1_1_game_1_1_msg_dispatcher.html#ab32ab64b5b9b1cc1c542c7b5b6f7ed9f", null ],
+    [ "emptyChannels", "class_nebula_1_1_game_1_1_msg_dispatcher.html#a002230de4bc1bb7f7e2d9d3865c182ff", null ]
 ];

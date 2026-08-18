@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.17.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: nanobind::detail::type_caster&lt; Util::String &gt; Struct Reference</title>
+		<title>Nebula: Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt; Class Template Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html','','structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4-members'); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html','','class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -112,28 +112,29 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('structnanobind
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">nanobind::detail::type_caster&lt; Util::String &gt; Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel sealed">sealed</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="conversion_8h_source.html">conversion.h</a>&gt;</code></p>
+<p>Inherits <a class="el" href="interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html">Nebula.Game.MsgDispatcher.IMessageChannel</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3e176cd1009925e6ae5a15af695a5ec1" id="r_a3e176cd1009925e6ae5a15af695a5ec1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3e176cd1009925e6ae5a15af695a5ec1">from_python</a> (handle src, uint8_t flags, cleanup_list *) noexcept</td></tr>
-<tr class="memitem:a1855fcbb621628f69d047e7041aaf1dd" id="r_a1855fcbb621628f69d047e7041aaf1dd"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1855fcbb621628f69d047e7041aaf1dd">NB_TYPE_CASTER</a> (<a class="el" href="struct_util_1_1_string.html">Util::String</a>, const_name(&quot;str&quot;))</td></tr>
+<tr class="memitem:afa3cab82a6b77740104f9c7d46c1d625" id="r_afa3cab82a6b77740104f9c7d46c1d625"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afa3cab82a6b77740104f9c7d46c1d625">Add</a> (IMessageHandler&lt; T &gt; handler)</td></tr>
+<tr class="memitem:a0d153ed29e5b735bb94bb29defe586b5" id="r_a0d153ed29e5b735bb94bb29defe586b5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0d153ed29e5b735bb94bb29defe586b5">Remove</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
+<tr class="memitem:afbabdc542c470a15b4ed22874bbcc2c0" id="r_afbabdc542c470a15b4ed22874bbcc2c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afbabdc542c470a15b4ed22874bbcc2c0">Dispatch</a> (in T message)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a765f1d464981734455102d8bbf594490" id="r_a765f1d464981734455102d8bbf594490"><td class="memItemLeft">static handle&#160;</td><td class="memItemRight"><a class="el" href="#a765f1d464981734455102d8bbf594490">from_cpp</a> (const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;src, rv_policy, cleanup_list *) noexcept</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a46e2e97879d7ac9490ee9b604357a170" id="r_a46e2e97879d7ac9490ee9b604357a170"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a46e2e97879d7ac9490ee9b604357a170">IsEmpty</a><code> [get]</code></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aa81751622c5c7b8b98bd4aad836f5f5b" id="r_aa81751622c5c7b8b98bd4aad836f5f5b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa81751622c5c7b8b98bd4aad836f5f5b">load_bytes</a> (handle src)</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af173d4ce82864f517190692f3d1a81d5" id="r_af173d4ce82864f517190692f3d1a81d5"><td class="memItemLeft">List&lt; IMessageHandler&lt; T &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af173d4ce82864f517190692f3d1a81d5">handlers</a> = new List&lt;IMessageHandler&lt;T&gt;&gt;()</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a765f1d464981734455102d8bbf594490" name="a765f1d464981734455102d8bbf594490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a765f1d464981734455102d8bbf594490">&#9670;&#160;</a></span>from_cpp()</h2>
+<a id="afa3cab82a6b77740104f9c7d46c1d625" name="afa3cab82a6b77740104f9c7d46c1d625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3cab82a6b77740104f9c7d46c1d625">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,32 +143,23 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">handle nanobind::detail::type_caster&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;::from_cpp </td>
+          <td class="memname">void Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;.Add </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">IMessageHandler&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>handler</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">rv_policy</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cleanup_list *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3e176cd1009925e6ae5a15af695a5ec1" name="a3e176cd1009925e6ae5a15af695a5ec1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e176cd1009925e6ae5a15af695a5ec1">&#9670;&#160;</a></span>from_python()</h2>
+<a id="afbabdc542c470a15b4ed22874bbcc2c0" name="afbabdc542c470a15b4ed22874bbcc2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbabdc542c470a15b4ed22874bbcc2c0">&#9670;&#160;</a></span>Dispatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,32 +168,23 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool nanobind::detail::type_caster&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;::from_python </td>
+          <td class="memname">void Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;.Dispatch </td>
           <td>(</td>
-          <td class="paramtype">handle</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">in T</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cleanup_list *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa81751622c5c7b8b98bd4aad836f5f5b" name="aa81751622c5c7b8b98bd4aad836f5f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa81751622c5c7b8b98bd4aad836f5f5b">&#9670;&#160;</a></span>load_bytes()</h2>
+<a id="a0d153ed29e5b735bb94bb29defe586b5" name="a0d153ed29e5b735bb94bb29defe586b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d153ed29e5b735bb94bb29defe586b5">&#9670;&#160;</a></span>Remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,44 +193,73 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool nanobind::detail::type_caster&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;::load_bytes </td>
+          <td class="memname">void Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;.Remove </td>
           <td>(</td>
-          <td class="paramtype">handle</td>          <td class="paramname"><span class="paramname"><em>src</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html#a56a36006e783f92160bf4a1c6be1b73a">Nebula.Game.MsgDispatcher.IMessageChannel</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="af173d4ce82864f517190692f3d1a81d5" name="af173d4ce82864f517190692f3d1a81d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af173d4ce82864f517190692f3d1a81d5">&#9670;&#160;</a></span>handlers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;IMessageHandler&lt;T&gt; &gt; Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;.handlers = new List&lt;IMessageHandler&lt;T&gt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1855fcbb621628f69d047e7041aaf1dd" name="a1855fcbb621628f69d047e7041aaf1dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1855fcbb621628f69d047e7041aaf1dd">&#9670;&#160;</a></span>NB_TYPE_CASTER()</h2>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a46e2e97879d7ac9490ee9b604357a170" name="a46e2e97879d7ac9490ee9b604357a170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e2e97879d7ac9490ee9b604357a170">&#9670;&#160;</a></span>IsEmpty</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">nanobind::detail::type_caster&lt; <a class="el" href="struct_util_1_1_string.html">Util::String</a> &gt;::NB_TYPE_CASTER </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_util_1_1_string.html">Util::String</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const_name(&quot;str&quot;)</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="memname">bool Nebula.Game.MsgDispatcher.MessageChannel&lt; T &gt;.IsEmpty</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_nebula_1_1_game_1_1_msg_dispatcher_1_1_i_message_channel.html#a4d06642851312ac12a9377c185b85238">Nebula.Game.MsgDispatcher.IMessageChannel</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/code/addons/scripting/python/<a class="el" href="conversion_8h_source.html">conversion.h</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>/github/workspace/code/addons/nsharp/NebulaEngine/engine/<a class="el" href="_msg_dispatcher_8cs.html">MsgDispatcher.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -262,7 +274,7 @@ Private Member Functions</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="namespacenanobind.html">nanobind</a></li><li class="navelem"><a href="namespacenanobind_1_1detail.html">detail</a></li><li class="navelem"><a href="structnanobind_1_1detail_1_1type__caster_3_01_util_1_1_string_01_4.html">type_caster&lt; Util::String &gt;</a></li>
+				<li class="navelem"><a href="namespace_nebula.html">Nebula</a></li><li class="navelem"><a href="namespace_nebula_1_1_game.html">Game</a></li><li class="navelem"><a href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a></li><li class="navelem"><a href="class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html">MessageChannel&lt; T &gt;</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

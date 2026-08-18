@@ -53,7 +53,7 @@ var searchData=
   ['loadstencil_50',['LoadStencil',['../namespace_core_graphics.html#ae5d17e9014cde640ffa9e824151e1a90a714a0256aeb72a90e7639122436d5837',1,'CoreGraphics']]],
   ['lobby_51',['Lobby',['../namespace_multiplayer.html#a1e0128811ed136204fae25a4a198bf73a0d4c3d1b3f0c14e4aae9e9598ed745db',1,'Multiplayer']]],
   ['localmachine_52',['LocalMachine',['../class_win32_1_1_win32_registry.html#a02341fd5aa1efbcd79156e6426496629ab8e10080e376653d57428223cd06b1a2',1,'Win32::Win32Registry']]],
-  ['localstringsize_53',['LocalStringSize',['../struct_util_1_1_string.html#ab13006f4153af4fabba7ed470845cea4afac9c7fdeaa7e7d16853b9e89bc2585f',1,'Util::String']]],
+  ['localstringsize_53',['LocalStringSize',['../class_util_1_1_string.html#ab13006f4153af4fabba7ed470845cea4a75dca27290e6a961948b82d5f2c759f3',1,'Util::String']]],
   ['looping_54',['Looping',['../class_particles_1_1_emitter_attrs.html#aeb6fa67bff88bc4cb3e44af00d567c7aa8597312337becc3b564ecbab36472792',1,'Particles::EmitterAttrs']]],
   ['low_55',['Low',['../class_linux_1_1_linux_thread.html#acb119e84c90c15c9bda9e21e568d66a9a6ab6cd5cf9810ffdcee96d56154fc903',1,'Linux::LinuxThread::Low'],['../class_o_s_x_1_1_o_s_x_thread.html#aadddae23f775aed2cb5c799b63ef5e86a4489e79a305176d0408c11723aabce52',1,'OSX::OSXThread::Low'],['../class_posix_1_1_posix_thread.html#a0457fd62c11907cbff1e3b7f2ca119aba0de10b13de730bc39ff9139710df1a99',1,'Posix::PosixThread::Low'],['../class_win32_1_1_win32_thread.html#a080d583ddf0b00962f78ad57a42645d1a37d5782c74f915acebcf33dbf15f729d',1,'Win32::Win32Thread::Low'],['../class_core_graphics_1_1_anti_alias_quality.html#a8f1394776ae4dc9f0e182238eda539a1a2bfb3b86193003be729dd80b26340784',1,'CoreGraphics::AntiAliasQuality::Low']]]
 ];
