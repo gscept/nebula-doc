@@ -129,6 +129,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_mode
 Classes</h2></td></tr>
 <tr class="memitem:CharacterNode" id="r_CharacterNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_character_node.html">CharacterNode</a></td></tr>
 <tr class="memitem:CharacterSkinNode" id="r_CharacterSkinNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_character_skin_node.html">CharacterSkinNode</a></td></tr>
+<tr class="memitem:JointMask" id="r_JointMask"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a></td></tr>
 <tr class="memitem:ModelContext" id="r_ModelContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_model_context.html">ModelContext</a></td></tr>
 <tr class="memitem:ModelCreateInfo" id="r_ModelCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_model_create_info.html">ModelCreateInfo</a></td></tr>
 <tr class="memitem:ModelId" id="r_ModelId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_model_id.html">ModelId</a></td></tr>
@@ -139,11 +140,12 @@ Classes</h2></td></tr>
 <tr class="memitem:ParticleSystemNode" id="r_ParticleSystemNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_particle_system_node.html">ParticleSystemNode</a></td></tr>
 <tr class="memitem:PrimitiveNode" id="r_PrimitiveNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_primitive_node.html">PrimitiveNode</a></td></tr>
 <tr class="memitem:ShaderStateNode" id="r_ShaderStateNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_shader_state_node.html">ShaderStateNode</a></td></tr>
+<tr class="memitem:Take" id="r_Take"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_take.html">Take</a></td></tr>
 <tr class="memitem:TransformNode" id="r_TransformNode"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_models_1_1_transform_node.html">TransformNode</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aec29d595b1f0529c82c19ca4dcf3dd26" id="r_aec29d595b1f0529c82c19ca4dcf3dd26"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aec29d595b1f0529c82c19ca4dcf3dd26">ModelAllocator</a></td></tr>
+<tr class="memitem:a7f301d3c25acdc46e808acf131d66734" id="r_a7f301d3c25acdc46e808acf131d66734"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_take.html">Take</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7f301d3c25acdc46e808acf131d66734">ModelAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -169,6 +171,8 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memitem:a95b5c76873f9f89e7d6dccfd56bb9fc9" id="r_a95b5c76873f9f89e7d6dccfd56bb9fc9"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#a95b5c76873f9f89e7d6dccfd56bb9fc9a69eb1ab5c5e2159de5ed9613ea4e1257">Model_BoundingBox</a>
 , <a class="el" href="#a95b5c76873f9f89e7d6dccfd56bb9fc9a2974d9933e9d11e9f94e5a61ac888f81">Model_Nodes</a>
+, <a class="el" href="#a95b5c76873f9f89e7d6dccfd56bb9fc9a66e4ed69067145c2632ff324ccc531d6">Model_JointMasks</a>
+, <a class="el" href="#a95b5c76873f9f89e7d6dccfd56bb9fc9a4a2b84a495e19a754a27354bbf25cd65">Model_Takes</a>
  }</td></tr>
 <tr class="memitem:a37ca55daed3c501c162e90e235ff1e46" id="r_a37ca55daed3c501c162e90e235ff1e46"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a37ca55daed3c501c162e90e235ff1e46">NodeInstanceFlags</a> { <br />
 &#160;&#160;<a class="el" href="#a37ca55daed3c501c162e90e235ff1e46ac0b93fc214eeeb504d297c6b0831dec0">NodeInstance_Active</a> = N_BIT(1)
@@ -198,18 +202,18 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8384f3074d10ebd4c9062d5717240dac" id="r_a8384f3074d10ebd4c9062d5717240dac"><td class="memItemLeft"><a class="el" href="#aec29d595b1f0529c82c19ca4dcf3dd26">ModelAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8384f3074d10ebd4c9062d5717240dac">modelAllocator</a></td></tr>
+<tr class="memitem:a8384f3074d10ebd4c9062d5717240dac" id="r_a8384f3074d10ebd4c9062d5717240dac"><td class="memItemLeft"><a class="el" href="#a7f301d3c25acdc46e808acf131d66734">ModelAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8384f3074d10ebd4c9062d5717240dac">modelAllocator</a></td></tr>
 <tr class="memitem:aeb16d485dfcc2dc93c6c6f1333b6ce7b" id="r_aeb16d485dfcc2dc93c6c6f1333b6ce7b"><td class="memItemLeft"><a class="el" href="class_threading_1_1_lock_free_queue.html">Threading::LockFreeQueue</a>&lt; std::function&lt; void()&gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aeb16d485dfcc2dc93c6c6f1333b6ce7b">setupCompleteQueue</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="aec29d595b1f0529c82c19ca4dcf3dd26" name="aec29d595b1f0529c82c19ca4dcf3dd26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec29d595b1f0529c82c19ca4dcf3dd26">&#9670;&#160;</a></span>ModelAllocator</h2>
+<a id="a7f301d3c25acdc46e808acf131d66734" name="a7f301d3c25acdc46e808acf131d66734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f301d3c25acdc46e808acf131d66734">&#9670;&#160;</a></span>ModelAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a>*&gt;&gt; <a class="el" href="#aec29d595b1f0529c82c19ca4dcf3dd26">Models::ModelAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a>*&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_models_1_1_take.html">Take</a>&gt;&gt; <a class="el" href="#a7f301d3c25acdc46e808acf131d66734">Models::ModelAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,6 +235,8 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a95b5c76873f9f89e7d6dccfd56bb9fc9a69eb1ab5c5e2159de5ed9613ea4e1257" name="a95b5c76873f9f89e7d6dccfd56bb9fc9a69eb1ab5c5e2159de5ed9613ea4e1257"></a>Model_BoundingBox&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a95b5c76873f9f89e7d6dccfd56bb9fc9a2974d9933e9d11e9f94e5a61ac888f81" name="a95b5c76873f9f89e7d6dccfd56bb9fc9a2974d9933e9d11e9f94e5a61ac888f81"></a>Model_Nodes&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a95b5c76873f9f89e7d6dccfd56bb9fc9a66e4ed69067145c2632ff324ccc531d6" name="a95b5c76873f9f89e7d6dccfd56bb9fc9a66e4ed69067145c2632ff324ccc531d6"></a>Model_JointMasks&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a95b5c76873f9f89e7d6dccfd56bb9fc9a4a2b84a495e19a754a27354bbf25cd65" name="a95b5c76873f9f89e7d6dccfd56bb9fc9a4a2b84a495e19a754a27354bbf25cd65"></a>Model_Takes&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -518,7 +524,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aec29d595b1f0529c82c19ca4dcf3dd26">ModelAllocator</a> Models::modelAllocator</td>
+          <td class="memname"><a class="el" href="#a7f301d3c25acdc46e808acf131d66734">ModelAllocator</a> Models::modelAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">

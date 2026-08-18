@@ -145,11 +145,12 @@ Public Types</h2></td></tr>
 , <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba9c41697e52bda4cda24a52623c761f44">KeyUp</a>
 , <br />
 &#160;&#160;<a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba085fe42b5639f297e06b156730345deb">Character</a>
+, <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1bae84104c6f500a96d96587e9b0c6d1267">Drop</a>
 , <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1badeb47fc94509a32292537cdc83bd87a0">MouseMove</a>
 , <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba70fb221e8868a9b4a6875575f57c0b9c">MouseButtonDown</a>
-, <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba97d7c87e7053d859e27c974734b8259f">MouseButtonUp</a>
 , <br />
-&#160;&#160;<a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba9c73a02462e9424958ddb2a982326b0b">MouseButtonDoubleClick</a>
+&#160;&#160;<a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba97d7c87e7053d859e27c974734b8259f">MouseButtonUp</a>
+, <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1ba9c73a02462e9424958ddb2a982326b0b">MouseButtonDoubleClick</a>
 , <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1baa782b3dd26118fe5ebbbb54aeb913ba0">MouseWheelForward</a>
 , <a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1baa777bd2e0c214fd431a224c0e4408af4">MouseWheelBackward</a>
 <br />
@@ -172,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7fa919d4195e9e42753346b5ae67fd87"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor with character  <br /></td></tr>
 <tr class="memitem:af2747980154bc7495109c21a6529c4d6" id="r_af2747980154bc7495109c21a6529c4d6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af2747980154bc7495109c21a6529c4d6">DisplayEvent</a> (<a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1b">Code</a> c, <a class="el" href="class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912">Input::MouseButton::Code</a> b, const <a class="el" href="struct_math_1_1vec2.html">Math::vec2</a> &amp;absPos, const <a class="el" href="struct_math_1_1vec2.html">Math::vec2</a> &amp;normPos)</td></tr>
 <tr class="memdesc:af2747980154bc7495109c21a6529c4d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor with mouse button and mouse pos  <br /></td></tr>
+<tr class="memitem:a99f3423a36086ac9ac0cf81550739d81" id="r_a99f3423a36086ac9ac0cf81550739d81"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a99f3423a36086ac9ac0cf81550739d81">DisplayEvent</a> (<a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1b">Code</a> c, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &amp;files)</td></tr>
+<tr class="memdesc:a99f3423a36086ac9ac0cf81550739d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor with file drop  <br /></td></tr>
 <tr class="memitem:a1572142805e0e025b3b9fdee4c29cfe1" id="r_a1572142805e0e025b3b9fdee4c29cfe1"><td class="memItemLeft"><a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1b">Code</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1572142805e0e025b3b9fdee4c29cfe1">GetEventCode</a> () const</td></tr>
 <tr class="memdesc:a1572142805e0e025b3b9fdee4c29cfe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get event code  <br /></td></tr>
 <tr class="memitem:a5932acd63c745197c2024ea0c817c140" id="r_a5932acd63c745197c2024ea0c817c140"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5932acd63c745197c2024ea0c817c140">GetWindowId</a> () const</td></tr>
@@ -186,6 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7c57a1a56bedad5e11aec790d3beb867"><td class="mdescLeft">&#160;</td><td class="mdescRight">get character code  <br /></td></tr>
 <tr class="memitem:a6b797319b55373666a819d336503338b" id="r_a6b797319b55373666a819d336503338b"><td class="memItemLeft"><a class="el" href="class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912">Input::MouseButton::Code</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6b797319b55373666a819d336503338b">GetMouseButton</a> () const</td></tr>
 <tr class="memdesc:a6b797319b55373666a819d336503338b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get mouse button code  <br /></td></tr>
+<tr class="memitem:a1e06f39429ab8abdf97c1b45695dd7a9" id="r_a1e06f39429ab8abdf97c1b45695dd7a9"><td class="memItemLeft">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a1e06f39429ab8abdf97c1b45695dd7a9">GetFiles</a> () const</td></tr>
+<tr class="memdesc:a1e06f39429ab8abdf97c1b45695dd7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get files.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -196,6 +201,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a802b6afcaeefa35f217b5f92920fd63b" id="r_a802b6afcaeefa35f217b5f92920fd63b"><td class="memItemLeft"><a class="el" href="class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18">Input::Key::Code</a>&#160;</td><td class="memItemRight"><a class="el" href="#a802b6afcaeefa35f217b5f92920fd63b">keyCode</a></td></tr>
 <tr class="memitem:a5c91739e8663d94c45fad9efc2a228ca" id="r_a5c91739e8663d94c45fad9efc2a228ca"><td class="memItemLeft"><a class="el" href="namespace_input.html#a3fc54dbf2698f895d84d1ab729e8a7e8">Input::Char</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5c91739e8663d94c45fad9efc2a228ca">charCode</a></td></tr>
 <tr class="memitem:aef556b9b48271afe2a0279d6cbeeaf72" id="r_aef556b9b48271afe2a0279d6cbeeaf72"><td class="memItemLeft"><a class="el" href="class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912">Input::MouseButton::Code</a>&#160;</td><td class="memItemRight"><a class="el" href="#aef556b9b48271afe2a0279d6cbeeaf72">mouseButtonCode</a></td></tr>
+<tr class="memitem:a94ec125a2c0b16eccbdaaf83940cbf6f" id="r_a94ec125a2c0b16eccbdaaf83940cbf6f"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a94ec125a2c0b16eccbdaaf83940cbf6f">files</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae20d6ec8a82225d61f68fb2c365a8b1b" name="ae20d6ec8a82225d61f68fb2c365a8b1b"></a>
@@ -229,6 +235,7 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1baa6b976f043c6fcdf3c1e46926066eeac" name="ae20d6ec8a82225d61f68fb2c365a8b1baa6b976f043c6fcdf3c1e46926066eeac"></a>KeyDown&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1ba9c41697e52bda4cda24a52623c761f44" name="ae20d6ec8a82225d61f68fb2c365a8b1ba9c41697e52bda4cda24a52623c761f44"></a>KeyUp&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1ba085fe42b5639f297e06b156730345deb" name="ae20d6ec8a82225d61f68fb2c365a8b1ba085fe42b5639f297e06b156730345deb"></a>Character&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1bae84104c6f500a96d96587e9b0c6d1267" name="ae20d6ec8a82225d61f68fb2c365a8b1bae84104c6f500a96d96587e9b0c6d1267"></a>Drop&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1badeb47fc94509a32292537cdc83bd87a0" name="ae20d6ec8a82225d61f68fb2c365a8b1badeb47fc94509a32292537cdc83bd87a0"></a>MouseMove&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1ba70fb221e8868a9b4a6875575f57c0b9c" name="ae20d6ec8a82225d61f68fb2c365a8b1ba70fb221e8868a9b4a6875575f57c0b9c"></a>MouseButtonDown&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae20d6ec8a82225d61f68fb2c365a8b1ba97d7c87e7053d859e27c974734b8259f" name="ae20d6ec8a82225d61f68fb2c365a8b1ba97d7c87e7053d859e27c974734b8259f"></a>MouseButtonUp&#160;</td><td class="fielddoc"></td></tr>
@@ -241,7 +248,7 @@ Private Attributes</h2></td></tr>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4781f631af51ee3daff75e6839206468" name="a4781f631af51ee3daff75e6839206468"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4781f631af51ee3daff75e6839206468">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4781f631af51ee3daff75e6839206468">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +275,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2c0d7e8ff550de75dabcc45e38d79fea" name="a2c0d7e8ff550de75dabcc45e38d79fea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c0d7e8ff550de75dabcc45e38d79fea">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0d7e8ff550de75dabcc45e38d79fea">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +302,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ae3d5bb849d3ae0b3726254356cbeafa5" name="ae3d5bb849d3ae0b3726254356cbeafa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3d5bb849d3ae0b3726254356cbeafa5">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d5bb849d3ae0b3726254356cbeafa5">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +333,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad3bf54b2673af9f44db0348e143432e9" name="ad3bf54b2673af9f44db0348e143432e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3bf54b2673af9f44db0348e143432e9">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bf54b2673af9f44db0348e143432e9">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +374,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac0ab8d32e94b7be0d69c5fe3570cdbde" name="ac0ab8d32e94b7be0d69c5fe3570cdbde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0ab8d32e94b7be0d69c5fe3570cdbde">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ab8d32e94b7be0d69c5fe3570cdbde">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,7 +405,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7fa919d4195e9e42753346b5ae67fd87" name="a7fa919d4195e9e42753346b5ae67fd87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fa919d4195e9e42753346b5ae67fd87">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa919d4195e9e42753346b5ae67fd87">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +436,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af2747980154bc7495109c21a6529c4d6" name="af2747980154bc7495109c21a6529c4d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2747980154bc7495109c21a6529c4d6">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2747980154bc7495109c21a6529c4d6">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,6 +473,37 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>constructor with mouse button and mouse pos </p>
+
+</div>
+</div>
+<a id="a99f3423a36086ac9ac0cf81550739d81" name="a99f3423a36086ac9ac0cf81550739d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f3423a36086ac9ac0cf81550739d81">&#9670;&#160;</a></span>DisplayEvent() <span class="overload">[8/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::DisplayEvent::DisplayEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1b">Code</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>files</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor with file drop </p>
 
 </div>
 </div>
@@ -548,6 +586,33 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get event code </p>
+
+</div>
+</div>
+<a id="a1e06f39429ab8abdf97c1b45695dd7a9" name="a1e06f39429ab8abdf97c1b45695dd7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e06f39429ab8abdf97c1b45695dd7a9">&#9670;&#160;</a></span>GetFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &amp; CoreGraphics::DisplayEvent::GetFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get files. </p>
 
 </div>
 </div>
@@ -715,6 +780,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#ae20d6ec8a82225d61f68fb2c365a8b1b">Code</a> CoreGraphics::DisplayEvent::code</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94ec125a2c0b16eccbdaaf83940cbf6f" name="a94ec125a2c0b16eccbdaaf83940cbf6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ec125a2c0b16eccbdaaf83940cbf6f">&#9670;&#160;</a></span>files</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; CoreGraphics::DisplayEvent::files</td>
         </tr>
       </table>
   </td>

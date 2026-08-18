@@ -53,7 +53,6 @@ var hierarchy =
     [ "CoreGraphics::AntiAliasQuality", "class_core_graphics_1_1_anti_alias_quality.html", null ],
     [ "Im3d::AppData", "struct_im3d_1_1_app_data.html", null ],
     [ "NebulaEngine.AppEntry", "class_nebula_engine_1_1_app_entry.html", null ],
-    [ "AppLauncher", "class_system_1_1_app_launcher.html", null ],
     [ "App::Application", "class_app_1_1_application.html", [
       [ "App::ConsoleApplication", "class_app_1_1_console_application.html", null ],
       [ "App::GameApplication", "class_app_1_1_game_application.html", null ],
@@ -134,6 +133,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Util::StringAtom, Util::FixedArray< Ptr< JobThread > >, uint >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< CreateJobInfo, std::function< void()>, PrivateMemory >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< std::function< void()>, Threading::Event *, std::atomic_uint *, bool >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< PROCESS_INFORMATION, HANDLE, HANDLE, HANDLE, HANDLE, DWORD, DWORD, Ptr< IO::Stream >, Ptr< IO::Stream >, Util::String >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< SkeletonId, CoreAnimation::AnimationId, LoadState, AnimationTracks, Timing::Time, Util::FixedArray< Math::mat4 >, Util::FixedArray< Math::mat4 >, Util::FixedArray< Math::mat4 >, Util::FixedArray< SkeletonJobJoint >, CoreAnimation::AnimSampleBuffer, bool, Graphics::GraphicsEntityId, IndexT >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::FixedArray< CharacterJoint >, Util::FixedArray< Math::mat4 >, Util::HashTable< Util::StringAtom, IndexT >, Util::FixedArray< Math::vec4 > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::FixedArray< SkeletonId > >", "class_ids_1_1_id_allocator.html", null ],
@@ -148,7 +148,7 @@ var hierarchy =
       [ "Ids::IdAllocator< VkDevice, VkFenceInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkPassLoadInfo, VkPassRuntimeInfo, VkRenderPassBeginInfo, Util::Array< uint32_t > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::FixedArray< VkRenderingAttachmentInfo >, VkRenderingAttachmentInfo, VkRenderingInfo, VkPipelineRenderingCreateInfo, VkPipelineViewportStateCreateInfo, Util::FixedArray< VkFormat >, RenderPassShaderInterface, SizeT >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< VkDevice, VkDescriptorSet, IndexT, Threading::Spinlock, CoreGraphics::ResourceTableLayoutId, Util::HashTable< uint64_t, WriteInfo >, Util::Array< VkCopyDescriptorSet, 4 > >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Pipeline, CoreGraphics::PipelineCreateInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkDescriptorSetLayout, Util::Array< VkDescriptorPoolSize >, Util::Array< Util::Pair< CoreGraphics::SamplerId, uint32_t > >, Util::HashTable< uint32_t, bool >, Util::Array< VkDescriptorPool >, Util::Array< uint > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkPipelineLayout >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkDevice, VkSampler, uint32_t >", "class_ids_1_1_id_allocator.html", null ],
@@ -175,7 +175,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Math::mat4, Math::mat4 >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::StringAtom, float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplatesGPULang::Entry * >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< uint >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * > >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * >, Util::FixedArray< JointMask >, Util::FixedArray< Take > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, Graphics::StageMask, bool >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Particles::ParticleResourceId, Util::Array< ParticleSystemRuntime >, Graphics::ContextEntityId, ParticleRuntime, Graphics::GraphicsEntityId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Memory::RangeAllocation, Raytracing::UpdateType, uint, Util::FixedArray< CoreGraphics::BlasId > >", "class_ids_1_1_id_allocator.html", null ],
@@ -197,6 +197,7 @@ var hierarchy =
       [ "Ids::IdAllocatorSafe< 0xFFFF, VkBufferLoadInfo, VkBufferRuntimeInfo, VkBufferMapInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFF, BufferSparsePageTable, Util::Array< VkSparseMemoryBind > >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0x1000, VkDevice, VkCommandBuffer, VkCommandPool, CoreGraphics::CmdPipelineBuildBits, VkPipelineBundle, ViewportBundle, ScissorBundle, CoreGraphics::QueueType >", "class_ids_1_1_id_allocator_safe.html", null ],
+      [ "Ids::IdAllocatorSafe< 0xFFFF, VkDevice, VkDescriptorSet, IndexT, CoreGraphics::ResourceTableLayoutId, Util::HashTable< uint64_t, WriteInfo >, Util::Array< VkCopyDescriptorSet, 4 > >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFFFF, VkTextureRuntimeInfo, VkTextureLoadInfo, VkTextureMappingInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFFFF, CoreGraphics::TextureViewId, IndexT >", "class_ids_1_1_id_allocator_safe.html", null ],
       [ "Ids::IdAllocatorSafe< 0xFF, VkTextureSwapInfo >", "class_ids_1_1_id_allocator_safe.html", null ],
@@ -215,6 +216,8 @@ var hierarchy =
     [ "Scripting::AssemblyId", "struct_scripting_1_1_assembly_id.html", null ],
     [ "Threading::AssertingMutex", "class_threading_1_1_asserting_mutex.html", null ],
     [ "Threading::AssertingScope", "struct_threading_1_1_asserting_scope.html", null ],
+    [ "Threading::Interlocked::AtomicCounter", "struct_threading_1_1_interlocked_1_1_atomic_counter.html", null ],
+    [ "Threading::Interlocked::AtomicCounter64", "struct_threading_1_1_interlocked_1_1_atomic_counter64.html", null ],
     [ "Threading::Interlocked::AtomicInt", "struct_threading_1_1_interlocked_1_1_atomic_int.html", null ],
     [ "Threading::Interlocked::AtomicInt64", "struct_threading_1_1_interlocked_1_1_atomic_int64.html", null ],
     [ "Threading::Interlocked::AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", null ],
@@ -343,6 +346,7 @@ var hierarchy =
     [ "CharacterNode", "class_characters_1_1_character_node.html", null ],
     [ "Multiplayer::ClientConnection", "class_multiplayer_1_1_client_connection.html", null ],
     [ "Multiplayer::ClientProcessorContext", "struct_multiplayer_1_1_client_processor_context.html", null ],
+    [ "Models::Take::Clip", "struct_models_1_1_take_1_1_clip.html", null ],
     [ "Audio::ClipId", "struct_audio_1_1_clip_id.html", null ],
     [ "Audio::ClipInstanceId", "struct_audio_1_1_clip_instance_id.html", null ],
     [ "Math::ClipStatus", "class_math_1_1_clip_status.html", null ],
@@ -475,6 +479,7 @@ var hierarchy =
     [ "Particles::EnvelopeCurve", "class_particles_1_1_envelope_curve.html", null ],
     [ "Particles::EnvelopeSampleBuffer", "class_particles_1_1_envelope_sample_buffer.html", null ],
     [ "Environment", "class_system_1_1_environment.html", null ],
+    [ "Models::Take::Clip::Event", "struct_models_1_1_take_1_1_clip_1_1_event.html", null ],
     [ "Event", "class_threading_1_1_event.html", [
       [ "Threading::EventWithManualReset", "class_threading_1_1_event_with_manual_reset.html", null ]
     ] ],
@@ -650,6 +655,9 @@ var hierarchy =
       [ "Nebula.Vector3", "struct_nebula_1_1_vector3.html", null ],
       [ "Nebula.Vector4", "struct_nebula_1_1_vector4.html", null ]
     ] ],
+    [ "IGFD_FileDialog_Config", "struct_i_g_f_d___file_dialog___config.html", null ],
+    [ "IGFD_Selection", "struct_i_g_f_d___selection.html", null ],
+    [ "IGFD_Selection_Pair", "struct_i_g_f_d___selection___pair.html", null ],
     [ "Im3dContext", "class_im3d_context.html", null ],
     [ "Im3d::Im3dState", "struct_im3d_1_1_im3d_state.html", null ],
     [ "CoreGraphics::ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", null ],
@@ -712,6 +720,7 @@ var hierarchy =
     [ "Jobs2::JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", null ],
     [ "Jobs::JobThread::JobThreadCommand", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html", null ],
     [ "Jobs::JobUniformData", "struct_jobs_1_1_job_uniform_data.html", null ],
+    [ "Models::JointMask", "struct_models_1_1_joint_mask.html", null ],
     [ "Input::Key", "class_input_1_1_key.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Base::KeyboardBase::KeyState", "class_base_1_1_keyboard_base_1_1_key_state.html", null ],
@@ -930,14 +939,16 @@ var hierarchy =
     [ "PriorityArray", "class_priority_array.html", null ],
     [ "Util::PriorityArray&lt; TYPE &gt;", "class_util_1_1_priority_array.html", null ],
     [ "Jobs::PrivateMemory", "struct_jobs_1_1_private_memory.html", null ],
-    [ "Base::Process", "class_base_1_1_process.html", [
-      [ "Posix::PosixProcess", "class_posix_1_1_posix_process.html", null ],
-      [ "Win32::Win32Process", "class_win32_1_1_win32_process.html", null ]
+    [ "Base::Process", null, [
+      [ "Posix::PosixProcess", "class_posix_1_1_posix_process.html", null ]
     ] ],
+    [ "Process", "class_system_1_1_process.html", null ],
+    [ "System::ProcessId", "struct_system_1_1_process_id.html", null ],
     [ "Game::Processor", "class_game_1_1_processor.html", null ],
     [ "Game::ProcessorBuilder", "class_game_1_1_processor_builder.html", null ],
     [ "Game::ProcessorJobContext", "struct_game_1_1_processor_job_context.html", null ],
     [ "Game::ProcessorJobInput", "struct_game_1_1_processor_job_input.html", null ],
+    [ "System::ProcessStartInfo", "struct_system_1_1_process_start_info.html", null ],
     [ "Profiling::ProfilingContext", "struct_profiling_1_1_profiling_context.html", null ],
     [ "Profiling::ProfilingScope", "struct_profiling_1_1_profiling_scope.html", null ],
     [ "Profiling::ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", null ],
@@ -1188,23 +1199,13 @@ var hierarchy =
         [ "Animation::AnimEventServer", "class_animation_1_1_anim_event_server.html", null ],
         [ "Interface::InterfaceHandlerBase", "class_interface_1_1_interface_handler_base.html", [
           [ "Debug::DebugHandler", "class_debug_1_1_debug_handler.html", null ],
-          [ "Http::HttpMessageHandler", "class_http_1_1_http_message_handler.html", null ],
-          [ "IO::IoInterfaceHandler", "class_i_o_1_1_io_interface_handler.html", null ]
+          [ "Http::HttpMessageHandler", "class_http_1_1_http_message_handler.html", null ]
         ] ]
       ] ],
       [ "Messaging::Message", "class_messaging_1_1_message.html", [
         [ "Http::AttachRequestHandler", "class_http_1_1_attach_request_handler.html", null ],
         [ "Http::HttpRequest", "class_http_1_1_http_request.html", null ],
         [ "Http::RemoveRequestHandler", "class_http_1_1_remove_request_handler.html", null ],
-        [ "IO::CopyFile", "class_i_o_1_1_copy_file.html", null ],
-        [ "IO::IOMessage", "class_i_o_1_1_i_o_message.html", [
-          [ "IO::CreateDirectory", "class_i_o_1_1_create_directory.html", null ],
-          [ "IO::DeleteDirectory", "class_i_o_1_1_delete_directory.html", null ],
-          [ "IO::DeleteFile", "class_i_o_1_1_delete_file.html", null ],
-          [ "IO::MountArchive", "class_i_o_1_1_mount_archive.html", null ],
-          [ "IO::ReadStream", "class_i_o_1_1_read_stream.html", null ],
-          [ "IO::WriteStream", "class_i_o_1_1_write_stream.html", null ]
-        ] ],
         [ "Messaging::BatchMessage", "class_messaging_1_1_batch_message.html", null ]
       ] ],
       [ "Messaging::Port", "class_messaging_1_1_port.html", [
@@ -1384,6 +1385,7 @@ var hierarchy =
     [ "Util::SparseTable&lt; TYPE &gt;::TableEntry", "struct_util_1_1_sparse_table_1_1_table_entry.html", null ],
     [ "MemDb::TableId", "struct_mem_db_1_1_table_id.html", null ],
     [ "MemDb::TableSignature", "class_mem_db_1_1_table_signature.html", null ],
+    [ "Models::Take", "struct_models_1_1_take.html", null ],
     [ "tb::TBBitmap", null, [
       [ "TBUI::TBUIBitmap", "class_t_b_u_i_1_1_t_b_u_i_bitmap.html", null ]
     ] ],
@@ -1662,7 +1664,6 @@ var hierarchy =
     [ "Win32::Win32IpAddress", "class_win32_1_1_win32_ip_address.html", null ],
     [ "Win32::Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", null ],
     [ "Win32::Win32MiniDump", "class_win32_1_1_win32_mini_dump.html", null ],
-    [ "Win32Process", "class_toolkit_util_1_1_win32_process.html", null ],
     [ "Win32::Win32ReadWriteLock", "class_win32_1_1_win32_read_write_lock.html", null ],
     [ "Win32::Win32Registry", "class_win32_1_1_win32_registry.html", null ],
     [ "Win32::Win32StackTrace", "class_win32_1_1_win32_stack_trace.html", null ],

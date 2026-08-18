@@ -1,8 +1,8 @@
 var db_2database_8cc =
 [
     [ "Db::__ImplementClass", "namespace_db.html#a75b471159c2916005376063b5af06e0e", null ],
-    [ "Attr::DefineBool", "namespace_attr.html#a002619cf74baf5bd3f7bdb6c8c918c11", null ],
-    [ "Attr::DefineBool", "namespace_attr.html#a64fd381cb3aedd509ec71d2cad4097aa", null ],
-    [ "Attr::DefineString", "namespace_attr.html#a199715cfbce40add36ed59709a64479f", null ],
-    [ "Attr::DefineString", "namespace_attr.html#a4be7378f5cbd33d53e195e4d3afc3a7d", null ]
+    [ "Attr::DefineAttrBool", "namespace_attr.html#acc868611db389c29188d18ec8e990981", null ],
+    [ "Attr::DefineAttrBool", "namespace_attr.html#ae5e2b01ac26388e0ad63879bb5839a52", null ],
+    [ "Attr::DefineAttrString", "namespace_attr.html#afb4b2d8c663438ec5dae7af4b945b5c2", null ],
+    [ "Attr::DefineAttrString", "namespace_attr.html#a42aca85c186b70493b2e78d84fd4cc9c", null ]
 ];

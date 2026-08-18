@@ -1364,6 +1364,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9c2e23eb110d02773db21bf38c2a5c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new pipeline.  <br /></td></tr>
 <tr class="memitem:adf9233acad3f14f94999d43e62c74fbb" id="r_adf9233acad3f14f94999d43e62c74fbb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adf9233acad3f14f94999d43e62c74fbb">DestroyGraphicsPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_id.html">PipelineId</a> pipeline)</td></tr>
 <tr class="memdesc:adf9233acad3f14f94999d43e62c74fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy pipeline.  <br /></td></tr>
+<tr class="memitem:a9cdecc3c580c139a9d51ffa760f5f606" id="r_a9cdecc3c580c139a9d51ffa760f5f606"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9cdecc3c580c139a9d51ffa760f5f606">InvalidatePipelines</a> (const CoreGraphics::ShaderProgramId program)</td></tr>
+<tr class="memdesc:a9cdecc3c580c139a9d51ffa760f5f606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate pipelines with shader program.  <br /></td></tr>
 <tr class="memitem:a19dfba15e8f1ec7b5f0967a1b60aea23" id="r_a19dfba15e8f1ec7b5f0967a1b60aea23"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a>&#160;</td><td class="memItemRight"><a class="el" href="#a19dfba15e8f1ec7b5f0967a1b60aea23">CreateRaytracingPipeline</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; CoreGraphics::ShaderProgramId &gt; programs, const <a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9">CoreGraphics::QueueType</a> queueType=<a class="el" href="#a53780de3ee1c11ad2e8b1032aa4a12d9ad81733300389b5f173749364076a2023">CoreGraphics::QueueType::GraphicsQueueType</a>)</td></tr>
 <tr class="memdesc:a19dfba15e8f1ec7b5f0967a1b60aea23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create raytacing pipeline using multiple shader programs.  <br /></td></tr>
 <tr class="memitem:a00afcbdbe518b3c1cd05a029ca5bb089" id="r_a00afcbdbe518b3c1cd05a029ca5bb089"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a00afcbdbe518b3c1cd05a029ca5bb089">DestroyRaytracingPipeline</a> (const <a class="el" href="struct_core_graphics_1_1_pipeline_ray_tracing_table.html">PipelineRayTracingTable</a> &amp;table)</td></tr>
@@ -1407,6 +1409,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a85b965a9110541f29d80c5c8902ab52a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create resource pipeline  <br /></td></tr>
 <tr class="memitem:a8cbf8a40417b529b0c3e9191361c5c41" id="r_a8cbf8a40417b529b0c3e9191361c5c41"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8cbf8a40417b529b0c3e9191361c5c41">DestroyResourcePipeline</a> (const <a class="el" href="struct_core_graphics_1_1_resource_pipeline_id.html">ResourcePipelineId</a> &amp;id)</td></tr>
 <tr class="memdesc:a8cbf8a40417b529b0c3e9191361c5c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy resource pipeline  <br /></td></tr>
+<tr class="memitem:a3808f088384353f3ffadc1e3a4378d63" id="r_a3808f088384353f3ffadc1e3a4378d63"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3808f088384353f3ffadc1e3a4378d63">_DECL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a>)</td></tr>
 <tr class="memitem:af42816a6743f8efb2cfd62856b246d50" id="r_af42816a6743f8efb2cfd62856b246d50"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_sampler_id.html">SamplerId</a>&#160;</td><td class="memItemRight"><a class="el" href="#af42816a6743f8efb2cfd62856b246d50">CreateSampler</a> (const <a class="el" href="struct_core_graphics_1_1_sampler_create_info.html">SamplerCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:af42816a6743f8efb2cfd62856b246d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">create sampler  <br /></td></tr>
 <tr class="memitem:a0693c58b24ee0bb71ef6b13df9d25917" id="r_a0693c58b24ee0bb71ef6b13df9d25917"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0693c58b24ee0bb71ef6b13df9d25917">DestroySampler</a> (const <a class="el" href="struct_core_graphics_1_1_sampler_id.html">SamplerId</a> &amp;id)</td></tr>
@@ -1635,6 +1638,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a8f8f8a51187a21095a52da6dce248fad" id="r_a8f8f8a51187a21095a52da6dce248fad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8f8f8a51187a21095a52da6dce248fad">GetSubpassInfo</a> (const <a class="el" href="struct_vulkan_1_1_vk_pass_load_info.html">VkPassLoadInfo</a> &amp;loadInfo, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkSubpassDescription &gt; &amp;outDescs, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkSubpassDependency &gt; &amp;outDeps, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkAttachmentDescription &gt; &amp;outAttachments, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &amp;usedAttachmentCounts, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkPipelineViewportStateCreateInfo &gt; &amp;outPipelineInfos, uint32_t &amp;numUsedAttachmentsTotal)</td></tr>
 <tr class="memitem:af96c7800e3a4810d9784429db4ca15e8" id="r_af96c7800e3a4810d9784429db4ca15e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af96c7800e3a4810d9784429db4ca15e8">SetupPass</a> (const <a class="el" href="struct_core_graphics_1_1_pass_id.html">PassId</a> pid)</td></tr>
 <tr class="memitem:ac3cead1ed2eaa58be42920aefaafb2e6" id="r_ac3cead1ed2eaa58be42920aefaafb2e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac3cead1ed2eaa58be42920aefaafb2e6">PassRenderEnd</a> (<a class="el" href="struct_core_graphics_1_1_cmd_buffer_id.html">CoreGraphics::CmdBufferId</a> cmdBuf)</td></tr>
+<tr class="memitem:a9ee4c1e20211931b8be818f21356a2a0" id="r_a9ee4c1e20211931b8be818f21356a2a0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9ee4c1e20211931b8be818f21356a2a0">_IMPL_ACQUIRE_RELEASE</a> (<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a>, <a class="el" href="namespace_vulkan.html#a04f5b266d83bd40d29a9d4702397fe3f">Vulkan::resourceTableAllocator</a>)</td></tr>
 <tr class="memitem:ad1ab9be192071d56c7c12a40c6e4c8b0" id="r_ad1ab9be192071d56c7c12a40c6e4c8b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad1ab9be192071d56c7c12a40c6e4c8b0">AddBinding</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, VkDescriptorSetLayoutBinding, 128, 128 &gt; &amp;bindings, const VkDescriptorSetLayoutBinding &amp;binding, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, VkDescriptorBindingFlags &gt; &amp;flags)</td></tr>
 <tr class="memitem:a61a6451166a8faa370b0cd2b53827a2a" id="r_a61a6451166a8faa370b0cd2b53827a2a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a61a6451166a8faa370b0cd2b53827a2a">CountDescriptors</a> (<a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counters, const VkDescriptorSetLayoutBinding &amp;binding)</td></tr>
 <tr class="memitem:a3938d995ec46e64e9bbf355a08ff46dd" id="r_a3938d995ec46e64e9bbf355a08ff46dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3938d995ec46e64e9bbf355a08ff46dd">SetupDescriptorSize</a> (VkDescriptorPoolSize &amp;size, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, uint32_t &gt; &amp;counter, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt; &amp;outSizes)</td></tr>
@@ -3265,7 +3269,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a061358eeb4bea66046d619b16edf4e76" name="a061358eeb4bea66046d619b16edf4e76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061358eeb4bea66046d619b16edf4e76">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a061358eeb4bea66046d619b16edf4e76">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3282,7 +3286,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a53c0af86e701ada532201f53e5b2db05" name="a53c0af86e701ada532201f53e5b2db05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53c0af86e701ada532201f53e5b2db05">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c0af86e701ada532201f53e5b2db05">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3299,7 +3303,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a67050084402d3e7884ce0ff03921bad1" name="a67050084402d3e7884ce0ff03921bad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67050084402d3e7884ce0ff03921bad1">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67050084402d3e7884ce0ff03921bad1">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3316,7 +3320,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9fc3007260baa39b39ecd55c001d9243" name="a9fc3007260baa39b39ecd55c001d9243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc3007260baa39b39ecd55c001d9243">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc3007260baa39b39ecd55c001d9243">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3333,7 +3337,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3ac8693412dd5570b46b267f7d4e0764" name="a3ac8693412dd5570b46b267f7d4e0764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac8693412dd5570b46b267f7d4e0764">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ac8693412dd5570b46b267f7d4e0764">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3349,8 +3353,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a3808f088384353f3ffadc1e3a4378d63" name="a3808f088384353f3ffadc1e3a4378d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3808f088384353f3ffadc1e3a4378d63">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::_DECL_ACQUIRE_RELEASE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeefb6ced01944c2f39442433cbe6876c" name="aeefb6ced01944c2f39442433cbe6876c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeefb6ced01944c2f39442433cbe6876c">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeefb6ced01944c2f39442433cbe6876c">&#9670;&#160;</a></span>_DECL_ACQUIRE_RELEASE() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3367,7 +3388,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac62c6ed02087c9f3c3fb2e73b72b11d9" name="ac62c6ed02087c9f3c3fb2e73b72b11d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac62c6ed02087c9f3c3fb2e73b72b11d9">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62c6ed02087c9f3c3fb2e73b72b11d9">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3388,7 +3409,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af40086f6cbed66b10f67403876835ec6" name="af40086f6cbed66b10f67403876835ec6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af40086f6cbed66b10f67403876835ec6">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af40086f6cbed66b10f67403876835ec6">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3409,7 +3430,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a101f4aa1b87ed06db11fbeb34d58ecdf" name="a101f4aa1b87ed06db11fbeb34d58ecdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a101f4aa1b87ed06db11fbeb34d58ecdf">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a101f4aa1b87ed06db11fbeb34d58ecdf">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3430,7 +3451,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2ced2c90d4d30ec3247a5b3066cc1c2d" name="a2ced2c90d4d30ec3247a5b3066cc1c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ced2c90d4d30ec3247a5b3066cc1c2d">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ced2c90d4d30ec3247a5b3066cc1c2d">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3451,7 +3472,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a52312b97a3cd706c40cfc2504c99aa14" name="a52312b97a3cd706c40cfc2504c99aa14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52312b97a3cd706c40cfc2504c99aa14">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52312b97a3cd706c40cfc2504c99aa14">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3471,8 +3492,29 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ee4c1e20211931b8be818f21356a2a0" name="a9ee4c1e20211931b8be818f21356a2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee4c1e20211931b8be818f21356a2a0">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoreGraphics::_IMPL_ACQUIRE_RELEASE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">ResourceTableId</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_vulkan.html#a04f5b266d83bd40d29a9d4702397fe3f">Vulkan::resourceTableAllocator</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6dd00d464c5e422fa60cbcbd43fe196d" name="a6dd00d464c5e422fa60cbcbd43fe196d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dd00d464c5e422fa60cbcbd43fe196d">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dd00d464c5e422fa60cbcbd43fe196d">&#9670;&#160;</a></span>_IMPL_ACQUIRE_RELEASE() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9394,6 +9436,25 @@ template&lt;class TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Invoke a flush of all graphics pipelines. </p>
+
+</div>
+</div>
+<a id="a9cdecc3c580c139a9d51ffa760f5f606" name="a9cdecc3c580c139a9d51ffa760f5f606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cdecc3c580c139a9d51ffa760f5f606">&#9670;&#160;</a></span>InvalidatePipelines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::InvalidatePipelines </td>
+          <td>(</td>
+          <td class="paramtype">const CoreGraphics::ShaderProgramId</td>          <td class="paramname"><span class="paramname"><em>program</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invalidate pipelines with shader program. </p>
 
 </div>
 </div>

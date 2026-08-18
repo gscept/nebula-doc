@@ -11,6 +11,7 @@ var class_models_1_1_model_context =
     [ "AllocateInstanceConstants", "class_models_1_1_model_context.html#a3d06222fa218243aa290f06639ec32b4", null ],
     [ "AllocateInstanceConstants", "class_models_1_1_model_context.html#ac8e78739d28fdf9c662504ac9a8d5348", null ],
     [ "ChangeMaterial", "class_models_1_1_model_context.html#a713eb9431fbb467d371cd36aa4d99abe", null ],
+    [ "ChangeMaterial", "class_models_1_1_model_context.html#a71307c2c43910f47ebe182e26eeb310e", null ],
     [ "ChangeModel", "class_models_1_1_model_context.html#a8ec0facd79f6cb19784e9786af511780", null ],
     [ "ComputeBoundingBox", "class_models_1_1_model_context.html#a28717147590445aba37df115d2bb57f9", null ],
     [ "Create", "class_models_1_1_model_context.html#ad01b6860515f84bde65c7f74965ea6fe", null ],
@@ -33,6 +34,7 @@ var class_models_1_1_model_context =
     [ "SetAlwaysVisible", "class_models_1_1_model_context.html#aebdd563272d6eac6b2ac8cf9ef5885d3", null ],
     [ "SetStageMask", "class_models_1_1_model_context.html#aa39d35c50e0d00e464a3e0fcb57dd830", null ],
     [ "SetTransform", "class_models_1_1_model_context.html#a76ed639475f7515b0fee0977522ef370", null ],
+    [ "Setup", "class_models_1_1_model_context.html#a39526dc300d6cb8e83c721cf916141da", null ],
     [ "Setup", "class_models_1_1_model_context.html#a315526a1348e1fcb7c0aafb01bf99ceb", null ],
     [ "Setup", "class_models_1_1_model_context.html#a7aa9061f7bdbd7050ccd48a85647a056", null ],
     [ "Setup", "class_models_1_1_model_context.html#a4db640d11bc254d4e47a9d5ef50a10e1", null ],
@@ -43,11 +45,11 @@ var class_models_1_1_model_context =
     [ "Raytracing::RaytracingContext", "class_models_1_1_model_context.html#ab330c24e3556e0617043ae370ed699c8", null ],
     [ "Visibility::VisibilityContext", "class_models_1_1_model_context.html#afcd02de640c0f91236cd2e1c8c62cc30", null ],
     [ "completionEvent", "class_models_1_1_model_context.html#ab98964ed68726e1a4addd432c37d4d85", null ],
-    [ "ConstantsUpdateCounter", "class_models_1_1_model_context.html#ac2a758db912de7842ecf5cad09035903", null ],
+    [ "ConstantsUpdateCounter", "class_models_1_1_model_context.html#af5286b08dafd44e73799f0d4036deb94", null ],
     [ "materialInstanceContexts", "class_models_1_1_model_context.html#a25f99440a57c168461ea307ade608744", null ],
     [ "modelContextAllocator", "class_models_1_1_model_context.html#ae2126922f5ae32fe69c073e1cef146d3", null ],
     [ "NodeInstances", "class_models_1_1_model_context.html#a0dc7d4539f59ad8b0a4ad87758d0ba4b", null ],
     [ "RenderInstanceAllocator", "class_models_1_1_model_context.html#a88d571a083d0ebb8096a6cd2696845fa", null ],
     [ "TransformInstanceAllocator", "class_models_1_1_model_context.html#a10cc0e23c6513ca617a86c18e69e70db", null ],
-    [ "TransformsUpdateCounter", "class_models_1_1_model_context.html#ad7c60d33aa197cdaa5b5dcd9d3764f26", null ]
+    [ "TransformsUpdateCounter", "class_models_1_1_model_context.html#ac6f4e3d9096452fb84d45cd8d658693f", null ]
 ];

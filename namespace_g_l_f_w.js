@@ -9,6 +9,7 @@ var namespace_g_l_f_w =
     [ "CharFunc", "namespace_g_l_f_w.html#a34f9083c7726405998ec64d4ae1d9673", null ],
     [ "CloseFunc", "namespace_g_l_f_w.html#a54e082a773c72e3abb362434d2152183", null ],
     [ "DisableCallbacks", "namespace_g_l_f_w.html#a38b571a5313f2cdef0b29e40ba6ce773", null ],
+    [ "DropFunc", "namespace_g_l_f_w.html#a0fdcead0fd38d5851fc99a86403174db", null ],
     [ "EnableCallbacks", "namespace_g_l_f_w.html#a8e9b29acc80df508c9202a0d3b10de5a", null ],
     [ "FocusFunc", "namespace_g_l_f_w.html#ac95bdf04f365d7f62a19674a89254c07", null ],
     [ "InternalSetupFunction", "namespace_g_l_f_w.html#a47177732ee5793d78b2ac94799713441", null ],

@@ -120,6 +120,12 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_threadi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a80e1eb97c166af672b942b9ec773339f" id="r_a80e1eb97c166af672b942b9ec773339f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a80e1eb97c166af672b942b9ec773339f">AtomicInt64</a> ()</td></tr>
+<tr class="memdesc:a80e1eb97c166af672b942b9ec773339f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a1ddda1c88ec41d80fa8e4dbb1a267554" id="r_a1ddda1c88ec41d80fa8e4dbb1a267554"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1ddda1c88ec41d80fa8e4dbb1a267554">AtomicInt64</a> (<a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> initial)</td></tr>
+<tr class="memdesc:a1ddda1c88ec41d80fa8e4dbb1a267554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a35e325e78e219a1d74185afc5c43a27a" id="r_a35e325e78e219a1d74185afc5c43a27a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35e325e78e219a1d74185afc5c43a27a">operator=</a> (<a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> value)</td></tr>
+<tr class="memdesc:a35e325e78e219a1d74185afc5c43a27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment (unsafe).  <br /></td></tr>
 <tr class="memitem:a2b1ea049ccdc7921c36411a540c59834" id="r_a2b1ea049ccdc7921c36411a540c59834"><td class="memItemLeft"><a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2b1ea049ccdc7921c36411a540c59834">Add</a> (<a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> add)</td></tr>
 <tr class="memdesc:a2b1ea049ccdc7921c36411a540c59834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add.  <br /></td></tr>
 <tr class="memitem:aa114fb753cbcc51d7b669e9e0bead732" id="r_aa114fb753cbcc51d7b669e9e0bead732"><td class="memItemLeft"><a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa114fb753cbcc51d7b669e9e0bead732">Sub</a> (<a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> sub)</td></tr>
@@ -137,10 +143,65 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acef6042c513cf803d6436ced9d9aa272" id="r_acef6042c513cf803d6436ced9d9aa272"><td class="memItemLeft"><a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#acef6042c513cf803d6436ced9d9aa272">Decrement</a> (<a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> decr)</td></tr>
 <tr class="memdesc:acef6042c513cf803d6436ced9d9aa272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement and return new value.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
 <tr class="memitem:aa1cec69e0daa158992c2c4e5962ff04a" id="r_aa1cec69e0daa158992c2c4e5962ff04a"><td class="memItemLeft">volatile <a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa1cec69e0daa158992c2c4e5962ff04a">value</a></td></tr>
 </table>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a80e1eb97c166af672b942b9ec773339f" name="a80e1eb97c166af672b942b9ec773339f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e1eb97c166af672b942b9ec773339f">&#9670;&#160;</a></span>AtomicInt64() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Threading::Interlocked::AtomicInt64::AtomicInt64 </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a id="a1ddda1c88ec41d80fa8e4dbb1a267554" name="a1ddda1c88ec41d80fa8e4dbb1a267554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ddda1c88ec41d80fa8e4dbb1a267554">&#9670;&#160;</a></span>AtomicInt64() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Threading::Interlocked::AtomicInt64::AtomicInt64 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a></td>          <td class="paramname"><span class="paramname"><em>initial</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a2b1ea049ccdc7921c36411a540c59834" name="a2b1ea049ccdc7921c36411a540c59834"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b1ea049ccdc7921c36411a540c59834">&#9670;&#160;</a></span>Add()</h2>
@@ -308,6 +369,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a35e325e78e219a1d74185afc5c43a27a" name="a35e325e78e219a1d74185afc5c43a27a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35e325e78e219a1d74185afc5c43a27a">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Threading::Interlocked::AtomicInt64::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment (unsafe). </p>
+
+</div>
+</div>
 <a id="af6d10c6b64ddc93f4efff3e33fb88219" name="af6d10c6b64ddc93f4efff3e33fb88219"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6d10c6b64ddc93f4efff3e33fb88219">&#9670;&#160;</a></span>Or()</h2>
 
@@ -368,19 +456,11 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile <a class="el" href="namespace_threading.html#a4390ef824f28371f3e467dea4e89f2fc">int64</a> Threading::Interlocked::AtomicInt64::value</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

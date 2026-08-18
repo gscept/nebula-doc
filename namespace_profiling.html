@@ -166,8 +166,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a86608f21ace9e138dabb730523ea8aed" id="r_a86608f21ace9e138dabb730523ea8aed"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a86608f21ace9e138dabb730523ea8aed">contextMutexes</a></td></tr>
 <tr class="memitem:a9b0638e8afabed9aefe444442a0920a9" id="r_a9b0638e8afabed9aefe444442a0920a9"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_profiling_1_1_profiling_scope.html">ProfilingScope</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9b0638e8afabed9aefe444442a0920a9">scopesByCategory</a></td></tr>
 <tr class="memitem:a9e5e02e2cae7ee35bd47f531117eb36e" id="r_a9e5e02e2cae7ee35bd47f531117eb36e"><td class="memItemLeft"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9e5e02e2cae7ee35bd47f531117eb36e">categoryLock</a></td></tr>
-<tr class="memitem:a4d60d513010822696af79c86b0f2ef0f" id="r_a4d60d513010822696af79c86b0f2ef0f"><td class="memItemLeft"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4d60d513010822696af79c86b0f2ef0f">ProfilingContextCounter</a> = 0</td></tr>
-<tr class="memdesc:a4d60d513010822696af79c86b0f2ef0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">atomic counter used to give each thread a unique id  <br /></td></tr>
+<tr class="memitem:a68fd647d104dd8ec9a5233c19c122f82" id="r_a68fd647d104dd8ec9a5233c19c122f82"><td class="memItemLeft"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#a68fd647d104dd8ec9a5233c19c122f82">ProfilingContextCounter</a> = 0</td></tr>
+<tr class="memdesc:a68fd647d104dd8ec9a5233c19c122f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">atomic counter used to give each thread a unique id  <br /></td></tr>
 <tr class="memitem:aa2ec6481d2bfda40e67b41fdccf930aa" id="r_aa2ec6481d2bfda40e67b41fdccf930aa"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa2ec6481d2bfda40e67b41fdccf930aa">ProfilingContextIndex</a> = <a class="el" href="types_8h.html#a3e2ae2e8cd04c212563dafc16149995c">InvalidIndex</a></td></tr>
 <tr class="memitem:a7b517ae2f8ca36866f1779461bb3bdff" id="r_a7b517ae2f8ca36866f1779461bb3bdff"><td class="memItemLeft"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7b517ae2f8ca36866f1779461bb3bdff">counterLock</a></td></tr>
 <tr class="memitem:ac0f5dd0b1a57d854713f44af48a8799b" id="r_ac0f5dd0b1a57d854713f44af48a8799b"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const char *, uint64_t &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac0f5dd0b1a57d854713f44af48a8799b">counters</a></td></tr>
@@ -569,14 +569,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d60d513010822696af79c86b0f2ef0f" name="a4d60d513010822696af79c86b0f2ef0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d60d513010822696af79c86b0f2ef0f">&#9670;&#160;</a></span>ProfilingContextCounter</h2>
+<a id="a68fd647d104dd8ec9a5233c19c122f82" name="a68fd647d104dd8ec9a5233c19c122f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fd647d104dd8ec9a5233c19c122f82">&#9670;&#160;</a></span>ProfilingContextCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> Profiling::ProfilingContextCounter = 0</td>
+          <td class="memname"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> Profiling::ProfilingContextCounter = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">

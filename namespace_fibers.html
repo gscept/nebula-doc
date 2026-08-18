@@ -135,10 +135,10 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a3fb65eacfdddd2cbbdbf832e35e8b6f5" id="r_a3fb65eacfdddd2cbbdbf832e35e8b6f5"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3fb65eacfdddd2cbbdbf832e35e8b6f5">__ImplementClass</a> (<a class="el" href="class_fibers_1_1_fiber_thread.html">Fibers::FiberThread</a>, 'FITH', <a class="el" href="class_threading_1_1_thread.html">Threading::Thread</a>)</td></tr>
 <tr class="memitem:a34d84355d10c52b0d06ba2461793746b" id="r_a34d84355d10c52b0d06ba2461793746b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a34d84355d10c52b0d06ba2461793746b">FiberFunction</a> (void *param)</td></tr>
-<tr class="memitem:aee4146cc7f1f63da97a4c35b568dfef7" id="r_aee4146cc7f1f63da97a4c35b568dfef7"><td class="memTemplParams" colspan="2">template&lt;class T&gt; </td></tr>
-<tr class="memitem:aee4146cc7f1f63da97a4c35b568dfef7 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee4146cc7f1f63da97a4c35b568dfef7">Enqueue</a> (<a class="el" href="class_fibers_1_1_fiber_queue.html#a36a0b86723f42a700713a396946f4501">FiberQueue::JobFunction</a> function, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; T * &gt; &amp;contexts, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *counter)</td></tr>
-<tr class="memitem:a48081617933f7f14b2bf595585d1a236" id="r_a48081617933f7f14b2bf595585d1a236"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48081617933f7f14b2bf595585d1a236">Wait</a> (<a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *counter, int value)</td></tr>
-<tr class="memitem:aa7c25789a54e0cdbde8c6a3516130626" id="r_aa7c25789a54e0cdbde8c6a3516130626"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7c25789a54e0cdbde8c6a3516130626">Lock</a> (<a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *counter, int value)</td></tr>
+<tr class="memitem:a0f8695386371d684aca9f12db4b7abdc" id="r_a0f8695386371d684aca9f12db4b7abdc"><td class="memTemplParams" colspan="2">template&lt;class T&gt; </td></tr>
+<tr class="memitem:a0f8695386371d684aca9f12db4b7abdc template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0f8695386371d684aca9f12db4b7abdc">Enqueue</a> (<a class="el" href="class_fibers_1_1_fiber_queue.html#a36a0b86723f42a700713a396946f4501">FiberQueue::JobFunction</a> function, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; T * &gt; &amp;contexts, <a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *counter)</td></tr>
+<tr class="memitem:a4bbd8821f2aa6c11a593b6a59e97bca3" id="r_a4bbd8821f2aa6c11a593b6a59e97bca3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4bbd8821f2aa6c11a593b6a59e97bca3">Wait</a> (<a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *counter, int value)</td></tr>
+<tr class="memitem:ad10264242b798a3897e91419118b9485" id="r_ad10264242b798a3897e91419118b9485"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad10264242b798a3897e91419118b9485">Lock</a> (<a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *counter, int value)</td></tr>
 <tr class="memitem:aa779eca3f14814267a9faa1d8a763f6e" id="r_aa779eca3f14814267a9faa1d8a763f6e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa779eca3f14814267a9faa1d8a763f6e">FiberStartFunction</a> (void *p)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -172,8 +172,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aee4146cc7f1f63da97a4c35b568dfef7" name="aee4146cc7f1f63da97a4c35b568dfef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee4146cc7f1f63da97a4c35b568dfef7">&#9670;&#160;</a></span>Enqueue()</h2>
+<a id="a0f8695386371d684aca9f12db4b7abdc" name="a0f8695386371d684aca9f12db4b7abdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f8695386371d684aca9f12db4b7abdc">&#9670;&#160;</a></span>Enqueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +196,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -250,8 +250,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="aa7c25789a54e0cdbde8c6a3516130626" name="aa7c25789a54e0cdbde8c6a3516130626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7c25789a54e0cdbde8c6a3516130626">&#9670;&#160;</a></span>Lock()</h2>
+<a id="ad10264242b798a3897e91419118b9485" name="ad10264242b798a3897e91419118b9485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10264242b798a3897e91419118b9485">&#9670;&#160;</a></span>Lock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +262,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname">void Fibers::Lock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -279,8 +279,8 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="a48081617933f7f14b2bf595585d1a236" name="a48081617933f7f14b2bf595585d1a236"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48081617933f7f14b2bf595585d1a236">&#9670;&#160;</a></span>Wait()</h2>
+<a id="a4bbd8821f2aa6c11a593b6a59e97bca3" name="a4bbd8821f2aa6c11a593b6a59e97bca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bbd8821f2aa6c11a593b6a59e97bca3">&#9670;&#160;</a></span>Wait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname">void Fibers::Wait </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

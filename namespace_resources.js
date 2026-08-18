@@ -10,7 +10,8 @@ var namespace_resources =
     [ "LoadFlags", "namespace_resources.html#a305b234380258a0076c514b34823e6d3", [
       [ "None", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a36ff6a12493e52abfa154642f52ee25c", null ],
       [ "Create", "namespace_resources.html#a305b234380258a0076c514b34823e6d3af2e60e5688db4c61f02220dc7e308b3c", null ],
-      [ "Update", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5", null ]
+      [ "Update", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a14634dbb6a00aca89e4f16d3058b6fb5", null ],
+      [ "Reload", "namespace_resources.html#a305b234380258a0076c514b34823e6d3a54ebc16443c3f6ebb2ff53b9237294b7", null ]
     ] ],
     [ "__ImplementAbstractClass", "namespace_resources.html#aa8df5f2671da4e2262c34977d2fb8ad1", null ],
     [ "__ImplementAbstractClass", "namespace_resources.html#ad3dbe98c3458b2938f9d6e38e18a4a3d", null ],
@@ -20,6 +21,8 @@ var namespace_resources =
     [ "__ImplementInterfaceSingleton", "namespace_resources.html#ab004bd1df5940b1b5cbc80eefa0f6db3", null ],
     [ "_LoadInternal", "namespace_resources.html#a78883854e56bf8fbe800f435a0a88ef7", null ],
     [ "ApplyLoadOutput", "namespace_resources.html#a7a106a0a530a8777590a24a81758777f", null ],
+    [ "CreateResource", "namespace_resources.html#a5e1ff583951a781ee44e489b863b49ca", null ],
+    [ "CreateResource", "namespace_resources.html#a9ed47aa309d2668896a201b46facadaf", null ],
     [ "CreateResource", "namespace_resources.html#a567df1d20a8e2a34ca067ce0cb52bb65", null ],
     [ "CreateResource", "namespace_resources.html#a06149171c66844225680ba6cdadbd323", null ],
     [ "CreateResourceListener", "namespace_resources.html#ac6bbb528dfb2faf5a59ab5ad623cb667", null ],

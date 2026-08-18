@@ -118,18 +118,35 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('win32process_8
 <div class="textblock"><code>#include &quot;<a class="el" href="string_8h_source.html">util/string.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="uri_8h_source.html">io/uri.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stream_8h_source.html">io/stream.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="processbase_8h_source.html">system/base/processbase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
 </div>
 <p><a href="win32process_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:Win32_3A_3AWin32Process" id="r_Win32_3A_3AWin32Process"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_win32_1_1_win32_process.html">Win32::Win32Process</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:Win32" id="r_Win32"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_win32.html">Win32</a></td></tr>
-<tr class="memdesc:namespace_win32"><td class="mdescLeft">&#160;</td><td class="mdescRight">[TODO: Describe <a class="el" href="namespace_win32.html" title="[TODO: Describe Win32 subsystem]">Win32</a> subsystem] <br /></td></tr>
+<tr class="memitem:System" id="r_System"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html">System</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a671506b1441320842c1ccca3b2320d8d" id="r_a671506b1441320842c1ccca3b2320d8d"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; PROCESS_INFORMATION, HANDLE, HANDLE, HANDLE, HANDLE, DWORD, DWORD, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt;, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt;, <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#a671506b1441320842c1ccca3b2320d8d">System::ProcessIdAllocator</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a54b350122e0dd26aab4740e8007657db" id="r_a54b350122e0dd26aab4740e8007657db"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <br />
+&#160;&#160;<a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dbaad6cf6ecc1d3b8761d8bfacc02204e9c">System::Process_LaunchInfo</a> = 0
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dba096bef7489a9d5b992d86159e545b3cd">System::Process_StdoutRead</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dba3ac6e1977a9b7ab350b781a818a764a3">System::Process_StdoutWrite</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dba54699f3d02471df2f4c1a35a034398f3">System::Process_StderrRead</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dbae1d9f41d648254738fe47609bd861533">System::Process_StderrWrite</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dbab9b15e5fa670d8976a7162fe6838320c">System::Process_NumAsyncBytesRead</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dba55d74f940af9ee324715eeb06a9f0a11">System::Process_NumAsyncBytesAvailable</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dbad90dbe99ed6c9fc29be8525c7fbe0056">System::Process_StdoutStream</a>
+, <br />
+&#160;&#160;<a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dbaaf02084f895b9ae8bf6ce5947059b06c">System::Process_StderrStream</a>
+, <a class="el" href="namespace_system.html#a54b350122e0dd26aab4740e8007657dba838682ef9e2fc08bd67c7f442f59f90f">System::Process_AsyncBuffer</a>
+<br />
+ }</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

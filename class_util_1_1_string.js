@@ -164,7 +164,7 @@ var class_util_1_1_string =
     [ "Strip", "class_util_1_1_string.html#aa7921f7a198e04acd6f5fbd393d6ad72", null ],
     [ "StripAssignPrefix", "class_util_1_1_string.html#a4e5667ea4a891e28508119e7e4c263f0", null ],
     [ "StripFileExtension", "class_util_1_1_string.html#a3c3039cf0ba42d5287bc4ae59f669587", null ],
-    [ "StripSubpath", "class_util_1_1_string.html#a956cf5973ecd96a2807b85fa4e73bb0f", null ],
+    [ "StripSubstring", "class_util_1_1_string.html#a905d5828f4d9f67ee92e030461781a5f", null ],
     [ "StrLen", "class_util_1_1_string.html#ab18fa8c6c8169151e82295da4d70cffd", null ],
     [ "SubstituteChar", "class_util_1_1_string.html#adb5c8dfe9c52379f5ac415e8a227bbc5", null ],
     [ "SubstituteString", "class_util_1_1_string.html#ac5b332d5ccfc1dc695b073945cc49d12", null ],

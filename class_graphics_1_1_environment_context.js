@@ -9,5 +9,6 @@ var class_graphics_1_1_environment_context =
     [ "SetFogColor", "class_graphics_1_1_environment_context.html#a2eefc27a162a94f96a9b28aae6200996", null ],
     [ "SetFogDistances", "class_graphics_1_1_environment_context.html#afbdcdf3ff99f30e6ec2d3d70d4c96d4e", null ],
     [ "SetMaxLuminance", "class_graphics_1_1_environment_context.html#a5c5f0ed64012b881e5162e604b7c6d0e", null ],
-    [ "SetNumEnvironmentMips", "class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26", null ]
+    [ "SetNumEnvironmentMips", "class_graphics_1_1_environment_context.html#a20c9b3d0f13fa03b0f29dd82326beb26", null ],
+    [ "SetSkyboxMaterial", "class_graphics_1_1_environment_context.html#a76e54a7d813847ed981b0cf04ec3188a", null ]
 ];

@@ -120,15 +120,47 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_threadi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1dcd14a16a567f52734b09ecfb6e44c0" id="r_a1dcd14a16a567f52734b09ecfb6e44c0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1dcd14a16a567f52734b09ecfb6e44c0">AtomicPointer</a> (void *initial)</td></tr>
+<tr class="memdesc:a1dcd14a16a567f52734b09ecfb6e44c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a0474cede6c2c3361ee13c003a6204372" id="r_a0474cede6c2c3361ee13c003a6204372"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0474cede6c2c3361ee13c003a6204372">operator=</a> (void *value)</td></tr>
+<tr class="memdesc:a0474cede6c2c3361ee13c003a6204372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment (unsafe).  <br /></td></tr>
 <tr class="memitem:ad22efb1409725f48a726903dacec9e44" id="r_ad22efb1409725f48a726903dacec9e44"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#ad22efb1409725f48a726903dacec9e44">Exchange</a> (void *value)</td></tr>
 <tr class="memdesc:ad22efb1409725f48a726903dacec9e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchange.  <br /></td></tr>
 <tr class="memitem:aa3a76cbe0c1138d6c852ca5f6bd668f0" id="r_aa3a76cbe0c1138d6c852ca5f6bd668f0"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#aa3a76cbe0c1138d6c852ca5f6bd668f0">CompareExchange</a> (void *exchange, void *comparand)</td></tr>
 <tr class="memdesc:aa3a76cbe0c1138d6c852ca5f6bd668f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare and exchange.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
 <tr class="memitem:a4a8ef50ff209e5d4073e3cb3f92a3c8b" id="r_a4a8ef50ff209e5d4073e3cb3f92a3c8b"><td class="memItemLeft">volatile void *&#160;</td><td class="memItemRight"><a class="el" href="#a4a8ef50ff209e5d4073e3cb3f92a3c8b">ptr</a></td></tr>
 </table>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1dcd14a16a567f52734b09ecfb6e44c0" name="a1dcd14a16a567f52734b09ecfb6e44c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dcd14a16a567f52734b09ecfb6e44c0">&#9670;&#160;</a></span>AtomicPointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Threading::Interlocked::AtomicPointer::AtomicPointer </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>initial</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aa3a76cbe0c1138d6c852ca5f6bd668f0" name="aa3a76cbe0c1138d6c852ca5f6bd668f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa3a76cbe0c1138d6c852ca5f6bd668f0">&#9670;&#160;</a></span>CompareExchange()</h2>
@@ -188,9 +220,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a4a8ef50ff209e5d4073e3cb3f92a3c8b" name="a4a8ef50ff209e5d4073e3cb3f92a3c8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a8ef50ff209e5d4073e3cb3f92a3c8b">&#9670;&#160;</a></span>ptr</h2>
+<a id="a0474cede6c2c3361ee13c003a6204372" name="a0474cede6c2c3361ee13c003a6204372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0474cede6c2c3361ee13c003a6204372">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,14 +230,34 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile void* Threading::Interlocked::AtomicPointer::ptr</td>
+          <td class="memname">void Threading::Interlocked::AtomicPointer::operator= </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+<p>Assignment (unsafe). </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a4a8ef50ff209e5d4073e3cb3f92a3c8b" name="a4a8ef50ff209e5d4073e3cb3f92a3c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8ef50ff209e5d4073e3cb3f92a3c8b">&#9670;&#160;</a></span>ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile void* Threading::Interlocked::AtomicPointer::ptr</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

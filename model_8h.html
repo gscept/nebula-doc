@@ -117,9 +117,11 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('model_8h.html'
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="idallocator_8h_source.html">ids/idallocator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stringatom_8h_source.html">util/stringatom.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resourceid_8h_source.html">resources/resourceid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rttimacros_8h_source.html">core/rttimacros.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rangeallocator_8h_source.html">memory/rangeallocator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="infinitytype_8h_source.html">coreanimation/infinitytype.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="model_8h_source.html">Go to the source code of this file.</a></p>
@@ -129,6 +131,10 @@ Classes</h2></td></tr>
 <tr class="memitem:Models_3A_3AModelId" id="r_Models_3A_3AModelId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a></td></tr>
 <tr class="memitem:Models_3A_3AModelStreamingData" id="r_Models_3A_3AModelStreamingData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_model_streaming_data.html">Models::ModelStreamingData</a></td></tr>
 <tr class="memitem:Models_3A_3ANodeInstanceRange" id="r_Models_3A_3ANodeInstanceRange"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_node_instance_range.html">Models::NodeInstanceRange</a></td></tr>
+<tr class="memitem:Models_3A_3AJointMask" id="r_Models_3A_3AJointMask"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_joint_mask.html">Models::JointMask</a></td></tr>
+<tr class="memitem:Models_3A_3ATake" id="r_Models_3A_3ATake"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_take.html">Models::Take</a></td></tr>
+<tr class="memitem:Models_3A_3ATake_3A_3AClip" id="r_Models_3A_3ATake_3A_3AClip"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_take_1_1_clip.html">Models::Take::Clip</a></td></tr>
+<tr class="memitem:Models_3A_3ATake_3A_3AClip_3A_3AEvent" id="r_Models_3A_3ATake_3A_3AClip_3A_3AEvent"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_take_1_1_clip_1_1_event.html">Models::Take::Clip::Event</a></td></tr>
 <tr class="memitem:Models_3A_3AModelCreateInfo" id="r_Models_3A_3AModelCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_models_1_1_model_create_info.html">Models::ModelCreateInfo</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -138,7 +144,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aec29d595b1f0529c82c19ca4dcf3dd26" id="r_aec29d595b1f0529c82c19ca4dcf3dd26"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_models.html#aec29d595b1f0529c82c19ca4dcf3dd26">Models::ModelAllocator</a></td></tr>
+<tr class="memitem:a7f301d3c25acdc46e808acf131d66734" id="r_a7f301d3c25acdc46e808acf131d66734"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a>, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_take.html">Take</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_models.html#a7f301d3c25acdc46e808acf131d66734">Models::ModelAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -164,6 +170,8 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memitem:a95b5c76873f9f89e7d6dccfd56bb9fc9" id="r_a95b5c76873f9f89e7d6dccfd56bb9fc9"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="namespace_models.html#a95b5c76873f9f89e7d6dccfd56bb9fc9a69eb1ab5c5e2159de5ed9613ea4e1257">Models::Model_BoundingBox</a>
 , <a class="el" href="namespace_models.html#a95b5c76873f9f89e7d6dccfd56bb9fc9a2974d9933e9d11e9f94e5a61ac888f81">Models::Model_Nodes</a>
+, <a class="el" href="namespace_models.html#a95b5c76873f9f89e7d6dccfd56bb9fc9a66e4ed69067145c2632ff324ccc531d6">Models::Model_JointMasks</a>
+, <a class="el" href="namespace_models.html#a95b5c76873f9f89e7d6dccfd56bb9fc9a4a2b84a495e19a754a27354bbf25cd65">Models::Model_Takes</a>
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>

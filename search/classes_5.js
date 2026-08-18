@@ -18,7 +18,7 @@ var searchData=
   ['environment_15',['Environment',['../class_system_1_1_environment.html',1,'']]],
   ['environmentcontext_16',['EnvironmentContext',['../class_graphics_1_1_environment_context.html',1,'Graphics']]],
   ['errorcallback_17',['ErrorCallback',['../class_physics_1_1_error_callback.html',1,'Physics']]],
-  ['event_18',['Event',['../class_threading_1_1_event.html',1,'']]],
+  ['event_18',['Event',['../struct_models_1_1_take_1_1_clip_1_1_event.html',1,'Models::Take::Clip::Event'],['../class_threading_1_1_event.html',1,'Event']]],
   ['eventcreateinfo_19',['EventCreateInfo',['../struct_core_graphics_1_1_event_create_info.html',1,'CoreGraphics']]],
   ['eventhandlerdata_20',['EventHandlerData',['../struct_i_o_1_1_event_handler_data.html',1,'IO']]],
   ['eventid_21',['EventId',['../struct_core_graphics_1_1_event_id.html',1,'CoreGraphics']]],

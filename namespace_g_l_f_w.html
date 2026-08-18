@@ -132,6 +132,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1ea01fe0ebe261162a5776cdbbe93b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_input_1_1_keyboard.html" title="An input handler which represents a keyboard for polling.">Keyboard</a> callback.  <br /></td></tr>
 <tr class="memitem:a34f9083c7726405998ec64d4ae1d9673" id="r_a34f9083c7726405998ec64d4ae1d9673"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a34f9083c7726405998ec64d4ae1d9673">CharFunc</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &amp;id, unsigned int key)</td></tr>
 <tr class="memdesc:a34f9083c7726405998ec64d4ae1d9673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Character callback.  <br /></td></tr>
+<tr class="memitem:a0fdcead0fd38d5851fc99a86403174db" id="r_a0fdcead0fd38d5851fc99a86403174db"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0fdcead0fd38d5851fc99a86403174db">DropFunc</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &amp;id, int path_count, const char *paths[])</td></tr>
+<tr class="memdesc:a0fdcead0fd38d5851fc99a86403174db"><td class="mdescLeft">&#160;</td><td class="mdescRight">File drop callback.  <br /></td></tr>
 <tr class="memitem:ab08ffea6c3cd316c015445a53b135e50" id="r_ab08ffea6c3cd316c015445a53b135e50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab08ffea6c3cd316c015445a53b135e50">MouseButtonFunc</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &amp;id, int button, int action, int mods)</td></tr>
 <tr class="memdesc:ab08ffea6c3cd316c015445a53b135e50"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_input_1_1_mouse.html" title="An input handler which represents a mouse for polling.">Mouse</a> Button callback.  <br /></td></tr>
 <tr class="memitem:a62f7e8bbaeb43d6dc7f6dbc776af6b25" id="r_a62f7e8bbaeb43d6dc7f6dbc776af6b25"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a62f7e8bbaeb43d6dc7f6dbc776af6b25">MouseFunc</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &amp;id, double xpos, double ypos)</td></tr>
@@ -314,6 +316,34 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>disables callbacks </p>
+
+</div>
+</div>
+<a id="a0fdcead0fd38d5851fc99a86403174db" name="a0fdcead0fd38d5851fc99a86403174db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fdcead0fd38d5851fc99a86403174db">&#9670;&#160;</a></span>DropFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GLFW::DropFunc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">CoreGraphics::WindowId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>path_count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>paths</em></span>[]&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>File drop callback. </p>
 
 </div>
 </div>

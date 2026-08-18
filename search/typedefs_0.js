@@ -8,7 +8,5 @@ var searchData=
   ['arealightallocator_5',['AreaLightAllocator',['../class_lighting_1_1_light_context.html#a7e3d032a7b317d77a37fb481c42ddd47',1,'Lighting::LightContext']]],
   ['arraycreator_6',['ArrayCreator',['../class_core_1_1_rtti.html#a534185b3108ce39db2efb3ec3f21fe1a',1,'Core::Rtti']]],
   ['arrayt_7',['ArrayT',['../class_util_1_1_array.html#a6c0e458e27ac290bd7c70fb8d7195618',1,'Util::Array']]],
-  ['atomiccounter_8',['AtomicCounter',['../namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b',1,'Threading']]],
-  ['atomiccounter64_9',['AtomicCounter64',['../namespace_threading.html#a078e9fa3177309d06608c7c4445044e6',1,'Threading']]],
-  ['attrdecltype_10',['AttrDeclType',['../class_attr_1_1_attribute_definition.html#a7f1e7f6dd6757792e82a0799f00ca97a',1,'Attr::AttributeDefinition']]]
+  ['attrdecltype_8',['AttrDeclType',['../class_attr_1_1_attribute_definition.html#a7f1e7f6dd6757792e82a0799f00ca97a',1,'Attr::AttributeDefinition']]]
 ];

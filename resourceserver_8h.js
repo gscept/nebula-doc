@@ -1,6 +1,8 @@
 var resourceserver_8h =
 [
     [ "Resources::ResourceServer", "class_resources_1_1_resource_server.html", "class_resources_1_1_resource_server" ],
+    [ "Resources::CreateResource", "namespace_resources.html#a5e1ff583951a781ee44e489b863b49ca", null ],
+    [ "Resources::CreateResource", "namespace_resources.html#a9ed47aa309d2668896a201b46facadaf", null ],
     [ "Resources::CreateResource", "namespace_resources.html#a567df1d20a8e2a34ca067ce0cb52bb65", null ],
     [ "Resources::CreateResource", "namespace_resources.html#a06149171c66844225680ba6cdadbd323", null ],
     [ "Resources::CreateResourceListener", "namespace_resources.html#ac6bbb528dfb2faf5a59ab5ad623cb667", null ],

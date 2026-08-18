@@ -13,6 +13,7 @@ var searchData=
   ['jobthread_10',['JobThread',['../class_jobs2_1_1_job_thread.html',1,'Jobs2::JobThread'],['../class_jobs_1_1_job_thread.html',1,'Jobs::JobThread']]],
   ['jobthreadcommand_11',['JobThreadCommand',['../struct_jobs_1_1_job_thread_1_1_job_thread_command.html',1,'Jobs::JobThread']]],
   ['jobuniformdata_12',['JobUniformData',['../struct_jobs_1_1_job_uniform_data.html',1,'Jobs']]],
-  ['jsonreader_13',['JsonReader',['../class_i_o_1_1_json_reader.html',1,'IO']]],
-  ['jsonwriter_14',['JsonWriter',['../class_i_o_1_1_json_writer.html',1,'IO']]]
+  ['jointmask_13',['JointMask',['../struct_models_1_1_joint_mask.html',1,'Models']]],
+  ['jsonreader_14',['JsonReader',['../class_i_o_1_1_json_reader.html',1,'IO']]],
+  ['jsonwriter_15',['JsonWriter',['../class_i_o_1_1_json_writer.html',1,'IO']]]
 ];

@@ -6,6 +6,7 @@ var glfwwindow_8cc =
     [ "CoreGraphics::CreateWindow", "namespace_core_graphics.html#afe20d65b902f713882bfe8f3b8174a96", null ],
     [ "CoreGraphics::DestroyWindow", "namespace_core_graphics.html#abfe4dd377f360ff6334c02cdcbb752cb", null ],
     [ "GLFW::DisableCallbacks", "namespace_g_l_f_w.html#a38b571a5313f2cdef0b29e40ba6ce773", null ],
+    [ "GLFW::DropFunc", "namespace_g_l_f_w.html#a0fdcead0fd38d5851fc99a86403174db", null ],
     [ "GLFW::EnableCallbacks", "namespace_g_l_f_w.html#a8e9b29acc80df508c9202a0d3b10de5a", null ],
     [ "GLFW::FocusFunc", "namespace_g_l_f_w.html#ac95bdf04f365d7f62a19674a89254c07", null ],
     [ "GLFW::InternalSetupFunction", "namespace_g_l_f_w.html#a47177732ee5793d78b2ac94799713441", null ],

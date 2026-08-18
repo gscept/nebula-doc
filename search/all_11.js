@@ -38,7 +38,7 @@ var searchData=
   ['querydoubleattribute_35',['QueryDoubleAttribute',['../class_ti_xml_element.html#ae04bad29ddb281a7e6c662b3882e9928',1,'TiXmlElement']]],
   ['querydoublevalue_36',['QueryDoubleValue',['../class_ti_xml_attribute.html#a6fa41b710c1b79de37a97004aa600c06',1,'TiXmlAttribute']]],
   ['queryfloatattribute_37',['QueryFloatAttribute',['../class_ti_xml_element.html#a5591929834178699b4561ab6ab460068',1,'TiXmlElement']]],
-  ['queryfreecount_38',['queryFreeCount',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a256b5cad816e4e52005fa722bfb12314',1,'Vulkan::GraphicsDeviceState::Queries']]],
+  ['queryfreecount_38',['queryFreeCount',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#ae2fe25a630479b6ea7189e9073697059',1,'Vulkan::GraphicsDeviceState::Queries']]],
   ['queryintattribute_39',['QueryIntAttribute',['../class_ti_xml_element.html#a5c0f739e0f6f5905a201364532e54a60',1,'TiXmlElement']]],
   ['queryintvalue_40',['QueryIntValue',['../class_ti_xml_attribute.html#a6caa8090d2fbb7966700a16e45ed33de',1,'TiXmlAttribute']]],
   ['querymaxcount_41',['queryMaxCount',['../struct_vulkan_1_1_graphics_device_state_1_1_queries.html#a8c60d0cc2a33ad8c0f61124230e2510d',1,'Vulkan::GraphicsDeviceState::Queries']]],

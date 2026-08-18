@@ -11,6 +11,6 @@ var dir_2f5206ca5ea509a602ff2b74633c1b63 =
     [ "environment.h", "environment_8h.html", null ],
     [ "library.h", "library_8h.html", "library_8h" ],
     [ "nebulasettings.h", "nebulasettings_8h.html", null ],
-    [ "process.h", "process_8h.html", null ],
+    [ "process.h", "process_8h.html", "process_8h" ],
     [ "systeminfo.h", "systeminfo_8h.html", "systeminfo_8h" ]
 ];

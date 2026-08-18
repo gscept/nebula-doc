@@ -7,7 +7,7 @@ var class_fibers_1_1_fiber_thread =
     [ "EmitWakeupSignal", "class_fibers_1_1_fiber_thread.html#a6da9d3b32e1c1c9feb8ddb8c1db44222", null ],
     [ "HasWork", "class_fibers_1_1_fiber_thread.html#a01b247c8c698ba0b037de8e9a6393288", null ],
     [ "NewFiber", "class_fibers_1_1_fiber_thread.html#a0157922c6d4bacc1505d521b53b335af", null ],
-    [ "SleepFiber", "class_fibers_1_1_fiber_thread.html#a0827a64e559905e95c0eb471becb0c3b", null ],
+    [ "SleepFiber", "class_fibers_1_1_fiber_thread.html#ac0cacec0ff7539a87e13cee34f0e8066", null ],
     [ "SwitchFiber", "class_fibers_1_1_fiber_thread.html#ab5b5306e4bb2adb9cd324bb8ec8da27c", null ],
     [ "currentFiber", "class_fibers_1_1_fiber_thread.html#a8913bafbf658fac9851d971e7de54747", null ],
     [ "threadFiber", "class_fibers_1_1_fiber_thread.html#afd786bde10f2b237d25edff96c5cbb65", null ]

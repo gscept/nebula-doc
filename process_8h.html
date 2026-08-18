@@ -115,8 +115,32 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('process_8h.htm
   <div class="headertitle"><div class="title">process.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="ids_2id_8h_source.html">ids/id.h</a>&quot;</code><br />
+</div>
 <p><a href="process_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:System_3A_3AProcessId" id="r_System_3A_3AProcessId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_system_1_1_process_id.html">System::ProcessId</a></td></tr>
+<tr class="memitem:System_3A_3AProcessStartInfo" id="r_System_3A_3AProcessStartInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_system_1_1_process_start_info.html">System::ProcessStartInfo</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:System" id="r_System"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html">System</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7263dcb04b32c07beaa9b3fc1e05178f" id="r_a7263dcb04b32c07beaa9b3fc1e05178f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#a7263dcb04b32c07beaa9b3fc1e05178f">System::FindProcess</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;uri)</td></tr>
+<tr class="memdesc:a7263dcb04b32c07beaa9b3fc1e05178f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a process using URI.  <br /></td></tr>
+<tr class="memitem:aad75b42de69ef9fbeb554ee7d25a5e47" id="r_aad75b42de69ef9fbeb554ee7d25a5e47"><td class="memItemLeft"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#aad75b42de69ef9fbeb554ee7d25a5e47">System::StartProcess</a> (const <a class="el" href="struct_system_1_1_process_start_info.html">ProcessStartInfo</a> &amp;createInfo)</td></tr>
+<tr class="memdesc:aad75b42de69ef9fbeb554ee7d25a5e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a process.  <br /></td></tr>
+<tr class="memitem:adc99b571b92af7c13f809ac4f4e25f92" id="r_adc99b571b92af7c13f809ac4f4e25f92"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#adc99b571b92af7c13f809ac4f4e25f92">System::UpdateProcessStreams</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:adc99b571b92af7c13f809ac4f4e25f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update streams.  <br /></td></tr>
+<tr class="memitem:ac120732f1ffcf69f2a11c2e1793b2a7f" id="r_ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#ac120732f1ffcf69f2a11c2e1793b2a7f">System::IsProcessRunning</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if process is running (poll).  <br /></td></tr>
+<tr class="memitem:a53ca11c6fb5b5829091d965440d593b1" id="r_a53ca11c6fb5b5829091d965440d593b1"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#a53ca11c6fb5b5829091d965440d593b1">System::WaitForProcess</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:a53ca11c6fb5b5829091d965440d593b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for process, then frees it and returns the error code.  <br /></td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

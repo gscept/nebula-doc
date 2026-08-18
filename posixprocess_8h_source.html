@@ -120,13 +120,13 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('posixprocess_8
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="string_8h.html">util/string.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="uri_8h.html">io/uri.h</a>&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="stream_8h.html">io/stream.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="processbase_8h.html">system/base/processbase.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;system/base/processbase.h&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">//------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_posix.html">Posix</a></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_process.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="class_posix_1_1_posix_process.html#afab655936308753c615ef515554d9e8b">PosixProcess</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_base_1_1_process.html">Base::Process</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_posix_1_1_posix_process.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="class_posix_1_1_posix_process.html#afab655936308753c615ef515554d9e8b">PosixProcess</a> : <span class="keyword">public</span> Base::Process</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
@@ -151,7 +151,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('posixprocess_8
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace Posix</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="ttc" id="aclass_base_1_1_process_html"><div class="ttname"><a href="class_base_1_1_process.html">Base::Process</a></div><div class="ttdoc">Base class for launching an external application.</div><div class="ttdef"><b>Definition</b> processbase.h:19</div></div>
 <div class="ttc" id="aclass_i_o_1_1_u_r_i_html"><div class="ttname"><a href="class_i_o_1_1_u_r_i.html">IO::URI</a></div><div class="ttdoc">An URI object can split a Uniform Resource Identifier string into its components or build a string fr...</div><div class="ttdef"><b>Definition</b> uri.h:67</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_process_html_a1c283b745cb48ff31f6e311c9aa1c237"><div class="ttname"><a href="class_posix_1_1_posix_process.html#a1c283b745cb48ff31f6e311c9aa1c237">Posix::PosixProcess::inPipe</a></div><div class="ttdeci">int inPipe</div><div class="ttdef"><b>Definition</b> posixprocess.h:42</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_process_html_a2cdf4bd9139989d54c3346590e836906"><div class="ttname"><a href="class_posix_1_1_posix_process.html#a2cdf4bd9139989d54c3346590e836906">Posix::PosixProcess::LaunchWait</a></div><div class="ttdeci">bool LaunchWait() const</div><div class="ttdoc">launch application and wait for its termination</div><div class="ttdef"><b>Definition</b> posixprocess.cc:30</div></div>
@@ -165,7 +164,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('posixprocess_8
 <div class="ttc" id="aclass_posix_1_1_posix_process_html_af747d7c031391222be031e10d1202cd3"><div class="ttname"><a href="class_posix_1_1_posix_process.html#af747d7c031391222be031e10d1202cd3">Posix::PosixProcess::CheckIfExists</a></div><div class="ttdeci">bool CheckIfExists()</div><div class="ttdoc">Detect if an instance of the process is already running.</div><div class="ttdef"><b>Definition</b> posixprocess.cc:232</div></div>
 <div class="ttc" id="aclass_posix_1_1_posix_process_html_afab655936308753c615ef515554d9e8b"><div class="ttname"><a href="class_posix_1_1_posix_process.html#afab655936308753c615ef515554d9e8b">Posix::PosixProcess::PosixProcess</a></div><div class="ttdeci">PosixProcess()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> posixprocess.cc:17</div></div>
 <div class="ttc" id="anamespace_posix_html"><div class="ttname"><a href="namespace_posix.html">Posix</a></div><div class="ttdoc">Posix implemention of a read-many write-few lock.</div><div class="ttdef"><b>Definition</b> posixsysfunc.cc:21</div></div>
-<div class="ttc" id="aprocessbase_8h_html"><div class="ttname"><a href="processbase_8h.html">processbase.h</a></div></div>
 <div class="ttc" id="astream_8h_html"><div class="ttname"><a href="stream_8h.html">stream.h</a></div></div>
 <div class="ttc" id="astring_8h_html"><div class="ttname"><a href="string_8h.html">string.h</a></div></div>
 <div class="ttc" id="auri_8h_html"><div class="ttname"><a href="uri_8h.html">uri.h</a></div></div>

@@ -140,9 +140,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac2c82d4784add95ef12b32b66753dba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup job queue  <br /></td></tr>
 <tr class="memitem:a557752e55926f74da96a6ef320e93d6f" id="r_a557752e55926f74da96a6ef320e93d6f"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a557752e55926f74da96a6ef320e93d6f">Discard</a> ()</td></tr>
 <tr class="memdesc:a557752e55926f74da96a6ef320e93d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard job queue  <br /></td></tr>
-<tr class="memitem:ac0abf64aa4e0a7e2f53c9f5d44860114" id="r_ac0abf64aa4e0a7e2f53c9f5d44860114"><td class="memTemplParams" colspan="2">template&lt;class T&gt; </td></tr>
-<tr class="memitem:ac0abf64aa4e0a7e2f53c9f5d44860114 template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac0abf64aa4e0a7e2f53c9f5d44860114">Enqueue</a> (<a class="el" href="#a36a0b86723f42a700713a396946f4501">JobFunction</a> function, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; T * &gt; &amp;contexts, <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *counter)</td></tr>
-<tr class="memdesc:ac0abf64aa4e0a7e2f53c9f5d44860114"><td class="mdescLeft">&#160;</td><td class="mdescRight">enqueue job  <br /></td></tr>
+<tr class="memitem:aa4ca54b2cee8b6f0774535e3875dfb2b" id="r_aa4ca54b2cee8b6f0774535e3875dfb2b"><td class="memTemplParams" colspan="2">template&lt;class T&gt; </td></tr>
+<tr class="memitem:aa4ca54b2cee8b6f0774535e3875dfb2b template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa4ca54b2cee8b6f0774535e3875dfb2b">Enqueue</a> (<a class="el" href="#a36a0b86723f42a700713a396946f4501">JobFunction</a> function, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; T * &gt; &amp;contexts, <a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *counter)</td></tr>
+<tr class="memdesc:aa4ca54b2cee8b6f0774535e3875dfb2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">enqueue job  <br /></td></tr>
 <tr class="memitem:ae6135d937cda4a93273f282f8ae6d99f" id="r_ae6135d937cda4a93273f282f8ae6d99f"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae6135d937cda4a93273f282f8ae6d99f">Free</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> id)</td></tr>
 <tr class="memdesc:ae6135d937cda4a93273f282f8ae6d99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">free a fiber  <br /></td></tr>
 <tr class="memitem:a92e2f1a8ba760b22fcb38a289ea73783" id="r_a92e2f1a8ba760b22fcb38a289ea73783"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a92e2f1a8ba760b22fcb38a289ea73783">Sleep</a> (<a class="el" href="struct_fibers_1_1_fiber_wait_context.html">FiberWaitContext</a> context)</td></tr>
@@ -296,8 +296,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0abf64aa4e0a7e2f53c9f5d44860114" name="ac0abf64aa4e0a7e2f53c9f5d44860114"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0abf64aa4e0a7e2f53c9f5d44860114">&#9670;&#160;</a></span>Enqueue()</h2>
+<a id="aa4ca54b2cee8b6f0774535e3875dfb2b" name="aa4ca54b2cee8b6f0774535e3875dfb2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ca54b2cee8b6f0774535e3875dfb2b">&#9670;&#160;</a></span>Enqueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +320,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

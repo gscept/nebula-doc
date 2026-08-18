@@ -435,9 +435,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a52a05176e27a4b4cf40916255f102f38" id="r_a52a05176e27a4b4cf40916255f102f38"><td class="memItemLeft"><a class="el" href="class_math_1_1transform.html">transform</a>&#160;</td><td class="memItemRight"><a class="el" href="#a52a05176e27a4b4cf40916255f102f38">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;b)</td></tr>
 <tr class="memitem:aeb83fdddb0c0e9dd43d51820d8f2f861" id="r_aeb83fdddb0c0e9dd43d51820d8f2f861"><td class="memItemLeft"><a class="el" href="class_math_1_1transform.html">transform</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb83fdddb0c0e9dd43d51820d8f2f861">lerp</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;b, float t)</td></tr>
 <tr class="memitem:a508ef7dbe880a50f0cff5750964b64f5" id="r_a508ef7dbe880a50f0cff5750964b64f5"><td class="memItemLeft"><a class="el" href="struct_math_1_1point.html">point</a>&#160;</td><td class="memItemRight"><a class="el" href="#a508ef7dbe880a50f0cff5750964b64f5">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="struct_math_1_1point.html">point</a> &amp;b)</td></tr>
-<tr class="memdesc:a508ef7dbe880a50f0cff5750964b64f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms a position (applies scale, rotation and offset)  <br /></td></tr>
+<tr class="memdesc:a508ef7dbe880a50f0cff5750964b64f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a position (applies scale, rotation and offset).  <br /></td></tr>
 <tr class="memitem:abbc52f3605c68e49fbd6655622f49780" id="r_abbc52f3605c68e49fbd6655622f49780"><td class="memItemLeft"><a class="el" href="struct_math_1_1vector.html">vector</a>&#160;</td><td class="memItemRight"><a class="el" href="#abbc52f3605c68e49fbd6655622f49780">operator*</a> (const <a class="el" href="class_math_1_1transform.html">transform</a> &amp;a, const <a class="el" href="struct_math_1_1vector.html">vector</a> &amp;b)</td></tr>
-<tr class="memdesc:abbc52f3605c68e49fbd6655622f49780"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms a vector (ignores position)  <br /></td></tr>
+<tr class="memdesc:abbc52f3605c68e49fbd6655622f49780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a vector (ignores position).  <br /></td></tr>
 <tr class="memitem:a2ccdb4a7be6df5698476973ec490ed9b" id="r_a2ccdb4a7be6df5698476973ec490ed9b"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1vec2.html">vec2</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2ccdb4a7be6df5698476973ec490ed9b">lerp</a> (const <a class="el" href="struct_math_1_1vec2.html">vec2</a> &amp;v0, const <a class="el" href="struct_math_1_1vec2.html">vec2</a> &amp;v1, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> s)</td></tr>
 <tr class="memitem:a85a504b8d20d4a47e521d40177ff5436" id="r_a85a504b8d20d4a47e521d40177ff5436"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a85a504b8d20d4a47e521d40177ff5436">operator-</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;lhs)</td></tr>
 <tr class="memitem:a4d1fc16945967376b26f2d83b92b79c5" id="r_a4d1fc16945967376b26f2d83b92b79c5"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1vec3.html">vec3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4d1fc16945967376b26f2d83b92b79c5">operator*</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;lhs, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> t)</td></tr>
@@ -2089,7 +2089,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Chop float to int. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd>type cast to int is slow! </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd>type cast to int is slow! </dd></dl>
 
 </div>
 </div>
@@ -5123,7 +5123,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>transforms a position (applies scale, rotation and offset) </p>
+<p>Transforms a position (applies scale, rotation and offset). </p>
 
 </div>
 </div>
@@ -5183,7 +5183,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>transforms a vector (ignores position) </p>
+<p>Transforms a vector (ignores position). </p>
 
 </div>
 </div>

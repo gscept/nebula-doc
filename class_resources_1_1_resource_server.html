@@ -142,6 +142,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf35fad8b3fc502eb3dc85c37e53eeb1" id="r_abf35fad8b3fc502eb3dc85c37e53eeb1"><td class="memTemplParams" colspan="2">template&lt;class METADATA&gt; </td></tr>
 <tr class="memitem:abf35fad8b3fc502eb3dc85c37e53eeb1 template"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#abf35fad8b3fc502eb3dc85c37e53eeb1">CreateResource</a> (const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">ResourceName</a> &amp;res, const METADATA &amp;metaData, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false, bool stream=true)</td></tr>
 <tr class="memdesc:abf35fad8b3fc502eb3dc85c37e53eeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload which also takes an identifying tag, which is used to group-discard resources  <br /></td></tr>
+<tr class="memitem:ae8b1969b6f75035449a48239139f2c58" id="r_ae8b1969b6f75035449a48239139f2c58"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#ae8b1969b6f75035449a48239139f2c58">CreateResource</a> (const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;res, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false, bool stream=true)</td></tr>
+<tr class="memdesc:ae8b1969b6f75035449a48239139f2c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new resource (stream-managed), which will be loaded at some later point, if not already loaded  <br /></td></tr>
+<tr class="memitem:a74fdac41ad7d60ed0008d92831b6fa2d" id="r_a74fdac41ad7d60ed0008d92831b6fa2d"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a74fdac41ad7d60ed0008d92831b6fa2d">CreateResource</a> (const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;res, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false, bool stream=true)</td></tr>
+<tr class="memdesc:a74fdac41ad7d60ed0008d92831b6fa2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload which also takes an identifying tag, which is used to group-discard resources  <br /></td></tr>
+<tr class="memitem:a0f712b4d9919538d70fa6c1d4d4c524a" id="r_a0f712b4d9919538d70fa6c1d4d4c524a"><td class="memTemplParams" colspan="2">template&lt;class METADATA&gt; </td></tr>
+<tr class="memitem:a0f712b4d9919538d70fa6c1d4d4c524a template"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a0f712b4d9919538d70fa6c1d4d4c524a">CreateResource</a> (const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;res, const METADATA &amp;metaData, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false, bool stream=true)</td></tr>
+<tr class="memdesc:a0f712b4d9919538d70fa6c1d4d4c524a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new resource (stream-managed), which will be loaded at some later point, if not already loaded  <br /></td></tr>
+<tr class="memitem:a804ad8535c727ad96bca2bf6a6f3f654" id="r_a804ad8535c727ad96bca2bf6a6f3f654"><td class="memTemplParams" colspan="2">template&lt;class METADATA&gt; </td></tr>
+<tr class="memitem:a804ad8535c727ad96bca2bf6a6f3f654 template"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a804ad8535c727ad96bca2bf6a6f3f654">CreateResource</a> (const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;res, const METADATA &amp;metaData, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success=nullptr, std::function&lt; void(const Resources::ResourceId)&gt; failed=nullptr, bool immediate=false, bool stream=true)</td></tr>
+<tr class="memdesc:a804ad8535c727ad96bca2bf6a6f3f654"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload which also takes an identifying tag, which is used to group-discard resources  <br /></td></tr>
 <tr class="memitem:a6ebde5020db380e4a9afeca17ec18372" id="r_a6ebde5020db380e4a9afeca17ec18372"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6ebde5020db380e4a9afeca17ec18372">DiscardResource</a> (const Resources::ResourceId res)</td></tr>
 <tr class="memdesc:a6ebde5020db380e4a9afeca17ec18372"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard resource (stream-managed)  <br /></td></tr>
 <tr class="memitem:a68ac471998d8cf1531823d48f0af8900" id="r_a68ac471998d8cf1531823d48f0af8900"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68ac471998d8cf1531823d48f0af8900">DiscardResources</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
@@ -216,6 +226,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af103757f0bbaed7eb5474be356bc2f49" id="r_af103757f0bbaed7eb5474be356bc2f49"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af103757f0bbaed7eb5474be356bc2f49">open</a></td></tr>
 <tr class="memitem:a40762645307c2480489f0f9cc47c69db" id="r_a40762645307c2480489f0f9cc47c69db"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a40762645307c2480489f0f9cc47c69db">extensionMap</a></td></tr>
+<tr class="memitem:a8dcd8fcf0f5766b090730720c034bea0" id="r_a8dcd8fcf0f5766b090730720c034bea0"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8dcd8fcf0f5766b090730720c034bea0">loaderMap</a></td></tr>
 <tr class="memitem:a447f36779bdc5b450bc915b72e81e936" id="r_a447f36779bdc5b450bc915b72e81e936"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; const <a class="el" href="class_core_1_1_rtti.html">Core::Rtti</a> *, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a447f36779bdc5b450bc915b72e81e936">typeMap</a></td></tr>
 <tr class="memitem:a9666c96cb9ebe23136f818c7b1a3f70e" id="r_a9666c96cb9ebe23136f818c7b1a3f70e"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="#a685a33b83a13f36aceea3ff940994ac9">ResourceLoader</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9666c96cb9ebe23136f818c7b1a3f70e">loaders</a></td></tr>
 </table><table class="memberdecls">
@@ -353,8 +364,216 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a804ad8535c727ad96bca2bf6a6f3f654" name="a804ad8535c727ad96bca2bf6a6f3f654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804ad8535c727ad96bca2bf6a6f3f654">&#9670;&#160;</a></span>CreateResource() <span class="overload">[1/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class METADATA&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Resources::ResourceId Resources::ResourceServer::CreateResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const METADATA &amp;</td>          <td class="paramname"><span class="paramname"><em>metaData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>overload which also takes an identifying tag, which is used to group-discard resources </p>
+
+</div>
+</div>
+<a id="a0f712b4d9919538d70fa6c1d4d4c524a" name="a0f712b4d9919538d70fa6c1d4d4c524a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f712b4d9919538d70fa6c1d4d4c524a">&#9670;&#160;</a></span>CreateResource() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class METADATA&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Resources::ResourceId Resources::ResourceServer::CreateResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const METADATA &amp;</td>          <td class="paramname"><span class="paramname"><em>metaData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create a new resource (stream-managed), which will be loaded at some later point, if not already loaded </p>
+
+</div>
+</div>
+<a id="a74fdac41ad7d60ed0008d92831b6fa2d" name="a74fdac41ad7d60ed0008d92831b6fa2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74fdac41ad7d60ed0008d92831b6fa2d">&#9670;&#160;</a></span>CreateResource() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Resources::ResourceId Resources::ResourceServer::CreateResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>overload which also takes an identifying tag, which is used to group-discard resources </p>
+
+</div>
+</div>
+<a id="ae8b1969b6f75035449a48239139f2c58" name="ae8b1969b6f75035449a48239139f2c58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b1969b6f75035449a48239139f2c58">&#9670;&#160;</a></span>CreateResource() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Resources::ResourceId Resources::ResourceServer::CreateResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create a new resource (stream-managed), which will be loaded at some later point, if not already loaded </p>
+
+</div>
+</div>
 <a id="abf35fad8b3fc502eb3dc85c37e53eeb1" name="abf35fad8b3fc502eb3dc85c37e53eeb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf35fad8b3fc502eb3dc85c37e53eeb1">&#9670;&#160;</a></span>CreateResource() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf35fad8b3fc502eb3dc85c37e53eeb1">&#9670;&#160;</a></span>CreateResource() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +631,7 @@ template&lt;class METADATA&gt; </div>
 </div>
 </div>
 <a id="aeda512f8750bbf25d98b385d255f0eff" name="aeda512f8750bbf25d98b385d255f0eff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeda512f8750bbf25d98b385d255f0eff">&#9670;&#160;</a></span>CreateResource() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda512f8750bbf25d98b385d255f0eff">&#9670;&#160;</a></span>CreateResource() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +684,7 @@ template&lt;class METADATA&gt; </div>
 </div>
 </div>
 <a id="a56c66138ad94b38de0f017d4cef94c71" name="a56c66138ad94b38de0f017d4cef94c71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56c66138ad94b38de0f017d4cef94c71">&#9670;&#160;</a></span>CreateResource() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56c66138ad94b38de0f017d4cef94c71">&#9670;&#160;</a></span>CreateResource() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +736,7 @@ template&lt;class METADATA&gt; </div>
 </div>
 </div>
 <a id="a32d3748ad720fb329401ae9fa4fe4142" name="a32d3748ad720fb329401ae9fa4fe4142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32d3748ad720fb329401ae9fa4fe4142">&#9670;&#160;</a></span>CreateResource() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d3748ad720fb329401ae9fa4fe4142">&#9670;&#160;</a></span>CreateResource() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1131,6 +1350,28 @@ template&lt;class POOL_TYPE&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&gt; Resources::ResourceServer::extensionMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8dcd8fcf0f5766b090730720c034bea0" name="a8dcd8fcf0f5766b090730720c034bea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcd8fcf0f5766b090730720c034bea0">&#9670;&#160;</a></span>loaderMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&gt; Resources::ResourceServer::loaderMap</td>
         </tr>
       </table>
   </td>

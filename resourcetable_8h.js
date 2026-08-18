@@ -20,6 +20,7 @@ var resourcetable_8h =
     [ "CoreGraphics::ResourcePipelineId", "struct_core_graphics_1_1_resource_pipeline_id.html", null ],
     [ "CoreGraphics::ResourcePipelinePushConstantRange", "struct_core_graphics_1_1_resource_pipeline_push_constant_range.html", "struct_core_graphics_1_1_resource_pipeline_push_constant_range" ],
     [ "CoreGraphics::ResourcePipelineCreateInfo", "struct_core_graphics_1_1_resource_pipeline_create_info.html", "struct_core_graphics_1_1_resource_pipeline_create_info" ],
+    [ "CoreGraphics::_DECL_ACQUIRE_RELEASE", "namespace_core_graphics.html#a3808f088384353f3ffadc1e3a4378d63", null ],
     [ "CoreGraphics::CreateResourcePipeline", "namespace_core_graphics.html#a85b965a9110541f29d80c5c8902ab52a", null ],
     [ "CoreGraphics::CreateResourceTable", "namespace_core_graphics.html#a49058c3b2c2d01a79e80638ab519abf8", null ],
     [ "CoreGraphics::CreateResourceTableLayout", "namespace_core_graphics.html#a38bf1ed30a1707444ad4ce48fb6c9d15", null ],

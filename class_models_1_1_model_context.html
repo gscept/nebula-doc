@@ -144,6 +144,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad01b6860515f84bde65c7f74965ea6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">create context  <br /></td></tr>
 <tr class="memitem:a7aa9061f7bdbd7050ccd48a85647a056" id="r_a7aa9061f7bdbd7050ccd48a85647a056"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7aa9061f7bdbd7050ccd48a85647a056">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;name, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void()&gt; finishedCallback, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stage=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>|<a class="el" href="namespace_graphics.html#a5aa2e45f2a26da2b6c1e844ef635549e">Graphics::SHADOW_STAGE_MASK</a>)</td></tr>
 <tr class="memdesc:a7aa9061f7bdbd7050ccd48a85647a056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup from a model resource.  <br /></td></tr>
+<tr class="memitem:a39526dc300d6cb8e83c721cf916141da" id="r_a39526dc300d6cb8e83c721cf916141da"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a39526dc300d6cb8e83c721cf916141da">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;urn, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void()&gt; finishedCallback, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stage=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>|<a class="el" href="namespace_graphics.html#a5aa2e45f2a26da2b6c1e844ef635549e">Graphics::SHADOW_STAGE_MASK</a>)</td></tr>
+<tr class="memdesc:a39526dc300d6cb8e83c721cf916141da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup from a model resource.  <br /></td></tr>
 <tr class="memitem:a315526a1348e1fcb7c0aafb01bf99ceb" id="r_a315526a1348e1fcb7c0aafb01bf99ceb"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a315526a1348e1fcb7c0aafb01bf99ceb">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> transform, const <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &amp;boundingBox, const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a> material, const <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a> mesh, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> primitiveGroup, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>|<a class="el" href="namespace_graphics.html#a5aa2e45f2a26da2b6c1e844ef635549e">Graphics::SHADOW_STAGE_MASK</a>)</td></tr>
 <tr class="memdesc:a315526a1348e1fcb7c0aafb01bf99ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup with a mesh and material.  <br /></td></tr>
 <tr class="memitem:a4db640d11bc254d4e47a9d5ef50a10e1" id="r_a4db640d11bc254d4e47a9d5ef50a10e1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a4db640d11bc254d4e47a9d5ef50a10e1">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt; &amp;transforms, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_core_graphics_1_1_mesh_id.html">CoreGraphics::MeshId</a> &gt; &amp;meshes, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a> &gt; &amp;materials, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_math_1_1bbox.html">Math::bbox</a> &gt; &amp;boundingBoxes, const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; &amp;primitiveGroups, const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> stageMask=<a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>|<a class="el" href="namespace_graphics.html#a5aa2e45f2a26da2b6c1e844ef635549e">Graphics::SHADOW_STAGE_MASK</a>)</td></tr>
@@ -152,8 +154,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8ec0facd79f6cb19784e9786af511780"><td class="mdescLeft">&#160;</td><td class="mdescRight">change model for existing entity  <br /></td></tr>
 <tr class="memitem:a713eb9431fbb467d371cd36aa4d99abe" id="r_a713eb9431fbb467d371cd36aa4d99abe"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a713eb9431fbb467d371cd36aa4d99abe">ChangeMaterial</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a> material)</td></tr>
 <tr class="memdesc:a713eb9431fbb467d371cd36aa4d99abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the material for the first node in the model.  <br /></td></tr>
+<tr class="memitem:a71307c2c43910f47ebe182e26eeb310e" id="r_a71307c2c43910f47ebe182e26eeb310e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a71307c2c43910f47ebe182e26eeb310e">ChangeMaterial</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> node, const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a> material)</td></tr>
+<tr class="memdesc:a71307c2c43910f47ebe182e26eeb310e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the material for a specific node in the model, use GetNodeIndex to lookup by name.  <br /></td></tr>
 <tr class="memitem:ab7f882eecb070f9af711ae02ba10f3b0" id="r_ab7f882eecb070f9af711ae02ba10f3b0"><td class="memItemLeft">static const <a class="el" href="struct_models_1_1_model_id.html">Models::ModelId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab7f882eecb070f9af711ae02ba10f3b0">GetModel</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
-<tr class="memdesc:ab7f882eecb070f9af711ae02ba10f3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get model  <br /></td></tr>
+<tr class="memdesc:ab7f882eecb070f9af711ae02ba10f3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model.  <br /></td></tr>
 <tr class="memitem:a76ed639475f7515b0fee0977522ef370" id="r_a76ed639475f7515b0fee0977522ef370"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a76ed639475f7515b0fee0977522ef370">SetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &amp;transform)</td></tr>
 <tr class="memdesc:a76ed639475f7515b0fee0977522ef370"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the transform for a model  <br /></td></tr>
 <tr class="memitem:ab2333d141390a226f3ad18c014817d0c" id="r_ab2333d141390a226f3ad18c014817d0c"><td class="memItemLeft">static <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab2333d141390a226f3ad18c014817d0c">GetTransform</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
@@ -205,8 +209,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac2a758db912de7842ecf5cad09035903" id="r_ac2a758db912de7842ecf5cad09035903"><td class="memItemLeft">static <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac2a758db912de7842ecf5cad09035903">ConstantsUpdateCounter</a> = 0</td></tr>
-<tr class="memitem:ad7c60d33aa197cdaa5b5dcd9d3764f26" id="r_ad7c60d33aa197cdaa5b5dcd9d3764f26"><td class="memItemLeft">static <a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad7c60d33aa197cdaa5b5dcd9d3764f26">TransformsUpdateCounter</a> = 0</td></tr>
+<tr class="memitem:af5286b08dafd44e73799f0d4036deb94" id="r_af5286b08dafd44e73799f0d4036deb94"><td class="memItemLeft">static <a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#af5286b08dafd44e73799f0d4036deb94">ConstantsUpdateCounter</a> = 0</td></tr>
+<tr class="memitem:ac6f4e3d9096452fb84d45cd8d658693f" id="r_ac6f4e3d9096452fb84d45cd8d658693f"><td class="memItemLeft">static <a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac6f4e3d9096452fb84d45cd8d658693f">TransformsUpdateCounter</a> = 0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -481,7 +485,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a713eb9431fbb467d371cd36aa4d99abe" name="a713eb9431fbb467d371cd36aa4d99abe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a713eb9431fbb467d371cd36aa4d99abe">&#9670;&#160;</a></span>ChangeMaterial()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a713eb9431fbb467d371cd36aa4d99abe">&#9670;&#160;</a></span>ChangeMaterial() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,6 +512,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the material for the first node in the model. </p>
+
+</div>
+</div>
+<a id="a71307c2c43910f47ebe182e26eeb310e" name="a71307c2c43910f47ebe182e26eeb310e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71307c2c43910f47ebe182e26eeb310e">&#9670;&#160;</a></span>ChangeMaterial() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::ModelContext::ChangeMaterial </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a></td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the material for a specific node in the model, use GetNodeIndex to lookup by name. </p>
 
 </div>
 </div>
@@ -683,7 +723,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get model </p>
+<p>Get model. </p>
 
 </div>
 </div>
@@ -1131,8 +1171,54 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a39526dc300d6cb8e83c721cf916141da" name="a39526dc300d6cb8e83c721cf916141da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39526dc300d6cb8e83c721cf916141da">&#9670;&#160;</a></span>Setup() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::ModelContext::Setup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>urn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void()&gt;</td>          <td class="paramname"><span class="paramname"><em>finishedCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a></td>          <td class="paramname"><span class="paramname"><em>stage</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_graphics.html#a81e0a223880451039c41b9901949a8bb">Graphics::PRIMARY_STAGE_MASK</a>&#160;|&#160;<a class="el" href="namespace_graphics.html#a5aa2e45f2a26da2b6c1e844ef635549e">Graphics::SHADOW_STAGE_MASK</a></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup from a model resource. </p>
+
+</div>
+</div>
 <a id="a315526a1348e1fcb7c0aafb01bf99ceb" name="a315526a1348e1fcb7c0aafb01bf99ceb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a315526a1348e1fcb7c0aafb01bf99ceb">&#9670;&#160;</a></span>Setup() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a315526a1348e1fcb7c0aafb01bf99ceb">&#9670;&#160;</a></span>Setup() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1188,7 +1274,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7aa9061f7bdbd7050ccd48a85647a056" name="a7aa9061f7bdbd7050ccd48a85647a056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aa9061f7bdbd7050ccd48a85647a056">&#9670;&#160;</a></span>Setup() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa9061f7bdbd7050ccd48a85647a056">&#9670;&#160;</a></span>Setup() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1234,7 +1320,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a4db640d11bc254d4e47a9d5ef50a10e1" name="a4db640d11bc254d4e47a9d5ef50a10e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db640d11bc254d4e47a9d5ef50a10e1">&#9670;&#160;</a></span>Setup() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db640d11bc254d4e47a9d5ef50a10e1">&#9670;&#160;</a></span>Setup() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1479,8 +1565,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2a758db912de7842ecf5cad09035903" name="ac2a758db912de7842ecf5cad09035903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2a758db912de7842ecf5cad09035903">&#9670;&#160;</a></span>ConstantsUpdateCounter</h2>
+<a id="af5286b08dafd44e73799f0d4036deb94" name="af5286b08dafd44e73799f0d4036deb94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5286b08dafd44e73799f0d4036deb94">&#9670;&#160;</a></span>ConstantsUpdateCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1489,7 +1575,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> Models::ModelContext::ConstantsUpdateCounter = 0</td>
+          <td class="memname"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> Models::ModelContext::ConstantsUpdateCounter = 0</td>
         </tr>
       </table>
   </td>
@@ -1611,8 +1697,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7c60d33aa197cdaa5b5dcd9d3764f26" name="ad7c60d33aa197cdaa5b5dcd9d3764f26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7c60d33aa197cdaa5b5dcd9d3764f26">&#9670;&#160;</a></span>TransformsUpdateCounter</h2>
+<a id="ac6f4e3d9096452fb84d45cd8d658693f" name="ac6f4e3d9096452fb84d45cd8d658693f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f4e3d9096452fb84d45cd8d658693f">&#9670;&#160;</a></span>TransformsUpdateCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1621,7 +1707,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_threading.html#a5e1a0a87f18165bfb9f1bd8dbc8da48b">Threading::AtomicCounter</a> Models::ModelContext::TransformsUpdateCounter = 0</td>
+          <td class="memname"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> Models::ModelContext::TransformsUpdateCounter = 0</td>
         </tr>
       </table>
   </td>

@@ -133,8 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a3544136e3f01297a024cd7f0500036"><td class="mdescLeft">&#160;</td><td class="mdescRight">capture input to this event handler  <br /></td></tr>
 <tr class="memitem:a01da98eebf3eb977edd12f3847181c19" id="r_a01da98eebf3eb977edd12f3847181c19"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a01da98eebf3eb977edd12f3847181c19">EndCapture</a> () override</td></tr>
 <tr class="memdesc:a01da98eebf3eb977edd12f3847181c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">end input capturing to this event handler  <br /></td></tr>
-<tr class="memitem:a4302574c25305663368654daaf314d0c" id="r_a4302574c25305663368654daaf314d0c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4302574c25305663368654daaf314d0c">OnBeginFrame</a> () override</td></tr>
-<tr class="memdesc:a4302574c25305663368654daaf314d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset key inputs  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_input_1_1_input_handler"><td colspan="2">Public Member Functions inherited from <a class="el" href="class_input_1_1_input_handler.html">Input::InputHandler</a></td></tr>
 <tr class="memitem:aefb2943a295ac3ccb57119a47ee3145d pub_methods_class_input_1_1_input_handler" id="r_aefb2943a295ac3ccb57119a47ee3145d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_input_1_1_input_handler.html#aefb2943a295ac3ccb57119a47ee3145d">InputHandler</a> ()</td></tr>
 <tr class="memdesc:aefb2943a295ac3ccb57119a47ee3145d pub_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
@@ -179,6 +177,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:afc3473c7c86dd0c51219f5b1e46b86f9 pro_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the handler is attached to the input server  <br /></td></tr>
 <tr class="memitem:a6ba33460c62952a3234ef185b0f44632 pro_methods_class_input_1_1_input_handler" id="r_a6ba33460c62952a3234ef185b0f44632"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="class_input_1_1_input_handler.html#a6ba33460c62952a3234ef185b0f44632">OnRemove</a> ()</td></tr>
 <tr class="memdesc:a6ba33460c62952a3234ef185b0f44632 pro_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the handler is removed from the input server  <br /></td></tr>
+<tr class="memitem:aa8c7df8aaa217a5b403de9d988d56db3 pro_methods_class_input_1_1_input_handler" id="r_aa8c7df8aaa217a5b403de9d988d56db3"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="class_input_1_1_input_handler.html#aa8c7df8aaa217a5b403de9d988d56db3">OnBeginFrame</a> ()</td></tr>
+<tr class="memdesc:aa8c7df8aaa217a5b403de9d988d56db3 pro_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="class_base_1_1_input_server_base.html#ac2f41ffbef4d0aa50bbae7000edef7a0" title="call before processing window events">InputServer::BeginFrame()</a>  <br /></td></tr>
 <tr class="memitem:a532e7d5660b12efb2b9ad083d75b934c pro_methods_class_input_1_1_input_handler" id="r_a532e7d5660b12efb2b9ad083d75b934c"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="class_input_1_1_input_handler.html#a532e7d5660b12efb2b9ad083d75b934c">OnEndFrame</a> ()</td></tr>
 <tr class="memdesc:a532e7d5660b12efb2b9ad083d75b934c pro_methods_class_input_1_1_input_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on <a class="el" href="class_base_1_1_input_server_base.html#a6b8fa8338f0054e4722aa3c3da75d561" title="call at end of frame">InputServer::EndFrame()</a>;  <br /></td></tr>
 <tr class="memitem:a4fdec1a9adcbee40bd51ae9751fd38ae pro_methods_class_input_1_1_input_handler" id="r_a4fdec1a9adcbee40bd51ae9751fd38ae"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="class_input_1_1_input_handler.html#a4fdec1a9adcbee40bd51ae9751fd38ae">OnObtainCapture</a> ()</td></tr>
@@ -336,35 +336,6 @@ Additional Inherited Members</h2></td></tr>
 <p>end input capturing to this event handler </p>
 
 <p>Reimplemented from <a class="el" href="class_input_1_1_input_handler.html#ad1ecde84c4d5612be64f25d0db0c2452">Input::InputHandler</a>.</p>
-
-</div>
-</div>
-<a id="a4302574c25305663368654daaf314d0c" name="a4302574c25305663368654daaf314d0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4302574c25305663368654daaf314d0c">&#9670;&#160;</a></span>OnBeginFrame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Dynui::ImguiInputHandler::OnBeginFrame </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>reset key inputs </p>
-
-<p>Reimplemented from <a class="el" href="class_input_1_1_input_handler.html#aa8c7df8aaa217a5b403de9d988d56db3">Input::InputHandler</a>.</p>
 
 </div>
 </div>

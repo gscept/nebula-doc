@@ -18,7 +18,7 @@ var namespace_characters =
       [ "Replace", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613a3104cc9b1c3e7c690db2fd0d9e37801d", null ],
       [ "IgnoreIfSame", "namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613ad341542e1f38c5e70845977233564931", null ]
     ] ],
-    [ "__ImplementClass", "namespace_characters.html#a2a839146d649840c333b9a68e8cdf7e5", null ],
+    [ "__ImplementClass", "namespace_characters.html#a67763736c96c426685001936258809ee", null ],
     [ "__ImplementContext", "namespace_characters.html#a969705a559fb41ba2b6edd841dbd09f8", null ],
     [ "__ImplementEnumBitOperators", "namespace_characters.html#ac596dc49035c05e3bac610c45a430a84", null ],
     [ "CreateSkeleton", "namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b", null ],

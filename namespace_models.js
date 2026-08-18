@@ -2,6 +2,7 @@ var namespace_models =
 [
     [ "CharacterNode", "class_models_1_1_character_node.html", "class_models_1_1_character_node" ],
     [ "CharacterSkinNode", "class_models_1_1_character_skin_node.html", "class_models_1_1_character_skin_node" ],
+    [ "JointMask", "struct_models_1_1_joint_mask.html", "struct_models_1_1_joint_mask" ],
     [ "ModelContext", "class_models_1_1_model_context.html", "class_models_1_1_model_context" ],
     [ "ModelCreateInfo", "struct_models_1_1_model_create_info.html", "struct_models_1_1_model_create_info" ],
     [ "ModelId", "struct_models_1_1_model_id.html", null ],
@@ -12,8 +13,9 @@ var namespace_models =
     [ "ParticleSystemNode", "class_models_1_1_particle_system_node.html", "class_models_1_1_particle_system_node" ],
     [ "PrimitiveNode", "class_models_1_1_primitive_node.html", "class_models_1_1_primitive_node" ],
     [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
+    [ "Take", "struct_models_1_1_take.html", "struct_models_1_1_take" ],
     [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ],
-    [ "ModelAllocator", "namespace_models.html#aec29d595b1f0529c82c19ca4dcf3dd26", null ],
+    [ "ModelAllocator", "namespace_models.html#a7f301d3c25acdc46e808acf131d66734", null ],
     [ "LoadBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dd", [
       [ "NoBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef", null ],
       [ "MeshBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92", null ],

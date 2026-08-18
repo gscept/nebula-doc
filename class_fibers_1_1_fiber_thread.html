@@ -132,8 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aefe69930e14235f57180d980a8853eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">this method runs in the thread context  <br /></td></tr>
 <tr class="memitem:a01b247c8c698ba0b037de8e9a6393288" id="r_a01b247c8c698ba0b037de8e9a6393288"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a01b247c8c698ba0b037de8e9a6393288">HasWork</a> ()</td></tr>
 <tr class="memdesc:a01b247c8c698ba0b037de8e9a6393288"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if thread has work  <br /></td></tr>
-<tr class="memitem:a0827a64e559905e95c0eb471becb0c3b" id="r_a0827a64e559905e95c0eb471becb0c3b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0827a64e559905e95c0eb471becb0c3b">SleepFiber</a> (volatile int *counter, int value)</td></tr>
-<tr class="memdesc:a0827a64e559905e95c0eb471becb0c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sleeps the current fiber and switches it for a new one  <br /></td></tr>
+<tr class="memitem:ac0cacec0ff7539a87e13cee34f0e8066" id="r_ac0cacec0ff7539a87e13cee34f0e8066"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac0cacec0ff7539a87e13cee34f0e8066">SleepFiber</a> (<a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *counter, int value)</td></tr>
+<tr class="memdesc:ac0cacec0ff7539a87e13cee34f0e8066"><td class="mdescLeft">&#160;</td><td class="mdescRight">sleeps the current fiber and switches it for a new one  <br /></td></tr>
 <tr class="memitem:a0157922c6d4bacc1505d521b53b335af" id="r_a0157922c6d4bacc1505d521b53b335af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0157922c6d4bacc1505d521b53b335af">NewFiber</a> ()</td></tr>
 <tr class="memdesc:a0157922c6d4bacc1505d521b53b335af"><td class="mdescLeft">&#160;</td><td class="mdescRight">switches the current fiber  <br /></td></tr>
 <tr class="memitem:ab5b5306e4bb2adb9cd324bb8ec8da27c" id="r_ab5b5306e4bb2adb9cd324bb8ec8da27c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab5b5306e4bb2adb9cd324bb8ec8da27c">SwitchFiber</a> ()</td></tr>
@@ -297,8 +297,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0827a64e559905e95c0eb471becb0c3b" name="a0827a64e559905e95c0eb471becb0c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0827a64e559905e95c0eb471becb0c3b">&#9670;&#160;</a></span>SleepFiber()</h2>
+<a id="ac0cacec0ff7539a87e13cee34f0e8066" name="ac0cacec0ff7539a87e13cee34f0e8066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0cacec0ff7539a87e13cee34f0e8066">&#9670;&#160;</a></span>SleepFiber()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,7 +306,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Fibers::FiberThread::SleepFiber </td>
           <td>(</td>
-          <td class="paramtype">volatile int *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_threading_1_1_interlocked_1_1_atomic_counter.html">Threading::Interlocked::AtomicCounter</a> *</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -3,8 +3,12 @@ var model_8h =
     [ "Models::ModelId", "struct_models_1_1_model_id.html", null ],
     [ "Models::ModelStreamingData", "struct_models_1_1_model_streaming_data.html", "struct_models_1_1_model_streaming_data" ],
     [ "Models::NodeInstanceRange", "struct_models_1_1_node_instance_range.html", "struct_models_1_1_node_instance_range" ],
+    [ "Models::JointMask", "struct_models_1_1_joint_mask.html", "struct_models_1_1_joint_mask" ],
+    [ "Models::Take", "struct_models_1_1_take.html", "struct_models_1_1_take" ],
+    [ "Models::Take::Clip", "struct_models_1_1_take_1_1_clip.html", "struct_models_1_1_take_1_1_clip" ],
+    [ "Models::Take::Clip::Event", "struct_models_1_1_take_1_1_clip_1_1_event.html", "struct_models_1_1_take_1_1_clip_1_1_event" ],
     [ "Models::ModelCreateInfo", "struct_models_1_1_model_create_info.html", "struct_models_1_1_model_create_info" ],
-    [ "Models::ModelAllocator", "namespace_models.html#aec29d595b1f0529c82c19ca4dcf3dd26", null ],
+    [ "Models::ModelAllocator", "namespace_models.html#a7f301d3c25acdc46e808acf131d66734", null ],
     [ "Models::LoadBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dd", [
       [ "Models::LoadBits::NoBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef", null ],
       [ "Models::LoadBits::MeshBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92", null ],

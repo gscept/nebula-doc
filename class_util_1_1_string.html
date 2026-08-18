@@ -386,8 +386,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a81779cec83d8198e53437c8e20cecc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">extract the part before the last directory separator  <br /></td></tr>
 <tr class="memitem:a11dcfa33f929f4d72b1e3790a267f465" id="r_a11dcfa33f929f4d72b1e3790a267f465"><td class="memItemLeft"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a11dcfa33f929f4d72b1e3790a267f465">ExtractToLastSlash</a> () const</td></tr>
 <tr class="memdesc:a11dcfa33f929f4d72b1e3790a267f465"><td class="mdescLeft">&#160;</td><td class="mdescRight">extract path until last slash  <br /></td></tr>
-<tr class="memitem:a956cf5973ecd96a2807b85fa4e73bb0f" id="r_a956cf5973ecd96a2807b85fa4e73bb0f"><td class="memItemLeft"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a956cf5973ecd96a2807b85fa4e73bb0f">StripSubpath</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;subpath) const</td></tr>
-<tr class="memdesc:a956cf5973ecd96a2807b85fa4e73bb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">strip subpath  <br /></td></tr>
+<tr class="memitem:a905d5828f4d9f67ee92e030461781a5f" id="r_a905d5828f4d9f67ee92e030461781a5f"><td class="memItemLeft"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a905d5828f4d9f67ee92e030461781a5f">StripSubstring</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;substring) const</td></tr>
+<tr class="memdesc:a905d5828f4d9f67ee92e030461781a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the leading substring from this string as long as it's matching  <br /></td></tr>
 <tr class="memitem:a58e4a9c3159cd948b6f1a0a91fbd550c" id="r_a58e4a9c3159cd948b6f1a0a91fbd550c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a58e4a9c3159cd948b6f1a0a91fbd550c">ReplaceIllegalFilenameChars</a> (char replacement)</td></tr>
 <tr class="memdesc:a58e4a9c3159cd948b6f1a0a91fbd550c"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace illegal filename characters  <br /></td></tr>
 <tr class="memitem:ae546c952e25ce169dfabde80a268d4b3" id="r_ae546c952e25ce169dfabde80a268d4b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae546c952e25ce169dfabde80a268d4b3">AppendPath</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;path)</td></tr>
@@ -4517,8 +4517,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a956cf5973ecd96a2807b85fa4e73bb0f" name="a956cf5973ecd96a2807b85fa4e73bb0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a956cf5973ecd96a2807b85fa4e73bb0f">&#9670;&#160;</a></span>StripSubpath()</h2>
+<a id="a905d5828f4d9f67ee92e030461781a5f" name="a905d5828f4d9f67ee92e030461781a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a905d5828f4d9f67ee92e030461781a5f">&#9670;&#160;</a></span>StripSubstring()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4527,9 +4527,9 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> Util::String::StripSubpath </td>
+          <td class="memname"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> Util::String::StripSubstring </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subpath</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>substring</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -4540,7 +4540,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>strip subpath </p>
+<p>removes the leading substring from this string as long as it's matching </p>
 
 </div>
 </div>

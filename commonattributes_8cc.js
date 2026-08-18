@@ -1,5 +1,5 @@
 var commonattributes_8cc =
 [
-    [ "Attr::DefineGuid", "namespace_attr.html#a2fe397cf4355964561fd5609d72d9c76", null ],
-    [ "Attr::DefineString", "namespace_attr.html#a98c7bf66afb6945c612ce0155af948ad", null ]
+    [ "Attr::DefineAttrGuid", "namespace_attr.html#a7f0e1f587999712fb667310d60aaf766", null ],
+    [ "Attr::DefineAttrString", "namespace_attr.html#a5460f17001cfdb8c96ceeeabbe8b4f29", null ]
 ];

@@ -17,6 +17,7 @@ var class_core_graphics_1_1_pixel_format =
       [ "DXT5sRGB", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a6394722b3241694f97911f13cb2e690f", null ],
       [ "BC4", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a1ae199de41f3719e3858588cac30b47e", null ],
       [ "BC5", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a3cea5e97559d2fe234726c3b26440dee", null ],
+      [ "BC6H", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a890c5ff99ad001d68d2909b6a0c7d973", null ],
       [ "BC7", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a7d675990f28f2bbe6a50552b5b24d51a", null ],
       [ "BC7sRGB", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a0d7250f8198f059263623ca0253aa24d", null ],
       [ "R8", "class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0aae01e7ba1d2ad6921ef31103371dfb8b", null ],

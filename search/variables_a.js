@@ -20,7 +20,8 @@ var searchData=
   ['jobwaitevent_17',['jobWaitEvent',['../namespace_raytracing.html#a2397dcd44d9200eb80b8c9a3a501117f',1,'Raytracing']]],
   ['joint_18',['joint',['../struct_physics_1_1_constraint.html#afd0e80b836f2edf4a188d166cb9a7d78',1,'Physics::Constraint']]],
   ['jointindexmap_19',['jointIndexMap',['../struct_characters_1_1_skeleton_create_info.html#a83e97afdf374fb748314af8ffac3348d',1,'Characters::SkeletonCreateInfo']]],
-  ['jointpalette_20',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
-  ['jointpalettes_21',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
-  ['joints_22',['joints',['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo']]]
+  ['jointmasks_20',['jointMasks',['../struct_models_1_1_model_create_info.html#aed4b4bfe12db484db40c4a7057a40798',1,'Models::ModelCreateInfo']]],
+  ['jointpalette_21',['jointPalette',['../class_models_1_1_character_skin_node_1_1_fragment.html#a5f8e7dc57c8392cd0ee8328cdb650b9a',1,'Models::CharacterSkinNode::Fragment']]],
+  ['jointpalettes_22',['jointPalettes',['../struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69',1,'Characters::CharacterJobContext']]],
+  ['joints_23',['joints',['../struct_characters_1_1_skeleton_create_info.html#aefd6280fa8fae7289eba97b5a94af5ff',1,'Characters::SkeletonCreateInfo']]]
 ];

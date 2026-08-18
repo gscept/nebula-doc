@@ -244,7 +244,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3a17520378c094c967e2ffe6579c1e83" id="r_a3a17520378c094c967e2ffe6579c1e83"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, <a class="el" href="struct_vulkan_1_1_vk_fence_info.html">VkFenceInfo</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3a17520378c094c967e2ffe6579c1e83">VkFenceAllocator</a></td></tr>
 <tr class="memitem:a6510b11c5c340d2013fed7aa9eef18d8" id="r_a6510b11c5c340d2013fed7aa9eef18d8"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_vk_pass_load_info.html">VkPassLoadInfo</a>, <a class="el" href="struct_vulkan_1_1_vk_pass_runtime_info.html">VkPassRuntimeInfo</a>, VkRenderPassBeginInfo, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint32_t &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6510b11c5c340d2013fed7aa9eef18d8">VkPassAllocator</a></td></tr>
 <tr class="memitem:a801ef814eb592ba9ffc1fd0b56bced8b" id="r_a801ef814eb592ba9ffc1fd0b56bced8b"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkRenderingAttachmentInfo &gt;, VkRenderingAttachmentInfo, VkRenderingInfo, VkPipelineRenderingCreateInfo, VkPipelineViewportStateCreateInfo, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; VkFormat &gt;, <a class="el" href="struct_vulkan_1_1_render_pass_shader_interface.html">RenderPassShaderInterface</a>, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a801ef814eb592ba9ffc1fd0b56bced8b">VkPassRenderAllocator</a></td></tr>
-<tr class="memitem:a5f03d54a7329cbb0f8f589713eb95937" id="r_a5f03d54a7329cbb0f8f589713eb95937"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="class_threading_1_1_spinlock.html">Threading::Spinlock</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint64_t, <a class="el" href="struct_vulkan_1_1_write_info.html">WriteInfo</a> &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCopyDescriptorSet, 4 &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5f03d54a7329cbb0f8f589713eb95937">VkResourceTableAllocator</a></td></tr>
+<tr class="memitem:a06cca4e0dbaafdd61906938d772d9a45" id="r_a06cca4e0dbaafdd61906938d772d9a45"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a>, <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">CoreGraphics::PipelineCreateInfo</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a06cca4e0dbaafdd61906938d772d9a45">PipelineAllocator</a></td></tr>
+<tr class="memitem:a444e4fb32bdb1047a03cea3af8b82d18" id="r_a444e4fb32bdb1047a03cea3af8b82d18"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt; 0xFFFF, VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint64_t, <a class="el" href="struct_vulkan_1_1_write_info.html">WriteInfo</a> &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkCopyDescriptorSet, 4 &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a444e4fb32bdb1047a03cea3af8b82d18">VkResourceTableAllocator</a></td></tr>
 <tr class="memitem:aae9613067c1ef53d433d2924f2d10312" id="r_aae9613067c1ef53d433d2924f2d10312"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSetLayout, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPoolSize &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; <a class="el" href="struct_core_graphics_1_1_sampler_id.html">CoreGraphics::SamplerId</a>, uint32_t &gt; &gt;, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; uint32_t, bool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; VkDescriptorPool &gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aae9613067c1ef53d433d2924f2d10312">VkResourceTableLayoutAllocator</a></td></tr>
 <tr class="memitem:a7b4355cb3c8b93c731aa6dbe3ed94e4b" id="r_a7b4355cb3c8b93c731aa6dbe3ed94e4b"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkPipelineLayout &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7b4355cb3c8b93c731aa6dbe3ed94e4b">VkResourcePipelineAllocator</a></td></tr>
 <tr class="memdesc:a7b4355cb3c8b93c731aa6dbe3ed94e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_resources_1_1_resource.html">Resource</a> pipeline.  <br /></td></tr>
@@ -339,6 +340,7 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memitem:af0cf9a4bd5f3fdb7fba578288320869e" id="r_af0cf9a4bd5f3fdb7fba578288320869e"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#af0cf9a4bd5f3fdb7fba578288320869ea56fb1836cd0ad146b69b88dad854a803">Pipeline_Object</a>
+, <a class="el" href="#af0cf9a4bd5f3fdb7fba578288320869ea756b46e1076b7e2368889b35a891097c">Pipeline_CreateInfo</a>
  }</td></tr>
 <tr class="memitem:a3c80e942c4c9c4bf6a0587f0c943db1e" id="r_a3c80e942c4c9c4bf6a0587f0c943db1e"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1e">WriteType</a> { <a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1eabe53a0541a6d36f6ecb879fa2c584b08">Image</a>
 , <a class="el" href="#a3c80e942c4c9c4bf6a0587f0c943db1ea7e62bc342f41c946868f0ea6f0b712d8">Buffer</a>
@@ -350,10 +352,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#ab1d467c16b43f5e660ccf4918478855aaa0087534c7be3044f385539fdb25c147">ResourceTable_Device</a>
 , <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aae2b37bc38aa0431f9f63fe84cdbc663e">ResourceTable_DescriptorSet</a>
 , <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa42c244817114a3b71e38a6edab7b22f7">ResourceTable_DescriptorPoolIndex</a>
-, <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aaff5be145053d61bfd7223af4abc3bf5b">ResourceTable_Lock</a>
+, <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
 , <br />
-&#160;&#160;<a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa936c322c9ff64557c52cd247a30e852c">ResourceTable_Layout</a>
-, <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
+&#160;&#160;<a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa6acfb22eec82a5e2da7b374613b81cd1">ResourceTable_WriteInfos</a>
 , <a class="el" href="#ab1d467c16b43f5e660ccf4918478855aa92e5be15926ea2be64ceb0a455242cce">ResourceTable_Copies</a>
 <br />
  }</td></tr>
@@ -723,8 +724,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ac4a93bc3374d5332a037c4c60de74dd4" id="r_ac4a93bc3374d5332a037c4c60de74dd4"><td class="memItemLeft">PFN_vkSetDebugUtilsObjectNameEXT&#160;</td><td class="memItemRight"><a class="el" href="#ac4a93bc3374d5332a037c4c60de74dd4">VkDebugObjectName</a> = nullptr</td></tr>
 <tr class="memitem:a7eeb7b505ae0f3ae25682fabf9a78b75" id="r_a7eeb7b505ae0f3ae25682fabf9a78b75"><td class="memItemLeft"><a class="el" href="#a6510b11c5c340d2013fed7aa9eef18d8">VkPassAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7eeb7b505ae0f3ae25682fabf9a78b75">passAllocator</a> (0x000000FF)</td></tr>
 <tr class="memitem:a2c18e6217670a2b727f0ea816f8d3c71" id="r_a2c18e6217670a2b727f0ea816f8d3c71"><td class="memItemLeft"><a class="el" href="#a801ef814eb592ba9ffc1fd0b56bced8b">VkPassRenderAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2c18e6217670a2b727f0ea816f8d3c71">passRenderAllocator</a> (0x000000FF)</td></tr>
-<tr class="memitem:af86184826a46e108c5bde1e012093fe4" id="r_af86184826a46e108c5bde1e012093fe4"><td class="memItemLeft"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af86184826a46e108c5bde1e012093fe4">pipelineAllocator</a></td></tr>
-<tr class="memitem:a04f5b266d83bd40d29a9d4702397fe3f" id="r_a04f5b266d83bd40d29a9d4702397fe3f"><td class="memItemLeft"><a class="el" href="#a5f03d54a7329cbb0f8f589713eb95937">VkResourceTableAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a04f5b266d83bd40d29a9d4702397fe3f">resourceTableAllocator</a></td></tr>
+<tr class="memitem:a1cf3281153d07dc01b670e0ef0d85761" id="r_a1cf3281153d07dc01b670e0ef0d85761"><td class="memItemLeft"><a class="el" href="#a06cca4e0dbaafdd61906938d772d9a45">PipelineAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1cf3281153d07dc01b670e0ef0d85761">pipelineAllocator</a></td></tr>
+<tr class="memitem:a04f5b266d83bd40d29a9d4702397fe3f" id="r_a04f5b266d83bd40d29a9d4702397fe3f"><td class="memItemLeft"><a class="el" href="#a444e4fb32bdb1047a03cea3af8b82d18">VkResourceTableAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a04f5b266d83bd40d29a9d4702397fe3f">resourceTableAllocator</a></td></tr>
 <tr class="memitem:a74fd5cbb4d02f644386428772fe4153b" id="r_a74fd5cbb4d02f644386428772fe4153b"><td class="memItemLeft"><a class="el" href="#aae9613067c1ef53d433d2924f2d10312">VkResourceTableLayoutAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a74fd5cbb4d02f644386428772fe4153b">resourceTableLayoutAllocator</a></td></tr>
 <tr class="memitem:a60fe4aa7ec4659aa4c37b5e6b8550fb9" id="r_a60fe4aa7ec4659aa4c37b5e6b8550fb9"><td class="memItemLeft"><a class="el" href="#a7b4355cb3c8b93c731aa6dbe3ed94e4b">VkResourcePipelineAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a60fe4aa7ec4659aa4c37b5e6b8550fb9">resourcePipelineAllocator</a></td></tr>
 <tr class="memitem:a71b839109cd6d61b041e8860e30faeff" id="r_a71b839109cd6d61b041e8860e30faeff"><td class="memItemLeft">VkDescriptorSetLayout&#160;</td><td class="memItemRight"><a class="el" href="#a71b839109cd6d61b041e8860e30faeff">EmptySetLayout</a></td></tr>
@@ -747,6 +748,20 @@ Variables</h2></td></tr>
 <tr class="memitem:a0d8b5cbc1ce31c570a0eaba48d0e0f0a" id="r_a0d8b5cbc1ce31c570a0eaba48d0e0f0a"><td class="memItemLeft">static <a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0d8b5cbc1ce31c570a0eaba48d0e0f0a">vertexSignatureMutex</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a06cca4e0dbaafdd61906938d772d9a45" name="a06cca4e0dbaafdd61906938d772d9a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06cca4e0dbaafdd61906938d772d9a45">&#9670;&#160;</a></span>PipelineAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a>, <a class="el" href="struct_core_graphics_1_1_pipeline_create_info.html">CoreGraphics::PipelineCreateInfo</a>&gt; <a class="el" href="#a06cca4e0dbaafdd61906938d772d9a45">Vulkan::PipelineAllocator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4911b73a420d87e53830ce523726c2e8" name="a4911b73a420d87e53830ce523726c2e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4911b73a420d87e53830ce523726c2e8">&#9670;&#160;</a></span>ProgramMap</h2>
 
@@ -1003,14 +1018,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f03d54a7329cbb0f8f589713eb95937" name="a5f03d54a7329cbb0f8f589713eb95937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f03d54a7329cbb0f8f589713eb95937">&#9670;&#160;</a></span>VkResourceTableAllocator</h2>
+<a id="a444e4fb32bdb1047a03cea3af8b82d18" name="a444e4fb32bdb1047a03cea3af8b82d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444e4fb32bdb1047a03cea3af8b82d18">&#9670;&#160;</a></span>VkResourceTableAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="class_threading_1_1_spinlock.html">Threading::Spinlock</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;uint64_t, <a class="el" href="struct_vulkan_1_1_write_info.html">WriteInfo</a>&gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkCopyDescriptorSet, 4&gt;&gt; <a class="el" href="#a5f03d54a7329cbb0f8f589713eb95937">Vulkan::VkResourceTableAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator_safe.html">Ids::IdAllocatorSafe</a>&lt;0xFFFF, VkDevice, VkDescriptorSet, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, <a class="el" href="struct_core_graphics_1_1_resource_table_layout_id.html">CoreGraphics::ResourceTableLayoutId</a>, <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt;uint64_t, <a class="el" href="struct_vulkan_1_1_write_info.html">WriteInfo</a>&gt;, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;VkCopyDescriptorSet, 4&gt;&gt; <a class="el" href="#a444e4fb32bdb1047a03cea3af8b82d18">Vulkan::VkResourceTableAllocator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1524,7 +1539,6 @@ Variables</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aaa0087534c7be3044f385539fdb25c147" name="ab1d467c16b43f5e660ccf4918478855aaa0087534c7be3044f385539fdb25c147"></a>ResourceTable_Device&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aae2b37bc38aa0431f9f63fe84cdbc663e" name="ab1d467c16b43f5e660ccf4918478855aae2b37bc38aa0431f9f63fe84cdbc663e"></a>ResourceTable_DescriptorSet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aa42c244817114a3b71e38a6edab7b22f7" name="ab1d467c16b43f5e660ccf4918478855aa42c244817114a3b71e38a6edab7b22f7"></a>ResourceTable_DescriptorPoolIndex&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aaff5be145053d61bfd7223af4abc3bf5b" name="ab1d467c16b43f5e660ccf4918478855aaff5be145053d61bfd7223af4abc3bf5b"></a>ResourceTable_Lock&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aa936c322c9ff64557c52cd247a30e852c" name="ab1d467c16b43f5e660ccf4918478855aa936c322c9ff64557c52cd247a30e852c"></a>ResourceTable_Layout&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aa6acfb22eec82a5e2da7b374613b81cd1" name="ab1d467c16b43f5e660ccf4918478855aa6acfb22eec82a5e2da7b374613b81cd1"></a>ResourceTable_WriteInfos&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab1d467c16b43f5e660ccf4918478855aa92e5be15926ea2be64ceb0a455242cce" name="ab1d467c16b43f5e660ccf4918478855aa92e5be15926ea2be64ceb0a455242cce"></a>ResourceTable_Copies&#160;</td><td class="fielddoc"></td></tr>
@@ -1564,6 +1578,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af0cf9a4bd5f3fdb7fba578288320869ea56fb1836cd0ad146b69b88dad854a803" name="af0cf9a4bd5f3fdb7fba578288320869ea56fb1836cd0ad146b69b88dad854a803"></a>Pipeline_Object&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0cf9a4bd5f3fdb7fba578288320869ea756b46e1076b7e2368889b35a891097c" name="af0cf9a4bd5f3fdb7fba578288320869ea756b46e1076b7e2368889b35a891097c"></a>Pipeline_CreateInfo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -4965,14 +4980,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af86184826a46e108c5bde1e012093fe4" name="af86184826a46e108c5bde1e012093fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af86184826a46e108c5bde1e012093fe4">&#9670;&#160;</a></span>pipelineAllocator</h2>
+<a id="a1cf3281153d07dc01b670e0ef0d85761" name="a1cf3281153d07dc01b670e0ef0d85761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf3281153d07dc01b670e0ef0d85761">&#9670;&#160;</a></span>pipelineAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_vulkan_1_1_pipeline.html">Pipeline</a> &gt; Vulkan::pipelineAllocator</td>
+          <td class="memname"><a class="el" href="#a06cca4e0dbaafdd61906938d772d9a45">PipelineAllocator</a> Vulkan::pipelineAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5022,7 +5037,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a5f03d54a7329cbb0f8f589713eb95937">VkResourceTableAllocator</a> Vulkan::resourceTableAllocator</td>
+          <td class="memname"><a class="el" href="#a444e4fb32bdb1047a03cea3af8b82d18">VkResourceTableAllocator</a> Vulkan::resourceTableAllocator</td>
         </tr>
       </table>
 </div><div class="memdoc">

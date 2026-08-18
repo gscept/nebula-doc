@@ -17,7 +17,6 @@ var namespace_win32 =
     [ "Win32Library", "class_win32_1_1_win32_library.html", "class_win32_1_1_win32_library" ],
     [ "Win32MemoryPool", "class_win32_1_1_win32_memory_pool.html", "class_win32_1_1_win32_memory_pool" ],
     [ "Win32MiniDump", "class_win32_1_1_win32_mini_dump.html", "class_win32_1_1_win32_mini_dump" ],
-    [ "Win32Process", "class_win32_1_1_win32_process.html", "class_win32_1_1_win32_process" ],
     [ "Win32ReadWriteLock", "class_win32_1_1_win32_read_write_lock.html", "class_win32_1_1_win32_read_write_lock" ],
     [ "Win32Registry", "class_win32_1_1_win32_registry.html", "class_win32_1_1_win32_registry" ],
     [ "Win32Socket", "class_win32_1_1_win32_socket.html", "class_win32_1_1_win32_socket" ],

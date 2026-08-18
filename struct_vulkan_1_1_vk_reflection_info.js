@@ -2,6 +2,7 @@ var struct_vulkan_1_1_vk_reflection_info =
 [
     [ "UniformBuffer", "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer.html", "struct_vulkan_1_1_vk_reflection_info_1_1_uniform_buffer" ],
     [ "Variable", "struct_vulkan_1_1_vk_reflection_info_1_1_variable.html", "struct_vulkan_1_1_vk_reflection_info_1_1_variable" ],
+    [ "signature", "struct_vulkan_1_1_vk_reflection_info.html#a2f615b772e28f5e170fc7969422bd259", null ],
     [ "uniformBuffers", "struct_vulkan_1_1_vk_reflection_info.html#ad954ce0d2cc36f153c7a7f880b62ea76", null ],
     [ "uniformBuffersByName", "struct_vulkan_1_1_vk_reflection_info.html#a385a1b278a5726bde390e23498c41e0b", null ],
     [ "uniformBuffersMask", "struct_vulkan_1_1_vk_reflection_info.html#ad53d48819f8f62c28930e2d45453c8d5", null ],

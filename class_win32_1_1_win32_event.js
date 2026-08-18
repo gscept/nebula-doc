@@ -1,6 +1,7 @@
 var class_win32_1_1_win32_event =
 [
     [ "Win32Event", "class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329", null ],
+    [ "Win32Event", "class_win32_1_1_win32_event.html#a52eb5de5b73b6e416c5fd61bc0de7f5a", null ],
     [ "Win32Event", "class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4", null ],
     [ "~Win32Event", "class_win32_1_1_win32_event.html#a5caa1938f045a6f1541500eeb64d4e45", null ],
     [ "IsManual", "class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9", null ],

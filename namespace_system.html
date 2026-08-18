@@ -122,10 +122,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides information and methods to help with byte ordering issues.  <a href="class_system_1_1_byte_order.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Cpu" id="r_Cpu"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_system_1_1_cpu.html">Cpu</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides information about the system's CPU(s).  <a href="class_system_1_1_cpu.html#details">More...</a><br /></td></tr>
+<tr class="memitem:ProcessId" id="r_ProcessId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a></td></tr>
+<tr class="memitem:ProcessStartInfo" id="r_ProcessStartInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_system_1_1_process_start_info.html">ProcessStartInfo</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:afeb8cc67f96af7a67ee3bdac62e6fb88" id="r_afeb8cc67f96af7a67ee3bdac62e6fb88"><td class="memItemLeft">typedef <a class="el" href="class_posix_1_1_posix_library.html">Posix::PosixLibrary</a>&#160;</td><td class="memItemRight"><a class="el" href="#afeb8cc67f96af7a67ee3bdac62e6fb88">Library</a></td></tr>
+<tr class="memitem:a671506b1441320842c1ccca3b2320d8d" id="r_a671506b1441320842c1ccca3b2320d8d"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; PROCESS_INFORMATION, HANDLE, HANDLE, HANDLE, HANDLE, DWORD, DWORD, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt;, <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt;, <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a671506b1441320842c1ccca3b2320d8d">ProcessIdAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -136,6 +139,21 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a5551c48b1a0c9642042c5ea3de7a214a" id="r_a5551c48b1a0c9642042c5ea3de7a214a"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a> { <a class="el" href="#a5551c48b1a0c9642042c5ea3de7a214aa12a3d2266f957f2512b7c121063f3086">X86_32</a>
 , <a class="el" href="#a5551c48b1a0c9642042c5ea3de7a214aa394e5dd68da2c3bf860d3504cba26e4a">X86_64</a>
 , <a class="el" href="#a5551c48b1a0c9642042c5ea3de7a214aa9c20972d4230a666c137b66657e67f1a">UnknownCpuType</a>
+ }</td></tr>
+<tr class="memitem:a54b350122e0dd26aab4740e8007657db" id="r_a54b350122e0dd26aab4740e8007657db"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <br />
+&#160;&#160;<a class="el" href="#a54b350122e0dd26aab4740e8007657dbaad6cf6ecc1d3b8761d8bfacc02204e9c">Process_LaunchInfo</a> = 0
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dba096bef7489a9d5b992d86159e545b3cd">Process_StdoutRead</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dba3ac6e1977a9b7ab350b781a818a764a3">Process_StdoutWrite</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dba54699f3d02471df2f4c1a35a034398f3">Process_StderrRead</a>
+, <br />
+&#160;&#160;<a class="el" href="#a54b350122e0dd26aab4740e8007657dbae1d9f41d648254738fe47609bd861533">Process_StderrWrite</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dbab9b15e5fa670d8976a7162fe6838320c">Process_NumAsyncBytesRead</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dba55d74f940af9ee324715eeb06a9f0a11">Process_NumAsyncBytesAvailable</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dbad90dbe99ed6c9fc29be8525c7fbe0056">Process_StdoutStream</a>
+, <br />
+&#160;&#160;<a class="el" href="#a54b350122e0dd26aab4740e8007657dbaaf02084f895b9ae8bf6ce5947059b06c">Process_StderrStream</a>
+, <a class="el" href="#a54b350122e0dd26aab4740e8007657dba838682ef9e2fc08bd67c7f442f59f90f">Process_AsyncBuffer</a>
+<br />
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -153,10 +171,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a94c8aa5d5c2fdce9bffdc0a9affda1f6 template"><td class="memItemLeft">__forceinline void&#160;</td><td class="memItemRight"><a class="el" href="#a94c8aa5d5c2fdce9bffdc0a9affda1f6">ByteOrder::Convert&lt; Math::float4 &gt;</a> (<a class="el" href="struct_math_1_1float4.html">Math::float4</a> &amp;val) const</td></tr>
 <tr class="memitem:a098775a23ef09649ed576f243b15dae4" id="r_a098775a23ef09649ed576f243b15dae4"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:a098775a23ef09649ed576f243b15dae4 template"><td class="memItemLeft">__forceinline void&#160;</td><td class="memItemRight"><a class="el" href="#a098775a23ef09649ed576f243b15dae4">ByteOrder::Convert&lt; Math::matrix44 &gt;</a> (Math::matrix44 &amp;val) const</td></tr>
+<tr class="memitem:a7263dcb04b32c07beaa9b3fc1e05178f" id="r_a7263dcb04b32c07beaa9b3fc1e05178f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7263dcb04b32c07beaa9b3fc1e05178f">FindProcess</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;uri)</td></tr>
+<tr class="memdesc:a7263dcb04b32c07beaa9b3fc1e05178f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a process using URI.  <br /></td></tr>
+<tr class="memitem:aad75b42de69ef9fbeb554ee7d25a5e47" id="r_aad75b42de69ef9fbeb554ee7d25a5e47"><td class="memItemLeft"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a>&#160;</td><td class="memItemRight"><a class="el" href="#aad75b42de69ef9fbeb554ee7d25a5e47">StartProcess</a> (const <a class="el" href="struct_system_1_1_process_start_info.html">ProcessStartInfo</a> &amp;createInfo)</td></tr>
+<tr class="memdesc:aad75b42de69ef9fbeb554ee7d25a5e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a process.  <br /></td></tr>
+<tr class="memitem:adc99b571b92af7c13f809ac4f4e25f92" id="r_adc99b571b92af7c13f809ac4f4e25f92"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adc99b571b92af7c13f809ac4f4e25f92">UpdateProcessStreams</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:adc99b571b92af7c13f809ac4f4e25f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update streams.  <br /></td></tr>
+<tr class="memitem:ac120732f1ffcf69f2a11c2e1793b2a7f" id="r_ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac120732f1ffcf69f2a11c2e1793b2a7f">IsProcessRunning</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if process is running (poll).  <br /></td></tr>
+<tr class="memitem:a53ca11c6fb5b5829091d965440d593b1" id="r_a53ca11c6fb5b5829091d965440d593b1"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a53ca11c6fb5b5829091d965440d593b1">WaitForProcess</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:a53ca11c6fb5b5829091d965440d593b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for process, then frees it and returns the error code.  <br /></td></tr>
 <tr class="memitem:a257ed4a28629c319e64da68b7cd69c33" id="r_a257ed4a28629c319e64da68b7cd69c33"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#a257ed4a28629c319e64da68b7cd69c33">PlatformTypeAsString</a> (<a class="el" href="#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a> p)</td></tr>
 <tr class="memdesc:a257ed4a28629c319e64da68b7cd69c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert platform to string  <br /></td></tr>
 <tr class="memitem:ad90a0147899b439aa22465b2fbd147bb" id="r_ad90a0147899b439aa22465b2fbd147bb"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#ad90a0147899b439aa22465b2fbd147bb">CpuArchTypeAsString</a> (<a class="el" href="#a5551c48b1a0c9642042c5ea3de7a214a">CpuArchType</a> cpu)</td></tr>
 <tr class="memdesc:ad90a0147899b439aa22465b2fbd147bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert CpuType to string  <br /></td></tr>
+<tr class="memitem:a06441637777cccaea45f7a907b908c49" id="r_a06441637777cccaea45f7a907b908c49"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a06441637777cccaea45f7a907b908c49">CreateCapturePipe</a> (PHANDLE read, PHANDLE write)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -164,6 +193,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a434df85dbba8f8354b3b2074478d0ca8" id="r_a434df85dbba8f8354b3b2074478d0ca8"><td class="memItemLeft"><a class="el" href="#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a>&#160;</td><td class="memItemRight"><a class="el" href="#a434df85dbba8f8354b3b2074478d0ca8">Platform</a></td></tr>
 <tr class="memitem:a25f3597b0f91ad412a3db97dd5201f18" id="r_a25f3597b0f91ad412a3db97dd5201f18"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a25f3597b0f91ad412a3db97dd5201f18">NumCpuCores</a></td></tr>
 <tr class="memitem:a3ed0a9aeac463c7209b63fb0404a367d" id="r_a3ed0a9aeac463c7209b63fb0404a367d"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3ed0a9aeac463c7209b63fb0404a367d">PageSize</a></td></tr>
+<tr class="memitem:a91f01833c0e20b52efc654db47288c3c" id="r_a91f01833c0e20b52efc654db47288c3c"><td class="memItemLeft"><a class="el" href="#a671506b1441320842c1ccca3b2320d8d">ProcessIdAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#a91f01833c0e20b52efc654db47288c3c">processIdAllocator</a> (0xFFF)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="afeb8cc67f96af7a67ee3bdac62e6fb88" name="afeb8cc67f96af7a67ee3bdac62e6fb88"></a>
@@ -180,7 +210,47 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a671506b1441320842c1ccca3b2320d8d" name="a671506b1441320842c1ccca3b2320d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a671506b1441320842c1ccca3b2320d8d">&#9670;&#160;</a></span>ProcessIdAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; PROCESS_INFORMATION, HANDLE, HANDLE, HANDLE, HANDLE, DWORD, DWORD, <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a>&gt;, <a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a>&gt;, <a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; <a class="el" href="#a671506b1441320842c1ccca3b2320d8d">System::ProcessIdAllocator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a54b350122e0dd26aab4740e8007657db" name="a54b350122e0dd26aab4740e8007657db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b350122e0dd26aab4740e8007657db">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dbaad6cf6ecc1d3b8761d8bfacc02204e9c" name="a54b350122e0dd26aab4740e8007657dbaad6cf6ecc1d3b8761d8bfacc02204e9c"></a>Process_LaunchInfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dba096bef7489a9d5b992d86159e545b3cd" name="a54b350122e0dd26aab4740e8007657dba096bef7489a9d5b992d86159e545b3cd"></a>Process_StdoutRead&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dba3ac6e1977a9b7ab350b781a818a764a3" name="a54b350122e0dd26aab4740e8007657dba3ac6e1977a9b7ab350b781a818a764a3"></a>Process_StdoutWrite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dba54699f3d02471df2f4c1a35a034398f3" name="a54b350122e0dd26aab4740e8007657dba54699f3d02471df2f4c1a35a034398f3"></a>Process_StderrRead&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dbae1d9f41d648254738fe47609bd861533" name="a54b350122e0dd26aab4740e8007657dbae1d9f41d648254738fe47609bd861533"></a>Process_StderrWrite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dbab9b15e5fa670d8976a7162fe6838320c" name="a54b350122e0dd26aab4740e8007657dbab9b15e5fa670d8976a7162fe6838320c"></a>Process_NumAsyncBytesRead&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dba55d74f940af9ee324715eeb06a9f0a11" name="a54b350122e0dd26aab4740e8007657dba55d74f940af9ee324715eeb06a9f0a11"></a>Process_NumAsyncBytesAvailable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dbad90dbe99ed6c9fc29be8525c7fbe0056" name="a54b350122e0dd26aab4740e8007657dbad90dbe99ed6c9fc29be8525c7fbe0056"></a>Process_StdoutStream&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dbaaf02084f895b9ae8bf6ce5947059b06c" name="a54b350122e0dd26aab4740e8007657dbaaf02084f895b9ae8bf6ce5947059b06c"></a>Process_StderrStream&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54b350122e0dd26aab4740e8007657dba838682ef9e2fc08bd67c7f442f59f90f" name="a54b350122e0dd26aab4740e8007657dba838682ef9e2fc08bd67c7f442f59f90f"></a>Process_AsyncBuffer&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a5551c48b1a0c9642042c5ea3de7a214a" name="a5551c48b1a0c9642042c5ea3de7a214a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5551c48b1a0c9642042c5ea3de7a214a">&#9670;&#160;</a></span>CpuArchType</h2>
 
@@ -396,6 +466,65 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a06441637777cccaea45f7a907b908c49" name="a06441637777cccaea45f7a907b908c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06441637777cccaea45f7a907b908c49">&#9670;&#160;</a></span>CreateCapturePipe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool System::CreateCapturePipe </td>
+          <td>(</td>
+          <td class="paramtype">PHANDLE</td>          <td class="paramname"><span class="paramname"><em>read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PHANDLE</td>          <td class="paramname"><span class="paramname"><em>write</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7263dcb04b32c07beaa9b3fc1e05178f" name="a7263dcb04b32c07beaa9b3fc1e05178f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7263dcb04b32c07beaa9b3fc1e05178f">&#9670;&#160;</a></span>FindProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool System::FindProcess </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>uri</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a process using URI. </p>
+
+</div>
+</div>
+<a id="ac120732f1ffcf69f2a11c2e1793b2a7f" name="ac120732f1ffcf69f2a11c2e1793b2a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac120732f1ffcf69f2a11c2e1793b2a7f">&#9670;&#160;</a></span>IsProcessRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool System::IsProcessRunning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a></td>          <td class="paramname"><span class="paramname"><em>processId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if process is running (poll). </p>
+
+</div>
+</div>
 <a id="a257ed4a28629c319e64da68b7cd69c33" name="a257ed4a28629c319e64da68b7cd69c33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a257ed4a28629c319e64da68b7cd69c33">&#9670;&#160;</a></span>PlatformTypeAsString()</h2>
 
@@ -420,6 +549,63 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>convert platform to string </p>
+
+</div>
+</div>
+<a id="aad75b42de69ef9fbeb554ee7d25a5e47" name="aad75b42de69ef9fbeb554ee7d25a5e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad75b42de69ef9fbeb554ee7d25a5e47">&#9670;&#160;</a></span>StartProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> System::StartProcess </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_system_1_1_process_start_info.html">ProcessStartInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>createInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a process. </p>
+
+</div>
+</div>
+<a id="adc99b571b92af7c13f809ac4f4e25f92" name="adc99b571b92af7c13f809ac4f4e25f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc99b571b92af7c13f809ac4f4e25f92">&#9670;&#160;</a></span>UpdateProcessStreams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void System::UpdateProcessStreams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a></td>          <td class="paramname"><span class="paramname"><em>processId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update streams. </p>
+
+</div>
+</div>
+<a id="a53ca11c6fb5b5829091d965440d593b1" name="a53ca11c6fb5b5829091d965440d593b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ca11c6fb5b5829091d965440d593b1">&#9670;&#160;</a></span>WaitForProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> System::WaitForProcess </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a></td>          <td class="paramname"><span class="paramname"><em>processId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait for process, then frees it and returns the error code. </p>
 
 </div>
 </div>
@@ -474,6 +660,23 @@ template&lt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a3670ed208c6b97c3a03bda3ad3f6f43e">PlatformType</a> System::Platform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91f01833c0e20b52efc654db47288c3c" name="a91f01833c0e20b52efc654db47288c3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f01833c0e20b52efc654db47288c3c">&#9670;&#160;</a></span>processIdAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a671506b1441320842c1ccca3b2320d8d">ProcessIdAllocator</a> System::processIdAllocator </td>
+          <td>(</td>
+          <td class="paramtype">0xFFF</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

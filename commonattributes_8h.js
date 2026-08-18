@@ -1,5 +1,5 @@
 var commonattributes_8h =
 [
-    [ "Attr::DeclareGuid", "namespace_attr.html#a78dc6648d94bea8ac472ad3c8a00cf09", null ],
-    [ "Attr::DeclareString", "namespace_attr.html#a14167ddc915f690a1c4a18815ca32200", null ]
+    [ "Attr::DeclareAttrGuid", "namespace_attr.html#a6ac56f7af88bfeaf2579cf7d75116981", null ],
+    [ "Attr::DeclareAttrString", "namespace_attr.html#aa348e435e48e739adb84a0a468cb1b49", null ]
 ];

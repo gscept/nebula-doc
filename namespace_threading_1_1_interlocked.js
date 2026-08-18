@@ -3,6 +3,8 @@ var namespace_threading_1_1_interlocked =
     [ "AtomicInt", "struct_threading_1_1_interlocked_1_1_atomic_int.html", "struct_threading_1_1_interlocked_1_1_atomic_int" ],
     [ "AtomicInt64", "struct_threading_1_1_interlocked_1_1_atomic_int64.html", "struct_threading_1_1_interlocked_1_1_atomic_int64" ],
     [ "AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", "struct_threading_1_1_interlocked_1_1_atomic_pointer" ],
+    [ "AtomicCounter", "struct_threading_1_1_interlocked_1_1_atomic_counter.html", "struct_threading_1_1_interlocked_1_1_atomic_counter" ],
+    [ "AtomicCounter64", "struct_threading_1_1_interlocked_1_1_atomic_counter64.html", "struct_threading_1_1_interlocked_1_1_atomic_counter64" ],
     [ "Add", "namespace_threading_1_1_interlocked.html#a881046af8286fa2d4be7426e89665b8c", null ],
     [ "Add", "namespace_threading_1_1_interlocked.html#a4d3daac37901893baa21fd5c07e5b0d2", null ],
     [ "And", "namespace_threading_1_1_interlocked.html#a4361680cfe1182dc0b41f83d1ae4b698", null ],

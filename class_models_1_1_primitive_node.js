@@ -19,7 +19,7 @@ var class_models_1_1_primitive_node =
     [ "indexType", "class_models_1_1_primitive_node.html#ac21febeec54d6d027ed0d06373c564c5", null ],
     [ "loadContext", "class_models_1_1_primitive_node.html#a3584005df1bedb01ad8fb1f21fcd08e0", null ],
     [ "mesh", "class_models_1_1_primitive_node.html#a3c05b40df672ccffab1ab24de6f4b9a0", null ],
-    [ "meshResource", "class_models_1_1_primitive_node.html#a7369c6b6e5fd38966beed6824c92c0c8", null ],
+    [ "meshResource", "class_models_1_1_primitive_node.html#a44fa7944e73053081df7958f8c963a2f", null ],
     [ "primGroup", "class_models_1_1_primitive_node.html#ad336e6308249366786f138286a1ec005", null ],
     [ "res", "class_models_1_1_primitive_node.html#a37d403a088df369b5982505d96efbd84", null ],
     [ "topology", "class_models_1_1_primitive_node.html#a7d0c8f322e50059df02b1e227bff32d7", null ],
