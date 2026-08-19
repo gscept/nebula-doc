@@ -17,6 +17,7 @@ var window_8h =
     [ "CoreGraphics::WindowGetUserData", "namespace_core_graphics.html#a63501a02a2573c942856e3b776225929", null ],
     [ "CoreGraphics::WindowIsDecorated", "namespace_core_graphics.html#ace802ce501d5d658dd96a9a05d40f74d", null ],
     [ "CoreGraphics::WindowIsFullscreen", "namespace_core_graphics.html#a04e4e0460e1d8d5e00edb5ad545b591e", null ],
+    [ "CoreGraphics::WindowIsHovered", "namespace_core_graphics.html#ae03c4b9365d1995c2d7fc1280a15138a", null ],
     [ "CoreGraphics::WindowIsResizable", "namespace_core_graphics.html#a12737f4618aa0e44172c1414153c7d9b", null ],
     [ "CoreGraphics::WindowNewFrame", "namespace_core_graphics.html#a2322d1d12409f1e51a8857094a8d40e7", null ],
     [ "CoreGraphics::WindowPollEvents", "namespace_core_graphics.html#a0b755f17e5238fe4cd9ce2432d829b22", null ],
@@ -26,6 +27,7 @@ var window_8h =
     [ "CoreGraphics::WindowSetCursorLocked", "namespace_core_graphics.html#ae100690893107c2f5bb23f6ecdfe7ff2", null ],
     [ "CoreGraphics::WindowSetCursorVisible", "namespace_core_graphics.html#ae2282a8c04cbcc013dc5f39ad0b34f14", null ],
     [ "CoreGraphics::WindowSetIcon", "namespace_core_graphics.html#a11ac968ab890284867c48593b25c009d", null ],
+    [ "CoreGraphics::WindowSetMousePassThrough", "namespace_core_graphics.html#a226e67b7fc4627c06928cf45cbf3f2ff", null ],
     [ "CoreGraphics::WindowSetTitle", "namespace_core_graphics.html#aa878d56d4c7c6d41ae09ddc3c597c1b8", null ],
     [ "CoreGraphics::WindowShow", "namespace_core_graphics.html#a6f423372e78269f3dc414255b5ff6b0a", null ],
     [ "CoreGraphics::WindowTakeFocus", "namespace_core_graphics.html#aa87a65d8e0a8942dc9d3cc243ec6f64e", null ]

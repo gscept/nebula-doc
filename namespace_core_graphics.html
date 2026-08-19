@@ -1071,6 +1071,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae100690893107c2f5bb23f6ecdfe7ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set if the cursor should be locked to the window  <br /></td></tr>
 <tr class="memitem:aa87a65d8e0a8942dc9d3cc243ec6f64e" id="r_aa87a65d8e0a8942dc9d3cc243ec6f64e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa87a65d8e0a8942dc9d3cc243ec6f64e">WindowTakeFocus</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> id)</td></tr>
 <tr class="memdesc:aa87a65d8e0a8942dc9d3cc243ec6f64e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Focus window.  <br /></td></tr>
+<tr class="memitem:a226e67b7fc4627c06928cf45cbf3f2ff" id="r_a226e67b7fc4627c06928cf45cbf3f2ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a226e67b7fc4627c06928cf45cbf3f2ff">WindowSetMousePassThrough</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> id, bool passthrough)</td></tr>
+<tr class="memdesc:a226e67b7fc4627c06928cf45cbf3f2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> window mouse passthrough.  <br /></td></tr>
+<tr class="memitem:ae03c4b9365d1995c2d7fc1280a15138a" id="r_ae03c4b9365d1995c2d7fc1280a15138a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae03c4b9365d1995c2d7fc1280a15138a">WindowIsHovered</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> id)</td></tr>
+<tr class="memdesc:ae03c4b9365d1995c2d7fc1280a15138a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if window is hovered.  <br /></td></tr>
 <tr class="memitem:a63501a02a2573c942856e3b776225929" id="r_a63501a02a2573c942856e3b776225929"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a63501a02a2573c942856e3b776225929">WindowGetUserData</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> id)</td></tr>
 <tr class="memdesc:a63501a02a2573c942856e3b776225929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get user data associated with window.  <br /></td></tr>
 <tr class="memitem:a6f423372e78269f3dc414255b5ff6b0a" id="r_a6f423372e78269f3dc414255b5ff6b0a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f423372e78269f3dc414255b5ff6b0a">WindowShow</a> (const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a> id)</td></tr>
@@ -14219,6 +14223,25 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="ae03c4b9365d1995c2d7fc1280a15138a" name="ae03c4b9365d1995c2d7fc1280a15138a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03c4b9365d1995c2d7fc1280a15138a">&#9670;&#160;</a></span>WindowIsHovered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CoreGraphics::WindowIsHovered </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get if window is hovered. </p>
+
+</div>
+</div>
 <a id="a12737f4618aa0e44172c1414153c7d9b" name="a12737f4618aa0e44172c1414153c7d9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12737f4618aa0e44172c1414153c7d9b">&#9670;&#160;</a></span>WindowIsResizable()</h2>
 
@@ -14421,6 +14444,29 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> window icon. </p>
+
+</div>
+</div>
+<a id="a226e67b7fc4627c06928cf45cbf3f2ff" name="a226e67b7fc4627c06928cf45cbf3f2ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a226e67b7fc4627c06928cf45cbf3f2ff">&#9670;&#160;</a></span>WindowSetMousePassThrough()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoreGraphics::WindowSetMousePassThrough </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_window_id.html">WindowId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>passthrough</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> window mouse passthrough. </p>
 
 </div>
 </div>

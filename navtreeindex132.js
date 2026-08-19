@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"struct_frame_1_1_texture_import.html#a1c6b95e4df774815070965bfb942c6e3":[9,0,21,24,1],
+"struct_frame_1_1_texture_import.html#a2bbd489c404236b84bf25ca0c9558b3a":[8,0,23,24,0],
 "struct_frame_1_1_texture_import.html#a2bbd489c404236b84bf25ca0c9558b3a":[9,0,21,24,0],
 "struct_frame_1_1_texture_import.html#a2ed96b4d499e700f1b05e6b5fb701993":[8,0,23,24,2],
 "struct_frame_1_1_texture_import.html#a2ed96b4d499e700f1b05e6b5fb701993":[9,0,21,24,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "struct_game_1_1_entity_1_1_traits.html#a6258fe60859e29665140486b93c2cb26":[9,0,23,8,0,1],
 "struct_game_1_1_entity_1_1_traits.html#a86dfe2b7c3e32ecf3403f7bdb188dcbf":[8,0,25,9,0,7],
 "struct_game_1_1_entity_1_1_traits.html#a86dfe2b7c3e32ecf3403f7bdb188dcbf":[9,0,23,8,0,7],
-"struct_game_1_1_entity_1_1_traits.html#aa1acffe68363914c75ed58b606fd2814":[8,0,25,9,0,8],
-"struct_game_1_1_entity_1_1_traits.html#aa1acffe68363914c75ed58b606fd2814":[9,0,23,8,0,8],
-"struct_game_1_1_entity_1_1_traits.html#aa5f9c78418935fde2f2a0dffb770ee78":[8,0,25,9,0,5]
+"struct_game_1_1_entity_1_1_traits.html#aa1acffe68363914c75ed58b606fd2814":[8,0,25,9,0,8]
 };

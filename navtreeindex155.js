@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"struct_threading_1_1_critical_scope.html":[8,0,81,3],
+"struct_threading_1_1_critical_scope.html":[9,0,71,3],
 "struct_threading_1_1_critical_scope.html#a49c930fee20b9c787f9dfb5a7f86b712":[8,0,81,3,2],
 "struct_threading_1_1_critical_scope.html#a49c930fee20b9c787f9dfb5a7f86b712":[9,0,71,3,2],
 "struct_threading_1_1_critical_scope.html#aa7fde064c0737ef43ed32ac065b64f22":[8,0,81,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#ad2e3beee991ae4671ce157538694c521":[9,0,72,33,0,4],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#adf17d6eaf19ee10e51e122fdbf611316":[8,0,84,33,0,8],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#adf17d6eaf19ee10e51e122fdbf611316":[9,0,72,33,0,8],
-"struct_util_1_1_priority_array_1_1_element.html":[8,0,84,35,0],
-"struct_util_1_1_priority_array_1_1_element.html":[9,0,72,35,0],
-"struct_util_1_1_priority_array_1_1_element.html#a518aca4e8c3615d9aadc11961b705024":[8,0,84,35,0,0]
+"struct_util_1_1_priority_array_1_1_element.html":[8,0,84,35,0]
 };

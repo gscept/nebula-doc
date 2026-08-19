@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"struct_nebula_1_1_color.html#adfe7d5dae27c8c096b7d8814f177fd76":[8,0,55,4,142],
+"struct_nebula_1_1_color.html#adfe7d5dae27c8c096b7d8814f177fd76":[9,0,50,4,142],
 "struct_nebula_1_1_color.html#ae0db15ee546360d6549361fafec5301b":[8,0,55,4,17],
 "struct_nebula_1_1_color.html#ae0db15ee546360d6549361fafec5301b":[9,0,50,4,17],
 "struct_nebula_1_1_color.html#ae1e1ea3335ed27184daf45c6dfeea97a":[8,0,55,4,105],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "struct_nebula_1_1_matrix.html#ac7f3acb073a06060717e188ce5d3ee8b":[8,0,55,7,8],
 "struct_nebula_1_1_matrix.html#ac7f3acb073a06060717e188ce5d3ee8b":[9,0,50,7,8],
 "struct_nebula_1_1_matrix.html#ac9c3e18f56f8e2fd795ca4ec52df48e2":[8,0,55,7,46],
-"struct_nebula_1_1_matrix.html#ac9c3e18f56f8e2fd795ca4ec52df48e2":[9,0,50,7,46],
-"struct_nebula_1_1_matrix.html#ad0567881d8844c77e54b6bf209f577ee":[8,0,55,7,95],
-"struct_nebula_1_1_matrix.html#ad0567881d8844c77e54b6bf209f577ee":[9,0,50,7,95]
+"struct_nebula_1_1_matrix.html#ac9c3e18f56f8e2fd795ca4ec52df48e2":[9,0,50,7,46]
 };

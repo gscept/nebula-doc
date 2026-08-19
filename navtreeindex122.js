@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"skeletonresource_8h_source.html":[10,0,0,7,2,10],
+"snowcontext_8cc.html":[10,0,0,7,28,4],
 "snowcontext_8h.html":[10,0,0,7,28,5],
 "snowcontext_8h_source.html":[10,0,0,7,28,5],
 "socket_8cc.html":[10,0,0,3,15,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "struct_characters_1_1_character_job_context.html#a970b613f6cfe515e8327f87c6237a4f3":[8,0,7,1,3],
 "struct_characters_1_1_character_job_context.html#a970b613f6cfe515e8327f87c6237a4f3":[9,0,7,1,3],
 "struct_characters_1_1_character_job_context.html#aaa2622c5f9ee93d408d4f96fab9a2067":[8,0,7,1,15],
-"struct_characters_1_1_character_job_context.html#aaa2622c5f9ee93d408d4f96fab9a2067":[9,0,7,1,15],
-"struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69":[8,0,7,1,5],
-"struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69":[9,0,7,1,5]
+"struct_characters_1_1_character_job_context.html#aaa2622c5f9ee93d408d4f96fab9a2067":[9,0,7,1,15]
 };
