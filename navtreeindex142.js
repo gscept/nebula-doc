@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"struct_mem_db_1_1_dataset_1_1_view.html#a7f697ef18de58ce48f133045ed464f9c":[9,0,43,5,0,1],
 "struct_mem_db_1_1_row_id.html":[8,0,47,7],
 "struct_mem_db_1_1_row_id.html":[9,0,43,7],
 "struct_mem_db_1_1_row_id.html#a41963ba9fd355932f9cd4949e6ec6dcc":[8,0,47,7,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "struct_models_1_1_take_1_1_clip_1_1_event.html#ab54c3714f9cd1bdc84eaf57ea4772120":[9,0,46,13,0,0,0],
 "struct_models_1_1_take_1_1_clip_1_1_event.html#aeee062b1af931b84c9576d9be8cf401a":[8,0,50,13,0,0,1],
 "struct_models_1_1_take_1_1_clip_1_1_event.html#aeee062b1af931b84c9576d9be8cf401a":[9,0,46,13,0,0,1],
-"struct_multiplayer_1_1_client_processor_context.html":[8,0,52,3],
-"struct_multiplayer_1_1_client_processor_context.html":[9,0,47,3]
+"struct_multiplayer_1_1_client_processor_context.html":[8,0,52,3]
 };

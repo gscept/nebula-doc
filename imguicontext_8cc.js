@@ -10,6 +10,7 @@ var imguicontext_8cc =
     [ "Dynui::ImguiDrawFunction", "namespace_dynui.html#a960ab720f7f43911fd79843bff02e16a", null ],
     [ "Dynui::ImGuiToggleButton", "namespace_dynui.html#a907a2c62f5ed135270a642cece5b3e71", null ],
     [ "Dynui::SetImguiTextureIdData", "namespace_dynui.html#a631e5b5fa303422ad6e1aa7ae287e3fb", null ],
+    [ "Dynui::EditorUIPath", "namespace_dynui.html#ab97d79dbbbfc950d973827d8c8ac176e", null ],
     [ "Dynui::ImguiBoldFont", "namespace_dynui.html#af75861cd3b6fd42da282da1f6c58f279", null ],
     [ "Dynui::ImguiDragAndDropFiles", "namespace_dynui.html#ab73700f499af46c350ff9ada9a955c5f", null ],
     [ "Dynui::ImguiFont", "namespace_dynui.html#a79152c445b65be5def0b45e526e83bbc", null ],

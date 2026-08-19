@@ -30,6 +30,7 @@ var namespace_dynui =
     [ "RecursiveDrawGpuMarker", "namespace_dynui.html#a335ab4fee1ce03724bee671f6db0f760", null ],
     [ "RecursiveDrawScope", "namespace_dynui.html#a15cd05e51cba07b079239834c586dc00", null ],
     [ "SetImguiTextureIdData", "namespace_dynui.html#a631e5b5fa303422ad6e1aa7ae287e3fb", null ],
+    [ "EditorUIPath", "namespace_dynui.html#ab97d79dbbbfc950d973827d8c8ac176e", null ],
     [ "ImguiBoldFont", "namespace_dynui.html#af75861cd3b6fd42da282da1f6c58f279", null ],
     [ "ImguiDragAndDropFiles", "namespace_dynui.html#ab73700f499af46c350ff9ada9a955c5f", null ],
     [ "ImguiFont", "namespace_dynui.html#a79152c445b65be5def0b45e526e83bbc", null ],
