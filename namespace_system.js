@@ -25,7 +25,6 @@ var namespace_system =
     [ "ByteOrder::ConvertInPlace< Math::vec4 >", "namespace_system.html#aeb4216440a105e6ee5f885595b429481", null ],
     [ "CpuArchTypeAsString", "namespace_system.html#ad90a0147899b439aa22465b2fbd147bb", null ],
     [ "CreateCapturePipe", "namespace_system.html#a06441637777cccaea45f7a907b908c49", null ],
-    [ "FindProcess", "namespace_system.html#a7263dcb04b32c07beaa9b3fc1e05178f", null ],
     [ "IsProcessRunning", "namespace_system.html#ac120732f1ffcf69f2a11c2e1793b2a7f", null ],
     [ "PlatformTypeAsString", "namespace_system.html#a257ed4a28629c319e64da68b7cd69c33", null ],
     [ "StartProcess", "namespace_system.html#aad75b42de69ef9fbeb554ee7d25a5e47", null ],

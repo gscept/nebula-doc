@@ -914,7 +914,6 @@ var hierarchy =
     [ "Math::polar", "class_math_1_1polar.html", null ],
     [ "Memory::PoolArrayAllocator", "class_memory_1_1_pool_array_allocator.html", null ],
     [ "Visibility::PortalSystemLoadInfo", "struct_visibility_1_1_portal_system_load_info.html", null ],
-    [ "PosixAppLauncher", "class_toolkit_util_1_1_posix_app_launcher.html", null ],
     [ "PosixBarrier", "class_posix_1_1_posix_barrier.html", null ],
     [ "Posix::PosixCpu", "class_posix_1_1_posix_cpu.html", null ],
     [ "Posix::PosixCriticalSection", "class_posix_1_1_posix_critical_section.html", null ],
@@ -926,6 +925,7 @@ var hierarchy =
     [ "Posix::PosixHeap", "class_posix_1_1_posix_heap.html", null ],
     [ "Posix::PosixIpAddress", "class_posix_1_1_posix_ip_address.html", null ],
     [ "Posix::PosixMemoryPool", "class_posix_1_1_posix_memory_pool.html", null ],
+    [ "Posix::PosixProcess", "struct_posix_1_1_posix_process.html", null ],
     [ "Posix::PosixReadWriteLock", "class_posix_1_1_posix_read_write_lock.html", null ],
     [ "Posix::PosixSettings", "class_posix_1_1_posix_settings.html", null ],
     [ "Posix::PosixSystemInfo", "class_posix_1_1_posix_system_info.html", null ],
@@ -939,9 +939,6 @@ var hierarchy =
     [ "PriorityArray", "class_priority_array.html", null ],
     [ "Util::PriorityArray&lt; TYPE &gt;", "class_util_1_1_priority_array.html", null ],
     [ "Jobs::PrivateMemory", "struct_jobs_1_1_private_memory.html", null ],
-    [ "Base::Process", null, [
-      [ "Posix::PosixProcess", "class_posix_1_1_posix_process.html", null ]
-    ] ],
     [ "Process", "class_system_1_1_process.html", null ],
     [ "System::ProcessId", "struct_system_1_1_process_id.html", null ],
     [ "Game::Processor", "class_game_1_1_processor.html", null ],
@@ -1172,7 +1169,9 @@ var hierarchy =
         ] ],
         [ "IO::BinaryWriter", "class_i_o_1_1_binary_writer.html", null ],
         [ "IO::JsonWriter", "class_i_o_1_1_json_writer.html", null ],
-        [ "IO::TextWriter", "class_i_o_1_1_text_writer.html", null ],
+        [ "IO::TextWriter", "class_i_o_1_1_text_writer.html", [
+          [ "ConsoleHook.ConsoleWriter", "class_console_hook_1_1_console_writer.html", null ]
+        ] ],
         [ "IO::XmlWriter", "class_i_o_1_1_xml_writer.html", null ],
         [ "Messaging::MessageWriter", "class_messaging_1_1_message_writer.html", null ]
       ] ],
@@ -1461,9 +1460,6 @@ var hierarchy =
     [ "Terrain::TextureTileCache", "class_terrain_1_1_texture_tile_cache.html", null ],
     [ "CoreGraphics::TextureViewCreateInfo", "struct_core_graphics_1_1_texture_view_create_info.html", null ],
     [ "CoreGraphics::TextureViewId", "struct_core_graphics_1_1_texture_view_id.html", null ],
-    [ "TextWriter", null, [
-      [ "ConsoleHook.ConsoleWriter", "class_console_hook_1_1_console_writer.html", null ]
-    ] ],
     [ "Thread", "class_threading_1_1_thread.html", [
       [ "CoreGraphics::DrawThread", "class_core_graphics_1_1_draw_thread.html", [
         [ "Vulkan::VkCommandBufferThread", "class_vulkan_1_1_vk_command_buffer_thread.html", null ]

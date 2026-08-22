@@ -116,13 +116,52 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('posixprocess_8
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="foundation_2foundation_2stdneb_8h_source.html">foundation/stdneb.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="posixprocess_8h_source.html">posixprocess.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idpool_8h_source.html">ids/idpool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="process_8h_source.html">system/process.h</a>&quot;</code><br />
+<code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
+<code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
+<code>#include &lt;signal.h&gt;</code><br />
 <code>#include &lt;sys/wait.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Posix_3A_3APosixProcess" id="r_Posix_3A_3APosixProcess"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_posix_1_1_posix_process.html">Posix::PosixProcess</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:Posix" id="r_Posix"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html">Posix</a></td></tr>
 <tr class="memdesc:namespace_posix"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_posix.html" title="Posix implemention of a read-many write-few lock.">Posix</a> implemention of a read-many write-few lock. <br /></td></tr>
+<tr class="memitem:System" id="r_System"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html">System</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad8cb8176123c5db4512edd7afe19f624" id="r_ad8cb8176123c5db4512edd7afe19f624"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#ad8cb8176123c5db4512edd7afe19f624">Posix::SetNonBlocking</a> (int fd)</td></tr>
+<tr class="memdesc:ad8cb8176123c5db4512edd7afe19f624"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> a pipe read end to nonblocking so polling process output never stalls.  <br /></td></tr>
+<tr class="memitem:aa0a4c5208422694441be9e9dc3b01f97" id="r_aa0a4c5208422694441be9e9dc3b01f97"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#aa0a4c5208422694441be9e9dc3b01f97">Posix::ClosePipe</a> (int &amp;fd)</td></tr>
+<tr class="memitem:a506b7080221ae8b70c92a6757ec97d74" id="r_a506b7080221ae8b70c92a6757ec97d74"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#a506b7080221ae8b70c92a6757ec97d74">Posix::ReportLaunchFailure</a> (int fd)</td></tr>
+<tr class="memdesc:a506b7080221ae8b70c92a6757ec97d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report a child-side launch failure to the parent.  <br /></td></tr>
+<tr class="memitem:ac149a942c63473f61478fe76403f9a30" id="r_ac149a942c63473f61478fe76403f9a30"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#ac149a942c63473f61478fe76403f9a30">Posix::UpdateStream</a> (int fd, const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream)</td></tr>
+<tr class="memdesc:ac149a942c63473f61478fe76403f9a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read all currently available data from a capture pipe.  <br /></td></tr>
+<tr class="memitem:ac6b96d0ae10d81aae6c06af18eac2a28" id="r_ac6b96d0ae10d81aae6c06af18eac2a28"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#ac6b96d0ae10d81aae6c06af18eac2a28">Posix::UpdateStreams</a> (<a class="el" href="struct_posix_1_1_posix_process.html">PosixProcess</a> &amp;process)</td></tr>
+<tr class="memitem:a9c71512551f811f45406d29f10e2a6b3" id="r_a9c71512551f811f45406d29f10e2a6b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#a9c71512551f811f45406d29f10e2a6b3">Posix::CloseStreams</a> (<a class="el" href="struct_posix_1_1_posix_process.html">PosixProcess</a> &amp;process)</td></tr>
+<tr class="memitem:a4644659c014534ebdb8019a0f49982e8" id="r_a4644659c014534ebdb8019a0f49982e8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#a4644659c014534ebdb8019a0f49982e8">Posix::ValidProcessId</a> (<a class="el" href="struct_system_1_1_process_id.html">System::ProcessId</a> processId)</td></tr>
+<tr class="memitem:a6e38aa5df446be776408638203a1ad9e" id="r_a6e38aa5df446be776408638203a1ad9e"><td class="memItemLeft"><a class="el" href="struct_system_1_1_process_id.html">System::ProcessId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#a6e38aa5df446be776408638203a1ad9e">Posix::Launch</a> (<a class="el" href="struct_posix_1_1_posix_process.html">PosixProcess</a> process)</td></tr>
+<tr class="memitem:aad75b42de69ef9fbeb554ee7d25a5e47" id="r_aad75b42de69ef9fbeb554ee7d25a5e47"><td class="memItemLeft"><a class="el" href="struct_system_1_1_process_id.html">ProcessId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#aad75b42de69ef9fbeb554ee7d25a5e47">System::StartProcess</a> (const <a class="el" href="struct_system_1_1_process_start_info.html">ProcessStartInfo</a> &amp;createInfo)</td></tr>
+<tr class="memdesc:aad75b42de69ef9fbeb554ee7d25a5e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a process.  <br /></td></tr>
+<tr class="memitem:adc99b571b92af7c13f809ac4f4e25f92" id="r_adc99b571b92af7c13f809ac4f4e25f92"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#adc99b571b92af7c13f809ac4f4e25f92">System::UpdateProcessStreams</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:adc99b571b92af7c13f809ac4f4e25f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update streams.  <br /></td></tr>
+<tr class="memitem:ac120732f1ffcf69f2a11c2e1793b2a7f" id="r_ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#ac120732f1ffcf69f2a11c2e1793b2a7f">System::IsProcessRunning</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:ac120732f1ffcf69f2a11c2e1793b2a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if process is running (poll).  <br /></td></tr>
+<tr class="memitem:a53ca11c6fb5b5829091d965440d593b1" id="r_a53ca11c6fb5b5829091d965440d593b1"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_system.html#a53ca11c6fb5b5829091d965440d593b1">System::WaitForProcess</a> (<a class="el" href="struct_system_1_1_process_id.html">ProcessId</a> processId)</td></tr>
+<tr class="memdesc:a53ca11c6fb5b5829091d965440d593b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for process, then frees it and returns the error code.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af1e178150fc228d0d159b2c99a630f80" id="r_af1e178150fc228d0d159b2c99a630f80"><td class="memItemLeft">static <a class="el" href="class_ids_1_1_id_pool.html">Ids::IdPool</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#af1e178150fc228d0d159b2c99a630f80">Posix::idPool</a></td></tr>
+<tr class="memitem:a75359c6903552d66497ee9f98e991d7d" id="r_a75359c6903552d66497ee9f98e991d7d"><td class="memItemLeft">static <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_posix_1_1_posix_process.html">PosixProcess</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="namespace_posix.html#a75359c6903552d66497ee9f98e991d7d">Posix::processes</a></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

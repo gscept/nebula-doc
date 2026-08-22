@@ -289,7 +289,7 @@ var searchData=
   ['_7etextrendererbase_286',['~TextRendererBase',['../class_base_1_1_text_renderer_base.html#abe020c17f1ae7a2f67848f1ddde77a42',1,'Base::TextRendererBase']]],
   ['_7etextureloader_287',['~TextureLoader',['../class_core_graphics_1_1_texture_loader.html#a6d1cb2422bcd70dbbfe6fbd1ae1f6e01',1,'CoreGraphics::TextureLoader']]],
   ['_7etexturetilecache_288',['~TextureTileCache',['../class_terrain_1_1_texture_tile_cache.html#a1f3c6b1d266b683735cc90daf328a069',1,'Terrain::TextureTileCache']]],
-  ['_7etextwriter_289',['~TextWriter',['../class_i_o_1_1_text_writer.html#aab0c50e9ffcd9fe2797753b222ad1641',1,'IO::TextWriter']]],
+  ['_7etextwriter_289',['~TextWriter',['../class_i_o_1_1_text_writer.html#a8b29394ea4bf177bdad26202cca38dc4',1,'IO::TextWriter']]],
   ['_7ethreadlocalminiheap_290',['~ThreadLocalMiniHeap',['../struct_thread_local_mini_heap.html#a8e5039e1edc3477859c2492f6afade0c',1,'ThreadLocalMiniHeap']]],
   ['_7ethreadsafedisplayeventhandler_291',['~ThreadSafeDisplayEventHandler',['../class_core_graphics_1_1_thread_safe_display_event_handler.html#a57c2de385ae77783634741851afc41a9',1,'CoreGraphics::ThreadSafeDisplayEventHandler']]],
   ['_7ethreadsaferendereventhandler_292',['~ThreadSafeRenderEventHandler',['../class_core_graphics_1_1_thread_safe_render_event_handler.html#a08fda96fd454fd503a785ccaa66e3780',1,'CoreGraphics::ThreadSafeRenderEventHandler']]],

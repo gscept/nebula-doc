@@ -1,5 +1,9 @@
 var NAVTREEINDEX157 =
 {
+"struct_vulkan_1_1_derivative_layout.html":[8,0,87,4],
+"struct_vulkan_1_1_derivative_layout.html":[9,0,75,4],
+"struct_vulkan_1_1_derivative_layout.html#a2929cdf8a0be421086f16317dec41b40":[8,0,87,4,0],
+"struct_vulkan_1_1_derivative_layout.html#a2929cdf8a0be421086f16317dec41b40":[9,0,75,4,0],
 "struct_vulkan_1_1_derivative_layout.html#a301ddf14ef85fbfd655cc73d9fff9777":[8,0,87,4,5],
 "struct_vulkan_1_1_derivative_layout.html#a301ddf14ef85fbfd655cc73d9fff9777":[9,0,75,4,5],
 "struct_vulkan_1_1_derivative_layout.html#a37833c3c093deb2d35161ce5efa90b15":[8,0,87,4,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX157 =
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[8,0,87,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[9,0,75,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[8,0,87,10,1,1],
-"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[9,0,75,10,1,1],
-"struct_vulkan_1_1_render_pass_shader_interface.html":[8,0,87,11],
-"struct_vulkan_1_1_render_pass_shader_interface.html":[9,0,75,11],
-"struct_vulkan_1_1_render_pass_shader_interface.html#a179e123967b03262208a98465d7bbd9a":[8,0,87,11,0],
-"struct_vulkan_1_1_render_pass_shader_interface.html#a179e123967b03262208a98465d7bbd9a":[9,0,75,11,0]
+"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[9,0,75,10,1,1]
 };

@@ -79,7 +79,7 @@ var searchData=
   ['textureviewgetvk_76',['TextureViewGetVk',['../namespace_vulkan.html#a922993c62167cbe0e966737bf8a197d5',1,'Vulkan']]],
   ['textureviewgetvkdevice_77',['TextureViewGetVkDevice',['../namespace_vulkan.html#aa43dae1f66d371392b0bc0d27318b65d',1,'Vulkan']]],
   ['textureviewreload_78',['TextureViewReload',['../namespace_core_graphics.html#a5676bc0a98a9888b07a850e29ea45cb5',1,'CoreGraphics']]],
-  ['textwriter_79',['TextWriter',['../class_i_o_1_1_text_writer.html#ad77b980fabda2f931692263a56324446',1,'IO::TextWriter']]],
+  ['textwriter_79',['TextWriter',['../class_i_o_1_1_text_writer.html#a1e0918cdf3055cbc49c158c62598c689',1,'IO::TextWriter']]],
   ['threadclosehandlers_80',['ThreadCloseHandlers',['../class_messaging_1_1_handler_thread_base.html#acf76baee09561e9da382899e7072c5e6',1,'Messaging::HandlerThreadBase']]],
   ['threaddiscarddeferredmessages_81',['ThreadDiscardDeferredMessages',['../class_messaging_1_1_handler_thread_base.html#a5b2ce8e4bae94a847d73320243f3a763',1,'Messaging::HandlerThreadBase']]],
   ['threadhandlemessages_82',['ThreadHandleMessages',['../class_messaging_1_1_handler_thread_base.html#a127f5a1f44f31d7fe3fe71481736538b',1,'Messaging::HandlerThreadBase']]],

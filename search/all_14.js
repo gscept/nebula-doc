@@ -325,7 +325,7 @@ var searchData=
   ['textureviewid_322',['TextureViewId',['../struct_core_graphics_1_1_texture_view_id.html',1,'CoreGraphics']]],
   ['textureviewreload_323',['TextureViewReload',['../namespace_core_graphics.html#a5676bc0a98a9888b07a850e29ea45cb5',1,'CoreGraphics']]],
   ['textureviews_324',['textureViews',['../struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a22239a4b6046f428d0bb76ef8c1ba59d',1,'Vulkan::GraphicsDeviceState::PendingDeletes']]],
-  ['textwriter_325',['TextWriter',['../class_i_o_1_1_text_writer.html',1,'IO::TextWriter'],['../class_i_o_1_1_text_writer.html#ad77b980fabda2f931692263a56324446',1,'IO::TextWriter::TextWriter()']]],
+  ['textwriter_325',['TextWriter',['../class_i_o_1_1_text_writer.html',1,'IO::TextWriter'],['../class_i_o_1_1_text_writer.html#a1e0918cdf3055cbc49c158c62598c689',1,'IO::TextWriter::TextWriter()']]],
   ['textwriter_326',['textWriter',['../class_i_o_1_1_log_file_console_handler.html#ade5bacbc9a161366f87d66e5832afa3b',1,'IO::LogFileConsoleHandler']]],
   ['textwriter_2ecc_327',['textwriter.cc',['../textwriter_8cc.html',1,'']]],
   ['textwriter_2eh_328',['textwriter.h',['../textwriter_8h.html',1,'']]],
