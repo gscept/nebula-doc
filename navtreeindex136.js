@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"struct_im3d_1_1_mat3.html#ab150f4170a325cca1947b46b183b35b5":[8,0,33,10,6],
 "struct_im3d_1_1_mat3.html#ab150f4170a325cca1947b46b183b35b5":[9,0,31,10,6],
 "struct_im3d_1_1_mat3.html#abb54c04457522600dce90777b3e4ecfc":[8,0,33,10,13],
 "struct_im3d_1_1_mat3.html#abb54c04457522600dce90777b3e4ecfc":[9,0,31,10,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "struct_im3d_1_1internal_1_1_int_t.html":[8,0,33,0,2],
 "struct_im3d_1_1internal_1_1_int_t.html":[9,0,31,0,2],
 "struct_im3d_1_1internal_1_1_mat_t.html":[8,0,33,0,5],
-"struct_im3d_1_1internal_1_1_mat_t.html":[9,0,31,0,5],
-"struct_im3d_1_1internal_1_1_scalar_t.html":[8,0,33,0,0]
+"struct_im3d_1_1internal_1_1_mat_t.html":[9,0,31,0,5]
 };

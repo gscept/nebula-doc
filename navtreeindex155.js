@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"struct_threading_1_1_asserting_scope.html#a6c768e0248968c54d9ac3225d84ef0ef":[8,0,81,2,2],
 "struct_threading_1_1_asserting_scope.html#a6c768e0248968c54d9ac3225d84ef0ef":[9,0,71,2,2],
 "struct_threading_1_1_asserting_scope.html#abffd1fb1c2507939b971a759f13fad22":[8,0,81,2,1],
 "struct_threading_1_1_asserting_scope.html#abffd1fb1c2507939b971a759f13fad22":[9,0,71,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#a4eb4a7236dcd93ee5415bc31685f4f1c":[9,0,72,33,0,7],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa2f2091d62c7ad068b37a8de0fe442dd":[8,0,84,33,0,0],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa2f2091d62c7ad068b37a8de0fe442dd":[9,0,72,33,0,0],
-"struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa669cb630ed67cc99915277a2d59afbe":[8,0,84,33,0,1],
-"struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa669cb630ed67cc99915277a2d59afbe":[9,0,72,33,0,1]
+"struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa669cb630ed67cc99915277a2d59afbe":[8,0,84,33,0,1]
 };

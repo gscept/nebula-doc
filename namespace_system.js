@@ -26,6 +26,7 @@ var namespace_system =
     [ "CpuArchTypeAsString", "namespace_system.html#ad90a0147899b439aa22465b2fbd147bb", null ],
     [ "CreateCapturePipe", "namespace_system.html#a06441637777cccaea45f7a907b908c49", null ],
     [ "IsProcessRunning", "namespace_system.html#ac120732f1ffcf69f2a11c2e1793b2a7f", null ],
+    [ "IsValidProcessId", "namespace_system.html#a33652ea50c4d84015234b3735c7ccc5e", null ],
     [ "PlatformTypeAsString", "namespace_system.html#a257ed4a28629c319e64da68b7cd69c33", null ],
     [ "StartProcess", "namespace_system.html#aad75b42de69ef9fbeb554ee7d25a5e47", null ],
     [ "UpdateProcessStreams", "namespace_system.html#adc99b571b92af7c13f809ac4f4e25f92", null ],

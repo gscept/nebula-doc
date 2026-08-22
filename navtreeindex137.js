@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"struct_im3d_1_1internal_1_1_scalar_t.html":[8,0,33,0,0],
 "struct_im3d_1_1internal_1_1_scalar_t.html":[9,0,31,0,0],
 "struct_im3d_1_1internal_1_1_type_traits.html":[8,0,33,0,6],
 "struct_im3d_1_1internal_1_1_type_traits.html":[9,0,31,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa3d8f275556c13e7d8135ed78c05cd81":[8,0,40,0,3,3],
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa3d8f275556c13e7d8135ed78c05cd81":[9,0,37,0,3,3],
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aaf5bfbb9fa06da8318fe7b573a143a18":[8,0,40,0,3,1],
-"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aaf5bfbb9fa06da8318fe7b573a143a18":[9,0,37,0,3,1],
-"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#ab01ae582821fcc874ef51aa991678a6d":[8,0,40,0,3,5]
+"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aaf5bfbb9fa06da8318fe7b573a143a18":[9,0,37,0,3,1]
 };
