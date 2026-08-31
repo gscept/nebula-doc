@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"nvx2fileformatstructs_8h.html":[10,0,0,7,5,3,0],
+"nvx2fileformatstructs_8h.html#aea06b9bce000085da15f4848ad8eef77":[10,0,0,7,5,3,0,2],
 "nvx2fileformatstructs_8h_source.html":[10,0,0,7,5,3,0],
 "nvx2streamreader_8cc.html":[10,0,0,7,5,3,1],
 "nvx2streamreader_8h.html":[10,0,0,7,5,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "posixreadwritelock_8cc.html":[10,0,0,3,18,5,3],
 "posixreadwritelock_8h.html":[10,0,0,3,18,5,4],
 "posixreadwritelock_8h_source.html":[10,0,0,3,18,5,4],
-"posixsettings_8cc.html":[10,0,0,3,17,3,6],
-"posixsettings_8h.html":[10,0,0,3,17,3,7],
-"posixsettings_8h_source.html":[10,0,0,3,17,3,7]
+"posixsettings_8cc.html":[10,0,0,3,17,3,6]
 };

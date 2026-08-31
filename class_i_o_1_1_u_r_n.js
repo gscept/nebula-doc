@@ -6,7 +6,7 @@ var class_i_o_1_1_u_r_n =
     [ "URN", "class_i_o_1_1_u_r_n.html#a6f5403662e2d9a58855f6c306c8ea8bb", null ],
     [ "URN", "class_i_o_1_1_u_r_n.html#a5671a375400eb4b68f3357e7d8047826", null ],
     [ "URN", "class_i_o_1_1_u_r_n.html#aee3490671242dfd587514dc6b48d47b7", null ],
-    [ "AsString", "class_i_o_1_1_u_r_n.html#acd37051695a3d6ccdf4014a63bd853ac", null ],
+    [ "AsString", "class_i_o_1_1_u_r_n.html#a948815601c4e7b9a0f8694c9fa753d9b", null ],
     [ "Build", "class_i_o_1_1_u_r_n.html#a7af6ff56ca97250eaba71f89cc2b423f", null ],
     [ "Clear", "class_i_o_1_1_u_r_n.html#a9ef6bba53714326ffd53682751928eb2", null ],
     [ "GetFragment", "class_i_o_1_1_u_r_n.html#ac20ef9dc88d24c12b2036ae9d8153379", null ],
@@ -29,5 +29,6 @@ var class_i_o_1_1_u_r_n =
     [ "isEmpty", "class_i_o_1_1_u_r_n.html#afeeada2681839fc5189a0ab0e2405c1d", null ],
     [ "nid", "class_i_o_1_1_u_r_n.html#a8bde7437377e5adbeefcf5196fe92a68", null ],
     [ "nss", "class_i_o_1_1_u_r_n.html#a73a6af1e27dbd92bbd4caaae9f3bcb72", null ],
-    [ "query", "class_i_o_1_1_u_r_n.html#a6af265ca92bbbcc84f239c21528ce294", null ]
+    [ "query", "class_i_o_1_1_u_r_n.html#a6af265ca92bbbcc84f239c21528ce294", null ],
+    [ "string", "class_i_o_1_1_u_r_n.html#a6a9431199661e1012ecd61a442815f9b", null ]
 ];

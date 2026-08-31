@@ -45,7 +45,7 @@ var searchData=
   ['aggregates_42',['aggregates',['../class_physics_1_1_aggregate_context.html#ac5a5132aed25a1fbc5bf051d8c64f506',1,'Physics::AggregateContext']]],
   ['aimpos_43',['aimPos',['../class_math_1_1_extrapolator.html#adc522073e65918c500e4bec0d32b4886',1,'Math::Extrapolator']]],
   ['aimtime_44',['aimTime',['../class_math_1_1_extrapolator.html#a6886d65db4a957e11ebf781c99cac386',1,'Math::Extrapolator']]],
-  ['albedo_45',['albedo',['../struct_terrain_1_1_biome_material.html#a13df5d15065db7088f2ae13d3268c8df',1,'Terrain::BiomeMaterial::albedo'],['../struct_vegetation_1_1_vegetation_grass_setup.html#a0b126236e24f5521b32840ba0ac4d2a4',1,'Vegetation::VegetationGrassSetup::albedo'],['../struct_vegetation_1_1_vegetation_mesh_setup.html#a351a7216d3dff191fd0e60f8ad0c7765',1,'Vegetation::VegetationMeshSetup::albedo']]],
+  ['albedo_45',['albedo',['../struct_terrain_1_1_biome_material.html#a7ef2136eb4d3c66fc6bac7cc0d832ddd',1,'Terrain::BiomeMaterial::albedo'],['../struct_vegetation_1_1_vegetation_grass_setup.html#a0b126236e24f5521b32840ba0ac4d2a4',1,'Vegetation::VegetationGrassSetup::albedo'],['../struct_vegetation_1_1_vegetation_mesh_setup.html#a351a7216d3dff191fd0e60f8ad0c7765',1,'Vegetation::VegetationMeshSetup::albedo']]],
   ['albedocachebarrierindex_46',['albedoCacheBarrierIndex',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a42fccae7793ecc742da07cf909d222f3',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
   ['albedores_47',['albedoRes',['../struct_terrain_1_1_biome_material.html#aff14ac0ecc07283c5ae696ac9cfed3e4',1,'Terrain::BiomeMaterial']]],
   ['alias_48',['alias',['../struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6',1,'CoreGraphics::TextureCreateInfo']]],

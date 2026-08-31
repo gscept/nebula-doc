@@ -24,7 +24,7 @@ var class_terrain_1_1_terrain_context =
     [ "SetSun", "class_terrain_1_1_terrain_context.html#a8edcdc6de680d9ca55517ecf07476837", null ],
     [ "SetupTerrain", "class_terrain_1_1_terrain_context.html#a8b73c9113604c6f71b59dfb2e42c9d4d", null ],
     [ "SetVisible", "class_terrain_1_1_terrain_context.html#a7c22e1d151d62118fce51816290f4274", null ],
-    [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#a81bd8bf2e64df4f51f158bc333d557f0", null ],
+    [ "UpdateLOD", "class_terrain_1_1_terrain_context.html#a7a5da0f3a9fdc920d6b404954036fe8c", null ],
     [ "terrainAllocator", "class_terrain_1_1_terrain_context.html#a785a9c05be711e76a56eb157c273c22c", null ],
     [ "terrainBiomeAllocator", "class_terrain_1_1_terrain_context.html#abeb472f0e4040aa1739c0fa8f5bbbc06", null ]
 ];

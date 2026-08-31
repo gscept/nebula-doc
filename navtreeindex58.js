@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"class_multiplayer_1_1_base_multiplayer_client.html#a9b9cdc001194e5ea8ed5341aeb0ad9e0":[9,0,47,0,19],
+"class_multiplayer_1_1_base_multiplayer_client.html#aa1701c4cdd7067515036871805912378":[8,0,52,0,22],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa1701c4cdd7067515036871805912378":[9,0,47,0,22],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa48082921077d29072617b79dcfa70d4":[8,0,52,0,9],
 "class_multiplayer_1_1_base_multiplayer_client.html#aa48082921077d29072617b79dcfa70d4":[9,0,47,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "class_navigation_1_1_stream_nav_mesh_cache.html#ae30b5abc2940f33a53c42678b0dcc52c":[9,0,48,5,0],
 "class_navigation_feature_1_1_navigation_feature_unit.html":[8,0,54,0],
 "class_navigation_feature_1_1_navigation_feature_unit.html":[9,0,49,0],
-"class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[8,0,54,0,3],
-"class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[9,0,49,0,3],
-"class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3":[8,0,54,0,2]
+"class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662":[8,0,54,0,3]
 };

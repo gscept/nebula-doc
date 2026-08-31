@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"instanceserverbase_8h_source.html":[10,0,0,7,14,0,3],
+"intattrid_8h.html":[10,0,0,0,0,19],
 "intattrid_8h_source.html":[10,0,0,0,0,19],
 "interface_nebula_1_1_game_1_1_i_message_handler-1-g.html":[8,0,55,0,3],
 "interface_nebula_1_1_game_1_1_i_message_handler-1-g.html":[9,0,50,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "multiplayerfeatureunit_8cc.html":[10,0,0,0,6,2],
 "multiplayerfeatureunit_8h.html":[10,0,0,0,6,3],
 "multiplayerfeatureunit_8h_source.html":[10,0,0,0,6,3],
-"namespace_animation.html":[8,0,0],
-"namespace_animation.html#a1402ed08f90f5933b547a9d4496d89e4":[8,0,0,11],
-"namespace_animation.html#a184abf3537f86f1f75e06f76b23200cd":[8,0,0,7]
+"namespace_animation.html":[8,0,0]
 };

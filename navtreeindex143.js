@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"struct_navigation_1_1_crowd_agent_id.html":[8,0,53,2],
+"struct_navigation_1_1_crowd_agent_id.html":[9,0,48,1],
 "struct_navigation_1_1_debug_draw.html":[8,0,53,3],
 "struct_navigation_1_1_debug_draw.html":[9,0,48,2],
 "struct_navigation_1_1_debug_draw.html#a1e8945314f200d4b85a7295083976efb":[8,0,53,3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "struct_nebula_1_1_color.html#a2c01581c8ba13533f980186a41823bf6":[8,0,55,4,84],
 "struct_nebula_1_1_color.html#a2c01581c8ba13533f980186a41823bf6":[9,0,50,4,84],
 "struct_nebula_1_1_color.html#a2c122a2405fd298309d1ca014f8d20f4":[8,0,55,4,45],
-"struct_nebula_1_1_color.html#a2c122a2405fd298309d1ca014f8d20f4":[9,0,50,4,45],
-"struct_nebula_1_1_color.html#a2d5c6bf70beafb434e96304290234e16":[8,0,55,4,94],
-"struct_nebula_1_1_color.html#a2d5c6bf70beafb434e96304290234e16":[9,0,50,4,94]
+"struct_nebula_1_1_color.html#a2c122a2405fd298309d1ca014f8d20f4":[9,0,50,4,45]
 };
