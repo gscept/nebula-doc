@@ -7,7 +7,7 @@ var struct_terrain_1_1_biome_settings =
       [ "HeightSlope", "struct_terrain_1_1_biome_settings.html#a8c06c4cacc0de9cae63519aa949f8bbbad7ffbd223996a72668eec33168fef3a8", null ],
       [ "NumLayers", "struct_terrain_1_1_biome_settings.html#a8c06c4cacc0de9cae63519aa949f8bbbad3f95607104f01565cd8ce0cd06f658d", null ]
     ] ],
-    [ "biomeMask", "struct_terrain_1_1_biome_settings.html#aa53bc2ac722ee0e572c25300480b10d8", null ],
+    [ "biomeMask", "struct_terrain_1_1_biome_settings.html#ab0de44557dc5e329a9b3f2bdf376d39f", null ],
     [ "biomeParameters", "struct_terrain_1_1_biome_settings.html#ade4e4e891774b824d982e39667e6bc15", null ],
     [ "materials", "struct_terrain_1_1_biome_settings.html#aed1c19a374d888fca125e63ce8abd07d", null ]
 ];

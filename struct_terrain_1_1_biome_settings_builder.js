@@ -14,7 +14,7 @@ var struct_terrain_1_1_biome_settings_builder =
     [ "FlatMaterial", "struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a", null ],
     [ "HeightMaterial", "struct_terrain_1_1_biome_settings_builder.html#abc44db5b014cffe3813cf8e666aa291e", null ],
     [ "HeightSlopeMaterial", "struct_terrain_1_1_biome_settings_builder.html#a403537b77ffbf2470bb91240d0545b46", null ],
-    [ "Mask", "struct_terrain_1_1_biome_settings_builder.html#a3ceafb02c7eaf494785b5b22ba264dcd", null ],
+    [ "Mask", "struct_terrain_1_1_biome_settings_builder.html#a02cddf17503c55d50d8397c1bd3ca38d", null ],
     [ "Parameters", "struct_terrain_1_1_biome_settings_builder.html#ae6eb8808b20e52a73e8c64bad44618a9", null ],
     [ "SlopeMaterial", "struct_terrain_1_1_biome_settings_builder.html#af57bb2068f7dabd65faf20942169c058", null ],
     [ "bits", "struct_terrain_1_1_biome_settings_builder.html#a08880bc205be2f40498faaad4dc9503f", null ],
