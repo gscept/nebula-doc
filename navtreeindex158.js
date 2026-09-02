@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"struct_vulkan_1_1_query_bundle_1_1_query_state.html":[9,0,75,10,1],
+"struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[8,0,87,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a02049f7bda0191c6054ed79cffe0e7fd":[9,0,75,10,1,0],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[8,0,87,10,1,1],
 "struct_vulkan_1_1_query_bundle_1_1_query_state.html#a324d15f24e6e0f38ebc97318f51a2af8":[9,0,75,10,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_draw_command.html#abda1a02a6c8dd69ffb83d1d853e9db69":[9,0,75,21,8,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_draw_command.html#af16f366569b64a403c18f87e6cbfcbe0":[8,0,87,21,8,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_draw_command.html#af16f366569b64a403c18f87e6cbfcbe0":[9,0,75,21,8,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_indexed_draw_command.html":[8,0,87,21,9],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_indexed_draw_command.html":[9,0,75,21,9],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_indexed_draw_command.html#a0e34d715a88b5f64c4d5c09026c0b6f2":[8,0,87,21,9,3]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_indirect_indexed_draw_command.html":[8,0,87,21,9]
 };

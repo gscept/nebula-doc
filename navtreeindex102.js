@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"instanceserverbase_8cc.html":[10,0,0,7,14,0,2],
+"instanceserverbase_8h.html":[10,0,0,7,14,0,3],
 "instanceserverbase_8h_source.html":[10,0,0,7,14,0,3],
 "intattrid_8h.html":[10,0,0,0,0,19],
 "intattrid_8h_source.html":[10,0,0,0,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "mouserayutil_8h.html":[10,0,0,7,24,9],
 "mouserayutil_8h_source.html":[10,0,0,7,24,9],
 "multiplayerfeatureunit_8cc.html":[10,0,0,0,6,2],
-"multiplayerfeatureunit_8h.html":[10,0,0,0,6,3],
-"multiplayerfeatureunit_8h_source.html":[10,0,0,0,6,3],
-"namespace_animation.html":[8,0,0]
+"multiplayerfeatureunit_8h.html":[10,0,0,0,6,3]
 };

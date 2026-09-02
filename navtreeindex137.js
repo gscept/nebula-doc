@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"struct_im3d_1_1internal_1_1_int_t.html":[8,0,33,0,2],
+"struct_im3d_1_1internal_1_1_int_t.html":[9,0,31,0,2],
 "struct_im3d_1_1internal_1_1_mat_t.html":[8,0,33,0,5],
 "struct_im3d_1_1internal_1_1_mat_t.html":[9,0,31,0,5],
 "struct_im3d_1_1internal_1_1_scalar_t.html":[8,0,33,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#a7a2fdf2a4f0666bf8c45ef4c9c23e3e5":[8,0,40,0,3,6],
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#a7a2fdf2a4f0666bf8c45ef4c9c23e3e5":[9,0,37,0,3,6],
 "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa269ab7ce86decd7b1e03513dd6eb4ee":[8,0,40,0,3,4],
-"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa269ab7ce86decd7b1e03513dd6eb4ee":[9,0,37,0,3,4],
-"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa3d8f275556c13e7d8135ed78c05cd81":[8,0,40,0,3,3],
-"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa3d8f275556c13e7d8135ed78c05cd81":[9,0,37,0,3,3]
+"struct_lighting_1_1_light_context_1_1_area_light_setup_info.html#aa269ab7ce86decd7b1e03513dd6eb4ee":[9,0,37,0,3,4]
 };

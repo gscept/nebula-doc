@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"namespace_vulkan.html#af8eefb56d9573559b0346f7c09a1cde1":[8,0,87,119],
+"namespace_vulkan.html#af9d89422145215753c0362bbeddae4bc":[8,0,87,105],
 "namespace_vulkan.html#afaba6c843293bfa275b7a15d88a70d91":[8,0,87,259],
 "namespace_vulkan.html#afadb3825fc302721505f35eb8b4fc5ed":[8,0,87,110],
 "namespace_vulkan.html#afc016b35546c68c33624512531c2fe2b":[8,0,87,250],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "nsharpserver_8cc.html":[10,0,0,0,9,7],
 "nsharpserver_8h.html":[10,0,0,0,9,8],
 "nsharpserver_8h_source.html":[10,0,0,0,9,8],
-"nskfileformatstructs_8h.html":[10,0,0,7,2,2],
-"nskfileformatstructs_8h.html#a94d62bd382be6fd233b30840cbc37d32":[10,0,0,7,2,2,3],
-"nskfileformatstructs_8h_source.html":[10,0,0,7,2,2]
+"nskfileformatstructs_8h.html":[10,0,0,7,2,2]
 };

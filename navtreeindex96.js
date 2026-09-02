@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"class_win32_1_1_win32_socket.html#af847af829a10eebf9c9e1c821b3b79bd":[9,0,76,19,21],
+"class_win32_1_1_win32_socket.html#af8ca87799055e7cbdcdf2e1dd5dd1487":[8,0,88,19,54],
 "class_win32_1_1_win32_socket.html#af8ca87799055e7cbdcdf2e1dd5dd1487":[9,0,76,19,54],
 "class_win32_1_1_win32_socket.html#af92605b61971d8f981d1a45c0bb70e19":[8,0,88,19,47],
 "class_win32_1_1_win32_socket.html#af92605b61971d8f981d1a45c0bb70e19":[9,0,76,19,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "commandlineargs_8h_source.html":[10,0,0,3,20,16],
 "commonattributes_8cc.html":[10,0,0,0,0,15],
 "commonattributes_8h.html":[10,0,0,0,0,16],
-"commonattributes_8h_source.html":[10,0,0,0,0,16],
-"compilerhelper_8h.html":[10,0,0,3,20,17],
-"compilerhelper_8h.html#a86d500a34c624c2cae56bc25a31b12f3":[10,0,0,3,20,17,0]
+"commonattributes_8h_source.html":[10,0,0,0,0,16]
 };

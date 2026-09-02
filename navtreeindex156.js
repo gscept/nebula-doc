@@ -1,5 +1,7 @@
 var NAVTREEINDEX156 =
 {
+"struct_util_1_1_occupancy_quad_tree_1_1_node.html#a4eb4a7236dcd93ee5415bc31685f4f1c":[9,0,72,33,0,7],
+"struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa2f2091d62c7ad068b37a8de0fe442dd":[8,0,84,33,0,0],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa2f2091d62c7ad068b37a8de0fe442dd":[9,0,72,33,0,0],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa669cb630ed67cc99915277a2d59afbe":[8,0,84,33,0,1],
 "struct_util_1_1_occupancy_quad_tree_1_1_node.html#aa669cb630ed67cc99915277a2d59afbe":[9,0,72,33,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX156 =
 "struct_vulkan_1_1_buffer_sparse_page_table.html#ac853ca4e53ddaf10a05af480146276e6":[9,0,75,2,0],
 "struct_vulkan_1_1_command_buffer_pools.html":[8,0,87,3],
 "struct_vulkan_1_1_command_buffer_pools.html":[9,0,75,3],
-"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,87,3,1],
-"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[9,0,75,3,1],
-"struct_vulkan_1_1_command_buffer_pools.html#a4a5d196a70f432e1cf0e05c25c86edfb":[8,0,87,3,2]
+"struct_vulkan_1_1_command_buffer_pools.html#a0298d6a5e23fab3ea5ddc5f3d9c1aed7":[8,0,87,3,1]
 };
