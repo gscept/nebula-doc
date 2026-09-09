@@ -168,8 +168,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a65edea6d9d15b943306fcf7f8771010b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set fragment component  <br /></td></tr>
 <tr class="memitem:ac20ef9dc88d24c12b2036ae9d8153379" id="r_ac20ef9dc88d24c12b2036ae9d8153379"><td class="memItemLeft">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac20ef9dc88d24c12b2036ae9d8153379">GetFragment</a> () const</td></tr>
 <tr class="memdesc:ac20ef9dc88d24c12b2036ae9d8153379"><td class="mdescLeft">&#160;</td><td class="mdescRight">get fragment component (can be empty)  <br /></td></tr>
-<tr class="memitem:ac6a919c01a8a79735c6aabd1f18a2267" id="r_ac6a919c01a8a79735c6aabd1f18a2267"><td class="memItemLeft">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac6a919c01a8a79735c6aabd1f18a2267">MakeURI</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;extension) const</td></tr>
-<tr class="memdesc:ac6a919c01a8a79735c6aabd1f18a2267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using file extension.  <br /></td></tr>
+<tr class="memitem:ad73ce4a43109ce228fd36001c08429e6" id="r_ad73ce4a43109ce228fd36001c08429e6"><td class="memItemLeft">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad73ce4a43109ce228fd36001c08429e6">ExportURI</a> () const</td></tr>
+<tr class="memdesc:ad73ce4a43109ce228fd36001c08429e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to an export <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using file extension, mappings are setup with AddExportMapping.  <br /></td></tr>
+<tr class="memitem:ade5e5649c6071857d269ea722d07b562" id="r_ade5e5649c6071857d269ea722d07b562"><td class="memItemLeft">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#ade5e5649c6071857d269ea722d07b562">WorkURI</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;root)</td></tr>
+<tr class="memdesc:ade5e5649c6071857d269ea722d07b562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a work <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using project folder and extension, mappings are setup with AddWorkMapping.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a80a5f76c934d8ca315423b37e0fde762" id="r_a80a5f76c934d8ca315423b37e0fde762"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a80a5f76c934d8ca315423b37e0fde762">AddExportMapping</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ns, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;extension)</td></tr>
+<tr class="memdesc:a80a5f76c934d8ca315423b37e0fde762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an export binding using namespace -&gt; file extension to use with ExportURI.  <br /></td></tr>
+<tr class="memitem:adccc311baab29424a5260329649c331a" id="r_adccc311baab29424a5260329649c331a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#adccc311baab29424a5260329649c331a">AddWorkMapping</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ns, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;extension)</td></tr>
+<tr class="memdesc:adccc311baab29424a5260329649c331a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a work binding using namespace -&gt; file extension to use with WorkURI.  <br /></td></tr>
+<tr class="memitem:a594330cbe473918749a51306cc042739" id="r_a594330cbe473918749a51306cc042739"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a594330cbe473918749a51306cc042739">SetWorkRoot</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;root)</td></tr>
+<tr class="memdesc:a594330cbe473918749a51306cc042739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the work folder.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -186,6 +197,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6af265ca92bbbcc84f239c21528ce294" id="r_a6af265ca92bbbcc84f239c21528ce294"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6af265ca92bbbcc84f239c21528ce294">query</a></td></tr>
 <tr class="memitem:a9d84b21944c9efe6ce3fde437889d577" id="r_a9d84b21944c9efe6ce3fde437889d577"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9d84b21944c9efe6ce3fde437889d577">fragment</a></td></tr>
 <tr class="memitem:a6a9431199661e1012ecd61a442815f9b" id="r_a6a9431199661e1012ecd61a442815f9b"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6a9431199661e1012ecd61a442815f9b">string</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a354ffd6c9279a29d99a0a57d140ee157" id="r_a354ffd6c9279a29d99a0a57d140ee157"><td class="memItemLeft">static <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a354ffd6c9279a29d99a0a57d140ee157">ExportExtensions</a></td></tr>
+<tr class="memitem:abda6f2aa0030f4bf017f7e207bfa47f5" id="r_abda6f2aa0030f4bf017f7e207bfa47f5"><td class="memItemLeft">static <a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#abda6f2aa0030f4bf017f7e207bfa47f5">WorkExtensions</a></td></tr>
+<tr class="memitem:a4e8b4d419a74ea4898bdd5caafe90783" id="r_a4e8b4d419a74ea4898bdd5caafe90783"><td class="memItemLeft">static <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4e8b4d419a74ea4898bdd5caafe90783">WorkRoot</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad7235f359dce162ca0a1a38874540d26" name="ad7235f359dce162ca0a1a38874540d26"></a>
@@ -359,6 +376,68 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a80a5f76c934d8ca315423b37e0fde762" name="a80a5f76c934d8ca315423b37e0fde762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a5f76c934d8ca315423b37e0fde762">&#9670;&#160;</a></span>AddExportMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::URN::AddExportMapping </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ns</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an export binding using namespace -&gt; file extension to use with ExportURI. </p>
+
+</div>
+</div>
+<a id="adccc311baab29424a5260329649c331a" name="adccc311baab29424a5260329649c331a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adccc311baab29424a5260329649c331a">&#9670;&#160;</a></span>AddWorkMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::URN::AddWorkMapping </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ns</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a work binding using namespace -&gt; file extension to use with WorkURI. </p>
+
+</div>
+</div>
 <a id="a948815601c4e7b9a0f8694c9fa753d9b" name="a948815601c4e7b9a0f8694c9fa753d9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a948815601c4e7b9a0f8694c9fa753d9b">&#9670;&#160;</a></span>AsString()</h2>
 
@@ -438,6 +517,33 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clear the <a class="el" href="class_i_o_1_1_u_r_n.html" title="A URN (Uniform Resource Name) is a URI (Uniform Resource Identifier) that uses the &quot;urn&quot; scheme.">URN</a> </p>
+
+</div>
+</div>
+<a id="ad73ce4a43109ce228fd36001c08429e6" name="ad73ce4a43109ce228fd36001c08429e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73ce4a43109ce228fd36001c08429e6">&#9670;&#160;</a></span>ExportURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> IO::URN::ExportURI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to an export <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using file extension, mappings are setup with AddExportMapping. </p>
 
 </div>
 </div>
@@ -600,33 +706,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return true if the <a class="el" href="class_i_o_1_1_u_r_n.html" title="A URN (Uniform Resource Name) is a URI (Uniform Resource Identifier) that uses the &quot;urn&quot; scheme.">URN</a> is not empty </p>
-
-</div>
-</div>
-<a id="ac6a919c01a8a79735c6aabd1f18a2267" name="ac6a919c01a8a79735c6aabd1f18a2267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6a919c01a8a79735c6aabd1f18a2267">&#9670;&#160;</a></span>MakeURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> IO::URN::MakeURI </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>extension</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert to <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using file extension. </p>
 
 </div>
 </div>
@@ -846,6 +925,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a594330cbe473918749a51306cc042739" name="a594330cbe473918749a51306cc042739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594330cbe473918749a51306cc042739">&#9670;&#160;</a></span>SetWorkRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::URN::SetWorkRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the work folder. </p>
+
+</div>
+</div>
 <a id="a17cd31e6f71433ec4b71238166e3b54e" name="a17cd31e6f71433ec4b71238166e3b54e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17cd31e6f71433ec4b71238166e3b54e">&#9670;&#160;</a></span>Split()</h2>
 
@@ -874,7 +980,56 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ade5e5649c6071857d269ea722d07b562" name="ade5e5649c6071857d269ea722d07b562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5e5649c6071857d269ea722d07b562">&#9670;&#160;</a></span>WorkURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> IO::URN::WorkURI </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert to a work <a class="el" href="class_i_o_1_1_u_r_i.html" title="An URI object can split a Uniform Resource Identifier string into its components or build a string fr...">URI</a> using project folder and extension, mappings are setup with AddWorkMapping. </p>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a354ffd6c9279a29d99a0a57d140ee157" name="a354ffd6c9279a29d99a0a57d140ee157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354ffd6c9279a29d99a0a57d140ee157">&#9670;&#160;</a></span>ExportExtensions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &gt; IO::URN::ExportExtensions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9d84b21944c9efe6ce3fde437889d577" name="a9d84b21944c9efe6ce3fde437889d577"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d84b21944c9efe6ce3fde437889d577">&#9670;&#160;</a></span>fragment</h2>
 
@@ -1001,6 +1156,50 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abda6f2aa0030f4bf017f7e207bfa47f5" name="abda6f2aa0030f4bf017f7e207bfa47f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda6f2aa0030f4bf017f7e207bfa47f5">&#9670;&#160;</a></span>WorkExtensions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &gt; IO::URN::WorkExtensions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e8b4d419a74ea4898bdd5caafe90783" name="a4e8b4d419a74ea4898bdd5caafe90783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8b4d419a74ea4898bdd5caafe90783">&#9670;&#160;</a></span>WorkRoot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> IO::URN::WorkRoot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

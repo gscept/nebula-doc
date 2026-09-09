@@ -133,7 +133,7 @@ var searchData=
   ['hasstarted_130',['HasStarted',['../class_game_1_1_game_server.html#a06de337609b0a18d18ca0c995dec7a7b',1,'Game::GameServer']]],
   ['hasstatebit_131',['HasStateBit',['../namespace_models.html#abb3acbc147d8734c70568ad6b95e3120ae0af88d28e47a73da619dc76586951c7',1,'Models']]],
   ['hasstream_132',['HasStream',['../class_i_o_1_1_stream_reader.html#ab31b32d8438fabd239cd21f37a1fa6ac',1,'IO::StreamReader::HasStream()'],['../class_i_o_1_1_stream_writer.html#ad34de349e2b5cf0168aa781ad6dc919b',1,'IO::StreamWriter::HasStream()']]],
-  ['hasstreamloader_133',['HasStreamLoader',['../class_resources_1_1_resource_server.html#a281c2d2579e2bff74a89a85efe0fcdd4',1,'Resources::ResourceServer']]],
+  ['hasstreamloader_133',['HasStreamLoader',['../class_resources_1_1_resource_server.html#a281c2d2579e2bff74a89a85efe0fcdd4',1,'Resources::ResourceServer::HasStreamLoader(const Util::StringAtom &amp;ext) const'],['../class_resources_1_1_resource_server.html#a9a850aae4d2fe5b2a6eb2796f335423d',1,'Resources::ResourceServer::HasStreamLoader(const IO::URN &amp;urn) const']]],
   ['hastable_134',['HasTable',['../class_db_1_1_database.html#a7fe01ce11f40ed41df196d4305bf14c2',1,'Db::Database']]],
   ['hastext_135',['HasText',['../class_t_b_u_i_1_1_t_b_u_i_clipboard_interface.html#ae4a3b4184b12bc59e84ce999d24f1768',1,'TBUI::TBUIClipboardInterface']]],
   ['hastransform_136',['HasTransform',['../class_base_1_1_game_pad_base.html#a0bde31ae4212db63b22cfe09794383b9',1,'Base::GamePadBase']]],

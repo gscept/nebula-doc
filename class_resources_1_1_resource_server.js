@@ -26,6 +26,7 @@ var class_resources_1_1_resource_server =
     [ "GetUsage", "class_resources_1_1_resource_server.html#aad51898d12e5b801e40f3525c11b2529", null ],
     [ "HasPendingResources", "class_resources_1_1_resource_server.html#ab5eced425c79eb82b06162c0b85ee426", null ],
     [ "HasResource", "class_resources_1_1_resource_server.html#a6adf1a2dcc8b0ed21f2c3d4193a1bab6", null ],
+    [ "HasStreamLoader", "class_resources_1_1_resource_server.html#a9a850aae4d2fe5b2a6eb2796f335423d", null ],
     [ "HasStreamLoader", "class_resources_1_1_resource_server.html#a281c2d2579e2bff74a89a85efe0fcdd4", null ],
     [ "LoadDefaultResources", "class_resources_1_1_resource_server.html#ac094cde9351173e2733a2a4782dd565e", null ],
     [ "Open", "class_resources_1_1_resource_server.html#a30f2114f40617d661466a7d7d242d4d7", null ],

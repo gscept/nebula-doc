@@ -62,7 +62,8 @@ var searchData=
   ['keyvaluepair_3c_20util_3a_3astringatom_2c_20ptr_3c_20frame_3a_3aframescript_20_3e_20_3e_59',['KeyValuePair&lt; Util::StringAtom, Ptr&lt; Frame::FrameScript &gt; &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
   ['keyvaluepair_3c_20util_3a_3astringatom_2c_20resources_3a_3aresourceid_20_3e_60',['KeyValuePair&lt; Util::StringAtom, Resources::ResourceId &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
   ['keyvaluepair_3c_20util_3a_3astringatom_2c_20uint32_5ft_20_3e_61',['KeyValuePair&lt; Util::StringAtom, uint32_t &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
-  ['keyvaluepair_3c_20util_3a_3astringatom_2c_20vulkan_3a_3avkreflectioninfo_3a_3auniformbuffer_20_3e_62',['KeyValuePair&lt; Util::StringAtom, Vulkan::VkReflectionInfo::UniformBuffer &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
-  ['keyvaluepair_3c_20util_3a_3astringatom_2c_20vulkan_3a_3avkreflectioninfo_3a_3avariable_20_3e_63',['KeyValuePair&lt; Util::StringAtom, Vulkan::VkReflectionInfo::Variable &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
-  ['keyvaluepair_3c_20vkfence_2c_20util_3a_3aarray_3c_20vulkan_3a_3avkdeferredcommand_20_3e_20_3e_64',['KeyValuePair&lt; VkFence, Util::Array&lt; Vulkan::VkDeferredCommand &gt; &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]]
+  ['keyvaluepair_3c_20util_3a_3astringatom_2c_20util_3a_3astringatom_20_3e_62',['KeyValuePair&lt; Util::StringAtom, Util::StringAtom &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
+  ['keyvaluepair_3c_20util_3a_3astringatom_2c_20vulkan_3a_3avkreflectioninfo_3a_3auniformbuffer_20_3e_63',['KeyValuePair&lt; Util::StringAtom, Vulkan::VkReflectionInfo::UniformBuffer &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
+  ['keyvaluepair_3c_20util_3a_3astringatom_2c_20vulkan_3a_3avkreflectioninfo_3a_3avariable_20_3e_64',['KeyValuePair&lt; Util::StringAtom, Vulkan::VkReflectionInfo::Variable &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]],
+  ['keyvaluepair_3c_20vkfence_2c_20util_3a_3aarray_3c_20vulkan_3a_3avkdeferredcommand_20_3e_20_3e_65',['KeyValuePair&lt; VkFence, Util::Array&lt; Vulkan::VkDeferredCommand &gt; &gt;',['../class_util_1_1_key_value_pair.html',1,'Util']]]
 ];

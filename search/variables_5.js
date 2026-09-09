@@ -80,12 +80,13 @@ var searchData=
   ['exithandler_77',['exitHandler',['../class_app_1_1_game_application.html#a771832e50060b89c5f526d0dca1dbedf',1,'App::GameApplication']]],
   ['exithandlers_78',['ExitHandlers',['../class_o_s_x_1_1_sys_func.html#a6e417a8ca19c5310880958ae089be32a',1,'OSX::SysFunc::ExitHandlers'],['../class_posix_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708',1,'Posix::SysFunc::ExitHandlers'],['../class_win32_1_1_sys_func.html#abf71b3a904ace565a75bbe77a23633e8',1,'Win32::SysFunc::ExitHandlers']]],
   ['exp_79',['exp',['../union_math_1_1half_1_1_float.html#a274c0edffdd490935f1fe4be3feaaf7e',1,'Math::half::Float::exp'],['../class_math_1_1half.html#a0d3ca863b0699c60700f2ec4fddd7a79',1,'Math::half::exp']]],
-  ['extensionmap_80',['extensionMap',['../class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db',1,'Resources::ResourceServer']]],
-  ['extensions_81',['extensions',['../struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd',1,'Vulkan::GraphicsDeviceState']]],
-  ['extent_82',['extent',['../struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a',1,'CoreGraphics::TextureSparsePage']]],
-  ['externalflags_83',['externalFlags',['../class_mem_db_1_1_attribute.html#a6d7e509d7ef557052f9d287fd7ef8d26',1,'MemDb::Attribute']]],
-  ['externalindices_84',['externalIndices',['../class_util_1_1_bvh.html#a8c52f62d5af51e51631a18178f03e159',1,'Util::Bvh']]],
-  ['extractprogram_85',['extractProgram',['../namespace_post_effects.html#aa5149c747490e2f66a483c9da4d55e9e',1,'PostEffects']]],
-  ['extractresourcetable_86',['extractResourceTable',['../namespace_post_effects.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b',1,'PostEffects']]],
-  ['extractshader_87',['extractShader',['../namespace_post_effects.html#a0bc5995084efe75d05e1a46ae562f035',1,'PostEffects']]]
+  ['exportextensions_80',['ExportExtensions',['../class_i_o_1_1_u_r_n.html#a354ffd6c9279a29d99a0a57d140ee157',1,'IO::URN']]],
+  ['extensionmap_81',['extensionMap',['../class_resources_1_1_resource_server.html#a40762645307c2480489f0f9cc47c69db',1,'Resources::ResourceServer']]],
+  ['extensions_82',['extensions',['../struct_vulkan_1_1_graphics_device_state.html#ab4039475c023ab3e83fec718fefa1abd',1,'Vulkan::GraphicsDeviceState']]],
+  ['extent_83',['extent',['../struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a',1,'CoreGraphics::TextureSparsePage']]],
+  ['externalflags_84',['externalFlags',['../class_mem_db_1_1_attribute.html#a6d7e509d7ef557052f9d287fd7ef8d26',1,'MemDb::Attribute']]],
+  ['externalindices_85',['externalIndices',['../class_util_1_1_bvh.html#a8c52f62d5af51e51631a18178f03e159',1,'Util::Bvh']]],
+  ['extractprogram_86',['extractProgram',['../namespace_post_effects.html#aa5149c747490e2f66a483c9da4d55e9e',1,'PostEffects']]],
+  ['extractresourcetable_87',['extractResourceTable',['../namespace_post_effects.html#aa4ba14e2523cfbe9cee54b02e3bb4a3b',1,'PostEffects']]],
+  ['extractshader_88',['extractShader',['../namespace_post_effects.html#a0bc5995084efe75d05e1a46ae562f035',1,'PostEffects']]]
 ];
