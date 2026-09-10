@@ -882,7 +882,7 @@ var namespace_core_graphics =
     [ "SwapchainAllocateCmds", "namespace_core_graphics.html#a9fd2010168f47d2727b6a6c6371b512a", null ],
     [ "SwapchainCopy", "namespace_core_graphics.html#ae2855f910dde861ee1fed78a191cb89f", null ],
     [ "SwapchainGetCurrentDisplaySemaphore", "namespace_core_graphics.html#a7f13ec985415f84fbe8b9b81db1b26c9", null ],
-    [ "SwapchainGetCurrentPresentSemaphore", "namespace_core_graphics.html#a2b5c1662d1c636da17e6ed892911a910", null ],
+    [ "SwapchainGetCurrentRenderingSemaphore", "namespace_core_graphics.html#a68c252cd9685a3db680fde6daaafb2a6", null ],
     [ "SwapchainGetQueueType", "namespace_core_graphics.html#a1128f108d4873676e497bd5044de4172", null ],
     [ "SwapchainPresent", "namespace_core_graphics.html#a4aae10714ff88f126e2b762b77bc8936", null ],
     [ "SwapchainSwap", "namespace_core_graphics.html#a9c74330d34d2958a947934b0b3db68d1", null ],

@@ -5,7 +5,7 @@ var vkswapchain_8cc =
     [ "CoreGraphics::SwapchainAllocateCmds", "namespace_core_graphics.html#a9fd2010168f47d2727b6a6c6371b512a", null ],
     [ "CoreGraphics::SwapchainCopy", "namespace_core_graphics.html#ae2855f910dde861ee1fed78a191cb89f", null ],
     [ "CoreGraphics::SwapchainGetCurrentDisplaySemaphore", "namespace_core_graphics.html#a7f13ec985415f84fbe8b9b81db1b26c9", null ],
-    [ "CoreGraphics::SwapchainGetCurrentPresentSemaphore", "namespace_core_graphics.html#a2b5c1662d1c636da17e6ed892911a910", null ],
+    [ "CoreGraphics::SwapchainGetCurrentRenderingSemaphore", "namespace_core_graphics.html#a68c252cd9685a3db680fde6daaafb2a6", null ],
     [ "CoreGraphics::SwapchainGetQueueType", "namespace_core_graphics.html#a1128f108d4873676e497bd5044de4172", null ],
     [ "Vulkan::SwapchainGetVkDevice", "namespace_vulkan.html#a9cd8bc061898498a4791a9ae70141e0a", null ],
     [ "Vulkan::SwapchainGetVkImageViews", "namespace_vulkan.html#a77806470725ae8a24f222ab6879ba838", null ],

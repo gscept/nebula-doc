@@ -1515,7 +1515,7 @@ var searchData=
   ['swapchaincopy_1512',['SwapchainCopy',['../namespace_core_graphics.html#ae2855f910dde861ee1fed78a191cb89f',1,'CoreGraphics']]],
   ['swapchaincreateinfo_1513',['SwapchainCreateInfo',['../struct_core_graphics_1_1_swapchain_create_info.html',1,'CoreGraphics']]],
   ['swapchaingetcurrentdisplaysemaphore_1514',['SwapchainGetCurrentDisplaySemaphore',['../namespace_core_graphics.html#a7f13ec985415f84fbe8b9b81db1b26c9',1,'CoreGraphics']]],
-  ['swapchaingetcurrentpresentsemaphore_1515',['SwapchainGetCurrentPresentSemaphore',['../namespace_core_graphics.html#a2b5c1662d1c636da17e6ed892911a910',1,'CoreGraphics']]],
+  ['swapchaingetcurrentrenderingsemaphore_1515',['SwapchainGetCurrentRenderingSemaphore',['../namespace_core_graphics.html#a68c252cd9685a3db680fde6daaafb2a6',1,'CoreGraphics']]],
   ['swapchaingetqueuetype_1516',['SwapchainGetQueueType',['../namespace_core_graphics.html#a1128f108d4873676e497bd5044de4172',1,'CoreGraphics']]],
   ['swapchaingetvkdevice_1517',['SwapchainGetVkDevice',['../namespace_vulkan.html#a9cd8bc061898498a4791a9ae70141e0a',1,'Vulkan']]],
   ['swapchaingetvkimageviews_1518',['SwapchainGetVkImageViews',['../namespace_vulkan.html#a77806470725ae8a24f222ab6879ba838',1,'Vulkan']]],
