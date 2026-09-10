@@ -56,7 +56,7 @@ var namespace_vulkan =
     [ "ProgramMap", "namespace_vulkan.html#a4911b73a420d87e53830ce523726c2e8", null ],
     [ "ShaderAllocator", "namespace_vulkan.html#a603853419d77ab846c328e8b2944db16", null ],
     [ "ShaderProgramAllocator", "namespace_vulkan.html#a1b8f16d639a12a71560196bc11f1a75a", null ],
-    [ "SwapchainAllocator", "namespace_vulkan.html#a4afc1233d8fc9fa7c51c866b173e70d7", null ],
+    [ "SwapchainAllocator", "namespace_vulkan.html#ab2af3bc8ec56baf65b724b6d43f3888f", null ],
     [ "UniformBufferGroupMap", "namespace_vulkan.html#ac085a0e972264d80b34b313fb49e92ca", null ],
     [ "UniformBufferMap", "namespace_vulkan.html#ae51c44637f4efaa072fa1a845da70a3a", null ],
     [ "VkBarrierAllocator", "namespace_vulkan.html#a63f58197766862dfdada97c3cd4094d3", null ],

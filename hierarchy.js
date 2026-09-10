@@ -155,7 +155,7 @@ var hierarchy =
       [ "Ids::IdAllocator< VkDevice, VkSemaphore, CoreGraphics::SemaphoreType, uint64_t >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkReflectionInfo, VkShaderSetupInfo, VkShaderRuntimeInfo, Util::Array< CoreGraphics::ShaderProgramId > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkShaderProgramSetupInfo, VkProgramReflectionInfo, VkShaderProgramRuntimeInfo >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< VkDevice, VkSurfaceKHR, VkSwapchainKHR, uint, Util::FixedArray< CoreGraphics::SemaphoreId >, Util::FixedArray< CoreGraphics::SemaphoreId >, CoreGraphics::DisplayMode, Util::Array< VkImage >, Util::Array< VkImageView >, VkQueue, CoreGraphics::QueueType, CoreGraphics::CmdBufferPoolId >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< VkDevice, VkSurfaceKHR, VkSwapchainKHR, uint, uint, Util::FixedArray< CoreGraphics::SemaphoreId >, Util::FixedArray< CoreGraphics::SemaphoreId >, CoreGraphics::DisplayMode, Util::Array< VkImage >, Util::Array< VkImageView >, VkQueue, CoreGraphics::QueueType, CoreGraphics::CmdBufferPoolId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< VkTextureViewLoadInfo, VkTextureViewRuntimeInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::HashTable< uint64_t, DerivativeLayout >, VkPipelineVertexInputStateCreateInfo, BindInfo, CoreGraphics::VertexLayoutInfo, Util::Array< SizeT >, VertexLayoutVkBindInfo >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::mat4, DecalType, Ids::Id32, Graphics::StageMask >", "class_ids_1_1_id_allocator.html", null ],

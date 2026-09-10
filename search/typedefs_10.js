@@ -18,5 +18,5 @@ var searchData=
   ['stackarray_15',['StackArray',['../namespace_util.html#a87b3071227d8c725c43e4263dd4e91b6',1,'Util']]],
   ['stagemask_16',['StageMask',['../namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09',1,'Graphics']]],
   ['stubtype_17',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#a4afc1233d8fc9fa7c51c866b173e70d7',1,'Vulkan']]]
+  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#ab2af3bc8ec56baf65b724b6d43f3888f',1,'Vulkan']]]
 ];
