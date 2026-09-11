@@ -1,5 +1,17 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_resource_table_buffer.html#a30be3d428fe14bd7f6fc6c56820b76c0":[8,0,13,98,4],
+"struct_core_graphics_1_1_resource_table_buffer.html#a30be3d428fe14bd7f6fc6c56820b76c0":[9,0,12,97,4],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[8,0,13,98,10],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[9,0,12,97,10],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[8,0,13,98,5],
+"struct_core_graphics_1_1_resource_table_buffer.html#a6f53314c6c66fdaf58f1f7e66991f976":[9,0,12,97,5],
+"struct_core_graphics_1_1_resource_table_buffer.html#a8039b1085e0cb822cffe4e503933c469":[8,0,13,98,1],
+"struct_core_graphics_1_1_resource_table_buffer.html#a8039b1085e0cb822cffe4e503933c469":[9,0,12,97,1],
+"struct_core_graphics_1_1_resource_table_buffer.html#a965e136ff907cc351e6ce4386b53257e":[8,0,13,98,11],
+"struct_core_graphics_1_1_resource_table_buffer.html#a965e136ff907cc351e6ce4386b53257e":[9,0,12,97,11],
+"struct_core_graphics_1_1_resource_table_buffer.html#aa92ad0235e09c510249ab02b1f986fba":[8,0,13,98,8],
+"struct_core_graphics_1_1_resource_table_buffer.html#aa92ad0235e09c510249ab02b1f986fba":[9,0,12,97,8],
 "struct_core_graphics_1_1_resource_table_buffer.html#ac3e00f9ec99ff2af17a1f7f3c4390d35":[8,0,13,98,0],
 "struct_core_graphics_1_1_resource_table_buffer.html#ac3e00f9ec99ff2af17a1f7f3c4390d35":[9,0,12,97,0],
 "struct_core_graphics_1_1_resource_table_buffer.html#ac7e30e7631bf183f6971f75025a5a64d":[8,0,13,98,9],
@@ -237,17 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_semaphore_id.html":[8,0,13,119],
 "struct_core_graphics_1_1_semaphore_id.html":[9,0,12,118],
 "struct_core_graphics_1_1_shader_id.html":[8,0,13,121],
-"struct_core_graphics_1_1_shader_id.html":[9,0,12,120],
-"struct_core_graphics_1_1_skin_vertex.html":[8,0,13,124],
-"struct_core_graphics_1_1_skin_vertex.html":[9,0,12,123],
-"struct_core_graphics_1_1_skin_vertex.html#abf4868f9e213e890063aeb11c7217c27":[8,0,13,124,0],
-"struct_core_graphics_1_1_skin_vertex.html#abf4868f9e213e890063aeb11c7217c27":[9,0,12,123,0],
-"struct_core_graphics_1_1_skin_vertex.html#afc5685913454c9c1712f126fe19eaaf3":[8,0,13,124,1],
-"struct_core_graphics_1_1_skin_vertex.html#afc5685913454c9c1712f126fe19eaaf3":[9,0,12,123,1],
-"struct_core_graphics_1_1_sparse_buffer_create_info.html":[8,0,13,125],
-"struct_core_graphics_1_1_sparse_buffer_create_info.html":[9,0,12,124],
-"struct_core_graphics_1_1_sparse_buffer_id.html":[8,0,13,126],
-"struct_core_graphics_1_1_sparse_buffer_id.html":[9,0,12,125],
-"struct_core_graphics_1_1_submission_wait_event.html":[8,0,13,127],
-"struct_core_graphics_1_1_submission_wait_event.html":[9,0,12,126]
+"struct_core_graphics_1_1_shader_id.html":[9,0,12,120]
 };

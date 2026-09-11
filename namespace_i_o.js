@@ -179,5 +179,9 @@ var namespace_i_o =
     [ "JsonWriter::Add< Game::Velocity >", "namespace_i_o.html#a9e33e07568e26f878092695b673be538", null ],
     [ "JsonWriter::Add< Math::Extrapolator< Math::vec3 > >", "namespace_i_o.html#aca5da8d0b6eb94ba26a4cd674b1d36d5", null ],
     [ "ListDirectories", "namespace_i_o.html#a2077a08f237b8bbe9ff738eeeef8d018", null ],
-    [ "ListFiles", "namespace_i_o.html#abc8e470d127efdc0a9e42fb083465a37", null ]
+    [ "ListFiles", "namespace_i_o.html#abc8e470d127efdc0a9e42fb083465a37", null ],
+    [ "Log", "namespace_i_o.html#a479543a679a02f5185957c946e30f42e", null ],
+    [ "LogError", "namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9", null ],
+    [ "LogSource", "namespace_i_o.html#abc87bac529ca1319b0830a2db127890b", null ],
+    [ "LogWarning", "namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10", null ]
 ];

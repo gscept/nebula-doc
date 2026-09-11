@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"class_win32_1_1_win32_socket.html#ad481c296180efbddfa17c6da6f60895f":[9,0,76,19,52],
+"class_win32_1_1_win32_socket.html#ad510746a1c3063e4b9043a45b16e3664":[8,0,88,19,24],
+"class_win32_1_1_win32_socket.html#ad510746a1c3063e4b9043a45b16e3664":[9,0,76,19,24],
+"class_win32_1_1_win32_socket.html#ad5304026f87492f2ccbba07cbf5ca357":[8,0,88,19,7],
 "class_win32_1_1_win32_socket.html#ad5304026f87492f2ccbba07cbf5ca357":[9,0,76,19,7],
 "class_win32_1_1_win32_socket.html#ada8f33cb61bf4605ee2da80cb2c8dff5":[8,0,88,19,49],
 "class_win32_1_1_win32_socket.html#ada8f33cb61bf4605ee2da80cb2c8dff5":[9,0,76,19,49],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "clusterutil_8h.html":[10,0,0,7,3,2],
 "clusterutil_8h_source.html":[10,0,0,7,3,2],
 "color_8cc.html":[10,0,0,3,20,13],
-"color_8h.html":[10,0,0,3,20,14],
-"color_8h_source.html":[10,0,0,3,20,14],
-"column_8cc.html":[10,0,0,0,2,1],
-"column_8h.html":[10,0,0,0,2,2],
-"column_8h.html#ac92d82bb9bb24d3365f4129917661da5":[10,0,0,0,2,2,1]
+"color_8h.html":[10,0,0,3,20,14]
 };

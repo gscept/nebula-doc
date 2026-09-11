@@ -1,5 +1,17 @@
 var NAVTREEINDEX143 =
 {
+"struct_models_1_1_take_1_1_clip.html#ae0d4edc586fb1df918c1dac1f690e1df":[8,0,50,13,0,1],
+"struct_models_1_1_take_1_1_clip.html#ae0d4edc586fb1df918c1dac1f690e1df":[9,0,46,13,0,1],
+"struct_models_1_1_take_1_1_clip.html#ae3edf2404ae21400138a39ec3a068a42":[8,0,50,13,0,5],
+"struct_models_1_1_take_1_1_clip.html#ae3edf2404ae21400138a39ec3a068a42":[9,0,46,13,0,5],
+"struct_models_1_1_take_1_1_clip.html#ae82b854b42a2f68b1e90884b383cdc7f":[8,0,50,13,0,4],
+"struct_models_1_1_take_1_1_clip.html#ae82b854b42a2f68b1e90884b383cdc7f":[9,0,46,13,0,4],
+"struct_models_1_1_take_1_1_clip_1_1_event.html":[8,0,50,13,0,0],
+"struct_models_1_1_take_1_1_clip_1_1_event.html":[9,0,46,13,0,0],
+"struct_models_1_1_take_1_1_clip_1_1_event.html#ab54c3714f9cd1bdc84eaf57ea4772120":[8,0,50,13,0,0,0],
+"struct_models_1_1_take_1_1_clip_1_1_event.html#ab54c3714f9cd1bdc84eaf57ea4772120":[9,0,46,13,0,0,0],
+"struct_models_1_1_take_1_1_clip_1_1_event.html#aeee062b1af931b84c9576d9be8cf401a":[8,0,50,13,0,0,1],
+"struct_models_1_1_take_1_1_clip_1_1_event.html#aeee062b1af931b84c9576d9be8cf401a":[9,0,46,13,0,0,1],
 "struct_multiplayer_1_1_client_processor_context.html":[8,0,52,3],
 "struct_multiplayer_1_1_client_processor_context.html":[9,0,47,3],
 "struct_multiplayer_1_1_client_processor_context.html#a2440383e265472081ae648ab2f4917e5":[8,0,52,3,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX143 =
 "struct_nebula_1_1_color.html#a19cbe41b47ba6b45de0a80e400a8eeb8":[8,0,55,4,61],
 "struct_nebula_1_1_color.html#a19cbe41b47ba6b45de0a80e400a8eeb8":[9,0,50,4,61],
 "struct_nebula_1_1_color.html#a19f5603bf8809275dea99255b02272db":[8,0,55,4,26],
-"struct_nebula_1_1_color.html#a19f5603bf8809275dea99255b02272db":[9,0,50,4,26],
-"struct_nebula_1_1_color.html#a1c2b5553470968303ba0889ed401a900":[8,0,55,4,169],
-"struct_nebula_1_1_color.html#a1c2b5553470968303ba0889ed401a900":[9,0,50,4,169],
-"struct_nebula_1_1_color.html#a1c96cb235c08f81e232bb7142d423485":[8,0,55,4,50],
-"struct_nebula_1_1_color.html#a1c96cb235c08f81e232bb7142d423485":[9,0,50,4,50],
-"struct_nebula_1_1_color.html#a1cd3502136c1de55b81f87f533a3abd5":[8,0,55,4,98],
-"struct_nebula_1_1_color.html#a1cd3502136c1de55b81f87f533a3abd5":[9,0,50,4,98],
-"struct_nebula_1_1_color.html#a1e78fe3ec01257be4d805532877793ee":[8,0,55,4,54],
-"struct_nebula_1_1_color.html#a1e78fe3ec01257be4d805532877793ee":[9,0,50,4,54],
-"struct_nebula_1_1_color.html#a1eafdd65795ee7e182914249fd85c8c4":[8,0,55,4,34],
-"struct_nebula_1_1_color.html#a1eafdd65795ee7e182914249fd85c8c4":[9,0,50,4,34],
-"struct_nebula_1_1_color.html#a2084454315c0d18bdd60c993c1a2105b":[8,0,55,4,102],
-"struct_nebula_1_1_color.html#a2084454315c0d18bdd60c993c1a2105b":[9,0,50,4,102]
+"struct_nebula_1_1_color.html#a19f5603bf8809275dea99255b02272db":[9,0,50,4,26]
 };

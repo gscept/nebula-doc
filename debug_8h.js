@@ -1,5 +1,9 @@
 var debug_8h =
 [
+    [ "LOG", "debug_8h.html#a0c70e9903881ebe9ded10e207e657edb", null ],
+    [ "LOG_ERR", "debug_8h.html#abdef21df539ec94e7301aac5d477bac1", null ],
+    [ "LOG_SOURCE", "debug_8h.html#ade4ee3bb964a24788b9a0d22fbd896e8", null ],
+    [ "LOG_WARN", "debug_8h.html#a8e1bd95f068b269a7370de1ddbace976", null ],
     [ "n_assert", "debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042", null ],
     [ "n_assert2", "debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa", null ],
     [ "n_assert_fmt", "debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf", null ],
@@ -10,6 +14,10 @@ var debug_8h =
     [ "n_warn", "debug_8h.html#a8f2561213bd73c61dc29f938b1eddcb6", null ],
     [ "n_warn2", "debug_8h.html#ae31a71419d6741ccbf3311246c3a6db0", null ],
     [ "n_warn_fmt", "debug_8h.html#aefd229c50d6344b032d0d61907224070", null ],
+    [ "IO::Log", "namespace_i_o.html#a479543a679a02f5185957c946e30f42e", null ],
+    [ "IO::LogError", "namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9", null ],
+    [ "IO::LogSource", "namespace_i_o.html#abc87bac529ca1319b0830a2db127890b", null ],
+    [ "IO::LogWarning", "namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10", null ],
     [ "n_barf", "debug_8h.html#aac70bd3e72e0d0ab3d8bae43935c2e38", null ],
     [ "n_barf2", "debug_8h.html#ac54e6542a9cd982038d3dde3c87204a4", null ],
     [ "n_barf_fmt", "debug_8h.html#af663a2658b4e47fb9a5777a7337cf100", null ],

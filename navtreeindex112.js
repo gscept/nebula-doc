@@ -1,5 +1,17 @@
 var NAVTREEINDEX112 =
 {
+"namespace_math.html#a4dcd44627d84530288035a0c5c6bc1c9":[8,0,46,144],
+"namespace_math.html#a4f36d5946aa933239cba4fade4baf2fb":[8,0,46,224],
+"namespace_math.html#a4fcd87d43acafba4730bb160d8e17a99":[8,0,46,150],
+"namespace_math.html#a500fe204f63011fd4104d931ed8044b3":[8,0,46,274],
+"namespace_math.html#a506c9bb2a5394d3898b7b3715ec103e9":[8,0,46,155],
+"namespace_math.html#a508ef7dbe880a50f0cff5750964b64f5":[8,0,46,241],
+"namespace_math.html#a50b738cba92e38a644a4862be73b3922":[8,0,46,128],
+"namespace_math.html#a50e67ec8d9200daa16ac40ad7be45536":[8,0,46,115],
+"namespace_math.html#a510fbc915472127fe199417d98a04fe4":[8,0,46,84],
+"namespace_math.html#a51b938f95c4b2a7badb5a0c3a80afd68":[8,0,46,113],
+"namespace_math.html#a51f056b74bf1518135a26a8b599e41ba":[8,0,46,277],
+"namespace_math.html#a526ab74d73f05cce62d051ae488d35a4":[8,0,46,281],
 "namespace_math.html#a52a05176e27a4b4cf40916255f102f38":[8,0,46,242],
 "namespace_math.html#a534a16fbca07b343375c49c16170e7c1":[8,0,46,44],
 "namespace_math.html#a542ab1542850114723596089a55abff0":[8,0,46,65],
@@ -237,17 +249,5 @@ var NAVTREEINDEX112 =
 "namespace_memory.html#a1bda6b459546d2c0d7de871bbaeea53b":[8,0,48,58],
 "namespace_memory.html#a1c954cd05be99abf338cf8043dcd44f7":[8,0,48,60],
 "namespace_memory.html#a22db429734eafa34e0a11a9024a97a08":[8,0,48,59],
-"namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3":[8,0,48,23],
-"namespace_memory.html#a3e556ad80994209cf526414f6df18f8c":[8,0,48,28],
-"namespace_memory.html#a45254c2f9bd894c654344a2618c63558":[8,0,48,16],
-"namespace_memory.html#a4995e5924860d54b61f35def57e2bac5":[8,0,48,30],
-"namespace_memory.html#a4ae6c993ab9c4188184ddfb08738fa3e":[8,0,48,17],
-"namespace_memory.html#a4f05b0dffadc15f46b2db37a2b3c9240":[8,0,48,49],
-"namespace_memory.html#a527477862257488319ed410e35988043":[8,0,48,35],
-"namespace_memory.html#a539aa16970df013f09322414ef1c51b0":[8,0,48,15],
-"namespace_memory.html#a6055e491858cd969e93326d9b3e4b420":[8,0,48,37],
-"namespace_memory.html#a66c839285702633f8178be0224273a14":[8,0,48,44],
-"namespace_memory.html#a68089d5b4fe7cce3875d69acd943bcc3":[8,0,48,55],
-"namespace_memory.html#a6f1e350799da9a033ab78c19c7a21436":[8,0,48,24],
-"namespace_memory.html#a779eb7178f1887e9759e90511acd5a05":[8,0,48,39]
+"namespace_memory.html#a302b8099d0bbcc9bccfd578814e5b4f3":[8,0,48,23]
 };

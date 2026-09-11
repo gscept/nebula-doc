@@ -267,6 +267,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a818d323a937a2f9fbd8d9db81056fb80 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a818d323a937a2f9fbd8d9db81056fb80">JsonReader::Get&lt; Game::AngularVelocity &gt;</a> (<a class="el" href="struct_game_1_1_angular_velocity.html">Game::AngularVelocity</a> &amp;ret, const char *attr)</td></tr>
 <tr class="memitem:a14d3f802d02b43f1032b502575d6df5e" id="r_a14d3f802d02b43f1032b502575d6df5e"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:a14d3f802d02b43f1032b502575d6df5e template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a14d3f802d02b43f1032b502575d6df5e">JsonWriter::Add&lt; Game::AngularVelocity &gt;</a> (<a class="el" href="struct_game_1_1_angular_velocity.html">Game::AngularVelocity</a> const &amp;value, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;attr)</td></tr>
+<tr class="memitem:a479543a679a02f5185957c946e30f42e" id="r_a479543a679a02f5185957c946e30f42e"><td class="memItemLeft">void __cdecl&#160;</td><td class="memItemRight"><a class="el" href="#a479543a679a02f5185957c946e30f42e">Log</a> (const char *logGroup, const char *fmt,...)</td></tr>
+<tr class="memitem:a7c722915428e3fd4aba8ce70c1ee6c10" id="r_a7c722915428e3fd4aba8ce70c1ee6c10"><td class="memItemLeft">void __cdecl&#160;</td><td class="memItemRight"><a class="el" href="#a7c722915428e3fd4aba8ce70c1ee6c10">LogWarning</a> (const char *logGroup, const char *fmt,...)</td></tr>
+<tr class="memitem:a11fd6372b9b68b459e2f423d95fe3cb9" id="r_a11fd6372b9b68b459e2f423d95fe3cb9"><td class="memItemLeft">void __cdecl&#160;</td><td class="memItemRight"><a class="el" href="#a11fd6372b9b68b459e2f423d95fe3cb9">LogError</a> (const char *logGroup, const char *fmt,...)</td></tr>
+<tr class="memitem:abc87bac529ca1319b0830a2db127890b" id="r_abc87bac529ca1319b0830a2db127890b"><td class="memItemLeft">void __cdecl&#160;</td><td class="memItemRight"><a class="el" href="#abc87bac529ca1319b0830a2db127890b">LogSource</a> (const char *logGroup, const char *file, const int line, const char *fmt,...)</td></tr>
 <tr class="memitem:a7efc3658cbdd261bebcb49c46b6332f6" id="r_a7efc3658cbdd261bebcb49c46b6332f6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7efc3658cbdd261bebcb49c46b6332f6">__ImplementClass</a> (<a class="el" href="class_i_o_1_1_archive_base.html">IO::ArchiveBase</a>, 'ARCB', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:a1a80d2cf18c48cbcb636002081153249" id="r_a1a80d2cf18c48cbcb636002081153249"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1a80d2cf18c48cbcb636002081153249">__ImplementClass</a> (<a class="el" href="class_i_o_1_1_archive_file_system_base.html">IO::ArchiveFileSystemBase</a>, 'AFSB', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:aec15e0196ad8892c5b562dc8fe623cc8" id="r_aec15e0196ad8892c5b562dc8fe623cc8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aec15e0196ad8892c5b562dc8fe623cc8">__ImplementInterfaceSingleton</a> (<a class="el" href="class_i_o_1_1_archive_file_system_base.html">IO::ArchiveFileSystemBase</a>)</td></tr>
@@ -3133,6 +3137,120 @@ template&lt;&gt; </div>
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a479543a679a02f5185957c946e30f42e" name="a479543a679a02f5185957c946e30f42e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479543a679a02f5185957c946e30f42e">&#9670;&#160;</a></span>Log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::Log </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>logGroup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11fd6372b9b68b459e2f423d95fe3cb9" name="a11fd6372b9b68b459e2f423d95fe3cb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11fd6372b9b68b459e2f423d95fe3cb9">&#9670;&#160;</a></span>LogError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void void void IO::LogError </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>logGroup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc87bac529ca1319b0830a2db127890b" name="abc87bac529ca1319b0830a2db127890b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc87bac529ca1319b0830a2db127890b">&#9670;&#160;</a></span>LogSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void void void void IO::LogSource </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>logGroup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c722915428e3fd4aba8ce70c1ee6c10" name="a7c722915428e3fd4aba8ce70c1ee6c10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c722915428e3fd4aba8ce70c1ee6c10">&#9670;&#160;</a></span>LogWarning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void void IO::LogWarning </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>logGroup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29":[8,0,65,16,1],
+"class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29":[9,0,58,16,1],
+"class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29a1c732e2e36b6e03f4f730de32a794b89":[8,0,65,16,1,1],
+"class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29a1c732e2e36b6e03f4f730de32a794b89":[9,0,58,16,1,1],
 "class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29abec83cc05215008d575f0ca4e0ebad49":[8,0,65,16,1,0],
 "class_posix_1_1_posix_socket.html#a3a1c24366d411b9a4a17c50678dcbd29abec83cc05215008d575f0ca4e0ebad49":[9,0,58,16,1,0],
 "class_posix_1_1_posix_socket.html#a3a9f0ad6137d601f69e778468d517de2":[8,0,65,16,47],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "class_posix_1_1_posix_thread.html#ab1454abc64b31cc7368b8353b4c9b346":[8,0,65,18,14],
 "class_posix_1_1_posix_thread.html#ab1454abc64b31cc7368b8353b4c9b346":[9,0,58,18,14],
 "class_posix_1_1_posix_thread.html#ab47ca503f2164f50f47a31a98cd2f77c":[8,0,65,18,3],
-"class_posix_1_1_posix_thread.html#ab47ca503f2164f50f47a31a98cd2f77c":[9,0,58,18,3],
-"class_posix_1_1_posix_thread.html#ab85674836df6cec08c6f622368eade5e":[8,0,65,18,15],
-"class_posix_1_1_posix_thread.html#ab85674836df6cec08c6f622368eade5e":[9,0,58,18,15],
-"class_posix_1_1_posix_thread.html#abdc7127d20e4a2b0af15bd6ce20842b3":[8,0,65,18,9],
-"class_posix_1_1_posix_thread.html#abdc7127d20e4a2b0af15bd6ce20842b3":[9,0,58,18,9]
+"class_posix_1_1_posix_thread.html#ab47ca503f2164f50f47a31a98cd2f77c":[9,0,58,18,3]
 };

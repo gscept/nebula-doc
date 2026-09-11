@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"class_util_1_1_bvh.html#a2c794a4993d8b75fbe6658495654872a":[8,0,84,10,12],
+"class_util_1_1_bvh.html#a2c794a4993d8b75fbe6658495654872a":[9,0,72,10,12],
+"class_util_1_1_bvh.html#a5992f66c1c7ef58e4860ccf45af43360":[8,0,84,10,11],
+"class_util_1_1_bvh.html#a5992f66c1c7ef58e4860ccf45af43360":[9,0,72,10,11],
 "class_util_1_1_bvh.html#a7121ba4fbb936e6f2481a2ed52631a44":[8,0,84,10,6],
 "class_util_1_1_bvh.html#a7121ba4fbb936e6f2481a2ed52631a44":[9,0,72,10,6],
 "class_util_1_1_bvh.html#a8488e75ce35c0c070eeb9ab4b7014262":[8,0,84,10,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "class_util_1_1_dictionary.html#a3c7f9a52398ab278026d73ee919553b5":[8,0,84,16,19],
 "class_util_1_1_dictionary.html#a3c7f9a52398ab278026d73ee919553b5":[9,0,72,16,19],
 "class_util_1_1_dictionary.html#a43cc468d61beab0baf62217848021ec2":[8,0,84,16,23],
-"class_util_1_1_dictionary.html#a43cc468d61beab0baf62217848021ec2":[9,0,72,16,23],
-"class_util_1_1_dictionary.html#a47eb49b99c6c6e327f4e274899f23dec":[8,0,84,16,2],
-"class_util_1_1_dictionary.html#a47eb49b99c6c6e327f4e274899f23dec":[9,0,72,16,2],
-"class_util_1_1_dictionary.html#a4875c521fa5a268e3bff34d8054859ac":[8,0,84,16,35],
-"class_util_1_1_dictionary.html#a4875c521fa5a268e3bff34d8054859ac":[9,0,72,16,35]
+"class_util_1_1_dictionary.html#a43cc468d61beab0baf62217848021ec2":[9,0,72,16,23]
 };

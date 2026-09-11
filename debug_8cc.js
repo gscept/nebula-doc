@@ -1,5 +1,9 @@
 var debug_8cc =
 [
+    [ "IO::Log", "namespace_i_o.html#a479543a679a02f5185957c946e30f42e", null ],
+    [ "IO::LogError", "namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9", null ],
+    [ "IO::LogSource", "namespace_i_o.html#abc87bac529ca1319b0830a2db127890b", null ],
+    [ "IO::LogWarning", "namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10", null ],
     [ "n_barf", "debug_8cc.html#a141a383b14e4ad1a22c44e2b53de3e6c", null ],
     [ "n_barf2", "debug_8cc.html#a8289d6af0d5e6fa330eeee132ae740c0", null ],
     [ "n_barf_fmt", "debug_8cc.html#a17229353ad597e4ec423d8e94e5b83c6", null ],
