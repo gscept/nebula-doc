@@ -1,5 +1,13 @@
 var NAVTREEINDEX158 =
 {
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#afee59b8cc81d6c5b5b9b3c1252977f38":[9,0,75,7,1,1],
+"struct_vulkan_1_1_instance_setup.html":[8,0,87,8],
+"struct_vulkan_1_1_instance_setup.html":[9,0,75,8],
+"struct_vulkan_1_1_instance_setup.html#a0b7d0f2f7ed2489e33defd7c7cc4ffa0":[8,0,87,8,1],
+"struct_vulkan_1_1_instance_setup.html#a0b7d0f2f7ed2489e33defd7c7cc4ffa0":[9,0,75,8,1],
+"struct_vulkan_1_1_instance_setup.html#a439f8b70a7166d6ab11edc2bcab044a4":[8,0,87,8,0],
+"struct_vulkan_1_1_instance_setup.html#a439f8b70a7166d6ab11edc2bcab044a4":[9,0,75,8,0],
+"struct_vulkan_1_1_pipeline.html":[8,0,87,9],
 "struct_vulkan_1_1_pipeline.html":[9,0,75,9],
 "struct_vulkan_1_1_pipeline.html#a6509a82c32e0780cbba96c7f886e5525":[8,0,87,9,1],
 "struct_vulkan_1_1_pipeline.html#a6509a82c32e0780cbba96c7f886e5525":[9,0,75,9,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html#a37ef06f0233ed0e8b8662128493e6b19":[9,0,75,21,29,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[8,0,87,21,27],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[9,0,75,21,27],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[8,0,87,21,27,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[9,0,75,21,27,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a71ab4a913266917fdbf09ff19030b2e0":[8,0,87,21,27,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a71ab4a913266917fdbf09ff19030b2e0":[9,0,75,21,27,2],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#ae598cc8c5eab2c0c250b9e788244db5b":[8,0,87,21,27,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#ae598cc8c5eab2c0c250b9e788244db5b":[9,0,75,21,27,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_gfx_pipeline_bind_command.html":[8,0,87,21,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_gfx_pipeline_bind_command.html":[9,0,75,21,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_gfx_pipeline_bind_command.html#a2bbf55ce5d86d97cf43506abae12f71d":[8,0,87,21,3,0]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[8,0,87,21,27,0]
 };

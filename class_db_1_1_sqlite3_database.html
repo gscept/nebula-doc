@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9b0750df0841ef991d2d7d0706d9eea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin a transaction on the database  <br /></td></tr>
 <tr class="memitem:a07359d7c9375a4a806fdb0a80d664aac" id="r_a07359d7c9375a4a806fdb0a80d664aac"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a07359d7c9375a4a806fdb0a80d664aac">EndTransaction</a> ()</td></tr>
 <tr class="memdesc:a07359d7c9375a4a806fdb0a80d664aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a transaction on the database  <br /></td></tr>
+<tr class="memitem:a7e7519b0ec03403af43fffc735e3c5df" id="r_a7e7519b0ec03403af43fffc735e3c5df"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a7e7519b0ec03403af43fffc735e3c5df">IsInTransaction</a> () const</td></tr>
+<tr class="memdesc:a7e7519b0ec03403af43fffc735e3c5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if a transaction is currently open  <br /></td></tr>
 <tr class="memitem:ab187ded0834954448e21c10378042d57" id="r_ab187ded0834954448e21c10378042d57"><td class="memItemLeft">sqlite3 *&#160;</td><td class="memItemRight"><a class="el" href="#ab187ded0834954448e21c10378042d57">GetSqliteHandle</a> () const</td></tr>
 <tr class="memdesc:ab187ded0834954448e21c10378042d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the SQLite database handle  <br /></td></tr>
 <tr class="memitem:acc212468a6c443b7be2a448610291608" id="r_acc212468a6c443b7be2a448610291608"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#acc212468a6c443b7be2a448610291608">CopyInMemoryDatabaseToFile</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> &amp;fileUri)</td></tr>
@@ -252,6 +254,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8e7b706012a49e6db7e5e2421e9d2089" id="r_a8e7b706012a49e6db7e5e2421e9d2089"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8e7b706012a49e6db7e5e2421e9d2089">cacheNumPages</a></td></tr>
 <tr class="memitem:a2a11b12ebd9930724a6b81ef147b9835" id="r_a2a11b12ebd9930724a6b81ef147b9835"><td class="memItemLeft"><a class="el" href="#a0980216d73e8851938b7f69be1571118">TempStore</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2a11b12ebd9930724a6b81ef147b9835">tempStore</a></td></tr>
 <tr class="memitem:af7e0b9d900a9f04c3d2a749e42028f8c" id="r_af7e0b9d900a9f04c3d2a749e42028f8c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af7e0b9d900a9f04c3d2a749e42028f8c">syncMode</a></td></tr>
+<tr class="memitem:aa8624e8d41fa69cafed4c5dc6f822af1" id="r_aa8624e8d41fa69cafed4c5dc6f822af1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa8624e8d41fa69cafed4c5dc6f822af1">inTransaction</a></td></tr>
 <tr class="memitem:a0fb735785bfb1059967caba76dac9389" id="r_a0fb735785bfb1059967caba76dac9389"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0fb735785bfb1059967caba76dac9389">busyTimeout</a></td></tr>
 <tr class="memitem:a024f8bc15699fe4ab30782bcca510fc3" id="r_a024f8bc15699fe4ab30782bcca510fc3"><td class="memItemLeft">sqlite3 *&#160;</td><td class="memItemRight"><a class="el" href="#a024f8bc15699fe4ab30782bcca510fc3">sqliteHandle</a></td></tr>
 <tr class="memitem:a485bdcd0619f2cac847ffca9887b2607" id="r_a485bdcd0619f2cac847ffca9887b2607"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_db_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a485bdcd0619f2cac847ffca9887b2607">beginTransactionCmd</a></td></tr>
@@ -694,6 +697,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a7e7519b0ec03403af43fffc735e3c5df" name="a7e7519b0ec03403af43fffc735e3c5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7519b0ec03403af43fffc735e3c5df">&#9670;&#160;</a></span>IsInTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Db::Sqlite3Database::IsInTransaction </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if a transaction is currently open </p>
+
+<p>Reimplemented from <a class="el" href="class_db_1_1_database.html#a9b5503eb33002703e55bf1489df83430">Db::Database</a>.</p>
+
+</div>
+</div>
 <a id="ab95e11b81e9fde9c7597d124770512e0" name="ab95e11b81e9fde9c7597d124770512e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab95e11b81e9fde9c7597d124770512e0">&#9670;&#160;</a></span>Open()</h2>
 
@@ -969,6 +1001,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_db_1_1_command.html">Command</a>&gt; Db::Sqlite3Database::endTransactionCmd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8624e8d41fa69cafed4c5dc6f822af1" name="aa8624e8d41fa69cafed4c5dc6f822af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8624e8d41fa69cafed4c5dc6f822af1">&#9670;&#160;</a></span>inTransaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Db::Sqlite3Database::inTransaction</td>
         </tr>
       </table>
   </td>

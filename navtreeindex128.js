@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#ae5141b4572d0c3c88d047425f722f3cd":[8,0,13,97,0],
+"struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#ae5141b4572d0c3c88d047425f722f3cd":[9,0,12,96,0],
+"struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#aebf56fcd7cbd72e51d3f5bce930e1c1b":[8,0,13,97,2],
+"struct_core_graphics_1_1_resource_pipeline_push_constant_range.html#aebf56fcd7cbd72e51d3f5bce930e1c1b":[9,0,12,96,2],
+"struct_core_graphics_1_1_resource_table_buffer.html":[8,0,13,98],
+"struct_core_graphics_1_1_resource_table_buffer.html":[9,0,12,97],
+"struct_core_graphics_1_1_resource_table_buffer.html#a06bdb9d1f769b8f3a6af20cf74c3e6a7":[8,0,13,98,2],
+"struct_core_graphics_1_1_resource_table_buffer.html#a06bdb9d1f769b8f3a6af20cf74c3e6a7":[9,0,12,97,2],
 "struct_core_graphics_1_1_resource_table_buffer.html#a30be3d428fe14bd7f6fc6c56820b76c0":[8,0,13,98,4],
 "struct_core_graphics_1_1_resource_table_buffer.html#a30be3d428fe14bd7f6fc6c56820b76c0":[9,0,12,97,4],
 "struct_core_graphics_1_1_resource_table_buffer.html#a6ee1d3f98f43cd700810fa2917830e6a":[8,0,13,98,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_second_u_v_vertex.html":[8,0,13,117],
 "struct_core_graphics_1_1_second_u_v_vertex.html":[9,0,12,116],
 "struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[8,0,13,117,0],
-"struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[9,0,12,116,0],
-"struct_core_graphics_1_1_semaphore_create_info.html":[8,0,13,118],
-"struct_core_graphics_1_1_semaphore_create_info.html":[9,0,12,117],
-"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[8,0,13,118,0],
-"struct_core_graphics_1_1_semaphore_create_info.html#a3fac7e7276062945aee1910754cad79f":[9,0,12,117,0],
-"struct_core_graphics_1_1_semaphore_id.html":[8,0,13,119],
-"struct_core_graphics_1_1_semaphore_id.html":[9,0,12,118],
-"struct_core_graphics_1_1_shader_id.html":[8,0,13,121],
-"struct_core_graphics_1_1_shader_id.html":[9,0,12,120]
+"struct_core_graphics_1_1_second_u_v_vertex.html#a65cd1a1d36dadb3bad98978f39d1879f":[9,0,12,116,0]
 };

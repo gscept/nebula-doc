@@ -26,6 +26,7 @@ var class_db_1_1_database =
     [ "GetTableByName", "class_db_1_1_database.html#adc264e29d3c4001e4863beff28f0a177", null ],
     [ "GetURI", "class_db_1_1_database.html#a0ff48de73d2647b9a8b8b330563e67a8", null ],
     [ "HasTable", "class_db_1_1_database.html#a7fe01ce11f40ed41df196d4305bf14c2", null ],
+    [ "IsInTransaction", "class_db_1_1_database.html#a9b5503eb33002703e55bf1489df83430", null ],
     [ "IsOpen", "class_db_1_1_database.html#a66f44f6712bd8a2492467e6b197a3d2e", null ],
     [ "Open", "class_db_1_1_database.html#ada6fb591c3130bc4fbdaedc3e015350f", null ],
     [ "SetAccessMode", "class_db_1_1_database.html#ac8ecbdbfb55b44619e7a72485c104f68", null ],

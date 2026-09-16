@@ -1,5 +1,13 @@
 var NAVTREEINDEX149 =
 {
+"struct_nebula_1_1_vector3.html#a9d9c8f697ace1c7168605237997581dd":[8,0,55,16,73],
+"struct_nebula_1_1_vector3.html#a9d9c8f697ace1c7168605237997581dd":[9,0,50,16,73],
+"struct_nebula_1_1_vector3.html#a9e6ee28caa41d2206c8ac208567b2b5b":[8,0,55,16,74],
+"struct_nebula_1_1_vector3.html#a9e6ee28caa41d2206c8ac208567b2b5b":[9,0,50,16,74],
+"struct_nebula_1_1_vector3.html#a9f5436eaf7ebc6872026ff2e3b897f79":[8,0,55,16,105],
+"struct_nebula_1_1_vector3.html#a9f5436eaf7ebc6872026ff2e3b897f79":[9,0,50,16,105],
+"struct_nebula_1_1_vector3.html#a9f836eae4a5e5986b22d8acd6a4929d1":[8,0,55,16,86],
+"struct_nebula_1_1_vector3.html#a9f836eae4a5e5986b22d8acd6a4929d1":[9,0,50,16,86],
 "struct_nebula_1_1_vector3.html#aa3036854efd267acb1298853caf14890":[8,0,55,16,36],
 "struct_nebula_1_1_vector3.html#aa3036854efd267acb1298853caf14890":[9,0,50,16,36],
 "struct_nebula_1_1_vector3.html#aa3ed3821e99cac81411c3bb72fc50786":[8,0,55,16,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX149 =
 "struct_nebula_1_1_vector4.html#aabc1976d000b452b0a6b15f3a70b94a1":[8,0,55,17,80],
 "struct_nebula_1_1_vector4.html#aabc1976d000b452b0a6b15f3a70b94a1":[9,0,50,17,80],
 "struct_nebula_1_1_vector4.html#ab360d3486975c43ad8e9499632962b01":[8,0,55,17,41],
-"struct_nebula_1_1_vector4.html#ab360d3486975c43ad8e9499632962b01":[9,0,50,17,41],
-"struct_nebula_1_1_vector4.html#ab3c17bb96a5cd789815308af18560f07":[8,0,55,17,57],
-"struct_nebula_1_1_vector4.html#ab3c17bb96a5cd789815308af18560f07":[9,0,50,17,57],
-"struct_nebula_1_1_vector4.html#ab6086d345140baf9b163d6b658f06b21":[8,0,55,17,100],
-"struct_nebula_1_1_vector4.html#ab6086d345140baf9b163d6b658f06b21":[9,0,50,17,100],
-"struct_nebula_1_1_vector4.html#aba9762538d84d9e4e260c91a46695f2f":[8,0,55,17,55],
-"struct_nebula_1_1_vector4.html#aba9762538d84d9e4e260c91a46695f2f":[9,0,50,17,55],
-"struct_nebula_1_1_vector4.html#aca3725061f2e67390f671d65b84a8333":[8,0,55,17,101],
-"struct_nebula_1_1_vector4.html#aca3725061f2e67390f671d65b84a8333":[9,0,50,17,101]
+"struct_nebula_1_1_vector4.html#ab360d3486975c43ad8e9499632962b01":[9,0,50,17,41]
 };

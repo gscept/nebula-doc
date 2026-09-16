@@ -1,5 +1,13 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_animation_1_1_nax3_clip.html#ac1b8b724a1297c2dd4add881bbf5d71b":[8,0,12,20,4],
+"struct_core_animation_1_1_nax3_clip.html#ac1b8b724a1297c2dd4add881bbf5d71b":[9,0,11,20,4],
+"struct_core_animation_1_1_nax3_clip.html#ac6649810b64656f6b879b589125bf4e8":[8,0,12,20,2],
+"struct_core_animation_1_1_nax3_clip.html#ac6649810b64656f6b879b589125bf4e8":[9,0,11,20,2],
+"struct_core_animation_1_1_nax3_clip.html#af5d2be2142970fee1fbe0e39fba41a76":[8,0,12,20,5],
+"struct_core_animation_1_1_nax3_clip.html#af5d2be2142970fee1fbe0e39fba41a76":[9,0,11,20,5],
+"struct_core_animation_1_1_nax3_curve.html":[8,0,12,21],
+"struct_core_animation_1_1_nax3_curve.html":[9,0,11,21],
 "struct_core_animation_1_1_nax3_curve.html#a2ab495607a99e2019a62c0bbab0f3f62":[8,0,12,21,2],
 "struct_core_animation_1_1_nax3_curve.html#a2ab495607a99e2019a62c0bbab0f3f62":[9,0,11,21,2],
 "struct_core_animation_1_1_nax3_curve.html#a3e4c09460550f3c22a65abd7740b749d":[8,0,12,21,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_buffer_create_info.html#a2be9b732d74371093f49af07dce2cd6b":[8,0,13,22,9],
 "struct_core_graphics_1_1_buffer_create_info.html#a2be9b732d74371093f49af07dce2cd6b":[9,0,12,21,9],
 "struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[8,0,13,22,7],
-"struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[9,0,12,21,7],
-"struct_core_graphics_1_1_buffer_create_info.html#a6ad1cf8820339bcabb4298cbb6574f90":[8,0,13,22,3],
-"struct_core_graphics_1_1_buffer_create_info.html#a6ad1cf8820339bcabb4298cbb6574f90":[9,0,12,21,3],
-"struct_core_graphics_1_1_buffer_create_info.html#a71d08901148a70d9cc580447a26ab9ec":[8,0,13,22,4],
-"struct_core_graphics_1_1_buffer_create_info.html#a71d08901148a70d9cc580447a26ab9ec":[9,0,12,21,4],
-"struct_core_graphics_1_1_buffer_create_info.html#a76799253d8ffac689a7fbfe58d168de7":[8,0,13,22,1],
-"struct_core_graphics_1_1_buffer_create_info.html#a76799253d8ffac689a7fbfe58d168de7":[9,0,12,21,1],
-"struct_core_graphics_1_1_buffer_create_info.html#a9213fa2e16977526108e92d70d193f71":[8,0,13,22,10],
-"struct_core_graphics_1_1_buffer_create_info.html#a9213fa2e16977526108e92d70d193f71":[9,0,12,21,10]
+"struct_core_graphics_1_1_buffer_create_info.html#a4c9898aaf86859cdb146a75070d77ae8":[9,0,12,21,7]
 };

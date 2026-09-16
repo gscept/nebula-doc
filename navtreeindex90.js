@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"class_util_1_1_variant.html#affd70bcf06afdab646ddcbdbefcf7aee":[8,0,84,54,111],
+"class_util_1_1_variant.html#affd70bcf06afdab646ddcbdbefcf7aee":[9,0,72,54,111],
+"class_vegetation_1_1_vegetation_context.html":[8,0,85,3],
+"class_vegetation_1_1_vegetation_context.html":[9,0,73,3],
+"class_vegetation_1_1_vegetation_context.html#a1659a3cf6a1d5059c9c347cf6c57b869":[8,0,85,3,9],
+"class_vegetation_1_1_vegetation_context.html#a1659a3cf6a1d5059c9c347cf6c57b869":[9,0,73,3,9],
+"class_vegetation_1_1_vegetation_context.html#a17e5a2581cb1a80a33cda44d0a79e7dd":[8,0,85,3,2],
+"class_vegetation_1_1_vegetation_context.html#a17e5a2581cb1a80a33cda44d0a79e7dd":[9,0,73,3,2],
 "class_vegetation_1_1_vegetation_context.html#a2d117c8baee0b7ed5652c2164578d670":[8,0,85,3,5],
 "class_vegetation_1_1_vegetation_context.html#a2d117c8baee0b7ed5652c2164578d670":[9,0,73,3,5],
 "class_vegetation_1_1_vegetation_context.html#a4a61a5e5f529159be2f3950d5f8e87d0":[8,0,85,3,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "class_vulkan_1_1_vk_instance_renderer.html":[8,0,87,27],
 "class_vulkan_1_1_vk_instance_renderer.html":[9,0,75,27],
 "class_vulkan_1_1_vk_instance_renderer.html#a0445423fc21c00ff53fe3cd349ef4637":[8,0,87,27,2],
-"class_vulkan_1_1_vk_instance_renderer.html#a0445423fc21c00ff53fe3cd349ef4637":[9,0,75,27,2],
-"class_vulkan_1_1_vk_instance_renderer.html#a11cdcf7704bb33f3b82f3a9255fcf74d":[8,0,87,27,4],
-"class_vulkan_1_1_vk_instance_renderer.html#a11cdcf7704bb33f3b82f3a9255fcf74d":[9,0,75,27,4],
-"class_vulkan_1_1_vk_instance_renderer.html#a20f646fd7704e240155782311ee0b764":[8,0,87,27,7],
-"class_vulkan_1_1_vk_instance_renderer.html#a20f646fd7704e240155782311ee0b764":[9,0,75,27,7],
-"class_vulkan_1_1_vk_instance_renderer.html#a22cb5522aa719167a65e1624a10d87a7":[8,0,87,27,13],
-"class_vulkan_1_1_vk_instance_renderer.html#a22cb5522aa719167a65e1624a10d87a7":[9,0,75,27,13],
-"class_vulkan_1_1_vk_instance_renderer.html#a465f9101f833e86d74f90e17f0c2caee":[8,0,87,27,8],
-"class_vulkan_1_1_vk_instance_renderer.html#a465f9101f833e86d74f90e17f0c2caee":[9,0,75,27,8]
+"class_vulkan_1_1_vk_instance_renderer.html#a0445423fc21c00ff53fe3cd349ef4637":[9,0,75,27,2]
 };

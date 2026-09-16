@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a19fe55f3b3141ca8065986313098d4e5":[9,0,50,0,8,9],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a1b4da1aff9badf1fa80dc523964332a5":[8,0,55,0,8,7],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a1b4da1aff9badf1fa80dc523964332a5":[9,0,50,0,8,7],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a234eb6aecc96f145b90633e93f52b570":[8,0,55,0,8,14],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a234eb6aecc96f145b90633e93f52b570":[9,0,50,0,8,14],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a312908939aafd1c6b6b64b70b0b068c0":[8,0,55,0,8,10],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a312908939aafd1c6b6b64b70b0b068c0":[9,0,50,0,8,10],
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a3b11af328d175cfe8030f73a57953255":[8,0,55,0,8,1],
 "class_nebula_1_1_game_1_1_nebula_api_v1.html#a3b11af328d175cfe8030f73a57953255":[9,0,50,0,8,1],
 "class_nebula_1_1_game_1_1_nebula_api_v1.html#a54dca603c04665108e303e6502b0f2cf":[8,0,55,0,8,5],
 "class_nebula_1_1_game_1_1_nebula_api_v1.html#a54dca603c04665108e303e6502b0f2cf":[9,0,50,0,8,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "class_net_1_1_debug_message.html#ab3bd3999cbe57317b7c461fb03aadee9":[9,0,52,0,2],
 "class_net_1_1_debug_message.html#aec307a565ab7b7e17af855cc9bca30b0":[8,0,57,0,1],
 "class_net_1_1_debug_message.html#aec307a565ab7b7e17af855cc9bca30b0":[9,0,52,0,1],
-"class_net_1_1_debug_message.html#aeda02a05be047b60878a8ab71c5334a4":[8,0,57,0,4],
-"class_net_1_1_debug_message.html#aeda02a05be047b60878a8ab71c5334a4":[9,0,52,0,4],
-"class_net_1_1_debug_packet.html":[8,0,57,1],
-"class_net_1_1_debug_packet.html":[9,0,52,1],
-"class_net_1_1_debug_packet.html#a07478d5af0424b6f3de73ff9276397aa":[8,0,57,1,8],
-"class_net_1_1_debug_packet.html#a07478d5af0424b6f3de73ff9276397aa":[9,0,52,1,8],
-"class_net_1_1_debug_packet.html#a0e7087c45f1319a6d99bba59e52a6696":[8,0,57,1,2],
-"class_net_1_1_debug_packet.html#a0e7087c45f1319a6d99bba59e52a6696":[9,0,52,1,2],
-"class_net_1_1_debug_packet.html#a0f71a1a6ee496dde854ca0ca4c466194":[8,0,57,1,9]
+"class_net_1_1_debug_message.html#aeda02a05be047b60878a8ab71c5334a4":[8,0,57,0,4]
 };

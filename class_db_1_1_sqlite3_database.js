@@ -18,6 +18,7 @@ var class_db_1_1_sqlite3_database =
     [ "GetSqliteHandle", "class_db_1_1_sqlite3_database.html#ab187ded0834954448e21c10378042d57", null ],
     [ "GetSynchronousMode", "class_db_1_1_sqlite3_database.html#a69d41a64641610f900eeaa4a7e4ac185", null ],
     [ "GetTempStore", "class_db_1_1_sqlite3_database.html#acd8048080bf407410243457f40d96513", null ],
+    [ "IsInTransaction", "class_db_1_1_sqlite3_database.html#a7e7519b0ec03403af43fffc735e3c5df", null ],
     [ "Open", "class_db_1_1_sqlite3_database.html#ab95e11b81e9fde9c7597d124770512e0", null ],
     [ "ReadTableLayouts", "class_db_1_1_sqlite3_database.html#a9fea4352663b7b779546185482102444", null ],
     [ "RegisterAttributes", "class_db_1_1_sqlite3_database.html#a7144ae4c0c4501128e52ead34ee1db11", null ],
@@ -29,6 +30,7 @@ var class_db_1_1_sqlite3_database =
     [ "busyTimeout", "class_db_1_1_sqlite3_database.html#a0fb735785bfb1059967caba76dac9389", null ],
     [ "cacheNumPages", "class_db_1_1_sqlite3_database.html#a8e7b706012a49e6db7e5e2421e9d2089", null ],
     [ "endTransactionCmd", "class_db_1_1_sqlite3_database.html#a21e758b924e3a293de22b9d6cfc88037", null ],
+    [ "inTransaction", "class_db_1_1_sqlite3_database.html#aa8624e8d41fa69cafed4c5dc6f822af1", null ],
     [ "sqliteHandle", "class_db_1_1_sqlite3_database.html#a024f8bc15699fe4ab30782bcca510fc3", null ],
     [ "syncMode", "class_db_1_1_sqlite3_database.html#af7e0b9d900a9f04c3d2a749e42028f8c", null ],
     [ "tempStore", "class_db_1_1_sqlite3_database.html#a2a11b12ebd9930724a6b81ef147b9835", null ]

@@ -1,5 +1,13 @@
 var NAVTREEINDEX155 =
 {
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a1c2c02d24f0701b5ca5877389fb611c8":[9,0,70,19,1,1],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a7e5d6180e0f5a728625dc01552dd37a5":[8,0,80,19,1,2],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a7e5d6180e0f5a728625dc01552dd37a5":[9,0,70,19,1,2],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a88568e30512fce5214f69c1841254339":[8,0,80,19,1,3],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#a88568e30512fce5214f69c1841254339":[9,0,70,19,1,3],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#af7c85a8a324d5bcc3dfa3a7bd65f0309":[8,0,80,19,1,0],
+"struct_terrain_1_1_texture_tile_cache_1_1_node.html#af7c85a8a324d5bcc3dfa3a7bd65f0309":[9,0,70,19,1,0],
+"struct_terrain_1_1_tile_cache_entry.html":[8,0,80,20],
 "struct_terrain_1_1_tile_cache_entry.html":[9,0,70,20],
 "struct_terrain_1_1_tile_cache_entry.html#a0806ce14ad729a6ee2a8d97ab28e603b":[8,0,80,20,4],
 "struct_terrain_1_1_tile_cache_entry.html#a0806ce14ad729a6ee2a8d97ab28e603b":[9,0,70,20,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX155 =
 "struct_util_1_1_bit_field_1_1_bit_type.html#a18a002e82d34e354b2b2032ee50a4681":[9,0,72,8,0,0],
 "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html":[8,0,84,8,1],
 "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html":[9,0,72,8,1],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html#a2ad092058613cfe01e29d41cfce05709":[8,0,84,8,1,0],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html#a2ad092058613cfe01e29d41cfce05709":[9,0,72,8,1,0],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html":[8,0,84,8,2],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html":[9,0,72,8,2],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html#a0b51f25be8357e7f13385e741fd07a5d":[8,0,84,8,2,0],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0132_01_4.html#a0b51f25be8357e7f13385e741fd07a5d":[9,0,72,8,2,0],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html":[8,0,84,8,3],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html":[9,0,72,8,3],
-"struct_util_1_1_bit_field_1_1_bit_type_3_0164_01_4.html#a542c600ce8eb0a38b0fad0bd10e7124c":[8,0,84,8,3,0]
+"struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html#a2ad092058613cfe01e29d41cfce05709":[8,0,84,8,1,0]
 };

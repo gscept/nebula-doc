@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"class_win32_1_1_win32_f_s_wrapper.html#a509a6fe0c9d3332c5a597e2afc797c0f":[8,0,88,10,7],
+"class_win32_1_1_win32_f_s_wrapper.html#a509a6fe0c9d3332c5a597e2afc797c0f":[9,0,76,10,7],
+"class_win32_1_1_win32_f_s_wrapper.html#a59e3ed91591ec2aedceaf0ebc55255ea":[8,0,88,10,2],
+"class_win32_1_1_win32_f_s_wrapper.html#a59e3ed91591ec2aedceaf0ebc55255ea":[9,0,76,10,2],
+"class_win32_1_1_win32_f_s_wrapper.html#a5dc7d1276190b9d2fd75ecd56c11ff41":[8,0,88,10,8],
+"class_win32_1_1_win32_f_s_wrapper.html#a5dc7d1276190b9d2fd75ecd56c11ff41":[9,0,76,10,8],
+"class_win32_1_1_win32_f_s_wrapper.html#a62eb05d50f8d88b1c9cbf0028ac56769":[8,0,88,10,26],
+"class_win32_1_1_win32_f_s_wrapper.html#a62eb05d50f8d88b1c9cbf0028ac56769":[9,0,76,10,26],
 "class_win32_1_1_win32_f_s_wrapper.html#a64792329705feb9ef3ac9203d8d56300":[8,0,88,10,19],
 "class_win32_1_1_win32_f_s_wrapper.html#a64792329705feb9ef3ac9203d8d56300":[9,0,76,10,19],
 "class_win32_1_1_win32_f_s_wrapper.html#a65745e2470667ae925c19cba1d1b4e15":[8,0,88,10,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "class_win32_1_1_win32_memory_pool.html#acb1e31ef169f6b8b8b4fb478e3b9dc84":[9,0,76,15,9],
 "class_win32_1_1_win32_memory_pool.html#acc2d90dbfdc5de348255dbfd0ef998d9":[8,0,88,15,14],
 "class_win32_1_1_win32_memory_pool.html#acc2d90dbfdc5de348255dbfd0ef998d9":[9,0,76,15,14],
-"class_win32_1_1_win32_memory_pool.html#ad5ec3a3583d31bb7280da82f7e220bf5":[8,0,88,15,7],
-"class_win32_1_1_win32_memory_pool.html#ad5ec3a3583d31bb7280da82f7e220bf5":[9,0,76,15,7],
-"class_win32_1_1_win32_memory_pool.html#ada69f2de7e430b1d39163d82c2ebbc76":[8,0,88,15,8],
-"class_win32_1_1_win32_memory_pool.html#ada69f2de7e430b1d39163d82c2ebbc76":[9,0,76,15,8],
-"class_win32_1_1_win32_mini_dump.html":[8,0,88,16],
-"class_win32_1_1_win32_mini_dump.html":[9,0,76,16],
-"class_win32_1_1_win32_mini_dump.html#a13cd56a0a80d061632eb2c18e41ab135":[8,0,88,16,4],
-"class_win32_1_1_win32_mini_dump.html#a13cd56a0a80d061632eb2c18e41ab135":[9,0,76,16,4],
-"class_win32_1_1_win32_mini_dump.html#a8177a4b38c7971428b8de1a909b1ea95":[8,0,88,16,2]
+"class_win32_1_1_win32_memory_pool.html#ad5ec3a3583d31bb7280da82f7e220bf5":[8,0,88,15,7]
 };
