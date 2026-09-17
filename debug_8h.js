@@ -1,14 +1,14 @@
 var debug_8h =
 [
-    [ "LOG", "debug_8h.html#a0c70e9903881ebe9ded10e207e657edb", null ],
-    [ "LOG_ERR", "debug_8h.html#abdef21df539ec94e7301aac5d477bac1", null ],
-    [ "LOG_SOURCE", "debug_8h.html#ade4ee3bb964a24788b9a0d22fbd896e8", null ],
-    [ "LOG_WARN", "debug_8h.html#a8e1bd95f068b269a7370de1ddbace976", null ],
     [ "n_assert", "debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042", null ],
     [ "n_assert2", "debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa", null ],
     [ "n_assert_fmt", "debug_8h.html#a4718e551050d6ae890018bcfc2fe6aaf", null ],
     [ "n_assert_msg", "debug_8h.html#ac4647ddcd9386fd7377c83c9ce4d0e36", null ],
     [ "n_crash", "debug_8h.html#a85120895df29b333216418d9a258b476", null ],
+    [ "n_log", "debug_8h.html#af5f437fccc6ae93403b61008e0961992", null ],
+    [ "n_log_err", "debug_8h.html#a95b299bca9ca2059dea5ed93d9d51edf", null ],
+    [ "n_log_source", "debug_8h.html#aa529316c347569505a6b0d06e4023530", null ],
+    [ "n_log_warn", "debug_8h.html#a73b212a2a834905834c47959429980b4", null ],
     [ "n_message", "debug_8h.html#ade416bb3a573df6088951433c738bb83", null ],
     [ "n_static_assert", "debug_8h.html#a55052fa5373831ff2e001b9a0bf97b9f", null ],
     [ "n_warn", "debug_8h.html#a8f2561213bd73c61dc29f938b1eddcb6", null ],

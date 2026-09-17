@@ -140,10 +140,10 @@ Macros</h2></td></tr>
 <tr class="memitem:aefd229c50d6344b032d0d61907224070" id="r_aefd229c50d6344b032d0d61907224070"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aefd229c50d6344b032d0d61907224070">n_warn_fmt</a>(exp,  msg, ...)</td></tr>
 <tr class="memitem:a85120895df29b333216418d9a258b476" id="r_a85120895df29b333216418d9a258b476"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a85120895df29b333216418d9a258b476">n_crash</a>(msg)</td></tr>
 <tr class="memitem:a55052fa5373831ff2e001b9a0bf97b9f" id="r_a55052fa5373831ff2e001b9a0bf97b9f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a55052fa5373831ff2e001b9a0bf97b9f">n_static_assert</a>(exp)</td></tr>
-<tr class="memitem:a0c70e9903881ebe9ded10e207e657edb" id="r_a0c70e9903881ebe9ded10e207e657edb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0c70e9903881ebe9ded10e207e657edb">LOG</a>(group,  fmt, ...)</td></tr>
-<tr class="memitem:a8e1bd95f068b269a7370de1ddbace976" id="r_a8e1bd95f068b269a7370de1ddbace976"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a8e1bd95f068b269a7370de1ddbace976">LOG_WARN</a>(group,  fmt, ...)</td></tr>
-<tr class="memitem:abdef21df539ec94e7301aac5d477bac1" id="r_abdef21df539ec94e7301aac5d477bac1"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#abdef21df539ec94e7301aac5d477bac1">LOG_ERR</a>(group,  fmt, ...)</td></tr>
-<tr class="memitem:ade4ee3bb964a24788b9a0d22fbd896e8" id="r_ade4ee3bb964a24788b9a0d22fbd896e8"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ade4ee3bb964a24788b9a0d22fbd896e8">LOG_SOURCE</a>(group,  fmt, ...)</td></tr>
+<tr class="memitem:af5f437fccc6ae93403b61008e0961992" id="r_af5f437fccc6ae93403b61008e0961992"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#af5f437fccc6ae93403b61008e0961992">n_log</a>(group,  fmt, ...)</td></tr>
+<tr class="memitem:a73b212a2a834905834c47959429980b4" id="r_a73b212a2a834905834c47959429980b4"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a73b212a2a834905834c47959429980b4">n_log_warn</a>(group,  fmt, ...)</td></tr>
+<tr class="memitem:a95b299bca9ca2059dea5ed93d9d51edf" id="r_a95b299bca9ca2059dea5ed93d9d51edf"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a95b299bca9ca2059dea5ed93d9d51edf">n_log_err</a>(group,  fmt, ...)</td></tr>
+<tr class="memitem:aa529316c347569505a6b0d06e4023530" id="r_aa529316c347569505a6b0d06e4023530"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa529316c347569505a6b0d06e4023530">n_log_source</a>(group,  fmt, ...)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -171,118 +171,6 @@ Functions</h2></td></tr>
 <tr class="memitem:abc87bac529ca1319b0830a2db127890b" id="r_abc87bac529ca1319b0830a2db127890b"><td class="memItemLeft">void __cdecl&#160;</td><td class="memItemRight"><a class="el" href="namespace_i_o.html#abc87bac529ca1319b0830a2db127890b">IO::LogSource</a> (const char *logGroup, const char *file, const int line, const char *fmt,...)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a0c70e9903881ebe9ded10e207e657edb" name="a0c70e9903881ebe9ded10e207e657edb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c70e9903881ebe9ded10e207e657edb">&#9670;&#160;</a></span>LOG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a479543a679a02f5185957c946e30f42e">IO::Log</a>(#group, fmt, __VA_ARGS__)</div>
-<div class="ttc" id="anamespace_i_o_html_a479543a679a02f5185957c946e30f42e"><div class="ttname"><a href="namespace_i_o.html#a479543a679a02f5185957c946e30f42e">IO::Log</a></div><div class="ttdeci">void __cdecl Log(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:261</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="abdef21df539ec94e7301aac5d477bac1" name="abdef21df539ec94e7301aac5d477bac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdef21df539ec94e7301aac5d477bac1">&#9670;&#160;</a></span>LOG_ERR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_ERR</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9">IO::LogError</a>(#group, fmt, __VA_ARGS__)</div>
-<div class="ttc" id="anamespace_i_o_html_a11fd6372b9b68b459e2f423d95fe3cb9"><div class="ttname"><a href="namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9">IO::LogError</a></div><div class="ttdeci">void __cdecl LogError(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:292</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ade4ee3bb964a24788b9a0d22fbd896e8" name="ade4ee3bb964a24788b9a0d22fbd896e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade4ee3bb964a24788b9a0d22fbd896e8">&#9670;&#160;</a></span>LOG_SOURCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_SOURCE</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#abc87bac529ca1319b0830a2db127890b">IO::LogSource</a>(#group, __FILE__, __LINE__, fmt, __VA_ARGS__)</div>
-<div class="ttc" id="anamespace_i_o_html_abc87bac529ca1319b0830a2db127890b"><div class="ttname"><a href="namespace_i_o.html#abc87bac529ca1319b0830a2db127890b">IO::LogSource</a></div><div class="ttdeci">void __cdecl LogSource(const char *logGroup, const char *file, const int line, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:307</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8e1bd95f068b269a7370de1ddbace976" name="a8e1bd95f068b269a7370de1ddbace976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e1bd95f068b269a7370de1ddbace976">&#9670;&#160;</a></span>LOG_WARN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_WARN</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10">IO::LogWarning</a>(#group, fmt, __VA_ARGS__)</div>
-<div class="ttc" id="anamespace_i_o_html_a7c722915428e3fd4aba8ce70c1ee6c10"><div class="ttname"><a href="namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10">IO::LogWarning</a></div><div class="ttdeci">void __cdecl LogWarning(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:277</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="af07fc1acd3d67e0bcafa5ef5bcba4042" name="af07fc1acd3d67e0bcafa5ef5bcba4042"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af07fc1acd3d67e0bcafa5ef5bcba4042">&#9670;&#160;</a></span>n_assert</h2>
 
@@ -392,6 +280,118 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ <a class="code hl_function" href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a>(<span class="stringliteral">&quot;*** NEBULA CRASH ***\n%s(%d)\nmessage: %s\n&quot;</span>, __FILE__, __LINE__, msg); }</div>
 <div class="ttc" id="adebug_8cc_html_a83e91a4134b9809e0890140c63387824"><div class="ttname"><a href="debug_8cc.html#a83e91a4134b9809e0890140c63387824">n_error</a></div><div class="ttdeci">void __cdecl n_error(const char *msg,...)</div><div class="ttdoc">This function is called when a serious situation is encountered which requires abortion of the applic...</div><div class="ttdef"><b>Definition</b> debug.cc:138</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af5f437fccc6ae93403b61008e0961992" name="af5f437fccc6ae93403b61008e0961992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f437fccc6ae93403b61008e0961992">&#9670;&#160;</a></span>n_log</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define n_log</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a479543a679a02f5185957c946e30f42e">IO::Log</a>(#group, fmt, __VA_ARGS__)</div>
+<div class="ttc" id="anamespace_i_o_html_a479543a679a02f5185957c946e30f42e"><div class="ttname"><a href="namespace_i_o.html#a479543a679a02f5185957c946e30f42e">IO::Log</a></div><div class="ttdeci">void __cdecl Log(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:261</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a95b299bca9ca2059dea5ed93d9d51edf" name="a95b299bca9ca2059dea5ed93d9d51edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b299bca9ca2059dea5ed93d9d51edf">&#9670;&#160;</a></span>n_log_err</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define n_log_err</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9">IO::LogError</a>(#group, fmt, __VA_ARGS__)</div>
+<div class="ttc" id="anamespace_i_o_html_a11fd6372b9b68b459e2f423d95fe3cb9"><div class="ttname"><a href="namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9">IO::LogError</a></div><div class="ttdeci">void __cdecl LogError(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:292</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa529316c347569505a6b0d06e4023530" name="aa529316c347569505a6b0d06e4023530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa529316c347569505a6b0d06e4023530">&#9670;&#160;</a></span>n_log_source</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define n_log_source</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#abc87bac529ca1319b0830a2db127890b">IO::LogSource</a>(#group, __FILE__, __LINE__, fmt, __VA_ARGS__)</div>
+<div class="ttc" id="anamespace_i_o_html_abc87bac529ca1319b0830a2db127890b"><div class="ttname"><a href="namespace_i_o.html#abc87bac529ca1319b0830a2db127890b">IO::LogSource</a></div><div class="ttdeci">void __cdecl LogSource(const char *logGroup, const char *file, const int line, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:307</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a73b212a2a834905834c47959429980b4" name="a73b212a2a834905834c47959429980b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b212a2a834905834c47959429980b4">&#9670;&#160;</a></span>n_log_warn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define n_log_warn</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10">IO::LogWarning</a>(#group, fmt, __VA_ARGS__)</div>
+<div class="ttc" id="anamespace_i_o_html_a7c722915428e3fd4aba8ce70c1ee6c10"><div class="ttname"><a href="namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10">IO::LogWarning</a></div><div class="ttdeci">void __cdecl LogWarning(const char *logGroup, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> debug.cc:277</div></div>
 </div><!-- fragment -->
 </div>
 </div>
