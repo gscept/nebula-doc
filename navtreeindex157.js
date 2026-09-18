@@ -1,5 +1,11 @@
 var NAVTREEINDEX157 =
 {
+"struct_visibility_1_1_visibility_system_1_1_entity.html#a77e18b643e391353ac0a7303575062e6":[9,0,74,13,1,5],
+"struct_visibility_1_1_visibility_system_1_1_entity.html#aeae7282d8efa71c41942dc1ea00936a4":[8,0,86,13,1,1],
+"struct_visibility_1_1_visibility_system_1_1_entity.html#aeae7282d8efa71c41942dc1ea00936a4":[9,0,74,13,1,1],
+"struct_visibility_1_1_visibility_system_1_1_observer.html":[8,0,86,13,0],
+"struct_visibility_1_1_visibility_system_1_1_observer.html":[9,0,74,13,0],
+"struct_visibility_1_1_visibility_system_1_1_observer.html#a0590f25cfe5f33b1a7a0261300da7a53":[8,0,86,13,0,0],
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a0590f25cfe5f33b1a7a0261300da7a53":[9,0,74,13,0,0],
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a0e0ce43448f9afdf64222ce85a3a8d72":[8,0,86,13,0,2],
 "struct_visibility_1_1_visibility_system_1_1_observer.html#a0e0ce43448f9afdf64222ce85a3a8d72":[9,0,74,13,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX157 =
 "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html#a6475ab6be8f37078d841d1d5702e8419":[9,0,75,7,2,1],
 "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html#adf1e8fef521d611831e4a063537e764e":[8,0,87,7,2,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html#adf1e8fef521d611831e4a063537e764e":[9,0,75,7,2,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html":[8,0,87,7,1],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html":[9,0,75,7,1],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#a8976687c65d1283d72d6e88002974556":[8,0,87,7,1,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#a8976687c65d1283d72d6e88002974556":[9,0,75,7,1,0],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#ac02388816c746701d62b2fdaa987f785":[8,0,87,7,1,2],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#ac02388816c746701d62b2fdaa987f785":[9,0,75,7,1,2],
-"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#afee59b8cc81d6c5b5b9b3c1252977f38":[8,0,87,7,1,1]
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html":[8,0,87,7,1]
 };

@@ -6,6 +6,7 @@ var struct_dynui_1_1_imgui_texture_id =
     [ "layer", "struct_dynui_1_1_imgui_texture_id.html#ab9f6f7a59878a35196c6af88e4a13def", null ],
     [ "mip", "struct_dynui_1_1_imgui_texture_id.html#a267fdf8585025cacec6f3839180a5819", null ],
     [ "nebulaHandle", "struct_dynui_1_1_imgui_texture_id.html#a00609101daa66eb8efff3fb7e087c37b", null ],
+    [ "pointFilter", "struct_dynui_1_1_imgui_texture_id.html#ab4af8e6325374098cb6d681f391b94eb", null ],
     [ "rangeMax", "struct_dynui_1_1_imgui_texture_id.html#ad17137a1e1cb51221e5926a060bdb15a", null ],
     [ "rangeMin", "struct_dynui_1_1_imgui_texture_id.html#a83609dd396247f92dea5407876104e30", null ],
     [ "red", "struct_dynui_1_1_imgui_texture_id.html#ad8e39c224d0f0140d1f4f221443b28ce", null ],

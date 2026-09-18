@@ -194,6 +194,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9de46ba5f7ea17a9710bff725b4ec41d" id="r_a9de46ba5f7ea17a9710bff725b4ec41d"><td class="memItemLeft"><a class="el" href="class_core_graphics_1_1_shader_feature.html">CoreGraphics::ShaderFeature</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9de46ba5f7ea17a9710bff725b4ec41d">shaderFeature</a></td></tr>
 <tr class="memitem:ae8c913159779b1806834b18376f4f1a7" id="r_ae8c913159779b1806834b18376f4f1a7"><td class="memItemLeft"><a class="el" href="class_core_graphics_1_1_shader_feature.html#ae1e90f29acfde31a95a89f4517a3d897">CoreGraphics::ShaderFeature::Mask</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae8c913159779b1806834b18376f4f1a7">curShaderFeatureBits</a></td></tr>
 <tr class="memitem:aa885f69c2a7450d37522ac600cb22d34" id="r_aa885f69c2a7450d37522ac600cb22d34"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, Resources::ResourceId &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa885f69c2a7450d37522ac600cb22d34">shaders</a></td></tr>
+<tr class="memitem:a117f99e206c454df649e8169354be382" id="r_a117f99e206c454df649e8169354be382"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a>, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a117f99e206c454df649e8169354be382">shaderReloadMap</a></td></tr>
+<tr class="memitem:a68dd33490d7a8b6a1fc0ec51660be4df" id="r_a68dd33490d7a8b6a1fc0ec51660be4df"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a68dd33490d7a8b6a1fc0ec51660be4df">shaderWatchFolders</a></td></tr>
 <tr class="memitem:a195d9f522448ab902d060d3ff203b199" id="r_a195d9f522448ab902d060d3ff203b199"><td class="memItemLeft"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a195d9f522448ab902d060d3ff203b199">pendingShaderReloads</a></td></tr>
 <tr class="memitem:ac978e589a564b90d9691237130bc845b" id="r_ac978e589a564b90d9691237130bc845b"><td class="memItemLeft"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac978e589a564b90d9691237130bc845b">objectIdShaderVar</a></td></tr>
 <tr class="memitem:a8827b84bfba5f7eefde9adc531ee93ed" id="r_a8827b84bfba5f7eefde9adc531ee93ed"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8827b84bfba5f7eefde9adc531ee93ed">isOpen</a></td></tr>
@@ -839,6 +841,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a117f99e206c454df649e8169354be382" name="a117f99e206c454df649e8169354be382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117f99e206c454df649e8169354be382">&#9670;&#160;</a></span>shaderReloadMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; &gt; Base::ShaderServerBase::shaderReloadMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa885f69c2a7450d37522ac600cb22d34" name="aa885f69c2a7450d37522ac600cb22d34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa885f69c2a7450d37522ac600cb22d34">&#9670;&#160;</a></span>shaders</h2>
 
@@ -850,6 +874,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, Resources::ResourceId&gt; Base::ShaderServerBase::shaders</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68dd33490d7a8b6a1fc0ec51660be4df" name="a68dd33490d7a8b6a1fc0ec51660be4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68dd33490d7a8b6a1fc0ec51660be4df">&#9670;&#160;</a></span>shaderWatchFolders</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; Base::ShaderServerBase::shaderWatchFolders</td>
         </tr>
       </table>
   </td>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"class_navigation_1_1_agent_context.html#afab9791f8199f7e189981167ab6f2bdc":[9,0,48,0,5],
+"class_navigation_1_1_navigation_page_handler.html":[8,0,53,4],
+"class_navigation_1_1_navigation_page_handler.html":[9,0,48,3],
+"class_navigation_1_1_navigation_page_handler.html#a27433a5f2b3b3b8d3b35e98c1d714cf4":[8,0,53,4,1],
 "class_navigation_1_1_navigation_page_handler.html#a27433a5f2b3b3b8d3b35e98c1d714cf4":[9,0,48,3,1],
 "class_navigation_1_1_navigation_page_handler.html#a41db387186cf75a501dcb5f692d542ba":[8,0,53,4,0],
 "class_navigation_1_1_navigation_page_handler.html#a41db387186cf75a501dcb5f692d542ba":[9,0,48,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "class_nebula_1_1_game_1_1_msg_dispatcher_1_1_message_channel-1-g.html#afbabdc542c470a15b4ed22874bbcc2c0":[9,0,50,0,6,1,1],
 "class_nebula_1_1_game_1_1_nebula_api_v1.html":[8,0,55,0,8],
 "class_nebula_1_1_game_1_1_nebula_api_v1.html":[9,0,50,0,8],
-"class_nebula_1_1_game_1_1_nebula_api_v1.html#a048e2006333eb1710c7823886284bc05":[8,0,55,0,8,13],
-"class_nebula_1_1_game_1_1_nebula_api_v1.html#a048e2006333eb1710c7823886284bc05":[9,0,50,0,8,13],
-"class_nebula_1_1_game_1_1_nebula_api_v1.html#a1385b97361521ed07e990371c588dd3c":[8,0,55,0,8,8],
-"class_nebula_1_1_game_1_1_nebula_api_v1.html#a1385b97361521ed07e990371c588dd3c":[9,0,50,0,8,8],
-"class_nebula_1_1_game_1_1_nebula_api_v1.html#a19fe55f3b3141ca8065986313098d4e5":[8,0,55,0,8,9]
+"class_nebula_1_1_game_1_1_nebula_api_v1.html#a048e2006333eb1710c7823886284bc05":[8,0,55,0,8,13]
 };

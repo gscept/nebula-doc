@@ -155,8 +155,8 @@ Variables</h2></td></tr>
 <tr class="memitem:aaf947d5d3b255f054ac4f0e771eb6846" id="r_aaf947d5d3b255f054ac4f0e771eb6846"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;&#160;&#160;<a class="el" href="#ad16b264ff9de9ac76abb528886446ac6">PostEffects::constants</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:aa524841702b6cb1f56a475e536956a77" id="r_aa524841702b6cb1f56a475e536956a77"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;&#160;&#160;<a class="el" href="#a45373629a88a469e5904faa23ac47a1b">PostEffects::intermediateBloomTexture</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:af373c5d6d8dc9f0fdeb0a42d28988209" id="r_af373c5d6d8dc9f0fdeb0a42d28988209"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a19651e46a523e9f9e6b60260c2405250">PostEffects::intermediateBloomBufferViews</a>&#160;</td><td class="memItemRight"></td></tr>
-<tr class="memitem:afe9b3c8f39600992f7c4c3c5bd38c108" id="r_afe9b3c8f39600992f7c4c3c5bd38c108"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> &gt;&#160;&#160;&#160;<a class="el" href="#a27105457a2ca42a7860194de3fa71d35">PostEffects::lightBufferViews</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a9b0cacfe8c1083a1712973e5c16430a9" id="r_a9b0cacfe8c1083a1712973e5c16430a9"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;<a class="el" href="#a346c775454d087da8e5f6b7ea62e94e3">PostEffects::numMips</a>&#160;</td><td class="memItemRight"></td></tr>
+<tr class="memitem:a7f0b185ef62ac392bc635c5817ba79c9" id="r_a7f0b185ef62ac392bc635c5817ba79c9"><td class="memItemLeft anon">&#160;&#160;&#160;Bloom::BloomUniforms::STRUCT&#160;&#160;&#160;<a class="el" href="#a6e9023d4405481ba7606f4a590e78678">PostEffects::uniforms</a>&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:afedeea8b58a88602b1f10d2bf951c196" id="r_afedeea8b58a88602b1f10d2bf951c196"><td class="memItemLeft anonEnd">}&#160;</td><td class="memItemRight"><a class="el" href="#afedeea8b58a88602b1f10d2bf951c196">bloomState</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">struct {&#160;</td><td class="memItemRight"></td></tr>
 <tr class="memitem:a38087add5529018ab3f2df3c0394529d" id="r_a38087add5529018ab3f2df3c0394529d"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;&#160;&#160;<a class="el" href="#a3d911d269d7b922b74b8d40b2c9ca82b">PostEffects::depthDownsampleResourceTable</a>&#160;</td><td class="memItemRight"></td></tr>
@@ -990,20 +990,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a27105457a2ca42a7860194de3fa71d35" name="a27105457a2ca42a7860194de3fa71d35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27105457a2ca42a7860194de3fa71d35">&#9670;&#160;</a></span>lightBufferViews</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a>&gt; PostEffects::lightBufferViews</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa67de08e3b38d3b5f7d8e54dbdb8abd5" name="aa67de08e3b38d3b5f7d8e54dbdb8abd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa67de08e3b38d3b5f7d8e54dbdb8abd5">&#9670;&#160;</a></span>logLuminanceRange</h2>
 
@@ -1418,6 +1404,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a> PostEffects::traceShader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e9023d4405481ba7606f4a590e78678" name="a6e9023d4405481ba7606f4a590e78678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9023d4405481ba7606f4a590e78678">&#9670;&#160;</a></span>uniforms</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Bloom::BloomUniforms::STRUCT PostEffects::uniforms</td>
         </tr>
       </table>
 </div><div class="memdoc">

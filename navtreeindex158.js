@@ -1,5 +1,11 @@
 var NAVTREEINDEX158 =
 {
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html":[9,0,75,7,1],
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#a8976687c65d1283d72d6e88002974556":[8,0,87,7,1,0],
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#a8976687c65d1283d72d6e88002974556":[9,0,75,7,1,0],
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#ac02388816c746701d62b2fdaa987f785":[8,0,87,7,1,2],
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#ac02388816c746701d62b2fdaa987f785":[9,0,75,7,1,2],
+"struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#afee59b8cc81d6c5b5b9b3c1252977f38":[8,0,87,7,1,1],
 "struct_vulkan_1_1_graphics_device_state_1_1_sparse_image_bind.html#afee59b8cc81d6c5b5b9b3c1252977f38":[9,0,75,7,1,1],
 "struct_vulkan_1_1_instance_setup.html":[8,0,87,8],
 "struct_vulkan_1_1_instance_setup.html":[9,0,75,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_draw_command.html#ac1de1b2009b5617e94141cb4ad2379cb":[9,0,75,21,7,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_draw_command.html#afa1b298d98d47d091f6c3aa85b23694a":[8,0,87,21,7,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_draw_command.html#afa1b298d98d47d091f6c3aa85b23694a":[9,0,75,21,7,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html":[8,0,87,21,29],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html":[9,0,75,21,29],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html#a37ef06f0233ed0e8b8662128493e6b19":[8,0,87,21,29,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html#a37ef06f0233ed0e8b8662128493e6b19":[9,0,75,21,29,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[8,0,87,21,27],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[9,0,75,21,27],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[8,0,87,21,27,0]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html":[8,0,87,21,29]
 };

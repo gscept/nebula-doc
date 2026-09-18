@@ -1,5 +1,11 @@
 var NAVTREEINDEX159 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html":[9,0,75,21,29],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html#a37ef06f0233ed0e8b8662128493e6b19":[8,0,87,21,29,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_marker_command.html#a37ef06f0233ed0e8b8662128493e6b19":[9,0,75,21,29,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[8,0,87,21,27],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html":[9,0,75,21,27],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[8,0,87,21,27,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a59f0afbd9d91c6b877aa62578abb629f":[9,0,75,21,27,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a71ab4a913266917fdbf09ff19030b2e0":[8,0,87,21,27,2],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_end_query_command.html#a71ab4a913266917fdbf09ff19030b2e0":[9,0,75,21,27,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a01c30d22ee73bd3d1af945e08f07e537":[9,0,75,22,0,8],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a0449736edb51629cee33322bc08f60e0":[8,0,87,22,0,24],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a0449736edb51629cee33322bc08f60e0":[9,0,75,22,0,24],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a147cbb67a21c22f868872b803192d18a":[8,0,87,22,0,11],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a147cbb67a21c22f868872b803192d18a":[9,0,75,22,0,11],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a1e2924a19b1e8cc878d8f54083e39283":[8,0,87,22,0,28],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a1e2924a19b1e8cc878d8f54083e39283":[9,0,75,22,0,28],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a27d5df2d9fc0d0deb368086b8ce255f3":[8,0,87,22,0,17],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a27d5df2d9fc0d0deb368086b8ce255f3":[9,0,75,22,0,17],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a437a5203f18c4c78a3180465b45742fd":[8,0,87,22,0,37]
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html#a147cbb67a21c22f868872b803192d18a":[8,0,87,22,0,11]
 };

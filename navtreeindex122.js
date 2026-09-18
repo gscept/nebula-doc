@@ -1,5 +1,9 @@
 var NAVTREEINDEX122 =
 {
+"shaderstatenode_8cc.html#aea9148f653ef1932b66a48ac237c8d52":[10,0,0,7,17,0,10,0],
+"shaderstatenode_8h.html":[10,0,0,7,17,0,11],
+"shaderstatenode_8h_source.html":[10,0,0,7,17,0,11],
+"shaperenderer_8cc.html":[10,0,0,7,5,78],
 "shaperenderer_8h.html":[10,0,0,7,5,79],
 "shaperenderer_8h_source.html":[10,0,0,7,5,79],
 "shaperendererbase_8cc.html":[10,0,0,7,5,0,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX122 =
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#afe4aa8237b0047f62811491f7f66ce66":[8,0,7,0,0,7],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#afe4aa8237b0047f62811491f7f66ce66":[9,0,7,0,0,7],
 "struct_characters_1_1_character_context_1_1_animation_tracks.html":[8,0,7,0,1],
-"struct_characters_1_1_character_context_1_1_animation_tracks.html":[9,0,7,0,1],
-"struct_characters_1_1_character_context_1_1_animation_tracks.html#a156055323e9c565b80cf4f248291fbcf":[8,0,7,0,1,1],
-"struct_characters_1_1_character_context_1_1_animation_tracks.html#a156055323e9c565b80cf4f248291fbcf":[9,0,7,0,1,1],
-"struct_characters_1_1_character_context_1_1_animation_tracks.html#af5970b11785c2a0a617ef5ec305b34fc":[8,0,7,0,1,0],
-"struct_characters_1_1_character_context_1_1_animation_tracks.html#af5970b11785c2a0a617ef5ec305b34fc":[9,0,7,0,1,0]
+"struct_characters_1_1_character_context_1_1_animation_tracks.html":[9,0,7,0,1]
 };

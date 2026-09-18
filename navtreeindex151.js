@@ -1,5 +1,11 @@
 var NAVTREEINDEX151 =
 {
+"struct_physics_1_1_actor_info.html#a6d799f24192a9e0fb1510d221a0ebdf3":[8,0,61,3,2],
+"struct_physics_1_1_actor_info.html#a6d799f24192a9e0fb1510d221a0ebdf3":[9,0,55,3,2],
+"struct_physics_1_1_actor_info.html#a7216fe099ec0917c3dfd840147399dc9":[8,0,61,3,3],
+"struct_physics_1_1_actor_info.html#a7216fe099ec0917c3dfd840147399dc9":[9,0,55,3,3],
+"struct_physics_1_1_actor_resource_id.html":[8,0,61,4],
+"struct_physics_1_1_actor_resource_id.html":[9,0,55,4],
 "struct_physics_1_1_aggregate.html":[8,0,61,5],
 "struct_physics_1_1_aggregate.html":[9,0,55,5],
 "struct_physics_1_1_aggregate.html#a3476c8f15876a535641690d527988216":[8,0,61,5,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX151 =
 "struct_profiling_1_1_profiling_context.html#addbaa1785a18c3ac7daad207f4277041":[8,0,67,2,0],
 "struct_profiling_1_1_profiling_context.html#addbaa1785a18c3ac7daad207f4277041":[9,0,60,2,0],
 "struct_profiling_1_1_profiling_scope.html":[8,0,67,0],
-"struct_profiling_1_1_profiling_scope.html":[9,0,60,0],
-"struct_profiling_1_1_profiling_scope.html#a229a116d28b280accd1013030e32abb9":[8,0,67,0,3],
-"struct_profiling_1_1_profiling_scope.html#a229a116d28b280accd1013030e32abb9":[9,0,60,0,3],
-"struct_profiling_1_1_profiling_scope.html#a5d5d57d2ceaa3e605104a667305778c3":[8,0,67,0,6],
-"struct_profiling_1_1_profiling_scope.html#a5d5d57d2ceaa3e605104a667305778c3":[9,0,60,0,6],
-"struct_profiling_1_1_profiling_scope.html#a8b3c795f3b5efd6dbc73c7847670c0ce":[8,0,67,0,2],
-"struct_profiling_1_1_profiling_scope.html#a8b3c795f3b5efd6dbc73c7847670c0ce":[9,0,60,0,2]
+"struct_profiling_1_1_profiling_scope.html":[9,0,60,0]
 };

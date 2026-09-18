@@ -1,5 +1,11 @@
 var NAVTREEINDEX133 =
 {
+"struct_game_1_1_entity.html#ab5770964472c49eda7475cb37e680043":[9,0,23,8,8],
+"struct_game_1_1_entity.html#ac177959fc23610c321a83f8dedcb6923":[8,0,25,9,14],
+"struct_game_1_1_entity.html#ac177959fc23610c321a83f8dedcb6923":[9,0,23,8,14],
+"struct_game_1_1_entity.html#acdd2260cff40bbda80c8f14d9efa5b48":[8,0,25,9,10],
+"struct_game_1_1_entity.html#acdd2260cff40bbda80c8f14d9efa5b48":[9,0,23,8,10],
+"struct_game_1_1_entity.html#ad3e05a2119199705c3fbc27a511d1ca7":[8,0,25,9,2],
 "struct_game_1_1_entity.html#ad3e05a2119199705c3fbc27a511d1ca7":[9,0,23,8,2],
 "struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[8,0,25,9,4],
 "struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[9,0,23,8,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX133 =
 "struct_i_g_f_d___file_dialog___config.html#a85b2f6adf4af2931a182d03ceb72e82c":[9,0,115,4],
 "struct_i_g_f_d___file_dialog___config.html#a92c678349eef6b9c6910fe5222e8c745":[9,0,115,0],
 "struct_i_g_f_d___file_dialog___config.html#ae037df7987ca01c31d3213ee096deb59":[9,0,115,5],
-"struct_i_g_f_d___file_dialog___config.html#af2ae6c83bab4ddbb8b612d9e639a7387":[9,0,115,2],
-"struct_i_g_f_d___selection.html":[9,0,116],
-"struct_i_g_f_d___selection.html#ad507bb1e9059b093b57554112a187383":[9,0,116,0],
-"struct_i_g_f_d___selection.html#ae63d5601b0946a620b896f46981994a3":[9,0,116,1],
-"struct_i_g_f_d___selection___pair.html":[9,0,117],
-"struct_i_g_f_d___selection___pair.html#a265c94e47a17bf079c2c66424a3b0f97":[9,0,117,1],
-"struct_i_g_f_d___selection___pair.html#a8293b2262ed4a0ead4201f570086329c":[9,0,117,0]
+"struct_i_g_f_d___file_dialog___config.html#af2ae6c83bab4ddbb8b612d9e639a7387":[9,0,115,2]
 };
