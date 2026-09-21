@@ -327,6 +327,7 @@ var searchData=
   ['curvesampleindices_324',['curveSampleIndices',['../struct_characters_1_1_character_context_1_1_animation_runtime.html#ae09a81dd87f2c85e93d2da5fb06ce3ad',1,'Characters::CharacterContext::AnimationRuntime']]],
   ['curvetype_325',['curveType',['../class_core_animation_1_1_anim_curve.html#a7f121ec7d5eac77bacd7a10724652d5d',1,'CoreAnimation::AnimCurve::curveType'],['../struct_core_animation_1_1_nax3_curve.html#aa472f319da501eb3e978684e780bd3e9',1,'CoreAnimation::Nax3Curve::curveType']]],
   ['curworkrequests_326',['curWorkRequests',['../class_http_1_1_http_request_handler.html#a5809429ada3bbbadfae6acc5ebcf55ed',1,'Http::HttpRequestHandler']]],
-  ['cvaroffset_327',['cVarOffset',['../namespace_core.html#a29b95c93003334b160163af18ca4e263',1,'Core']]],
-  ['cvars_328',['cVars',['../namespace_core.html#ab00285b01c523b9b68082ea87e24c83f',1,'Core']]]
+  ['customindex_327',['customIndex',['../struct_core_graphics_1_1_blas_instance_info.html#a80ce509c0f5a2b11e6b7f3dbb0c48a2b',1,'CoreGraphics::BlasInstanceInfo']]],
+  ['cvaroffset_328',['cVarOffset',['../namespace_core.html#a29b95c93003334b160163af18ca4e263',1,'Core']]],
+  ['cvars_329',['cVars',['../namespace_core.html#ab00285b01c523b9b68082ea87e24c83f',1,'Core']]]
 ];

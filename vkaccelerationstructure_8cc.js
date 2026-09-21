@@ -7,6 +7,7 @@ var vkaccelerationstructure_8cc =
     [ "Vulkan::BlasGetVkBuild", "namespace_vulkan.html#a407d08db0df24aea1b3cef481f070e0d", null ],
     [ "Vulkan::BlasGetVkDevice", "namespace_vulkan.html#aa35f0f528492b6c13a7a3eb3a8c7b725", null ],
     [ "Vulkan::BlasGetVkRanges", "namespace_vulkan.html#afadb3825fc302721505f35eb8b4fc5ed", null ],
+    [ "CoreGraphics::BlasInstanceGetInfo", "namespace_core_graphics.html#a8aafff37eae2348e676425a03e4152f9", null ],
     [ "CoreGraphics::BlasInstanceGetSize", "namespace_core_graphics.html#a15810c71bf587d9022b51494d948bace", null ],
     [ "CoreGraphics::BlasInstanceSetMask", "namespace_core_graphics.html#ada4996b66a351eae07c066cd4665a6d0", null ],
     [ "CoreGraphics::BlasInstanceUpdate", "namespace_core_graphics.html#a77c5012c52b57bf3555aacd8e7d9ef60", null ],
@@ -22,8 +23,8 @@ var vkaccelerationstructure_8cc =
     [ "Vulkan::TlasGetVkBuild", "namespace_vulkan.html#a930b6bfeb03e85dd2e9e5ce6a969245d", null ],
     [ "Vulkan::TlasGetVkDevice", "namespace_vulkan.html#a3aa084cc4563e63cb6acefd92aa8d77e", null ],
     [ "Vulkan::TlasGetVkRanges", "namespace_vulkan.html#aa9ef6a49b3945056e3455a037890a83f", null ],
-    [ "CoreGraphics::TlasInitBuild", "namespace_core_graphics.html#aecfb8c52b8a1331bef3bf05fa3777881", null ],
-    [ "CoreGraphics::TlasInitUpdate", "namespace_core_graphics.html#a7cfc49c951fcffe9c72a809cd2bf378b", null ],
+    [ "CoreGraphics::TlasInitBuild", "namespace_core_graphics.html#a26d8382b536e159494138bdf0b55caf7", null ],
+    [ "CoreGraphics::TlasInitUpdate", "namespace_core_graphics.html#af943138a75def7ff9ec67b59fc5c5f2f", null ],
     [ "Vulkan::blasAllocator", "namespace_vulkan.html#a9791adee63fb8c997686ff68d755204b", null ],
     [ "Vulkan::blasInstanceAllocator", "namespace_vulkan.html#a10430ac15276221452cb76c27a9d0dd6", null ],
     [ "Vulkan::tlasAllocator", "namespace_vulkan.html#aceac5c3b80922652cf420c0978ab5220", null ]

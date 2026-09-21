@@ -838,7 +838,7 @@ var searchData=
   ['shaderloader_835',['ShaderLoader',['../class_core_graphics_1_1_shader_loader.html',1,'CoreGraphics::ShaderLoader'],['../class_core_graphics_1_1_shader_loader.html#a279a21b4f0e6e444c31271b5da8e8e41',1,'CoreGraphics::ShaderLoader::ShaderLoader()']]],
   ['shaderloader_2ecc_836',['shaderloader.cc',['../shaderloader_8cc.html',1,'']]],
   ['shaderloader_2eh_837',['shaderloader.h',['../shaderloader_8h.html',1,'']]],
-  ['shaderoffset_838',['shaderOffset',['../struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1',1,'CoreGraphics::BlasInstanceCreateInfo']]],
+  ['shaderoffset_838',['shaderOffset',['../struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1',1,'CoreGraphics::BlasInstanceCreateInfo::shaderOffset'],['../struct_core_graphics_1_1_blas_instance_info.html#ae6729085d5ca8b8daffdcc727de8ebce',1,'CoreGraphics::BlasInstanceInfo::shaderOffset']]],
   ['shaderpagehandler_839',['ShaderPageHandler',['../class_debug_1_1_shader_page_handler.html',1,'Debug::ShaderPageHandler'],['../class_debug_1_1_shader_page_handler.html#a9cc3984ea4fdc47b32c0037eb1cecf5e',1,'Debug::ShaderPageHandler::ShaderPageHandler()']]],
   ['shaderpagehandler_2ecc_840',['shaderpagehandler.cc',['../shaderpagehandler_8cc.html',1,'']]],
   ['shaderpagehandler_2eh_841',['shaderpagehandler.h',['../shaderpagehandler_8h.html',1,'']]],

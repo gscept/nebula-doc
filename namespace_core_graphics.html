@@ -183,6 +183,7 @@ Classes</h2></td></tr>
 <tr class="memitem:BlasId" id="r_BlasId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_blas_id.html">BlasId</a></td></tr>
 <tr class="memitem:BlasInstanceCreateInfo" id="r_BlasInstanceCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_blas_instance_create_info.html">BlasInstanceCreateInfo</a></td></tr>
 <tr class="memitem:BlasInstanceId" id="r_BlasInstanceId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a></td></tr>
+<tr class="memitem:BlasInstanceInfo" id="r_BlasInstanceInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_blas_instance_info.html">BlasInstanceInfo</a></td></tr>
 <tr class="memitem:BufferBarrier" id="r_BufferBarrier"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_buffer_barrier.html">BufferBarrier</a></td></tr>
 <tr class="memitem:BufferBarrierInfo" id="r_BufferBarrierInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_buffer_barrier_info.html">BufferBarrierInfo</a></td></tr>
 <tr class="memitem:BufferCopy" id="r_BufferCopy"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_core_graphics_1_1_buffer_copy.html">BufferCopy</a></td></tr>
@@ -773,14 +774,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:ada4996b66a351eae07c066cd4665a6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> blas instance mask, setting it to 0x0 will disable it.  <br /></td></tr>
 <tr class="memitem:a15810c71bf587d9022b51494d948bace" id="r_a15810c71bf587d9022b51494d948bace"><td class="memItemLeft">const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a15810c71bf587d9022b51494d948bace">BlasInstanceGetSize</a> ()</td></tr>
 <tr class="memdesc:a15810c71bf587d9022b51494d948bace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get instance size (platform dependent).  <br /></td></tr>
+<tr class="memitem:a8aafff37eae2348e676425a03e4152f9" id="r_a8aafff37eae2348e676425a03e4152f9"><td class="memItemLeft">const <a class="el" href="struct_core_graphics_1_1_blas_instance_info.html">BlasInstanceInfo</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8aafff37eae2348e676425a03e4152f9">BlasInstanceGetInfo</a> (const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a> id)</td></tr>
+<tr class="memdesc:a8aafff37eae2348e676425a03e4152f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the CPU instance record submitted to the TLAS.  <br /></td></tr>
 <tr class="memitem:a2ba3e383c295b160af9efde6aa63bbe3" id="r_a2ba3e383c295b160af9efde6aa63bbe3"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2ba3e383c295b160af9efde6aa63bbe3">CreateTlas</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_create_info.html">TlasCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:a2ba3e383c295b160af9efde6aa63bbe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create top level acceleration structure.  <br /></td></tr>
 <tr class="memitem:acc9a35e12c0a68b2e3133f76c7d09d90" id="r_acc9a35e12c0a68b2e3133f76c7d09d90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc9a35e12c0a68b2e3133f76c7d09d90">DestroyTlas</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a> tlas)</td></tr>
 <tr class="memdesc:acc9a35e12c0a68b2e3133f76c7d09d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy top level acceleration structure.  <br /></td></tr>
-<tr class="memitem:aecfb8c52b8a1331bef3bf05fa3777881" id="r_aecfb8c52b8a1331bef3bf05fa3777881"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aecfb8c52b8a1331bef3bf05fa3777881">TlasInitBuild</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a> tlas)</td></tr>
-<tr class="memdesc:aecfb8c52b8a1331bef3bf05fa3777881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate Tlas for build.  <br /></td></tr>
-<tr class="memitem:a7cfc49c951fcffe9c72a809cd2bf378b" id="r_a7cfc49c951fcffe9c72a809cd2bf378b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7cfc49c951fcffe9c72a809cd2bf378b">TlasInitUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a> tlas)</td></tr>
-<tr class="memdesc:a7cfc49c951fcffe9c72a809cd2bf378b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate Tlas for update.  <br /></td></tr>
+<tr class="memitem:a26d8382b536e159494138bdf0b55caf7" id="r_a26d8382b536e159494138bdf0b55caf7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a26d8382b536e159494138bdf0b55caf7">TlasInitBuild</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a> tlas, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> instanceCount)</td></tr>
+<tr class="memdesc:a26d8382b536e159494138bdf0b55caf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate Tlas for build.  <br /></td></tr>
+<tr class="memitem:af943138a75def7ff9ec67b59fc5c5f2f" id="r_af943138a75def7ff9ec67b59fc5c5f2f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af943138a75def7ff9ec67b59fc5c5f2f">TlasInitUpdate</a> (const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a> tlas, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> instanceCount)</td></tr>
+<tr class="memdesc:af943138a75def7ff9ec67b59fc5c5f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate Tlas for update.  <br /></td></tr>
 <tr class="memitem:ae6a1a00bc356d6916f74f171ab2a13bf" id="r_ae6a1a00bc356d6916f74f171ab2a13bf"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_barrier_id.html">BarrierId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae6a1a00bc356d6916f74f171ab2a13bf">CreateBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_barrier_create_info.html">BarrierCreateInfo</a> &amp;info)</td></tr>
 <tr class="memdesc:ae6a1a00bc356d6916f74f171ab2a13bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">create barrier object  <br /></td></tr>
 <tr class="memitem:a5ef880bff8bd6c660a0956880c133787" id="r_a5ef880bff8bd6c660a0956880c133787"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5ef880bff8bd6c660a0956880c133787">DestroyBarrier</a> (const <a class="el" href="struct_core_graphics_1_1_barrier_id.html">BarrierId</a> id)</td></tr>
@@ -3966,6 +3969,25 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>reset resources previously set in barrier </p>
+
+</div>
+</div>
+<a id="a8aafff37eae2348e676425a03e4152f9" name="a8aafff37eae2348e676425a03e4152f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aafff37eae2348e676425a03e4152f9">&#9670;&#160;</a></span>BlasInstanceGetInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_graphics_1_1_blas_instance_info.html">BlasInstanceInfo</a> CoreGraphics::BlasInstanceGetInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_blas_instance_id.html">BlasInstanceId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the CPU instance record submitted to the TLAS. </p>
 
 </div>
 </div>
@@ -13335,8 +13357,8 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
-<a id="aecfb8c52b8a1331bef3bf05fa3777881" name="aecfb8c52b8a1331bef3bf05fa3777881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecfb8c52b8a1331bef3bf05fa3777881">&#9670;&#160;</a></span>TlasInitBuild()</h2>
+<a id="a26d8382b536e159494138bdf0b55caf7" name="a26d8382b536e159494138bdf0b55caf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d8382b536e159494138bdf0b55caf7">&#9670;&#160;</a></span>TlasInitBuild()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13344,8 +13366,12 @@ template&lt;class TYPE&gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::TlasInitBuild </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a></td>          <td class="paramname"><span class="paramname"><em>tlas</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a></td>          <td class="paramname"><span class="paramname"><em>tlas</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>instanceCount</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13354,8 +13380,8 @@ template&lt;class TYPE&gt; </div>
 
 </div>
 </div>
-<a id="a7cfc49c951fcffe9c72a809cd2bf378b" name="a7cfc49c951fcffe9c72a809cd2bf378b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cfc49c951fcffe9c72a809cd2bf378b">&#9670;&#160;</a></span>TlasInitUpdate()</h2>
+<a id="af943138a75def7ff9ec67b59fc5c5f2f" name="af943138a75def7ff9ec67b59fc5c5f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af943138a75def7ff9ec67b59fc5c5f2f">&#9670;&#160;</a></span>TlasInitUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13363,8 +13389,12 @@ template&lt;class TYPE&gt; </div>
         <tr>
           <td class="memname">void CoreGraphics::TlasInitUpdate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a></td>          <td class="paramname"><span class="paramname"><em>tlas</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_tlas_id.html">TlasId</a></td>          <td class="paramname"><span class="paramname"><em>tlas</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>instanceCount</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

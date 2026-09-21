@@ -25,6 +25,7 @@ var ddgicontext_8cc =
     [ "GI::probesRelocateAndClassifyShader", "namespace_g_i.html#a3c3f75d2d7ba245a39b5601a73ed8d4e", null ],
     [ "GI::probeUpdateProgram", "namespace_g_i.html#a5bd8893b3e829b09522b55067cf3e8ae", null ],
     [ "GI::probeUpdateShader", "namespace_g_i.html#acc3ce892c7138bb131eee93d28e6d71a", null ],
+    [ "r_RaytracingDDGI", "ddgicontext_8cc.html#a7b6845cf62365fc1ca2bc780700995e8", null ],
     [ "GI::raytracingTable", "namespace_g_i.html#a1494a1f12f2255fbdfc6310fd6dd7339", null ],
     [ "GI::stagingClusterGIVolumeList", "namespace_g_i.html#a10aef8af5469c94f85cb715be07d9982", null ],
     [ "GI::state", "namespace_g_i.html#a9d5f23d410e53550293c248a471dfdbe", null ],

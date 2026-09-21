@@ -174,6 +174,7 @@ var annotated_dup =
       [ "BlasId", "struct_core_graphics_1_1_blas_id.html", null ],
       [ "BlasInstanceCreateInfo", "struct_core_graphics_1_1_blas_instance_create_info.html", "struct_core_graphics_1_1_blas_instance_create_info" ],
       [ "BlasInstanceId", "struct_core_graphics_1_1_blas_instance_id.html", null ],
+      [ "BlasInstanceInfo", "struct_core_graphics_1_1_blas_instance_info.html", "struct_core_graphics_1_1_blas_instance_info" ],
       [ "BufferBarrier", "struct_core_graphics_1_1_buffer_barrier.html", "struct_core_graphics_1_1_buffer_barrier" ],
       [ "BufferBarrierInfo", "struct_core_graphics_1_1_buffer_barrier_info.html", "struct_core_graphics_1_1_buffer_barrier_info" ],
       [ "BufferCopy", "struct_core_graphics_1_1_buffer_copy.html", "struct_core_graphics_1_1_buffer_copy" ],

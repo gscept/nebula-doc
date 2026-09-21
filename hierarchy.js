@@ -283,6 +283,7 @@ var hierarchy =
     [ "CoreGraphics::BlasId", "struct_core_graphics_1_1_blas_id.html", null ],
     [ "CoreGraphics::BlasInstanceCreateInfo", "struct_core_graphics_1_1_blas_instance_create_info.html", null ],
     [ "CoreGraphics::BlasInstanceId", "struct_core_graphics_1_1_blas_instance_id.html", null ],
+    [ "CoreGraphics::BlasInstanceInfo", "struct_core_graphics_1_1_blas_instance_info.html", null ],
     [ "Util::Blob", "class_util_1_1_blob.html", null ],
     [ "Attr::BlobArrayTypeClass", "class_attr_1_1_blob_array_type_class.html", null ],
     [ "Attr::BlobTypeClass", "class_attr_1_1_blob_type_class.html", null ],

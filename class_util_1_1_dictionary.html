@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0ce25b9a6c51bf6401ae4f647421e042"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy constructor  <br /></td></tr>
 <tr class="memitem:a47eb49b99c6c6e327f4e274899f23dec" id="r_a47eb49b99c6c6e327f4e274899f23dec"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a47eb49b99c6c6e327f4e274899f23dec">Dictionary</a> (Dictionary&lt; KEYTYPE, VALUETYPE &gt; &amp;&amp;rhs) noexcept</td></tr>
 <tr class="memdesc:a47eb49b99c6c6e327f4e274899f23dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">move constructor  <br /></td></tr>
+<tr class="memitem:aa3bdb861a33a85b65e99d1cf9e166d37" id="r_aa3bdb861a33a85b65e99d1cf9e166d37"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa3bdb861a33a85b65e99d1cf9e166d37">Dictionary</a> (const std::initializer_list&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt; &gt; &amp;&amp;pairs)</td></tr>
+<tr class="memdesc:aa3bdb861a33a85b65e99d1cf9e166d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializer list constructor  <br /></td></tr>
 <tr class="memitem:acacbb1620e60311d3f482007c8958600" id="r_acacbb1620e60311d3f482007c8958600"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acacbb1620e60311d3f482007c8958600">operator=</a> (const <a class="el" href="#ae32028908ac38103b68189e5ceb066a5">Dictionary</a>&lt; KEYTYPE, VALUETYPE &gt; &amp;rhs)</td></tr>
 <tr class="memdesc:acacbb1620e60311d3f482007c8958600"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator  <br /></td></tr>
 <tr class="memitem:a0a1d7debb27d1f20343c0f1582429be4" id="r_a0a1d7debb27d1f20343c0f1582429be4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a1d7debb27d1f20343c0f1582429be4">operator=</a> (<a class="el" href="#ae32028908ac38103b68189e5ceb066a5">Dictionary</a>&lt; KEYTYPE, VALUETYPE &gt; &amp;&amp;rhs) noexcept</td></tr>
@@ -213,7 +215,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae32028908ac38103b68189e5ceb066a5" name="ae32028908ac38103b68189e5ceb066a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae32028908ac38103b68189e5ceb066a5">&#9670;&#160;</a></span>Dictionary() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32028908ac38103b68189e5ceb066a5">&#9670;&#160;</a></span>Dictionary() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +236,7 @@ template&lt;class KEYTYPE, class VALUETYPE&gt; </div>
 </div>
 </div>
 <a id="a0ce25b9a6c51bf6401ae4f647421e042" name="a0ce25b9a6c51bf6401ae4f647421e042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce25b9a6c51bf6401ae4f647421e042">&#9670;&#160;</a></span>Dictionary() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ce25b9a6c51bf6401ae4f647421e042">&#9670;&#160;</a></span>Dictionary() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +257,7 @@ template&lt;class KEYTYPE, class VALUETYPE&gt; </div>
 </div>
 </div>
 <a id="a47eb49b99c6c6e327f4e274899f23dec" name="a47eb49b99c6c6e327f4e274899f23dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47eb49b99c6c6e327f4e274899f23dec">&#9670;&#160;</a></span>Dictionary() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a47eb49b99c6c6e327f4e274899f23dec">&#9670;&#160;</a></span>Dictionary() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,6 +282,35 @@ template&lt;class KEYTYPE, class VALUETYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>move constructor </p>
+
+</div>
+</div>
+<a id="aa3bdb861a33a85b65e99d1cf9e166d37" name="aa3bdb861a33a85b65e99d1cf9e166d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bdb861a33a85b65e99d1cf9e166d37">&#9670;&#160;</a></span>Dictionary() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEYTYPE, class VALUETYPE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; KEYTYPE, VALUETYPE &gt;::Dictionary </td>
+          <td>(</td>
+          <td class="paramtype">const std::initializer_list&lt; <a class="el" href="class_util_1_1_key_value_pair.html">KeyValuePair</a>&lt; KEYTYPE, VALUETYPE &gt; &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>pairs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initializer list constructor </p>
 
 </div>
 </div>

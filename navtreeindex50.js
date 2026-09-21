@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"class_lighting_1_1_light_context.html#a82f9bd8604eb44a0ab7ff921c8ea8d2e":[9,0,37,0,53],
+"class_lighting_1_1_light_context.html#a838ea369819815ec2dec6f6e7d5a9775":[8,0,40,0,9],
+"class_lighting_1_1_light_context.html#a838ea369819815ec2dec6f6e7d5a9775":[9,0,37,0,9],
+"class_lighting_1_1_light_context.html#a84274a1059014ef2725e353971acd446":[8,0,40,0,33],
+"class_lighting_1_1_light_context.html#a84274a1059014ef2725e353971acd446":[9,0,37,0,33],
+"class_lighting_1_1_light_context.html#a85253c54c76bf9fe252f1158ebbecd9a":[8,0,40,0,55],
+"class_lighting_1_1_light_context.html#a85253c54c76bf9fe252f1158ebbecd9a":[9,0,37,0,55],
+"class_lighting_1_1_light_context.html#a86b97ff245cea95e6f70343bdeeb895e":[8,0,40,0,45],
 "class_lighting_1_1_light_context.html#a86b97ff245cea95e6f70343bdeeb895e":[9,0,37,0,45],
 "class_lighting_1_1_light_context.html#a8783ef45fe4cc78d67a0bb1762a02cec":[8,0,40,0,34],
 "class_lighting_1_1_light_context.html#a8783ef45fe4cc78d67a0bb1762a02cec":[9,0,37,0,34],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "class_list_ext.html#a2498f47603332703b6914490e3c8536d":[9,0,131,1],
 "class_list_ext.html#a4ab8349de3afa11c606c3b05c087e1ba":[9,0,131,0],
 "class_list_ext.html#aa3131e8763c4ca7ff74b8f43fba5bdf8":[9,0,131,2],
-"class_materials_1_1_material_loader.html":[8,0,43,4],
-"class_materials_1_1_material_loader.html":[9,0,39,4],
-"class_materials_1_1_material_loader.html#a09244f98ff0db21696550afec8dda138":[8,0,43,4,6],
-"class_materials_1_1_material_loader.html#a09244f98ff0db21696550afec8dda138":[9,0,39,4,6],
-"class_materials_1_1_material_loader.html#a10f1055ec48b72bc5d49123283580545":[8,0,43,4,1],
-"class_materials_1_1_material_loader.html#a10f1055ec48b72bc5d49123283580545":[9,0,39,4,1],
-"class_materials_1_1_material_loader.html#a1385d24bfa80b6e4b99c0a546379df7b":[8,0,43,4,8],
-"class_materials_1_1_material_loader.html#a1385d24bfa80b6e4b99c0a546379df7b":[9,0,39,4,8],
-"class_materials_1_1_material_loader.html#a213e96cb0d14a445ef19381dfc2cc2cb":[8,0,43,4,7]
+"class_materials_1_1_material_loader.html":[8,0,43,4]
 };

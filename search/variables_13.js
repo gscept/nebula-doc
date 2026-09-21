@@ -99,7 +99,7 @@ var searchData=
   ['shadergroupalignment_96',['ShaderGroupAlignment',['../namespace_core_graphics.html#a629dc377ed2984ff7b286f11fea18959',1,'CoreGraphics']]],
   ['shadergroupsize_97',['ShaderGroupSize',['../namespace_core_graphics.html#a3f9d2e184b2fa516bf511bd8d1a7c187',1,'CoreGraphics']]],
   ['shaderidentifierregistry_98',['shaderIdentifierRegistry',['../class_base_1_1_shader_server_base.html#af2263b7fb353b5a7f649d6743f6cecdb',1,'Base::ShaderServerBase']]],
-  ['shaderoffset_99',['shaderOffset',['../struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1',1,'CoreGraphics::BlasInstanceCreateInfo']]],
+  ['shaderoffset_99',['shaderOffset',['../struct_core_graphics_1_1_blas_instance_create_info.html#a67bd951e63b7b4c46cbae345962befd1',1,'CoreGraphics::BlasInstanceCreateInfo::shaderOffset'],['../struct_core_graphics_1_1_blas_instance_info.html#ae6729085d5ca8b8daffdcc727de8ebce',1,'CoreGraphics::BlasInstanceInfo::shaderOffset']]],
   ['shaderprogram_100',['shaderProgram',['../struct_t_b_u_i_1_1_t_b_u_i_context_1_1_t_b_u_i_state.html#ae501abe9d28a395a064f286ab26d563a',1,'TBUI::TBUIContext::TBUIState']]],
   ['shaderprogramalloc_101',['shaderProgramAlloc',['../namespace_vulkan.html#a3159fe76e9952e8e592a47811df4eb22',1,'Vulkan']]],
   ['shaderreloadmap_102',['shaderReloadMap',['../class_base_1_1_shader_server_base.html#a117f99e206c454df649e8169354be382',1,'Base::ShaderServerBase']]],
