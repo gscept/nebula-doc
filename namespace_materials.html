@@ -178,6 +178,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:af963716452daacaac6a3fb6cec6ee350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all material constants.  <br /></td></tr>
 <tr class="memitem:a28e84a54fa3a07c12ef721ffac6f8805" id="r_a28e84a54fa3a07c12ef721ffac6f8805"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a28e84a54fa3a07c12ef721ffac6f8805">MaterialSetConstant</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> mat, const void *data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> offset)</td></tr>
 <tr class="memdesc:a28e84a54fa3a07c12ef721ffac6f8805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a material constant.  <br /></td></tr>
+<tr class="memitem:afbc4d9c19651c31eab651f7750ef5d0c" id="r_afbc4d9c19651c31eab651f7750ef5d0c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afbc4d9c19651c31eab651f7750ef5d0c">MaterialSetData</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> mat, const void *data, const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size)</td></tr>
+<tr class="memdesc:afbc4d9c19651c31eab651f7750ef5d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the entire material buffer.  <br /></td></tr>
 <tr class="memitem:a96771b145c34f101920758f9f5b92d73" id="r_a96771b145c34f101920758f9f5b92d73"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a96771b145c34f101920758f9f5b92d73">MaterialSetBufferBinding</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
 <tr class="memdesc:a96771b145c34f101920758f9f5b92d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set material GPU buffer binding.  <br /></td></tr>
 <tr class="memitem:a418d6d7c4f0185b4f5f282ec22529e33" id="r_a418d6d7c4f0185b4f5f282ec22529e33"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a418d6d7c4f0185b4f5f282ec22529e33">MaterialGetBufferBinding</a> (const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a> id)</td></tr>
@@ -942,6 +944,34 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set all material constants. </p>
+
+</div>
+</div>
+<a id="afbc4d9c19651c31eab651f7750ef5d0c" name="afbc4d9c19651c31eab651f7750ef5d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc4d9c19651c31eab651f7750ef5d0c">&#9670;&#160;</a></span>MaterialSetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Materials::MaterialSetData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_id.html">MaterialId</a></td>          <td class="paramname"><span class="paramname"><em>mat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the entire material buffer. </p>
 
 </div>
 </div>

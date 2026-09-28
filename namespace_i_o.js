@@ -36,6 +36,7 @@ var namespace_i_o =
     [ "LogFileConsoleHandler", "class_i_o_1_1_log_file_console_handler.html", "class_i_o_1_1_log_file_console_handler" ],
     [ "MediaType", "class_i_o_1_1_media_type.html", "class_i_o_1_1_media_type" ],
     [ "MemoryStream", "class_i_o_1_1_memory_stream.html", "class_i_o_1_1_memory_stream" ],
+    [ "Path", "class_i_o_1_1_path.html", "class_i_o_1_1_path" ],
     [ "SafeFileStream", "class_i_o_1_1_safe_file_stream.html", "class_i_o_1_1_safe_file_stream" ],
     [ "SchemeRegistry", "class_i_o_1_1_scheme_registry.html", "class_i_o_1_1_scheme_registry" ],
     [ "Stream", "class_i_o_1_1_stream.html", "class_i_o_1_1_stream" ],

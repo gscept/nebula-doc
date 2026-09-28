@@ -90,6 +90,7 @@ var namespace_physics =
     [ "ShutDown", "namespace_physics.html#a53923e58ea149e8f8e4466431ff849e5", null ],
     [ "Update", "namespace_physics.html#ad5748751ba9e48a61c03652dffa14298", null ],
     [ "UpdateDebugDrawingParameters", "namespace_physics.html#a618fc67a7de06855288928cea8475c4c", null ],
+    [ "actorLoader", "namespace_physics.html#adad68cb669aa5266930053ee0d79ac04", null ],
     [ "actorPool", "namespace_physics.html#a1c7349cf74a45ddd8711ccea28d9cc1a", null ],
     [ "cl_debug_draw_physics", "namespace_physics.html#a7c221290cf041571cb651d5e1e84f3b8", null ],
     [ "cl_physics_draw_actor_axes", "namespace_physics.html#a0bc2113c6dd157dd203f6c68061e8f2a", null ],

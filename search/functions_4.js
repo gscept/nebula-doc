@@ -111,7 +111,7 @@ var searchData=
   ['deregisterentityimmediate_108',['DeregisterEntityImmediate',['../namespace_graphics.html#ac56a266f3ffe6f929f49b3fec12fd887',1,'Graphics']]],
   ['deregisterlight_109',['DeregisterLight',['../namespace_graphics_feature.html#a91f0367616e0ee630b36f8f8536904a7',1,'GraphicsFeature']]],
   ['deregistermodelentity_110',['DeregisterModelEntity',['../namespace_graphics_feature.html#a3970d9c01daef3582c895e23b0702add',1,'GraphicsFeature']]],
-  ['deregisterstreamloader_111',['DeregisterStreamLoader',['../class_resources_1_1_resource_server.html#a7300cc103fc3199f4526bbb54f61bf78',1,'Resources::ResourceServer']]],
+  ['deregisterstreamloader_111',['DeregisterStreamLoader',['../class_resources_1_1_resource_server.html#aa23a829f94cb32927d6fcdb6e623bfa9',1,'Resources::ResourceServer']]],
   ['derivativelayout_112',['DerivativeLayout',['../struct_vulkan_1_1_derivative_layout.html#a2929cdf8a0be421086f16317dec41b40',1,'Vulkan::DerivativeLayout::DerivativeLayout()'],['../struct_vulkan_1_1_derivative_layout.html#a609b8ba971b3b79ea8a801d71eac9662',1,'Vulkan::DerivativeLayout::DerivativeLayout(const DerivativeLayout &amp;rhs)'],['../struct_vulkan_1_1_derivative_layout.html#a37833c3c093deb2d35161ce5efa90b15',1,'Vulkan::DerivativeLayout::DerivativeLayout(DerivativeLayout &amp;&amp;rhs)']]],
   ['deserialize_113',['Deserialize',['../class_game_1_1_component_serialization.html#a900dd5a77e4468286f05acf19fa3eca5',1,'Game::ComponentSerialization']]],
   ['deserializeflatbuffer_114',['DeserializeFlatbuffer',['../class_flat_1_1_flatbuffer_interface.html#acbbf7c16efe414c7274cd04befb2146f',1,'Flat::FlatbufferInterface']]],

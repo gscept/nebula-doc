@@ -110,7 +110,7 @@ var searchData=
   ['registerproperty_107',['RegisterProperty',['../class_nebula_1_1_game_1_1_property_manager.html#a19da68e82405c8e9a4e29dd3dc70ea84',1,'Nebula::Game::PropertyManager']]],
   ['registerrtplugin_108',['RegisterRTPlugin',['../class_render_modules_1_1_r_t_plugin_registry.html#a25f6781145dcc84b1acbff49f6814104',1,'RenderModules::RTPluginRegistry']]],
   ['registerslot_109',['RegisterSlot',['../class_linux_1_1_linux_thread_local_data.html#a32b653d5347b2585ce9e03dc450a4ab9',1,'Linux::LinuxThreadLocalData']]],
-  ['registerstreamloader_110',['RegisterStreamLoader',['../class_resources_1_1_resource_server.html#a6d2702a08b244fedb9576bcc6faf849f',1,'Resources::ResourceServer']]],
+  ['registerstreamloader_110',['RegisterStreamLoader',['../class_resources_1_1_resource_server.html#af1615ca601df57d5a244a3f0052c46ff',1,'Resources::ResourceServer']]],
   ['registerterrainmaterial_111',['RegisterTerrainMaterial',['../class_materials_1_1_material_loader.html#a09244f98ff0db21696550afec8dda138',1,'Materials::MaterialLoader']]],
   ['registertexture_112',['RegisterTexture',['../struct_core_graphics_1_1_barrier_context.html#af36dc73a41f71ab8bdf4ec5fc672c7d4',1,'CoreGraphics::BarrierContext::RegisterTexture()'],['../namespace_graphics.html#a19cdcd72746cd5a3eb911a66bdf6e811',1,'Graphics::RegisterTexture()']]],
   ['registerurischeme_113',['RegisterUriScheme',['../class_i_o_1_1_scheme_registry.html#a40b53f4515569f3a852f9abd4a36fcda',1,'IO::SchemeRegistry']]],

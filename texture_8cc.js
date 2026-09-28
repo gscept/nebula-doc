@@ -6,6 +6,8 @@ var texture_8cc =
     [ "CoreGraphics::TextureUpdate", "namespace_core_graphics.html#a29eed11488946eeb12f6d80a230476db", null ],
     [ "CoreGraphics::Black2D", "namespace_core_graphics.html#a5314e024a73c578ffd7f6c7c09e8a78a", null ],
     [ "CoreGraphics::Blue2D", "namespace_core_graphics.html#a64e2a01dabd55c8ed509f9f152761124", null ],
+    [ "CoreGraphics::DefaultMaterial2D", "namespace_core_graphics.html#a92be0f8adf85f0d3c104b1b1c17af92b", null ],
+    [ "CoreGraphics::FlatNormal2D", "namespace_core_graphics.html#a8c3aaa6e76833740f359932cbc150e57", null ],
     [ "CoreGraphics::Green2D", "namespace_core_graphics.html#a927d2e8f3808c8ecc5aa735f4190f0c4", null ],
     [ "CoreGraphics::Red2D", "namespace_core_graphics.html#a9180ccf0725175e4928b9febc79bd800", null ],
     [ "CoreGraphics::White1D", "namespace_core_graphics.html#a55e561f874eb4ab9cba1b16aa04dde4c", null ],

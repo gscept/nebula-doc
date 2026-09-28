@@ -4,5 +4,6 @@ var class_navigation_feature_1_1_navigation_feature_unit =
     [ "OnActivate", "class_navigation_feature_1_1_navigation_feature_unit.html#a5c37a175766801e72e51774f48dc15d9", null ],
     [ "OnBeginFrame", "class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3", null ],
     [ "OnDeactivate", "class_navigation_feature_1_1_navigation_feature_unit.html#a1a9803681397dbbf9cee32a6bcdc3662", null ],
-    [ "OnRenderDebug", "class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817", null ]
+    [ "OnRenderDebug", "class_navigation_feature_1_1_navigation_feature_unit.html#a5e2935b6ca014c4465bdd04a55418817", null ],
+    [ "navMeshCache", "class_navigation_feature_1_1_navigation_feature_unit.html#a628b96cbc088c133eaf720cff923398f", null ]
 ];

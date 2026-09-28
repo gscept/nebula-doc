@@ -23,5 +23,6 @@ var physicsinterface_8cc =
     [ "Physics::SetPhysicsMaterial", "namespace_physics.html#ae2ac4d01d9f2cd314c02e4ddabfa789f", null ],
     [ "Physics::Setup", "namespace_physics.html#a940b47bed35103b34f9c3652b4c7c53a", null ],
     [ "Physics::ShutDown", "namespace_physics.html#a53923e58ea149e8f8e4466431ff849e5", null ],
-    [ "Physics::Update", "namespace_physics.html#ad5748751ba9e48a61c03652dffa14298", null ]
+    [ "Physics::Update", "namespace_physics.html#ad5748751ba9e48a61c03652dffa14298", null ],
+    [ "Physics::actorLoader", "namespace_physics.html#adad68cb669aa5266930053ee0d79ac04", null ]
 ];

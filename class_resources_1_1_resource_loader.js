@@ -17,6 +17,7 @@ var class_resources_1_1_resource_loader =
     [ "__DeclareAbstractClass", "class_resources_1_1_resource_loader.html#a185f572fd014ef551e2cfbf63ee48bf7", null ],
     [ "ClearPendingUnloads", "class_resources_1_1_resource_loader.html#a9c5a7585a3fcb5a8770019e57fa8b1df", null ],
     [ "CreateListener", "class_resources_1_1_resource_loader.html#a7133cd226a0e0d0bf108049064b4b472", null ],
+    [ "CreateResource", "class_resources_1_1_resource_loader.html#a5c5613fa5ce2849a2a77f9f578264cfd", null ],
     [ "CreateResource", "class_resources_1_1_resource_loader.html#a58c3eb3d7f1adcdb234a93a9f8cba8b1", null ],
     [ "CreateResource", "class_resources_1_1_resource_loader.html#ae165530cd4e2a1bf98791f7d9ab4bf6b", null ],
     [ "Discard", "class_resources_1_1_resource_loader.html#ab487bf2d662ee004ac376e6f2dac54a5", null ],
@@ -57,7 +58,7 @@ var class_resources_1_1_resource_loader =
     [ "creatorThread", "class_resources_1_1_resource_loader.html#a86201efa4ad4825c02d722b893cb3d99", null ],
     [ "dependentJobs", "class_resources_1_1_resource_loader.html#a54513238d691a15562aff00075dfbbe3", null ],
     [ "failResourceId", "class_resources_1_1_resource_loader.html#a91e608664995ca1ba5a97e702e25d562", null ],
-    [ "failResourceName", "class_resources_1_1_resource_loader.html#afae96564466eb3fc4c8d7664e5a7d9ad", null ],
+    [ "failResourceName", "class_resources_1_1_resource_loader.html#a568329e15a2557e047d4a2bfa0cd6399", null ],
     [ "ids", "class_resources_1_1_resource_loader.html#a16e569b83ad80cd274569464ad9563e9", null ],
     [ "loaderExtension", "class_resources_1_1_resource_loader.html#ace38f826ec12dfb4daf3e1a90dbf34aa", null ],
     [ "loadOutputs", "class_resources_1_1_resource_loader.html#a6bf91545cb3b5c0c63f80b1cfddc9749", null ],
@@ -70,7 +71,7 @@ var class_resources_1_1_resource_loader =
     [ "pendingStreamQueue", "class_resources_1_1_resource_loader.html#a557ff512a3bc8976053ce97f9725e5a1", null ],
     [ "pendingUnloads", "class_resources_1_1_resource_loader.html#a14b3fad14f96ee5a7ccf9666ec61299b", null ],
     [ "placeholderResourceId", "class_resources_1_1_resource_loader.html#a3d6c52c7e1c23ae1437476a02202f386", null ],
-    [ "placeholderResourceName", "class_resources_1_1_resource_loader.html#a1fb05ce256df7ab7f9ffb68139751891", null ],
+    [ "placeholderResourceName", "class_resources_1_1_resource_loader.html#afc60f988ad6a8ce488f4d4e7b49a4db1", null ],
     [ "placeholders", "class_resources_1_1_resource_loader.html#ab85310f20153b9e5d2671411ac384930", null ],
     [ "postJobFunc", "class_resources_1_1_resource_loader.html#a2a1f8db06f00b6b9ca05ab00ebf99a83", null ],
     [ "preJobFunc", "class_resources_1_1_resource_loader.html#ae9896a2f760673426544641755dbab09", null ],
@@ -83,6 +84,7 @@ var class_resources_1_1_resource_loader =
     [ "streamerThreadName", "class_resources_1_1_resource_loader.html#a43c49464ece65214161292899c0f6412", null ],
     [ "tags", "class_resources_1_1_resource_loader.html#a1ae713e94ea4edf9d09069e23582fab8", null ],
     [ "uniqueId", "class_resources_1_1_resource_loader.html#a653b1ed065a38fff8d06aaa365e66ce0", null ],
+    [ "UniquePoolCounter", "class_resources_1_1_resource_loader.html#ab1e7a70fb5ecd32262da85c0791d5eec", null ],
     [ "uniqueResourceId", "class_resources_1_1_resource_loader.html#a552e2062f374a071ac862f013cb44bda", null ],
     [ "usage", "class_resources_1_1_resource_loader.html#aca87dab597371d15f30cab548920ac51", null ]
 ];

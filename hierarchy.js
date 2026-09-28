@@ -892,6 +892,7 @@ var hierarchy =
     [ "MaterialTemplatesGPULang::Entry::Pass", "struct_material_templates_g_p_u_lang_1_1_entry_1_1_pass.html", null ],
     [ "CoreGraphics::PassCreateInfo", "struct_core_graphics_1_1_pass_create_info.html", null ],
     [ "CoreGraphics::PassId", "struct_core_graphics_1_1_pass_id.html", null ],
+    [ "IO::Path", "class_i_o_1_1_path.html", null ],
     [ "Vulkan::GraphicsDeviceState::PendingDeletes", "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html", null ],
     [ "Vulkan::GraphicsDeviceState::PendingMarkers", "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html", null ],
     [ "Http::HttpServer::PendingRequest", "struct_http_1_1_http_server_1_1_pending_request.html", null ],

@@ -158,6 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a58c3eb3d7f1adcdb234a93a9f8cba8b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a resource from URI, returns project placeholder resource unless immediate.  <br /></td></tr>
 <tr class="memitem:ae165530cd4e2a1bf98791f7d9ab4bf6b" id="r_ae165530cd4e2a1bf98791f7d9ab4bf6b"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#ae165530cd4e2a1bf98791f7d9ab4bf6b">CreateResource</a> (const <a class="el" href="class_i_o_1_1_u_r_n.html">IO::URN</a> &amp;res, const void *loadInfo, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> loadInfoSize, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success, std::function&lt; void(const Resources::ResourceId)&gt; failed, bool immediate, bool stream)</td></tr>
 <tr class="memdesc:ae165530cd4e2a1bf98791f7d9ab4bf6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a resoujrce using URN, the loader itself decides how to resolve the path.  <br /></td></tr>
+<tr class="memitem:a5c5613fa5ce2849a2a77f9f578264cfd" id="r_a5c5613fa5ce2849a2a77f9f578264cfd"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a5c5613fa5ce2849a2a77f9f578264cfd">CreateResource</a> (const <a class="el" href="class_i_o_1_1_path.html">IO::Path</a> &amp;res, const void *loadInfo, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> loadInfoSize, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, std::function&lt; void(const Resources::ResourceId)&gt; success, std::function&lt; void(const Resources::ResourceId)&gt; failed, bool immediate, bool stream)</td></tr>
+<tr class="memdesc:a5c5613fa5ce2849a2a77f9f578264cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a resoujrce using URN, the loader itself decides how to resolve the path.  <br /></td></tr>
 <tr class="memitem:a5096ceb0fbd6b42fa53f05e95430bf69" id="r_a5096ceb0fbd6b42fa53f05e95430bf69"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5096ceb0fbd6b42fa53f05e95430bf69">DiscardResource</a> (const Resources::ResourceId id)</td></tr>
 <tr class="memdesc:a5096ceb0fbd6b42fa53f05e95430bf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard container  <br /></td></tr>
 <tr class="memitem:a4ce8e1203f26fa0d87bfb6fb75999922" id="r_a4ce8e1203f26fa0d87bfb6fb75999922"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4ce8e1203f26fa0d87bfb6fb75999922">DiscardByTag</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
@@ -245,9 +247,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab85310f20153b9e5d2671411ac384930" id="r_ab85310f20153b9e5d2671411ac384930"><td class="memItemLeft"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_resources_1_1_resource_loader_1_1___placeholder_resource.html">_PlaceholderResource</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab85310f20153b9e5d2671411ac384930">placeholders</a></td></tr>
-<tr class="memitem:a1fb05ce256df7ab7f9ffb68139751891" id="r_a1fb05ce256df7ab7f9ffb68139751891"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1fb05ce256df7ab7f9ffb68139751891">placeholderResourceName</a></td></tr>
-<tr class="memdesc:a1fb05ce256df7ab7f9ffb68139751891"><td class="mdescLeft">&#160;</td><td class="mdescRight">these types need to be properly initiated in a subclass Setup function  <br /></td></tr>
-<tr class="memitem:afae96564466eb3fc4c8d7664e5a7d9ad" id="r_afae96564466eb3fc4c8d7664e5a7d9ad"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#afae96564466eb3fc4c8d7664e5a7d9ad">failResourceName</a></td></tr>
+<tr class="memitem:afc60f988ad6a8ce488f4d4e7b49a4db1" id="r_afc60f988ad6a8ce488f4d4e7b49a4db1"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_path.html">IO::Path</a>&#160;</td><td class="memItemRight"><a class="el" href="#afc60f988ad6a8ce488f4d4e7b49a4db1">placeholderResourceName</a></td></tr>
+<tr class="memdesc:afc60f988ad6a8ce488f4d4e7b49a4db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">these types need to be properly initiated in a subclass Setup function  <br /></td></tr>
+<tr class="memitem:a568329e15a2557e047d4a2bfa0cd6399" id="r_a568329e15a2557e047d4a2bfa0cd6399"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_path.html">IO::Path</a>&#160;</td><td class="memItemRight"><a class="el" href="#a568329e15a2557e047d4a2bfa0cd6399">failResourceName</a></td></tr>
 <tr class="memitem:a3d6c52c7e1c23ae1437476a02202f386" id="r_a3d6c52c7e1c23ae1437476a02202f386"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a3d6c52c7e1c23ae1437476a02202f386">placeholderResourceId</a></td></tr>
 <tr class="memitem:a91e608664995ca1ba5a97e702e25d562" id="r_a91e608664995ca1ba5a97e702e25d562"><td class="memItemLeft">Resources::ResourceId&#160;</td><td class="memItemRight"><a class="el" href="#a91e608664995ca1ba5a97e702e25d562">failResourceId</a></td></tr>
 <tr class="memitem:ace38f826ec12dfb4daf3e1a90dbf34aa" id="r_ace38f826ec12dfb4daf3e1a90dbf34aa"><td class="memItemLeft"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="#ace38f826ec12dfb4daf3e1a90dbf34aa">loaderExtension</a></td></tr>
@@ -284,6 +286,7 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a67f81fe5e182b277087e48338780ee24" id="r_a67f81fe5e182b277087e48338780ee24"><td class="memItemLeft">static const uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a67f81fe5e182b277087e48338780ee24">ResourceIndexGrow</a> = 512</td></tr>
+<tr class="memitem:ab1e7a70fb5ecd32262da85c0791d5eec" id="r_ab1e7a70fb5ecd32262da85c0791d5eec"><td class="memItemLeft">static int32_t&#160;</td><td class="memItemRight"><a class="el" href="#ab1e7a70fb5ecd32262da85c0791d5eec">UniquePoolCounter</a> = 0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -422,8 +425,61 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a5c5613fa5ce2849a2a77f9f578264cfd" name="a5c5613fa5ce2849a2a77f9f578264cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5613fa5ce2849a2a77f9f578264cfd">&#9670;&#160;</a></span>CreateResource() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Resources::ResourceId Resources::ResourceLoader::CreateResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_path.html">IO::Path</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>loadInfo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>loadInfoSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>success</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const Resources::ResourceId)&gt;</td>          <td class="paramname"><span class="paramname"><em>failed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a resoujrce using URN, the loader itself decides how to resolve the path. </p>
+
+</div>
+</div>
 <a id="a58c3eb3d7f1adcdb234a93a9f8cba8b1" name="a58c3eb3d7f1adcdb234a93a9f8cba8b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58c3eb3d7f1adcdb234a93a9f8cba8b1">&#9670;&#160;</a></span>CreateResource() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a58c3eb3d7f1adcdb234a93a9f8cba8b1">&#9670;&#160;</a></span>CreateResource() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +532,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ae165530cd4e2a1bf98791f7d9ab4bf6b" name="ae165530cd4e2a1bf98791f7d9ab4bf6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae165530cd4e2a1bf98791f7d9ab4bf6b">&#9670;&#160;</a></span>CreateResource() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae165530cd4e2a1bf98791f7d9ab4bf6b">&#9670;&#160;</a></span>CreateResource() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1561,8 +1617,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="afae96564466eb3fc4c8d7664e5a7d9ad" name="afae96564466eb3fc4c8d7664e5a7d9ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afae96564466eb3fc4c8d7664e5a7d9ad">&#9670;&#160;</a></span>failResourceName</h2>
+<a id="a568329e15a2557e047d4a2bfa0cd6399" name="a568329e15a2557e047d4a2bfa0cd6399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568329e15a2557e047d4a2bfa0cd6399">&#9670;&#160;</a></span>failResourceName</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1571,7 +1627,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> Resources::ResourceLoader::failResourceName</td>
+          <td class="memname"><a class="el" href="class_i_o_1_1_path.html">IO::Path</a> Resources::ResourceLoader::failResourceName</td>
         </tr>
       </table>
   </td>
@@ -1847,8 +1903,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1fb05ce256df7ab7f9ffb68139751891" name="a1fb05ce256df7ab7f9ffb68139751891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fb05ce256df7ab7f9ffb68139751891">&#9670;&#160;</a></span>placeholderResourceName</h2>
+<a id="afc60f988ad6a8ce488f4d4e7b49a4db1" name="afc60f988ad6a8ce488f4d4e7b49a4db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc60f988ad6a8ce488f4d4e7b49a4db1">&#9670;&#160;</a></span>placeholderResourceName</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1857,7 +1913,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> Resources::ResourceLoader::placeholderResourceName</td>
+          <td class="memname"><a class="el" href="class_i_o_1_1_path.html">IO::Path</a> Resources::ResourceLoader::placeholderResourceName</td>
         </tr>
       </table>
   </td>
@@ -2134,6 +2190,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>id in resource manager </p>
+
+</div>
+</div>
+<a id="ab1e7a70fb5ecd32262da85c0791d5eec" name="ab1e7a70fb5ecd32262da85c0791d5eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e7a70fb5ecd32262da85c0791d5eec">&#9670;&#160;</a></span>UniquePoolCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Resources::ResourceLoader::UniquePoolCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

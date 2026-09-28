@@ -17,6 +17,7 @@ var material_8cc =
     [ "Materials::MaterialSetBufferBinding", "namespace_materials.html#a96771b145c34f101920758f9f5b92d73", null ],
     [ "Materials::MaterialSetConstant", "namespace_materials.html#a28e84a54fa3a07c12ef721ffac6f8805", null ],
     [ "Materials::MaterialSetConstants", "namespace_materials.html#af963716452daacaac6a3fb6cec6ee350", null ],
+    [ "Materials::MaterialSetData", "namespace_materials.html#afbc4d9c19651c31eab651f7750ef5d0c", null ],
     [ "Materials::MaterialSetLowestLod", "namespace_materials.html#ac344f360e8f721327341e9aae1dffd30", null ],
     [ "Materials::MaterialSetTexture", "namespace_materials.html#ae0a8e570473e00b934a7a50afb5aa669", null ],
     [ "Materials::MaterialSetTexture", "namespace_materials.html#a41ee774b3eddbf0afba5c25f3a58b34f", null ],

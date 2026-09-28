@@ -24,7 +24,7 @@ var searchData=
   ['uniqueelements_21',['uniqueElements',['../class_util_1_1_sparse_table.html#a3ff763ec7709661ca06e5a346df754ad',1,'Util::SparseTable']]],
   ['uniqueid_22',['uniqueId',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#adc8ca3f405bf80592a557592f711e7e6',1,'Vulkan::VkShaderProgramRuntimeInfo::uniqueId'],['../struct_material_templates_1_1_entry.html#aa3c00c877b99c1c5b4dc1f3041872305',1,'MaterialTemplates::Entry::uniqueId'],['../struct_material_templates_g_p_u_lang_1_1_entry.html#a71516ca7d4503a354b3a9c7a59288016',1,'MaterialTemplatesGPULang::Entry::uniqueId'],['../class_models_1_1_model_node.html#a0ca350f96f2e7d322b808792833ac19d',1,'Models::ModelNode::uniqueId'],['../class_resources_1_1_resource_loader.html#a653b1ed065a38fff8d06aaa365e66ce0',1,'Resources::ResourceLoader::uniqueId']]],
   ['uniqueidcounter_23',['UniqueIdCounter',['../namespace_vulkan.html#af88a6569d668598bd5bebe68807cdc3c',1,'Vulkan']]],
-  ['uniquepoolcounter_24',['UniquePoolCounter',['../class_resources_1_1_resource_server.html#aac79e030258d041589896f7493be54e6',1,'Resources::ResourceServer']]],
+  ['uniquepoolcounter_24',['UniquePoolCounter',['../class_resources_1_1_resource_loader.html#ab1e7a70fb5ecd32262da85c0791d5eec',1,'Resources::ResourceLoader']]],
   ['uniqueresourceid_25',['uniqueResourceId',['../class_resources_1_1_resource_loader.html#a552e2062f374a071ac862f013cb44bda',1,'Resources::ResourceLoader']]],
   ['uniquesamplerhashes_26',['UniqueSamplerHashes',['../namespace_core_graphics.html#a7947deb6762810e0051a517c9ccbce45',1,'CoreGraphics']]],
   ['unitheight_27',['unitHeight',['../class_http_1_1_svg_page_writer.html#a8d51082952dc7ecd04af6334b016de2c',1,'Http::SvgPageWriter']]],

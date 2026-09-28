@@ -139,7 +139,7 @@ var searchData=
   ['exp_136',['exp',['../namespace_math.html#aa8f936b3622bc3eaf2448651634f326b',1,'Math']]],
   ['exp2_137',['exp2',['../namespace_math.html#aaf1d8738a2d8e39fb11c994b1b1c17be',1,'Math']]],
   ['exportlevel_138',['ExportLevel',['../class_game_1_1_world.html#ae3c97ed42f7a1cc83548ce22533702be',1,'Game::World']]],
-  ['exporturi_139',['ExportURI',['../class_i_o_1_1_u_r_n.html#ad73ce4a43109ce228fd36001c08429e6',1,'IO::URN']]],
+  ['exporturi_139',['ExportURI',['../class_i_o_1_1_path.html#af0ae26e4efe0d13ccd652a458fa32834',1,'IO::Path']]],
   ['extend_140',['Extend',['../class_util_1_1_array.html#a09b6816fe35c8e3f87339b0a6a5ffdac',1,'Util::Array::Extend()'],['../class_util_1_1_pinned_array.html#a7cc994eaead89d6e5238fef72585685d',1,'Util::PinnedArray::Extend()']]],
   ['extend_141',['extend',['../class_math_1_1bbox.html#a3a68cdb8b89b927a40c9b90d3cd017d3',1,'Math::bbox::extend(const vec3 &amp;p)'],['../class_math_1_1bbox.html#a0fccecb51bd7289ca98cf1c4f8ef2ef7',1,'Math::bbox::extend(const bbox &amp;box)']]],
   ['extents_142',['extents',['../class_math_1_1bbox.html#a0beb175271826bfb11012e5f84e6e0b3',1,'Math::bbox']]],
