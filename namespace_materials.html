@@ -209,7 +209,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a782f97123eb6c0a452b3f9ad0c655415" id="r_a782f97123eb6c0a452b3f9ad0c655415"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a782f97123eb6c0a452b3f9ad0c655415">MaterialInstanceBufferSize</a> (const <a class="el" href="struct_materials_1_1_material_instance_id.html">MaterialInstanceId</a> sur, const <a class="el" href="#ad316064c8fe52b179aaadbec06d6f43b">BatchIndex</a> batch)</td></tr>
 <tr class="memdesc:a782f97123eb6c0a452b3f9ad0c655415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get material instance buffer size for batch.  <br /></td></tr>
 <tr class="memitem:a1f98ed34bfde73baf9721c689c07ce5b" id="r_a1f98ed34bfde73baf9721c689c07ce5b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1f98ed34bfde73baf9721c689c07ce5b">__ImplementClass</a> (<a class="el" href="class_materials_1_1_material_loader.html">Materials::MaterialLoader</a>, 'MALO', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
-<tr class="memitem:a1e4d10e6d301c86f8fa26c58de7d6be0" id="r_a1e4d10e6d301c86f8fa26c58de7d6be0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1e4d10e6d301c86f8fa26c58de7d6be0">LoadTexture</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> def, const char *name, const char *tag, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;handle, bool &amp;dirtyFlag)</td></tr>
+<tr class="memitem:ac18da2bde20ba0a4e6ab0d95c89f8793" id="r_ac18da2bde20ba0a4e6ab0d95c89f8793"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac18da2bde20ba0a4e6ab0d95c89f8793">LoadTexture</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> def, const char *name, const char *tag, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;handle, bool &amp;dirtyFlag, void *data, size_t dataSize, const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a> mat)</td></tr>
 <tr class="memitem:ac83d1ce912ecd1b48199ef3a3ce9b695" id="r_ac83d1ce912ecd1b48199ef3a3ce9b695"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac83d1ce912ecd1b48199ef3a3ce9b695">LoadVec4</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float value[4], const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;def)</td></tr>
 <tr class="memitem:a5cb5def1927276ed42cd7d6306fefa9d" id="r_a5cb5def1927276ed42cd7d6306fefa9d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5cb5def1927276ed42cd7d6306fefa9d">LoadVec3</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float value[3], const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;def)</td></tr>
 <tr class="memitem:a5636bc79c691a61803c2246845b4a42a" id="r_a5636bc79c691a61803c2246845b4a42a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5636bc79c691a61803c2246845b4a42a">LoadFloat</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_b_xml_reader.html">IO::BXmlReader</a> &gt; &amp;reader, const char *name, float &amp;value, const float def)</td></tr>
@@ -531,8 +531,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e4d10e6d301c86f8fa26c58de7d6be0" name="a1e4d10e6d301c86f8fa26c58de7d6be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e4d10e6d301c86f8fa26c58de7d6be0">&#9670;&#160;</a></span>LoadTexture()</h2>
+<a id="ac18da2bde20ba0a4e6ab0d95c89f8793" name="ac18da2bde20ba0a4e6ab0d95c89f8793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18da2bde20ba0a4e6ab0d95c89f8793">&#9670;&#160;</a></span>LoadTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,7 +565,22 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>dirtyFlag</em></span>&#160;)</td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>dirtyFlag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a></td>          <td class="paramname"><span class="paramname"><em>mat</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
