@@ -1,5 +1,9 @@
 var NAVTREEINDEX138 =
 {
+"struct_jobs2_1_1_job_context.html#a4b93ff2b4d2d5c434f83392898b73b53":[8,0,39,3,0],
+"struct_jobs2_1_1_job_context.html#a4b93ff2b4d2d5c434f83392898b73b53":[9,0,36,3,0],
+"struct_jobs2_1_1_job_context.html#a4f1c28ec6fda3ccdb0f29f1ee296ec87":[8,0,39,3,4],
+"struct_jobs2_1_1_job_context.html#a4f1c28ec6fda3ccdb0f29f1ee296ec87":[9,0,36,3,4],
 "struct_jobs2_1_1_job_context.html#a534416673152b1688372775be7ebd253":[8,0,39,3,1],
 "struct_jobs2_1_1_job_context.html#a534416673152b1688372775be7ebd253":[9,0,36,3,1],
 "struct_jobs2_1_1_job_context.html#a58e2207332d17e9412c15dde610859b4":[8,0,39,3,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX138 =
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#aaa6e519c760b4b1e6639b74d8fc2e9ef":[8,0,40,0,5,0],
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#aaa6e519c760b4b1e6639b74d8fc2e9ef":[9,0,37,0,5,0],
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[8,0,40,0,5,2],
-"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[9,0,37,0,5,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[8,0,40,0,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[9,0,37,0,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[8,0,40,0,2,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[9,0,37,0,2,2]
+"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[9,0,37,0,5,2]
 };

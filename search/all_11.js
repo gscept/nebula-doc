@@ -34,7 +34,7 @@ var searchData=
   ['queryclips_31',['QueryClips',['../class_characters_1_1_character_context.html#a1b30e620562ae08962746d2b0199d8e3',1,'Characters::CharacterContext']]],
   ['querycommand_32',['queryCommand',['../class_db_1_1_sqlite3_dataset.html#a2f0073ba83e31acfe7a0b5f5f408d42b',1,'Db::Sqlite3Dataset']]],
   ['querycount_33',['queryCount',['../struct_vulkan_1_1_query_bundle_1_1_query_chunk.html#a1f8f75ef4b8c7b3add2aa882916d6867',1,'Vulkan::QueryBundle::QueryChunk']]],
-  ['querydirectorychanges_34',['QueryDirectoryChanges',['../win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301',1,'win32filewatcher.cc']]],
+  ['querydirectorychanges_34',['QueryDirectoryChanges',['../win32filewatcher_8cc.html#a54fa88c54610c00205055e8dc679c575',1,'win32filewatcher.cc']]],
   ['querydoubleattribute_35',['QueryDoubleAttribute',['../class_ti_xml_element.html#ae04bad29ddb281a7e6c662b3882e9928',1,'TiXmlElement']]],
   ['querydoublevalue_36',['QueryDoubleValue',['../class_ti_xml_attribute.html#a6fa41b710c1b79de37a97004aa600c06',1,'TiXmlAttribute']]],
   ['queryfloatattribute_37',['QueryFloatAttribute',['../class_ti_xml_element.html#a5591929834178699b4561ab6ab460068',1,'TiXmlElement']]],

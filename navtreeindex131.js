@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_vertex_alloc.html#abeac5140e4a030de879a77ca0e559e4f":[8,0,13,155,1],
+"struct_core_graphics_1_1_vertex_alloc.html#abeac5140e4a030de879a77ca0e559e4f":[9,0,12,154,1],
 "struct_core_graphics_1_1_vertex_layout_create_info.html":[8,0,13,157],
 "struct_core_graphics_1_1_vertex_layout_create_info.html":[9,0,12,156],
 "struct_core_graphics_1_1_vertex_layout_create_info.html#a3dcfae6664d4c6a0f007cacb1851422f":[8,0,13,157,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "struct_frame_1_1_frame_op_1_1_buffer_dependency.html#ab20012a4bc74e1aed73f8de2a54a2e47":[9,0,21,8,4,0],
 "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html":[8,0,23,8,0],
 "struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html":[9,0,21,8,0],
-"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html#a0659b7ce2df6f0d1ca01849c7be11a41":[8,0,23,8,0,0],
-"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html#a0659b7ce2df6f0d1ca01849c7be11a41":[9,0,21,8,0,0],
-"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html#a93d115ff55dca318cee3c17036419e99":[8,0,23,8,0,1]
+"struct_frame_1_1_frame_op_1_1_buffer_subresource_dep.html#a0659b7ce2df6f0d1ca01849c7be11a41":[8,0,23,8,0,0]
 };

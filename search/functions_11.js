@@ -10,7 +10,7 @@ var searchData=
   ['quatyawpitchroll_7',['quatyawpitchroll',['../namespace_math.html#abf35a34ce76751d53dda6c51f04ebff1',1,'Math']]],
   ['query_8',['Query',['../class_mem_db_1_1_database.html#ae54b26d573e445e204b82e2ac286e2bf',1,'MemDb::Database::Query(FilterSet const &amp;filterset)'],['../class_mem_db_1_1_database.html#ae384dc8b0186d9c7b300dddbe3de034c',1,'MemDb::Database::Query(TableSignature const &amp;inclusive, TableSignature const &amp;exclusive)'],['../class_game_1_1_world.html#a064a5e864b6ab52cafa7670020a14f58',1,'Game::World::Query(Filter filter)'],['../class_game_1_1_world.html#a1a2e1ad709816d3d420166d49f3d5c55',1,'Game::World::Query(Filter filter, Util::Array&lt; MemDb::TableId &gt; &amp;tids)'],['../class_i_o_1_1_u_r_i.html#a338e98e09136cab64cf894a26872aedb',1,'IO::URI::Query()'],['../namespace_game.html#a3e2891686998c0318e52a525428b783f',1,'Game::Query()']]],
   ['queryclips_9',['QueryClips',['../class_characters_1_1_character_context.html#a1b30e620562ae08962746d2b0199d8e3',1,'Characters::CharacterContext']]],
-  ['querydirectorychanges_10',['QueryDirectoryChanges',['../win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301',1,'win32filewatcher.cc']]],
+  ['querydirectorychanges_10',['QueryDirectoryChanges',['../win32filewatcher_8cc.html#a54fa88c54610c00205055e8dc679c575',1,'win32filewatcher.cc']]],
   ['querydoubleattribute_11',['QueryDoubleAttribute',['../class_ti_xml_element.html#ae04bad29ddb281a7e6c662b3882e9928',1,'TiXmlElement']]],
   ['querydoublevalue_12',['QueryDoubleValue',['../class_ti_xml_attribute.html#a6fa41b710c1b79de37a97004aa600c06',1,'TiXmlAttribute']]],
   ['queryfloatattribute_13',['QueryFloatAttribute',['../class_ti_xml_element.html#a5591929834178699b4561ab6ab460068',1,'TiXmlElement']]],

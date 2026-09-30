@@ -390,8 +390,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a905d5828f4d9f67ee92e030461781a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the leading substring from this string as long as it's matching  <br /></td></tr>
 <tr class="memitem:a58e4a9c3159cd948b6f1a0a91fbd550c" id="r_a58e4a9c3159cd948b6f1a0a91fbd550c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a58e4a9c3159cd948b6f1a0a91fbd550c">ReplaceIllegalFilenameChars</a> (char replacement)</td></tr>
 <tr class="memdesc:a58e4a9c3159cd948b6f1a0a91fbd550c"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace illegal filename characters  <br /></td></tr>
-<tr class="memitem:ae546c952e25ce169dfabde80a268d4b3" id="r_ae546c952e25ce169dfabde80a268d4b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae546c952e25ce169dfabde80a268d4b3">AppendPath</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;path)</td></tr>
-<tr class="memdesc:ae546c952e25ce169dfabde80a268d4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a directory/file to the path (adds separator if necessary)  <br /></td></tr>
+<tr class="memitem:ac6c4692878fd5a86c7ff8cf2209af59e" id="r_ac6c4692878fd5a86c7ff8cf2209af59e"><td class="memItemLeft"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac6c4692878fd5a86c7ff8cf2209af59e">AppendPath</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;path)</td></tr>
+<tr class="memdesc:ac6c4692878fd5a86c7ff8cf2209af59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a directory or file to current string.  <br /></td></tr>
 <tr class="memitem:ad5fa4177aae32925659952ce42dd1576" id="r_ad5fa4177aae32925659952ce42dd1576"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#ad5fa4177aae32925659952ce42dd1576">c_str</a> () const</td></tr>
 <tr class="memdesc:ad5fa4177aae32925659952ce42dd1576"><td class="mdescLeft">&#160;</td><td class="mdescRight">helpers to interface with libraries that expect std::string like apis  <br /></td></tr>
 <tr class="memitem:a277e762c90eee1780d7ccab69eae13f5" id="r_a277e762c90eee1780d7ccab69eae13f5"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#a277e762c90eee1780d7ccab69eae13f5">length</a> () const</td></tr>
@@ -465,7 +465,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adf3889f1573f7f7f6b4543b3018c4065 template"><td class="memItemLeft">static <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#adf3889f1573f7f7f6b4543b3018c4065">Hex</a> (INTEGER i)</td></tr>
 <tr class="memdesc:adf3889f1573f7f7f6b4543b3018c4065"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct a hex string from an int  <br /></td></tr>
 <tr class="memitem:a3ea47a9c6c92b4f56efd1158b134f037" id="r_a3ea47a9c6c92b4f56efd1158b134f037"><td class="memItemLeft">static <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3ea47a9c6c92b4f56efd1158b134f037">AppendPath</a> (const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;base, const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;path)</td></tr>
-<tr class="memdesc:a3ea47a9c6c92b4f56efd1158b134f037"><td class="mdescLeft">&#160;</td><td class="mdescRight">append a directory/file to the path (adds separator if necessary)  <br /></td></tr>
+<tr class="memdesc:a3ea47a9c6c92b4f56efd1158b134f037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a directory or file and returns a new string.  <br /></td></tr>
 <tr class="memitem:a484e19d1a664484e49c1b9f64ad54418" id="r_a484e19d1a664484e49c1b9f64ad54418"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a484e19d1a664484e49c1b9f64ad54418">IsDigit</a> (char c)</td></tr>
 <tr class="memdesc:a484e19d1a664484e49c1b9f64ad54418"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if provided character is a digit (0..9)  <br /></td></tr>
 <tr class="memitem:a09b810fb15c24a5236fb0364fd7bd1a9" id="r_a09b810fb15c24a5236fb0364fd7bd1a9"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a09b810fb15c24a5236fb0364fd7bd1a9">IsAlpha</a> (char c)</td></tr>
@@ -1011,12 +1011,12 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>append a directory/file to the path (adds separator if necessary) </p>
+<p>Appends a directory or file and returns a new string. </p>
 
 </div>
 </div>
-<a id="ae546c952e25ce169dfabde80a268d4b3" name="ae546c952e25ce169dfabde80a268d4b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae546c952e25ce169dfabde80a268d4b3">&#9670;&#160;</a></span>AppendPath() <span class="overload">[2/2]</span></h2>
+<a id="ac6c4692878fd5a86c7ff8cf2209af59e" name="ac6c4692878fd5a86c7ff8cf2209af59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c4692878fd5a86c7ff8cf2209af59e">&#9670;&#160;</a></span>AppendPath() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1025,7 +1025,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Util::String::AppendPath </td>
+          <td class="memname"><a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp; Util::String::AppendPath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5869c8fbd59c6240746ba8abc64be286">String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td></td>
@@ -1038,7 +1038,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>append a directory/file to the path (adds separator if necessary) </p>
+<p>Appends a directory or file to current string. </p>
 
 </div>
 </div>

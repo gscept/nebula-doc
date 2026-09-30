@@ -127,11 +127,51 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a413e32cbdc16f8668e58cf8095069301" id="r_a413e32cbdc16f8668e58cf8095069301"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a413e32cbdc16f8668e58cf8095069301">QueryDirectoryChanges</a> (<a class="el" href="struct_i_o_1_1_event_handler_data.html">IO::EventHandlerData</a> &amp;data)</td></tr>
+<tr class="memitem:a54fa88c54610c00205055e8dc679c575" id="r_a54fa88c54610c00205055e8dc679c575"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a54fa88c54610c00205055e8dc679c575">QueryDirectoryChanges</a> (HANDLE handle, OVERLAPPED *overlapped, void *buf, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> bufSize, DWORD filter)</td></tr>
+<tr class="memitem:a4d3db6d57e4e21badee89fa1cfe457ce" id="r_a4d3db6d57e4e21badee89fa1cfe457ce"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a4d3db6d57e4e21badee89fa1cfe457ce">AddWatchRecursive</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;folder, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;relativePath, HANDLE parent, <a class="el" href="struct_i_o_1_1_event_handler_data.html">IO::EventHandlerData</a> &amp;data)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a413e32cbdc16f8668e58cf8095069301" name="a413e32cbdc16f8668e58cf8095069301"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a413e32cbdc16f8668e58cf8095069301">&#9670;&#160;</a></span>QueryDirectoryChanges()</h2>
+<a id="a4d3db6d57e4e21badee89fa1cfe457ce" name="a4d3db6d57e4e21badee89fa1cfe457ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3db6d57e4e21badee89fa1cfe457ce">&#9670;&#160;</a></span>AddWatchRecursive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddWatchRecursive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>relativePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HANDLE</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_i_o_1_1_event_handler_data.html">IO::EventHandlerData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54fa88c54610c00205055e8dc679c575" name="a54fa88c54610c00205055e8dc679c575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54fa88c54610c00205055e8dc679c575">&#9670;&#160;</a></span>QueryDirectoryChanges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,8 +182,27 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void QueryDirectoryChanges </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_i_o_1_1_event_handler_data.html">IO::EventHandlerData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td class="paramtype">HANDLE</td>          <td class="paramname"><span class="paramname"><em>handle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">OVERLAPPED *</td>          <td class="paramname"><span class="paramname"><em>overlapped</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></td>          <td class="paramname"><span class="paramname"><em>bufSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DWORD</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

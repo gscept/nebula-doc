@@ -118,6 +118,9 @@ var hierarchy =
     [ "Util::Array&lt; uint64_t &gt;", "class_util_1_1_array.html", [
       [ "Util::PinnedArray< 0xFFFF, uint64_t >", "class_util_1_1_pinned_array.html", null ]
     ] ],
+    [ "Util::Array&lt; Util::FixedArray&lt; BYTE &gt; &gt;", "class_util_1_1_array.html", [
+      [ "Util::PinnedArray< 0xFFF, Util::FixedArray< BYTE > >", "class_util_1_1_pinned_array.html", null ]
+    ] ],
     [ "Util::Array&lt; Util::Tuple&lt; float, float &gt; &gt;", "class_util_1_1_array.html", [
       [ "Util::PinnedArray< 0xFFFF, Util::Tuple< float, float > >", "class_util_1_1_pinned_array.html", null ]
     ] ],

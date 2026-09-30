@@ -1,5 +1,9 @@
 var NAVTREEINDEX166 =
 {
+"vkscheduler_8h_source.html":[10,0,0,7,5,6,39],
+"vksemaphore_8cc.html":[10,0,0,7,5,6,40],
+"vksemaphore_8h.html":[10,0,0,7,5,6,41],
+"vksemaphore_8h_source.html":[10,0,0,7,5,6,41],
 "vkshader_8cc.html":[10,0,0,7,5,6,42],
 "vkshader_8h.html":[10,0,0,7,5,6,43],
 "vkshader_8h_source.html":[10,0,0,7,5,6,43],
@@ -73,7 +77,8 @@ var NAVTREEINDEX166 =
 "win32filetime_8h.html":[10,0,0,3,9,7,3],
 "win32filetime_8h_source.html":[10,0,0,3,9,7,3],
 "win32filewatcher_8cc.html":[10,0,0,3,9,7,4],
-"win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301":[10,0,0,3,9,7,4,0],
+"win32filewatcher_8cc.html#a4d3db6d57e4e21badee89fa1cfe457ce":[10,0,0,3,9,7,4,0],
+"win32filewatcher_8cc.html#a54fa88c54610c00205055e8dc679c575":[10,0,0,3,9,7,4,1],
 "win32filewatcher_8h.html":[10,0,0,3,9,7,5],
 "win32filewatcher_8h_source.html":[10,0,0,3,9,7,5],
 "win32fswrapper_8cc.html":[10,0,0,3,9,7,6],

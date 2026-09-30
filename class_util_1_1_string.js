@@ -17,7 +17,7 @@ var class_util_1_1_string =
     [ "AppendInt", "class_util_1_1_string.html#aaf2a2728c9f6155fe99596fd17452a94", null ],
     [ "AppendMat4", "class_util_1_1_string.html#aad036d5ee83bc4b07ec9134de3869854", null ],
     [ "AppendPath", "class_util_1_1_string.html#a3ea47a9c6c92b4f56efd1158b134f037", null ],
-    [ "AppendPath", "class_util_1_1_string.html#ae546c952e25ce169dfabde80a268d4b3", null ],
+    [ "AppendPath", "class_util_1_1_string.html#ac6c4692878fd5a86c7ff8cf2209af59e", null ],
     [ "AppendRange", "class_util_1_1_string.html#a2d50b0cf1f233cca8399b2feea09738f", null ],
     [ "AppendUByte", "class_util_1_1_string.html#a7f3ec0658966f2d70fb72715ce76679d", null ],
     [ "AppendVec2", "class_util_1_1_string.html#a417dfffe8e8a9252625fd568db406d11", null ],

@@ -1,4 +1,5 @@
 var win32filewatcher_8cc =
 [
-    [ "QueryDirectoryChanges", "win32filewatcher_8cc.html#a413e32cbdc16f8668e58cf8095069301", null ]
+    [ "AddWatchRecursive", "win32filewatcher_8cc.html#a4d3db6d57e4e21badee89fa1cfe457ce", null ],
+    [ "QueryDirectoryChanges", "win32filewatcher_8cc.html#a54fa88c54610c00205055e8dc679c575", null ]
 ];

@@ -124,34 +124,35 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af1d62546cab5a5572b2aa3adaaef05b3" id="r_af1d62546cab5a5572b2aa3adaaef05b3"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af1d62546cab5a5572b2aa3adaaef05b3">inotifyFd</a> = -1</td></tr>
 <tr class="memitem:adf3e2edbb74534a8f8bcc8dfe990f4c9" id="r_adf3e2edbb74534a8f8bcc8dfe990f4c9"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#adf3e2edbb74534a8f8bcc8dfe990f4c9">rootPath</a></td></tr>
 <tr class="memitem:a8c2a025904d0435dfae908251abc8e0d" id="r_a8c2a025904d0435dfae908251abc8e0d"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; int, <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8c2a025904d0435dfae908251abc8e0d">wdToRelativePath</a></td></tr>
-<tr class="memitem:a11cbe79d3738f9768f3847f11d243598" id="r_a11cbe79d3738f9768f3847f11d243598"><td class="memItemLeft">HANDLE&#160;</td><td class="memItemRight"><a class="el" href="#a11cbe79d3738f9768f3847f11d243598">dirHandle</a></td></tr>
-<tr class="memitem:ac3783f48d187e283a815d0a519ac30e8" id="r_ac3783f48d187e283a815d0a519ac30e8"><td class="memItemLeft">OVERLAPPED&#160;</td><td class="memItemRight"><a class="el" href="#ac3783f48d187e283a815d0a519ac30e8">overlapped</a></td></tr>
+<tr class="memitem:a3b87ac32cffa608926894b02ab2b390c" id="r_a3b87ac32cffa608926894b02ab2b390c"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; HANDLE &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3b87ac32cffa608926894b02ab2b390c">handles</a></td></tr>
+<tr class="memitem:a828a925d38dd037ba5127434ec5cfd10" id="r_a828a925d38dd037ba5127434ec5cfd10"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; OVERLAPPED &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a828a925d38dd037ba5127434ec5cfd10">overlaps</a></td></tr>
+<tr class="memitem:ab52e9ea9ec051c351cfb68dda05432f7" id="r_ab52e9ea9ec051c351cfb68dda05432f7"><td class="memItemLeft"><a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt; 0xFFF, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; BYTE &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab52e9ea9ec051c351cfb68dda05432f7">buffers</a></td></tr>
 <tr class="memitem:abee16fff8da747ae5112c66b3801fc7f" id="r_abee16fff8da747ae5112c66b3801fc7f"><td class="memItemLeft">DWORD&#160;</td><td class="memItemRight"><a class="el" href="#abee16fff8da747ae5112c66b3801fc7f">notifyFilter</a></td></tr>
-<tr class="memitem:accb34593f9d0c148bb89e98fb64a2ccf" id="r_accb34593f9d0c148bb89e98fb64a2ccf"><td class="memItemLeft">BYTE&#160;</td><td class="memItemRight"><a class="el" href="#accb34593f9d0c148bb89e98fb64a2ccf">buffer</a> [16 *1024]</td></tr>
+<tr class="memitem:a4696249d3b636eb6e1c71eb62ff9cee5" id="r_a4696249d3b636eb6e1c71eb62ff9cee5"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; HANDLE, <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4696249d3b636eb6e1c71eb62ff9cee5">relativePathLookup</a></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="accb34593f9d0c148bb89e98fb64a2ccf" name="accb34593f9d0c148bb89e98fb64a2ccf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb34593f9d0c148bb89e98fb64a2ccf">&#9670;&#160;</a></span>buffer</h2>
+<a id="ab52e9ea9ec051c351cfb68dda05432f7" name="ab52e9ea9ec051c351cfb68dda05432f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52e9ea9ec051c351cfb68dda05432f7">&#9670;&#160;</a></span>buffers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BYTE IO::FileWatcherPlatform::buffer[16 *1024]</td>
+          <td class="memname"><a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt;0xFFF, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;BYTE&gt; &gt; IO::FileWatcherPlatform::buffers</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a11cbe79d3738f9768f3847f11d243598" name="a11cbe79d3738f9768f3847f11d243598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11cbe79d3738f9768f3847f11d243598">&#9670;&#160;</a></span>dirHandle</h2>
+<a id="a3b87ac32cffa608926894b02ab2b390c" name="a3b87ac32cffa608926894b02ab2b390c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b87ac32cffa608926894b02ab2b390c">&#9670;&#160;</a></span>handles</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">HANDLE IO::FileWatcherPlatform::dirHandle</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;HANDLE&gt; IO::FileWatcherPlatform::handles</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186,14 +187,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac3783f48d187e283a815d0a519ac30e8" name="ac3783f48d187e283a815d0a519ac30e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3783f48d187e283a815d0a519ac30e8">&#9670;&#160;</a></span>overlapped</h2>
+<a id="a828a925d38dd037ba5127434ec5cfd10" name="a828a925d38dd037ba5127434ec5cfd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a828a925d38dd037ba5127434ec5cfd10">&#9670;&#160;</a></span>overlaps</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">OVERLAPPED IO::FileWatcherPlatform::overlapped</td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;OVERLAPPED&gt; IO::FileWatcherPlatform::overlaps</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,6 +209,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool IO::FileWatcherPlatform::recursive</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4696249d3b636eb6e1c71eb62ff9cee5" name="a4696249d3b636eb6e1c71eb62ff9cee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4696249d3b636eb6e1c71eb62ff9cee5">&#9670;&#160;</a></span>relativePathLookup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;HANDLE, <a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; IO::FileWatcherPlatform::relativePathLookup</td>
         </tr>
       </table>
 </div><div class="memdoc">

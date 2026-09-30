@@ -8,6 +8,6 @@ var ioserver_8h =
     [ "IO::DeleteFile", "namespace_i_o.html#a7b466e45ffb2485bb349ef3dd9a6e7eb", null ],
     [ "IO::DirectoryExists", "namespace_i_o.html#a370ba1d998bdd72ab43f7611f81baac0", null ],
     [ "IO::FileExists", "namespace_i_o.html#a81bcff1ad548c3e18725174079fb4bff", null ],
-    [ "IO::ListDirectories", "namespace_i_o.html#a2077a08f237b8bbe9ff738eeeef8d018", null ],
-    [ "IO::ListFiles", "namespace_i_o.html#abc8e470d127efdc0a9e42fb083465a37", null ]
+    [ "IO::ListDirectories", "namespace_i_o.html#a1fda1a0d779bcf9a04090c10373fe53d", null ],
+    [ "IO::ListFiles", "namespace_i_o.html#a64829c8787d2005aa89e5efe0c042ffa", null ]
 ];

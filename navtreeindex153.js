@@ -1,5 +1,9 @@
 var NAVTREEINDEX153 =
 {
+"struct_resources_1_1_resource_loader_1_1___placeholder_resource.html":[9,0,64,1,11],
+"struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#a90c915a804671d7d9f84711e5d9d7e1e":[8,0,71,1,11,0],
+"struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#a90c915a804671d7d9f84711e5d9d7e1e":[9,0,64,1,11,0],
+"struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#ad32483a9ec3a0b8d518dd709242e6971":[8,0,71,1,11,1],
 "struct_resources_1_1_resource_loader_1_1___placeholder_resource.html#ad32483a9ec3a0b8d518dd709242e6971":[9,0,64,1,11,1],
 "struct_resources_1_1_resource_loader_1_1___stream_data.html":[8,0,71,1,2],
 "struct_resources_1_1_resource_loader_1_1___stream_data.html":[9,0,64,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX153 =
 "struct_terrain_1_1_biome_settings_builder.html#a2130089380c1ffd723fc7f50ad97ebd4":[9,0,70,4,1],
 "struct_terrain_1_1_biome_settings_builder.html#a403537b77ffbf2470bb91240d0545b46":[8,0,80,4,4],
 "struct_terrain_1_1_biome_settings_builder.html#a403537b77ffbf2470bb91240d0545b46":[9,0,70,4,4],
-"struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a":[8,0,80,4,2],
-"struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a":[9,0,70,4,2],
-"struct_terrain_1_1_biome_settings_builder.html#a77696226e76475e45fedda6d0d37cbae":[8,0,80,4,5],
-"struct_terrain_1_1_biome_settings_builder.html#a77696226e76475e45fedda6d0d37cbae":[9,0,70,4,5],
-"struct_terrain_1_1_biome_settings_builder.html#abc44db5b014cffe3813cf8e666aa291e":[8,0,80,4,3]
+"struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a":[8,0,80,4,2]
 };

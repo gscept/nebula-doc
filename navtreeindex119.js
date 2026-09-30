@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"namespacemembers_func_a.html":[8,1,1,1],
+"namespacemembers_func_b.html":[8,1,1,2],
 "namespacemembers_func_c.html":[8,1,1,3],
 "namespacemembers_func_d.html":[8,1,1,4],
 "namespacemembers_func_e.html":[8,1,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "osxmemoryconfig_8h_source.html":[10,0,0,3,13,2,5],
 "osxmemorypool_8cc.html":[10,0,0,3,13,2,6],
 "osxmemorypool_8h.html":[10,0,0,3,13,2,7],
-"osxmemorypool_8h_source.html":[10,0,0,3,13,2,7],
-"osxsingleton_8h.html":[10,0,0,3,1,1,0],
-"osxsingleton_8h.html#a2a8ad85fba9955f0c14a6151337273f6":[10,0,0,3,1,1,0,5]
+"osxmemorypool_8h_source.html":[10,0,0,3,13,2,7]
 };
