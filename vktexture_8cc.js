@@ -4,6 +4,7 @@ var vktexture_8cc =
     [ "CoreGraphics::CreateTexture", "namespace_core_graphics.html#afd701776510676d10ed7784f494fdc98", null ],
     [ "CoreGraphics::DestroyTexture", "namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],
     [ "N_DECLARE_COUNTER", "vktexture_8cc.html#a2de630b16ec2c0fdc6fef88395296ac2", null ],
+    [ "CoreGraphics::RecreateTexture", "namespace_core_graphics.html#add139055b7275c41e44182ad5f44d6e9", null ],
     [ "Vulkan::SetupSparse", "namespace_vulkan.html#af7f656ea311c15b8b8634cc6c38ebfa7", null ],
     [ "CoreGraphics::SetupTexture", "namespace_core_graphics.html#a5ef4a623d97c2a3c08936f5a8973db5c", null ],
     [ "CoreGraphics::TextureClearColor", "namespace_core_graphics.html#aaab2752f7c73fb598fac3b95bb4a7a67", null ],

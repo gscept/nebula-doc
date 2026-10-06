@@ -2,8 +2,7 @@ var struct_physics_1_1_character_create_info =
 [
     [ "CapsuleInfo", "struct_physics_1_1_character_create_info_1_1_capsule_info.html", "struct_physics_1_1_character_create_info_1_1_capsule_info" ],
     [ "BoxInfo", "struct_physics_1_1_character_create_info_1_1_box_info.html", "struct_physics_1_1_character_create_info_1_1_box_info" ],
-    [ "box", "struct_physics_1_1_character_create_info.html#a51461fc68c197f3d3376bdcb20e618dc", null ],
-    [ "capsule", "struct_physics_1_1_character_create_info.html#a62c5c8583fcdf4da304097902f5def51", null ],
+    [ "[union].__unnamed0__", "union_physics_1_1_character_create_info_1_1_0funion_0e_8____unnamed0____.html", "union_physics_1_1_character_create_info_1_1_0funion_0e_8____unnamed0____" ],
     [ "contactOffset", "struct_physics_1_1_character_create_info.html#a10535d00d37720c78860c6a9d0456e6d", null ],
     [ "materialId", "struct_physics_1_1_character_create_info.html#ac9309adb9fd21f2fff7292a0baf3e2ef", null ],
     [ "slideOnSlopes", "struct_physics_1_1_character_create_info.html#ad214f581987953b7745eb5bbec8bd340", null ],

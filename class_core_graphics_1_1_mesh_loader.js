@@ -10,7 +10,7 @@ var class_core_graphics_1_1_mesh_loader =
     [ "GetLayout", "class_core_graphics_1_1_mesh_loader.html#a6a84213e064ead84b2396a5ddb6039e6", null ],
     [ "InitializeResource", "class_core_graphics_1_1_mesh_loader.html#a451d2e022fb0c8a9f55ce5f7b1921d8d", null ],
     [ "LodMask", "class_core_graphics_1_1_mesh_loader.html#aedbea6aeb3fda9df11f8d18f8dce2a8d", null ],
-    [ "SetupMeshFromNvx", "class_core_graphics_1_1_mesh_loader.html#a7e2378f80ce2b7bdbce3a144b83017c2", null ],
+    [ "ReinitializeResource", "class_core_graphics_1_1_mesh_loader.html#a26136fa5cf1c8c774a8165f9ee3aa8cd", null ],
     [ "StreamResource", "class_core_graphics_1_1_mesh_loader.html#afba15824880a270beeeaea91261dab0b", null ],
     [ "Unload", "class_core_graphics_1_1_mesh_loader.html#a213855075dfbb19f51742023578c37bf", null ],
     [ "UpdateLoaderSyncState", "class_core_graphics_1_1_mesh_loader.html#a6ab4ef7f18edee9c626d7514bff808a5", null ],

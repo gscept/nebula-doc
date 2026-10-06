@@ -50,6 +50,7 @@ var texture_8h =
     [ "CoreGraphics::_DECL_ACQUIRE_RELEASE", "namespace_core_graphics.html#aeefb6ced01944c2f39442433cbe6876c", null ],
     [ "CoreGraphics::CreateTexture", "namespace_core_graphics.html#afd701776510676d10ed7784f494fdc98", null ],
     [ "CoreGraphics::DestroyTexture", "namespace_core_graphics.html#aae5aa0ab197f498c75e7e5d958b2cded", null ],
+    [ "CoreGraphics::RecreateTexture", "namespace_core_graphics.html#add139055b7275c41e44182ad5f44d6e9", null ],
     [ "CoreGraphics::TextureClearColor", "namespace_core_graphics.html#aaab2752f7c73fb598fac3b95bb4a7a67", null ],
     [ "CoreGraphics::TextureClearDepthStencil", "namespace_core_graphics.html#a884d1130edfcbbb2f840196cbd31fae8", null ],
     [ "CoreGraphics::TextureGenerateMipmaps", "namespace_core_graphics.html#a216650c21c270adf9da585fe6306b5de", null ],

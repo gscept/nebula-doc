@@ -1,26 +1,9 @@
 var namespace_fog =
 [
+    [ "[struct].blurState", "struct_fog_1_1_0fstruct_0e_8blur_state.html", "struct_fog_1_1_0fstruct_0e_8blur_state" ],
+    [ "[struct].fogState", "struct_fog_1_1_0fstruct_0e_8fog_state.html", "struct_fog_1_1_0fstruct_0e_8fog_state" ],
     [ "VolumetricFogContext", "class_fog_1_1_volumetric_fog_context.html", "class_fog_1_1_volumetric_fog_context" ],
     [ "__ImplementContext", "namespace_fog.html#af81679b45aebe83c1878effd1840d253", null ],
-    [ "blurConstants", "namespace_fog.html#a488eae0fb9916a44616b66e277113f18", null ],
-    [ "blurShader", "namespace_fog.html#a81745779c51871fbd624b7c88f4b9aa8", null ],
     [ "blurState", "namespace_fog.html#a895f1c12753fab63a2ac06e20f30fab8", null ],
-    [ "blurXProgram", "namespace_fog.html#aeffc9b09e22de5b733cb99eb2af6ff99", null ],
-    [ "blurXTable", "namespace_fog.html#a903a3a9c1e0aed34dc3042e45665a364", null ],
-    [ "blurYProgram", "namespace_fog.html#afb552356d951d8c55d4abae54263efd6", null ],
-    [ "blurYTable", "namespace_fog.html#afef0bf7a4146175be1234dda5439e8fc", null ],
-    [ "classificationShader", "namespace_fog.html#a7a4c727f473154d88429d0fa974fafd9", null ],
-    [ "clusterFogIndexLists", "namespace_fog.html#acd2dd516bd5e211b2ca52040166f1215", null ],
-    [ "clusterFogLists", "namespace_fog.html#a1327d9e404762d00bcadc267347db2fd", null ],
-    [ "color", "namespace_fog.html#a62c680e9fd6809caba8a52ee56facb8e", null ],
-    [ "cullProgram", "namespace_fog.html#ae94520972d363c26f0fd966817c71461", null ],
-    [ "fogBoxes", "namespace_fog.html#adc56336121b669bfbbc385bb4606b0aa", null ],
-    [ "fogSpheres", "namespace_fog.html#a7177334b2e4a4b62713e32be604955e7", null ],
-    [ "fogState", "namespace_fog.html#ae372405daf8279573b35e55d55f4bf78", null ],
-    [ "fogUniforms", "namespace_fog.html#ab38f34c824e9fedd16473a31ac05c8e5", null ],
-    [ "r_fog_params", "namespace_fog.html#a4a74d21a18055f1229e7a55db1b883ce", null ],
-    [ "renderProgram", "namespace_fog.html#a7ce159ae5b822cc57e0f3205009b458d", null ],
-    [ "resourceTables", "namespace_fog.html#aea865870e59ab75b2039701111e65007", null ],
-    [ "stagingClusterFogLists", "namespace_fog.html#aa82e6e9c167c9eed80e23931af0e9c90", null ],
-    [ "turbidity", "namespace_fog.html#a2ec118697792665cd7ead061d1e70969", null ]
+    [ "fogState", "namespace_fog.html#ae372405daf8279573b35e55d55f4bf78", null ]
 ];

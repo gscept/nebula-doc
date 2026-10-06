@@ -5,6 +5,7 @@ var class_models_1_1_model_loader =
     [ "__DeclareClass", "class_models_1_1_model_loader.html#acb879e8c4eaf308e94ef861dde62a3a7", null ],
     [ "InitializeResource", "class_models_1_1_model_loader.html#a2c7f452989749529b31ce2a53d8f4df5", null ],
     [ "LodMask", "class_models_1_1_model_loader.html#a919d3c18d246670f23ef384722ace333", null ],
+    [ "ReinitializeResource", "class_models_1_1_model_loader.html#ad368288e76c146fe91497997013d736d", null ],
     [ "Setup", "class_models_1_1_model_loader.html#a825bfa2a20b3d3025dfce2521ac9bfc1", null ],
     [ "StreamResource", "class_models_1_1_model_loader.html#a001a352244744b8e5002aec270617e1a", null ],
     [ "Unload", "class_models_1_1_model_loader.html#a303095897c68d655e14fab6177551fe3", null ],

@@ -3,6 +3,7 @@ var class_resources_1_1_resource =
     [ "State", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe", [
       [ "Pending", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbea06b270cc8b8de730a2e1a3272ed2cc2e", null ],
       [ "Loaded", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbea790302b727f59ac9bb0a3e73dfc316f5", null ],
+      [ "Reloaded", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbea2c05b1e0862769cdaec4bdb99552621f", null ],
       [ "Failed", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbeab8dfcccf11b7f716752c4a8cd57370ab", null ],
       [ "Unloaded", "class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbea5b968b9f1184fdfaeb6faa3588e9affb", null ]
     ] ],

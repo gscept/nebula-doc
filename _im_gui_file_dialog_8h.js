@@ -8,7 +8,7 @@ var _im_gui_file_dialog_8h =
     [ "IGFD_IMGUI_SUPPORTED_VERSION", "_im_gui_file_dialog_8h.html#aa90ded60b4c7cac720c0815912a0b2a7", null ],
     [ "IGFD_VERSION", "_im_gui_file_dialog_8h.html#aedc53cb32d0eea036787e472495aa2ae", null ],
     [ "IGFD_FileStyleFlags", "_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5", null ],
-    [ "IGFD_PaneFun", "_im_gui_file_dialog_8h.html#ad8c2710f55eaaaffd99bbf3be25c8fd0", null ],
+    [ "IGFD_PaneFun", "_im_gui_file_dialog_8h.html#ad1a01c13fd51e030ecb7cd6ccfcf62aa", null ],
     [ "IGFD_ResultMode", "_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd", null ],
     [ "IGFD_Selection", "_im_gui_file_dialog_8h.html#ad3fa498de4eb1f494837f8d78cdd50b7", null ],
     [ "IGFD_Selection_Pair", "_im_gui_file_dialog_8h.html#ad8abf908259772213511125fd4ab1818", null ],

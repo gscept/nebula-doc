@@ -8,6 +8,7 @@ var imguicontext_8cc =
     [ "Dynui::DeallocateImguiTextureId", "namespace_dynui.html#a88515096acfde6f986d56eee3ac5d804", null ],
     [ "Dynui::ImGuiCloseButton", "namespace_dynui.html#a6f9851c6915d6f1d5c42715aa116408c", null ],
     [ "Dynui::ImguiDrawFunction", "namespace_dynui.html#a960ab720f7f43911fd79843bff02e16a", null ],
+    [ "Dynui::ImGuiSpinner", "namespace_dynui.html#a71cd5265c6b094f64f39620d73cd8005", null ],
     [ "Dynui::ImGuiToggleButton", "namespace_dynui.html#a907a2c62f5ed135270a642cece5b3e71", null ],
     [ "Dynui::SetImguiTextureIdData", "namespace_dynui.html#a631e5b5fa303422ad6e1aa7ae287e3fb", null ],
     [ "Dynui::EditorUIPath", "namespace_dynui.html#ab97d79dbbbfc950d973827d8c8ac176e", null ],

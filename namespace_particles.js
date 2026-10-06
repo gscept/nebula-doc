@@ -1,5 +1,6 @@
 var namespace_particles =
 [
+    [ "[struct].state", "struct_particles_1_1_0fstruct_0e_8state.html", "struct_particles_1_1_0fstruct_0e_8state" ],
     [ "EmitterAttrs", "class_particles_1_1_emitter_attrs.html", "class_particles_1_1_emitter_attrs" ],
     [ "EmitterMesh", "class_particles_1_1_emitter_mesh.html", "class_particles_1_1_emitter_mesh" ],
     [ "EnvelopeCurve", "class_particles_1_1_envelope_curve.html", "class_particles_1_1_envelope_curve" ],
@@ -30,26 +31,14 @@ var namespace_particles =
     [ "EnvelopeAttrNames", "namespace_particles.html#a9fa6ec71180f949da8e27f9d88ef6c7d", null ],
     [ "Float4AttrNames", "namespace_particles.html#ab5369e31ff852b4657b2a3d3cf067f66", null ],
     [ "FloatAttrNames", "namespace_particles.html#a9f16a7aaf58455ec6a0036af160546f5", null ],
-    [ "geometryIbo", "namespace_particles.html#ae172d2b2b6f3c7db93f4facf5031cf80", null ],
-    [ "geometryVbo", "namespace_particles.html#a1ae10c88323fb838f1204006cf6c7f22", null ],
     [ "IntAttrNames", "namespace_particles.html#a5be54a7087cc199a040ae87fda081e33", null ],
-    [ "layout", "namespace_particles.html#a61628fb050f081bc95c83635c38d0876", null ],
-    [ "mappedVertices", "namespace_particles.html#ac4144306d977314bb227454d6ef7ac65", null ],
     [ "MaxNumRenderedParticles", "namespace_particles.html#a8965f021c236ba0417be69c04a037d87", null ],
-    [ "numParticlesThisFrame", "namespace_particles.html#a0b026d4a9f0fabbe8bd01ec16ceb5b9e", null ],
-    [ "particleComponents", "namespace_particles.html#ab71019a8fe5b0912bc8377497b54c320", null ],
     [ "ParticleContextNumEnvelopeSamples", "namespace_particles.html#a7125210008927ab9e5a8ba9e167d2b5f", null ],
     [ "ParticleJobInputElementSize", "namespace_particles.html#a7bc1b3acc3ce6ebcdaa30f277fd7a4f2", null ],
     [ "ParticleJobInputMaxElementsPerSlice", "namespace_particles.html#a5d2d33e6de7e0c3ee9105f365fdbb297", null ],
     [ "ParticleJobInputSliceSize", "namespace_particles.html#aaea2ff66268e4a391d46c31608be94d3", null ],
     [ "particleResourceAllocator", "namespace_particles.html#abf4cbdecf1b2025e72d7eb04cd7c7729", null ],
     [ "ParticleSystemNumEnvelopeSamples", "namespace_particles.html#a374692d43bfc5f8fbda6cedb68e21583", null ],
-    [ "primGroup", "namespace_particles.html#aea46a9d16799861c566d261aea1af430", null ],
     [ "state", "namespace_particles.html#a28e3f80b30db55e60e3d93cc0b5eeea3", null ],
-    [ "StepTime", "namespace_particles.html#a13118ac718cf9cbeebd90706e60504fa", null ],
-    [ "vbos", "namespace_particles.html#ad1abed319d1282822f0193a872da9877", null ],
-    [ "vboSizes", "namespace_particles.html#a68a5ed14b22d31966157326e0813148f", null ],
-    [ "vertexAllocs", "namespace_particles.html#af025cc6cb7e8e5e51b14d2016772a10b", null ],
-    [ "vertexPtr", "namespace_particles.html#a447cdd993f347255eb53f4d0697870b4", null ],
-    [ "vertexSize", "namespace_particles.html#a1241c4b27737bb0980c8cf704dfaf574", null ]
+    [ "StepTime", "namespace_particles.html#a13118ac718cf9cbeebd90706e60504fa", null ]
 ];

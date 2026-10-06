@@ -126,5 +126,6 @@ var namespace_game =
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "cl_draw_entity_references", "namespace_game.html#a640176c78e3db0e076af15a69645dea1", null ],
     [ "filterAllocator", "namespace_game.html#ab1c701d66de83f0b410b6da8c9930662", null ],
+    [ "StringAtomComponentDrawOverride", "namespace_game.html#a7c75fa06c5563fa91deba2b0778defaa", null ],
     [ "viewAllocator", "namespace_game.html#a662616bb8ef6d0cf976776a3ca6bd272", null ]
 ];

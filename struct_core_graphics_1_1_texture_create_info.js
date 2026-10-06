@@ -1,14 +1,11 @@
 var struct_core_graphics_1_1_texture_create_info =
 [
+    [ "[union].__unnamed0__", "union_core_graphics_1_1_texture_create_info_1_1_0funion_0e_8____unnamed0____.html", "union_core_graphics_1_1_texture_create_info_1_1_0funion_0e_8____unnamed0____" ],
     [ "TextureCreateInfo", "struct_core_graphics_1_1_texture_create_info.html#a863c66f632998f3cfb8722e131fec377", null ],
     [ "alias", "struct_core_graphics_1_1_texture_create_info.html#af7cc923b3f4c3ca767d64f2386d016e6", null ],
     [ "allowCast", "struct_core_graphics_1_1_texture_create_info.html#a6ef0bd9214c2efb335b4df6bc116546b", null ],
     [ "bindless", "struct_core_graphics_1_1_texture_create_info.html#a78e58b07c181b16d2462f6ac420f129b", null ],
     [ "clear", "struct_core_graphics_1_1_texture_create_info.html#a785951e9a8f347185dce0448b752ec2f", null ],
-    [ "clearColorF4", "struct_core_graphics_1_1_texture_create_info.html#a65e2dd7f8cb911777b2d8640ed35f1bd", null ],
-    [ "clearColorI4", "struct_core_graphics_1_1_texture_create_info.html#ac31952351b8341ffbe3b47f3e5008259", null ],
-    [ "clearColorU4", "struct_core_graphics_1_1_texture_create_info.html#a25e110b871031594cdd47e8ae37bc88b", null ],
-    [ "clearDepthStencil", "struct_core_graphics_1_1_texture_create_info.html#a642ebf73a61fac5094e938b618674795", null ],
     [ "data", "struct_core_graphics_1_1_texture_create_info.html#a3ee273f4ff1232d29d2efb916bfe3c86", null ],
     [ "dataSize", "struct_core_graphics_1_1_texture_create_info.html#ac2c7dfd689bda7d421b7f31d5d20a880", null ],
     [ "defaultLayout", "struct_core_graphics_1_1_texture_create_info.html#a8cfdb013e2d92f59b3ce72849b99cd25", null ],

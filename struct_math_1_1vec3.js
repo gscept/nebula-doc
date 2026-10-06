@@ -1,5 +1,6 @@
 var struct_math_1_1vec3 =
 [
+    [ "[union].__unnamed0__", "union_math_1_1vec3_1_1_0funion_0e_8____unnamed0____.html", "union_math_1_1vec3_1_1_0funion_0e_8____unnamed0____" ],
     [ "vec3", "struct_math_1_1vec3.html#a3959d9556fb78a43462eb592b72c616b", null ],
     [ "vec3", "struct_math_1_1vec3.html#a6e82c648aa3423302772ddc48e2c92fa", null ],
     [ "vec3", "struct_math_1_1vec3.html#a3d2717326af66c184d69e9080ad29bd4", null ],
@@ -21,11 +22,5 @@ var struct_math_1_1vec3 =
     [ "set", "struct_math_1_1vec3.html#acf12aaf8a345d8f90ade130f8054e76d", null ],
     [ "store", "struct_math_1_1vec3.html#a6dcb80d56a443ac8d4aec97caf0126c0", null ],
     [ "storeu", "struct_math_1_1vec3.html#a2cf06da6a4833f3e8a628124f22aae3e", null ],
-    [ "stream", "struct_math_1_1vec3.html#a020c5cc5fa6ae7025b64edbdc48f2dea", null ],
-    [ "__w", "struct_math_1_1vec3.html#a9108c38c5fcf057197e2aa7c56338b17", null ],
-    [ "v", "struct_math_1_1vec3.html#a12c41c45cbe05af12130efe54b11c37d", null ],
-    [ "vec", "struct_math_1_1vec3.html#ab617041ab73e4ada418ffb975c639978", null ],
-    [ "x", "struct_math_1_1vec3.html#a7ba0448ec86a378e98d3cfac6817fcfd", null ],
-    [ "y", "struct_math_1_1vec3.html#ae7dac7ef01ff39a327cbdd78b4023b4c", null ],
-    [ "z", "struct_math_1_1vec3.html#a88fba0e7272a00ab2f8dcd15d8f1c3bf", null ]
+    [ "stream", "struct_math_1_1vec3.html#a020c5cc5fa6ae7025b64edbdc48f2dea", null ]
 ];

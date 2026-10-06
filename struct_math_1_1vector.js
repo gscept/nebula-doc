@@ -1,5 +1,6 @@
 var struct_math_1_1vector =
 [
+    [ "[union].__unnamed0__", "union_math_1_1vector_1_1_0funion_0e_8____unnamed0____.html", "union_math_1_1vector_1_1_0funion_0e_8____unnamed0____" ],
     [ "vector", "struct_math_1_1vector.html#af786766bcf417b5714096a88e24f05ac", null ],
     [ "vector", "struct_math_1_1vector.html#af3cfcf2239ebf0d885c1facfafac5c93", null ],
     [ "vector", "struct_math_1_1vector.html#aee99e51bce98a39f55a8fdecc4ed62c4", null ],
@@ -25,9 +26,5 @@ var struct_math_1_1vector =
     [ "set", "struct_math_1_1vector.html#a92a3ba10d34d42943d288314b83b9a75", null ],
     [ "store", "struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822", null ],
     [ "storeu", "struct_math_1_1vector.html#a663d185dffa0c1d95e2544ed1661e030", null ],
-    [ "upvec", "struct_math_1_1vector.html#a630fc8b97539e5fe966a9b3d13423334", null ],
-    [ "vec", "struct_math_1_1vector.html#a01ce1ecfb87b62899ad1bdfe6c9e9963", null ],
-    [ "x", "struct_math_1_1vector.html#a5bec30ddf12976cc8d52971af4488005", null ],
-    [ "y", "struct_math_1_1vector.html#a5d4d1e77f9c39850cf475a0814d90879", null ],
-    [ "z", "struct_math_1_1vector.html#a3d792c01b10c0415bdadf21e7ccc3687", null ]
+    [ "upvec", "struct_math_1_1vector.html#a630fc8b97539e5fe966a9b3d13423334", null ]
 ];

@@ -1,8 +1,8 @@
 var class_fibers_1_1_fiber_queue =
 [
     [ "Job", "struct_fibers_1_1_fiber_queue_1_1_job.html", "struct_fibers_1_1_fiber_queue_1_1_job" ],
-    [ "FiberFunction", "class_fibers_1_1_fiber_queue.html#ad3a8ce9d95c9707271a2eadd0d90a50a", null ],
-    [ "JobFunction", "class_fibers_1_1_fiber_queue.html#a36a0b86723f42a700713a396946f4501", null ],
+    [ "FiberFunction", "class_fibers_1_1_fiber_queue.html#a30f25c15e9bd8c21b844468b01481a85", null ],
+    [ "JobFunction", "class_fibers_1_1_fiber_queue.html#aa4b29b97c64c6d0e0e5cf63ad79bda95", null ],
     [ "FiberQueue", "class_fibers_1_1_fiber_queue.html#a47882d22057b020ae29cbcce302e85cb", null ],
     [ "~FiberQueue", "class_fibers_1_1_fiber_queue.html#aa5311f6d04265a8de29ddfdf98fc459f", null ],
     [ "Dequeue", "class_fibers_1_1_fiber_queue.html#ada878c5bcb884ee6c17ca0d091e12c80", null ],

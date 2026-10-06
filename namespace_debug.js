@@ -1,5 +1,6 @@
 var namespace_debug =
 [
+    [ "[struct].state", "struct_debug_1_1_0fstruct_0e_8state.html", "struct_debug_1_1_0fstruct_0e_8state" ],
     [ "ConsolePageHandler", "class_debug_1_1_console_page_handler.html", "class_debug_1_1_console_page_handler" ],
     [ "CorePageHandler", "class_debug_1_1_core_page_handler.html", "class_debug_1_1_core_page_handler" ],
     [ "DebugCounter", "class_debug_1_1_debug_counter.html", "class_debug_1_1_debug_counter" ],
@@ -40,8 +41,5 @@ var namespace_debug =
     [ "__ImplementClass", "namespace_debug.html#a5e10c58d0de8d60862e7fc4dd4a06b0f", null ],
     [ "__ImplementInterfaceSingleton", "namespace_debug.html#a7042fce4c03b2394b58f5fb6d4358ef7", null ],
     [ "__ImplementInterfaceSingleton", "namespace_debug.html#a48c63c7a25dab666dec6b289b4b157f4", null ],
-    [ "selectedLayer", "namespace_debug.html#a8e6ef26430eb535b233dec680566ebca", null ],
-    [ "selectedMip", "namespace_debug.html#ab8810382eb190c8981b535426452b7b8", null ],
-    [ "selectedTarget", "namespace_debug.html#a33bfa36a38745604f49e8ed73c173468", null ],
     [ "state", "namespace_debug.html#a702971b1b98deac5e57cf2a511d1bad6", null ]
 ];

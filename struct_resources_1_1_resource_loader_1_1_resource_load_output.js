@@ -1,6 +1,7 @@
 var struct_resources_1_1_resource_loader_1_1_resource_load_output =
 [
     [ "UpdateLoaderState", "struct_resources_1_1_resource_loader_1_1_resource_load_output.html#a1b2ee6b3f9b40a03c82f60a322a54245", null ],
+    [ "flags", "struct_resources_1_1_resource_loader_1_1_resource_load_output.html#a548974bc630dd9b267214e92e76fae98", null ],
     [ "id", "struct_resources_1_1_resource_loader_1_1_resource_load_output.html#a380390237d228eb99d04d63a5e0458b6", null ],
     [ "loadState", "struct_resources_1_1_resource_loader_1_1_resource_load_output.html#a19c8d6a6f2c281b17ff387e42929e0b8", null ],
     [ "remainderJob", "struct_resources_1_1_resource_loader_1_1_resource_load_output.html#a91579615db28f4171c809304f792a5a6", null ],

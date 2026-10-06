@@ -1,5 +1,6 @@
 var struct_math_1_1point =
 [
+    [ "[union].__unnamed0__", "union_math_1_1point_1_1_0funion_0e_8____unnamed0____.html", "union_math_1_1point_1_1_0funion_0e_8____unnamed0____" ],
     [ "point", "struct_math_1_1point.html#aa04de3183ac910d1e8f4ab7b03b82d7d", null ],
     [ "point", "struct_math_1_1point.html#afcdce61eeb24c6da990770514be2d031", null ],
     [ "point", "struct_math_1_1point.html#a85c8202d7eb693e0456041e99e0f2550", null ],
@@ -22,9 +23,5 @@ var struct_math_1_1point =
     [ "store", "struct_math_1_1point.html#a6ff59b8c6104eb933bc15afb27671494", null ],
     [ "store3", "struct_math_1_1point.html#a71e56f109d1ca718f8744a96e572c25f", null ],
     [ "storeu", "struct_math_1_1point.html#a35cbd15822ac2e2350a19cac454a37c1", null ],
-    [ "storeu3", "struct_math_1_1point.html#aee5a69bda805677eb4b12aa1978cac01", null ],
-    [ "vec", "struct_math_1_1point.html#a584b5920b505838aa64d017ed3428e9f", null ],
-    [ "x", "struct_math_1_1point.html#a7e4776b164ba80a30f5b777ae4375c32", null ],
-    [ "y", "struct_math_1_1point.html#aca2ad88cc7a0e76e625a4b07769362cd", null ],
-    [ "z", "struct_math_1_1point.html#a1cfbd292f08abf43ea2069740bad4aad", null ]
+    [ "storeu3", "struct_math_1_1point.html#aee5a69bda805677eb4b12aa1978cac01", null ]
 ];

@@ -1,26 +1,10 @@
 var namespace_clustering =
 [
+    [ "[struct].state", "struct_clustering_1_1_0fstruct_0e_8state.html", "struct_clustering_1_1_0fstruct_0e_8state" ],
     [ "ClusterContext", "class_clustering_1_1_cluster_context.html", "class_clustering_1_1_cluster_context" ],
     [ "__ImplementPluginContext", "namespace_clustering.html#a5b48c99eaa40bf6675db97e6951b5599", null ],
     [ "ClusterBlockSizeX", "namespace_clustering.html#ab8b087601b8ba9f85b460b1039a57180", null ],
     [ "ClusterBlockSizeY", "namespace_clustering.html#a479cd9d4189873d49cbe4e2e970571f0", null ],
     [ "ClusterBlockSizeZ", "namespace_clustering.html#aea44ae7b9dce6a9f4d90d900a3020d31", null ],
-    [ "clusterBuffer", "namespace_clustering.html#a695d86a5977a02832e13f3b8e75b72f3", null ],
-    [ "clusterDimensions", "namespace_clustering.html#aee3093d03cc338873dd8551aea6b20b7", null ],
-    [ "clusterGenerateProgram", "namespace_clustering.html#ade21b71e57fed04002e9e0ca68aa2c8c", null ],
-    [ "clusterShader", "namespace_clustering.html#ae6636f1b803d11291cdf2aceac96eb4f", null ],
-    [ "constantBuffer", "namespace_clustering.html#a33703f24ab0dd9c5cba528ce6a7126f8", null ],
-    [ "invXResolution", "namespace_clustering.html#ad9e6a8b358eb91ce8484f5acc5d4fbba", null ],
-    [ "invYResolution", "namespace_clustering.html#a50ff5bde76726104fdb2f3fe1840f673", null ],
-    [ "numThreads", "namespace_clustering.html#ae527c39e39a3bbb9afb26dc712db65fb", null ],
-    [ "state", "namespace_clustering.html#a9478e7be8f54e63dd4bd2c4cf968d13a", null ],
-    [ "uniforms", "namespace_clustering.html#a7cdb3fe75647c075795d5fb63496de25", null ],
-    [ "window", "namespace_clustering.html#afab15f66fc118e8eb9cd1c8edbce5ca7", null ],
-    [ "xResolution", "namespace_clustering.html#a581f331c494a300ae88fa56b64571df4", null ],
-    [ "yResolution", "namespace_clustering.html#a50f52304c2050b6053b79840ca102d5e", null ],
-    [ "zDistribution", "namespace_clustering.html#aff256b6872dc6f3d89367e93006e18ba", null ],
-    [ "zFar", "namespace_clustering.html#ac18caf0499fcb3fec353079b093e9ad1", null ],
-    [ "zInvBias", "namespace_clustering.html#ab8906da19ea8cbc0f2226c71e7e27105", null ],
-    [ "zInvScale", "namespace_clustering.html#a04a96c5d843966c6c23877b8955997b6", null ],
-    [ "zNear", "namespace_clustering.html#a8c5fad9999ca7c2cbb8fc67af4a29473", null ]
+    [ "state", "namespace_clustering.html#a9478e7be8f54e63dd4bd2c4cf968d13a", null ]
 ];

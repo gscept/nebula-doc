@@ -21,5 +21,6 @@ var componentinspection_8cc =
     [ "Game::ComponentDrawFuncT< Util::BitField< 64 > >", "namespace_game.html#a49a7972a2cd262500f94af0fb1b3b49d", null ],
     [ "Game::ComponentDrawFuncT< Util::Color >", "namespace_game.html#a1ac67e6796fa9a010f9228396268f902", null ],
     [ "Game::ComponentDrawFuncT< Util::StringAtom >", "namespace_game.html#a7523b4ced6f19987221f90a23c0267dd", null ],
-    [ "Game::cl_draw_entity_references", "namespace_game.html#a640176c78e3db0e076af15a69645dea1", null ]
+    [ "Game::cl_draw_entity_references", "namespace_game.html#a640176c78e3db0e076af15a69645dea1", null ],
+    [ "Game::StringAtomComponentDrawOverride", "namespace_game.html#a7c75fa06c5563fa91deba2b0778defaa", null ]
 ];

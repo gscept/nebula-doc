@@ -24,16 +24,11 @@ var class_math_1_1half =
     [ "operator>=", "class_math_1_1half.html#ae46fc639e31c1523d1290268421ace9e", null ],
     [ "std::numeric_limits< Math::half >", "class_math_1_1half.html#a00f3b28fbd8af0ac4e8aaa1cec7f0bd8", null ],
     [ "BIAS", "class_math_1_1half.html#a858b21560e3785579f8a04eeec839e95", null ],
-    [ "bits", "class_math_1_1half.html#a61c985409f5aadc624fdefa92cfbbe29", null ],
     [ "BITS_EXPONENT", "class_math_1_1half.html#a8faff79ae4ca01c65b271ddae14a7dcd", null ],
     [ "BITS_MANTISSA", "class_math_1_1half.html#a739d0cfac9ea71a80b35123865d2e030", null ],
-    [ "exp", "class_math_1_1half.html#a0d3ca863b0699c60700f2ec4fddd7a79", null ],
-    [ "frac", "class_math_1_1half.html#a1f0bc278fc8ada8058499c74c5e82a6c", null ],
-    [ "ieee", "class_math_1_1half.html#adfdc97af4347a4ac63aa6cd8ad89a5b4", null ],
     [ "MAX_EXPONENT", "class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd", null ],
     [ "MAX_EXPONENT10", "class_math_1_1half.html#a2661f2b3fc80b70105a201f2970a3a28", null ],
     [ "MAX_EXPONENT_VALUE", "class_math_1_1half.html#ac956ed975b2bac6482863816d6fab591", null ],
     [ "MIN_EXPONENT", "class_math_1_1half.html#a1d0233a234475a32565c1737a91cdadf", null ],
-    [ "MIN_EXPONENT10", "class_math_1_1half.html#ae7ce668917549888afcc711a7c8ebbac", null ],
-    [ "sign", "class_math_1_1half.html#a679265420d942781eb0450b2bb8ad74b", null ]
+    [ "MIN_EXPONENT10", "class_math_1_1half.html#ae7ce668917549888afcc711a7c8ebbac", null ]
 ];

@@ -33,5 +33,5 @@ var searchData=
   ['timing_20subsystem_20basics_30',['Timing Subsystem Basics',['../_timing.html#NebulaTimingBasics',1,'']]],
   ['todo_20list_31',['Todo List',['../todo.html',1,'']]],
   ['type_20information_20system_32',['The Nebula Runtime Type Information System',['../_core.html#NebulaRTTI',1,'']]],
-  ['types_33',['types',['../_nebula_i_d_l.html#NIDLEnumeratedTypes',1,'Enumerated types'],['../bug.html#_bug000001',1,'Enumerated types']]]
+  ['types_33',['Enumerated types',['../_nebula_i_d_l.html#NIDLEnumeratedTypes',1,'']]]
 ];

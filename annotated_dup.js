@@ -108,6 +108,7 @@ var annotated_dup =
       [ "SkeletonResourceId", "struct_characters_1_1_skeleton_resource_id.html", null ]
     ] ],
     [ "Clustering", "namespace_clustering.html", [
+      [ "[struct].state", "struct_clustering_1_1_0fstruct_0e_8state.html", "struct_clustering_1_1_0fstruct_0e_8state" ],
       [ "ClusterContext", "class_clustering_1_1_cluster_context.html", "class_clustering_1_1_cluster_context" ]
     ] ],
     [ "ConsoleHook", "namespace_console_hook.html", [
@@ -344,6 +345,7 @@ var annotated_dup =
       [ "Writer", "class_db_1_1_writer.html", "class_db_1_1_writer" ]
     ] ],
     [ "Debug", "namespace_debug.html", [
+      [ "[struct].state", "struct_debug_1_1_0fstruct_0e_8state.html", "struct_debug_1_1_0fstruct_0e_8state" ],
       [ "ConsolePageHandler", "class_debug_1_1_console_page_handler.html", "class_debug_1_1_console_page_handler" ],
       [ "CorePageHandler", "class_debug_1_1_core_page_handler.html", "class_debug_1_1_core_page_handler" ],
       [ "DebugCounter", "class_debug_1_1_debug_counter.html", "class_debug_1_1_debug_counter" ],
@@ -366,6 +368,7 @@ var annotated_dup =
       [ "ThreadPageHandler", "class_debug_1_1_thread_page_handler.html", "class_debug_1_1_thread_page_handler" ]
     ] ],
     [ "Decals", "namespace_decals.html", [
+      [ "[struct].decalState", "struct_decals_1_1_0fstruct_0e_8decal_state.html", "struct_decals_1_1_0fstruct_0e_8decal_state" ],
       [ "DecalContext", "class_decals_1_1_decal_context.html", "class_decals_1_1_decal_context" ]
     ] ],
     [ "Dynui", "namespace_dynui.html", [
@@ -397,6 +400,8 @@ var annotated_dup =
       [ "FlatbufferInterface", "class_flat_1_1_flatbuffer_interface.html", "class_flat_1_1_flatbuffer_interface" ]
     ] ],
     [ "Fog", "namespace_fog.html", [
+      [ "[struct].blurState", "struct_fog_1_1_0fstruct_0e_8blur_state.html", "struct_fog_1_1_0fstruct_0e_8blur_state" ],
+      [ "[struct].fogState", "struct_fog_1_1_0fstruct_0e_8fog_state.html", "struct_fog_1_1_0fstruct_0e_8fog_state" ],
       [ "VolumetricFogContext", "class_fog_1_1_volumetric_fog_context.html", "class_fog_1_1_volumetric_fog_context" ]
     ] ],
     [ "Frame", "namespace_frame.html", [
@@ -471,6 +476,7 @@ var annotated_dup =
       [ "GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", "class_gcc_1_1_gcc_interlocked" ]
     ] ],
     [ "GI", "namespace_g_i.html", [
+      [ "[struct].state", "struct_g_i_1_1_0fstruct_0e_8state.html", "struct_g_i_1_1_0fstruct_0e_8state" ],
       [ "DDGIContext", "class_g_i_1_1_d_d_g_i_context.html", "class_g_i_1_1_d_d_g_i_context" ],
       [ "DDGIOptions", "union_g_i_1_1_d_d_g_i_options.html", "union_g_i_1_1_d_d_g_i_options" ]
     ] ],
@@ -479,6 +485,9 @@ var annotated_dup =
       [ "GLFWInputServer", "class_g_l_f_w_1_1_g_l_f_w_input_server.html", "class_g_l_f_w_1_1_g_l_f_w_input_server" ]
     ] ],
     [ "Graphics", "namespace_graphics.html", [
+      [ "[struct].envState", "struct_graphics_1_1_0fstruct_0e_8env_state.html", "struct_graphics_1_1_0fstruct_0e_8env_state" ],
+      [ "[struct].globalConstantState", "struct_graphics_1_1_0fstruct_0e_8global_constant_state.html", "struct_graphics_1_1_0fstruct_0e_8global_constant_state" ],
+      [ "[struct].state", "struct_graphics_1_1_0fstruct_0e_8state.html", "struct_graphics_1_1_0fstruct_0e_8state" ],
       [ "BindlessRegistryCreateInfo", "struct_graphics_1_1_bindless_registry_create_info.html", null ],
       [ "CameraContext", "class_graphics_1_1_camera_context.html", "class_graphics_1_1_camera_context" ],
       [ "CameraSettings", "class_graphics_1_1_camera_settings.html", "class_graphics_1_1_camera_settings" ],
@@ -663,6 +672,10 @@ var annotated_dup =
       [ "JobSystemInitInfo", "struct_jobs2_1_1_job_system_init_info.html", "struct_jobs2_1_1_job_system_init_info" ]
     ] ],
     [ "Lighting", "namespace_lighting.html", [
+      [ "[struct].clusterState", "struct_lighting_1_1_0fstruct_0e_8cluster_state.html", "struct_lighting_1_1_0fstruct_0e_8cluster_state" ],
+      [ "[struct].combineState", "struct_lighting_1_1_0fstruct_0e_8combine_state.html", "struct_lighting_1_1_0fstruct_0e_8combine_state" ],
+      [ "[struct].lightServerState", "struct_lighting_1_1_0fstruct_0e_8light_server_state.html", "struct_lighting_1_1_0fstruct_0e_8light_server_state" ],
+      [ "[struct].textureState", "struct_lighting_1_1_0fstruct_0e_8texture_state.html", "struct_lighting_1_1_0fstruct_0e_8texture_state" ],
       [ "LightContext", "class_lighting_1_1_light_context.html", "class_lighting_1_1_light_context" ]
     ] ],
     [ "Linux", "namespace_linux.html", [
@@ -674,6 +687,7 @@ var annotated_dup =
       [ "LinuxThreadLocalPtr", "class_linux_1_1_linux_thread_local_ptr.html", "class_linux_1_1_linux_thread_local_ptr" ]
     ] ],
     [ "Materials", "namespace_materials.html", [
+      [ "[struct].materialLoaderState", "struct_materials_1_1_0fstruct_0e_8material_loader_state.html", "struct_materials_1_1_0fstruct_0e_8material_loader_state" ],
       [ "MaterialBuffer", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
       [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
       [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
@@ -872,6 +886,7 @@ var annotated_dup =
       [ "SysFunc", "class_o_s_x_1_1_sys_func.html", "class_o_s_x_1_1_sys_func" ]
     ] ],
     [ "Particles", "namespace_particles.html", [
+      [ "[struct].state", "struct_particles_1_1_0fstruct_0e_8state.html", "struct_particles_1_1_0fstruct_0e_8state" ],
       [ "EmitterAttrs", "class_particles_1_1_emitter_attrs.html", "class_particles_1_1_emitter_attrs" ],
       [ "EmitterMesh", "class_particles_1_1_emitter_mesh.html", "class_particles_1_1_emitter_mesh" ],
       [ "EnvelopeCurve", "class_particles_1_1_envelope_curve.html", "class_particles_1_1_envelope_curve" ],
@@ -951,6 +966,11 @@ var annotated_dup =
       [ "SysFunc", "class_posix_1_1_sys_func.html", "class_posix_1_1_sys_func" ]
     ] ],
     [ "PostEffects", "namespace_post_effects.html", [
+      [ "[struct].bloomState", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html", "struct_post_effects_1_1_0fstruct_0e_8bloom_state" ],
+      [ "[struct].histogramState", "struct_post_effects_1_1_0fstruct_0e_8histogram_state.html", "struct_post_effects_1_1_0fstruct_0e_8histogram_state" ],
+      [ "[struct].ssaoState", "struct_post_effects_1_1_0fstruct_0e_8ssao_state.html", "struct_post_effects_1_1_0fstruct_0e_8ssao_state" ],
+      [ "[struct].ssrState", "struct_post_effects_1_1_0fstruct_0e_8ssr_state.html", "struct_post_effects_1_1_0fstruct_0e_8ssr_state" ],
+      [ "[struct].state", "struct_post_effects_1_1_0fstruct_0e_8state.html", "struct_post_effects_1_1_0fstruct_0e_8state" ],
       [ "BloomContext", "class_post_effects_1_1_bloom_context.html", "class_post_effects_1_1_bloom_context" ],
       [ "DownsamplingContext", "class_post_effects_1_1_downsampling_context.html", "class_post_effects_1_1_downsampling_context" ],
       [ "HistogramContext", "class_post_effects_1_1_histogram_context.html", "class_post_effects_1_1_histogram_context" ],
@@ -964,6 +984,7 @@ var annotated_dup =
       [ "ProfilingContext", "struct_profiling_1_1_profiling_context.html", "struct_profiling_1_1_profiling_context" ]
     ] ],
     [ "Raytracing", "namespace_raytracing.html", [
+      [ "[struct].state", "struct_raytracing_1_1_0fstruct_0e_8state.html", "struct_raytracing_1_1_0fstruct_0e_8state" ],
       [ "RaytracingContext", "class_raytracing_1_1_raytracing_context.html", "class_raytracing_1_1_raytracing_context" ],
       [ "RaytracingSetupSettings", "struct_raytracing_1_1_raytracing_setup_settings.html", "struct_raytracing_1_1_raytracing_setup_settings" ]
     ] ],
@@ -996,6 +1017,8 @@ var annotated_dup =
       [ "ScriptFeatureUnit", "class_scripting_1_1_script_feature_unit.html", "class_scripting_1_1_script_feature_unit" ]
     ] ],
     [ "StaticUI", "namespace_static_u_i.html", [
+      [ "[struct].state", "struct_static_u_i_1_1_0fstruct_0e_8state.html", "struct_static_u_i_1_1_0fstruct_0e_8state" ],
+      [ "[struct].ultralightState", "struct_static_u_i_1_1_0fstruct_0e_8ultralight_state.html", "struct_static_u_i_1_1_0fstruct_0e_8ultralight_state" ],
       [ "Logger", "struct_static_u_i_1_1_logger.html", "struct_static_u_i_1_1_logger" ],
       [ "StaticUIContext", "class_static_u_i_1_1_static_u_i_context.html", "class_static_u_i_1_1_static_u_i_context" ],
       [ "UltralightRenderer", "class_static_u_i_1_1_ultralight_renderer.html", "class_static_u_i_1_1_ultralight_renderer" ]
@@ -1024,6 +1047,9 @@ var annotated_dup =
       [ "TBUIView", "class_t_b_u_i_1_1_t_b_u_i_view.html", null ]
     ] ],
     [ "Terrain", "namespace_terrain.html", [
+      [ "[struct].raytracingState", "struct_terrain_1_1_0fstruct_0e_8raytracing_state.html", "struct_terrain_1_1_0fstruct_0e_8raytracing_state" ],
+      [ "[struct].terrainState", "struct_terrain_1_1_0fstruct_0e_8terrain_state.html", "struct_terrain_1_1_0fstruct_0e_8terrain_state" ],
+      [ "[struct].terrainVirtualTileState", "struct_terrain_1_1_0fstruct_0e_8terrain_virtual_tile_state.html", "struct_terrain_1_1_0fstruct_0e_8terrain_virtual_tile_state" ],
       [ "BiomeMaterial", "struct_terrain_1_1_biome_material.html", "struct_terrain_1_1_biome_material" ],
       [ "BiomeMaterialBuilder", "struct_terrain_1_1_biome_material_builder.html", "struct_terrain_1_1_biome_material_builder" ],
       [ "BiomeParameters", "struct_terrain_1_1_biome_parameters.html", "struct_terrain_1_1_biome_parameters" ],
@@ -1124,6 +1150,7 @@ var annotated_dup =
       [ "Variant", "class_util_1_1_variant.html", "class_util_1_1_variant" ]
     ] ],
     [ "Vegetation", "namespace_vegetation.html", [
+      [ "[struct].vegetationState", "struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html", "struct_vegetation_1_1_0fstruct_0e_8vegetation_state" ],
       [ "CombinedMeshVertex", "struct_vegetation_1_1_combined_mesh_vertex.html", "struct_vegetation_1_1_combined_mesh_vertex" ],
       [ "GrassVertex", "struct_vegetation_1_1_grass_vertex.html", "struct_vegetation_1_1_grass_vertex" ],
       [ "VegetationBiomeId", "struct_vegetation_1_1_vegetation_biome_id.html", null ],

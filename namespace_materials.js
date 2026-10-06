@@ -1,5 +1,6 @@
 var namespace_materials =
 [
+    [ "[struct].materialLoaderState", "struct_materials_1_1_0fstruct_0e_8material_loader_state.html", "struct_materials_1_1_0fstruct_0e_8material_loader_state" ],
     [ "MaterialBuffer", "struct_materials_1_1_material_buffer.html", "struct_materials_1_1_material_buffer" ],
     [ "MaterialConstant", "struct_materials_1_1_material_constant.html", "struct_materials_1_1_material_constant" ],
     [ "MaterialId", "struct_materials_1_1_material_id.html", null ],
@@ -48,18 +49,10 @@ var namespace_materials =
     [ "MaterialSetTexture", "namespace_materials.html#ae0a8e570473e00b934a7a50afb5aa669", null ],
     [ "MaterialSetTexture", "namespace_materials.html#a41ee774b3eddbf0afba5c25f3a58b34f", null ],
     [ "MaterialSetTextureBindless", "namespace_materials.html#a5a744cfae975fcee6c91bfb2ad6f56b2", null ],
-    [ "bindings", "namespace_materials.html#a4ddf17a18bfd1907af2426c134c90198", null ],
-    [ "bits", "namespace_materials.html#a6d4f485fd3d958a93a3b0d3a5de574cd", null ],
-    [ "computeDirty", "namespace_materials.html#a9a2fe8308c947c205a49248b501052a4", null ],
-    [ "dirtySet", "namespace_materials.html#a074e52da8ff386c3eb7ab98913bebbd7", null ],
-    [ "graphicsDirty", "namespace_materials.html#ac37785012da1cde7b693eb85392965ee", null ],
     [ "LoaderMap", "namespace_materials.html#a9944bdb8b64a4fdfa27a8609077be335", null ],
     [ "material", "namespace_materials.html#aed8f2753977b2237906857e07d0594ee", null ],
     [ "materialAllocator", "namespace_materials.html#a941d0277ca29f53a5d76edc5375112a1", null ],
-    [ "materialBindingBuffer", "namespace_materials.html#aed6b14f70e7d5516d16e36164af4924c", null ],
     [ "materialInstanceAllocator", "namespace_materials.html#ab86483cfc9215ac57a30f8e352ff0a9c", null ],
     [ "materialLoaderState", "namespace_materials.html#a59fe8b7be75c5714fc3fe8b5377b76d1", null ],
-    [ "materialTextureLoadSection", "namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac", null ],
-    [ "variantAllocator", "namespace_materials.html#ae0df99b4267083a9b8fdf98d2a210a6e", null ],
-    [ "variantAllocatorLock", "namespace_materials.html#afbef763f80811b0b86c6082ec6cd914e", null ]
+    [ "materialTextureLoadSection", "namespace_materials.html#a5b0fbbbe44634e36f8d3da6a2f12f7ac", null ]
 ];

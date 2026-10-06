@@ -26,6 +26,7 @@ var namespace_dynui =
     [ "DeallocateImguiTextureId", "namespace_dynui.html#a88515096acfde6f986d56eee3ac5d804", null ],
     [ "ImGuiCloseButton", "namespace_dynui.html#a6f9851c6915d6f1d5c42715aa116408c", null ],
     [ "ImguiDrawFunction", "namespace_dynui.html#a960ab720f7f43911fd79843bff02e16a", null ],
+    [ "ImGuiSpinner", "namespace_dynui.html#a71cd5265c6b094f64f39620d73cd8005", null ],
     [ "ImGuiToggleButton", "namespace_dynui.html#a907a2c62f5ed135270a642cece5b3e71", null ],
     [ "RecursiveDrawGpuMarker", "namespace_dynui.html#a335ab4fee1ce03724bee671f6db0f760", null ],
     [ "RecursiveDrawScope", "namespace_dynui.html#a15cd05e51cba07b079239834c586dc00", null ],

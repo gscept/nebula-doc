@@ -58,7 +58,7 @@ var class_graphics_1_1_graphics_server =
     [ "preLogicCalls", "class_graphics_1_1_graphics_server.html#acac2a01615d0f5a9c11e5855c3aacde2", null ],
     [ "preLogicViewCalls", "class_graphics_1_1_graphics_server.html#a6adc8dc26a03ba5120d929c74701bd42", null ],
     [ "preViewCallbacks", "class_graphics_1_1_graphics_server.html#afe6415203f4f4dab91a56430ec60d965", null ],
-    [ "resizeCall", "class_graphics_1_1_graphics_server.html#afa93b5bb358657a65a560fb187b06314", null ],
+    [ "resizeCall", "class_graphics_1_1_graphics_server.html#a5dca9661a9fed91e4b0341decb8d219e", null ],
     [ "shaderLoader", "class_graphics_1_1_graphics_server.html#a062a782151491d5f6b9a001b4c19a8a5", null ],
     [ "shaderServer", "class_graphics_1_1_graphics_server.html#a8505372bce399a9401a9631d19e6d8af", null ],
     [ "shapeRenderer", "class_graphics_1_1_graphics_server.html#a7d1614eca4433f4061631ffe350561d4", null ],
